@@ -1,0 +1,64 @@
+/* Styles de base pour la barre de navigation */
+.sidebar {
+  color: white;
+  background: linear-gradient(-20deg, var(--lol-gradient-2) 75%, var(--lol-gradient-1));
+  width: 14vw;
+  height: 100vh;
+  padding: 1.5vw;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: left;
+  }
+  
+  .header {
+    margin-bottom: 20px; /* Espacement sous le titre */
+  }
+  
+  .header h1 {
+    margin: 0; /* Enlève les marges par défaut */
+    font-size: 1vw; /* Taille du titre */
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700; /* ExtraBold */
+  }
+  
+  .divider {
+    border: none;
+    border-bottom: 2px solid white; /* Couleur et épaisseur du trait */
+    width: 100%; /* Largeur du trait */
+    margin: 10px auto; /* Centre le trait horizontalement */
+  }
+  
+  .logo-section {
+    display: flex; /* Utilise flexbox pour aligner les éléments */
+    align-items: center; /* Centre les éléments verticalement */
+    gap: 10px; /* Espacement entre les éléments */
+  }
+  
+  .logo {
+    width: 50px; /* Largeur du logo */
+    height: 50px; /* Hauteur du logo */
+    object-fit: contain; /* Ajuste le logo sans le déformer */
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column; /* Aligne le titre et le sous-titre verticalement */
+    text-align: left; /* Aligne le texte à gauche */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .title h2 {
+    margin: 0; /* Enlève les marges par défaut */
+    font-size: 18px; /* Taille du titre */
+  }
+  
+  .subtitle {
+    margin: 0; /* Enlève les marges par défaut */
+    font-size: 14px; /* Taille du sous-titre */
+    color: #6c757d; /* Couleur du sous-titre */
+    font-family: 'Roboto', sans-serif;
+  }
+  

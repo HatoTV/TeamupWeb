@@ -3,8 +3,9 @@
     <h1>Champions</h1>
     <hr class="divider paddingSidebar" />
   </div>
+
   <div
-    class="lowOpacity section divSection sectionWithoutSubtitle paddingSidebar"
+    class="section divSection sectionWithoutSubtitle paddingSidebar"
     *ngFor="let itemChampions of itemsChampions"
   >
     <div class="logo-wrapper">
@@ -17,28 +18,40 @@
     <h1>Gameplay guides</h1>
     <hr class="divider" />
   </div>
+
+  <div *ngFor="let itemGameplay of itemsGameplay">
+    <div class="paddingSidebar sectionWithSubtitle">
+      <div class="section divSection" (click)="toggleItem(itemGameplay)">
+        <div class="logo-wrapper">
+          <img [src]="itemGameplay.logoUrl" />
+        </div>
+        <h2>{{ itemGameplay.title }}</h2>
+        <i
+          class="fas"
+          [ngClass]="itemGameplay.isOpen ? 'fa-chevron-up' : 'fa-chevron-down'"
+        ></i>
+      </div>
+
+      <!-- Ajout de l'animation sur chaque sous-tit<div class="sidebar">
+  <div class="header paddingSidebar">
+    <h1>Champions</h1>
+    <hr class="divider paddingSidebar" />
+  </div>
+
   <div
-    class="lowOpacity divSection paddingSidebar"
-    *ngFor="let itemGameplay of itemsGameplay"
+    class="section divSection sectionWithoutSubtitle paddingSidebar"
+    *ngFor="let itemChampions of itemsChampions"
   >
-    <div *ngIf="itemGameplay.subtitles; else elseTemplate">
-      <div class="section">
-        <div class="logo-wrapper">
-          <img [src]="itemGameplay.logoUrl" />
-        </div>
-        <h2>{{ itemGameplay.title }}</h2>
+    <div class="logo-wrapper">
+      <img [src]="itemChampions.logoUrl" /
+re -->
+      <div
+        class="subtitle"
+        *ngFor="let subtitle of itemGameplay.subtitles"
+        [ngClass]="{ visible: itemGameplay.isOpen }"
+      >
+        <h3>{{ subtitle }}</h3>
       </div>
-      <h2 *ngIf="itemGameplay.subtitles" class="subtitle">
-        {{ itemGameplay.subtitles }}
-      </h2>
     </div>
-    <ng-template #elseTemplate>
-      <div class="section sectionWithoutSubtitle">
-        <div class="logo-wrapper">
-          <img [src]="itemGameplay.logoUrl" />
-        </div>
-        <h2>{{ itemGameplay.title }}</h2>
-      </div>
-    </ng-template>
   </div>
 </div>

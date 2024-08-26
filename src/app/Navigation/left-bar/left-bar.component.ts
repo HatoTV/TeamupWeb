@@ -28,6 +28,14 @@ export class LeftBarComponent {
       title: 'Mécaniques',
       subtitles: {},
     },
+    {
+      logoUrl: 'assets/img/icons/Handshake Heart.png',
+      title: 'Teamfights',
+    },
+    {
+      logoUrl: 'assets/img/icons/Attitude.png',
+      title: 'Mindset',
+    },
     // Ajoute d'autres éléments ici
   ];
 }

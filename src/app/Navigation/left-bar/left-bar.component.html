@@ -1,10 +1,10 @@
 <div class="sidebar">
-  <div class="header">
+  <div class="header paddingSidebar">
     <h1>Champions</h1>
-    <hr class="divider" />
+    <hr class="divider paddingSidebar" />
   </div>
   <div
-    class="lowOpacity section divSection"
+    class="lowOpacity section divSection sectionWithoutSubtitle paddingSidebar"
     *ngFor="let itemChampions of itemsChampions"
   >
     <div class="logo-wrapper">
@@ -13,17 +13,22 @@
     <h2>{{ itemChampions.title }}</h2>
   </div>
 
-  <div class="header">
+  <div class="header paddingSidebar">
     <h1>Gameplay guides</h1>
     <hr class="divider" />
   </div>
-  <div class="lowOpacity divSection" *ngFor="let itemGameplay of itemsGameplay">
+  <div
+    class="lowOpacity divSection paddingSidebar"
+    *ngFor="let itemGameplay of itemsGameplay"
+  >
     <div class="section">
       <div class="logo-wrapper">
         <img [src]="itemGameplay.logoUrl" />
       </div>
       <h2>{{ itemGameplay.title }}</h2>
     </div>
-    <h2 *ngIf="itemGameplay.subtitles">{{ itemGameplay.subtitles }}</h2>
+    <h2 *ngIf="itemGameplay.subtitles" class="subtitle">
+      {{ itemGameplay.subtitles }}
+    </h2>
   </div>
 </div>

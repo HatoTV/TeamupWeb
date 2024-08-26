@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-top-bar',
+  selector: 'top-bar',
   standalone: true,
   imports: [],
   templateUrl: './top-bar.component.html',
-  styleUrl: './top-bar.component.css'
+  styleUrl: './top-bar.component.css',
 })
-export class TopBarComponent {
-
-}
+export class TopBarComponent {}

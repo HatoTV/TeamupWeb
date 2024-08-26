@@ -21,14 +21,24 @@
     class="lowOpacity divSection paddingSidebar"
     *ngFor="let itemGameplay of itemsGameplay"
   >
-    <div class="section">
-      <div class="logo-wrapper">
-        <img [src]="itemGameplay.logoUrl" />
+    <div *ngIf="itemGameplay.subtitles; else elseTemplate">
+      <div class="section">
+        <div class="logo-wrapper">
+          <img [src]="itemGameplay.logoUrl" />
+        </div>
+        <h2>{{ itemGameplay.title }}</h2>
       </div>
-      <h2>{{ itemGameplay.title }}</h2>
+      <h2 *ngIf="itemGameplay.subtitles" class="subtitle">
+        {{ itemGameplay.subtitles }}
+      </h2>
     </div>
-    <h2 *ngIf="itemGameplay.subtitles" class="subtitle">
-      {{ itemGameplay.subtitles }}
-    </h2>
+    <ng-template #elseTemplate>
+      <div class="section sectionWithoutSubtitle">
+        <div class="logo-wrapper">
+          <img [src]="itemGameplay.logoUrl" />
+        </div>
+        <h2>{{ itemGameplay.title }}</h2>
+      </div>
+    </ng-template>
   </div>
 </div>

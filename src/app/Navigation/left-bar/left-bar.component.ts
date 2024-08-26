@@ -12,7 +12,6 @@ export class LeftBarComponent {
   itemsChampions = [
     { logoUrl: 'assets/img/icons/Battle.png', title: 'Matchups' },
     { logoUrl: 'assets/img/icons/Open Book.png', title: 'Guides' },
-    // Ajoute d'autres éléments ici
   ];
 
   itemsGameplay: Array<{

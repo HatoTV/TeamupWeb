@@ -4,6 +4,8 @@
     --lol-gradient-2: #27103B;
     --lol-bkg-gradient-1: #541785;
     --lol-bkg-gradient-2: #210934;
+    --lol-topbar:#421A66;
+    --lol-border: rgba(141, 56, 214,0.2);
   }
 
   html, body {
@@ -11,6 +13,7 @@
     padding: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
   }
 
   body::before {
@@ -22,7 +25,6 @@
     height: 100%;
     background: url('../public/assets/img/backgroundSpace.png') no-repeat center center;
     background-size: cover;
-    z-index: 1; /* Assure que l'image est au-dessus du fond mais en dessous du contenu */
-    mix-blend-mode: multiply; /* Mode de fusion pour mélanger l'image avec le gradient */
+    mix-blend-mode: multiply;
     pointer-events: none;
   }

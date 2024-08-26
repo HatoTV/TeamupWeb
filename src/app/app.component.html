@@ -1,3 +1,13 @@
 <top-bar></top-bar>
 <left-bar></left-bar>
 <lol-matchups></lol-matchups>
+
+<h1>{{ 'HELLO' | translate }}</h1>
+<p>{{ 'WELCOME_MESSAGE' | translate }}</p>
+
+<!-- Lien pour naviguer en anglais -->
+<a [routerLink]="['/en']">English</a>
+<!-- Lien pour naviguer en français -->
+<a [routerLink]="['/fr']">Français</a>
+
+<router-outlet></router-outlet>

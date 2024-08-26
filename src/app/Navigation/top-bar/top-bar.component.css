@@ -1,0 +1,56 @@
+.topBar{
+    height: 54px;
+    position: sticky;
+    z-index: 10;
+    background-color: var(--lol-topbar);
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo{
+    width:80px;
+    height:auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo-wrapper {
+    width: 30px; /* Largeur fixe pour uniformiser la taille des logos */
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centre l'icône dans le wrapper */
+    overflow: hidden; /* Coupe les débordements si les icônes sont plus grandes */
+  }
+
+  .section{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .isSelected{
+    opacity: 1;
+    background-color: rgba(255,255,255,0.1);
+  }
+
+  .lightText{
+    font-weight: 400;
+  }
+  .boldText{
+    font-weight: 500;
+  }
+
+  h2 {
+    margin: 0; /* Enlève les marges par défaut */
+    font-size: 16px; /* Taille du titre */
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+  }

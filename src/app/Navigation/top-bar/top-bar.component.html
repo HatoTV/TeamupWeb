@@ -1,0 +1,11 @@
+<div class="topBar">
+    <img class="logo" src="assets/img/icons/TeamUp_full_white.png">
+    <div style="height: 100%;" *ngFor ="let itemSections of itemsSections">   
+        <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'">
+            <div class="logo-wrapper">
+                <img [src]="itemSections.logoUrl" />
+            </div>
+            <h2 [ngClass]="itemSections.isSelected ? 'boldText' : 'lightText'">{{ itemSections.title }}</h2>
+        </div>     
+    </div>
+</div>

@@ -1,13 +1,29 @@
 <div class="sidebar">
-    <div class="header">
-        <h1>Champions</h1>
-        <hr class="divider">
+  <div class="header">
+    <h1>Champions</h1>
+    <hr class="divider" />
+  </div>
+  <div
+    class="lowOpacity section divSection"
+    *ngFor="let itemChampions of itemsChampions"
+  >
+    <div class="logo-wrapper">
+      <img [src]="itemChampions.logoUrl" />
     </div>
-    <div>
-        <div>
-            <img src="assets/img/icons/Battle.png"/>
-            <h2>Matchups</h2>
-        </div>
-        <p>Sous-titre (optionnel)</p>
+    <h2>{{ itemChampions.title }}</h2>
+  </div>
+
+  <div class="header">
+    <h1>Gameplay guides</h1>
+    <hr class="divider" />
+  </div>
+  <div class="lowOpacity divSection" *ngFor="let itemGameplay of itemsGameplay">
+    <div class="section">
+      <div class="logo-wrapper">
+        <img [src]="itemGameplay.logoUrl" />
+      </div>
+      <h2>{{ itemGameplay.title }}</h2>
     </div>
+    <h2 *ngIf="itemGameplay.subtitles">{{ itemGameplay.subtitles }}</h2>
+  </div>
 </div>

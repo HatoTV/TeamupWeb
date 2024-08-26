@@ -55,11 +55,16 @@
   .divSection{    
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
   }
 
-  .sectionWithoutSubtitle:hover, .subtitle:hover{
+  .sectionWithoutSubtitle:hover, .sectionWithSubtitle:hover{
     background-color: rgba(255,255,255,0.2);
     cursor: pointer;
+  }
+
+  .subtitle.visible:hover{
+    opacity: 1
   }
 
   .paddingSidebar{
@@ -76,9 +81,6 @@
     overflow: hidden; /* Coupe les débordements si les icônes sont plus grandes */
   }
 
-  .subtitle{
-  }
-
   .sectionWithSubtitle{
     margin-bottom: 10px;
   }
@@ -86,24 +88,16 @@
   .subtitle {
     overflow: hidden;
     height: 0;
-    padding:0;
-    margin: 0;
-    transition: height 0.3s ease, opacity 0.3s ease;
+    transition: height 0.3s ease-in, opacity 0.3s ease-in;
     opacity: 0;
   }
   
   .subtitle.visible {
-    height: auto; /* Initialement on définira une hauteur calculée */
-    opacity: 1;
+    height: auto;
+    opacity: 0.6;
     display: block;
     padding-top: 5px;
     padding-left: 50px;
     padding-bottom: 5px;
-  }
-  
-  /* Gestion spécifique pour l'animation de hauteur auto */
-  .subtitle.visible {
-    height: auto; /* Fallback pour une hauteur dynamique */
-    /* Calculer dynamiquement la hauteur pour une transition fluide */
-    display: block;
+    transition: height 0.3s ease-out, opacity 0.3s ease-out;
   }

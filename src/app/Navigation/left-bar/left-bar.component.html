@@ -27,30 +27,20 @@
         </div>
         <h2>{{ itemGameplay.title }}</h2>
         <i
+          *ngIf="itemGameplay.subtitles.length > 0"
+          style="margin-left: auto"
           class="fas"
           [ngClass]="itemGameplay.isOpen ? 'fa-chevron-up' : 'fa-chevron-down'"
         ></i>
       </div>
-
-      <!-- Ajout de l'animation sur chaque sous-tit<div class="sidebar">
-  <div class="header paddingSidebar">
-    <h1>Champions</h1>
-    <hr class="divider paddingSidebar" />
-  </div>
-
-  <div
-    class="section divSection sectionWithoutSubtitle paddingSidebar"
-    *ngFor="let itemChampions of itemsChampions"
-  >
-    <div class="logo-wrapper">
-      <img [src]="itemChampions.logoUrl" /
-re -->
-      <div
-        class="subtitle"
-        *ngFor="let subtitle of itemGameplay.subtitles"
-        [ngClass]="{ visible: itemGameplay.isOpen }"
-      >
-        <h3>{{ subtitle }}</h3>
+      <div *ngIf="itemGameplay.subtitles.length > 0">
+        <div
+          class="subtitle"
+          *ngFor="let subtitle of itemGameplay.subtitles"
+          [ngClass]="{ visible: itemGameplay.isOpen }"
+        >
+          <h3>{{ subtitle }}</h3>
+        </div>
       </div>
     </div>
   </div>

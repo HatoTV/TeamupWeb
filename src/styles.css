@@ -28,3 +28,7 @@
     mix-blend-mode: multiply;
     pointer-events: none;
   }
+
+  h1,h2,h3{
+    margin: 0 !important;
+  }

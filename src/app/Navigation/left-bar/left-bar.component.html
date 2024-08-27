@@ -25,7 +25,7 @@
         <div class="logo-wrapper">
           <img [src]="itemGameplay.logoUrl" />
         </div>
-        <h2>{{ itemGameplay.title }}</h2>
+        <h2>{{ itemGameplay.title | translate }}</h2>
         <i
           *ngIf="itemGameplay.subtitles.length > 0"
           style="margin-left: auto"
@@ -39,7 +39,7 @@
           *ngFor="let subtitle of itemGameplay.subtitles"
           [ngClass]="{ visible: itemGameplay.isOpen }"
         >
-          <h3>{{ subtitle }}</h3>
+          <h3>{{ subtitle | translate }}</h3>
         </div>
       </div>
     </div>

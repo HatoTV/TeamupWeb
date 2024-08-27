@@ -1,4 +1,24 @@
 {
-    "HELLO": "Wesh wesh",
-    "WELCOME_MESSAGE": "Coucou chacal"
+  "LOL": {
+    "LEFTBAR": {
+      "FONDAMENTALS" : "Fondamentaux",
+      "MECANICS": "Mécaniques",
+      "LANING" : {
+        "BAIT" : "'Bait' les spells"
+      },
+      "WAVEMANAGEMENT" : {
+        "SPAWN" : "Spawn des sbires",
+        "BACKTIMING" : "Timing pour back"
+      },
+      "JUNGLE" : {
+        "PATHING" : "Chemins de Jungle",
+        "OBJECTIVES" : "Objectifs & Invades"
+      }
+    },
+    
+    "MATCHUPS": {
+      "INTRO1" : "MAÎTRISEZ CHAQUE MATCHUP",
+      "INTRO2" : "Stratégies et conseils pour vos affrontements !"
+    }
   }
+}

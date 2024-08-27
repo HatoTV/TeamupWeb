@@ -1,4 +1,19 @@
 {
-    "HELLO": "Hello",
-    "WELCOME_MESSAGE": "Welcome to our website!"
+  "LOL": {
+    "LEFTBAR": {
+      "FONDAMENTALS" : "Fundamentals",
+      "MECANICS": "Mecanics",
+      "LANING" : {
+        "BAIT" : "Spell Baiting"
+      },
+      "WAVEMANAGEMENT" : {
+        "SPAWN" : "Minions Spawn",
+        "BACKTIMING" : "Back Timing"
+      },
+      "JUNGLE" : {
+        "PATHING" : "Jungle Pathing",
+        "OBJECTIVES" : "Objectives & Invades"
+      }
+    }
   }
+}

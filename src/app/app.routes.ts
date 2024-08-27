@@ -1,8 +1,7 @@
 import { Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
 export const routes: Routes = [
-    { path: 'en', component: AppComponent },
-    { path: 'fr', component: AppComponent },
-    { path: '', redirectTo: '/en', pathMatch: 'full' }, // Redirige vers l'anglais par défaut
-    { path: '**', redirectTo: '/en' } // Gère les URL non reconnues
+  { path: '', redirectTo: '/fr/lol/matchups', pathMatch: 'full' }, // Redirection par défaut
+  { path: ':lang/lol/matchups', component: MatchupsComponent }, // Route avec paramètre de langue
   ];

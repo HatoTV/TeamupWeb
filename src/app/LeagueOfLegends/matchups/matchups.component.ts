@@ -1,9 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component, ElementRef } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'lol-matchups',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './matchups.component.html',
   styleUrl: './matchups.component.css'
 })

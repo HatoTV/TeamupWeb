@@ -4,7 +4,6 @@ import { TranslateService } from '@ngx-translate/core';
 import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
 import { LeftBarComponent } from './Navigation/left-bar/left-bar.component';
 import { TopBarComponent } from './Navigation/top-bar/top-bar.component';
-import { DbService } from '../../db.service';
 
 @Component({
   selector: 'app-root',
@@ -14,10 +13,9 @@ import { DbService } from '../../db.service';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  constructor(private router: Router, private translate: TranslateService,private dbService: DbService) {}
+  constructor(private router: Router, private translate: TranslateService) {}
 
   ngOnInit() {
-    this.loadAllData();
     const defaultLang = this.translate.defaultLang || 'fr'; // Utiliser la langue par défaut de TranslateService
 
     this.router.events.subscribe((event: any) => {
@@ -32,13 +30,5 @@ export class AppComponent {
         }
       }
     });
-  }
-  async loadAllData() {
-    try {
-      await this.dbService.loadAllData();
-      console.log('Data loaded successfully');
-    } catch (error) {
-      console.error('Error loading data:', error);
-    }
   }
 }

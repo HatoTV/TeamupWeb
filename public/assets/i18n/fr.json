@@ -18,7 +18,19 @@
     
     "MATCHUPS": {
       "INTRO1" : "MAÎTRISEZ CHAQUE MATCHUP",
-      "INTRO2" : "Stratégies et conseils pour vos affrontements !"
+      "INTRO2" : "Stratégies et conseils pour vos affrontements !",
+      "YOURCHAMPION" : "Votre Champion",
+      "ENEMYCHAMPION" : "Champion Ennemi",
+      "DIFFICULTY" : "Difficulté",
+      "TIPS" : "Astuces",
+      "NOMATCHUP": "Aucune données trouvées.",
+      "DIFFICULTIES" : {
+        "Extreme" : "Extreme",
+        "Major" : "Difficile",
+        "Even" : "Moyen",
+        "Minor" : "Facile",
+        "Tiny" : "Très Facile"
+      }
     }
   }
 }

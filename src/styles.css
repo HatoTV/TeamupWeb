@@ -3,9 +3,12 @@
     --lol-gradient-1: #441A68;
     --lol-gradient-2: #27103B;
     --lol-bkg-gradient-1: #541785;
-    --lol-bkg-gradient-2: #210934;
+    --lol-bkg-gradient-2: rgb(33, 9, 52);
     --lol-topbar:#421A66;
     --lol-border: rgba(141, 56, 214,0.2);
+    --lol-scrollbar:rgba(171, 86, 240, 0.4);
+    --lol-scrollbar-hover:rgba(202, 137, 255, 0.6);
+    --lol-light-color: rgb(205 118 255);
   }
 
   html, body {
@@ -32,3 +35,30 @@
   h1,h2,h3{
     margin: 0 !important;
   }
+
+  .scrollbar-lol {
+    scrollbar-width: thin; /* Pour Firefox */
+    scrollbar-color: var(--lol-scrollbar) transparent; /* Couleur pour Firefox */
+  }
+  
+  /* Pour les navigateurs WebKit comme Chrome, Edge, et Safari */
+  .scrollbar-lol::-webkit-scrollbar {
+    width: 8px; /* Largeur de la scrollbar */
+  }
+  
+  .scrollbar-lol::-webkit-scrollbar-track {
+    background: transparent; /* Arrière-plan transparent */
+  }
+  
+  .scrollbar-lol::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.4); /* Couleur du "pouce" */
+    border-radius: 10px; /* Bord arrondi */
+    border: 2px solid transparent; /* Espacement autour du "pouce" */
+  }
+  .scrollbar-lol::-webkit-scrollbar-thumb:hover {
+    background-color:  var(--lol-scrollbar-hover); /* Couleur plus foncée au survol */
+  }
+  .scrollbar-lol::-webkit-scrollbar-button {
+    display: none; /* Masquer les boutons de la scrollbar */
+  }
+  

@@ -7,8 +7,6 @@
     box-sizing: border-box;
     max-width: calc(100% - 300px);
 }
-
-
 .imgBkg {
     width: 100%;
     height: 80%;
@@ -17,13 +15,36 @@
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
     mix-blend-mode: screen;
     position: absolute;
+    transition: opacity 0.5s ease-in-out;
 }
+.imgBkg1, .imgBkg2 {
+    width: 22%;
+    height: auto;
+    mix-blend-mode: screen;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+.imgBkg1 {
+    left: 0;
+    mask-image: linear-gradient(146deg, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0) 60%);;
+    -webkit-mask-image: linear-gradient(146deg, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0) 60%);    
+}
+.imgBkg2 {
+    right: 0;
+    mask-image: linear-gradient(-146deg, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0) 60%);
+    -webkit-mask-image: linear-gradient(-146deg, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0) 60%); 
+}
+
+.imgBkg1.visible , .imgBkg2.visible {
+    opacity: 40%;
+  }
 
 .bkgContent{
     width: 100%;
     height: 100%;
     position: absolute;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%);
+    background:linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.3) 100%);
 }
 
 h1{
@@ -40,7 +61,189 @@ h2{
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.3));
 }
 
+.scrollable-menu {
+    max-height: 400px;
+    overflow-y: auto;
+    color: white;
+    border-radius: 5px;
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 35px;
+    padding-top: 15px;
+    z-index: 5;
+}
+
+.iconChampions{
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px;
+}
+
+.iconSelectedChampions{
+    width: 55px; 
+    border: 5px solid white;
+}
+
+.championLine{
+    padding:10px;
+    border-bottom: 1px solid rgba(171, 86, 240, 0.1);
+    color: var(--lol-topbar);
+    font-family: 'Roboto';
+}
+
+.championLine:hover{
+    background-color:var(--lol-scrollbar);
+    font-family: 'Roboto ExtraBold';
+    cursor:pointer;
+}
+
+.dropdownChampions{
+    width: 20vw;
+}
+
+.inputSearch{
+    height:55px;
+    z-index: 6;
+    position: relative;
+    border:0;
+}
+
+.divSearches{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.txtVS{
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.divChoice{
+    z-index: 10;
+}
+
+.fade {
+    transition: opacity 0.5s ease-in-out , max-height 0.5s ease-in-out 0.4s, padding-top 0.5s ease-in-out 0.4s;
+    opacity: 1;
+}
+  
+.fade-in {
+opacity: 1;
+max-height: 200px;
+padding-top: 100px;
+}
+
+.fade-out {
+opacity: 0;
+max-height: 0px;
+padding-top: 0px;
+
+}
+
 .title{
-    padding-left: 5%;
-    padding-top: 5%;
+padding-left: 100px;
+}
+
+.divTitleMatchup{    
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--lol-border);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.divMatchup{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divContent{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 70px;
+}
+
+h3{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.3));
+    text-transform:uppercase ;
+}
+
+h4{
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.matchupTitle{
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 10px;
+}
+
+.fade-content {
+    transition: opacity 0.5s ease-in-out 1s;
+    opacity: 1;
+}
+  
+.fade-in-content {
+opacity: 1;
+}
+
+.fade-out-content {
+opacity: 0;
+}
+
+.fade-img {
+    transition: opacity 0.4s ease-in-out 0.5s;
+    opacity: 1;
+}
+  
+.fade-in-img {
+opacity: 1;
+}
+
+.fade-out-img {
+opacity: 0;
+}
+
+.contentMatchup{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.txtContentMatchup{
+    font-family: 'Roboto Light';
+    font-size: 16px;
+}
+
+.authorMatchup, .rankMatchup{
+    font-family: 'Roboto Light';
+    font-size: 12px;
+}
+
+.rankMatchup{
+    font-style: italic;
+}
+
+.divAuthor{
+    text-align: right;
+    padding-right: 20px;
+    color: rgba(255, 255, 255, 0.4);
 }

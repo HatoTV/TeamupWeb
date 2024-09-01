@@ -15,11 +15,11 @@
         <div class="dropdown dropdownChampions">
             <div class="input-group divChoice">
                 <!-- Barre de recherche avec image + texte -->
-                <img *ngIf="selectedChampion" [src]="'assets/img/championsIcons/' + selectedChampion.icon + '.png'" alt="{{selectedChampion.name}}" class="iconSelectedChampions">
+                <img *ngIf="selectedChampion.length>0" [src]="'assets/img/championsIcons/' + selectedChampion[0].icon + '.png'" alt="{{selectedChampion[0].name}}" class="iconSelectedChampions">
                 <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.YOURCHAMPION' | translate" [(ngModel)]="searchTerm" (input)="filterChampions()">
             </div>
             <!-- Dropdown list -->
-            <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm && searchTerm !== selectedChampion">
+            <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm">
                 <div *ngIf="filteredChampions.length == 0  && !selectedChampion">
                     Aucun champion trouvé
                 </div>
@@ -38,10 +38,10 @@
         <!-- Deuxième recherche -->
         <div class="dropdown dropdownChampions">
             <div class="input-group divChoice">
-                <img *ngIf="selectedChampion2" [src]="'assets/img/championsIcons/' + selectedChampion2.icon + '.png'" alt="{{selectedChampion2.name}}" class="iconSelectedChampions">
+                <img *ngIf="selectedChampion2.length>0" [src]="'assets/img/championsIcons/' + selectedChampion2[0].icon + '.png'" alt="{{selectedChampion2[0].name}}" class="iconSelectedChampions">
                 <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.ENEMYCHAMPION' | translate" [(ngModel)]="searchTerm2" (input)="filterChampions2()">
             </div>
-            <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm2 && searchTerm2 !== selectedChampion2">
+            <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm2">
                 <div *ngIf="filteredChampions2.length == 0 && !selectedChampion2">
                     Aucun champion trouvé
                 </div>
@@ -54,12 +54,14 @@
             </ul>
         </div>
     </div>
+    
+    <button type="button" class="btn btn-primary btnReverseSelection" (click)="ReverseSelectedChampion()">{{'LOL.MATCHUPS.REVERSE' | translate}}</button>
     <div [ngClass]="{ 'fade-out-content': isVisible, 'fade-in-content': !isVisible }" class="fade-content divContent">
-        <div *ngIf="!isFirstSearch">
+        <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2">
             <div class="divTitleMatchup">
-                <h3>{{selectedChampion.name}}</h3>
+                <h3>{{selectedChampion[0].name}}</h3>
                 <h3 style="color: var(--lol-light-color);">&nbsp;VS&nbsp;</h3>
-                <h3>{{selectedChampion2.name}}</h3>
+                <h3>{{selectedChampion2[0].name}}</h3>
             </div>
             <div class="divMatchup">
                 <div class="contentMatchup">

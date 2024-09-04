@@ -62,8 +62,15 @@
       </ul>
     </div>
 
-    <!-- Texte "VS" entre les deux dropdowns -->
-    <h1 class="txtVS">VS</h1>
+    <div class="clickableVS" (click)="ReverseSelectedChampion()">
+      <div class="arrow-container">
+        <div class="arrow-left"></div>
+      </div>
+      <h1 class="txtVS">VS</h1>
+      <div class="arrow-container">
+        <div class="arrow-right"></div>
+      </div>
+    </div>
 
     <!-- Deuxième recherche -->
     <div class="dropdown dropdownChampions">
@@ -104,21 +111,13 @@
       </ul>
     </div>
   </div>
-
-  <button
-    type="button"
-    class="btn btn-primary btnReverseSelection"
-    (click)="ReverseSelectedChampion()"
-  >
-    {{ "LOL.MATCHUPS.REVERSE" | translate }}
-  </button>
   <div
     [ngClass]="{ 'fade-out-content': isVisible, 'fade-in-content': !isVisible }"
-    class="fade-content divContent"
+    class="fade-content"
   >
     <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2">
-      <div class="divTitleMatchup">
-        <span *ngIf="isMatchupReady" class="txtContentMatchup">{{
+      <div class="divTitleMatchup divContent" style="margin-top: 50px">
+        <span *ngIf="isMatchupReady" class="txtDifficulty">{{
           "LOL.MATCHUPS.DIFFICULTIES." + filteredMatchup[0].difficulty
             | translate
         }}</span>
@@ -126,18 +125,28 @@
         <h3 style="color: var(--lol-light-color)">&nbsp;VS&nbsp;</h3>
         <h3>{{ selectedChampion2[0].name }}</h3>
       </div>
-      <div class="divMatchup">
-        <div class="contentMatchup">
-          <span *ngIf="isMatchupReady" class="txtContentMatchup">{{
-            filteredMatchup[0].tips
-          }}</span>
-          <span *ngIf="!isMatchupReady" class="txtContentMatchup">{{
-            "LOL.MATCHUPS.NOMATCHUP" | translate
-          }}</span>
-          <div *ngIf="isMatchupReady" class="divAuthor">
-            <span class="authorMatchup">{{ author }}&nbsp;</span>
-            <span class="rankMatchup">({{ rank }})</span>
-          </div>
+      <div class="contentMatchup divContent">
+        <pre *ngIf="isMatchupReady" class="txtContentMatchup">{{
+          filteredMatchup[0].tips
+        }}</pre>
+        <span *ngIf="!isMatchupReady" class="txtContentMatchup">{{
+          "LOL.MATCHUPS.NOMATCHUP" | translate
+        }}</span>
+        <div *ngIf="isMatchupReady" class="divAuthor">
+          <span class="authorMatchup">{{ author }}&nbsp;</span>
+          <span class="rankMatchup">({{ rank }})</span>
+        </div>
+      </div>
+      <div class="divPicks">
+        <div>
+          {{ "LOL.MATCHUPS.BESTPICKAGAINST" | translate }}&nbsp;{{
+            selectedChampion2[0].name
+          }}
+        </div>
+        <div>
+          {{ "LOL.MATCHUPS.WORSTPICKAGAINST" | translate }}&nbsp;{{
+            selectedChampion2[0].name
+          }}
         </div>
       </div>
     </div>

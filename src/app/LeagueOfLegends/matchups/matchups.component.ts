@@ -79,7 +79,7 @@ export class MatchupsComponent {
         championName1: selectedChampion1,
         championName2: item.championName,
         difficulty: item.difficulty,
-        tips: this.filterString(item.tips),
+        tips: this.formatText(item.tips),
       }));
       this.filteredMatchup = this.matchup.filter(
         (item) =>
@@ -213,24 +213,8 @@ export class MatchupsComponent {
     }
   }
 
-  filterString(input: string): string {
-    // Chercher le premier caractère qui est une lettre ou un chiffre
-    const match = input.match(/[a-zA-Z0-9]/);
-
-    if (match) {
-      // Si un caractère valide est trouvé, retourner la chaîne à partir de ce caractère
-      const index = match.index!;
-      return input.slice(index);
-    } else {
-      // Si aucun caractère valide n'est trouvé, retourner une chaîne vide ou un autre traitement
-      return '';
-    }
-  }
-
   async ReverseSelectedChampion() {
     try {
-      console.log(this.selectedChampion);
-      console.log(this.selectedChampion2);
       let tempSelectedChampion2 = this.selectedChampion2[0];
       let tempSelectedChampion = this.selectedChampion[0];
 
@@ -238,21 +222,18 @@ export class MatchupsComponent {
         this.selectedChampion.length > 0 &&
         this.selectedChampion2.length <= 0
       ) {
-        console.log('1');
         this.searchTerm = '';
         tempSelectedChampion2 = this.selectedChampion2[0];
-        await this.selectChampion2(tempSelectedChampion);
         this.selectedChampion = [];
-        console.log('2');
+        await this.selectChampion2(tempSelectedChampion);
       } else if (
         this.selectedChampion2.length > 0 &&
         this.selectedChampion.length <= 0
       ) {
         this.searchTerm2 = '';
         tempSelectedChampion = this.selectedChampion[0];
-        await this.selectChampion(tempSelectedChampion2);
         this.selectedChampion2 = [];
-        console.log('4');
+        await this.selectChampion(tempSelectedChampion2);
       } else if (
         this.selectedChampion.length > 0 &&
         this.selectedChampion2.length > 0
@@ -268,5 +249,30 @@ export class MatchupsComponent {
         error
       );
     }
+  }
+
+  formatText(input: string): string {
+    // Remplace les séparateurs (|) par des retours à la ligne
+    let formattedText = input.replace(/\s*\|\s*/g, '\n');
+
+    // Supprime les caractères non alphanumériques au début de chaque phrase
+    formattedText = formattedText.replace(/^[^a-zA-Z0-9]+/gm, '');
+
+    // Ajoute un retour à la ligne après chaque point (.)
+    formattedText = formattedText.replace(/(\.)(\s)/g, '$1\n');
+
+    // Ajoute un tiret au début de chaque ligne
+    formattedText = formattedText
+      .split('\n')
+      .map((line) => line.trim()) // Supprime les espaces superflus
+      .filter((line) => line.length > 0) // Filtre les lignes vides
+      .map((line) => `- ${line}`) // Ajoute un tiret au début de chaque ligne
+      .map((line) => {
+        // Met la première lettre en majuscule
+        return line.charAt(0).toUpperCase() + line.slice(1);
+      })
+      .join('\n'); // Rejoint les lignes avec des retours à la ligne
+
+    return formattedText;
   }
 }

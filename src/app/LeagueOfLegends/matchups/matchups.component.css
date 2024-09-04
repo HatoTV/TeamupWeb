@@ -95,8 +95,12 @@ h2{
 
 .championLine:hover{
     background-color:var(--lol-scrollbar);
-    font-family: 'Roboto ExtraBold';
     cursor:pointer;
+}
+
+.txtChampion:hover{
+    font-family: "Roboto", sans-serif;
+    font-weight:700;
 }
 
 .dropdownChampions{
@@ -114,7 +118,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .txtVS{

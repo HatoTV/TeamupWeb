@@ -1,84 +1,145 @@
 <div class="content">
-    <div class="bkgContent"></div>
-    <img [ngClass]="{ 'fade-out-img': !isFirstSearch, 'fade-in-img': isFirstSearch }" class="imgBkg" src="assets/img/bkgContent_Matchup.png" />    
-    <div [ngClass]="{ 'fade-out-img': isFirstSearch, 'fade-in-img': !isFirstSearch }" class="fade-img">
-        <img [src]="imgBkg1" class="imgBkg1" [ngClass]="{'visible': showImage1}" />
-        <img [src]="imgBkg2" class="imgBkg2" [ngClass]="{'visible': showImage2}">
-    </div>
-    <div [ngClass]="{ 'fade-out': !isVisible, 'fade-in': isVisible }" class="fade title">
-        <h1>{{ 'LOL.MATCHUPS.INTRO1' | translate }}</h1>
-        <h2>{{ 'LOL.MATCHUPS.INTRO2' | translate }}</h2>
+  <div class="bkgContent"></div>
+  <img
+    [ngClass]="{ 'fade-out-img': !isFirstSearch, 'fade-in-img': isFirstSearch }"
+    class="imgBkg"
+    src="assets/img/bkgContent_Matchup.png"
+  />
+  <div
+    [ngClass]="{ 'fade-out-img': isFirstSearch, 'fade-in-img': !isFirstSearch }"
+    class="fade-img"
+  >
+    <img [src]="imgBkg1" class="imgBkg1" [ngClass]="{ visible: showImage1 }" />
+    <img [src]="imgBkg2" class="imgBkg2" [ngClass]="{ visible: showImage2 }" />
+  </div>
+  <div
+    [ngClass]="{ 'fade-out': !isVisible, 'fade-in': isVisible }"
+    class="fade title"
+  >
+    <h1>{{ "LOL.MATCHUPS.INTRO1" | translate }}</h1>
+    <h2>{{ "LOL.MATCHUPS.INTRO2" | translate }}</h2>
+  </div>
+
+  <div class="divSearches">
+    <!-- Première recherche -->
+    <div class="dropdown dropdownChampions">
+      <div class="input-group divChoice">
+        <!-- Barre de recherche avec image + texte -->
+        <img
+          *ngIf="selectedChampion.length > 0"
+          [src]="
+            'assets/img/championsIcons/' + selectedChampion[0].icon + '.png'
+          "
+          alt="{{ selectedChampion[0].name }}"
+          class="iconSelectedChampions"
+        />
+        <input
+          type="text"
+          class="form-control inputSearch"
+          [placeholder]="'LOL.MATCHUPS.YOURCHAMPION' | translate"
+          [(ngModel)]="searchTerm"
+          (input)="filterChampions()"
+        />
+      </div>
+      <!-- Dropdown list -->
+      <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm">
+        <div *ngIf="filteredChampions.length == 0 && !selectedChampion">
+          Aucun champion trouvé
+        </div>
+        <li *ngFor="let champion of filteredChampions" class="championLine">
+          <a
+            class="dropdown-item txtChampion"
+            (click)="selectChampion(champion)"
+          >
+            <img
+              [src]="'assets/img/championsIcons/' + champion.icon + '.png'"
+              alt="{{ champion.name }}"
+              class="iconChampions"
+            />
+            {{ champion.name }}
+          </a>
+        </li>
+      </ul>
     </div>
 
-    <div class="divSearches">
-        <!-- Première recherche -->
-        <div class="dropdown dropdownChampions">
-            <div class="input-group divChoice">
-                <!-- Barre de recherche avec image + texte -->
-                <img *ngIf="selectedChampion.length>0" [src]="'assets/img/championsIcons/' + selectedChampion[0].icon + '.png'" alt="{{selectedChampion[0].name}}" class="iconSelectedChampions">
-                <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.YOURCHAMPION' | translate" [(ngModel)]="searchTerm" (input)="filterChampions()">
-            </div>
-            <!-- Dropdown list -->
-            <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm">
-                <div *ngIf="filteredChampions.length == 0  && !selectedChampion">
-                    Aucun champion trouvé
-                </div>
-                <li *ngFor="let champion of filteredChampions" class="championLine">
-                    <a class="dropdown-item" (click)="selectChampion(champion)">
-                        <img [src]="'assets/img/championsIcons/' + champion.icon + '.png'" alt="{{champion.name}}" class="iconChampions">
-                        {{ champion.name }}
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <!-- Texte "VS" entre les deux dropdowns -->
+    <h1 class="txtVS">VS</h1>
 
-        <!-- Texte "VS" entre les deux dropdowns -->
-        <h1 class="txtVS">VS</h1>
+    <!-- Deuxième recherche -->
+    <div class="dropdown dropdownChampions">
+      <div class="input-group divChoice">
+        <img
+          *ngIf="selectedChampion2.length > 0"
+          [src]="
+            'assets/img/championsIcons/' + selectedChampion2[0].icon + '.png'
+          "
+          alt="{{ selectedChampion2[0].name }}"
+          class="iconSelectedChampions"
+        />
+        <input
+          type="text"
+          class="form-control inputSearch"
+          [placeholder]="'LOL.MATCHUPS.ENEMYCHAMPION' | translate"
+          [(ngModel)]="searchTerm2"
+          (input)="filterChampions2()"
+        />
+      </div>
+      <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm2">
+        <div *ngIf="filteredChampions2.length == 0 && !selectedChampion2">
+          Aucun champion trouvé
+        </div>
+        <li *ngFor="let champion of filteredChampions2" class="championLine">
+          <a
+            class="dropdown-item txtChampion"
+            (click)="selectChampion2(champion)"
+          >
+            <img
+              [src]="'assets/img/championsIcons/' + champion.icon + '.png'"
+              alt="{{ champion.name }}"
+              class="iconChampions"
+            />
+            {{ champion.name }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 
-        <!-- Deuxième recherche -->
-        <div class="dropdown dropdownChampions">
-            <div class="input-group divChoice">
-                <img *ngIf="selectedChampion2.length>0" [src]="'assets/img/championsIcons/' + selectedChampion2[0].icon + '.png'" alt="{{selectedChampion2[0].name}}" class="iconSelectedChampions">
-                <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.ENEMYCHAMPION' | translate" [(ngModel)]="searchTerm2" (input)="filterChampions2()">
-            </div>
-            <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm2">
-                <div *ngIf="filteredChampions2.length == 0 && !selectedChampion2">
-                    Aucun champion trouvé
-                </div>
-                <li *ngFor="let champion of filteredChampions2" class="championLine">
-                    <a class="dropdown-item" (click)="selectChampion2(champion)">
-                        <img [src]="'assets/img/championsIcons/' + champion.icon + '.png'" alt="{{champion.name}}" class="iconChampions">
-                        {{ champion.name }}
-                    </a>
-                </li>
-            </ul>
+  <button
+    type="button"
+    class="btn btn-primary btnReverseSelection"
+    (click)="ReverseSelectedChampion()"
+  >
+    {{ "LOL.MATCHUPS.REVERSE" | translate }}
+  </button>
+  <div
+    [ngClass]="{ 'fade-out-content': isVisible, 'fade-in-content': !isVisible }"
+    class="fade-content divContent"
+  >
+    <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2">
+      <div class="divTitleMatchup">
+        <span *ngIf="isMatchupReady" class="txtContentMatchup">{{
+          "LOL.MATCHUPS.DIFFICULTIES." + filteredMatchup[0].difficulty
+            | translate
+        }}</span>
+        <h3>{{ selectedChampion[0].name }}</h3>
+        <h3 style="color: var(--lol-light-color)">&nbsp;VS&nbsp;</h3>
+        <h3>{{ selectedChampion2[0].name }}</h3>
+      </div>
+      <div class="divMatchup">
+        <div class="contentMatchup">
+          <span *ngIf="isMatchupReady" class="txtContentMatchup">{{
+            filteredMatchup[0].tips
+          }}</span>
+          <span *ngIf="!isMatchupReady" class="txtContentMatchup">{{
+            "LOL.MATCHUPS.NOMATCHUP" | translate
+          }}</span>
+          <div *ngIf="isMatchupReady" class="divAuthor">
+            <span class="authorMatchup">{{ author }}&nbsp;</span>
+            <span class="rankMatchup">({{ rank }})</span>
+          </div>
         </div>
+      </div>
     </div>
-    
-    <button type="button" class="btn btn-primary btnReverseSelection" (click)="ReverseSelectedChampion()">{{'LOL.MATCHUPS.REVERSE' | translate}}</button>
-    <div [ngClass]="{ 'fade-out-content': isVisible, 'fade-in-content': !isVisible }" class="fade-content divContent">
-        <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2">
-            <div class="divTitleMatchup">
-                <h3>{{selectedChampion[0].name}}</h3>
-                <h3 style="color: var(--lol-light-color);">&nbsp;VS&nbsp;</h3>
-                <h3>{{selectedChampion2[0].name}}</h3>
-            </div>
-            <div class="divMatchup">
-                <div class="contentMatchup">
-                    <h4 class="matchupTitle">{{ 'LOL.MATCHUPS.DIFFICULTY' | translate }}</h4>
-                    <span *ngIf="isMatchupReady" class="txtContentMatchup">{{ 'LOL.MATCHUPS.DIFFICULTIES.' + filteredMatchup[0].difficulty | translate}}</span>
-                    <span *ngIf="!isMatchupReady" class="txtContentMatchup">{{ 'LOL.MATCHUPS.NOMATCHUP' | translate }}</span>
-                </div>
-                <div  class="contentMatchup">
-                    <h4 class="matchupTitle">{{ 'LOL.MATCHUPS.TIPS' | translate }}</h4>
-                    <span *ngIf="isMatchupReady" class="txtContentMatchup">{{filteredMatchup[0].tips}}</span>
-                    <span *ngIf="!isMatchupReady" class="txtContentMatchup">{{ 'LOL.MATCHUPS.NOMATCHUP' | translate }}</span>    
-                    <div  *ngIf="isMatchupReady" class="divAuthor">
-                        <span class="authorMatchup">{{ author }}&nbsp;</span>
-                        <span class="rankMatchup">({{ rank }})</span>
-                    </div>               
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
 </div>

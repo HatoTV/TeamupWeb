@@ -139,14 +139,132 @@
       </div>
       <div class="divPicks">
         <div>
-          {{ "LOL.MATCHUPS.BESTPICKAGAINST" | translate }}&nbsp;{{
-            selectedChampion2[0].name
-          }}
-        </div>
-        <div>
-          {{ "LOL.MATCHUPS.WORSTPICKAGAINST" | translate }}&nbsp;{{
-            selectedChampion2[0].name
-          }}
+          <div>
+            <div>
+              {{ "LOL.MATCHUPS.BESTPICKAGAINST" | translate }}&nbsp;{{
+                selectedChampion[0].name
+              }}
+            </div>
+            <div class="divCountersContent">
+              <div
+                *ngFor="let champion of bestPicksForChampion"
+                class="divCountersChampions"
+              >
+                <img
+                  [src]="
+                    'assets/img/championsIcons/' +
+                    champion.championName2.toLowerCase() +
+                    '.png'
+                  "
+                  alt="{{ champion.championName2 }}"
+                  class="iconChampions"
+                />
+                <div>
+                  <div>
+                    {{ champion.championName2 }}
+                  </div>
+                  <div>
+                    {{ champion.difficulty }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              {{ "LOL.MATCHUPS.WORSTPICKAGAINST" | translate }}&nbsp;{{
+                selectedChampion[0].name
+              }}
+            </div>
+            <div class="divCountersContent">
+              <div
+                *ngFor="let champion of worstPicksForChampion"
+                class="divCountersChampions"
+              >
+                <img
+                  [src]="
+                    'assets/img/championsIcons/' +
+                    champion.championName2.toLowerCase() +
+                    '.png'
+                  "
+                  alt="{{ champion.championName2 }}"
+                  class="iconChampions"
+                />
+                <div>
+                  <div>
+                    {{ champion.championName2 }}
+                  </div>
+                  <div>
+                    {{ champion.difficulty }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                {{ "LOL.MATCHUPS.BESTPICKAGAINST" | translate }}&nbsp;{{
+                  selectedChampion2[0].name
+                }}
+              </div>
+              <div class="divCountersContent">
+                <div
+                  *ngFor="let champion of bestPicksForChampion2"
+                  class="divCountersChampions"
+                >
+                  <img
+                    [src]="
+                      'assets/img/championsIcons/' +
+                      champion.championName2.toLowerCase() +
+                      '.png'
+                    "
+                    alt="{{ champion.championName2 }}"
+                    class="iconChampions"
+                  />
+                  <div>
+                    <div>
+                      {{ champion.championName2 }}
+                    </div>
+                    <div>
+                      {{ champion.difficulty }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                {{ "LOL.MATCHUPS.WORSTPICKAGAINST" | translate }}&nbsp;{{
+                  selectedChampion2[0].name
+                }}
+              </div>
+              <div class="divCountersContent">
+                <div
+                  *ngFor="let champion of worstPicksForChampion2"
+                  class="divCountersChampions"
+                >
+                  <img
+                    [src]="
+                      'assets/img/championsIcons/' +
+                      champion.championName2.toLowerCase() +
+                      '.png'
+                    "
+                    alt="{{ champion.championName2 }}"
+                    class="iconChampions"
+                  />
+                  <div>
+                    <div>
+                      {{ champion.championName2 }}
+                    </div>
+                    <div>
+                      {{ champion.difficulty }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

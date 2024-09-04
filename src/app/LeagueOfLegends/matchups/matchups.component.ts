@@ -16,8 +16,8 @@ import { throws } from 'node:assert';
 export class MatchupsComponent {
   constructor(private elementRef: ElementRef, private http: HttpClient) {}
   private allChampionsJson = 'assets/jsonDatas/AllChampions.json';
-  champions: { name: string; icon: string }[] = [];
-  matchup: {
+  champions: { name: string; icon: string; difficulty: string }[] = [];
+  datasChampion: {
     championName1: string;
     championName2: string;
     difficulty: string;
@@ -33,6 +33,36 @@ export class MatchupsComponent {
   filteredChampions2: { name: string; icon: string }[] = [];
   selectedChampion: { name: string; icon: string }[] = [];
   selectedChampion2: { name: string; icon: string }[] = [];
+  datasChampion2: {
+    championName1: string;
+    championName2: string;
+    difficulty: string;
+    tips: string;
+  }[] = [];
+  bestPicksForChampion: {
+    championName1: string;
+    championName2: string;
+    difficulty: string;
+    tips: string;
+  }[] = [];
+  worstPicksForChampion: {
+    championName1: string;
+    championName2: string;
+    difficulty: string;
+    tips: string;
+  }[] = [];
+  bestPicksForChampion2: {
+    championName1: string;
+    championName2: string;
+    difficulty: string;
+    tips: string;
+  }[] = [];
+  worstPicksForChampion2: {
+    championName1: string;
+    championName2: string;
+    difficulty: string;
+    tips: string;
+  }[] = [];
   searchTerm: string = '';
   searchTerm2: string = '';
   isFirstSearch: boolean = true;
@@ -61,6 +91,7 @@ export class MatchupsComponent {
         .map((item) => ({
           name: item.championName.trim(),
           icon: item.spellingForUrl.trim().toLowerCase(),
+          difficulty: item.difficulty,
         }))
         .sort((a, b) => a.name.localeCompare(b.name));
       this.filteredChampions = [...this.champions];
@@ -74,14 +105,18 @@ export class MatchupsComponent {
   ) {
     try {
       let urlJson = 'assets/jsonDatas/' + selectedChampion1 + '.json';
-      const data = await lastValueFrom(this.http.get<any[]>(urlJson));
-      this.matchup = data.map((item) => ({
+      let urlJson2 = 'assets/jsonDatas/' + selectedChampion2 + '.json';
+      const dataChampions1 = await lastValueFrom(this.http.get<any[]>(urlJson));
+      const dataChampions2 = await lastValueFrom(
+        this.http.get<any[]>(urlJson2)
+      );
+      this.datasChampion = dataChampions1.map((item) => ({
         championName1: selectedChampion1,
         championName2: item.championName,
         difficulty: item.difficulty,
         tips: this.formatText(item.tips),
       }));
-      this.filteredMatchup = this.matchup.filter(
+      this.filteredMatchup = this.datasChampion.filter(
         (item) =>
           item.championName2 &&
           item.championName2
@@ -93,6 +128,73 @@ export class MatchupsComponent {
             item.difficulty.toLowerCase() == 'even' ||
             item.difficulty.toLowerCase() == 'tiny')
       );
+      this.datasChampion2 = dataChampions2.map((item) => ({
+        championName1: selectedChampion1,
+        championName2: item.championName,
+        difficulty: item.difficulty,
+        tips: this.formatText(item.tips),
+      }));
+      this.bestPicksForChampion = this.datasChampion
+        .filter(
+          (item) =>
+            item.difficulty.toLowerCase() == 'minor' ||
+            item.difficulty.toLowerCase() == 'tiny'
+        )
+        .sort((a, b) => {
+          if (a.difficulty.toLowerCase() === b.difficulty.toLowerCase()) {
+            return a.championName2.localeCompare(b.championName2);
+          } else if (a.difficulty.toLowerCase() === 'tiny') {
+            return -1;
+          } else {
+            return 1;
+          }
+        });
+      this.worstPicksForChampion = this.datasChampion
+        .filter(
+          (item) =>
+            item.difficulty.toLowerCase() == 'extreme' ||
+            item.difficulty.toLowerCase() == 'major'
+        )
+        .sort((a, b) => {
+          if (a.difficulty.toLowerCase() === b.difficulty.toLowerCase()) {
+            return a.championName2.localeCompare(b.championName2);
+          } else if (a.difficulty.toLowerCase() === 'extreme') {
+            return -1;
+          } else {
+            return 1;
+          }
+        });
+      this.bestPicksForChampion2 = this.datasChampion2
+        .filter(
+          (item) =>
+            item.difficulty.toLowerCase() == 'minor' ||
+            item.difficulty.toLowerCase() == 'tiny'
+        )
+        .sort((a, b) => {
+          if (a.difficulty.toLowerCase() === b.difficulty.toLowerCase()) {
+            return a.championName2.localeCompare(b.championName2);
+          } else if (a.difficulty.toLowerCase() === 'tiny') {
+            return -1;
+          } else {
+            return 1;
+          }
+        });
+      this.worstPicksForChampion2 = this.datasChampion2
+        .filter(
+          (item) =>
+            item.difficulty.toLowerCase() == 'extreme' ||
+            item.difficulty.toLowerCase() == 'major'
+        )
+        .sort((a, b) => {
+          if (a.difficulty.toLowerCase() === b.difficulty.toLowerCase()) {
+            return a.championName2.localeCompare(b.championName2);
+          } else if (a.difficulty.toLowerCase() === 'extreme') {
+            return -1;
+          } else {
+            return 1;
+          }
+        });
+
       await this.getAuthorByChampion(selectedChampion1);
     } catch (error) {
       console.error('Erreur lors de la récupération des données', error);

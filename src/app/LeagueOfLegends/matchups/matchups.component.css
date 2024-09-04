@@ -6,6 +6,8 @@
     height: 100%;
     box-sizing: border-box;
     max-width: calc(100% - 300px);
+    max-height: calc(100% - 75px);
+    overflow: auto;
 }
 .imgBkg {
     width: 100%;
@@ -357,4 +359,14 @@ opacity: 0;
 
   .divPicks{
     display: flex;
+  }
+  
+  .divCountersChampions{
+    display: flex;
+    z-index: 100;
+    position: relative;
+  }
+  .divCountersContent{    
+    max-height: 400px;
+    overflow: scroll;
   }

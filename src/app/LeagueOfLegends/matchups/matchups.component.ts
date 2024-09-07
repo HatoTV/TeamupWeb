@@ -15,6 +15,12 @@ import { throws } from 'node:assert';
 })
 export class MatchupsComponent {
   constructor(private elementRef: ElementRef, private http: HttpClient) { }
+  ngAfterViewInit() {
+    const document = this.elementRef.nativeElement.ownerDocument;
+    const body = document.body;
+    body.style.background =
+      'linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))';
+  }
   champions: { name: string; icon: string; difficulty: string; isTop: boolean; isAdc: boolean,isMid: boolean, isJungle: boolean,isSupport: boolean }[] = [];
   datasChampion: {
     championName1: string;
@@ -76,13 +82,6 @@ export class MatchupsComponent {
   showImage1 = false;
   showImage2 = false;
   riotApiKey: string = '';
-
-  ngAfterViewInit() {
-    const document = this.elementRef.nativeElement.ownerDocument;
-    const body = document.body;
-    body.style.background =
-      'linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))';
-  }
 
   ngOnInit() {
     this.http.get<any[]>('assets/jsonDatas/AllChampions.json').subscribe((data) => {
@@ -198,8 +197,7 @@ export class MatchupsComponent {
             return 1;
           }
         }));
-
-
+        
         this.bestPicksForChampion = this.isRolesEquals(this.selectedChampion[0].name,this.bestPicksForChampion);
         this.worstPicksForChampion = this.isRolesEquals(this.selectedChampion[0].name,this.worstPicksForChampion);
 
@@ -392,7 +390,7 @@ export class MatchupsComponent {
     const resultats = this.champions.filter(item1 => {
       return item1.name.localeCompare(championName, undefined, { sensitivity: 'base' }) === 0;
     });
-    return resultats.map(item => item.icon);
+    return this.removeDuplicatesByName(resultats.map(item => item.icon));
   }
 
   styleByDifficulty(difficulty: string, isTitle: boolean) {
@@ -444,7 +442,6 @@ export class MatchupsComponent {
     let tabResults: any[] = [];
     tableauCounter.forEach((counter, index) => {
       let champion2 = this.champions.find(champ => champ.name === counter.championName2);
-      console.log(champion1)
       if((champion2?.isTop===champion1?.isTop && champion1?.isTop) || 
       (champion2?.isMid===champion1?.isMid && champion1?.isMid) || 
       (champion2?.isSupport===champion1?.isSupport && champion1?.isSupport)|| 

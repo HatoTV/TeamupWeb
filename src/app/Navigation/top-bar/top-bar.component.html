@@ -1,5 +1,5 @@
 <div class="topBar">
-    <img class="logo" src="assets/img/icons/TeamUp_full_white.png">
+    <img class="logo" src="assets/img/icons/TeamUp_full_white.png" (click)="goToUrl()">
     <div style="height: 100%;" *ngFor ="let itemSections of itemsSections">   
         <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'">
             <div class="logo-wrapper">

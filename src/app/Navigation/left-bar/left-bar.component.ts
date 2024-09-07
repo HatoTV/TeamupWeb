@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { TranslateModule } from '@ngx-translate/core';
+import { Router } from '@angular/router';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'left-bar',
@@ -10,9 +11,10 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './left-bar.component.css',
 })
 export class LeftBarComponent {
+  constructor(private router: Router, private translate: TranslateService) {}
   itemsChampions = [
-    { logoUrl: 'assets/img/icons/Battle.png', title: 'Matchups' },
-    { logoUrl: 'assets/img/icons/Open Book.png', title: 'Guides' },
+    { logoUrl: 'assets/img/icons/Battle.png', title: 'Matchups',url: '/lol/matchups' },
+    { logoUrl: 'assets/img/icons/Open Book.png', title: 'Guides',url: '/lol/guides' },
   ];
 
   itemsGameplay: Array<{
@@ -20,6 +22,7 @@ export class LeftBarComponent {
     title: string;
     subtitles: string[];
     isOpen: boolean;
+    url:string;
   }> = [
     {
       logoUrl: 'assets/img/icons/Journey.png',
@@ -31,6 +34,7 @@ export class LeftBarComponent {
         'LOL.LEFTBAR.LANING.BAIT',
         'Roaming',
       ],
+      url: '/lol/laning',
       isOpen: false,
     },
     {
@@ -42,6 +46,7 @@ export class LeftBarComponent {
         'LOL.LEFTBAR.WAVEMANAGEMENT.BACKTIMING',
         'Freeze / Slow Push / Fast Push',
       ],
+      url: '/lol/wavemanagement',
       isOpen: false,
     },
     {
@@ -54,30 +59,38 @@ export class LeftBarComponent {
         'Ganks',
         'Tips',
       ],
+      url: '/lol/jungle',
       isOpen: false,
     },
     {
       logoUrl: 'assets/img/icons/Computer Mouse.png',
       title: 'LOL.LEFTBAR.MECANICS',
       subtitles: [],
+      url: '/lol/mecanics',
       isOpen: false,
     },
     {
       logoUrl: 'assets/img/icons/Handshake Heart.png',
       title: 'Teamfights',
       subtitles: [],
+      url: '/lol/teamfight',
       isOpen: false,
     },
     {
       logoUrl: 'assets/img/icons/Attitude.png',
       title: 'Mindset',
       subtitles: [],
+      url: '/lol/mindset',
       isOpen: false,
     },
-    // Ajoute d'autres éléments ici
   ];
 
   toggleItem(item: any): void {
     item.isOpen = !item.isOpen;
+  }
+
+  goToUrl(url:string){
+    const defaultLang : string = this.translate.defaultLang || 'fr'
+    this.router.navigate([`/${defaultLang}` + url]);
   }
 }

@@ -11,7 +11,12 @@
     --lol-light-color: rgb(205 118 255);
     --lol-secondary : #1c8f87;
     --lol-secondary-hover : #22ACA3;
-    --lol-difficulty-extreme : #B73131;
+    --lol-difficulty-extreme : #ff4d4d;
+    --lol-difficulty-difficile : #ffb864;
+    --lol-difficulty-moyen : #ffe760;
+    --lol-difficulty-tresfacile : #76ff76;
+    --lol-difficulty-facile : #5fd2ff;
+    --lol-counter-title: #1d0a2d;
   }
 
   html, body {

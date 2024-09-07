@@ -78,8 +78,8 @@ h2{
 }
 
 .iconChampions{
-    width: 40px; 
-    height: 40px; 
+    width: 48px; 
+    height: 48px; 
     margin-right: 10px;
 }
 
@@ -257,13 +257,10 @@ opacity: 0;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: var(--lol-difficulty-extreme);
-    border: 2px solid white;
     border-radius: 5px;
     height: fit-content;
     position: absolute;
     left: 25px;
-
 }
 
 .authorMatchup, .rankMatchup{
@@ -365,8 +362,55 @@ opacity: 0;
     display: flex;
     z-index: 100;
     position: relative;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .divCountersContent{    
     max-height: 400px;
-    overflow: scroll;
+    overflow-y: auto;
+    background-color: var(--lol-gradient-2);
   }
+
+  .divPicks{
+    display: flex;
+    justify-content: space-between; /* Sépare les div gauche et droite */
+    align-items: center;    
+    margin-top: 50px; 
+  }
+
+  .left {
+    display: flex;
+    margin-right: auto; /* Repousse les divs de droite */
+    margin-left: 5%; /* Repousse les divs de droite */
+  }
+  
+  .right {
+    display: flex;
+    margin-left: auto; /* Repousse les divs de gauche */
+    margin-right: 5%; /* Repousse les divs de droite */
+  }
+  .contentPick{
+    width: 14vw;
+    border: 4px solid var(--lol-counter-title);
+    background-color: var(--lol-gradient-2);
+}
+
+.titleCounter{
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
+    background-color: var(--lol-counter-title);
+}
+
+.championCounterName{
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.championCounterDifficulty{
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+}

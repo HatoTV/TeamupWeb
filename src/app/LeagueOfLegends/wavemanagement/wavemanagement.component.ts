@@ -1,12 +1,16 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component, ElementRef, Pipe } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common';
+import { SafeHtmlPipe } from '../../safe-html.pipe';
 
 @Component({
   selector: 'app-wavemanagement',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, TranslateModule ,SafeHtmlPipe ],
   templateUrl: './wavemanagement.component.html',
   styleUrl: './wavemanagement.component.css'
 })
+
 export class WavemanagementComponent {
   constructor(private elementRef: ElementRef) { }
   ngAfterViewInit() {
@@ -15,4 +19,5 @@ export class WavemanagementComponent {
     body.style.background =
       'linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))';
   }
+  
 }

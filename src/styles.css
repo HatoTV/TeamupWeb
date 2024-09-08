@@ -70,3 +70,11 @@
     display: none; /* Masquer les boutons de la scrollbar */
   }
   
+  .bold-text {
+    font-weight: 600;
+  }
+
+  .italic-text {
+    font-style: italic;
+    text-decoration: underline;
+  }

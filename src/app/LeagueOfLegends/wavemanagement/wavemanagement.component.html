@@ -6,12 +6,13 @@
     <h2>{{ "LOL.WAVEMANAGEMENT.SUBTITLE0" | translate }}</h2>
   </div>
 
-  <div class="divContentEmpty"></div>
+  <div
+    class="divContentEmpty"
+    [id]="'LOL.LEFTBAR.FONDAMENTALS' | translate"
+  ></div>
   <div class="divContent">
-    <h3
-      [id]="'LOL.LEFTBAR.FONDAMENTALS' | translate"
-      style="padding-top: 0 !important"
-    >
+    <div style="padding-bottom: 20px"></div>
+    <h3 style="padding-top: 0 !important">
       {{ "LOL.LEFTBAR.FONDAMENTALS" | translate }}
     </h3>
     <hr class="divider paddingSidebar" />
@@ -89,7 +90,11 @@
     ></h4>
     <h5>{{ "LOL.WAVEMANAGEMENT.TITLE4" | translate }}</h5>
     <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4' | translate | safeHtml"></h4>
-    <h3 [id]="'LOL.WAVEMANAGEMENT.TITLE5' | translate">
+    <div
+      style="padding-bottom: 40px"
+      [id]="'LOL.WAVEMANAGEMENT.TITLE5' | translate"
+    ></div>
+    <h3>
       {{ "LOL.WAVEMANAGEMENT.TITLE5" | translate }}
     </h3>
     <hr class="divider paddingSidebar" />
@@ -129,8 +134,14 @@
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE7" | translate }}</h5>
     <h4>{{ "LOL.WAVEMANAGEMENT.CONTENT7" | translate }}</h4>
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE8" | translate }}</h5>
-    <h4>{{ "LOL.WAVEMANAGEMENT.CONTENT8" | translate }}</h4>
-    <h3 [id]="'LOL.WAVEMANAGEMENT.TITLE9' | translate">
+    <h4>
+      {{ "LOL.WAVEMANAGEMENT.CONTENT8" | translate }}
+    </h4>
+    <div
+      style="padding-bottom: 40px"
+      [id]="'LOL.WAVEMANAGEMENT.TITLE9' | translate"
+    ></div>
+    <h3>
       {{ "LOL.WAVEMANAGEMENT.TITLE9" | translate }}
     </h3>
     <hr class="divider paddingSidebar" />
@@ -140,7 +151,11 @@
     <h4>{{ "LOL.WAVEMANAGEMENT.CONTENT10" | translate }}</h4>
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE11" | translate }}</h5>
     <h4>{{ "LOL.WAVEMANAGEMENT.CONTENT11" | translate }}</h4>
-    <h3 [id]="'LOL.WAVEMANAGEMENT.TITLE12' | translate">
+    <div
+      style="padding-bottom: 40px"
+      [id]="'LOL.WAVEMANAGEMENT.TITLE12' | translate"
+    ></div>
+    <h3>
       {{ "LOL.WAVEMANAGEMENT.TITLE12" | translate }}
     </h3>
     <hr class="divider paddingSidebar" />

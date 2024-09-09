@@ -44,8 +44,8 @@
           [ngClass]="{ visible: itemGameplay.isOpen }"
         >
           <a
-            [attr.href]="createHref(subtitle, 'wavemanagement')"
             style="text-decoration: none; color: white"
+            (click)="scrollWithOffset($event, subtitle, 'wavemanagement')"
             ><h3>{{ subtitle | translate }}</h3></a
           >
         </div>

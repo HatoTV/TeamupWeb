@@ -106,6 +106,14 @@ export class LeftBarComponent {
   createHref(subtitle: string, link: string): string {
     const defaultLang: string = this.translate.defaultLang || 'fr';
     const baseUrl = `/${defaultLang}/lol/${link}`;
-    return `${baseUrl}#${this.translate.instant(subtitle)}`;
+    return `${baseUrl}#${subtitle}`;
+  }
+
+  scrollWithOffset(event: Event, subtitle: string, link: string) {
+    event.preventDefault(); // Empêche le comportement par défaut
+    const subtitleTranslated = this.translate.instant(subtitle);
+    // Redirige vers l'URL cible
+    const targetUrl = this.createHref(subtitleTranslated, link);
+    window.location.href = targetUrl;
   }
 }

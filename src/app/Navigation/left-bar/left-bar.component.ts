@@ -36,11 +36,11 @@ export class LeftBarComponent {
       logoUrl: 'assets/img/icons/Journey.png',
       title: 'Laning',
       subtitles: [
-        'LOL.LEFTBAR.FONDAMENTALS',
-        'Last hit',
-        'Trading',
-        'LOL.LEFTBAR.LANING.BAIT',
-        'Roaming',
+        'LOL.LEFTBAR.INTRODUCTION',
+        'LOL.LANING.TITLE2',
+        'LOL.LANING.TITLE3',
+        'LOL.LANING.TITLE6',
+        'LOL.LANING.TITLE9',
       ],
       url: '/lol/laning',
       isOpen: false,
@@ -105,7 +105,7 @@ export class LeftBarComponent {
   // Méthode pour générer l'URL dynamiquement
   createHref(subtitle: string, link: string): string {
     const defaultLang: string = this.translate.defaultLang || 'fr';
-    const baseUrl = `/${defaultLang}/lol/${link}`;
+    const baseUrl = `/${defaultLang}${link}`;
     return `${baseUrl}#${subtitle}`;
   }
 

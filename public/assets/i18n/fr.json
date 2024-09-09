@@ -54,7 +54,7 @@
       "CONTENT4":"Le moment où vous retournez à la base est crucial pour maximiser vos gains de gold et d'expérience. <br>Pour déterminer le bon timing, la position de la vague de sbires est une information clé à prendre en compte. <br><br><div style='display:flex;align-items: center;'><img style='margin-right: 40px;width:250px;height:auto;border: 4px solid white;' src='assets/img/wavemanagement_MapSpawn.webp'>Étant donné que les vagues des deux équipes apparaissent en même temps, vous pouvez estimer la position de la vague ennemie en regardant où se trouve la vôtre (effet miroir). Par exemple, si une vague canon part de votre base, une vague canon part également de la base ennemie.<br><br>Il est fortement déconseillé de back si une vague canon est déjà en chemin. Les sbires canon rapportent plus de gold et d'expérience que les sbires classiques, donc il est préférable de rester en lane pour récolter ces ressources. L’idéal est de back avant qu’une vague canon n’apparaisse.<br><br></div><div style='margin-top: 40px'>De plus, si votre adversaire n'est pas sur la lane, il peut être utile de pousser rapidement votre vague sous sa tour avant de back (Fast Push). Cela lui fera perdre des ressources et permettra à la vague ennemie d'avancer vers le milieu de la lane, rendant votre retour plus sûr.</div>",
       "TITLE5":"Stratégie 1 : Le Freeze",
       "SUBTITLE5":"Qu'est-ce qu'un Freeze ?",
-      "CONTENT5" : "Le freezing consiste à empêcher la vague de sbires de bouger, obligeant l'adversaire à s'avancer pour récupérer des ressources. Pour maintenir un freeze, vous devez équilibrer les dégâts subis par vos sbires et ceux infligés aux sbires ennemis, en gérant leur position par rapport à votre tourelle.",
+      "CONTENT5" : "Le freezing consiste à empêcher la vague de sbires de bouger, obligeant l'adversaire à s'avancer pour récupérer des ressources. <br><br>Pour maintenir un freeze, vous devez équilibrer les dégâts subis par vos sbires et ceux infligés aux sbires ennemis, en gérant leur position par rapport à votre tourelle.",
       "SUBTITLE6":"Comment freeze une lane ?",
       "CONTENT6":{
         "LIST1" : "Lorsque l'ennemi inflige des dégâts à ses sbires (hors du last-hit), vous devez ajuster vos dégâts pour que tous les sbires meurent à peu près au même moment, empêchant ainsi la vague de pousser.",
@@ -63,23 +63,41 @@
         "LIST4" : "Si la vague est trop importante pour être tankée, réduisez le nombre de sbires ennemis pour garder le contrôle du freeze."
       },
       "SUBTITLE7":"Quand freeze une lane ?",
-      "CONTENT7":"-Si le jungler ennemi vous met beaucoup de pression, il est conseillé de freeze près de votre tour pour farmer en sécurité et éviter les ganks.\n-Après avoir été tué, le freeze vous permet de rattraper votre retard en farm sans trop vous exposer.\n-Lorsque l'ennemi back sans avoir poussé correctement la vague dans votre tour, maintenez la vague hors de votre tour pour le forcer à s'exposer à son retour.",
+      "CONTENT7":{
+        "LIST1" : "Si le jungler ennemi vous met beaucoup de pression, il est conseillé de freeze près de votre tour pour farmer en sécurité et éviter les ganks.",
+        "LIST2" : "Après avoir été tué, le freeze vous permet de rattraper votre retard en farm sans trop vous exposer.",
+        "LIST3" : "Lorsque l'ennemi back sans avoir poussé correctement la vague dans votre tour, maintenez la vague hors de votre tour pour le forcer à s'exposer à son retour."
+      },
       "SUBTITLE8":"Avantages & Inconvénients du freeze",
-      "CONTENT8":"Les avantages du freezing incluent le fait de priver l'ennemi de sbires, ce qui vous permet de prendre un avantage en or et de forcer l'ennemi à s'exposer pour farmer, créant des opportunités de gank. Cela permet aussi de rattraper votre retard en or et en expérience si vous êtes en difficulté.\n\nCependant, un freeze mal exécuté peut permettre à l'ennemi de roam et ainsi de prendre de créer un avantage ailleurs sur la carte.\nDe plus, le freeze est plus difficile à maintenir si l'ennemi a un bon wave clear.",
+      "CONTENT8":"Les avantages du freezing incluent le fait de priver l'ennemi de sbires, ce qui vous permet de prendre un avantage en or et de forcer l'ennemi à s'exposer pour farmer, créant des opportunités de gank.<br>Cela permet aussi de rattraper votre retard en or et en expérience si vous êtes en difficulté.<br><br>Cependant, un freeze mal exécuté peut permettre à l'ennemi de roam et ainsi de prendre de créer un avantage ailleurs sur la carte.\nDe plus, le freeze est plus difficile à maintenir si l'ennemi a un bon wave clear.",
       "TITLE9":"Stratégie 2 : Le Slow Push",
       "SUBTITLE9":"Qu'est-ce qu'un Slow Push ?",
       "CONTENT9":"Le slow pushing consiste à faire avancer la vague de sbires lentement vers la tour ennemie, tout en vous laissant libre de faire d'autres actions sur la carte.",
       "SUBTITLE10":"Comment slow push une lane ?",
       "CONTENT10":"Il suffit de réduire le nombre de sbires ennemis juste assez pour que votre vague avance progressivement (tuer les sbires à distance ou laisser un léger avantage en nombre de sbires).",
       "SUBTITLE11":"Quand slow push une lane ?",
-      "CONTENT11":"-Avant de quitter votre lane pour aider ailleurs, assurez-vous que votre vague est en slow push afin que l'ennemi ne puisse pas facilement détruire votre tour pendant votre absence.\n-Un slow push peut aboutir à une vague massive qui forcerait l'ennemi à défendre, libérant des opportunités pour votre équipe ailleurs sur la carte.",
+      "CONTENT11":{
+        "LIST1" : "Avant de quitter votre lane pour aider ailleurs, assurez-vous que votre vague est en slow push afin que l'ennemi ne puisse pas facilement détruire votre tour pendant votre absence.",
+        "LIST2" : "Un slow push peut aboutir à une vague massive qui forcerait l'ennemi à défendre, libérant des opportunités pour votre équipe ailleurs sur la carte."
+      },
       "TITLE12":"Stratégie 3 : Le Fast Push",
       "SUBTITLE12":"Qu'est-ce qu'un Fast Push ?",
       "CONTENT12":"Le Fast Push est une technique qui consiste à pousser rapidement la vague de sbires pour forcer l'adversaire à revenir en lane.",
       "SUBTITLE13":"Comment Fast push une lane ?",
-      "CONTENT13":"L’objectif est de nettoyer rapidement la vague de sbires ennemis afin que vos sbires puissent avancer rapidement vers la tour ennemie.\n\n- Éliminez les sbires mêlée en premier puis les sbires canons en priorité pour éviter le ralentissement de votre wave.- Attaquez les sbires sans arrêt, ne vous contentez pas de last-hit - Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble.\n",
+      "CONTENT13":{
+        "LIST1" : "L’objectif est de nettoyer rapidement la vague de sbires ennemis afin que vos sbires puissent avancer rapidement vers la tour ennemie.",
+        "LIST2" : "Éliminez les sbires mêlée en premier puis les sbires canons en priorité pour éviter le ralentissement de votre wave.",
+        "LIST3" : "Attaquez les sbires sans arrêt, ne vous contentez pas de last-hit.",
+        "LIST4" : "Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble."
+      },
       "SUBTITLE14":"Quand fast push une lane ?",
-      "CONTENT14":"Si l'ennemi n'est pas sur la lane ou est mort, envoyez rapidement la vague sous la tour ennemie pour lui faire perdre des ressources.\nAvant de bouger sur la carte, un fast push permet de gagner du temps et de sécuriser vos ressources avant de rejoindre une action ailleurs.\nContre certains champions qui peinent à farmer sous tour, le fast push peut les mettre sous pression ou les forcer à faire des erreurs.\n\nAvant de Fast/Slow Push, assurez-vous que vous avez assez de temps et de vision sur la carte pour éviter un gank."
+      "CONTENT14":{
+        "LIST1" : "Si l'ennemi n'est pas sur la lane ou est mort, envoyez rapidement la vague sous la tour ennemie pour lui faire perdre des ressources.",
+        "LIST2" : "Avant de bouger sur la carte, un fast push permet de gagner du temps et de sécuriser vos ressources avant de rejoindre une action ailleurs.",
+        "LIST3" : "Contre certains champions qui peinent à farmer sous tour, le fast push peut les mettre sous pression ou les forcer à faire des erreurs.",
+        "LIST4" : "Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble."
+      },
+      "CONTENT15":"<bold>Important :</bold> Avant de Fast/Slow Push, assurez-vous que vous avez assez de temps et de vision sur la carte pour éviter un gank."
     }
   }
 }

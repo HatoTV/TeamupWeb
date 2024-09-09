@@ -1,7 +1,7 @@
 .topBar{
     height: 54px;
     position: sticky;
-    z-index: 10;
+    z-index: 200;
     background-color: var(--lol-topbar);
     border-bottom: 1px solid white;
     display: flex;

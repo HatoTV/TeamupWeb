@@ -1,4 +1,8 @@
-import { ApplicationConfig, provideZoneChangeDetection,importProvidersFrom, } from '@angular/core';
+import {
+  ApplicationConfig,
+  provideZoneChangeDetection,
+  importProvidersFrom,
+} from '@angular/core';
 import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
@@ -12,7 +16,11 @@ export function createTranslateLoader(httpClient: HttpClient) {
 }
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), provideClientHydration(),provideHttpClient(),
+  providers: [
+    provideZoneChangeDetection({ eventCoalescing: true }),
+    provideRouter(routes),
+    provideClientHydration(),
+    provideHttpClient(),
     importProvidersFrom(
       TranslateModule.forRoot({
         loader: {
@@ -22,5 +30,6 @@ export const appConfig: ApplicationConfig = {
         },
         defaultLanguage: 'fr',
       })
-    ),]
+    ),
+  ],
 };

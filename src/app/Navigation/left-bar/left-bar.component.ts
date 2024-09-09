@@ -13,8 +13,16 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 export class LeftBarComponent {
   constructor(private router: Router, private translate: TranslateService) {}
   itemsChampions = [
-    { logoUrl: 'assets/img/icons/Battle.png', title: 'Matchups',url: '/lol/matchups' },
-    { logoUrl: 'assets/img/icons/Open Book.png', title: 'Guides',url: '/lol/guides' },
+    {
+      logoUrl: 'assets/img/icons/Battle.png',
+      title: 'Matchups',
+      url: '/lol/matchups',
+    },
+    {
+      logoUrl: 'assets/img/icons/Open Book.png',
+      title: 'Guides',
+      url: '/lol/guides',
+    },
   ];
 
   itemsGameplay: Array<{
@@ -22,7 +30,7 @@ export class LeftBarComponent {
     title: string;
     subtitles: string[];
     isOpen: boolean;
-    url:string;
+    url: string;
   }> = [
     {
       logoUrl: 'assets/img/icons/Journey.png',
@@ -42,9 +50,9 @@ export class LeftBarComponent {
       title: 'Wave management',
       subtitles: [
         'LOL.LEFTBAR.FONDAMENTALS',
-        'LOL.LEFTBAR.WAVEMANAGEMENT.SPAWN',
-        'LOL.LEFTBAR.WAVEMANAGEMENT.BACKTIMING',
-        'Freeze / Slow Push / Fast Push',
+        'LOL.WAVEMANAGEMENT.TITLE5',
+        'LOL.WAVEMANAGEMENT.TITLE9',
+        'LOL.WAVEMANAGEMENT.TITLE12',
       ],
       url: '/lol/wavemanagement',
       isOpen: false,
@@ -89,8 +97,15 @@ export class LeftBarComponent {
     item.isOpen = !item.isOpen;
   }
 
-  goToUrl(url:string){
-    const defaultLang : string = this.translate.defaultLang || 'fr'
+  goToUrl(url: string) {
+    const defaultLang: string = this.translate.defaultLang || 'fr';
     this.router.navigate([`/${defaultLang}` + url]);
+  }
+
+  // Méthode pour générer l'URL dynamiquement
+  createHref(subtitle: string, link: string): string {
+    const defaultLang: string = this.translate.defaultLang || 'fr';
+    const baseUrl = `/${defaultLang}/lol/${link}`;
+    return `${baseUrl}#${this.translate.instant(subtitle)}`;
   }
 }

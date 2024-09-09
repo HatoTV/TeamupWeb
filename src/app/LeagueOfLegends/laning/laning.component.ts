@@ -1,14 +1,17 @@
+import { CommonModule } from '@angular/common';
 import { Component, ElementRef } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
+import { SafeHtmlPipe } from '../../safe-html.pipe';
 
 @Component({
   selector: 'app-laning',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, TranslateModule, SafeHtmlPipe],
   templateUrl: './laning.component.html',
-  styleUrl: './laning.component.css'
+  styleUrl: './laning.component.css',
 })
 export class LaningComponent {
-  constructor(private elementRef: ElementRef) { }
+  constructor(private elementRef: ElementRef) {}
   ngAfterViewInit() {
     const document = this.elementRef.nativeElement.ownerDocument;
     const body = document.body;

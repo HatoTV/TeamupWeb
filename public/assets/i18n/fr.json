@@ -9,7 +9,8 @@
       "JUNGLE" : {
         "PATHING" : "Chemins de Jungle",
         "OBJECTIVES" : "Objectifs & Invades"
-      }
+      },
+      "INTRODUCTION" : "Introduction"
     },
     
     "MATCHUPS": {
@@ -98,6 +99,44 @@
         "LIST4" : "Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble."
       },
       "CONTENT15":"<bold>Important :</bold> Avant de Fast/Slow Push, assurez-vous que vous avez assez de temps et de vision sur la carte pour éviter un gank."
+    },
+
+    "LANING":{
+      "TITLE0":"Le Laning",
+      "SUBTITLE0":"Dominez votre adversaire dès les premières minutes !",
+      "CONTENT1":"Que vous soyez en top, mid ou bot lane, votre performance durant cette phase initiale peut fortement influencer le reste de la partie. <br><br>Chaque rôle en lane requiert une maîtrise des mécaniques de combat, du positionnement et de la gestion des ressources pour surpasser votre adversaire direct. <br>En top lane, il s’agit souvent de duels prolongés et de gestion de la téléportation.<br>En mid lane, la priorité est de contrôler la carte et d'effectuer des rotations efficaces. <br>En bot lane, la coordination avec votre support et la gestion des échanges sont essentielles.<br><br> Maîtriser ces aspects vous permettra non seulement de dominer votre propre lane, mais aussi d’influencer le cours global de la partie.",
+      "TITLE2":"Last Hit",
+      "CONTENT2": "Le last hit est fondamental pour accumuler de l’or et prendre l’avantage sur votre adversaire en lane.<br><br>Il consiste à porter le coup fatal aux sbires ennemis afin de collecter l’or qu’ils génèrent. Maîtriser cette technique nécessite un bon timing et une connaissance précise des dégâts que vous infligez, car manquer un last hit entraîne une perte d’or et peut ralentir votre progression.<br><br>De plus, le last hit est crucial pour un bon wave management (voir chapitre sur le Wave Management).<br>Utilisez l’outil d'entraînement pour perfectionner votre farm et ajuster vos dégâts en fonction de votre niveau et équipement. Mieux vous maîtrisez le last hit, plus vous accumulez de ressources, ce qui vous donne un net avantage dans la partie – souvent plus important que de sécuriser des kills.",
+      "TITLE3":"Trading",
+      "CONTENT3":"Le trading consiste à infliger des dégâts à son adversaire, soit avec des auto-attaques, soit avec des compétences.",
+      "SUBTITLE4":"Comment trade efficacement ?",
+      "CONTENT4":{
+        "LIST1" : "<bold>Profitez des moments de last hit adverses :</bold> Votre adversaire doit tuer des sbires pour farmer, devenant immobile et donc vulnérable à ce moment-là. Anticipez ses actions en surveillant la vie de vos sbires et punissez-le avec vos compétences lorsqu'il se prépare à effectuer un last hit.",
+        "LIST2" : "<bold>Exploitez les cooldowns ennemis :</bold> Si votre adversaire utilise des compétences pour farmer ou vous agresser, tirez parti du délai avant qu’il ne récupère ses sorts pour engager un trade. Le bait de sorts (l'inciter à les utiliser sans effet) est une tactique clé dont nous parlerons plus en détail dans le prochain chapitre.",
+        "LIST3" : "<bold>Faites attention aux sbires :</bold> Infliger des dégâts à un champion provoque l’aggro des sbires ennemis qui vous attaqueront à la place des vôtres. Evitez les combats prolongés dans une grande vague de sbires adverses, car cela peut vite tourner à votre désavantage.",
+        "LIST4" : "<bold>Poke l’adversaire :</bold> Le poke consiste à harceler l’ennemi avec des attaques à distance ou des compétences, réduisant progressivement sa santé sans s'engager dans un combat direct. Cela force souvent l’adversaire à jouer défensivement, à manquer des sbires ou à consommer ses ressources (potions, sorts de soin). Certains champions sont plus efficaces pour poke en fonction de leur kit (par exemple, Ziggs ou Xerath sont bien plus efficaces qu’un Garen). Une fois l’ennemi affaibli, engagez un combat plus agressif lorsque sa situation est défavorable.",
+        "LIST5" : "<bold>Gérez votre spacing :</bold> Le spacing fait référence à la gestion de la distance entre vous et votre adversaire pour maximiser vos actions tout en minimisant les risques. Assurez-vous d'être à la distance optimale pour utiliser vos compétences tout en restant hors de portée des siennes. Si vous êtes un champion à distance face à un champion de mêlée, abusez de votre portée pour le harceler avec des auto-attaques sans lui permettre de farmer facilement."
+      },
+      "CONTENT5":"<italic>Astuce :</italic> Utilisez les buissons pour casser la vision de votre adversaire pendant un combat. Cela peut l'empêcher de vous cibler avec des compétences ou des auto-attaques, tandis que vous pouvez continuer à l’agresser.<br><br>Les trades sont encore plus avantageux si vous avez un niveau supérieur à votre adversaire ou venez d'obtenir un powerspike (gain de puissance via un sort ou un objet). De plus, une bonne gestion des vagues (wave management) peut vous aider à optimiser vos trades tout en minimisant la perte de ressources.<br>Attention toutefois au moment où vous engagez un trade. Un adversaire près de sa tour avec sa barre de vie pleine sera difficile à menacer. De plus, si vous commencez un trade et vous faites gank immédiatement après, vos chances de survie seront réduites, car vous aurez vos sorts en cooldown.<br><br>Certains matchups rendent les trades plus ou moins compliqués, nécessitant une approche spécifique (sorts précis en cooldown, trades courts ou longs). <br>Consultez la section 'Matchups' pour mieux comprendre les forces et faiblesses de votre champion contre d’autres.",
+      "TITLE6":"Bait les sorts ennemis",
+      "CONTENT6":"Le bait de sorts en lane est une tactique stratégique dans League of Legends. Bait signifie 'appâter', et ici, cela consiste à inciter votre adversaire à utiliser une capacité de manière inefficace, créant ainsi une opportunité pour vous.",
+      "SUBTITLE7":"Comment bait efficacement ?",
+      "CONTENT7":{
+        "LIST1" : "<bold>Feindre une attaque :</bold> Positionnez-vous de manière agressive, comme si vous alliez engager un combat, puis reculez rapidement. L'adversaire pourrait utiliser un sort défensif ou offensif pour vous dissuader, ce qui vous permettrait de réengager alors qu'il est à court de ressources.",
+        "LIST2" : "<bold>Positionnement risqué :</bold> Placez-vous à portée d'un sort de poke ou de contrôle, mais soyez prêt à esquiver ou à reculer rapidement. Si votre adversaire rate son sort, il devient vulnérable et vous pouvez contre-attaquer.",
+        "LIST3" : "<bold>Utilisation des sbires :</bold> Appâtez votre adversaire en vous montrant vulnérable en tentant de last-hit un sbire à faible vie. Cela pourrait l'inciter à gaspiller un sort, que vous pouvez ensuite esquiver.",
+        "LIST4" : "<bold>Simuler un manque de ressources :</bold> Faites croire à votre adversaire que vous n'avez plus beaucoup de mana ou que vous êtes trop faible pour engager un combat. Cela pourrait le pousser à jouer trop agressivement, vous donnant l’opportunité de contre-attaquer ou d'appeler votre jungler pour un gank."
+       }, 
+       "CONTENT8":"Lorsque vous réussissez à bait un sort, c'est le moment d'exploiter cette fenêtre de vulnérabilité. Si c'était un sort clé avec un long cooldown, engagez immédiatement un combat ou appelez votre jungler pour une opportunité de kill.",
+       "TITLE9":"Roaming",
+       "CONTENT9":"Il arrive que vous n’ayez plus rien à faire sur votre lane.<br> Si votre vague de sbires s’écrase sous la tour ennemie et que vous n’avez pas assez d’or pour un achat pertinent à la base, c’est le moment idéal pour aller aider ailleurs : c’est ce qu’on appelle le <bold>Roaming</bold>.<br><br>Lorsque votre vague de sbires est sous la tour ennemie, votre adversaire est occupé à farmer ou est absent, ce qui vous permet de créer une situation de surnombre ailleurs sur la carte.<br><br>La midlane est particulièrement adaptée au roaming, car elle offre un accès rapide aux autres objectifs et lanes. Cependant, le support et le toplaner peuvent également roam pour aider leurs alliés ou préparer des objectifs.",
+       "SUBTITLE10":"Comment roam efficacement ?",
+       "CONTENT10":{
+         "LIST1" : "<bold>Gank une autre lane :</bold> Si votre champion possède un bon sort de contrôle ou de déplacement, aider vos alliés sur une autre lane peut leur donner un avantage décisif.",
+         "LIST2" : "<bold>Poser de la vision :</bold> Placer des balises de vision (wards) dans la jungle ennemie ou autour de votre lane pour anticiper un gank.",
+         "LIST3" : "<bold>Invade la jungle ennemie :</bold> Avec un bon positionnement, surprenez le jungler ennemi dans sa jungle pour l’empêcher de collecter ses ressources. Faites attention, car ses alliés pourraient venir l’aider ; c’est une stratégie plus sûre avec votre jungler ou support.",
+         "LIST4" : "<bold>Préparer/Faire un objectif :</bold> Regroupez-vous avec vos alliés pour préparer un objectif important comme un dragon ou un héraut, en posant de la vision autour ou en commençant l’objectif."
+        }   
     }
   }
 }

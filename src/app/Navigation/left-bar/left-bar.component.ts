@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'left-bar',
   standalone: true,
-  imports: [CommonModule, TranslateModule],
+  imports: [CommonModule, TranslateModule, RouterModule],
   templateUrl: './left-bar.component.html',
   styleUrl: './left-bar.component.css',
 })
@@ -103,17 +103,9 @@ export class LeftBarComponent {
   }
 
   // Méthode pour générer l'URL dynamiquement
-  createHref(subtitle: string, link: string): string {
+  createHref(link: string): string {
     const defaultLang: string = this.translate.defaultLang || 'fr';
     const baseUrl = `/${defaultLang}${link}`;
-    return `${baseUrl}#${subtitle}`;
-  }
-
-  scrollWithOffset(event: Event, subtitle: string, link: string) {
-    event.preventDefault(); // Empêche le comportement par défaut
-    const subtitleTranslated = this.translate.instant(subtitle);
-    // Redirige vers l'URL cible
-    const targetUrl = this.createHref(subtitleTranslated, link);
-    window.location.href = targetUrl;
+    return baseUrl;
   }
 }

@@ -104,7 +104,13 @@
     "LANING":{
       "TITLE0":"Le Laning",
       "SUBTITLE0":"Dominez votre adversaire dès les premières minutes !",
-      "CONTENT1":"Que vous soyez en top, mid ou bot lane, votre performance durant cette phase initiale peut fortement influencer le reste de la partie. <br><br>Chaque rôle en lane requiert une maîtrise des mécaniques de combat, du positionnement et de la gestion des ressources pour surpasser votre adversaire direct. <br>En top lane, il s’agit souvent de duels prolongés et de gestion de la téléportation.<br>En mid lane, la priorité est de contrôler la carte et d'effectuer des rotations efficaces. <br>En bot lane, la coordination avec votre support et la gestion des échanges sont essentielles.<br><br> Maîtriser ces aspects vous permettra non seulement de dominer votre propre lane, mais aussi d’influencer le cours global de la partie.",
+      "CONTENT1":{
+        "INTRO1":"Que vous soyez en top, mid ou bot lane, votre performance durant cette phase initiale peut fortement influencer le reste de la partie. <br><br>Chaque rôle en lane requiert une maîtrise des mécaniques de combat, du positionnement et de la gestion des ressources pour surpasser votre adversaire direct.",
+        "LIST1":"En top lane, il s’agit souvent de duels prolongés et de gestion de la téléportation.",
+        "LIST2":"En mid lane, la priorité est de contrôler la carte et d'effectuer des rotations efficaces.",
+        "LIST3":"En bot lane, la coordination avec votre support et la gestion des échanges sont essentielles.",
+        "INTRO2":"Maîtriser ces aspects vous permettra non seulement de dominer votre propre lane, mais aussi d’influencer le cours global de la partie."
+      },
       "TITLE2":"Last Hit",
       "CONTENT2": "Le last hit est fondamental pour accumuler de l’or et prendre l’avantage sur votre adversaire en lane.<br><br>Il consiste à porter le coup fatal aux sbires ennemis afin de collecter l’or qu’ils génèrent. Maîtriser cette technique nécessite un bon timing et une connaissance précise des dégâts que vous infligez, car manquer un last hit entraîne une perte d’or et peut ralentir votre progression.<br><br>De plus, le last hit est crucial pour un bon wave management (voir chapitre sur le Wave Management).<br>Utilisez l’outil d'entraînement pour perfectionner votre farm et ajuster vos dégâts en fonction de votre niveau et équipement. Mieux vous maîtrisez le last hit, plus vous accumulez de ressources, ce qui vous donne un net avantage dans la partie – souvent plus important que de sécuriser des kills.",
       "TITLE3":"Trading",
@@ -137,6 +143,57 @@
          "LIST3" : "<bold>Invade la jungle ennemie :</bold> Avec un bon positionnement, surprenez le jungler ennemi dans sa jungle pour l’empêcher de collecter ses ressources. Faites attention, car ses alliés pourraient venir l’aider ; c’est une stratégie plus sûre avec votre jungler ou support.",
          "LIST4" : "<bold>Préparer/Faire un objectif :</bold> Regroupez-vous avec vos alliés pour préparer un objectif important comme un dragon ou un héraut, en posant de la vision autour ou en commençant l’objectif."
         }   
+    },
+
+    "JUNGLE":{
+      "TITLE0":"Jungle",
+      "SUBTITLE0":"Maîtrisez la partie et donnez à votre équipe l'avantage décisif !",
+      "CONTENT1":{
+        "INTRO1":"Le rôle de jungler est souvent considéré comme le plus impactant dans une partie de League of Legends.<br><br>Le but d’un jungler est de prendre les meilleures décisions pour :",
+        "LIST1" : "Aider son équipe à prendre l'avantage sur leurs adversaires directs.",
+        "LIST2" : "Gérer les objectifs sur la carte.",
+        "LIST3" : "Accumuler des ressources « gratuites » en tuant les monstres de la jungle.",
+        "LIST4" : "Anticiper les ganks et les mouvements du jungler adverse.",
+        "INTRO2" :"Une des principales difficultés du rôle de jungler, pour les débutants comme pour les joueurs plus expérimentés, est que la réussite dépend moins des compétences mécaniques que de la capacité à lire le jeu et à établir un plan stratégique efficace."
+      },
+      "TITLE2":"Chemins de Jungle",
+      "CONTENT2":{
+        "INTRO1":"Il existe plusieurs routes de jungle possibles, et cette décision doit être prise dès l'écran de chargement :",
+        "LIST1" : "<bold>Full Clear :</bold> Faire les 6 camps de la jungle -> Carapateur -> Gank ou back.<br>C’est la stratégie la plus courante en Saison 14, car le farm est priorisé dans la méta actuelle. Cela peut toutefois évoluer dans les prochaines saisons.",
+        "LIST2" : "<bold>3 Camps :</bold> Faire les 3 camps d’un côté (Red ou Blue) -> Ganker le même côté.<br>Ce chemin est utile si vous souhaitez mettre de la pression rapidement en début de partie pour donner un avantage à une de vos lanes. Attention cependant, si le gank échoue, vous risquez de perdre beaucoup de temps.",
+        "LIST3" : "<bold>1 Camp + Invade :</bold> Faire son Red ou Blue, puis envahir directement la jungle adverse sur le même côté.<br>Cela ne doit être tenté que si vous êtes sûr que le jungler adverse a commencé de l'autre côté (ex. : commencer Red et invade Red si l'ennemi commence au Blue). Attention aussi aux possibles rotations des laners adverses."
+      },
+      "SUBTITLE3" : "Bot ou Top ?",
+      "CONTENT3":{
+        "INTRO1":"Si vous choisissez de partir sur un full clear, la question suivante est : faut-il aller bot ou top ? Ce choix dépend de plusieurs facteurs :",
+        "LIST1" : "<bold>Analyser les lanes :</bold> Certaines lanes sont plus susceptibles de pousser naturellement que d'autres.<br>Par exemple, une Tristana poussera plus facilement face à un Ezreal à cause de ses dégâts de zone. En fonction de cette analyse, vous devez planifier où vous finirez votre clear : si vous prévoyez de ganker bot, commencez votre clear top, et inversement.",
+        "LIST2" : "<bold>Analyser les sorts d'invocateur :</bold> Si votre toplaner joue avec Ignite et son adversaire avec Téléportation, commencer bot pour finir par un gank top peut être une bonne idée. Un toplaner sans téléportation aura beaucoup plus de mal à revenir dans la partie s'il perd un early gank.",
+        "LIST3" : "<bold>Analyser les champions :</bold> Certains champions sont forts en début de partie (comme Pantheon), tandis que d'autres brillent en fin de partie (comme Veigar). Aider vos champions forts en fin de partie à tenir leur lane peut vous garantir une victoire à long terme. Dans tous les cas, il est important de jouer autour des champions 'carry' de votre équipe."
+      },
+      "TITLE4":"Objetctifs & Priorité",
+      "CONTENT4":{
+        "INTRO1":"Il existe plusieurs objectifs sur la carte :",
+        "LIST1" : "<bold>Top side :</bold> Grump, Héraut de la Faille, Baron Nashor.",
+        "LIST2":"<bold>Bot side :</bold> Drakes."
+      },
+      "CONTENT5":"La réussite d’un objectif dépend souvent de la supériorité numérique de votre équipe par rapport à l’adversaire, d’où l’importance de la priorité des lanes (PRIO). La PRIO se réfère à la capacité de vos laners à exercer une pression sur leurs adversaires, les forçant à rester sous leur tour pour ne pas perdre de ressources. Cela libère vos alliés pour qu'ils se déplacent vers la rivière, sécurisent des objectifs, ou contestent ceux de l'ennemi.<br><br>N'hésitez pas à communiquer à vos laners l'importance de la PRIO avant de vous engager sur un objectif. Ganker juste avant l'apparition d’un objectif clé peut permettre de garantir cette priorité.<br><br>Évitez également de retourner à la base juste avant l'apparition d'un objectif. Si l'équipe ennemie prend position avant vous, il sera plus difficile de coordonner un teamfight autour de cet objectif.<br><br>Avec la PRIO, vous pouvez aussi punir le jungler adverse en envahissant sa jungle. Que ce soit pour lui voler des ressources ou l’éliminer, cela peut complètement bouleverser le déroulement de la partie, surtout mentalement pour l'adversaire.",
+      "TITLE6":"Ganks",
+      "CONTENT6":"Gankez <span style='text-transform:uppercase'><bold>uniquement</bold></span> si vous estimez avoir au moins 80 % de chances de réussir, sinon priorisez toujours le farm. Un summoner utilisé par l'adversaire ou un kill/assist pris lors de votre venue est synonyme de gank réussi.<br>Perdre du temps sur un gank infructueux signifie accumuler un retard en ressources, ce qui est l’un des plus gros fléaux pour un jungler.<br><br>Un gank est plus probable si la wave de votre allié est poussée ou si l'ennemi est avancé sur sa lane. Dans ce cas, il devra s'avancer pour farmer, le rendant vulnérable à une attaque. Un gank est réussi si vous prenez un kill ou forcez l'adversaire à utiliser des sorts d'invocateur comme Flash.<br><br>Utilisez fréquemment votre brouilleur oculaire pour enlever la vision et optimiser vos chances de réussite. Si vous êtes repéré, il est probable que votre gank échoue.",
+      "CONTENT7":{
+        "INTRO1":"Les différents types de ganks incluent :",
+        "LIST1":"<bold>Par la rivière :</bold> Simple mais efficace.",
+        "LIST2":"<bold>Lane / Counter Gank :</bold> Attendre dans les buissons d'une lane push pour surprendre l'adversaire ou anticiper un gank ennemi.",
+        "LIST3":"<bold>Dives :</bold> Si l'ennemi est sous sa tour avec peu de points de vie, et que votre wave est crash sous la tour, vous pouvez envisager un dive avec votre laner."
+      },
+      "TITLE8":"Conseils supplémentaires",
+      "CONTENT8":{
+        "LIST1":"Remplacez votre trinket par un brouilleur oculaire dès votre premier back.",
+        "LIST2":"Si vous jouez des champions de powerfarm/late game (ex. : Shyvana, Lillia), mettez moins d'accent sur les ganks et concentrez-vous sur votre farm.",
+        "LIST3":"Faites attention à la synchronisation de votre jungle pour ne pas désorganiser le respawn des monstres.",
+        "LIST4":"Concentrez-vous sur les lanes gagnantes. Ne perdez pas de temps sur les lanes perdantes pour éviter de mettre toute la partie en danger.",
+        "LIST5":"Pendant que vous farmez, surveillez la carte et analysez les waves. Profitez-en pour appeler les positions du jungler adverse si possible.",
+        "LIST6":"Communiquez avec vos alliés via les pings et le chat. Cela améliore la coordination lors des objectifs ou ganks."
+      }
     }
   }
 }

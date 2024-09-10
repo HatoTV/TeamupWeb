@@ -18,31 +18,36 @@
     <hr class="divider paddingSidebar" />
     <h5>{{ "LOL.WAVEMANAGEMENT.TITLE1" | translate }}</h5>
     <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT1' | translate | safeHtml"></h4>
-    <h5>{{ "LOL.WAVEMANAGEMENT.TITLE2" | translate }}</h5>
+    <br /><br />
+    <h5>
+      {{ "LOL.WAVEMANAGEMENT.TITLE2" | translate }}
+    </h5>
     <div>
       <h6>{{ "LOL.WAVEMANAGEMENT.CONTENT2.INTRO1" | translate }}</h6>
       <br /><br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT2.LIST1' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT2.LIST2' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT2.LIST3' | translate | safeHtml
-          "
-        ></h6>
-      </li>
+      <div class="divList">
+        <li>
+          <h6
+            [innerHtml]="
+              'LOL.WAVEMANAGEMENT.CONTENT2.LIST1' | translate | safeHtml
+            "
+          ></h6>
+        </li>
+        <li>
+          <h6
+            [innerHtml]="
+              'LOL.WAVEMANAGEMENT.CONTENT2.LIST2' | translate | safeHtml
+            "
+          ></h6>
+        </li>
+        <li>
+          <h6
+            [innerHtml]="
+              'LOL.WAVEMANAGEMENT.CONTENT2.LIST3' | translate | safeHtml
+            "
+          ></h6>
+        </li>
+      </div>
     </div>
     <img
       class="imgMinionsTypes"
@@ -50,35 +55,37 @@
     />
     <div style="margin-top: 40px">
       <h6>{{ "LOL.WAVEMANAGEMENT.CONTENT2.INTRO2" | translate }}</h6>
-      <br /><br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT2.LIST5' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT2.LIST6' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT2.LIST7' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT2.LIST8' | translate | safeHtml
-          "
-        ></h6>
-      </li>
+      <br />
+      <div class="divList">
+        <li>
+          <h6
+            [innerHtml]="
+              'LOL.WAVEMANAGEMENT.CONTENT2.LIST5' | translate | safeHtml
+            "
+          ></h6>
+        </li>
+        <li>
+          <h6
+            [innerHtml]="
+              'LOL.WAVEMANAGEMENT.CONTENT2.LIST6' | translate | safeHtml
+            "
+          ></h6>
+        </li>
+        <li>
+          <h6
+            [innerHtml]="
+              'LOL.WAVEMANAGEMENT.CONTENT2.LIST7' | translate | safeHtml
+            "
+          ></h6>
+        </li>
+        <li>
+          <h6
+            [innerHtml]="
+              'LOL.WAVEMANAGEMENT.CONTENT2.LIST8' | translate | safeHtml
+            "
+          ></h6>
+        </li>
+      </div>
     </div>
     <div class="divSpawn">
       <img class="imgSpawn" src="assets/img/wavemanagement_MinionsSpawn.webp" />
@@ -88,8 +95,10 @@
       style="margin-top: 40px"
       [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT2.INTRO3' | translate | safeHtml"
     ></h4>
+    <br /><br />
     <h5>{{ "LOL.WAVEMANAGEMENT.TITLE4" | translate }}</h5>
     <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4' | translate | safeHtml"></h4>
+    <br /><br />
     <div
       style="padding-bottom: 40px"
       [id]="'LOL.WAVEMANAGEMENT.TITLE5' | translate"
@@ -105,9 +114,9 @@
         [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT5' | translate | safeHtml"
       ></h4>
     </div>
-    <br />
+    <br /><br />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE6" | translate }}</h5>
-    <div style="margin-bottom: 40px; margin-left: 15px">
+    <div class="divList">
       <li>
         <h6
           [innerHtml]="
@@ -140,9 +149,9 @@
         ></h6>
       </li>
     </div>
-    <br />
+    <br /><br /><br />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE7" | translate }}</h5>
-    <div style="margin-left: 15px; margin-bottom: 40px">
+    <div class="divList">
       <li>
         <h6
           [innerHtml]="
@@ -167,13 +176,14 @@
         ></h6>
       </li>
     </div>
-    <br />
+    <br /><br /><br />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE8" | translate }}</h5>
     <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT8' | translate | safeHtml"></h4>
     <div
       style="padding-bottom: 40px"
       [id]="'LOL.WAVEMANAGEMENT.TITLE9' | translate"
     ></div>
+    <br /><br />
     <h3>
       {{ "LOL.WAVEMANAGEMENT.TITLE9" | translate }}
     </h3>
@@ -185,10 +195,13 @@
         [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT9' | translate | safeHtml"
       ></h4>
     </div>
+    <br />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE10" | translate }}</h5>
     <h4>{{ "LOL.WAVEMANAGEMENT.CONTENT10" | translate }}</h4>
+    <br /><br />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE11" | translate }}</h5>
-    <div style="margin-left: 15px; margin-bottom: 40px">
+
+    <div class="divList">
       <li>
         <h6
           [innerHtml]="
@@ -209,6 +222,7 @@
       style="padding-bottom: 40px"
       [id]="'LOL.WAVEMANAGEMENT.TITLE12' | translate"
     ></div>
+    <br /><br />
     <h3>
       {{ "LOL.WAVEMANAGEMENT.TITLE12" | translate }}
     </h3>
@@ -220,8 +234,10 @@
         [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT12' | translate | safeHtml"
       ></h4>
     </div>
+    <br />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE13" | translate }}</h5>
-    <div style="margin-left: 15px; margin-bottom: 40px">
+    <br />
+    <div class="divList">
       <li>
         <h6
           [innerHtml]="
@@ -254,8 +270,10 @@
         ></h6>
       </li>
     </div>
+    <br /><br />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE14" | translate }}</h5>
-    <div style="margin-left: 15px; margin-bottom: 40px">
+    <br />
+    <div class="divList">
       <li>
         <h6
           [innerHtml]="
@@ -288,7 +306,7 @@
         ></h6>
       </li>
     </div>
-    <br />
+    <br /><br />
     <h4
       [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT15' | translate | safeHtml"
     ></h4>

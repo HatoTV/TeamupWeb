@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
+import { LanguageService } from './language.service';
 import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
 import { LeftBarComponent } from './Navigation/left-bar/left-bar.component';
 import { TopBarComponent } from './Navigation/top-bar/top-bar.component';
@@ -16,21 +17,22 @@ export class AppComponent {
   constructor(
     private router: Router,
     private translate: TranslateService,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,private languageService: LanguageService
   ) {}
 
   ngOnInit() {
-    const defaultLang = this.translate.defaultLang || 'fr'; // Utiliser la langue par défaut de TranslateService
-
     this.router.events.subscribe((event: any) => {
       if (event instanceof NavigationEnd) {
         const url = this.router.url.split('/')[1];
-        const lang = ['en', 'fr'].includes(url) ? url : defaultLang;
-        this.translate.use(lang);
+        const supportedLangs = ['en', 'fr'];
+        const lang = supportedLangs.includes(url) ? url : this.languageService.translate.defaultLang || 'fr';
+        
+        // Changer la langue en fonction de l'URL
+        this.languageService.changeLanguage(lang);
 
-        // Optionnel : Rediriger l'utilisateur vers la bonne URL si la langue est manquante
-        if (!['en', 'fr'].includes(url)) {
-          this.router.navigate([`/${defaultLang}` + this.router.url]);
+        // Si l'URL ne contient pas la langue, rediriger vers la langue par défaut
+        if (!supportedLangs.includes(url)) {
+          this.router.navigate([`/${lang}` + this.router.url]);
         }
       }
     });
@@ -44,4 +46,5 @@ export class AppComponent {
     if (section)
       document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
   }
+
 }

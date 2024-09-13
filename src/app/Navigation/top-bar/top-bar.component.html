@@ -1,11 +1,14 @@
 <div class="topBar">
     <img class="logo" src="assets/img/icons/TeamUp_full_white.png" (click)="goToUrl()">
-    <div style="height: 100%;" *ngFor ="let itemSections of itemsSections">   
-        <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'">
-            <div class="logo-wrapper">
-                <img [src]="itemSections.logoUrl" />
-            </div>
-            <h2 [ngClass]="itemSections.isSelected ? 'boldText' : 'lightText'">{{ itemSections.title }}</h2>
-        </div>     
+    <div class="divContent">
+        <div style="height: 100%;" *ngFor ="let itemSections of itemsSections">   
+            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'">
+                <div class="logo-wrapper">
+                    <img [src]="itemSections.logoUrl" />
+                </div>
+                <h2 [ngClass]="itemSections.isSelected ? 'boldText' : 'lightText'">{{ itemSections.title }}</h2>
+            </div>     
+        </div>
+        <img src="assets/img/translationIcon.png" class="translateIcon" (click)="onChangeLanguage()">
     </div>
 </div>

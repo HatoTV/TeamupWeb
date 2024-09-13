@@ -132,3 +132,42 @@ h6{
   .divList {
     padding-left: 45px;
   }
+
+  .imgPath{
+    max-width: 420px;
+    width: -webkit-fill-available;
+    border: 4px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .divImgTxt{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .imgTrade{
+    max-width: 600px;
+    width: -webkit-fill-available;
+    border: 4px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .imgBush{
+    max-width: 300px;
+    width: -webkit-fill-available;
+    border: 4px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }

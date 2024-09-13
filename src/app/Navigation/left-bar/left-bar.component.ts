@@ -33,6 +33,17 @@ export class LeftBarComponent {
     url: string;
   }> = [
     {
+      logoUrl: 'assets/img/icons/people.png',
+      title: 'LOL.GAME.GAME',
+      subtitles: [
+        'LOL.GAME.ROLES',
+        'LOL.GAME.OBJECTIVES',
+        'LOL.GAME.LEXIQUE'
+      ],
+      url: '/lol/game',
+      isOpen: false,
+    },
+    {
       logoUrl: 'assets/img/icons/Journey.png',
       title: 'Laning',
       subtitles: [
@@ -95,11 +106,6 @@ export class LeftBarComponent {
 
   toggleItem(item: any): void {
     item.isOpen = !item.isOpen;
-  }
-
-  goToUrl(url: string) {
-    const defaultLang: string = this.translate.defaultLang || 'fr';
-    this.router.navigate([`/${defaultLang}` + url]);
   }
 
   // Méthode pour générer l'URL dynamiquement

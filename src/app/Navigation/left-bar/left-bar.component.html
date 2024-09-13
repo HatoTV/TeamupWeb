@@ -7,7 +7,7 @@
   <div
     class="section divSection sectionWithoutSubtitle paddingSidebar"
     *ngFor="let itemChampions of itemsChampions"
-    (click)="goToUrl(itemChampions.url)"
+    [routerLink]="createHref(itemChampions.url)"
   >
     <div class="logo-wrapper">
       <img [src]="itemChampions.logoUrl" />
@@ -24,7 +24,8 @@
     <div class="paddingSidebar sectionWithSubtitle">
       <div
         class="section divSection"
-        (click)="toggleItem(itemGameplay); goToUrl(itemGameplay.url)"
+        (click)="toggleItem(itemGameplay);"
+        [routerLink]="createHref(itemGameplay.url)"
       >
         <div class="logo-wrapper">
           <img [src]="itemGameplay.logoUrl" />

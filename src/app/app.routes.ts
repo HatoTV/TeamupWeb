@@ -18,4 +18,5 @@ export const routes: Routes = [
   { path: ':lang/lol/mecanics', component: MecanicsComponent }, // Route avec paramètre de langue
   { path: ':lang/lol/teamfight', component: TeamfightsComponent }, // Route avec paramètre de langue
   { path: ':lang/lol/mindset', component: MindsetComponent }, // Route avec paramètre de langue
+  { path: ':lang/lol/game', component: MindsetComponent }, // Route avec paramètre de langue
   ];

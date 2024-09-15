@@ -18,11 +18,6 @@ export class LeftBarComponent {
       title: 'Matchups',
       url: '/lol/matchups',
     },
-    {
-      logoUrl: 'assets/img/icons/Open Book.png',
-      title: 'Guides',
-      url: '/lol/guides',
-    },
   ];
 
   itemsGameplay: Array<{

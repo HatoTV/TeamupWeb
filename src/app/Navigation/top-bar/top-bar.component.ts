@@ -15,7 +15,7 @@ export class TopBarComponent {
   constructor(private router: Router, private translate: TranslateService,private languageService: LanguageService) {}
   itemsSections = [
     { logoUrl: 'assets/img/icons/League of Legends.png', title: 'League Of Legends', isSelected:true },
-    { logoUrl: 'assets/img/icons/Rocket League.png', title: 'Rocket League', isSelected:false },
+    //{ logoUrl: 'assets/img/icons/Rocket League.png', title: 'Rocket League', isSelected:false },
   ];
   lang : string = "fr";
 

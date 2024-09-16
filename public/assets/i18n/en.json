@@ -99,6 +99,157 @@
         "LIST4" : "Use your area-of-effect abilities to quickly destroy the wave as a whole."
       },
       "CONTENT15":"<bold>Important:</bold> Before Fast/Slow Pushing, make sure you have enough time and vision on the map to avoid a gank."
-    } 
+    },
+    
+    "LANING": {
+      "TITLE0": "Laning Phase",
+      "SUBTITLE0": "Dominate your opponent from the very first minutes!",
+      "CONTENT1": {
+        "INTRO1": "Whether you're in top, mid, or bot lane, your performance during this initial phase can greatly influence the rest of the game. <br><br> Each lane role requires mastery of combat mechanics, positioning, and resource management to outperform your direct opponent.",
+        "LIST1": "In top lane, it's often about prolonged duels and managing teleportation.",
+        "LIST2": "In mid lane, the priority is to control the map and make effective rotations.",
+        "LIST3": "In bot lane, coordination with your support and managing trades is essential.",
+        "INTRO2": "Mastering these aspects will not only allow you to dominate your own lane, but also influence the overall course of the game."
+      },
+      "TITLE2": "Last Hit",
+      "CONTENT2": "Last hitting is fundamental to accumulating gold and gaining an advantage over your opponent in lane. <br><br> It involves landing the killing blow on enemy minions to collect the gold they generate. Mastering this technique requires good timing and precise knowledge of your damage output, as missing a last hit results in lost gold and can slow down your progression. <br><br> Additionally, last hitting is crucial for effective wave management (see the chapter on Wave Management). <br> Use the training tool to perfect your farming and adjust your damage based on your level and equipment. The better you master last hitting, the more resources you accumulate, which gives you a clear advantage in the game – often more significant than securing kills.",
+      "TITLE3": "Trading",
+      "CONTENT3": "Trading consists of dealing damage to your opponent, either through auto-attacks or abilities.",
+      "SUBTITLE4": "How to trade effectively?",
+      "CONTENT4": {
+        "LIST1": "<bold>Take advantage of your opponent's last-hitting moments:</bold> Your opponent needs to kill minions to farm, becoming immobile and thus vulnerable at that moment. Anticipate their actions by watching the health of your minions and punish them with your abilities when they prepare to last-hit.",
+        "LIST2": "<bold>Exploit enemy cooldowns:</bold> If your opponent uses abilities to farm or harass you, take advantage of the delay before they recover their spells to engage in a trade. Baiting spells (luring them into using abilities ineffectively) is a key tactic that we will cover in more detail in the next chapter.",
+        "LIST3": "<bold>Watch out for minions:</bold> Damaging a champion triggers the aggro of enemy minions, who will attack you instead of your own minions. Avoid prolonged fights in a large enemy minion wave, as it can quickly turn to your disadvantage.",
+        "LIST4": "<bold>Poke the opponent:</bold> Poking consists of harassing the enemy with ranged attacks or abilities, gradually reducing their health without committing to a direct fight. This often forces the opponent to play defensively, miss minions, or use their resources (potions, healing spells). Some champions are more effective at poking based on their kit (for example, Ziggs or Xerath are much more effective than a Garen). Once the enemy is weakened, engage in a more aggressive fight when they are in a disadvantageous situation.",
+        "LIST5": "<bold>Manage your spacing:</bold> Spacing refers to managing the distance between you and your opponent to maximize your actions while minimizing risks. Ensure you're at the optimal distance to use your abilities while staying out of range of theirs. If you're a ranged champion facing a melee champion, abuse your range to harass them with auto-attacks without letting them farm easily."
+      },
+      "CONTENT51": "<italic>Tip:</italic> Use bushes to break your opponent's vision during a fight. This can prevent them from targeting you with abilities or auto-attacks, while you can continue to harass them.",
+      "CONTENT5": "Trades are even more advantageous if you're a level ahead of your opponent or have just hit a powerspike (gaining strength via a spell or item). Additionally, good wave management can help you optimize your trades while minimizing resource loss.<br> However, be careful when engaging in a trade. An opponent near their tower with full health will be difficult to threaten. Furthermore, if you start a trade and get ganked immediately after, your chances of survival will decrease as your spells will be on cooldown.<br><br> Some matchups make trading more or less challenging, requiring a specific approach (specific spells on cooldown, short or long trades). <br> Refer to the 'Matchups' section to better understand the strengths and weaknesses of your champion against others.",
+      "TITLE6": "Baiting Enemy Spells",
+      "CONTENT6": "Baiting spells in lane is a strategic tactic in League of Legends. Baiting means 'luring', and here, it involves making your opponent use a spell ineffectively, creating an opportunity for you.",
+      "SUBTITLE7": "How to bait effectively?",
+      "CONTENT7": {
+        "LIST1": "<bold>Feign an attack:</bold> Position yourself aggressively as if you're about to engage in a fight, then quickly retreat. The opponent may use a defensive or offensive spell to deter you, allowing you to re-engage while they are out of resources.",
+        "LIST2": "<bold>Risky positioning:</bold> Place yourself within range of a poke or crowd control spell, but be ready to dodge or retreat quickly. If your opponent misses their spell, they become vulnerable, and you can counter-attack.",
+        "LIST3": "<bold>Using minions:</bold> Bait your opponent by appearing vulnerable while last-hitting a low-health minion. This may prompt them to waste a spell, which you can then dodge.",
+        "LIST4": "<bold>Pretend you're out of resources:</bold> Make your opponent believe you are low on mana or too weak to engage in a fight. This could cause them to play overly aggressively, giving you the opportunity to counter-attack or call your jungler for a gank."
+      },
+      "CONTENT8": "When you successfully bait a spell, it’s time to exploit this window of vulnerability. If it was a key spell with a long cooldown, engage immediately or call your jungler for a kill opportunity.",
+      "TITLE9": "Roaming",
+      "CONTENT9": "Sometimes, there’s nothing left for you to do in your lane. In this case, what should you do?<br> If your wave crashes under the enemy tower and you don’t have enough gold for a meaningful purchase at the base, it’s the perfect time to go help elsewhere: this is called <bold>Roaming</bold>.<br><br> When your wave is under the enemy tower, your opponent is busy farming or is absent, which allows you to create a numbers advantage elsewhere on the map.<br><br> The midlane is particularly suited for roaming, as it offers quick access to other objectives and lanes. However, the support and top laner can also roam to assist their allies or set up objectives.",
+      "SUBTITLE10": "How to roam effectively?",
+      "CONTENT10": {
+        "LIST1": "<bold>Gank another lane:</bold> If your champion has a good crowd control or movement ability, helping your allies on another lane can give them a decisive advantage.",
+        "LIST2": "<bold>Place vision:</bold> Set up vision wards in the enemy jungle or around your lane to anticipate a gank.",
+        "LIST3": "<bold>Invade the enemy jungle:</bold> With good positioning, surprise the enemy jungler in their jungle to deny them resources. Be careful, as their allies may come to help; this is a safer strategy with your jungler or support.",
+        "LIST4": "<bold>Set up/Take an objective:</bold> Group up with your allies to prepare for an important objective like a dragon or Rift Herald, by placing vision around it or starting the objective."
+      }
+    },"JUNGLE": {
+      "TITLE0": "Jungle",
+      "SUBTITLE0": "Master the game and give your team the decisive advantage!",
+      "CONTENT1": {
+        "INTRO1": "The jungler role is often considered the most impactful in a game of League of Legends.<br><br>The jungler’s goal is to make the best decisions to:",
+        "LIST1": "Help their team gain an advantage over their direct opponents.",
+        "LIST2": "Manage the objectives on the map.",
+        "LIST3": "Accumulate 'free' resources by killing jungle monsters.",
+        "LIST4": "Anticipate ganks and the movements of the enemy jungler.",
+        "INTRO2": "One of the main difficulties of the jungler role, for both beginners and more experienced players, is that success depends less on mechanical skills and more on the ability to read the game and establish an effective strategic plan."
+      },
+      "TITLE2": "Jungle Paths",
+      "CONTENT2": {
+        "INTRO1": "There are several possible jungle routes, and this decision should be made as early as the loading screen:",
+        "LIST1": "<bold>Full Clear:</bold> Do all 6 jungle camps -> Scuttle Crab -> Gank or back.<br>This is the most common strategy in Season 14, as farming is prioritized in the current meta. However, this may evolve in future seasons.",
+        "LIST2": "<bold>3 Camps:</bold> Do the 3 camps on one side (Red or Blue) -> Gank the same side.<br>This path is useful if you want to apply pressure early in the game to give an advantage to one of your lanes. However, be careful—if the gank fails, you risk losing a lot of time.",
+        "LIST3": "<bold>1 Camp + Invade:</bold> Do your Red or Blue, then invade the enemy jungle on the same side.<br>Only attempt this if you’re certain the enemy jungler started on the opposite side (e.g., start Red and invade Red if the enemy started at Blue). Also, watch out for possible rotations from the enemy laners."
+      },
+      "SUBTITLE3": "Bot or Top?",
+      "CONTENT3": {
+        "INTRO1": "If you choose to go for a full clear, the next question is: should you head bot or top? This choice depends on several factors:",
+        "LIST1": "<bold>Analyze the lanes:</bold> Some lanes are more likely to naturally push than others.<br>For example, a Tristana will push more easily against an Ezreal due to her AoE damage. Based on this analysis, plan where you will finish your clear: if you plan to gank bot, start your clear top, and vice versa.",
+        "LIST2": "<bold>Analyze the summoner spells:</bold> If your toplaner is playing with Ignite and their opponent has Teleport, starting bot and finishing with a gank top can be a good idea. A toplaner without teleport will have a much harder time recovering if they lose an early gank.",
+        "LIST3": "<bold>Analyze the champions:</bold> Some champions are strong early game (like Pantheon), while others excel late game (like Veigar). Helping your late-game champions hold their lane can secure a long-term victory. In any case, it’s important to play around your team’s 'carry' champions."
+      },
+      "TITLE4": "Objectives & Priority",
+      "CONTENT4": {
+        "INTRO1": "There are several objectives on the map:",
+        "LIST1": "<bold>Top side:</bold> Gromp, Rift Herald, Baron Nashor.",
+        "LIST2": "<bold>Bot side:</bold> Drakes."
+      },
+      "CONTENT5": "Successfully securing an objective often depends on your team’s numerical advantage over the enemy, which is why lane priority <bold>(PRIO)</bold> is so important. PRIO refers to your laners' ability to apply pressure on their opponents, forcing them to stay under their tower to avoid losing resources. This frees up your allies to rotate to the river, secure objectives, or contest the enemy’s.<br><br>Don’t hesitate to communicate to your laners the importance of PRIO before engaging in an objective. Ganking just before the spawn of a key objective can help ensure this priority.<br><br>Avoid returning to base right before an objective spawns. If the enemy team takes position before you, it will be harder to coordinate a teamfight around the objective.<br><br>With PRIO, you can also punish the enemy jungler by invading their jungle. Whether it’s to steal resources or eliminate them, this can completely disrupt the game, especially mentally for the enemy."
+      },
+      "TITLE6": "Ganks",
+      "CONTENT6": "A 'Gank' is a maneuver where a player, often the jungler, moves to another lane to surprise an opponent and attack them as a team.<br><br>Only Gank <span style='text-transform:uppercase'><bold>if</bold></span> you estimate at least an 80% chance of success; otherwise, prioritize farming. An enemy summoner spell burned or a kill/assist secured during your visit is a sign of a successful gank.<br>Wasting time on an unsuccessful gank means falling behind in resources, which is one of the biggest pitfalls for a jungler.<br><br>A gank is more likely to succeed if your ally’s wave is pushing or the enemy is overextended on their lane. In this case, they will have to move forward to farm, making them vulnerable to an attack. A gank is successful if you get a kill or force the enemy to use summoner spells like Flash.<br><br>Frequently use your sweeper to remove vision and increase your chances of success. If you’re spotted, it’s likely your gank will fail.",
+      "CONTENT7": {
+        "INTRO1": "Different types of ganks",
+        "LIST1": "<bold>Through the river:</bold> Simple but effective.",
+        "LIST2": "<bold>Lane / Counter Gank:</bold> Wait in the bushes of a pushed lane to surprise the enemy or anticipate an enemy gank.",
+        "LIST3": "<bold>Dives:</bold> If the enemy is under their tower with low health, and your wave is crashing under the tower, you can consider diving with your laner."
+      },
+      "TITLE8": "Additional Tips",
+      "CONTENT8": {
+        "LIST1": "Replace your trinket with a sweeper on your first back.",
+        "LIST2": "If you’re playing champions who power farm/scale late game (e.g., Shyvana, Lillia), focus less on ganks and more on farming.",
+        "LIST3": "Pay attention to your jungle timings to avoid disrupting monster respawn cycles.",
+        "LIST4": "Focus on winning lanes. Don’t waste time on losing lanes to avoid putting the entire game at risk.",
+        "LIST5": "While farming, keep an eye on the map and analyze the waves. Use the opportunity to call out the enemy jungler’s position if possible.",
+        "LIST6": "Communicate with your allies using pings and chat. This improves coordination during objectives or ganks."
+      },
+      "GAME": {
+        "GAME": "The Game",
+        "SUBTITLE0": "Master the basics for a deep understanding of the game!",
+        "TITLE1": "Item Stats",
+        "TITLE2": "Objectives & Buffs",
+        "TITLE3": "Wards",
+        "TITLE4": "Concepts & Glossary",
+        "CONTENT1": {
+          "INTRO0": "Understanding champion stats is crucial for good itemization.<br> Each stat affects how a champion behaves in combat, and knowing how they interact with items can make a big difference in your strategic decisions. <br><br>In this section, we will examine each stat in detail, explaining how they impact your gameplay and how to use them to choose the best items for every situation.",
+          "LIST1": "<img src='assets/img/icons/attackDamage.webp'/> <bold>Attack Damage (AD):</bold> Mainly used by ADCs, assassins, and bruisers, AD increases the physical damage of basic attacks and some abilities.",
+          "LIST2": "<img src='assets/img/icons/abilityPower.webp'/> <bold>Ability Power (AP):</bold> Used by mages, supports, and some assassins, AP enhances magic damage and utility effects (healing, shields).",
+          "LIST3": "<img src='assets/img/icons/attackSpeed.webp'/> <bold>Attack Speed:</bold> Refers to how fast your champion attacks per second. Having 1.5 attack speed means you automatically attack 1.5 times every second.",
+          "LIST4": "<img src='assets/img/icons/haste.webp'/> <bold>Ability Haste:</bold> Reduces cooldown time (CDR) and determines how quickly your spells come back up. Ability Haste doesn’t scale linearly with CDR, so it becomes less gold-efficient as you buy more.",
+          "LIST5": "<img src='assets/img/icons/criticalChance.webp'/> <bold>Critical Strike Chance:</bold> Refers to the probability of landing a critical strike, which deals 75% additional damage (not including modifiers like Infinity Edge).",
+          "LIST6": "<img src='assets/img/icons/criticalDamage.webp'/> <bold>Movement Speed:</bold> Refers to how fast your champion moves.",
+          "LIST7": "<img src='assets/img/icons/tenacity.webp'/> <bold>Tenacity:</bold> Not as straightforward as other stats, but it reduces the duration of all crowd control (CC) effects except knock-ups, drowsy, nearsight, stasis (Bard's ultimate), and suppression.",
+          "LIST8": "<img src='assets/img/icons/pvRegeneration.webp'/> <img src='assets/img/icons/manaRegeneration.webp'/>  <bold>Health/Resource Regeneration:</bold> Health regeneration is how much health a champion restores per second, while resource regeneration refers to how much mana or energy a champion restores per second.",
+          "LIST9": "<img src='assets/img/icons/lifesteal.webp'/> <img src='assets/img/icons/omnivamp.webp'/>  <bold>Lifesteal / Omnivamp:</bold> Lifesteal restores a percentage of your health based on your basic attacks. Omnivamp is similar but includes all types of damage, including abilities.",
+          "LIST10": "<img src='assets/img/icons/armor.webp'/> <img src='assets/img/icons/magicResistance.webp'/>  <bold>Armor / Magic Resist:</bold> Armor and magic resist reduce physical and magic damage respectively. However, many players are unaware that these defensive stats have diminishing returns. In other words, the more you stack these stats, the less effective they become. This means it's often not wise to stack only armor or MR, even against a full AD or AP team. Sometimes, it's better to consider items with other benefits, such as health, or even offensive or utility options.",
+          "LIST11": "<img src='assets/img/icons/armorPenetration.webp'/> <bold>Armor Penetration / Lethality:</bold> Armor penetration reduces a percentage of the enemy’s armor, while lethality reduces a flat amount. In general, ADCs opt for armor penetration to better deal with tanks, while assassins prefer lethality to target squishier enemies. If an assassin is targeting a low-armor opponent, lethality is more effective. On the other hand, other champions prefer armor penetration against enemies with high defenses.",
+          "LIST12": "<img src='assets/img/icons/magicPenetration.webp'/> <bold>Magic Penetration:</bold> Magic penetration works similarly to armor penetration and lethality. It is divided into two types: flat reduction and percentage reduction."
+        },
+        "SUBTITLE2": "Red Buff",
+        "CONTENT2": {
+          "LIST1": "Slows enemy champions with basic attacks.",
+          "LIST2": "Applies true damage over time after each attack.",
+          "LIST3": "Increases health regeneration."
+        },
+        "SUBTITLE3": "Blue Buff",
+        "CONTENT3": {
+          "LIST1": "Grants percentage mana regeneration (also works for energy-based champions).",
+          "LIST2": "Reduces cooldown times."
+        },
+        "SUBTITLE4": "Rift Scuttler",
+        "CONTENT4": {
+          "LIST1": "Provides vision in the area (but not true sight).",
+          "LIST2": "Gives a movement speed bonus to allies entering the shrine."
+        },
+        "SUBTITLE5": "Dragons",
+        "CONTENT5": {
+          "LIST1": "<img style='margin-right:10px;' src='assets/img/icons/drakeChemtech.webp'/>The <bold>Chemtech Dragon:</bold> Grants increased tenacity and heal/shield power.",
+          "LIST2": "<img style='margin-right:10px;' src='assets/img/icons/drakeCloud.webp'/>The <bold>Cloud Drake:</bold> Grants slow resistance and out-of-combat movement speed.",
+          "LIST3": "<img style='margin-right:10px;' src='assets/img/icons/drakeHextech.webp'/>The <bold>Hextech Drake:</bold> Grants ability haste and attack speed.",
+          "LIST4": "<img style='margin-right:10px;' src='assets/img/icons/drakeMountain.webp'/>The <bold>Mountain Drake:</bold> Grants bonus armor and magic resist.",
+          "LIST5": "<img style='margin-right:10px;' src='assets/img/icons/drakeInfernal.webp'/>The <bold>Infernal Drake:</bold> Grants bonus attack damage and ability power.",
+          "LIST6": "<img style='margin-right:10px;' src='assets/img/icons/drakeOcean.webp'/>The <bold>Ocean Drake:</bold> Restores missing health every 5 seconds.",
+          "LIST7": "<img style='margin-right:10px;' src='assets/img/icons/drakeElder.webp'/>The <bold>Elder Dragon:</bold> Grants bonus true damage on all abilities, increases the power of Drakes by 50%, and the buff lasts for 2:30 minutes, lost upon death."
+        },
+        "SUBTITLE6": "Baron Nashor",
+        "CONTENT6": "Killing Baron Nashor grants all living teammates a buff for 180 seconds.<br><br>This buff provides bonus attack damage, ability power, an enhanced recall, and an aura that greatly increases the power of nearby minions.",
+        "SUBTITLE7": "Rift Herald",
+        "CONTENT7": "Killing the Rift Herald drops the Eye of the Herald at the entrance of the pit for 20 seconds. It can be picked up by a team member and used to summon it again. Once summoned, it can be used to push a lane. Near a tower, it will charge and dash against it, dealing massive damage. It is also possible to ride the Herald to charge directly in a direction.<br><br>The Herald only spawns once per game and despawns permanently at 19:45, or at 19:55 if in combat. Baron Nashor spawns in its place at 20:00.",
+        "SUBTITLE8": "Void Grubs",
+        "CONTENT8": "Killing a Void Grub grants gold and experience to all team members, along with the 'Touch of the Void' buff. 'Touch of the Void' deals bonus damage over time to structures, and for each stack beyond the fourth, team members also gain the Hunger of the Void buff, summoning allied Voidmites to help destroy enemy turrets.<br><br>The Void Grub camp consists of a group of 3 Void Grubs. There can be a maximum of two spawn groups in a given game. The camp despawns permanently at 13:45, or 13:55 if in combat. A second group of Void Grubs will only spawn if the first one is cleared before 9:45. The Rift Herald spawns in the same location at 14:00."
+      }
+          
+
   }
 }

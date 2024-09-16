@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content" #scrollContainer>
     <div class="bkgContent"></div>
     <img class="imgBkg" src="assets/img/bkgContent_game.webp" />
     <div class="title">
@@ -6,10 +6,10 @@
         <h2>{{ "LOL.GAME.SUBTITLE0" | translate }}</h2>
     </div>
 
-    <div class="divContentEmpty" [id]="'LOL.GAME.TITLE1' | translate"></div>
+    <div class="divContentEmpty" ></div>
     <div class="divContent">
         <div style="padding-bottom: 20px"></div>
-        <h3 style="padding-top: 0 !important">
+        <h3 style="padding-top: 0 !important" [id]="'Stats'">
             {{ "LOL.GAME.TITLE1" | translate }}
         </h3>
         <hr class="divider paddingSidebar" />
@@ -53,11 +53,7 @@
             </li>
         </div>
         <br />
-        <div
-          style="padding-bottom: 60px"
-          [id]="'LOL.GAME.TITLE2' | translate"
-        ></div>
-        <h3>
+        <h3 [id]="'Buffs'">
           {{ "LOL.GAME.TITLE2" | translate }}
         </h3>
         <hr class="divider paddingSidebar" />

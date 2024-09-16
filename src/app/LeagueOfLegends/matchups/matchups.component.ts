@@ -37,8 +37,8 @@ export class MatchupsComponent {
   }[] = [];
   filteredChampions: { name: string; icon: string }[] = [];
   filteredChampions2: { name: string; icon: string }[] = [];
-  selectedChampion: { name: string; icon: string }[] = [];
-  selectedChampion2: { name: string; icon: string }[] = [];
+  selectedChampion: { name: string; icon: string }[] = [{name:"",icon:""}];
+  selectedChampion2: { name: string; icon: string }[] = [{name:"",icon:""}];
   datasChampion2: {
     championName1: string;
     championName2: string;
@@ -278,7 +278,7 @@ export class MatchupsComponent {
 
   async displayDatas() {
     this.isMatchupReady = false;
-    if (this.selectedChampion.length > 0 && this.selectedChampion2.length > 0) {
+    if (this.selectedChampion[0].name!=='' && this.selectedChampion2[0].name!=='') {
       this.isFirstSearch = false;
       await this.getJsonDataByChampion(
         this.selectedChampion[0].name,
@@ -329,24 +329,24 @@ export class MatchupsComponent {
       let tempSelectedChampion = this.selectedChampion[0];
 
       if (
-        this.selectedChampion.length > 0 &&
-        this.selectedChampion2.length <= 0
+        this.selectedChampion[0].name!=='' &&
+        this.selectedChampion2[0].name==''
       ) {
         this.searchTerm = '';
         tempSelectedChampion2 = this.selectedChampion2[0];
-        this.selectedChampion = [];
+        this.selectedChampion = [{name:"",icon:""}];
         await this.selectChampion2(tempSelectedChampion);
       } else if (
-        this.selectedChampion2.length > 0 &&
-        this.selectedChampion.length <= 0
+        this.selectedChampion[0].name == '' &&
+        this.selectedChampion2[0].name !==''
       ) {
         this.searchTerm2 = '';
         tempSelectedChampion = this.selectedChampion[0];
-        this.selectedChampion2 = [];
+        this.selectedChampion2 = [{name:"",icon:""}];
         await this.selectChampion(tempSelectedChampion2);
       } else if (
-        this.selectedChampion.length > 0 &&
-        this.selectedChampion2.length > 0
+        this.selectedChampion[0].name !=='' &&
+        this.selectedChampion2[0].name !==''
       ) {
         tempSelectedChampion2 = this.selectedChampion2[0];
         tempSelectedChampion = this.selectedChampion[0];

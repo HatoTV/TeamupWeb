@@ -50,7 +50,7 @@ h2{
 h3{
     font-family: 'Poppins';
     font-weight: 800;
-    font-size: 42px;
+    font-size: clamp(2rem, 2vw + 1rem, 3rem);
     text-transform: uppercase;
     padding-top: 20px;
 }
@@ -156,4 +156,39 @@ h6{
 
   .divList {
     padding-left: 45px;
+  }
+
+  .divTimingBack{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .content{
+        position: relative;
+        color: white;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        max-width: 100%;
+        overflow: auto;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divContent,.divContentEmpty{
+      width: 80%;
+    }
+    .title{
+      padding-bottom: 100px;
+    }
+    .imgBkg{
+      height: 300px;
+    }
+    .divList{
+      padding-left: 20px;
+      padding-top: 20px;
+    }
   }

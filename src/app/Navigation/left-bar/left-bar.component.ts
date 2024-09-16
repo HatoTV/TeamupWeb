@@ -1,7 +1,8 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Renderer2 } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { ScrollService } from '../../scroll.service';
 
 @Component({
   selector: 'left-bar',
@@ -11,7 +12,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrl: './left-bar.component.css',
 })
 export class LeftBarComponent {
-  constructor(private router: Router, private translate: TranslateService) {}
+  constructor(private router: Router, private translate: TranslateService,private scrollService: ScrollService) {}
   itemsChampions = [
     {
       logoUrl: 'assets/img/icons/Battle.png',
@@ -24,6 +25,7 @@ export class LeftBarComponent {
     logoUrl: string;
     title: string;
     subtitles: string[];
+    fragments: string[];
     isOpen: boolean;
     url: string;
   }> = [
@@ -35,6 +37,10 @@ export class LeftBarComponent {
         'LOL.GAME.TITLE2',
         // 'LOL.GAME.TITLE3',
         // 'LOL.GAME.TITLE4'
+      ],
+      fragments: [
+        'Stats',
+        'Buffs'
       ],
       url: '/lol/game',
       isOpen: true,
@@ -48,6 +54,13 @@ export class LeftBarComponent {
         'LOL.LANING.TITLE3',
         'LOL.LANING.TITLE6',
         'LOL.LANING.TITLE9',
+      ],
+      fragments: [
+        'Introduction',
+        'LastHit',
+        'Trading',
+        'Bait',
+        'Roaming'
       ],
       url: '/lol/laning',
       isOpen: true,
@@ -63,6 +76,12 @@ export class LeftBarComponent {
       ],
       url: '/lol/wavemanagement',
       isOpen: true,
+      fragments: [
+        'Fondamentals',
+        'Freeze',
+        'SlowPush',
+        'FastPush'
+      ],
     },
     {
       logoUrl: 'assets/img/icons/Forest.png',
@@ -76,6 +95,13 @@ export class LeftBarComponent {
       ],
       url: '/lol/jungle',
       isOpen: true,
+      fragments: [
+        'Introduction',
+        'Pathing',
+        'Objectives',
+        'Ganks',
+        'Tips'
+      ],
     },
     // {
     //   logoUrl: 'assets/img/icons/Computer Mouse.png',
@@ -109,5 +135,8 @@ export class LeftBarComponent {
     const defaultLang: string = this.translate.defaultLang || 'fr';
     const baseUrl = `/${defaultLang}${link}`;
     return baseUrl;
+  }
+  onSectionClick(sectionId: string) {
+    this.scrollService.scrollToSection(sectionId);
   }
 }

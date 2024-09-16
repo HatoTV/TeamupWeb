@@ -73,7 +73,7 @@ h2{
     position: absolute;
     width: 100%;
     top: 35px;
-    padding-top: 15px;
+    margin-top: 35px;
     z-index: 5;
 }
 
@@ -85,6 +85,7 @@ h2{
 
 .iconSelectedChampions{
     width: 55px; 
+    height: 55px;
     border: 5px solid white;
 }
 
@@ -132,7 +133,8 @@ h2{
 }
 
 .divChoice{
-    z-index: 10;
+    z-index:10;
+    align-items: center;
 }
 
 .fade {
@@ -182,7 +184,7 @@ padding-left: 100px;
 h3{
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 48px;
+    font-size: clamp(1rem, 2vw + 1rem, 3rem);
     filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.3));
     text-transform:uppercase ;
 }
@@ -415,4 +417,74 @@ opacity: 0;
 .championCounterDifficulty{
     font-family: 'Roboto Condensed';
     font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .content{
+        position: relative;
+        color: white;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        max-width: 100%;
+        overflow: auto;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 80px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .divSearches{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .dropdownChampions {
+        width: 35vw;
+    }.inputSearch {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .scrollable-menu{
+        max-height: 300px;
+        overflow-y: auto;
+        color: white;
+        border-radius: 5px;
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        margin-top: 25px;
+        z-index: 20;
+        min-height: 200px;
+    }
+    .paddingTextMobile{
+        padding: 20px;
+    }
+    .imgBkg1, .imgBkg2{
+        width: 45%;
+    }
+    .divSearches{
+        margin-top: 0px;
+    }
+    .divContent{
+        width: 90%;
+        margin-top: 0px !important;
+    }
+    .contentPick{
+        width: 20vw;
+    }
+    .fade-out{
+        margin-bottom: 0px !important;
+    }
+    .fade {
+        transition: opacity 0.5s ease-in-out , max-height 0.5s ease-in-out 0.4s, padding-top 0.5s ease-in-out 0.4s, padding-bottom 0.5s ease-in-out 0.4s,margin-bottom 0.5s ease-in-out 0.4s;
+    }
 }

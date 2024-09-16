@@ -12,3 +12,20 @@
         <img src="assets/img/translationIcon.png" class="translateIcon" (click)="onChangeLanguage()">
     </div>
 </div>
+
+<!-- Mobile -->
+
+<div class="navbar">
+    <div class="divContent">
+        <button class="hamburger" (click)="toggleMenu()">☰</button>
+        <left-bar class="scrollbar-lol navbar-menu" [ngClass]="{'active': isMenuOpen}"></left-bar>
+        <div style="height: 100%;" *ngFor ="let itemSections of itemsSections">   
+            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'">
+                <div class="logo-wrapper">
+                    <img [src]="itemSections.logoUrl" />
+                </div>
+            </div>     
+        </div>
+        <img src="assets/img/translationIcon.png" class="translateIcon" (click)="onChangeLanguage()">
+    </div>
+</div>

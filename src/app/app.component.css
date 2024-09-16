@@ -1,0 +1,15 @@
+.isPc{
+    display: block;
+}
+.isMobile{
+    display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+  .isPc{
+    display: none;
+  }
+  .isMobile{
+      display: block;
+  }
+}

@@ -19,7 +19,6 @@ export class AppComponent {
     private translate: TranslateService,
     private activatedRoute: ActivatedRoute,private languageService: LanguageService
   ) {}
-
   ngOnInit() {
     this.router.events.subscribe((event: any) => {
       if (event instanceof NavigationEnd) {
@@ -43,8 +42,15 @@ export class AppComponent {
   }
 
   jumpToSection(section: string | null) {
-    if (section)
-      document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
+    if (section) {
+      const cleanedSection = decodeURIComponent(section).replace(/%23/g, '#');
+      const element = document.getElementById(cleanedSection);
+      if (element) {
+        element.scrollIntoView();
+      } else {
+        console.error(`Element with id ${cleanedSection} not found.`);
+      }
+    }
   }
 
 }

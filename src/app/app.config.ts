@@ -2,6 +2,7 @@ import {
   ApplicationConfig,
   provideZoneChangeDetection,
   importProvidersFrom,
+  ErrorHandler,
 } from '@angular/core';
 import { provideRouter } from '@angular/router';
 

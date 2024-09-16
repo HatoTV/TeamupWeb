@@ -41,13 +41,13 @@
       <div *ngIf="itemGameplay.subtitles.length > 0">
         <div
           class="subtitle"
-          *ngFor="let subtitle of itemGameplay.subtitles"
+          *ngFor="let subtitle of itemGameplay.subtitles; let i = index"
           [ngClass]="{ visible: itemGameplay.isOpen }"
         >
           <a
             style="text-decoration: none; color: white"
             [routerLink]="createHref(itemGameplay.url)"
-            [fragment]="subtitle | translate"
+            (click)="onSectionClick(itemGameplay.fragments[i])"
             ><h3>{{ subtitle | translate }}</h3></a
           >
         </div>

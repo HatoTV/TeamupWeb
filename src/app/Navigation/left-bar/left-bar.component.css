@@ -12,6 +12,7 @@
     left: 0;
     padding-top: 40px;
     border-right: 3px solid var(--lol-border); 
+    background: linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))
   }
   
   .header {
@@ -104,3 +105,21 @@
     padding-bottom: 5px;
     transition: height 0.3s ease-out, opacity 0.3s ease-out;
   }
+
+  @media only screen and (max-width: 1280px) {
+  .sidebar{
+    color: white;
+    width: 80%;
+    height: 100%;
+    max-height: calc(100% - 45px);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    text-align: left;
+    overflow: auto;
+    top: 55px;
+    left: 0;
+    padding-top: 0;
+    border-right: 3px solid var(--lol-border);
+    background: linear-gradient(to top, var(--lol-bkg-gradient-1), var(--lol-bkg-gradient-2));
+  }
+}

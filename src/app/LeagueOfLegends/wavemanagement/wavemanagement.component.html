@@ -1,18 +1,13 @@
-<div class="content">
+<div class="content" #scrollContainer>
   <div class="bkgContent"></div>
   <img class="imgBkg" src="assets/img/bkgContent_Wavemanagement.jpg" />
   <div class="title">
     <h1>{{ "LOL.WAVEMANAGEMENT.TITLE0" | translate }}</h1>
     <h2>{{ "LOL.WAVEMANAGEMENT.SUBTITLE0" | translate }}</h2>
   </div>
-
-  <div
-    class="divContentEmpty"
-    [id]="'LOL.LEFTBAR.FONDAMENTALS' | translate"
-  ></div>
   <div class="divContent">
     <div style="padding-bottom: 20px"></div>
-    <h3 style="padding-top: 0 !important">
+    <h3 style="padding-top: 0 !important" [id]="'Fondamentals'">
       {{ "LOL.LEFTBAR.FONDAMENTALS" | translate }}
     </h3>
     <hr class="divider paddingSidebar" />
@@ -98,11 +93,7 @@
     <h5>{{ "LOL.WAVEMANAGEMENT.TITLE4" | translate }}</h5>
     <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4' | translate | safeHtml"></h4>
     <br /><br />
-    <div
-      style="padding-bottom: 40px"
-      [id]="'LOL.WAVEMANAGEMENT.TITLE5' | translate"
-    ></div>
-    <h3>
+    <h3 [id]="'Freeze'">
       {{ "LOL.WAVEMANAGEMENT.TITLE5" | translate }}
     </h3>
     <hr class="divider paddingSidebar" />
@@ -178,12 +169,8 @@
     <br /><br /><br />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE8" | translate }}</h5>
     <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT8' | translate | safeHtml"></h4>
-    <div
-      style="padding-bottom: 40px"
-      [id]="'LOL.WAVEMANAGEMENT.TITLE9' | translate"
-    ></div>
     <br /><br />
-    <h3>
+    <h3 [id]="'SlowPush'">
       {{ "LOL.WAVEMANAGEMENT.TITLE9" | translate }}
     </h3>
     <hr class="divider paddingSidebar" />
@@ -217,12 +204,8 @@
         ></h6>
       </li>
     </div>
-    <div
-      style="padding-bottom: 40px"
-      [id]="'LOL.WAVEMANAGEMENT.TITLE12' | translate"
-    ></div>
     <br /><br />
-    <h3>
+    <h3 [id]="'FastPush'">
       {{ "LOL.WAVEMANAGEMENT.TITLE12" | translate }}
     </h3>
     <hr class="divider paddingSidebar" />

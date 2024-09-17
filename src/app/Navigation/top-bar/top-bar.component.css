@@ -2,13 +2,21 @@
     height: 54px;
     position: sticky;
     z-index: 200;
-    background-color: var(--lol-topbar);
     border-bottom: 1px solid white;
     display: flex;
     align-items: center;
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.lolcolor{
+  background-color: var(--lol-topbar);
+}
+
+.rlcolor{
+  background-color: var(--rl-topbar);
+  
 }
 
 .logo{

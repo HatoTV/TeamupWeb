@@ -6,6 +6,7 @@ import { JungleComponent } from './LeagueOfLegends/jungle/jungle.component';
 import { LaningComponent } from './LeagueOfLegends/laning/laning.component';
 import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
 import { WavemanagementComponent } from './LeagueOfLegends/wavemanagement/wavemanagement.component';
+import { MecanicsComponent } from './RocketLeague/mecanics/mecanics.component';
 export const routes: Routes = [
   { path: '', redirectTo: '/fr/lol/matchups', pathMatch: 'full' },
   { path: ':lang', redirectTo: '/fr/lol/matchups', pathMatch: 'full' },
@@ -15,4 +16,5 @@ export const routes: Routes = [
   { path: ':lang/lol/wavemanagement', component: WavemanagementComponent },
   { path: ':lang/lol/jungle', component: JungleComponent },
   { path: ':lang/lol/game', component: GameComponent },
+  { path: ':lang/rocket/mecanics', component: MecanicsComponent },
   ];

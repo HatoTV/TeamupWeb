@@ -17,6 +17,21 @@
     --lol-difficulty-tresfacile : #76ff76;
     --lol-difficulty-facile : #5fd2ff;
     --lol-counter-title: #1d0a2d;
+
+    
+    --rl-selected: #174585;
+    --rl-gradient-1: #1a3b68;
+    --rl-gradient-2: #10183b;
+    --rl-bkg-gradient-1: #174985;
+    --rl-bkg-gradient-2: rgb(9, 22, 52);
+    --rl-topbar:#1a3866;
+    --rl-border: rgba(56, 106, 214, 0.2);
+    --rl-scrollbar:rgba(86, 148, 240, 0.4);
+    --rl-scrollbar-hover:rgba(137, 182, 255, 0.6);
+    --rl-light-color: rgb(118, 166, 255);
+    --rl-secondary : #1c228f;
+    --rl-secondary-hover : #2229ac;
+    --rl-counter-title: #1d0a2d;
   }
 
   html, body {

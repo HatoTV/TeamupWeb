@@ -1,53 +1,53 @@
 <div class="sidebar">
-  <div class="header paddingSidebar">
-    <h1>Champions</h1>
+  <div class="header paddingSidebar itemPart1">
+    <h1>{{titlePart1}}</h1>
     <hr class="divider paddingSidebar" />
   </div>
 
   <div
     class="section divSection sectionWithoutSubtitle paddingSidebar"
-    *ngFor="let itemChampions of itemsChampions"
-    [routerLink]="createHref(itemChampions.url)"
+    *ngFor="let itemPart1 of itemsPart1"
+    [routerLink]="createHref(itemPart1.url)"
   >
     <div class="logo-wrapper">
-      <img [src]="itemChampions.logoUrl" />
+      <img [src]="itemPart1.logoUrl" />
     </div>
-    <h2>{{ itemChampions.title }}</h2>
+    <h2>{{ itemPart1.title }}</h2>
   </div>
 
-  <div class="header paddingSidebar">
-    <h1>Gameplay guides</h1>
+  <div class="header paddingSidebar itemPart2">
+    <h1>{{titlePart2}}</h1>
     <hr class="divider" />
   </div>
 
-  <div *ngFor="let itemGameplay of itemsGameplay">
+  <div *ngFor="let itemPart2 of itemsPart2">
     <div class="paddingSidebar sectionWithSubtitle">
       <div
         class="section divSection"
-        (click)="toggleItem(itemGameplay);"
-        [routerLink]="createHref(itemGameplay.url)"
+        (click)="toggleItem(itemPart2);"
+        [routerLink]="createHref(itemPart2.url)"
       >
         <div class="logo-wrapper">
-          <img [src]="itemGameplay.logoUrl" />
+          <img [src]="itemPart2.logoUrl" />
         </div>
-        <h2>{{ itemGameplay.title | translate }}</h2>
+        <h2>{{ itemPart2.title | translate }}</h2>
         <i
-          *ngIf="itemGameplay.subtitles.length > 0"
+          *ngIf="itemPart2.subtitles.length > 0"
           style="margin-left: auto"
           class="fas"
-          [ngClass]="itemGameplay.isOpen ? 'fa-chevron-up' : 'fa-chevron-down'"
+          [ngClass]="itemPart2.isOpen ? 'fa-chevron-up' : 'fa-chevron-down'"
         ></i>
       </div>
-      <div *ngIf="itemGameplay.subtitles.length > 0">
+      <div *ngIf="itemPart2.subtitles.length > 0">
         <div
           class="subtitle"
-          *ngFor="let subtitle of itemGameplay.subtitles; let i = index"
-          [ngClass]="{ visible: itemGameplay.isOpen }"
+          *ngFor="let subtitle of itemPart2.subtitles; let i = index"
+          [ngClass]="{ visible: itemPart2.isOpen }"
         >
           <a
             style="text-decoration: none; color: white"
-            [routerLink]="createHref(itemGameplay.url)"
-            (click)="onSectionClick(itemGameplay.fragments[i])"
+            [routerLink]="createHref(itemPart2.url)"
+            (click)="onSectionClick(itemPart2.fragments[i])"
             ><h3>{{ subtitle | translate }}</h3></a
           >
         </div>

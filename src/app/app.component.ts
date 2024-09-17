@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
@@ -9,7 +10,7 @@ import { TopBarComponent } from './Navigation/top-bar/top-bar.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatchupsComponent, LeftBarComponent, TopBarComponent],
+  imports: [RouterOutlet, MatchupsComponent, LeftBarComponent, TopBarComponent,CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

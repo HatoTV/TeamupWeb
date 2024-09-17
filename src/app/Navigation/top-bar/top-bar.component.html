@@ -1,8 +1,8 @@
 <div class="topBar">
-    <img class="logo" src="assets/img/icons/TeamUp_full_white.png" (click)="goToUrl()">
+    <img class="logo" src="assets/img/icons/TeamUp_full_white.png" >
     <div class="divContent">
-        <div style="height: 100%;" *ngFor ="let itemSections of itemsSections">   
-            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'">
+        <div style="height: 100%;" *ngFor="let itemSections of itemsSections; let i = index;">   
+            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'" (click)="goToUrl(itemSections.url,i)">
                 <div class="logo-wrapper">
                     <img [src]="itemSections.logoUrl" />
                 </div>
@@ -19,8 +19,8 @@
     <div class="divContent">
         <button class="hamburger" (click)="toggleMenu()">☰</button>
         <left-bar class="scrollbar-lol navbar-menu" [ngClass]="{'active': isMenuOpen}"></left-bar>
-        <div style="height: 100%;" *ngFor ="let itemSections of itemsSections">   
-            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'">
+        <div style="height: 100%;" *ngFor="let itemSections of itemsSections; let i = index;">   
+            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'"  (click)="goToUrl(itemSections.url,i)">
                 <div class="logo-wrapper">
                     <img [src]="itemSections.logoUrl" />
                 </div>

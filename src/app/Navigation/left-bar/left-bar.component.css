@@ -11,10 +11,16 @@
     top: 0;
     left: 0;
     padding-top: 40px;
-    border-right: 3px solid var(--lol-border); 
-    background: linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))
   }
-  
+  .lolcolor{
+    background: linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2));
+    border-right: 3px solid var(--lol-border); 
+  }
+  .rlcolor{
+    background: linear-gradient(to top, var(--rl-bkg-gradient-1),var(--rl-bkg-gradient-2));
+    border-right: 3px solid var(--rl-border); 
+  }
+
   .header {
     margin-top: 40px;
   }
@@ -104,6 +110,10 @@
     padding-left: 50px;
     padding-bottom: 5px;
     transition: height 0.3s ease-out, opacity 0.3s ease-out;
+  }
+
+  .displayNone{
+    display: none;
   }
 
   @media only screen and (max-width: 1280px) {

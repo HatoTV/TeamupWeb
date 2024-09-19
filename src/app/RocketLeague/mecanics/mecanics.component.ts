@@ -1,19 +1,47 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
 import { ScrollService } from '../../scroll.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-mecanics',
   standalone: true,
-  imports: [CommonModule, TranslateModule, SafeHtmlPipe],
+  imports: [CommonModule, TranslateModule, SafeHtmlPipe,FormsModule],
   templateUrl: './mecanics.component.html',
   styleUrl: './mecanics.component.css'
 })
 export class MecanicsComponent {
-  constructor(private elementRef: ElementRef,private scrollService: ScrollService) { }
+  constructor(private elementRef: ElementRef,private scrollService: ScrollService, private http: HttpClient) { }
   @ViewChild('scrollContainer') private scrollContainer!: ElementRef;
+  searchTerm: string = '';
+  mecanics: { name: string; img: string; difficulty: number; utility: number; isOpen: boolean }[] = [];  
+  stars: number[] = [1, 2, 3, 4, 5];
+  filterOptions = [
+    { id: 'utility1', label: 'RL.MECANICS.UTILITY', selected: false, rating: 1 },
+    { id: 'utility2', label: 'RL.MECANICS.UTILITY', selected: false, rating: 2 },
+    { id: 'utility3', label: 'RL.MECANICS.UTILITY', selected: false, rating: 3 },
+    { id: 'utility4', label: 'RL.MECANICS.UTILITY', selected: false, rating: 4 },
+    { id: 'utility5', label: 'RL.MECANICS.UTILITY', selected: false, rating: 5 },
+    { id: 'difficulty1', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 1 },
+    { id: 'difficulty2', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 2 },
+    { id: 'difficulty3', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 3 },
+    { id: 'difficulty4', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 4 },
+    { id: 'difficulty5', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 5 },
+  ];
+
+  toggleSelection(option: any) {
+    option.selected = !option.selected;
+    console.log(this.getSelectedOptions());
+  }
+
+  getSelectedOptions() {
+    return this.filterOptions.filter(option => option.selected);
+  }
+
+  filteredMecanics: { name: string; img: string; difficulty: number; utility: number; isOpen: boolean }[] = [];
 
   scrollToElement(sectionId: string) {
     const element = document.getElementById(sectionId);
@@ -35,13 +63,38 @@ export class MecanicsComponent {
         this.scrollToElement(sectionId);
       }
     });
+    this.http.get<{ name: string; img: string; difficulty: number; utility: number; isOpen: boolean }[]>('assets/rlMecanics.json').subscribe((data) => {
+      this.mecanics = data
+        .map((item) => ({
+          name: item.name,
+          img: item.img,
+          difficulty: item.difficulty,
+          isOpen: item.isOpen,
+          utility: item.utility
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name));
+      this.filteredMecanics = [...this.mecanics];
+    });
   }
-  
+
 
   ngAfterViewInit() {
     const document = this.elementRef.nativeElement.ownerDocument;
     const body = document.body;
     body.style.background =
       'linear-gradient(to top, var(--rl-bkg-gradient-1),var(--rl-bkg-gradient-2))';
+  }
+
+  filterMecanics() {
+    const searchTermLower = this.searchTerm.toLowerCase();
+    const uniqueMecanics = new Map<string, { name: string; img: string; difficulty: number; utility: number; isOpen: boolean }>();
+
+    this.mecanics.forEach((mecanic) => {
+      if (mecanic.name.toLowerCase().includes(searchTermLower)) {
+        uniqueMecanics.set(mecanic.name.toLowerCase(), mecanic);
+      }
+    });
+
+    this.filteredMecanics = Array.from(uniqueMecanics.values());
   }
 }

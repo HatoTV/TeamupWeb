@@ -149,6 +149,7 @@ export class LeftBarComponent {
     // Supprimer toutes les classes avant d'en ajouter une nouvelle
     this.renderer.removeClass(mainElement, 'rlcolor');
     this.renderer.removeClass(mainElement, 'lolcolor');
+    this.renderer.removeClass(mainElement, 'displayNone');
 
     (Array.from(dividerElement) as HTMLElement[]).forEach((element: HTMLElement) => {
       this.renderer.removeClass(element, 'displayNone');
@@ -243,10 +244,8 @@ export class LeftBarComponent {
       // Ajouter la classe pour League of Legends
       this.renderer.addClass(mainElement, 'lolcolor');
     } else if (url.includes('/rocket')) {    
-
-      (Array.from(dividerElement) as HTMLElement[]).forEach((element: HTMLElement) => {
-        this.renderer.addClass(element, 'displayNone');
-      });
+      
+      this.renderer.addClass(mainElement, 'displayNone');
       // Ajouter la classe pour Rocket League
       this.itemsPart1=[]
       this.itemsPart2=[]

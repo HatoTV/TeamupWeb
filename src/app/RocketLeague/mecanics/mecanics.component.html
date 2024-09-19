@@ -1,3 +1,64 @@
 <div class="content" #scrollContainer>
     <div class="bkgContent"></div>
+    <img class="imgBkg" src="assets/img/rocketLeague/bkgRocketLeague.jpg" />
+    <div class="title">
+      <h1>{{ "RL.MECANICS.TITLE0" | translate }}</h1>
+      <h2>{{ "RL.MECANICS.SUBTITLE0" | translate }}</h2>
+    </div>
+
+    <div class="divContentEmpty" ></div>
+    <div class="divContent">
+      <div class="searchAndFilter">
+        <input type="text" class="form-control inputSearch" [placeholder]="'RL.MECANICS.SEARCHPLACEHOLDER' | translate"
+        [(ngModel)]="searchTerm" (input)="filterMecanics()" />
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="filterButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Filtres
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="filterButton">
+            <li *ngFor="let option of filterOptions">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="{{option.id}}" [checked]="option.selected" (change)="toggleSelection(option)">
+                <label class="form-check-label" for="{{option.id}}">
+                  <span class="fa-star" [ngClass]="{'fa-solid': option.rating >= 1, 'fa-regular': option.rating < 1}"></span>
+                  <span class="fa-star" [ngClass]="{'fa-solid': option.rating >= 2, 'fa-regular': option.rating < 2}"></span>
+                  <span class="fa-star" [ngClass]="{'fa-solid': option.rating >= 3, 'fa-regular': option.rating < 3}"></span>
+                  <span class="fa-star" [ngClass]="{'fa-solid': option.rating >= 4, 'fa-regular': option.rating < 4}"></span>
+                  <span class="fa-star" [ngClass]="{'fa-solid': option.rating >= 5, 'fa-regular': option.rating < 5}"></span>
+                  {{option.label | translate}}
+                </label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div *ngFor="let mecanic of filteredMecanics" class="divAllMecanics">
+        <div class="divMecanic">
+          <img src="{{mecanic.img}}" class="imgMecanic"/>
+          <div>
+            <h3>WAVE DASH</h3>
+          </div>
+          <div class="divStats">
+            <div class="divStatsUnique">
+              <h5 [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"></h5>
+              <div class="star-rating">
+                <span *ngFor="let star of stars; let i = index" 
+                      class="fa-star" 
+                      [ngClass]="{'fa-solid': i < mecanic.difficulty, 'fa-regular': i >= mecanic.difficulty}">
+                </span>
+              </div>
+            </div>
+            <div class="divStatsUnique">
+              <h5 [innerHtml]="'RL.MECANICS.DIFFICULTY' | translate | safeHtml"></h5>
+              <div class="star-rating">
+                <span *ngFor="let star of stars; let i = index" 
+                      class="fa-star" 
+                      [ngClass]="{'fa-solid': i < mecanic.utility, 'fa-regular': i >= mecanic.utility}">
+                </span>
+              </div>          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>

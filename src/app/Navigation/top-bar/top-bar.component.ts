@@ -16,7 +16,7 @@ import { LeftBarComponent } from '../left-bar/left-bar.component';
 export class TopBarComponent {
   constructor(private router: Router, private translate: TranslateService,private languageService: LanguageService,private el: ElementRef,private renderer: Renderer2) {}
   itemsSections = [
-    { logoUrl: 'assets/img/icons/League of Legends.png', title: 'League Of Legends', isSelected:true, url:'/lol/matchups' },
+    { logoUrl: 'assets/img/icons/League of Legends.png', title: 'League Of Legends', isSelected:false, url:'/lol/matchups' },
     { logoUrl: 'assets/img/icons/Rocket League.png', title: 'Rocket League', isSelected:false,  url:'/rocket/mecanics' },
   ];
   lang : string = "fr";  
@@ -56,18 +56,20 @@ export class TopBarComponent {
   applyClassesBasedOnUrl(url: string) {
     const mainElement = this.el.nativeElement.querySelector('.topBar');
     const navElement = this.el.nativeElement.querySelector('.navbar');
-
     // Supprimer toutes les classes avant d'en ajouter une nouvelle
     this.renderer.removeClass(mainElement, 'rlcolor');
     this.renderer.removeClass(mainElement, 'lolcolor');
     this.renderer.removeClass(navElement, 'rlcolor');
     this.renderer.removeClass(navElement, 'lolcolor');
+    this.itemsSections[0].isSelected=false
+    this.itemsSections[1].isSelected=false
 
     if (url.includes('/lol')) {
+      this.itemsSections[0].isSelected=true
       this.renderer.addClass(mainElement, 'lolcolor');
       this.renderer.addClass(navElement, 'lolcolor');
     } else if (url.includes('/rocket')) {
-      
+      this.itemsSections[1].isSelected=true
       this.renderer.addClass(mainElement, 'rlcolor');
       this.renderer.addClass(navElement, 'rlcolor');
     }

@@ -79,42 +79,64 @@
         </ul>
       </div>
     </div>
-    <div *ngFor="let mecanic of filteredMecanics" class="divAllMecanics">
-      <div class="divMecanic">
-        <img src="{{ mecanic.img }}" class="imgMecanic" />
+    <div class="divAllMecanics">
+      <div
+        *ngFor="let mecanic of filteredMecanics"
+        class="divMecanic"
+        (click)="openModal(mecanic)"
+      >
         <div>
-          <h3>{{ mecanic.name }}</h3>
-        </div>
-        <div class="divStats">
-          <div class="divStatsUnique">
-            <h5
-              [innerHtml]="'RL.MECANICS.DIFFICULTY' | translate | safeHtml"
-            ></h5>
-            <div class="star-rating">
-              <span
-                *ngFor="let star of stars; let i = index"
-                class="fa-star"
-                [ngClass]="{
-                  'fa-solid': i < mecanic.difficulty,
-                  'fa-regular': i >= mecanic.difficulty
-                }"
-              >
-              </span>
+          <img src="{{ mecanic.img }}" class="imgMecanic" />
+          <div>
+            <h3>{{ mecanic.name }}</h3>
+          </div>
+          <div class="divStats">
+            <div
+              class="divStatsUnique"
+              style="background-color: var(--rl-blue-bkgtextdarker)"
+            >
+              <h5
+                [innerHtml]="'RL.MECANICS.DIFFICULTY' | translate | safeHtml"
+              ></h5>
+              <div class="star-rating">
+                <span
+                  *ngFor="let star of stars; let i = index"
+                  class="fa-star"
+                  [ngClass]="{
+                    'fa-solid': i < mecanic.difficulty,
+                    'fa-regular': i >= mecanic.difficulty
+                  }"
+                >
+                </span>
+              </div>
+            </div>
+            <div class="divStatsUnique">
+              <h5
+                [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"
+              ></h5>
+              <div class="star-rating">
+                <span
+                  *ngFor="let star of stars; let i = index"
+                  class="fa-star"
+                  [ngClass]="{
+                    'fa-solid': i < mecanic.utility,
+                    'fa-regular': i >= mecanic.utility
+                  }"
+                >
+                </span>
+              </div>
             </div>
           </div>
-          <div class="divStatsUnique">
-            <h5 [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"></h5>
-            <div class="star-rating">
-              <span
-                *ngFor="let star of stars; let i = index"
-                class="fa-star"
-                [ngClass]="{
-                  'fa-solid': i < mecanic.utility,
-                  'fa-regular': i >= mecanic.utility
-                }"
-              >
-              </span>
-            </div>
+        </div>
+
+        <!-- Modal pour chaque mécanique -->
+        <div *ngIf="mecanic.isOpen" class="modal show">
+          <div class="modal-content">
+            <span class="close" (click)="closeModal(mecanic)">&times;</span>
+            <h2>{{ mecanic.name }}</h2>
+            <img [src]="mecanic.img" alt="{{ mecanic.name }}" />
+            <p>Explication sur la mécanique {{ mecanic.name }}...</p>
+            <div class="author">Par: {{ mecanic.author }}</div>
           </div>
         </div>
       </div>

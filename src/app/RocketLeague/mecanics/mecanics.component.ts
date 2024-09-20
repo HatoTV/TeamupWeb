@@ -9,27 +9,88 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-mecanics',
   standalone: true,
-  imports: [CommonModule, TranslateModule, SafeHtmlPipe,FormsModule],
+  imports: [CommonModule, TranslateModule, SafeHtmlPipe, FormsModule],
   templateUrl: './mecanics.component.html',
-  styleUrl: './mecanics.component.css'
+  styleUrl: './mecanics.component.css',
 })
 export class MecanicsComponent {
-  constructor(private elementRef: ElementRef,private scrollService: ScrollService, private http: HttpClient) { }
+  constructor(
+    private elementRef: ElementRef,
+    private scrollService: ScrollService,
+    private http: HttpClient
+  ) {}
   @ViewChild('scrollContainer') private scrollContainer!: ElementRef;
   searchTerm: string = '';
-  mecanics: { name: string; img: string; difficulty: number; utility: number; isOpen: boolean }[] = [];  
+  mecanics: {
+    name: string;
+    img: string;
+    difficulty: number;
+    utility: number;
+    isOpen: boolean;
+    author: string;
+  }[] = [];
   stars: number[] = [1, 2, 3, 4, 5];
   filterOptions = [
-    { id: 'utility1', label: 'RL.MECANICS.UTILITY', selected: false, rating: 1 },
-    { id: 'utility2', label: 'RL.MECANICS.UTILITY', selected: false, rating: 2 },
-    { id: 'utility3', label: 'RL.MECANICS.UTILITY', selected: false, rating: 3 },
-    { id: 'utility4', label: 'RL.MECANICS.UTILITY', selected: false, rating: 4 },
-    { id: 'utility5', label: 'RL.MECANICS.UTILITY', selected: false, rating: 5 },
-    { id: 'difficulty1', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 1 },
-    { id: 'difficulty2', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 2 },
-    { id: 'difficulty3', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 3 },
-    { id: 'difficulty4', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 4 },
-    { id: 'difficulty5', label: 'RL.MECANICS.DIFFICULTY', selected: false, rating: 5 },
+    {
+      id: 'utility1',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 1,
+    },
+    {
+      id: 'utility2',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 2,
+    },
+    {
+      id: 'utility3',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 3,
+    },
+    {
+      id: 'utility4',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 4,
+    },
+    {
+      id: 'utility5',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 5,
+    },
+    {
+      id: 'difficulty1',
+      label: 'RL.MECANICS.DIFFICULTY',
+      selected: false,
+      rating: 1,
+    },
+    {
+      id: 'difficulty2',
+      label: 'RL.MECANICS.DIFFICULTY',
+      selected: false,
+      rating: 2,
+    },
+    {
+      id: 'difficulty3',
+      label: 'RL.MECANICS.DIFFICULTY',
+      selected: false,
+      rating: 3,
+    },
+    {
+      id: 'difficulty4',
+      label: 'RL.MECANICS.DIFFICULTY',
+      selected: false,
+      rating: 4,
+    },
+    {
+      id: 'difficulty5',
+      label: 'RL.MECANICS.DIFFICULTY',
+      selected: false,
+      rating: 5,
+    },
   ];
 
   toggleSelection(option: any) {
@@ -38,10 +99,17 @@ export class MecanicsComponent {
   }
 
   getSelectedOptions() {
-    return this.filterOptions.filter(option => option.selected);
+    return this.filterOptions.filter((option) => option.selected);
   }
 
-  filteredMecanics: { name: string; img: string; difficulty: number; utility: number; isOpen: boolean }[] = [];
+  filteredMecanics: {
+    name: string;
+    img: string;
+    difficulty: number;
+    utility: number;
+    isOpen: boolean;
+    author: string;
+  }[] = [];
 
   scrollToElement(sectionId: string) {
     const element = document.getElementById(sectionId);
@@ -49,7 +117,8 @@ export class MecanicsComponent {
       const container = this.scrollContainer.nativeElement;
       const elementRect = element.getBoundingClientRect();
       const containerRect = container.getBoundingClientRect();
-      const scrollTop = elementRect.top - containerRect.top + container.scrollTop;
+      const scrollTop =
+        elementRect.top - containerRect.top + container.scrollTop;
       container.scrollTo({
         top: scrollTop,
         behavior: 'smooth',
@@ -58,25 +127,38 @@ export class MecanicsComponent {
   }
 
   ngOnInit() {
-    this.scrollService.scrollToSection$.subscribe((sectionId: string | null) => {
-      if (sectionId) {
-        this.scrollToElement(sectionId);
+    this.scrollService.scrollToSection$.subscribe(
+      (sectionId: string | null) => {
+        if (sectionId) {
+          this.scrollToElement(sectionId);
+        }
       }
-    });
-    this.http.get<{ name: string; img: string; difficulty: number; utility: number; isOpen: boolean }[]>('assets/rlMecanics.json').subscribe((data) => {
-      this.mecanics = data
-        .map((item) => ({
-          name: item.name,
-          img: item.img,
-          difficulty: item.difficulty,
-          isOpen: item.isOpen,
-          utility: item.utility
-        }))
-        .sort((a, b) => a.name.localeCompare(b.name));
-      this.filteredMecanics = [...this.mecanics];
-    });
+    );
+    this.http
+      .get<
+        {
+          name: string;
+          img: string;
+          difficulty: number;
+          utility: number;
+          isOpen: boolean;
+          author: string;
+        }[]
+      >('assets/rlMecanics.json')
+      .subscribe((data) => {
+        this.mecanics = data
+          .map((item) => ({
+            name: item.name,
+            img: item.img,
+            difficulty: item.difficulty,
+            isOpen: item.isOpen,
+            utility: item.utility,
+            author: item.author,
+          }))
+          .sort((a, b) => a.name.localeCompare(b.name));
+        this.filteredMecanics = [...this.mecanics];
+      });
   }
-
 
   ngAfterViewInit() {
     const document = this.elementRef.nativeElement.ownerDocument;
@@ -87,7 +169,17 @@ export class MecanicsComponent {
 
   filterMecanics() {
     const searchTermLower = this.searchTerm.toLowerCase();
-    const uniqueMecanics = new Map<string, { name: string; img: string; difficulty: number; utility: number; isOpen: boolean }>();
+    const uniqueMecanics = new Map<
+      string,
+      {
+        name: string;
+        img: string;
+        difficulty: number;
+        utility: number;
+        isOpen: boolean;
+        author: string;
+      }
+    >();
 
     this.mecanics.forEach((mecanic) => {
       if (mecanic.name.toLowerCase().includes(searchTermLower)) {
@@ -96,5 +188,14 @@ export class MecanicsComponent {
     });
 
     this.filteredMecanics = Array.from(uniqueMecanics.values());
+  }
+
+  openModal(mecanic: any) {
+    mecanic.isOpen = true;
+  }
+
+  // Ferme le modal de la mécanique sélectionnée
+  closeModal(mecanic: any) {
+    mecanic.isOpen = false;
   }
 }

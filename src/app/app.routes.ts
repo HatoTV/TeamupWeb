@@ -1,12 +1,10 @@
 import { Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { GameComponent } from './LeagueOfLegends/game/game.component';
 import { GuidesComponent } from './LeagueOfLegends/guides/guides.component';
 import { JungleComponent } from './LeagueOfLegends/jungle/jungle.component';
 import { LaningComponent } from './LeagueOfLegends/laning/laning.component';
 import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
-import { MecanicsComponent } from './LeagueOfLegends/mecanics/mecanics.component';
-import { MindsetComponent } from './LeagueOfLegends/mindset/mindset.component';
-import { TeamfightsComponent } from './LeagueOfLegends/teamfights/teamfights.component';
 import { WavemanagementComponent } from './LeagueOfLegends/wavemanagement/wavemanagement.component';
 export const routes: Routes = [
   { path: '', redirectTo: '/fr/lol/matchups', pathMatch: 'full' }, // Redirection par défaut
@@ -15,7 +13,5 @@ export const routes: Routes = [
   { path: ':lang/lol/laning', component: LaningComponent }, // Route avec paramètre de langue
   { path: ':lang/lol/wavemanagement', component: WavemanagementComponent }, // Route avec paramètre de langue
   { path: ':lang/lol/jungle', component: JungleComponent }, // Route avec paramètre de langue
-  { path: ':lang/lol/mecanics', component: MecanicsComponent }, // Route avec paramètre de langue
-  { path: ':lang/lol/teamfight', component: TeamfightsComponent }, // Route avec paramètre de langue
-  { path: ':lang/lol/mindset', component: MindsetComponent }, // Route avec paramètre de langue
+  { path: ':lang/lol/game', component: GameComponent }, // Route avec paramètre de langue
   ];

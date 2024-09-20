@@ -37,6 +37,12 @@
     opacity: 0.4;
   }
 
+  .section:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1);
+
+  }
+
   .isSelected{
     opacity: 1;
     background-color: rgba(255,255,255,0.1);
@@ -54,4 +60,25 @@
     font-size: 16px; /* Taille du titre */
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
+  }
+
+  .divContent{
+    display: flex;
+    height: -webkit-fill-available;
+    height: fill-available;
+    align-items: center;
+    width: 100%;
+  }
+
+  .translateIcon{
+    width: 35px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: 40px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translateIcon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
   }

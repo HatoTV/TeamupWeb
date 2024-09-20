@@ -33,6 +33,18 @@ export class LeftBarComponent {
     url: string;
   }> = [
     {
+      logoUrl: 'assets/img/icons/people.png',
+      title: 'LOL.GAME.GAME',
+      subtitles: [
+        'LOL.GAME.TITLE1',
+        'LOL.GAME.TITLE2',
+        // 'LOL.GAME.TITLE3',
+        // 'LOL.GAME.TITLE4'
+      ],
+      url: '/lol/game',
+      isOpen: true,
+    },
+    {
       logoUrl: 'assets/img/icons/Journey.png',
       title: 'Laning',
       subtitles: [
@@ -43,7 +55,7 @@ export class LeftBarComponent {
         'LOL.LANING.TITLE9',
       ],
       url: '/lol/laning',
-      isOpen: false,
+      isOpen: true,
     },
     {
       logoUrl: 'assets/img/icons/Money Bag.png',
@@ -55,7 +67,7 @@ export class LeftBarComponent {
         'LOL.WAVEMANAGEMENT.TITLE12',
       ],
       url: '/lol/wavemanagement',
-      isOpen: false,
+      isOpen: true,
     },
     {
       logoUrl: 'assets/img/icons/Forest.png',
@@ -68,38 +80,33 @@ export class LeftBarComponent {
         'LOL.JUNGLE.TITLE8',
       ],
       url: '/lol/jungle',
-      isOpen: false,
+      isOpen: true,
     },
-    {
-      logoUrl: 'assets/img/icons/Computer Mouse.png',
-      title: 'LOL.LEFTBAR.MECANICS',
-      subtitles: [],
-      url: '/lol/mecanics',
-      isOpen: false,
-    },
-    {
-      logoUrl: 'assets/img/icons/Handshake Heart.png',
-      title: 'Teamfights',
-      subtitles: [],
-      url: '/lol/teamfight',
-      isOpen: false,
-    },
-    {
-      logoUrl: 'assets/img/icons/Attitude.png',
-      title: 'Mindset',
-      subtitles: [],
-      url: '/lol/mindset',
-      isOpen: false,
-    },
+    // {
+    //   logoUrl: 'assets/img/icons/Computer Mouse.png',
+    //   title: 'LOL.LEFTBAR.MECANICS',
+    //   subtitles: [],
+    //   url: '/lol/mecanics',
+    //   isOpen: false,
+    // },
+    // {
+    //   logoUrl: 'assets/img/icons/Handshake Heart.png',
+    //   title: 'Teamfights',
+    //   subtitles: [],
+    //   url: '/lol/teamfight',
+    //   isOpen: false,
+    // },
+    // {
+    //   logoUrl: 'assets/img/icons/Attitude.png',
+    //   title: 'Mindset',
+    //   subtitles: [],
+    //   url: '/lol/mindset',
+    //   isOpen: false,
+    // },
   ];
 
   toggleItem(item: any): void {
     item.isOpen = !item.isOpen;
-  }
-
-  goToUrl(url: string) {
-    const defaultLang: string = this.translate.defaultLang || 'fr';
-    this.router.navigate([`/${defaultLang}` + url]);
   }
 
   // Méthode pour générer l'URL dynamiquement

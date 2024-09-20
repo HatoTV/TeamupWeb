@@ -2,18 +2,103 @@
   "LOL": {
     "LEFTBAR": {
       "FONDAMENTALS" : "Fundamentals",
-      "MECANICS": "Mecanics",
+      "MECANICS": "Mechanics",
       "LANING" : {
-        "BAIT" : "Spell Baiting"
-      },
-      "WAVEMANAGEMENT" : {
-        "SPAWN" : "Minions Spawn",
-        "BACKTIMING" : "Back Timing"
+        "BAIT" : "'Bait' the spells"
       },
       "JUNGLE" : {
-        "PATHING" : "Jungle Pathing",
+        "PATHING" : "Jungle Paths",
         "OBJECTIVES" : "Objectives & Invades"
-      }
-    }
+      },
+      "INTRODUCTION" : "Introduction"
+    },
+    
+    "MATCHUPS": {
+      "INTRO1" : "MASTER EVERY MATCHUP",
+      "INTRO2" : "Strategies and tips for your clashes!",
+      "YOURCHAMPION" : "Your Champion",
+      "ENEMYCHAMPION" : "Enemy Champion",
+      "DIFFICULTY" : "Difficulty",
+      "TIPS" : "Tips",
+      "NOMATCHUP": "No data found.",
+      "DIFFICULTIES" : {
+        "Extreme" : "Extreme",
+        "Major" : "Hard",
+        "Even" : "Medium",
+        "Minor" : "Easy",
+        "Tiny" : "Very Easy"
+      },
+      "REVERSE" : "Reverse Selection" ,
+      "BESTPICKAGAINST": "Counters of",
+      "WORSTPICKAGAINST": "Favorable for"
+    },
+
+    "WAVEMANAGEMENT":{
+      "TITLE0":"Wave Management",
+      "SUBTITLE0":"Techniques and tips for perfect lane control!",
+      "TITLE1":"What is wave management?",
+      "CONTENT1":"It's the art of strategically managing the minion wave to gain a significant advantage in terms of map pressure, safety, as well as gold and experience gain.<br>Wave management is one of the most important aspects to master in the game, as it is essential on all lanes, even for a jungler.",
+      "TITLE2":"Minion spawning",
+      "CONTENT2":{
+        "INTRO1" : "There are 3 types of minion waves:",
+        "LIST1" : "<bold>Standard wave:</bold> made up of 3 melee minions and 3 ranged minions.",
+        "LIST2" : "<bold>Cannon wave:</bold> a standard wave + a cannon minion.",
+        "LIST3" : "<bold>Super wave:</bold> a standard wave + a super minion.",
+        "INTRO2" :"Minions first spawn at 1:05, then every 30 seconds until the end of the game.\nThe minion wave spawn cycle is as follows:",
+        "LIST5" :"<bold>During the first 20 minutes:</bold> Standard wave -> Standard wave -> Cannon wave.",
+        "LIST6" :"<bold>After 20 minutes:</bold> Standard wave -> Cannon wave.",
+        "LIST7" :"<bold>After 35 minutes:</bold> All waves become cannon waves.",
+        "LIST8" :"<bold>If inhibitor is destroyed:</bold> All waves are super waves for 5 minutes (time for the inhibitor to respawn).",
+        "INTRO3" : "<italic>Bonus info:</italic> If your team has a lead in levels and destroyed towers, your minions will deal more damage and take less from enemy minions. These bonuses increase with the difference in levels and towers."
+      },
+      "TITLE4":"Timing to recall",
+      "CONTENT4":"The moment you go back to base is crucial to maximize your gold and experience gains. <br>To determine the right timing, the position of the minion wave is a key factor to consider. <br><br><div style='display:flex;align-items: center;'><img style='margin-right: 40px;width:250px;height:auto;border: 4px solid white;' src='assets/img/wavemanagement_MapSpawn.webp'>Since the waves of both teams spawn at the same time, you can estimate the position of the enemy wave by looking at yours (mirror effect). For example, if a cannon wave is leaving your base, a cannon wave is also leaving the enemy base.<br><br>It is strongly advised not to recall if a cannon wave is already on its way. Cannon minions provide more gold and experience than regular minions, so it's better to stay in lane to collect these resources. The ideal time to recall is before a cannon wave spawns.<br><br></div><div style='margin-top: 40px'>Additionally, if your opponent is not in lane, it may be useful to quickly push your wave under their tower before recalling (Fast Push). This will make them lose resources and cause the enemy wave to advance towards the middle of the lane, making your return safer.</div>",
+      "TITLE5":"Strategy 1: The Freeze",
+      "SUBTITLE5":"What is a Freeze?",
+      "CONTENT5" : "Freezing consists of preventing the minion wave from moving, forcing the opponent to step forward to gather resources. <br><br>To maintain a freeze, you must balance the damage taken by your minions and the damage dealt to the enemy minions, managing their position relative to your tower.",
+      "SUBTITLE6":"How to freeze a lane?",
+      "CONTENT6":{
+        "LIST1" : "When the enemy deals damage to their minions (outside of last-hitting), you should adjust your damage so that all minions die around the same time, preventing the wave from pushing.",
+        "LIST2" : "The closer the freeze is to your tower, the more enemy minions you need to leave alive to counteract the fast arrival of your own minions (2-3 extra enemy minions near your tower).",
+        "LIST3" : "If the enemy wave is too large and starts hitting your tower, you can tank it (take the minion hits) to keep the wave in place, if you have enough health.",
+        "LIST4" : "If the wave is too big to be tanked, reduce the number of enemy minions to maintain control of the freeze."
+      },
+      "SUBTITLE7":"When to freeze a lane?",
+      "CONTENT7":{
+        "LIST1" : "If the enemy jungler is putting a lot of pressure on you, it's advisable to freeze near your tower to farm safely and avoid ganks.",
+        "LIST2" : "After being killed, freezing helps you catch up in farm without exposing yourself too much.",
+        "LIST3" : "When the enemy recalls without pushing the wave properly into your tower, keep the wave outside your tower to force them to overextend on their return."
+      },
+      "SUBTITLE8":"Advantages & Disadvantages of freezing",
+      "CONTENT8":"The advantages of freezing include denying the enemy minions, allowing you to gain a gold lead and forcing the enemy to overextend to farm, creating gank opportunities.<br>It also helps you catch up in gold and experience if you're behind.<br><br>However, a poorly executed freeze can allow the enemy to roam and create an advantage elsewhere on the map.\nAdditionally, freezing is harder to maintain if the enemy has good wave clear.",
+      "TITLE9":"Strategy 2: The Slow Push",
+      "SUBTITLE9":"What is a Slow Push?",
+      "CONTENT9":"Slow pushing consists of slowly advancing the minion wave towards the enemy tower while allowing you to take other actions on the map.",
+      "SUBTITLE10":"How to slow push a lane?",
+      "CONTENT10":"You simply reduce the number of enemy minions just enough for your wave to gradually push forward (kill ranged minions or leave a slight advantage in the number of minions).",
+      "SUBTITLE11":"When to slow push a lane?",
+      "CONTENT11":{
+        "LIST1" : "Before leaving your lane to help elsewhere, ensure that your wave is slow pushing so that the enemy can't easily destroy your tower while you're away.",
+        "LIST2" : "A slow push can result in a massive wave that forces the enemy to defend, creating opportunities for your team elsewhere on the map."
+      },
+      "TITLE12":"Strategy 3: The Fast Push",
+      "SUBTITLE12":"What is a Fast Push?",
+      "CONTENT12":"Fast pushing is a technique that consists of quickly pushing the minion wave to force the opponent to return to lane.",
+      "SUBTITLE13":"How to fast push a lane?",
+      "CONTENT13":{
+        "LIST1" : "The goal is to quickly clear the enemy minion wave so that your minions can advance rapidly towards the enemy tower.",
+        "LIST2" : "Clear the melee minions first, then prioritize cannon minions to prevent your wave from slowing down.",
+        "LIST3" : "Attack the minions constantly, don't just last-hit.",
+        "LIST4" : "Use your area-of-effect abilities to quickly destroy the wave as a whole."
+      },
+      "SUBTITLE14":"When to fast push a lane?",
+      "CONTENT14":{
+        "LIST1" : "If the enemy is not on the lane or is dead, quickly send the wave under their tower to make them lose resources.",
+        "LIST2" : "Before roaming the map, a fast push allows you to save time and secure your resources before joining a play elsewhere.",
+        "LIST3" : "Against certain champions who struggle to farm under tower, fast pushing can put them under pressure or force them into mistakes.",
+        "LIST4" : "Use your area-of-effect abilities to quickly destroy the wave as a whole."
+      },
+      "CONTENT15":"<bold>Important:</bold> Before Fast/Slow Pushing, make sure you have enough time and vision on the map to avoid a gank."
+    } 
   }
 }

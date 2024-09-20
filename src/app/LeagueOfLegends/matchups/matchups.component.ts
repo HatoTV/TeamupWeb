@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, ElementRef } from '@angular/core';
+import { Component, ElementRef, Renderer2 } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { lastValueFrom, Observable } from 'rxjs';
 import { FormsModule } from '@angular/forms';
 import { throws } from 'node:assert';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'lol-matchups',
@@ -14,7 +15,7 @@ import { throws } from 'node:assert';
   styleUrl: './matchups.component.css',
 })
 export class MatchupsComponent {
-  constructor(private elementRef: ElementRef, private http: HttpClient) { }
+  constructor(private elementRef: ElementRef, private http: HttpClient,private renderer: Renderer2 ) { }
   ngAfterViewInit() {
     const document = this.elementRef.nativeElement.ownerDocument;
     const body = document.body;
@@ -101,7 +102,6 @@ export class MatchupsComponent {
       this.filteredChampions2 = [...this.champions];
     });
   }
-
   async getJsonDataByChampion(
     selectedChampion1: string,
     selectedChampion2: string

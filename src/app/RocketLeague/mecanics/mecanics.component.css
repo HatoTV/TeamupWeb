@@ -69,8 +69,9 @@ h4{
 }
 h5{
   font-family: "Roboto Condensed";
-  font-weight: 300;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
 }
 h6{
     font-family: 'Roboto';
@@ -131,6 +132,7 @@ h6{
 
   .imgMecanic{
     width: -webkit-fill-available;
+    width: -moz-available;
   }
   .divAllMecanics{
     margin-top: 100px;

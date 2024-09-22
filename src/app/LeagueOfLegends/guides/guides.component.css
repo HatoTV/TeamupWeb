@@ -7,6 +7,7 @@
     box-sizing: border-box;
     max-width: calc(100% - 300px);
     overflow: auto;
+    padding-bottom: 100px;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -20,6 +21,7 @@
         overflow: auto;
         left: 0;
         display: flex;
+        padding-bottom: 100px;
         flex-direction: column;
     }
 

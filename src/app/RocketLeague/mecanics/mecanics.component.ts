@@ -5,11 +5,12 @@ import { TranslateModule } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
 import { ScrollService } from '../../scroll.service';
 import { HttpClient } from '@angular/common/http';
+import { ModalComponent } from '../modal/modal.component';
 
 @Component({
   selector: 'app-mecanics',
   standalone: true,
-  imports: [CommonModule, TranslateModule, SafeHtmlPipe, FormsModule],
+  imports: [CommonModule, TranslateModule, SafeHtmlPipe, FormsModule, ModalComponent],
   templateUrl: './mecanics.component.html',
   styleUrl: './mecanics.component.css',
 })
@@ -28,6 +29,9 @@ export class MecanicsComponent {
     utility: number;
     isOpen: boolean;
     author: string;
+    video: string;
+    etapes: string[];
+    explication: string;
   }[] = [];
   stars: number[] = [1, 2, 3, 4, 5];
   filterOptions = [
@@ -109,6 +113,9 @@ export class MecanicsComponent {
     utility: number;
     isOpen: boolean;
     author: string;
+    video: string;
+    etapes: string[];
+    explication: string;
   }[] = [];
 
   scrollToElement(sectionId: string) {
@@ -143,6 +150,9 @@ export class MecanicsComponent {
           utility: number;
           isOpen: boolean;
           author: string;
+          video: string;
+          etapes: string[];
+          explication: string;
         }[]
       >('assets/rlMecanics.json')
       .subscribe((data) => {
@@ -154,6 +164,9 @@ export class MecanicsComponent {
             isOpen: item.isOpen,
             utility: item.utility,
             author: item.author,
+            explication: item.explication,
+            video: item.video,
+            etapes: item.etapes,
           }))
           .sort((a, b) => a.name.localeCompare(b.name));
         this.filteredMecanics = [...this.mecanics];
@@ -178,6 +191,9 @@ export class MecanicsComponent {
         utility: number;
         isOpen: boolean;
         author: string;
+        video: string;
+        etapes: string[];
+        explication: string;
       }
     >();
 
@@ -190,12 +206,31 @@ export class MecanicsComponent {
     this.filteredMecanics = Array.from(uniqueMecanics.values());
   }
 
-  openModal(mecanic: any) {
-    mecanic.isOpen = true;
+  isModalVisible: boolean = false;
+  titleMecanic : string = "";
+  videoMecanic : string = "";
+  explicationMecanic : string = "";
+  etapesMecanic : string[] = [];
+
+  openModal(mecanic: {
+    name: string;
+    img: string;
+    difficulty: number;
+    utility: number;
+    isOpen: boolean;
+    author: string;
+    video: string;
+    etapes: string[];
+    explication: string;
+  }) {
+    this.titleMecanic=mecanic.name;
+    this.videoMecanic="assets/rlVideos/" + mecanic.video;
+    this.explicationMecanic=mecanic.explication;
+    this.etapesMecanic=[...mecanic.etapes];
+    this.isModalVisible = true;
   }
 
-  // Ferme le modal de la mécanique sélectionnée
-  closeModal(mecanic: any) {
-    mecanic.isOpen = false;
+  closeModal() {
+    this.isModalVisible = false;
   }
 }

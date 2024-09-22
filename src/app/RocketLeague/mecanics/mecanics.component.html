@@ -1,5 +1,15 @@
+<app-modal 
+[title]="titleMecanic"
+[video]="videoMecanic"
+[etapes]="etapesMecanic"
+[explication]="explicationMecanic"
+[showModal]="isModalVisible"
+(closeModalEvent)="closeModal()">
+</app-modal>
+
+
 <div class="content" #scrollContainer>
-  <div class="bkgContent"></div>
+  <div class="bkgContent" ></div>
   <img class="imgBkg" src="assets/img/rocketLeague/bkgRocketLeague.jpg" />
   <div class="title">
     <h1>{{ "RL.MECANICS.TITLE0" | translate }}</h1>
@@ -126,17 +136,6 @@
                 </span>
               </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Modal pour chaque mécanique -->
-        <div *ngIf="mecanic.isOpen" class="modal show">
-          <div class="modal-content">
-            <span class="close" (click)="closeModal(mecanic)">&times;</span>
-            <h2>{{ mecanic.name }}</h2>
-            <img [src]="mecanic.img" alt="{{ mecanic.name }}" />
-            <p>Explication sur la mécanique {{ mecanic.name }}...</p>
-            <div class="author">Par: {{ mecanic.author }}</div>
           </div>
         </div>
       </div>

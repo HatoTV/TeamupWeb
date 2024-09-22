@@ -6,6 +6,7 @@
     box-sizing: border-box;
     max-width: 100%;
     overflow: auto;
+    padding-bottom: 100px;
 }
 
 .imgBkg {
@@ -141,6 +142,7 @@ h6{
     margin-top: 100px;
     display: flex;  
     flex-wrap: wrap;
+    justify-content: center;
   }
 .searchAndFilter{
   display: flex;
@@ -151,42 +153,6 @@ h6{
   max-height: 200px;
   overflow-y: auto;
 }
-
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  overflow: auto;
-}
-
-.modal.show {
-  display: block;
-}
-
-.modal-content {
-  background-color: #fff;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 28px;
-  color: #aaa;
-  cursor: pointer;
-}
-
 
 
 
@@ -203,6 +169,7 @@ h6{
         left: 0;
         display: flex;
         flex-direction: column;
+        padding-bottom: 100px;
     }
 
     .divContent,.divContentEmpty{

@@ -6,7 +6,7 @@
     <img [src]="imgBkg1" class="imgBkg1" [ngClass]="{ visible: showImage1 }" />
     <img [src]="imgBkg2" class="imgBkg2" [ngClass]="{ visible: showImage2 }" />
   </div>
-  <div [ngClass]="{ 'fade-out': !isVisible, 'fade-in': isVisible }" class="fade title">
+  <div [ngClass]="{ 'fade-out': !isVisible, 'fade-in': isVisible }" class="title" id="titleMatchup">
     <h1 class="paddingTextMobile">{{ "LOL.MATCHUPS.INTRO1" | translate }}</h1>
     <h2 class="paddingTextMobile">{{ "LOL.MATCHUPS.INTRO2" | translate }}</h2>
   </div>

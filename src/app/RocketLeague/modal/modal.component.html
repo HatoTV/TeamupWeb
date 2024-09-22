@@ -1,0 +1,13 @@
+<div *ngIf="showModal" class="modal" (click)="closeModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <h2>{{ title }}</h2>
+      <video controls width="600">
+        <source [src]="video" type="video/mp4">
+        <source [src]="video" type="video/webm">
+        Votre navigateur ne supporte pas la balise vidéo.
+      </video>
+      <p *ngFor="let etape of etapes">{{ etape }}</p>
+      <p>{{ explication }}</p>
+    </div>
+  </div>

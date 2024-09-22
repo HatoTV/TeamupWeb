@@ -85,6 +85,18 @@ export class MatchupsComponent {
   riotApiKey: string = '';
 
   ngOnInit() {
+
+    // Désactiver temporairement la transition
+    const textElement = this.elementRef.nativeElement.querySelector('#titleMatchup');
+    
+    // Supprimer les transitions à l'ouverture
+    this.renderer.removeClass(textElement, 'fade');
+    
+    // Utiliser un timeout pour réactiver les transitions après un cycle
+    setTimeout(() => {
+      this.renderer.addClass(textElement, 'fade');
+    }, 50); 
+
     this.http.get<any[]>('assets/jsonDatas/AllChampions.json').subscribe((data) => {
       this.champions = data
         .map((item) => ({

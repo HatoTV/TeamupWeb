@@ -34,7 +34,8 @@
     --rl-counter-title: #1d0a2d;
     --rl-blue-text: #468DC7;
     --rl-blue-bkgtext: #2071C8;
-    --rl-blue-bkgtextdarker: #0B4788
+    --rl-blue-bkgtextdarker: #0B4788;
+    --rl-bkgtextopacity: rgba(206, 206, 206,0.1);
   }
 
   html, body {
@@ -66,27 +67,35 @@
     scrollbar-width: thin; /* Pour Firefox */
     scrollbar-color: var(--lol-scrollbar) transparent; /* Couleur pour Firefox */
   }
+
+  .scrollbar-rl {
+    scrollbar-width: thin; /* Pour Firefox */
+    scrollbar-color: var(--rl-scrollbar) transparent; /* Couleur pour Firefox */
+  }
+  
   
   /* Pour les navigateurs WebKit comme Chrome, Edge, et Safari */
-  .scrollbar-lol::-webkit-scrollbar {
+  .scrollbar-lol::-webkit-scrollbar, .scrollbar-rl::-webkit-scrollbar {
     width: 8px; /* Largeur de la scrollbar */
   }
   
-  .scrollbar-lol::-webkit-scrollbar-track {
+  .scrollbar-lol::-webkit-scrollbar-track,.scrollbar-rl::-webkit-scrollbar-track {
     background: transparent; /* Arrière-plan transparent */
   }
   
-  .scrollbar-lol::-webkit-scrollbar-thumb {
+  .scrollbar-lol::-webkit-scrollbar-thumb, .scrollbar-rl::-webkit-scrollbar-thumb {
     background-color: rgba(255,255,255,0.4); /* Couleur du "pouce" */
     border-radius: 10px; /* Bord arrondi */
     border: 2px solid transparent; /* Espacement autour du "pouce" */
   }
-  .scrollbar-lol::-webkit-scrollbar-thumb:hover {
+  .scrollbar-lol::-webkit-scrollbar-thumb:hover,.scrollbar-rl::-webkit-scrollbar-thumb:hover {
     background-color:  var(--lol-scrollbar-hover); /* Couleur plus foncée au survol */
   }
-  .scrollbar-lol::-webkit-scrollbar-button {
+  .scrollbar-lol::-webkit-scrollbar-button,.scrollbar-rl::-webkit-scrollbar-button {
     display: none; /* Masquer les boutons de la scrollbar */
   }
+
+  
   
   .bold-text {
     font-weight: 600;

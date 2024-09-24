@@ -1,13 +1,67 @@
 <div *ngIf="showModal" class="modal" (click)="closeModal()">
     <div class="modal-content" (click)="$event.stopPropagation()">
-      <span class="close" (click)="closeModal()">&times;</span>
-      <h2>{{ title }}</h2>
-      <video controls width="600">
-        <source [src]="video" type="video/mp4">
-        <source [src]="video" type="video/webm">
-        Votre navigateur ne supporte pas la balise vidéo.
-      </video>
-      <p *ngFor="let etape of etapes">{{ etape }}</p>
-      <p>{{ explication }}</p>
+      <div class="divTitle">
+        <span class="close" (click)="closeModal()">&times;</span>
+        <h1>{{ title }}</h1>
+        
+        <div class="divStats">
+          <div
+            class="divStatsUnique"
+            style="border-top-right-radius: 20px;"
+            [ngStyle]="{'background-color': getBackgroundColorDifficulty(difficulty)}"
+          >
+            <h5
+              [innerHtml]="'RL.MECANICS.DIFFICULTY' | translate | safeHtml"
+            ></h5>
+            <div class="star-rating">
+              <span
+                *ngFor="let star of stars; let i = index"
+                class="fa-star"
+                [ngClass]="{
+                  'fa-solid': i < difficulty,
+                  'fa-regular': i >= difficulty
+                }"
+              >
+              </span>
+            </div>
+          </div>
+          <div class="divStatsUnique"
+          [ngStyle]="{'background-color': getBackgroundColorUtility(utility)}">
+            <h5
+              [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"
+            ></h5>
+            <div class="star-rating">
+              <span
+                *ngFor="let star of stars; let i = index"
+                class="fa-star"
+                [ngClass]="{
+                  'fa-solid': i < utility,
+                  'fa-regular': i >= utility
+                }"
+              >
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divModalContent">
+        <div class="divSteps">
+          <video controls class="video">
+            <source [src]="video" type="video/mp4">
+            <source [src]="video" type="video/webm">
+            Votre navigateur ne supporte pas la balise vidéo.
+          </video>
+          <div class="centerVertical">
+            <h3>{{ "RL.STEPS" | translate }}</h3>
+            <ol>
+              <li style="padding-bottom: 10px;" *ngFor="let etape of etapes">{{ etape }}</li>
+            </ol>
+          </div>
+        </div>
+        <div class="divExplication">
+          <h3 class="titleExplications">{{ "RL.WHYMECANIC" | translate }}</h3>
+          <h4 [innerHtml]="explication | translate | safeHtml"></h4>   
+        </div> 
+      </div>
     </div>
   </div>

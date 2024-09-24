@@ -1,49 +1,86 @@
 [
     {
-        "name": "Wave Dash" ,
-        "img": "assets/img/rocketLeague/minia_wavedash.jpg",
-        "difficulty":2,
-        "utility":5,
-        "isOpen":false,
-        "author":"Flowfi",
-        "video":"Kuxirpinch.mp4",
-        "etapes":["Faire rouler la balle sur le sol vers un mur, depuis le milieu de son con camp","Sauter vers la balle pour avoir un impact quand elle roule sur le mur (et non pas dans l'arrondi du mur).","Taper la balle légèrement du côté opposé au but adverse.","Flip dans le mur au moment de l'impact entre la balle et la voiture."],
-        "explication":"Comme beaucoup de mécaniques, celle-ci peut avoir un effet de surprise pour transformer une défense en contre-attaque voire en but quasiment instantanément. En effet, si vous parvenez à maîtriser un minimum ce pinch, vous pouvez au moins faire un dégagement de balle qui vous laissera vous repositionner.\nCe pinch n'est pas à tenter si votre adversaire est proche de vous ou qu'il est aussi proche de la balle que vous ; il peut anticiper et aller vous contrer ce qui peut jouer en votre défaveur étant donné que vous êtes dans votre camp.\nIdéalement, il ne faut pas non plus que votre adversaire soit déjà positionné en défense dans ses buts : 90% du temps vous allez juste lui rendre la balle.\nLe meilleur des scénarios est lorsque vous parvenez à accélérer la balle d'un côté pendant que votre adversaire prend le boost du milieu opposé, ou qu'il est en retard derrière vous."
-    },
-    {
         "name": "Pinch" ,
+        "subname": "(Kuxir)" ,
         "img": "assets/img/rocketLeague/minia_pinch.jpg",
-        "difficulty":3,
+        "difficulty":4,
         "utility":3,
         "isOpen":false,
         "author":"Flowfi",
         "video":"Kuxirpinch.mp4",
-        "etapes":["Faire rouler la balle sur le sol vers un mur, depuis le milieu de son con camp","Sauter vers la balle pour avoir un impact quand elle roule sur le mur (et non pas dans l'arrondi du mur).","Taper la balle légèrement du côté opposé au but adverse.","Flip dans le mur au moment de l'impact entre la balle et la voiture."],
-        "explication":"Comme beaucoup de mécaniques, celle-ci peut avoir un effet de surprise pour transformer une défense en contre-attaque voire en but quasiment instantanément. En effet, si vous parvenez à maîtriser un minimum ce pinch, vous pouvez au moins faire un dégagement de balle qui vous laissera vous repositionner.\nCe pinch n'est pas à tenter si votre adversaire est proche de vous ou qu'il est aussi proche de la balle que vous ; il peut anticiper et aller vous contrer ce qui peut jouer en votre défaveur étant donné que vous êtes dans votre camp.\nIdéalement, il ne faut pas non plus que votre adversaire soit déjà positionné en défense dans ses buts : 90% du temps vous allez juste lui rendre la balle.\nLe meilleur des scénarios est lorsque vous parvenez à accélérer la balle d'un côté pendant que votre adversaire prend le boost du milieu opposé, ou qu'il est en retard derrière vous."
-    
-    },
-    {
-        "name": "Wave Dash" ,
-        "img": "assets/img/rocketLeague/minia_wavedash.jpg",
-        "difficulty":2,
-        "utility":5,
-        "isOpen":false,
-        "author":"Flowfi",
-        "video":"Kuxirpinch.mp4",
-        "etapes":["Faire rouler la balle sur le sol vers un mur, depuis le milieu de son con camp","Sauter vers la balle pour avoir un impact quand elle roule sur le mur (et non pas dans l'arrondi du mur).","Taper la balle légèrement du côté opposé au but adverse.","Flip dans le mur au moment de l'impact entre la balle et la voiture."],
-        "explication":"Comme beaucoup de mécaniques, celle-ci peut avoir un effet de surprise pour transformer une défense en contre-attaque voire en but quasiment instantanément. En effet, si vous parvenez à maîtriser un minimum ce pinch, vous pouvez au moins faire un dégagement de balle qui vous laissera vous repositionner.\nCe pinch n'est pas à tenter si votre adversaire est proche de vous ou qu'il est aussi proche de la balle que vous ; il peut anticiper et aller vous contrer ce qui peut jouer en votre défaveur étant donné que vous êtes dans votre camp.\nIdéalement, il ne faut pas non plus que votre adversaire soit déjà positionné en défense dans ses buts : 90% du temps vous allez juste lui rendre la balle.\nLe meilleur des scénarios est lorsque vous parvenez à accélérer la balle d'un côté pendant que votre adversaire prend le boost du milieu opposé, ou qu'il est en retard derrière vous."
-    
-    },
-    {
-        "name": "Pinch" ,
-        "img": "assets/img/rocketLeague/minia_pinch.jpg",
-        "difficulty":3,
-        "utility":3,
-        "isOpen":false,
-        "author":"Flowfi",
-        "video":"Kuxirpinch.mp4",
-        "etapes":["Faire rouler la balle sur le sol vers un mur, depuis le milieu de son con camp","Sauter vers la balle pour avoir un impact quand elle roule sur le mur (et non pas dans l'arrondi du mur).","Taper la balle légèrement du côté opposé au but adverse.","Flip dans le mur au moment de l'impact entre la balle et la voiture."],
-        "explication":"Comme beaucoup de mécaniques, celle-ci peut avoir un effet de surprise pour transformer une défense en contre-attaque voire en but quasiment instantanément. En effet, si vous parvenez à maîtriser un minimum ce pinch, vous pouvez au moins faire un dégagement de balle qui vous laissera vous repositionner.\nCe pinch n'est pas à tenter si votre adversaire est proche de vous ou qu'il est aussi proche de la balle que vous ; il peut anticiper et aller vous contrer ce qui peut jouer en votre défaveur étant donné que vous êtes dans votre camp.\nIdéalement, il ne faut pas non plus que votre adversaire soit déjà positionné en défense dans ses buts : 90% du temps vous allez juste lui rendre la balle.\nLe meilleur des scénarios est lorsque vous parvenez à accélérer la balle d'un côté pendant que votre adversaire prend le boost du milieu opposé, ou qu'il est en retard derrière vous."
-    
-    }
+        "etapes":"RL.MECANICS.PINCH_KUXIR_STEPS",
+        "explication": "RL.MECANICS.PINCH_KUXIR_EXPLICATION"
+     },
+     {
+         "name": "Ceiling Shot" ,
+         "subname": "" ,
+         "img": "assets/img/rocketLeague/minia_pinch.jpg",
+         "difficulty":2,
+         "utility":3,
+         "isOpen":false,
+         "author":"Hato",
+         "video":"CeilingShot.mp4",
+         "etapes":"RL.MECANICS.CEILINGSHOT_STEPS",
+         "explication": "RL.MECANICS.CEILINGSHOT_EXPLICATION"
+      },
+      {
+          "name": "Fast Aerial" ,
+          "subname": "" ,
+          "img": "assets/img/rocketLeague/minia_pinch.jpg",
+          "difficulty":1,
+          "utility":5,
+          "isOpen":false,
+          "author":"Hato",
+          "video":"FastAerial.mp4",
+          "etapes":"RL.MECANICS.FASTAERIAL_STEPS",
+          "explication": "RL.MECANICS.FASTAERIAL_EXPLICATION"
+       },
+       {
+           "name": "Wave Dash" ,
+           "subname": "" ,
+           "img": "assets/img/rocketLeague/minia_pinch.jpg",
+           "difficulty":2,
+           "utility":5,
+           "isOpen":false,
+           "author":"Hato",
+           "video":"WaveDash.mp4",
+           "etapes":"RL.MECANICS.WAVEDASH_STEPS",
+           "explication": "RL.MECANICS.WAVEDASH_EXPLICATION"
+        },
+        {
+            "name": "Wall to Air Dribble" ,
+            "subname": "" ,
+            "img": "assets/img/rocketLeague/minia_pinch.jpg",
+            "difficulty":2,
+            "utility":5,
+            "isOpen":false,
+            "author":"KOBAA",
+            "video":"WallToAirDribble.mp4",
+            "etapes":"RL.MECANICS.WALLTOAIRDRIBBLE_STEPS",
+            "explication": "RL.MECANICS.WALLTOAIRDRIBBLE_EXPLICATION"
+         },
+         {
+             "name": "Half Flip" ,
+             "subname": "" ,
+             "img": "assets/img/rocketLeague/minia_pinch.jpg",
+             "difficulty":2,
+             "utility":5,
+             "isOpen":false,
+             "author":"Flowfi",
+             "video":"HalfFlip.mp4",
+             "etapes":"RL.MECANICS.HALFFLIP_STEPS",
+             "explication": "RL.MECANICS.HALFFLIP_EXPLICATION"
+          },
+          {
+              "name": "Flick " ,
+              "subname": "(Diagonal Backflip)" ,
+              "img": "assets/img/rocketLeague/minia_pinch.jpg",
+              "difficulty":3,
+              "utility":5,
+              "isOpen":false,
+              "author":"Flowfi",
+              "video":"Flick_diagonalBackflip.mp4",
+              "etapes":"RL.MECANICS.FLICK_DIAGONALBACKFLIP_STEPS",
+              "explication": "RL.MECANICS.FLICK_DIAGONALBACKFLIP_EXPLICATION"
+           }
 ]

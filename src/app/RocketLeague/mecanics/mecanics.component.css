@@ -53,11 +53,11 @@ h3{
   font-weight: 800;
   font-size: clamp(1rem, 0.5vw + 1rem, 3rem);
   text-transform: uppercase;
-  padding-top: 20px;
-  padding-bottom: 20px;
   text-align: center;
   background-color: white;
-  color: var(--rl-blue-bkgtextdarker);
+  color: var(--rl-blue-bkgtext);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -74,13 +74,14 @@ h5{
   font-size: 18px;
   margin: 0;
 }
-h6{
-    font-family: 'Roboto';
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: 0.3px;
-    display: inline;
+h6{    font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  display: inline;
+  color: var(--rl-blue-bkgtext);
+  font-style: italic;
 }
 .divContent{
     width: 60%;
@@ -126,12 +127,15 @@ h6{
   border: 3px solid white;
   margin: 1vw;
   flex: 1 1 calc(33.33% - 10px);
-  transition: 0.2s transform ease-in-out;
+  transition: 0.2s transform ease-in-out, 0.2s filter ease-in-out;
   }
 
   .divMecanic:hover{
     cursor: pointer;
     transform: scale(1.1);
+  }
+  .divMecanic.filtered {
+    filter: brightness(0.5);
   }
   .imgMecanic{
     width: -webkit-fill-available;
@@ -154,7 +158,14 @@ h6{
   overflow-y: auto;
 }
 
-
+.divTitleMecanic{
+  min-height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 
   @media only screen and (max-width: 1280px) {

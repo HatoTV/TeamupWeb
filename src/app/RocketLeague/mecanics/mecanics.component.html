@@ -1,14 +1,18 @@
 <app-modal 
-[title]="titleMecanic"
-[video]="videoMecanic"
-[etapes]="etapesMecanic"
-[explication]="explicationMecanic"
+[subname]="subnameModal"
+[title]="titleModal"
+[video]="videoModal"
+[etapes]="etapesModal"
+[explication]="explicationModal"
+[utility]="utilityModal"
+[difficulty]="difficultyModal"
 [showModal]="isModalVisible"
-(closeModalEvent)="closeModal()">
+(closeModalEvent)="closeModal()"
+class="scrollbar-rl">
 </app-modal>
 
 
-<div class="content" #scrollContainer>
+<div class="content scrollbar-rl" #scrollContainer>
   <div class="bkgContent" ></div>
   <img class="imgBkg" src="assets/img/rocketLeague/bkgRocketLeague.jpg" />
   <div class="title">
@@ -91,19 +95,23 @@
     </div>
     <div class="divAllMecanics">
       <div
-        *ngFor="let mecanic of filteredMecanics"
+        *ngFor="let mecanic of filteredMecanics;let i = index"
         class="divMecanic"
-        (click)="openModal(mecanic)"
+        (click)="openModal(mecanic)"        
+        [ngClass]="{ 'filtered': hoverIndex !== null && hoverIndex !== i }" 
+        (mouseenter)="onMouseEnter(i)"
+        (mouseleave)="onMouseLeave()"
       >
         <div>
           <img src="{{ mecanic.img }}" class="imgMecanic" />
-          <div>
+          <div class="divTitleMecanic">
             <h3>{{ mecanic.name }}</h3>
+            <h6 *ngIf="mecanic.subname">{{ mecanic.subname }}</h6>
           </div>
           <div class="divStats">
             <div
               class="divStatsUnique"
-              style="background-color: var(--rl-blue-bkgtextdarker)"
+              [ngStyle]="{'background-color': getBackgroundColorDifficulty(mecanic.difficulty)}"
             >
               <h5
                 [innerHtml]="'RL.MECANICS.DIFFICULTY' | translate | safeHtml"
@@ -120,7 +128,8 @@
                 </span>
               </div>
             </div>
-            <div class="divStatsUnique">
+            <div class="divStatsUnique"
+            [ngStyle]="{'background-color': getBackgroundColorUtility(mecanic.utility)}" style="border-top: 3px solid white;">
               <h5
                 [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"
               ></h5>

@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
 import { ScrollService } from '../../scroll.service';
 import { HttpClient } from '@angular/common/http';
@@ -18,19 +18,21 @@ export class MecanicsComponent {
   constructor(
     private elementRef: ElementRef,
     private scrollService: ScrollService,
-    private http: HttpClient
+    private http: HttpClient,
+    private translate: TranslateService
   ) {}
   @ViewChild('scrollContainer') private scrollContainer!: ElementRef;
   searchTerm: string = '';
   mecanics: {
     name: string;
+    subname: string;
     img: string;
     difficulty: number;
     utility: number;
     isOpen: boolean;
     author: string;
     video: string;
-    etapes: string[];
+    etapes: string;
     explication: string;
   }[] = [];
   stars: number[] = [1, 2, 3, 4, 5];
@@ -108,13 +110,14 @@ export class MecanicsComponent {
 
   filteredMecanics: {
     name: string;
+    subname: string;
     img: string;
     difficulty: number;
     utility: number;
     isOpen: boolean;
     author: string;
     video: string;
-    etapes: string[];
+    etapes: string;
     explication: string;
   }[] = [];
 
@@ -134,44 +137,57 @@ export class MecanicsComponent {
   }
 
   ngOnInit() {
-    this.scrollService.scrollToSection$.subscribe(
-      (sectionId: string | null) => {
-        if (sectionId) {
-          this.scrollToElement(sectionId);
-        }
+    this.scrollService.scrollToSection$.subscribe((sectionId: string | null) => {
+      if (sectionId) {
+        this.scrollToElement(sectionId);
       }
-    );
+    });
+  
     this.http
       .get<
         {
           name: string;
+          subname: string;
           img: string;
           difficulty: number;
           utility: number;
           isOpen: boolean;
           author: string;
           video: string;
-          etapes: string[];
+          etapes: string;
           explication: string;
         }[]
       >('assets/rlMecanics.json')
       .subscribe((data) => {
-        this.mecanics = data
-          .map((item) => ({
-            name: item.name,
-            img: item.img,
-            difficulty: item.difficulty,
-            isOpen: item.isOpen,
-            utility: item.utility,
-            author: item.author,
-            explication: item.explication,
-            video: item.video,
-            etapes: item.etapes,
-          }))
-          .sort((a, b) => a.name.localeCompare(b.name));
+        const mecanicsToTranslate = data.map((item) => ({
+          name: item.name,
+          subname: item.subname,
+          img: item.img,
+          difficulty: item.difficulty,
+          isOpen: item.isOpen,
+          utility: item.utility,
+          author: item.author,
+          video: item.video,
+          explicationKey: item.explication, // Clé pour la traduction de l'explication
+          etapesKey: item.etapes,           // Clé pour la traduction des étapes
+          explication: '', // On initialise avec une chaîne vide
+          etapes: '',      // On initialise avec une chaîne vide
+        }));
+  
+        // Traduire les explications et étapes
+        mecanicsToTranslate.forEach((item) => {
+          this.translate.get([item.explicationKey, item.etapesKey]).subscribe((translations) => {
+            item.explication = translations[item.explicationKey];
+            item.etapes = translations[item.etapesKey];
+          });
+        });
+  
+        // Assigner les résultats traduits
+        this.mecanics = mecanicsToTranslate.sort((a, b) => a.name.localeCompare(b.name));
         this.filteredMecanics = [...this.mecanics];
       });
   }
+  
 
   ngAfterViewInit() {
     const document = this.elementRef.nativeElement.ownerDocument;
@@ -185,6 +201,7 @@ export class MecanicsComponent {
     const uniqueMecanics = new Map<
       string,
       {
+        subname: string;
         name: string;
         img: string;
         difficulty: number;
@@ -192,7 +209,7 @@ export class MecanicsComponent {
         isOpen: boolean;
         author: string;
         video: string;
-        etapes: string[];
+        etapes: string;
         explication: string;
       }
     >();
@@ -207,30 +224,67 @@ export class MecanicsComponent {
   }
 
   isModalVisible: boolean = false;
-  titleMecanic : string = "";
-  videoMecanic : string = "";
-  explicationMecanic : string = "";
-  etapesMecanic : string[] = [];
+  titleModal : string = "";
+  subnameModal : string = "";
+  videoModal : string = "";
+  explicationModal : string = "";
+  utilityModal : number = 0;
+  difficultyModal : number = 0;
+  etapesModal: string[] = [];
 
   openModal(mecanic: {
     name: string;
+    subname: string;
     img: string;
     difficulty: number;
     utility: number;
     isOpen: boolean;
     author: string;
     video: string;
-    etapes: string[];
+    etapes: string;
     explication: string;
   }) {
-    this.titleMecanic=mecanic.name;
-    this.videoMecanic="assets/rlVideos/" + mecanic.video;
-    this.explicationMecanic=mecanic.explication;
-    this.etapesMecanic=[...mecanic.etapes];
+    this.subnameModal=mecanic.subname;
+    this.titleModal=mecanic.name;
+    this.videoModal="assets/rlVideos/" + mecanic.video;
+    this.explicationModal=mecanic.explication;
+    this.etapesModal=mecanic.etapes.split(";");
+    this.utilityModal=mecanic.utility;
+    this.difficultyModal=mecanic.difficulty;
     this.isModalVisible = true;
   }
 
   closeModal() {
     this.isModalVisible = false;
+  }
+  getBackgroundColorDifficulty(value: number): string {
+    if (value == 4 || value == 5) {
+      return '#d94b4b'; // Si la valeur est 4 ou plus, arrière-plan vert
+    } else if (value == 3) {
+      return '#e2ab45'; // Si la valeur est entre 2 et 3, arrière-plan orange
+    } else if (value == 1 || value == 2) {
+      return '#29b169'; // Si la valeur est inférieure à 2, arrière-plan rouge
+    }
+    return 'white'
+  }
+  getBackgroundColorUtility(value: number): string {
+    if (value == 4 || value == 5) {
+      return '#29b169'; // Si la valeur est 4 ou plus, arrière-plan vert
+    } else if (value == 3) {
+      return '#e2ab45'; // Si la valeur est entre 2 et 3, arrière-plan orange
+    } else if (value == 1 || value == 2) {
+      return '#d94b4b'; // Si la valeur est inférieure à 2, arrière-plan rouge
+    }
+    return 'black'
+  }
+
+  hoverIndex: number | null = null;
+
+  onMouseEnter(index: number) {
+    this.hoverIndex = index;
+  }
+
+  onMouseLeave() {
+    this.hoverIndex = null;
   }
 }

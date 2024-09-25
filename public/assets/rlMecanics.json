@@ -14,7 +14,7 @@
      {
          "name": "Ceiling Shot" ,
          "subname": "" ,
-         "img": "assets/img/rocketLeague/minia_pinch.jpg",
+         "img": "assets/img/rocketLeague/minia_ceilingshot.png",
          "difficulty":2,
          "utility":3,
          "isOpen":false,
@@ -26,7 +26,7 @@
       {
           "name": "Fast Aerial" ,
           "subname": "" ,
-          "img": "assets/img/rocketLeague/minia_pinch.jpg",
+          "img": "assets/img/rocketLeague/minia_fastaerial.jpg",
           "difficulty":1,
           "utility":5,
           "isOpen":false,
@@ -38,7 +38,7 @@
        {
            "name": "Wave Dash" ,
            "subname": "" ,
-           "img": "assets/img/rocketLeague/minia_pinch.jpg",
+           "img": "assets/img/rocketLeague/minia_wavedash.jpg",
            "difficulty":2,
            "utility":5,
            "isOpen":false,
@@ -50,9 +50,9 @@
         {
             "name": "Wall to Air Dribble" ,
             "subname": "" ,
-            "img": "assets/img/rocketLeague/minia_pinch.jpg",
+            "img": "assets/img/rocketLeague/minia_walltoairdribble.jpg",
             "difficulty":2,
-            "utility":5,
+            "utility":4,
             "isOpen":false,
             "author":"KOBAA",
             "video":"WallToAirDribble.mp4",
@@ -62,8 +62,8 @@
          {
              "name": "Half Flip" ,
              "subname": "" ,
-             "img": "assets/img/rocketLeague/minia_pinch.jpg",
-             "difficulty":2,
+             "img": "assets/img/rocketLeague/minia_halfflip.jpg",
+             "difficulty":1,
              "utility":5,
              "isOpen":false,
              "author":"Flowfi",
@@ -72,9 +72,9 @@
              "explication": "RL.MECANICS.HALFFLIP_EXPLICATION"
           },
           {
-              "name": "Flick " ,
+              "name": "Flick" ,
               "subname": "(Diagonal Backflip)" ,
-              "img": "assets/img/rocketLeague/minia_pinch.jpg",
+              "img": "assets/img/rocketLeague/minia_flickdiagonalbackflip.png",
               "difficulty":3,
               "utility":5,
               "isOpen":false,
@@ -82,5 +82,17 @@
               "video":"Flick_diagonalBackflip.mp4",
               "etapes":"RL.MECANICS.FLICK_DIAGONALBACKFLIP_STEPS",
               "explication": "RL.MECANICS.FLICK_DIAGONALBACKFLIP_EXPLICATION"
-           }
+           },
+           {
+               "name": "Musty Flick" ,
+               "subname": "" ,
+               "img": "assets/img/rocketLeague/minia_musty.png",
+               "difficulty":3,
+               "utility":4,
+               "isOpen":false,
+               "author":"Flowfi",
+               "video":"MustyFlick.mp4",
+               "etapes":"RL.MECANICS.MUSTYFLICK_STEPS",
+               "explication": "RL.MECANICS.MUSTYFLICK_EXPLICATION"
+            }
 ]

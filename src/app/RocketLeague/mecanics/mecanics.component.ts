@@ -20,7 +20,7 @@ export class MecanicsComponent {
     private scrollService: ScrollService,
     private http: HttpClient,
     private translate: TranslateService
-  ) {}
+  ) { }
   @ViewChild('scrollContainer') private scrollContainer!: ElementRef;
   searchTerm: string = '';
   mecanics: {
@@ -36,37 +36,8 @@ export class MecanicsComponent {
     explication: string;
   }[] = [];
   stars: number[] = [1, 2, 3, 4, 5];
+  isFilterOpen: boolean = false;
   filterOptions = [
-    {
-      id: 'utility1',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 1,
-    },
-    {
-      id: 'utility2',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 2,
-    },
-    {
-      id: 'utility3',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 3,
-    },
-    {
-      id: 'utility4',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 4,
-    },
-    {
-      id: 'utility5',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 5,
-    },
     {
       id: 'difficulty1',
       label: 'RL.MECANICS.DIFFICULTY',
@@ -97,6 +68,36 @@ export class MecanicsComponent {
       selected: false,
       rating: 5,
     },
+    {
+      id: 'utility1',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 1,
+    },
+    {
+      id: 'utility2',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 2,
+    },
+    {
+      id: 'utility3',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 3,
+    },
+    {
+      id: 'utility4',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 4,
+    },
+    {
+      id: 'utility5',
+      label: 'RL.MECANICS.UTILITY',
+      selected: false,
+      rating: 5,
+    }
   ];
 
   toggleSelection(option: any) {
@@ -142,7 +143,7 @@ export class MecanicsComponent {
         this.scrollToElement(sectionId);
       }
     });
-  
+
     this.http
       .get<
         {
@@ -173,7 +174,7 @@ export class MecanicsComponent {
           explication: '', // On initialise avec une chaîne vide
           etapes: '',      // On initialise avec une chaîne vide
         }));
-  
+
         // Traduire les explications et étapes
         mecanicsToTranslate.forEach((item) => {
           this.translate.get([item.explicationKey, item.etapesKey]).subscribe((translations) => {
@@ -181,13 +182,13 @@ export class MecanicsComponent {
             item.etapes = translations[item.etapesKey];
           });
         });
-  
+
         // Assigner les résultats traduits
         this.mecanics = mecanicsToTranslate.sort((a, b) => a.name.localeCompare(b.name));
         this.filteredMecanics = [...this.mecanics];
       });
   }
-  
+
 
   ngAfterViewInit() {
     const document = this.elementRef.nativeElement.ownerDocument;
@@ -220,16 +221,17 @@ export class MecanicsComponent {
       }
     });
 
-    this.filteredMecanics = Array.from(uniqueMecanics.values());
+    if (this.searchTerm != '') this.filteredMecanics = Array.from(uniqueMecanics.values());
+    else this.filteredMecanics = [...this.mecanics];
   }
 
   isModalVisible: boolean = false;
-  titleModal : string = "";
-  subnameModal : string = "";
-  videoModal : string = "";
-  explicationModal : string = "";
-  utilityModal : number = 0;
-  difficultyModal : number = 0;
+  titleModal: string = "";
+  subnameModal: string = "";
+  videoModal: string = "";
+  explicationModal: string = "";
+  utilityModal: number = 0;
+  difficultyModal: number = 0;
   etapesModal: string[] = [];
 
   openModal(mecanic: {
@@ -244,13 +246,13 @@ export class MecanicsComponent {
     etapes: string;
     explication: string;
   }) {
-    this.subnameModal=mecanic.subname;
-    this.titleModal=mecanic.name;
-    this.videoModal="assets/rlVideos/" + mecanic.video;
-    this.explicationModal=mecanic.explication;
-    this.etapesModal=mecanic.etapes.split(";");
-    this.utilityModal=mecanic.utility;
-    this.difficultyModal=mecanic.difficulty;
+    this.subnameModal = mecanic.subname;
+    this.titleModal = mecanic.name;
+    this.videoModal = "assets/rlVideos/" + mecanic.video;
+    this.explicationModal = mecanic.explication;
+    this.etapesModal = mecanic.etapes.split(";");
+    this.utilityModal = mecanic.utility;
+    this.difficultyModal = mecanic.difficulty;
     this.isModalVisible = true;
   }
 
@@ -286,5 +288,71 @@ export class MecanicsComponent {
 
   onMouseLeave() {
     this.hoverIndex = null;
+  }
+
+  openFilters() {
+    this.isFilterOpen = !this.isFilterOpen
+  }
+
+  onFilterChange() {
+    // Récupérer les difficultés sélectionnées
+    const selectedDifficulties = this.filterOptions
+      .filter(option => option.id.includes('difficulty') && option.selected)
+      .map(option => option.rating);
+
+    // Récupérer les utilities sélectionnées
+    const selectedUtilities = this.filterOptions
+      .filter(option => option.id.includes('utility') && option.selected)
+      .map(option => option.rating);
+
+    this.filterMecanics();
+
+    if (selectedDifficulties.length > 0 && selectedUtilities.length == 0) {
+      // Filtrer les mécaniques en fonction des difficultés sélectionnées
+      this.filteredMecanics = this.filteredMecanics.filter(mechanic =>
+        selectedDifficulties.includes(mechanic.difficulty)
+      );
+    }
+    else if (selectedDifficulties.length == 0 && selectedUtilities.length > 0) {
+      // Filtrer les mécaniques en fonction des difficultés sélectionnées
+      this.filteredMecanics = this.filteredMecanics.filter(mechanic =>
+        selectedUtilities.includes(mechanic.utility)
+      );
+    }
+    else if (selectedDifficulties.length > 0 && selectedUtilities.length > 0) {
+      // Filtrer les mécaniques en fonction des difficultés sélectionnées
+      this.filteredMecanics = this.filteredMecanics.filter(mechanic =>
+        selectedDifficulties.includes(mechanic.difficulty) && selectedUtilities.includes(mechanic.utility)
+      );
+    }
+    this.sortMecanics(); // Appeler la méthode de tri après le filtrage
+  }
+
+  sortCriteria: string = 'alphabet_asc'; // Critère par défaut
+
+  // Liste des options de tri
+  sortOptions = [
+    { id: 'alphabet_asc', label: 'RL.MECANICS.NAME_ASC' },
+    { id: 'difficulty_asc', label: 'RL.MECANICS.DIFFICULTY_ASC' },
+    { id: 'utility_asc', label: 'RL.MECANICS.UTILITY_ASC' },
+    { id: 'alphabet_desc', label: 'RL.MECANICS.NAME_DESC' }, // Nouvelle option pour le tri décroissant par nom
+    { id: 'difficulty_desc', label: 'RL.MECANICS.DIFFICULTY_DESC' }, // Nouvelle option pour le tri décroissant par difficulté
+    { id: 'utility_desc', label: 'RL.MECANICS.UTILITY_DESC' } 
+  ];
+
+  sortMecanics() {
+    if (this.sortCriteria === 'alphabet_asc') {
+      this.filteredMecanics.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (this.sortCriteria === 'difficulty_asc') {
+      this.filteredMecanics.sort((a, b) => a.difficulty - b.difficulty);
+    } else if (this.sortCriteria === 'utility_asc') {
+      this.filteredMecanics.sort((a, b) => a.utility - b.utility);
+    } else if (this.sortCriteria === 'alphabet_desc') {
+      this.filteredMecanics.sort((a, b) => b.name.localeCompare(a.name));
+    } else if (this.sortCriteria === 'difficulty_desc') {
+      this.filteredMecanics.sort((a, b) => b.difficulty - a.difficulty);
+    } else if (this.sortCriteria === 'utility_desc') {
+      this.filteredMecanics.sort((a, b) => b.utility - a.utility);
+    }
   }
 }

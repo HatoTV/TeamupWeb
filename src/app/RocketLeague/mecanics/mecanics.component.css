@@ -104,11 +104,12 @@ h6{    font-family: "Roboto";
 }
 
   .inputSearch{
-      height:55px;
-      z-index: 6;
-      position: relative;
-      border:0;
-      width: 30%;
+    height: 55px;
+    z-index: 6;
+    position: relative;
+    border: 0;
+    font-family: 'Roboto';
+    font-weight: 300;
   }
   
   .divStatsUnique{
@@ -143,7 +144,7 @@ h6{    font-family: "Roboto";
     height: 160px;
   }
   .divAllMecanics{
-    margin-top: 100px;
+    margin-top: 30px;
     display: flex;  
     flex-wrap: wrap;
     justify-content: center;
@@ -153,9 +154,23 @@ h6{    font-family: "Roboto";
   align-items: center;
   justify-content: center;
 }
-.dropdown-menu {
-  max-height: 200px;
-  overflow-y: auto;
+.filter-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.form-check-label {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.divFiltersCheck{
+  display: flex;
+  justify-content: space-around;
 }
 
 .divTitleMecanic{
@@ -166,7 +181,79 @@ h6{    font-family: "Roboto";
   align-items: center;
   flex-direction: column;
 }
+.titleFilter{
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+}
 
+.txtNoMecanic{
+  text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.fade {
+  max-height: 300px;
+  transition:  max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.fade-out {
+  max-height: 0px;
+  opacity: 0;
+}
+
+.btnFilter{
+  height: 55px;
+  width: 75px;
+  margin-left: 20px;
+  border: 0;
+  border-radius: var(--bs-border-radius);
+  font-family: 'Roboto';
+  font-weight: 400;
+  transition : color 0.2s ease-in-out, background-color 0.2s ease-in-out, border 0.2s ease-in-out;
+}
+
+.btnFilterBkg:hover{
+  background-color: var(--rl-blue-bkgtexthover);
+}
+
+.btnFilterBkg{
+  background-color: var(--rl-blue-bkgtext);
+  border: 0;
+  color: white;
+}
+
+.btnFilterBkgOpen{
+  color: var(--rl-blue-bkgtext);
+  border: 3px solid var(--rl-blue-bkgtext);
+  background-color: white;
+}
+
+.btnFilterBkgOpen:hover{
+  background-color: rgb(237, 237, 237);
+}
+
+.txtFilter{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 3%;
+  top: 50%; /* Centre l'icône verticalement */
+  transform: translateY(-50%); /* Ajuste la position pour le centrer */
+  color: rgba(0, 0, 0, 0.3); /* Couleur de l'icône */
+  pointer-events: none; /* Empêche l'icône de capturer les clics */
+  z-index: 7;
+}
 
   @media only screen and (max-width: 1280px) {
     .content{

@@ -419,8 +419,15 @@ opacity: 0;
     font-family: 'Roboto Condensed';
     font-weight: 400;
 }
-
-
+.search-icon {
+    position: absolute;
+    right: 3%;
+    top: 50%; /* Centre l'icône verticalement */
+    transform: translateY(-50%); /* Ajuste la position pour le centrer */
+    color: rgba(0, 0, 0, 0.3); /* Couleur de l'icône */
+    pointer-events: none; /* Empêche l'icône de capturer les clics */
+    z-index: 7;
+  }
 @media only screen and (max-width: 1280px) {
     .content{
         position: relative;

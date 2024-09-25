@@ -19,8 +19,13 @@
         <img *ngIf="selectedChampion[0].name!==''" [src]="
             'assets/img/championsIcons/' + selectedChampion[0].icon + '.png'
           " alt="{{ selectedChampion[0].name }}" class="iconSelectedChampions" />
-        <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.YOURCHAMPION' | translate"
-          [(ngModel)]="searchTerm" (input)="filterChampions()" />
+        <div style="position: relative;width: 100%;">
+          <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.YOURCHAMPION' | translate"
+            [(ngModel)]="searchTerm" (input)="filterChampions()" />
+          <span class="search-icon">
+            <i class="fa fa-search"></i>
+          </span>
+        </div>
       </div>
       <!-- Dropdown list -->
       <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm && searchTerm!==selectedChampion[0].name">
@@ -53,8 +58,13 @@
         <img *ngIf="selectedChampion2[0].name!==''" [src]="
             'assets/img/championsIcons/' + selectedChampion2[0].icon + '.png'
           " alt="{{ selectedChampion2[0].name }}" class="iconSelectedChampions" />
-        <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.ENEMYCHAMPION' | translate"
-          [(ngModel)]="searchTerm2" (input)="filterChampions2()" />
+        <div style="position: relative;width: 100%;">
+          <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.ENEMYCHAMPION' | translate"
+            [(ngModel)]="searchTerm2" (input)="filterChampions2()" />
+          <span class="search-icon">
+            <i class="fa fa-search"></i>
+          </span>
+        </div>
       </div>
       <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm2 && searchTerm2!==selectedChampion2[0].name">
         <div *ngIf="filteredChampions2.length == 0 && !selectedChampion2">
@@ -73,11 +83,11 @@
   <div [ngClass]="{ 'fade-out-content': isVisible, 'fade-in-content': !isVisible }" class="fade-content">
     <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2">
       <div class="divTitleMatchup divContent" style="margin-top: 50px">
-          <span *ngIf="isMatchupReady" class="txtDifficulty"
-            [ngStyle]="styleByDifficulty(filteredMatchup[0].difficulty.toLowerCase(),true)">{{
-            "LOL.MATCHUPS.DIFFICULTIES." + filteredMatchup[0].difficulty
-            | translate
-            }}</span>
+        <span *ngIf="isMatchupReady" class="txtDifficulty"
+          [ngStyle]="styleByDifficulty(filteredMatchup[0].difficulty.toLowerCase(),true)">{{
+          "LOL.MATCHUPS.DIFFICULTIES." + filteredMatchup[0].difficulty
+          | translate
+          }}</span>
         <div style="display:flex;">
           <h3>{{ selectedChampion[0].name }}</h3>
           <h3 style="color: var(--lol-light-color)">&nbsp;VS&nbsp;</h3>
@@ -165,65 +175,67 @@
           </div>
         </div>
 
-      <div class="right">
-        <div style="margin-right: 2vw;" class="contentPick">
-          <div style="display: flex;background-color: var(--lol-counter-title);align-items: center;">
-            <div style="width: 8px;height: 30px;background-color: var(--lol-difficulty-tresfacile);margin-left: 10px;">
+        <div class="right">
+          <div style="margin-right: 2vw;" class="contentPick">
+            <div style="display: flex;background-color: var(--lol-counter-title);align-items: center;">
+              <div
+                style="width: 8px;height: 30px;background-color: var(--lol-difficulty-tresfacile);margin-left: 10px;">
+              </div>
+              <div class="titleCounter">
+                {{ "LOL.MATCHUPS.WORSTPICKAGAINST" | translate }}&nbsp;{{
+                selectedChampion2[0].name
+                }}</div>
             </div>
-            <div class="titleCounter">
-              {{ "LOL.MATCHUPS.WORSTPICKAGAINST" | translate }}&nbsp;{{
-              selectedChampion2[0].name
-              }}</div>
-          </div>
-          <div class="divCountersContent">
-            <div *ngFor="let champion of worstPicksForChampion2" class="divCountersChampions">
-              <img [src]="
+            <div class="divCountersContent">
+              <div *ngFor="let champion of worstPicksForChampion2" class="divCountersChampions">
+                <img [src]="
                         'assets/img/championsIcons/' +
                         getValidChampionName(champion.championName2) +
                         '.png'
                       " alt="{{ champion.championName2 }}" class="iconChampions" />
-              <div>
-                <div class="championCounterName">
-                  {{ champion.championName2 }}
-                </div>
-                <div class="championCounterDifficulty"
-                  [ngStyle]="styleByDifficulty(champion.difficulty.toLowerCase(),false)">
-                  {{
-                  "LOL.MATCHUPS.DIFFICULTIES." + champion.difficulty
-                  | translate
-                  }}
+                <div>
+                  <div class="championCounterName">
+                    {{ champion.championName2 }}
+                  </div>
+                  <div class="championCounterDifficulty"
+                    [ngStyle]="styleByDifficulty(champion.difficulty.toLowerCase(),false)">
+                    {{
+                    "LOL.MATCHUPS.DIFFICULTIES." + champion.difficulty
+                    | translate
+                    }}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="contentPick">
-          <div style="display: flex;background-color: var(--lol-counter-title);align-items: center;">
-            <div style="width: 8px;height: 30px;background-color: var(--lol-difficulty-extreme);margin-left: 10px;">
+          <div class="contentPick">
+            <div style="display: flex;background-color: var(--lol-counter-title);align-items: center;">
+              <div style="width: 8px;height: 30px;background-color: var(--lol-difficulty-extreme);margin-left: 10px;">
+              </div>
+              <div class="titleCounter">
+                {{ "LOL.MATCHUPS.BESTPICKAGAINST" | translate }}&nbsp;{{
+                selectedChampion2[0].name
+                }}
+              </div>
             </div>
-            <div class="titleCounter">
-              {{ "LOL.MATCHUPS.BESTPICKAGAINST" | translate }}&nbsp;{{
-              selectedChampion2[0].name
-              }}
-            </div>
-          </div>
-          <div class="divCountersContent">
-            <div *ngFor="let champion of bestPicksForChampion2" class="divCountersChampions">
-              <img [src]="
+            <div class="divCountersContent">
+              <div *ngFor="let champion of bestPicksForChampion2" class="divCountersChampions">
+                <img [src]="
                         'assets/img/championsIcons/' +
                         getValidChampionName(champion.championName2) +
                         '.png'
                       " alt="{{ champion.championName2 }}" class="iconChampions" />
-              <div>
-                <div class="championCounterName">
-                  {{ champion.championName2 }}
-                </div>
-                <div class="championCounterDifficulty"
-                  [ngStyle]="styleByDifficulty(champion.difficulty.toLowerCase(),false)">
-                  {{
-                  "LOL.MATCHUPS.DIFFICULTIES." + champion.difficulty
-                  | translate
-                  }}
+                <div>
+                  <div class="championCounterName">
+                    {{ champion.championName2 }}
+                  </div>
+                  <div class="championCounterDifficulty"
+                    [ngStyle]="styleByDifficulty(champion.difficulty.toLowerCase(),false)">
+                    {{
+                    "LOL.MATCHUPS.DIFFICULTIES." + champion.difficulty
+                    | translate
+                    }}
+                  </div>
                 </div>
               </div>
             </div>
@@ -231,4 +243,3 @@
         </div>
       </div>
     </div>
-  </div>

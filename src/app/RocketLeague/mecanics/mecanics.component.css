@@ -129,6 +129,7 @@ h6{    font-family: "Roboto";
   margin: 1vw;
   flex: 1 1 calc(33.33% - 10px);
   transition: 0.2s transform ease-in-out, 0.2s filter ease-in-out;
+  z-index: 9;
   }
 
   .divMecanic:hover{

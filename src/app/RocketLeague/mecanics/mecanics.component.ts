@@ -158,7 +158,7 @@ export class MecanicsComponent {
           etapes: string;
           explication: string;
         }[]
-      >('assets/rlMecanics.json')
+      >('assets/rlmecanics.json')
       .subscribe((data) => {
         const mecanicsToTranslate = data.map((item) => ({
           name: item.name,

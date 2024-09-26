@@ -428,6 +428,15 @@ opacity: 0;
     pointer-events: none; /* Empêche l'icône de capturer les clics */
     z-index: 7;
   }
+
+  .inputWithIcon {
+    padding-left: 65px; /* Espace suffisant pour l'image */
+  }
+  
+  .iconInsideInput {
+    position: absolute;
+    z-index: 11;
+  }
 @media only screen and (max-width: 1280px) {
     .content{
         position: relative;

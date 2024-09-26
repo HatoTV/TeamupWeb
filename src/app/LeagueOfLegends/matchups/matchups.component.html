@@ -18,10 +18,10 @@
         <!-- Barre de recherche avec image + texte -->
         <img *ngIf="selectedChampion[0].name!==''" [src]="
             'assets/img/championsIcons/' + selectedChampion[0].icon + '.png'
-          " alt="{{ selectedChampion[0].name }}" class="iconSelectedChampions" />
+          " alt="{{ selectedChampion[0].name }}" class="iconSelectedChampions iconInsideInput" />
         <div style="position: relative;width: 100%;">
           <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.YOURCHAMPION' | translate"
-            [(ngModel)]="searchTerm" (input)="filterChampions()" />
+            [(ngModel)]="searchTerm" (input)="filterChampions()" [ngClass]="{'inputWithIcon': selectedChampion[0].name !== ''}"  />
           <span class="search-icon">
             <i class="fa fa-search"></i>
           </span>
@@ -57,10 +57,10 @@
       <div class="input-group divChoice">
         <img *ngIf="selectedChampion2[0].name!==''" [src]="
             'assets/img/championsIcons/' + selectedChampion2[0].icon + '.png'
-          " alt="{{ selectedChampion2[0].name }}" class="iconSelectedChampions" />
+          " alt="{{ selectedChampion2[0].name }}" class="iconSelectedChampions iconInsideInput" />
         <div style="position: relative;width: 100%;">
           <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.ENEMYCHAMPION' | translate"
-            [(ngModel)]="searchTerm2" (input)="filterChampions2()" />
+            [(ngModel)]="searchTerm2" (input)="filterChampions2()" [ngClass]="{'inputWithIcon': selectedChampion2[0].name !== ''}" />
           <span class="search-icon">
             <i class="fa fa-search"></i>
           </span>

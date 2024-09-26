@@ -119,8 +119,8 @@ export class MatchupsComponent {
     selectedChampion2: string
   ) {
     try {
-      let urlJson = 'assets/jsonDatas/' + selectedChampion1 + '.json';
-      let urlJson2 = 'assets/jsonDatas/' + selectedChampion2 + '.json';
+      let urlJson = 'assets/jsonDatas/' + this.getValidChampionName(selectedChampion1) + '.json';
+      let urlJson2 = 'assets/jsonDatas/' + this.getValidChampionName(selectedChampion2) + '.json';
       const dataChampions1 = await lastValueFrom(this.http.get<any[]>(urlJson));
       const dataChampions2 = await lastValueFrom(
         this.http.get<any[]>(urlJson2)
@@ -374,6 +374,7 @@ export class MatchupsComponent {
   }
 
   formatText(input: string): string {
+    console.log(input)
     // Remplace les séparateurs (|) par des retours à la ligne
     let formattedText = input.replace(/\s*\|\s*/g, '\n');
 

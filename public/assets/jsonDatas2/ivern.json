@@ -1,0 +1,2305 @@
+[
+    {
+        "championName": "Aatrox",
+        "difficulty": "Even",
+        "idmatchup": 1,
+        "tips": " | Shield who he goes on, especially if he lands W on them. A bit more difficult to peel off compared to other fighters since his combos aren't very effected by slows. | His R also fears Daisy for 3 seconds, which you should be wary of when ganking him. It can be a pain to deal with if the Aatrox player is aware of this interaction, but 99% of them aren't.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ahri",
+        "difficulty": "Even",
+        "idmatchup": 2,
+        "tips": " | Can be tough to gank. Also can enable the enemy jungler to look for more aggressive invades on you. | Use Daisy to block her charm in fights.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Akali",
+        "difficulty": "Minor",
+        "idmatchup": 3,
+        "tips": " | Can drop Daisy aggro with shroud, and is difficult to land any CC on. | However, she is still an AP assassin who can't buy serpents fang, so Ivern hard counters her.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Akshan",
+        "difficulty": "Major",
+        "idmatchup": 4,
+        "tips": " | Very difficult to gank. His Q grants vision, making him more difficult to stop with bushes compared to other marksmen. He's also difficult to chase with Daisy due to his W (since only nearby champions can reveal him, not Daisy). | However, he is still a single target champion so you can easily shield who he's targeting.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Alistar",
+        "difficulty": "Even",
+        "idmatchup": 5,
+        "tips": " | Ivern is good at playing anti-engage. If your team can bait out Alistar's engage, it's easy to protect your allies and then punish with CC. | Since he's good at roaming, it's important to be careful of when he's off map as he can assist his jungler to control your side of the map and force you out. | Difficult to chase down with Daisy, who just gets headbutted away.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Amumu",
+        "difficulty": "Even",
+        "idmatchup": 6,
+        "tips": " | Ivern is generally good at anti-engage, but it can get tricky if you get caught in Amumu R. If you know you'll get hit, make sure to shield preemptively since you won't be able to while stunned. | If you aren't included in his ult, you can use that time to peel the afflicted teammates. | I put Amumu's threat level at even, but it goes up or down based on his team comp. Generally more AOE followup = bigger threat.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Anivia",
+        "difficulty": "Major",
+        "idmatchup": 7,
+        "tips": " | Hard to gank. Her Q/W/R counter Daisy, and she usually has enough damage to prevent your 2nd shield from triggering, making her tricky to protect allies from.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Annie",
+        "difficulty": "Even",
+        "idmatchup": 8,
+        "tips": " | If the Annie player is good, she will look for angles off vision to surprise you with an R stun. Getting caught in a stun means you can't shield, so this poses a serious threat. Respect her when she has flash up.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Aphelios",
+        "difficulty": "Minor",
+        "idmatchup": 9,
+        "tips": " | Gravitum and Infernum are harder to deal with than the other guns. Gravitum makes him difficult to get Daisy on, and Infernum makes him deal AOE damage. | His other guns are single target damage and therefore easy to protect from.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ashe",
+        "difficulty": "Major",
+        "idmatchup": 10,
+        "tips": " | Ashe herself is hardly a problem for Ivern. She can be easily locked down with Daisy, and is almost completely single target DPS. | The reason she's a major threat instead of tiny is because of her Hawkshot, which can completely screw Ivern over. She can reveal information on which camps Ivern has groves on, which makes his next moves painfully predictable. A smart Ashe player can negate Ivern's entire early game. | She can also use Hawkshot on Ivern's bush walls in a large objective fight, which significantly weakens his effectiveness. | If her ult hits one of your allies, make sure to quickly bush them. It not only stops targeted abilities, but it also hides them from members of the enemy team who didn't notice it.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Aurelion Sol",
+        "difficulty": "Extreme",
+        "idmatchup": 11,
+        "tips": " | Asol's E completely immobilizes Daisy, since it sets all minion and monster's movement speed to 0. His R stun is also very difficult to escape as Ivern, forcing you to shield somebody preemptively and hoping for the best. | If he gets fed, there isn't much you can do as Ivern. Your best option is to look for a root on him during his Q, but even that is pretty inconsistent.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Azir",
+        "difficulty": "Major",
+        "idmatchup": 12,
+        "tips": " | Very difficult to gank, and is also a pain to teamfight into. Azir's ult makes it difficult to peel for allies hit, even if you don't get hit by it yourself. | Your best option vs Azir is to be on objectives first and set up bushes, which will make it harder for him to find the right angle.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Bard",
+        "difficulty": "Even",
+        "idmatchup": 13,
+        "tips": " | Bard can be difficult because he's an excellent roamer who can force a split-map situation where Ivern is forced away from the side that Bard and his jungler are ganking. | He is also difficult to chase with Daisy since she can't go through his portals.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Bel'Veth",
+        "difficulty": "Major",
+        "idmatchup": 14,
+        "tips": " | Bel'veth is very strong into Ivern due to her slipperiness. It's very difficult to land Q on her, even while she's slowed due to her abundance of dashes. Even if you land root, it has to be before she gets close or she can just cast E while rooted. | Ivern has no real way to stop her from landing W on him, and hitting Q on her during her W cast animation does nothing, as she will just dash into you right after. | Ivern also gets hard outfarmed by Bel'Veth as the game goes on further.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Blitzcrank",
+        "difficulty": "Tiny",
+        "idmatchup": 15,
+        "tips": " | Hook champion. Put Daisy between him and your team and he can't play the game.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Brand",
+        "difficulty": "Major",
+        "idmatchup": 16,
+        "tips": " | AOE mage that doesn't mind dying, which is terrible news for Ivern. You can only really mitigate a small amount of his damage in a fight. CCing him in a teamfight does very little.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Braum",
+        "difficulty": "Even",
+        "idmatchup": 17,
+        "tips": " | Makes botlane difficult to gank. If he gets a stack of his passive on Daisy, make sure to command her to run away or she'll get stunned and killed very quickly.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Briar",
+        "difficulty": "Minor",
+        "idmatchup": 18,
+        "tips": " | She's forced to commit onto a single target, which makes the decision of who to shield very easy. Also is weak against Ivern's CC. | If she goes on you while you have Daisy up, it's basically a free kill. Cast R and E as she's about to Q you, and make sure to move Daisy out of her E when she casts it. After that, there is no further counterplay for Briar and she just dies.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Caitlyn",
+        "difficulty": "Even",
+        "idmatchup": 19,
+        "tips": " | She can place traps in your bush walls which is super annoying, but other than that she's pretty easy to deal with. Being a long range auto attacker, her DPS can be significantly stunted by placing bushes on her targets.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Camille",
+        "difficulty": "Minor",
+        "idmatchup": 20,
+        "tips": " | Most of Camille's damage can be easily shielded. If she Es in, shielding her target will not only stop her damage, but also slow her preventing her from running out using her Q movement speed. | The only threat that Camille can create is through split pushing. If she gets strong enough, the enemy team can avoid taking even-numbers teamfights, making Ivern less effective.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Cassiopeia",
+        "difficulty": "Minor",
+        "idmatchup": 21,
+        "tips": " | Despite what you might think, Cassiopeia Q does not grant vision. This means that if you place a bush on whoever she's attacking, she has no way to continue damaging them. Once you figure this out, Cass becomes incredibly easy to deal with. | She's also pretty easy to chase down with Daisy, since her Q only grants movement speed when it hits a champion, and not Daisy.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Cho'Gath",
+        "difficulty": "Major",
+        "idmatchup": 22,
+        "tips": " | Instantly eats Daisy from almost 100% health until around level 13. Can set up or extend CC with very low commitment, making him much more difficult to punish than other tanks. The silence is also very dangerous for Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Corki",
+        "difficulty": "Major",
+        "idmatchup": 23,
+        "tips": " | Package makes objective fights very difficult, even with strong bush setups. His package W can create a lot of chaos in a fight, making Ivern's job much more difficult. His Q also reveals Ivern's bushes. | Corki can be difficult to gank, since he doesn't usually use W for anything other than escape.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Darius",
+        "difficulty": "Tiny",
+        "idmatchup": 24,
+        "tips": " | Darius is vulnerable to all 3 of Ivern's CC abilities, and also gets his resets disrupted by shields. Very easy champion to protect your team from. | The only real threat Darius poses is from a sidelane, since he can avoid having to deal with Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Diana",
+        "difficulty": "Even",
+        "idmatchup": 25,
+        "tips": " | Can be difficult for Ivern if you get caught in her R, but if you have Flash or Zhonyas, it's a lot easier to avoid. | The main issue with Diana comes from the jungle matchup. She clears very quickly and can easily punish Ivern if he leaves camps up. This is one of the jungle matchups where you're bound to be down 80+ cs at 25 mins in.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Dr. Mundo",
+        "difficulty": "Minor",
+        "idmatchup": 26,
+        "tips": " | Mundo is a good weaksider, and is difficult for Ivern to gank. This is a problem if the enemy jungler forces you to play towards topside, but otherwise doesn't matter that much as you can ignore top. | As long as your team drafted sufficient damage, Mundo is not an issue.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Draven",
+        "difficulty": "Major",
+        "idmatchup": 27,
+        "tips": " | Hard to lock down with Daisy due to his W and E. Draven is also one of the champions who has enough damage early to easily kill Daisy. | If you're not too far behind and Draven isn't too far ahead, you can keep allies alive with shields alone. However, it's very easy for Draven to get out of control, and at that point you can't do much as Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ekko",
+        "difficulty": "Minor",
+        "idmatchup": 28,
+        "tips": " | Doesn't have the CC or damage to deal with Daisy, so he never wins 1v1 against Ivern post 6 unless very ahead. | Ekko is also an AP assassin, meaning that he can't buy serpents. This makes him very easy to neutralize with shields.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Elise",
+        "difficulty": "Major",
+        "idmatchup": 29,
+        "tips": " | Very strong early game jungler who has a lot of options to punish Ivern with. Elise also doesn't mind getting her camps stolen as much as other junglers, so she's a lot harder to predict and countergank. | She also is much more difficult to countergank as she commits very late into her ganks (only vulnerable after she uses E). The best timing to counter her on is when she goes for dives, since keeping your teammate alive even a little bit longer makes a big difference.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Evelynn",
+        "difficulty": "Even",
+        "idmatchup": 30,
+        "tips": " | Extremely free early game. If you can create enough advantages during the first 7 minutes of the game, it's a very easy matchup. If not, Eve will have opportunities to snowball and take over the game. | Once Evelynn gets snowballing, it becomes very difficult to track and countergank her. If done poorly, you can waste a lot of time hovering nothing while Evelynn gets value somewhere else.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ezreal",
+        "difficulty": "Minor",
+        "idmatchup": 31,
+        "tips": " | Can be tricky to deal with due to his range. Ezreal can also safely attack Daisy from far away, making her much less useful as a zoning tool. | One of Ezreal's main strengths is as a weaksider, since he can safely thin waves to avoid getting dove. Ivern can sidestep this by using Daisy to tank the tower instead of needing a wave to set up the dive. Abuse this if the enemy support tries to roam under the assumption that their Ezreal is safe.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Fiddlesticks",
+        "difficulty": "Extreme",
+        "idmatchup": 32,
+        "tips": " | Massively outfarms Ivern while being extremely difficult to countergank or punish in any way. Fiddlesticks is also tough to deal with mid-late game due to his ult's unexpected nature. If you get caught in his fear, you won't be able to shield anyone until after it ends, which is enough time for Fiddle to have already won the teamfight. | During objective fights, Ivern can't effectively use bush walls, since Fiddle can just ult into them. | Your best chance vs Fiddle is to use W in places where he might be before a fight in hopes of spotting him.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Fiora",
+        "difficulty": "Major",
+        "idmatchup": 33,
+        "tips": " | Scary split pusher. If Fiora gets strong enough and her team plays around her, they can avoid team fighting into you, making your job much more difficult. | Ivern's hard CC is also very telegraphed (especially Daisy knockup), making them easily parried by W. This makes her tricky to gank or skirmish into.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Fizz",
+        "difficulty": "Even",
+        "idmatchup": 34,
+        "tips": " | Impossible to gank while he has abilities up, but free if you can predict his all-in. A good Fizz will use this to their advantage by wasting your time pressuring an all-in without going for it. | Despite being slippery and hard to lock down, he's still an AP assassin who can't buy serpents, so shields are highly effective vs him.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Galio",
+        "difficulty": "Even",
+        "idmatchup": 35,
+        "tips": " | Difficulty rating can go up or down depending on who his jungler is. If it's a difficult matchup such as Kindred or Graves, Galio will make it all the more difficult by assisting them. If it's an easy matchup, Galio won't do much. | Galio is a champion who thrives off of 2v2s with his jungler and Ivern likes 2v2ing with his mid laner, so Ivern vs Galio is mostly a matter of which team wins the 2v2. | Make sure to be careful when taking extended fights top/bot, since Galio can ult in and ruin the play if you overcommit.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gangplank",
+        "difficulty": "Even",
+        "idmatchup": 36,
+        "tips": " | Extremely vulnerable to Daisy, being a melee champion with no CC or mobility. Even if he Ws off your E slow, you still can root him or use Daisy's knockup. For this reason, you dont even need to have gold to kill GP, so you can just walk into sidelane and beat him up whenever you want. | GP only poses a threat later on since he can apply the melee 50% shield cut on Serpent's Fang on an aoe scale with barrels and ult.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Garen",
+        "difficulty": "Major",
+        "idmatchup": 37,
+        "tips": " | Very easy to deal with in a teamfight, but nobody really plays Garen to teamfight. | As a strong split pusher, he can deny your opportunities to teamfight as Ivern, making him a significant threat. | Garen's Q also cleanses all slows, making him hard to catch with E, and his W tenacity decreases the duration of your Q.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gnar",
+        "difficulty": "Even",
+        "idmatchup": 38,
+        "tips": " | Gnar's hard engage can be tricky since it can't reliably be stopped with CC and he stuns and displaces multiple people. However, if you don't get caught in his R, you can still peel your team. | Redemption is very good against Gnar, since you can layer it on top of his combo in a teamfight.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gragas",
+        "difficulty": "Even",
+        "idmatchup": 39,
+        "tips": " | Gragas' body slam can be blocked by Daisy. This is slightly less practical than blocking hook champions since you expose Daisy to a lot more danger, but it can still singlehandedly win fights, especially if they're on a smaller scale such as 2v2 or 3v3. | Gragas' threat level is hard to quantify due to the vast amounts of ways he can be played. Here's a quick list: | [Mage Mid] - can be difficult to gank, which is a problem for Ivern. 3/5 | [Tank Top] - just ignore his lane. He wants to teamfight anyways, so this just plays into your hands. 2/5 | [Assassin Jungle] - Skill matchup. Slightly Ivern favored, but if Gragas can get a lead early without Ivern countering, there isn't a lot that Ivern will be able to do. If Ivern is able to match his ganks early, the matchup isn't difficult at all. 3/5 | [Support] - If he plays for roaming, it's a similar situation as Alistar or Bard where he can force Ivern into unfavorable paths. 4/5",
+        "tipsFr": null
+    },
+    {
+        "championName": "Graves",
+        "difficulty": "Extreme",
+        "idmatchup": 40,
+        "tips": " | Graves counters Ivern on many levels. | His basic attacks knock Daisy back and apply a bit of hitstun, which makes controlling her near impossible. This is made worse by the fact that pet controls bug out often during displacement, which makes you have to know weird input tech to regain control of her. | He's an aggressive invade jungler who can punish Ivern's early clear, especially with things like late invades/vertical jungle. | He's also difficult to countergank, since he doesn't hard commit at the start of a gank like many other junglers do. | Ward the baron pit on blue team and dragon pit on red team level 1. This will prevent Graves from Eing over the wall after taking Red to steal your grove camps.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gwen",
+        "difficulty": "Even",
+        "idmatchup": 41,
+        "tips": " | Splitpush champion who can avoid teamfighting into Ivern. However, she is a lot easier to gank compared to other top laners. | Daisy can attack Gwen from inside her shroud and even deliver Ivern's E pop, even while Ivern himself isn't in the shroud.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Hecarim",
+        "difficulty": "Minor",
+        "idmatchup": 42,
+        "tips": " | Certain assassin builds can mess with Ivern, and you also run the risk of getting majorly outfarmed. | That being said, Ivern is still a natural counter to Hecarim, being a champion who can shield an engage into a slow and a bunch of CC. | If he's chasing someone, use bushes so he can't dash onto them with his E.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Heimerdinger",
+        "difficulty": "Extreme",
+        "idmatchup": 43,
+        "tips": " | Heimerdinger Supp or Mid both pose pretty big threats to Ivern, since he grants automatic lane priority into most matchups. This makes it much more difficult to leave your groves around, since the enemy team will have an easier time getting vision control and invading your jungle.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Illaoi",
+        "difficulty": "Minor",
+        "idmatchup": 44,
+        "tips": " | Splitpush champion, but surprisingly easy for Ivern to deal with. The reason is because Illaoi's entire kit revolves around her landing E, which can be blocked by Daisy. As long the Ivern player and his team don't mess up too badly, it's easy to shut Illaoi down.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Irelia",
+        "difficulty": "Tiny",
+        "idmatchup": 45,
+        "tips": " | Splitpush champion, but much more vulnerable to CC than others. This makes it easy for Ivern to pressure her while she's splitting, even if the Irelia is fed. | Irelia's Q can also be denied with Ivern bushes. Her E reveals enemies stunned for 0.75s, and her R reveals for 1s, but any time after that can be completely stopped with good bush placement.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Janna",
+        "difficulty": "Even",
+        "idmatchup": 46,
+        "tips": " | While Janna doesn't pose a significant threat to Ivern (outside of being annoying by Qing Daisy), Janna counters many of the champions that Ivern is strong with. | Threat level varies based on comp. More engage makes Janna scarier and vice versa.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jarvan IV",
+        "difficulty": "Minor",
+        "idmatchup": 47,
+        "tips": " | J4 can mess you up early game by forcing early ganks and plays in areas where Ivern can't match. This makes early game a skill matchup. | After the early game, Ivern has an abundance of ways to handle J4, and it becomes very Ivern favored. | Ivern can also use his Q's backwards dash to slide out of J4's ult, making it basically useless.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jax",
+        "difficulty": "Minor",
+        "idmatchup": 48,
+        "tips": " | Splitpush champion, but vulnerable to getting run down by Daisy. If you have good Daisy mechanics, you can have her space the counter strike, which if done properly leads to Jax being completely vulnerable. | Also if Jax ever finds himself in a position where he's forced to teamfight, he's very easy for Ivern to deal with. | Only really a threat if he gets super ahead.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jayce",
+        "difficulty": "Even",
+        "idmatchup": 49,
+        "tips": " | His cannon Q counts as an aoe projectile, which means that Daisy takes reduced damage from it. Abuse this to deny his poke. | Ease of gank depends heavily on which champion your laner picked and whether he has phase rush or not. Can range from easy to impossible. | A fun IQ test you can administer upon a Jayce player is to run Daisy at him and see if he uses hammer E to knock her away or not. You'd be surprised at how many just let Daisy kill them and never cast E.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jhin",
+        "difficulty": "Tiny",
+        "idmatchup": 50,
+        "tips": " | Jhin with good trap placement can be difficult to gank, but if you make it into his lane unnoticed, it's extremely free. | Also his shots are slow and predictable, making his damage uniquely easy to shield away. | Easy to dive with Daisy.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jinx",
+        "difficulty": "Minor",
+        "idmatchup": 51,
+        "tips": " | Easy to dive with Daisy, since her traps only stop champions. She's also very susceptible to just getting run down by Daisy in general. | She can be a problem in teamfights if she gets fed due to her rocket AOE (especially with runaans) since Ivern can't contain the damage with just single target shields.",
+        "tipsFr": null
+    },
+    {
+        "championName": "K'Sante",
+        "difficulty": "Even",
+        "idmatchup": 52,
+        "tips": " | K'sante can do a lot of things that are annoying to Ivern like isolating a teammate with R, CC immunity, guaranteed hard engage, etc. With that being said, he's still a top laner who has to teamfight, which often times means he's playing directly into Ivern's hands. | Be careful when putting Daisy on K'Sante, since that can sometimes cause more harm than good. By planting Daisy on him, he gets an easy target to stack Q on that follows him around, which can be very convenient for him in a teamfight.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kai'Sa",
+        "difficulty": "Minor",
+        "idmatchup": 53,
+        "tips": " | Kai'Sa is a champion who get hard countered by bushes, since dropping vision stops her autos, Q, and R from being usable. She's also extremely vulnerable to Daisy, since she has no tools to escape until later when she's put some points into E. | Threat level goes up if it's AP Kai'Sa, since she can avoid having to engage into Ivern's team and can lay down long range poke first.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kalista",
+        "difficulty": "Minor",
+        "idmatchup": 54,
+        "tips": " | Gets destroyed by CC, especially slows. However, if you don't have someone in your comp who can get onto her and deliver the Ivern E slow, she can be difficult. | Hard countered by bushes since she cant auto, which then stops her from dashing freely.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Karma",
+        "difficulty": "Minor",
+        "idmatchup": 55,
+        "tips": " | Her W can stop Daisy, but other than that there isn't much in Karma's kit that would bother Ivern. | The biggest threat Karma poses is being strong in early laning phase which can enable deep vision, making Ivern easier to track and punish.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Karthus",
+        "difficulty": "Extreme",
+        "idmatchup": 56,
+        "tips": " | Extremely dangerous for Ivern. In the jungle, he massively outfarms you and will be ahead by 60-100 cs by 25 minutes. | His ganks are also difficult to counter, since Karthus doesn't commit very hard, both positionally and target wise. If Ivern shows up, Karthus is likely not in a position where he's trapped. If Ivern shields a teammate, it's not difficult for Karthus to just start Qing another target that isn't protected. | Even outside of the jungle, Karthus is still a big threat, especially if he dies in a good place. Best thing to do VS Karthus in a fight is to try to sneak Daisy onto him and make it harder for him to get the position he wants.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kassadin",
+        "difficulty": "Even",
+        "idmatchup": 57,
+        "tips": " | Your mid laner will likely have lane priority over him, which makes Ivern harder to punish early. Take advantage of his weakness pre-11 to secure objectives. | Going into late game, Ivern can't really do much about Kassadin. At level 16, slowing him doesn't do anything and it's difficult to hit him with a Q or R knockup. All you can do is make sure that your team has all of the advantages before then.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Katarina",
+        "difficulty": "Minor",
+        "idmatchup": 58,
+        "tips": " | Only a problem if extremely fed. Katarina gets destroyed by CC and her Q/E can be stopped with bushes (although you can't bush her daggers) | Be careful when taking extended fights bot or top, since these are opportunities for Kat to clean up. Even if your mid laner has lane priority, she can opt to sacrifice the waves to make the roam play.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kayle",
+        "difficulty": "Minor",
+        "idmatchup": 59,
+        "tips": " | Kayle can't do anything about Daisy, which means that you can hard abuse her past level 6. If she walks up, run her down with Daisy. If she's under tower, dive with Daisy. | Being a champion who relies on autos, Kayle can be stopped with bushes. | Still a late game threat if she can hit level 16.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kayn",
+        "difficulty": "Minor",
+        "idmatchup": 60,
+        "tips": " | Extremely free early, even to the point where you can invade and kill him as early game Ivern. If you can afford to, invading his raptors is very strong, since they're by far his favorite camp. | In the early game, just make sure not to give him opportunities to farm your jungle on the opposite side of your gank. As long as you avoid giving him a massive cs lead, it's a free matchup. | Also, deny his R with bushes, especially if he's planning on using smite + R.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kennen",
+        "difficulty": "Major",
+        "idmatchup": 61,
+        "tips": " | Very hard for Ivern to deal with. Difficult to gank, and even harder to teamfight into. If he gets a good Flash+R angle, Ivern cannot really do anything. | You can treat him similarly to Fiddlesticks, where you use Daisy and bushes to reveal angles that he might engage from. This isn't a very reliable option, so only try it if Kennen is very fed or if you don't need the bushes very badly.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kha'Zix",
+        "difficulty": "Minor",
+        "idmatchup": 62,
+        "tips": " | Very abusable early game. He also never wins 1v1 with Ivern unless absurdly ahead, since Daisy stops Kha'Zix's isolation. | He can be a pain if he goes W evolve and buys Serpents Fang, since he applies the melee 50% shieldcut at an AOE scale.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kindred",
+        "difficulty": "Extreme",
+        "idmatchup": 63,
+        "tips": " | Extremely difficult to deal with. Kindred can easily invade Ivern, since his normal stall tactics are less effective into ranged champions. To top it off, Kindred's Q hits and reveals enemies in bushes. | Kindred ganks are also much more difficult to counter, since she doesn't have to commit as hard and can attack at a distance that makes her harder to punish. | During her ult, Daisy also becomes invulnerable, so have Daisy attack her twice to prepare the knockup, and then time the knockup so she's CC'd at the very end. Bonus points if you adjust Daisy's angle to hit multiple people. | Ward the baron pit on blue team and dragon pit on red team level 1. This will prevent Kindred from Qing over the wall after taking Red to steal your grove camps.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kled",
+        "difficulty": "Minor",
+        "idmatchup": 64,
+        "tips": " | Not very hard to defend your team from. He's easy to land Q on, easy to stack Daisy attacks on, and is also a pretty easy champion to gank. | Kled's biggest threat comes from his Hullbreaker builds, since he can splitpush instead of teamfighting into Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kog'Maw",
+        "difficulty": "Even",
+        "idmatchup": 65,
+        "tips": " | Threat level varies depending on if you have teammates who can deal with him or not. If your comp includes a champ that can kill him, you can help facilitate them. If not, Ivern does nothing to punish Kog'Maw on his own. | Also surprisingly difficult to run down with Daisy, since his E slow makes it hard for her to stick to him.",
+        "tipsFr": null
+    },
+    {
+        "championName": "LeBlanc",
+        "difficulty": "Extreme",
+        "idmatchup": 66,
+        "tips": " | Almost impossible to gank. Also likes to assist her jungler in skirmishes and invades, so if you're in a bad jungle matchup, LeBlanc makes it that much worse. | She's also trickier to predict than other champions, which makes it hard to shield all her damage, even if you have the ability up when she goes in.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lee Sin",
+        "difficulty": "Tiny",
+        "idmatchup": 67,
+        "tips": " | Lee Sin is very easy to deal with as long as you counter his ganks. If he tries to invade you, E shield/slow and Q root/dash are enough to stall him out for your team to arrive or for you to escape. | Lee Sin can't powerfarm, so you don't get outscaled even if you mess up your pathing. | You can also make tracking Lee easier by warding his jungle, since he needs yellow trinket to wardhop, making him unable to sweep.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Leona",
+        "difficulty": "Minor",
+        "idmatchup": 68,
+        "tips": " | Engage support who doesn't do much else, making her very predictable. Also easy to gank if you can bait an engage from her.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lillia",
+        "difficulty": "Major",
+        "idmatchup": 69,
+        "tips": " | Extremely non-committal ganks, since she can just sprint out at 450+ movespeed when Ivern shows up to counter. Also massively outfarms Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lissandra",
+        "difficulty": "Even",
+        "idmatchup": 70,
+        "tips": " | Can be a pain to teamfight into if she gets a good engage angle. Make sure to bush her high-priority ult targets if you see her about to E or flash in, since it's a targeted ability. | If you have teammates who are particularly vulnerable to Lissandra's CC, buy MIkaels after your core.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lucian",
+        "difficulty": "Minor",
+        "idmatchup": 71,
+        "tips": " | Lucian relies a lot more on bursts of damage than other ADCs, which makes shielding a lot more effective. He also is vulnerable to Daisy, since he can't CC her and his dash is fairly short. | Don't try to block Lucian R with Daisy unless you really have to. She gets melted very quickly.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lulu",
+        "difficulty": "Minor",
+        "idmatchup": 72,
+        "tips": " | Lulu is a teamfight enchanter who peels her carries, meaning that she doesn't interact with Ivern much. Her threat level is purely comp-dependent.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lux",
+        "difficulty": "Even",
+        "idmatchup": 73,
+        "tips": " | If your mid laner has gank setup, Lux is easy to spam gank. | Towards mid-late game, Lux will start trying to oneshot with her burst combo. While there's no way to completely negate it, your shields can easly be the difference between them living and dying. | Not very easy to run down with Daisy unless she wastes her Q.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Malphite",
+        "difficulty": "Minor",
+        "idmatchup": 74,
+        "tips": " | Top laner who wants to teamfight, which is a very good for Ivern. Malphite can be a problem if he gets a good ult, but as long as you aren't hit and the enemy team doesn't have some wombo-combo followup, you can stay back and peel your team. | Into Malphite, I'd recommend going the moon/redemption build and bushing yourself in an unassuming location behind your team. Once Malph ults your team, you can just pop redemption and peel for them.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Malzahar",
+        "difficulty": "Minor",
+        "idmatchup": 75,
+        "tips": " | Can be annoying to deal with due to his waveclear, especially if he's in a matchup where he can safely get lane priority early on. | Most of Malz's power is in his ult surpress, so if you can protect your ally for the duration of it, he doesn't do much after.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Maokai",
+        "difficulty": "Minor",
+        "idmatchup": 76,
+        "tips": " | Easy to bait in and counter. Wait for him to Q his target backwards before showing up, since if he sees you he can opt to Q his target away and run. | Significantly harder to countergank or bait if he took Phase Rush, since he can just sprint away and has slow resist during it. | AP Maokai threat level raises up to a 4/5, since he limits where you can place bushes with his saplings.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Master Yi",
+        "difficulty": "Even",
+        "idmatchup": 77,
+        "tips": " | Skill matchup. Yi has a lot of counterplay for all of Ivern's abilities. His R makes him immune to slows, his Q can avoid Ivern's hard CC, and he hard outdamages Ivern's shielding if he can stick on his target. | Best option vs Yi is to hide in a bush, which reduces his options of who to go on. The worst case scenario is you use shield on your carry and he reacts to that by switching targets onto you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Milio",
+        "difficulty": "Minor",
+        "idmatchup": 78,
+        "tips": " | Similar as Lulu, where Ivern and Milio won't ever really interact with eachother in teamfights. | His Q knocks Daisy back very far, making him difficult to lock down, and even if you land Q he can cleanse it with R. | During Milio's W, you can place bushes for your team to duck into, significantly reducing the range threat that it provides.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Miss Fortune",
+        "difficulty": "Even",
+        "idmatchup": 79,
+        "tips": " | Difficult to chase, difficult to teamfight into, but easy to dive with Daisy. As long as she doesn't have a strong anti-dive support, I'd recommend camping her lane. She will be a problem in teamfights if ahead.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Mordekaiser",
+        "difficulty": "Minor",
+        "idmatchup": 80,
+        "tips": " | Ivern has a very easy time surviving Morde's realm, since he has CC to kite away from him and can hide in bushes to deny his autos. The goal should be to delay his 3 passive stacks for as long as possible. | Be careful with summoning Daisy around his R. Daisy does not travel between realms, meaning that if you summon her in his ultimate, she will disappear once you leave. | If you're waiting for one of your teammates to come out of his ult, you can hover your mouse over their HUD portrait and spam E so they get shielded immediately after leaving.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Morgana",
+        "difficulty": "Even",
+        "idmatchup": 81,
+        "tips": " | Morgana can be annoying, since you can't do much to her or allies she's protecting. Her spell shield denies your CC, and she can easily root Daisy for long enough that it's pointless to try.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Naafiri",
+        "difficulty": "Tiny",
+        "idmatchup": 82,
+        "tips": " | Naafiri's W has a very obvious windup and predictable timing, meaning that you can time your E so that you prevent her burst and slow her shortly after. She should almost never be a problem for you as Ivern, unless she gets very far ahead. | Her dogs can be annoying when trying to land Q.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nami",
+        "difficulty": "Minor",
+        "idmatchup": 83,
+        "tips": " | Nami bubble is one of the rare abilities that can reliably be dodged by Daisy. As long as you avoid the stun, Nami provides nothing to stop Daisy. | Like Janna, Nami has strong anti-engage with her R and Q which can deny a lot of the champions who synergize with Ivern. This makes Nami's threat level rise if your comp relies on engaging into the enemy team.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nasus",
+        "difficulty": "Even",
+        "idmatchup": 84,
+        "tips": " | Split pusher, meaning he can opt not to teamfight into Ivern. However, if Nasus does have to teamfight, Ivern does a pretty good job at stopping his damage and keeping him CC'd.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nautilus",
+        "difficulty": "Tiny",
+        "idmatchup": 85,
+        "tips": " | Hook champion. Hooks can be blocked with Daisy, which is especially easy here considering that Nautilus Q and Daisy both have massive hitboxes. | If Nautilus Qs in with the intention of casting R on a further target, a preemptive bush can prevent him from casting it.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Neeko",
+        "difficulty": "Even",
+        "idmatchup": 86,
+        "tips": " | Neeko's teamfighting can be scary in the same way that Amumu's is. If you get caught in her R along with your teammates, you won't be able to shield them. This is especially true for Neeko since many of her engages can catch you off guard. | She's also difficult to chase with Daisy, since she is good at running away with W and E.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nidalee",
+        "difficulty": "Extreme",
+        "idmatchup": 87,
+        "tips": " | High tempo jungler who can punish Ivern's early clear. | Her ganks can be difficult to counter, since by the time she commits with cougar W, she'll have already chunked your laner by a lot, making her more dangerous to turn on. | Make it through early game and you'll be fine, but the first 10 minutes of the game are usually hell in this matchup.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nilah",
+        "difficulty": "Even",
+        "idmatchup": 88,
+        "tips": " | Similar case to Diana where having Flash and/or Zhonyas significantly helps. If she uses both her dash charges to go in, she's very easy to counterengage on. | Her W also dodges Daisy attacks, which dodges not only the damage but also prevents the knockup stacks.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nocturne",
+        "difficulty": "Even",
+        "idmatchup": 89,
+        "tips": " | If he doesn't immediately recast R, you can use bushes to prevent him from targeting your team. | It's a bit more difficult than normal hovering, but if you can predict where Nocturne will R, it makes for a very easy countergank.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nunu & Willump",
+        "difficulty": "Major",
+        "idmatchup": 90,
+        "tips": " | Difficult jungle matchup. If you can counter Nunu's ganks, you win, but Nunu has so many gank options that you can't hover them all. This is a case where keeping yellow trinket to ward Nunu's gank angles is 100% worth it. | Make sure to contest scuttle crabs, since giving them to Nunu means giving up river control and giving him a speed boost for his W. | Nunu can also just Q Daisy, which makes Daisy near useless in many fights. | If you know Nunu will be in a fight, you can use Daisy much less sparingly for things like blocking Nunu's W or any other blockable abilities.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Olaf",
+        "difficulty": "Major",
+        "idmatchup": 91,
+        "tips": " | CC immunity is very strong against Ivern, since a lot of his kit is dedicated to CC. | If you have champions on your team who can DPS Olaf down, peel for them and hope for the best. If your comp doesn't have enough damage to deal with him, it's doomed.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Orianna",
+        "difficulty": "Minor",
+        "idmatchup": 92,
+        "tips": " | Pretty easy to gank if your mid laner has gank setup or any sort of gap closer. | Easy to run down with Daisy, even if she has R. Doesn't pose much of a threat to Ivern on her own, but can make certain champions much more dangerous with her E+R. Threat level is comp dependent.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ornn",
+        "difficulty": "Minor",
+        "idmatchup": 93,
+        "tips": " | Teamfights can get tricky against Ornn, since he creates so much space and pressure for his team. That being said, he's still a top laner who can't splitpush, which makes the game much simpler for Ivern. | Similar advice to Malphite, where you can bush yourself behind your team and wait for Ornn to engage.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Pantheon",
+        "difficulty": "Tiny",
+        "idmatchup": 94,
+        "tips": " | Very easy to deal with as Ivern. Shield the ally that he casts W on and there isn't much that Panth can do. Pantheon is very easy to bait an engage out of in lane, making most Pantheon players easy to gank. | If it's Pantheon mid, be careful of his ult when going for extended plays in bot/top lane, since he can use it to arrive to the fight first.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Poppy",
+        "difficulty": "Minor",
+        "idmatchup": 95,
+        "tips": " | Doesn't counter Ivern, but counters champions that Ivern synergizes with. Threat level is comp-dependent. | Poppy's W stops not only Ivern's dash, but also Daisy's dash from Ivern's Q. This isn't anything game-changing, but still worth keeping in mind when throwing Q at a Poppy.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Pyke",
+        "difficulty": "Minor",
+        "idmatchup": 96,
+        "tips": " | Hook champion; Daisy can block his Q. However unlike other hook champions, Pyke has a lot more freedom in his positioning and movement, which makes it harder to just stick Daisy to him. | Pyke is also basically impossible to chase with Daisy, since his W can only be revealed by champions and not Daisy.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Qiyana",
+        "difficulty": "Major",
+        "idmatchup": 97,
+        "tips": " | AOE assassin champion who mass-applies melee Serpent's Fang. Aside from that, getting caught in Qiyana's R almost guarantees the fight to be lost, since you and your team get bursted down quickly. Zhonyas is a must into Qiyana.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Quinn",
+        "difficulty": "Even",
+        "idmatchup": 98,
+        "tips": " | Being a ranged top laner, you should be looking to camp the enemy Quinn. If your top laner has gap closers, this can be as simple as shielding them as they go in. Quinn's vault movement is predictable, so you can guaranteed Q her as she's jumping back. | Quinn can be annoying later on as she pressures sidelanes and generally avoids teamfights.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rakan",
+        "difficulty": "Even",
+        "idmatchup": 99,
+        "tips": " | Unlike other engage supports, Rakan doesn't have to fully commit to going in and can E out freely. This makes him harder to punish and counterengage on. | He usually won't be walking far enough into your team to CC you, so you can just peel with shields as usual.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rammus",
+        "difficulty": "Tiny",
+        "idmatchup": 100,
+        "tips": " | Very easy to countergank. His Q can also be stopped by Daisy, making Rammus completely helpless into Ivern. | Overall one of Ivern's easiest matchups.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rek'Sai",
+        "difficulty": "Even",
+        "idmatchup": 101,
+        "tips": " | Easy to countergank after he uses his burrow E. Only thing to watch out for is his tremor sense, which can spot you getting into position to hover if you aren't careful. | As long as Rek'Sai isn't super ahead, you outscale and outvalue him in teamfights later on.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rell",
+        "difficulty": "Extreme",
+        "idmatchup": 102,
+        "tips": " | Instantly breaks your shields with her Q. Getting caught in her W+R is very bad for Ivern, which is especially hard to avoid if Rell has Flash up. Make sure to not get caught in her combo so you can stay free to peel your team.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Renata Glasc",
+        "difficulty": "Minor",
+        "idmatchup": 103,
+        "tips": " | Similar situation to Lulu, where you don't really interact with Renata much as Ivern in fights. Her threat level is comp dependent. | Her Q stops Daisy very easily, so chasing her is usually not worth trying. | Her R does work on Daisy, but Daisy's knockup takes long enough to wind up that by the time it fires off, she's no longer berserk and the knockup hits enemies instead of allies.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Renekton",
+        "difficulty": "Even",
+        "idmatchup": 104,
+        "tips": " | Top lane bruiser that prefers teamfighting, which is perfect for Ivern. The only issue is his empowered W shieldbreak, but it isn't hard to predict and play around. If you know he's going to use it, just hold shield until after he uses his fury.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rengar",
+        "difficulty": "Extreme",
+        "idmatchup": 105,
+        "tips": " | This wasn't always a bad matchup, in fact it was previously Ivern favored. However, with Ivern's bush cooldown significantly reduced, Rengar is an almost mandatory permaban. | 80% of bush tech becomes unusable when Rengar is present. You can't protect your team from targeted abilities, speed yourself up with Gustwalker, increase your damage, etc. | If you have to play against him, go Mosstomper and use bushes primarily for vision.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Riven",
+        "difficulty": "Minor",
+        "idmatchup": 106,
+        "tips": " | Not very difficult to deal with in teamfights as Ivern. Riven is weak to CC and her damage is easily shielded unless she's very ahead. | Riven is also pretty easy to gank as Ivern if you show up as she's fighting, since she'll have already used her dashes.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rumble",
+        "difficulty": "Even",
+        "idmatchup": 107,
+        "tips": " | Rumble ult is very dangerous for Ivern, since it forces you to shield yourself. During this window, the enemy team can engage and punish, and you won't be able to protect your team. | Rumble is also surprisingly difficult to gank or skirmish into early, since he has so much shielding, movement speed, and damage.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ryze",
+        "difficulty": "Minor",
+        "idmatchup": 108,
+        "tips": " | Doesn't really provide anything that makes life difficult for Ivern. He can be a threat if it's a difficult jungle matchup like Kindred or Graves, but he isn't an issue otherwise. | If Ryze takes anything other than Phase Rush, he's very easy to gank.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Samira",
+        "difficulty": "Minor",
+        "idmatchup": 109,
+        "tips": " | Not a threat as long as she isn't majorly ahead. Samira is very vulnerable to Daisy, and her range is short enough to be in danger of Ivern's E slow. | Very easy to gank, especially if you can hover as she goes in since she has no way of getting out without getting a kill.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sejuani",
+        "difficulty": "Tiny",
+        "idmatchup": 110,
+        "tips": " | Extremely easy jungle matchup. Sejuani very rarely gets any opportunities to stun Ivern, meaning that you can peel without any threat. She also needs to gank to get ahead, which often makes her easy to read and countergank. | The only thing annoying about Sejuani is her W, since the first hit flicks Daisy away.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Senna",
+        "difficulty": "Minor",
+        "idmatchup": 111,
+        "tips": " | Annoying, but not dangerous. Her E not only hides her from Daisy, but is also bugged so you can't command Daisy to move anywhere within the shroud (or Daisy will get confused and stand still). | Her attacks can be stopped with bushes, and her damage isn't high enough to break through Ivern's shielding.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Seraphine",
+        "difficulty": "Major",
+        "idmatchup": 112,
+        "tips": " | Seraphine is one of the rare champions that is better than Ivern at teamfighting, especially later into a game. Regardless of whether she's Bot or Mid, make sure to punish her early laning so you can secure objectives and not have to face her late game teamfighting.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sett",
+        "difficulty": "Minor",
+        "idmatchup": 113,
+        "tips": " | Not an issue at all. Very easy to stack knockup on with Daisy, lacks the mobility to deal with Ivern's CC, and doesn't have enough damage to break through Ivern's shielding (outside of his W with high grit). | He can splitpush, but is not as effective as other champions and can rarely 1v2 into Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Shaco",
+        "difficulty": "Minor",
+        "idmatchup": 114,
+        "tips": " | Very easy to countergank if you predict him and hover, since he doesn't have a great way to disengage after Qing in. | AD Shaco is more of a threat since he can actually kill through Ivern shield with even a medium-sized lead. | AP Shaco is less of a threat since you can use Daisy to run into the boxes, completely ruining his setup.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Shen",
+        "difficulty": "Minor",
+        "idmatchup": 115,
+        "tips": " | Top lane tank who is forced to teamfight, but doesn't have mass CC like Malphite or Ornn. This makes Shen extremely easy to deal with, and it only gets easier as the game goes on. | As long as you respect his ult timings early on and don't overcommit to dives or skirmishes while Shen can R, he poses no real threat.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Shyvana",
+        "difficulty": "Major",
+        "idmatchup": 116,
+        "tips": " | If you're against laners who are hard to gank, Shyvana can be an absolute nightmare. This is because she will powerfarm and solo dragons, while you aren't able to get a lead since there's nobody to countergank. | AD Shyvana is slightly easier to deal with than AP, since she has to go in and can be peeled off with CC.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Singed",
+        "difficulty": "Minor",
+        "idmatchup": 117,
+        "tips": " | Singed can proxy to create very long roam timers for himself. These can be annoying, especially if he teams up with his jungler to control your jungle. However, his roams usually aren't much of a problem as long as you respect him and warn your team. | If Singed is ahead, he can make a lot of fights very messy and disorganized, which is a problem for Ivern who ideally wants to safely spam shields on his teammates. However, massive Singed leads don't happen very often, so you should be fine.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sion",
+        "difficulty": "Even",
+        "idmatchup": 118,
+        "tips": " | Since Ivern doesn't provide much damage to a comp on his own, it's important to have teammates who can DPS him. His threat level goes significantly up or down based on your team's picks. | If your team has carries who can kill him, you can peel them as normal and Sion isn't an issue. If you don't have DPS, it's doomed. | Unlike other tanks, Sion is also very strong as a splitpusher. This offers him options outside of teamfighting into Ivern. | Sion's E works on Daisy, which makes him basically immune to her.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sivir",
+        "difficulty": "Even",
+        "idmatchup": 119,
+        "tips": " | Take advantage of her weak early game by setting up dives with Daisy. While Sivir has exceptional waveclear, this doesn't matter since Daisy can tank the tower as a substitute for a minion wave. | Later on, Sivir's AOE damage and movement speed make her difficult for Ivern to protect his teammates from and to lock down.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Skarner",
+        "difficulty": "Tiny",
+        "idmatchup": 120,
+        "tips": " | Skarner has no ways of getting onto someone aside from running at them. This makes him extremely easy to lock down with Daisy, chase, run from, etc. Even if he does R someone, slowing him will make it so that he can't pull them back to his team. | In all of my time playing Ivern, this is the only matchup that I have never lost.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sona",
+        "difficulty": "Even",
+        "idmatchup": 121,
+        "tips": " | A major threat at late game teamfighting, but very easy to abuse early since she has very few ways to defend against getting dove. | When against a Sona lane, look to get level 6 as fast as possible and then dive bot as many times as you can.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Soraka",
+        "difficulty": "Minor",
+        "idmatchup": 122,
+        "tips": " | Easy to dive post-6, since her main anti-dive tool (E) doesn't effect Daisy. Her late game teamfighting is about as strong as Ivern's, but you can usually abuse her early game enough to where that isn't a problem.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Swain",
+        "difficulty": "Even",
+        "idmatchup": 123,
+        "tips": " | Can be a threat in teamfights if he's strong enough, but most of the time is easy to manage with just shielding alone.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sylas",
+        "difficulty": "Tiny",
+        "idmatchup": 124,
+        "tips": " | Sylas is a melee mid laner who likes taking trades in lane. Pretty much all of his trades start with his E1, so if you can gank right after he dashes he's an easy kill. | Sylas is extremely vulnerable to Ivern's E slow, since he doesn't have any good ways to avoid it. If he Ws a shielded target and immediately E1s away, he still won't be out of range of the slow. | If he steals your ult, his Daisy is a lot less useful than yours since his can't be shielded. Sylas players also usually struggle with properly controlling her which is pretty funny to watch.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Syndra",
+        "difficulty": "Extreme",
+        "idmatchup": 125,
+        "tips": " | Very difficult to gank while scaling hard. Mid lane is usually untouchable when against Syndra as Ivern, since Ivern doesn't have any way to reliably lock her down. | Her W can pick up and throw Daisy, which makes the ability effectively useless. | If Syndra throws Daisy very slightly outside of Ivern's max tether range, Daisy will teleport back to Ivern right on the W impact and it'll guaranteed hit Ivern. Very few Syndra players know about this tech, but it's a nightmare when you're against one that does.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Tahm Kench",
+        "difficulty": "Tiny",
+        "idmatchup": 126,
+        "tips": " | Tahm Kench is extremely easily kept under control as Ivern. He's easy to gank, and easy to deal with in teamfights due to lacking mobility/disengage. | Daisy can also be used to block his Q. This is particularly relevant if he's looking to Q+R someone.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Taliyah",
+        "difficulty": "Even",
+        "idmatchup": 127,
+        "tips": " | Like Poppy, Taliyah's E not only effects Ivern's Q dash, but also Daisy's Q dash. | When against Taliyah mid, she's an easy gank as long as your mid laner has some form of gank setup. | When against Taliyah jungle, she can be difficult due to her lack of commitment, making her harder to countergank. She'll naturally focus on ganking for champions with guaranteed CC like Pantheon or Renekton, so pay specific attention to protecting your laners in those lanes.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Talon",
+        "difficulty": "Even",
+        "idmatchup": 128,
+        "tips": " | An assassin who can mass apply melee Serpents Fang with his W/R. Would be a lot worse for Ivern if it weren't for a specific piece of bush tech: | After Talon uses R, you can bush his high priority targets, making him unable to cast Q on them and in many cases forcing him to run away instead.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Taric",
+        "difficulty": "Minor",
+        "idmatchup": 129,
+        "tips": " | Disengage support who specializes at a similar type of counter-engage to Ivern. In a comp where neither team wants to engage into eachother, Ivern wins out by controlling areas and creating space with bushes. | In lane, Taric will often go for engages with his E, at which point he autos the stunned target. This naturally forces him to overextend, which then makes him an easy gank. | Something to watch out for with Taric is his passive on Daisy, since if you aren't careful you could be accidentally giving him a free dummy to reduce his cooldowns on.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Teemo",
+        "difficulty": "Even",
+        "idmatchup": 130,
+        "tips": " | Teemo's blind can be cast on Daisy to make attacks miss, which denies not only the damage but also the knockup stacks. He's still possible to chase with slows and roots, but it's a bit more difficult than other champions. | Later into the game, Teemo will start setting up mushrooms around objectives. An easy way to deal with them is to bring Daisy out early and have her walk around over as many mushrooms as possible to get rid of them.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Thresh",
+        "difficulty": "Minor",
+        "idmatchup": 131,
+        "tips": " | Hook champion. You can block his Q with Daisy, which makes him much less useful in teamfights. | Thresh lanes are difficult to gank due to his W, since focusing the ADC means that Thresh can walk back and lantern them to safety.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Tristana",
+        "difficulty": "Major",
+        "idmatchup": 132,
+        "tips": " | Difficult to gank due to W/R, while having good waveclear through Shiv and E passive. Because of this, you rarely have any opportunities to influence mid, making Ivern's pathing much more awkward.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Trundle",
+        "difficulty": "Tiny",
+        "idmatchup": 133,
+        "tips": " | Being a champion who relies on running at people, Trundle is completely countered by Ivern's CC. He also doesn't have enough damage to reliably break through Ivern's shields, leaving him overall pretty useless.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Tryndamere",
+        "difficulty": "Even",
+        "idmatchup": 134,
+        "tips": " | Split push champion who generally avoids teamfighting. He's also very good at running away and wasting your time. | Something worth optimizing when trying to chase Tryndamere down is to space Daisy slightly away from him when her knockup is on cooldown. This is to avoid letting him get extra autos in, which decrease his E cooldown.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Twisted Fate",
+        "difficulty": "Minor",
+        "idmatchup": 135,
+        "tips": " | Very easy to gank, especially since TF is naturally inclined to push the wave. | Be careful of taking fights in sidelanes, since TF can ult in. Other than that, there isn't much that is threatening about TF.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Twitch",
+        "difficulty": "Minor",
+        "idmatchup": 136,
+        "tips": " | Bushes completely shut down Twitch's ult as long as you react quick enough. Since he usually attacks from far away, placing bushes can often mean that your team can just disengage. This doesn't always work, since your team could accidentally reveal themselves or Twitch could blue trinket, but it's still always worth a shot. | Outside of that, Twitch is difficult to chase with Daisy due to his Q being only revealed by champions and not Daisy. If you're chasing him and he doesn't have Q up, it's a free kill.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Udyr",
+        "difficulty": "Minor",
+        "idmatchup": 137,
+        "tips": " | While Udyr is a champion who relies on running at people, he has a bit more flexibility than champs like Trundle or Skarner due to his awakened E/R. These make him more difficult to run from and more difficult to chase. | He is still very easy to countergank, since all you have to do is wait for him to use an awakened ability and then show up to punish.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Urgot",
+        "difficulty": "Minor",
+        "idmatchup": 138,
+        "tips": " | Very easy to gank since he's easy to land Q on. Not only is his hitbox huge, but his E is also slow and predictable enough to land a Q on him while he's casting it. | He is a splitpush champion, but he's not difficult to pick off due to his lack of tools for handling Daisy.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Varus",
+        "difficulty": "Minor",
+        "idmatchup": 139,
+        "tips": " | Easy to chase and/or dive with Daisy. | His ADC variant is a lot easier to deal with than his AP and Poke builds due to their tendency to stay further back in a fight.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vayne",
+        "difficulty": "Major",
+        "idmatchup": 140,
+        "tips": " | Vayne can get pretty difficult for Ivern to deal with, since she melts through your shielding on frontline champions with %maxhp true damage. She's also very slippery and difficult to land CC on. | Vayne's Q invisibility while in her ult is particularly annoying because it drops Daisy's aggro and cancels her attacks. | Even if she's being threatened by Daisy, Vayne can simply just E Daisy away, removing all danger entirely.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Veigar",
+        "difficulty": "Minor",
+        "idmatchup": 141,
+        "tips": " | Being a shield champion, Ivern can just put E on the target that Veigar ults, which significantly reduces his effectiveness. | Veigar's cage hard counters Daisy, making him impossible to catch if he has it up.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vel'Koz",
+        "difficulty": "Minor",
+        "idmatchup": 142,
+        "tips": " | Like Nami Q, Vel'Koz E is one of the few abilities that can actually be consistently dodged by Daisy. This makes Vel'Koz very easy to run down with Daisy. | Other than that, he's also a simple champion to gank. As a poke mage, he'll naturally prefer being pushes up, which means that if you know where he put his vision, he's an easy kill.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vex",
+        "difficulty": "Minor",
+        "idmatchup": 143,
+        "tips": " | Very easy to gank, especially if it's after she uses her fear. | Vex with ult can play surprisingly similarly to champions like TF or Galio, where she can look to join existing fights in sidelanes with her ult. Be careful of her position when going for extended fights top/bot.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vi",
+        "difficulty": "Tiny",
+        "idmatchup": 144,
+        "tips": " | High commitment jungler who goes in without many ways to get out. This makes her very easy to countergank. | If you see her winding up Q to get in range for her R, make sure to place a bush down on her target. Ivern's bush takes less time to pop up than Vi's Q charge, so this is a consistently viable way to counter her.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Viego",
+        "difficulty": "Tiny",
+        "idmatchup": 145,
+        "tips": " | Very easy jungle matchup. Viego relies on bursting down an enemy to get his resets, which can be stopped (or significantly slowed down) by Ivern's peel. | Viego can never really invade or 1v1 Ivern, so his only way to gain advantages is if you let him gank | lanes without countering. Match him as much as possible and he won't be able to play the game. | Hard to chase with Daisy due to his E only being revealed by champions and not Daisy.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Viktor",
+        "difficulty": "Even",
+        "idmatchup": 146,
+        "tips": " | Viktor can be difficult to gank, since he doesn't need to push up for aggressive poke or lane priority. If you have a mid laner with strong gank setup it's okay, but without one it can become hard to punish Viktor's scaling. | His W is also good at stopping Daisy, since she's pretty much forced to walk through it if placed correctly.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vladimir",
+        "difficulty": "Extreme",
+        "idmatchup": 147,
+        "tips": " | Vlad is very difficult to play into as Ivern due to a lot of his damage being AOE, which means you can only defend one person while everyone else takes full damage. He's also difficult to gank, making his scaling hard to punish.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Volibear",
+        "difficulty": "Tiny",
+        "idmatchup": 148,
+        "tips": " | Very easy jungle matchup. He's easy to countergank due to his ganks consisting of running at enemies with Q. | As a top laner, Voli can be difficult to gank if your top lacks damage. He also can opt to play for splitpush, which can be troublesome for Ivern who wants to teamfight. I'd raise Volibear top up to a 2/5.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Warwick",
+        "difficulty": "Tiny",
+        "idmatchup": 149,
+        "tips": " | Very easy jungle matchup, since he commits to fights so hard. As long as you're nearby, Warwick can never do much of anything.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Wukong",
+        "difficulty": "Major",
+        "idmatchup": 150,
+        "tips": " | Wukong is very scary for Ivern, especially if he gets a good flank off. Ivern is generally pretty bad at playing chaotic teamfights, and a good Wukong angle creates just that. | In the jungle matchup, Wukong isn't very difficult to countergank or skirmish against early. You can get away with just simple shielding and CC. | As a top laner, Wukong poses a lot more of a threat. If he's ahead, Wukong top will push out a sidelane and then drop out of vision and look for flank angles. This is detrimental for Ivern, since a good Wukong flank will deny Ivern of his clean front-to-back teamfights.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Xayah",
+        "difficulty": "Even",
+        "idmatchup": 151,
+        "tips": " | Xayah is one of the more difficult ADCs to kill. Her feathers can easily stop Daisy, and her ult grants her a lot of dive survivability. Ganking/diving her is still very possible, but there's just more abilities that you have to be wary of and more that can go wrong.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Xerath",
+        "difficulty": "Even",
+        "idmatchup": 152,
+        "tips": " | If you can consistently shield away his poke on your teammates, Xerath isn't a big deal. However, it's very difficult to do this since you not only need to react to the ability, but also have to get your cursor to your ally to shield them in time. | If you can't prevent his poke damage, he holds the power to win a fight for his team before it even started. | Although similar to Vel'Koz, Xerath's E is very easy to land on Daisy, making him harder to chase.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Xin Zhao",
+        "difficulty": "Tiny",
+        "idmatchup": 153,
+        "tips": " | High commitment jungler who has an easy time going in and a hard time getting out. Xin Zhao can be hard to predict, especially if he skips camps. However, if you can counter his ganks it's super free. | As the game goes on, playing against Xin Zhao only gets easier. Since Xin tries to focus a single target down, just the act of shielding them can make his life hell.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yasuo",
+        "difficulty": "Major",
+        "idmatchup": 154,
+        "tips": " | Yasuo is very good at baiting out Ivern's hover and wasting his time. When Yasuo goes in, he'll usually do so with the intention of dashing back out through the wave. This type of fake commitment makes him very difficult to read, and it's hard to know when he truly intends to all-in until it's too late.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yone",
+        "difficulty": "Minor",
+        "idmatchup": 155,
+        "tips": " | Very easy to gank, especially if you gank right after he Q3s in onto the wave or his lane opponent. | Yone is vulnerable to most of Ivern's CC, but be careful when putting Daisy on him since he can use her as a convenient source of Q stacks. | If you use plant a bush for Gustwalker's movement speed, it becomes trivially easy to dodge Yone's R.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yorick",
+        "difficulty": "Major",
+        "idmatchup": 156,
+        "tips": " | Hard split pusher who makes it difficult to find the teamfights that you want. He's also difficult to chase, since he can just cage Daisy and walk away.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yuumi",
+        "difficulty": "Tiny",
+        "idmatchup": 157,
+        "tips": " | In the past, Yuumi's threat level was much higher due to her ability to sit on the enemy jungler and enable them to control your jungle. Now that she's mostly pinned to her ADC, she poses no threat to Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zac",
+        "difficulty": "Even",
+        "idmatchup": 158,
+        "tips": " | One of the more difficult tank jungle matchups due to his AOE hard engage. If Zac gets a good angle, it can mess up your team's formation and deny you of the clean front-to-back fight that Ivern thrives in. When counterganking Zac, it's often necessary to be there before him, since your laner will be CC'd for a long time and won't be able to run to you for a shield.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zed",
+        "difficulty": "Major",
+        "idmatchup": 159,
+        "tips": " | AOE Melee Serpent's Fang applier. Also very difficult to chase, especially later into the game as he starts stacking ability haste. | When looking to gank Zed, it's important to find timings where the waves meet neutrally at the middle. This is because there's more pressure for Zed to fight for control, making him more likely to use W aggressively.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zeri",
+        "difficulty": "Extreme",
+        "idmatchup": 160,
+        "tips": " | Her passive steals shields, which makes her extremely tanky when into Ivern. This is made worse by the fact that Ivern favors shielding frontliners, who Zeri has easy access to. | She's also hard to pin down with CC due to her mobility.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ziggs",
+        "difficulty": "Major",
+        "idmatchup": 161,
+        "tips": " | Poke champion who specializes in zone control and siege. Very difficult to manage his damage, since it's scattered everywhere throughout a fight. | Can also be difficult to gank unless he wastes his W/E.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zilean",
+        "difficulty": "Even",
+        "idmatchup": 162,
+        "tips": " | Very difficult to gank, chase, or dive. Trying to gank his lane by self cast E+Flash is very difficult, since without flash he can easily E+Q+W+Q you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zoe",
+        "difficulty": "Even",
+        "idmatchup": 163,
+        "tips": " | Zoe's Q counts as area damage, which means that Daisy takes 33% less damage from it. This makes it so Daisy with a shield can facetank Zoe Q for almost free. | That said, Zoes tend to go for weird or unexpected angles, making it a lot harder to just soak her poke for free. | Buy Mikaels after your core items, especially if Zoe is very ahead.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zyra",
+        "difficulty": "Even",
+        "idmatchup": 164,
+        "tips": " | Zyra is hard to gank if you don't have a support that can easily go in. This is because if Ivern is the one who has to engage with E+Flash, Zyra and her ADC can just focus and kill you. Significantly easier to gank post-Daisy.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ivern",
+        "difficulty": "Ideal",
+        "idmatchup": 165,
+        "tips": " | NOTE: Synergies also include all champions. If you want a simple way to determine if it'll be a good Ivern game, add up the threat level of the enemy team (extreme being +5 and tiny being +1), and compare that to the sum of the synergy level on your team +3 (since you take up a champion slot). If the synergy side is higher, chances are it's a good Ivern game.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Aatrox",
+        "difficulty": "Strong",
+        "idmatchup": 166,
+        "tips": " | Melee fighter champion. Aatrox in particular benefits a lot from Ivern's E slow since his Qs become much easier to land.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ahri",
+        "difficulty": "Strong",
+        "idmatchup": 167,
+        "tips": " | Put shield on Ahri as she's going to R in. With good enough synergy, Ahri can pop your E slow and use it to secure her charm. | Ahri also is very good at helping out ganks, dives, and skirmishes in the midgame, which is also when Ivern starts hitting powerspikes. Tl;dr they want to play aggressively at similar times.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Akali",
+        "difficulty": "Ok",
+        "idmatchup": 168,
+        "tips": " | Melee champion with dashes, but she often goes in too deep for Ivern to spam shield on.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Akshan",
+        "difficulty": "Strong",
+        "idmatchup": 169,
+        "tips": " | Peeling him mid-late game is very strong, since your shields enable him to use his E much more aggressively.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Alistar",
+        "difficulty": "Ideal",
+        "idmatchup": 170,
+        "tips": " | If you land Q, Alistar can take the dash to get on top of them for free. From there, he can Q and then W them into your team. | Outside of that combo, Alistar is just very good with Ivern in general. He uses his shields very well, and can roam with you to take over the map.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Amumu",
+        "difficulty": "Ok",
+        "idmatchup": 171,
+        "tips": " | Can go in and deliver your E slow, but he's much less consistent than other engage champions.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Anivia",
+        "difficulty": "Ok",
+        "idmatchup": 172,
+        "tips": " | Peeling Anivia is good since she can play much further up and keep her R up in big fights. However, other junglers synergize with Anivia's kit much better. She's good at setting up ganks, so make sure to abuse that.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Annie",
+        "difficulty": "Ok",
+        "idmatchup": 173,
+        "tips": " | Annie is very good at setting up ganks, meaning that you'll often be able to get value every time you cross mid. However, there isn't much of a point in peeling her later, so make sure you have a carry that you can play for.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Aphelios",
+        "difficulty": "Ok",
+        "idmatchup": 174,
+        "tips": " | Good hypercarry to peel, but hard to gank for him if he doesn't have gravitum. Synergy only really comes online late game.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ashe",
+        "difficulty": "Ok",
+        "idmatchup": 175,
+        "tips": " | Easy to gank, but not as good with Ivern as other ADCs late game. This is because slows don't stack, making Ivern and Ashe's effects redundant.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Aurelion Sol",
+        "difficulty": "Ok",
+        "idmatchup": 176,
+        "tips": " | Strong to peel late, but Ivern doesn't do much for him early. If Asol happens to be the wincon, you'll likely just be playing to protect him and scale.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Azir",
+        "difficulty": "Ok",
+        "idmatchup": 177,
+        "tips": " | Somewhat limited options for ganking him pre-6. Playing with Azir is manageable, but both champions prefer different synergies.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Bard",
+        "difficulty": "Low",
+        "idmatchup": 178,
+        "tips": " | He can roam with you or help set up your ganks with E, but doesn't have much that directly synergizes with Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Bel'Veth",
+        "difficulty": "Strong",
+        "idmatchup": 179,
+        "tips": " | As a melee champion with a bunch of dashes, Ivern fits perfectly with Bel'Veth. Ivern helps Bel'Veth stick to her target and be incredibly difficult to kill. | When Bel'Veth uses E, make sure to place a bush on top of her for the extra onhit damage.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Blitzcrank",
+        "difficulty": "Strong",
+        "idmatchup": 180,
+        "tips": " | Even without hook, Blitzcrank is very easy to gank for as Ivern since he can just run in with W to deliver the shield slow. Later on in the game, you can create bushes for Blitzcrank to stand in, which generates a lot of pressure and can lead to easy picks.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Brand",
+        "difficulty": "Ok",
+        "idmatchup": 181,
+        "tips": " | Early on, Brand pairs up well with Ivern since you can set Brand up to land his abilities with CC. This is especially good when diving, since a Daisy slow/knockup will let Brand hit all of his abilities. Later on, there isn't much of a point in peeling him as opposed to other allies.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Braum",
+        "difficulty": "Ideal",
+        "idmatchup": 182,
+        "tips": " | Extremely OP synergy. Daisy can stack his passive, making whoever he lands Q on get instantly stunned. This combo basically autowins early-mid skirmishes, even from far behind.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Briar",
+        "difficulty": "Strong",
+        "idmatchup": 183,
+        "tips": " | Briar is a champion who is forced to mindlessly attack enemies, but gets a ton of stats in return. As Ivern, you can help her outlast enemy burst and keep her alive as she terrorizes the enemy team, making it a very good synergy. Your shields also buy her time to heal back up.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Caitlyn",
+        "difficulty": "Strong",
+        "idmatchup": 184,
+        "tips": " | Your bushes work with her passive to give her more frequent headshots, which is very strong.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Camille",
+        "difficulty": "Strong",
+        "idmatchup": 185,
+        "tips": " | Very good at going in, which works well with Ivern. While Camille isn't normally very effective in teamfights, Ivern can turn her into a teamfight threat by having her deliver slows and giving her extra durability.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Cassiopeia",
+        "difficulty": "Ideal",
+        "idmatchup": 186,
+        "tips": " | Carry champion who gets a lot out of Ivern's shields, since they allow her to walk up and chase more aggressively. Cass is particularly strong with Ivern due to her movement speed, allowing her to step in closer to enemies to land your E slow and then use the slow to space or land Q. Very ideal champion to have on your team as Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Cho'Gath",
+        "difficulty": "Strong",
+        "idmatchup": 187,
+        "tips": " | Surprisingly good with Ivern, especially when played as an AP midlaner. Cho'Gath and Ivern can layer their CC on top of eachother, making it so nobody can escape from them.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Corki",
+        "difficulty": "Ok",
+        "idmatchup": 188,
+        "tips": " | Corki can W to deliver Ivern's E and use Ivern's slow to shred them with his gatling gun, but other than that there isn't much synergy.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Darius",
+        "difficulty": "Strong",
+        "idmatchup": 189,
+        "tips": " | Darius really likes having Ivern's E since it enables him to stick on enemies and get his passive stacks much easier. He also is very good with Ivern's Q, since it gives him a free gap closer.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Diana",
+        "difficulty": "Strong",
+        "idmatchup": 190,
+        "tips": " | Synergizes very well with Ivern, since keeping her alive with shields allows her to deal so much more damage. You can also slow everyone caught in her R if you time your shield properly.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Dr. Mundo",
+        "difficulty": "Strong",
+        "idmatchup": 191,
+        "tips": " | Surprisingly good with Ivern. While he normally just runs around slapping people in teamfights, Mundo with Ivern shielding him becomes a major threat, slowing everyone around him.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Draven",
+        "difficulty": "Ok",
+        "idmatchup": 192,
+        "tips": " | Draven prefers a jungler who is better at ganking and setting up aggressive plays early (something which Ivern isn't good at pre-6). Still a good peel target though.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ekko",
+        "difficulty": "Ok",
+        "idmatchup": 193,
+        "tips": " | Good to play for him early since your 2v2 is strong, but can't do much for him later since you'll rarely be in E range of him in teamfights.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Elise",
+        "difficulty": "Ok",
+        "idmatchup": 194,
+        "tips": " | Easy to play with early game, since she has plenty of damage and ways to deliver your E slow. The synergy does not carry onto the mid-late game since peeling for Elise doesn't do much.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Evelynn",
+        "difficulty": "None",
+        "idmatchup": 195,
+        "tips": " | Evelynn and Ivern don't really do anything together.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ezreal",
+        "difficulty": "Strong",
+        "idmatchup": 196,
+        "tips": " | Surprisingly good synergy, since Ivern's shielding allows Ezreal to play up close to enemies and spam Q. Ezreal actually likes going into melee range if he can afford to, since it guarantees his skillshots.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Fiddlesticks",
+        "difficulty": "Ideal",
+        "idmatchup": 197,
+        "tips": " | Fiddlesticks can ult out of Ivern's bushes, which forces the enemy team to respect them. Playing against an Ivern and Fiddlesticks who know how to abuse this is the most terrifying thing ever.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Fiora",
+        "difficulty": "Ideal",
+        "idmatchup": 198,
+        "tips": " | Very easy to gank for and easy to play with at all stages of the game. Fiora has an easy time delivering Ivern's slow, and she greatly benefits from the slow since it allows her to pop vitals for free.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Fizz",
+        "difficulty": "Ok",
+        "idmatchup": 199,
+        "tips": " | Easy to play for him early due to his mobility, but can't do much for him later since you'll rarely be in E range of him in teamfights.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Galio",
+        "difficulty": "Strong",
+        "idmatchup": 200,
+        "tips": " | Makes ganking mid lane very easy, which is great for Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gangplank",
+        "difficulty": "Ok",
+        "idmatchup": 201,
+        "tips": " | Gangplank can use your bushes to hide his barrels, allowing him to create pressure in places where he wouldn't normally be able to. You can peel for him, but GP isn't really the type of champion who benefits from being spam shielded.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Garen",
+        "difficulty": "Strong",
+        "idmatchup": 202,
+        "tips": " | Easy to gank for since he just runs in with your shield. Although Garen isn't really the teamfighting type, Ivern significantly improves his teamfighting by making him more durable and stickier with E.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gnar",
+        "difficulty": "Ok",
+        "idmatchup": 203,
+        "tips": " | Easy to gank and fight with. Even if he isn't close to mega form, he can use his W movement speed to run at the enemy with your shield. If you slow them, Gnar can easily spam autos and space them until he gets mega form up and secures the kill.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gragas",
+        "difficulty": "Ok",
+        "idmatchup": 204,
+        "tips": " | He can deliver your E slow, but doesn't do much with it. Combo works well when you're setting up other champions on your team, but isn't that good if it's just the two of you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Graves",
+        "difficulty": "Strong",
+        "idmatchup": 205,
+        "tips": " | Giving Graves a slow so he can freely chase is very strong. Great peel target later on as well.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gwen",
+        "difficulty": "Strong",
+        "idmatchup": 206,
+        "tips": " | Very easy to gank early game, since she can go in to deliver your shield, and the slow from it makes it easy for Gwen to land the center of her Q. If you peel her in a late game teamfight she will 1v9. Her shroud forces enemies to go into your E pop range to damage her.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Hecarim",
+        "difficulty": "Ideal",
+        "idmatchup": 207,
+        "tips": " | Hecarim benefits tremendously from both the shield and slow components of your E. Shurelya's is important not only because you speed him up, but also for the self speed boost to keep up with him in a fight.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Heimerdinger",
+        "difficulty": "Ok",
+        "idmatchup": 208,
+        "tips": " | He can put his turrets in your bushes, and you guys can be annoying with Daisy and turrets, but it isn't really a strong synergy or something that can actively be played around.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Illaoi",
+        "difficulty": "Low",
+        "idmatchup": 209,
+        "tips": " | Illaoi usually doesn't like having teammates near her, so what you can do for her as Ivern is limited. In teamfights, landing a Q can give Illaoi a gap closer into the fight, which can set up for her R or Flash+R.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Irelia",
+        "difficulty": "Strong",
+        "idmatchup": 210,
+        "tips": " | Very good synergy since she has plenty of ways of keeping on a target and benefits greatly from Ivern's E. Irelia normally has to be very ahead to function properly in teamfights, but Ivern can significantly lower the threshold for her to be useful.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Janna",
+        "difficulty": "None",
+        "idmatchup": 211,
+        "tips": " | As another shield/disengage champion, Ivern and Janna's roles in a teamfight end up being redundant. It's also a lot harder to gank for a Janna lane than it is for other supports, making her feel very bad to have on your team as Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jarvan IV",
+        "difficulty": "Strong",
+        "idmatchup": 212,
+        "tips": " | J4 is very good at going in, and can use the E shield and slow very well. When paired up with such a strong and consistent slow, J4 becomes a lot bigger of a threat to the enemy team. Staff of Flowing Water also pairs up surprisingly well due to the Ability Haste allowing for more E+Qs.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jax",
+        "difficulty": "Strong",
+        "idmatchup": 213,
+        "tips": " | As a champion who likes to run enemies down with auto attacks, Ivern significantly helps Jax in both sticking to his targets, and keeping him alive while his E is on cooldown.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jayce",
+        "difficulty": "Strong",
+        "idmatchup": 214,
+        "tips": " | Jayce is one of the less obvious synergies, but if you understand how to play around him it is very strong. He is easy to play around early game, especially mid. This is because Jayce is naturally very strong in lane, with his main weakness being how gank-prone he is. As Ivern, this weakness is easy to cover for by hovering and counterganking. Towards the later stages of the game, you can use bushes to hide his cannon Q poke, which creates a lot of pressure.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jhin",
+        "difficulty": "Strong",
+        "idmatchup": 215,
+        "tips": " | Very easy to gank for and synergizes well with Daisy (since he can follow up with W or R even from very far away). Even though Jhin isn't a hypercarry, this still manages to be a preferable synergy and I'm never unhappy about having a Jhin on my team (unless we lack damage for enemy tanks).",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jinx",
+        "difficulty": "Strong",
+        "idmatchup": 216,
+        "tips": " | Jinx is a hypercarry champion who benefits greatly from being peeled. Keeping Jinx alive until she gets her passive proc is a very simple and consistent way of winning fights.",
+        "tipsFr": null
+    },
+    {
+        "championName": "K'Sante",
+        "difficulty": "Strong",
+        "idmatchup": 217,
+        "tips": " | Very easy to gank for while also being unkillable if weaksided. K'Sante's CC becomes even more obnoxious with Ivern's E. Ivern can also keep K'Sante alive during his R, allowing him to cast it safely in teamfights much more often.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kai'Sa",
+        "difficulty": "Strong",
+        "idmatchup": 218,
+        "tips": " | Kai'Sa is a very easy champion to play around. This is not only because she's a hypercarry champion, but also due to her benefitting from going in. Synergy is slightly stronger with AD Kai'Sa compared to her AP and hybrid variants.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kalista",
+        "difficulty": "Strong",
+        "idmatchup": 219,
+        "tips": " | Very strong combo. Kalista can dash in while chasing to deliver Ivern's E, and if the enemy gets slowed they are very unlikely to be able to escape.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Karma",
+        "difficulty": "Strong",
+        "idmatchup": 220,
+        "tips": " | Surprisingly good synergy, Ivern can shield Karma, which then allows her to walk up more aggressively and root with W. In the early game, just the two of you have enough CC and damage to take over the map and rack up lots of kills.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Karthus",
+        "difficulty": "Low",
+        "idmatchup": 221,
+        "tips": " | Not a great champion with Ivern, due to Karthus not benefitting that much from being peeled. You can set up CC for him with Daisy, but many other junglers will do a much better job",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kassadin",
+        "difficulty": "Ok",
+        "idmatchup": 222,
+        "tips": " | Amazing synergy late game, but very difficult to get there. Since Kassadin gives prio early, it gives the enemy jungler plenty of room to invade Ivern and interrupt his clears.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Katarina",
+        "difficulty": "Strong",
+        "idmatchup": 223,
+        "tips": " | Katarina is an incredibly high value peel target. She usually has to rely on just her mobility to stay alive, but giving her extra shielding makes her significantly more deadly. She can also make great use of the slow.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kayle",
+        "difficulty": "Low",
+        "idmatchup": 224,
+        "tips": " | Kayle gives prio early, which gives the enemy jungler room to invade and take control of your jungle. Even once you reach late game, the synergy is only like a 4/5, meaning that other champions can be just as good without the cost.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kayn",
+        "difficulty": "Ideal",
+        "idmatchup": 225,
+        "tips": " | Kayn is very easy to play for as Ivern since you can just E him as he Qs in. Kayn was not meant to be durable, especially early game, so being able to keep him alive just lets him q into enemies on repeat. Since your E counts as his damage, it also allows Kayn to R to targets hit. Synergy is stronger with red Kayn.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kennen",
+        "difficulty": "Strong",
+        "idmatchup": 226,
+        "tips": " | Sets up teamfights well and is easy to gank for. During teamfights, you can hide him in your bushes to create unexpected engages, which is especially strong if he has Flash up.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kha'Zix",
+        "difficulty": "Low",
+        "idmatchup": 227,
+        "tips": " | Kha'Zix doesn't benefit much from what Ivern has to offer. He doesn't have many problems sticking onto targets on his own, and he doesn't require peel. Synergy level goes higher if it's bruiser Kha'Zix.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kindred",
+        "difficulty": "Strong",
+        "idmatchup": 228,
+        "tips": " | Carry champion who benefits from Ivern's peel. Just like how you would against Kindred, put Daisy inside her R circle and stack 2 attacks on an enemy. This allows you to fire the knockup right as the Kindred R expires, which leads to easy kills.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kled",
+        "difficulty": "Ideal",
+        "idmatchup": 229,
+        "tips": " | Great champion to pair Ivern with. Kled can use his E/R to deliver Ivern slow, which then makes it impossible to escape his Q or his following auto attacks. Ivern's shielding also helps Kled's dismounted form by buying him more time to gather courage.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kog'Maw",
+        "difficulty": "Strong",
+        "idmatchup": 230,
+        "tips": " | Kog'Maw is a champion who relies on having allies who can peel him, and Ivern can do that job very well.",
+        "tipsFr": null
+    },
+    {
+        "championName": "LeBlanc",
+        "difficulty": "Ok",
+        "idmatchup": 231,
+        "tips": " | Easy to gank for, but as the game goes on Ivern and LeBlanc don't really have much synergy. You can E to protect her while she Ws in, but you'll rarely ever get the slow off since she'll return back before the shield pops.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lee Sin",
+        "difficulty": "Strong",
+        "idmatchup": 232,
+        "tips": " | Lee Sin can easily deliver Ivern's E slow, and having the enemy slowed by that much allows Lee to do things like guarantee Q or get behind the enemy for a good kick angle.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Leona",
+        "difficulty": "Ideal",
+        "idmatchup": 233,
+        "tips": " | Ivern and Leona are extremely oppressive to play against. This is because Leona can easily stick to the target using her Q and Ivern's E, and she has no problem with standing in the middle of a fight and hitting the shield on everyone. Even though you aren't peeling a high-priority carry, putting shields on Leona generates so much value.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lillia",
+        "difficulty": "Ok",
+        "idmatchup": 234,
+        "tips": " | Lillia can use her movement speed to clip enemies with Ivern's shield like how she would with Q. If Lillia is fed, this synergy is pretty good, but it's not very useful if the Lillia is behind.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lissandra",
+        "difficulty": "Ok",
+        "idmatchup": 235,
+        "tips": " | Lissandra can set up for you and create easy ganks. She's also strong in teamfights, which Ivern wants. However, Ivern and Lissandra don't really do much together after 10 minutes, making this synergy only ok.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lucian",
+        "difficulty": "Ok",
+        "idmatchup": 236,
+        "tips": " | Lucian is an ADC who trades damage for self-peel. This isn't as necessary with Ivern on the team, making him a weaker version of other carries. This synergy can be good into certain comps where the mobility is needed, but Ivern will almost always prefer a different ADC.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lulu",
+        "difficulty": "Low",
+        "idmatchup": 237,
+        "tips": " | Ivern and Lulu play very similar roles, making it redundant to put them in the same comp. It's worth noting that if Lulu puts pix on Ivern, Daisy will also apply fire the bolts, which can lead to a lot of damage. This isn't enough to make this synergy not bad, but it's good for an unexpected kill or two.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lux",
+        "difficulty": "Low",
+        "idmatchup": 238,
+        "tips": " | Lux doesn't really need consistent shield peel and will never apply Ivern's slow. The best way to play around Lux is to just give her bushes to throw skillshots out of. There isn't much you two can do together.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Malphite",
+        "difficulty": "Strong",
+        "idmatchup": 239,
+        "tips": " | Teamfight champion who is also surprisingly easy to gank for (even pre-6). You might be wondering why you'd want to gank for Malphite, but there are certain matchups like Jax or Tryndamere where if Malphite gets a small lead he can completely shut them out from playing the game. Towards the mid-late game, Malphite and Ivern's interests line up since they both want to teamfight.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Malzahar",
+        "difficulty": "Low",
+        "idmatchup": 240,
+        "tips": " | Very weak combo in 2v2s, and Ivern doesn't capitalize as hard on Malzahar's Level 6 spike as much as other junglers. The prio that he creates is nice for keeping your jungle safe from invades, but that's about it.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Maokai",
+        "difficulty": "Ideal",
+        "idmatchup": 241,
+        "tips": " | Maokai is very good at just going in on a target, which is great for Ivern E. This makes any Maokai lane incredibly easy to gank for. His saplings also power up from being thrown inside Ivern bushes, which doesn't mean much for tank Maokai but is extremely op with his AP variants.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Master Yi",
+        "difficulty": "Strong",
+        "idmatchup": 242,
+        "tips": " | Master Yi with shielding is incredibly strong, and Ivern is the best champion for shielding melees. If Yi falls behind you can't help him very much, but if he's even or ahead he's unkillable when paired with Ivern and can just right click the entire enemy team to death. Master Yi is great at chasing, but can be difficult to keep up with since he's so fast. A good Yi player will understand this and use his movement speed to occasionally step back for a shield before running back in, but very few players will do this. Regardless of if he makes your life easier or not, fighting with Yi is reliant on how many shields you can get onto him, and the more you can land the stronger he is.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Milio",
+        "difficulty": "None",
+        "idmatchup": 243,
+        "tips": " | Same case as Janna, where you provide such similar roles to a comp that it ends up being redundant.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Miss Fortune",
+        "difficulty": "Low",
+        "idmatchup": 244,
+        "tips": " | It's easy to gank for her and you can hide her in your bushes to set up her ult angle, but neither champion really gets what they want from eachother. Ivern prefers champions who can benefit from his peel and MF prefers champions who mass CC for her ultimate.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Mordekaiser",
+        "difficulty": "Ok",
+        "idmatchup": 245,
+        "tips": " | Morde likes having his enemies be slowed, but doesn't have any reliable way to get into range to land Ivern's shield. For this reason, Ivern and Morde's 2v2 is very strong, but he's otherwise difficult to gank for. It's also worth noting that while Ivern's E counts as the ally's spell damage, it doesn't stack Morde's passive.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Morgana",
+        "difficulty": "Low",
+        "idmatchup": 246,
+        "tips": " | Ivern can hide Morgana to set up easy Qs or create pressure and he can peel Morgana to allow her to ult more aggressively. Other than those, Ivern and Morgana can't do much together.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Naafiri",
+        "difficulty": "Strong",
+        "idmatchup": 247,
+        "tips": " | Mobile melee champion who has super consistent ways of getting on top of enemies with E and W. This makes her very good when paired with Ivern, since she makes good use of both the shield and slow.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nami",
+        "difficulty": "Ideal",
+        "idmatchup": 248,
+        "tips": " | Surprisingly good synergy. Nami's E works well with Daisy and Ivern's CC easily sets up Nami's Q. This was my preferred support champion during my time playing Ivern ADC.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nasus",
+        "difficulty": "Ok",
+        "idmatchup": 249,
+        "tips": " | Strong with Ivern towards the mid-late game, but his early game is very weak. This leads to him giving up prio and giving opportunities for the enemy jungler to take control of Ivern's camps.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nautilus",
+        "difficulty": "Strong",
+        "idmatchup": 250,
+        "tips": " | Easy to gank for. Nautilus is good with Ivern since he can easily pick out and stick to a target, making Ivern's job as simple as pressing E on him. Nautilus also greatly benefits from hiding in Ivern's bushes.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Neeko",
+        "difficulty": "Ok",
+        "idmatchup": 251,
+        "tips": " | There's a lot of options when ganking for a Neeko lane, since she can root or just run in with W to deliver Ivern's shield. Neeko is also very good at pretending to be Ivern since she can walk in and out of his bushes. Overall not a bad synergy, but not a great one either.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nidalee",
+        "difficulty": "Low",
+        "idmatchup": 252,
+        "tips": " | Nidalee loves champions who set up her spear like Pantheon or Renekton, but Ivern doesn't have any consistent ways of doing that. Synergy is slightly stronger with bruiser Nidalee, but is pretty dead on her AP assassin variants.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nilah",
+        "difficulty": "Ideal",
+        "idmatchup": 253,
+        "tips": " | Nilah has a passive that buffs shielding, and also goes has multiple dashes to go in. She is the ideal champion for Ivern. Your E lets her slow and secure her ult while also having increased shielding on her and granting you a small copy of it. I consider Nilah the best Ivern synergy at the moment.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nocturne",
+        "difficulty": "Ideal",
+        "idmatchup": 254,
+        "tips": " | If you place bushes, Nocturne ult makes it impossible for the enemy to see into them. This can make your entire team invisible for 6 seconds and is absolutely fight winning if you can coordinate it properly. Nocturne also benefits greatly from Ivern's E for sticking to targets and right clicking them to death.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Nunu & Willump",
+        "difficulty": "Low",
+        "idmatchup": 255,
+        "tips": " | Supporting Nunu doesn't do much, and he hardly benefits from any component of Ivern's E. You can hide his ult with W, but it's not that useful.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Olaf",
+        "difficulty": "Ideal",
+        "idmatchup": 256,
+        "tips": " | Super strong synergy. Since Olaf goes CC immune, the only things that stops him are taking too much damage or enemies getting away, which are both solved with Ivern's E.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Orianna",
+        "difficulty": "Low",
+        "idmatchup": 257,
+        "tips": " | Surprisingly strong 2v2, but as the game goes on there isn't much synergy between Orianna and Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ornn",
+        "difficulty": "Ok",
+        "idmatchup": 258,
+        "tips": " | Ornn provides a lot of teamfighting power, but doesn't synergize much with Ivern. He's not a bad champion to have on your team since both Ornn and Ivern want to teamfight, but not great either since Ivern can't play off him as easily as other tanks.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Pantheon",
+        "difficulty": "Ideal",
+        "idmatchup": 259,
+        "tips": " | Pantheon's W engage is super consistent, which allows him and Ivern to chain stun into root into slow. Ivern and Pantheon has one of the most disgusting 2v2s, and their power even holds up later into the game when Pantheon is supposed to have fallen off.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Poppy",
+        "difficulty": "Strong",
+        "idmatchup": 260,
+        "tips": " | Poppy is a super mobile tank who can easily bring Ivern's shield into the middle of multiple enemies. When paired with a champion who can follow this up like a mage, this becomes a great combo. Since Ivern slows and Poppy can deny dashes, it's very hard to run from the two of you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Pyke",
+        "difficulty": "Strong",
+        "idmatchup": 261,
+        "tips": " | Amazing early game synergy, only held back by it falling off later into the game. During the early game, Pyke is able to easily deliver Ivern's slow with either W or E, and can then use it to confirm his hook or Ivern's Q. Even ignoring the slow, Pyke is a champion that becomes OP if he can be durable, which is why Riot took so many measures to make sure he didn't. However, since Ivern can make him tanky (at least for the early game), Pyke with Ivern will just steamroll early skirmishes for free.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Qiyana",
+        "difficulty": "Ok",
+        "idmatchup": 262,
+        "tips": " | Qiyana is easy to play with in the early game due to her mobility for delivering the E slow, but towards later stages of the game Ivern can't do much with her. The best you can do is hide Qiyana in a bush for an unexpected engage.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Quinn",
+        "difficulty": "Low",
+        "idmatchup": 263,
+        "tips": " | As an ADC, you can peel for Quinn in fights, but that's about it. It's hard to gank from her and your 2v2 as Quinn+Ivern absolutely sucks.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rakan",
+        "difficulty": "Strong",
+        "idmatchup": 264,
+        "tips": " | Very good synergy. Not only can he set up easy ganks and deliver the E slow, but he also gets a lot out of being shielded since he's usually trying to run through the enemy team.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rammus",
+        "difficulty": "Ok",
+        "idmatchup": 265,
+        "tips": " | Ok. Similar to Poppy in that he's a mobile tank who can deliver Ivern's E slows, but much less flexible than her.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rek'Sai",
+        "difficulty": "Ideal",
+        "idmatchup": 266,
+        "tips": " | Extremely strong. Ivern can keep Rek'Sai alive for extremely long, and Rek'Sai works great with the slow that the shield provides. She can also take your Q dash for an immediate 0-counterplay knockup without having to use Flash or E.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rell",
+        "difficulty": "Strong",
+        "idmatchup": 267,
+        "tips": " | Rell's goal is to dive into the middle of as many people as possible, which makes giving her an Ivern shield that much more powerful. Depending on how you time it, you can either make her R even more difficult to resist or slow enemies right as they're released from it. Also very easy to gank for.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Renata Glasc",
+        "difficulty": "Ok",
+        "idmatchup": 268,
+        "tips": " | While also being an enchanter-type champion, Renata's abilities have little crossover with Ivern's, making them decent to run together. Renata's ult can be cast from Ivern's bush, so make sure to abuse it for easy teamfight wins.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Renekton",
+        "difficulty": "Strong",
+        "idmatchup": 269,
+        "tips": " | Renekton is great at going in, which is good news for Ivern. He can go into the middle of the enemy team to pop your slow, and you can use shields to stall for his healing, making him very difficult to kill.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rengar",
+        "difficulty": "Ideal",
+        "idmatchup": 270,
+        "tips": " | Bushes. Keep in mind that while being very strong, this combo does require good execution from both the Rengar and the Ivern player, so it often ends up being less strong than some of the more braindead combos like Nilah or Pantheon",
+        "tipsFr": null
+    },
+    {
+        "championName": "Riven",
+        "difficulty": "Ideal",
+        "idmatchup": 271,
+        "tips": " | Riven has a lot of dashes to deliver your shield, which makes Ivern and Riven very difficult to run from. Riven also greatly benefits from the extra survivability since she can facetank 2-3 people without it mattering very much.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rumble",
+        "difficulty": "Strong",
+        "idmatchup": 272,
+        "tips": " | While Rumble doesn't have the immediate gap closers or CC to make ganking him easy, Rumble Ivern is very strong if Rumble can get ahead. This is because the slow can trap enemies in his Q, causing them to just burn to death if they don't have mobility spells.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ryze",
+        "difficulty": "Ok",
+        "idmatchup": 273,
+        "tips": " | He sets up ganks well and can roam with you, but usually isnt the kind of champion who you can spam peel for until very late into the game. Not terrible but not preferred.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Samira",
+        "difficulty": "Ideal",
+        "idmatchup": 274,
+        "tips": " | ADC who goes in. Since she's naturally squishy, Samira is a perfect target for Ivern to peel. If paired with an engage support, they become one of the most powerful 3v3s in the game.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sejuani",
+        "difficulty": "Ideal",
+        "idmatchup": 275,
+        "tips": " | Mobile tank who greatly benefits from sticking on targets to stack her E. Because of this, Sejuani is surprisingly good with Ivern as a frontliner. I'd consider Sejuani as the best non-support tank to pair with Ivern.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Senna",
+        "difficulty": "None",
+        "idmatchup": 276,
+        "tips": " | You can peel for her and chain cc, but nothing really stands out. Senna lanes are also usually very difficult to successfully gank.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Seraphine",
+        "difficulty": "Strong",
+        "idmatchup": 277,
+        "tips": " | Teamfighting mage who has a lot of followup to CC. If you send Daisy in, Seraphine is great at turning just a single slow into a long CC chain. She's also a great target to peel, since by shielding her it can turn into aoe healing for the rest of the team. This leads to some absolutely disgusting teamfights with very little counterplay.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sett",
+        "difficulty": "Ok",
+        "idmatchup": 278,
+        "tips": " | He can deliver your E slow which is nice, but he isn't as good at playing off of it compared to other fighters, bruisers, tanks, etc. Synergy is a bit higher when in the support role since he can roam with you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Shaco",
+        "difficulty": "Ok",
+        "idmatchup": 279,
+        "tips": " | You can shield him so that he slows right out of invis, which is pretty strong. However, Ivern Shaco synergy is pretty limited. Not terrible but not good.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Shen",
+        "difficulty": "Strong",
+        "idmatchup": 280,
+        "tips": " | Very easy to gank for, and also very good when played in a teamfight. Shen can dash with an Ivern E directly into the enemy team. Countered by Serpent's Fang.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Shyvana",
+        "difficulty": "Strong",
+        "idmatchup": 281,
+        "tips": " | Great with her AD variants but very bad when she builds AP. This is because AD shyvana is trying to constantly attack and stick to targets, whereas AP will try to land high-damage poke.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Singed",
+        "difficulty": "Ideal",
+        "idmatchup": 282,
+        "tips": " | Singed wants to run into the enemy team, so any champion who can facilitate that is great. Ivern is by far the best champion for this job. Being run over by Singed with Ivern's E is completely oppressive since there's no real way to escape.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sion",
+        "difficulty": "Ok",
+        "idmatchup": 283,
+        "tips": " | Sion makes for a great teamfighting frontline champion (which is good for Ivern), but he doesn't benefit that much from anything that Ivern can do.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sivir",
+        "difficulty": "Strong",
+        "idmatchup": 284,
+        "tips": " | Peel for her in a teamfight and she will kill everyone. However, anything before then can be difficult due to how little Sivir does early.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Skarner",
+        "difficulty": "Ideal",
+        "idmatchup": 285,
+        "tips": " | Skarner is a champion who's entire kit is balanced by him having to run at you, so anything that makes that process easier (such as Ivern Q/E) are great with him.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sona",
+        "difficulty": "Strong",
+        "idmatchup": 286,
+        "tips": " | Very weak early which can force you into positions where you need to give resources and fall behind, but the late game is well worth it. Focus mainly on peeling Sona, as she'll heal up he rest of the team as long as she stays up.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Soraka",
+        "difficulty": "Ok",
+        "idmatchup": 287,
+        "tips": " | When paired with a good hypercarry, Soraka Ivern provides an extremely high amount of peel which can make the carry unkillable. However, Soraka lanes are difficult to gank for so it'll be difficult to get them that lead in the first place.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Swain",
+        "difficulty": "Strong",
+        "idmatchup": 288,
+        "tips": " | Swain wants to stand near as many people as he can safely manage, so putting shields on him not only makes it harder to escape but also grants him the leeway to position more aggressively during his R.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sylas",
+        "difficulty": "Ideal",
+        "idmatchup": 289,
+        "tips": " | Sylas is very easy to gank and skirmish around as Ivern. Most Sylas players will also heavy-trade mid, which means that you'll have plenty of timers to hard-win his lane.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Syndra",
+        "difficulty": "Strong",
+        "idmatchup": 290,
+        "tips": " | Ivern and Syndra aren't that good together on paper, but there's one combo that turns them to OP status. Since Syndra's W works on jungle camps, Syndra can pick up enemy camps from 925 range away and chuck them another 950 range towards you. This leads to the most oppressive and uninterative jungle theft possible in the game. (I've seen Ivern+Syndra in pro play many times, and none of them abuse this. Multiple pro losses would've been free wins if they knew about this simple trick.)",
+        "tipsFr": null
+    },
+    {
+        "championName": "Tahm Kench",
+        "difficulty": "Strong",
+        "idmatchup": 291,
+        "tips": " | Easy to gank for, and your slows not only help him line up his Q but also allow him to stack up his passive easier. In teamfights, he's a good wall to play front-back with and you can spam E on him to slow the enemy team.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Taliyah",
+        "difficulty": "Ok",
+        "idmatchup": 292,
+        "tips": " | She sets up ganks well and can follow up off of your Daisy engage, but Taliyah isn't as good of a champion to spam shield on when compared to melee mids or higher damage control mages.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Talon",
+        "difficulty": "Ok",
+        "idmatchup": 293,
+        "tips": " | He can go in with Q to deliver your shield, and you can set up dives in sidelane using his roaming. The early game synergy is good, but towards the late game you shield him much since he'll be looking for flanks with his E.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Taric",
+        "difficulty": "Ideal",
+        "idmatchup": 294,
+        "tips": " | Extremely OP, especially if you and Taric have good coordination. Taric is incredibly strong when he has a target to hit with his passive, but has a hard time sticking onto them. With Ivern's slow, Taric is free to auto attack them to death and spam all of his spells. Taric can also confirm his stun using Ivern's Q dash, and your bushes hide his ult.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Teemo",
+        "difficulty": "Low",
+        "idmatchup": 295,
+        "tips": " | Not a preferable top laner. He's difficult to gank for and has a hard time abusing the enemy top laner with dive threat to capitalize on Teemo's nature as a lane bully.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Thresh",
+        "difficulty": "Strong",
+        "idmatchup": 296,
+        "tips": " | Engage support who can set up ganks well. Ivern and Thresh's CC chain is super disgusting, which makes roaming with him also very strong.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Tristana",
+        "difficulty": "Ok",
+        "idmatchup": 297,
+        "tips": " | She can jump in to deliver your E slow, but if you try to do that while ganking, you run the risk of getting counterganked and Tristana easily dying. If it's Tristana mid, hover her when she's pushing up so she can safely get plates with her E.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Trundle",
+        "difficulty": "Strong",
+        "idmatchup": 298,
+        "tips": " | Trundle likes to run at people, and Ivern's E helps with that a lot.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Tryndamere",
+        "difficulty": "Ok",
+        "idmatchup": 299,
+        "tips": " | Good synergy, but not as good as you might expect. He benefits greatly from the slow, but not as much from the shield outside of super early-game. Easy to gank for and 2v2 with, but don't expect to see him much later as he'll be splitting.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Twisted Fate",
+        "difficulty": "Low",
+        "idmatchup": 300,
+        "tips": " | He sets up ganks well, but prefers junglers who can follow up his CC with damage more effectively.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Twitch",
+        "difficulty": "Ok",
+        "idmatchup": 301,
+        "tips": " | Peeling for him is good, but there isn't much synergy with Twitch before late game teamfights. Shield him super early so that the second shield applies right as he reveals himself, which allows you to protect him at the start of the fight while having another E ready shortly after.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Udyr",
+        "difficulty": "Strong",
+        "idmatchup": 302,
+        "tips": " | Udyr is a champion who likes running at people, which Ivern's E helps with significantly. On his AD builds, Ivern helps Udyr stick to targets better and lets him run them down with autos. For his AP variants, Ivern helps Udyr run into the middle of a fight and recast R while deeper into the enemy team.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Urgot",
+        "difficulty": "Strong",
+        "idmatchup": 303,
+        "tips": " | Urgot has good synergy with Ivern since he's able to use the slow to not only stick onto a target, but also have an easier time landing Q/R. He's a bit more difficult to gank for than most other top laners, but skirmishing with him in the river for Scuttle Crab or Rift Herald is generally very strong.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Varus",
+        "difficulty": "Ok",
+        "idmatchup": 304,
+        "tips": " | Lethal Tempo ADC/Onhit Varus is good to peel in fights, but there's not a lot of synergy with his AP or Lethality poke builds. Varus has a lot of ways to follow up CC, so setting up dives with him is strong.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vayne",
+        "difficulty": "Ideal",
+        "idmatchup": 305,
+        "tips": " | Vayne benefits extremely heavily from Ivern's shields, since not only is the protection good but also because her short range means the shields will likely hit targets that are trying to get on her, allowing her to kite and space them easily.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Veigar",
+        "difficulty": "Low",
+        "idmatchup": 306,
+        "tips": " | Veigar provides gank setup with his cage, but doesn't really benefit from Ivern's kit in any way.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vel'Koz",
+        "difficulty": "Low",
+        "idmatchup": 307,
+        "tips": " | He can chain his CC off of yours and use it to land his abilities, but other than that you don't interact with Vel'Koz in many meaningful ways. Use bushes to hide him for easier poke.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vex",
+        "difficulty": "Ok",
+        "idmatchup": 308,
+        "tips": " | Easy to gank for, and surprisingly good with Ivern in skirmishes. Shield Vex as she's about to go in with R.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vi",
+        "difficulty": "Strong",
+        "idmatchup": 309,
+        "tips": " | Vi goes from being hard to run away from to being impossible with an Ivern. Not only can you protect her and have her deliver the E slow, but you can also layer Q and R on top of her ult's guaranteed CC.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Viego",
+        "difficulty": "Ideal",
+        "idmatchup": 310,
+        "tips": " | Viego is a melee carry champion who only really wants one thing, which is to live long enough to use his passive. As Ivern, you can help this by not only locking down a target with CC, but also shielding him to keep him alive. Your E also counts as the target's spell damage, so the explosion will spread Viego's doublehit passive.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Viktor",
+        "difficulty": "Ok",
+        "idmatchup": 311,
+        "tips": " | Difficult to gank for or play around early, and peeling for him only becomes strong later into the game when he has his abilities evolved and 3+ items.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vladimir",
+        "difficulty": "Strong",
+        "idmatchup": 312,
+        "tips": " | Difficult to gank for, but is super strong with Ivern mid-late game. Vlad's goal is to pool into the middle of the enemy team, which means that Ivern can get a lot of value out of his shield slow. Shielding Vlad is also very good since it can stall for his healing, making him much harder to kill. Buy Shurelya's to speed him up.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Volibear",
+        "difficulty": "Ok",
+        "idmatchup": 313,
+        "tips": " | Volibear is good with Ivern since he can run at people and reliably deliver Ivern's shield slow. That said, he doesn't benefit from the shield or the slow nearly as much as other champions who run in like Trundle or Skarner (unless Voli is building damage).",
+        "tipsFr": null
+    },
+    {
+        "championName": "Warwick",
+        "difficulty": "Strong",
+        "idmatchup": 314,
+        "tips": " | He benefits from being able to run his enemies down with Ivern's E slow and the shield also stalls for his healing.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Wukong",
+        "difficulty": "Strong",
+        "idmatchup": 315,
+        "tips": " | Benefits greatly from shielding, but usually goes in too deep for other enchanter champions to follow. The first shield is free since it's as he's going in, but if you find a way to get a second or third as he's entered the middle of the fight, it's incredibly good. Buy Shurelya's for the self movement speed, since it allows you to walk up, shield Wukong, and then use the speed boost to run back. Outside of that, he's also just strong at delivering Ivern's E slow.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Xayah",
+        "difficulty": "Ok",
+        "idmatchup": 316,
+        "tips": " | ADC with a lot of strong self-peel. As a hypercarry, she's still a great champion to peel as Ivern, but doesn't need it as much as other carries like Jinx or Kog'Maw.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Xerath",
+        "difficulty": "Low",
+        "idmatchup": 317,
+        "tips": " | Xerath is great at following up CC since they guarantee his abilities, but doesn't have much for Ivern to play off of. If you have a teammate who can dive in with the Ivern shield, the Xerath synergy becomes much better since he can act as a followup to it. However, just Xerath and Ivern alone do not work very well with eachother.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Xin Zhao",
+        "difficulty": "Strong",
+        "idmatchup": 318,
+        "tips": " | Xin Zhao is great with Ivern's shields since he benefits from both the shield and slow. If you have a Xin Zhao mid/top on your team, his lane is extremely easy to gank due to his consistent engage and CC.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yasuo",
+        "difficulty": "Strong",
+        "idmatchup": 319,
+        "tips": " | Yasuo is a squishy melee champion whose value gets significantly increased when paired with Ivern's shielding. He's easy to gank for since he has so many ways to dash onto enemies in lane, and you win almost every 2v2 with him. The best time to gank a Yasuo is after he stacks his first Q, since he'll use his second Q as he's going in and then have his tornado right as the enemy gets slowed by the Ivern shield.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yone",
+        "difficulty": "Ideal",
+        "idmatchup": 320,
+        "tips": " | Yone has many ways of going in with Q3, E, or R, and is only really held back by his squishiness and lack of CC to lock down his targets. Ivern provides both of these. Because of this, Ivern and Yone win every 2v2 matchup and can even win a lot of 2v3s without being ahead. Yone's effectiveness in teamfights is also dramatically increased since he doesn't need to rely on a good R angle as much and can just hit people with Ivern protecting him.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yorick",
+        "difficulty": "Low",
+        "idmatchup": 321,
+        "tips": " | Has a decent amount of gank setup with his W and benefits a lot from your slows. However, you won't be interacting with him much after laning phase ends. Ivern and Yorick aren't bad when fighting together, but Ivern generally prefers a top laner that he can teamfight with.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yuumi",
+        "difficulty": "None",
+        "idmatchup": 322,
+        "tips": " | Yuumi provides barely any gank setup or roaming power, and her sole purpose is to make the ADC harder to kill, something that Ivern already does. Since Yuumi is now primarily a shielding champ instead of healing, it also means Serpent's Fang can completely ruin your comp if you two end up on the same team.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zac",
+        "difficulty": "Strong",
+        "idmatchup": 323,
+        "tips": " | Zac is a tank who likes to jump directly into the enemy team, making him a great target for a shield as he's about to jump in. Your bushes can hide his slingshot charge, and your shields can stall for his blob healing.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zed",
+        "difficulty": "Ok",
+        "idmatchup": 324,
+        "tips": " | On paper Ivern and Zed have great synergy, but it requires very good coordination to use, making it much less viable in solo queue. If timed correctly, Ivern's E can be used as Zed goes in with W or R, and the slow allows him to easily land his double/triple shuriken. However if timed wrong, the shield does basically nothing.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zeri",
+        "difficulty": "Strong",
+        "idmatchup": 325,
+        "tips": " | Hypercarry champion who becomes basically unkillable with Ivern shielding her. When protected with shields, Zeri is able to walk up a lot further and even sometimes use her movement speed to pop the slow on a target before running back.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ziggs",
+        "difficulty": "Low",
+        "idmatchup": 326,
+        "tips": " | Poke champion who doesn't benefit from Ivern's shielding much. The best you can do for him is to use Ivern's natural strength in objective fights to secure rift heralds to help him blow up towers.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zilean",
+        "difficulty": "Low",
+        "idmatchup": 327,
+        "tips": " | Zilean is good at setting up ganks, but doesn't do much with Ivern during the mid-late game. It can work with the right comp, but most of the time Zilean and Ivern aren't good together.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zoe",
+        "difficulty": "Ok",
+        "idmatchup": 328,
+        "tips": " | Similarly to Ziggs and Xerath, Zoe doesn't get as much out of being peeled as champions with more consistent dps. However, Zoe is a special case because there are many cases when Zoe actually will go up close to enemies. For example, if you shield her and she Rs in at the right time, it can not only pop the slow but also secure Zoe's sleep bubble.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zyra",
+        "difficulty": "Ok",
+        "idmatchup": 329,
+        "tips": " | While Ivern prefers melee supports, there are still ways to work with her. Zyra is great at following up CC, so having her on your team makes it more viable to engage with Daisy. If you clip a few enemy champions with the slow, Zyra will be able to follow it up with E+R. You can also hide her in a bush to make her E/R less predictable.",
+        "tipsFr": null
+    }
+]

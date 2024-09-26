@@ -97,7 +97,7 @@ export class MatchupsComponent {
       this.renderer.addClass(textElement, 'fade');
     }, 50); 
 
-    this.http.get<any[]>('assets/jsonDatas/AllChampions.json').subscribe((data) => {
+    this.http.get<any[]>('assets/jsonChampionsDatas/AllChampions.json').subscribe((data) => {
       this.champions = data
         .map((item) => ({
           name: item.championName.trim(),
@@ -119,8 +119,8 @@ export class MatchupsComponent {
     selectedChampion2: string
   ) {
     try {
-      let urlJson = 'assets/jsonDatas/' + this.getValidChampionName(selectedChampion1) + '.json';
-      let urlJson2 = 'assets/jsonDatas/' + this.getValidChampionName(selectedChampion2) + '.json';
+      let urlJson = 'assets/jsonChampionsDatas/' + this.getValidChampionName(selectedChampion1) + '.json';
+      let urlJson2 = 'assets/jsonChampionsDatas/' + this.getValidChampionName(selectedChampion2) + '.json';
       const dataChampions1 = await lastValueFrom(this.http.get<any[]>(urlJson));
       const dataChampions2 = await lastValueFrom(
         this.http.get<any[]>(urlJson2)
@@ -223,7 +223,7 @@ export class MatchupsComponent {
 
   async getAuthorByChampion(championName: string) {
     try {
-      let urlJson = 'assets/jsonDatas/AllGuides.json';
+      let urlJson = 'assets/jsonChampionsDatas/AllGuides.json';
       const data = await lastValueFrom(this.http.get<any[]>(urlJson));
       this.author = data.find((obj) =>
         obj.champion.toLowerCase().includes(championName.toLowerCase())

@@ -120,6 +120,8 @@ h6{    font-family: "Roboto";
   }
   .divStats{
     background-color: var(--rl-blue-bkgtext);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
   .divMecanic{
@@ -130,6 +132,7 @@ h6{    font-family: "Roboto";
   flex: 1 1 calc(33.33% - 10px);
   transition: 0.2s transform ease-in-out, 0.2s filter ease-in-out;
   z-index: 9;
+  border-radius: 10px;
   }
 
   .divMecanic:hover{
@@ -143,6 +146,7 @@ h6{    font-family: "Roboto";
     width: -webkit-fill-available;
     width: -moz-available;
     height: 160px;
+    border-radius: 10px;
   }
   .divAllMecanics{
     margin-top: 30px;

@@ -147,7 +147,7 @@
               </div>
             </div>
             <div class="divStatsUnique" [ngStyle]="{'background-color': getBackgroundColorUtility(mecanic.utility)}"
-              style="border-top: 3px solid white;">
+              style="border-top: 3px solid white;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">
               <h5 [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"></h5>
               <div class="star-rating">
                 <span *ngFor="let star of stars; let i = index" class="fa-star" [ngClass]="{

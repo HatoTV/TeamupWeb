@@ -14,7 +14,12 @@ import { ScrollService } from '../../scroll.service';
 export class LaningComponent {
   constructor(private elementRef: ElementRef,private scrollService: ScrollService) { }
   @ViewChild('scrollContainer') private scrollContainer!: ElementRef;
-
+  ngAfterViewInit() {
+    const document = this.elementRef.nativeElement.ownerDocument;
+    const body = document.body;
+    body.style.background =
+      'linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))';
+  }
   scrollToElement(sectionId: string) {
     const element = document.getElementById(sectionId);
     if (element && this.scrollContainer) {

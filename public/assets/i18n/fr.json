@@ -42,7 +42,7 @@
       "CONTENT2":{
         "INTRO1" : "Il existe 3 types de vagues de sbires :",
         "LIST1" : "<bold>Vague standard :</bold> composée de 3 sbires de mêlée et 3 sbires à distance.",
-        "LIST2" : "<bold>Vague canon :</bold> une vague standard + un sbire canon.",
+        "LIST2" : "<bold>Vague canon (siege) :</bold> une vague standard + un sbire canon.",
         "LIST3" : "<bold>Super vague :</bold> une vague standard + un super sbire.",
         "INTRO2" :"Les sbires apparaissent pour la première fois à 1:05, puis toutes les 30 secondes jusqu'à la fin de la partie.\nLe cycle d'apparition des vagues est le suivant :",
         "LIST5" :"<bold>Durant les 20 premières minutes :</bold> Vague standard -> Vague standard -> Vague canon.",
@@ -105,7 +105,7 @@
       "TITLE0":"Le Laning",
       "SUBTITLE0":"Dominez votre adversaire dès les premières minutes !",
       "CONTENT1":{
-        "INTRO1":"Que vous soyez en top, mid ou bot lane, votre performance durant cette phase initiale peut fortement influencer le reste de la partie. <br><br>Chaque rôle en lane requiert une maîtrise des mécaniques de combat, du positionnement et de la gestion des ressources pour surpasser votre adversaire direct.",
+        "INTRO1":"Chaque rôle en lane requiert une maîtrise des mécaniques de combat, du positionnement et de la gestion des ressources pour surpasser votre adversaire direct.",
         "LIST1":"En top lane, il s’agit souvent de duels prolongés et de gestion de la téléportation.",
         "LIST2":"En mid lane, la priorité est de contrôler la carte et d'effectuer des rotations efficaces.",
         "LIST3":"En bot lane, la coordination avec votre support et la gestion des échanges sont essentielles.",
@@ -123,7 +123,7 @@
         "LIST4" : "<bold>Poke l’adversaire :</bold> Le poke consiste à harceler l’ennemi avec des attaques à distance ou des compétences, réduisant progressivement sa santé sans s'engager dans un combat direct. Cela force souvent l’adversaire à jouer défensivement, à manquer des sbires ou à consommer ses ressources (potions, sorts de soin). Certains champions sont plus efficaces pour poke en fonction de leur kit (par exemple, Ziggs ou Xerath sont bien plus efficaces qu’un Garen). Une fois l’ennemi affaibli, engagez un combat plus agressif lorsque sa situation est défavorable.",
         "LIST5" : "<bold>Gérez votre spacing :</bold> Le spacing fait référence à la gestion de la distance entre vous et votre adversaire pour maximiser vos actions tout en minimisant les risques. Assurez-vous d'être à la distance optimale pour utiliser vos compétences tout en restant hors de portée des siennes. Si vous êtes un champion à distance face à un champion de mêlée, abusez de votre portée pour le harceler avec des auto-attaques sans lui permettre de farmer facilement."
       },
-      "CONTENT51":"<italic>Astuce :</italic> Utilisez les buissons pour casser la vision de votre adversaire pendant un combat. Cela peut l'empêcher de vous cibler avec des compétences ou des auto-attaques, tandis que vous pouvez continuer à l’agresser.",
+      "CONTENT51":"<italic>Astuce :</italic> Utilisez les buissons pour casser la vision de votre adversaire pendant un combat. Cela peut l'empêcher de vous cibler avec des compétences ou des auto-attaques, tandis que vous pouvez continuer à l’agresser.<br><br>N'importe quel type d'ennemi stoppe son aggression s'il perd la vision.",
       "CONTENT5":"Les trades sont encore plus avantageux si vous avez un niveau supérieur à votre adversaire ou venez d'obtenir un powerspike (gain de puissance via un sort ou un objet). De plus, une bonne gestion des vagues (wave management) peut vous aider à optimiser vos trades tout en minimisant la perte de ressources.<br>Attention toutefois au moment où vous engagez un trade. Un adversaire près de sa tour avec sa barre de vie pleine sera difficile à menacer. De plus, si vous commencez un trade et vous faites gank immédiatement après, vos chances de survie seront réduites, car vous aurez vos sorts en cooldown.<br><br>Certains matchups rendent les trades plus ou moins compliqués, nécessitant une approche spécifique (sorts précis en cooldown, trades courts ou longs). <br>Consultez la section 'Matchups' pour mieux comprendre les forces et faiblesses de votre champion contre d’autres.",
       "TITLE6":"Bait les sorts ennemis",
       "CONTENT6":"Le bait de sorts en lane est une tactique stratégique dans League of Legends. Bait signifie 'appâter', et ici, cela consiste à inciter votre adversaire à utiliser une capacité de manière inefficace, créant ainsi une opportunité pour vous.",
@@ -160,9 +160,9 @@
       "TITLE2":"Chemins de Jungle",
       "CONTENT2":{
         "INTRO1":"Il existe plusieurs routes de jungle possibles, et cette décision doit être prise dès l'écran de chargement :",
-        "LIST1" : "<bold>Full Clear :</bold> Faire les 6 camps de la jungle -> Carapateur -> Gank ou back.<br>C’est la stratégie la plus courante en Saison 14, car le farm est priorisé dans la méta actuelle. Cela peut toutefois évoluer dans les prochaines saisons.",
-        "LIST2" : "<bold>3 Camps :</bold> Faire les 3 camps d’un côté (Red ou Blue) -> Ganker le même côté.<br>Ce chemin est utile si vous souhaitez mettre de la pression rapidement en début de partie pour donner un avantage à une de vos lanes. Attention cependant, si le gank échoue, vous risquez de perdre beaucoup de temps.",
-        "LIST3" : "<bold>1 Camp + Invade :</bold> Faire son Red ou Blue, puis envahir directement la jungle adverse sur le même côté.<br>Cela ne doit être tenté que si vous êtes sûr que le jungler adverse a commencé de l'autre côté (ex. : commencer Red et invade Red si l'ennemi commence au Blue). Attention aussi aux possibles rotations des laners adverses."
+        "LIST1" : "<bold>Full Clear :</bold> 6 Camps -> Carapateur -> Gank ou back.<br>C’est la stratégie la plus courante en Saison 14, car le farm est priorisé dans la méta actuelle. Cela peut toutefois évoluer dans les prochaines saisons.",
+        "LIST2" : "<bold>3 Camps</bold> -> Gank :<br>Ce chemin est utile si vous souhaitez mettre de la pression rapidement en début de partie pour donner un avantage à une de vos lanes, ou si votre champion a une faible vitesse de clear la jungle. Attention cependant, si le gank échoue, vous risquez de perdre beaucoup de temps.",
+        "LIST3" : "<bold>1 Camp + Invade :</bold><br>Faire son Red ou Blue, puis envahir directement la jungle adverse sur le même côté.<br>Cela ne doit être tenté que si vous êtes sûr que le jungler adverse a commencé de l'autre côté (ex. : commencer Red et invade Blue si l'ennemi commence au Red).<br>Attention aussi aux possibles rotations des laners adverses."
       },
       "SUBTITLE3" : "Bot ou Top ?",
       "CONTENT3":{
@@ -205,10 +205,10 @@
       "TITLE4" : "Concepts & Lexique",
       "CONTENT1" : {
         "INTRO0" : "Comprendre les statistiques des champions est crucial pour une bonne itemisation.<br>Chaque statistique influe sur la manière dont un champion se comporte en combat, et savoir comment elles interagissent avec les objets peut faire une grande différence dans vos décisions stratégiques. <br><br>Dans cette section, nous allons examiner en détail chaque statistique, en expliquant comment elles impactent votre jeu et comment les utiliser pour choisir les meilleurs objets pour chaque situation.",
-        "LIST1" : "<img src='assets/img/icons/attackDamage.webp'/> <bold>Dégâts d'Attaque :</bold> Principalement utilisé par les ADC, assassins et bruisers, l'AD augmente les dégâts physiques des attaques de base et certaines compétences.",
-        "LIST2" : "<img src='assets/img/icons/abilityPower.webp'/> <bold>Puissance :</bold> Utilisé par les mages, supports et certains assassins, l'AP améliore les dégâts magiques et les effets utilitaires (soins, boucliers).",
-        "LIST3" : "<img src='assets/img/icons/attackSpeed.webp'/> <bold>Vitesse d'Attaque :</bold> Elle fait référence à la rapidité avec laquelle votre champion attaque par seconde. Avoir une vitesse d'attaque de 1,5 signifie que vous attaquez automatiquement 1,5 fois chaque seconde",
-        "LIST4" : "<img src='assets/img/icons/haste.webp'/> <bold>Hâte :</bold> Elle réduit le temps de recharge (CDR) et détermine la rapidité avec laquelle vos sorts reviennent. La hâte ne se calcule pas de manière linéaire avec le CDR, donc elle devient de moins en moins efficace en termes de gold au fur et à mesure que vous en achetez.",
+        "LIST1" : "<img src='assets/img/icons/attackDamage.webp'/> <bold>Dégâts d'Attaque (AD) :</bold> Principalement utilisé par les ADC, assassins et bruisers, l'AD augmente les dégâts physiques des attaques de base et certaines compétences.",
+        "LIST2" : "<img src='assets/img/icons/abilityPower.webp'/> <bold>Puissance (AP) :</bold> Utilisé par les mages, supports et certains assassins, l'AP améliore les dégâts magiques et les effets utilitaires (soins, boucliers).",
+        "LIST3" : "<img src='assets/img/icons/attackSpeed.webp'/> <bold>Vitesse d'Attaque (AS) :</bold> Elle fait référence à la rapidité avec laquelle votre champion attaque par seconde. Avoir une vitesse d'attaque de 1,5 signifie que vous attaquez automatiquement 1,5 fois chaque seconde",
+        "LIST4" : "<img src='assets/img/icons/haste.webp'/> <bold>Hâte (CDR):</bold> Elle réduit le temps de recharge (CDR) et détermine la rapidité avec laquelle vos sorts reviennent. La hâte ne se calcule pas de manière linéaire avec le CDR, donc elle devient de moins en moins efficace en termes de gold au fur et à mesure que vous en achetez.",
         "LIST5" : "<img src='assets/img/icons/criticalChance.webp'/> <bold>Chance de Coup Critique :</bold> Elle correspond à la probabilité d'obtenir un coup critique, qui inflige 75 % de dégâts supplémentaires (sans compter les modificateurs comme la Lame d'Infini).",
         "LIST6" : "<img src='assets/img/icons/movementSpeed.webp'/> <bold>Vitesse de Déplacement :</bold> C'est à la rapidité avec laquelle votre champion se déplace.",
         "LIST7" : "<img src='assets/img/icons/tenacity.webp'/> <bold>Tenacité :</bold> Elle n'est pas aussi directe que les autres statistiques, mais elle réduit la durée de tous les contrôles de foule (CC) sauf les soulèvements, l’endormissement, la vue réduite, la stase (ultime de Bard) et la suppression. ",

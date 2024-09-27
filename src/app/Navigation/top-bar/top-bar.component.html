@@ -1,13 +1,14 @@
 <div class="topBar">
-    <img class="logo" src="assets/img/icons/TeamUp_full_white.png" >
+    <img class="logo" src="assets/img/icons/TeamUp_full_white.png">
     <div class="divContent">
-        <div style="height: 100%;" *ngFor="let itemSections of itemsSections; let i = index;">   
-            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'" (click)="goToUrl(itemSections.url,i)">
+        <div style="height: 100%;" *ngFor="let itemSections of itemsSections; let i = index;">
+            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'"
+                (click)="goToUrl(itemSections.url,i)">
                 <div class="logo-wrapper">
                     <img [src]="itemSections.logoUrl" />
                 </div>
                 <h2 [ngClass]="itemSections.isSelected ? 'boldText' : 'lightText'">{{ itemSections.title }}</h2>
-            </div>     
+            </div>
         </div>
         <img src="assets/img/translationIcon.png" class="translateIcon" (click)="onChangeLanguage()">
     </div>
@@ -19,12 +20,13 @@
     <div class="divContent">
         <button class="hamburger" (click)="toggleMenu()">☰</button>
         <left-bar class="scrollbar-lol navbar-menu" [ngClass]="{'active': isMenuOpen}"></left-bar>
-        <div style="height: 100%;" *ngFor="let itemSections of itemsSections; let i = index;">   
-            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'"  (click)="goToUrl(itemSections.url,i)">
+        <div style="height: 100%;" *ngFor="let itemSections of itemsSections; let i = index;">
+            <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'"
+                (click)="goToUrl(itemSections.url,i)">
                 <div class="logo-wrapper">
                     <img [src]="itemSections.logoUrl" />
                 </div>
-            </div>     
+            </div>
         </div>
         <img src="assets/img/translationIcon.png" class="translateIcon" (click)="onChangeLanguage()">
     </div>

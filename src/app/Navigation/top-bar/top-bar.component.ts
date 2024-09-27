@@ -56,11 +56,14 @@ export class TopBarComponent {
   applyClassesBasedOnUrl(url: string) {
     const mainElement = this.el.nativeElement.querySelector('.topBar');
     const navElement = this.el.nativeElement.querySelector('.navbar');
+    const hamburgerElement = this.el.nativeElement.querySelector('.hamburger');
     // Supprimer toutes les classes avant d'en ajouter une nouvelle
     this.renderer.removeClass(mainElement, 'rlcolor');
     this.renderer.removeClass(mainElement, 'lolcolor');
     this.renderer.removeClass(navElement, 'rlcolor');
     this.renderer.removeClass(navElement, 'lolcolor');
+    this.renderer.removeClass(hamburgerElement, 'nonedisplay');
+    this.renderer.removeClass(hamburgerElement, 'blockdisplay');
     this.itemsSections[0].isSelected=false
     this.itemsSections[1].isSelected=false
 
@@ -68,10 +71,12 @@ export class TopBarComponent {
       this.itemsSections[0].isSelected=true
       this.renderer.addClass(mainElement, 'lolcolor');
       this.renderer.addClass(navElement, 'lolcolor');
+      this.renderer.addClass(hamburgerElement, 'blockdisplay');
     } else if (url.includes('/rocket')) {
       this.itemsSections[1].isSelected=true
       this.renderer.addClass(mainElement, 'rlcolor');
       this.renderer.addClass(navElement, 'rlcolor');
+      this.renderer.addClass(hamburgerElement, 'nonedisplay');
     }
   }
 

@@ -44,7 +44,7 @@ h1{
   font-size: 42px;
   color: white;
   text-align: center;
-  padding: 35px;      
+  top: 5%; 
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -152,4 +152,45 @@ padding: 15px;
   border-top-right-radius: 20px;
   border: 5px solid white;
   border-bottom: 0;
+}
+
+
+.isPc{
+  display: flex;
+}
+.isMobile{
+  display: none;
+}
+.difficultyTheme{
+  border-top-right-radius: 20px;
+}
+@media only screen and (max-width: 500px) {
+.divSteps{
+  flex-direction: column;
+}
+.modal-content{
+    width: 85%;
+    max-height: 90%;
+}
+.video{
+  width: 100%;
+  margin-bottom: 50px;
+}
+h1{
+  font-size:22px
+}
+.isPc{
+  display: none;
+}
+.isMobile{
+    display: block;
+}
+.divStats{
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.difficultyTheme{
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
 }

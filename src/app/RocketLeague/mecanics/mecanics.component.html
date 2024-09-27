@@ -8,14 +8,14 @@
   <div class="bkgContent"></div>
   <img class="imgBkg" src="assets/img/rocketLeague/bkgRocketLeague.jpg" />
   <div class="title">
-    <h1>{{ "RL.MECANICS.TITLE0" | translate }}</h1>
-    <h2>{{ "RL.MECANICS.SUBTITLE0" | translate }}</h2>
+    <h1 class="paddingTextMobile">{{ "RL.MECANICS.TITLE0" | translate }}</h1>
+    <h2 class="paddingTextMobile">{{ "RL.MECANICS.SUBTITLE0" | translate }}</h2>
   </div>
 
   <div class="divContentEmpty"></div>
   <div class="divContent">
     <div class="searchAndFilter">
-      <div style="position: relative;width: 30%;">
+      <div class="divSearch">
         <input type="text" class="form-control inputSearch" [placeholder]="'RL.MECANICS.SEARCHPLACEHOLDER' | translate"
           [(ngModel)]="searchTerm" (input)="filterMecanics()" />
         <span class="search-icon">

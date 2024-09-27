@@ -506,3 +506,60 @@ opacity: 0;
         transition: opacity 0.5s ease-in-out , max-height 0.5s ease-in-out 0.4s, padding-top 0.5s ease-in-out 0.4s, padding-bottom 0.5s ease-in-out 0.4s,margin-bottom 0.5s ease-in-out 0.4s;
     }
 }
+
+
+  
+@media only screen and (max-width: 500px) {
+    .divSearches{
+        flex-direction: column;
+    }    
+    .dropdownChampions {
+        width: 60vw;
+    }
+    .txtContentMatchup{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .txtDifficulty{
+        position: unset;
+        margin-top: 15px;
+    }
+    .divTitleMatchup{
+        flex-direction: column-reverse;
+    }
+    .divPicks{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .left,.right{
+        display: flex;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .contentPick{
+        width: auto;
+    }
+    .paddingTextMobile {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 32px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .title {
+      padding-bottom: 0px;
+      padding-left: 0;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .divContentEmpty {
+      width: 90%;
+    }
+}

@@ -106,3 +106,24 @@
     font-style: italic;
     text-decoration: underline;
   }
+
+  
+.minionsSpawnTip{
+  flex-direction: column;
+}
+
+.imgMinionSpawnTip{
+  margin-right: 40px;width:250px;height:auto;border: 4px solid white;
+}
+
+@media only screen and (max-width: 500px) {
+  
+.imgMinionSpawnTip{
+  margin-right: 0;width:100%;height:auto;border: 4px solid white;margin-bottom: 30px;
+}
+.minionsSpawnTipTip{
+  padding: 20px;
+  background-color: rgba(255,255,255,0.1);
+  flex-direction: column;
+}
+}

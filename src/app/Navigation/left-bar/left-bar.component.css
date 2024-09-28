@@ -135,5 +135,6 @@
     padding-top: 0;
     border-right: 3px solid var(--lol-border);
     background: linear-gradient(to top, var(--lol-bkg-gradient-1), var(--lol-bkg-gradient-2));
+    padding-bottom: 100px;
   }
 }

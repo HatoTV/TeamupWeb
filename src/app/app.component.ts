@@ -2,6 +2,7 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, ViewChild, PLATFORM_ID, ChangeDetectorRef } from '@angular/core';
 import { RouterOutlet, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
+import { BaneerWarningComponent } from './baneer-warning/baneer-warning.component';
 import { LanguageService } from './language.service';
 import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
 import { LeftBarComponent } from './Navigation/left-bar/left-bar.component';
@@ -12,7 +13,7 @@ import { TwitchService } from './twitch-service.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatchupsComponent, LeftBarComponent, TopBarComponent, CommonModule, PopupTwitchComponent],
+  imports: [RouterOutlet, MatchupsComponent, LeftBarComponent, TopBarComponent, CommonModule, PopupTwitchComponent,BaneerWarningComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

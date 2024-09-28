@@ -1,0 +1,36 @@
+.construction-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8e29b; /* Couleur de fond (rouge clair) */
+    color: #726018; /* Couleur du texte */
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* S'assurer que la bannière reste au-dessus des autres éléments */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+  
+  .construction-banner i {
+    margin-right: 10px; /* Espace entre l'icône et le texte */
+    color: #726018; /* Même couleur que le texte */
+    font-size: 20px; /* Taille de l'icône */
+  }
+  
+  @media (max-width: 600px) {
+    .construction-banner {
+      font-size: 14px; /* Taille du texte plus petite pour les petits écrans */
+    }
+  
+    .construction-banner i {
+      font-size: 18px; /* Taille de l'icône ajustée pour petits écrans */
+    }
+  }
+  

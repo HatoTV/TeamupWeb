@@ -268,4 +268,8 @@ export class LeftBarComponent {
       this.applyClassesBasedOnUrl(this.currentUrl);
     });
   }
+
+  isCurrentRoute(url: string): boolean {
+    return this.currentUrl.includes(url);
+  }
 }

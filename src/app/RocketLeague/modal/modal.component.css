@@ -19,7 +19,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     overflow-y: auto;
-    max-height: 100%;
+    max-height: 85%;
   }
   
   .close {    
@@ -44,7 +44,6 @@ h1{
   font-size: 42px;
   color: white;
   text-align: center;
-  top: 5%; 
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -157,6 +156,7 @@ padding: 15px;
 
 .isPc{
   display: flex;
+  align-items: center;
 }
 .isMobile{
   display: none;

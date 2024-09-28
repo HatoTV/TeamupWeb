@@ -22,6 +22,7 @@ export class TopBarComponent {
   lang : string = "fr";  
   isMenuOpen = false;
   currentUrl: string = '';
+  imgTranslation : string = 'assets/img/translationIcon_Fr.png'
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
@@ -45,10 +46,12 @@ export class TopBarComponent {
   onChangeLanguage() {
     if(this.lang==="fr"){
       this.lang = "en"
+      this.imgTranslation ='assets/img/translationIcon_Eng.png'
     }
     else 
     if(this.lang==="en"){
       this.lang = "fr"
+      this.imgTranslation ='assets/img/translationIcon_Fr.png'
     }
     this.languageService.changeLanguage(this.lang);
   }

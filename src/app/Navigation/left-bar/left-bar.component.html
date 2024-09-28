@@ -8,6 +8,7 @@
     class="section divSection sectionWithoutSubtitle paddingSidebar"
     *ngFor="let itemPart1 of itemsPart1"
     [routerLink]="createHref(itemPart1.url)"
+    routerLinkActive="linkActive"
   >
     <div class="logo-wrapper">
       <img [src]="itemPart1.logoUrl" />
@@ -21,7 +22,7 @@
   </div>
 
   <div *ngFor="let itemPart2 of itemsPart2">
-    <div class="paddingSidebar sectionWithSubtitle">
+    <div class="paddingSidebar sectionWithSubtitle" [ngClass]="{'linkActive': isCurrentRoute(itemPart2.url)}">
       <div
         class="section divSection"
         (click)="toggleItem(itemPart2);"

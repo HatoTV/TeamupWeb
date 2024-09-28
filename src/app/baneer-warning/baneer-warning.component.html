@@ -1,4 +1,9 @@
-<div *ngIf="showBanner" class="construction-banner">
+<div *ngIf="showBanner" class="construction-banner isPc">
     <i class="fas fa-exclamation-triangle"></i>
-    Ce site est actuellement en construction. Des mises à jour et nouveaux contenus sont ajoutés quotidiennement.
+    {{ "BANEER" | translate }}
+  </div>
+
+  <div *ngIf="showBanner" class="construction-banner isMobile">
+    <i class="fas fa-exclamation-triangle"></i>
+    {{ "BANEER_MOBILE" | translate }}
   </div>

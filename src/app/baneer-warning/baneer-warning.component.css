@@ -24,7 +24,14 @@
     font-size: 20px; /* Taille de l'icône */
   }
   
-  @media (max-width: 600px) {
+  .isPc{
+    display: block;
+}
+.isMobile{
+    display: none;
+}
+  
+  @media (max-width: 500px) {
     .construction-banner {
       font-size: 14px; /* Taille du texte plus petite pour les petits écrans */
     }
@@ -32,5 +39,10 @@
     .construction-banner i {
       font-size: 18px; /* Taille de l'icône ajustée pour petits écrans */
     }
+    .isPc{
+      display: none;
+    }
+    .isMobile{
+        display: block;
+    }
   }
-  

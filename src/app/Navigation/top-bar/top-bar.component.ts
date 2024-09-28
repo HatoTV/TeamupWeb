@@ -65,8 +65,10 @@ export class TopBarComponent {
     this.renderer.removeClass(mainElement, 'lolcolor');
     this.renderer.removeClass(navElement, 'rlcolor');
     this.renderer.removeClass(navElement, 'lolcolor');
-    this.renderer.removeClass(hamburgerElement, 'nonedisplay');
-    this.renderer.removeClass(hamburgerElement, 'blockdisplay');
+    if(hamburgerElement){
+      this.renderer.removeClass(hamburgerElement, 'nonedisplay');
+      this.renderer.removeClass(hamburgerElement, 'blockdisplay');
+    }
     this.itemsSections[0].isSelected=false
     this.itemsSections[1].isSelected=false
 

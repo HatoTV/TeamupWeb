@@ -18,8 +18,12 @@
 
 <div class="navbar">
     <div class="divContent">
-        <button class="hamburger" (click)="toggleMenu()" *ngIf="!isMenuOpen">☰</button>
-        <button class="hamburger" (click)="toggleMenu()" *ngIf="isMenuOpen">X</button>
+        <div *ngIf="!isMenuOpen">
+            <button class="hamburger" (click)="toggleMenu()">☰</button>
+        </div>
+        <div *ngIf="isMenuOpen">
+            <button class="hamburger" (click)="toggleMenu()">X</button>
+        </div>
         <left-bar class="scrollbar-lol navbar-menu" [ngClass]="{'active': isMenuOpen}"></left-bar>
         <div style="height: 100%;" *ngFor="let itemSections of itemsSections; let i = index;">
             <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'"

@@ -254,6 +254,28 @@ export class LeftBarComponent {
       
       this.renderer.addClass(mainElement, 'rlcolor');
     }
+    else if (url.includes('/contact')) {    
+      
+      this.renderer.addClass(mainElement, 'displayNone');
+      // Ajouter la classe pour Rocket League
+      this.itemsPart1=[]
+      this.itemsPart2=[]
+      this.titlePart1 = '';
+      this.titlePart2 = '';
+      
+      this.renderer.addClass(mainElement, 'rlcolor');
+    }
+    else if (url.includes('/home')) {    
+      
+      this.renderer.addClass(mainElement, 'displayNone');
+      // Ajouter la classe pour Rocket League
+      this.itemsPart1=[]
+      this.itemsPart2=[]
+      this.titlePart1 = '';
+      this.titlePart2 = '';
+      
+      this.renderer.addClass(mainElement, 'rlcolor');
+    }
   }
 
   ngOnInit() {

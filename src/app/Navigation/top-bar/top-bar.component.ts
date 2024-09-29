@@ -42,6 +42,11 @@ export class TopBarComponent {
       }
     }
   }
+
+  goToUrlWithoutParam(url:string,){
+    const defaultLang : string = this.translate.defaultLang || 'fr'
+    this.router.navigate([`/${defaultLang}` + url]);
+  }
   
   onChangeLanguage() {
     if(this.lang==="fr"){
@@ -63,8 +68,10 @@ export class TopBarComponent {
     // Supprimer toutes les classes avant d'en ajouter une nouvelle
     this.renderer.removeClass(mainElement, 'rlcolor');
     this.renderer.removeClass(mainElement, 'lolcolor');
+    this.renderer.removeClass(mainElement, 'homecolor');
     this.renderer.removeClass(navElement, 'rlcolor');
     this.renderer.removeClass(navElement, 'lolcolor');
+    this.renderer.removeClass(navElement, 'homecolor');
     if(hamburgerElement){
       this.renderer.removeClass(hamburgerElement, 'nonedisplay');
       this.renderer.removeClass(hamburgerElement, 'blockdisplay');
@@ -81,6 +88,11 @@ export class TopBarComponent {
       this.itemsSections[1].isSelected=true
       this.renderer.addClass(mainElement, 'rlcolor');
       this.renderer.addClass(navElement, 'rlcolor');
+      this.renderer.addClass(hamburgerElement, 'nonedisplay');
+    } else if (url.includes('/home')) {
+      this.itemsSections[1].isSelected=true
+      this.renderer.addClass(mainElement, 'homecolor');
+      this.renderer.addClass(navElement, 'homecolor');
       this.renderer.addClass(hamburgerElement, 'nonedisplay');
     }
   }

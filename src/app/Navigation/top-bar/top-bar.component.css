@@ -17,6 +17,9 @@
 .rlcolor{
   background-color: var(--rl-topbar);
 }
+.homecolor{
+  background-color: var(--home-topbar);
+}
 
 .nonedisplay{
   display: none;

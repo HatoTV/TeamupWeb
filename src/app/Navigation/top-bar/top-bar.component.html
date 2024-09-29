@@ -1,5 +1,5 @@
 <div class="topBar">
-    <img class="logo" src="assets/img/icons/TeamUptext_white.png">
+    <img class="logo" src="assets/img/icons/TeamUptext_white.png" (click)="goToUrlWithoutParam('/home')">
     <div class="divContent">
         <div style="height: 100%;" *ngFor="let itemSections of itemsSections; let i = index;">
             <div [ngClass]="itemSections.isSelected ? 'section isSelected' : 'section'"
@@ -10,6 +10,7 @@
                 <h2 [ngClass]="itemSections.isSelected ? 'boldText' : 'lightText'">{{ itemSections.title }}</h2>
             </div>
         </div>
+        <h2 (click)="goToUrlWithoutParam('/contact')">Contact</h2>
         <img [src]="imgTranslation" class="translateIcon" (click)="onChangeLanguage()">
     </div>
 </div>

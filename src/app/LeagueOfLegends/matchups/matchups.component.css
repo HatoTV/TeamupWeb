@@ -166,7 +166,7 @@ padding-left: 100px;
     display: flex;
     justify-content: center;
     color: white;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 20px;
     background-color: var(--lol-gradient-2);
     border-top-left-radius: 5px;
@@ -250,7 +250,7 @@ opacity: 0;
     word-wrap: break-word; /* Pour les anciens navigateurs */
     width: 100%; /* Assurez-vous que l'élément occupe toute la largeur de son conteneur */
     box-sizing: border-box;    
-    line-height: 1.6;
+    line-height: 1.9;
     letter-spacing: 0.3px;
 }
 

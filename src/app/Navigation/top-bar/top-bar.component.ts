@@ -90,7 +90,6 @@ export class TopBarComponent {
       this.renderer.addClass(navElement, 'rlcolor');
       this.renderer.addClass(hamburgerElement, 'nonedisplay');
     } else if (url.includes('/home')) {
-      this.itemsSections[1].isSelected=true
       this.renderer.addClass(mainElement, 'homecolor');
       this.renderer.addClass(navElement, 'homecolor');
       this.renderer.addClass(hamburgerElement, 'nonedisplay');

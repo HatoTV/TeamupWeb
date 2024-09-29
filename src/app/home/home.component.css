@@ -24,7 +24,7 @@ body {
     padding-bottom: 150px;
   }
   .container {
-    max-width: 1200px;
+    max-width: 60%;
     margin: 0 auto;
     padding: 20px;
   }
@@ -176,13 +176,15 @@ body {
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 18px;
+    line-height: 1.9;
+    letter-spacing: 0.3px;
   }
   
   
   h4 {
-    font-family: 'Roboto';
-    font-size: 17px;
-    font-weight: 400;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
     line-height: 1.9;
     letter-spacing: 0.3px;
   }

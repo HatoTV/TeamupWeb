@@ -35,6 +35,10 @@
     margin-right: 20px;
 }
 
+.logo:hover{
+  cursor: pointer;
+}
+
 .logo-wrapper {
     width: 30px; /* Largeur fixe pour uniformiser la taille des logos */
     margin-right: 10px;

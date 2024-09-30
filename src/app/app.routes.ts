@@ -10,7 +10,7 @@ import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component
 import { WavemanagementComponent } from './LeagueOfLegends/wavemanagement/wavemanagement.component';
 import { MecanicsComponent } from './RocketLeague/mecanics/mecanics.component';
 export const routes: Routes = [
-  { path: '', redirectTo: ':lang/lol/matchups', pathMatch: 'full' },
+  { path: '', redirectTo: 'fr/home', pathMatch: 'full' },
   { path: ':lang/lol', redirectTo: ':lang/lol/matchups', pathMatch: 'full' },
   { path: ':lang/rl', redirectTo: ':lang/rocket/mecanics', pathMatch: 'full' },
   { path: ':lang', redirectTo: ':lang/home', pathMatch: 'full' },

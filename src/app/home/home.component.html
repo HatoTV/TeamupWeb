@@ -1,63 +1,81 @@
 <div class="content scrollbar-rl" #scrollContainer>
-    <div class="bkgContent"></div>
-    <img class="imgBkg" src="assets/img/bkgHome.jpg" />
-    <div class="container">
-        <img src="assets\img\icons\TeamUp_white.png" class="imgTeamup"/>
-        <h1 class="subtitle">Bienvenue sur TeamUpp</h1>
-        <h2 class="subtitle2">Le hub ultime pour les joueurs compétitifs qui veulent progresser</h2>
+  <div class="bkgContent"></div>
+  <img class="imgBkg" src="assets/img/bkgHome.jpg" />
+  <div class="container">
+    <img src="assets\img\icons\TeamUp_white.png" class="imgTeamup" />
+    <h1 class="subtitle" [innerHtml]="'HOME.BIENVENUE' | translate | safeHtml"></h1>
+    <h2 class="subtitle2" [innerHtml]="'HOME.SUBBIENVENUE' | translate | safeHtml"></h2>
+  </div>
+  <div class="divGames">
+    <div class="game" (click)="goToUrl('/lol')">
+      <img class="imgGame" src="assets\img\gameLoL.jpg" />
     </div>
-    <div class="divGames">
-        <div class="game" (click)="goToUrl('/lol')">
-            <img class="imgGame" src="assets\img\gameLoL.jpg"/>
-        </div>
-        <div class="game" (click)="goToUrl('/rl')">
-            <img class="imgGame" src="assets\img\gameRL.jpg"/>
-        </div>
+    <div class="game" (click)="goToUrl('/rl')">
+      <img class="imgGame" src="assets\img\gameRL.jpg" />
     </div>
+  </div>
 
-    <div class="divContent">  
+  <div class="divContent">
     <!-- Section Notre Vision -->
     <section id="about" class="about-section">
-      <h4>Notre Vision</h4>
+      <h4 [innerHtml]="'HOME.TITLE1' | translate | safeHtml"></h4>
       <div class="container">
-        <h3>
-          Dans le monde du gaming, l'ascension vers le sommet peut souvent sembler un parcours semé d'embûches, en particulier pour les joueurs qui débutent. Chez TeamUpp, nous avons compris que 85 % des joueurs se situent dans les catégories de rangs diamant ou inférieurs. C’est pourquoi nous avons créé une plateforme dédiée à ceux qui aspirent à améliorer leurs compétences et à progresser dans leur jeu.
-        </h3>
+        <h3 [innerHtml]="'HOME.CONTENT1' | translate | safeHtml"></h3>
       </div>
     </section>
-  
+
     <!-- Section Pourquoi TeamUpp -->
     <section id="why" class="why-section">
-      <div class="container">
-        <h2>Pourquoi <span class="highlight">TeamUpp</span> ?</h2>
-        <ul class="features-list">
-          <li>
-            <strong>Des Guides Compléments et Structurés :</strong> Vous trouverez des guides détaillés créés par des experts, couvrant les stratégies, mécaniques et compétences spécifiques à chaque jeu.
-          </li>
-          <li>
-            <strong>Une Communauté Engagée :</strong> Rejoignez une communauté de joueurs partageant votre envie d'amélioration et bénéficiez de conseils personnalisés.
-          </li>
-          <li>
-            <strong>Une Plateforme Multijeux :</strong> Nous couvrons plusieurs titres compétitifs, centralisant toutes les informations dont vous avez besoin sur un seul site.
-          </li>
-        </ul>
+      <div class="container2">
+        <div class="divSplits">
+          <div class="splitflex borderRightSplit">
+            <h5 [innerHtml]="'HOME.TITLE2' | translate | safeHtml"></h5>
+            <h3 class="padding20 justify" [innerHtml]="'HOME.CONTENT2' | translate | safeHtml"></h3>
+          </div>
+          <div class="splitflex borderRightSplit">
+            <h5 [innerHtml]="'HOME.TITLE3' | translate | safeHtml"></h5>
+            <h3 class="padding20 justify" [innerHtml]="'HOME.CONTENT3' | translate | safeHtml"></h3>
+          </div>
+          <div class="splitflex">
+            <h5 [innerHtml]="'HOME.TITLE4' | translate | safeHtml"></h5>
+            <h3 class="padding20 justify" [innerHtml]="'HOME.CONTENT4' | translate | safeHtml"></h3>
+          </div>
+        </div>
       </div>
     </section>
-  
+    <!-- Section Notre Vision -->
+    <section id="about" class="ready-section">
+      <h4 [innerHtml]="'HOME.TITLE5' | translate | safeHtml"></h4>
+      <div class="container">
+        <h3 [innerHtml]="'HOME.CONTENT5' | translate | safeHtml"></h3>
+      </div>
+    </section>
+
     <!-- Section Réseaux Sociaux -->
     <section id="social" class="social-section">
       <div class="container">
-        <h2>Suivez-nous sur les réseaux sociaux</h2>
-        <div class="social-links">
-          <a href="https://www.instagram.com/ton_username/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/instagram-icon.png" alt="Instagram">
-          </a>
-          <a href="https://www.facebook.com/ton_username/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/facebook-icon.png" alt="Facebook">
-          </a>
-          <a href="https://www.twitter.com/ton_username/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/twitter-icon.png" alt="Twitter">
-          </a>
+        <div class="divFooter">
+          <h6 [innerHtml]="'HOME.FOOTERRIGHTS' | translate | safeHtml"></h6>
+          <div class="divSocial">
+            <span class="txtSocial" [innerHtml]="'HOME.SOCIALNETWORKS' | translate | safeHtml"></span>
+            <div class="social-links">
+              <a href="https://www.twitch.tv/Hato_TV" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/twitchIcon.jpg" alt="Twitch">
+              </a>
+              <a href="https://www.youtube.com/@Hato_YT" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/youtubeIcon.jpg" alt="Youtube">
+              </a>
+              <a href="https://www.instagram.com/hato_yns/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/instagramIcon.jpg" alt="Instagram">
+              </a>
+              <a href="https://www.tiktok.com/@hato.tv" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/tiktokIcon.jpg" alt="Tiktok">
+              </a>
+              <a href="https://discord.gg/pM4Eu5quyg" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/discordIcon.jpg" alt="Discord">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

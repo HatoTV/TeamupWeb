@@ -1,11 +1,13 @@
+import { CommonModule } from '@angular/common';
 import { Component, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { SafeHtmlPipe } from '../safe-html.pipe';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule,CommonModule,SafeHtmlPipe],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

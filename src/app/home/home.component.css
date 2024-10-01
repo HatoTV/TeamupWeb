@@ -170,17 +170,19 @@ h3 {
 h4 {
   font-family: "Poppins";
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.3px;
+  text-transform: uppercase;
 }
 
 h5 {
   font-family: "Poppins";
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.3px;
+  text-transform: uppercase;
 }
 
 h6 {
@@ -315,6 +317,7 @@ h6 {
   }
 h3{
   font-size: 14px;
+  text-align: justify;
 }
   .about-section{
     padding: 40px;
@@ -348,6 +351,7 @@ h3{
 }
 .padding20 {
   padding: 0;
+  padding-top: 20px;
 }
 .splitflex{
   padding: 40px;

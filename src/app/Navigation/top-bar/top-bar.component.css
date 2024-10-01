@@ -150,8 +150,9 @@
     font-size: 30px;
     color: white;
     cursor: pointer;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 35px;
   }
   .hamburgerX {
     background: none;
@@ -159,8 +160,9 @@
     font-size: 30px;
     color: white;
     cursor: pointer;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 35px;
   }
   
   /* Styles pour le menu de la navbar */
@@ -228,9 +230,17 @@
   }
   .linkAboutMe{
     padding-right: 20px;
+    font-size: 14px;
+    font-weight: 400;
   }
   
   .linkAboutMe:hover{
     opacity: 1;
   }
+  
+.logo-wrapper {
+  margin-right: 0;
+  width: 15px;
+  overflow: visible;
+}
   }

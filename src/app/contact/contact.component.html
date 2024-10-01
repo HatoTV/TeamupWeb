@@ -1,29 +1,42 @@
-<div class="content scrollbar-lol" #scrollContainer>
-    <div class="divContentEmpty"></div>
+<div class="content scrollbar-home" #scrollContainer>
     <div class="divContent">
-        <h1>Bienvenue sur ma page de contact</h1>
-
-        <section class="about">
-            <h2>Qui suis-je ?</h2>
-            <p>Je m'appelle [Ton Nom], et je suis [ton métier ou passion]. J'ai créé cette page pour partager [les
-                raisons pour lesquelles tu as créé ton site] avec vous.</p>
-            <p>Merci de visiter ma page ! Vous pouvez me contacter via mes réseaux sociaux ou vous abonner à ma
-                newsletter ci-dessous pour rester informé.</p>
+        <section id="social" class="social-section">
+            <div class="container">
+                <div class="divFooter">
+                    <div>
+                        <div class="divPictures">
+                            <img src="assets/img/HatoPP_circular.png" alt="Hato Picture" class="hatoPP pigeonPicture" />
+                            <img src="assets/img/instagramPP_circular.png" alt="Profile Picture" class="hatoPP profilePicture" />
+                        </div>
+                        <span class="txtSocial">Hato_TV</span>
+                    </div>
+                    <div class="divSocial">
+                        <span class="paddingleft15 txtSocial" [innerHtml]="'HOME.SOCIALNETWORKS' | translate | safeHtml"></span>
+                        <div class="social-links">
+                            <a href="https://www.twitch.tv/Hato_TV" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/img/icons/twitchIcon.jpg" alt="Twitch">
+                            </a>
+                            <a href="https://www.youtube.com/@Hato_YT" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/img/icons/youtubeIcon.jpg" alt="Youtube">
+                            </a>
+                            <a href="https://www.instagram.com/hato_yns/" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/img/icons/instagramIcon.jpg" alt="Instagram">
+                            </a>
+                            <a href="https://www.tiktok.com/@hato.tv" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/img/icons/tiktokIcon.jpg" alt="Tiktok">
+                            </a>
+                            <a href="https://discord.gg/pM4Eu5quyg" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/img/icons/discordIcon.jpg" alt="Discord">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="social-media">
-            <h2>Retrouvez-moi sur les réseaux sociaux</h2>
-            <div class="social-links">
-                <a href="https://www.instagram.com/ton_username/" target="_blank" rel="noopener noreferrer">
-                    <img alt="Instagram" />
-                </a>
-                <a href="https://www.facebook.com/ton_username/" target="_blank" rel="noopener noreferrer">
-                    <img alt="Facebook" />
-                </a>
-                <a href="https://www.twitter.com/ton_username/" target="_blank" rel="noopener noreferrer">
-                    <img alt="Twitter" />
-                </a>
-                <!-- Ajoute ici d'autres réseaux sociaux si tu le souhaites -->
+        <section class="why-section">
+            <div class="container">
+                <h3 [innerHtml]="'CONTACT' | translate | safeHtml"></h3>
             </div>
         </section>
     </div>

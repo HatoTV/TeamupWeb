@@ -265,7 +265,7 @@ export class LeftBarComponent {
       
       this.renderer.addClass(mainElement, 'rlcolor');
     }
-    else if (url.includes('/home')) {    
+    else if (url.includes('/home') || url.includes('/contact')) {    
       
       this.renderer.addClass(mainElement, 'displayNone');
       // Ajouter la classe pour Rocket League

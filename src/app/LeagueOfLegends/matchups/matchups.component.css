@@ -522,12 +522,14 @@ opacity: 0;
     .txtContentMatchup{
         padding-left: 30px;
         padding-right: 30px;
+        font-size: 14px;
     }
     .txtDifficulty{
         position: unset;
         margin-top: 15px;
     }
     .divTitleMatchup{
+        padding-top: 30px;
         flex-direction: column-reverse;
     }
     .divPicks{
@@ -565,4 +567,9 @@ opacity: 0;
     .divContentEmpty {
       width: 90%;
     }
+
+    .championCounterName, .championCounterDifficulty{
+        font-size: 14px;
+    }
+    
 }

@@ -2,6 +2,7 @@
     --home-bkg-gradient-1: #0e0e0e;
     --home-bkg-gradient-2: rgb(12, 7, 71);
     --home-topbar:#151c44;
+    --home-scrollbar:rgba(91, 86, 240, 0.4);
 
     --lol-selected: #541785;
     --lol-gradient-1: #441A68;
@@ -76,6 +77,11 @@
   .scrollbar-rl {
     scrollbar-width: thin; /* Pour Firefox */
     scrollbar-color: var(--rl-scrollbar) transparent; /* Couleur pour Firefox */
+  }
+  
+  .scrollbar-home {
+    scrollbar-width: thin; /* Pour Firefox */
+    scrollbar-color: var(--home-scrollbar) transparent; /* Couleur pour Firefox */
   }
   
   

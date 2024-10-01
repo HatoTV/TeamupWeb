@@ -10,8 +10,10 @@
                 <h2 [ngClass]="itemSections.isSelected ? 'boldText' : 'lightText'">{{ itemSections.title }}</h2>
             </div>
         </div>
-        <!-- <h2 (click)="goToUrlWithoutParam('/contact')">Contact</h2> -->
-        <img [src]="imgTranslation" class="translateIcon" (click)="onChangeLanguage()">
+        <div class="right">
+            <h2 (click)="goToUrlWithoutParam('/contact')" [ngClass]="{ 'isContactSelected': isContactSelected, 'isNotContactSelected': !isContactSelected }" class="linkAboutMe">{{ "ABOUTME" | translate }}</h2>
+            <img [src]="imgTranslation" class="translateIcon" (click)="onChangeLanguage()">
+        </div>
     </div>
 </div>
 
@@ -34,6 +36,9 @@
                 </div>
             </div>
         </div>
-        <img [src]="imgTranslation" class="translateIcon" (click)="onChangeLanguage()">
+        <div class="right">
+            <h2 (click)="goToUrlWithoutParam('/contact')" [ngClass]="{ 'isContactSelected': isContactSelected, 'isNotContactSelected': !isContactSelected }" class="linkAboutMe">{{ "ABOUTME" | translate }}</h2>
+            <img [src]="imgTranslation" class="translateIcon" (click)="onChangeLanguage()">
+        </div>
     </div>
 </div>

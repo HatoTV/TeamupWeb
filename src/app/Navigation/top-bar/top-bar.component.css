@@ -94,7 +94,6 @@
   .translateIcon{
     width: 35px;
     height: 35px;
-    margin-left: auto;
     margin-right: 40px;
     transition: transform 0.2s ease-in-out;
   }
@@ -108,6 +107,26 @@
     display: none;
   }
 
+  .isContactSelected{
+    opacity: 1;
+  }
+
+  .isNotContactSelected{
+    opacity: 0.4;
+  }
+
+  .linkAboutMe{
+    padding-right: 50px;
+  }
+  .linkAboutMe:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+.right{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
   @media only screen and (max-width: 1280px) {
     .navbar{
       height: 54px;
@@ -206,5 +225,8 @@
 
   .translateIcon{
     margin-right: 20px;
+  }
+  .linkAboutMe{
+    padding-right: 20px;
   }
   }

@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Renderer2 } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { filter } from 'rxjs/operators';
 import { LanguageService } from '../../language.service';
 import { LeftBarComponent } from '../left-bar/left-bar.component';
@@ -9,7 +9,7 @@ import { LeftBarComponent } from '../left-bar/left-bar.component';
 @Component({
   selector: 'top-bar',
   standalone: true,
-  imports: [CommonModule,LeftBarComponent],
+  imports: [CommonModule,LeftBarComponent,TranslateModule],
   templateUrl: './top-bar.component.html',
   styleUrl: './top-bar.component.css',
 })
@@ -23,6 +23,7 @@ export class TopBarComponent {
   isMenuOpen = false;
   currentUrl: string = '';
   imgTranslation : string = 'assets/img/translationIcon_Fr.png'
+  isContactSelected = false
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
@@ -89,7 +90,7 @@ export class TopBarComponent {
       this.renderer.addClass(mainElement, 'rlcolor');
       this.renderer.addClass(navElement, 'rlcolor');
       this.renderer.addClass(hamburgerElement, 'nonedisplay');
-    } else if (url.includes('/home')) {
+    } else if (url.includes('/home') || url.includes('/contact')  ) {
       this.renderer.addClass(mainElement, 'homecolor');
       this.renderer.addClass(navElement, 'homecolor');
       this.renderer.addClass(hamburgerElement, 'nonedisplay');
@@ -106,6 +107,7 @@ export class TopBarComponent {
     ).subscribe((event: NavigationEnd) => {
       this.currentUrl = event.urlAfterRedirects;
       this.applyClassesBasedOnUrl(this.currentUrl);
+      this.isContactSelected = this.currentUrl.includes('contact');
     });
   }
 }

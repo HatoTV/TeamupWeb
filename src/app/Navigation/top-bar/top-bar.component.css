@@ -229,4 +229,8 @@
   .linkAboutMe{
     padding-right: 20px;
   }
+  
+  .linkAboutMe:hover{
+    opacity: 1;
+  }
   }

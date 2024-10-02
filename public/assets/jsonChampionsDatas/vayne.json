@@ -1,520 +1,114 @@
 [
     {
-        "championName": "Caitlyn",
-        "difficulty": "Extreme",
-        "idmatchup": 1,
-        "tips": " | hard matchup early. try to survive and take the minions you are allowed to take. look for a good all in angle. | your goal is to go even because you outscale. anything more is a bonus.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Ashe",
-        "difficulty": "Extreme",
-        "idmatchup": 2,
-        "tips": " | hard matchup early. try to survive and take the minions you are allowed to take. look for a good all in angle. your goal is to go even because you outscale. anything more is a bonus.",
-        "tipsFr": null
-    },
-    {
         "championName": "Draven",
         "difficulty": "Extreme",
-        "idmatchup": 3,
-        "tips": " | he can always win against you. punish him for misssteps. try to not give him kills or he will snowball the game. you are stronger teamfight force.",
+        "idmatchup": 78,
+        "tips": "Draven is the king of botlane early game. Draven always wins long trades and almost always wins all-ins. Even though Draven is strong he does come with a few weaknesses. Draven is short range and has no escapes, making him an easy target to hook and gank. Draven falls off mid game, and that's when you become the strongest with Ruined King and Rageblade, use this as an advantage.",
         "tipsFr": null
     },
     {
-        "championName": "Jinx",
-        "difficulty": "Even",
-        "idmatchup": 4,
-        "tips": " | jinx has advantage pre level6 because of her range advantage (q). you can poke her qith aa+q+aa. if you get caught in her chompers (e) you are done for. | after level 6 you win all in. try to flash her ult and don't give her the attack speed through passive (e.g. she kills your support first).",
-        "tipsFr": null
-    },
-    {
-        "championName": "Samira",
-        "difficulty": "Minor",
-        "idmatchup": 5,
-        "tips": " | harass her first 2 levels. you will see her with an engage support 95% of the time. | respect the all in. do not use condemn until you baited her w (negatives projectiles).",
-        "tipsFr": null
-    },
-    {
-        "championName": "Nilah",
-        "difficulty": "Major",
-        "idmatchup": 6,
-        "tips": " | I hate that matchup only because of her bonus experience passive. She can negate auto attack which is annoying but you can handle it with kiting + condemn her into a wall. first few levels you are stronger. denied her farm if not it will be hard to keep up in level. once she is ahead in levels it will be hard to fight her.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Jhin",
-        "difficulty": "Minor",
-        "idmatchup": 7,
-        "tips": " | jhin has the early game advantage (more dmg + burst). survive early. try to punish him for misspositioning himself after his 4th shot. (he can't attack you but has bonus movement speed). after botrk and lvl6 you win all in vs him. either trap him or run him down the long lane. do not all in him in front of his turrent. he will chunk you, stand back and ult you. you can cancel his ult with your condemn.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Seraphine",
-        "difficulty": "Minor",
-        "idmatchup": 8,
-        "tips": " | will be a farm festival. she will push wave all the time and be save. you can punish her before she has the chance to base and buy her first item components. afterwards she oneshots waves. just take cs, try to get a good all in angle and tell your support to roam 24/7 in midgame. seraphine can't kill you in a 1v1. annoying part is the tp of her. try to get it because she must base and you can take a good reset.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Miss Fortune",
-        "difficulty": "Major",
-        "idmatchup": 9,
-        "tips": " | early game is rough. especially because mf has strong early dmg and can use lethality to snowball harder. you win against her if you don't fall behind and you can all in her /trap her with a condemn into the wall.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Swain",
-        "difficulty": "Tiny",
-        "idmatchup": 10,
-        "tips": " | easy matchup. just dodge his root and you can run him down early game all the time. get anti heal early on or bait his ult and run away.",
+        "championName": "Caitlyn",
+        "difficulty": "Extreme",
+        "idmatchup": 79,
+        "tips": "If Draven is the king of botlane, then Caitlyn is the queen. Caitlyn has one of the longest range in the game (650 vs Vayne's 550) combine with a long range poke and headshot passive crit on her poke.",
         "tipsFr": null
     },
     {
         "championName": "Lucian",
-        "difficulty": "Even",
-        "idmatchup": 11,
-        "tips": " | in my opinion this matchup is not too bad. you just need to respect his short trades. let him push into you and don't take short trades early game and you are fine.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Twitch",
-        "difficulty": "Even",
-        "idmatchup": 12,
-        "tips": " | 50/50 matchup in my opinion depending who takes the early lead. you either snowball or twitch will snowball. pink wards are key in this matchup and respect stealthy plays. also ping your midlane everytime twitch bases so he doesn't donate free gold.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Xayah",
-        "difficulty": "Even",
-        "idmatchup": 13,
-        "tips": " | she is stronger early levels. respect feather placements and the burst of it. you are stronger midgame. just bait her ult first or have flash ready to flash her e (also predict her flashing as well).",
-        "tipsFr": null
-    },
-    {
-        "championName": "Kai'Sa",
-        "difficulty": "Even",
-        "idmatchup": 14,
-        "tips": " | she is slightly stronger early but I still think it is one of the easier matchups. don't donate her kills and trap her mid lane phase. afterwards you can snowball the game. if you 1v1 her, either condemn her against a wall and try to fight inside your minion wave so you are not isolated or she could have the upper hand.",
+        "difficulty": "Major",
+        "idmatchup": 80,
+        "tips": "Lucian's early game outmatch Vayne's early game by quite the amount. Lucian has one of the strongest short trades in the game with his combos. Lucian can dash from the wall when you use your Condemn. The only chance you will have vs Lucian is a longer fight and when you get a stun on him with Condemn. Why I put him at Major and not Extreme is because you can dodge Lucian's Q if you time your Tumble well, making the fight more even.",
         "tipsFr": null
     },
     {
         "championName": "Tristana",
-        "difficulty": "Minor",
-        "idmatchup": 15,
-        "tips": " | tristana is a stat check champion. respect her early game and all in potential and you are good.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Varus",
-        "difficulty": "Even",
-        "idmatchup": 16,
-        "tips": " | due to his range advantage be a little bit careful so he doesn't abuse it. in all ins flash his ult/q.",
+        "difficulty": "Major",
+        "idmatchup": 81,
+        "tips": "Tristana can deal huge amount of damage in a short period of time. If she jumps on you with her Explosive Charge and manage to get 4 autos and ult off you will die. You can however use Condemn just as Tristana uses her jump to cancel it.",
         "tipsFr": null
     },
     {
         "championName": "Ezreal",
         "difficulty": "Tiny",
-        "idmatchup": 17,
-        "tips": " | boring matchup. you can poke him with q. usually most ezreal players will sooner or later stand so far back and just q minions. you can take the free farm and outscale. matchup is harder if you play vs a good aggressive ezreal but we are not on the chinese super server so you usually don't see those.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Aphelios",
-        "difficulty": "Even",
-        "idmatchup": 18,
-        "tips": " | still looking for the best way to deal with him. his weapon rotation works against you early game. in all ins dodge his ult.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Kalista",
-        "difficulty": "Major",
-        "idmatchup": 19,
-        "tips": " | hard early game. let her push and pray that enemy jgl doesn't tower dive you or the game is over. if you can survive early game you will outscale her and can destroy her. bork is the key for a good all in timing.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Zeri",
-        "difficulty": "Minor",
-        "idmatchup": 20,
-        "tips": " | you have the stronger early game. your condemn can cancel her wall ride and she wil be stunt instantly against the wall.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Karthus",
-        "difficulty": "Minor",
-        "idmatchup": 21,
-        "tips": " | dodge his q's. except for that you are even in dmg early game. you can run him down often. just ping your support to all in.",
+        "idmatchup": 82,
+        "tips": "Ezreal is a tiny threat because of this build you will be running. With this build you will get life steal from Vampiric Scepter and also get healing from your runes. Ezreal can't all in you and burst you down within a short period of time, and you will win almost every 1v1 if played correctly",
         "tipsFr": null
     },
     {
         "championName": "Sivir",
-        "difficulty": "Tiny",
-        "idmatchup": 22,
-        "tips": " | easy matchup. she is no threat to you at all. harass her out of lane. you can run her down all game long. dodge her q. if you go even in lane just wait for bork and run her down.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Ziggs",
         "difficulty": "Minor",
-        "idmatchup": 23,
-        "tips": " | annoying but not hard. dodge his q poke and bait his w. afterwards you can run him down.",
+        "idmatchup": 83,
+        "tips": "Sivir has a lot of poke with her Q and her W, but you out sustain her by utilizing your life steal. She doesn't have any all in ability's that deal a lot of damage. The only thing she can do against you is to use her Spell Shield against your Condemn.",
         "tipsFr": null
     },
     {
-        "championName": "Kog'Maw",
+        "championName": "Jhin",
         "difficulty": "Even",
-        "idmatchup": 24,
-        "tips": " | bait his w and punish w cooldown. nothing more you need to do.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Yasuo",
-        "difficulty": "Minor",
-        "idmatchup": 25,
-        "tips": " | I hate yasuo botlane but it is easy for vayne. just kite him. your outplay potential is disgusting. just be aware of wind wall our pain and suffering in this matchup.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Rakan",
-        "difficulty": "Strong",
-        "idmatchup": 26,
-        "tips": " | good all in potential. has a build in heal.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Janna",
-        "difficulty": "Ideal",
-        "idmatchup": 27,
-        "tips": " | she can block most all ins with her tornado and you scale with her hard. only downside is gank potential for your jgl in my opinion. but great solution if you are weakside.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Rell",
-        "difficulty": "Ok",
-        "idmatchup": 28,
-        "tips": " | first 2 levels are rough. either get push or let them push. depending on that you need to survive until level 3 and let rell look for all in.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Blitzcrank",
-        "difficulty": "Low",
-        "idmatchup": 29,
-        "tips": " | depends on enemy lane but I usually don't like the lane with blitzcank. he needs to land hook or is useless.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Bard",
-        "difficulty": "Ok",
-        "idmatchup": 30,
-        "tips": " | is probably on weed.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Senna",
-        "difficulty": "Low",
-        "idmatchup": 31,
-        "tips": " | 0-10 senna incomming. it is a good choice against enchanter support. if she picks senna into engage support -> pray she doesn't be a living money bag.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Maokai",
-        "difficulty": "Ok",
-        "idmatchup": 32,
-        "tips": " | he can poke with saplings. wait for his all in.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Thresh",
-        "difficulty": "Ideal",
-        "idmatchup": 33,
-        "tips": " | thresh can either engage or peel. one of the support you can 2v3 botlane + jgl if you play it correctly.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Zilean",
-        "difficulty": "None",
-        "idmatchup": 34,
-        "tips": " | yeah you have synergy mid/lategame. but you don't have a laning partner... he just tax exp and exists.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Taric",
-        "difficulty": "Strong",
-        "idmatchup": 35,
-        "tips": " | strong all in after 6. first 2 level can be rough.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Shaco",
-        "difficulty": "Ok",
-        "idmatchup": 36,
-        "tips": " | play with boxes and punish feared enemies.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Milio",
-        "difficulty": "Ideal",
-        "idmatchup": 37,
-        "tips": " | you can poke with his buff pretty well",
-        "tipsFr": null
-    },
-    {
-        "championName": "Zyra",
-        "difficulty": "Strong",
-        "idmatchup": 38,
-        "tips": " | helps you relief some pressure early game and survive your lane. great synergy in trapping enemies.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Sona",
-        "difficulty": "Low",
-        "idmatchup": 39,
-        "tips": " | not a fan of sona. too squishy early game.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Leona",
-        "difficulty": "Low",
-        "idmatchup": 40,
-        "tips": " | first 2 level are rough. there are better engage supports right now.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Alistar",
-        "difficulty": "Strong",
-        "idmatchup": 41,
-        "tips": " | the og botlane vayne combo.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Nautilus",
-        "difficulty": "Ok",
-        "idmatchup": 42,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Neeko",
-        "difficulty": "Ideal",
-        "idmatchup": 43,
-        "tips": " | I love it. neeko can do some shenanigans and you can capitalize on it really hard.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Pyke",
-        "difficulty": "Ok",
-        "idmatchup": 44,
-        "tips": " | you either snowball or get snowballed. flip the game early game with pyke. matchups are pyke dependant.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Soraka",
-        "difficulty": "Ideal",
-        "idmatchup": 45,
-        "tips": " | harass enemies and outsustain them.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Vel'Koz",
-        "difficulty": "Ok",
-        "idmatchup": 46,
-        "tips": " | let him be the math prof",
-        "tipsFr": null
-    },
-    {
-        "championName": "Braum",
-        "difficulty": "Strong",
-        "idmatchup": 47,
-        "tips": " | let enemies push and braum block enemy key spells. you can look for all ins if braum hit q.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Renata Glasc",
-        "difficulty": "Ideal",
-        "idmatchup": 48,
-        "tips": " | she gives you attack speed and you can maybe survive through w. strong all in potential after 6.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Tahm Kench",
-        "difficulty": "Low",
-        "idmatchup": 49,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Nami",
-        "difficulty": "Strong",
-        "idmatchup": 50,
-        "tips": " | harass with nami e on you. nami can also max w in rougher matchups to survive.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Pantheon",
-        "difficulty": "Ok",
-        "idmatchup": 51,
-        "tips": " | flip early game.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Xerath",
-        "difficulty": "Ok",
-        "idmatchup": 52,
-        "tips": " | let xerath poke and punish low life enemies.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Seraphine",
-        "difficulty": "Strong",
-        "idmatchup": 53,
-        "tips": " | like all enchanters",
-        "tipsFr": null
-    },
-    {
-        "championName": "Ashe",
-        "difficulty": "Low",
-        "idmatchup": 54,
-        "tips": " | no real synergy. ok all in level 6.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Morgana",
-        "difficulty": "Low",
-        "idmatchup": 55,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Swain",
-        "difficulty": "None",
-        "idmatchup": 56,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Taliyah",
-        "difficulty": "None",
-        "idmatchup": 57,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Zoe",
-        "difficulty": "None",
-        "idmatchup": 58,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Amumu",
-        "difficulty": "Ok",
-        "idmatchup": 59,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Brand",
-        "difficulty": "Ok",
-        "idmatchup": 60,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Karma",
-        "difficulty": "Ok",
-        "idmatchup": 61,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Heimerdinger",
-        "difficulty": "Low",
-        "idmatchup": 62,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Lux",
-        "difficulty": "Ok",
-        "idmatchup": 63,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Annie",
-        "difficulty": "Ok",
-        "idmatchup": 64,
-        "tips": "",
+        "idmatchup": 84,
+        "tips": "Jhin is an even threat. He doesn't bring any real threat towards Vayne, just a lot of auto attack damage. As Vayne, you can dodge a lot of Jhin's skill shots with Tumble and utilize your passive movement speed.",
         "tipsFr": null
     },
     {
         "championName": "Twitch",
-        "difficulty": "Low",
-        "idmatchup": 65,
-        "tips": "",
+        "difficulty": "Minor",
+        "idmatchup": 85,
+        "tips": "Twitch doesnt bring a lot of threat towards Vayne. He gets a big boost in attack speed once he comes out of stealth, but other than that he doesn't have any direct counters towards Vayne.",
         "tipsFr": null
     },
     {
-        "championName": "Yuumi",
-        "difficulty": "Low",
-        "idmatchup": 66,
-        "tips": " | you lose the game vs engage support. just dodge the game.",
+        "championName": "Ashe",
+        "difficulty": "Even",
+        "idmatchup": 86,
+        "tips": "Ashe's only threat is her ultimate stun. Other then that, she doesn't bring a lot against Vayne. She has a lot of poke but that will be out sustained by your life steal. It really depends on what her support is and if they can follow up after caster her ultimate.",
         "tipsFr": null
     },
     {
-        "championName": "Lulu",
-        "difficulty": "Ideal",
-        "idmatchup": 67,
-        "tips": " | one of the best vayne enchanters there is.",
+        "championName": "Kai'Sa",
+        "difficulty": "Even",
+        "idmatchup": 87,
+        "tips": "Kai'sa could become a major threat if you let her. Kai'sa's Q deals massive amount of damage if you are isolated. She has a pretty good all in with her ultimate and depending on her build she could deal a massive amount of burst damage which you as a Vayne player should be afraid of. I would put her between even and major threat",
         "tipsFr": null
     },
     {
-        "championName": "Vex",
-        "difficulty": "Ok",
-        "idmatchup": 68,
-        "tips": "",
+        "championName": "Yasuo",
+        "difficulty": "Even",
+        "idmatchup": 88,
+        "tips": "Yasuo is mostly annoying than a threat. If Yasuo goes for your support and put up windwall it is not a lot things you can do to save him/her. After Yasuo gets his Ultimate combined with a knockup support they become a major or extreme threat. You have to win early game and use your ranged attack to poke when Yasuo goes for CS. If you create a big lead early game you can go into level 6+ with a lead and scale from there.",
         "tipsFr": null
     },
     {
-        "championName": "Lissandra",
-        "difficulty": "Ok",
-        "idmatchup": 69,
-        "tips": "",
+        "championName": "Kog'Maw",
+        "difficulty": "Tiny",
+        "idmatchup": 89,
+        "tips": "Kog'Maw doesn't really have any threat against Vayne. You win vs him by sustain and 1v1. Kog'Maw doesn't have any kind of all in and rely on his support to make the plays.",
         "tipsFr": null
     },
     {
-        "championName": "Singed",
-        "difficulty": "Low",
-        "idmatchup": 70,
-        "tips": "",
+        "championName": "Xayah",
+        "difficulty": "Even",
+        "idmatchup": 90,
+        "tips": "Xayah can pull out some insane burst with her feathers E. As a Vayne player, you need to make sure to use your passive movement speed bonus and tumble out of the feathers range. As long as you are away from the feathers you should not have a big issue, but Xayah can indeed make your health bar go from 60% to 0% with her feathers.",
         "tipsFr": null
     },
     {
-        "championName": "Nasus",
-        "difficulty": "Low",
-        "idmatchup": 71,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Malphite",
-        "difficulty": "Low",
-        "idmatchup": 72,
-        "tips": "",
-        "tipsFr": null
-    },
-    {
-        "championName": "Veigar",
-        "difficulty": "Low",
-        "idmatchup": 73,
-        "tips": "",
+        "championName": "Varus",
+        "difficulty": "Major",
+        "idmatchup": 91,
+        "tips": "Why I put Varus as a major is simply the ultimate. His ultimate makes it really easy for his support to follow up with a bind / root / hook. Varus ultimate also roots you as Vayne from using tumble and using you ultimate invisibility, which makes it that you will lose out on a lot of damage. Pre-Level 6 Varus doesn't have too much. Varus has his Q and E that could chunk you low but you also have your tumble to dodge them.",
         "tipsFr": null
     },
     {
         "championName": "Miss Fortune",
-        "difficulty": "Low",
-        "idmatchup": 74,
-        "tips": "",
+        "difficulty": "Minor",
+        "idmatchup": 92,
+        "tips": "Miss Fortune is nothing special but not really weak either. Pre-level 6 Miss Fortune relies on hitting low health minions with her Q to poke you, make sure to never stand behind one while you are laning against her. Once she has her ultimate she can deal massive amount of damage on you. Vayne has a lot of movement speed from her Ultimate and combined with Tumble to get you out of there, but could still be an issue if their support has you rooted. Other then that, you will always win 1v1 against Miss Fortune.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jinx",
+        "difficulty": "Tiny",
+        "idmatchup": 93,
+        "tips": "Jinx doesn't do anything special early game. Jinx is similar to Kog'Maw in the way she scales. She can push the lane really quickly with her rockets and also out range you which could be a danger, but as soon as both are in range, Vayne should always come out on top in 1v1.",
         "tipsFr": null
     }
 ]

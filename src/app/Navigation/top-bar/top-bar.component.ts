@@ -80,6 +80,7 @@ export class TopBarComponent {
     this.renderer.removeClass(navElement, 'rlcolor');
     this.renderer.removeClass(navElement, 'lolcolor');
     this.renderer.removeClass(navElement, 'homecolor');
+    console.log(url)
     if(hamburgerElement){
       this.renderer.removeClass(hamburgerElement, 'nonedisplay');
       this.renderer.removeClass(hamburgerElement, 'blockdisplay');
@@ -125,6 +126,7 @@ export class TopBarComponent {
   }
 
   ngAfterViewInit(): void {
+    this.applyClassesBasedOnUrl(this.currentUrl);
     // Ne pas exécuter ce code lors du rendu côté serveur
     if (isPlatformBrowser(this.platformId)) {
       this.twitchService.checkLiveStatus().subscribe(({ isLive, streamUrl, streamTitle }) => {

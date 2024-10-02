@@ -127,7 +127,62 @@
   display: flex;
   align-items: center;
 }
-  @media only screen and (max-width: 1280px) {
+.cercle-lumineux {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%; /* Crée un cercle */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  animation: illuminer 1.5s infinite; /* Animation qui se répète */
+  margin-right: 7px;
+}
+.divIsLive{
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 50px;
+  background-color: rgb(239, 69, 69);
+  color: white;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.divIsLive:hover{
+  cursor: pointer;
+  background-color: rgb(218, 58, 58);
+}
+
+.txt-lumineux{  
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  animation: illuminerTxt 1.5s infinite; /* Animation qui se répète */
+}
+
+h3 {
+  margin: 0; /* Enlève les marges par défaut */
+  font-size: 16px; /* Taille du titre */
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Animation pour faire varier l'intensité de l'illumination */
+@keyframes illuminer {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Illumination maximale au milieu de l'animation */
+  }
+}
+@keyframes illuminerTxt {
+  0%, 100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Illumination maximale au milieu de l'animation */
+  }
+}
+  @media only screen and (max-width: 500px) {
     .navbar{
       height: 54px;
       position: sticky;

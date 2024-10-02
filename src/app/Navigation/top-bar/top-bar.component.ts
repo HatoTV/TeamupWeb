@@ -1,20 +1,24 @@
-import { CommonModule } from '@angular/common';
-import { Component, ElementRef, Renderer2 } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { ChangeDetectorRef, Component, ElementRef, Inject, Renderer2,PLATFORM_ID, ViewChild } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { filter } from 'rxjs/operators';
 import { LanguageService } from '../../language.service';
 import { LeftBarComponent } from '../left-bar/left-bar.component';
+import { isDevMode } from '@angular/core'; // Import nécessaire pour détecter le mode dev
+import { TwitchService } from '../../twitch-service.service';
+import { PopupTwitchComponent } from '../../popup-twitch/popup-twitch.component';
 
 @Component({
   selector: 'top-bar',
   standalone: true,
-  imports: [CommonModule,LeftBarComponent,TranslateModule],
+  imports: [CommonModule,LeftBarComponent,TranslateModule, PopupTwitchComponent],
   templateUrl: './top-bar.component.html',
   styleUrl: './top-bar.component.css',
 })
 export class TopBarComponent {
-  constructor(private router: Router, private translate: TranslateService,private languageService: LanguageService,private el: ElementRef,private renderer: Renderer2) {}
+  constructor(private router: Router, private translate: TranslateService,private languageService: LanguageService,private el: ElementRef,private renderer: Renderer2,
+    private twitchService: TwitchService, @Inject(PLATFORM_ID) private platformId: Object, private changeDetector: ChangeDetectorRef) {}
   itemsSections = [
     { logoUrl: 'assets/img/icons/League of Legends.png', title: 'League Of Legends', isSelected:false, url:'/lol/matchups' },
     { logoUrl: 'assets/img/icons/Rocket League.png', title: 'Rocket League', isSelected:false,  url:'/rocket/mecanics' },
@@ -24,6 +28,9 @@ export class TopBarComponent {
   currentUrl: string = '';
   imgTranslation : string = 'assets/img/translationIcon_Fr.png'
   isContactSelected = false
+  isLive = false;
+  isPopupLive = false;
+  @ViewChild(PopupTwitchComponent) popupComponent!: PopupTwitchComponent;
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
@@ -109,5 +116,36 @@ export class TopBarComponent {
       this.applyClassesBasedOnUrl(this.currentUrl);
       this.isContactSelected = this.currentUrl.includes('contact');
     });
+  }
+
+  ngAfterViewInit(): void {
+    // Ne pas exécuter ce code lors du rendu côté serveur
+    if (isPlatformBrowser(this.platformId)) {
+      this.twitchService.checkLiveStatus().subscribe(({ isLive, streamUrl, streamTitle }) => {
+        // Simule le live en mode développement
+        const forceLive = isDevMode(); // Si on est en mode dev, force le live
+    
+        // Assure que les valeurs ne sont pas nulles
+        streamUrl = streamUrl || '';
+        streamTitle = streamTitle || '';
+    
+        if (isLive || forceLive) { // On force l'affichage du popup si on est en mode dev
+          this.isLive = true
+          this.popupComponent.streamUrl = streamUrl;
+          this.popupComponent.streamTitle = streamTitle;
+        }
+      });
+    }
+  }
+
+  showPopupLive(){
+    this.isPopupLive = !this.isPopupLive
+    if(this.isPopupLive){
+      this.popupComponent.showPopup();
+    }
+    else{
+      this.popupComponent.closePopup();
+    }
+    this.changeDetector.detectChanges();
   }
 }

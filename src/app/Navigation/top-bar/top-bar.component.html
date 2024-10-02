@@ -11,10 +11,15 @@
             </div>
         </div>
         <div class="right">
+            <div class="divIsLive" *ngIf="isLive" (click)="showPopupLive()">
+                <div class="cercle-lumineux"></div>
+                <h3 class="txt-lumineux">Hato_TV</h3>
+            </div>
             <h2 (click)="goToUrlWithoutParam('/contact')" [ngClass]="{ 'isContactSelected': isContactSelected, 'isNotContactSelected': !isContactSelected }" class="linkAboutMe">{{ "ABOUTME" | translate }}</h2>
             <img [src]="imgTranslation" class="translateIcon" (click)="onChangeLanguage()">
         </div>
-    </div>
+    </div>    
+    <popup-twitch></popup-twitch>
 </div>
 
 <!-- Mobile -->

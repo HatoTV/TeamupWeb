@@ -36,6 +36,37 @@
       </li>
     </div>
     <br />
+    
+    <h3 [id]="'Ganks'">
+      {{ "LOL.JUNGLE.TITLE6" | translate }}
+    </h3>
+    <hr class="divider paddingSidebar" />
+    <div style="margin-bottom: 40px">
+      <h4 [innerHtml]="'LOL.JUNGLE.CONTENT6' | translate | safeHtml"></h4>
+      <br /> <br />
+      <h5>{{ "LOL.JUNGLE.CONTENT7.INTRO1" | translate }}</h5>
+      <img src="assets/img/ganksExample.png" class="imgGanks" />
+      <div class="divList">
+        <br />
+        <li>
+          <h6
+            [innerHtml]="'LOL.JUNGLE.CONTENT7.LIST1' | translate | safeHtml"
+          ></h6>
+        </li>
+        <br />
+        <li>
+          <h6
+            [innerHtml]="'LOL.JUNGLE.CONTENT7.LIST2' | translate | safeHtml"
+          ></h6>
+        </li>
+        <br />
+        <li>
+          <h6
+            [innerHtml]="'LOL.JUNGLE.CONTENT7.LIST3' | translate | safeHtml"
+          ></h6>
+        </li>
+      </div>
+    </div>
     <h4>{{ "LOL.JUNGLE.CONTENT1.INTRO2" | translate }}</h4>
     <h3 [id]="'Pathing'">
       {{ "LOL.JUNGLE.TITLE2" | translate }}
@@ -68,7 +99,6 @@
       </div>
       <br />
     </div>
-    <br />
     <h5>{{ "LOL.JUNGLE.SUBTITLE3" | translate }}</h5>
     <div style="display:flex">
       <img src="assets/img/jungleBlue.png" class="imgPath imgBotOrTop" />
@@ -121,36 +151,6 @@
     </div>
     <h4 [innerHtml]="'LOL.JUNGLE.CONTENT5' | translate | safeHtml"></h4>
     <br />
-    <h3 [id]="'Ganks'">
-      {{ "LOL.JUNGLE.TITLE6" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <div style="margin-bottom: 40px">
-      <h4 [innerHtml]="'LOL.JUNGLE.CONTENT6' | translate | safeHtml"></h4>
-      <br /> <br />
-      <h5>{{ "LOL.JUNGLE.CONTENT7.INTRO1" | translate }}</h5>
-      <img src="assets/img/ganksExample.png" class="imgGanks" />
-      <div class="divList">
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT7.LIST1' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT7.LIST2' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT7.LIST3' | translate | safeHtml"
-          ></h6>
-        </li>
-      </div>
-    </div>
     <h3 [id]="'Tips'">
       {{ "LOL.JUNGLE.TITLE8" | translate }}
     </h3>

@@ -376,7 +376,7 @@ export class MatchupsComponent {
   formatText(input: string): string {
     console.log(input)
     // Remplace les séparateurs (|) par des rien
-    let formattedText = input.replace(/\s*\|\s*/g, '');
+    let formattedText = input.replace(/\|\s?/g, '');;
 
     // Supprime les caractères non alphanumériques au début de chaque phrase
     formattedText = formattedText.replace(/^[^a-zA-Z0-9]+/gm, '');

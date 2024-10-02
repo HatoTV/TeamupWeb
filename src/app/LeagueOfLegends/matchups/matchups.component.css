@@ -438,7 +438,7 @@ opacity: 0;
     position: absolute;
     z-index: 11;
   }
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 500px) {
     .content{
         position: relative;
         color: white;

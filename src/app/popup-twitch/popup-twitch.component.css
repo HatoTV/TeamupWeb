@@ -1,7 +1,7 @@
 .popup {
   position: fixed;
-  bottom: 20px;
-  left: 50%;
+  top: 70px;
+  right: -237px;
   transform: translateX(-50%);
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
@@ -18,7 +18,7 @@
   visibility: visible;
 }
 .popup-content {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.85);
   border-radius: 10px;
   text-align: center;
   width: 100%;
@@ -53,13 +53,10 @@
   margin-right: 15px;
   font-family: 'Roboto Condensed';
   font-weight: 400;
-  border: 3px solid #ff4757; /* Couleur au survol */  
 }
 
 .close-button:hover {
-  background-color: white; /* Couleur au survol */  
-  border: 3px solid #ff4757; /* Couleur au survol */  
-  color: #ff4757
+  background-color: #ec3746; 
 }
 
 a {
@@ -122,7 +119,7 @@ h6{
   color: white;
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
+  margin-right: 70px;
   justify-content: space-evenly;
 }
 
@@ -134,17 +131,13 @@ h6{
 .btnJoinLive{
   background-color: #2071C8;
     color: white;
-    border: none;
     padding: 5px 15px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     font-family: 'Roboto Condensed';
     font-weight: 400;
-    border: 3px solid #2071C8; /* Couleur au survol */  
 }
 .btnJoinLive:hover {
-  background-color: white; /* Couleur au survol */  
-  border: 3px solid #2071C8; /* Couleur au survol */  
-  color: #2071C8
+  background-color: #1363b9; 
 }

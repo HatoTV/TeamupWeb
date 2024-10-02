@@ -91,16 +91,22 @@ export class TopBarComponent {
       this.itemsSections[0].isSelected=true
       this.renderer.addClass(mainElement, 'lolcolor');
       this.renderer.addClass(navElement, 'lolcolor');
-      this.renderer.addClass(hamburgerElement, 'blockdisplay');
+      if(hamburgerElement){
+        this.renderer.addClass(hamburgerElement, 'blockdisplay');
+      }
     } else if (url.includes('/rocket')) {
       this.itemsSections[1].isSelected=true
       this.renderer.addClass(mainElement, 'rlcolor');
       this.renderer.addClass(navElement, 'rlcolor');
-      this.renderer.addClass(hamburgerElement, 'nonedisplay');
+      if(hamburgerElement){
+        this.renderer.addClass(hamburgerElement, 'nonedisplay');
+      }
     } else if (url.includes('/home') || url.includes('/contact')  ) {
       this.renderer.addClass(mainElement, 'homecolor');
       this.renderer.addClass(navElement, 'homecolor');
-      this.renderer.addClass(hamburgerElement, 'nonedisplay');
+      if(hamburgerElement){
+        this.renderer.addClass(hamburgerElement, 'nonedisplay');
+      }
     }
   }
 

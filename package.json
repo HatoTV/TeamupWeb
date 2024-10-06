@@ -5,10 +5,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:TeamupWeb": "node dist/teamup-web/server/server.mjs"
+    
   },
   "private": true,
   "dependencies": {

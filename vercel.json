@@ -2,8 +2,12 @@
     "version": 2,
     "builds": [
       {
-        "src": "dist/teamup-web/**",
-        "use": "@vercel/static-build"
+        "src": "api/**",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "dist/**",
+        "use": "@vercel/static"
       }
     ],
     "routes": [

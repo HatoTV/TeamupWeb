@@ -1,6 +1,10 @@
 {
   "BANEER" : "Ce site est actuellement en construction. Des mises à jour et nouveaux contenus sont ajoutés quotidiennement.",
   "BANEER_MOBILE" : "Ce site est actuellement en construction",
+  "SENDMESSAGE" : "Envoyer",
+  "REPORTBUTTON" : "Données manquantes ? Informez-moi pour que je puisse les mettre à jour !",
+  "UPDATEREQUEST" : "Demande de mise à jour",
+  "MESSAGEOK" : "Message envoyé !",
   "LOL": {
     "LEFTBAR": {
       "FONDAMENTALS" : "Fondamentaux",
@@ -23,6 +27,7 @@
       "DIFFICULTY" : "Difficulté",
       "TIPS" : "Astuces",
       "NOMATCHUP": "Aucune données trouvées.",
+      "NOCHAMPION" : "Aucun champion trouvé.",
       "DIFFICULTIES" : {
         "Extreme" : "Extreme",
         "Major" : "Difficile",
@@ -32,7 +37,10 @@
       },
       "REVERSE" : "Inverser Sélection" ,
       "BESTPICKAGAINST": "Counters de",
-      "WORSTPICKAGAINST": "Avantageux pour"
+      "WORSTPICKAGAINST": "Avantageux pour",
+      "NODATAMATCHUP":"Aucune données",
+      "FALSEDATAMATCHUP":"Données fausses/incomplètes",
+      "MESSAGEPLACEHOLDER":"Explications (facultatif)"
     },
 
     "WAVEMANAGEMENT":{

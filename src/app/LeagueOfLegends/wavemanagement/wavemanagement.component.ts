@@ -1,8 +1,8 @@
 import { Component, ElementRef, Pipe, ViewChild } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
-import { SafeHtmlPipe } from '../../safe-html.pipe';
-import { ScrollService } from '../../scroll.service';
+import { SafeHtmlPipe } from '../../safe-html.pipe.js';
+import { ScrollService } from '../../scroll.service.js';
 
 @Component({
   selector: 'app-wavemanagement',

@@ -1,14 +1,14 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component';
-import { ContactComponent } from './contact/contact.component';
-import { HomeComponent } from './home/home.component';
-import { GameComponent } from './LeagueOfLegends/game/game.component';
-import { GuidesComponent } from './LeagueOfLegends/guides/guides.component';
-import { JungleComponent } from './LeagueOfLegends/jungle/jungle.component';
-import { LaningComponent } from './LeagueOfLegends/laning/laning.component';
-import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
-import { WavemanagementComponent } from './LeagueOfLegends/wavemanagement/wavemanagement.component';
-import { MecanicsComponent } from './RocketLeague/mecanics/mecanics.component';
+import { AppComponent } from './app.component.js';
+import { ContactComponent } from './contact/contact.component.js';
+import { HomeComponent } from './home/home.component.js';
+import { GameComponent } from './LeagueOfLegends/game/game.component.js';
+import { GuidesComponent } from './LeagueOfLegends/guides/guides.component.js';
+import { JungleComponent } from './LeagueOfLegends/jungle/jungle.component.js';
+import { LaningComponent } from './LeagueOfLegends/laning/laning.component.js';
+import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component.js';
+import { WavemanagementComponent } from './LeagueOfLegends/wavemanagement/wavemanagement.component.js';
+import { MecanicsComponent } from './RocketLeague/mecanics/mecanics.component.js';
 export const routes: Routes = [
   { path: '', redirectTo: 'fr/home', pathMatch: 'full' },
   { path: ':lang/lol', redirectTo: ':lang/lol/matchups', pathMatch: 'full' },

@@ -6,11 +6,12 @@ import { lastValueFrom, Observable } from 'rxjs';
 import { FormsModule } from '@angular/forms';
 import { throws } from 'node:assert';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { PopupNotificationMatchupComponent } from './popup-notification-matchup/popup-notification-matchup.component.js';
 
 @Component({
   selector: 'lol-matchups',
   standalone: true,
-  imports: [CommonModule, TranslateModule, FormsModule],
+  imports: [CommonModule, TranslateModule, FormsModule,PopupNotificationMatchupComponent],
   templateUrl: './matchups.component.html',
   styleUrl: './matchups.component.css',
 })
@@ -374,7 +375,6 @@ export class MatchupsComponent {
   }
 
   formatText(input: string): string {
-    console.log(input)
     // Remplace les séparateurs (|) par des rien
     let formattedText = input.replace(/\|\s?/g, '');;
 
@@ -466,5 +466,10 @@ export class MatchupsComponent {
 
     });
     return tabResults;
+  }
+
+  isEmailPopupOpen:boolean = false
+  openEmailPopup() {
+    this.isEmailPopupOpen = !this.isEmailPopupOpen; // Ouvrir la popup
   }
 }

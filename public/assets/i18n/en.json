@@ -1,6 +1,10 @@
 {
   "BANEER" : "This site is currently under construction. Updates and new content are added daily.",
   "BANEER_MOBILE" : "This site is currently under construction.",
+  "SENDMESSAGE" : "Send",
+  "REPORTBUTTON": "Missing data? Let me know so I can update it!",
+  "UPDATEREQUEST" : "Update request",
+  "MESSAGEOK" : "Message sent!",
   "LOL": {
     "LEFTBAR": {
       "FONDAMENTALS" : "Fundamentals",
@@ -23,6 +27,7 @@
       "DIFFICULTY" : "Difficulty",
       "TIPS" : "Tips",
       "NOMATCHUP": "No data found.",
+      "NOCHAMPION" : "No champion found.",
       "DIFFICULTIES" : {
         "Extreme" : "Extreme",
         "Major" : "Hard",
@@ -32,7 +37,10 @@
       },
       "REVERSE" : "Reverse Selection" ,
       "BESTPICKAGAINST": "Counters of",
-      "WORSTPICKAGAINST": "Favorable for"
+      "WORSTPICKAGAINST": "Favorable for",
+      "NODATAMATCHUP": "No data",
+      "FALSEDATAMATCHUP": "False/incomplete data",
+      "MESSAGEPLACEHOLDER": "Explanations (optional)"
     },
     "WAVEMANAGEMENT": {
       "TITLE0": "Wave Management",

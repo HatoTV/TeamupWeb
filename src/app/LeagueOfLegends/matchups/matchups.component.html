@@ -30,7 +30,7 @@
       <!-- Dropdown list -->
       <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm && searchTerm!==selectedChampion[0].name">
         <div *ngIf="filteredChampions.length == 0 && !selectedChampion">
-          Aucun champion trouvé
+          {{ "LOL.MATCHUPS.NOCHAMPION" | translate }}
         </div>
         <li *ngFor="let champion of filteredChampions" class="championLine">
           <a class="dropdown-item txtChampion" (click)="selectChampion(champion)">
@@ -68,7 +68,7 @@
       </div>
       <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm2 && searchTerm2!==selectedChampion2[0].name">
         <div *ngIf="filteredChampions2.length == 0 && !selectedChampion2">
-          Aucun champion trouvé
+          {{ "LOL.MATCHUPS.NOCHAMPION" | translate }}
         </div>
         <li *ngFor="let champion of filteredChampions2" class="championLine">
           <a class="dropdown-item txtChampion" (click)="selectChampion2(champion)">
@@ -81,8 +81,8 @@
     </div>
   </div>
   <div [ngClass]="{ 'fade-out-content': isVisible, 'fade-in-content': !isVisible }" class="fade-content">
-    <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2">
-      <div class="divTitleMatchup divContent" style="margin-top: 50px">
+    <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2" style="margin-top: 50px;">
+      <div class="divTitleMatchup divContent" >
         <span *ngIf="isMatchupReady" class="txtDifficulty"
           [ngStyle]="styleByDifficulty(filteredMatchup[0].difficulty.toLowerCase(),true)">{{
           "LOL.MATCHUPS.DIFFICULTIES." + filteredMatchup[0].difficulty
@@ -101,11 +101,19 @@
         <span *ngIf="!isMatchupReady" class="txtContentMatchup">{{
           "LOL.MATCHUPS.NOMATCHUP" | translate
           }}</span>
+          <div *ngIf="!isMatchupReady">
+            <button (click)="openEmailPopup()" class="btnReport">{{
+              "REPORTBUTTON" | translate
+              }}</button>
+          </div>
         <div *ngIf="isMatchupReady" class="divAuthor">
           <span class="authorMatchup">{{ author }}&nbsp;</span>
           <span class="rankMatchup">({{ rank }})</span>
         </div>
       </div>
+      <span (click)="openEmailPopup()" class="txtReport" *ngIf="isMatchupReady">{{
+        "REPORTBUTTON" | translate
+        }}</span>
       <div class="divPicks">
         <div class="left">
           <div style="margin-right: 2vw;" class="contentPick">
@@ -243,3 +251,11 @@
         </div>
       </div>
     </div>
+
+    <popup-notification-matchup *ngIf="isEmailPopupOpen" 
+                 [allChampions]="champions" 
+                 [selectedChampion]="selectedChampion" 
+                 [selectedChampion2]="selectedChampion2" 
+                 [searchTerm]="searchTerm" 
+                 [searchTerm2]="searchTerm2" 
+                 (close)="isEmailPopupOpen = false"></popup-notification-matchup>

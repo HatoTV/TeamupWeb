@@ -382,6 +382,7 @@ opacity: 0;
     justify-content: space-between; /* Sépare les div gauche et droite */
     align-items: center;    
     margin-top: 50px; 
+    margin-bottom: 50px;
   }
 
   .left {
@@ -437,6 +438,47 @@ opacity: 0;
   .iconInsideInput {
     position: absolute;
     z-index: 11;
+  }
+  
+  .btnReport{
+    background-color: #2071C8;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    width: auto;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .txtReport{
+    color: #4fa4ff;
+    padding: 15px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    width: auto;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+  .txtReport:hover{
+    color: #71b1f6;
+  }
+  .btnReport:hover {
+    background-color: #1363b9; 
   }
 @media only screen and (max-width: 500px) {
     .content{
@@ -514,7 +556,6 @@ opacity: 0;
     .divSearches{
         flex-direction: column;
         margin-top: 0;
-        padding-bottom: 50px;
     }    
     .dropdownChampions {
         width: 60vw;
@@ -571,5 +612,14 @@ opacity: 0;
     .championCounterName, .championCounterDifficulty{
         font-size: 14px;
     }
-    
+    .txtReport{
+        font-size: 12px;
+    }
+    .btnReport{
+        width: 80%;
+        font-size: 14px;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
 }

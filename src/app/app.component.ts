@@ -2,11 +2,11 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, ViewChild, PLATFORM_ID, ChangeDetectorRef } from '@angular/core';
 import { RouterOutlet, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
-import { BaneerWarningComponent } from './baneer-warning/baneer-warning.component';
+import { BaneerWarningComponent } from './baneer-warning/baneer-warning.component.js';
 import { LanguageService } from './language.service';
-import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
-import { LeftBarComponent } from './Navigation/left-bar/left-bar.component';
-import { TopBarComponent } from './Navigation/top-bar/top-bar.component';
+import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component.js';
+import { LeftBarComponent } from './Navigation/left-bar/left-bar.component.js';
+import { TopBarComponent } from './Navigation/top-bar/top-bar.component.js';
 
 @Component({
   selector: 'app-root',

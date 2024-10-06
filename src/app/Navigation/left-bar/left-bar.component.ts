@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Renderer2 } from '@angular/core';
 import { NavigationEnd, Router, RouterModule } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { ScrollService } from '../../scroll.service';
+import { ScrollService } from '../../scroll.service.js';
 import { filter } from 'rxjs/operators';
 
 @Component({

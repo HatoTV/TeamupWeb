@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { SafeHtmlPipe } from '../safe-html.pipe';
+import { SafeHtmlPipe } from '../safe-html.pipe.js';
 
 @Component({
   selector: 'app-home',

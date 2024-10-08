@@ -98,23 +98,28 @@ export class MatchupsComponent {
       this.renderer.addClass(textElement, 'fade');
     }, 50); 
 
-    this.http.get<any[]>('assets/jsonChampionsDatas/AllChampions.json').subscribe((data) => {
-      this.champions = data
-        .map((item) => ({
-          name: item.championName.trim(),
-          icon: item.spellingForUrl.trim().toLowerCase(),
-          difficulty: item.difficulty,
-          isTop: item.isTop,
-          isMid: item.isMid,
-          isAdc: item.isAdc,
-          isSupport: item.isSupport,
-          isJungle: item.isJungle,
-        }))
-        .sort((a, b) => a.name.localeCompare(b.name));
-      this.filteredChampions = [...this.champions];
-      this.filteredChampions2 = [...this.champions];
-    });
+    try {
+      this.http.get<any[]>('assets/jsonChampionsDatas/AllChampions.json').subscribe((data) => {
+        this.champions = data
+          .map((item) => ({
+            name: item.championName.trim(),
+            icon: item.spellingForUrl.trim().toLowerCase(),
+            difficulty: item.difficulty,
+            isTop: item.isTop,
+            isMid: item.isMid,
+            isAdc: item.isAdc,
+            isSupport: item.isSupport,
+            isJungle: item.isJungle,
+          }))
+          .sort((a, b) => a.name.localeCompare(b.name));
+        this.filteredChampions = [...this.champions];
+        this.filteredChampions2 = [...this.champions];
+      });      
+    } catch (error) {
+      console.log(error)
+    }
   }
+  
   async getJsonDataByChampion(
     selectedChampion1: string,
     selectedChampion2: string

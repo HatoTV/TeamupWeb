@@ -1,121 +1,366 @@
 [
     {
-        "championName": "Syndra",
-        "difficulty": "Major",
-        "idmatchup": 1,
-        "tips": " | Not really an extreme threat, but the early game can be tough if you can't dodge her abilities. EDIT: With the recent Syndra changes, she does have more late game power. If you are able to dodge Qs and her stun in laning phase, you are CHILLING!",
-        "tipsFr": null
-    },
-    {
-        "championName": "Orianna",
-        "difficulty": "Major",
-        "idmatchup": 2,
-        "tips": " | Again, like syndra, it can be difficult if Orianna lands everything. However, should be easier once you hit level 6.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Renekton",
+        "championName": "Irelia",
         "difficulty": "Extreme",
-        "idmatchup": 3,
-        "tips": " | Uhh, good luck for this. He'll do 2x damage to you while being 3x as tanky. Focus on roaming and asking for jungler's help.",
+        "idmatchup": 18,
+        "tips": "Honestly, a good Irelia is extremely difficult to manage she's very mobile and she has insane healing with her Qs.",
         "tipsFr": null
     },
     {
-        "championName": "Sett",
-        "difficulty": "Extreme",
-        "idmatchup": 4,
-        "tips": " | Experience will be needed for this matchup. Gets harder as the game goes on. Just like any other tank matchups, if you don't get ahead early, it will be really hard.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Lucian",
-        "difficulty": "Extreme",
-        "idmatchup": 5,
-        "tips": " | Lucian tends to go exhaust in this matchup. Hard to play if you get chunked early, so sit under turret and farm with qs. Once you are level 4, start looking for your combos. You can generally kill him at level 6 if you aren't behind in exp or health.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Veigar",
+        "championName": "Twisted Fate",
         "difficulty": "Tiny",
-        "idmatchup": 6,
-        "tips": " | Any immobile champs will be great for you. Easy all-in and have tons of kill pressure. Just don't get baited and get killed by their enemy jungler.",
-        "tipsFr": null
-    },
-    {
-        "championName": "K'Sante",
-        "difficulty": "Extreme",
-        "idmatchup": 7,
-        "tips": " | If you aren't very fed, K'Sante will be nearly impossible to kill. However, once you have items like Black Cleaver, killing him becomes easier",
-        "tipsFr": null
-    },
-    {
-        "championName": "Cassiopeia",
-        "difficulty": "Even",
-        "idmatchup": 8,
-        "tips": " | Since I play alot of Cassio, I generally know how to dodge her abilties. However, if you aren't able to dodge her Qs or R, this matchup can get very hard",
+        "idmatchup": 19,
+        "tips": "If he ever uses his W on the minion wave you can go in and ruin him, after 6 you can almost always ult his gold card and he will be defenseless against you.",
         "tipsFr": null
     },
     {
         "championName": "Ahri",
-        "difficulty": "Minor",
-        "idmatchup": 9,
-        "tips": " | Generally pretty easy matchup if you don't get poked out early. Poke with your W+E+Q combo and back off when your W is on cooldown",
-        "tipsFr": null
-    },
-    {
-        "championName": "Azir",
-        "difficulty": "Extreme",
-        "idmatchup": 10,
-        "tips": " | Honestly, depends on the elo. In higher elo, this matchup can be very hard due to the constant harass. Doran's shield start is honestly not a bad idea. In lower elo, I wouldn't worry about it too much",
-        "tipsFr": null
-    },
-    {
-        "championName": "Aurelion Sol",
-        "difficulty": "Major",
-        "idmatchup": 11,
-        "tips": " | ASol's laning phase is pretty weak. You are able to punish. However, once he reaches late game, it's not you won't be able to kill him. It's that he'll be 100% more useful in dragon/baron fights with his R",
+        "difficulty": "Even",
+        "idmatchup": 20,
+        "tips": "never ult Ahri first, she will always charm behind herself. you will be charmed shes way too cute.",
         "tipsFr": null
     },
     {
         "championName": "Akali",
         "difficulty": "Even",
-        "idmatchup": 12,
-        "tips": " | Skill match-up. But Akali can be very annoying with her shroud and E. Be patient with your W usage",
+        "idmatchup": 21,
+        "tips": "do not stand in her shroud. try to tether her Q range to bait her to use it.",
         "tipsFr": null
     },
     {
-        "championName": "Yuumi",
-        "difficulty": "Ideal",
-        "idmatchup": 13,
-        "tips": " | If you have a Yummi on your team, it's won :D",
+        "championName": "Anivia",
+        "difficulty": "Even",
+        "idmatchup": 22,
+        "tips": "avoid her stun with your shadow if needed, her e HURTS if she stuns you. always respect her ult into wall and stun, you will die 100 to 0.",
         "tipsFr": null
     },
     {
-        "championName": "Sejuani",
-        "difficulty": "Ideal",
-        "idmatchup": 14,
-        "tips": " | With Sejuani being picked quite often these days, Zed is great with Sej! The amount of CC that Sej provides is great for landing your combos!",
+        "championName": "Annie",
+        "difficulty": "Minor",
+        "idmatchup": 23,
+        "tips": "try to avoid her when she has her stun. note that dodging her q with your ult will not put her stun on cooldown.",
         "tipsFr": null
     },
     {
-        "championName": "Elise",
-        "difficulty": "Ideal",
-        "idmatchup": 15,
-        "tips": " | If Elise lands her stun, it's 100% a kill or a flash in the early game",
+        "championName": "Aurelion Sol",
+        "difficulty": "Minor",
+        "idmatchup": 24,
+        "tips": "This champion exists ?",
         "tipsFr": null
     },
     {
-        "championName": "Karthus",
-        "difficulty": "Ideal",
-        "idmatchup": 16,
-        "tips": " | Very nice kill potential at level 6",
+        "championName": "Azir",
+        "difficulty": "Even",
+        "idmatchup": 25,
+        "tips": "give up minions early game if he is zoning you off, his poke early can hurt.",
         "tipsFr": null
     },
     {
-        "championName": "Evelynn",
-        "difficulty": "Ideal",
-        "idmatchup": 17,
-        "tips": " | Very good synergy as Evelynn loves being the sole AP and Zed is better off with an AP jungler",
+        "championName": "Brand",
+        "difficulty": "Tiny",
+        "idmatchup": 26,
+        "tips": "this champion cannot move, you just kill him.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Cassiopeia",
+        "difficulty": "Minor",
+        "idmatchup": 27,
+        "tips": "always walk away right after landing from ult so you are facing away when she ults you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Corki",
+        "difficulty": "Tiny",
+        "idmatchup": 28,
+        "tips": "Corki is food honestly if he is ever in your range you can w forward to win a trade, after lvl 6 if he ever walks in your range you can w into his face and ult to follow the dash.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Diana",
+        "difficulty": "Minor",
+        "idmatchup": 29,
+        "tips": "save your ult until after she ults to dodge the damage portion, avoid trading melee when she has her W up.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ekko",
+        "difficulty": "Minor",
+        "idmatchup": 30,
+        "tips": "Ekko is a very minor threat, just make sure to utilize your w backward to trade when he dashes up, he should never be able to proc his passive. make sure to ignite before he ults.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Fizz",
+        "difficulty": "Minor",
+        "idmatchup": 31,
+        "tips": "utilize your w to dodge his e. try to watch out for his ult good fizz players will q a minion to gap close while hiding their ult animation with it. and they will perfectly time the e so you cannot ult his fish, make sure you always w out right before his e and r land on you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Galio",
+        "difficulty": "Minor",
+        "idmatchup": 32,
+        "tips": "always push lane in this matchup, Galio has insane wave clear with his passive, but due to his kit, he is unable to freeze waves, utilize your w backward, and hit him with your full combo if he ever dashes towards you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Garen",
+        "difficulty": "Even",
+        "idmatchup": 33,
+        "tips": "This matchup is super boring -.- just don't get in his range to be silenced and spinned on, you are both just farming until the end of time.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Heimerdinger",
+        "difficulty": "Minor",
+        "idmatchup": 34,
+        "tips": "just farm under tower and chill, the moment he uses his stun you can kill him",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jayce",
+        "difficulty": "Tiny",
+        "idmatchup": 35,
+        "tips": "respect his range, when you hit level 6 he has very little tools to defend himself.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kassadin",
+        "difficulty": "Tiny",
+        "idmatchup": 36,
+        "tips": "Be careful of his W early game his melee actually HURTS, but past 6 he shouldn't be able to play the game into zed",
+        "tipsFr": null
+    },
+    {
+        "championName": "Katarina",
+        "difficulty": "Minor",
+        "idmatchup": 37,
+        "tips": "don't focus too much on roaming she benefits more, try to keep her in lane where you benefit.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kayle",
+        "difficulty": "Tiny",
+        "idmatchup": 38,
+        "tips": "she has no tools to defend against your w, you can just w forward and auto her she will die.",
+        "tipsFr": null
+    },
+    {
+        "championName": "LeBlanc",
+        "difficulty": "Even",
+        "idmatchup": 39,
+        "tips": "careful of her w and chain, she's very good at setting up for her jungle, you might have to give some cs early game.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lissandra",
+        "difficulty": "Major",
+        "idmatchup": 40,
+        "tips": "her CC is pretty hard to play around. buy QSS if needed. Lissandra has an insane jungle setup, be aware of the opposing jungler.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lucian",
+        "difficulty": "Minor",
+        "idmatchup": 41,
+        "tips": "respect his early laning. If he does not take exhaust, he is food, if he has exhaust play around it and you should be chilling.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lux",
+        "difficulty": "Even",
+        "idmatchup": 42,
+        "tips": "Buy dorans shield.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Malzahar",
+        "difficulty": "Minor",
+        "idmatchup": 43,
+        "tips": "I think he just loses tbh. respect his ult after 6 you might be getting ganked.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Orianna",
+        "difficulty": "Minor",
+        "idmatchup": 44,
+        "tips": "if Orianna ever shields herself bait her to q onto you. good job now she has no way to get the ball back to her ult her and she will die.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Pantheon",
+        "difficulty": "Minor",
+        "idmatchup": 45,
+        "tips": "Respect his early game, ult his w after level 6 he just dies.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Pyke",
+        "difficulty": "Minor",
+        "idmatchup": 46,
+        "tips": "Bone plating is really good against Pyke he has no way of procing it unless he is all ins you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Qiyana",
+        "difficulty": "Even",
+        "idmatchup": 47,
+        "tips": "Make sure to not ult her when she is near a wall.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rumble",
+        "difficulty": "Major",
+        "idmatchup": 48,
+        "tips": "absolutely respect his early game, he will BURN you to DEATH. Pinging your team is very important Rumble will get to roam way more often than Zed.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ryze",
+        "difficulty": "Tiny",
+        "idmatchup": 49,
+        "tips": "He cant move tbh, just kill him level 6",
+        "tipsFr": null
+    },
+    {
+        "championName": "Seraphine",
+        "difficulty": "Tiny",
+        "idmatchup": 50,
+        "tips": "this matchup is pretty easy just play around her cc. if she makes 1 miss play her screen will go grey.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sett",
+        "difficulty": "Even",
+        "idmatchup": 51,
+        "tips": "not really killable, just respect his range and farm -.- another boring matchup.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Swain",
+        "difficulty": "Minor",
+        "idmatchup": 52,
+        "tips": "avoid his e.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sylas",
+        "difficulty": "Even",
+        "idmatchup": 53,
+        "tips": "Very intense matchup, dodge his E2 and you'll win trades, get hit and you'll lose trades. Note that after lvl 6 your ult is shorter than his steal cooldown. play around that window with ult advantage. always Ignite before he W you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Syndra",
+        "difficulty": "Even",
+        "idmatchup": 54,
+        "tips": "Doran shield is decent into Syndra if you are not confident in dodging her Qs.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Taliyah",
+        "difficulty": "Tiny",
+        "idmatchup": 55,
+        "tips": "She's not mobile at all, just avoid the knock-up. eventually she will die to you at some point.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Talon",
+        "difficulty": "Minor",
+        "idmatchup": 56,
+        "tips": "remember to utilize your w to dodge his W2 so he cannot proc his passive on you. try not to ult him first as it will be much more difficult to hit your shurikens when he is ult.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Tryndamere",
+        "difficulty": "Even",
+        "idmatchup": 57,
+        "tips": "play behind minions, utilize w backward for short trades remember to save ignite for when his ult expires and you can watch him BURN :D",
+        "tipsFr": null
+    },
+    {
+        "championName": "Veigar",
+        "difficulty": "Tiny",
+        "idmatchup": 58,
+        "tips": "food.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vel'Koz",
+        "difficulty": "Tiny",
+        "idmatchup": 59,
+        "tips": "Vel'koz is immobile. Juke his abilities as well as you can and he should just die at lvl 6.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vex",
+        "difficulty": "Even",
+        "idmatchup": 60,
+        "tips": "her early game actually HURTS, watch out when her passive bar is red.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Viego",
+        "difficulty": "Minor",
+        "idmatchup": 61,
+        "tips": "Viego's passive count as conqueror stacks too so he can w-aa-q-aa and fully stack conqueror, make sure you do not fight him in his conqueror.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Viktor",
+        "difficulty": "Even",
+        "idmatchup": 62,
+        "tips": "it is pretty diffcult to dodge his e, buy Doran shield in this matchup and play for his mana.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vladimir",
+        "difficulty": "Even",
+        "idmatchup": 63,
+        "tips": "this guy heals a lot, hit him when he uses q on the minion.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Xerath",
+        "difficulty": "Minor",
+        "idmatchup": 64,
+        "tips": "If he does not hit every single ability and absolutely GAP you, you should just be able to solo kill him.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yasuo",
+        "difficulty": "Even",
+        "idmatchup": 65,
+        "tips": "never push the wave against Yasuo. he will freeze with wind wall and have a million dashes.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yone",
+        "difficulty": "Minor",
+        "idmatchup": 66,
+        "tips": "Avoid trading heavily melee, utilize your w and ult to dodge some of his abilities and he should lose to you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ziggs",
+        "difficulty": "Minor",
+        "idmatchup": 67,
+        "tips": "Ziggs poke is pretty strong early, Doran shield is an option if you are not confident in dodging his skill shots.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zilean",
+        "difficulty": "Minor",
+        "idmatchup": 68,
+        "tips": "never be obvious about the target you want to kill. You can ult one target but kill another to confuse him and bait out his ult.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Zoe",
+        "difficulty": "Major",
+        "idmatchup": 69,
+        "tips": "yea, she's annoying, she hurts. cleanse is not bad in this matchup, you can cleanse the ignite or the sleepy bubble.",
         "tipsFr": null
     }
 ]

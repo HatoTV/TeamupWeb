@@ -2,10 +2,10 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { SafeHtmlPipe } from '../../safe-html.pipe.js';
-import { ScrollService } from '../../scroll.service.js';
+import { SafeHtmlPipe } from '../../safe-html.pipe';
+import { ScrollService } from '../../scroll.service';
 import { HttpClient } from '@angular/common/http';
-import { ModalComponent } from '../modal/modal.component.js';
+import { ModalComponent } from '../modal/modal.component';
 
 @Component({
   selector: 'app-mecanics',

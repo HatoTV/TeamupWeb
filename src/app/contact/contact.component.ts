@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
-import { SafeHtmlPipe } from '../safe-html.pipe.js';
+import { SafeHtmlPipe } from '../safe-html.pipe';
 
 @Component({
   selector: 'app-contact',

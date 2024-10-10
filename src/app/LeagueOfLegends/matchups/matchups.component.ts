@@ -6,7 +6,7 @@ import { lastValueFrom, Observable } from 'rxjs';
 import { FormsModule } from '@angular/forms';
 import { throws } from 'node:assert';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import { PopupNotificationMatchupComponent } from './popup-notification-matchup/popup-notification-matchup.component.js';
+import { PopupNotificationMatchupComponent } from './popup-notification-matchup/popup-notification-matchup.component';
 
 @Component({
   selector: 'lol-matchups',

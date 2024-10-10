@@ -1,371 +1,371 @@
 {
-  "BANEER" : "Ce site est actuellement en construction. Des mises à jour et nouveaux contenus sont ajoutés quotidiennement.",
-  "BANEER_MOBILE" : "Ce site est actuellement en construction",
-  "SENDMESSAGE" : "Envoyer",
-  "REPORTBUTTON" : "Données manquantes ? Informez-moi pour que je puisse les mettre à jour !",
-  "UPDATEREQUEST" : "Demande de mise à jour",
-  "MESSAGEOK" : "Message envoyé !",
+  "BANEER": "Ce site est actuellement en construction. Des mises à jour et nouveaux contenus sont ajoutés quotidiennement.",
+  "BANEER_MOBILE": "Ce site est actuellement en construction",
+  "SENDMESSAGE": "Envoyer",
+  "REPORTBUTTON": "Données manquantes ? Informez-moi pour que je puisse les mettre à jour !",
+  "UPDATEREQUEST": "Demande de mise à jour",
+  "MESSAGEOK": "Message envoyé !",
   "LOL": {
     "LEFTBAR": {
-      "FONDAMENTALS" : "Fondamentaux",
+      "FONDAMENTALS": "Fondamentaux",
       "MECANICS": "Mécaniques",
-      "LANING" : {
-        "BAIT" : "'Bait' les spells"
+      "LANING": {
+        "BAIT": "'Bait' les spells"
       },
-      "JUNGLE" : {
-        "PATHING" : "Chemins de Jungle",
-        "OBJECTIVES" : "Objectifs & Invades"
+      "JUNGLE": {
+        "PATHING": "Chemins de Jungle",
+        "OBJECTIVES": "Objectifs & Invades"
       },
-      "INTRODUCTION" : "Introduction"
+      "INTRODUCTION": "Introduction"
     },
-    
     "MATCHUPS": {
-      "INTRO1" : "MAÎTRISEZ CHAQUE MATCHUP",
-      "INTRO2" : "Stratégies et conseils pour vos affrontements !",
-      "YOURCHAMPION" : "Votre Champion",
-      "ENEMYCHAMPION" : "Champion Ennemi",
-      "DIFFICULTY" : "Difficulté",
-      "TIPS" : "Astuces",
+      "INTRO1": "MAÎTRISEZ CHAQUE MATCHUP",
+      "INTRO2": "Stratégies et conseils pour vos affrontements !",
+      "YOURCHAMPION": "Votre Champion",
+      "ENEMYCHAMPION": "Champion Ennemi",
+      "DIFFICULTY": "Difficulté",
+      "TIPS": "Astuces",
       "NOMATCHUP": "Aucune données trouvées.",
-      "NOCHAMPION" : "Aucun champion trouvé.",
-      "DIFFICULTIES" : {
-        "Extreme" : "Extreme",
-        "Major" : "Difficile",
-        "Even" : "Moyen",
-        "Minor" : "Facile",
-        "Tiny" : "Très Facile"
+      "NOCHAMPION": "Aucun champion trouvé.",
+      "DIFFICULTIES": {
+        "Extreme": "Extreme",
+        "Major": "Difficile",
+        "Even": "Moyen",
+        "Minor": "Facile",
+        "Tiny": "Très Facile"
       },
-      "REVERSE" : "Inverser Sélection" ,
+      "REVERSE": "Inverser Sélection",
       "BESTPICKAGAINST": "Counters de",
       "WORSTPICKAGAINST": "Avantageux pour",
-      "NODATAMATCHUP":"Aucune données",
-      "FALSEDATAMATCHUP":"Données fausses/incomplètes",
-      "MESSAGEPLACEHOLDER":"Explications (facultatif)"
+      "NODATAMATCHUP": "Aucune données",
+      "FALSEDATAMATCHUP": "Données fausses/incomplètes",
+      "MESSAGEPLACEHOLDER": "Explications (facultatif)"
     },
-
-    "WAVEMANAGEMENT":{
-      "TITLE0":"Le Wave Management",
-      "SUBTITLE0":"Techniques et astuces pour un contrôle parfait de la lane !",
-      "TITLE1":"Qu'est-ce que le wave management ?",
-      "CONTENT1":"C'est l'art de gérer stratégiquement la wave de sbires afin d'obtenir un avantage significatif en termes de pression sur la carte, de sécurité, ainsi que de gain de gold et d'expérience.<br>Le wave management est l'un des aspects les plus importants à maîtriser dans le jeu, car il est essentiel sur toutes les lanes, même pour un jungler.",
-      "TITLE2":"Le spawn des sbires",
-      "CONTENT2":{
-        "INTRO1" : "Il existe 3 types de waves de sbires :",
-        "LIST1" : "<bold>Wave standard :</bold> composée de 3 sbires de mêlée et 3 sbires à distance.",
-        "LIST2" : "<bold>Wave canon (siege) :</bold> une wave standard + un sbire canon.",
-        "LIST3" : "<bold>Super wave :</bold> une wave standard + un super sbire.",
-        "INTRO2" :"Les sbires apparaissent pour la première fois à 1:05, puis toutes les 30 secondes jusqu'à la fin de la partie.\nLe cycle d'apparition des waves est le suivant :",
-        "LIST5" :"<bold>Durant les 20 premières minutes :</bold> Wave standard -> Wave standard -> Wave canon.",
-        "LIST6" :"<bold>Après 20 minutes :</bold> Wave standard -> Wave canon.",
-        "LIST7" :"<bold>Après 35 minutes :</bold> Toutes les waves deviennent des waves canon",
-        "LIST8" :"<bold>Si inhibiteur détruit :</bold> Toutes les waves sont des super waves pendant 5 minutes (temps de réapparition de l'inhibiteur).",
-        "INTRO3" : "<italic>Info bonus :</italic> Si votre équipe a un avantage en niveaux et en tours détruites, vos sbires infligeront plus de dégâts et en recevront moins des sbires ennemis. Ces bonus augmentent en fonction de la différence de niveaux et de tours."
+    "WAVEMANAGEMENT": {
+      "TITLE0": "Le Wave Management",
+      "SUBTITLE0": "Techniques et astuces pour un contrôle parfait de la lane !",
+      "TITLE1": "Qu'est-ce que le wave management ?",
+      "CONTENT1": "C'est l'art de gérer stratégiquement la wave de sbires afin d'obtenir un avantage significatif en termes de pression sur la carte, de sécurité, ainsi que de gain de gold et d'expérience.<br>Le wave management est l'un des aspects les plus importants à maîtriser dans le jeu, car il est essentiel sur toutes les lanes, même pour un jungler.",
+      "TITLE2": "Le spawn des sbires",
+      "CONTENT2": {
+        "INTRO1": "Il existe 3 types de waves de sbires :",
+        "LIST1": "<bold>Wave standard :</bold> composée de 3 sbires de mêlée et 3 sbires à distance.",
+        "LIST2": "<bold>Wave canon (siege) :</bold> une wave standard + un sbire canon.",
+        "LIST3": "<bold>Super wave :</bold> une wave standard + un super sbire.",
+        "INTRO2": "Les sbires apparaissent pour la première fois à 1:05, puis toutes les 30 secondes jusqu'à la fin de la partie.\nLe cycle d'apparition des waves est le suivant :",
+        "LIST5": "<bold>Durant les 20 premières minutes :</bold> Wave standard -> Wave standard -> Wave canon.",
+        "LIST6": "<bold>Après 20 minutes :</bold> Wave standard -> Wave canon.",
+        "LIST7": "<bold>Après 35 minutes :</bold> Toutes les waves deviennent des waves canon",
+        "LIST8": "<bold>Si inhibiteur détruit :</bold> Toutes les waves sont des super waves pendant 5 minutes (temps de réapparition de l'inhibiteur).",
+        "INTRO3": "<italic>Info bonus :</italic> Si votre équipe a un avantage en niveaux et en tours détruites, vos sbires infligeront plus de dégâts et en recevront moins des sbires ennemis. Ces bonus augmentent en fonction de la différence de niveaux et de tours."
       },
-      "TITLE4":"Le timing pour back",
-      "CONTENT4":"Le moment où vous retournez à la base est crucial pour maximiser vos gains de gold et d'expérience. <br>Pour déterminer le bon timing, la position de la wave de sbires est une information clé à prendre en compte. <br><br><div class='minionsSpawnTipTip'><img class='imgMinionSpawnTip' src='assets/img/wavemanagement_MapSpawn.webp'><div>Étant donné que les waves des deux équipes apparaissent en même temps, vous pouvez estimer la position de la wave ennemie en regardant où se trouve la vôtre (effet miroir). Par exemple, si une wave canon part de votre base, une wave canon part également de la base ennemie.<br><br>Il est fortement déconseillé de back si une wave canon est en chemin, et déjà sortie de votre base. Les sbires canon rapportent plus de gold et d'expérience que les sbires classiques, donc il est préférable de rester en lane pour récolter ces ressources. L’idéal est de back avant qu’une wave canon n’apparaisse.</div></div><br>De plus, si votre adversaire n'est pas sur la lane, il peut être utile de pousser rapidement votre wave sous sa tour avant de back (Fast Push). Cela lui fera perdre des ressources et permettra à la wave ennemie d'avancer vers le milieu de la lane, rendant votre retour plus sûr.",
-      "TITLE5":"Stratégie 1 : Le Freeze",
-      "SUBTITLE5":"Qu'est-ce qu'un Freeze ?",
-      "CONTENT5" : "Le freezing consiste à empêcher la wave de sbires de bouger, obligeant l'adversaire à s'avancer pour récupérer des ressources. <br><br>Pour maintenir un freeze, vous devez équilibrer les dégâts subis par vos sbires et ceux infligés aux sbires ennemis, en gérant leur position par rapport à votre tourelle.",
-      "SUBTITLE6":"Comment freeze une lane ?",
-      "CONTENT6":{
-        "LIST1" : "Lorsque l'ennemi inflige des dégâts à ses sbires (hors du last-hit), vous devez ajuster vos dégâts pour que tous les sbires meurent à peu près au même moment, empêchant ainsi la wave de pousser.",
-        "LIST2" : "Plus le freeze est proche de votre tour, plus vous devez laisser de sbires ennemis en vie pour contrer l'arrivée rapide des vôtres (2-3 sbires ennemis supplémentaires près de votre tour).",
-        "LIST3" : "Si la wave ennemie est trop grande et commence à toucher votre tour, vous pouvez la tanker (prendre les coups des sbires) pour la maintenir en place, si vous avez assez de points de vie.",
-        "LIST4" : "Si la wave est trop importante pour être tankée, réduisez le nombre de sbires ennemis pour garder le contrôle du freeze."
+      "TITLE4": "Le timing pour back",
+      "CONTENT4": "Le moment où vous retournez à la base est crucial pour maximiser vos gains de gold et d'expérience. <br>Pour déterminer le bon timing, la position de la wave de sbires est une information clé à prendre en compte. <br><br><div class='minionsSpawnTipTip'><img class='imgMinionSpawnTip' src='assets/img/wavemanagement_MapSpawn.webp'><div>Étant donné que les waves des deux équipes apparaissent en même temps, vous pouvez estimer la position de la wave ennemie en regardant où se trouve la vôtre (effet miroir). Par exemple, si une wave canon part de votre base, une wave canon part également de la base ennemie.<br><br>Il est fortement déconseillé de back si une wave canon est en chemin, et déjà sortie de votre base. Les sbires canon rapportent plus de gold et d'expérience que les sbires classiques, donc il est préférable de rester en lane pour récolter ces ressources. L’idéal est de back avant qu’une wave canon n’apparaisse.</div></div><br>De plus, si votre adversaire n'est pas sur la lane, il peut être utile de pousser rapidement votre wave sous sa tour avant de back (Fast Push). Cela lui fera perdre des ressources et permettra à la wave ennemie d'avancer vers le milieu de la lane, rendant votre retour plus sûr.",
+      "TITLE5": "Stratégie 1 : Le Freeze",
+      "SUBTITLE5": "Qu'est-ce qu'un Freeze ?",
+      "CONTENT5": "Le freezing consiste à empêcher la wave de sbires de bouger, obligeant l'adversaire à s'avancer pour récupérer des ressources. <br><br>Pour maintenir un freeze, vous devez équilibrer les dégâts subis par vos sbires et ceux infligés aux sbires ennemis, en gérant leur position par rapport à votre tourelle.",
+      "SUBTITLE6": "Comment freeze une lane ?",
+      "CONTENT6": {
+        "LIST1": "Lorsque l'ennemi inflige des dégâts à ses sbires (hors du last-hit), vous devez ajuster vos dégâts pour que tous les sbires meurent à peu près au même moment, empêchant ainsi la wave de pousser.",
+        "LIST2": "Plus le freeze est proche de votre tour, plus vous devez laisser de sbires ennemis en vie pour contrer l'arrivée rapide des vôtres (2-3 sbires ennemis supplémentaires près de votre tour).",
+        "LIST3": "Si la wave ennemie est trop grande et commence à toucher votre tour, vous pouvez la tanker (prendre les coups des sbires) pour la maintenir en place, si vous avez assez de points de vie.",
+        "LIST4": "Si la wave est trop importante pour être tankée, réduisez le nombre de sbires ennemis pour garder le contrôle du freeze."
       },
-      "SUBTITLE7":"Quand freeze une lane ?",
-      "CONTENT7":{
-        "LIST1" : "Si le jungler ennemi vous met beaucoup de pression, il est conseillé de freeze près de votre tour pour farmer en sécurité et éviter les ganks.",
-        "LIST2" : "Après avoir été tué, le freeze vous permet de rattraper votre retard en farm sans trop vous exposer.",
-        "LIST3" : "Lorsque l'ennemi back sans avoir poussé correctement la wave dans votre tour, maintenez la wave hors de votre tour pour le forcer à s'exposer à son retour."
+      "SUBTITLE7": "Quand freeze une lane ?",
+      "CONTENT7": {
+        "LIST1": "Si le jungler ennemi vous met beaucoup de pression, il est conseillé de freeze près de votre tour pour farmer en sécurité et éviter les ganks.",
+        "LIST2": "Après avoir été tué, le freeze vous permet de rattraper votre retard en farm sans trop vous exposer.",
+        "LIST3": "Lorsque l'ennemi back sans avoir poussé correctement la wave dans votre tour, maintenez la wave hors de votre tour pour le forcer à s'exposer à son retour."
       },
-      "SUBTITLE8":"Avantages & Inconvénients du freeze",
-      "CONTENT8":"Les avantages du freezing incluent le fait de priver l'ennemi de sbires, ce qui vous permet de prendre un avantage en or et de forcer l'ennemi à s'exposer pour farmer, créant des opportunités de gank.<br>Cela permet aussi de rattraper votre retard en or et en expérience si vous êtes en difficulté.<br><br>Cependant, un freeze mal exécuté peut permettre à l'ennemi de roam et ainsi de prendre de créer un avantage ailleurs sur la carte.\nDe plus, le freeze est plus difficile à maintenir si l'ennemi a un bon wave clear.",
-      "TITLE9":"Stratégie 2 : Le Slow Push",
-      "SUBTITLE9":"Qu'est-ce qu'un Slow Push ?",
-      "CONTENT9":"Le slow pushing consiste à faire avancer la wave de sbires lentement vers la tour ennemie, tout en vous laissant libre de faire d'autres actions sur la carte.",
-      "SUBTITLE10":"Comment slow push une lane ?",
-      "CONTENT10":"Il suffit de réduire le nombre de sbires ennemis juste assez pour que votre wave avance progressivement (tuer les sbires à distance ou laisser un léger avantage en nombre de sbires).",
-      "SUBTITLE11":"Quand slow push une lane ?",
-      "CONTENT11":{
-        "LIST1" : "Avant de quitter votre lane pour aider ailleurs, assurez-vous que votre wave est en slow push afin que l'ennemi ne puisse pas facilement détruire votre tour pendant votre absence.",
-        "LIST2" : "Un slow push peut aboutir à une wave massive qui forcerait l'ennemi à défendre, libérant des opportunités pour votre équipe ailleurs sur la carte."
+      "SUBTITLE8": "Avantages & Inconvénients du freeze",
+      "CONTENT8": "Les avantages du freezing incluent le fait de priver l'ennemi de sbires, ce qui vous permet de prendre un avantage en or et de forcer l'ennemi à s'exposer pour farmer, créant des opportunités de gank.<br>Cela permet aussi de rattraper votre retard en or et en expérience si vous êtes en difficulté.<br><br>Cependant, un freeze mal exécuté peut permettre à l'ennemi de roam et ainsi de prendre de créer un avantage ailleurs sur la carte.\nDe plus, le freeze est plus difficile à maintenir si l'ennemi a un bon wave clear.",
+      "TITLE9": "Stratégie 2 : Le Slow Push",
+      "SUBTITLE9": "Qu'est-ce qu'un Slow Push ?",
+      "CONTENT9": "Le slow pushing consiste à faire avancer la wave de sbires lentement vers la tour ennemie, tout en vous laissant libre de faire d'autres actions sur la carte.",
+      "SUBTITLE10": "Comment slow push une lane ?",
+      "CONTENT10": "Il suffit de réduire le nombre de sbires ennemis juste assez pour que votre wave avance progressivement (tuer les sbires à distance ou laisser un léger avantage en nombre de sbires).",
+      "SUBTITLE11": "Quand slow push une lane ?",
+      "CONTENT11": {
+        "LIST1": "Avant de quitter votre lane pour aider ailleurs, assurez-vous que votre wave est en slow push afin que l'ennemi ne puisse pas facilement détruire votre tour pendant votre absence.",
+        "LIST2": "Un slow push peut aboutir à une wave massive qui forcerait l'ennemi à défendre, libérant des opportunités pour votre équipe ailleurs sur la carte."
       },
-      "TITLE12":"Stratégie 3 : Le Fast Push",
-      "SUBTITLE12":"Qu'est-ce qu'un Fast Push ?",
-      "CONTENT12":"Le Fast Push est une technique qui consiste à pousser rapidement la wave de sbires pour forcer l'adversaire à revenir en lane.",
-      "SUBTITLE13":"Comment Fast push une lane ?",
-      "CONTENT13":{
-        "LIST1" : "L’objectif est de clear rapidement la wave de sbires ennemis afin que vos sbires puissent avancer rapidement vers la tour ennemie.",
-        "LIST2" : "Éliminez les sbires mêlée en premier puis les sbires canon en priorité pour éviter le ralentissement de votre wave.",
-        "LIST3" : "Attaquez les sbires sans arrêt, ne vous contentez pas de last-hit.",
-        "LIST4" : "Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble."
+      "TITLE12": "Stratégie 3 : Le Fast Push",
+      "SUBTITLE12": "Qu'est-ce qu'un Fast Push ?",
+      "CONTENT12": "Le Fast Push est une technique qui consiste à pousser rapidement la wave de sbires pour forcer l'adversaire à revenir en lane.",
+      "SUBTITLE13": "Comment Fast push une lane ?",
+      "CONTENT13": {
+        "LIST1": "L’objectif est de clear rapidement la wave de sbires ennemis afin que vos sbires puissent avancer rapidement vers la tour ennemie.",
+        "LIST2": "Éliminez les sbires mêlée en premier puis les sbires canon en priorité pour éviter le ralentissement de votre wave.",
+        "LIST3": "Attaquez les sbires sans arrêt, ne vous contentez pas de last-hit.",
+        "LIST4": "Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble."
       },
-      "SUBTITLE14":"Quand fast push une lane ?",
-      "CONTENT14":{
-        "LIST1" : "Si l'ennemi n'est pas sur la lane ou est mort, envoyez rapidement la wave sous la tour ennemie pour lui faire perdre des ressources.",
-        "LIST2" : "Avant de bouger sur la carte, un fast push permet de gagner du temps et de sécuriser vos ressources avant de rejoindre une action ailleurs.",
-        "LIST3" : "Contre certains champions qui peinent à farmer sous tour, le fast push peut les mettre sous pression ou les forcer à faire des erreurs.",
-        "LIST4" : "Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble."
+      "SUBTITLE14": "Quand fast push une lane ?",
+      "CONTENT14": {
+        "LIST1": "Si l'ennemi n'est pas sur la lane ou est mort, envoyez rapidement la wave sous la tour ennemie pour lui faire perdre des ressources.",
+        "LIST2": "Avant de bouger sur la carte, un fast push permet de gagner du temps et de sécuriser vos ressources avant de rejoindre une action ailleurs.",
+        "LIST3": "Contre certains champions qui peinent à farmer sous tour, le fast push peut les mettre sous pression ou les forcer à faire des erreurs.",
+        "LIST4": "Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble."
       },
-      "CONTENT15":"<bold>Important :</bold> Avant de Fast/Slow Push, assurez-vous que vous avez assez de temps et de vision sur la carte pour éviter un gank."
+      "CONTENT15": "<bold>Important :</bold> Avant de Fast/Slow Push, assurez-vous que vous avez assez de temps et de vision sur la carte pour éviter un gank."
     },
-
-    "LANING":{
-      "TITLE0":"Le Laning",
-      "SUBTITLE0":"Dominez votre adversaire dès les premières minutes !",
-      "CONTENT1":{
-        "INTRO1":"Chaque rôle en lane requiert une maîtrise des mécaniques de combat, du positionnement et de la gestion des ressources pour surpasser votre adversaire direct.",
-        "LIST1":"En top lane, il s’agit souvent de duels prolongés et de gestion de la téléportation.",
-        "LIST2":"En mid lane, la priorité est de contrôler la carte et d'effectuer des rotations efficaces.",
-        "LIST3":"En bot lane, la coordination avec votre support et la gestion des échanges sont essentielles.",
-        "INTRO2":"Maîtriser ces aspects vous permettra non seulement de dominer votre propre lane, mais aussi d’influencer le cours global de la partie."
+    "LANING": {
+      "TITLE0": "Le Laning",
+      "SUBTITLE0": "Dominez votre adversaire dès les premières minutes !",
+      "CONTENT1": {
+        "INTRO1": "Chaque rôle en lane requiert une maîtrise des mécaniques de combat, du positionnement et de la gestion des ressources pour surpasser votre adversaire direct.",
+        "LIST1": "En top lane, il s’agit souvent de duels prolongés et de gestion de la téléportation.",
+        "LIST2": "En mid lane, la priorité est de contrôler la carte et d'effectuer des rotations efficaces.",
+        "LIST3": "En bot lane, la coordination avec votre support et la gestion des échanges sont essentielles.",
+        "INTRO2": "Maîtriser ces aspects vous permettra non seulement de dominer votre propre lane, mais aussi d’influencer le cours global de la partie."
       },
-      "TITLE2":"Last Hit",
+      "TITLE2": "Last Hit",
       "CONTENT2": "Le last hit est fondamental pour accumuler de l’or et prendre l’avantage sur votre adversaire en lane.<br><br>Il consiste à porter le coup fatal aux sbires ennemis afin de collecter l’or qu’ils génèrent. Maîtriser cette technique nécessite un bon timing et une connaissance précise des dégâts que vous infligez, car manquer un last hit entraîne une perte d’or et peut ralentir votre progression.<br><br>De plus, le last hit est crucial pour un bon wave management (voir chapitre sur le Wave Management).<br>Utilisez l’outil d'entraînement pour perfectionner votre farm et ajuster vos dégâts en fonction de votre niveau et équipement. Mieux vous maîtrisez le last hit, plus vous accumulez de ressources, ce qui vous donne un net avantage dans la partie – souvent plus important que de sécuriser des kills.",
-      "TITLE3":"Trading",
-      "CONTENT3":"Le trading consiste à infliger des dégâts à son adversaire, soit avec des auto-attaques, soit avec des compétences.",
-      "SUBTITLE4":"Comment trade efficacement ?",
-      "CONTENT4":{
-        "LIST1" : "<bold>Profitez des moments de last hit adverses :</bold> Votre adversaire doit tuer des sbires pour farmer, devenant immobile et donc vulnérable à ce moment-là. Anticipez ses actions en surveillant la vie de vos sbires et punissez-le avec vos compétences lorsqu'il se prépare à effectuer un last hit.",
-        "LIST2" : "<bold>Exploitez les cooldowns ennemis :</bold> Si votre adversaire utilise des compétences pour farmer ou vous agresser, tirez parti du délai avant qu’il ne récupère ses sorts pour engager un trade. Le bait de sorts (l'inciter à les utiliser sans effet) est une tactique clé dont nous parlerons plus en détail dans le prochain chapitre.",
-        "LIST3" : "<bold>Faites attention aux sbires :</bold> Infliger des dégâts à un champion provoque l’aggro des sbires ennemis qui vous attaqueront à la place des vôtres. Evitez les combats prolongés dans une grande wave de sbires adverses, car cela peut vite tourner à votre désavantage.",
-        "LIST4" : "<bold>Poke l’adversaire :</bold> Le poke consiste à harceler l’ennemi avec des attaques à distance ou des compétences, réduisant progressivement sa santé sans s'engager dans un combat direct. Cela force souvent l’adversaire à jouer défensivement, à manquer des sbires ou à consommer ses ressources (potions, sorts de soin). Certains champions sont plus efficaces pour poke en fonction de leur kit (par exemple, Ziggs ou Xerath sont bien plus efficaces qu’un Garen). Une fois l’ennemi affaibli, engagez un combat plus agressif lorsque sa situation est défavorable.",
-        "LIST5" : "<bold>Gérez votre spacing :</bold> Le spacing fait référence à la gestion de la distance entre vous et votre adversaire pour maximiser vos actions tout en minimisant les risques. Assurez-vous d'être à la distance optimale pour utiliser vos compétences tout en restant hors de portée des siennes. Si vous êtes un champion à distance face à un champion de mêlée, abusez de votre portée pour le harceler avec des auto-attaques sans lui permettre de farmer facilement."
+      "TITLE3": "Trading",
+      "CONTENT3": "Le trading consiste à infliger des dégâts à son adversaire, soit avec des auto-attaques, soit avec des compétences.",
+      "SUBTITLE4": "Comment trade efficacement ?",
+      "CONTENT4": {
+        "LIST1": "<bold>Profitez des moments de last hit adverses :</bold> Votre adversaire doit tuer des sbires pour farmer, devenant immobile et donc vulnérable à ce moment-là. Anticipez ses actions en surveillant la vie de vos sbires et punissez-le avec vos compétences lorsqu'il se prépare à effectuer un last hit.",
+        "LIST2": "<bold>Exploitez les cooldowns ennemis :</bold> Si votre adversaire utilise des compétences pour farmer ou vous agresser, tirez parti du délai avant qu’il ne récupère ses sorts pour engager un trade. Le bait de sorts (l'inciter à les utiliser sans effet) est une tactique clé dont nous parlerons plus en détail dans le prochain chapitre.",
+        "LIST3": "<bold>Faites attention aux sbires :</bold> Infliger des dégâts à un champion provoque l’aggro des sbires ennemis qui vous attaqueront à la place des vôtres. Evitez les combats prolongés dans une grande wave de sbires adverses, car cela peut vite tourner à votre désavantage.",
+        "LIST4": "<bold>Poke l’adversaire :</bold> Le poke consiste à harceler l’ennemi avec des attaques à distance ou des compétences, réduisant progressivement sa santé sans s'engager dans un combat direct. Cela force souvent l’adversaire à jouer défensivement, à manquer des sbires ou à consommer ses ressources (potions, sorts de soin). Certains champions sont plus efficaces pour poke en fonction de leur kit (par exemple, Ziggs ou Xerath sont bien plus efficaces qu’un Garen). Une fois l’ennemi affaibli, engagez un combat plus agressif lorsque sa situation est défavorable.",
+        "LIST5": "<bold>Gérez votre spacing :</bold> Le spacing fait référence à la gestion de la distance entre vous et votre adversaire pour maximiser vos actions tout en minimisant les risques. Assurez-vous d'être à la distance optimale pour utiliser vos compétences tout en restant hors de portée des siennes. Si vous êtes un champion à distance face à un champion de mêlée, abusez de votre portée pour le harceler avec des auto-attaques sans lui permettre de farmer facilement."
       },
-      "CONTENT51":"<italic>Astuce :</italic> Utilisez les buissons pour casser la vision de votre adversaire pendant un combat. Cela peut l'empêcher de vous cibler avec des compétences ou des auto-attaques, tandis que vous pouvez continuer à l’agresser.<br><br>N'importe quel type d'ennemi stoppe son aggression s'il perd la vision.",
-      "CONTENT5":"Les trades sont encore plus avantageux si vous avez un niveau supérieur à votre adversaire ou venez d'obtenir un powerspike (gain de puissance via un sort ou un objet). De plus, une bonne gestion des waves (wave management) peut vous aider à optimiser vos trades tout en minimisant la perte de ressources.<br>Attention toutefois au moment où vous engagez un trade. Un adversaire près de sa tour avec sa barre de vie pleine sera difficile à menacer. De plus, si vous commencez un trade et vous faites gank immédiatement après, vos chances de survie seront réduites, car vous aurez vos sorts en cooldown.<br><br>Certains matchups rendent les trades plus ou moins compliqués, nécessitant une approche spécifique (sorts précis en cooldown, trades courts ou longs). <br>Consultez la section 'Matchups' pour mieux comprendre les forces et faiblesses de votre champion contre d’autres.",
-      "TITLE6":"Bait les sorts ennemis",
-      "CONTENT6":"Le bait de sorts en lane est une tactique stratégique dans League of Legends. Bait signifie 'appâter', et ici, cela consiste à inciter votre adversaire à utiliser une capacité de manière inefficace, créant ainsi une opportunité pour vous.",
-      "SUBTITLE7":"Comment bait efficacement ?",
-      "CONTENT7":{
-        "LIST1" : "<bold>Feindre une attaque :</bold> Positionnez-vous de manière agressive, comme si vous alliez engager un combat, puis reculez rapidement. L'adversaire pourrait utiliser un sort défensif ou offensif pour vous dissuader, ce qui vous permettrait de réengager alors qu'il est à court de ressources.",
-        "LIST2" : "<bold>Positionnement risqué :</bold> Placez-vous à portée d'un sort de poke ou de contrôle, mais soyez prêt à esquiver ou à reculer rapidement. Si votre adversaire rate son sort, il devient vulnérable et vous pouvez contre-attaquer.",
-        "LIST3" : "<bold>Utilisation des sbires :</bold> Appâtez votre adversaire en vous montrant vulnérable en tentant de last-hit un sbire à faible vie. Cela pourrait l'inciter à gaspiller un sort, que vous pouvez ensuite esquiver.",
-        "LIST4" : "<bold>Simuler un manque de ressources :</bold> Faites croire à votre adversaire que vous n'avez plus beaucoup de mana ou que vous êtes trop faible pour engager un combat. Cela pourrait le pousser à jouer trop agressivement, vous donnant l’opportunité de contre-attaquer ou d'appeler votre jungler pour un gank."
-       }, 
-       "CONTENT8":"Lorsque vous réussissez à bait un sort, c'est le moment d'exploiter cette fenêtre de vulnérabilité. Si c'était un sort clé avec un long cooldown, engagez immédiatement un combat ou appelez votre jungler pour une opportunité de kill.",
-       "TITLE9":"Roaming",
-       "CONTENT9":"Il arrive que vous n’ayez plus rien à faire sur votre lane. Dans ce cas là, que faire ?<br> Si votre wave de sbires s’écrase sous la tour ennemie et que vous n’avez pas assez d’or pour un achat pertinent à la base, c’est le moment idéal pour aller aider ailleurs : c’est ce qu’on appelle le <bold>Roaming</bold>.<br><br>Lorsque votre wave de sbires est sous la tour ennemie, votre adversaire est occupé à farmer ou est absent, ce qui vous permet de créer une situation de surnombre ailleurs sur la carte.<br><br>La midlane est particulièrement adaptée au roaming, car elle offre un accès rapide aux autres objectifs et lanes. Cependant, le support et le toplaner peuvent également roam pour aider leurs alliés ou préparer des objectifs.",
-       "SUBTITLE10":"Comment roam efficacement ?",
-       "CONTENT10":{
-         "LIST1" : "<bold>Gank une autre lane :</bold> Si votre champion possède un bon sort de contrôle ou de déplacement, aider vos alliés sur une autre lane peut leur donner un avantage décisif.",
-         "LIST2" : "<bold>Poser de la vision :</bold> Placer des balises de vision (wards) dans la jungle ennemie ou autour de votre lane pour anticiper un gank.",
-         "LIST3" : "<bold>Invade la jungle ennemie :</bold> Avec un bon positionnement, surprenez le jungler ennemi dans sa jungle pour l’empêcher de collecter ses ressources. Faites attention, car ses alliés pourraient venir l’aider ; c’est une stratégie plus sûre avec votre jungler ou support.",
-         "LIST4" : "<bold>Préparer/Faire un objectif :</bold> Regroupez-vous avec vos alliés pour préparer un objectif important comme un dragon ou un héraut, en posant de la vision autour ou en commençant l’objectif."
-        }   
-    },
-
-    "JUNGLE":{
-      "TITLE0":"Jungle",
-      "SUBTITLE0":"Maîtrisez la partie et donnez à votre équipe l'avantage décisif !",
-      "CONTENT1":{
-        "INTRO1":"Le rôle de jungler est souvent considéré comme le plus impactant dans une partie de League of Legends.<br><br>Le but d’un jungler est de prendre les meilleures décisions pour :",
-        "LIST1" : "Aider son équipe à prendre l'avantage sur leurs adversaires directs.",
-        "LIST2" : "Gérer les objectifs sur la carte.",
-        "LIST3" : "Accumuler des ressources « gratuites » en tuant les monstres de la jungle.",
-        "LIST4" : "Anticiper les ganks et les mouvements du jungler adverse.",
-        "INTRO2" :"Une des principales difficultés du rôle de jungler, pour les débutants comme pour les joueurs plus expérimentés, est que la réussite dépend moins des compétences mécaniques que de la capacité à lire le jeu et à établir un plan stratégique efficace."
+      "CONTENT51": "<italic>Astuce :</italic> Utilisez les buissons pour casser la vision de votre adversaire pendant un combat. Cela peut l'empêcher de vous cibler avec des compétences ou des auto-attaques, tandis que vous pouvez continuer à l’agresser.<br><br>N'importe quel type d'ennemi stoppe son aggression s'il perd la vision.",
+      "CONTENT5": "Les trades sont encore plus avantageux si vous avez un niveau supérieur à votre adversaire ou venez d'obtenir un powerspike (gain de puissance via un sort ou un objet). De plus, une bonne gestion des waves (wave management) peut vous aider à optimiser vos trades tout en minimisant la perte de ressources.<br>Attention toutefois au moment où vous engagez un trade. Un adversaire près de sa tour avec sa barre de vie pleine sera difficile à menacer. De plus, si vous commencez un trade et vous faites gank immédiatement après, vos chances de survie seront réduites, car vous aurez vos sorts en cooldown.<br><br>Certains matchups rendent les trades plus ou moins compliqués, nécessitant une approche spécifique (sorts précis en cooldown, trades courts ou longs). <br>Consultez la section 'Matchups' pour mieux comprendre les forces et faiblesses de votre champion contre d’autres.",
+      "TITLE6": "Bait les sorts ennemis",
+      "CONTENT6": "Le bait de sorts en lane est une tactique stratégique dans League of Legends. Bait signifie 'appâter', et ici, cela consiste à inciter votre adversaire à utiliser une capacité de manière inefficace, créant ainsi une opportunité pour vous.",
+      "SUBTITLE7": "Comment bait efficacement ?",
+      "CONTENT7": {
+        "LIST1": "<bold>Feindre une attaque :</bold> Positionnez-vous de manière agressive, comme si vous alliez engager un combat, puis reculez rapidement. L'adversaire pourrait utiliser un sort défensif ou offensif pour vous dissuader, ce qui vous permettrait de réengager alors qu'il est à court de ressources.",
+        "LIST2": "<bold>Positionnement risqué :</bold> Placez-vous à portée d'un sort de poke ou de contrôle, mais soyez prêt à esquiver ou à reculer rapidement. Si votre adversaire rate son sort, il devient vulnérable et vous pouvez contre-attaquer.",
+        "LIST3": "<bold>Utilisation des sbires :</bold> Appâtez votre adversaire en vous montrant vulnérable en tentant de last-hit un sbire à faible vie. Cela pourrait l'inciter à gaspiller un sort, que vous pouvez ensuite esquiver.",
+        "LIST4": "<bold>Simuler un manque de ressources :</bold> Faites croire à votre adversaire que vous n'avez plus beaucoup de mana ou que vous êtes trop faible pour engager un combat. Cela pourrait le pousser à jouer trop agressivement, vous donnant l’opportunité de contre-attaquer ou d'appeler votre jungler pour un gank."
       },
-      "TITLE2":"Chemins de Jungle",
-      "CONTENT2":{
-        "INTRO1":"Il existe plusieurs routes de jungle possibles, et cette décision doit être prise dès l'écran de chargement :",
-        "LIST1" : "<bold>Full Clear :</bold> 6 Camps -> Carapateur -> Gank ou back.<br>C’est la stratégie la plus courante en Saison 14, car le farm est priorisé dans la méta actuelle. Cela peut toutefois évoluer dans les prochaines saisons.",
-        "LIST2" : "<bold>3 Camps</bold> -> Gank :<br>Ce chemin est utile si vous souhaitez mettre de la pression rapidement en début de partie pour donner un avantage à une de vos lanes, ou si votre champion a une faible vitesse de clear la jungle. Attention cependant, si le gank échoue, vous risquez de perdre beaucoup de temps.",
-        "LIST3" : "<bold>1 Camp + Invade :</bold><br>Faire son Red ou Blue, puis invade directement la jungle adverse sur le même côté.<br>Cela ne doit être tenté que si vous êtes sûr que le jungler adverse a commencé de l'autre côté (ex. : commencer Red et invade Blue si l'ennemi commence au Red).<br>Attention aussi aux possibles rotations des laners adverses."
-      },
-      "SUBTITLE3" : "Bot ou Top ?",
-      "CONTENT3":{
-        "INTRO1":"Si vous choisissez de partir sur un full clear, la question est la suivante : faut-il aller bot ou top ? Ce choix dépend de plusieurs facteurs :",
-        "LIST1" : "<bold>Analyser les lanes :</bold> Certaines lanes sont plus susceptibles de pousser naturellement que d'autres.<br>Par exemple, une Tristana poussera plus facilement face à un Ezreal à cause de ses dégâts de zone. En fonction de cette analyse, vous devez planifier où vous finirez votre clear : si vous prévoyez de gank bot, commencez votre clear top, et inversement.",
-        "LIST2" : "<bold>Analyser les sorts d'invocateur :</bold> Si votre toplaner joue avec Ignite et son adversaire avec Téléportation, commencer bot pour finir par un gank top peut être une bonne idée. Un toplaner sans téléportation aura beaucoup plus de mal à revenir dans la partie s'il perd un early gank.",
-        "LIST3" : "<bold>Analyser les champions :</bold> Certains champions sont forts en début de partie (comme Pantheon), tandis que d'autres brillent en fin de partie (comme Veigar). Aider vos champions forts en fin de partie à tenir leur lane peut vous garantir une victoire à long terme. Dans tous les cas, il est important de jouer autour des champions 'carry' de votre équipe."
-      },
-      "TITLE4":"Objectifs & Priorité",
-      "CONTENT4":{
-        "INTRO1":"Il existe plusieurs objectifs sur la carte :",
-        "LIST1" : "<bold>Top side :</bold> Grump, Héraut de la Faille, Baron Nashor.",
-        "LIST2":"<bold>Bot side :</bold> Drakes."
-      },
-      "CONTENT5":"La réussite d’un objectif dépend souvent de la supériorité numérique de votre équipe par rapport à l’adversaire, d’où l’importance de la priorité des lanes <bold>(PRIO)</bold>. La PRIO se réfère à la capacité de vos laners à exercer une pression sur leurs adversaires, les forçant à rester sous leur tour pour ne pas perdre de ressources. Cela libère vos alliés pour qu'ils se déplacent vers la rivière, sécurisent des objectifs, ou contestent ceux de l'ennemi.<br><br>N'hésitez pas à communiquer à vos laners l'importance de la PRIO avant de vous engager sur un objectif. Gank juste avant l'apparition d’un objectif clé peut permettre de garantir cette priorité.<br><br>Évitez également de retourner à la base juste avant l'apparition d'un objectif. Si l'équipe ennemie prend position avant vous, il sera plus difficile de coordonner un teamfight autour de cet objectif.<br><br>Avec la PRIO, vous pouvez aussi punir le jungler adverse en invade sa jungle. Que ce soit pour lui voler des ressources ou l’éliminer, cela peut complètement bouleverser le déroulement de la partie, surtout mentalement pour l'adversaire.",
-      "TITLE6":"Ganks",
-      "CONTENT6":"Un 'Gank' est une manœuvre où un joueur, souvent le jungler, se déplace vers une autre lane pour surprendre un adversaire et l'attaquer en équipe.<br><br>Ne Gankez <span style='text-transform:uppercase'><bold>uniquement</bold></span> que si vous estimez avoir au moins 80 % de chances de réussir, sinon priorisez toujours le farm. Un summoner utilisé par l'adversaire ou un kill/assist pris lors de votre venue est synonyme de gank réussi.<br>Perdre du temps sur un gank infructueux signifie accumuler un retard en ressources, ce qui est l’un des plus gros fléaux pour un jungler.<br><br>Un gank est plus probable si la wave de votre allié est poussée ou si l'ennemi est avancé sur sa lane. Dans ce cas, il devra s'avancer pour farmer, le rendant vulnérable à une attaque. Un gank est réussi si vous prenez un kill ou forcez l'adversaire à utiliser des sorts d'invocateur comme Flash.<br><br>Utilisez fréquemment votre brouilleur oculaire pour enlever la vision et optimiser vos chances de réussite. Si vous êtes repéré, il est probable que votre gank échoue.",
-      "CONTENT7":{
-        "INTRO1":"Les différents types de gank",
-        "LIST1":"<bold>Par la rivière :</bold> Simple mais efficace.",
-        "LIST2":"<bold>Lane / Counter Gank :</bold> Attendre dans les buissons d'une lane push pour surprendre l'adversaire ou anticiper un gank ennemi.",
-        "LIST3":"<bold>Dives :</bold> Si l'ennemi est sous sa tour avec peu de points de vie, et que votre wave crash sous la tour, vous pouvez envisager un dive avec votre laner."
-      },
-      "TITLE8":"Conseils supplémentaires",
-      "CONTENT8":{
-        "LIST1":"Remplacez votre trinket par un brouilleur oculaire dès votre premier back.",
-        "LIST2":"Si vous jouez des champions de powerfarm/late game (ex. : Shyvana, Lillia), mettez moins d'accent sur les ganks et concentrez-vous sur votre farm.",
-        "LIST3":"Faites attention à la synchronisation de votre jungle pour ne pas désorganiser le respawn des monstres.",
-        "LIST4":"Concentrez-vous sur les lanes gagnantes. Ne perdez pas de temps sur les lanes perdantes pour éviter de mettre toute la partie en danger.",
-        "LIST5":"Pendant que vous farmez, surveillez la carte et analysez les waves. Profitez-en pour signaler les positions du jungler adverse si possible.",
-        "LIST6":"Communiquez avec vos alliés via les pings et le chat. Cela améliore la coordination lors des objectifs ou des ganks."
+      "CONTENT8": "Lorsque vous réussissez à bait un sort, c'est le moment d'exploiter cette fenêtre de vulnérabilité. Si c'était un sort clé avec un long cooldown, engagez immédiatement un combat ou appelez votre jungler pour une opportunité de kill.",
+      "TITLE9": "Roaming",
+      "CONTENT9": "Il arrive que vous n’ayez plus rien à faire sur votre lane. Dans ce cas là, que faire ?<br> Si votre wave de sbires s’écrase sous la tour ennemie et que vous n’avez pas assez d’or pour un achat pertinent à la base, c’est le moment idéal pour aller aider ailleurs : c’est ce qu’on appelle le <bold>Roaming</bold>.<br><br>Lorsque votre wave de sbires est sous la tour ennemie, votre adversaire est occupé à farmer ou est absent, ce qui vous permet de créer une situation de surnombre ailleurs sur la carte.<br><br>La midlane est particulièrement adaptée au roaming, car elle offre un accès rapide aux autres objectifs et lanes. Cependant, le support et le toplaner peuvent également roam pour aider leurs alliés ou préparer des objectifs.",
+      "SUBTITLE10": "Comment roam efficacement ?",
+      "CONTENT10": {
+        "LIST1": "<bold>Gank une autre lane :</bold> Si votre champion possède un bon sort de contrôle ou de déplacement, aider vos alliés sur une autre lane peut leur donner un avantage décisif.",
+        "LIST2": "<bold>Poser de la vision :</bold> Placer des balises de vision (wards) dans la jungle ennemie ou autour de votre lane pour anticiper un gank.",
+        "LIST3": "<bold>Invade la jungle ennemie :</bold> Avec un bon positionnement, surprenez le jungler ennemi dans sa jungle pour l’empêcher de collecter ses ressources. Faites attention, car ses alliés pourraient venir l’aider ; c’est une stratégie plus sûre avec votre jungler ou support.",
+        "LIST4": "<bold>Préparer/Faire un objectif :</bold> Regroupez-vous avec vos alliés pour préparer un objectif important comme un dragon ou un héraut, en posant de la vision autour ou en commençant l’objectif."
       }
     },
-    "GAME":{
-      "GAME" : "Le Jeu",
-      "SUBTITLE0" :"Maîtrisez les bases pour une compréhension approfondie du jeu !",
-      "TITLE1" : "Statistiques des Objets",
-      "TITLE2" : "Objectifs & Buffs",
-      "TITLE3" : "Wards",
-      "TITLE4" : "Concepts & Lexique",
-      "CONTENT1" : {
-        "INTRO0" : "Comprendre les statistiques des champions est crucial pour une bonne itemisation.<br>Chaque statistique influe sur la manière dont un champion se comporte en combat, et savoir comment elles interagissent avec les objets peut faire une grande différence dans vos décisions stratégiques. <br><br>Dans cette section, nous allons examiner en détail chaque statistique, en expliquant comment elles impactent votre jeu et comment les utiliser pour choisir les meilleurs objets pour chaque situation.",
-        "LIST1" : "<bold>Dégâts d'Attaque (AD) :</bold> Principalement utilisé par les ADC, assassins et bruisers, l'AD augmente les dégâts physiques des attaques de base et certaines compétences.",
-        "LIST2" : "<bold>Puissance (AP) :</bold> Utilisé par les mages, supports et certains assassins, l'AP améliore les dégâts magiques et les effets utilitaires (soins, boucliers).",
-        "LIST3" : "<bold>Vitesse d'Attaque (AS) :</bold> Elle fait référence à la rapidité avec laquelle votre champion attaque par seconde. Avoir une vitesse d'attaque de 1,5 signifie que vous attaquez automatiquement 1,5 fois chaque seconde",
-        "LIST4" : "<bold>Hâte (CDR):</bold> Elle réduit le temps de recharge (CDR) et détermine la rapidité avec laquelle vos sorts reviennent. La hâte ne se calcule pas de manière linéaire avec le CDR, donc elle devient de moins en moins efficace en termes de gold au fur et à mesure que vous en achetez.",
-        "LIST5" : "<bold>Chance de Coup Critique :</bold> Elle correspond à la probabilité d'obtenir un coup critique, qui inflige 75 % de dégâts supplémentaires (sans compter les modificateurs comme la Lame d'Infini).",
-        "LIST6" : "<bold>Vitesse de Déplacement :</bold> C'est à la rapidité avec laquelle votre champion se déplace.",
-        "LIST7" : "<bold>Tenacité :</bold> Elle n'est pas aussi directe que les autres statistiques, mais elle réduit la durée de tous les contrôles de foule (CC) sauf les soulèvements, l’endormissement, la vue réduite, la stase (ultime de Bard) et la suppression. ",
-        "LIST8" : "<bold>Régénération de Santé / Ressource</bold> La régénération de santé est la quantité de vie qu’un champion restaure par seconde, tandis que la régénération des ressources est la quantité de mana ou d'énergie qu’un champion restaure par seconde.",
-        "LIST9" : "<bold>Vol de Vie / Omnivampirisme :</bold> Le vol de vie est le pourcentage de vie restauré en fonction de vos attaques de base et de vos effets à l'impact. L'omnivamp est similaire, mais inclut tout type de dégâts, y compris les capacités.",
-        "LIST10" : "<bold>Armure / Résistance Magique :</bold> L'armure et la résistance magique ont pour rôle de réduire les dégâts physiques et magiques respectivement. Cependant, beaucoup ignorent que ces statistiques défensives sont soumises à des rendements décroissants. En d'autres termes, plus vous accumulez ces statistiques, moins elles sont efficaces.<br>Cela signifie qu'il n'est souvent pas judicieux d'accumuler uniquement de l'armure ou de la MR, même face à une équipe entièrement AD ou AP. Mieux vaut parfois se tourner vers des objets offrant d'autres avantages, comme des objets de points de vie, ou même des options offensives ou utilitaires.",
-        "LIST11" : "<bold>Pénétration d'Armure / Létalité :</bold> La pénétration d'armure réduit un pourcentage de l'armure ennemie, tandis que la létalité en ignore une valeur fixe. La valeur de réduction d'armure de la létalité augmente avec les objets de létalité, mais aussi via le level du champion qui les porte. En général, les ADCs optent pour la pénétration d'armure afin de mieux gérer les tanks, tandis que les assassins privilégient la létalité pour cibler des ennemis plus fragiles. Si un assassin vise une cible avec peu d'armure, la létalité fixe s'avère plus efficace. À l'inverse, les autres champions préfèrent la pénétration d'armure contre les ennemis avec beaucoup de défense. ",
-        "LIST12" : "<bold>Pénétration Magique :</bold> La pénétration magique fonctionne de manière similaire à la pénétration d'armure et à la létalité. Elle se divise en deux types : la réduction fixe et la réduction en pourcentage. "
+    "JUNGLE": {
+      "TITLE0": "Jungle",
+      "SUBTITLE0": "Maîtrisez la partie et donnez à votre équipe l'avantage décisif !",
+      "CONTENT1": {
+        "INTRO1": "Le rôle de jungler est souvent considéré comme le plus impactant dans une partie de League of Legends.<br><br>Le but d’un jungler est de prendre les meilleures décisions pour :",
+        "LIST1": "Aider son équipe à prendre l'avantage sur leurs adversaires directs.",
+        "LIST2": "Gérer les objectifs sur la carte.",
+        "LIST3": "Accumuler des ressources « gratuites » en tuant les monstres de la jungle.",
+        "LIST4": "Anticiper les ganks et les mouvements du jungler adverse.",
+        "INTRO2": "Une des principales difficultés du rôle de jungler, pour les débutants comme pour les joueurs plus expérimentés, est que la réussite dépend moins des compétences mécaniques que de la capacité à lire le jeu et à établir un plan stratégique efficace."
       },
-      "SUBTITLE2" : "Red Buff",
+      "TITLE2": "Chemins de Jungle",
       "CONTENT2": {
-        "LIST1" : "Ralentissement avec les auto-attaques",
-        "LIST2" : "Dégâts bruts appliqués sur la durée après chaque attaque.",
-        "LIST3" : "Régénération de santé augmentée."
+        "INTRO1": "Il existe plusieurs routes de jungle possibles, et cette décision doit être prise dès l'écran de chargement :",
+        "LIST1": "<bold>Full Clear :</bold> 6 Camps -> Carapateur -> Gank ou back.<br>C’est la stratégie la plus courante en Saison 14, car le farm est priorisé dans la méta actuelle. Cela peut toutefois évoluer dans les prochaines saisons.",
+        "LIST2": "<bold>3 Camps</bold> -> Gank :<br>Ce chemin est utile si vous souhaitez mettre de la pression rapidement en début de partie pour donner un avantage à une de vos lanes, ou si votre champion a une faible vitesse de clear la jungle. Attention cependant, si le gank échoue, vous risquez de perdre beaucoup de temps.",
+        "LIST3": "<bold>1 Camp + Invade :</bold><br>Faire son Red ou Blue, puis invade directement la jungle adverse sur le même côté.<br>Cela ne doit être tenté que si vous êtes sûr que le jungler adverse a commencé de l'autre côté (ex. : commencer Red et invade Blue si l'ennemi commence au Red).<br>Attention aussi aux possibles rotations des laners adverses."
       },
-      "SUBTITLE3" : "Blue Buff",
+      "SUBTITLE3": "Bot ou Top ?",
       "CONTENT3": {
-        "LIST1" : "Régénération de mana en pourcentage (fonctionne également pour les champions utilisant l'énergie).",
-        "LIST2" : "Réduction des temps de recharge."
+        "INTRO1": "Si vous choisissez de partir sur un full clear, la question est la suivante : faut-il aller bot ou top ? Ce choix dépend de plusieurs facteurs :",
+        "LIST1": "<bold>Analyser les lanes :</bold> Certaines lanes sont plus susceptibles de pousser naturellement que d'autres.<br>Par exemple, une Tristana poussera plus facilement face à un Ezreal à cause de ses dégâts de zone. En fonction de cette analyse, vous devez planifier où vous finirez votre clear : si vous prévoyez de gank bot, commencez votre clear top, et inversement.",
+        "LIST2": "<bold>Analyser les sorts d'invocateur :</bold> Si votre toplaner joue avec Ignite et son adversaire avec Téléportation, commencer bot pour finir par un gank top peut être une bonne idée. Un toplaner sans téléportation aura beaucoup plus de mal à revenir dans la partie s'il perd un early gank.",
+        "LIST3": "<bold>Analyser les champions :</bold> Certains champions sont forts en début de partie (comme Pantheon), tandis que d'autres brillent en fin de partie (comme Veigar). Aider vos champions forts en fin de partie à tenir leur lane peut vous garantir une victoire à long terme. Dans tous les cas, il est important de jouer autour des champions 'carry' de votre équipe."
       },
-      "SUBTITLE4" : "Carapateur",
+      "TITLE4": "Objectifs & Priorité",
       "CONTENT4": {
-        "LIST1" : "Vision dans la zone (mais pas la vision véritable).",
-        "LIST2" : "Bonus de vitesse de déplacement pour les alliés entrant dans le sanctuaire."
+        "INTRO1": "Il existe plusieurs objectifs sur la carte :",
+        "LIST1": "<bold>Top side :</bold> Grump, Héraut de la Faille, Baron Nashor.",
+        "LIST2": "<bold>Bot side :</bold> Drakes."
       },
-      "SUBTITLE5" : "Dragons",
+      "CONTENT5": "La réussite d’un objectif dépend souvent de la supériorité numérique de votre équipe par rapport à l’adversaire, d’où l’importance de la priorité des lanes <bold>(PRIO)</bold>. La PRIO se réfère à la capacité de vos laners à exercer une pression sur leurs adversaires, les forçant à rester sous leur tour pour ne pas perdre de ressources. Cela libère vos alliés pour qu'ils se déplacent vers la rivière, sécurisent des objectifs, ou contestent ceux de l'ennemi.<br><br>N'hésitez pas à communiquer à vos laners l'importance de la PRIO avant de vous engager sur un objectif. Gank juste avant l'apparition d’un objectif clé peut permettre de garantir cette priorité.<br><br>Évitez également de retourner à la base juste avant l'apparition d'un objectif. Si l'équipe ennemie prend position avant vous, il sera plus difficile de coordonner un teamfight autour de cet objectif.<br><br>Avec la PRIO, vous pouvez aussi punir le jungler adverse en invade sa jungle. Que ce soit pour lui voler des ressources ou l’éliminer, cela peut complètement bouleverser le déroulement de la partie, surtout mentalement pour l'adversaire.",
+      "TITLE6": "Ganks",
+      "CONTENT6": "Un 'Gank' est une manœuvre où un joueur, souvent le jungler, se déplace vers une autre lane pour surprendre un adversaire et l'attaquer en équipe.<br><br>Ne Gankez <span style='text-transform:uppercase'><bold>uniquement</bold></span> que si vous estimez avoir au moins 80 % de chances de réussir, sinon priorisez toujours le farm. Un summoner utilisé par l'adversaire ou un kill/assist pris lors de votre venue est synonyme de gank réussi.<br>Perdre du temps sur un gank infructueux signifie accumuler un retard en ressources, ce qui est l’un des plus gros fléaux pour un jungler.<br><br>Un gank est plus probable si la wave de votre allié est poussée ou si l'ennemi est avancé sur sa lane. Dans ce cas, il devra s'avancer pour farmer, le rendant vulnérable à une attaque. Un gank est réussi si vous prenez un kill ou forcez l'adversaire à utiliser des sorts d'invocateur comme Flash.<br><br>Utilisez fréquemment votre brouilleur oculaire pour enlever la vision et optimiser vos chances de réussite. Si vous êtes repéré, il est probable que votre gank échoue.",
+      "CONTENT7": {
+        "INTRO1": "Les différents types de gank",
+        "LIST1": "<bold>Par la rivière :</bold> Simple mais efficace.",
+        "LIST2": "<bold>Lane / Counter Gank :</bold> Attendre dans les buissons d'une lane push pour surprendre l'adversaire ou anticiper un gank ennemi.",
+        "LIST3": "<bold>Dives :</bold> Si l'ennemi est sous sa tour avec peu de points de vie, et que votre wave crash sous la tour, vous pouvez envisager un dive avec votre laner."
+      },
+      "TITLE8": "Conseils supplémentaires",
+      "CONTENT8": {
+        "LIST1": "Remplacez votre trinket par un brouilleur oculaire dès votre premier back.",
+        "LIST2": "Si vous jouez des champions de powerfarm/late game (ex. : Shyvana, Lillia), mettez moins d'accent sur les ganks et concentrez-vous sur votre farm.",
+        "LIST3": "Faites attention à la synchronisation de votre jungle pour ne pas désorganiser le respawn des monstres.",
+        "LIST4": "Concentrez-vous sur les lanes gagnantes. Ne perdez pas de temps sur les lanes perdantes pour éviter de mettre toute la partie en danger.",
+        "LIST5": "Pendant que vous farmez, surveillez la carte et analysez les waves. Profitez-en pour signaler les positions du jungler adverse si possible.",
+        "LIST6": "Communiquez avec vos alliés via les pings et le chat. Cela améliore la coordination lors des objectifs ou des ganks."
+      }
+    },
+    "GAME": {
+      "GAME": "Le Jeu",
+      "SUBTITLE0": "Maîtrisez les bases pour une compréhension approfondie du jeu !",
+      "TITLE1": "Statistiques des Objets",
+      "TITLE2": "Objectifs & Buffs",
+      "TITLE3": "Wards",
+      "TITLE4": "Concepts & Lexique",
+      "CONTENT1": {
+        "INTRO0": "Comprendre les statistiques des champions est crucial pour une bonne itemisation.<br>Chaque statistique influe sur la manière dont un champion se comporte en combat, et savoir comment elles interagissent avec les objets peut faire une grande différence dans vos décisions stratégiques. <br><br>Dans cette section, nous allons examiner en détail chaque statistique, en expliquant comment elles impactent votre jeu et comment les utiliser pour choisir les meilleurs objets pour chaque situation.",
+        "LIST1": "<bold>Dégâts d'Attaque (AD) :</bold> Principalement utilisé par les ADC, assassins et bruisers, l'AD augmente les dégâts physiques des attaques de base et certaines compétences.",
+        "LIST2": "<bold>Puissance (AP) :</bold> Utilisé par les mages, supports et certains assassins, l'AP améliore les dégâts magiques et les effets utilitaires (soins, boucliers).",
+        "LIST3": "<bold>Vitesse d'Attaque (AS) :</bold> Elle fait référence à la rapidité avec laquelle votre champion attaque par seconde. Avoir une vitesse d'attaque de 1,5 signifie que vous attaquez automatiquement 1,5 fois chaque seconde",
+        "LIST4": "<bold>Hâte (CDR):</bold> Elle réduit le temps de recharge (CDR) et détermine la rapidité avec laquelle vos sorts reviennent. La hâte ne se calcule pas de manière linéaire avec le CDR, donc elle devient de moins en moins efficace en termes de gold au fur et à mesure que vous en achetez.",
+        "LIST5": "<bold>Chance de Coup Critique :</bold> Elle correspond à la probabilité d'obtenir un coup critique, qui inflige 75 % de dégâts supplémentaires (sans compter les modificateurs comme la Lame d'Infini).",
+        "LIST6": "<bold>Vitesse de Déplacement :</bold> C'est à la rapidité avec laquelle votre champion se déplace.",
+        "LIST7": "<bold>Tenacité :</bold> Elle n'est pas aussi directe que les autres statistiques, mais elle réduit la durée de tous les contrôles de foule (CC) sauf les soulèvements, l’endormissement, la vue réduite, la stase (ultime de Bard) et la suppression. ",
+        "LIST8": "<bold>Régénération de Santé / Ressource</bold> La régénération de santé est la quantité de vie qu’un champion restaure par seconde, tandis que la régénération des ressources est la quantité de mana ou d'énergie qu’un champion restaure par seconde.",
+        "LIST9": "<bold>Vol de Vie / Omnivampirisme :</bold> Le vol de vie est le pourcentage de vie restauré en fonction de vos attaques de base et de vos effets à l'impact. L'omnivamp est similaire, mais inclut tout type de dégâts, y compris les capacités.",
+        "LIST10": "<bold>Armure / Résistance Magique :</bold> L'armure et la résistance magique ont pour rôle de réduire les dégâts physiques et magiques respectivement. Cependant, beaucoup ignorent que ces statistiques défensives sont soumises à des rendements décroissants. En d'autres termes, plus vous accumulez ces statistiques, moins elles sont efficaces.<br>Cela signifie qu'il n'est souvent pas judicieux d'accumuler uniquement de l'armure ou de la MR, même face à une équipe entièrement AD ou AP. Mieux vaut parfois se tourner vers des objets offrant d'autres avantages, comme des objets de points de vie, ou même des options offensives ou utilitaires.",
+        "LIST11": "<bold>Pénétration d'Armure / Létalité :</bold> La pénétration d'armure réduit un pourcentage de l'armure ennemie, tandis que la létalité en ignore une valeur fixe. La valeur de réduction d'armure de la létalité augmente avec les objets de létalité, mais aussi via le level du champion qui les porte. En général, les ADCs optent pour la pénétration d'armure afin de mieux gérer les tanks, tandis que les assassins privilégient la létalité pour cibler des ennemis plus fragiles. Si un assassin vise une cible avec peu d'armure, la létalité fixe s'avère plus efficace. À l'inverse, les autres champions préfèrent la pénétration d'armure contre les ennemis avec beaucoup de défense. ",
+        "LIST12": "<bold>Pénétration Magique :</bold> La pénétration magique fonctionne de manière similaire à la pénétration d'armure et à la létalité. Elle se divise en deux types : la réduction fixe et la réduction en pourcentage. "
+      },
+      "SUBTITLE2": "Red Buff",
+      "CONTENT2": {
+        "LIST1": "Ralentissement avec les auto-attaques",
+        "LIST2": "Dégâts bruts appliqués sur la durée après chaque attaque.",
+        "LIST3": "Régénération de santé augmentée."
+      },
+      "SUBTITLE3": "Blue Buff",
+      "CONTENT3": {
+        "LIST1": "Régénération de mana en pourcentage (fonctionne également pour les champions utilisant l'énergie).",
+        "LIST2": "Réduction des temps de recharge."
+      },
+      "SUBTITLE4": "Carapateur",
+      "CONTENT4": {
+        "LIST1": "Vision dans la zone (mais pas la vision véritable).",
+        "LIST2": "Bonus de vitesse de déplacement pour les alliés entrant dans le sanctuaire."
+      },
+      "SUBTITLE5": "Dragons",
       "CONTENT5": {
-        "LIST1" : "<img style='margin-right:10px;' src='assets/img/icons/drakeChemtech.webp'/>Le <bold>Dragon Chimique :</bold> Gain de ténacité et d'efficacité des soins et des boucliers.",
-        "LIST2" : "<img style='margin-right:10px;' src='assets/img/icons/drakeCloud.webp'/>Le <bold>Dragon des Nuages :</bold> Gain de résistance aux ralentissements et de vitesse de déplacement hors combat. ",
-        "LIST3" : "<img style='margin-right:10px;' src='assets/img/icons/drakeHextech.webp'/>Le <bold>Dragon Hextech :</bold> Gain de hâte et de vitesse d'attaque. ",
-        "LIST4" : "<img style='margin-right:10px;' src='assets/img/icons/drakeMountain.webp'/>Le <bold>Dragon des Montagnes :</bold> Gain d'armure et de résistance magique. ",
-        "LIST5" : "<img style='margin-right:10px;' src='assets/img/icons/drakeInfernal.webp'/>Le <bold>Dragon Infernal :</bold> Gain de dégâts d'attaque et de puissance. ",
-        "LIST6" : "<img style='margin-right:10px;' src='assets/img/icons/drakeOcean.webp'/>Le <bold>Dragon des Océans :</bold> Restaure de la santé manquante toutes les 5 secondes. ",
-        "LIST7" : "<img style='margin-right:10px;' src='assets/img/icons/drakeElder.webp'/>Le <bold>Dragon Elder :</bold> Dégâts bruts bonus sur toutes les capacités, augmente les bonus des Drakes de 50% et le buff expire au bout de 2:30 minutes, ou en cas de mort. "
+        "LIST1": "<img style='margin-right:10px;' src='assets/img/icons/drakeChemtech.webp'/>Le <bold>Dragon Chimique :</bold> Gain de ténacité et d'efficacité des soins et des boucliers.",
+        "LIST2": "<img style='margin-right:10px;' src='assets/img/icons/drakeCloud.webp'/>Le <bold>Dragon des Nuages :</bold> Gain de résistance aux ralentissements et de vitesse de déplacement hors combat. ",
+        "LIST3": "<img style='margin-right:10px;' src='assets/img/icons/drakeHextech.webp'/>Le <bold>Dragon Hextech :</bold> Gain de hâte et de vitesse d'attaque. ",
+        "LIST4": "<img style='margin-right:10px;' src='assets/img/icons/drakeMountain.webp'/>Le <bold>Dragon des Montagnes :</bold> Gain d'armure et de résistance magique. ",
+        "LIST5": "<img style='margin-right:10px;' src='assets/img/icons/drakeInfernal.webp'/>Le <bold>Dragon Infernal :</bold> Gain de dégâts d'attaque et de puissance. ",
+        "LIST6": "<img style='margin-right:10px;' src='assets/img/icons/drakeOcean.webp'/>Le <bold>Dragon des Océans :</bold> Restaure de la santé manquante toutes les 5 secondes. ",
+        "LIST7": "<img style='margin-right:10px;' src='assets/img/icons/drakeElder.webp'/>Le <bold>Dragon Elder :</bold> Dégâts bruts bonus sur toutes les capacités, augmente les bonus des Drakes de 50% et le buff expire au bout de 2:30 minutes, ou en cas de mort. "
       },
-      "SUBTITLE6" : "Baron Nashor",
+      "SUBTITLE6": "Baron Nashor",
       "CONTENT6": "Tuer le Baron Nashor accorde à tous les coéquipiers vivants un buff pendant 180 secondes.<br><br>Ce buff octroie un bonus de dégâts d'attaque, de puissance, un rappel amélioré, ainsi qu'une aura qui augmente considérablement la puissance des sbires à proximité. Les sbires gagnent globalement en vitesse de déplacement, en portée, en dégâts et en vitesse de projectiles. Les sbires canon peuvent, avec ce buff, taper une tour ennemie sans être dans la portée de celle-ci",
-      "SUBTITLE7" : "Hérault de la faille",
+      "SUBTITLE7": "Hérault de la faille",
       "CONTENT7": "Tuer l'Hérault fait tomber l’Œil du Héraut à l’entrée du puits pendant 20 secondes. Il peut être ramassé par un membre de l'équipe et est utilisé pour le ré-invoquer. Une fois invoqué, il peut être utiliser pour avancer sur la lane. Proche d'une tour il se met à charger puis à dasher contre la tour pour lui infliger énormément de dégâts. Il est aussi possible de chauvaucher l'Hérault pour charger directement vers une direction.<br><br>L'Heralt n'apparaît qu'une seule fois par partie et disparaît définitivement à 19:45, ou à 19:55 s'il est en combat. Le Baron Nashor apparaît à sa place à 20:00.",
-      "SUBTITLE8" : "Larves du Néant",
+      "SUBTITLE8": "Larves du Néant",
       "CONTENT8": "Tuer une Larve du Néant accorde de l’or et de l’expérience à l’ensemble des membres de l’équipe, ainsi que le buff 'Toucher du Néant'. 'Toucher du Néant' inflige des dégâts supplémentaires sur la durée aux structures, et pour chaque pile au-delà de la quatrième, les membres de l’équipe reçoivent également le buff Faim du Néant, qui invoquera des Vermines du Néant alliées pour aider à détruire les tourelles ennemies.<br><br>Le camp de Larves du Néant se compose d’un groupe de 3 Larves du Néant. Il peut y avoir au maximum deux groupes de spawn dans une partie donnée. Le camp disparaît définitivement à 13:45, ou à 13:55 s’il est en combat. Un deuxième groupe de Larves du Néant n’apparaîtra que si le premier a été éliminé avant 9:45. Le Rift Herald apparaît à la même position à 14:00."
     }
   },
-  "RL" : {
-    "FILTERS" : "Filtres",
-    "MECANICS" : {
-      "TITLE0" : "ROCKET LEAGUE",
-      "SUBTITLE0" : "Frappe avec puissance, défends avec sagesse !",
-      "SEARCHPLACEHOLDER" : "Wave Dash, Flip Reset, etc...",
-      "UTILITY" : "Utilité",
-      "UTILITY_ASC" : "Utilité ↓",
-      "UTILITY_DESC" : "Utilité ↑",
-      "DIFFICULTY" : "Difficulté",
-      "DIFFICULTY_ASC" : "Difficulté ↓",
-      "DIFFICULTY_DESC" : "Difficulté ↑",
-      "TRI":"Tri",
-      "NAME_ASC":"Nom (A-Z)",
-      "NAME_DESC":"Nom (Z-A)",
-      "CEILINGSHOT_STEPS" : "Faire rouler la balle vers un mur (sans rebonds).;Suivre la balle jusqu'à ce qu'elle dépasse l'arrondi du mur.;Sauter et Booster au moment de l'impact sur la balle pour atteindre le plafond;Déraper;Se laisser tomber pour conserver le flip ou sauter du plafond;Taper dans la balle",
-      "CEILINGSHOT_EXPLICATION" : "Quand la balle est en hauteur, il est souvent possible de se servir du plafond pour attaquer de manière plus imprévisible que d'habitude.<br>Le ceiling shot permet d'être plus à l'aise avec le plafond, en plus d'ouvrir des angles de tir qui ne sont pas disponibles avec des techniques aériennes traditionnelles, offrant ainsi plus de diversité dans les stratégies offensives.",
-      "FASTAERIAL_STEPS" : "Sauter;Orienter la voiture vers le haut;Booster;Sauter",
-      "FASTAERIAL_EXPLICATION" : "Le fast aerial permet d'atteindre le ballon en hauteur plus vite que les autres joueurs, ce qui peut être crucial pour prendre l'avantage lors des duels aériens.<br>Que ce soit pour défendre un tir ou pour réaliser une attaque rapide, le fast aerial est une technique polyvalente qui améliore globalement les performances d'un joueur.",
-      "WAVEDASH_STEPS" : "Sauter légèrement;Air Roll pour que la voiture soit parallèle au sol;Lever la voiture vers le haut;Flip pour s'écraser sur le sol",
-      "WAVEDASH_EXPLICATION" : "Les wave dashes permettent de gagner de la vitesse rapidement tout en économisant leur boost. Cela peut être crucial pour atteindre le ballon plus rapidement ou pour revenir en défense.<br>De plus, ils permettent des changements de direction rapides et efficaces, ce qui peut surprendre les adversaires et créer des opportunités de jeu.<br><br>Cette technique peut être utilisée dans diverses situations, que ce soit au sol ou sur les murs, offrant ainsi une grande flexibilité dans le jeu.",
-      "WALLTOAIRDRIBBLE_STEPS" : "Faire rouler la balle vers un mur (sans rebonds).;Suivre la balle jusqu'à ce qu'elle dépasse l'arrondi du mur.;Toucher la balle et décoller juste après cette touche.;Tonneau aérien pour se remettre droit.;Suivre la balle en l'air en gérant votre boost (viser le dessous de la balle pour la garder en l'air le plus longtemps possible).;Viser les cages adverses.",
-      "WALLTOAIRDRIBBLE_EXPLICATION" : "Cette technique est un élément fondamental de Rocket League, indispensable tout au long de votre progression, quel que soit votre rang. Elle est particulièrement efficace pour surprendre les défenseurs, grâce aux multiples touches de balle qu'elle implique.<br><br>Toutefois, évitez de l'utiliser si un adversaire se dirige vers vous avant que vous atteigniez le mur, ou s'il est déjà sur le mur. De plus, si la balle rebondit ou est en vitesse supersonique (vitesse max), cela rendra l'exécution de cette technique plus difficile.",
-      "HALFFLIP_STEPS" : "Sauter;Backflip (Dash arrièere : Joystick vers le bas + Saut);Cancel le Backflip (Joystick vers le haut à la moitié de l'animation du flip pour avoir la voiture parallèle au sol);Air roll",
-      "HALFFLIP_EXPLICATION" : "C'est simplement le meilleur mouvement pour revenir en défense (ou en attaque) lorsque sa voiture est dans la mauvaise direction, tout en restant dynamique sur le terrain.<br>Vous allez retrouver dans toutes vos parties un moment où le half flip est primordial, tel que lors d'un bump, d'un mauvais challenge sur l'adversaire, d'un repositionnement après une mauvaise décision, etc...",
-      "FLICK_DIAGONALBACKFLIP_STEPS" : "Sauter;Tourner horizontalement vers la droite et verticalement légèrement vers le haut;Air roll gauche;Diagonal arrière-gauche flick",
-      "FLICK_DIAGONALBACKFLIP_EXPLICATION" : "Ce flick permet de surprendre son adversaire, de part sa rapidité d'exécution, et de ne pas trop s'exposer pour pouvoir revenir en défense le plus efficacement possible.<br><br>Généralement, il est intéressant de le déclencher lorsque vous êtes au niveau du milieu de terrain, avec un peu de maîtrise ce sera la distance parfaite pour que la balle soit cadrée et, comme dit précédemment, rester dans une zone permettant d'enchaîner aussi bien en défense qu'en appuyant encore plus l'offensive.<br><br>Techniquement, votre but principal sera de lancer ce flick avec la balle sur le devant de votre voiture.<br>Il vous suffira alors de légèrement tourner votre voiture dans un sens, combiné avec un air roll, et d'effectuer le flick dans la direction opposée (si vous tournez votre voiture sur le côté droit de la balle, le flick sera à déclencher vers l'arrière à gauche avec le joystick : la balle ira donc en hauteur sur la gauche).<br><br>Comme vous l'aurez compris, en plus de la rapidité d'exécution, le changement de direction (contrairement à un front flick par exemple) accentuera l'effet de surprise de votre offensive (Exemple, je dribble en allant vers le but adverse côté poteau droit, je déclenche ce flick sur la droite de la balle, la balle va soudainement dans la direction top corner gauche de l'adversaire).",
-      "PINCH_KUXIR_STEPS" : "Faire rouler la balle sur le sol vers un mur, depuis le milieu de son con camp;Sauter vers la balle pour avoir un impact quand elle roule sur le mur (et non pas dans l'arrondi du mur).;Taper la balle légèrement du côté opposé au but adverse.;Flip dans le mur au moment de l'impact entre la balle et la voiture.",
-      "PINCH_KUXIR_EXPLICATION" : "Comme beaucoup de mécaniques, celle-ci peut avoir un effet de surprise pour transformer une défense en contre-attaque voire en but quasiment instantanément. En effet, si vous parvenez à maîtriser un minimum ce pinch, vous pouvez au moins faire un dégagement de balle qui vous laissera vous repositionner.<br><br>Ce pinch n'est pas à tenter si votre adversaire est proche de vous ou qu'il est aussi proche de la balle que vous ; il peut anticiper et aller vous contrer ce qui peut jouer en votre défaveur étant donné que vous êtes dans votre camp.<br>Idéalement, il ne faut pas non plus que votre adversaire soit déjà positionné en défense dans ses buts : 90% du temps vous allez juste lui rendre la balle.<br><br>Le meilleur des scénarios est lorsque vous parvenez à accélérer la balle d'un côté pendant que votre adversaire prend le boost du milieu opposé, ou qu'il est en retard derrière vous.",
-      "MUSTYFLICK_STEPS" : "Sauter après le rebond pour envoyer la balle vers le haut en la suivant (comme un Air Dribble);Retourner la voiture vers l'arrière, en boostant si nécessaire pour ne pas toucher la balle;Effectuer un flip arrière",
-      "MUSTYFLICK_EXPLICATION" : "Le Musty Flick est une mécanique avancée qui vous permet de propulser la balle avec une vitesse et un angle difficilement anticipables par votre adversaire. Ce qui rend ce mouvement particulièrement redoutable, c'est l'effet de surprise qu'il génère : lorsque votre voiture bascule vers l'arrière, l'adversaire s'attend généralement à ce que vous retombiez avec la balle. Cependant, en déclenchant le flick à ce moment précis, vous prenez votre adversaire de court en envoyant la balle brusquement vers le haut.<br><br>Cette mécanique ne se limite pas à la simple exécution ; si vous maîtrisez les 'Cancel Flips', vous pouvez retarder légèrement le moment du flick, ce qui vous donne encore plus de contrôle et augmente la puissance de votre tir. Cela rend l'action encore plus imprévisible et difficile à contrer, ajoutant une dimension supplémentaire à votre jeu offensif.",
-      "NOMECANIC" : "Aucune donnée disponible.<br><div style='font-style:italic;font-size: 14px;'>(avec les filtres actuels)</div>"
-     },
-    "STEPS" : "Étapes :",
-    "WHYMECANIC" :"Pourquoi utiliser cette mécanique ?"
-   },
-   "HOME":{
-    "BIENVENUE" : "Bienvenue sur TeamUpp",
-    "SUBBIENVENUE" : "Le hub ultime pour les joueurs compétitifs qui veulent progresser",
-    "TITLE1" : "Une Plateforme Pensée pour Vous",
-    "CONTENT1" : "Dans le monde du gaming, l'ascension vers le sommet peut souvent sembler un parcours semé d'embûches, en particulier pour les joueurs qui débutent. En règle général, 85 % des joueurs ont un rang Diamant ou inférieur, c’est pourquoi j'ai eu l'idée de créer une plateforme dédiée à ceux qui aspirent à améliorer leurs compétences et à progresser dans leur jeu.<br><br>Mon objectif avec <strong>TeamUpp</strong> est simple : rassembler, en un seul endroit, toutes les informations dont vous avez besoin pour progresser dans vos jeux favoris. Plus besoin de galérer à trouver des réponses à vos questions ou de naviguer entre différentes sources. Ici, vous trouverez des guides structurés, des astuces claires et des stratégies directement accessibles pour plusieurs jeux compétitifs.<br><br>Je veux rendre l'apprentissage simple, efficace, et surtout accessible à tous.",
-    "TITLE2" : "Centralisation des Ressources",
-    "CONTENT2" : "Plutôt que de passer des heures à fouiller dans des forums ou à parcourir des vidéos dispersées sur YouTube, TeamUpp rassemble tout ce dont un joueur débutant a besoin en un seul endroit. Que vous soyez novice ou que vous souhaitiez simplement peaufiner vos compétences, nous vous fournissons des guides, des astuces et des stratégies pratiques, soigneusement organisés pour une navigation fluide et intuitive.",
-    "TITLE3" : "Apprentissage Accessible",
-    "CONTENT3" : "Nous croyons que chaque joueur mérite une chance de briller. C’est pourquoi nous nous engageons à rendre l’apprentissage accessible et engageant. Nos contenus sont conçus pour être facilement compréhensibles, même pour ceux qui n'ont jamais touché à un jeu compétitif auparavant.",
-    "TITLE4" : "Rejoignez la Communauté",
-    "CONTENT4" : "En plus de nos ressources, TeamUpp se veut être une véritable communauté. Nous encourageons l'interaction entre joueurs, permettant à chacun d'échanger des expériences, de partager des conseils et de s’entraider dans leur quête de progrès. Ensemble, nous bâtissons un environnement où chacun peut s’épanouir et se sentir soutenu.",
-    "TITLE5" : "Prêt à Élever Votre niveau de Jeu ?",
-    "CONTENT5" : "Rejoignez-nous dès aujourd'hui et découvrez comment TeamUpp peut transformer votre expérience de jeu. Ensemble, faisons de votre parcours de joueur une aventure enrichissante et réussie.<br><br>Votre ascension commence ici !",
-    "FOOTERRIGHTS" : "Ce site n'est pas approuvé par les éditeurs ou développeurs des jeux mentionnés et ne reflète pas les opinions ou les points de vue des sociétés ou des personnes officiellement impliquées dans la production ou la gestion de ces jeux. Tous les noms de jeux, logos et marques déposées appartiennent à leurs propriétaires respectifs.",
-    "SOCIALNETWORKS" : "Réseaux Sociaux"
+  "RL": {
+    "FILTERS": "Filtres",
+    "MECANICS": {
+      "TITLE0": "ROCKET LEAGUE",
+      "SUBTITLE0": "Frappe avec puissance, défends avec sagesse !",
+      "SEARCHPLACEHOLDER": "Wave Dash, Flip Reset, etc...",
+      "UTILITY": "Utilité",
+      "UTILITY_ASC": "Utilité ↓",
+      "UTILITY_DESC": "Utilité ↑",
+      "DIFFICULTY": "Difficulté",
+      "DIFFICULTY_ASC": "Difficulté ↓",
+      "DIFFICULTY_DESC": "Difficulté ↑",
+      "TRI": "Tri",
+      "NAME_ASC": "Nom (A-Z)",
+      "NAME_DESC": "Nom (Z-A)",
+      "CEILINGSHOT_STEPS": "Faire rouler la balle vers un mur (sans rebonds).;Suivre la balle jusqu'à ce qu'elle dépasse l'arrondi du mur.;Sauter et Booster au moment de l'impact sur la balle pour atteindre le plafond;Déraper;Se laisser tomber pour conserver le flip ou sauter du plafond;Taper dans la balle",
+      "CEILINGSHOT_EXPLICATION": "Quand la balle est en hauteur, il est souvent possible de se servir du plafond pour attaquer de manière plus imprévisible que d'habitude.<br>Le ceiling shot permet d'être plus à l'aise avec le plafond, en plus d'ouvrir des angles de tir qui ne sont pas disponibles avec des techniques aériennes traditionnelles, offrant ainsi plus de diversité dans les stratégies offensives.",
+      "FASTAERIAL_STEPS": "Sauter;Orienter la voiture vers le haut;Booster;Sauter",
+      "FASTAERIAL_EXPLICATION": "Le fast aerial permet d'atteindre le ballon en hauteur plus vite que les autres joueurs, ce qui peut être crucial pour prendre l'avantage lors des duels aériens.<br>Que ce soit pour défendre un tir ou pour réaliser une attaque rapide, le fast aerial est une technique polyvalente qui améliore globalement les performances d'un joueur.",
+      "WAVEDASH_STEPS": "Sauter légèrement;Air Roll pour que la voiture soit parallèle au sol;Lever la voiture vers le haut;Flip pour s'écraser sur le sol",
+      "WAVEDASH_EXPLICATION": "Les wave dashes permettent de gagner de la vitesse rapidement tout en économisant leur boost. Cela peut être crucial pour atteindre le ballon plus rapidement ou pour revenir en défense.<br>De plus, ils permettent des changements de direction rapides et efficaces, ce qui peut surprendre les adversaires et créer des opportunités de jeu.<br><br>Cette technique peut être utilisée dans diverses situations, que ce soit au sol ou sur les murs, offrant ainsi une grande flexibilité dans le jeu.",
+      "WALLTOAIRDRIBBLE_STEPS": "Faire rouler la balle vers un mur (sans rebonds).;Suivre la balle jusqu'à ce qu'elle dépasse l'arrondi du mur.;Toucher la balle et décoller juste après cette touche.;Tonneau aérien pour se remettre droit.;Suivre la balle en l'air en gérant votre boost (viser le dessous de la balle pour la garder en l'air le plus longtemps possible).;Viser les cages adverses.",
+      "WALLTOAIRDRIBBLE_EXPLICATION": "Cette technique est un élément fondamental de Rocket League, indispensable tout au long de votre progression, quel que soit votre rang. Elle est particulièrement efficace pour surprendre les défenseurs, grâce aux multiples touches de balle qu'elle implique.<br><br>Toutefois, évitez de l'utiliser si un adversaire se dirige vers vous avant que vous atteigniez le mur, ou s'il est déjà sur le mur. De plus, si la balle rebondit ou est en vitesse supersonique (vitesse max), cela rendra l'exécution de cette technique plus difficile.",
+      "HALFFLIP_STEPS": "Sauter;Backflip (Dash arrièere : Joystick vers le bas + Saut);Cancel le Backflip (Joystick vers le haut à la moitié de l'animation du flip pour avoir la voiture parallèle au sol);Air roll",
+      "HALFFLIP_EXPLICATION": "C'est simplement le meilleur mouvement pour revenir en défense (ou en attaque) lorsque sa voiture est dans la mauvaise direction, tout en restant dynamique sur le terrain.<br>Vous allez retrouver dans toutes vos parties un moment où le half flip est primordial, tel que lors d'un bump, d'un mauvais challenge sur l'adversaire, d'un repositionnement après une mauvaise décision, etc...",
+      "FLICK_DIAGONALBACKFLIP_STEPS": "Sauter;Tourner horizontalement vers la droite et verticalement légèrement vers le haut;Air roll gauche;Diagonal arrière-gauche flick",
+      "FLICK_DIAGONALBACKFLIP_EXPLICATION": "Ce flick permet de surprendre son adversaire, de part sa rapidité d'exécution, et de ne pas trop s'exposer pour pouvoir revenir en défense le plus efficacement possible.<br><br>Généralement, il est intéressant de le déclencher lorsque vous êtes au niveau du milieu de terrain, avec un peu de maîtrise ce sera la distance parfaite pour que la balle soit cadrée et, comme dit précédemment, rester dans une zone permettant d'enchaîner aussi bien en défense qu'en appuyant encore plus l'offensive.<br><br>Techniquement, votre but principal sera de lancer ce flick avec la balle sur le devant de votre voiture.<br>Il vous suffira alors de légèrement tourner votre voiture dans un sens, combiné avec un air roll, et d'effectuer le flick dans la direction opposée (si vous tournez votre voiture sur le côté droit de la balle, le flick sera à déclencher vers l'arrière à gauche avec le joystick : la balle ira donc en hauteur sur la gauche).<br><br>Comme vous l'aurez compris, en plus de la rapidité d'exécution, le changement de direction (contrairement à un front flick par exemple) accentuera l'effet de surprise de votre offensive (Exemple, je dribble en allant vers le but adverse côté poteau droit, je déclenche ce flick sur la droite de la balle, la balle va soudainement dans la direction top corner gauche de l'adversaire).",
+      "PINCH_KUXIR_STEPS": "Faire rouler la balle sur le sol vers un mur, depuis le milieu de son con camp;Sauter vers la balle pour avoir un impact quand elle roule sur le mur (et non pas dans l'arrondi du mur).;Taper la balle légèrement du côté opposé au but adverse.;Flip dans le mur au moment de l'impact entre la balle et la voiture.",
+      "PINCH_KUXIR_EXPLICATION": "Comme beaucoup de mécaniques, celle-ci peut avoir un effet de surprise pour transformer une défense en contre-attaque voire en but quasiment instantanément. En effet, si vous parvenez à maîtriser un minimum ce pinch, vous pouvez au moins faire un dégagement de balle qui vous laissera vous repositionner.<br><br>Ce pinch n'est pas à tenter si votre adversaire est proche de vous ou qu'il est aussi proche de la balle que vous ; il peut anticiper et aller vous contrer ce qui peut jouer en votre défaveur étant donné que vous êtes dans votre camp.<br>Idéalement, il ne faut pas non plus que votre adversaire soit déjà positionné en défense dans ses buts : 90% du temps vous allez juste lui rendre la balle.<br><br>Le meilleur des scénarios est lorsque vous parvenez à accélérer la balle d'un côté pendant que votre adversaire prend le boost du milieu opposé, ou qu'il est en retard derrière vous.",
+      "MUSTYFLICK_STEPS": "Sauter après le rebond pour envoyer la balle vers le haut en la suivant (comme un Air Dribble);Retourner la voiture vers l'arrière, en boostant si nécessaire pour ne pas toucher la balle;Effectuer un flip arrière",
+      "MUSTYFLICK_EXPLICATION": "Le Musty Flick est une mécanique avancée qui vous permet de propulser la balle avec une vitesse et un angle difficilement anticipables par votre adversaire. Ce qui rend ce mouvement particulièrement redoutable, c'est l'effet de surprise qu'il génère : lorsque votre voiture bascule vers l'arrière, l'adversaire s'attend généralement à ce que vous retombiez avec la balle. Cependant, en déclenchant le flick à ce moment précis, vous prenez votre adversaire de court en envoyant la balle brusquement vers le haut.<br><br>Cette mécanique ne se limite pas à la simple exécution ; si vous maîtrisez les 'Cancel Flips', vous pouvez retarder légèrement le moment du flick, ce qui vous donne encore plus de contrôle et augmente la puissance de votre tir. Cela rend l'action encore plus imprévisible et difficile à contrer, ajoutant une dimension supplémentaire à votre jeu offensif.",
+      "NOMECANIC": "Aucune donnée disponible.<br><div style='font-style:italic;font-size: 14px;'>(avec les filtres actuels)</div>"
+    },
+    "STEPS": "Étapes :",
+    "WHYMECANIC": "Pourquoi utiliser cette mécanique ?"
   },
-  "CONTACT":"Salut ! 👋<br><br>Moi, c’est <strong>Hato</strong>, la seule personne derrière le projet TeamUpp.<br>Convaincu que l'on peut créer quelque chose d'impactant pour le monde du jeu compétitif, ainsi qu'aider chaque joueur en leur donnant les clés pour progresser, je mets toute mon énergie et mes efforts dans ce projet. (même si c'est très difficile en solo).<br><br>Tu peux me trouver très souvent en live sur Twitch 🔴, où le contenu principal est le gaming avec les viewers 🎮, la discussion 💬 et l'intéraction avec eux 🤙 (où bien-sûr, chacun peut participer).<br>J’ai aussi monté un serveur Discord, histoire qu’on puisse créer une vraie communauté, échanger et s’entraider entre passionnés 🫶. <br><br>Tes retours sont essentiels pour m’aider à y arriver. Donc si tu as des questions, des idées ou juste l'envie de partager un retour, tu peux me contacter sur les différents réseaux ci-dessous (surtout sur Instagram).<br> Je serais vraiment heureux d’en discuter avec toi ! 🤗",
-  "ABOUTME":"À propos",
-  "TFT":{
-    "BIGTITLE" : "TEAMFIGHT TACTICS",
-    "SUBBIGTITLE" : "Assimilez les bases et dominez la partie",
-    "TITLE0" : "Qu'est-ce que Teamfight Tactics ?",
-    "CONTENT0": "Bienvenue sur notre guide complet de Teamfight Tactics (TFT), ce site est conçu pour vous aider à comprendre les bases de ce jeu captivant et à améliorer votre expérience de jeu. Que vous soyez un novice cherchant à apprendre ou un joueur expérimenté souhaitant approfondir ses connaissances, vous êtes au bon endroit. Plongeons ensemble dans l'univers stratégique de TFT !<br><br>TFT est un jeu inspiré de l'univers de League of Legends. C'est un jeu où les joueurs s'affrontent, souvent de manière intense, dans des batailles stratégiques. Il s'agit d'un auto-battler, ce qui signifie que vous devez composer une équipe de champions qui se battent automatiquement contre d'autres joueurs." ,
-    "TITLE1" : "Structure du Jeu",
-    "CONTENT1" : "Dans TFT, huit joueurs sont présents dans chaque partie, chacun ayant 100 points de vie (HP). Au cours de différents rounds, vous affronterez d'autres joueurs, et les perdants perdront des points de vie selon l'avancement de la partie. Lorsque votre barre d'HP atteint zéro, la partie se termine pour vous, mais cela ne signifie pas nécessairement que vous avez perdu : vous êtes juste éliminé du jeu.<br><br>La partie se déroule en plusieurs phases :",
-    "LIST1" :{
-      "CONTENT0" : "<bold>Trois combats contre un adversaire :</bold> Vous commencez par affronter trois fois un même joueur.",
-      "CONTENT1" : "<bold>Phase de carrousel :</bold> C'est le moment de choisir un composant parmi ceux qui sont disponibles.",
-      "CONTENT2" : "<bold>Deux combats supplémentaires contre un adversaire :</bold> Vous reprenez ensuite avec deux autres combats.",
-      "CONTENT3" : "<bold>Manche PvE :</bold> Ces combats vous permettent d'obtenir des récompenses, comme de l'or ou des composants. Des surprises peuvent également survenir.",
-      "OUTRO" : "L'objectif principal est de composer la meilleure équipe pour affronter les autres joueurs et survivre le plus longtemps possible."
-    } ,
-    "TITLE2" : "Concepts Clés de TFT",
-    "CONTENT2" :"TFT repose sur trois notions fondamentales :",
-    "SUBTITLE3":"Les Champions",
-    "CONTENT3":"Dans TFT, il existe cinq raretés de champions. Plus un champion est rare, plus il est cher à acheter. Les champions sont souvent identifiés à l'oral par leur coût en or, que l'on désigne de la manière suivante :",
-    "LIST3" :{
-      "CONTENT0" : "<bold>1 cost :</bold> Champion à 1 PO.",
-      "CONTENT1" : "<bold>2 cost :</bold> Champion à 2 PO.",
-      "CONTENT2" : "<bold>3 cost :</bold> Champion à 3 PO.",
-      "CONTENT3" : "<bold>4 cost :</bold> Champion à 4 PO.",
-      "CONTENT4" : "<bold>Légendaire :</bold> Champion à 5 PO.",
-      "OUTRO" : "Chaque champion a un <bold>niveau d'étoile</bold> qui détermine sa puissance. Quand vous achetez un champion pour la première fois, il est considéré comme une étoile. Si vous parvenez à réunir trois champions identiques, ils fusionnent pour passer à deux étoiles, augmentant grandement leurs statistiques. Si vous réunissez trois champions identiques de deux étoiles, ils fusionnent pour devenir trois étoiles, le dernier niveau possible, ce qui augmente encore plus leurs statistiques. Il est donc crucial de faire attention à la rareté et au niveau d'étoile de vos champions, car plus un champion est rare, plus il est puissant (sur le papier)."
-    } ,
-    "SUBTITLE4":"Les Objets",
-    "CONTENT4":"Dans le jeu, il existe également des composants qui sont des sortes de mini-objets. Lorsque vous combinez deux composants sur un champion, cela crée un objet. Chaque champion peut porter jusqu'à trois objets, à moins qu'il n'y ait des restrictions liées à un set ou une autre spécificité. Il existe plus d'une quarantaine d'objets différents, en tenant compte des spatules, et leur disponibilité change avec les différents sets et patches.<br><br>Il est essentiel de comprendre que chaque champion a une certaine spécificité, comme tank, DPS (dégâts par seconde), dégâts physiques ou magiques, etc. Dans le jeu, chaque personnage a des indications qui vous aideront à bien équiper vos champions. Ces conseils sont souvent fiables et très utiles pour apprendre à jouer.<br><br>L'idée est d'optimiser l'équipement en plaçant les objets sur les personnages les plus importants de votre équipe, vos carrys, tout en respectant leur rôle. Par exemple, un objet de tankiness doit être placé sur un tank, et cette logique s'applique à tous les types d'objets.",
-    "SUBTITLE5":"Les Synergies",
-    "CONTENT5":"Chaque champion a généralement deux ou trois synergies. Cette partie est un peu plus délicate à aborder, car tout dépend de la méta et des différents sets. Ce n'est pas parce que vous avez tous vos champions avec la même synergie que votre équipe sera nécessairement forte. L'idée est d'optimiser votre équipe selon les synergies en fonction de votre carry principal.<br><br>Personnellement, je choisis mes synergies en fonction de mon carry principal. En raisonnant de cette manière, votre équipe variera chaque fois que votre carry changera, ce qui apportera une flexibilité essentielle pour améliorer votre niveau de jeu. Cette compétence viendra avec le temps, et n’hésitez pas à demander plus d’informations à ce sujet si vous avez des questions.",
-    "SUBTITLE6":"L'Économie",
-    "CONTENT6":"La gestion de votre or est un aspect fondamental qui vous permettra de contrôler votre partie. À la fin de chaque round, tous les joueurs reçoivent 5 or. En fonction du nombre d'or que vous avez, vous recevrez un bonus en or d'intérêt à la fin de chaque round, et ce bonus s'accumule à partir de chaque palier de 10 or. Par exemple :",
-    "LIST6" :{
-      "CONTENT0" : "Vous recevez 1 or supplémentaire pour chaque palier de 10 or, jusqu'à un maximum de 5 or. Les paliers après 50 or ne sont pas importants.",
-      "CONTENT1" : "Chaque victoire remportée contre un joueur rapporte également un or supplémentaire, ce qui est souvent utilisé pour optimiser vos paliers."
-    } ,
-    "CONTENT7" : "Il existe aussi des séries de victoires ou de défaites qui rapportent des or supplémentaires. Voici comment cela fonctionne :",
-    "LIST7" :{
-      "CONTENT0" : "<bold>3-4 victoires ou défaites consécutives :</bold> +1 PO.",
-      "CONTENT1" : "<bold>5 victoires ou défaites consécutives :</bold> +2 PO.",
-      "CONTENT2" : "<bold>6 victoires ou défaites consécutives :</bold> +3 PO."
-    } ,
-    "CONTENT8" :"Le système de niveau est également très important dans le jeu. Chaque niveau que vous atteignez vous coûte de l'or (4 or = 4 XP). Les niveaux sont répartis en paliers d’XP. Vous pouvez placer dans votre équipe autant de champions que vous avez de niveaux. Par exemple, au niveau 5, vous pouvez placer 5 champions. Le shop dépend aussi énormément de votre niveau, et plus votre niveau est élevé, plus vous avez de chances d'obtenir des champions rares.<br><br>Il existe différentes stratégies d'économie. Certains joueurs préfèrent attendre et se laisser taper pour revenir avec un maximum d'or, tandis que d'autres, comme moi, choisissent une approche agressive pour préserver un maximum de HP. Gardez à l'esprit que si vous avez 80 or en poche, mais que vous êtes éliminé, cela ne sert à rien.<br><br>Les débutants ont souvent peur d'utiliser leur or. Mon conseil est de bien surveiller votre barre de HP, car c'est cela qui compte le plus. Si vous perdez, c'est la fin du jeu. N'hésitez pas à utiliser vos or si votre composition est trop faible.<br><br>Un autre conseil important est de prendre des décisions éclairées. Quand acheter de l'XP ? Quand actualiser le shop ? Il n'y a pas de moment précis, car tout dépend de votre partie et de votre niveau de HP.<br>Posez-vous la question à <bold>chaque round</bold> : est-ce que c'est rentable d'acheter de l'XP ? Oui ou non ? Pourquoi ? Est-ce que c'est rentable d'actualiser le shop avec le niveau que j'ai et avec mes HP ? Avec l'expérience, vous verrez que les réponses viendront naturellement.",
-    "TITLE9" : "Conseils pour Progresser",
-    "LIST9" : {
-      "CONTENT0" : "<bold>Ne jamais blâmer la chance :</bold> TFT n'est pas un jeu de chance. La part de chance est seulement présente pour les top 4 à top 1. Si vous perdez, regardez pourquoi et cherchez à vous améliorer.",
-      "CONTENT1" : "<bold>Prenez des décisions éclairées :</bold> Analyser chaque round est essentiel pour déterminer votre stratégie à adopter selon votre situation.",
-      "CONTENT2" : "<bold>Observez et apprenez :</bold> Regarder d'autres joueurs, notamment en streaming, peut vous aider à améliorer vos connaissances et votre style de jeu.",
-      "CONTENT3" : "<bold>Top 4 = Victoire :</bold> Ne vous attendez pas à faire top 1 à chaque partie, et considérez le top 4 comme une victoire, la clé est la constance."
+  "HOME": {
+    "BIENVENUE": "Bienvenue sur TeamUpp",
+    "SUBBIENVENUE": "Le hub ultime pour les joueurs compétitifs qui veulent progresser",
+    "TITLE1": "Une Plateforme Pensée pour Vous",
+    "CONTENT1": "Dans le monde du gaming, l'ascension vers le sommet peut souvent sembler un parcours semé d'embûches, en particulier pour les joueurs qui débutent. En règle général, 85 % des joueurs ont un rang Diamant ou inférieur, c’est pourquoi j'ai eu l'idée de créer une plateforme dédiée à ceux qui aspirent à améliorer leurs compétences et à progresser dans leur jeu.<br><br>Mon objectif avec <strong>TeamUpp</strong> est simple : rassembler, en un seul endroit, toutes les informations dont vous avez besoin pour progresser dans vos jeux favoris. Plus besoin de galérer à trouver des réponses à vos questions ou de naviguer entre différentes sources. Ici, vous trouverez des guides structurés, des astuces claires et des stratégies directement accessibles pour plusieurs jeux compétitifs.<br><br>Je veux rendre l'apprentissage simple, efficace, et surtout accessible à tous.",
+    "TITLE2": "Centralisation des Ressources",
+    "CONTENT2": "Plutôt que de passer des heures à fouiller dans des forums ou à parcourir des vidéos dispersées sur YouTube, TeamUpp rassemble tout ce dont un joueur débutant a besoin en un seul endroit. Que vous soyez novice ou que vous souhaitiez simplement peaufiner vos compétences, nous vous fournissons des guides, des astuces et des stratégies pratiques, soigneusement organisés pour une navigation fluide et intuitive.",
+    "TITLE3": "Apprentissage Accessible",
+    "CONTENT3": "Nous croyons que chaque joueur mérite une chance de briller. C’est pourquoi nous nous engageons à rendre l’apprentissage accessible et engageant. Nos contenus sont conçus pour être facilement compréhensibles, même pour ceux qui n'ont jamais touché à un jeu compétitif auparavant.",
+    "TITLE4": "Rejoignez la Communauté",
+    "CONTENT4": "En plus de nos ressources, TeamUpp se veut être une véritable communauté. Nous encourageons l'interaction entre joueurs, permettant à chacun d'échanger des expériences, de partager des conseils et de s’entraider dans leur quête de progrès. Ensemble, nous bâtissons un environnement où chacun peut s’épanouir et se sentir soutenu.",
+    "TITLE5": "Prêt à Élever Votre niveau de Jeu ?",
+    "CONTENT5": "Rejoignez-nous dès aujourd'hui et découvrez comment TeamUpp peut transformer votre expérience de jeu. Ensemble, faisons de votre parcours de joueur une aventure enrichissante et réussie.<br><br>Votre ascension commence ici !",
+    "FOOTERRIGHTS": "Ce site n'est pas approuvé par les éditeurs ou développeurs des jeux mentionnés et ne reflète pas les opinions ou les points de vue des sociétés ou des personnes officiellement impliquées dans la production ou la gestion de ces jeux. Tous les noms de jeux, logos et marques déposées appartiennent à leurs propriétaires respectifs.",
+    "SOCIALNETWORKS": "Réseaux Sociaux"
+  },
+  "CONTACT": "Salut ! 👋<br><br>Moi, c’est <strong>Hato</strong>, la seule personne derrière le projet TeamUpp.<br>Convaincu que l'on peut créer quelque chose d'impactant pour le monde du jeu compétitif, ainsi qu'aider chaque joueur en leur donnant les clés pour progresser, je mets toute mon énergie et mes efforts dans ce projet. (même si c'est très difficile en solo).<br><br>Tu peux me trouver très souvent en live sur Twitch 🔴, où le contenu principal est le gaming avec les viewers 🎮, la discussion 💬 et l'intéraction avec eux 🤙 (où bien-sûr, chacun peut participer).<br>J’ai aussi monté un serveur Discord, histoire qu’on puisse créer une vraie communauté, échanger et s’entraider entre passionnés 🫶. <br><br>Tes retours sont essentiels pour m’aider à y arriver. Donc si tu as des questions, des idées ou juste l'envie de partager un retour, tu peux me contacter sur les différents réseaux ci-dessous (surtout sur Instagram).<br> Je serais vraiment heureux d’en discuter avec toi ! 🤗",
+  "ABOUTME": "À propos",
+  "TFT": {
+    "BIGTITLE": "TEAMFIGHT TACTICS",
+    "SUBBIGTITLE": "Assimilez les bases et dominez la partie",
+    "TITLE0": "Qu'est-ce que Teamfight Tactics ?",
+    "CONTENT0": "Bienvenue sur notre guide complet de Teamfight Tactics (TFT), cette page est conçue pour vous aider à comprendre les bases de ce jeu et à améliorer votre expérience de jeu. Que vous soyez un novice cherchant à débuter ou un joueur souhaitant approfondir ses connaissances, vous êtes au bon endroit !",
+    "TITLE1": "Structure du Jeu",
+    "CONTENT1": "TFT est jeu de type 'Auto-Battler', ce qui signifie que vous devez composer une équipe de champions, inspirés de l'univers de League of Legends, qui combattra automatiquement contre les équipes des autres joueurs.<br><br>Huit joueurs sont présents dans chaque partie, chacun ayant 100 points de vie (HP). Au cours de différents rounds, vous affronterez d'autres joueurs, et les perdants perdront des points de vie, un montant relatif selon l'avancement de la partie.<br>Lorsque votre barre d'HP atteint 0, la partie se termine pour vous, mais cela ne signifie pas nécessairement que vous avez perdu : vous êtes juste éliminé. Votre placement lors de votre mort détermine le résultat de votre partie (victoire ou défaite).<br><br>La partie se déroule en plusieurs phases :",
+    "LIST1": {
+      "CONTENT0": "<bold>3 Combats PvP :</bold> Vous commencez par affronter trois fois un même joueur.",
+      "CONTENT1": "<bold>Phase de carrousel :</bold> C'est le moment de choisir un composant parmi ceux qui sont disponibles.",
+      "CONTENT2": "<bold>2 Combats PvP :</bold> Vous reprenez ensuite avec deux autres combats.",
+      "CONTENT3": "<bold>Manche PvE :</bold> Ces combats vous permettent d'obtenir des récompenses, comme de l'or ou des composants. Des surprises peuvent également survenir.",
+      "OUTRO": "L'objectif principal est de composer la meilleure équipe pour affronter les autres joueurs et survivre le plus longtemps possible.",
+      "OUTRO1" : "Concernant les combats PvP, tu as une indication à droite de l'écran pour savoir quel adversaire tu vas affronter potentiellement : si tu vois deux épées sous le portrait d'un autre joueur, cela signifie que tu peux rencontrer cet adversaire au tour suivant."
+    },
+    "TITLE2": "Concepts Clés de TFT",
+    "CONTENT2": "TFT repose sur trois notions fondamentales :",
+    "SUBTITLE3": "Les Champions",
+    "CONTENT3": "Dans TFT, il existe cinq raretés de champions.<br>Plus un champion est rare, plus il est cher, et moins il y a d'exemplaires dans la boutique :",
+    "LIST3": {
+      "CONTENT0": "<bold>Tier 1 :</bold> Champion à 1 PO.",
+      "CONTENT1": "<bold>Tier 2 :</bold> Champion à 2 PO.",
+      "CONTENT2": "<bold>Tier 3 :</bold> Champion à 3 PO.",
+      "CONTENT3": "<bold>Tier 4 :</bold> Champion à 4 PO.",
+      "CONTENT4": "<bold>Tier 5 :</bold> Légendaire | Champion à 5 PO.",
+      "OUTRO0": "Il est crucial de bien comprendre comment faire évoluer vos champions pour maximiser leur efficacité sur le terrain.<br><br>Chaque champion commence à <bold>1 étoile</bold> lorsque vous l'achetez. Si vous parvenez à réunir <bold>trois copies du même champion à 1 étoile</bold>, ces unités se combinent automatiquement pour former un champion <bold>2 étoiles</bold>, ce qui améliore significativement ses statistiques. Cela inclut une augmentation de ses <bold>points de vie</bold>, de ses <bold>dégâts</bold> et, parfois, des <bold>effets spéciaux de ses sorts</bold>. Ce principe reste identique pour atteindre le stade final : lorsque vous réunissez <bold>trois copies d’un champion à 2 étoiles</bold>, ils se combinent pour former un champion <bold>3 étoiles</bold>, qui représente la version la plus puissante du champion avec des statistiques maximisées.<br>La <bold>rareté</bold> influe grandement sur la croissance de puissance donnée par le niveau d'étoiles. Plus un champion est rare, plus il a de grandes <bold>statistiques de base</bold>, donc l'évolution d'un champion rare (par exemple : Tier 4) sera beaucoup plus impactante que celle d'un champion commun (par exemple : Tier 1).",
+      "OUTRO1": "Cela dit, comprendre le mécanisme d’évolution ne suffit pas. Il faut aussi être attentif à la <bold>composition des équipes de vos adversaires</bold>. Si plusieurs joueurs convoitent les mêmes champions, vous pourriez vous retrouver à lutter pour les obtenir, car le <bold>nombre total de chaque champion disponible</bold> est limité (ce qu’on appelle la <bold>réserve de champions</bold>). Si vous ne faites pas attention à ce que vos adversaires recrutent, vous risquez d’être dans une situation où vous investissez dans des champions qui sont déjà massivement achetés par d'autres joueurs. Cela réduit vos chances de les améliorer, et c’est un piège à éviter.",
+      "OUTRO2": "La clé ici est donc de <bold>surveiller les compositions de vos adversaires</bold> pour choisir des champions moins disputés, ce qui vous permet de maximiser vos chances de les monter en étoiles. Une bonne <bold>gestion de votre économie</bold> et une <bold>observation attentive des autres joueurs</bold> sont cruciales pour ne pas bloquer la progression de vos unités et garder une longueur d’avance."
+    },
+    "SUBTITLE4": "Les Objets",
+    "CONTENT4": "Dans le jeu, il existe également des <bold>composants</bold> qui sont des sortes de mini-objets. Lorsque vous combinez deux composants sur un champion, cela crée un <bold>objet</bold>. Chaque champion peut porter jusqu'à trois objets, sauf si des restrictions liées à un set ou à d'autres spécificités sont en place. Il existe plus d'une quarantaine d'objets différents (en plus de leur version radiante), en tenant compte des spatules, des artefacts et leur disponibilité change avec les différents sets et patches.<br><br>Il est essentiel de comprendre que chaque champion a une certaine spécificité, comme tank, dégâts physiques ou magiques, etc.<br>Dans le jeu, chaque personnage possède des <bold>indications</bold> qui vous aideront à bien équiper vos champions. Les objets se divisent généralement en plusieurs catégories, comme les objets de <bold>dégâts</bold>, qui augmentent la capacité offensive de vos champions, et les objets de <bold>défense</bold>, qui renforcent leur résistance.<br>L'idée est d'optimiser l'équipement en plaçant les objets sur les personnages les plus importants de votre équipe, vos <bold>carrys</bold>, tout en respectant leur rôle. Par exemple, un objet de tankiness doit être placé sur un tank, tandis qu'un objet de dégâts doit être attribué à un champion orienté vers l'attaque. Cette logique s'applique à tous les types d'objets et est fondamentale pour maximiser l'efficacité de votre équipe.<br><br>Il peut être également intéressant de garder un œil sur les objets que vos adversaires utilisent. Cela peut vous aider à anticiper leurs stratégies et à choisir des objets qui contrent leurs compositions. En optimisant non seulement les champions, mais aussi les objets que vous leur attribuez, vous aurez un avantage significatif dans vos combats.",
+    "SUBTITLE5": "Les Synergies",
+    "CONTENT5": "Chaque champion a généralement deux ou trois synergies. Cette partie est un peu plus délicate à aborder, car tout dépend de la méta et des différents sets. Ce n'est pas parce que vous avez tous vos champions avec la même synergie que votre équipe sera nécessairement forte. L'idée est d'optimiser votre équipe selon les synergies en fonction de votre carry principal.<br><br>Personnellement, je choisis mes synergies en fonction de mon carry principal. En raisonnant de cette manière, votre équipe variera chaque fois que votre carry changera, ce qui apportera une flexibilité essentielle pour améliorer votre niveau de jeu. Cette compétence viendra avec le temps, et n’hésitez pas à demander plus d’informations à ce sujet si vous avez des questions.",
+    "SUBTITLE6": "L'Économie",
+    "CONTENT6": "La gestion de votre or est un aspect fondamental qui vous permettra de contrôler votre partie. À la fin de chaque round, tous les joueurs reçoivent 5 or. En fonction du nombre d'or que vous avez, vous recevrez un bonus en or d'intérêt à la fin de chaque round, et ce bonus s'accumule à partir de chaque palier de 10 or. Par exemple :",
+    "LIST6": {
+      "CONTENT0": "Vous recevez 1 or supplémentaire pour chaque palier de 10 or, jusqu'à un maximum de 5 or. Les paliers après 50 or ne sont pas importants.",
+      "CONTENT1": "Chaque victoire remportée contre un joueur rapporte également un or supplémentaire, ce qui est souvent utilisé pour optimiser vos paliers."
+    },
+    "CONTENT7": "Il existe aussi des séries de victoires ou de défaites qui rapportent des or supplémentaires. Voici comment cela fonctionne :",
+    "LIST7": {
+      "CONTENT0": "<bold>3-4 victoires ou défaites consécutives :</bold> +1 PO.",
+      "CONTENT1": "<bold>5 victoires ou défaites consécutives :</bold> +2 PO.",
+      "CONTENT2": "<bold>6 victoires ou défaites consécutives :</bold> +3 PO."
+    },
+    "CONTENT8": "Le système de niveau est également très important dans le jeu. Chaque niveau que vous atteignez vous coûte de l'or (4 or = 4 XP). Les niveaux sont répartis en paliers d’XP. Vous pouvez placer dans votre équipe autant de champions que vous avez de niveaux. Par exemple, au niveau 5, vous pouvez placer 5 champions. Le shop dépend aussi énormément de votre niveau, et plus votre niveau est élevé, plus vous avez de chances d'obtenir des champions rares.<br><br>Il existe différentes stratégies d'économie. Certains joueurs préfèrent attendre et se laisser taper pour revenir avec un maximum d'or, tandis que d'autres, comme moi, choisissent une approche agressive pour préserver un maximum de HP. Gardez à l'esprit que si vous avez 80 or en poche, mais que vous êtes éliminé, cela ne sert à rien.<br><br>Les débutants ont souvent peur d'utiliser leur or. Mon conseil est de bien surveiller votre barre de HP, car c'est cela qui compte le plus. Si vous perdez, c'est la fin du jeu. N'hésitez pas à utiliser vos or si votre composition est trop faible.<br><br>Un autre conseil important est de prendre des décisions éclairées. Quand acheter de l'XP ? Quand actualiser le shop ? Il n'y a pas de moment précis, car tout dépend de votre partie et de votre niveau de HP.<br>Posez-vous la question à <bold>chaque round</bold> : est-ce que c'est rentable d'acheter de l'XP ? Oui ou non ? Pourquoi ? Est-ce que c'est rentable d'actualiser le shop avec le niveau que j'ai et avec mes HP ? Avec l'expérience, vous verrez que les réponses viendront naturellement.",
+    "TITLE9": "Conseils pour Progresser",
+    "LIST9": {
+      "CONTENT0": "<bold>Ne jamais blâmer la chance :</bold> TFT n'est pas un jeu de chance. La part de chance est seulement présente pour les top 4 à top 1. Si vous perdez, regardez pourquoi et cherchez à vous améliorer.",
+      "CONTENT1": "<bold>Prendre du recul à chaque round :</bold> Analyser chaque round pour prendre la situation la plus 'logique' selon votre situation.<br>Pourquoi acheter de l'XP ? Pourquoi roll la boutique ? Pourquoi ne rien faire ?",
+      "CONTENT2": "<bold>Observez et apprenez :</bold> TFT est l'un des seuls jeux où regarder du gameplay donne plus d'informations que de jouer. Analysez le gameplay d'autres bons joueurs sur Youtube ou en Streaming, accumulez des connaissances puis détruisez tout le monde dans vos parties .",
+      "CONTENT3": "<bold>Top 4 = Victoire :</bold> Ne vous attendez pas à faire top 1 à chaque partie, et considérez le top 4 comme une victoire, la clé est la constance.",
+      "CONTENT4": "<bold>Soyez flexible:</bold> Ne bloquez pas votre esprit sur une seule composition ou un seul champion précis. Si vous êtes au dessus-d'un palier d'intérêts, n'hésitez pas à acheter des champions même s'ils ne sont pas utiles dans votre composition. Cela ne vous coutera aucun gold et peut vous permettre de transitionner vers une autre composition avec beaucoup plus de facilité. Un très bon joueur verra des transitions qu'un joueur plus débutant de verra pas, c'est comme ça que l'on améliore efficacement son équipe.",
+      "CONTENT5": "<bold>Régulez les taux :</bold> Pour influer très légèrement sur les taux d'apparition d'un champion précis, vous pouvez acheter les autres champions de même rareté lorsque vous cherchez un champion en particulier."
     }
   }
-
 }

@@ -21,57 +21,66 @@
             {{ "TFT.TITLE1" | translate }}
         </h3>
         <hr class="divider paddingSidebar" />
-        <h4 [innerHtml]="'TFT.CONTENT1' | translate | safeHtml"></h4><br>
+        <h4 [innerHtml]="'TFT.CONTENT1' | translate | safeHtml"></h4>
         <div class="divList">
             <li>
                 <h6 [innerHtml]="'TFT.LIST1.CONTENT0' | translate | safeHtml"></h6>
-            </li><br>
+            </li>
             <li>
                 <h6 [innerHtml]="'TFT.LIST1.CONTENT1' | translate | safeHtml"></h6>
-            </li><br>
+            </li>
             <li>
                 <h6 [innerHtml]="'TFT.LIST1.CONTENT2' | translate | safeHtml"></h6>
-            </li><br>
+            </li>
             <li>
                 <h6 [innerHtml]="'TFT.LIST1.CONTENT3' | translate | safeHtml"></h6>
-            </li><br>
-        </div>
-        <h4 [innerHtml]="'TFT.LIST1.OUTRO' | translate | safeHtml"></h4><br>
-        <br />
-        <br />
-        <h3 >
-            {{ "TFT.TITLE2" | translate }}
-        </h3>
-        <hr class="divider paddingSidebar" />
-        <h5 [id]="'Concepts_Champions'">{{ "TFT.SUBTITLE3" | translate }}</h5>
-        <h4 [innerHtml]="'TFT.CONTENT3' | translate | safeHtml"></h4><br>
-        <div class="divList">
-            <li>
-                <h6 [innerHtml]="'TFT.LIST3.CONTENT0' | translate | safeHtml"></h6>
-            </li><br>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST3.CONTENT1' | translate | safeHtml"></h6>
-            </li><br>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST3.CONTENT2' | translate | safeHtml"></h6>
-            </li><br>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST3.CONTENT3' | translate | safeHtml"></h6>
-            </li><br>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST3.CONTENT4' | translate | safeHtml"></h6>
             </li>
+        </div><br>
+        <img class="imgDuration" src="assets/img/tftDuration.jpg" />
+        <h4 [innerHtml]="'TFT.LIST1.OUTRO' | translate | safeHtml"></h4><br><br>
+        <div class="divChampionPool">
+            <h4 [innerHtml]="'TFT.LIST1.OUTRO1' | translate | safeHtml"></h4><br>
+            <img class="imgNext" src="assets/img/tft_nextfigh.png" />  
+        </div>
+        
+        <h3 [id]="'Concepts_Champions'">{{ "TFT.SUBTITLE3" | translate }}</h3>
+        <hr class="divider paddingSidebar" />
+        <h4 [innerHtml]="'TFT.LIST3.OUTRO0' | translate | safeHtml"></h4><br />
+        <img class="imgPower imgWidth350" src="assets/img/tft_championpower.jpg" /> <br><br>   
+        <h4 [innerHtml]="'TFT.LIST3.OUTRO1' | translate | safeHtml"></h4><br />
+        <div class="divChampionPool">
+            <img class="imgPool imgWidth70" src="assets/img/tft_championpool.jpg" />   
+            <div style="    font-style: italic;">
+                <li>
+                    <h6 [innerHtml]="'TFT.LIST3.CONTENT0' | translate | safeHtml"></h6>
+                </li>
+                <li>
+                    <h6 [innerHtml]="'TFT.LIST3.CONTENT1' | translate | safeHtml"></h6>
+                </li>
+                <li>
+                    <h6 [innerHtml]="'TFT.LIST3.CONTENT2' | translate | safeHtml"></h6>
+                </li>
+                <li>
+                    <h6 [innerHtml]="'TFT.LIST3.CONTENT3' | translate | safeHtml"></h6>
+                </li>
+                <li>
+                    <h6 [innerHtml]="'TFT.LIST3.CONTENT4' | translate | safeHtml"></h6>
+                </li>
+            </div>         
         </div>
         <br />
-        <h4 [innerHtml]="'TFT.LIST3.OUTRO' | translate | safeHtml"></h4><br>
+        <h4 [innerHtml]="'TFT.LIST3.OUTRO2' | translate | safeHtml"></h4>
         <br />
-        <h5 [id]="'Concepts_Objets'">{{ "TFT.SUBTITLE4" | translate }}</h5>
+        <h3 [id]="'Concepts_Objets'">{{ "TFT.SUBTITLE4" | translate }}</h3>
+        <hr class="divider paddingSidebar" />
         <h4 [innerHtml]="'TFT.CONTENT4' | translate | safeHtml"></h4><br>
         <br />
-        <h5 [id]="'Concepts_Synergies'">{{ "TFT.SUBTITLE5" | translate }}</h5>
+        <h3 [id]="'Concepts_Synergies'">{{ "TFT.SUBTITLE5" | translate }}</h3>
+        <hr class="divider paddingSidebar" />
         <h4 [innerHtml]="'TFT.CONTENT5' | translate | safeHtml"></h4><br>
         <br />
-        <h5 [id]="'Concepts_Economy'">{{ "TFT.SUBTITLE6" | translate }}</h5>
+        <h3 [id]="'Concepts_Economy'">{{ "TFT.SUBTITLE6" | translate }}</h3>
+        <hr class="divider paddingSidebar" />
         <h4 [innerHtml]="'TFT.CONTENT6' | translate | safeHtml"></h4><br>
         <div class="divList">
             <li>
@@ -112,6 +121,12 @@
             </li><br>
             <li>
                 <h6 [innerHtml]="'TFT.LIST9.CONTENT3' | translate | safeHtml"></h6>
+            </li><br>
+            <li>
+                <h6 [innerHtml]="'TFT.LIST9.CONTENT4' | translate | safeHtml"></h6>
+            </li><br>
+            <li>
+                <h6 [innerHtml]="'TFT.LIST9.CONTENT5' | translate | safeHtml"></h6>
             </li>
         </div>
         <br><br><br>

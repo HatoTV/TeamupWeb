@@ -149,6 +149,7 @@ export class LeftBarComponent {
     // Supprimer toutes les classes avant d'en ajouter une nouvelle
     this.renderer.removeClass(mainElement, 'rlcolor');
     this.renderer.removeClass(mainElement, 'lolcolor');
+    this.renderer.removeClass(mainElement, 'tftcolor');
     this.renderer.removeClass(mainElement, 'displayNone');
 
     (Array.from(dividerElement) as HTMLElement[]).forEach((element: HTMLElement) => {
@@ -275,6 +276,17 @@ export class LeftBarComponent {
       this.titlePart2 = '';
       
       this.renderer.addClass(mainElement, 'rlcolor');
+    }
+    else if (url.includes('/tft')) { 
+      
+      this.renderer.addClass(mainElement, 'displayNone');
+      // Ajouter la classe pour Rocket League
+      this.itemsPart1=[]
+      this.itemsPart2=[]
+      this.titlePart1 = '';
+      this.titlePart2 = '';
+      
+      this.renderer.addClass(mainElement, 'tftcolor');
     }
   }
 

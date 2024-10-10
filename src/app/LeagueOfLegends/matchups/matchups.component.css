@@ -9,15 +9,25 @@
     overflow: auto;
     padding-bottom: 100px;
 }
+
+.logoGame{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    opacity: 0.4;
+    margin-left: auto;
+    height: 230px;
+  }
 .imgBkg {
     width: 100%;
     height: 80%;
     object-fit: cover;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
     mix-blend-mode: screen;
     position: absolute;
     transition: opacity 0.5s ease-in-out;
+    opacity: 0.5;
 }
 .imgBkg1, .imgBkg2 {
     width: 22%;
@@ -136,6 +146,7 @@ h2{
 .divChoice{
     z-index:10;
     align-items: center;
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.4));
 }
 
 .fade {
@@ -145,7 +156,7 @@ h2{
   
 .fade-in {
 opacity: 1;
-max-height: 200px;
+max-height: 400px;
 padding-top: 100px;
 padding-bottom: 150px;
 }
@@ -222,7 +233,7 @@ opacity: 0;
 }
   
 .fade-in-img {
-opacity: 1;
+opacity: 0.5;
 }
 
 .fade-out-img {
@@ -480,7 +491,13 @@ opacity: 0;
   .btnReport:hover {
     background-color: #1363b9; 
   }
+  .divTips{
+   margin-top: 50px;
+  }
 @media only screen and (max-width: 500px) {
+    .divTips{
+     margin-top: 0px;
+    }
     .content{
         position: relative;
         color: white;
@@ -621,5 +638,12 @@ opacity: 0;
         padding: 10px 10px;
         margin-bottom: 20px;
         margin-top: 40px;
+    }
+    .logoGame{
+        height: 100px;
+    }
+    .fade-in{
+        max-height: 100px;
+        padding-top: 50px;
     }
 }

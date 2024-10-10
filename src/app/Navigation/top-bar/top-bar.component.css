@@ -20,6 +20,9 @@
 .homecolor{
   background-color: var(--home-topbar);
 }
+.tftcolor{
+  background-color: var(--tft-topbar);
+}
 
 .nonedisplay{
   display: none;
@@ -295,7 +298,14 @@ h3 {
   
 .logo-wrapper {
   margin-right: 0;
-  width: 15px;
+  width: 5px;
   overflow: visible;
+}
+img{
+  width: 25px;
+}
+.section{
+  padding-left: 20px;
+  padding-right: 20px;
 }
   }

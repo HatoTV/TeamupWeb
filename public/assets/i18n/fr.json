@@ -265,8 +265,8 @@
   "RL" : {
     "FILTERS" : "Filtres",
     "MECANICS" : {
-      "TITLE0" : "APPRENDS TOUTES LES MÉCANIQUES",
-      "SUBTITLE0" : "Deviens meilleur et atteins plus efficacement les cages adverses !",
+      "TITLE0" : "ROCKET LEAGUE",
+      "SUBTITLE0" : "Frappe avec puissance, défends avec sagesse !",
       "SEARCHPLACEHOLDER" : "Wave Dash, Flip Reset, etc...",
       "UTILITY" : "Utilité",
       "UTILITY_ASC" : "Utilité ↓",
@@ -315,5 +315,57 @@
     "SOCIALNETWORKS" : "Réseaux Sociaux"
   },
   "CONTACT":"Salut ! 👋<br><br>Moi, c’est <strong>Hato</strong>, la seule personne derrière le projet TeamUpp.<br>Convaincu que l'on peut créer quelque chose d'impactant pour le monde du jeu compétitif, ainsi qu'aider chaque joueur en leur donnant les clés pour progresser, je mets toute mon énergie et mes efforts dans ce projet. (même si c'est très difficile en solo).<br><br>Tu peux me trouver très souvent en live sur Twitch 🔴, où le contenu principal est le gaming avec les viewers 🎮, la discussion 💬 et l'intéraction avec eux 🤙 (où bien-sûr, chacun peut participer).<br>J’ai aussi monté un serveur Discord, histoire qu’on puisse créer une vraie communauté, échanger et s’entraider entre passionnés 🫶. <br><br>Tes retours sont essentiels pour m’aider à y arriver. Donc si tu as des questions, des idées ou juste l'envie de partager un retour, tu peux me contacter sur les différents réseaux ci-dessous (surtout sur Instagram).<br> Je serais vraiment heureux d’en discuter avec toi ! 🤗",
-  "ABOUTME":"À propos"
+  "ABOUTME":"À propos",
+  "TFT":{
+    "BIGTITLE" : "TEAMFIGHT TACTICS",
+    "SUBBIGTITLE" : "Assimilez les bases et dominez la partie",
+    "TITLE0" : "Qu'est-ce que Teamfight Tactics ?",
+    "CONTENT0": "Bienvenue sur notre guide complet de Teamfight Tactics (TFT), ce site est conçu pour vous aider à comprendre les bases de ce jeu captivant et à améliorer votre expérience de jeu. Que vous soyez un novice cherchant à apprendre ou un joueur expérimenté souhaitant approfondir ses connaissances, vous êtes au bon endroit. Plongeons ensemble dans l'univers stratégique de TFT !<br><br>TFT est un jeu inspiré de l'univers de League of Legends. C'est un jeu où les joueurs s'affrontent, souvent de manière intense, dans des batailles stratégiques. Il s'agit d'un auto-battler, ce qui signifie que vous devez composer une équipe de champions qui se battent automatiquement contre d'autres joueurs." ,
+    "TITLE1" : "Structure du Jeu",
+    "CONTENT1" : "Dans TFT, huit joueurs sont présents dans chaque partie, chacun ayant 100 points de vie (HP). Au cours de différents rounds, vous affronterez d'autres joueurs, et les perdants perdront des points de vie selon l'avancement de la partie. Lorsque votre barre d'HP atteint zéro, la partie se termine pour vous, mais cela ne signifie pas nécessairement que vous avez perdu : vous êtes juste éliminé du jeu.<br><br>La partie se déroule en plusieurs phases :",
+    "LIST1" :{
+      "CONTENT0" : "<bold>Trois combats contre un adversaire :</bold> Vous commencez par affronter trois fois un même joueur.",
+      "CONTENT1" : "<bold>Phase de carrousel :</bold> C'est le moment de choisir un composant parmi ceux qui sont disponibles.",
+      "CONTENT2" : "<bold>Deux combats supplémentaires contre un adversaire :</bold> Vous reprenez ensuite avec deux autres combats.",
+      "CONTENT3" : "<bold>Manche PvE :</bold> Ces combats vous permettent d'obtenir des récompenses, comme de l'or ou des composants. Des surprises peuvent également survenir.",
+      "OUTRO" : "L'objectif principal est de composer la meilleure équipe pour affronter les autres joueurs et survivre le plus longtemps possible."
+    } ,
+    "TITLE2" : "Concepts Clés de TFT",
+    "CONTENT2" :"TFT repose sur trois notions fondamentales :",
+    "SUBTITLE3":"Les Champions",
+    "CONTENT3":"Dans TFT, il existe cinq raretés de champions. Plus un champion est rare, plus il est cher à acheter. Les champions sont souvent identifiés à l'oral par leur coût en or, que l'on désigne de la manière suivante :",
+    "LIST3" :{
+      "CONTENT0" : "<bold>1 cost :</bold> Champion à 1 PO.",
+      "CONTENT1" : "<bold>2 cost :</bold> Champion à 2 PO.",
+      "CONTENT2" : "<bold>3 cost :</bold> Champion à 3 PO.",
+      "CONTENT3" : "<bold>4 cost :</bold> Champion à 4 PO.",
+      "CONTENT4" : "<bold>Légendaire :</bold> Champion à 5 PO.",
+      "OUTRO" : "Chaque champion a un <bold>niveau d'étoile</bold> qui détermine sa puissance. Quand vous achetez un champion pour la première fois, il est considéré comme une étoile. Si vous parvenez à réunir trois champions identiques, ils fusionnent pour passer à deux étoiles, augmentant grandement leurs statistiques. Si vous réunissez trois champions identiques de deux étoiles, ils fusionnent pour devenir trois étoiles, le dernier niveau possible, ce qui augmente encore plus leurs statistiques. Il est donc crucial de faire attention à la rareté et au niveau d'étoile de vos champions, car plus un champion est rare, plus il est puissant (sur le papier)."
+    } ,
+    "SUBTITLE4":"Les Objets",
+    "CONTENT4":"Dans le jeu, il existe également des composants qui sont des sortes de mini-objets. Lorsque vous combinez deux composants sur un champion, cela crée un objet. Chaque champion peut porter jusqu'à trois objets, à moins qu'il n'y ait des restrictions liées à un set ou une autre spécificité. Il existe plus d'une quarantaine d'objets différents, en tenant compte des spatules, et leur disponibilité change avec les différents sets et patches.<br><br>Il est essentiel de comprendre que chaque champion a une certaine spécificité, comme tank, DPS (dégâts par seconde), dégâts physiques ou magiques, etc. Dans le jeu, chaque personnage a des indications qui vous aideront à bien équiper vos champions. Ces conseils sont souvent fiables et très utiles pour apprendre à jouer.<br><br>L'idée est d'optimiser l'équipement en plaçant les objets sur les personnages les plus importants de votre équipe, vos carrys, tout en respectant leur rôle. Par exemple, un objet de tankiness doit être placé sur un tank, et cette logique s'applique à tous les types d'objets.",
+    "SUBTITLE5":"Les Synergies",
+    "CONTENT5":"Chaque champion a généralement deux ou trois synergies. Cette partie est un peu plus délicate à aborder, car tout dépend de la méta et des différents sets. Ce n'est pas parce que vous avez tous vos champions avec la même synergie que votre équipe sera nécessairement forte. L'idée est d'optimiser votre équipe selon les synergies en fonction de votre carry principal.<br><br>Personnellement, je choisis mes synergies en fonction de mon carry principal. En raisonnant de cette manière, votre équipe variera chaque fois que votre carry changera, ce qui apportera une flexibilité essentielle pour améliorer votre niveau de jeu. Cette compétence viendra avec le temps, et n’hésitez pas à demander plus d’informations à ce sujet si vous avez des questions.",
+    "SUBTITLE6":"L'Économie",
+    "CONTENT6":"La gestion de votre or est un aspect fondamental qui vous permettra de contrôler votre partie. À la fin de chaque round, tous les joueurs reçoivent 5 or. En fonction du nombre d'or que vous avez, vous recevrez un bonus en or d'intérêt à la fin de chaque round, et ce bonus s'accumule à partir de chaque palier de 10 or. Par exemple :",
+    "LIST6" :{
+      "CONTENT0" : "Vous recevez 1 or supplémentaire pour chaque palier de 10 or, jusqu'à un maximum de 5 or. Les paliers après 50 or ne sont pas importants.",
+      "CONTENT1" : "Chaque victoire remportée contre un joueur rapporte également un or supplémentaire, ce qui est souvent utilisé pour optimiser vos paliers."
+    } ,
+    "CONTENT7" : "Il existe aussi des séries de victoires ou de défaites qui rapportent des or supplémentaires. Voici comment cela fonctionne :",
+    "LIST7" :{
+      "CONTENT0" : "<bold>3-4 victoires ou défaites consécutives :</bold> +1 PO.",
+      "CONTENT1" : "<bold>5 victoires ou défaites consécutives :</bold> +2 PO.",
+      "CONTENT2" : "<bold>6 victoires ou défaites consécutives :</bold> +3 PO."
+    } ,
+    "CONTENT8" :"Le système de niveau est également très important dans le jeu. Chaque niveau que vous atteignez vous coûte de l'or (4 or = 4 XP). Les niveaux sont répartis en paliers d’XP. Vous pouvez placer dans votre équipe autant de champions que vous avez de niveaux. Par exemple, au niveau 5, vous pouvez placer 5 champions. Le shop dépend aussi énormément de votre niveau, et plus votre niveau est élevé, plus vous avez de chances d'obtenir des champions rares.<br><br>Il existe différentes stratégies d'économie. Certains joueurs préfèrent attendre et se laisser taper pour revenir avec un maximum d'or, tandis que d'autres, comme moi, choisissent une approche agressive pour préserver un maximum de HP. Gardez à l'esprit que si vous avez 80 or en poche, mais que vous êtes éliminé, cela ne sert à rien.<br><br>Les débutants ont souvent peur d'utiliser leur or. Mon conseil est de bien surveiller votre barre de HP, car c'est cela qui compte le plus. Si vous perdez, c'est la fin du jeu. N'hésitez pas à utiliser vos or si votre composition est trop faible.<br><br>Un autre conseil important est de prendre des décisions éclairées. Quand acheter de l'XP ? Quand actualiser le shop ? Il n'y a pas de moment précis, car tout dépend de votre partie et de votre niveau de HP.<br>Posez-vous la question à <bold>chaque round</bold> : est-ce que c'est rentable d'acheter de l'XP ? Oui ou non ? Pourquoi ? Est-ce que c'est rentable d'actualiser le shop avec le niveau que j'ai et avec mes HP ? Avec l'expérience, vous verrez que les réponses viendront naturellement.",
+    "TITLE9" : "Conseils pour Progresser",
+    "LIST9" : {
+      "CONTENT0" : "<bold>Ne jamais blâmer la chance :</bold> TFT n'est pas un jeu de chance. La part de chance est seulement présente pour les top 4 à top 1. Si vous perdez, regardez pourquoi et cherchez à vous améliorer.",
+      "CONTENT1" : "<bold>Prenez des décisions éclairées :</bold> Analyser chaque round est essentiel pour déterminer votre stratégie à adopter selon votre situation.",
+      "CONTENT2" : "<bold>Observez et apprenez :</bold> Regarder d'autres joueurs, notamment en streaming, peut vous aider à améliorer vos connaissances et votre style de jeu.",
+      "CONTENT3" : "<bold>Top 4 = Victoire :</bold> Ne vous attendez pas à faire top 1 à chaque partie, et considérez le top 4 comme une victoire, la clé est la constance."
+    }
+  }
+
 }

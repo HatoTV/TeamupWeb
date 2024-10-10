@@ -49,5 +49,5 @@ export class WavemanagementComponent {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   }
-  
+
 }

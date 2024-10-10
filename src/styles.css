@@ -42,6 +42,10 @@
     --rl-blue-bkgtexthover: #1962b1;
     --rl-blue-bkgtextdarker: #0B4788;
     --rl-bkgtextopacity: rgba(206, 206, 206,0.1);
+
+    --tft-bkg-gradient-1: #761740;
+    --tft-bkg-gradient-2: rgb(52, 9, 40);
+    --tft-topbar:rgb(68, 21, 41);
   }
 
   html, body {
@@ -133,8 +137,13 @@
   flex-direction: row;
   display: flex;
 }
-
+.youtube-player-placeholder{
+  border: 3px solid white;
+}
 @media only screen and (max-width: 500px) {
+  iframe{
+    width: 100%;
+  }
   
 .imgMinionSpawnTip{
   margin-right: 0;width:100%;height:auto;border: 4px solid white;margin-bottom: 30px;

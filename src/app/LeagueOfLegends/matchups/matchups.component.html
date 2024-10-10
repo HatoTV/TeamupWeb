@@ -1,14 +1,16 @@
 <div class="content scrollbar-lol">
   <div class="bkgContent"></div>
   <img [ngClass]="{ 'fade-out-img': !isFirstSearch, 'fade-in-img': isFirstSearch }" class="imgBkg"
-    src="assets/img/bkgContent_Matchup.png" />
+    src="assets/img/matchup_bkg.jpeg" />
   <div [ngClass]="{ 'fade-out-img': isFirstSearch, 'fade-in-img': !isFirstSearch }" class="fade-img">
     <img [src]="imgBkg1" class="imgBkg1" [ngClass]="{ visible: showImage1 }" />
     <img [src]="imgBkg2" class="imgBkg2" [ngClass]="{ visible: showImage2 }" />
   </div>
   <div [ngClass]="{ 'fade-out': !isVisible, 'fade-in': isVisible }" class="title" id="titleMatchup">
-    <h1 class="paddingTextMobile">{{ "LOL.MATCHUPS.INTRO1" | translate }}</h1>
-    <h2 class="paddingTextMobile">{{ "LOL.MATCHUPS.INTRO2" | translate }}</h2>
+    <!-- <h1 class="paddingTextMobile">{{ "LOL.MATCHUPS.INTRO1" | translate }}</h1> -->
+    <!-- <h2 class="paddingTextMobile">{{ "LOL.MATCHUPS.INTRO2" | translate }}</h2> -->
+    
+    <img class="logoGame" src="assets/img/lol_logo.png" />
   </div>
 
   <div class="divSearches">
@@ -81,7 +83,7 @@
     </div>
   </div>
   <div [ngClass]="{ 'fade-out-content': isVisible, 'fade-in-content': !isVisible }" class="fade-content">
-    <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2" style="margin-top: 50px;">
+    <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2" class="divTips">
       <div class="divTitleMatchup divContent" >
         <span *ngIf="isMatchupReady" class="txtDifficulty"
           [ngStyle]="styleByDifficulty(filteredMatchup[0].difficulty.toLowerCase(),true)">{{

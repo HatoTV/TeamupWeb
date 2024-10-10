@@ -21,7 +21,8 @@ export class TopBarComponent {
     private twitchService: TwitchService, @Inject(PLATFORM_ID) private platformId: Object, private changeDetector: ChangeDetectorRef) {}
   itemsSections = [
     { logoUrl: 'assets/img/icons/League of Legends.png', title: 'League Of Legends', isSelected:false, url:'/lol/matchups' },
-    { logoUrl: 'assets/img/icons/Rocket League.png', title: 'Rocket League', isSelected:false,  url:'/rocket/mecanics' },
+    { logoUrl: 'assets/img/icons/TFT.png', title: 'Teamfight Tactics', isSelected:false,  url:'/tft' },
+    { logoUrl: 'assets/img/icons/Rocket League.png', title: 'Rocket League', isSelected:false,  url:'/rocket/mecanics' }
   ];
   lang : string = "fr";  
   isMenuOpen = false;
@@ -77,15 +78,18 @@ export class TopBarComponent {
     this.renderer.removeClass(mainElement, 'rlcolor');
     this.renderer.removeClass(mainElement, 'lolcolor');
     this.renderer.removeClass(mainElement, 'homecolor');
+    this.renderer.removeClass(mainElement, 'tftcolor');
     this.renderer.removeClass(navElement, 'rlcolor');
     this.renderer.removeClass(navElement, 'lolcolor');
     this.renderer.removeClass(navElement, 'homecolor');
+    this.renderer.removeClass(navElement, 'tftcolor');
     if(hamburgerElement){
       this.renderer.removeClass(hamburgerElement, 'nonedisplay');
       this.renderer.removeClass(hamburgerElement, 'blockdisplay');
     }
     this.itemsSections[0].isSelected=false
     this.itemsSections[1].isSelected=false
+    this.itemsSections[2].isSelected=false
 
     if (url.includes('/lol')) {
       this.itemsSections[0].isSelected=true
@@ -95,7 +99,7 @@ export class TopBarComponent {
         this.renderer.addClass(hamburgerElement, 'blockdisplay');
       }
     } else if (url.includes('/rocket')) {
-      this.itemsSections[1].isSelected=true
+      this.itemsSections[2].isSelected=true
       this.renderer.addClass(mainElement, 'rlcolor');
       this.renderer.addClass(navElement, 'rlcolor');
       if(hamburgerElement){
@@ -106,6 +110,13 @@ export class TopBarComponent {
       this.renderer.addClass(navElement, 'homecolor');
       if(hamburgerElement){
         this.renderer.addClass(hamburgerElement, 'nonedisplay');
+      }
+    }else if (url.includes('/tft')) {
+      this.itemsSections[1].isSelected=true
+      this.renderer.addClass(mainElement, 'tftcolor');
+      this.renderer.addClass(navElement, 'tftcolor');
+      if(hamburgerElement){
+        this.renderer.addClass(hamburgerElement, 'blockdisplay');
       }
     }
   }

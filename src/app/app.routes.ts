@@ -9,7 +9,7 @@ import { LaningComponent } from './LeagueOfLegends/laning/laning.component';
 import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
 import { WavemanagementComponent } from './LeagueOfLegends/wavemanagement/wavemanagement.component';
 import { MecanicsComponent } from './RocketLeague/mecanics/mecanics.component';
-import { TFTComponent } from './tft/tft.component';
+import { TFTGameComponent } from './tftgame/tftgame.component';
 export const routes: Routes = [
   { path: '', redirectTo: 'fr/home', pathMatch: 'full' },
   { path: ':lang/lol', redirectTo: ':lang/lol/matchups', pathMatch: 'full' },
@@ -24,5 +24,5 @@ export const routes: Routes = [
   { path: ':lang/rocket/mecanics', component: MecanicsComponent },
   { path: ':lang/contact', component: ContactComponent },
   { path: ':lang/home', component: HomeComponent },
-  { path: ':lang/tft', component: TFTComponent },
+  { path: ':lang/tft', component: TFTGameComponent },
   ];

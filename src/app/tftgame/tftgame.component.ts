@@ -6,13 +6,13 @@ import { SafeHtmlPipe } from '../safe-html.pipe';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @Component({
-  selector: 'app-tft',
+  selector: 'app-tftgame',
   standalone: true,
   imports: [CommonModule, TranslateModule ,SafeHtmlPipe,YouTubePlayerModule],
-  templateUrl: './tft.component.html',
-  styleUrl: './tft.component.css'
+  templateUrl: './tftgame.component.html',
+  styleUrl: './tftgame.component.css'
 })
-export class TFTComponent {
+export class TFTGameComponent {
 
   constructor(private elementRef: ElementRef,private scrollService: ScrollService) { }
   @ViewChild('scrollContainer') private scrollContainer!: ElementRef;

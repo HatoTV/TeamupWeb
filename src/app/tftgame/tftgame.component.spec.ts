@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TFTComponent } from './tft.component';
+import { TFTGameComponent } from './tftgame.component';
 
-describe('TFTComponent', () => {
-  let component: TFTComponent;
-  let fixture: ComponentFixture<TFTComponent>;
+describe('TFTGameComponent', () => {
+  let component: TFTGameComponent;
+  let fixture: ComponentFixture<TFTGameComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TFTComponent]
+      imports: [TFTGameComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TFTComponent);
+    fixture = TestBed.createComponent(TFTGameComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

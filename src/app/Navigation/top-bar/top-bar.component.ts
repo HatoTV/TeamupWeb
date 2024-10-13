@@ -116,7 +116,7 @@ export class TopBarComponent {
       this.renderer.addClass(mainElement, 'tftcolor');
       this.renderer.addClass(navElement, 'tftcolor');
       if(hamburgerElement){
-        this.renderer.addClass(hamburgerElement, 'blockdisplay');
+        this.renderer.addClass(hamburgerElement, 'nonedisplay');
       }
     }
   }

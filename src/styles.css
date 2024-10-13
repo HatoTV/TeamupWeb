@@ -45,7 +45,9 @@
 
     --tft-bkg-gradient-1: #761740;
     --tft-bkg-gradient-2: rgb(52, 9, 40);
-    --tft-topbar:rgb(68, 21, 41);
+    --tft-topbar:rgb(83,29,52);
+    --tft-scrollbar:rgba(240, 86, 127, 0.4);
+    --tft-scrollbar-hover:rgba(255, 137, 164, 0.6);
   }
 
   html, body {
@@ -88,25 +90,35 @@
     scrollbar-color: var(--home-scrollbar) transparent; /* Couleur pour Firefox */
   }
   
+  .scrollbar-tft {
+    scrollbar-width: thin; /* Pour Firefox */
+    scrollbar-color: var(--tft-scrollbar) transparent; /* Couleur pour Firefox */
+  }
   
   /* Pour les navigateurs WebKit comme Chrome, Edge, et Safari */
-  .scrollbar-lol::-webkit-scrollbar, .scrollbar-rl::-webkit-scrollbar {
+  .scrollbar-lol::-webkit-scrollbar, .scrollbar-rl::-webkit-scrollbar, .scrollbar-tft::-webkit-scrollbar {
     width: 8px; /* Largeur de la scrollbar */
   }
   
-  .scrollbar-lol::-webkit-scrollbar-track,.scrollbar-rl::-webkit-scrollbar-track {
+  .scrollbar-lol::-webkit-scrollbar-track,.scrollbar-rl::-webkit-scrollbar-track,.scrollbar-tft::-webkit-scrollbar-track {
     background: transparent; /* Arrière-plan transparent */
   }
   
-  .scrollbar-lol::-webkit-scrollbar-thumb, .scrollbar-rl::-webkit-scrollbar-thumb {
+  .scrollbar-lol::-webkit-scrollbar-thumb, .scrollbar-rl::-webkit-scrollbar-thumb, .scrollbar-tft::-webkit-scrollbar-thumb {
     background-color: rgba(255,255,255,0.4); /* Couleur du "pouce" */
     border-radius: 10px; /* Bord arrondi */
     border: 2px solid transparent; /* Espacement autour du "pouce" */
   }
-  .scrollbar-lol::-webkit-scrollbar-thumb:hover,.scrollbar-rl::-webkit-scrollbar-thumb:hover {
+  .scrollbar-lol::-webkit-scrollbar-thumb:hover {
     background-color:  var(--lol-scrollbar-hover); /* Couleur plus foncée au survol */
   }
-  .scrollbar-lol::-webkit-scrollbar-button,.scrollbar-rl::-webkit-scrollbar-button {
+ .scrollbar-rl::-webkit-scrollbar-thumb:hover {
+    background-color:  var(--rl-scrollbar-hover); /* Couleur plus foncée au survol */
+  }
+  .scrollbar-tft::-webkit-scrollbar-thumb:hover {
+     background-color:  var(--tft-scrollbar-hover); /* Couleur plus foncée au survol */
+   }
+  .scrollbar-lol::-webkit-scrollbar-button,.scrollbar-rl::-webkit-scrollbar-button,.scrollbar-tft::-webkit-scrollbar-button {
     display: none; /* Masquer les boutons de la scrollbar */
   }
 

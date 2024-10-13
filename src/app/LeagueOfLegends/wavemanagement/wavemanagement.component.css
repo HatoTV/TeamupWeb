@@ -54,6 +54,7 @@ h3{
     font-size: clamp(2rem, 2vw + 1rem, 3rem);
     text-transform: uppercase;
     padding-top: 60px;
+    color: rgb(253 254 165);;
 }
 
 
@@ -89,6 +90,7 @@ h6{
     position: relative;    
     background-color: rgba(0, 0, 0, 0.2);
     padding: 50px;
+    padding-top: 120px;
 }
 
 .divContentEmpty{
@@ -103,7 +105,7 @@ h6{
 
 .divider {
     border: none;
-    border-bottom: 1px solid white; /* Couleur et épaisseur du trait */
+    border-bottom: 1px solid rgb(253 254 165);; /* Couleur et épaisseur du trait */
     width: 100%; /* Largeur du trait */
     margin: 10px auto; /* Centre le trait horizontalement */
     opacity: 1 !important;

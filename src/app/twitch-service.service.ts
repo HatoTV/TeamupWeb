@@ -32,7 +32,7 @@ export class TwitchService {
         let streamUrl = '';
         let streamTitle = '';
         if (isLive) {
-          streamUrl = `https://player.twitch.tv/?channel=${this.username}&parent=localhost&parent=teamupp.app`; // Remplacez par l'URL du stream
+          streamUrl = `https://player.twitch.tv/?channel=${this.username}&parent=teamupp.app`; // Remplacez par l'URL du stream
           streamTitle = response.data[0].title; // Titre du stream
         }
         return { isLive, streamUrl, streamTitle };

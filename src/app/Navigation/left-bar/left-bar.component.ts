@@ -30,82 +30,7 @@ export class LeftBarComponent {
     fragments: string[];
     isOpen: boolean;
     url: string;
-  }> = [
-    {
-      logoUrl: 'assets/img/icons/people.png',
-      title: 'LOL.GAME.GAME',
-      subtitles: [
-        'LOL.GAME.TITLE1',
-        'LOL.GAME.TITLE2',
-        // 'LOL.GAME.TITLE3',
-        // 'LOL.GAME.TITLE4'
-      ],
-      fragments: [
-        'Stats',
-        'Buffs'
-      ],
-      url: '/lol/game',
-      isOpen: true,
-    },
-    {
-      logoUrl: 'assets/img/icons/Journey.png',
-      title: 'Laning',
-      subtitles: [
-        'LOL.LEFTBAR.INTRODUCTION',
-        'LOL.LANING.TITLE2',
-        'LOL.LANING.TITLE3',
-        'LOL.LANING.TITLE6',
-        'LOL.LANING.TITLE9',
-      ],
-      fragments: [
-        'Introduction',
-        'LastHit',
-        'Trading',
-        'Bait',
-        'Roaming'
-      ],
-      url: '/lol/laning',
-      isOpen: true,
-    },
-    {
-      logoUrl: 'assets/img/icons/Money Bag.png',
-      title: 'Wave management',
-      subtitles: [
-        'LOL.LEFTBAR.FONDAMENTALS',
-        'LOL.WAVEMANAGEMENT.TITLE5',
-        'LOL.WAVEMANAGEMENT.TITLE9',
-        'LOL.WAVEMANAGEMENT.TITLE12',
-      ],
-      url: '/lol/wavemanagement',
-      isOpen: true,
-      fragments: [
-        'Fondamentals',
-        'Freeze',
-        'SlowPush',
-        'FastPush'
-      ],
-    },
-    {
-      logoUrl: 'assets/img/icons/Forest.png',
-      title: 'Jungle',
-      subtitles: [
-        'LOL.LEFTBAR.FONDAMENTALS',
-        'LOL.JUNGLE.TITLE2',
-        'LOL.JUNGLE.TITLE4',
-        'LOL.JUNGLE.TITLE6',
-        'LOL.JUNGLE.TITLE8',
-      ],
-      url: '/lol/jungle',
-      isOpen: true,
-      fragments: [
-        'Introduction',
-        'Pathing',
-        'Objectives',
-        'Ganks',
-        'Tips'
-      ],
-    },
-  ];
+  }> = []
   // {
   //   logoUrl: 'assets/img/icons/Computer Mouse.png',
   //   title: 'LOL.LEFTBAR.MECANICS',
@@ -162,6 +87,11 @@ export class LeftBarComponent {
           logoUrl: 'assets/img/icons/Battle.png',
           title: 'Matchups',
           url: '/lol/matchups',
+        },
+        {
+          logoUrl: 'assets/img/icons/peoplealone.png',
+          title: 'Picker',
+          url: '/lol/picker',
         },
       ]
       this.itemsPart2=[

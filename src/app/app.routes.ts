@@ -7,6 +7,7 @@ import { GuidesComponent } from './LeagueOfLegends/guides/guides.component';
 import { JungleComponent } from './LeagueOfLegends/jungle/jungle.component';
 import { LaningComponent } from './LeagueOfLegends/laning/laning.component';
 import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
+import { PickerComponent } from './LeagueOfLegends/picker/picker.component';
 import { WavemanagementComponent } from './LeagueOfLegends/wavemanagement/wavemanagement.component';
 import { MecanicsComponent } from './RocketLeague/mecanics/mecanics.component';
 import { TFTGameComponent } from './tftgame/tftgame.component';
@@ -21,6 +22,7 @@ export const routes: Routes = [
   { path: ':lang/lol/wavemanagement', component: WavemanagementComponent },
   { path: ':lang/lol/jungle', component: JungleComponent },
   { path: ':lang/lol/game', component: GameComponent },
+  { path: ':lang/lol/picker', component: PickerComponent },
   { path: ':lang/rocket/mecanics', component: MecanicsComponent },
   { path: ':lang/contact', component: ContactComponent },
   { path: ':lang/home', component: HomeComponent },

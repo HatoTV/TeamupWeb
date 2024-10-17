@@ -58,39 +58,37 @@ export class PickerComponent {
   }
 
   ngOnInit() {
+    this.difficulties = [
+      {
+        name: this.getTranslatedName(
+          'LOL.PICKER.DIFFICULTIES.nofilterdifficulty'
+        ),
+        id: 0,
+        selected: false,
+      }, // Placeholder
+      {
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy'),
+        id: 1,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average'),
+        id: 2,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard'),
+        id: 3,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe'),
+        id: 4,
+        selected: false,
+      },
+    ];
 
     try {
-    this.translate.use(this.translate.currentLang).subscribe(() => {
-      this.difficulties = [
-        {
-          name: this.getTranslatedName(
-            'LOL.PICKER.DIFFICULTIES.nofilterdifficulty'
-          ),
-          id: 0,
-          selected: false,
-        }, // Placeholder
-        {
-          name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy'),
-          id: 1,
-          selected: false,
-        },
-        {
-          name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average'),
-          id: 2,
-          selected: false,
-        },
-        {
-          name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard'),
-          id: 3,
-          selected: false,
-        },
-        {
-          name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe'),
-          id: 4,
-          selected: false,
-        },
-      ];
-      
       this.selectedDifficulty = {
         name: this.translate.instant('RL.MECANICS.DIFFICULTY'),
         id: 0,
@@ -117,7 +115,6 @@ export class PickerComponent {
       this.filteredChampions = [...this.champions];
       this.filterChampions();
         });
-    });
     } catch (error) {
       console.log(error);
     }

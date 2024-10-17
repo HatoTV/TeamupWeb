@@ -2,6 +2,7 @@
   "version": 2,
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api" },
+    { "source": "/assets/i18n/(.*)", "destination": "/public/assets/i18n/$1" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }

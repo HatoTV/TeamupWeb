@@ -79,9 +79,13 @@
                       )
                     }"
                   ></div>
-                  <span class="difficultyChamp">{{
-                    selectedDifficulty.name
-                  }}</span>
+                  <span
+                    class="difficultyChamp"
+                    [ngStyle]="{
+                      color: getBorderColor(selectedDifficulty.name)
+                    }"
+                    >{{ selectedDifficulty.name }}</span
+                  >
                 </div>
               </ng-container>
 
@@ -101,7 +105,13 @@
                       'background-color': getBorderColor(difficulty.name)
                     }"
                   ></div>
-                  <span class="difficultyChamp">{{ difficulty.name }}</span>
+                  <span
+                    class="difficultyChamp"
+                    [ngStyle]="{
+                      color: getBorderColor(difficulty.name)
+                    }"
+                    >{{ difficulty.name }}</span
+                  >
                 </div>
               </label>
             </div>

@@ -60,7 +60,9 @@ export class PickerComponent {
   ngOnInit() {
     this.difficulties = [
       {
-        name: this.translate.instant('RL.MECANICS.DIFFICULTY'),
+        name: this.translate.instant(
+          'LOL.PICKER.DIFFICULTIES.nofilterdifficulty'
+        ),
         id: 0,
         selected: false,
       }, // Placeholder
@@ -231,7 +233,7 @@ export class PickerComponent {
     ) {
       return '#ff6767';
     }
-    return 'gray'; // Couleur par défaut si la valeur ne correspond à aucun cas
+    return 'rgba(255, 255, 255, 0.6)'; // Couleur par défaut si la valeur ne correspond à aucun cas
   }
   @HostListener('document:click', ['$event'])
   handleClickOutside(event: MouseEvent) {

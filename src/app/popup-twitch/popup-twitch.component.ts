@@ -13,7 +13,7 @@ export class PopupTwitchComponent {
   isVisible = false;
   @Input() streamUrl: string = '';
   @Input() streamTitle: string = '';
-  safeStreamUrl: SafeResourceUrl = '';
+  safeStreamUrl!: SafeResourceUrl;
   profileImageUrl = 'assets/img/HatoPP_circular.png'; // Remplacez par l'URL de votre image de profil
 
   constructor(private sanitizer: DomSanitizer) {}

@@ -24,14 +24,7 @@ export class PickerComponent {
     private elementRef: ElementRef,
     private http: HttpClient,
     private translate: TranslateService
-  ) {
-    this.translate.use(this.translate.currentLang).subscribe(() => {
-      this.translationsLoaded = true; // Mettre à jour l'état une fois que les traductions sont chargées
-      this.loadDifficulties()
-    });
-  }
-  
-  translationsLoaded: boolean = false; // Variable pour suivre le chargement des traductions
+  ) {}
   champions: {
     name: string;
     icon: string;
@@ -63,71 +56,71 @@ export class PickerComponent {
     body.style.background =
       'linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))';
   }
-  loadDifficulties() {
-    // Initialiser la liste des difficultés
-    this.difficulties = [
-      {
-        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.nofilterdifficulty'),
-        id: 0,
-        selected: false,
-      },
-      {
-        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy'),
-        id: 1,
-        selected: false,
-      },
-      {
-        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average'),
-        id: 2,
-        selected: false,
-      },
-      {
-        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard'),
-        id: 3,
-        selected: false,
-      },
-      {
-        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe'),
-        id: 4,
-        selected: false,
-      },
-    ];
-  }
+
   ngOnInit() {
-    this.waitForTranslations().then(() => {
-      try {
-    
-        this.selectedDifficulty = {
-          name: this.translate.instant('RL.MECANICS.DIFFICULTY'),
+
+    try {
+    this.translate.use(this.translate.currentLang).subscribe(() => {
+      this.difficulties = [
+        {
+          name: this.getTranslatedName(
+            'LOL.PICKER.DIFFICULTIES.nofilterdifficulty'
+          ),
           id: 0,
           selected: false,
-        };
-        this.http
-          .get<any[]>('assets/jsonChampionsDatas/AllChampions.json')
-          .subscribe((data) => {
-            this.champions = data
-              .map((item) => ({
-                name: item.championName.trim(),
-                icon: item.spellingForUrl.trim().toLowerCase(),
-                difficulty: this.getTranslatedName(
-                  'LOL.PICKER.DIFFICULTIES.' + item.difficulty.toLowerCase()
-                ),
-                isTop: item.isTop,
-                isMid: item.isMid,
-                isAdc: item.isAdc,
-                isSupport: item.isSupport,
-                isJungle: item.isJungle,
-              }))
-              .sort((a, b) => a.name.localeCompare(b.name));
-              this.champions = this.removeDuplicatesByName(this.champions);
-              this.filteredChampions = [...this.champions];
-              this.filterChampions();
-          });
-      } catch (error) {
-        console.log(error);
-      }
-    });  
-    
+        }, // Placeholder
+        {
+          name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy'),
+          id: 1,
+          selected: false,
+        },
+        {
+          name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average'),
+          id: 2,
+          selected: false,
+        },
+        {
+          name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard'),
+          id: 3,
+          selected: false,
+        },
+        {
+          name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe'),
+          id: 4,
+          selected: false,
+        },
+      ];
+      
+      this.selectedDifficulty = {
+        name: this.translate.instant('RL.MECANICS.DIFFICULTY'),
+        id: 0,
+        selected: false,
+      };
+      this.http
+        .get<any[]>('assets/jsonChampionsDatas/AllChampions.json')
+        .subscribe((data) => {
+          this.champions = data
+            .map((item) => ({
+              name: item.championName.trim(),
+              icon: item.spellingForUrl.trim().toLowerCase(),
+              difficulty: this.getTranslatedName(
+                'LOL.PICKER.DIFFICULTIES.' + item.difficulty.toLowerCase()
+              ),
+              isTop: item.isTop,
+              isMid: item.isMid,
+              isAdc: item.isAdc,
+              isSupport: item.isSupport,
+              isJungle: item.isJungle,
+            }))
+            .sort((a, b) => a.name.localeCompare(b.name));
+      this.champions = this.removeDuplicatesByName(this.champions);
+      this.filteredChampions = [...this.champions];
+      this.filterChampions();
+        });
+    });
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   removeDuplicatesByName(tableau: any[]) {
@@ -307,19 +300,5 @@ export class PickerComponent {
 
     // Lancer la première itération
     rollChampions();
-  }
-
-
-  waitForTranslations(): Promise<void> {
-    return new Promise((resolve) => {
-      const checkTranslations = () => {
-        if (this.translationsLoaded) {
-          resolve(); // Résoudre la promesse si les traductions sont chargées
-        } else {
-          setTimeout(checkTranslations, 100); // Vérifier à nouveau après 100 ms
-        }
-      };
-      checkTranslations(); // Appel initial
-    });
   }
 }

@@ -256,6 +256,17 @@
       "CONTENT7": "Tuer l'Hérault fait tomber l’Œil du Héraut à l’entrée du puits pendant 20 secondes. Il peut être ramassé par un membre de l'équipe et est utilisé pour le ré-invoquer. Une fois invoqué, il peut être utiliser pour avancer sur la lane. Proche d'une tour il se met à charger puis à dasher contre la tour pour lui infliger énormément de dégâts. Il est aussi possible de chauvaucher l'Hérault pour charger directement vers une direction.<br><br>L'Heralt n'apparaît qu'une seule fois par partie et disparaît définitivement à 19:45, ou à 19:55 s'il est en combat. Le Baron Nashor apparaît à sa place à 20:00.",
       "SUBTITLE8": "Larves du Néant",
       "CONTENT8": "Tuer une Larve du Néant accorde de l’or et de l’expérience à l’ensemble des membres de l’équipe, ainsi que le buff 'Toucher du Néant'. 'Toucher du Néant' inflige des dégâts supplémentaires sur la durée aux structures, et pour chaque pile au-delà de la quatrième, les membres de l’équipe reçoivent également le buff Faim du Néant, qui invoquera des Vermines du Néant alliées pour aider à détruire les tourelles ennemies.<br><br>Le camp de Larves du Néant se compose d’un groupe de 3 Larves du Néant. Il peut y avoir au maximum deux groupes de spawn dans une partie donnée. Le camp disparaît définitivement à 13:45, ou à 13:55 s’il est en combat. Un deuxième groupe de Larves du Néant n’apparaîtra que si le premier a été éliminé avant 9:45. Le Rift Herald apparaît à la même position à 14:00."
+    },    
+    "PICKER":{
+      "TITLE0" : "Sélecteur de Champions",
+      "SUBTITLE0" : "Explorez la liste et sélectionnez votre champion idéal !",
+      "PICKCHAMPION": "Choisir un Champion aléatoire (avec filtres)",
+      "DIFFICULTIES": {
+        "easy": "Facile",
+        "average": "Intermédiaire",
+        "hard": "Difficile",
+        "severe": "Extrême"
+      }
     }
   },
   "RL": {
@@ -366,14 +377,6 @@
       "CONTENT3": "<bold>Top 4 = Victoire :</bold> Ne vous attendez pas à faire top 1 à chaque partie, et considérez le top 4 comme une victoire, la clé est la constance.",
       "CONTENT4": "<bold>Soyez flexible:</bold> Ne bloquez pas votre esprit sur une seule composition ou un seul champion précis. Si vous êtes au dessus-d'un palier d'intérêts, n'hésitez pas à acheter des champions même s'ils ne sont pas utiles dans votre composition. Cela ne vous coutera aucun gold et peut vous permettre de transitionner vers une autre composition avec beaucoup plus de facilité. Un très bon joueur verra des transitions qu'un joueur plus débutant de verra pas, c'est comme ça que l'on améliore efficacement son équipe.",
       "CONTENT5": "<bold>Régulez les taux :</bold> Pour influer très légèrement sur les taux d'apparition d'un champion précis, vous pouvez acheter les autres champions de même rareté lorsque vous cherchez un champion en particulier."
-    }
-  },
-  "PICKER":{
-    "DIFFICULTIES": {
-      "easy": "Facile",
-      "average": "Intermédiaire",
-      "hard": "Difficile",
-      "severe": "Extrême"
     }
   }
 }

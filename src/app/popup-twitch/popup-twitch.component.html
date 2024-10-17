@@ -1,18 +1,30 @@
-<div class="popup"  [ngClass]="{'show': isVisible}" (click)="closePopup()">
+<div class="popup" [ngClass]="{ show: isVisible }" (click)="closePopup()">
   <div class="popup-content" (click)="$event.stopPropagation()">
     <div class="divContent">
-      <iframe [src]="safeStreamUrl" height="200" width="300" allowfullscreen="true" class="stream-preview"></iframe>
+      <iframe
+        [src]="safeStreamUrl"
+        height="200"
+        width="300"
+        allowfullscreen="true"
+        class="stream-preview"
+      ></iframe>
       <div class="contentRight">
-        <div class="divTitle">          
+        <div class="divTitle">
           <img [src]="profileImageUrl" alt="Profil" class="profile-img" />
           <div>
-            <h3 style="text-align: left;">Hato_TV</h3>
-            <h2>Je suis en live sur Twitch ! 🔴 </h2>
+            <h3 style="text-align: left">Hato_TV</h3>
+            <h2>Je suis en live sur Twitch ! 🔴</h2>
           </div>
         </div>
         <div>
           <button (click)="closePopup()" class="close-button">Fermer</button>
-          <a href="https://www.twitch.tv/Hato_TV" target="_blank" class="btnJoinLive" (click)="closePopup()">Rejoindre le live</a>
+          <a
+            href="https://www.twitch.tv/Hato_TV"
+            target="_blank"
+            class="btnJoinLive"
+            (click)="closePopup()"
+            >Rejoindre le live</a
+          >
         </div>
       </div>
     </div>

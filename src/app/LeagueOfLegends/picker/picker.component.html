@@ -1,7 +1,14 @@
 <div class="content scrollbar-lol" #scrollContainer>
   <div class="bkgContent"></div>
   <img class="imgBkg" src="assets/img/bkgpicker.jpg" />
+  <div class="title">
+    <h1 class="paddingTextMobile">
+      {{ "LOL.PICKER.TITLE0" | translate }}
+    </h1>
+    <h2 class="paddingTextMobile">{{ "LOL.PICKER.SUBTITLE0" | translate }}</h2>
+  </div>
 
+  <div class="divContentEmpty"></div>
   <div class="divContent" style="z-index: 100; position: relative">
     <div class="divSearchAndFilter">
       <div class="divSearch">
@@ -102,6 +109,40 @@
         </div>
       </div>
     </div>
+    <div>
+      <button (click)="startRandomSelection()" class="btnRandomChampion">
+        {{ "LOL.PICKER.PICKCHAMPION" | translate }}
+      </button>
+      <div
+        class="divChampionSelected"
+        [ngClass]="{ hidden: !selectedChampion }"
+      >
+        <div *ngIf="selectedChampion" class="championSelected">
+          <img
+            [src]="
+              'assets/img/championsIcons/' + selectedChampion.icon + '.png'
+            "
+            alt="{{ selectedChampion.name }}"
+            class="imgChamp"
+            [ngStyle]="{
+              'border-color': getBorderColor(selectedChampion.difficulty)
+            }"
+          />
+          <span class="nameChamp">{{ selectedChampion.name }}</span>
+          <div class="divDifficulty">
+            <div
+              class="smallCircle"
+              [ngStyle]="{
+                'background-color': getBorderColor(selectedChampion.difficulty)
+              }"
+            ></div>
+            <span class="difficultyChamp">{{
+              selectedChampion.difficulty
+            }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="divListChampions">
       <div *ngFor="let champion of filteredChampions" class="champion">
         <img
@@ -124,5 +165,6 @@
         </div>
       </div>
     </div>
+    <br /><br />
   </div>
 </div>

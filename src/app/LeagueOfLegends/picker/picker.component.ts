@@ -65,22 +65,22 @@ export class PickerComponent {
         selected: false,
       }, // Placeholder
       {
-        name: this.getTranslatedName('PICKER.DIFFICULTIES.easy'),
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy'),
         id: 1,
         selected: false,
       },
       {
-        name: this.getTranslatedName('PICKER.DIFFICULTIES.average'),
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average'),
         id: 2,
         selected: false,
       },
       {
-        name: this.getTranslatedName('PICKER.DIFFICULTIES.hard'),
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard'),
         id: 3,
         selected: false,
       },
       {
-        name: this.getTranslatedName('PICKER.DIFFICULTIES.severe'),
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe'),
         id: 4,
         selected: false,
       },
@@ -100,7 +100,7 @@ export class PickerComponent {
               name: item.championName.trim(),
               icon: item.spellingForUrl.trim().toLowerCase(),
               difficulty: this.getTranslatedName(
-                'PICKER.DIFFICULTIES.' + item.difficulty.toLowerCase()
+                'LOL.PICKER.DIFFICULTIES.' + item.difficulty.toLowerCase()
               ),
               isTop: item.isTop,
               isMid: item.isMid,
@@ -112,6 +112,7 @@ export class PickerComponent {
         });
       this.champions = this.removeDuplicatesByName(this.champions);
       this.filteredChampions = [...this.champions];
+      this.filterChampions();
     } catch (error) {
       console.log(error);
     }
@@ -143,9 +144,14 @@ export class PickerComponent {
     >();
 
     this.champions.forEach((champion) => {
-      const matchesSearchTerm = champion.name
-        .toLowerCase()
-        .includes(searchTermLower);
+      let matchesSearchTerm = false;
+      if (searchTermLower == '') {
+        matchesSearchTerm = true;
+      } else {
+        matchesSearchTerm = champion.name
+          .toLowerCase()
+          .includes(searchTermLower);
+      }
       let matchesDifficulty = false;
       if (!this.selectedDifficulty || this.selectedDifficulty.id === 0) {
         matchesDifficulty = true;
@@ -206,22 +212,22 @@ export class PickerComponent {
     // Change la couleur selon la difficulté
     if (
       difficulty.toLowerCase() ===
-      this.getTranslatedName('PICKER.DIFFICULTIES.easy').toLowerCase()
+      this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy').toLowerCase()
     ) {
       return '#8eff57';
     } else if (
       difficulty.toLowerCase() ===
-      this.getTranslatedName('PICKER.DIFFICULTIES.average').toLowerCase()
+      this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average').toLowerCase()
     ) {
       return '#57fcff';
     } else if (
       difficulty.toLowerCase() ===
-      this.getTranslatedName('PICKER.DIFFICULTIES.hard').toLowerCase()
+      this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard').toLowerCase()
     ) {
       return '#ffa64c';
     } else if (
       difficulty.toLowerCase() ===
-      this.getTranslatedName('PICKER.DIFFICULTIES.severe').toLowerCase()
+      this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe').toLowerCase()
     ) {
       return '#ff6767';
     }
@@ -245,5 +251,49 @@ export class PickerComponent {
       this.selectedRole = '';
     }
     this.filterChampions();
+  }
+
+  selectedChampion: any = null;
+  currentChampionIndex: number = 0;
+  timeoutId: any = null;
+
+  startRandomSelection() {
+    const totalDuration = 2000; // Durée totale de l'animation (5 secondes)
+    let currentTime = 0; // Temps écoulé
+    let interval = 50; // Intervalle initial en millisecondes
+    const slowdownFactor = 1.1; // Facteur d'augmentation de l'intervalle
+
+    const rollChampions = () => {
+      // Sélectionner un champion aléatoire
+      this.currentChampionIndex = Math.floor(
+        Math.random() * this.filteredChampions.length
+      );
+      this.selectedChampion = this.filteredChampions[this.currentChampionIndex];
+
+      // Augmenter l'intervalle pour ralentir l'animation
+      interval *= slowdownFactor;
+      // Limiter l'intervalle à une valeur maximale pour éviter qu'il ne devienne trop lent
+      if (interval > 200) {
+        // Par exemple, ne pas dépasser 300ms
+        interval = 200;
+      }
+
+      currentTime += interval;
+
+      // Vérifier si le temps total est atteint
+      if (currentTime < totalDuration) {
+        // Continuer le roulement avec un intervalle plus long
+        this.timeoutId = setTimeout(rollChampions, interval);
+      } else {
+        // Arrêter l'animation après 5 secondes
+        clearTimeout(this.timeoutId);
+        // Optionnel : Sélectionner un champion final
+        this.selectedChampion =
+          this.filteredChampions[this.currentChampionIndex];
+      }
+    };
+
+    // Lancer la première itération
+    rollChampions();
   }
 }

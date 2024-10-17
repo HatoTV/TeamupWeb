@@ -58,42 +58,76 @@ export class PickerComponent {
   }
 
   ngOnInit() {
-    this.difficulties = [
-      {
-        name: this.getTranslatedName(
-          'LOL.PICKER.DIFFICULTIES.nofilterdifficulty'
-        ),
-        id: 0,
-        selected: false,
-      }, // Placeholder
-      {
-        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy'),
-        id: 1,
-        selected: false,
-      },
-      {
-        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average'),
-        id: 2,
-        selected: false,
-      },
-      {
-        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard'),
-        id: 3,
-        selected: false,
-      },
-      {
-        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe'),
-        id: 4,
-        selected: false,
-      },
-    ];
-
-    try {
+    if(this.translate.currentLang=='fr'){
+      this.difficulties = [
+        {
+          name: "⌀",
+          id: 0,
+          selected: false,
+        }, // Placeholder
+        {
+          name: "Facile",
+          id: 1,
+          selected: false,
+        },
+        {
+          name: "Intermédiaire",
+          id: 2,
+          selected: false,
+        },
+        {
+          name: "Difficile",
+          id: 3,
+          selected: false,
+        },
+        {
+          name: "Extrême",
+          id: 4,
+          selected: false,
+        },
+      ];
       this.selectedDifficulty = {
-        name: this.translate.instant('RL.MECANICS.DIFFICULTY'),
+        name: "Difficulté",
         id: 0,
         selected: false,
       };
+    }
+    else{
+      this.selectedDifficulty = {
+        name: "Difficulty",
+        id: 0,
+        selected: false,
+      };
+      this.difficulties = [
+        {
+          name: "⌀",
+          id: 0,
+          selected: false,
+        }, // Placeholder
+        {
+          name: "Easy",
+          id: 1,
+          selected: false,
+        },
+        {
+          name: "Average",
+          id: 2,
+          selected: false,
+        },
+        {
+          name: "Hard",
+          id: 3,
+          selected: false,
+        },
+        {
+          name: "Extreme",
+          id: 4,
+          selected: false,
+        },
+      ];
+    }
+
+    try {
       this.http
         .get<any[]>('assets/jsonChampionsDatas/AllChampions.json')
         .subscribe((data) => {

@@ -27,8 +27,11 @@ export class PickerComponent {
   ) {
     this.translate.use(this.translate.currentLang).subscribe(() => {
       this.translationsLoaded = true; // Mettre à jour l'état une fois que les traductions sont chargées
+      this.loadDifficulties()
     });
   }
+  
+  translationsLoaded: boolean = false; // Variable pour suivre le chargement des traductions
   champions: {
     name: string;
     icon: string;
@@ -60,39 +63,39 @@ export class PickerComponent {
     body.style.background =
       'linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))';
   }
-
+  loadDifficulties() {
+    // Initialiser la liste des difficultés
+    this.difficulties = [
+      {
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.nofilterdifficulty'),
+        id: 0,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy'),
+        id: 1,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average'),
+        id: 2,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard'),
+        id: 3,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe'),
+        id: 4,
+        selected: false,
+      },
+    ];
+  }
   ngOnInit() {
     this.waitForTranslations().then(() => {
       try {
-        this.difficulties = [
-          {
-            name: this.translate.instant(
-              'LOL.PICKER.DIFFICULTIES.nofilterdifficulty'
-            ),
-            id: 0,
-            selected: false,
-          }, // Placeholder
-          {
-            name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy'),
-            id: 1,
-            selected: false,
-          },
-          {
-            name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average'),
-            id: 2,
-            selected: false,
-          },
-          {
-            name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard'),
-            id: 3,
-            selected: false,
-          },
-          {
-            name: this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe'),
-            id: 4,
-            selected: false,
-          },
-        ];
     
         this.selectedDifficulty = {
           name: this.translate.instant('RL.MECANICS.DIFFICULTY'),
@@ -306,7 +309,6 @@ export class PickerComponent {
     rollChampions();
   }
 
-  translationsLoaded: boolean = false; // Variable pour suivre le chargement des traductions
 
   waitForTranslations(): Promise<void> {
     return new Promise((resolve) => {

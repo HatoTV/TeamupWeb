@@ -111,10 +111,9 @@ export class PickerComponent {
               isJungle: item.isJungle,
             }))
             .sort((a, b) => a.name.localeCompare(b.name));
+            this.champions = this.removeDuplicatesByName(this.champions);
+            this.filteredChampions = [...this.champions];
         });
-      this.champions = this.removeDuplicatesByName(this.champions);
-      this.filteredChampions = [...this.champions];
-      this.filterChampions();
     } catch (error) {
       console.log(error);
     }
@@ -189,10 +188,6 @@ export class PickerComponent {
     } else {
       this.filteredChampions = [...this.champions];
     }
-    console.log("this.selectedDifficulty ", this.selectedDifficulty)
-    console.log("this.searchTerm ", this.searchTerm)
-    console.log("this.selectedRole ", this.selectedRole)
-    console.log("this.champions ", this.champions)
   }
 
   isOpen = false; // pour gérer l'affichage de la dropdown

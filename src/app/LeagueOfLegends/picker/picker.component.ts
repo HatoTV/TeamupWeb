@@ -10,6 +10,7 @@ import {
 import { FormsModule } from '@angular/forms';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
+import { match } from 'assert';
 
 @Component({
   selector: 'app-picker',
@@ -47,6 +48,7 @@ export class PickerComponent {
   selectedDifficulty: { name: string; id: number; selected: boolean } | null =
     null;
   searchTerm: string = '';
+  selectedRole: string = '';
 
   ngAfterViewInit() {
     const document = this.elementRef.nativeElement.ownerDocument;
@@ -56,29 +58,40 @@ export class PickerComponent {
   }
 
   ngOnInit() {
+    this.difficulties = [
+      {
+        name: this.translate.instant('RL.MECANICS.DIFFICULTY'),
+        id: 0,
+        selected: false,
+      }, // Placeholder
+      {
+        name: this.getTranslatedName('PICKER.DIFFICULTIES.easy'),
+        id: 1,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('PICKER.DIFFICULTIES.average'),
+        id: 2,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('PICKER.DIFFICULTIES.hard'),
+        id: 3,
+        selected: false,
+      },
+      {
+        name: this.getTranslatedName('PICKER.DIFFICULTIES.severe'),
+        id: 4,
+        selected: false,
+      },
+    ];
+
     try {
-      this.difficulties = [
-        {
-          name: this.getTranslatedName('PICKER.DIFFICULTIES.easy'),
-          id: 1,
-          selected: false,
-        },
-        {
-          name: this.getTranslatedName('PICKER.DIFFICULTIES.average'),
-          id: 2,
-          selected: false,
-        },
-        {
-          name: this.getTranslatedName('PICKER.DIFFICULTIES.hard'),
-          id: 3,
-          selected: false,
-        },
-        {
-          name: this.getTranslatedName('PICKER.DIFFICULTIES.severe'),
-          id: 4,
-          selected: false,
-        },
-      ];
+      this.selectedDifficulty = {
+        name: this.translate.instant('RL.MECANICS.DIFFICULTY'),
+        id: 0,
+        selected: false,
+      };
       this.http
         .get<any[]>('assets/jsonChampionsDatas/AllChampions.json')
         .subscribe((data) => {
@@ -133,17 +146,37 @@ export class PickerComponent {
       const matchesSearchTerm = champion.name
         .toLowerCase()
         .includes(searchTermLower);
-      const matchesDifficulty =
-        this.selectedDifficulty &&
-        this.selectedDifficulty.name === champion.difficulty;
+      let matchesDifficulty = false;
+      if (!this.selectedDifficulty || this.selectedDifficulty.id === 0) {
+        matchesDifficulty = true;
+      } else {
+        matchesDifficulty =
+          this.selectedDifficulty.name === champion.difficulty;
+      }
+
+      let matchesRole = false;
+      if (this.selectedRole === '') {
+        matchesRole = true;
+      } else {
+        matchesRole =
+          (this.selectedRole === 'top' && champion.isTop) ||
+          (this.selectedRole === 'mid' && champion.isMid) ||
+          (this.selectedRole === 'jungle' && champion.isJungle) ||
+          (this.selectedRole === 'adc' && champion.isAdc) ||
+          (this.selectedRole === 'support' && champion.isSupport);
+      }
       // Ajoute à la Map uniquement si le champion correspond au terme de recherche et à la difficulté
-      if (matchesSearchTerm && matchesDifficulty) {
+      if (matchesSearchTerm && matchesDifficulty && matchesRole) {
         uniqueChampion.set(champion.name.toLowerCase(), champion);
       }
     });
 
     // Si le terme de recherche n'est pas vide, utilise les valeurs uniques ; sinon, retourne tous les champions
-    if (this.selectedDifficulty || this.searchTerm !== '') {
+    if (
+      this.selectedDifficulty ||
+      this.searchTerm !== '' ||
+      this.selectedRole !== ''
+    ) {
       this.filteredChampions = Array.from(uniqueChampion.values());
     } else {
       this.filteredChampions = [...this.champions];
@@ -164,7 +197,7 @@ export class PickerComponent {
 
     // Sélectionnez la nouvelle option
     difficulty.selected = true;
-    this.selectedDifficulty = difficulty;
+    this.selectedDifficulty = difficulty; // Sélectionner la difficulté choisie
 
     this.filterChampions();
   }
@@ -203,5 +236,14 @@ export class PickerComponent {
   }
   getTranslatedName(nameKey: string): string {
     return this.translate.instant(nameKey); // Récupère la traduction immédiatement
+  }
+
+  SelectRole(role: string) {
+    if (this.selectedRole !== role) {
+      this.selectedRole = role;
+    } else {
+      this.selectedRole = '';
+    }
+    this.filterChampions();
   }
 }

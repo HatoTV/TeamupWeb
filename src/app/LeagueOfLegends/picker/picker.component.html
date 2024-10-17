@@ -16,19 +16,39 @@
         </span>
       </div>
       <div class="divRole">
-        <div class="roleTop">
+        <div
+          class="roleTop"
+          (click)="SelectRole('top')"
+          [ngClass]="{ roleSelected: selectedRole === 'top' }"
+        >
           <img src="assets/img/icons/top.png" class="imgRole" />
         </div>
-        <div class="roleMid">
+        <div
+          class="roleMid"
+          (click)="SelectRole('mid')"
+          [ngClass]="{ roleSelected: selectedRole === 'mid' }"
+        >
           <img src="assets/img/icons/mid.png" class="imgRole" />
         </div>
-        <div class="roleAdc">
+        <div
+          class="roleAdc"
+          (click)="SelectRole('adc')"
+          [ngClass]="{ roleSelected: selectedRole === 'adc' }"
+        >
           <img src="assets/img/icons/adc.png" class="imgRole" />
         </div>
-        <div class="roleSupport">
+        <div
+          class="roleSupport"
+          (click)="SelectRole('support')"
+          [ngClass]="{ roleSelected: selectedRole === 'support' }"
+        >
           <img src="assets/img/icons/support.png" class="imgRole" />
         </div>
-        <div class="roleJungle">
+        <div
+          class="roleJungle"
+          (click)="SelectRole('jungle')"
+          [ngClass]="{ roleSelected: selectedRole === 'jungle' }"
+        >
           <img src="assets/img/icons/jungle.png" class="imgRole" />
         </div>
       </div>
@@ -39,12 +59,13 @@
               class="btn btn-secondary dropdown-toggle btnDifficulties"
               type="button"
             >
-              <ng-container *ngIf="selectedDifficulty; else placeholder">
+              <ng-container *ngIf="selectedDifficulty">
                 <div
                   style="display: inline-flex; align-items: center; width: 90%"
                 >
                   <div
                     class="smallCircle"
+                    [ngClass]="{ hidden: selectedDifficulty.id === 0 }"
                     [ngStyle]="{
                       'background-color': getBorderColor(
                         selectedDifficulty.name
@@ -56,17 +77,7 @@
                   }}</span>
                 </div>
               </ng-container>
-              <ng-template #placeholder>
-                <div
-                  style="display: inline-flex; align-items: center; width: 90%"
-                >
-                  <span
-                    [innerHtml]="
-                      'RL.MECANICS.DIFFICULTY' | translate | safeHtml
-                    "
-                  ></span>
-                </div>
-              </ng-template>
+
               <!-- Ajout de la flèche manuellement -->
             </button>
             <div class="dropdown-menu" [class.show]="isOpen">
@@ -78,6 +89,7 @@
                 <div class="divDifficulty margin15">
                   <div
                     class="smallCircle"
+                    [ngClass]="{ hidden: difficulty.id === 0 }"
                     [ngStyle]="{
                       'background-color': getBorderColor(difficulty.name)
                     }"

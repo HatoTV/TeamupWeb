@@ -94,8 +94,6 @@ export class PickerComponent {
         id: 0,
         selected: false,
       };
-      this.searchTerm = ''
-      this.selectedRole = ''
       this.http
         .get<any[]>('assets/jsonChampionsDatas/AllChampions.json')
         .subscribe((data) => {

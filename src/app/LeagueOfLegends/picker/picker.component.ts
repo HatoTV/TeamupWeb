@@ -94,8 +94,6 @@ export class PickerComponent {
         id: 0,
         selected: false,
       };
-      this.searchTerm=''
-      this.selectedRole=''
       this.http
         .get<any[]>('assets/jsonChampionsDatas/AllChampions.json')
         .subscribe((data) => {
@@ -191,6 +189,7 @@ export class PickerComponent {
     } else {
       this.filteredChampions = [...this.champions];
     }
+    console.log(this.filteredChampions)
   }
 
   isOpen = false; // pour gérer l'affichage de la dropdown

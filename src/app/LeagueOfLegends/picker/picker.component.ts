@@ -189,7 +189,10 @@ export class PickerComponent {
     } else {
       this.filteredChampions = [...this.champions];
     }
-    console.log(this.filteredChampions)
+    console.log("this.selectedDifficulty ", this.selectedDifficulty)
+    console.log("this.searchTerm ", this.searchTerm)
+    console.log("this.selectedRole ", this.selectedRole)
+    console.log("this.champions ", this.champions)
   }
 
   isOpen = false; // pour gérer l'affichage de la dropdown

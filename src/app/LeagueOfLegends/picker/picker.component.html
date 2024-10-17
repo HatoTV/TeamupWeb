@@ -118,6 +118,33 @@
         [ngClass]="{ hidden: !selectedChampion }"
       >
         <div *ngIf="selectedChampion" class="championSelected">
+          <div class="divRoleOnChampion">
+            <img
+              src="assets/img/icons/top.png"
+              class="imgRoleOnChampion"
+              *ngIf="selectedChampion.isTop"
+            />
+            <img
+              src="assets/img/icons/mid.png"
+              class="imgRoleOnChampion"
+              *ngIf="selectedChampion.isMid"
+            />
+            <img
+              src="assets/img/icons/adc.png"
+              class="imgRoleOnChampion"
+              *ngIf="selectedChampion.isAdc"
+            />
+            <img
+              src="assets/img/icons/jungle.png"
+              class="imgRoleOnChampion"
+              *ngIf="selectedChampion.isJungle"
+            />
+            <img
+              src="assets/img/icons/support.png"
+              class="imgRoleOnChampion"
+              *ngIf="selectedChampion.isSupport"
+            />
+          </div>
           <img
             [src]="
               'assets/img/championsIcons/' + selectedChampion.icon + '.png'
@@ -136,15 +163,46 @@
                 'background-color': getBorderColor(selectedChampion.difficulty)
               }"
             ></div>
-            <span class="difficultyChamp">{{
-              selectedChampion.difficulty
-            }}</span>
+            <span
+              class="difficultyChamp"
+              [ngStyle]="{
+                color: getBorderColor(selectedChampion.difficulty)
+              }"
+              >{{ selectedChampion.difficulty }}</span
+            >
           </div>
         </div>
       </div>
     </div>
     <div class="divListChampions">
       <div *ngFor="let champion of filteredChampions" class="champion">
+        <div class="divRoleOnChampion">
+          <img
+            src="assets/img/icons/top.png"
+            class="imgRoleOnChampion"
+            *ngIf="champion.isTop"
+          />
+          <img
+            src="assets/img/icons/mid.png"
+            class="imgRoleOnChampion"
+            *ngIf="champion.isMid"
+          />
+          <img
+            src="assets/img/icons/adc.png"
+            class="imgRoleOnChampion"
+            *ngIf="champion.isAdc"
+          />
+          <img
+            src="assets/img/icons/jungle.png"
+            class="imgRoleOnChampion"
+            *ngIf="champion.isJungle"
+          />
+          <img
+            src="assets/img/icons/support.png"
+            class="imgRoleOnChampion"
+            *ngIf="champion.isSupport"
+          />
+        </div>
         <img
           [src]="'assets/img/championsIcons/' + champion.icon + '.png'"
           alt="{{ champion.name }}"
@@ -161,7 +219,13 @@
               'background-color': getBorderColor(champion.difficulty)
             }"
           ></div>
-          <span class="difficultyChamp">{{ champion.difficulty }}</span>
+          <span
+            class="difficultyChamp"
+            [ngStyle]="{
+              color: getBorderColor(champion.difficulty)
+            }"
+            >{{ champion.difficulty }}</span
+          >
         </div>
       </div>
     </div>

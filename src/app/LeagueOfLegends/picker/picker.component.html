@@ -1,72 +1,116 @@
 <div class="content scrollbar-lol" #scrollContainer>
-    <div class="bkgContent"></div>
-    <img class="imgBkg" src="assets/img/bkgpicker.jpg" />
+  <div class="bkgContent"></div>
+  <img class="imgBkg" src="assets/img/bkgpicker.jpg" />
 
-    <div class="divContent" style="z-index:100;position:relative">
-        <div class="divSearchAndFilter">
-            <div class="divSearch">
-                <input type="text" class="form-control inputSearch" [(ngModel)]="searchTerm"
-                    (input)="filterChampions()" />
-                <span class="search-icon">
-                    <i class="fa fa-search"></i>
-                </span>
-            </div>
-            <div class="divRole">
-                <div class="roleTop">
-                    <img src="assets/img/icons/top.png" class="imgRole" />
-                </div>
-                <div class="roleMid">
-                    <img src="assets/img/icons/mid.png" class="imgRole" />
-                </div>
-                <div class="roleAdc">
-                    <img src="assets/img/icons/adc.png" class="imgRole" />
-                </div>
-                <div class="roleSupport">
-                    <img src="assets/img/icons/support.png" class="imgRole" />
-                </div>
-                <div class="roleJungle">
-                    <img src="assets/img/icons/jungle.png" class="imgRole" />
-                </div>
-            </div>
-            <div>
-                <div class="dropdown" (click)="toggleDropdown()">
-                    <button class="btn btn-secondary dropdown-toggle btnDifficulties" type="button">
-                      Sélectionner des options
-                    </button>
-                    <div class="dropdown-menu" [class.show]="isOpen">
-                      <label class="dropdown-item" *ngFor="let difficulty of difficulties; let i = index">
-                        <input 
-                          type="checkbox" 
-                          [checked]="difficulty.selected" 
-                          (change)="onSelect(difficulty, $event)" 
-                        >
-                        <div class="divDifficulty margin15">
-                          <div 
-                            class="smallCircle" 
-                            [ngStyle]="{ 'background-color': getBorderColor(difficulty.name) }">
-                          </div>
-                          <span class="difficultyChamp">{{ difficulty.name }}</span>
-                        </div>
-                      </label>
-                    </div>                  
-                </div>
-            </div>
-
+  <div class="divContent" style="z-index: 100; position: relative">
+    <div class="divSearchAndFilter">
+      <div class="divSearch">
+        <input
+          type="text"
+          class="form-control inputSearch"
+          [(ngModel)]="searchTerm"
+          (input)="filterChampions()"
+        />
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+      </div>
+      <div class="divRole">
+        <div class="roleTop">
+          <img src="assets/img/icons/top.png" class="imgRole" />
         </div>
-        <div class="divListChampions">
-            <div *ngFor="let champion of filteredChampions" class="champion">
-                <img [src]="'assets/img/championsIcons/' + champion.icon + '.png'" alt="{{ champion.name }}"
-                    class="imgChamp" [ngStyle]="{
-                            'border-color': getBorderColor(champion.difficulty)
-                          }" />
-                <span class="nameChamp">{{ champion.name }}</span>
-                <div class="divDifficulty">
-                    <div class="smallCircle" [ngStyle]="{
-                            'background-color': getBorderColor(champion.difficulty)
-                          }"></div>
-                    <span class="difficultyChamp">{{champion.difficulty}}</span>
-                </div>
-            </div>
+        <div class="roleMid">
+          <img src="assets/img/icons/mid.png" class="imgRole" />
         </div>
+        <div class="roleAdc">
+          <img src="assets/img/icons/adc.png" class="imgRole" />
+        </div>
+        <div class="roleSupport">
+          <img src="assets/img/icons/support.png" class="imgRole" />
+        </div>
+        <div class="roleJungle">
+          <img src="assets/img/icons/jungle.png" class="imgRole" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <div class="dropdown" (click)="toggleDropdown()">
+            <button
+              class="btn btn-secondary dropdown-toggle btnDifficulties"
+              type="button"
+            >
+              <ng-container *ngIf="selectedDifficulty; else placeholder">
+                <div
+                  style="display: inline-flex; align-items: center; width: 90%"
+                >
+                  <div
+                    class="smallCircle"
+                    [ngStyle]="{
+                      'background-color': getBorderColor(
+                        selectedDifficulty.name
+                      )
+                    }"
+                  ></div>
+                  <span class="difficultyChamp">{{
+                    selectedDifficulty.name
+                  }}</span>
+                </div>
+              </ng-container>
+              <ng-template #placeholder>
+                <div
+                  style="display: inline-flex; align-items: center; width: 90%"
+                >
+                  <span
+                    [innerHtml]="
+                      'RL.MECANICS.DIFFICULTY' | translate | safeHtml
+                    "
+                  ></span>
+                </div>
+              </ng-template>
+              <!-- Ajout de la flèche manuellement -->
+            </button>
+            <div class="dropdown-menu" [class.show]="isOpen">
+              <label
+                class="dropdown-item"
+                *ngFor="let difficulty of difficulties"
+                (click)="onSelect(difficulty)"
+              >
+                <div class="divDifficulty margin15">
+                  <div
+                    class="smallCircle"
+                    [ngStyle]="{
+                      'background-color': getBorderColor(difficulty.name)
+                    }"
+                  ></div>
+                  <span class="difficultyChamp">{{ difficulty.name }}</span>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="divListChampions">
+      <div *ngFor="let champion of filteredChampions" class="champion">
+        <img
+          [src]="'assets/img/championsIcons/' + champion.icon + '.png'"
+          alt="{{ champion.name }}"
+          class="imgChamp"
+          [ngStyle]="{
+            'border-color': getBorderColor(champion.difficulty)
+          }"
+        />
+        <span class="nameChamp">{{ champion.name }}</span>
+        <div class="divDifficulty">
+          <div
+            class="smallCircle"
+            [ngStyle]="{
+              'background-color': getBorderColor(champion.difficulty)
+            }"
+          ></div>
+          <span class="difficultyChamp">{{ champion.difficulty }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

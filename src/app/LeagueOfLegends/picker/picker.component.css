@@ -354,6 +354,8 @@
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     height: 54px;
+    width: 200px;
+    text-align: left;
   }
   @media only screen and (max-width: 500px) {
     .content {

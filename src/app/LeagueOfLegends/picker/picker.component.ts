@@ -94,6 +94,8 @@ export class PickerComponent {
         id: 0,
         selected: false,
       };
+      this.searchTerm=''
+      this.selectedRole=''
       this.http
         .get<any[]>('assets/jsonChampionsDatas/AllChampions.json')
         .subscribe((data) => {
@@ -147,7 +149,7 @@ export class PickerComponent {
 
     this.champions.forEach((champion) => {
       let matchesSearchTerm = false;
-      if (searchTermLower == '') {
+      if (searchTermLower === '') {
         matchesSearchTerm = true;
       } else {
         matchesSearchTerm = champion.name

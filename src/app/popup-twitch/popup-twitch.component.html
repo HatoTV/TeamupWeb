@@ -1,6 +1,13 @@
 <div class="popup" [ngClass]="{ show: isVisible }" (click)="closePopup()">
   <div class="popup-content" (click)="$event.stopPropagation()">
     <div class="divContent">
+      <!-- <iframe
+        [src]="safeStreamUrl"
+        height="200"
+        width="300"
+        allowfullscreen="true"
+        class="stream-preview"
+      ></iframe> -->
       <div class="contentRight">
         <div class="divTitle">
           <img [src]="profileImageUrl" alt="Profil" class="profile-img" />

@@ -553,7 +553,7 @@ opacity: 0;
         margin-top: 0px;
     }
     .divContent{
-        width: 90%;
+        width: 100%;
         margin-top: 0px !important;
     }
     .contentPick{
@@ -623,7 +623,7 @@ opacity: 0;
     }
   
     .divContentEmpty {
-      width: 90%;
+      width: 100%;
     }
 
     .championCounterName, .championCounterDifficulty{

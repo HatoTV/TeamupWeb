@@ -459,8 +459,8 @@
     }
   
     .divContent {
-      width: 90%;
-      padding: 30px;
+      width: 100%;
+      padding: 20px;
     }
   
     h1 {
@@ -510,7 +510,7 @@
     }
   
     .divContentEmpty {
-      width: 90%;
+      width: 100%;
     }
   
     .imgPath {
@@ -526,8 +526,8 @@
     }
   
     .divContent {
-      width: 90%;
-      padding: 30px;
+      width: 100%;
+      padding: 20px;
     }
   
     img {
@@ -540,5 +540,59 @@
     .divImgStat{
       margin-right: 0px;
       margin-bottom: 30px;
+    }
+    .divSearchAndFilter{
+      flex-direction: column;
+    }
+    .divSearch{
+      width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 30px;
+    }
+    .divRole{
+      margin-right: 0;
+  margin-bottom: 30px;
+    }
+    .btnDifficulties{
+      width: 100%;
+    }
+    .divBtnDifficulties{
+      width: 100%;
+    }
+    .btnRandomChampion{
+      margin-top: 50px;
+      font-size: 14px;
+    }
+    .difficultyChamp{
+      font-size: 14px;
+    }
+    .imgChamp{
+      width: 80px;
+  height: 80px;
+    }
+    .divListChampions{
+      margin-top: 40px;
+    }
+    .nameChamp{
+      font-size: 18px;
+  margin-bottom: 15px;
+    }
+    .champion{
+      width: 42%;
+    margin: 10px;
+    }
+    .championSelected{
+      width: 180px;
+    }
+    .divRoleOnChampion{
+      flex-direction: row;
+  position: relative;
+  right: 0;
+  top: 0;
+  margin-bottom: 16px;
+    }
+    .divBtnMobile{
+      width: 100%;
     }
   }

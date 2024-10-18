@@ -325,7 +325,7 @@ h6{
         margin-top: 0px;
     }
     .divContent{
-        width: 90%;
+        width: 100%;
         margin-top: 0px !important;
     }
     .contentPick{
@@ -354,7 +354,7 @@ h6{
       font-size: 20px;
     }
     .divContentEmpty {
-      width: 90%;
+      width: 100%;
     }
     .divSteps{
       flex-direction: column;

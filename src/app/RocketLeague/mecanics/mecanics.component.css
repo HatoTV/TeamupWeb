@@ -449,12 +449,17 @@ h6 {
   flex-direction: column;
 }
 .divMecanic{
-  margin-bottom: 50px;
+  margin: 5px;
+  margin-bottom: 15px;
   min-width: auto;
   max-width: -webkit-fill-available;
+  width: 150px;
 }
 .divMecanic.filtered {
   filter: brightness(1);
+}
+.divTitleMecanic{
+  min-height: 75px;
 }
 .imgMecanic{
   height: auto;
@@ -463,12 +468,18 @@ h5{
   font-size: 15px;
 }
 h3{
-  font-size: 22px;
+  font-size: 20px;
 }
 .logoGame{
     height: 100px;
 }
 .imgBkg{
   height: 300px;
+}
+.star-rating{
+  font-size: 10px;
+}
+.divMecanic:hover {
+  transform: none;
 }
 }

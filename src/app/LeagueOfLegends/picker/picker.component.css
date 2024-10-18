@@ -333,7 +333,10 @@
   .divChampionSelected{
     background-color: rgba(253, 254, 165, 0.1);
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
+  border: 0;
+  border-top: 2px solid rgba(253, 254, 165, 0.2);
+  border-bottom: 2px solid rgba(253, 254, 165, 0.2);
   }
   .nameChamp{
     font-size: 20px;
@@ -594,5 +597,9 @@
     }
     .divBtnMobile{
       width: 100%;
+    }
+    .divChampionSelected{
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
     }
   }

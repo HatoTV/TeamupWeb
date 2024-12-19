@@ -1,450 +1,163 @@
 [
     {
-        "championName": "Sivir",
+        "championName": "Ziggs",
         "difficulty": "Extreme",
         "idmatchup": 113,
-        "tips": "Sivir is a rough matchup for Caitlyn, despite her much lower range compared to yours. Sivir can clear waves very fast to prevent Caitlyn from pressuring her. Traps are free HP for Sivir and she can spell-shield all of Caitlyn's abilities, making her combo much less effective. Caitlyn ult is also useless if Sivir E is up. It is hard for Cait to shut down Sivir in lane when she is the weakest, so she gets a free pass to scaling into the late game.",
+        "tips": "He outranges you (and every other ADC) by a lot, so fighting is often not possible. Try your best to avoid his Q's as they're the main source of his damage. Avoid trading unless it's an all in, as there is close to no chance you'll be able to outtrade him (if you can even reach him in the first place), and ensure that you have your E or Flash to disengage.",
         "tipsFr": null
+    },
+    {
+        "championName": "Swain",
+        "difficulty": "Extreme",
+        "idmatchup": 114,
+        "tips": "A very tough matchup for Caitlyn. His E is about equal to your auto attack range, making it very hard to trade into him. Avoid trading/fighting if at all possible, and ensure that you have your E or Flash to disengage.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Seraphine",
+        "difficulty": "Extreme",
+        "idmatchup": 115,
+        "tips": "While you do outdamage Seraphine, you'll almost never be able to hit her. She outranges you by quite a lot, and with her shields, heals, raw damage output, slows, roots, stuns and charms, she proves to be a very hard matchup for Caitlyn. Avoid trading as it will usually lead to you being cc'd and damaged out of your range, and ensure that you have your E or Flash to disengage.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kog'Maw",
+        "difficulty": "Major",
+        "idmatchup": 116,
+        "tips": "Avoid trading unless you're ahead by a substantial amount (and can 100% win the fight), as he will always be able to beat you in an extended fight if left alive long enough. The standard build does a decent job of 100-0'ing Kog'Maw, so if possible play to reach at least 2 items before trying to take a fight with him.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Nilah",
+        "difficulty": "Major",
+        "idmatchup": 117,
+        "tips": "Avoid all in fights, as she will block all your auto attack damage (headshots included). She wins extended fights as well as all ins, so your best chance to win is to play around her auto attack blocking shield timer (Around 20-30 second CD)",
+        "tipsFr": ""
     },
     {
         "championName": "Draven",
-        "difficulty": "Extreme",
-        "idmatchup": 114,
-        "tips": "Draven wants to get kills and snowball, Caitlyn can't trade properly against a good Draven and pushing into his tower only makes it easier for him to run you down. If he has an aggressive support it is very likely he will take over laning phase and Dive you when they hit 6.",
-        "tipsFr": null
+        "difficulty": "Even",
+        "idmatchup": 118,
+        "tips": "Similar to Nilah, you should typically avoid all in fights. His Q damage buff very often will dwarf your extended trade damage. He wins extended fights as well as all ins, so your best chance to win is to play around your E + Q combo, by baiting him into range.",
+        "tipsFr": ""
     },
     {
-        "championName": "Jhin",
-        "difficulty": "Extreme",
-        "idmatchup": 115,
-        "tips": "Jhin is very similar to Draven - if he gets kills and snowballs, you just keep dying. If he has an agressive support it if very hard to match his lane presence. He has decent range and strong wave clear, making it harder for you to create a big wave to harass him. And overall his trade is just stronger than yours.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Jinx",
+        "championName": "Twitch",
         "difficulty": "Major",
-        "idmatchup": 116,
-        "tips": "Jinx, despite her weak early game, is a bad matchup because she has long range and good wave clear, making it difficult for Caitlyn to punish her and gain control over the lane. However, I do find that this matchup depends a lot on the support - a support who can get on top of Jinx can help Caitlyn land kills and snowball, but if Jinx has a strong enchanter support who plays well it is only a matter of time until she gets strong and unkillable.",
-        "tipsFr": null
+        "idmatchup": 119,
+        "tips": "Twitch is a hard champ to play into as Caitlyn, but mostly if your team doesn't know how to play against a Twitch. If thats the case, always play far back and ensure that you have eyes on Twitch before you commit to any fights.",
+        "tipsFr": ""
     },
     {
-        "championName": "Ashe",
-        "difficulty": "Major",
-        "idmatchup": 117,
-        "tips": "Ashe is pretty annoying to deal with because of her poke and range, you can't bully her as well as other ADCs. However, she is very squishy and immobile, meaning that if you hit a good combo on her or CC her you might be able to kill or get a good HP advantage in lane. Longer fights are in her favor though - if she lands her ult or starts running you down, try to disengage, because her DPS is stronger and she can easily set up ganks for her team.",
-        "tipsFr": null
+        "championName": "Corki",
+        "difficulty": "Even",
+        "idmatchup": 120,
+        "tips": "While Caitlyn does outrange Corki heavily, you need to ALWAYS play around your E + Q, as his gap closer can easily lead to you being one shot before you even have a chance to react. Never trade if you don't have your E ready.",
+        "tipsFr": ""
     },
     {
         "championName": "Samira",
-        "difficulty": "Major",
-        "idmatchup": 118,
-        "tips": "If Samira gets in range to all-in you you are dead. Her W makes it hard for you to combo her and her damage + durability make it hard to survive her all-ins. Focus on managing your wave and avoid getting engaged on at all costs. Bring exhaust. Poke her when you can, but be careful to not stand too close to your minions, she can use them to dash on top of you. Putting traps on your minions can be useful to zone her from using them as a bridge, Be very smart with trap placements.",
-        "tipsFr": null
+        "difficulty": "Even",
+        "idmatchup": 121,
+        "tips": "You outrange her heavily, however with improper spacing, she can EASILY get ontop of you and you will NEVER win that fight. Play far enough back to where she can't dash to you.",
+        "tipsFr": ""
     },
     {
         "championName": "Tristana",
-        "difficulty": "Major",
-        "idmatchup": 119,
-        "tips": "Very dangerous ADC because she can jump on your face and burst you, but support matchup has a lot of impact on the lane. Don't be alone near a Tristana especially if you are low HP and without Flash/Exhaust. Play at max range and try to poke when you can. If she has no engage support, try to always have a minion advantage over her. When she goes in, try to get away with E+W before she can get a reset.",
-        "tipsFr": null
+        "difficulty": "Even",
+        "idmatchup": 122,
+        "tips": "You outrange her, but it's important to remember she can easily get ontop of you with her jump, and burst you with her E+R combo.",
+        "tipsFr": ""
     },
     {
-        "championName": "Miss Fortune",
+        "championName": "Lucian",
+        "difficulty": "Minor",
+        "idmatchup": 123,
+        "tips": "He's not an incredibly big threat unless he's able to get a big lead. Play smart during laning phase and you'll have no problem dealing with him.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Aphelios",
         "difficulty": "Major",
-        "idmatchup": 120,
-        "tips": "Miss Fortune is really annoying especially depending on the meta. Her poke and all-in hurts a lot, plus she has pretty okay wave clear so it can be hard to shove a huge wave into her turret.",
-        "tipsFr": null
+        "idmatchup": 124,
+        "tips": "Use your range to your advantage in this lane, but remember that you're highly vulnerable to his root. He's a hard match up at all stages of the game and it's important to keep in mind his burst as well as his sustain in extended fights.",
+        "tipsFr": ""
     },
     {
         "championName": "Kai'Sa",
         "difficulty": "Even",
-        "idmatchup": 121,
-        "tips": "Early in lane Kai'sa is rather easy to punish because you can zone her with your traps and net, while poking her with your superior range. She cannot trade back due to range advantage. But if she has a support who can lock you down the matchup is much more dangerous, especiallly after 6. Basically Kai'sa wins by out-scaling you and getting on top of you with her E or ultimate. If you don't build up a good advantage over her in lane, you will be easy prey to her later on.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Lucian",
-        "difficulty": "Even",
-        "idmatchup": 122,
-        "tips": "Lucian is a threat if he's allowed to get prio and jump on your face. Use your range to get lane prio and bully him, his auto range is very short. Stay at max range and zone him. If he has a good support synergy, be on your toes.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Smolder",
-        "difficulty": "Even",
-        "idmatchup": 123,
-        "tips": "Smolder wants to spend his early game poking his enemies and farming for stacks. As long as you dodge his W and stay out of his range, it should be relatively easy to avoid his poke. You also have more damage early game, which helps you get lane prio and pressure him. Your win condition is closing the game early and not letting him stack til 225, if he does, he becomes trouble. But even late game, your high range and combo damage are still a threat to him unless he is not going for a squishy build.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Ezreal",
-        "difficulty": "Even",
-        "idmatchup": 124,
-        "tips": "You have stronger wave clear but he is a champion that is happy to just sit back and farm (with the occasional poke) so killing him can be hard. He also has a lot of longe range burst which is annoying. You win from playing to your strengths.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Xayah",
-        "difficulty": "Even",
         "idmatchup": 125,
-        "tips": "Xayah is generally an easy matchup for Caitlyn, but it depends on how well you can keep her at max range and her support. She is a very good zoning ADC like you, but she works on a much smaller range and has no way of getting in your face like Kai'sa or Samira. If she has a CC support she can be dangerous, but if you play from your max range and zone her support there is not much she can do to trade with you. You can bully her hard and avoid her retaliation. Her wave clear is strong, but if you abuse your range she will be forced away from minions. If she pushes into your tower you can freeze and zone her, if she lets you push over her tower you can harass her even harder and get gold from platings - just be very careful with ganks from her jungler.",
-        "tipsFr": null
+        "tips": "She does have lower range than Caitlyn, which makes laning not incredibly hard. However, keep in mind that she DOES burst you harder and has the ability to close that gap.",
+        "tipsFr": ""
     },
     {
-        "championName": "Vayne",
-        "difficulty": "Minor",
+        "championName": "Jinx",
+        "difficulty": "Major",
         "idmatchup": 126,
-        "tips": "Bully and zone her away from the wave with your range and traps, don't let her farm and scale. Should be an easy matchup, justs be careful to not die in a gank while you are pressuring her.",
-        "tipsFr": null
+        "tips": "Try your best to not let her make it out of lane without putting her as far behind as possible. She will outscale you.",
+        "tipsFr": ""
     },
     {
-        "championName": "Nilah",
-        "difficulty": "Minor",
+        "championName": "Sivir",
+        "difficulty": "Major",
         "idmatchup": 127,
-        "tips": "She's melee which gives you a huge advantage over her in lane. Don't let her farm, if she is allowed to last hit minions she will get her level 2, 3 and 6 before you and might be able to kill you. Respect her powerspikes and don't get engaged on. Something you can do with her (that you can also do against Samira, Yasuo and Irelia) is to put traps on your minions, so that if she tries to dash to them as a way to get to you, she will be caught.",
-        "tipsFr": null
+        "tips": "Her spellshield makes it very hard for you to win trades, as she can block your (almost) guaranteed headshot that E provides you.",
+        "tipsFr": ""
     },
     {
         "championName": "Zeri",
         "difficulty": "Minor",
         "idmatchup": 128,
-        "tips": "Zeri is easy to bully with your range. Her wave clear is rather weak so use that to get lane prio and turret platings. When it comes to her all-ins you want to always be max range and hopefully trap her before she becomes too fast.",
-        "tipsFr": null
+        "tips": "Zeri isn't an incredibly hard match up. You outdamage her in most stages of the game. Just be wary of her full combo without vision.",
+        "tipsFr": ""
     },
     {
-        "championName": "Aphelios",
-        "difficulty": "Minor",
+        "championName": "Ashe",
+        "difficulty": "Even",
         "idmatchup": 129,
-        "tips": "Generally easy matchup, he has weak early game and wave clear (depending on weapon), you just have to trade at the right moments. Red gun gives him healing, DPs and kiting. Green gun gives him your range and single target damage. Purple gun roots and slows. White gun gives him insane close-range DPS. Blue gives him AoE damage. Avoid trading when he has red+white and green+white. Be careful when he has purple because he can set up a gank or all-in you.",
-        "tipsFr": null
+        "tips": "You both have a high range, however, ashe has much more consistent poke. Be sure to play around your minion wave and avoid being pushed up too far as she can and will run you down if given the chance.",
+        "tipsFr": ""
     },
     {
-        "championName": null,
-        "difficulty": null,
+        "championName": "Ezreal",
+        "difficulty": "Major",
         "idmatchup": 130,
-        "tips": null,
-        "tipsFr": null
+        "tips": "He outranges you, does very decent poke damage as well as all in / burst. Play back and try to survive the lane.",
+        "tipsFr": ""
     },
     {
-        "championName": null,
-        "difficulty": null,
+        "championName": "Vayne",
+        "difficulty": "Even",
         "idmatchup": 131,
-        "tips": null,
-        "tipsFr": null
+        "tips": "You can dominate this lane by using your range to your advantage, however, do NOT trade into her if shes able to play inside her wave. It's very hard to get a headshot on someone when they are able to play behind the minions. She does outscale you, hwoever, she may not be able to get to you if you position properly.",
+        "tipsFr": ""
     },
     {
-        "championName": null,
-        "difficulty": null,
+        "championName": "Miss Fortune",
+        "difficulty": "Minor",
         "idmatchup": 132,
-        "tips": null,
-        "tipsFr": null
+        "tips": "Avoid all-ins with her, poke using your range, and don't play around low hp minions.",
+        "tipsFr": ""
     },
     {
-        "championName": null,
-        "difficulty": null,
+        "championName": "Jhin",
+        "difficulty": "Minor",
         "idmatchup": 133,
-        "tips": null,
-        "tipsFr": null
+        "tips": "You outrange him for the entire laning phase, just remember not to stay in lane with too low hp or he can ult you.",
+        "tipsFr": ""
     },
     {
-        "championName": null,
-        "difficulty": null,
+        "championName": "Varus",
+        "difficulty": "Major",
         "idmatchup": 134,
-        "tips": null,
-        "tipsFr": null
+        "tips": "Hard to play against a good varus on almost any champ, however, with the right plays you can work around it. Try to survive the early game and make sure to avoid his ults late game.",
+        "tipsFr": ""
     },
     {
-        "championName": null,
-        "difficulty": null,
+        "championName": "Xayah",
+        "difficulty": "Minor",
         "idmatchup": 135,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 136,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 137,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 138,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 139,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 140,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 141,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 142,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 143,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 144,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 145,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 146,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 147,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 148,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 149,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 150,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 151,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 152,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 153,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 154,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 155,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 156,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 157,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 158,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 159,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 160,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 161,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 162,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 163,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 164,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 165,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 166,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 167,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 168,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 169,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 170,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 171,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 172,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 173,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 174,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 175,
-        "tips": null,
-        "tipsFr": null
-    },
-    {
-        "championName": null,
-        "difficulty": null,
-        "idmatchup": 176,
-        "tips": null,
-        "tipsFr": null
+        "tips": "She doesn't do a great job of laning against Caitlyn, but remember that you'll almost never be able to kill her with your R post-6.",
+        "tipsFr": ""
     }
 ]

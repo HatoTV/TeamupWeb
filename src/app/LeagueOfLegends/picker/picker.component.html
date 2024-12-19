@@ -75,14 +75,14 @@
                     [ngClass]="{ hidden: selectedDifficulty.id === 0 }"
                     [ngStyle]="{
                       'background-color': getBorderColor(
-                        selectedDifficulty.name
+                        selectedDifficulty.id
                       )
                     }"
                   ></div>
                   <span
                     class="difficultyChamp"
                     [ngStyle]="{
-                      color: getBorderColor(selectedDifficulty.name)
+                      color: getBorderColor(selectedDifficulty.id)
                     }"
                     >{{ selectedDifficulty.name }}</span
                   >
@@ -102,13 +102,13 @@
                     class="smallCircle"
                     [ngClass]="{ hidden: difficulty.id === 0 }"
                     [ngStyle]="{
-                      'background-color': getBorderColor(difficulty.name)
+                      'background-color': getBorderColor(difficulty.id)
                     }"
                   ></div>
                   <span
                     class="difficultyChamp"
                     [ngStyle]="{
-                      color: getBorderColor(difficulty.name)
+                      color: getBorderColor(difficulty.id)
                     }"
                     >{{ difficulty.name }}</span
                   >

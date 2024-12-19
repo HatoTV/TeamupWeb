@@ -28,7 +28,7 @@ export class PickerComponent {
   champions: {
     name: string;
     icon: string;
-    difficulty: string;
+    difficulty: number;
     isTop: boolean;
     isAdc: boolean;
     isMid: boolean;
@@ -38,7 +38,7 @@ export class PickerComponent {
   filteredChampions: {
     name: string;
     icon: string;
-    difficulty: string;
+    difficulty: number;
     isTop: boolean;
     isAdc: boolean;
     isMid: boolean;
@@ -66,23 +66,28 @@ export class PickerComponent {
           selected: false,
         }, // Placeholder
         {
-          name: "Facile",
+          name: "Très Facile",
           id: 1,
           selected: false,
         },
         {
-          name: "Intermédiaire",
+          name: "Facile",
           id: 2,
           selected: false,
         },
         {
-          name: "Difficile",
+          name: "Intermédiaire",
           id: 3,
           selected: false,
         },
         {
-          name: "Extrême",
+          name: "Difficile",
           id: 4,
+          selected: false,
+        },
+        {
+          name: "Extrême",
+          id: 5,
           selected: false,
         },
       ];
@@ -135,9 +140,7 @@ export class PickerComponent {
             .map((item) => ({
               name: item.championName.trim(),
               icon: item.spellingForUrl.trim().toLowerCase(),
-              difficulty: this.getTranslatedName(
-                'LOL.PICKER.DIFFICULTIES.' + item.difficulty.toLowerCase()
-              ),
+              difficulty: item.difficulty,
               isTop: item.isTop,
               isMid: item.isMid,
               isAdc: item.isAdc,
@@ -170,7 +173,7 @@ export class PickerComponent {
       {
         name: string;
         icon: string;
-        difficulty: string;
+        difficulty: number;
         isTop: boolean;
         isAdc: boolean;
         isMid: boolean;
@@ -193,7 +196,7 @@ export class PickerComponent {
         matchesDifficulty = true;
       } else {
         matchesDifficulty =
-          this.selectedDifficulty.name === champion.difficulty;
+          this.selectedDifficulty.id === champion.difficulty;
       }
 
       let matchesRole = false;
@@ -244,31 +247,16 @@ export class PickerComponent {
     this.filterChampions();
   }
 
-  getBorderColor(difficulty: string): string {
-    // Change la couleur selon la difficulté
-    if (
-      difficulty.toLowerCase() ===
-      this.getTranslatedName('LOL.PICKER.DIFFICULTIES.easy').toLowerCase()
-    ) {
-      return '#8eff57';
-    } else if (
-      difficulty.toLowerCase() ===
-      this.getTranslatedName('LOL.PICKER.DIFFICULTIES.average').toLowerCase()
-    ) {
-      return '#57fcff';
-    } else if (
-      difficulty.toLowerCase() ===
-      this.getTranslatedName('LOL.PICKER.DIFFICULTIES.hard').toLowerCase()
-    ) {
-      return '#ffa64c';
-    } else if (
-      difficulty.toLowerCase() ===
-      this.getTranslatedName('LOL.PICKER.DIFFICULTIES.severe').toLowerCase()
-    ) {
-      return '#ff6767';
-    }
-    return 'rgba(255, 255, 255, 0.6)'; // Couleur par défaut si la valeur ne correspond à aucun cas
+  getBorderColor(difficulty: number): string {
+    switch(difficulty){      
+      case 1 : return '#8eff57';
+      case 2 : return '#57fcff';
+      case 3 : return '#ffa64c';
+      case 4 : return '#ff6767';
+      }
+      return 'rgba(255, 255, 255, 0.6)';
   }
+
   @HostListener('document:click', ['$event'])
   handleClickOutside(event: MouseEvent) {
     const dropdownElement = document.querySelector('.dropdown');

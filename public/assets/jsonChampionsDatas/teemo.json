@@ -1,520 +1,464 @@
 [
     {
-        "championName": "Aatrox",
-        "difficulty": "Minor",
-        "idmatchup": 1,
-        "tips": " | Fleet Footwork with Swiftness Boots | So this matchup is all about movement. You need to be aware of his Q range and dodge accordingly. As the lane progresses Aatrox will become aware of your dodging patterns so try to be unpredictable. If you get hit by one wrong combo you either die, blow flash or have to base so your movement is crucial if you want to win! | Pro tip - often aatroxes start out with trying to get e - q1 poke on you. If you manage to dodge it they will q1 and then e q2 (the big slash) when you go for a minion. The only counterplay for it is to see it coming and to dodge it before he does it. If you do dodge it aatrox has no more cooldowns to touch you and you can punish. | If you have swiftness boots you can run out of his w, else youre screwed if he lands it. its on a long cooldown so play around it if he misses. If you get caught by his w, I recommend flashing early, because worst case you might flash and then still get pulled back. Only take fights when you have ignite, it doesn't matter how low he is, please only commit to a kill with ignite. | As long as you dodge stuff you will win this lane and its minor, if your movement is bad this could be very difficult",
-        "tipsFr": null
-    },
-    {
-        "championName": "Akali",
-        "difficulty": "Major",
-        "idmatchup": 2,
-        "tips": " | Go the standard PTA build because riftmaker hp will allow you to survive her all in. Buy a null magic mantle on your first base to reduce the chance of a level 6 all in. | Poke early, dont group with minions (dont let her your q you and the minions), buy a null magic mantle. Only fight her when you have ignite. Its a skill matchup so you need to know your boundaries and commit to the fight if akali goes on you. Don't try to flash akali ult to be honest. Later in the game use zhonya after your first burst rotation and try let her die to poison while her r2 is running out.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Akshan",
-        "difficulty": "Minor",
-        "idmatchup": 3,
-        "tips": " | I prefer Fleet footwork with liandry because akshan can only win through all in, fleet footwork will keep you healthy enough that he cant get a cheese kill with ignite and ult so you will always by default win. | Put 3 points into Q and skill q at lvl 1 and just poke him every time he steps up. Important to note: only time he has solokill pressure is lvl 1 and 2 so don't go for all ins and just try to poke. Always prioritize dodging his q over doing your own damage, if he doesn't land his q his dmg is halved and he has a rough time proccing his passive.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Camille",
-        "difficulty": "Minor",
-        "idmatchup": 4,
-        "tips": " | I prefer Fleet Footwork because you can just prock it whenever she goes for a w. | Try to dodge her w by going perpendicular to it or by baiting it out (not terrible if you dont, but will make lane easier). Q her second q or she deals lots of damage. Be aware of enemy jungle pathing because she has excellent gank setup. Play in your wave once she engages with e (again try to walk perpendicular to the skillshot) and place a shroom and you should win early game. Try to shroom close to walls where camille usually hookshots, so that she hookshots into a shroom. Late game she beats you so try to poke a lot without getting killed by the jgl in the process. Zhonya intelligently with your q cooldown.",
-        "tipsFr": null
-    },
-    {
         "championName": "Cassiopeia",
         "difficulty": "Extreme",
-        "idmatchup": 5,
-        "tips": " | Fleet Footwork with liadndry will give you the best chance to survive and be useful midgame, dont fall for rapidfire cannon, its bait | If cassio knows how to play, youre doomed. Dodge q's and r's obviously by turning around, run away from her E if she lands a q and try to poke her with your own q when you have an opening. Try to perma splitpush so that she doesn't take over the game, but really - you can't play the game EVER.",
+        "idmatchup": 1,
+        "tips": "Avoid her (Q) into her (E) spam and turn your back to her (R). If you are not familiar with her animations I would advise to check some Youtube videos related to it. Against her I recommend you to work on kiting and baiting out her poisons while Csing and NEVER trying to trade. She is relatively fast for a champion that can't wear boots. The second you get struck by (Q) or (W) she will follow up with her (E) that can be spammed over and over, which really hurts! They tend to run Conqueror which heals her for a lot. You can't really dodge her (W), but you can build a bit more defensively while building into damage to make up for her damage. The good thing is, she isn't played much anymore so it's rare to see. If you really want to increase your ability to CS and poke her early game without feeding into her combos I would highly recommend Rapid Fire Cannon rush.",
         "tipsFr": null
     },
     {
-        "championName": "Cho'Gath",
+        "championName": "Aatrox",
+        "difficulty": "Extreme",
+        "idmatchup": 2,
+        "tips": "Never engage in a fight with an Aatrox when he has his first (Q) up, as he can simply adjust his angle by using his (E) > (Q) combo. If he uses (Q) on minions, you can move closer as his second (Q) has a shorter range and it is much harder for him control and adjust allowing for us to juke it out. His (W) can be blocked by minions and if you do happen to get hit run to the left or the right side. Attempting to run from the skill in the linear path is bad, even if you use Flash it can still pull you back. Running to the side of the AoE is the most effective way, and be aware you take more damage from the highlighted zones.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Skarner",
+        "difficulty": "Major",
+        "idmatchup": 3,
+        "tips": "Skarner's adjustments have made him considerably more difficult to deal with, as he is now built to be a heavy engage and CC champion, continually slowing you, smashing you into terrain, and then coming out of terrain to do the same thing again and over again, not to mention building full on tank and still destroying you.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ryze",
+        "difficulty": "Major",
+        "idmatchup": 4,
+        "tips": "Ryze will mostly always run Phase Rush into you. You do NOT win this lane in any logical way. He will have full control over the waves so long as he knows how to utilize his combos correctly. So just keep yourself back, in bushes or to the side of your minions that are not being comboed unless he is not playing well or lining up the correct AoE spread combo. I suggest to take resolve as your secondary runes with Bone Plating and Overgrowth, and max rank your (Q) for poking only. It's often a better option to dodge this match-up entirely instead of having to go into the hard-counter, but this is personal preference. It's a farming and survival lane mostly. The good thing is, he isn't played much anymore so it's rare to see. If you really want to increase your ability to CS and poke him early game without feeding into him combos I would highly recommend Rapid Fire Cannon rush.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Viktor",
+        "difficulty": "Major",
+        "idmatchup": 5,
+        "tips": "Viktor is a really difficult lane to trade with as his range and hit box is relatively large and hard to avoid, since he can control which direction his (E) comes from. Avoid standing inside his (W) as it will slow and stun you afterward if you remain inside it, allowing him to activate his (R). When his (R) is activated do not try to fight with him, simply run away as it will slowly catch up to you, and is pretty easy to avoid simply by pressing your (W) and getting some distance. Magic resistance is going to help you out if you can't manage to avoid the damage, as you can safely get in a bit closer to throw out a (Q) to trade with him, however, avoiding the damage is the priority. Basically this is Teemo's hardest Mage match-up outside of Ryze and Cassiopeia with recent changes.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yasuo",
         "difficulty": "Major",
         "idmatchup": 6,
-        "tips": " | Go fleet footwork with swiftness boots and cut down. Cho Gath got buffed way too much and now has too much sustain and very low cooldowns. All you can do is to keep poking and maybe you will get a dive/kill on a bad cho (with bad i mean anything under master so yeah). Its important to dodge q when you suspect a gank because it spells immidate doom with flash r. Get Liandrys and Demonic Embrace for the double %hp burn if he is going tank. In general you can't really kill him and he scales really well so sadly riot fucked up and its just hard.",
+        "tips": "You can not blind his (Q). Purchasing Plated Steelcaps, however, will decrease how much damage this ability does to you. Never run away through your own minions, run through the river/jungle. You will not escape him due to his minion/champion (E) dash. You have a better chance running into his ally with no CC, than you do letting him catch up, using his second (Q) knock up into his (R). You have to predict his tornado and learn to side step. That's all. He lines it up with minions. You want to keep poking and keep tabs on his passive / wind wall which negate all damage and projectiles. If he places a wall, move in between it to hit him from the side as he hides inside it.",
         "tipsFr": null
     },
     {
-        "championName": "Darius",
-        "difficulty": "Even",
+        "championName": "Yone",
+        "difficulty": "Major",
         "idmatchup": 7,
-        "tips": " | Go the standard PTA build to allow yourself to win 1v1. | You basically either kill darius when he runs into you or you run from him simple as that. I like killing the Darius so I go PTA+ignite. Use shrooms to kite him and dont get hooked early or you kinda just die",
+        "tips": "Yone isn't really much of a threat. All of his abilities are very pronounced and either a straight line or arcing slash which are all relatively easy to side step. If he enters spirit form around you and not under a tower, toss a shroom where he entered. If he recalls immediately he will be caught out with the shroom, an if he extends the fight he will also lose the fight to our shroom finishing him. We win all trades with him, so long as you're looking out for his (Q) knock-up combo'ed with his spirit form. He is really weak early, haven't made it to late to see his scaling, it's probably like Yasuo's late game just without the windwall.",
         "tipsFr": null
     },
     {
-        "championName": "Dr. Mundo",
-        "difficulty": "Even",
+        "championName": "Tahm Kench",
+        "difficulty": "Major",
         "idmatchup": 8,
-        "tips": " | Go PTA (Take cut down) and cull. | Buy oblivion orb early/nashor. Dodge his Qs and keep your ignite for his ult. Perma push him in and harass him under the tower. Be aware of his all in and spamm DPS items as much as possible. Its a statcheck matchup and if you cs poorly or die you will have a bad time. Thus its very important that you keep up in items.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Diana",
-        "difficulty": "Even",
-        "idmatchup": 9,
-        "tips": " | Go the standard PTA build, with a ruby crystal early. Make sure to go resolve second to survive all ins later on. | All assassins toplane play out the same way. You push early, maybe you can dive at lvl 3 and then eventually they get lvl 6 with ignite and you're in trouble. Make sure to dodge major abilities and go in once the cooldowns are down. Buy hp/resistances early, zhonya is often good early.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Ekko",
-        "difficulty": "Even",
-        "idmatchup": 10,
-        "tips": " | Go the standard PTA build, with a ruby crystal early. Make sure to go resolve second to survive all ins later on. | All assassins toplane play out the same way. You push early, maybe you can dive at lvl 3 and then eventually they get lvl 6 with ignite and you're in trouble. Make sure to dodge major abilities and go in once the cooldowns are down. Buy hp/resistances early, zhonya is often good early.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Fiora",
-        "difficulty": "Even",
-        "idmatchup": 11,
-        "tips": " | Go the standard PTA build. Zhonyas early can help. | This is a super skill matchup that requires good movement. Care about a possible q w poke in the early game. Reset your vital by walking out of her passive range and walking back (the vital will be in a better position then). Always evaluate your hp and whether fiora can all in (its her main win condition), so be careful when you are pushing and try to freeze as often as possible. If fiora ults, stand with your back to a wall to make it impossible for her to prock the 4th vital. Play in your wave with shrooms, ignite her early and you should be fine vs 99% of fioras. Zhonya early is good and is used to wait out fiora ult and have enough time to blind her a second time.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Gangplank",
-        "difficulty": "Major",
-        "idmatchup": 12,
-        "tips": " | Go Fleet Footwork, if you struggle a lot in this matchup take second wind. | Get control of the wave early and keep pushing. I take Dorans ring with 2 pots, but you can go dorans shield to survive the lane. Trade through his corruption potion while blowing through your potions and dont back down. Try to use bushes to block his vision and make qs harder. Spam ping your teammates once he is lvl 6, or else they die like bonobos. Practice barrel last hit timings and kill them before he can set anything up, else he can zone you. Bait him to use his combo if the GP is good by walking up to cs and then instantly turning around. At around lvl 9 when he has essence reaver and you have nashor you are actually stronger than him and you win most all ins.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Garen",
-        "difficulty": "Minor",
-        "idmatchup": 13,
-        "tips": " | PTA with cut down. Go boots into swifties or berserkers with w max second, because the only way you lose is all ins. After garens changes its hard to stomp lane as he can clear waves quickly with e, but its still a good matchup where you usually outscale. | When garens run to you, just run backwards. Its that simple. Dont turn around to aa or his q will land. Once q is over you can poke him while he is running. Try to aa him so that his passive doesnt heal too much.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Gnar",
-        "difficulty": "Even",
-        "idmatchup": 14,
-        "tips": " | You can go PTA and cheese him lvl 1 to threaten dives (better blue side for easier jgl access) or go fleet footwork to match his fleet footwork. | Gnar usually just doesnt deal enough dmg in any fights. If you just aa q him he usually loses. Do beware of his lvl 6 all in and try to dodge as much as possible. Play very agressively early game and respect his gank setup with mega e. In the midgame you usually let his mega run out and try to kill him as mini.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Gragas",
-        "difficulty": "Major",
-        "idmatchup": 15,
-        "tips": " | Go Fleet Footwork because of gragas poke and all in threat | Gragas Q poke is hard to dodge and has a massive hitbox so you need to predict his qs and instantly dodge when he throws it. If you dodge a lot he wont prock manaflow band and go oom a lot more often. If he throws a q on the ground, make sure you position in a way where he cant ult you into it. If you're low hp there is a high chance of gragas e flashing on you, so you can predict it quite often. Sadly gragas is overbuffed with extremely strong items so its impossible to kill him",
-        "tipsFr": null
-    },
-    {
-        "championName": "Graves",
-        "difficulty": "Minor",
-        "idmatchup": 16,
-        "tips": " | Go the standard PTA build. | Graves wants to be constantly pushing, do not allow him to push and neutralize the lane. You hard beat him, so just remember to constantly auto attack minions if he is attacking them too. Don't leash so graves can't lvl 1 q and shove the wave. Make sure to stand behind your minions so that he can't auto you, especially if your blind is on cd. Ofcourse don't stand next to the wall so that he can't q you. Be aware of his all-in threat once he gets eclipse, but if you play lane well you're fine. Small note: if graves is right in your face there's a small chance of him hitting you through blind, its sad but whatever.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Gwen",
-        "difficulty": "Minor",
-        "idmatchup": 17,
-        "tips": " | Go the standard PTA build. Currently you kinda just kill her whenever she all ins. | Keep your ignite for her lvl 6 and don't let her e q you without being able to push her back. In all ins at lvl 6 flash her last tick of ult. Her W stops your Q so make sure you are within it when you fight. Always make sure you have your ignite when trying to go for a kill.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Hecarim",
-        "difficulty": "Minor",
-        "idmatchup": 18,
-        "tips": " | Go the standard PTA build. | It should seem simple, yet hecarim has lots of sustain with w and corrupted potion and doesnt need that much economy to be successful. He can also run ignite top and together with his ult make your life hell. Try to poke him as much as possible early, you can win lvl 6 as long as the jgl isnt there. Later on you should be able to burst hecarim.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Heimerdinger",
-        "difficulty": "Extreme",
-        "idmatchup": 19,
-        "tips": " | Go Fleet Footwork to survive lane by auto attacking krug/gromp. | Dont waste too much time attacking the towers, but do attack them early game. The only time you have a realistic chance to kill them is lvl 1 turrets and MAYBe lvl 2 turrets. He can replenish them but its good to keep up pressure in lane. Its mostly a farm lane where it depends if he lands skillshots or if you dodge and q poke him down. Usually noone can kill anyone and you both just force each other to back and lose cs/platings. Heimer just wins by constantly pushing and the only way you win is by exploiting him when he is low on mana or needs a base, else there is little you can do.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Illaoi",
-        "difficulty": "Minor",
-        "idmatchup": 20,
-        "tips": " | Go the standard PTA build. Put three points in w before you max Q | Go boots refillable potion into swifties or berserkers. Dodge her skillshots, kill her tentacles and youre fine. Sounds a bit idioticly simple but as long as you respect her and dodge well its not a difficult matchup. Dont call your jgl, in low elo she will just kill both of you.",
+        "tips": "Finally the Kench has been Benched slightly making him more of a support champion again more than a dominating Top laner. He can still easily run you down or surprise you with his (W) from bushes or while you're near his tower to get behind you and potentially knock you up. Once you get slowed by Tahm there really isn't any escape especially later on when he has acquired Frostfire Gauntlet. He should be easier to deal with, but still it would serve you well to play a more mobile approach with a max E and W, and purchasing Swifties to avoid being run down. He is tanky, has a massive shield and slows / sustain.",
         "tipsFr": null
     },
     {
         "championName": "Irelia",
-        "difficulty": "Even",
-        "idmatchup": 21,
-        "tips": " | Go the standard PTA build, but put 5 points into Q early (not optimal but easiest to play) | However because the matchup is GIGA snowbally. I recommend grasp+domination. I further recommend putting atleast 3 points into Q as most of her Damage is auto attack based. You will run into mana issues with this build, which is why I recommend a lost chapter Item early, usually Liandries because Irelia goes Goredrinker nowadays. Its a real skill matchup that tests how good your movement and poking is, which is why I enjoy the lane (however when I lose I'm sad) If you die lvl 4ish she will freeze the lane and you will be sad, so dont die. Be mindful of her preparing minions to dash for to engage on you. Dodging e is very important, as its a major source of her dmg. Lvl 6 a lot of irelias want to all in so either flash it or call your jgl. Lvl 7-11 you win all ins with ignite and even later on you outscale her in value in teamfights",
-        "tipsFr": null
-    },
-    {
-        "championName": "Jax",
         "difficulty": "Major",
-        "idmatchup": 22,
-        "tips": " | Go aery if youre confident or fleet footwork if youre not to kite him. Optionally you can start with cloth armor and 4 pots to get through laning phase. The more agressive the jax plays, the harder the lane is, so cloth 4 can save you from those struggles. | I recommend getting 3 points into q | Jax can sort of just Q E on you and you cant do that much besides Q him back and then poke him out. Poking is difficult due to corrupted potion and tp. If he q's onto you try to throw a shroom on the wave, after he lost his burst there is a 5 second window where you can usually punish before he can jump on you again. If you get a jgl gank you can snowball the lane. If you fall behind youre doomed (stat check)",
-        "tipsFr": null
-    },
-    {
-        "championName": "Jayce",
-        "difficulty": "Major",
-        "idmatchup": 23,
-        "tips": " | You can go both the standard build and burstmo, I would decide based on what you like and how the enemy team looks like. | Mostly skill matchup, however eclipse and good scaling can make Jayce lane really hard. Dodge the e q (play in your wave and position according to his position). Shroom the wave when he goes in with hammer Q and Q him. He sort of wins the short trades with his hammer form so you should respect him during those",
-        "tipsFr": null
-    },
-    {
-        "championName": "Kalista",
-        "difficulty": "Minor",
-        "idmatchup": 24,
-        "tips": " | You can go both the standard build and burstmo, I would decide based on what you like and how the enemy team looks like. Take 3 points into q because she is mostly aa based. | Most kalistas that you will face are not good and will not use their champ correctly and beat you. So just Q her/dodge her Q and be careful of her e resets on minions. You should win all ins with ignite and shrooms in the wave. Call your jgl and her lane is doomed. Her only way of neutralizing the lane is maxing q and poking you with it, so remember its strength and don't forget that she can poke through the minions.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Kayle",
-        "difficulty": "Even",
-        "idmatchup": 25,
-        "tips": " | You can go both the standard build and burstmo, I would decide based on what you like and how the enemy team looks like. Take 3 points into q because she is mostly aa based. | Punish her early and call your jungler for dives, care about her powerspike. You have to zone her super hard with your riftmaker sustain and you can even play between the two towers to zone her off exp, the more exp you deny the better you will do.",
+        "idmatchup": 9,
+        "tips": "Maxing (Q) is your best choice & Oblivion orb is mandatory once she acquires Vampiric / BOTRK you lose without it. Late game (Q) this becomes less effective simply due to her gap close chase and lock downs which tends to be impossible to avoid. It's a pain and you can sort of get around it by building Plated steelcaps. Try your best to close out the game before late game arrives. She is a monster later in the game. Early game it's all about avoiding her stun and staying away from low HP minions so she can not dash through them to you with a stun. If you get hit by her (R) don't touch the blades. Flash / sidestep her ultimate. If you get stunned she will win every trade so it's pretty much dodge or die.",
         "tipsFr": null
     },
     {
         "championName": "Kennen",
         "difficulty": "Major",
-        "idmatchup": 26,
-        "tips": " | Go the standard PTA build, take unflinching and legend tenacity and build a ruby crystal early, consider a zhonya in your first three items. | Kennen is a weird matchup where he does have an all in etc, yet his poke can be unreliable (easy to dodge) and his all in can misfire. In general the threat is still very real though and if you're not careful you will get oneshot. This is why I recommend a tanky approach with tenacity in your runes. You want to be constantly pushing so that once kennen is lvl 9+ he can't just poke you with his q's",
+        "idmatchup": 10,
+        "tips": "Playing aggressive against him early and shoving him under his tower tends to be the better option, as he suffers from the same effect we have when pushed in. Side step his abilities and try not to get too close when you are hit, as he can stun you. If you are under your tower, and he decides to all in you with his (R) it would be wise to have a stopwatch in the early game, if you wanna be extra cautious. When he uses Zhonya's Hourglass and & tries to flash away shroom his feet immediately as he enters stasis as he nor any other champion can flash out of setting it off as they changed how it interacts.",
         "tipsFr": null
     },
     {
-        "championName": "Kled",
-        "difficulty": "Minor",
-        "idmatchup": 27,
-        "tips": " | Go PTA (Take cut down) and lots of attack speed. | Be careful of his all ins and gank setup with e. Use your Q when he is on you with his W. When kled is in his small form you need to be careful because your burst is not very strong and he could turn around a fight. In general you just poke him and dodge his q's and youre fine. Call your jungler for counterganks because his dive is very good due to tower aggro resets",
-        "tipsFr": null
-    },
-    {
-        "championName": "Lucian",
-        "difficulty": "Even",
-        "idmatchup": 28,
-        "tips": " | You can go both the standard build and burstmo, I would decide based on what you like and how the enemy team looks like. Take 3 points into q because he is mostly aa based. | Lucian is surprisingly tough because he isnt as hindered by the Blind as one would expect. He can also go corrupted potion+cookies, which means that his sustain is good. Furthermore he can go ignite, so he can trade evenly with you. | First you need to always blind his passive, lvl 1 he might try to auto e auto passive you, and you need to q him during his e or he will prock PTA and win lane. Just keep q'ing him and play in your minion wave. At 6 his culling is huge so be careful about that. | You can shroom him when the wave bounces back to you and kill him, so try to play mostly for poke and assasinations",
-        "tipsFr": null
-    },
-    {
-        "championName": "Nocturne",
-        "difficulty": "Even",
-        "idmatchup": 29,
-        "tips": " | Go the standard PTA build. | Nocturne is gonna push you in. You cant stop him. But you can harass him in the meantime and if he is bad maybe get a kill. If he plays noc top he can only ult in the jgl or mid, so call out any roams. Go ninja tabi and/or seekers armguard so that he cant 1 shot you at lvl 6. Basically the entire lane is uninteractive, with kill pressure if he is bad. You outscale lategame but he is stronger midgame.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Malphite",
+        "championName": "Akali",
         "difficulty": "Major",
-        "idmatchup": 30,
-        "tips": " | Take Fleet Footwork with second wind. | Malphite pressed Q. Its super effective! Malphite pressed R. You're dead! | Grab a ruby and harass him early (Goal is to get huge cs lead and win through item lead). When building your nashor or riftmaker make sure to buy the flat ap first, so that your fleet footwork healing is as high as possible. Make sure to keep his passive shield down as much as possible. Flash his ult and you're fine. Malphite is pretty gankable early game.",
+        "idmatchup": 11,
+        "tips": "Never trade with Akali while her shroud is up! Your poison will reveal her location, so keep an eye on where her silhouette appears so you can avoid her gap close to trade with her. Unlike when she was first released, she is no longer unstoppable. You will have enough time to throw out a (Q) or (E) before she hides again within her shroud. You can use minions to body block her (E) shuriken. She can also use it to dash over walls and gain distance from you. Do not let her land this or you will LOSE the trade immediately. You must try your best to side step or bait her (E) before trading while her shroud is down! Her sustain is worse than it was in Season 10.",
         "tipsFr": null
     },
     {
-        "championName": "Maokai",
-        "difficulty": "Even",
-        "idmatchup": 31,
-        "tips": " | Go PTA (Take cut down) and attack speed. | Maokai just sort of w's you and you die. Dont go close to bushes because of his e (unless early game to zone him away). Dont go for harass when he wants to cs with his q (you will probably get hit by it). Look at their junglers pathing because maos gank setup is crazy. If mao all ins without his jungler commit with ignite and try to kill him (doable with agressive build and PTA). Be alpha",
+        "championName": "Jayce",
+        "difficulty": "Major",
+        "idmatchup": 12,
+        "tips": "Jayce has been one of the hardest counters, for quite a long time. He has range, gap close, CC, mobility and better wave control and better burst. Avoid getting into an extended fight with Jayce, keep your distance and use minions to body block his (E) > (Q) range combo. Never let him get behind you, he will CC into lane cutting off your only route for escape. Maxing your (Q) can help with poking him from a distance as you want to not get too close. Also be aware that good Jayce players will (Q) > (E) in fast succession making it really hard to dodge his combo. He tends to fall off in comparison to our burst unless he purchases Maw of Malmortious.",
         "tipsFr": null
     },
     {
-        "championName": "Mordekaiser",
-        "difficulty": "Even",
-        "idmatchup": 32,
-        "tips": " | Go PTA (Take cut down) and attack speed. Take boots + refillable and cull on your first base. | It sounds simple, but as long as you dodge his e and q youre gucci. However if you get hit by it you die. Have fun dodging! Get qss for his ult and just splitpush all game",
+        "championName": "Ornn",
+        "difficulty": "Major",
+        "idmatchup": 13,
+        "tips": "Ornn is a champion that is CC heavy and also relatively tanky. He still deals a ton of damage, however, I would suggest a Ghost and PTA play-style against him, mostly due to his constant slows, he needs to be kited. You can run him down if he misses his stun. Avoid terrain and his pillar or you'll be CC'd and clapped hard. He can miss his ultimate, but it's up to you to juke him out, by pathing a specific way and then immediately turning the opposite way when he has sent out his (R) back towards you. If you don't dodge this, the CC is going to mess you up if you decide either to chase him or run away. He farms with (Q).",
         "tipsFr": null
     },
     {
         "championName": "Nasus",
-        "difficulty": "Even",
-        "idmatchup": 33,
-        "tips": " | Go Phase rush. | With phase rush he cant do much. Poke him a ton. If he cses with e he wont be useful later on. Q him when he goes for q to deny him stacks. Prock your phase rush a bit after he uses w because his w duration is longer than your phase rush. | Game against nasus on youtube: https://www.youtube.com/watch?v=WMwMMK1tVuA",
+        "difficulty": "Major",
+        "idmatchup": 14,
+        "tips": "Depends on the player but Nasus players either max (E) and deal a ton of Magic Damage with Corruption Potion or build Spirit's Visage and focus entirely on trying to max out as many stacks as they possibly can with (Q) for the late game, while maxing (W) which slows you for 95% (over a duration) at max level. You should be focusing all of your efforts on preventing him every single cannon minion stack by blinding him before they die. You don't counter him outside of laning, he counters you severely late game, however, with the Rune build #2, you can mitigate this slow and slow duration drastically especially if your team managed to acquire a Cloud Drake or more. Letting you escape the massive 5 second slow by reducing it to 2.5 seconds and the slow resist up to 10-30% and with dragon that would go up to a max of 14% so roughly 30-42% Allowing us to utilize more mobility to outrun him!",
         "tipsFr": null
     },
     {
-        "championName": "Neeko",
-        "difficulty": "Even",
-        "idmatchup": 34,
-        "tips": " | Go fleet and look to just farm and Q | Again I dont think there are many good neeko players (even in challenger, only quinncidence knows how to play her). As long as you dodge her q's and e's (very predictable) you will be fine. Try not to get hit by her empowered w hit (just back off when she does it). Be careful of gank setup with her R. Later on teemo is much easier to play than neeko so you can outvalue her in teamfights.",
+        "championName": "Sion",
+        "difficulty": "Major",
+        "idmatchup": 15,
+        "tips": "I would recommend playing a PTA build into Sion. Avoid his bush cheese level 1, keep yourself on the rivers side and watch as he (Q)'s a minion wave from them. Watch your Red/Blue he may steal through his suicide passive early game before the lane begins. It's really all about kiting his (E) slow and then avoiding his (Q) charge up. Watch out for his (R) ult from base! Which you will hear from across the map. The changes to season 11 have made tanks more easier to deal with, since Adaptive Helm was removed, but I don't currently know if BOTRK will be useful at all since most all of them will simply be stacking AR more so that MR. But if they do rush Spectre's cowl. Sure!",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rengar",
+        "difficulty": "Major",
+        "idmatchup": 16,
+        "tips": "Rengar can be a tough TOP laner to go up against if he does go top, he's primarily a JNG. It's quite simple really. Let him win the lane. You can not do anything to him and he is efficiently capable of zoning you out of minion CS range. Just let him push and farm under your tower. Sidestep or use your minions to body block his bolas, or be snared/slowed and chased down. It may be demoralizing but this is what you absolutely need to do to survive this lane, please do not try to be some hero, unless he is mentally incapable of playing the champion correctly by camping bushes, then you lose this HARD. His (R) will reveal you so don't play passive game once he is 6.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Rumble",
+        "difficulty": "Major",
+        "idmatchup": 17,
+        "tips": "Avoid Rumbles (E) spam with jukes and minion block and back off a bit when he rushes into your minions with his (Q) flamethrower. Buying some Magic Resistance will go a long way for you. You want to predict where he is going to throw down his ultimate and simply, don't run through it as it will deal a hefty amount of damage to you. You can walk around it if he angled it to not completely block you off, or you can flash it if you wish to avoid it completely. If he is overheated you can play more aggressively as his abilities will be down for a short duration, but he also gains increased basic attack damage, so make sure you don't let him on top of you.",
         "tipsFr": null
     },
     {
         "championName": "Olaf",
         "difficulty": "Major",
-        "idmatchup": 35,
-        "tips": " | Go Phase Rush with boots +refillable into swifties + unflinching and w max second. | Dodge his q's and run immidately if he hits you, because you will die if you dont. Later on your outvalue him due to scaling, just survive early and concede cs. Ignite late due to his passive. His ult stops your q but removes resistances so you can blow him up (you will need to tank his autos though so you need to know your dmg)",
+        "idmatchup": 18,
+        "tips": "Olaf is a strong level 1-2 cheese champion. If he picks up his axe after throwing/hitting you, it will reduce the cooldown by 4.5 seconds. You can NOT (Q) most of his auto damage or slow him in his (R). He will often run Ghost and simply run you down once you get hit by one of his axes, if you are extended against him. He is very tanky and makes utilizing (R) and (Q) relatively useless. I would highly recommend you play a kiting build like PTA, as it requires less from you, and deals with many of the key issues when facing him. Focus on things like movement speed and the ability to kite and not rely so much on your (Q) or (R).",
         "tipsFr": null
     },
     {
-        "championName": "Ornn",
+        "championName": "Wukong",
+        "difficulty": "Major",
+        "idmatchup": 19,
+        "tips": "Wukong, I would suggest a more defensive rune setup like Grasp of the Undying or at the very least, Electrocute with Resolve. You can usually purchase Oracle Lens or look for the visual queue of your poison to know his position as he is running while in stealth, hold onto your blind until he has come out of stealth or if he immediately starts level 1 / 2 with his gap close engage to mitigate the damage before he ducks back into stealth, otherwise he will wait the full duration before dashing in. Simply start (Q) and max (Q). He can use his (R) twice which hurts a lot, and he is extremely tanky with the new Goredrinker mythic item so get some defensive items early.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Jarvan IV",
+        "difficulty": "Major",
+        "idmatchup": 20,
+        "tips": "He can not reveal you with his (E)-(Q) combo you simply get knocked up and take damage. His perk is he ganks hard and often, so try and save your flashes for his (R) which is unavoidable besides with deep vision before the gank happens. He tends to be relatively squishy despite this. You're going to be better off maxing your (Q) to mitigate as much damage as possible if you so happen to get caught out in his ult without flash. If you are laning against him be sure to only poke him once he has used his (Q) because it has such a long range and is pretty much unavoidable. If you do have problem with him a bit of AR can help you out in the long run.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Heimerdinger",
+        "difficulty": "Major",
+        "idmatchup": 21,
+        "tips": "You can (Q) his turrets and kill them with 2 (AA), so your objective is to focus on this and avoid using abilities, if you prefer to not max (Q). However, if you do max (Q) you can kill his turrets in one (Q) so long as you have the AP early game, which allows you to press your advantage of shoving him back and not setting up a perma shove into your tower. Keep on your toes scout! You need to be vigilant and keep avoiding all of his skill shots. Once his towers are down for a tiny second you can get in and poke him a little or continue to simply take his turrets down until he's out of mana. A good Heimer will keep you pinned under tower all game.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Neeko",
+        "difficulty": "Major",
+        "idmatchup": 22,
+        "tips": "Neeko is an absolute nightmare to deal with even though she has been tuned down and her damage has mellowed out. She is everything Teemo is, but better. If you get rooted you are pretty much dead, as you can't avoid being hit by her (Q) which will pulsate & splash multiple times. She will set off your (R) with her (W) which is annoying as hell. Don't show her where you've been placing shrooms as they do this in bushes, from lane and the corners of the walls setting them off prematurely. If they go full on-hit with PTA you're going to have a horrible time dealing with them as there isn't much you can do since their range is higher than yours. A good neeko will ruin your day.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Karma",
+        "difficulty": "Major",
+        "idmatchup": 23,
+        "tips": "She is a pain due to her mobility/shields/root, which only becomes more annoying as the game goes on longer. She can either go full AP or Tank, the second one being annoying as hell. It's very hard to chase her or trade efficiently, you can utilize your minions as a way to prevent damage from her (Q) or (R) > (Q) combo, but don't be overextended. If you end up shoving your lane under her tower, you will simply be ran down. She can easily clear the entire wave and run after you or get a gank and lock you down with her mobility and root. Try your best to match your waves through wave control so you're by your tower for allies to gank and stack some MR.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Yorick",
+        "difficulty": "Major",
+        "idmatchup": 24,
+        "tips": "You're going to need to increase your ability to side step and avoid his (W) and (E) if he catches you with either you really have no reliable way of escaping with the new patch his minions deal 200% extra damage when they jump to you. Try to (Q) him while he tries to grave stack a minion to slow down his ghoul spam. PTA is often the better choice in higher ELO to simply match his hard split-push potential. Hurricane will make short work of his ghouls and prevent a large scale split-push. That's it really. If he can't catch you, he can't deal with you. If you're playing any other rune, you can just max (Q) if you wish just be sure to never leave him alone in any lane.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Xin Zhao",
+        "difficulty": "Major",
+        "idmatchup": 25,
+        "tips": "Similar to that of Lee Sin, he is a very powerful off-meta laner. If you let him strike you with his (W) he can freely gap towards you and chain his knock-up combo from any range. While also being able to (E) to you if you are within 650 range. Respect his capabilities.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Akshan",
+        "difficulty": "Major",
+        "idmatchup": 26,
+        "tips": "Akshans passive allows him to fire two shots at once on a cooldown of 14-4 secs. You'll want to trade with him in between this time frame early game while he is CSing as this will put it on cooldown. His (Q) is exactly the same as Gnar's Boomerang granting him more movement speed when striking you. His (W) passive allows for him to revive ALL dead allies if he kills their killer so taking him out before anyone else is important, it's also like Twitch's (Q) but he can hug a wall / sit in bushes to prolong it indefinitely. His (E) let's him hook-shot a wall and swing around dealing damage to anyone he goes near, but will stop if he hits a target/terrain. His (R) is a lock on like Caitlyn, in which he stores bullets to fire in a blast like Lucian, use minions / towers to block it. Overall he can be a real pain to deal with when he is fed and rotating properly, control wards can help you track him.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Lee Sin",
+        "difficulty": "Major",
+        "idmatchup": 27,
+        "tips": "Lee is a really difficult champion to deal with due to his infinite energy bar and the ability to freely rotate his (Q), Ward (W) > (R) combo. If you get hit by him you're going to lose the trade, don't let him insec you or hit you in general with his (Q). He is an off-meta champion.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sylas",
+        "difficulty": "Major",
+        "idmatchup": 28,
+        "tips": "This matchup is dependant on the main rune Sylas chooses. Aftershock or Electrocute dictates how you should be fighting him. You need to by all means use your minions to body block his (E) dash into his (E) chain CC, especially if he is running Aftershock. If he misses this ability, make sure to run him down. He is squishy as hell if he misses. If he does hit you, however, there is not much you can do, because you let him land the ability and you're going to be taking a shit ton of damage. Throw your (R) on his (R) to track where he places them or buy Oracle Lens to remove the mushrooms he placed.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Maokai",
+        "difficulty": "Even",
+        "idmatchup": 29,
+        "tips": "Maokai can be a real pain to deal with, just keep your distance and do not allow him to get too close, as he will constantly knock you back, gap close, sustain and deal a ton of passive damage through his tanky item build. Void Staff will benefit you greatly in this match-up especially into the late game. You're better off keeping your distance and poking passively with your (Q). You can stop him from sustaining early game with Oblivion Orb and help you get more kill pressure upon him throughout it. Overall it's a pretty hard CC match-up where you don't want to be extended into him all game, due to gank pressure and his lockdown.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Riven",
+        "difficulty": "Even",
+        "idmatchup": 30,
+        "tips": "Start (Q) which will help you avoid her level 1 and 2 all in cheese. You have to play in a certain manner to completely negate the all in damage she does. You have to make sure you have your (Q) available for when she dives into you with the knockup followed by the stun. Blind her the very second you get knocked up with a level 2 blind to counter her empowered damage and mitigate as much damage as possible. She will either then try to run you down, or dash and back away. You can out-trade her doing this every time. Grasp of the Undying is the best rune for this match-up period, followed by Electro / Resolve. Grasp falls off late game in comparison.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vladimir",
+        "difficulty": "Even",
+        "idmatchup": 31,
+        "tips": "We sometimes take Doran's Shield into this match-up to match his sustain with grasp of the undying. However, this is based on personal preference. You should be working your way into a more damage oriented build around mid game. The simple way to deal with Vladimir is to watch his energy bar. If he is glowing red, back off and let him use it on a minion, as you don't wanna take the increased damage from his empowered (Q). Once he has used it, you can go in and try to poke him out with your (Q) or possibly your (E) auto attack, it may seem boring, and you may miss CS, but you'll go even or win because of it.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gangplank",
+        "difficulty": "Even",
+        "idmatchup": 32,
+        "tips": "Gangplank is all about his barrels, get comfortable with last hitting them. Gangplank can (W) cleanse our (Q), so try not to rely on it, we can't (Q) his (Q). Barrels are priority due to their 40% Armor Reduction that they ignore especially late game, be aware of him past level 13 on that aspect. Regardless of what some people may say to you, getting in close to pop his first or second barrel before he sets it to chain into his combo is extremely important. If you can't last hit them, you'll always have problems dealing with this match-up. The nerf to his (Q) and Grasp makes him much more easier to deal with now since we out damage his poke. His sustain, is still annoying.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Malphite",
+        "difficulty": "Even",
+        "idmatchup": 33,
+        "tips": "Depending on what build the Malphite is going (Usually Comet AP) you would want to be utilizing bushes to avoid poke, and only poking when you see him use his (Q) to CS as this will slow you, sending the comet down and there is no way to react to this without (W) active and Mercury's Treads. Don't overextend past level 6 nor have your lane shoved in. This is just asking for you to be ganked and locked down by his knock-up burst from his (R), so it's much better to try to keep the lanes even or pushed up towards your tower. Hold onto your flash to avoid his (R) at the last sec takes practice, stasis is an alternative.",
+        "tipsFr": null
+    },
+    {
+        "championName": "K'Sante",
+        "difficulty": "Even",
+        "idmatchup": 34,
+        "tips": "Early game is rather simple, he plays similar to that of a Yone or Yasuo with their wind flowing around them. If you see this, he has the ability to potentially knock you up and behind him locking you down especially around his turret. Into the late game he becomes more difficult to deal with as he is a scaling tank that can also deal tremendous amounts of damage. Once he is level 6, stay away from terrain, as he can grab you and throw you through them to the other side. If he is killed before the ultimate finishes you will get bugged and be unable to move for 6 seconds, before getting stunned for a second.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Udyr",
+        "difficulty": "Even",
+        "idmatchup": 35,
+        "tips": "Udyr is a pretty basic champion to deal with now that he has time to cool down with his rework. You'll want to utilize your (Q) as a form of stun mitigation while putting a few more points into your (W) for mobility purposes. This will allow a smoother transition from the laning phase into the mid-late game.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Trundle",
         "difficulty": "Even",
         "idmatchup": 36,
-        "tips": " | Go fleet and just farm forever | Level 6 youre in danger because of his ult one hitting you. Dodge his q e. Its a matchup where you cant do anything so poke where you can and just splitpush so that he cant group. Deaths are almost expected due to how his 6 is realistically undodgable",
+        "tips": "Trundle is pretty straight forward. You will often come out the victor considering he is a (AA) reliant champion. You can (Q) his empowered (Q) and you can utilize your passive against him, so long as you don't get hit by the direct location of his (E) pillar. His damage is very high. He tends to build pretty heavy as a bruiser as well, so a more tank shredding build and mitigation build is favored more over just pure burst potential. You can't reliably out-run a trundle because of his pillar and (W) movement increase he has, so utilizing passive to wait out his mobility is often the best option. His (R) will drain high HP champions, also granting him a ton of resistances in the process. He's great at running us down. Steel platedcaps are your friend.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Darius",
+        "difficulty": "Even",
+        "idmatchup": 37,
+        "tips": "I would highly suggest you to take an PTA or Lethal Tempo. That is, if you feel uncomfortable playing against him with any other runes, like Aery, DH or Electrocute. Boots will help you early game due to his +10 higher movement speed along with a few points in your (W) which complements PTA/Lethal Tempo. Otherwise feel free to start with Doran's Ring. Move towards him if he is going to land his (Q) spin so you can prevent a bleed stack & blind his (W) to prevent his slow. Regardless of what you think, this match-up goes either way. You either kite and avoid his pull or get caught and die. Stridebreaker really sucks to get caught by so respect it and keep your distance.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Sett",
+        "difficulty": "Even",
+        "idmatchup": 38,
+        "tips": "Sett is going to be all about CC and getting in close to chain CC you while dealing True Damage. You need to avoid the center of his (W) otherwise you take a lot of true damage depending on how much damage you dealt to him. This will also shield him with the correct combo, however, since Sett release his (W) cooldown got higher making it harder for him to spam it. It would be wise to constantly poke him from a safe range and avoid even remotely getting close to him. Lethal Tempo is the best rune to help with this, effectively crippling his ability to chase or hold you down, with Stridebreaker especially if you have caused him to blow his flash (R) previously.",
         "tipsFr": null
     },
     {
         "championName": "Pantheon",
-        "difficulty": "Major",
-        "idmatchup": 37,
-        "tips": " | Go grasp with boneplating so that you dont lose early trades. | Dont go for trades because his e makes him win all of them. Q him when he w's on you because your q blinds his auto attacks. Lvl 6 with ignite you can go for an all in once he w's you by throwing a shroom on yourself. Be careful of dives and ganks (you dont have many options so just manage waves correctly and track their jungler/call yours)",
-        "tipsFr": null
-    },
-    {
-        "championName": "Poppy",
-        "difficulty": "Minor",
-        "idmatchup": 38,
-        "tips": " | Go the standard PTA build. | Poppy is deceivingly tanky, so she is difficult to kill. Try not to trade when her passive is up. Dont get close to walls or she will e you. Otherwise you can poke her out, however you will end up scaling about the same. If she all ins you just shroom the wave with ignite and you probably win it",
-        "tipsFr": null
-    },
-    {
-        "championName": "Quinn",
-        "difficulty": "Minor",
+        "difficulty": "Even",
         "idmatchup": 39,
-        "tips": " | You can go both the standard build and burstmo, I would decide based on what you like and how the enemy team looks like. Take 3 points into q because she is mostly aa based. | Only time when she wins trades is lvl 2 by interrupting your auto attacks with e and landing her q if you don't stand behind your minions. Your damage is higher so you should be fine. Push so she cant roam",
+        "tips": "Use (Q) on him when he goes for his (W) stun on you, this will counter the 3 swift CONQ (AA), avoid bursting him when his shield is up as he will mitigate everything, so hold of until it is over and position yourself to deal max damage. His (Q) goes on a 10-5 second cooldown based on how long the ability was held. Use this knowledge to know when it is safe to go in to poke him. You can side step both the thrust/throw of his (Q), however, it will take some time to get used to it. If you are about to get hit by his (R) under his tower, it's better to run through his jungle from his side of the lane. You won't out run his ultimate in time, so go the other way.",
         "tipsFr": null
     },
     {
         "championName": "Renekton",
         "difficulty": "Even",
         "idmatchup": 40,
-        "tips": " | Go the standard PTA build. Buy a ruby crystal early. | Be careful of dives with their jungler. Use your q when he wants to use w to completely block it. Lvl 6 he will want to all in but you can kite him. Try not to be in his q range (atleast dont let him q and kill minions at the same time). Most renektons in lower elo will move incorrectly so you can poke him down and he wont get realistic openings to go in without the jungler. Respect his prowlers claw spike, his all in midgame is very strong and he outstats you.",
+        "tips": "Watch and listen for his signature glow. This is his stun! You also should never be trying to go for poke harass, while he is at 75%/max fury. The second you get too close will be when he dashes twice shreding your armor for 4 seconds and stunning afterwards with the empowered (W). You must respect him at full fury. He has a lot of kill potential against you, when you are in this position. You can, however, keep your lane shoved up to your tower where you can try and manage your waves to keep him back so you can stay safe near your tower. Remember he can dash twice if he hits a target with (E). He heals with (Q).",
         "tipsFr": null
     },
     {
-        "championName": "Rengar",
-        "difficulty": "Major",
+        "championName": "Kled",
+        "difficulty": "Even",
         "idmatchup": 41,
-        "tips": " | Go the standard PTA build. | Rengar just heals your dmg with w and denies poke by sitting in his bushes. Play towards the river and just farm. Try to either push waves to force him out of his bush or freeze it in front of his tower so that he struggles farming. WIthout the jungler you should win all ins with ignite. Main problem is not dying to ganks and not overstepping into him in lane due to his bush range. Concede a few cs and you will be fine, but its difficult to play.",
+        "tips": "You need to avoid his hook and keep moving away from him if he does hit it, which is pretty standard advice. (Q) him if you ever get pulled in to prevent the first 3 swift (AA) from his (W) and try to get out of his reach with one of your Shrooms placed down as he dashes towards you. You can not body block the grapple with minions, so be careful of his (Q) and (E) > (Q) cheese. If you hear him (R) you can go into stealth. He won't be able to target you, because his ability is not a target skill but a visible range skill. Excellent if you want to assassinate his ADC when their entire team rushes ahead of you for you to flank.",
         "tipsFr": null
     },
     {
-        "championName": "Riven",
+        "championName": "Jax",
         "difficulty": "Even",
         "idmatchup": 42,
-        "tips": " | Go the standard PTA build. Buy a ruby crystal early. I don't recommend boneplating in master+ because riven can easily prock it. | Lvl 2+6 she wants to all in, so if you poke her beforehand or are prepared to flash her ult you will be fine. In general you win all ins against her but its important to have good movement to not take free damage from her q combos.",
+        "tips": "If the Jax you are fighting is going (E) into (Q) into (W) you simply hold your blind for when he initially lands on top of you. This will prevent empowered damage once you are stunned. However, if he is using (W) into (Q) into (E) you will most likely have a very bad time since you can not blind that initial combo so (Q) him after he is on top of you and he uses his (E). Don't attack him while he is in his (E). Focus all of your attention to (Q) him in fights if he is the main threat. If he is building full AP you will want some magic resistance to counter his (E) damage scaling. Mercury's Treads would be a solid choice.",
         "tipsFr": null
     },
     {
-        "championName": "Qiyana",
+        "championName": "Mordekaiser",
         "difficulty": "Even",
         "idmatchup": 43,
-        "tips": " | Go the standard PTA build, with a ruby crystal early. Make sure to go resolve second to survive all ins later on. | All assassins toplane play out the same way. You push early, maybe you can dive at lvl 3 and then eventually they get lvl 6 with ignite and you're in trouble. Make sure to dodge major abilities and go in once the cooldowns are down. Buy hp/resistances early, zhonya is often good early.",
+        "tips": "Mordekaiser can be quite a pain to deal with in most cases. However, he isn't that bad to fight in lane against. The objective is to avoid not getting hit! I know that this is probably wishful thinking, but you have to understand... This champion is a \"catch\" lock down & run down type of champion. Keep on your toes and dodge all his skill shots and you should be fine as he won't be able to activate his passive. If Mordekaiser uses (R) on you, you have 3 options. Buy QSS, fight him (most likely lose) or take advantage of your passive in a nearby bush, while waiting for his ultimate to end. Teemo loses once he is caught.",
         "tipsFr": null
     },
     {
-        "championName": "Rumble",
-        "difficulty": "Major",
-        "idmatchup": 44,
-        "tips": " | Go the standard PTA build. Take second wind if you tend to struggle in this matchup. | Try and farm, dodge his e and trade after he uses w. His q outdamages you so youre a bit stuck. Make sure you keep your blind for when he overheats so that he cant oneshot you with overheated autoattacks horribly. Get ruby and nullmagic and just hope that your team is better or that you can get a better position a teamfight. In",
-        "tipsFr": null
-    },
-    {
-        "championName": "Ryze",
-        "difficulty": "Extreme",
-        "idmatchup": 45,
-        "tips": " | (dodge) | You can go both PTA for early cheese or just fleet to survive while you hope for a better team. Ryze is significantly scarier with comet and scorch instead of phase rush. | Problem with ryze is that you cant rly outplay him. Lvl 1 a good ryze just w's you. You have to auto q him back. lvl 2 you should try to stand back because his e w rly destroys you, so just push the lane. Dont stand close to the wave when he uses his e q's and dodge his q's since you will be standing outside your minion wave a lot. Try to abuse a kill onto him with a jgl gank or from lvl 6-11 with your passive+shroom. You dont win short+long trades so only hope is jungle pressure, cheese or him just really playing terribly.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Samira",
+        "championName": "Volibear",
         "difficulty": "Even",
-        "idmatchup": 46,
-        "tips": " | Go the standard PTA build. Buy a ruby early and consider going zhony a early to counteract her ult. | Samira is surprisingly difficult because she can space you with her q and you can never blind her due to her w. Her all in is also pretty strong so there's not too much that you can do. Mostly just push and try to get q poke on her.",
+        "idmatchup": 44,
+        "tips": "With the recent Volibear rework, some people have been having problems with him, but overall it's much easier to deal with him. The main problem is his movement speed. You would do well with starting (Q) early to avoid his level 1 (Q) stun cheese. We can blind the stun. He no longer can reveal us in bushes, so it's a good safe haven. A few extra points in your (W) will go a long way with this match-up. It's quite easy to keep your distance, however, be wary about his (R) which he can use to close the gap to get on top of you. It's a small AoE for damage that slows and disables nearby turrets. A Zhonya's would help here.",
         "tipsFr": null
     },
     {
-        "championName": "Sett",
-        "difficulty": "Minor",
-        "idmatchup": 47,
-        "tips": " | Go PTA if youre confident or Fleet Footwork if you're scared | Go boots into swifties with w max second. | If you just run you wont get hit by his e. | If you see him using q e you need to w away from him and not turn around or he will land his e. | If he somehow lands his e anyways, just like with shen try to blind him right before you get hooked in, because usually sett will Q right after his e | Dont go for harass when he uses w and instead just run out. | If you took a long trade with sett and he didn't use w yet, stop the trade and just let his rage bar run out | Lvl 6 he wants to engage or even worse throw you into his tower so make sure to distance yourself. | Your poke deals no dmg due to his passive so just farm and hyper outscale him. | If for some reason you still struggle with this matchup then buy qss and he cant ult you.",
+        "championName": "Cho'Gath",
+        "difficulty": "Even",
+        "idmatchup": 45,
+        "tips": "While fighting or simply laning, you should always be positioning yourself away from his angle to avoid his spikes that slow you. The second you let him line up a spike-slow, you will be swiftly met with your death through his knock up and more often if he is running Glacial Augment. He is a high HP and sustain stacking champion through killing minions, so preventing his sustain makes killing him easier. If he misses the knock up and can't land a slow, you can simply run him down with auto attacks and burst from your (Q). Be aware if he is running Glacial as it is a huge threat and you really need to play well.",
         "tipsFr": null
     },
     {
         "championName": "Shen",
-        "difficulty": "Minor",
-        "idmatchup": 48,
-        "tips": " | You can go electrocute with the standard PTA build because electrocute procks through shen W. | Get boots first, however w max and swifties are optional. As long as you dodge his e youre gucci. If you cant dodge it q him during his travel time so that his q auto attacks dont deal as much dmg. Try to poke him in lane but never under the tower (free e for him). Hard shove him in so that roaming means that he will lose cs and exp. Spam ping your teammates once he is lvl 6 or they will die like bonobos.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Shyvana",
         "difficulty": "Even",
-        "idmatchup": 49,
-        "tips": " | Go the standard PTA build. | Shyvana is surprisingly hard to punish because she just farms the minions with her e and all ins you at lvl 6, especially if its ignite tp shyvana at 6 be careful, her base dmg is insane. You shouldn't fight her and back off. Imo you can't really kill her, harass her early game and focus on farming.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Sion",
-        "difficulty": "Major",
-        "idmatchup": 50,
-        "tips": " | Go Fleet footwork (cut down and unflinching minor runes) with boots+refillable potion, swiftness boots and w max second into the normal PTA build (demonic embrace has more value) | You basically have to dodge his skillshots and youre fine. If you dont dodge them you will die quickly. If it isnt the baus he will do mistakes and give you free harass. His q hitbox is a lot larger than it seems so always run perpendicular to it and you should be okay (same with his ult). Due to your large amount of movement speed and small hitbox many sions will fail their q's and release it too late. Q him when he dies, because zombie sion deals a ton of damage. Sion w deals full dmg even if the shield is only 2 hp big so dont go for trades if you werent able to poke his shield down before it explodes.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Singed",
-        "difficulty": "Tiny",
-        "idmatchup": 51,
-        "tips": " | The easiest matchup in the game. Go the standard PTA build. | Just harass him in lane and he cant cs. Dont get flung into his w under tower or you will die. Level 6 he might all in but you should win with ignite and your shrooms. If he proxies just hope that your jgl deals with it, else you just farm. Later on he can 1v1 you if he is somehow even (which he shouldn't be) but by that point you should be outvaluing him in teamfights.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Swain",
-        "difficulty": "Even",
-        "idmatchup": 52,
-        "tips": " | Go the standard PTA build. | Swain is surprisingly strong when he presses his ult and he has a lot of easy abilities that aren't dodgeable once he all ins you, try to cheese him lvl 1 and dodge his e at all costs, as it sets up his other major abilities. Prepare shrooms to kite back to for his ult and ignite him once he ults but you should be able to win the trade.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Sylas",
-        "difficulty": "Even",
-        "idmatchup": 53,
-        "tips": " | Go the standard PTA build. | You can hard harass him early. Be careful of long trades later on where he can prock w twice (usually means you lose). Sylas is surprisingly squishy so you can blow him up. You can bait him if you think you will win by allowing him to hit his e. In all ins his ult isnt very useful against you because it takes so long.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Syndra",
-        "difficulty": "Extreme",
-        "idmatchup": 54,
-        "tips": " | Go the standard PTA build. Cheese lvl 1 and go swiftness boots or merc threads. Constantly push in the early game until she gets lost chapter and around lvl 5-6 and can just bully you out of lane. | Even if she isnt top, by the nature of the champ you cant do anything. Pray that you have the zoomies, dodge everything, build defensively and hope your champ does something. If syndra is mid/bot she makes your teamfighting rough too, which is why I added her here.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Tahm Kench",
-        "difficulty": "Major",
-        "idmatchup": 55,
-        "tips": " | Go Fleet footwork with cut down and unflinching. Take boots + refillable pot and buy swiftness boots asap, then transition into the standard PTA build (liandry and demonic are valid alternatives). | Use your huge movement speed advantage and small hitbox to prevent tahm to q you. You can hear his w so be prepared to dodge it (its always dodgeable no matter what angle). Don't harass him too much under tower as his ult is a death sentence. Don't underestimate tahm kench at low hp as his q heals him a lot and his shield is decent as well at lower hp values. If you constantly push tahm kench in he will have trouble csing and his w engage will never work due to your swiftness boots+unflinching running away.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Talon",
-        "difficulty": "Even",
-        "idmatchup": 56,
-        "tips": " | Go the standard PTA build, with a ruby crystal early. Make sure to go resolve second to survive all ins later on. | All assassins toplane play out the same way. You push early, maybe you can dive at lvl 3 and then eventually they get lvl 6 with ignite and you're in trouble. Make sure to dodge major abilities and go in once the cooldowns are down. Buy hp/resistances early, zhonya is often good early.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Teemo",
-        "difficulty": "Extreme",
-        "idmatchup": 57,
-        "tips": " | Wtf ure getting hacked.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Tryndamere",
-        "difficulty": "Even",
-        "idmatchup": 58,
-        "tips": " | Used to be an easy matchup. Now even. You have two options: 1. Stand your ground with ignite and PTA and try to kill him. 2. Go Fleet Footwork and kite him. I prefer the second option. Use your q once he e's into you and kite back into your tower. Place defensive shrooms so that you can kite him. Go seekers armguard (into zhonyas later on) and sorc/tabis (preference). Do 3 points into Q, followed by E max. If you max q you can go into a bush and legit stealth in front of him if he used his e. Lategame try to kite him and get his ult out, then go into zhonya to refresh your Q cooldown. This way you can legit win mid/lategame.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Trundle",
-        "difficulty": "Minor",
-        "idmatchup": 59,
-        "tips": " | Go the standard PTA build. | Really simple matchup, q when he goes on you, ignite when he ults",
+        "idmatchup": 46,
+        "tips": "Shen will mostly build a bit tanky with Wit's End as his primary way to deal a lot of AP damage late game. It would be wise to never utilize your (Q) to poke him unless he has recently used his (E) dash and landed his taunt while in his (W) spirit blade which prevents our (AA) damage from landing, otherwise he can simply stun you and wait out the duration with his (W). He is going to often roam and help his team out a lot and be right back in the lane shortly after with his teleport, you could follow after him, but for the most benefit to your team, try to damage him as low as you can before he arrives, making him very weak.",
         "tipsFr": null
     },
     {
         "championName": "Urgot",
         "difficulty": "Even",
-        "idmatchup": 60,
-        "tips": " | Go the standard PTA build. Take unflinching to reduce his ult and q slow (swiftness boots are okay) | Your Q stops his W. Until lvl 13ish you just deal more damage than him and kick his ass. Afterwards no matter what build you do, if you are even he will be quite tanky and have a bit of kill pressure. Thus its important to shut him down early, to snowball, to get enemy camps and then to kill the rest of the team, blinding him and dealing with him at the very end. Be careful of gank setups with his r at 6 (very strong slow), care he has good lvl 1 if he goes E and if you get hit by E you may be in trouble.",
+        "idmatchup": 47,
+        "tips": "You completely counter Urgot's ability to spam his indefinite late game (W) toggle. The second you get caught out by his (Q) slow, he will follow up with a dash forward, to attempt to flip you. If you are unfortunate enough to get hit by the flip, you should then prioritize immediately blinding him the second you land or while you are airborne with a level 3 (Q). While you are in this position you have a very little amount of time to react, but ultimately you just want to focus on activating your (W) and getting away as fast as possible while sidestepping his (R) as you won't escape once you're trapped in his (Q)/(R) slow and / (W) channel.",
         "tipsFr": null
     },
     {
-        "championName": "Volibear",
-        "difficulty": "Minor",
-        "idmatchup": 61,
-        "tips": " | Go the standard PTA build. | I used to think this matchup is hard. However if you just play alpha, constantly harass and play with PTA+ignite he will die before you. Always make sure to Q him before his Q lands. Try to have weird movement whenever he e's, so that he can't land it on you. If he tries to all in you, expecting you to run but then instead you run towards his tower he may miss his r+e and just die. Try not to give him a 2nd W, it goes through Q, heals a lot and damages you a lot.",
+        "championName": "Shaco",
+        "difficulty": "Even",
+        "idmatchup": 48,
+        "tips": "Despite being a champion that is annoying to deal with due to his invisibility and traps, you can still sniff him out. Keep your eyes on the surrounding area if you have recently attacked him with (E) or (R) as it will give away his current location. Alternatively you can simply use an Oracle Lens. If you used Ignite or Exhaust on him, the effect will not transfer to his clone this also goes double for runes like Press The Attack. So focus on the one with the SFX that is visible it's the real Shaco! His boxes target everything in range, so if your entire team stepped on one of his boxes, expect everyone to take damage whilst being feared, ward early because of his very quick early game clear rate.",
         "tipsFr": null
     },
     {
         "championName": "Viego",
+        "difficulty": "Even",
+        "idmatchup": 49,
+        "tips": "Ultimately Viego is like facing Pantheon and his spear jab, as all Viego can really do is (Q) spam to reach you from range you really want to try to fight in the open away from walls / terrain otherwise he will have the advantage, fighting in the jungle isn’t a good idea vs Viego because of his E and his Ultimate. His E will allow him to gain camouflage and be able to hop in and out of vision which offers him a lot of extra kill protection and survivability. Max your Blinding Dart due to his auto attack reliant nature as well. Viego’s Passive allows him to possess a dead body and take their basic abilities (Q-W-E) and items (among other things). When he does this, he becomes invulnerable and can dodge incoming damage but you can drop a shroom at his feet.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Fiora",
+        "difficulty": "Even",
+        "idmatchup": 50,
+        "tips": "Fiora is not hard as you can reset her passive by simply walking away and coming back, if you don't you are just giving her free sustain & damage. You should only ever be engaging her when the passive is angled behind you or against a wall, where she can not simply (Q) you for free. One of the biggest things to know is, you should never-ever, start or try to finish her off with (Q) -> Ignite combo, as she can very easily parry them both at the same time, same thing goes for Electrocute. What you need to do, is keep auto attacking until she parries. Avoid it, then go all in. If she ults position the final vital against a wall. Protect it and duel her.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Gnar",
         "difficulty": "Minor",
-        "idmatchup": 62,
-        "tips": " | Go the standard PTA build. | Make sure you are always pushing because it can be a bit difficult to deal with him if he pushes into you and harasses you with q. Respect his e and don't let him w you from it and you will be totally alright.",
+        "idmatchup": 51,
+        "tips": "Gnar is a pretty visual champion so you can take into account when to poke or avoid him. If he is yellow/red he is soon ready to transform into Mega Gnar, if he is glowing BLUE after hitting you 3 times, he gains mobility so keep your distance. You want to keep yourself away from terrain while he is Mega Gnar, otherwise he will simply jump to you, combo his ultimate and slam you into the wall, followed by a barrage of his abilities which will further stun you. The laning phase will consist of him trying to land his boomerang which can hit you once on the initial hit or on the return granting rage. He has died down in popularity with the Divine Nerfs.",
         "tipsFr": null
     },
     {
-        "championName": "Vladimir",
-        "difficulty": "Even",
-        "idmatchup": 63,
-        "tips": " | Go the standard PTA build. Cheese level 1 | Trade agressively early on. Dont trade if he gets empowered q. With ignite you can always kill vlad because he will panic w and lose too much hp. Ask for the jungler and set him behind so that he cant become monster late game. Even late game vlad doesnt run any resistances so you can blow him up and zhonya his ult burst. Go morello against his healing (if he is stupid he wont go mr and you 1shot) If youre really good this is playable but else it iwill be hard for you to find the right openings.",
+        "championName": "Vex",
+        "difficulty": "Minor",
+        "idmatchup": 52,
+        "tips": "Vex is pretty overpowered as a Support or Mid laner, but as a Top laner she doesn't really have much impact due to her immobility. When her bar is full, you have to be aware of her flee engage (it will slow you by 60-99%) along with her level 6 (R) as you can not utilize minions to body block it. If you get struck by this ability she will be able to close the gap on you immediately. If a target is killed this skill can reset letting her recast it to chase you or allies down. The simplest way of dealing with her is waiting for her bar to revert to 0 stacks. Once this happens, run her down. She has no escape outside of fearing you, so if she misses her ability punish her and force her flash.",
         "tipsFr": null
     },
     {
-        "championName": "Wukong",
-        "difficulty": "Even",
-        "idmatchup": 64,
-        "tips": " | Go the standard PTA build. | You can q his q and win the all ins, but you need to be careful of double ults with his clone and of his gank setup for his jungler. Since his passive only gives him armor you can sort of win every all in after 6, however laning phase can be rough due to his stickiness. In the current 12.4 form wukong isn't that strong and doesn't have very good items to build vs teemo so you straight up win the statcheck",
-        "tipsFr": null
-    },
-    {
-        "championName": "Yasuo",
-        "difficulty": "Major",
-        "idmatchup": 65,
-        "tips": " | Go the standard PTA build. Prioritize zhonya to stop him from knocking you up later on. | Yasuo is a skill matchup. Try to auto him right before his passive is up so that your poison tick can prock it. Try to be unpredictable with your q because he can windwall it. With shrooms once he starts to dash around you can sort of plant them in his face and kill him, however extremely good yasuos can outplay you. Its difficult to explain in a guide, because the matchup is heavily dependant on your auto spacing and how you react to his q's",
-        "tipsFr": null
-    },
-    {
-        "championName": "Yone",
-        "difficulty": "Major",
-        "idmatchup": 66,
-        "tips": " | Go the standard PTA build. | Try to bait his w because else his shield+dmg will always outrade your auto+q. If he e's away from you because he is low hp you can often just wait out his e and place a shroom on his shadow, eventually killing him. Be very aware of his q3 tornado, as he can setup his ult and w. This is also why at lvl 3 you should always back off if he has tornado and wait out his cooldown so that he can't e q3. Later on zhonya helps against his combos, but yone can be really annoying.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Yorick",
-        "difficulty": "Major",
-        "idmatchup": 67,
-        "tips": " | Go the standard PTA build. | Yorick doesnt really die. You can poke him early but after 6 his dps is strong. You HAVE to dodge his e if you want to survive. You HAVE to predict his w or you will blow flash/die to ganks. Q him when he goes for q's so that he cant get ghouls up as quick. When he gets his ult try to attack it if its pushing the wave. Otherwhise you just wait for your jungle in laning phase. Try to teamfight before he becomes a splitpush monster",
-        "tipsFr": null
-    },
-    {
-        "championName": "Zac",
-        "difficulty": "Major",
-        "idmatchup": 68,
-        "tips": " | Go the standard PTA build. | Consider swiftness boots + w max second and oblivion orb. Prioritize csing later on over trying to kill him, it can be very risky. | The lane is going to be really easy initially, but later on he can engage on you at any time with maxed out e and set up a ton of ganks and there is no real counterplay.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Zed",
-        "difficulty": "Even",
-        "idmatchup": 69,
-        "tips": " | Go the standard PTA build, with a ruby crystal early. Make sure to go resolve second to survive all ins later on. | All assassins toplane play out the same way. You push early, maybe you can dive at lvl 3 and then eventually they get lvl 6 with ignite and you're in trouble. Make sure to dodge major abilities and go in once the cooldowns are down. Buy hp/resistances early, zhonya is often good early.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Zilean",
-        "difficulty": "Major",
-        "idmatchup": 70,
-        "tips": " | Go Burstmo and max Q. | Zilean is a pain in the ass as he can basically guarantee a double bomb combo by pressing e q w q. This is why I recommend going unflinching + swiftness boots to deny his slow and often only get hit by 1 q. Play very aggressive early game, cheese level 1 in lane and push him in as zileans early csing is very difficult. Later on zilean outscales you with everfrost and the best you can hope for is catching some cs under the tower, but its a real pain.",
-        "tipsFr": null
-    },
-    {
-        "championName": "K'Sante",
-        "difficulty": "Even",
-        "idmatchup": 71,
-        "tips": " | Fleet footwork or PTA should work well in this matchup. Riftmaker or Liandry should both be good. Treat this as any other juggernaut really, just weaker. I haven't played this matchup a lot so its hard to tell. TECHNICALLY you should be favored. Try to have the push so that he can't stack his q (just like vs yone). One he has 2 stacks on his q focus on dodging it over anything else. You should win most all ins simply because your blind is so powerful. If you think that he will all in maybe keep your blind until after K'Sante ults, since it dramatically increases his auto damage. If he is charging his w Shield you usually have the timer to throw a shroom in the wave and guarantee hitting him.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Karma",
-        "difficulty": "Major",
-        "idmatchup": 72,
-        "tips": " | Difficult matchup especially because of her W gank setup, you can win isolated 1v1. Go Fleet Footwork to deal with her poke and swifties to run out of her w. Bait out her mantra Q in the early game. Once she has liandry she can mantra Q into w into mantra Q so just farm waves and outscale her in teamfights. If you dont die in lane youre usually more impactful because they struggle with facechecking objectives without a tank top.",
+        "championName": "Garen",
+        "difficulty": "Minor",
+        "idmatchup": 53,
+        "tips": "Garen has been one of those long time easy match-ups for Teemo, however, with recent changes it made him a even match-up strictly due to the fact that he is much faster and deals much more damage. If you see him activate his (Q), you should activate your own (W) to keep your distance. If he manages to catch you hit him with your (Q) to prevent his (Q) silence. Keeping your distance and poking safely while out of his reach is a solid strategy. He gains more damage based on attack speed from his (E). So don't get caught with him spinning into you. Morellonomicon will help with his massive sustain.",
         "tipsFr": null
     },
     {
         "championName": "Gwen",
-        "difficulty": "Even",
-        "idmatchup": 73,
-        "tips": " | Press the attack and Fleet Footwork are both good. Usually you would go wits end into riftmaker. If you feel funny you could go aery q max, but she can tank your q dmg with her hallowed mist (w). You should bully her SUPER hard early game and get an item lead, so that her all in isnt strong. She SUPER spikes on riftmaker, so thats the first time she will have threat on you. Besides that just blind her when she dashes on you (e) and avoid her e q true dmg.",
+        "difficulty": "Minor",
+        "idmatchup": 54,
+        "tips": "If you can prevent her from auto-attacking to get her stacks up with (Q) do so, as it will render her (Q) weaker, if she has 4 stacks of her passive she can do multiple (Q) snips. Bait out her (W) with (E) or she will invuln it. Gwen is an AP tank shredder. She has a dash on her (E) that acts like a Lich Bane proc on her next basic auto attack, so countering it with (Q) is very resoureful, as she is dashing blind her. The most annoying thing about her skillset is her (W). It's like Xin and his (R) but she gets it every 22-14 seconds as early as level 2. This prevents her from being targetted by anyone outside of the arena. If you wish to kill her, you will have to either force her out or stand in the radius with her. She can move it with her once. So put the pressure on. She is mobile, but mostly squishy outside of her invulnerability. Poke her hard especially when her (W) is down, staying inside can be difficult.",
         "tipsFr": null
     },
     {
-        "championName": "Cassiopeia",
-        "difficulty": "Ideal",
-        "idmatchup": 74,
-        "tips": " | Teemo has no synergies with any champions. This may sound bad but it means that your champ fits into close to every teamcomp. Cass is the one exception. | Your E gives her free E's. Also super late game insurance. Your shrooms make it easier for her to close the gap",
+        "championName": "Lillia",
+        "difficulty": "Minor",
+        "idmatchup": 55,
+        "tips": "Lillia can be an annoying champion to deal with. If you get hit by her (Q) AoE she gains a ton of bonus movement speed making it near impossible to actually trade with her since she can hit you for % HP on every (Q) on a 4 second cooldown. The edge of her (Q) is true damage. Besides her movement speed and damage her (W) deals less damage if you avoid the center and 200% in the center. It's pretty pronounced. Side step and do not stand behind minions when her (E) is cast, this is how she can start an engage on you from a distance with her (R). Despite everything she is extraordinarily squishy and easy to burst.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Dr. Mundo",
+        "difficulty": "Minor",
+        "idmatchup": 56,
+        "tips": "The changes to Mundo made his extremely weak to AP champions due to the rework of his old (E) MR scaling. Really the only thing needed to be taken into consideration while fighting a Mundo, is straight up his cleavers and his massive, massive sustain. He will spend quite a large amount of time keeping his distance and landing his cleavers to last hit. He will become a threat the moment he keeps landing cleavers on you since he can proceed to run you down. A more mobile and poke approach is more favorable. Each time he kills a minion with his (Q) it grants him half of the life cost spent. You can body block cannon minions to prevent him some gold. Watch his body language to avoid getting caught out with his allies gank. Morellonomicon is mandatory.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Swain",
+        "difficulty": "Minor",
+        "idmatchup": 57,
+        "tips": "Swain's biggest thing is his sustain and CC. Side stepping against his (E) is something you need to learn how to do. It's pretty visual when he is about to use the ability as he reels back his arm in a swiping motion. Keep your distance from low HP minions as he can shock you through his (Q) just like other champions like (Cho'gath / Lissandra). His (W) and (E) combo can reveal you in bushes but he can't pull you out of stealth if you're hit while in passive. He has a lot of sustain with his (R) and if he kills a target, he gets a soul fragment which can also grant him sustain and increased life. It's really all about positioning and avoiding the initial (E) pull towards his burst.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Ambessa",
+        "difficulty": "Minor",
+        "idmatchup": 58,
+        "tips": "She is currently being played as a fighter, not really too tanky or that overly difficult to really deal with as a solo laner, until players start playing her more effectively with itemization and proper understanding on the champions rotations. Regardless,, it’s when she catches you out while being backed up by her team that makes things extremely difficult due to her massive mobility that prevent you from being able to fully utilize your own mobility to side step and kite or at least try to kite her. Her roams are pretty devastating especially as a support, so you’ll need to make sure you’re warding deep and keeping tabs on that mini-map, she can ult over terrain and potentially catch you out and really ruin your whole day.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Tryndamere",
+        "difficulty": "Minor",
+        "idmatchup": 59,
+        "tips": "Tryndamere has been a very easy match-up for a long time. It would be wise for you to start (Q) to prevent his all in level 1 and 2 (E) cheese, keep maxing out your (Q) after you have invested (2) points into your (E) for CS’ing realibly. Once he gets level 6, he will try to tower dive a lot or he will simply try and catch you out in the lane. You never want to be extended into a Tryndamere unless the lane is one sided and you are winning hard, because again all it takes is for him to (E) > (W) and run you down with his (R) to prevent his death, long enough to kill you or while he is getting ganked in a 1vs2 scenario.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Camille",
+        "difficulty": "Minor",
+        "idmatchup": 60,
+        "tips": "Camille is a pretty good trader, just try to avoid the outer ring of her (W) which applies a 80% slow, to do this move towards her or bait her with movement. You’ll be fine if she tries to gap close and take you on, in a 1vs1 as long as you (Q) as the initial CC strikes you this dash is avoidable. Her (R), however, is not so easy to avoid as it locks you in place. Don’t over-extend once she hit’s level 6. We can not force her out of her own ultimate with a hard CC so we have to do our best by freezing the lane and avoid hard shoving, unless you dominated the lane. I advise you to take Fleetfoot as to cripple any of her attempts to cheese you early game and also to match her sustain and poke damage.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Illaoi",
+        "difficulty": "Minor",
+        "idmatchup": 61,
+        "tips": "Illaoi has to be played through her passive. Keep taking the tentacles out as they grant you (5g) and prevent her from landing chain abilities, like when she uses her ultimate and hits a target nearby. That being said her ult needs to HIT a champion to activate. It's flashable and avoidable if you Zhonya. However, she is a very simple champion to deal with I would suggest learning to bait out her (E) and side step her tentacles (E) combo and her (Q). If you allow her tentacles to remain and they hit you, she will gain sustain for every tentacle that strikes a champion.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Kayle",
+        "difficulty": "Minor",
+        "idmatchup": 62,
+        "tips": "You absolutely dominate this match-up early game, however, if you don’t take advantage of this and let her get to level 11 or 16, by letting her free farm and split all game, you are likely to lose. Her win condition is getting to the point where she doesn't have to rely on stacking her passive. Push her out and keep her out. You have to be super aggressive against her. You completely counter her early game due to her reliance on getting passive stacks, through auto attacking. You can sidestep her (Q) which will slow you if you are hit by it. Just keep putting her down early with (Q) even if it means getting ganked a lot.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Poppy",
+        "difficulty": "Minor",
+        "idmatchup": 63,
+        "tips": "Poppy will passively throw her buckler at a target. Minions that die automatically grant her a shield but champions struck cause the buckler to bounce off and land nearby, you can destroy it by stepping on it and she has to pick it up. Her (R) has two possible outcomes, either she uses a charged (R) to remove you from battle or uses a non charged (R) to knock you up. Stay away from terrain or her flash (E) will stun you against it allowing her to combo into her (Q) > (R). Don't stand in her (Q) after she has activated it, as it is a two phase damage skill that will set the ground to explode shortly after it is activated.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Vayne",
+        "difficulty": "Minor",
+        "idmatchup": 64,
+        "tips": "Hands down Vayne is one of the easiest match-up to deal with. Her entire kit is (AA) reliant, aside from her (E) condemn. If you are fortunate to be alone with her, with no minions nearby, you can (Q) her as she (E)'s you into a wall stun allowing you to enter stealth while you wait out the duration. If she activates her (R) just go into stealth on a brush. You don't always have to use this trick, you can simply max (Q) and destroy her in a 1v1, however, once she has acquired quicksilver sash, you want to avoid being with her in a 1v1. You'll need your teammates assistance to deal with her at that point. Counter with Zhonyas. All in all she isn't played TOP lane much at all anymore, but if you do happen to meet her, max (Q) after 2 points in your (E).",
+        "tipsFr": null
+    },
+    {
+        "championName": "Singed",
+        "difficulty": "Minor",
+        "idmatchup": 65,
+        "tips": "Singed is literally a freelo lane to go into as Teemo. Get your allies to sit in the entrances to your top lane Blue/Red. This is to prevent a proxy Singed. Meaning he's going to farm and prevent your minions from entering your lane, perma shoving his to your tower. You have to be super aggressive, but don't be so aggro that you cause your lane to shove permanently. Putting a few points into your (W) can really help you outrun him as you never want to be on top of him, as his movement speed gets high by drifting off allies and enemies along with his (R). Never chase a singed that's how you die. The early game scouting can land you all a simple free kill.",
+        "tipsFr": null
+    },
+    {
+        "championName": "Quinn",
+        "difficulty": "Minor",
+        "idmatchup": 66,
+        "tips": "At level 6 expect her to roam quite often. Your best bet is to side step her (Q) as hiding behind your minions is not 100% effective to block her AoE damage. The second she gets in close enough she will use her (E) to knock you back and herself as well, so make sure to blind her as the ability lands to trade effectively with her. If she is running PTA, you'll wanna do a short trade, so back off before your blind is over, otherwise the trade will go even. Electrocute is the best rune to take, for it's short trading burst potential which allows you to play around short trades by auto > (Q) > autoing, followed by backing off before she can get her PTA stacks off if she has gone PTA. She has a very low pick rate, and isn't seen much anywhere anymore.",
         "tipsFr": null
     }
 ]

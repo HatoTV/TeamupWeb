@@ -1,219 +1,345 @@
 [
     {
-        "championName": "Cassiopeia",
-        "difficulty": "Extreme",
-        "idmatchup": 1,
-        "tips": "Her ground will kill you. You rely on mobility. She also outscales you. Good ult to take for teamfights.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Ahri",
-        "difficulty": "Even",
+        "championName": "Seraphine",
+        "difficulty": "Tiny",
         "idmatchup": 2,
-        "tips": "Play passive until 6. If you hit 6 on your side of the lane you can run her down with her ult. Decent ult to steal",
-        "tipsFr": null
+        "tips": "Same thing, she needs the jg. Aggressive.",
+        "tipsFr": ""
     },
     {
-        "championName": "Kassadin",
-        "difficulty": "Major",
+        "championName": "Ziggs",
+        "difficulty": "Tiny",
         "idmatchup": 3,
-        "tips": "He will outscale you and is a counter to most mages. Very bad ult to steal. Actually a decent skill matchup, becomes Hell if the Kassadin is good.",
-        "tipsFr": null
+        "tips": "Same thing here, but if he wants to farm all the time under tower he will be able and you won't be able to kill him, but if so, you have total control of lane, you can invade, rotate, you can do whatever you want.",
+        "tipsFr": ""
     },
     {
-        "championName": "Talon",
-        "difficulty": "Major",
+        "championName": "Twisted Fate",
+        "difficulty": "Tiny",
         "idmatchup": 4,
-        "tips": "He is strong early where you aren't. Play your lane safe and don't let him snowball off you. If the Talon is good and roams punish him by pushing waves, if he stays keep the lane in a safe position. Good ult for roams or skirmishes if you know how to use it.",
-        "tipsFr": null
+        "tips": "If he gets behind in level (XP) he totally lose, look for following the roams with your R, and if in CD, look for pushing as much as you can to force him to decided between stay or leave but if he does, he lose, control your back timings, the best tp here. ",
+        "tipsFr": ""
     },
     {
-        "championName": "Heimerdinger",
-        "difficulty": "Extreme",
+        "championName": "Xerath",
+        "difficulty": "Tiny",
         "idmatchup": 5,
-        "tips": "Unless you are really good this matchup will haunt your dreams. You can't kill his turrets with Q and get poked out if you try to get rid of them otherwise. Try to push and roam. BAD ULT TO STEAL, WILL CHANGE YOUR ABILITES DONT TAKE IT",
-        "tipsFr": null
+        "tips": "Just play with his CDs, bait his \"E\" and you totally destroy him, better if you make him to be far away from his tower, so you will have more room to all-in him, if you let yourself get poke, you can still out play if maxing \"W\". ",
+        "tipsFr": ""
     },
     {
-        "championName": "Yasuo",
-        "difficulty": "Even",
+        "championName": "Lux",
+        "difficulty": "Tiny",
         "idmatchup": 6,
-        "tips": "Don't let him poke you down and you'll be fine. He is mobile so hitting your E will be hard especially with windwall. Try and get onto him with a W before so he can't windwall you. Your E2 is a knockup so you can use his ult. Ult is okay for 1v1 and can be really good in teamfights if you have a knockup on your team.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Vladimir",
-        "difficulty": "Even",
-        "idmatchup": 7,
-        "tips": "He is you but, better? Don't let him hit his empowered Q and stay behind minions for his E. Back off from his R when fighting. He is immobile and you aren't. Try and bait out his pool before you go for E2. Mediocre ult to steal",
-        "tipsFr": null
-    },
-    {
-        "championName": "Akali",
-        "difficulty": "Major",
-        "idmatchup": 8,
-        "tips": "Sylas is a very good pick into Akali, they both want to scrap pretty heavy and your level 6 matches her level 6 evenly (heh same ults). But Akali has a lot of sustain with high health regen and magic resistance. A huge skill matchup but currently Akali favored as of 14.12.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Anivia",
-        "difficulty": "Major",
-        "idmatchup": 9,
-        "tips": "Very hard to kill early especially through passive. Anivia was buffed making her Uber-broken. You have to play reactively to her wall/stun/ult. You are actually a decent champion to play against her because of your mobility.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Azir",
-        "difficulty": "Even",
-        "idmatchup": 10,
-        "tips": "Pretty weak right now, don't get poked out. Look to trade when he uses his Q (reposition) aggressively as you can dash onto him and force him to back off (won't be able to dash away since his soldiers just dashed onto you and he has no damage without them)",
-        "tipsFr": null
+        "tips": "Is easy, the thing is if she wants you never touch her, cause' of her range, just don't let yourself to get poke a lot, and in the best opportunity or spot she miss-step you all-in and she will die, probably she will take barrier, so you will have to deal with it, but is easy, the thing is that, reach her. ",
+        "tipsFr": ""
     },
     {
         "championName": "Aurelion Sol",
-        "difficulty": "Even",
+        "difficulty": "Tiny",
+        "idmatchup": 7,
+        "tips": "Easy, play aggresive, but if you play to scale, you totally lose.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Cho'Gath",
+        "difficulty": "Tiny",
+        "idmatchup": 8,
+        "tips": "You win, + you get so buff with his \"R\" Yes it gives you the stacks and size too.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Swain",
+        "difficulty": "Tiny",
+        "idmatchup": 9,
+        "tips": "You totally destroy him early, and late, when you get his \"R\" is so funny and comfy to play.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Ahri",
+        "difficulty": "Minor",
+        "idmatchup": 10,
+        "tips": "This is tricky in the first 3 levels, and depeding how you play it out it can become easy match up, or hard. Avoid getting a lot of poke, and look for all-ins, once she decided to use his Q, or W to farm. if everything goes wrong, play for level 6, and at level 6 you surely win. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Neeko",
+        "difficulty": "Minor",
         "idmatchup": 11,
-        "tips": "Aurelion Sol is QUITE popular with his rework. He is an infinite scaling battle mage that can end up pretty lethal. Early on in the game you can interrupt his Q farming by CCing him with your E. Once he gets his Rylais this matchup becomes difficult as he can start to just run you down.",
-        "tipsFr": null
+        "tips": "Play to dogde the root \"E\" and you win, heavy poke so second wind and doran shild is good, play it slow. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Vladimir",
+        "difficulty": "Minor",
+        "idmatchup": 12,
+        "tips": "Play aggresive, if you play to scale you'll lose, take ignite, and level 6, his ultimate increases the dmg you deal to him. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "LeBlanc",
+        "difficulty": "Minor",
+        "idmatchup": 13,
+        "tips": "Tricky, but free \"W\" on her anytime she'll use her \"W\" difficult to get into her, so just play slow, and wait for the right moment, level 6 try to look out for her chains \"E\" so you increase the chances of killing her. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Viktor",
+        "difficulty": "Minor",
+        "idmatchup": 14,
+        "tips": "You can play aggresive, but if you fail your \"E\" and you don't have tp, you are gonna lose due to the heavy poke, but if you have a ganking jungler play with him, and he is pretty dead anyways, later on you win. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Malzahar",
+        "difficulty": "Minor",
+        "idmatchup": 15,
+        "tips": "You win, but if he gets a little ahead, and he knows how to position, you shouldn't be able to kill him, + level 6 is a power spike for both, due to the gank set up, you both get. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Azir",
+        "difficulty": "Minor",
+        "idmatchup": 16,
+        "tips": "Play aggresive early, and get ahead, if you don't you'll ended up losing.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Corki",
+        "difficulty": "Minor",
+        "idmatchup": 17,
+        "tips": "His \"R\" isn't that good, and he can poke you down, + his \"W\" allows him to scape in case you get in range, play slow, and look for opportunities with your JG. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Brand",
+        "difficulty": "Minor",
+        "idmatchup": 18,
+        "tips": "Constant poke, and if you use your \"E\" towards him without baiting out first his \"E\" or \"W\" you'll get stun and out-damaged, your \"E\" is very important in this match up, use it to dogde his \"W\" stay away from the minions so you don't get the extended \"E\" and then you can engage pretty easy. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Anivia",
+        "difficulty": "Minor",
+        "idmatchup": 19,
+        "tips": "Her early is bad, but still her combo of \"Q+E\" hurts a lot, what you can do is use your \"E\" to dogde and engage with your \"E2\" and in that way you will win, also another tip is if she use \"Q\" and you use \"E2\" she won't be able to CC you cause' she will be CC and you will win again. Post level 6 just use your \"E2\" whenever she has \"R\" to cancel her \"R\", if you fail your \"E\" and she didn't use anything, then she can easilly kill you post 6.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Hwei",
+        "difficulty": "Minor",
+        "idmatchup": 20,
+        "tips": "Heavy poke, and difficult to reach, but if you find the right moment you kill him pretty easy. try to stay a little away from the minions so the AOE of his \"Q+Q\" doesn't poke you down.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Taliyah",
+        "difficulty": "Minor",
+        "idmatchup": 21,
+        "tips": "Bait her \"E\" and then all in her with your \"E\", if you engage first you are gonna get stun by her \"E\" and then lose the trade. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Katarina",
+        "difficulty": "Even",
+        "idmatchup": 22,
+        "tips": "I find it pretty easy, try to punish whatever she goes for cs with your \"W\", and then use your \"E\" to cancel her \"R\" and always walk to the otherside where the dagger land it will allow you to reduce basically all of her dmg.",
+        "tipsFr": ""
     },
     {
         "championName": "Ekko",
         "difficulty": "Even",
-        "idmatchup": 12,
-        "tips": "Don't engage in long fights. His damage comes from his passive (hitting things 3 times will deal more damage). Don't stand in his circle it will stun you. His E1 is a dash and E2 is a blink. Good ult to steal. Skill matchup",
-        "tipsFr": null
-    },
-    {
-        "championName": "Fizz",
-        "difficulty": "Even",
-        "idmatchup": 13,
-        "tips": "Don't let him chunk you pre-6 because he will try and all in you as soon as he can. Dodge his ult as much as you can. He is a melee AP assassin so he shouldn't be able to bully you out of lane if you play smart. Be careful if he roams and gets kills. Don't E2 if he has his E up. Take his ult for skirmishes/ganks/roams/solo kills.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Diana",
-        "difficulty": "Minor",
-        "idmatchup": 14,
-        "tips": "Diana is incredibly strong but straightforward. Don't let her poke you out with Q and don't W into her shield. Diana will always want to Q-E-W trade early on. Dodge her Q and you can stop that.",
-        "tipsFr": null
-    },
-    {
-        "championName": "LeBlanc",
-        "difficulty": "Even",
-        "idmatchup": 15,
-        "tips": "Play safe in lane to avoid her all in burst. Be careful of taking her ult, it will copy her last spell when you steal it. Wait for her to use an ability that you want before you steal it. Her ultimate can blow up in your face if you take the wrong one.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Irelia",
-        "difficulty": "Major",
-        "idmatchup": 16,
-        "tips": "Don't extend trades against Irelia, if she stacks passive you lose. Avoid her stun and save E1 for disengage. Her ult does good damage and slows but thats it. If she ever misses Q and doesn't have 5 stack kill her. This is a skill matchup that is Irelia favored.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Malzahar",
-        "difficulty": "Tiny",
-        "idmatchup": 17,
-        "tips": "I actually misjudged this matchup. You hard win this matchup so much. Stay away from his Malefic Visions so he can't poke you out. When you go in to fight him, E1 and AA to break his shield OR Q to break his shield. As long as your W or your E2 doesn't hit his shield you should be able to legitimately just walk at him and win. Post 6 make sure you have enough health to fight him so you can tank his ultimate and make sure you won't get teamed up on when he's ulting you.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Lux",
-        "difficulty": "Minor",
-        "idmatchup": 18,
-        "tips": "If you don't get hit by her binding you will be fine. Don't get poked by her E and you'll be fine. Her ult is decent to steal but there are better to steal.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Neeko",
-        "difficulty": "Major",
-        "idmatchup": 19,
-        "tips": "She will look to root you when you are behind minions (it lasts longer). Don't get rooted. Her Q does a lot of damage early if it gets all 3 procs so don't stand still. Her W makes her autos deadly so respect the range and farm safe. Her W makes your E2 irrelevant if you hit a clone, if it is running in a straight line its probably a clone. She has one of the BEST ULTS to steal, big AoE stun with lots of damage and scaling. Remember you can cast her R and then use E1/E2/Flash/Protobelt/Blast Cone for a short while to reposition yourself. You outscale her if she doesn't snowball. STEAL HER ULT FOR TEAMFIGHTS.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Orianna",
-        "difficulty": "Extreme",
-        "idmatchup": 20,
-        "tips": "Play aggressive, Sylas benefits from aggression. Beware her runeset however, not all Ori's will let you engage on her and walk away.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Pantheon",
-        "difficulty": "Major",
-        "idmatchup": 21,
-        "tips": "If they cheese you with a pantheon pick just play safe, you outscale him. His E blocks all damage from the front so be wary. His W is point and click but can be stopped with your E2. His ult is good for ganking and roaming. Pantheon has become less strong recently but is still a huge threat. Play reactively based on the player, if they just dash in and back off look to extend trades and make them uncomfortable with fighting. Pantheon's danger is his empowered Q/W damage.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Qiyana",
-        "difficulty": "Even",
-        "idmatchup": 22,
-        "tips": "Play the lane safe. Rock will do more damage if you are low, grass makes invisible patch, water roots you. Stay away from walls, and steal her ult for fights it is very good.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Ryze",
-        "difficulty": "Major",
         "idmatchup": 23,
-        "tips": "Like Kassadin he outscales you. His ult is also awful to steal and is only good for flanks, roams, or getting to lane faster. His poke, waveclear, and crowd control is a nightmare if he is good. You will need to try burst him before his Root combo or everfrost.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Swain",
-        "difficulty": "Minor",
-        "idmatchup": 24,
-        "tips": "You can easily avoid his root and his ult is very good to take. Don't let him proc electrocute early. His ultimate is so so so so good to take. Also, you should always beat him in an even fight post 6 because you can heal more in his ultimate because of W.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Veigar",
-        "difficulty": "Minor",
-        "idmatchup": 25,
-        "tips": "His cage is not fun. Don't let him hit you with abilities. He can only stack up AP if his abilities hit champions or his Q last hits. His R is good for skirmishes but lackluster in teamfights. Keep his stacks low and don't get hit by cage. Without cage he is deadmeat though.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Vel'Koz",
-        "difficulty": "Minor",
-        "idmatchup": 26,
-        "tips": "Play him like most mages, farm safely early and all in him at your powerspikes. His ultimate is not very good because you don't get the true damage passive.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Wukong",
-        "difficulty": "Even",
-        "idmatchup": 27,
-        "tips": "Wukong is not fun to lane against, he has a lot of damage and is QUITE annoying, but he gains stacking armor not magic resist so you should be able to fight him decently well.",
-        "tipsFr": null
-    },
-    {
-        "championName": "Xerath",
-        "difficulty": "Even",
-        "idmatchup": 28,
-        "tips": "Play back and dodge his skillshots. He cannot hurt you without hitting a skillshot. Ult can be decent in fights but at the tail end of a fight (for cleanup, not engage)",
-        "tipsFr": null
+        "tips": "Uff, tricky but easy if you know how, he shouldn't be able to kill you if you play properly, try to avoid taking dmg without trading back, cause' if you get to low in early then he will ignite you + all-in and you won't be able to heal back ending up killing you, after level 6 try to use your \"E\" when he is low to avoid using his \"R\"",
+        "tipsFr": ""
     },
     {
         "championName": "Zed",
         "difficulty": "Even",
-        "idmatchup": 29,
-        "tips": "Skill matchup. As long as he doesn't poke you out of lane with his electrocute you should be fine to just kill him. Zed's ult always positions him behind where he dashed from. Remember that.",
-        "tipsFr": null
+        "idmatchup": 24,
+        "tips": "ZED is a perfect example of \"tricky\" match-up where it can go either good or bad, he is problaly gonna play with \"Q\" and poke with \"W\", if you get low enough, or below 40% of health you are gonna lose due that he can ignite you before you will use your \"W\" and you won't heal back and he will win, I'd recommend to step behind the minions if you can't dogde the \"Q\" so it deals less dmg, and use your \"E\" to dogde his \"W+E+Q\" combo, use it either aggresive, so you dogde but also deal dmg, or use it defesive just to avoid the burst. Use his \"R\" to dogde his \"R\" and also be able to follow him, if he gets ahead, you aren't gonna recover.",
+        "tipsFr": ""
     },
     {
-        "championName": "Ziggs",
-        "difficulty": "Major",
+        "championName": "Talon",
+        "difficulty": "Even",
+        "idmatchup": 25,
+        "tips": "It is easier than zed's match-up but still if he has ignite and you both have 50% of health, he has higher chances or killing you, try to use your \"E\" to avoid either the first cast of his \"W\" or the return of the same one, as always as you are looking for avoid the passive of talon you are good if you fell behind you can still recover. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Diana",
+        "difficulty": "Even",
+        "idmatchup": 26,
+        "tips": "This is a highly \"CD\" match-up, try to deal with her by baiting out her \"W\" and then trading meanwhile it is in CD, so I don't think she can win, but again remember like any other assasin if you both are low, and she has ignite, she has higher chances of winning the duel. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Qiyana",
+        "difficulty": "Even",
+        "idmatchup": 27,
+        "tips": "If she has ignite like other assasins, and you are low health specially this one will kill you due that his \"Q\" deals more dmg between lower your health is, engage with your \"W\" and keep trades short but longer than usual, try to use your \"E\" to get out of her range, and if she follows, and fail his \"Q\" engage back with your second \"E\" cast. EXTRA TIP AS I'M LEARNING NEW THINGS TOO; -STAND BEHIND THE MINIONS SO HER \"Q\" WILL DEAL ONLY 75% OF THE DMG.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Fizz",
+        "difficulty": "Even",
+        "idmatchup": 28,
+        "tips": "Same thing that quiyana, if you both are low and yes without ignite you'd likely to outplay him but with ignite, he will just ignite you before you use your \"W\" and you will ended up dying. try to use your \"E\" to dogde his second dmg from his \"E\" once this is done engage back with your second cast \"E\", and you should win, if you use your \"E\" first you will likely lose the trade early on, as time progress your chances or winning this match up increase.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Kassadin",
+        "difficulty": "Even",
+        "idmatchup": 29,
+        "tips": "You win early similar to veigar, but not like veigar directly, he still has some treat on you, play aggresive, don't let him get farm so easy, and keep trading, if he gets late, nothing to do, nothing, unless you play the early properly otherwise, mid starts becoming akward and late is FF. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Orianna",
+        "difficulty": "Even",
         "idmatchup": 30,
-        "tips": "Very annoying because he can poke you HARD. Ult is good, and he can disengage pretty well. He will demolish your tower so pick roam timers carefully. Not played often.",
-        "tipsFr": null
+        "tips": "Constant poke, try to hit your \"E\" if you don't there is nothing to do, she will punish you by poking you down, step behind the minions so her \"Q\" will deal less dmg, if she max out \"W\" then you will need to trade back, and look for all-ins whatever she will do that, if you keep faling your \"E\" then just farm, cause' she will kill you.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Lissandra",
+        "difficulty": "Even",
+        "idmatchup": 31,
+        "tips": "Similar to orianna, you rely on your \"E\" if you fail you get punish, if she takes \"aery\" then she will ended up dying, if you find it hard early, try to play for level 6 and watch out for her jungler of course, but also it becomes a threat for her too.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Syndra",
+        "difficulty": "Even",
+        "idmatchup": 88,
+        "tips": "Mix between Ori and Lux, she can constantly poke, and you to respond with all-in, you need her to use her \"E\" otherwise if she decides so, you'll never reach her. And in late-mid game if you fail your \"E\" and you don't have zhonyas she will be able to kill you. This match up depends a lot in how good the syndra is with holding her \"E\" as always as she has the \"E\" you shouldn't be able to kill her, of course it has HIGH \"CD\" 17SECS.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Vel'Koz",
+        "difficulty": "Even",
+        "idmatchup": 89,
+        "tips": "Same thing that syndra, but easier I'd say, watch out at level 6, cause' he can kill you if you mess up with your \"E\" find spots to get into him, and try to dogde, bait out his \"E\" if you don't you will take a ugly trade, in the worse of the cases don't try to run away, but stay close so he can't use his \"R\" walk or dash through him.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Annie",
+        "difficulty": "Even",
+        "idmatchup": 90,
+        "tips": "Play with her passive, if she doesn't waste her passive you won't be able to trade with her, if so wait for level 6, and look for all-ins cause' then you'll win you need her to be away from her tower, otherwise, she will win. ",
+        "tipsFr": ""
     },
     {
         "championName": "Zoe",
         "difficulty": "Even",
-        "idmatchup": 31,
-        "tips": "She will #$&* you up early. She gets extra damage after casting spells with her passive. Don't take ignite, because if you use it she can use it. Take TP or Cleanse. Her Q is AoE but hard to land, stay away from it. She also gets 3 orbs of damage from her W when she uses it which will make you lose trades if you don't expect it. Stay away from walls her E is the game changer. If you don't get hit by her E you won't get hit by her 1 shot combo (hopefully). Her R is a temporary blink, focus where she came from not where she is going. DO NOT STEAL HER ULT IT IS GARBAGE FOR YOU. You win fights if she wastes E or Q. If you can get on her she can't get away without summoner spells.",
-        "tipsFr": null
+        "idmatchup": 91,
+        "tips": "You can't really use your \"E\" never as always as she has \"E\" you'll get stunned and outdamaged, also her \"R\" isn't the best \"R\" for you, it just helps you to maybe reposition yourself for a better \"Q\" or something but try to play next and behind the minions so she use her \"E\" if she fails such ability feel free to all-in, and winning it, but it depends a lof of her \"E\". ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Yasuo",
+        "difficulty": "Even",
+        "idmatchup": 92,
+        "tips": "keep short trades, and let him outplay himself, he will win long trades, also, use your \"Q\" to take out his passive, and \"W\" to engage + AA (PASSIVE) and \"E\" in case he engage on you so you can go out of his range, and repeat, if both are low, your opportunities to win are higher even if he has ignite. Keep the wave near of your tower, and play around it. If you engage with your \"E\" and fail the second cast, probably he will run you down, and ended up winning the match up.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Yone",
+        "difficulty": "Even",
+        "idmatchup": 93,
+        "tips": "Similar to Yasuo, win long trades, if both are low you have higher chances of winning even if he has ignite, just be careful with his \"W\" and use your \"E\" to dogde his \"R\" or his \"Q\" and you should be fine.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Galio",
+        "difficulty": "Major",
+        "idmatchup": 94,
+        "tips": "Naturally he is gonna counter you, specially if he takes aftershock, bone plating, and then he rush grievous wounds into ignite, you won't be able to fight really, look always for burning out his Bone plating in case you want to fight, and use your \"E\" to disengage, and engage back with the second cast, so you have higher chances of dodging his \"W\", if he lets himself to be \"poke\" and you are healthy enough you can look for all-ins, but generally play better for wave, and look for roam with his \"R\". In skirmish is highly possible you are gonna win against.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Ryze",
+        "difficulty": "Major",
+        "idmatchup": 95,
+        "tips": "D.SHILD, SECOND WIND, and unless you don't miss your \"E\" and your burn his bone plating previously, you can win a trade, however he will be all the time poking you down, and also out pushing you totally if you max \"W\" you will never ever have prio by your own unless your jungler creates a pyshological pressure on him, if you max \"Q\" you will be able to farm more comfortable. If you try to all-in him and you fail your \"E\" he will GIGA PUNISH YOU, in long trades he will also destroy you, so is pretty difficult matchup.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Pantheon",
+        "difficulty": "Major",
+        "idmatchup": 96,
+        "tips": "This match up has two ways to be play and it depends a lot of his rune \"CONQUEROR, OR PTA\". If he goes CONQUEROR, you need to have at least some source of sustain let's say D.SHILD or second wind, cause' he is gonna play to poke you down with the \"Q\", try to use your \"E\" to dogde such ability, and try to engage back for a FAST trade with \"E2, AA, W\" better if his \"E\" is in CD, otherwise he can deny the dmg, if he has conqueror never take long trades and keep yourself with short ones even if you have conqueror he will win, and if he has ignite or grievous wounds, you will never win long trades. If he goes PTA, here is similar to conqueror, but he will be stronger to all-ins, and mostly he will play with passive + \"W\" so the PTA activates right after you get CC. in this case be aware of his \"W\" so you can use your \"E\" to get out of his range, and engage back for a fast trade. another thing is keep the wave near your tower, so is harder for him to run you down, and easier for you to trade and get away.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Jayce",
+        "difficulty": "Major",
+        "idmatchup": 97,
+        "tips": "Annoying match up, specially cause' if he times well he can cancel your \"W\" so you won't deal dmg and also you won't heal which is really annoying, it's a lane of constant poke, you can start even with \"Q\" to farm better and also to attack him in a safer way I'd say, if you start with \"E\", I'd reccomend to start with D.SHILD, due that if you fail your \"E2\" he will harass you uglily, and also isn't the best start unless maybe if you have an active jungler example, (XIN ZHAO, SHACO) otherwise, he will create big waves and if you hit your \"E2\" you will just get destroy by his dmg, and also the minion wave dmg, look for trades whenever he is in \"range form\" so he lose defenses and is more possible that you will win the trade either if is long or short, his \"R\" is bad as hell for you so in case you are low his R, will give you extra range like him, but nothing else. try also to engage with your \"E1\" and save your \"E2\" after he use his \"E TO PUSH YOU AWAY\" so you are able to reengage. ",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Naafiri",
+        "difficulty": "Major",
+        "idmatchup": 98,
+        "tips": "Try to dodge Q2 and just farm, you're better in team fights.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Vex",
+        "difficulty": "Major",
+        "idmatchup": 99,
+        "tips": "Annoying early but I would do Q max to farm then you outscale easy.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Akali",
+        "difficulty": "Major",
+        "idmatchup": 100,
+        "tips": "Respect E and Shroud. Whoever ults first wins usually.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Tristana",
+        "difficulty": "Major",
+        "idmatchup": 101,
+        "tips": "No info",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Sett",
+        "difficulty": "Extreme",
+        "idmatchup": 102,
+        "tips": "Difficult match up, you'll lose long trades it means if you don't one shot him which is impossible with his \"W\" up, if he survives your rotation of abilities, then he will win the duel specially if you let yourself get hit by his \"W\" in lane, you'll need to watch out his \"E\" use your \"E\" to either dogde the stun, or dogde his \"W\", and then heavy trade him and disengage afterwards. Keep the trades shorts and once he is low, look for kill again, be careful with his \"W\", \"E\".",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Cassiopeia",
+        "difficulty": "Extreme",
+        "idmatchup": 103,
+        "tips": "Heavy poke, uff, this match up is skill but more on Cassiopeia's favor, you can take ignite, or tp, but generally you never know if she'll be good with her \"Q\" and save her \"W\" so take TP + D. SHILD + SECOND WIND. Fake when you'll going to cs so she will waste her \"Q\" and you will have a window of 6secs, to all-in her and go away, play near your tower, and buy boots as soon as possible so it is harder for her to hit the \"Q\", if she doesn't use the \"W\" properly she is pretty dead, but if she save it, and play it slowly with that, be careful, and just play for waves, and small trades, if you are far from your tower a bad trade means a kill for her.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Akshan",
+        "difficulty": "Extreme",
+        "idmatchup": 104,
+        "tips": "Constant poke, better long trades. TP + D. SHILD + SECOND WIND. Max your \"Q\" play to farm, and look for spots to do smalls trades, better if you play for setting up ganks for your jungler, or your support. Play to don't let him roam, and try to don't engage with your \"E\" cause' if he has his \"E\" he will be able to go out of your range, and punish you hard probably push you out of lane. If he takes \"BONE PLATING\" then you must take it first with a \"Q\" before going for any trade, otherwise, you'll lose. UPDATE; TRY TO TAKE FIRST STRIKE, AND PLAY WITH YOUR \"Q\" ALSO GO FOR ROA.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Heimerdinger",
+        "difficulty": "Extreme",
+        "idmatchup": 105,
+        "tips": "Constant poke, here you need definitely TP + SECOND WIN + D. SHILD, otherwise you won't survive the lane, and be careful with your all-ins cause' you can die there, the best is play with your jungler and just all-in him whatever your jungler comes, be careful of feeding him cause' if it happens even if your jungler comes you will both die, or one, MAX \"Q\" in the worse of the situations and play for wave, tempo and roamings, you don't have to KILL him.",
+        "tipsFr": ""
+    },
+    {
+        "championName": "Irelia",
+        "difficulty": "Extreme",
+        "idmatchup": 106,
+        "tips": "Keep as much as you can the wave near your tower, and look for trades whenever she goes for a minion with your \"W\", + \"AA\" and use your \"E\" to dogde her \"E\" if you get hit by her \"E\" you'll probably lose the match up, keeping the wave near your tower allows you to use your \"E\" in aggresive way due that even if you get hit by her \"E\" she won't dive you, let her basically outplay herself. Be patient in this match-up and play slow.",
+        "tipsFr": ""
     }
 ]

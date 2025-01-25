@@ -387,7 +387,7 @@ export class MatchupsComponent {
     formattedText = formattedText.replace(/^[^a-zA-Z0-9]+/gm, '');
 
     // Ajoute un retour à la ligne après chaque point (.)
-    formattedText = formattedText.replace(/(\.)(\s)/g, '$1\n');
+    formattedText = formattedText.replace(/(?<!\d)(\.)(\s*)/g, '$1\n');
 
     // Ajoute un tiret au début de chaque ligne
     formattedText = formattedText

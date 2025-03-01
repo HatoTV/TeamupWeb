@@ -25,7 +25,6 @@ export class HomeComponent {
     body.style.background = 'linear-gradient(to top, var(--home-bkg-gradient-1),var(--home-bkg-gradient-2))';
 
     this.vercelService.getData().subscribe(response => {
-      console.log('Données récupérées:', response);
     }, error => {
       console.error('Erreur lors de la récupération', error);
     });

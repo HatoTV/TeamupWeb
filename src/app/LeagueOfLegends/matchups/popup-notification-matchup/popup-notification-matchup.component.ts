@@ -79,7 +79,6 @@ export class PopupNotificationMatchupComponent {
     this.emailService.sendEmail(this.subject, this.message)
         .subscribe(
           (            response: any) => {
-                console.log('E-mail envoyé:', response);
             },
           (            error: any) => {
                 console.error('Erreur lors de l\'envoi de l\'e-mail:', error);

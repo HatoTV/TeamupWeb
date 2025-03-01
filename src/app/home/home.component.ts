@@ -3,6 +3,7 @@ import { Component, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../safe-html.pipe';
+import { VercelService } from '../services/vercel.service';
 
 @Component({
   selector: 'app-home',
@@ -13,17 +14,25 @@ import { SafeHtmlPipe } from '../safe-html.pipe';
 })
 export class HomeComponent {
 
-  constructor(private elementRef: ElementRef,private router: Router, private translate: TranslateService) { }
+  constructor(private elementRef: ElementRef,
+    private router: Router, 
+    private translate: TranslateService,
+    private vercelService: VercelService) { }
+
   ngAfterViewInit() {
     const document = this.elementRef.nativeElement.ownerDocument;
     const body = document.body;
-    body.style.background =
-      'linear-gradient(to top, var(--home-bkg-gradient-1),var(--home-bkg-gradient-2))';
+    body.style.background = 'linear-gradient(to top, var(--home-bkg-gradient-1),var(--home-bkg-gradient-2))';
+
+    this.vercelService.getData().subscribe(response => {
+      console.log('Données récupérées:', response);
+    }, error => {
+      console.error('Erreur lors de la récupération', error);
+    });
   }
 
   goToUrl(url:string,){
     const defaultLang : string = this.translate.defaultLang || 'fr'
     this.router.navigate([`/${defaultLang}` + url]);
   }
-  
 }

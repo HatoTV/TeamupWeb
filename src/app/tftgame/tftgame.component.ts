@@ -1,9 +1,9 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { ScrollService } from '../scroll.service';
 import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 import { SafeHtmlPipe } from '../safe-html.pipe';
 import { YouTubePlayerModule } from '@angular/youtube-player';
+import { ScrollService } from '../services/scroll.service';
 
 @Component({
   selector: 'app-tftgame',

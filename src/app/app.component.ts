@@ -1,12 +1,12 @@
-import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { Component, Inject, ViewChild, PLATFORM_ID, ChangeDetectorRef } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
 import { RouterOutlet, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { BaneerWarningComponent } from './baneer-warning/baneer-warning.component';
-import { LanguageService } from './language.service';
 import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
 import { LeftBarComponent } from './Navigation/left-bar/left-bar.component';
 import { TopBarComponent } from './Navigation/top-bar/top-bar.component';
+import { LanguageService } from './services/language.service';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +19,7 @@ export class AppComponent {
   constructor(
     private router: Router,
     private translate: TranslateService,
-    private activatedRoute: ActivatedRoute, private languageService: LanguageService,
+    private activatedRoute: ActivatedRoute, private languageService: LanguageService
   ) { }
  title = 'TeamUpp'; 
   ngOnInit() {

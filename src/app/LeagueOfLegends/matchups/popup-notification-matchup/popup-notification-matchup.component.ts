@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
-import { EmailService } from '../../../email.service';
+import { EmailService } from '../../../services/email.service';
 
 @Component({
   selector: 'popup-notification-matchup',
@@ -78,10 +78,10 @@ export class PopupNotificationMatchupComponent {
     this.isSend = true;
     this.emailService.sendEmail(this.subject, this.message)
         .subscribe(
-            response => {
+          (            response: any) => {
                 console.log('E-mail envoyé:', response);
             },
-            error => {
+          (            error: any) => {
                 console.error('Erreur lors de l\'envoi de l\'e-mail:', error);
             }
         );

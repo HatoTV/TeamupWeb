@@ -3,11 +3,11 @@ import { ChangeDetectorRef, Component, ElementRef, Inject, Renderer2,PLATFORM_ID
 import { NavigationEnd, Router } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { filter } from 'rxjs/operators';
-import { LanguageService } from '../../language.service';
 import { LeftBarComponent } from '../left-bar/left-bar.component';
 import { isDevMode } from '@angular/core'; // Import nécessaire pour détecter le mode dev
-import { TwitchService } from '../../twitch-service.service';
+import { TwitchService } from '../../services/twitch.service';
 import { PopupTwitchComponent } from '../../popup-twitch/popup-twitch.component';
+import { LanguageService } from '../../services/language.service';
 
 @Component({
   selector: 'top-bar',

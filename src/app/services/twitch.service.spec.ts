@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { TwitchService } from './twitch-service.service';
+import { TwitchService } from './twitch.service';
 
 describe('TwitchService', () => {
   let service: TwitchService;

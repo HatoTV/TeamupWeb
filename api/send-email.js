@@ -23,14 +23,14 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.EMAIL_USER, // Utilisez des variables d'environnement
-        pass: process.env.EMAIL_PASS, // Utilisez des variables d'environnement
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
     });
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'hatovod@gmail.com', // Destinataire (peut aussi être dynamique si souhaité)
+      to: 'hatovod@gmail.com',
       subject: subject,
       text: message,
     };

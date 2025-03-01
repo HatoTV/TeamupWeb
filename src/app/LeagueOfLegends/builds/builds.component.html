@@ -1,0 +1,14 @@
+<div *ngFor="let build of builds">
+    <h3>{{ build.champion }}</h3>
+    <p>Items :</p>
+    <div>
+      <img *ngFor="let item of build.items" [src]="'https://ddragon.leagueoflegends.com/cdn/14.3.1/img/item/' + item + '.png'" width="40" height="40">
+    </div>
+    <p>Runes :</p>
+    <div>
+      <img *ngFor="let rune of build.runes" [src]="'https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/' + rune + '.png'" width="40" height="40">
+    </div>
+    <p *ngIf="build.win" style="color: green;">Victoire ✅</p>
+    <p *ngIf="!build.win" style="color: red;">Défaite ❌</p>
+  </div>
+  

@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { BuildsComponent } from './LeagueOfLegends/builds/builds.component';
 import { GameComponent } from './LeagueOfLegends/game/game.component';
 import { GuidesComponent } from './LeagueOfLegends/guides/guides.component';
 import { JungleComponent } from './LeagueOfLegends/jungle/jungle.component';
@@ -23,6 +24,7 @@ export const routes: Routes = [
   { path: ':lang/lol/jungle', component: JungleComponent },
   { path: ':lang/lol/game', component: GameComponent },
   { path: ':lang/lol/picker', component: PickerComponent },
+  { path: ':lang/lol/builds', component: BuildsComponent },
   { path: ':lang/rocket/mecanics', component: MecanicsComponent },
   { path: ':lang/contact', component: ContactComponent },
   { path: ':lang/home', component: HomeComponent },

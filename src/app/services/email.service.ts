@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class EmailService {
-  private apiUrl = 'https://teamup-hatotvs-projects.vercel.app/api/send-email';
+  private apiUrl = 'https://p-hatotvs-projects.vercel.app/api/send-email';
 
   constructor(private http: HttpClient) {}
 

@@ -1,5 +1,8 @@
 // api/vercel-datas.js
 export default function handler(req, res) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'POST');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
     if (req.method === 'GET') {
       // Accède aux variables d'environnement pour récupérer les données sensibles
       const RIOT_API_KEY = process.env.RIOT_API_KEY;

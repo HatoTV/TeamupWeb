@@ -1,18 +1,24 @@
 import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { VercelService } from './vercel.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class LolStatsService {
 
-  private riotApiKey = "RGAPI-44c15026-9e33-40cd-86bb-cbc7e3c3898e";
+  private riotApiKey = "";
   private headers = new HttpHeaders({
     'X-Riot-Token': this.riotApiKey
   });
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private vercelService: VercelService) {
+    this.vercelService.getData().subscribe(response => {
+      this.riotApiKey = response.RIOT_API_KEY
+    }, error => {
+      console.error('Erreur lors de la récupération', error);
+    });}
 
   // Récupérer les joueurs challengers
   getTopPlayers(): Observable<any> {

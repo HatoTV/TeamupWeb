@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Renderer2 } from '@angular/core';
-import { NavigationEnd, Router, RouterModule } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router, RouterModule } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { filter } from 'rxjs/operators';
 import { ScrollService } from '../../services/scroll.service';
@@ -13,7 +13,16 @@ import { ScrollService } from '../../services/scroll.service';
   styleUrl: './left-bar.component.css',
 })
 export class LeftBarComponent {
-  constructor(private router: Router, private translate: TranslateService,private scrollService: ScrollService,private el: ElementRef,private renderer: Renderer2) {}
+  constructor(private router: Router, private translate: TranslateService,private scrollService: ScrollService,private el: ElementRef,private renderer: Renderer2, private route: ActivatedRoute) {
+
+    // Récupérer la langue depuis l'URL
+    this.route.params.subscribe((params: { [x: string]: any; }) => {
+      if (params['lang']) {
+        this.lang = params['lang'];
+      }
+    });
+  }
+  lang: string = 'fr'; // Langue par défaut
   itemsPart1 : Array<
     {
       logoUrl: string,
@@ -57,14 +66,24 @@ export class LeftBarComponent {
     item.isOpen = !item.isOpen;
   }
 
-  // Méthode pour générer l'URL dynamiquement
   createHref(link: string): string {
     const defaultLang: string = this.translate.defaultLang || 'fr';
     const baseUrl = `/${defaultLang}${link}`;
     return baseUrl;
   }
-  onSectionClick(sectionId: string) {
-    this.scrollService.scrollToSection(sectionId);
+  
+  // Méthode pour générer l'URL dynamiquement
+  navigateToFragment(page: string, fragment: string) {
+    const url = `/${this.lang}/${page}`;
+    this.router.navigate([url]).then(() => {
+      // Attendre un court instant pour s'assurer que la navigation est terminée
+      setTimeout(() => {
+        const element = document.getElementById(fragment);
+        if (element) {
+          this.scrollService.scrollToSection(fragment);
+        }
+      }, 100);
+    });
   }
 
   applyClassesBasedOnUrl(url: string) {
@@ -196,7 +215,7 @@ export class LeftBarComponent {
       
       this.renderer.addClass(mainElement, 'rlcolor');
     }
-    else if (url.includes('/home') || url.includes('/contact')) {    
+    else if (url.includes('/home') || url.includes('/contact') || url.includes('/cgu') || url.includes('/privacy')) {    
       
       this.renderer.addClass(mainElement, 'displayNone');
       // Ajouter la classe pour Rocket League

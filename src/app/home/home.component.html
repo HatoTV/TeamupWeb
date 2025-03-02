@@ -58,7 +58,13 @@
     <section id="social" class="social-section">
       <div class="container">
         <div class="divFooter">
-          <h6 [innerHtml]="'HOME.FOOTERRIGHTS' | translate | safeHtml"></h6>
+          <div>
+            <div class="divConditions">
+              <span class="buttonsConditions" [innerHtml]="'CGU.TITLE' | translate | safeHtml"  (click)="goToUrl('/cgu')"></span>
+              <span class="buttonsConditions" [innerHtml]="'PRIVACY.TITLE' | translate | safeHtml"  (click)="goToUrl('/privacy')"></span>
+            </div>
+            <h6 [innerHtml]="'HOME.FOOTERRIGHTS' | translate | safeHtml"></h6>
+          </div>
           <div class="divSocial">
             <span class="txtSocial" [innerHtml]="'HOME.SOCIALNETWORKS' | translate | safeHtml"></span>
             <div class="social-links">

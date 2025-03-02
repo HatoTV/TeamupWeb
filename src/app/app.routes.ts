@@ -1,7 +1,9 @@
 import { Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
+import { CguComponent } from './home/cgu/cgu.component';
 import { HomeComponent } from './home/home.component';
+import { PrivacyComponent } from './home/privacy/privacy.component';
 import { BuildsComponent } from './LeagueOfLegends/builds/builds.component';
 import { GameComponent } from './LeagueOfLegends/game/game.component';
 import { GuidesComponent } from './LeagueOfLegends/guides/guides.component';
@@ -29,4 +31,6 @@ export const routes: Routes = [
   { path: ':lang/contact', component: ContactComponent },
   { path: ':lang/home', component: HomeComponent },
   { path: ':lang/tft', component: TFTGameComponent },
+  { path: ':lang/cgu', component: CguComponent },
+  { path: ':lang/privacy', component: PrivacyComponent },
   ];

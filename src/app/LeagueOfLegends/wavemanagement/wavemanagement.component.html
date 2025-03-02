@@ -92,7 +92,41 @@
     ></h4>
     <br /><br />
     <h5>{{ "LOL.WAVEMANAGEMENT.TITLE4" | translate }}</h5>
-    <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4' | translate | safeHtml"></h4>
+    <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.INTRO' | translate | safeHtml"></h4>
+    <br />
+    <div class="divList">
+      <li style="padding-bottom: 20px;">
+        <h6
+          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST1' | translate | safeHtml"
+        ></h6>
+      </li>
+      <li style="padding-bottom: 20px;">
+        <h6
+          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST2' | translate | safeHtml "
+        ></h6>
+      </li>
+      <li style="padding-bottom: 20px;">
+        <h6
+          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST3' | translate | safeHtml"
+        ></h6>
+      </li>
+      <li style="padding-bottom: 20px;">
+        <h6
+          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST4' | translate | safeHtml"
+        ></h6>
+      </li>
+      <li style="padding-bottom: 20px;">
+        <h6
+          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST5' | translate | safeHtml"
+        ></h6>
+      </li>
+    </div>
+
+
+
+
+
+
     <br /><br />
     <h3 [id]="'Freeze'">
       {{ "LOL.WAVEMANAGEMENT.TITLE5" | translate }}
@@ -201,6 +235,14 @@
         <h6
           [innerHtml]="
             'LOL.WAVEMANAGEMENT.CONTENT11.LIST2' | translate | safeHtml
+          "
+        ></h6>
+      </li>
+      <br />
+      <li>
+        <h6
+          [innerHtml]="
+            'LOL.WAVEMANAGEMENT.CONTENT11.LIST3' | translate | safeHtml
           "
         ></h6>
       </li>

@@ -61,7 +61,14 @@
         "INTRO3": "<italic>Bonus info:</italic> If your team has a level and turret lead, your minions will deal more damage and take less damage from enemy minions. These bonuses increase based on the difference in levels and turrets."
       },
       "TITLE4": "Timing your back",
-      "CONTENT4": "The timing of your recall is crucial to maximize your gold and experience gains. <br>To determine the right timing, the position of the minion wave is a key piece of information to consider. <br><br><div class='minionsSpawnTipTip'><img class='imgMinionSpawnTip' src='assets/img/wavemanagement_MapSpawn.webp'>Since both teams' waves spawn at the same time, you can estimate the position of the enemy wave by looking at yours (mirror effect). For example, if a cannon wave leaves your base, a cannon wave is also leaving the enemy base.<br><br>It is highly discouraged to back if a cannon wave is already on its way. Cannon minions provide more gold and experience than standard minions, so it is better to stay in lane to collect those resources. Ideally, you should back before a cannon wave appears.<br><br></div><div style='margin-top: 40px'>Additionally, if your opponent is not on the lane, it may be useful to quickly push your wave under their tower before recalling (Fast Push). This will make them lose resources and allow the enemy wave to move towards the middle of the lane, making your return safer.</div>",
+      "CONTENT4": {
+        "INTRO": "The best back timings are those where you have a good window to return with <bold>key items<bold>/, <bold>minimize farm losses</bold>, and optimize your return without risking losing an advantage in lane.",
+        "LIST1": "The ideal time to go back depends largely on your gold. The goal is to back when you have enough gold to buy an essential component or ideally a key item that will strengthen your champion in lane. Don't wait too long to back just for \"small purchases\", as it can slow your progress.",
+        "LIST2": "If you manage to kill your opponent or force them to go back, take advantage of this window to back quickly. This allows you to return with an item advantage, increasing your chances of dominating upon your return. If the enemy leaves the lane, don't wait too long, go back as soon as possible to maximize your advantage.",
+        "LIST3": "Cannon waves are ideal for backing because they give you more time to return without losing too much farm. After clearing the wave of minions, this is the perfect time to back. However, make sure not to lose too many minions, even if the window is larger, and return with enough items to be competitive.",
+        "LIST4": "Before backing, if you have killed the enemy or if they have left, it’s crucial to shove the wave under their tower. This prevents the enemy from catching a large wave of minions and potentially freezing it in your absence. If the wave is ready to be frozen, set up a freeze under your tower, which will force the enemy to play cautiously upon your return. If you don't have enough mana or if the push takes too long, a quick back is preferable to avoid being vulnerable to a gank or falling behind in items.",
+        "LIST5": "If you can’t back immediately, set up a <bold>slow push</bold>. A large wave of minions crashing into the enemy tower creates a significant delay before they can react. This allows you to return to lane safely, and if the enemy is under pressure, they will have to choose between taking the wave under their tower or letting it go. You can also use this wave to set up a gank from your jungler if needed."
+      },
       "TITLE5": "Strategy 1: Freezing",
       "SUBTITLE5": "What is a Freeze?",
       "CONTENT5": "Freezing is the act of stopping the minion wave from moving, forcing the enemy to step forward to collect resources. <br><br>To maintain a freeze, you need to balance the damage your minions take with the damage dealt to enemy minions, while managing their position relative to your turret.",
@@ -313,6 +320,82 @@
       "SOCIALNETWORKS": "Social Networks"
     },
   "CONTACT":"Hi there! 👋<br><br>I’m <strong>Hato</strong>, the sole person behind the TeamUpp project.<br>Convinced that we can create something impactful for the world of competitive gaming, and help every player by giving them the tools to improve, I’m pouring all my energy and efforts into this project (even though it’s really tough going solo).<br><br>You’ll often find me live on Twitch 🔴, where the main content is gaming with viewers 🎮, chatting 💬, and interacting with them 🤙 (of course, everyone is welcome to join).<br>I’ve also set up a Discord server, so we can create a real community, exchange ideas, and support each other as passionate gamers 🫶.<br><br>Your feedback is crucial to help me succeed. So if you have any questions, ideas, or just want to share your thoughts, feel free to reach out to me on the social platforms below (especially Instagram).<br>I’d be really happy to chat with you! 🤗",
-  "ABOUTME":"About me"
+  "ABOUTME":"About me",
+    "CGU": {
+      "TITLE": "Terms of Use",
+      "OBJECT": "Purpose of the document",
+      "INTRO": "This document defines the general terms of use of the website Teamupp accessible at Teamupp.app .",
+      "ACCESS": {
+        "TITLE": "Website Access",
+        "DESCRIPTION": "The website is freely accessible to any user with an internet connection. The publisher reserves the right to temporarily or permanently suspend access to the site without prior notice."
+      },
+      "CONTENT": {
+        "TITLE": "Content Responsibility",
+        "DESCRIPTION": "The website offers content related to League of Legends, TFT, and Rocket League. The publisher does not guarantee its accuracy, and the use of information is at the user's own risk."
+      },
+      "INDEPENDENCE": {
+        "TITLE": "Website Independence",
+        "DESCRIPTION": "This site is neither approved, affiliated, nor sponsored by Riot Games, Psyonix, or any other game developer."
+      },
+      "IP": {
+        "TITLE": "Intellectual Property",
+        "DESCRIPTION": "All content on the site is protected by intellectual property rights and belongs to their respective authors. Unauthorized reproduction or use is prohibited."
+      },
+      "ADS": {
+        "TITLE": "Advertisements and External Links",
+        "DESCRIPTION": "The site may contain advertisements or external links. The publisher is not responsible for the content of these external sites or their consequences."
+      },
+      "DATA": {
+        "TITLE": "Data Management",
+        "DESCRIPTION": "No personal data is collected by the publisher. Only data entered by the publisher is present."
+      },
+      "MODIFICATIONS": {
+        "TITLE": "Modifications of the Terms",
+        "DESCRIPTION": "The publisher reserves the right to modify these terms at any time. Users should check them regularly."
+      },
+      "LAW": {
+        "TITLE": "Applicable Law",
+        "DESCRIPTION": "These terms are subject to the law of the France. In case of dispute, the competent courts will be those of the publisher's residence."
+      },
+      "CONTACT": {
+        "TITLE": "Contact",
+        "DESCRIPTION": "For any questions, contact the developer / publisher 'Hato'."
+      }
+    },
+    "PRIVACY": {
+      "TITLE": "Privacy Policy",
+      "INTRO": {
+        "TITLE": "Introduction",
+        "DESCRIPTION": "This Privacy Policy explains how the site Teamupp.app collects, uses, and protects personal data."
+      },
+      "DATA_COLLECTED": {
+        "TITLE": "Data Collected",
+        "DESCRIPTION": "The site does not directly collect any personal data from users. However, third-party services like Google Analytics or advertising networks may collect anonymous browsing statistics."
+      },
+      "DATA_USE": {
+        "TITLE": "Use of Data",
+        "DESCRIPTION": "Data collected by third parties may be used to enhance user experience, provide usage statistics, and display relevant advertisements."
+      },
+      "COOKIES": {
+        "TITLE": "Cookies",
+        "DESCRIPTION": "The site may use cookies to improve navigation. Users can configure their browser to block these cookies."
+      },
+      "DATA_SHARING": {
+        "TITLE": "Data Sharing",
+        "DESCRIPTION": "The publisher does not sell or share user data directly. However, third-party partners may collect and process some anonymous information."
+      },
+      "USER_RIGHTS": {
+        "TITLE": "User Rights",
+        "DESCRIPTION": "According to current regulations, users may request access, correction, or deletion of their data collected by third-party services."
+      },
+      "MODIFICATIONS": {
+        "TITLE": "Policy Modifications",
+        "DESCRIPTION": "This Privacy Policy may be modified at any time. Users are advised to review it regularly."
+      },
+      "CONTACT": {
+        "TITLE": "Contact",
+        "DESCRIPTION": "For any questions regarding data management, contact the publisher / developer 'Hato' ."
+      }
+    }
 
 }

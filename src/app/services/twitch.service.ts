@@ -2,17 +2,24 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of, timer } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
+import { VercelService } from './vercel.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TwitchService {
   private clientId = 'xlbb56pfiiuc3m748dc0yerlksxjlb';
-  private accessToken = '2kiqtilz9aqa1glenzfpwjtjeahxlg';
+  private accessToken= '';
   private username = 'Hato_TV';
   private apiUrl = `https://api.twitch.tv/helix/streams?user_login=${this.username}`;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private vercelService: VercelService) {
+    this.vercelService.getData().subscribe(response => {
+      this.accessToken = response.TWITCH_TOKEN
+    }, error => {
+      console.error('Erreur lors de la récupération', error);
+    });
+  }
 
   checkLiveStatus(): Observable<{ isLive: boolean, streamUrl?: string, streamTitle?: string }> {
     // return of({

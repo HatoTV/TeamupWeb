@@ -23,6 +23,6 @@ export default function handler(req, res) {
     }
   
     // Retourne un objet JSON avec les données
-    return res.status(200).json({ RIOT_API_KEY, TWITCH_TOKEN,TWITCH_CLIENT_ID, EMAIL_PASS ,EMAIL_USER });
+    return res.status(200).json({ RIOT_API_KEY,TWITCH_CLIENT_SECRET, TWITCH_ACCESS_TOKEN,TWITCH_CLIENT_ID, EMAIL_PASS ,EMAIL_USER });
   }
   

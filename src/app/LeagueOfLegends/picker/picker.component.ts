@@ -61,7 +61,7 @@ export class PickerComponent {
     if(this.translate.currentLang=='fr'){
       this.difficulties = [
         {
-          name: "⌀",
+          name: "Toutes difficultés",
           id: 0,
           selected: false,
         }, // Placeholder
@@ -105,28 +105,33 @@ export class PickerComponent {
       };
       this.difficulties = [
         {
-          name: "⌀",
+          name: "All difficulties",
           id: 0,
           selected: false,
         }, // Placeholder
         {
-          name: "Easy",
+          name: "Tiny",
           id: 1,
           selected: false,
         },
         {
-          name: "Average",
+          name: "Easy",
           id: 2,
           selected: false,
         },
         {
-          name: "Hard",
+          name: "Average",
           id: 3,
           selected: false,
         },
         {
-          name: "Extreme",
+          name: "Hard",
           id: 4,
+          selected: false,
+        },
+        {
+          name: "Extreme",
+          id: 5,
           selected: false,
         },
       ];
@@ -191,12 +196,12 @@ export class PickerComponent {
           .toLowerCase()
           .includes(searchTermLower);
       }
+      
       let matchesDifficulty = false;
       if (!this.selectedDifficulty || this.selectedDifficulty.id === 0) {
         matchesDifficulty = true;
       } else {
-        matchesDifficulty =
-          this.selectedDifficulty.id === champion.difficulty;
+        matchesDifficulty = this.selectedDifficulty.id === Number(champion.difficulty);
       }
 
       let matchesRole = false;
@@ -211,6 +216,8 @@ export class PickerComponent {
           (this.selectedRole === 'support' && champion.isSupport);
       }
       // Ajoute à la Map uniquement si le champion correspond au terme de recherche et à la difficulté
+      // console.log("matchesSearchTerm " + matchesSearchTerm + " matchesDifficulty " + matchesDifficulty + " matchesRole " + matchesRole);
+      
       if (matchesSearchTerm && matchesDifficulty && matchesRole) {
         uniqueChampion.set(champion.name.toLowerCase(), champion);
       }
@@ -242,18 +249,18 @@ export class PickerComponent {
 
     // Sélectionnez la nouvelle option
     difficulty.selected = true;
-    this.selectedDifficulty = difficulty; // Sélectionner la difficulté choisie
+    this.selectedDifficulty = difficulty; // Sélectionner la difficulté choisie   
 
     this.filterChampions();
   }
 
   getBorderColor(difficulty: number): string {
-    switch(difficulty){      
-      case 1 : return '#8eff57';
-      case 2 : return '#57fcff';
-      case 3 : return '#ffa64c';
-      case 4 : return '#ff6767';
-      case 5 : return '#ff6767';
+    switch(Number(difficulty)){ 
+      case 1 : return '#79d0ed';     
+      case 2 : return '#75e36d';
+      case 3 : return '#f5f37f';
+      case 4 : return '#eda968';
+      case 5 : return '#f28888';
       default :  return 'rgba(255, 255, 255, 0.6)';
       };
   }
@@ -320,5 +327,16 @@ export class PickerComponent {
 
     // Lancer la première itération
     rollChampions();
+  }
+
+  difficultyToText(difficulty: number){
+    switch(Number(difficulty)){      
+      case 1 : return this.difficulties[1].name;
+      case 2 : return this.difficulties[2].name;
+      case 3 : return this.difficulties[3].name;
+      case 4 : return this.difficulties[4].name;
+      case 5 : return this.difficulties[5].name;
+      };
+      return null
   }
 }

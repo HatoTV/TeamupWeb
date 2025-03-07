@@ -11,13 +11,14 @@ export default function handler(req, res) {
     }
   
     const RIOT_API_KEY = process.env.RIOT_API_KEY;
-    const TWITCH_TOKEN = process.env.TWITCH_TOKEN;
+    const TWITCH_CLIENT_SECRET = process.env.TWITCH_CLIENT_SECRET;
     const TWITCH_CLIENT_ID = process.env.TWITCH_CLIENT_ID;
+    const TWITCH_ACCESS_TOKEN = process.env.TWITCH_ACCESS_TOKEN;
     const EMAIL_PASS = process.env.EMAIL_PASS;
     const EMAIL_USER = process.env.EMAIL_USER;
   
     // Vérifie si les variables d'environnement existent
-    if (!RIOT_API_KEY || !TWITCH_TOKEN || !TWITCH_CLIENT_ID || !EMAIL_PASS || !EMAIL_USER) {
+    if (!RIOT_API_KEY || !TWITCH_CLIENT_SECRET || !TWITCH_CLIENT_ID || !TWITCH_ACCESS_TOKEN || !EMAIL_PASS || !EMAIL_USER) {
       return res.status(500).json({ error: 'Variables d\'environnement manquantes' });
     }
   

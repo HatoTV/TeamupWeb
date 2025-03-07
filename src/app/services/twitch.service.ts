@@ -16,18 +16,13 @@ export class TwitchService {
   constructor(private http: HttpClient, private vercelService: VercelService) {
     this.vercelService.getData().subscribe(response => {
       this.clientId = response.TWITCH_CLIENT_ID
-      this.accessToken = response.TWITCH_TOKEN
+      this.accessToken = response.TWITCH_ACCESS_TOKEN
     }, error => {
       console.error('Erreur lors de la récupération', error);
     });
   }
 
   checkLiveStatus(): Observable<{ isLive: boolean, streamUrl?: string, streamTitle?: string }> {
-    // return of({
-    //   isLive: true, // Simuler que le stream est en direct
-    //   streamUrl: `https://player.twitch.tv/?channel=${this.username}&parent=localhost&parent=teamupp.app`, // Remplacez par votre nom d'utilisateur
-    //   streamTitle: 'Titre de votre stream' // Titre fictif pour le test
-    // });
     return timer(0, 60000).pipe( // Vérifier toutes les minutes
       switchMap(() => this.http.get<any>(this.apiUrl, {
         headers: {
@@ -42,7 +37,7 @@ export class TwitchService {
         if (isLive) {
           streamUrl = `https://player.twitch.tv/?channel=${this.username}&parent=teamupp.app`; // Remplacez par l'URL du stream
           streamTitle = response.data[0].title; // Titre du stream
-        }
+        }        
         return { isLive, streamUrl, streamTitle };
       })
     );

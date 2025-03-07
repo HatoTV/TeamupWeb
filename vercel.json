@@ -4,5 +4,16 @@
     { "source": "/api/(.*)", "destination": "/api" },
     { "source": "/assets/i18n/(.*)", "destination": "/public/assets/i18n/$1" },
     { "source": "/(.*)", "destination": "/" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self' https://teamupp.app https://player.twitch.tv;"
+        }
+      ]
+    }
   ]
 }

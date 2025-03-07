@@ -8,13 +8,14 @@ import { VercelService } from './vercel.service';
   providedIn: 'root'
 })
 export class TwitchService {
-  private clientId = 'xlbb56pfiiuc3m748dc0yerlksxjlb';
+  private clientId = '';
   private accessToken= '';
   private username = 'Hato_TV';
   private apiUrl = `https://api.twitch.tv/helix/streams?user_login=${this.username}`;
 
   constructor(private http: HttpClient, private vercelService: VercelService) {
     this.vercelService.getData().subscribe(response => {
+      this.clientId = response.TWITCH_CLIENT_ID
       this.accessToken = response.TWITCH_TOKEN
     }, error => {
       console.error('Erreur lors de la récupération', error);

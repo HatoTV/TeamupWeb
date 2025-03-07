@@ -253,8 +253,9 @@ export class PickerComponent {
       case 2 : return '#57fcff';
       case 3 : return '#ffa64c';
       case 4 : return '#ff6767';
-      }
-      return 'rgba(255, 255, 255, 0.6)';
+      case 5 : return '#ff6767';
+      default :  return 'rgba(255, 255, 255, 0.6)';
+      };
   }
 
   @HostListener('document:click', ['$event'])

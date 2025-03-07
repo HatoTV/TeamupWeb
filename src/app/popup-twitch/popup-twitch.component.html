@@ -1,8 +1,8 @@
-<div class="popup" [ngClass]="{ show: isVisible }" (click)="closePopup()">
+<div class="popup" *ngIf="isVisible" (click)="showPopup()">
   <div class="popup-content" (click)="$event.stopPropagation()">
     <div class="divContent">
       <iframe
-        [src]="safeStreamUrl"
+        [src]="streamUrl"
         height="200"
         width="300"
         allowfullscreen="true"

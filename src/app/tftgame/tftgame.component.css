@@ -157,7 +157,7 @@
     .imgPath {
       max-width: 420px;
       width: -webkit-fill-available;
-      border: 4px solid white;
+      border: 3px solid white;
       display: block;
       margin-left: 50px;
       margin-top: 20px;
@@ -167,7 +167,7 @@
     .imgDuration {
       max-width: 800px;
       width: -webkit-fill-available;
-      border: 4px solid white;
+      border: 3px solid white;
       display: block;
       margin-left: auto;
       margin-top: 20px;
@@ -178,7 +178,7 @@
     .imgCenter {
       max-width: 420px;
       width: -webkit-fill-available;
-      border: 4px solid white;
+      border: 3px solid white;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -186,7 +186,7 @@
       margin-bottom: 40px;
     }
     .imgPool{
-      border: 4px solid white;
+      border: 3px solid white;
       display: block;
     }
     .imgPower{
@@ -198,7 +198,7 @@
     .imgNext{
       width: 145px;
       margin-left: 40px;
-      border: 4px solid white;
+      border: 3px solid white;
       display: block;
     }
     .imgWidth70{

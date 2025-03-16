@@ -134,7 +134,10 @@
     <hr class="divider paddingSidebar" />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE5" | translate }}</h5>
     <div class="minionsSpawnTip">
-      <img class="imgFreeze" src="assets/img/wavemanagement_Freeze.webp" />
+      <video class="imgFreeze" autoplay loop muted playsinline>
+        <source src="assets/lolVideos/freeze.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos.
+      </video>
       <h4
         [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT5' | translate | safeHtml"
       ></h4>
@@ -174,6 +177,13 @@
         ></h6>
       </li>
     </div>
+    <div class="divFreezeWithTxt">
+      <div class="divFreezeImg">
+        <img class="imgFreeze2" src="assets/img/laneFreeze.jpg" />
+        <span class="credits">Crédits : Mobalytics</span>
+      </div>
+      <h6 class="contentFreeze" [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT6.LIST5' | translate | safeHtml"></h6>
+    </div>
     <br /><br /><br />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE7" | translate }}</h5>
     <div class="divList">
@@ -211,7 +221,10 @@
     <hr class="divider paddingSidebar" />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE9" | translate }}</h5>
     <div class="minionsSpawnTip">
-      <img class="imgFreeze" src="assets/img/wavemanagement_SlowPush.webp" />
+      <video class="imgFreeze" autoplay loop muted playsinline>
+        <source src="assets/lolVideos/slowPush.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos.
+      </video>
       <h4
         [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT9' | translate | safeHtml"
       ></h4>
@@ -254,7 +267,10 @@
     <hr class="divider paddingSidebar" />
     <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE12" | translate }}</h5>
     <div class="minionsSpawnTip">
-      <img class="imgFreeze" src="assets/img/wavemanagement_FastPush.webp" />
+      <video class="imgFreeze" autoplay loop muted playsinline>
+        <source src="assets/lolVideos/fastPush.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos.
+      </video>
       <h4
         [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT12' | translate | safeHtml"
       ></h4>

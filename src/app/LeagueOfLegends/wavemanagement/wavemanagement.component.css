@@ -127,7 +127,7 @@ h6{
     width: -webkit-fill-available;
     margin-left: auto;
     margin-right:auto;
-    border: 4px solid white;
+    border: 3px solid white;
   }
   .imgMinionsTypes{
     max-width: 800px;
@@ -148,14 +148,24 @@ h6{
   }
 
   .imgFreeze{
-  max-width: 400px;
+  max-width: 600px;
   width: -webkit-fill-available;
   margin-right: 40px;
   display: block;
   margin-top: 20px;
-  border: 4px solid white;
+  border: 3px solid white;
   margin-bottom: 40px;
   }
+
+  
+  .imgFreeze2{
+    max-width: 400px;
+    width: -webkit-fill-available;
+    display: block;
+    margin-top: 20px;
+    border: 3px solid white;
+    margin-bottom: 5px;
+    }
 
   .divList {
     padding-left: 45px;
@@ -168,6 +178,27 @@ h6{
   }
   .minionsSpawnTip{
     display: flex; align-items: center
+  }
+
+  .divFreezeImg{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divFreezeWithTxt{
+    display: flex;
+    align-items: center;   
+    margin-top: 30px;
+  }
+
+  .contentFreeze{
+    margin-left: 30px;
+  }
+
+  .credits{
+    font-weight: 300;
+    color: lightgrey;
+    font-size: 12px;
   }
 
   @media only screen and (max-width: 500px) {
@@ -242,6 +273,9 @@ h6{
 .imgFreeze{
   margin-right: 0;
 }
+.imgFreeze2{
+  margin-right: 0;
+}
 h4 {
   padding-left: 0 !important;
   font-size: 14px;
@@ -253,5 +287,16 @@ h6 {
 
 img{
   width: 100%;
+}
+
+.divFreezeWithTxt{
+  flex-direction: column;
+}
+.contentFreeze{
+  margin-top: 20px;
+  margin-left: 0;
+}
+.credits{
+  text-align: center;
 }
   }

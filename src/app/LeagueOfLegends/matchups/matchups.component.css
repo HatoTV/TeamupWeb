@@ -409,7 +409,7 @@ opacity: 0;
   }
   .contentPick{
     width: 14vw;
-    border: 4px solid var(--lol-counter-title);
+    border: 3px solid var(--lol-counter-title);
     background-color: var(--lol-gradient-2);
     z-index: 20;
 }

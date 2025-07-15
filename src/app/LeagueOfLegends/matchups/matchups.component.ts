@@ -155,6 +155,8 @@ export class MatchupsComponent {
         difficulty: item.difficulty,
         tips: this.formatText(item.tips),
       }));
+      console.log(this.datasChampion)
+      console.log(this.datasChampion2)
       this.worstPicksForChampion = this.removeDuplicatesByName(this.datasChampion
         .filter(
           (item) =>

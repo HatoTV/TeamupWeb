@@ -1,21 +1,11 @@
-import { UpperCasePipe, isPlatformBrowser } from '@angular/common';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  DestroyRef,
-  PLATFORM_ID,
-  computed,
-  inject,
-  signal,
-  viewChild,
-} from '@angular/core';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { UpperCasePipe } from '@angular/common';
+import { ChangeDetectionStrategy, Component, computed, effect, inject, signal, viewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { RouteContextService } from '../../core/route-context.service';
 import { DISCORD_URL, GAMES, GameLink, Lang, SUPPORTED_LANGS } from '../../core/site.config';
+import { LiveStatusService } from '../../core/live-status.service';
 import { PopupTwitchComponent } from '../../popup-twitch/popup-twitch.component';
-import { TwitchService } from '../../services/twitch.service';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { GlobalSearchComponent } from '../global-search/global-search.component';
 
@@ -34,24 +24,20 @@ export class TopbarComponent {
   protected readonly discordUrl = DISCORD_URL;
 
   protected readonly searchOpen = signal(false);
-  protected readonly live = signal(false);
+  private readonly liveStatus = inject(LiveStatusService);
+  protected readonly live = computed(() => this.liveStatus.status().isLive);
   protected readonly otherLang = computed<Lang>(() => (this.ctx.lang() === 'fr' ? 'en' : 'fr'));
 
   private readonly mobileSearch = viewChild<GlobalSearchComponent>('mobileSearch');
   private readonly popup = viewChild.required(PopupTwitchComponent);
 
   constructor() {
-    if (isPlatformBrowser(inject(PLATFORM_ID))) {
-      inject(TwitchService)
-        .checkLiveStatus()
-        .pipe(takeUntilDestroyed(inject(DestroyRef)))
-        .subscribe((status) => {
-          this.live.set(status.isLive);
-          const popup = this.popup();
-          popup.streamUrl = status.streamUrl ?? '';
-          popup.streamTitle = status.streamTitle ?? '';
-        });
-    }
+    effect(() => {
+      const status = this.liveStatus.status();
+      const popup = this.popup();
+      popup.streamUrl = status.streamUrl ?? '';
+      popup.streamTitle = status.streamTitle ?? '';
+    });
   }
 
   protected tabCurrent(game: GameLink): 'page' | 'true' | null {

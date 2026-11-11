@@ -31,7 +31,14 @@ describe('GlobalSearchComponent', () => {
 
     input.dispatchEvent(new Event('focus'));
     const http = TestBed.inject(HttpTestingController);
-    http.expectOne('assets/jsonChampionsDatas/AllChampions.json').flush([{ championName: 'Ahri ' }, { championName: 'Akali' }]);
+    http.expectOne('assets/data/champions.json').flush({
+      version: '1.0.0',
+      champions: [
+        { slug: 'ahri', name: 'Ahri', ddragonId: 'Ahri', roles: ['mid'], difficulty: 3, hasMatchups: true },
+        { slug: 'akali', name: 'Akali', ddragonId: 'Akali', roles: ['mid'], difficulty: 4, hasMatchups: true },
+        { slug: 'master-yi', name: 'Master Yi', ddragonId: 'MasterYi', roles: ['jungle'], difficulty: 1, hasMatchups: true, aliases: ['maitre yi'] },
+      ],
+    });
     http.expectOne('assets/rlmecanics.json').flush([{ name: 'Ceiling Shot', subname: '' }]);
     tick();
   }));
@@ -57,7 +64,7 @@ describe('GlobalSearchComponent', () => {
     key('Enter');
     expect(router.navigate).toHaveBeenCalledWith(['/fr/lol/matchups'], {
       fragment: undefined,
-      queryParams: { champion: 'Ahri' },
+      queryParams: { champion: 'ahri' },
     });
   });
 
@@ -71,6 +78,15 @@ describe('GlobalSearchComponent', () => {
     expect(router.navigate).toHaveBeenCalledWith(['/fr/rocket/mecanics/ceiling-shot'], {
       fragment: undefined,
       queryParams: undefined,
+    });
+  });
+
+  it('matches alternative spellings', () => {
+    type('maitre');
+    key('Enter');
+    expect(router.navigate).toHaveBeenCalledWith(['/fr/lol/matchups'], {
+      fragment: undefined,
+      queryParams: { champion: 'master-yi' },
     });
   });
 

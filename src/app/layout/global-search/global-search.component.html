@@ -24,6 +24,9 @@
     <kbd class="search__kbd" aria-hidden="true">/</kbd>
     <span class="sr-only" [id]="uid + '-shortcut'">{{ 'SEARCH.SHORTCUT' | translate }}</span>
   }
+  @if (withSubmit()) {
+    <button type="button" class="search__submit" (click)="submit()">{{ 'SEARCH.LABEL' | translate }}</button>
+  }
 </div>
 
 <div class="search__popup" [id]="uid + '-list'" role="listbox" [attr.aria-label]="'SEARCH.LABEL' | translate" [hidden]="!expanded()">
@@ -41,8 +44,13 @@
           (mousemove)="active.set(indexOf(entry))"
           (click)="select(entry)"
         >
-          <span class="search__option-label">{{ entry.label }}</span>
-          <span class="search__option-detail">{{ entry.detail }}</span>
+          @if (entry.icon) {
+            <img class="search__option-icon" [src]="entry.icon" alt="" width="32" height="32" loading="lazy" />
+          }
+          <span class="search__option-text">
+            <span class="search__option-label">{{ entry.label }}</span>
+            <span class="search__option-detail">{{ entry.detail }}</span>
+          </span>
         </div>
       }
     </div>

@@ -38,6 +38,8 @@ export class GlobalSearchComponent {
   readonly variant = input<'bar' | 'hero' | 'panel'>('bar');
   /** Enables the "/" keyboard shortcut (only one instance should have it). */
   readonly shortcut = input(false);
+  /** Shows a submit button (home hero) that opens the highlighted or first result. */
+  readonly withSubmit = input(false);
   readonly navigated = output<void>();
 
   private readonly index = inject(SearchIndexService);
@@ -126,6 +128,12 @@ export class GlobalSearchComponent {
     if (target && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName))) return;
     event.preventDefault();
     this.focus();
+  }
+
+  protected submit(): void {
+    const entry = this.flat()[Math.max(this.active(), 0)];
+    if (entry && this.query().trim()) this.select(entry);
+    else this.focus();
   }
 
   protected close(): void {

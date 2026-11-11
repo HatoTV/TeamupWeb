@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable, inject, signal } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { firstValueFrom } from 'rxjs';
+import { ChampionDataService } from '../../core/data/champion-data.service';
 import { LOL_GUIDE_GROUPS } from '../../core/navigation/lol-nav';
 import { normalizeForSearch, slugify } from '../../core/slug';
 
@@ -13,6 +14,10 @@ export interface SearchEntry {
   label: string;
   /** Secondary line (already translated). */
   detail: string;
+  /** Extra matching terms (alternative spellings). */
+  aliases?: string[];
+  /** Data Dragon icon, champions only. */
+  icon?: string;
   /** Path without language prefix. */
   path: string;
   fragment?: string;
@@ -23,10 +28,6 @@ export interface SearchGroup {
   id: SearchGroupId;
   labelKey: string;
   entries: SearchEntry[];
-}
-
-interface ChampionRow {
-  championName: string;
 }
 
 interface MechanicRow {
@@ -46,21 +47,17 @@ export class SearchIndexService {
   private readonly http = inject(HttpClient);
   private readonly translate = inject(TranslateService);
 
-  private readonly champions = signal<string[]>([]);
+  private readonly championData = inject(ChampionDataService);
   private readonly mechanics = signal<MechanicRow[]>([]);
   private loading: Promise<void> | null = null;
 
   /** Fetches the data sources once (lazily, on first interaction). */
   load(): Promise<void> {
     this.loading ??= Promise.all([
-      firstValueFrom(this.http.get<ChampionRow[]>('assets/jsonChampionsDatas/AllChampions.json')),
+      this.championData.loadIndex(),
       firstValueFrom(this.http.get<MechanicRow[]>('assets/rlmecanics.json')),
     ])
-      .then(([champions, mechanics]) => {
-        const names = new Set(champions.map((c) => c.championName.trim()).filter(Boolean));
-        this.champions.set([...names].sort((a, b) => a.localeCompare(b)));
-        this.mechanics.set(mechanics);
-      })
+      .then(([, mechanics]) => this.mechanics.set(mechanics))
       .catch(() => {
         this.loading = null; // allow a retry on next focus
       });
@@ -72,13 +69,15 @@ export class SearchIndexService {
     if (!q) return [];
     const t = (key: string) => this.translate.instant(key) as string;
 
-    const champions: SearchEntry[] = this.champions().map((name) => ({
-      id: `champion-${slugify(name)}`,
+    const champions: SearchEntry[] = (this.championData.index()?.champions ?? []).map((champion) => ({
+      id: `champion-${champion.slug}`,
       group: 'champions',
-      label: name,
+      label: champion.name,
       detail: t('SEARCH.CHAMPION_HINT'),
+      aliases: champion.aliases,
+      icon: this.championData.iconUrl(champion),
       path: '/lol/matchups',
-      queryParams: { champion: name },
+      queryParams: { champion: champion.slug },
     }));
 
     const guides: SearchEntry[] = [];
@@ -111,6 +110,7 @@ export class SearchIndexService {
       if (label.startsWith(q)) return 0;
       if (label.split(/[\s'’-]+/).some((w) => w.startsWith(q))) return 1;
       if (label.includes(q)) return 2;
+      if (entry.aliases?.some((alias) => normalizeForSearch(alias).includes(q))) return 2;
       if (normalizeForSearch(entry.detail).includes(q)) return 3;
       return -1;
     };

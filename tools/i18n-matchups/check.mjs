@@ -18,11 +18,18 @@ import { join } from 'node:path';
 const DIR = fileURLToPath(new URL('.', import.meta.url));
 const read = (f) => JSON.parse(readFileSync(join(DIR, f), 'utf8'));
 const source = new Map(read('source.json').map((e) => [e.id, e]));
-const target = read('matchups-fr.json');
 const glossary = read('glossary.json');
 
 const complete = process.argv.includes('--complete');
-const onlyIds = process.argv.find((a) => a.startsWith('--ids='))?.slice(6).split(',');
+// --batch=a.json,b.json: check batch files ({ id: text }) directly, without merging them.
+const batchFiles = process.argv.find((a) => a.startsWith('--batch='))?.slice(8).split(',');
+const target = batchFiles
+  ? batchFiles.flatMap((f) =>
+      Object.entries(JSON.parse(readFileSync(f, 'utf8'))).map(([id, text]) => ({ ...(source.get(id) ?? {}), id, text }))
+    )
+  : read('matchups-fr.json');
+let onlyIds = process.argv.find((a) => a.startsWith('--ids='))?.slice(6).split(',');
+if (batchFiles) onlyIds = target.map((t) => t.id);
 
 /** Tokens that look like keys but are not abilities. */
 const KEY_EXCEPTIONS = /\b(QSS|QWER|W\/L|WR)\b/g;

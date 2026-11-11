@@ -88,6 +88,9 @@
             </li>
           }
         </ol>
+        @if (tips()!.lang === 'fr') {
+          <p class="tips__credit">{{ 'MATCHUPSPAGE.TRANSLATED_BY' | translate }}</p>
+        }
       } @else {
         <div class="tips__state tips__state--empty">
           <p class="tips__empty-title">{{ 'MATCHUPSPAGE.NO_DATA_TITLE' | translate }}</p>

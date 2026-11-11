@@ -17,6 +17,8 @@ const SOURCE_DIR = join(ROOT, 'data', 'lol');
 const OUT_DIR = join(ROOT, 'public', 'assets', 'data');
 const INDEX_FILE = join(OUT_DIR, 'champions.json');
 const MATCHUPS_DIR = join(OUT_DIR, 'matchups');
+/** French matchup tips translated by TeamUpp (see tools/i18n-matchups/README.md). */
+const I18N_DIR = join(ROOT, 'tools', 'i18n-matchups');
 
 /** Matchup difficulty (for the selected champion) on the site's 1–5 scale. */
 const LEVELS = { tiny: 1, minor: 2, even: 3, major: 4, extreme: 5 };
@@ -37,7 +39,22 @@ async function fetchDataDragon() {
   return { version, champions: Object.values(data.data).map((c) => ({ id: c.id, name: c.name })) };
 }
 
+/**
+ * TeamUpp French translations by id (`champion|enemy|0`). A translation is only used while its English source
+ * is unchanged (source.json); edited tips fall back to English until they are translated and checked again.
+ */
+function loadTranslations() {
+  const frFile = join(I18N_DIR, 'matchups-fr.json');
+  const sourceFile = join(I18N_DIR, 'source.json');
+  if (!existsSync(frFile) || !existsSync(sourceFile)) return new Map();
+  const sourceText = new Map(readJson(sourceFile).map((e) => [e.id, e.text]));
+  return new Map(readJson(frFile).map((e) => [e.id, { text: e.text, source: sourceText.get(e.id) }]));
+}
+
 async function main() {
+  const translations = loadTranslations();
+  let translated = 0;
+  let stale = 0;
   // 1. Source champions (trim names in place).
   const championsFile = join(SOURCE_DIR, 'AllChampions.json');
   const rows = readJson(championsFile).map((row) => Object.fromEntries(Object.entries(row).map(([k, v]) => [k, clean(v)])));
@@ -101,8 +118,16 @@ async function main() {
         const enemy = clean(m.championName);
         if (!level || !enemy || seen.has(enemy)) continue;
         seen.add(enemy);
-        const tipsFr = clean(m.tipsFr);
-        matchups.push({ enemy, level, tips: clean(m.tips) ?? '', ...(tipsFr ? { tipsFr } : {}) });
+        const tips = clean(m.tips) ?? '';
+        const translation = translations.get(`${slug}|${slugify(enemy)}|0`);
+        let tipsFr = clean(m.tipsFr);
+        if (translation && translation.source === tips) {
+          tipsFr = translation.text;
+          translated++;
+        } else if (translation) {
+          stale++;
+        }
+        matchups.push({ enemy, level, tips, ...(tipsFr ? { tipsFr } : {}) });
       }
     }
 
@@ -138,6 +163,7 @@ async function main() {
   const files = readdirSync(MATCHUPS_DIR);
   console.log(`Data Dragon ${ddragon.version} · ${index.length} champions · index ${sizeKb(INDEX_FILE)} kB`);
   console.log(`${files.length} matchup files · ${index.filter((c) => !c.hasMatchups).length} champions without matchups`);
+  console.log(`${translated} French matchup tips (TeamUpp)${stale ? ` · ${stale} outdated (source changed, shown in English)` : ''}`);
   if (unmatched.length) console.warn(`No Data Dragon id for: ${unmatched.join(', ')}`);
 }
 

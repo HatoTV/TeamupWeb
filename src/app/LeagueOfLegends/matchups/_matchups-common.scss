@@ -1,0 +1,101 @@
+// Shared by the three matchup states (included in each component stylesheet).
+:host {
+  display: block;
+}
+
+.card {
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+}
+
+.section {
+  padding: 32px 40px 0;
+}
+
+.section__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.section__eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+
+  &--ally {
+    color: var(--diff-2-text);
+  }
+
+  &--enemy {
+    color: var(--diff-5-text);
+  }
+}
+
+.section__title {
+  margin-top: 2px;
+  font: 700 32px/1.1 var(--font-display);
+  text-transform: uppercase;
+}
+
+.section__lead {
+  margin-top: 2px;
+  font-size: 15px;
+  color: var(--color-text-muted);
+}
+
+.vs-text {
+  font: italic 700 72px/1 var(--font-display);
+  color: var(--color-gold);
+}
+
+.pick-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border-radius: var(--radius-control);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  transition: transform var(--duration-color) var(--ease-out);
+
+  img {
+    border-radius: 12px;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pick-link {
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 24px var(--container-gutter) 0;
+  }
+
+  .section__title {
+    font-size: 26px;
+  }
+
+  .vs-text {
+    font-size: 40px;
+  }
+}

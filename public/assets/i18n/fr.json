@@ -525,7 +525,11 @@
       "3": "Moyen",
       "4": "Difficile",
       "5": "Extrême",
-      "LABEL": "Difficulté"
+      "LABEL": "Difficulté",
+      "FOR": "Matchup pour {{champion}}",
+      "ARIA": "Difficulté du matchup pour {{champion}} : {{label}}, niveau {{value}} sur 5",
+      "GAUGE": "{{label}}, niveau {{value}} sur 5",
+      "DISTRIBUTION": "Répartition des difficultés"
     },
     "UTILITY": "Utilité",
     "METER": "{{label}} : {{value}} sur {{max}}",
@@ -548,7 +552,21 @@
     "OPEN_DISCORD": "Ouvrir le Discord",
     "ALLY": "Ton champion",
     "ENEMY": "Champion ennemi",
-    "EXTERNAL": "(nouvel onglet)"
+    "EXTERNAL": "(nouvel onglet)",
+    "DIFFICULTY_MESSAGE": {
+      "1": "Tu domines la lane.",
+      "2": "Avantage pour toi.",
+      "3": "Matchup équilibré.",
+      "4": "Joue prudemment.",
+      "5": "Survis à la lane."
+    },
+    "DIFFICULTY_ADVICE": {
+      "1": "Matchup très favorable : prends l'avantage dès le niveau 1.",
+      "2": "Matchup favorable : joue agressif sur les bonnes fenêtres.",
+      "3": "Matchup équilibré : c'est la maîtrise qui fera la différence.",
+      "4": "Matchup défavorable : joue prudemment et cherche l'aide de ton jungler.",
+      "5": "Matchup très défavorable : survis à la phase de lane, ton impact viendra plus tard."
+    }
   },
   "HOMEPAGE": {
     "EYEBROW": "League of Legends · TFT · Rocket League",
@@ -612,7 +630,45 @@
     "LIST_EMPTY": "Aucun matchup dans cette catégorie.",
     "NO_DATA_HINT": "Ce matchup n'a pas encore de conseils. Signale-le avec le formulaire pour qu'il soit ajouté.",
     "LOADING": "Chargement…",
-    "LOAD_MATCHUP": "Afficher le matchup {{a}} contre {{b}}"
+    "LOAD_MATCHUP": "Afficher le matchup {{a}} contre {{b}}",
+    "HERO_TITLE_START": "Maîtrisez chaque",
+    "HERO_TITLE_END": "matchup",
+    "STEP": "Étape {{n}}",
+    "YOUR_CHAMPION": "Ton champion",
+    "ENEMY_CHAMPION": "Champion ennemi",
+    "THE_ENEMY": "L'adversaire",
+    "CHOOSE_YOURS": "Choisir ton champion",
+    "PICK_YOURS_FIRST": "Choisis d'abord ton champion",
+    "GRID_TITLE": "Avec qui joues-tu ?",
+    "GRID_LABEL": "Champions disponibles ({{count}})",
+    "GRID_KEYS": "Utilise les flèches pour te déplacer dans la grille, Entrée pour choisir.",
+    "ROLE_FILTER": "Filtrer par rôle",
+    "ALL_ROLES": "Tous",
+    "HOW_LABEL": "Comment ça marche",
+    "HOW_1_TITLE": "Choisis ton champion",
+    "HOW_1_TEXT": "Dans la grille ou avec la recherche.",
+    "HOW_2_TITLE": "Choisis l'adversaire",
+    "HOW_2_TEXT": "Ses matchups s'affichent, classés par difficulté.",
+    "HOW_3_TITLE": "Lis les conseils",
+    "HOW_3_TEXT": "Difficulté, astuces de joueurs Challenger, counters.",
+    "LEGEND_TITLE": "Lire la difficulté d'un matchup",
+    "H1_ME": "Matchups de",
+    "H1_VS": "Counters de",
+    "SEE_BUILD": "Voir son build",
+    "BUILD_OF": "Build de {{name}}",
+    "CHANGE": "Changer",
+    "BOARD_TITLE_ME": "Contre qui joues-tu ?",
+    "BOARD_TITLE_VS": "Qui le contre le mieux ?",
+    "BOARD_LEAD_ME": "Les adversaires de {{name}}, classés du pire au meilleur matchup. Clique pour voir les conseils.",
+    "BOARD_LEAD_VS": "Les matchups de {{name}}, vus de son côté : en Extrême, les champions qui le contrent le mieux. Clique pour voir les conseils.",
+    "BOARD_NO_DATA": "Aucun matchup classé pour {{name}} pour l'instant.",
+    "BOARD_ITEM": "{{name}} : {{level}}",
+    "COLUMN_EMPTY": "Aucun matchup classé ici pour l'instant.",
+    "MISSING_ENEMY": "Ton adversaire n'est pas dans la liste ?",
+    "MISSING_ALLY": "Ton champion n'est pas dans la liste ?",
+    "REPORT_PICK_ALLY": "Champion concerné",
+    "REPORT_PICK_ENEMY": "Adversaire concerné",
+    "NO_DATA_TITLE": "Aucune donnée trouvée."
   },
   "PICKERPAGE": {
     "KICKER": "Outil champions",
@@ -768,6 +824,10 @@
     "PICKER_DESC": "Explore tous les champions de League of Legends, filtre par rôle et difficulté, ou tire un champion au hasard.",
     "GUIDE_SUFFIX": "Guide League of Legends",
     "TFT_TITLE": "Guide Teamfight Tactics pour bien débuter",
-    "TFT_DESC": "Les bases de Teamfight Tactics : déroulement d'une partie, champions et raretés, objets, synergies, économie et conseils pour progresser."
+    "TFT_DESC": "Les bases de Teamfight Tactics : déroulement d'une partie, champions et raretés, objets, synergies, économie et conseils pour progresser.",
+    "MATCHUPS_ME_TITLE": "Matchups de {{a}} : counters et matchups favorables",
+    "MATCHUPS_ME_DESC": "Tous les matchups de {{a}} sur League of Legends, classés de Extrême à Très facile, avec les conseils de joueurs expérimentés.",
+    "MATCHUPS_VS_TITLE": "Counters de {{b}} : qui le contre le mieux ?",
+    "MATCHUPS_VS_DESC": "Les meilleurs counters de {{b}} sur League of Legends, classés par difficulté, avec les conseils de joueurs expérimentés."
   }
 }

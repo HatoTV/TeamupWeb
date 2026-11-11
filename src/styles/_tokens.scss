@@ -34,22 +34,27 @@
   --color-ally: #4fd18b;
   --color-enemy: #ff4f6d;
 
-  // Difficulty scale: base colour, readable text on dark, 16 % tinted background
+  // Difficulty scale: base colour, readable text on dark, 16 % tinted background, 45 % glow
   --diff-1: #39c6d6;
   --diff-1-text: #5fd8e6;
   --diff-1-bg: rgba(57, 198, 214, 0.16);
+  --diff-1-glow: rgba(57, 198, 214, 0.45);
   --diff-2: #4fd18b;
   --diff-2-text: #6fe0a2;
   --diff-2-bg: rgba(79, 209, 139, 0.16);
+  --diff-2-glow: rgba(79, 209, 139, 0.45);
   --diff-3: #ffc93c;
   --diff-3-text: #ffd56b;
   --diff-3-bg: rgba(255, 201, 60, 0.16);
+  --diff-3-glow: rgba(255, 201, 60, 0.45);
   --diff-4: #ff8b3d;
   --diff-4-text: #ffa066;
   --diff-4-bg: rgba(255, 139, 61, 0.16);
+  --diff-4-glow: rgba(255, 139, 61, 0.45);
   --diff-5: #ff4f6d;
   --diff-5-text: #ff7a92;
   --diff-5-bg: rgba(255, 79, 109, 0.16);
+  --diff-5-glow: rgba(255, 79, 109, 0.45);
 
   // Hub accent (overridden per game below)
   --game-accent: var(--color-gold);

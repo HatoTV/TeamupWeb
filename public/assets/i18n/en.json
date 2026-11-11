@@ -467,7 +467,11 @@
       "3": "Medium",
       "4": "Hard",
       "5": "Extreme",
-      "LABEL": "Difficulty"
+      "LABEL": "Difficulty",
+      "FOR": "Matchup for {{champion}}",
+      "ARIA": "Matchup difficulty for {{champion}}: {{label}}, level {{value}} of 5",
+      "GAUGE": "{{label}}, level {{value}} of 5",
+      "DISTRIBUTION": "Difficulty breakdown"
     },
     "UTILITY": "Utility",
     "METER": "{{label}}: {{value}} out of {{max}}",
@@ -490,7 +494,21 @@
     "OPEN_DISCORD": "Open Discord",
     "ALLY": "Your champion",
     "ENEMY": "Enemy champion",
-    "EXTERNAL": "(new tab)"
+    "EXTERNAL": "(new tab)",
+    "DIFFICULTY_MESSAGE": {
+      "1": "You dominate the lane.",
+      "2": "The edge is yours.",
+      "3": "Even matchup.",
+      "4": "Play it safe.",
+      "5": "Survive the lane."
+    },
+    "DIFFICULTY_ADVICE": {
+      "1": "Very favourable matchup: take the lead from level 1.",
+      "2": "Favourable matchup: play aggressively in the right windows.",
+      "3": "Even matchup: skill will make the difference.",
+      "4": "Unfavourable matchup: play safe and look for help from your jungler.",
+      "5": "Very unfavourable matchup: survive the laning phase, your impact will come later."
+    }
   },
   "HOMEPAGE": {
     "EYEBROW": "League of Legends · TFT · Rocket League",
@@ -554,7 +572,45 @@
     "LIST_EMPTY": "No matchup in this category.",
     "NO_DATA_HINT": "This matchup has no tips yet. Report it with the form so it can be added.",
     "LOADING": "Loading…",
-    "LOAD_MATCHUP": "Show the {{a}} vs {{b}} matchup"
+    "LOAD_MATCHUP": "Show the {{a}} vs {{b}} matchup",
+    "HERO_TITLE_START": "Master every",
+    "HERO_TITLE_END": "matchup",
+    "STEP": "Step {{n}}",
+    "YOUR_CHAMPION": "Your champion",
+    "ENEMY_CHAMPION": "Enemy champion",
+    "THE_ENEMY": "The enemy",
+    "CHOOSE_YOURS": "Choose your champion",
+    "PICK_YOURS_FIRST": "Pick your champion first",
+    "GRID_TITLE": "Who are you playing?",
+    "GRID_LABEL": "Available champions ({{count}})",
+    "GRID_KEYS": "Use the arrow keys to move through the grid, Enter to choose.",
+    "ROLE_FILTER": "Filter by role",
+    "ALL_ROLES": "All",
+    "HOW_LABEL": "How it works",
+    "HOW_1_TITLE": "Pick your champion",
+    "HOW_1_TEXT": "From the grid or with the search.",
+    "HOW_2_TITLE": "Pick the enemy",
+    "HOW_2_TEXT": "Their matchups appear, sorted by difficulty.",
+    "HOW_3_TITLE": "Read the tips",
+    "HOW_3_TEXT": "Difficulty, tips from Challenger players, counters.",
+    "LEGEND_TITLE": "Reading a matchup's difficulty",
+    "H1_ME": "Matchups of",
+    "H1_VS": "Counters of",
+    "SEE_BUILD": "See build",
+    "BUILD_OF": "{{name}} build",
+    "CHANGE": "Change",
+    "BOARD_TITLE_ME": "Who are you up against?",
+    "BOARD_TITLE_VS": "Who counters them best?",
+    "BOARD_LEAD_ME": "{{name}}'s opponents, from worst to best matchup. Click to see the tips.",
+    "BOARD_LEAD_VS": "{{name}}'s matchups, from their side: under Extreme, the champions that counter them best. Click to see the tips.",
+    "BOARD_NO_DATA": "No rated matchup for {{name}} yet.",
+    "BOARD_ITEM": "{{name}}: {{level}}",
+    "COLUMN_EMPTY": "No matchup rated here yet.",
+    "MISSING_ENEMY": "Your opponent isn't in the list?",
+    "MISSING_ALLY": "Your champion isn't in the list?",
+    "REPORT_PICK_ALLY": "Champion concerned",
+    "REPORT_PICK_ENEMY": "Opponent concerned",
+    "NO_DATA_TITLE": "No data found."
   },
   "PICKERPAGE": {
     "KICKER": "Champion tool",
@@ -710,6 +766,10 @@
     "PICKER_DESC": "Browse every League of Legends champion, filter by role and difficulty, or draw a random champion.",
     "GUIDE_SUFFIX": "League of Legends guide",
     "TFT_TITLE": "Teamfight Tactics beginner's guide",
-    "TFT_DESC": "Teamfight Tactics basics: how a game works, champions and rarities, items, synergies, economy and tips to improve."
+    "TFT_DESC": "Teamfight Tactics basics: how a game works, champions and rarities, items, synergies, economy and tips to improve.",
+    "MATCHUPS_ME_TITLE": "{{a}} matchups: counters and favourable matchups",
+    "MATCHUPS_ME_DESC": "Every {{a}} matchup in League of Legends, from Extreme to Very easy, with tips from experienced players.",
+    "MATCHUPS_VS_TITLE": "{{b}} counters: who beats them best?",
+    "MATCHUPS_VS_DESC": "The best {{b}} counters in League of Legends, sorted by difficulty, with tips from experienced players."
   }
 }

@@ -1,0 +1,141 @@
+<section class="hero" [class.hero--reverse]="side() === 'vs'">
+  <div class="hero__art" aria-hidden="true">
+    <img [src]="splash()" alt="" fetchpriority="high" />
+  </div>
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="hero__body">
+    <div class="owner" [class.owner--enemy]="side() === 'vs'">
+      <span class="owner__kicker">{{ (side() === 'me' ? 'MATCHUPSPAGE.YOUR_CHAMPION' : 'MATCHUPSPAGE.ENEMY_CHAMPION') | translate }}</span>
+      <img class="owner__portrait" [src]="owner().icon" alt="" width="132" height="132" />
+      <h1 class="owner__name">
+        <span class="sr-only">{{ (side() === 'me' ? 'MATCHUPSPAGE.H1_ME' : 'MATCHUPSPAGE.H1_VS') | translate }}</span>
+        {{ owner().champion.name }}
+      </h1>
+      <div class="owner__tags">
+        @for (r of owner().champion.roles; track r) {
+          <span class="tag">{{ 'PICKERPAGE.ROLES.' + r | translate }}</span>
+        }
+        @if (showBuild) {
+          <a class="tag tag--gold" [routerLink]="ctx.link('/lol/champions/' + owner().champion.slug)">{{ 'MATCHUPSPAGE.SEE_BUILD' | translate }}</a>
+        }
+        <button type="button" class="tag tag--button" (click)="change()">{{ 'MATCHUPSPAGE.CHANGE' | translate }}</button>
+      </div>
+    </div>
+
+    <span class="vs-text" aria-hidden="true">VS</span>
+
+    <div class="other" [class.other--ally]="side() === 'vs'">
+      <span class="other__kicker">
+        {{ 'MATCHUPSPAGE.STEP' | translate: { n: 2 } }} ·
+        {{ (side() === 'me' ? 'MATCHUPSPAGE.ENEMY_CHAMPION' : 'MATCHUPSPAGE.YOUR_CHAMPION') | translate }}
+      </span>
+      <span class="other__slot" aria-hidden="true">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></svg>
+      </span>
+      <app-champion-combobox
+        class="other__combo"
+        variant="search"
+        [inline]="true"
+        [hideLabel]="true"
+        [side]="side() === 'me' ? 'enemy' : 'ally'"
+        [label]="(side() === 'me' ? 'MATCHUPSPAGE.ENEMY_CHAMPION' : 'MATCHUPSPAGE.YOUR_CHAMPION') | translate"
+        [placeholder]="'MATCHUPSPAGE.SEARCH_PLACEHOLDER' | translate"
+        [options]="suggestions()"
+        (selectedChange)="pick($event)"
+      />
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="board-title">
+  <div class="section__head">
+    <div>
+      <p class="section__eyebrow section__eyebrow--enemy">{{ 'MATCHUPSPAGE.STEP' | translate: { n: 2 } }}</p>
+      <h2 id="board-title" class="section__title">
+        {{ (side() === 'me' ? 'MATCHUPSPAGE.BOARD_TITLE_ME' : 'MATCHUPSPAGE.BOARD_TITLE_VS') | translate }}
+      </h2>
+      <p class="section__lead">
+        {{ (side() === 'me' ? 'MATCHUPSPAGE.BOARD_LEAD_ME' : 'MATCHUPSPAGE.BOARD_LEAD_VS') | translate: { name: owner().champion.name } }}
+      </p>
+    </div>
+  </div>
+
+  @if (ownerData() === undefined) {
+    <p class="board__state" role="status">{{ 'MATCHUPSPAGE.LOADING' | translate }}</p>
+  } @else {
+    @if (!classifiedCount()) {
+      <p class="board__state" role="status">{{ 'MATCHUPSPAGE.BOARD_NO_DATA' | translate: { name: owner().champion.name } }}</p>
+    }
+    <div class="board">
+      @for (col of columns(); track col.level) {
+        <section
+          class="col"
+          [class.is-open]="isOpen(col.level)"
+          [style.--c-color]="col.info.color"
+          [style.--c-bg]="col.info.bg"
+          [attr.aria-labelledby]="'col-' + col.level"
+        >
+          <h3 class="col__head-wrap" [id]="'col-' + col.level">
+            <button
+              type="button"
+              class="col__head"
+              [attr.aria-expanded]="isOpen(col.level)"
+              [attr.aria-controls]="'col-body-' + col.level"
+              [attr.tabindex]="mobile() ? null : -1"
+              (click)="toggle(col.level)"
+            >
+              <span class="col__icon"><app-difficulty-icon [level]="col.level" [size]="18" /></span>
+              <span class="col__label">{{ col.info.labelKey | translate }}</span>
+              <span class="col__count">{{ col.entries.length }}</span>
+              <svg class="col__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+            </button>
+          </h3>
+          <div class="col__body" [id]="'col-body-' + col.level" [hidden]="!isOpen(col.level)">
+            @if (col.entries.length) {
+              <ul class="col__grid">
+                @for (e of col.entries; track e.slug) {
+                  <li>
+                    <a
+                      class="pick-link col__item"
+                      [routerLink]="link(e.slug)"
+                      [attr.aria-label]="'MATCHUPSPAGE.BOARD_ITEM' | translate: { name: e.name, level: (col.info.labelKey | translate) }"
+                    >
+                      <img [src]="e.icon" alt="" width="56" height="56" loading="lazy" />
+                      <span>{{ e.name }}</span>
+                    </a>
+                  </li>
+                }
+              </ul>
+            } @else {
+              <p class="col__empty">{{ 'MATCHUPSPAGE.COLUMN_EMPTY' | translate }}</p>
+            }
+          </div>
+        </section>
+      }
+    </div>
+  }
+</section>
+
+<section class="section request" aria-labelledby="request-title">
+  <div class="request__box">
+    <p class="request__text" id="request-title">
+      <strong>{{ (side() === 'me' ? 'MATCHUPSPAGE.MISSING_ENEMY' : 'MATCHUPSPAGE.MISSING_ALLY') | translate }}</strong>
+      {{ 'REPORTBUTTON' | translate }}
+    </p>
+    <button type="button" class="request__toggle" [attr.aria-expanded]="reportOpen()" aria-controls="request-form" (click)="reportOpen.set(!reportOpen())">
+      {{ 'UPDATEREQUEST' | translate }}
+    </button>
+    <div id="request-form" class="request__form" [hidden]="!reportOpen()">
+      @if (reportOpen()) {
+        <app-matchup-report
+          [bare]="true"
+          [champion1]="reportChampion1()"
+          [champion2]="reportChampion2()"
+          [options]="suggestions()"
+        />
+      }
+    </div>
+  </div>
+</section>

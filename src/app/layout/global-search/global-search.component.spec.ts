@@ -62,9 +62,9 @@ describe('GlobalSearchComponent', () => {
     expect(fixture.nativeElement.querySelector(`#${active}`).getAttribute('aria-selected')).toBe('true');
 
     key('Enter');
-    expect(router.navigate).toHaveBeenCalledWith(['/fr/lol/matchups'], {
+    expect(router.navigate).toHaveBeenCalledWith(['/fr/lol/matchups/ahri'], {
       fragment: undefined,
-      queryParams: { champion: 'ahri' },
+      queryParams: undefined,
     });
   });
 
@@ -84,9 +84,9 @@ describe('GlobalSearchComponent', () => {
   it('matches alternative spellings', () => {
     type('maitre');
     key('Enter');
-    expect(router.navigate).toHaveBeenCalledWith(['/fr/lol/matchups'], {
+    expect(router.navigate).toHaveBeenCalledWith(['/fr/lol/matchups/master-yi'], {
       fragment: undefined,
-      queryParams: { champion: 'master-yi' },
+      queryParams: undefined,
     });
   });
 

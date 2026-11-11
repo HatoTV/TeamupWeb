@@ -137,3 +137,54 @@
   font-size: 14px;
   color: var(--color-text-muted);
 }
+
+.combo__name {
+  flex: 1;
+  min-width: 0;
+}
+
+// Plain search field (empty / single-champion states)
+:host(.combo--search) {
+  width: 100%;
+
+  .combo__field {
+    height: 50px;
+    padding: 0 8px 0 16px;
+    gap: 10px;
+  }
+
+  .combo__icon {
+    width: auto;
+    height: auto;
+    background: none;
+  }
+
+  .combo__input {
+    font: 500 16px var(--font-body);
+    text-transform: none;
+  }
+}
+
+// Suggestion list kept open in the page flow
+:host(.combo--inline) {
+  gap: 0;
+
+  .combo__field {
+    border-radius: var(--radius-card) var(--radius-card) 0 0;
+    background: var(--color-surface);
+  }
+
+  .combo__toggle {
+    display: none;
+  }
+
+  .combo__list {
+    position: static;
+    align-self: stretch;
+    max-height: 236px;
+    border-radius: 0 0 var(--radius-card) var(--radius-card);
+    border: 1px solid var(--combo-color);
+    border-top: 0;
+    box-shadow: none;
+  }
+}

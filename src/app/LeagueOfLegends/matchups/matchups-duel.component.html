@@ -1,0 +1,183 @@
+<section
+  class="hero"
+  [class.hero--rated]="!!info()"
+  [style.--lvl]="info()?.color ?? 'var(--color-line)'"
+  [style.--lvl-glow]="info()?.glow ?? 'transparent'"
+>
+  <div class="hero__arts" aria-hidden="true">
+    <div class="hero__art hero__art--me"><img [src]="splash(me())" alt="" fetchpriority="high" /></div>
+    <div class="hero__art hero__art--vs"><img [src]="splash(vs())" alt="" /></div>
+  </div>
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="hero__divider" aria-hidden="true"></div>
+
+  <div class="hero__body">
+    <p class="hero__eyebrow">{{ 'LOL.MATCHUPS.INTRO1' | translate }}</p>
+
+    <div class="pickers">
+      <app-champion-combobox
+        side="ally"
+        [label]="'MATCHUPSPAGE.YOUR_CHAMPION' | translate"
+        [placeholder]="'MATCHUPSPAGE.SEARCH_PLACEHOLDER' | translate"
+        [options]="meOptions()"
+        [selected]="me()"
+        (selectedChange)="select('me', $event)"
+      />
+      <div class="pickers__vs">
+        <span class="pickers__vs-text" aria-hidden="true">VS</span>
+        <button
+          type="button"
+          class="pickers__swap"
+          [attr.aria-label]="'LOL.MATCHUPS.REVERSE' | translate"
+          [title]="'LOL.MATCHUPS.REVERSE' | translate"
+          (click)="reverse()"
+        >
+          <app-icon name="swap" [size]="18" />
+        </button>
+      </div>
+      <app-champion-combobox
+        side="enemy"
+        [label]="'MATCHUPSPAGE.ENEMY_CHAMPION' | translate"
+        [placeholder]="'MATCHUPSPAGE.SEARCH_PLACEHOLDER' | translate"
+        [options]="vsOptions()"
+        [selected]="vs()"
+        (selectedChange)="select('vs', $event)"
+      />
+    </div>
+
+    @if (matchup(); as m) {
+      <app-difficulty-verdict class="hero__verdict" [level]="m.level" [champion]="me().champion.name" />
+    }
+  </div>
+</section>
+
+<div class="content">
+  <div class="board">
+    <section
+      class="tips card"
+      [class.tips--rated]="!!info()"
+      [style.--lvl]="info()?.color"
+      aria-labelledby="matchup-title"
+      aria-live="polite"
+      [attr.aria-busy]="loading()"
+    >
+      <header class="tips__head">
+        <h1 id="matchup-title" class="tips__title">
+          {{ me().champion.name }} <span class="tips__vs">vs</span> {{ vs().champion.name }}
+        </h1>
+        @if (matchup(); as m) {
+          <app-difficulty-badge class="tips__badge" [level]="m.level" [icon]="true" />
+        }
+      </header>
+
+      @if (loading()) {
+        <p class="tips__state">{{ 'MATCHUPSPAGE.LOADING' | translate }}</p>
+      } @else if (tips()) {
+        @if (tips()!.englishFallback) {
+          <p class="tips__lang">
+            <span class="tips__lang-badge" aria-hidden="true">{{ 'MATCHUPSPAGE.EN_BADGE' | translate }}</span>
+            {{ 'MATCHUPSPAGE.EN_BADGE_LABEL' | translate }}
+          </p>
+        }
+        <ol class="tips__list" [attr.lang]="tips()!.lang">
+          @for (line of tips()!.lines; track $index; let i = $index) {
+            <li class="tips__item">
+              <span class="tips__n" aria-hidden="true">{{ i + 1 }}</span>
+              <p class="tips__text">{{ line }}</p>
+            </li>
+          }
+        </ol>
+      } @else {
+        <div class="tips__state tips__state--empty">
+          <p class="tips__empty-title">{{ 'MATCHUPSPAGE.NO_DATA_TITLE' | translate }}</p>
+          <p>{{ 'MATCHUPSPAGE.NO_DATA_HINT' | translate }}</p>
+        </div>
+      }
+
+      @if (author() || guideUrl() || showBuild) {
+        <footer class="tips__foot">
+          @if (author(); as a) {
+            <div class="author">
+              @if (a.rank) {
+                <img class="author__rank" [src]="'assets/img/ranks/' + a.rank + '.webp'" alt="" width="44" height="34" />
+              }
+              <div>
+                <p class="author__name">{{ a.name }}</p>
+                <p class="author__role">
+                  @if (a.rank) {
+                    {{ 'MATCHUPSPAGE.AUTHOR_ROLE' | translate: { rank: ('HOMEPAGE.RANKS.' + a.rank.toUpperCase() | translate) } }}
+                  } @else {
+                    {{ 'MATCHUPSPAGE.AUTHOR_ROLE_UNKNOWN' | translate }}
+                  }
+                </p>
+              </div>
+            </div>
+          }
+          <div class="tips__actions">
+            @if (showBuild) {
+              <a class="btn btn--primary btn--sm" [routerLink]="ctx.link('/lol/champions/' + me().champion.slug)">
+                {{ 'MATCHUPSPAGE.BUILD_OF' | translate: { name: me().champion.name } }}
+              </a>
+            }
+            @if (guideUrl(); as url) {
+              <a class="btn btn--secondary btn--sm guide-link" [href]="url" target="_blank" rel="noopener noreferrer">
+                {{ 'MATCHUPSPAGE.READ_GUIDE' | translate: { name: me().champion.name } }}
+                <app-icon name="arrow-up-right" [size]="14" />
+                <span class="sr-only">{{ 'UI.EXTERNAL' | translate }}</span>
+              </a>
+            }
+          </div>
+        </footer>
+      }
+    </section>
+
+    <aside class="side">
+      <section class="card report" aria-labelledby="report-title">
+        <app-matchup-report [champion1]="me().champion" [champion2]="vs().champion" [hasTips]="!!matchup()" />
+      </section>
+    </aside>
+  </div>
+
+  @if (lists().length) {
+    <section class="lists" [attr.aria-label]="'MATCHUPSPAGE.LISTS_LABEL' | translate">
+      @for (list of lists(); track list.id) {
+        <div class="list card">
+          <div class="list__head">
+            <h2 class="list__title">
+              <img [ngSrc]="list.owner.icon" alt="" width="30" height="30" />
+              {{ (list.kind === 'counters' ? 'LOL.MATCHUPS.BESTPICKAGAINST' : 'LOL.MATCHUPS.WORSTPICKAGAINST') | translate }}
+              {{ list.owner.champion.name }}
+            </h2>
+            @if (list.rows.length) {
+              <app-difficulty-distribution class="list__dist" [levels]="levelsOf(list)" />
+            }
+          </div>
+          <ul class="list__rows">
+            @for (row of list.rows; track row.slug) {
+              <li>
+                <a
+                  class="row"
+                  [routerLink]="row.link"
+                  [style.--r-color]="row.info.color"
+                  [style.--r-text]="row.info.text"
+                  [style.--r-bg]="row.info.bg"
+                  [attr.aria-label]="'MATCHUPSPAGE.LOAD_MATCHUP' | translate: { a: list.owner.champion.name, b: row.name }"
+                >
+                  <img [ngSrc]="row.icon" alt="" width="36" height="36" />
+                  <span class="row__name">{{ row.name }}</span>
+                  <span class="row__level">
+                    <span class="row__label"><app-difficulty-icon [level]="row.level" [size]="12" [strokeWidth]="3" />{{ row.info.labelKey | translate }}</span>
+                    <app-difficulty-pips [level]="row.level" aria-hidden="true" />
+                  </span>
+                </a>
+              </li>
+            } @empty {
+              <li class="list__empty">{{ 'MATCHUPSPAGE.LIST_EMPTY' | translate }}</li>
+            }
+          </ul>
+        </div>
+      }
+    </section>
+  }
+</div>

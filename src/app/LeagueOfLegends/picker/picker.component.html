@@ -69,7 +69,7 @@
             @if (!rolling()) {
               <div class="draw__actions">
                 @if (d.champion.hasMatchups) {
-                  <a class="draw__matchups" [routerLink]="ctx.link('/lol/matchups')" [queryParams]="{ champion: d.champion.slug }">
+                  <a class="draw__matchups" [routerLink]="ctx.link('/lol/matchups/' + d.champion.slug)">
                     {{ 'SEARCH.CHAMPION_HINT' | translate }}
                   </a>
                 }
@@ -92,7 +92,7 @@
     <ul class="grid">
       @for (card of filtered(); track card.champion.slug) {
         <li>
-          <a class="champ" [routerLink]="ctx.link('/lol/matchups')" [queryParams]="{ champion: card.champion.slug }">
+          <a class="champ" [routerLink]="ctx.link('/lol/matchups/' + card.champion.slug)">
             <span class="champ__media">
               <img [ngSrc]="card.icon" alt="" width="120" height="120" />
               <span class="champ__roles">

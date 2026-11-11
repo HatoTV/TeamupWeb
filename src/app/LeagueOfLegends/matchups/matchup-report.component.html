@@ -1,0 +1,65 @@
+@if (!bare()) {
+  <h2 class="report__title" id="report-title">{{ 'UPDATEREQUEST' | translate }}</h2>
+  <p class="report__intro">{{ 'REPORTBUTTON' | translate }}</p>
+}
+
+@if (sendState() === 'sent') {
+  <p class="report__ok" role="status"><app-icon name="check" [size]="18" /> {{ 'MESSAGEOK' | translate }}</p>
+} @else {
+  <form (ngSubmit)="send()">
+    @if (missing(); as side) {
+      <app-champion-combobox
+        class="report__pick"
+        variant="search"
+        [side]="side === 'champion1' ? 'ally' : 'enemy'"
+        [label]="(side === 'champion1' ? 'MATCHUPSPAGE.REPORT_PICK_ALLY' : 'MATCHUPSPAGE.REPORT_PICK_ENEMY') | translate"
+        [placeholder]="'MATCHUPSPAGE.SEARCH_PLACEHOLDER' | translate"
+        [options]="options()"
+        [selected]="pickedOption()"
+        (selectedChange)="picked.set($event)"
+      />
+    }
+    <fieldset class="report__types">
+      <legend class="sr-only">{{ 'MATCHUPSPAGE.TYPE_LEGEND' | translate }}</legend>
+      <label class="report__type" [class.is-checked]="requestType() === 'wrong_data'">
+        <input type="radio" name="requestType" value="wrong_data" [ngModel]="requestType()" (ngModelChange)="requestType.set($event)" />
+        {{ 'LOL.MATCHUPS.FALSEDATAMATCHUP' | translate }}
+      </label>
+      <label class="report__type" [class.is-checked]="requestType() === 'no_data'">
+        <input type="radio" name="requestType" value="no_data" [ngModel]="requestType()" (ngModelChange)="requestType.set($event)" />
+        {{ 'LOL.MATCHUPS.NODATAMATCHUP' | translate }}
+      </label>
+    </fieldset>
+    <label class="report__label" [for]="'report-message-' + (missing() ?? 'both')">{{ 'LOL.MATCHUPS.MESSAGEPLACEHOLDER' | translate }}</label>
+    <textarea
+      class="report__message"
+      [id]="'report-message-' + (missing() ?? 'both')"
+      name="message"
+      rows="3"
+      maxlength="1000"
+      [ngModel]="message()"
+      (ngModelChange)="message.set($event)"
+    ></textarea>
+    <div class="honeypot" aria-hidden="true">
+      <label [for]="'report-website-' + (missing() ?? 'both')">{{ 'HONEYPOT_LABEL' | translate }}</label>
+      <input
+        type="text"
+        name="website"
+        tabindex="-1"
+        autocomplete="off"
+        [id]="'report-website-' + (missing() ?? 'both')"
+        [ngModel]="website()"
+        (ngModelChange)="website.set($event)"
+      />
+    </div>
+    @if (sendState() === 'error') {
+      <p class="report__error" role="alert">{{ 'MESSAGEERROR' | translate }}</p>
+    }
+    @if (missing() && !pickedOption()) {
+      <p class="report__hint">{{ 'MATCHUPSPAGE.REPORT_NEEDS_BOTH' | translate }}</p>
+    }
+    <button type="submit" class="btn btn--primary report__send" [disabled]="!canSend()">
+      {{ 'SENDMESSAGE' | translate }}
+    </button>
+  </form>
+}

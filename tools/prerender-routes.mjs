@@ -10,10 +10,13 @@ const LANGS = ['fr', 'en'];
 const slugify = (s) =>
   s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
+// Matchup pages of a single champion, both directions (`/:me` and `/vs/:vs`).
+const champions = JSON.parse(readFileSync(join(ROOT, 'public/assets/data/champions.json'), 'utf8')).champions.filter((c) => c.hasMatchups);
 const mechanics = JSON.parse(readFileSync(join(ROOT, 'public/assets/rlmecanics.json'), 'utf8'));
 const paths = [
   '/home',
   '/lol/matchups',
+  ...champions.flatMap((c) => [`/lol/matchups/${c.slug}`, `/lol/matchups/vs/${c.slug}`]),
   '/lol/picker',
   '/lol/game',
   '/lol/laning',

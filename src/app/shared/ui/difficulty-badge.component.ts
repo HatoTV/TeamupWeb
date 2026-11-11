@@ -1,25 +1,33 @@
-import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
+import { MatchupDifficulty, difficulty } from './difficulty/matchup-difficulty';
+import { DifficultyIconComponent } from './difficulty/difficulty-icon.component';
 
-export type DifficultyLevel = 1 | 2 | 3 | 4 | 5;
+export type { DifficultyLevel } from './difficulty/matchup-difficulty';
 
-/** Difficulty label on a 16 % tinted background, or a coloured dot (`variant="dot"`). */
+/**
+ * Difficulty label on a 16 % tinted background (optionally with its icon),
+ * or a coloured dot (`variant="dot"`). Never relies on colour alone: the label is always there.
+ */
 @Component({
   selector: 'app-difficulty-badge',
   standalone: true,
-  imports: [TranslateModule],
+  imports: [TranslateModule, DifficultyIconComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     '[class]': '"diff diff--" + variant()',
-    '[style.--diff-color]': '"var(--diff-" + safeLevel() + ")"',
-    '[style.--diff-text]': '"var(--diff-" + safeLevel() + "-text)"',
-    '[style.--diff-bg]': '"var(--diff-" + safeLevel() + "-bg)"',
+    '[style.--diff-color]': 'level().color',
+    '[style.--diff-text]': 'level().text',
+    '[style.--diff-bg]': 'level().bg',
   },
   template: `
     @if (variant() === 'dot') {
-      <span class="diff__dot" role="img" [attr.aria-label]="('UI.DIFFICULTY.LABEL' | translate) + ' : ' + (labelKey() | translate)"></span>
+      <span class="diff__dot" role="img" [attr.aria-label]="('UI.DIFFICULTY.LABEL' | translate) + ' : ' + (level().labelKey | translate)"></span>
     } @else {
-      {{ labelKey() | translate }}
+      @if (icon()) {
+        <app-difficulty-icon [level]="level().level" [size]="12" />
+      }
+      {{ level().labelKey | translate }}
     }
   `,
   styles: [
@@ -27,6 +35,7 @@ export type DifficultyLevel = 1 | 2 | 3 | 4 | 5;
       :host(.diff--badge) {
         display: inline-flex;
         align-items: center;
+        gap: 5px;
         padding: 4px 10px;
         border-radius: var(--radius-tag);
         background: var(--diff-bg);
@@ -49,11 +58,8 @@ export type DifficultyLevel = 1 | 2 | 3 | 4 | 5;
   ],
 })
 export class DifficultyBadgeComponent {
-  readonly level = input.required<number>();
+  readonly level = input.required<MatchupDifficulty, number>({ transform: (value: number) => difficulty(value) });
   readonly variant = input<'badge' | 'dot'>('badge');
-
-  protected readonly safeLevel = computed<DifficultyLevel>(
-    () => Math.min(5, Math.max(1, Math.round(this.level() || 1))) as DifficultyLevel
-  );
-  protected readonly labelKey = computed(() => `UI.DIFFICULTY.${this.safeLevel()}`);
+  /** Shows the level icon before the label (matchup pages). */
+  readonly icon = input(false);
 }

@@ -1,4 +1,4 @@
-<label class="combo__label" [for]="uid">{{ label() }}</label>
+<label class="combo__label" [class.sr-only]="hideLabel()" [for]="uid">{{ label() }}</label>
 <div class="combo__field" [class.is-open]="open()">
   @if (selected(); as current) {
     <img class="combo__icon" [src]="current.icon" alt="" width="56" height="56" />
@@ -44,7 +44,10 @@
         (click)="choose(option)"
       >
         <img [src]="option.icon" alt="" width="32" height="32" loading="lazy" />
-        {{ option.champion.name }}
+        <span class="combo__name">{{ option.champion.name }}</span>
+        @if (option.level) {
+          <app-difficulty-badge [level]="option.level" [icon]="true" />
+        }
       </li>
     } @empty {
       <li class="combo__empty" role="presentation">{{ 'LOL.MATCHUPS.NOCHAMPION' | translate }}</li>

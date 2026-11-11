@@ -1,0 +1,108 @@
+<section class="hero">
+  <picture class="hero__bg" aria-hidden="true">
+    <source type="image/avif" [attr.srcset]="'assets/img/site/matchup_bkg.webp' | srcset: 'avif'" sizes="100vw" />
+    <source type="image/webp" [attr.srcset]="'assets/img/site/matchup_bkg.webp' | srcset: 'webp'" sizes="100vw" />
+    <img [src]="'assets/img/site/matchup_bkg.webp' | imgFallback" alt="" fetchpriority="high" />
+  </picture>
+  <div class="hero__shade" aria-hidden="true"></div>
+
+  <div class="hero__body">
+    <h1 class="hero__title">
+      {{ 'MATCHUPSPAGE.HERO_TITLE_START' | translate }} <span>{{ 'MATCHUPSPAGE.HERO_TITLE_END' | translate }}</span>
+    </h1>
+    <p class="hero__lead">{{ 'LOL.MATCHUPS.INTRO2' | translate }}</p>
+
+    <div class="slots">
+      <div class="slot slot--ally">
+        <button type="button" class="slot__circle" [attr.aria-label]="'MATCHUPSPAGE.CHOOSE_YOURS' | translate" (click)="focusSearch()">
+          <app-icon name="plus" [size]="40" />
+          <span class="slot__step">{{ 'MATCHUPSPAGE.STEP' | translate: { n: 1 } }}</span>
+        </button>
+        <span class="slot__name" aria-hidden="true">{{ 'MATCHUPSPAGE.YOUR_CHAMPION' | translate }}</span>
+        <app-champion-combobox
+          class="slot__search"
+          side="ally"
+          variant="search"
+          [hideLabel]="true"
+          [label]="'MATCHUPSPAGE.YOUR_CHAMPION' | translate"
+          [placeholder]="'MATCHUPSPAGE.SEARCH_PLACEHOLDER' | translate"
+          [options]="pickable()"
+          (selectedChange)="pick($event)"
+        />
+      </div>
+
+      <span class="vs-text" aria-hidden="true">VS</span>
+
+      <div class="slot slot--enemy slot--locked">
+        <span class="slot__circle" aria-hidden="true">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="11" width="14" height="10" rx="2" />
+            <path d="M8 11V8a4 4 0 018 0v3" />
+          </svg>
+          <span class="slot__step">{{ 'MATCHUPSPAGE.STEP' | translate: { n: 2 } }}</span>
+        </span>
+        <span class="slot__name">{{ 'MATCHUPSPAGE.THE_ENEMY' | translate }}</span>
+        <span class="slot__hint">{{ 'MATCHUPSPAGE.PICK_YOURS_FIRST' | translate }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section pick" aria-labelledby="pick-title">
+  <div class="section__head">
+    <div>
+      <p class="section__eyebrow section__eyebrow--ally">{{ 'MATCHUPSPAGE.STEP' | translate: { n: 1 } }}</p>
+      <h2 id="pick-title" class="section__title">{{ 'MATCHUPSPAGE.GRID_TITLE' | translate }}</h2>
+    </div>
+    <div class="chips" role="group" [attr.aria-label]="'MATCHUPSPAGE.ROLE_FILTER' | translate">
+      <button type="button" class="chip" [class.is-on]="!role()" [attr.aria-pressed]="!role()" (click)="toggleRole(null)">
+        {{ 'MATCHUPSPAGE.ALL_ROLES' | translate }}
+      </button>
+      @for (r of roles; track r) {
+        <button type="button" class="chip" [class.is-on]="role() === r" [attr.aria-pressed]="role() === r" (click)="toggleRole(r)">
+          <img [src]="'assets/img/site/' + r + '.webp'" alt="" width="16" height="16" />
+          {{ 'PICKERPAGE.ROLES.' + r | translate }}
+        </button>
+      }
+    </div>
+  </div>
+
+  <ul #grid class="grid" [attr.aria-label]="'MATCHUPSPAGE.GRID_LABEL' | translate: { count: champions().length }" (keydown)="onGridKeydown($event)">
+    @for (option of champions(); track option.champion.slug; let i = $index) {
+      <li>
+        <a class="pick-link grid__item" [routerLink]="link(option.champion)" [attr.tabindex]="i === activeIndex() ? 0 : -1" (focus)="activeIndex.set(i)">
+          <img [src]="option.icon" alt="" width="60" height="60" loading="lazy" />
+          <span>{{ option.champion.name }}</span>
+        </a>
+      </li>
+    }
+  </ul>
+  <p class="sr-only">{{ 'MATCHUPSPAGE.GRID_KEYS' | translate }}</p>
+</section>
+
+<section class="section how" [attr.aria-label]="'MATCHUPSPAGE.HOW_LABEL' | translate">
+  @for (step of steps; track step.n) {
+    <div class="how__card">
+      <span class="how__n" [class]="'how__n how__n--' + step.tone" aria-hidden="true">{{ step.n }}</span>
+      <div>
+        <h3 class="how__title">{{ 'MATCHUPSPAGE.HOW_' + step.n + '_TITLE' | translate }}</h3>
+        <p class="how__text">{{ 'MATCHUPSPAGE.HOW_' + step.n + '_TEXT' | translate }}</p>
+      </div>
+    </div>
+  }
+</section>
+
+<section class="section legend-wrap" aria-labelledby="legend-title">
+  <div class="legend">
+    <h2 id="legend-title" class="legend__title">{{ 'MATCHUPSPAGE.LEGEND_TITLE' | translate }}</h2>
+    <ul class="legend__list">
+      @for (d of scale; track d.level) {
+        <li class="legend__card" [style.--l-color]="d.color" [style.--l-text]="d.text" [style.--l-bg]="d.bg">
+          <span class="legend__icon"><app-difficulty-icon [level]="d.level" [size]="20" [strokeWidth]="2.6" /></span>
+          <p class="legend__label">{{ d.labelKey | translate }}</p>
+          <p class="legend__text">{{ d.messageKey | translate }}</p>
+        </li>
+      }
+    </ul>
+  </div>
+</section>

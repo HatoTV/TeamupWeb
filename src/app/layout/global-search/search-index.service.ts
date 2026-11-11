@@ -76,8 +76,7 @@ export class SearchIndexService {
       detail: t('SEARCH.CHAMPION_HINT'),
       aliases: champion.aliases,
       icon: this.championData.iconUrl(champion),
-      path: '/lol/matchups',
-      queryParams: { champion: champion.slug },
+      path: `/lol/matchups/${champion.slug}`,
     }));
 
     const guides: SearchEntry[] = [];

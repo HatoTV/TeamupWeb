@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { matchupsMatcher } from './LeagueOfLegends/matchups/matchups-url';
 
 /** All pages are lazy-loaded; the URL always starts with the language (fr | en). */
 export const routes: Routes = [
@@ -8,7 +9,8 @@ export const routes: Routes = [
   { path: ':lang', redirectTo: ':lang/home', pathMatch: 'full' },
   { path: ':lang/home', loadComponent: () => import('./home/home.component').then((m) => m.HomeComponent) },
   {
-    path: ':lang/lol/matchups',
+    // `/:lang/lol/matchups[/:me][/vs/:vs]`: one route so the page is reused between selections.
+    matcher: matchupsMatcher,
     loadComponent: () => import('./LeagueOfLegends/matchups/matchups.component').then((m) => m.MatchupsComponent),
   },
   {

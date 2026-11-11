@@ -1,4 +1,5 @@
 import { HttpClient } from '@angular/common/http';
+import { FEATURES } from '../../core/site.config';
 import { Injectable, inject, signal } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { firstValueFrom } from 'rxjs';
@@ -78,6 +79,20 @@ export class SearchIndexService {
       icon: this.championData.iconUrl(champion),
       path: `/lol/matchups/${champion.slug}`,
     }));
+    // Second entry per champion: its build page ("Yone · See build").
+    if (FEATURES.buildPages) {
+      for (const champion of this.championData.index()?.champions ?? []) {
+        champions.push({
+          id: `build-${champion.slug}`,
+          group: 'champions',
+          label: champion.name,
+          detail: t('SEARCH.BUILD_HINT'),
+          aliases: champion.aliases,
+          icon: this.championData.iconUrl(champion),
+          path: `/lol/champions/${champion.slug}`,
+        });
+      }
+    }
 
     const guides: SearchEntry[] = [];
     for (const group of LOL_GUIDE_GROUPS) {

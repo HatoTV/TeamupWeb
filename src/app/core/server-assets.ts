@@ -2,7 +2,7 @@ import { FetchBackend, HttpBackend, HttpEvent, HttpRequest, HttpResponse } from 
 import { Injectable, InjectionToken, inject } from '@angular/core';
 import { Observable, of } from 'rxjs';
 
-/** Reads a public asset (e.g. "assets/i18n/fr.json") as text. Provided on the server only. */
+/** Reads a public asset (e.g. "assets/i18n/fr.json", "data/lol/builds/meta.json") as text. Provided on the server only. */
 export type ServerAssetReader = (path: string) => string | null;
 
 export const SERVER_ASSET_READER = new InjectionToken<ServerAssetReader>('SERVER_ASSET_READER');
@@ -19,7 +19,7 @@ export class ServerAssetsBackend implements HttpBackend {
 
   handle(req: HttpRequest<unknown>): Observable<HttpEvent<unknown>> {
     const path = req.url.replace(/^\.?\//, '').split('?')[0];
-    if (req.method !== 'GET' || /^[a-z]+:\/\//i.test(req.url) || !path.startsWith('assets/') || !path.endsWith('.json')) {
+    if (req.method !== 'GET' || /^[a-z]+:\/\//i.test(req.url) || !(path.startsWith('assets/') || path.startsWith('data/')) || !path.endsWith('.json')) {
       return this.fallback.handle(req);
     }
     const text = this.read(path);

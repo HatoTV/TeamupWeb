@@ -12,11 +12,33 @@ const slugify = (s) =>
 
 // Matchup pages of a single champion, both directions (`/:me` and `/vs/:vs`).
 const champions = JSON.parse(readFileSync(join(ROOT, 'public/assets/data/champions.json'), 'utf8')).champions.filter((c) => c.hasMatchups);
+// Champion build pages (tools/lol-stats output): every champion × role of the latest patch.
+function buildPaths() {
+  const dir = join(ROOT, 'public/data/lol/builds');
+  try {
+    const meta = JSON.parse(readFileSync(join(dir, 'meta.json'), 'utf8'));
+    const latest = meta.patches.find((p) => p.patch === meta.latest) ?? meta.patches[0];
+    const index = JSON.parse(readFileSync(join(dir, latest.patch, 'emerald_plus', 'index.json'), 'utf8'));
+    const core = JSON.parse(readFileSync(join(ROOT, 'public/data/lol/static', latest.ddragonVersion, 'en_US', 'core.json'), 'utf8'));
+    const slugByDdragon = new Map(champions.map((c) => [c.ddragonId, c.slug]));
+    const allChampions = JSON.parse(readFileSync(join(ROOT, 'public/assets/data/champions.json'), 'utf8')).champions;
+    for (const c of allChampions) slugByDdragon.set(c.ddragonId, c.slug);
+    return index.champions.flatMap((c) => {
+      const slug = slugByDdragon.get(core.champions[c.champion]?.id);
+      return slug ? c.roles.map((r) => `/lol/champions/${slug}/build/${r.role}`) : [];
+    });
+  } catch {
+    return []; // no build data yet
+  }
+}
+
 const mechanics = JSON.parse(readFileSync(join(ROOT, 'public/assets/rlmecanics.json'), 'utf8'));
 const paths = [
   '/home',
   '/lol/matchups',
   ...champions.flatMap((c) => [`/lol/matchups/${c.slug}`, `/lol/matchups/vs/${c.slug}`]),
+  '/lol/builds',
+  ...buildPaths(),
   '/lol/picker',
   '/lol/game',
   '/lol/laning',

@@ -50,7 +50,8 @@ describe('GlobalSearchComponent', () => {
     expect(input.getAttribute('aria-expanded')).toBe('true');
     const listbox = fixture.nativeElement.querySelector('[role="listbox"]');
     expect(input.getAttribute('aria-controls')).toBe(listbox.id);
-    expect(fixture.nativeElement.querySelectorAll('[role="option"]').length).toBe(1);
+    // Ahri: her matchups and her build page.
+    expect(fixture.nativeElement.querySelectorAll('[role="option"]').length).toBe(2);
   });
 
   it('moves the active option with arrow keys and opens it with Enter', () => {

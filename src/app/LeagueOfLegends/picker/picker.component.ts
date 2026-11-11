@@ -1,4 +1,5 @@
 import { injectPageSeo } from '../../core/seo.service';
+import { FEATURES } from '../../core/site.config';
 import { ImgFallbackPipe, SrcsetPipe } from '../../core/images/image-utils';
 import { NgOptimizedImage } from '@angular/common';
 import { isPlatformBrowser } from '@angular/common';
@@ -39,6 +40,7 @@ interface PickerCard {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PickerComponent {
+  protected readonly showBuild = FEATURES.buildPages;
   protected readonly ctx = inject(RouteContextService);
   protected readonly data = inject(ChampionDataService);
   private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));

@@ -14,6 +14,18 @@ export const routes: Routes = [
     loadComponent: () => import('./LeagueOfLegends/matchups/matchups.component').then((m) => m.MatchupsComponent),
   },
   {
+    path: ':lang/lol/builds',
+    loadComponent: () => import('./LeagueOfLegends/builds/builds-list.component').then((m) => m.BuildsListComponent),
+  },
+  {
+    path: ':lang/lol/champions/:championId',
+    loadComponent: () => import('./LeagueOfLegends/builds/champion-redirect.component').then((m) => m.ChampionRedirectComponent),
+  },
+  {
+    path: ':lang/lol/champions/:championId/build/:role',
+    loadComponent: () => import('./LeagueOfLegends/builds/build-page.component').then((m) => m.BuildPageComponent),
+  },
+  {
     path: ':lang/lol/picker',
     loadComponent: () => import('./LeagueOfLegends/picker/picker.component').then((m) => m.PickerComponent),
   },

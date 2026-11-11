@@ -73,6 +73,9 @@
                     {{ 'SEARCH.CHAMPION_HINT' | translate }}
                   </a>
                 }
+                @if (showBuild) {
+                  <a class="draw__reroll" [routerLink]="ctx.link('/lol/champions/' + d.champion.slug)">{{ 'SEARCH.BUILD_HINT' | translate }}</a>
+                }
                 <button type="button" class="draw__reroll" (click)="roll()">{{ 'PICKERPAGE.REROLL' | translate }}</button>
               </div>
             }

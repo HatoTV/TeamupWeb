@@ -1,0 +1,68 @@
+<section class="head">
+  <p class="head__kicker">{{ 'BUILDS.LIST_KICKER' | translate }}</p>
+  <h1 class="head__title">{{ 'BUILDS.LIST_TITLE' | translate }}</h1>
+  <p class="head__lead">
+    {{ 'BUILDS.LIST_LEAD' | translate: { patch: meta()?.latest ?? '…', games: fmtInt(index()?.totalGames ?? 0) } }}
+  </p>
+  <div class="head__filters">
+    <div class="chips" role="group" [attr.aria-label]="'BUILDS.ROLE' | translate">
+      <button type="button" class="chip" [class.is-on]="!role()" [attr.aria-pressed]="!role()" (click)="role.set(null)">{{ 'MATCHUPSPAGE.ALL_ROLES' | translate }}</button>
+      @for (r of roles; track r) {
+        <button type="button" class="chip" [class.is-on]="role() === r" [attr.aria-pressed]="role() === r" (click)="role.set(role() === r ? null : r)">
+          <img [src]="'assets/img/site/' + r + '.webp'" alt="" width="16" height="16" />{{ 'PICKERPAGE.ROLES.' + r | translate }}
+        </button>
+      }
+    </div>
+    <label class="select">
+      <span class="sr-only">{{ 'BUILDS.RANK' | translate }}</span>
+      <select [value]="filter()" (change)="filter.set($any($event.target).value)">
+        @for (f of filters; track f) {
+          <option [value]="f" [selected]="f === filter()">{{ 'BUILDS.FILTERS.' + f | translate }}</option>
+        }
+      </select>
+    </label>
+  </div>
+</section>
+
+<div class="wrap" [attr.aria-busy]="loading()">
+  @if (!loading() && !rows().length) {
+    <p class="empty">{{ 'BUILDS.LIST_EMPTY' | translate }}</p>
+  } @else {
+    <table class="table">
+      <caption class="sr-only">{{ 'BUILDS.LIST_CAPTION' | translate }}</caption>
+      <thead>
+        <tr>
+          @for (col of columns; track col.key) {
+            <th scope="col" [attr.aria-sort]="ariaSort(col.key)">
+              <button type="button" class="sort" (click)="sortBy(col.key)">{{ col.label | translate }}</button>
+            </th>
+          }
+        </tr>
+      </thead>
+      <tbody>
+        @for (row of rows(); track row.key + row.role) {
+          <tr>
+            <th scope="row">
+              <a class="champ" [routerLink]="ctx.link('/lol/champions/' + row.slug + '/build/' + row.role)" [queryParams]="filter() === 'emerald_plus' ? {} : { rank: filter() }">
+                <img [src]="row.icon" alt="" width="36" height="36" loading="lazy" />
+                <span>
+                  <span class="champ__name">{{ row.name }}</span>
+                  <span class="champ__role">{{ 'PICKERPAGE.ROLES.' + row.role | translate }}@if (row.lowSample) { · {{ 'BUILDS.FEW_GAMES' | translate }}}</span>
+                </span>
+              </a>
+            </th>
+            <td>
+              @if (row.tier) {
+                <span class="tier" [class]="'tier tier--' + (row.tier === 'S+' ? 'splus' : row.tier.toLowerCase())">{{ row.tier }}</span>
+              }
+            </td>
+            <td class="num">{{ fmtRate(row.winRate) }}</td>
+            <td class="num">{{ fmtRate(row.pickRate) }}</td>
+            <td class="num">{{ fmtRate(row.banRate) }}</td>
+            <td class="num">{{ fmtInt(row.games) }}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+</div>

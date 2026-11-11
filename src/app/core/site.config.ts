@@ -23,7 +23,7 @@ export const GAMES: readonly GameLink[] = [
 /** Feature flags for pages that are not live yet (links to them stay hidden while false). */
 export const FEATURES = {
   /** LoL champion build pages (`/lol/champions/:id/build/:role`). */
-  buildPages: false,
+  buildPages: true,
 } as const;
 
 export const DISCORD_URL = 'https://discord.gg/pM4Eu5quyg';

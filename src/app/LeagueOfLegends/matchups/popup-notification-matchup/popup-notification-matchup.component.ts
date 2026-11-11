@@ -23,6 +23,10 @@ export class PopupNotificationMatchupComponent {
   @Input() searchTerm2: string = '';
   @Output() close = new EventEmitter<void>(); // Événement pour fermer la popup
   isSend : boolean = false;
+  isSending = false;
+  hasError = false;
+  /** Honeypot bound to an invisible field; stays empty for humans. */
+  website = '';
 
   constructor(private emailService: EmailService) {}
 
@@ -75,18 +79,28 @@ export class PopupNotificationMatchupComponent {
   }
 
   sendEmail() {
-    this.isSend = true;
-    this.emailService.sendEmail(this.subject, this.message)
-        .subscribe(
-          (            response: any) => {
-            },
-          (            error: any) => {
-                console.error('Erreur lors de l\'envoi de l\'e-mail:', error);
-            }
-        );
-        setTimeout(() => {
-          this.close.emit(); // Ferme le modal
-        }, 2000);
+    if (this.isSending) return;
+    this.isSending = true;
+    this.hasError = false;
+    this.emailService
+      .sendMatchupUpdateRequest({
+        type: this.selectedValue === 'typeNotification_DataFalse' ? 'wrong_data' : 'no_data',
+        champion1: this.selectedChampion[0].name,
+        champion2: this.selectedChampion2[0].name,
+        message: this.isMessageVisible ? this.message : '',
+        website: this.website,
+      })
+      .subscribe({
+        next: () => {
+          this.isSending = false;
+          this.isSend = true;
+          setTimeout(() => this.close.emit(), 2000);
+        },
+        error: () => {
+          this.isSending = false;
+          this.hasError = true;
+        },
+      });
   }
   // Méthode pour fermer le modal
   closeModal() {

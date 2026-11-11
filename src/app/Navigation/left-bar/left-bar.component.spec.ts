@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { testProviders } from '../../../testing/test-providers';
 
 import { LeftBarComponent } from './left-bar.component';
 
@@ -8,7 +9,8 @@ describe('LeftBarComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LeftBarComponent]
+      imports: [LeftBarComponent],
+      providers: testProviders,
     })
     .compileComponents();
 

@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { testProviders } from '../../testing/test-providers';
 
 import { TFTGameComponent } from './tftgame.component';
 
@@ -8,7 +9,8 @@ describe('TFTGameComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TFTGameComponent]
+      imports: [TFTGameComponent],
+      providers: testProviders,
     })
     .compileComponents();
 

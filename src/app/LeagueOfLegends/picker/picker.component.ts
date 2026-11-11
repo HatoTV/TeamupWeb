@@ -10,7 +10,6 @@ import {
 import { FormsModule } from '@angular/forms';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
-import { match } from 'assert';
 
 @Component({
   selector: 'app-picker',

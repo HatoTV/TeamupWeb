@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { testProviders } from '../../testing/test-providers';
 
 import { BaneerWarningComponent } from './baneer-warning.component';
 
@@ -8,7 +9,8 @@ describe('BaneerWarningComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BaneerWarningComponent]
+      imports: [BaneerWarningComponent],
+      providers: testProviders,
     })
     .compileComponents();
 

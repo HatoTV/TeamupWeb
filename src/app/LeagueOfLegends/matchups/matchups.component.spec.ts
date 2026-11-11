@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { testProviders } from '../../../testing/test-providers';
 
 import { MatchupsComponent } from './matchups.component';
 
@@ -8,7 +9,8 @@ describe('MatchupsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MatchupsComponent]
+      imports: [MatchupsComponent],
+      providers: testProviders,
     })
     .compileComponents();
 

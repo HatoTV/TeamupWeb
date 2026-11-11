@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { testProviders } from '../../../testing/test-providers';
 
 import { CguComponent } from './cgu.component';
 
@@ -8,7 +9,8 @@ describe('CguComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CguComponent]
+      imports: [CguComponent],
+      providers: testProviders,
     })
     .compileComponents();
 

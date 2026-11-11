@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { testProviders } from '../../../testing/test-providers';
 
 import { PickerComponent } from './picker.component';
 
@@ -8,7 +9,8 @@ describe('PickerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PickerComponent]
+      imports: [PickerComponent],
+      providers: testProviders,
     })
     .compileComponents();
 

@@ -1,46 +1,51 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of, timer } from 'rxjs';
-import { map, switchMap } from 'rxjs/operators';
-import { VercelService } from './vercel.service';
+import { catchError, map, switchMap } from 'rxjs/operators';
+
+/** Shape returned by the serverless function `api/twitch-live`. */
+export interface TwitchLiveResponse {
+  live: boolean;
+  title?: string;
+  viewers?: number;
+}
+
+export interface TwitchLiveStatus {
+  isLive: boolean;
+  streamUrl?: string;
+  streamTitle?: string;
+  viewers?: number;
+}
+
+const CHANNEL = 'Hato_TV';
+const POLL_INTERVAL_MS = 60_000;
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class TwitchService {
-  private clientId = '';
-  private accessToken= '';
-  private username = 'Hato_TV';
-  private apiUrl = `https://api.twitch.tv/helix/streams?user_login=${this.username}`;
+  private readonly apiUrl = '/api/twitch-live';
 
-  constructor(private http: HttpClient, private vercelService: VercelService) {
-    this.vercelService.getData().subscribe(response => {
-      this.clientId = response.TWITCH_CLIENT_ID
-      this.accessToken = response.TWITCH_ACCESS_TOKEN
-    }, error => {
-      console.error('Erreur lors de la récupération', error);
-    });
-  }
+  constructor(private http: HttpClient) {}
 
-  checkLiveStatus(): Observable<{ isLive: boolean, streamUrl?: string, streamTitle?: string }> {
-    return timer(0, 60000).pipe( // Vérifier toutes les minutes
-      switchMap(() => this.http.get<any>(this.apiUrl, {
-        headers: {
-          'Client-ID': this.clientId,
-          'Authorization': `Bearer ${this.accessToken}`
-        }
-      })),
-      map(response => {
-        const isLive = response.data.length > 0;
-        let streamUrl = '';
-        let streamTitle = '';
-        if (isLive) {
-          streamUrl = `https://player.twitch.tv/?channel=${this.username}&parent=teamupp.app`; // Remplacez par l'URL du stream
-          streamTitle = response.data[0].title; // Titre du stream
-        }        
-        return { isLive, streamUrl, streamTitle };
-      })
+  /** Polls the live status every minute. Errors are reported as "offline". */
+  checkLiveStatus(): Observable<TwitchLiveStatus> {
+    return timer(0, POLL_INTERVAL_MS).pipe(
+      switchMap(() =>
+        this.http.get<TwitchLiveResponse>(this.apiUrl).pipe(
+          catchError(() => of<TwitchLiveResponse>({ live: false }))
+        )
+      ),
+      map(({ live, title, viewers }) =>
+        live
+          ? {
+              isLive: true,
+              streamUrl: `https://player.twitch.tv/?channel=${CHANNEL}&parent=teamupp.app&parent=www.teamupp.app`,
+              streamTitle: title ?? '',
+              viewers,
+            }
+          : { isLive: false }
+      )
     );
   }
-  
 }

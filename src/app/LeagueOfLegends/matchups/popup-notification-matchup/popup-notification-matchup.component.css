@@ -428,3 +428,16 @@ h6{
     }
 
 }
+/* Honeypot: off-screen, unreachable by keyboard and assistive tech. */
+.honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.messageError {
+  color: #ff8b9c;
+  margin: 8px 0;
+}

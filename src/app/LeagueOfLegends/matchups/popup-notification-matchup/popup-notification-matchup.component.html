@@ -90,7 +90,12 @@
         <textarea [placeholder]="'LOL.MATCHUPS.MESSAGEPLACEHOLDER' | translate" class="inputExplanation" rows="3"
           [(ngModel)]="message"></textarea>
       </div>
-      <button type="submit" (click)="sendEmail()" class="btnSend">
+      <div class="honeypot" aria-hidden="true">
+        <label for="matchupWebsite">{{ "HONEYPOT_LABEL" | translate }}</label>
+        <input type="text" id="matchupWebsite" name="website" [(ngModel)]="website" tabindex="-1" autocomplete="off" />
+      </div>
+      <p *ngIf="hasError" class="messageError" role="alert">{{ "MESSAGEERROR" | translate }}</p>
+      <button type="submit" (click)="sendEmail()" class="btnSend" [disabled]="isSending">
         {{ "SENDMESSAGE" | translate }}</button>
 
     </div>

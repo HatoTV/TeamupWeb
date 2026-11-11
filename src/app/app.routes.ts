@@ -4,7 +4,6 @@ import { ContactComponent } from './contact/contact.component';
 import { CguComponent } from './home/cgu/cgu.component';
 import { HomeComponent } from './home/home.component';
 import { PrivacyComponent } from './home/privacy/privacy.component';
-import { BuildsComponent } from './LeagueOfLegends/builds/builds.component';
 import { GameComponent } from './LeagueOfLegends/game/game.component';
 import { GuidesComponent } from './LeagueOfLegends/guides/guides.component';
 import { JungleComponent } from './LeagueOfLegends/jungle/jungle.component';
@@ -26,7 +25,6 @@ export const routes: Routes = [
   { path: ':lang/lol/jungle', component: JungleComponent },
   { path: ':lang/lol/game', component: GameComponent },
   { path: ':lang/lol/picker', component: PickerComponent },
-  { path: ':lang/lol/builds', component: BuildsComponent },
   { path: ':lang/rocket/mecanics', component: MecanicsComponent },
   { path: ':lang/contact', component: ContactComponent },
   { path: ':lang/home', component: HomeComponent },

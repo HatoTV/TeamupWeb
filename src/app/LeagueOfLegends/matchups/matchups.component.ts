@@ -4,7 +4,6 @@ import { Component, ElementRef, Renderer2 } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { lastValueFrom, Observable } from 'rxjs';
 import { FormsModule } from '@angular/forms';
-import { throws } from 'node:assert';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { PopupNotificationMatchupComponent } from './popup-notification-matchup/popup-notification-matchup.component';
 
@@ -83,7 +82,6 @@ export class MatchupsComponent {
   imgBkg2: string = '';
   showImage1 = false;
   showImage2 = false;
-  riotApiKey: string = '';
 
   ngOnInit() {
 
@@ -284,16 +282,6 @@ export class MatchupsComponent {
     this.searchTerm2 = champion.name; // Mise à jour de la barre de recherche avec le nom
     this.filteredChampions2 = []; // Cache la liste après sélection
     await this.displayDatas();
-  }
-
-  async getRiotApi() {
-    try {
-      let urlJson = 'src/riotApi.json';
-      const data = await lastValueFrom(this.http.get<any[]>(urlJson));
-      this.riotApiKey = data[0].TOKEN;
-    } catch (error) {
-      console.error('Erreur lors de la récupération des données', error);
-    }
   }
 
   async displayDatas() {

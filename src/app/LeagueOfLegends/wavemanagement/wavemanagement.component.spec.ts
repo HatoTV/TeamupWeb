@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { testProviders } from '../../../testing/test-providers';
 
 import { WavemanagementComponent } from './wavemanagement.component';
 
@@ -8,7 +9,8 @@ describe('WavemanagementComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [WavemanagementComponent]
+      imports: [WavemanagementComponent],
+      providers: testProviders,
     })
     .compileComponents();
 

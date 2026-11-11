@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { testProviders } from '../../testing/test-providers';
 
 import { PopupTwitchComponent } from './popup-twitch.component';
 
@@ -8,7 +9,8 @@ describe('PopupTwitchComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PopupTwitchComponent]
+      imports: [PopupTwitchComponent],
+      providers: testProviders,
     })
     .compileComponents();
 

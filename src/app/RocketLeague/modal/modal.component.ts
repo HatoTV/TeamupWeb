@@ -1,3 +1,4 @@
+import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { CommonModule } from '@angular/common';
 import { Component, Input, Output, EventEmitter, ElementRef } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
@@ -8,7 +9,7 @@ import { SafeHtmlPipe } from '../../safe-html.pipe';
   standalone: true,
   templateUrl: './modal.component.html',
   styleUrls: ['./modal.component.css'],
-  imports: [CommonModule,SafeHtmlPipe,TranslateModule]
+  imports: [IconComponent, CommonModule,SafeHtmlPipe,TranslateModule]
 })
 export class ModalComponent {
   // Propriétés d'entrée pour personnaliser le contenu et les options du modal

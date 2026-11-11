@@ -83,7 +83,7 @@
   h2 {
     margin: 0; /* Enlève les marges par défaut */
     font-size: 16px; /* Taille du titre */
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--font-display);
     color: white;
   }
 
@@ -167,7 +167,7 @@
 h3 {
   margin: 0; /* Enlève les marges par défaut */
   font-size: 16px; /* Taille du titre */
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: var(--font-display);
 }
 
 /* Animation pour faire varier l'intensité de l'illumination */

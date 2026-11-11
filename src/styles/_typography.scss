@@ -1,0 +1,84 @@
+// Typographic helpers shared by every page.
+
+.t-page-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 0.92;
+  letter-spacing: 0.01em;
+}
+
+.t-section-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.t-eyebrow {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+}
+
+.t-guide {
+  font-size: var(--text-guide-size);
+  line-height: var(--text-guide-line);
+  color: var(--color-text-guide);
+}
+
+.t-accent {
+  color: var(--color-gold);
+}
+
+// Buttons
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 48px;
+  padding: 0 var(--space-5);
+  border: 1px solid transparent;
+  border-radius: var(--radius-control);
+  background: transparent;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition:
+    color var(--duration-color) ease,
+    background-color var(--duration-color) ease,
+    border-color var(--duration-color) ease;
+}
+
+.btn--primary {
+  background: var(--color-gold);
+  color: var(--color-on-gold);
+
+  &:hover {
+    background: #ffd76b;
+  }
+}
+
+.btn--secondary {
+  border-color: var(--color-line-strong);
+  color: var(--color-text);
+
+  &:hover {
+    border-color: var(--color-gold);
+    color: var(--color-gold);
+  }
+}
+
+.btn--sm {
+  min-height: var(--touch-target);
+  padding: 0 var(--space-4);
+  font-size: 15px;
+}

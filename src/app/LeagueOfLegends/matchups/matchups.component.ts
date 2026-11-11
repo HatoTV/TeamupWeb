@@ -1,3 +1,4 @@
+import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, ElementRef, Renderer2 } from '@angular/core';
@@ -10,7 +11,7 @@ import { PopupNotificationMatchupComponent } from './popup-notification-matchup/
 @Component({
   selector: 'lol-matchups',
   standalone: true,
-  imports: [CommonModule, TranslateModule, FormsModule,PopupNotificationMatchupComponent],
+  imports: [IconComponent, CommonModule, TranslateModule, FormsModule,PopupNotificationMatchupComponent],
   templateUrl: './matchups.component.html',
   styleUrl: './matchups.component.css',
 })

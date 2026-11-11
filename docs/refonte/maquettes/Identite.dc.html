@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>TeamUpp — Identité visuelle</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width:1200px;height:1300px;box-sizing:border-box;padding:56px;background:#0D0D18;color:#F1F1F7;font-family:Barlow,system-ui,sans-serif;font-size:15px;line-height:1.5;display:flex;flex-direction:column;gap:36px">
+
+<div style="position:relative;overflow:hidden;border-radius:18px;border:1px solid #2A2A42;height:200px;display:flex;align-items:center;padding:0 40px">
+<img src="../assets/splash_Jinx.webp" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% 25%">
+<div style="position:absolute;inset:0;background:linear-gradient(90deg,#0D0D18 40%,rgba(13,13,24,.3))"></div>
+<div style="position:relative;display:flex;align-items:center;gap:22px">
+<img src="../assets/site_TeamUp_white.webp" alt="" style="width:84px">
+<div>
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:56px;line-height:1;letter-spacing:.03em">TEAM<span style="color:#FFC93C">UPP</span></p>
+<p style="margin:4px 0 0;font-size:16px;color:#D2D2E0">Identité 2026 · « L'esport accessible » · fond nuit, or Upp, une couleur par jeu, les visuels officiels en vedette</p>
+</div>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px">
+<div>
+<p style="margin:0 0 12px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#7F7F99">Base</p>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px">
+<sc-for list="{{base}}" as="c" hint-placeholder-count="6">
+<div style="border-radius:12px;border:1px solid #2A2A42;overflow:hidden;background:#161626"><div style="height:60px;background:{{c.h}}"></div><div style="padding:10px 12px"><p style="margin:0;font-weight:700">{{c.n}}</p><p style="margin:0;font-size:12px;color:#A8A8BF">{{c.h}} · {{c.r}}</p></div></div>
+</sc-for>
+</div>
+</div>
+<div>
+<p style="margin:0 0 12px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#7F7F99">Accents</p>
+<div style="border-radius:12px;background:#FFC93C;color:#141420;padding:16px 18px;display:flex;justify-content:space-between;align-items:flex-end"><div><p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:32px;line-height:1">OR UPP</p><p style="margin:2px 0 0;font-weight:600">#FFC93C · actions, titres forts, progression</p></div><p style="margin:0;font-size:13px;font-weight:700">Texte dessus : #141420</p></div>
+<div style="margin-top:10px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px">
+<sc-for list="{{games}}" as="g" hint-placeholder-count="3">
+<div style="border-radius:12px;background:#161626;border:1px solid #2A2A42;border-top:4px solid {{g.h}};padding:12px"><p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;text-transform:uppercase;color:{{g.h}}">{{g.n}}</p><p style="margin:2px 0 0;font-size:12px;color:#A8A8BF">{{g.h}} · onglet, filets, liens du hub</p></div>
+</sc-for>
+</div>
+<p style="margin:16px 0 8px;font-size:13px;font-weight:700;color:#C9C9DA">Échelle de difficulté (matchups, picker, mécaniques)</p>
+<div style="display:flex;gap:6px">
+<sc-for list="{{diff}}" as="d" hint-placeholder-count="5"><span style="flex:1;padding:6px 0;border-radius:6px;text-align:center;font-size:12px;font-weight:700;color:{{d.c}};background:{{d.bg}}">{{d.l}}</span></sc-for>
+</div>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px">
+<div style="border-radius:14px;background:#161626;border:1px solid #2A2A42;padding:24px">
+<p style="margin:0 0 12px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#7F7F99">Typographie</p>
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-style:italic;font-size:54px;line-height:.92;text-transform:uppercase">Votre ascension<br><span style="color:#FFC93C">commence ici</span></p>
+<p style="margin:10px 0 18px;font-size:13px;color:#7F7F99">Barlow Condensed 700 italique · titres de page, VS, chiffres</p>
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:26px;text-transform:uppercase">Avantages &amp; inconvénients</p>
+<p style="margin:4px 0 16px;font-size:13px;color:#7F7F99">Barlow Condensed 700 capitales · titres de section, boutons</p>
+<p style="margin:0;font-size:17px;line-height:1.7;color:#D2D2E0">Le freezing consiste à empêcher la wave de sbires de bouger, obligeant l'adversaire à s'avancer.</p>
+<p style="margin:4px 0 0;font-size:13px;color:#7F7F99">Barlow 400 / 600 · texte des guides, 17–18 px, interligne 1.7</p>
+</div>
+<div style="border-radius:14px;background:#161626;border:1px solid #2A2A42;padding:24px;display:flex;flex-direction:column;gap:16px">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#7F7F99">Composants</p>
+<div style="display:flex;gap:10px;flex-wrap:wrap">
+<span style="display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:10px;background:#FFC93C;color:#141420;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Bouton principal</span>
+<span style="display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:10px;border:1px solid #3A3A58;color:#F1F1F7;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Secondaire</span>
+</div>
+<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+<span style="display:flex;align-items:center;gap:8px;padding:6px 12px 6px 6px;border-radius:999px;background:#0D0D18;border:1px solid #4FD18B"><img src="../assets/ic_Janna.webp" alt="" style="width:30px;height:30px;border-radius:50%">Janna</span>
+<span style="font:700 italic 24px 'Barlow Condensed',sans-serif;color:#FFC93C">VS</span>
+<span style="display:flex;align-items:center;gap:8px;padding:6px 12px 6px 6px;border-radius:999px;background:#0D0D18;border:1px solid #FF4F6D"><img src="../assets/ic_Blitzcrank.webp" alt="" style="width:30px;height:30px;border-radius:50%">Blitzcrank</span>
+</div>
+<div style="display:flex;align-items:center;gap:10px"><span style="font-size:13px;color:#A8A8BF">Jauge 1–5</span><span style="display:flex;gap:3px"><span style="width:22px;height:7px;border-radius:2px;background:#36A3FF"></span><span style="width:22px;height:7px;border-radius:2px;background:#36A3FF"></span><span style="width:22px;height:7px;border-radius:2px;background:#36A3FF"></span><span style="width:22px;height:7px;border-radius:2px;background:#2A2A42"></span><span style="width:22px;height:7px;border-radius:2px;background:#2A2A42"></span></span></div>
+<p style="margin:0;font-size:13px;line-height:1.6;color:#A8A8BF">Rayons 6 / 10 / 14 px · grille 8 px · cibles ≥ 44 px · contraste texte ≥ 4.5:1</p>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px">
+<div style="border-radius:14px;background:#161626;border:1px solid #2A2A42;padding:24px">
+<p style="margin:0 0 10px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#7F7F99">Visuels des jeux</p>
+<ul style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;color:#D2D2E0"><li>Splash arts et key arts en héros, toujours sous un dégradé nuit pour garder le texte lisible.</li><li>Icônes champion carrées (radius 8) dans les listes, rondes dans les sélecteurs.</li><li>Export WebP/AVIF : 1600 px pour les héros, 640 px pour les cartes, 96 px pour les icônes.</li><li>Mention légale Riot / Psyonix conservée dans le pied de page.</li></ul>
+</div>
+<div style="border-radius:14px;background:#161626;border:1px solid #2A2A42;padding:24px">
+<p style="margin:0 0 10px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#7F7F99">Mouvement</p>
+<ul style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;color:#D2D2E0"><li>Survol des cartes : translation 4 px + zoom image 5 %, 250 ms.</li><li>Survols de lignes et liens : couleur seule, 180 ms.</li><li>Uniquement transform / opacity / couleur : jamais « transition: all ».</li><li>prefers-reduced-motion : animations coupées.</li></ul>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1200,"height":1300}}'>
+class Component extends DCLogic {
+renderVals() {
+return {
+base: [['Nuit', '#0D0D18', 'fond'], ['Surface', '#161626', 'cartes'], ['Surface +', '#1E1E32', 'tags'], ['Ligne', '#2A2A42', 'bordures'], ['Texte', '#F1F1F7', 'titres'], ['Texte doux', '#A8A8BF', 'secondaire']].map(([n, h, r]) => ({ n, h, r })),
+games: [{ n: 'LoL', h: '#9B7BFF' }, { n: 'TFT', h: '#FF5C9E' }, { n: 'RL', h: '#36A3FF' }],
+diff: [['Très facile', '#5FD8E6', 'rgba(57,198,214,.16)'], ['Facile', '#6FE0A2', 'rgba(79,209,139,.16)'], ['Moyen', '#FFD56B', 'rgba(255,201,60,.16)'], ['Difficile', '#FFA066', 'rgba(255,139,61,.16)'], ['Extrême', '#FF7A92', 'rgba(255,79,109,.16)']].map(([l, c, bg]) => ({ l, c, bg }))
+};
+}
+}
+</script>
+</body>
+</html>

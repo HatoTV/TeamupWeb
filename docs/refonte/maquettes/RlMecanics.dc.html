@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>TeamUpp — Mécaniques Rocket League</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0D0D18}
+a{color:#F1F1F7;text-decoration:none}
+.tu-mec{transition:transform .25s cubic-bezier(.2,.8,.2,1),border-color .25s ease}.tu-mec:hover{transform:translateY(-4px);border-color:#36A3FF}
+.tu-mec img{transition:transform .5s cubic-bezier(.2,.8,.2,1)}.tu-mec:hover img{transform:scale(1.05)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #FFC93C;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.tu-mec,.tu-mec img{transition:none}.tu-mec:hover,.tu-mec:hover img{transform:none}}
+</style>
+</helmet>
+<div style="background:#0D0D18;color:#F1F1F7;font-family:Barlow,system-ui,sans-serif;font-size:16px;line-height:1.55;min-height:100vh">
+<dc-import name="Topbar" game="rl" hint-size="100%,64px"></dc-import>
+
+<header style="position:relative;overflow:hidden;border-bottom:1px solid #23233A">
+<img src="../assets/site_bkgRocketLeague.webp" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%">
+<div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,13,24,.95) 30%,rgba(13,13,24,.35)),linear-gradient(0deg,#0D0D18,rgba(13,13,24,0) 55%)"></div>
+<div style="position:relative;max-width:1280px;margin:0 auto;padding:56px 32px 44px">
+<img src="../assets/site_rl_logo.webp" alt="Rocket League" style="width:280px;max-width:100%;height:auto">
+<h1 style="margin:18px 0 0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-style:italic;font-size:64px;line-height:.92;text-transform:uppercase">Les mécaniques,<br><span style="color:#36A3FF">étape par étape</span></h1>
+<p style="margin:12px 0 0;font-size:19px;color:#D2D2E0">Frappe avec puissance, défends avec sagesse !</p>
+</div>
+</header>
+
+<div style="max-width:1280px;margin:0 auto;padding:24px 32px 72px">
+<div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:14px;border-radius:12px;background:#161626;border:1px solid #2A2A42">
+<label style="display:flex;align-items:center;gap:8px;height:44px;padding:0 12px;flex:1 1 260px;border-radius:8px;background:#0D0D18;border:1px solid #2A2A42">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A8A8BF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<input type="search" placeholder="Wave Dash, Flip Reset, etc..." aria-label="Rechercher une mécanique" style="flex:1;min-width:0;border:0;background:transparent;color:#F1F1F7;font:500 15px Barlow,sans-serif">
+</label>
+<div role="group" aria-label="Difficulté" style="display:flex;align-items:center;gap:6px"><span style="font-size:14px;color:#A8A8BF;margin-right:4px">Difficulté</span>
+<sc-for list="{{lv}}" as="l" hint-placeholder-count="5"><button type="button" aria-pressed="{{l.p}}" style="width:40px;height:40px;border-radius:8px;border:1px solid {{l.b}};background:{{l.bg}};color:#F1F1F7;font:700 15px Barlow,sans-serif;cursor:pointer">{{l.n}}</button></sc-for>
+</div>
+<label style="display:flex;align-items:center;gap:8px;font-size:14px;color:#A8A8BF">Tri
+<select style="height:44px;border-radius:8px;background:#0D0D18;border:1px solid #2A2A42;color:#F1F1F7;font:600 15px Barlow,sans-serif;padding:0 12px">
+<option>Utilité ↓</option><option>Utilité ↑</option><option>Difficulté ↑</option><option>Difficulté ↓</option><option>Nom A → Z</option><option>Nom Z → A</option>
+</select></label>
+</div>
+<p style="margin:18px 0 14px;font-size:14px;color:#A8A8BF">8 mécaniques · triées par utilité</p>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px">
+<sc-for list="{{mecs}}" as="m" hint-placeholder-count="8">
+<a href="RlMecanic.dc.html" class="tu-mec" style="display:flex;flex-direction:column;border-radius:14px;overflow:hidden;background:#161626;border:1px solid #2A2A42">
+<div style="position:relative;aspect-ratio:16/9;overflow:hidden">
+<img src="{{m.img}}" alt="" style="width:100%;height:100%;object-fit:cover">
+<div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(13,13,24,.75),rgba(13,13,24,0) 55%)"></div>
+<span style="position:absolute;left:12px;bottom:10px;width:40px;height:40px;border-radius:50%;background:rgba(54,163,255,.92);display:flex;align-items:center;justify-content:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="#0D0D18" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></span>
+<span style="position:absolute;right:10px;top:10px;padding:3px 8px;border-radius:6px;background:rgba(13,13,24,.85);font-size:12px;font-weight:700;color:#C9C9DA">par {{m.author}}</span>
+</div>
+<div style="padding:14px 16px 16px">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px;line-height:1.05;text-transform:uppercase">{{m.name}} <span style="font-size:17px;color:#A8A8BF">{{m.sub}}</span></p>
+<div style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:10px"><span style="font-size:13px;font-weight:600;color:#A8A8BF">Difficulté</span><span role="img" aria-label="{{m.dl}}" style="display:flex;gap:3px"><sc-for list="{{m.d}}" as="x" hint-placeholder-count="5"><span style="width:22px;height:7px;border-radius:2px;background:{{x}}"></span></sc-for></span></div>
+<div style="display:flex;align-items:center;justify-content:space-between;gap:10px"><span style="font-size:13px;font-weight:600;color:#A8A8BF">Utilité</span><span role="img" aria-label="{{m.ul}}" style="display:flex;gap:3px"><sc-for list="{{m.u}}" as="x" hint-placeholder-count="5"><span style="width:22px;height:7px;border-radius:2px;background:{{x}}"></span></sc-for></span></div>
+</div>
+</div>
+</a>
+</sc-for>
+</div>
+</div>
+<dc-import name="Footer" hint-size="100%,320px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2100}}'>
+class Component extends DCLogic {
+renderVals() {
+const B = (p) => p;
+const pips = (n, on) => [1, 2, 3, 4, 5].map(i => i <= n ? on : '#2A2A42');
+const raw = [
+['Fast Aerial', '', 'Hato', 1, 5, '../assets/rl_fastaerial.webp'],
+['Wave Dash', '', 'Hato', 2, 5, '../assets/rl_wavedash.webp'],
+['Half Flip', '', 'Flowfi', 1, 5, '../assets/rl_halfflip.webp'],
+['Flick', '(Diagonal Backflip)', 'Flowfi', 3, 5, '../assets/rl_flickdiagonalbackflip.webp'],
+['Wall to Air Dribble', '', 'KOBAA', 2, 4, '../assets/rl_walltoairdribble.webp'],
+['Musty Flick', '', 'Flowfi', 3, 4, '../assets/rl_musty.webp'],
+['Ceiling Shot', '', 'Hato', 2, 3, '../assets/rl_ceilingshot.webp'],
+['Pinch', '(Kuxir)', 'Flowfi', 4, 3, '../assets/rl_pinch.webp']
+];
+return {
+lv: [1, 2, 3, 4, 5].map(n => ({ n, p: 'false', b: '#2A2A42', bg: '#0D0D18' })),
+mecs: raw.map(([name, sub, author, d, u, id]) => ({ name, sub, author, img: B(id), d: pips(d, '#FF8B3D'), u: pips(u, '#36A3FF'), dl: 'Difficulté ' + d + ' sur 5', ul: 'Utilité ' + u + ' sur 5' }))
+};
+}
+}
+</script>
+</body>
+</html>

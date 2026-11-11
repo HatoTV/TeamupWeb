@@ -1,3 +1,4 @@
+import { IconComponent } from '../shared/ui/icon/icon.component';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
@@ -5,7 +6,7 @@ import { TranslateModule } from '@ngx-translate/core';
 @Component({
   selector: 'baneer-warning',
   standalone: true,
-  imports: [CommonModule,TranslateModule],
+  imports: [IconComponent, CommonModule,TranslateModule],
   templateUrl: './baneer-warning.component.html',
   styleUrl: './baneer-warning.component.css'
 })

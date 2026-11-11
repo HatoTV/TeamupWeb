@@ -20,7 +20,7 @@
         <input type="text" class="form-control inputSearch" [placeholder]="'RL.MECANICS.SEARCHPLACEHOLDER' | translate"
           [(ngModel)]="searchTerm" (input)="filterMecanics()" />
         <span class="search-icon">
-          <i class="fa fa-search"></i>
+          <app-icon name="search" [size]="16" />
         </span>
       </div>
       <button class="btnFilter" type="button" (click)="openFilters()"
@@ -38,26 +38,11 @@
               <input type="checkbox" id="{{ option.id }}" [(ngModel)]="option.selected" (change)="onFilterChange()"
                 class="form-check-input" />
               <label class="form-check-label" for="{{ option.id }}">
-                <span class="fa-star" [ngClass]="{
-                'fa-solid': option.rating >= 1,
-                'fa-regular': option.rating < 1
-              }"></span>
-                <span class="fa-star" [ngClass]="{
-                'fa-solid': option.rating >= 2,
-                'fa-regular': option.rating < 2
-              }"></span>
-                <span class="fa-star" [ngClass]="{
-                'fa-solid': option.rating >= 3,
-                'fa-regular': option.rating < 3
-              }"></span>
-                <span class="fa-star" [ngClass]="{
-                'fa-solid': option.rating >= 4,
-                'fa-regular': option.rating < 4
-              }"></span>
-                <span class="fa-star" [ngClass]="{
-                'fa-solid': option.rating >= 5,
-                'fa-regular': option.rating < 5
-              }"></span>
+                <app-icon [name]="option.rating >= 1 ? 'star' : 'star-outline'" [size]="14" />
+                <app-icon [name]="option.rating >= 2 ? 'star' : 'star-outline'" [size]="14" />
+                <app-icon [name]="option.rating >= 3 ? 'star' : 'star-outline'" [size]="14" />
+                <app-icon [name]="option.rating >= 4 ? 'star' : 'star-outline'" [size]="14" />
+                <app-icon [name]="option.rating >= 5 ? 'star' : 'star-outline'" [size]="14" />
               </label>
             </div>
           </div>
@@ -71,26 +56,11 @@
               <input type="checkbox" id="{{ option.id }}" [(ngModel)]="option.selected" (change)="onFilterChange()"
                 class="form-check-input" />
               <label class="form-check-label" for="{{ option.id }}">
-                <span class="fa-star" [ngClass]="{
-                  'fa-solid': option.rating >= 1,
-                  'fa-regular': option.rating < 1
-                }"></span>
-                <span class="fa-star" [ngClass]="{
-                  'fa-solid': option.rating >= 2,
-                  'fa-regular': option.rating < 2
-                }"></span>
-                <span class="fa-star" [ngClass]="{
-                  'fa-solid': option.rating >= 3,
-                  'fa-regular': option.rating < 3
-                }"></span>
-                <span class="fa-star" [ngClass]="{
-                  'fa-solid': option.rating >= 4,
-                  'fa-regular': option.rating < 4
-                }"></span>
-                <span class="fa-star" [ngClass]="{
-                  'fa-solid': option.rating >= 5,
-                  'fa-regular': option.rating < 5
-                }"></span>
+                <app-icon [name]="option.rating >= 1 ? 'star' : 'star-outline'" [size]="14" />
+                <app-icon [name]="option.rating >= 2 ? 'star' : 'star-outline'" [size]="14" />
+                <app-icon [name]="option.rating >= 3 ? 'star' : 'star-outline'" [size]="14" />
+                <app-icon [name]="option.rating >= 4 ? 'star' : 'star-outline'" [size]="14" />
+                <app-icon [name]="option.rating >= 5 ? 'star' : 'star-outline'" [size]="14" />
               </label>
             </div>
           </div>
@@ -140,22 +110,14 @@
               [ngStyle]="{'background-color': getBackgroundColorDifficulty(mecanic.difficulty)}">
               <h5 [innerHtml]="'RL.MECANICS.DIFFICULTY' | translate | safeHtml"></h5>
               <div class="star-rating">
-                <span *ngFor="let star of stars; let i = index" class="fa-star" [ngClass]="{
-                    'fa-solid': i < mecanic.difficulty,
-                    'fa-regular': i >= mecanic.difficulty
-                  }">
-                </span>
+                <app-icon *ngFor="let star of stars; let i = index" [name]="i < mecanic.difficulty ? 'star' : 'star-outline'" [size]="14" />
               </div>
             </div>
             <div class="divStatsUnique" [ngStyle]="{'background-color': getBackgroundColorUtility(mecanic.utility)}"
               style="border-top: 3px solid white;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">
               <h5 [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"></h5>
               <div class="star-rating">
-                <span *ngFor="let star of stars; let i = index" class="fa-star" [ngClass]="{
-                    'fa-solid': i < mecanic.utility,
-                    'fa-regular': i >= mecanic.utility
-                  }">
-                </span>
+                <app-icon *ngFor="let star of stars; let i = index" [name]="i < mecanic.utility ? 'star' : 'star-outline'" [size]="14" />
               </div>
             </div>
           </div>

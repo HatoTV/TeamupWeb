@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>TeamUpp — Accueil mobile</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#F1F1F7;text-decoration:none}
+</style>
+</helmet>
+<div style="position:relative;width:390px;height:844px;overflow:hidden;background:#0D0D18;color:#F1F1F7;font-family:Barlow,system-ui,sans-serif;font-size:16px;line-height:1.5">
+<header style="position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;height:60px;padding:0 12px 0 16px;background:rgba(11,11,21,.9);border-bottom:1px solid #23233A">
+<a href="#" aria-label="TeamUpp, accueil" style="display:flex;align-items:center;gap:8px"><img src="../assets/site_TeamUp_white.webp" alt="" style="width:26px"><span style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:.04em">TEAM<span style="color:#FFC93C">UPP</span></span></a>
+<div style="display:flex;gap:4px">
+<button type="button" aria-label="Rechercher" style="width:44px;height:44px;border:0;border-radius:10px;background:transparent;display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F1F1F7" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></button>
+<button type="button" aria-label="Langue : français" style="width:44px;height:44px;border:0;border-radius:10px;background:transparent;color:#F1F1F7;font:700 13px Barlow,sans-serif">FR</button>
+</div>
+</header>
+<section style="position:relative;height:380px;overflow:hidden">
+<img src="../assets/splash_Jinx.webp" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:68% 20%">
+<div style="position:absolute;inset:0;background:linear-gradient(0deg,#0D0D18 18%,rgba(13,13,24,.35) 70%,rgba(13,13,24,.6))"></div>
+<div style="position:absolute;left:16px;right:16px;bottom:18px">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#FFC93C">LoL · TFT · Rocket League</p>
+<h1 style="margin:6px 0 0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-style:italic;font-size:48px;line-height:.92;text-transform:uppercase">Bienvenue sur <span style="color:#FFC93C">TeamUpp</span></h1>
+<p style="margin:10px 0 0;font-size:16px;color:#D2D2E0">Le hub ultime pour les joueurs compétitifs qui veulent progresser</p>
+<label style="margin-top:14px;display:flex;align-items:center;gap:10px;height:48px;padding:0 14px;border-radius:10px;background:#161626;border:1px solid #33334F"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A8A8BF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><input type="search" placeholder="Champion, guide, mécanique…" aria-label="Rechercher" style="flex:1;min-width:0;border:0;background:transparent;color:#F1F1F7;font:500 15px Barlow,sans-serif"></label>
+</div>
+</section>
+<p style="margin:18px 16px 10px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;text-transform:uppercase">Choisis ton jeu</p>
+<div style="display:flex;gap:10px;overflow-x:auto;padding:0 16px">
+<sc-for list="{{games}}" as="g" hint-placeholder-count="3">
+<a href="#" style="flex:0 0 150px;position:relative;height:200px;border-radius:12px;overflow:hidden;border:1px solid #33334F;display:flex;flex-direction:column;justify-content:flex-end;padding:12px">
+<img src="{{g.img}}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+<span style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,20,.95),rgba(10,10,20,0) 60%)"></span>
+<span style="position:absolute;left:0;right:0;top:0;height:3px;background:{{g.c}}"></span>
+<span style="position:relative;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;line-height:1;text-transform:uppercase">{{g.n}}</span>
+<span style="position:relative;margin-top:4px;font-size:12px;color:{{g.c}};font-weight:700">{{g.m}}</span>
+</a>
+</sc-for>
+</div>
+<nav aria-label="Navigation principale" style="position:absolute;left:0;right:0;bottom:0;display:flex;padding:6px 6px 22px;background:#0B0B15;border-top:1px solid #23233A">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="5">
+<a href="#" style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;min-height:50px;padding-top:6px;font-size:11px;font-weight:700;color:{{t.tc}}"><span style="width:24px;height:24px;border-radius:7px;background:{{t.bg}};color:#0B0B15;display:flex;align-items:center;justify-content:center;font:700 10px 'Barlow Condensed',sans-serif">{{t.s}}</span>{{t.l}}</a>
+</sc-for>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+const B = (p) => p;
+return {
+games: [
+{ n: 'League of Legends', m: 'Matchups · Guides', c: '#9B7BFF', img: B('../assets/site_gameLoL.webp') },
+{ n: 'Teamfight Tactics', m: 'Guide complet', c: '#FF5C9E', img: B('../assets/site_gameTFT.webp') },
+{ n: 'Rocket League', m: '8 mécaniques', c: '#36A3FF', img: B('../assets/site_gameRL.webp') }
+],
+tabs: [['Accueil', 'TU', '#FFC93C', '#FFC93C'], ['LoL', 'LoL', '#9B7BFF', '#A8A8BF'], ['TFT', 'TFT', '#FF5C9E', '#A8A8BF'], ['RL', 'RL', '#36A3FF', '#A8A8BF'], ['À propos', 'H', '#A8A8BF', '#A8A8BF']].map(([l, s, bg, tc]) => ({ l, s, bg, tc }))
+};
+}
+}
+</script>
+</body>
+</html>

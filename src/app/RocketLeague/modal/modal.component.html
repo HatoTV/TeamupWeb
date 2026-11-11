@@ -8,21 +8,13 @@
           [ngStyle]="{'background-color': getBackgroundColorDifficulty(difficulty)}">
           <h5 [innerHtml]="'RL.MECANICS.DIFFICULTY' | translate | safeHtml"></h5>
           <div class="star-rating">
-            <span *ngFor="let star of stars; let i = index" class="fa-star" [ngClass]="{
-                  'fa-solid': i < difficulty,
-                  'fa-regular': i >= difficulty
-                }">
-            </span>
+            <app-icon *ngFor="let star of stars; let i = index" [name]="i < difficulty ? 'star' : 'star-outline'" [size]="14" />
           </div>
         </div>
         <div class="divStatsUnique" [ngStyle]="{'background-color': getBackgroundColorUtility(utility)}">
           <h5 [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"></h5>
           <div class="star-rating">
-            <span *ngFor="let star of stars; let i = index" class="fa-star" [ngClass]="{
-                  'fa-solid': i < utility,
-                  'fa-regular': i >= utility
-                }">
-            </span>
+            <app-icon *ngFor="let star of stars; let i = index" [name]="i < utility ? 'star' : 'star-outline'" [size]="14" />
           </div>
         </div>
       </div>
@@ -37,21 +29,13 @@
           [ngStyle]="{'background-color': getBackgroundColorDifficulty(difficulty)}">
           <h5 [innerHtml]="'RL.MECANICS.DIFFICULTY' | translate | safeHtml"></h5>
           <div class="star-rating">
-            <span *ngFor="let star of stars; let i = index" class="fa-star" [ngClass]="{
-                'fa-solid': i < difficulty,
-                'fa-regular': i >= difficulty
-              }">
-            </span>
+            <app-icon *ngFor="let star of stars; let i = index" [name]="i < difficulty ? 'star' : 'star-outline'" [size]="14" />
           </div>
         </div>
         <div class="divStatsUnique" [ngStyle]="{'background-color': getBackgroundColorUtility(utility)}">
           <h5 [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"></h5>
           <div class="star-rating">
-            <span *ngFor="let star of stars; let i = index" class="fa-star" [ngClass]="{
-                'fa-solid': i < utility,
-                'fa-regular': i >= utility
-              }">
-            </span>
+            <app-icon *ngFor="let star of stars; let i = index" [name]="i < utility ? 'star' : 'star-outline'" [size]="14" />
           </div>
         </div>
       </div>

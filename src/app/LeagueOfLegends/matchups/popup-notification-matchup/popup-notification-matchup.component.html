@@ -18,7 +18,7 @@
                 (input)="filterChampions()" [ngClass]="{'inputWithIcon': selectedChampion[0].name !== ''}"
                 [value]="selectedChampion[0].name" />
               <span class="search-icon">
-                <i class="fa fa-search"></i>
+                <app-icon name="search" [size]="16" />
               </span>
             </div>
           </div>
@@ -52,7 +52,7 @@
                 [placeholder]="'LOL.MATCHUPS.ENEMYCHAMPION' | translate" [(ngModel)]="searchTerm2"
                 (input)="filterChampions2()" [ngClass]="{'inputWithIcon': selectedChampion2[0].name !== ''}" />
               <span class="search-icon">
-                <i class="fa fa-search"></i>
+                <app-icon name="search" [size]="16" />
               </span>
             </div>
           </div>

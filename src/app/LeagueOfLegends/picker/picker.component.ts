@@ -1,3 +1,4 @@
+import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import {
@@ -14,7 +15,7 @@ import { SafeHtmlPipe } from '../../safe-html.pipe';
 @Component({
   selector: 'app-picker',
   standalone: true,
-  imports: [CommonModule, TranslateModule, SafeHtmlPipe, FormsModule],
+  imports: [IconComponent, CommonModule, TranslateModule, SafeHtmlPipe, FormsModule],
   templateUrl: './picker.component.html',
   styleUrl: './picker.component.css',
 })

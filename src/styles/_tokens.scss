@@ -1,0 +1,118 @@
+// TeamUpp 2026 design tokens (source: docs/refonte/maquettes/Identite.dc.html).
+// Exposed as CSS custom properties so components and hub themes can override them.
+
+:root {
+  // Surfaces
+  --color-night: #0d0d18;
+  --color-night-bar: #0b0b15; // top bar & footer
+  --color-surface: #161626;
+  --color-surface-plus: #1e1e32;
+  --color-surface-active: #22223a;
+
+  // Lines
+  --color-line: #2a2a42;
+  --color-separator: #23233a;
+  --color-line-strong: #3a3a58;
+
+  // Text
+  --color-text: #f1f1f7;
+  --color-text-secondary: #c9c9da;
+  --color-text-muted: #a8a8bf;
+  --color-text-subtle: #7f7f99;
+  --color-text-guide: #d2d2e0;
+
+  // Brand accent « Or Upp »
+  --color-gold: #ffc93c;
+  --color-on-gold: #141420;
+
+  // Games
+  --color-lol: #9b7bff;
+  --color-tft: #ff5c9e;
+  --color-rl: #36a3ff;
+
+  // Matchup sides (champion chips)
+  --color-ally: #4fd18b;
+  --color-enemy: #ff4f6d;
+
+  // Difficulty scale: base colour, readable text on dark, 16 % tinted background
+  --diff-1: #39c6d6;
+  --diff-1-text: #5fd8e6;
+  --diff-1-bg: rgba(57, 198, 214, 0.16);
+  --diff-2: #4fd18b;
+  --diff-2-text: #6fe0a2;
+  --diff-2-bg: rgba(79, 209, 139, 0.16);
+  --diff-3: #ffc93c;
+  --diff-3-text: #ffd56b;
+  --diff-3-bg: rgba(255, 201, 60, 0.16);
+  --diff-4: #ff8b3d;
+  --diff-4-text: #ffa066;
+  --diff-4-bg: rgba(255, 139, 61, 0.16);
+  --diff-5: #ff4f6d;
+  --diff-5-text: #ff7a92;
+  --diff-5-bg: rgba(255, 79, 109, 0.16);
+
+  // Hub accent (overridden per game below)
+  --game-accent: var(--color-gold);
+
+  // Typography
+  --font-body: 'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Barlow Condensed', 'Barlow', system-ui, sans-serif;
+  --text-guide-size: 17px;
+  --text-guide-line: 1.7;
+
+  // Radii
+  --radius-tag: 6px;
+  --radius-control: 10px;
+  --radius-control-sm: 8px;
+  --radius-card: 14px;
+  --radius-card-lg: 16px;
+  --radius-block: 20px;
+  --radius-pill: 999px;
+
+  // Spacing (8 px grid)
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 48px;
+  --space-10: 64px;
+
+  // Layout
+  --container-max: 1280px;
+  --container-gutter: 32px;
+  --guide-content-max: 760px;
+  --touch-target: 44px;
+
+  // Motion
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration-card: 250ms;
+  --duration-color: 180ms;
+
+  // Focus
+  --focus-ring: 0 0 0 3px var(--color-night), 0 0 0 5px var(--color-gold);
+
+  @media (max-width: 600px) {
+    --container-gutter: 16px;
+    --text-guide-size: 17px;
+  }
+
+  @media (min-width: 1200px) {
+    --text-guide-size: 18px;
+  }
+}
+
+// Hub themes: set `data-game` on a wrapper to recolour tabs, rules and links.
+[data-game='lol'] {
+  --game-accent: var(--color-lol);
+}
+
+[data-game='tft'] {
+  --game-accent: var(--color-tft);
+}
+
+[data-game='rl'] {
+  --game-accent: var(--color-rl);
+}

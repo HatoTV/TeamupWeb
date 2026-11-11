@@ -1,5 +1,6 @@
 // src/app/language.service.ts
-import { Injectable } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Inject, Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 
@@ -8,7 +9,11 @@ import { Router } from '@angular/router';
 })
 export class LanguageService {
 
-  constructor(public translate: TranslateService, private router: Router) {}
+  constructor(
+    public translate: TranslateService,
+    private router: Router,
+    @Inject(DOCUMENT) private document: Document
+  ) {}
 
   changeLanguage(lang: string) {
     const supportedLangs = ['en', 'fr'];
@@ -16,6 +21,7 @@ export class LanguageService {
 
     if (supportedLangs.includes(lang)) {
       this.translate.use(lang);
+      this.document.documentElement.lang = lang;
 
       // Rediriger vers l'URL avec la nouvelle langue
       const currentUrl = this.router.url.split('/').slice(2).join('/'); // URL sans la langue

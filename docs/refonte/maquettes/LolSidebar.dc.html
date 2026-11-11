@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>TeamUpp — Menu League of Legends</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<nav aria-label="League of Legends" style="width:100%;box-sizing:border-box;background:#11111E;border-right:1px solid #23233A;padding:20px 14px 28px;font-family:Barlow,system-ui,sans-serif;color:#F1F1F7">
+<div style="display:flex;align-items:center;gap:10px;padding:4px 8px 18px">
+<img src="../assets/site_lol_logo.webp" alt="League of Legends" style="width:132px;height:auto">
+</div>
+<p style="margin:0 8px 8px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#7F7F99">Outils champions</p>
+<sc-for list="{{tools}}" as="t" hint-placeholder-count="2">
+<a href="{{t.href}}" aria-current="{{t.current}}" style="display:flex;align-items:center;gap:10px;min-height:44px;padding:0 10px;margin-bottom:2px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;color:{{t.text}};background:{{t.bg}};box-shadow:{{t.ring}}">
+<span style="width:28px;height:28px;border-radius:7px;background:#1E1E32;display:flex;align-items:center;justify-content:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9B7BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{t.icon}}"></path></svg></span>{{t.label}}
+</a>
+</sc-for>
+<p style="margin:22px 8px 8px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#7F7F99">Gameplay guides</p>
+<sc-for list="{{groups}}" as="g" hint-placeholder-count="4">
+<div style="margin-bottom:6px">
+<p style="margin:0;display:flex;align-items:center;justify-content:space-between;min-height:38px;padding:0 10px;font-weight:700;font-size:15px;color:{{g.text}}"><span>{{g.label}}</span><span style="font-size:12px;font-weight:600;color:#7F7F99">{{g.count}}</span></p>
+<div style="margin-left:14px;border-left:1px solid #2A2A42;padding-left:6px">
+<sc-for list="{{g.items}}" as="i" hint-placeholder-count="4">
+<a href="#" aria-current="{{i.current}}" style="display:flex;align-items:center;min-height:34px;padding:0 10px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:{{i.weight}};color:{{i.text}};background:{{i.bg}}">{{i.label}}</a>
+</sc-for>
+</div>
+</div>
+</sc-for>
+</nav>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"active":{"editor":"text","default":"matchups"},"$preview":{"width":272,"height":1100}}'>
+class Component extends DCLogic {
+renderVals() {
+const a = this.props.active ?? 'matchups';
+const tools = [
+{ id: 'matchups', label: 'Matchups', href: '#matchups', icon: 'M4 20L14 10M10 4l10 10M4 4l6 6M14 20l6-6' },
+{ id: 'picker', label: 'Picker', href: '#picker', icon: 'M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z' }
+].map(t => ({ ...t, current: t.id === a ? 'page' : 'false', text: t.id === a ? '#FFFFFF' : '#C9C9DA', bg: t.id === a ? '#22223A' : 'transparent', ring: t.id === a ? 'inset 3px 0 0 #9B7BFF' : 'none' }));
+const raw = [
+{ label: 'Le jeu', items: [['stats', 'Statistiques des objets'], ['buffs', 'Objectifs & buffs']] },
+{ label: 'Laning', items: [['intro', 'Introduction'], ['lasthit', 'Last hit'], ['trading', 'Trading'], ['bait', 'Bait les sorts ennemis'], ['roaming', 'Roaming']] },
+{ label: 'Wave management', items: [['wave-fond', 'Fondamentaux'], ['freeze', 'Stratégie 1 : le freeze'], ['slowpush', 'Stratégie 2 : le slow push'], ['fastpush', 'Stratégie 3 : le fast push']] },
+{ label: 'Jungle', items: [['jg-fond', 'Fondamentaux'], ['pathing', 'Chemins de jungle'], ['objectifs', 'Objectifs & priorité'], ['ganks', 'Ganks'], ['conseils', 'Conseils supplémentaires']] }
+];
+const groups = raw.map(g => {
+const has = g.items.some(([id]) => id === a);
+return { label: g.label, count: g.items.length, text: has ? '#FFFFFF' : '#C9C9DA', items: g.items.map(([id, label]) => ({ label, current: id === a ? 'page' : 'false', text: id === a ? '#FFFFFF' : '#A8A8BF', bg: id === a ? '#22223A' : 'transparent', weight: id === a ? 700 : 500 })) };
+});
+return { tools, groups };
+}
+}
+</script>
+</body>
+</html>

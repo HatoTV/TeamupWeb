@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>TeamUpp — Pied de page</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<footer style="width:100%;box-sizing:border-box;background:#0B0B15;border-top:1px solid #23233A;font-family:Barlow,system-ui,sans-serif;color:#F1F1F7">
+<div style="max-width:1280px;margin:0 auto;padding:48px 32px 28px">
+<div style="display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between">
+<div style="flex:1 1 280px;max-width:340px">
+<div style="display:flex;align-items:center;gap:10px"><img src="../assets/site_TeamUp_white.webp" alt="" style="width:30px"><span style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:22px;letter-spacing:.04em">TEAM<span style="color:#FFC93C">UPP</span></span></div>
+<p style="margin:14px 0 0;font-size:15px;color:#A8A8BF">Le hub ultime pour les joueurs compétitifs qui veulent progresser.</p>
+<div style="display:flex;gap:8px;margin-top:18px;flex-wrap:wrap">
+<sc-for list="{{socials}}" as="s" hint-placeholder-count="5">
+<a href="{{s.href}}" aria-label="{{s.name}}" style="width:44px;height:44px;border-radius:10px;background:#1A1A2C;border:1px solid #2A2A42;display:flex;align-items:center;justify-content:center;text-decoration:none;color:#F1F1F7;font:700 13px 'Barlow Condensed',sans-serif">{{s.short}}</a>
+</sc-for>
+</div>
+</div>
+<sc-for list="{{cols}}" as="c" hint-placeholder-count="3">
+<nav aria-label="{{c.title}}" style="flex:0 1 180px">
+<p style="margin:0 0 12px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:#7F7F99">{{c.title}}</p>
+<sc-for list="{{c.links}}" as="l" hint-placeholder-count="4">
+<a href="#" style="display:block;padding:5px 0;font-size:15px;color:#C9C9DA;text-decoration:none">{{l}}</a>
+</sc-for>
+</nav>
+</sc-for>
+</div>
+<div style="height:1px;background:#23233A;margin:36px 0 20px"></div>
+<div style="display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between;font-size:13px;line-height:1.6;color:#7F7F99">
+<p style="margin:0;flex:1 1 560px;max-width:96ch">Ce site n'est pas approuvé par les éditeurs ou développeurs des jeux mentionnés et ne reflète pas les opinions ou les points de vue des sociétés ou des personnes officiellement impliquées dans la production ou la gestion de ces jeux. Tous les noms de jeux, logos et marques déposées appartiennent à leurs propriétaires respectifs.</p>
+<p style="margin:0">© 2026 TeamUpp · FR / EN</p>
+</div>
+</div>
+</footer>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":320}}'>
+class Component extends DCLogic {
+renderVals() {
+return {
+socials: [
+{ name: 'Twitch', short: 'TW', href: 'https://www.twitch.tv/Hato_TV' },
+{ name: 'YouTube', short: 'YT', href: 'https://www.youtube.com/@Hato_YT' },
+{ name: 'Instagram', short: 'IG', href: 'https://www.instagram.com/callmehato/' },
+{ name: 'TikTok', short: 'TT', href: 'https://www.tiktok.com/@hato.tv' },
+{ name: 'Discord', short: 'DC', href: 'https://discord.gg/pM4Eu5quyg' }
+],
+cols: [
+{ title: 'League of Legends', links: ['Matchups', 'Picker', 'Le jeu', 'Laning', 'Wave management', 'Jungle'] },
+{ title: 'Autres jeux', links: ['Teamfight Tactics', 'Rocket League — Mécaniques'] },
+{ title: 'Informations', links: ['À propos', 'Conditions générales d\'utilisation', 'Politique de confidentialité'] }
+]
+};
+}
+}
+</script>
+</body>
+</html>

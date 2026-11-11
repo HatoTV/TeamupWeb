@@ -1,3 +1,4 @@
+import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -10,7 +11,7 @@ import { ScrollService } from '../../services/scroll.service';
 @Component({
   selector: 'app-mecanics',
   standalone: true,
-  imports: [CommonModule, TranslateModule, SafeHtmlPipe, FormsModule, ModalComponent],
+  imports: [IconComponent, CommonModule, TranslateModule, SafeHtmlPipe, FormsModule, ModalComponent],
   templateUrl: './mecanics.component.html',
   styleUrl: './mecanics.component.css',
 })

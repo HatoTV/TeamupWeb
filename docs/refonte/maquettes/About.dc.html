@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>TeamUpp — À propos</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0D0D18}
+a{color:#F1F1F7;text-decoration:none}
+.tu-soc{transition:transform .2s ease,border-color .2s ease}.tu-soc:hover{transform:translateX(4px);border-color:#4A4A6A}
+a:focus-visible{outline:2px solid #FFC93C;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.tu-soc{transition:none}.tu-soc:hover{transform:none}}
+</style>
+</helmet>
+<div style="background:#0D0D18;color:#F1F1F7;font-family:Barlow,system-ui,sans-serif;font-size:16px;line-height:1.55;min-height:100vh">
+<dc-import name="Topbar" game="about" hint-size="100%,64px"></dc-import>
+
+<header style="position:relative;height:260px;overflow:hidden;border-bottom:1px solid #23233A">
+<img src="../assets/site_bkgHome.webp" alt="" style="width:100%;height:100%;object-fit:cover">
+<div style="position:absolute;inset:0;background:linear-gradient(0deg,#0D0D18,rgba(13,13,24,.3))"></div>
+</header>
+
+<div style="max-width:1180px;margin:-110px auto 0;padding:0 32px 80px;position:relative">
+<div style="display:flex;flex-wrap:wrap;gap:24px;align-items:flex-end">
+<div style="display:flex">
+<img src="../assets/site_instagramPP_circular2.webp" alt="Avatar de Hato" style="width:150px;height:150px;border-radius:50%;border:5px solid #0D0D18;background:#0D0D18">
+<img src="../assets/site_HatoPP_circular.webp" alt="Photo de Hato" style="width:150px;height:150px;border-radius:50%;border:5px solid #0D0D18;margin-left:-40px;background:#0D0D18">
+</div>
+<div style="flex:1 1 300px;padding-bottom:10px">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:#FFC93C">Créateur de TeamUpp</p>
+<h1 style="margin:2px 0 0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-style:italic;font-size:64px;line-height:.95;text-transform:uppercase">Hato_TV</h1>
+</div>
+<a href="https://www.twitch.tv/Hato_TV" style="display:inline-flex;align-items:center;gap:10px;margin-bottom:14px;padding:10px 16px;border-radius:10px;background:#161626;border:1px solid #9146FF;font-weight:700"><span style="width:10px;height:10px;border-radius:50%;background:#FF4F6D;box-shadow:0 0 0 4px rgba(255,79,109,.25)"></span>En live sur Twitch · Rejoindre</a>
+</div>
+
+<div style="margin-top:40px;display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start">
+<article style="flex:999 1 520px;min-width:0;max-width:680px;font-size:18px;line-height:1.75;color:#D2D2E0">
+<p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34px;line-height:1.1;color:#F1F1F7">Salut ! Moi, c'est Hato, la seule personne derrière le projet TeamUpp.</p>
+<p style="margin:20px 0 0">Convaincu que l'on peut créer quelque chose d'impactant pour le monde du jeu compétitif, ainsi qu'aider chaque joueur en leur donnant les clés pour progresser, je mets toute mon énergie et mes efforts dans ce projet (même si c'est très difficile en solo).</p>
+<p style="margin:16px 0 0">Tu peux me trouver très souvent <strong style="color:#F1F1F7">en live sur Twitch</strong>, où le contenu principal est le gaming avec les viewers, la discussion et l'interaction avec eux (où bien sûr, chacun peut participer).</p>
+<p style="margin:16px 0 0">J'ai aussi monté un <strong style="color:#F1F1F7">serveur Discord</strong>, histoire qu'on puisse créer une vraie communauté, échanger et s'entraider entre passionnés.</p>
+<p style="margin:16px 0 0;padding:18px 20px;border-radius:12px;background:#161626;border:1px solid #2A2A42;color:#E2E2EE">Tes retours sont essentiels pour m'aider à y arriver. Donc si tu as des questions, des idées ou juste l'envie de partager un retour, tu peux me contacter sur les différents réseaux (surtout sur Instagram). Je serais vraiment heureux d'en discuter avec toi !</p>
+</article>
+
+<aside style="flex:1 1 340px;min-width:0;display:flex;flex-direction:column;gap:10px">
+<p style="margin:0 0 4px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:#7F7F99">Me retrouver</p>
+<sc-for list="{{socials}}" as="s" hint-placeholder-count="5">
+<a href="{{s.href}}" class="tu-soc" style="display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:12px;background:#161626;border:1px solid {{s.border}}">
+<span style="width:44px;height:44px;border-radius:10px;background:{{s.c}};display:flex;align-items:center;justify-content:center;font:700 15px 'Barlow Condensed',sans-serif;color:{{s.tc}}">{{s.short}}</span>
+<span style="flex:1;min-width:0"><span style="display:block;font-weight:700;font-size:16px">{{s.name}} <span style="font-weight:500;color:#A8A8BF">{{s.handle}}</span></span><span style="display:block;font-size:14px;color:#A8A8BF">{{s.d}}</span></span>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A8A8BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"></path></svg>
+</a>
+</sc-for>
+</aside>
+</div>
+</div>
+<dc-import name="Footer" hint-size="100%,320px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1700}}'>
+class Component extends DCLogic {
+renderVals() {
+return {
+socials: [
+{ name: 'Instagram', handle: '@callmehato', d: 'Le plus simple pour me contacter', short: 'IG', c: '#E1306C', tc: '#FFFFFF', border: '#E1306C', href: 'https://www.instagram.com/callmehato/' },
+{ name: 'Twitch', handle: '@Hato_TV', d: 'Lives gaming avec les viewers', short: 'TW', c: '#9146FF', tc: '#FFFFFF', border: '#2A2A42', href: 'https://www.twitch.tv/Hato_TV' },
+{ name: 'Discord', handle: 'Serveur TeamUpp', d: 'Échanger et s\'entraider entre passionnés', short: 'DC', c: '#5865F2', tc: '#FFFFFF', border: '#2A2A42', href: 'https://discord.gg/pM4Eu5quyg' },
+{ name: 'YouTube', handle: '@Hato_YT', d: 'Vidéos', short: 'YT', c: '#FF0033', tc: '#FFFFFF', border: '#2A2A42', href: 'https://www.youtube.com/@Hato_YT' },
+{ name: 'TikTok', handle: '@hato.tv', d: 'Clips courts', short: 'TT', c: '#F1F1F7', tc: '#0D0D18', border: '#2A2A42', href: 'https://www.tiktok.com/@hato.tv' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

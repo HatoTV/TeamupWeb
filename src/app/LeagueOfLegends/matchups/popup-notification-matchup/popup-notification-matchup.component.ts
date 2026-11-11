@@ -1,3 +1,4 @@
+import { IconComponent } from '../../../shared/ui/icon/icon.component';
 import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -7,7 +8,7 @@ import { EmailService } from '../../../services/email.service';
 @Component({
   selector: 'popup-notification-matchup',
   standalone: true,
-  imports: [CommonModule,FormsModule,TranslateModule],
+  imports: [IconComponent, CommonModule,FormsModule,TranslateModule],
   templateUrl: './popup-notification-matchup.component.html',
   styleUrl: './popup-notification-matchup.component.css'
 })

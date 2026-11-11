@@ -1,9 +1,9 @@
 <div *ngIf="showBanner" class="construction-banner isPc">
-    <i class="fas fa-exclamation-triangle"></i>
+    <app-icon name="warning" [size]="16" />
     {{ "BANEER" | translate }}
   </div>
 
   <div *ngIf="showBanner" class="construction-banner isMobile">
-    <i class="fas fa-exclamation-triangle"></i>
+    <app-icon name="warning" [size]="16" />
     {{ "BANEER_MOBILE" | translate }}
   </div>

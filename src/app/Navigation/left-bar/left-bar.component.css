@@ -28,7 +28,7 @@
   h1 {
     margin: 0; /* Enlève les marges par défaut */
     font-size: 18px; /* Taille du titre */
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-body);
     text-transform: uppercase;
     font-weight: 700; /* ExtraBold */
   }
@@ -36,14 +36,14 @@
   h2 {
     margin: 0; /* Enlève les marges par défaut */
     font-size: 16px; /* Taille du titre */
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-body);
     font-weight: 500;
   }
 
   h3 {
     margin: 0; /* Enlève les marges par défaut */
     font-size: 14px; /* Taille du titre */
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-body);
     font-weight: 400;
   }
   

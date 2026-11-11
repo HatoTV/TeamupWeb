@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>TeamUpp — Matchups de Janna</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0D0D18}
+a{color:#F1F1F7;text-decoration:none}
+.tu-pick{transition:transform .2s cubic-bezier(.2,.8,.2,1)}.tu-pick:hover{transform:translateY(-3px)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #FFC93C;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.tu-pick{transition:none}.tu-pick:hover{transform:none}}
+</style>
+</helmet>
+<div style="background:#0D0D18;color:#F1F1F7;font-family:Barlow,system-ui,sans-serif;font-size:16px;line-height:1.55;min-height:100vh">
+<dc-import name="Topbar" game="lol" hint-size="100%,64px"></dc-import>
+<div style="display:flex;flex-wrap:wrap;align-items:stretch">
+<div style="flex:1 1 272px;max-width:100%"><dc-import name="LolSidebar" active="matchups" hint-size="100%,1100px"></dc-import></div>
+<main style="flex:999 1 560px;min-width:0">
+
+<section style="position:relative;overflow:hidden;border-bottom:1px solid #23233A;min-height:400px">
+<div style="position:absolute;left:0;top:0;bottom:0;width:55%;overflow:hidden"><img src="../assets/splash_Janna.webp" alt="" style="width:100%;height:100%;object-fit:cover;object-position:30% 20%"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,13,24,.55) 0%,rgba(13,13,24,.35) 30%,#0D0D18 58%),linear-gradient(0deg,#0D0D18,rgba(13,13,24,0) 40%)"></div>
+<div style="position:absolute;right:8%;top:20%;width:380px;height:380px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,79,109,.18),rgba(255,79,109,0))"></div>
+<div style="position:relative;padding:36px 40px;display:flex;align-items:center;gap:32px;flex-wrap:wrap;justify-content:center">
+<div style="flex:1 1 320px;display:flex;flex-direction:column;align-items:center;gap:10px">
+<span style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#4FD18B">Ton champion</span>
+<img src="../assets/ic_Janna.webp" alt="Janna" style="width:132px;height:132px;border-radius:50%;border:4px solid #4FD18B;box-shadow:0 0 50px rgba(79,209,139,.45)">
+<p style="margin:0;font:700 italic 44px 'Barlow Condensed',sans-serif;line-height:1;text-transform:uppercase">Janna</p>
+<div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
+<span style="padding:4px 10px;border-radius:6px;background:rgba(13,13,24,.8);font-size:13px;font-weight:600">Support</span>
+<a href="LolBuild.dc.html" style="padding:4px 10px;border-radius:6px;background:#FFC93C;color:#141420;font-size:13px;font-weight:700">Voir son build</a>
+<button type="button" style="padding:4px 10px;border-radius:6px;border:1px solid #3A3A58;background:rgba(13,13,24,.8);color:#C9C9DA;font:600 13px Barlow,sans-serif;cursor:pointer">Changer</button>
+</div>
+</div>
+<span style="font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:700;font-size:72px;line-height:1;color:#FFC93C">VS</span>
+<div style="flex:1 1 320px;display:flex;flex-direction:column;align-items:center;gap:10px;max-width:380px">
+<span style="font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#FF7A92">Étape 2 · Champion ennemi</span>
+<span aria-hidden="true" style="width:132px;height:132px;border-radius:50%;border:3px dashed #FF4F6D;background:rgba(255,79,109,.08);box-shadow:0 0 0 10px rgba(255,79,109,.08);display:flex;align-items:center;justify-content:center;color:#FF7A92"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></span>
+<div style="position:relative;width:100%">
+<label style="display:flex;align-items:center;gap:10px;height:50px;padding:0 16px;border-radius:14px 14px 0 0;background:#161626;border:1px solid #FF4F6D"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A8A8BF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><input type="search" value="S" role="combobox" aria-expanded="true" aria-label="Champion ennemi" style="flex:1;min-width:0;border:0;background:transparent;color:#F1F1F7;font:500 16px Barlow,sans-serif"></label>
+<ul role="listbox" aria-label="Suggestions" style="list-style:none;margin:0;padding:6px;border-radius:0 0 14px 14px;background:#161626;border:1px solid #FF4F6D;border-top:0;text-align:left">
+<sc-for list="{{sugg}}" as="s" hint-placeholder-count="4">
+<li role="option" aria-selected="{{s.sel}}" style="display:flex;align-items:center;gap:10px;padding:6px 8px;border-radius:8px;background:{{s.rowbg}}"><img src="{{s.img}}" alt="" style="width:32px;height:32px;border-radius:7px"><span style="flex:1;font-weight:600">{{s.n}}</span><span style="display:inline-flex;align-items:center;gap:5px;padding:3px 8px;border-radius:6px;background:{{s.bg}};color:{{s.tc}};font-size:12px;font-weight:700"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{s.icon}}"></path></svg>{{s.d}}</span></li>
+</sc-for>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="board-t" style="padding:32px 40px 0">
+<div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:16px">
+<div><p style="margin:0;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#FF7A92">Étape 2</p><h2 id="board-t" style="margin:2px 0 0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:32px;text-transform:uppercase">Contre qui joues-tu ?</h2><p style="margin:2px 0 0;font-size:15px;color:#A8A8BF">Les adversaires de Janna, classés du pire au meilleur matchup. Clique pour voir les conseils.</p></div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;align-items:start">
+<sc-for list="{{board}}" as="col" hint-placeholder-count="5">
+<div style="border-radius:14px;background:{{col.bg}};border:1px solid {{col.border}};overflow:hidden">
+<div style="display:flex;align-items:center;gap:10px;padding:14px;background:{{col.c}};color:#120A12">
+<span style="width:30px;height:30px;border-radius:50%;background:rgba(18,10,18,.16);display:flex;align-items:center;justify-content:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#120A12" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{col.icon}}"></path></svg></span>
+<span style="flex:1;font:700 20px 'Barlow Condensed',sans-serif;text-transform:uppercase">{{col.l}}</span>
+<span style="font:700 20px 'Barlow Condensed',sans-serif">{{col.count}}</span>
+</div>
+<div style="padding:12px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px">
+<sc-for list="{{col.champs}}" as="c" hint-placeholder-count="3">
+<a href="LolMatchups.dc.html" class="tu-pick" style="display:flex;flex-direction:column;align-items:center;gap:6px;padding:8px 4px;border-radius:10px;background:rgba(13,13,24,.55)"><img src="{{c.img}}" alt="" style="width:56px;height:56px;border-radius:12px;box-shadow:0 0 0 2px {{col.c}}"><span style="font-size:13px;font-weight:600;text-align:center;line-height:1.2">{{c.n}}</span></a>
+</sc-for>
+<sc-if value="{{col.empty}}" hint-placeholder-val="{{ false }}"><p style="grid-column:span 2;margin:8px 0;font-size:13px;line-height:1.5;text-align:center;color:#A8A8BF">Aucun matchup classé ici pour l'instant.</p></sc-if>
+</div>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section style="padding:20px 40px 56px">
+<div style="display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;padding:18px 22px;border-radius:14px;background:#161626;border:1px dashed #3A3A58">
+<p style="margin:0;font-size:15px;color:#C9C9DA"><strong style="color:#F1F1F7">Ton adversaire n'est pas dans la liste ?</strong> Données manquantes ? Informez-moi pour que je puisse les mettre à jour !</p>
+<button type="button" style="min-height:44px;padding:0 16px;border:1px solid #3A3A58;border-radius:10px;background:transparent;color:#F1F1F7;font:700 15px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase;cursor:pointer">Demande de mise à jour</button>
+</div>
+</section>
+</main>
+</div>
+<dc-import name="Footer" hint-size="100%,320px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1900}}'>
+class Component extends DCLogic {
+renderVals() {
+const B = (p) => p;
+const IC = { Braum:'../assets/ic_Braum.webp',Rell:'../assets/ic_Rell.webp',Taric:'../assets/ic_Taric.webp',Leona:'../assets/ic_Leona.webp',Rakan:'../assets/ic_Rakan.webp',Yuumi:'../assets/ic_Yuumi.webp',Blitzcrank:'../assets/ic_Blitzcrank.webp',Pyke:'../assets/ic_Pyke.webp',Senna:'../assets/ic_Senna.webp',Sona:'../assets/ic_Sona.webp',Soraka:'../assets/ic_Soraka.webp',"Vel'Koz":'../assets/ic_Velkoz.webp',Xerath:'../assets/ic_Xerath.webp',Karma:'../assets/ic_Karma.webp',Nautilus:'../assets/ic_Nautilus.webp',Zyra:'../assets/ic_Zyra.webp' };
+const LV = {
+'Extrême': { c: '#FF4F6D', tc: '#FF7A92', bg: 'rgba(255,79,109,.16)', icon: 'M6 5l6 6 6-6M6 11l6 6 6-6' },
+'Difficile': { c: '#FF8B3D', tc: '#FFA066', bg: 'rgba(255,139,61,.16)', icon: 'M6 9l6 6 6-6' },
+'Moyen': { c: '#FFC93C', tc: '#FFD56B', bg: 'rgba(255,201,60,.16)', icon: 'M5 9h14M5 15h14' },
+'Facile': { c: '#4FD18B', tc: '#6FE0A2', bg: 'rgba(79,209,139,.16)', icon: 'M6 15l6-6 6 6' },
+'Très facile': { c: '#39C6D6', tc: '#5FD8E6', bg: 'rgba(57,198,214,.16)', icon: 'M6 13l6-6 6 6M6 19l6-6 6 6' }
+};
+const groups = { 'Extrême': ['Blitzcrank','Pyke','Senna','Sona','Soraka',"Vel'Koz",'Xerath'], 'Difficile': ['Karma','Nautilus','Zyra'], 'Moyen': [], 'Facile': ['Leona','Rakan','Yuumi'], 'Très facile': ['Braum','Rell','Taric'] };
+const board = Object.keys(LV).map(l => ({ l, ...LV[l], count: groups[l].length, empty: groups[l].length === 0, border: LV[l].c + '66', bg: LV[l].bg.replace('.16', '.07'), champs: groups[l].map(n => ({ n, img: B(IC[n]) })) }));
+const sugg = [['Senna','Extrême',1],['Sona','Extrême',0],['Soraka','Extrême',0]].map(([n, d, s]) => ({ n, d, img: B(IC[n]), ...LV[d], sel: s ? 'true' : 'false', rowbg: s ? '#22223A' : 'transparent' }));
+return { board, sugg };
+}
+}
+</script>
+</body>
+</html>

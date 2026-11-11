@@ -41,6 +41,7 @@ class Component extends DCLogic {
 renderVals() {
 const a = this.props.active ?? 'matchups';
 const tools = [
+{ id: 'builds', label: 'Builds & runes', href: '#builds', icon: 'M14.7 6.3a4 4 0 00-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 005.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z' },
 { id: 'matchups', label: 'Matchups', href: '#matchups', icon: 'M4 20L14 10M10 4l10 10M4 4l6 6M14 20l6-6' },
 { id: 'picker', label: 'Picker', href: '#picker', icon: 'M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z' }
 ].map(t => ({ ...t, current: t.id === a ? 'page' : 'false', text: t.id === a ? '#FFFFFF' : '#C9C9DA', bg: t.id === a ? '#22223A' : 'transparent', ring: t.id === a ? 'inset 3px 0 0 #9B7BFF' : 'none' }));

@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>TeamUpp — Build Yone Mid</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&amp;family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0D0D18}
+a{color:#F1F1F7;text-decoration:none}
+.tu-row{transition:background-color .18s ease}.tu-row:hover{background:#1E1E32}
+a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid #FFC93C;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.tu-row{transition:none}}
+</style>
+</helmet>
+<div style="background:#0D0D18;color:#F1F1F7;font-family:Barlow,system-ui,sans-serif;font-size:15px;line-height:1.5;min-height:100vh">
+<dc-import name="Topbar" game="lol" hint-size="100%,64px"></dc-import>
+<div style="display:flex;flex-wrap:wrap;align-items:stretch">
+<div style="flex:1 1 272px;max-width:100%"><dc-import name="LolSidebar" active="builds" hint-size="100%,1100px"></dc-import></div>
+<main style="flex:999 1 560px;min-width:0">
+
+<header style="position:relative;overflow:hidden;border-bottom:1px solid #23233A">
+<img src="/_blob/a377a3820eb4d7314fc2936eb90650bb" alt="" style="position:absolute;right:0;top:0;width:70%;height:100%;object-fit:cover;object-position:50% 18%">
+<div style="position:absolute;inset:0;background:linear-gradient(90deg,#0D0D18 32%,rgba(13,13,24,.75) 55%,rgba(13,13,24,.35)),linear-gradient(0deg,#0D0D18,rgba(13,13,24,0) 45%)"></div>
+<div style="position:relative;padding:32px 36px 24px;display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start">
+<div style="position:relative;flex:none">
+<img src="/_blob/cd2642bdffd9e7ec983b2071ba02f3bd" alt="Yone" style="width:112px;height:112px;border-radius:50%;border:3px solid #FFC93C">
+<span aria-label="Tier S" style="position:absolute;right:-4px;bottom:-2px;width:38px;height:38px;border-radius:10px;transform:rotate(45deg);background:#FFC93C;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 3px #0D0D18"><span style="transform:rotate(-45deg);font:700 italic 22px 'Barlow Condensed',sans-serif;color:#141420">S</span></span>
+</div>
+<div style="flex:1 1 420px;min-width:0">
+<div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">
+<h1 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-style:italic;font-size:56px;line-height:.95;text-transform:uppercase">Yone</h1>
+<span style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:26px;color:#A8A8BF;text-transform:uppercase">· Build Mid</span>
+<span style="padding:4px 10px;border-radius:6px;background:rgba(255,201,60,.16);color:#FFD56B;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase">Patch 16.22</span>
+<span style="padding:4px 10px;border-radius:6px;background:#1E1E32;color:#A8A8BF;font-size:12px;font-weight:600">Données d'exemple</span>
+</div>
+<div style="margin-top:14px;display:flex;gap:8px">
+<sc-for list="{{abilities}}" as="a" hint-placeholder-count="5">
+<span title="{{a.name}}" style="position:relative;width:44px;height:44px;border-radius:8px;overflow:hidden;border:1px solid #3A3A58"><img src="{{a.img}}" alt="{{a.name}}" style="width:100%;height:100%"><span style="position:absolute;right:0;bottom:0;padding:0 5px;border-radius:5px 0 0 0;background:#0D0D18;font:700 12px 'Barlow Condensed',sans-serif;color:{{a.c}}">{{a.k}}</span></span>
+</sc-for>
+</div>
+<p style="margin:16px 0 0;max-width:72ch;font-size:15px;line-height:1.65;color:#C9C9DA">Yone Mid a un taux de victoire de <strong style="color:#F1F1F7">50,0 %</strong> et un taux de pick de 7,3 % en Émeraude+, et se classe actuellement <strong style="color:#FFC93C">tier S</strong>. D'après l'analyse de 93 110 parties du patch 16.22, le meilleur build est Arc-bouclier immortel, Jambières du berzerker, Lame d'infini, Danse de la mort et Ange gardien. Runes les plus jouées : Tempo mortel, Absorption de vie, Légende : alacrité et Dernier rempart, avec Prolifération et Second souffle en arbre secondaire.</p>
+</div>
+<dl style="margin:0;flex:0 1 260px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px">
+<sc-for list="{{stats}}" as="s" hint-placeholder-count="4">
+<div style="padding:12px 14px;border-radius:10px;background:rgba(22,22,38,.9);border:1px solid #2A2A42"><dt style="font-size:12px;font-weight:600;color:#A8A8BF">{{s.l}}</dt><dd style="margin:2px 0 0;display:flex;align-items:baseline;gap:6px;font:700 26px 'Barlow Condensed',sans-serif">{{s.v}}<span style="font:700 12px Barlow,sans-serif;color:{{s.dc}}">{{s.d}}</span></dd></div>
+</sc-for>
+</dl>
+</div>
+<nav aria-label="Sections du champion" style="position:relative;display:flex;gap:4px;padding:0 36px;flex-wrap:wrap">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<a href="#" aria-current="{{t.cur}}" style="padding:14px 16px;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.04em;text-transform:uppercase;color:{{t.c}};border-bottom:3px solid {{t.b}}">{{t.l}}</a>
+</sc-for>
+</nav>
+</header>
+
+<div style="padding:16px 36px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;border-bottom:1px solid #23233A">
+<div role="group" aria-label="Rôle" style="display:flex;gap:3px;padding:3px;border-radius:10px;background:#161626;border:1px solid #2A2A42">
+<sc-for list="{{roles}}" as="r" hint-placeholder-count="5"><button type="button" aria-pressed="{{r.p}}" aria-label="{{r.l}}" title="{{r.l}}" style="width:42px;height:38px;border:1px solid {{r.b}};border-radius:8px;background:{{r.bg}};display:flex;align-items:center;justify-content:center;cursor:pointer"><img src="{{r.img}}" alt="" style="width:20px;height:20px;opacity:{{r.op}}"></button></sc-for>
+</div>
+<label style="display:flex;align-items:center;gap:8px;height:44px;padding:0 12px;border-radius:10px;background:#161626;border:1px solid #2A2A42"><img src="../assets/rank_emerald.webp" alt="" style="width:26px"><select aria-label="Rang" style="border:0;background:transparent;color:#F1F1F7;font:600 15px Barlow,sans-serif"><option>Émeraude +</option><option>Diamant +</option><option>Maître +</option><option>Tous les rangs</option></select></label>
+<label style="display:flex;align-items:center;height:44px;padding:0 12px;border-radius:10px;background:#161626;border:1px solid #2A2A42"><select aria-label="Région" style="border:0;background:transparent;color:#F1F1F7;font:600 15px Barlow,sans-serif"><option>Toutes les régions</option><option>EUW</option><option>KR</option><option>NA</option></select></label>
+<span style="display:flex;align-items:center;height:44px;padding:0 12px;border-radius:10px;background:#12121F;border:1px solid #23233A;color:#7F7F99;font-weight:600">Classée solo/duo</span>
+<label style="display:flex;align-items:center;height:44px;padding:0 12px;border-radius:10px;background:#161626;border:1px solid #2A2A42"><select aria-label="Patch" style="border:0;background:transparent;color:#F1F1F7;font:600 15px Barlow,sans-serif"><option>Patch 16.22</option><option>Patch 16.21</option></select></label>
+<span style="margin-left:auto;font-size:13px;color:#7F7F99">Mis à jour il y a 3 h · prochaine mise à jour automatique au prochain patch</span>
+</div>
+
+<div style="padding:20px 36px 0;display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start">
+
+<aside style="flex:1 1 280px;max-width:340px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<section aria-labelledby="builds-t" style="border-radius:14px;background:#161626;border:1px solid #2A2A42;overflow:hidden">
+<div style="display:flex;justify-content:space-between;padding:14px 16px 10px"><h2 id="builds-t" style="margin:0;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Builds recommandés</h2><span style="font-size:12px;color:#7F7F99">TV</span></div>
+<sc-for list="{{builds}}" as="b" hint-placeholder-count="3">
+<a href="#" class="tu-row" aria-current="{{b.cur}}" style="display:block;padding:12px 16px;border-top:1px solid #23233A;background:{{b.bg}};box-shadow:{{b.ring}}">
+<div style="display:flex;justify-content:space-between;align-items:center"><span style="font-weight:700;font-size:14px;color:{{b.tc}}">{{b.label}}</span><span style="font:700 18px 'Barlow Condensed',sans-serif;color:{{b.wc}}">{{b.wr}}</span></div>
+<div style="margin-top:8px;display:flex;align-items:center;gap:5px">
+<img src="{{b.key}}" alt="" style="width:28px;height:28px;border-radius:50%;background:#0D0D18">
+<span style="width:1px;height:22px;background:#2A2A42;margin:0 4px"></span>
+<sc-for list="{{b.items}}" as="i" hint-placeholder-count="3"><img src="{{i}}" alt="" style="width:30px;height:30px;border-radius:6px;border:1px solid #3A3A58"></sc-for>
+<span style="margin-left:auto;font-size:12px;color:#7F7F99">{{b.games}}</span>
+</div>
+</a>
+</sc-for>
+<p style="margin:0;padding:10px 16px 14px;border-top:1px solid #23233A;font-size:12px;line-height:1.5;color:#7F7F99">3 builds au maximum, distincts par leurs 3 premiers objets majeurs.</p>
+</section>
+
+<section aria-labelledby="players-t" style="border-radius:14px;background:#161626;border:1px solid #2A2A42;overflow:hidden">
+<div style="display:flex;justify-content:space-between;padding:14px 16px 10px"><h2 id="players-t" style="margin:0;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Meilleurs joueurs</h2><a href="#" style="font-size:13px;font-weight:700;color:#FFC93C">Tous</a></div>
+<sc-for list="{{players}}" as="p" hint-placeholder-count="3">
+<div style="display:flex;align-items:center;gap:10px;padding:10px 16px;border-top:1px solid #23233A"><img src="{{p.rank}}" alt="{{p.rl}}" style="width:32px"><span style="flex:1;min-width:0"><span style="display:block;font-weight:600">{{p.n}}</span><span style="display:block;font-size:12px;color:#7F7F99">{{p.g}}</span></span><span style="font:700 17px 'Barlow Condensed',sans-serif;color:{{p.c}}">{{p.wr}}</span></div>
+</sc-for>
+</section>
+
+<section aria-labelledby="mu-t" style="border-radius:14px;background:#161626;border:1px solid #2A2A42;overflow:hidden">
+<div style="padding:14px 16px 10px"><h2 id="mu-t" style="margin:0;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Build selon l'adversaire</h2></div>
+<sc-for list="{{vs}}" as="v" hint-placeholder-count="2">
+<a href="#" class="tu-row" style="display:flex;align-items:center;gap:10px;padding:10px 16px;border-top:1px solid #23233A"><img src="{{v.img}}" alt="" style="width:32px;height:32px;border-radius:50%"><span style="flex:1;font-weight:600">vs {{v.n}}</span><span style="font:700 17px 'Barlow Condensed',sans-serif;color:{{v.c}}">{{v.wr}}</span></a>
+</sc-for>
+<label style="display:flex;align-items:center;gap:8px;margin:10px 16px 16px;height:40px;padding:0 10px;border-radius:8px;background:#0D0D18;border:1px solid #2A2A42"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#A8A8BF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><input type="search" placeholder="Chercher un adversaire" aria-label="Chercher un adversaire" style="flex:1;min-width:0;border:0;background:transparent;color:#F1F1F7;font:500 14px Barlow,sans-serif"></label>
+</section>
+</aside>
+
+<div style="flex:999 1 620px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:16px 20px;border-radius:14px;background:#161626;border:1px solid #FFC93C">
+<div style="display:flex;align-items:center;gap:12px"><img src="/_blob/cd2642bdffd9e7ec983b2071ba02f3bd" alt="" style="width:44px;height:44px;border-radius:50%"><div><p style="margin:0;font:700 19px 'Barlow Condensed',sans-serif;text-transform:uppercase">Le plus joué · Mid</p><p style="margin:0;font-size:14px;color:#A8A8BF">Taux de victoire <strong style="color:#4FD18B">55,0 %</strong> sur 34 221 parties</p></div></div>
+<button type="button" style="display:flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border:0;border-radius:10px;background:#FFC93C;color:#141420;font:700 15px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase;cursor:pointer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"></rect><path d="M5 15V5a2 2 0 012-2h10"></path></svg>Copier le build</button>
+</div>
+
+<div style="display:flex;flex-wrap:wrap;gap:16px;align-items:stretch">
+<section aria-labelledby="runes-t" style="flex:1 1 440px;min-width:0;padding:18px 20px;border-radius:14px;background:#161626;border:1px solid #2A2A42">
+<h2 id="runes-t" style="margin:0 0 14px;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Runes</h2>
+<div style="display:flex;flex-wrap:wrap;gap:24px">
+<div style="flex:1 1 220px">
+<p style="margin:0 0 12px;display:flex;align-items:center;gap:8px;font-weight:700;color:#E8C46E"><img src="/_blob/91c41531bb3422bd06de1b7c6a59d956" alt="" style="width:24px">Précision</p>
+<sc-for list="{{primary}}" as="row" hint-placeholder-count="4">
+<div style="display:flex;justify-content:space-around;margin-bottom:12px">
+<sc-for list="{{row}}" as="r" hint-placeholder-count="3"><img src="{{r.img}}" alt="{{r.n}}" title="{{r.n}}" style="width:{{r.s}};height:{{r.s}};border-radius:50%;background:#0D0D18;opacity:{{r.op}};filter:{{r.f}};box-shadow:{{r.ring}}"></sc-for>
+</div>
+</sc-for>
+</div>
+<div style="flex:1 1 200px">
+<p style="margin:0 0 12px;display:flex;align-items:center;gap:8px;font-weight:700;color:#7FD6A0"><img src="/_blob/9cec93525a4843b209e0885e0133cd2f" alt="" style="width:24px">Volonté</p>
+<sc-for list="{{secondary}}" as="row" hint-placeholder-count="3">
+<div style="display:flex;justify-content:space-around;margin-bottom:12px">
+<sc-for list="{{row}}" as="r" hint-placeholder-count="3"><img src="{{r.img}}" alt="{{r.n}}" title="{{r.n}}" style="width:38px;height:38px;border-radius:50%;background:#0D0D18;opacity:{{r.op}};filter:{{r.f}};box-shadow:{{r.ring}}"></sc-for>
+</div>
+</sc-for>
+<div style="margin-top:6px;padding-top:12px;border-top:1px solid #23233A">
+<sc-for list="{{shards}}" as="row" hint-placeholder-count="3">
+<div style="display:flex;justify-content:space-around;margin-bottom:8px">
+<sc-for list="{{row}}" as="r" hint-placeholder-count="3"><img src="{{r.img}}" alt="{{r.n}}" title="{{r.n}}" style="width:24px;height:24px;padding:3px;border-radius:50%;background:#0D0D18;opacity:{{r.op}};box-shadow:{{r.ring}}"></sc-for>
+</div>
+</sc-for>
+</div>
+</div>
+</div>
+</section>
+
+<div style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<section aria-labelledby="spells-t" style="padding:18px 20px;border-radius:14px;background:#161626;border:1px solid #2A2A42">
+<h2 id="spells-t" style="margin:0 0 12px;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Sorts d'invocateur</h2>
+<div style="display:flex;gap:8px">
+<span style="position:relative"><img src="/_blob/84a659075d7dfeaf9f9d6e2c2dd2be15" alt="Fatigue" style="width:44px;height:44px;border-radius:8px;border:1px solid #3A3A58"><span style="position:absolute;left:3px;bottom:2px;font:700 12px 'Barlow Condensed',sans-serif">D</span></span>
+<span style="position:relative"><img src="/_blob/2d4d24916d788c768995f5995da43287" alt="Saut éclair" style="width:44px;height:44px;border-radius:8px;border:1px solid #3A3A58"><span style="position:absolute;left:3px;bottom:2px;font:700 12px 'Barlow Condensed',sans-serif">F</span></span>
+</div>
+</section>
+<section aria-labelledby="items-t" style="flex:1;padding:18px 20px;border-radius:14px;background:#161626;border:1px solid #2A2A42">
+<div style="display:flex;justify-content:space-between;margin-bottom:6px"><h2 id="items-t" style="margin:0;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Objets</h2><span style="font-size:12px;color:#7F7F99">Timing médian</span></div>
+<sc-for list="{{itemGroups}}" as="g" hint-placeholder-count="4">
+<div style="padding:10px 0;border-top:1px solid #1E1E32">
+<p style="margin:0 0 8px;font-size:13px;font-weight:600;color:#A8A8BF">{{g.t}}</p>
+<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
+<sc-for list="{{g.items}}" as="i" hint-placeholder-count="3"><span style="position:relative"><img src="{{i.img}}" alt="{{i.n}}" title="{{i.n}}" style="width:40px;height:40px;border-radius:7px;border:1px solid {{i.b}};opacity:{{i.op}}"><span style="position:absolute;right:2px;bottom:0;font:700 12px 'Barlow Condensed',sans-serif">{{i.q}}</span></span><span style="color:#4A4A6A;font-size:13px">{{i.arrow}}</span></sc-for>
+<span style="margin-left:auto;font-size:13px;font-weight:700;color:#C9C9DA">{{g.time}}</span>
+</div>
+</div>
+</sc-for>
+</section>
+</div>
+</div>
+
+<section aria-labelledby="skills-t" style="padding:18px 20px;border-radius:14px;background:#161626;border:1px solid #2A2A42;overflow-x:auto">
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;flex-wrap:wrap"><h2 id="skills-t" style="margin:0;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Ordre des compétences</h2><span style="font-size:14px;color:#A8A8BF">Max : <strong style="color:#FFC93C">Q</strong> → <strong style="color:#4FD18B">E</strong> → <strong style="color:#36A3FF">W</strong></span></div>
+<div style="min-width:760px">
+<div style="display:grid;grid-template-columns:44px repeat(18,minmax(0,1fr));gap:4px;margin-bottom:4px"><span></span><sc-for list="{{levels}}" as="l" hint-placeholder-count="18"><span style="text-align:center;font-size:12px;font-weight:600;color:#7F7F99">{{l}}</span></sc-for></div>
+<sc-for list="{{skillRows}}" as="s" hint-placeholder-count="4">
+<div style="display:grid;grid-template-columns:44px repeat(18,minmax(0,1fr));gap:4px;margin-bottom:4px;align-items:center">
+<img src="{{s.img}}" alt="{{s.k}}" style="width:32px;height:32px;border-radius:6px">
+<sc-for list="{{s.cells}}" as="c" hint-placeholder-count="18"><span style="height:30px;border-radius:5px;display:flex;align-items:center;justify-content:center;font:700 14px 'Barlow Condensed',sans-serif;background:{{c.bg}};color:{{c.c}}">{{c.t}}</span></sc-for>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section aria-labelledby="situ-t" style="padding:18px 20px;border-radius:14px;background:#161626;border:1px solid #2A2A42">
+<h2 id="situ-t" style="margin:0 0 12px;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">Objets situationnels</h2>
+<div role="tablist" aria-label="Objets situationnels" style="display:flex;gap:8px;flex-wrap:wrap">
+<sc-for list="{{situ}}" as="s" hint-placeholder-count="6"><button type="button" role="tab" aria-selected="{{s.sel}}" title="{{s.n}}" style="padding:0;border:2px solid {{s.b}};border-radius:9px;background:transparent;cursor:pointer;opacity:{{s.op}}"><img src="{{s.img}}" alt="{{s.n}}" style="display:block;width:44px;height:44px;border-radius:7px"></button></sc-for>
+</div>
+<div style="margin-top:14px;padding-top:14px;border-top:1px solid #23233A">
+<p style="margin:0;font:700 22px 'Barlow Condensed',sans-serif;text-transform:uppercase">Salutations de Dominik</p>
+<p style="margin:2px 0 0;font-size:14px;color:#A8A8BF">Alternative au 4e objet : <strong style="color:#FFC93C">Danse de la mort</strong> · TV 56,8 % sur 2 140 parties</p>
+<p style="margin:8px 0 0;max-width:70ch;font-size:15px;line-height:1.6;color:#D2D2E0">Achetée surtout contre les compositions avec un ou plusieurs tanks très résistants en armure. <span style="color:#7F7F99">(Texte rédigé par TeamUpp ; les chiffres viennent des données.)</span></p>
+</div>
+</section>
+</div>
+</div>
+
+<section aria-label="Matchups" style="padding:16px 36px 56px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px">
+<sc-for list="{{mus}}" as="m" hint-placeholder-count="3">
+<div style="border-radius:14px;background:#161626;border:1px solid #2A2A42;overflow:hidden">
+<div style="padding:14px 16px;border-bottom:1px solid #23233A;box-shadow:inset 0 3px 0 {{m.c}}"><h2 style="margin:0;font:700 17px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase">{{m.t}}</h2></div>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:14px">
+<sc-for list="{{m.rows}}" as="r" hint-placeholder-count="6"><a href="#" class="tu-row" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:8px 4px;border-radius:10px"><img src="{{r.img}}" alt="" style="width:44px;height:44px;border-radius:10px"><span style="font-size:13px;font-weight:600;text-align:center;line-height:1.2">{{r.n}}</span><span style="font:700 16px 'Barlow Condensed',sans-serif;color:{{m.c}}">{{r.wr}}</span></a></sc-for>
+</div>
+</div>
+</sc-for>
+<a href="#matchups" style="display:flex;flex-direction:column;justify-content:center;gap:8px;padding:22px;border-radius:14px;background:linear-gradient(135deg,rgba(155,123,255,.18),#161626 60%);border:1px solid #9B7BFF">
+<span style="font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#C3B0FF">Exclusif TeamUpp</span>
+<span style="font:700 24px 'Barlow Condensed',sans-serif;text-transform:uppercase;line-height:1.05">Conseils de matchup rédigés par des joueurs Challenger</span>
+<span style="font-size:14px;color:#C9C9DA">Ouvre Yone dans l'outil Matchups pour lire comment jouer chaque lane.</span>
+</a>
+</section>
+</main>
+</div>
+<dc-import name="Footer" hint-size="100%,320px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3000}}'>
+class Component extends DCLogic {
+renderVals() {
+const B = (p) => p;
+const R = {
+8005:'19a8c70b2a64fade804745ec4b49a942',8008:'7ab828a11fb36a8376f5c9481aca63e6',8021:'b7a43eef19fc4cb0ba3dcf387022829f',8010:'1633257bfba4dc3de0ab3ac8982985e7',
+9101:'35778b9fd1b5aaf35d7c9f035373957a',9111:'512fae1e883d96ab52f6e001eb3efc93',8009:'46a1bfd8a57cb71aed6a5723921444dd',
+9104:'c72651bf07d0a58d43c5e9fd537a582b',9105:'77bb0f81e8c4168d91b4e6205f688f89',9103:'3f0f1a9adb9cd744cda8f042be582122',
+8014:'148cfebfbd792e1485397f37a05ce952',8017:'ff26dccc8913eecd4b38258de1557ab1',8299:'56e1423d7ff3390bf25f4e311b150d01',
+8446:'8940203eaf04f51b18f537d20076ffc1',8463:'1a443aa0c0b63f697a567db41f5dcf86',8401:'9e08deaec9ac73f97f7128027cb9e1e0',
+8429:'157f9880c0ed5c24c52ce2209b60219b',8444:'57ab9366ca328913718ea3ce81483344',8473:'c9031f9a779003e35781beba6c5af443',
+8451:'9c68b1b50520ecef953264da762ee702',8453:'1ff7dec2ed36cd38a2c58d0d3201dd76',8242:'cb73fd6c70f4f169bcc150497e4eb808',
+5008:'efc851e914f9bf91c5e0023bf026b127',5005:'fdd92443a63a720fff1ae7ce2e6fe13f',5007:'cb55c648a4a3bb5a1a8f69eed6090d8a',5010:'106c94f17be7da85198bcec802b834a6',5001:'a7aa0895540c8069d8937710d370bced',5011:'666671532ca4486281b594b07f0e4d3e',5013:'f1fc34c80def6440b030753ae86faf36'
+};
+const N = { 8005:'Attaque soutenue',8008:'Tempo mortel',8021:'Jeu de jambes',8010:'Conquérant',9101:'Absorption de vie',9111:'Triomphe',8009:'Présence d\'esprit',9104:'Légende : alacrité',9105:'Légende : hâte',9103:'Légende : lignée',8014:'Coup de grâce',8017:'Abattage',8299:'Dernier rempart',8446:'Démolition',8463:'Source de vie',8401:'Coup de bouclier',8429:'Conditionnement',8444:'Second souffle',8473:'Plaques osseuses',8451:'Prolifération',8453:'Revitalisation',8242:'Inébranlable',5008:'Force adaptative',5005:'Vitesse d\'attaque',5007:'Accélération de compétence',5010:'Vitesse de déplacement',5001:'PV (croissants)',5011:'PV',5013:'Ténacité et résistance aux ralentissements' };
+const rune = (id, on, big, ring) => ({ img: B(R[id]), n: N[id], s: big ? '50px' : '38px', op: on ? 1 : 0.32, f: on ? 'none' : 'grayscale(1)', ring: on ? '0 0 0 2px ' + ring : 'none' });
+const IT = {1001:'9f617bd9e2d091328f3415a4a58efc4a',1042:'87fd02dc8e036f78b6149add4e956f95',1086:'e4a8d7706d513a980943187d249efa75',2003:'a14cf5c265d658d11a8179d860ed6b09',3006:'75e2b5772480974c27c331e1bf2ea699',3026:'4df6084d03ac9c5e78c19a76c7cb4f69',3031:'7e7c28aea3f529f52133d8a0664b13c0',3033:'2cac537144a11946ff2c7009b3d0c976',3036:'633ae23ece5a95561f8f17fe0af2b682',3072:'74820be572caac7dd37924a3e5e6d2da',3091:'e88dfee9d0d49ea69dff9ad675712d06',3095:'a7ee42869db1275a00e7a78855c3241f',3139:'8247fa7b29f66051a2a2823906f912f4',3153:'253e45b49ba8a7e0bfef57018642aebe',3340:'decbc80e0edffb2363651d1ecef7a8c4',6333:'7c9c3f0a09ebb68f67b6e193132c6ef7',6665:'b13510cd4ee5037087cb5d6cd0b30007',6673:'f8c9d787ef961678382107b9cfac7eb0'};
+const IN = {1001:'Bottes',1042:'Dague',1086:'Arc de Doran',2003:'Potion de soin',3006:'Jambières du berzerker',3026:'Ange gardien',3031:'Lame d\'infini',3033:'Rappel mortel',3036:'Salutations de Dominik',3072:'Soif-de-sang',3091:'Au bout du rouleau',3095:'Lame tempête',3139:'Cimeterre mercuriel',3153:'Lame du roi déchu',3340:'Balise camouflée',6333:'Danse de la mort',6665:'Jak\'Sho, le Protéiforme',6673:'Arc-bouclier immortel'};
+const item = (id, q, last, dim) => ({ img: B(IT[id]), n: IN[id], q: q || '', arrow: last ? '' : '›', b: dim ? '#2A2A42' : '#3A3A58', op: dim ? 0.55 : 1 });
+const IC = {Vex:'1709c3a493569d76a5abc1931b9f3387',Annie:'2a66ae38ed77116ba705b3aa5ae05bae',Pantheon:'816c5b9f1b5eedc2daca38436f87c166',Katarina:'dd64a3179a9a34087ec0f337436afc8b',Vladimir:'3696583aa2ddba73ca412dfecce4cf6d',Ekko:'064bbb4fc9684a0d3bb048404e3b9707',Naafiri:'4dc8a841f6408b3570641f341aafd5c1','Aurelion Sol':'c9fef57f0bad1f6b0f7d062551b35dc0',Azir:'ad68b6911812b5fdd6e37dd1cf1689e4',Mel:'ae6d0faf9e21d1d2565ff96be8136d83',Ryze:'44c7a6b896b3791e6ebdcc4d61b2c1b0',Yasuo:'70f8de02247edd0db1024ce45a51b004',"Rek'Sai":'8ca88230833bb98522f87d161aaf4f6c',Darius:'3e21521a4da2937a8c7b14488790b40c',Sion:'450d2eed2b42857a6e32743b68c3a48b',Rammus:'0738a1c9c5add3801888d8c5256de46a',Jax:'a7475150410f479b201bc9a2be3dc6bc',Sejuani:'af68cd9d7854128ecf3102f4b3b78653',Ahri:'../assets/ic_Ahri.webp'};
+const mrows = (s) => s.split(';').map(x => { const [n, wr] = x.split(':'); return { n, wr, img: B(IC[n]) }; });
+const order = ['Q','W','E','Q','Q','R','Q','E','Q','E','R','E','E','W','W','R','W','W'];
+const SK = { Q: ['ce716ac27d746562d25f1e2e10cbbe12', '#FFC93C'], W: ['5137730bd82d533c76fd7349bc043382', '#36A3FF'], E: ['d75778731bcf41a46ab0c72a42c501ae', '#4FD18B'], R: ['7918db716477420e02cc3af7fe17ae68', '#FF5C9E'] };
+const roleIc = { Top: '../assets/site_top.webp', Jungle: '../assets/site_jungle.webp', Mid: '../assets/site_mid.webp', ADC: '../assets/site_adc.webp', Support: '../assets/site_support.webp' };
+return {
+abilities: [['P','Voie du chasseur','8ba511982d1348de5ff84146acad7475','#C9C9DA'],['Q','Acier mortel',SK.Q[0],SK.Q[1]],['W','Fendoir spirituel',SK.W[0],SK.W[1]],['E','Libération spirituelle',SK.E[0],SK.E[1]],['R','Destin scellé',SK.R[0],SK.R[1]]].map(([k,name,id,c]) => ({ k, name, img: B(id), c })),
+stats: [['Taux de victoire','50,0 %','▼ 0,4','#FF7A92'],['Taux de pick','7,3 %','▲ 0,6','#6FE0A2'],['Taux de ban','14,5 %','▲ 1,1','#6FE0A2'],['Parties','93 110','','#7F7F99']].map(([l,v,d,dc]) => ({ l, v, d, dc })),
+tabs: [['Build',1],['Counters',0],['Guide TeamUpp',0],['Matchups (conseils)',0]].map(([l,a]) => ({ l, cur: a ? 'page' : 'false', c: a ? '#FFC93C' : '#A8A8BF', b: a ? '#FFC93C' : 'transparent' })),
+roles: ['Top','Jungle','Mid','ADC','Support'].map(l => ({ l, img: B(roleIc[l]), p: l === 'Mid' ? 'true' : 'false', b: l === 'Mid' ? '#FFC93C' : 'transparent', bg: l === 'Mid' ? '#22223A' : 'transparent', op: l === 'Mid' ? 1 : 0.5 })),
+builds: [
+{ label: 'Le plus joué', wr: '55,0 %', games: '34 221 parties', key: B(R[8008]), items: [6673,3006,3031], sel: 1 },
+{ label: '2e plus joué', wr: '50,1 %', games: '12 870 parties', key: B(R[8008]), items: [3153,3006,3031], sel: 0 },
+{ label: 'Alternative', wr: '56,3 %', games: '4 512 parties', key: B(R[8021]), items: [3095,3006,3031], sel: 0 }
+].map(b => ({ ...b, items: b.items.map(i => B(IT[i])), cur: b.sel ? 'true' : 'false', bg: b.sel ? '#1E1E32' : 'transparent', ring: b.sel ? 'inset 3px 0 0 #FFC93C' : 'none', tc: b.sel ? '#FFC93C' : '#F1F1F7', wc: '#6FE0A2' })),
+players: [['Pseudo1#EUW','../assets/rank_challenger.webp','Challenger','66,7 %','48 parties · EUW','#6FE0A2'],['Pseudo2#KR1','../assets/rank_grandmaster.webp','Grand Maître','61,2 %','67 parties · KR','#6FE0A2'],['Pseudo3#NA1','../assets/rank_master.webp','Maître','57,7 %','52 parties · NA','#6FE0A2']].map(([n,id,rl,wr,g,c]) => ({ n, rank: B(id), rl, wr, g, c })),
+vs: [['Yasuo','59,1 %','#6FE0A2'],['Ahri','50,2 %','#C9C9DA']].map(([n,wr,c]) => ({ n, wr, c, img: B(IC[n]) })),
+primary: [
+[8005,8008,8021,8010].map(id => rune(id, id === 8008, true, '#E8C46E')),
+[9101,9111,8009].map(id => rune(id, id === 9101, false, '#E8C46E')),
+[9104,9105,9103].map(id => rune(id, id === 9104, false, '#E8C46E')),
+[8014,8017,8299].map(id => rune(id, id === 8299, false, '#E8C46E'))
+],
+secondary: [
+[8446,8463,8401].map(id => rune(id, false, false, '#7FD6A0')),
+[8429,8444,8473].map(id => rune(id, id === 8444, false, '#7FD6A0')),
+[8451,8453,8242].map(id => rune(id, id === 8451, false, '#7FD6A0'))
+],
+shards: [[5008,5005,5007,5005],[5008,5010,5001,5008],[5011,5013,5001,5001]].map(([a,b,c,sel]) => [a,b,c].map(id => ({ img: B(R[id]), n: N[id], op: id === sel ? 1 : 0.3, ring: id === sel ? '0 0 0 2px #FFC93C' : 'none' }))),
+itemGroups: [
+{ t: 'Objets de départ', time: '0:12', items: [item(1086,'',0),item(2003,'',0),item(3340,'',1)] },
+{ t: 'Premiers achats', time: '3:00', items: [item(1042,'2',0),item(1001,'',1)] },
+{ t: 'Objets principaux', time: '20:00', items: [item(6673,'',0),item(3006,'',0),item(3031,'',1)] },
+{ t: 'Build complet', time: '', items: [item(6673,'',0,1),item(3006,'',0,1),item(3031,'',0,1),item(6333,'',0),item(3026,'',0),item(3072,'',1)] }
+],
+levels: Array.from({ length: 18 }, (_, i) => i + 1),
+skillRows: ['Q','W','E','R'].map(k => ({ k, img: B(SK[k][0]), cells: order.map(o => o === k ? { t: k, bg: SK[k][1], c: '#0D0D18' } : { t: '', bg: '#1A1A2C', c: '#1A1A2C' }) })),
+situ: [3036,3091,3033,3153,3139,6665].map((id, i) => ({ img: B(IT[id]), n: IN[id], sel: i === 0 ? 'true' : 'false', b: i === 0 ? '#FFC93C' : 'transparent', op: i === 0 ? 1 : 0.6 })),
+mus: [
+{ t: 'Faible contre', c: '#FF7A92', rows: mrows('Vex:44,5 %;Annie:45,6 %;Pantheon:45,8 %;Katarina:46,0 %;Vladimir:46,2 %;Ekko:46,5 %') },
+{ t: 'Fort contre', c: '#6FE0A2', rows: mrows('Naafiri:59,2 %;Aurelion Sol:58,4 %;Azir:55,6 %;Mel:54,4 %;Ryze:53,9 %;Yasuo:53,2 %') },
+{ t: 'Meilleure synergie (duo)', c: '#FFD56B', rows: mrows("Rek'Sai:57,2 %;Darius:55,8 %;Sion:55,1 %;Rammus:55,1 %;Jax:54,2 %;Sejuani:54,1 %") }
+]
+};
+}
+}
+</script>
+</body>
+</html>

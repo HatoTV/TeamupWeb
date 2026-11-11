@@ -75,7 +75,9 @@ export class GuideLayoutComponent {
   private readonly article = viewChild.required<ElementRef<HTMLElement>>('article');
   private readonly activeSection = inject(ActiveSectionService);
   private readonly zone = inject(NgZone);
-  private observer: IntersectionObserver | null = null;
+  private ids: string[] = [];
+  /** A section becomes active once its heading passes under the sticky top bar. */
+  private static readonly ACTIVATION_OFFSET = 120;
 
   constructor() {
     const isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
@@ -87,7 +89,8 @@ export class GuideLayoutComponent {
     });
 
     effect(() => {
-      const id = this.activeId();
+      // The sidebar highlights chapters (its entries), not sub-sections.
+      const id = this.chapters().length ? this.activeChapter() : this.activeId();
       untracked(() => this.activeSection.id.set(id));
     });
 
@@ -96,30 +99,13 @@ export class GuideLayoutComponent {
       this.zone.runOutsideAngular(() => window.addEventListener('scroll', onScroll, { passive: true }));
       destroyRef.onDestroy(() => {
         window.removeEventListener('scroll', onScroll);
-        this.observer?.disconnect();
         this.activeSection.id.set(null);
       });
     }
   }
 
   private observe(ids: string[]): void {
-    this.observer?.disconnect();
-    const visible = new Set<string>();
-    this.observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) visible.add(entry.target.id);
-          else visible.delete(entry.target.id);
-        }
-        const first = ids.find((id) => visible.has(id));
-        if (first) this.zone.run(() => this.activeId.set(first));
-      },
-      { rootMargin: '-80px 0px -60% 0px' }
-    );
-    for (const id of ids) {
-      const el = document.getElementById(id);
-      if (el) this.observer.observe(el);
-    }
+    this.ids = ids;
     this.updateProgress();
   }
 
@@ -128,6 +114,18 @@ export class GuideLayoutComponent {
     const scrollable = rect.height - window.innerHeight;
     const value = scrollable > 0 ? Math.min(1, Math.max(0, -rect.top / scrollable)) : 1;
     const percent = Math.round(value * 100);
-    if (percent !== this.progress()) this.zone.run(() => this.progress.set(percent));
+
+    let active: string | null = this.ids[0] ?? null;
+    for (const id of this.ids) {
+      const el = document.getElementById(id);
+      if (el && el.getBoundingClientRect().top <= GuideLayoutComponent.ACTIVATION_OFFSET) active = id;
+    }
+
+    if (percent !== this.progress() || active !== this.activeId()) {
+      this.zone.run(() => {
+        this.progress.set(percent);
+        this.activeId.set(active);
+      });
+    }
   }
 }

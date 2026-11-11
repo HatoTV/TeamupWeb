@@ -4,7 +4,7 @@
 
 .guide {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 40px;
   padding: 36px 40px 64px;
@@ -218,6 +218,7 @@
 
 @media (max-width: 1099px) {
   .guide__aside {
+    order: -1;
     position: static;
     max-width: none;
   }

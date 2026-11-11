@@ -632,5 +632,19 @@
     "SORTED": "Trié par nom · {{count}} champions",
     "FILTERS": "Filtres",
     "DRAW_EMPTY": "Aucun champion ne correspond aux filtres : élargis ta sélection."
+  },
+  "GUIDES": {
+    "CHAPTERS_TAG": "{{count}} chapitres",
+    "READING_TAG": "≈ {{minutes}} min de lecture",
+    "VIDEO_FALLBACK": "Votre navigateur ne supporte pas la lecture de vidéos.",
+    "CREDITS": "Crédits : {{source}}",
+    "ALT": {
+      "MINION_TYPES": "Les types de sbires : mêlée, distance, canon et super sbire",
+      "MINION_SPAWN": "Cycle d'apparition des waves de sbires",
+      "LANE_FREEZE": "Position d'une wave en freeze devant la tour",
+      "VIDEO_FREEZE": "Démonstration d'un freeze en jeu",
+      "VIDEO_SLOWPUSH": "Démonstration d'un slow push en jeu",
+      "VIDEO_FASTPUSH": "Démonstration d'un fast push en jeu"
+    }
   }
 }

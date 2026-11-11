@@ -21,7 +21,7 @@ const CONFIG: Record<CalloutVariant, { labelKey: string; icon: IconName }> = {
   template: `
     <app-icon class="callout__icon" [name]="config().icon" [size]="22" />
     <div class="callout__body">
-      <strong class="callout__label">{{ config().labelKey | translate }}</strong>
+      <strong class="callout__label">{{ label() || (config().labelKey | translate) }}</strong>
       <ng-content />
     </div>
   `,
@@ -65,5 +65,7 @@ const CONFIG: Record<CalloutVariant, { labelKey: string; icon: IconName }> = {
 })
 export class CalloutComponent {
   readonly variant = input<CalloutVariant>('remember');
+  /** Overrides the default label (already translated, e.g. "Important :"). */
+  readonly label = input('');
   protected readonly config = computed(() => CONFIG[this.variant()]);
 }

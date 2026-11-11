@@ -1,356 +1,185 @@
-<div class="content scrollbar-lol" #scrollContainer>
-  <div class="bkgContent"></div>
-  <img class="imgBkg" src="assets/img/bkgContent_Wavemanagement.jpg" />
-  <div class="title">
-    <h1 class="paddingTextMobile">{{ "LOL.WAVEMANAGEMENT.TITLE0" | translate }}</h1>
-    <h2 class="paddingTextMobile">{{ "LOL.WAVEMANAGEMENT.SUBTITLE0" | translate }}</h2>
-  </div>
-  <div class="divContentEmpty" ></div>
-  <div class="divContent">
-     
-    <h3 style="padding-top: 0 !important" [id]="'Fondamentals'">
-      {{ "LOL.LEFTBAR.FONDAMENTALS" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <h5>{{ "LOL.WAVEMANAGEMENT.TITLE1" | translate }}</h5>
-    <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT1' | translate | safeHtml"></h4>
-    <br /><br />
-    <h5>
-      {{ "LOL.WAVEMANAGEMENT.TITLE2" | translate }}
-    </h5>
-    <div>
-      <h6>{{ "LOL.WAVEMANAGEMENT.CONTENT2.INTRO1" | translate }}</h6>
-      <br /><br />
-      <div class="divList">
-        <li>
-          <h6
-            [innerHtml]="
-              'LOL.WAVEMANAGEMENT.CONTENT2.LIST1' | translate | safeHtml
-            "
-          ></h6>
+<app-guide-page [config]="config">
+  <!-- Chapter 1: fundamentals -->
+  <section class="chapter-block" aria-labelledby="Fondamentals">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 1 } }}</p>
+    <h2 id="Fondamentals">{{ 'LOL.LEFTBAR.FONDAMENTALS' | translate }}</h2>
+
+    <h3 id="wm-definition">{{ 'LOL.WAVEMANAGEMENT.TITLE1' | translate }}</h3>
+    @for (line of 'LOL.WAVEMANAGEMENT.CONTENT1' | translate | lines; track $index; let first = $first) {
+      @if (first) {
+        <p [innerHTML]="line | safeHtml"></p>
+      } @else {
+        <app-callout variant="remember"><span [innerHTML]="line | safeHtml"></span></app-callout>
+      }
+    }
+
+    <h3 id="wm-spawn">{{ 'LOL.WAVEMANAGEMENT.TITLE2' | translate }}</h3>
+    <p>{{ 'LOL.WAVEMANAGEMENT.CONTENT2.INTRO1' | translate }}</p>
+    <figure>
+      <img src="assets/img/site/wavemanagement_MinionsTypes.webp" [alt]="'GUIDES.ALT.MINION_TYPES' | translate" width="900" height="308" loading="lazy" />
+    </figure>
+    <ul class="cards">
+      @for (key of waveTypes; track key) {
+        @let item = key | translate | lead;
+        <li class="info-card">
+          <p class="info-card__title">{{ item.label }}</p>
+          <p class="info-card__text" [innerHTML]="item.body | safeHtml"></p>
         </li>
-        <li>
-          <h6
-            [innerHtml]="
-              'LOL.WAVEMANAGEMENT.CONTENT2.LIST2' | translate | safeHtml
-            "
-          ></h6>
+      }
+    </ul>
+
+    <p class="spaced" [innerHTML]="'LOL.WAVEMANAGEMENT.CONTENT2.INTRO2' | translate | safeHtml"></p>
+    <ol class="timeline">
+      @for (key of cycle; track key) {
+        @let row = key | translate | lead;
+        @let seq = row.body | sequence;
+        <li class="timeline__row">
+          <span class="timeline__when">{{ row.label }}</span>
+          @if (seq.length) {
+            <ol class="timeline__seq">
+              @for (wave of seq; track $index) {
+                <li class="timeline__chip" [attr.data-kind]="waveKind(wave)">{{ wave }}</li>
+              }
+            </ol>
+          } @else {
+            <span class="timeline__note" [innerHTML]="row.body | safeHtml"></span>
+          }
         </li>
-        <li>
-          <h6
-            [innerHtml]="
-              'LOL.WAVEMANAGEMENT.CONTENT2.LIST3' | translate | safeHtml
-            "
-          ></h6>
-        </li>
+      }
+    </ol>
+    <figure>
+      <img src="assets/img/wavemanagement_MinionsSpawn.webp" [alt]="'GUIDES.ALT.MINION_SPAWN' | translate" loading="lazy" />
+    </figure>
+    @let bonus = 'LOL.WAVEMANAGEMENT.CONTENT2.INTRO3' | translate | lead;
+    <app-callout variant="bonus"><span [innerHTML]="bonus.body | safeHtml"></span></app-callout>
+
+    <h3 id="wm-back">{{ 'LOL.WAVEMANAGEMENT.TITLE4' | translate }}</h3>
+    <p [innerHTML]="'LOL.WAVEMANAGEMENT.CONTENT4.INTRO' | translate | safeHtml"></p>
+    <ul class="bullets">
+      @for (key of backTips; track key) {
+        <li [innerHTML]="key | translate | safeHtml"></li>
+      }
+    </ul>
+  </section>
+
+  <!-- Chapter 2: freeze -->
+  <section class="chapter-block" aria-labelledby="Freeze">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 2 } }}</p>
+    <h2 id="Freeze">{{ 'LOL.WAVEMANAGEMENT.TITLE5' | translate }}</h2>
+
+    <h3 id="freeze-what">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE5' | translate }}</h3>
+    <div class="media-text">
+      <figure>
+        <video controls muted loop playsinline preload="metadata" [attr.aria-label]="'GUIDES.ALT.VIDEO_FREEZE' | translate">
+          <source src="assets/lolVideos/freeze.mp4" type="video/mp4" />
+          {{ 'GUIDES.VIDEO_FALLBACK' | translate }}
+        </video>
+      </figure>
+      <div>
+        @for (p of 'LOL.WAVEMANAGEMENT.CONTENT5' | translate | paragraphs; track $index) {
+          <p [innerHTML]="p | safeHtml"></p>
+        }
       </div>
     </div>
-    <img
-      class="imgMinionsTypes"
-      src="assets/img/wavemanagement_MinionsTypes.webp"
+
+    <h3 id="freeze-how">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE6' | translate }}</h3>
+    <app-step-list
+      [steps]="[
+        freezeSteps[0] | translate,
+        freezeSteps[1] | translate,
+        freezeSteps[2] | translate,
+        freezeSteps[3] | translate
+      ]"
     />
-    <div style="margin-top: 40px">
-      <h6>{{ "LOL.WAVEMANAGEMENT.CONTENT2.INTRO2" | translate }}</h6>
-      <br />
-      <div class="divList">
-        <li>
-          <h6
-            [innerHtml]="
-              'LOL.WAVEMANAGEMENT.CONTENT2.LIST5' | translate | safeHtml
-            "
-          ></h6>
-        </li>
-        <li>
-          <h6
-            [innerHtml]="
-              'LOL.WAVEMANAGEMENT.CONTENT2.LIST6' | translate | safeHtml
-            "
-          ></h6>
-        </li>
-        <li>
-          <h6
-            [innerHtml]="
-              'LOL.WAVEMANAGEMENT.CONTENT2.LIST7' | translate | safeHtml
-            "
-          ></h6>
-        </li>
-        <li>
-          <h6
-            [innerHtml]="
-              'LOL.WAVEMANAGEMENT.CONTENT2.LIST8' | translate | safeHtml
-            "
-          ></h6>
-        </li>
+    <figure>
+      <img src="assets/img/laneFreeze.jpg" [alt]="'GUIDES.ALT.LANE_FREEZE' | translate" loading="lazy" />
+      <figcaption>
+        <span [innerHTML]="'LOL.WAVEMANAGEMENT.CONTENT6.LIST5' | translate | safeHtml"></span>
+        <br />{{ 'GUIDES.CREDITS' | translate: { source: 'Mobalytics' } }}
+      </figcaption>
+    </figure>
+
+    <h3 id="freeze-when">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE7' | translate }}</h3>
+    <ul class="bullets">
+      @for (key of freezeWhen; track key) {
+        <li [innerHTML]="key | translate | safeHtml"></li>
+      }
+    </ul>
+
+    <h3 id="freeze-proscons">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE8' | translate }}</h3>
+    @let proscons = 'LOL.WAVEMANAGEMENT.CONTENT8' | translate | paragraphs;
+    <app-pros-cons [pros]="proscons[0] | lines" [cons]="proscons[1] | lines" />
+  </section>
+
+  <!-- Chapter 3: slow push -->
+  <section class="chapter-block" aria-labelledby="SlowPush">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 3 } }}</p>
+    <h2 id="SlowPush">{{ 'LOL.WAVEMANAGEMENT.TITLE9' | translate }}</h2>
+
+    <h3 id="slowpush-what">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE9' | translate }}</h3>
+    <div class="media-text">
+      <figure>
+        <video controls muted loop playsinline preload="metadata" [attr.aria-label]="'GUIDES.ALT.VIDEO_SLOWPUSH' | translate">
+          <source src="assets/lolVideos/slowPush.mp4" type="video/mp4" />
+          {{ 'GUIDES.VIDEO_FALLBACK' | translate }}
+        </video>
+      </figure>
+      <div>
+        @for (p of 'LOL.WAVEMANAGEMENT.CONTENT9' | translate | paragraphs; track $index) {
+          <p [innerHTML]="p | safeHtml"></p>
+        }
       </div>
     </div>
-    <div class="divSpawn">
-      <img class="imgSpawn" src="assets/img/wavemanagement_MinionsSpawn.webp" />
-    </div>
-    <h4
-      style="margin-top: 40px"
-      [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT2.INTRO3' | translate | safeHtml"
-    ></h4>
-    <br /><br />
-    <h5>{{ "LOL.WAVEMANAGEMENT.TITLE4" | translate }}</h5>
-    <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.INTRO' | translate | safeHtml"></h4>
-    <br />
-    <div class="divList">
-      <li style="padding-bottom: 20px;">
-        <h6
-          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST1' | translate | safeHtml"
-        ></h6>
-      </li>
-      <li style="padding-bottom: 20px;">
-        <h6
-          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST2' | translate | safeHtml "
-        ></h6>
-      </li>
-      <li style="padding-bottom: 20px;">
-        <h6
-          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST3' | translate | safeHtml"
-        ></h6>
-      </li>
-      <li style="padding-bottom: 20px;">
-        <h6
-          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST4' | translate | safeHtml"
-        ></h6>
-      </li>
-      <li style="padding-bottom: 20px;">
-        <h6
-          [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT4.LIST5' | translate | safeHtml"
-        ></h6>
-      </li>
-    </div>
 
+    <h3 id="slowpush-how">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE10' | translate }}</h3>
+    <p>{{ 'LOL.WAVEMANAGEMENT.CONTENT10' | translate }}</p>
 
+    <h3 id="slowpush-when">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE11' | translate }}</h3>
+    <ul class="bullets">
+      @for (key of slowPushWhen; track key) {
+        <li [innerHTML]="key | translate | safeHtml"></li>
+      }
+    </ul>
+  </section>
 
+  <!-- Chapter 4: fast push -->
+  <section class="chapter-block" aria-labelledby="FastPush">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 4 } }}</p>
+    <h2 id="FastPush">{{ 'LOL.WAVEMANAGEMENT.TITLE12' | translate }}</h2>
 
-
-
-    <br /><br />
-    <h3 [id]="'Freeze'">
-      {{ "LOL.WAVEMANAGEMENT.TITLE5" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE5" | translate }}</h5>
-    <div class="minionsSpawnTip">
-      <video class="imgFreeze" autoplay loop muted playsinline>
-        <source src="assets/lolVideos/freeze.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la lecture de vidéos.
-      </video>
-      <h4
-        [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT5' | translate | safeHtml"
-      ></h4>
-    </div>
-    <br /><br />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE6" | translate }}</h5>
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT6.LIST1' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT6.LIST2' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT6.LIST3' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT6.LIST4' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-    </div>
-    <div class="divFreezeWithTxt">
-      <div class="divFreezeImg">
-        <img class="imgFreeze2" src="assets/img/laneFreeze.jpg" />
-        <span class="credits">Crédits : Mobalytics</span>
+    <h3 id="fastpush-what">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE12' | translate }}</h3>
+    <div class="media-text">
+      <figure>
+        <video controls muted loop playsinline preload="metadata" [attr.aria-label]="'GUIDES.ALT.VIDEO_FASTPUSH' | translate">
+          <source src="assets/lolVideos/fastPush.mp4" type="video/mp4" />
+          {{ 'GUIDES.VIDEO_FALLBACK' | translate }}
+        </video>
+      </figure>
+      <div>
+        <p [innerHTML]="'LOL.WAVEMANAGEMENT.CONTENT12' | translate | safeHtml"></p>
       </div>
-      <h6 class="contentFreeze" [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT6.LIST5' | translate | safeHtml"></h6>
     </div>
-    <br /><br /><br />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE7" | translate }}</h5>
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT7.LIST1' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT7.LIST2' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT7.LIST3' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-    </div>
-    <br /><br /><br />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE8" | translate }}</h5>
-    <h4 [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT8' | translate | safeHtml"></h4>
-    <br /><br />
-    <h3 [id]="'SlowPush'">
-      {{ "LOL.WAVEMANAGEMENT.TITLE9" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE9" | translate }}</h5>
-    <div class="minionsSpawnTip">
-      <video class="imgFreeze" autoplay loop muted playsinline>
-        <source src="assets/lolVideos/slowPush.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la lecture de vidéos.
-      </video>
-      <h4
-        [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT9' | translate | safeHtml"
-      ></h4>
-    </div>
-    <br />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE10" | translate }}</h5>
-    <h4>{{ "LOL.WAVEMANAGEMENT.CONTENT10" | translate }}</h4>
-    <br /><br />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE11" | translate }}</h5>
 
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT11.LIST1' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT11.LIST2' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT11.LIST3' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-    </div>
-    <br /><br />
-    <h3 [id]="'FastPush'">
-      {{ "LOL.WAVEMANAGEMENT.TITLE12" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE12" | translate }}</h5>
-    <div class="minionsSpawnTip">
-      <video class="imgFreeze" autoplay loop muted playsinline>
-        <source src="assets/lolVideos/fastPush.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la lecture de vidéos.
-      </video>
-      <h4
-        [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT12' | translate | safeHtml"
-      ></h4>
-    </div>
-    <br />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE13" | translate }}</h5>
-    <br />
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT13.LIST1' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT13.LIST2' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT13.LIST3' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT13.LIST4' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-    </div>
-    <br /><br />
-    <h5>{{ "LOL.WAVEMANAGEMENT.SUBTITLE14" | translate }}</h5>
-    <br />
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT14.LIST1' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT14.LIST2' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT14.LIST3' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="
-            'LOL.WAVEMANAGEMENT.CONTENT14.LIST4' | translate | safeHtml
-          "
-        ></h6>
-      </li>
-    </div>
-    <br /><br />
-    <h4
-      [innerHtml]="'LOL.WAVEMANAGEMENT.CONTENT15' | translate | safeHtml"
-    ></h4>
-    <br><br><br><br>
-  </div>
-</div>
+    <h3 id="fastpush-how">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE13' | translate }}</h3>
+    <app-step-list
+      [steps]="[
+        fastPushSteps[0] | translate,
+        fastPushSteps[1] | translate,
+        fastPushSteps[2] | translate,
+        fastPushSteps[3] | translate
+      ]"
+    />
+
+    <h3 id="fastpush-when">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE14' | translate }}</h3>
+    <ul class="bullets">
+      @for (key of fastPushWhen; track key) {
+        <li [innerHTML]="key | translate | safeHtml"></li>
+      }
+    </ul>
+
+    @let important = 'LOL.WAVEMANAGEMENT.CONTENT15' | translate | lead;
+    <app-callout variant="tip" [label]="important.rawLabel">
+      <span [innerHTML]="important.body | safeHtml"></span>
+    </app-callout>
+  </section>
+</app-guide-page>

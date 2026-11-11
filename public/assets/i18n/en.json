@@ -574,5 +574,19 @@
     "SORTED": "Sorted by name · {{count}} champions",
     "FILTERS": "Filters",
     "DRAW_EMPTY": "No champion matches these filters: widen your selection."
+  },
+  "GUIDES": {
+    "CHAPTERS_TAG": "{{count}} chapters",
+    "READING_TAG": "≈ {{minutes}} min read",
+    "VIDEO_FALLBACK": "Your browser does not support video playback.",
+    "CREDITS": "Credits: {{source}}",
+    "ALT": {
+      "MINION_TYPES": "Minion types: melee, caster, cannon and super minion",
+      "MINION_SPAWN": "Minion wave spawn cycle",
+      "LANE_FREEZE": "Position of a frozen wave in front of the turret",
+      "VIDEO_FREEZE": "In-game freeze demonstration",
+      "VIDEO_SLOWPUSH": "In-game slow push demonstration",
+      "VIDEO_FASTPUSH": "In-game fast push demonstration"
+    }
   }
 }

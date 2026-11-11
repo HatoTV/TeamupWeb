@@ -279,8 +279,45 @@
   min-width: 0;
 }
 
-.report {
-  padding: 20px;
+.report[open] .report__chevron {
+  transform: rotate(180deg);
+}
+
+.report__summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: var(--touch-target);
+  padding: 12px 20px;
+  border-radius: var(--radius-card);
+  color: var(--color-text-secondary);
+  font: 700 18px var(--font-display);
+  text-transform: uppercase;
+  list-style: none;
+  cursor: pointer;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &:hover {
+    color: var(--color-text);
+  }
+}
+
+.report__chevron {
+  transition: transform var(--duration-color) ease;
+}
+
+.report__body {
+  padding: 0 20px 20px;
+}
+
+.report__intro {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: var(--color-text-muted);
 }
 
 // ---------- Lists ----------
@@ -378,7 +415,8 @@
 
 @media (prefers-reduced-motion: reduce) {
   .row,
-  .pickers__swap {
+  .pickers__swap,
+  .report__chevron {
     transition: none;
   }
 }

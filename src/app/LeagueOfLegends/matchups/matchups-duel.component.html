@@ -133,9 +133,16 @@
     </section>
 
     <aside class="side">
-      <section class="card report" aria-labelledby="report-title">
-        <app-matchup-report [champion1]="me().champion" [champion2]="vs().champion" [hasTips]="!!matchup()" />
-      </section>
+      <details class="card report">
+        <summary class="report__summary">
+          <span class="report__summary-title">{{ 'UPDATEREQUEST' | translate }}</span>
+          <app-icon class="report__chevron" name="chevron-down" [size]="18" />
+        </summary>
+        <div class="report__body">
+          <p class="report__intro">{{ 'REPORTBUTTON' | translate }}</p>
+          <app-matchup-report [bare]="true" [champion1]="me().champion" [champion2]="vs().champion" [hasTips]="!!matchup()" />
+        </div>
+      </details>
     </aside>
   </div>
 

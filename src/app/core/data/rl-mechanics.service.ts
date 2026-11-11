@@ -53,8 +53,6 @@ export class RlMechanicsService {
   }
 
   private toMechanic(row: MechanicRow): Mechanic {
-    // "assets/img/rocketLeague/minia_ceilingshot.png" -> "assets/img/rl/ceilingshot.webp"
-    const thumb = /minia_([a-z0-9]+)\./i.exec(row.img)?.[1];
     return {
       slug: slugify(row.name),
       name: row.name,
@@ -62,7 +60,7 @@ export class RlMechanicsService {
       author: row.author,
       difficulty: row.difficulty,
       utility: row.utility,
-      thumbnail: thumb ? `assets/img/rl/${thumb}.webp` : row.img,
+      thumbnail: row.img,
       video: `assets/rlVideos/${row.video}`,
       stepsKey: row.etapes,
       explanationKey: row.explication,

@@ -18,8 +18,8 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const IMG_DIR = join(ROOT, 'public', 'assets', 'img');
 const OUT_DIR = join(IMG_DIR, 'opt');
 const MANIFEST = join(ROOT, 'src', 'app', 'core', 'images', 'image-manifest.ts');
-/** Folders replaced by Data Dragon / optimised copies, not served by the redesign. */
-const SKIP_DIRS = new Set(['opt', 'championsIcons', 'championsLoadingscreen', 'rocketLeague', 'champions']);
+/** Output folder and folders already optimised (local champion icons). */
+const SKIP_DIRS = new Set(['opt', 'championsLoadingscreen', 'champions']);
 /** Small UI icons: a single 96 px variant. */
 const ICON_DIRS = new Set(['icons', 'ranks', 'brand']);
 const LARGE_WIDTHS = [640, 1024, 1600];

@@ -1,263 +1,242 @@
-<div class="content scrollbar-lol">
-  <div class="bkgContent"></div>
-  <img [ngClass]="{ 'fade-out-img': !isFirstSearch, 'fade-in-img': isFirstSearch }" class="imgBkg"
-    src="assets/img/matchup_bkg.jpeg" />
-  <div [ngClass]="{ 'fade-out-img': isFirstSearch, 'fade-in-img': !isFirstSearch }" class="fade-img">
-    <img [src]="imgBkg1" class="imgBkg1" [ngClass]="{ visible: showImage1 }" />
-    <img [src]="imgBkg2" class="imgBkg2" [ngClass]="{ visible: showImage2 }" />
+<section class="hero" [class.hero--empty]="!ally() && !enemy()">
+  <div class="hero__arts" aria-hidden="true">
+    @if (ally() || enemy()) {
+      <div class="hero__art">
+        @if (ally(); as a) {
+          <img [src]="ctxSplash(a)" alt="" fetchpriority="high" />
+        }
+      </div>
+      <div class="hero__art">
+        @if (enemy(); as e) {
+          <img [src]="ctxSplash(e)" alt="" />
+        }
+      </div>
+    } @else {
+      <img class="hero__fallback" src="assets/img/site/matchup_bkg.webp" alt="" fetchpriority="high" />
+    }
   </div>
-  <div [ngClass]="{ 'fade-out': !isVisible, 'fade-in': isVisible }" class="title" id="titleMatchup">
-    <!-- <h1 class="paddingTextMobile">{{ "LOL.MATCHUPS.INTRO1" | translate }}</h1> -->
-    <!-- <h2 class="paddingTextMobile">{{ "LOL.MATCHUPS.INTRO2" | translate }}</h2> -->
-    
-    <img class="logoGame" src="assets/img/lol_logo.png" />
-  </div>
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__divider" aria-hidden="true"></div>
 
-  <div class="divSearches">
-    <!-- Première recherche -->
-    <div class="dropdown dropdownChampions">
-      <div class="input-group divChoice">
-        <!-- Barre de recherche avec image + texte -->
-        <img *ngIf="selectedChampion[0].name!==''" [src]="
-            'assets/img/championsIcons/' + selectedChampion[0].icon + '.png'
-          " alt="{{ selectedChampion[0].name }}" class="iconSelectedChampions iconInsideInput" />
-        <div style="position: relative;width: 100%;">
-          <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.YOURCHAMPION' | translate"
-            [(ngModel)]="searchTerm" (input)="filterChampions()" [ngClass]="{'inputWithIcon': selectedChampion[0].name !== ''}"  />
-          <span class="search-icon">
-            <app-icon name="search" [size]="16" />
-          </span>
-        </div>
-      </div>
-      <!-- Dropdown list -->
-      <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm && searchTerm!==selectedChampion[0].name">
-        <div *ngIf="filteredChampions.length == 0 && !selectedChampion">
-          {{ "LOL.MATCHUPS.NOCHAMPION" | translate }}
-        </div>
-        <li *ngFor="let champion of filteredChampions" class="championLine">
-          <a class="dropdown-item txtChampion" (click)="selectChampion(champion)">
-            <img [src]="'assets/img/championsIcons/' + champion.icon + '.png'" alt="{{ champion.name }}"
-              class="iconChampions" />
-            {{ champion.name }}
-          </a>
-        </li>
-      </ul>
-    </div>
+  <div class="hero__body">
+    @if (matchup() && ally() && enemy()) {
+      <p class="hero__eyebrow">{{ 'LOL.MATCHUPS.INTRO1' | translate }}</p>
+    } @else {
+      <h1 class="hero__eyebrow">{{ 'LOL.MATCHUPS.INTRO1' | translate }}</h1>
+    }
+    <p class="hero__lead">{{ 'LOL.MATCHUPS.INTRO2' | translate }}</p>
 
-    <div class="clickableVS" (click)="ReverseSelectedChampion()">
-      <div class="arrow-container">
-        <div class="arrow-left"></div>
+    <div class="pickers">
+      <app-champion-combobox
+        side="ally"
+        [label]="'LOL.MATCHUPS.YOURCHAMPION' | translate"
+        [placeholder]="'MATCHUPSPAGE.SEARCH_PLACEHOLDER' | translate"
+        [options]="options()"
+        [selected]="ally()"
+        (selectedChange)="select('champion', $event)"
+      />
+      <div class="pickers__vs">
+        <span class="pickers__vs-text" aria-hidden="true">VS</span>
+        <button
+          type="button"
+          class="pickers__swap"
+          [attr.aria-label]="'LOL.MATCHUPS.REVERSE' | translate"
+          [title]="'LOL.MATCHUPS.REVERSE' | translate"
+          [disabled]="!ally() && !enemy()"
+          (click)="reverse()"
+        >
+          <app-icon name="swap" [size]="18" />
+        </button>
       </div>
-      <h1 class="txtVS">VS</h1>
-      <div class="arrow-container">
-        <div class="arrow-right"></div>
-      </div>
-    </div>
-
-    <!-- Deuxième recherche -->
-    <div class="dropdown dropdownChampions">
-      <div class="input-group divChoice">
-        <img *ngIf="selectedChampion2[0].name!==''" [src]="
-            'assets/img/championsIcons/' + selectedChampion2[0].icon + '.png'
-          " alt="{{ selectedChampion2[0].name }}" class="iconSelectedChampions iconInsideInput" />
-        <div style="position: relative;width: 100%;">
-          <input type="text" class="form-control inputSearch" [placeholder]="'LOL.MATCHUPS.ENEMYCHAMPION' | translate"
-            [(ngModel)]="searchTerm2" (input)="filterChampions2()" [ngClass]="{'inputWithIcon': selectedChampion2[0].name !== ''}" />
-          <span class="search-icon">
-            <app-icon name="search" [size]="16" />
-          </span>
-        </div>
-      </div>
-      <ul class="list-unstyled scrollable-menu" *ngIf="searchTerm2 && searchTerm2!==selectedChampion2[0].name">
-        <div *ngIf="filteredChampions2.length == 0 && !selectedChampion2">
-          {{ "LOL.MATCHUPS.NOCHAMPION" | translate }}
-        </div>
-        <li *ngFor="let champion of filteredChampions2" class="championLine">
-          <a class="dropdown-item txtChampion" (click)="selectChampion2(champion)">
-            <img [src]="'assets/img/championsIcons/' + champion.icon + '.png'" alt="{{ champion.name }}"
-              class="iconChampions" />
-            {{ champion.name }}
-          </a>
-        </li>
-      </ul>
+      <app-champion-combobox
+        side="enemy"
+        [label]="'LOL.MATCHUPS.ENEMYCHAMPION' | translate"
+        [placeholder]="'MATCHUPSPAGE.SEARCH_PLACEHOLDER' | translate"
+        [options]="options()"
+        [selected]="enemy()"
+        (selectedChange)="select('enemy', $event)"
+      />
     </div>
   </div>
-  <div [ngClass]="{ 'fade-out-content': isVisible, 'fade-in-content': !isVisible }" class="fade-content">
-    <div *ngIf="!isFirstSearch && selectedChampion && selectedChampion2" class="divTips">
-      <div class="divTitleMatchup divContent" >
-        <span *ngIf="isMatchupReady" class="txtDifficulty"
-          [ngStyle]="styleByDifficulty(filteredMatchup[0].difficulty.toLowerCase(),true)">{{
-          "LOL.MATCHUPS.DIFFICULTIES." + filteredMatchup[0].difficulty
-          | translate
-          }}</span>
-        <div style="display:flex;">
-          <h3>{{ selectedChampion[0].name }}</h3>
-          <h3 style="color: var(--lol-light-color)">&nbsp;VS&nbsp;</h3>
-          <h3>{{ selectedChampion2[0].name }}</h3>
-        </div>
-      </div>
-      <div class="contentMatchup divContent">
-        <pre *ngIf="isMatchupReady" class="txtContentMatchup">{{
-          filteredMatchup[0].tips
-        }}</pre>
-        <span *ngIf="!isMatchupReady" class="txtContentMatchup">{{
-          "LOL.MATCHUPS.NOMATCHUP" | translate
-          }}</span>
-          <div *ngIf="!isMatchupReady">
-            <button (click)="openEmailPopup()" class="btnReport">{{
-              "REPORTBUTTON" | translate
-              }}</button>
-          </div>
-        <div *ngIf="isMatchupReady" class="divAuthor">
-          <span class="authorMatchup">{{ author }}&nbsp;</span>
-          <span class="rankMatchup">({{ rank }})</span>
-        </div>
-      </div>
-      <span (click)="openEmailPopup()" class="txtReport" *ngIf="isMatchupReady">{{
-        "REPORTBUTTON" | translate
-        }}</span>
-      <div class="divPicks">
-        <div class="left">
-          <div style="margin-right: 2vw;" class="contentPick">
-            <div style="display: flex;background-color: var(--lol-counter-title);align-items: center;">
-              <div
-                style="width: 8px;height: 30px;background-color: var(--lol-difficulty-tresfacile);margin-left: 10px;">
-              </div>
-              <div class="titleCounter">
-                {{ "LOL.MATCHUPS.WORSTPICKAGAINST" | translate }}&nbsp;{{
-                selectedChampion[0].name
-                }}
-              </div>
-            </div>
-            <div class="divCountersContent">
-              <div *ngFor="let champion of worstPicksForChampion" class="divCountersChampions">
-                <img [src]="
-                      'assets/img/championsIcons/' +
-                      getValidChampionName(champion.championName2) +
-                      '.png'
-                    " alt="{{ champion.championName2 }}" class="iconChampions" />
-                <div>
-                  <div class="championCounterName">
-                    {{ champion.championName2 }}
-                  </div>
-                  <div class="championCounterDifficulty"
-                    [ngStyle]="styleByDifficulty(champion.difficulty.toLowerCase(),false)">
-                    {{
-                    "LOL.MATCHUPS.DIFFICULTIES." + champion.difficulty
-                    | translate
-                    }}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="contentPick">
-            <div style="display: flex;background-color: var(--lol-counter-title);align-items: center;">
-              <div style="width: 8px;height: 30px;background-color: var(--lol-difficulty-extreme);margin-left: 10px;">
-              </div>
-              <div class="titleCounter">
-                {{ "LOL.MATCHUPS.BESTPICKAGAINST" | translate }}&nbsp;{{
-                selectedChampion[0].name
-                }}
-              </div>
-            </div>
-            <div class="divCountersContent">
-              <div *ngFor="let champion of bestPicksForChampion" class="divCountersChampions">
-                <img [src]="
-                      'assets/img/championsIcons/' +
-                      getValidChampionName(champion.championName2) +
-                      '.png'
-                    " alt="{{ champion.championName2 }}" class="iconChampions" />
-                <div>
-                  <div class="championCounterName">
-                    {{ champion.championName2 }}
-                  </div>
-                  <div class="championCounterDifficulty"
-                    [ngStyle]="styleByDifficulty(champion.difficulty.toLowerCase(),false)">
-                    {{
-                    "LOL.MATCHUPS.DIFFICULTIES." + champion.difficulty
-                    | translate
-                    }}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+</section>
 
-        <div class="right">
-          <div style="margin-right: 2vw;" class="contentPick">
-            <div style="display: flex;background-color: var(--lol-counter-title);align-items: center;">
-              <div
-                style="width: 8px;height: 30px;background-color: var(--lol-difficulty-tresfacile);margin-left: 10px;">
-              </div>
-              <div class="titleCounter">
-                {{ "LOL.MATCHUPS.WORSTPICKAGAINST" | translate }}&nbsp;{{
-                selectedChampion2[0].name
-                }}</div>
+<div class="content">
+  @if (!ally() || !enemy()) {
+    <p class="prompt" role="status">
+      @if (!ally() && !enemy()) {
+        {{ 'MATCHUPSPAGE.PROMPT' | translate }}
+      } @else if (ally()) {
+        {{ 'MATCHUPSPAGE.PROMPT_ENEMY' | translate }}
+      } @else {
+        {{ 'MATCHUPSPAGE.PROMPT_ALLY' | translate }}
+      }
+    </p>
+  } @else {
+    <div class="board">
+      <section class="tips card" aria-labelledby="matchup-title" aria-live="polite" [attr.aria-busy]="loading()">
+        <header class="tips__head">
+          @if (matchup()) {
+            <h1 id="matchup-title" class="tips__title">
+              {{ ally()!.champion.name }} <span class="tips__vs">vs</span> {{ enemy()!.champion.name }}
+            </h1>
+            <div class="tips__difficulty">
+              <span class="tips__difficulty-label">{{ 'LOL.MATCHUPS.DIFFICULTY' | translate }}</span>
+              <app-meter
+                [value]="matchup()!.level"
+                [label]="'LOL.MATCHUPS.DIFFICULTY' | translate"
+                [style.--meter-color]="'var(--diff-' + matchup()!.level + ')'"
+                [style.--meter-segment]="'18px'"
+              />
+              <app-difficulty-badge class="tips__badge" [level]="matchup()!.level" />
             </div>
-            <div class="divCountersContent">
-              <div *ngFor="let champion of worstPicksForChampion2" class="divCountersChampions">
-                <img [src]="
-                        'assets/img/championsIcons/' +
-                        getValidChampionName(champion.championName2) +
-                        '.png'
-                      " alt="{{ champion.championName2 }}" class="iconChampions" />
+          } @else {
+            <h2 id="matchup-title" class="tips__title">
+              {{ ally()!.champion.name }} <span class="tips__vs">vs</span> {{ enemy()!.champion.name }}
+            </h2>
+          }
+        </header>
+
+        @if (loading()) {
+          <p class="tips__state">{{ 'MATCHUPSPAGE.LOADING' | translate }}</p>
+        } @else if (tips()) {
+          @if (tips()!.englishFallback) {
+            <p class="tips__lang">
+              <span class="tips__lang-badge" aria-hidden="true">{{ 'MATCHUPSPAGE.EN_BADGE' | translate }}</span>
+              {{ 'MATCHUPSPAGE.EN_BADGE_LABEL' | translate }}
+            </p>
+          }
+          <ol class="tips__list" [attr.lang]="tips()!.lang">
+            @for (line of tips()!.lines; track $index; let i = $index) {
+              <li class="tips__item">
+                <span class="tips__n" aria-hidden="true">{{ i + 1 }}</span>
+                <p class="tips__text">{{ line }}</p>
+              </li>
+            }
+          </ol>
+        } @else {
+          <div class="tips__state tips__state--empty">
+            <p class="tips__empty-title">{{ 'LOL.MATCHUPS.NOMATCHUP' | translate }}</p>
+            <p>{{ 'MATCHUPSPAGE.NO_DATA_HINT' | translate }}</p>
+          </div>
+        }
+
+        @if (author() || guideUrl()) {
+          <footer class="tips__foot">
+            @if (author(); as a) {
+              <div class="author">
+                @if (a.rank) {
+                  <img class="author__rank" [src]="'assets/img/ranks/' + a.rank + '.webp'" alt="" width="44" height="34" />
+                }
                 <div>
-                  <div class="championCounterName">
-                    {{ champion.championName2 }}
-                  </div>
-                  <div class="championCounterDifficulty"
-                    [ngStyle]="styleByDifficulty(champion.difficulty.toLowerCase(),false)">
-                    {{
-                    "LOL.MATCHUPS.DIFFICULTIES." + champion.difficulty
-                    | translate
-                    }}
-                  </div>
+                  <p class="author__name">{{ a.name }}</p>
+                  <p class="author__role">
+                    @if (a.rank) {
+                      {{ 'MATCHUPSPAGE.AUTHOR_ROLE' | translate: { rank: ('HOMEPAGE.RANKS.' + a.rank.toUpperCase() | translate) } }}
+                    } @else {
+                      {{ 'MATCHUPSPAGE.AUTHOR_ROLE_UNKNOWN' | translate }}
+                    }
+                  </p>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="contentPick">
-            <div style="display: flex;background-color: var(--lol-counter-title);align-items: center;">
-              <div style="width: 8px;height: 30px;background-color: var(--lol-difficulty-extreme);margin-left: 10px;">
+            }
+            @if (guideUrl(); as url) {
+              <a class="btn btn--secondary btn--sm guide-link" [href]="url" target="_blank" rel="noopener noreferrer">
+                {{ 'MATCHUPSPAGE.READ_GUIDE' | translate: { name: ally()!.champion.name } }}
+                <app-icon name="arrow-up-right" [size]="14" />
+                <span class="sr-only">{{ 'UI.EXTERNAL' | translate }}</span>
+              </a>
+            }
+          </footer>
+        }
+      </section>
+
+      <aside class="side">
+        <section class="card report" aria-labelledby="report-title">
+          <h2 id="report-title" class="card__title">{{ 'UPDATEREQUEST' | translate }}</h2>
+          <p class="report__intro">{{ 'REPORTBUTTON' | translate }}</p>
+
+          @if (sendState() === 'sent') {
+            <p class="report__ok" role="status"><app-icon name="check" [size]="18" /> {{ 'MESSAGEOK' | translate }}</p>
+          } @else {
+            <form (ngSubmit)="sendRequest()">
+              <fieldset class="report__types">
+                <legend class="sr-only">{{ 'MATCHUPSPAGE.TYPE_LEGEND' | translate }}</legend>
+                <label class="report__type" [class.is-checked]="requestType() === 'wrong_data'">
+                  <input type="radio" name="requestType" value="wrong_data" [ngModel]="requestType()" (ngModelChange)="requestType.set($event)" />
+                  {{ 'LOL.MATCHUPS.FALSEDATAMATCHUP' | translate }}
+                </label>
+                <label class="report__type" [class.is-checked]="requestType() === 'no_data'">
+                  <input type="radio" name="requestType" value="no_data" [ngModel]="requestType()" (ngModelChange)="requestType.set($event)" />
+                  {{ 'LOL.MATCHUPS.NODATAMATCHUP' | translate }}
+                </label>
+              </fieldset>
+              <label class="report__label" for="report-message">{{ 'LOL.MATCHUPS.MESSAGEPLACEHOLDER' | translate }}</label>
+              <textarea
+                id="report-message"
+                class="report__message"
+                name="message"
+                rows="3"
+                maxlength="1000"
+                [ngModel]="message()"
+                (ngModelChange)="message.set($event)"
+              ></textarea>
+              <div class="honeypot" aria-hidden="true">
+                <label for="report-website">{{ 'HONEYPOT_LABEL' | translate }}</label>
+                <input id="report-website" type="text" name="website" tabindex="-1" autocomplete="off" [ngModel]="website()" (ngModelChange)="website.set($event)" />
               </div>
-              <div class="titleCounter">
-                {{ "LOL.MATCHUPS.BESTPICKAGAINST" | translate }}&nbsp;{{
-                selectedChampion2[0].name
-                }}
-              </div>
-            </div>
-            <div class="divCountersContent">
-              <div *ngFor="let champion of bestPicksForChampion2" class="divCountersChampions">
-                <img [src]="
-                        'assets/img/championsIcons/' +
-                        getValidChampionName(champion.championName2) +
-                        '.png'
-                      " alt="{{ champion.championName2 }}" class="iconChampions" />
-                <div>
-                  <div class="championCounterName">
-                    {{ champion.championName2 }}
-                  </div>
-                  <div class="championCounterDifficulty"
-                    [ngStyle]="styleByDifficulty(champion.difficulty.toLowerCase(),false)">
-                    {{
-                    "LOL.MATCHUPS.DIFFICULTIES." + champion.difficulty
-                    | translate
-                    }}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+              @if (sendState() === 'error') {
+                <p class="report__error" role="alert">{{ 'MESSAGEERROR' | translate }}</p>
+              }
+              <button type="submit" class="btn btn--primary report__send" [disabled]="sendState() === 'sending'">
+                {{ 'SENDMESSAGE' | translate }}
+              </button>
+            </form>
+          }
+        </section>
+
+        <section class="card scale" aria-labelledby="scale-title">
+          <h2 id="scale-title" class="card__title">{{ 'MATCHUPSPAGE.SCALE_TITLE' | translate }}</h2>
+          <ul class="scale__list">
+            @for (level of levels; track level) {
+              <li class="scale__item"><span class="scale__swatch" [style.background]="'var(--diff-' + level + ')'"></span>{{ 'UI.DIFFICULTY.' + level | translate }}</li>
+            }
+          </ul>
+        </section>
+      </aside>
     </div>
+  }
 
-    <popup-notification-matchup *ngIf="isEmailPopupOpen" 
-                 [allChampions]="champions" 
-                 [selectedChampion]="selectedChampion" 
-                 [selectedChampion2]="selectedChampion2" 
-                 [searchTerm]="searchTerm" 
-                 [searchTerm2]="searchTerm2" 
-                 (close)="isEmailPopupOpen = false"></popup-notification-matchup>
+  @if (lists().length) {
+    <section class="lists" [attr.aria-label]="'MATCHUPSPAGE.LISTS_LABEL' | translate">
+      @for (list of lists(); track list.id) {
+        <div class="list card" [class.list--counters]="list.kind === 'counters'">
+          <h2 class="list__head">
+            <img [src]="list.owner.icon" alt="" width="30" height="30" />
+            {{ (list.kind === 'counters' ? 'LOL.MATCHUPS.BESTPICKAGAINST' : 'LOL.MATCHUPS.WORSTPICKAGAINST') | translate }}
+            {{ list.owner.champion.name }}
+          </h2>
+          <ul class="list__rows">
+            @for (row of list.rows; track row.name) {
+              <li>
+                <a
+                  class="list__row"
+                  [routerLink]="[]"
+                  [queryParams]="row.queryParams"
+                  [attr.aria-label]="'MATCHUPSPAGE.LOAD_MATCHUP' | translate: { a: list.owner.champion.name, b: row.name }"
+                >
+                  @if (row.icon) {
+                    <img [src]="row.icon" alt="" width="36" height="36" loading="lazy" />
+                  }
+                  <span class="list__name">{{ row.name }}</span>
+                  <app-difficulty-badge [level]="row.level" />
+                </a>
+              </li>
+            } @empty {
+              <li class="list__empty">{{ 'MATCHUPSPAGE.LIST_EMPTY' | translate }}</li>
+            }
+          </ul>
+        </div>
+      }
+    </section>
+  }
+</div>

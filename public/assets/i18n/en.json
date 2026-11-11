@@ -9,35 +9,34 @@
   "HONEYPOT_LABEL": "Leave this field empty",
   "LOL": {
     "LEFTBAR": {
-      "FONDAMENTALS" : "Fundamentals",
+      "FONDAMENTALS": "Fundamentals",
       "MECANICS": "Mechanics",
-      "LANING" : {
-        "BAIT" : "'Bait' the spells"
+      "LANING": {
+        "BAIT": "'Bait' the spells"
       },
-      "JUNGLE" : {
-        "PATHING" : "Jungle Paths",
-        "OBJECTIVES" : "Objectives & Invades"
+      "JUNGLE": {
+        "PATHING": "Jungle Paths",
+        "OBJECTIVES": "Objectives & Invades"
       },
-      "INTRODUCTION" : "Introduction"
+      "INTRODUCTION": "Introduction"
     },
-    
     "MATCHUPS": {
-      "INTRO1" : "MASTER EVERY MATCHUP",
-      "INTRO2" : "Strategies and tips for your clashes!",
-      "YOURCHAMPION" : "Your Champion",
-      "ENEMYCHAMPION" : "Enemy Champion",
-      "DIFFICULTY" : "Difficulty",
-      "TIPS" : "Tips",
+      "INTRO1": "MASTER EVERY MATCHUP",
+      "INTRO2": "Strategies and tips for your clashes!",
+      "YOURCHAMPION": "Your Champion",
+      "ENEMYCHAMPION": "Enemy Champion",
+      "DIFFICULTY": "Difficulty",
+      "TIPS": "Tips",
       "NOMATCHUP": "No data found.",
-      "NOCHAMPION" : "No champion found.",
-      "DIFFICULTIES" : {
-        "Extreme" : "Extreme",
-        "Major" : "Hard",
-        "Even" : "Medium",
-        "Minor" : "Easy",
-        "Tiny" : "Very Easy"
+      "NOCHAMPION": "No champion found.",
+      "DIFFICULTIES": {
+        "Extreme": "Extreme",
+        "Major": "Hard",
+        "Even": "Medium",
+        "Minor": "Easy",
+        "Tiny": "Very Easy"
       },
-      "REVERSE" : "Reverse Selection" ,
+      "REVERSE": "Reverse Selection",
       "BESTPICKAGAINST": "Counters of",
       "WORSTPICKAGAINST": "Favorable for",
       "NODATAMATCHUP": "No data",
@@ -267,8 +266,19 @@
       "CONTENT7": "Killing the Rift Herald drops the Herald's Eye at the entrance of the pit for 20 seconds. It can be picked up by a team member and is used to re-summon it. Once summoned, it can be used to push down a lane. Near a tower, it charges and dashes into the tower, dealing massive damage. It is also possible to ride the Herald to charge directly in a direction.<br><br>The Herald only appears once per game and disappears at 19:45, or at 19:55 if it is in combat. Baron Nashor appears in its place at 20:00.",
       "SUBTITLE8": "Void Rifts",
       "CONTENT8": "Killing a Void Rift grants gold and experience to all team members, as well as the 'Void Touch' buff. 'Void Touch' inflicts additional damage over time on structures, and for each stack beyond the fourth, team members also receive the 'Void Hunger' buff, which will summon allied Voidlings to help destroy enemy turrets.<br><br>The Void Rift camp consists of a group of 3 Void Rifts. There can be a maximum of two spawn groups in a given game. The camp disappears at 13:45 or at 13:55 if it is in combat. A second group of Void Rifts will only spawn if the first has been eliminated before 9:45. The Rift Herald appears in the same location at 14:00."
+    },
+    "PICKER": {
+      "TITLE0": "Champion Picker",
+      "SUBTITLE0": "Browse the list and pick your ideal champion!",
+      "PICKCHAMPION": "Pick a random champion (with filters)",
+      "DIFFICULTIES": {
+        "easy": "Easy",
+        "average": "Intermediate",
+        "hard": "Hard",
+        "*": "Extreme",
+        "nofilterdifficulty": "⌀"
+      }
     }
-    
   },
   "RL": {
     "FILTERS": "Filters",
@@ -526,5 +536,43 @@
     "CTA_LIVE": "live on Twitch",
     "CTA_DISCORD": "Join the Discord",
     "CTA_TWITCH": "Watch on Twitch"
+  },
+  "MATCHUPSPAGE": {
+    "PROMPT": "Pick your champion and the enemy champion to see the matchup tips.",
+    "PROMPT_ENEMY": "Now pick the enemy champion to see the matchup tips.",
+    "PROMPT_ALLY": "Now pick your champion to see the matchup tips.",
+    "SEARCH_PLACEHOLDER": "Search a champion…",
+    "AUTHOR_ROLE": "{{rank}} player · guide author",
+    "AUTHOR_ROLE_UNKNOWN": "Guide author",
+    "READ_GUIDE": "Read the full {{name}} guide",
+    "EN_BADGE": "EN",
+    "EN_BADGE_LABEL": "Tips only available in English",
+    "TYPE_LEGEND": "Issue type",
+    "REPORT_NEEDS_BOTH": "Select both champions to report a matchup.",
+    "SCALE_TITLE": "Difficulty scale",
+    "LISTS_LABEL": "Counters and favourable matchups",
+    "LIST_EMPTY": "No matchup in this category.",
+    "NO_DATA_HINT": "This matchup has no tips yet. Report it with the form so it can be added.",
+    "LOADING": "Loading…",
+    "LOAD_MATCHUP": "Show the {{a}} vs {{b}} matchup"
+  },
+  "PICKERPAGE": {
+    "KICKER": "Champion tool",
+    "SEARCH_LABEL": "Search a champion",
+    "ROLE_GROUP": "Role",
+    "ROLES": {
+      "top": "Top",
+      "jungle": "Jungle",
+      "mid": "Mid",
+      "adc": "ADC",
+      "support": "Support"
+    },
+    "ALL": "All",
+    "DRAW_KICKER": "Random pick",
+    "REROLL": "Reroll",
+    "ALL_CHAMPIONS": "All champions",
+    "SORTED": "Sorted by name · {{count}} champions",
+    "FILTERS": "Filters",
+    "DRAW_EMPTY": "No champion matches these filters: widen your selection."
   }
 }

@@ -594,5 +594,43 @@
     "CTA_LIVE": "en live sur Twitch",
     "CTA_DISCORD": "Rejoindre le Discord",
     "CTA_TWITCH": "Regarder sur Twitch"
+  },
+  "MATCHUPSPAGE": {
+    "PROMPT": "Choisis ton champion et le champion ennemi pour afficher les conseils du matchup.",
+    "PROMPT_ENEMY": "Choisis maintenant le champion ennemi pour afficher les conseils du matchup.",
+    "PROMPT_ALLY": "Choisis maintenant ton champion pour afficher les conseils du matchup.",
+    "SEARCH_PLACEHOLDER": "Rechercher un champion…",
+    "AUTHOR_ROLE": "Joueur {{rank}} · auteur du guide",
+    "AUTHOR_ROLE_UNKNOWN": "Auteur du guide",
+    "READ_GUIDE": "Lire le guide complet de {{name}}",
+    "EN_BADGE": "EN",
+    "EN_BADGE_LABEL": "Conseils disponibles uniquement en anglais",
+    "TYPE_LEGEND": "Type de problème",
+    "REPORT_NEEDS_BOTH": "Sélectionne les deux champions pour signaler un matchup.",
+    "SCALE_TITLE": "Échelle de difficulté",
+    "LISTS_LABEL": "Counters et matchups favorables",
+    "LIST_EMPTY": "Aucun matchup dans cette catégorie.",
+    "NO_DATA_HINT": "Ce matchup n'a pas encore de conseils. Signale-le avec le formulaire pour qu'il soit ajouté.",
+    "LOADING": "Chargement…",
+    "LOAD_MATCHUP": "Afficher le matchup {{a}} contre {{b}}"
+  },
+  "PICKERPAGE": {
+    "KICKER": "Outil champions",
+    "SEARCH_LABEL": "Rechercher un champion",
+    "ROLE_GROUP": "Rôle",
+    "ROLES": {
+      "top": "Top",
+      "jungle": "Jungle",
+      "mid": "Mid",
+      "adc": "ADC",
+      "support": "Support"
+    },
+    "ALL": "Toutes",
+    "DRAW_KICKER": "Tirage aléatoire",
+    "REROLL": "Relancer",
+    "ALL_CHAMPIONS": "Tous les champions",
+    "SORTED": "Trié par nom · {{count}} champions",
+    "FILTERS": "Filtres",
+    "DRAW_EMPTY": "Aucun champion ne correspond aux filtres : élargis ta sélection."
   }
 }

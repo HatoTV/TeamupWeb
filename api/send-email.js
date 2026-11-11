@@ -43,7 +43,7 @@ function parseBody(body) {
     type,
     champion1: champion1.trim(),
     champion2: champion2.trim(),
-    message: type === 'wrong_data' ? message.trim() : '',
+    message: message.trim(),
   };
 }
 

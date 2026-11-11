@@ -1,0 +1,53 @@
+<label class="combo__label" [for]="uid">{{ label() }}</label>
+<div class="combo__field" [class.is-open]="open()">
+  @if (selected(); as current) {
+    <img class="combo__icon" [src]="current.icon" alt="" width="56" height="56" />
+  } @else {
+    <span class="combo__icon combo__icon--empty" aria-hidden="true"><app-icon name="search" [size]="20" /></span>
+  }
+  <input
+    #field
+    class="combo__input"
+    type="text"
+    role="combobox"
+    autocomplete="off"
+    spellcheck="false"
+    aria-autocomplete="list"
+    [id]="uid"
+    [attr.aria-expanded]="open()"
+    [attr.aria-controls]="uid + '-list'"
+    [attr.aria-activedescendant]="activeId()"
+    [placeholder]="placeholder()"
+    [value]="query()"
+    (input)="onInput($any($event.target).value)"
+    (keydown)="onKeydown($event)"
+    (focus)="onFocus($event)"
+    (blur)="close()"
+  />
+  <button type="button" class="combo__toggle" tabindex="-1" aria-hidden="true" (mousedown)="$event.preventDefault()" (click)="toggle()">
+    <app-icon [name]="open() ? 'chevron-up' : 'chevron-down'" [size]="16" />
+  </button>
+</div>
+
+<ul #list class="combo__list" role="listbox" [id]="uid + '-list'" [attr.aria-label]="label()" [hidden]="!open()">
+  @if (open()) {
+    @for (option of filtered(); track option.champion.slug; let i = $index) {
+      <li
+        role="option"
+        class="combo__option"
+        [id]="uid + '-' + option.champion.slug"
+        [attr.aria-selected]="i === active()"
+        [class.is-active]="i === active()"
+        [class.is-current]="selected()?.champion?.slug === option.champion.slug"
+        (mousedown)="$event.preventDefault()"
+        (mousemove)="active.set(i)"
+        (click)="choose(option)"
+      >
+        <img [src]="option.icon" alt="" width="32" height="32" loading="lazy" />
+        {{ option.champion.name }}
+      </li>
+    } @empty {
+      <li class="combo__empty" role="presentation">{{ 'LOL.MATCHUPS.NOCHAMPION' | translate }}</li>
+    }
+  }
+</ul>

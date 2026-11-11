@@ -1,244 +1,124 @@
-<div class="content scrollbar-lol" #scrollContainer>
-  <div class="bkgContent"></div>
-  <img class="imgBkg" src="assets/img/bkgpicker.jpg" />
-  <div class="title">
-    <h1 class="paddingTextMobile">
-      {{ "LOL.PICKER.TITLE0" | translate }}
-    </h1>
-    <h2 class="paddingTextMobile">{{ "LOL.PICKER.SUBTITLE0" | translate }}</h2>
+<section class="hero">
+  <img class="hero__art" src="assets/img/site/bkgpicker.webp" alt="" fetchpriority="high" />
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__body">
+    <p class="hero__kicker">{{ 'PICKERPAGE.KICKER' | translate }}</p>
+    <h1 class="hero__title t-page-title">{{ 'LOL.PICKER.TITLE0' | translate }}</h1>
+    <p class="hero__subtitle">{{ 'LOL.PICKER.SUBTITLE0' | translate }}</p>
   </div>
+</section>
 
-  <div class="divContentEmpty"></div>
-  <div class="divContent" style="z-index: 100; position: relative">
-    <div class="divSearchAndFilter">
-      <div class="divSearch">
-        <input
-          type="text"
-          class="form-control inputSearch"
-          [(ngModel)]="searchTerm"
-          (input)="filterChampions()"
-        />
-        <span class="search-icon">
-          <app-icon name="search" [size]="16" />
-        </span>
-      </div>
-      <div class="divRole">
-        <div
-          class="roleTop"
-          (click)="SelectRole('top')"
-          [ngClass]="{ roleSelected: selectedRole === 'top' }"
-        >
-          <img src="assets/img/icons/top.png" class="imgRole" />
-        </div>
-        <div
-          class="roleMid"
-          (click)="SelectRole('mid')"
-          [ngClass]="{ roleSelected: selectedRole === 'mid' }"
-        >
-          <img src="assets/img/icons/mid.png" class="imgRole" />
-        </div>
-        <div
-          class="roleAdc"
-          (click)="SelectRole('adc')"
-          [ngClass]="{ roleSelected: selectedRole === 'adc' }"
-        >
-          <img src="assets/img/icons/adc.png" class="imgRole" />
-        </div>
-        <div
-          class="roleSupport"
-          (click)="SelectRole('support')"
-          [ngClass]="{ roleSelected: selectedRole === 'support' }"
-        >
-          <img src="assets/img/icons/support.png" class="imgRole" />
-        </div>
-        <div
-          class="roleJungle"
-          (click)="SelectRole('jungle')"
-          [ngClass]="{ roleSelected: selectedRole === 'jungle' }"
-        >
-          <img src="assets/img/icons/jungle.png" class="imgRole" />
-        </div>
-      </div>
-      <div class="divBtnMobile">
-        <div>
-          <div class="dropdown" (click)="toggleDropdown()" >
-            <button
-              class="btn btn-secondary dropdown-toggle btnDifficulties"
-              type="button"
-            >
-              <ng-container *ngIf="selectedDifficulty">
-                <div
-                  style="display: inline-flex; align-items: center; width: 90%"
-                >
-                  <div
-                    class="smallCircle"
-                    [ngClass]="{ hidden: selectedDifficulty.id === 0 }"
-                    [ngStyle]="{
-                      'background-color': getBorderColor(
-                        selectedDifficulty.id
-                      )
-                    }"
-                  ></div>
-                  <span
-                    class="difficultyChamp"
-                    [ngStyle]="{
-                      color: getBorderColor(selectedDifficulty.id)
-                    }"
-                    >{{ selectedDifficulty.name }}</span
-                  >
-                </div>
-              </ng-container>
+<div class="filters" role="search" [attr.aria-label]="'PICKERPAGE.FILTERS' | translate">
+  <label class="filters__search">
+    <app-icon name="search" [size]="16" />
+    <span class="sr-only">{{ 'PICKERPAGE.SEARCH_LABEL' | translate }}</span>
+    <input type="search" [placeholder]="'PICKERPAGE.SEARCH_LABEL' | translate" [value]="search()" (input)="search.set($any($event.target).value)" />
+  </label>
 
-              <!-- Ajout de la flèche manuellement -->
-            </button>
-            <div class="dropdown-menu" [class.show]="isOpen">
-              <label
-                class="dropdown-item"
-                *ngFor="let difficulty of difficulties"
-                (click)="onSelect(difficulty)"
-              >
-                <div class="divDifficulty margin15">
-                  <div
-                    class="smallCircle"
-                    [ngClass]="{ hidden: difficulty.id === 0 }"
-                    [ngStyle]="{
-                      'background-color': getBorderColor(difficulty.id)
-                    }"
-                  ></div>
-                  <span
-                    class="difficultyChamp"
-                    [ngStyle]="{
-                      color: getBorderColor(difficulty.id)
-                    }"
-                    >{{ difficulty.name }}</span
-                  >
-                </div>
-              </label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <button (click)="startRandomSelection()" class="btnRandomChampion">
-        {{ "LOL.PICKER.PICKCHAMPION" | translate }}
-      </button>
-      <div
-        class="divChampionSelected"
-        [ngClass]="{ hidden: !selectedChampion }"
+  <div class="roles" role="group" [attr.aria-label]="'PICKERPAGE.ROLE_GROUP' | translate">
+    @for (r of roles; track r) {
+      <button
+        type="button"
+        class="roles__btn"
+        [class.is-active]="role() === r"
+        [attr.aria-pressed]="role() === r"
+        [title]="'PICKERPAGE.ROLES.' + r | translate"
+        (click)="toggleRole(r)"
       >
-        <div *ngIf="selectedChampion" class="championSelected">
-          <div class="divRoleOnChampion">
-            <img
-              src="assets/img/icons/top.png"
-              class="imgRoleOnChampion"
-              *ngIf="selectedChampion.isTop"
-            />
-            <img
-              src="assets/img/icons/mid.png"
-              class="imgRoleOnChampion"
-              *ngIf="selectedChampion.isMid"
-            />
-            <img
-              src="assets/img/icons/adc.png"
-              class="imgRoleOnChampion"
-              *ngIf="selectedChampion.isAdc"
-            />
-            <img
-              src="assets/img/icons/jungle.png"
-              class="imgRoleOnChampion"
-              *ngIf="selectedChampion.isJungle"
-            />
-            <img
-              src="assets/img/icons/support.png"
-              class="imgRoleOnChampion"
-              *ngIf="selectedChampion.isSupport"
-            />
-          </div>
-          <img
-            [src]="
-              'assets/img/championsIcons/' + selectedChampion.icon + '.png'
-            "
-            alt="{{ selectedChampion.name }}"
-            class="imgChamp"
-            [ngStyle]="{
-              'border-color': getBorderColor(selectedChampion.difficulty)
-            }"
-          />
-          <span class="nameChamp">{{ selectedChampion.name }}</span>
-          <div class="divDifficulty">
-            <div
-              class="smallCircle"
-              [ngStyle]="{
-                'background-color': getBorderColor(selectedChampion.difficulty)
-              }"
-            ></div>
-            <span
-              class="difficultyChamp"
-              [ngStyle]="{
-                color: getBorderColor(selectedChampion.difficulty)
-              }"
-              >{{ difficultyToText(selectedChampion.difficulty) }}</span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="divListChampions">
-      <div *ngFor="let champion of filteredChampions" class="champion">
-        <div class="divRoleOnChampion">
-          <img
-            src="assets/img/icons/top.png"
-            class="imgRoleOnChampion"
-            *ngIf="champion.isTop"
-          />
-          <img
-            src="assets/img/icons/mid.png"
-            class="imgRoleOnChampion"
-            *ngIf="champion.isMid"
-          />
-          <img
-            src="assets/img/icons/adc.png"
-            class="imgRoleOnChampion"
-            *ngIf="champion.isAdc"
-          />
-          <img
-            src="assets/img/icons/jungle.png"
-            class="imgRoleOnChampion"
-            *ngIf="champion.isJungle"
-          />
-          <img
-            src="assets/img/icons/support.png"
-            class="imgRoleOnChampion"
-            *ngIf="champion.isSupport"
-          />
-        </div>
-        <img
-          [src]="'assets/img/championsIcons/' + champion.icon + '.png'"
-          alt="{{ champion.name }}"
-          class="imgChamp"
-          [ngStyle]="{
-            'border-color': getBorderColor(champion.difficulty)
-          }"
-        />
-        <span class="nameChamp">{{ champion.name }}</span>
-        <div class="divDifficulty">
-          <div
-            class="smallCircle"
-            [ngStyle]="{
-              'background-color': getBorderColor(champion.difficulty)
-            }"
-          ></div>
-          <span
-            class="difficultyChamp"
-            [ngStyle]="{
-              'color': getBorderColor(champion.difficulty)
-            }"
-            >{{ difficultyToText(champion.difficulty) }}</span
-          >
-        </div>
-      </div>
-    </div>
-    <br /><br />
+        <img [src]="'assets/img/site/' + r + '.webp'" alt="" width="20" height="20" />
+        <span class="sr-only">{{ 'PICKERPAGE.ROLES.' + r | translate }}</span>
+      </button>
+    }
   </div>
+
+  <label class="filters__difficulty">
+    {{ 'LOL.MATCHUPS.DIFFICULTY' | translate }}
+    <select (change)="setBucket($any($event.target).value)">
+      <option value="" [selected]="!bucket()">{{ 'PICKERPAGE.ALL' | translate }}</option>
+      @for (b of buckets; track b.id) {
+        <option [value]="b.id" [selected]="bucket() === b.id">{{ 'LOL.PICKER.DIFFICULTIES.' + b.id | translate }}</option>
+      }
+    </select>
+  </label>
+
+  <button type="button" class="btn btn--primary btn--sm filters__random" (click)="roll()">
+    <app-icon name="dice" [size]="18" />
+    {{ 'LOL.PICKER.PICKCHAMPION' | translate }}
+  </button>
+</div>
+
+<div class="results">
+  <div aria-live="polite">
+    @if (draw(); as d) {
+      <section class="draw" [class.is-rolling]="rolling()" aria-labelledby="draw-title" [attr.aria-busy]="rolling()">
+        <img class="draw__art" [src]="data.splashUrl(d.champion)" alt="" />
+        <div class="draw__shade" aria-hidden="true"></div>
+        <div class="draw__body">
+          <img class="draw__icon" [src]="d.icon" alt="" width="96" height="96" />
+          <div class="draw__text">
+            <p class="draw__kicker" id="draw-title">
+              {{ 'PICKERPAGE.DRAW_KICKER' | translate }}
+              @for (r of d.champion.roles; track r) {
+                · {{ 'PICKERPAGE.ROLES.' + r | translate }}
+              }
+              @if (d.bucket) {
+                · {{ 'LOL.PICKER.DIFFICULTIES.' + d.bucket.id | translate }}
+              }
+            </p>
+            <p class="draw__name">{{ d.champion.name }}</p>
+            @if (!rolling()) {
+              <div class="draw__actions">
+                @if (d.champion.hasMatchups) {
+                  <a class="draw__matchups" [routerLink]="ctx.link('/lol/matchups')" [queryParams]="{ champion: d.champion.slug }">
+                    {{ 'SEARCH.CHAMPION_HINT' | translate }}
+                  </a>
+                }
+                <button type="button" class="draw__reroll" (click)="roll()">{{ 'PICKERPAGE.REROLL' | translate }}</button>
+              </div>
+            }
+          </div>
+        </div>
+      </section>
+    } @else if (drawEmpty()) {
+      <p class="draw-empty">{{ 'PICKERPAGE.DRAW_EMPTY' | translate }}</p>
+    }
+  </div>
+
+  <section class="grid-section" aria-labelledby="all-title">
+    <div class="grid-section__head">
+      <h2 id="all-title" class="grid-section__title">{{ 'PICKERPAGE.ALL_CHAMPIONS' | translate }}</h2>
+      <span class="grid-section__meta" aria-live="polite">{{ 'PICKERPAGE.SORTED' | translate: { count: filtered().length } }}</span>
+    </div>
+    <ul class="grid">
+      @for (card of filtered(); track card.champion.slug) {
+        <li>
+          <a class="champ" [routerLink]="ctx.link('/lol/matchups')" [queryParams]="{ champion: card.champion.slug }">
+            <span class="champ__media">
+              <img [src]="card.icon" alt="" width="120" height="120" loading="lazy" decoding="async" />
+              <span class="champ__roles">
+                @for (r of card.champion.roles; track r) {
+                  <span class="champ__role"><img [src]="'assets/img/site/' + r + '.webp'" alt="" width="14" height="14" /></span>
+                }
+              </span>
+            </span>
+            <span class="champ__body">
+              <span class="champ__name">{{ card.champion.name }}</span>
+              @if (card.bucket; as b) {
+                <span class="champ__diff" [style.--c]="'var(--diff-' + b.color + '-text)'">
+                  <span class="champ__dot" aria-hidden="true"></span>{{ 'LOL.PICKER.DIFFICULTIES.' + b.id | translate }}
+                </span>
+              }
+              <span class="sr-only">
+                @for (r of card.champion.roles; track r) {
+                  {{ 'PICKERPAGE.ROLES.' + r | translate }}
+                }
+              </span>
+            </span>
+          </a>
+        </li>
+      } @empty {
+        <li class="grid__empty">{{ 'LOL.MATCHUPS.NOCHAMPION' | translate }}</li>
+      }
+    </ul>
+  </section>
 </div>

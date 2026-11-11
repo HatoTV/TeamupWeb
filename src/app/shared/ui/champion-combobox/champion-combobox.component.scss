@@ -1,0 +1,139 @@
+:host {
+  --combo-color: var(--color-ally);
+  --combo-label: var(--diff-2-text);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  width: min(100%, 300px);
+}
+
+:host(.combo--enemy) {
+  --combo-color: var(--color-enemy);
+  --combo-label: var(--diff-5-text);
+}
+
+.combo__label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--combo-label);
+}
+
+.combo__field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 8px 8px 8px 8px;
+  border-radius: var(--radius-pill);
+  background: rgba(13, 13, 24, 0.85);
+  border: 1px solid var(--combo-color);
+  transition: box-shadow var(--duration-color) ease;
+
+  &:focus-within {
+    box-shadow: 0 0 0 2px var(--color-night), 0 0 0 4px var(--color-gold);
+  }
+}
+
+.combo__icon {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.combo__icon--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface-plus);
+  color: var(--color-text-muted);
+}
+
+.combo__input {
+  flex: 1;
+  min-width: 0;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  font: 700 22px var(--font-display);
+  text-transform: uppercase;
+
+  &::placeholder {
+    font: 600 16px var(--font-body);
+    text-transform: none;
+    color: var(--color-text-subtle);
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.combo__toggle {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-right: 6px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-text-muted);
+}
+
+.combo__list {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  max-height: 320px;
+  margin: 0;
+  padding: 6px;
+  overflow-y: auto;
+  list-style: none;
+  border-radius: var(--radius-control);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line-strong);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  text-align: left;
+}
+
+.combo__option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--touch-target);
+  padding: 4px 8px;
+  border-radius: var(--radius-control-sm);
+  font-weight: 600;
+  cursor: pointer;
+
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius-control-sm);
+  }
+
+  &.is-active {
+    background: var(--color-surface-active);
+    box-shadow: inset 3px 0 0 var(--combo-color);
+  }
+
+  &.is-current {
+    color: var(--color-gold);
+  }
+}
+
+.combo__empty {
+  padding: 12px 8px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}

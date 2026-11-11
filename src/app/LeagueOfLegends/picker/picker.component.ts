@@ -1,342 +1,126 @@
+import { isPlatformBrowser } from '@angular/common';
+import { ChangeDetectionStrategy, Component, DestroyRef, PLATFORM_ID, computed, inject, signal } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
+import { Champion, ChampionDataService, ROLES, Role } from '../../core/data/champion-data.service';
+import { RouteContextService } from '../../core/route-context.service';
+import { normalizeForSearch } from '../../core/slug';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
-import { CommonModule } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
-import {
-  Component,
-  ElementRef,
-  HostListener,
-  Renderer2,
-  ViewChild,
-} from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { SafeHtmlPipe } from '../../safe-html.pipe';
+
+/** Picker difficulty buckets (existing LOL.PICKER.DIFFICULTIES keys), mapped from the 1–5 data scale. */
+export type DifficultyBucket = 'easy' | 'average' | 'hard' | '*';
+
+export const BUCKETS: { id: DifficultyBucket; levels: number[]; color: number }[] = [
+  { id: 'easy', levels: [1, 2], color: 2 },
+  { id: 'average', levels: [3], color: 3 },
+  { id: 'hard', levels: [4], color: 4 },
+  { id: '*', levels: [5], color: 5 },
+];
+
+export function bucketOf(difficulty: number | null): (typeof BUCKETS)[number] | null {
+  return BUCKETS.find((b) => difficulty !== null && b.levels.includes(difficulty)) ?? null;
+}
+
+interface PickerCard {
+  champion: Champion;
+  icon: string;
+  bucket: (typeof BUCKETS)[number] | null;
+}
 
 @Component({
   selector: 'app-picker',
   standalone: true,
-  imports: [IconComponent, CommonModule, TranslateModule, SafeHtmlPipe, FormsModule],
+  imports: [TranslateModule, RouterLink, IconComponent],
   templateUrl: './picker.component.html',
-  styleUrl: './picker.component.css',
+  styleUrl: './picker.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PickerComponent {
-  constructor(
-    private elementRef: ElementRef,
-    private http: HttpClient,
-    private translate: TranslateService
-  ) {}
-  champions: {
-    name: string;
-    icon: string;
-    difficulty: number;
-    isTop: boolean;
-    isAdc: boolean;
-    isMid: boolean;
-    isJungle: boolean;
-    isSupport: boolean;
-  }[] = [];
-  filteredChampions: {
-    name: string;
-    icon: string;
-    difficulty: number;
-    isTop: boolean;
-    isAdc: boolean;
-    isMid: boolean;
-    isJungle: boolean;
-    isSupport: boolean;
-  }[] = [];
-  selectedDifficulty: { name: string; id: number; selected: boolean } | null =
-    null;
-  searchTerm: string = '';
-  selectedRole: string = '';
+  protected readonly ctx = inject(RouteContextService);
+  protected readonly data = inject(ChampionDataService);
+  private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
 
-  ngAfterViewInit() {
-    const document = this.elementRef.nativeElement.ownerDocument;
-    const body = document.body;
-    body.style.background =
-      'linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))';
+  protected readonly roles = ROLES;
+  protected readonly buckets = BUCKETS;
+
+  protected readonly search = signal('');
+  protected readonly role = signal<Role | null>(null);
+  protected readonly bucket = signal<DifficultyBucket | null>(null);
+
+  private readonly cards = computed<PickerCard[]>(() =>
+    (this.data.index()?.champions ?? []).map((champion) => ({
+      champion,
+      icon: this.data.iconUrl(champion),
+      bucket: bucketOf(champion.difficulty),
+    }))
+  );
+
+  protected readonly filtered = computed(() => {
+    const q = normalizeForSearch(this.search());
+    const role = this.role();
+    const bucket = this.bucket();
+    return this.cards().filter(
+      ({ champion, bucket: b }) =>
+        (!q || [champion.name, ...(champion.aliases ?? [])].some((n) => normalizeForSearch(n).includes(q))) &&
+        (!role || champion.roles.includes(role)) &&
+        (!bucket || b?.id === bucket)
+    );
+  });
+
+  // Random draw
+  protected readonly draw = signal<PickerCard | null>(null);
+  protected readonly rolling = signal(false);
+  protected readonly drawEmpty = signal(false);
+  private timer: ReturnType<typeof setTimeout> | null = null;
+
+  constructor() {
+    void this.data.loadIndex().catch(() => undefined);
+    inject(DestroyRef).onDestroy(() => this.stopTimer());
   }
 
-  ngOnInit() {
-    if(this.translate.currentLang=='fr'){
-      this.difficulties = [
-        {
-          name: "Toutes difficultés",
-          id: 0,
-          selected: false,
-        }, // Placeholder
-        {
-          name: "Très Facile",
-          id: 1,
-          selected: false,
-        },
-        {
-          name: "Facile",
-          id: 2,
-          selected: false,
-        },
-        {
-          name: "Intermédiaire",
-          id: 3,
-          selected: false,
-        },
-        {
-          name: "Difficile",
-          id: 4,
-          selected: false,
-        },
-        {
-          name: "Extrême",
-          id: 5,
-          selected: false,
-        },
-      ];
-      this.selectedDifficulty = {
-        name: "Difficulté",
-        id: 0,
-        selected: false,
-      };
-    }
-    else{
-      this.selectedDifficulty = {
-        name: "Difficulty",
-        id: 0,
-        selected: false,
-      };
-      this.difficulties = [
-        {
-          name: "All difficulties",
-          id: 0,
-          selected: false,
-        }, // Placeholder
-        {
-          name: "Tiny",
-          id: 1,
-          selected: false,
-        },
-        {
-          name: "Easy",
-          id: 2,
-          selected: false,
-        },
-        {
-          name: "Average",
-          id: 3,
-          selected: false,
-        },
-        {
-          name: "Hard",
-          id: 4,
-          selected: false,
-        },
-        {
-          name: "Extreme",
-          id: 5,
-          selected: false,
-        },
-      ];
-    }
-
-    try {
-      this.http
-        .get<any[]>('assets/jsonChampionsDatas/AllChampions.json')
-        .subscribe((data) => {
-          this.champions = data
-            .map((item) => ({
-              name: item.championName.trim(),
-              icon: item.spellingForUrl.trim().toLowerCase(),
-              difficulty: item.difficulty,
-              isTop: item.isTop,
-              isMid: item.isMid,
-              isAdc: item.isAdc,
-              isSupport: item.isSupport,
-              isJungle: item.isJungle,
-            }))
-            .sort((a, b) => a.name.localeCompare(b.name));
-      this.champions = this.removeDuplicatesByName(this.champions);
-      this.filteredChampions = [...this.champions];
-      this.filterChampions();
-        });
-    } catch (error) {
-      console.log(error);
-    }
+  protected toggleRole(role: Role): void {
+    this.role.update((current) => (current === role ? null : role));
   }
 
-  removeDuplicatesByName(tableau: any[]) {
-    const namesSet = new Set(); // Créer un Set pour stocker les noms uniques
-
-    return tableau.filter((item) => {
-      const isDuplicate = namesSet.has(item.name); // Vérifier si le Name existe déjà
-      namesSet.add(item.name); // Ajouter le Name au Set
-      return !isDuplicate; // Garder uniquement les éléments non dupliqués
-    });
+  protected setBucket(value: string): void {
+    this.bucket.set(value ? (value as DifficultyBucket) : null);
   }
-  filterChampions() {
-    const searchTermLower = this.searchTerm.toLowerCase();
-    const uniqueChampion = new Map<
-      string,
-      {
-        name: string;
-        icon: string;
-        difficulty: number;
-        isTop: boolean;
-        isAdc: boolean;
-        isMid: boolean;
-        isJungle: boolean;
-        isSupport: boolean;
-      }
-    >();
 
-    this.champions.forEach((champion) => {
-      let matchesSearchTerm = false;
-      if (searchTermLower === '') {
-        matchesSearchTerm = true;
+  /** Random champion within the filters, with a short slowing "roll" unless reduced motion is requested. */
+  protected roll(): void {
+    const pool = this.filtered();
+    this.stopTimer();
+    this.drawEmpty.set(pool.length === 0);
+    if (!pool.length) {
+      this.draw.set(null);
+      return;
+    }
+    const pick = () => pool[Math.floor(Math.random() * pool.length)];
+    const reduceMotion = this.isBrowser && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!this.isBrowser || reduceMotion || pool.length === 1) {
+      this.draw.set(pick());
+      return;
+    }
+    this.rolling.set(true);
+    let interval = 50;
+    let elapsed = 0;
+    const step = () => {
+      this.draw.set(pick());
+      interval = Math.min(interval * 1.1, 200);
+      elapsed += interval;
+      if (elapsed < 1600) {
+        this.timer = setTimeout(step, interval);
       } else {
-        matchesSearchTerm = champion.name
-          .toLowerCase()
-          .includes(searchTermLower);
-      }
-      
-      let matchesDifficulty = false;
-      if (!this.selectedDifficulty || this.selectedDifficulty.id === 0) {
-        matchesDifficulty = true;
-      } else {
-        matchesDifficulty = this.selectedDifficulty.id === Number(champion.difficulty);
-      }
-
-      let matchesRole = false;
-      if (this.selectedRole === '') {
-        matchesRole = true;
-      } else {
-        matchesRole =
-          (this.selectedRole === 'top' && champion.isTop) ||
-          (this.selectedRole === 'mid' && champion.isMid) ||
-          (this.selectedRole === 'jungle' && champion.isJungle) ||
-          (this.selectedRole === 'adc' && champion.isAdc) ||
-          (this.selectedRole === 'support' && champion.isSupport);
-      }
-      // Ajoute à la Map uniquement si le champion correspond au terme de recherche et à la difficulté
-      // console.log("matchesSearchTerm " + matchesSearchTerm + " matchesDifficulty " + matchesDifficulty + " matchesRole " + matchesRole);
-      
-      if (matchesSearchTerm && matchesDifficulty && matchesRole) {
-        uniqueChampion.set(champion.name.toLowerCase(), champion);
-      }
-    });
-
-    // Si le terme de recherche n'est pas vide, utilise les valeurs uniques ; sinon, retourne tous les champions
-    if (
-      this.selectedDifficulty ||
-      this.searchTerm !== '' ||
-      this.selectedRole !== ''
-    ) {
-      this.filteredChampions = Array.from(uniqueChampion.values());
-    } else {
-      this.filteredChampions = [...this.champions];
-    }
-  }
-
-  isOpen = false; // pour gérer l'affichage de la dropdown
-
-  difficulties: { name: string; id: number; selected: boolean }[] = [];
-
-  toggleDropdown() {
-    this.isOpen = !this.isOpen;
-  }
-
-  onSelect(difficulty: { name: string; id: number; selected: boolean }) {
-    // Désélectionnez toutes les options
-    this.difficulties.forEach((d) => (d.selected = false));
-
-    // Sélectionnez la nouvelle option
-    difficulty.selected = true;
-    this.selectedDifficulty = difficulty; // Sélectionner la difficulté choisie   
-
-    this.filterChampions();
-  }
-
-  getBorderColor(difficulty: number): string {
-    switch(Number(difficulty)){ 
-      case 1 : return '#79d0ed';     
-      case 2 : return '#75e36d';
-      case 3 : return '#f5f37f';
-      case 4 : return '#eda968';
-      case 5 : return '#f28888';
-      default :  return 'rgba(255, 255, 255, 0.6)';
-      };
-  }
-
-  @HostListener('document:click', ['$event'])
-  handleClickOutside(event: MouseEvent) {
-    const dropdownElement = document.querySelector('.dropdown');
-    if (dropdownElement && !dropdownElement.contains(event.target as Node)) {
-      this.isOpen = false; // Ferme le dropdown si on clique en dehors
-    }
-  }
-  getTranslatedName(nameKey: string): string {
-    return this.translate.instant(nameKey); // Récupère la traduction immédiatement
-  }
-
-  SelectRole(role: string) {
-    if (this.selectedRole !== role) {
-      this.selectedRole = role;
-    } else {
-      this.selectedRole = '';
-    }
-    this.filterChampions();
-  }
-
-  selectedChampion: any = null;
-  currentChampionIndex: number = 0;
-  timeoutId: any = null;
-
-  startRandomSelection() {
-    const totalDuration = 2000; // Durée totale de l'animation (5 secondes)
-    let currentTime = 0; // Temps écoulé
-    let interval = 50; // Intervalle initial en millisecondes
-    const slowdownFactor = 1.1; // Facteur d'augmentation de l'intervalle
-
-    const rollChampions = () => {
-      // Sélectionner un champion aléatoire
-      this.currentChampionIndex = Math.floor(
-        Math.random() * this.filteredChampions.length
-      );
-      this.selectedChampion = this.filteredChampions[this.currentChampionIndex];
-
-      // Augmenter l'intervalle pour ralentir l'animation
-      interval *= slowdownFactor;
-      // Limiter l'intervalle à une valeur maximale pour éviter qu'il ne devienne trop lent
-      if (interval > 200) {
-        // Par exemple, ne pas dépasser 300ms
-        interval = 200;
-      }
-
-      currentTime += interval;
-
-      // Vérifier si le temps total est atteint
-      if (currentTime < totalDuration) {
-        // Continuer le roulement avec un intervalle plus long
-        this.timeoutId = setTimeout(rollChampions, interval);
-      } else {
-        // Arrêter l'animation après 5 secondes
-        clearTimeout(this.timeoutId);
-        // Optionnel : Sélectionner un champion final
-        this.selectedChampion =
-          this.filteredChampions[this.currentChampionIndex];
+        this.rolling.set(false);
+        this.timer = null;
       }
     };
-
-    // Lancer la première itération
-    rollChampions();
+    step();
   }
 
-  difficultyToText(difficulty: number){
-    switch(Number(difficulty)){      
-      case 1 : return this.difficulties[1].name;
-      case 2 : return this.difficulties[2].name;
-      case 3 : return this.difficulties[3].name;
-      case 4 : return this.difficulties[4].name;
-      case 5 : return this.difficulties[5].name;
-      };
-      return null
+  private stopTimer(): void {
+    if (this.timer) clearTimeout(this.timer);
+    this.timer = null;
+    this.rolling.set(false);
   }
 }

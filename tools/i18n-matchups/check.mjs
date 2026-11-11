@@ -33,7 +33,12 @@ if (batchFiles) onlyIds = target.map((t) => t.id);
 
 /** Tokens that look like keys but are not abilities. */
 const KEY_EXCEPTIONS = /\b(QSS|QWER|W\/L|WR)\b/g;
-const ENGLISH_WORDS = /\b(the|you|your|when|don't|dont|can't|cant|with|against|will|should|which|because|early on|play safe and|get)\b/i;
+// "dont" is a French word: only the apostrophe forms are checked.
+const ENGLISH_WORDS = /\b(the|you|your|when|don't|can't|cant|with|against|will|should|which|because|early on|play safe and|get)\b/i;
+/** Digits of the source that are typos for words (e.g. "2 far" = "too far"): not expected in French. */
+const DIGIT_TYPOS = { 'nasus|yone|0': ['2'], 'sejuani|illaoi|0': ['2'], 'sejuani|fiora|0': ['2'] };
+/** Item / rune names that are also accepted LoL jargon in French (e.g. "recall", "back"). */
+const JARGON_NAMES = new Set(['Recall']);
 
 const errors = [];
 const warnings = [];
@@ -45,7 +50,7 @@ const count = (s, re) => (s.replace(KEY_EXCEPTIONS, '').match(re) ?? []).length;
 
 /** English item / rune names whose French name differs (longest first, word-bounded). */
 const translatable = Object.entries({ ...glossary.items, ...glossary.runes })
-  .filter(([en, fr]) => en !== fr && en.length > 3)
+  .filter(([en, fr]) => en !== fr && en.length > 3 && !JARGON_NAMES.has(en))
   .sort((a, b) => b[0].length - a[0].length);
 
 const seen = new Set();
@@ -61,7 +66,9 @@ for (const t of target) {
 
   if (t.champion !== s.champion || t.enemy !== s.enemy || t.level !== s.level) err(t.id, 'champion / enemy / level changed');
 
-  const a = numbers(s.text).join(' ');
+  const expected = numbers(s.text);
+  for (const typo of DIGIT_TYPOS[t.id] ?? []) expected.splice(expected.indexOf(typo), 1);
+  const a = expected.join(' ');
   const b = numbers(t.text).join(' ');
   if (a !== b) err(t.id, `numbers differ: [${a}] → [${b}]`);
 

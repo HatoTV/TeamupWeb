@@ -1,4 +1,3 @@
-import { UpperCasePipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, effect, inject, signal, viewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
@@ -8,11 +7,12 @@ import { LiveStatusService } from '../../core/live-status.service';
 import { PopupTwitchComponent } from '../../popup-twitch/popup-twitch.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { GlobalSearchComponent } from '../global-search/global-search.component';
+import { LangFlagComponent } from '../../shared/ui/lang-flag.component';
 
 @Component({
   selector: 'app-topbar',
   standalone: true,
-  imports: [RouterLink, TranslateModule, UpperCasePipe, IconComponent, GlobalSearchComponent, PopupTwitchComponent],
+  imports: [RouterLink, TranslateModule, IconComponent, GlobalSearchComponent, PopupTwitchComponent, LangFlagComponent],
   templateUrl: './topbar.component.html',
   styleUrl: './topbar.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

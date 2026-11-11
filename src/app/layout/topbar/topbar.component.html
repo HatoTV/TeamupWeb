@@ -49,8 +49,9 @@
             [class.is-active]="lang === ctx.lang()"
             [attr.aria-current]="lang === ctx.lang() ? 'true' : null"
             [attr.aria-label]="(lang === 'fr' ? 'NAV.LANG_FR' : 'NAV.LANG_EN') | translate"
-            >{{ lang | uppercase }}</a
-          >
+            [title]="(lang === 'fr' ? 'NAV.LANG_FR' : 'NAV.LANG_EN') | translate"
+            ><app-lang-flag [lang]="lang"
+          /></a>
         }
       </div>
 
@@ -82,8 +83,9 @@
         queryParamsHandling="preserve"
         [attr.hreflang]="otherLang()"
         [attr.aria-label]="'NAV.LANG_SWITCH' | translate"
-        >{{ ctx.lang() | uppercase }}</a
-      >
+        [title]="'NAV.LANG_SWITCH' | translate"
+        ><app-lang-flag [lang]="ctx.lang()" [size]="24"
+      /></a>
     </div>
   </div>
 

@@ -5,7 +5,7 @@ import { LOL_GUIDE_GROUPS, LOL_TOOLS } from '../../core/navigation/lol-nav';
 import { RouteContextService } from '../../core/route-context.service';
 import { SOCIALS, SUPPORTED_LANGS } from '../../core/site.config';
 import { BrandIconComponent } from '../../shared/ui/icon/brand-icon.component';
-import { UpperCasePipe } from '@angular/common';
+import { LangFlagComponent } from '../../shared/ui/lang-flag.component';
 
 interface FooterColumn {
   titleKey: string;
@@ -15,7 +15,7 @@ interface FooterColumn {
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [RouterLink, TranslateModule, BrandIconComponent, UpperCasePipe],
+  imports: [RouterLink, TranslateModule, BrandIconComponent, LangFlagComponent],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

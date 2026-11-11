@@ -45,11 +45,9 @@
             [attr.lang]="lang"
             [attr.aria-current]="lang === ctx.lang() ? 'true' : null"
             [attr.aria-label]="(lang === 'fr' ? 'NAV.LANG_FR' : 'NAV.LANG_EN') | translate"
-            >{{ lang | uppercase }}</a
-          >
-          @if (!last) {
-            <span aria-hidden="true"> / </span>
-          }
+            [title]="(lang === 'fr' ? 'NAV.LANG_FR' : 'NAV.LANG_EN') | translate"
+            ><app-lang-flag [lang]="lang" [size]="18"
+          /></a>
         }
       </p>
     </div>

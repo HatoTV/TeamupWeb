@@ -1,51 +1,50 @@
-import { CommonModule } from '@angular/common';
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
-import { ScrollService } from '../../services/scroll.service';
+import { CalloutComponent } from '../../shared/ui/callout.component';
+import { GuideBulletsComponent, GuideCardsComponent, keys } from '../guide-shared/guide-blocks';
+import { GuideConfig, GuidePageComponent } from '../guide-shared/guide-page.component';
+import { LeadPipe, ParagraphsPipe } from '../guide-shared/guide-text';
+
+const K = 'LOL.LANING';
 
 @Component({
   selector: 'app-laning',
   standalone: true,
-  imports: [CommonModule, TranslateModule, SafeHtmlPipe],
+  imports: [
+    TranslateModule,
+    SafeHtmlPipe,
+    GuidePageComponent,
+    GuideCardsComponent,
+    GuideBulletsComponent,
+    CalloutComponent,
+    LeadPipe,
+    ParagraphsPipe,
+  ],
   templateUrl: './laning.component.html',
-  styleUrl: './laning.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LaningComponent {
-  constructor(private elementRef: ElementRef,private scrollService: ScrollService) { }
-  @ViewChild('scrollContainer') private scrollContainer!: ElementRef;
-  ngAfterViewInit() {
-    const document = this.elementRef.nativeElement.ownerDocument;
-    const body = document.body;
-    body.style.background =
-      'linear-gradient(to top, var(--lol-bkg-gradient-1),var(--lol-bkg-gradient-2))';
-  }
-  scrollToElement(sectionId: string) {
-    const element = document.getElementById(sectionId);
-    if (element && this.scrollContainer) {
-      const container = this.scrollContainer.nativeElement;
-      const elementRect = element.getBoundingClientRect();
-      const containerRect = container.getBoundingClientRect();
-      const scrollTop = elementRect.top - containerRect.top + container.scrollTop;
-      container.scrollTo({
-        top: scrollTop,
-        behavior: 'smooth',
-      });
-    }
-  }
+  protected readonly config: GuideConfig = {
+    groupId: 'laning',
+    heroImage: 'assets/img/site/bkgContent_Laning.webp',
+    titleKey: `${K}.TITLE0`,
+    subtitleKey: `${K}.SUBTITLE0`,
+    i18nRoot: K,
+    sections: [
+      { id: 'Introduction', titleKey: 'LOL.LEFTBAR.INTRODUCTION', level: 1 },
+      { id: 'LastHit', titleKey: `${K}.TITLE2`, level: 1 },
+      { id: 'Trading', titleKey: `${K}.TITLE3`, level: 1 },
+      { id: 'trading-how', titleKey: `${K}.SUBTITLE4`, level: 2 },
+      { id: 'Bait', titleKey: `${K}.TITLE6`, level: 1 },
+      { id: 'bait-how', titleKey: `${K}.SUBTITLE7`, level: 2 },
+      { id: 'Roaming', titleKey: `${K}.TITLE9`, level: 1 },
+      { id: 'roaming-how', titleKey: `${K}.SUBTITLE10`, level: 2 },
+    ],
+  };
 
-  ngOnInit() {
-    this.scrollService.scrollToSection$.subscribe((sectionId: string | null) => {
-      if (sectionId) {
-        this.scrollToElement(sectionId);
-      }
-    });
-  }
-
-  scrollToSection(sectionId: string) {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
+  protected readonly roles = keys(`${K}.CONTENT1.LIST`, 1, 3);
+  protected readonly tradeTips = keys(`${K}.CONTENT4.LIST`, 1, 5);
+  protected readonly baitTips = keys(`${K}.CONTENT7.LIST`, 1, 4);
+  protected readonly roamTips = keys(`${K}.CONTENT10.LIST`, 1, 4);
 }

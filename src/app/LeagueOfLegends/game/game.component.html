@@ -1,166 +1,48 @@
-<div class="content scrollbar-lol" #scrollContainer>
-    <div class="bkgContent"></div>
-    <img class="imgBkg" src="assets/img/bkgContent_game.webp" />
-    <div class="title">
-        <h1 class="paddingTextMobile">{{ "LOL.GAME.GAME" | translate }}</h1>
-        <h2 class="paddingTextMobile">{{ "LOL.GAME.SUBTITLE0" | translate }}</h2>
-    </div>
+<app-guide-page [config]="config">
+  <section class="chapter-block" aria-labelledby="Stats">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 1 } }}</p>
+    <h2 id="Stats">{{ 'LOL.GAME.TITLE1' | translate }}</h2>
+    @for (line of 'LOL.GAME.CONTENT1.INTRO0' | translate | lines; track $index) {
+      <p class="spaced" [innerHTML]="line | safeHtml"></p>
+    }
+    <ul class="cards cards--list">
+      @for (stat of stats; track stat.key) {
+        @let item = stat.key | translate | lead;
+        <li class="info-card stat-card">
+          <span class="stat-card__icons" aria-hidden="true">
+            @for (icon of stat.icons; track icon) {
+              <img [src]="icon" alt="" width="24" height="24" loading="lazy" />
+            }
+          </span>
+          <span>
+            <p class="info-card__title">{{ item.label || item.rawLabel }}</p>
+            <p class="info-card__text" [innerHTML]="item.body | safeHtml"></p>
+          </span>
+        </li>
+      }
+    </ul>
+  </section>
 
-    <div class="divContentEmpty"></div>
-    <div class="divContent">
+  <section class="chapter-block" aria-labelledby="Buffs">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 2 } }}</p>
+    <h2 id="Buffs">{{ 'LOL.GAME.TITLE2' | translate }}</h2>
 
-        <h3 style="padding-top: 0 !important" [id]="'Stats'">
-            {{ "LOL.GAME.TITLE1" | translate }}
-        </h3>
-        <hr class="divider paddingSidebar" />
-        <h4 [innerHtml]="'LOL.GAME.CONTENT1.INTRO0' | translate | safeHtml"></h4><br>
-        <div class="divList" style="list-style-type: none;">
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/attackDamage.webp' class='imgStat'></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST1' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/abilityPower.webp' class='imgStat'></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST2' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/attackSpeed.webp' class='imgStat'></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST3' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/haste.webp' class='imgStat'></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST4' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/criticalChance.webp' class='imgStat'></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST5' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/movementSpeed.webp' class='imgStat'></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST6' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/tenacity.webp' class='imgStat'></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST7' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/pvRegeneration.webp' class='imgStat'><img
-                        src='assets/img/icons/manaRegeneration.webp' class='imgStat' /> </div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST8' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/lifesteal.webp' class='imgStat'><img
-                        src='assets/img/icons/omnivamp.webp' class='imgStat' /> </div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST9' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/armor.webp' class='imgStat'><img
-                        src='assets/img/icons/magicResistance.webp' class='imgStat' /></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST10' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/armorPenetration.webp' class='imgStat'></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST11' | translate | safeHtml"></h6>
-            </li><br>
-            <li class="listStats">
-                <div class='divImgStat'><img src='assets/img/icons/magicPenetration.webp' class='imgStat'></div>
-                <h6 [innerHtml]="'LOL.GAME.CONTENT1.LIST12' | translate | safeHtml"></h6>
-            </li>
+    @for (block of objectives; track block.id) {
+      <h3 [id]="block.id">{{ block.titleKey | translate }}</h3>
+      <div class="media-text">
+        <figure>
+          <img [src]="block.image" [alt]="block.titleKey | translate" loading="lazy" />
+        </figure>
+        <div>
+          @if (block.bullets) {
+            <app-guide-bullets [class.drakes]="block.id === 'dragons'" [keys]="block.bullets" />
+          } @else if (block.textKey) {
+            @for (p of block.textKey | translate | paragraphs; track $index) {
+              <p [innerHTML]="p | safeHtml"></p>
+            }
+          }
         </div>
-        <br />
-        <h3 [id]="'Buffs'">
-            {{ "LOL.GAME.TITLE2" | translate }}
-        </h3>
-        <hr class="divider paddingSidebar" />
-        <h5>{{ "LOL.GAME.SUBTITLE2" | translate }}</h5>
-        <div class="imgText">
-            <img src="assets/img/redbuff.webp" class="imgPath">
-            <div class="divList">
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT2.LIST1' | translate | safeHtml"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT2.LIST2' | translate | safeHtml"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT2.LIST3' | translate | safeHtml"></h6>
-                </li>
-            </div>
-        </div>
-        <br />
-        <br />
-        <h5>{{ "LOL.GAME.SUBTITLE3" | translate }}</h5>
-        <div class="imgText">
-            <img src="assets/img/bluebuff.webp" class="imgPath">
-            <div class="divList">
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT3.LIST1' | translate | safeHtml"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT3.LIST2' | translate | safeHtml"></h6>
-                </li>
-            </div>
-        </div>
-        <br />
-        <br />
-        <h5 [id]="'Stats'">{{ "LOL.GAME.SUBTITLE4" | translate }}</h5>
-        <div class="imgText">
-            <img src="assets/img/scuttle.webp" class="imgPath">
-            <div class="divList">
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT4.LIST1' | translate | safeHtml"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT4.LIST2' | translate | safeHtml"></h6>
-                </li>
-            </div>
-            <br />
-            <br />
-        </div>
-        <h5>{{ "LOL.GAME.SUBTITLE5" | translate }}</h5>
-        <div class="imgText">
-            <img src="assets/img/elder.jpg" class="imgPath">
-            <div class="divList" style="list-style-type: none;">
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT5.LIST1' | translate | safeHtml" class="listDrake"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT5.LIST2' | translate | safeHtml" class="listDrake"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT5.LIST3' | translate | safeHtml" class="listDrake"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT5.LIST4' | translate | safeHtml" class="listDrake"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT5.LIST5' | translate | safeHtml" class="listDrake"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT5.LIST6' | translate | safeHtml" class="listDrake"></h6>
-                </li><br>
-                <li>
-                    <h6 [innerHtml]="'LOL.GAME.CONTENT5.LIST7' | translate | safeHtml" class="listDrake"></h6>
-                </li>
-            </div>
-        </div>
-        <br />
-        <br />
-        <h5>{{ "LOL.GAME.SUBTITLE6" | translate }}</h5>
-        <img src="assets/img/nashor.jpg" class="imgCenter">
-        <h4 [innerHtml]="'LOL.GAME.CONTENT6' | translate | safeHtml"></h4>
-        <br />
-        <br />
-        <br />
-        <h5>{{ "LOL.GAME.SUBTITLE7" | translate }}</h5>
-        <img src="assets/img/heralt.webp" class="imgCenter">
-        <h4 [innerHtml]="'LOL.GAME.CONTENT7' | translate | safeHtml"></h4>
-        <br />
-        <br />
-        <br />
-        <h5>{{ "LOL.GAME.SUBTITLE8" | translate }}</h5>
-        <img src="assets/img/grubs.webp" class="imgCenter">
-        <h4 [innerHtml]="'LOL.GAME.CONTENT8' | translate | safeHtml"></h4>
-        <br><br><br>
-    </div>
-</div>
+      </div>
+    }
+  </section>
+</app-guide-page>

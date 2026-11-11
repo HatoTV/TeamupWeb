@@ -127,6 +127,10 @@
     list-style: none;
   }
 
+  .cards--list {
+    grid-template-columns: 1fr;
+  }
+
   .info-card {
     padding: 14px;
     border-radius: var(--radius-control);
@@ -138,6 +142,7 @@
     font-family: var(--font-display);
     font-weight: 700;
     font-size: 20px;
+    letter-spacing: 0.01em;
     line-height: 1.1;
     text-transform: uppercase;
     color: var(--color-text);
@@ -213,6 +218,55 @@
   .timeline__note {
     flex: 1 1 220px;
     color: var(--color-text-muted);
+  }
+
+  .path-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 16px;
+    align-items: center;
+
+    img {
+      width: 100%;
+      border-radius: var(--radius-control-sm);
+    }
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .stat-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .stat-card__icons {
+    display: flex;
+    flex: none;
+    gap: 4px;
+    padding: 6px;
+    border-radius: var(--radius-control-sm);
+    background: var(--color-surface-plus);
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  // Dragon list items embed their own icon.
+  .drakes .bullets {
+    list-style: none;
+    padding-left: 0;
+
+    img {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+    }
   }
 
   app-step-list,

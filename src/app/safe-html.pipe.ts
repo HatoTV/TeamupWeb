@@ -9,7 +9,11 @@ export class SafeHtmlPipe implements PipeTransform {
   constructor(private sanitizer: DomSanitizer) {}
 
   transform(text: string): SafeHtml {
-    const formattedText = text.replace(/<bold>(.*?)<\/bold>/g, '<span class="bold-text">$1</span>').replace(/<italic>(.*?)<\/italic>/g, '<span class="italic-text">$1</span>');
+    const formattedText = (text ?? '')
+      .replace(/<bold>(.*?)<\/bold>/g, '<span class="bold-text">$1</span>')
+      .replace(/<italic>(.*?)<\/italic>/g, '<span class="italic-text">$1</span>')
+      // Images embedded in translations are decorative icons: give them an empty alt.
+      .replace(/<img(?![^>]*\balt=)/gi, '<img alt=""');
     return this.sanitizer.bypassSecurityTrustHtml(formattedText);
   }
 }

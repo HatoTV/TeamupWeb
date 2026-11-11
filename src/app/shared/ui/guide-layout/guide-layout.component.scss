@@ -217,14 +217,8 @@
 }
 
 @media (max-width: 1099px) {
+  // Narrow screens: chapter tabs and the LoL menu cover navigation; the TOC column is dropped.
   .guide__aside {
-    order: -1;
-    position: static;
-    max-width: none;
-  }
-
-  // On narrow screens the TOC is reachable from the chapter tabs and the sidebar.
-  .ask {
     display: none;
   }
 }

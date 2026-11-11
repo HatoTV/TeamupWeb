@@ -1,199 +1,60 @@
-<div class="content scrollbar-lol" #scrollContainer>
-  <div class="bkgContent"></div>
-  <img class="imgBkg" src="assets/img/bkgContent_Jungle.webp" />
-  <div class="title">
-    <h1  class="paddingTextMobile">{{ "LOL.JUNGLE.TITLE0" | translate }}</h1>
-    <h2  class="paddingTextMobile">{{ "LOL.JUNGLE.SUBTITLE0" | translate }}</h2>
-  </div>
-  <div class="divContentEmpty" ></div>
-  <div class="divContent">
-     
-    <h3 style="padding-top: 0 !important" [id]="'Introduction'">
-      {{ "LOL.LEFTBAR.FONDAMENTALS" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <h4 [innerHtml]="'LOL.JUNGLE.CONTENT1.INTRO1' | translate | safeHtml"></h4>
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="'LOL.JUNGLE.CONTENT1.LIST1' | translate | safeHtml"
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="'LOL.JUNGLE.CONTENT1.LIST2' | translate | safeHtml"
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="'LOL.JUNGLE.CONTENT1.LIST3' | translate | safeHtml"
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="'LOL.JUNGLE.CONTENT1.LIST4' | translate | safeHtml"
-        ></h6>
-      </li>
-    </div>
-    <br />
-    
-    <h3 [id]="'Ganks'">
-      {{ "LOL.JUNGLE.TITLE6" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <div style="margin-bottom: 40px">
-      <h4 [innerHtml]="'LOL.JUNGLE.CONTENT6' | translate | safeHtml"></h4>
-      <br /> <br />
-      <h5>{{ "LOL.JUNGLE.CONTENT7.INTRO1" | translate }}</h5>
-      <img src="assets/img/ganksExample.png" class="imgGanks" />
-      <div class="divList">
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT7.LIST1' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT7.LIST2' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT7.LIST3' | translate | safeHtml"
-          ></h6>
-        </li>
-      </div>
-    </div>
-    <h4>{{ "LOL.JUNGLE.CONTENT1.INTRO2" | translate }}</h4>
-    <h3 [id]="'Pathing'">
-      {{ "LOL.JUNGLE.TITLE2" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <div style="margin-bottom: 40px">
-      <h4>{{ "LOL.JUNGLE.CONTENT2.INTRO1" | translate }}</h4>
-      <br />
-      <div class="divList">
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT2.LIST1' | translate | safeHtml"
-          ></h6>
-          <img src="assets/img/jungle_FullClear.jpg" class="imgPath" />
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT2.LIST2' | translate | safeHtml"
-          ></h6>
-          <img src="assets/img/jungle_3camps.jpg" class="imgPath" />
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT2.LIST3' | translate | safeHtml"
-          ></h6>
-          <img src="assets/img/jungle_Invade.jpg" class="imgPath" />
-        </li>
-      </div>
-      <br />
-    </div>
-    <h5>{{ "LOL.JUNGLE.SUBTITLE3" | translate }}</h5>
-    <div style="display:flex">
-      <img src="assets/img/jungleBlue.png" class="imgPath imgBotOrTop" />
-      <img src="assets/img/jungleRed.png" class="imgPath imgBotOrTop" />
-    </div>
+<app-guide-page [config]="config">
+  <section class="chapter-block" aria-labelledby="Introduction">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 1 } }}</p>
+    <h2 id="Introduction">{{ 'LOL.LEFTBAR.FONDAMENTALS' | translate }}</h2>
+    <p class="spaced" [innerHTML]="'LOL.JUNGLE.CONTENT1.INTRO1' | translate | safeHtml"></p>
+    <app-guide-bullets [keys]="missions" />
+    <app-callout variant="remember"><span [innerHTML]="'LOL.JUNGLE.CONTENT1.INTRO2' | translate | safeHtml"></span></app-callout>
+  </section>
 
-    <div style="margin-bottom: 40px">
-      <h4>{{ "LOL.JUNGLE.CONTENT3.INTRO1" | translate }}</h4>
-      <br />
-      <div class="divList">
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT3.LIST1' | translate | safeHtml"
-          ></h6>
+  <section class="chapter-block" aria-labelledby="Pathing">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 2 } }}</p>
+    <h2 id="Pathing">{{ 'LOL.JUNGLE.TITLE2' | translate }}</h2>
+    <p class="spaced">{{ 'LOL.JUNGLE.CONTENT2.INTRO1' | translate }}</p>
+    <ul class="cards cards--list">
+      @for (path of paths; track path.key) {
+        @let item = path.key | translate | lead;
+        <li class="info-card path-card">
+          <div>
+            <p class="info-card__title">{{ item.label }}</p>
+            <p class="info-card__text" [innerHTML]="item.body | safeHtml"></p>
+          </div>
+          <img [src]="path.image" [alt]="item.label" loading="lazy" />
         </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT3.LIST2' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT3.LIST3' | translate | safeHtml"
-          ></h6>
-        </li>
-      </div>
+      }
+    </ul>
+
+    <h3 id="bot-or-top">{{ 'LOL.JUNGLE.SUBTITLE3' | translate }}</h3>
+    <div class="media-text">
+      <figure><img src="assets/img/jungleBlue.png" [alt]="'GUIDES.ALT.JUNGLE_BLUE' | translate" loading="lazy" /></figure>
+      <figure><img src="assets/img/jungleRed.png" [alt]="'GUIDES.ALT.JUNGLE_RED' | translate" loading="lazy" /></figure>
     </div>
-    <h3 [id]="'Objectives'">
-      {{ "LOL.JUNGLE.TITLE4" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <div style="margin-bottom: 40px">
-      <h4>{{ "LOL.JUNGLE.CONTENT4.INTRO1" | translate }}</h4>
-      <img src="assets/img/Objectives.jpg" class="imgObjectives" />
-      <br />
-      <div class="divList">
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT4.LIST1' | translate | safeHtml"
-          ></h6>
-        </li>
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT4.LIST2' | translate | safeHtml"
-          ></h6>
-        </li>
-      </div>
-    </div>
-    <h4 [innerHtml]="'LOL.JUNGLE.CONTENT5' | translate | safeHtml"></h4>
-    <br />
-    <h3 [id]="'Tips'">
-      {{ "LOL.JUNGLE.TITLE8" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <div style="margin-bottom: 40px">
-      <div class="divList">
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT8.LIST1' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT8.LIST2' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT8.LIST3' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT8.LIST4' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT8.LIST5' | translate | safeHtml"
-          ></h6>
-        </li>
-        <br />
-        <li>
-          <h6
-            [innerHtml]="'LOL.JUNGLE.CONTENT8.LIST6' | translate | safeHtml"
-          ></h6>
-        </li>
-      </div>
-    </div>
-    <br><br><br><br>
-  </div>
-</div>
+    <p class="spaced">{{ 'LOL.JUNGLE.CONTENT3.INTRO1' | translate }}</p>
+    <app-guide-cards [keys]="sideChecks" />
+  </section>
+
+  <section class="chapter-block" aria-labelledby="Objectives">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 3 } }}</p>
+    <h2 id="Objectives">{{ 'LOL.JUNGLE.TITLE4' | translate }}</h2>
+    <p class="spaced">{{ 'LOL.JUNGLE.CONTENT4.INTRO1' | translate }}</p>
+    <figure><img src="assets/img/Objectives.jpg" [alt]="'GUIDES.ALT.OBJECTIVES' | translate" loading="lazy" /></figure>
+    <app-guide-cards layout="grid" [keys]="objectives" />
+    <p class="spaced" [innerHTML]="'LOL.JUNGLE.CONTENT5' | translate | safeHtml"></p>
+  </section>
+
+  <section class="chapter-block" aria-labelledby="Ganks">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 4 } }}</p>
+    <h2 id="Ganks">{{ 'LOL.JUNGLE.TITLE6' | translate }}</h2>
+    <p class="spaced" [innerHTML]="'LOL.JUNGLE.CONTENT6' | translate | safeHtml"></p>
+
+    <h3 id="gank-types">{{ 'LOL.JUNGLE.CONTENT7.INTRO1' | translate }}</h3>
+    <figure><img src="assets/img/ganksExample.png" [alt]="'GUIDES.ALT.GANKS' | translate" loading="lazy" /></figure>
+    <app-guide-cards [keys]="gankTypes" />
+  </section>
+
+  <section class="chapter-block" aria-labelledby="Tips">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 5 } }}</p>
+    <h2 id="Tips">{{ 'LOL.JUNGLE.TITLE8' | translate }}</h2>
+    <app-guide-bullets [keys]="tips" />
+  </section>
+</app-guide-page>

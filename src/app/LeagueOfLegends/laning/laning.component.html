@@ -1,157 +1,69 @@
-<div class="content scrollbar-lol" #scrollContainer>
-  <div class="bkgContent"></div>
-  <img class="imgBkg" src="assets/img/bkgContent_Laning.webp" />
-  <div class="title">
-    <h1  class="paddingTextMobile">{{ "LOL.LANING.TITLE0" | translate }}</h1>
-    <h2  class="paddingTextMobile">{{ "LOL.LANING.SUBTITLE0" | translate }}</h2>
-  </div>
-  <div class="divContentEmpty" ></div>
-  <div class="divContent">
-     
-    <h3 style="padding-top: 0 !important"  [id]="'Introduction'">
-      {{ "LOL.LEFTBAR.INTRODUCTION" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <h4 [innerHtml]="'LOL.LANING.CONTENT1.INTRO1' | translate | safeHtml"></h4>
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT1.LIST1' | translate | safeHtml"
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT1.LIST2' | translate | safeHtml"
-        ></h6>
-      </li>
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT1.LIST3' | translate | safeHtml"
-        ></h6>
-      </li>
-    </div>
-    <br />
-    <h4 [innerHtml]="'LOL.LANING.CONTENT1.INTRO2' | translate | safeHtml"></h4>
-    <br /><br />
-    <h3   [id]="'LastHit'">
-      {{ "LOL.LANING.TITLE2" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <img src="assets/img/lastHit.png" class="imgPath">
-    <h4 [innerHtml]="'LOL.LANING.CONTENT2' | translate | safeHtml"></h4>
-    <br /><br />
-    <h3   [id]="'Trading'">
-      {{ "LOL.LANING.TITLE3" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <h4
-      style="margin-top: 40px"
-      [innerHtml]="'LOL.LANING.CONTENT3' | translate | safeHtml"
-    ></h4>
-    <img src="assets/img/laneChampions.png" class="imgTrade">
-    <br /><br />
-    <h5>{{ "LOL.LANING.SUBTITLE4" | translate }}</h5>
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT4.LIST1' | translate | safeHtml"
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT4.LIST2' | translate | safeHtml"
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT4.LIST3' | translate | safeHtml"
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT4.LIST4' | translate | safeHtml"
-        ></h6>
-      </li>
-    </div>
-    <br /><br />
-    <div class="divImgTxt">
-      <h4 [innerHtml]="'LOL.LANING.CONTENT51' | translate | safeHtml" style="padding-left: 40px; margin-bottom: 40px;"></h4>
-      <img src="assets/img/visionBush.png" class="imgBush">
-    </div>
-    <h4 [innerHtml]="'LOL.LANING.CONTENT5' | translate | safeHtml"></h4>
-    <br /><br />
-    <h3   [id]="'Bait'">
-      {{ "LOL.LANING.TITLE6" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />
-    <h4>{{ "LOL.LANING.CONTENT6" | translate }}</h4>
-    <br /><br />
-    <h5>{{ "LOL.LANING.SUBTITLE7" | translate }}</h5>
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT7.LIST1' | translate | safeHtml"
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT7.LIST2' | translate | safeHtml"
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT7.LIST3' | translate | safeHtml"
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT7.LIST4' | translate | safeHtml"
-        ></h6>
-      </li>
-    </div>
-    <br /><br />
-    <h4>{{ "LOL.LANING.CONTENT8" | translate }}</h4>
-    <br /><br />
-    <h3   [id]="'Roaming'">
-      {{ "LOL.LANING.TITLE9" | translate }}
-    </h3>
-    <hr class="divider paddingSidebar" />    
-    <img src="assets/img/riverWalk.png" class="imgPath">
+<app-guide-page [config]="config">
+  <section class="chapter-block" aria-labelledby="Introduction">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 1 } }}</p>
+    <h2 id="Introduction">{{ 'LOL.LEFTBAR.INTRODUCTION' | translate }}</h2>
+    <p class="spaced" [innerHTML]="'LOL.LANING.CONTENT1.INTRO1' | translate | safeHtml"></p>
+    <app-guide-bullets [keys]="roles" />
+    <app-callout variant="remember"><span [innerHTML]="'LOL.LANING.CONTENT1.INTRO2' | translate | safeHtml"></span></app-callout>
+  </section>
 
-    <h4 [innerHtml]="'LOL.LANING.CONTENT9' | translate | safeHtml"></h4>
-    <br /><br />
-    <h5>{{ "LOL.LANING.SUBTITLE10" | translate }}</h5>
-    <div class="divList">
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT10.LIST1' | translate | safeHtml"
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT10.LIST2' | translate | safeHtml"
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT10.LIST3' | translate | safeHtml"
-        ></h6>
-      </li>
-      <br />
-      <li>
-        <h6
-          [innerHtml]="'LOL.LANING.CONTENT10.LIST4' | translate | safeHtml"
-        ></h6>
-      </li>
+  <section class="chapter-block" aria-labelledby="LastHit">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 2 } }}</p>
+    <h2 id="LastHit">{{ 'LOL.LANING.TITLE2' | translate }}</h2>
+    <figure>
+      <img src="assets/img/lastHit.png" [alt]="'GUIDES.ALT.LAST_HIT' | translate" loading="lazy" />
+    </figure>
+    @for (p of 'LOL.LANING.CONTENT2' | translate | paragraphs; track $index) {
+      <p class="spaced" [innerHTML]="p | safeHtml"></p>
+    }
+  </section>
+
+  <section class="chapter-block" aria-labelledby="Trading">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 3 } }}</p>
+    <h2 id="Trading">{{ 'LOL.LANING.TITLE3' | translate }}</h2>
+    @for (p of 'LOL.LANING.CONTENT3' | translate | paragraphs; track $index) {
+      <p class="spaced" [innerHTML]="p | safeHtml"></p>
+    }
+    <figure>
+      <img src="assets/img/laneChampions.png" [alt]="'GUIDES.ALT.LANE_CHAMPIONS' | translate" loading="lazy" />
+    </figure>
+
+    <h3 id="trading-how">{{ 'LOL.LANING.SUBTITLE4' | translate }}</h3>
+    <app-guide-cards [keys]="tradeTips" />
+
+    @let tip = 'LOL.LANING.CONTENT51' | translate | lead;
+    <div class="media-text">
+      <app-callout variant="tip" [label]="tip.rawLabel"><span [innerHTML]="tip.body | safeHtml"></span></app-callout>
+      <figure>
+        <img src="assets/img/visionBush.png" [alt]="'GUIDES.ALT.VISION_BUSH' | translate" loading="lazy" />
+      </figure>
     </div>
-    <br><br><br><br>
-  </div>
-</div>
+    @for (p of 'LOL.LANING.CONTENT5' | translate | paragraphs; track $index) {
+      <p class="spaced" [innerHTML]="p | safeHtml"></p>
+    }
+  </section>
+
+  <section class="chapter-block" aria-labelledby="Bait">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 4 } }}</p>
+    <h2 id="Bait">{{ 'LOL.LANING.TITLE6' | translate }}</h2>
+    <p class="spaced">{{ 'LOL.LANING.CONTENT6' | translate }}</p>
+
+    <h3 id="bait-how">{{ 'LOL.LANING.SUBTITLE7' | translate }}</h3>
+    <app-guide-cards [keys]="baitTips" />
+    <p class="spaced">{{ 'LOL.LANING.CONTENT8' | translate }}</p>
+  </section>
+
+  <section class="chapter-block" aria-labelledby="Roaming">
+    <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 5 } }}</p>
+    <h2 id="Roaming">{{ 'LOL.LANING.TITLE9' | translate }}</h2>
+    <figure>
+      <img src="assets/img/riverWalk.png" [alt]="'GUIDES.ALT.RIVER_WALK' | translate" loading="lazy" />
+    </figure>
+    @for (p of 'LOL.LANING.CONTENT9' | translate | paragraphs; track $index) {
+      <p class="spaced" [innerHTML]="p | safeHtml"></p>
+    }
+
+    <h3 id="roaming-how">{{ 'LOL.LANING.SUBTITLE10' | translate }}</h3>
+    <app-guide-cards [keys]="roamTips" />
+  </section>
+</app-guide-page>

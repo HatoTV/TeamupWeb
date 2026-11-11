@@ -83,12 +83,6 @@ export class MatchupsDuelComponent {
     return { name: data.author, rank: rankId(data.rank) };
   });
 
-  protected readonly guideUrl = computed(() => {
-    const data = this.meData();
-    if (!data) return null;
-    return (this.ctx.lang() === 'fr' ? data.urlGuideFr : null) ?? data.urlGuide;
-  });
-
   protected readonly meOptions = computed(() => optionsWithLevels(this.options(), this.vsData()));
   protected readonly vsOptions = computed(() => optionsWithLevels(this.options(), this.meData()));
 

@@ -98,7 +98,7 @@
         </div>
       }
 
-      @if (author() || guideUrl() || showBuild) {
+      @if (author() || showBuild) {
         <footer class="tips__foot">
           @if (author(); as a) {
             <div class="author">
@@ -121,13 +121,6 @@
             @if (showBuild) {
               <a class="btn btn--primary btn--sm" [routerLink]="ctx.link('/lol/champions/' + me().champion.slug)">
                 {{ 'MATCHUPSPAGE.BUILD_OF' | translate: { name: me().champion.name } }}
-              </a>
-            }
-            @if (guideUrl(); as url) {
-              <a class="btn btn--secondary btn--sm guide-link" [href]="url" target="_blank" rel="noopener noreferrer">
-                {{ 'MATCHUPSPAGE.READ_GUIDE' | translate: { name: me().champion.name } }}
-                <app-icon name="arrow-up-right" [size]="14" />
-                <span class="sr-only">{{ 'UI.EXTERNAL' | translate }}</span>
               </a>
             }
           </div>

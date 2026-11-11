@@ -1,6 +1,6 @@
 <header class="hero">
   @if (image()) {
-    <img class="hero__art" [src]="image()" alt="" fetchpriority="high" decoding="async" [style.object-position]="imagePosition()" />
+    <picture><source type="image/avif" [attr.srcset]="image() | srcset: 'avif'" sizes="100vw" /><source type="image/webp" [attr.srcset]="image() | srcset: 'webp'" sizes="100vw" /><img class="hero__art" [src]="image() | imgFallback" alt="" fetchpriority="high" decoding="async" [style.object-position]="imagePosition()" /></picture>
   }
   <div class="hero__shade" aria-hidden="true"></div>
   <div class="hero__body">

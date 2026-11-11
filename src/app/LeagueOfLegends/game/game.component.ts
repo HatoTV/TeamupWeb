@@ -1,3 +1,4 @@
+import { PictureComponent } from '../../core/images/image-utils';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
@@ -35,7 +36,7 @@ interface ObjectiveBlock {
 @Component({
   selector: 'app-game',
   standalone: true,
-  imports: [TranslateModule, SafeHtmlPipe, GuidePageComponent, GuideBulletsComponent, LeadPipe, LinesPipe, ParagraphsPipe],
+  imports: [PictureComponent, TranslateModule, SafeHtmlPipe, GuidePageComponent, GuideBulletsComponent, LeadPipe, LinesPipe, ParagraphsPipe],
   templateUrl: './game.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

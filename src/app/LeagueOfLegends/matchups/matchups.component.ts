@@ -1,3 +1,5 @@
+import { ImgFallbackPipe, SrcsetPipe } from '../../core/images/image-utils';
+import { NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, effect, inject, signal, untracked } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { FormsModule } from '@angular/forms';
@@ -54,7 +56,7 @@ export function rankId(rank: string | null): string | null {
 @Component({
   selector: 'app-matchups',
   standalone: true,
-  imports: [
+  imports: [SrcsetPipe, ImgFallbackPipe, NgOptimizedImage, 
     TranslateModule,
     RouterLink,
     FormsModule,

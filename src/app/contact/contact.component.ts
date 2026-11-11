@@ -1,3 +1,4 @@
+import { ImgFallbackPipe, SrcsetPipe } from '../core/images/image-utils';
 import { ChangeDetectionStrategy, Component, effect, inject } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { LiveStatusService } from '../core/live-status.service';
@@ -12,7 +13,7 @@ import { IconComponent } from '../shared/ui/icon/icon.component';
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [TranslateModule, SafeHtmlPipe, ParagraphsPipe, IconComponent, BrandIconComponent],
+  imports: [SrcsetPipe, ImgFallbackPipe, TranslateModule, SafeHtmlPipe, ParagraphsPipe, IconComponent, BrandIconComponent],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -1,3 +1,5 @@
+import { ImgFallbackPipe, SrcsetPipe } from '../../core/images/image-utils';
+import { NgOptimizedImage } from '@angular/common';
 import { isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, Component, DestroyRef, PLATFORM_ID, computed, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
@@ -30,7 +32,7 @@ interface PickerCard {
 @Component({
   selector: 'app-picker',
   standalone: true,
-  imports: [TranslateModule, RouterLink, IconComponent],
+  imports: [SrcsetPipe, ImgFallbackPipe, NgOptimizedImage, TranslateModule, RouterLink, IconComponent],
   templateUrl: './picker.component.html',
   styleUrl: './picker.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

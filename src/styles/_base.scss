@@ -55,6 +55,11 @@ video {
   height: auto;
 }
 
+// <picture> wrappers must not change layout: the <img> behaves as a direct child.
+picture {
+  display: contents;
+}
+
 a {
   color: inherit;
   text-decoration: none;

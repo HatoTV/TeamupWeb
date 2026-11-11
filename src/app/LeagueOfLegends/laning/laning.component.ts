@@ -1,3 +1,4 @@
+import { PictureComponent } from '../../core/images/image-utils';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
@@ -11,7 +12,7 @@ const K = 'LOL.LANING';
 @Component({
   selector: 'app-laning',
   standalone: true,
-  imports: [
+  imports: [PictureComponent, 
     TranslateModule,
     SafeHtmlPipe,
     GuidePageComponent,

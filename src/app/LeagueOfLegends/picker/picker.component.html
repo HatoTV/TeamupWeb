@@ -1,5 +1,5 @@
 <section class="hero">
-  <img class="hero__art" src="assets/img/site/bkgpicker.webp" alt="" fetchpriority="high" />
+  <picture><source type="image/avif" [attr.srcset]="'assets/img/site/bkgpicker.webp' | srcset: 'avif'" sizes="100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/bkgpicker.webp' | srcset: 'webp'" sizes="100vw" /><img class="hero__art" [src]="'assets/img/site/bkgpicker.webp' | imgFallback" alt="" fetchpriority="high" /></picture>
   <div class="hero__shade" aria-hidden="true"></div>
   <div class="hero__body">
     <p class="hero__kicker">{{ 'PICKERPAGE.KICKER' | translate }}</p>
@@ -54,7 +54,7 @@
         <img class="draw__art" [src]="data.splashUrl(d.champion)" alt="" />
         <div class="draw__shade" aria-hidden="true"></div>
         <div class="draw__body">
-          <img class="draw__icon" [src]="d.icon" alt="" width="96" height="96" />
+          <img class="draw__icon" [ngSrc]="d.icon" alt="" width="96" height="96" />
           <div class="draw__text">
             <p class="draw__kicker" id="draw-title">
               {{ 'PICKERPAGE.DRAW_KICKER' | translate }}
@@ -94,7 +94,7 @@
         <li>
           <a class="champ" [routerLink]="ctx.link('/lol/matchups')" [queryParams]="{ champion: card.champion.slug }">
             <span class="champ__media">
-              <img [src]="card.icon" alt="" width="120" height="120" loading="lazy" decoding="async" />
+              <img [ngSrc]="card.icon" alt="" width="120" height="120" />
               <span class="champ__roles">
                 @for (r of card.champion.roles; track r) {
                   <span class="champ__role"><img [src]="'assets/img/site/' + r + '.webp'" alt="" width="14" height="14" /></span>

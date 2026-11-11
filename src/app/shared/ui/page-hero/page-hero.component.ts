@@ -1,3 +1,4 @@
+import { ImgFallbackPipe, SrcsetPipe } from '../../../core/images/image-utils';
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
@@ -17,7 +18,7 @@ export interface HeroTag {
 @Component({
   selector: 'app-page-hero',
   standalone: true,
-  imports: [RouterLink, TranslateModule],
+  imports: [SrcsetPipe, ImgFallbackPipe, RouterLink, TranslateModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './page-hero.component.html',
   styleUrl: './page-hero.component.scss',

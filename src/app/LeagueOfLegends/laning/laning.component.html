@@ -11,7 +11,7 @@
     <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 2 } }}</p>
     <h2 id="LastHit">{{ 'LOL.LANING.TITLE2' | translate }}</h2>
     <figure>
-      <img src="assets/img/lastHit.png" [alt]="'GUIDES.ALT.LAST_HIT' | translate" loading="lazy" />
+      <app-picture src="assets/img/lastHit.png" [alt]="'GUIDES.ALT.LAST_HIT' | translate" />
     </figure>
     @for (p of 'LOL.LANING.CONTENT2' | translate | paragraphs; track $index) {
       <p class="spaced" [innerHTML]="p | safeHtml"></p>
@@ -25,7 +25,7 @@
       <p class="spaced" [innerHTML]="p | safeHtml"></p>
     }
     <figure>
-      <img src="assets/img/laneChampions.png" [alt]="'GUIDES.ALT.LANE_CHAMPIONS' | translate" loading="lazy" />
+      <app-picture src="assets/img/laneChampions.png" [alt]="'GUIDES.ALT.LANE_CHAMPIONS' | translate" />
     </figure>
 
     <h3 id="trading-how">{{ 'LOL.LANING.SUBTITLE4' | translate }}</h3>
@@ -35,7 +35,7 @@
     <div class="media-text">
       <app-callout variant="tip" [label]="tip.rawLabel"><span [innerHTML]="tip.body | safeHtml"></span></app-callout>
       <figure>
-        <img src="assets/img/visionBush.png" [alt]="'GUIDES.ALT.VISION_BUSH' | translate" loading="lazy" />
+        <app-picture src="assets/img/visionBush.png" [alt]="'GUIDES.ALT.VISION_BUSH' | translate" />
       </figure>
     </div>
     @for (p of 'LOL.LANING.CONTENT5' | translate | paragraphs; track $index) {
@@ -57,7 +57,7 @@
     <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 5 } }}</p>
     <h2 id="Roaming">{{ 'LOL.LANING.TITLE9' | translate }}</h2>
     <figure>
-      <img src="assets/img/riverWalk.png" [alt]="'GUIDES.ALT.RIVER_WALK' | translate" loading="lazy" />
+      <app-picture src="assets/img/riverWalk.png" [alt]="'GUIDES.ALT.RIVER_WALK' | translate" />
     </figure>
     @for (p of 'LOL.LANING.CONTENT9' | translate | paragraphs; track $index) {
       <p class="spaced" [innerHTML]="p | safeHtml"></p>

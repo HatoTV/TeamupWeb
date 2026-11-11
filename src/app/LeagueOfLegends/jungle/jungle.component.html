@@ -19,15 +19,15 @@
             <p class="info-card__title">{{ item.label }}</p>
             <p class="info-card__text" [innerHTML]="item.body | safeHtml"></p>
           </div>
-          <img [src]="path.image" [alt]="item.label" loading="lazy" />
+          <app-picture [src]="path.image" [alt]="item.label" sizes="(min-width: 1100px) 380px, 100vw" />
         </li>
       }
     </ul>
 
     <h3 id="bot-or-top">{{ 'LOL.JUNGLE.SUBTITLE3' | translate }}</h3>
     <div class="media-text">
-      <figure><img src="assets/img/jungleBlue.png" [alt]="'GUIDES.ALT.JUNGLE_BLUE' | translate" loading="lazy" /></figure>
-      <figure><img src="assets/img/jungleRed.png" [alt]="'GUIDES.ALT.JUNGLE_RED' | translate" loading="lazy" /></figure>
+      <figure><app-picture src="assets/img/jungleBlue.png" [alt]="'GUIDES.ALT.JUNGLE_BLUE' | translate" /></figure>
+      <figure><app-picture src="assets/img/jungleRed.png" [alt]="'GUIDES.ALT.JUNGLE_RED' | translate" /></figure>
     </div>
     <p class="spaced">{{ 'LOL.JUNGLE.CONTENT3.INTRO1' | translate }}</p>
     <app-guide-cards [keys]="sideChecks" />
@@ -37,7 +37,7 @@
     <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 3 } }}</p>
     <h2 id="Objectives">{{ 'LOL.JUNGLE.TITLE4' | translate }}</h2>
     <p class="spaced">{{ 'LOL.JUNGLE.CONTENT4.INTRO1' | translate }}</p>
-    <figure><img src="assets/img/Objectives.jpg" [alt]="'GUIDES.ALT.OBJECTIVES' | translate" loading="lazy" /></figure>
+    <figure><app-picture src="assets/img/Objectives.jpg" [alt]="'GUIDES.ALT.OBJECTIVES' | translate" /></figure>
     <app-guide-cards layout="grid" [keys]="objectives" />
     <p class="spaced" [innerHTML]="'LOL.JUNGLE.CONTENT5' | translate | safeHtml"></p>
   </section>
@@ -48,7 +48,7 @@
     <p class="spaced" [innerHTML]="'LOL.JUNGLE.CONTENT6' | translate | safeHtml"></p>
 
     <h3 id="gank-types">{{ 'LOL.JUNGLE.CONTENT7.INTRO1' | translate }}</h3>
-    <figure><img src="assets/img/ganksExample.png" [alt]="'GUIDES.ALT.GANKS' | translate" loading="lazy" /></figure>
+    <figure><app-picture src="assets/img/ganksExample.png" [alt]="'GUIDES.ALT.GANKS' | translate" /></figure>
     <app-guide-cards [keys]="gankTypes" />
   </section>
 

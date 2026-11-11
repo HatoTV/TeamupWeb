@@ -1,3 +1,4 @@
+import { ImgFallbackPipe, SrcsetPipe } from '../core/images/image-utils';
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { YouTubePlayer } from '@angular/youtube-player';
@@ -23,7 +24,7 @@ const SECTIONS: { id: string; key: string; level: 1 | 2; marker?: string }[] = [
 @Component({
   selector: 'app-tftgame',
   standalone: true,
-  imports: [
+  imports: [SrcsetPipe, ImgFallbackPipe, 
     TranslateModule,
     SafeHtmlPipe,
     YouTubePlayer,

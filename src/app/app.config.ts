@@ -5,6 +5,8 @@ import {
   ErrorHandler,
 } from '@angular/core';
 import { provideRouter, withInMemoryScrolling } from '@angular/router';
+import { IMAGE_CONFIG, IMAGE_LOADER } from '@angular/common';
+import { teamuppImageLoader } from './core/images/image-utils';
 
 import { routes } from './app.routes.js';
 import { provideClientHydration } from '@angular/platform-browser';
@@ -21,6 +23,8 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes, withInMemoryScrolling({ anchorScrolling: 'enabled', scrollPositionRestoration: 'enabled' })),
     provideClientHydration(),
+    { provide: IMAGE_LOADER, useValue: teamuppImageLoader },
+    { provide: IMAGE_CONFIG, useValue: { breakpoints: [96, 640, 1600], disableImageSizeWarning: true } },
     provideHttpClient(),
     importProvidersFrom(
       TranslateModule.forRoot({

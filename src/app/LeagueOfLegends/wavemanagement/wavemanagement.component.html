@@ -16,7 +16,7 @@
     <h3 id="wm-spawn">{{ 'LOL.WAVEMANAGEMENT.TITLE2' | translate }}</h3>
     <p>{{ 'LOL.WAVEMANAGEMENT.CONTENT2.INTRO1' | translate }}</p>
     <figure>
-      <img src="assets/img/site/wavemanagement_MinionsTypes.webp" [alt]="'GUIDES.ALT.MINION_TYPES' | translate" width="900" height="308" loading="lazy" />
+      <app-picture src="assets/img/site/wavemanagement_MinionsTypes.webp" [alt]="'GUIDES.ALT.MINION_TYPES' | translate" />
     </figure>
     <ul class="cards">
       @for (key of waveTypes; track key) {
@@ -48,7 +48,7 @@
       }
     </ol>
     <figure>
-      <img src="assets/img/wavemanagement_MinionsSpawn.webp" [alt]="'GUIDES.ALT.MINION_SPAWN' | translate" loading="lazy" />
+      <app-picture src="assets/img/wavemanagement_MinionsSpawn.webp" [alt]="'GUIDES.ALT.MINION_SPAWN' | translate" />
     </figure>
     @let bonus = 'LOL.WAVEMANAGEMENT.CONTENT2.INTRO3' | translate | lead;
     <app-callout variant="bonus"><span [innerHTML]="bonus.body | safeHtml"></span></app-callout>
@@ -92,7 +92,7 @@
       ]"
     />
     <figure>
-      <img src="assets/img/laneFreeze.jpg" [alt]="'GUIDES.ALT.LANE_FREEZE' | translate" loading="lazy" />
+      <app-picture src="assets/img/laneFreeze.jpg" [alt]="'GUIDES.ALT.LANE_FREEZE' | translate" />
       <figcaption>
         <span [innerHTML]="'LOL.WAVEMANAGEMENT.CONTENT6.LIST5' | translate | safeHtml"></span>
         <br />{{ 'GUIDES.CREDITS' | translate: { source: 'Mobalytics' } }}

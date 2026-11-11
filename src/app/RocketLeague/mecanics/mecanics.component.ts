@@ -1,3 +1,4 @@
+import { ImgFallbackPipe, SrcsetPipe } from '../../core/images/image-utils';
 import { ChangeDetectionStrategy, Component, computed, effect, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
@@ -37,7 +38,7 @@ export function sortMechanics(list: Mechanic[], sort: MechanicSort): Mechanic[] 
 @Component({
   selector: 'app-mecanics',
   standalone: true,
-  imports: [TranslateModule, RouterLink, SafeHtmlPipe, IconComponent, MeterComponent],
+  imports: [SrcsetPipe, ImgFallbackPipe, TranslateModule, RouterLink, SafeHtmlPipe, IconComponent, MeterComponent],
   templateUrl: './mecanics.component.html',
   styleUrl: './mecanics.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

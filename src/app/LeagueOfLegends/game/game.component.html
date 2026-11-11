@@ -31,7 +31,7 @@
       <h3 [id]="block.id">{{ block.titleKey | translate }}</h3>
       <div class="media-text">
         <figure>
-          <img [src]="block.image" [alt]="block.titleKey | translate" loading="lazy" />
+          <app-picture [src]="block.image" [alt]="block.titleKey | translate" sizes="(min-width: 1100px) 380px, 100vw" />
         </figure>
         <div>
           @if (block.bullets) {

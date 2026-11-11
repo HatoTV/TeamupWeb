@@ -1,3 +1,4 @@
+import { PictureComponent } from '../../core/images/image-utils';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
@@ -11,7 +12,7 @@ const K = 'LOL.JUNGLE';
 @Component({
   selector: 'app-jungle',
   standalone: true,
-  imports: [TranslateModule, SafeHtmlPipe, GuidePageComponent, GuideCardsComponent, GuideBulletsComponent, CalloutComponent, LeadPipe],
+  imports: [PictureComponent, TranslateModule, SafeHtmlPipe, GuidePageComponent, GuideCardsComponent, GuideBulletsComponent, CalloutComponent, LeadPipe],
   templateUrl: './jungle.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

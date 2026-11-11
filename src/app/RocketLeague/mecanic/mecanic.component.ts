@@ -1,3 +1,4 @@
+import { ImgFallbackPipe, SrcsetPipe } from '../../core/images/image-utils';
 import { ChangeDetectionStrategy, Component, ElementRef, computed, effect, inject, signal, untracked, viewChild } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
@@ -27,7 +28,7 @@ export function suggestions(all: Mechanic[], current: Mechanic, count = 3): Mech
 @Component({
   selector: 'app-mecanic',
   standalone: true,
-  imports: [TranslateModule, RouterLink, SafeHtmlPipe, LinesPipe, IconComponent, MeterComponent],
+  imports: [SrcsetPipe, ImgFallbackPipe, TranslateModule, RouterLink, SafeHtmlPipe, LinesPipe, IconComponent, MeterComponent],
   templateUrl: './mecanic.component.html',
   styleUrl: './mecanic.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

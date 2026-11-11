@@ -1,5 +1,5 @@
 <div class="banner" aria-hidden="true">
-  <img src="assets/img/site/bkgHome.webp" alt="" fetchpriority="high" />
+  <picture><source type="image/avif" [attr.srcset]="'assets/img/site/bkgHome.webp' | srcset: 'avif'" sizes="100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/bkgHome.webp' | srcset: 'webp'" sizes="100vw" /><img [src]="'assets/img/site/bkgHome.webp' | imgFallback" alt="" fetchpriority="high" /></picture>
 </div>
 
 <div class="profile">

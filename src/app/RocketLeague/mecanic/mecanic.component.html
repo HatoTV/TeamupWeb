@@ -1,5 +1,5 @@
 <div class="page">
-  <img class="page__art" src="assets/img/site/bkgRocketLeague.webp" alt="" />
+  <picture><source type="image/avif" [attr.srcset]="'assets/img/site/bkgRocketLeague.webp' | srcset: 'avif'" sizes="100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/bkgRocketLeague.webp' | srcset: 'webp'" sizes="100vw" /><img class="page__art" [src]="'assets/img/site/bkgRocketLeague.webp' | imgFallback" alt="" /></picture>
   <div class="page__shade" aria-hidden="true"></div>
 
   <div class="container page__inner">

@@ -1,5 +1,5 @@
 <header class="hero">
-  <img class="hero__art" src="assets/img/site/bkgContent_Tft.webp" alt="" fetchpriority="high" />
+  <picture><source type="image/avif" [attr.srcset]="'assets/img/site/bkgContent_Tft.webp' | srcset: 'avif'" sizes="100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/bkgContent_Tft.webp' | srcset: 'webp'" sizes="100vw" /><img class="hero__art" [src]="'assets/img/site/bkgContent_Tft.webp' | imgFallback" alt="" fetchpriority="high" /></picture>
   <div class="hero__shade" aria-hidden="true"></div>
   <div class="container hero__inner">
     <div class="hero__intro">
@@ -62,13 +62,13 @@
           }
         </ol>
         <figure>
-          <img src="assets/img/tftDuration.jpg" [alt]="'TFTPAGE.ALT.DURATION' | translate" loading="lazy" />
+          <picture><source type="image/avif" [attr.srcset]="'assets/img/tftDuration.jpg' | srcset: 'avif'" sizes="(min-width: 1100px) 760px, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/tftDuration.jpg' | srcset: 'webp'" sizes="(min-width: 1100px) 760px, 100vw" /><img [src]="'assets/img/tftDuration.jpg' | imgFallback" [alt]="'TFTPAGE.ALT.DURATION' | translate" loading="lazy" /></picture>
         </figure>
         <p class="spaced" [innerHTML]="'TFT.LIST1.OUTRO' | translate | safeHtml"></p>
         <div class="media-text">
           <app-callout variant="tip"><span [innerHTML]="'TFT.LIST1.OUTRO1' | translate | safeHtml"></span></app-callout>
           <figure>
-            <img src="assets/img/tft_nextfigh.png" [alt]="'TFTPAGE.ALT.NEXT_FIGHT' | translate" loading="lazy" />
+            <picture><source type="image/avif" [attr.srcset]="'assets/img/tft_nextfigh.png' | srcset: 'avif'" sizes="(min-width: 1100px) 380px, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/tft_nextfigh.png' | srcset: 'webp'" sizes="(min-width: 1100px) 380px, 100vw" /><img [src]="'assets/img/tft_nextfigh.png' | imgFallback" [alt]="'TFTPAGE.ALT.NEXT_FIGHT' | translate" loading="lazy" /></picture>
           </figure>
         </div>
       </section>
@@ -102,11 +102,11 @@
           <p class="spaced" [innerHTML]="p | safeHtml"></p>
         }
         <figure>
-          <img src="assets/img/tft_championpower.jpg" [alt]="'TFTPAGE.ALT.CHAMPION_POWER' | translate" loading="lazy" />
+          <picture><source type="image/avif" [attr.srcset]="'assets/img/tft_championpower.jpg' | srcset: 'avif'" sizes="(min-width: 1100px) 760px, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/tft_championpower.jpg' | srcset: 'webp'" sizes="(min-width: 1100px) 760px, 100vw" /><img [src]="'assets/img/tft_championpower.jpg' | imgFallback" [alt]="'TFTPAGE.ALT.CHAMPION_POWER' | translate" loading="lazy" /></picture>
         </figure>
         <div class="media-text">
           <figure>
-            <img src="assets/img/site/tft_championpool.webp" [alt]="'TFTPAGE.ALT.CHAMPION_POOL' | translate" loading="lazy" />
+            <picture><source type="image/avif" [attr.srcset]="'assets/img/site/tft_championpool.webp' | srcset: 'avif'" sizes="(min-width: 1100px) 380px, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/tft_championpool.webp' | srcset: 'webp'" sizes="(min-width: 1100px) 380px, 100vw" /><img [src]="'assets/img/site/tft_championpool.webp' | imgFallback" [alt]="'TFTPAGE.ALT.CHAMPION_POOL' | translate" loading="lazy" /></picture>
           </figure>
           <div>
             @for (p of 'TFT.LIST3.OUTRO1' | translate | paragraphs; track $index) {

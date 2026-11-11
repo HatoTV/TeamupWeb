@@ -1,5 +1,5 @@
 <header class="hero">
-  <img class="hero__art" src="assets/img/site/bkgRocketLeague.webp" alt="" fetchpriority="high" />
+  <picture><source type="image/avif" [attr.srcset]="'assets/img/site/bkgRocketLeague.webp' | srcset: 'avif'" sizes="100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/bkgRocketLeague.webp' | srcset: 'webp'" sizes="100vw" /><img class="hero__art" [src]="'assets/img/site/bkgRocketLeague.webp' | imgFallback" alt="" fetchpriority="high" /></picture>
   <div class="hero__shade" aria-hidden="true"></div>
   <div class="container hero__inner">
     <img class="hero__logo" src="assets/img/site/rl_logo.webp" [alt]="'GAMES.RL' | translate" width="280" height="109" />

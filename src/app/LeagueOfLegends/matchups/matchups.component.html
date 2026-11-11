@@ -12,7 +12,7 @@
         }
       </div>
     } @else {
-      <img class="hero__fallback" src="assets/img/site/matchup_bkg.webp" alt="" fetchpriority="high" />
+      <picture><source type="image/avif" [attr.srcset]="'assets/img/site/matchup_bkg.webp' | srcset: 'avif'" sizes="100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/matchup_bkg.webp' | srcset: 'webp'" sizes="100vw" /><img class="hero__fallback" [src]="'assets/img/site/matchup_bkg.webp' | imgFallback" alt="" fetchpriority="high" /></picture>
     }
   </div>
   <div class="hero__shade" aria-hidden="true"></div>
@@ -211,7 +211,7 @@
       @for (list of lists(); track list.id) {
         <div class="list card" [class.list--counters]="list.kind === 'counters'">
           <h2 class="list__head">
-            <img [src]="list.owner.icon" alt="" width="30" height="30" />
+            <img [ngSrc]="list.owner.icon" alt="" width="30" height="30" />
             {{ (list.kind === 'counters' ? 'LOL.MATCHUPS.BESTPICKAGAINST' : 'LOL.MATCHUPS.WORSTPICKAGAINST') | translate }}
             {{ list.owner.champion.name }}
           </h2>
@@ -225,7 +225,7 @@
                   [attr.aria-label]="'MATCHUPSPAGE.LOAD_MATCHUP' | translate: { a: list.owner.champion.name, b: row.name }"
                 >
                   @if (row.icon) {
-                    <img [src]="row.icon" alt="" width="36" height="36" loading="lazy" />
+                    <img [ngSrc]="row.icon" alt="" width="36" height="36" />
                   }
                   <span class="list__name">{{ row.name }}</span>
                   <app-difficulty-badge [level]="row.level" />

@@ -1,3 +1,5 @@
+import { ImgFallbackPipe, SrcsetPipe } from '../core/images/image-utils';
+import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
@@ -43,7 +45,7 @@ const PICKER_PREVIEW = 7;
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [TranslateModule, RouterLink, SafeHtmlPipe, GlobalSearchComponent, IconComponent, DifficultyBadgeComponent],
+  imports: [SrcsetPipe, ImgFallbackPipe, NgOptimizedImage, TranslateModule, RouterLink, SafeHtmlPipe, GlobalSearchComponent, IconComponent, DifficultyBadgeComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

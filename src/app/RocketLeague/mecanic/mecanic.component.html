@@ -1,0 +1,122 @@
+<div class="page">
+  <img class="page__art" src="assets/img/site/bkgRocketLeague.webp" alt="" />
+  <div class="page__shade" aria-hidden="true"></div>
+
+  <div class="container page__inner">
+    @if (mechanic(); as m) {
+      <nav class="crumbs" [attr.aria-label]="'NAV.BREADCRUMB' | translate">
+        <ol>
+          <li><a [routerLink]="ctx.link('/rocket/mecanics')">{{ 'GAMES.RL' | translate }}</a></li>
+          <li><a [routerLink]="ctx.link('/rocket/mecanics')">{{ 'RLPAGE.MECHANICS' | translate }}</a></li>
+          <li><span aria-current="page">{{ m.name }}</span></li>
+        </ol>
+      </nav>
+
+      <div class="head">
+        <div>
+          <h1 class="head__title t-page-title">
+            {{ m.name }}
+            @if (m.subname) {
+              <span class="head__sub">{{ m.subname }}</span>
+            }
+          </h1>
+          <p class="head__author">
+            @if (m.author === 'Hato') {
+              <img src="assets/img/site/HatoPP_circular.webp" alt="" width="28" height="28" />
+            }
+            {{ 'RLPAGE.DEMO_BY' | translate }} <strong>{{ m.author }}</strong>
+          </p>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <p class="stat__label">{{ 'RL.MECANICS.DIFFICULTY' | translate }}</p>
+            <p class="stat__value">
+              <app-meter class="meter--difficulty" [value]="m.difficulty" [label]="'RL.MECANICS.DIFFICULTY' | translate" />
+              <strong aria-hidden="true">{{ m.difficulty }}/5</strong>
+            </p>
+          </div>
+          <div class="stat">
+            <p class="stat__label">{{ 'RL.MECANICS.UTILITY' | translate }}</p>
+            <p class="stat__value">
+              <app-meter [value]="m.utility" [label]="'RL.MECANICS.UTILITY' | translate" />
+              <strong aria-hidden="true">{{ m.utility }}/5</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="layout">
+        <div class="layout__main">
+          <div class="player">
+            <video
+              #video
+              controls
+              playsinline
+              muted
+              preload="none"
+              [poster]="m.thumbnail"
+              [src]="m.video"
+              [loop]="loop()"
+              [attr.aria-label]="'RLPAGE.VIDEO_LABEL' | translate: { name: m.name }"
+              (loadedmetadata)="onRateReset()"
+              (play)="onRateReset()"
+            >
+              {{ 'GUIDES.VIDEO_FALLBACK' | translate }}
+            </video>
+            <div class="player__options">
+              <button type="button" class="player__toggle" [attr.aria-pressed]="slow()" [attr.aria-label]="'RLPAGE.SLOW_LABEL' | translate" (click)="slow.set(!slow())">
+                {{ 'RLPAGE.SLOW' | translate }}
+              </button>
+              <button type="button" class="player__toggle" [attr.aria-pressed]="loop()" [attr.aria-label]="'RLPAGE.LOOP_LABEL' | translate" (click)="loop.set(!loop())">
+                <app-icon name="repeat" [size]="14" /> {{ 'RLPAGE.LOOP' | translate }}
+              </button>
+            </div>
+          </div>
+
+          <section class="panel why" aria-labelledby="why-title">
+            <h2 id="why-title" class="panel__title">{{ 'RL.WHYMECANIC' | translate }}</h2>
+            @for (p of m.explanationKey | translate | lines; track $index) {
+              <p [innerHTML]="p | safeHtml"></p>
+            }
+          </section>
+        </div>
+
+        <section class="panel steps" aria-labelledby="steps-title">
+          <h2 id="steps-title" class="panel__title">{{ 'RLPAGE.STEPS_TITLE' | translate }}</h2>
+          <ol class="timeline">
+            @for (step of (m.stepsKey | translate).split(';'); track $index; let i = $index) {
+              @if (step.trim()) {
+                <li class="timeline__item">
+                  <span class="timeline__n" aria-hidden="true">{{ i + 1 }}</span>
+                  <p class="timeline__text">{{ step.trim() }}</p>
+                </li>
+              }
+            }
+          </ol>
+        </section>
+      </div>
+
+      @if (next().length) {
+        <section class="next" aria-labelledby="next-title">
+          <h2 id="next-title" class="panel__title">{{ 'RLPAGE.NEXT_TITLE' | translate }}</h2>
+          <ul class="next__grid">
+            @for (n of next(); track n.slug) {
+              <li>
+                <a class="next__card card-hover" [routerLink]="ctx.link('/rocket/mecanics/' + n.slug)">
+                  <img [src]="n.thumbnail" alt="" width="640" height="360" loading="lazy" />
+                  <span class="next__shade" aria-hidden="true"></span>
+                  <span class="next__name">{{ n.name }}</span>
+                </a>
+              </li>
+            }
+          </ul>
+        </section>
+      }
+    } @else if (loaded()) {
+      <div class="missing">
+        <h1 class="t-section-title">{{ 'RLPAGE.NOT_FOUND' | translate }}</h1>
+        <a class="btn btn--primary" [routerLink]="ctx.link('/rocket/mecanics')">{{ 'RLPAGE.BACK' | translate }}</a>
+      </div>
+    }
+  </div>
+</div>

@@ -11,6 +11,7 @@ import { LaningComponent } from './LeagueOfLegends/laning/laning.component';
 import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
 import { PickerComponent } from './LeagueOfLegends/picker/picker.component';
 import { WavemanagementComponent } from './LeagueOfLegends/wavemanagement/wavemanagement.component';
+import { MecanicComponent } from './RocketLeague/mecanic/mecanic.component';
 import { MecanicsComponent } from './RocketLeague/mecanics/mecanics.component';
 import { TFTGameComponent } from './tftgame/tftgame.component';
 export const routes: Routes = [
@@ -26,8 +27,7 @@ export const routes: Routes = [
   { path: ':lang/lol/game', component: GameComponent },
   { path: ':lang/lol/picker', component: PickerComponent },
   { path: ':lang/rocket/mecanics', component: MecanicsComponent },
-  // Mechanic detail page (dedicated component in phase 3).
-  { path: ':lang/rocket/mecanics/:slug', component: MecanicsComponent },
+  { path: ':lang/rocket/mecanics/:slug', component: MecanicComponent },
   { path: ':lang/contact', component: ContactComponent },
   { path: ':lang/home', component: HomeComponent },
   { path: ':lang/tft', component: TFTGameComponent },

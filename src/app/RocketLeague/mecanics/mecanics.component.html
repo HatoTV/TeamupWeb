@@ -1,132 +1,97 @@
-<app-modal [subname]="subnameModal" [title]="titleModal" [video]="videoModal" [etapes]="etapesModal"
-  [explication]="explicationModal" [utility]="utilityModal" [difficulty]="difficultyModal" [showModal]="isModalVisible"
-  (closeModalEvent)="closeModal()" class="scrollbar-rl">
-</app-modal>
+<header class="hero">
+  <img class="hero__art" src="assets/img/site/bkgRocketLeague.webp" alt="" fetchpriority="high" />
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <img class="hero__logo" src="assets/img/site/rl_logo.webp" [alt]="'GAMES.RL' | translate" width="280" height="109" />
+    <h1 class="hero__title t-page-title">
+      {{ 'RLPAGE.TITLE' | translate }}<br /><span class="hero__accent">{{ 'RLPAGE.TITLE_ACCENT' | translate }}</span>
+    </h1>
+    <p class="hero__subtitle">{{ 'RL.MECANICS.SUBTITLE0' | translate }}</p>
+  </div>
+</header>
 
+<div class="container content">
+  <div class="filters" role="search" [attr.aria-label]="'RL.FILTERS' | translate">
+    <label class="filters__search">
+      <app-icon name="search" [size]="16" />
+      <span class="sr-only">{{ 'RLPAGE.SEARCH_LABEL' | translate }}</span>
+      <input type="search" [placeholder]="'RL.MECANICS.SEARCHPLACEHOLDER' | translate" [value]="search()" (input)="search.set($any($event.target).value)" />
+    </label>
 
-<div class="content scrollbar-rl" #scrollContainer>
-  <div class="bkgContent"></div>
-  <img class="imgBkg" src="assets/img/rocketLeague/bkgRocketLeague.jpg" />
-  <div class="title">
-    <!-- <h1 class="paddingTextMobile">{{ "RL.MECANICS.TITLE0" | translate }}</h1>
-    <h2 class="paddingTextMobile">{{ "RL.MECANICS.SUBTITLE0" | translate }}</h2> -->
-    <img class="logoGame" src="assets/img/rl_logo.png" />
+    <div class="levels" role="group" [attr.aria-label]="'RL.MECANICS.DIFFICULTY' | translate">
+      <span class="levels__label" aria-hidden="true">{{ 'RL.MECANICS.DIFFICULTY' | translate }}</span>
+      @for (level of levels; track level) {
+        <button
+          type="button"
+          class="levels__btn levels__btn--difficulty"
+          [attr.aria-pressed]="difficulties().includes(level)"
+          [attr.aria-label]="'RLPAGE.LEVEL' | translate: { n: level }"
+          (click)="toggle(difficulties, level)"
+        >
+          {{ level }}
+        </button>
+      }
+    </div>
+
+    <div class="levels" role="group" [attr.aria-label]="'RL.MECANICS.UTILITY' | translate">
+      <span class="levels__label" aria-hidden="true">{{ 'RL.MECANICS.UTILITY' | translate }}</span>
+      @for (level of levels; track level) {
+        <button
+          type="button"
+          class="levels__btn levels__btn--utility"
+          [attr.aria-pressed]="utilities().includes(level)"
+          [attr.aria-label]="'RLPAGE.LEVEL' | translate: { n: level }"
+          (click)="toggle(utilities, level)"
+        >
+          {{ level }}
+        </button>
+      }
+    </div>
+
+    <label class="filters__sort">
+      {{ 'RL.MECANICS.TRI' | translate }}
+      <select (change)="setSort($any($event.target).value)">
+        @for (option of sorts; track option.id) {
+          <option [value]="option.id" [selected]="sort() === option.id">{{ option.labelKey | translate }}</option>
+        }
+      </select>
+    </label>
   </div>
 
-  <div class="divContentEmpty"></div>
-  <div class="divContent">
-    <div class="searchAndFilter">
-      <div class="divSearch">
-        <input type="text" class="form-control inputSearch" [placeholder]="'RL.MECANICS.SEARCHPLACEHOLDER' | translate"
-          [(ngModel)]="searchTerm" (input)="filterMecanics()" />
-        <span class="search-icon">
-          <app-icon name="search" [size]="16" />
-        </span>
-      </div>
-      <button class="btnFilter" type="button" (click)="openFilters()"
-        [ngClass]="{'btnFilterBkgOpen': isFilterOpen, 'btnFilterBkg': !isFilterOpen}">
-        {{ "RL.FILTERS" | translate }}
-      </button>
-    </div>
-    <div [ngClass]="{'fade': true, 'fade-out': !isFilterOpen}">
-      <div class="filter-container">
-        <!-- Liste des utilités -->
-        <div>
-          <span class="titleFilter">{{ 'RL.MECANICS.DIFFICULTY' | translate }}</span>
-          <div *ngFor="let option of filterOptions | slice: 0:5">
-            <div class="divFiltersCheck">
-              <input type="checkbox" id="{{ option.id }}" [(ngModel)]="option.selected" (change)="onFilterChange()"
-                class="form-check-input" />
-              <label class="form-check-label" for="{{ option.id }}">
-                <app-icon [name]="option.rating >= 1 ? 'star' : 'star-outline'" [size]="14" />
-                <app-icon [name]="option.rating >= 2 ? 'star' : 'star-outline'" [size]="14" />
-                <app-icon [name]="option.rating >= 3 ? 'star' : 'star-outline'" [size]="14" />
-                <app-icon [name]="option.rating >= 4 ? 'star' : 'star-outline'" [size]="14" />
-                <app-icon [name]="option.rating >= 5 ? 'star' : 'star-outline'" [size]="14" />
-              </label>
-            </div>
-          </div>
-        </div>
+  <p class="count" aria-live="polite">{{ 'RLPAGE.COUNT' | translate: { count: visible().length } }}</p>
 
-        <!-- Liste des difficultés -->
-        <div>
-          <span class="titleFilter">{{ 'RL.MECANICS.UTILITY' | translate }}</span>
-          <div *ngFor="let option of filterOptions | slice: 5:10">
-            <div class="divFiltersCheck">
-              <input type="checkbox" id="{{ option.id }}" [(ngModel)]="option.selected" (change)="onFilterChange()"
-                class="form-check-input" />
-              <label class="form-check-label" for="{{ option.id }}">
-                <app-icon [name]="option.rating >= 1 ? 'star' : 'star-outline'" [size]="14" />
-                <app-icon [name]="option.rating >= 2 ? 'star' : 'star-outline'" [size]="14" />
-                <app-icon [name]="option.rating >= 3 ? 'star' : 'star-outline'" [size]="14" />
-                <app-icon [name]="option.rating >= 4 ? 'star' : 'star-outline'" [size]="14" />
-                <app-icon [name]="option.rating >= 5 ? 'star' : 'star-outline'" [size]="14" />
-              </label>
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <span class="titleFilter">{{ 'RL.MECANICS.TRI' | translate }}</span>
-          <div style="display: flex;">
-            <div style="display: flex;flex-direction: column;margin-right: 30px;">
-              <div *ngFor="let option of sortOptions.slice(0, 3)">
-                <div class="form-check">
-                  <input type="radio" id="{{ option.id }}" name="sortCriteria" [(ngModel)]="sortCriteria"
-                    (change)="sortMecanics()" class="form-check-input" [value]="option.id" />
-                  <label class="form-check-label txtFilter" for="{{ option.id }}">
-                    {{ option.label | translate }}
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div style="display: flex;flex-direction: column;">
-            <div *ngFor="let option of sortOptions.slice(3, 6)">
-                <div class="form-check">
-                  <input type="radio" id="{{ option.id }}" name="sortCriteria" [(ngModel)]="sortCriteria"
-                    (change)="sortMecanics()" class="form-check-input" [value]="option.id" />
-                  <label class="form-check-label txtFilter" for="{{ option.id }}">
-                    {{ option.label | translate }}
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="divAllMecanics" *ngIf="filteredMecanics.length > 0; else noResults">
-      <div *ngFor="let mecanic of filteredMecanics;let i = index" class="divMecanic" (click)="openModal(mecanic)"
-        [ngClass]="{ 'filtered': hoverIndex !== null && hoverIndex !== i }" (mouseenter)="onMouseEnter(i)"
-        (mouseleave)="onMouseLeave()">
-        <div>
-          <img src="{{ mecanic.img }}" class="imgMecanic" />
-          <div class="divTitleMecanic">
-            <h3>{{ mecanic.name }}</h3>
-            <h6 *ngIf="mecanic.subname">{{ mecanic.subname }}</h6>
-          </div>
-          <div class="divStats">
-            <div class="divStatsUnique"
-              [ngStyle]="{'background-color': getBackgroundColorDifficulty(mecanic.difficulty)}">
-              <h5 [innerHtml]="'RL.MECANICS.DIFFICULTY' | translate | safeHtml"></h5>
-              <div class="star-rating">
-                <app-icon *ngFor="let star of stars; let i = index" [name]="i < mecanic.difficulty ? 'star' : 'star-outline'" [size]="14" />
-              </div>
-            </div>
-            <div class="divStatsUnique" [ngStyle]="{'background-color': getBackgroundColorUtility(mecanic.utility)}"
-              style="border-top: 3px solid white;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">
-              <h5 [innerHtml]="'RL.MECANICS.UTILITY' | translate | safeHtml"></h5>
-              <div class="star-rating">
-                <app-icon *ngFor="let star of stars; let i = index" [name]="i < mecanic.utility ? 'star' : 'star-outline'" [size]="14" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Template à afficher si filteredMecanics est vide -->
-    <ng-template #noResults>
-      <h4 [innerHtml]="'RL.MECANICS.NOMECANIC' | translate | safeHtml" class="txtNoMecanic"></h4>
-    </ng-template>
-  </div>
+  <ul class="grid">
+    @for (m of visible(); track m.slug) {
+      <li>
+        <a class="card card-hover" [routerLink]="ctx.link('/rocket/mecanics/' + m.slug)">
+          <span class="card__media">
+            <img [src]="m.thumbnail" alt="" width="640" height="360" loading="lazy" decoding="async" />
+            <span class="card__shade" aria-hidden="true"></span>
+            <span class="card__play" aria-hidden="true"><app-icon name="play" [size]="16" /></span>
+            <span class="card__author">{{ 'RLPAGE.BY' | translate: { author: m.author } }}</span>
+          </span>
+          <span class="card__body">
+            <span class="card__name"
+              >{{ m.name }}
+              @if (m.subname) {
+                <span class="card__sub">{{ m.subname }}</span>
+              }
+            </span>
+            <span class="card__stat">
+              <span class="card__stat-label">{{ 'RL.MECANICS.DIFFICULTY' | translate }}</span>
+              <app-meter class="meter--difficulty" [value]="m.difficulty" [label]="'RL.MECANICS.DIFFICULTY' | translate" />
+            </span>
+            <span class="card__stat">
+              <span class="card__stat-label">{{ 'RL.MECANICS.UTILITY' | translate }}</span>
+              <app-meter [value]="m.utility" [label]="'RL.MECANICS.UTILITY' | translate" />
+            </span>
+          </span>
+        </a>
+      </li>
+    } @empty {
+      @if (search() || difficulties().length || utilities().length) {
+        <li class="empty" [innerHTML]="'RL.MECANICS.NOMECANIC' | translate | safeHtml"></li>
+      }
+    }
+  </ul>
 </div>

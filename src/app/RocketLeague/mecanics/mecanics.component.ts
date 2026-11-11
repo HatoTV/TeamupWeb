@@ -1,358 +1,92 @@
-import { IconComponent } from '../../shared/ui/icon/icon.component';
-import { CommonModule } from '@angular/common';
-import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { ChangeDetectionStrategy, Component, computed, effect, inject, signal } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { Mechanic, RlMechanicsService } from '../../core/data/rl-mechanics.service';
+import { RouteContextService } from '../../core/route-context.service';
+import { SeoService } from '../../core/seo.service';
+import { normalizeForSearch } from '../../core/slug';
 import { SafeHtmlPipe } from '../../safe-html.pipe';
-import { HttpClient } from '@angular/common/http';
-import { ModalComponent } from '../modal/modal.component';
-import { ScrollService } from '../../services/scroll.service';
+import { IconComponent } from '../../shared/ui/icon/icon.component';
+import { MeterComponent } from '../../shared/ui/meter.component';
+
+export type MechanicSort = 'utility-desc' | 'utility-asc' | 'difficulty-asc' | 'difficulty-desc' | 'name-asc' | 'name-desc';
+
+/** Sort options; labels reuse the existing RL.MECANICS keys (arrow ↓ = highest first). */
+export const SORTS: { id: MechanicSort; labelKey: string }[] = [
+  { id: 'utility-desc', labelKey: 'RL.MECANICS.UTILITY_ASC' },
+  { id: 'utility-asc', labelKey: 'RL.MECANICS.UTILITY_DESC' },
+  { id: 'difficulty-asc', labelKey: 'RL.MECANICS.DIFFICULTY_DESC' },
+  { id: 'difficulty-desc', labelKey: 'RL.MECANICS.DIFFICULTY_ASC' },
+  { id: 'name-asc', labelKey: 'RL.MECANICS.NAME_ASC' },
+  { id: 'name-desc', labelKey: 'RL.MECANICS.NAME_DESC' },
+];
+
+export function sortMechanics(list: Mechanic[], sort: MechanicSort): Mechanic[] {
+  const byName = (a: Mechanic, b: Mechanic) => a.name.localeCompare(b.name);
+  const compare: Record<MechanicSort, (a: Mechanic, b: Mechanic) => number> = {
+    'utility-desc': (a, b) => b.utility - a.utility || a.difficulty - b.difficulty || byName(a, b),
+    'utility-asc': (a, b) => a.utility - b.utility || byName(a, b),
+    'difficulty-asc': (a, b) => a.difficulty - b.difficulty || byName(a, b),
+    'difficulty-desc': (a, b) => b.difficulty - a.difficulty || byName(a, b),
+    'name-asc': byName,
+    'name-desc': (a, b) => byName(b, a),
+  };
+  return [...list].sort(compare[sort]);
+}
 
 @Component({
   selector: 'app-mecanics',
   standalone: true,
-  imports: [IconComponent, CommonModule, TranslateModule, SafeHtmlPipe, FormsModule, ModalComponent],
+  imports: [TranslateModule, RouterLink, SafeHtmlPipe, IconComponent, MeterComponent],
   templateUrl: './mecanics.component.html',
-  styleUrl: './mecanics.component.css',
+  styleUrl: './mecanics.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MecanicsComponent {
-  constructor(
-    private elementRef: ElementRef,
-    private scrollService: ScrollService,
-    private http: HttpClient,
-    private translate: TranslateService
-  ) { }
-  @ViewChild('scrollContainer') private scrollContainer!: ElementRef;
-  searchTerm: string = '';
-  mecanics: {
-    name: string;
-    subname: string;
-    img: string;
-    difficulty: number;
-    utility: number;
-    isOpen: boolean;
-    author: string;
-    video: string;
-    etapes: string;
-    explication: string;
-  }[] = [];
-  stars: number[] = [1, 2, 3, 4, 5];
-  isFilterOpen: boolean = false;
-  filterOptions = [
-    {
-      id: 'difficulty1',
-      label: 'RL.MECANICS.DIFFICULTY',
-      selected: false,
-      rating: 1,
-    },
-    {
-      id: 'difficulty2',
-      label: 'RL.MECANICS.DIFFICULTY',
-      selected: false,
-      rating: 2,
-    },
-    {
-      id: 'difficulty3',
-      label: 'RL.MECANICS.DIFFICULTY',
-      selected: false,
-      rating: 3,
-    },
-    {
-      id: 'difficulty4',
-      label: 'RL.MECANICS.DIFFICULTY',
-      selected: false,
-      rating: 4,
-    },
-    {
-      id: 'difficulty5',
-      label: 'RL.MECANICS.DIFFICULTY',
-      selected: false,
-      rating: 5,
-    },
-    {
-      id: 'utility1',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 1,
-    },
-    {
-      id: 'utility2',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 2,
-    },
-    {
-      id: 'utility3',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 3,
-    },
-    {
-      id: 'utility4',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 4,
-    },
-    {
-      id: 'utility5',
-      label: 'RL.MECANICS.UTILITY',
-      selected: false,
-      rating: 5,
-    }
-  ];
+  protected readonly ctx = inject(RouteContextService);
+  private readonly data = inject(RlMechanicsService);
+  private readonly translate = inject(TranslateService);
+  private readonly seo = inject(SeoService);
 
-  toggleSelection(option: any) {
-    option.selected = !option.selected;
-  }
+  protected readonly levels = [1, 2, 3, 4, 5];
+  protected readonly sorts = SORTS;
+  protected readonly search = signal('');
+  protected readonly difficulties = signal<number[]>([]);
+  protected readonly utilities = signal<number[]>([]);
+  protected readonly sort = signal<MechanicSort>('utility-desc');
 
-  getSelectedOptions() {
-    return this.filterOptions.filter((option) => option.selected);
-  }
+  protected readonly visible = computed(() => {
+    const q = normalizeForSearch(this.search());
+    const d = this.difficulties();
+    const u = this.utilities();
+    const filtered = (this.data.list() ?? []).filter(
+      (m) =>
+        (!q || normalizeForSearch(`${m.name} ${m.subname} ${m.author}`).includes(q)) &&
+        (!d.length || d.includes(m.difficulty)) &&
+        (!u.length || u.includes(m.utility))
+    );
+    return sortMechanics(filtered, this.sort());
+  });
 
-  filteredMecanics: {
-    name: string;
-    subname: string;
-    img: string;
-    difficulty: number;
-    utility: number;
-    isOpen: boolean;
-    author: string;
-    video: string;
-    etapes: string;
-    explication: string;
-  }[] = [];
-
-  scrollToElement(sectionId: string) {
-    const element = document.getElementById(sectionId);
-    if (element && this.scrollContainer) {
-      const container = this.scrollContainer.nativeElement;
-      const elementRect = element.getBoundingClientRect();
-      const containerRect = container.getBoundingClientRect();
-      const scrollTop =
-        elementRect.top - containerRect.top + container.scrollTop;
-      container.scrollTo({
-        top: scrollTop,
-        behavior: 'smooth',
-      });
-    }
-  }
-
-  ngOnInit() {
-    this.scrollService.scrollToSection$.subscribe((sectionId: string | null) => {
-      if (sectionId) {
-        this.scrollToElement(sectionId);
-      }
+  constructor() {
+    void this.data.load().catch(() => undefined);
+    effect(() => {
+      this.ctx.lang();
+      this.translate.get(['RLPAGE.TITLE', 'RLPAGE.TITLE_ACCENT', 'RLPAGE.META_LIST', 'GAMES.RL']).subscribe((t) =>
+        this.seo.setPage({
+          title: `${t['GAMES.RL']} · ${t['RLPAGE.TITLE']} ${t['RLPAGE.TITLE_ACCENT']}`,
+          description: t['RLPAGE.META_LIST'],
+          image: '/assets/img/site/bkgRocketLeague.webp',
+        })
+      );
     });
-
-    this.http
-      .get<
-        {
-          name: string;
-          subname: string;
-          img: string;
-          difficulty: number;
-          utility: number;
-          isOpen: boolean;
-          author: string;
-          video: string;
-          etapes: string;
-          explication: string;
-        }[]
-      >('assets/rlmecanics.json')
-      .subscribe((data) => {
-        const mecanicsToTranslate = data.map((item) => ({
-          name: item.name,
-          subname: item.subname,
-          img: item.img,
-          difficulty: item.difficulty,
-          isOpen: item.isOpen,
-          utility: item.utility,
-          author: item.author,
-          video: item.video,
-          explicationKey: item.explication, // Clé pour la traduction de l'explication
-          etapesKey: item.etapes,           // Clé pour la traduction des étapes
-          explication: '', // On initialise avec une chaîne vide
-          etapes: '',      // On initialise avec une chaîne vide
-        }));
-
-        // Traduire les explications et étapes
-        mecanicsToTranslate.forEach((item) => {
-          this.translate.get([item.explicationKey, item.etapesKey]).subscribe((translations) => {
-            item.explication = translations[item.explicationKey];
-            item.etapes = translations[item.etapesKey];
-          });
-        });
-
-        // Assigner les résultats traduits
-        this.mecanics = mecanicsToTranslate.sort((a, b) => a.name.localeCompare(b.name));
-        this.filteredMecanics = [...this.mecanics];
-      });
   }
 
-
-  ngAfterViewInit() {
-    const document = this.elementRef.nativeElement.ownerDocument;
-    const body = document.body;
-    body.style.background =
-      'linear-gradient(to top, var(--rl-bkg-gradient-1),var(--rl-bkg-gradient-2))';
+  protected toggle(list: typeof this.difficulties, level: number): void {
+    list.update((current) => (current.includes(level) ? current.filter((l) => l !== level) : [...current, level]));
   }
 
-  filterMecanics() {
-    const searchTermLower = this.searchTerm.toLowerCase();
-    const uniqueMecanics = new Map<
-      string,
-      {
-        subname: string;
-        name: string;
-        img: string;
-        difficulty: number;
-        utility: number;
-        isOpen: boolean;
-        author: string;
-        video: string;
-        etapes: string;
-        explication: string;
-      }
-    >();
-
-    this.mecanics.forEach((mecanic) => {
-      if (mecanic.name.toLowerCase().includes(searchTermLower)) {
-        uniqueMecanics.set(mecanic.name.toLowerCase(), mecanic);
-      }
-    });
-
-    if (this.searchTerm != '') this.filteredMecanics = Array.from(uniqueMecanics.values());
-    else this.filteredMecanics = [...this.mecanics];
-  }
-
-  isModalVisible: boolean = false;
-  titleModal: string = "";
-  subnameModal: string = "";
-  videoModal: string = "";
-  explicationModal: string = "";
-  utilityModal: number = 0;
-  difficultyModal: number = 0;
-  etapesModal: string[] = [];
-
-  openModal(mecanic: {
-    name: string;
-    subname: string;
-    img: string;
-    difficulty: number;
-    utility: number;
-    isOpen: boolean;
-    author: string;
-    video: string;
-    etapes: string;
-    explication: string;
-  }) {
-    this.subnameModal = mecanic.subname;
-    this.titleModal = mecanic.name;
-    this.videoModal = "assets/rlVideos/" + mecanic.video;
-    this.explicationModal = mecanic.explication;
-    this.etapesModal = mecanic.etapes.split(";");
-    this.utilityModal = mecanic.utility;
-    this.difficultyModal = mecanic.difficulty;
-    this.isModalVisible = true;
-  }
-
-  closeModal() {
-    this.isModalVisible = false;
-  }
-  getBackgroundColorDifficulty(value: number): string {
-    if (value == 4 || value == 5) {
-      return '#d94b4b'; // Si la valeur est 4 ou plus, arrière-plan vert
-    } else if (value == 3) {
-      return '#e2ab45'; // Si la valeur est entre 2 et 3, arrière-plan orange
-    } else if (value == 1 || value == 2) {
-      return '#29b169'; // Si la valeur est inférieure à 2, arrière-plan rouge
-    }
-    return 'white'
-  }
-  getBackgroundColorUtility(value: number): string {
-    if (value == 4 || value == 5) {
-      return '#29b169'; // Si la valeur est 4 ou plus, arrière-plan vert
-    } else if (value == 3) {
-      return '#e2ab45'; // Si la valeur est entre 2 et 3, arrière-plan orange
-    } else if (value == 1 || value == 2) {
-      return '#d94b4b'; // Si la valeur est inférieure à 2, arrière-plan rouge
-    }
-    return 'black'
-  }
-
-  hoverIndex: number | null = null;
-
-  onMouseEnter(index: number) {
-    this.hoverIndex = index;
-  }
-
-  onMouseLeave() {
-    this.hoverIndex = null;
-  }
-
-  openFilters() {
-    this.isFilterOpen = !this.isFilterOpen
-  }
-
-  onFilterChange() {
-    // Récupérer les difficultés sélectionnées
-    const selectedDifficulties = this.filterOptions
-      .filter(option => option.id.includes('difficulty') && option.selected)
-      .map(option => option.rating);
-
-    // Récupérer les utilities sélectionnées
-    const selectedUtilities = this.filterOptions
-      .filter(option => option.id.includes('utility') && option.selected)
-      .map(option => option.rating);
-
-    this.filterMecanics();
-
-    if (selectedDifficulties.length > 0 && selectedUtilities.length == 0) {
-      // Filtrer les mécaniques en fonction des difficultés sélectionnées
-      this.filteredMecanics = this.filteredMecanics.filter(mechanic =>
-        selectedDifficulties.includes(mechanic.difficulty)
-      );
-    }
-    else if (selectedDifficulties.length == 0 && selectedUtilities.length > 0) {
-      // Filtrer les mécaniques en fonction des difficultés sélectionnées
-      this.filteredMecanics = this.filteredMecanics.filter(mechanic =>
-        selectedUtilities.includes(mechanic.utility)
-      );
-    }
-    else if (selectedDifficulties.length > 0 && selectedUtilities.length > 0) {
-      // Filtrer les mécaniques en fonction des difficultés sélectionnées
-      this.filteredMecanics = this.filteredMecanics.filter(mechanic =>
-        selectedDifficulties.includes(mechanic.difficulty) && selectedUtilities.includes(mechanic.utility)
-      );
-    }
-    this.sortMecanics(); // Appeler la méthode de tri après le filtrage
-  }
-
-  sortCriteria: string = 'alphabet_asc'; // Critère par défaut
-
-  // Liste des options de tri
-  sortOptions = [
-    { id: 'alphabet_asc', label: 'RL.MECANICS.NAME_ASC' },
-    { id: 'difficulty_asc', label: 'RL.MECANICS.DIFFICULTY_ASC' },
-    { id: 'utility_asc', label: 'RL.MECANICS.UTILITY_ASC' },
-    { id: 'alphabet_desc', label: 'RL.MECANICS.NAME_DESC' }, // Nouvelle option pour le tri décroissant par nom
-    { id: 'difficulty_desc', label: 'RL.MECANICS.DIFFICULTY_DESC' }, // Nouvelle option pour le tri décroissant par difficulté
-    { id: 'utility_desc', label: 'RL.MECANICS.UTILITY_DESC' } 
-  ];
-
-  sortMecanics() {
-    if (this.sortCriteria === 'alphabet_asc') {
-      this.filteredMecanics.sort((a, b) => a.name.localeCompare(b.name));
-    } else if (this.sortCriteria === 'difficulty_asc') {
-      this.filteredMecanics.sort((a, b) => a.difficulty - b.difficulty);
-    } else if (this.sortCriteria === 'utility_asc') {
-      this.filteredMecanics.sort((a, b) => a.utility - b.utility);
-    } else if (this.sortCriteria === 'alphabet_desc') {
-      this.filteredMecanics.sort((a, b) => b.name.localeCompare(a.name));
-    } else if (this.sortCriteria === 'difficulty_desc') {
-      this.filteredMecanics.sort((a, b) => b.difficulty - a.difficulty);
-    } else if (this.sortCriteria === 'utility_desc') {
-      this.filteredMecanics.sort((a, b) => b.utility - a.utility);
-    }
+  protected setSort(value: string): void {
+    this.sort.set(value as MechanicSort);
   }
 }

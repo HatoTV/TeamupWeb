@@ -16,7 +16,8 @@
     "check": "ng build && npm run test:ci",
     "data:lol": "node tools/split-guides.mjs",
     "images": "node tools/optimize-images.mjs",
-    "prebuild": "node tools/split-guides.mjs && node tools/prerender-routes.mjs"
+    "prebuild": "node tools/split-guides.mjs && node tools/prerender-routes.mjs",
+    "lol-stats:dev": "npm --prefix tools/lol-stats run dev"
   },
   "private": true,
   "dependencies": {

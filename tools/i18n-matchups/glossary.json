@@ -1,0 +1,6278 @@
+{
+ "version": "16.22.1",
+ "keys": {
+  "Q": "A",
+  "W": "Z",
+  "E": "E",
+  "R": "R"
+ },
+ "champions": {
+  "Aatrox": {
+   "en": "Aatrox",
+   "fr": "Aatrox",
+   "passive": {
+    "en": "Deathbringer Stance",
+    "fr": "Posture du massacreur"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "The Darkin Blade",
+     "fr": "Épée des Darkin"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Infernal Chains",
+     "fr": "Chaînes infernales"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Umbral Dash",
+     "fr": "Ruée obscure"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "World Ender",
+     "fr": "Fossoyeur des mondes"
+    }
+   ]
+  },
+  "Ahri": {
+   "en": "Ahri",
+   "fr": "Ahri",
+   "passive": {
+    "en": "Essence Theft",
+    "fr": "Vol essentiel"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Orb of Deception",
+     "fr": "Orbe d'illusion"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Fox-Fire",
+     "fr": "Lucioles"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Charm",
+     "fr": "Charme"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Spirit Rush",
+     "fr": "Assaut spirituel"
+    }
+   ]
+  },
+  "Akali": {
+   "en": "Akali",
+   "fr": "Akali",
+   "passive": {
+    "en": "Assassin's Mark",
+    "fr": "Marque d'assassin"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Five Point Strike",
+     "fr": "Vague de kunais"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Twilight Shroud",
+     "fr": "Linceul nébuleux"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Shuriken Flip",
+     "fr": "Lancer acrobatique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Perfect Execution",
+     "fr": "Maîtrise absolue"
+    }
+   ]
+  },
+  "Akshan": {
+   "en": "Akshan",
+   "fr": "Akshan",
+   "passive": {
+    "en": "Dirty Fighting",
+    "fr": "Fourberie"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Avengerang",
+     "fr": "Vengerang"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Going Rogue",
+     "fr": "Cavalier seul"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Heroic Swing",
+     "fr": "Envolée héroïque"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Comeuppance",
+     "fr": "Bien mérité !"
+    }
+   ]
+  },
+  "Alistar": {
+   "en": "Alistar",
+   "fr": "Alistar",
+   "passive": {
+    "en": "Triumphant Roar",
+    "fr": "Cri triomphant"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Pulverize",
+     "fr": "Atomisation"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Headbutt",
+     "fr": "Coup de tête"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Trample",
+     "fr": "Piétinement"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Unbreakable Will",
+     "fr": "Volonté de fer"
+    }
+   ]
+  },
+  "Ambessa": {
+   "en": "Ambessa",
+   "fr": "Ambessa",
+   "passive": {
+    "en": "Drakehound's Step",
+    "fr": "Ruée des chiens-dragons"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Cunning Sweep / Sundering Slam",
+     "fr": "Frappe fourbe / Frappe fracassante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Repudiation",
+     "fr": "Égide dévastatrice"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Lacerate",
+     "fr": "Lacération"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Public Execution",
+     "fr": "Exécution publique"
+    }
+   ]
+  },
+  "Amumu": {
+   "en": "Amumu",
+   "fr": "Amumu",
+   "passive": {
+    "en": "Cursed Touch",
+    "fr": "Toucher maudit"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Bandage Toss",
+     "fr": "Jet de bandelette"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Despair",
+     "fr": "Désespoir"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Tantrum",
+     "fr": "Colère"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Curse of the Sad Mummy",
+     "fr": "Malédiction d'Amumu"
+    }
+   ]
+  },
+  "Anivia": {
+   "en": "Anivia",
+   "fr": "Anivia",
+   "passive": {
+    "en": "Rebirth",
+    "fr": "Renaissance"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Flash Frost",
+     "fr": "Lance de glace"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Crystallize",
+     "fr": "Cristallisation"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Frostbite",
+     "fr": "Gelure"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Glacial Storm",
+     "fr": "Tempête glaciale"
+    }
+   ]
+  },
+  "Annie": {
+   "en": "Annie",
+   "fr": "Annie",
+   "passive": {
+    "en": "Pyromania",
+    "fr": "Pyromanie"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Disintegrate",
+     "fr": "Désintégration"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Incinerate",
+     "fr": "Incinération"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Molten Shield",
+     "fr": "Bouclier en fusion"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Summon: Tibbers",
+     "fr": "Invocation : Tibbers"
+    }
+   ]
+  },
+  "Aphelios": {
+   "en": "Aphelios",
+   "fr": "Aphelios",
+   "passive": {
+    "en": "The Hitman and the Seer",
+    "fr": "Le Tueur et l'Oracle"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Weapon Abilites",
+     "fr": "Compétences d'arme"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Phase",
+     "fr": "Phase"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Weapon Queue System",
+     "fr": "Système de file d'armes"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Moonlight Vigil",
+     "fr": "Veille au clair de lune"
+    }
+   ]
+  },
+  "Ashe": {
+   "en": "Ashe",
+   "fr": "Ashe",
+   "passive": {
+    "en": "Frost Shot",
+    "fr": "Tir givrant"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Ranger's Focus",
+     "fr": "Concentration du ranger"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Volley",
+     "fr": "Salve"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Hawkshot",
+     "fr": "Rapace"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Enchanted Crystal Arrow",
+     "fr": "Flèche de cristal enchantée"
+    }
+   ]
+  },
+  "AurelionSol": {
+   "en": "Aurelion Sol",
+   "fr": "Aurelion Sol",
+   "passive": {
+    "en": "Cosmic Creator",
+    "fr": "Créateur cosmique"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Breath of Light",
+     "fr": "Souffle de lumière"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Astral Flight",
+     "fr": "Vol astral"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Singularity",
+     "fr": "Trou noir"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Falling Star / The Skies Descend",
+     "fr": "Étoile finale/Apocalypse"
+    }
+   ]
+  },
+  "Aurora": {
+   "en": "Aurora",
+   "fr": "Aurora",
+   "passive": {
+    "en": "Spirit Abjuration",
+    "fr": "Abjuration spirituelle"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Twofold Hex",
+     "fr": "Maléfice"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Across the Veil",
+     "fr": "Derrière le voile"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "The Weirding",
+     "fr": "Sortilège"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Between Worlds",
+     "fr": "Entre les mondes"
+    }
+   ]
+  },
+  "Azir": {
+   "en": "Azir",
+   "fr": "Azir",
+   "passive": {
+    "en": "Shurima's Legacy",
+    "fr": "Héritage de Shurima"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Conquering Sands",
+     "fr": "Sables conquérants"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Arise!",
+     "fr": "Dresse-toi !"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Shifting Sands",
+     "fr": "Sables mouvants"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Emperor's Divide",
+     "fr": "Partition impériale"
+    }
+   ]
+  },
+  "Bard": {
+   "en": "Bard",
+   "fr": "Bard",
+   "passive": {
+    "en": "Traveler's Call",
+    "fr": "Instinct du voyageur"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Cosmic Binding",
+     "fr": "Lien cosmique"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Caretaker's Shrine",
+     "fr": "Don du gardien"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Magical Journey",
+     "fr": "Route magique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Tempered Fate",
+     "fr": "Destin tempéré"
+    }
+   ]
+  },
+  "Belveth": {
+   "en": "Bel'Veth",
+   "fr": "Bel'Veth",
+   "passive": {
+    "en": "Death in Lavender ",
+    "fr": "Mer de lavande "
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Void Surge",
+     "fr": "Charge du Néant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Above and Below",
+     "fr": "Projection cinglante"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Royal Maelstrom",
+     "fr": "Maelström impérial"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Endless Banquet",
+     "fr": "Banquet infini"
+    }
+   ]
+  },
+  "Blitzcrank": {
+   "en": "Blitzcrank",
+   "fr": "Blitzcrank",
+   "passive": {
+    "en": "Mana Barrier",
+    "fr": "Barrière de mana"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Rocket Grab",
+     "fr": "Grappin propulsé"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Overdrive",
+     "fr": "Surcharge"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Power Fist",
+     "fr": "Poing d'acier"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Static Field",
+     "fr": "Champ de stase"
+    }
+   ]
+  },
+  "Brand": {
+   "en": "Brand",
+   "fr": "Brand",
+   "passive": {
+    "en": "Blaze",
+    "fr": "Flammes"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Sear",
+     "fr": "Brûlure"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Pillar of Flame",
+     "fr": "Colonne de flammes"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Conflagration",
+     "fr": "Conflagration"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Pyroclasm",
+     "fr": "Pyrolyse"
+    }
+   ]
+  },
+  "Braum": {
+   "en": "Braum",
+   "fr": "Braum",
+   "passive": {
+    "en": "Concussive Blows",
+    "fr": "Coups étourdissants"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Winter's Bite",
+     "fr": "Morsure de l'hiver"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Stand Behind Me",
+     "fr": "Bouclier humain"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Unbreakable",
+     "fr": "Incassable"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Glacial Fissure",
+     "fr": "Fissure glaciale"
+    }
+   ]
+  },
+  "Briar": {
+   "en": "Briar",
+   "fr": "Briar",
+   "passive": {
+    "en": "Crimson Curse",
+    "fr": "Malédiction écarlate"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Head Rush",
+     "fr": "À table !"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Blood Frenzy / Snack Attack",
+     "fr": "Folie sanguinaire / Juste un croc"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Chilling Scream",
+     "fr": "Cri sanglant"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Certain Death",
+     "fr": "Vol mortel"
+    }
+   ]
+  },
+  "Caitlyn": {
+   "en": "Caitlyn",
+   "fr": "Caitlyn",
+   "passive": {
+    "en": "Headshot",
+    "fr": "Tir dans la tête"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Piltover Peacemaker",
+     "fr": "Pacificateur de Piltover"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Yordle Snap Trap",
+     "fr": "Piège-yordle"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "90 Caliber Net",
+     "fr": "Filet de calibre 90"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Ace in the Hole",
+     "fr": "Tir chirurgical"
+    }
+   ]
+  },
+  "Camille": {
+   "en": "Camille",
+   "fr": "Camille",
+   "passive": {
+    "en": "Adaptive Defenses",
+    "fr": "Protection modulable"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Precision Protocol",
+     "fr": "Protocole de précision"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Tactical Sweep",
+     "fr": "Balayage tactique"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Hookshot",
+     "fr": "Grappin"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "The Hextech Ultimatum",
+     "fr": "Ultimatum Hextech"
+    }
+   ]
+  },
+  "Cassiopeia": {
+   "en": "Cassiopeia",
+   "fr": "Cassiopeia",
+   "passive": {
+    "en": "Serpentine Grace",
+    "fr": "Grâce serpentine"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Noxious Blast",
+     "fr": "Bombe nocive"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Miasma",
+     "fr": "Miasmes"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Twin Fang",
+     "fr": "Morsure fatale"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Petrifying Gaze",
+     "fr": "Regard de la Méduse"
+    }
+   ]
+  },
+  "Chogath": {
+   "en": "Cho'Gath",
+   "fr": "Cho'Gath",
+   "passive": {
+    "en": "Carnivore",
+    "fr": "Carnivore"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Rupture",
+     "fr": "Rupture"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Feral Scream",
+     "fr": "Cri sauvage"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Vorpal Spikes",
+     "fr": "Piques vorpales"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Feast",
+     "fr": "Festin"
+    }
+   ]
+  },
+  "Corki": {
+   "en": "Corki",
+   "fr": "Corki",
+   "passive": {
+    "en": "Hextech Munitions",
+    "fr": "Munitions Hextech"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Phosphorus Bomb",
+     "fr": "Bombe au phosphore"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Valkyrie",
+     "fr": "Valkyrie"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Gatling Gun",
+     "fr": "Gatling"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Missile Barrage",
+     "fr": "Barrage de projectiles"
+    }
+   ]
+  },
+  "Darius": {
+   "en": "Darius",
+   "fr": "Darius",
+   "passive": {
+    "en": "Hemorrhage",
+    "fr": "Plaie béante"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Decimate",
+     "fr": "Décimation"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Crippling Strike",
+     "fr": "Estropiaison"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Apprehend",
+     "fr": "Crampon"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Noxian Guillotine",
+     "fr": "Guillotine noxienne"
+    }
+   ]
+  },
+  "Diana": {
+   "en": "Diana",
+   "fr": "Diana",
+   "passive": {
+    "en": "Moonsilver Blade",
+    "fr": "Lame sélène"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Crescent Strike",
+     "fr": "Croissant lunaire"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Pale Cascade",
+     "fr": "Corps célestes"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Lunar Rush",
+     "fr": "Rush lunaire"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Moonfall",
+     "fr": "Attraction lunaire"
+    }
+   ]
+  },
+  "Draven": {
+   "en": "Draven",
+   "fr": "Draven",
+   "passive": {
+    "en": "League of Draven",
+    "fr": "League of Draven"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Spinning Axe",
+     "fr": "Hache tournoyante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Blood Rush",
+     "fr": "Pulsion sanguinaire"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Stand Aside",
+     "fr": "Division"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Whirling Death",
+     "fr": "Volée mortelle"
+    }
+   ]
+  },
+  "DrMundo": {
+   "en": "Dr. Mundo",
+   "fr": "Dr. Mundo",
+   "passive": {
+    "en": "Goes Where He Pleases",
+    "fr": "Il va où il veut"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Infected Bonesaw",
+     "fr": "Scie souillée"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Heart Zapper",
+     "fr": "Défibrillateur"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Blunt Force Trauma",
+     "fr": "Contusion"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Maximum Dosage",
+     "fr": "Dosage maximal"
+    }
+   ]
+  },
+  "Ekko": {
+   "en": "Ekko",
+   "fr": "Ekko",
+   "passive": {
+    "en": "Z-Drive Resonance",
+    "fr": "RéZonance"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Timewinder",
+     "fr": "Rétrobang"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Parallel Convergence",
+     "fr": "Convergence parallèle"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Phase Dive",
+     "fr": "Rush déphasé"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Chronobreak",
+     "fr": "Chronofracture"
+    }
+   ]
+  },
+  "Elise": {
+   "en": "Elise",
+   "fr": "Elise",
+   "passive": {
+    "en": "Spider Queen",
+    "fr": "Reine araignée"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Neurotoxin / Venomous Bite",
+     "fr": "Neurotoxine/Morsure venimeuse"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Volatile Spiderling / Skittering Frenzy",
+     "fr": "Araignée explosive/Frénésie symbiotique"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Cocoon / Rappel",
+     "fr": "Cocon/Suspension"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Spider Form",
+     "fr": "Forme arachnéenne"
+    }
+   ]
+  },
+  "Evelynn": {
+   "en": "Evelynn",
+   "fr": "Evelynn",
+   "passive": {
+    "en": "Demon Shade",
+    "fr": "Ombre démoniaque"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Hate Spike",
+     "fr": "Piques de haine"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Allure",
+     "fr": "Séduction"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Whiplash",
+     "fr": "Coup de fouet"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Last Caress",
+     "fr": "Faiseuse de veuves"
+    }
+   ]
+  },
+  "Ezreal": {
+   "en": "Ezreal",
+   "fr": "Ezreal",
+   "passive": {
+    "en": "Rising Spell Force",
+    "fr": "Force grandissante"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Mystic Shot",
+     "fr": "Tir mystique"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Essence Flux",
+     "fr": "Flux essentiel"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Arcane Shift",
+     "fr": "Transfert arcanique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Trueshot Barrage",
+     "fr": "Arc térébrant"
+    }
+   ]
+  },
+  "Fiddlesticks": {
+   "en": "Fiddlesticks",
+   "fr": "Fiddlesticks",
+   "passive": {
+    "en": "A Harmless Scarecrow",
+    "fr": "Épouvantable épouvantail"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Terrify",
+     "fr": "Terreur"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Bountiful Harvest",
+     "fr": "Moisson fructueuse"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Reap",
+     "fr": "Fauchaison"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Crowstorm",
+     "fr": "Rafale de corbeaux"
+    }
+   ]
+  },
+  "Fiora": {
+   "en": "Fiora",
+   "fr": "Fiora",
+   "passive": {
+    "en": "Duelist's Dance",
+    "fr": "Danse de la duelliste"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Lunge",
+     "fr": "Fente"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Riposte",
+     "fr": "Riposte"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Bladework",
+     "fr": "Botte secrète"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Grand Challenge",
+     "fr": "Défi suprême"
+    }
+   ]
+  },
+  "Fizz": {
+   "en": "Fizz",
+   "fr": "Fizz",
+   "passive": {
+    "en": "Nimble Fighter",
+    "fr": "Combattant agile"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Urchin Strike",
+     "fr": "Frappe de l'oursin"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Seastone Trident",
+     "fr": "Trident marin"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Playful / Trickster",
+     "fr": "Joueur/Filou"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Chum the Waters",
+     "fr": "Pêche au gros"
+    }
+   ]
+  },
+  "Galio": {
+   "en": "Galio",
+   "fr": "Galio",
+   "passive": {
+    "en": "Colossal Smash",
+    "fr": "Frappe colossale"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Winds of War",
+     "fr": "Vents de guerre"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Shield of Durand",
+     "fr": "Bouclier de Durand"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Justice Punch",
+     "fr": "Horion de la justice"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Hero's Entrance",
+     "fr": "Entrée héroïque"
+    }
+   ]
+  },
+  "Gangplank": {
+   "en": "Gangplank",
+   "fr": "Gangplank",
+   "passive": {
+    "en": "Trial by Fire",
+    "fr": "Épreuve du feu"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Parrrley",
+     "fr": "Pourparlers"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Remove Scurvy",
+     "fr": "Guérison du scorbut"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Powder Keg",
+     "fr": "Baril de poudre"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Cannon Barrage",
+     "fr": "Tir de barrage"
+    }
+   ]
+  },
+  "Garen": {
+   "en": "Garen",
+   "fr": "Garen",
+   "passive": {
+    "en": "Perseverance",
+    "fr": "Persévérance"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Decisive Strike",
+     "fr": "Coup décisif"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Courage",
+     "fr": "Courage"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Judgment",
+     "fr": "Jugement"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Demacian Justice",
+     "fr": "Justice de Demacia"
+    }
+   ]
+  },
+  "Gnar": {
+   "en": "Gnar",
+   "fr": "Gnar",
+   "passive": {
+    "en": "Rage Gene",
+    "fr": "Rage génique"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Boomerang Throw / Boulder Toss",
+     "fr": "Jet de boomerang/Jet de rocher"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Hyper / Wallop",
+     "fr": "Agitation/Beigne"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Hop / Crunch",
+     "fr": "Rebond/Aplatissement"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "GNAR!",
+     "fr": "GNAR !"
+    }
+   ]
+  },
+  "Gragas": {
+   "en": "Gragas",
+   "fr": "Gragas",
+   "passive": {
+    "en": "Happy Hour",
+    "fr": "Tournée"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Barrel Roll",
+     "fr": "Fût roulant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Drunken Rage",
+     "fr": "Rage d'ivrogne"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Body Slam",
+     "fr": "Coup de bidon"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Explosive Cask",
+     "fr": "Fût explosif"
+    }
+   ]
+  },
+  "Graves": {
+   "en": "Graves",
+   "fr": "Graves",
+   "passive": {
+    "en": "New Destiny",
+    "fr": "Nouvelle destinée"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "End of the Line",
+     "fr": "Terminus"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Smoke Screen",
+     "fr": "Écran de fumée"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Quickdraw",
+     "fr": "Ruée vers l'or"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Collateral Damage",
+     "fr": "Dégâts collatéraux"
+    }
+   ]
+  },
+  "Gwen": {
+   "en": "Gwen",
+   "fr": "Gwen",
+   "passive": {
+    "en": "A Thousand Cuts",
+    "fr": "Mille coupures"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Snip Snip!",
+     "fr": "Tchac, tchac !"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Hallowed Mist",
+     "fr": "Brume sacrée"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Skip 'n Slash",
+     "fr": "Élan incisif"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Needlework",
+     "fr": "Piqûre"
+    }
+   ]
+  },
+  "Hecarim": {
+   "en": "Hecarim",
+   "fr": "Hecarim",
+   "passive": {
+    "en": "Warpath",
+    "fr": "Galop"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Rampage",
+     "fr": "Carnage"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Spirit of Dread",
+     "fr": "Essence de la peur"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Devastating Charge",
+     "fr": "Charge dévastatrice"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Onslaught of Shadows",
+     "fr": "Légion des ombres"
+    }
+   ]
+  },
+  "Heimerdinger": {
+   "en": "Heimerdinger",
+   "fr": "Heimerdinger",
+   "passive": {
+    "en": "Hextech Affinity",
+    "fr": "Affinité Hextech"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "H-28 G Evolution Turret",
+     "fr": "Tourelle H-28G Évolution"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Hextech Micro-Rockets",
+     "fr": "Micro-roquettes Hextech"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "CH-2 Electron Storm Grenade",
+     "fr": "Grenade électro-tempête CH-2"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "UPGRADE!!!",
+     "fr": "AMÉLIORATION !"
+    }
+   ]
+  },
+  "Hwei": {
+   "en": "Hwei",
+   "fr": "Hwei",
+   "passive": {
+    "en": "Signature of the Visionary",
+    "fr": "Signature du Visionnaire"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Subject: Disaster",
+     "fr": "Sujet : Désastres"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Subject: Serenity",
+     "fr": "Sujet : Sérénités"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Subject: Torment",
+     "fr": "Sujet : Tourments"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Spiraling Despair",
+     "fr": "Vision de désespoir"
+    }
+   ]
+  },
+  "Illaoi": {
+   "en": "Illaoi",
+   "fr": "Illaoi",
+   "passive": {
+    "en": "Prophet of an Elder God",
+    "fr": "Prophétesse d'un dieu ancestral"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Tentacle Smash",
+     "fr": "Coup de tentacule"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Harsh Lesson",
+     "fr": "Âpre leçon"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Test of Spirit",
+     "fr": "Épreuve de l'esprit"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Leap of Faith",
+     "fr": "Acte de foi"
+    }
+   ]
+  },
+  "Irelia": {
+   "en": "Irelia",
+   "fr": "Irelia",
+   "passive": {
+    "en": "Ionian Fervor",
+    "fr": "Ferveur ionienne"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Bladesurge",
+     "fr": "Rush fatal"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Defiant Dance",
+     "fr": "Danse de défi"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Flawless Duet",
+     "fr": "Duo parfait"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Vanguard's Edge",
+     "fr": "Pointe de l'avant-garde"
+    }
+   ]
+  },
+  "Ivern": {
+   "en": "Ivern",
+   "fr": "Ivern",
+   "passive": {
+    "en": "Friend of the Forest",
+    "fr": "Ami de la forêt"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Rootcaller",
+     "fr": "Enracinement"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Brushmaker",
+     "fr": "Main verte"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Triggerseed",
+     "fr": "Graine à retardement"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Daisy!",
+     "fr": "Marguerite !"
+    }
+   ]
+  },
+  "Janna": {
+   "en": "Janna",
+   "fr": "Janna",
+   "passive": {
+    "en": "Tailwind",
+    "fr": "Zéphyr"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Howling Gale",
+     "fr": "Vent hurlant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Zephyr",
+     "fr": "Alizé"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Eye Of The Storm",
+     "fr": "Œil du cyclone"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Monsoon",
+     "fr": "Mousson"
+    }
+   ]
+  },
+  "JarvanIV": {
+   "en": "Jarvan IV",
+   "fr": "Jarvan IV",
+   "passive": {
+    "en": "Martial Cadence",
+    "fr": "Cadence martiale"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Dragon Strike",
+     "fr": "Frappe du dragon"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Golden Aegis",
+     "fr": "Égide dorée"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Demacian Standard",
+     "fr": "Étendard demacien"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Cataclysm",
+     "fr": "Cataclysme"
+    }
+   ]
+  },
+  "Jax": {
+   "en": "Jax",
+   "fr": "Jax",
+   "passive": {
+    "en": "Relentless Assault",
+    "fr": "Acharnement"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Leap Strike",
+     "fr": "Frappe bondissante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Empower",
+     "fr": "Élargissement"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Counter Strike",
+     "fr": "Contre-attaque"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Grandmaster-at-Arms",
+     "fr": "Maître d'armes"
+    }
+   ]
+  },
+  "Jayce": {
+   "en": "Jayce",
+   "fr": "Jayce",
+   "passive": {
+    "en": "Hextech Capacitor",
+    "fr": "Capaciteur Hextech"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "To the Skies! / Shock Blast",
+     "fr": "Direction le ciel ! / Orbe électrique"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Lightning Field / Hyper Charge",
+     "fr": "Champ électrique / Hypercharge"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Thundering Blow / Acceleration Gate",
+     "fr": "Coup foudroyant / Portail d'accélération"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Mercury Cannon / Mercury Hammer",
+     "fr": "Canon Mercury / Marteau Mercury"
+    }
+   ]
+  },
+  "Jhin": {
+   "en": "Jhin",
+   "fr": "Jhin",
+   "passive": {
+    "en": "Whisper",
+    "fr": "Murmure"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Dancing Grenade",
+     "fr": "Grenade dansante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Deadly Flourish",
+     "fr": "Floraison mortelle"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Captive Audience",
+     "fr": "Public captif"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Curtain Call",
+     "fr": "Rappel de rideau"
+    }
+   ]
+  },
+  "Jinx": {
+   "en": "Jinx",
+   "fr": "Jinx",
+   "passive": {
+    "en": "Get Excited!",
+    "fr": "Enthousiasme !"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Switcheroo!",
+     "fr": "Flip flap !"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Zap!",
+     "fr": "Zap !"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Flame Chompers!",
+     "fr": "Pyromâcheurs !"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Super Mega Death Rocket!",
+     "fr": "Super roquette de la mort !"
+    }
+   ]
+  },
+  "Kaisa": {
+   "en": "Kai'Sa",
+   "fr": "Kai'Sa",
+   "passive": {
+    "en": "Second Skin",
+    "fr": "Seconde peau"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Icathian Rain",
+     "fr": "Pluie d'Icathia"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Void Seeker",
+     "fr": "Rayon du Néant"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Supercharge",
+     "fr": "Surpresseur"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Killer Instinct",
+     "fr": "Instinct meurtrier"
+    }
+   ]
+  },
+  "Kalista": {
+   "en": "Kalista",
+   "fr": "Kalista",
+   "passive": {
+    "en": "Martial Poise",
+    "fr": "Maintien martial"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Pierce",
+     "fr": "Perforation"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Sentinel",
+     "fr": "Sentinelle"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Rend",
+     "fr": "Extirpation"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Fate's Call",
+     "fr": "Appel du destin"
+    }
+   ]
+  },
+  "Karma": {
+   "en": "Karma",
+   "fr": "Karma",
+   "passive": {
+    "en": "Gathering Fire",
+    "fr": "Concentration ardente"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Inner Flame",
+     "fr": "Flamme intérieure"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Focused Resolve",
+     "fr": "Volonté concentrée"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Inspire",
+     "fr": "Exaltation"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Mantra",
+     "fr": "Mantra"
+    }
+   ]
+  },
+  "Karthus": {
+   "en": "Karthus",
+   "fr": "Karthus",
+   "passive": {
+    "en": "Death Defied",
+    "fr": "Déni de mort"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Lay Waste",
+     "fr": "Dévastation"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Wall of Pain",
+     "fr": "Mur de douleur"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Defile",
+     "fr": "Souillure"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Requiem",
+     "fr": "Requiem"
+    }
+   ]
+  },
+  "Kassadin": {
+   "en": "Kassadin",
+   "fr": "Kassadin",
+   "passive": {
+    "en": "Void Stone",
+    "fr": "Pierre du Néant"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Null Sphere",
+     "fr": "Orbe du Néant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Nether Blade",
+     "fr": "Lame éthérée"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Force Pulse",
+     "fr": "Pulsation"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Riftwalk",
+     "fr": "Fissure"
+    }
+   ]
+  },
+  "Katarina": {
+   "en": "Katarina",
+   "fr": "Katarina",
+   "passive": {
+    "en": "Voracity",
+    "fr": "Voracité"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Bouncing Blade",
+     "fr": "Lame rebondissante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Preparation",
+     "fr": "Préparation"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Shunpo",
+     "fr": "Shunpo"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Death Lotus",
+     "fr": "Lotus mortel"
+    }
+   ]
+  },
+  "Kayle": {
+   "en": "Kayle",
+   "fr": "Kayle",
+   "passive": {
+    "en": "Divine Ascent",
+    "fr": "Ascension divine"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Radiant Blast",
+     "fr": "Incandescence"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Celestial Blessing",
+     "fr": "Bénédiction céleste"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Starfire Spellblade",
+     "fr": "Lame de feu stellaire"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Divine Judgment",
+     "fr": "Jugement divin"
+    }
+   ]
+  },
+  "Kayn": {
+   "en": "Kayn",
+   "fr": "Kayn",
+   "passive": {
+    "en": "The Darkin Scythe",
+    "fr": "Faux des Darkin"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Reaping Slash",
+     "fr": "Moisson cruelle"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Blade's Reach",
+     "fr": "Entaille sombre"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Shadow Step",
+     "fr": "Passe-muraille"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Umbral Trespass",
+     "fr": "Intrusion obscure"
+    }
+   ]
+  },
+  "Kennen": {
+   "en": "Kennen",
+   "fr": "Kennen",
+   "passive": {
+    "en": "Mark of the Storm",
+    "fr": "Marque de tempête"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Thundering Shuriken",
+     "fr": "Shuriken foudroyant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Electrical Surge",
+     "fr": "Surtension"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Lightning Rush",
+     "fr": "Rush foudroyant"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Slicing Maelstrom",
+     "fr": "Maelström"
+    }
+   ]
+  },
+  "Khazix": {
+   "en": "Kha'Zix",
+   "fr": "Kha'Zix",
+   "passive": {
+    "en": "Unseen Threat",
+    "fr": "Menace invisible"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Taste Their Fear",
+     "fr": "Goût de la peur"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Void Spike",
+     "fr": "Pique du Néant"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Leap",
+     "fr": "Bond"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Void Assault",
+     "fr": "Assaut du Néant"
+    }
+   ]
+  },
+  "Kindred": {
+   "en": "Kindred",
+   "fr": "Kindred",
+   "passive": {
+    "en": "Mark of the Kindred",
+    "fr": "Marque de Kindred"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Dance of Arrows",
+     "fr": "Danse des flèches"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Wolf's Frenzy",
+     "fr": "Frénésie de Loup"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Mounting Dread",
+     "fr": "Terreur mortelle"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Lamb's Respite",
+     "fr": "Repos d'Agneau"
+    }
+   ]
+  },
+  "Kled": {
+   "en": "Kled",
+   "fr": "Kled",
+   "passive": {
+    "en": "Skaarl, the Cowardly Lizard",
+    "fr": "Skaarl, le Lézard froussard"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Bear Trap on a Rope",
+     "fr": "Piège à ours en laisse"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Violent Tendencies",
+     "fr": "Penchant pour la violence"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Jousting",
+     "fr": "Joute"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Chaaaaaaaarge!!!",
+     "fr": "Chaaaaaaaargez !!!"
+    }
+   ]
+  },
+  "KogMaw": {
+   "en": "Kog'Maw",
+   "fr": "Kog'Maw",
+   "passive": {
+    "en": "Icathian Surprise",
+    "fr": "Surprise d'Icathia"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Caustic Spittle",
+     "fr": "Bave caustique"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Bio-Arcane Barrage",
+     "fr": "Barrage bio-arcanique"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Void Ooze",
+     "fr": "Limon du Néant"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Living Artillery",
+     "fr": "Artillerie vivante"
+    }
+   ]
+  },
+  "KSante": {
+   "en": "K'Sante",
+   "fr": "K'Santé",
+   "passive": {
+    "en": "Dauntless Instinct",
+    "fr": "Instinct intrépide"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Ntofo Strikes",
+     "fr": "Coups de ntofo"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Path Maker",
+     "fr": "Pour Nazumah !"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Footwork",
+     "fr": "Jeu de jambes"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "All Out",
+     "fr": "Grand jeu"
+    }
+   ]
+  },
+  "Leblanc": {
+   "en": "LeBlanc",
+   "fr": "LeBlanc",
+   "passive": {
+    "en": "Mirror Image",
+    "fr": "Image miroir"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Sigil of Malice",
+     "fr": "Sceau de malveillance"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Distortion",
+     "fr": "Distorsion"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Ethereal Chains",
+     "fr": "Chaînes éthérées"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Mimic",
+     "fr": "Imitation"
+    }
+   ]
+  },
+  "LeeSin": {
+   "en": "Lee Sin",
+   "fr": "Lee Sin",
+   "passive": {
+    "en": "Flurry",
+    "fr": "Rafale"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Sonic Wave / Resonating Strike",
+     "fr": "Onde sonore/Coup résonant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Safeguard / Iron Will",
+     "fr": "Rempart/Force d'âme"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Tempest / Cripple",
+     "fr": "Trombe/Fracture"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Dragon's Rage",
+     "fr": "Rage du dragon"
+    }
+   ]
+  },
+  "Leona": {
+   "en": "Leona",
+   "fr": "Leona",
+   "passive": {
+    "en": "Sunlight",
+    "fr": "Rayon de soleil"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Shield of Daybreak",
+     "fr": "Bouclier de l'aube"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Eclipse",
+     "fr": "Éclipse"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Zenith Blade",
+     "fr": "Lame du zénith"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Solar Flare",
+     "fr": "Éruption solaire"
+    }
+   ]
+  },
+  "Lillia": {
+   "en": "Lillia",
+   "fr": "Lillia",
+   "passive": {
+    "en": "Dream-Laden Bough",
+    "fr": "Bâton chargé de rêves"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Blooming Blows",
+     "fr": "Frappe fleurie"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Watch Out! Eep!",
+     "fr": "Attention, désolée !"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Swirlseed",
+     "fr": "Graine tournoyante"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Lilting Lullaby",
+     "fr": "Douce berceuse"
+    }
+   ]
+  },
+  "Lissandra": {
+   "en": "Lissandra",
+   "fr": "Lissandra",
+   "passive": {
+    "en": "Iceborn Subjugation",
+    "fr": "Emprise de la Sublimée"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Ice Shard",
+     "fr": "Éclat de glace"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Ring of Frost",
+     "fr": "Cercle de givre"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Glacial Path",
+     "fr": "Chemin glacial"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Frozen Tomb",
+     "fr": "Tombeau polaire"
+    }
+   ]
+  },
+  "Locke": {
+   "en": "Locke",
+   "fr": "Locke",
+   "passive": {
+    "en": "Silver Stake",
+    "fr": "Pieu argenté"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Ritual Nails",
+     "fr": "Clous rituels"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Soul Ignition",
+     "fr": "Brûlure d'âme"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Ashen Pursuit",
+     "fr": "Traque cendrée"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Purgatory",
+     "fr": "Purgatoire"
+    }
+   ]
+  },
+  "Lucian": {
+   "en": "Lucian",
+   "fr": "Lucian",
+   "passive": {
+    "en": "Lightslinger",
+    "fr": "Pistolero"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Piercing Light",
+     "fr": "Lumière perforante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Ardent Blaze",
+     "fr": "Flamboiement"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Relentless Pursuit",
+     "fr": "Poursuite inlassable"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "The Culling",
+     "fr": "Déluge de balles"
+    }
+   ]
+  },
+  "Lulu": {
+   "en": "Lulu",
+   "fr": "Lulu",
+   "passive": {
+    "en": "Pix, Faerie Companion",
+    "fr": "Pix, le Compagnon féérique"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Glitterlance",
+     "fr": "Duo éclatant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Whimsy",
+     "fr": "Fantaisie"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Help, Pix!",
+     "fr": "Pix à la rescousse !"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Wild Growth",
+     "fr": "Croissance prodigieuse"
+    }
+   ]
+  },
+  "Lux": {
+   "en": "Lux",
+   "fr": "Lux",
+   "passive": {
+    "en": "Illumination",
+    "fr": "Illumination"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Light Binding",
+     "fr": "Entrave de lumière"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Prismatic Barrier",
+     "fr": "Barrière prismatique"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Lucent Singularity",
+     "fr": "Anomalie radieuse"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Final Spark",
+     "fr": "Éclat final"
+    }
+   ]
+  },
+  "Malphite": {
+   "en": "Malphite",
+   "fr": "Malphite",
+   "passive": {
+    "en": "Granite Shield",
+    "fr": "Bouclier de granit"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Seismic Shard",
+     "fr": "Éclat sismique"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Thunderclap",
+     "fr": "Coup de tonnerre"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Ground Slam",
+     "fr": "Choc au sol"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Unstoppable Force",
+     "fr": "Force indomptable"
+    }
+   ]
+  },
+  "Malzahar": {
+   "en": "Malzahar",
+   "fr": "Malzahar",
+   "passive": {
+    "en": "Void Shift",
+    "fr": "Plan du Néant"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Call of the Void",
+     "fr": "Appel du Néant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Void Swarm",
+     "fr": "Nuée du Néant"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Malefic Visions",
+     "fr": "Visions maléfiques"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Nether Grasp",
+     "fr": "Poigne du Néant"
+    }
+   ]
+  },
+  "Maokai": {
+   "en": "Maokai",
+   "fr": "Maokai",
+   "passive": {
+    "en": "Sap Magic",
+    "fr": "Sève magique"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Bramble Smash",
+     "fr": "Coup de ronces"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Twisted Advance",
+     "fr": "Croissance torturée"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Sapling Toss",
+     "fr": "Jet d'arbrisseau"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Nature's Grasp",
+     "fr": "Emprise de la nature"
+    }
+   ]
+  },
+  "MasterYi": {
+   "en": "Master Yi",
+   "fr": "Maître Yi",
+   "passive": {
+    "en": "Double Strike",
+    "fr": "Coup double"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Alpha Strike",
+     "fr": "Assaut éclair"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Meditate",
+     "fr": "Méditation"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Wuju Style",
+     "fr": "Style Wuju"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Highlander",
+     "fr": "Highlander"
+    }
+   ]
+  },
+  "Mel": {
+   "en": "Mel",
+   "fr": "Mel",
+   "passive": {
+    "en": "Searing Brilliance",
+    "fr": "Luminescence incandescente"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Radiant Barrage",
+     "fr": "Barrage lumineux"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Rebuttal",
+     "fr": "Réfutation"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Solar Snare",
+     "fr": "Piège solaire"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Golden Eclipse",
+     "fr": "Éclipse dorée"
+    }
+   ]
+  },
+  "Milio": {
+   "en": "Milio",
+   "fr": "Milio",
+   "passive": {
+    "en": "Fired Up!",
+    "fr": "Tout feu tout flamme"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Ultra Mega Fire Kick",
+     "fr": "Ultra méga boule de feu"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Cozy Campfire",
+     "fr": "Feu de camp"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Warm Hugs",
+     "fr": "Chaud devant !"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Breath of Life",
+     "fr": "Flammes vitales"
+    }
+   ]
+  },
+  "MissFortune": {
+   "en": "Miss Fortune",
+   "fr": "Miss Fortune",
+   "passive": {
+    "en": "Love Tap",
+    "fr": "Cœur volage"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Double Up",
+     "fr": "Doublé"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Strut",
+     "fr": "Fanfaronne"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Make It Rain",
+     "fr": "Pluie de balles"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Bullet Time",
+     "fr": "Barrage de plomb"
+    }
+   ]
+  },
+  "MonkeyKing": {
+   "en": "Wukong",
+   "fr": "Wukong",
+   "passive": {
+    "en": "Stone Skin",
+    "fr": "Peau de pierre"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Crushing Blow",
+     "fr": "Écrasement"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Warrior Trickster",
+     "fr": "Guerrier espiègle"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Nimbus Strike",
+     "fr": "Nimbus"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Cyclone",
+     "fr": "Cyclone"
+    }
+   ]
+  },
+  "Mordekaiser": {
+   "en": "Mordekaiser",
+   "fr": "Mordekaiser",
+   "passive": {
+    "en": "Darkness Rise",
+    "fr": "Vortex de ténèbres"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Obliterate",
+     "fr": "Oblitération"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Indestructible",
+     "fr": "Indestructible"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Death's Grasp",
+     "fr": "Emprise funeste"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Realm of Death",
+     "fr": "Royaume des morts"
+    }
+   ]
+  },
+  "Morgana": {
+   "en": "Morgana",
+   "fr": "Morgana",
+   "passive": {
+    "en": "Soul Siphon",
+    "fr": "Siphon d'âme"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Dark Binding",
+     "fr": "Entrave sombre"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Tormented Shadow",
+     "fr": "Tourment ténébreux"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Black Shield",
+     "fr": "Bouclier noir"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Soul Shackles",
+     "fr": "Chaînes spirituelles"
+    }
+   ]
+  },
+  "Naafiri": {
+   "en": "Naafiri",
+   "fr": "Naafiri",
+   "passive": {
+    "en": "We Are More",
+    "fr": "La meute s'agrandit"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Darkin Daggers",
+     "fr": "Dagues des Darkin"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "The Call of the Pack",
+     "fr": "Appel de la meute"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Eviscerate",
+     "fr": "Éviscération"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Hounds' Pursuit",
+     "fr": "Hallali"
+    }
+   ]
+  },
+  "Nami": {
+   "en": "Nami",
+   "fr": "Nami",
+   "passive": {
+    "en": "Surging Tides",
+    "fr": "Déferlantes"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Aqua Prison",
+     "fr": "Prison aqueuse"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Ebb and Flow",
+     "fr": "Flux et reflux"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Tidecaller's Blessing",
+     "fr": "Bénédiction de l'Aquamancienne"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Tidal Wave",
+     "fr": "Raz-de-marée"
+    }
+   ]
+  },
+  "Nasus": {
+   "en": "Nasus",
+   "fr": "Nasus",
+   "passive": {
+    "en": "Soul Eater",
+    "fr": "Mangeur d'âmes"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Siphoning Strike",
+     "fr": "Buveuse d'âmes"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Wither",
+     "fr": "Flétrissement"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Spirit Fire",
+     "fr": "Esprit enflammé"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Fury of the Sands",
+     "fr": "Fureur des sables"
+    }
+   ]
+  },
+  "Nautilus": {
+   "en": "Nautilus",
+   "fr": "Nautilus",
+   "passive": {
+    "en": "Staggering Blow",
+    "fr": "Coup écrasant"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Dredge Line",
+     "fr": "Abordage"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Titan's Wrath",
+     "fr": "Colère du titan"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Riptide",
+     "fr": "Répliques"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Depth Charge",
+     "fr": "Grenade ASM"
+    }
+   ]
+  },
+  "Neeko": {
+   "en": "Neeko",
+   "fr": "Neeko",
+   "passive": {
+    "en": "Inherent Glamour",
+    "fr": "Mirage inné"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Blooming Burst",
+     "fr": "Explosion florale"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Shapesplitter",
+     "fr": "Métaclonage"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Tangle-Barbs",
+     "fr": "Spirale épineuse"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Pop Blossom",
+     "fr": "Floraison renversante"
+    }
+   ]
+  },
+  "Nidalee": {
+   "en": "Nidalee",
+   "fr": "Nidalee",
+   "passive": {
+    "en": "Prowl",
+    "fr": "Prédateur"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Javelin Toss / Takedown",
+     "fr": "Javelot / Mise à terre"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Bushwhack / Pounce",
+     "fr": "Guérilla / Bond"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Primal Surge / Swipe",
+     "fr": "Charge primale / Taillade"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Aspect Of The Cougar",
+     "fr": "Aspect du Couguar"
+    }
+   ]
+  },
+  "Nilah": {
+   "en": "Nilah",
+   "fr": "Nilah",
+   "passive": {
+    "en": "Joy Unending",
+    "fr": "Joie éternelle"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Formless Blade",
+     "fr": "Lame fluide"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Jubilant Veil",
+     "fr": "Voile de liesse"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Slipstream",
+     "fr": "Torrent"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Apotheosis",
+     "fr": "Apothéose"
+    }
+   ]
+  },
+  "Nocturne": {
+   "en": "Nocturne",
+   "fr": "Nocturne",
+   "passive": {
+    "en": "Umbra Blades",
+    "fr": "Lames d'ombre"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Duskbringer",
+     "fr": "Crépuscule"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Shroud of Darkness",
+     "fr": "Linceul des ténèbres"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Unspeakable Horror",
+     "fr": "Horreur indicible"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Paranoia",
+     "fr": "Paranoïa"
+    }
+   ]
+  },
+  "Nunu": {
+   "en": "Nunu & Willump",
+   "fr": "Nunu et Willump",
+   "passive": {
+    "en": "Call of the Freljord",
+    "fr": "Appel de Freljord"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Consume",
+     "fr": "Voracité"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Biggest Snowball Ever!",
+     "fr": "Boule de neige géante !"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Snowball Barrage",
+     "fr": "Rafale de boules de neige"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Absolute Zero",
+     "fr": "Zéro absolu"
+    }
+   ]
+  },
+  "Olaf": {
+   "en": "Olaf",
+   "fr": "Olaf",
+   "passive": {
+    "en": "Berserker Rage",
+    "fr": "Rage du berzerker"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Undertow",
+     "fr": "Déchireuse"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Tough It Out",
+     "fr": "Force décuplée"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Reckless Swing",
+     "fr": "Frappe sauvage"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Ragnarok",
+     "fr": "Ragnarok"
+    }
+   ]
+  },
+  "Orianna": {
+   "en": "Orianna",
+   "fr": "Orianna",
+   "passive": {
+    "en": "Clockwork Windup",
+    "fr": "Remontoir"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Command: Attack",
+     "fr": "Ordre : Attaque"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Command: Dissonance",
+     "fr": "Ordre : Dissonance"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Command: Protect",
+     "fr": "Ordre : Protection"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Command: Shockwave",
+     "fr": "Ordre : Onde de choc"
+    }
+   ]
+  },
+  "Ornn": {
+   "en": "Ornn",
+   "fr": "Ornn",
+   "passive": {
+    "en": "Living Forge",
+    "fr": "Forgeron ambulant"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Volcanic Rupture",
+     "fr": "Fracture magmatique"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Bellows Breath",
+     "fr": "Fournaise"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Searing Charge",
+     "fr": "Ruée ardente"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Call of the Forge God",
+     "fr": "Appel du dieu de la forge"
+    }
+   ]
+  },
+  "Pantheon": {
+   "en": "Pantheon",
+   "fr": "Pantheon",
+   "passive": {
+    "en": "Mortal Will",
+    "fr": "Ardeur mortelle"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Comet Spear",
+     "fr": "Lance astrale"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Shield Vault",
+     "fr": "Assaut martial"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Aegis Assault",
+     "fr": "Égide impénétrable"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Grand Starfall",
+     "fr": "Météore"
+    }
+   ]
+  },
+  "Poppy": {
+   "en": "Poppy",
+   "fr": "Poppy",
+   "passive": {
+    "en": "Iron Ambassador",
+    "fr": "Ambassadrice de fer"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Hammer Shock",
+     "fr": "Commotion"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Steadfast Presence",
+     "fr": "Présence immuable"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Heroic Charge",
+     "fr": "Charge héroïque"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Keeper's Verdict",
+     "fr": "Verdict de la gardienne"
+    }
+   ]
+  },
+  "Pyke": {
+   "en": "Pyke",
+   "fr": "Pyke",
+   "passive": {
+    "en": "Gift of the Drowned Ones",
+    "fr": "Don des noyés"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Bone Skewer",
+     "fr": "Harponnage"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Ghostwater Dive",
+     "fr": "Plongée spectrale"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Phantom Undertow",
+     "fr": "Ressac fantôme"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Death From Below",
+     "fr": "Exécution abyssale"
+    }
+   ]
+  },
+  "Qiyana": {
+   "en": "Qiyana",
+   "fr": "Qiyana",
+   "passive": {
+    "en": "Royal Privilege",
+    "fr": "Privilège royal"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Elemental Wrath / Edge of Ixtal",
+     "fr": "Courroux élémentaire/Lame d'Ixtal"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Terrashape",
+     "fr": "Terraforce"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Audacity",
+     "fr": "Audace"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Supreme Display of Talent",
+     "fr": "Tour de force suprême"
+    }
+   ]
+  },
+  "Quinn": {
+   "en": "Quinn",
+   "fr": "Quinn",
+   "passive": {
+    "en": "Harrier",
+    "fr": "Busard"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Blinding Assault",
+     "fr": "Assaut aveuglant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Heightened Senses",
+     "fr": "Œil d'aigle"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Vault",
+     "fr": "Salto"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Behind Enemy Lines",
+     "fr": "En territoire ennemi"
+    }
+   ]
+  },
+  "Rakan": {
+   "en": "Rakan",
+   "fr": "Rakan",
+   "passive": {
+    "en": "Fey Feathers",
+    "fr": "Plumes enchantées"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Gleaming Quill",
+     "fr": "Rémige rayonnante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Grand Entrance",
+     "fr": "Entrée triomphale"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Battle Dance",
+     "fr": "Valse guerrière"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "The Quickness",
+     "fr": "Danse ultime"
+    }
+   ]
+  },
+  "Rammus": {
+   "en": "Rammus",
+   "fr": "Rammus",
+   "passive": {
+    "en": "Spiked Shell",
+    "fr": "Carapace cloutée"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Powerball",
+     "fr": "Démolisseur"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Defensive Ball Curl",
+     "fr": "Boule défensive"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Frenzying Taunt",
+     "fr": "Provocation frénétique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Soaring Slam",
+     "fr": "Frappe ascendante"
+    }
+   ]
+  },
+  "RekSai": {
+   "en": "Rek'Sai",
+   "fr": "Rek'Sai",
+   "passive": {
+    "en": "Fury of the Xer'Sai",
+    "fr": "Fureur des Xer'Sai"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Queen's Wrath / Prey Seeker",
+     "fr": "Courroux de la reine/Sondeur explosif"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Burrow / Un-burrow",
+     "fr": "Enfouissement/Jaillissement"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Furious Bite / Tunnel",
+     "fr": "Morsure féroce/Tunnel"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Void Rush",
+     "fr": "Rush du Néant"
+    }
+   ]
+  },
+  "Rell": {
+   "en": "Rell",
+   "fr": "Rell",
+   "passive": {
+    "en": "Break the Mold",
+    "fr": "Mise en pièces"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Shattering Strike",
+     "fr": "Frappe dislocatrice"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Ferromancy: Crash Down",
+     "fr": "Ferromancie : Descendre en piqué"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Full Tilt",
+     "fr": "Joute endiablée"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Magnet Storm",
+     "fr": "Tempête magnétique"
+    }
+   ]
+  },
+  "Renata": {
+   "en": "Renata Glasc",
+   "fr": "Renata Glasc",
+   "passive": {
+    "en": "Leverage",
+    "fr": "Pression"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Handshake",
+     "fr": "Poignée de main"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Bailout",
+     "fr": "Patronage"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Loyalty Program",
+     "fr": "Programme de fidélité"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Hostile Takeover",
+     "fr": "Prise de contrôle hostile"
+    }
+   ]
+  },
+  "Renekton": {
+   "en": "Renekton",
+   "fr": "Renekton",
+   "passive": {
+    "en": "Reign of Anger",
+    "fr": "Règne de la colère"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Cull the Meek",
+     "fr": "Destruction des faibles"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Ruthless Predator",
+     "fr": "Prédateur impitoyable"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Slice and Dice",
+     "fr": "Tranche et coupe"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Dominus",
+     "fr": "Dominus"
+    }
+   ]
+  },
+  "Rengar": {
+   "en": "Rengar",
+   "fr": "Rengar",
+   "passive": {
+    "en": "Unseen Predator",
+    "fr": "Prédateur invisible"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Savagery",
+     "fr": "Esprit sauvage"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Battle Roar",
+     "fr": "Rugissement"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Bola Strike",
+     "fr": "Bolas"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Thrill of the Hunt",
+     "fr": "Chasseur-né"
+    }
+   ]
+  },
+  "Riven": {
+   "en": "Riven",
+   "fr": "Riven",
+   "passive": {
+    "en": "Runic Blade",
+    "fr": "Lame runique"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Broken Wings",
+     "fr": "Ailes brisées"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Ki Burst",
+     "fr": "Décharge de ki"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Valor",
+     "fr": "Bravoure"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Blade of the Exile",
+     "fr": "Lame de l'exilée"
+    }
+   ]
+  },
+  "Rumble": {
+   "en": "Rumble",
+   "fr": "Rumble",
+   "passive": {
+    "en": "Junkyard Titan",
+    "fr": "Titan de bric-à-brac"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Flamespitter",
+     "fr": "Lance-flammes"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Scrap Shield",
+     "fr": "Bouclier recyclé"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Electro Harpoon",
+     "fr": "Harpon électrique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "The Equalizer",
+     "fr": "Éradication"
+    }
+   ]
+  },
+  "Ryze": {
+   "en": "Ryze",
+   "fr": "Ryze",
+   "passive": {
+    "en": "Arcane Mastery",
+    "fr": "Maîtrise des arcanes"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Overload",
+     "fr": "Court-circuit"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Rune Prison",
+     "fr": "Prison runique"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Spell Flux",
+     "fr": "Flux envoûtant"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Realm Warp",
+     "fr": "Portail transdimensionnel"
+    }
+   ]
+  },
+  "Samira": {
+   "en": "Samira",
+   "fr": "Samira",
+   "passive": {
+    "en": "Daredevil Impulse",
+    "fr": "Élan téméraire"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Flair",
+     "fr": "Panache"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Blade Whirl",
+     "fr": "Tourbillon de lame"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Wild Rush",
+     "fr": "Charge sauvage"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Inferno Trigger",
+     "fr": "Gâchette infernale"
+    }
+   ]
+  },
+  "Sejuani": {
+   "en": "Sejuani",
+   "fr": "Sejuani",
+   "passive": {
+    "en": "Fury of the North",
+    "fr": "Fureur du nord"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Arctic Assault",
+     "fr": "Assaut arctique"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Winter's Wrath",
+     "fr": "Colère de l'hiver"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Permafrost",
+     "fr": "Permafrost"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Glacial Prison",
+     "fr": "Prison de glace"
+    }
+   ]
+  },
+  "Senna": {
+   "en": "Senna",
+   "fr": "Senna",
+   "passive": {
+    "en": "Absolution",
+    "fr": "Absolution"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Piercing Darkness",
+     "fr": "Ombre perforante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Last Embrace",
+     "fr": "Dernière étreinte"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Curse of the Black Mist",
+     "fr": "Malédiction de la Brume noire"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Dawning Shadow",
+     "fr": "Ténèbres aveuglantes"
+    }
+   ]
+  },
+  "Seraphine": {
+   "en": "Seraphine",
+   "fr": "Séraphine",
+   "passive": {
+    "en": "Stage Presence",
+    "fr": "Présence sur scène"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "High Note",
+     "fr": "Note aiguë"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Surround Sound",
+     "fr": "Son ambiophonique"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Beat Drop",
+     "fr": "Battement"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Encore",
+     "fr": "Bis"
+    }
+   ]
+  },
+  "Sett": {
+   "en": "Sett",
+   "fr": "Sett",
+   "passive": {
+    "en": "Pit Grit",
+    "fr": "Roi de l'arène"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Knuckle Down",
+     "fr": "Rogne"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Haymaker",
+     "fr": "Coup cathartique"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Facebreaker",
+     "fr": "Casse-tête"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "The Show Stopper",
+     "fr": "Le Clou du spectacle"
+    }
+   ]
+  },
+  "Shaco": {
+   "en": "Shaco",
+   "fr": "Shaco",
+   "passive": {
+    "en": "Backstab",
+    "fr": "Traîtrise"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Deceive",
+     "fr": "Tromperie"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Jack In The Box",
+     "fr": "Boîte surprise"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Two-Shiv Poison",
+     "fr": "Poison double"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Hallucinate",
+     "fr": "Hallucination"
+    }
+   ]
+  },
+  "Shen": {
+   "en": "Shen",
+   "fr": "Shen",
+   "passive": {
+    "en": "Ki Barrier",
+    "fr": "Barrière de ki"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Twilight Assault",
+     "fr": "Assaut crépusculaire"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Spirit's Refuge",
+     "fr": "Refuge spirituel"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Shadow Dash",
+     "fr": "Rush des ombres"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Stand United",
+     "fr": "Soutien indéfectible"
+    }
+   ]
+  },
+  "Shyvana": {
+   "en": "Shyvana",
+   "fr": "Shyvana",
+   "passive": {
+    "en": "Scalemail",
+    "fr": "Armure d'écailles"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Emberstrike",
+     "fr": "Frappe enflammée"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Inferno Aegis",
+     "fr": "Égide de feu"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Molten Burst",
+     "fr": "Éruption"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Dragon's Descent",
+     "fr": "Vol du dragon"
+    }
+   ]
+  },
+  "Singed": {
+   "en": "Singed",
+   "fr": "Singed",
+   "passive": {
+    "en": "Noxious Slipstream",
+    "fr": "Sillage toxique"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Poison Trail",
+     "fr": "Piste empoisonnée"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Mega Adhesive",
+     "fr": "Attrape-mouche"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Fling",
+     "fr": "Projection"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Insanity Potion",
+     "fr": "Potion de démence"
+    }
+   ]
+  },
+  "Sion": {
+   "en": "Sion",
+   "fr": "Sion",
+   "passive": {
+    "en": "Glory in Death",
+    "fr": "Gloire posthume"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Decimating Smash",
+     "fr": "Fracas meurtrier"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Soul Furnace",
+     "fr": "Feu intérieur"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Roar of the Slayer",
+     "fr": "Cri du tueur"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Unstoppable Onslaught",
+     "fr": "Assaut inarrêtable"
+    }
+   ]
+  },
+  "Sivir": {
+   "en": "Sivir",
+   "fr": "Sivir",
+   "passive": {
+    "en": "Fleet of Foot",
+    "fr": "Mille-pattes"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Boomerang Blade",
+     "fr": "Lame boomerang"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Ricochet",
+     "fr": "Ricochet"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Spell Shield",
+     "fr": "Bouclier magique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "On The Hunt",
+     "fr": "En chasse"
+    }
+   ]
+  },
+  "Skarner": {
+   "en": "Skarner",
+   "fr": "Skarner",
+   "passive": {
+    "en": "Threads of Vibration",
+    "fr": "Échos des vibrations"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Shattered Earth / Upheaval",
+     "fr": "Terre brisée/Soulèvement"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Seismic Bastion",
+     "fr": "Bastion sismique"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Ixtal's Impact",
+     "fr": "Impact d'Ixtal"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Impale",
+     "fr": "Empalement"
+    }
+   ]
+  },
+  "Smolder": {
+   "en": "Smolder",
+   "fr": "Smolder",
+   "passive": {
+    "en": "Dragon Practice",
+    "fr": "Dragon en herbe"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Super Scorcher Breath",
+     "fr": "Boule de feu draconique"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Achooo!",
+     "fr": "Atchoum !"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Flap, Flap, Flap",
+     "fr": "Flap, flap, flap !"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "MMOOOMMMM!",
+     "fr": "MAMAAAN !"
+    }
+   ]
+  },
+  "Sona": {
+   "en": "Sona",
+   "fr": "Sona",
+   "passive": {
+    "en": "Power Chord",
+    "fr": "Accord de puissance"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Hymn of Valor",
+     "fr": "Hymne à la bravoure"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Aria of Perseverance",
+     "fr": "Aria de persévérance"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Song of Celerity",
+     "fr": "Mélodie de vélocité"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Crescendo",
+     "fr": "Crescendo"
+    }
+   ]
+  },
+  "Soraka": {
+   "en": "Soraka",
+   "fr": "Soraka",
+   "passive": {
+    "en": "Salvation",
+    "fr": "Salut"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Starcall",
+     "fr": "Appel de l'étoile"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Astral Infusion",
+     "fr": "Infusion astrale"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Equinox",
+     "fr": "Équinoxe"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Wish",
+     "fr": "Souhait"
+    }
+   ]
+  },
+  "Swain": {
+   "en": "Swain",
+   "fr": "Swain",
+   "passive": {
+    "en": "Ravenous Flock",
+    "fr": "Nuée de corbeaux"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Death's Hand",
+     "fr": "Poigne mortifère"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Vision of Empire",
+     "fr": "Œil de l'empire"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Nevermove",
+     "fr": "Capture"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Demonic Ascension",
+     "fr": "Incarnation démoniaque"
+    }
+   ]
+  },
+  "Sylas": {
+   "en": "Sylas",
+   "fr": "Sylas",
+   "passive": {
+    "en": "Petricite Burst",
+    "fr": "Volée de pétricite"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Chain Lash",
+     "fr": "Croix du forçat"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Kingslayer",
+     "fr": "Régicide"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Abscond / Abduct",
+     "fr": "Évasion / Enlèvement"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Hijack",
+     "fr": "Détournement"
+    }
+   ]
+  },
+  "Syndra": {
+   "en": "Syndra",
+   "fr": "Syndra",
+   "passive": {
+    "en": "Transcendent",
+    "fr": "Transcendance"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Dark Sphere",
+     "fr": "Sphère noire"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Force of Will",
+     "fr": "Force de la volonté"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Scatter the Weak",
+     "fr": "Dispersion des faibles"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Unleashed Power",
+     "fr": "Déchaînement de puissance"
+    }
+   ]
+  },
+  "TahmKench": {
+   "en": "Tahm Kench",
+   "fr": "Tahm Kench",
+   "passive": {
+    "en": "An Acquired Taste",
+    "fr": "Goût acquis"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Tongue Lash",
+     "fr": "Coup de langue"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Abyssal Dive",
+     "fr": "Plongée abyssale"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Thick Skin",
+     "fr": "Peau épaisse"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Devour",
+     "fr": "Dévoration"
+    }
+   ]
+  },
+  "Taliyah": {
+   "en": "Taliyah",
+   "fr": "Taliyah",
+   "passive": {
+    "en": "Rock Surfing",
+    "fr": "Surf tellurique"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Threaded Volley",
+     "fr": "Rafale filée"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Seismic Shove",
+     "fr": "Poussée sismique"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Unraveled Earth",
+     "fr": "Défilage tellurique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Weaver's Wall",
+     "fr": "Mur de la tisseuse"
+    }
+   ]
+  },
+  "Talon": {
+   "en": "Talon",
+   "fr": "Talon",
+   "passive": {
+    "en": "Blade's End",
+    "fr": "Saignée fatale"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Noxian Diplomacy",
+     "fr": "Diplomatie noxienne"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Rake",
+     "fr": "Ratissage"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Assassin's Path",
+     "fr": "Voie de l'assassin"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Shadow Assault",
+     "fr": "Assaut ténébreux"
+    }
+   ]
+  },
+  "Taric": {
+   "en": "Taric",
+   "fr": "Taric",
+   "passive": {
+    "en": "Bravado",
+    "fr": "Plastronneur"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Starlight's Touch",
+     "fr": "Bénédiction stellaire"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Bastion",
+     "fr": "Bastion"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Dazzle",
+     "fr": "Éblouissement"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Cosmic Radiance",
+     "fr": "Lumière cosmique"
+    }
+   ]
+  },
+  "Teemo": {
+   "en": "Teemo",
+   "fr": "Teemo",
+   "passive": {
+    "en": "Guerrilla Warfare",
+    "fr": "Guérilla"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Blinding Dart",
+     "fr": "Fléchette aveuglante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Move Quick",
+     "fr": "Vélocité"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Toxic Shot",
+     "fr": "Tir toxique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Noxious Trap",
+     "fr": "Piège nocif"
+    }
+   ]
+  },
+  "Thresh": {
+   "en": "Thresh",
+   "fr": "Thresh",
+   "passive": {
+    "en": "Damnation",
+    "fr": "Damnation"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Death Sentence",
+     "fr": "Peine capitale"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Dark Passage",
+     "fr": "Lien des ténèbres"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Flay",
+     "fr": "Fauchage"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "The Box",
+     "fr": "La cage"
+    }
+   ]
+  },
+  "Tristana": {
+   "en": "Tristana",
+   "fr": "Tristana",
+   "passive": {
+    "en": "Draw a Bead",
+    "fr": "Tir de précision"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Rapid Fire",
+     "fr": "Tir rapide"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Rocket Jump",
+     "fr": "Saut roquette"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Explosive Charge",
+     "fr": "Charge explosive"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Buster Shot",
+     "fr": "Tir à impact"
+    }
+   ]
+  },
+  "Trundle": {
+   "en": "Trundle",
+   "fr": "Trundle",
+   "passive": {
+    "en": "King's Tribute",
+    "fr": "Tribut du roi"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Chomp",
+     "fr": "Morsure"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Frozen Domain",
+     "fr": "Royaume gelé"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Pillar of Ice",
+     "fr": "Montagne de glace"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Subjugate",
+     "fr": "Soumission"
+    }
+   ]
+  },
+  "Tryndamere": {
+   "en": "Tryndamere",
+   "fr": "Tryndamere",
+   "passive": {
+    "en": "Battle Fury",
+    "fr": "Vague de violence"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Bloodlust",
+     "fr": "Soif de sang"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Mocking Shout",
+     "fr": "Moquerie"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Spinning Slash",
+     "fr": "Balafre"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Undying Rage",
+     "fr": "Rage inépuisable"
+    }
+   ]
+  },
+  "TwistedFate": {
+   "en": "Twisted Fate",
+   "fr": "Twisted Fate",
+   "passive": {
+    "en": "Loaded Dice",
+    "fr": "Dé pipé"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Wild Cards",
+     "fr": "Atouts"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Pick a Card",
+     "fr": "Bonne pioche"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Stacked Deck",
+     "fr": "Paquet"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Destiny",
+     "fr": "Destinée"
+    }
+   ]
+  },
+  "Twitch": {
+   "en": "Twitch",
+   "fr": "Twitch",
+   "passive": {
+    "en": "Deadly Venom",
+    "fr": "Venin mortel"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Ambush",
+     "fr": "Embuscade"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Venom Cask",
+     "fr": "Dose de venin"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Contaminate",
+     "fr": "Contamination"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Spray and Pray",
+     "fr": "Panique"
+    }
+   ]
+  },
+  "Udyr": {
+   "en": "Udyr",
+   "fr": "Udyr",
+   "passive": {
+    "en": "Bridge Between",
+    "fr": "Canalisation des esprits"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Wilding Claw",
+     "fr": "Griffe sauvage"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Iron Mantle",
+     "fr": "Cape de fer"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Blazing Stampede",
+     "fr": "Piétinement flamboyant"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Wingborne Storm",
+     "fr": "Tempête spirituelle"
+    }
+   ]
+  },
+  "Urgot": {
+   "en": "Urgot",
+   "fr": "Urgot",
+   "passive": {
+    "en": "Echoing Flames",
+    "fr": "Flammes purificatrices"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Corrosive Charge",
+     "fr": "Torpille corrosive"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Purge",
+     "fr": "Géhenne"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Disdain",
+     "fr": "Mépris"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Fear Beyond Death",
+     "fr": "Règne de la terreur"
+    }
+   ]
+  },
+  "Varus": {
+   "en": "Varus",
+   "fr": "Varus",
+   "passive": {
+    "en": "Living Vengeance",
+    "fr": "Vengeance incarnée"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Piercing Arrow",
+     "fr": "Flèche perforante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Blighted Quiver",
+     "fr": "Carquois meurtri"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Hail of Arrows",
+     "fr": "Pluie de flèches"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Chain of Corruption",
+     "fr": "Chaîne corruptrice"
+    }
+   ]
+  },
+  "Vayne": {
+   "en": "Vayne",
+   "fr": "Vayne",
+   "passive": {
+    "en": "Night Hunter",
+    "fr": "Chasseresse nocturne"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Tumble",
+     "fr": "Roulade"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Silver Bolts",
+     "fr": "Carreaux d'argent"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Condemn",
+     "fr": "Condamnation"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Final Hour",
+     "fr": "Combat ultime"
+    }
+   ]
+  },
+  "Veigar": {
+   "en": "Veigar",
+   "fr": "Veigar",
+   "passive": {
+    "en": "Phenomenal Evil Power",
+    "fr": "Pouvoir maléfique phénoménal"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Baleful Strike",
+     "fr": "Coup malin"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Dark Matter",
+     "fr": "Matière noire"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Event Horizon",
+     "fr": "Profanation"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Primordial Burst",
+     "fr": "Explosion primordiale"
+    }
+   ]
+  },
+  "Velkoz": {
+   "en": "Vel'Koz",
+   "fr": "Vel'Koz",
+   "passive": {
+    "en": "Organic Deconstruction",
+    "fr": "Décomposition organique"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Plasma Fission",
+     "fr": "Fission du plasma"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Void Rift",
+     "fr": "Ouverture de faille"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Tectonic Disruption",
+     "fr": "Dislocation tectonique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Life Form Disintegration Ray",
+     "fr": "Désintégrateur de formes de vie"
+    }
+   ]
+  },
+  "Vex": {
+   "en": "Vex",
+   "fr": "Vex",
+   "passive": {
+    "en": "Doom 'n Gloom",
+    "fr": "Malheur et Désespoir"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Mistral Bolt",
+     "fr": "Mistral perdant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Personal Space",
+     "fr": "Lâchez-moi !"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Looming Darkness",
+     "fr": "Ténèbres imminentes"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Shadow Surge",
+     "fr": "Déferlement d'Ombre"
+    }
+   ]
+  },
+  "Vi": {
+   "en": "Vi",
+   "fr": "Vi",
+   "passive": {
+    "en": "Blast Shield",
+    "fr": "Bouclier antichoc"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Vault Breaker",
+     "fr": "Brise-coffre"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Denting Blows",
+     "fr": "Coups fracassants"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Relentless Force",
+     "fr": "Force implacable"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Cease and Desist",
+     "fr": "Mise en demeure"
+    }
+   ]
+  },
+  "Viego": {
+   "en": "Viego",
+   "fr": "Viego",
+   "passive": {
+    "en": "Sovereign's Domination",
+    "fr": "Assujettissement"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Blade of the Ruined King",
+     "fr": "Lame du roi déchu"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Spectral Maw",
+     "fr": "Gueule spectrale"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Harrowed Path",
+     "fr": "Chemin tourmenté"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Heartbreaker",
+     "fr": "Cœur brisé"
+    }
+   ]
+  },
+  "Viktor": {
+   "en": "Viktor",
+   "fr": "Viktor",
+   "passive": {
+    "en": "Glorious Evolution",
+    "fr": "Glorieuse évolution"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Siphon Power",
+     "fr": "Siphonnage"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Gravity Field",
+     "fr": "Champ gravitationnel"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Hextech Ray",
+     "fr": "Rayon Hextech"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Arcane Storm",
+     "fr": "Tempête arcanique"
+    }
+   ]
+  },
+  "Vladimir": {
+   "en": "Vladimir",
+   "fr": "Vladimir",
+   "passive": {
+    "en": "Crimson Pact",
+    "fr": "Pacte de sang"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Transfusion",
+     "fr": "Transfusion"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Sanguine Pool",
+     "fr": "Bain de sang"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Tides of Blood",
+     "fr": "Vagues de sang"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Hemoplague",
+     "fr": "Peste sanguine"
+    }
+   ]
+  },
+  "Volibear": {
+   "en": "Volibear",
+   "fr": "Volibear",
+   "passive": {
+    "en": "The Relentless Storm",
+    "fr": "Tempête impitoyable"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Thundering Smash",
+     "fr": "Coup fulgurant"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Frenzied Maul",
+     "fr": "Folie mutilatrice"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Sky Splitter",
+     "fr": "Foudroiement"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Stormbringer",
+     "fr": "Tempête incarnée"
+    }
+   ]
+  },
+  "Warwick": {
+   "en": "Warwick",
+   "fr": "Warwick",
+   "passive": {
+    "en": "Eternal Hunger",
+    "fr": "Soif inextinguible"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Jaws of the Beast",
+     "fr": "Dents de la bête"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Blood Hunt",
+     "fr": "Traque sanguinaire"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Primal Howl",
+     "fr": "Hurlement bestial"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Infinite Duress",
+     "fr": "Contrainte infinie"
+    }
+   ]
+  },
+  "Xayah": {
+   "en": "Xayah",
+   "fr": "Xayah",
+   "passive": {
+    "en": "Clean Cuts",
+    "fr": "Plumes perçantes"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Double Daggers",
+     "fr": "Dagues jumelles"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Deadly Plumage",
+     "fr": "Plumage mortel"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Bladecaller",
+     "fr": "Appel des lames"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Featherstorm",
+     "fr": "Rafale de plumes"
+    }
+   ]
+  },
+  "Xerath": {
+   "en": "Xerath",
+   "fr": "Xerath",
+   "passive": {
+    "en": "Mana Surge",
+    "fr": "Afflux de mana"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Arcanopulse",
+     "fr": "Rayon arcanique"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Eye of Destruction",
+     "fr": "Œil de la destruction"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Shocking Orb",
+     "fr": "Orbe d'électrocution"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Rite of the Arcane",
+     "fr": "Rite arcanique"
+    }
+   ]
+  },
+  "XinZhao": {
+   "en": "Xin Zhao",
+   "fr": "Xin Zhao",
+   "passive": {
+    "en": "Determination",
+    "fr": "Détermination"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Three Talon Strike",
+     "fr": "Frappe des trois serres"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Wind Becomes Lightning",
+     "fr": "Vent et foudre"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Audacious Charge",
+     "fr": "Charge audacieuse"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Crescent Guard",
+     "fr": "Garde circulaire"
+    }
+   ]
+  },
+  "Yasuo": {
+   "en": "Yasuo",
+   "fr": "Yasuo",
+   "passive": {
+    "en": "Way of the Wanderer",
+    "fr": "Voie du vagabond"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Steel Tempest",
+     "fr": "Tempête d'acier"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Wind Wall",
+     "fr": "Mur de vent"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Sweeping Blade",
+     "fr": "Cercle tranchant"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Last Breath",
+     "fr": "Dernier soupir"
+    }
+   ]
+  },
+  "Yone": {
+   "en": "Yone",
+   "fr": "Yone",
+   "passive": {
+    "en": "Way of the Hunter",
+    "fr": "Voie du chasseur"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Mortal Steel",
+     "fr": "Acier mortel"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Spirit Cleave",
+     "fr": "Fendoir spirituel"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Soul Unbound",
+     "fr": "Libération spirituelle"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Fate Sealed",
+     "fr": "Destin scellé"
+    }
+   ]
+  },
+  "Yorick": {
+   "en": "Yorick",
+   "fr": "Yorick",
+   "passive": {
+    "en": "Shepherd of Souls",
+    "fr": "Berger des âmes"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Last Rites",
+     "fr": "Derniers sacrements"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Dark Procession",
+     "fr": "Sombre cortège"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Mourning Mist",
+     "fr": "Brume endeuillée"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Eulogy of the Isles",
+     "fr": "Élégie des Îles"
+    }
+   ]
+  },
+  "Yunara": {
+   "en": "Yunara",
+   "fr": "Yunara",
+   "passive": {
+    "en": "Vow of the First Lands",
+    "fr": "Serment aux Terres premières"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Cultivation of Spirit",
+     "fr": "Déchaînement spirituel"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Arc of Judgment | Arc of Ruin",
+     "fr": "Arc du jugement | Arc de la ruine"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Kanmei's Steps | Untouchable Shadow",
+     "fr": "Célérité des kanmei | Ombres ineffables"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Transcend One's Self",
+     "fr": "Transe"
+    }
+   ]
+  },
+  "Yuumi": {
+   "en": "Yuumi",
+   "fr": "Yuumi",
+   "passive": {
+    "en": "Feline Friendship",
+    "fr": "Chat-maraderie"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Prowling Projectile",
+     "fr": "Tête chat-sseuse"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "You and Me!",
+     "fr": "Félin pour l'autre !"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Zoomies",
+     "fr": "Zouuu !"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Final Chapter",
+     "fr": "Chat-pitre final"
+    }
+   ]
+  },
+  "Zaahen": {
+   "en": "Zaahen",
+   "fr": "Zaahen",
+   "passive": {
+    "en": "Cultivation of War",
+    "fr": "Guerrier immortel"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "The Darkin Glaive",
+     "fr": "Glaive des Darkin"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Dreaded Return",
+     "fr": "Retour redoutable"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Aureate Rush",
+     "fr": "Incursion dorée"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Grim Deliverance",
+     "fr": "Libération inexorable"
+    }
+   ]
+  },
+  "Zac": {
+   "en": "Zac",
+   "fr": "Zac",
+   "passive": {
+    "en": "Cell Division",
+    "fr": "Division cellulaire"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Stretching Strikes",
+     "fr": "Étirements"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Unstable Matter",
+     "fr": "Matière instable"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Elastic Slingshot",
+     "fr": "Fronde"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Let's Bounce!",
+     "fr": "Boing !"
+    }
+   ]
+  },
+  "Zed": {
+   "en": "Zed",
+   "fr": "Zed",
+   "passive": {
+    "en": "Contempt for the Weak",
+    "fr": "Mépris des faibles"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Razor Shuriken",
+     "fr": "Shuriken-rasoir"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Living Shadow",
+     "fr": "Ombre vivante"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Shadow Slash",
+     "fr": "Taillade des ombres"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Death Mark",
+     "fr": "Marque de la mort"
+    }
+   ]
+  },
+  "Zeri": {
+   "en": "Zeri",
+   "fr": "Zeri",
+   "passive": {
+    "en": "Living Battery",
+    "fr": "Batterie vivante"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Burst Fire",
+     "fr": "Rafale"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Ultrashock Laser",
+     "fr": "Laser électrocuteur"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Spark Surge",
+     "fr": "Charge ionique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Lightning Crash",
+     "fr": "Éruption électrique"
+    }
+   ]
+  },
+  "Ziggs": {
+   "en": "Ziggs",
+   "fr": "Ziggs",
+   "passive": {
+    "en": "Short Fuse",
+    "fr": "Mèche courte"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Bouncing Bomb",
+     "fr": "Bombe rebondissante"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Satchel Charge",
+     "fr": "Charge explosive"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Hexplosive Minefield",
+     "fr": "Mines Hexplosives"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Mega Inferno Bomb",
+     "fr": "Méga bombe infernale"
+    }
+   ]
+  },
+  "Zilean": {
+   "en": "Zilean",
+   "fr": "Zilean",
+   "passive": {
+    "en": "Time In A Bottle",
+    "fr": "Temps dans une bouteille"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Time Bomb",
+     "fr": "Bombe à retardement"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Rewind",
+     "fr": "Retour rapide"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Time Warp",
+     "fr": "Distorsion temporelle"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Chronoshift",
+     "fr": "Retour temporel"
+    }
+   ]
+  },
+  "Zoe": {
+   "en": "Zoe",
+   "fr": "Zoé",
+   "passive": {
+    "en": "More Sparkles!",
+    "fr": "Plus d'étincelles !"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Paddle Star!",
+     "fr": "Astro-pong !"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Spell Thief",
+     "fr": "Voleuse de sorts"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Sleepy Trouble Bubble",
+     "fr": "Bulle soporifique"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Portal Jump",
+     "fr": "Bond dimensionnel"
+    }
+   ]
+  },
+  "Zyra": {
+   "en": "Zyra",
+   "fr": "Zyra",
+   "passive": {
+    "en": "Garden of Thorns",
+    "fr": "Jardin de ronces"
+   },
+   "abilities": [
+    {
+     "qwerty": "Q",
+     "azerty": "A",
+     "en": "Deadly Spines",
+     "fr": "Épines funestes"
+    },
+    {
+     "qwerty": "W",
+     "azerty": "Z",
+     "en": "Rampant Growth",
+     "fr": "Croissance incontrôlée"
+    },
+    {
+     "qwerty": "E",
+     "azerty": "E",
+     "en": "Grasping Roots",
+     "fr": "Racines fixatrices"
+    },
+    {
+     "qwerty": "R",
+     "azerty": "R",
+     "en": "Stranglethorns",
+     "fr": "Ronces étrangleuses"
+    }
+   ]
+  }
+ },
+ "items": {
+  "Boots": "Bottes",
+  "Faerie Charm": "Charme féérique",
+  "Rejuvenation Bead": "Collier rafraîchissant",
+  "Giant's Belt": "Ceinture du géant",
+  "Cloak of Agility": "Cape d'agilité",
+  "Blasting Wand": "Baguette explosive",
+  "Sapphire Crystal": "Cristal de saphir",
+  "Ruby Crystal": "Cristal de rubis",
+  "Cloth Armor": "Armure d'étoffe",
+  "Chain Vest": "Cotte de mailles",
+  "Null-Magic Mantle": "Cape de néant",
+  "Long Sword": "Épée longue",
+  "Pickaxe": "Pioche",
+  "B. F. Sword": "BF Glaive",
+  "Dagger": "Dague",
+  "Recurve Bow": "Arc courbe",
+  "Amplifying Tome": "Tome d'amplification",
+  "Vampiric Scepter": "Sceptre vampirique",
+  "Doran's Shield": "Bouclier de Doran",
+  "Doran's Blade": "Lame de Doran",
+  "Doran's Ring": "Anneau de Doran",
+  "Negatron Cloak": "Manteau de Négatron",
+  "Needlessly Large Rod": "Baguette trop grosse",
+  "Dark Seal": "Sceau noir",
+  "Cull": "Abatteur",
+  "Doran's Bow": "Arc de Doran",
+  "Scorchclaw Pup": "Bébé Chardent",
+  "Gustwalker Hatchling": "Bébé Saute-nuages",
+  "Mosstomper Seedling": "Bébé Ixamandre",
+  "Doran's Helm": "Casque de Doran",
+  "Fortification": "Fortification",
+  "Reinforced Armor": "Armure renforcée",
+  "Warden's Eye": "Œil du gardien",
+  "Overcharged": "Surcharge",
+  "Anti-tower Socks": "Chaussettes anti-tourelles",
+  "Gusto": "Impulsivité",
+  "Phreakish Gusto": "Impulsivité phreakienne",
+  "Super Mech Armor": "Armure de super mech",
+  "Super Mech Power Field": "Champ de force de super mech",
+  "Turret Plating": "Bouclier de tourelle",
+  "Structure Bounty": "Prime de bâtiment",
+  "OvererchargedHA": "Surcharge",
+  "Tower Power-Up": "Amélioration de tourelle",
+  "Overgrowth": "Surcroissance",
+  "Recall": "Rappel",
+  "Health Potion": "Potion de soin",
+  "Disabled Recall": "Rappel désactivé",
+  "Total Biscuit of Everlasting Will": "Biscuit de longévité",
+  "Steel Sigil": "Sceau d'acier",
+  "The Brutalizer": "Brutaliseur",
+  "Tunneler": "Foreuse",
+  "Glowing Mote": "Poussière luisante",
+  "Refillable Potion": "Potion rechargeable",
+  "Corrupting Potion": "Potion de corruption",
+  "Guardian's Horn": "Corne du gardien",
+  "Poro-Snax": "Poro-Snax",
+  "Control Ward": "Balise de contrôle",
+  "Shurelya's Battlesong": "Chant de guerre de Shurelya",
+  "Elixir of Iron": "Élixir de fer",
+  "Elixir of Sorcery": "Élixir de sorcellerie",
+  "Elixir of Wrath": "Élixir de rage",
+  "Cappa Juice": "Jus chapi-chapo",
+  "Elixir of Skill": "Élixir de compétence",
+  "Elixir of Avarice": "Élixir d'avarice",
+  "Elixir of Force": "Élixir de force",
+  "Minion Dematerializer": "Désintégrateur de sbires",
+  "Seeker's Armguard": "Protège-bras du savant",
+  "Shattered Armguard": "Protège-bras pulvérisé",
+  "Slightly Magical Footwear": "Chaussures légèrement magiques",
+  "Overlord's Bloodmail": "Armure sanguine",
+  "Unending Despair": "Désespoir infini",
+  "Blackfire Torch": "Torche noire",
+  "Kaenic Rookern": "Rookern kaénique",
+  "Fated Ashes": "Cendres fatidiques",
+  "Dusk and Dawn": "Aube et crépuscule",
+  "Fiendhunter Bolts": "Chasseur de monstres",
+  "Endless Hunger": "Faim insatiable",
+  "Bastionbreaker": "Briseur de bastion",
+  "Actualizer": "Actualisateur",
+  "Hexoptics C44": "Lunettes Hextech C44",
+  "Bandlepipes": "Flûtes de Bandle",
+  "Protoplasm Harness": "Harnais protoplasmique",
+  "Whispering Circlet": "Diadème des murmures",
+  "Diadem of Songs": "Diadème musical",
+  "Trailblazer": "Sac de l'explorateur",
+  "Archangel's Staff": "Bâton de l'archange",
+  "Manamune": "Manamune",
+  "Berserker's Greaves": "Jambières du berzerker",
+  "Gluttonous Greaves": "Jambières gloutonnes",
+  "Boots of Swiftness": "Bottes de célérité",
+  "Symbiotic Soles": "Semelles symbiotiques",
+  "Chemtech Putrifier": "Putrificateur techno-chimique",
+  "Synchronized Souls": "Âmes synchronisées",
+  "Sorcerer's Shoes": "Chaussures de sorcier",
+  "Glacial Buckler": "Bouclier glacial",
+  "Guardian Angel": "Ange gardien",
+  "Infinity Edge": "Lame d'infini",
+  "Yun Tal Wildarrows": "Flèches des Yun Tal",
+  "Mortal Reminder": "Rappel mortel",
+  "Last Whisper": "Dernier souffle",
+  "Lord Dominik's Regards": "Salutations de Dominik",
+  "Seraph's Embrace": "Étreinte du séraphin",
+  "Mejai's Soulstealer": "Voleur d'âmes de Mejai",
+  "Muramana": "Muramana",
+  "Phage": "Phage",
+  "Phantom Dancer": "Danseur fantôme",
+  "Plated Steelcaps": "Coques en acier",
+  "Zeke's Convergence": "Convergence de Zeke",
+  "Hearthbound Axe": "Hache d'Âtrinsèque",
+  "Sterak's Gage": "Gage de Sterak",
+  "Sheen": "Brillance",
+  "Spirit Visage": "Visage spirituel",
+  "Winged Moonplate": "Plaque de lune ailée",
+  "Kindlegem": "Gemme exaltante",
+  "Sunfire Aegis": "Égide solaire",
+  "Tear of the Goddess": "Larme de la déesse",
+  "Black Cleaver": "Couperet noir",
+  "Bloodthirster": "Soif-de-sang",
+  "Experimental Hexplate": "Hexplaque expérimentale",
+  "Ravenous Hydra": "Hydre vorace",
+  "Thornmail": "Cotte épineuse",
+  "Bramble Vest": "Armure roncière",
+  "Tiamat": "Tiamat",
+  "Trinity Force": "Force de la trinité",
+  "Warden's Mail": "Mailles du gardien",
+  "Warmog's Armor": "Armure de Warmog",
+  "Heartsteel": "Cœuracier",
+  "Runaan's Hurricane": "Ouragan de Runaan",
+  "Zeal": "Zèle",
+  "Statikk Shiv": "Poignard de Statikk",
+  "Rabadon's Deathcap": "Coiffe de Rabadon",
+  "Wit's End": "Au bout du rouleau",
+  "Rapid Firecannon": "Canon ultrarapide",
+  "Stormrazor": "Lame tempête",
+  "Lich Bane": "Fléau de liche",
+  "Banshee's Veil": "Voile de la banshee",
+  "Redemption": "Rédemption",
+  "Fiendish Codex": "Codex méphitique",
+  "Knight's Vow": "Vœu du chevalier",
+  "Frozen Heart": "Cœur gelé",
+  "Mercury's Treads": "Sandales de Mercure",
+  "Guardian's Orb": "Orbe du gardien",
+  "Aether Wisp": "Feu follet éthéré",
+  "Forbidden Idol": "Idole interdite",
+  "Nashor's Tooth": "Dent de Nashor",
+  "Rylai's Crystal Scepter": "Sceptre de Rylai",
+  "Mobility Boots": "Bottes de mobilité",
+  "Malignance": "Malfaisance",
+  "Winter's Approach": "Approche de l'hiver",
+  "Fimbulwinter": "Fimbulvetr",
+  "Executioner's Calling": "Marque du bourreau",
+  "Guinsoo's Rageblade": "Lame enragée de Guinsoo",
+  "Caulfield's Warhammer": "Marteau de Caulfield",
+  "Serrated Dirk": "Dague dentelée",
+  "Void Staff": "Bâton du vide",
+  "Cryptbloom": "Fleur de crypte",
+  "Mercurial Scimitar": "Cimeterre mercuriel",
+  "Quicksilver Sash": "Ceinture de mercure",
+  "Youmuu's Ghostblade": "Lame spectre de Youmuu",
+  "Randuin's Omen": "Présage de Randuin",
+  "Scout's Slingshot": "Fronde de l'éclaireur",
+  "Hextech Alternator": "Alternateur Hextech",
+  "Hextech Gunblade": "Pistolame Hextech",
+  "Haunting Guise": "Déguisement hanté",
+  "Hextech Rocketbelt": "Ceinture-roquette Hextech",
+  "Blade of The Ruined King": "Lame du roi déchu",
+  "Hexdrinker": "Hexterminateur",
+  "Maw of Malmortius": "Gueule de Malmortius",
+  "Zhonya's Hourglass": "Sablier de Zhonya",
+  "Ionian Boots of Lucidity": "Bottes de lucidité",
+  "Spear of Shojin": "Lance de Shojin",
+  "Morellonomicon": "Morellonomicon",
+  "Immortal Path": "Voie immortelle",
+  "Swiftmarch": "Célérité martiale",
+  "Crimson Lucidity": "Lucidité pourpre",
+  "Gunmetal Greaves": "Jambières de métal",
+  "Chainlaced Crushers": "Broyeuses à chaînes",
+  "Armored Advance": "Avancée blindée",
+  "Spellslinger's Shoes": "Chaussures de lanceur de sorts",
+  "Forever Forward": "Semelles militaires",
+  "Guardian's Blade": "Lame du gardien",
+  "Umbral Glaive": "Glaive d'ombre",
+  "Hullbreaker": "Brise-coques",
+  "Guardian's Hammer": "Marteau du gardien",
+  "Locket of the Iron Solari": "Médaillon de l'Iron Solari",
+  "Spectre's Cowl": "Manteau de spectre",
+  "Mikael's Blessing": "Bénédiction de Mikael",
+  "Terminus": "Terminus",
+  "Scarecrow Effigy": "Effigie d'épouvantail",
+  "Stealth Ward": "Balise camouflée",
+  "Farsight Alteration": "Altération divinatoire",
+  "Oracle Lens": "Brouilleur oraculaire",
+  "Your Cut": "Votre part",
+  "Ardent Censer": "Encensoir ardent",
+  "Essence Reaver": "Faux spectrale",
+  "Kalista's Black Spear": "Lance noire de Kalista",
+  "Dead Man's Plate": "Plaque du mort",
+  "Titanic Hydra": "Hydre titanesque",
+  "Crystalline Bracer": "Bracelet cristallin",
+  "Lost Chapter": "Chapitre perdu",
+  "Catalyst of Aeons": "Catalyseur de l'éternité",
+  "Edge of Night": "Manteau de la nuit",
+  "World Atlas": "Atlas",
+  "Runic Compass": "Boussole runique",
+  "Bounty of Worlds": "Trésor des mondes",
+  "Celestial Opposition": "Opposition céleste",
+  "Dream Maker": "Rêve éveillé",
+  "Zaz'Zak's Realmspike": "Pique dimensionnelle de Zaz'Zak",
+  "Solstice Sleigh": "Traîneau du solstice",
+  "Bloodsong": "Mélodie du sang",
+  "<rarityLegendary>Fire at Will</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>": "<rarityLegendary>Feu à volonté</rarityLegendary><br><subtitleLeft><silver>500 serpents d'argent</silver></subtitleLeft>",
+  "<rarityLegendary>Death's Daughter</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>": "<rarityLegendary>Jeune Camarde</rarityLegendary><br><subtitleLeft><silver>500 serpents d'argent</silver></subtitleLeft>",
+  "<rarityLegendary>Raise Morale</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>": "<rarityLegendary>Moral élevé</rarityLegendary><br><subtitleLeft><silver>500 serpents d'argent</silver></subtitleLeft>",
+  "Oblivion Orb": "Orbe de l'oubli",
+  "Imperial Mandate": "Mandat impérial",
+  "Force of Nature": "Force de la nature",
+  "Horizon Focus": "Concentration lointaine",
+  "Cosmic Drive": "Volonté cosmique",
+  "Blighting Jewel": "Joyau putréfiant",
+  "Verdant Barrier": "Barrière verdoyante",
+  "Riftmaker": "Créateur de failles",
+  "Leeching Leer": "Regard parasitaire",
+  "Night Harvester": "Moissonneur nocturne",
+  "Demonic Embrace": "Étreinte démoniaque",
+  "Bandleglass Mirror": "Miroir en verre de Bandle",
+  "Shadowflame": "Flamme-ombre",
+  "Stormsurge": "Onde orageuse",
+  "Death's Dance": "Danse de la mort",
+  "Chempunk Chainsword": "Épée dentelée chimico-punk",
+  "Sundered Sky": "Ciel éventré",
+  "Staff of Flowing Water": "Bâton des flots",
+  "Moonstone Renewer": "Régénérateur de pierre de lune",
+  "Echoes of Helia": "Échos d'Helia",
+  "Dawncore": "Cœur de l'aube",
+  "Stridebreaker": "Estropieur",
+  "Liandry's Torment": "Tourment de Liandry",
+  "Luden's Echo": "Écho de Luden",
+  "Rod of Ages": "Bâton séculaire",
+  "Bami's Cinder": "Cendres de Bami",
+  "Iceborn Gauntlet": "Gantelet givrant",
+  "Hollow Radiance": "Rayonnement du vide",
+  "Jak'Sho, The Protean": "Jak'Sho, le Protéiforme",
+  "Noonquiver": "Carquois zénithien",
+  "Kraken Slayer": "Tueur de krakens",
+  "Immortal Shieldbow": "Arc-bouclier immortel",
+  "Navori Flickerblade": "Tremblelame navori",
+  "The Collector": "Percepteur",
+  "Rectrix": "Rectrix",
+  "Eclipse": "Éclipse",
+  "Prowler's Claw": "Griffes du rôdeur",
+  "Serylda's Grudge": "Rancune de Serylda",
+  "Serpent's Fang": "Crochet de serpent",
+  "Axiom Arc": "Arc axiomatique",
+  "Hubris": "Orgueil",
+  "Profane Hydra": "Hydre profane",
+  "Voltaic Cyclosword": "Cyclosabre voltaïque",
+  "Opportunity": "Opportunité",
+  "Gangplank Placeholder": "Gangplank Placeholder",
+  "Anathema's Chains": "Chaînes de l'anathème",
+  "Bloodletter's Curse": "Malédiction du sanguinaire",
+  "Abyssal Mask": "Masque abyssal",
+  "Atma's Reckoning": "Jugement d'Atma",
+  "Demon King's Crown": "Couronne du Roi-démon",
+  "Shield of Molten Stone": "Bouclier de roche en fusion",
+  "Cloak of Starry Night": "Manteau de nuit étoilée",
+  "Sword of the Divine": "Épée du divin",
+  "Veigar's Talisman of Ascension": "Talisman de l'ascension de Veigar",
+  "Zephyr": "Zéphyr",
+  "Gargoyle Stoneplate": "Lithoplastron de gargouille",
+  "Sword of Blossoming Dawn": "Épée de l'aube",
+  "The Golden Spatula": "Spatule dorée",
+  "Crown of the Shattered Queen": "Couronne de la Reine brisée",
+  "Gambler's Blade": "Lame du parieur",
+  "Cruelty": "Cruauté",
+  "Flesheater": "Nécrophage",
+  "Penetrating Bullets": "Balles perforantes"
+ },
+ "runes": {
+  "Domination": "Domination",
+  "Electrocute": "Électrocution",
+  "Dark Harvest": "Moisson noire",
+  "Hail of Blades": "Déluge de lames",
+  "Cheap Shot": "Coup bas",
+  "Taste of Blood": "Goût du sang",
+  "Sudden Impact": "Ruée offensive",
+  "Sixth Sense": "Sixième sens",
+  "Grisly Mementos": "Souvenirs épouvantables",
+  "Deep Ward": "Balise de profondeur",
+  "Treasure Hunter": "Chasseur de trésors",
+  "Relentless Hunter": "Chasseur acharné",
+  "Ultimate Hunter": "Chasseur ultime",
+  "Inspiration": "Inspiration",
+  "Glacial Augment": "Optimisation glaciale",
+  "Unsealed Spellbook": "Grimoire déchaîné",
+  "First Strike": "Premier coup",
+  "Hextech Flashtraption": "Canaliportation Hextech",
+  "Magical Footwear": "Chaussures magiques",
+  "Cash Back": "Remise immédiate",
+  "Triple Tonic": "Triple tonique",
+  "Time Warp Tonic": "Philtre de chronodistorsion",
+  "Biscuit Delivery": "Livraison de biscuits",
+  "Cosmic Insight": "Savoir cosmique",
+  "Approach Velocity": "Vitesse d'approche",
+  "Jack Of All Trades": "Polyvalence",
+  "Precision": "Précision",
+  "Press the Attack": "Attaque soutenue",
+  "Lethal Tempo": "Tempo mortel",
+  "Fleet Footwork": "Jeu de jambes",
+  "Conqueror": "Conquérant",
+  "Absorb Life": "Absorption vitale",
+  "Triumph": "Triomphe",
+  "Presence of Mind": "Présence d'esprit",
+  "Legend: Alacrity": "Légende : alacrité",
+  "Legend: Haste": "Légende : accélération",
+  "Legend: Bloodline": "Légende : sangsue",
+  "Coup de Grace": "Coup de grâce",
+  "Cut Down": "Abattage",
+  "Last Stand": "Baroud d'honneur",
+  "Resolve": "Volonté",
+  "Grasp of the Undying": "Poigne de l'immortel",
+  "Aftershock": "Après-coup",
+  "Guardian": "Gardien",
+  "Demolish": "Démolition",
+  "Font of Life": "Fontaine de vie",
+  "Shield Bash": "Coup de bouclier",
+  "Conditioning": "Conditionnement",
+  "Second Wind": "Second souffle",
+  "Bone Plating": "Plaque d'os",
+  "Overgrowth": "Surcroissance",
+  "Revitalize": "Revitalisation",
+  "Unflinching": "Inébranlable",
+  "Sorcery": "Sorcellerie",
+  "Summon Aery": "Invocation d'Aery",
+  "Arcane Comet": "Comète arcanique",
+  "Stormraider's Surge": "Assaut du maraudeur",
+  "Deathfire Touch": "Toucher de feu mortel",
+  "Axiom Arcanist": "Arcaniste axiomatique",
+  "Manaflow Band": "Ruban de mana",
+  "Nimbus Cloak": "Manteau nuageux",
+  "Transcendence": "Transcendance",
+  "Celerity": "Célérité",
+  "Absolute Focus": "Concentration absolue",
+  "Scorch": "Brûlure",
+  "Waterwalking": "Marche sur l'eau",
+  "Gathering Storm": "Tempête menaçante"
+ },
+ "summoners": {
+  "Barrier": {
+   "fr": "Barrière",
+   "community": "Barrière"
+  },
+  "Cleanse": {
+   "fr": "Purge",
+   "community": "Cleanse"
+  },
+  "Ignite": {
+   "fr": "Embrasement",
+   "community": "Ignite"
+  },
+  "Exhaust": {
+   "fr": "Fatigue",
+   "community": "Exhaust"
+  },
+  "Flash": {
+   "fr": "Saut éclair",
+   "community": "Flash"
+  },
+  "Ghost": {
+   "fr": "Fantôme",
+   "community": "Ghost"
+  },
+  "Heal": {
+   "fr": "Soins",
+   "community": "Heal"
+  },
+  "Smite": {
+   "fr": "Châtiment",
+   "community": "Smite"
+  },
+  "Teleport": {
+   "fr": "Téléportation",
+   "community": "TP"
+  }
+ }
+}

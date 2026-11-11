@@ -75,6 +75,7 @@ describe('Legal documents', () => {
   it('declares the three documents with existing section keys', () => {
     expect(Object.keys(LEGAL_DOCS)).toEqual(['cgu', 'privacy', 'mentions']);
     expect(LEGAL_DOCS.cgu.sections.length).toBe(9);
+    expect(LEGAL_DOCS.privacy.sections.length).toBe(10);
     expect(LEGAL_DOCS.mentions.path).toBe('/mentions-legales');
   });
 });

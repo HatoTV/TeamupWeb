@@ -127,6 +127,21 @@
   max-width: 96ch;
 }
 
+.footer__cookies {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-text);
+  }
+}
+
 .footer__lang {
   display: inline-flex;
   vertical-align: middle;

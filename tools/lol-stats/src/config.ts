@@ -46,6 +46,8 @@ export interface Config {
   minGamesForNewPatch: number;
   /** A filter below this many games shows the "few games" warning. */
   lowSampleGames: number;
+  /** Published data is a small sample (development key): the site shows a "sample data" notice. */
+  sample: boolean;
   stateDir: string;
   outputDir: string;
 }
@@ -69,6 +71,7 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     minPlayerGames: 15,
     minGamesForNewPatch: num(env.LOL_STATS_MIN_GAMES_NEW_PATCH, 200),
     lowSampleGames: num(env.LOL_STATS_LOW_SAMPLE_GAMES, 500),
+    sample: env.LOL_STATS_SAMPLE === '1',
     stateDir: env.LOL_STATS_STATE_DIR ?? `${PACKAGE_DIR}.state`,
     outputDir: env.LOL_STATS_OUTPUT_DIR ?? `${REPO_DIR}public/data/lol/builds`,
     ...overrides,

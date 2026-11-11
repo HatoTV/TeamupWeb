@@ -28,6 +28,17 @@
   color: var(--color-text-secondary);
 }
 
+.head__sample {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 12px;
+  border-radius: var(--radius-control);
+  border: 1px solid var(--color-line-strong);
+  background: var(--color-surface);
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
 .head__filters {
   display: flex;
   flex-wrap: wrap;

@@ -395,14 +395,14 @@
   "CGU": {
     "TITLE": "Conditions Générales d'Utilisation",
     "OBJECT": "Objet du document",
-    "INTRO": "Ce document définit les conditions générales d'utilisation du site Teamupp accessible à l'adresse Teamupp.app.",
+    "INTRO": "Ce document définit les conditions générales d'utilisation du site TeamUpp, accessible à l'adresse teamupp.app.",
     "ACCESS": {
       "TITLE": "Accès au site",
-      "DESCRIPTION": "Le site est accessible gratuitement à tout utilisateur disposant d'une connexion Internet. L'éditeur se réserve le droit d'interrompre temporairement ou définitivement l'accès au site sans préavis."
+      "DESCRIPTION": "Le site est accessible gratuitement à tout utilisateur disposant d'une connexion Internet. L'éditeur du site (pseudonyme : Hato) se réserve le droit d'interrompre temporairement ou définitivement l'accès au site sans préavis."
     },
     "CONTENT": {
       "TITLE": "Responsabilité du contenu",
-      "DESCRIPTION": "Le site propose des contenus sur League of Legends, TFT et Rocket League. L'éditeur ne garantit pas leur exactitude et l'utilisation des informations se fait sous la responsabilité de l'utilisateur."
+      "DESCRIPTION": "Le site propose des contenus sur League of Legends, TFT et Rocket League. L'éditeur du site ne garantit pas leur exactitude et l'utilisation des informations se fait sous la responsabilité de l'utilisateur."
     },
     "INDEPENDENCE": {
       "TITLE": "Indépendance du site",
@@ -414,58 +414,66 @@
     },
     "ADS": {
       "TITLE": "Publicités et liens externes",
-      "DESCRIPTION": "Le site peut contenir des publicités ou des liens externes. L'éditeur n'est pas responsable du contenu de ces sites ou des conséquences de leur utilisation."
+      "DESCRIPTION": "Le site affiche des publicités (Google AdSense) et contient des liens externes. L'éditeur du site n'est pas responsable du contenu de ces sites ni des conséquences de leur utilisation."
     },
     "DATA": {
       "TITLE": "Gestion des données",
-      "DESCRIPTION": "Aucune donnée personnelle n'est collectée par l'éditeur. Seules les données renseignées par l'éditeur sont présentes."
+      "DESCRIPTION": "Les données personnelles traitées sur le site (formulaire de contact, cookies publicitaires) sont décrites dans la politique de confidentialité."
     },
     "MODIFICATIONS": {
       "TITLE": "Modifications des CGU",
-      "DESCRIPTION": "L'éditeur se réserve le droit de modifier ces CGU à tout moment. Il appartient à l'utilisateur de les consulter régulièrement."
+      "DESCRIPTION": "L'éditeur du site se réserve le droit de modifier ces CGU à tout moment. Il appartient à l'utilisateur de les consulter régulièrement."
     },
     "LAW": {
       "TITLE": "Droit applicable",
-      "DESCRIPTION": "Les CGU sont soumises au droit de la France. En cas de litige, les tribunaux compétents seront ceux du lieu de résidence de l'éditeur."
+      "DESCRIPTION": "Les CGU sont soumises au droit français. En cas de litige, les tribunaux français seront compétents."
     },
     "CONTACT": {
       "TITLE": "Contact",
-      "DESCRIPTION": "Pour toute question, contactez l'éditeur / développeur 'Hato'."
+      "DESCRIPTION": "Pour toute question, contactez l'éditeur du site (pseudonyme : Hato) à l'adresse <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
     }
   },
   "PRIVACY": {
     "TITLE": "Politique de Confidentialité",
     "INTRO": {
       "TITLE": "Introduction",
-      "DESCRIPTION": "Cette Politique de Confidentialité explique comment le site Teamupp.app collecte, utilise et protège les données personnelles."
+      "DESCRIPTION": "Cette politique de confidentialité explique comment le site teamupp.app collecte, utilise et protège les données personnelles, conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés."
+    },
+    "CONTROLLER": {
+      "TITLE": "Responsable du traitement",
+      "DESCRIPTION": "Le responsable du traitement est l'éditeur du site (pseudonyme : Hato), joignable à l'adresse <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
     },
     "DATA_COLLECTED": {
       "TITLE": "Données collectées",
-      "DESCRIPTION": "Le site ne collecte directement aucune donnée personnelle des utilisateurs. Cependant, des services tiers comme Google Analytics ou des régies publicitaires peuvent collecter des informations anonymes pour des statistiques."
-    },
-    "DATA_USE": {
-      "TITLE": "Utilisation des données",
-      "DESCRIPTION": "Les données collectées par des tiers peuvent être utilisées pour améliorer l'expérience utilisateur, fournir des statistiques et afficher des publicités adaptées."
+      "DESCRIPTION": "<strong>Formulaire de contact :</strong> lorsque vous signalez une donnée manquante ou erronée, le type de demande, les champions concernés et votre message éventuel sont transmis par e-mail à l'éditeur.<br><strong>Publicité :</strong> avec votre consentement, Google AdSense dépose des cookies et collecte des données de navigation (identifiants de cookie, adresse IP, pages consultées) pour afficher des publicités.<br><strong>Hébergement :</strong> l'hébergeur peut enregistrer des journaux techniques (adresse IP, date, page demandée) nécessaires au fonctionnement et à la sécurité du site."
     },
     "COOKIES": {
-      "TITLE": "Cookies",
-      "DESCRIPTION": "Le site peut utiliser des cookies pour améliorer la navigation. L'utilisateur peut configurer son navigateur pour bloquer ces cookies."
+      "TITLE": "Cookies et consentement",
+      "DESCRIPTION": "Les cookies publicitaires de Google AdSense ne sont déposés qu'après votre accord, recueilli via la fenêtre de consentement RGPD de Google affichée lors de votre visite. Vous pouvez accepter, refuser ou personnaliser vos choix, et les modifier ou retirer votre consentement à tout moment grâce au lien « Gérer les cookies » en bas de chaque page. Pour en savoir plus : <a href=\"https://policies.google.com/technologies/ads?hl=fr\" target=\"_blank\" rel=\"noopener noreferrer\">fonctionnement des publicités Google</a>."
+    },
+    "DATA_USE": {
+      "TITLE": "Finalités et bases légales",
+      "DESCRIPTION": "Les données du formulaire de contact servent uniquement à traiter votre demande (intérêt légitime de l'éditeur à corriger et améliorer le site). Les données publicitaires servent à afficher et mesurer des publicités, sur la base de votre consentement."
+    },
+    "RETENTION": {
+      "TITLE": "Durée de conservation",
+      "DESCRIPTION": "Les données du formulaire de contact sont conservées 12 mois, puis supprimées. Les cookies publicitaires sont conservés pour la durée indiquée dans la fenêtre de consentement de Google."
     },
     "DATA_SHARING": {
-      "TITLE": "Partage des données",
-      "DESCRIPTION": "L'éditeur ne revend ni ne partage directement les données des utilisateurs. Toutefois, des partenaires tiers peuvent collecter et traiter certaines informations anonymes."
+      "TITLE": "Destinataires des données",
+      "DESCRIPTION": "L'éditeur ne vend ni ne loue vos données. Elles sont accessibles uniquement à l'éditeur et à ses prestataires techniques : Google (publicité AdSense et messagerie électronique) et Vercel (hébergement). Ces prestataires pouvant traiter des données aux États-Unis, ces transferts sont encadrés par les garanties prévues par le RGPD."
     },
     "USER_RIGHTS": {
-      "TITLE": "Droits des utilisateurs",
-      "DESCRIPTION": "Conformément à la réglementation en vigueur, les utilisateurs peuvent demander l'accès, la rectification ou la suppression de leurs données collectées par des services tiers."
+      "TITLE": "Vos droits",
+      "DESCRIPTION": "Vous disposez d'un droit d'accès, de rectification et de suppression de vos données, ainsi que du droit de vous opposer à leur traitement ou d'en demander la limitation. Pour les exercer, écrivez à <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>. Vous pouvez retirer votre consentement publicitaire à tout moment via le lien « Gérer les cookies ». Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la CNIL (<a href=\"https://www.cnil.fr\" target=\"_blank\" rel=\"noopener noreferrer\">cnil.fr</a>)."
     },
     "MODIFICATIONS": {
       "TITLE": "Modifications de la politique",
-      "DESCRIPTION": "Cette Politique de Confidentialité peut être modifiée à tout moment. Il est conseillé de la consulter régulièrement."
+      "DESCRIPTION": "Cette politique de confidentialité peut être modifiée à tout moment. Il est conseillé de la consulter régulièrement."
     },
     "CONTACT": {
       "TITLE": "Contact",
-      "DESCRIPTION": "Pour toute question sur la gestion des données, contactez l'éditeur et développeur : 'Hato'."
+      "DESCRIPTION": "Pour toute question sur vos données, contactez l'éditeur du site (pseudonyme : Hato) à l'adresse <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
     }
   },
   "GAMES": {
@@ -518,7 +526,8 @@
     "OTHER_GAMES": "Autres jeux",
     "INFO": "Informations",
     "RL_MECHANICS": "Rocket League — Mécaniques",
-    "COPYRIGHT": "© {{year}} TeamUpp"
+    "COPYRIGHT": "© {{year}} TeamUpp",
+    "MANAGE_COOKIES": "Gérer les cookies"
   },
   "UI": {
     "DIFFICULTY": {
@@ -784,22 +793,22 @@
   },
   "MENTIONS": {
     "TITLE": "Mentions légales",
-    "INTRO": "Conformément à la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, voici les informations relatives au site teamupp.app.",
+    "INTRO": "Informations légales relatives au site teamupp.app.",
     "EDITOR": {
       "TITLE": "Éditeur du site",
-      "DESCRIPTION": "Nom ou raison sociale : [À COMPLÉTER]<br>Statut (particulier, auto-entrepreneur, société…) : [À COMPLÉTER]<br>Adresse : [À COMPLÉTER]<br>Numéro SIRET / RCS, si applicable : [À COMPLÉTER]"
+      "DESCRIPTION": "Ce site est édité par un particulier à titre non professionnel. Conformément à la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), l'éditeur a choisi de rester anonyme ; ses coordonnées ont été communiquées à l'hébergeur.<br>Pseudonyme de l'éditeur : Hato."
     },
     "DIRECTOR": {
       "TITLE": "Directeur de la publication",
-      "DESCRIPTION": "[À COMPLÉTER]"
+      "DESCRIPTION": "Hato (pseudonyme de l'éditeur)."
     },
     "CONTACT": {
       "TITLE": "Contact",
-      "DESCRIPTION": "Adresse e-mail de contact : [À COMPLÉTER]"
+      "DESCRIPTION": "Adresse e-mail : <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>"
     },
     "HOST": {
       "TITLE": "Hébergeur",
-      "DESCRIPTION": "Vercel Inc.<br>Adresse postale : [À COMPLÉTER]<br>Site : vercel.com"
+      "DESCRIPTION": "Vercel Inc.<br>440 N Barranca Ave #4133, Covina, CA 91723, États-Unis<br>Site : <a href=\"https://vercel.com\" target=\"_blank\" rel=\"noopener noreferrer\">vercel.com</a>"
     },
     "IP": {
       "TITLE": "Propriété intellectuelle",
@@ -868,6 +877,7 @@
     "UPDATED_HOURS": "Mis à jour il y a {{n}} h",
     "UPDATED_DAYS": "Mis à jour il y a {{n}} jours",
     "FALLBACK": "Données du patch {{patch}}, mise à jour en cours pour le patch {{latest}}.",
+    "SAMPLE_DATA": "Données d'échantillon : statistiques provisoires calculées sur un petit nombre de parties.",
     "LOW_SAMPLE": "Peu de données pour ce filtre ({{games}} parties) : les chiffres peuvent encore beaucoup varier.",
     "LOADING": "Chargement du build…",
     "INSUFFICIENT_TITLE": "Données insuffisantes",

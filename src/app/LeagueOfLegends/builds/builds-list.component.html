@@ -4,6 +4,9 @@
   <p class="head__lead">
     {{ 'BUILDS.LIST_LEAD' | translate: { patch: meta()?.latest ?? '…', games: fmtInt(index()?.totalGames ?? 0) } }}
   </p>
+  @if (meta()?.sample) {
+    <p class="head__sample" role="note">{{ 'BUILDS.SAMPLE_DATA' | translate }}</p>
+  }
   <div class="head__filters">
     <div class="chips" role="group" [attr.aria-label]="'BUILDS.ROLE' | translate">
       <button type="button" class="chip" [class.is-on]="!role()" [attr.aria-pressed]="!role()" (click)="role.set(null)">{{ 'MATCHUPSPAGE.ALL_ROLES' | translate }}</button>

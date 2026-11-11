@@ -75,6 +75,8 @@ export interface BuildMeta {
   filters: BuildFilter[];
   regions: string[];
   minGamesForNewPatch: number;
+  /** Sample data collected with a development key. */
+  sample?: boolean;
 }
 
 export interface StaticRune {

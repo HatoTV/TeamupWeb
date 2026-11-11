@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
+import { ConsentService } from '../../core/ads/consent.service';
 import { LOL_GUIDE_GROUPS, LOL_TOOLS } from '../../core/navigation/lol-nav';
 import { RouteContextService } from '../../core/route-context.service';
 import { SOCIALS, SUPPORTED_LANGS } from '../../core/site.config';
@@ -22,6 +23,7 @@ interface FooterColumn {
 })
 export class FooterComponent {
   protected readonly ctx = inject(RouteContextService);
+  protected readonly consent = inject(ConsentService);
   protected readonly socials = SOCIALS;
   protected readonly langs = SUPPORTED_LANGS;
   protected readonly year = new Date().getFullYear();

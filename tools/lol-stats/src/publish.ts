@@ -189,6 +189,7 @@ export async function writeMeta(config: Config, store: StateStore, report: Aggre
     filters: [...TIER_FILTERS],
     regions: config.platforms.length > 1 ? ['all', ...config.platforms] : ['all'],
     minGamesForNewPatch: config.minGamesForNewPatch,
+    ...(config.sample ? { sample: true } : {}),
   });
   writeJson(metaFile, json);
   return json;

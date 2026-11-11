@@ -32,7 +32,7 @@ export const LEGAL_DOCS: Record<LegalDoc, LegalDefinition> = {
     path: '/privacy',
     titleKey: 'PRIVACY.TITLE',
     metaKey: 'LEGALPAGE.META_PRIVACY',
-    sections: ['INTRO', 'DATA_COLLECTED', 'DATA_USE', 'COOKIES', 'DATA_SHARING', 'USER_RIGHTS', 'MODIFICATIONS', 'CONTACT'].map(
+    sections: ['INTRO', 'CONTROLLER', 'DATA_COLLECTED', 'COOKIES', 'DATA_USE', 'RETENTION', 'DATA_SHARING', 'USER_RIGHTS', 'MODIFICATIONS', 'CONTACT'].map(
       (k) => `PRIVACY.${k}`
     ),
   },

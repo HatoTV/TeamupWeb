@@ -131,6 +131,9 @@
     }
   </div>
 
+  @if (meta()?.sample) {
+    <p class="notice" role="note">{{ 'BUILDS.SAMPLE_DATA' | translate }}</p>
+  }
   @if (fallbackFrom(); as latest) {
     <p class="notice" role="status">{{ 'BUILDS.FALLBACK' | translate: { patch: patch(), latest } }}</p>
   }

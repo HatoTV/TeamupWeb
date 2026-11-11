@@ -78,6 +78,18 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
   const skipped: CrawlReport['skipped'] = {};
   const inFlight = new Set<string>();
   let playersCrawled = 0;
+  let saved = 0;
+  let part = 0;
+  const stamp = new Date(started).toISOString().replace(/[:.]/g, '-');
+  /** Saves the new games, the seen ids and the rotation (every 100 games and at the end). */
+  const flush = async () => {
+    if (games.length > saved) {
+      await store.put(`${gamesPrefix(meta.patch)}${platform}-${stamp}-${++part}.jsonl.gz`, encodeJsonl(games.slice(saved)));
+      saved = games.length;
+    }
+    await store.put(seenKey(meta.patch, platform), encodeIds(seen));
+    await putJson(store, playersKey(platform), list);
+  };
 
   const stop = () => now() >= deadline || (config.maxGames > 0 && games.length >= config.maxGames);
 
@@ -128,15 +140,10 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
     playersCrawled++;
     list.cursor = (list.cursor + 1) % Math.max(1, list.players.length);
     await pool(ids, 4, (id) => fetchGame(id, player.tier), stop);
+    if (games.length - saved >= 100) await flush();
   }
 
-  // Save: new games in their own file, the seen set and the player rotation.
-  if (games.length) {
-    const stamp = new Date(started).toISOString().replace(/[:.]/g, '-');
-    await store.put(`${gamesPrefix(meta.patch)}${platform}-${stamp}.jsonl.gz`, encodeJsonl(games));
-  }
-  await store.put(seenKey(meta.patch, platform), encodeIds(seen));
-  await putJson(store, playersKey(platform), list);
+  await flush();
 
   return {
     patch: meta.patch,

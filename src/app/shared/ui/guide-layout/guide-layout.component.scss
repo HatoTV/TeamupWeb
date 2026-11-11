@@ -184,6 +184,18 @@
   }
 }
 
+.toc__marker {
+  margin-right: 10px;
+  font-weight: 700;
+  color: color-mix(in srgb, var(--game-accent) 70%, #fff);
+}
+
+@media (min-width: 1100px) {
+  .guide--toc-start .guide__aside {
+    order: -1;
+  }
+}
+
 .toc__link--sub {
   padding-left: 26px;
 }

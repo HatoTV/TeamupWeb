@@ -1,4 +1,4 @@
-<div class="guide">
+<div class="guide" [class.guide--toc-start]="tocPosition() === 'start'">
   <article class="guide__article" #article>
     @if (chapters().length > 1) {
       <nav class="chapters" [attr.aria-label]="'UI.CHAPTERS' | translate">
@@ -69,13 +69,14 @@
                 [attr.aria-current]="activeId() === entry.id ? 'location' : null"
                 [routerLink]="[]"
                 [fragment]="entry.id"
-                >{{ entry.label }}</a
+                >@if (entry.marker) {<span class="toc__marker">{{ entry.marker }}</span>}{{ entry.label }}</a
               >
             </li>
           }
         </ol>
       </nav>
     }
+    @if (showAsk()) {
     <div class="ask">
       <p class="ask__title">{{ 'UI.GUIDE_QUESTION' | translate }}</p>
       <p class="ask__text">{{ 'UI.GUIDE_COMMUNITY' | translate }}</p>
@@ -83,5 +84,6 @@
         {{ 'UI.OPEN_DISCORD' | translate }}<span class="sr-only"> {{ 'UI.EXTERNAL' | translate }}</span>
       </a>
     </div>
+    }
   </aside>
 </div>

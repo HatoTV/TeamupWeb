@@ -1,134 +1,191 @@
-<div class="content scrollbar-lol" #scrollContainer>
-    <div class="bkgContent"></div>
-    <img class="imgBkg" src="assets/img/bkgContent_Tft.jpg" />
-    <div class="title">
-        <!-- <h1 class="paddingTextMobile">{{ "TFT.BIGTITLE" | translate }}</h1>
-        <h2 class="paddingTextMobile">{{ "TFT.SUBBIGTITLE" | translate }}</h2> -->
-        <img class="logoGame" src="assets/img/tft_logo.png" />
+<header class="hero">
+  <img class="hero__art" src="assets/img/site/bkgContent_Tft.webp" alt="" fetchpriority="high" />
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <div class="hero__intro">
+      <img class="hero__logo" src="assets/img/site/tft_logo.webp" [alt]="'TFT.BIGTITLE' | translate" width="300" height="88" />
+      <h1 class="hero__title t-page-title">{{ 'TFT.SUBBIGTITLE' | translate }}</h1>
+      <p class="hero__lead" [innerHTML]="'TFT.CONTENT0' | translate | safeHtml"></p>
     </div>
+    <dl class="facts" [attr.aria-label]="'TFTPAGE.FACTS_LABEL' | translate">
+      @for (fact of facts; track fact.value) {
+        <div class="fact">
+          <dt class="fact__value">{{ fact.value | translate }}</dt>
+          <dd class="fact__label">{{ fact.label | translate }}</dd>
+        </div>
+      }
+    </dl>
+  </div>
+</header>
 
-    <div class="divContentEmpty"></div>
-    <div class="divContent">
-        <h3 style="padding-top: 0 !important" [id]="'WhatIsTFT'">
-            {{ "TFT.TITLE0" | translate }}
-        </h3>
-        <hr class="divider paddingSidebar" />
-        <h4 [innerHtml]="'TFT.CONTENT0' | translate | safeHtml"></h4><br>
-        <br />
-        <youtube-player videoId="tkjkMKQ6NnA" class="youtubePlayer"></youtube-player>
-        <br><br><br>
-        <h3 [id]="'Structure'">
-            {{ "TFT.TITLE1" | translate }}
-        </h3>
-        <hr class="divider paddingSidebar" />
-        <h4 [innerHtml]="'TFT.CONTENT1' | translate | safeHtml"></h4>
-        <div class="divList">
-            <li>
-                <h6 [innerHtml]="'TFT.LIST1.CONTENT0' | translate | safeHtml"></h6>
+<div class="container">
+  <app-guide-layout [toc]="toc()" tocPosition="start" [showAsk]="false">
+    <div class="guide-prose tft">
+      <section class="chapter-block" aria-labelledby="WhatIsTFT">
+        <p class="chapter-kicker">01</p>
+        <h2 id="WhatIsTFT">{{ 'TFT.TITLE0' | translate }}</h2>
+        @for (p of 'TFT.CONTENT1' | translate | paragraphs; track $index; let last = $last) {
+          @if (!last) {
+            <p class="spaced" [innerHTML]="p | safeHtml"></p>
+          }
+        }
+        @defer (on viewport) {
+          <div class="video">
+            <youtube-player
+              videoId="tkjkMKQ6NnA"
+              [disableCookies]="true"
+              [placeholderButtonLabel]="'TFTPAGE.VIDEO_LABEL' | translate"
+              placeholderImageQuality="high"
+            />
+          </div>
+        } @placeholder {
+          <div class="video video--placeholder" aria-hidden="true"></div>
+        }
+      </section>
+
+      <section class="chapter-block" aria-labelledby="Structure">
+        <p class="chapter-kicker">02</p>
+        <h2 id="Structure">{{ 'TFT.TITLE1' | translate }}</h2>
+        @for (p of 'TFT.CONTENT1' | translate | paragraphs; track $index; let last = $last) {
+          @if (last) {
+            <p class="spaced" [innerHTML]="p | safeHtml"></p>
+          }
+        }
+        <ol class="phases">
+          @for (phase of phases; track phase.key; let i = $index) {
+            @let item = phase.key | translate | lead;
+            <li class="phase" [attr.data-tone]="phase.tone">
+              <p class="phase__step">{{ 'TFTPAGE.STEP' | translate: { n: i + 1 } }}</p>
+              <p class="phase__title">{{ item.label }}</p>
+              <p class="phase__text" [innerHTML]="item.body | safeHtml"></p>
             </li>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST1.CONTENT1' | translate | safeHtml"></h6>
-            </li>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST1.CONTENT2' | translate | safeHtml"></h6>
-            </li>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST1.CONTENT3' | translate | safeHtml"></h6>
-            </li>
-        </div><br>
-        <img class="imgDuration" src="assets/img/tftDuration.jpg" />
-        <h4 [innerHtml]="'TFT.LIST1.OUTRO' | translate | safeHtml"></h4><br><br>
-        <div class="divChampionPool">
-            <h4 [innerHtml]="'TFT.LIST1.OUTRO1' | translate | safeHtml"></h4><br>
-            <img class="imgNext" src="assets/img/tft_nextfigh.png" />  
+          }
+        </ol>
+        <figure>
+          <img src="assets/img/tftDuration.jpg" [alt]="'TFTPAGE.ALT.DURATION' | translate" loading="lazy" />
+        </figure>
+        <p class="spaced" [innerHTML]="'TFT.LIST1.OUTRO' | translate | safeHtml"></p>
+        <div class="media-text">
+          <app-callout variant="tip"><span [innerHTML]="'TFT.LIST1.OUTRO1' | translate | safeHtml"></span></app-callout>
+          <figure>
+            <img src="assets/img/tft_nextfigh.png" [alt]="'TFTPAGE.ALT.NEXT_FIGHT' | translate" loading="lazy" />
+          </figure>
         </div>
-        
-        <h3 [id]="'Concepts_Champions'">{{ "TFT.SUBTITLE3" | translate }}</h3>
-        <hr class="divider paddingSidebar" />
-        <h4 [innerHtml]="'TFT.LIST3.OUTRO0' | translate | safeHtml"></h4><br />
-        <img class="imgPower imgWidth350" src="assets/img/tft_championpower.jpg" /> <br><br>   
-        <h4 [innerHtml]="'TFT.LIST3.OUTRO1' | translate | safeHtml"></h4><br />
-        <div class="divChampionPool">
-            <img class="imgPool imgWidth70" src="assets/img/tft_championpool.jpg" />   
-            <div style="    font-style: italic;">
-                <li>
-                    <h6 [innerHtml]="'TFT.LIST3.CONTENT0' | translate | safeHtml"></h6>
-                </li>
-                <li>
-                    <h6 [innerHtml]="'TFT.LIST3.CONTENT1' | translate | safeHtml"></h6>
-                </li>
-                <li>
-                    <h6 [innerHtml]="'TFT.LIST3.CONTENT2' | translate | safeHtml"></h6>
-                </li>
-                <li>
-                    <h6 [innerHtml]="'TFT.LIST3.CONTENT3' | translate | safeHtml"></h6>
-                </li>
-                <li>
-                    <h6 [innerHtml]="'TFT.LIST3.CONTENT4' | translate | safeHtml"></h6>
-                </li>
-            </div>         
+      </section>
+
+      <section class="chapter-block" aria-labelledby="Concepts">
+        <p class="chapter-kicker">03</p>
+        <h2 id="Concepts">{{ 'TFT.TITLE2' | translate }}</h2>
+        <p class="spaced">{{ 'TFT.CONTENT2' | translate }}</p>
+
+        <h3 id="Concepts_Champions">{{ 'TFT.SUBTITLE3' | translate }}</h3>
+        <p [innerHTML]="'TFT.CONTENT3' | translate | safeHtml"></p>
+        <ul class="tiers">
+          @for (t of tiers; track t.key) {
+            @let item = t.key | translate | lead;
+            <li class="tier" [attr.data-tier]="t.tier">
+              <p class="tier__name">{{ item.label }}</p>
+              <p class="tier__text">{{ item.body }}</p>
+            </li>
+          }
+        </ul>
+        <div class="stars" role="img" [attr.aria-label]="'TFTPAGE.STARS_LABEL' | translate">
+          <span class="stars__chip" aria-hidden="true">3 × ★</span>
+          <span class="stars__arrow" aria-hidden="true">→</span>
+          <span class="stars__chip" aria-hidden="true">★★</span>
+          <span class="stars__dot" aria-hidden="true">·</span>
+          <span class="stars__chip" aria-hidden="true">3 × ★★</span>
+          <span class="stars__arrow" aria-hidden="true">→</span>
+          <span class="stars__chip stars__chip--gold" aria-hidden="true">★★★</span>
         </div>
-        <br />
-        <h4 [innerHtml]="'TFT.LIST3.OUTRO2' | translate | safeHtml"></h4>
-        <br />
-        <h3 [id]="'Concepts_Objets'">{{ "TFT.SUBTITLE4" | translate }}</h3>
-        <hr class="divider paddingSidebar" />
-        <h4 [innerHtml]="'TFT.CONTENT4' | translate | safeHtml"></h4><br>
-        <br />
-        <h3 [id]="'Concepts_Synergies'">{{ "TFT.SUBTITLE5" | translate }}</h3>
-        <hr class="divider paddingSidebar" />
-        <h4 [innerHtml]="'TFT.CONTENT5' | translate | safeHtml"></h4><br>
-        <br />
-        <h3 [id]="'Concepts_Economy'">{{ "TFT.SUBTITLE6" | translate }}</h3>
-        <hr class="divider paddingSidebar" />
-        <h4 [innerHtml]="'TFT.CONTENT6' | translate | safeHtml"></h4><br>
-        <div class="divList">
-            <li>
-                <h6 [innerHtml]="'TFT.LIST6.CONTENT0' | translate | safeHtml"></h6>
-            </li>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST6.CONTENT1' | translate | safeHtml"></h6>
-            </li>
+        @for (p of 'TFT.LIST3.OUTRO0' | translate | paragraphs; track $index) {
+          <p class="spaced" [innerHTML]="p | safeHtml"></p>
+        }
+        <figure>
+          <img src="assets/img/tft_championpower.jpg" [alt]="'TFTPAGE.ALT.CHAMPION_POWER' | translate" loading="lazy" />
+        </figure>
+        <div class="media-text">
+          <figure>
+            <img src="assets/img/site/tft_championpool.webp" [alt]="'TFTPAGE.ALT.CHAMPION_POOL' | translate" loading="lazy" />
+          </figure>
+          <div>
+            @for (p of 'TFT.LIST3.OUTRO1' | translate | paragraphs; track $index) {
+              <p [innerHTML]="p | safeHtml"></p>
+            }
+          </div>
         </div>
-        <br>
-        <h4 [innerHtml]="'TFT.CONTENT7' | translate | safeHtml"></h4><br>
-        <div class="divList">
-            <li>
-                <h6 [innerHtml]="'TFT.LIST7.CONTENT0' | translate | safeHtml"></h6>
-            </li>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST7.CONTENT1' | translate | safeHtml"></h6>
-            </li>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST7.CONTENT2' | translate | safeHtml"></h6>
-            </li>
+        <p class="spaced" [innerHTML]="'TFT.LIST3.OUTRO2' | translate | safeHtml"></p>
+
+        <h3 id="Concepts_Objets">{{ 'TFT.SUBTITLE4' | translate }}</h3>
+        @for (p of 'TFT.CONTENT4' | translate | paragraphs; track $index) {
+          <p [innerHTML]="p | safeHtml"></p>
+        }
+
+        <h3 id="Concepts_Synergies">{{ 'TFT.SUBTITLE5' | translate }}</h3>
+        @for (p of 'TFT.CONTENT5' | translate | paragraphs; track $index; let first = $first) {
+          @if (first) {
+            <p [innerHTML]="p | safeHtml"></p>
+          } @else {
+            <blockquote class="opinion">
+              <p class="opinion__label">{{ 'TFTPAGE.HATO_OPINION' | translate }}</p>
+              <p [innerHTML]="p | safeHtml"></p>
+            </blockquote>
+          }
+        }
+
+        <h3 id="Concepts_Economy">{{ 'TFT.SUBTITLE6' | translate }}</h3>
+        <p [innerHTML]="'TFT.CONTENT6' | translate | safeHtml"></p>
+        <div class="tables">
+          <div class="table-card">
+            <p class="table-card__title">{{ 'TFTPAGE.INTEREST_TITLE' | translate }}</p>
+            <table>
+              <caption class="sr-only">{{ 'TFTPAGE.INTEREST_TITLE' | translate }}</caption>
+              <tbody>
+                @for (row of interest; track row.gold) {
+                  <tr>
+                    <th scope="row">{{ (row.last ? 'TFTPAGE.INTEREST_LAST' : 'TFTPAGE.INTEREST_ROW') | translate: { gold: row.gold } }}</th>
+                    <td>+{{ row.bonus }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+            <app-guide-bullets class="table-card__notes" [keys]="interestNotes" />
+          </div>
+          <div class="table-card">
+            <p class="table-card__title">{{ 'TFTPAGE.STREAKS_TITLE' | translate }}</p>
+            <p class="table-card__intro">{{ 'TFT.CONTENT7' | translate }}</p>
+            <table>
+              <caption class="sr-only">{{ 'TFTPAGE.STREAKS_TITLE' | translate }}</caption>
+              <tbody>
+                @for (key of streaks; track key) {
+                  @let row = key | translate | lead;
+                  <tr>
+                    <th scope="row">{{ row.label }}</th>
+                    <td>{{ row.body }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
         </div>
-        <br>
-        <h4 [innerHtml]="'TFT.CONTENT8' | translate | safeHtml"></h4><br>
-        <h3 [id]="'Tips'">
-            {{ "TFT.TITLE9" | translate }}
-        </h3>
-        <hr class="divider paddingSidebar" />
-        <div class="divList">
-            <li>
-                <h6 [innerHtml]="'TFT.LIST9.CONTENT0' | translate | safeHtml"></h6>
-            </li><br>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST9.CONTENT1' | translate | safeHtml"></h6>
-            </li><br>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST9.CONTENT2' | translate | safeHtml"></h6>
-            </li><br>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST9.CONTENT3' | translate | safeHtml"></h6>
-            </li><br>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST9.CONTENT4' | translate | safeHtml"></h6>
-            </li><br>
-            <li>
-                <h6 [innerHtml]="'TFT.LIST9.CONTENT5' | translate | safeHtml"></h6>
+        @for (p of 'TFT.CONTENT8' | translate | paragraphs; track $index) {
+          <p class="spaced" [innerHTML]="p | safeHtml"></p>
+        }
+      </section>
+
+      <section class="chapter-block" aria-labelledby="Tips">
+        <p class="chapter-kicker">04</p>
+        <h2 id="Tips">{{ 'TFT.TITLE9' | translate }}</h2>
+        <ol class="tips">
+          @for (key of tips; track key; let i = $index) {
+            @let tip = key | translate | lead;
+            <li class="tip">
+              <p class="tip__title"><span class="tip__n" aria-hidden="true">{{ i + 1 }}</span>{{ tip.label }}</p>
+              <p class="tip__text" [innerHTML]="tip.body | safeHtml"></p>
             </li>
-        </div>
-        <br><br><br>
+          }
+        </ol>
+      </section>
     </div>
+  </app-guide-layout>
 </div>

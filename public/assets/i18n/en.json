@@ -596,5 +596,28 @@
       "OBJECTIVES": "Location of the objectives on the map",
       "GANKS": "Examples of gank paths"
     }
+  },
+  "TFTPAGE": {
+    "FACTS_LABEL": "Key figures",
+    "FACT_PLAYERS_VALUE": "8",
+    "FACT_PLAYERS": "players per game",
+    "FACT_HP_VALUE": "100",
+    "FACT_HP": "starting HP",
+    "FACT_TOP4_VALUE": "Top 4",
+    "FACT_TOP4": "= a win",
+    "STEP": "Step {{n}}",
+    "STARS_LABEL": "Three 1-star copies combine into a 2-star champion; three 2-star copies into a 3-star champion.",
+    "INTEREST_TITLE": "Interest",
+    "INTEREST_ROW": "{{gold}} gold",
+    "INTEREST_LAST": "{{gold}} gold or more",
+    "STREAKS_TITLE": "Win or loss streaks",
+    "HATO_OPINION": "Hato's take",
+    "VIDEO_LABEL": "Play the TFT introduction video",
+    "ALT": {
+      "DURATION": "Duration of the phases of a TFT game",
+      "NEXT_FIGHT": "Next opponent indicator on the right of the screen",
+      "CHAMPION_POWER": "Champion power by rarity and star level",
+      "CHAMPION_POOL": "The champion pool in TFT"
+    }
   }
 }

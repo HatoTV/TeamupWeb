@@ -30,6 +30,8 @@ export interface TocEntry {
   id: string;
   label: string;
   level: 1 | 2;
+  /** Optional number shown before the label ("01"). */
+  marker?: string;
 }
 
 export interface GuideNavLink {
@@ -56,6 +58,10 @@ export class GuideLayoutComponent {
   readonly toc = input<TocEntry[]>([]);
   readonly prev = input<GuideNavLink | null>(null);
   readonly next = input<GuideNavLink | null>(null);
+  /** Side of the sticky table of contents on wide screens. */
+  readonly tocPosition = input<'start' | 'end'>('end');
+  /** Hides the "question about this guide" Discord card. */
+  readonly showAsk = input(true);
 
   protected readonly discordUrl = DISCORD_URL;
   protected readonly activeId = signal<string | null>(null);

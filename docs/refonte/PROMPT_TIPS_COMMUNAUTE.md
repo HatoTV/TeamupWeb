@@ -2,7 +2,7 @@
 
 Tu travailles sur le dépôt Angular de TeamUpp. Crée une branche `feature/tips-communaute` depuis `feature/traduction-matchups` : tu réutiliseras son glossaire LoL et sa règle QWERTY → AZERTY.
 
-**Maquette de référence :** `docs/refonte/maquettes/LolMatchups.dc.html`, bloc « Tips de la communauté » entre la carte des conseils et les listes de counters.
+**Maquette de référence :** `docs/refonte/maquettes/LolMatchups.dc.html` (retirée du dépôt, à restaurer avec `git checkout f40e2e7 -- docs/refonte/maquettes docs/refonte/assets`), bloc « Tips de la communauté » entre la carte des conseils et les listes de counters.
 
 ## Objectif
 

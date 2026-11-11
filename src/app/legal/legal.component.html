@@ -1,0 +1,50 @@
+<div class="container legal">
+  <p class="legal__eyebrow">{{ 'LEGALPAGE.EYEBROW' | translate }}</p>
+  <h1 class="legal__title t-page-title">{{ doc().titleKey | translate }}</h1>
+
+  <nav class="tabs" [attr.aria-label]="'LEGALPAGE.TABS' | translate">
+    @for (tab of tabs; track tab.id) {
+      <a
+        class="tabs__link"
+        [routerLink]="ctx.link(tab.path)"
+        [class.is-active]="tab.id === doc().id"
+        [attr.aria-current]="tab.id === doc().id ? 'page' : null"
+        >{{ tab.titleKey | translate }}</a
+      >
+    }
+  </nav>
+
+  <div class="layout">
+    <nav class="toc" [attr.aria-label]="'LEGALPAGE.TOC' | translate">
+      <ol>
+        @for (s of sections(); track s.id) {
+          <li>
+            <a class="toc__link" [routerLink]="[]" [fragment]="s.id">
+              <span class="toc__n">{{ s.n }}</span>{{ s.key + '.TITLE' | translate }}
+            </a>
+          </li>
+        }
+      </ol>
+    </nav>
+
+    <div class="body">
+      @if (doc().intro; as intro) {
+        <p class="body__intro">
+          @if (intro.labelKey) {
+            <strong>{{ intro.labelKey | translate }}.</strong>
+          }
+          {{ intro.textKey | translate }}
+        </p>
+      }
+      @for (s of sections(); track s.id) {
+        <section class="section" [attr.aria-labelledby]="s.id">
+          <span class="section__n" aria-hidden="true">{{ s.n }}</span>
+          <div>
+            <h2 class="section__title" [id]="s.id">{{ s.key + '.TITLE' | translate }}</h2>
+            <p class="section__text" [innerHTML]="s.key + '.DESCRIPTION' | translate | safeHtml"></p>
+          </div>
+        </section>
+      }
+    </div>
+  </div>
+</div>

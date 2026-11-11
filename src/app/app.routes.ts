@@ -1,36 +1,45 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component';
-import { ContactComponent } from './contact/contact.component';
-import { CguComponent } from './home/cgu/cgu.component';
-import { HomeComponent } from './home/home.component';
-import { PrivacyComponent } from './home/privacy/privacy.component';
-import { GameComponent } from './LeagueOfLegends/game/game.component';
-import { GuidesComponent } from './LeagueOfLegends/guides/guides.component';
-import { JungleComponent } from './LeagueOfLegends/jungle/jungle.component';
-import { LaningComponent } from './LeagueOfLegends/laning/laning.component';
-import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
-import { PickerComponent } from './LeagueOfLegends/picker/picker.component';
-import { WavemanagementComponent } from './LeagueOfLegends/wavemanagement/wavemanagement.component';
-import { MecanicComponent } from './RocketLeague/mecanic/mecanic.component';
-import { MecanicsComponent } from './RocketLeague/mecanics/mecanics.component';
-import { TFTGameComponent } from './tftgame/tftgame.component';
+
+/** All pages are lazy-loaded; the URL always starts with the language (fr | en). */
 export const routes: Routes = [
   { path: '', redirectTo: 'fr/home', pathMatch: 'full' },
   { path: ':lang/lol', redirectTo: ':lang/lol/matchups', pathMatch: 'full' },
   { path: ':lang/rl', redirectTo: ':lang/rocket/mecanics', pathMatch: 'full' },
   { path: ':lang', redirectTo: ':lang/home', pathMatch: 'full' },
-  { path: ':lang/lol/matchups', component: MatchupsComponent },
-  { path: ':lang/lol/guides', component: GuidesComponent }, 
-  { path: ':lang/lol/laning', component: LaningComponent },
-  { path: ':lang/lol/wavemanagement', component: WavemanagementComponent },
-  { path: ':lang/lol/jungle', component: JungleComponent },
-  { path: ':lang/lol/game', component: GameComponent },
-  { path: ':lang/lol/picker', component: PickerComponent },
-  { path: ':lang/rocket/mecanics', component: MecanicsComponent },
-  { path: ':lang/rocket/mecanics/:slug', component: MecanicComponent },
-  { path: ':lang/contact', component: ContactComponent },
-  { path: ':lang/home', component: HomeComponent },
-  { path: ':lang/tft', component: TFTGameComponent },
-  { path: ':lang/cgu', component: CguComponent },
-  { path: ':lang/privacy', component: PrivacyComponent },
-  ];
+  { path: ':lang/home', loadComponent: () => import('./home/home.component').then((m) => m.HomeComponent) },
+  {
+    path: ':lang/lol/matchups',
+    loadComponent: () => import('./LeagueOfLegends/matchups/matchups.component').then((m) => m.MatchupsComponent),
+  },
+  {
+    path: ':lang/lol/picker',
+    loadComponent: () => import('./LeagueOfLegends/picker/picker.component').then((m) => m.PickerComponent),
+  },
+  { path: ':lang/lol/guides', loadComponent: () => import('./LeagueOfLegends/guides/guides.component').then((m) => m.GuidesComponent) },
+  { path: ':lang/lol/game', loadComponent: () => import('./LeagueOfLegends/game/game.component').then((m) => m.GameComponent) },
+  { path: ':lang/lol/laning', loadComponent: () => import('./LeagueOfLegends/laning/laning.component').then((m) => m.LaningComponent) },
+  {
+    path: ':lang/lol/wavemanagement',
+    loadComponent: () =>
+      import('./LeagueOfLegends/wavemanagement/wavemanagement.component').then((m) => m.WavemanagementComponent),
+  },
+  { path: ':lang/lol/jungle', loadComponent: () => import('./LeagueOfLegends/jungle/jungle.component').then((m) => m.JungleComponent) },
+  { path: ':lang/tft', loadComponent: () => import('./tftgame/tftgame.component').then((m) => m.TFTGameComponent) },
+  {
+    path: ':lang/rocket/mecanics',
+    loadComponent: () => import('./RocketLeague/mecanics/mecanics.component').then((m) => m.MecanicsComponent),
+  },
+  {
+    path: ':lang/rocket/mecanics/:slug',
+    loadComponent: () => import('./RocketLeague/mecanic/mecanic.component').then((m) => m.MecanicComponent),
+  },
+  { path: ':lang/contact', loadComponent: () => import('./contact/contact.component').then((m) => m.ContactComponent) },
+  { path: ':lang/cgu', data: { doc: 'cgu' }, loadComponent: () => import('./legal/legal.component').then((m) => m.LegalComponent) },
+  { path: ':lang/privacy', data: { doc: 'privacy' }, loadComponent: () => import('./legal/legal.component').then((m) => m.LegalComponent) },
+  {
+    path: ':lang/mentions-legales',
+    data: { doc: 'mentions' },
+    loadComponent: () => import('./legal/legal.component').then((m) => m.LegalComponent),
+  },
+  { path: '**', redirectTo: 'fr/home' },
+];

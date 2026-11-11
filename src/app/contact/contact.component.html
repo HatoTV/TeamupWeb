@@ -1,42 +1,56 @@
-<div class="content scrollbar-home" #scrollContainer>
-    <div class="divContent">
-        <section id="social" class="social-section">
-            <div class="container">
-                <div class="divFooter">
-                    <div>
-                        <div class="divPictures">
-                            <img src="assets/img/HatoPP_circular.png" alt="Hato Picture" class="hatoPP pigeonPicture" />
-                            <img src="assets/img/instagramPP_circular2.png" alt="Profile Picture" class="hatoPP profilePicture" />
-                        </div>
-                        <span class="txtSocial">Hato_TV</span>
-                    </div>
-                    <div class="divSocial">
-                        <div class="social-links">
-                            <a href="https://www.twitch.tv/Hato_TV" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/img/icons/twitchIcon.jpg" alt="Twitch">
-                            </a>
-                            <a href="https://www.youtube.com/@Hato_YT" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/img/icons/youtubeIcon.jpg" alt="Youtube">
-                            </a>
-                            <a href="https://www.instagram.com/callmehato/" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/img/icons/instagramIcon.jpg" alt="Instagram">
-                            </a>
-                            <a href="https://www.tiktok.com/@hato.tv" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/img/icons/tiktokIcon.jpg" alt="Tiktok">
-                            </a>
-                            <a href="https://discord.gg/pM4Eu5quyg" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/img/icons/discordIcon.jpg" alt="Discord">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<div class="banner" aria-hidden="true">
+  <img src="assets/img/site/bkgHome.webp" alt="" fetchpriority="high" />
+</div>
 
-        <section class="why-section">
-            <div class="container">
-                <h3 [innerHtml]="'CONTACT' | translate | safeHtml"></h3>
-            </div>
-        </section>
+<div class="profile">
+  <div class="identity">
+    <div class="avatars">
+      <img class="avatars__main" src="assets/img/site/instagramPP_circular2.webp" [alt]="'ABOUTPAGE.AVATAR_ALT' | translate" width="150" height="150" />
+      <img class="avatars__second" src="assets/img/site/HatoPP_circular.webp" [alt]="'ABOUTPAGE.PHOTO_ALT' | translate" width="96" height="96" />
     </div>
+    <div class="identity__text">
+      <p class="identity__role">{{ 'HOMEPAGE.CTA_ROLE' | translate }}</p>
+      <h1 class="identity__name t-page-title">{{ handle }}</h1>
+    </div>
+    @if (live.known()) {
+      <a
+        class="live"
+        [class.live--on]="live.status().isLive"
+        [href]="twitchUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="live__dot" aria-hidden="true"></span>
+        {{ (live.status().isLive ? 'ABOUTPAGE.LIVE' : 'ABOUTPAGE.OFFLINE') | translate }}
+        <span class="sr-only">{{ 'UI.EXTERNAL' | translate }}</span>
+      </a>
+    }
+  </div>
+
+  <div class="layout">
+    <article class="story">
+      @for (p of 'CONTACT' | translate | paragraphs; track $index; let first = $first) {
+        <p [class.story__lead]="first" [innerHTML]="p | safeHtml"></p>
+      }
+    </article>
+
+    <aside class="socials" aria-labelledby="find-me">
+      <h2 id="find-me" class="socials__title">{{ 'ABOUTPAGE.FIND_ME' | translate }}</h2>
+      <ul>
+        @for (s of socials; track s.brand) {
+          <li>
+            <a class="social" [attr.data-brand]="s.brand" [href]="s.href" target="_blank" rel="noopener noreferrer">
+              <span class="social__logo"><app-brand-icon [name]="s.brand" [size]="22" /></span>
+              <span class="social__text">
+                <span class="social__name">{{ s.name }} <span class="social__handle">{{ s.handle }}</span></span>
+                <span class="social__desc">{{ 'ABOUTPAGE.SOCIAL_DESC.' + s.brand | translate }}</span>
+              </span>
+              <app-icon name="arrow-up-right" [size]="16" />
+              <span class="sr-only">{{ 'UI.EXTERNAL' | translate }}</span>
+            </a>
+          </li>
+        }
+      </ul>
+    </aside>
+  </div>
 </div>

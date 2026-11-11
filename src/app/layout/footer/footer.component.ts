@@ -47,6 +47,7 @@ export class FooterComponent {
         { labelKey: 'ABOUTME', path: '/contact' },
         { labelKey: 'CGU.TITLE', path: '/cgu' },
         { labelKey: 'PRIVACY.TITLE', path: '/privacy' },
+        { labelKey: 'MENTIONS.TITLE', path: '/mentions-legales' },
       ],
     },
   ];

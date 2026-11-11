@@ -82,3 +82,13 @@
   padding: 0 var(--space-4);
   font-size: 15px;
 }
+
+// Inline markup used in translation strings (<bold>, <italic>) rendered by SafeHtmlPipe.
+.bold-text {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.italic-text {
+  font-style: italic;
+}

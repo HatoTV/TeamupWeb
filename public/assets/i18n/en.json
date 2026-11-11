@@ -641,5 +641,63 @@
     "BACK": "Back to mechanics",
     "META_LIST": "Learn Rocket League mechanics step by step: demonstration videos, difficulty and usefulness of each technique.",
     "META_DETAIL": "{{name}} in Rocket League: detailed steps and demonstration video (difficulty {{difficulty}}/5, utility {{utility}}/5)."
+  },
+  "ABOUTPAGE": {
+    "LIVE": "Live on Twitch · Join",
+    "OFFLINE": "Offline · Visit the channel",
+    "FIND_ME": "Find me",
+    "AVATAR_ALT": "Hato's avatar",
+    "PHOTO_ALT": "Photo of Hato",
+    "META": "Hato, creator of TeamUpp: the project, Twitch streams, Discord and every network to get in touch.",
+    "SOCIAL_DESC": {
+      "instagram": "The easiest way to contact me",
+      "twitch": "Gaming streams with viewers",
+      "discord": "Chat and help each other",
+      "youtube": "Videos",
+      "tiktok": "Short clips"
+    }
+  },
+  "LEGALPAGE": {
+    "EYEBROW": "Legal information",
+    "TABS": "Legal documents",
+    "TOC": "Contents",
+    "META_CGU": "Terms of use of the TeamUpp website.",
+    "META_PRIVACY": "TeamUpp privacy policy: data, cookies and user rights.",
+    "META_MENTIONS": "TeamUpp legal notice: publisher, host and contact."
+  },
+  "MENTIONS": {
+    "TITLE": "Legal notice",
+    "INTRO": "In accordance with French law no. 2004-575 of 21 June 2004 on confidence in the digital economy, here is the information about teamupp.app.",
+    "EDITOR": {
+      "TITLE": "Publisher",
+      "DESCRIPTION": "Name or company name: [TO BE COMPLETED]<br>Status (individual, sole trader, company…): [TO BE COMPLETED]<br>Address: [TO BE COMPLETED]<br>SIRET / RCS number, if applicable: [TO BE COMPLETED]"
+    },
+    "DIRECTOR": {
+      "TITLE": "Publication director",
+      "DESCRIPTION": "[TO BE COMPLETED]"
+    },
+    "CONTACT": {
+      "TITLE": "Contact",
+      "DESCRIPTION": "Contact email address: [TO BE COMPLETED]"
+    },
+    "HOST": {
+      "TITLE": "Host",
+      "DESCRIPTION": "Vercel Inc.<br>Postal address: [TO BE COMPLETED]<br>Website: vercel.com"
+    },
+    "IP": {
+      "TITLE": "Intellectual property",
+      "DESCRIPTION": "Terms for using the site's content are detailed in the terms of use. Names, logos and artwork of the games mentioned belong to their respective owners."
+    },
+    "DATA": {
+      "TITLE": "Personal data",
+      "DESCRIPTION": "The processing of personal data is described in the privacy policy."
+    }
+  },
+  "TWITCHPOPUP": {
+    "LIVE": "I'm live on Twitch! 🔴",
+    "CLOSE": "Close",
+    "JOIN": "Join the stream",
+    "PLAYER_TITLE": "Hato_TV Twitch player",
+    "PROFILE_ALT": "Hato's profile"
   }
 }

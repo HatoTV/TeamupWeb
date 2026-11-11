@@ -1,0 +1,83 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  background: rgba(5, 5, 12, 0.6);
+}
+
+.dialog {
+  position: fixed;
+  z-index: 1101;
+  top: 80px;
+  right: 24px;
+  width: min(420px, calc(100vw - 32px));
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line-strong);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+}
+
+.dialog__player {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  background: #000;
+}
+
+.dialog__body {
+  padding: 16px;
+}
+
+.dialog__head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid var(--color-enemy);
+  }
+}
+
+.dialog__channel {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.dialog__title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.dialog__stream {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.dialog__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.dialog__join {
+  background: #9146ff;
+  color: #fff;
+
+  &:hover {
+    background: #7d2ff7;
+  }
+}
+
+@media (max-width: 767px) {
+  .dialog {
+    top: auto;
+    right: 16px;
+    bottom: 88px;
+  }
+}

@@ -699,5 +699,63 @@
     "BACK": "Retour aux mécaniques",
     "META_LIST": "Apprends les mécaniques de Rocket League étape par étape : vidéos de démonstration, difficulté et utilité de chaque technique.",
     "META_DETAIL": "{{name}} sur Rocket League : étapes détaillées, vidéo de démonstration (difficulté {{difficulty}}/5, utilité {{utility}}/5)."
+  },
+  "ABOUTPAGE": {
+    "LIVE": "En live sur Twitch · Rejoindre",
+    "OFFLINE": "Hors ligne · Voir la chaîne",
+    "FIND_ME": "Me retrouver",
+    "AVATAR_ALT": "Avatar de Hato",
+    "PHOTO_ALT": "Photo de Hato",
+    "META": "Hato, créateur de TeamUpp : le projet, les lives Twitch, le Discord et tous les réseaux pour le contacter.",
+    "SOCIAL_DESC": {
+      "instagram": "Le plus simple pour me contacter",
+      "twitch": "Lives gaming avec les viewers",
+      "discord": "Échanger et s'entraider entre passionnés",
+      "youtube": "Vidéos",
+      "tiktok": "Clips courts"
+    }
+  },
+  "LEGALPAGE": {
+    "EYEBROW": "Informations légales",
+    "TABS": "Documents légaux",
+    "TOC": "Sommaire",
+    "META_CGU": "Conditions générales d'utilisation du site TeamUpp.",
+    "META_PRIVACY": "Politique de confidentialité du site TeamUpp : données, cookies et droits des utilisateurs.",
+    "META_MENTIONS": "Mentions légales du site TeamUpp : éditeur, hébergeur et contact."
+  },
+  "MENTIONS": {
+    "TITLE": "Mentions légales",
+    "INTRO": "Conformément à la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, voici les informations relatives au site teamupp.app.",
+    "EDITOR": {
+      "TITLE": "Éditeur du site",
+      "DESCRIPTION": "Nom ou raison sociale : [À COMPLÉTER]<br>Statut (particulier, auto-entrepreneur, société…) : [À COMPLÉTER]<br>Adresse : [À COMPLÉTER]<br>Numéro SIRET / RCS, si applicable : [À COMPLÉTER]"
+    },
+    "DIRECTOR": {
+      "TITLE": "Directeur de la publication",
+      "DESCRIPTION": "[À COMPLÉTER]"
+    },
+    "CONTACT": {
+      "TITLE": "Contact",
+      "DESCRIPTION": "Adresse e-mail de contact : [À COMPLÉTER]"
+    },
+    "HOST": {
+      "TITLE": "Hébergeur",
+      "DESCRIPTION": "Vercel Inc.<br>Adresse postale : [À COMPLÉTER]<br>Site : vercel.com"
+    },
+    "IP": {
+      "TITLE": "Propriété intellectuelle",
+      "DESCRIPTION": "Les conditions d'utilisation des contenus du site sont détaillées dans les conditions générales d'utilisation. Les noms, logos et visuels des jeux cités appartiennent à leurs propriétaires respectifs."
+    },
+    "DATA": {
+      "TITLE": "Données personnelles",
+      "DESCRIPTION": "Le traitement des données personnelles est décrit dans la politique de confidentialité."
+    }
+  },
+  "TWITCHPOPUP": {
+    "LIVE": "Je suis en live sur Twitch ! 🔴",
+    "CLOSE": "Fermer",
+    "JOIN": "Rejoindre le live",
+    "PLAYER_TITLE": "Lecteur Twitch de Hato_TV",
+    "PROFILE_ALT": "Profil de Hato"
   }
 }

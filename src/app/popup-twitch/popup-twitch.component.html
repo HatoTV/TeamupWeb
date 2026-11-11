@@ -1,32 +1,32 @@
-<div class="popup" *ngIf="isVisible" (click)="closePopup()">
-  <div class="popup-content" (click)="$event.stopPropagation()">
-    <div class="divContent">
-      <iframe
-        [src]="safeStreamUrl"
-        height="200"
-        width="300"
-        allowfullscreen="true"
-        class="stream-preview"
-      ></iframe>
-      <div class="contentRight">
-        <div class="divTitle">
-          <img [src]="profileImageUrl" alt="Profil" class="profile-img" />
-          <div>
-            <h3 style="text-align: left">Hato_TV</h3>
-            <h2>Je suis en live sur Twitch ! 🔴</h2>
-          </div>
-        </div>
+@if (isVisible) {
+  <div class="backdrop" (click)="closePopup()" aria-hidden="true"></div>
+  <div
+    class="dialog"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="twitch-popup-title"
+    (keydown.escape)="closePopup()"
+  >
+    @if (safeStreamUrl) {
+      <iframe class="dialog__player" [src]="safeStreamUrl" [title]="'TWITCHPOPUP.PLAYER_TITLE' | translate" allowfullscreen></iframe>
+    }
+    <div class="dialog__body">
+      <div class="dialog__head">
+        <img src="assets/img/site/HatoPP_circular.webp" [alt]="'TWITCHPOPUP.PROFILE_ALT' | translate" width="56" height="56" />
         <div>
-          <button (click)="closePopup()" class="close-button">Fermer</button>
-          <a
-            href="https://www.twitch.tv/Hato_TV"
-            target="_blank"
-            class="btnJoinLive"
-            (click)="closePopup()"
-            >Rejoindre le live</a
-          >
+          <p class="dialog__channel">Hato_TV</p>
+          <p class="dialog__title" id="twitch-popup-title">{{ 'TWITCHPOPUP.LIVE' | translate }}</p>
+          @if (streamTitle) {
+            <p class="dialog__stream">{{ streamTitle }}</p>
+          }
         </div>
+      </div>
+      <div class="dialog__actions">
+        <button #closeButton type="button" class="btn btn--secondary btn--sm" (click)="closePopup()">{{ 'TWITCHPOPUP.CLOSE' | translate }}</button>
+        <a class="btn btn--sm dialog__join" [href]="twitchUrl" target="_blank" rel="noopener noreferrer" (click)="closePopup()">
+          {{ 'TWITCHPOPUP.JOIN' | translate }}<span class="sr-only"> {{ 'UI.EXTERNAL' | translate }}</span>
+        </a>
       </div>
     </div>
   </div>
-</div>
+}

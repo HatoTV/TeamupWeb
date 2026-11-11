@@ -1,0 +1,24 @@
+{
+  "name": "teamupp-lol-stats",
+  "private": true,
+  "type": "module",
+  "description": "Collects ranked games from the Riot API and publishes champion build statistics for TeamUpp.",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "crawl": "node src/cli.ts crawl",
+    "aggregate": "node src/cli.ts aggregate",
+    "publish": "node src/cli.ts publish",
+    "dev": "node src/cli.ts dev",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "node ../../node_modules/typescript/bin/tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "aws4fetch": "^1.0.20",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5"
+  }
+}

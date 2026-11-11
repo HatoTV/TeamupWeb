@@ -50,3 +50,7 @@ src/riotApi.json
 # Archives
 *.zip
 tools/i18n-matchups/work/
+
+# LoL stats collector (tools/lol-stats)
+tools/lol-stats/node_modules/
+tools/lol-stats/.state/

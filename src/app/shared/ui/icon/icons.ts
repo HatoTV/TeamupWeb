@@ -62,6 +62,11 @@ export const ICONS = {
     mode: 'stroke',
     shapes: [{ tag: 'path', d: 'M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8-6.2-3.2-6.2 3.2L7 14.2 2 9.3l6.9-1z' }],
   },
+  swords: { mode: 'stroke', shapes: [{ tag: 'path', d: 'M4 20L14 10M10 4l10 10M4 4l6 6M14 20l6-6' }] },
+  'star-line': {
+    mode: 'stroke',
+    shapes: [{ tag: 'path', d: 'M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z' }],
+  },
   close: { mode: 'stroke', shapes: [{ tag: 'path', d: 'M6 6l12 12M18 6L6 18' }] },
   menu: { mode: 'stroke', shapes: [{ tag: 'path', d: 'M4 7h16M4 12h16M4 17h16' }] },
   check: { mode: 'stroke', strokeWidth: 2.5, shapes: [{ tag: 'path', d: 'M5 12.5l4.5 4.5L19 7.5' }] },

@@ -1,0 +1,276 @@
+:host {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: block;
+}
+
+.topbar {
+  background: var(--color-night-bar);
+  border-bottom: 1px solid var(--color-separator);
+}
+
+.topbar__inner {
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-2) 20px;
+  min-height: 64px;
+  padding: 0 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: none;
+}
+
+.brand__logo {
+  width: 30px;
+  height: auto;
+}
+
+.brand__word {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.04em;
+}
+
+// Game tabs
+.tabs {
+  display: flex;
+  align-items: stretch;
+  gap: 2px;
+}
+
+.tab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 64px;
+  padding: 0 16px;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-text-muted);
+  transition:
+    color var(--duration-color) ease,
+    background-color var(--duration-color) ease;
+
+  &:hover {
+    color: var(--color-text);
+  }
+
+  &.is-active {
+    color: #fff;
+    background: #15152a;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      bottom: 0;
+      height: 3px;
+      border-radius: 3px 3px 0 0;
+      background: var(--game-accent);
+    }
+  }
+}
+
+.tab__badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-tag);
+  background: var(--game-accent);
+  font: 700 11px var(--font-display);
+  color: var(--color-night-bar);
+}
+
+// Right-hand actions
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  padding: 10px 0;
+}
+
+.actions__search {
+  width: 260px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  height: var(--touch-target);
+  padding: 0 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-text-muted);
+
+  &:hover,
+  &.is-active {
+    color: #fff;
+  }
+}
+
+.lang {
+  display: flex;
+  height: 40px;
+  padding: 3px;
+  border-radius: var(--radius-control-sm);
+  background: #1a1a2c;
+  border: 1px solid var(--color-line);
+}
+
+.lang__option {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: var(--radius-tag);
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--color-text-muted);
+  transition:
+    color var(--duration-color) ease,
+    background-color var(--duration-color) ease;
+
+  &:hover {
+    color: var(--color-text);
+  }
+
+  &.is-active {
+    background: #2e2e48;
+    color: var(--color-text);
+  }
+}
+
+.discord {
+  min-height: 40px;
+}
+
+.live {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 40px;
+  padding: 0 var(--space-3);
+  border: 1px solid rgba(255, 79, 109, 0.5);
+  border-radius: var(--radius-control-sm);
+  background: rgba(255, 79, 109, 0.12);
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffd0d8;
+}
+
+.live--compact {
+  width: var(--touch-target);
+  min-height: var(--touch-target);
+  justify-content: center;
+  padding: 0;
+}
+
+.live__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-enemy);
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+// Mobile
+.mobile-actions {
+  display: none;
+  align-items: center;
+  gap: var(--space-1);
+  margin-left: auto;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--touch-target);
+  height: var(--touch-target);
+  border: 0;
+  border-radius: var(--radius-control);
+  background: transparent;
+  color: var(--color-text);
+}
+
+.icon-btn--text {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.mobile-panel {
+  padding: var(--space-3) var(--space-4) var(--space-4);
+  border-top: 1px solid var(--color-separator);
+}
+
+@media (max-width: 1240px) {
+  .tab__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+
+  .tab__badge {
+    width: auto;
+    min-width: 32px;
+    padding: 0 6px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 960px) {
+  .actions__search {
+    width: 200px;
+  }
+
+  .discord {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .topbar {
+    background: rgba(11, 11, 21, 0.94);
+  }
+
+  .topbar__inner {
+    min-height: 60px;
+    padding: 0 12px 0 16px;
+  }
+
+  .brand__logo {
+    width: 26px;
+  }
+
+  .brand__word {
+    font-size: 20px;
+  }
+
+  .tabs,
+  .actions {
+    display: none;
+  }
+
+  .mobile-actions {
+    display: flex;
+  }
+}

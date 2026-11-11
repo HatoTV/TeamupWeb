@@ -53,31 +53,6 @@
     --tft-scrollbar-hover:rgba(255, 137, 164, 0.6);
   }
 
-  html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('/assets/img/backgroundSpace.png') no-repeat center center;
-    background-size: cover;
-    mix-blend-mode: multiply;
-    pointer-events: none;
-  }
-
-  h1,h2,h3{
-    margin: 0 !important;
-  }
-
   .scrollbar-lol {
     scrollbar-width: thin; /* Pour Firefox */
     scrollbar-color: var(--lol-scrollbar) transparent; /* Couleur pour Firefox */

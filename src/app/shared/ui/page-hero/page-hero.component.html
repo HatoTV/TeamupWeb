@@ -1,0 +1,35 @@
+<header class="hero">
+  @if (image()) {
+    <img class="hero__art" [src]="image()" alt="" fetchpriority="high" decoding="async" [style.object-position]="imagePosition()" />
+  }
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__body">
+    @if (breadcrumbs().length) {
+      <nav class="crumbs" [attr.aria-label]="'NAV.BREADCRUMB' | translate">
+        <ol>
+          @for (crumb of breadcrumbs(); track $index; let last = $last) {
+            <li>
+              @if (crumb.link && !last) {
+                <a [routerLink]="crumb.link">{{ crumb.label }}</a>
+              } @else {
+                <span [attr.aria-current]="last ? 'page' : null">{{ crumb.label }}</span>
+              }
+            </li>
+          }
+        </ol>
+      </nav>
+    }
+    <h1 class="hero__title t-page-title">{{ title() }}</h1>
+    @if (subtitle()) {
+      <p class="hero__subtitle">{{ subtitle() }}</p>
+    }
+    @if (tags().length) {
+      <ul class="hero__tags">
+        @for (tag of tags(); track $index) {
+          <li class="tag" [class.tag--accent]="tag.accent">{{ tag.label }}</li>
+        }
+      </ul>
+    }
+    <ng-content />
+  </div>
+</header>

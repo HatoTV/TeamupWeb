@@ -1,0 +1,239 @@
+:host {
+  display: block;
+}
+
+.guide {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 36px 40px 64px;
+}
+
+.guide__article {
+  flex: 999 1 520px;
+  min-width: 0;
+  max-width: var(--guide-content-max);
+}
+
+// Chapter tabs
+.chapters ol {
+  display: flex;
+  gap: 6px;
+  margin: 0 0 28px;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.chapters li {
+  flex: 1 0 150px;
+}
+
+.chapter {
+  display: block;
+  height: 100%;
+  padding: 12px 14px;
+  border-radius: var(--radius-control);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  transition:
+    border-color var(--duration-color) ease,
+    background-color var(--duration-color) ease;
+
+  &:hover {
+    border-color: var(--color-line-strong);
+  }
+
+  &.is-active {
+    background: var(--color-surface-active);
+    border-color: var(--game-accent);
+  }
+}
+
+.chapter__n {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+
+  .is-active & {
+    color: color-mix(in srgb, var(--game-accent) 50%, #fff);
+  }
+}
+
+.chapter__title {
+  display: block;
+  margin-top: 2px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+// Prev / next
+.pager {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 44px;
+}
+
+.pager__link {
+  padding: 18px;
+  border-radius: 12px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  transition: border-color var(--duration-color) ease;
+
+  &:hover {
+    border-color: var(--game-accent);
+  }
+}
+
+.pager__link--next {
+  text-align: right;
+  border-color: var(--game-accent);
+}
+
+.pager__dir {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.pager__label {
+  display: block;
+  margin-top: 4px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+// Aside
+.guide__aside {
+  position: sticky;
+  top: 88px;
+  flex: 1 1 240px;
+  min-width: 0;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.toc,
+.ask {
+  padding: 18px;
+  border-radius: 12px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+}
+
+.toc__title {
+  margin-bottom: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+}
+
+.toc__progress {
+  height: 4px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  background: var(--color-line);
+  overflow: hidden;
+}
+
+.toc__progress-bar {
+  display: block;
+  height: 100%;
+  background: var(--color-gold);
+  transform-origin: left center;
+  transition: transform 120ms linear;
+}
+
+.toc__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc__link {
+  display: block;
+  margin-left: -2px;
+  padding: 6px 0 6px 12px;
+  border-left: 2px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+
+  &:hover {
+    color: var(--color-text);
+  }
+
+  &.is-active {
+    color: #fff;
+    font-weight: 700;
+    border-left-color: var(--color-gold);
+  }
+}
+
+.toc__link--sub {
+  padding-left: 26px;
+}
+
+.ask__title {
+  font-weight: 700;
+}
+
+.ask__text {
+  margin: 4px 0 12px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.ask__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--touch-target);
+  border-radius: var(--radius-control-sm);
+  background: #4752c4; // Discord blurple, darkened for 4.5:1 with white text
+  color: #fff;
+  font: 700 15px var(--font-display);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: background-color var(--duration-color) ease;
+
+  &:hover {
+    background: #3c45a5;
+  }
+}
+
+@media (max-width: 1099px) {
+  .guide__aside {
+    position: static;
+    max-width: none;
+  }
+
+  // On narrow screens the TOC is reachable from the chapter tabs and the sidebar.
+  .ask {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .guide {
+    padding: 24px var(--container-gutter) 48px;
+  }
+
+  .pager {
+    grid-template-columns: 1fr;
+  }
+}

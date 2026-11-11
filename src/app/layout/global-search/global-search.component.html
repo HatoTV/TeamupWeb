@@ -1,0 +1,58 @@
+<div class="search__field">
+  <app-icon name="search" [size]="variant() === 'bar' ? 16 : 18" class="search__icon" />
+  <input
+    #field
+    type="search"
+    class="search__input"
+    role="combobox"
+    autocomplete="off"
+    spellcheck="false"
+    aria-autocomplete="list"
+    [attr.aria-label]="'SEARCH.LABEL' | translate"
+    [attr.aria-expanded]="expanded()"
+    [attr.aria-controls]="uid + '-list'"
+    [attr.aria-activedescendant]="activeId()"
+    [attr.aria-describedby]="shortcut() ? uid + '-shortcut' : null"
+    [placeholder]="'SEARCH.PLACEHOLDER' | translate"
+    [value]="query()"
+    (input)="onInput($any($event.target).value)"
+    (keydown)="onKeydown($event)"
+    (focus)="onFocus()"
+    (blur)="close()"
+  />
+  @if (shortcut()) {
+    <kbd class="search__kbd" aria-hidden="true">/</kbd>
+    <span class="sr-only" [id]="uid + '-shortcut'">{{ 'SEARCH.SHORTCUT' | translate }}</span>
+  }
+</div>
+
+<div class="search__popup" [id]="uid + '-list'" role="listbox" [attr.aria-label]="'SEARCH.LABEL' | translate" [hidden]="!expanded()">
+  @for (group of groups(); track group.id) {
+    <div role="group" class="search__group" [attr.aria-labelledby]="uid + '-' + group.id">
+      <div class="search__group-label" role="presentation" [id]="uid + '-' + group.id">{{ group.labelKey | translate }}</div>
+      @for (entry of group.entries; track entry.id) {
+        <div
+          role="option"
+          class="search__option"
+          [id]="optionId(entry)"
+          [attr.aria-selected]="indexOf(entry) === active()"
+          [class.is-active]="indexOf(entry) === active()"
+          (mousedown)="$event.preventDefault()"
+          (mousemove)="active.set(indexOf(entry))"
+          (click)="select(entry)"
+        >
+          <span class="search__option-label">{{ entry.label }}</span>
+          <span class="search__option-detail">{{ entry.detail }}</span>
+        </div>
+      }
+    </div>
+  } @empty {
+    <p class="search__empty">{{ 'SEARCH.NO_RESULT' | translate: { query: query() } }}</p>
+  }
+</div>
+
+<p class="sr-only" aria-live="polite">
+  @if (expanded()) {
+    {{ 'SEARCH.RESULTS' | translate: { count: flat().length } }}
+  }
+</p>

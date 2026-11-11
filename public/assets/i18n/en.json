@@ -399,6 +399,87 @@
         "TITLE": "Contact",
         "DESCRIPTION": "For any questions regarding data management, contact the publisher / developer 'Hato' ."
       }
-    }
-
+    },
+  "GAMES": {
+    "LOL": "League of Legends",
+    "TFT": "Teamfight Tactics",
+    "RL": "Rocket League",
+    "LOL_SHORT": "LoL",
+    "TFT_SHORT": "TFT",
+    "RL_SHORT": "RL"
+  },
+  "NAV": {
+    "SKIP": "Skip to content",
+    "HOME_LABEL": "TeamUpp, home",
+    "HOME": "Home",
+    "GAMES": "Games",
+    "MAIN": "Main navigation",
+    "LANGUAGE": "Language",
+    "LANG_FR": "Français",
+    "LANG_EN": "English",
+    "LANG_SWITCH": "Language: English. Switch to French",
+    "DISCORD": "Discord",
+    "LIVE": "Live",
+    "OPEN_SEARCH": "Open search",
+    "CLOSE_SEARCH": "Close search",
+    "LOL_TOOLS": "Champion tools",
+    "LOL_GUIDES": "Gameplay guides",
+    "LOL_MENU": "League of Legends menu",
+    "MATCHUPS": "Matchups",
+    "PICKER": "Picker",
+    "LOL_LANING": "Laning",
+    "LOL_WAVEMANAGEMENT": "Wave management",
+    "LOL_JUNGLE": "Jungle",
+    "BREADCRUMB": "Breadcrumb",
+    "SECTION_COUNT": "{{count}} sections"
+  },
+  "SEARCH": {
+    "LABEL": "Search",
+    "PLACEHOLDER": "Champion, guide, mechanic…",
+    "NO_RESULT": "No results for “{{query}}”",
+    "RESULTS": "{{count}} result(s)",
+    "GROUP_CHAMPIONS": "Champions",
+    "GROUP_GUIDES": "Guides",
+    "GROUP_MECHANICS": "Rocket League mechanics",
+    "SHORTCUT": "Shortcut: / key",
+    "CHAMPION_HINT": "See matchups"
+  },
+  "FOOTER": {
+    "OTHER_GAMES": "Other games",
+    "INFO": "Information",
+    "RL_MECHANICS": "Rocket League — Mechanics",
+    "COPYRIGHT": "© {{year}} TeamUpp"
+  },
+  "UI": {
+    "DIFFICULTY": {
+      "1": "Very easy",
+      "2": "Easy",
+      "3": "Medium",
+      "4": "Hard",
+      "5": "Extreme",
+      "LABEL": "Difficulty"
+    },
+    "UTILITY": "Utility",
+    "METER": "{{label}}: {{value}} out of {{max}}",
+    "CALLOUT": {
+      "REMEMBER": "Key takeaway:",
+      "BONUS": "Bonus info:",
+      "TIP": "Tip:"
+    },
+    "PROS": "Pros",
+    "CONS": "Cons",
+    "ON_THIS_PAGE": "On this page",
+    "READING_PROGRESS": "Reading progress",
+    "CHAPTERS": "Chapters",
+    "CHAPTER": "Chapter {{n}}",
+    "PAGINATION": "Next chapters",
+    "PREVIOUS": "Previous",
+    "NEXT": "Next",
+    "GUIDE_QUESTION": "A question about this guide?",
+    "GUIDE_COMMUNITY": "Come and talk about it with the community.",
+    "OPEN_DISCORD": "Open Discord",
+    "ALLY": "Your champion",
+    "ENEMY": "Enemy champion",
+    "EXTERNAL": "(new tab)"
+  }
 }

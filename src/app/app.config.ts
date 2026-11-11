@@ -4,7 +4,7 @@ import {
   importProvidersFrom,
   ErrorHandler,
 } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { provideRouter, withInMemoryScrolling } from '@angular/router';
 
 import { routes } from './app.routes.js';
 import { provideClientHydration } from '@angular/platform-browser';
@@ -19,7 +19,7 @@ export function createTranslateLoader(httpClient: HttpClient) {
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes),
+    provideRouter(routes, withInMemoryScrolling({ anchorScrolling: 'enabled', scrollPositionRestoration: 'enabled' })),
     provideClientHydration(),
     provideHttpClient(),
     importProvidersFrom(

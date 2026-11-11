@@ -1,60 +1,36 @@
-import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-import { RouterOutlet, Router, NavigationEnd, ActivatedRoute } from '@angular/router';
-import { TranslateService } from '@ngx-translate/core';
-import { BaneerWarningComponent } from './baneer-warning/baneer-warning.component';
-import { MatchupsComponent } from './LeagueOfLegends/matchups/matchups.component';
-import { LeftBarComponent } from './Navigation/left-bar/left-bar.component';
-import { TopBarComponent } from './Navigation/top-bar/top-bar.component';
+import { DOCUMENT } from '@angular/common';
+import { ChangeDetectionStrategy, Component, effect, inject } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
+import { RouteContextService } from './core/route-context.service';
+import { FooterComponent } from './layout/footer/footer.component';
+import { LolSidebarComponent } from './layout/lol-sidebar/lol-sidebar.component';
+import { MobileTabbarComponent } from './layout/mobile-tabbar/mobile-tabbar.component';
+import { TopbarComponent } from './layout/topbar/topbar.component';
 import { LanguageService } from './services/language.service';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatchupsComponent, LeftBarComponent, TopBarComponent, CommonModule,BaneerWarningComponent],
+  imports: [RouterOutlet, TranslateModule, TopbarComponent, LolSidebarComponent, FooterComponent, MobileTabbarComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrl: './app.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {
-  constructor(
-    private router: Router,
-    private translate: TranslateService,
-    private activatedRoute: ActivatedRoute, private languageService: LanguageService
-  ) { }
- title = 'TeamUpp'; 
-  ngOnInit() {
-    this.router.events.subscribe((event: any) => {
-      if (event instanceof NavigationEnd) {
-        const url = this.router.url.split('/')[1];
-        const supportedLangs = ['en', 'fr'];
-        const lang = supportedLangs.includes(url) ? url : this.languageService.translate.defaultLang || 'fr';
+  protected readonly ctx = inject(RouteContextService);
+  private readonly document = inject(DOCUMENT);
 
-        // Changer la langue en fonction de l'URL
-        this.languageService.changeLanguage(lang);
-
-        // Si l'URL ne contient pas la langue, rediriger vers la langue par défaut
-        if (!supportedLangs.includes(url)) {
-          this.router.navigate([`/${lang}` + this.router.url]);
-        }
-      }
-    });
-
-    this.activatedRoute.fragment.subscribe((fragment: string | null) => {
-      if (fragment) this.jumpToSection(fragment);
-    });
-
+  constructor() {
+    const language = inject(LanguageService);
+    // The URL is the source of truth for the language.
+    effect(() => language.changeLanguage(this.ctx.lang()));
   }
 
-  jumpToSection(section: string | null) {
-    if (section) {
-      const cleanedSection = decodeURIComponent(section).replace(/%23/g, '#');
-      const element = document.getElementById(cleanedSection);
-      if (element) {
-        element.scrollIntoView();
-      } else {
-        console.error(`Element with id ${cleanedSection} not found.`);
-      }
-    }
+  protected skipToMain(event: Event): void {
+    event.preventDefault();
+    const main = this.document.getElementById('main');
+    main?.focus();
+    main?.scrollIntoView();
   }
-
 }

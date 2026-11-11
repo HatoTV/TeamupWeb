@@ -1,0 +1,67 @@
+<nav class="sidebar" [attr.aria-label]="'GAMES.LOL' | translate">
+  <button
+    type="button"
+    class="sidebar__toggle"
+    aria-controls="lol-sidebar-content"
+    [attr.aria-expanded]="expanded()"
+    (click)="expanded.set(!expanded())"
+  >
+    <span>{{ 'NAV.LOL_MENU' | translate }}</span>
+    <app-icon [name]="expanded() ? 'chevron-up' : 'chevron-down'" [size]="18" />
+  </button>
+
+  <div id="lol-sidebar-content" class="sidebar__content" [class.is-open]="expanded()">
+    <a class="sidebar__logo" [routerLink]="ctx.link('/lol/matchups')">
+      <img src="assets/img/brand/lol-logo.webp" [alt]="'GAMES.LOL' | translate" width="132" height="51" />
+    </a>
+
+    <p class="sidebar__heading" id="lol-tools-heading">{{ 'NAV.LOL_TOOLS' | translate }}</p>
+    <ul class="sidebar__list" aria-labelledby="lol-tools-heading">
+      @for (tool of tools; track tool.id) {
+        <li>
+          <a
+            class="tool"
+            [routerLink]="ctx.link(tool.path)"
+            [class.is-active]="isToolActive(tool)"
+            [attr.aria-current]="isToolActive(tool) ? 'page' : null"
+          >
+            <span class="tool__icon"><app-icon [name]="tool.icon" [size]="16" /></span>
+            {{ tool.labelKey | translate }}
+          </a>
+        </li>
+      }
+    </ul>
+
+    <p class="sidebar__heading sidebar__heading--spaced" id="lol-guides-heading">{{ 'NAV.LOL_GUIDES' | translate }}</p>
+    <ul class="sidebar__list" aria-labelledby="lol-guides-heading">
+      @for (group of groups; track group.id) {
+        <li class="group" [class.is-active]="isGroupActive(group)">
+          <a
+            class="group__title"
+            [routerLink]="ctx.link(group.path)"
+            [attr.aria-current]="isGroupActive(group) && !ctx.fragment() ? 'page' : null"
+          >
+            <span>{{ group.labelKey | translate }}</span>
+            <span class="group__count" [attr.aria-label]="'NAV.SECTION_COUNT' | translate: { count: group.items.length }">{{
+              group.items.length
+            }}</span>
+          </a>
+          <ul class="group__items">
+            @for (item of group.items; track item.fragment) {
+              <li>
+                <a
+                  class="item"
+                  [routerLink]="ctx.link(group.path)"
+                  [fragment]="item.fragment"
+                  [class.is-active]="isItemActive(group, item)"
+                  [attr.aria-current]="isItemActive(group, item) ? 'location' : null"
+                  >{{ item.labelKey | translate }}</a
+                >
+              </li>
+            }
+          </ul>
+        </li>
+      }
+    </ul>
+  </div>
+</nav>

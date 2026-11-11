@@ -467,5 +467,87 @@
       "TITLE": "Contact",
       "DESCRIPTION": "Pour toute question sur la gestion des données, contactez l'éditeur et développeur : 'Hato'."
     }
-  } 
+  },
+  "GAMES": {
+    "LOL": "League of Legends",
+    "TFT": "Teamfight Tactics",
+    "RL": "Rocket League",
+    "LOL_SHORT": "LoL",
+    "TFT_SHORT": "TFT",
+    "RL_SHORT": "RL"
+  },
+  "NAV": {
+    "SKIP": "Aller au contenu",
+    "HOME_LABEL": "TeamUpp, accueil",
+    "HOME": "Accueil",
+    "GAMES": "Jeux",
+    "MAIN": "Navigation principale",
+    "LANGUAGE": "Langue",
+    "LANG_FR": "Français",
+    "LANG_EN": "English",
+    "LANG_SWITCH": "Langue : français. Passer en anglais",
+    "DISCORD": "Discord",
+    "LIVE": "En live",
+    "OPEN_SEARCH": "Ouvrir la recherche",
+    "CLOSE_SEARCH": "Fermer la recherche",
+    "LOL_TOOLS": "Outils champions",
+    "LOL_GUIDES": "Gameplay guides",
+    "LOL_MENU": "Menu League of Legends",
+    "MATCHUPS": "Matchups",
+    "PICKER": "Picker",
+    "LOL_LANING": "Laning",
+    "LOL_WAVEMANAGEMENT": "Wave management",
+    "LOL_JUNGLE": "Jungle",
+    "BREADCRUMB": "Fil d'Ariane",
+    "SECTION_COUNT": "{{count}} sections"
+  },
+  "SEARCH": {
+    "LABEL": "Rechercher",
+    "PLACEHOLDER": "Champion, guide, mécanique…",
+    "NO_RESULT": "Aucun résultat pour « {{query}} »",
+    "RESULTS": "{{count}} résultat(s)",
+    "GROUP_CHAMPIONS": "Champions",
+    "GROUP_GUIDES": "Guides",
+    "GROUP_MECHANICS": "Mécaniques Rocket League",
+    "SHORTCUT": "Raccourci : touche /",
+    "CHAMPION_HINT": "Voir ses matchups"
+  },
+  "FOOTER": {
+    "OTHER_GAMES": "Autres jeux",
+    "INFO": "Informations",
+    "RL_MECHANICS": "Rocket League — Mécaniques",
+    "COPYRIGHT": "© {{year}} TeamUpp"
+  },
+  "UI": {
+    "DIFFICULTY": {
+      "1": "Très facile",
+      "2": "Facile",
+      "3": "Moyen",
+      "4": "Difficile",
+      "5": "Extrême",
+      "LABEL": "Difficulté"
+    },
+    "UTILITY": "Utilité",
+    "METER": "{{label}} : {{value}} sur {{max}}",
+    "CALLOUT": {
+      "REMEMBER": "À retenir :",
+      "BONUS": "Info bonus :",
+      "TIP": "Astuce :"
+    },
+    "PROS": "Avantages",
+    "CONS": "Inconvénients",
+    "ON_THIS_PAGE": "Sur cette page",
+    "READING_PROGRESS": "Progression de lecture",
+    "CHAPTERS": "Chapitres",
+    "CHAPTER": "Chapitre {{n}}",
+    "PAGINATION": "Chapitres suivants",
+    "PREVIOUS": "Précédent",
+    "NEXT": "Suivant",
+    "GUIDE_QUESTION": "Une question sur ce guide ?",
+    "GUIDE_COMMUNITY": "Viens en parler avec la communauté.",
+    "OPEN_DISCORD": "Ouvrir le Discord",
+    "ALLY": "Ton champion",
+    "ENEMY": "Champion ennemi",
+    "EXTERNAL": "(nouvel onglet)"
+  }
 }

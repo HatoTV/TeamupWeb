@@ -1,9 +1,15 @@
-<div class="isPc">
-    <top-bar></top-bar>
-    <left-bar class="scrollbar-lol"></left-bar>
+<a class="skip-link" href="#main" (click)="skipToMain($event)">{{ 'NAV.SKIP' | translate }}</a>
+
+<app-topbar />
+
+<div class="shell" [class.shell--lol]="ctx.section() === 'lol'" [attr.data-game]="ctx.game()">
+  @if (ctx.section() === 'lol') {
+    <app-lol-sidebar class="shell__sidebar" />
+  }
+  <main id="main" class="shell__main" tabindex="-1">
+    <router-outlet />
+  </main>
 </div>
 
-<div class="isMobile">
-    <top-bar></top-bar>
-</div>
-    <router-outlet></router-outlet>
+<app-footer />
+<app-mobile-tabbar />

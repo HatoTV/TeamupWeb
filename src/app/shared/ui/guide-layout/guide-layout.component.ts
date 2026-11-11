@@ -1,0 +1,133 @@
+import { isPlatformBrowser } from '@angular/common';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  DestroyRef,
+  ElementRef,
+  NgZone,
+  PLATFORM_ID,
+  computed,
+  effect,
+  inject,
+  input,
+  signal,
+  untracked,
+  viewChild,
+} from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
+import { ActiveSectionService } from '../../../core/active-section.service';
+import { DISCORD_URL } from '../../../core/site.config';
+import { IconComponent } from '../icon/icon.component';
+
+export interface GuideChapter {
+  /** Anchor id of the chapter heading (also listed in the TOC). */
+  id: string;
+  title: string;
+}
+
+export interface TocEntry {
+  id: string;
+  label: string;
+  level: 1 | 2;
+}
+
+export interface GuideNavLink {
+  label: string;
+  /** Absolute router link. */
+  link: string;
+  fragment?: string;
+}
+
+/**
+ * Long-form guide layout: chapter tabs, 760 px reading column, sticky "on this page"
+ * table of contents with scroll spy and reading progress, previous / next navigation.
+ */
+@Component({
+  selector: 'app-guide-layout',
+  standalone: true,
+  imports: [RouterLink, TranslateModule, IconComponent],
+  templateUrl: './guide-layout.component.html',
+  styleUrl: './guide-layout.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class GuideLayoutComponent {
+  readonly chapters = input<GuideChapter[]>([]);
+  readonly toc = input<TocEntry[]>([]);
+  readonly prev = input<GuideNavLink | null>(null);
+  readonly next = input<GuideNavLink | null>(null);
+
+  protected readonly discordUrl = DISCORD_URL;
+  protected readonly activeId = signal<string | null>(null);
+  protected readonly progress = signal(0);
+
+  protected readonly activeChapter = computed(() => {
+    const order = this.toc().map((e) => e.id);
+    const activeIndex = order.indexOf(this.activeId() ?? '');
+    let current: string | null = this.chapters()[0]?.id ?? null;
+    for (const chapter of this.chapters()) {
+      const index = order.indexOf(chapter.id);
+      if (index !== -1 && index <= activeIndex) current = chapter.id;
+    }
+    return current;
+  });
+
+  private readonly article = viewChild.required<ElementRef<HTMLElement>>('article');
+  private readonly activeSection = inject(ActiveSectionService);
+  private readonly zone = inject(NgZone);
+  private observer: IntersectionObserver | null = null;
+
+  constructor() {
+    const isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
+    const destroyRef = inject(DestroyRef);
+
+    effect(() => {
+      const ids = this.toc().map((entry) => entry.id);
+      if (isBrowser) untracked(() => requestAnimationFrame(() => this.observe(ids)));
+    });
+
+    effect(() => {
+      const id = this.activeId();
+      untracked(() => this.activeSection.id.set(id));
+    });
+
+    if (isBrowser) {
+      const onScroll = () => requestAnimationFrame(() => this.updateProgress());
+      this.zone.runOutsideAngular(() => window.addEventListener('scroll', onScroll, { passive: true }));
+      destroyRef.onDestroy(() => {
+        window.removeEventListener('scroll', onScroll);
+        this.observer?.disconnect();
+        this.activeSection.id.set(null);
+      });
+    }
+  }
+
+  private observe(ids: string[]): void {
+    this.observer?.disconnect();
+    const visible = new Set<string>();
+    this.observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) visible.add(entry.target.id);
+          else visible.delete(entry.target.id);
+        }
+        const first = ids.find((id) => visible.has(id));
+        if (first) this.zone.run(() => this.activeId.set(first));
+      },
+      { rootMargin: '-80px 0px -60% 0px' }
+    );
+    for (const id of ids) {
+      const el = document.getElementById(id);
+      if (el) this.observer.observe(el);
+    }
+    this.updateProgress();
+  }
+
+  private updateProgress(): void {
+    const rect = this.article().nativeElement.getBoundingClientRect();
+    const scrollable = rect.height - window.innerHeight;
+    const value = scrollable > 0 ? Math.min(1, Math.max(0, -rect.top / scrollable)) : 1;
+    const percent = Math.round(value * 100);
+    if (percent !== this.progress()) this.zone.run(() => this.progress.set(percent));
+  }
+}

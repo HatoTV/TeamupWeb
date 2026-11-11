@@ -1,0 +1,57 @@
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="brand" [routerLink]="ctx.link('/home')" [attr.aria-label]="'NAV.HOME_LABEL' | translate">
+          <img src="assets/img/brand/teamupp-logo-white.webp" alt="" width="30" height="26" />
+          <span class="brand__word" aria-hidden="true">TEAM<span class="t-accent">UPP</span></span>
+        </a>
+        <p class="footer__tagline">{{ 'HOME.SUBBIENVENUE' | translate }}</p>
+        <ul class="socials" [attr.aria-label]="'HOME.SOCIALNETWORKS' | translate">
+          @for (social of socials; track social.brand) {
+            <li>
+              <a class="social" [href]="social.href" target="_blank" rel="noopener noreferrer">
+                <app-brand-icon [name]="social.brand" [size]="18" />
+                <span class="sr-only">{{ social.name }} {{ 'UI.EXTERNAL' | translate }}</span>
+              </a>
+            </li>
+          }
+        </ul>
+      </div>
+
+      @for (column of columns; track column.titleKey) {
+        <nav class="footer__col" [attr.aria-label]="column.titleKey | translate">
+          <p class="footer__col-title">{{ column.titleKey | translate }}</p>
+          <ul>
+            @for (link of column.links; track link.path) {
+              <li>
+                <a class="footer__link" [routerLink]="ctx.link(link.path)">{{ link.labelKey | translate }}</a>
+              </li>
+            }
+          </ul>
+        </nav>
+      }
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__legal">{{ 'HOME.FOOTERRIGHTS' | translate }}</p>
+      <p class="footer__meta">
+        {{ 'FOOTER.COPYRIGHT' | translate: { year: year } }} ·
+        @for (lang of langs; track lang; let last = $last) {
+          <a
+            class="footer__lang"
+            [routerLink]="ctx.linkInLang(lang)"
+            [attr.hreflang]="lang"
+            [attr.lang]="lang"
+            [attr.aria-current]="lang === ctx.lang() ? 'true' : null"
+            [attr.aria-label]="(lang === 'fr' ? 'NAV.LANG_FR' : 'NAV.LANG_EN') | translate"
+            >{{ lang | uppercase }}</a
+          >
+          @if (!last) {
+            <span aria-hidden="true"> / </span>
+          }
+        }
+      </p>
+    </div>
+  </div>
+</footer>

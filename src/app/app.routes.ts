@@ -26,6 +26,8 @@ export const routes: Routes = [
   { path: ':lang/lol/game', component: GameComponent },
   { path: ':lang/lol/picker', component: PickerComponent },
   { path: ':lang/rocket/mecanics', component: MecanicsComponent },
+  // Mechanic detail page (dedicated component in phase 3).
+  { path: ':lang/rocket/mecanics/:slug', component: MecanicsComponent },
   { path: ':lang/contact', component: ContactComponent },
   { path: ':lang/home', component: HomeComponent },
   { path: ':lang/tft', component: TFTGameComponent },

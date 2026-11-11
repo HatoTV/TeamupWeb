@@ -1,0 +1,87 @@
+<div class="guide">
+  <article class="guide__article" #article>
+    @if (chapters().length > 1) {
+      <nav class="chapters" [attr.aria-label]="'UI.CHAPTERS' | translate">
+        <ol>
+          @for (chapter of chapters(); track chapter.id; let i = $index) {
+            <li>
+              <a
+                class="chapter"
+                [routerLink]="[]"
+                [fragment]="chapter.id"
+                [class.is-active]="activeChapter() === chapter.id"
+                [attr.aria-current]="activeChapter() === chapter.id ? 'location' : null"
+              >
+                <span class="chapter__n">{{ 'UI.CHAPTER' | translate: { n: i + 1 } }}</span>
+                <span class="chapter__title">{{ chapter.title }}</span>
+              </a>
+            </li>
+          }
+        </ol>
+      </nav>
+    }
+
+    <div class="guide__content">
+      <ng-content />
+    </div>
+
+    @if (prev() || next()) {
+      <nav class="pager" [attr.aria-label]="'UI.PAGINATION' | translate">
+        @if (prev(); as link) {
+          <a class="pager__link" [routerLink]="link.link" [fragment]="link.fragment">
+            <span class="pager__dir"><app-icon name="arrow-left" [size]="14" /> {{ 'UI.PREVIOUS' | translate }}</span>
+            <span class="pager__label">{{ link.label }}</span>
+          </a>
+        } @else {
+          <span></span>
+        }
+        @if (next(); as link) {
+          <a class="pager__link pager__link--next" [routerLink]="link.link" [fragment]="link.fragment">
+            <span class="pager__dir">{{ 'UI.NEXT' | translate }} <app-icon name="arrow-right" [size]="14" /></span>
+            <span class="pager__label">{{ link.label }}</span>
+          </a>
+        }
+      </nav>
+    }
+  </article>
+
+  <aside class="guide__aside">
+    @if (toc().length) {
+      <nav class="toc" [attr.aria-label]="'UI.ON_THIS_PAGE' | translate">
+        <p class="toc__title">{{ 'UI.ON_THIS_PAGE' | translate }}</p>
+        <div
+          class="toc__progress"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          [attr.aria-valuenow]="progress()"
+          [attr.aria-label]="'UI.READING_PROGRESS' | translate"
+        >
+          <span class="toc__progress-bar" [style.transform]="'scaleX(' + progress() / 100 + ')'"></span>
+        </div>
+        <ol class="toc__list">
+          @for (entry of toc(); track entry.id) {
+            <li>
+              <a
+                class="toc__link"
+                [class.toc__link--sub]="entry.level === 2"
+                [class.is-active]="activeId() === entry.id"
+                [attr.aria-current]="activeId() === entry.id ? 'location' : null"
+                [routerLink]="[]"
+                [fragment]="entry.id"
+                >{{ entry.label }}</a
+              >
+            </li>
+          }
+        </ol>
+      </nav>
+    }
+    <div class="ask">
+      <p class="ask__title">{{ 'UI.GUIDE_QUESTION' | translate }}</p>
+      <p class="ask__text">{{ 'UI.GUIDE_COMMUNITY' | translate }}</p>
+      <a class="ask__cta" [href]="discordUrl" target="_blank" rel="noopener noreferrer">
+        {{ 'UI.OPEN_DISCORD' | translate }}<span class="sr-only"> {{ 'UI.EXTERNAL' | translate }}</span>
+      </a>
+    </div>
+  </aside>
+</div>

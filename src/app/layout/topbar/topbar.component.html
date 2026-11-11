@@ -1,0 +1,97 @@
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" [routerLink]="ctx.link('/home')" [attr.aria-label]="'NAV.HOME_LABEL' | translate">
+      <img class="brand__logo" src="assets/img/brand/teamupp-logo-white.webp" alt="" width="30" height="26" />
+      <span class="brand__word" aria-hidden="true">TEAM<span class="t-accent">UPP</span></span>
+    </a>
+
+    <nav class="tabs" [attr.aria-label]="'NAV.GAMES' | translate">
+      @for (game of games; track game.id) {
+        <a
+          class="tab"
+          [attr.data-game]="game.id"
+          [routerLink]="ctx.link(game.path)"
+          [class.is-active]="ctx.section() === game.id"
+          [attr.aria-current]="tabCurrent(game)"
+        >
+          <span class="tab__badge" aria-hidden="true">{{ game.short }}</span>
+          <span class="tab__label">{{ game.labelKey | translate }}</span>
+        </a>
+      }
+    </nav>
+
+    <div class="actions">
+      <app-global-search class="actions__search" variant="bar" [shortcut]="true" />
+
+      @if (live()) {
+        <button type="button" class="live" (click)="openLive()">
+          <span class="live__dot" aria-hidden="true"></span>{{ 'NAV.LIVE' | translate }}
+        </button>
+      }
+
+      <a
+        class="about"
+        [routerLink]="ctx.link('/contact')"
+        [class.is-active]="ctx.section() === 'about'"
+        [attr.aria-current]="ctx.section() === 'about' ? 'page' : null"
+        >{{ 'ABOUTME' | translate }}</a
+      >
+
+      <div class="lang" role="group" [attr.aria-label]="'NAV.LANGUAGE' | translate">
+        @for (lang of langs; track lang) {
+          <a
+            class="lang__option"
+            [routerLink]="ctx.linkInLang(lang)"
+            [fragment]="ctx.fragment() ?? undefined"
+            queryParamsHandling="preserve"
+            [attr.hreflang]="lang"
+            [attr.lang]="lang"
+            [class.is-active]="lang === ctx.lang()"
+            [attr.aria-current]="lang === ctx.lang() ? 'true' : null"
+            [attr.aria-label]="(lang === 'fr' ? 'NAV.LANG_FR' : 'NAV.LANG_EN') | translate"
+            >{{ lang | uppercase }}</a
+          >
+        }
+      </div>
+
+      <a class="btn btn--primary btn--sm discord" [href]="discordUrl" target="_blank" rel="noopener noreferrer">
+        {{ 'NAV.DISCORD' | translate }}<span class="sr-only"> {{ 'UI.EXTERNAL' | translate }}</span>
+      </a>
+    </div>
+
+    <div class="mobile-actions">
+      @if (live()) {
+        <button type="button" class="live live--compact" (click)="openLive()">
+          <span class="live__dot" aria-hidden="true"></span><span class="sr-only">{{ 'NAV.LIVE' | translate }}</span>
+        </button>
+      }
+      <button
+        type="button"
+        class="icon-btn"
+        aria-controls="mobile-search"
+        [attr.aria-expanded]="searchOpen()"
+        [attr.aria-label]="(searchOpen() ? 'NAV.CLOSE_SEARCH' : 'NAV.OPEN_SEARCH') | translate"
+        (click)="toggleSearch()"
+      >
+        <app-icon [name]="searchOpen() ? 'close' : 'search'" [size]="20" />
+      </button>
+      <a
+        class="icon-btn icon-btn--text"
+        [routerLink]="ctx.linkInLang(otherLang())"
+        [fragment]="ctx.fragment() ?? undefined"
+        queryParamsHandling="preserve"
+        [attr.hreflang]="otherLang()"
+        [attr.aria-label]="'NAV.LANG_SWITCH' | translate"
+        >{{ ctx.lang() | uppercase }}</a
+      >
+    </div>
+  </div>
+
+  <div id="mobile-search" class="mobile-panel" [hidden]="!searchOpen()">
+    @if (searchOpen()) {
+      <app-global-search #mobileSearch variant="panel" (navigated)="searchOpen.set(false)" />
+    }
+  </div>
+</header>
+
+<popup-twitch />

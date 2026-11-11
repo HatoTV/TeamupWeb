@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+
+.shell__main {
+  display: block;
+  min-width: 0;
+  min-height: calc(100vh - 64px);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .shell--lol {
+    display: grid;
+    grid-template-columns: 272px minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
+// Leave room for the fixed bottom tab bar.
+@media (max-width: 767px) {
+  :host {
+    padding-bottom: calc(66px + env(safe-area-inset-bottom));
+  }
+}

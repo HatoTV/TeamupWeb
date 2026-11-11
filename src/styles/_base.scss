@@ -81,6 +81,11 @@ table {
   border-collapse: collapse;
 }
 
+// Anchored sections land below the sticky top bar.
+[id] {
+  scroll-margin-top: 88px;
+}
+
 [hidden] {
   display: none !important;
 }

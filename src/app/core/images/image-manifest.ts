@@ -15,6 +15,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1080,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/backgroundSpace"
@@ -24,6 +25,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 609,
     "widths": [
       640,
+      1024,
       1082
     ],
     "opt": "assets/img/opt/bkgContent_game"
@@ -33,6 +35,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 900,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/bkgContent_Jungle"
@@ -42,6 +45,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1034,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/bkgContent_Laning"
@@ -51,6 +55,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 719,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/bkgContent_Matchup"
@@ -60,6 +65,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 2304,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/bkgContent_Tft"
@@ -69,6 +75,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 900,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/bkgContent_Wavemanagement"
@@ -78,6 +85,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 400,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/bkgHome"
@@ -87,6 +95,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1440,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/bkgpicker"
@@ -96,6 +105,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 688,
     "widths": [
       640,
+      1024,
       1062
     ],
     "opt": "assets/img/opt/bluebuff"
@@ -129,6 +139,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 993,
     "widths": [
       640,
+      1024,
       1434
     ],
     "opt": "assets/img/opt/dive"
@@ -147,6 +158,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 685,
     "widths": [
       640,
+      1024,
       1096
     ],
     "opt": "assets/img/opt/elder"
@@ -156,6 +168,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 797,
     "widths": [
       640,
+      1024,
       1148
     ],
     "opt": "assets/img/opt/focusCs"
@@ -197,6 +210,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 992,
     "widths": [
       640,
+      1024,
       1271
     ],
     "opt": "assets/img/opt/gankBot"
@@ -206,6 +220,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1193,
     "widths": [
       640,
+      1024,
       1558
     ],
     "opt": "assets/img/opt/gankBotBush"
@@ -215,6 +230,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 526,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/ganksExample"
@@ -224,6 +240,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 2117,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/grubs"
@@ -233,6 +250,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1500,
     "widths": [
       640,
+      1024,
       1500
     ],
     "opt": "assets/img/opt/HatoPP"
@@ -242,6 +260,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1034,
     "widths": [
       640,
+      1024,
       1034
     ],
     "opt": "assets/img/opt/HatoPP_circular"
@@ -795,6 +814,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1080,
     "widths": [
       640,
+      1024,
       1080
     ],
     "opt": "assets/img/opt/instagramPP"
@@ -804,6 +824,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1080,
     "widths": [
       640,
+      1024,
       1080
     ],
     "opt": "assets/img/opt/instagramPP_circular"
@@ -821,6 +842,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 840,
     "widths": [
       640,
+      1024,
       1147
     ],
     "opt": "assets/img/opt/jungleBlue"
@@ -830,6 +852,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 918,
     "widths": [
       640,
+      1024,
       1268
     ],
     "opt": "assets/img/opt/jungleRed"
@@ -839,6 +862,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1365,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/jungle_3camps"
@@ -848,6 +872,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1365,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/jungle_FullClear"
@@ -857,6 +882,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1365,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/jungle_Invade"
@@ -866,6 +892,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1024,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/laneChampions"
@@ -884,6 +911,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 721,
     "widths": [
       640,
+      1024,
       1082
     ],
     "opt": "assets/img/opt/lastHit"
@@ -893,6 +921,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 606,
     "widths": [
       640,
+      1024,
       1571
     ],
     "opt": "assets/img/opt/lol_logo"
@@ -902,6 +931,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 2304,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/matchup_bkg"
@@ -911,6 +941,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 900,
     "widths": [
       640,
+      1024,
       1200
     ],
     "opt": "assets/img/opt/nashor"
@@ -920,9 +951,20 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 399,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/Objectives"
+  },
+  "assets/img/og-default.jpg": {
+    "w": 1200,
+    "h": 630,
+    "widths": [
+      640,
+      1024,
+      1200
+    ],
+    "opt": "assets/img/opt/og-default"
   },
   "assets/img/ranks/bronze.webp": {
     "w": 249,
@@ -1009,6 +1051,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 662,
     "widths": [
       640,
+      1024,
       1113
     ],
     "opt": "assets/img/opt/redbuff"
@@ -1018,6 +1061,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 899,
     "widths": [
       640,
+      1024,
       1374
     ],
     "opt": "assets/img/opt/riverWalk"
@@ -1091,6 +1135,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 1388,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/rl_logo"
@@ -1116,6 +1161,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 609,
     "widths": [
       640,
+      1024,
       1082
     ],
     "opt": "assets/img/opt/site/bkgContent_game"
@@ -1125,6 +1171,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 900,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/site/bkgContent_Jungle"
@@ -1134,6 +1181,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 769,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/site/bkgContent_Laning"
@@ -1143,6 +1191,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 900,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/site/bkgContent_Tft"
@@ -1152,6 +1201,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 900,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/site/bkgContent_Wavemanagement"
@@ -1161,6 +1211,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 305,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/site/bkgHome"
@@ -1170,6 +1221,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 900,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/site/bkgpicker"
@@ -1179,6 +1231,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 900,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/site/bkgRocketLeague"
@@ -1244,6 +1297,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 900,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/site/matchup_bkg"
@@ -1328,6 +1382,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 717,
     "widths": [
       640,
+      1024,
       1215
     ],
     "opt": "assets/img/opt/splash/Ahri"
@@ -1337,6 +1392,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 717,
     "widths": [
       640,
+      1024,
       1215
     ],
     "opt": "assets/img/opt/splash/Blitzcrank"
@@ -1346,6 +1402,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 717,
     "widths": [
       640,
+      1024,
       1215
     ],
     "opt": "assets/img/opt/splash/Darius"
@@ -1355,6 +1412,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 717,
     "widths": [
       640,
+      1024,
       1215
     ],
     "opt": "assets/img/opt/splash/Janna"
@@ -1364,6 +1422,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 717,
     "widths": [
       640,
+      1024,
       1215
     ],
     "opt": "assets/img/opt/splash/Jinx"
@@ -1373,6 +1432,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 717,
     "widths": [
       640,
+      1024,
       1215
     ],
     "opt": "assets/img/opt/splash/LeeSin"
@@ -1390,6 +1450,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 140,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/tftDuration"
@@ -1399,6 +1460,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 581,
     "widths": [
       640,
+      1024,
       1200
     ],
     "opt": "assets/img/opt/tft_championpool"
@@ -1408,6 +1470,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 438,
     "widths": [
       640,
+      1024,
       1040
     ],
     "opt": "assets/img/opt/tft_championpower"
@@ -1417,6 +1480,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 753,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/tft_logo"
@@ -1458,6 +1522,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 801,
     "widths": [
       640,
+      1024,
       1295
     ],
     "opt": "assets/img/opt/visionBush"
@@ -1476,6 +1541,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 707,
     "widths": [
       640,
+      1024,
       1044
     ],
     "opt": "assets/img/opt/wavemanagement_Freeze"
@@ -1493,6 +1559,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 387,
     "widths": [
       640,
+      1024,
       1600
     ],
     "opt": "assets/img/opt/wavemanagement_MinionsSpawn"
@@ -1502,6 +1569,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 513,
     "widths": [
       640,
+      1024,
       1501
     ],
     "opt": "assets/img/opt/wavemanagement_MinionsTypes"
@@ -1511,6 +1579,7 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     "h": 718,
     "widths": [
       640,
+      1024,
       1035
     ],
     "opt": "assets/img/opt/wavemanagement_SlowPush"

@@ -347,6 +347,7 @@
 
 .versus {
   position: relative;
+  min-height: 58px; // reserved before the champion index loads (no layout shift)
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -395,6 +396,7 @@
 
 .stack {
   position: relative;
+  min-height: 48px;
   display: flex;
   margin-top: 24px;
 }
@@ -830,4 +832,10 @@
     min-width: 0;
     width: 100%;
   }
+}
+
+// @defer placeholders keep the layout while decorative art loads on scroll.
+.art-placeholder {
+  position: absolute;
+  inset: 0;
 }

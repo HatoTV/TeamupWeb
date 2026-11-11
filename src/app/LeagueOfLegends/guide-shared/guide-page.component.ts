@@ -1,9 +1,10 @@
-import { ChangeDetectionStrategy, Component, computed, inject, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, effect, inject, input } from '@angular/core';
 import { toObservable, toSignal } from '@angular/core/rxjs-interop';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { Observable, combineLatest, map, startWith, switchMap } from 'rxjs';
 import { LOL_GUIDE_GROUPS } from '../../core/navigation/lol-nav';
 import { RouteContextService } from '../../core/route-context.service';
+import { SeoService } from '../../core/seo.service';
 import { GuideChapter, GuideLayoutComponent, GuideNavLink, TocEntry } from '../../shared/ui/guide-layout/guide-layout.component';
 import { Crumb, HeroTag, PageHeroComponent } from '../../shared/ui/page-hero/page-hero.component';
 import { readingMinutes } from './guide-text';
@@ -72,6 +73,21 @@ export class GuidePageComponent {
     { initialValue: 0 }
   );
 
+  constructor() {
+    const seo = inject(SeoService);
+    effect(() => {
+      const t = this.t();
+      const config = this.config();
+      const title = t[config.titleKey];
+      if (!title) return;
+      seo.setPage({
+        title: `${title} · ${t['SEO.GUIDE_SUFFIX'] ?? ''}`,
+        description: t[config.subtitleKey] ?? '',
+        image: `/${config.heroImage}`,
+      });
+    });
+  }
+
   private readonly groupIndex = computed(() => LOL_GUIDE_GROUPS.findIndex((g) => g.id === this.config().groupId));
 
   protected readonly chapters = computed<GuideChapter[]>(() =>
@@ -116,6 +132,7 @@ export class GuidePageComponent {
       'NAV.LOL_GUIDES',
       'GUIDES.CHAPTERS_TAG',
       'GUIDES.READING_TAG',
+      'SEO.GUIDE_SUFFIX',
       ...LOL_GUIDE_GROUPS.map((g) => g.labelKey),
       ...config.sections.map((s) => s.titleKey),
     ];

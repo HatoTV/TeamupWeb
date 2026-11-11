@@ -8,6 +8,7 @@ import { LolSidebarComponent } from './layout/lol-sidebar/lol-sidebar.component'
 import { MobileTabbarComponent } from './layout/mobile-tabbar/mobile-tabbar.component';
 import { TopbarComponent } from './layout/topbar/topbar.component';
 import { LanguageService } from './services/language.service';
+import { ConsentService } from './core/ads/consent.service';
 
 @Component({
   selector: 'app-root',
@@ -25,6 +26,8 @@ export class AppComponent {
     const language = inject(LanguageService);
     // The URL is the source of truth for the language.
     effect(() => language.changeLanguage(this.ctx.lang()));
+    // Consent message, then ads only if allowed (browser only, after first interaction).
+    inject(ConsentService).init();
   }
 
   protected skipToMain(event: Event): void {

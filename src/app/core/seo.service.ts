@@ -1,5 +1,6 @@
 import { DOCUMENT } from '@angular/common';
-import { Injectable, inject } from '@angular/core';
+import { Injectable, effect, inject, untracked } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { RouteContextService } from './route-context.service';
 import { SUPPORTED_LANGS } from './site.config';
@@ -78,4 +79,24 @@ export class SeoService {
     }
     link.setAttribute('href', href);
   }
+}
+
+/**
+ * Sets the page SEO from translation keys and keeps it in sync with the language.
+ * Must be called in an injection context (component constructor / field initializer).
+ */
+export function injectPageSeo(page: () => { titleKey: string; descriptionKey: string; params?: object; image?: string } | null): void {
+  const seo = inject(SeoService);
+  const translate = inject(TranslateService);
+  const ctx = inject(RouteContextService);
+  effect(() => {
+    ctx.lang();
+    const p = page();
+    if (!p) return;
+    untracked(() =>
+      translate
+        .get([p.titleKey, p.descriptionKey], p.params)
+        .subscribe((t: Record<string, string>) => seo.setPage({ title: t[p.titleKey], description: t[p.descriptionKey], image: p.image }))
+    );
+  });
 }

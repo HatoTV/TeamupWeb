@@ -13,7 +13,7 @@
     "check": "ng build && npm run test:ci",
     "data:lol": "node tools/split-guides.mjs",
     "images": "node tools/optimize-images.mjs",
-    "prebuild": "node tools/split-guides.mjs"
+    "prebuild": "node tools/split-guides.mjs && node tools/prerender-routes.mjs"
   },
   "private": true,
   "dependencies": {

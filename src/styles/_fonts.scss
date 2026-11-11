@@ -21,3 +21,17 @@ $latin-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+0
 @include face('Barlow Condensed', 'barlow-condensed-600', 600);
 @include face('Barlow Condensed', 'barlow-condensed-700', 700);
 @include face('Barlow Condensed', 'barlow-condensed-700-italic', 700, italic);
+
+// Metric-matched fallbacks (measured: Barlow ≈ 97.8 % of Arial's width, Barlow Condensed
+// ≈ 65.5 %), so swapping to the web fonts does not reflow text (CLS).
+@font-face {
+  font-family: 'Barlow Fallback';
+  src: local('Arial'), local('Helvetica Neue'), local('Helvetica');
+  size-adjust: 97.8%;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed Fallback';
+  src: local('Arial'), local('Helvetica Neue'), local('Helvetica');
+  size-adjust: 65.5%;
+}

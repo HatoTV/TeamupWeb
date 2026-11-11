@@ -1,3 +1,4 @@
+import { injectPageSeo } from '../../core/seo.service';
 import { ImgFallbackPipe, SrcsetPipe } from '../../core/images/image-utils';
 import { NgOptimizedImage } from '@angular/common';
 import { isPlatformBrowser } from '@angular/common';
@@ -76,6 +77,7 @@ export class PickerComponent {
   private timer: ReturnType<typeof setTimeout> | null = null;
 
   constructor() {
+    injectPageSeo(() => ({ titleKey: 'LOL.PICKER.TITLE0', descriptionKey: 'SEO.PICKER_DESC', image: '/assets/img/site/bkgpicker.webp' }));
     void this.data.loadIndex().catch(() => undefined);
     inject(DestroyRef).onDestroy(() => this.stopTimer());
   }

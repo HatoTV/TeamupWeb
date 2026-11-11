@@ -5,7 +5,8 @@
 //   public/assets/img/<path>.<ext>  ->  public/assets/img/opt/<path>-<width>.{avif,webp}
 //   src/app/core/images/image-manifest.ts (generated)
 //
-// Widths: 1600 (heroes) and 640 (cards) for large images, 96 for icons; never upscaled.
+// Widths: 1600 (heroes), 1024 (mobile heroes at high DPR) and 640 (cards) for large images,
+// 96 for icons; never upscaled.
 // Usage: node tools/optimize-images.mjs [--force]
 
 import { mkdirSync, readdirSync, statSync, writeFileSync, existsSync } from 'node:fs';
@@ -18,10 +19,10 @@ const IMG_DIR = join(ROOT, 'public', 'assets', 'img');
 const OUT_DIR = join(IMG_DIR, 'opt');
 const MANIFEST = join(ROOT, 'src', 'app', 'core', 'images', 'image-manifest.ts');
 /** Folders replaced by Data Dragon / optimised copies, not served by the redesign. */
-const SKIP_DIRS = new Set(['opt', 'championsIcons', 'championsLoadingscreen', 'rocketLeague']);
+const SKIP_DIRS = new Set(['opt', 'championsIcons', 'championsLoadingscreen', 'rocketLeague', 'champions']);
 /** Small UI icons: a single 96 px variant. */
 const ICON_DIRS = new Set(['icons', 'ranks', 'brand']);
-const LARGE_WIDTHS = [640, 1600];
+const LARGE_WIDTHS = [640, 1024, 1600];
 const ICON_WIDTHS = [96];
 const FORCE = process.argv.includes('--force');
 

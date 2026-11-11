@@ -1,3 +1,4 @@
+import { injectPageSeo } from '../core/seo.service';
 import { ImgFallbackPipe, SrcsetPipe } from '../core/images/image-utils';
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
@@ -62,6 +63,10 @@ export class TFTGameComponent {
     ),
     { initialValue: {} as Record<string, string> }
   );
+
+  constructor() {
+    injectPageSeo(() => ({ titleKey: 'SEO.TFT_TITLE', descriptionKey: 'SEO.TFT_DESC', image: '/assets/img/site/bkgContent_Tft.webp' }));
+  }
 
   protected readonly toc = computed<TocEntry[]>(() =>
     SECTIONS.map((s) => ({ id: s.id, level: s.level, marker: s.marker, label: this.labels()[s.key] ?? '' }))

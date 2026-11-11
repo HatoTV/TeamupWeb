@@ -74,44 +74,44 @@
 
   <div class="tools">
     <a class="tool tool--matchups card-hover" data-game="lol" [routerLink]="ctx.link('/lol/matchups')">
-      <picture><source type="image/avif" [attr.srcset]="'assets/img/site/matchup_bkg.webp' | srcset: 'avif'" sizes="(min-width: 1024px) 58vw, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/matchup_bkg.webp' | srcset: 'webp'" sizes="(min-width: 1024px) 58vw, 100vw" /><img class="tool__art" [src]="'assets/img/site/matchup_bkg.webp' | imgFallback" alt="" loading="lazy" decoding="async" /></picture>
+      @defer (on viewport) {<picture><source type="image/avif" [attr.srcset]="'assets/img/site/matchup_bkg.webp' | srcset: 'avif'" sizes="(min-width: 1024px) 58vw, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/matchup_bkg.webp' | srcset: 'webp'" sizes="(min-width: 1024px) 58vw, 100vw" /><img class="tool__art" [src]="'assets/img/site/matchup_bkg.webp' | imgFallback" alt="" loading="lazy" decoding="async" /></picture>} @placeholder {<span class="art-placeholder" aria-hidden="true"></span>}
       <span class="tool__shade tool__shade--side" aria-hidden="true"></span>
       <span class="tool__body">
         <span class="tool__kicker">{{ 'GAMES.LOL' | translate }}</span>
         <span class="tool__title">{{ 'LOL.MATCHUPS.INTRO1' | translate }}</span>
         <span class="tool__text">{{ 'LOL.MATCHUPS.INTRO2' | translate }} {{ 'HOMEPAGE.MATCHUPS_AUTHORS' | translate }}</span>
       </span>
-      @if (matchupDemo(); as demo) {
-        <span class="versus" aria-hidden="true">
+      <span class="versus" aria-hidden="true">
+        @if (matchupDemo(); as demo) {
           <span class="versus__chip versus__chip--ally"><img [ngSrc]="demo.ally" alt="" width="40" height="40" />Janna</span>
           <span class="versus__vs">VS</span>
           <span class="versus__chip versus__chip--enemy"><img [ngSrc]="demo.enemy" alt="" width="40" height="40" />Blitzcrank</span>
           <app-difficulty-badge class="versus__badge" [level]="5" />
-        </span>
-      }
+        }
+      </span>
     </a>
 
     <a class="tool tool--picker card-hover" data-game="lol" [routerLink]="ctx.link('/lol/picker')">
-      <picture><source type="image/avif" [attr.srcset]="'assets/img/site/bkgpicker.webp' | srcset: 'avif'" sizes="(min-width: 1024px) 42vw, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/bkgpicker.webp' | srcset: 'webp'" sizes="(min-width: 1024px) 42vw, 100vw" /><img class="tool__art tool__art--dim" [src]="'assets/img/site/bkgpicker.webp' | imgFallback" alt="" loading="lazy" decoding="async" /></picture>
+      @defer (on viewport) {<picture><source type="image/avif" [attr.srcset]="'assets/img/site/bkgpicker.webp' | srcset: 'avif'" sizes="(min-width: 1024px) 42vw, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/bkgpicker.webp' | srcset: 'webp'" sizes="(min-width: 1024px) 42vw, 100vw" /><img class="tool__art tool__art--dim" [src]="'assets/img/site/bkgpicker.webp' | imgFallback" alt="" loading="lazy" decoding="async" /></picture>} @placeholder {<span class="art-placeholder" aria-hidden="true"></span>}
       <span class="tool__shade" aria-hidden="true"></span>
       <span class="tool__body">
         <span class="tool__kicker">{{ 'NAV.PICKER' | translate }}</span>
         <span class="tool__title">{{ 'LOL.PICKER.TITLE0' | translate }}</span>
         <span class="tool__text">{{ 'HOMEPAGE.PICKER_TEXT' | translate }}</span>
       </span>
-      @if (pickerPreview().length) {
-        <span class="stack">
+      <span class="stack">
+        @if (pickerPreview().length) {
           @for (champion of pickerPreview(); track champion.name) {
             <img class="stack__icon" [ngSrc]="champion.icon" alt="" width="48" height="48" />
           }
           <span class="stack__more">+{{ pickerMore() }}<span class="sr-only"> {{ 'HOMEPAGE.PICKER_MORE' | translate: { count: pickerMore() } }}</span></span>
-        </span>
-      }
+        }
+      </span>
     </a>
 
     @for (tile of tiles; track tile.titleKey) {
       <a class="tool tool--tile card-hover" [attr.data-game]="tile.game" [routerLink]="ctx.link(tile.path)">
-        <picture><source type="image/avif" [attr.srcset]="tile.image | srcset: 'avif'" sizes="(min-width: 1024px) 33vw, 100vw" /><source type="image/webp" [attr.srcset]="tile.image | srcset: 'webp'" sizes="(min-width: 1024px) 33vw, 100vw" /><img class="tool__art" [src]="tile.image | imgFallback" alt="" loading="lazy" decoding="async" /></picture>
+        @defer (on viewport) {<picture><source type="image/avif" [attr.srcset]="tile.image | srcset: 'avif'" sizes="(min-width: 1024px) 33vw, 100vw" /><source type="image/webp" [attr.srcset]="tile.image | srcset: 'webp'" sizes="(min-width: 1024px) 33vw, 100vw" /><img class="tool__art" [src]="tile.image | imgFallback" alt="" loading="lazy" decoding="async" /></picture>} @placeholder {<span class="art-placeholder" aria-hidden="true"></span>}
         <span class="tool__shade tool__shade--bottom" aria-hidden="true"></span>
         <span class="tool__body tool__body--end">
           <span class="tool__kicker">{{ tile.kickerKey | translate }}</span>
@@ -146,7 +146,7 @@
       <ol class="ranks__list">
         @for (rank of ranks; track rank.id) {
           <li class="ranks__item" [class.is-high]="!rank.low">
-            <img [src]="'assets/img/ranks/' + rank.id + '.webp'" alt="" loading="lazy" decoding="async" />
+            <img [src]="'assets/img/ranks/' + rank.id + '.webp'" alt="" [width]="rank.width" [height]="rank.height" loading="lazy" decoding="async" />
             <span>{{ rank.key | translate }}</span>
           </li>
         }
@@ -165,7 +165,7 @@
   @for (pillar of pillars; track pillar.n) {
     <article class="pillar card-hover">
       <div class="pillar__media">
-        <picture><source type="image/avif" [attr.srcset]="pillar.image | srcset: 'avif'" sizes="(min-width: 1024px) 33vw, 100vw" /><source type="image/webp" [attr.srcset]="pillar.image | srcset: 'webp'" sizes="(min-width: 1024px) 33vw, 100vw" /><img [src]="pillar.image | imgFallback" alt="" loading="lazy" decoding="async" [style.object-position]="pillar.position" /></picture>
+        @defer (on viewport) {<picture><source type="image/avif" [attr.srcset]="pillar.image | srcset: 'avif'" sizes="(min-width: 1024px) 33vw, 100vw" /><source type="image/webp" [attr.srcset]="pillar.image | srcset: 'webp'" sizes="(min-width: 1024px) 33vw, 100vw" /><img [src]="pillar.image | imgFallback" alt="" loading="lazy" decoding="async" [style.object-position]="pillar.position" /></picture>} @placeholder {<span class="art-placeholder" aria-hidden="true"></span>}
         <span class="pillar__n" aria-hidden="true">{{ pillar.n }}</span>
       </div>
       <div class="pillar__body">
@@ -178,7 +178,7 @@
 
 <section class="container section section--cta" aria-labelledby="cta-title">
   <div class="cta">
-    <picture><source type="image/avif" [attr.srcset]="'assets/img/site/bkgHome.webp' | srcset: 'avif'" sizes="100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/bkgHome.webp' | srcset: 'webp'" sizes="100vw" /><img class="cta__art" [src]="'assets/img/site/bkgHome.webp' | imgFallback" alt="" loading="lazy" decoding="async" /></picture>
+    @defer (on viewport) {<picture><source type="image/avif" [attr.srcset]="'assets/img/site/bkgHome.webp' | srcset: 'avif'" sizes="100vw" /><source type="image/webp" [attr.srcset]="'assets/img/site/bkgHome.webp' | srcset: 'webp'" sizes="100vw" /><img class="cta__art" [src]="'assets/img/site/bkgHome.webp' | imgFallback" alt="" loading="lazy" decoding="async" /></picture>} @placeholder {<span class="art-placeholder" aria-hidden="true"></span>}
     <span class="cta__shade" aria-hidden="true"></span>
     <div class="cta__inner">
       <div class="cta__text">

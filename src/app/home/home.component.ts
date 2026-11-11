@@ -1,3 +1,4 @@
+import { injectPageSeo } from '../core/seo.service';
 import { ImgFallbackPipe, SrcsetPipe } from '../core/images/image-utils';
 import { NgOptimizedImage } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
@@ -39,7 +40,19 @@ interface Tile {
   image: string;
 }
 
-const RANKS = ['iron', 'bronze', 'silver', 'gold', 'platinum', 'emerald', 'diamond', 'master', 'grandmaster', 'challenger'];
+/** Rank emblems with their intrinsic size (avoids layout shifts). */
+const RANKS: [string, number, number][] = [
+  ['iron', 196, 119],
+  ['bronze', 249, 164],
+  ['silver', 260, 177],
+  ['gold', 260, 237],
+  ['platinum', 260, 210],
+  ['emerald', 260, 189],
+  ['diamond', 260, 161],
+  ['master', 260, 198],
+  ['grandmaster', 260, 178],
+  ['challenger', 260, 199],
+];
 const PICKER_PREVIEW = 7;
 
 @Component({
@@ -58,7 +71,13 @@ export class HomeComponent {
 
   protected readonly discordUrl = DISCORD_URL;
   protected readonly twitchUrl = TWITCH_URL;
-  protected readonly ranks = RANKS.map((id, i) => ({ id, key: `HOMEPAGE.RANKS.${id.toUpperCase()}`, low: i < 7 }));
+  protected readonly ranks = RANKS.map(([id, width, height], i) => ({
+    id,
+    width,
+    height,
+    key: `HOMEPAGE.RANKS.${id.toUpperCase()}`,
+    low: i < 7,
+  }));
   protected readonly lolGuideCount = LOL_GUIDE_GROUPS.reduce((total, group) => total + group.items.length, 0);
 
   protected readonly quickLinks: QuickLink[] = [
@@ -150,6 +169,7 @@ export class HomeComponent {
   });
 
   constructor() {
+    injectPageSeo(() => ({ titleKey: 'SEO.HOME_TITLE', descriptionKey: 'SEO.HOME_DESC', image: '/assets/img/og-default.jpg' }));
     void this.champions.loadIndex().catch(() => undefined);
   }
 }

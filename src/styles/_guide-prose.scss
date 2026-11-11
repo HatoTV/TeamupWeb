@@ -94,6 +94,13 @@
       height: auto;
     }
 
+    // Reserve the 16:9 box before the video metadata loads (no layout shift).
+    video {
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      background: #000;
+    }
+
     figcaption {
       padding: 10px 14px;
       font-size: 13px;

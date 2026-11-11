@@ -55,8 +55,8 @@
   --game-accent: var(--color-gold);
 
   // Typography
-  --font-body: 'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-display: 'Barlow Condensed', 'Barlow', system-ui, sans-serif;
+  --font-body: 'Barlow', 'Barlow Fallback', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Barlow Condensed', 'Barlow Condensed Fallback', 'Barlow', sans-serif;
   --text-guide-size: 17px;
   --text-guide-line: 1.7;
 

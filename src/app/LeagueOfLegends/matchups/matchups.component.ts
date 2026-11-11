@@ -1,3 +1,4 @@
+import { injectPageSeo } from '../../core/seo.service';
 import { ImgFallbackPipe, SrcsetPipe } from '../../core/images/image-utils';
 import { NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, effect, inject, signal, untracked } from '@angular/core';
@@ -142,6 +143,13 @@ export class MatchupsComponent {
   protected readonly sendState = signal<SendState>('idle');
 
   constructor() {
+    injectPageSeo(() => {
+      const a = this.ally()?.champion.name;
+      const b = this.enemy()?.champion.name;
+      return a && b
+        ? { titleKey: 'SEO.MATCHUP_TITLE', descriptionKey: 'SEO.MATCHUP_DESC', params: { a, b }, image: '/assets/img/site/matchup_bkg.webp' }
+        : { titleKey: 'SEO.MATCHUPS_TITLE', descriptionKey: 'SEO.MATCHUPS_DESC', image: '/assets/img/site/matchup_bkg.webp' };
+    });
     void this.data.loadIndex().catch(() => undefined);
 
     effect(() => {

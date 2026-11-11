@@ -40,6 +40,8 @@ export interface ChampionMatchups {
 }
 
 const DDRAGON = 'https://ddragon.leagueoflegends.com/cdn';
+/** Champions with a lightweight local icon (≈3 kB WebP instead of a ≈28 kB Data Dragon PNG). */
+const LOCAL_ICONS = new Set<string>(['Aatrox','Ahri','Akali','Akshan','Alistar','Amumu','Anivia','Annie','Ashe','Bard','Blitzcrank','Braum','Janna','Karma','Leona','Lulu','Morgana','Nami','Nautilus','Pyke','Rakan','Rell','Senna','Sona','Soraka','TahmKench','Taric','Thresh','Velkoz','Xerath','Yuumi','Zyra']);
 
 /** League of Legends data: light champion index + per-champion matchup files, Data Dragon art. */
 @Injectable({ providedIn: 'root' })
@@ -83,6 +85,7 @@ export class ChampionDataService {
   }
 
   iconUrl(champion: Pick<Champion, 'ddragonId'>): string {
+    if (champion.ddragonId && LOCAL_ICONS.has(champion.ddragonId)) return `assets/img/champions/${champion.ddragonId}.webp`;
     const version = this.index()?.version;
     return champion.ddragonId && version ? `${DDRAGON}/${version}/img/champion/${champion.ddragonId}.png` : '';
   }

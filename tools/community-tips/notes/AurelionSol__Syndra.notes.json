@@ -1,0 +1,80 @@
+{
+  "searches": 5,
+  "sourceSentences": [],
+  "method": "youtube-subtitles (hato-clips), lot 13 2026-11-12",
+  "videosFound": 55,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "ovJwRBNd9aA",
+      "channel": "o7MaReZo7",
+      "result": "lu (chapitre Syndra 23:45, 12 s : esquiver son combo A+E puis Z+A) ; pas assez pour un côté à 2 tips"
+    },
+    {
+      "id": "mJFc-rMz2vg",
+      "channel": "Coach Mysterias",
+      "result": "lu, inutilisé (Aurelion Sol jamais cité ; ouverture partagée avec Corki__Syndra)"
+    },
+    {
+      "id": "pBZKzVbXj-w",
+      "channel": "Zoose",
+      "result": "lu, inutilisé (Aurelion Sol jamais cité)"
+    },
+    {
+      "id": "yNzAz9nKvEg",
+      "channel": "Shambless",
+      "result": "lu, inutilisé (tier list visuelle, Aurelion Sol jamais cité)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/aurelion-sol",
+      "result": "lu (10 tips d'auteurs de guides Syndra : 9 anciens, la plupart d'avant le rework de 2023 ; 1 récent id 2238217 en allemand, sans conseil précis)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "result": "lu, inutilisé (aucun tip d'auteur de guide Aurelion Sol)"
+    },
+    {
+      "url": "https://mobalytics.gg/lol/champions/aurelionsol/counters/mid/vs-syndra",
+      "result": "non ouvert (403 connu, conseils payants)"
+    },
+    {
+      "url": "https://champsight.com/matchup/aurelionsol-vs-syndra/mid",
+      "result": "non ouvert (403 connu)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Aurelion Sol : esquiver le combo A+E, puis Vol astral + Souffle de lumière pendant le CD de son E",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "o7MaReZo7 (2026-01) + Shok sur counterstats (ancien, 14.7) ; vérifiable (DDragon) mais seul tip possible côté Aurelion Sol : côté à 1 tip"
+    },
+    {
+      "idea": "Syndra : poke avec A/Z et garder E pour repousser son Vol astral",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "vérifiable mais seul tip côté Syndra ; aucun côté n'atteint 2 tips"
+    },
+    {
+      "idea": "Syndra : le harceler en permanence, un combo au lvl 6 le tue",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "counterstats id 2238217 : 1 source récente (lane), « tue » non vérifiable"
+    },
+    {
+      "idea": "Lvl 1 : qui domine ?",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "formulation ambiguë (o7MaReZo7) face à Shok (ancien) : retiré"
+    },
+    {
+      "idea": "Tips counterstats sur le stun d'Aurelion Sol",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "anciens et d'avant le rework (le stun est passé sur le R)"
+    }
+  ]
+}

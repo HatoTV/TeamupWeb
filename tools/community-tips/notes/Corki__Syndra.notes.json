@@ -1,0 +1,93 @@
+{
+  "searches": 8,
+  "sourceSentences": [
+    "[0] some of these Champs have a little bit higher regeneration than others for example Yas or aelia if we trade on to them they'll just regenerate it",
+    "[0] but TR as corki LeBlanc these are all Champs that don't have any regeneration that means that if you slow play into them and slowly chip away at the health bar",
+    "[0] the most important thing in these matchups is preserve your HP so that if they ever get on top of you they cannot onot you",
+    "[1] Pre level 3 syndra just don't take excessive amounts of her Q poke and you should be fine till level 6. once you hit 6 keep farming comfortably and avoid her E landing at all costs.",
+    "[1] If she gets lv 6 she can oneshot you with combo +R, be careful with her poke.",
+    "[1] Add on your low survivability and her Ultimate can become a major problem if she gets ahead."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 13 2026-11-12",
+  "videosFound": 80,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "mJFc-rMz2vg",
+      "channel": "Coach Mysterias",
+      "result": "utilisé (chapitre Matchups 39:19 ; 1:17:05-1:17:42 : Corki sans régénération, le grignoter ; ouverture partagée avec AurelionSol__Syndra)"
+    },
+    {
+      "id": "e4NW7yhiJWE",
+      "channel": "Mysteriaslol",
+      "result": "lu, inutilisé (Corki mid : Syndra jamais citée)"
+    },
+    {
+      "id": "pBZKzVbXj-w",
+      "channel": "Zoose",
+      "result": "lu, inutilisé (guide Syndra : Corki jamais cité ; ouverture partagée avec AurelionSol__Syndra)"
+    },
+    {
+      "id": "yNzAz9nKvEg",
+      "channel": "Shambless",
+      "result": "lu, inutilisé (tier list visuelle : Corki jamais cité ; ouverture partagée avec AurelionSol__Syndra)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "result": "ok (5 tips d'auteurs de guides Corki, tous anciens : ids 2096747 à 2201197, guides 10.22 à 13.15)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/corki",
+      "result": "lu, inutilisé (aucun tip d'auteur de guide Syndra)"
+    },
+    {
+      "url": "https://mobalytics.gg/lol/champions/corki/counters/mid/vs-syndra",
+      "result": "non ouvert (403 connu, conseils payants)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Corki : à partir du lvl 6, son R avec toutes les sphères peut te tuer, garder ses PV",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "commentaires anciens (ids 2096893, 2096747) : mechanics seulement + DDragon (Unleashed Power lance toutes ses Dark Spheres) ; le « one-shot » n'est pas repris (non vérifiable)"
+    },
+    {
+      "idea": "Corki : éviter son E à tout prix",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2177540) + DDragon (ennemis touchés par une sphère repoussée = étourdis)"
+    },
+    {
+      "idea": "Syndra : Corki n'a pas de régénération, le grignoter à distance",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (2025-02) + DDragon (aucun soin dans le passif ni les sorts de Corki) ; « portée supérieure » non repris (Barrage de projectiles 1225 > Sphère noire 800)"
+    },
+    {
+      "idea": "Syndra : garder ses PV et ne pas laisser la wave se faire freeze chez lui",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, conseil donné pour toute une catégorie de matchups"
+    },
+    {
+      "idea": "Corki : ne pas prendre trop de poke de son A avant le lvl 3",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaire ancien : lane interdite"
+    }
+  ]
+}

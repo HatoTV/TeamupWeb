@@ -1,0 +1,96 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] Aphelios, I would put him at hard tier. I think if Aphelios is a good player, he has, you know, he has a lot of spikes in the early lane phase.",
+    "[0] He has an insane range. He can poke us out. And once he done swaps, he kind of just does what he do, but a bit better, right?",
+    "[0] His all in with his blue purple and his uh just uh red white.",
+    "[1] Aphelios is a hyper carry ADC that scales very well into the late game. So, taking him down in the early game will help delay his power spike.",
+    "[1] His greatest weakness is being immobile, making an easy target to lock down compared to other mobile carries.",
+    "[1] His purple and green gun are the worst guns he can use for fights. For poke, it's good, but just for fighting it's bad.",
+    "[1] White, blue, and red are his most powerful guns and what you want to keep safe from. So, try to trade or all in him whenever he has weak guns.",
+    "[2] Aphilios gets countered by champs that either outrange him, can block or avoid his auto attacks and burst him down quickly, and champs that can really harass him in lane.",
+    "[2] Aphilios's biggest weaknesses are early game and mobility.",
+    "[2] with mobility being our biggest weakness, we can be one-shot by any landed hook at almost any stage of the game."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 13 2026-11-12",
+  "videosFound": 45,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "dX8Y1gVqJjQ",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list Xayah, passage Aphelios 6:29 ; ouverture partagée avec Xayah__Zeri)"
+    },
+    {
+      "id": "AnHIXyu9utA",
+      "channel": "Violet Raven",
+      "result": "utilisé (chapitre Aphelios 0:40 ; ouverture partagée avec Xayah__Zeri)"
+    },
+    {
+      "id": "6zaDj_rOsk8",
+      "channel": "Hallow",
+      "result": "utilisé (chapitres ADC Matchups 26:06 et When To Pick 27:06 : Xayah non citée, seulement les faiblesses générales d'Aphelios, mobilité)"
+    },
+    {
+      "id": "JN9nUe5nlfw",
+      "channel": "Challenger vs. Emerald",
+      "result": "lu, inutilisé (Xayah jamais citée dans les sous-titres)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Les deux côtés : Aphelios poke de très loin avec Calibrum",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (portée énorme / armes de poke) + DDragon (Calibrum, tir longue portée, 1450)"
+    },
+    {
+      "idea": "Les deux côtés : Severum, Infernum et Crescendum (rouge, bleu, blanc) sont les armes d'all-in",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources d'accord sur rouge, bleu et blanc ; couleurs et force des armes non vérifiables dans DDragon"
+    },
+    {
+      "idea": "Xayah : engager quand il tient Calibrum ou Gravitum (vert, violet), armes faibles en combat",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, et WTL cite le violet dans ses all-in (contradiction sur Gravitum)"
+    },
+    {
+      "idea": "Les deux côtés : Aphelios immobile, facile à root avec Appel des lames",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (immobile / mobilité = plus grande faiblesse) + DDragon (aucun dash dans le kit, Appel des lames root)"
+    },
+    {
+      "idea": "Xayah : punir Aphelios tôt, il scale",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": false,
+      "reason": "contredit par WTL (beaucoup de spikes en début de lane) : retiré par prudence"
+    },
+    {
+      "idea": "Aphelios : contré par ceux qui évitent ses autos (Rafale de plumes rend Xayah intouchable)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "idée générale, Xayah non citée"
+    }
+  ]
+}

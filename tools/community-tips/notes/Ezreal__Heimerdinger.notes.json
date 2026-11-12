@@ -1,0 +1,101 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] himer Dinger is a very Hit or Miss Champion his design makes him weak against any Champion that outranges him and his turrets but incredibly obnoxious for any melee Champion",
+    "[0] on top of that he is reliant on hitting his e as it almost guarantees a full combo notably his W and his turret lasers",
+    "[0] this ability is a projectile so the travel time is long the farther he throws it this makes it easier to dodge from far away",
+    "[0] that's why I recommend paying close attention to a z animation and use your dash or your flash reactively",
+    "[0] he hits he fully charging his turrets they throw their laser beams he then lands W and his second wave of laser beams are shot at you",
+    "[1] The only thing you want to take is something to outrange him. There's a lot of ADCs that can outrange him such as Ezreal, Jhin, whatever you want.",
+    "[1] But the important thing when it comes to mages is in my opinion at least to get out of the lane. And once you get out of the lane it kind of like feels so all really flat.",
+    "[1] Like you you you you're able to outscale them as well."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 13 2026-11-12",
+  "videosFound": 61,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "9u261wOoehQ",
+      "channel": "Sixen • League of Legends",
+      "result": "lu, inutilisé (Heimerdinger hors botlane, Ezreal jamais cité)"
+    },
+    {
+      "id": "Yxe4EbQB0MM",
+      "channel": "LoL Havoc",
+      "result": "utilisé (1 min 40, en, contre-jeu général contre Heimerdinger, 2024-12-03 : moins de 2 ans)"
+    },
+    {
+      "id": "LZcGQRoft1w",
+      "channel": "RezoneGAMES",
+      "result": "lu, inutilisé (partie commentée sans conseil de matchup, Ezreal jamais cité)"
+    },
+    {
+      "id": "79aPrnw-Ndk",
+      "channel": "Eneino Coach",
+      "result": "utilisé (chapitre Swain 8:11 : Ezreal cité parmi les ADC qui dépassent les mages en portée ; conseil général contre les mages, Heimerdinger non cité)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/heimerdinger",
+      "result": "lu, inutilisé (aucun commentaire d'un joueur Ezreal)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ezreal",
+      "result": "lu, inutilisé (2 commentaires de joueurs Heimerdinger, ids 2024650 et 2024823 : anciens et sans conseil)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/heimerdinger/counters/adc?target_champion=ezreal",
+      "result": "lu, inutilisé (tips généraux sur Heimerdinger, rien de propre au matchup, sans date)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/ezreal/counters/adc?target_champion=heimerdinger",
+      "result": "lu, inutilisé (tips généraux, rien de propre au matchup, sans date)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ezreal : Heimerdinger faible contre ceux qui ont plus de portée, poke au Tir mystique hors des tourelles",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (LoL Havoc : faible contre ceux qui le dépassent en portée ; Eneino : Ezreal cité comme ADC qui dépasse un mage en portée, conseil général). Non vérifié : la portée des tourelles n'est pas dans DDragon et les Micro-roquettes (1325) portent plus loin que le Tir mystique (1150)"
+    },
+    {
+      "idea": "Ezreal : esquiver la grenade avec le dash, elle lance tout le combo",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Grenade : étourdit au centre, charge à fond les tourelles si elle touche un champion ; Transfert arcanique = téléportation)"
+    },
+    {
+      "idea": "Ezreal : sortir de lane et scaler contre un mage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, conseil générique"
+    },
+    {
+      "idea": "Heimerdinger : la grenade ouvre le combo (tourelles chargées puis Micro-roquettes)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Grenade charge à fond les tourelles ; chaque roquette qui touche un champion charge les tourelles de 20 %)"
+    },
+    {
+      "idea": "Ezreal : la ténacité casse la seconde vague de lasers",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "conseil d'objets / de stats, interdit"
+    }
+  ],
+  "orchestratorReview": "2e source (Eneino) = conseil général contre les mages, sans Heimerdinger : non comptée. Une seule source propre au couple : insufficientSources."
+}

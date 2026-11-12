@@ -1,0 +1,104 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] in my opinion Graves, Lee Sin, Nidalee are all at least easy.",
+    "[0] a very good Graves, Lee Sin, Nidalee are up in your in your camps in your jungle all the time and it is a problem.",
+    "[0] However, we out team fight these champs very hard.",
+    "[0] You cannot fight any of them early.",
+    "[1] Leon definitely favored for us. If this was Hyo, uh, he would definitely be in the hard category",
+    "[1] And if Leon isn't online 100% of the time, I feel like he's kind of a useless champion.",
+    "[2] Dont stand directly in front of your team because if he ults you and you hit your team then they take the kicks damage, get knocked up",
+    "[2] He might try and invade you early so careful."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 13 2026-11-12",
+  "videosFound": 45,
+  "videosRead": 3,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "ALGAC2-ZoQQ",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (Sybol, Challenger Zac ; chapitre Matchup tier list 1:33:19, Lee Sin 1:35:26 et 1:37:58)"
+    },
+    {
+      "id": "WkN9WJaF7JY",
+      "channel": "DOUGvsALL",
+      "result": "utilisé (chapitre Lee Sin 14:22 ; transcrit « Leon » dans les sous-titres)"
+    },
+    {
+      "id": "NPxojPiTpPU",
+      "channel": "Sinerias",
+      "result": "lu, inutilisé (guide Lee Sin 2026 : Zac jamais cité)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lee-sin",
+      "result": "ok (16 tips d'auteurs de guides Zac, tous anciens : ids < 2232000, saisons 9 à 14.2)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/zac",
+      "result": "lu, inutilisé (aucun tip d'auteur de guide Lee Sin)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Zac : ne pas forcer tôt, Lee perd en impact sans avance, Zac domine en teamfight",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (BBC 2026-09, DOUGvsALL 2026-09)"
+    },
+    {
+      "idea": "Lee Sin : jouer l'early et envahir, sinon Zac le domine en teamfight",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "Zac : ne pas se placer devant son équipe, le R de Lee le projette sur ses alliés",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2172026, guide 12.16) : accepté seulement en mechanics + DDragon (les ennemis percutés par la cible sont projetés en l'air)"
+    },
+    {
+      "idea": "Lee Sin : envoyer Zac sur ses alliés avec Rage du dragon",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "même commentaire ancien, côté Lee + DDragon"
+    },
+    {
+      "idea": "Zac : Lee peut esquiver ta Fronde avec son Rempart (ward hop)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "source ancienne et DDragon ne mentionne pas les balises pour Rempart : non vérifiable"
+    },
+    {
+      "idea": "Zac : prendre Aftershock contre Lee",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "rune (interdit) et source ancienne"
+    },
+    {
+      "idea": "Zac : Lee envahit tes camps, éviter de te battre sur tes camps",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source récente seulement (les commentaires counterstats qui le disent sont anciens)"
+    }
+  ]
+}

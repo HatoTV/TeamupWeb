@@ -1,0 +1,115 @@
+{
+  "pair": [
+    "Pyke",
+    "Rell"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Pyke": "9847c3104fe6e21b179c6f56ca4de5dd08d6acf6cb210020d123c040fe553575",
+    "Rell": "533ccb0c262e988bd2521010378ce0e0c45aaf730e7bf9664c4a6345855e9e96"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Pyke": {
+      "fr": [
+        {
+          "text": "N'ouvre pas le combat le premier : laisse Rell s'engager, puis punis-la. Ton Ressac fantôme (E) en ouverture est facile à lire pour elle.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Quand elle descend de sa monture avec sa Ferromancie (Z), elle reste ralentie tant qu'elle est à pied : profites-en pour la punir.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ne colle pas ton ADC : sa Frappe dislocatrice (A), sa Ferromancie (Z) et sa Tempête magnétique (R) touchent plusieurs cibles d'un coup.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Don't start the fight yourself: let Rell commit first, then punish her. Phantom Undertow (E) as an opener is easy for her to read.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "When she dismounts with Ferromancy: Crash Down (W), she stays slowed while on foot: that's your window to punish her.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Don't stand next to your ADC: her Shattering Strike (Q), Crash Down (W) and Magnet Storm (R) all hit several targets at once.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Rell": {
+      "fr": [
+        {
+          "text": "Son Ressac fantôme (E) est facile à anticiper : garde ta Ferromancie (Z) pour soulever Pyke dès qu'il dash vers toi.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ne gâche pas ta Ferromancie (Z) sans suite : une fois à pied, le ralentissement laisse Pyke te punir.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "His Phantom Undertow (E) is easy to see coming: hold Crash Down (W) to knock Pyke up as soon as he dashes at you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Don't waste Crash Down (W) with no follow-up: once dismounted you're slowed, and Pyke can punish you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "EVERY Pyke Matchup Explained!",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=gZMwMQ7cEKk",
+      "consultedAt": "2026-11-12",
+      "channel": "Pyke on a Spike",
+      "publishedAt": "2024-10-16",
+      "timestamps": [
+        "14:53",
+        "15:07",
+        "15:20",
+        "15:35"
+      ]
+    },
+    {
+      "title": "Every Rell matchup ranked! | League of Legends | ColsENG",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=a9QyG_fjnII",
+      "consultedAt": "2026-11-12",
+      "channel": "ColsENG",
+      "publishedAt": "2023-02-27",
+      "timestamps": [
+        "14:58",
+        "15:26"
+      ]
+    }
+  ]
+}

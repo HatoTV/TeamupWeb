@@ -1,0 +1,87 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] he can easily hit double Q either when you're in crashed on and it's obvious where you're gonna end up or if you're unmounted then yes easy",
+    "[0] he can slow you when you are mounted and you're literally negative 20 speed",
+    "[0] when you even make a good engage on someone and you catch someone he can just hold and then you have all your abilities on cooldown and he gets revived"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 30,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "utilisé (chapitre « Zilean Matchup » 24:10 ; vidéo de 2023, plus de 18 mois : mécaniques revérifiées dans Data Dragon 16.22.1)"
+    },
+    {
+      "id": "dFEJushm5Cc",
+      "channel": "Coach K",
+      "result": "lu (chapitre Support Matchups) : « Zilean est faible, roam pour prendre l'avance, il ne peut pas suivre » ; 1 seule source, idée non gardée"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "écartée : sous-titres 'en' visiblement traduits (« charmers », « wizards », « stand behind your subjects »), contenu statistique par classe, pas de conseil propre au matchup"
+    },
+    {
+      "id": "WWUrGUNV-Yg",
+      "channel": "Pestify_Lol",
+      "result": "lu (recherche Rell/engage/stun) : rien sur Rell ; sous-titres qui semblent traduits (« Glacial Enhancement »)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/rell/",
+      "result": "ok, stats-only (aucun conseil sur Zilean)"
+    },
+    {
+      "url": "https://metabot.gg/en/league/champion/Rell/matchups/Zilean",
+      "result": "ok, stats-only"
+    },
+    {
+      "url": "https://agatasmurf.com/lol-guides/zilean/counters/",
+      "result": "lisible, contenu SEO générique (paraphrase des sorts, pas d'auteur) : non utilisé"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Zilean : double bombe sur le point de chute du Z de Rell ou sur Rell à pied",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q : 2e bombe = stun ; Rell à pied ralentie)"
+    },
+    {
+      "idea": "Zilean : ralentir Rell montée avec E",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E ralentit un ennemi)"
+    },
+    {
+      "idea": "Zilean : R sur l'allié attrapé, Rell reste sans sorts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R ressuscite l'allié qui subirait des dégâts mortels)"
+    },
+    {
+      "idea": "Rell : roam, Zilean ne peut pas suivre",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "macro, 1 seule source (Coach K, guide Rell 11:37), contredite par ColsENG qui donne Zilean gagnant"
+    },
+    {
+      "idea": "Rell : all-in avant que la double bombe sorte",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seulement sur agatasmurf.com (contenu générique), non retenu comme source"
+    }
+  ],
+  "review": "Relecture : 3 tips Zilean (1 source ColsENG 2023 + DDragon) retirés, un matchup ok demande 2 sources. Plafond de 4 vidéos atteint."
+}

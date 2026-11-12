@@ -1,0 +1,83 @@
+{
+  "pair": [
+    "Kayn",
+    "LeeSin"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Kayn": "6e350796127f2ab5515572f04a81c92bbb9bb44775d55684c411e7b5987af869",
+    "LeeSin": "35dbeba113620c6a7815aa9b15b3c6325b07c557a3af6da0000f925c500e2942"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Kayn": {
+      "fr": [],
+      "en": []
+    },
+    "LeeSin": {
+      "fr": [
+        {
+          "text": "Avant sa transformation, Kayn perd la plupart des duels : invade sa jungle et cherche les escarmouches tôt, avant qu'il ait choisi sa forme.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Sans forme, son Entaille sombre (Z) ralentit seulement : il n'a aucun contrôle dur pour t'arrêter, alors engage sans hésiter.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "S'il prend la forme rouge, son Entaille sombre (Z) projette dans les airs et ses sorts le soignent : le duel devient bien plus dur, évite les longs combats.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Before he transforms, Kayn loses most duels: invade his jungle and look for early skirmishes before he has picked a form.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Without a form, his Blade's Reach (W) only slows: he has no hard CC to stop you, so commit without hesitating.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If he goes red form, his Blade's Reach (W) knocks up and his spells heal him: the duel gets much harder, so avoid extended fights.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Lee Sin vs Kayn Review",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=7NaSp9nj4Ek",
+      "consultedAt": "2026-11-12",
+      "channel": "3bit",
+      "publishedAt": "2026-06-09",
+      "timestamps": [
+        "10:59",
+        "11:13",
+        "14:04",
+        "22:58"
+      ]
+    },
+    {
+      "title": "Kayn Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/kayn",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

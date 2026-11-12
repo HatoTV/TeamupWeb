@@ -1,0 +1,88 @@
+{
+  "searches": 2,
+  "sourceSentences": [
+    "[0] Rel loves to play against aggressive Tariq oats because you can just abuse the hell out of them with your W magnet Stone combo",
+    "[0] in Lane it can be really annoying if you're in there and Tariq just slaps the hell out of you and gets q and E for free every single time",
+    "[0] you you're unmounted in there and Target just slaps the hell out of you he's gonna get his q and his he resets very very quickly",
+    "[1] it's very free to play against Alistar when he engages like his melee all the time right he wants to do the same thing as you but you do it better and you out heal him out damage him",
+    "[1] they are all in Champions that they are going to commit and they're not going out",
+    "[1] re the same thing goes in commits but re is op so that's why it's not an easy matchup",
+    "[1] T is a great counter of noon because when noctune SS and he wants to go pop your ultimate everyone is safe",
+    "[1] every time you use an ability you will have two empowered out attacks with extra attack speed and extra damage and it does a lot of damage and not only that it reduces the cool down of every single ability except the ultimate"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 24,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "utilisé (chapitre « Swain & Taric » 20:45 ; vidéo de 2023 : mécaniques revérifiées dans Data Dragon 16.22.1)"
+    },
+    {
+      "id": "dFEJushm5Cc",
+      "channel": "Coach K",
+      "result": "lu (recherche Taric) : aucune mention de Taric"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "écartée : sous-titres 'en' visiblement traduits (« charmers », « wizards », « stand behind your subjects »), contenu statistique par classe, pas de conseil propre au matchup"
+    },
+    {
+      "id": "JhvMrfXQOko",
+      "channel": "Coach K",
+      "result": "utilisé (Gameplay Explanation 19:07, Support Matchups 35:14, When to Draft Taric 40:59 ; vidéo de 2024, 2 ans)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/rell/",
+      "result": "ok, stats-only (aucun conseil sur Taric)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rell : ne pas rester au contact de Taric une fois à pied",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (ColsENG côté Rell, Coach K côté Taric : les all-in qui restent au contact sont bons pour Taric) + DDragon (passif réduit les CD)"
+    },
+    {
+      "idea": "Taric : rendre les coups quand Rell reste au contact",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "même idée vue du côté Taric, 2 sources + DDragon"
+    },
+    {
+      "idea": "Taric : ult en réponse à l'engage, pas pour entrer",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (ColsENG : Rell punit les ults agressifs avec Z-R ; Coach K : l'ult de Taric contre les engages) + DDragon (invulnérabilité après un délai ; R de Rell attire les ennemis)"
+    },
+    {
+      "idea": "Rell : combo Z-R pour punir un ult agressif de Taric",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source ; le fait que l'invulnérabilité ne bloque pas l'attraction n'est pas dans Data Dragon"
+    },
+    {
+      "idea": "Rell : sa Frappe dislocatrice (A) casse le bouclier de Bastion (Z)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "Coach K (guide Rell 11:37) parle de casser « the W with the Q » mais le champion visé est inaudible dans les sous-titres"
+    }
+  ]
+}

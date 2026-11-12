@@ -1,0 +1,140 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] okay let's get into seraphine here we have another I would say we have another uh even seraphine the only thing that makes everything kind of annoying Pharrell is that she is pretty high range but usually you can dodge all of that then you can't Dodge because it's Auto attacks",
+    "[0] uh enter ulti might be able to disengage your engage decently but I wouldn't say it's as bad as horse I take over",
+    "[0] so I would say seraphinus is even you can win it she can win it it's about right",
+    "[1] normally this is done when you are playing against Champions with a lot of shields for example if you are playing against Champions like Ivan or any enchanter",
+    "[1] and in three match up set because you break the w with the Q the same as tkin you also break the shield that tkin tkin faship with your Q so he gets really countered by that",
+    "[2] Spread out against Encore.",
+    "[2] Its range refreshes for every champion hit, so a line of teammates lets it travel much farther.",
+    "[2] She's also exposed when Encore is down (it's her ultimate and her longest cooldown).",
+    "[2] Count her casts.",
+    "[2] Every third basic spell casts twice.",
+    "[2] Trade right after the double cast, not before.",
+    "[2] Surround Sound shields and speeds up nearby allies, so look for fights right after she wastes it.",
+    "[2] She has no dash, so a landed hook or stun leaves her with no way to escape."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 44,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "dFEJushm5Cc",
+      "channel": "Coach K",
+      "result": "utilisé (Seraphine jamais citée ; idée générale : la Frappe dislocatrice (A) casse les boucliers des enchanteurs, 02:18 et 11:16)"
+    },
+    {
+      "id": "2CdZyNoD6aM",
+      "channel": "Coach K",
+      "result": "ouvert (live éducatif 3 h 45) : pas de partie contre Seraphine"
+    },
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "utilisé (2023-02-27, ancien ; passage Seraphine 19:01-19:35, vu côté Rell)"
+    },
+    {
+      "id": "HknUVNA1ybg",
+      "channel": "tamary",
+      "result": "écarté : sous-titres « en » traduits (« Seraphina », « Accumulation », « Shield Strike »), voix d'une autre langue ; Rell cité seulement pour les runes"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://mobalytics.gg/lol/champions/seraphine/counters",
+      "result": "403"
+    },
+    {
+      "url": "https://agatasmurf.com/lol-guides/seraphine/counters/",
+      "result": "ok (conseils génériques contre Seraphine, Rell non cité ; mécaniques conformes à DDragon)"
+    },
+    {
+      "url": "https://metabot.gg/en/league/champion/Rell/matchups/Seraphine",
+      "result": "no-advice (statistiques seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rell : engager quand le Bis (R) est en CD, sinon il coupe l'engage",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R charme) ; agatasmurf.com écarté à la relecture, reste 1 source + DDragon"
+    },
+    {
+      "idea": "Rell : ne pas s'aligner avec l'ADC face au Bis (R)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seule source : agatasmurf.com (vente de comptes, texte SEO générique, hors sites.json) — écartée à la relecture"
+    },
+    {
+      "idea": "Rell : engager juste après le double sort du passif",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seule source : agatasmurf.com (vente de comptes, texte SEO générique, hors sites.json) — écartée à la relecture"
+    },
+    {
+      "idea": "Rell : la Frappe dislocatrice (A) détruit le bouclier du Son ambiophonique (Z)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (générale, enchanteurs) + DDragon (Q détruit tous les boucliers, W de Seraphine donne un bouclier)"
+    },
+    {
+      "idea": "Rell : forcer le fight après le Son ambiophonique (Z), 22 s de CD",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seule source : agatasmurf.com (vente de comptes, texte SEO générique, hors sites.json) — écartée à la relecture"
+    },
+    {
+      "idea": "Rell : esquiver Note aiguë (A) et Battement (E) malgré la portée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q zone à 900, E ligne à 1300)"
+    },
+    {
+      "idea": "Seraphine : garder le Bis (R) pour l'engage de Rell",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (vue côté Rell) + DDragon (R charme)"
+    },
+    {
+      "idea": "Seraphine : ne pas compter sur le bouclier du Z, la Frappe dislocatrice (A) le détruit",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Seraphine : harceler à l'auto (portée bonus du passif), impossible à esquiver",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : portée et dégâts bonus sur l'attaque suivante après un sort près d'un allié)"
+    },
+    {
+      "idea": "Rell : Seraphine n'a pas de dash, un stun réussi la condamne",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seule source : agatasmurf.com (vente de comptes, texte SEO générique, hors sites.json) — écartée à la relecture"
+    },
+    {
+      "idea": "Matchup égal",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "avis de difficulté, pas un conseil"
+    }
+  ]
+}

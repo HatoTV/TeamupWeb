@@ -1,0 +1,54 @@
+{
+  "searches": 3,
+  "sourceSentences": [],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 26,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "lu (recherche Pantheon et variantes, chapitres Nami-Nautilus-Pyke) : Pantheon absent de la vidéo"
+    },
+    {
+      "id": "dFEJushm5Cc",
+      "channel": "Coach K",
+      "result": "lu (10:52) : Pantheon cité seulement parmi les matchups où une rune aide à gagner les trades ; hors gameplay, non utilisé"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "écartée : sous-titres 'en' visiblement traduits (« charmers », « wizards », « stand behind your subjects »), contenu statistique par classe, pas de conseil propre au matchup"
+    },
+    {
+      "id": "jB0ChjPIrNs",
+      "channel": "Coach K",
+      "result": "lu (recherche Rell/Leona/Alistar/tank) : aucune mention de Rell"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/rell/",
+      "result": "ok, stats-only (aucun conseil sur Pantheon)"
+    },
+    {
+      "url": "https://champsight.com/matchup/rell-vs-pantheon/support",
+      "result": "403"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rell : ne pas forcer trades et all-in contre Pantheon",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "vue seulement dans un extrait de recherche champsight.com, page non lisible (403)"
+    },
+    {
+      "idea": "Rell : rester derrière les sbires, pas de trade au lvl 2 contre Pantheon",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "TheRealRaven, vidéo écartée (sous-titres traduits, conseil générique pour les supports hors rôle)"
+    }
+  ]
+}

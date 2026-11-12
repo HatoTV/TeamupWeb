@@ -15,11 +15,26 @@
         "refused"
       ]
     },
+    "agatasmurf.com": {
+      "ok": 0,
+      "failed": 2,
+      "results": [
+        "generic-seo"
+      ]
+    },
     "champsight.com": {
       "ok": 0,
-      "failed": 1,
+      "failed": 2,
       "results": [
         "403"
+      ]
+    },
+    "counterstats.net": {
+      "ok": 1,
+      "failed": 1,
+      "results": [
+        "ok",
+        "stats-only"
       ]
     },
     "dignitas.gg": {
@@ -43,6 +58,20 @@
         "ok"
       ]
     },
+    "legendstracker.fr": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "no-advice"
+      ]
+    },
+    "lolmeta.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "no-advice"
+      ]
+    },
     "matchupcoach.gg": {
       "ok": 2,
       "failed": 0,
@@ -50,16 +79,30 @@
         "ok"
       ]
     },
-    "mobafire.com": {
+    "metabot.gg": {
+      "ok": 0,
+      "failed": 2,
+      "results": [
+        "stats-only"
+      ]
+    },
+    "mobachampion.com": {
       "ok": 0,
       "failed": 1,
+      "results": [
+        "500"
+      ]
+    },
+    "mobafire.com": {
+      "ok": 0,
+      "failed": 2,
       "results": [
         "403"
       ]
     },
     "mobalytics.gg": {
       "ok": 0,
-      "failed": 1,
+      "failed": 2,
       "results": [
         "403"
       ]
@@ -78,8 +121,15 @@
         "refused"
       ]
     },
+    "onetricks.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "429"
+      ]
+    },
     "op.gg": {
-      "ok": 5,
+      "ok": 6,
       "failed": 0,
       "results": [
         "ok"
@@ -94,9 +144,10 @@
     },
     "rankedboost.com": {
       "ok": 1,
-      "failed": 0,
+      "failed": 2,
       "results": [
-        "ok"
+        "ok",
+        "stats-only"
       ]
     },
     "tacter.com": {
@@ -104,6 +155,13 @@
       "failed": 3,
       "results": [
         "404"
+      ]
+    },
+    "turbosmurfs.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "factual-error"
       ]
     },
     "wiki.leagueoflegends.com": {

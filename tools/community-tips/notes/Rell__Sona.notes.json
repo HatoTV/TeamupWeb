@@ -1,0 +1,123 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] all right then we get to Sona Sona is like zero feed but it's easier because she has less range that's about it Sona is similar to seraphine but Sona needs to get closer to you and then you have more windows to engage here and maybe get the catcher are you",
+    "[0] I'm usually pretty happy if the enemies play uh Sona because you can play around your Hack Slash and really try to abuse her early on later on of course she has scares you but let's hope it doesn't get to that",
+    "[1] normally this is done when you are playing against Champions with a lot of shields for example if you are playing against Champions like Ivan or any enchanter",
+    "[1] and in three match up set because you break the w with the Q the same as tkin you also break the shield that tkin tkin faship with your Q",
+    "[1] zillian and Sona because guys you understand that I hate those Champions they are very weak they're very weak Champions so you can do a bit of whatever in Lane you are going to win",
+    "[1] you can Roam and just take massive leads roaming they cannot follow up what you are doing with ra around the map",
+    "[2] To be honest, I can trade whenever I want. Like, I don't think they have a lot of damage. It's a Sona.",
+    "[2] So you have to play hyper aggressive.",
+    "[2] You have like be a psychop literally crazy to play against a mage. When you play against a mage, I feel disrespected."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 38,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "dFEJushm5Cc",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre Support Matchups, 11:16-11:53)"
+    },
+    {
+      "id": "2CdZyNoD6aM",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre « Rell vs Sona » 54:46 ; adversaires Veigar + Sona, une partie des conseils vise Veigar)"
+    },
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "utilisé (2023-02-27, ancien ; passage Sona 19:35)"
+    },
+    {
+      "id": "LbAd-wPP3WY",
+      "channel": "Sonatra ",
+      "result": "échec : aucun sous-titre « en » disponible (chapitre matchups 4:28 non lu)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://legendstracker.fr/en/lol/champions/Sona/vs/Rell",
+      "result": "no-advice (texte généré depuis les statistiques)"
+    },
+    {
+      "url": "https://lolmeta.gg/champions/rell/support/vs/sona",
+      "result": "no-advice (phrases modèles générées depuis les statistiques)"
+    },
+    {
+      "url": "https://www.onetricks.gg/guide/ioj1yd5/otp-sona-guide",
+      "result": "429"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rell : Sona doit s'approcher, fenêtres d'engage ; peu de dégâts, trader souvent",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Rell : prendre l'avance tôt, Sona scale",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Rell : la Frappe dislocatrice (A) détruit le bouclier de l'Aria (Z)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (générale, enchanteurs) + DDragon (Q détruit tous les boucliers ; W de Sona donne un bouclier aux alliés)"
+    },
+    {
+      "idea": "Rell : roam, Sona ne peut pas suivre",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "macro avec 1 seule source"
+    },
+    {
+      "idea": "Sona : Rell domine le début, refuser les all-in, valeur plus tard",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (vues côté Rell : Sona faible tôt, dangereuse plus tard)"
+    },
+    {
+      "idea": "Sona : poke à portée max, l'Hymne (A) porte plus loin que la Frappe dislocatrice (A)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (Sona doit s'approcher = fenêtres d'engage) + DDragon (rangeBurn 825 contre 600)"
+    },
+    {
+      "idea": "Sona : le bouclier de l'Aria (Z) ne tient pas contre la Frappe dislocatrice (A)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Rell : jouer hyper agressif contre un mage",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "vise Veigar, fondu dans le tip de trade"
+    }
+  ]
+}

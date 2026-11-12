@@ -1,0 +1,133 @@
+{
+  "searches": 2,
+  "sourceSentences": [
+    "[0] a champion like Camille normally wants to take a short trade especially with grasp and W probably you can take a long trade against her most of the time especially if your passive is down",
+    "[0] so it's really important that you figure out when to take long trades or short trades",
+    "[1] va avir le Level 2 avant moi malheureusement elle a pas le E donc elle peut pas dash",
+    "[1] tout on lu fait perdre le passif très important ça big cherche pas la tuer je cherche juste à la faire reset",
+    "[1] magnifique elle perd le passif limite plus Z aussi mais ça me permet de le garder pour un une autre action",
+    "[2] Okay, guys. Let's start W. Yeah, level one. We have less cool down than the Hercu spell. Let's get level two.",
+    "[2] Was a really good trade, guys. There. She didn't respect the level two advantage.",
+    "[3] Try to bait her shield by doing a useless trade (like just let her auto you and run away) and after it runs out use that window to take a good trade.",
+    "[3] If she takes grasp she's a bit stronger in early short trades but has less threat in all-ins, while with conq it's the opposite, play accordingly.",
+    "[3] If you W her Q2 you have good chances to win the trade or at least go even. You can W her E too.",
+    "[3] Don't give her free Ws as she will outsustain you if you let her poke with those too much, just try to bait them and if she misses too many she runs out of mana and you win.",
+    "[3] Never 1v1 in sidelane if she's not massively behind and just play for teamfights. Skill 1-5, win 6-9, lose after trinity if even.",
+    "[3] Save your W for her E. Camille have no wave clear so try to freeze then all-in her. Late game 1v1 she might beats you. Dodge her E and you're fine."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 14 2026-11-12",
+  "videosFound": 32,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "Qwjxigtf6os",
+      "channel": "Coach Chippys",
+      "result": "utilisé (1:31:02 : Camille veut le trade court, Ambessa le trade long passif de Camille en CD)"
+    },
+    {
+      "id": "oeJz-d5TJJE",
+      "channel": "Strey VOD - League of Legends",
+      "result": "lu, inutilisé (Ambessa vs Camille 26.16, commentaire sans conseil de matchup)"
+    },
+    {
+      "id": "yIQsN-I_1z8",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (3:13 lvl 2 de Camille, 6:22 et 8:12 lui faire perdre son passif)"
+    },
+    {
+      "id": "LxHPhM3Z5yY",
+      "channel": "MaksimBiceps",
+      "result": "utilisé (POV Camille, 1:46-2:07 : trade au lvl 2)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/camille",
+      "result": "ok (auteurs de guides Ambessa : 2245058 récent ; 2231938 et 2231120 < 2232000 donc anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ambessa",
+      "result": "lu, inutilisé (aucun commentaire d'auteur de guide Camille)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ambessa : faire sauter le bouclier passif de Camille puis trade long",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources (Chippys 2024-12, Strey 2024-12, commentaire récent 2245058) + DDragon (bouclier sur attaque de base contre champion)"
+    },
+    {
+      "idea": "Ambessa : Égide sur le Grappin ou le Q2",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source récente (2245058, + anciens 2231938/2231120) + DDragon (dégâts accrus si dégâts bloqués)"
+    },
+    {
+      "idea": "Ambessa : ne pas lui laisser de Balayage gratuit (soin)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source récente + DDragon (moitié extérieure : ralentit, dégâts en plus, soigne Camille)"
+    },
+    {
+      "idea": "Camille : préférer les trades courts",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (formulé sans la rune dont elles parlent)"
+    },
+    {
+      "idea": "Camille : avance du lvl 2",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; plutôt générique, gardé car moins de 3 tips propres côté Camille"
+    },
+    {
+      "idea": "Camille : ne pas lancer le Grappin dans l'Égide",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source récente + DDragon"
+    },
+    {
+      "idea": "Ambessa : ne pas 1v1 Camille en side lane après sa Triforce, jouer les teamfights",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 seule source pour un tip macro (et lié à un objet)"
+    },
+    {
+      "idea": "Ambessa : Camille sans wave clear, freeze puis all-in",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "commentaire 2231938 ancien selon la règle (< 2232000), lane"
+    },
+    {
+      "idea": "Camille : grasp / conqueror selon le style de trade",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": false,
+      "reason": "runes"
+    }
+  ]
+}

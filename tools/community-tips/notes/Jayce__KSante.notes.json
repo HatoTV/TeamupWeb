@@ -1,0 +1,161 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] if you just stay in range form, get them one HP and then hammer form in or even just keep them stuck under tower bleeding forever",
+    "[0] You need to stay full HP in and that requires pretty high level spacing.",
+    "[1] typically for Jace you just stack armor against him once you get steel caps it's hard for him he kind of just doesn't win trades through your Aftershock and your W and your e",
+    "[1] when you're all ining him it just comes down to a mind games with your W and his knockback so just win yeah just win the win the Mind Games and you kill them",
+    "[2] He doesn't have knock back. I don't know why Jarvin tried fighting me, but it's not a good decision.",
+    "[2] Jay's spacing honestly isn't even that good. I feel like I'm able to reach him. It's just the movement speed gate I have to be careful of or that lets them zone me.",
+    "[2] Immaculate trading pattern hits me and then I get melee range. He knocks me away.",
+    "[2] He has no flash, no knock back, no gate. Okay, never mind. He has another dash and it's his Q play that well.",
+    "[3] Good Jayce players will keep you at the edge of his range and deny clean engages. How to play: Use the minion wave as cover so he can't freely poke you.",
+    "[3] Don't chase him when he has disengage tools available. Look for engages when he is in melee form or after he uses his escape. Patience is important.",
+    "[3] use e to dodge his QE combo, and save W to when he tries to all in you with hammer form to decrease his damage, and just kill him back when he has no dmg left.",
+    "[3] if he goes Hammer Form you should block the majority of his damage using W. If he messes up and wastes his E on your W you can look to stick to him and all in if he gets low.",
+    "[3] Time your W right to avoid his E knockback and you easily win these engages",
+    "[3] altid holde w nå han hopper på dig.",
+    "[4] This guy can kidnap you from tower. You are doomed if his team plays around you. Try to farm up. Dodge his knock up Q."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 14 2026-11-12",
+  "videosFound": 52,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "2CXi04mpPkM",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (Chippys, 38:04 : Jayce reste en forme canon, finit en marteau ; passage K'Sante 1:09:18 générique, inutilisé)"
+    },
+    {
+      "id": "TVLLWBd4B3Y",
+      "channel": "Aatreus",
+      "result": "utilisé (chapitre Jayce 27:42, K'Sante favorisé : jeu d'esprit entre son W et le repoussement)"
+    },
+    {
+      "id": "8PhdZCcftu4",
+      "channel": "Aatreus",
+      "result": "utilisé (K'Sante vs Jayce 2026-07 ; piste « en » traduite, lue en « en-orig »)"
+    },
+    {
+      "id": "nj7kkkMONlE",
+      "channel": "Coach Chippys",
+      "result": "lu, inutilisé (coaching d'un Jayce coréen, piste traduite, surtout des choix d'objets ; rien de propre à K'Sante)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/jayce",
+      "result": "ok (auteurs de guides K'Sante : 2253591 et 2233865 récents, les autres anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ksante",
+      "result": "ok (1 commentaire ancien 2206397 d'un auteur de guide Jayce)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jayce : garder le E pour K'Sante au corps à corps, pas pendant la charge du W (imparable)",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (charge du W : imparable)"
+    },
+    {
+      "idea": "Jayce : rester en canon à la limite de portée, marteau pour finir",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (BBC 2026, commentaire 2253591)"
+    },
+    {
+      "idea": "Jayce : le portail pour zoner / reculer",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (vitesse aux alliés qui passent dans le portail)"
+    },
+    {
+      "idea": "Jayce : le R de K'Sante l'arrache de sous sa tour",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (2206397) + DDragon (projette à travers les murs)"
+    },
+    {
+      "idea": "Jayce : esquiver le Q chargé de K'Sante",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "commentaire ancien + DDragon (à 2 cumuls, l'onde attire ; « knock up » de la source corrigé en attraction selon DDragon)"
+    },
+    {
+      "idea": "K'Sante : engager après le E (repoussement / portail) de Jayce",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon"
+    },
+    {
+      "idea": "K'Sante : garder le W pour le combo marteau",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (2233865 récent + anciens) + DDragon (réduction de dégâts)"
+    },
+    {
+      "idea": "K'Sante : se cacher derrière la wave contre l'Orbe électrique",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source récente + DDragon (explose sur le premier ennemi touché)"
+    },
+    {
+      "idea": "K'Sante : Direction le ciel reste un engage même sans E ni Flash",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bond sur un ennemi en forme marteau)"
+    },
+    {
+      "idea": "Jayce : farmer, tracker le jungler, ne pas mourir aux ganks",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "générique, 1 seule source (nj7kkkMONlE traduite écartée)"
+    },
+    {
+      "idea": "K'Sante : acheter de l'armure",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": false,
+      "reason": "objets"
+    },
+    {
+      "idea": "K'Sante : Jayce réduit l'armure/RM et donc ses dégâts de Q",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "lié aux objets, mécanique non vérifiable dans DDragon"
+    }
+  ]
+}

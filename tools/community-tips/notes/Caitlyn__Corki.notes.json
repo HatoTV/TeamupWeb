@@ -1,0 +1,113 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] Careful with all-ins especially with traps on the floor. Try to play careful as well because of her poke in lane.",
+    "[0] Avoid poke, you beat her past early game if even. Juke her E Q.",
+    "[0] She just has too much range and her gun is to long.",
+    "[0] Pick or ban her. Caitlyn+Lux is notorious. Even if you counter with Sivir/ Zeri / Corki + Seraphine you can just stall, but not make much progress.",
+    "[1] While Caitlyn does outrange Corki heavily, you need to ALWAYS play around your E + Q, as his gap closer can easily lead to you being one shot before you even have a chance to react. Never trade if you don't have your E ready.",
+    "[1] Keep in mind he deals mostly AP-based Damage, dodge his Q and R whenever possible"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 14 2026-11-12",
+  "videosFound": 64,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu, inutilisé (« How to Play EVERY Bot Lane Matchup in SEASON 16 » : Corki cité seulement comme exemple de lane avec support melee, rien contre Caitlyn)"
+    },
+    {
+      "id": "Kl5mKGsQxto",
+      "channel": "Bibou VOD - League of Legends",
+      "result": "lu, inutilisé (VOD de stream Caitlyn vs Corki, discussion sans conseil de matchup)"
+    },
+    {
+      "id": "q7u9Dd517Y8",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, inutilisé (guide Caitlyn : aucune mention de Corki)"
+    },
+    {
+      "id": "IqV2qxfjN4I",
+      "channel": "Doublelift",
+      "result": "lu, inutilisé (partie Corki, Caitlyn citée une fois sans conseil)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/caitlyn",
+      "result": "ok (commentaires d'auteurs de guides Corki ; 1 récent 2235684 générique, les autres anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/corki",
+      "result": "ok (commentaires d'auteurs de guides Caitlyn : 2246235 récent, 2015994 ancien)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Caitlyn : jouer autour du Filet (E), ne jamais trader sans, contre la Valkyrie",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente (tip-id 2246235, guide 25.24) + DDragon (le filet repousse Caitlyn)"
+    },
+    {
+      "idea": "Caitlyn : portée bien supérieure à Corki",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente + DDragon (portée 650 contre 550)"
+    },
+    {
+      "idea": "Caitlyn : esquiver ses A et R",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (2015994) : seulement la partie R, vérifiée DDragon (missile qui explose au premier ennemi touché)"
+    },
+    {
+      "idea": "Caitlyn : Corki fait surtout des dégâts AP",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon (Barrage de projectiles en dégâts physiques, passif en dégâts bruts), commentaire ancien"
+    },
+    {
+      "idea": "Corki : esquiver ses A et E",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (2140860), seulement le A (1 s de charge, DDragon)"
+    },
+    {
+      "idea": "Corki : prudence en all-in avec des pièges au sol",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (2199494) + DDragon (piège : immobilise 1,5 s, portée du Tir dans la tête doublée)"
+    },
+    {
+      "idea": "Corki : éviter son poke, tu la bats après le début si égal",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, commentaire ancien (2140860)"
+    },
+    {
+      "idea": "Corki : pick ou ban Caitlyn, duo Caitlyn+Lux",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "draft, pas du gameplay"
+    }
+  ]
+}

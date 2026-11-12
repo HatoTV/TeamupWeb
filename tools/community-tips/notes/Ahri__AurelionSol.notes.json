@@ -1,0 +1,144 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Ari is weak level one. So look for cheese. Her only ability to cancel your Q will be a charm.",
+    "[0] So once you dodge or she misses it, WQ in to burst her down. Even at level six, she don't stand a chance into ASO.",
+    "[0] Once you dodge her charms, always look for WQ combo to burn her R.",
+    "[0] That is by far one of the easiest match up for ASO as you outskll and outrange her",
+    "[1] Very weak early game champion. He lacks damage and mobility early, so any form of damage is life threatening to him. When he E -> Q's the wave it's prime time to go in for a Charm.",
+    "[1] If he does W and try to Q you to death you can use the R dashes to force his slow turn rate to lag behind you and look in for an easy charm as he'll be moving in a straight line.",
+    "[1] You win lane and out push him. When he Qs use your Abilities. Try to stop him from scaling and stack drags.",
+    "[1] Early play aggro try to snowball as much as u can and he shouldnt be a problem. still scales great into lategame so be aware",
+    "[1] This big boy loves to roam and he roams faster than you, so clean the waves to get a clear shot with your e, use your ultimate to dodge his, and engage him.",
+    "[1] Ahri is a great counter to Aurelion. Just charm him when he starts flying towards you and kill him",
+    "[2] You can shove her early, but avoid the charm at all costs. If she misses charm, you can trade with her - be careful of the jungler.",
+    "[2] Its probably not worth using your R after her first dash, as she will just use the other two to get back.",
+    "[2] Basically dodge her skillshots and don't W in weird ways or you get punished hard by her charm."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 14 2026-11-12",
+  "videosFound": 58,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "YVr-gIGHfbY",
+      "channel": "Nemesis",
+      "result": "lu (recherche Ahri), inutilisé : Ahri jamais citée comme adversaire"
+    },
+    {
+      "id": "1mJyRHAPuyw",
+      "channel": "Brukner",
+      "result": "lu (recherche Ahri), inutilisé : conseils généraux contre les assassins, Ahri jamais citée"
+    },
+    {
+      "id": "ovJwRBNd9aA",
+      "channel": "o7MaReZo7",
+      "result": "utilisé (chapitre Ahri 20:25-21:05, Rank 1 ASol SEA)"
+    },
+    {
+      "id": "4OP-x3QZnZk",
+      "channel": "Zoose",
+      "result": "lu (recherche Aurelion Sol), inutilisé : guide Ahri sans passage sur Aurelion Sol"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/aurelion-sol",
+      "result": "ok (commentaires d'auteurs de guides Ahri contre Aurelion Sol ; récents : #2251186, #2250530, #2247122 ; le reste < 2232000 = ancien)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ahri",
+      "result": "ok (commentaires d'auteurs de guides Aurelion Sol ; tous < 2232000 = anciens, mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Aurelion_Sol",
+      "result": "ok (vérification : Étoile finale frappe la zone ciblée après 1,25 s ; Vol astral interrompu par les effets immobilisants)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ahri : garder le Charme pour le Vol astral, il coupe le vol",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (vidéo + commentaire récent #2251186) + DDragon (le Charme stoppe les déplacements) et wiki (Vol astral interrompu par les immobilisations)"
+    },
+    {
+      "idea": "Ahri : engager au Charme quand Aurelion Sol canalise son Souffle de lumière sur la wave",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (vidéo : le Charme est le seul moyen de couper son A ; commentaires récents #2251186 et #2250530)"
+    },
+    {
+      "idea": "Ahri : garder un dash d'Assaut spirituel pour esquiver l'Étoile finale",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaire ancien #2003905) + DDragon (3 lancers) et wiki (impact après 1,25 s) : mécanique vérifiée seulement"
+    },
+    {
+      "idea": "Ahri : faible ou forte au lvl 1, qui gagne la lane",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "contradiction (vidéo : Ahri faible au lvl 1 et matchup facile pour Aurelion Sol ; commentaires récents : Ahri gagne la lane), retirée"
+    },
+    {
+      "idea": "Ahri : Aurelion Sol scale mieux, prendre l'avance tôt",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source (deux commentaires de la même page)"
+    },
+    {
+      "idea": "Ahri : prévenir la botlane des roams d'Aurelion Sol",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source récente, générique"
+    },
+    {
+      "idea": "Aurelion Sol : ne pas voler sur Ahri tant qu'elle a son Charme, engager après",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (vidéo + #2251186 récent) + DDragon/wiki"
+    },
+    {
+      "idea": "Aurelion Sol : ne pas lancer l'Étoile finale après le premier dash d'Ahri",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (commentaire ancien #1994553, guide S11) + DDragon (Assaut spirituel jusqu'à 3 lancers) : mécanique vérifiée seulement"
+    },
+    {
+      "idea": "Aurelion Sol : chercher un échange au lvl 1",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, contredite par les commentaires récents"
+    },
+    {
+      "idea": "Aurelion Sol : esquiver le Charme, sinon mort",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "commentaires anciens seulement (lane), idée reprise dans le tip sur le Vol astral"
+    }
+  ]
+}

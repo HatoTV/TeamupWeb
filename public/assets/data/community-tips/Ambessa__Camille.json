@@ -1,0 +1,143 @@
+{
+  "pair": [
+    "Ambessa",
+    "Camille"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Ambessa": "e56df32966ff04a871e7876f41cd856c3388ccd826e7aed579970aa7f7175136",
+    "Camille": "72694a83d1be9e8d3ef2f05df7242b70999b7b7fb5d9c78501b1fcdbe003204a"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Ambessa": {
+      "fr": [
+        {
+          "text": "Fais sauter sa Protection modulable (passif) avec un petit échange, puis reviens pour un trade long tant que le bouclier est en CD.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Lance ton Égide dévastatrice (Z) sur son Grappin (E) ou la relance de son Protocole de précision (A) : bloquer ces dégâts renforce ta frappe au sol.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ne reste pas dans la moitié extérieure de son Balayage tactique (Z) : cette zone ralentit, fait plus mal et soigne Camille.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Pop her Adaptive Defenses (passive) with a quick exchange, then come back for a long trade while the shield is on cooldown.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Use Repudiation (W) on her Hookshot (E) or her Precision Protocol (Q) recast: blocking that damage makes your slam hit harder.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Stay out of the outer half of her Tactical Sweep (W): that zone slows you, deals extra damage and heals Camille.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Camille": {
+      "fr": [
+        {
+          "text": "Privilégie les trades courts : sur un échange qui dure, Ambessa reprend l'avantage, surtout une fois ton passif en CD.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Tu prends souvent le lvl 2 en premier : profite de cette avance pour trader avant qu'Ambessa ne te rattrape.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Ne lance pas ton Grappin (E) dans son Égide dévastatrice (Z) : si elle bloque tes dégâts, sa frappe au sol fait bien plus mal.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Favor short trades: in a drawn-out exchange Ambessa takes over, especially once your passive is on cooldown.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "You often hit level 2 first: use that window to trade before Ambessa catches up.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Don't Hookshot (E) into her Repudiation (W): if it blocks your damage, her slam hits much harder.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "AMBESSA GUIDE - How to Carry with Ambessa - Detailed Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Qwjxigtf6os",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Chippys",
+      "publishedAt": "2024-12-16",
+      "timestamps": [
+        "1:31:02"
+      ]
+    },
+    {
+      "title": "IL ME COUNTERPICK, JE LE TRAUMATISE - SoloQ Challenger Top - Ambessa vs Camille - Patch 14.24",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=yIQsN-I_1z8",
+      "consultedAt": "2026-11-12",
+      "channel": "Strey VOD - League of Legends",
+      "publishedAt": "2024-12-12",
+      "timestamps": [
+        "3:13",
+        "6:22",
+        "8:12"
+      ]
+    },
+    {
+      "title": "Camille vs Ambessa Guide - 1300 LP EUW OTP DIAMOND Climb #77",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=LxHPhM3Z5yY",
+      "consultedAt": "2026-11-12",
+      "channel": "MaksimBiceps",
+      "publishedAt": "2026-09-20",
+      "timestamps": [
+        "1:46",
+        "2:07"
+      ]
+    },
+    {
+      "title": "Camille Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/camille",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

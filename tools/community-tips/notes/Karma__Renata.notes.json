@@ -1,0 +1,130 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] Karma's very good into Renata because she can't really do anything to trade with your Mantra Q. She could only shield the damage.",
+    "[0] Karma is very good into most enchanters for that same reason. She can pretty much outrange most of them because RQ range is insane.",
+    "[0] Because Renata is a terrible blind. If you play a poke champ like Karma into her, she's just so useless. Renata is really good into dive comps.",
+    "[0] It's just this lane is going to be really hard for her. I'm just walking up and poking.",
+    "[1] high poke and shield, dont expect to win extended poke fights. Her shield gives MS, making it easier for opponents do dodge glasc q and r. Same as other poke champs, play with the jungler/mid.",
+    "[2] She doesn't really do much. Poke her out and be aware of her W as it can turn around fights and make you lose the lane. Q is super easy to dodge with your E. Shield her poke.",
+    "[2] Bait her E out, else u don't want to trade against her aa E aa since she blocks your Q with it. Go for Poke or Slower fights. If she used her W and its on CD, you can try to get a Kill.",
+    "[2] Karma hard wins Renata Glasc Has very long cooldowns. Punish when she uses any ability. It is also super easy to outrun Hostile Takeover. Even if you are hooked, you can look to turn it with Renewal.",
+    "[2] Laning phase should be pretty easy. If her Q is on cooldown, you can just run at her.",
+    "[2] Renata is actually not that hard given that you can give your team space to disengage from her ulti."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 14 2026-11-12",
+  "videosFound": 60,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "aM_3j6d6Cc4",
+      "channel": "ShoDesu",
+      "result": "utilisé (partie Karma contre Renata 2026-04-13, draft 0:24 et début de lane 1:57)"
+    },
+    {
+      "id": "IH0c6EeE1yY",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (guide Karma, recherche « Renata » sans résultat)"
+    },
+    {
+      "id": "3txRKrHg9hU",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (revue Karma Silver à Challenger, recherche « Renata » sans résultat)"
+    },
+    {
+      "id": "BAWg_W4GJz4",
+      "channel": "Bizzleberry",
+      "result": "lu, inutilisé (« Does Renata Glasc work in 2026? » : Karma jamais citée)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/karma",
+      "result": "ok (1 commentaire d’un auteur de guide Renata : Afnyc #2192650, ancien < 2232000 : mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/renata-glasc",
+      "result": "ok (6 commentaires d’auteurs de guides Karma : #2228175, #2215214, #2206612, #2202147, #2181513, #2158483 ; tous anciens < 2232000 : mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Karma : Renata ne peut que bouclier la Flamme intérieure sous Mantra, forcer son E puis poke",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "ShoDesu (récent) + WhiteLotus (ancien) ; DDragon : Programme de fidélité donne un bouclier aux alliés touchés, Flamme intérieure portée 950"
+    },
+    {
+      "idea": "Karma : Exaltation (vitesse) pour esquiver Poignée de main et fuir Prise de contrôle hostile",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "commentaires anciens, mécanique vérifiée (Exaltation donne de la vitesse ; Poignée de main est un projectile, Prise de contrôle hostile une vague)"
+    },
+    {
+      "idea": "Karma : attention au Patronage, tuer une fois le sort utilisé",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source ancienne + DDragon (retarde la mort, sauve sur un kill, CD 28-24 s)"
+    },
+    {
+      "idea": "Karma : Poignée de main ratée = avancer",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source ancienne + DDragon (CD 16 s)"
+    },
+    {
+      "idea": "Karma : contrer l’enracinement de Renata avec Volonté concentrée sous Mantra (« Renewal »)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "ancien, nom de sort obsolète, interaction avec la projection de la Poignée de main incertaine"
+    },
+    {
+      "idea": "Karma : jouer avec le jungler/mid",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "générique et ancien"
+    },
+    {
+      "idea": "Renata : attendre l’Exaltation de Karma avant la Poignée de main",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "commentaires anciens, mécanique vérifiée (Exaltation donne de la vitesse)"
+    },
+    {
+      "idea": "Renata : garder le Programme de fidélité pour la Flamme intérieure sous Mantra",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "ShoDesu (récent) + WhiteLotus (ancien) ; DDragon : bouclier sur les alliés touchés"
+    },
+    {
+      "idea": "Renata : lane très dure contre le poke, Renata meilleure contre les compos de dive",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "lane : une seule source récente (ShoDesu), Afnyc ancien"
+    }
+  ]
+}

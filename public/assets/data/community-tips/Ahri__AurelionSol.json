@@ -1,0 +1,114 @@
+{
+  "pair": [
+    "Ahri",
+    "AurelionSol"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Ahri": "23813db730612c753a978ae5f213acb6178504c095f16baaea2c124181a30193",
+    "AurelionSol": "959cb80dc1234700d732ec1d630318bbd6cad40e7fc54360148599c07c4f26e2"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Ahri": {
+      "fr": [
+        {
+          "text": "Garde ton Charme (E) pour son Vol astral (Z) : s'il fonce sur toi, le Charme coupe net son vol et le laisse à ta merci.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Quand Aurelion Sol canalise son Souffle de lumière (A) sur la wave, avance et place ton Charme (E) : c'est ta meilleure fenêtre d'échange.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Son Étoile finale (R) tombe après un court délai : garde un dash de ton Assaut spirituel (R) pour sortir de la zone d'impact.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Hold Charm (E) for his Astral Flight (W): if he flies at you, Charm stops the flight cold and leaves him at your mercy.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "When Aurelion Sol channels Breath of Light (Q) on the wave, step up and land Charm (E): that's your best trading window.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "His Falling Star (R) lands after a short delay: keep one Spirit Rush (R) dash to leave the impact zone.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "AurelionSol": {
+      "fr": [
+        {
+          "text": "Ne lance pas ton Vol astral (Z) tant qu'Ahri a son Charme (E) : il stoppe net ton vol. Attends qu'elle le rate, puis engage.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Ne lance pas ton Étoile finale (R) après son premier dash : son Assaut spirituel (R) lui en laisse encore deux pour sortir de la zone.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Don't start Astral Flight (W) while Ahri has Charm (E): it stops your flight cold. Wait for her to miss it, then engage.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Don't cast Falling Star (R) after her first dash: Spirit Rush (R) still gives her two more to leave the zone.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Aurelion Sol MID All match ups Under 30 minutes",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ovJwRBNd9aA",
+      "consultedAt": "2026-11-12",
+      "channel": "o7MaReZo7",
+      "publishedAt": "2026-01-01",
+      "timestamps": [
+        "20:25",
+        "20:35",
+        "20:45"
+      ]
+    },
+    {
+      "title": "Aurelion Sol Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/aurelion-sol",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Ahri Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/ahri",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

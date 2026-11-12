@@ -1,0 +1,162 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] you got to be playing around her CDs and punish her and that maybe makes it playable depending on their play",
+    "[0] so if they use W for whatever reason on your Q, for example, then you have a big big window to punish that",
+    "[0] here ideally I actually have an angle to just W forward and dodge her Q",
+    "[0] Just W dodge her Qs while trying to get all the minions.",
+    "[0] after like level five, you can what you can do like what I do. I just pretty much just queue the wave here. I just avoid laying the lane, basically.",
+    "[0] I wait for the CC. I don't charm, right? I use anything but my charm. And then I charm on the CC to not get a reflect.",
+    "[0] I could use R W. I don't use my Q because the moment I use Q like this, if she W, she blocks my W and Q is is a lot of damage",
+    "[1] So, I'll definitely be using my W to dodge her spells.",
+    "[1] Pretty impossible to deny Mel last hits here. So, we will just push the wave.",
+    "[1] Yeah, we'll probably just non-interactively both push out the wave here, and I will roam, and she will just stay mid lane and do nothing.",
+    "[1] They always They just never realize how uh vulnerable they are without W.",
+    "[1] Like, she has to W one spell if I just keep holding my charm.",
+    "[1] But, if she W'd my Q, I would have obviously had charm, and she was also dead. So, as long as you just ult in, hold the charm whenever she has W up",
+    "[2] The way you beat Mel is not by playing the trading game. The way you beat Mel is by playing on the wave state",
+    "[2] So, we first need to establish wave control and once we establish wave control, that's when we're in a position where we can actually start trading with Mel.",
+    "[2] Baiting out her W can be a very effective tool for you to get control of the lane because the cool down is so incredibly long.",
+    "[2] He baited out the Mel W by throwing the charm besides the Mel, which incentivizes Mel to use her W"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 14 2026-11-12",
+  "videosFound": 37,
+  "videosRead": 3,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "W_uxtZE5f4o",
+      "channel": "Peng",
+      "result": "utilisé (chapitre REVIEW & HOW TO PLAY VS MEL 26:41 ; dit « Malzahar » en conclusion, lapsus : seuls les passages sur Mel sont repris)"
+    },
+    {
+      "id": "oWq_268_7Mw",
+      "channel": "Sjorry",
+      "result": "utilisé (commentaire de partie Ahri vs Mel, 20 min)"
+    },
+    {
+      "id": "Hj-HfZ7MWJw",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (anti-Mel mid illustré par Faker sur Ahri ; 3e couple pour cette vidéo)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Ahri : suivre le CD de la Réfutation, Mel vulnérable sans elle",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (CD 30 s au rang 1 ; les sources disent 35 et 38 s, chiffre non repris)"
+    },
+    {
+      "idea": "Ahri : esquiver le Barrage lumineux avec la vitesse des Lucioles",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Lucioles donne un bref boost de vitesse)"
+    },
+    {
+      "idea": "Ahri : all-in R + Z d'abord, garder le Charme tant que la Réfutation est dispo",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (la Réfutation détruit les projectiles)"
+    },
+    {
+      "idea": "Ahri : jouer la wave avant les échanges",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ahri : lvl 5-6, écraser la wave et roam",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ahri : bait la Réfutation en lançant le Charme à côté de Mel",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source, et en tension avec « garder le Charme » des deux autres"
+    },
+    {
+      "idea": "Ahri : qui gagne la lane",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "contradiction (Peng : lane perdue ; Sjorry : bon matchup pour Ahri), retirée"
+    },
+    {
+      "idea": "Ahri : rester hors de portée des auto-attaques de Mel (passif)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    },
+    {
+      "idea": "Mel : vulnérable sans Réfutation, jouer en retrait pendant son CD",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (CD long, bouclier et destruction des projectiles)"
+    },
+    {
+      "idea": "Mel : garder la Réfutation pour le Charme plutôt que pour l'Orbe",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (côté Ahri : une Réfutation gâchée sur l'Orbe ouvre l'all-in) + DDragon"
+    },
+    {
+      "idea": "Mel : lancer le Barrage lumineux quand les Lucioles sont en CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Ahri esquive avec Lucioles) + DDragon"
+    },
+    {
+      "idea": "Mel : Ahri pousse et roam dès le lvl 5-6, signaler",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Mel : viser le Barrage lumineux sur les last hits d'Ahri",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    }
+  ]
+}

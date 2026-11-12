@@ -11,7 +11,7 @@ import { AbilityKeyPipe, abilityKey } from '../../shared/i18n/ability-key';
 import { BuildMatchupsComponent, MatchupCard } from './build-matchups.component';
 import { GameIconComponent } from '../../shared/ui/game-icon.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
-import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildAsText, formatDelta, formatInt, formatRate, formatTiming, groupItems, isBuildFilter } from './build-utils';
+import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildAsText, formatDelta, formatInt, formatRate, formatTiming, groupItems, isBuildFilter, rankFilters } from './build-utils';
 
 type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 
@@ -33,7 +33,6 @@ export class BuildPageComponent {
   private readonly translate = inject(TranslateService);
   private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
 
-  protected readonly filters = BUILD_FILTERS;
   protected readonly roleOrder = ROLE_ORDER;
   protected readonly shardRows = SHARD_ROWS;
   protected readonly skillColors = SKILL_COLORS;
@@ -52,14 +51,21 @@ export class BuildPageComponent {
     return this.champions.index()?.champions.find((c) => c.slug === slug) ?? null;
   });
   protected readonly role = computed(() => (this.params()?.get('role') ?? '') as Role);
+  /** Rank filters with games of their own tier; the widest one is the default. */
+  protected readonly filters = computed<BuildFilter[]>(() => {
+    const list = rankFilters(this.meta(), this.query()?.get('patch'), this.region());
+    return list.length ? list : [BUILD_FILTERS[0]];
+  });
+  protected readonly defaultFilter = computed(() => this.filters()[0]!);
   protected readonly filter = computed<BuildFilter>(() => {
     const rank = this.query()?.get('rank');
-    return isBuildFilter(rank, BUILD_FILTERS) ? rank : 'emerald_plus';
+    return isBuildFilter(rank, this.filters()) ? rank : this.defaultFilter();
   });
   protected readonly region = computed(() => this.query()?.get('region') ?? 'all');
   protected readonly buildIndex = computed(() => Math.min(2, Math.max(0, Number(this.query()?.get('build') ?? 0) || 0)));
 
-  protected readonly meta = signal<BuildMeta | null>(null);
+  /** `undefined` until meta.json is loaded (the rank filters depend on it). */
+  protected readonly meta = signal<BuildMeta | null | undefined>(undefined);
   protected readonly file = signal<ChampionBuild | null>(null);
   /** Newest patch, when the page falls back to the previous one (not enough games yet). */
   protected readonly fallbackFrom = signal<string | null>(null);
@@ -168,6 +174,7 @@ export class BuildPageComponent {
       };
     });
     void this.champions.loadIndex().catch(() => undefined);
+    void this.data.meta().then((meta) => this.meta.set(meta));
     afterNextRender(() => this.now.set(Date.now()));
 
     effect(() => {
@@ -176,7 +183,7 @@ export class BuildPageComponent {
       const filter = this.filter();
       const region = this.region();
       const patch = this.query()?.get('patch') ?? null;
-      const indexLoaded = !!this.champions.index();
+      const indexLoaded = !!this.champions.index() && this.meta() !== undefined;
       this.ctx.lang(); // localised static data
       untracked(() => void this.load(champion, role, filter, region, patch, indexLoaded));
     });
@@ -257,8 +264,12 @@ export class BuildPageComponent {
     }
   }
 
+  /** Incremented on each load: only the latest one may update the page. */
+  private loadSeq = 0;
+
   private async load(champion: Champion | null, role: Role, filter: BuildFilter, region: string, patch: string | null, indexLoaded: boolean): Promise<void> {
     if (!indexLoaded) return;
+    const seq = ++this.loadSeq;
     if (!champion?.ddragonId || !ROLE_ORDER.includes(role)) {
       this.state.set('not-found');
       return;
@@ -285,9 +296,9 @@ export class BuildPageComponent {
     // Roles available for this champion in the shown patch / filter.
     const index = await this.data.index(file?.patch ?? wanted, filter, region);
     const key = Object.entries((await this.data.core(meta.patches[0]!.ddragonVersion, this.ctx.lang()))?.champions ?? {}).find(([, c]) => c.id === champion.ddragonId)?.[0];
-    this.availableRoles.set(index?.champions.find((c) => String(c.champion) === key)?.roles.map((r) => r.role) ?? []);
 
-    if (this.champion()?.slug !== champion.slug || this.role() !== role) return; // a newer navigation won
+    if (seq !== this.loadSeq) return; // a newer navigation or filter change won
+    this.availableRoles.set(index?.champions.find((c) => String(c.champion) === key)?.roles.map((r) => r.role) ?? []);
     this.file.set(file);
     this.fallbackFrom.set(fallbackFrom);
     if (!file || !file.builds.length) {
@@ -296,6 +307,7 @@ export class BuildPageComponent {
     }
     const version = meta.patches.find((p) => p.patch === file!.patch)?.ddragonVersion ?? meta.patches[0]!.ddragonVersion;
     const [core, champ] = await Promise.all([this.data.core(version, this.ctx.lang()), this.data.champion(version, this.ctx.lang(), champion.ddragonId)]);
+    if (seq !== this.loadSeq) return;
     this.core.set(core);
     this.champStatic.set(champ);
     this.state.set('ready');

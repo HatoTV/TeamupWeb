@@ -878,11 +878,11 @@
     "UPDATED_DAYS": "Mis à jour il y a {{n}} jours",
     "FALLBACK": "Données du patch {{patch}}, mise à jour en cours pour le patch {{latest}}.",
     "SAMPLE_DATA": "Données d'échantillon : statistiques provisoires calculées sur un petit nombre de parties.",
-    "LOW_SAMPLE": "Peu de données pour ce filtre ({{games}} parties) : les chiffres peuvent encore beaucoup varier.",
+    "LOW_SAMPLE": "Échantillon réduit : {{games}} parties. Les chiffres peuvent être peu fiables.",
     "LOADING": "Chargement du build…",
     "INSUFFICIENT_TITLE": "Données insuffisantes",
     "INSUFFICIENT_TEXT": "Pas encore assez de parties pour proposer un build fiable de {{champion}} {{role}} avec ce filtre. Les données sont mises à jour chaque jour.",
-    "TRY_EMERALD": "Voir Émeraude +",
+    "TRY_RANK": "Voir {{rank}}",
     "RECOMMENDED": "Builds recommandés",
     "WR_SHORT": "TV",
     "LABELS": {

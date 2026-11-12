@@ -18,8 +18,8 @@
     </div>
     <label class="select">
       <span class="sr-only">{{ 'BUILDS.RANK' | translate }}</span>
-      <select [value]="filter()" (change)="filter.set($any($event.target).value)">
-        @for (f of filters; track f) {
+      <select [value]="filter()" (change)="rank.set($any($event.target).value)">
+        @for (f of filters(); track f) {
           <option [value]="f" [selected]="f === filter()">{{ 'BUILDS.FILTERS.' + f | translate }}</option>
         }
       </select>
@@ -46,7 +46,7 @@
         @for (row of rows(); track row.key + row.role) {
           <tr>
             <th scope="row">
-              <a class="champ" [routerLink]="ctx.link('/lol/champions/' + row.slug + '/build/' + row.role)" [queryParams]="filter() === 'emerald_plus' ? {} : { rank: filter() }">
+              <a class="champ" [routerLink]="ctx.link('/lol/champions/' + row.slug + '/build/' + row.role)" [queryParams]="filter() === defaultFilter() ? {} : { rank: filter() }">
                 <img [src]="row.icon" alt="" width="36" height="36" loading="lazy" />
                 <span>
                   <span class="champ__name">{{ row.name }}</span>

@@ -820,11 +820,11 @@
     "UPDATED_DAYS": "Updated {{n}} days ago",
     "FALLBACK": "Patch {{patch}} data, update in progress for patch {{latest}}.",
     "SAMPLE_DATA": "Sample data: provisional statistics computed from a small number of games.",
-    "LOW_SAMPLE": "Few games for this filter ({{games}} games): numbers may still change a lot.",
+    "LOW_SAMPLE": "Small sample: {{games}} games. The numbers may be unreliable.",
     "LOADING": "Loading the build…",
     "INSUFFICIENT_TITLE": "Not enough data",
     "INSUFFICIENT_TEXT": "Not enough games yet for a reliable {{champion}} {{role}} build with this filter. Data is updated every day.",
-    "TRY_EMERALD": "See Emerald +",
+    "TRY_RANK": "See {{rank}}",
     "RECOMMENDED": "Recommended builds",
     "WR_SHORT": "WR",
     "LABELS": {

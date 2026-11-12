@@ -1,0 +1,140 @@
+{
+  "pair": [
+    "Nautilus",
+    "Yuumi"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Nautilus": "26c5839d056b971e22d2b610386aae53d04ddc41dd99d5e71c08aa914465a1a8",
+    "Yuumi": "8d3abcd4ced1ea623461e3e759fd72f0e6222f24476854519dbd41d93788a9be"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Nautilus": {
+      "fr": [
+        {
+          "text": "Yuumi ne peut pas empêcher ton CC de tomber sur son ADC : dès que ton Abordage (A) est prêt, engage sur lui.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "N'engage pas seul sans ton ADC : en début de partie, le duo Yuumi gagne facilement un 2v1 contre un Nautilus isolé.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Attachée, Yuumi ne peut être ciblée que par les tours : concentre tes CC sur son ADC plutôt que de la chercher.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Yuumi can't stop your crowd control from landing on her ADC: as soon as Dredge Line (Q) is up, engage on them.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Don't go in without your ADC: early on, the Yuumi duo easily wins a 2v1 against a lone Nautilus.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "While attached, Yuumi can only be targeted by turrets: put your crowd control on her ADC instead of looking for her.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Yuumi": {
+      "fr": [
+        {
+          "text": "Attachée avec Félin pour l'autre ! (Z), seules les tours peuvent te cibler : Nautilus lancera son Abordage (A) sur ton ADC, protège-le.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Si Nautilus engage sans son ADC en début de partie, retourne le combat en 2v1 avec ton ADC pour prendre le kill.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Si la lane est trop dure, joue safe et ne force rien : tu scales bien mieux que Nautilus sur la durée.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ],
+      "en": [
+        {
+          "text": "Attached with You and Me! (W), only turrets can target you: Nautilus will throw Dredge Line (Q) at your ADC, so protect them.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If Nautilus engages without his ADC early, turn it into a 2v1 with your ADC and take the kill.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "If the lane is too hard, play safe and force nothing: you scale far better than Nautilus over time.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Every Support Counter Pick Explained",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Gme87rAvO_8",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2026-03-12",
+      "timestamps": [
+        "8:47",
+        "9:12",
+        "9:49"
+      ]
+    },
+    {
+      "title": "The Only Support Matchup Guide You'll Ever Need",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=D7DemQewZqM",
+      "consultedAt": "2026-11-12",
+      "channel": "TheRealRaven",
+      "publishedAt": "2026-11-11",
+      "timestamps": [
+        "11:39",
+        "12:05",
+        "12:17"
+      ]
+    },
+    {
+      "title": "Yuumi's hardest Matchups aren't what you think",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=HQbLWSjk6pg",
+      "consultedAt": "2026-11-12",
+      "channel": "Duo Diff",
+      "publishedAt": "2026-04-25",
+      "timestamps": [
+        "0:42",
+        "0:54",
+        "1:06"
+      ]
+    }
+  ]
+}

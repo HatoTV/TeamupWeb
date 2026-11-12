@@ -1,0 +1,173 @@
+{
+  "pair": [
+    "Bard",
+    "Thresh"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Bard": "7087eda8d88d9dde53472de388ef88c6603004d2f00bcf5e62cc5cb82c79f2fe",
+    "Thresh": "2afff928f5e153cdfcad0d8e4104f6c19afa08956b052a942a0ca580dc19cd9c"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Bard": {
+      "fr": [
+        {
+          "text": "Tu es fragile : une seule Peine capitale (A) encaissée peut suffire à te tuer, joue ta lane en esquivant chaque chaîne.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Cherche à aligner Thresh avec son ADC ou un sbire : ton Lien cosmique (A) les étourdit tous les deux.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Sois patient : garde ton Destin tempéré (R) tant que sa lanterne est disponible, celui qui lance son sort clé en premier perd l'échange.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Si Thresh attrape un allié, lance ton Destin tempéré (R) sur lui ou sur sa cible pour figer l'action.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "You're squishy: a single Death Sentence (Q) can be enough to kill you, so play the lane around dodging every hook.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Line Thresh up with his ADC or a minion: Cosmic Binding (Q) stuns both of them.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Be patient: hold Tempered Fate (R) while his lantern is still up; whoever uses their key spell first loses the exchange.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "If Thresh hooks an ally, cast Tempered Fate (R) on him or on the target to freeze the play.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Thresh": {
+      "fr": [
+        {
+          "text": "Bard est très fragile : une Peine capitale (A) qui le touche suffit souvent à le tuer ou à lui prendre ses sorts d'invocateur.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Ne gaspille pas ton Lien des ténèbres (Z) : Bard attend qu'il soit parti pour lancer son Destin tempéré (R), garde-le pour sauver tes alliés.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Éloigne-toi des murs, des sbires et de ton ADC : son Lien cosmique (A) t'étourdit s'il continue sa course jusqu'à l'un d'eux.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Bard roame plus que toi : quand il part chercher ses carillons, signale-le et punis son ADC resté seul en lane.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ],
+      "en": [
+        {
+          "text": "Bard is very squishy: one Death Sentence (Q) that lands is often enough to kill him or burn his summoner spells.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Don't waste Dark Passage (W): Bard waits for it to be gone before casting Tempered Fate (R), so keep it to save your allies.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Stay away from walls, minions and your ADC: his Cosmic Binding (Q) stuns you if it carries on into any of them.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Bard roams more than you: when he leaves to collect chimes, ping it and punish his ADC left alone in lane.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "THRESH MATCHUPS (tier list)",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Y2NwKEW240Y",
+      "consultedAt": "2026-11-12",
+      "channel": "AxL",
+      "publishedAt": "2025-02-11",
+      "timestamps": [
+        "2:01",
+        "2:13",
+        "2:28"
+      ]
+    },
+    {
+      "title": "What Are Bard's HARDEST Matchups? - Bard Matchup Tier List",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Tk6dkm0LZFI",
+      "consultedAt": "2026-11-12",
+      "channel": "Lathyrus",
+      "publishedAt": "2026-08-04",
+      "timestamps": [
+        "30:23",
+        "30:36"
+      ]
+    },
+    {
+      "title": "Bard Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/bard",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Thresh Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/thresh",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "GUIDE COMPLET THRESH - OTP LE PLUS CHAUD DE TA RÉGION (Feat Shunrim, best thresh EUW)",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Zc-njyIJ0M8",
+      "consultedAt": "2026-11-12",
+      "channel": "OTP - League of Legends",
+      "publishedAt": "2026-02-11",
+      "timestamps": [
+        "57:14"
+      ]
+    }
+  ]
+}

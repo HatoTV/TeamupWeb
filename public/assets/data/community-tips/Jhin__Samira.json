@@ -1,0 +1,133 @@
+{
+  "pair": [
+    "Jhin",
+    "Samira"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Jhin": "50dc94bbadc487d669af01570fd6aec1208d2ce3576b4f5d11c2b08d3195ca6d",
+    "Samira": "a1d01628ae560055a2c45557cd4c1ab59407ad10dce2d814a8ae68cbea478780"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Jhin": {
+      "fr": [
+        {
+          "text": "Garde ta 4e balle pour le moment où son Tourbillon de lame (Z) est en CD : il détruit tes tirs, et elle le réserve à ce coup critique.",
+          "sources": 4,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Quand elle colle sa wave, lance ta Grenade dansante (A) sur un sbire presque mort : elle rebondit jusqu'à Samira et frappe plus fort après chaque kill.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Ta Floraison mortelle (Z) n'immobilise que si elle a pris des dégâts juste avant : tire-la après une auto ou un sort de ton support.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Save your fourth shot for when her Blade Whirl (W) is on cooldown: it destroys your shots, and she keeps it for that guaranteed crit.",
+          "sources": 4,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "When she hugs her wave, throw Dancing Grenade (Q) at a low minion: it bounces onto Samira and hits harder after each kill.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Deadly Flourish (W) only roots if she was damaged just before: fire it after one of your autos or a spell from your support.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Samira": {
+      "fr": [
+        {
+          "text": "Garde ton Tourbillon de lame (Z) pour sa 4e balle : il détruit le tir et le prive de son plus gros coup.",
+          "sources": 4,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Tiens-toi à l'écart de tes sbires, surtout quand ils sont bas : sa Grenade dansante (A) rebondit sur eux jusqu'à toi.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Esquive sa Floraison mortelle (Z) : si tu as pris des dégâts juste avant, elle te root et il te punit.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Keep Blade Whirl (W) for his fourth shot: it destroys the bullet and denies his biggest hit.",
+          "sources": 4,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Stand away from your minions, especially when they're low: his Dancing Grenade (Q) bounces off them onto you.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Dodge his Deadly Flourish (W): if you took damage just before, it roots you and he punishes you.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "The ULTIMATE Samira ADC Guide – How I Went 23/4 in High Elo",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=6R5O9PKlfaM",
+      "consultedAt": "2026-11-12",
+      "channel": "KingBranco",
+      "publishedAt": "2025-11-27",
+      "timestamps": [
+        "1:35",
+        "1:48",
+        "5:32",
+        "9:26"
+      ]
+    },
+    {
+      "title": "Samira Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/samira/counters/adc?target_champion=jhin",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Jhin Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=samira",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Jhin Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/jhin",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

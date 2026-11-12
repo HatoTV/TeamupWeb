@@ -1,0 +1,62 @@
+{
+  "searches": 9,
+  "sourceSentences": [],
+  "method": "youtube-subtitles (hato-clips), lot 6 2026-11-12",
+  "videosFound": 70,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (chapitres Rell 27:48 et Leona 34:45) : Rell et Leona citées ensemble seulement comme counters d'autres supports (Tahm Kench, Syndra, Alistar) ; aucun conseil Leona contre Rell. Sous-titres 'en' d'aspect traduit (« starter champion », « Reverberation », « line »)"
+    },
+    {
+      "id": "tXvdx3nJ-ek",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (chapitre Leona vs Rell 0:00-40:46) : commentaire de partie ; seules remarques sur Rell = bottes Mercure (9:09) et rune Aftershock (23:25), hors gameplay"
+    },
+    {
+      "id": "Nay60q3y7mU",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé : comparaison de pick Leona/Rell (Leona meilleure contre Nami grâce au buffer de Lame du zénith), rien sur le matchup direct"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "lu, inutilisé : sous-titres 'en' visiblement traduits (« charmers », « magicians »), statistiques par classe ; Rell et Leona citées comme engages, aucun conseil propre au couple"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/rell",
+      "result": "ok, no-advice (Leona citée seulement par comparaison dans des commentaires de guides d'autres champions)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/leona",
+      "result": "ok, no-advice (un seul commentaire citant Rell, sans contenu de jeu)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/leona/counters/support?target_champion=rell",
+      "result": "ok, no-advice (tips généraux sur Leona)"
+    },
+    {
+      "url": "https://mobalytics.gg/lol/champions/leona/counters/support/vs-rell",
+      "result": "non ouvert : vu en recherche web, conseils de matchup derrière un paywall, mobalytics bloque (403)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rell meilleure au lvl 2 que Leona",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "statistique de site (mobalytics, résumé de recherche), page non lue, pas un conseil"
+    },
+    {
+      "idea": "Leona : bottes Mercure contre Rell",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "objet, interdit"
+    }
+  ]
+}

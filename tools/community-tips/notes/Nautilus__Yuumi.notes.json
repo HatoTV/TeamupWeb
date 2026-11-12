@@ -1,0 +1,116 @@
+{
+  "searches": 8,
+  "sourceSentences": [
+    "[0] because she has one more summoner spells or they have two fighting summoner spells because she doesn't play with flash, so they can have ignite, heal, exhaust, and it can be very dangerous early.",
+    "[0] She has very good scaling with three items, and if you don't put pressure on the map and early objectives, she's going to probably win the game",
+    "[0] Super counters, Pantheon, Nautilus, Elise, Pyke, Bard, Leona, everything that moves, that put pressure.",
+    "[0] Now, when Yuumi wins is when no one puts pressure on the map. No one does the dragons.",
+    "[1] Yumi rides on one ally, and while she's attached, nothing can target her except turrets and incoming projectiles, but she also can't move, attack, or flash.",
+    "[1] Yumi loses to every single hook and every single engaged support.",
+    "[1] because the crowd control will always land on her ADC and she can't stop it.",
+    "[2] Yuumi isn't going to be dying to hooks and grabs the same way other supports are in the lane phase. She's attached to you. So, most of the aggression just misses.",
+    "[2] They'll rush in without their ADC early and you just isolate the 2v1. And all of a sudden, you have a kill before they even know what happened.",
+    "[2] If you're not comfortable doing that yet, you can just play safe and scale with Yuumi. The point is that you have options into engage."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 6 2026-11-12",
+  "videosFound": 67,
+  "videosRead": 3,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre Yuumi 8:33-10:14 : Nautilus cité en super counter). Piste « en » = traduction automatique passée par l'espagnol : lu en « en-orig » (voix anglaise). Ouverture partagée avec Alistar__Janna."
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "utilisé (chapitre Misfits 10:17 : Yuumi contre hooks et engages). Piste « en » traduite : lu en « en-orig ». Ouverture partagée avec Alistar__Janna."
+    },
+    {
+      "id": "HQbLWSjk6pg",
+      "channel": "Duo Diff",
+      "result": "utilisé (point de vue d'un joueur Yuumi : pourquoi les engages comme Nautilus ne sont pas son pire matchup, 0:00-1:06)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Nautilus : Yuumi ne peut pas empêcher le CC sur son ADC, engager dès que le hook est prêt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Nautilus super counter de Yuumi ; le CC atteint toujours son ADC)"
+    },
+    {
+      "idea": "Nautilus : ne pas engager seul sans son ADC, le duo Yuumi gagne le 2v1 tôt",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (duo Yuumi dangereux tôt ; les engages isolés se font punir en 2v1). Mention des sorts d'invocateur de la source non reprise."
+    },
+    {
+      "idea": "Nautilus : Yuumi attachée n'est ciblable que par les tours, viser l'ADC",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Félin pour l'autre ! : inciblable sauf par les tours)"
+    },
+    {
+      "idea": "Nautilus : roam top/mid, drakes tôt, invade avec le jungler",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    },
+    {
+      "idea": "Nautilus : ne pas chercher le kill, laisser la vague revenir et punir depuis le brush",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Yuumi : attachée, inciblable sauf par les tours, le hook vise l'ADC",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Félin pour l'autre ! : inciblable sauf par les tours)"
+    },
+    {
+      "idea": "Yuumi : punir en 2v1 un Nautilus qui engage sans son ADC",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Yuumi : jouer safe et scaler si la lane est dure",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (Yuumi scale très bien ; jouer safe et scaler contre les engages)"
+    },
+    {
+      "idea": "Yuumi : son équipe doit contester les premiers drakes et la pression sur la carte",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    }
+  ]
+}

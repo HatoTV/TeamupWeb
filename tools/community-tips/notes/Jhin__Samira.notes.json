@@ -1,0 +1,148 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] for Jin specifically, what you should be thinking about the most is his fourth auto attack, which does the most damage, his Q bouncing off targets onto you",
+    "[0] So, you have to be a bit away from the minions when he does this, especially when the minions die, and his W rooting you. You want to be actively trying to dodge that.",
+    "[0] I actually mis time my own W on the fourth gen auto attack. My Nami misses the bubble.",
+    "[0] I have to block some Jin shots for the Nami. I W the fourth shot, but we're getting TPD on.",
+    "[1] Be careful of Jhin's Dancing Granade (Q) that bounces off of minions, and use Blade Whirl [W] on his final round attack.",
+    "[1] Currently, there is an in-game bug that does not allow Blade Whirl [W] to block Deadly Flourish (W)!",
+    "[2] Blade Whirl(W) can even nullify Jhin's Deadly Flourish. Use Jhin's final round attack when Blade Whirl(W) is on cooldown!",
+    "[2] Jhin at 50.30% and Samira at 49.70% in the head-to-head bar",
+    "[3] just dodge his 4th shot with your W.",
+    "[3] Especially cuz of his W because he can root you and your W can't block it",
+    "[3] He lacks mobility so an engage support makes the matchup much easier."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 6 2026-11-12",
+  "videosFound": 45,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "8Ln7EC-ryxo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, inutilisé (55:38 : Samira citée « pas si effrayante », sous-titres qui semblent traduits ; rien d'exploitable)"
+    },
+    {
+      "id": "6R5O9PKlfaM",
+      "channel": "KingBranco",
+      "result": "utilisé (VOD review Samira vs Jhin, 1:35-1:48 dangers de Jhin, 5:32 et 9:26 Tourbillon de lame sur la 4e balle)"
+    },
+    {
+      "id": "H1gLj2D6zyg",
+      "channel": "Bibou VOD - League of Legends",
+      "result": "lu, inutilisé (stream sans conseil de matchup)"
+    },
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu, inutilisé (archétypes de supports, ni Jhin ni Samira ; ouverture comptée aussi pour Jhin__Nilah)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/samira/counters/adc?target_champion=jhin",
+      "result": "ok (tip propre au matchup)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=samira",
+      "result": "ok (tip propre au matchup)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/jhin",
+      "result": "ok (commentaires d'auteurs de guides Samira contre Jhin)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : 4e balle quand le Tourbillon de lame est en CD",
+      "sourceIdx": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "4 sources + DDragon (Blade Whirl détruit les projectiles ennemis)"
+    },
+    {
+      "idea": "Jhin : Grenade dansante sur un sbire bas pour rebondir sur Samira",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (rebond, bonus de dégâts sur kill)"
+    },
+    {
+      "idea": "Jhin : Floraison mortelle après des dégâts pour le root",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (root si dégâts récents)"
+    },
+    {
+      "idea": "Samira : Tourbillon de lame sur la 4e balle",
+      "sourceIdx": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "4 sources + DDragon"
+    },
+    {
+      "idea": "Samira : rester loin des sbires bas (rebond de la Grenade dansante)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Samira : esquiver la Floraison mortelle (root)",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Samira : le Tourbillon de lame ne bloque pas la Floraison mortelle (bug)",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": false,
+      "reason": "contredit par [2] et par DDragon (détruit les projectiles) : non vérifiable, retiré"
+    },
+    {
+      "idea": "Samira : à mi-vie contre mi-vie, l'échange te favorise (profil d'assassin)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Samira : zoner Jhin hors de sa lane quand tu as l’avance",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Samira : Jhin sans mobilité, un support engage aide",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 seule source, draft plus que gameplay"
+    }
+  ]
+}

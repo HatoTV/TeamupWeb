@@ -1,0 +1,146 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] any trade, short trade you do, you just lose. you walk up the auto attack, she'll press Q and you'll hear that and she'll throw like a thousand missiles at you",
+    "[0] Like early game it's fine, but then she gets stealth and I don't know, she just picks you off if she wants. She pokes you with a W.",
+    "[1] Kai'Sa is a very hard counter to Twitch due to her W revealing you in stealth",
+    "[1] coisa que o Twitch não tem, apenas troque perto dos seus minions para dissipar seu Q.",
+    "[1] she almost always loses lane into Twitch.",
+    "[2] Your W reveals him and your Q can hit him even if he is invisible.",
+    "[2] Save your ultimate to dodge his burst or reposition when he opens up with Spray and Pray.",
+    "[2] The extra range lets Twitch hit Kai'Sa from much farther away, forcing her to walk into his damage",
+    "[2] Twitch isnt that big of a deal as long as you respect his invisibility and level 6 spike."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 6 2026-11-12",
+  "videosFound": 46,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "3LxH7QOgsU4",
+      "channel": "Booshi",
+      "result": "lu, inutilisé (PRO GUIDE, chapitre Match Ups 33:10 : Twitch jugé faible, aucun conseil de jeu)"
+    },
+    {
+      "id": "fAbMTDEX1fQ",
+      "channel": "Wackaflcka",
+      "result": "utilisé (tier list Twitch, 2:07-2:19 : Kai’Sa gagne les short trades avec son Q)"
+    },
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, inutilisé (chapitres Kai'Sa et Twitch : conseils génériques sur Twitch, rien de propre au couple ; non compté dans les usages)"
+    },
+    {
+      "id": "LRl5S6x_7Mg",
+      "channel": "collionLoL",
+      "result": "lu, inutilisé (partie commentée sans conseil de matchup)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/kaisa",
+      "result": "ok (commentaires d'auteurs de guides Twitch contre Kai'Sa)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/twitch",
+      "result": "ok (commentaires d'auteurs de guides Kai'Sa contre Twitch)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kai'Sa : le Rayon du Néant révèle Twitch camouflé",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (True Sight sur le premier ennemi touché)"
+    },
+    {
+      "idea": "Kai'Sa : punir ses autos avec Pluie d'Icathia loin des sbires",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (missiles répartis entre les ennemis proches)"
+    },
+    {
+      "idea": "Kai'Sa : garder Instinct meurtrier contre Panique",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bond près d’un champion marqué, bouclier)"
+    },
+    {
+      "idea": "Kai'Sa : sa Pluie d'Icathia touche Twitch invisible",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Kai'Sa : respecter son invisibilité et son lvl 6",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "commentaires de guides 12.22 et 13.9 (plus de 2 ans), lane"
+    },
+    {
+      "idea": "Kai'Sa : attendre que Twitch se montre avant de lancer ses sorts en teamfight",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "BBC (non listée) générique contre Twitch + commentaire 13.4 trop ancien"
+    },
+    {
+      "idea": "Twitch : short trades près de ses sbires pour diluer la Pluie d'Icathia",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Twitch : le Rayon du Néant le révèle, rester derrière ses sbires",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (premier ennemi touché)"
+    },
+    {
+      "idea": "Twitch : Kai'Sa invisible avec Surpresseur évolué peut le pick",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Evolved : invisibilité)"
+    },
+    {
+      "idea": "Twitch : la portée de Panique force Kai'Sa à avancer",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (portée d’attaque bonus)"
+    },
+    {
+      "idea": "Twitch : Kai'Sa perd presque toujours la lane",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "guide 13.6 (plus de 2 ans) et contredit par [0]"
+    },
+    {
+      "idea": "Twitch : attendre le lvl 6, jouer flanc en teamfight",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "BBC : conseil générique sur Twitch, 3 tips propres au couple suffisent"
+    }
+  ]
+}

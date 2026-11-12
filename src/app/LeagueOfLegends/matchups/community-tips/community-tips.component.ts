@@ -3,7 +3,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { Champion } from '../../../core/data/champion-data.service';
 import { RouteContextService } from '../../../core/route-context.service';
 import { IconComponent } from '../../../shared/ui/icon/icon.component';
-import { CommunityTip, CommunityTipsFile, CommunityTipsService, formatSourceDate, sortTips } from './community-tips.service';
+import { CommunityTip, CommunityTipsFile, CommunityTipsService, formatSourceDate, sideTips } from './community-tips.service';
 
 /** Consensus indicator: 5 dots. */
 const DOTS = [1, 2, 3, 4, 5];
@@ -35,13 +35,12 @@ export class CommunityTipsComponent {
 
   protected readonly lang = computed<'fr' | 'en'>(() => (this.ctx.lang() === 'fr' ? 'fr' : 'en'));
 
-  /** Tips of the selected champion's perspective, in display order. */
-  protected readonly tips = computed<CommunityTip[]>(() => {
-    const file = this.file();
-    const id = this.me().ddragonId;
-    if (!file || file.status === 'insufficientSources' || !id) return [];
-    return sortTips(file.perspectives[id]?.[this.lang()] ?? []);
-  });
+  /** Tips of the selected champion's perspective, in display order ([] when that side has too few). */
+  protected readonly tips = computed<CommunityTip[]>(() => sideTips(this.file(), this.me().ddragonId, this.lang()));
+  /** Only the other side is filled: say so and offer to reverse the selection. */
+  protected readonly onlyOtherSide = computed(
+    () => !this.tips().length && sideTips(this.file(), this.vs().ddragonId, this.lang()).length > 0
+  );
   protected readonly needsRecheck = computed(() => this.file()?.status === 'needsRecheck');
   protected readonly sources = computed(() =>
     (this.file()?.sources ?? []).map((s) => ({ ...s, date: formatSourceDate(s.consultedAt, this.lang()) }))

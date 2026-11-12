@@ -40,6 +40,14 @@
         </li>
       }
     </ol>
+  } @else if (onlyOtherSide()) {
+    <div class="ct__state ct__state--empty">
+      <p class="ct__empty-title">{{ 'COMMUNITY_TIPS.SIDE_NOT_ENOUGH' | translate: { champion: me().name } }}</p>
+      <button type="button" class="btn btn--secondary btn--sm ct__reverse" (click)="reverse.emit()">
+        <app-icon name="swap" [size]="16" />
+        {{ 'COMMUNITY_TIPS.SEE_OTHER_SIDE' | translate: { champion: vs().name } }}
+      </button>
+    </div>
   } @else {
     <div class="ct__state ct__state--empty">
       <p class="ct__empty-title">

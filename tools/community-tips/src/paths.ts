@@ -11,6 +11,7 @@ export const PROGRESS_FILE = root('tools/community-tips/progress.json');
 export const GLOSSARY_FILE = root('tools/i18n-matchups/glossary.json');
 export const GLOSSARY_MD = root('tools/i18n-matchups/glossaire-lol-fr.md');
 export const SITES_FILE = root('tools/community-tips/sites.json');
+export const CHANNELS_FILE = root('tools/community-tips/channels.json');
 
 export const today = (): string => new Date().toISOString().slice(0, 10);
 

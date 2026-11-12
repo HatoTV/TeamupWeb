@@ -1,0 +1,36 @@
+{
+  "updatedAt": "2026-11-12",
+  "note": "Chaînes YouTube pour la recherche par sous-titres (hato-clips). « guides » : guides commentés, consultés en premier ; « lang » = langue de la voix, à demander aux sous-titres (jamais une traduction automatique). « excluded » : replays sans commentaire ou vidéos traduites, jamais une source (contrôlé par tips:check).",
+  "guides": {
+    "Peng": { "lang": "en", "champions": ["Ahri", "Aurora"], "level": "Rank 1 Ahri", "note": "Chapitre REVIEW en fin de vidéo : le plus utile." },
+    "Sjorry": { "lang": "en", "champions": ["mid"], "level": "Rank 1 Ahri, coach mid", "note": "Voix anglaise : demander les sous-titres en, pas fr (traduction automatique)." },
+    "Repobah": { "lang": "en", "champions": ["Yone", "Yasuo"], "level": "Challenger", "note": "Séries « Educational [Commentary] »." },
+    "WayOfTheTempest": { "lang": "en", "champions": ["Yone", "Yasuo"], "level": "Challenger", "note": "Vérifier la date : beaucoup de vidéos de plus de 18 mois." },
+    "Mandrew": { "lang": "en", "champions": ["Syndra"], "level": "High elo", "note": "Séries « Educational »." },
+    "Coach Mysterias": { "lang": "en", "champions": ["Syndra", "mid"], "level": "Coach, Master+", "note": "Vidéos de plusieurs heures : chercher seulement le nom de l'adversaire, dans les chapitres du matchup." },
+    "Strey VOD - League of Legends": { "lang": "fr", "champions": ["top"], "level": "High elo", "note": "Commente ses lanes en FR." },
+    "WoitlanDunk ": { "lang": "fr", "champions": ["Darius"], "level": "Master", "note": "Le nom de la chaîne finit par une espace sur YouTube." }
+  },
+  "excluded": {
+    "Yasuo Legends": "replays sans commentaire",
+    "Yasuo Challenger Replays": "replays sans commentaire",
+    "Yone Challenger Replays": "replays sans commentaire",
+    "Ahri Challenger Replays": "replays sans commentaire",
+    "Syndra Challenger Replays": "replays sans commentaire",
+    "Zaahen Challenger Replays": "replays sans commentaire",
+    "Challenger Replays": "replays sans commentaire",
+    "LoL Challenger & Grandmaster Replays": "replays sans commentaire",
+    "Lol Korean Pro Replays": "replays sans commentaire",
+    "domisumReplay: Zaahen": "replays sans commentaire",
+    "TOPMID GOSU": "replays sans commentaire",
+    "Rank 1 CN Mid": "replays sous-titrés depuis le chinois",
+    "Peak CN Top": "replays sous-titrés depuis le chinois",
+    "challenger asie": "replays sans commentaire",
+    "PZ ZZANG": "voix coréenne, sous-titres traduits (surtout de la musique)",
+    "2deal": "voix allemande, sous-titres traduits ; peu de conseils de matchup"
+  },
+  "titleHints": {
+    "prefer": ["guide", "educational", "commentary", "explained", "how to beat", "comment jouer", "matchup"],
+    "avoid": ["Replays", "Gameplay - Patch", "[Eng Sub]", "Full Game", "who wins", "qui gagne"]
+  }
+}

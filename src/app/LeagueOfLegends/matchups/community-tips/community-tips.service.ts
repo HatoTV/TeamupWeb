@@ -21,7 +21,16 @@ export interface CommunityTipsFile {
   gameVersion: string;
   status: TipsStatus;
   perspectives: Record<string, { fr: CommunityTip[]; en: CommunityTip[] }>;
-  sources: Array<{ title: string; site: string; url: string; consultedAt: string }>;
+  sources: Array<{
+    title: string;
+    site: string;
+    url: string;
+    consultedAt: string;
+    /** Video sources only. */
+    channel?: string;
+    publishedAt?: string;
+    timestamps?: string[];
+  }>;
 }
 
 interface TipsIndex {
@@ -42,6 +51,16 @@ export function sortTips(tips: readonly CommunityTip[]): CommunityTip[] {
         TIP_CATEGORIES.indexOf(a.category) - TIP_CATEGORIES.indexOf(b.category)
     )
     .slice(0, MAX_TIPS);
+}
+
+/** Below this many tips, a perspective is not shown (« not enough sources yet »). */
+export const MIN_TIPS_PER_SIDE = 2;
+
+/** Tips of one perspective in display order, or [] when the file has too few for that side. */
+export function sideTips(file: CommunityTipsFile | null | undefined, id: string | null | undefined, lang: 'fr' | 'en'): CommunityTip[] {
+  if (!file || file.status === 'insufficientSources' || !id) return [];
+  const tips = sortTips(file.perspectives[id]?.[lang] ?? []);
+  return tips.length >= MIN_TIPS_PER_SIDE ? tips : [];
 }
 
 /** « 12 nov. 2026 » (fr), « Nov 12, 2026 » (en), from an ISO date (YYYY-MM-DD). */

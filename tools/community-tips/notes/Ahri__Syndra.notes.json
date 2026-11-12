@@ -1,0 +1,141 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] you can utilize your W to dodge her Q's. And you want to be playing around her Q's cool down.",
+    "[0] I'm baiting Syndra to actually use Q Q E on the wave and me.",
+    "[0] I trade back with auto W into Q. Now, already here this is a game winning trade.",
+    "[0] I get prior, right and hit them plate and all she did right. I'm going top.",
+    "[1] Le plus important, c'est d' utiliser votre Z pour esquiver son A.",
+    "[1] Si jamais elle rate son E, vous pouvez essayer de lui sauter dessus et de la tuer après le niveau six.",
+    "[1] Cette championne gaspille l'QE et vous la tuez.",
+    "[1] C'est une championne très, très fragile, sans aucun moyen de vous déloger une fois qu'elle n'a plus son QE.",
+    "[1] je vais volontiers faire semblant de roam ici et ensuite piéger.",
+    "[2] We're going to keep playing for shove here.",
+    "[2] I dodged the charm, but she just has so much damage with ignite and auto attacks and W, so yeah, I just need to respect the Q2 there.",
+    "[3] once you get towards this point, you want to get lane control by winning the trades and by pushing the wave as well.",
+    "[3] Ari's going to get one roam window here, so be a little bit careful for that.",
+    "[3] Yona died to the Ari Rome."
+  ],
+  "method": "youtube-subtitles (hato-clips), test 2026-11-12",
+  "videosFound": 22,
+  "videosRead": 4,
+  "videosUsed": 4,
+  "videosTried": [
+    {
+      "id": "hu-4ACVoVWg",
+      "channel": "Peng",
+      "result": "utilisé (30:51, plafond de 30 min)"
+    },
+    {
+      "id": "_20P4HQj_Jg",
+      "channel": "Sjorry",
+      "result": "utilisé (43 min ; sous-titres FR auto-traduits de l'anglais : « Synindra », touches déjà converties A/Z)"
+    },
+    {
+      "id": "jgP4B7Fg2eE",
+      "channel": "Mandrew",
+      "result": "utilisé (32 min)"
+    },
+    {
+      "id": "4c90SvsFyR0",
+      "channel": "Coach Mysterias",
+      "result": "utilisé (vidéo de 5 h 34 : recherche « Ahri » seulement, dans les chapitres Syndra vs Ahri)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ahri : Z pour esquiver la Sphère noire",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W = bonus de vitesse)"
+    },
+    {
+      "idea": "Ahri : faire gâcher le combo A-E puis trader",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E repousse les sphères, étourdit)"
+    },
+    {
+      "idea": "Ahri : push puis roam (top)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ahri : trader pendant le CD de la Sphère noire",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q cd 7 s)"
+    },
+    {
+      "idea": "Syndra : garder A-E pour l'engage d'Ahri",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "même idée vue du côté Syndra, 2 sources + DDragon"
+    },
+    {
+      "idea": "Syndra : push pour la priorité",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Syndra : signaler les roams d'Ahri",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (Sjorry du côté Ahri, Mysterias du côté Syndra)"
+    },
+    {
+      "idea": "Syndra : respecter le retour de l'orbe",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts bruts au retour)"
+    },
+    {
+      "idea": "Syndra : trader davantage après l'amélioration de A",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : charge supplémentaire de Sphère noire)"
+    },
+    {
+      "idea": "Ahri : tuer Syndra après le lvl 6 si elle rate son E",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Syndra : stun Ahri après ses dashs en teamfight",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source, hors lane"
+    }
+  ]
+}

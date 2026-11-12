@@ -9,29 +9,67 @@
     "Yasuo": "1d87ad96c97179d48acb407afa161ca66cdb56c6f23d25c40878f49090f4b3c6",
     "Yone": "18432bcf2af23572a60748ec9bd91b1bd23eef21695145c499d1f95ea6d5bca1"
   },
-  "status": "insufficientSources",
+  "status": "ok",
   "perspectives": {
     "Yasuo": {
       "fr": [],
       "en": []
     },
     "Yone": {
-      "fr": [],
-      "en": []
+      "fr": [
+        {
+          "text": "Fais d'abord sauter le bouclier du passif de Yasuo avec ton Fendoir spirituel (Z), puis lance le vrai trade une fois qu'il est tombé.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Évite de lancer ton A3 quand Yasuo a sa tornade (A) et son ult : il te knock-up à son tour avec sa tornade, puis enchaîne avec Dernier soupir (R).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Pop Yasuo's passive shield first with Spirit Cleave (W), then start the real trade once it's gone.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Avoid throwing your Q3 while Yasuo has his tornado (Q) and ult up: he knocks you up in return with his own tornado, then follows with Last Breath (R).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
     }
   },
   "sources": [
     {
-      "title": "How to punish Yone?",
-      "site": "orbispatches.com",
-      "url": "https://orbispatches.com/gaming-faq/how-to-punish-yone",
-      "consultedAt": "2026-11-12"
+      "title": "Repobah Educational Challenger Yone vs Yasuo [Commentary]",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=EVVqZwrQ7To",
+      "consultedAt": "2026-11-12",
+      "channel": "Repobah",
+      "publishedAt": "2026-09-09",
+      "timestamps": [
+        "1:51",
+        "5:46",
+        "10:13"
+      ]
     },
     {
-      "title": "Yone Mid Counters (Yasuo matchup tip)",
-      "site": "op.gg",
-      "url": "https://op.gg/lol/champions/yone/counters/mid?target_champion=yasuo",
-      "consultedAt": "2026-11-12"
+      "title": "How to Destroy: Yasuo as Yone!",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=V4sW-TVjhMs",
+      "consultedAt": "2026-11-12",
+      "channel": "WayOfTheTempest",
+      "publishedAt": "2024-12-08",
+      "timestamps": [
+        "5:45"
+      ]
     }
   ]
 }

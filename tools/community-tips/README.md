@@ -20,7 +20,21 @@ npm run tips:check                                         # depuis la racine : 
 - `public/assets/data/community-tips/index.json` : couples disponibles et statut, lu par le site.
 - `notes/{A}__{B}.notes.json` (non publié) : recherches, pages tentées, idées gardées / retirées, phrases des sources pour le contrôle anti-copie.
 - `progress.json` : couples faits, en cours, sources insuffisantes.
+- `channels.json` : chaînes YouTube de guides commentés (consultées en premier) et chaînes exclues (replays, vidéos traduites ; contrôlé).
 - `sites.json` : sites qui s'ouvrent bien ou bloquent la lecture, et `blacklist` : sites jamais acceptés comme source (contrôlé).
+
+## Méthode des lots (validée le 2026-11-12)
+
+1. **Vidéos d'abord**, avec les sous-titres du serveur hato-clips. Pas de téléchargement de vidéo ni de scraping.
+   - Commence par les chaînes `guides` de `channels.json`, puis cherche « {A} vs {B} », « how to play {A} vs {B} », « {A} vs {B} guide » (FR et EN).
+   - Écarte les chaînes `excluded` (replays sans commentaire, vidéos traduites) et les titres de `titleHints.avoid`.
+   - Préfère les joueurs haut elo, les vidéos de 5 à 30 min, de moins de 18 mois ou postérieures au dernier rework.
+   - Demande les sous-titres dans la langue de la voix (`lang`), jamais une traduction automatique.
+2. **Plafond : 4 vidéos ouvertes par matchup.** Chaque vidéo dont tu ouvres les sous-titres compte, même si elle ne sert à rien.
+3. Cherche d'abord dans les sous-titres (noms de sorts, « level 6 », « trade », « all-in », « gank »), sans lettre seule comme mot-clé, puis lis seulement les passages utiles.
+4. **Web en complément**, seulement pour un point de vue qui a moins de 3 tips après les vidéos.
+5. Une vidéo = une source. Dans `sources`, ajoute `channel`, `publishedAt` et les `timestamps` des passages utilisés. Les noms de sorts entendus dans les sous-titres sont vérifiés dans Data Dragon avant usage.
+6. Un point de vue avec moins de 2 tips n'est pas affiché : le site indique « Pas encore assez de sources pour jouer {champion} dans ce matchup » et propose l'autre côté.
 
 ## Règles de consensus
 

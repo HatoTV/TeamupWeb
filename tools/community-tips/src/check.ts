@@ -3,14 +3,15 @@
 // - zod schema (8 tips max per perspective), index.json in sync with the files;
 // - display order: sources read (desc), verified in game data first, then lane / mechanics / macro;
 // - consensus: lane / macro tips need 2 sources read, mechanics 2, or 1 when verified in Data Dragon;
-//   an `ok` matchup lists at least 2 sources, none from a blacklisted site (sites.json);
+//   an `ok` matchup lists at least 2 sources, none from a blacklisted site (sites.json)
+//   or an excluded YouTube channel (channels.json);
 // - FR / EN parity (same ideas, same order, same source counts and categories);
 // - at most 30 words per tip, no QWERTY key in French, gender agreement of the glossary terms;
 // - no item, rune or skill-order advice (glossary names + keywords);
 // - no sentence copied from a recorded source.
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { agreementIssues, parseGenders } from './agreement.ts';
-import { DATA_DIR, GLOSSARY_FILE, GLOSSARY_MD, NOTES_DIR, SITES_FILE, readIndex } from './paths.ts';
+import { CHANNELS_FILE, DATA_DIR, GLOSSARY_FILE, GLOSSARY_MD, NOTES_DIR, SITES_FILE, readIndex } from './paths.ts';
 import { MAX_TIP_WORDS, communityTipsSchema, compareTips, notesSchema, pairKey, type Tip } from './schema.ts';
 
 /** Run of consecutive words shared with a source sentence that counts as copying. */
@@ -31,6 +32,9 @@ const glossary = JSON.parse(readFileSync(GLOSSARY_FILE, 'utf8')) as {
 const genders = parseGenders(readFileSync(GLOSSARY_MD, 'utf8'));
 if (genders.size === 0) fail('glossaire-lol-fr.md', 'gender table (section 8) not found');
 const blacklist = Object.keys((JSON.parse(readFileSync(SITES_FILE, 'utf8')) as { blacklist?: Record<string, unknown> }).blacklist ?? {});
+const excludedChannels = new Set(
+  Object.keys((JSON.parse(readFileSync(CHANNELS_FILE, 'utf8')) as { excluded?: Record<string, unknown> }).excluded ?? {}).map((c) => c.trim())
+);
 
 const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // Names shared with abilities (Janna's passive « Zéphyr ») or gameplay words (recall) are not build advice.
@@ -89,6 +93,9 @@ for (const name of files) {
   const urls = file.sources.map((s) => s.url);
   if (new Set(urls).size !== urls.length) fail(name, 'duplicate source URL');
   for (const url of urls) if (isBlacklisted(url)) fail(name, `blacklisted source ${hostOf(url)} (sites.json)`);
+  for (const { channel } of file.sources) {
+    if (channel && excludedChannels.has(channel.trim())) fail(name, `excluded channel "${channel}" (channels.json)`);
+  }
   let tipCount = 0;
 
   for (const [champion, perspective] of Object.entries(file.perspectives)) {

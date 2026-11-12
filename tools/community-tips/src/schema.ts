@@ -29,6 +29,10 @@ export const sourceSchema = z.strictObject({
   site: z.string().trim().min(1),
   url: z.url({ protocol: /^https?$/ }),
   consultedAt: isoDate,
+  /** Video sources: channel, upload date and the passages used (m:ss or h:mm:ss). */
+  channel: z.string().trim().min(1).optional(),
+  publishedAt: isoDate.optional(),
+  timestamps: z.array(z.string().regex(/^(\d+:)?\d{1,2}:\d{2}$/)).min(1).optional(),
 });
 
 export const statusSchema = z.enum(['ok', 'insufficientSources', 'needsRecheck']);

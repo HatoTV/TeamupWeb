@@ -1,0 +1,101 @@
+{
+  "pair": [
+    "Darius",
+    "Zaahen"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Darius": "47442de28e2d5c48380b08523120c1f567356dfa865ee670e27aafc84c3d0d78",
+    "Zaahen": "47ab1c16a5dfd2dd350a252482114a2ae3e8ad46b75d2d55c9f4e8e4027dd2a9"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Darius": {
+      "fr": [
+        {
+          "text": "Surveille la Détermination de Zaahen : au maximum, son passif lui donne de l'AD et un revive. Évite les longs trades qui la remplissent.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Track Zaahen's Determination stacks: when full, his passive grants AD and a revive. Avoid long trades that fill them up.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Zaahen": {
+      "fr": [
+        {
+          "text": "Garde ton Flash pour esquiver le Crampon (E) de Darius : son délai de récupération dépasse 20 s en début de partie.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Juste après le knock-up de ta relance de Glaive des Darkin (A), lance ton Retour redoutable (Z) : s'il essaie de fuir, le Z le ramène vers toi.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Keep Flash to dodge Darius's Apprehend (E): its cooldown is over 20 seconds early in the game.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Right after the knock-up from your Darkin Glaive (Q) recast, cast Dreaded Return (W): if he tries to escape, the W drags him back to you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "JOUER LA LANE PARFAITEMENT CONTRE SON COUNTER - Zaahen vs Darius - SoloQ Patch 25.24",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=oof4RGYhnVo",
+      "consultedAt": "2026-11-12",
+      "channel": "Strey VOD - League of Legends",
+      "publishedAt": "2025-12-26",
+      "timestamps": [
+        "1:14",
+        "16:38"
+      ]
+    },
+    {
+      "title": "COMMENT JOUER LE MID GAME ?? - SoloQ Master - Darius vs Zaahen",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=PTzt2LR2Mgw",
+      "consultedAt": "2026-11-12",
+      "channel": "WoitlanDunk",
+      "publishedAt": "2026-11-05",
+      "timestamps": [
+        "3:47",
+        "4:26",
+        "6:42"
+      ]
+    },
+    {
+      "title": "How The Rank 1 Zaahen Stomps The Darius Matchup",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=MbbybN5vduE",
+      "consultedAt": "2026-11-12",
+      "channel": "ozneviik VODs",
+      "publishedAt": "2026-07-01",
+      "timestamps": [
+        "27:03"
+      ]
+    }
+  ]
+}

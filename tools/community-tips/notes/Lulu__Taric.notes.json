@@ -1,0 +1,136 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] Okay, so he's bad into enchanters, he's bad into range.",
+    "[0] If you are good with the champ you can look for some opportunities to kill them but in general he's a great as a counter pick against engage champion",
+    "[1] Now she can kite me.",
+    "[1] Still playing bush control. I want to all in level four.",
+    "[1] Lulu heal. That's a bit difficult match up for me. I have to hit that flash.",
+    "[1] I don't want to play around the Lulu. I have to roam. I have to roam. I have to move around the map.",
+    "[2] Taric is an easy opponent as long as his Dazzle(E) doesn't land successfully.",
+    "[2] Contest lane by using basic attacks and Glitterlance[Q].",
+    "[2] If Taric uses Cosmic Radiance (R) on his allies, use Whimsy[W] on them to prevent them from dealing damage while they are invulnerable.",
+    "[3] Reaching level 2 first before a ranged champion like Lulu is nearly impossible.",
+    "[3] Try to gain experience without being punished during level 1, while aiming for a kill when you reach level 2 or 3 if Lulu stands in range of Dazzle [E]!",
+    "[4] You only have to be careful of stuns from his E and getting ability cds reduced through extended auto trades.",
+    "[4] Kite him constantly to deny his P. An E cast from afar may indicate a Flash dive."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 7 2026-11-12",
+  "videosFound": 37,
+  "videosRead": 3,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "lu (en-orig, chapitre Taric 50:40 : Lulu parmi les pires matchups de Taric), inutilisé : vidéo arrivée à 3 couples (consigne de l'orchestrateur), ne peut plus servir de source"
+    },
+    {
+      "id": "hA_rvNo5Az8",
+      "channel": "Coach K",
+      "result": "utilisé (en-orig, chapitre Taric 51:24 : mauvais contre les enchanteurs et la portée)"
+    },
+    {
+      "id": "QJF1Or60RNA",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre Taric vs Lulu 1:35:53 : kite de Lulu, bush control et all-in lvl 4)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/lulu/counters/support?target_champion=taric",
+      "result": "ok (tip propre au matchup)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/taric/counters/support?target_champion=lulu",
+      "result": "ok (tip propre au matchup)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/taric",
+      "result": "ok (tips d'auteurs de guides Lulu contre Taric)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "result": "lu, inutilisé (un seul commentaire sur Taric, sans conseil exploitable)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Invulnerability",
+      "result": "lu, vérification seulement (l'invulnérabilité annule les dégâts, rien d'explicite sur les CC)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lulu : kite Taric et éviter les trades longs, ses autos de Plastronneur réduisent ses CD",
+      "sourceIdx": [
+        1,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Bravado : les attaques renforcées réduisent les CD de ses sorts)"
+    },
+    {
+      "idea": "Lulu : Éblouissement stun après un délai, sortir de la ligne",
+      "sourceIdx": [
+        2,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Dazzle : éclate après un court délai, stun)"
+    },
+    {
+      "idea": "Lulu : Taric faible contre la portée, contester la lane avec autos et Duo éclatant",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Lulu : Fantaisie sur l'allié invulnérable pendant la Lumière cosmique",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source ; DDragon vérifie la métamorphose et l'invulnérabilité, mais pas l'interaction entre les deux (wiki muet aussi)"
+    },
+    {
+      "idea": "Lulu : roam, Taric ne peut pas suivre",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seulement dans Gme87rAvO_8, source interdite (3 couples)"
+    },
+    {
+      "idea": "Taric : bush control et all-in tôt (lvl 2 à 4) quand Lulu entre dans la portée d'Éblouissement",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Taric : Lulu a plus de portée, ne pas forcer la course au lvl 2, XP au lvl 1 sans se faire punir",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Taric : roam plutôt que jouer autour de Lulu",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    },
+    {
+      "idea": "Taric : faire brûler le Flash de Lulu puis punir",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seulement dans Gme87rAvO_8, source interdite (3 couples)"
+    }
+  ]
+}

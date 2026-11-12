@@ -1,0 +1,108 @@
+{
+  "pair": [
+    "Galio",
+    "Nautilus"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Galio": "2348e97de96a6accb0796d3399a125756335e8dccf97541789b720c42a6ff9ff",
+    "Nautilus": "26c5839d056b971e22d2b610386aae53d04ddc41dd99d5e71c08aa914465a1a8"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Galio": {
+      "fr": [
+        {
+          "text": "Si Nautilus hooke ton ADC, son Abordage (A) le colle à sa cible : relâche ton Bouclier de Durand (Z) pour le taunt avec l'ADC adverse.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ton taunt le force à t'attaquer et son passif Coup écrasant te root sur ce coup : ne le taunt pas seul, poke avec tes Vents de guerre (A).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ton Entrée héroïque (R) porte très loin : depuis la botlane, suis les engages de ton jungler ou de tes sidelaners.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "If Nautilus hooks your ADC, Dredge Line (Q) pulls him right next to them: release Shield of Durand (W) to taunt him along with the enemy ADC.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Your taunt forces him to attack you, and his passive Staggering Blow roots you on that first hit: don't taunt him alone, poke with Winds of War (Q) instead.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Hero's Entrance (R) has huge range: from bot lane, follow up on your jungler's or side laners' engages.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Nautilus": {
+      "fr": [
+        {
+          "text": "Hooker son ADC te colle à lui, à portée du Bouclier de Durand (Z) de Galio : vise-le quand Galio est loin ou a déjà utilisé son Z.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Si Galio te taunt, ta première attaque sur lui déclenche ton passif Coup écrasant et le root : ton ADC peut enchaîner pendant qu'il est immobilisé.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Hooking his ADC pulls you right next to them, within reach of Galio's Shield of Durand (W): go for it when Galio is far away or has already used W.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If Galio taunts you, your first attack on him triggers your passive Staggering Blow and roots him: your ADC can follow up while he's stuck.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Full Educational Support Games - 800LP Master (EUW)",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=qY5CWBF-1z8",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2026-08-08",
+      "timestamps": [
+        "10:24",
+        "13:04",
+        "27:00"
+      ]
+    },
+    {
+      "title": "Nautilus Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/nautilus",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

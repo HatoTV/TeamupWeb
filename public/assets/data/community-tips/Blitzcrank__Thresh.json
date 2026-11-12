@@ -1,0 +1,156 @@
+{
+  "pair": [
+    "Blitzcrank",
+    "Thresh"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Blitzcrank": "29d04b221d707b18241f6bdd34a90f5f5d8a89099791ef74e81cd04103c299f4",
+    "Thresh": "2afff928f5e153cdfcad0d8e4104f6c19afa08956b052a942a0ca580dc19cd9c"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Blitzcrank": {
+      "fr": [
+        {
+          "text": "Thresh est fragile et n'a aucun moyen de fuir seul : un Grappin propulsé (A) suivi de ton combo et du burst de ton ADC suffit souvent à le tuer.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Quand Thresh rate sa Peine capitale (A), avance et punis-le : son CD est long en début de partie.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ne te place pas trop près de Thresh sans raison : son Fauchage (E) te repousse dans la direction de son coup.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Thresh is fragile and can't escape on his own: a Rocket Grab (Q) followed by your combo and your ADC's damage often kills him.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "When Thresh misses Death Sentence (Q), step up and punish him: its cooldown is long early on.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Don't stand too close to Thresh for no reason: Flay (E) knocks you back in the direction of his swing.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Thresh": {
+      "fr": [
+        {
+          "text": "Tu es fragile et tu ne peux pas fuir seul : un Grappin propulsé (A) de Blitzcrank et son combo suffisent souvent à te tuer. Ne t'expose pas.",
+          "sources": 4,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Force-le à lancer son Grappin propulsé (A), puis trade pendant son long CD.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Si un allié se fait attraper, lance-lui ton Lien des ténèbres (Z) : un clic sur la lanterne le ramène vers toi.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Reste derrière tes sbires pour bloquer son Grappin propulsé (A), mais recule quand ils sont bas : son Champ de stase (R) peut les achever et ouvrir la ligne.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "You're fragile and can't escape on your own: one Rocket Grab (Q) from Blitzcrank plus his combo often kills you. Don't expose yourself.",
+          "sources": 4,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Bait out his Rocket Grab (Q), then trade during its long cooldown.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If an ally gets grabbed, throw them Dark Passage (W): one click on the lantern brings them back to you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Stay behind your minions to block his Rocket Grab (Q), but back off when they're low: Static Field (R) can finish them and open the line.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Every Support Counter Pick Explained",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Gme87rAvO_8",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2026-03-12",
+      "timestamps": [
+        "1:05:07",
+        "1:05:24",
+        "1:05:46",
+        "1:08:35"
+      ]
+    },
+    {
+      "title": "Can you Climb ONLY playing BLITZCRANK??? - Educational Games",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=4HdVHO3svTw",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2026-10-14",
+      "timestamps": [
+        "3:47:05",
+        "3:47:25"
+      ]
+    },
+    {
+      "title": "How to ACTUALLY play Thresh - A Beginner Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=UhOqRexYGFw",
+      "consultedAt": "2026-11-12",
+      "channel": "AxL",
+      "publishedAt": "2025-07-19",
+      "timestamps": [
+        "12:53"
+      ]
+    },
+    {
+      "title": "Blitzcrank Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/blitzcrank",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

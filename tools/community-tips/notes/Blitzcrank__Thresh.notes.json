@@ -1,0 +1,168 @@
+{
+  "searches": 11,
+  "sourceSentences": [
+    "[0] Blitzcrank is just a counter because I mean, he can hook you in and he can combo and again, Thresh is a squishy support in general. He's not that tanky.",
+    "[0] How to play against Thresh? Again, the same thing. Force him to to miss the hook, a bit like Tahm Kench. Punish him when on cool down.",
+    "[0] Just make sure that you are careful with the E. Don't don't get E. So, don't be too close to him.",
+    "[0] Q has a long cool down, so please force it and punish after that. Vision on him makes it easier.",
+    "[0] Squishy support in general, it's the same as the thing as Thresh, but worse.",
+    "[1] It's because um I mean Thresh is a very squishy champion.",
+    "[1] So because he's very squishy, he gets hooked comboed and he can get burst bursted.",
+    "[1] And also, Thresh is a champion that likes to play very aggressive and Blitz is a really good um counter to that.",
+    "[1] And Thresh doesn't pressure melee, he pressures like with range.",
+    "[2] You never want to be the front line in fights because Thresh is very squishy as a character and has no way to get himself out of danger, only his allies.",
+    "[2] So to put it in a simple way, there are frontline champs, backline champs, and then there's Thresh, which is a sideline champ.",
+    "[3] Don't get hooked or you will go back to spawn by Grey Screen Express.",
+    "[3] If your teammate gets hooked - throw lantern to him.",
+    "[3] Hide behind minions and back off if they are low hp since he can try R>Q to kill minions quickly and hook you.",
+    "[3] Be aware that he can hook people out of your lantern if he times it right.",
+    "[3] Pretty much who gets hooked first between your adcs."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 7 2026-11-12",
+  "videosFound": 100,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "utilisé (chapitres Thresh 1:03:26 et Blitzcrank 1:06:45 ; piste en traduite, lue en en-orig ; 3e couple de la vidéo)"
+    },
+    {
+      "id": "4HdVHO3svTw",
+      "channel": "Coach K",
+      "result": "utilisé (question du chat 3:46:21 : pourquoi Blitzcrank contre Thresh)"
+    },
+    {
+      "id": "UhOqRexYGFw",
+      "channel": "AxL",
+      "result": "utilisé (chapitre Playstyle 12:53 : Thresh fragile, sans échappatoire seul ; rien sur Blitzcrank)"
+    },
+    {
+      "id": "IyRhz9vzU3w",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé (Blitzcrank contre Seraphine ; Thresh cité seulement contre Seraphine)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/blitzcrank",
+      "result": "ok (commentaires d'auteurs de guides Thresh contre Blitzcrank ; 100 000 premiers caractères lus)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/thresh",
+      "result": "lu, inutilisé (Blitzcrank cité seulement en comparaison par des guides d'autres champions ; côté Blitzcrank déjà à 3 tips, web non autorisé)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Blitzcrank : Thresh fragile, un grab + combo le tue",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources ([2] : Thresh fragile et sans moyen de fuir seul)"
+    },
+    {
+      "idea": "Blitzcrank : punir Thresh quand sa Peine capitale est ratée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 19/16,5/14/11,5/9 s : long en début de partie)"
+    },
+    {
+      "idea": "Blitzcrank : ne pas rester près de Thresh, attention au Fauchage",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Fauchage repousse dans la direction du coup, portée 500)"
+    },
+    {
+      "idea": "Blitzcrank : la menace du grab empêche Thresh d'avancer pour sa pression à distance",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Blitzcrank : vision sur Thresh, ne pas face-check",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    },
+    {
+      "idea": "Blitzcrank : ward de contrôle sur la lanterne pour empêcher le clic",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "objet (ward de contrôle) et 1 seule source"
+    },
+    {
+      "idea": "Thresh : fragile, sans fuite, un grab de Blitzcrank + combo te tue",
+      "sourceIdx": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "4 sources"
+    },
+    {
+      "idea": "Thresh : forcer le Grappin propulsé puis punir pendant son long CD",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 20/19/18/17/16 s)"
+    },
+    {
+      "idea": "Thresh : lanterne à l'allié attrapé",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (les alliés cliquent sur la lanterne pour rejoindre Thresh)"
+    },
+    {
+      "idea": "Thresh : rester derrière les sbires, reculer s'ils sont bas car R puis A",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (le Grappin prend le premier ennemi sur sa trajectoire ; Champ de stase actif blesse les ennemis proches)"
+    },
+    {
+      "idea": "Thresh : Blitzcrank peut attraper un allié en plein trajet de lanterne",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 source, interaction non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Thresh : lane décidée par l'ADC qui se fait grab le premier",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane, flou"
+    },
+    {
+      "idea": "Thresh : vision sur Blitzcrank, il devient dangereux hors de vue",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Gio also is really good with Kane because I can follow.",
+    "[0] The good thing about Gary, I can make play in silent and because I would have ultimate I will have ultimate for the play.",
+    "[0] I mean it's really good with Kane because he can go in I can follow with the ultimate from long way",
+    "[0] Gallo has a lot of counters on support, but I played against one in my other account.",
+    "[1] He has slightly more reliable CC; you're tankier and scale better peel-wise. Whoever hooks/Engages into enemy wave/jungle first usually loses. Look for counter-engage windows: when Naut hooks your ADC, taunt him and their ADC together.",
+    "[1] Carefull to the root when you taunt just poke with Q"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 7 2026-11-12",
+  "videosFound": 45,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "lu en « en-orig » (recherche Galio / Nautilus) : Galio jamais cité ; de toute façon à 3 couples pendant le lot 7, interdit. Ouverture partagée avec Lux__Nautilus."
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "lu en « en-orig » (recherche Galio) : Galio jamais cité, inutilisé. Ouverture partagée avec Lux__Nautilus."
+    },
+    {
+      "id": "qY5CWBF-1z8",
+      "channel": "Coach K",
+      "result": "utilisé (live 4 h 09, chapitre « Galio vs Nautilus » 0:00-32:39, Master 800 LP ; commentaire de partie avec très peu de conseils de lane : seul le suivi à distance avec l'Entrée héroïque est gardé)"
+    },
+    {
+      "id": "3aSRBlu7E5M",
+      "channel": "Coach K",
+      "result": "lu (recherche Nautilus / hook) : chapitre Galio sans Nautilus en face, ouverture perdue"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/nautilus",
+      "result": "ok (2 commentaires d'auteurs de guides Galio support : Alchemyr, décembre 2025, et ELTroen, S10)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/galio",
+      "result": "lu, inutilisé (seul commentaire Nautilus : j4ss, guide Nautilus mid, hors botlane)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Galio : quand Nautilus hooke ton ADC, taunt Nautilus et leur ADC",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Abordage rapproche Nautilus et sa cible ; Bouclier de Durand taunt les champions proches)"
+    },
+    {
+      "idea": "Galio : le taunt fait attaquer Nautilus, dont le passif root : ne pas taunt seul, poke avec Vents de guerre",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (S10, ancienne) + DDragon (Coup écrasant root à la première attaque sur une cible) ; mécanique, donc l'âge est accepté"
+    },
+    {
+      "idea": "Galio : suivre de loin les plays du jungler / des side lanes avec l'Entrée héroïque",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (portée 4000/4750/5500) ; conseil générique gardé car moins de 3 tips propres au couple"
+    },
+    {
+      "idea": "Galio : ne pas engager le premier, celui qui engage dans la wave adverse perd",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source (lane)"
+    },
+    {
+      "idea": "Galio : tu es plus tanky et tu scales mieux en peel",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source (macro)"
+    },
+    {
+      "idea": "Galio : faible au lvl 1, laisser un peu d'XP plutôt que contester",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, et générique"
+    },
+    {
+      "idea": "Nautilus : un hook sur son ADC te met à portée du taunt de Galio",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (vue inverse du même conseil) + DDragon"
+    },
+    {
+      "idea": "Nautilus : taunté, ta première attaque root Galio grâce au passif",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Nautilus : Galio a plus de counters, Nautilus plus fort en niveaux",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source (lane)"
+    }
+  ]
+}

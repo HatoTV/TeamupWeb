@@ -1,0 +1,149 @@
+{
+  "pair": [
+    "Lux",
+    "Nautilus"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Lux": "c9643372be629c874a7fb491e3c1998ac3e29a5255c6d5e9883dcdf75d6109a2",
+    "Nautilus": "26c5839d056b971e22d2b610386aae53d04ddc41dd99d5e71c08aa914465a1a8"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Lux": {
+      "fr": [
+        {
+          "text": "Reste derrière tes sbires : son Abordage (A) s'arrête sur le premier ennemi touché, alors que ton Entrave de lumière (A) traverse une unité pour l'atteindre.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Dès son lvl 6, joue plus prudemment : sa Grenade ASM (R) te poursuit, t'envoie en l'air et t'étourdit, même si tu esquives ses autres sorts.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Poke-le tôt depuis ta wave avec ton Anomalie radieuse (E) : Nautilus a peu de mobilité pour te répondre tant que tu évites son hook.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ],
+      "en": [
+        {
+          "text": "Stay behind your minions: his Dredge Line (Q) is blocked by the first enemy in its path, while your Light Binding (Q) can pass through one unit to reach him.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "From his level 6, play safer: Depth Charge (R) chases you down, knocks you up and stuns you, even if you dodge his other spells.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Poke him early from inside your wave with Lucent Singularity (E): Nautilus has little mobility to answer as long as you dodge his hook.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ]
+    },
+    "Nautilus": {
+      "fr": [
+        {
+          "text": "Ton Abordage (A) s'arrête sur le premier sbire, mais son Entrave de lumière (A) en traverse un : hooke depuis un angle dégagé, pas à travers la wave.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Lux n'a aucun dash : un Abordage (A) qui touche suffit souvent à la tuer ou à lui faire brûler son Flash.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Dès le lvl 6, ta Grenade ASM (R) te donne un engage qu'elle ne peut pas esquiver : sers-t'en pour lancer le fight.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Lux te poke facilement : sors vite de la zone de son Anomalie radieuse (E), qui ralentit, et garde tes PV pour pouvoir engager.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Engage quand son Entrave de lumière (A) est en CD : sans ce sort, Lux n'a presque rien pour t'arrêter.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ],
+      "en": [
+        {
+          "text": "Your Dredge Line (Q) stops on the first minion, but her Light Binding (Q) passes through one: hook from a clear angle, not through the wave.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Lux has no dash: one Dredge Line (Q) that lands is often enough to kill her or force her Flash.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "From level 6, Depth Charge (R) gives you an engage she can't dodge: use it to start the fight.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Lux pokes you easily: get out of her Lucent Singularity (E) zone quickly, since it slows, and keep your HP so you can still engage.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Engage when her Light Binding (Q) is on cooldown: without that spell, Lux has almost nothing to stop you.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "The Only Support Matchup Guide You'll Ever Need",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=D7DemQewZqM",
+      "consultedAt": "2026-11-12",
+      "channel": "TheRealRaven",
+      "publishedAt": "2026-11-11",
+      "timestamps": [
+        "4:20",
+        "4:36"
+      ]
+    },
+    {
+      "title": "Lux Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/lux",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Nautilus Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/nautilus",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

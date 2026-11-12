@@ -1,0 +1,143 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] Zilean, I think it's a very bad champion, very good win rate later on in the game.",
+    "[0] Sona, Zilean, Soraka. They scale really well. Soraka is better lane phase.",
+    "[0] Zilean and Sona don't have really good lane phase. They will get hard bullied against most match-up, but they scale extremely well, very annoying to play against",
+    "[1] Lulu can deal more constant damage if she can deal with Zilean's Time Bomb (Q)- Rewind(W) - Time Bomb (Q) combo well.",
+    "[1] Zilean's Chronoshift(R) makes it difficult to kill enemies, cast Whimsy[W] to prevent the enemy from dealing damage",
+    "[1] kill them as soon as Chronoshift(R) wears off.",
+    "[1] However, if the enemy poses a threat, kill them quickly when they have Chronoshift(R) and escape while they are reviving.",
+    "[2] Avoid Lulu's (Q) by using [E] while dealing damage.",
+    "[2] Use [Q]-[W]-[Q] to stun Lulu when she tries to use a basic attack.",
+    "[3] Zilean has a really bad laning phase so you'll want to play aggressive against him.",
+    "[3] Dodge double Q bomb and there should be no other threat.",
+    "[3] You ideally want to play for a lead prio to 6 when he can negative a death",
+    "[3] If Zilean throws two Q bombs next to each other, they instantly explode & apply stun.",
+    "[3] Stand away from allies when marked by a bomb.",
+    "[3] E has a long slow duration; try to stay away from his range to avoid it.",
+    "[3] Poke him constantly before Lvl.6 since he has no sustain.",
+    "[3] Wait for R to wear off before attacking the bearer."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 7 2026-11-12",
+  "videosFound": 68,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "lu (en-orig, chapitre Zilean 24:34 : lane très faible, à punir), inutilisé : vidéo arrivée à 3 couples (consigne de l'orchestrateur)"
+    },
+    {
+      "id": "hA_rvNo5Az8",
+      "channel": "Coach K",
+      "result": "utilisé (en-orig, chapitre Zilean 58:27 : lane très faible, se fait bully, scale très bien)"
+    },
+    {
+      "id": "tj9ByJvX94o",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (Lulu contre enchanteur, partie contre Seraphine : rien sur Zilean)"
+    },
+    {
+      "id": "WWUrGUNV-Yg",
+      "channel": "Pestify_Lol",
+      "result": "lu, inutilisé (astuces Zilean, aucune mention de Lulu ni de la lane)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/lulu/counters/support?target_champion=zilean",
+      "result": "ok (tip propre au matchup)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/zilean/counters/support?target_champion=lulu",
+      "result": "ok (tip propre au matchup)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/zilean",
+      "result": "ok (tips d'auteurs de guides Lulu contre Zilean)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lulu : esquiver la deuxième Bombe à retardement du combo A-Z-A",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (une seconde bombe fait exploser la première et stun ; Rewind réduit les CD des autres sorts)"
+    },
+    {
+      "idea": "Lulu : attendre la fin du Retour temporel avant de burst la cible",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (rune protectrice : la cible qui devrait mourir passe en stase puis ressuscite)"
+    },
+    {
+      "idea": "Lulu : Zilean a une lane faible et aucun sustain, jouer agressif et poke avant le lvl 6",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Lulu : s'écarter de l'ADC quand une bombe colle sur toi",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (explosion en zone)"
+    },
+    {
+      "idea": "Lulu : rester hors de portée de Distorsion temporelle et poke avec Duo éclatant",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (portées 550 pour Time Warp, 925 pour Glitterlance) ; « ralentissement long » non repris (durée absente de DDragon)"
+    },
+    {
+      "idea": "Lulu : Fantaisie sur l'allié protégé par Retour temporel pendant sa résurrection",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, interaction métamorphose / stase non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Zilean : combo A-Z-A pour stun Lulu quand elle s'avance pour auto",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon"
+    },
+    {
+      "idea": "Zilean : lane très faible face à Lulu qui poke avant le lvl 6, jouer safe car Zilean scale très bien",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Zilean : Distorsion temporelle sur soi pour esquiver Duo éclatant",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Time Warp accélère un allié, Zilean compris : « any unit »)"
+    }
+  ]
+}

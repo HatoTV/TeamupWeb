@@ -1,0 +1,132 @@
+{
+  "searches": 8,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "[0] smolder c'est free hein je dirais même peut-être même que ça stomp en vrai",
+    "[0] parce que en fait Smolder actuellement c'est nul donc ça aide beaucoup aussi",
+    "[0] quand smolder c'est fine dans la méta des fois c'est peut-être un peu dur",
+    "[0] le perso est juste trop faible. Euh enfin du coup, c'est pas free, c'est stomp",
+    "[0] Smolder, c'est vraiment tranquille. Euh il y a pas trop de souci à se faire",
+    "[1] Smolder is weak early—take advantage of that with poke and short trades. Don't let him stack freely.",
+    "[1] Smolder is really weak early game, on a successful all in you are definitely winning.",
+    "[1] Matchup is in his favor thanks to his poke and late game.",
+    "[2] Kai'Sa is a high-burst scaling threat that excels at punishing Smolder if he gets caught in isolation.",
+    "[2] The Kai'Sa vs Smolder matchup is a high-skill, dynamic lane.",
+    "[2] Stand near minions so she can't get Q damage isolation",
+    "[2] Kai'sa is a short range ADC so you can abuse this in the early game.",
+    "[2] Early on, feels like a normal lane. Late game, if you get hit by a W you're basically dead.",
+    "[2] Kaisa has a bad lane until she gets her first item. Then she beats you in 1v1 if you get ulted."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 7 2026-11-12",
+  "videosFound": 70,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, inutilisé (chapitres Kai'Sa 41:03 et Smolder 1:16:04 : pas de mention croisée)"
+    },
+    {
+      "id": "jW1wgklzWCY",
+      "channel": "Vapora Dark",
+      "result": "lu, inutilisé (How to Play Smolder in Season 16 : aucune partie contre Kai'Sa)"
+    },
+    {
+      "id": "edodzEn2XZ4",
+      "channel": "bluwunk",
+      "result": "lu, inutilisé (chapitre Matchups 10:21 : Kai'Sa non citée)"
+    },
+    {
+      "id": "3LxH7QOgsU4",
+      "channel": "Booshi",
+      "result": "utilisé (PRO GUIDE, chapitre Match Ups, Smolder 32:44)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/smolder",
+      "result": "ok (commentaires d'auteurs de guides Kai'Sa contre Smolder)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/kaisa",
+      "result": "ok (commentaires d'auteurs de guides Smolder contre Kai'Sa ; 100 000 premiers caractères lus)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/kaisa/counters/adc?target_champion=smolder",
+      "result": "lu, inutilisé (stats seulement + tips généraux)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/smolder/counters/adc?target_champion=kaisa",
+      "result": "lu, inutilisé (stats seulement + tips généraux)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kai'Sa : Smolder faible en lane, mettre la pression tôt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources ; contredit en partie par [2] (bluwunk 15.20, lattestream 25.17 : lane de Kai'Sa faible tôt) et Amberdragon 14.3 ; Booshi précise que ça dépend de la méta"
+    },
+    {
+      "idea": "Kai'Sa : ne pas laisser Smolder stacker librement",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Dragon Practice : sorts sur champions, kills avec Super Scorcher Breath)"
+    },
+    {
+      "idea": "Kai'Sa : all-in réussi = victoire",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, lane"
+    },
+    {
+      "idea": "Smolder : rester près des sbires contre Pluie d'Icathia",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (commentaire 14.3, plus de 2 ans : accepté car mécanique vérifiée) + DDragon (missiles répartis entre ennemis proches)"
+    },
+    {
+      "idea": "Smolder : éviter le Rayon du Néant, porte d'entrée de son ult",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (bluwunk 15.20, Maxxx 14.4) + DDragon (W applique Plasma ; R vers un champion marqué de Plasma)"
+    },
+    {
+      "idea": "Smolder : abuser de la courte portée de Kai'Sa tôt",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source, lane, contredit par [0] et [1]"
+    },
+    {
+      "idea": "Smolder : ne pas se faire attraper isolé",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source, lane, quasi générique"
+    },
+    {
+      "idea": "Smolder : Fleet Footwork ou Cleanse",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "rune / sort d'invocateur"
+    }
+  ],
+  "orchestratorReview": "Tip lane Kai'Sa « Smolder faible en lane, presse tôt » retiré : 2 sources pour, 2 auteurs Smolder contre (égalité, règle majorité ou retrait)."
+}

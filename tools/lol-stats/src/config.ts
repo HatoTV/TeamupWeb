@@ -70,7 +70,7 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     minMatchupGames: num(env.LOL_STATS_MIN_MATCHUP_GAMES, 50),
     minPlayerGames: 15,
     minGamesForNewPatch: num(env.LOL_STATS_MIN_GAMES_NEW_PATCH, 200),
-    lowSampleGames: num(env.LOL_STATS_LOW_SAMPLE_GAMES, 500),
+    lowSampleGames: num(env.LOL_STATS_LOW_SAMPLE_GAMES, 200),
     sample: env.LOL_STATS_SAMPLE === '1',
     stateDir: env.LOL_STATS_STATE_DIR ?? `${PACKAGE_DIR}.state`,
     outputDir: env.LOL_STATS_OUTPUT_DIR ?? `${REPO_DIR}public/data/lol/builds`,

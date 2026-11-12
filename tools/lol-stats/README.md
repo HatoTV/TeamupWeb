@@ -30,7 +30,7 @@ La clé Riot est lue dans `tools/lol-stats/.env` (`RIOT_API_KEY=RGAPI-…`, igno
 | `LOL_STATS_MIN_BUILD_GAMES` | `100` | Seuil minimal d'un build candidat (avec 3 % des parties du champion dans le rôle). |
 | `LOL_STATS_MIN_MATCHUP_GAMES` | `50` | Seuil des adversaires et duos. |
 | `LOL_STATS_MIN_GAMES_NEW_PATCH` | `200` | Parties d'un champion/rôle avant de basculer sur le nouveau patch. |
-| `LOL_STATS_LOW_SAMPLE_GAMES` | `500` | En dessous, la page affiche un avertissement « peu de données ». |
+| `LOL_STATS_LOW_SAMPLE_GAMES` | `200` | En dessous, la page affiche un avertissement « peu de données ». |
 | `LOL_STATS_STATE_DIR` | `tools/lol-stats/.state` | État local (développement). |
 | `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET` | — | État sur Cloudflare R2 (production). |
 

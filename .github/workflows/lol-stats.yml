@@ -38,6 +38,7 @@ jobs:
       VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
       LOL_STATS_BUDGET_MINUTES: ${{ inputs.budget_minutes || '35' }}
       LOL_STATS_PLATFORMS: ${{ inputs.platforms || 'EUW1' }}
+      LOL_STATS_LOW_SAMPLE_GAMES: '200' # below this many games a champion/role page shows the small-sample warning
     steps:
       - uses: actions/checkout@v4
 

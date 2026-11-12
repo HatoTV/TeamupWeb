@@ -1,0 +1,156 @@
+{
+  "searches": 8,
+  "sourceSentences": [
+    "[0] Tahm Kench is a difficult matchup because he get close to you to stack his passive. Furthermore his built in safety from level 6 for his carry in annoying.",
+    "[0] Tahm Kench’s tankiness and ability to devour allies can be challenging for Nautilus, but Nautilus’ own crowd control can effectively lock him down.",
+    "[0] Tahm Kench is very frustrating to play against when you're playing engage. He becomes very tanky and hard to kill.",
+    "[0] If you engage on him you won't get much out of hit due to his tankiness. If you engage on his ADC, he'll devour her and it's over. Advise: make plays elsewhere, but be aware that Tahm Kench can match your roams with his ult.",
+    "[0] His Consume is the most annoying thing about this catfish. You can lock down his ADC to force him to use Consume.",
+    "[1] Tahm Kench can swallow a full stacked (P) Nautilus with (W) if he closes in with [Q] first.",
+    "[1] Tahm Kench can also protect his allies with (W), making it difficult to target both enemy laners. However, Tahm Kench does not pose much of a threat if his (Q) does not land. Try to avoid contesting lane as a viable strategy.",
+    "[2] Engage aggressively whenever hit by Nautilus’s Dredge Line (Q).",
+    "[2] If your allies are hit with Dredge Line (Q), respond with Devour [W] to protect them from being damaged."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 8 2026-11-12",
+  "videosFound": 46,
+  "videosRead": 3,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "Pql8JAQK6IE",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (recherche de « Maokai », « Tahm », « Kench », « Morgana » dans les sous-titres : aucun passage ; ouverture partagée avec Maokai__Nautilus et Morgana__Nautilus)"
+    },
+    {
+      "id": "0HrM7n3_DK8",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (Nautilus cité au draft et dans une partie Tahm Kench, aucun conseil de matchup)"
+    },
+    {
+      "id": "kjX4mgH4J2k",
+      "channel": "EXYT - League of Legends",
+      "result": "lu, inutilisé (guide Tahm Kench FR : aucun passage sur Nautilus)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/tahm-kench",
+      "result": "ok (commentaires d'auteurs de guides Nautilus contre Tahm Kench, certains d'avant le rework de Tahm Kench)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/nautilus",
+      "result": "lu, inutilisé (aucun commentaire d'auteur Tahm Kench contre Nautilus)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/nautilus/counters/support?target_champion=tahmkench",
+      "result": "ok (1 paragraphe propre au matchup ; touches d'avant le rework : Dévoration notée W, corrigée en R d'après DDragon)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/tahmkench/counters/support?target_champion=nautilus",
+      "result": "ok (1 paragraphe propre au matchup ; Dévoration notée W, corrigée en R)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Nautilus : Dévoration avale et protège l'ADC, l'engage sur l'ADC force ce sort",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "requalifié lane -> mechanics : toutes les sources sont anciennes (counterstats non datés ou 11 à 14.18, op.gg avec les touches d'avant le rework) ; DDragon (Dévoration sur un allié : l'avale et lui donne un bouclier)"
+    },
+    {
+      "idea": "Nautilus : éviter les 3 stacks de Goût acquis",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "requalifié lane -> mechanics : sources anciennes ; DDragon (3 stacks requis pour avaler un ennemi)"
+    },
+    {
+      "idea": "Nautilus : ne pas disputer la lane, jouer ailleurs",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "retiré : macro appuyée seulement par des sources anciennes (commentaire non daté d'avant le rework, op.gg aux touches d'avant le rework)"
+    },
+    {
+      "idea": "Nautilus : esquiver Coup de langue, sa seule vraie menace",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (ralentit, pose un stack, stun à 3 stacks)"
+    },
+    {
+      "idea": "Nautilus : engager sur Tahm Kench rapporte peu, il est trop tanky",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Nautilus : Tahm Kench suit tes roams avec son ult",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon (l'ult actuelle est Dévoration, sans déplacement global)"
+    },
+    {
+      "idea": "Nautilus : pendant le pull de l'Abordage, il ne peut pas lancer son bouclier",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "guide S9, d'avant le rework de Tahm Kench ; non vérifiable"
+    },
+    {
+      "idea": "Tahm Kench : avaler l'allié touché par Abordage",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "requalifié lane -> mechanics : sources anciennes ; DDragon (Dévoration sur un allié)"
+    },
+    {
+      "idea": "Tahm Kench : l'Abordage vous rapproche, répondre au CàC et stacker",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "requalifié lane -> mechanics et reformulé (« tu encaisses bien » retiré) ; 1 source (op.gg ancien) + DDragon (Abordage rapproche les deux champions)"
+    },
+    {
+      "idea": "Tahm Kench : cumuler 3 stacks sur Nautilus puis l'avaler",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "requalifié lane -> mechanics : sources anciennes ; DDragon"
+    },
+    {
+      "idea": "Tahm Kench : emmener l'ADC avalé avec Plongée abyssale",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (sécurité pour son carry) + DDragon (Plongée abyssale utilisable avec un allié avalé)"
+    },
+    {
+      "idea": "Tahm Kench : sa menace dépend du Coup de langue",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    }
+  ]
+}

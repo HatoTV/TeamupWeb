@@ -1,0 +1,116 @@
+{
+  "searches": 10,
+  "sourceSentences": [
+    "[0] Watch for the package and his poke. He's got no real reliable escape pre-six, so you can bully him easily.",
+    "[0] Corki – 2.5/5 (Situational Threat) Weak early, decent poke mid-game. Rare bot pick.",
+    "[1] If you miss Q, she can jump on you and outtrade you hard.",
+    "[1] Can burst as fast as you and can outrange you, another one where you need to soften with R poke to win the burst trade"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 8 2026-11-12",
+  "videosFound": 121,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "fyFBK7NNlpM",
+      "channel": "Splinter VOD - League of Legends",
+      "result": "lu, inutilisé (Corki vs Tristana en mode LoL Classic, stream sans conseil de matchup)"
+    },
+    {
+      "id": "IkB7a2O4aWo",
+      "channel": "acedia",
+      "result": "lu, inutilisé (piste en traduite, en-orig lue ; tier list de matchups seulement à l'écran, Corki jamais nommé)"
+    },
+    {
+      "id": "NtGZBGXffIM",
+      "channel": "SaskioCommentary",
+      "result": "lu, inutilisé (aucune mention de Corki)"
+    },
+    {
+      "id": "IqV2qxfjN4I",
+      "channel": "Doublelift",
+      "result": "lu, inutilisé (aucune mention de Tristana)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/corki",
+      "result": "ok (2 commentaires d'auteurs de guides Tristana contre Corki)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/tristana",
+      "result": "ok (2 commentaires d'auteurs de guides Corki contre Tristana, page lue en entier)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/corki/counters/adc?target_champion=tristana",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://op.gg/lol/champions/tristana/counters/adc?target_champion=corki",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Corki : poke avec Barrage de projectiles avant de trade, portée bien supérieure",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Gondall : soften with R poke ; NorToXz : decent poke) + DDragon (Missile Barrage portée 1225, attaque 550 et Tir de précision qui augmente la portée de Tristana avec les niveaux)"
+    },
+    {
+      "idea": "Corki : faible en early, éviter les longs trades",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (NorToXz : weak early ; Gondall : burst as fast as you, can outrange you)"
+    },
+    {
+      "idea": "Corki : si tu rates ta Bombe au phosphore, Tristana saute sur toi",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, commentaire lié à un guide « S4 » (probablement plus de 2 ans), conseil de lane"
+    },
+    {
+      "idea": "Tristana : rester hors de portée du Barrage de projectiles",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (portée 1225 contre 550 de base)"
+    },
+    {
+      "idea": "Tristana : Corki faible en early, trade tôt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (NorToXz ; Gondall). I Am Not u (bully him easily) non compté : guide « Season 13 », plus de 2 ans"
+    },
+    {
+      "idea": "Tristana : Corki n'a pas d'échappatoire fiable avant le lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon : Valkyrie (Z) est un déplacement disponible dès les premiers niveaux"
+    },
+    {
+      "idea": "Tristana : surveiller le colis de Corki",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source ancienne, non vérifiable dans DDragon 16.22 (aucune mention du colis)"
+    }
+  ],
+  "orchestratorReview": "Commentaires counterstats NorToXz et Gondall sans date : traités comme anciens (règle des 2 ans). Les tips lane tombent, il ne reste qu’1 mécanique par côté : insufficientSources."
+}

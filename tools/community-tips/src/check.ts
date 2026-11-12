@@ -32,8 +32,17 @@ const glossary = JSON.parse(readFileSync(GLOSSARY_FILE, 'utf8')) as {
 const genders = parseGenders(readFileSync(GLOSSARY_MD, 'utf8'));
 if (genders.size === 0) fail('glossaire-lol-fr.md', 'gender table (section 8) not found');
 const blacklist = Object.keys((JSON.parse(readFileSync(SITES_FILE, 'utf8')) as { blacklist?: Record<string, unknown> }).blacklist ?? {});
-const excludedChannels = new Set(
-  Object.keys((JSON.parse(readFileSync(CHANNELS_FILE, 'utf8')) as { excluded?: Record<string, unknown> }).excluded ?? {}).map((c) => c.trim())
+const channels = JSON.parse(readFileSync(CHANNELS_FILE, 'utf8')) as {
+  guides?: Record<string, { titleMustInclude?: string }>;
+  excluded?: Record<string, unknown>;
+  excludedPatterns?: Record<string, unknown>;
+};
+const excludedChannels = new Set(Object.keys(channels.excluded ?? {}).map((c) => c.trim()));
+const excludedPatterns = Object.keys(channels.excludedPatterns ?? {}).map((p) => new RegExp(p, 'i'));
+const isExcludedChannel = (channel: string) => excludedChannels.has(channel.trim()) || excludedPatterns.some((re) => re.test(channel.trim()));
+// Channels where only some videos count (e.g. Booshi: « PRO GUIDE » only).
+const titleRules = new Map(
+  Object.entries(channels.guides ?? {}).flatMap(([name, g]) => (g.titleMustInclude ? [[name.trim(), g.titleMustInclude.toLowerCase()] as const] : []))
 );
 
 const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -93,8 +102,11 @@ for (const name of files) {
   const urls = file.sources.map((s) => s.url);
   if (new Set(urls).size !== urls.length) fail(name, 'duplicate source URL');
   for (const url of urls) if (isBlacklisted(url)) fail(name, `blacklisted source ${hostOf(url)} (sites.json)`);
-  for (const { channel } of file.sources) {
-    if (channel && excludedChannels.has(channel.trim())) fail(name, `excluded channel "${channel}" (channels.json)`);
+  for (const { channel, title } of file.sources) {
+    if (!channel) continue;
+    if (isExcludedChannel(channel)) fail(name, `excluded channel "${channel}" (channels.json)`);
+    const mustInclude = titleRules.get(channel.trim());
+    if (mustInclude && !title.toLowerCase().includes(mustInclude)) fail(name, `"${channel}" only counts for "${mustInclude}" videos: "${title}"`);
   }
   let tipCount = 0;
 

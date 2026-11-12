@@ -1,15 +1,202 @@
 {
   "updatedAt": "2026-11-12",
-  "note": "Chaînes YouTube pour la recherche par sous-titres (hato-clips). « guides » : guides commentés, consultés en premier ; « lang » = langue de la voix, à demander aux sous-titres (jamais une traduction automatique). « excluded » : replays sans commentaire ou vidéos traduites, jamais une source (contrôlé par tips:check).",
+  "note": "Chaînes YouTube pour la recherche par sous-titres (hato-clips). « guides » : guides commentés, consultés en premier ; « lang » = langue de la voix, à demander aux sous-titres (jamais une traduction automatique). « excluded » : replays sans commentaire ou vidéos traduites, jamais une source (contrôlé par tips:check). « excludedPatterns » : expressions régulières sur le nom de chaîne. « titleMustInclude » : seules ces vidéos de la chaîne sont acceptées (contrôlé).",
   "guides": {
-    "Peng": { "lang": "en", "champions": ["Ahri", "Aurora"], "level": "Rank 1 Ahri", "note": "Chapitre REVIEW en fin de vidéo : le plus utile." },
-    "Sjorry": { "lang": "en", "champions": ["mid"], "level": "Rank 1 Ahri, coach mid", "note": "Voix anglaise : demander les sous-titres en, pas fr (traduction automatique)." },
-    "Repobah": { "lang": "en", "champions": ["Yone", "Yasuo"], "level": "Challenger", "note": "Séries « Educational [Commentary] »." },
-    "WayOfTheTempest": { "lang": "en", "champions": ["Yone", "Yasuo"], "level": "Challenger", "note": "Vérifier la date : beaucoup de vidéos de plus de 18 mois." },
-    "Mandrew": { "lang": "en", "champions": ["Syndra"], "level": "High elo", "note": "Séries « Educational »." },
-    "Coach Mysterias": { "lang": "en", "champions": ["Syndra", "mid"], "level": "Coach, Master+", "note": "Vidéos de plusieurs heures : chercher seulement le nom de l'adversaire, dans les chapitres du matchup." },
-    "Strey VOD - League of Legends": { "lang": "fr", "champions": ["top"], "level": "High elo", "note": "Commente ses lanes en FR." },
-    "WoitlanDunk ": { "lang": "fr", "champions": ["Darius"], "level": "Master", "note": "Le nom de la chaîne finit par une espace sur YouTube." }
+    "Peng": {
+      "lang": "en",
+      "champions": [
+        "Ahri",
+        "Aurora"
+      ],
+      "level": "Rank 1 Ahri",
+      "note": "Chapitre REVIEW en fin de vidéo : le plus utile."
+    },
+    "Sjorry": {
+      "lang": "en",
+      "champions": [
+        "mid"
+      ],
+      "level": "Rank 1 Ahri, coach mid",
+      "note": "Voix anglaise : demander les sous-titres en, pas fr (traduction automatique)."
+    },
+    "Repobah": {
+      "lang": "en",
+      "champions": [
+        "Yone",
+        "Yasuo"
+      ],
+      "level": "Challenger",
+      "note": "Séries « Educational [Commentary] »."
+    },
+    "WayOfTheTempest": {
+      "lang": "en",
+      "champions": [
+        "Yone",
+        "Yasuo"
+      ],
+      "level": "Challenger",
+      "note": "Vérifier la date : beaucoup de vidéos de plus de 18 mois."
+    },
+    "Mandrew": {
+      "lang": "en",
+      "champions": [
+        "Syndra"
+      ],
+      "level": "High elo",
+      "note": "Séries « Educational »."
+    },
+    "Coach Mysterias": {
+      "lang": "en",
+      "champions": [
+        "Syndra",
+        "mid"
+      ],
+      "level": "Coach, Master+",
+      "note": "Vidéos de plusieurs heures : chercher seulement le nom de l'adversaire, dans les chapitres du matchup."
+    },
+    "Strey VOD - League of Legends": {
+      "lang": "fr",
+      "champions": [
+        "top"
+      ],
+      "level": "High elo",
+      "note": "Commente ses lanes en FR."
+    },
+    "WoitlanDunk ": {
+      "lang": "fr",
+      "champions": [
+        "Darius"
+      ],
+      "level": "Master",
+      "note": "Le nom de la chaîne finit par une espace sur YouTube."
+    },
+    "Coach K": {
+      "lang": "en",
+      "champions": [
+        "support"
+      ],
+      "level": "Challenger, coach support",
+      "note": "Guides « Detailed Challenger Guide » et séries « Educational »."
+    },
+    "Coach Kirei": {
+      "lang": "en",
+      "champions": [
+        "LeeSin",
+        "jungle"
+      ],
+      "level": "Challenger, coach jungle",
+      "note": "Couvre les couples Lee Sin (exception à la règle « jungle en fin de file »)."
+    },
+    "We Teach League | Broken By Concept": {
+      "lang": "en",
+      "champions": [
+        "all"
+      ],
+      "level": "Podcast de coachs + invités Challenger",
+      "note": "Ses extraits sur « We Teach League Highlights & Clips » ne comptent pas comme une source de plus : BBC + extraits = 1 source par couple."
+    },
+    "We Teach League Highlights & Clips": {
+      "lang": "en",
+      "champions": [
+        "all"
+      ],
+      "level": "Extraits de Broken By Concept",
+      "note": "Même source que « We Teach League | Broken By Concept » : ne compte jamais comme une source de plus."
+    },
+    "Godrekton": {
+      "lang": "en",
+      "champions": [
+        "Renekton",
+        "top"
+      ],
+      "level": "High elo",
+      "note": "Vidéos de matchups Renekton expliqués."
+    },
+    "Coach Chippys": {
+      "lang": "en",
+      "champions": [
+        "top"
+      ],
+      "level": "Challenger, coach top",
+      "note": "Guides détaillés et guide de counter pick top."
+    },
+    "Reptile9LoL": {
+      "lang": "en",
+      "champions": [
+        "support"
+      ],
+      "level": "High elo",
+      "note": "Vidéos « How To Play VS … »."
+    },
+    "perryjg": {
+      "lang": "en",
+      "champions": [
+        "Viego",
+        "jungle"
+      ],
+      "level": "Rank 1 Viego",
+      "note": "Séries « Educational »."
+    },
+    "Kaido Jungle": {
+      "lang": "en",
+      "champions": [
+        "Kindred",
+        "jungle"
+      ],
+      "level": "Rank 1 Kindred",
+      "note": "Matchups expliqués et tier lists."
+    },
+    "AxL": {
+      "lang": "en",
+      "champions": [
+        "Thresh",
+        "support"
+      ],
+      "level": "OTP Thresh",
+      "note": "Tier lists de matchups commentées."
+    },
+    "Pyke on a Spike": {
+      "lang": "en",
+      "champions": [
+        "Pyke"
+      ],
+      "level": "OTP Pyke",
+      "note": "« EVERY Pyke Matchup Explained »."
+    },
+    "ColsENG": {
+      "lang": "en",
+      "champions": [
+        "Rell",
+        "support"
+      ],
+      "level": "High elo support",
+      "note": "Tier lists de matchups par chapitres."
+    },
+    "Soldierlol_": {
+      "lang": "fr",
+      "champions": [
+        "ADC"
+      ],
+      "level": "Challenger ADC",
+      "note": "Vidéos éducatives commentées en FR."
+    },
+    "Booshi": {
+      "lang": "fr",
+      "champions": [
+        "ADC"
+      ],
+      "level": "Rank 1 EUW",
+      "note": "Seulement les vidéos « PRO GUIDE » (contrôlé).",
+      "titleMustInclude": "PRO GUIDE"
+    },
+    "Sixen • League of Legends": {
+      "lang": "fr",
+      "champions": [
+        "jungle"
+      ],
+      "level": "High elo",
+      "note": "Guides commentés en FR."
+    }
   },
   "excluded": {
     "Yasuo Legends": "replays sans commentaire",
@@ -27,10 +214,45 @@
     "Peak CN Top": "replays sous-titrés depuis le chinois",
     "challenger asie": "replays sans commentaire",
     "PZ ZZANG": "voix coréenne, sous-titres traduits (surtout de la musique)",
-    "2deal": "voix allemande, sous-titres traduits ; peu de conseils de matchup"
+    "2deal": "voix allemande, sous-titres traduits ; peu de conseils de matchup",
+    "CentuReplays": "replays sans commentaire",
+    "TOP GOSU": "replays sans commentaire",
+    "OP.LOLReplays": "replays sans commentaire",
+    "ProsQueue": "replays sans commentaire",
+    "Pro ADC Archive": "replays sans commentaire",
+    "Pro Top Archive": "replays sans commentaire",
+    "DantehADC": "exclue (2026-11-12) : pas une source de conseils de matchup",
+    "Bwipo VODs": "exclue (2026-11-12) : pas une source de conseils de matchup",
+    "Aleksis007": "exclue (2026-11-12) : pas une source de conseils de matchup",
+    "Coach Violet": "exclue (2026-11-12) : pas une source de conseils de matchup",
+    "tamary": "exclue (2026-11-12) : pas une source de conseils de matchup",
+    "lolzayno": "exclue (2026-11-12) : pas une source de conseils de matchup",
+    "Catalin3000": "exclue (2026-11-12) : pas une source de conseils de matchup",
+    "NinkeyRAW": "exclue (2026-11-12) : pas une source de conseils de matchup",
+    "Booshi VOD": "exclue (2026-11-12) : pas une source de conseils de matchup",
+    "Jezu VOD": "exclue (2026-11-12) : pas une source de conseils de matchup"
   },
   "titleHints": {
-    "prefer": ["guide", "educational", "commentary", "explained", "how to beat", "comment jouer", "matchup"],
-    "avoid": ["Replays", "Gameplay - Patch", "[Eng Sub]", "Full Game", "who wins", "qui gagne"]
+    "prefer": [
+      "guide",
+      "educational",
+      "commentary",
+      "explained",
+      "how to beat",
+      "comment jouer",
+      "matchup"
+    ],
+    "avoid": [
+      "Replays",
+      "Gameplay - Patch",
+      "[Eng Sub]",
+      "Full Game",
+      "who wins",
+      "qui gagne"
+    ]
+  },
+  "excludedPatterns": {
+    "Challenger Replays$": "chaînes « {Champion} Challenger Replays » : replays sans commentaire",
+    "^domisumReplay:": "chaînes « domisumReplay: … » : replays sans commentaire"
   }
 }

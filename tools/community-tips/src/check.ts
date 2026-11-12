@@ -52,6 +52,8 @@ for (const c of Object.values(glossary.champions)) for (const a of [c.passive, .
 const buildNames = [...Object.entries(glossary.items), ...Object.entries(glossary.runes)]
   .flat()
   .filter((name) => name.length >= 4 && !notBuild.has(name));
+// Ability names are removed before the item / rune check (« Volonté de fer » is not the rune « Volonté »).
+const abilityNamesRe = new RegExp(`(?<![\\p{L}])(${[...notBuild].sort((a, b) => b.length - a.length).map(escape).join('|')})(?![\\p{L}])`, 'gu');
 const buildNamesRe = new RegExp(`(?<![\\p{L}])(${[...new Set(buildNames)].map(escape).join('|')})(?![\\p{L}])`, 'u');
 const buildWordsRe = /\b(runes?|items?|objets?|build|stuff|rush|max(er)?\s+(ton|ta|son|sa|your|his|her|the)?\s*[QWERAZ]\b|skill order|ordre des comp[ée]tences)\b/i;
 const qwertyRe = /(?<![\p{L}\d])[QW](?![\p{L}\d])/u;
@@ -133,7 +135,7 @@ for (const name of files) {
           if (qwertyRe.test(tip.text.replace(/\bQSS\b/g, ''))) fail(at, `QWERTY key in French: "${tip.text}"`);
           for (const issue of agreementIssues(tip.text, genders)) fail(at, issue);
         }
-        const item = tip.text.match(buildNamesRe);
+        const item = tip.text.replace(abilityNamesRe, '').match(buildNamesRe);
         if (item) fail(at, `item / rune name "${item[1]}"`);
         const keyword = tip.text.match(buildWordsRe);
         if (keyword) fail(at, `build advice keyword "${keyword[0]}"`);

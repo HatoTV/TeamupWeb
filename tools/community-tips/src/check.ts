@@ -137,7 +137,7 @@ for (const name of files) {
         }
         const item = tip.text.replace(abilityNamesRe, '').match(buildNamesRe);
         if (item) fail(at, `item / rune name "${item[1]}"`);
-        const keyword = tip.text.match(buildWordsRe);
+        const keyword = tip.text.replace(abilityNamesRe, '').match(buildWordsRe);
         if (keyword) fail(at, `build advice keyword "${keyword[0]}"`);
         if (sourceSentences.some((s) => sharedRun(tip.text, s))) fail(at, `copied from a source: "${tip.text}"`);
       });

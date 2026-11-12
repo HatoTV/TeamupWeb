@@ -1,0 +1,122 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] I feel like looks is not like the other poke supporters because she is she's more annoying to deal with for some reason the only thing that's great is that lux players like to greet for their passive and then you can punish them if they go in Auto attack range",
+    "[0] it's an even match up it is similar to all like the brands and the seraphs for sure",
+    "[1] then bad matchups is the matchups that can poke you and outrange you",
+    "[1] supports that can bully you a bit right but they need to be very skilled to play this match up because once you see one good engage that you do they're going to lose flash they're going to die and once they lose flash then the matchup completely flips and changes right",
+    "[1] again luxi is here as well and Ash is also here if they are together with a strong ad carry is going to be difficult to play you will need your jungler you will need some good engages",
+    "[1] again we can see it here it's really fast W flash it goes really really fast",
+    "[2] I mean if I'm R I would already went in by the way with flash w we could dive here",
+    "[2] okay no okay I respect the real engage oh sad what happened was very sad"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 2 2026-11-12",
+  "videosFound": 34,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "utilisé (2023-02-27, ancien ; passage Lux 9:52, matchup classé « even »)"
+    },
+    {
+      "id": "dFEJushm5Cc",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre matchups 9:37-10:40 : Lux parmi les mauvais matchups de Rell ; 20:54 W-Flash)"
+    },
+    {
+      "id": "8jnpy90gy1w",
+      "channel": "Coach K",
+      "result": "lu (recherche Rell/engage/tank/all-in) : aucune mention de Rell, conseils génériques ; non utilisé"
+    },
+    {
+      "id": "ziSCHttG5w8",
+      "channel": "Coach K",
+      "result": "utilisé (2025-01-10, un peu plus de 18 mois ; chapitres « Lux vs Rell » 41:19 et 2:35:34 ; Rell transcrit « R », « ra », « real » ; live surtout hors matchup, deux phrases utiles)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/lux/counters/support?target_champion=rell",
+      "result": "no-advice (stats seulement, aucun tip écrit Lux vs Rell, patch 16.22)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/rell/counters/support?target_champion=lux",
+      "result": "no-advice (stats seulement, aucun tip écrit Rell vs Lux, patch 16.22)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/rell/vs-lux/support/all",
+      "result": "stats-only (aucun commentaire de joueur)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lux : poke de loin, elle a bien plus de portée que Rell",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (ColsENG la range avec les supports poke, Coach K : « poke you and outrange you ») + DDragon (portées Lux 1100-1175, Rell A 600 / Z 450)"
+    },
+    {
+      "idea": "Lux : respecter l'engage Flash + Z de Rell, un engage réussi coûte le Flash et retourne la lane",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z : bond, knock-up, portée 450)"
+    },
+    {
+      "idea": "Lux : ne pas s'avancer en portée d'AA juste pour déclencher Illumination",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Illumination : la prochaine attaque déclenche la charge)"
+    },
+    {
+      "idea": "Rell : engage Flash + Ferromancie (Z)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z : bond, knock-up)"
+    },
+    {
+      "idea": "Rell : punir Lux quand elle s'avance pour proc son passif en AA",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Illumination)"
+    },
+    {
+      "idea": "Rell : rester patiente face au poke, un engage réussi fait perdre le Flash et retourne la lane",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, idée de lane non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Rell : jouer avec son jungler si Lux a un ADC fort",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    },
+    {
+      "idea": "Lux : ne pas se battre quand Rell se déplace (« why are we fighting when re is moving »)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source, phrase ambiguë"
+    }
+  ]
+}

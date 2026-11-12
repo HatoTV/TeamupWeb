@@ -1,0 +1,95 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] We recommend using [E] when Rumble uses Flamespitter (Q).",
+    "[0] Harass with [Q] and raise [P] stacks, and engage often when your abilities are off cooldown.",
+    "[1] Do not stand in range of Shield Vault (W)! Be careful when his skills are reinforced!",
+    "[2] be ready to punish him if he overheats or underheats now a lot of people know how to punish Rumble when he overheats because it's quite obvious he's glowing red and shouting",
+    "[2] if Rumble is on zero heat if he lets it decay back to zero and you go on him and he uses qwe all three of those spells will be the weakened version",
+    "[2] they play for the overheat but not the under heat but the overheat has quite a lot of passive of damage so it's actually better to all in them when he's under heated",
+    "[3] just punish him if he has bad heat management if he just overheats then it's about to expire or he's on zero heat so his spells don't get owered"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 2 2026-11-12",
+  "videosFound": 70,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "d1BZkv70B20",
+      "channel": "Coach Chippys",
+      "result": "utilisé partiellement (2023 ; aucune mention de Pantheon, même déformée ; seul le chapitre « How To vs Rumble » sert, conseil général anti-Rumble)"
+    },
+    {
+      "id": "lapAuqbbvaY",
+      "channel": "Misanthiel - Coach Toplane",
+      "result": "non utilisé (voix FR, aucune mention de Pantheon)"
+    },
+    {
+      "id": "B5hknDNqR7k",
+      "channel": "Potent VODS - League of Legends ",
+      "result": "non utilisé (Potent joue Fiora contre Pantheon, pas Rumble ; peu de commentaire de matchup)"
+    },
+    {
+      "id": "l8vZCDhT9JE",
+      "channel": "Coach Chippys",
+      "result": "utilisé partiellement (chapitre Rumble 1:02:19, conseil général anti-Rumble ; chapitre Pantheon sans mention de Rumble)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/pantheon/counters/top?target_champion=rumble",
+      "result": "ok (tip écrit : E contre le Lance-flammes)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/rumble/counters/top?target_champion=pantheon",
+      "result": "ok (tip écrit : rester hors de portée du Z)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/pantheon/vs-rumble/top/all",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Pantheon : E pour bloquer le Lance-flammes (A)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E invulnérable de face ; A = cône de dégâts devant Rumble pendant 3 s)"
+    },
+    {
+      "idea": "Pantheon : engager quand Rumble est sous 50 % de Vapeur (sorts non renforcés), respecter ses autos en Surchauffe",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : Zone rouge à 50 %, Surchauffe = autos renforcées, pas de sorts). Conseil général contre Rumble, pas propre à Pantheon"
+    },
+    {
+      "idea": "Pantheon : harass avec A, monter le passif, engager quand les sorts sont prêts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source (lane)"
+    },
+    {
+      "idea": "Rumble : rester hors de portée du Z, attention au sort renforcé",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (portée Z 600 ; passif renforce le prochain sort)"
+    },
+    {
+      "idea": "Rumble : contre un mêlée avec setup de gank, suivre le jungler adverse",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source, générale, sans mention de Pantheon"
+    }
+  ]
+}

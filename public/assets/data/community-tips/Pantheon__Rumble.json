@@ -1,0 +1,100 @@
+{
+  "pair": [
+    "Pantheon",
+    "Rumble"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Pantheon": "3236c2681c91b5c3d475b340aec7bfa895444299c6e376bb6cafa591acfa0627",
+    "Rumble": "164c0a624a8882ce84a52f27947846341c819c67c79bad50cfbecda415bf717d"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Pantheon": {
+      "fr": [
+        {
+          "text": "Engage quand sa Vapeur est basse : tant qu'il n'a pas atteint la Zone rouge (50 %), ses sorts ne sont pas renforcés. En Surchauffe, méfie-toi de ses autos.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Lève ton Égide impénétrable (E) face à son Lance-flammes (A) : tu ne subis pas ses dégâts de face pendant que tu canalises.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Engage when his Heat is low: until he reaches Danger Zone (50%), his spells aren't empowered. While he's Overheated, respect his autos.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Raise Aegis Assault (E) against his Flamespitter (Q): you take none of its damage from the front while you channel.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Rumble": {
+      "fr": [
+        {
+          "text": "Reste hors de portée de son Assaut martial (Z), 600 unités, et méfie-toi quand son Ardeur mortelle renforce son prochain sort.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Stay out of Shield Vault (W) range, 600 units, and be wary when Mortal Will empowers his next spell.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Pantheon Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/pantheon/counters/top?target_champion=rumble",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Rumble Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/rumble/counters/top?target_champion=pantheon",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "RUMBLE GUIDE | Full In-Depth Challenger Guide | How To Carry At All Stages With Rumble",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=d1BZkv70B20",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Chippys",
+      "publishedAt": "2023-09-03",
+      "timestamps": [
+        "1:15:22",
+        "1:15:54"
+      ]
+    },
+    {
+      "title": "TOP LANE COUNTER PICK GUIDE - How to Counter Every Top Lane Champion",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=l8vZCDhT9JE",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Chippys",
+      "publishedAt": "2025-03-24",
+      "timestamps": [
+        "1:03:08"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] Ramis I've discovered is actually the worst and I mean the worst matchup for Vigo actually the worst",
+    "[0] Ramis you can't kill that guy as vgo like you just can't kill him you need teammates to kill him",
+    "[0] the thing is that Ramis should have a really hard time doing the dragon so I'm actually going to play to do grubs here",
+    "[0] we see Ramis he's showing again which is really good for us"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 2 2026-11-12",
+  "videosFound": 30,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "i4VNYFTasHI",
+      "channel": "perryjg",
+      "result": "utilisé (Viego contre Rammus commenté, 26 min, 2024-03-14 : plus de 18 mois, pas de rework des deux depuis)"
+    },
+    {
+      "id": "2Ru-htirwGQ",
+      "channel": "Mo100z",
+      "result": "inutile (partie commentée Viego contre Rammus, rien de précis sur Rammus)"
+    },
+    {
+      "id": "OmVG6-tnhnc",
+      "channel": "Rank 1 Viego",
+      "result": "inutile (guide Viego 2026-10-23 : ni Wukong, ni Skarner, ni Rammus, ni « matchup » dans les sous-titres ; ouverture comptée pour les 3 couples)"
+    },
+    {
+      "id": "ym2iS2-iKVg",
+      "channel": "perryjg",
+      "result": "inutile (4 parties Viego, 1 h 26 : aucun des 3 adversaires cité ; ouverture comptée pour les 3 couples)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/rammus/vs-viego/jungle/all",
+      "result": "stats-only (Rammus 55 %)"
+    },
+    {
+      "url": "https://facecheck.gg/lol/champions/Viego/matchups/Rammus",
+      "result": "no-advice (sections de tips vides)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Viego : ne pas chercher le 1v1 contre Rammus (Boule défensive : armure/RM + renvoi de dégâts), le tuer avec ses alliés",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source + DDragon possible, mais une seule source distincte pour tout le couple : insufficientSources"
+    },
+    {
+      "idea": "Viego : Rammus a du mal à prendre le drake tôt, jouer les drakes",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source"
+    },
+    {
+      "idea": "Viego : Rammus visible d'un côté = info pour jouer ailleurs",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source, trop vague"
+    }
+  ]
+}

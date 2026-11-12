@@ -31,7 +31,7 @@
     },
     "counterstats.net": {
       "ok": 1,
-      "failed": 1,
+      "failed": 6,
       "results": [
         "ok",
         "stats-only"
@@ -42,6 +42,13 @@
       "failed": 0,
       "results": [
         "ok"
+      ]
+    },
+    "facecheck.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "no-advice"
       ]
     },
     "invenglobal.com": {
@@ -129,10 +136,12 @@
       ]
     },
     "op.gg": {
-      "ok": 6,
-      "failed": 0,
+      "ok": 10,
+      "failed": 4,
       "results": [
-        "ok"
+        "ok",
+        "stats-only",
+        "no-tips"
       ]
     },
     "orbispatches.com": {

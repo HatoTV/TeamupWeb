@@ -1,0 +1,177 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] Veigar's cage is the lane. If it traps you and you panic, you lose the trade.",
+    "[0] He only threatens you through cage setup so staying calm inside it removes most of his damage.",
+    "[0] Don't give free Q stacks. Staying behind minions is fine. Just don't take unnecessary hits.",
+    "[0] If you're inside the cage, don't panic. Dodge the W and avoid the stun.",
+    "[0] Watch for aggressive cages since he's often setting up for a jungler.",
+    "[0] Punish him early as he's weak without items and stacks.",
+    "[0] At level six, stay above at least 30% HP since his R will",
+    "[0] Zed's W decides the trade. When it's up, he can threaten a full combo. Respect him while W is up.",
+    "[0] Go hard when W is down, since he has no way to commit or get out.",
+    "[0] Stay behind minions to reduce the damage from his Q.",
+    "[0] You can walk into his shadow to make it harder for him to land multiple shurikens.",
+    "[0] At level six, respect his burst. If he ults, aim your damage and CC behind you, since he always appears there.",
+    "[1] Tengo que tratar de doguearle los shuriken sí o sí.",
+    "[1] cuando es level 6 el set, siempre la ulti tiene que tirarla a la espalda de Beigar, o sea, acá, cosa que cuando caiga la ulti, eh, el set no nos puede hacer nada.",
+    "[1] no nos puede hacer nada porque va a quedar estuneado y ahí aprovechar a tirar todo",
+    "[1] Pero generalmente lo de la cárcel tiene que siempre esperar contra el set porque generalmente puede volver a la sombra y ahí se nos complica una banda.",
+    "[1] Si el set no nos llega a sacar ventaja ahora, una vez que nosotros tengamos botitas y la vara completa, no tiene chances, amigo.",
+    "[1] Te va a querer ultear siempre cuando te vea a vos ultiar.",
+    "[1] acuérdense que el set no se le puede hacer flash ulti por el simple hecho de que él tiene la ulti y nos puede doar todo, eh, todo el combo.",
+    "[1] siempre que ultean o le dé el rango de la ulti, no se acerquen al set. Aléjense.",
+    "[1] Porque si ustedes lo ultean y se acercan mientras que va el recorrido de la ulti, él puede ultear. Y la ulti desaparece, o sea, nuestra ulti desaparece.",
+    "[2] His cage is extremely powerful, but it's countered by either range or blinks, like said."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 2 2026-11-12",
+  "videosFound": 51,
+  "videosRead": 3,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "Vm3jaCtABj0",
+      "channel": "Veigar v2",
+      "result": "utilisé (36:27 : la cage est contrée par la portée ou les blinks) ; passages Zed = runes/sorts d’invocateur, ignorés"
+    },
+    {
+      "id": "4Fc56KQbIBI",
+      "channel": "Zoose",
+      "result": "utilisé (chapitres Veigar 18:20 et Zed 22:22 ; conseils généraux contre chaque champion)"
+    },
+    {
+      "id": "KgjcRGakOJU",
+      "channel": "Veigarciano",
+      "result": "utilisé (voix espagnole, sous-titres es ; Veigar mid vs Zed commenté)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Veigar : esquiver le Q, rester derrière les sbires",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q : dégâts réduits après la 1re cible)"
+    },
+    {
+      "idea": "Veigar : garder la cage tant que Zed a son Z (retour à l’ombre)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W : échange de place)"
+    },
+    {
+      "idea": "Veigar : cage derrière soi quand Zed ult",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources ; « réapparaît dans le dos » non décrit dans DDragon → verifiedByGameData false"
+    },
+    {
+      "idea": "Veigar : jouer safe tôt, Zed doit prendre l’avance avant ton scaling",
+      "sourceIdx": [
+        1,
+        0
+      ],
+      "kept": true,
+      "reason": "2 sources ; mention des objets retirée"
+    },
+    {
+      "idea": "Veigar : trader quand le Z de Zed est en CD",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 20/19/18/17/16)"
+    },
+    {
+      "idea": "Veigar : ne pas s’approcher pour R, Zed l’esquive avec son R",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Zed R : intouchable)"
+    },
+    {
+      "idea": "Veigar : marcher dans l’ombre de Zed pour limiter les shurikens multiples",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, mécanique non décrite telle quelle dans DDragon"
+    },
+    {
+      "idea": "Zed : garder le Z pour sortir de la cage",
+      "sourceIdx": [
+        2,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W : échange de place)"
+    },
+    {
+      "idea": "Zed : punir tôt, Veigar faible sans stacks",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources ; mention des objets retirée"
+    },
+    {
+      "idea": "Zed : prévoir la cage dans le dos de Veigar pendant ton R, garder le Z",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (conseils côté Veigar retournés)"
+    },
+    {
+      "idea": "Zed : dans la cage, ne pas toucher le bord, esquiver le Z, attendre 3 s",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (cage 3 s, stun au passage du bord)"
+    },
+    {
+      "idea": "Zed : derrière les sbires contre le Q, pas de stacks gratuits",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q : deux premiers ennemis ; passif : sort sur champion = PA permanente)"
+    },
+    {
+      "idea": "Zed : rester au-dessus de 33 % de PV après le lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R maximal sous 33 %)"
+    },
+    {
+      "idea": "Zed : esquiver le R de Veigar avec son R",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R intouchable)"
+    },
+    {
+      "idea": "Zed : cages agressives = setup pour le jungler",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    }
+  ]
+}

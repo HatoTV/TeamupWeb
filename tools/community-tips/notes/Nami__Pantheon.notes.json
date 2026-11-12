@@ -1,0 +1,132 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] Now horrible will be Pike, Pantheon, Re because Reb broken engage champion for so many years already. Pike and Pantheon, the good engage and a lot of damage that you cannot outheal or out sustain.",
+    "[0] make sure that the enemy team dash in or engage and once they dash in on engage you have a free Q to hit. So this means you need to be patient.",
+    "[1] I'm not using my cue already to poke a lot of you guys will just charge the cue and try to poke it's doesn't do that much damage I'm not going to accomplish anything",
+    "[1] went up crashing this 4th wave under the tower and now I'm unable to do anything in bordling because I'm not going to hit the tower so I'm going to make myself useful",
+    "[1] I'm going to roam towards Midland and look if I can uh dive the Silas",
+    "[1] you guys see how it works right the dynamic of yanking one lane getting my level 6 impacting my bowling again",
+    "[2] If we can crash the this one, I can go mid lane. I want to go mid lane after this crash.",
+    "[2] Now Nam is forced to play top because she's she sees that I'm top all the time and we're getting kills. So now she's forced to roam and that's what I like to see.",
+    "[3] Do not stand in range of Pantheon's Shield Vault (W)!",
+    "[3] Be careful of Pantheon when his passive is strengthening his abilities!",
+    "[3] Use Aqua Prison [Q] beforehand when Pantheon casts Shield Vault (W).",
+    "[4] Always be careful of Nami's (Q) ability.",
+    "[4] Pantheon can easily get a kill and lane control if he manages to close in and engage"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 2 2026-11-12",
+  "videosFound": 50,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "HBda0lRLHz0",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre matchups 13:49 : Pantheon classé « horrible » pour Nami ; 23:13 conseil général contre les engages) ; publiée le 2025-05-06, un peu plus de 18 mois"
+    },
+    {
+      "id": "jB0ChjPIrNs",
+      "channel": "Coach K",
+      "result": "utilisé (2024-08-24, ancien ; Nami jamais citée comme adversaire : conseils Pantheon génériques, all-in plutôt que poke 30:12, crash puis roam 42:00 / 44:59)"
+    },
+    {
+      "id": "E_UX3Ru6Y4E",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre « Pantheon vs Nami » 1:56:52-2:44:25 ; live, peu de conseils propres au matchup : crash puis roam, Nami forcée de suivre)"
+    },
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu (recherche Pantheon/Nami/enchanter) : Pantheon absent, Nami citée contre Leona seulement ; non utilisé"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/nami/counters/support?target_champion=pantheon",
+      "result": "ok (3 tips écrits Nami vs Pantheon, patch 16.22)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/pantheon/counters/support?target_champion=nami",
+      "result": "ok (2 tips écrits Pantheon vs Nami, patch 16.22)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Nami : rester hors de portée du Z de Pantheon, ses soins ne suivent pas son burst",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z : bond sur la cible + étourdissement, portée 600)"
+    },
+    {
+      "idea": "Nami : Prison aqueuse (A) sur le point d'arrivée du Z quand il saute sur l'ADC",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon ; formulé « sur ton ADC » car le Z étourdit sa cible (Nami étourdie ne peut pas lancer l'A)"
+    },
+    {
+      "idea": "Nami : se méfier du passif Ardeur mortelle chargé",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (le prochain sort est renforcé)"
+    },
+    {
+      "idea": "Pantheon : all-in plutôt que poke, Nami ne peut pas soigner le burst",
+      "sourceIdx": [
+        0,
+        1,
+        4
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Pantheon : faire lancer la Prison aqueuse (A) avant de sauter",
+      "sourceIdx": [
+        0,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources (même idée vue du côté Nami chez Coach K) + DDragon (A : bulle qui étourdit)"
+    },
+    {
+      "idea": "Pantheon : crash la wave puis roam mid/top, Nami doit suivre",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Pantheon : Z puis Flash pour un engage instantané",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, interaction Z-Flash non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Pantheon : pic de puissance lvl 6 (pénétration d'armure du passif de l'ult)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, pas propre au matchup"
+    },
+    {
+      "idea": "Nami : profiter de sa portée contre un support mêlée",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "Skill Capped parle de Leona ; Pantheon poke à 575 avec son A, idée trompeuse ici"
+    }
+  ]
+}

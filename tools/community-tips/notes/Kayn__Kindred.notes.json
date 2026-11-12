@@ -1,0 +1,145 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] Kane playable. Honestly, you can win it, you can lose it. Red Kane a lot easier to play against.",
+    "[0] No form Kane. I mean, you just kill it like he can't be you.",
+    "[0] Just make sure he doesn't get you he doesn't do the raptor cheese on you. So, keep that in mind. Keep your raptors warden two.",
+    "[0] make sure he doesn't get over this wall for free. always check this bush and you can always ward like here.",
+    "[0] This area pretty much cover because usually the cane will walk in like this because he wants to like kind of like sneak it in, right? So this ward can cover both sides.",
+    "[0] Red Kane, I think it's really easy to play against. Just make sure you don't hit by his W and you're chilling.",
+    "[0] Blue Kane only feels bad when he hits like three items and he starts like he's pretty much god mode.",
+    "[0] early on it's like a bit playable, but then the longer the game goes, the scarier it gets.",
+    "[1] the reason why is because Kindred has slower clear speed. And with slower clear speed, you're basically always going to be in the situation where you have the ability to outscale her.",
+    "[1] You have to be ahead of her to fight her. If you are ahead, you could always jump on her.",
+    "[1] If you're not, she will always, always, always destroy you. Her old counters your old.",
+    "[1] If you're ahead enough on the Kindred and you can kill her without needing to use your alt, you will force her to use her alt and then you save your alt for after her alt.",
+    "[1] if she uses her ulti save your ulti for afterwards. If you ulti first you're going to lose.",
+    "[1] she doesn't need to farm a lot of uh camps. She can gank the lane so she has more impact in the lanes",
+    "[2] Kane, same thing. If he doesn't randomly get killed, let me just watch it just now. like like just try to play around the invades.",
+    "[2] If he doesn't invade you, your game is always good. And if he invades you, play around it, fight him, and then uh make sure he doesn't get too fed.",
+    "[2] Like Blue Kane is really useless till like three, four items. Like he's really OP at three, four items"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 2 2026-11-12",
+  "videosFound": 70,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "4U2eiWuWq6I",
+      "channel": "Kaido Jungle",
+      "result": "utilisé (chapitre Kayn 22:24 ; « Kane » dans les sous-titres)"
+    },
+    {
+      "id": "9Ikzq-Cw-x4",
+      "channel": "Karasmai",
+      "result": "utilisé (tier list Blue Kayn, passage Kindred 15:54-16:50)"
+    },
+    {
+      "id": "xeQJBYM-Vzg",
+      "channel": "Karasmai",
+      "result": "aucune mention de Kindred (guide Kayn 58 min)"
+    },
+    {
+      "id": "5mAdiS_FZjg",
+      "channel": "Kaido Jungle",
+      "result": "utilisé (tier list Kindred, passage Kayn 17:46)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kayn : Kindred clear plus lent, farmer et outscale (surtout en bleu)",
+      "sourceIdx": [
+        1,
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Kayn : invade lvl 1 des raptors par le mur",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (Kaido décrit le cheese comme le plan habituel de Kayn ; « s’il ne t’invade pas, ta partie va bien ») + DDragon (E traverse les murs)"
+    },
+    {
+      "idea": "Kayn : ne pas duel sans forme ni avance",
+      "sourceIdx": [
+        1,
+        0
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Kayn : garder le R pour après le R de Kindred",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Kindred R : personne ne meurt dans la zone ; Kayn R : sortie avec dégâts)"
+    },
+    {
+      "idea": "Kayn : Kindred gank davantage les lanes",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source"
+    },
+    {
+      "idea": "Kindred : ward des raptors contre le cheese lvl 1 par le mur",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E)"
+    },
+    {
+      "idea": "Kindred : Kayn sans forme perd ses duels, le punir tôt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Kindred : Kayn bleu dangereux en fin de partie, ne pas le laisser prendre d’avance",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 vidéos de la même chaîne (Kaido Jungle) ; mention des objets retirée"
+    },
+    {
+      "idea": "Kindred : esquiver le Z du Kayn rouge",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Darkin : W projette en l’air)"
+    },
+    {
+      "idea": "Kindred : garder son R pour le R de Kayn",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (côté Kayn : « si tu ult en premier, tu perds ») + DDragon"
+    },
+    {
+      "idea": "Kindred : « son ult dure plus longtemps que ton contrôle »",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "phrase des sous-titres trop floue (« his all outlast your control »)"
+    }
+  ]
+}

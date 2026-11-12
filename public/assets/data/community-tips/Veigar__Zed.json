@@ -1,0 +1,223 @@
+{
+  "pair": [
+    "Veigar",
+    "Zed"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Veigar": "6a2e13883147bb26ad1b970e7a344ba7c8fbc6840bbbcc1de94a0ab4ae462bea",
+    "Zed": "0ba99785d5adebe7c8106b7a26f9706e9cbbb570abdef20bd3cbd8b1991c3a11"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Veigar": {
+      "fr": [
+        {
+          "text": "Esquive son Shuriken-rasoir (A) et reste derrière tes sbires : chaque shuriken inflige moins de dégâts aux cibles touchées après la première.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Ne lance pas ta Profanation (E) trop tôt : tant que son Ombre vivante (Z) est dispo, il peut échanger de place avec elle et sortir de la cage.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Quand Zed lance sa Marque de la mort (R), pose ta Profanation (E) derrière toi : il réapparaît dans ton dos, en plein dans le stun.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "mechanics"
+        },
+        {
+          "text": "Joue safe au début, quand tu as peu de stacks : si Zed ne prend pas d'avance tôt, le matchup bascule vite de ton côté.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Trade quand son Ombre vivante (Z) est en CD (16 à 20 s) : il n'a plus d'outil pour engager ni pour fuir.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Lance ton Explosion primordiale (R) quand sa Marque de la mort (R) est en CD : s'il l'a encore, il devient intouchable pendant le trajet et ton ult est perdu.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Dodge Razor Shuriken (Q) and stay behind your minions: each shuriken deals less damage to anything it hits after the first target.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Don't throw Event Horizon (E) too early: while Living Shadow (W) is up, he can swap to it and get out of the cage.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "When Zed casts Death Mark (R), drop Event Horizon (E) behind you: he reappears at your back, right into the stun.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "mechanics"
+        },
+        {
+          "text": "Play safe early while your stacks are low: if Zed doesn't get ahead early, the matchup swings your way fast.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Trade when Living Shadow (W) is on cooldown (16 to 20 s): he has nothing left to engage or escape with.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Cast Primordial Burst (R) while Death Mark (R) is on cooldown: if he still has it, he turns untargetable mid-flight and your ult is wasted.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Zed": {
+      "fr": [
+        {
+          "text": "Garde ton Ombre vivante (Z) en réserve : échanger de place avec ton ombre est ton meilleur moyen de sortir de sa Profanation (E).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Mets la pression tôt : Veigar est faible avant d'accumuler ses stacks, et le matchup t'échappe si tu ne prends pas d'avance.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Avant ta Marque de la mort (R), attends-toi à ce qu'il pose sa Profanation (E) dans son dos, là où tu réapparais : garde ton Ombre vivante (Z) pour ressortir.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "mechanics"
+        },
+        {
+          "text": "Enfermé dans sa Profanation (E) ? Ne fonce pas dans le bord, qui étourdit : esquive sa Matière noire (Z) et attends la fin de la cage (3 s).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Reste derrière tes sbires : son Coup malin (A) ne touche que les deux premiers ennemis, et chaque sort qui te touche le rend plus fort.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "À partir du lvl 6, garde plus d'un tiers de tes PV : son Explosion primordiale (R) fait ses dégâts max sous 33 % de vie.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Garde ta Marque de la mort (R) pour esquiver son Explosion primordiale (R) : en devenant intouchable, tu peux annuler son ult.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Keep Living Shadow (W) in reserve: swapping to your shadow is your best way out of his Event Horizon (E).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Pressure him early: Veigar is weak before he builds his stacks, and the matchup slips away if you don't get ahead.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Before Death Mark (R), expect him to drop Event Horizon (E) behind himself, where you reappear: keep Living Shadow (W) to get back out.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "mechanics"
+        },
+        {
+          "text": "Trapped in Event Horizon (E)? Don't run into the edge, it stuns: dodge Dark Matter (W) and wait out the cage (3 s).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Stay behind your minions: Baleful Strike (Q) only hits the first two enemies, and every spell that lands on you makes him stronger.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "From level 6, stay above a third of your health: Primordial Burst (R) deals maximum damage below 33% health.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Save Death Mark (R) to dodge Primordial Burst (R): turning untargetable can cancel his ult.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Every Mid Lane Matchup Explained (All Champions Guide)",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=4Fc56KQbIBI",
+      "consultedAt": "2026-11-12",
+      "channel": "Zoose",
+      "publishedAt": "2026-04-23",
+      "timestamps": [
+        "18:22",
+        "22:23"
+      ]
+    },
+    {
+      "title": "JAMÁS pensé que VEIGAR vs ZED fuera TAN FACIL",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=KgjcRGakOJU",
+      "consultedAt": "2026-11-12",
+      "channel": "Veigarciano",
+      "publishedAt": "2026-08-10",
+      "timestamps": [
+        "1:48",
+        "3:46",
+        "4:47",
+        "8:56",
+        "10:01"
+      ]
+    },
+    {
+      "title": "How to ACTUALLY Play Veigar in Season 16 (Complete Guide)",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Vm3jaCtABj0",
+      "consultedAt": "2026-11-12",
+      "channel": "Veigar v2",
+      "publishedAt": "2026-01-25",
+      "timestamps": [
+        "36:27"
+      ]
+    }
+  ]
+}

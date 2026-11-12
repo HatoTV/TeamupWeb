@@ -2,11 +2,13 @@ import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { RouteContextService, SiteSection } from '../../core/route-context.service';
+import { IconComponent } from '../../shared/ui/icon/icon.component';
+import { IconName } from '../../shared/ui/icon/icons';
 
 interface TabItem {
   section: SiteSection;
   labelKey: string;
-  badge: string;
+  icon: IconName;
   path: string;
 }
 
@@ -14,7 +16,7 @@ interface TabItem {
 @Component({
   selector: 'app-mobile-tabbar',
   standalone: true,
-  imports: [RouterLink, TranslateModule],
+  imports: [RouterLink, TranslateModule, IconComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <nav class="tabbar" [attr.aria-label]="'NAV.MAIN' | translate">
@@ -26,7 +28,7 @@ interface TabItem {
           [class.is-active]="ctx.section() === tab.section"
           [attr.aria-current]="ctx.section() === tab.section ? 'page' : null"
         >
-          <span class="tabbar__badge" aria-hidden="true">{{ tab.badge }}</span>
+          <span class="tabbar__icon"><app-icon [name]="tab.icon" [size]="20" /></span>
           {{ tab.labelKey | translate }}
         </a>
       }
@@ -37,10 +39,10 @@ interface TabItem {
 export class MobileTabbarComponent {
   protected readonly ctx = inject(RouteContextService);
   protected readonly tabs: TabItem[] = [
-    { section: 'home', labelKey: 'NAV.HOME', badge: 'TU', path: '/home' },
-    { section: 'lol', labelKey: 'GAMES.LOL_SHORT', badge: 'LoL', path: '/lol/matchups' },
-    { section: 'tft', labelKey: 'GAMES.TFT_SHORT', badge: 'TFT', path: '/tft' },
-    { section: 'rl', labelKey: 'GAMES.RL_SHORT', badge: 'RL', path: '/rocket/mecanics' },
-    { section: 'about', labelKey: 'ABOUTME', badge: 'H', path: '/contact' },
+    { section: 'home', labelKey: 'NAV.HOME', icon: 'home', path: '/home' },
+    { section: 'lol', labelKey: 'GAMES.LOL_SHORT', icon: 'game-lol', path: '/lol/matchups' },
+    { section: 'tft', labelKey: 'GAMES.TFT_SHORT', icon: 'game-tft', path: '/tft' },
+    { section: 'rl', labelKey: 'GAMES.RL_SHORT', icon: 'game-rl', path: '/rocket/mecanics' },
+    { section: 'about', labelKey: 'ABOUTME', icon: 'user', path: '/contact' },
   ];
 }

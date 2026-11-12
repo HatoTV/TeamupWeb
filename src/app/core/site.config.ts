@@ -1,4 +1,5 @@
 import { BrandName } from '../shared/ui/icon/brand-icons';
+import { IconName } from '../shared/ui/icon/icons';
 
 export type Lang = 'fr' | 'en';
 export const SUPPORTED_LANGS: readonly Lang[] = ['fr', 'en'];
@@ -9,15 +10,15 @@ export type GameId = 'lol' | 'tft' | 'rl';
 export interface GameLink {
   id: GameId;
   labelKey: string;
-  short: string;
+  icon: IconName;
   /** Path without the language prefix. */
   path: string;
 }
 
 export const GAMES: readonly GameLink[] = [
-  { id: 'lol', labelKey: 'GAMES.LOL', short: 'LoL', path: '/lol/matchups' },
-  { id: 'tft', labelKey: 'GAMES.TFT', short: 'TFT', path: '/tft' },
-  { id: 'rl', labelKey: 'GAMES.RL', short: 'RL', path: '/rocket/mecanics' },
+  { id: 'lol', labelKey: 'GAMES.LOL', icon: 'game-lol', path: '/lol/matchups' },
+  { id: 'tft', labelKey: 'GAMES.TFT', icon: 'game-tft', path: '/tft' },
+  { id: 'rl', labelKey: 'GAMES.RL', icon: 'game-rl', path: '/rocket/mecanics' },
 ];
 
 /** Feature flags for pages that are not live yet (links to them stay hidden while false). */

@@ -1,0 +1,141 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] I think in this matchup, uh, Jay has to hit shock blasts because if I'm best I can short trade you with W",
+    "[0] If I W his damage and hammer stands, he quite literally gets like no damage through on me",
+    "[0] Hitting shock loss is really important, forcing her W cuz if she she manages to trade you when you show W up and hammer stance, she eats your whole hammer stance combo",
+    "[0] Can't really open him while he has hammer E and stuff. though",
+    "[1] some advice when playing up against her her W cool Down's extremely long so good to look that up before you play and try to play around that punish when and have big shields on cool down",
+    "[1] a lot of people just mindlessly get hit by the q1 and Q2 where Q2 is more easier to dodge than q1 but q1 range is quite short so if you bait her out if you pretend to run at her",
+    "[1] one more piece of advice as well is making sure you're punishing his hammer e cool down it's extremely long a lot of Champions Gap closes it's going to be shorter than it",
+    "[1] if he knocks you away then you've got a great opportunity to use q and E together that's how you're going to win the trade up against him",
+    "[2] now playing around her Q2 is also important at the start when nobody knew what she did very easy to hit it",
+    "[2] but now when you verse good players they know when you're going to be using Q2 they're pre- dodging it",
+    "[3] me mindfull about her shield",
+    "[3] try not to use melee e when engaging but use it when she tries to engage you"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 12 2026-11-12",
+  "videosFound": 35,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "0tr45CNKL-Y",
+      "channel": "Bwipo",
+      "result": "utilisé (chaîne principale, pas « Bwipo VODs » ; chapitres Mana and level management, Dominating the matchup, Laning and jungle pressure)"
+    },
+    {
+      "id": "n9JUqutqKoI",
+      "channel": "Strey VOD - League of Legends",
+      "result": "lu, inutilisé (Ambessa vs Jayce patch 25.14 : commentaire de partie, aucun conseil propre au matchup)"
+    },
+    {
+      "id": "l8vZCDhT9JE",
+      "channel": "Coach Chippys",
+      "result": "utilisé (chapitres Ambessa 17:21 et Jayce 29:31)"
+    },
+    {
+      "id": "Qwjxigtf6os",
+      "channel": "Coach Chippys",
+      "result": "utilisé (chapitre How to Counter Ambessa 1:21:42 ; Matchups 39:56 ne cite pas Jayce)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ambessa",
+      "result": "ok (1 commentaire récent d'un auteur de guide Jayce, data-tip-id 2243060)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/jayce",
+      "result": "lu, inutilisé (1 seul commentaire d'auteur Ambessa, data-tip-id 2231760 = ancien, conseils de runes et de mana)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ambessa : punir le long CD de Coup foudroyant (E marteau)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD 20 à 10 s, repousse)"
+    },
+    {
+      "idea": "Ambessa : Égide dévastatrice sur le combo marteau, le bouclier bloque et la frappe fait plus mal",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bouclier, dégâts accrus si dégâts non-sbires bloqués)"
+    },
+    {
+      "idea": "Ambessa : Jayce manque de mana aux niveaux 1-3, attendre",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source récente ; le commentaire de la page counterstats Jayce (2231760, non retenue) est ancien (< 2232000)"
+    },
+    {
+      "idea": "Ambessa : Jayce facile à gank, rester haut en PV et jouer avec le jungler",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source (conseil générique contre Jayce)"
+    },
+    {
+      "idea": "Ambessa : contre un top range, laisser push, buissons, trade au niveau 4",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source, conseil donné pour les tops range en général (Aurora, Kennen), pas Jayce"
+    },
+    {
+      "idea": "Jayce : toucher Orbe électrique pour forcer Égide dévastatrice puis trader pendant son CD",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Égide : bouclier, CD 18 à 14 s)"
+    },
+    {
+      "idea": "Jayce : garder Coup foudroyant pour repousser son engage, pas pour ouvrir",
+      "sourceIdx": [
+        3,
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "3 sources (counterstats 2243060 récent ; Bwipo et Chippys du point de vue Ambessa) + DDragon (repousse)"
+    },
+    {
+      "idea": "Jayce : esquiver la Frappe fracassante en ligne après une Frappe fourbe qui touche",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q2 en ligne, débloquée en touchant un ennemi) ; portée courte du Q1 non vérifiable (DDragon donne 650), non reprise"
+    },
+    {
+      "idea": "Jayce : jouer sur la wave et les plates plutôt que trader agressivement",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    },
+    {
+      "idea": "Jayce : la faire casser la wave avec ses sorts pour la faire revenir",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    }
+  ]
+}

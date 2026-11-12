@@ -1,0 +1,132 @@
+{
+  "pair": [
+    "Ambessa",
+    "Jayce"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Ambessa": "e56df32966ff04a871e7876f41cd856c3388ccd826e7aed579970aa7f7175136",
+    "Jayce": "989818d3f50d1c78fc342c6d2a8b5cde8ccae023f63061d1922c326ce150b71c"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Ambessa": {
+      "fr": [
+        {
+          "text": "Son Coup foudroyant (E) a un long CD : s'il s'en sert pour te repousser, reviens sur lui juste après, tant que le sort est indisponible.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Lance ton Égide dévastatrice (Z) sur son combo en forme marteau : le bouclier encaisse ses dégâts et ta frappe au sol fait plus mal.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "His Thundering Blow (E) has a long cooldown: if he uses it to push you away, go straight back in while it's down.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Use Repudiation (W) into his hammer combo: the shield soaks his damage and your slam hits harder after blocking him.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Jayce": {
+      "fr": [
+        {
+          "text": "Touche ton Orbe électrique (A) avant de trader : Ambessa doit sortir son Égide dévastatrice (Z), puis passe en marteau pendant son long CD.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Garde ton Coup foudroyant (E) pour la repousser quand elle saute sur toi, plutôt que pour ouvrir : tant qu'il est dispo, elle hésite à engager.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Quand sa Frappe fourbe (A) touche, la Frappe fracassante suit en ligne droite : anticipe-la et décale-toi sur le côté.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        }
+      ],
+      "en": [
+        {
+          "text": "Land Shock Blast (Q) before trading: it forces out her Repudiation (W), then switch to hammer while that long cooldown runs.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Keep Thundering Blow (E) to knock her back when she dives you, not to open: while it's up, she can't engage safely.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "When her Cunning Sweep (Q) connects, Sundering Slam follows in a straight line: anticipate it and step to the side.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Bwipo Explains How To STOMP On Ambessa | Ambessa vs Jayce",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=0tr45CNKL-Y",
+      "consultedAt": "2026-11-12",
+      "channel": "Bwipo",
+      "publishedAt": "2025-05-06",
+      "timestamps": [
+        "5:10",
+        "5:22",
+        "5:47",
+        "6:43"
+      ]
+    },
+    {
+      "title": "TOP LANE COUNTER PICK GUIDE - How to Counter Every Top Lane Champion",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=l8vZCDhT9JE",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Chippys",
+      "publishedAt": "2025-03-24",
+      "timestamps": [
+        "18:45",
+        "31:16"
+      ]
+    },
+    {
+      "title": "AMBESSA GUIDE - How to Carry with Ambessa - Detailed Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Qwjxigtf6os",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Chippys",
+      "publishedAt": "2024-12-16",
+      "timestamps": [
+        "1:23:35"
+      ]
+    },
+    {
+      "title": "Ambessa Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/ambessa",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

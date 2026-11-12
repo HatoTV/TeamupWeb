@@ -1,0 +1,71 @@
+{
+  "pair": [
+    "Mel",
+    "Syndra"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Mel": "48a75be5211bd3e2d1c4a69cbb3e4c91774b9bfd130e119ebaf8d5001ada2263",
+    "Syndra": "14bad5621ab2e90121cce2479995a8566292746e2ed97f0e24603361445cd259"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Mel": {
+      "fr": [],
+      "en": []
+    },
+    "Syndra": {
+      "fr": [
+        {
+          "text": "Fais sortir sa Réfutation (Z) avant ton gros combo : la nova détruit les projectiles, riposte, puis reste longtemps en CD.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Mel te pique avec son Barrage lumineux (A) et son Piège solaire (E) quand tu avances pour farmer : feinte un last hit pour les faire sortir.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ],
+      "en": [
+        {
+          "text": "Bait out her Rebuttal (W) before your big combo: the nova destroys projectiles, fires back, then stays on a long cooldown.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Mel pokes you with Radiant Barrage (Q) and Solar Snare (E) when you step up to farm: fake a last hit to draw them out.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "How You Always Beat Mel in Mid Lane",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Hj-HfZ7MWJw",
+      "consultedAt": "2026-11-12",
+      "channel": "Mysteriaslol",
+      "publishedAt": "2026-04-07",
+      "timestamps": [
+        "0:50",
+        "3:35",
+        "3:51",
+        "4:58"
+      ]
+    },
+    {
+      "title": "Mel Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/mel",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

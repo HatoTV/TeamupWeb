@@ -1,0 +1,144 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] So, I'm on to the engage support matchups. And you know, of course, if you guys play Senna, you guys know this is where this is where it's tough.",
+    "[0] Senna against engage supports is pretty hard to play.",
+    "[0] When enemy uses a spell, that's your time to go forward, go in, and like just just fight them, okay?",
+    "[0] So, when you're against an engage support, focus on baiting out the cool downs, whatever hook it might be, whatever it might be. Make sure you don't get hit by it. But once it is down, go forward. Fight. Get your souls.",
+    "[1] Senna is strongest in lanes with low kill pressure, which is typically against range supports or supports with limited range.",
+    "[1] These matchups allow you to trade freely without being heavily punished, giving you plenty of opportunities to farm souls.",
+    "[2] Senna Galio matchup. Oh, we turbo stomp.",
+    "[2] It's ah it's Synindra Senna. What? Synindra Senna. Synindra Senna is very weak.",
+    "[2] And here you just want to make sure that you push your aggro. Even if I take damage, it's fine. You just want to make sure you crash the wave.",
+    "[3] Against engage champs wait until their engage ability is down. Let's say Nautilus hook is down, okay?",
+    "[3] This is the time to go forward, get a soul on Nautilus, get a soul on the ADC. However, do not die.",
+    "[4] Very easy early, just watch out for her flash W engage, late she gets a bit more challenging.",
+    "[4] Very annoying to play vs if pyke was not in the game this would be my perma ban, no counterplay to lategame and early game/mid game is as hard.",
+    "[4] She can flash engage and kill you at level 2 once maybe, but that is all she can do. After you get 20> stacks your range is higher than her entire flash combo so it's impossible to get caught unless your positioning is really really bad.",
+    "[4] It does not counter you really, you will win lategame easily you outrange rell by far",
+    "[5] She is however incredibly immobile and only has a delayed form of CC, you can easily punish her if she is a support.",
+    "[5] Senna isn't a terribly weak laner, and scales well even before she scales infinitely, but she is still squishy and immobile so you can find winning fights later on too.",
+    "[5] If you happen to get hit by her Last Embrace, you can easily (W) Ferromancy - Crash Down out of it, but move away when one of your teammates is nearby and can get rooted by the (W) Last Embrace AoE."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 12 2026-11-12",
+  "videosFound": 65,
+  "videosRead": 4,
+  "videosUsed": 4,
+  "videosTried": [
+    {
+      "id": "2CdZyNoD6aM",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre « Rell vs Senna » 1:40:14 ; draft 1:38:47, « Syndra Senna is very weak » 1:39:14, push agressif 1:44:43 ; surtout du commentaire de partie)"
+    },
+    {
+      "id": "OQBwphhOAHA",
+      "channel": "hektic",
+      "result": "utilisé (chapitre Engage Support Matchups 3:25-9:21 : Senna difficile contre les engages, avancer pendant le CD de l'engage ; Rell jamais citée, conseil générique contre les engages)"
+    },
+    {
+      "id": "M7PiMHIi_bg",
+      "channel": "hektic",
+      "result": "utilisé (chapitre Laning 12:53 : attendre le CD de l'engage puis avancer ; Rell jamais citée, conseil générique)"
+    },
+    {
+      "id": "bNJaSXZfEcc",
+      "channel": "ShoDesu",
+      "result": "utilisé (lu en « en-orig », la piste « en » de la chaîne est traduite ; 0:24 : Senna au plus fort dans les lanes sans pression de kill ; Rell jamais citée)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/rell",
+      "result": "ok (10 commentaires d'auteurs de guides Senna contre Rell ; 2 récents : 2239099 et 2238501, les autres < 2232000)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/senna",
+      "result": "ok (10 commentaires d'auteurs de guides Rell contre Senna ; tous anciens, data-tip-id < 2232000)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rell : Senna souffre face aux engages, la mettre sous pression tôt pour l'empêcher de farmer ses âmes",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources vidéo récentes (hektic et ShoDesu sur les engages en général, Coach K sur sa lane contre Senna). La page [4] dit les deux (2239099 « very easy early » contre 2238501 « early game is as hard ») : non comptée"
+    },
+    {
+      "idea": "Rell : Senna n'a aucun dash, seule fuite = vitesse de Malédiction de la Brume noire",
+      "sourceIdx": [
+        5
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens 2128056 et 2164050) + DDragon (aucun dash dans son kit ; E donne de la vitesse aux spectres)"
+    },
+    {
+      "idea": "Rell : touchée par Dernière étreinte, s'écarter des alliés (l'immobilisation s'étend)",
+      "sourceIdx": [
+        5
+      ],
+      "kept": true,
+      "reason": "1 source (commentaire ancien 2128095) + DDragon (« rooting them and everything nearby after a brief delay »)"
+    },
+    {
+      "idea": "Rell : sortir de Dernière étreinte avec Descendre en piqué",
+      "sourceIdx": [
+        5
+      ],
+      "kept": false,
+      "reason": "commentaire ancien (2128095) ; DDragon ne dit pas qu'un saut libère la cible accrochée : non vérifiable"
+    },
+    {
+      "idea": "Rell : engager avec Flash + Z démontée pour surprendre Senna",
+      "sourceIdx": [
+        5
+      ],
+      "kept": false,
+      "reason": "conseil de lane d'un commentaire ancien (2188256) : ne compte pas pour un tip lane"
+    },
+    {
+      "idea": "Senna : attendre que Rell gaspille Descendre en piqué puis avancer pour trade et prendre ses âmes",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (hektic, 2 vidéos distinctes). Conseil générique contre les engages : gardé car Senna a moins de 3 tips propres au couple"
+    },
+    {
+      "idea": "Senna : se méfier du Flash + Descendre en piqué (knock-up à l'atterrissage)",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source (2239099 récent, 2228210 ancien) + DDragon (Crash Down : Rell retombe et projette les ennemis en l'air)"
+    },
+    {
+      "idea": "Senna : portée 600 bien supérieure à celle de Rell, allongée par les âmes",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens 2177302 et 2228210) + DDragon (portée 600 contre 175 ; Absolution augmente la portée d'attaque)"
+    },
+    {
+      "idea": "Senna : Rell devient plus dure à jouer contre en fin de partie",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "1 seule source (2 commentaires récents de la même page) : macro demande 2 sources"
+    },
+    {
+      "idea": "Rell : Senna devient plus forte que toi passé le lvl 7-8, jouer l'early",
+      "sourceIdx": [
+        5
+      ],
+      "kept": false,
+      "reason": "commentaires anciens (2128074, 2144379) : ne comptent pas pour un tip macro"
+    }
+  ]
+}

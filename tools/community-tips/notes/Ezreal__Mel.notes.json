@@ -1,0 +1,111 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] She has very annoying spells because of her W blocking the damage, reflecting projectiles, and also giving her shield.",
+    "[0] You can bait out her Q. We saw Faker do it here in this specific example when he walks to to the lane here.",
+    "[0] You got to keep in mind that Mel wants to use her Q onto your last hit, which is going to put her in a position where she can have an easier time landing the spell because the spell has a pretty big delay.",
+    "[0] Baiting out her W can be a very effective tool for you to get control of the lane because the cool down is so incredibly long.",
+    "[0] He baited out the Mel W by throwing the charm besides the Mel, which incentivizes Mel to use her W and then you of course you get your spell back before Mel does",
+    "[1] fun fact! you can dodge her q! and you can bait her shield by throwing your w at her and making it look like youre about to go in! and then you just dont go in. then her cd is wasted and THEN you go in. easy as that!",
+    "[2] Mage bot makes a lot of sense for Jinx. Doesn't have the mobility to dodge Q. I can reflect everything, can't I?",
+    "[2] So, it doesn't make you immune now when you reflect. It like gives you a shield, but it still reflects projectiles."
+  ],
+  "videosFound": 35,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu (cache local, recherche Mel/Vladimir), inutilisé : ni Mel ni Vladimir dans « every bot lane matchup »"
+    },
+    {
+      "id": "Hj-HfZ7MWJw",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (anti-Mel mid, conseils valables pour un tireur à distance : bait du Q et du W)"
+    },
+    {
+      "id": "BIbvJEW-qMI",
+      "channel": "Joeyyylol",
+      "result": "lu (recherche Ezreal), inutilisé : aucune mention d’Ezreal"
+    },
+    {
+      "id": "Y5Q6Uy2O7tI",
+      "channel": "Pobelter",
+      "result": "utilisé (Mel bot, 0:09-0:44 : le W renvoie les projectiles ; pas de passage propre à Ezreal)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/mel",
+      "result": "ok (1 commentaire récent d’un guide Ezreal, data-tip-id 2248428, patch 26.03)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ezreal",
+      "result": "lu, inutilisé (aucun commentaire de guide Mel)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ezreal : faire sortir le W de Mel avec son W, puis engager pendant le CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Rebuttal CD 30 s au rang 1)"
+    },
+    {
+      "idea": "Ezreal : esquiver le Q de Mel (délai), feinter le last hit",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ezreal : pousser la wave, Mel ne gère la vague qu’avec deux sorts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Ezreal : Mel manque de mana avant son objet",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, et lié à un objet"
+    },
+    {
+      "idea": "Mel : ne pas gâcher le W sur le bait du W d’Ezreal",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (même interaction vue de l’autre côté) + DDragon (CD 30 s)"
+    },
+    {
+      "idea": "Mel : le W détruit les projectiles d’Ezreal (Q, W)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "générique Mel, gardé car moins de 3 tips propres au couple ; DDragon (Rebuttal détruit les projectiles ennemis)"
+    },
+    {
+      "idea": "Mel : W 35 s de CD (Mysteriaslol) / 22 s (commentaire Katarina)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon (30/28.5/27/25.5/24 s) : chiffre retiré"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 12 2026-11-12"
+}

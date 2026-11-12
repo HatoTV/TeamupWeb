@@ -1,0 +1,93 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] she will dominate you and there's zero counter play because her W can reflect any of your trading that you do onto her",
+    "[0] You got to keep in mind that Mel wants to use her Q onto your last hit, which is going to put her in a position where she can have an easier time landing the spell because the spell has a pretty big delay.",
+    "[0] The way you do that is by acting as if you walk forward and then walking towards the side. Sometimes you get hit by one specific instance of it, but you can also just fake last hits.",
+    "[0] Baiting out her W can be a very effective tool for you to get control of the lane because the cool down is so incredibly long.",
+    "[1] Her solar snare and radiant volley are potent ways for her to poke you down when trying to walk up for minions.",
+    "[1] Also, be on the lookout for rebuttal, which appears as a spherical shield around her that reflects projectiles and ranged auto attacks, as this could seriously backfire on you when trying to hit a dark sphere-scatter the weak combo or even finish her off with unleashed power."
+  ],
+  "videosFound": 40,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "4c90SvsFyR0",
+      "channel": "Coach Mysterias",
+      "result": "lu (recherche Mel), inutilisé : Mel jamais citée dans les 5 h 30"
+    },
+    {
+      "id": "Hj-HfZ7MWJw",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (anti-Mel mid, coach Syndra ; exemple joué avec Ahri)"
+    },
+    {
+      "id": "mJFc-rMz2vg",
+      "channel": "Coach Mysterias",
+      "result": "lu (recherche Mel), inutilisé : seulement le mot « melee »"
+    },
+    {
+      "id": "pBZKzVbXj-w",
+      "channel": "Zoose",
+      "result": "lu (cache local, recherche Mel), inutilisé : Mel jamais citée"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/mel",
+      "result": "ok (1 commentaire d’un guide Syndra, data-tip-id 2233987, guide patch 15.2 : récent)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "result": "lu, inutilisé (aucun commentaire de guide Mel)"
+    },
+    {
+      "url": "https://lanediff.gg/matchups/mel-vs-syndra-mid",
+      "result": "non retenu (vu via recherche web : contenu généré, affirme que le W de Mel renvoie le Q de Syndra, qui n’est pas un projectile)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Syndra : faire sortir le W de Mel avant le combo, long CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Rebuttal détruit les projectiles, CD 30 s au rang 1)"
+    },
+    {
+      "idea": "Syndra : Mel poke avec Q et E pendant le farm, feinter le last hit",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Syndra : jouer sur la wave (pousser Mel) plutôt que sur les trades",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Syndra : demander l’aide du jungler",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    },
+    {
+      "idea": "Mel : conseils contre Syndra",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "aucune source lue du point de vue Mel (vidéos au plafond, pas de commentaire de guide Mel)"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 12 2026-11-12"
+}

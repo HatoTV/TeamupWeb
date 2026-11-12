@@ -1,0 +1,112 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] Here's why engage supports aren't worth your ban. Yuumi isn't going to be dying to hooks and grabs the same way other supports are in the lane phase",
+    "[0] She's attached to you. So, most of the aggression just misses",
+    "[0] They'll rush in without their ADC early and you just isolate the 2v1",
+    "[1] Alistar's headbutt-pulverize combo (W + Q) allows him to quickly engage and burst down either Yuumi or her ADC before Yuumi's shields and heals can take effect",
+    "[1] If Yuumi detaches even briefly to heal or reposition, Alistar can capitalize on that moment to land crowd control and set up kills",
+    "[1] If Alistar is in your game, he can guarantee a dive at level 6, so be carful of this",
+    "[2] when she dismounts herself and you combo her, she is guaranteed dead as you have enough crowd control to keep her dismounted",
+    "[2] You can abuse this by just landing ANY CC on her as she can't reattach to her ally for 5 seconds",
+    "[2] Yuumi is not adding much to her lane when playing against you. She will poke and sustain, but when you combo her adc she can't do much",
+    "[2] when she jumps off to get her passive shield you all in her and she cant do anythign for roughly 5 seconds after ccing her"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 12 2026-11-12",
+  "videosFound": 60,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "HQbLWSjk6pg",
+      "channel": "Duo Diff",
+      "result": "utilisé (piste en-orig : la piste en est une traduction ; chapitre Why banning engage is bad)"
+    },
+    {
+      "id": "5oi5CXfICH0",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (stream Yuumi de 3 h, Alistar jamais cité)"
+    },
+    {
+      "id": "nqajSucUOsM",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (aucune occurrence d'Alistar ni de Yuumi dans les sous-titres)"
+    },
+    {
+      "id": "bWAlGx9JcuU",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, inutilisé pour ce couple (chapitres Alistar et Yuumi sans conseil sur le matchup)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (auteurs Yuumi ; récents : 2243504 patch 25.20, 2241894 patch 25.15 ; le reste ancien)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/yuumi",
+      "result": "ok mais tous les commentaires d'auteurs Alistar sont anciens (< 2232000) : mécaniques vérifiées seulement"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : CC sur Yuumi détachée, Félin pour l'autre ! bloqué",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "mécanique, 2 sources (2243504 récent + commentaires anciens de la page Yuumi) + DDragon (immobilisation = CD de verrouillage sur You and Me!)"
+    },
+    {
+      "idea": "Alistar : combo Coup de tête + Atomisation sur l'ADC, Yuumi ne peut rien couper",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "mécanique, 2 sources (2243504 récent, Aerenax ancien) + DDragon (kit de Yuumi : slows seulement)"
+    },
+    {
+      "idea": "Alistar : Volonté de fer annule l'ult de Yuumi",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon : Chat-pitre final ne fait plus que ralentir (plus de root dans la description)"
+    },
+    {
+      "idea": "Yuumi : rester attachée, chaque sortie offre une cible",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes + DDragon (inciblable une fois attachée)"
+    },
+    {
+      "idea": "Yuumi : dive garanti au lvl 6, Volonté de fer purge les CC",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente (2241894) + DDragon (purge, réduction de dégâts)"
+    },
+    {
+      "idea": "Yuumi : punir l'Alistar qui engage sans son ADC en 2v1",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, dit des supports engage en général"
+    },
+    {
+      "idea": "Yuumi : ne se détacher qu'après son combo",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "seulement des commentaires anciens, tip lane"
+    }
+  ]
+}

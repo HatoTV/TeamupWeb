@@ -82,7 +82,7 @@
         1
       ],
       "kept": true,
-      "reason": "2 sources (auteurs Jhin 25.12/26.12, auteur Vayne 25.08) + DDragon (Final Hour : invisibilité pendant Tumble)"
+      "reason": "2 sources récentes ([0] Kasane Zero 26.12, Moosicel 25.12 ; [1] Lyridslol 25.08) + DDragon (Final Hour : invisibilité pendant Tumble)"
     },
     {
       "idea": "Jhin : prendre l'avantage tôt / lvl 2 en premier, Vayne scale mieux",
@@ -91,7 +91,7 @@
         1
       ],
       "kept": true,
-      "reason": "2 sources (S2025.23 lvl 2 ; Vayne domine après lvl 6 et 2 objets)"
+      "reason": "2 sources récentes ([0] 2saif4u S2025.23 lvl 2 ; [1] Lyridslol 25.08 : Vayne domine après le lvl 6 et 2 objets)"
     },
     {
       "idea": "Jhin : engager quand Tumble est en CD",
@@ -132,7 +132,7 @@
         3
       ],
       "kept": true,
-      "reason": "2 sources (26.5 + op.gg) + DDragon (4 balles, Tumble renforce l'attaque suivante)"
+      "reason": "audit 2 ans : 1 seule source récente ([1] cyb3r1a 26.5 et Lyridslol 25.08, même page) ; [3] tip op.gg sans date ni indice de récence : compté comme ancien (plus de 2 ans) ; requalifié en mécanique : 2 sources + DDragon (Whisper : quatre balles ; Tumble : l'attaque suivante fait des dégâts bonus)"
     },
     {
       "idea": "Vayne : gagner le 1v1 / all-in à partir du lvl 6",
@@ -141,7 +141,7 @@
         0
       ],
       "kept": true,
-      "reason": "2 sources (Vayne 25.08 ; auteurs Jhin : 1v1 perdu après lvl 6)"
+      "reason": "2 sources récentes ([1] Lyridslol 25.08 ; [0] Kasane Zero 26.12, Moosicel 25.12 : 1v1 perdu après le lvl 6)"
     },
     {
       "idea": "Vayne : Grenade dansante qui rebondit sur les sbires",
@@ -175,5 +175,6 @@
       "kept": false,
       "reason": "sort d'invocateur, 1 commentaire"
     }
-  ]
+  ],
+  "audit2ans": "Règle des 2 ans (audit 2026-11-12). Tips op.gg [2] [3] sans date : comptés comme anciens. counterstats : âge par commentaire via data-tip-id (ids croissants, calés sur les titres de guides datés : ~2231700 = guides 14.23, novembre 2024) ; tip-id < 2232000 = plus de 2 ans. Vayne « Roulade + auto pendant le rechargement » : lane à 1 source récente (counterstats [1]), requalifié en mécanique vérifiée (DDragon Whisper « carries only four shots », Tumble « next attack deals bonus damage ») et reformulé. Autres tips lane : 2 sources récentes chacun (guides 25.08 à 26.12)."
 }

@@ -14,19 +14,13 @@
     "Bard": {
       "fr": [
         {
-          "text": "Tu es fragile : une seule Peine capitale (A) encaissée peut suffire à te tuer, joue ta lane en esquivant chaque chaîne.",
-          "sources": 3,
-          "verifiedByGameData": false,
-          "category": "lane"
-        },
-        {
           "text": "Cherche à aligner Thresh avec son ADC ou un sbire : ton Lien cosmique (A) les étourdit tous les deux.",
           "sources": 2,
           "verifiedByGameData": true,
           "category": "mechanics"
         },
         {
-          "text": "Sois patient : garde ton Destin tempéré (R) tant que sa lanterne est disponible, celui qui lance son sort clé en premier perd l'échange.",
+          "text": "Tu es fragile : une seule Peine capitale (A) encaissée peut suffire à te tuer, joue ta lane en esquivant chaque chaîne.",
           "sources": 2,
           "verifiedByGameData": false,
           "category": "lane"
@@ -40,19 +34,13 @@
       ],
       "en": [
         {
-          "text": "You're squishy: a single Death Sentence (Q) can be enough to kill you, so play the lane around dodging every hook.",
-          "sources": 3,
-          "verifiedByGameData": false,
-          "category": "lane"
-        },
-        {
           "text": "Line Thresh up with his ADC or a minion: Cosmic Binding (Q) stuns both of them.",
           "sources": 2,
           "verifiedByGameData": true,
           "category": "mechanics"
         },
         {
-          "text": "Be patient: hold Tempered Fate (R) while his lantern is still up; whoever uses their key spell first loses the exchange.",
+          "text": "You're squishy: a single Death Sentence (Q) can be enough to kill you, so play the lane around dodging every hook.",
           "sources": 2,
           "verifiedByGameData": false,
           "category": "lane"
@@ -68,22 +56,16 @@
     "Thresh": {
       "fr": [
         {
-          "text": "Bard est très fragile : une Peine capitale (A) qui le touche suffit souvent à le tuer ou à lui prendre ses sorts d'invocateur.",
-          "sources": 3,
-          "verifiedByGameData": false,
-          "category": "lane"
-        },
-        {
-          "text": "Ne gaspille pas ton Lien des ténèbres (Z) : Bard attend qu'il soit parti pour lancer son Destin tempéré (R), garde-le pour sauver tes alliés.",
-          "sources": 3,
-          "verifiedByGameData": false,
-          "category": "lane"
-        },
-        {
           "text": "Éloigne-toi des murs, des sbires et de ton ADC : son Lien cosmique (A) t'étourdit s'il continue sa course jusqu'à l'un d'eux.",
           "sources": 2,
           "verifiedByGameData": true,
           "category": "mechanics"
+        },
+        {
+          "text": "Bard est très fragile : une Peine capitale (A) qui le touche suffit souvent à le tuer ou à lui prendre ses sorts d'invocateur.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
         },
         {
           "text": "Bard roame plus que toi : quand il part chercher ses carillons, signale-le et punis son ADC resté seul en lane.",
@@ -94,22 +76,16 @@
       ],
       "en": [
         {
-          "text": "Bard is very squishy: one Death Sentence (Q) that lands is often enough to kill him or burn his summoner spells.",
-          "sources": 3,
-          "verifiedByGameData": false,
-          "category": "lane"
-        },
-        {
-          "text": "Don't waste Dark Passage (W): Bard waits for it to be gone before casting Tempered Fate (R), so keep it to save your allies.",
-          "sources": 3,
-          "verifiedByGameData": false,
-          "category": "lane"
-        },
-        {
           "text": "Stay away from walls, minions and your ADC: his Cosmic Binding (Q) stuns you if it carries on into any of them.",
           "sources": 2,
           "verifiedByGameData": true,
           "category": "mechanics"
+        },
+        {
+          "text": "Bard is very squishy: one Death Sentence (Q) that lands is often enough to kill him or burn his summoner spells.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
         },
         {
           "text": "Bard roams more than you: when he leaves to collect chimes, ping it and punish his ADC left alone in lane.",

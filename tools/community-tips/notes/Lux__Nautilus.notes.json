@@ -62,11 +62,10 @@
       "idea": "Lux : rester derrière les sbires, le hook est bloqué alors que l'Entrave traverse une unité",
       "sourceIdx": [
         0,
-        1,
         2
       ],
       "kept": true,
-      "reason": "3 sources + DDragon (Entrave de lumière root les deux premiers ennemis ; Abordage s'arrête sur l'ennemi touché)"
+      "reason": "2 sources récentes : TheRealRaven (2026-11), counterstats Nautilus [2] lol_cinema (guide Lux 2026, tip-id 2250757 : « leverage minions ») + DDragon (Entrave de lumière : jusqu'à deux ennemis ; Abordage s'arrête sur l'ennemi touché) ; [1] DarthMagic (10.16) trop ancien, non compté"
     },
     {
       "idea": "Lux : respecter la Grenade ASM après le lvl 6",
@@ -75,7 +74,7 @@
         2
       ],
       "kept": true,
-      "reason": "2 sources + DDragon (R poursuit la cible, knock-up et stun)"
+      "reason": "audit 2 ans : 1 seule source récente ([2] HenrySJG S16 : « point and click kill with his kinda high range ult ») ; requalifié en mécanique : 2 sources ([1] anciennes acceptées) + DDragon (Depth Charge poursuit la cible, knock-up puis stun)"
     },
     {
       "idea": "Lux : poke Nautilus tôt depuis la wave, il est peu mobile",
@@ -83,8 +82,8 @@
         1,
         2
       ],
-      "kept": true,
-      "reason": "2 sources"
+      "kept": false,
+      "reason": "audit 2 ans : aucun commentaire récent ne le dit ([1] NERF THIS MAN, [2] orogenz / kimjisoo8 : tip-id < 2232000, plus de 2 ans) ; conseil de lane, pas une mécanique : retiré"
     },
     {
       "idea": "Lux : warder les buissons contre le hook",
@@ -106,11 +105,10 @@
       "idea": "Nautilus : hook bloqué par les sbires, pas l'Entrave : chercher un angle dégagé",
       "sourceIdx": [
         0,
-        1,
         2
       ],
       "kept": true,
-      "reason": "3 sources + DDragon"
+      "reason": "2 sources récentes : TheRealRaven (2026-11), [2] lol_cinema (2026) + DDragon ; [1] DarthMagic (10.16) non compté"
     },
     {
       "idea": "Nautilus : un hook réussi tue Lux ou prend son Flash, elle n'a aucun dash",
@@ -119,7 +117,7 @@
         2
       ],
       "kept": true,
-      "reason": "2 sources + DDragon (aucun sort de déplacement chez Lux)"
+      "reason": "2 sources récentes : [1] j4ss (guide Nautilus 25.22, tip-id 2244539 : « easy kill, immobile mages ») et [2] lol_cinema (2026 : un hook loin de la tour = kill) + DDragon (aucun sort de déplacement chez Lux)"
     },
     {
       "idea": "Nautilus : Grenade ASM = engage inesquivable dès le lvl 6",
@@ -128,7 +126,7 @@
         2
       ],
       "kept": true,
-      "reason": "2 sources + DDragon (R poursuit la cible)"
+      "reason": "audit 2 ans : 1 seule source récente ([2] HenrySJG S16) ; requalifié en mécanique : 2 sources + DDragon (Depth Charge poursuit la cible, knock-up puis stun)"
     },
     {
       "idea": "Nautilus : limiter la poke de Lux, sortir de l'Anomalie radieuse",
@@ -137,7 +135,7 @@
         2
       ],
       "kept": true,
-      "reason": "2 sources + DDragon (E ralentit dans la zone)"
+      "reason": "audit 2 ans : 1 seule source récente ([1] j4ss 25.22 : « annoying poke ») ; requalifié en mécanique : 2 sources ([2] anciennes acceptées) + DDragon (Lucent Singularity ralentit dans la zone puis explose)"
     },
     {
       "idea": "Nautilus : engager quand l'Entrave de lumière est en CD",
@@ -145,8 +143,8 @@
         1,
         2
       ],
-      "kept": true,
-      "reason": "2 sources (Gme87rAvO_8 le disait aussi mais n'est plus utilisable)"
+      "kept": false,
+      "reason": "audit 2 ans : [1] Razing42 / bardisprettycool et [2] ont plus de 2 ans (tip-id < 2232000), aucune source récente ; « Lux n'a presque rien pour t'arrêter » n'est pas une mécanique vérifiable : retiré"
     },
     {
       "idea": "Nautilus : roam si la lane est perdue, Lux reste en lane",
@@ -172,5 +170,6 @@
       "kept": false,
       "reason": "1 source, générique, et la vidéo affirme « no shield » alors que Lux a sa Barrière prismatique"
     }
-  ]
+  ],
+  "audit2ans": "Règle des 2 ans (audit 2026-11-12). counterstats : âge par commentaire via data-tip-id (ids croissants, calés sur les titres de guides datés : ~2231700 = guides 14.23, novembre 2024) ; tip-id < 2232000 = plus de 2 ans. Page Lux [1] (guides Nautilus) : seul j4ss (25.22) est récent ; page Nautilus [2] (guides Lux) : lol_cinema (2026), HenrySJG (S16), Luluka3 (2025) récents. Recomptes : « derrière les sbires » 3 → 2 des deux côtés. Requalifiés en mécaniques vérifiées et reformulés : Lux « Grenade ASM après le lvl 6 », Nautilus « Grenade ASM inesquivable », Nautilus « sortir de l'Anomalie radieuse ». Retirés : Lux « poke tôt depuis la wave », Nautilus « engager quand l'Entrave est en CD » (aucune source récente)."
 }

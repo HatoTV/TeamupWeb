@@ -15,41 +15,29 @@
       "fr": [
         {
           "text": "Reste derrière tes sbires : son Abordage (A) s'arrête sur le premier ennemi touché, alors que ton Entrave de lumière (A) traverse une unité pour l'atteindre.",
-          "sources": 3,
-          "verifiedByGameData": true,
-          "category": "lane"
-        },
-        {
-          "text": "Dès son lvl 6, joue plus prudemment : sa Grenade ASM (R) te poursuit, t'envoie en l'air et t'étourdit, même si tu esquives ses autres sorts.",
           "sources": 2,
           "verifiedByGameData": true,
           "category": "lane"
         },
         {
-          "text": "Poke-le tôt depuis ta wave avec ton Anomalie radieuse (E) : Nautilus a peu de mobilité pour te répondre tant que tu évites son hook.",
+          "text": "Sa Grenade ASM (R) poursuit sa cible et finit par t'envoyer en l'air puis t'étourdir : dès son lvl 6, joue plus en retrait, tu ne peux pas l'esquiver.",
           "sources": 2,
-          "verifiedByGameData": false,
-          "category": "lane"
+          "verifiedByGameData": true,
+          "category": "mechanics"
         }
       ],
       "en": [
         {
           "text": "Stay behind your minions: his Dredge Line (Q) is blocked by the first enemy in its path, while your Light Binding (Q) can pass through one unit to reach him.",
-          "sources": 3,
-          "verifiedByGameData": true,
-          "category": "lane"
-        },
-        {
-          "text": "From his level 6, play safer: Depth Charge (R) chases you down, knocks you up and stuns you, even if you dodge his other spells.",
           "sources": 2,
           "verifiedByGameData": true,
           "category": "lane"
         },
         {
-          "text": "Poke him early from inside your wave with Lucent Singularity (E): Nautilus has little mobility to answer as long as you dodge his hook.",
+          "text": "Depth Charge (R) chases its target and ends by knocking you up and stunning you: from his level 6, play further back, you can't sidestep it.",
           "sources": 2,
-          "verifiedByGameData": false,
-          "category": "lane"
+          "verifiedByGameData": true,
+          "category": "mechanics"
         }
       ]
     },
@@ -57,7 +45,7 @@
       "fr": [
         {
           "text": "Ton Abordage (A) s'arrête sur le premier sbire, mais son Entrave de lumière (A) en traverse un : hooke depuis un angle dégagé, pas à travers la wave.",
-          "sources": 3,
+          "sources": 2,
           "verifiedByGameData": true,
           "category": "lane"
         },
@@ -68,28 +56,22 @@
           "category": "lane"
         },
         {
-          "text": "Dès le lvl 6, ta Grenade ASM (R) te donne un engage qu'elle ne peut pas esquiver : sers-t'en pour lancer le fight.",
+          "text": "Ta Grenade ASM (R) poursuit Lux jusqu'à l'envoyer en l'air et l'étourdir : dès le lvl 6, sers-t'en pour lancer le fight, aucune esquive possible.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "mechanics"
         },
         {
-          "text": "Lux te poke facilement : sors vite de la zone de son Anomalie radieuse (E), qui ralentit, et garde tes PV pour pouvoir engager.",
+          "text": "Son Anomalie radieuse (E) te ralentit dans sa zone avant que Lux la fasse exploser : sors-en vite pour éviter les dégâts et garde tes PV pour engager.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
-        },
-        {
-          "text": "Engage quand son Entrave de lumière (A) est en CD : sans ce sort, Lux n'a presque rien pour t'arrêter.",
-          "sources": 2,
-          "verifiedByGameData": false,
-          "category": "lane"
+          "category": "mechanics"
         }
       ],
       "en": [
         {
           "text": "Your Dredge Line (Q) stops on the first minion, but her Light Binding (Q) passes through one: hook from a clear angle, not through the wave.",
-          "sources": 3,
+          "sources": 2,
           "verifiedByGameData": true,
           "category": "lane"
         },
@@ -100,22 +82,16 @@
           "category": "lane"
         },
         {
-          "text": "From level 6, Depth Charge (R) gives you an engage she can't dodge: use it to start the fight.",
+          "text": "Depth Charge (R) chases Lux, then knocks her up and stuns her: from level 6, use it to start the fight, there is no sidestepping it.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "mechanics"
         },
         {
-          "text": "Lux pokes you easily: get out of her Lucent Singularity (E) zone quickly, since it slows, and keep your HP so you can still engage.",
+          "text": "Lucent Singularity (E) slows you inside its zone before Lux detonates it: walk out quickly to avoid the damage and keep your HP for the engage.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
-        },
-        {
-          "text": "Engage when her Light Binding (Q) is on cooldown: without that spell, Lux has almost nothing to stop you.",
-          "sources": 2,
-          "verifiedByGameData": false,
-          "category": "lane"
+          "category": "mechanics"
         }
       ]
     }

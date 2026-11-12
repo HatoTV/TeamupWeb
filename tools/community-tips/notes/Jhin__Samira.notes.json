@@ -63,7 +63,7 @@
         3
       ],
       "kept": true,
-      "reason": "4 sources + DDragon (Blade Whirl détruit les projectiles ennemis)"
+      "reason": "4 sources + DDragon (Blade Whirl détruit les projectiles ennemis) ; op.gg [1] [2] et counterstats [3] anciens ou sans date, acceptés car mécanique vérifiée"
     },
     {
       "idea": "Jhin : Grenade dansante sur un sbire bas pour rebondir sur Samira",
@@ -72,7 +72,7 @@
         1
       ],
       "kept": true,
-      "reason": "2 sources + DDragon (rebond, bonus de dégâts sur kill)"
+      "reason": "audit 2 ans : 1 seule source récente (KingBranco 2025-11) ; [1] tip op.gg sans date ni indice de récence : compté comme ancien (plus de 2 ans) ; requalifié en mécanique : 2 sources + DDragon (Dancing Grenade : jusqu'à quatre cibles, gagne des dégâts à chaque kill)"
     },
     {
       "idea": "Jhin : Floraison mortelle après des dégâts pour le root",
@@ -91,7 +91,7 @@
         3
       ],
       "kept": true,
-      "reason": "4 sources + DDragon"
+      "reason": "4 sources + DDragon ; op.gg et counterstats anciens ou sans date, acceptés car mécanique vérifiée"
     },
     {
       "idea": "Samira : rester loin des sbires bas (rebond de la Grenade dansante)",
@@ -100,7 +100,7 @@
         1
       ],
       "kept": true,
-      "reason": "2 sources + DDragon"
+      "reason": "audit 2 ans : 1 seule source récente (KingBranco 2025-11) ; [1] tip op.gg sans date ni indice de récence : compté comme ancien (plus de 2 ans) ; requalifié en mécanique : 2 sources + DDragon (jusqu'à quatre cibles, dégâts accrus à chaque kill)"
     },
     {
       "idea": "Samira : esquiver la Floraison mortelle (root)",
@@ -144,5 +144,6 @@
       "kept": false,
       "reason": "1 seule source, draft plus que gameplay"
     }
-  ]
+  ],
+  "audit2ans": "Règle des 2 ans (audit 2026-11-12). Les tips op.gg [1] et [2] n'ont ni date ni auteur (texte éditorial « Currently, there is an in-game bug... ») : comptés comme anciens. Tips « Grenade dansante sur un sbire bas » (Jhin) et « rester loin des sbires bas » (Samira) : lane à 1 source récente, requalifiés en mécaniques vérifiées (DDragon Jhin Q : « can hit up to four targets and gains damage each time it kills ») et reformulés. Mécaniques existantes inchangées."
 }

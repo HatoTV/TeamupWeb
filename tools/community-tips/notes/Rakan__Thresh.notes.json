@@ -18,7 +18,10 @@
     "[3] Rakan is very slippery so try to aim your hooks almost exclusively on the enemy adc as he might dash into your hook. Try to time your flay to cancel his dash away if you hook him.",
     "[3] skill matchup, you can cancel his w but only before he has reached his destination",
     "[3] When timed perfectly you can cancel his W but it is hard to punish him for bad engage because E has two dashes. Your ultimate counters his ultimate.",
-    "[3] The mobility that Rakkan has makes it especially difficult to capture with our Q"
+    "[3] The mobility that Rakkan has makes it especially difficult to capture with our Q",
+    "[2] if he tries to hook you, you can just E away to dodge him.",
+    "[2] keep in mind that if he times his push (E) correctly, he can cancel your W.",
+    "[2] Going even in laning phase would be the safest bet, since you are a lot squishier than him."
   ],
   "method": "youtube-subtitles (hato-clips), lot 6 2026-11-12",
   "videosFound": 45,
@@ -65,17 +68,16 @@
         2
       ],
       "kept": true,
-      "reason": "3 sources (Cupcake : raisonnement général contre les engageurs, Thresh classé A)"
+      "reason": "3 sources récentes : AxL (2025-02), Challenger vs. Emerald (2025-05), counterstats [2] daltonfresh (guide 25.10, tip-id 2238280 : « E away to dodge him ») ; Igirl45 (tip-id 2179684, plus de 2 ans) non compté"
     },
     {
       "idea": "Rakan : ne pas engager le premier, Fauchage ou hook coupe l'Entrée triomphale",
       "sourceIdx": [
         0,
-        2,
-        3
+        2
       ],
       "kept": true,
-      "reason": "3 sources"
+      "reason": "2 sources récentes : AxL (2025-02), counterstats [2] daltonfresh (25.10 : son E peut couper ton W, punir quand il rate son hook) ; [3] (Razing42 13.17, mazewalk, Roldriel : tip-id < 2232000, plus de 2 ans) non compté"
     },
     {
       "idea": "Rakan : lane bloquée, jouer la protection de l'ADC plutôt que forcer",
@@ -84,7 +86,7 @@
         2
       ],
       "kept": true,
-      "reason": "2 sources"
+      "reason": "2 sources récentes : AxL (2025-02, « stalemate »), counterstats [2] daltonfresh 25.10 (« going even in laning phase ») et suppdeporvida (tip-id 2236588, 2025 : engage difficile en lane) ; TheSkyLrd (13.x) non compté"
     },
     {
       "idea": "Rakan : son W sur l'ADC, Thresh le sauve avec la lanterne",
@@ -92,7 +94,7 @@
         0
       ],
       "kept": true,
-      "reason": "1 source + DDragon (les alliés cliquent sur la lanterne pour rejoindre Thresh)"
+      "reason": "1 source (AxL 2025-02) + DDragon (les alliés cliquent sur la lanterne pour rejoindre Thresh)"
     },
     {
       "idea": "Rakan : se placer devant l'ADC avec E pour prendre le hook à sa place",
@@ -106,11 +108,10 @@
       "idea": "Thresh : garder Fauchage pour couper Entrée triomphale avant atterrissage",
       "sourceIdx": [
         0,
-        2,
-        3
+        2
       ],
       "kept": true,
-      "reason": "3 sources (Fauchage repousse : DDragon ; annulation du dash non décrite dans DDragon, donc non marqué vérifié)"
+      "reason": "2 sources récentes : AxL (2025-02), counterstats [2] daltonfresh 25.10 (« if he times his push (E) correctly, he can cancel your W ») ; [3] (guides Thresh 11.x à 13.17, plus de 2 ans) non compté ; annulation du dash non décrite dans DDragon, donc non marqué vérifié"
     },
     {
       "idea": "Thresh : Rakan glissant, viser l'ADC avec Peine capitale",
@@ -119,7 +120,7 @@
         3
       ],
       "kept": true,
-      "reason": "2 sources (AxL : Rakan entre et ressort ; counterstats : viser l'ADC)"
+      "reason": "2 sources récentes : AxL (2025-02), counterstats [3] BologNezhs (tip-id 2241584, 2025 : viser l'ADC adverse)"
     },
     {
       "idea": "Thresh : lanterne sur l'ADC touché par Entrée triomphale",
@@ -135,7 +136,7 @@
         3
       ],
       "kept": true,
-      "reason": "1 source + DDragon (murs qui ralentissent et blessent quand on les brise)"
+      "reason": "1 source ([3] mazewalk, tip-id 2200948, ~13.17 : plus de 2 ans, accepté car mécanique vérifiée) + DDragon (murs qui ralentissent et blessent quand on les brise)"
     },
     {
       "idea": "Thresh : Aftershock après Fauchage pour gagner l'échange",
@@ -153,5 +154,6 @@
       "kept": false,
       "reason": "générique"
     }
-  ]
+  ],
+  "audit2ans": "Règle des 2 ans (audit 2026-11-12). Commentaires counterstats datés par data-tip-id (counterstats : âge par commentaire via data-tip-id (ids croissants, calés sur les titres de guides datés : ~2231700 = guides 14.23, novembre 2024) ; tip-id < 2232000 = plus de 2 ans). Thresh page [2] : seuls daltonfresh (25.10) et suppdeporvida (2025) sont récents ; Rakan page [3] : seul BologNezhs (2025) est récent. Recomptes : Rakan « ne pas engager le premier » 3 → 2 (sources [0,2]) ; Thresh « garder Fauchage pour son Entrée triomphale » 3 → 2 (sources [0,2]). Autres tips inchangés (sources récentes suffisantes ou mécaniques vérifiées)."
 }

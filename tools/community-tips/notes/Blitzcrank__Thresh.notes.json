@@ -110,11 +110,10 @@
       "sourceIdx": [
         0,
         1,
-        2,
-        3
+        2
       ],
       "kept": true,
-      "reason": "4 sources"
+      "reason": "3 sources récentes : Coach K (2026-03), Coach K (2026-10), AxL (2025-07) ; [3] : seul commentaire récent (BologNezhs, tip-id 2241562 : « who gets hooked first ») ne porte pas l'idée, les autres (tip-id < 2232000) ont plus de 2 ans"
     },
     {
       "idea": "Thresh : forcer le Grappin propulsé puis punir pendant son long CD",
@@ -130,7 +129,7 @@
         3
       ],
       "kept": true,
-      "reason": "1 source + DDragon (les alliés cliquent sur la lanterne pour rejoindre Thresh)"
+      "reason": "1 source ([3], commentaire de plus de 2 ans : accepté car mécanique vérifiée) + DDragon (les alliés cliquent sur la lanterne pour rejoindre Thresh)"
     },
     {
       "idea": "Thresh : rester derrière les sbires, reculer s'ils sont bas car R puis A",
@@ -138,7 +137,7 @@
         3
       ],
       "kept": true,
-      "reason": "1 source + DDragon (le Grappin prend le premier ennemi sur sa trajectoire ; Champ de stase actif blesse les ennemis proches)"
+      "reason": "1 source ([3], commentaire de plus de 2 ans : accepté car mécanique vérifiée) + DDragon (le Grappin prend le premier ennemi sur sa trajectoire ; Champ de stase actif blesse les ennemis proches)"
     },
     {
       "idea": "Thresh : Blitzcrank peut attraper un allié en plein trajet de lanterne",
@@ -164,5 +163,6 @@
       "kept": false,
       "reason": "1 seule source, macro"
     }
-  ]
+  ],
+  "audit2ans": "Règle des 2 ans (audit 2026-11-12). counterstats : âge par commentaire via data-tip-id (ids croissants, calés sur les titres de guides datés : ~2231700 = guides 14.23, novembre 2024) ; tip-id < 2232000 = plus de 2 ans. Page Blitzcrank [3] (guides Thresh) : seul BologNezhs (2025) est récent et ne dit pas « Thresh fragile, un grab le tue ». Recompte : Thresh « fragile, sans fuite » 4 → 3. Tips mécaniques de [3] gardés (vérifiés DDragon)."
 }

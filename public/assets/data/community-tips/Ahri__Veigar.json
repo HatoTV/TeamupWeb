@@ -1,0 +1,133 @@
+{
+  "pair": [
+    "Ahri",
+    "Veigar"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Ahri": "23813db730612c753a978ae5f213acb6178504c095f16baaea2c124181a30193",
+    "Veigar": "6a2e13883147bb26ad1b970e7a344ba7c8fbc6840bbbcc1de94a0ab4ae462bea"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Ahri": {
+      "fr": [
+        {
+          "text": "Ne lance ton combo complet que lorsque sa Profanation (E) est en CD : sa cage te stun en lane et retourne n'importe quel trade.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Mets la pression avant le lvl 6 : Veigar est faible tôt, chaque point dans son Coup malin (A) et son ult le rendent plus dangereux.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Fais-lui lâcher son Coup malin (A), son seul vrai outil de trade tôt, puis avance et échange pendant son CD.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Son Coup malin (A) porte plus loin que ton Orbe d'illusion (A) : ne reste pas à sa portée sans raison, il te poke gratuitement.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Après son lvl 6, ne reste pas bas en PV en lane : son Explosion primordiale (R) fait plus de dégâts quand ta vie est basse.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Only throw your full combo while his Event Horizon (E) is on cooldown: the cage stuns you in lane and flips any trade.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Pressure him before level 6: Veigar is weak early, and every point in Baleful Strike (Q) plus his ult makes him more dangerous.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Bait out Baleful Strike (Q), his only real early trading tool, then walk up and trade while it is on cooldown.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Baleful Strike (Q) outranges your Orb of Deception (Q): don't idle in its range, or he pokes you for free.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "After his level 6, don't stay low in lane: Primordial Burst (R) deals more damage the lower your health is.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Veigar": {
+      "fr": [],
+      "en": []
+    }
+  },
+  "sources": [
+    {
+      "title": "RANK 1 AHRI VS RANK 1 VEIGAR EUW",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=vSKtI_U_5v4",
+      "consultedAt": "2026-11-12",
+      "channel": "Peng",
+      "publishedAt": "2026-08-22",
+      "timestamps": [
+        "14:30",
+        "14:54",
+        "15:27",
+        "16:20"
+      ]
+    },
+    {
+      "title": "How You Always Beat Veigar in Mid Lane",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=54bjiZPZFjg",
+      "consultedAt": "2026-11-12",
+      "channel": "Mysteriaslol",
+      "publishedAt": "2026-08-25",
+      "timestamps": [
+        "0:18",
+        "1:06",
+        "4:11",
+        "4:46"
+      ]
+    },
+    {
+      "title": "Tough Team | Ahri vs Veigar | Educational League of Legends",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=-nP7opMSBuQ",
+      "consultedAt": "2026-11-12",
+      "channel": "Mandrew",
+      "timestamps": [
+        "5:05",
+        "6:53",
+        "7:25"
+      ]
+    },
+    {
+      "title": "Veigar Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/veigar",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] Braum is a difficult matchup because he can directly deny Rakan's engage tools.",
+    "[0] Avoid engaging directly into Braum while Unbreakable (E) is available.",
+    "[0] Passive stun is annoying however not too bad. Ult can stop your engage."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 15 2026-11-12",
+  "videosFound": 28,
+  "videosRead": 3,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "QQx7Y2W1rC8",
+      "channel": "Challenger vs. Emerald",
+      "result": "lu (transcription en cache), inutilisé : Braum et Rakan jamais opposés"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "lu (en-orig, en cache), inutilisé : le bouclier de Braum n'arrête pas les dashs (exemple de Rell), Rakan jamais opposé à Braum"
+    },
+    {
+      "id": "9Tc6uYn_968",
+      "channel": "Pocket Rhino",
+      "result": "lu, inutilisé (Braum contre un counter pick qui n'est pas Rakan)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/braum",
+      "result": "ok partiel (auteurs Rakan récents : Minima141 [26.5], Revil0 [26.03] ; les autres vus seulement en résumé ou anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/rakan",
+      "result": "lecture partielle : auteurs Braum seulement en résumé (Aerenax 13.17, Guoblide 11.17 anciens, Cordiall sans date), avis contradictoires"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rakan : ne pas engager tant que l'Incassable (E) de Braum est disponible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule page, et le contrôle demande 2 sources par matchup"
+    },
+    {
+      "idea": "Rakan : l'ult de Braum peut couper ton engage, attention au stun du passif",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "même page, 1 seule source"
+    },
+    {
+      "idea": "Braum : survivre en lane, Rakan est dur à punir",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "résumés non vérifiés et contradictoires (« pas une menace » / « matchup difficile »)"
+    }
+  ]
+}

@@ -125,7 +125,11 @@
     "Jayce__KSante",
     "Karma__Renata",
     "Kayle__Syndra",
-    "Syndra__Veigar"
+    "Syndra__Veigar",
+    "Ahri__Veigar",
+    "Ambessa__KSante",
+    "Alistar__Velkoz",
+    "Lux__Thresh"
   ],
   "inProgress": [],
   "insufficientSources": [
@@ -146,20 +150,16 @@
     "AurelionSol__Syndra",
     "Ezreal__Heimerdinger",
     "Leona__Renata",
-    "Rell__Renata"
-  ],
-  "queueRule": "Couples des fichiers Matchups, rôle commun avec >= 40 parties Master+ par champion (Builds 16.22) ; ordre : aucun conseil d auteur, puis un seul côté, puis les deux ; à égalité, parties Master+ cumulées. Étendue à 185 couples (2026-11-12, même ordre). La jungle passe en fin de file, sauf les couples Lee Sin couverts par Coach Kirei (Viego, Wukong, Nidalee, Vi, Zac).",
-  "queue": [
-    "Ahri__Veigar",
-    "Alistar__Velkoz",
-    "Ambessa__KSante",
+    "Rell__Renata",
     "Leona__Seraphine",
-    "Lux__Thresh",
     "Corki__MissFortune",
     "Karma__Seraphine",
     "Braum__Rakan",
     "Alistar__Pantheon",
-    "LeeSin__Talon",
+    "LeeSin__Talon"
+  ],
+  "queueRule": "Couples des fichiers Matchups, rôle commun avec >= 40 parties Master+ par champion (Builds 16.22) ; ordre : aucun conseil d auteur, puis un seul côté, puis les deux ; à égalité, parties Master+ cumulées. Étendue à 185 couples (2026-11-12, même ordre). La jungle passe en fin de file, sauf les couples Lee Sin couverts par Coach Kirei (Viego, Wukong, Nidalee, Vi, Zac).",
+  "queue": [
     "Hecarim__LeeSin",
     "JarvanIV__Qiyana",
     "LeeSin__Nunu",

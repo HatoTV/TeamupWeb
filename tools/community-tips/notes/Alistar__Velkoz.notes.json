@@ -1,0 +1,126 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] Engage beat them 61 % of the time because once a tank reaches a mage, there's no dash and no shield to protect them.",
+    "[0] Alistar's headbutt into his pulverize is a second and three quarters.",
+    "[0] Black shield blocks magic damage and crowd control, but it doesn't block physical damage and Alistar's ultimate removes any crowd control that's already on him.",
+    "[0] You poke from outside the enemy's range, you force them back, and you can take tower plates and deny them CS while they're gone.",
+    "[1] tu auras la possibilité de SCO les Bush et de pouvoir cancel une engage parce que tu auras la possibilité de caler trois slow une fois sur ton queue",
+    "[2] Vel'Koz is highly reliant on his abilities and has many skillshots, so it's crucial",
+    "[2] annoying pokebot, give him a personal meeting with your ADC",
+    "[2] Just try to survive lane by staying healthy",
+    "[2] Try your hardest to dodge Vel'koz Plasma Fission(Q)'s in lane.",
+    "[2] If he hits his combo you're pretty dead, he has a lot of range (bigger than your combo) and his passive deals true damage",
+    "[3] Watch out for his engage, but otherwise you get to poke him into oblivion.",
+    "[3] You do true damage to him. His ult doesnt phase you",
+    "[3] Just spam Q at him, if he does go in place your E beneath him and it's some free damage.",
+    "[3] His combo is a big issue, but luckily that's the only threat. Keep your distance and poke him and adc frequently."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 15 2026-11-12",
+  "videosFound": 32,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "d_otYfy24e0",
+      "channel": "Strey VOD - League of Legends",
+      "result": "lu, inutilisé (Vel'Koz contre Alistar, FR : « fort contre Alistar » sans explication)"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "utilisé (guide des archétypes de supports, 2026-11-11, lu en « en-orig » : engage contre mages 9:22, combo d'Alistar 3:46, R d'Alistar 14:04)"
+    },
+    {
+      "id": "CB9XAeYVxTg",
+      "channel": "EXYT - League of Legends",
+      "result": "utilisé (guide Vel'Koz support FR 2025-01-27 : le slow de la Fission du plasma pour annuler une engage, 1:38)"
+    },
+    {
+      "id": "TIAtHw9byZc",
+      "channel": "Azzapp LoL",
+      "result": "lu, inutilisé (aucun passage sur Alistar ni les supports engage)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/velkoz",
+      "result": "ok (auteurs Alistar : Nobreav [25.24, récent] ; OakuMarai [sans date] ; Aerenax [13.4], DixonTheGuideMaker [12.14], 1OLAF3 [9.17], Cornifa [S11] anciens : mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (auteurs Vel'Koz : snukumz, JustFunPlay, Jhny_ [sans date], BstWood [10.6, ancien])"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : esquiver le A puis engager Z+A sur ses CD",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (Nobreav 25.24 récent) + DDragon (Vel'Koz sans dash)"
+    },
+    {
+      "idea": "Alistar : R pour traverser son combo",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (retire les CC, réduit les dégâts)"
+    },
+    {
+      "idea": "Alistar : sa portée dépasse la tienne, rester en vie",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (A 1050, Z 650)"
+    },
+    {
+      "idea": "Vel'Koz : poke à distance, le combo est sa seule menace",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (vidéo : mages supports gagnent la lane à la portée)"
+    },
+    {
+      "idea": "Vel'Koz : garder A/E pour répondre à l'engage",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (slow du A, knock-up du E)"
+    },
+    {
+      "idea": "Vel'Koz : son passif en dégâts bruts contre un tank",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source (BstWood ancien) + DDragon (dégâts bruts à 3 effets)"
+    },
+    {
+      "idea": "Vel'Koz : l'ult d'Alistar ne gêne pas",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 source ancienne, affirmation non vérifiable"
+    },
+    {
+      "idea": "Alistar : interrompre le R de Vel'Koz avec Z",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source ancienne (Cornifa S11, mid) qui ne nomme pas Vel'Koz"
+    }
+  ]
+}

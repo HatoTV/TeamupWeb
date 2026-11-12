@@ -1,0 +1,142 @@
+{
+  "searches": 1,
+  "sourceSentences": [
+    "[0] the CDs you have to keep track is 6, eight, and 20. That's a base CD of Veigar and 100 on the ultimate.",
+    "[0] I should be a bit more up to see spot information to not give him free Qs like this, a free auto on the wave.",
+    "[0] I think I should kind of just like try to bait his Q first and then look for W.",
+    "[0] the most important thing about this whole play is I'm getting level two first, which is very crucial because now I can enable the level two to zone him off a bit",
+    "[0] nice window for him to just E and put you on the tower to chunk you basically.",
+    "[1] His Q is his main trading tool with a pretty short cool down.",
+    "[1] the way that you want to play around it is that you want to kind of bait out his Q.",
+    "[1] Pre-six, guys, you can make the lane as fast as possible. This guy will never be able to kill you or do anything. Post-six, you got to be a little bit careful, of course, because then he has the execute with his ult.",
+    "[1] your job as a mid laner is to really punish him in the first six levels of the lane before he gets to his break points",
+    "[2] Try not to get caged here.",
+    "[2] Yeah, his Q is longer range than mine.",
+    "[3] If you can get him behind early hes easy. Setup ganks and focus on staking drakes.",
+    "[3] Just make sure to not get hit by his E (the Cage thing).",
+    "[3] Wait until his E is on Cooldown to throw in a full combo with E W Q R and Ignite and you'll easily kill him.",
+    "[3] Dance around his E so you dont get hit by his W and not get stunned."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 15 2026-11-12",
+  "videosFound": 15,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "vSKtI_U_5v4",
+      "channel": "Peng",
+      "result": "utilisé (chapitre REVIEW 14:30-18:17 ; piste « en » traduite, lue en « en-orig »)"
+    },
+    {
+      "id": "54bjiZPZFjg",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (anti-Veigar mid ; 2e couple pour cette vidéo après Syndra__Veigar)"
+    },
+    {
+      "id": "-nP7opMSBuQ",
+      "channel": "Mandrew",
+      "result": "utilisé (commentaire de partie Ahri vs Veigar : cage, portée du A de Veigar)"
+    },
+    {
+      "id": "LmJWY68HoXk",
+      "channel": "Mysteriaslol",
+      "result": "lu (recherche Ahri), inutilisé : aucun chapitre ni passage Ahri ; compté dans le plafond"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/veigar",
+      "result": "ok (auteurs de guides Ahri : Soul0fghost [2026], Marlonrank1 [sans date], Ahri Simplord [12.3, ancien], fLeXeRlol [pré-saison 12, ancien] ; tip-id non visible)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ahri",
+      "result": "lu, un seul commentaire d'auteur Veigar (Kchronos, sans date) : insuffisant pour le côté Veigar"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ahri : combo complet seulement quand la Profanation (E) est en CD",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources (counterstats ancien mais mécanique vérifiée DDragon : cage qui stun)"
+    },
+    {
+      "idea": "Ahri : pression avant le lvl 6",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources récentes (Soul0fghost 2026)"
+    },
+    {
+      "idea": "Ahri : bait le Coup malin (A) puis trade pendant son CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD 6 à 4 s)"
+    },
+    {
+      "idea": "Ahri : le A de Veigar porte plus loin que le sien",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (1000 contre 970)"
+    },
+    {
+      "idea": "Ahri : après le 6, ne pas rester bas en PV",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts augmentés selon les PV manquants)"
+    },
+    {
+      "idea": "Ahri : prendre le lvl 2 en premier pour zoner Veigar",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, pas une mécanique vérifiable"
+    },
+    {
+      "idea": "Ahri : laisser la wave venir de son côté, Veigar clear mal tôt",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    },
+    {
+      "idea": "Ahri : préparer les ganks et jouer les drakes",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    },
+    {
+      "idea": "Ahri : Veigar n'a pas de gros burst tôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, contredite après le 6"
+    },
+    {
+      "idea": "Veigar : jouable jusqu'au 6 d'Ahri, éviter son Charme",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 seul commentaire counterstats sans date : côté Veigar non affiché"
+    }
+  ]
+}

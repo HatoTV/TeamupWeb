@@ -1,0 +1,71 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] it's a double-ranged matchup, which means one hook is very lethal, one hook is very deadly. So, if I hit a hook, it's like an all-in angle for us.",
+    "[0] 90% of the lane I'm going to be poked down. try to avoid being poked down. But if I hit a hook, um, we can definitely all in them",
+    "[0] catching one with your hook is instantly a kill. Oh, hook down equal run. hook up equal in",
+    "[1] Like most hook champs, Thresh does really well into ranged supports, which is why I picked him in this draft.",
+    "[1] Just playing the bush here. Want to bait out abilities, skill shots. Then you have the edge here.",
+    "[1] generally in the Lux versus Thresh match up, I should just be able to flash on Lux very easily."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 15 2026-11-12",
+  "videosFound": 30,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "ziSCHttG5w8",
+      "channel": "(guide Lux, utilisé pour Lux__Rell)",
+      "result": "lu (transcription en cache), inutilisé : Thresh cité sans conseil"
+    },
+    {
+      "id": "QQx7Y2W1rC8",
+      "channel": "Coach Cupcake",
+      "result": "lu (transcription en cache), inutilisé : Thresh classé A, Lux jamais opposée"
+    },
+    {
+      "id": "hGSy30fyPBc",
+      "channel": "AxL",
+      "result": "utilisé (Thresh contre une lane double distance Nami/Smolder : conseils valables contre une support mage à distance)"
+    },
+    {
+      "id": "vDHoQBIFkgo",
+      "channel": "ShoDesu",
+      "result": "utilisé (Thresh contre Ezreal/Lux, 6 mois : brush, bait des skillshots, Flash sur Lux)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Thresh : subir le poke, un seul hook suffit pour all-in",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Thresh : jouer les brush, bait son A, Flash engage (Lux sans dash)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (aucun dash dans le kit de Lux, A 10 s de CD)"
+    },
+    {
+      "idea": "Thresh : avec un ADC AP, ne pas sur-engager ses hooks",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, dépend du duo"
+    },
+    {
+      "idea": "Lux : (aucune source côté Lux)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "aucune vidéo ni page côté Lux : côté non affiché"
+    }
+  ]
+}

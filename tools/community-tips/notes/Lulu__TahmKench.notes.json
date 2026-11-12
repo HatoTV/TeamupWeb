@@ -1,0 +1,162 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] You can put a minion between you and Tahm Kench in order to dodge his Q. As soon as he uses his E, disengage and wait for his shield to fade.",
+    "[0] Do not try head to head fight with him, he is better at long trades so keep your trades very short or just push your lane and try to win the minion war.",
+    "[0] Q him when he gets closer and W if he tries to eat you/your adc.",
+    "[0] Stand behind minions to avoid his Q. Not much else to say, poke away.",
+    "[0] Make sure you won't get hit by him 3 times because of his passive. But you can harass him a lot.",
+    "[1] Tahm Kench has no means of dealing ranged damage aside from his Tongue Lash (Q).",
+    "[1] Lulu will have complete control over lane if she avoids his Tongue Lash(Q). However, the slow on Tongue Lash(Q) makes it a threat if Lulu is hit with it when Tahm Kench is close by.",
+    "[2] Kill Lulu if she stands too close by hitting her with Tongue Lash [Q] to slow her and following up with basic attacks.",
+    "[2] However, Lulu’s Whimsy (W) and Help, Pix (E) make her difficult to deal with.",
+    "[2] Most Lulu users will use Glitterlance (Q) and basic attacks to contest lane from a distance, so try to pull lane to avoid being punished."
+  ],
+  "videosFound": 75,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "ucrac-82KSg",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (recherche « tahm / kench » : aucune partie contre Tahm Kench ; ouverture partagée)"
+    },
+    {
+      "id": "govp5qcA5AU",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (guide Morgana, recherche « tahm / kench » sans résultat ; ouverture partagée)"
+    },
+    {
+      "id": "9Ryi8IbUamI",
+      "channel": "Daption",
+      "result": "lu, inutilisé (recherche « tahm / kench » sans résultat ; ouverture partagée)"
+    },
+    {
+      "id": "nmBZFp5uPTQ",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (« Educational Lulu Reviews », recherche « tahm / kench » sans résultat)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/tahm-kench",
+      "result": "ok (7 commentaires d'auteurs de guides Lulu, tous anciens : tid 2097588 à 2183427 ; mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "result": "lu, inutilisé (aucun commentaire d'auteur Tahm Kench)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/lulu/counters/support?target_champion=tahmkench",
+      "result": "ok (tip sans date, compté comme ancien)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/tahmkench/counters/support?target_champion=lulu",
+      "result": "ok (tip sans date, compté comme ancien)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lulu : derrière les sbires, le Q de Tahm touche la première unité",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "sources anciennes ; mécanique DDragon (Coup de langue touche la première unité)"
+    },
+    {
+      "idea": "Lulu : Tahm au corps à corps, poke à distance et trades courts",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "sources anciennes ; DDragon (portée d'attaque 175). « Aucun dégât à distance sauf le Q » (op.gg) non repris : Plongée abyssale (Z) frappe aussi à distance"
+    },
+    {
+      "idea": "Lulu : éviter 3 coups, à 3 cumuls Q étourdit et Dévoration possible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source ancienne + DDragon (passif et Coup de langue)"
+    },
+    {
+      "idea": "Lulu : reculer pendant le bouclier de Peau épaisse",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source ancienne + DDragon (bouclier temporaire)"
+    },
+    {
+      "idea": "Lulu : Fantaisie sur Tahm quand il veut dévorer",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source ancienne + DDragon (transformé : aucun sort)"
+    },
+    {
+      "idea": "Lulu : wards profondes contre son ult",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon : Dévoration n'est plus un déplacement global"
+    },
+    {
+      "idea": "Lulu : esquiver sa Plongée abyssale puis le kite",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source ancienne, conseil de lane peu mécanique"
+    },
+    {
+      "idea": "Tahm : attendre la Fantaisie de Lulu avant Dévoration",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "sources anciennes + DDragon"
+    },
+    {
+      "idea": "Tahm : Q bloqué par les sbires, chercher un angle",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "sources anciennes + DDragon"
+    },
+    {
+      "idea": "Tahm : ralentir Lulu au Q puis autos si elle est trop près",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source ancienne + DDragon (ralentissement)"
+    },
+    {
+      "idea": "Tahm : 3 cumuls de Goût acquis pour étourdir / dévorer Lulu",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source ancienne + DDragon"
+    },
+    {
+      "idea": "Tahm : « pull lane » pour éviter d'être puni",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source ancienne, conseil de lane flou"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 10 2026-11-12",
+  "orchestratorReview": "Tip Lulu « harcèle à distance, trades courts » retiré : conseil de lane appuyé seulement par des sources anciennes."
+}

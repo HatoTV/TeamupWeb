@@ -1,0 +1,161 @@
+{
+  "pair": [
+    "LeeSin",
+    "Nidalee"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "LeeSin": "35dbeba113620c6a7815aa9b15b3c6325b07c557a3af6da0000f925c500e2942",
+    "Nidalee": "a147a5e64b1016aa724354ffcc8c1506eede9f8cb39044041ebb581ebb2ff929"
+  },
+  "status": "ok",
+  "perspectives": {
+    "LeeSin": {
+      "fr": [
+        {
+          "text": "Son Javelot (A) frappe plus fort quand il vient de loin : colle-toi à Nidalee au lieu de rester à distance.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Tu es bien plus solide qu'elle en duel : quand tu l'attrapes, n'hésite pas à aller au bout du combat.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Dès le lvl 6, tu peux one-shot Nidalee : elle est trop fragile pour encaisser ton burst.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Pour esquiver son Javelot (A), lance Rempart (Z) sur une ward ou un allié au bon moment.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Touche-la avec Trombe (E) puis relance Fracture : le ralentissement t'aide à rester sur Nidalee malgré ses bonds.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Her Javelin Toss (Q) deals more damage the farther it flies: stay close to Nidalee instead of hanging back at range.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "You're much sturdier than her in a duel: once you catch her, commit and finish the fight.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "From lvl 6, you can one-shot Nidalee: she's too fragile to survive your burst.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "To dodge her Javelin Toss (Q), cast Safeguard (W) onto a ward or an ally at the right moment.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Hit her with Tempest (E), then recast Cripple: the slow helps you stay on Nidalee despite her jumps.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Nidalee": {
+      "fr": [
+        {
+          "text": "Ton Javelot (A) frappe plus fort à longue portée : ouvre de loin, depuis le brouillard, avant de passer en couguar.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Évite le 1v1 contre Lee Sin : il est bien plus solide que toi et gagne presque tous les duels.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Après son lvl 6, Lee Sin peut te one-shot : ne l'affronte jamais sans ton équipe.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Esquive son Onde sonore (A) : si elle ne touche pas, il ne peut pas lancer Coup résonant pour te sauter dessus.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Reste hors de portée de sa Trombe (E) : si elle te touche, Fracture te ralentit et Lee Sin te colle.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Your Javelin Toss (Q) hits harder at long range: open from far away, out of the fog, before switching to cougar.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Avoid 1v1s against Lee Sin: he's much sturdier than you and wins almost every duel.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "After his lvl 6, Lee Sin can one-shot you: never take him on without your team.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Dodge his Sonic Wave (Q): if it misses, he can't cast Resonating Strike to jump on you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Stay out of range of his Tempest (E): if it hits, Cripple slows you and Lee Sin sticks to you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Lee Sin Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/lee-sin",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Nidalee Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/nidalee",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

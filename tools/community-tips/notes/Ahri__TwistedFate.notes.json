@@ -1,0 +1,176 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] Ahri doesn't win lane through damage. She wins through charm. Everything revolves around her E.",
+    "[0] Play around her charm cool down. It's long early, so use that window to step up and trade. Position around minions to block charm and make it harder for her to find angles.",
+    "[0] Her Q damage is mostly on the return. Side step it after the first hit to avoid the true damage burst. Once her ult is down, she has no mobility. She's a sitting duck.",
+    "[0] Twisted Fate's lane is his W. Once the card is used, he has no threat. Trade immediately after he uses pick a card since he has no way to fight back.",
+    "[0] Respect the gold card since it's guaranteed Q and empowered auto. His Q is easy to dodge on its own. Stay away from minions when he has a red card since it will splash onto you.",
+    "[0] At level six, spam ping that he has R and don't follow. Push the wave instead.",
+    "[1] Now that she used her spells, we're not going to be afraid to walk up a little bit.",
+    "[1] this is what we want to be doing to Ahri is just shoving her in so that she can't do anything to us and then being able to back off",
+    "[1] If I had my spell, I could like hold my ground a little bit and gold card her in the wave.",
+    "[2] Ari can just absorb a gank and al away.",
+    "[2] You can play for man advantages. You can draw pressure inside and zip away with your R or your TP or whatever.",
+    "[2] your Q's unreliable to land and only really only landing your Q when you're tying it with your W, right? Or chaining someone else's CC",
+    "[3] You out trade if he doesn't have W. get push and stop him from roaming.",
+    "[3] Whenever Twisted Fate uses W there is 6 sec window to play - Can sneak in Qs when he goes for last hit - if your getting gold carded you can throw charm at him the exact time to CC him aswell",
+    "[3] You want to Fight even fight against Twisted Fate hes very weak in 2v2 3v3 cuz hes champ is reliant on creating nummber fight"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 10 2026-11-12",
+  "videosFound": 53,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "4Fc56KQbIBI",
+      "channel": "Zoose",
+      "result": "utilisé (chapitres Ahri 0:07 et Twisted Fate 17:50 ; 3e couple de la vidéo avec Veigar__Zed et Syndra__TwistedFate)"
+    },
+    {
+      "id": "qAne0IbwjoQ",
+      "channel": "Mandrew",
+      "result": "utilisé (TF vs Ahri, 2026-06-07)"
+    },
+    {
+      "id": "IH4_5pzOB3c",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (chapitres Ahri 1:45 et Twisted Fate 2:05:26 ; une recherche TF/Kassadin/Vlad comptée pour Ahri__TwistedFate, Ahri__Vladimir et Kassadin__Syndra)"
+    },
+    {
+      "id": "RzXAuJfw-go",
+      "channel": "young",
+      "result": "lu, inutilisé (2026-11-06, fiches de counter-pick par champion : aucun conseil propre au couple)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/twisted-fate",
+      "result": "ok (auteurs de guides Ahri ; récents : 2250551 et 2242001 [25.16] ; les autres < 2232000 = anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ahri",
+      "result": "lu, inutilisé (aucun commentaire d'auteur de guide Twisted Fate)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ahri : trader juste après la Bonne pioche (fenêtre de 6 s)",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Zoose, counterstats 2250551 + 2242001) + DDragon (CD 6 s)"
+    },
+    {
+      "idea": "Ahri : respecter la carte dorée, Atouts seuls faciles à esquiver",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (carte dorée = stun)"
+    },
+    {
+      "idea": "Ahri : au lvl 6 de TF, ping la Destinée et pousser au lieu de suivre",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (Zoose ; counterstats 2250551 push contre les roams)"
+    },
+    {
+      "idea": "Ahri : chercher les combats à égalité, TF vit des surnombres",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (BBC « play for man advantages » ; counterstats 2242001)"
+    },
+    {
+      "idea": "Ahri : s'écarter des sbires quand il a une carte rouge",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (carte rouge : dégâts autour de la cible + ralentissement)"
+    },
+    {
+      "idea": "Ahri : placer le Charme pendant qu'il carte dorée",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 source, simultanéité non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Ahri : placer des Orbes quand il last hit",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 source, lane"
+    },
+    {
+      "idea": "TF : jouer autour du Charme (12 s de CD), avancer quand il est raté",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD 12 s)"
+    },
+    {
+      "idea": "TF : sans Assaut spirituel, Ahri n'a plus de mobilité",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (Zoose ; BBC : Ahri esquive les ganks avec son R) + DDragon (3 dashs)"
+    },
+    {
+      "idea": "TF : rester derrière les sbires contre le Charme",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (premier ennemi touché)"
+    },
+    {
+      "idea": "TF : esquiver le retour de l'Orbe (dégâts bruts)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts bruts au retour)"
+    },
+    {
+      "idea": "TF : garder la Bonne pioche au lieu de la gâcher sur la wave",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, lane"
+    },
+    {
+      "idea": "TF : pousser Ahri sous sa tour puis reculer",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, lane"
+    },
+    {
+      "idea": "TF : ne pas sur-roam, farmer et attendre le mid game",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source, conseil générique TF"
+    }
+  ]
+}

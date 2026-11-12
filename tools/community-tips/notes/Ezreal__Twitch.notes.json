@@ -1,0 +1,138 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] Twitch. Bon Twitch pour moi c'est c'est stomp hein. Actuellement le champion est trop faible.",
+    "[0] faites attention si vous donnez des shutdown si vous arrivez pas à snowball la game Twitch peut complètement comeback et après derrière il vient vous duel en mid l game et vous tue",
+    "[0] Twitch ver game c'est dangereux mais avant c'est vraiment pas terrible voir même très nul et c'est pour ça que vous devez mettre beaucoup beaucoup de rythme",
+    "[1] Ezreal is a simple matchup, you can get into his range easily with your stealth and you should be able to out damage at most points of the game.",
+    "[1] Hard To lane against. He outdamages early and longer range with more AS. Try to dodge Qs and not take early fights unless they look good or they make a mistake.",
+    "[1] You outscale later  and beat him post 6. Post 6 you destroy him with Q and a good angle to open up.",
+    "[1] Desvie de seus Q que não haverá problema jogar contra um Ezreal",
+    "[1] Dodge or get shot. Engaging is next to impossible unless he overstays. Preferably you would wait until he Es to engage.",
+    "[1] if you ever go for a kill make him waste his e then you will have to go in after he uses it for a free trade.",
+    "[2] He will come at you in stealth, and if he does catches you by surprise you will die since he gets attack speed buff coming out of stealth.",
+    "[2] Avoid clumping against a Twitch because his ultimate deals massive damage to targets in a line.",
+    "[2] Twitch's like to cheese so if you ever think you're alone in lane, chances are twitch is coming to murder you out of his stealth."
+  ],
+  "videosFound": 47,
+  "videosRead": 2,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "4yC_MM19yU0",
+      "channel": "Booshi",
+      "result": "utilisé (PRO GUIDE, tier list matchups 39:48-40:13 : Twitch faible early, dangereux en mid game ; 2e usage de la vidéo)"
+    },
+    {
+      "id": "dgyRRN4f24Q",
+      "channel": "wunonn",
+      "result": "lu, inutilisé (piste fr = traduction d'une voix anglaise ; Ezreal jamais cité)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ezreal",
+      "result": "ok (auteurs de guides Twitch : 3 commentaires récents rowzkit 2243339, Wunonn 2238588, FroszTyzada 2233090 ; le reste ancien)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/twitch",
+      "result": "ok (auteurs de guides Ezreal : tous anciens, id < 2232000, patch 14.6 au plus)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ezreal : reculer quand Twitch passe en camouflage (vitesse d’attaque en sortie)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "rowzkit récent + commentaires anciens (StriveHD79, Robin Banks) + DDragon (Ambush : vitesse d’attaque en sortant du camouflage)"
+    },
+    {
+      "idea": "Ezreal : gagner l’early, prendre l’avance avant le lvl 6 de Twitch",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Booshi 2026-08, Wunonn 15.10)"
+    },
+    {
+      "idea": "Ezreal : éviter les duels longs en mid game",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Booshi, Wunonn/rowzkit)"
+    },
+    {
+      "idea": "Ezreal : ne pas s’aligner contre la Panique",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (ooftheiii, ancien) + DDragon (Spray and Pray traverse tous les ennemis)"
+    },
+    {
+      "idea": "Ezreal : fuir avec Transfert arcanique quand Twitch sort du camouflage",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "commentaires anciens contradictoires (DoublefeedOP : oui, xMinaxe : pas assez de distance)"
+    },
+    {
+      "idea": "Ezreal : éviter de donner des shutdowns, Twitch peut revenir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source récente (Booshi)"
+    },
+    {
+      "idea": "Twitch : Embuscade pour entrer dans sa portée sans être vu",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "rowzkit/Wunonn récents + commentaires anciens + DDragon (camouflage, vitesse d’attaque en sortie)"
+    },
+    {
+      "idea": "Twitch : Ezreal domine l’early, attendre le lvl 6",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Wunonn, Booshi)"
+    },
+    {
+      "idea": "Twitch : esquiver Tir mystique",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (Wunonn, FroszTyzada récents) + DDragon (Mystic Shot réduit les CD ; passif : vitesse d’attaque à chaque sort touché)"
+    },
+    {
+      "idea": "Twitch : attendre le Transfert arcanique avant d’engager",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens fuckingrathatxdd, RoadDGM) + DDragon (Arcane Shift, CD 26 à 14 s)"
+    },
+    {
+      "idea": "Twitch : jouer derrière les sbires contre son Q",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaires anciens, mécanique non vérifiable dans la description DDragon"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 10 2026-11-12"
+}

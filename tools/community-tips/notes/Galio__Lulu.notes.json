@@ -1,0 +1,152 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] Even though I guess Galio is good for frontline cuz he can block of us with his big taunt",
+    "[0] Galio goes in. I polymorph the Jhin because I don't want him to get any damage off while my ADC is taunted",
+    "[0] I'm just paying like, Hey, be careful. Galio's level six, so he can come ult them",
+    "[0] Galio's trying to help make play mid with his team. Which is what you're supposed to do with Galio. You should be making plays every time you can with your ult",
+    "[1] Anti-dive polymorph + shield + ult. Your job is less \"one-shot Lulu\" and more \"keep her hypercarry off your backline.\"",
+    "[1] Don't overinvest ult on bot lane dives unless it kills their ADC outright; save R to cover dives mid/game.",
+    "[1] Her W cancel everything you can try and your carry stays vulnerable",
+    "[1] Once you engage, Lulu can polymorph you while her Carry dumps damage into you, and her ultimate is a really good survivability tool that can turn an engage.",
+    "[2] Galio players have greater utility and lane presence against you, so be sure to watch out when he leaves lane and have your teleport ready if needed.",
+    "[2] Also, please be aware of any team fights that might occur nearby.",
+    "[3] Try to target Lulu if she overextends by quickly chaining your CC skills to prevent her from casting buffs.",
+    "[3] Try to always target whichever target that did not receive Lulu's buffs."
+  ],
+  "videosFound": 60,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "-HtffG85Glw",
+      "channel": "Jade The Snort",
+      "result": "utilisé (review commentée Lulu contre Galio, 2026-10-16)"
+    },
+    {
+      "id": "ucrac-82KSg",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (recherche « galio » : aucune partie contre Galio ; ouverture partagée avec Lulu__TahmKench et Lulu__Morgana)"
+    },
+    {
+      "id": "govp5qcA5AU",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (guide Morgana, recherche « galio » sans résultat ; ouverture partagée)"
+    },
+    {
+      "id": "9Ryi8IbUamI",
+      "channel": "Daption",
+      "result": "lu, inutilisé (recherche « galio » sans résultat ; ouverture partagée)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "result": "ok (1 commentaire récent d'un auteur de guide Galio support, tid 2245627 « UPDATED DECEMBER 2025 » ; 3 anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/galio",
+      "result": "ok (1 commentaire récent d'un guide Lulu mid, tid 2245529 ; 2 anciens)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/galio/counters/support?target_champion=lulu",
+      "result": "ok (tip sans date, compté comme ancien : mécanique vérifiée seulement)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/lulu/counters/support?target_champion=galio",
+      "result": "lu, inutilisé (« Fantaisie réduit la durée de la provocation » : non vérifiable dans DDragon ; « punir Galio après son E » : ancien, pas une mécanique)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Galio : provocation (Z) en frontline pour protéger le backline du carry de Lulu",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Jade 2026-10, Alchemyr déc. 2025) + DDragon (Z provoque)"
+    },
+    {
+      "idea": "Galio : ult pour la map et les dives au mid game, en botlane seulement si elle tue l'ADC",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes + DDragon (portée 4000/4750/5500)"
+    },
+    {
+      "idea": "Galio : Lulu le transforme après son engage pendant que son carry frappe",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens) + DDragon (transformé : ni attaque ni sort)"
+    },
+    {
+      "idea": "Galio : enchaîner E puis Z sur Lulu si elle s'avance, elle ne lance plus ses buffs",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source (op.gg, ancien) + DDragon (projection et provocation empêchent de lancer des sorts)"
+    },
+    {
+      "idea": "Galio : cibler celui qui n'a pas reçu les buffs de Lulu",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 source ancienne, pas une mécanique"
+    },
+    {
+      "idea": "Lulu : Galio lvl 6 peut ult sur la lane depuis loin, prévenir l'ADC",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Jade ; AntiMetaFae, guide Lulu mid : surveiller quand Galio quitte sa lane) + DDragon (portée)"
+    },
+    {
+      "idea": "Lulu : transformer l'ADC adverse quand Galio provoque ton ADC",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Fantaisie sur un ennemi : ni attaque ni sort)"
+    },
+    {
+      "idea": "Lulu : transformer Galio dès qu'il engage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens d'auteurs Galio) + DDragon"
+    },
+    {
+      "idea": "Lulu : Galio peu dangereux en début de lane, jouer agressif",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source récente (lane) ; le commentaire Galio « horrible lane » est ancien (tid 2061564)"
+    },
+    {
+      "idea": "Lulu : Fantaisie réduit la durée de la provocation de Galio",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "op.gg (ancien) ; non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Lulu mid : Galio tank impossible à repousser de la lane",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "propre au mid, pas au support"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 10 2026-11-12"
+}

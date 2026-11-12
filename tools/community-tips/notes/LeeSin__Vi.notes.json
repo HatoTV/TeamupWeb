@@ -1,0 +1,141 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] he has better early game than you. Not necessarily in the one v one. Actually, he's he's not that strong in the in the one one in the early game.",
+    "[0] you have the Q to to stop his Q engage onto you or some of your teammates. You can use your ultimate to buffer the CC from the his ultimate.",
+    "[1] On a eu aucune information sur le start de lcine, ce qui est un poil relou.",
+    "[1] étant donné que bah c'est un personnage qui peut être potentiellement agressif, euh j'ai pas spécialement envie de me montrer vis-à-vis de la Syndra.",
+    "[1] Euh Find dans le forcément un petit peu stressant sur leur game étant donné qu'une vaille est très faible en duel.",
+    "[2] if he is very good just ward your jungle and go where he go . You can stat check him in lv6",
+    "[2] Tips 1 : Si il vous touche avec son Q vous pouvez utiliser le votre pendant qu'il dash sur vous pour le cancel (marche aussi quand il dash sur un de vos alliés)",
+    "[2] Tips 2 : Dès que l'animation de son Kick commence, vous pouvez l'ulti pour ne pas être expulsé au loin.",
+    "[2] Good leesins are scary but if u Q him in his Q u can stop a big amount of his damage and try to ult as he ults it is hard to time but possbile",
+    "[3] If Vi charges her q as you q2 into her, she can deny the damage and knock you back which also I would recommend Edge of Night for.",
+    "[3] Vi is a hard counter for Lee Sin because she can cancel your Q2 and can cancel your R knockup.",
+    "[3] You can kick her off of your carries if she ults, but only after her ult animation is finished, due to her unstoppable.",
+    "[3] when she R's one of your teammates, be ready to R her off them right after her R is up, to save your carry teammate from death."
+  ],
+  "videosFound": 50,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "hT4HTyaW10I",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, inutilisé (56:15-59:01 : Vi en général, rien sur Lee Sin ; ouverture partagée avec LeeSin__Nidalee)"
+    },
+    {
+      "id": "NWiKFc3uxrw",
+      "channel": "LOCVS",
+      "result": "lu, inutilisé (guide complet Vi 2025-08-28 : le chapitre matchups renvoie à une autre vidéo)"
+    },
+    {
+      "id": "ju2tJmGXdKg",
+      "channel": "LOCVS",
+      "result": "utilisé, mécaniques seulement (2024-02-28, plus de 2 ans ; chapitre Lee Sin 26:32)"
+    },
+    {
+      "id": "IKFXqg0ORas",
+      "channel": "Splinter VOD - League of Legends",
+      "result": "utilisé (Vi vs Lee Sin commenté, 0:12 et 2:12)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lee-sin",
+      "result": "ok (auteurs de guides Vi : 1 commentaire récent 6KSGA9 2243146 ; le reste ancien)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/vi",
+      "result": "ok (auteurs de guides Lee Sin : tous anciens, id < 2232000)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lee Sin : ne pas relancer Coup résonant dans le Brise-coffre de Vi",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "sources anciennes (LOCVS 2024-02, Dabgren/Abes/Kazuo) + DDragon (Vault Breaker : Vi stoppe sur un champion et le repousse)"
+    },
+    {
+      "idea": "Lee Sin : éjecter Vi de son carry après la fin de sa charge (R inarrêtable)",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "sources anciennes (NixLychee 11.20, Kazuo S13, LOCVS) + DDragon (Cease and Desist « dashing unstoppably »)"
+    },
+    {
+      "idea": "Vi : garder Brise-coffre pour couper Coup résonant",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "sources anciennes (LOCVS, Deltix31, gelz_4, PILTOVi) + DDragon (repoussement)"
+    },
+    {
+      "idea": "Vi : Mise en demeure inarrêtable contre Rage du dragon",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "sources anciennes (LOCVS, Deltix31, gelz_4) + DDragon (dash inarrêtable)"
+    },
+    {
+      "idea": "Vi : Lee Sin agressif tôt, warder sa jungle et le suivre",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Splinter 2025-11, 6KSGA9) ; conseil en partie générique, gardé car il reste moins de 3 tips propres hors mécaniques"
+    },
+    {
+      "idea": "Vi : stat check Lee Sin au lvl 6",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source récente ; Splinter dit au contraire que Vi est faible en duel"
+    },
+    {
+      "idea": "Vi : faible en duel contre Lee Sin",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source récente, contredite par 6KSGA9"
+    },
+    {
+      "idea": "Vi : voler les camps de Lee Sin",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source récente (Splinter 5:00-11:42)"
+    },
+    {
+      "idea": "Lee Sin : envahir / ganker lvl 3",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "commentaires anciens (14.14 et avant) : ne comptent pas pour un tip lane/macro"
+    },
+    {
+      "idea": "Vi : matchup égal en 1v1",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "source de plus de 2 ans (LOCVS 2024-02) : pas de tip lane"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 10 2026-11-12"
+}

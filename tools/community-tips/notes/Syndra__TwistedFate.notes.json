@@ -1,0 +1,124 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] Syndra's E stun is the entire lane. If it hits, you lose the trade. She only threatens when E connects with a Q sphere. Don't stand between her and a sphere.",
+    "[0] Trade hard after E is used since she has no way to stun you.",
+    "[0] At level six, stay high HP as more spheres mean more damage and she can one shot you.",
+    "[0] Respect the gold card since it's guaranteed Q and empowered auto. His Q is easy to dodge on its own. Stay away from minions when he has a red card since it will splash onto you.",
+    "[0] At level six, spam ping that he has R and don't follow. Push the wave instead.",
+    "[1] Very easy lane, You can dodge his Q and constantly harass him, poke him. Save your E for when he decides to pull out his gold card, so he can't get near you.",
+    "[1] The big issue you need to watch out for with Twisted Fate is his gold card since the stun can potentially lead to you taking damage from an entire combo string and dying.",
+    "[1] Very easy lane, constantly harass him, poke him. Save your E for when he decides to pull out his gold card, so he can't get near you."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 10 2026-11-12",
+  "videosFound": 41,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "mJFc-rMz2vg",
+      "channel": "Coach Mysterias",
+      "result": "lu (lot précédent), inutilisé : aucune mention de Twisted Fate"
+    },
+    {
+      "id": "4c90SvsFyR0",
+      "channel": "Coach Mysterias",
+      "result": "lu (lot précédent), inutilisé : aucune mention de Twisted Fate"
+    },
+    {
+      "id": "pBZKzVbXj-w",
+      "channel": "Zoose",
+      "result": "lu, inutilisé (chapitre Matchups 25:21 : aucun champion nommé)"
+    },
+    {
+      "id": "4Fc56KQbIBI",
+      "channel": "Zoose",
+      "result": "utilisé (chapitres Syndra 16:09 et Twisted Fate 17:50 ; 3e couple de la vidéo avec Veigar__Zed et Ahri__TwistedFate)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/twisted-fate",
+      "result": "ok (auteurs de guides Syndra ; tous anciens : < 2232000, patchs 10.21 à 12.20) : mécaniques vérifiées seulement"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "result": "lu, inutilisé (aucun commentaire d'auteur de guide Twisted Fate)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Syndra : garder la Dispersion contre la carte dorée",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens) + DDragon (E repousse)"
+    },
+    {
+      "idea": "Syndra : s'écarter des sbires quand il a une carte rouge",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (carte rouge : dégâts autour de la cible + ralentissement)"
+    },
+    {
+      "idea": "Syndra : Atouts seuls faciles à esquiver, éviter la carte dorée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (carte dorée = stun)"
+    },
+    {
+      "idea": "Syndra : trader juste après la Bonne pioche",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source récente, lane"
+    },
+    {
+      "idea": "Syndra : au lvl 6, ping sa Destinée et pousser",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source récente (counterstats anciens), macro"
+    },
+    {
+      "idea": "Syndra : garder la wave poussée pour l'empêcher de roam",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaires anciens seulement, macro"
+    },
+    {
+      "idea": "TF : ne pas se placer entre Syndra et une sphère",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (sphère poussée par E = stun)"
+    },
+    {
+      "idea": "TF : rester haut en PV après son lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R lance 3 sphères + jusqu'à 4 proches)"
+    },
+    {
+      "idea": "TF : trader fort après sa Dispersion",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source ; conseil de timing de trade (lane), 2 sources requises"
+    }
+  ]
+}

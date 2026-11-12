@@ -1,0 +1,132 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] In these matchups where you're playing against Dhield, again, the goal is to prioritize CS cuz you're not able to convert your damage into kills.",
+    "[0] You do want to trade for resources to prevent them from rotating to 2v2 plays or just to deny them CS entirely.",
+    "[0] He's at 37 CS at 9 minutes. So, we're accomplishing our goal of delaying his power spike, and that's all that really matters.",
+    "[0] In terms of damage output, I cannot one-shot Cassadin unless I get a sick nasty sixball.",
+    "[1] Cassadin can win trades post six. You don't need a scale. You can actually start winning trades post six. Okay. With your ultimate very important.",
+    "[1] you have to have confidence in your ability to pop off in midame and if you say no to those few fights again you farm well you get your key spikes",
+    "[2] Similar to annie but this is just annie on steroids, she has way higher range , you need good movement to dodge her Q's and stuns, buy mercs if you have to, you hard win on side, you can also bait out her stun trying to cs and then jump onto her giving you a positive trade.",
+    "[2] Early game hrozné bully. Do levelu 11 se k ní nedostaneš. Bude si šetřit E a tvůj R cd není tak malý, aby jsi jí stihl. Nebo full burst s doran ringem a zabít jí early game když netrefí E.",
+    "[2] Q maxxing ti ulehčí život protože to vytankuje celé Q, W, E+Q, a 1/4 jejího R na levelu 6.",
+    "[2] Syndra's Q balls early on are really annoying zoning tools, but you can absorb most of the damage with your Q shield.",
+    "[2] Post 6, if Syndra has lots of balls on the floor, do not commit to a trade as her Ultimate Unleashed Power(R) will deal lots of extra damage. Commit to trades when she has no balls on the ground.",
+    "[3] Treat Kassadin with the same concepts which apply when fighting any other champion who scales into the late game: poke him in lane often and ensure that he can't grab too much farm to deny his power spikes.",
+    "[3] Never let him walk him to Q you, and as Syndra you should always be poking him when his Q is down so he can't shield your damage, don't forget to keep auto'ing him pre-6 too."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 10 2026-11-12",
+  "videosFound": 54,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "y_-vtMknvKw",
+      "channel": "Zianni",
+      "result": "utilisé (2025-05-24 ; piste fr auto-traduite écartée, lu en en)"
+    },
+    {
+      "id": "IH4_5pzOB3c",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (chapitre Kassadin 3:46:08 ; une recherche TF/Kassadin/Vlad comptée pour Ahri__TwistedFate, Ahri__Vladimir et Kassadin__Syndra)"
+    },
+    {
+      "id": "pBZKzVbXj-w",
+      "channel": "Zoose",
+      "result": "lu, inutilisé (chapitre Matchups 25:21 : aucun champion nommé, conseils génériques)"
+    },
+    {
+      "id": "RzXAuJfw-go",
+      "channel": "young",
+      "result": "lu, inutilisé (2026-11-06, fiches de counter-pick par champion : aucun conseil propre au couple)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "result": "ok (auteurs de guides Kassadin ; récents : 2251322, 2250216 [S16] ; les autres = anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/kassadin",
+      "result": "ok (auteurs de guides Syndra ; tous anciens : < 2232000, sans patch récent)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kass : passer le début de lane, il scale et gagne la side lane",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources récentes (Zianni « delaying his power spike », BBC, counterstats 2251322/2250216)"
+    },
+    {
+      "idea": "Kass : après le lvl 6, appâter la Dispersion puis Fissure sur elle",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (BBC post 6, counterstats 2251322/2250216) + DDragon (E 15 s de CD, R téléportation)"
+    },
+    {
+      "idea": "Kass : bouclier de l'Orbe du Néant contre ses sphères",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (counterstats 2250216 récent + anciens) + DDragon (bouclier magique 1,5 s)"
+    },
+    {
+      "idea": "Kass : compter les sphères au sol avant d'engager post 6",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens, mécanique) + DDragon (R : 3 sphères + jusqu'à 4 proches)"
+    },
+    {
+      "idea": "Syndra : priver Kassadin de farm pour retarder ses paliers",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Zianni, BBC « farm well, get your key spikes »)"
+    },
+    {
+      "idea": "Syndra : pas de one-shot facile (passif + bouclier)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Pierre du Néant : dégâts magiques réduits ; Orbe du Néant : bouclier magique)"
+    },
+    {
+      "idea": "Syndra : poke quand l'Orbe du Néant est en CD",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "commentaires anciens seulement ; conseil de timing de trade (lane)"
+    },
+    {
+      "idea": "Syndra : gagner tôt, pousser et roam avant qu'il scale",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "commentaires anciens seulement (lane/macro)"
+    },
+    {
+      "idea": "Syndra : attaques non ciblées pour ne pas prendre l'aggro des sbires",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, conseil générique"
+    }
+  ]
+}

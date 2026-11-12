@@ -1,0 +1,114 @@
+{
+  "searches": 10,
+  "sourceSentences": [
+    "[0] Alistar can withstand Senna's poke and approach her with his headbutt and pulverize combo, disrupting her position.",
+    "[0] His W can give you a tough time, especially if you're close to your ADC. Play apart from your carry and just poke",
+    "[0] Great matchup for Senna you do have to respect his engage power but you can free stack on him",
+    "[0] Abuse him level 1 and poke him for as much of his health as you can before he gets his W + Q combo.",
+    "[1] Approach Senna with a W-Q combo to prevent her from hiding behind minions.",
+    "[1] Senna has a lot of range to work with, which makes laning very difficult.",
+    "[1] pain good sustain, good CC, good damage. weak all-ins unless she starts them though."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 9 2026-11-12",
+  "videosFound": 45,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "BiICW-E10ak",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (guide Alistar 2025-02-21 : Senna jamais citée ; piste « en » traduite, relu en « en-orig »). Ouverture partagée avec Alistar__Braum et Alistar__Renata"
+    },
+    {
+      "id": "mGV2qHHXG7I",
+      "channel": "Challenger vs. Emerald",
+      "result": "lu, inutilisé (Senna jamais citée). Ouverture partagée avec Alistar__Braum et Alistar__Renata"
+    },
+    {
+      "id": "YD4qZXvIZss",
+      "channel": "Leutsuo",
+      "result": "lu, inutilisé (Senna contre Alistar, partie sans commentaire : seulement les répliques du jeu)"
+    },
+    {
+      "id": "M7PiMHIi_bg",
+      "channel": "hektic",
+      "result": "lu, inutilisé (guide Senna 2026-04-24 : Alistar jamais cité ; conseil générique contre les engages à 12:53, non retenu). Premier essai refusé par YouTube (limite de requêtes), second essai lu"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (commentaires d'auteurs de guides Senna : patchs 10.15 à 14.16, Season 11 à 14 ou sans date, tous de plus de 2 ans)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/senna",
+      "result": "ok (commentaires d'auteurs de guides Alistar ; un seul récent : Nobreav, guide 25.24)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : approcher Senna avec le combo Coup de tête + Atomisation, le Coup de tête ciblé ignore les sbires",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Nobreav 25.24 récent ; BigodeOfLegends 14.16, plus de 2 ans) + DDragon (Coup de tête cible une unité, 650)"
+    },
+    {
+      "idea": "Alistar : Senna a beaucoup de portée, augmentée par la Brume",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (Aerenax 13.4, plus de 2 ans) + DDragon (la Brume augmente la portée d'attaque)"
+    },
+    {
+      "idea": "Senna : ne pas rester collée à son ADC face au combo",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (SlippStream 11.19, plus de 2 ans) + DDragon (Atomisation soulève tous les ennemis proches, 365)"
+    },
+    {
+      "idea": "Senna : poke Alistar au lvl 1 avant son combo du lvl 2",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "lane : seules des sources de plus de 2 ans (Cyclic Season 13, Terroronyou 11.22, TheMistCollector sans date)"
+    },
+    {
+      "idea": "Senna : éviter le dive du lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 source « Season 14 » sans patch (récence non établie)"
+    },
+    {
+      "idea": "Senna : sorts d'Alistar de courte portée, rester loin",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon : Coup de tête porte à 650, plus que la portée d'attaque de base de Senna"
+    },
+    {
+      "idea": "Senna : « free stack » sur Alistar",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "sans date, récolte de Brume sur les champions absente du texte DDragon"
+    },
+    {
+      "idea": "Senna : contre les engages, avancer quand le sort d'engage est en CD (hektic 12:53)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "générique, Alistar non cité, vidéo non retenue comme source"
+    }
+  ]
+}

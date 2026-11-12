@@ -1,0 +1,131 @@
+{
+  "pair": [
+    "Lulu",
+    "Pantheon"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Lulu": "8e4d3ed7caec3c6be814bcb1ae2ae90398f1d83be7ba3de99577a96a96acb871",
+    "Pantheon": "3236c2681c91b5c3d475b340aec7bfa895444299c6e376bb6cafa591acfa0627"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Lulu": {
+      "fr": [
+        {
+          "text": "Ton Duo éclatant (A) porte plus loin que son Assaut martial (Z) : poke Pantheon depuis la limite de ta portée, hors de son saut.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "S'il saute sur ton ADC avec Assaut martial (Z), lance Fantaisie (Z) sur Pantheon : transformé, Pantheon ne peut plus frapper ni lancer de sort.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Pantheon plonge ton ADC ? Croissance prodigieuse (R) sur l'ADC projette Pantheon dans les airs et donne beaucoup de PV à ton allié.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Quand l'Ardeur mortelle de Pantheon est prête, sa prochaine compétence frappe plus fort : recule, laisse Pantheon dépenser sa Lance astrale (A) renforcée, puis reviens trade.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Your Glitterlance (Q) outranges his Shield Vault (W): poke Pantheon from max range, outside his jump.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If he jumps on your ADC with Shield Vault (W), cast Whimsy (W) on Pantheon: polymorphed, he can't attack or cast spells.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Pantheon dives your ADC? Wild Growth (R) on the ADC knocks Pantheon up and gives your ally a big chunk of health.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "When Pantheon's Mortal Will is ready, his next spell hits harder: back off, let him spend the empowered Comet Spear (Q), then come back to trade.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Pantheon": {
+      "fr": [
+        {
+          "text": "Le Duo éclatant (A) de Lulu porte à 925, ton Assaut martial (Z) à 600 : ne reste pas à portée de son poke sans pouvoir sauter.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Avant de sauter avec Assaut martial (Z), attends que Lulu ait lancé sa Fantaisie (Z) : sous polymorphe, tu ne peux ni frapper ni lancer de sort.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Si tu plonges l'ADC, prévois la Croissance prodigieuse (R) de Lulu : l'ADC gagne beaucoup de PV et tu te fais projeter.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Lulu's Glitterlance (Q) reaches 925 range, your Shield Vault (W) only 600: don't stand in her poke range when you can't jump.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Before jumping with Shield Vault (W), wait for Lulu to use Whimsy (W): polymorphed, you can't attack or cast spells.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If you dive the ADC, expect Lulu's Wild Growth (R): the ADC gains a lot of health and you get knocked up.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Pantheon Counters - Pantheon vs Lulu (Support)",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/pantheon/counters/support?target_champion=lulu",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Lulu Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Pantheon Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/pantheon",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

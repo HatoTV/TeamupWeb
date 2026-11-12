@@ -1,0 +1,149 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Be careful of being harassed by Lulu. Apply pressure from early game to gain lane control,",
+    "[0] and engage whenever the enemy steps within range.",
+    "[1] Lulu is an immobile support with a good poke, but isn't too much of a threat to you",
+    "[1] Polymorph and Wild Growth can instantly deny your all-in and save her ADC.",
+    "[2] You can try to poke him down, Buffer poly when you think he's going to jump, it will cancel the stun.",
+    "[2] Play very safe and wait for him to use his empowered Q on you, then you can step a bit closer"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 9 2026-11-12",
+  "videosFound": 75,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "99GJGz3pZFU",
+      "channel": "Coach K",
+      "result": "lu (recherche Pantheon, piste en-orig) : Pantheon absent du chapitre Matchups ; publiée le 2024-09-30 (plus de 2 ans)"
+    },
+    {
+      "id": "N0sTrcif4_8",
+      "channel": "Coach K",
+      "result": "lu (recherche Pantheon/Lux) : une seule mention de Pantheon, hors sujet (2026-01-28)"
+    },
+    {
+      "id": "XMtIkpfc4XA",
+      "channel": "i0ki",
+      "result": "lu (recherche Lulu) : aucune mention (guide Pantheon support 2026-04-24)"
+    },
+    {
+      "id": "hUF7P97jzFU",
+      "channel": "ShoDesu",
+      "result": "lu (recherche Pantheon, Lux ajouté par erreur) : aucune mention (vidéo Lulu, il y a 2 mois)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/pantheon/counters/support?target_champion=lulu",
+      "result": "ok (1 tip écrit Pantheon vs Lulu, patch 16.22)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/lulu/counters/support?target_champion=pantheon",
+      "result": "lu, inutilisé (3 tips patch 16.22 : Whimsy annule Aegis Assault = interaction non décrite dans DDragon ; « prolonger les combats » = 1 seule source lane)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "result": "ok (commentaires de joueurs Pantheon sans date : mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/pantheon",
+      "result": "ok (commentaires de joueurs Lulu : Idleangelo sans date, Navn patch 11.5 : mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://www.mobachampion.com/counter/lulu-vs-pantheon/",
+      "result": "500"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lulu : Duo éclatant (925) porte plus loin que Assaut martial (600), poke hors du saut",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources (op.gg 16.22 + 2 commentaires counterstats sans date) + DDragon (portées 925 / 600) ; mechanics"
+    },
+    {
+      "idea": "Lulu : Fantaisie sur Pantheon quand il saute sur l'ADC",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaire sans date) + DDragon (polymorphe : ni attaque ni sort)"
+    },
+    {
+      "idea": "Lulu : Croissance prodigieuse sur l'ADC plongé",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaire sans date) + DDragon (projection autour de l'allié + PV bonus)"
+    },
+    {
+      "idea": "Lulu : attendre que Pantheon dépense sa Lance astrale renforcée (Ardeur mortelle)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (patch 11.5, ancienne) + DDragon (Ardeur mortelle renforce la compétence suivante, bonus de dégâts de Comet Spear)"
+    },
+    {
+      "idea": "Lulu : Fantaisie pendant Égide impénétrable annule son invulnérabilité",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "op.gg Lulu vs Pantheon (non listé) : l'interruption d'une canalisation par le polymorphe n'est pas décrite dans DDragon, 1 seule source"
+    },
+    {
+      "idea": "Lulu : prolonger les combats, Pantheon perd en dégâts sur la durée",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "op.gg Lulu vs Pantheon seul : lane, 1 source"
+    },
+    {
+      "idea": "Lulu : buffer le polymorphe avant le saut pour annuler le stun",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "commentaire sans date, interaction non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Pantheon : ne pas rester dans la portée de poke de Lulu (925 contre 600)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (portées)"
+    },
+    {
+      "idea": "Pantheon : attendre la Fantaisie de Lulu avant de sauter",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (sans date) + DDragon"
+    },
+    {
+      "idea": "Pantheon : prévoir Croissance prodigieuse sur l'ADC plongé",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (sans date) + DDragon"
+    },
+    {
+      "idea": "Pantheon : pression tôt, engager dès que Lulu entre dans la portée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source lane, et générique (3 tips propres au couple déjà)"
+    }
+  ]
+}

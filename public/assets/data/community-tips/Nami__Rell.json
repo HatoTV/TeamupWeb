@@ -1,0 +1,161 @@
+{
+  "pair": [
+    "Nami",
+    "Rell"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Nami": "b6a64ef56d0bcd30af7397824c7a68c4275cddd588a878d7a3af89126504aa39",
+    "Rell": "533ccb0c262e988bd2521010378ce0e0c45aaf730e7bf9664c4a6345855e9e96"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Nami": {
+      "fr": [
+        {
+          "text": "Matchup difficile : l'engage de Rell te punit dès les premiers niveaux, évite les trades longs et reste hors de sa portée.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Méfie-toi du Flash juste avant son Descendre en piqué (Z) : Rell t'atteint alors bien au-delà de sa portée normale.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Une fois à pied, Rell est ralentie : profite de ce moment pour la toucher avec ta Prison aqueuse (A).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Si Rell engage ton ADC, lance ton Raz-de-marée (R) sur son équipe : la projection et le ralentissement vous laissent reculer.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Tough matchup: Rell's engage punishes you from the first levels, so avoid long trades and stay out of her range.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Watch for Flash right before her Crash Down (W): it lets Rell reach you well beyond its normal range.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Once dismounted, Rell is slowed: use that window to land Aqua Prison (Q) on her.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If Rell engages your ADC, cast Tidal Wave (R) on her team: the knock-up and slow let you back off.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Rell": {
+      "fr": [
+        {
+          "text": "Tu gagnes ce matchup : Nami n'est pas si forte en début de partie, joue agressif et cherche l'engage tôt.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Nami n'a aucun dash : une fois attrapée par ton engage, Nami ne peut pas fuir seule.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Sa Prison aqueuse (A) étourdit : attends qu'elle la lance avant d'engager, puis profite de son CD.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Surveille son Raz-de-marée (R) quand tu combo : la vague projette et ralentit toute ton équipe sur sa ligne.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "You win this matchup: Nami isn't that strong early, so play aggressive and look to engage early.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Nami has no dash: once your engage catches her, she can't escape on her own.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Her Aqua Prison (Q) stuns: wait for her to throw it before engaging, then go in while it's on cooldown.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Watch for her Tidal Wave (R) when you combo: the wave knocks up and slows your whole team along its path.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "NAMI GUIDE - How To Carry With Nami - Detailed Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=HBda0lRLHz0",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2025-05-06",
+      "timestamps": [
+        "13:24",
+        "13:39"
+      ]
+    },
+    {
+      "title": "How to Escape Plat ELO as Engage Support - Educational Unranked to Master with RELL",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=JHmF_VRZggM",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2025-01-22",
+      "timestamps": [
+        "53:05",
+        "1:28:56"
+      ]
+    },
+    {
+      "title": "Rell Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/rell",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Nami Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/nami",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

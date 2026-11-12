@@ -1,0 +1,158 @@
+{
+  "searches": 8,
+  "sourceSentences": [
+    "[0] Plays the same as Velkoz with little bit less hard engage through his stun being blockable by minions.",
+    "[0] Skill Matchup and Adc dependent, boxblock his stun, pray that your adc can dodge skillshots. outscale.",
+    "[0] Hug side brushes, throw Qs from fog, and fish for E+Flash when they waste stun/knockup on minions.",
+    "[0] Strong poke and range, but vulnerable when his E is down",
+    "[0] Mage matchups like Xearth needs very patient play. Buy boots early to help dodging. Only go all-in when the stun is on cooldown.",
+    "[0] His stun [[Shocking Orb]] (E) and burst damage make trading risky if you get caught out. Focus on dodging his skillshots and wait for cooldowns before engaging.",
+    "[0] Annoying mage champion, but if you are able to get on top of him, is very punishable and will nearly always result in a kill or burned summs.",
+    "[0] Out ranges you. Out damages you. However he's an immobile champion and easy to kill with jungle assistance. Painful to lane against.",
+    "[0] Since he must stand perfectly still to cast his long-range artillery (namely his R), he becomes an incredibly easy target for you to hit with maximum-range bubbles or tidal wave.",
+    "[0] Stupidly long range, stupidly high damage, can delete you. But also. Squishy and easy to hit while he channels.",
+    "[0] his ult reveals his position, so just jump onto him and beat the living shit out of him when he uses it.",
+    "[1] very fun matchup because damage is quite even, try fight inside your minions so she doesnt get single target q and w on you, way less damage",
+    "[1] Most importantly fight her in your minions so she can't fully Q you, and try to dodge her W during fights, which might be difficult.",
+    "[1] long range W into Ultimate and Q burst is super dangerous. Natural counter pick vs Ezreal.",
+    "[1] Do not let Kai'sa get her stacks. Wait for them to wear off before engaging. Stay behind minions in order to dodge her W.",
+    "[1] Ideal trades are ones where Kai'Sa can't hit proc her passive.",
+    "[1] Need to play around cooldowns and take shorts trades so she doesnt get passive off. If the fights is going long enough to proc her passive your probably losing.",
+    "[1] Kai'Sa is very vulnerable to getting outranged by mages and long range carries."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 9 2026-11-12",
+  "videosFound": 52,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "3LxH7QOgsU4",
+      "channel": "Booshi",
+      "result": "lu, inutilisé (PRO GUIDE Kai'Sa : Xerath jamais cité dans le chapitre Match Ups ; vidéo réservée à Kaisa__Seraphine, plafond de 3 couples)"
+    },
+    {
+      "id": "3seUR88FxhA",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, inutilisé (guide Kai'Sa avec Danteh : aucun passage sur Xerath ; piste en traduite)"
+    },
+    {
+      "id": "LkltTkiBFXE",
+      "channel": "HEXerath",
+      "result": "lu, inutilisé (stream sans conseil de matchup, piste en traduite, Kai'Sa jamais citée)"
+    },
+    {
+      "id": "Yr8UL6AJLv0",
+      "channel": "HEXerath",
+      "result": "lu (en-orig), inutilisé : Kai'Sa jamais citée"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/xerath",
+      "result": "ok (commentaires « tips against Xerath as a Support », âges mêlés : 26.19, 25.20, 25.13, S15, 16.15, déc. 2025 et plus anciens ; aucun auteur de guide Kai'Sa récent)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/kaisa",
+      "result": "ok (commentaires « tips against Kai'Sa », aucun auteur de guide Xerath)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/kaisa/counters/adc?target_champion=xerath",
+      "result": "stats-only (patch 16.22, aucun tip propre au matchup)"
+    },
+    {
+      "url": "https://mobalytics.gg/lol/champions/kaisa/counters/support/vs-xerath",
+      "result": "non ouvert (403 connu dans sites.json)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kai'Sa : rester derrière les sbires, l'Orbe d'électrocution étourdit le premier ennemi touché",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (Joxuu sans date, Fear The Jester [25.13], Alchemyr [déc. 2025]) + DDragon (E : étourdit le premier ennemi touché)"
+    },
+    {
+      "idea": "Kai'Sa : engager quand l'Orbe d'électrocution est en CD",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (AlvesTraquina [26.19], Jaxon_Official [25.20], Quoko [S15.13]) + DDragon (seul stun du kit, CD 13 à 11 s) ; une seule page, donc mechanics et non lane"
+    },
+    {
+      "idea": "Kai'Sa : Xerath sans dash, punissable une fois au contact",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (ShriekingMammoth [S15], Zileanaire sans date) + DDragon (aucun dash dans le kit)"
+    },
+    {
+      "idea": "Kai'Sa : Xerath immobile pendant son Rite arcanique, Instinct meurtrier sur lui s'il porte du Plasma",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (Demonsedge90 [16.15], LA COLORADA [14.14]) + DDragon (R de Xerath : s'immobilise ; R de Kai'Sa : cible affectée par le Plasma)"
+    },
+    {
+      "idea": "Kai'Sa : son R révèle la position de Xerath",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "révélation non décrite dans DDragon, 1 source ancienne (14.14)"
+    },
+    {
+      "idea": "Kai'Sa : Xerath tombe vite à court de mana, le faire gaspiller",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "idée de lane sur 1 seule page ; Afflux de mana (passif) rend du mana, contradiction partielle"
+    },
+    {
+      "idea": "Xerath : rester dans la wave contre la Pluie d'Icathia isolée",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (sazuone [26.15], BigBallsLarry [14.23]) + DDragon (missiles répartis entre les ennemis proches)"
+    },
+    {
+      "idea": "Xerath : esquiver le Rayon du Néant, sans Plasma pas d'Instinct meurtrier",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (Moosicel [26.05]) + DDragon (R vers un champion affecté par le Plasma)"
+    },
+    {
+      "idea": "Xerath : un sbire bloque le Rayon du Néant",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (ooftheiii sans date, sazuone [26.15]) + DDragon (premier ennemi touché)"
+    },
+    {
+      "idea": "Xerath : short trades contre le Plasma",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (inFinem [25.14], Wunonn [15.10]) + DDragon (les autos empilent du Plasma aux dégâts croissants)"
+    },
+    {
+      "idea": "Xerath : la portée des mages surclasse Kai'Sa",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaire sans date (Kamicali) : âge refusé pour une idée de lane"
+    }
+  ],
+  "orchestratorReview": "Aucune source ne parle du couple : uniquement des conseils génériques contre Xerath ou contre Kai’Sa. insufficientSources."
+}

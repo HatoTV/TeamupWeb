@@ -34,7 +34,11 @@ npm run tips:check                                         # depuis la racine : 
 3. Cherche d'abord dans les sous-titres (noms de sorts, « level 6 », « trade », « all-in », « gank »), sans lettre seule comme mot-clé, puis lis seulement les passages utiles.
 4. **Web en complément**, seulement pour un point de vue qui a moins de 3 tips après les vidéos.
 5. Une vidéo = une source. Dans `sources`, ajoute `channel`, `publishedAt` et les `timestamps` des passages utilisés. Les noms de sorts entendus dans les sous-titres sont vérifiés dans Data Dragon avant usage.
-6. Un point de vue avec moins de 2 tips n'est pas affiché : le site indique « Pas encore assez de sources pour jouer {champion} dans ce matchup » et propose l'autre côté.
+6. **Une même vidéo sert de source à 3 couples au maximum** (usages déjà publiés compris). Les vidéos We Teach League (Broken By Concept et ses extraits « Highlights & Clips ») comptent pour une seule source par couple.
+7. **Une source de plus de 2 ans** n'est acceptée que pour une mécanique vérifiée dans Data Dragon.
+8. **Un conseil générique** (valable contre n'importe quel adversaire) n'est gardé que s'il reste moins de 3 tips propres au couple.
+9. **File** : la jungle passe en fin de file, sauf les couples Lee Sin couverts par Coach Kirei.
+10. Un point de vue avec moins de 2 tips n'est pas affiché : le site indique « Pas encore assez de sources pour jouer {champion} dans ce matchup » et propose l'autre côté.
 
 ## Règles de consensus
 

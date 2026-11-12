@@ -1,0 +1,76 @@
+{
+  "searches": 6,
+  "sourceSentences": [],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 54,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu, inutilisé (Leona citée contre d'autres supports que Braum)"
+    },
+    {
+      "id": "zis-3-QLn0o",
+      "channel": "BenTbeyondrepair",
+      "result": "lu, inutilisé (Leona citée à propos des objets seulement)"
+    },
+    {
+      "id": "jAhen3xYur0",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (aucune mention de Braum)"
+    },
+    {
+      "id": "09HY5jwixsY",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé (aucune mention de Leona)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/braum",
+      "result": "ok (auteurs de guides Leona ; récents : 2250868, 2233539 ; les autres < 2232000 = anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/leona",
+      "result": "ok (auteurs de guides Braum, tous < 2232000 = anciens)"
+    },
+    {
+      "url": "WebSearch « Braum vs Leona support matchup »",
+      "result": "no-advice (metabot, facecheck, mobachampion : stats ; wildriftcore : Wild Rift ; mobafire 403 d'après sites.json)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Leona : éviter la Morsure de l'hiver (A), qui lance les Coups étourdissants",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 source récente (counterstats 2233539) + DDragon : tip valide, mais seul tip possible pour Leona (côté non affiché)"
+    },
+    {
+      "idea": "Leona : ne pas forcer l'engage, chercher des angles sur l'ADC",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 seule source récente (2233539)"
+    },
+    {
+      "idea": "Leona : sa Fissure glaciale (R) gêne",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 source récente (2250868), sans conseil"
+    },
+    {
+      "idea": "Braum : Incassable (E) intercepte la Lame du zénith et Leona arrive sur Braum",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "commentaires anciens seulement (< 2232000) ; DDragon ne dit pas que la Lame du zénith est un projectile"
+    },
+    {
+      "idea": "Braum : Leona atterrit derrière toi après sa Lame du zénith",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "commentaire ancien (2202468), non vérifiable dans DDragon"
+    }
+  ]
+}

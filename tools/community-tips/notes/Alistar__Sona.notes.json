@@ -1,0 +1,141 @@
+{
+  "searches": 10,
+  "sourceSentences": [
+    "[0] bully them level 1 make sure to play outside of his engage range and bully him and his adc with ranged auto attacks and abilities",
+    "[0] Muito difícil de se jogar contra, jogue recuado e respeite a pressão.",
+    "[0] Jogar no Max range do Q da Sona Evite dar o Auto Ataque nele , pós entra no range do combo do Alistar Utilize o Slow da Sona após o alistar fazer utilização do E dele",
+    "[0] Alistar will always try to make you waste your ult with his own ult and become very tanky.",
+    "[0] Your Q range is bigger than his W range so just keep poking from afar with your Q.",
+    "[0] When he ult dont atack him focus adc you can ult on alistar to stop him when its nesesery.",
+    "[0] His R also makes him very tanky (reduces all damage taken by 75%) so don't try to burn all your damage on him since he can still make a last stand with his ultimate even when he is low.",
+    "[0] His ultimate cleanses your ultimate, and he can dive extremely well.",
+    "[1] Not a problem, she is immobile and easily dive-able. Land Q's and look for all-in's whenever possible.",
+    "[1] Pressure Sona with W-Q Combo Sona has very low survivability, so use your W-Q combo (Stun) to close the distance and pressure her with powerful CC.",
+    "[1] Chain Stun with E Skill After the W-Q combo, use your E skill to chain a 5-stack stun, applying additional CC to Sona and neutralizing her. Prevent Sona's escape and set up a lethal opportunity."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 124,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "JPUX1TfhOQM",
+      "channel": "Daption",
+      "result": "lu, inutilisé (guide Alistar 2026-03-10 : Sona citée une fois à 26:23 sans conseil ; piste « en » qui semble traduite). Ouverture partagée avec Alistar__Milio et Alistar__Seraphine"
+    },
+    {
+      "id": "xIVLtciRnuY",
+      "channel": "Coach Cupcake",
+      "result": "lu, inutilisé (guides Leona, Bard, Sona 2026-01-25 : Alistar jamais cité)"
+    },
+    {
+      "id": "LQED62bGY1g",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (stream Sona : Alistar jamais cité)"
+    },
+    {
+      "id": "M62Cqh7cv6w",
+      "channel": "lolgoodboi",
+      "result": "lu, inutilisé (partie Sona contre Alistar, voix FR traduite en « en » : seulement des réactions, aucun conseil)"
+    },
+    {
+      "id": "LbAd-wPP3WY",
+      "channel": "Sonatra ",
+      "result": "non lu : aucun sous-titre disponible (ni « en » ni « en-orig »)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (commentaires d'auteurs de guides Sona : récents Genja26 2254892, kallil30 2242498, TEMMA 2232991 ; les autres, patchs 9.x à 11.x ou ids < 2232000, anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/sona",
+      "result": "ok (commentaires d'auteurs de guides Alistar : récents iXShadow 2251939 et Nobreav guide 25.24 ; xpwnz1337 14.14, Aerenax 13.4, Dixon 12.14 et plus vieux = anciens)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : Sona immobile, all-in Z-A dès qu'elle avance",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "récents : iXShadow et Nobreav (page Sona) ; Genja26, TEMMA, kallil30 (page Alistar : rester hors de portée de son engage)"
+    },
+    {
+      "idea": "Alistar : après Z-A, Piétinement pour le stun",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente + DDragon (stacks de Trample, prochaine attaque stun)"
+    },
+    {
+      "idea": "Alistar : garder Volonté de fer pour Crescendo",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "commentaires anciens (Sona Aria 9.17, King Kirbilogus), acceptés pour une mécanique vérifiée : DDragon Unbreakable Will retire tous les effets Disabling, Crescendo étourdit"
+    },
+    {
+      "idea": "Alistar : la combattre quand elle n'a plus de mana",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaire ancien (Dixon 12.14), lane : ne compte pas"
+    },
+    {
+      "idea": "Sona : poke à portée max de Hymne, plus longue que Coup de tête",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "TEMMA et Genja26 récents (page Alistar) + iXShadow/Nobreav récents (page Sona : Sona immobile, Z-A pour combler la distance) ; DDragon : Hymn of Valor 825, Headbutt 650"
+    },
+    {
+      "idea": "Sona : ne pas lancer Crescendo quand Volonté de fer est prête",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "commentaires anciens (Sona Aria, unownreality, King Kirbilogus) + DDragon"
+    },
+    {
+      "idea": "Sona : pendant Volonté de fer, focus l'ADC",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "commentaires anciens (losolkos 11.10, MichelGamingMK) + DDragon (réduction des dégâts subis) ; le chiffre de 75 % n'est pas repris"
+    },
+    {
+      "idea": "Sona : slow de l'Accord de puissance (après E) quand Alistar lance Piétinement",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "TEMMA (2232991, récent) + DDragon (Power Chord Tempo ralentit ; le stun de Trample passe par sa prochaine attaque)"
+    },
+    {
+      "idea": "Sona : punir le lvl 1",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source récente (Genja26) ; la page Sona (Dixon, ancien) dit au contraire que Sona est vulnérable tôt"
+    },
+    {
+      "idea": "Sona : ult Alistar pour couper son Z-A",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "commentaires anciens, interruption du dash non vérifiable dans DDragon"
+    }
+  ]
+}

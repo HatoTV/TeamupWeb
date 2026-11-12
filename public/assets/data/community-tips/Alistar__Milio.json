@@ -1,0 +1,101 @@
+{
+  "pair": [
+    "Alistar",
+    "Milio"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Alistar": "6b0b70ea42f167db7b24a19d94d70a5b909bbb73e86502a017cb35e720233bd9",
+    "Milio": "a4b7d198dba02ca2302f501460729a7331c76313f5c9f94082246b9f57ecdc75"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Alistar": {
+      "fr": [
+        {
+          "text": "Ouvre avec Atomisation (A) : Flammes vitales (R) retire les stuns, comme celui de ton Piétinement (E), mais pas le knock-up.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Attends que Milio ait lancé son Ultra méga boule de feu (A) avant ton Coup de tête (Z) : son repoussement coupe ton engage.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Ses Flammes vitales (R) ne touchent que les alliés proches : engage une cible trop loin de Milio pour en profiter.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Open with Pulverize (Q): Breath of Life (R) cleanses stuns, including your Trample (E) stun, but not the knock-up.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Wait for Milio to use Ultra Mega Fire Kick (Q) before you Headbutt (W): its knockback cancels your engage.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Breath of Life (R) only reaches nearby allies: engage on a target too far from Milio to benefit from it.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Milio": {
+      "fr": [
+        {
+          "text": "Tes Flammes vitales (R) ne retirent pas le knock-up de son Atomisation (A) ; garde-les pour le stun de Piétinement (E) qui suit.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Garde ton Ultra méga boule de feu (A) pour son Coup de tête (Z) : le repoussement interrompt son engage.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ],
+      "en": [
+        {
+          "text": "Breath of Life (R) won't remove the knock-up from his Pulverize (Q); keep it for the Trample (E) stun that follows.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Save Ultra Mega Fire Kick (Q) for his Headbutt (W): the knockback interrupts his engage.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Alistar Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Milio Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/milio",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

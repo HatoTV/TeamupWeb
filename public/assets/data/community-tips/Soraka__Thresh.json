@@ -1,0 +1,101 @@
+{
+  "pair": [
+    "Soraka",
+    "Thresh"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Soraka": "498010ac0094018019f9c8480d02f3ccd538b35e4e14fd414317460f4c8b6c97",
+    "Thresh": "2afff928f5e153cdfcad0d8e4104f6c19afa08956b052a942a0ca580dc19cd9c"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Soraka": {
+      "fr": [
+        {
+          "text": "Dès que Thresh place son hook, pose ton Équinoxe (E) sur lui : Thresh ne peut plus sauter vers sa cible ni enchaîner Fauchage (E) ou La cage (R).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "La zone de ton Équinoxe (E) réduit au silence : pose-la devant Thresh quand il avance, et il ne peut plus lancer sa Peine capitale (A).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "As soon as Thresh lands his hook, drop Equinox (E) on him: silenced, he can't leap to his target or follow up with Flay (E) or The Box (R).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Equinox (E) silences everyone inside its zone: place it in front of Thresh as he walks up and he can't throw Death Sentence (Q).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Thresh": {
+      "fr": [
+        {
+          "text": "Engage quand son Équinoxe (E) est en CD : sinon, Soraka te réduit au silence après ton hook et tu ne peux plus sauter ni enchaîner.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Esquive son Appel de l'étoile (A) : chaque fois qu'il touche un champion ennemi, Soraka récupère des PV.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Engage when her Equinox (E) is on cooldown: otherwise Soraka silences you after your hook and you can't leap in or follow up.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Dodge her Starcall (Q): every time it hits an enemy champion, Soraka restores health.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Soraka's Most Misunderstood Ability (Silence Guide)",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=SDKUIhwbXV8",
+      "consultedAt": "2026-11-12",
+      "channel": "Banana Mike",
+      "publishedAt": "2026-04-24",
+      "timestamps": [
+        "3:42",
+        "3:53"
+      ]
+    },
+    {
+      "title": "Thresh Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/thresh",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Soraka Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/soraka",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] Rakan is a skill matchup. So, you can stun him and cancel his W if you stun him doing the W.",
+    "[0] You can hit easy double ults or double stuns if you wait for his E, but he also has a freak ton of mobility and makes it hard for you to shut him down",
+    "[0] and he can really impact every team fight. So both champions have a lot of things they can do against each other.",
+    "[1] Bard is a disruptive matchup that can make it difficult for Rakan to find clean engage opportunities. His Cosmic Binding (Q) can stun you if it connects with terrain or another target, and his Magical Journey (E) allows him and his teammates to escape or reposition quickly.",
+    "[1] Many Rakan players lose this lane by forcing engages while Bard still has tools available to disengage or stall fights. The lane becomes easier when Cosmic Binding (Q) is unavailable or when Bard roams away from lane.",
+    "[1] Ult is not as much as a threat since most of the since most of the time you can immediately shield adc. Q stuns can be annoying however.",
+    "[2] Try to go in whenever he whiffs his W, as when he jumps to his ally with E (which he can recast - he'll pretty much always do it before the recast window ends, so look out for a second if he does it once) he's incredibly vulnerable to getting both him and his lane partner stunned by a well-placed Q.",
+    "[2] Dont get hit by his W and you are fine. Hold your Q until he dashes to his adc, and you should be able to hit a free stun on both of them",
+    "[2] Don't get hit with his W. you can easly stun him and his ally when he use his E."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 69,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "Tk6dkm0LZFI",
+      "channel": "Lathyrus",
+      "result": "utilisé (tier list Bard du 2026-08-04, chapitre Rakan 25:10)"
+    },
+    {
+      "id": "QQx7Y2W1rC8",
+      "channel": "Challenger vs. Emerald",
+      "result": "lu, inutilisé (Bard cité une seule fois, 2:08:03, sans conseil de matchup)"
+    },
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu, inutilisé (archétypes de botlane, Rakan cité contre Vel'Koz seulement ; ouverture partagée avec Soraka__Thresh et Braum__Leona)"
+    },
+    {
+      "id": "zljQ4fDEBiA",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (aucune mention de Bard)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/bard",
+      "result": "ok (commentaires d'auteurs de guides Rakan ; 2 récents : 2249544 [26.5], 2248198 [26.03] ; les autres < 2232000 = anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/rakan",
+      "result": "ok (commentaires d'auteurs de guides Bard, tous < 2232000 = anciens : mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Bard : garder Lien cosmique pour la Valse guerrière de Rakan, étourdir Rakan et son allié",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "1 source récente + commentaires anciens + DDragon (Lien cosmique étourdit les deux s'il touche un 2e ennemi ; Valse guerrière vole vers un allié)"
+    },
+    {
+      "idea": "Bard : attendre la Valse guerrière pour un Destin tempéré sur les deux",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Destin tempéré met en stase tous les champions touchés)"
+    },
+    {
+      "idea": "Bard : étourdir Rakan pendant son Entrée triomphale pour l'annuler",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "interruption du dash non vérifiable dans DDragon ; seconde source ancienne (> 2 ans) : ne compte pas"
+    },
+    {
+      "idea": "Bard : Rakan très mobile, pèse dans chaque teamfight",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, constat sans conseil"
+    },
+    {
+      "idea": "Rakan : pas d'Entrée triomphale tant que Bard a Lien cosmique",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Lathyrus 2026-08 ; counterstats 2249544 [26.5])"
+    },
+    {
+      "idea": "Rakan : éviter la Valse guerrière vers l'ADC quand Lien cosmique est prêt (double stun)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "1 source récente + commentaires anciens + DDragon"
+    },
+    {
+      "idea": "Rakan : ne pas rester contre un mur ou aligné derrière un sbire",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente (2249544) + DDragon (stun si mur ou 2e ennemi)"
+    },
+    {
+      "idea": "Rakan : punir les roams de Bard en prenant la prio ou l'ADC adverse",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source récente (2249544) ; les autres commentaires sont anciens (< 2232000)"
+    },
+    {
+      "idea": "Rakan : l'ult de Bard peu dangereuse, bouclier immédiat sur l'ADC",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, flou (une cible en stase ne reçoit pas de bouclier)"
+    },
+    {
+      "idea": "Rakan : ta Danse ultime après le Destin tempéré de Bard",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaire ancien (2148879), non vérifiable"
+    }
+  ]
+}

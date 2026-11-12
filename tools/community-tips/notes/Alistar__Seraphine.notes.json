@@ -1,0 +1,164 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] maybe Alistar and Rell, I would say it's it's somewhat dependent on, you know, hard and skillful. Um I would say somewhat easier because if they can get creative with their engages, uh they can obviously get out on the map, they can slow us down a lot.",
+    "[0] Um I'd actually put Alistar maybe in in maybe hard on Rell and Alistar, Poppy a little bit easier, but yeah, they just have a lot of options if they're creative to get out on the map, uh put some pressure on me, and make sure I can't get to my two items cleanly, right?",
+    "[0] If they're able to snowball lanes, then I can be in big trouble.",
+    "[1] Nothing here to say other than if you're caught out of position, he will knock you up and his ADC will finish you off.",
+    "[1] Try to wear down with empowered Q, ward the center bush which is where they normally channel hexflash most of the time. Just take your distance.",
+    "[1] Just stay away and poke. If he tries to engage on you just E him and walk away.",
+    "[1] Just don't get cced and poke from a far that's literally it",
+    "[2] Pressure Seraphine with W-Q Combo Seraphine lacks mobility, making her vulnerable to a W-Q combo. Exploit Seraphine's long ability cooldowns by aggressively engaging to set up a kill or force out summoner spells.",
+    "[2] Nullify Seraphine's CC with Ultimate Seraphine's E and R are powerful crowd control abilities, but Alistar's ultimate (R) instantly removes all disabling effects. Use your ultimate immediately upon being hit by Seraphine's CC to nullify it and launch a counterattack.",
+    "[2] Alistar's counter. Better range. Counterplay: Antiheal. you cant really shut down healbot as she will have impact anyways with one R in fight. Play aggressive and punish. Dont eat her R as it goes longer so it can stun teammates behind you.",
+    "[2] Keep an eye on how many empowered stacks she has. If she has 3, play safer as her next ability will be much stronger.",
+    "[2] Whenever she uses her Surround Sound(W), she will be vulnerable to an all-in. It has a really long cooldown, so try to abuse it if possible."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 111,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "fBgxtuBgghE",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (tier list des matchups de Moose, Séraphine : Alistar classé difficile, 1:19:46-1:20:12). 3e couple pour cette vidéo (Lulu__Seraphine, Nautilus__Seraphine)"
+    },
+    {
+      "id": "JPUX1TfhOQM",
+      "channel": "Daption",
+      "result": "lu, inutilisé (guide Alistar 2026-03-10 : Séraphine jamais citée ; piste « en » qui semble traduite). Ouverture partagée avec Alistar__Milio et Alistar__Sona"
+    },
+    {
+      "id": "8BHFmOAUAWE",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (stream Séraphine S16 : Alistar jamais cité, ni en « en » ni en « en-orig »)"
+    },
+    {
+      "id": "vr4h6asfdqc",
+      "channel": "EXYT - League of Legends",
+      "result": "lu, inutilisé (guide Alistar FR : Séraphine jamais citée). Ouverture partagée avec Alistar__Milio"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (commentaires d'auteurs de guides Séraphine : stroderna, guide 25.11, 2238675 = récent ; Brizz Valentine1 12.5, SunnySneezer 2149645, Za1go 1997498, TyuTheSavage 11.6 = anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/seraphine",
+      "result": "ok (commentaires d'auteurs de guides Alistar : Nobreav, guide 25.24, 2246410 = récent ; xpwnz1337 14.14, Aerenax 13.4, Dixon 12.14 et plus vieux = anciens)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : mettre la pression tôt, Séraphine veut scaler",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "BBC (pression sur la carte, l'empêcher de scaler, snowball) + Nobreav (récent : engager agressivement pendant ses CD)"
+    },
+    {
+      "idea": "Alistar : Séraphine sans mobilité, Z-A quand elle se place mal",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "stroderna (récent) + Nobreav (récent)"
+    },
+    {
+      "idea": "Alistar : garder Volonté de fer pour le charme de Bis",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "Nobreav (récent) + DDragon (Unbreakable Will retire tous les effets Disabling) ; la racine de Battement (effet Immobilizing) n'est pas citée, faute de vérification"
+    },
+    {
+      "idea": "Alistar : engager après son Son ambiophonique, long CD",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "Nobreav (récent, longs CD) + Dixon (ancien) ; DDragon : CD 22 s"
+    },
+    {
+      "idea": "Alistar : ne pas prendre Bis devant ses alliés",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "xpwnz1337 (14.14, ancien, mécanique vérifiée) ; DDragon : chaque champion touché prolonge la portée d'Encore"
+    },
+    {
+      "idea": "Alistar : surveiller ses notes, le 3e sort est doublé",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "Dixon (12.14, ancien, mécanique vérifiée) ; DDragon : Stage Presence, chaque troisième sort de base est lancé deux fois"
+    },
+    {
+      "idea": "Alistar : roams pour gagner la carte",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "macro : BBC seul récent (lenithebot, Season 11, ancien)"
+    },
+    {
+      "idea": "Séraphine : respecter son engage, Alistar veut te punir avant que tu scales",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "BBC + stroderna (récent) + Nobreav (récent)"
+    },
+    {
+      "idea": "Séraphine : Note aiguë porte plus loin que Coup de tête, poke de loin",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "commentaires anciens (Za1go, SunnySneezer, Brizz Valentine1 ; xpwnz1337 « better range »), acceptés pour une mécanique vérifiée : DDragon High Note 900, Headbutt 650"
+    },
+    {
+      "idea": "Séraphine : ne pas gaspiller Bis quand Volonté de fer est prête",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "Nobreav (récent) + DDragon"
+    },
+    {
+      "idea": "Séraphine : Battement pour ralentir Alistar et reculer",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "Za1go (ancien, mécanique vérifiée) ; DDragon : Beat Drop ralentit, immobilise une cible déjà ralentie"
+    },
+    {
+      "idea": "Séraphine : warder le buisson central contre un engage avec un objet",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaire ancien (12.5) et conseil d'objet"
+    },
+    {
+      "idea": "Séraphine : Alistar fait de gros dégâts en version AP",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "conseil de build adverse"
+    }
+  ]
+}

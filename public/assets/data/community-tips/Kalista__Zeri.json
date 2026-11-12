@@ -1,0 +1,150 @@
+{
+  "pair": [
+    "Kalista",
+    "Zeri"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Kalista": "92f318d4bc2e99b639584c678e5eba3d981a8bc5aba4936a51c249e1148b879f",
+    "Zeri": "330ad1d8e698dcc4a7506dd362807d6db9be846f36d3e32febd35ead3041d471"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Kalista": {
+      "fr": [
+        {
+          "text": "Joue l’early à fond avec ton support : tu domines Zeri avant le lvl 6, mais en retard tu ne vaux plus grand-chose face à elle.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Sa Rafale (A) est un skillshot qui touche le premier ennemi : hop après chaque auto pour la rendre dure à placer.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Trade avec ton support : quand vous frappez la même cible, ta Sentinelle (Z) ajoute des dégâts en % des PV max.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ne la poursuis pas pendant son Éruption électrique (R) : sa vitesse grimpe chaque fois qu’elle touche un champion, et elle s’enfuit facilement.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Play the early game hard with your support: you dominate Zeri before level 6, but from behind you’re worth very little against her.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Her Burst Fire (Q) is a skillshot that hits the first enemy: hop after every attack to make it hard to land.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Trade alongside your support: when you both hit the same target, Sentinel (W) adds max-Health damage.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Don’t chase her during Lightning Crash (R): her speed stacks every time she hits a champion, so she escapes easily.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Zeri": {
+      "fr": [
+        {
+          "text": "Avant le lvl 6, évite les fights : Kalista domine l’early et doit gagner sa lane, alors que toi, tu scales bien mieux.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Ses hops après chaque auto rendent ta Rafale (A) dure à placer : vise là où elle atterrit plutôt que là où elle se trouve.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ne la laisse pas empiler ses lances : elles restent 4 s en toi, recule avant qu’elle active son Extirpation (E).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Dès son lvl 6, méfie-toi de son Appel du destin (R) : son support est projeté sur toi et repousse tous les ennemis autour.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Before level 6, avoid fights: Kalista dominates early and needs to win her lane, whereas you scale far better.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Her hops after every attack make Burst Fire (Q) hard to land: aim where she will land, not where she stands.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Don’t let her stack spears on you: they linger for 4 seconds, so back off before she triggers Rend (E).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "From her level 6, watch out for Fate’s Call (R): her support launches at you and knocks back every nearby enemy.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "2026 Ultimate ADC Episode - Breaking Down Every Champ | Broken by Concept #288",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=F3oN260aEMo",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League | Broken By Concept",
+      "publishedAt": "2026-02-16",
+      "timestamps": [
+        "6:42",
+        "26:20",
+        "1:49:50"
+      ]
+    },
+    {
+      "title": "Zeri Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/zeri",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Kalista Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/kalista",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

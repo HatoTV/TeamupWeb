@@ -1,0 +1,118 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] Against engage supports, your E is basically a nightmare. Thresh walking up to grab you or your ADC? Throw E in front of him and watch him back off.",
+    "[0] He already grabbed your ADC? E him immediately so he cannot recast his hook.",
+    "[0] You have an answer to almost every hook and engage support just built into your kit.",
+    "[1] less annoying than nautilus and slightly easier to counter. silence at the feet of whatever champ he goes in on with his hook, should prevent him from pressing his R or his flay.",
+    "[1] He's just as bad as Blitzcrank in my opinion! Try to not get grabbed! The outplay potential on this guy is scary!",
+    "[1] Can be really oppressive, your only move is to put a silence under him when he goes for a hook, so that even if he lands, he can't jump on you or follow-up with E. And if he misses, then you can just punish him.",
+    "[2] Avoid her Q as she tries to heal back and focus her almost every fight. Good scaling tho",
+    "[2] No escape, easy to land hooks on while casting. Try to engage while her Equinox (E) is on cooldown.",
+    "[2] Since she relies on her own health pool to heal, try to avoid her Starcall abilitiy. When she hits an enemy champion with it, she will regain a portion of her health."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 76,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "SDKUIhwbXV8",
+      "channel": "Banana Mike",
+      "result": "utilisé (piste en-orig ; la piste en est traduite et attribue à tort à Thresh le passage 8:33 sur Tahm Kench ; passages 3:42 et 3:53)"
+    },
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu, inutilisé (Soraka citée à 19:46 contre Nami/Ashe, pas contre Thresh)"
+    },
+    {
+      "id": "iEXgkLSrVgY",
+      "channel": "SorakaBro",
+      "result": "lu, inutilisé (vidéo de 2019 : plus de 2 ans, conseils de lane seulement)"
+    },
+    {
+      "id": "l2XbyxjfobE",
+      "channel": "i0ki",
+      "result": "lu, inutilisé (Thresh cité seulement à propos des runes)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/thresh",
+      "result": "ok (auteurs de guides Soraka ; récents : 2244750, 2239187 ; les autres < 2232000 = anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/soraka",
+      "result": "ok (auteurs de guides Thresh ; récent : 2241587 ; les autres < 2232000 = anciens)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Soraka : Équinoxe sur Thresh dès que son hook touche, pas de saut ni de suite",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Banana Mike 2026-04 ; counterstats 2239187) + DDragon (Équinoxe réduit au silence ; la 2e activation de Peine capitale tire Thresh vers sa cible)"
+    },
+    {
+      "idea": "Soraka : Équinoxe devant Thresh quand il avance pour l'empêcher de hook",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (silence de la zone)"
+    },
+    {
+      "idea": "Soraka : ne pas se faire attraper, rester derrière les sbires",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source récente (2244750), quasi générique ; le reste est ancien"
+    },
+    {
+      "idea": "Soraka : jouer agressif quand le hook est en CD",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaires anciens (< 2232000) et vidéo de 2019 : ne comptent pas pour un tip lane"
+    },
+    {
+      "idea": "Thresh : engager quand Équinoxe est en CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Banana Mike ; counterstats 2239187) + DDragon ; commentaires anciens 2095159/2095162 de la page Soraka non comptés"
+    },
+    {
+      "idea": "Thresh : esquiver Appel de l'étoile qui soigne Soraka",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source récente (2241587) + DDragon (Soraka récupère des PV si Appel de l'étoile touche un champion ennemi)"
+    },
+    {
+      "idea": "Thresh : focus Soraka en premier dans les combats",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source récente (2241587) ; les autres commentaires sont anciens"
+    },
+    {
+      "idea": "Thresh : silencé, l'allié ne peut pas rejoindre la lanterne",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "commentaire ancien (2187541), non vérifiable dans DDragon"
+    }
+  ]
+}

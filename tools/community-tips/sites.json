@@ -30,8 +30,8 @@
       ]
     },
     "counterstats.net": {
-      "ok": 5,
-      "failed": 13,
+      "ok": 12,
+      "failed": 15,
       "results": [
         "ok",
         "stats-only",
@@ -43,6 +43,13 @@
       "failed": 0,
       "results": [
         "ok"
+      ]
+    },
+    "docs.google.com": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "no-advice"
       ]
     },
     "facecheck.gg": {
@@ -137,8 +144,8 @@
       ]
     },
     "op.gg": {
-      "ok": 34,
-      "failed": 10,
+      "ok": 42,
+      "failed": 13,
       "results": [
         "ok",
         "stats-only",

@@ -1,0 +1,124 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] You're both poking each other down with your Q's. Whoever wins that wins the Q Q match up game just wins the lane, right?",
+    "[0] Um and they both are pretty bad in the long trade. They're good in the short trade.",
+    "[1] Ils ont utilisé ulti. OK, ils ont utilisé double ulti. Je savais qu'il niveau 6, j'ai bien fait de me barrer en vrai.",
+    "[2] the alt does like half someone's health if you land all four bullets.",
+    "[2] just getting someone to the 50% 40% threshold and popping alt. That is your that is kind of your win condition for allins.",
+    "[2] all his damage is inbuilt into three things. His Q bounce, his fourth shot, and his R.",
+    "[2] people do just run into the alt like a pack of chickens. They just run in like clucking getting hit by the alt",
+    "[3] Be careful of the Double Up(Q) that bounces off minions. The slow on Make it Rain(E) also poses a threat to Jhin as he does not have any movement related skills!",
+    "[4] Be careful of Jhin’s Dancing Granade (Q) that bounces off of minions, as well as the damage on his final round attack! Use Venom Cask [W] to engage if Jhin is reloading!"
+  ],
+  "videosFound": 75,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (2:51-3:26 : MF « even in skill », guerre des Q, mauvais en trade long ; transcription déjà enregistrée, comptée comme ouverture)"
+    },
+    {
+      "id": "0jiWamDoJHU",
+      "channel": "Soldierlol_",
+      "result": "utilisé, peu de matière : commentaire surtout sur les supports et le stuff ; seul le recul au lvl 6 de Jhin (7:30) sert"
+    },
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé : chapitres Jhin (31:56) et Miss Fortune (58:00), remarques générales sur l'adversaire (ult de Jhin, ult de MF)"
+    },
+    {
+      "id": "13hbaoa582Q",
+      "channel": "Bibou - League of Legends",
+      "result": "inutile : guide Jhin sans partie matchups, ni MF ni Sivir"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=missfortune",
+      "result": "ok (1 tip écrit Jhin vs MF)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/missfortune/counters/adc?target_champion=jhin",
+      "result": "ok (1 tip écrit MF vs Jhin ; « Venom Cask [W] » est un sort de Twitch, erreur de modèle : seule l'idée du rechargement est gardée)"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1J3CRQZvwkef8EECoj_QtoVu-pFyH9F5JsuxGhXs2MRE/export?format=csv&gid=1495176325",
+      "result": "no-advice (feuille « Guide des matchup » de Lelariva : index de guides d'autres champions, rien sur MF vs Jhin)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin et MF : la lane se joue sur les rebonds de A",
+      "sourceIdx": [
+        0,
+        3,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources par côté + DDragon (Doublé touche la cible derrière, Grenade rebondit)"
+    },
+    {
+      "idea": "Jhin : sortir de la Pluie de balles (ralentissement, pas de dash)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E ralentit)"
+    },
+    {
+      "idea": "Jhin : ne pas foncer dans le cône de l'ult de MF",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R canalisé en cône)"
+    },
+    {
+      "idea": "MF : reculer quand Jhin passe lvl 6 et qu'on est basse",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (dégâts du R selon PV manquants)"
+    },
+    {
+      "idea": "MF : se méfier de la 4e balle",
+      "sourceIdx": [
+        2,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (4e balle critique + dégâts d’exécution)"
+    },
+    {
+      "idea": "MF : avancer pendant le rechargement de Jhin",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (4 balles seulement) ; sort de Twitch cité par op.gg retiré"
+    },
+    {
+      "idea": "Les deux : bons en trade court, mauvais en trade long",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source pour ce couple (le chapitre MF de [2] parle de MF en général)"
+    },
+    {
+      "idea": "MF plus facile à jouer que Jhin",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "pas un conseil de jeu"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12"
+}

@@ -1,0 +1,161 @@
+{
+  "searches": 10,
+  "sourceSentences": [
+    "[0] I mean not I mean I would struggle against Nautilus in general because of the ros moving.",
+    "[0] Roaming with Sona and roaming with Nautilus. It's very different.",
+    "[0] Okay, we got to kill him. He has no hook. We can step up.",
+    "[0] Bam. The damage, guys. The bullying. Who's bullying who now?",
+    "[0] I don't think I will survive in team fights against Fstick, Yasuo, Gwen, and Nautilus. Especially because the ultimate of Notus, I cannot dodge it.",
+    "[1] Não têm tanta pressão de kill nível um dois, se eu não tomar tudo, não é, então se eu não tomar âncora a três na teoria é nossa, se não jogarmos muito mal.",
+    "[1] Como ele não tem âncora, posso bater nele, sabe? Tipo, eu sei que ele está de shield, então aqui é andar para a frente, velho.",
+    "[1] Bateu logo, gastou o escudo nível um, não respeitou a sona, morre, gente.",
+    "[1] O que tenho de fazer agora é tomar muito cuidado, agora como estou sem flash, tenho de ter muito cuidado, porque obviamente se eu tomar uma âncora aqui vou morrer, não é?",
+    "[1] Tipo, é literal só jogar no range aqui para não tomar âncora.",
+    "[1] Se ele gasta uma âncora e erra e anda para a frente, ele morre, velho.",
+    "[1] Tenho de pingar que o Nautilus pode ir mid, mas é muito improvável ele estar lá agora.",
+    "[2] Poke when their hook is on CD, be careful of a flash engage, don't get too close.",
+    "[2] Nautilus will focus you in lane as Sona is squishy, try to stand behind minions to avoid getting Qed and stun during lane.",
+    "[2] If you get hooked you have to either burn summoners or die.",
+    "[2] Poke him down level 1 as much as you can since he doesn't really have enough damage nor the tankiness he needs to kill you without risk dying himself.",
+    "[2] you can just poke him with your Hymn of Valor (Q) when he used his Titan's Wrath (W)",
+    "[2] his ult can't be dodged or block, follows you, deals decent damage, and knocks you up in the air.",
+    "[2] If he ults you just try to be behind your team-mates so the enemy cannot reach you."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12",
+  "videosFound": 31,
+  "videosRead": 3,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "LQED62bGY1g",
+      "channel": "Coach K",
+      "result": "utilisé (live 3 h 57, chapitre « Sona vs Nautilus » 59:27 + liste des counters de Sona 4:08 ; publié le 2025-04-18, un peu plus de 18 mois)"
+    },
+    {
+      "id": "pGah64D7NJM",
+      "channel": "LoveLovelys",
+      "result": "utilisé (gameplay commenté Sona vs Nautilus en Challenger, 24 min, voix portugaise : sous-titres pt demandés ; « âncora » = hook)"
+    },
+    {
+      "id": "Pql8JAQK6IE",
+      "channel": "Coach K",
+      "result": "ouvert, aucune mention de Sona (« Sona » trouvé seulement dans « personally » ; ouverture perdue, comptée aussi pour Nautilus__Seraphine)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/nautilus",
+      "result": "ok (nombreux commentaires d'auteurs de guides Sona sur Nautilus, patchs 9 à 13 pour la plupart)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Sona : avancer et trader quand le hook est en CD ou raté",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Q CD 14-10 s)"
+    },
+    {
+      "idea": "Sona : rester derrière les sbires, encore plus sans Flash",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (le Q collisionne avec le premier ennemi touché)"
+    },
+    {
+      "idea": "Sona : trader au lvl 1, surtout si le Z de Nautilus est utilisé",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z = bouclier)"
+    },
+    {
+      "idea": "Sona : R de Nautilus impossible à esquiver, rester derrière ses alliés",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (onde qui poursuit la cible)"
+    },
+    {
+      "idea": "Sona : pinger le mid quand Nautilus quitte la lane",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Coach K : Nautilus roam beaucoup mieux ; LoveLovelys : ping mid)"
+    },
+    {
+      "idea": "Sona : jouer à portée max de son A pour éviter le hook",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon : le A de Sona (825) porte moins loin que le hook (1150) ; gardé seulement l'idée des sbires"
+    },
+    {
+      "idea": "Sona : prendre de la vitesse avec le E pour fuir l'ult",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source, et l'onde poursuit la cible : trompeur"
+    },
+    {
+      "idea": "Nautilus : reculer après un hook raté",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Q CD 14-10 s)"
+    },
+    {
+      "idea": "Nautilus : ne pas griller le Z au lvl 1",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Nautilus : surveiller le Flash de Sona, un hook la tue",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Nautilus : roam mid",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Nautilus : le lvl 2 est sa fenêtre pour engager",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source, et LoveLovelys dit l'inverse (lvl 1-2 pour Sona)"
+    }
+  ]
+}

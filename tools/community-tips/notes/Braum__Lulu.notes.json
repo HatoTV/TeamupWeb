@@ -1,0 +1,134 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] All right, this match up. We hard win also.",
+    "[0] We just need to make sure that we're careful with the queue of brown. I mean, she's getting poked.",
+    "[0] I use one potion. I mean, I'm trading HP for control, which is fine.",
+    "[0] I dodged the queue.",
+    "[1] Not a threat early levels, you can play around brushes and get control to weave auto attacks while dropping minion aggro in brushes.",
+    "[1] Becomes difficult after first backs when he full engage on you if he lands a Q. Treat it the same as Blitzcrank and Thresh where you punish missed Qs and play around minions.",
+    "[1] Braum is another Even match up. To be honest, it depends on which ADC he is paired with. With Lucian it can be major because he can activate Braum passive really quickly.",
+    "[1] Braum is helpless you can kite him with your Q. Only thing that annoys you is his shield can block your polymorph",
+    "[1] Braum is a pretty weak support currently. Poke him and his ADC and you should be fine. If his ADC is a Lucian though be careful cause if he hits you with a Q, Lucian will make sure to pop his stun very quickly.",
+    "[2] The champion scales really well and can also poke you out and kite you. You want to try to roam or call for jungler in this lane. Landing q in this lane is really important.",
+    "[2] Just watch for Polymorphs, don't force all-ins, and just try to punish poor positioning and you should be fine.",
+    "[2] Be careful of her poke and polymorph. Engage on her once her W and E are down."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12",
+  "videosFound": 67,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "lu (ouverture partagée avec Rell__Thresh), inutilisé : Braum et Lulu cités seulement contre Rell"
+    },
+    {
+      "id": "omZBm4vV4B4",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre Lulu vs Braum ~1:14, absent de la liste des chapitres mais donné dans la description « 1:13:90 »)"
+    },
+    {
+      "id": "99GJGz3pZFU",
+      "channel": "Coach K",
+      "result": "écarté : sous-titres « en » traduits (« online » pour la lane, « charmer » pour enchanter), voix probablement espagnole"
+    },
+    {
+      "id": "9Ryi8IbUamI",
+      "channel": "Daption",
+      "result": "lu, inutilisé : chapitre Matchups sans mention claire de Braum (« raon », « Dres » ambigus)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/braum",
+      "result": "ok (5 commentaires d'auteurs de guides Lulu contre Braum)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "result": "ok (4 commentaires d'auteurs de guides Braum contre Lulu)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/braum/counters/support?target_champion=lulu",
+      "result": "lu, inutilisé (tips généraux sur Braum)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Braum : la Morsure de l'hiver est la clé de la lane",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (Lulu doit la respecter ; un Braum Challenger la dit essentielle)"
+    },
+    {
+      "idea": "Braum : engager quand Fantaisie est en CD",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Fantaisie empêche d'attaquer et de lancer des sorts, CD 18 s)"
+    },
+    {
+      "idea": "Braum : roam ou appeler le jungler",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source (macro)"
+    },
+    {
+      "idea": "Braum : ne pas forcer les all-in, punir le mauvais placement",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source (lane)"
+    },
+    {
+      "idea": "Lulu : poke tôt, Braum faible en début de lane",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Lulu : respecter la Morsure de l'hiver, jouer autour des sbires, punir les Q ratés",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Lulu : reculer après un Q, l'ADC finit les stacks du passif",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (les attaques alliées ajoutent des stacks, stun à 4)"
+    },
+    {
+      "idea": "Lulu : kite Braum avec le ralentissement du Duo éclatant",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fort ralentissement)"
+    },
+    {
+      "idea": "Lulu : Incassable bloque Fantaisie",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source ; DDragon dit « intercepte les projectiles » sans préciser que Fantaisie en est un"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] if you play Graves against a le, you actually stomp him, especially with stacks.",
+    "[0] However, if you're level six and this guy has a queue on you, you can die.",
+    "[0] If enemy listen goes for the top crab, I can invade his raptors. So top crap is almost always a bait.",
+    "[0] Le is for sure going to go bside. Just so you know, he might try to queue me here. So you can anticipate it.",
+    "[0] You see Le started raptors which also means that he's pathing towards the bot side",
+    "[0] Enemy journal is going top to bot. You guys need to be careful.",
+    "[0] It's because I want to see where the le starts.",
+    "[0] Keep your stacks up. You see I have seven stacks. Boom. Eight stacks.",
+    "[1] he just does so much damage early that you should find kills.",
+    "[1] Every every time I would coach Graves, I said you you must do something like level one.",
+    "[1] You definitely you definitely can like E over to the red level one, catch him, steal his camps or do like red raptors cross.",
+    "[1] if you actually versusing melee champs, and I mean you guys correct me if I'm wrong, but W your feet so that when they go on you",
+    "[1] in the early game, you're very good against melee champions and kiting melee champions and fighting melee champions."
+  ],
+  "videosFound": 60,
+  "videosRead": 3,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "9ch7jfGoRj4",
+      "channel": "Kaido Jungle",
+      "result": "inutile : « Graves vs Every Jungler » (2025-12-02) saute Lee Sin (Kindred puis Lillia)"
+    },
+    {
+      "id": "OBjIiVhzlis",
+      "channel": "Coach Kirei",
+      "result": "utilisé : chapitres « Lee » (2:07:33, 14:28:05, 29:11:04) ; sous-titres auto : Lee Sin écrit « le », « Alison », « listen »"
+    },
+    {
+      "id": "hT4HTyaW10I",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé : chapitres Lee Sin (25:53) et Graves (32:38)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Graves : warder le départ de Lee et prévenir les lanes",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (pistage chez [0], Lee cherche des kills tôt chez [1])"
+    },
+    {
+      "idea": "Graves : gagner le duel avec les charges du E",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (charges de résistances, rafraîchies en touchant un non-sbire)"
+    },
+    {
+      "idea": "Graves : anticiper le A de Lee, létal dès le lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Coup résonant selon PV manquants)"
+    },
+    {
+      "idea": "Lee : Graves vole les camps tôt (raptors quand Lee va au crabe)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Lee : éviter le duel long, Graves bat les mêlées tôt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (charges du E)"
+    },
+    {
+      "idea": "Lee : A + R peuvent tuer Graves dès le lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Lee : ne pas engager dans l'Écran de fumée posé aux pieds de Graves",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (ralentit, réduit la vision)"
+    },
+    {
+      "idea": "Graves : envahir les raptors de Lee quand il prend le crabe",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source en macro (repris côté Lee avec [1])"
+    },
+    {
+      "idea": "Graves : esquiver le kick de Lee (spacing)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, idée trop vague"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12"
+}

@@ -1,0 +1,127 @@
+{
+  "pair": [
+    "Jhin",
+    "KogMaw"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Jhin": "50dc94bbadc487d669af01570fd6aec1208d2ce3576b4f5d11c2b08d3195ca6d",
+    "KogMaw": "d31e1d2b62660b80d18a56ba14f6d2f7af91557b4ff51e7b3075adb38e82bc63"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Jhin": {
+      "fr": [
+        {
+          "text": "Poke-le quand son Barrage bio-arcanique (Z) est en CD (17 s) : sans lui, Kog'Maw manque de portée et ne peut pas te répondre.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Kog'Maw n'a aucun dash : dès le lvl 6, touche ta Floraison mortelle (Z) juste après une auto, puis enchaîne ton Rappel de rideau (R).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Sors vite de la traînée de son Limon du Néant (E) : elle ralentit tous ceux qui restent dessus.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Poke him while Bio-Arcane Barrage (W) is on cooldown (17 s): without it, Kog'Maw lacks range and can't answer.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Kog'Maw has no dash: from level 6, land Deadly Flourish (W) right after an auto, then follow up with Curtain Call (R).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Get off the trail of his Void Ooze (E) quickly: it slows anyone standing on it.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "KogMaw": {
+      "fr": [
+        {
+          "text": "Méfie-toi de sa Grenade dansante (A) : elle rebondit sur les sbires proches de toi et gagne des dégâts à chaque kill.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Compte ses tirs : sa 4e balle est toujours critique et ajoute des dégâts d'exécution. Ne trade pas quand elle est prête.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Quand Jhin a tiré ses 4 balles et doit recharger, ralentis-le avec ton Limon du Néant (E) puis active ton Barrage bio-arcanique (Z) pour trade.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Watch out for his Dancing Grenade (Q): it bounces off the minions around you and gains damage with each kill.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Count his shots: his fourth bullet always crits and adds execute damage. Don't trade while it's ready.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "When Jhin has fired all four shots and must reload, slow him with Void Ooze (E), then activate Bio-Arcane Barrage (W) to trade.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "The Ultimate Jhin Matchup Tier List",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=sd4t6Hh5V38",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League Highlights & Clips",
+      "publishedAt": "2026-10-31",
+      "timestamps": [
+        "4:18",
+        "4:37",
+        "4:54",
+        "5:12"
+      ]
+    },
+    {
+      "title": "Jhin Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=kogmaw",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Kog'Maw Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/kogmaw/counters/adc?target_champion=jhin",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

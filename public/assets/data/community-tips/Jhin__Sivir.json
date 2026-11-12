@@ -1,0 +1,134 @@
+{
+  "pair": [
+    "Jhin",
+    "Sivir"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Jhin": "50dc94bbadc487d669af01570fd6aec1208d2ce3576b4f5d11c2b08d3195ca6d",
+    "Sivir": "d1b5bccaeb7aec49b23fdd8aedf6d63f29ce56b5890f59e746d01d954f4ec1d8"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Jhin": {
+      "fr": [
+        {
+          "text": "Elle veut pousser avec son Ricochet (Z) : avance avec ta wave et tape-la quand elle frappe les sbires, ses dégâts sont faibles en early.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Esquive l'aller puis le retour de sa Lame boomerang (A) : elle touche dans les deux sens. Son CD est long au début, trade juste après.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Fais-lui gâcher son Bouclier magique (E) sur une Grenade dansante (A) avant de lancer ta Floraison mortelle (Z) ou ton ult.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Son En chasse (R) accélère toute son équipe pour engager ou fuir : ne la poursuis pas loin tant qu'il est disponible.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "She wants to shove with Ricochet (W): walk up with your wave and hit her when she attacks minions, her early damage is low.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Dodge both the throw and the return of her Boomerang Blade (Q): it hits both ways. Its cooldown is long early, so trade right after.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Bait her Spell Shield (E) with a Dancing Grenade (Q) before you throw Deadly Flourish (W) or your ult.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Her On The Hunt (R) speeds up her whole team to engage or escape: don't chase her far while it's available.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Sivir": {
+      "fr": [
+        {
+          "text": "Reste hors des rebonds de sa Grenade dansante (A) sur les sbires et compte ses balles : la 4e est toujours un coup critique.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Dès son lvl 6, ne reste pas basse en PV à sa portée : les tirs de son Rappel de rideau (R) font plus de dégâts selon tes PV manquants.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Stay out of his Dancing Grenade (Q) bounces off minions and count his shots: the fourth one always crits.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Once he hits level 6, don't sit in range on low health: his Curtain Call (R) shots deal more damage the lower your health.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "2026 Ultimate ADC Episode - Breaking Down Every Champ | Broken by Concept #288",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=F3oN260aEMo",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League | Broken By Concept",
+      "publishedAt": "2026-02-16",
+      "timestamps": [
+        "33:12",
+        "34:24",
+        "1:12:27",
+        "1:13:10",
+        "1:13:26"
+      ]
+    },
+    {
+      "title": "Jhin Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=sivir",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Sivir Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/sivir/counters/adc?target_champion=jhin",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Sivir Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/sivir",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

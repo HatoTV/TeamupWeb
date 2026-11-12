@@ -1,0 +1,146 @@
+{
+  "searches": 11,
+  "sourceSentences": [
+    "[0] Nautilus especially is a classic example. Uh he just wants to dive on me, you know, the bone plating's great for that.",
+    "[0] I think I wanted to experiment a bit with sort of going Guardian here, taking it, you know, a little bit more reserved in the laning phase, right?",
+    "[0] from the range alone we can sort of chip them out and yeah, we can run into the scenarios like with the Nautilus with the Pike where we're getting dove on",
+    "[0] Champs like Nautilus, Pyke, Blitzcrank even. Anything that can basically inject volatility into the game I'm very scared of, right?",
+    "[0] they can always kill me in lane. It's very difficult just walking that tightrope, right?",
+    "[0] where it's really just trying to attack me before I get online, basically.",
+    "[1] Now Shak's going to be bside. This good sweep by Notus to be fair. Now we have no vision. I mean he has a counter ward. We need to ward this behind us. We're going to get ganked.",
+    "[1] He has no bomb, so we can play a bit more aggressive.",
+    "[1] Can I push this? I mean, I don't see nautilus. >> It's risky, but we can try.",
+    "[2] Seraphine can poke from miles away with her Q and E and has some good sustain with her W. If she misses the root on her passive empowered E or her ult you can all in her.",
+    "[2] Just like with Senna. Avoid getting poked and hook her whenever you can to be honest. Try to bait her spells since she has really high base cooldwons.",
+    "[2] Abuse early levels. The problem with all enchanters is all the same - if we don't snowball early hard, we fall off and get outscaled.",
+    "[2] she is very squishy so if you get a good engage on her chances are high you can blow her up.",
+    "[2] Respect their ult in chokes, but in lane you can simply out-tank their poke and all-in them when your jungler shows.",
+    "[3] Just no, don't even try to trade him, throw a Q or E for poke and walk back no point in taking all in trades like ever.",
+    "[3] Tanky, hard-engage. Point-and-click CC ruins Seraphine's ability to kite or peel",
+    "[3] be careful when he hits lvl 6, especially if he has glacial rune, make sure the wave is near your turret so that you are safe"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12",
+  "videosFound": 37,
+  "videosRead": 3,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "fBgxtuBgghE",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (guide Seraphine 1 h 35 avec Moose, coach support ; chapitre « Matchup tier list » 1:18:20 : Nautilus classé parmi les plus durs ; passages 9:32 et 37:34)"
+    },
+    {
+      "id": "pjLAb_PdiP8",
+      "channel": "Coach K",
+      "result": "utilisé (live 3 h 06, chapitre « Seraphine vs Nautilus » 6:13-19:46, Emerald ; peu de conseils de lane, partie perturbée par un ADC qui joue contre son équipe ; « no bomb » compris comme la Grenade ASM)"
+    },
+    {
+      "id": "Pql8JAQK6IE",
+      "channel": "Coach K",
+      "result": "ouvert, aucune mention de Seraphine (ouverture perdue, comptée aussi pour Nautilus__Sona)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/seraphine",
+      "result": "ok (commentaires d'auteurs de guides Nautilus sur Seraphine, patchs 12 à 14 pour la plupart)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/seraphine/counters/support?target_champion=nautilus",
+      "result": "stats-only (aucun tip écrit sur le matchup)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/nautilus",
+      "result": "ok (commentaires d'auteurs de guides Seraphine sur Nautilus, anciens patchs)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Nautilus : agressif tôt, elle est fragile et scale",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (tier list WTL « attack me before I get online », counterstats « abuse early levels »)"
+    },
+    {
+      "idea": "Nautilus : son E porte plus loin que le hook, ne pas rester dans son poke",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E 1300, Q de Nautilus 1150)"
+    },
+    {
+      "idea": "Nautilus : all-in avec le jungler après avoir nettoyé la vision",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (sweep + gank chez Coach K ; « all-in when your jungler shows », auteur Galio sur Seraphine) ; douteux léger"
+    },
+    {
+      "idea": "Nautilus : faire gâcher le E (root) ou le R puis all-in",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source (counterstats) ; conditions du root absentes des descriptions DDragon"
+    },
+    {
+      "idea": "Nautilus : hook pendant que son E est « canalisé »",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "Battement n'est pas canalisé selon DDragon : écarté"
+    },
+    {
+      "idea": "Seraphine : pas de trade long, poke au E puis recule",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (portées E 1300 / Q de Nautilus 1150)"
+    },
+    {
+      "idea": "Seraphine : R ciblé de Nautilus, jouer plus agressive quand il l'a utilisé",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (onde qui poursuit la cible, CD 120/100/80)"
+    },
+    {
+      "idea": "Seraphine : ne pas push quand Nautilus est invisible, wave près de la tour après le lvl 6",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Seraphine : survivre à la lane, elle scale mieux",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Seraphine : poser des wards derrière soi après un sweep de Nautilus",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    }
+  ]
+}

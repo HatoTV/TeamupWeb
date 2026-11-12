@@ -1,0 +1,54 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[QJF1Or60RNA, non retenue] Does T get countered by Swain? Um yeah, I think Tik is not great into SW now. SW is really good into melee champions"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 3 2026-11-12",
+  "videosFound": 52,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "écarté : « Every Support Counter Pick Explained » (2026-03-12) ; sous-titres en traduits (aucun acAsrConf dans le json3, « charmer », « online », « Tic » pour Taric ; piste es aussi présente). Ouverture comptée pour les 3 couples."
+    },
+    {
+      "id": "JhvMrfXQOko",
+      "channel": "Coach K",
+      "result": "rien d'utile : Swain cité seulement comme partenaire APC de Taric (synergie), pas comme adversaire"
+    },
+    {
+      "id": "JxLVC04CVDc",
+      "channel": "HusumLOL",
+      "result": "écarté : sous-titres en traduits (aucun acAsrConf, « 1500 PL », « online ») ; idée : Swain fort contre les supports melee dont Taric"
+    },
+    {
+      "id": "QJF1Or60RNA",
+      "channel": "Coach K",
+      "result": "1 phrase utile (18:59) : Taric pas bon contre Swain, Swain fort contre les melee ; seule source lisible"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/swain/counters/support?target_champion=taric",
+      "result": "no-advice (résumé IA générique sur Swain mid)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/taric/counters/support?target_champion=swain",
+      "result": "no-advice (résumé IA générique sur Taric)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/swain/vs-taric/support/all",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Swain : punir Taric, melee qui s'engage sans sortie",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "vu dans QJF1Or60RNA et JxLVC04CVDc, mais 1 seule source lisible (HusumLOL : sous-titres traduits) ; aucune vidéo commentée du matchup support trouvée (seulement des replays sans commentaire)"
+    }
+  ]
+}

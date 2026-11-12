@@ -1,0 +1,111 @@
+{
+  "pair": [
+    "Nautilus",
+    "Rell"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Nautilus": "26c5839d056b971e22d2b610386aae53d04ddc41dd99d5e71c08aa914465a1a8",
+    "Rell": "533ccb0c262e988bd2521010378ce0e0c45aaf730e7bf9664c4a6345855e9e96"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Nautilus": {
+      "fr": [
+        {
+          "text": "Garde ton Abordage (A) pour le moment où Rell saute avec sa Ferromancie (Z) : contre-engage sur elle au lieu d'ouvrir le combat le premier.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Sa Frappe dislocatrice (A) détruit les boucliers : contre elle, n'active ta Colère du titan (Z) qu'après avoir vu partir son A.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Hold Dredge Line (Q) for the moment Rell leaps in with Ferromancy (W): counter-engage on her instead of opening the fight yourself.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Her Shattering Strike (Q) destroys shields: against her, only pop Titan's Wrath (W) once you've seen her Q go out.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Rell": {
+      "fr": [
+        {
+          "text": "Laisse Nautilus engager le premier : dès que son Abordage (A) touche toi ou ton ADC, réponds avec ta Ferromancie (Z) et retourne le combat.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Ta Frappe dislocatrice (A) détruit les boucliers : lance-la après qu'il a activé sa Colère du titan (Z) pour lui retirer sa protection.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Let Nautilus engage first: as soon as his Dredge Line (Q) lands on you or your ADC, answer with Ferromancy (W) and turn the fight.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Your Shattering Strike (Q) destroys shields: cast it after he pops Titan's Wrath (W) to strip that protection away.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Every Rell matchup ranked! | League of Legends | ColsENG",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=a9QyG_fjnII",
+      "consultedAt": "2026-11-12",
+      "channel": "ColsENG",
+      "publishedAt": "2023-02-27",
+      "timestamps": [
+        "13:39",
+        "13:46"
+      ]
+    },
+    {
+      "title": "Nautilus VS Rell Matchup | The Skills You Need To WIN - Support Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=KUS0Bwh8Kuk",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Global",
+      "publishedAt": "2023-06-15",
+      "timestamps": [
+        "0:13"
+      ]
+    },
+    {
+      "title": "RELL GUIDE - How To Carry With Rell - Detailed Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=dFEJushm5Cc",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2025-01-24",
+      "timestamps": [
+        "11:26"
+      ]
+    }
+  ]
+}

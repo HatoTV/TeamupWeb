@@ -30,8 +30,8 @@
       ]
     },
     "counterstats.net": {
-      "ok": 1,
-      "failed": 6,
+      "ok": 2,
+      "failed": 10,
       "results": [
         "ok",
         "stats-only"
@@ -136,12 +136,13 @@
       ]
     },
     "op.gg": {
-      "ok": 10,
-      "failed": 4,
+      "ok": 20,
+      "failed": 9,
       "results": [
         "ok",
         "stats-only",
-        "no-tips"
+        "no-tips",
+        "no-advice"
       ]
     },
     "orbispatches.com": {

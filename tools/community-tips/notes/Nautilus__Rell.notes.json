@@ -1,0 +1,101 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] Nautilus that's our first hard winning red is fantastic and to engage supporters and especially Nautilus all you gotta do is if the Nautilus goes for engage on you or your 80k you just re-engage and you usually just win",
+    "[1] keep our hope for when Road jumps or only when Misfortune heavily missed positions so that we can 2V1",
+    "[1] we're looking to counter or go for The Knockout when they're weak",
+    "[2] because you break the w with the Q the same as tkin you also break the shield that tkin tkin faship with your Q"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 3 2026-11-12",
+  "videosFound": 40,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "écarté : « Every Support Counter Pick Explained » (2026-03-12) ; sous-titres en traduits (aucun acAsrConf dans le json3, « charmer », « online », « Tic » pour Taric ; piste es aussi présente). Ouverture comptée pour les 3 couples."
+    },
+    {
+      "id": "dFEJushm5Cc",
+      "channel": "Coach K",
+      "result": "utilisé (11:26 : le A de Rell brise les boucliers ; Nautilus seulement cité comme matchup gagnable en trade grâce à une rune : écarté)"
+    },
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "utilisé (2023, plus de 18 mois ; chapitres Leona & Lulu et Nami & Nautilus ; ASR anglais d'origine)"
+    },
+    {
+      "id": "KUS0Bwh8Kuk",
+      "channel": "Coach Global",
+      "result": "utilisé (2:42, 2023, point de vue Nautilus ; ASR de qualité moyenne : « Road » = Rell, « hope » = hook)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/nautilus/counters/support?target_champion=rell",
+      "result": "no-advice (tips Riot génériques sur Nautilus, rien sur Rell)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/rell/counters/support?target_champion=nautilus",
+      "result": "no-advice (résumé IA générique de Rell, rien sur Nautilus)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/nautilus/vs-rell/support/all",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Nautilus : garder le hook pour le saut de Rell (contre-engage)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Coach Global côté Nautilus ; ColsENG : si Nautilus engage, Rell ré-engage et gagne) + DDragon (Z de Rell = saut, A de Nautilus = attraction)"
+    },
+    {
+      "idea": "Rell : laisser Nautilus engager puis répondre",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "A de Rell détruit le bouclier de la Colère du titan (deux côtés)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (Coach K : le A brise les boucliers) + DDragon (« destroying all Shields » ; Z de Nautilus = bouclier)"
+    },
+    {
+      "idea": "Nautilus : jouer près de sa tour pour gêner l'engage de Rell et ouvrir des angles de gank",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source (lane)"
+    },
+    {
+      "idea": "Nautilus : patience quand Rell n'a plus de Flash",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, passage confus"
+    },
+    {
+      "idea": "Rell gagne la plupart des trades contre Nautilus",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "lié à une rune (Aftershock), interdit"
+    }
+  ]
+}

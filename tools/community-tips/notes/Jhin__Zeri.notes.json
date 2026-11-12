@@ -1,0 +1,148 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] So, like the Jhins of the world, Aphelios, Kog'Maw, I guess, Zeri.",
+    "[0] So, the reason they're so easy is because they lack gap close. Um so, they're better than you in the all in, but they lack gap close, right? So, you just keep your range, keep poking them.",
+    "[0] They also lack sustain, super important. Um so, any poke you do against them usually sticks.",
+    "[1] Bon, niveau 1, ils vont être très forts, ils vont avoir le push.",
+    "[1] Va falloir respecter le niveau 1 et surtout pas respecter. J'entends qu'il va falloir [grognement] garder des PV et être très très safe.",
+    "[1] Niveau 6, c'est mon c'est mon timing le plus fort. Du coup, je peux clairement jouer.",
+    "[1] Gameplay hyper carry maintenant permettre d'Achine parce qu'il vient d'utiliser deux sorts sur la wave. Du coup il a plus de sort il peut pas me tuer maintenant.",
+    "[2] we don't have the prior if they decide to contest the prior it's going to be hard because they have double range engin has a good push capabil potential",
+    "[2] I will I will never die here because I can e over this wall and escape the gank",
+    "[2] so if trash RS I will shove this wave and try to dive Jin okay but we can for sure all in on Jin uh",
+    "[2] even though Jin was was ahead in terms of Golds but he was not ahead in terms of XP I was level six he was level five and there has a really good oing potential so I pressured him",
+    "[2] we freezing because we are losing this matchup so like the pushing won't uh do anything for us when you lose try to yeah freeze I guess it's a good defensive strategy"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 3 2026-11-12",
+  "videosFound": 41,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list des matchups de Jhin : Zeri rangée avec les hyper carries « easy » ; ouverture partagée avec Jhin__Tristana et Jhin__Xayah)"
+    },
+    {
+      "id": "MxR14foJ1jU",
+      "channel": "DantehADC",
+      "result": "rien : ni Zeri ni Xayah ; sous-titres anglais qui semblent traduits ; ouverture partagée avec Jhin__Xayah"
+    },
+    {
+      "id": "3LasnWrh6Nw",
+      "channel": "Soldierlol_",
+      "result": "utilisé (vidéo éducative FR, voix FR ; Jhin transcrit « Jean », « Jein »)"
+    },
+    {
+      "id": "DHv_1cNyplg",
+      "channel": "Frappii",
+      "result": "utilisé (voix anglaise : sous-titres en ; une première recherche en fr renvoyait une traduction automatique, écartée). Vidéo de mai 2024, plus de 18 mois"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/zeri/counters/adc?target_champion=jhin",
+      "result": "no-tips (seulement des tips généraux du champion)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=zeri",
+      "result": "no-tips (tips généraux, objets et runes)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : prendre la prio grâce à la portée en début de lane",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Jhin : respecter le lvl 6 de Zeri",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Jhin : ne pas vider ses sorts sur la wave quand Zeri est proche",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W de Jhin : 12 s de CD)"
+    },
+    {
+      "idea": "Jhin : la Charge ionique de Zeri passe les murs (fuite sur gank)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E : franchit le terrain)"
+    },
+    {
+      "idea": "Jhin : garder la portée et poke, Zeri sans sustain ni gap close",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source ; « sans gap close » contestable (Zeri a un dash)"
+    },
+    {
+      "idea": "Zeri : ne pas forcer la prio en début de lane, rester safe",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Zeri : lvl 6 = gros pic, mettre la pression si avance d'XP",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Zeri : l'all-in contre Jhin est possible, elle fait plus de dégâts au contact",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Zeri : engager quand Jhin a lancé ses sorts sur la wave",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W de Jhin : 12 s de CD)"
+    },
+    {
+      "idea": "Zeri : E par-dessus un mur pour fuir un gank",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E : franchit le terrain)"
+    },
+    {
+      "idea": "Zeri : freeze quand on perd la lane",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    }
+  ]
+}

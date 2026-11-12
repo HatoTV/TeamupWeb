@@ -1,0 +1,147 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] they're better than you in the all in, but they lack gap close, right? So, you just keep your range, keep poking them.",
+    "[0] once you get level six against these characters, especially Kog'Maw, Jinx, and Aphelios, they're immobile. So, as soon as you hit your W, you hit your ulti, they're just going to die.",
+    "[0] Yeah, you just push them in, keep poking them, you farm plates, and you'll just you also kind of outscale them, right?",
+    "[1] On va essayer d'éviter la Jinx qui a un peu plus de range que moi. Du coup, du coup, on va juste éviter de on va juste éviter de la match au niveau 1. On va juste essayer de push si on peut de prendre le push.",
+    "[1] Et on va essayer de prendre le push bien évidemment.",
+    "[1] OK, on prend un short trade. T short trade, c'est bien parce qu'on va se regen et aussi mon champion adore quand les gens sont l' pour les pour les tuer.",
+    "[1] juste un bon trade qu'on a pris tout à l'heure, ça nous a permis un freeze et le freeze, on l'a bien utilisé parce que bah maintenant, elle a perdu beaucoup de CS.",
+    "[2] Jean very hard because you stay next to wave. He keeps throwing grenades at you. He can like anything hits you. He can W you from insane range.",
+    "[2] I feel like Jing grenade is 10 times better when it comes to pushing cuz it's way more damage that one ability.",
+    "[3] Be careful of Jhin’s Dancing Grenade(Q) that bounces off minions. Use the longer range on Fishbones during early game to harass Jhin when he is trying to farm lane. Always be careful of Jhin’s fourth basic attack.",
+    "[4] Avoid Zap!(W) by staying behind a minon and be sure to not step on her Flame Chompers!(E)!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 61,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list Jhin, passage hyper carries 4:18-5:21 ; « Jinx favored » à 15:22 = « Jhin favored » mal transcrit, à propos de Brand ; ouverture partagée avec Aphelios__Jhin et Draven__Jhin)"
+    },
+    {
+      "id": "gobcaGoolGI",
+      "channel": "Soldierlol_",
+      "result": "utilisé (partie commentée Jhin vs Jinx, voix FR, sous-titres fr)"
+    },
+    {
+      "id": "5MDzkcCNH-k",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list Jinx de Tonirel, extrait de i__BMNhAwus ; Jhin « very hard » 1:16)"
+    },
+    {
+      "id": "cO3mL-z7Pi0",
+      "channel": "Coach Violet",
+      "result": "écarté : sous-titres anglais traduits (« Thrash », « wizards », « deadly pace »), aucune partie contre Jhin"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/jinx/counters/adc?target_champion=jhin",
+      "result": "ok (tip écrit Jinx vs Jhin + conseils généraux)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=jinx",
+      "result": "ok (1 tip écrit Jhin vs Jinx ; le reste = runes/objets)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : prendre le push, la Grenade nettoie la wave plus vite, Jinx doit farmer",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources (Soldierlol_ précise que Jinx peut avoir le push au lvl 1 selon les supports : formulé « cherche à »)"
+    },
+    {
+      "idea": "Jhin : éviter l'all-in, short trades et poke",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Jhin : lvl 6, Z puis R sur une Jinx sans dash",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z immobilise une cible touchée récemment ; aucun dash chez Jinx)"
+    },
+    {
+      "idea": "Jhin : bloquer le Zap ! derrière un sbire",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Zap ! touche le premier ennemi)"
+    },
+    {
+      "idea": "Jhin : ne pas marcher sur les Pyromâcheurs !",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (immobilisent les champions qui marchent dessus)"
+    },
+    {
+      "idea": "Jinx : ne pas rester collée à la wave, la Grenade rebondit",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q rebondit vers un ennemi proche)"
+    },
+    {
+      "idea": "Jinx : Poiscaille (roquettes) pour la portée tôt et poke Jhin quand il farme",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Poiscaille gagne de la portée ; portée de base Jinx 525 vs Jhin 550, d'où le passage aux roquettes)"
+    },
+    {
+      "idea": "Jinx : la Floraison mortelle porte très loin et traverse les sbires",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (portée 3000, traverse sbires, immobilise si touché récemment)"
+    },
+    {
+      "idea": "Jinx : respecter la 4e balle",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif Murmure)"
+    },
+    {
+      "idea": "Jhin : un bon trade puis un freeze fait perdre beaucoup de CS à Jinx",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Jinx : au lvl 1 Jinx outrange Jhin, éviter de trader",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "fusionné dans le tip Poiscaille côté Jinx ; côté Jhin, 1 seule source"
+    }
+  ]
+}

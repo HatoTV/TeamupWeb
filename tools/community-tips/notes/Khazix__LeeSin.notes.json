@@ -1,0 +1,73 @@
+{
+  "searches": 8,
+  "sourceSentences": [
+    "[0] Kha’Zix can defeat Lee Sin if he is isolated! Be careful of being nuked after the enemy reaches level 6!",
+    "[1] Kha’Zix deals a lot of damage to isolated targets! Fight alongside allies or minions to gain the upper hand!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 30,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "hT4HTyaW10I",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, non utilisé (chapitres Kha'Zix / Lee Sin : avis généraux, rien sur ce matchup ; même ouverture que JarvanIV__LeeSin)"
+    },
+    {
+      "id": "IN0nKtTx3NA",
+      "channel": "RedMaster Kha'Zix",
+      "result": "échec : aucun sous-titre « en » (gameplay probablement sans voix ; compté comme ouverture par prudence)"
+    },
+    {
+      "id": "QOYujGKGeSA",
+      "channel": "Wao Live",
+      "result": "lu, non utilisé (live FR sans conseil, transcription de 5 750 caractères)"
+    },
+    {
+      "id": "xqG44sHcsN4",
+      "channel": "mohawk",
+      "result": "lu, non utilisé (chapitre Bans/Matchups : Graves, Karthus, Rengar, Nidalee ; aucune mention de Lee Sin)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/khazix/counters?position=jungle",
+      "result": "ok (adversaire affiché par défaut : Lee Sin ; 1 tip écrit)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/leesin/counters?position=jungle&target_champion=khazix",
+      "result": "ok (1 tip écrit)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lee-sin/vs-kha-zix/jungle",
+      "result": "échec (renvoie la page d'accueil : slug incorrect)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kha'Zix : attaquer Lee Sin quand il est isolé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source + DDragon (Goût de la peur plus fort sur cible isolée) : 1 seul tip possible côté Kha'Zix, statut insufficientSources"
+    },
+    {
+      "idea": "Kha'Zix : se méfier de Lee Sin après son lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Lee Sin : se battre près des alliés ou des sbires pour ne pas être isolé",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source + DDragon (Menace invisible / Goût de la peur sur cible isolée) : 1 seul tip possible côté Lee Sin, statut insufficientSources"
+    }
+  ]
+}

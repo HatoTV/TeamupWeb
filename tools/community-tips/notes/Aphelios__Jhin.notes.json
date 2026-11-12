@@ -1,0 +1,116 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] The rest are very, very easy. So, the reason they're so easy is because they lack gap close.",
+    "[0] they're better than you in the all in, but they lack gap close, right? So, you just keep your range, keep poking them.",
+    "[0] once you get level six against these characters, especially Kog'Maw, Jinx, and Aphelios, they're immobile. So, as soon as you hit your W, you hit your ulti, they're just going to die.",
+    "[0] usually these are these are also paired with with enchanters, and that's very good for you, right?",
+    "[1] Be careful of Jhin’s Dancing Granade (Q) that bounces off of minions, as well as the damage on his final round attack!",
+    "[2] Be wary of Gravitum Basic attacks or Moonlight Vigil(R) that can root you!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 47,
+  "videosRead": 3,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list Jhin, passage hyper carries 4:18-5:21 : Aphelios, Jinx, Kog'Maw ; transcription déjà enregistrée, ouverture partagée avec Draven__Jhin et Jhin__Jinx ; extrait de 8Ln7EC-ryxo)"
+    },
+    {
+      "id": "HgLYGufyCNE",
+      "channel": "Aleksis007",
+      "result": "écarté : « Every Aphelios Matchup Explained » (chapitre Jhin 19:11) mais sous-titres en ET pt visiblement traduits (« this brother », « Steel Cups », « Sem impostos ») ; langue de la voix non confirmée"
+    },
+    {
+      "id": "JN9nUe5nlfw",
+      "channel": "Challenger vs. Emerald",
+      "result": "rien : guide Aphelios de daynean (2 h 43), aucune mention de Jhin"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/aphelios/counters/adc?target_champion=jhin",
+      "result": "ok (1 tip écrit Aphelios vs Jhin + conseils généraux)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=aphelios",
+      "result": "ok (1 tip écrit Jhin vs Aphelios ; le reste = runes/objets)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Aphelios : la Grenade dansante rebondit sur les sbires",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q rebondit vers un ennemi proche, jusqu'à 4 cibles)"
+    },
+    {
+      "idea": "Aphelios : respecter la 4e balle de Jhin",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif Murmure : 4e balle critique + dégâts d'exécution)"
+    },
+    {
+      "idea": "Aphelios : meilleur en all-in mais sans dash, dépend du support pour engager",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (point de vue Jhin sur Aphelios) + DDragon (aucun sort de dash)"
+    },
+    {
+      "idea": "Jhin : Aphelios n'a pas de dash, garder sa portée et poke",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (aucun dash dans le kit d'Aphelios)"
+    },
+    {
+      "idea": "Jhin : lvl 6, Z puis R sur un Aphelios immobile",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z immobilise une cible récemment touchée ; R ralentit)"
+    },
+    {
+      "idea": "Jhin : se méfier de Gravitum (ralentit puis immobilise), y compris via l'ult",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Gravitum immobilise les ennemis ralentis ; R applique l'effet de l'arme principale). Reformulé : ce sont les attaques qui ralentissent, le sort qui immobilise."
+    },
+    {
+      "idea": "Jhin : Aphelios manque de sustain, chaque poke reste",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "trompeur : Severum soigne Aphelios à chaque attaque"
+    },
+    {
+      "idea": "Jhin : pousser la wave, poke et prendre les plates",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source (il en faut 2)"
+    },
+    {
+      "idea": "Jhin : Aphelios joue souvent avec un enchanteur, donc peu de tanks pour bloquer l'ult",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source"
+    }
+  ]
+}

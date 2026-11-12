@@ -1,0 +1,82 @@
+{
+  "pair": [
+    "Nautilus",
+    "Renata"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Nautilus": "26c5839d056b971e22d2b610386aae53d04ddc41dd99d5e71c08aa914465a1a8",
+    "Renata": "63cc2e4a5a41da4421d449de37792c2aa7d416fdc8001807df841abd593bae4e"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Nautilus": {
+      "fr": [
+        {
+          "text": "Choisis bien ton engage : après ton Abordage (A), tu n'as aucun moyen de repartir, et Renata est faite pour punir ce genre d'engage.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Évite les fights dans les couloirs étroits de la jungle : sa Prise de contrôle hostile (R) rend fous furieux tous les ennemis qu'elle touche.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Pick your engage carefully: after Dredge Line (Q) you have no way out, and Renata is built to punish exactly that kind of commit.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Avoid fighting in narrow jungle corridors: her Hostile Takeover (R) sends every enemy it hits berserk.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Renata": {
+      "fr": [
+        {
+          "text": "Laisse Nautilus venir à toi : une fois collé à toi après son hook, il n'a plus de porte de sortie et ton ADC peut le punir.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ],
+      "en": [
+        {
+          "text": "Let Nautilus come to you: once he's on top of you after the hook, he has no exit and your ADC can punish him.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Best Support Meta: Laning is Optional, Roaming Mandatory - Full Educational Games",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=s469ngd84J8",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2026-07-28",
+      "timestamps": [
+        "5:27:50"
+      ]
+    },
+    {
+      "title": "Renata Glasc Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/renata-glasc",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

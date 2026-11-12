@@ -1,0 +1,162 @@
+{
+  "searches": 10,
+  "sourceSentences": [
+    "[0] You win level one guys. It's Jinx Braum. If they go in, just block the hook. Fight.",
+    "[0] But you can counter the the the nautilus. If you counter the nautilus, you are fine.",
+    "[1] We're about to hit level two. So, I'm like, okay, la walk up. And then I already have the Braum stacks on me, which is a problem.",
+    "[1] This is why we would have had that kill if she didn't get stuck by the Braum passive.",
+    "[2] Braum is strong in melee combat, not to mention his (P) that allows him to counterplay, his overall tankiness, and his (E) to protect his allies and mitigate damage.",
+    "[2] Nautilus will have a hard time if he engages recklessly.",
+    "[2] However, Nautilus can counterplay when Braum charges in by rooting him with [P] while using [Q] to either retreat or engage accordingly.",
+    "[3] Braum is tricky to play into. If you fail your engage he has a lot of options to lock you down, so be careful.",
+    "[3] The other problem is that he can soak a lot of damage using his E. Play around his E cooldown and you should win the lane.",
+    "[3] Braum will protect his Adc in lane, making it quite difficult to make kills happen, but whenever you have a choice of hooking him or his Adc aim for the Adc.",
+    "[3] This way you will either hit the Adc or Braum who will have jumped to them with his W to either dodge or block your hook.",
+    "[3] Your Ult will not be blocked by his shield.",
+    "[4] Nautilus’s Dredge Line(Q) has a pretty good range.",
+    "[4] Reaching level 2 is important when facing off melee champions. Focus on leveling during level 1 to reach level 2 before your enemies!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 27,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "BTsUfxll62c",
+      "channel": "Coach K",
+      "result": "utilisé (live 4 h 41, chapitre « Braum vs Nautilus » 2:22:44 ; peu de conseils de lane, surtout du draft et du macro)"
+    },
+    {
+      "id": "0LHr7e-Yatw",
+      "channel": "Aieky",
+      "result": "aucun sous-titre fr disponible (compté comme ouverture ; vidéo d'avril 2024)"
+    },
+    {
+      "id": "HrFMaljJhiI",
+      "channel": "Jade The Snort",
+      "result": "utilisé (review de sa propre partie Nautilus vs Braum, 28 min ; niveau « en route vers Master », elo réel non précisé)"
+    },
+    {
+      "id": "cxJZukHWmLI",
+      "channel": "Coach Global",
+      "result": "aucune mention de Braum (ouverture perdue ; vidéo de mai 2024)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/nautilus/counters/support?target_champion=braum",
+      "result": "ok (1 paragraphe propre au matchup)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/braum/counters/support?target_champion=nautilus",
+      "result": "ok (1 tip sur la portée du Q de Nautilus + conseils généraux Braum)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/braum",
+      "result": "ok (commentaires d'auteurs de guides Nautilus contre Braum, patchs 13-14 pour certains)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Braum : bloquer l'Abordage avec Incassable (E)",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E intercepte tous les projectiles)"
+    },
+    {
+      "idea": "Braum : contre-attaquer quand l'engage de Nautilus a échoué",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (« block the hook. Fight » ; « if you fail your engage he has a lot of options to lock you down »)"
+    },
+    {
+      "idea": "Braum : Bouclier humain (Z) sur l'ADC pour prendre le hook",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W = bond vers un allié)"
+    },
+    {
+      "idea": "Braum : stacker le passif avec l'ADC sur l'engage lvl 2",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (alliés ajoutent des effets après le premier, étourdi à 4)"
+    },
+    {
+      "idea": "Braum : respecter la longue portée de l'Abordage",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (portée 1150)"
+    },
+    {
+      "idea": "Braum : atteindre le lvl 2 en premier",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane (2 requises)"
+    },
+    {
+      "idea": "Nautilus : jouer autour du CD de l'Incassable (E)",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (E intercepte les projectiles, CD 16-8 s)"
+    },
+    {
+      "idea": "Nautilus : viser l'ADC plutôt que Braum",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W bond vers allié, E intercepte)"
+    },
+    {
+      "idea": "Nautilus : ne pas engager lvl 2 avec des effets du passif de Braum",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (étourdi à 4 effets)"
+    },
+    {
+      "idea": "Nautilus : passif pour immobiliser Braum qui fonce, puis A pour reculer ou engager",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (1re attaque sur une cible = immobilisation)"
+    },
+    {
+      "idea": "Nautilus : Grenade ASM (R) non bloquée par l'Incassable",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 source ; DDragon ne dit pas explicitement que l'onde de choc n'est pas un projectile"
+    },
+    {
+      "idea": "Nautilus : Braum reste collé à son ADC, kills difficiles",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": false,
+      "reason": "constat plutôt que conseil ; l'idée utile (viser l'ADC) est gardée à part"
+    }
+  ]
+}

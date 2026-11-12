@@ -1,0 +1,122 @@
+{
+  "searches": 8,
+  "sourceSentences": [
+    "[0] Lucian's hard. Lucian's very hard. Um the reason is he beats you in the short trades, right? Which Jin is typically good at.",
+    "[0] and he also beats you in the all in level six. Um especially if he's paired with an enchanter, actually.",
+    "[0] Lucian will gap close into you, and you won't be able to kill him because he's getting Milio W'd, right? Milio ulted, Milio shield. You have to go through two rotations of your guns or of your bullets to actually kill him, right?",
+    "[1] Keep your distance minding Relentless Pursuit(E)! Jhin must always be careful that Lucian does not close the distance on them as he lacks movement related skills.",
+    "[2] Be careful of Jhin’s Dancing Grenade(Q) that bounces off minions as well as his fourth basic attack! Close in with Relentless Pursuit [E] when Jhin is reloading to burst him and retreat."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 97,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list Jhin ft. Omibro, passage Lucian (9:49-10:30) ; transcription déjà enregistrée au lot 3, ouverture comptée pour chacun des 3 couples)"
+    },
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "écarté : « 2026 Ultimate ADC Episode » (2 h 17, chapitré par champion) ; chapitres Lucian et Jhin = conseils généraux du champion, aucun conseil propre au matchup (ouverture comptée pour les 3 couples)"
+    },
+    {
+      "id": "eSZw3zmDEjw",
+      "channel": "Booshi",
+      "result": "écarté : « LUCIAN VS JHIN » (FR, 22 min), commentaire de partie sans conseil de matchup (seul passage : un fight lvl 1 lié aux supports)"
+    },
+    {
+      "id": "DzaiPdz9WbY",
+      "channel": "3XA_LOL",
+      "result": "écarté : guide ADC FR chapitré (Lucian 25:01) ; « Lucian seulement avec Milio » = conseil général, pas propre à Jhin (ouverture comptée aussi pour Ashe__Jhin)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=lucian",
+      "result": "ok (1 tip écrit Jhin vs Lucian)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/lucian/counters/adc?target_champion=jhin",
+      "result": "ok (1 tip écrit Lucian vs Jhin)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : Lucian comble la distance avec son E, tu n'as pas de dash",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E dash 445 ; Jhin sans dash)"
+    },
+    {
+      "idea": "Jhin : il gagne les trades courts, surtout pendant ton rechargement",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Murmure : 4 balles puis rechargement)"
+    },
+    {
+      "idea": "Jhin : all-in lvl 6 perdu, surtout face à Lucian + enchanteur",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Pistolero : bouclier/soin allié = 2 attaques renforcées)"
+    },
+    {
+      "idea": "Lucian : engager au E pendant le rechargement de Jhin, burst puis ressortir",
+      "sourceIdx": [
+        2,
+        0
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Lucian : Jhin sans dash, les trades courts sont pour toi",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Lucian : all-in lvl 6 avec enchanteur",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Pistolero)"
+    },
+    {
+      "idea": "Lucian : rebond de la Grenade dansante sur les sbires",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (rebond, +dégâts par kill)"
+    },
+    {
+      "idea": "Lucian : respecter la 4e balle",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "déjà couvert par le tip rechargement ; évite un doublon"
+    },
+    {
+      "idea": "Lucian : à jouer seulement avec Milio (3XA_LOL)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "conseil général de champion, pas propre à Jhin ; source non comptée"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "pair": [
+    "JarvanIV",
+    "LeeSin"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "JarvanIV": "c8d3629ef694e4541a5f5ec4cc682c773ab0cc338deb3f4764584b1f8e4601cf",
+    "LeeSin": "35dbeba113620c6a7815aa9b15b3c6325b07c557a3af6da0000f925c500e2942"
+  },
+  "status": "ok",
+  "perspectives": {
+    "JarvanIV": {
+      "fr": [
+        {
+          "text": "Attends que son Rempart (Z) soit en CD avant ton Étendard demacien (E) suivi de ta Frappe du dragon (A) : sinon il file vers une ward et s'échappe.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Wait until his Safeguard (W) is down before going Demacian Standard (E) into Dragon Strike (Q); with it up, he just hops to a ward and escapes.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "LeeSin": {
+      "fr": [
+        {
+          "text": "Garde ton Rempart (Z) : dès que son Étendard demacien (E) tombe près de toi, file vers une ward ou un allié avant sa Frappe du dragon (A).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Tu es plus fort que lui en early : quand tes laners ont la prio, envahis sa jungle, son topside par exemple, et joue agressif.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ],
+      "en": [
+        {
+          "text": "Hold Safeguard (W): the moment his Demacian Standard (E) lands near you, dash to a ward or ally before his Dragon Strike (Q) follows.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "You're the stronger duelist early: when your laners have priority, invade his jungle, his topside for example, and keep playing aggressively.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "MON LEE SIN EST MEILLEUR QUE CELUI DE YIKE (AU MOINS) - SOLOQ S16 - Lee sin vs Jarvan IV",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=RZQx98jdDNc",
+      "consultedAt": "2026-11-12",
+      "channel": "Splinter VOD - League of Legends",
+      "publishedAt": "2026-10-29",
+      "timestamps": [
+        "7:43"
+      ]
+    },
+    {
+      "title": "Lee Sin Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/leesin/counters?position=jungle",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "UNRANKED to CHALLENGER in 6 Hours - Lee Sin Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=TAOGcZTwaBo",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Kirei",
+      "publishedAt": "2025-05-05",
+      "timestamps": [
+        "4:31:51"
+      ]
+    },
+    {
+      "title": "Jarvan IV Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/jarvaniv/counters?position=jungle",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

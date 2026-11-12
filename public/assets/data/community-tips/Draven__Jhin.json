@@ -1,0 +1,130 @@
+{
+  "pair": [
+    "Draven",
+    "Jhin"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Draven": "c873a47f83208a3c716839969815c13ceabfd1c850f602bf23c0006e4dc5ef1c",
+    "Jhin": "50dc94bbadc487d669af01570fd6aec1208d2ce3576b4f5d11c2b08d3195ca6d"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Draven": {
+      "fr": [
+        {
+          "text": "Après sa 4e balle, Jhin doit recharger : c'est le moment de l'engager avec ta Division (E).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Jhin gagne les trades courts mais tient mal les combats longs : force des échanges qui durent, c'est là que tes haches font la différence.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Sa Grenade dansante (A) saute de sbire en sbire jusqu'à toi : ne va pas chercher tes haches au milieu de sa wave.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "After his fourth bullet, Jhin has to reload: that's your window to go in with Stand Aside (E).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Jhin wins short trades but handles long fights poorly: force trades that drag on, that's where your axes make the difference.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "His Dancing Grenade (Q) jumps from minion to minion onto you: don't chase your axes into the middle of his wave.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Jhin": {
+      "fr": [
+        {
+          "text": "Joue des trades courts autour de ta 4e balle, puis recule : si l'échange dure, Draven le gagne.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Reste hors de portée de sa Division (E) : elle te repousse et te ralentit, et Draven te tue dès qu'il réduit la distance.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Take short trades around your fourth bullet, then step back: if the fight drags on, Draven wins it.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Stay out of Stand Aside (E) range: it knocks you aside and slows you, and Draven kills you once he closes the gap.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "The Ultimate Jhin Matchup Tier List",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=sd4t6Hh5V38",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League Highlights & Clips",
+      "publishedAt": "2026-10-31",
+      "timestamps": [
+        "2:15",
+        "2:20",
+        "3:13",
+        "3:16"
+      ]
+    },
+    {
+      "title": "How to Climb with Draven Guide - Challenger Teaches Me ft. Danman | Draven Build & Gameplay",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=1kSqZVExMXs",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League | Broken By Concept",
+      "publishedAt": "2026-08-28",
+      "timestamps": [
+        "1:06:16",
+        "1:06:23",
+        "1:09:37",
+        "1:49:53",
+        "1:50:04"
+      ]
+    },
+    {
+      "title": "Draven Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/draven/counters/adc?target_champion=jhin",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Jhin Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=draven",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

@@ -905,5 +905,20 @@
     "COL_CHAMPION": "Champion",
     "COL_TIER": "Tier",
     "FEW_GAMES": "few games"
+  },
+  "COMMUNITY_TIPS": {
+    "TITLE": "Community tips",
+    "SUBTITLE": "TeamUpp summary of player guides, videos and discussions, rewritten and checked against the game data.",
+    "FOR": "Playing {{me}} against {{vs}}",
+    "CITED_ONE": "Cited by {{n}} source",
+    "CITED_MANY": "Cited by {{n}} sources",
+    "VERIFIED": "checked in game data",
+    "NEEDS_RECHECK": "To be rechecked since the rework",
+    "EMPTY_TITLE": "No community tips for this matchup yet",
+    "INSUFFICIENT_TITLE": "Not enough reliable sources for this matchup",
+    "EMPTY_HINT": "We only publish a tip when several sources give it or the game data confirms it.",
+    "SOURCES": "Sources consulted ({{n}})",
+    "CONSULTED": "consulted on {{date}}",
+    "METHOD": "Every tip is rewritten by TeamUpp, never copied, and sorted by number of sources. Mechanics are checked against the game data (patch {{version}}). A tip is cited by at least 2 sources, or by 1 when the mechanic is confirmed in the game data."
   }
 }

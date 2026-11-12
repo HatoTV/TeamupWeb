@@ -1,6 +1,6 @@
 name: LoL build stats
 
-# Daily collection of ranked games (Riot API), aggregation, JSON commit and Vercel redeploy.
+# Daily collection of ranked games (Riot API), aggregation, community tips rework detection, JSON commit and Vercel redeploy.
 # Secrets: RIOT_API_KEY, R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET, VERCEL_DEPLOY_HOOK.
 # Private repository: each run uses about budget + 5 minutes of the GitHub Actions allowance.
 
@@ -23,6 +23,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write # community tips: « Rework détecté » issues
 
 jobs:
   stats:
@@ -62,10 +63,18 @@ jobs:
         working-directory: tools/lol-stats
         run: node src/cli.ts publish
 
+      - name: Detect champion reworks (community tips)
+        working-directory: tools/community-tips
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm ci
+          node src/detect-reworks.ts
+
       - name: Commit the data if it changed
         id: commit
         run: |
-          git add public/data/lol
+          git add public/data/lol public/assets/data/community-tips
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No data change."

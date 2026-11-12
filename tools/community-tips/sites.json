@@ -1,0 +1,117 @@
+{
+  "updatedAt": "2026-11-12",
+  "note": "Pages tentées pendant la recherche. ok = contenu lisible ; stats-only / no-advice = lisible mais pas une source de tip. blacklist = sites interdits comme source (contrôlé par tips:check).",
+  "blacklist": {
+    "matchupcoach.gg": {
+      "since": "2026-11-12",
+      "reason": "Contenu généré automatiquement, erreurs factuelles (ex. conseille à Yone d'attendre la fin du Mur de vent pour poke alors qu'il n'a pas de projectile). Jamais une source, pour aucun matchup."
+    }
+  },
+  "sites": {
+    "1v9.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "refused"
+      ]
+    },
+    "champsight.com": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "403"
+      ]
+    },
+    "dignitas.gg": {
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "invenglobal.com": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "404"
+      ]
+    },
+    "leaguefeed.net": {
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "matchupcoach.gg": {
+      "ok": 2,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "mobafire.com": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "403"
+      ]
+    },
+    "mobalytics.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "403"
+      ]
+    },
+    "nerfplz.com": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "403"
+      ]
+    },
+    "old.reddit.com": {
+      "ok": 0,
+      "failed": 2,
+      "results": [
+        "refused"
+      ]
+    },
+    "op.gg": {
+      "ok": 5,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "orbispatches.com": {
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "rankedboost.com": {
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "tacter.com": {
+      "ok": 0,
+      "failed": 3,
+      "results": [
+        "404"
+      ]
+    },
+    "wiki.leagueoflegends.com": {
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    }
+  }
+}

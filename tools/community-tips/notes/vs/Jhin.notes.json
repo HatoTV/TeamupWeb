@@ -1,14 +1,35 @@
 {
-  "searches": 7,
+  "searches": 10,
   "pagesRead": 3,
   "sourceSentences": [
     "[0] the only really thing we need to know about his passive is that like our fourth shot, right, is always a crit and this big auto attack. That's just important to know. And usually in lane, you really want to trade with that one.",
     "[0] because our like fourth auto attack, it's doing execute damage, right?",
     "[0] if we are taking down a minion, then the next one will always do more damage.",
     "[0] So let's say for example someone is like running into your trap, then what you want to do is you want to precast your W, so the moment something pops on the enemy that can be damaged, CC or whatever, they are just rooted",
-    "[0] you shoot, and you hit, and then the target is slowed, and you shouldn't wait then because you want to use the window where the enemy target is still slowed, right? And then you immediately want to use it."
+    "[0] you shoot, and you hit, and then the target is slowed, and you shouldn't wait then because you want to use the window where the enemy target is still slowed, right? And then you immediately want to use it.",
+    "[1] Like everyone runs away from a fourth shot.",
+    "[1] He doesn't win from allins. He doesn't win from anything like that. He's just constantly whittling you down until you get to about half HP and that's when it's really dangerous against this character",
+    "[1] usually you want to hold that W for when your support lands a spell, right? Or when they're over your trapped or something.",
+    "[1] But generally, anyone that can allin you is not good for Jin. You want to try to poke them down first and then you'll fight them.",
+    "[1] so we're trying to put it in bushes for the vision. We're trying to put it against walls so we can land our W easier or in choke.",
+    "[1] just use your traps before objectives and you can't really go wrong with it.",
+    "[2] Donc Jein, il va avoir quatre balles après il va devoir recharger. Donc les trois premières balles sont normales. La dernière elle va crit à tous les coups et elle va faire des dégâts en fonction des HP manquant de la cible.",
+    "[2] pourir tirer des balles à énormément de portées qui vont slow les ennemis, faire des dégâts en fonction des HP manquants.",
+    "[2] Les balles, elles vont s'arrêter au premier champion touché, mais si vous voulez p une wave ou faire autre chose, si c'est pas un champion, ça va traverser.",
+    "[2] c'est important de placer les pièges là où vont aller les champions automatiquement.",
+    "[2] Donc les trappes, les mettez pas dans cette zone ici, vous les mettez collés au mur.",
+    "[2] je vais mettre mon queue, je vais tuer les CS et après je vais toucher avec mon 4e queue.",
+    "[2] d'abord je vais toucher le queue et une fois qu'il y a le stack, hop, je réfléchis, j'envoie mon Z pour rre la personne.",
+    "[3] I I want to keep my four shot for that. Look at this guy just heavily trading here for no reason.",
+    "[3] So, the counters of Jhin are usually little tempo characters, specifically even the Kalista or other characters like Tristana",
+    "[4] Do not waste your fourth shot. Your fourth shot is your threat. It is your trading tool, your execute, and your way to scare people off the wave.",
+    "[4] Because after your fourth shot, you reload. And while you reload, you're vulnerable.",
+    "[4] Use Q on low health minions so it kills them and bounces with extra damage.",
+    "[4] If you support jungler or mid laner hit CC, you follow up with W and turn it into a kill.",
+    "[4] Before dragon or baron, put traps around entrances, not just randomly in lane. Use them where enemies actually have to walk.",
+    "[4] Do not ult while assassins are missing. If you stand still at the wrong time, you're basically asking to get deleted."
   ],
-  "videosRead": 4,
+  "videosRead": 8,
   "videosTried": [
     {
       "id": "mqmqaVboO1I",
@@ -29,6 +50,26 @@
       "id": "MxR14foJ1jU",
       "channel": "DantehADC",
       "result": "écarté : sous-titres fr = traduction automatique (voix non française), interdit"
+    },
+    {
+      "id": "8Ln7EC-ryxo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (2026-10-08, en-orig ; passages 25:26, 32:34, 51:45, 56:20-57:28)"
+    },
+    {
+      "id": "13hbaoa582Q",
+      "channel": "Bibou - League of Legends",
+      "result": "utilisé (2026-10-14, voix FR, langue fr ; passages 0:39, 4:04-4:14, 14:13-17:33)"
+    },
+    {
+      "id": "fYzBW9CemWY",
+      "channel": "Eneino Coach",
+      "result": "utilisé (2026-11-02, en-orig ; passages 0:54, 7:19) ; peu de contenu, 2e source pour 4e balle et all-in"
+    },
+    {
+      "id": "ZzWCwBIIhrM",
+      "channel": "Kola",
+      "result": "utilisé (2026-06-15, en-orig, transcription complète 3:54)"
     }
   ],
   "pagesTried": [
@@ -47,46 +88,102 @@
   ],
   "ideas": [
     {
-      "idea": "Jouer autour du 4e tir (crit + exécution), punir pendant le rechargement",
-      "sourceIdx": [],
-      "kept": false,
-      "reason": "dropped: Coach Violet exclue ; 1 seule source valide (Varry) et une seule source listable pour le fichier"
+      "idea": "Z root si touché récemment par Jhin, son piège ou un CC allié ; traverse les sbires : esquiver aussitôt",
+      "sourceIdx": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "kept": true,
+      "reason": "4 sources + DDragon (JhinW : root si frappé par alliés, pièges ou dégâts de Jhin ; traverse sbires)"
     },
     {
-      "idea": "Pièges E invisibles qui ralentissent ; root Z derrière",
-      "sourceIdx": [],
-      "kept": false,
-      "reason": "dropped: 1 source (Varry) + DDragon vérifié, mais fichier < 2 sources listées"
+      "idea": "Reculer quand la 4e balle est chargée (crit + exécution), c'est son outil de trade",
+      "sourceIdx": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "kept": true,
+      "reason": "4 sources ; DDragon passif (4e tir crit + exécution)"
     },
     {
-      "idea": "Chaque tir de R touché ralentit et le suivant arrive vite",
-      "sourceIdx": [],
-      "kept": false,
-      "reason": "dropped: 1 source (Varry) + DDragon vérifié, mais fichier < 2 sources listées ; idée d'esquive (juke) venait de Coach Violet"
+      "idea": "A gagne des dégâts sur chaque kill : éviter les sbires bas en vie",
+      "sourceIdx": [
+        0,
+        2,
+        4
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (JhinQ gains damage each time it kills)"
     },
     {
-      "idea": "A gagne des dégâts sur chaque cible qui meurt : éviter les sbires bas en vie",
-      "sourceIdx": [],
-      "kept": false,
-      "reason": "dropped: 1 source (Varry) + DDragon vérifié, mais fichier < 2 sources listées"
+      "idea": "Pièges E invisibles en brush, passages étroits, contre les murs, avant les objectifs : ward/balayer",
+      "sourceIdx": [
+        1,
+        2,
+        4
+      ],
+      "kept": true,
+      "reason": "3 sources ; DDragon (piège invisible)"
     },
     {
-      "idea": "Z root si touché récemment par Jhin, son piège ou un allié ; traverse les sbires",
+      "idea": "Chaque tir de R ralentit et s'arrête au premier champion : changer de direction, s'abriter derrière un allié",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (JhinR slow, stop au premier champion)"
+    },
+    {
+      "idea": "Après la 4e balle, Jhin recharge : fenêtre pour trade/engager",
+      "sourceIdx": [
+        2,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources (Kola explicite, Bibou mécanique) ; DDragon passif (4 balles)"
+    },
+    {
+      "idea": "Jhin sans dash gagne au poke ; les all-in courts le gênent",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources ; DDragon (aucun dash dans le kit)"
+    },
+    {
+      "idea": "Jhin canalise son R et reste immobile : punir avec assassin/diver hors vision",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (JhinR : Jhin channels)"
+    },
+    {
+      "idea": "Z peut servir à checker un brush à distance",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil côté Jhin, plafond de 8 tips"
+    },
+    {
+      "idea": "R tiré depuis le brouillard",
       "sourceIdx": [],
       "kept": false,
-      "reason": "dropped: 1 source (Varry) + DDragon vérifié, mais fichier < 2 sources listées"
+      "reason": "dropped: aucune source trouvée dans les vidéos lues"
     },
     {
       "idea": "Jhin excelle en short trade (auto + A, poke A, 4e tir)",
       "sourceIdx": [],
       "kept": false,
       "reason": "dropped: venait uniquement de Coach Violet (exclue)"
-    },
-    {
-      "idea": "Un allié champion devant bloque les tirs de R / Z (s'arrêtent au premier champion)",
-      "sourceIdx": [],
-      "kept": false,
-      "reason": "dropped: DDragon seul, aucune source"
     }
-  ]
+  ],
+  "completionPass": "2026-11-13: new pass requested by the user (4 more videos max)"
 }

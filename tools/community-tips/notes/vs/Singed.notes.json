@@ -1,5 +1,5 @@
 {
-  "searches": 4,
+  "searches": 6,
   "pagesRead": 2,
   "sourceSentences": [
     "[0] Regardez, il va vouloir me tuer lui. Regardez le temps que je lui fais perdre. Et là lui, il est sous tour, il doit farmer sous tour.",
@@ -10,9 +10,19 @@
     "[2] Il va sans doute aller en proxy. Je peux rien y faire. Je quand même prendre mon reset. La flaque de piste qui cancelle le bac.",
     "[2] Ça ça me saoule. Pas dire le contraire. le nombre de fois où je me le suis fait cancel.",
     "[2] Non, je laisse pas proxy pour le coup. En plus, il a pas de mana. Il a pas de mana, pas de flash.",
-    "[2] Je crois que je suis plus heureux du proxy que toi. Je crois que ça me va totalement cet échange qu'on fait. Je vais être premier à bouger sur la map."
+    "[2] Je crois que je suis plus heureux du proxy que toi. Je crois que ça me va totalement cet échange qu'on fait. Je vais être premier à bouger sur la map.",
+    "[3] Whenever Gangplank is chasing me like this, he's actually losing quest progress, which is good.",
+    "[3] So, we just ghost away. We're wasting as much time as possible here.",
+    "[3] Uh because if I can catch him behind the turret, he's not going to get away. All I need is a little bit of damage from one teammate and then we can just kill him essentially.",
+    "[3] I know that my jungler is coming. If my jungler was not coming here, I'd probably back off and not waste time at this point, but he is coming, so we're good.",
+    "[3] I basically have no mana for another fling or anything, but just keep him in poison.",
+    "[3] So you do have to be a bit careful when you are low mana like that.",
+    "[3] My mana is half. So, it's kind of hard for me to to stay and keep pushing.",
+    "[3] Sing relies on his ultimate as a def as a defensive and offensive tool at the same time.",
+    "[3] So I am half HP without an ultimate. So I'm just not not as useful uh as I would be normally. So I do have to be a little bit careful here without without that cool down available.",
+    "[4] Tu gagnes 12000 gold de stats avec le R level 3. Ah ouais, ça a été ça a été prouvé. Donc tu es en train de me dire que le R de Singed c'est une c'est un super ultime quoi."
   ],
-  "videosRead": 4,
+  "videosRead": 8,
   "videosTried": [
     {
       "id": "ZBHaR_Cx1CM",
@@ -33,6 +43,26 @@
       "id": "ccA1MEfv5R4",
       "channel": "Sixen • League of Legends",
       "result": "utilisé (passages 0:58, 2:36 ; Sixen joue Singed et montre ce que perd l'adversaire qui le chase)"
+    },
+    {
+      "id": "PpcLv_6YnCw",
+      "channel": "Coach Chippys",
+      "result": "écarté comme source : guide général du proxy (pas spécifique à Singed) ; confirme qu'un proxy se punit surtout avec le jungler (9:02)"
+    },
+    {
+      "id": "tN_mSwiSGqY",
+      "channel": "Minishcap1",
+      "result": "utilisé (2026-01-18, en-orig ; passages 3:12, 5:22-5:52, 9:02-9:33, 24:08-24:47, 25:44, 27:13, 29:34)"
+    },
+    {
+      "id": "akiqsykxqfI",
+      "channel": "Minishcap1",
+      "result": "écarté comme source : même créateur que tN_mSwiSGqY (1 seule source) ; confirme mana (5:51) et R (10:00, 13:14)"
+    },
+    {
+      "id": "djsgR7t47vk",
+      "channel": "Sixen • League of Legends",
+      "result": "utilisé (2026-10-14, voix FR, langue fr ; passage 17:12) ; même chaîne que ccA1MEfv5R4, jamais compté avec elle sur un même tip"
     }
   ],
   "pagesTried": [
@@ -50,10 +80,38 @@
       "idea": "Ne pas chase Singed : la Piste empoisonnée te ronge et tu perds ta wave / du temps",
       "sourceIdx": [
         0,
-        1
+        1,
+        3
       ],
       "kept": true,
-      "reason": "2 sources + DDragon (la Piste empoisonnée inflige des dégâts aux ennemis sur son chemin)"
+      "reason": "3 sources + DDragon (la Piste empoisonnée inflige des dégâts aux ennemis sur son chemin)"
+    },
+    {
+      "idea": "Éviter les fights longs pendant la Potion de démence (R), engager quand elle est en CD",
+      "sourceIdx": [
+        3,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources indépendantes + DDragon (InsanityPotion : stats de combat accrues, CD 100 s)"
+    },
+    {
+      "idea": "Singed à court de mana ne tient plus la lane ni le proxy : lui barrer la route",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (Strey : pas de mana, pas de flash, je laisse pas proxy ; Minishcap : mana basse, difficile de rester et pousser)"
+    },
+    {
+      "idea": "Contre le proxy : punir avec le jungler, sinon farm et bouger en premier sur la map",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (Minishcap 9:02 ; Strey 16:15) ; Coach Chippys (général) va dans le même sens, non compté"
     },
     {
       "idea": "Garder ses distances : Projection (E) te lance derrière lui, root si tu tombes dans l'Attrape-mouche (Z), qui bloque les dash",
@@ -69,23 +127,7 @@
         2
       ],
       "kept": false,
-      "reason": "dropped at integration: recall cancel is a general game rule, not in Data Dragon; 1 source only"
-    },
-    {
-      "idea": "Contester le proxy quand Singed n'a plus de mana ni de flash",
-      "sourceIdx": [
-        2
-      ],
-      "kept": false,
-      "reason": "dropped: 1 seule source, tip de lane"
-    },
-    {
-      "idea": "Quand Singed proxy, accepter l'échange et bouger en premier sur la map",
-      "sourceIdx": [
-        2
-      ],
-      "kept": false,
-      "reason": "dropped: 1 seule source, macro"
+      "reason": "dropped: recall cancel is a general game rule, not in Data Dragon; still 1 source only"
     },
     {
       "idea": "En teamfight, CC Singed pendant que tu frappes ses alliés",
@@ -93,7 +135,8 @@
         1
       ],
       "kept": false,
-      "reason": "dropped: source > 2 ans, pas une mécanique"
+      "reason": "dropped: source > 2 ans, pas une mécanique, pas de 2e source récente"
     }
-  ]
+  ],
+  "completionPass": "2026-11-13: new pass requested by the user (4 more videos max)"
 }

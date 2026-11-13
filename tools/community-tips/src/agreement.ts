@@ -10,7 +10,7 @@ export type Gender = 'm' | 'f';
 export function parseGenders(markdown: string): Map<string, Gender> {
   const section = markdown.split(/^## /m).find((s) => s.startsWith('8. Genre')) ?? '';
   const genders = new Map<string, Gender>();
-  for (const line of section.split('\n')) {
+  for (const line of section.split(/\r?\n/)) {
     const m = line.match(/^\|\s*([^|]+?)\s*\|\s*([mf])\s*\|$/);
     if (m) genders.set(m[1]!, m[2] as Gender);
   }

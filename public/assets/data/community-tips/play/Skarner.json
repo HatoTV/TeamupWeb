@@ -1,0 +1,118 @@
+{
+  "champion": "Skarner",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Grab dans le mur, puis ult", "en": "Grab into wall, then ult" },
+      "keys": ["E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Attrape la cible avec Impact d'Ixtal (E) et plaque-la contre un mur pour l'étourdir. Place une auto, puis Empalement (R) avant la fin du stun pour la ramener vers ton équipe.",
+        "en": "Grab the target with Ixtal's Impact (E) and slam them into a wall to stun them. Land an auto, then Impale (R) before the stun ends to drag them toward your team."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Ult d'abord, grab ensuite", "en": "Ult first, grab after" },
+      "keys": ["R", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Empalement (R) place la cible juste devant toi : enchaîne Impact d'Ixtal (E) dès la fin pour l'emmener dans la direction de ton choix, contre un mur ou vers ta tourelle.",
+        "en": "Impale (R) puts the target right in front of you: chain Ixtal's Impact (E) as it ends to carry them wherever you want, into a wall or toward your turret."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Deux autos puis lancer", "en": "Two autos then throw" },
+      "keys": ["Q", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Terre brisée (A), deux autos, puis relance pour Soulèvement : le rocher lancé fait les mêmes dégâts et le même slow que la 3e auto, et ton combo va plus vite.",
+        "en": "Shattered Earth (Q), two autos, then recast for Upheaval: the thrown boulder deals the same damage and slow as the third auto, and your combo goes faster."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Combo complet rocher en main", "en": "Full combo, boulder in hand" },
+      "keys": ["Q", "E", "R", "W"],
+      "level": "hard",
+      "desc": {
+        "fr": "Ramasse le rocher (A), charge avec Impact d'Ixtal (E), auto, puis Empalement (R) : le rocher part tout seul. Lance Bastion sismique (Z) à la fin de l'ult.",
+        "en": "Pick up the boulder (Q), charge with Ixtal's Impact (E), auto, then Impale (R): the boulder flies on its own. Cast Seismic Bastion (W) as the ult ends."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lancer Empalement (R) rocher en main déclenche Soulèvement dans la même direction, sans son temps d'incantation. Le moyen le plus rapide de jeter ton rocher sur une cible qui s'enfuit.",
+        "en": "Casting Impale (R) while holding the boulder fires Upheaval in the same direction, without its cast time. The fastest way to throw your boulder at a fleeing target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La durée de Terre brisée (A) est mise en pause pendant Impact d'Ixtal (E). Ramasse ton rocher juste avant de charger vers ta cible : il sera encore là à l'arrivée.",
+        "en": "Shattered Earth (Q) duration is paused during Ixtal's Impact (E). Pick up your boulder right before charging at your target: it will still be there when you arrive."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Impact d'Ixtal (E) traverse les murs. Dans un mur, l'ennemi ne te voit pas, sauf vision spéciale : il reçoit juste un indicateur s'il est proche. Idéal pour surprendre.",
+        "en": "Ixtal's Impact (E) goes through walls. Inside a wall, enemies can't see you without special vision: they only get an indicator when close. Great for surprise engages."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Si la cible attrapée par Impact d'Ixtal (E) touche un mur, elle est étourdie 1,1 s, prend des dégâts et ton CD de E baisse de 35 %. Vise toujours un mur proche.",
+        "en": "If the target grabbed by Ixtal's Impact (E) hits a wall, they're stunned for 1.1 s, take damage and your E cooldown drops by 35%. Always aim for a nearby wall."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Une cible d'Empalement (R) qui finirait de l'autre côté d'un mur est replacée de ton côté. Colle-toi à un mur pendant ton ult : la cible retombe contre toi, sans pouvoir te kite.",
+        "en": "An Impale (R) target that would end up on the other side of a wall is moved to your side. Hug a wall during the ult: they land right next to you, unable to kite."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier magique ou une immunité aux CC fait échouer le grab d'Impact d'Ixtal (E) : ta charge s'arrête net. Une purge en plein trajet libère aussi la cible, sans dégâts.",
+        "en": "A spell shield or CC immunity makes the Ixtal's Impact (E) grab fail: your charge stops dead. A cleanse mid-charge also frees the target, with no damage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Une auto bloquée applique quand même Échos des vibrations, mais pas une auto esquivée ou ratée sous aveuglement. Un bouclier magique ne bloque tes cumuls que sur Soulèvement et Empalement (R).",
+        "en": "A blocked auto still applies Threads of Vibration, but a dodged auto or one missed while blinded doesn't. A spell shield only stops your stacks from Upheaval and Impale (R)."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Face à Contre-attaque de Jax, frappe une unité collée à lui avec Terre brisée (A) : la zone autour de ta cible le touche quand même, alors que l'auto directe serait esquivée.",
+        "en": "Against Jax's Counter Strike, hit a unit next to him with Shattered Earth (Q): the splash around your target still hits him, while a direct auto would be dodged."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Skarner - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Skarner", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Advanced (reworked) Skarner Tips & Tricks", "url": "https://www.youtube.com/watch?v=KmDUCU5jjHs", "type": "video", "date": "2024-04-15", "author": "Cannon Minion" },
+    { "title": "5 TIPS AVANCÉS SUR SKARNER !", "url": "https://www.youtube.com/watch?v=1zbS5WEyz_I", "type": "video", "date": "2026-06-15", "author": "Misanthiel - Coach Toplane" }
+  ]
+}

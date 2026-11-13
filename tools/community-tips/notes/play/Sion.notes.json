@@ -1,0 +1,41 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "If Decimating Smash was charged for at least 1 second, Sion instead slams his axe down, dealing physical damage to enemies hit, knocking them up and stunning them.",
+    "A flash of the axe and change in brightness of the indicator on the ground indicates when the 1 second time frame is reached.",
+    "The indicator is visible to the enemy only if they see Sion himself.",
+    "Recast: Sion flails his axe in the direction he targeted at the time of cast, dealing physical damage to enemies hit and slowing them by 50% for 0.25 seconds.",
+    "Soul Furnace can be recast after 3 seconds while the shield holds, and does so automatically at the end of the duration.",
+    "Both of Soul Furnace's casts can be activated during Sion's other abilities.",
+    "Sion bellows a shockwave in the target direction that deals magic damage to the first enemy hit, slows them for 2.5 seconds and inflicts them with 25% armor reduction for 4 seconds.",
+    "If the target is a minion or non-epic monster, they are also stunned for 0.75 seconds and knocked back for up to 1350 units further, though not through terrain, applying Roar of the Slayer's effects to enemies they pass through as well.",
+    "Unlike the intial single-target projectile, a thrown minion or monster is not blocked by Wind Wall or similar effects.",
+    "Sion will stop upon colliding with an enemy champion or terrain during the charge, ending Unstoppable Onslaught with a slam. Crashing into terrain stuns Sion for 0.5 seconds.",
+    "Unstoppable Onslaught does not apply the knock up nor stun to enemies from slamming on collision with terrain.",
+    "Unstoppable Onslaught cannot charge through but can leap over player-generated terrain.",
+    "Recast: Sion leaps forward, causing him to stop charging and slam the ground beneath him as if Unstoppable Onslaught had reached the end of its duration.",
+    "Sion can only move and use his basic attacks and item actives, and empowers himself with the following effects",
+    "Upon death, the current cooldowns of Sion's summoner spells are increased to 4 seconds. Afterwards, he is still unable to use them until he respawns.",
+    "So EQ really common combo on S here.",
+    "But the ER just essentially allows your ulti to hit",
+    "So you want to chain CC the Q off the ulti so that they don't have a chance to dodge it.",
+    "Your queue is very telegraphed, very easy to play around. If they can't see you a lot harder.",
+    "a fun thing with Q if you charge it up outside of your enemy's Vision they cannot see the indicator",
+    "for combos if you can land Q throw it out into your W and an auto attack e into an attack detonate your W and then attack away",
+    "your engaged combo is to Al and W into an auto attack and charge your Q from here Auto attack into E before attacking away",
+    "quand vous allez vraiment ulti une personne max range, vous pouvez vraiment charger un Q à 200 % en attendant bien la fin du stun après",
+    "L'intérêt, en fait, de mettre votre E avec Sion juste avant de mourir, vraiment juste avant, vous savez que vous allez mourir dans la seconde, vous le balancez, c'est qu'en fait, bah, vous allez passer sous forme passive",
+    "(traduction auto EN de la vidéo FR) your Z shield works in such a way that as long as you have at least one HP of shield and you can wait the 3 seconds before reactivating it, you will be able to reactivate it. That is to say, regardless of whether you have all of your shield left or almost none, the damage will be the same."
+  ],
+  "rejected": [
+    { "idea": "Flash + Cri du tueur (E) + Fracas meurtrier (A) (« Flash EQ »)", "reason": "Une seule source joueur (Coach Chippys), aucune interaction particulière décrite par le wiki : écarté selon la règle des combos avec Flash." },
+    { "idea": "Hitbox de Fracas meurtrier (A) plus longue sur les bords du cône", "reason": "Une seule source joueur (Misanthiel) ; la note wiki décrit une géométrie complexe sans confirmer clairement l'avantage : trop incertain." },
+    { "idea": "Assaut inarrêtable (R) glisse le long des murs pour tourner plus serré", "reason": "Le wiki confirme que Sion ne s'arrête pas toujours au contact d'un mur, mais Misanthiel dit lui-même que ce n'est pas constant : trop aléatoire pour une astuce." },
+    { "idea": "Relâcher Fracas meurtrier (A) quand la tourelle vient de tirer sur un sbire", "reason": "Conseil de gestion de wave générique, une seule source." }
+  ],
+  "toVerifyInGame": [
+    "Cri du tueur (E) lancé juste avant la mort : ralentissement (2,5 s) et réduction d'armure (4 s) encore actifs à la fin de la stase de 1,5 s de Gloire posthume ? (le ralentissement peut expirer pendant la stase si le sort est lancé trop tôt)",
+    "Timing exact pour relâcher Fracas meurtrier (A) chargé pendant le stun d'Assaut inarrêtable (R) sans laisser la cible s'échapper."
+  ]
+}

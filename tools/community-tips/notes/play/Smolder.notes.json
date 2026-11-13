@@ -1,0 +1,45 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Smolder spits a fireball at the target enemy that deals physical damage; applies on-hit effects; applies life steal at 50% effectiveness; and triggers on-attack effects.",
+    "cast time: 100% of Smolder's windup time",
+    "Enemy champions afflicted with the burn are also executed once Smolder deals damage to them that would leave them below 6.5% of their maximum health.",
+    "Only Smolder's damage counts for triggering the execute.",
+    "If the target is below the threshold while afflicted with the burn, they will be executed on the next instance of damage dealt by Smolder, which includes the burn tick.",
+    "Hitting an enemy champion creates an explosion that deals physical damage to nearby enemies",
+    "Spell shield can block either the glob or the explosion, but not both.",
+    "Smolder takes flight for 1.25 seconds, becoming ghosted and gaining 75% bonus movement speed, unobstructed vision, and the ability to ignore terrain collision.",
+    "Flap, Flap, Flap ends immediately if Smolder casts another ability or becomes immobilized.",
+    "Smolder reveals himself while attacking enemies, even inside terrain.",
+    "Spell shield will block only one bolt.",
+    "If Smolder is inside terrain when the effect ends, he will be placed correspondingly to the nearest valid space.",
+    "causing her to exhale a wave of fire starting from behind him and towards the target direction",
+    "Achooo! can only grant a stack of Dragon Practice with the first hit against each enemy champion.",
+    "Flap, Flap, Flap can only grant one stack of Dragon Practice per cast.",
+    "or whenever Super Scorcher Breath kills a minion or monster",
+    "you should always use your Q in between Auto techs to cancel the attack animation always Auto attack q auto attack",
+    "the W will be cast at the end of your flash animation so this is an ability you should use w and then flash with and not vice versa",
+    "a spell shield will only block one part of the debut the explosion or the ball itself",
+    "your e is a great way to counter spell shield since it will negate the whole spell shield with only one bolt",
+    "since smoulder can see the enemies they can see you if you are in attack range from over the wall revealing you",
+    "the best way to hit enemies over the other side of a wall is to e for vision then q and then use your W always in that order",
+    "since the r starts from behind smaller you can use it backwards to make it start behind yaso",
+    "throw your W towards the bush and count how many explosions you see if you see none that means there are no enemies inside",
+    "you can Q W's while you're inside of a wall, which will then cancel his E and pop you back out",
+    "Q and W flash. This can be useful to catch someone off guard while they're running away.",
+    "It's also useful getting behind Yasu wind wall or Yone shield.",
+    "your basic go-to is attack into Q, attack into W, attack into alt, and then attack away before chasing them down with E. And your burst combo is to attack into Q, W, and alt before attacking away once again chasing them down with E."
+  ],
+  "rejected": [
+    { "idea": "Flash de côté pendant Boule de feu draconique (A) pour orienter les éclats", "reason": "Une seule source (Cannon Minion, PBE 14.3), non confirmée par le wiki." },
+    { "idea": "Boule de feu draconique (A) part même si la cible Flash hors de portée pendant l'animation", "reason": "Une seule source (Cannon Minion, PBE 14.3)." },
+    { "idea": "Combo Atchoum ! (Z) + Boule de feu draconique (A) + Flap, flap, flap ! (E) en animation cancel pour un tir en plus", "reason": "Cannon Minion lui-même dit que ce n'est pas malin d'utiliser ton E ainsi ; source unique." },
+    { "idea": "Se cacher dans un mur avec Flap, flap, flap ! (E) pour gagner une seconde pendant un gank", "reason": "Une seule source (bluwunk), et le wiki précise que les tirs automatiques te révèlent." },
+    { "idea": "Seuils de cumuls 25/125 pour les explosions et éclats de Boule de feu draconique (A)", "reason": "Info de base du sort, pas une astuce ; la vidéo Cannon Minion (PBE) annonce d'autres valeurs que le wiki actuel." }
+  ],
+  "toVerifyInGame": [
+    "Atchoum ! (Z) puis Flash : vérifier que le sort part bien depuis la position d'arrivée du Flash au patch 16.22 (source principale tournée sur le PBE 14.3).",
+    "MAMAAAN ! (R) lancée dos à Yasuo : la vague démarre-t-elle bien au-delà de Mur de vent selon la distance ?"
+  ]
+}

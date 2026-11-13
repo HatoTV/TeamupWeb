@@ -1,0 +1,37 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Soraka calls down a star upon the target location that grants sight of the area before landing after 0.25 to 1 seconds, dealing magic damage to enemies hit and slowing them by 30% for 1.5 seconds.",
+    "If this hits at least one enemy champion, star dust returns to Soraka, granting her Rejuvenation for 2.5 seconds. While Soraka has Rejuvenation, casting Astral Infusion will also grant Rejuvenation to the target for the same duration.",
+    "If cast while under Starcall, the health cost will be reduced by a percentage.",
+    "Starcall counts as hitting even if it gets blocked by spell shield, granting Rejuvenation.",
+    "Equinox's silence is marked as non-dispellable, so it is not removed by most cleanses. It is however allowed to be removed by cleanses that also grant immunity to it, such as Ragnarok.",
+    "Spell shield will not block the silence.",
+    "Soraka gains 90% bonus movement speed while facing nearby allied champions that are below 40% of their maximum health.",
+    "Soraka will see an arrow indicating the direction in which she can gain the bonus movement speed.",
+    "Soraka calls upon the stars, healing herself and all allied champions, increased by 50% on targets below 40% of their maximum health.",
+    "Untargetable does not invalidate the targeting of the heal.",
+    "casting Wish immediately upon respawning will cause its cooldown to be unaffected by ability haste, and the healing will not be increased by Soraka's ability power.",
+    "Tip number one, your Q lands fast the closer you cast it to Soraka. So, instead of always playing max range, step up when it's safe.",
+    "Tip number two, your Q gives vision. If you are unsure where enemies are, use Q before placing a ward.",
+    "Tip number eight, even if your Q gets blocked by a spell shield, you still get the passive region.",
+    "don't instantly heal after landing your Q. Wait for your Q region proc, then use W. This makes your healing more efficient and makes cost almost nothing.",
+    "The closer that Soraka places down the circle to herself, the faster it deals damage.",
+    "if she's recently landed Q and has got the rejuvenation buff, when she uses this, the health cost is massively reduced and she also grants the rejuvenation buff to her ally.",
+    "For combos, very simply start Q and E before attacking away, healing your allies as often as possible.",
+    "If you hit your Q first, the enemy is slowed, which means it's much harder for them to get out of your E before it immobilizes them.",
+    "Therefore, it is great for removing shields and canceling return to base.",
+    "If it takes more than 1 second to cast an ability, your E will likely cancel it. Find out which champions on the enemy team have these abilities before the game starts, and save your E specifically for them.",
+    "you can see how I didn't save my E for the enemy Malzahar's ultimate."
+  ],
+  "rejected": [
+    { "idea": "Les clones (Shaco, Wukong, Neeko) donnent un Appel de l'étoile (A) touché gratuit", "reason": "Une seule source (Banana Mike) ; le wiki exige un champion ennemi touché, sans note sur les clones." },
+    { "idea": "Lancer Équinoxe (E) directement sur un ennemi déjà immobilisé par un allié", "reason": "Une seule source joueur, conseil de placement plus que mécanique." },
+    { "idea": "Nombre de points à mettre dans Appel de l'étoile (A) selon le matchup", "reason": "Ordre de montée des sorts, hors sujet." }
+  ],
+  "toVerifyInGame": [
+    "Délai exact après réapparition pour que Souhait (R) profite de la réduction de CD et de la puissance.",
+    "Ults canalisées réellement coupées par le silence d'Équinoxe (E) (Malzahar, Vel'Koz cités par la source)."
+  ]
+}

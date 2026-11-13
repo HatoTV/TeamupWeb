@@ -1,0 +1,102 @@
+{
+  "champion": "Swain",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade de base", "en": "Bread-and-butter trade" },
+      "keys": ["E", "W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Une fois la cible enracinée par Capture (E), pose Œil de l'empire (Z) devant elle, réactive Capture (E) pour la tirer dans la zone, puis Poigne mortifère (A) à bout portant.",
+        "en": "Once Nevermove (E) roots the target, drop Vision of Empire (W) in front of them, recast Nevermove (E) to pull them into the zone, then Death's Hand (Q) point-blank."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec Incarnation démoniaque", "en": "Demonic Ascension all-in" },
+      "keys": ["E", "W", "R", "E", "Q", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Enracine avec Capture (E), Œil de l'empire (Z), active Incarnation démoniaque (R), tire la cible vers toi avec la réactivation de Capture (E), Poigne mortifère (A), puis Éruption démoniaque (R).",
+        "en": "Root with Nevermove (E), Vision of Empire (W), activate Demonic Ascension (R), pull the target in with the Nevermove (E) recast, Death's Hand (Q), then Demonflare (R)."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Capture redirigée au Flash", "en": "Flash-redirected Nevermove" },
+      "keys": ["E", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Lance Capture (E), puis Flash pendant que la vague revient : elle repart vers ta nouvelle position et attrape un ennemi qui pensait l'avoir esquivée.",
+        "en": "Cast Nevermove (E), then Flash while the wave is coming back: it homes to your new position and catches an enemy who thought they dodged it."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si l'ennemi enraciné est déjà collé à toi, la réactivation de Capture (E) ne le tire pas : il rebondit sur toi et repart en arrière. Pratique pour repousser un mêlée.",
+        "en": "If the rooted enemy is already on top of you, the Nevermove (E) recast doesn't pull them: they bounce off you and fly back. Handy to push a melee away."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu peux réactiver Capture (E) pendant l'incantation de tes autres sorts. Si la cible dash, blink ou se purge de la racine, la réactivation disparaît.",
+        "en": "You can recast Nevermove (E) during the cast time of your other spells. If the target dashes, blinks or cleanses the root, the recast is lost."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier de sort bloque soit l'explosion de Capture (E), soit sa traction à la réactivation. Bloquée, la traction ne te donne pas non plus de fragment d'âme.",
+        "en": "A spell shield blocks either the Nevermove (E) explosion or the recast pull. If the pull is blocked, you don't get a Soul Fragment from it either."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Œil de l'empire (Z) porte très loin et révèle les champions touchés 6 secondes. Sers-t'en pour repérer le jungler ou un objectif, mais l'ennemi le voit et l'entend, même dans le brouillard.",
+        "en": "Vision of Empire (W) has huge range and reveals champions hit for 6 seconds. Use it to spot the jungler or an objective, but enemies see and hear it, even through fog."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Éruption démoniaque (R) part toute seule à la fin d'Incarnation démoniaque (R) si elle est prête. Garde-la pour ralentir ceux qui fuient ta zone de drain.",
+        "en": "Demonflare (R) fires on its own when Demonic Ascension (R) ends if it's ready. Save it to slow enemies running out of your drain zone."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Éruption démoniaque (R) part de là où tu es à la fin de son incantation, et tu peux bouger pendant. Mur de vent de Yasuo ou Incassable de Braum bloquent la partie de l'onde qu'ils interceptent.",
+        "en": "Demonflare (R) fires from where you stand at the end of its cast, and you can move during it. Yasuo's Wind Wall or Braum's Unbreakable block the part of the nova they intercept."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Un champion ennemi tué laisse un fragment d'âme 16 secondes, ramassable après 1 seconde. Tes corbeaux ne sont visibles que si l'ennemi te voit.",
+        "en": "A dead enemy champion leaves a Soul Fragment for 16 seconds, collectable after 1 second. Your ravens are only visible if the enemy can see you."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Swain - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Swain", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Swain Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=wpEB6TQPaSA", "type": "video", "date": "2026-06-22", "author": "3 Minute League of Legends" },
+    { "title": "Why Swain Works So Well in Solo Queue", "url": "https://www.youtube.com/watch?v=_8OL9KjuVjo", "type": "video", "date": "2025-12-23", "author": "Zoose" },
+    { "title": "GUIDE SWAIN SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=75AiljuWGKc", "type": "video", "date": "2026-01-18", "author": "EXYT - League of Legends" }
+  ]
+}

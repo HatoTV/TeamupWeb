@@ -1,0 +1,43 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Dark Sphere can be conjured inside terrain, but cannot be thrown there with Force of Will.",
+    "Scatter the Weak will knock back Spheres even farther if they are inside terrain, up until they reach open space.",
+    "Dark Sphere can be knocked back for 950 units and up to 1200 units away from Syndra based on proximity, knocking back enemies they hit over 70 units, though not through terrain. Targets hit are also stunned for 1.25 seconds",
+    "Unleashed Power cannot be interrupted by any means, including death or resurrection. Unleashed Power will complete its effect so long as Syndra has initiated its cast.",
+    "Spell shield will only block the damage of a single sphere.",
+    "A sphere summoned very shortly before Unleashed Power will be used as one of the spheres that get thrown.",
+    "Unleashed Power will not add a Sphere that Syndra is holding with Force of Will.",
+    "Spheres that are being pushed by Scatter the Weak (normally ones that were made late during the push) will not get picked up for Unleashed Power.",
+    "The Dark Sphere will then remain on the ground next to the target's current location for 6 seconds.",
+    "Syndra can grab pets, such as Jack in the Box.",
+    "Summon: Tibbers will continue to inflict burn damage on surrounding units while being held.",
+    "Dealing two instances of champion ability damage to an enemy champion within 4 seconds grants 1;2;3 Splinters.",
+    "Collecting a Splinter of Wrath from an enemy restores mana",
+    "Scatter the Weak is blocked by the portion of Wind Wall it collides with. Spheres thrown will stop upon colliding with the wall.",
+    "You place Q, then use E to knock the sphere through the enemy and stun them.",
+    "This combo uses W first to slow the enemy before going for your Q E stun. You can pick up a minion, monster, or sphere with W.",
+    "This is Syndra's main kill combo. You start with Q and E to stun the target, then follow up with W while they're locked down. Once they're low enough or stuck in the combo, use R to finish them.",
+    "you can use R first, then E the spheres afterwards to create a massive stun",
+    "If you perform the Q E combo inside a wall, the sphere can travel through the wall and extend the stun range much further than normal.",
+    "You cast E, then instantly flash to close distance and launch the sphere.",
+    "Sometimes the goal is simply to hit two abilities, claim your splinters, then back off.",
+    "on commence par le combo le plus classique ça va être le queue plus e c'est simple c'est le combo classique de trade en lane tu mets ton queue tu follow up avec le E ça stun la cible",
+    "le combo classique de Sindra avec tes trois spell soit le wqe donc tu vas commencer par le W pour slow",
+    "même combo wqe plus ton ulti que tu rajoutes donc c'est exactement la même chose mais donc là tu vas rajouter ton UL c'est le combo classique pour One Shot une cible",
+    "commencer par le r ça va mettre toutes les sphères au sol et ensuite que le mec dash ou flash il a quand même très peu de chance d'escape ton stun",
+    "dernier combo c'est le E flash donc ça va surprendre parce que c'est beaucoup plus rapide qu'un flash e et ça va te permettre de trouver des angles de stun auquel l'adversaire ne s'attend pas",
+    "ton e et ton W vont plus loin à travers les murs si tu dépasses plus de de la moitié du mur",
+    "il faut absolument que tu prennes l'habitude de faire c'est de toujours remettre un Q spell avant de r"
+  ],
+  "rejected": [
+    { "idea": "Force de la volonté (Z) lancé par-dessus un mur porte plus loin", "reason": "Deux sources joueurs, mais le wiki précise qu'une sphère ne peut pas être lancée dans le terrain : écarté par prudence, à tester." },
+    { "idea": "Combo E puis A (sphère poussée en cours de lancer)", "reason": "Jugé très dur et peu utile par Shambless, une seule source." },
+    { "idea": "Lancer Force de la volonté (Z) d'un côté et Sphère noire (A) de l'autre pour un stun plus large", "reason": "Placement validé par deux sources mais trop proche du combo de base ; gardé hors fiche pour rester concis." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte du combo Dispersion des faibles (E) puis Flash.",
+    "Spots de mur où la sphère poussée par Dispersion des faibles (E) traverse vraiment."
+  ]
+}

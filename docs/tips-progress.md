@@ -172,18 +172,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Shyvana (4 combos, 6 astuces)
 - ✅ Singed (2 combos, 6 astuces)
 
-### Lot 13 — ⏳
+### Lot 13 — ✅
 
-- ⏳ Sion
-- ⏳ Sivir
-- ⏳ Skarner
-- ⏳ Smolder
-- ⏳ Sona
-- ⏳ Soraka
-- ⏳ Swain
-- ⏳ Sylas
-- ⏳ Syndra
-- ⏳ TahmKench
+- ✅ Sion (4 combos, 8 astuces)
+- ✅ Sivir (3 combos, 7 astuces)
+- ✅ Skarner (4 combos, 8 astuces)
+- ✅ Smolder (4 combos, 8 astuces)
+- ✅ Sona (3 combos, 8 astuces)
+- ✅ Soraka (2 combos, 8 astuces)
+- ✅ Swain (3 combos, 7 astuces)
+- ✅ Sylas (2 combos, 8 astuces)
+- ✅ Syndra (5 combos, 7 astuces)
+- ✅ TahmKench (3 combos, 8 astuces)
 
 ### Lot 14 — ⏳
 

@@ -1,0 +1,108 @@
+{
+  "champion": "TahmKench",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Deux autos, langue, dévoration", "en": "Two autos, tongue, devour" },
+      "keys": ["Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Deux autos pour poser deux charges de Goût acquis, puis Coup de langue (A) pour la troisième et le stun. Lance Dévoration (R) pendant la langue : la cible est tirée jusqu'à toi et avalée.",
+        "en": "Two autos to apply two An Acquired Taste stacks, then Tongue Lash (Q) for the third and the stun. Cast Devour (R) during the lash: the target is pulled to you and swallowed."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Langue puis plongée", "en": "Tongue, then dive" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Coup de langue (A) ralentit de 50 % pendant 2 secondes, assez pour couvrir la canalisation de Plongée abyssale (Z). Plonge sur la cible ralentie pour la projeter en l'air.",
+        "en": "Tongue Lash (Q) slows by 50% for 2 seconds, long enough to cover the Abyssal Dive (W) channel. Dive onto the slowed target to knock them up."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Avaler un allié puis plonger", "en": "Swallow an ally, then dive" },
+      "keys": ["R", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Avale ton carry en danger avec Dévoration (R), puis Plongée abyssale (Z) : il voyage avec toi et ne ressort qu'après la plongée, avec un gros bouclier.",
+        "en": "Swallow your endangered carry with Devour (R), then Abyssal Dive (W): they travel with you and only come out after the dive, with a big shield."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux mettre Dévoration (R) en file à tout moment de Coup de langue (A), même pendant l'animation. Si la langue rate, l'ult ne part pas en CD.",
+        "en": "You can queue Devour (R) at any point during Tongue Lash (Q), even during the windup. If the lash misses, the ult doesn't go on cooldown."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Coup de langue (A) consomme les trois charges de Goût acquis même si le stun est annulé. Contre un ennemi insensible aux contrôles, tu perds tes charges pour rien.",
+        "en": "Tongue Lash (Q) consumes all three An Acquired Taste stacks even if the stun is negated. Against a crowd-control immune enemy, you waste your stacks."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Dévoration (R) échoue sur un ennemi protégé par un bouclier de sort ou immunisé aux contrôles : pas de traction, pas d'avalement.",
+        "en": "Devour (R) fails on an enemy protected by a spell shield or immune to crowd control: no pull, no swallow."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Avaler un ennemi te cloue au sol et te ralentit de 40 %. Ne le fais que si son équipe ne peut pas te punir tout de suite.",
+        "en": "Swallowing an enemy grounds you and slows you by 40%. Only do it when their team can't punish you right away."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Peau épaisse (E) stocke plus de PV gris quand au moins deux champions ennemis sont visibles près de toi. Active-la pour transformer ces PV gris en bouclier.",
+        "en": "Thick Skin (E) stores more grey health when at least two enemy champions are visible near you. Activate it to turn that grey health into a shield."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Les ennemis voient la destination de Plongée abyssale (Z) après 0,75 seconde de canalisation, et tu restes bloqué 0,65 seconde à l'arrivée. Plonge depuis un angle sans vision.",
+        "en": "Enemies see the Abyssal Dive (W) destination after 0.75 seconds of channel, and you're stuck for 0.65 seconds on arrival. Dive from an unwarded angle."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un allié avalé par Dévoration (R) peut cliquer droit pour te faire le recracher dans la direction de son choix, sauf s'il est immobilisé.",
+        "en": "An ally swallowed by Devour (R) can right-click to make you spit them out in the direction they choose, unless they're immobilized."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Les dégâts bonus de Goût acquis s'appliquent aussi aux tourelles. Tes autos font mal aux plates quand la lane est libre.",
+        "en": "The bonus damage from An Acquired Taste also applies to turrets. Your autos hurt plates when the lane is open."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Tahm Kench - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Tahm_Kench", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Tahm Kench Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=KkdXe56-KlQ", "type": "video", "date": "2026-03-09", "author": "3 Minute League of Legends" },
+    { "title": "Best Tahm Kench Build & Guide (2026) — League of Legends", "url": "https://www.dodge.gg/lol/news/tahm-kench-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" }
+  ]
+}

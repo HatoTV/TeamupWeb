@@ -1,0 +1,37 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Tahm Kench's basic attacks on-hit and Tongue Lash are empowered to deal bonus magic damage and apply a stack of An Acquired Taste against enemy champions for 5 seconds, refreshing on subsequent hits and stacking up to 3 times.",
+    "The passive bonus damage applies to turrets.",
+    "Tahm Kench lashes his tongue in the target direction that deals magic damage to the first enemy hit and slows them by 50% for 2 seconds.",
+    "An Acquired Taste Bonus: The target is stunned for 1.5 seconds. Devour can be cast during Tongue Lash at no cost to pull the target to Tahm Kench before swallowing them.",
+    "Devour can be 'queued' at any point during Tongue Lash (including the wind-up animation) and will not go on cooldown if Tahm Kench fails to hit a valid target with Tongue Lash.",
+    "All three An Acquired Taste stacks will be consumed even if Tongue Lash's stun is negated.",
+    "Tahm Kench channels for 1.35 seconds as he dives into the waters to emerge at the target location",
+    "Enemies can see the indicator for Tahm Kench's destination after he has channeled for 0.75 seconds, if they have sight of the area. Tahm Kench remains unable to act for 0.65 seconds after the blink.",
+    "Tahm Kench stores a portion of the post-mitigation damage he takes as grey health on his health bar, increased while there are at least 2 nearby visible enemy champions either dead or alive.",
+    "Tahm Kench converts his current grey health into a shield that lasts for 2.5 seconds.",
+    "The swallowed ally can also input a movement command to force Tahm Kench to cast Regurgitate in a target direction of their choice, unless they are immobilized.",
+    "The target is suppressed during Devour's cast time and while attached. Tahm Kench will also be grounded and slowed by 40% under those same conditions.",
+    "If Tahm Kench is performing Abyssal Dive, Regurgitate will not automatically cast until after he finishes Abyssal Dive effects.",
+    "Tahm Kench will also gain 60% bonus movement speed for 3 seconds and is unable to cast movement spells besides Abyssal Dive while an ally is inside of his belly.",
+    "If the target resists the suppression by being immune to crowd control, displacement immune, or having a spell shield, Tahm Kench will not pull the target towards him.",
+    "For combos, your go-to is to attack three times into your Q and W. From here, attack three more times into your alt. And a solid engage combo is to Q into your W while they're slowed.",
+    "This ability can also be used in combination with your Q to eat an enemy champion from range.",
+    "The standard trading pattern is auto attack (stack 1) → auto attack (stack 2) → Q (stack 3 + stun)",
+    "Tongue Lash instead stuns them for 1.5 seconds and Devour can be cast on the stunned target",
+    "the ability to carry a Devoured ally with him during the channel enables creative save plays and coordinated engages.",
+    "Never Devour an enemy champion unless the enemy team cannot immediately punish the 40% self-slow",
+    "Abyssal Dive from an unwarded angle provides an unavoidable knockup that disrupts enemy positioning"
+  ],
+  "rejected": [
+    { "idea": "Attendre la fin de Dévoration (R) sur un ennemi pour lancer Coup de langue (A) impossible à esquiver", "reason": "Guide coréen 2024 vu seulement en résumé de recherche, non lu ; une seule source." },
+    { "idea": "Le combo Coup de langue (A) + Dévoration (R) ne coûte que le mana de la langue", "reason": "Le wiki le confirme (« at no cost ») mais l'article Dignitas est ancien ; info jugée peu utile en jeu." },
+    { "idea": "Dévoration (R) d'un allié puis Flash et Plongée abyssale (Z)", "reason": "Combo avec Flash vu uniquement en résumé de recherche (Mobalytics), non lu." }
+  ],
+  "toVerifyInGame": [
+    "Couverture réelle de la canalisation de Plongée abyssale (Z) par le ralentissement de Coup de langue (A) selon la distance.",
+    "Moment exact où Dévoration (R) peut être mise en file pendant Coup de langue (A)."
+  ]
+}

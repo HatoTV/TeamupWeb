@@ -1,0 +1,34 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Ricochet basic attack resets Sivir's basic attack timer if it was not already active.",
+    "Sivir's attack timer will only reset from casting Ricochet if the ability's buff was not already active on her. Refreshing the buff will not grant an attack reset.",
+    "The target does not have to be visible to be bounced to.",
+    "Ricochet-enhanced basic attacks can bounce from structures onto secondary targets but not from nearby units onto structures.",
+    "Upon reaching maximum range, the crossblade returns to her, resetting the damage modifier and dealing the same damage to enemies on its way back.",
+    "The damage reduction per unit hit resets back to full damage upon changing direction.",
+    "Upon successfully blocking a hostile effect, she heals herself and activates Fleet of Foot after 0.25 seconds.",
+    "Spell Shield will still block abilities that have already been applied to Sivir if the delayed effects of that ability is area of effect (e.g. Blaze 2 explosion, Chum the Waters, and Time Bomb).",
+    "Fleet of Foot will trigger even if the attack is dodged, blocked or misses due to blind or if the ability is negated by a spell shield.",
+    "While active, Sivir's basic attacks on-attack reduce her basic abilities' current cooldowns by 0.5 seconds each.",
+    "Sivir can refresh the duration of her On the Hunt buff whenever she scores a takedown against an enemy champion within 3 seconds of damaging them.",
+    "What's another really important point with Sivir W is that it's actually auto attack reset.",
+    "Really important that if you Q the enemy, there's no damage reduction at all.",
+    "it's actually proccing your passive",
+    "what we want to do with it is we want to make it cancel our Auto attack so what we're going to do is we're going to Auto and then W",
+    "we can do auto w q auto again",
+    "we do auto w e to spell shield the waterfall and then Q dead",
+    "For each non- champion target, damage is reduced by 15%, up to a maximum of 60% reduction.",
+    "Regarding combos: start with an ult if you're going all -in. After that, attack, activate W, reset the animation, and use Q, continuing to attack and using E as needed."
+  ],
+  "rejected": [
+    { "idea": "Lame boomerang (A) revient même si Sivir meurt", "reason": "Vrai selon le wiki mais sans intérêt pratique en combo ou astuce." },
+    { "idea": "Ricochet (Z) n'est pas transmis aux cibles secondaires de l'Ouragan de Runaan", "reason": "Interaction d'objet de build plutôt que mécanique de jeu ; écartée pour rester sur les combos et astuces." },
+    { "idea": "Combo avec Flash", "reason": "Aucune source joueur ni note wiki sur une interaction Flash propre à Sivir." }
+  ],
+  "toVerifyInGame": [
+    "Réduction de dégâts de Lame boomerang (A) : 15 % par cible non-champion (max 60 %) selon 3 Minute League of Legends ; le wiki n'affiche pas la valeur exacte (modèle non résolu).",
+    "Timing du reset de Ricochet (Z) juste après l'impact de l'auto (cancel trop tôt = auto perdue)."
+  ]
+}

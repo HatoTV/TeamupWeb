@@ -1,0 +1,101 @@
+{
+  "champion": "Sivir",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Reset d'auto avec Ricochet", "en": "Ricochet auto reset" },
+      "keys": ["W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Place une auto, puis lance Ricochet (Z) juste après le coup : l'auto suivante part tout de suite. Deux autos quasi collées au lieu d'une.",
+        "en": "Land an auto, then cast Ricochet (W) right after the hit: the next auto fires immediately. Two autos almost back to back instead of one."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Trade auto, Ricochet, Lame", "en": "Auto, Ricochet, Blade trade" },
+      "keys": ["W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Auto, Ricochet (Z) pour reset l'auto, puis Lame boomerang (A) sur la cible et une dernière auto. Le gros du burst de Sivir en lane.",
+        "en": "Auto, Ricochet (W) to reset the auto, then Boomerang Blade (Q) on the target and one last auto. The bulk of Sivir's lane burst."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "All-in sous En chasse", "en": "All-in with On The Hunt" },
+      "keys": ["R", "W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance En chasse (R) près de tes alliés, auto puis Ricochet (Z) en reset. Garde Bouclier magique (E) pour le CC adverse, puis Lame boomerang (A).",
+        "en": "Cast On The Hunt (R) near your allies, auto then Ricochet (W) as a reset. Keep Spell Shield (E) for the enemy CC, then Boomerang Blade (Q)."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Ricochet (Z) ne reset ton auto que si son effet n'est pas déjà actif. Relancé pendant le buff, il le prolonge sans reset : garde-le pour après une auto.",
+        "en": "Ricochet (W) only resets your auto if its effect isn't already active. Recast during the buff, it refreshes it without a reset: keep it for after an auto."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lame boomerang (A) perd des dégâts à chaque sbire traversé, pas sur les champions. Au retour, les dégâts repartent à plein : vise pour que le retour touche la cible sans sbire devant.",
+        "en": "Boomerang Blade (Q) loses damage for each minion it passes through, not for champions. On the way back, damage resets to full: aim so the return hits the target with no minion in front."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Bouclier magique (E) te soigne et déclenche ta vitesse de Mille-pattes dès qu'il bloque un effet. Utilise-le sur un poke prévisible pour regagner des PV en lane.",
+        "en": "Spell Shield (E) heals you and triggers your Fleet of Foot speed as soon as it blocks an effect. Use it on a predictable poke to win back HP in lane."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Bouclier magique (E) bloque aussi une explosion retardée déjà posée sur toi : celle de Flammes de Brand, Pêche au gros de Fizz ou Bombe à retardement de Zilean.",
+        "en": "Spell Shield (E) also blocks a delayed explosion already placed on you: Brand's Blaze, Fizz's Chum the Waters or Zilean's Time Bomb."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Mille-pattes se déclenche même si ton auto est esquivée, bloquée ou ratée sous aveuglement, et même si ton sort est absorbé par un bouclier magique adverse.",
+        "en": "Fleet of Foot triggers even if your auto is dodged, blocked or misses while blinded, and even if your ability is absorbed by an enemy spell shield."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les rebonds de Ricochet (Z) touchent aussi des ennemis que tu ne vois pas. Ils partent d'une tourelle vers les unités proches, mais jamais d'une unité vers une tourelle.",
+        "en": "Ricochet (W) bounces also hit enemies you can't see. They jump from a turret to nearby units, but never from a unit onto a turret."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Sous En chasse (R), chaque auto réduit de 0,5 s le CD de tes sorts de base. Un kill ou un assist dans les 3 s après tes dégâts relance la durée du buff.",
+        "en": "During On The Hunt (R), each auto cuts 0.5 s off your basic abilities' cooldowns. A kill or assist within 3 s of your damage refreshes the buff duration."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Sivir - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Sivir", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Pro Player Explains How to Play Sivir – Challenger Guide", "url": "https://www.youtube.com/watch?v=w_Iy-_zpijM", "type": "video", "date": "2026-04-29", "author": "Varry" },
+    { "title": "How to Auto Cancel on Sivir!", "url": "https://www.youtube.com/watch?v=AaCSUDFD6Rw", "type": "video", "date": "2024-11-19", "author": "Aicaid" },
+    { "title": "3 Minute Sivir Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=YFxEiaJYG-w", "type": "video", "date": "2026-09-12", "author": "3 Minute League of Legends" }
+  ]
+}

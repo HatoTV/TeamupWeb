@@ -1,0 +1,108 @@
+{
+  "champion": "Sona",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, Hymne, auto instantanée", "en": "Auto, Hymn, instant auto" },
+      "keys": ["Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Si Hymne à la bravoure (A) complète tes 3 charges d'Accord de puissance, lance-le juste après une auto : l'auto renforcée gagnée reset ton timer et part tout de suite.",
+        "en": "If Hymn of Valor (Q) completes your 3 Power Chord stacks, cast it right after an auto: the empowered auto you gain resets your timer and fires right away."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Finir sur Aria contre l'all-in", "en": "End on Aria against all-ins" },
+      "keys": ["E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Mélodie de vélocité (E), Hymne à la bravoure (A), puis Aria de persévérance (Z) en dernier : ton auto renforcée réduit les dégâts de la cible, comme un mini-Fatigue.",
+        "en": "Song of Celerity (E), Hymn of Valor (Q), then Aria of Perseverance (W) last: your empowered auto reduces the target's damage, like a mini Exhaust."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Finir sur Mélodie pour ralentir", "en": "End on Song to slow" },
+      "keys": ["W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Aria de persévérance (Z), Hymne à la bravoure (A), puis Mélodie de vélocité (E) en dernier : ton auto renforcée ralentit la cible de 50 % pendant 2 s.",
+        "en": "Aria of Perseverance (W), Hymn of Valor (Q), then Song of Celerity (E) last: your empowered auto slows the target by 50% for 2 s."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "L'effet de ton auto renforcée dépend du dernier sort lancé. La couleur de l'anneau autour de Sona te dit lequel est prêt : vérifie-la avant de frapper.",
+        "en": "Your empowered auto's effect depends on the last ability you cast. The color of the ring around Sona tells you which one is ready: check it before you hit."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Chaque sort de base met les deux autres en CD global de 0,5 s. Enchaîner tes trois sorts prend donc au moins une seconde : anticipe ton combo.",
+        "en": "Each basic ability puts the other two on a 0.5 s global cooldown. Chaining your three abilities takes at least a second: plan your combo ahead."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Une Aria de persévérance (Z) peut donner 2 cumuls d'Accelerando : un pour le soin d'un allié blessé, un pour le bouclier s'il absorbe assez de dégâts.",
+        "en": "One Aria of Perseverance (W) can give 2 Accelerando stacks: one for healing a wounded ally, one for the shield if it absorbs enough damage."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "À 120 cumuls d'Accelerando, chaque cumul réduit le CD de Crescendo (R) de 1,5 s. Protège plusieurs alliés sur Nashor : les boucliers qui encaissent rechargent vite ton ult.",
+        "en": "At 120 Accelerando stacks, each stack cuts 1.5 s off Crescendo (R). Shield several allies at Baron: shields that soak damage recharge your ult fast."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Hymne à la bravoure (A) touche aussi tes alliés proches : leur prochaine auto dans les 5 s fait des dégâts magiques en plus. Lance-le juste avant que ton ADC frappe.",
+        "en": "Hymn of Valor (Q) also tags nearby allies: their next auto within 5 s deals bonus magic damage. Cast it right before your ADC attacks."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Hymne à la bravoure (A) vise les deux ennemis visibles les plus proches, champions en priorité, et révèle la zone autour d'eux pendant 1 s.",
+        "en": "Hymn of Valor (Q) targets the two nearest visible enemies, champions first, and reveals the area around them for 1 s."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le bonus de vitesse de Mélodie de vélocité (E) s'arrête si tu prends des dégâts après 3 s. Lance-le pour te replacer, pas en plein poke.",
+        "en": "The Song of Celerity (E) speed boost ends if you take damage after 3 s. Use it to reposition, not in the middle of a poke."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le soin d'Aria de persévérance (Z) suit un allié invisible sans le révéler. Tu peux soigner ton jungler camouflé sans trahir sa position.",
+        "en": "The Aria of Perseverance (W) heal follows an invisible ally without revealing them. You can heal your stealthed jungler without giving away their position."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Sona - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Sona", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Sona Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=yKsoRmWWUvg", "type": "video", "date": "2026-08-02", "author": "3 Minute League of Legends" },
+    { "title": "5 WAYS TO IMPROVE YOUR SONA GAMEPLAY! | League of Legends", "url": "https://www.youtube.com/watch?v=mqfrYei26yc", "type": "video", "date": "2026-02-11", "author": "MattZephy" }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Vorpal Spikes basic attack resets Cho'Gath's basic attack timer.",
+    "Enemies struck are dealt magic damage and slowed by an amount that decays over 1.5 seconds.",
+    "Cho'Gath ruptures the target location after a delay, granting sight of the area before dealing magic damage to enemies within and knocking them up for 1 second, and afterwards slowing them by 60% for 1.5 seconds.",
+    "The delay before the rupture does not include the cast time.",
+    "The area will still rupture even if Cho'Gath dies during the delay.",
+    "Cleansing the airborne will not prevent the slow.",
+    "The slow itself can also not be blocked by spell shield, but will always be prevented if the airborne was.",
+    "Enemy champions and hit are also silenced for a duration.",
+    "The width of the blast of spikes increases based on Cho'Gath's character size modifier when they launch, including but not limited to the bonus from Feast stacks.",
+    "Cho'Gath's size factors into the wideness of the hitbox Vorpal Spikes has. External size modifiers (Wild Growth) contribute to this.",
+    "If the target is killed, Cho'Gath gains a stack of Feast. Only 6 stacks can be gained from non-epic monsters or minions.",
+    "Non-Champion True Damage 1200 (+ 50% AP) (+ 10% bonus health)",
+    "If an enemy champion has health below the amount of true damage Feast deals, they will be marked for execution. This indicator does not consider shields or invulnerability.",
+    "Carnivore will also trigger when Cho'Gath destroys a turret, but not from other structures.",
+    "Carnivore does not trigger upon destroying wards and possibly other similar units.",
+    "The first combo is the auto attack E combo. You should always auto attack first and then press your ability after so you can deal more damage.",
+    "The second combo is auto EQ combo. This combo lets you deal your damage and hit Q more easily because of the slow.",
+    "The third combo is Q auto EW. This is a great combo that lets you auto tech and then use your E as well during the knockup of your Q.",
+    "you can have a maximum of six stacks on the wave here.",
+    "you can stack permanently on champions. So, champions do not have a limitation. It's only the wave itself that has a limitation.",
+    "For a combo: attack, press E, then instantly do two more hits",
+    "Add Q, punch, and W, then keep attacking until you can eat the target with your ultimate.",
+    "Your initiative input: Q, punch, and E. Add W, then attack again until you can eat them.",
+    "Although you only benefit from the first six minions or monsters eaten, it can accumulate charges infinitely by eating champions and epic monsters.",
+    "Increasing the size gives him a bonus to his attack radius and also makes his E wider."
+  ],
+  "rejected": [
+    {
+      "idea": "Time Feral Scream (W) during Darius' Apprehend to cancel his follow-up (Daveyx3)",
+      "reason": "Single source, matchup-specific, not in the wiki notes."
+    },
+    {
+      "idea": "W + Flash, Q, E, R execute combo (Mobalytics combos page)",
+      "reason": "Page returned HTTP 403, content not read."
+    }
+  ],
+  "toVerifyInGame": [
+    "Exact timing to fit an auto and Vorpal Spikes (E) inside the 1 s Rupture (Q) knock-up."
+  ]
+}

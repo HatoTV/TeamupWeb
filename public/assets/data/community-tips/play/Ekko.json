@@ -1,0 +1,167 @@
+{
+  "champion": "Ekko",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Rush puis Rétrobang",
+        "en": "Phase Dive into Timewinder"
+      },
+      "keys": [
+        "E",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Rush déphasé (E) et Rétrobang (A) presque en même temps : le A part pendant le dash, puis ton auto renforcée finit le trade. Recule ensuite avec la vitesse du passif.",
+        "en": "Cast Phase Dive (E) and Timewinder (Q) almost together: Q fires during the dash, then your empowered auto ends the trade. Back off with your passive's speed."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Rétrobang puis Rush en chase",
+        "en": "Timewinder then dive chase"
+      },
+      "keys": [
+        "Q",
+        "E"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche d'abord Rétrobang (A) : le slow te laisse combler l'écart. Rush déphasé (E) et son auto à longue portée finissent la chase.",
+        "en": "Land Timewinder (Q) first: the slow lets you close the gap. Phase Dive (E) and its long-range auto finish the chase."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": {
+        "fr": "Stun garanti dans la sphère",
+        "en": "Guaranteed stun in the sphere"
+      },
+      "keys": [
+        "W",
+        "E",
+        "Q"
+      ],
+      "level": "hard",
+      "desc": {
+        "fr": "Pose Convergence parallèle (Z) sur la cible, puis Rush déphasé (E) et Rétrobang (A) : les deux slows la gardent dedans, et ton auto renforcée te fait entrer pour le stun.",
+        "en": "Drop Parallel Convergence (W) on the target, then Phase Dive (E) and Timewinder (Q): both slows keep them inside, and your empowered auto brings you in for the stun."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Rush déphasé (E) traverse les murs : vise de l'autre côté et le dash s'allonge jusqu'à 550 unités, juste ce qu'il faut pour franchir.",
+        "en": "Phase Dive (E) crosses walls: aim at the other side and the dash extends up to 550 units, just enough to get over."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Déclencher RéZonance sur un champion te donne de la vitesse. Elle ne se relance pas sur la même cible avant quelques secondes, mais un autre champion la relance.",
+        "en": "Triggering Z-Drive Resonance on a champion gives you speed. It cannot proc on the same target again for a few seconds, but another champion refreshes it."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'auto de Rush déphasé (E) te téléporte sur ta cible : bufferise-la au moment où elle Flash ou dash, et tu atterris sur elle.",
+        "en": "The Phase Dive (E) auto blinks you onto your target: buffer it as they Flash or dash, and you land right on them."
+      },
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si ta cible devient intouchable, meurt ou s'éloigne trop pendant l'incantation de l'auto de Rush déphasé (E), l'auto est annulée mais tu la gardes.",
+        "en": "If your target turns untargetable, dies or gets too far during the Phase Dive (E) auto cast time, the attack is cancelled but you keep it."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Chronofracture (R) suit tout ton chemin des 4 dernières secondes : si ce trajet passe par ta Convergence parallèle (Z), tu la fais exploser en route, même intouchable.",
+        "en": "Chronobreak (R) follows your whole path from the last 4 seconds: if that path crosses your Parallel Convergence (W), you detonate it on the way, even while untargetable."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le retour de Rétrobang (A) inflige ses propres dégâts, avec un plus gros ratio AP que l'aller. Beaucoup esquivent l'aller et oublient le retour : vise-le.",
+        "en": "The Timewinder (Q) return deals its own damage, with a bigger AP ratio than the throw. Many dodge the throw and forget the return: aim for it."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "L'ennemi ne voit l'indicateur de Convergence parallèle (Z) que 2 secondes après ton lancement. Lance-la tôt, elle reste cachée un moment.",
+        "en": "The enemy only sees the Parallel Convergence (W) indicator 2 seconds after you cast it. Cast it early, it stays hidden for a while."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ekko – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Ekko",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "How To Actually Play Ekko: Combos & Mechanics Explained",
+      "url": "https://www.youtube.com/watch?v=AyWsPJBuBBo",
+      "type": "video",
+      "date": "2025-10-09",
+      "author": "Spyfish"
+    },
+    {
+      "title": "Top 5 Secret Ekko Tricks",
+      "url": "https://www.youtube.com/watch?v=6duBsxs-NlU",
+      "type": "video",
+      "date": "2024-12-15",
+      "author": "Ekkoliner"
+    }
+  ]
+}

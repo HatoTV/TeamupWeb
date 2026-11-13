@@ -1,0 +1,100 @@
+{
+  "champion": "Corki",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Gatling en plein vol", "en": "Gatling mid-flight" },
+      "keys": ["W", "E", "R", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Valkyrie (Z) et active Gatling (E) pendant le dash. Ensuite alterne : auto, Barrage de projectiles (R), auto, Bombe au phosphore (A), auto, R, puis recule en tapant.",
+        "en": "Cast Valkyrie (W) and turn on Gatling Gun (E) during the dash. Then alternate: auto, Missile Barrage (R), auto, Phosphorus Bomb (Q), auto, R, then back off while attacking."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Tout sur une cible CC", "en": "Everything on a CC'd target" },
+      "keys": ["W", "Q", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Quand ton support immobilise sa cible, enchaîne Valkyrie (Z) pour brûler la zone, Bombe au phosphore (A) et Barrage de projectiles (R). Tous tes skillshots touchent pendant le CC.",
+        "en": "When your support locks a target down, chain Valkyrie (W) to burn the area, Phosphorus Bomb (Q) and Missile Barrage (R). All your skillshots land during the CC."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Trade court avec autos", "en": "Short trade with autos" },
+      "keys": ["Q", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Auto, Bombe au phosphore (A), auto, Barrage de projectiles (R), auto. Glisse toujours une auto entre deux sorts : chaque auto sur un champion recharge aussi ton R plus vite.",
+        "en": "Auto, Phosphorus Bomb (Q), auto, Missile Barrage (R), auto. Always slip an auto between two spells: each auto on a champion also recharges your R faster."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Munitions Hextech convertit 20 % de tes dégâts d'auto en dégâts bruts, et s'applique aussi aux effets Spellblade comme Sheen. D'où la force de tes autos renforcées.",
+        "en": "Hextech Munitions turns 20% of your auto damage into true damage, and also applies to Spellblade effects like Sheen. That is why your empowered autos hit so hard."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Gatling (E) tire dans la direction où tu regardes. Un clic d'attaque sur un ennemi te retourne aussitôt vers lui, alors qu'un attaque-déplacement vers une zone ne le fait pas.",
+        "en": "Gatling Gun (E) fires where you are facing. An attack click on an enemy turns you toward them instantly, while an attack-move to a location does not."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Gatling (E) peut toucher les ennemis collés à toi, sur les côtés et même juste derrière. Pas besoin d'être parfaitement face à un assassin au contact.",
+        "en": "Gatling Gun (E) can hit enemies right next to you, on your sides and even just behind. No need to face a melee assassin perfectly."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La réduction d'armure et de RM de Gatling (E) atteint son maximum après 4 cumuls, soit 1 s de tir. Lance-le avant d'engager le fight.",
+        "en": "Gatling Gun (E)'s armor and MR shred peaks after 4 stacks, or 1 s of firing. Start it before you commit to the fight."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Chaque troisième tir de Barrage de projectiles (R) est le Gros missile. À la base, avec tes charges pleines, tire jusqu'à ce que le prochain soit le Gros avant de repartir.",
+        "en": "Every third Missile Barrage (R) shot is the Big One. At base with full charges, fire until the next one is the Big One before heading out."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu gardes ta progression vers le Gros missile de Barrage de projectiles (R) quand tu meurs, et tu réapparais avec toutes tes charges.",
+        "en": "You keep your progress toward the Missile Barrage (R) Big One when you die, and you respawn with every charge."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bombe au phosphore (A) révèle les champions touchés pendant 6 s. Touche une cible qui fuit vers un buisson ou le brouillard pour continuer à la viser.",
+        "en": "Phosphorus Bomb (Q) reveals champions hit for 6 s. Hit a target fleeing into a bush or fog to keep aiming at them."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Corki – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Corki", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY Corki Guide You Need in Season 16", "url": "https://www.youtube.com/watch?v=oI4pdlvod44", "type": "video", "date": "2026-04-24", "author": "Varry" },
+    { "title": "3 Minute Corki Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=UfMvxPeY48Y", "type": "video", "date": "2025-01-03", "author": "3 Minute League of Legends" }
+  ]
+}

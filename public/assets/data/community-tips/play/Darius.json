@@ -1,0 +1,121 @@
+{
+  "champion": "Darius",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, Estropiaison, Décimation", "en": "Auto, Crippling Strike, Decimate" },
+      "keys": ["W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Une auto, puis Estropiaison (Z) pour reset ton attaque, et lance Décimation (A) pendant l'animation du coup renforcé. Le Z touche quand même et le A part bien plus vite.",
+        "en": "One auto, then Crippling Strike (W) to reset your attack, and cast Decimate (Q) during the empowered hit's animation. The W still lands and the Q comes out much faster."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Crampon jusqu'à la Guillotine", "en": "Apprehend into Guillotine" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Attire avec Crampon (E), auto, Estropiaison (Z), puis Décimation (A). Ajoute deux autos pour monter les cumuls de Plaie béante et achève avec Guillotine noxienne (R).",
+        "en": "Pull with Apprehend (E), auto, Crippling Strike (W), then Decimate (Q). Add two autos to build Hemorrhage stacks and finish with Noxian Guillotine (R)."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Décimation flashée", "en": "Flash Decimate" },
+      "keys": ["Q", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Lance Décimation (A), puis Flash juste avant que la hache ne frappe. Flash d'abord laisse à l'ennemi tout le temps de charge pour réagir.",
+        "en": "Start Decimate (Q), then Flash right before the axe swings. Flashing first gives the enemy the whole windup to react."
+      },
+      "refs": [1, 3]
+    },
+    {
+      "name": { "fr": "Guillotine en tampon, puis Flash", "en": "Buffered Guillotine, then Flash" },
+      "keys": ["R", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Appuie sur Guillotine noxienne (R) hors de portée, puis Flash : l'ult part dès que tu arrives à portée. Ta cible n'a pas le temps de dash ou de Flash pour l'esquiver.",
+        "en": "Press Noxian Guillotine (R) out of range, then Flash: the ult fires as soon as you are in range. Your target has no time to dash or Flash away."
+      },
+      "refs": [1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "À 5 cumuls de Plaie béante sur un champion, ou après un kill à l'ult, tu gagnes Puissance noxienne : gros bonus d'AD et chaque coup pose directement 5 cumuls.",
+        "en": "At 5 Hemorrhage stacks on a champion, or after an ult kill, you get Noxian Might: big AD bonus and every hit applies 5 stacks at once."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Vise avec la lame de Décimation (A) : au centre, l'ennemi ne prend que 35 % des dégâts et ne reçoit pas de cumul de Plaie béante.",
+        "en": "Aim with the Decimate (Q) blade: in the center, the enemy only takes 35% damage and gets no Hemorrhage stack."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant la charge de Décimation (A), tu es fantôme 1 s et tu peux bouger pour placer la lame, mais sans auto, ni Crampon (E), ni ult.",
+        "en": "During the Decimate (Q) windup you are ghosted for 1 s and can move to place the blade, but no autos, no Apprehend (E), no ult."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Après Crampon (E), tu restes 0,4 s sans pouvoir bouger ni lancer Décimation (A) ou ton ult. Attends la fin de ce blocage avant de lancer ta hache.",
+        "en": "After Apprehend (E), you are stuck for 0.4 s, unable to move or cast Decimate (Q) or your ult. Wait for that lock to end before swinging."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le saut de Guillotine noxienne (R) peut franchir un mur très fin. Si ta cible est collée au mur, tu ne passes pas, mais le R touche quand même.",
+        "en": "The Noxian Guillotine (R) leap can cross very thin walls. If your target hugs the wall you won't pass, but the R still hits."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Un kill avec Guillotine noxienne (R) te permet de la relancer gratuitement pendant 20 s. Au rang 3, elle ne coûte plus de mana et n'a plus de limite de relance.",
+        "en": "A kill with Noxian Guillotine (R) lets you recast it for free for 20 s. At rank 3 it costs no mana and has no recast timer."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si le coup d'Estropiaison (Z) tue sa cible, la moitié du CD et le mana sont rendus. Pratique pour last hit un sbire et retaper aussitôt.",
+        "en": "If the Crippling Strike (W) hit kills its target, half the cooldown and the mana are refunded. Handy to last hit a minion and strike again quickly."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort annule tout Estropiaison (Z), même les dégâts de l'auto : tout ton coup renforcé est perdu.",
+        "en": "A spell shield negates all of Crippling Strike (W), even the auto's damage: your whole empowered hit is wasted."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Darius – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Darius", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Darius Combo & Mechanics Guide - How to MASTER Darius and Play Him like a High Elo OTP", "url": "https://www.youtube.com/watch?v=63xex1WiuzY", "type": "video", "date": "2022-12-19", "author": "RhokuTV" },
+    { "title": "3 Minute Darius Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=muYyKH-oUiY", "type": "video", "date": "2026-01-30", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE DARIUS FR - COMBOS, TIPS, GESTION DE LANE", "url": "https://www.youtube.com/watch?v=uJGYHMRaPPo", "type": "video", "date": "2022-09-16", "author": "Chamallow San • League of Legends" }
+  ]
+}

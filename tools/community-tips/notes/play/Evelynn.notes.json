@@ -1,0 +1,39 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Gaining Demon Shade resets Whiplash's cooldown and Empowered Whiplash its next cast.",
+    "Attacking or casting abilities ends Demon Shade immediately and places it on a 4-second static cooldown, reduced to 1.25 seconds from casting Last Caress.",
+    "Last Caress will reduces Demon Shade's cooldown after its cast time but before its blink delay, causing Evelynn to enter Demon Shade 0.75 seconds after blinking.",
+    "Casting Allure does not break Demon Shade nor its fade into it.",
+    "An enemy champion cursed by Allure is alarmed of her presence and after the mark has fully formed, an arrow will appear next to them pointing towards Evelynn's direction.",
+    "Evelynn's next basic attack or ability hit against the target consumes the mark, slowing them by 45% for 0.75 seconds and refunding Allure's mana cost. If the target was marked for at least 2.5 seconds, the consumption is empowered.",
+    "The magic resistance reduction debuff is applied independently of the Charm debuff when the matured mark is expunged, meaning a target can still have their magic resistance reduced while they are resisting applications of CC debuffs (e.g. Black Shield).",
+    "Evelynn launches a dart in the target direction, dealing magic damage to the first enemy hit and marking them for 4 seconds.",
+    "Evelynn reveals her true form, becoming untargetable at the start of the cast time and then unleashing her lashers in a cone in the target direction",
+    "After 0.5 seconds, she blinks 700 units in the opposite direction and becomes targetable again.",
+    "The casting input controls the direction Last Caress' damage is dealt from, with the movement automatically happening in the reverse direction.",
+    "Last Caress can be buffered during Empowered Whiplash.",
+    "Evelynn will track the target if they change locations. She will not stop tracking the target until she reaches them, as there is no maximum tracking distance.",
+    "Empowered Whiplash can be blocked but cannot be dodged and/or missed if Evelynn is blinded.",
+    "For combos, an easy go-to is to Q into W just before the Q lands and to using Q twice more. E into an attack then use your final Q before attacking away using ult to execute.",
+    "Your CC combo is to start with W and let it proc. From here, use Q into your second Q and E. Spam out your remaining Qs while attacking using ult to execute.",
+    "And a combo to secure a kill is use W into ulting backwards to dash towards your target. From here, Q into an attack and E before spamming out your three remaining Qs.",
+    "Only on the first target you hit with Q1 will your Q2 attacks deal more damage.",
+    "When W is fully charged, an arrow appears on the target, indicating which direction you are approaching from.",
+    "When you reach level six, use the combination W, Q, Q, E, Q, auto attack, Q, auto attack, R.",
+    "With her ultimate, you can cancel shots from turrets.",
+    "When you are chasing an opponent, you can use her ultimate to close the distance. You can also use your ultimate to dodge any ability or escape from opponents."
+  ],
+  "rejected": [
+    { "idea": "Faiseuse de veuves (R) traverse les murs", "reason": "Une seule source (Evvelyx 2023), pas de note wiki « can cross terrain »." },
+    { "idea": "Coup de fouet (E) passe certains murs fins", "reason": "Une seule source (Evvelyx), non confirmé par le wiki." },
+    { "idea": "Piques de haine (A) utilisable à travers les murs", "reason": "Une seule source, formulation vague." },
+    { "idea": "Bouger juste après E annule l'auto", "reason": "Une seule source (Evvelyx), non confirmé par le wiki." },
+    { "idea": "Vol de Drake / Nashor avec Saut, R, Châtiment", "reason": "Une seule source ; « Saut » renvoie à un sort hors kit (Flash ?)." }
+  ],
+  "toVerifyInGame": [
+    "Délai de 0,75 s avant le retour en camouflage après le blink de Faiseuse de veuves (R).",
+    "Buffer de Faiseuse de veuves (R) pendant le Coup de fouet (E) renforcé."
+  ]
+}

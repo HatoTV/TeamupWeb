@@ -42,18 +42,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Caitlyn (4 combos, 8 astuces)
 - ✅ Camille (4 combos, 8 astuces)
 
-### Lot 3 — ⏳
+### Lot 3 — ✅
 
-- ⏳ Cassiopeia
-- ⏳ Chogath
-- ⏳ Corki
-- ⏳ Darius
-- ⏳ Diana
-- ⏳ Draven
-- ⏳ DrMundo
-- ⏳ Ekko
-- ⏳ Elise
-- ⏳ Evelynn
+- ✅ Cassiopeia (4 combos, 7 astuces)
+- ✅ Chogath (3 combos, 7 astuces)
+- ✅ Corki (3 combos, 7 astuces)
+- ✅ Darius (4 combos, 8 astuces)
+- ✅ Diana (3 combos, 7 astuces)
+- ✅ Draven (4 combos, 8 astuces)
+- ✅ DrMundo (3 combos, 8 astuces)
+- ✅ Ekko (3 combos, 7 astuces)
+- ✅ Elise (2 combos, 8 astuces)
+- ✅ Evelynn (3 combos, 8 astuces)
 
 ### Lot 4 — ⏳
 

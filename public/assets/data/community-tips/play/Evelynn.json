@@ -1,0 +1,108 @@
+{
+  "champion": "Evelynn",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Charme chargé, burst complet", "en": "Charged charm, full burst" },
+      "keys": ["W", "Q", "Q", "E", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Séduction (Z) et attends que la marque soit pleine. Piques de haine (A), relance, Coup de fouet (E), autos entre les dernières relances de A, puis Faiseuse de veuves (R) pour achever.",
+        "en": "Cast Allure (W) and wait for the mark to fill. Hate Spike (Q), recast, Whiplash (E), autos between the last Q recasts, then Last Caress (R) to finish."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Pique, Séduction, trade rapide", "en": "Spike, Allure, quick trade" },
+      "keys": ["Q", "W", "Q", "E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Piques de haine (A) et Séduction (Z) juste avant l'impact : le A consomme la marque et ralentit. Relance A, Coup de fouet (E), auto, dernière relance.",
+        "en": "Throw Hate Spike (Q) and Allure (W) just before it lands: Q consumes the mark and slows. Recast Q, Whiplash (E), auto, last recast."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Ult à l'envers pour engager", "en": "Reverse ult to engage" },
+      "keys": ["W", "R", "Q", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Après Séduction (Z), lance Faiseuse de veuves (R) dos à ta cible : le blink part à l'opposé et te rapproche d'elle. Enchaîne Piques de haine (A), auto et Coup de fouet (E).",
+        "en": "After Allure (W), cast Last Caress (R) facing away from your target: the blink goes the other way and brings you closer. Chain Hate Spike (Q), auto and Whiplash (E)."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque retour en Ombre démoniaque réinitialise Coup de fouet (E). Repasse en camouflage entre deux cibles pour relancer E aussitôt.",
+        "en": "Every time you re-enter Demon Shade, Whiplash (E) resets. Slip back into camouflage between two targets to cast E again right away."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Faiseuse de veuves (R) réduit le délai d'Ombre démoniaque : tu redeviens camouflée environ 0,75 s après le blink, au lieu de 4 s.",
+        "en": "Last Caress (R) cuts the Demon Shade delay: you are camouflaged again about 0.75 s after the blink, instead of 4 s."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Séduction (Z) ne te fait pas sortir d'Ombre démoniaque. Mais une fois la marque pleine, une flèche vers toi apparaît près de la cible.",
+        "en": "Allure (W) does not pull you out of Demon Shade. But once the mark is full, an arrow pointing to you shows up next to the target."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Seule la cible touchée par la fléchette de Piques de haine (A) reçoit la marque et ses dégâts bonus. Vise bien le champion, pas un sbire devant.",
+        "en": "Only the target hit by the Hate Spike (Q) dart gets the mark and its bonus damage. Aim at the champion, not a minion in front."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu es intouchable dès le début de l'incantation de Faiseuse de veuves (R) : sers-t'en pour esquiver un sort ou un tir de tourelle.",
+        "en": "You are untargetable from the start of Last Caress (R) cast time: use it to dodge a spell or a turret shot."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux bufferiser Faiseuse de veuves (R) pendant le Coup de fouet (E) renforcé : le R part dès la fin du dash.",
+        "en": "You can buffer Last Caress (R) during Empowered Whiplash (E): R goes off as soon as the dash ends."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La réduction de résistance magique de Séduction (Z) s'applique même si la cible ignore le charme, par exemple sous Bouclier noir de Morgana.",
+        "en": "The magic resist reduction from Allure (W) still applies even if the target ignores the charm, for example under Morgana's Black Shield."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le Coup de fouet (E) renforcé suit sa cible sans limite de distance et ne peut pas être esquivé, seulement bloqué.",
+        "en": "Empowered Whiplash (E) tracks its target with no distance limit and cannot be dodged, only blocked."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Evelynn – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Evelynn", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Evelynn Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=P9-J09SHPqQ", "type": "video", "date": "2026-04-05", "author": "3 Minute League of Legends" },
+    { "title": "Evelynn Tips and Tricks | Beginner Guide", "url": "https://www.youtube.com/watch?v=tlFbxFZMKMQ", "type": "video", "date": "2023-03-16", "author": "Evvelyx" }
+  ]
+}

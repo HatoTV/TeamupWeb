@@ -1,0 +1,44 @@
+{
+  "searches": 3,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "The landing location is determined by Draven's movement speed and direction at the time Spinning Axe hits the target. If Draven is actually moving, it will bounce directly into his path. Otherwise, it will bounce back towards his current location, either landing directly onto him or to his sides.",
+    "Spinning Axes may optically bypass Wind Wall and Blade Whirl but they will be destroyed upon collision.",
+    "If a Spinning Axe is readied during a basic attack wind-up, the effects will be applied to the fired attack.",
+    "The empowered attack will not trigger against structures. The duration will refresh on-attack against them.",
+    "Draven enters an adrenaline rush, gaining bonus attack speed for 3 seconds as well as decaying bonus movement speed and ghosting for 1.5 seconds.",
+    "Catching a Spinning Axe resets Blood Rush's cooldown.",
+    "Draven throws a fan of axes in a line in the target direction, dealing physical damage to enemies hit, knocking them aside, though not through terrain, and slowing them for 2 seconds.",
+    "Enemy champions that are damaged to or while below a health threshold equal to the number of League of Draven stacks are executed.",
+    "Whirling Death can be recast after 1 second while the axes are traveling, and does so automatically after the axes hit an enemy champion or the edge of the map.",
+    "Enemies can be hit only once per pass.",
+    "For combos, start by using Q and W before attacking. Then everything else is used as needed. Whenever you catch an axe, use W if necessary.",
+    "just run at them using the W reset, catching axe after axe.",
+    "So when chasing an enemy, you can press W, then you can catch an axe forward from Q to press W again and refresh the duration of W",
+    "During W, you become ghosted for 1.5 seconds which means that you can ignore unit collision. And for example, you won't get minion blocked.",
+    "Attacking a turret or structure will not cause Draven's spinning axes to ricochet.",
+    "It is actually possible to extend the range of E with E flash combo, but in order for this to work, you have to press flash in the moment of casting at the end of E cast time indicator.",
+    "You can cancel enemy dashes, displace enemies into an allied CC, use it just for the slow to follow up the gank",
+    "if your ultimate would leave an enemy champion with less health than 100% of Draven's current passive stacks, he will execute them.",
+    "Your ultimate can be recast after 1 second of casting while the axes are traveling. The ultimate will automatically recast after axes from it hit an enemy champion",
+    "You can choose the direction in which Draven's axe falls, depending on which direction you go after hitting your target.",
+    "When you use 'W', for 1.5 seconds you can go through minions, jungle monsters or champions.",
+    "You can also use Draven's 'E' to cancel enemy dashes. Draven's 'E' can be combined with 'Flash', but first use 'E', then 'Flash'. You can also use this trick to escape from enemies.",
+    "When you hit level 3, before starting the trading combo, activate 'Q' then W-AA-E-AA-W-AA",
+    "After you hit lvl 6, before starting the all in combo, activate 'Q' then W-AA-E-AA-R.",
+    "ce qui est très fort avec Draven c'est qu'en fait tu es un AD carry qui a la capacité de cancel les dash grâce à ton E",
+    "Il faut qu'il voit l'animation du dash pour pouvoir la cancel sur le chemin",
+    "essayer d'optimiser ce E entre deux auto-attaques parce que t'as pas Infinity à attack speed et donc t'as des trous entre et pareil avec ton R, auto-attaque, R, auto-attaque"
+  ],
+  "rejected": [
+    { "idea": "Rediriger Volée mortelle (R) avec Flash pendant l'incantation", "reason": "Une seule source récente ou crédible (Evvelyx 2021 ; autres vidéos de 2016-2018), non confirmé par le wiki." },
+    { "idea": "Relancer R juste avant de toucher pour frapper deux fois", "reason": "Conseil d'avant le retour automatique au contact d'un champion (wiki actuel) ; plus pertinent tel quel." },
+    { "idea": "Dégâts de R réduits de 8 % par ennemi, minimum 40 % (Eternal Hero)", "reason": "Chiffres non confirmés par la description du wiki au patch 16.22 (minimum affiché à 50 %)." },
+    { "idea": "Division (E) interrompt les canalisations (ult de Vel'Koz, Miss Fortune)", "reason": "Une seule source joueur (Eternal Hero) et pas de note wiki explicite." },
+    { "idea": "Pulsion sanguinaire (Z) pour esquiver le sort de Brand", "reason": "Une seule source (Evvelyx 2021), formulation vague." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte du Flash pendant le temps d'incantation de Division (E) pour allonger la portée.",
+    "Activer Hache tournoyante (A) pendant l'armement d'une auto : l'auto part bien avec la hache."
+  ]
+}

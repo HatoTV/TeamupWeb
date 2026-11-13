@@ -1,0 +1,45 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Phase Dive resets Ekko's basic attack timer. Ekko can cast any of his abilities during the dash.",
+    "The dash distance can be extended to up-to 550 units when targeting across terrain. It will only extend for the distance needed to cross the wall.",
+    "If the target becomes untargetable, dies, or is too far away during the empowered attack's cast time, it is cancelled but not consumed.",
+    "Triggering Resonance against a champion grants Ekko bonus movement speed",
+    "Resonance cannot affect the same target more than once every few seconds.",
+    "Afterwards, the grenade contracts and homes back to Ekko at an increased speed, dealing magic damage to enemies hit.",
+    "Enemies can be hit only once per pass.",
+    "Enemies can see the indicator for Parallel Convergence 2 seconds after casting.",
+    "If Ekko enters the sphere before it expires, it detonates to grant him a shield for 2 seconds and stun enemies within for 2.25 seconds.",
+    "Ekko can detonate the expansion even while untargetable (i.e. Chronobreak dash), but not if he is resurrecting.",
+    "Upon activation, Ekko travels full distance through the link, and thus will detonate Parallel Convergence that the link passes through.",
+    "Upon learning Chronobreak or if its current cooldown is lower than 4 seconds, Ekko reveals a time-delayed afterimage of himself that constantly tracks where he was 4 seconds ago.",
+    "Broken passive will give you movement speed which will allow you to disengage from a fight.",
+    "After proing passive, you won't be able to pro it again on the same target for a couple of seconds.",
+    "Could proing passive on multiple enemies refresh my movement speed? The answer is yes.",
+    "did you know that your W will be invisible for a brief amount of time before the enemy could see it?",
+    "Keep an eye on the second part of your queue and try to hit it because it's really big deal.",
+    "The easiest echo combo will be dashing in using E then Q auto attack and back off with movement speed.",
+    "You have to press E and Q at the same time for that to work.",
+    "If you hit them with Q, they're slowed by more than 40%, which means that you're going to close the gap and finally get in range to E and finish off the combo.",
+    "If you time your E right, you can jump right on top of people when they blink or dash to a certain location.",
+    "Ew is a very powerful combo since it cancels your W animation and give the enemy very few options. This combo will guarantee a shield and probably even a stun.",
+    "Cast your E over the wall, while dropping your W on top of the Krugs, and then use the second E instance to auto-attack the big Krug to blink over the wall.",
+    "I'm talking about following enemy flashes or movement abilities with Ekko's second E.",
+    "The second trick involves using the EQ combo to slow enemies inside your W.",
+    "By stacking the slow from your Q with the slow from your W, you can close the distance and secure stuns on targets that might otherwise escape.",
+    "The trick? Don't skill your ultimate at level 6. This allows you to hide your clone"
+  ],
+  "rejected": [
+    { "idea": "Vidéo « Le seul guide sur Ekko dont vous aurez besoin » (Kola)", "reason": "Ouverte mais doublage automatique d'une vidéo étrangère (texte FR traduit, incohérent) : pas une source." },
+    { "idea": "Rush déphasé (E) puis Chronofracture (R) plus rapide que R puis E", "reason": "Une seule source (Spyfish), sans détail vérifiable." },
+    { "idea": "E, A puis Flash pour passer derrière la cible", "reason": "Une seule source (Spyfish), usage rare selon lui." },
+    { "idea": "Annuler l'animation d'auto avec la Ceinture-roquette", "reason": "Interaction d'objet non confirmée par le wiki au patch 16.22, une seule source." },
+    { "idea": "Passer le mur du Baron / Drake vers les Krugs avec E + Z", "reason": "Trajet de jungle précis, une seule source joueur ; seul le franchissement de mur (wiki) est gardé." },
+    { "idea": "Portée de Châtiment un peu plus grande que l'auto de E", "reason": "Une seule source (Ekkoliner), non chiffrée par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Timing du buffer de l'auto de Rush déphasé (E) pour suivre un Flash adverse.",
+    "Explosion de Convergence parallèle (Z) quand le trajet de Chronofracture (R) la traverse."
+  ]
+}

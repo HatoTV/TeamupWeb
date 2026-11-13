@@ -1,0 +1,42 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Corki's basic attacks deal bonus true damage equal to 20% AD.",
+    "Wind's Fury bolts and all Spellblade effects are special cased to benefit from Hextech Munitions, causing them to deal bonus true damage equal to 20% of their pre-mitigation damage",
+    "Gatling Gun can be cast during the dash.",
+    "The direction of the gun firing changes depending on where Corki is facing.",
+    "Corki will turn to face in the direction of the cursor upon casting Gatling Gun. He will also instantly turn when issuing an Attack order on enemies while Gatling Gun is active.",
+    "Issuing an Attack Move order at a location will not cause Corki to instantly turn.",
+    "Gatling Gun's area of effect can hit close by enemies next to and behind him, due to registering enemies' edge.",
+    "The maximum resistances reduction is applied after 4 ticks (1 second).",
+    "Basic attacks on-hit against champions reduce Missile Barrage's remaining recharge time",
+    "Every third missile Corki fires is a Big One, dealing 100% increased damage as well as gaining increased range and explosion radius.",
+    "Corki retains progress towards a Big One when he dies.",
+    "He gains 2 charges upon learning the ability and maximum charges upon respawning.",
+    "The bomb also grants sight of the impact area for 6 seconds and reveals enemy champions hit for the same duration.",
+    "So, Kog's attacks and spell blades deal 20% bonus true damage.",
+    "Like especially on CC, let's say you have no disengage or something, then you can just W and then do your full combo.",
+    "It's like you know, a Gatling gun. It doesn't really matter, but it actually shreds armor and magic resist.",
+    "you usually want to have like two big rockets in the back",
+    "let's say you go base and you have like four cycles ready, you know, then you can just cycle through one time and then go out of base.",
+    "always we are using like most of the time our E before like fighting",
+    "And then when it comes to combos like usually on CC, as already mentioned before, we are using like our W Q ult combo.",
+    "What you should do is like auto Q auto ult auto auto ult auto E auto W, you know? That you always squeeze in some autos, so you just maximize your damage.",
+    "Let's say, for example, you're playing like short trades, like Q auto attack or something",
+    "cor's W causes him to dash a good distance while leaving three circles on the floor enemies within the circles take damage over time in addition his e can be cast while dashing",
+    "cor's ultimate has a passive where attacking an enemy Champion will reduce the abilities cool down",
+    "for combos use W into your E From Here attack into your ultimate before attacking into your Q before attacking into your ultimate again and attacking away",
+    "corki is great with engaged supports with good CC as they can lock an opponent down for him to land all his skill shots while they sit in his Gatling gun",
+    "onto the floor after a short delay enemies hit take damage and also reveals the area for 6 seconds"
+  ],
+  "rejected": [
+    { "idea": "The Package / Special Delivery tips", "reason": "Not in the 16.22 wiki ability data read by the tool; status unclear, left out." },
+    { "idea": "Use Trinity Force/Sheen procs between every spell (Varry)", "reason": "Item build advice, out of scope." },
+    { "idea": "New Corki Takes Over Korea (LoL Dobby)", "reason": "No usable subtitles returned." }
+  ],
+  "toVerifyInGame": [
+    "Attack click vs attack-move turning behavior while Gatling Gun (E) is active.",
+    "Gatling Gun (E) hitting enemies directly behind Corki at melee range."
+  ]
+}

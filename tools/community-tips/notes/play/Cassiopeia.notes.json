@@ -1,0 +1,47 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Upon reaching the target, Twin Fang will wait for an ongoing Noxious Blast to explode before dealing its damage.",
+    "Enemies with their facing direction towards her are instead stunned for the same duration.",
+    "Regarding Petrifying Gaze applying the stun, facing Cassiopeia means facing the opposite general direction (angle) as her; this direction bisects an 180 degree arc of a radius through her and her enemy.",
+    "Enemies within the clouds are poisoned to take magic damage every 5/19 seconds and become grounded and slowed by an amount that decays over the area's duration.",
+    "Miasma's slow and ground debuffs are each marked as non-dispellable, so they are not removed by most cleanses.",
+    "Wind Wall will block the portion of Miasma it destroys.",
+    "Displayed range, 765, is slightly larger than the real range",
+    "Twin Fang's cast indicator is incorrectly adding her own radius to the range like an edge range ability, and is therefore slightly larger than the actual cast range Twin Fang can cast at.",
+    "If this kills the target, Twin Fang's mana cost is refunded.",
+    "If Noxious Blast hits an enemy champion, Cassiopeia gains bonus movement speed that decays over 3 seconds.",
+    "Cassiopeia increases the effectiveness of all movement speed bonuses",
+    "For combos: start with Q, then auto attack, two Es, W, another E, and an ult.",
+    "And your team combo is using your ultimate, then W and Q. From here, just spam E along with your auto attacks",
+    "Enemies in the poisoned zone take constant damage over time, and also become grounded and slowed, with grounded enemies unable to dash, flash, or anything similar.",
+    "It deals damage to enemies, and if it kills a target, the mana cost is returned, making it very useful for farming.",
+    "Q - E: Don't wait for the enemy to be poisoned to use E. Even if the enemy isn't poisoned yet, E will still deal additional damage and healing. If the enemy is poisoned by Q, you can hit E 4 times.",
+    "You can do W - Flash, much faster than Flash - W. You can use W to make it difficult for enemies to escape, even if they have Flash.",
+    "R - Flash is much faster than Flash - R. You can use it behind walls; the enemy won't have time to react",
+    "You can also use R - Flash backward. Useful when you're looking to use your ultimate at a better angle",
+    "Enemies don't have to be face-to-face with Cassiopeia to be stunned. You can use your ultimate anywhere as long as it's halfway in front of the enemy.",
+    "Cassiopeia's combos are very simple: Q - E - E - E.",
+    "W - Flash is often more useful than Flash - W because you're guaranteed to land your ultimate as long as you land your W.",
+    "le combo de base, ça va être de faire autoattaque EE, autoattaque E, autoattaque EE, et cetera",
+    "à partir du moment où tu mets un A sur ton adversaire, tu pourras potentiellement mettre 4 E pendant la durée du poison.",
+    "Tu vas donc commencer avec ton ultime, enchaîner de tes miasmes donc ton Z. Tu continues avec ton A, ton E, autoattaque E.",
+    "ce combo là te permettra de mettre un maximum de burst en un minimum de temps.",
+    "tu vas commencer l'animation de ton ultime et quand l'animation a commencé, tu vas flash pendant l'animation.",
+    "Tu vas ensuite devoir utiliser ton ultime juste derrière toi comme si tu cliquais vraiment derrière toi et pas au niveau de ton ennemi. Clique le plus près possible de CO. À partir du moment où l'animation de ton ultime a commencé, maintenant tu utilises ton flash le plus loin possible vers ton adversaire.",
+    "tu vas pouvoir aussi utiliser ton Z pendant ton flash pour avoir un bien meilleur effet de surprise.",
+    "tu as pas besoin d'attendre que ton A ou que ton Z a touché ton adversaire pour lancer ton E.",
+    "ton ultime, il y a marqué que il va stun ton adversaire quand tu le fais vraiment devant lui. Mais ça marche aussi si tu es au deux côtés par rapport à lui."
+  ],
+  "rejected": [
+    { "idea": "Poison from Singed, Teemo or Twitch amplifies Twin Fang (E) (LoL Analyst)", "reason": "Single source, not stated in the wiki notes." },
+    { "idea": "Cassiopeia's ultimate cannot be cancelled, cast it before getting stunned (LoL Analyst)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "Hextech Flashtraption / Explosive Pineapple extends the ult range (LoL Analyst)", "reason": "Rune/other champion interaction, single source." },
+    { "idea": "Allies pushing enemies toward you guarantee the stun whatever their facing (LoL Analyst)", "reason": "Single source; the wiki only describes facing rules for spins and locked-facing animations." }
+  ],
+  "toVerifyInGame": [
+    "Exact window to Flash during the 0.5 s cast time of Petrifying Gaze (R), and the reverse (aim behind, Flash forward) angle.",
+    "Flash during the Miasma (W) cast: confirm the clouds land relative to the post-Flash position."
+  ]
+}

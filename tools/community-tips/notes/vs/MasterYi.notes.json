@@ -1,0 +1,148 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] Donc dodge des projectiles, des stuns, euh des choses des choses qui sont embêtantes, des ultimes.",
+    "[0] Si un ennemi est au milieu d'une vague de sbir, notre alpha strike fera moins de dégâts étant donné que il va rebondir sur les sbir à côté.",
+    "[0] la canalisation quand on l'envoie les premières 0,5 secondes de canalisation, donc si on fait juste ça, ça réduit les dégâts de 70 %. D'accord ? et ensuite ça va diminuer la réduction de dégâts jusqu'à 45 % après les 0,5 secondes.",
+    "[0] mais c'est pas non plus le champion le plus fort en early. Donc on va pas chercher non plus à prendre des un contre un",
+    "[0] on voit qu'on a pas non plus énormément de dégâts en solo, en early.",
+    "[0] on est très très vulnérable au CC. C'est ça la faiblesse du champion, c'est les contrôles. Donc tout ce qui va le l'empêcher de bouger, c'est ça va être très compliqué pour lui de jouer.",
+    "[0] dans les matchup avec des CC finalement des compos avec beaucoup de CC.",
+    "[1] Bro, I'm so close in level six. But I couldn't do anything.",
+    "[1] But, you know, master strength, you need to get your level six before like imagine I had level six on that dive.",
+    "[2] Yeah, I can't get out. And perma changes heat. 4.7 seconds crowd control.",
+    "[3] A stun is Master Yi's greatest weakness because he is a squishy champion.",
+    "[3] His only sustainability is his W which can be easily stopped with a stun or taunt or even silence.",
+    "[3] Master Yi can use this ability to render certain skillshots useless or dodge a tower strike.",
+    "[3] He also gains immunity to slows and cripples."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "6IUZKRfAw8w",
+      "channel": "Sinerias",
+      "result": "utilisé (passage 8:17, CC) ; reste du guide côté Yi, peu utile"
+    },
+    {
+      "id": "Kx043WJnBfE",
+      "channel": "iReaz VOD",
+      "result": "utilisé (passages 3:02, 5:18, 6:43, 18:40-19:40, 22:40, 42:00)"
+    },
+    {
+      "id": "LSaq53PM73I",
+      "channel": "Sixen • League of Legends",
+      "result": "écarté : gameplay sans conseil contre Yi"
+    },
+    {
+      "id": "1ZuvvW6OY_g",
+      "channel": "Sinerias",
+      "result": "utilisé (passages 3:43-4:08, lvl 6) ; même créateur que 6IUZKRfAw8w"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/masteryi/counters/jungle",
+      "result": "no-tips (tips écrits du point de vue de Yi)"
+    },
+    {
+      "url": "https://www.rankedboost.com/league-of-legends/counter/master-yi/",
+      "result": "stats-only (paragraphe générique + objets)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-master-yi/",
+      "result": "ok (2021-12-03, plus de 2 ans : mécaniques DDragon seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Garder CC/skillshots pour après l'Assaut éclair (A), Yi inciblable",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q: becoming untargetable)"
+    },
+    {
+      "idea": "Yi faible en early, le punir avant son lvl 6",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (iReaz/Bann + Sinerias)"
+    },
+    {
+      "idea": "Yi très vulnérable aux CC, garder un stun/root pour son engage",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (iReaz/Bann + Sinerias) ; leaguefeed trop ancien pour compter"
+    },
+    {
+      "idea": "Highlander (R) immunise aux slows : utiliser du CC dur",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R: immunity to Slows)"
+    },
+    {
+      "idea": "Rester près des minions : l'Assaut éclair (A) se répartit",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q frappe les ennemis proches de la cible, coups répétés sur une seule cible seulement si elle est seule)"
+    },
+    {
+      "idea": "Ne pas burst au début de la Méditation (Z), réduction maximale au début",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (réduction initiale puis réduite après les premières secondes) ; chiffres non vérifiables (placeholders), donc omis"
+    },
+    {
+      "idea": "Méditation (Z) est une canalisation, coupée par stun/silence",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W: Master Yi channels)"
+    },
+    {
+      "idea": "Anti-heal (Blessures graves) contre la Méditation",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: aucune source consultée ne le mentionne"
+    },
+    {
+      "idea": "Harceler Yi en early (leaguefeed)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: source de plus de 2 ans pour un tip de lane (idée couverte par le tip lvl 6 via 0 et 1)"
+    },
+    {
+      "idea": "Garder son Flash : Yi flash puis Q pour gap close",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, tip de lane"
+    },
+    {
+      "idea": "Champions qui empêchent l'auto-attaque (Jax) gênent Yi",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, propre à un champion"
+    }
+  ]
+}

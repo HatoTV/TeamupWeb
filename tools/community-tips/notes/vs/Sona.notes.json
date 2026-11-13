@@ -1,0 +1,118 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] After just two games on Sona, I already understood the slander and why she's known as the worst support to play with. And maybe it's just because Sona's early game is abysmal",
+    "[0] understanding that Sona's true strength rested in the late game, as long as I could get there relatively unscathed.",
+    "[1] So, yes, Sona is known as a super weak laner that doesn't do anything.",
+    "[1] If you can get through the early game without your team tilting, this champion brings utility, damage, speed up, disengage, everything that you could ever possibly want out of your support champion and more.",
+    "[0] It's only 30 HP, but costs 80 mana at level one. So, using it a lot is a quick way to run out of mana and really become useless early game.",
+    "[1] I'm pretty I pretty much use all of my mana uh off cool down, right?",
+    "[0] Against hook supports, I have to play extra safe because it will snowball out of control ridiculously fast.",
+    "[0] Every waking moment you spend in that lane, you're terrified, frantically looking from side to side knowing that any moment could be your last.",
+    "[0] Just got to have a little less fun running around and remember, I'm super squishy.",
+    "[2] You're going to have a lot more opportunities for when you're playing against enchanter than like engage",
+    "[0] With your Q, try to hit the enemy champions with both Q shots. One is fine, but two is ideal.",
+    "[0] make sure the last ability you use is the enhanced auto attack you want. So, when all else fails, just make sure the last ability you use is your W.",
+    "[0] Also, late game every time you use an ability it basically lowers your ult's cooldown by a second. This means that there are fights where you can actually ult two times.",
+    "[0] But if your lane is truly doomed, you can always just use your E's movement speed to roam around to new fights.",
+    "[0] movement speed is nuts so you can just run back bot if absolutely necessary."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "écarté : compilation de matchups bot non spécifique à Sona (3 mentions seulement, dont « Sona completely out of mana » à 8:07)"
+    },
+    {
+      "id": "ngPXlh8EnaE",
+      "channel": "i0ki",
+      "result": "utilisé (passages 0:39, 2:18, 6:03)"
+    },
+    {
+      "id": "Ce88SUyFWjs",
+      "channel": "EcoreLoL",
+      "result": "utilisé (passages 1:09-2:09, 4:18, 6:35, 7:31, 8:14-9:00, 10:05-10:32, 12:38-12:54)"
+    },
+    {
+      "id": "FKdUglPACs0",
+      "channel": "ShoDesu",
+      "result": "utilisé (passage 0:46 : Sona a plus d'occasions contre enchanteur que contre engage)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Sona faible en early, scale fort : la punir tôt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Sona spam ses sorts, Z coûte 80 mana au lvl 1 ; à sec elle est inutile : trade",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (coût DDragon 80/85/90/95/100 vérifié)"
+    },
+    {
+      "idea": "Supports engage/hook terrorisent Sona, squishy sans dash",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (PV 550 / armure 26, aucun dash dans le kit DDragon)"
+    },
+    {
+      "idea": "Q cible les 2 ennemis les plus proches, champions en priorité, 825 de portée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (SonaQ description, range 825)"
+    },
+    {
+      "idea": "Effet de l'Accord de puissance selon le dernier sort : Z réduit les dégâts, E ralentit",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Diminuendo / Tempo)"
+    },
+    {
+      "idea": "En late, les sorts réussis réduisent le CD du R : double ult possible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif Accelerando au-delà du cap)"
+    },
+    {
+      "idea": "E dure plus longtemps sans dégâts reçus : la toucher pour couper sa fuite/roam",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (selfmovementspeeddurationmin/max)"
+    },
+    {
+      "idea": "Engage quand Sona est OOM (Skill Capped 8:07)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: compilation non spécifique à Sona ; idée couverte par le tip mana (2 autres sources)"
+    },
+    {
+      "idea": "Q est un reset d'auto, burst lvl 1 auto-Q-auto",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: reset d'auto non vérifiable dans DDragon"
+    }
+  ]
+}

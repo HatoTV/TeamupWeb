@@ -1,0 +1,151 @@
+{
+  "searches": 3,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] The only time that we can actually harass him is when he goes for a minion and needs to auto attack that minion so that he can then actually not go on to us.",
+    "[0] the rule of thumb that you need to have when you play Fizz is that if you can auto attack him, he can E on to you and he is in your range.",
+    "[0] Keep in mind that Fizz has the opportunity to dodge your spells and then still jump on to your face. So, you need to time your spells with the last hit",
+    "[0] If he ults you point blank and you got a defensive spell, use it early so he's forced to use his E to dodge the spell",
+    "[0] Fizz can sometimes hide his ult animation by dashing through a minion with Q and then throwing his ult in his Q animation so be quite careful for that.",
+    "[0] Fizz is a champion that can only wave clear with his main offensive spell which is his E and also his main defensive spell. So if he ever tries to nuke the wave that also puts him very vulnerable and you can then harass him back.",
+    "[0] He's going to hard push the wave and he's then going to impact the side lanes and he's going to roam and do some mean stuff.",
+    "[1] As a melee champion, Fizz can be pressured away from minions and repeatedly poked while trying to farm.",
+    "[1] After pushing the wave, Fizz can disappear into fog and threaten other lanes with his ultimate.",
+    "[1] When Fizz first uses E, he jumps onto his trident and becomes untargetable, allowing him to avoid incoming abilities and escape situations that would normally kill him.",
+    "[1] or land the slow to walk away after trading with range champions.",
+    "[1] Its large area also makes E Fizz's main wave clear tool. But, because it provides damage, mobility, and safety at the same time, wasting it can leave Fizz with no way out.",
+    "[1] The farther the enemy runs, the more dangerous Fizz's ultimate becomes.",
+    "[1] The fish has three sizes with its damage, slow, and eruption growing based on how far it travels before attaching.",
+    "[1] After using Q auto W, don't immediately waste E. Continue attacking and wait for the enemy to respond. If they use an important ability, E can dodge it",
+    "[1] Fizz can hide his ultimate inside Q and send a shark from an angle enemies rarely expect. Q through a nearby minion, then cast R during the dash, not after it finishes.",
+    "[1] Once Fizz reaches level six, his kill pressure and ability to affect the map increases significantly. Push the wave first, then look to move with your jungler or roam towards an overextended side lane.",
+    "[2] sometimes when we queue him, he will E the queue and then like that. And then he'll win the trade, damn it. But he has no E for these minions, so if he goes for these minions, I will queue",
+    "[2] I couldn't go in there because he has his E shortly up. And then he'll just E away.",
+    "[2] he was too far from his turret and he had no E. If you use your E like that, you have to get punished."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "ZyTccO1ekVg",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 2:01-3:00, 6:44-7:30, 8:09)"
+    },
+    {
+      "id": "_F_Wq1ZS2hM",
+      "channel": "Zoose",
+      "result": "utilisé (passages 1:24-1:48, 4:45-5:50, 7:49, 9:17, 14:29) ; guide Fizz (point de vue Fizz), faiblesses et kit"
+    },
+    {
+      "id": "UKI4wZaygdQ",
+      "channel": "Doxa Educational ",
+      "result": "utilisé (passages 0:46, 5:38, 9:39) ; commentaire live Akali vs Fizz"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "E = escape + clear de la wave : punir dès qu'il le gaspille",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Fizz melee : le poke quand il va CS, rester hors de portée d'auto sinon",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Fizz garde E pour esquiver ton sort clé : lancer CC/burst après son E",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "R caché dans le dash du Q sur un minion",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "lvl 6 : push puis roam avec R, ping les side lanes",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "R : slow et dégâts selon la distance parcourue par le poisson",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (slow 40-80 % et dégâts selon la distance parcourue avant de s'accrocher)"
+    },
+    {
+      "idea": "E : inciblable 0,75 s puis slow à l'atterrissage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Untargetable 0.75 s, puis dégâts et slow autour)"
+    },
+    {
+      "idea": "Garder la wave de ton côté : Fizz peine à all-in près de ta tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (lane)"
+    },
+    {
+      "idea": "Reset trap : push et TP car Fizz clear mal",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, et repose sur un sort d'invocateur"
+    },
+    {
+      "idea": "Ne pas 1v1 Fizz en side lane sauf si devant",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (macro)"
+    },
+    {
+      "idea": "Le poisson raté reste au sol et s'accroche à qui marche dessus ; suit à travers Flash",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable précisément dans DDragon"
+    },
+    {
+      "idea": "E rend inciblable, pas invulnérable (DoT déjà appliqués)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, interaction non décrite dans DDragon"
+    }
+  ]
+}

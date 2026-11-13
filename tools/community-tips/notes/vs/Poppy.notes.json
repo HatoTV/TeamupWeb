@@ -1,0 +1,121 @@
+{
+  "searches": 7,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] So if she tries to throw a passive at you, try to like walk out the range. Let her use on a minion. Uh try not to walk into a queue. Walk in and out.",
+    "[0] Or like not also standing in the walls is also a pretty good thing too, just so she can't get a full combo off.",
+    "[0] what you might have noticed is I'm never playing near the walls. And there's obviously a reason for that because if I give her that wall, she just stuns me and then just destroys my health.",
+    "[0] Yeah, obviously the main skill in this matchup is just like not dashing into her when she has W up. You just have to kind of like play on your terms. Like if she walks up, let her Q, then go in, auto Q, maybe W if you get into range.",
+    "[0] if you dash straight in while looking at her, she'll most likely just block it.",
+    "[0] J passive again. I tried to hide. Definitely should do this at this point because you can tank a lot of damage again.",
+    "[0] the main like thing in this match up is don't stand near a wall. Try and always stand on the opposite side of her because if she can't get that E off, she can never use the ability.",
+    "[0] Obviously dodging Q's walking in and out. Once that's off cool down you can go in try and fight her",
+    "[1] h là je vais la jump ah non je passe pas ni sur ça attendre un peu pour que revienne voilà parfa dommage je me suis faitc bloc",
+    "[1] voilà voyez comment mon vers le haut comme là ve me St contre le mur",
+    "[1] je vais jump sans utiliser mon e comme ça voilà là je prends le retour du Q2 donc c'est pas bon j'aurais dû attendre une seconde de plus avant de Jump",
+    "[1] voir me passif c'est pour ça que je recule autant ok la pu passif je meavance",
+    "[2] God bless Zera. And bless Jace for walking right in front of this wall."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "p8LpNrmt39A",
+      "channel": "Godrekton",
+      "result": "utilisé (passages 0:23-0:40, 2:16-2:35, 5:28-5:40, 10:08-10:26, 32:10-36:25)"
+    },
+    {
+      "id": "R9zreHEmN3g",
+      "channel": "Vallheim • League of Legends",
+      "result": "utilisé (passages 2:25-2:40, 3:20-3:35, 4:07-4:25) ; sous-titres auto FR de mauvaise qualité"
+    },
+    {
+      "id": "3tjZNQpN458",
+      "channel": "Walou Garou",
+      "result": "écarté : piste fr inexploitable (texte incohérent, type traduction automatique), aucun conseil lisible"
+    },
+    {
+      "id": "4LM2ldJ0a1Q",
+      "channel": "Dacnomaniak",
+      "result": "utilisé (passage 12:18, mur) ; vidéo jouée côté Poppy, peu de conseils contre elle"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/poppy/counters/top",
+      "result": "stats-only (tips écrits pour jouer Poppy, pas contre)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/poppy/",
+      "result": "no-advice (une phrase générique)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rester loin des murs (stun de la Charge héroïque E)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources ; DDragon : stun si plaqué contre un mur"
+    },
+    {
+      "idea": "Ne pas dash quand Présence immuable (Z) est dispo, la faire sortir avant",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (stoppe les dashes, ralentit et cloue au sol)"
+    },
+    {
+      "idea": "Sortir de la zone de Commotion (A), attendre la 2e explosion avant d'engager",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (zone qui explose après un délai)"
+    },
+    {
+      "idea": "Reculer hors de portée du passif ou le laisser sur un sbire",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (bouclier qui rebondit sur la cible)"
+    },
+    {
+      "idea": "Push lvl 1 pour avoir le lvl 2 en premier",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, tip de lane"
+    },
+    {
+      "idea": "Se placer à l'opposé de Poppy pour que son E la pousse vers toi",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    },
+    {
+      "idea": "Dash à contretemps (regarder ailleurs) pour éviter le Z",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    },
+    {
+      "idea": "Garder un CC pour interrompre le R / attention au R sur les objectifs",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: vu seulement dans des snippets de sites non lisibles (mobalytics, metabot), aucune source vidéo"
+    }
+  ]
+}

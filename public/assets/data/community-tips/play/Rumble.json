@@ -1,0 +1,83 @@
+{
+  "champion": "Rumble",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "All-in avec double harpon", "en": "All-in with double harpoon" },
+      "keys": ["E", "Q", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Harpon électrique (E), Lance-flammes (A), Bouclier recyclé (Z) : tu passes en Surchauffe. Relance aussitôt le second Harpon électrique, puis enchaîne les autos surchauffées.",
+        "en": "Electro Harpoon (E), Flamespitter (Q), Scrap Shield (W): you Overheat. Throw the second Electro Harpoon right away, then chain overheated autos."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Ult d'ouverture", "en": "Ult opener" },
+      "keys": ["R", "E", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ouvre avec Éradication (R) sur la cible, puis Harpon électrique (E), Bouclier recyclé (Z) et Lance-flammes (A), et finis avec le second harpon.",
+        "en": "Open with The Equalizer (R) on the target, then Electro Harpoon (E), Scrap Shield (W) and Flamespitter (Q), and finish with the second harpoon."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lance un Harpon électrique (E) juste avant la Surchauffe : tu peux encore lancer le second pendant 3 s, même si tes autres sorts sont bloqués.",
+        "en": "Throw an Electro Harpoon (E) right before you Overheat: you can still throw the second one for 3 s, even though your other abilities are locked."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Chaque sort de base ajoute 20 de Vapeur. Vers 90-100 de Vapeur, tu places trois sorts puis le second harpon : attends un peu de refroidir avant l'all-in.",
+        "en": "Each basic ability adds 20 Heat. Around 90-100 Heat, you fit three abilities plus the second harpoon: let yourself cool a little before the all-in."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "En Surchauffe (passif), tes sorts sont bloqués mais tes autos gagnent de la vitesse d'attaque et des dégâts magiques bonus selon les PV max de la cible.",
+        "en": "While Overheated (passive), your abilities are locked but your autos gain attack speed and bonus magic damage based on the target's max health."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Éradication (R) ne donne pas de Vapeur, mais la lancer retarde ton refroidissement de 2 s. Les sorts de base le retardent de 4 s.",
+        "en": "The Equalizer (R) gives no Heat, but casting it pauses your Heat decay for 2 s. Basic abilities pause it for 4 s."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lance-flammes (A) lancé à l'arrêt te tourne instantanément vers ton curseur. Pendant le sort, un clic d'attaque sur un ennemi tourne aussi tes flammes vers lui.",
+        "en": "Flamespitter (Q) cast while standing still instantly turns you toward your cursor. During the spell, an attack click on an enemy also turns your flames toward them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les deux Harpon électrique (E) cumulent ralentissement et réduction de RM. Un harpon lancé en Zone rouge renforce aussi le cumul posé par un harpon normal.",
+        "en": "Two Electro Harpoons (E) stack their slow and magic resist reduction. A harpoon thrown in the Danger Zone also upgrades the stack left by a normal harpoon."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Rumble - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Rumble", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Rumble Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=nZGcoXPpRnU", "type": "video", "date": "2025-09-24", "author": "3 Minute League of Legends" },
+    { "title": "RANK 1 WORLD RUMBLE TOP GUIDE - Ultimate Guide for Solo Queue", "url": "https://www.youtube.com/watch?v=wkQtUSr0RFg", "type": "video", "date": "2026-01-25", "author": "Srtty" },
+    { "title": "5 TIPS AVANCÉS SUR RUMBLE !", "url": "https://www.youtube.com/watch?v=oYjR2DVPA-E", "type": "video", "date": "2026-04-11", "author": "Misanthiel - Coach Toplane" }
+  ]
+}

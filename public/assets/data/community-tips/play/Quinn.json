@@ -1,0 +1,99 @@
+{
+  "champion": "Quinn",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, Salto, auto, Assaut", "en": "Auto, Vault, auto, Assault" },
+      "keys": ["E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Auto, Salto (E) qui réinitialise ton auto, auto, puis Assaut aveuglant (A) et une dernière auto. Le slow du Salto (E) rend l'Assaut (A) facile à toucher, et chaque auto consomme une marque de Busard.",
+        "en": "Auto, Vault (E) to reset your auto, auto, then Blinding Assault (Q) and one last auto. Vault (E) slows the target so Assault (Q) is easy to land, and each auto consumes a Harrier mark."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "All-in depuis l'ult", "en": "All-in from ult" },
+      "keys": ["R", "R", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Arrive vite avec En territoire ennemi (R), relance-le à portée d'auto pour Volée fatale, puis Assaut aveuglant (A), auto, Salto (E) et auto en reculant.",
+        "en": "Close in fast with Behind Enemy Lines (R), recast it in auto range for Skystrike, then Blinding Assault (Q), auto, Vault (E) and auto as you back off."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le rebond de Salto (E) varie selon ta position : il peut te faire passer à travers un mur s'il y a assez de place pour atterrir de l'autre côté.",
+        "en": "The Vault (E) bounce varies with your position: it can carry you through a wall when the far side has space to land."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Salto (E) réinitialise ton auto un court instant après le premier dash, au moment où la marque de Busard tombe. Quinn attaque ensuite toute seule : enchaîne sans précipiter le clic.",
+        "en": "Vault (E) resets your auto a short moment after the first dash, when the Harrier mark lands. Quinn then attacks on her own: chain it without rushing the click."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le petit knockback de Salto (E) interrompt aussi les autos à préparation impossible à annuler.",
+        "en": "The small knockback of Vault (E) also interrupts auto windups that can't be canceled."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant En territoire ennemi (R), une auto, Assaut aveuglant (A) ou Salto (E) déclenche Volée fatale automatiquement : pas besoin de relancer l'ult pour frapper.",
+        "en": "During Behind Enemy Lines (R), an auto, Blinding Assault (Q) or Vault (E) triggers Skystrike automatically: no need to recast the ult to strike."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Après 0,5 s de canalisation, tu peux annuler En territoire ennemi (R) en le relançant. Le mana n'est pas remboursé, mais tu évites de partir au mauvais moment.",
+        "en": "After 0.5 s of channeling, you can cancel Behind Enemy Lines (R) by recasting it. The mana isn't refunded, but you avoid leaving at the wrong time."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "En territoire ennemi (R) perd son bonus de vitesse pendant 3 s dès que tu subis des dégâts d'autre chose qu'un sbire, même pendant la canalisation : évite les tirs avant de t'envoler.",
+        "en": "Behind Enemy Lines (R) loses its speed bonus for 3 s as soon as anything but a minion damages you, even while channeling: dodge hits before taking off."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si l'ult n'est pas en CD, réapparaître ou entrer dans ta base fait revenir Valor tout de suite : tu ressors déjà en vol.",
+        "en": "If your ult isn't on cooldown, respawning or entering your base brings Valor back instantly: you leave already flying."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Œil d'aigle (Z) donne passivement vitesse d'attaque et vitesse de déplacement pendant 2 s quand tu attaques une cible marquée par Busard : place une auto entre chaque sort.",
+        "en": "Heightened Senses (W) passively grants attack speed and move speed for 2 s when you attack a Harrier-marked target: weave an auto between each spell."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Quinn - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Quinn", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Quinn Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=rXSmA6bo4X4", "type": "video", "date": "2025-08-24", "author": "3 Minute League of Legends" },
+    { "title": "The ONLY Quinn Guide You Need - Quinn Guide League of Legends", "url": "https://www.youtube.com/watch?v=FrsX9zzCYaE", "type": "video", "date": "2026-01-25", "author": "Daveyx3" },
+    { "title": "GUIDE COMPLET QUINN - OTP LE PLUS CHAUD DE TA RÉGION (Feat Gonzo)", "url": "https://www.youtube.com/watch?v=XeroQblwWoE", "type": "video", "date": "2026-05-28", "author": "OTP - League of Legends" }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "champion": "Riven",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Combo rapide Ailes brisées", "en": "Fast Q" },
+      "keys": ["Q", "Q", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Auto, Ailes brisées (A), puis un clic de déplacement pour couper l'animation avant la prochaine auto. Répète trois fois pour placer chaque charge de Lame runique.",
+        "en": "Auto, Broken Wings (Q), then a move click to cut the animation before the next auto. Repeat three times to spend every Runic Blade charge."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Trade avec Bravoure", "en": "Valor trade" },
+      "keys": ["E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Bravoure (E) sur l'ennemi, auto, Décharge de ki (Z) puis Ailes brisées (A). Continue en alternant auto et Ailes brisées.",
+        "en": "Valor (E) onto the enemy, auto, Ki Burst (W) then Broken Wings (Q). Keep going by alternating autos and Broken Wings."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec l'ult", "en": "All-in with ult" },
+      "keys": ["E", "R", "W", "Q", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Lame de l'exilée (R) pendant Bravoure (E) pour ne pas rester figée, puis auto, Décharge de ki (Z) et Ailes brisées (A) entre les autos. Finis avec Taillade du vent (R).",
+        "en": "Cast Blade of the Exile (R) during Valor (E) so you don't stand still, then auto, Ki Burst (W) and Broken Wings (Q) between autos. Finish with Wind Slash (R)."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Bravoure, Flash, Décharge de ki", "en": "Valor, Flash, Ki Burst" },
+      "keys": ["E", "F", "W", "Q"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Bravoure (E), Flash puis Décharge de ki (Z) aussitôt : le stun tombe avant que l'ennemi réagisse à ton Flash. Finis avec autos et Ailes brisées (A).",
+        "en": "Valor (E), Flash then Ki Burst (W) right away: the stun lands before the enemy reacts to your Flash. Finish with autos and Broken Wings (Q)."
+      },
+      "refs": [2, 4]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Seul le troisième Ailes brisées (A) traverse les murs. Les deux premiers et Bravoure (E) s'arrêtent contre le terrain.",
+        "en": "Only the third Broken Wings (Q) goes through walls. The first two and Valor (E) stop against terrain."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort te donne une charge de Lame runique (passif), 3 max. Chaque auto en consomme une : glisse une auto entre tes sorts pour ne pas les perdre.",
+        "en": "Each ability gives you a Runic Blade (passive) charge, 3 max. Each auto spends one: slip an auto between your abilities so you don't waste them."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le CD d'Ailes brisées (A) démarre au premier cast, et tu as 4 s entre deux casts. Espace-les au max pour que le sort revienne plus vite après le troisième.",
+        "en": "The Broken Wings (Q) cooldown starts on the first cast, and you have 4 s between casts. Space them out as much as you can so the ability returns sooner after the third."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Taillade du vent (R) part vers ton curseur au début de son incantation. Un Flash juste après ne change pas sa direction.",
+        "en": "Wind Slash (R) fires toward your cursor at the start of its cast. A Flash right after does not change its direction."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Taillade du vent (R) fait plus de dégâts sur une cible blessée, jusqu'au triple vers 75 % de PV manquants. Place Décharge de ki (Z) ou Ailes brisées (A) avant.",
+        "en": "Wind Slash (R) deals more damage to a wounded target, up to triple near 75% missing health. Land Ki Burst (W) or Broken Wings (Q) before it."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux lancer n'importe quel sort pendant Bravoure (E). Décharge de ki (Z) ou Lame de l'exilée (R) en fin de dash laissent passer Ailes brisées (A) dans leur incantation.",
+        "en": "You can cast any ability during Valor (E). Ki Burst (W) or Blade of the Exile (R) at the end of the dash let Broken Wings (Q) go off during their cast."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Une auto mise en file avant la fin de l'incantation de Lame de l'exilée (R) part avec 0,33 s de retard. Clique ton auto après l'incantation.",
+        "en": "An auto queued before Blade of the Exile (R) finishes casting starts 0.33 s late. Click your auto after the cast instead."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Riven - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Riven", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Riven Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=iUNs86pabfM", "type": "video", "date": "2025-11-15", "author": "3 Minute League of Legends" },
+    { "title": "The ONLY Riven Mechanics Guide You Need To Master Riven | Beginner's Guide | Combo Guide | Season 14", "url": "https://www.youtube.com/watch?v=6Q3I_7yEVtQ", "type": "video", "date": "2024-01-03", "author": "FLAGGED Riven" },
+    { "title": "SEASON 16 Riven Guide - ITEMS, RUNES, MATCHUPS & COMBOS", "url": "https://www.youtube.com/watch?v=mhNZDJC3V-Y", "type": "video", "date": "2026-01-30", "author": "Woodon" },
+    { "title": "Best Riven Build & Guide (2026) — League of Legends", "url": "https://www.dodge.gg/lol/news/riven-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" }
+  ]
+}

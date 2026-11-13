@@ -1,0 +1,31 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "At maximum stacks, his next basic ability consumes them all to become empowered with an additional effect and grant him an additional cast along with movement speed for 1.5 seconds.",
+    "Rengar can cast any of his abilities during the dash.",
+    "Rengar can freely use any abilities, summoner spells, or item actives while leaping. Using a dash or blink ability will interrupt the leap.",
+    "The attack from the leap will: Not go off if the dash was interrupted. Go off at the end of the dash even if its normal destination is obstructed by boundaries he cannot cross (e.g. terrain). Go off regardless of distance the enemy travels away from Rengar's original location. Go off even if Rengar loses sight of the target.",
+    "While grounded or rooted, Rengar loses the enhanced attack range from Unseen Predator.",
+    "Casting Savagery does not break stealth.",
+    "Attacking or casting abilities other than Savagery ends Thrill of the Hunt immediately.",
+    "If Rengar casts Savagery and/or Battle Roar during Bola Strike's cast time, he will buffer them and cast them when Bola Strike completes.",
+    "Rengar stores 50% of the post-mitigation damage he has taken in the last 1.5 seconds as grey health on his health bar, increased to 100% of damage taken from monsters.",
+    "Ferocity Bonus: Battle Roar's damage is modified. Rengar cleanses himself from all crowd control.",
+    "Ferocity Bonus: Bola Strike's damage is modified. The target is rooted instead of slowed.",
+    "(3 Minute, auto-translated) Your initiation combo: attack, E, W, and Q, followed by another E to immobilize the target while retreating. You can use E while jumping in the air.",
+    "(3 Minute, auto-translated) Your combo for damage: initiate with an attack in E and Q, then instantly a second Q, continuing to attack with tremendous speed.",
+    "(3 Minute, auto-translated) When powered up, it deals more damage and removes all control effects from it.",
+    "we started with our alt we jumped with our Q before jumping you can press it midair before but you want to push it first and then you E when you're in the air",
+    "Rengar can still triple Q yes okay you guys ready for this this is how you do it first you need four Stacks you get four stacks and then you either jump from a bush with your Q"
+  ],
+  "rejected": [
+    { "idea": "Double root: get 4 stacks on a camp, throw bola, leap, go back to brush and root again (ScrubNoob)", "reason": "Single source, situational; not confirmed by the wiki or a second author." },
+    { "idea": "Flash combo during the leap", "reason": "The wiki says a blink interrupts the leap and cancels its attack; no player source shows a Flash combo with the leap." },
+    { "idea": "Bav Bros 'Rengar combo guide season 16'", "reason": "Video has no narration (music only), unusable as a source." }
+  ],
+  "toVerifyInGame": [
+    "Triple Savagery: exact rhythm of Q casts and autos to fit the free extra cast; ScrubNoob source dates from 2024, check it still works the same way.",
+    "Q before the leap from brush during Thrill of the Hunt: the empowered attack should apply on the leap hit."
+  ]
+}

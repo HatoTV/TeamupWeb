@@ -1,0 +1,36 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Rakan's basic attacks and ability hits reduce Fey Feathers' cooldown by 1 second for each enemy champion hit.",
+    "The cooldown reduction is granted even if the attack is blocked, dodged, or misses due to blind.",
+    "After 3 seconds or if an allied champion enters the radius, Rakan heals himself and nearby allied champions.",
+    "Rakan dashes to the target location. After a 0.35-second delay upon arrival, he deals magic damage to nearby enemies and knocks them up for 1 second.",
+    "Rakan will be knocked down by any immobilizing or polymorphing crowd control during the dash.",
+    "Rakan grants a shield to the target allied champion for 3 seconds and then dashes to and around them. Battle Dance can be recast within 5 seconds at no additional cost.",
+    "The shields do not stack if Battle Dance is cast on the same target twice. Only the duration and shield amount is refreshed.",
+    "During The Quickness, Rakan cannot basic attack enemy champions he did not collide with, unless the attack command was inputted before the ability was activated.",
+    "Grand Entrance is disabled but can still be buffered. Gleaming Quill and Battle Dance are usable. (cast time table: Flash disabled)",
+    "for combos a basic tradeit is to e onto an ally so you can get in range to W an opponent attack into Q then attack again before using e to easily disengage and you're all in is use e to get in range to use your",
+    "using W to chain CC someone before attacking into Q than dashing on out",
+    "he can struggle against disengage supports who can cancel his dashes",
+    "if you use your R before your W, you can guarantee that your W will be right. That's Rakan's standard combo",
+    "The R has a cast time, and you can't use W immediately after the R.",
+    "so you can use your E on an ally who's, you know, slightly in front of you and get out of vision and combo someone almost instantly. Additionally, you have to remember that you can't use Flash during the cast time of your R",
+    "So, if you want to control the target for as long as possible, you first use your W, and then wait for them to fall before using your ultimate.",
+    "You can use it for instant healing if you are standing on an ally.",
+    "What I want them to learn are the limits of their W, its ranges, and the walls you can cross, allowing you to check bushes in situations where other supports cannot.",
+    "So don't spam your E twice.",
+    "avec Rakan on a trois dashs possibles, on peut traverser les murs",
+    "Directement, E Z et R E et voilà"
+  ],
+  "rejected": [
+    { "idea": "Rémige rayonnante (A) puis Flash pour contourner un sbire (RaizinsLoL)", "reason": "Interaction avec Flash confirmée par une seule source, absente du wiki : écartée." },
+    { "idea": "Flash au contact puis Danse ultime (R) pour éviter que la cible s'échappe (RaizinsLoL)", "reason": "Une seule source joueur pour ce combo avec Flash : écarté." },
+    { "idea": "Rakan peut cancel tous les engages adverses (EXYT)", "reason": "Trop général, non vérifiable." }
+  ],
+  "toVerifyInGame": [
+    "Mise en file d'Entrée triomphale (Z) pendant l'incantation de Danse ultime (R) : timing à tester.",
+    "Murs franchissables avec Entrée triomphale (Z) : dépend de l'épaisseur, le wiki ne le précise pas."
+  ]
+}

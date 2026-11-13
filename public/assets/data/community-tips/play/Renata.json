@@ -1,0 +1,112 @@
+{
+  "champion": "Renata",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court niveau 2", "en": "Level 2 short trade" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Programme de fidélité (E) pour ralentir l'ennemi et shield ton allié, puis Poignée de main (A) sur la cible ralentie, plus facile à toucher.",
+        "en": "Loyalty Program (E) to slow the enemy and shield your ally, then Handshake (Q) on the slowed target, which is easier to land."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Lancer dans les roquettes", "en": "Throw into the rockets" },
+      "keys": ["Q", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Poignée de main (A) pour enraciner, lance Programme de fidélité (E) pendant le root, puis réactive Poignée de main pour projeter la cible dans le missile.",
+        "en": "Handshake (Q) to root, cast Loyalty Program (E) during the root, then recast Handshake to throw the target into the missile."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Engage teamfight avec l'ult", "en": "Teamfight engage with ult" },
+      "keys": ["R", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Prise de contrôle hostile (R) sur le groupe, Programme de fidélité (E) pour ralentir et shield, puis Poignée de main (A). Auto et Patronage (Z) sur ton carry ensuite.",
+        "en": "Hostile Takeover (R) on the group, Loyalty Program (E) to slow and shield, then Handshake (Q). Then auto and Bailout (W) on your carry."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Ult puis Flash", "en": "Ult then Flash" },
+      "keys": ["R", "F", "Q"],
+      "level": "medium",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Prise de contrôle hostile (R), puis Flash pour combler la distance et Poignée de main (A) sur une cible berserk. Enchaîne avec Programme de fidélité (E) et des autos.",
+        "en": "Hostile Takeover (R), then Flash to close the gap and Handshake (Q) on a berserk target. Follow with Loyalty Program (E) and autos."
+      },
+      "refs": [1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Réactive Poignée de main (A) pour projeter un champion sur un autre ennemi : tous les ennemis traversés sont étourdis. Projeter un sbire ou un monstre n'étourdit personne.",
+        "en": "Recast Handshake (Q) to throw a champion into another enemy: every enemy it passes through is stunned. Throwing a minion or monster stuns no one."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "La projection de Poignée de main (A) ne traverse pas les murs : ne compte pas dessus pour envoyer une cible de l'autre côté d'un mur.",
+        "en": "The Handshake (Q) throw does not go through walls: don't count on it to send a target to the other side of one."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tant que Poignée de main (A) relie ta cible, tu ne peux pas auto et tu perds 30 % de vitesse. Réactive vite si tu dois te replacer.",
+        "en": "While Handshake (Q) tethers your target, you cannot auto and you lose 30% move speed. Recast quickly if you need to reposition."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Ton auto pose la marque de Pression (passif). Quand un allié frappe la cible marquée, il la consomme pour des dégâts bonus. Auto un nouvel ennemi retire l'ancienne marque.",
+        "en": "Your auto applies the Leverage (passive) mark. When an ally hits the marked target, they consume it for bonus damage. Attacking a new enemy removes the old mark."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Sous Patronage (Z), un allié mortellement touché revient à 100 % de PV mais brûle. S'il participe à un kill de champion, la brûlure s'arrête et il reste à 20 % de PV.",
+        "en": "Under Bailout (W), a fatally hit ally returns to 100% health but burns. If they score a champion takedown, the burn stops and they stay at 20% health."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Relance Patronage (Z) sur un allié qui brûle déjà d'un précédent Patronage : il peut de nouveau être sauvé de la mort, avec une nouvelle brûlure.",
+        "en": "Cast Bailout (W) again on an ally already burning from a previous Bailout: they can be saved from death once more, with a new burn."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Un berserk de Prise de contrôle hostile (R) frappe d'abord ses alliés proches, puis toi. En 1v1 sans sbires ni wards ennemis autour, ton ult te met en danger.",
+        "en": "A Hostile Takeover (R) berserk target hits nearby allies first, then you. In a 1v1 with no enemy minions or wards around, your ult puts you in danger."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Renata Glasc - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Renata_Glasc", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Renata Glasc Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=KzI_nHNZhiY", "type": "video", "date": "2025-11-03", "author": "3 Minute League of Legends" },
+    { "title": "Renata Glasc's Combos and Mechanics in 5 Minutes", "url": "https://www.youtube.com/watch?v=Pp0vSVdBirE", "type": "video", "date": "2022-02-24", "author": "Tyrant Brendorf" },
+    { "title": "All Renata Glasc Tips and Tricks That You Need To Know", "url": "https://www.youtube.com/watch?v=ap-Ufeh_uz0", "type": "video", "date": "2022-03-02", "author": "Evvelyx" }
+  ]
+}

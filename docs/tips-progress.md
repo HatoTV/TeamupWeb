@@ -146,18 +146,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Pyke (2 combos, 8 astuces)
 - ✅ Qiyana (4 combos, 8 astuces)
 
-### Lot 11 — ⏳
+### Lot 11 — ✅
 
-- ⏳ Quinn
-- ⏳ Rakan
-- ⏳ Rammus
-- ⏳ RekSai
-- ⏳ Rell
-- ⏳ Renata
-- ⏳ Renekton
-- ⏳ Rengar
-- ⏳ Riven
-- ⏳ Rumble
+- ✅ Quinn (2 combos, 8 astuces)
+- ✅ Rakan (3 combos, 8 astuces)
+- ✅ Rammus (2 combos, 8 astuces)
+- ✅ RekSai (3 combos, 8 astuces)
+- ✅ Rell (4 combos, 8 astuces)
+- ✅ Renata (4 combos, 7 astuces)
+- ✅ Renekton (2 combos, 6 astuces)
+- ✅ Rengar (3 combos, 6 astuces)
+- ✅ Riven (4 combos, 7 astuces)
+- ✅ Rumble (2 combos, 6 astuces)
 
 ### Lot 12 — ✅
 

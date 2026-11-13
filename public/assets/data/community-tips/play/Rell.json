@@ -1,0 +1,118 @@
+{
+  "champion": "Rell",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Engage complet avec Joute", "en": "Full engage with Full Tilt" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Joute endiablée (E) pour la vitesse, saute avec Ferromancie : Descendre en piqué (Z), auto, Frappe dislocatrice (A), auto, puis Tempête magnétique (R) et une dernière auto.",
+        "en": "Full Tilt (E) for speed, jump in with Ferromancy: Crash Down (W), auto, Shattering Strike (Q), auto, then Magnet Storm (R) and one last auto."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Ult pendant le saut", "en": "Ult during the leap" },
+      "keys": ["W", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Tempête magnétique (R) pendant le saut de Ferromancie : Descendre en piqué (Z) : les ennemis attirés retombent dans ta zone d'impact. Finis par Frappe dislocatrice (A).",
+        "en": "Cast Magnet Storm (R) during the Ferromancy: Crash Down (W) leap: pulled enemies land in your impact zone. Finish with Shattering Strike (Q)."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Frappe puis saut garanti", "en": "Strike, then guaranteed leap" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "À cheval et proche de la cible, Frappe dislocatrice (A) l'étourdit, puis Ferromancie : Descendre en piqué (Z) tombe dessus à coup sûr. Une cible avec de la ténacité peut s'échapper.",
+        "en": "Mounted and close to the target, Shattering Strike (Q) stuns them, then Ferromancy: Crash Down (W) lands on them for sure. A target with tenacity can escape."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "À pied : remontée puis Frappe", "en": "Dismounted: Mount Up, then Strike" },
+      "keys": ["W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "À pied, remonte en selle avec Ferromancie (Z) : ton auto suivante charge, étourdit et projette la cible par-dessus toi. Enchaîne Frappe dislocatrice (A) pour prolonger le contrôle.",
+        "en": "Dismounted, use Ferromancy: Mount Up (W): your next auto charges, stuns and flings the target over you. Chain Shattering Strike (Q) to extend the lockdown."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Frappe dislocatrice (A) détruit les boucliers des ennemis touchés avant d'infliger ses dégâts. Seuls les boucliers des monstres résistent.",
+        "en": "Shattering Strike (Q) destroys the shields of enemies hit before dealing its damage. Only monster shields hold."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant le saut de Ferromancie : Descendre en piqué (Z), Frappe dislocatrice (A) et Flash sont bloqués, mais Joute endiablée (E) et Tempête magnétique (R) restent utilisables.",
+        "en": "During the Ferromancy: Crash Down (W) leap, Shattering Strike (Q) and Flash are locked, but Full Tilt (E) and Magnet Storm (R) stay usable."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Après l'impact de Ferromancie : Descendre en piqué (Z), Rell glisse encore vers l'avant, mais jamais à travers un mur : près d'un mur, la glissade est plus courte.",
+        "en": "After the Ferromancy: Crash Down (W) impact, Rell keeps sliding forward, but never through a wall: near a wall, the slide is shorter."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si tu prends un CC immobilisant ou un silence pendant l'incantation de Frappe dislocatrice (A), Rell ne fait pas sa fente. Après le coup, elle reste bloquée 0,35 s.",
+        "en": "If you get hit by an immobilizing CC or a silence during the Shattering Strike (Q) cast time, Rell doesn't lunge. After the strike, she is locked for 0.35 s."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tempête magnétique (R) n'attire pas un ennemi en plein dash, déjà projeté ou insensible aux CC. Un bouclier anti-sort bloque l'attraction initiale, pas l'aspiration qui suit.",
+        "en": "Magnet Storm (R) doesn't drag an enemy mid-dash, already displaced or immune to CC. A spell shield blocks the initial pull, not the drag that follows."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Quand tu remontes à cheval avec Ferromancie (Z), l'auto renforcée marche même si tu es enracinée ou clouée au sol, et remonter réinitialise ton auto.",
+        "en": "The empowered auto from Ferromancy: Mount Up (W) works even while rooted or grounded, and Mount Up resets your auto."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Joute endiablée (E) sans cible vise l'allié le plus proche. Le bonus de vitesse double quand tu te diriges vers cet allié ou un champion ennemi visible.",
+        "en": "Full Tilt (E) without a target picks the closest ally. The speed bonus doubles while you face that ally or a visible enemy champion."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Mise en pièces fige les résistances de la cible au premier stack : touche-la pendant un buff de résistances temporaire, elle perdra plus une fois le buff fini.",
+        "en": "Break the Mold locks in the target's resistances on the first stack: hit them during a temporary resistance buff, and they lose more once it ends."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Rell - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Rell", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Rell Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=8ye9n-XW-CQ", "type": "video", "date": "2026-06-30", "author": "3 Minute League of Legends" },
+    { "title": "The Only Rell Mechanics Guide You'll Ever Need.", "url": "https://www.youtube.com/watch?v=SK222Qx7OXQ", "type": "video", "date": "2026-09-01", "author": "ChainedUp" }
+  ]
+}

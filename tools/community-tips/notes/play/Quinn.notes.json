@@ -1,0 +1,37 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Quinn dashes to the target enemy, marking them with Harrier, dealing physical damage, knocking them back a very short distance over 0.5 seconds, and slowing them by 50% decaying over 1.5 seconds.",
+    "Vault resets Quinn's remaining attack cooldown a short delay after the first dash ends (even if interrupted).",
+    "This delay is a fuzzy 0.25 to 0.5 seconds and this matches up with the moment the target of Vault is marked with Harrier.",
+    "Quinn will automatically attempt to attack the target once she completes Vault.",
+    "Unlike its constant cast range Vault's bounce's can vary to allow Quinn to close or to make a gap between herself and the target (depending on casting position) or even to jump through a wall (if there is enough landing room on the other side).",
+    "Vault's knock back also interrupts the windup of basic attacks with uncancellable windups.",
+    "Behind Enemy Lines can be recast after 0.5 seconds during the channel.",
+    "Behind Enemy Lines does not refund its mana cost if the channel was canceled via recast.",
+    "Taking damage from non-minions while Behind Enemy Lines is active or while Quinn is channeling the ability causes her to lose the bonus total movement speed for 3 seconds.",
+    "Once Behind Enemy Lines has been learned, respawning or entering any summoning platform will spawn Valor instantly.",
+    "However, it will still automatically activate upon declaring a basic attack or casting Blinding Assault or Vault.",
+    "Whenever Quinn uses a basic attack against a target marked by Harrier or consumes their mark, she gains bonus attack speed and bonus movement speed for 2 seconds.",
+    "For combos, your basic go-to is to attack into E, then attack into Q before attacking away. And your all-in is to ultimate and then cancel it when in range to attack. Follow up with Q and attack before Eing and attacking away.",
+    "In addition, if she attacks, uses Q or E, she also casts this ability and ends it.",
+    "With Quinn, you should always auto attack before and after each ability so you can use Quinn's passive and marks every time you hit your abilities.",
+    "If you attack, it will end the ability, dealing damage and applying a mark to your enemies.",
+    "ton salto, si tu utilises bien, tu peux passer au travers de certains murs",
+    "soit tu peux E pour passer à travers un mur, soit si tu E avec le mur est trop gros, ça va aussi un reset d'auto. Parce que du coup tu auto attaque E et là tu peux relancer une auto attaque très vite",
+    "le setup du E pour avoir un bon Q spell après, le combo est vraiment hyper efficace",
+    "il link le Q très facilement c'est quasiment Après tu es slow. C'est quasiment auto link en fait",
+    "Le R, tu peux le cancel si jamais tu l'as utilisé à un mauvais timing",
+    "si jamais tu n'as pas utilisé ton R avant de base, en arrivant à la base, tu repasses directement sous forme R."
+  ],
+  "rejected": [
+    { "idea": "Flash ou objets lancés pendant Salto (E) pour gagner de la distance", "reason": "Une seule source joueur (OTP), interaction non décrite par le wiki : combo avec Flash écarté." },
+    { "idea": "Assaut aveuglant (A) désarme aussi les champions (3 Minute League of Legends)", "reason": "Contredit par le wiki : désarme seulement les non-champions, les champions sont rendus myopes." },
+    { "idea": "Annuler des sorts adverses avec Salto (E) (OTP)", "reason": "Trop vague ; seul le cas vérifié (préparation d'auto non annulable) est gardé." }
+  ],
+  "toVerifyInGame": [
+    "Délai de réinitialisation d'auto de Salto (E) : 0,25 à 0,5 s après le premier dash selon le wiki.",
+    "Murs franchissables avec Salto (E) : dépend de la place pour atterrir."
+  ]
+}

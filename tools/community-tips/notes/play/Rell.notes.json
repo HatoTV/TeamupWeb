@@ -1,0 +1,36 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Rell thrusts her lance in the target direction, lunging forward 100 units and destroying the shields of all enemies hit (excluding the shields of monsters) before dealing them magic damage and stunning them for 0.65 seconds.",
+    "Rell will not lunge forward after the cast time if she was immobilized, grounded, or silenced during it. She is also unable to act for 0.35 seconds after the cast time.",
+    "She will continue sliding forward another 320 units over 0.5 seconds, though not through terrain, affecting further enemies along her path.",
+    "If Rell dashes before a wall on the map, the slide will cover a shorter distance to the terrain over the same time, moving slower.",
+    "Rell can cast Magnet Storm during the dash, and is considered to be dismounted at the start of the cast time.",
+    "Shattering Strike is disabled. Full Tilt and Magnet Storm are usable. (dash/cast time table: Flash disabled)",
+    "Magnet Storm will not drag units that are: Dashing. Being displaced. Attached. Displacement immune. Immune to crowd control.",
+    "Spell shield will block the initial pull but not the dragging effect.",
+    "If cast without a valid target, or self-cast, Full Tilt will automatically target the closest allied champion in range.",
+    "both gaining 15% bonus movement speed, increased to 30% while facing the empowered ally or a visible enemy champion.",
+    "Rell can use the empowered attack even while grounded or rooted.",
+    "Ferromancy: Mount Up resets Rell's basic attack timer.",
+    "empowering her next basic attack to have a 0.2-second cast time, gain 100 bonus attack range and 40% bonus attack speed, and cause her to charge at the target's location. Upon arrival or collision of the charge, her basic attack deals bonus magic damage, stuns the target for 0.6 seconds, and flings them 150 units over herself",
+    "The first stack of Break the Mold that is applied to a target will snapshot the targets current armor and magic resistance.",
+    "For combos, start with E, then engage with W into an attack and Q. Attack into ult before attacking away.",
+    "When engaging, simply jump in with W, use your ultimate, Q as many people as possible, lock them down.",
+    "Enemies hit have all their shields broken before they take damage and are stunned.",
+    "You just walk up to an enemy, press W, ult, and they land inside your W. The main thing to know about this combo is that you can activate the ult at the beginning of your W.",
+    "The following combo guarantees a W hit, but the downside is that you need to be a little closer to them. This is your Q in W.",
+    "so if they have stamina, they have a chance to escape your QW by using the flash.",
+    "Luckily, there is one combo with a chain of control that always hits. This is your W in walking form in Q. Start by saddling the horse. You attack the enemy"
+  ],
+  "rejected": [
+    { "idea": "Ferromancie : Descendre en piqué (Z) puis Flash pour annuler l'animation (ChainedUp)", "reason": "Contredit par le wiki : Flash est désactivé pendant l'incantation et le saut de ce sort." },
+    { "idea": "Flash puis Z + R, ou Flash puis A + Z (ChainedUp)", "reason": "Combos avec Flash cités par une seule source : écartés." },
+    { "idea": "Nom FR officiel de Ferromancy: Mount Up", "reason": "Absent de Data Dragon fr_FR (seul « Ferromancie : Descendre en piqué » existe) : formulé « remontée en selle de Ferromancie (Z) »." }
+  ],
+  "toVerifyInGame": [
+    "Combo Frappe dislocatrice (A) puis Descendre en piqué (Z) : l'étourdissement de 0,65 s couvre-t-il l'incantation de 0,625 s selon la distance ?",
+    "Moment idéal pour Tempête magnétique (R) pendant le saut (début ou fin)."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "champion": "Rakan",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court par l'allié", "en": "Short trade off an ally" },
+      "keys": ["E", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Valse guerrière (E) sur ton ADC pour te rapprocher, Entrée triomphale (Z) sur l'adversaire, auto, Rémige rayonnante (A), auto, puis relance Valse guerrière (E) pour revenir.",
+        "en": "Battle Dance (E) onto your ADC to get closer, Grand Entrance (W) onto the enemy, auto, Gleaming Quill (Q), auto, then recast Battle Dance (E) to get back."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Engage complet ult avant saut", "en": "Full engage, ult before leap" },
+      "keys": ["E", "R", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Valse guerrière (E) vers un allié devant, Danse ultime (R) juste après pour charmer, puis Entrée triomphale (Z) qui touche à coup sûr. Finis par Rémige rayonnante (A) et ressors avec Valse guerrière (E).",
+        "en": "Battle Dance (E) to an ally in front, The Quickness (R) right after to charm, then Grand Entrance (W), which can't miss. Finish with Gleaming Quill (Q) and leave with Battle Dance (E)."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "CC enchaîné le plus long", "en": "Longest chained CC" },
+      "keys": ["W", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Entrée triomphale (Z) d'abord, attends que la cible retombe du knock-up, puis touche-la avec Danse ultime (R) : les deux CC ne se chevauchent plus.",
+        "en": "Grand Entrance (W) first, wait for the target to land from the knock-up, then hit them with The Quickness (R): the two CCs no longer overlap."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Danse ultime (R) a 0,5 s d'incantation : Flash y est bloqué, Entrée triomphale (Z) se met en file, mais Rémige rayonnante (A) et Valse guerrière (E) restent utilisables.",
+        "en": "The Quickness (R) has a 0.5 s cast time: Flash is locked during it, Grand Entrance (W) gets buffered, but Gleaming Quill (Q) and Battle Dance (E) stay usable."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le knock-up d'Entrée triomphale (Z) part 0,35 s après ton arrivée : la cible a le temps de bouger, d'où l'intérêt de la charmer avant avec Danse ultime (R).",
+        "en": "The Grand Entrance (W) knock-up hits 0.35 s after you land: the target has time to move, which is why you charm them first with The Quickness (R)."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Entrée triomphale (Z) passe certains murs : apprends ses limites pour checker un buisson ou t'échapper par la jungle.",
+        "en": "Grand Entrance (W) goes over some walls: learn its limits to check a brush or escape through the jungle."
+      },
+      "refs": [2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Entrée triomphale (Z) et Valse guerrière (E) s'arrêtent net si tu prends un CC immobilisant ou une métamorphose pendant le dash.",
+        "en": "Grand Entrance (W) and Battle Dance (E) stop dead if you get hit by an immobilizing CC or a polymorph during the dash."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque auto ou sort qui touche un champion ennemi réduit d'1 s le CD de Plumes enchantées, même si l'attaque est bloquée ou ratée à cause d'un aveuglement.",
+        "en": "Each auto or spell that hits an enemy champion cuts Fey Feathers cooldown by 1 s, even if the attack is blocked or misses due to blind."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le soin de Rémige rayonnante (A) part dès qu'un champion allié entre dans la zone : reste collé à ton ADC pour un heal instantané.",
+        "en": "The Gleaming Quill (Q) heal triggers as soon as an allied champion enters the zone: stay on your ADC for an instant heal."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Danse ultime (R), tu ne peux pas attaquer un champion que tu n'as pas percuté, sauf si l'ordre d'attaque était donné avant l'ult.",
+        "en": "During The Quickness (R), you can't attack a champion you didn't collide with, unless the attack order was given before the ult."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Relancer Valse guerrière (E) sur le même allié ne cumule pas les boucliers : ça rafraîchit seulement la valeur et la durée. Garde la relance pour te placer.",
+        "en": "Recasting Battle Dance (E) on the same ally doesn't stack shields: it only refreshes the amount and duration. Save the recast for positioning."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Rakan - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Rakan", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Rakan Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=3IDsZkImnFA", "type": "video", "date": "2025-01-16", "author": "3 Minute League of Legends" },
+    { "title": "11 Actually Useful Tips for RAKAN", "url": "https://www.youtube.com/watch?v=EwGLudZn8tA", "type": "video", "date": "2023-05-09", "author": "RaizinsLoL" },
+    { "title": "GUIDE RAKAN SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=dQl5JCOoi_A", "type": "video", "date": "2026-01-29", "author": "EXYT - League of Legends" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Rek'Sai can Tunnel through terrain if she dashes close to them and the wall is thin enough to allow the opposite entrance to spawn on the other side.",
+    "If Rek'Sai issues an attack command while the dash passes by an enemy, the target will be knocked up but Rek'Sai will still complete the movement.",
+    "Enemies can block Rek'Sai from using a tunnel entrance if a ward is placed directly over it, because the cursor's target selection prioritizes wards over tunnel entrances.",
+    "Rek'Sai will take longer to enter a Tunnel from Un-Burrowed state because she needs to become Burrowed.",
+    "If Rek'Sai attempts to enter a Tunnel while Un-Burrowed, she will automatically Burrow upon interacting with it, and automatically Unburrow after exiting it. If Burrow is on cooldown at the time of interacting with the Tunnel, the cooldown will be reset.",
+    "Tunnel entrances are visible on allied champions' minimaps, while enemies must first gain sight of one before it becomes visible on theirs (the opposite entrance is not revealed).",
+    "Rek'Sai can also trigger Unburrow by issuing an attack command, casting the ability once she is in attack range of the target and applying the knock up against them.",
+    "Targets hit cannot be displaced by Unburrow again for some time. (on-target cooldown 10 to 6)",
+    "Rek'Sai's abilities other than Queen's Wrath generate 25 Fury upon hitting at least one unit.",
+    "Rek'Sai applies Marked as Prey to enemy champions she damages, lasting for 5 seconds.",
+    "When Rek'Sai becomes Burrowed, she consumes her current Fury over 3 seconds to heal.",
+    "At maximum Fury, Furious Bite deals 100% damage and is converted to true damage.",
+    "Rek fast combo relies on her going burrowed Q knock up Auto q auto and then finally Empower E when done correctly the enemy won't have time to flash",
+    "one of my favorite combos to do versus top laners, hitting broad Q and then flashing and doing your combo, which catches many, many top laners off guard.",
+    "Not only do your basic abilities give you 25 fury, but so does your ultimate. So you can factor that into combos as well.",
+    "if no one sees you, if there's no ward, if there's no minion, the enemy champions will not see the lines between the two bushes, indicating that there is a tunnel.",
+    "On blue side, you can use this wall to tunnel over, which makes a giant gap",
+    "Your standard gank combo is: Burrow in fog of war → approach through a tunnel or from a brush",
+    "The full assassination combo is: approach burrowed → Unburrow knockup on the carry",
+    "Flash-Unburrow allows Rek'Sai to instantly Flash on top of a priority target and knock them airborne",
+    "Rek'Sai can also trigger Unburrow by issuing an attack command, casting the ability once she is in attack range of the target."
+  ],
+  "rejected": [
+    { "idea": "Utiliser le trajet du Tunnel pour esquiver tous les CC sauf les déplacements (The Rek Guy)", "reason": "Une seule source, non confirmée par le wiki." },
+    { "idea": "Morsure féroce puis Flash en arrière (Queen Xersai)", "reason": "Une seule source pour ce combo avec Flash." },
+    { "idea": "Combos avec Titanesque / cône de dégâts (Queen Xersai)", "reason": "Dépend d'un objet ; interaction non vérifiée par le wiki." },
+    { "idea": "Jaillissement ne peut pas être bloqué par les sbires ni le Mur de vent (dodge.gg)", "reason": "Une seule source, formulation générique." }
+  ],
+  "toVerifyInGame": [
+    "Combo Sondeur explosif (A), Flash, Jaillissement (Z) : timing du Flash après le projectile.",
+    "Murs assez fins pour Tunnel (E) : à repérer en jeu."
+  ]
+}

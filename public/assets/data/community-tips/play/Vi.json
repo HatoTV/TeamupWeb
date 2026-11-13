@@ -1,0 +1,130 @@
+{
+  "champion": "Vi",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Brise-coffre, auto, Force implacable", "en": "Vault Breaker, auto, Relentless Force" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche Brise-coffre (A), place une auto, puis Force implacable (E) qui relance ton auto. Ces coups montent Coups fracassants (Z) à 3 charges et te donnent la vitesse d'attaque bonus.",
+        "en": "Land Vault Breaker (Q), weave an auto, then Relentless Force (E) to reset your auto. These hits bring Denting Blows (W) to 3 stacks and give you its bonus attack speed."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Brise-coffre puis Flash", "en": "Vault Breaker into Flash" },
+      "keys": ["Q", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Flash pendant le dash de Brise-coffre (A) : tu frappes les ennemis à l'arrivée et ils sont repoussés dans la direction de ton Flash. Idéal pour changer d'angle au dernier moment.",
+        "en": "Flash during the Vault Breaker (Q) dash: you hit enemies where you land and they get knocked back in your Flash direction. Ideal to change the angle at the last moment."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Brise-coffre, Mise en demeure", "en": "Vault Breaker, Cease and Desist" },
+      "keys": ["Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Mise en demeure (R) pendant le dash de Brise-coffre (A) : l'ult part sans attendre la fin du dash. Tu enchaînes deux contrôles avant que la cible puisse Flash.",
+        "en": "Cast Cease and Desist (R) during the Vault Breaker (Q) dash: the ult starts without waiting for the dash to end. You chain two crowd controls before the target can Flash."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Ult d'abord, Brise-coffre ensuite", "en": "Ult first, Vault Breaker after" },
+      "keys": ["R", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Face à une cible qui a Flash, ouvre avec Mise en demeure (R) : tu la suis même si elle se téléporte. Garde Brise-coffre (A) et Force implacable (E) pour la suite.",
+        "en": "Against a target with Flash up, open with Cease and Desist (R): you follow them even if they blink. Keep Vault Breaker (Q) and Relentless Force (E) for the follow-up."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Mise en demeure, Flash", "en": "Cease and Desist, Flash" },
+      "keys": ["R", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Flash pendant la course de Mise en demeure (R) : ton ult n'est pas annulée et tu changes de trajectoire. Les ennemis que tu traverses en chemin sont écartés et stun.",
+        "en": "Flash during the Cease and Desist (R) dash: your ult isn't cancelled and you change your path. Enemies you run through on the way are knocked aside and stunned."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le dash de Brise-coffre (A) traverse les murs, avec jusqu'à 50 unités de portée en plus. Charge-le à fond pour passer un mur de jungle en gank ou en fuite.",
+        "en": "The Vault Breaker (Q) dash goes through walls, with up to 50 extra units of range. Charge it fully to cross a jungle wall when ganking or escaping."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux garder Brise-coffre (A) chargé jusqu'à 4 secondes. Tiens-le pour forcer un Flash ou un sort défensif, mais relâche-le à temps : sinon il passe en CD complet.",
+        "en": "You can hold Vault Breaker (Q) charged for up to 4 seconds. Hold it to bait a Flash or a defensive spell, but release it in time: otherwise it goes on full cooldown."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Force implacable (E) frappe en cône derrière ta cible. Tape un sbire placé devant un champion pour toucher ce champion sans être à portée d'auto.",
+        "en": "Relentless Force (E) hits in a cone behind your target. Hit a minion standing in front of a champion to reach that champion without being in auto range."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si Force implacable (E) expire pendant que tu commences ton auto, sa durée est prolongée. L'auto renforcée part quand même, même lancée à la dernière seconde.",
+        "en": "If Relentless Force (E) is about to expire as you start your auto, its duration is extended. The empowered auto still goes off, even at the last second."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Brise-coffre (A) déclenche Bouclier antichoc même bloqué par un bouclier magique, mais pas Mise en demeure (R). Chaque 3e charge de Coups fracassants (Z) réduit aussi son CD de 4 secondes.",
+        "en": "Vault Breaker (Q) triggers Blast Shield even if a spell shield blocks it, but Cease and Desist (R) doesn't. Each third Denting Blows (W) stack also cuts its cooldown by 4 seconds."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant que tu tiens la cible avec Mise en demeure (R), Flash et Brise-coffre (A) sont bloqués mais Force implacable (E) reste utilisable. Prépare-la pour l'arrivée.",
+        "en": "While you hold the target with Cease and Desist (R), Flash and Vault Breaker (Q) are locked, but Relentless Force (E) stays usable. Have it ready for the landing."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Mise en demeure (R) ne traverse pas la cible si un mur t'empêche d'atterrir de l'autre côté. Contre un mur, tu restes donc du côté où tu es arrivée.",
+        "en": "Cease and Desist (R) won't carry you through the target if a wall stops you from landing on the other side. Against a wall, you stay on the side you came from."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le 3e coup de Coups fracassants (Z) réduit l'armure de la cible de 20 % pendant 4 secondes, après ses propres dégâts. Enchaîne ton burst juste après ce proc.",
+        "en": "The third Denting Blows (W) hit reduces the target's armor by 20% for 4 seconds, after its own damage. Chain your burst right after that proc."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Vi - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Vi", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The Only Vi Combo Guide You’ll Ever Need", "url": "https://www.youtube.com/watch?v=KOXhjN-uKvM", "type": "video", "date": "2025-06-03", "author": "LOCVS" },
+    { "title": "The BEST VI Jungle in-depth BEGINNER guide season 16!!", "url": "https://www.youtube.com/watch?v=XtBarve5uOM", "type": "video", "date": "2026-10-13", "author": "Sawyer Jungle" }
+  ]
+}

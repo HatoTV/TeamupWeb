@@ -1,0 +1,42 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Viktor throws a draining device at the target enemy that deals magic damage. He also grants himself a shield for 30 to 130 (+ 20% AP) for 2 seconds and gains Discharge for 4 seconds.",
+    "Discharge: Viktor's next basic attack is empowered to become projectile [non-projectile] and deal modified magic damage.",
+    "Only the initial projectile can be projectile [intercepted].",
+    "Spell shield does not prevent Viktor from gaining Discharge.",
+    "The field applies a stack of Heavy Gravity to enemies within every 0.25 seconds, stacking up to 5 times. The fifth stack consumes them all to knockdown [knock down] and stun the target for 1.5 seconds. The knockdown and stun can be triggered only once per cast per enemy.",
+    "Gravity Field will remain active if Viktor dies.",
+    "Viktor may freely act while the ray is traveling.",
+    "The effected area is set upon casting, no matter how far away Viktor moves.",
+    "However, the capability to be blocked only applies to the laser as it hits the ground. Viktor can cast the ability over the wall and it will not be destroyed or intercepted.",
+    "Augmented Hextech Ray will still cause the entire target area to explode even if the laser is blocked.",
+    "Arcane Storm's recast can be used while affected by cast-inhibiting crowd control.",
+    "Viktor can command the singularity regardless of how far away he is from it.",
+    "The singularity will remain active even if Viktor dies and will automatically follow the nearest enemy champion in range at the time of his death, if it wasn't locked on already.",
+    "The storm will follow its target even if they are not sight [visible], effectively giving away their position.",
+    "Arcane Storm is not obstructed by terrain.",
+    "Viktor conjures an arcane singularity at the target location, dealing magic damage to enemies within the area and disrupt [disrupting] their channel [channeled abilities].",
+    "Q E auto. This combo is quite flexible, so So can even finish with E. Q auto E. This is your full rotation combo when you're committing to the kill.",
+    "W R E Q auto. This is also one of your best counter engage combos.",
+    "Use Q on a minion or nearby target first, then flash forward with your empowered auto already ready.",
+    "Q a minion, flash, auto. This is slightly slower but does more damage.",
+    "It can even hit through Yasuo's wind wall.",
+    "Against immobile champions, place it slightly behind them or in their escape path, so they either walk towards you, burn flash, or risk getting stunned.",
+    "After you cast Arcane Storm, you can keep redirecting it during a fight. So if one enemy dies, flashes away, or walks out, don't just leave the storm sitting there.",
+    "And if you know you're about to die, always try to cast R first. Viktor might die, but the storm keeps fighting after him.",
+    "You can use R to cancel important channeled abilities, which can completely deny certain champions.",
+    "For combos, your basic trade is to attack into Q and W. Attack again into E before attacking away.",
+    "And your all-in is to start W and alt. Follow up with an attack into Q into your empowered auto attack and E before attacking away."
+  ],
+  "rejected": [
+    { "idea": "Rayon Hextech (E) puis Flash pour allonger ou réorienter le laser", "reason": "Une seule source (Zoose), et contredit par le wiki : la zone du rayon est fixée au lancer." },
+    { "idea": "Ordre d'amélioration des sorts (E, puis A, puis Z)", "reason": "Conseil d'ordre de montée, hors périmètre." },
+    { "idea": "Sources Viktor antérieures au rework (Master Sparda 2021, Bav Bros S14, etc.)", "reason": "Kit d'avant le rework : seules des vidéos de 2026 au kit actuel (Hex Fragments) ont été utilisées." }
+  ],
+  "toVerifyInGame": [
+    "Rayon Hextech (E) lancé par-dessus un Mur de vent : non bloqué, et explosion de la version améliorée sur toute la ligne.",
+    "Auto renforcée par Siphonnage (A) à travers le Mur de vent de Yasuo."
+  ]
+}

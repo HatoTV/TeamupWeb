@@ -1,0 +1,121 @@
+{
+  "champion": "Urgot",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Mépris Flash tardif", "en": "Late Flash Disdain" },
+      "keys": ["E", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Lance Mépris (E), puis Flash vers la fin de l'animation, juste avant le dash. Trop tôt, ta cible a le temps de réagir ; trop tard, le Flash ne part pas.",
+        "en": "Cast Disdain (E), then Flash near the end of the windup, right before the dash. Too early and your target has time to react; too late and Flash won't go off."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Mépris, Géhenne, tourne autour", "en": "Disdain, Purge, circle around" },
+      "keys": ["E", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche ta cible avec Mépris (E) et active Géhenne (Z) pendant le dash. Tant qu'elle est étourdie, tourne autour d'elle pour faire tirer un maximum de fusils de Flammes purificatrices.",
+        "en": "Hit your target with Disdain (E) and activate Purge (W) during the dash. While they're stunned, circle around them so as many Echoing Flames shotguns as possible fire."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Toggle de Géhenne", "en": "Purge toggle" },
+      "keys": ["W", "W"],
+      "level": "hard",
+      "desc": {
+        "fr": "Géhenne (Z) au rang max : laisse partir trois tirs, coupe-la et place une auto, puis rallume-la. Ton auto frappe plus fort qu'un tir et peut partir tout de suite après la coupure.",
+        "en": "With Purge (W) at max rank: let three shots go, turn it off and land an auto, then turn it back on. Your auto hits harder than a shot and can go out right after the toggle off."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Auto puis Flash pour un fusil", "en": "Auto into Flash for a shotgun" },
+      "keys": ["F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Aucun fusil chargé face à ta cible ? Lance ton auto, puis Flash du côté où un fusil est prêt pendant que le projectile vole : c'est ce fusil qui tire à l'impact.",
+        "en": "No loaded shotgun facing your target? Start your auto, then Flash to the side where a shotgun is ready while the projectile flies: that shotgun fires on hit."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Un CC qui te touche pendant l'animation de Mépris (E) est ignoré. Garde parfois ton E pour répondre à un engage adverse au lieu d'ouvrir avec.",
+        "en": "Crowd control that hits you during the Disdain (E) windup is ignored. Sometimes hold your E to answer an enemy engage instead of opening with it."
+      },
+      "refs": [1, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Géhenne (Z) vise en priorité le champion marqué par tes autres sorts, et un seul ennemi peut être marqué à la fois. Si ta Torpille corrosive (A) touche un autre champion après ton R, ta Z change de cible.",
+        "en": "Purge (W) prioritizes the champion marked by your other abilities, and only one enemy can be marked at once. If your Corrosive Charge (Q) hits another champion after your R, your W switches target."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Mépris (E) empêche Géhenne (Z) de tirer pendant 1,25 s, et Règne de la terreur (R) pendant 0,8 s. Ne compte pas sur ta Z juste après ces deux sorts.",
+        "en": "Disdain (E) stops Purge (W) from firing for 1.25 s, and Fear Beyond Death (R) for 0.8 s. Don't count on your W right after those two abilities."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux réactiver Règne de la terreur (R) alors que ta cible est encore au-dessus de 25 % de PV : les chaînes partent toutes seules dès qu'elle passe sous le seuil.",
+        "en": "You can recast Fear Beyond Death (R) while your target is still above 25% health: the chains fire on their own as soon as they drop below the threshold."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les chaînes de la réactivation de Règne de la terreur (R) sont stoppées par Mur de vent (Yasuo) et Incassable (Braum), mais pas par un bouclier de sort. Elles échouent aussi si ta cible est insensible aux CC à l'impact.",
+        "en": "The chains of the Fear Beyond Death (R) recast are stopped by Wind Wall (Yasuo) and Unbreakable (Braum), but not by a spell shield. They also fail if your target is immune to crowd control on impact."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "En lançant la canalisation de Règne de la terreur (R) réactivé, tu reviens au sol : un déplacement forcé qui te touche est interrompu.",
+        "en": "Starting the channel of the Fear Beyond Death (R) recast puts you back on the ground: a displacement affecting you is interrupted."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Mépris (E) ne traverse pas les murs, et la projection de ta cible derrière toi non plus. Le dash fait aussi un peu moins que l'indicateur affiché.",
+        "en": "Disdain (E) doesn't go through walls, and neither does the fling of your target behind you. The dash is also slightly shorter than the range indicator."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Flammes purificatrices : tes pattes gardent toujours la même orientation sur la carte, seul ton corps pivote. Place-toi pour que ta cible soit dans l'arc d'un fusil encore chargé.",
+        "en": "Echoing Flames: your legs always keep the same orientation on the map, only your body turns. Position so your target sits in the arc of a shotgun that is still loaded."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Urgot - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Urgot", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The Ultimate Urgot Mechanics Guide - Play Urgot Like A Challenger!", "url": "https://www.youtube.com/watch?v=uydTBlUh7Fw", "type": "video", "date": "2025-01-19", "author": "quante" },
+    { "title": "GUIDE URGOT COMPLET - SORTS, POINTS FORTS, COMBOS & 1 GAME POUR APPRENDRE A SMURF (Ft Melophoric)", "url": "https://www.youtube.com/watch?v=jFuhOZjN_7g", "type": "video", "date": "2026-05-16", "author": "iReaz VOD" },
+    { "title": "12 ADVANCED URGOT MECHANICS TO HELP YOU CLIMB IN SEASON 15 | Urpog", "url": "https://www.youtube.com/watch?v=nfokTLTpm7o", "type": "video", "date": "2025-01-29", "author": "Urpog" }
+  ]
+}

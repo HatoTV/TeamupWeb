@@ -1,0 +1,109 @@
+{
+  "champion": "Viktor",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Siphonnage, auto, rayon", "en": "Siphon, auto, ray" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Siphonnage (A) te donne un bouclier et renforce ta prochaine auto : place-la tout de suite, puis Rayon Hextech (E) avant que la cible recule. Ton trade de lane le plus sûr.",
+        "en": "Siphon Power (Q) shields you and empowers your next auto: land it right away, then Hextech Ray (E) before the target backs off. Your safest lane trade."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Champ, tempête, rayon, siphonnage", "en": "Field, storm, ray, siphon" },
+      "keys": ["W", "R", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Champ gravitationnel (Z) sous la cible, ajoute Tempête arcanique (R), puis Rayon Hextech (E) pendant le slow ou le stun. Finis avec Siphonnage (A) et l'auto renforcée.",
+        "en": "Drop Gravity Field (W) under the target, add Arcane Storm (R), then Hextech Ray (E) during the slow or stun. Finish with Siphon Power (Q) and the empowered auto."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Siphonnage sur sbire, Flash, auto", "en": "Siphon a minion, Flash, auto" },
+      "keys": ["Q", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Siphonnage (A) sur un sbire proche : l'auto renforcée reste prête 4 secondes. Flash sur la cible basse et place cette auto pour l'achever.",
+        "en": "Cast Siphon Power (Q) on a nearby minion: the empowered auto stays ready for 4 seconds. Flash onto the low target and land that auto to finish them."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "L'auto renforcée par Siphonnage (A) n'est pas un projectile. Elle passe à travers le Mur de vent de Yasuo, seul le projectile du sort peut être bloqué.",
+        "en": "The auto empowered by Siphon Power (Q) isn't a projectile. It goes through Yasuo's Wind Wall: only the spell's own projectile can be blocked."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le Mur de vent ne bloque Rayon Hextech (E) qu'au point où le laser touche le sol. Lance-le par-dessus le mur, et la version améliorée explose quand même sur toute la ligne.",
+        "en": "Wind Wall only blocks Hextech Ray (E) where the laser hits the ground. Cast it over the wall, and the augmented version still explodes along the whole line."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La zone de Rayon Hextech (E) est fixée au lancer. Tu peux bouger ou reculer pendant que le laser avance, il ne s'arrête pas.",
+        "en": "The Hextech Ray (E) area is locked when you cast it. You can move or back off while the laser travels, it won't stop."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Champ gravitationnel (Z) stun après 5 charges, une tous les 0,25 seconde passés dedans, et une seule fois par lancer. Place-le sur la route de fuite plutôt que sur la cible.",
+        "en": "Gravity Field (W) stuns after 5 stacks, one per 0.25 seconds spent inside, and only once per cast. Place it on the escape path rather than on the target."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tempête arcanique (R) et Champ gravitationnel (Z) restent actifs si tu meurs : la tempête suit le champion le plus proche. Sur le point de mourir, lance ton ult d'abord.",
+        "en": "Arcane Storm (R) and Gravity Field (W) stay active if you die: the storm follows the nearest champion. About to die, cast your ult first."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux rediriger Tempête arcanique (R) même sous contrôle et à n'importe quelle distance. Si ta cible meurt ou Flash, déplace la tempête sur la suivante.",
+        "en": "You can redirect Arcane Storm (R) even while crowd-controlled and from any distance. If your target dies or Flashes, move the storm onto the next one."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Tempête arcanique (R) n'est pas gênée par le terrain et interrompt les canalisations ennemies. Garde-la pour couper un ult canalisé, même derrière un mur.",
+        "en": "Arcane Storm (R) isn't obstructed by terrain and interrupts enemy channels. Save it to cut a channeled ult, even behind a wall."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tempête arcanique (R) suit sa cible même hors de vision. Si elle disparaît dans le brouillard ou un buisson, la tempête trahit sa position.",
+        "en": "Arcane Storm (R) follows its target even out of vision. If they vanish into fog or a bush, the storm gives away their position."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Viktor - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Viktor", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Everyone Plays Viktor — Almost Nobody Plays Him Correctly", "url": "https://www.youtube.com/watch?v=GSqDEvatvHs", "type": "video", "date": "2026-06-30", "author": "Zoose" },
+    { "title": "3 Minute Viktor Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=q2KjPlF23dA", "type": "video", "date": "2026-03-01", "author": "3 Minute League of Legends" }
+  ]
+}

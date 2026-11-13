@@ -1,0 +1,120 @@
+{
+  "champion": "Udyr",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Tempête avant le gank", "en": "Storm before the gank" },
+      "keys": ["R", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Avant d'arriver sur ta cible, lance Tempête spirituelle (R), puis passe en Piétinement flamboyant (E) pour combler l'écart. Le blizzard tient 4 s et continue de ralentir pendant que ton auto étourdissante part.",
+        "en": "Before reaching your target, cast Wingborne Storm (R), then switch to Blazing Stampede (E) to close the gap. The blizzard lasts 4 s and keeps slowing while your stunning auto goes out."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Stun, griffe, réactivation", "en": "Stun, claw, awaken" },
+      "keys": ["E", "Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Une fois le stun de Piétinement flamboyant (E) posé, passe tout de suite en Griffe sauvage (A). Mets une auto sur une cible fragile, deux sur un tank, puis la réactivation de Griffe sauvage (A).",
+        "en": "Once the Blazing Stampede (E) stun lands, switch right away to Wilding Claw (Q). Hit one auto on a squishy target, two on a tank, then awaken Wilding Claw (Q)."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Embuscade griffe depuis le buisson", "en": "Claw ambush from a brush" },
+      "keys": ["Q", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Caché dans un buisson, ouvre avec Griffe sauvage (A) et sa réactivation pour tout envoyer avant que la cible réagisse. Garde Piétinement flamboyant (E) pour l'étourdir si elle tente de fuir.",
+        "en": "Hidden in a brush, open with Wilding Claw (Q) and its awaken to dump everything before the target reacts. Keep Blazing Stampede (E) to stun them if they try to run."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Double cape en trade", "en": "Double mantle trade" },
+      "keys": ["W", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "En trade long, lance Cape de fer (Z), place deux autos qui te soignent, puis la réactivation de Cape de fer (Z) et deux autos de plus. Le bouclier de la réactivation s'ajoute à celui qui reste.",
+        "en": "In a long trade, cast Iron Mantle (W), land two healing autos, then awaken Iron Mantle (W) and land two more. The awaken shield stacks with what is left of the first one."
+      },
+      "refs": [0, 1, 4]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La foudre de la réactivation de Griffe sauvage (A) s'applique à tes deux prochaines autos pendant 4 s, quelle que soit ta posture. Si ta cible fuit, change de posture pour la rattraper : tu gardes la foudre.",
+        "en": "The lightning from awakened Wilding Claw (Q) applies to your next two autos for 4 s, in any stance. If your target runs, switch stance to catch up: you keep the lightning."
+      },
+      "refs": [0, 2, 3, 4]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La foudre de Griffe sauvage (A) réactivée rebondit sur jusqu'à 3 ennemis proches. Sur une cible isolée, tous les éclairs la frappent : nettoie la wave ou sors-la des sbires avant de réactiver.",
+        "en": "Awakened Wilding Claw (Q) lightning bounces to up to 3 nearby enemies. On an isolated target, every strike hits them: clear the wave or pull them away from minions before you awaken."
+      },
+      "refs": [0, 3, 4]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La réactivation de Piétinement flamboyant (E) te rend insensible aux CC pendant 1,5 s, mais ne te libère pas d'un root déjà subi. Lance-la avant le CC, pas après.",
+        "en": "Awakened Blazing Stampede (E) makes you immune to crowd control for 1.5 s, but it doesn't free you from a root you're already in. Use it before the CC, not after."
+      },
+      "refs": [0, 4]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le stun de Piétinement flamboyant (E) ne peut pas toucher la même cible plus d'une fois en quelques secondes. Enraciné, tu ne bondis pas, mais l'attaque part quand même et applique ses effets.",
+        "en": "The Blazing Stampede (E) stun only lands on a given target once every few seconds. If you are rooted, Udyr stays in place, yet the empowered attack is still declared with its effects."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Réactivée, Tempête spirituelle (R) part seule et suit le dernier ennemi que tu as frappé. Tes autos renforcées touchent alors les ennemis dans la tempête : frappe les sbires pendant qu'elle colle au laner adverse.",
+        "en": "Awakened Wingborne Storm (R) moves on its own and follows the last enemy you hit. Your empowered autos then hit enemies inside the storm: attack minions while it sticks to the enemy laner."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La tempête de Tempête spirituelle (R) réactivée reste active même si tu meurs. Elle donne aussi la vision autour d'elle, mais pas à travers les murs ni dans les buissons.",
+        "en": "The storm from awakened Wingborne Storm (R) stays active even if you die. It also grants vision around it, but not through walls or into brushes."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tes autos renforcées ne sont pas consommées si elles frappent un bâtiment, une balise ou si elles sont parées. Pas de risque de gâcher ta posture sur une ward.",
+        "en": "Your empowered autos aren't consumed if they hit a structure or a ward, or if they get parried. No risk of wasting your stance on a ward."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Canalisation des esprits : la jauge de réactivation sous ta barre de vie est visible par tous. Blanche sous 80 %, jaune au-delà, rouge quand la réactivation est prête. L'adversaire la lit aussi.",
+        "en": "Bridge Between: the awaken gauge on your health bar is visible to everyone. White under 80%, yellow above, red when the awaken is ready. Your opponent can read it too."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Udyr - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Udyr", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "GUIDE UDYR - POINTS FORTS, SORTS & COMBOS (Ft GODYR)", "url": "https://www.youtube.com/watch?v=DLy3hoSb3I8", "type": "video", "date": "2024-04-12", "author": "iReaz - League of Legends" },
+    { "title": "[S16] Guide on how to ABUSE AD Udyr for free LP!", "url": "https://www.youtube.com/watch?v=6DSMFFxKwTU", "type": "video", "date": "2026-09-16", "author": "The Kamapua'a" },
+    { "title": "10 Tips and Tricks for mastering Udyr", "url": "https://www.youtube.com/watch?v=dLA97q_Mjkg", "type": "video", "date": "2023-02-17", "author": "A wild Udyr" },
+    { "title": "Season 16 Challenger Udyr Top Guide | AD and AP Udyr Guide", "url": "https://www.youtube.com/watch?v=bxaRe6aR9bA", "type": "video", "date": "2026-03-27", "author": "Federals1" }
+  ]
+}

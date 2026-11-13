@@ -198,18 +198,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ TwistedFate (4 combos, 8 astuces)
 - ✅ Twitch (2 combos, 8 astuces)
 
-### Lot 15 — ⏳
+### Lot 15 — ✅
 
-- ⏳ Udyr
-- ⏳ Urgot
-- ⏳ Varus
-- ⏳ Vayne
-- ⏳ Veigar
-- ⏳ Velkoz
-- ⏳ Vex
-- ⏳ Vi
-- ⏳ Viego
-- ⏳ Viktor
+- ✅ Udyr (4 combos, 8 astuces)
+- ✅ Urgot (4 combos, 8 astuces)
+- ✅ Varus (5 combos, 8 astuces)
+- ✅ Vayne (4 combos, 8 astuces)
+- ✅ Veigar (3 combos, 8 astuces)
+- ✅ Velkoz (3 combos, 8 astuces)
+- ✅ Vex (4 combos, 8 astuces)
+- ✅ Vi (5 combos, 8 astuces)
+- ✅ Viego (4 combos, 8 astuces)
+- ✅ Viktor (3 combos, 8 astuces)
 
 ### Lot 16 — ⏳
 

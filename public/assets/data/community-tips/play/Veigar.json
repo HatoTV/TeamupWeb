@@ -1,0 +1,110 @@
+{
+  "champion": "Veigar",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Cage, matière noire, burst", "en": "Cage, dark matter, burst" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Enferme ta cible avec Profanation (E), lance Matière noire (Z) légèrement devant elle, puis Coup malin (A) et Explosion primordiale (R) pour finir.",
+        "en": "Trap your target with Event Horizon (E), cast Dark Matter (W) slightly in front of them, then Baleful Strike (Q) and Primordial Burst (R) to finish."
+      },
+      "refs": [1, 2, 3]
+    },
+    {
+      "name": { "fr": "Coup malin avant l'ult", "en": "Baleful Strike before ult" },
+      "keys": ["Q", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pour un max de dégâts, place Coup malin (A) avant Explosion primordiale (R) : l'ult frappe plus fort selon les PV manquants de la cible.",
+        "en": "For maximum damage, land Baleful Strike (Q) before Primordial Burst (R): the ult hits harder based on the target's missing health."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Flash puis cage", "en": "Flash into cage" },
+      "keys": ["F", "E", "W", "Q", "R"],
+      "level": "medium",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "À partir du niveau 6, Flash pour te rapprocher et pose Profanation (E) sur la cible avant qu'elle réagisse. Enchaîne Matière noire (Z), Coup malin (A) et Explosion primordiale (R).",
+        "en": "From level 6, Flash to close in and drop Event Horizon (E) on the target before they react. Follow with Dark Matter (W), Baleful Strike (Q) and Primordial Burst (R)."
+      },
+      "refs": [1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Pouvoir maléfique phénoménal : chaque champion ennemi touché par un sort te donne un stack, même sans dégâts. Lance un sort dans un buisson : si ta PA monte, quelqu'un s'y cache.",
+        "en": "Phenomenal Evil Power: each enemy champion hit by an ability gives you a stack, even without damage. Cast a spell into a brush: if your AP goes up, someone is hiding there."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Profanation (E) ne touche un ennemi qu'une fois toutes les 4,5 s. Un ennemi qui annule le stun en traversant le bord devient quand même insensible à cette cage.",
+        "en": "Event Horizon (E) only affects an enemy once every 4.5 s. An enemy who negates the stun while crossing the edge still becomes immune to that cage."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un ennemi insensible aux déplacements est quand même étourdi par Profanation (E) ; il n'est simplement pas renversé.",
+        "en": "An enemy immune to displacement is still stunned by Event Horizon (E); they just aren't knocked down."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Profanation (E) peut rater un ennemi très rapide qui franchit le bord en un éclair. Contre un dash ou une grosse vitesse, place la cage sur son point d'arrivée.",
+        "en": "Event Horizon (E) can miss a very fast enemy who crosses the edge in an instant. Against a dash or high speed, place the cage on their landing spot."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le délai de Matière noire (Z) démarre dès le début de l'incantation, et le sort tombe même si tu meurs pendant celle-ci.",
+        "en": "Dark Matter (W) counts its delay from the moment you begin casting, and it falls anyway if Veigar is killed mid-cast."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Matière noire (Z) donne la vision de sa zone pendant le délai. Pratique pour vérifier un buisson avant d'y entrer.",
+        "en": "Dark Matter (W) grants vision of its area during the delay. Handy to check a brush before walking in."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Coup malin (A) touche les deux premiers ennemis. Un kill te donne un stack, trois sur un grand sbire ou un monstre : vise-les en priorité quand tu farm.",
+        "en": "Baleful Strike (Q) hits the first two enemies. A kill gives you one stack, three on a large minion or a monster: prioritize them when you farm."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Le CD de Matière noire (Z) baisse avec tes stacks de Pouvoir maléfique phénoménal : plus tu stackes, plus tu peux la relancer souvent.",
+        "en": "The Dark Matter (W) cooldown goes down with your Phenomenal Evil Power stacks: the more you stack, the more often you can recast it."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Veigar - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Veigar", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "How to ACTUALLY Play Veigar in Season 16 (Complete Guide)", "url": "https://www.youtube.com/watch?v=Vm3jaCtABj0", "type": "video", "date": "2026-01-25", "author": "Veigar v2" },
+    { "title": "S15 Rank 1 Veigar NA - Challenger Veigar Guide", "url": "https://www.youtube.com/watch?v=PUDj1ufVObc", "type": "video", "date": "2025-04-24", "author": "SMALLMAGE" },
+    { "title": "GUIDE VEIGAR SAISON 16 : TUTO comment MONTER MID sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=UHrfPRN2FHE", "type": "video", "date": "2026-02-13", "author": "EXYT - League of Legends" }
+  ]
+}

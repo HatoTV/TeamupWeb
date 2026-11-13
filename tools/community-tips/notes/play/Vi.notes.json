@@ -1,0 +1,47 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Vault Breaker's dash range extends up to 50 units when going through a wall.",
+    "Casting Flash during the dash will cause enemies at the destination to be hit by Vault Breaker.",
+    "As Flash updates Vi's facing direction, affected champions will be knocked back in the direction the summoner spell was cast in.",
+    "Relentless Force [Vi] and Cease and Desist [Vi] can be cast during the dash.",
+    "Vi channel [charges] while being slow [slowed] by 15% for up to 4 seconds to increase Vault Breaker's range, speed, and damage over the first 1.25 seconds of the channel.",
+    "If the charge completes without reactivation, Vault Breaker is cancelled, mana [50% of the mana cost] is refunded, and it is placed on cd [full cooldown].",
+    "Vault Breaker [Vi] will trigger Blast Shield even if it's blocked by a spell shield. Cease and Desist [Vi] will not.",
+    "Blast Shield's cooldown is reduced by 4 seconds each time Denting Blows [Vi] is consumed.",
+    "Vi's basic attacks on-hit and Vault Breaker [Vi] apply a stack of Denting Blows to enemies hit for 4 seconds",
+    "The third stack consumes them all to deal bonus physical damage, capped at 300 against non-champions, and inflict armor penetration [20% armor reduction] for 4 seconds.",
+    "The armor penetration will apply after the triggering damage.",
+    "Vi empowers her next basic attack within 6 seconds to have an uncancellable windup, gain range [50 bonus range] and trigger a blast in the target's direction that deals modified physical damage to enemies hit in a cone.",
+    "Relentless Force basic attack reset [resets] Vi's basic attack timer.",
+    "If the Relentless Force buff is about to run out as Vi starts the attack windup, the duration will be updated and extended to allow Vi to still sucessfully attack.",
+    "Vi will track the target if they change locations.",
+    "She will not dash through the target if she would not be able to land to the opposite side of them, such as by terrain.",
+    "The dash will not be overridden if Vi blink [blinks] during it.",
+    "Flash cannot be used during the grab.",
+    "Relentless Force is usable. Vault Breaker is disabled.",
+    "Enemies she dashes through are dealt the same damage, airborne [knocked aside] by 350 units over 0.25 seconds, and stun [stunned] for 0.75 seconds.",
+    "The first is Vi's most basic combo, which is the Q animation, basic attack, and E. Her E resets the basic attack",
+    "with the Q Flash all you need to do is flash at them and you'll hit them.",
+    "So, during Q, you can start channeling your ultimate and you'll be able to cancel the animation.",
+    "This way , you'll use your QR immediately on the target and neutralize it completely",
+    "if you start with your ultimate and they use Flash afterwards, you can use Q on them, and you'll be able to apply all the damage",
+    "And you can use Flash during your ultimate to redirect it and hit all targets.",
+    "You can hold your Q for a long time, and players don't know this, and enemies definitely don't know this either.",
+    "Next up is a mechanic you also need to start using, which is the E on minions and towers.",
+    "We'll save the Q to get over the wall here.",
+    "Ulti, auto Q, auto E, hit him. Doesn't really matter if he flashes."
+  ],
+  "rejected": [
+    { "idea": "Force implacable (E) puis Flash pendant l'auto : l'explosion part de ta position d'arrivée", "reason": "Une seule source (LOCVS), interaction non décrite par le wiki." },
+    { "idea": "Combo « pull » A, R sur une autre cible puis Flash derrière la 1re pour la tirer", "reason": "Une seule source, que l'auteur dit ne jamais avoir réussi en partie." },
+    { "idea": "Q swap : Flash entre deux cibles pendant Brise-coffre (A) pour inverser leurs positions", "reason": "Une seule source, mécanique rare." },
+    { "idea": "Le CD de Force implacable (E) démarre à l'appui, pas à l'auto (« triple E »)", "reason": "Une seule source, non précisé par le wiki." },
+    { "idea": "Mise en demeure (R) pendant le dash de Brise-coffre (A) pour réorienter le knock-back", "reason": "Le wiki décrit l'effet mais le signale comme bug ; non retenu comme astuce." }
+  ],
+  "toVerifyInGame": [
+    "Flash pendant le dash de Brise-coffre (A) : direction du knock-back alignée sur le Flash.",
+    "Flash pendant la course de Mise en demeure (R), avant la prise : l'ult continue bien et touche les ennemis traversés."
+  ]
+}

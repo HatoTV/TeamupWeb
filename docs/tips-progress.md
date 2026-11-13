@@ -237,8 +237,12 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 
 ## Problèmes
 
-- Le wiki officiel bloque les pages HTML (anti-bot « Please wait ») : lecture via l'API MediaWiki (`tools/community-tips/src/wiki-abilities.ts`).
+- Le wiki officiel bloque les pages HTML (anti-bot « Please wait ») : lecture via l'API MediaWiki (`tools/community-tips/src/wiki-abilities.ts`). L'outil ne lit que la 1re forme d'un sort en deux temps : la 2de se lit via `Template:Data_<Nom>/<Nom EN de la forme>`.
+- YouTube a renvoyé des erreurs 429 (quota) pendant les lots 11 à 13 et 17 : certaines fiches n'ont qu'une vidéo, complétée par un guide écrit (Dodge.gg, Outdraft.gg) seulement quand il concorde avec le wiki. Liste dans `docs/tips-play-report.md`.
+- Mobalytics (403) et Mobafire ne sont pas lisibles : aucune source de ces sites.
+- Formes alternatives (Elise, Nidalee, Jayce, Gnar…) : Data Dragon ne fournit que l'icône de base et un nom combiné ; le bloc les affiche ainsi.
+- Page Builds sans assez de parties (données d'échantillon locales) : le bloc « Tips pour jouer » s'affiche quand même sous le message « Données insuffisantes ».
 
-## Tips à vérifier en jeu
+## Bilan
 
-(rempli au fil des lots, détail dans `notes/play/*.notes.json`, champ `toVerifyInGame`)
+173 / 173 champions couverts. Rapport complet (fiches minces, points à vérifier en jeu, sources par champion) : `docs/tips-play-report.md`.

@@ -82,6 +82,8 @@ export class BuildPageComponent {
 
   protected readonly patch = computed(() => this.file()?.patch ?? null);
   protected readonly version = computed(() => this.meta()?.patches.find((p) => p.patch === this.patch())?.ddragonVersion ?? null);
+  /** Data Dragon version of the loaded static data, also when the page has no build (not enough games). */
+  protected readonly staticVersion = computed(() => this.version() ?? this.meta()?.patches[0]?.ddragonVersion ?? null);
   protected readonly build = computed(() => this.file()?.builds[this.buildIndex()] ?? this.file()?.builds[0] ?? null);
 
   protected readonly ddragonId = computed(() => this.champion()?.ddragonId ?? null);
@@ -302,15 +304,12 @@ export class BuildPageComponent {
     this.availableRoles.set(index?.champions.find((c) => String(c.champion) === key)?.roles.map((r) => r.role) ?? []);
     this.file.set(file);
     this.fallbackFrom.set(fallbackFrom);
-    if (!file || !file.builds.length) {
-      this.state.set('insufficient');
-      return;
-    }
-    const version = meta.patches.find((p) => p.patch === file!.patch)?.ddragonVersion ?? meta.patches[0]!.ddragonVersion;
+    // Static data is loaded even without enough games: the « Tips pour jouer » block does not depend on the stats.
+    const version = meta.patches.find((p) => p.patch === file?.patch)?.ddragonVersion ?? meta.patches[0]!.ddragonVersion;
     const [core, champ] = await Promise.all([this.data.core(version, this.ctx.lang()), this.data.champion(version, this.ctx.lang(), champion.ddragonId)]);
     if (seq !== this.loadSeq) return;
     this.core.set(core);
     this.champStatic.set(champ);
-    this.state.set('ready');
+    this.state.set(!file || !file.builds.length ? 'insufficient' : 'ready');
   }
 }

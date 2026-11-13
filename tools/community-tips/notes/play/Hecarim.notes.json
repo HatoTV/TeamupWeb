@@ -1,0 +1,37 @@
+{
+  "searches": 2,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Hecarim gains bonus attack damage equal to a percentage of his bonus movement speed.",
+    "If this damages an enemy, Hecarim gains a stack of Rampage for 8 seconds, refreshing on subsequent damage and stacking up to 3 times.",
+    "Stacks expire one by one every 1 second when the duration ends.",
+    "While active, Hecarim gains bonus armor and bonus magic resistance and is healed for 25% of the post-mitigation damage dealt to enemies within the area from all sources, halved for damage dealt by allies. The healing is capped against minions and monsters.",
+    "Hecarim's next basic attack is replaced by a Devastating Charge, empowering it to gain range and cause him to dash in the target's direction",
+    "Hecarim knocks them back, though not through terrain",
+    "Hecarim can cast any of his champion abilities during the dash. Devastating Charge's duration is paused during Onslaught of Shadows.",
+    "Onslaught of Shadows will interrupt the dash.",
+    "If the target does not remain nearby during the dash, Devastating Charge's effect will not be consumed.",
+    "The dash does not follow targets. The target's position at the time of the enhanced attack is the direction Hecarim will leap to.",
+    "Displacement immunity will not resist the application of the stun.",
+    "Upon arrival, he fears nearby enemies for 0.75 to 1.5 seconds depending on distance traveled.",
+    "The wave of spectral riders travels independently of Hecarim and will always charge at the same distance.",
+    "Only the spectral riders deal damage to enemies they pierce, Hecarim only dashes and fears enemies at the end of it.",
+    "For combos, start with E to gain movement speed, then when moving towards the target, use W into your attack and Q. From here, simply keep spamming away with auto attacks and Qs.",
+    "And a good engage combo is start with ultimate into W and follow up with E and Q.",
+    "Each stack makes the next Q deal bonus damage and also reduces the cool down of it by a good chunk.",
+    "before you gank, you want to make sure you keep the stacks.",
+    "when you E in, before you hit the guy, try to get as high speed as you can and then hit him with a Q.",
+    "you're going to E in, right? And then you're going to R him. And I still have the E charge, so you can knock him back.",
+    "the farther away it is, he does more of a fear.",
+    "That's something that people don't realize is you can just smite when you're in your W"
+  ],
+  "rejected": [
+    { "idea": "E + Flash pour un knock-back surprise.", "reason": "Aucune source vidéo lisible ne le montre (Only Challengers sans sous-titres) ; non vérifié." },
+    { "idea": "Acheter des bottes plutôt qu'une Épée longue pour l'AD du passif (CorceBro).", "reason": "Conseil d'objet, hors périmètre." },
+    { "idea": "Gank niveau 3 avec Fantôme + E derrière la cible (3 Minute League of Legends).", "reason": "Conseil de plan de jeu plutôt qu'une mécanique ; source unique." }
+  ],
+  "toVerifyInGame": [
+    "E puis R derrière la cible : vérifier que l'auto chargée part bien juste après l'ult (la charge n'est consommée que si la cible reste proche).",
+    "Montant du soin d'Essence de la peur sur un Châtiment contre un monstre (plafond)."
+  ]
+}

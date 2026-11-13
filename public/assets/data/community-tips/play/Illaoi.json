@@ -1,0 +1,169 @@
+{
+  "champion": "Illaoi",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Trade court auto, Z, A",
+        "en": "Short trade: auto, W, Q"
+      },
+      "keys": [
+        "W",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Place une auto avant Âpre leçon (Z), qui remet ton auto à zéro et fait frapper tes tentacules proches, puis finis avec Coup de tentacule (A).",
+        "en": "Land an auto before Harsh Lesson (W), which resets your auto and makes nearby tentacles slam, then finish with Tentacle Smash (Q)."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Trade sur l'esprit",
+        "en": "Spirit trade"
+      },
+      "keys": [
+        "E",
+        "W",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Arrache l'esprit avec Épreuve de l'esprit (E), auto, Âpre leçon (Z) puis Coup de tentacule (A). Une fois la cible ralentie, continue autos et Z.",
+        "en": "Pull the spirit with Test of Spirit (E), auto, Harsh Lesson (W), then Tentacle Smash (Q). Once the target is slowed, keep going with autos and W."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "All-in esprit puis ult",
+        "en": "Spirit into ult all-in"
+      },
+      "keys": [
+        "E",
+        "R",
+        "W",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Épreuve de l'esprit (E) avant Acte de foi (R) pour invoquer plus de tentacules. Enchaîne auto, Âpre leçon (Z), auto, Coup de tentacule (A), puis spamme Z, dont le CD est réduit de moitié.",
+        "en": "Land Test of Spirit (E) before Leap of Faith (R) to summon more tentacles. Chain auto, Harsh Lesson (W), auto, Tentacle Smash (Q), then spam W, whose cooldown is halved."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque tentacule qui touche un champion te rend 5 % de tes PV manquants. Bats-toi au milieu de tes tentacules : plus elles frappent, plus tu tiens.",
+        "en": "Each tentacle that hits a champion heals you for 5% of your missing health. Fight in the middle of your tentacles: the more they slam, the longer you last."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Plusieurs tentacules qui frappent la même cible coup sur coup font moins de dégâts chacune : -50 % par frappe récente, jusqu'à -75 %.",
+        "en": "Several tentacles hitting the same target back to back each deal less damage: -50% per recent slam, down to -75%."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Âpre leçon (Z) gagne de la portée et te fait bondir sur une cible hors de portée d'auto. Son incantation ne peut pas être annulée.",
+        "en": "Harsh Lesson (W) gains range and makes you leap onto a target beyond auto range. Its windup cannot be cancelled."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Âpre leçon (Z) au corps à corps touche même si la cible devient intouchable pendant l'incantation. La version avec bond, elle, rate.",
+        "en": "Melee Harsh Lesson (W) still hits even if the target turns untargetable during the windup. The leap version misses."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Après Épreuve de l'esprit (E), fuir hors de portée du lien ne sauve pas l'ennemi : il devient un réceptacle, ralenti de 80 % et entouré de tentacules.",
+        "en": "After Test of Spirit (E), running out of tether range does not save the enemy: they become a Vessel, slowed by 80% and surrounded by tentacles."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu ne peux pas lancer Âpre leçon (Z) pendant qu'Épreuve de l'esprit (E) arrache l'esprit. Attends la fin du pull avant d'appuyer sur Z.",
+        "en": "You cannot cast Harsh Lesson (W) while Test of Spirit (E) is pulling the spirit out. Wait for the pull to end before pressing W."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Acte de foi (R), tes tentacules sont intouchables et le CD d'Âpre leçon (Z) est divisé par deux. C'est le moment de spammer Z.",
+        "en": "During Leap of Faith (R), your tentacles are untargetable and Harsh Lesson (W) cooldown is halved. That is the time to spam W."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Illaoi – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Illaoi",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Illaoi Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=OSvEc-qtWfA",
+      "type": "video",
+      "date": "2025-11-19",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "The ONLY Illaoi Guide You Need - Illaoi Guide League of Legends",
+      "url": "https://www.youtube.com/watch?v=DdK8dd9sGEA",
+      "type": "video",
+      "date": "2026-01-30",
+      "author": "Daveyx3"
+    }
+  ]
+}

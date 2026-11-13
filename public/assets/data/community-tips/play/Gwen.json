@@ -1,0 +1,207 @@
+{
+  "champion": "Gwen",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Trade au bord de la Brume",
+        "en": "Mist edge trade"
+      },
+      "keys": [
+        "W",
+        "E",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Brume sacrée (Z), dash jusqu'au bord avec Élan incisif (E), puis Tchac, tchac ! (A) : les ennemis restés dehors ne peuvent pas te cibler pendant que tu les découpes.",
+        "en": "Cast Hallowed Mist (W), dash to its edge with Skip 'n Slash (E), then Snip Snip! (Q): enemies left outside cannot target you while you cut them up."
+      },
+      "refs": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Trade court E, autos, A",
+        "en": "Short trade: E, autos, Q"
+      },
+      "keys": [
+        "E",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Élan incisif (E) remet ton auto à zéro : enchaîne les autos pour monter tes charges, puis finis avec Tchac, tchac ! (A) chargé, centré sur la cible.",
+        "en": "Skip 'n Slash (E) resets your auto: chain autos to build your stacks, then finish with a stacked Snip Snip! (Q) centered on the target."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Tchac puis dash surprise",
+        "en": "Snip, then surprise dash"
+      },
+      "keys": [
+        "Q",
+        "E"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Tchac, tchac ! (A) puis Élan incisif (E) pendant l'animation : tu dashes sur l'ennemi avec la dernière coupe, alors qu'il croit que tu visais les sbires.",
+        "en": "Cast Snip Snip! (Q), then Skip 'n Slash (E) during the animation: you dash onto the enemy with the final snip, while they think your Q was aimed at minions."
+      },
+      "refs": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Piqûre redirigée au Flash",
+        "en": "Needlework redirected with Flash"
+      },
+      "keys": [
+        "R",
+        "F"
+      ],
+      "level": "hard",
+      "desc": {
+        "fr": "Les aiguilles de Piqûre (R) partent de ta position pendant l'incantation, pas du point de lancement. Flash (ou Élan incisif, E) juste après R pour surprendre une cible qui fuit.",
+        "en": "Needlework (R) needles fire from where you are during the cast, not where you pressed it. Flash (or Skip 'n Slash, E) right after R to surprise a fleeing target."
+      },
+      "refs": [
+        0,
+        2,
+        3
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      }
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Vise avec le centre de Tchac, tchac ! (A) : seule la zone centrale convertit la moitié des dégâts en dégâts bruts et applique Mille coupures.",
+        "en": "Aim with the center of Snip Snip! (Q): only the middle area converts half the damage to true damage and applies A Thousand Cuts."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Chaque auto donne une charge (4 max, 6 s) et chaque charge ajoute une coupe à Tchac, tchac ! (A). Garde-les en lane : sans elles, tu perds tes trades.",
+        "en": "Each auto grants a stack (4 max, 6 s) and each stack adds a snip to Snip Snip! (Q). Keep them in lane: without them, you lose your trades."
+      },
+      "refs": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Dans Brume sacrée (Z), les projectiles ciblés des champions restés dehors sont détruits. Les tourelles et les monstres peuvent toujours te taper.",
+        "en": "Inside Hallowed Mist (W), targeted projectiles from champions outside are destroyed. Turrets and monsters can still hit you."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si tu dashes hors de Brume sacrée (Z) avec Élan incisif (E), la brume te rejoint au point d'arrivée. Tu peux aussi la relancer pour la recentrer sur toi.",
+        "en": "If you dash out of Hallowed Mist (W) with Skip 'n Slash (E), the mist follows to where you land. You can also recast it to center it on you."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Élan incisif (E) n'a pas de portée minimale : clique tout près de toi pour un simple reset d'auto sans t'engager. Ta première auto rend une partie du CD.",
+        "en": "Skip 'n Slash (E) has no minimum range: click right next to you for a plain auto reset without committing. Your first auto refunds part of the cooldown."
+      },
+      "refs": [
+        0,
+        3
+      ]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Élan incisif (E) peut passer un mur. Pratique pour tomber sur un adversaire qui se croit à l'abri, ou pour fuir un gank.",
+        "en": "Skip 'n Slash (E) can cross a wall. Handy to land on an opponent who thinks they are safe, or to escape a gank."
+      },
+      "refs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier de sort ne bloque qu'une seule coupe de Tchac, tchac ! (A) et une seule aiguille de Piqûre (R) : le reste passe.",
+        "en": "A spell shield blocks only one snip of Snip Snip! (Q) and only one needle of Needlework (R): the rest goes through."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gwen – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Gwen",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Gwen Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=g3MxaALRwHU",
+      "type": "video",
+      "date": "2025-12-20",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "5 TIPS AVANCÉS SUR GWEN !",
+      "url": "https://www.youtube.com/watch?v=5wUw_dp02tQ",
+      "type": "video",
+      "date": "2025-12-08",
+      "author": "Misanthiel - Coach Toplane"
+    },
+    {
+      "title": "The ULTIMATE Gwen Guide (Post Rework)",
+      "url": "https://www.youtube.com/watch?v=bQXFO710Rfw",
+      "type": "video",
+      "date": "2025-06-15",
+      "author": "Ninkey"
+    },
+    {
+      "title": "2026 RANK 1 GWEN GUIDE",
+      "url": "https://www.youtube.com/watch?v=H8ihZoRul-Q",
+      "type": "video",
+      "date": "2026-04-04",
+      "author": "Ninkey"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "champion": "Hecarim",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Gank Charge, Essence, Carnage", "en": "Gank: Charge, Spirit, Rampage" },
+      "keys": ["E", "W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Charge dévastatrice (E) de loin pour prendre de la vitesse, active Essence de la peur (Z) en approche, frappe puis enchaîne Carnage (A). Continue à spammer autos et A.",
+        "en": "Cast Devastating Charge (E) from afar to build speed, pop Spirit of Dread (W) on the way, hit, then chain Rampage (Q). Keep spamming autos and Q."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Engage à l'ult", "en": "Ult engage" },
+      "keys": ["R", "W", "E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Ouvre avec Légion des ombres (R) sur le groupe, active Essence de la peur (Z) pendant la peur, puis Charge dévastatrice (E) et Carnage (A) sur la cible la plus proche.",
+        "en": "Open with Onslaught of Shadows (R) on the group, pop Spirit of Dread (W) during the fear, then Devastating Charge (E) and Rampage (Q) on the closest target."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Charge gardée sous l'ult", "en": "Charge saved through ult" },
+      "keys": ["E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Charge dévastatrice (E), puis Légion des ombres (R) derrière la cible : la durée de E est en pause pendant l'ult. Ton auto chargée la renvoie ensuite vers ton équipe.",
+        "en": "Activate Devastating Charge (E), then Onslaught of Shadows (R) behind the target: the E duration is paused during the ult. Your charged auto then knocks them back toward your team."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Galop convertit ta vitesse bonus en AD. Arrive au contact à pleine vitesse sous Charge dévastatrice (E) et lance Carnage (A) à ce moment : il tape nettement plus fort.",
+        "en": "Warpath turns your bonus speed into AD. Reach the target at full speed under Devastating Charge (E) and cast Rampage (Q) then: it hits much harder."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Les charges de Carnage (A) durent 8 s puis tombent une par seconde. Garde tes 3 charges du dernier camp jusqu'au gank : plus de dégâts et un CD plus court.",
+        "en": "Rampage (Q) stacks last 8 s, then drop one per second. Carry your 3 stacks from the last camp into the gank: more damage and a shorter cooldown."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Portée, dégâts et recul de Charge dévastatrice (E) grandissent avec la distance parcourue. Le dash ne suit pas la cible : il vise sa position au moment de l'auto.",
+        "en": "Devastating Charge (E) range, damage and knockback grow with distance traveled. The dash does not follow the target: it aims at their position when you attack."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le recul de Charge dévastatrice (E) ne pousse pas à travers les murs. Son petit stun s'applique même sur une cible immunisée aux déplacements.",
+        "en": "Devastating Charge (E) knockback does not push through walls. Its short stun still applies to a target immune to displacement."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Essence de la peur (Z) te soigne sur tous les dégâts infligés dans la zone, y compris ton Châtiment. Sur les sbires et les monstres, ce soin a un plafond.",
+        "en": "Spirit of Dread (W) heals you from all damage dealt in its area, including your Smite. On minions and monsters, that heal has a cap."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La peur de Légion des ombres (R) dure de 0,75 à 1,5 s selon la distance parcourue. Lance-la de loin plutôt qu'au contact pour un fear long.",
+        "en": "Onslaught of Shadows (R) fear lasts 0.75 to 1.5 s depending on distance traveled. Cast it from afar rather than point-blank for a long fear."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Légion des ombres (R), seuls les cavaliers infligent des dégâts et ils vont toujours aussi loin, même si ton dash est court. Toi, tu fear seulement à l'arrivée.",
+        "en": "During Onslaught of Shadows (R), only the riders deal damage and they always travel the same distance, even on a short dash. You only fear on arrival."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Hecarim – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Hecarim", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Hecarim Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=efvhaCtSNx0", "type": "video", "date": "2026-06-06", "author": "3 Minute League of Legends" },
+    { "title": "Hecarim Jungle Guide: Small Details, Big Rank Gains", "url": "https://www.youtube.com/watch?v=S232nFKwAfo", "type": "video", "date": "2026-10-01", "author": "CorceBro" }
+  ]
+}

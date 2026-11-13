@@ -1,0 +1,101 @@
+{
+  "champion": "Irelia",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, Rush fatal, auto", "en": "Auto, Bladesurge, auto" },
+      "keys": ["Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Rush fatal (A) pile quand les dégâts de ton auto partent. Le dash applique tes effets à l'impact et Irelia réattaque sa cible dès l'arrivée : deux autos très rapprochées.",
+        "en": "Cast Bladesurge (Q) right as your auto's damage lands. The dash applies on-hit effects and Irelia attacks her target again on arrival: two autos back to back."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Duo parfait caché dans le dash", "en": "Flawless Duet hidden in the dash" },
+      "keys": ["Q", "E", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Rush fatal (A) sur un sbire et pose la 1re lame de Duo parfait (E) pendant le dash. L'ennemi ne voit pas la lame partir, puis pose la 2de pour l'étourdir.",
+        "en": "Bladesurge (Q) onto a minion and place the first Flawless Duet (E) blade during the dash. The enemy misses the blade going out, then place the second one to stun."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage complet avec double marque", "en": "Full engage with double mark" },
+      "keys": ["E", "R", "Q", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose la 1re lame de Duo parfait (E), Pointe de l'avant-garde (R), puis Rush fatal (A) sur la cible marquée. Ferme Duo parfait (E) pour l'étourdir et relance Rush fatal (A) sur la nouvelle marque.",
+        "en": "Place the first Flawless Duet (E) blade, Vanguard's Edge (R), then Bladesurge (Q) onto the marked target. Close Flawless Duet (E) to stun them and Bladesurge (Q) again on the new mark."
+      },
+      "refs": [0, 1, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Rush fatal (A) revient en 0,2 s sur une cible marquée Instable, et entièrement si la cible meurt pendant le dash. Appuie un peu avant : le sort est mis en file 0,5 s avant la fin du CD.",
+        "en": "Bladesurge (Q) comes back in 0.2 s on a target marked Unsteady, and fully if the target dies during the dash. Press it slightly early: it is queued 0.5 s before the cooldown ends."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Rush fatal (A) te fait passer un mur seulement s'il y a assez de place pour Irelia de l'autre côté.",
+        "en": "Bladesurge (Q) takes you through a wall only if there is enough room for Irelia on the other side."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Seuls Duo parfait (E) et la salve de départ de Pointe de l'avant-garde (R) marquent Instable. Un ennemi qui traverse ensuite les lames au sol n'est pas marqué.",
+        "en": "Only Flawless Duet (E) and the initial barrage of Vanguard's Edge (R) apply Unsteady. An enemy who later crosses the blades on the ground is not marked."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Après la 1re lame de Duo parfait (E), tu as 3,5 s. Sans 2de activation, la lame revient sur ta position : pose la 1re dans un buisson et fais semblant de rien.",
+        "en": "After the first Flawless Duet (E) blade, you have 3.5 s. Without a recast, the second blade lands on your position: drop the first in a bush and act normal."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les lames de Duo parfait (E) s'arrêtent sur les effets qui bloquent les projectiles. Si elles ne se rejoignent pas, par exemple à cause du Mur de vent de Yasuo, il n'y a ni dégâts ni stun.",
+        "en": "Flawless Duet (E) blades stop on projectile-blocking effects. If they fail to converge, for example because of Yasuo's Wind Wall, there is no damage and no stun."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La charge de Danse de défi (Z) ne peut pas être interrompue par un CC, et tu peux la relancer même sous un effet qui bloque tes sorts. Ta Ferveur ionienne reste en pause pendant la charge.",
+        "en": "The Defiant Dance (W) charge cannot be interrupted by crowd control, and you can recast it even under an effect that blocks your spells. Your Ionian Fervor is paused during the charge."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pointe de l'avant-garde (R) déploie quand même son périmètre si le champion touché a un bouclier anti-sort.",
+        "en": "Vanguard's Edge (R) still deploys its perimeter if the champion hit has a spell shield."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Irelia – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Irelia", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "pro player shows you advanced irelia tricks for 4 minutes", "url": "https://www.youtube.com/watch?v=RKSIOcyvwIg", "type": "video", "date": "2025-11-15", "author": "young" },
+    { "title": "Essential Irelia Combo Guide", "url": "https://www.youtube.com/watch?v=xbAQilCzUoY", "type": "video", "date": "2023-12-21", "author": "ManaTy" },
+    { "title": "3 Minute Irelia Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=op8Vqo4GKxY", "type": "video", "date": "2026-10-12", "author": "3 Minute League of Legends" }
+  ]
+}

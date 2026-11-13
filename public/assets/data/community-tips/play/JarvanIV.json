@@ -1,0 +1,119 @@
+{
+  "champion": "JarvanIV",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Drapeau puis lance", "en": "Flag into lance" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Étendard demacien (E) derrière la cible, puis Frappe du dragon (A) vers le drapeau. Tu fonces dessus et projettes en l'air les ennemis sur ta route.",
+        "en": "Throw Demacian Standard (E) behind the target, then Dragon Strike (Q) toward the flag. You dash to it and knock up enemies along your path."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Gank avec Égide dorée", "en": "Gank with Golden Aegis" },
+      "keys": ["W", "E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Approche-toi, Égide dorée (Z) pour ralentir et te protéger, place une auto, puis le combo Étendard demacien (E) et Frappe du dragon (A) pour finir l'engage.",
+        "en": "Walk in, Golden Aegis (W) to slow and shield yourself, land an auto, then the Demacian Standard (E) and Dragon Strike (Q) combo to finish the engage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Drapeau, lance, Flash", "en": "Flag, lance, Flash" },
+      "keys": ["E", "Q", "F"],
+      "level": "hard",
+      "desc": {
+        "fr": "Hors de portée, lance Étendard demacien (E) et Frappe du dragon (A), puis Flash juste avant le début du dash. Tu es tiré vers le drapeau depuis ta nouvelle position : la cible n'a pas le temps de réagir.",
+        "en": "Out of range, cast Demacian Standard (E) and Dragon Strike (Q), then Flash just before the dash starts. You get pulled to the flag from your new position: the target has no time to react."
+      },
+      "summoners": { "F": "SummonerFlash" },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Arène puis drapeau-lance", "en": "Arena into flag-lance" },
+      "keys": ["R", "W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Cataclysme (R) sur la cible pour l'enfermer, Égide dorée (Z), puis Étendard demacien (E) et Frappe du dragon (A) dans l'arène pour la projeter encore.",
+        "en": "Cataclysm (R) onto the target to trap them, Golden Aegis (W), then Demacian Standard (E) and Dragon Strike (Q) inside the arena to knock them up again."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Frappe du dragon (A) te tire vers ton drapeau même si tu es immobilisé ou cloué au sol.",
+        "en": "Dragon Strike (Q) pulls you to your flag even if you are immobilized or grounded."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant le dash vers le drapeau, tu peux lancer tous tes autres sorts, y compris Cataclysme (R).",
+        "en": "During the dash to the flag, you can cast all your other spells, Cataclysm (R) included."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si Frappe du dragon (A) touche deux drapeaux, tu fonces vers le plus éloigné. L'aura de vitesse d'attaque de deux drapeaux ne se cumule pas.",
+        "en": "If Dragon Strike (Q) hits two flags, you dash to the furthest one. The attack speed aura of two flags does not stack."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Cadence martiale prend 8 % des PV actuels de la cible avant ton auto, puis ne revient sur elle qu'après quelques secondes : ouvre sur des cibles encore pleines.",
+        "en": "Martial Cadence takes 8% of the target's current health before your auto, then only comes back on them after a few seconds: open on targets that are still healthy."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque les dégâts de Cataclysme (R), mais pas l'arène : la cible reste enfermée.",
+        "en": "A spell shield blocks Cataclysm (R) damage, but not the arena: the target stays trapped."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Après 0,75 s, relance Cataclysme (R) pour casser l'arène et laisser entrer tes alliés ou t'enfuir. Si tu meurs pendant le saut, pas d'arène ni de CD rendu.",
+        "en": "After 0.75 s, recast Cataclysm (R) to break the arena and let your allies in or escape. If you die during the leap, there is no arena and no cooldown refund."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Égide dorée (Z) n'inflige aucun dégât : elle ralentit un ennemi sous sa tour sans te faire prendre l'aggro de la tourelle.",
+        "en": "Golden Aegis (W) deals no damage: it slows an enemy under their turret without drawing turret aggro onto you."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ton drapeau compte comme un sbire allié : Lee Sin peut s'y projeter avec Rempart (Z).",
+        "en": "Your flag counts as an allied minion: Lee Sin can dash to it with Safeguard (W)."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Jarvan IV – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Jarvan IV Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=QFuSunOwWGA", "type": "video", "date": "2025-12-30", "author": "3 Minute League of Legends" },
+    { "title": "The Ultimate JARVAN IV LoL Guide – EVERYTHING You Need to Know", "url": "https://www.youtube.com/watch?v=c57LV8fduZU", "type": "video", "date": "2025-11-01", "author": "hybradge" }
+  ]
+}

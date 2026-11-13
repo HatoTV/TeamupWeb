@@ -1,0 +1,110 @@
+{
+  "champion": "Hwei",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Lave puis Mâchoires", "en": "Fissure, then Maw" },
+      "keys": ["Q", "E", "E", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Champ de lave (A puis E) pour forcer l'ennemi à bouger, puis Mâchoires chatoyantes (E puis E) pour le ramener au centre, en plein dans la lave.",
+        "en": "Cast Molten Fissure (Q then E) to force the enemy to move, then Crushing Maw (E then E) to pull them back to the center, right into the lava."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Peur puis ult garantie", "en": "Fear into guaranteed ult" },
+      "keys": ["E", "Q", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche avec Visage effroyable (E puis A) : la cible fuit, effrayée. Lance aussitôt Vision de désespoir (R), elle ne peut plus l'esquiver.",
+        "en": "Land Grim Visage (E then Q): the target runs away, feared. Cast Spiraling Despair (R) right away, they can no longer dodge it."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Œil, puis Éclair", "en": "Eye, then Bolt" },
+      "keys": ["E", "W", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Œil des abysses (E puis Z) sur le chemin de l'ennemi. Dès qu'il est root, place Éclair enflammé (A puis Z) sur lui : plus de dégâts sur une cible immobilisée.",
+        "en": "Place Gaze of the Abyss (E then W) on the enemy's path. As soon as they are rooted, drop Severing Bolt (Q then W) on them: more damage on an immobilized target."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Fuite Ruisseau et Œil", "en": "Current and Eye escape" },
+      "keys": ["W", "Q", "E", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pour fuir, Ruisseau (Z puis A) te donne vitesse et ghost sur sa trace, puis lâche Œil des abysses (E puis Z) derrière toi pour root le poursuivant.",
+        "en": "To escape, Fleeting Current (W then Q) gives you speed and ghosting along its path, then drop Gaze of the Abyss (E then W) behind you to root your chaser."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Signature du Visionnaire explose là où la cible a été touchée par le 2e sort, après un court délai. Une cible mobile peut en sortir : enchaîne-la sur un CC.",
+        "en": "Signature of the Visionary explodes where the target was hit by the 2nd spell, after a short delay. A mobile target can step out: chain it on a CC."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Un même sort ne peut pas poser la marque et la déclencher. Il te faut deux sorts différents qui touchent pour faire exploser Signature du Visionnaire.",
+        "en": "A single spell cannot both apply the mark and trigger it. You need two different spells to hit to detonate Signature of the Visionary."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Mauvaise humeur choisie ? Appuie sur R pendant un sujet : l'humeur s'annule sans coût ni CD, même sous un stun ou un silence.",
+        "en": "Picked the wrong mood? Press R while in a subject: Wash Brush cancels the mood with no cost or cooldown, even while stunned or silenced."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Vision de désespoir (R) ne se lance que hors humeur. Ne choisis pas de sujet juste avant ton ult, sinon il te faut d'abord l'annuler.",
+        "en": "Spiraling Despair (R) can only be cast outside a mood. Do not pick a subject right before your ult, or you will have to cancel it first."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Œil des abysses (E puis Z) se verrouille sur le champion visible le plus proche. Pose-le dans un buisson ou le brouillard, sur un passage obligé.",
+        "en": "Gaze of the Abyss (E then W) locks onto the nearest visible champion. Place it in a bush or the fog, on a path the enemy must take."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Éclair enflammé (A puis Z) tombe 1 s après le lancer. Ses dégâts montent sur une cible seule ou immobilisée, selon ses PV manquants : garde-le pour achever.",
+        "en": "Severing Bolt (Q then W) lands 1 s after the cast. Its damage rises on a lone or immobilized target, based on missing health: keep it to finish."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Nuit étoilée (Z puis E) renforce tes 3 prochaines autos ou touches de sort : dégâts bonus et mana rendu. Active-la avant un trade.",
+        "en": "Stirring Lights (W then E) empowers your next 3 autos or spell hits: bonus damage and mana back. Turn it on before a trade."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Hwei – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Hwei", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Hwei Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=Rpa-rh8eIJ0", "type": "video", "date": "2025-12-08", "author": "3 Minute League of Legends" },
+    { "title": "Hwei Guide – You’re Playing Him Wrong (Win Fights Without Faster Hands)", "url": "https://www.youtube.com/watch?v=_Qe-x-3tMPc", "type": "video", "date": "2026-01-26", "author": "Zoose" }
+  ]
+}

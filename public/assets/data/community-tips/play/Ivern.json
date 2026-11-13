@@ -1,0 +1,183 @@
+{
+  "champion": "Ivern",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Marguerite puis Enracinement",
+        "en": "Daisy into Rootcaller"
+      },
+      "keys": [
+        "R",
+        "Q",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Invoque Marguerite ! (R) près de la cible, puis Enracinement (A) : si la liane touche un champion à moins de 1200 unités de Marguerite, elle bondit dessus et tu relances Enracinement (A) pour la suivre.",
+        "en": "Summon Daisy! (R) near the target, then Rootcaller (Q): if the vine hits a champion within 1200 units of Daisy, she dashes onto them and you recast Rootcaller (Q) to follow."
+      },
+      "refs": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Buisson, Marguerite, bouclier, liane",
+        "en": "Brush, Daisy, shield, vine"
+      },
+      "keys": [
+        "W",
+        "R",
+        "E",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Main verte (Z) pour renforcer tes autos, invoque Marguerite ! (R), mets Graine à retardement (E) sur Marguerite, puis Enracinement (A) et attaque.",
+        "en": "Drop Brushmaker (W) to empower your autos, summon Daisy! (R), put Triggerseed (E) on Daisy, then Rootcaller (Q) and attack."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": {
+        "fr": "Poursuite avec Marguerite",
+        "en": "Chase with Daisy"
+      },
+      "keys": [
+        "R",
+        "E"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Marguerite court plus vite juste après son arrivée. Graine à retardement (E) sur elle ralentit la cible à l'explosion, ce qui lui laisse placer deux autos puis l'onde de choc qui projette.",
+        "en": "Daisy runs faster right after landing. Triggerseed (E) on her slows the target when it bursts, letting her land two autos and then the knock-up shockwave."
+      },
+      "refs": [
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La 3e attaque de Marguerite sur le même champion part à 500 de portée : une onde en ligne qui projette et étourdit 1 s. Changer de cible remet le compte à zéro, et l'onde a 3 s de délai.",
+        "en": "Daisy's 3rd attack on the same champion reaches 500 range: a line shockwave that knocks up and stuns for 1 s. Switching targets resets the count, and the shockwave has a 3 s lockout."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tes alliés peuvent aussi faire clic droit sur un ennemi enraciné par Enracinement (A) pour bondir jusqu'à leur portée d'attaque.",
+        "en": "Your allies can also right-click an enemy rooted by Rootcaller (Q) to dash up to their attack range."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le dash d'Enracinement (A) vise la position de la cible au départ, sans la suivre. Il est impossible si tu es toi-même enraciné ou cloué au sol.",
+        "en": "The Rootcaller (Q) dash goes to the target's position when it starts, without following them. It is unavailable if you are rooted or grounded yourself."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Graine à retardement (E) posée sur un allié lui donne les dégâts de l'explosion : il prend le kill, mais aussi l'aggro de la tour si elle touche un champion.",
+        "en": "Triggerseed (E) placed on an ally credits them with the burst damage: they get the kill, but also turret aggro if it hits a champion."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si Graine à retardement (E) ne touche aucun champion et que le bouclier tient encore, il se recharge pour 2 s de plus, sans nouvelle explosion.",
+        "en": "If Triggerseed (E) hits no champion and the shield is still up, it is reapplied for 2 more seconds, without a second burst."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un buisson de Main verte (Z) disparaît dès que ton équipe n'a plus de vision dedans, et il est révélé s'il pousse à moins de 1350 d'une tour ennemie.",
+        "en": "A Brushmaker (W) bush vanishes as soon as your team loses vision inside it, and it is exposed if grown within 1350 of an enemy turret."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Ami de la forêt : interrompre ta canalisation est le seul moyen de te voler un camp. Un Châtiment sur un monstre de ton bosquet libère le camp tout de suite, mûr ou non.",
+        "en": "Friend of the Forest: interrupting your channel is the only way to contest your camp. Smite on a monster inside your grove frees the camp instantly, ripe or not."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux rediriger Marguerite avec Marguerite ! (R) même sous un CC qui t'empêche de lancer tes sorts.",
+        "en": "You can redirect Daisy with Daisy! (R) even under crowd control that stops you from casting."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ivern – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Ivern",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Ivern Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=9-f-QkldYyA",
+      "type": "video",
+      "date": "2025-09-22",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "Ivern early clear and daisy control tips",
+      "url": "https://www.youtube.com/watch?v=MAi4vBfHrKA",
+      "type": "video",
+      "date": "2026-01-22",
+      "author": "Soltex"
+    },
+    {
+      "title": "HOW to IVERN  jungle in SEASON 16!!!",
+      "url": "https://www.youtube.com/watch?v=qUP47co4HcM",
+      "type": "video",
+      "date": "2026-02-08",
+      "author": "Sawyer Jungle"
+    }
+  ]
+}

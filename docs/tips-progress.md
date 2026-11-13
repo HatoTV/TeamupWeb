@@ -68,18 +68,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Gragas (4 combos, 7 astuces)
 - ✅ Graves (4 combos, 8 astuces)
 
-### Lot 5 — ⏳
+### Lot 5 — ✅
 
-- ⏳ Gwen
-- ⏳ Hecarim
-- ⏳ Heimerdinger
-- ⏳ Hwei
-- ⏳ Illaoi
-- ⏳ Irelia
-- ⏳ Ivern
-- ⏳ JarvanIV
-- ⏳ Jax
-- ⏳ Jayce
+- ✅ Gwen (4 combos, 7 astuces)
+- ✅ Hecarim (3 combos, 7 astuces)
+- ✅ Heimerdinger (4 combos, 7 astuces)
+- ✅ Hwei (4 combos, 7 astuces)
+- ✅ Illaoi (3 combos, 7 astuces)
+- ✅ Irelia (3 combos, 7 astuces)
+- ✅ Ivern (3 combos, 8 astuces)
+- ✅ JarvanIV (4 combos, 8 astuces)
+- ✅ Jax (4 combos, 7 astuces)
+- ✅ Jayce (3 combos, 6 astuces)
 
 ### Lot 6 — ⏳
 

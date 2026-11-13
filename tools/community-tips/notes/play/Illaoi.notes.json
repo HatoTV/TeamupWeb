@@ -1,0 +1,35 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Each Tentacle also heals Illaoi for 5% of her missing health if it hits at least one enemy champion.",
+    "Each enemy individually reduces the slam damage by 50% for every slam they were hit by in the last 0.66 seconds, capped at 75% less damage.",
+    "Illaoi empowers her next basic attack within 6 seconds to have an uncancellable windup, gain range and cause her to leap to the target's location if they are beyond her normal basic attack range.",
+    "Harsh Lesson resets Illaoi's basic attack timer.",
+    "Harsh Lesson cannot be cast while Test of Spirit is pulling a Spirit.",
+    "The melee attack will still hit if the target becomes untargetable, while the dash attack will not.",
+    "When the Spirit is killed or the target leaves tether range, the tether is severed, marking the target as a Vessel for 4 seconds and slowing them by 80% for 1.5 seconds once the tether returns back to them.",
+    "For the duration, Harsh Lesson cooldown is halved, all Tentacles awakened by Illaoi are untargetable, will not show their hitboxes, nor go dormant",
+    "For each enemy champion hit, a Tentacle is summoned for 8 seconds (up to a maximum of 6 summons).",
+    "Each tentacle also heals Illaoi for chunk of her missing health if it hits at least one enemy champion.",
+    "When the spirit is killed or the target leaves its tether range, they become slowed and also start spawning tentacles around them, which keep attacking them.",
+    "For each enemy champion hit or spirit from her E, she summons a tentacle.",
+    "All the tentacles she summons to her ultimate can't be killed, and her W has half the cooldown.",
+    "For combos, your basic go-to is to start with E into an attack and follow up with W into Q, before following up with more attacks and W's while the target is slowed.",
+    "And your all-in is slam E into your ultimate, attack into W before attacking into Q, and then with the lower cooldown on W, just keep spamming away with attacks and W's.",
+    "The first combo is the auto W combo. This is a very basic combo and I always highly recommend you auto attack first so you can deal more damage.",
+    "The second combo is the auto WQ combo.",
+    "The third combo is E auto WQ combo.",
+    "The fourth combo is the ER auto WQ combo. If you plan on using your ultimate, always make sure you hit your E on your opponent first to increase the amounts of tentacles that can spawn.",
+    "If the spirit gets killed or the target runs out too far out of range, the target will become a vessel. He'll get slowed and tentacles begin to spawn around the target."
+  ],
+  "rejected": [
+    { "idea": "Flash + Âpre leçon pour surprendre (Daveyx3, en partie).", "reason": "Mentionné au passage en gameplay, une seule source ; non retenu." },
+    { "idea": "Le coup de Coup de tentacule part devant Illaoi alors que l'indicateur suit le curseur (wiki).", "reason": "Note wiki peu claire pour un joueur ; risque de contresens." },
+    { "idea": "Illaoi se révèle dans le brouillard en lançant A ou E près d'un ennemi (wiki).", "reason": "Le wiki précise que ce n'est pas entièrement testé." },
+    { "idea": "Riposte de Fiora empêche de devenir réceptacle (wiki).", "reason": "Interaction trop rare pour une fiche Illaoi." }
+  ],
+  "toVerifyInGame": [
+    "Acte de foi : l'esprit arraché par Épreuve de l'esprit compte bien pour une tentacule supplémentaire (affirmé par 2 vidéos, le wiki ne parle que des champions touchés)."
+  ]
+}

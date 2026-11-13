@@ -1,0 +1,110 @@
+{
+  "champion": "Heimerdinger",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Grenade, puis rayons des tourelles", "en": "Grenade into turret beams" },
+      "keys": ["E", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Quand l'ennemi s'approche de tes tourelles, touche-le avec Grenade électro-tempête CH-2 (E) : elles tirent aussitôt leur rayon. Enchaîne auto et Micro-roquettes Hextech (Z).",
+        "en": "When the enemy walks near your turrets, hit them with CH-2 Electron Storm Grenade (E): the turrets fire their beam right away. Follow with an auto and Hextech Micro-Rockets (W)."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Embuscade grenade puis tourelle", "en": "Grenade, then turret ambush" },
+      "keys": ["E", "Q", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Garde des kits de tourelle en réserve pour que l'ennemi baisse sa garde. Stun-le avec la grenade (E), pose une Tourelle H-28G Évolution (A) sur lui, puis roquettes (Z) et une autre tourelle (A).",
+        "en": "Keep turret kits in stock so the enemy lets their guard down. Stun them with the grenade (E), drop an H-28G Evolution Turret (Q) on them, then rockets (W) and another turret (Q)."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Grenade améliorée pour finir", "en": "Upgraded grenade to finish" },
+      "keys": ["R", "E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "AMÉLIORATION ! (R) puis grenade (E) : elle rebondit 3 fois vers l'avant et devient dure à esquiver, puis tourelle (A) et roquettes (Z) pour sécuriser le kill.",
+        "en": "UPGRADE!!! (R) then grenade (E): it bounces 3 times forward and is hard to dodge, then turret (Q) and rockets (W) to secure the kill."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Tourelle Apex pour s'installer", "en": "Apex turret setup" },
+      "keys": ["R", "Q", "E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Sans tourelles posées, AMÉLIORATION ! (R) puis tourelle (A) pose la grosse Tourelle Apex, puis grenade (E), une tourelle (A), roquettes (Z) et une dernière tourelle.",
+        "en": "With no turrets down, UPGRADE!!! (R) then turret (Q) drops the big Apex Turret, then grenade (E), a turret (Q), rockets (W) and one last turret."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque roquette de Micro-roquettes Hextech (Z) qui touche un champion charge le rayon de tes tourelles proches de 20 %. Les 5 sur la même cible : rayon immédiat.",
+        "en": "Each Hextech Micro-Rockets (W) rocket that hits a champion charges your nearby turrets' beam by 20%. All 5 on the same target: instant beam."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les roquettes convergent vers ton curseur. Vise devant l'ennemi plutôt que sur lui : l'éventail est plus dur à esquiver. Curseur proche de toi = éventail plus large.",
+        "en": "The rockets converge on your cursor. Aim in front of the enemy rather than on them: the fan is harder to dodge. Cursor close to you = wider fan."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tes roquettes (Z) partent d'un peu derrière toi. Un sbire dans ton dos peut les absorber : évite de les lancer avec des sbires juste derrière.",
+        "en": "Your rockets (W) start a bit behind you. A minion at your back can soak them: avoid firing them with minions right behind you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Grenade électro-tempête CH-2 (E) ne stun qu'au centre de l'impact ; sur les bords, elle ralentit seulement. Au contact, lance-la pile sur la cible.",
+        "en": "CH-2 Electron Storm Grenade (E) only stuns at the center of the impact; on the edges, it only slows. Up close, throw it right on the target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Affinité Hextech te donne de la vitesse près de tes tourelles et des tourelles alliées. Kite autour d'elles pour garder ce bonus en combat.",
+        "en": "Hextech Affinity grants you speed near your turrets and allied towers. Kite around them to keep that bonus while fighting."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux activer AMÉLIORATION ! (R) même sous un stun ou un silence. Prépare-la pendant le CC pour lancer le sort amélioré dès que tu es libre.",
+        "en": "You can toggle UPGRADE!!! (R) even while stunned or silenced. Prepare it during the CC to cast the upgraded spell as soon as you are free."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Poser une 4e tourelle détruit toujours la plus ancienne, pas la plus abîmée. Pense-y avant de redéployer en plein combat.",
+        "en": "Placing a 4th turret always destroys the oldest one, not the most damaged. Keep it in mind before redeploying mid-fight."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Heimerdinger – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Heimerdinger", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Heimerdinger Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=tpVcxmPy3HE", "type": "video", "date": "2026-03-22", "author": "3 Minute League of Legends" },
+    { "title": "Heimerdinger Guide - 5 Heimer Tips (Solo Baron, Turret Placements, Early Game, Teamfighting, Combos)", "url": "https://www.youtube.com/watch?v=6bVw7Nliols", "type": "video", "date": "2024-04-21", "author": "Menaki" }
+  ]
+}

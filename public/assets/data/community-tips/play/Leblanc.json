@@ -1,0 +1,122 @@
+{
+  "champion": "Leblanc",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court Sceau-Distorsion", "en": "Sigil Distortion short trade" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Sceau de malveillance (A) pour marquer, puis Distorsion (Z) sur la cible pour faire exploser la marque. Une auto, puis reviens sur ton point de départ avec Z.",
+        "en": "Sigil of Malice (Q) to mark, then Distortion (W) onto the target to pop the mark. One auto, then return to your starting point with W."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Double Sceau pour le burst", "en": "Double Sigil burst" },
+      "keys": ["Q", "R", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Sceau de malveillance (A) puis aussitôt Imitation (R) : le second sceau fait exploser le premier et pose une nouvelle marque. Distorsion (Z) la déclenche, Chaînes éthérées (E) finit.",
+        "en": "Sigil of Malice (Q) then Mimic (R) right away: the second sigil pops the first and applies a new mark. Distortion (W) triggers it, Ethereal Chains (E) finishes."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Double chaîne pour l'immobilisation", "en": "Double chain lockdown" },
+      "keys": ["W", "E", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Distorsion (Z) pour entrer, Chaînes éthérées (E), puis Imitation (R) pour une seconde chaîne et Sceau de malveillance (A). Les deux immobilisations s'enchaînent sans s'écraser.",
+        "en": "Distortion (W) to get in, Ethereal Chains (E), then Mimic (R) for a second chain and Sigil of Malice (Q). The two roots chain without overriding each other."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Chaîne-Flash quasi imparable", "en": "Near-undodgeable Chain Flash" },
+      "keys": ["E", "F", "Q"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Chaînes éthérées (E) et Flash pendant l'incantation : la chaîne part de plus près. Place Sceau de malveillance (A) avant l'immobilisation pour que ses dégâts déclenchent la marque.",
+        "en": "Cast Ethereal Chains (E) and Flash during the cast time: the chain fires from closer. Land Sigil of Malice (Q) before the root so its damage triggers the mark."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Distorsion-Flash très longue portée", "en": "Very long-range Distortion Flash" },
+      "keys": ["W", "F", "R"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Distorsion (Z), Flash, puis Imitation (R) pour une seconde Distorsion. Le premier point de retour reste loin derrière : tu couvres une énorme distance et peux revenir en sécurité.",
+        "en": "Distortion (W), Flash, then Mimic (R) for a second Distortion. The first return pad stays far behind: you cover a huge distance and can snap back to safety."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Distorsion (Z) et sa version Imitation (R) passent par-dessus les murs. Utilise-les pour flanquer la backline ou changer de lane plus vite.",
+        "en": "Distortion (W) and its Mimic (R) version go over walls. Use them to flank the backline or rotate between lanes faster."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Distorsion (Z) et sa version Imitation (R) ont des points de retour séparés : tu peux revenir sur l'un ou sur l'autre tant qu'ils sont actifs.",
+        "en": "Distortion (W) and its Mimic (R) version have separate return pads: you can go back to either one while they are active."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si Image miroir se déclenche pendant que Chaînes éthérées (E) est accrochée, le clone n'a pas de faux lien : l'ennemi sait qui est la vraie.",
+        "en": "If Mirror Image triggers while Ethereal Chains (E) is tethered, the clone has no fake tether: the enemy knows which one is real."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Image miroir : une auto pendant l'invisibilité te révèle à la fin de son animation. Garde tes autos si tu veux faire douter l'ennemi.",
+        "en": "Mirror Image: an auto during the invisibility reveals you at the end of its windup. Hold your autos if you want the enemy to guess."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaînes éthérées (E) révèle la cible pendant le lien : elle reste visible dans un buisson, en camouflage ou après un Flash par-dessus un mur.",
+        "en": "Ethereal Chains (E) reveals the target during the tether: they stay visible in a brush, in stealth or after a Flash over a wall."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque la pose de Chaînes éthérées (E). Si le lien est déjà en place, il ne le coupe pas et l'immobilisation tombe.",
+        "en": "A spell shield blocks the Ethereal Chains (E) tether. If the tether is already in place, it does not break it and the root still lands."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Les dégâts initiaux et ceux de la rupture de Chaînes éthérées (E) déclenchent tous deux la marque de Sceau de malveillance (A).",
+        "en": "Both the initial hit and the fracture damage of Ethereal Chains (E) can pop the Sigil of Malice (Q) mark."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "LeBlanc – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/LeBlanc", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Everyone Plays LeBlanc — Almost Nobody Plays Her Correctly", "url": "https://www.youtube.com/watch?v=VqJHAL7_B9I", "type": "video", "date": "2026-09-10", "author": "Zoose" },
+    { "title": "3 Minute LeBlanc Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=X-NvlZN1dzw", "type": "video", "date": "2026-08-31", "author": "3 Minute League of Legends" }
+  ]
+}

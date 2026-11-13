@@ -1,0 +1,34 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Dance of Arrows' total cooldown is reduced to an amount while Lamb is within the area of Wolf's Frenzy. Casting Wolf's Frenzy reduces Dance of Arrows' current cooldown to the same amount.",
+    "Dance of Arrows resets Lamb's basic attack timer. Lamb can cast any of her abilities during the dash.",
+    "Dance of Arrows has no minimum dash range.",
+    "Maximum dash distance 300, Maximum extended dash distance across terrain 400.",
+    "Wolf's Frenzy ends immediately if Lamb leaves the area or dies.",
+    "Wolf grants the same sight as a champion.",
+    "The third stack directs Wolf to pounce on the target, consuming all stacks to deal additional physical damage, increased by missing health.",
+    "All units inside the zone gain a minimum health threshold equal to 10% of their maximum health, and will also become invulnerable while remaining in the area when they reach or are at the threshold.",
+    "Lamb's Respite will have no effect if cast while Kindred is untargetable.",
+    "It will specifically not affect champions that are resurrecting from Guardian Angel.",
+    "For combos, start with Q into W and E. From here, attack away using Q as often as possible and using alt as needed.",
+    "And when you and your enemy are low on health in your ultimate, mark them with E and attack twice. Then, as soon as the heal goes off, use Q into an attack to execute them.",
+    "quand on QZ, ça va nous permettre de mettre quatre Q dans le Z. on ZQ, et ben on va pas avoir le dernier reset du Q.",
+    "Par contre, si je me colle à un mur, là je vais pouvoir faire un reset et là attaquer beaucoup plus vite. Faut mettre la souris au milieu du mur.",
+    "faut bien penser qu'on peut dash approximativement tous les murs.",
+    "La tête du loup donne la vision ce qui est très important pour pour justement jouer les 1 V 1.",
+    "on va préférer garder le E pour faire le plus de dégâts quand la cible est low life.",
+    "son ulti qui peut être très très clutch si on arrive à ulti que nos alliés mais qui peut aussi détruire des team fight ben si on ulti les ennemis"
+  ],
+  "rejected": [
+    { "idea": "Lancer Frénésie de Loup (Z) tôt pour les dégâts sur PV max (iReaz VOD)", "reason": "Le wiki parle d'un ratio de PV plafonné sans préciser PV max ou actuels : non retenu." },
+    { "idea": "Bait avec Repos d'Agneau (R) pour engager (iReaz VOD)", "reason": "Conseil de teamfight général, sans séquence précise." },
+    { "idea": "Choix des cibles de Marque et chemin des camps de Loup", "reason": "Conseil macro de jungle, hors périmètre." }
+  ],
+  "toVerifyInGame": [
+    "Ordre Danse des flèches (A) puis Frénésie de Loup (Z) : vérifier le dash supplémentaire dans la zone en début de partie.",
+    "Danse des flèches (A) visée dans un mur : rapidité réelle du reset d'auto.",
+    "Exécution sous Repos d'Agneau (R) : timing du soin de fin de zone et de la troisième auto."
+  ]
+}

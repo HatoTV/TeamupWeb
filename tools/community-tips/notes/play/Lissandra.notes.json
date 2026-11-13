@@ -1,0 +1,36 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Glacial Path allows Lissandra to surpass through every single wall in all maps, so long as the claw is at least halfway through them.",
+    "Glacial Path's endpoint shows through terrain, fog of war and brush to enemies within 600 range of it.",
+    "Lissandra can reactivate Glacial Path for the duration (plus another 0.2-0.3 seconds after the claw 'sinks' into the ground).",
+    "Glacial Path cannot be recast while grounded or rooted.",
+    "If Ice Shard hits an enemy, it will shatter, increasing its width and maximum range.",
+    "Spell shield will block the damage and the slow but will not stop the projectile from shattering.",
+    "If the target becomes untargetable, dies, or is too far away during the cast time, this ability will cancel but does not go on cooldown nor pay its cost.",
+    "When becoming untargetable, Lissandra destroys enemy projectiles targeting her.",
+    "Self Cast: Lissandra instantly entombs herself in ice, entering stasis for 2.5 seconds and healing herself every 0.25 seconds over the duration.",
+    "Thralls are untargetable and invulnerable. Thralls are revealed to enemies through the fog of war. Thralls will continue to chase their target even if they enter a brush.",
+    "you can use your E into walls and still come out the other side as long as it goes a little more than halfway. This makes it harder for the opponent to see and you can surprise them sometimes.",
+    "you can throw your E one way and walk the other and just escape more consistently",
+    "When you engage, you usually want to ult yourself to stall for your team",
+    "even though I should have flash ulted myself here",
+    "if e in a direction that is not close to the enemy so I'm running right there that's the first step after we get downwind then we press Q on the target we take that e we flash on his face and we end up using W into ultimate",
+    "you e backwards your flash WQ ulti and then you end up pressing your e and you assassinate the target well at the same time making sure that you run away",
+    "the range actually extends when it passes through the target. So it's really good for poking.",
+    "E, Flash, W, peut-être Everfrost, Q, puis ultime",
+    "Bien sûr, vous pouvez simplement utiliser Flash-R standard",
+    "vous pouvez utilisez ceci, sauter par-dessus à travers les murs",
+    "c'est simple la paix de l'ennemi pour en utilisant Q à travers des sbires",
+    "Même lorsque il atteint la fin, en Tu as encore un instant, pour l'activer encore."
+  ],
+  "rejected": [
+    { "idea": "Objet actif inséré dans le combo E-Flash (Shok) et stase par objet après l'ult", "reason": "Conseil d'objet hors périmètre." },
+    { "idea": "Choisir entre ult sur soi et ult sur l'ennemi selon l'état de la partie (EcoreLoL)", "reason": "Conseil de jeu général, pas une mécanique." }
+  ],
+  "toVerifyInGame": [
+    "Feinte : Chemin glacial (E) à l'opposé, Flash, Z, A, R puis relance de E : la griffe doit encore être active à la fin du combo (durée ~1,25 s + 0,2-0,3 s selon le wiki), timing serré.",
+    "Sources Shok (2023) et Kola (2023) : kit inchangé selon le wiki actuel, mais combos à confirmer au patch 16.22."
+  ]
+}

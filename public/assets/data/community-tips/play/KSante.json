@@ -1,0 +1,100 @@
+{
+  "champion": "KSante",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "All-in complet avec ntofo chargé", "en": "Full all-in with charged ntofo" },
+      "keys": ["E", "Q", "W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Attends d'avoir 2 charges de Coups de ntofo (A). Jeu de jambes (E) et une auto, A chargé et une auto, puis Pour Nazumah ! (Z), une auto et Grand jeu (R).",
+        "en": "Wait for 2 Ntofo Strikes (Q) stacks. Footwork (E) and an auto, charged Q and an auto, then Path Maker (W), an auto and All Out (R)."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Charge lancée pendant le saut", "en": "Path Maker charged mid-dash" },
+      "keys": ["E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Jeu de jambes (E) puis commence tout de suite à charger Pour Nazumah ! (Z) pendant le saut. Tu arrives avec Z déjà à moitié chargé : la cible n'a presque pas le temps de réagir.",
+        "en": "Cast Footwork (E) then start charging Path Maker (W) right away during the dash. You land with W already half charged: the target barely has time to react."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Ult lancé pendant la ruée", "en": "Ult cast during the dash" },
+      "keys": ["W", "R", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Pendant la ruée de Pour Nazumah ! (Z), lance Grand jeu (R) et spamme Coups de ntofo (A) : le coup sort pendant l'animation de l'ult et tu enchaînes vite sur le suivant.",
+        "en": "During the Path Maker (W) dash, cast All Out (R) and spam Ntofo Strikes (Q): the strike comes out during the ult animation and you chain into the next one quickly."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Jeu de jambes (E) ne traverse pas les murs vers un point au sol. Lancé sur un allié, il gagne en portée et en vitesse et passe à travers le terrain.",
+        "en": "Footwork (E) does not cross walls when aimed at the ground. Cast on an ally, it gains range and speed and goes through terrain."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Grand jeu (R) près d'un mur envoie la cible de l'autre côté et tu réapparais juste derrière elle. Sers-t'en aussi pour franchir un mur et atteindre la backline.",
+        "en": "All Out (R) near a wall sends the target to the other side and you reappear right behind them. Also use it to cross a wall and reach the backline."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le point d'arrivée de Grand jeu (R) est fixé au lancement. Si la cible Flash ou dash pendant l'incantation, elle est quand même ramenée à l'endroit prévu.",
+        "en": "All Out (R) locks its landing spot on cast. If the target Flashes or dashes during the cast time, they still get pulled to the planned spot."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si la cible bloque la projection de Grand jeu (R) avec un bouclier anti-sort ou une immunité, tu te téléportes quand même derrière le point prévu.",
+        "en": "If the target blocks the All Out (R) pull with a spell shield or an immunity, you still blink behind the planned spot."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le contrôle ne coupe pas la charge de Pour Nazumah ! (Z), et sa relance part même si tu es immobilisé ou cloué au sol.",
+        "en": "Crowd control does not interrupt the Path Maker (W) charge, and its recast works even while rooted or grounded."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Entrer en Grand jeu (R) recharge Pour Nazumah ! (Z). Avec 2 charges de Coups de ntofo (A) juste avant, le CD de A est aussi remis à zéro.",
+        "en": "Entering All Out (R) refreshes Path Maker (W). With 2 Ntofo Strikes (Q) stacks right before, the Q cooldown is reset too."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Instinct intrépide : un bouclier anti-sort empêche la pose de la marque, mais pas sa consommation par ton auto.",
+        "en": "Dauntless Instinct: a spell shield stops the mark from being applied, but not from being consumed by your auto."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "K'Sante – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/K'Sante", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "5 TIPS AVANCÉS SUR K'SANTE", "url": "https://www.youtube.com/watch?v=bgbWGtSJlh0", "type": "video", "date": "2025-03-12", "author": "Misanthiel - Coach Toplane" },
+    { "title": "3 Minute K'Sante Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=czY4hhV6avg", "type": "video", "date": "2026-06-18", "author": "3 Minute League of Legends" }
+  ]
+}

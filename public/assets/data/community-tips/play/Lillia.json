@@ -1,0 +1,101 @@
+{
+  "champion": "Lillia",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade de base", "en": "Basic trade" },
+      "keys": ["Q", "W", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Frappe fleurie (A) avec la cible au bord de la zone, Attention, désolée ! (Z) sur elle, puis Graine tournoyante (E) avant de reculer.",
+        "en": "Blooming Blows (Q) with the target on the outer edge, Watch Out! Eep! (W) on them, then Swirlseed (E) before backing off."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Sommeil puis centre garanti", "en": "Sleep into guaranteed center" },
+      "keys": ["E", "R", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Graine tournoyante (E) pour poser la poussière, Douce berceuse (R), Frappe fleurie (A) pendant la somnolence. Une fois la cible endormie, Attention, désolée ! (Z) en plein centre : dégâts triplés en plus du bonus de réveil.",
+        "en": "Swirlseed (E) to apply the dust, Lilting Lullaby (R), Blooming Blows (Q) while they are drowsy; once the target sleeps, Watch Out! Eep! (W) dead center: tripled damage on top of the wake-up bonus."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Frappe fleurie puis Flash", "en": "Blooming Blows into Flash" },
+      "keys": ["Q", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Frappe fleurie (A) puis Flash pendant l'incantation : l'animation démarre loin et le coup part sur ta nouvelle position. Bien plus surprenant que Flash puis A.",
+        "en": "Cast Blooming Blows (Q) then Flash during the cast time: the animation starts far away and the hit lands on your new spot. Much more surprising than Flash then Q."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Attention, désolée ! (Z) ne traverse pas le terrain, mais tu peux sauter par-dessus le bord de certains murs avec.",
+        "en": "Watch Out! Eep! (W) does not go through terrain, but you can hop over the edge of some walls with it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Graine tournoyante (E) explose dès qu'elle touche un mur au sol. Vise un mur près de la cible pour une explosion immédiate ; le point d'impact s'affiche pendant qu'elle roule.",
+        "en": "Swirlseed (E) explodes as soon as it hits a wall on the ground. Aim at a wall near the target for an instant blast; the impact spot shows while it rolls."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La direction de roulement de Graine tournoyante (E) dépend de ta position à la fin de l'incantation, pas au début. Bouge pendant le lancer pour changer l'angle.",
+        "en": "Swirlseed (E) rolling direction depends on your position at the end of the cast, not the start. Move during the cast to change the angle."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux bouger pendant l'incantation de Frappe fleurie (A) et de Douce berceuse (R) : recale-toi pour mettre la cible au bord de A.",
+        "en": "You can move during the cast time of Blooming Blows (Q) and Lilting Lullaby (R): adjust to put the target on the Q outer edge."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque la somnolence de Douce berceuse (R), mais la cible s'endort quand même et subit les dégâts de réveil.",
+        "en": "A spell shield blocks the Lilting Lullaby (R) drowsiness, but the target still falls asleep and takes the wake-up damage."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Sous une tour, Douce berceuse (R) n'attire pas l'aggro, seuls les dégâts de réveil le font. Lance-la juste avant la fin de ta poussière pour ne pas te faire viser.",
+        "en": "Under a turret, Lilting Lullaby (R) does not draw aggro, only the wake-up damage does. Cast it right before your dust runs out to avoid being targeted."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Bâton chargé de rêves s'applique même sur un ennemi protégé par un bouclier ou invulnérable : tu peux encore l'endormir avec Douce berceuse (R).",
+        "en": "Dream-Laden Bough applies even to a shielded or invulnerable enemy: you can still put them to sleep with Lilting Lullaby (R)."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Lillia – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Lillia", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Lillia Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=q1JScxkYDw0", "type": "video", "date": "2026-10-02", "author": "3 Minute League of Legends" },
+    { "title": "The Ultimate Lillia Guide Season 2026", "url": "https://www.youtube.com/watch?v=ohRuF3YgKNI", "type": "video", "date": "2026-06-23", "author": "Icelandic Hero" }
+  ]
+}

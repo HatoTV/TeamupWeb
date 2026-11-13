@@ -1,0 +1,30 @@
+{
+  "searches": 3,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Innate: Kennen's abilities apply a stack of Mark of the Storm to enemies hit for 6 seconds, refreshing on subsequent applications and stacking up to 3 times.",
+    "The third stack against a target consumes them all to stun them for 1.25 seconds and restore 25 energy. The stun duration is reduced to 0.5 seconds if this occurs on the same target again within 6 seconds.",
+    "After Slicing Maelstrom applies its third stack, the target gains a 6-second stack immunity against Slicing Maelstrom that refreshes on subsequent hits.",
+    "At 4 stacks, his next basic attack on-attack consumes all stacks to both deal bonus magic damage and apply a stack of Mark of the Storm on-hit.",
+    "An enemy within 775 units with Mark of the Storm or inside Slicing Maelstrom is required to cast this ability. The target does not have to be visible to be targeted by this ability.",
+    "Electrical Surge's enhanced attack will be consumed and the bonus damage will not be applied if Kennen is blinded.",
+    "Electrical Surge's enhanced attack cannot be dodged or blocked.",
+    "Kennen turns into lightning for 2 seconds, becoming unable to declare basic attacks but gaining ghosting and 100% bonus movement speed. He deals magic damage to enemies he passes through, reduced to 65% against non-champions, and restores 40 energy upon damaging at least one enemy.",
+    "Lightning Rush's recast can be used while affected by cast-inhibiting crowd control.",
+    "Kennen can move during Slicing Maelstrom's cast time.",
+    "The second combo is auto QEW combo. This combo lets you hit your stun very easily thanks to the QEW combo. The third combo is the passive auto attack QW combo. This is an alternative way to trade and hit the stun without using your E ability at all.",
+    "Kennan's basic combo if he's engaging a melee champion is Q or a boosted auto attack, E a little back for a stack, W to stun them, and go from there.",
+    "For combos, you want to have your passive auto attack stacked, then go in with E into W. As soon as you hit them with your E, cancel the ability into an attack and Q.",
+    "And your all in is to E into your ultimate and W before canceling your E. Attack into Q before attacking away while everyone gets AoE blended."
+  ],
+  "rejected": [
+    { "idea": "Nombre de marques (2) et auto chargée toutes les 5 attaques cités par 3 Minute League of Legends", "reason": "Contredit le wiki au patch 16.22 (3 marques, 4 attaques) : seule la séquence du combo est reprise." },
+    { "idea": "Engage Flash + Maelström (R) depuis un flanc", "reason": "Conseil de positionnement général (EcoreLoL), sans séquence précise ni seconde source." },
+    { "idea": "Vidéo LoL Dobby « How a Mid Kennen Hit Rank 3 » (cljHWsVj254)", "reason": "Pas de sous-titres anglais : non lue." },
+    { "idea": "Vidéo Bav Bros « KENNEN COMBO GUIDE » (fx-vFrgl5L4)", "reason": "Saison 11 (5 ans), antérieure aux changements récents de Surtension et Rush foudroyant : non ouverte." }
+  ],
+  "toVerifyInGame": [
+    "Réactivation de Rush foudroyant (E) sous stun ou silence : vérifier quels CC l'autorisent.",
+    "Surtension (Z) sur une cible marquée invisible (buisson, brouillard) à 775 unités."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "champion": "Khazix",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Bond avec Goût de la peur", "en": "Leap into airborne Taste" },
+      "keys": ["E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Bond (E) sur la cible et Goût de la peur (A) pendant le saut : il part dès l'atterrissage. Finis avec une auto puis Pique du Néant (Z).",
+        "en": "Leap (E) onto the target and cast Taste Their Fear (Q) mid-air: it goes off as you land. Finish with an auto, then Void Spike (W)."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Trade au contact", "en": "Point-blank trade" },
+      "keys": ["Q", "W", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Si tu arrives au contact sans sauter, place une auto, Goût de la peur (A) et Pique du Néant (Z). Garde Bond (E) pour rattraper la cible si elle fuit.",
+        "en": "If you reach melee range without leaping, land an auto, Taste Their Fear (Q) and Void Spike (W). Keep Leap (E) to catch the target if they run."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "All-in invisible", "en": "Invisible all-in" },
+      "keys": ["R", "Q", "W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ouvre avec Assaut du Néant (R) : ton auto suivante profite de Menace invisible. Enchaîne Goût de la peur (A) et Pique du Néant (Z), puis réactive Assaut pour un nouveau passif.",
+        "en": "Open with Void Assault (R): your next auto gets Unseen Threat. Chain Taste Their Fear (Q) and Void Spike (W), then recast Void Assault for another passive hit."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Châtiment pour isoler la cible", "en": "Smite to isolate the target" },
+      "keys": ["E", "D", "Q"],
+      "summoners": { "D": "SummonerSmite" },
+      "level": "hard",
+      "desc": {
+        "fr": "En gank, si la cible fuit avec un seul sbire à côté, saute avec Bond (E) et tue ce sbire avec Châtiment : la cible devient isolée pour ton Goût de la peur (A).",
+        "en": "On a gank, if the target runs with one minion beside them, Leap (E) in and Smite that minion: the target becomes isolated for your Taste Their Fear (Q)."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Menace invisible se recharge dès que l'ennemi te perd de vue. En gank, tape, ressors de sa vision par un buisson, puis reviens taper avec le passif.",
+        "en": "Unseen Threat comes back as soon as the enemy loses sight of you. On a gank, auto, step out of their vision through a bush, then come back for another passive hit."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Assaut du Néant (R) te donne Menace invisible même si l'ennemi te voit encore, par exemple sous un effet de vision vraie.",
+        "en": "Void Assault (R) grants Unseen Threat even if the enemy can still see you, for example under true sight."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "L'isolement de Goût de la peur (A) est vérifié à la fin du lancement : si un allié ennemi arrive pendant l'animation, tu perds le bonus.",
+        "en": "Taste Their Fear (Q) checks isolation at the end of its cast: if an enemy ally steps in during the animation, you lose the bonus."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les balises n'empêchent pas l'isolement, ni certaines invocations : champis de Teemo, pièges de Jhin, goules de Yorick, tentacules d'Illaoi, barils de Gangplank.",
+        "en": "Wards do not prevent isolation, nor do some summoned units: Teemo shrooms, Jhin traps, Yorick ghouls, Illaoi tentacles, Gangplank barrels."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pique du Néant (Z) te soigne seulement si tu es dans l'explosion : au corps à corps, vise la cible à tes pieds pour récupérer des PV.",
+        "en": "Void Spike (W) heals you only if you stand inside the explosion: in melee range, aim at the target right next to you to get health back."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant Bond (E), tu peux mettre en file Pique du Néant (Z) ou Assaut du Néant (R) : le sort part dès l'atterrissage. Tes sorts d'invocateur restent utilisables en plein saut.",
+        "en": "During Leap (E), you can buffer Void Spike (W) or Void Assault (R): the spell fires as you land. Your summoner spells stay usable mid-leap."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bond (E) évolué gagne 300 de portée et se recharge à chaque participation à l'élimination d'un champion : en teamfight, enchaîne sur la cible suivante.",
+        "en": "Evolved Leap (E) gains 300 range and resets on every champion takedown: in teamfights, jump straight to the next target."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Kha'Zix - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Kha'Zix", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Kha'Zix Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=EWOlnyFGIUc", "type": "video", "date": "2026-09-22", "author": "3 Minute League of Legends" },
+    { "title": "rank 1 khazix explains how to win every game", "url": "https://www.youtube.com/watch?v=xqG44sHcsN4", "type": "video", "date": "2026-09-22", "author": "mohawk" }
+  ]
+}

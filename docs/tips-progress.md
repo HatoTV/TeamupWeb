@@ -94,18 +94,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Kayle (2 combos, 7 astuces)
 - ✅ Kayn (3 combos, 7 astuces)
 
-### Lot 7 — ⏳
+### Lot 7 — ✅
 
-- ⏳ Kennen
-- ⏳ Khazix
-- ⏳ Kindred
-- ⏳ Kled
-- ⏳ KogMaw
-- ⏳ KSante
-- ⏳ Leblanc
-- ⏳ Leona
-- ⏳ Lillia
-- ⏳ Lissandra
+- ✅ Kennen (3 combos, 6 astuces)
+- ✅ Khazix (4 combos, 7 astuces)
+- ✅ Kindred (3 combos, 7 astuces)
+- ✅ Kled (2 combos, 7 astuces)
+- ✅ KogMaw (2 combos, 6 astuces)
+- ✅ KSante (3 combos, 7 astuces)
+- ✅ Leblanc (5 combos, 7 astuces)
+- ✅ Leona (3 combos, 7 astuces)
+- ✅ Lillia (3 combos, 7 astuces)
+- ✅ Lissandra (3 combos, 8 astuces)
 
 ### Lot 8 — ⏳
 

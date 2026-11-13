@@ -1,0 +1,31 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Enemies hit within the outer edge of the area additionally take the same amount as bonus true damage.",
+    "Lillia can move during Blooming Blows' cast time.",
+    "Lillia can move during Lilting Lullaby's cast time.",
+    "Lillia can hop over the edges of certain walls despite the ability being unable to traverse terrain.",
+    "The seed detonates upon hitting an enemy or terrain while on the ground",
+    "The spot at which the seed will collide with terrain is highlighted while it is rolling.",
+    "Swirlseed's origin is determined from Lillia's position at the start of cast, the rolling direction is determined from Lillia's position at the end of cast",
+    "Spell shield will not prevent falling asleep nor block the wake-up damage. The lullaby's drowsy application will be blocked.",
+    "Lilting Lullaby's application does not trigger aggro from turrets, only its triggering damage does.",
+    "Dream-Laden Bough persistent damage will still cause Lillia to trigger turret aggro, unless she casts Lilting Lullaby right before it runs out.",
+    "Dream Dust is applied even if the target takes no damage from an ability, e.g. by being shielded or invulnerable, but not when the ability hit is prevented in the first place (e.g. spell shield).",
+    "Pour les combos, votre base est d'attaquer avec le A, puis le Z, puis le E avant de vous replier. Votre combo complet consiste à lancer le E suivi de votre ultime. Cela garantit votre Z à triple dégâts, suivi d'un A avant de vous éloigner.",
+    "First like I'll apply my dream dust somehow, then I'll ultimate, and then I'll Q them before they go to sleep, and then W",
+    "You never want to wake people up with your Q",
+    "when you ultimate people, the best spell to hit is your W. Cuz that's guaranteed triple damage, plus your, you know, sleep damage.",
+    "I'm going to flash Q. It looks like that. It looks like decently fast, but let's Q flash now. You see like my animation starts over here, so you can kind of surprise people.",
+    "a lot of times I'll go for a guaranteed E like by hitting the wall. If you E on a wall um it'll explode straight away"
+  ],
+  "rejected": [
+    { "idea": "Frappe fleurie (A) puis Flash, puis objet de stase pendant la somnolence (Icelandic Hero)", "reason": "Conseil d'objet, hors périmètre ; seul le A-Flash est gardé." },
+    { "idea": "Attendre le Flash adverse avant de lancer Graine tournoyante (E)", "reason": "Conseil de jeu général, pas une mécanique propre au sort." }
+  ],
+  "toVerifyInGame": [
+    "Frappe fleurie (A) puis Flash pendant l'incantation : le coup part bien depuis la position après Flash (une seule source joueur, cohérent avec la note wiki sur le déplacement pendant l'incantation).",
+    "Saut d'Attention, désolée ! (Z) par-dessus le bord de certains murs : identifier lesquels."
+  ]
+}

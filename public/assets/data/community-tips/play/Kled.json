@@ -1,0 +1,90 @@
+{
+  "champion": "Kled",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Joute, Piège puis retour", "en": "Joust, Trap, then return" },
+      "keys": ["E", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Joute (E) sur l'ennemi et Piège à ours en laisse (A) pendant le dash. Place tes quatre autos de Penchant pour la violence (Z), réactive Joute pour le traverser, puis recule en tapant.",
+        "en": "Cast Jousting (E) on the enemy and Bear Trap on a Rope (Q) during the dash. Land your four Violent Tendencies (W) autos, recast Jousting through them, then back off attacking."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Charge puis Joute", "en": "Charge into Joust" },
+      "keys": ["R", "E", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ouvre avec Chaaaaaaaargez !!! (R) : à l'impact, enchaîne Joute (E) et Piège à ours en laisse (A), tes autos de Penchant pour la violence (Z), puis la réactivation de Joute.",
+        "en": "Open with Chaaaaaaaarge!!! (R): on impact, chain Jousting (E) and Bear Trap on a Rope (Q), your Violent Tendencies (W) autos, then the Jousting recast."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le premier dash de Joute (E) ne passe pas les murs, mais la réactivation, si : si ta cible marquée saute un mur, réactive Joute pour la suivre.",
+        "en": "The first Jousting (E) dash does not cross walls, but the recast does: if your marked target jumps a wall, recast Jousting to follow them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La marque de Joute (E) disparaît si tu t'éloignes trop de la cible. Réactivée hors de portée, Joute te fait juste marcher vers elle et consomme la marque.",
+        "en": "The Jousting (E) mark drops if you get too far from the target. Recast out of range, Jousting just walks you toward them and uses up the mark."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Joute (E) et Piège à ours en laisse (A) révèlent leur cible même invisible : un champion furtif touché ne peut plus disparaître pendant quelques secondes.",
+        "en": "Jousting (E) and Bear Trap on a Rope (Q) reveal their target even if invisible: a stealthed champion you hit cannot vanish for a few seconds."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le lien de Piège à ours en laisse (A) ne peut pas être cassé pendant ses 0,25 premières secondes. S'il tient 1,75 s, tu tires la cible et la ralentis.",
+        "en": "The Bear Trap on a Rope (Q) tether cannot be broken for its first 0.25 s. If it holds for 1.75 s, you pull the target and slow them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Quand Skaarl tombe, tu es purifié de tous les CC et inciblable 0,5 s, et tu bondis vers ta base. Une exécution sur toi monté te fait seulement descendre de Skaarl.",
+        "en": "When Skaarl drops, you are cleansed of all crowd control and untargetable for 0.5 s, and you lunge toward your base. An execute on you while mounted only dismounts you."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Penchant pour la violence (Z) perd 1,5 s de CD à chaque auto sur un champion pendant sa recharge : en trade long, il revient très vite.",
+        "en": "Violent Tendencies (W) loses 1.5 s of cooldown per auto on a champion while recharging: in long trades, it comes back very fast."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Chaaaaaaaargez !!! (R), tu contournes le terrain seul et tu es insensible aux CC, mais les champions ennemis proches te voient arriver.",
+        "en": "During Chaaaaaaaarge!!! (R), you path around terrain on your own and are immune to crowd control, but nearby enemy champions see you coming."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Kled - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Kled", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Kled Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=yCRM2kvQezY", "type": "video", "date": "2025-08-08", "author": "3 Minute League of Legends" },
+    { "title": "TOUT SAVOIR SUR KLED - OTP LE PLUS CHAUD DE TA RÉGION (Feat GoBGG)", "url": "https://www.youtube.com/watch?v=yiHTpgmW4BQ", "type": "video", "date": "2026-04-29", "author": "OTP - League of Legends" }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "champion": "Kennen",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto chargée, Shuriken puis Surtension", "en": "Charged auto, Shuriken, Surge" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Ton auto chargée par Surtension pose une marque, Shuriken foudroyant (A) en pose une deuxième et l'activation de Surtension (Z) la troisième : stun sans utiliser Rush foudroyant (E).",
+        "en": "Your Surge-charged auto applies a mark, Thundering Shuriken (Q) a second one and Electrical Surge (W) active the third: a stun without spending Lightning Rush (E)."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Shuriken, Rush puis Surtension", "en": "Shuriken, Rush, then Surge" },
+      "keys": ["Q", "E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche avec Shuriken foudroyant (A) ou une auto chargée, traverse l'ennemi avec Rush foudroyant (E) pour la deuxième marque, puis active Surtension (Z) pour le stun.",
+        "en": "Land Thundering Shuriken (Q) or a charged auto, pass through the enemy with Lightning Rush (E) for the second mark, then cast Electrical Surge (W) for the stun."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in Rush et Maelström", "en": "Rush into Maelstrom all-in" },
+      "keys": ["E", "R", "W", "E", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Fonce avec Rush foudroyant (E), lance Maelström (R) en courant puis Surtension (Z). Réactive Rush pour la vitesse d'attaque, place des autos et Shuriken foudroyant (A).",
+        "en": "Charge in with Lightning Rush (E), cast Slicing Maelstrom (R) while moving, then Electrical Surge (W). Recast Rush for attack speed, then weave autos and Thundering Shuriken (Q)."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "La troisième Marque de tempête stun 1,25 s et te rend 25 d'énergie. Si tu stun la même cible dans les 6 s, le stun ne dure que 0,5 s.",
+        "en": "The third Mark of the Storm stuns for 1.25 s and restores 25 energy. Stun the same target again within 6 s and it only lasts 0.5 s."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Maelström (R) ne pose que 3 marques par cible, puis chaque éclair la rend insensible à ses marques pendant 6 s. Pour un autre stun, ajoute Shuriken foudroyant (A) et Surtension (Z).",
+        "en": "Slicing Maelstrom (R) applies only 3 marks per target, then each bolt keeps them immune to its marks for 6 s. For another stun, add Thundering Shuriken (Q) and Electrical Surge (W)."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Surtension (Z) touche un ennemi marqué à 775 unités même s'il n'est pas visible : un ennemi marqué qui fuit dans un buisson ou le brouillard reste touchable.",
+        "en": "Electrical Surge (W) hits a marked enemy within 775 units even if they are not visible: a marked enemy fleeing into a bush or fog can still be hit."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "L'auto chargée de Surtension (Z) ne peut être ni esquivée ni bloquée, mais si tu es aveuglé, elle est consommée sans dégâts ni marque.",
+        "en": "The Electrical Surge (W) charged auto cannot be dodged or blocked, but if you are blinded it is consumed with no damage and no mark."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux réactiver Rush foudroyant (E) même sous un CC qui bloque tes sorts : tu gagnes quand même le bonus de vitesse d'attaque.",
+        "en": "You can recast Lightning Rush (E) even under crowd control that blocks your spells: you still get the attack speed bonus."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Rush foudroyant (E) te rend 40 d'énergie s'il touche au moins un ennemi, sbires compris, et tu traverses les unités pendant 2 s.",
+        "en": "Lightning Rush (E) restores 40 energy if it hits at least one enemy, minions included, and you pass through units for 2 s."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Kennen - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Kennen", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY Kennen Guide You Need - Kennen Guide League of Legends", "url": "https://www.youtube.com/watch?v=vlnQfYgHJlY", "type": "video", "date": "2026-01-03", "author": "Daveyx3" },
+    { "title": "I Spent 10 Hours Learning Kennen. Here's What Happened", "url": "https://www.youtube.com/watch?v=UYocJuuDKMM", "type": "video", "date": "2026-04-21", "author": "EcoreLoL" },
+    { "title": "3 Minute Kennen Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=phXbNq7NgC4", "type": "video", "date": "2026-05-06", "author": "3 Minute League of Legends" }
+  ]
+}

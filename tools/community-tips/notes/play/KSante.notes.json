@@ -1,0 +1,34 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Footwork can also be cast on allies with increased range and speed, and the ability to dash through terrain.",
+    "K'Sante dashes to the target location, though not through terrain, and grants himself a shield for 2 seconds.",
+    "K'Sante can cast any of his abilities during the dash.",
+    "Ntofo Strikes and All Out can be cast during the dash. Path Maker's recast can be used while affected by cast-inhibiting crowd control.",
+    "Path Maker's charge cannot be interrupted by crowd control.",
+    "Path Maker's recast can be used even while grounded or rooted, but the initial cast cannot.",
+    "Upon entering All Out, Path Maker's cooldown is refreshed.",
+    "Ntofo Strikes' cooldown is reset if K'Sante had 2 stacks before entering All Out.",
+    "pulling the target to a location that is 300 units in the cast direction from their location at the time of cast",
+    "If the target resists the pull by having a spell shield or being cc-immune or displacement immune, K'Sante will still blink beyond the pull's end location as if the target were displaced.",
+    "Spell shield will block the mark's application, but not the mark's consumption from an attack.",
+    "assurez-vous toujours que votre Q soit chargé au maximum. À partir de là, utilisez votre E pour attaquer avant d'enchaîner avec votre Q et d'attaquer à nouveau. Ensuite, utilisez W pour attaquer et votre ultime.",
+    "elle augmente également la portée et permet de traverser le terrain",
+    "utilisez votre ultime sur un carry ennemi pour le faire traverser un terrain accidenté",
+    "vous pouvez commencer à charger l'animation votre W pendant le dash de votre e",
+    "dès que vous sautez sur un allié avec votre e vous pouvez déjà commencer à Wu comme ça voyez du coup j'arrive et mon Wu est déjà à moitié chargé",
+    "avant de faire mon r je lance mon Z et je spam le CU pendant l'animation du R regardez bien ce qui se passe voyez mon Cu est parti pendant l'animation du R",
+    "cant ne peut pas dash les murs voilà sans flash c'est impossible sauf si vous avez votre ultime",
+    "votre air quand vous le lancez garanti quoi qu'il arrive que l'ennemi va se retrouver là où vous devriez l'envoyer même si le mec se téléporte même si le mec dasche même s' flash"
+  ],
+  "rejected": [
+    { "idea": "Combo présenté pour une rune de résistance (Misanthiel, tip 1)", "reason": "Mention de rune interdite ; seul le buffer Z, R puis A est gardé." },
+    { "idea": "Cacher Coups de ntofo (A) chargé dans un contrôle subi pour masquer l'animation", "reason": "Une seule source joueur, rien dans le wiki." },
+    { "idea": "Vidéo Aatreus « combo dégâts maximum »", "reason": "Gameplay commenté sans combo exploitable." }
+  ],
+  "toVerifyInGame": [
+    "Coups de ntofo (A) spammé pendant l'animation de Grand jeu (R) lancé depuis la ruée de Pour Nazumah ! (Z) : le coup part bien pendant l'ult.",
+    "Cible qui Flash pendant l'incantation de Grand jeu (R) : ramenée au point prévu (timing selon Misanthiel)."
+  ]
+}

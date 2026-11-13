@@ -1,0 +1,100 @@
+{
+  "champion": "Kindred",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Danse puis Frénésie", "en": "Dance before Frenzy" },
+      "keys": ["Q", "W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Danse des flèches (A) avant Frénésie de Loup (Z) : le Z réduit le CD en cours du A, tu places donc un dash de plus dans la zone.",
+        "en": "Cast Dance of Arrows (Q) before Wolf's Frenzy (W): the W cuts the current Q cooldown, so you fit one more dash inside the zone."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Trade Danse, Loup, Terreur", "en": "Dance, Wolf, Dread trade" },
+      "keys": ["Q", "W", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Ouvre avec Danse des flèches (A), pose Frénésie de Loup (Z) puis Terreur mortelle (E). Tape en reculant et relance le A dès qu'il revient.",
+        "en": "Open with Dance of Arrows (Q), drop Wolf's Frenzy (W), then Mounting Dread (E). Attack while backing off and recast Q as soon as it is up."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Exécution à la fin du R", "en": "Execute as the R ends" },
+      "keys": ["R", "E", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Sous Repos d'Agneau (R), marque l'ennemi bas en PV avec Terreur mortelle (E) et place deux autos. Au soin de fin de zone, Danse des flèches (A) et la troisième auto l'achèvent.",
+        "en": "In Lamb's Respite (R), mark the low enemy with Mounting Dread (E) and land two autos. When the zone heals, Dance of Arrows (Q) and the third auto finish them."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Danse des flèches (A) traverse les murs fins : son dash va jusqu'à 400 unités au-dessus du terrain contre 300 sinon. Sers-t'en pour fuir ou envahir.",
+        "en": "Dance of Arrows (Q) crosses thin walls: the dash reaches 400 units over terrain instead of 300. Use it to escape or invade."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Danse des flèches (A) n'a pas de portée minimale. Collée à un mur, vise dedans : le dash est quasi nul et ton auto repart presque tout de suite.",
+        "en": "Dance of Arrows (Q) has no minimum range. Against a wall, aim into it: the dash is almost nothing and your next auto comes out right away."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Loup donne autant de vision qu'un champion : pose Frénésie de Loup (Z) sur un camp ou un buisson sans balise pour voir qui s'y trouve.",
+        "en": "Wolf gives as much vision as a champion: drop Wolf's Frenzy (W) on a camp or an unwarded bush to see who is there."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Frénésie de Loup (Z) s'arrête dès que tu sors de la zone : garde tes dashes de Danse des flèches (A) à l'intérieur pour garder Loup.",
+        "en": "Wolf's Frenzy (W) ends as soon as you leave the zone: keep your Dance of Arrows (Q) dashes inside it to keep Wolf."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Les dégâts de Loup via Terreur mortelle (E) montent avec les PV manquants : garde-la pour une cible déjà entamée plutôt qu'au début du fight.",
+        "en": "Wolf's damage from Mounting Dread (E) grows with missing health: save it for an already damaged target rather than opening the fight with it."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Repos d'Agneau (R) protège aussi les ennemis et les monstres dans la zone. Mal placé, il sauve un ennemi que ton équipe allait tuer.",
+        "en": "Lamb's Respite (R) also protects enemies and monsters in the zone. Badly placed, it saves an enemy your team was about to kill."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Repos d'Agneau (R) ne fait rien si tu le lances en étant inciblable, et n'affecte pas un champion en train de ressusciter avec l'Ange gardien.",
+        "en": "Lamb's Respite (R) does nothing if you cast it while untargetable, and does not affect a champion reviving with Guardian Angel."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Kindred - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Kindred", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Kindred Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=F4S6FUMy9aM", "type": "video", "date": "2025-12-02", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE KINDRED COMPLET - SORTS, POINTS FORTS, COMBOS & 1 GAME POUR APPRENDRE A SMURF (Ft Arkfly, OTP)", "url": "https://www.youtube.com/watch?v=67VSlkmTEPM", "type": "video", "date": "2026-05-11", "author": "iReaz VOD" }
+  ]
+}

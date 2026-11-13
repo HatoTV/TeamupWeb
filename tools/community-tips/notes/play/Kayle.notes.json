@@ -1,0 +1,31 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Basic attacks within range [175 units] will still use Kayle's melee basic attack animations and do not utilize projectiles. Due to this fact, projectile-blocking effects cannot intercept basic attacks while Kayle's target is within her melee range.",
+    "Fire waves roll critical strike chance on each target hit individually.",
+    "the portal is created at the start of the cast time and Kayle does not have to be alive for it to launch the sword. The portal does not follow Kayle's movements, using or getting displaced won't change its position nor direction either.",
+    "Kayle and the target allied champion are healed and gain bonus movement speed for 2 seconds from the start of the cast time. If cast without a valid target, or self-cast, Celestial Blessing will automatically target the closest allied champion in range, prioritizing the one with the lowest health.",
+    "Starfire Spellblade resets Kayle's basic attack timer. If Kayle is not yet Divine Ascent, this attack becomes ranged with 525 range.",
+    "Divine Judgment's effects persist through the target's death.",
+    "Divine Judgment will prioritize casting on allies over Kayle. This means that if the player is selecting a point with the mouse on which both Kayle's and another valid target's selection areas overlap on the map, the cast will always occur on the ally.",
+    "Prior to becoming Transcended via Divine Ascent, casting Divine Judgment refreshes the duration of Divine Ascent stacks at the start of the cast time to ensure that it does not expire while she can't attack during the cast.",
+    "when you use your ulti your passive Stacks will get renewed which means you won't lose those decks upon ulting",
+    "KW is always selfcast plus it heals your lowest HP Li within your range which means you can just basically click anywhere",
+    "your waves have their own 50% crit chance so when you all attack crits it doesn't necessarily mean that your wave will crit as well",
+    "when you stand in melee range kale will still use your melee attack animation which can be really useful against Shams like yasu's wind wall and samir's W",
+    "For combos, start with W into Q and then attack into E. From here, just spam away with attacks, ulting yourself or an ally as needed, and auto attack resetting with E whenever you can.",
+    "if she's not level six yet, this becomes a ranged attack. Your E and Q are both good poke tools but also can just be used to last hit minions."
+  ],
+  "rejected": [
+    { "idea": "Les dégâts de zone de l'auto au niveau 11 s'appliquent aux bâtiments (Kayle 1v9)", "reason": "Contredit par le wiki : les autos sur bâtiments ne lancent pas de vague de feu ; Lame de feu stellaire (E) ne fait pas de bonus sur bâtiments." },
+    { "idea": "Bouclier de Braum : bloque quand même les autos en mêlée (Kayle 1v9)", "reason": "Contredit la note wiki sur les effets anti-projectiles ; écarté, seul le Mur de vent est cité." },
+    { "idea": "« W TP hack » (Kayle 1v9)", "reason": "L'auteur ne sait pas le reproduire ; non vérifiable." },
+    { "idea": "Taper le Baron et le Drake depuis l'autre côté du mur au niveau 16 (Kayle 1v9)", "reason": "Une seule source, vidéo de 2023 ; à vérifier en jeu." },
+    { "idea": "Vidéos kerberos et EcoreLoL", "reason": "Ouvertes, aucun combo ni astuce mécanique exploitable." }
+  ],
+  "toVerifyInGame": [
+    "Autos à moins de 175 unités contre le Mur de vent de Yasuo après le niveau 6.",
+    "Baron et Drake touchables depuis l'autre côté du mur au niveau 16."
+  ]
+}

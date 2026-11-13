@@ -1,0 +1,27 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Upon taking death [fatal damage], Karthus enters a zombie state for 7 seconds, during which he can cast his abilities at no cost. If Defile has been learned, it will remain toggled on for Death Defied's entire duration. Requiem becomes disabled after 4 seconds of the duration have elapsed.",
+    "While under this state, Karthus becomes untargetable and cc-immune as well as prevents all incoming damage, but is also rendered unable to move, declare basic attacks, use summoner spells, and activate items.",
+    "Karthus cannot be executed by the during Death Defied.",
+    "Karthus conjures a blast at the target location that detonates after, granting sight of the area and dealing magic damage to all enemies within, when only one target is struck.",
+    "Enemies that touch the wall are inflicted with 25% magic resistance reduction and become slowed for 5 seconds, decaying over the duration.",
+    "Toggling Defile off triggers a final tick of damage.",
+    "Karthus channels for 3 seconds, then deals magic damage to all targetable enemy champions upon completion.",
+    "Requiem's channel is telegraphed to all enemy champions by a beam of light that descends on all targets, including if they are untargetable or even dead.",
+    "For a combo, turn on E and then W on the opponent, which is very important for lowering their magic resistance. After that, just spam Q, but be sure to right-click to also auto-attack. Then either kill them or, if you die, use two or three more Qs and your ultimate.",
+    "when an enemy champion is within your E range, first take E, then W, Q, auto- Q, and just keep using auto-Q until the end of the exchange. If they are further away, out of range of your E, you need to start with your W, then Q, activate E when they are in range, then do auto Q again",
+    "If you want to steal Baron on Carthus, what you want to do is Q flash smite by queuing first, getting the isolated Q on Baron, and then flash smiting it. They will never expect your damage",
+    "hold your W instead of using it uh early and just wait for the enemy to flash and then you use your W to secure a free kill with your slow."
+  ],
+  "rejected": [
+    { "idea": "Lancer Dévastation (A) par-dessus le mur sur les larves, le Héraut ou les Krugs (Karhus)", "reason": "Une seule source, aucune note wiki ; à confirmer." },
+    { "idea": "Placer Dévastation (A) là où l'ennemi s'arrête pour t'auto-attaquer (Karhus)", "reason": "Conseil de visée d'une seule source, sans mécanique vérifiable." },
+    { "idea": "Requiem touche les clones (Shaco, LeBlanc...)", "reason": "Note wiki vraie mais peu utile en jeu." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte de Requiem (R) pendant Déni de mort : bloqué après 4 s sur 7, la canalisation de 3 s doit commencer avant.",
+    "Timing du dernier tick de Souillure (E) à la désactivation sur un ennemi qui sort de la zone."
+  ]
+}

@@ -81,18 +81,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Jax (4 combos, 7 astuces)
 - ✅ Jayce (3 combos, 6 astuces)
 
-### Lot 6 — ⏳
+### Lot 6 — ✅
 
-- ⏳ Jhin
-- ⏳ Jinx
-- ⏳ Kaisa
-- ⏳ Kalista
-- ⏳ Karma
-- ⏳ Karthus
-- ⏳ Kassadin
-- ⏳ Katarina
-- ⏳ Kayle
-- ⏳ Kayn
+- ✅ Jhin (2 combos, 8 astuces)
+- ✅ Jinx (2 combos, 8 astuces)
+- ✅ Kaisa (3 combos, 8 astuces)
+- ✅ Kalista (3 combos, 7 astuces)
+- ✅ Karma (2 combos, 8 astuces)
+- ✅ Karthus (4 combos, 7 astuces)
+- ✅ Kassadin (4 combos, 7 astuces)
+- ✅ Katarina (4 combos, 8 astuces)
+- ✅ Kayle (2 combos, 7 astuces)
+- ✅ Kayn (3 combos, 7 astuces)
 
 ### Lot 7 — ⏳
 

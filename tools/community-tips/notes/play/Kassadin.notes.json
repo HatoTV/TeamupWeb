@@ -1,0 +1,30 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Kassadin is permanently ghosted and takes 10% reduced magic damage.",
+    "Kassadin fires an orb of void energy at the target enemy that deals magic damage and disrupts their ongoing channels. He also gains a shield that absorbs magic damage for 1.5 seconds.",
+    "The shield is granted at the start of the cast time.",
+    "Kassadin empowers his next basic attack on-hit within 5 seconds to have an uncancellable windup, gain range, deal increased bonus magic damage, and restore mana, with the restoration amount quintupled against champions.",
+    "Nether Blade will not grant mana if the attack is dodged or if it misses, but will do so if the attack is blocked.",
+    "Each time Kassadin or a nearby champion casts an ability, Force Pulse's current cooldown is reduced by 0.75 seconds.",
+    "He then gains a stack of Riftwalk for 15 seconds, refreshing on subsequent casts and stacking up to 4 times. For each stack, Riftwalk deals bonus magic damage at an increased mana cost.",
+    "Flash can be used during the cast time, allowing Kassadin to blink further away.",
+    "Pinging Riftwalk will additionally display the remaining duration of its stacks.",
+    "For combos, your basic go-to is to Q into E before attacking into your auto attack reset of W. From here, just attack away. And your all-in is to ultimate into attack and reset with W. From here, E and Q before attacking away, ultting whenever you can.",
+    "you can even get away with overextending with so many jumps over so many walls. Wait until the fight starts, then alt over terrain onto the enemy backline.",
+    "If you can slow down and approach, do an auto attack, W, then Q and move away with R. that's the combo.",
+    "Now I'm standing by the wall because I can go through it with the rift-ox.",
+    "throw a Q at me, I'm going to try to block it with my Q.",
+    "La première c'est le R flash. Si vous voulez tuer quelqu'un, faites pas flash R, d'accord ? Vous mettez là et vous faites R flash surprise, c'est beaucoup mieux.",
+    "mon que cancelle les canalisations. Ça veut dire que si quelqu'un TP devant vous, par exemple, vous lui mettez un cpel, ça cancelle sa TP."
+  ],
+  "rejected": [
+    { "idea": "Pulsation (E) puis Flash pendant l'incantation (Narckez : « pareil avec le E »)", "reason": "Une seule source, pas de note wiki sur Flash pendant l'incantation de Pulsation." },
+    { "idea": "Vidéo Only Challengers « Kassadin - Combos »", "reason": "Pas de sous-titres anglais disponibles ; non utilisée." }
+  ],
+  "toVerifyInGame": [
+    "Fissure-Flash : fenêtre exacte de Flash pendant les 0,25 s d'incantation de Fissure (R).",
+    "Bouclier d'Orbe du Néant (A) contre un sort magique qui arrive : timing serré, à tester."
+  ]
+}

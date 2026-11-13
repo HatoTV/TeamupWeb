@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Her and nearby allies' immobilizing effects and polymorphs against enemy champions will also apply a stack of Plasma.",
+    "Kai'Sa releases a swarm of 6 missiles that evenly distributes among nearby visible enemies, each one hitting their target after 0.4 seconds to deal physical damage.",
+    "Icathian Rain acquires its targets upon cast. Moving will not change its targets.",
+    "Charging Supercharge will not stop the missiles from firing.",
+    "Void Seeker applies 3 Plasma instead and refunds 75% of its cooldown if it hits an enemy champion.",
+    "Supercharge's current cooldown is reduced by 0.5 seconds on-attack.",
+    "Her attack commands during this time are switched to movement commands instead.",
+    "Kai'Sa behaves normally if attack move click was issued not on a target during the cast time, stopping at attack range of the closest target and starts attacking when charged up.",
+    "Kai'Sa grants herself a shield for 2 seconds and dashes to a target location near a visible enemy champion that was affected by Plasma within the last 4 seconds. The shield's duration is refreshed when the dash ends.",
+    "Killer Instinct resets Kai'Sa's basic attack timer. Kai'Sa can cast any of her abilities during the dash.",
+    "The enemy champion recently affected by Plasma must be in range of Kai'Sa for the targeted location to be valid, and not the targeted location itself.",
+    "The projectiles are split between each enemy. So, if it's an isolated target, this deals massive damage.",
+    "for combos E into an attack and Q. From here, attack into W before attacking away using alt as needed. And your go-in combo is slam W into alt. From here, attack into Q and E before attacking away.",
+    "If they're able to go in with hard CC to apply plasma, you can start bursting out enemies.",
+    "You can cast Q and E simultaneously. As long as you press Q first, but if you use your E before Q, the combo won't work.",
+    "You can dive in with your ultimate and if your E is evolved, you will go invisible right after you land.",
+    "you basically dive in, shoot your Q midair, and vanish instantly.",
+    "your R actually resets your auto attack because it cancels the animation.",
+    "Even if you're at max range from your mark target, you can still ult right on the edge of the killer instinct range",
+    "So, don't instantly ult in after landing your first W. Instead, wait a little. Let your cooldown almost reset, then go in.",
+    "You can cast W midair and it looks like a fake missile.",
+    "W during your old dash is another mechanic you must perfect. If done properly, you get a guaranteed W hit",
+    "for example on level 16 Kais dashing from max range, you need to wait a bit before casting it."
+  ],
+  "rejected": [
+    { "idea": "Flash puis Rayon du Néant (Z) pour garantir le tir", "reason": "Une seule source (Neon LOL), rien dans le wiki." },
+    { "idea": "Annuler une compétence ciblée (ult de Nocturne, A de Kha'Zix) avec l'invisibilité de Surpresseur (E) évolué", "reason": "Une seule source (Neon LOL), non confirmé par le wiki." },
+    { "idea": "Annuler l'animation d'évolution en lançant un sort ou le rappel au moment du gain de stat", "reason": "Une seule source (BIZYZE), le wiki ne parle que d'un temps d'incantation de 2 s." },
+    { "idea": "Surpresseur (E) juste après une auto pour annuler l'animation", "reason": "Une seule source (BIZYZE)." },
+    { "idea": "Hitbox de Rayon du Néant (Z) plus large qu'affiché", "reason": "Une seule source, non vérifiable." }
+  ],
+  "toVerifyInGame": [
+    "Ordre Pluie d'Icathia (A) puis Surpresseur (E) : BIZYZE affirme que l'ordre inverse ne marche pas.",
+    "Timing de Rayon du Néant (Z) pendant le dash d'Instinct meurtrier (R) depuis la portée max."
+  ]
+}

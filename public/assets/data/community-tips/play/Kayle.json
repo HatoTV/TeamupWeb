@@ -1,0 +1,90 @@
+{
+  "champion": "Kayle",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade de base", "en": "Basic trade" },
+      "keys": ["W", "Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Bénédiction céleste (Z) pour la vitesse, Incandescence (A) pour ralentir et réduire ses résistances, une auto, puis Lame de feu stellaire (E) pour reset ton auto.",
+        "en": "Celestial Blessing (W) for the speed, Radiant Blast (Q) to slow and shred their resistances, an auto, then Starfire Spellblade (E) to reset your auto."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Poke à distance avant 6", "en": "Ranged poke before level 6" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Encore au corps à corps, touche avec Incandescence (A) puis lance Lame de feu stellaire (E) : son attaque part à 525 de portée, sans t'exposer.",
+        "en": "Still melee, land Radiant Blast (Q) then use Starfire Spellblade (E): its attack fires from 525 range without exposing you."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Après le niveau 6, tes autos à moins de 175 unités gardent l'animation de mêlée, sans projectile. Le Mur de vent de Yasuo ne les bloque pas : colle-le.",
+        "en": "After level 6, your autos within 175 units keep the melee animation, with no projectile. Yasuo's Wind Wall can't block them: stay close to him."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Avant le niveau 16, lancer Jugement divin (R) relance la durée de tes charges d'Ascension divine. Tu ne perds pas ta vitesse d'attaque pendant l'ult.",
+        "en": "Before level 16, casting Divine Judgment (R) refreshes your Divine Ascent stacks. You don't lose your attack speed during the ult."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bénédiction céleste (Z) te soigne toujours. Lancée sans cible, elle soigne aussi l'allié proche le plus bas en PV : pas besoin de viser.",
+        "en": "Celestial Blessing (W) always heals you. Cast without a target, it also heals the nearby ally with the lowest health: no need to aim."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le portail d'Incandescence (A) reste en place : l'épée part même si tu meurs ou si tu es déplacée pendant l'incantation.",
+        "en": "The Radiant Blast (Q) portal stays in place: the sword still fires even if you die or get displaced during the cast."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Jugement divin (R) vise un allié en priorité si vos zones de clic se chevauchent. Pour t'ult toi-même en mêlée, utilise l'auto-cast.",
+        "en": "Divine Judgment (R) prioritizes an ally when your click areas overlap. To ult yourself in a melee scramble, use self-cast."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les effets de Jugement divin (R) continuent même si la cible meurt : la pluie d'épées tombe quand même après 2,5 s.",
+        "en": "Divine Judgment's (R) effects carry on even if the target dies: the rain of swords still falls after 2.5 s."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Dès le niveau 11, chaque vague de feu lance son propre jet de critique, séparé de celui de ton auto. Les deux peuvent critiquer ou non.",
+        "en": "From level 11, each fire wave rolls its own critical strike, separate from your auto's. Either one can crit or not."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Kayle – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Kayle", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "5 Mechanics For Kayle You Probably Didn’t Know About", "url": "https://www.youtube.com/watch?v=tSVY4BTDojA", "type": "video", "date": "2023-11-18", "author": "Kayle 1v9" },
+    { "title": "3 Minute Kayle Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=i27A6fhuMoY", "type": "video", "date": "2026-05-21", "author": "3 Minute League of Legends" }
+  ]
+}

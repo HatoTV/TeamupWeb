@@ -1,0 +1,120 @@
+{
+  "champion": "Katarina",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court avec sortie", "en": "Short trade and out" },
+      "keys": ["Q", "E", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lame rebondissante (A) sur la cible, Shunpo (E) sur elle et une auto, puis ramasse la dague. Le ramassage recharge presque Shunpo (E) : ressors aussitôt sur un sbire.",
+        "en": "Bouncing Blade (Q) on the target, Shunpo (E) onto them and an auto, then pick up the dagger. The pickup almost refreshes Shunpo (E): blink out on a minion right away."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Engage Shunpo-Préparation", "en": "Shunpo Preparation engage" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Shunpo (E) sur la cible et Préparation (Z) tout de suite, une auto, puis Lame rebondissante (A) et Lotus mortel (R). La dague de Préparation tombe sur lui et te laisse un second engage s'il Flash.",
+        "en": "Shunpo (E) onto the target and Preparation (W) right away, an auto, then Bouncing Blade (Q) and Death Lotus (R). The Preparation dagger lands on them and gives you a second engage if they Flash."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Shunpo-Flash longue portée", "en": "Long-range Shunpo Flash" },
+      "keys": ["E", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Shunpo (E) hors de portée puis Flash aussitôt : le Flash te met à portée et le Shunpo part dans la foulée. Toujours Shunpo avant Flash, jamais l'inverse.",
+        "en": "Cast Shunpo (E) out of range then Flash right away: the Flash puts you in range and the Shunpo goes off right after. Always Shunpo before Flash, never the reverse."
+      },
+      "refs": [2, 3]
+    },
+    {
+      "name": { "fr": "Lotus coupé au bon moment", "en": "Well-timed Lotus cancel" },
+      "keys": ["R", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Bouger ou lancer un autre sort coupe Lotus mortel (R). Quand la cible va sortir de portée, interromps l'ult avec Shunpo (E) sur une dague pour finir le kill.",
+        "en": "Moving or casting another spell cancels Death Lotus (R). When the target is about to leave range, break the ult with Shunpo (E) onto a dagger to finish the kill."
+      },
+      "refs": [1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Si une dague ou une cible touche un mur, vise Shunpo (E) de l'autre côté : tu passes par-dessus le mur.",
+        "en": "If a dagger or a target is right against a wall, aim Shunpo (E) on the far side: you blink over the wall."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Collée à un mur fin, lance Préparation (Z) puis Shunpo (E) tout de suite de l'autre côté : tu le traverses sans Flash.",
+        "en": "Pressed against a thin wall, cast Preparation (W) then Shunpo (E) right away to the other side: you cross it without Flash."
+      },
+      "refs": [1, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Shunpo (E) marche sur toute unité sauf bâtiments et balises : alliés, monstres, plantes. Utilise-les pour fuir ou recoller.",
+        "en": "Shunpo (E) works on any unit except structures and wards: allies, monsters, plants. Use them to escape or to stick."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux lancer Shunpo (E) sur une dague encore en l'air : sa zone s'affiche avant qu'elle touche le sol.",
+        "en": "You can cast Shunpo (E) on a dagger still in the air: its area shows before it hits the ground."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lame rebondissante (A) laisse sa dague derrière la cible, du côté opposé à toi. Place-toi pour qu'elle tombe sur sa route de fuite.",
+        "en": "Bouncing Blade (Q) drops its dagger behind the target, on the side away from you. Position so it lands on their escape path."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lotus mortel (R) ne vise que les 3 champions les plus proches et demande un ennemi à moins de 500 unités pour être lancé.",
+        "en": "Death Lotus (R) only targets the 3 closest champions and needs an enemy within 500 units to be cast."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort ne bloque qu'une seule dague de Lotus mortel (R) : le reste de l'ult passe.",
+        "en": "A spell shield blocks only one Death Lotus (R) dagger: the rest of the ult goes through."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Voracité : un kill ou une assist dans les 3 s après tes dégâts retire 15 s à tes CD, même si tu meurs juste après.",
+        "en": "Voracity: a kill or assist within 3 s of your damage takes 15 s off your cooldowns, even if you die right after."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Katarina – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Katarina", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "KATARINA MECHANICS/COMBOS GUIDE 2026 │ Step-By-Step INTRODUCTION │ League of Legends │", "url": "https://www.youtube.com/watch?v=rr1oyFXy6LQ", "type": "video", "date": "2026-05-10", "author": "MOREACEE1" },
+    { "title": "KATARINA GUIDE: TIPS, TRICKS & COMBOS | SEASON 15", "url": "https://www.youtube.com/watch?v=oL0nAGhcTx8", "type": "video", "date": "2023-12-20", "author": "Nyro" },
+    { "title": "TOUTES les BASES de KATARINA en UNE VIDÉO", "url": "https://www.youtube.com/watch?v=MwlxnQZqTr8", "type": "video", "date": "2024-12-25", "author": "FlashShad0w" }
+  ]
+}

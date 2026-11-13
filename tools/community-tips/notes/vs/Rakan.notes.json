@@ -1,0 +1,123 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] now in this matchup I'm able to do level one W but in some matchups you have to wait till level two so you can get the e and w BR the electrocute e out",
+    "[0] the que should be like is important to keep sustain",
+    "[0] at level two I'm going to try to spam qes to heal up the Samir and heal up myself as well",
+    "[0] rakan is still one of the best supports at peeling the W the Q the e in E out",
+    "[0] I'm going to decide to open mid lane opening mid lane is always like a decent decision because you can always like give a reset to your M laner look for a fight",
+    "[0] this is what you want to do with Rak and you want to be like this annoying Champion that is around the river in skirmishes",
+    "[0] now once I get level six it's going to get extra fun because I will be able to punish Bing 100% And I'm getting my power Spike",
+    "[1] c'est pas quand je vais appuyer sur R que le fight va commencer, mais c'est largement avant quand je serai hors vision et que j'auraiis tout préparé.",
+    "[1] je mets ma souris sur elle, je flashine avec mon RW, je la cesse, je recule pour que le charme la ramène vers nous.",
+    "[1] Même si les combos de Racan sont assez simples, c'est impossible à éviter si vous positionnez sur le côté parce que le Racan va exceller sur les flanques et pas forcément sur les engages de face.",
+    "[2] Niveau 2, il va commencer à prendre son Z et son E et ça va donc lui permettre d'avoir une engage et une disengage très rapide.",
+    "[2] Parce que Rakan je vais re-jump sur mon pote. Aller-retour sans aucun problème. J'ai tenté, c'est pas passé, mais je repars.",
+    "[2] Vraiment, ce que vous devez comprendre, c'est que Rakan c'est un excellent champion pour pouvoir roam.",
+    "[2] les ennemis après, quand tu vas roam, ne vont pas forcément savoir s'ils sont dans le buisson et tu vas en profiter.",
+    "[2] tu vas commencer par le R dès que tu veux atteindre quelqu'un, tu vas arriver à le clore le cause gap avec ton Z pour pouvoir le CC",
+    "[2] la distance qu'il y avait entre vous n'a jamais été assez courte pour arriver à caler ton sort, être immobile puis mettre le bump. La personne a le temps de sortir du sort et partir.",
+    "[2] Tu as un outil en lane qui est hyper pratique. Ça s'appelle les bushes.",
+    "[2] tu commences à reculer puis faire ça en faisant croire que tu es en train de faire une décale mid alors que tu vas dans le bush."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "5vy_j-X_tU8",
+      "channel": "Coach K",
+      "result": "utilisé (passages 3:48-4:01, 4:21, 6:26, 7:56, 10:33, 12:21-12:44) ; guide Rakan du 2025-02-13 (21 mois)"
+    },
+    {
+      "id": "hywALCVj9Fg",
+      "channel": "Hyuwasuto",
+      "result": "utilisé (passages 0:50, 5:46, 6:11) ; Master FR, 2026-02-01"
+    },
+    {
+      "id": "dQl5JCOoi_A",
+      "channel": "EXYT - League of Legends",
+      "result": "utilisé (passages 1:20, 2:30, 4:59, 13:12-13:18, 15:27-16:36) ; GM/Chall FR, 2026-01-29"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "lvl 6 : R pour la vitesse puis Z (souvent Flash) = engage de loin",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "E = sa sortie après le Z ; E en CD (20/18/16/14/12 s) = il reste bloqué, punir",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (RakanE : dash vers un allié, recast, CD 20/18/16/14/12 dans effectBurn)"
+    },
+    {
+      "idea": "lvl 2 : Z + E = engage et retour immédiat, respecter s'il a le lvl 2 en premier",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Rakan engage depuis les buissons / hors vision : warder les buissons",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Rakan roam mid et rivière : ping et ward rivière",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Soin de la Rémige rayonnante (A) seulement si elle touche un champion : jouer derrière les sbires",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (RakanQ : premier ennemi touché, soin si champion ou monstre épique)"
+    },
+    {
+      "idea": "Z : projection à l'arrivée du saut, esquivable de côté s'il part de loin",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (RakanW : dash puis spirale en l'air, knock-up)"
+    },
+    {
+      "idea": "Janna, Poppy, Alistar cassent son engage : garder son repoussement pour son saut",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, pas une mécanique de Rakan vérifiable"
+    },
+    {
+      "idea": "Rakan inutile si son équipe n'a pas de dégâts",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, pas actionnable pour l'adversaire"
+    }
+  ]
+}

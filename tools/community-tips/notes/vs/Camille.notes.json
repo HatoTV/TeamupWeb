@@ -1,0 +1,154 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Voyez là, le premier objectif, c'est de lui faire perdre son passif.",
+    "[1] It periodically grants you a shield when attacking enemy champions that changes type based on the damage type they have done to you most that game.",
+    "[1] Once you have a freeze, look to trade every time your passive is up to build a health lead",
+    "[1] Camille's trading revolves entirely around her passive.",
+    "[1] It supports your weak early game with extra trading power and sustain.",
+    "[1] It's also important to get a lead before level six specifically, because post six opponents gain access to their ultimates",
+    "[1] Camille is heavily item reliant, so the gap closes a lot faster than you think it will.",
+    "[1] If you're unsure, it's best to hold your E. It's your only real escape tool and burning it for a trade while the jungler is unaccounted for can get you killed very, very quickly even when close to your tower.",
+    "[1] The goal is simple. You bait out a key enemy ability, think Darius Q, Mordekaiser E, Irelia E, then immediately punish with your E, Q, and W outer edge.",
+    "[1] It's an empowered basic attack that can be recast after the first with it dealing true damage if the second cast is done after 1.5 seconds.",
+    "[1] The outer part of this ability does bonus damage, heals you and slows opponents.",
+    "[1] You jump on a champion and prevent them from leaving a certain area for a couple of seconds. It's the ultimate lockdown tool as it's impossible to escape by any means.",
+    "[1] Camille works best near walls, so your primary goal early is to either freeze the wave or slow push a large wave into the enemy. Being close to walls dramatically increases your trading potential due to how your E works.",
+    "[2] the one to three is not too bad but level three onwards until she has Triforce can be really brutal for her",
+    "[2] Now versus camil if you use your CC just as her e hits the wall and pulls her away you'll completely cancel it so if you manage to crash a wave let it come back towards you and you can cancel her e disengage she's dead",
+    "[2] so you can see the pattern here you want to be punishing kimel's week early game",
+    "[2] her passive cool down sorry is very long early game levels 1 to six it's 18 seconds so there's going to be a lot of timers where you want to bait her to use passive and run away before you trade",
+    "[2] you don't want to QE her you want to gilster First just right click her Trade One auto each now her passive is down for 18 seconds then you want to go in with your combo"
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "L7KaHNwIqdY",
+      "channel": "pricks",
+      "result": "utilisé (passage 5:11) ; surtout du stream, peu de conseils explicites"
+    },
+    {
+      "id": "wtw3AIJbUok",
+      "channel": "Torqen",
+      "result": "utilisé (passages 1:44-2:47, 4:06, 7:31-9:51) ; guide Camille, conseils déduits de son point de vue"
+    },
+    {
+      "id": "l8vZCDhT9JE",
+      "channel": "Coach Chippys",
+      "result": "utilisé (chapitre Camille 50:10-52:18)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Faire sortir son bouclier passif avec un court échange, puis engager pendant le CD",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Camille faible tôt et dépendante des objets : jouer agressif lvl 1-5",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Son E est sa seule fuite : punir quand elle l'utilise pour engager",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Garder son CC pour son E, elle cherche à baiter le sort clé",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Q2 renforcée et dégâts bruts si retardée : reculer après le premier Q",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (recast retardé : dégâts accrus, part convertie en dégâts bruts)"
+    },
+    {
+      "idea": "W : bord extérieur ralentit et soigne Camille",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (moitié extérieure : ralentissement, dégâts bonus, soin)"
+    },
+    {
+      "idea": "R : zone dont on ne peut sortir par aucun moyen",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (« cannot escape by any means »)"
+    },
+    {
+      "idea": "E doit s'accrocher au terrain : échanger loin des murs",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (« attaches to terrain »)"
+    },
+    {
+      "idea": "Un CC pendant la traction du E annule le E",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, annulation non vérifiable dans DDragon (seule l'idée « garder son CC pour son E » est gardée)"
+    },
+    {
+      "idea": "CD du passif de 18 s en early",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: chiffre absent de DDragon (tip passif gardé sans chiffre)"
+    },
+    {
+      "idea": "Forcer les premiers fights de larves",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (macro)"
+    },
+    {
+      "idea": "Camille évite les 5v5 et split push",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (macro)"
+    },
+    {
+      "idea": "R intouchable et interrompt les canalisations",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: vérifié DDragon mais limite de 8 tips"
+    }
+  ]
+}

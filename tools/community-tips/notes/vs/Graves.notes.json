@@ -1,0 +1,132 @@
+{
+  "searches": 7,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] And because you're slower on clearing camps unless you have gold and have items. That's how like graves should kind of work. You kind of need items to be able to clear faster",
+    "[0] XP doesn't really matter on you. You need gold.",
+    "[0] they just can't deal with Graves' power early game and these champions are very weak in early game and or they want to cheese, but Graves is strong level one. So, you can't just cheese the Graves.",
+    "[1] what people have to understand this champ is like it's very Farm heavy this Champion you kind of need to recycle your camps permanently",
+    "[1] but if you mess up gangs or you trade kills and you don't Psy your camps properly this champ can be a bit bad",
+    "[1] the main strength of this Champion is playing against Champs Champions that run into you if you play against Champs that run into you you're having a blast if you play against Champs like Zyra just Champs that can guide you like Mel the outrange room you're not having a good time",
+    "[1] if you alt attack e you can actually get cool Downs off",
+    "[1] if you place a smoke screen he's usually going to run right so if he smoke screen he's almost always going to run in a straight Direction so try to pure smoke screen and Q at the same time",
+    "[2] your E reloads a shell. The best Graves players in the world play with three shells because their E resets or reloads a shell.",
+    "[2] The reason why W is also good is because it will slow them. So, it increases your chances to land Q as well here",
+    "[2] your Q is going to rebound immediately off terrain.",
+    "[2] It allows us to queue against terrain. And why is it more likely to land? Because the Sett is blinded and also slowed initially.",
+    "[2] your ultimate is pushing you away from the enemy champions",
+    "[3] First of all, because it's Graves champion specific strength. You're really good level one with the spacing. Look how I kited the Talon, right?",
+    "[3] Now is the time to farm and consume."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "9ch7jfGoRj4",
+      "channel": "Kaido Jungle",
+      "result": "utilisé (passages 7:20-8:10, 9:47-10:30) : Graves fort au lvl 1, dépend du gold pour clear"
+    },
+    {
+      "id": "SDTC-5NPvNA",
+      "channel": "Coach Kirei",
+      "result": "utilisé (passages 3:10-5:20, 5:44-8:30) : identité farm, faiblesse face au kite, E/autos, fumée + A"
+    },
+    {
+      "id": "W3oL4c3yS2o",
+      "channel": "Eagz",
+      "result": "utilisé (passages 3:36-4:20, 5:54-6:50, 8:18-9:20) : E recharge, A sur terrain, fumée, R qui le repousse"
+    },
+    {
+      "id": "-Wzz-1n7Pac",
+      "channel": "Sinerias",
+      "result": "utilisé (passages 0:57, 12:11) : fort au lvl 1 avec l'espacement, farm"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Fumée (Z) ralentit/aveugle ; il enchaîne A dans ta direction : sors en changeant de direction",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z : nuage 4 s, ralentit, bloque la vision ; A explose après 1 s)"
+    },
+    {
+      "idea": "Ses autos réduisent le CD de E, qui recharge une cartouche : ne lui donne pas d'autos gratuites",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E : recharge une cartouche, chaque balle touchée réduit le CD)"
+    },
+    {
+      "idea": "Graves très fort au lvl 1, envahit : refuse le 1v1 early si ton champion est faible",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Il adore les champions qui lui foncent dessus, souffre contre ceux qui le kitent/outrange",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (Kirei explicite ; Sinerias : force = espacement, il kite le Talon)"
+    },
+    {
+      "idea": "Dépend du farm/gold : vole ses camps, fais rater ses ganks",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "A explose immédiatement contre un mur : reste loin des murs",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (détonation après 1 s ou au contact du terrain)"
+    },
+    {
+      "idea": "R frappe le premier ennemi puis explose en cône derrière, repousse Graves",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (description : explosion en cône ; tooltip : le projette en arrière)"
+    },
+    {
+      "idea": "Les tours comptent comme du terrain pour son A",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans DDragon (le tooltip dit seulement terrain)"
+    },
+    {
+      "idea": "Son R fait peu de dégâts à longue portée",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, réduction de dégâts non chiffrée dans DDragon"
+    },
+    {
+      "idea": "Graves manque d'outils pour engager seul, dépend du setup de ses alliés",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (idée lane/macro)"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] right now is that you are going to E yourself. You are going to use E right now on top of you. Now you are going to use one auto attack. So you are getting the slow and once he's slow you are going to get a really easy queue.",
+    "[0] Also, you can give the E to your ally and make your ally slow for you and then hit your Q. So, be or very patient with your Q's or enemy CC and slowed makes it super easy.",
+    "[0] the essence of Nami is that you are losing so much mana early game and your abilities cost a lot.",
+    "[0] But in early game the before your first base is going to be very difficult to like make sure that you are not out of mana",
+    "[0] The W double bounce I call it. Well, it's the W double bounce. Anyways, you want to W one target. Make sure that once you W the brown here, for example, you step up here. So, you get the bounce and the second bounce, it hits the Samira",
+    "[0] you are so squishy that you get one shot and Nami doesn't have great tools to survive",
+    "[0] Koga is a very he has no dashes, right? He has no mobility. So it's easier for me to do it.",
+    "[1] Nami, c'est un personnage qui mange un peu de mana dans les games. Ça va aller en led game parce que globalement, vous avez beaucoup de régen de mana qui arrivent. Mais faites gaffe à pas vider votre barre de manage juste pour le plaisir.",
+    "[1] Vous essayez de mettre des autos et tant qu'on vous répond pas, c'est bon. Vous cherchez à ne jamais vous faire agresser par l'adversaire et c'est ça qui va fonctionner.",
+    "[1] Bulle toujours la bulle sur la personne qui vient de se faire ralentir par le R parce que c'est garanti.",
+    "[1] Catarina qui va tuer la Nami parce que dès que vous êtes en danger avec Nami, je l'ai dit, vous mourrez, vous êtes une chips.",
+    "[2] Nautilus missed hook so I can walk up there.",
+    "[2] Waiting for my mana flow band before I trade this.",
+    "[2] Nautilus no hook can walk up. We have a very big wave. Scary. Just kind of holding my mana here.",
+    "[2] I was going to say like I can't quue until she ults cuz even then like it's really hard for me to land that.",
+    "[3] essentially the wave will bounce and affect up to three targets alternating between damaging enemies and healing allies whilst never affecting the same target twice",
+    "[3] make sure you bear this in mind when you go in for trades try to position yourself so the extra bounces don't hit your teammate or heal nami's lane partner",
+    "[3] nami's e is a targeted buff that gives herself or her ally bonus magic damage on the next three basic attacks or abilities whilst also applying a slow for a short duration",
+    "[3] once you see that initial curse you can just back off and wait for it to time out",
+    "[3] nami's q and ultimate both offer a great amount of cc try to avoid getting hit by one as this will easily let her land another",
+    "[3] anti-healing items are by far your best bet with nami's ability to output a ton of healing during team fights items that apply grievous wounds will be a massive help"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "HBda0lRLHz0",
+      "channel": "Coach K",
+      "result": "utilisé (passages 15:07-19:30, 19:47-20:00, 23:33-24:31, 30:25) ; guide Nami (point de vue Nami), 2025-05-06"
+    },
+    {
+      "id": "oV9X_vSBB-E",
+      "channel": "Lelariva",
+      "result": "utilisé (passages 03:50-04:02, 09:49-10:08, 20:35, 26:26) ; voix FR, 2026-08-14"
+    },
+    {
+      "id": "gEQn934OxwY",
+      "channel": "ShoDesu",
+      "result": "utilisé (passages 01:44, 02:32-02:54, 14:44) ; Challenger Nami, 2025-06-23"
+    },
+    {
+      "id": "E6B0VgFjQV0",
+      "channel": "Mobalytics",
+      "result": "utilisé pour mécaniques vérifiées DDragon seulement (2022-02-12, > 2 ans) : passages 02:00-02:35, 03:54, 05:38 ; affirmation « knock-up minimal de près » écartée (contredite : knock-up fixe 0,5 s en 16.22.1)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Ralenti (R, E, CC de l'ADC) => la bulle A suit, 1,5 s de stun",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources ; DDragon : E et R ralentissent, A stun 1,5 s (effectBurn)"
+    },
+    {
+      "idea": "Nami en manque de mana avant le premier back",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources récentes"
+    },
+    {
+      "idea": "Z rebondit ennemi/allié : s'écarter de son duo",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (rebonds alternés, chaque champion touché une fois)"
+    },
+    {
+      "idea": "Nami très fragile, sans dash : engage sur elle quand elle s'avance",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes ; DDragon : aucun dash dans le kit"
+    },
+    {
+      "idea": "Garder son engage : Nami avance dès qu'il est en CD",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "A ciblée au sol : garder son dash, ratée souvent sur cible mobile",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Mobalytics aussi, non comptée car > 2 ans)"
+    },
+    {
+      "idea": "E sur l'ADC : 3 attaques/sorts qui ralentissent, reculer jusqu'à la fin du buff",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (hitcount 3, ralentissement)"
+    },
+    {
+      "idea": "Anti-heal contre les soins du Z",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z soigne les alliés) ; exception anti-heal sans nommer d'objet"
+    },
+    {
+      "idea": "Bulle lancée depuis un buisson invisible : warder les buissons",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, pas une mécanique vérifiable"
+    },
+    {
+      "idea": "Knock-up du R plus court si touché de près",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: contredit par DDragon 16.22.1 (knock-up fixe 0,5 s)"
+    },
+    {
+      "idea": "Nami forte en mid game, la tuer avant les fights",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: macro avec une seule source > 2 ans"
+    }
+  ]
+}

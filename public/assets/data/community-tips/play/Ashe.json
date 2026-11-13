@@ -1,0 +1,91 @@
+{
+  "champion": "Ashe",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, reset, Salve", "en": "Auto, reset, Volley" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Avec 4 charges, place une auto puis Concentration du ranger (A) pour réinitialiser ton attaque, et Salve (Z) dans la foulée. Un trade court sans perdre une seule seconde d'attaque.",
+        "en": "With 4 stacks, land an auto then Ranger's Focus (Q) to reset your attack, and Volley (W) right after. A short trade without losing a single second of attacking."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Engage à la Flèche", "en": "Arrow engage" },
+      "keys": ["R", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Flèche de cristal enchantée (R), une auto, Salve (Z), puis encore quelques autos avant de lancer Concentration du ranger (A) juste après une attaque pour la réinitialiser.",
+        "en": "Land Enchanted Crystal Arrow (R), one auto, Volley (W), then a few more autos before casting Ranger's Focus (Q) right after an attack to reset it."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Concentration du ranger (A) marche aussi sur les tourelles : active-la juste après une auto pour réinitialiser ton attaque et descendre la tourelle plus vite.",
+        "en": "Ranger's Focus (Q) also works on turrets: cast it right after an auto to reset your attack and take the turret down faster."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Les charges de Concentration du ranger (A) durent 4 s, puis tombent une par une. Tape un sbire pour les garder avant d'engager un trade.",
+        "en": "Ranger's Focus (Q) stacks last 4 s, then drop one by one. Hit a minion to keep them before you start a trade."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les réductions de dégâts fixes (Amumu, Fizz, Leona) s'appliquent à chacune des 5 flèches de Concentration du ranger (A) : contre eux, ton burst fond bien plus que prévu.",
+        "en": "Flat damage reductions (Amumu, Fizz, Leona) apply to each of the 5 arrows of Ranger's Focus (Q): against them, your burst drops far more than expected."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Avec l'Ouragan de Runaan, Concentration du ranger (A) transforme aussi chaque carreau bonus en salve de 5 flèches, réparties entre les cibles.",
+        "en": "With Runaan's Hurricane, Ranger's Focus (Q) also turns every bonus bolt into a flurry of 5 arrows, spread across the targets."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Plus Flèche de cristal enchantée (R) voyage loin avant de toucher un champion, plus le stun dure. Un tir de très loin immobilise donc plus longtemps.",
+        "en": "The farther Enchanted Crystal Arrow (R) travels before hitting a champion, the longer the stun. A very long shot locks the target for longer."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tes coups critiques doublent le ralentissement de Tir givrant, qui revient à sa force normale en 1 s.",
+        "en": "Your critical strikes double the Frost Shot slow, which decays back to its normal strength over 1 s."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un champion invisible jusque-là et repéré par Rapace (E) te donne une assistance s'il meurt peu après.",
+        "en": "A champion that was unseen and gets revealed by Hawkshot (E) gives you an assist if they die shortly after."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Ashe – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Ashe", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "How Pro Players ACTUALLY Play Ashe - Ultimate Champion Guide", "url": "https://www.youtube.com/watch?v=eRTLiXvC0_o", "type": "video", "date": "2026-06-04", "author": "Crownie" },
+    { "title": "Advance Ashe Guide by a PRO player", "url": "https://www.youtube.com/watch?v=iHzA54f1Nyg", "type": "video", "date": "2025-03-09", "author": "Neon LOL" },
+    { "title": "3 Minute Ashe Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=hzKI5-YmUMs", "type": "video", "date": "2025-03-24", "author": "3 Minute League of Legends" }
+  ]
+}

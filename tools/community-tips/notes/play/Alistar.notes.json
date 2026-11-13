@@ -1,0 +1,43 @@
+{
+  "searches": 2,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Pulverize can be buffered during Headbutt to cast with reduced cast time when the dash ends.",
+    "Displacement immunity will also resist the application of the stun.",
+    "If they are within 400 units upon arrival, he deals them magic damage and knocks them back 700 units [Reduced to 200 units if Pulverize was buffered during the dash] over 0.5 seconds while also stunning them for 0.75 seconds.",
+    "Both the lower the dash distance and the larger Alistar and/or his target, the faster the dash becomes; this scales hyperbolically.",
+    "Headbutt can knock enemies through terrain. The knockback stops short on walls that cannot be surpassed but the disable duration is not changed.",
+    "Displacement immunity will not resist the application of the stun.",
+    "At 5 stacks, Alistar's next basic attack on-hit against a champion within 6 seconds ends Trample's effects to deal bonus magic damage and stun the target for 1 second.",
+    "The on-hit effect can be blocked by spell shield, but the attack cannot.",
+    "Alistar generates a stack of Triumph for each enemy champion he stuns or displaces with his abilities, and each time a nearby enemy minion or non-epic monster dies. He generates 7 stacks if a nearby enemy champion or epic monster dies.",
+    "At 7 stacks, Alistar consumes them all to heal himself for 5% of his maximum health and nearby allied champions for 7% of his maximum health.",
+    "Alistar cleanses himself of all crowd control. For the next 7 seconds, he reduces incoming damage.",
+    "True damage cannot be reduced by any means and will deal full damage to Alistar during Unbreakable Will.",
+    "being able to cancel your headbutt with your Q mid charge to knock people up from a distance",
+    "if you're next to a wall that you know that your opponent won't fly through when you headbutt them you can actually delay your queue for a while in order to crowd control them for a bit longer because the enemy will actually remain airborne and stunned through the duration that they are getting pushed through the air",
+    "another great Alistar trick is that you can cast Q then Flash and you'll knock up enemies at your new position",
+    "this is also much faster than your normal WQ combo and it's much less predictable",
+    "you can use alistar's W to Target players or Monsters over a wall to get into the fight faster",
+    "this ability is essentially just a dash that requires a Target you can use this ability to run away Dodge skill shots",
+    "For combos, start with W and press Q while dashing to immediately use it upon arrival. Use E then attack away until you can stun your opponent. If your opponent's near terrain, use E then go in with W to hit them into the terrain.",
+    "Follow up with Q to knock them up then attack them to stun them for a stupidly long CC chain.",
+    "vu que l'adversaire est collé à un mur, c'est comme s'il se prenait le bump. Il va être en en projectile collé au mur durant longtemps",
+    "quand quelqu'un est collé à un mur, c'est un bon match-up de pousser la personne sur le mur pour optimiser le CC",
+    "Vous pouvez très bien trouver un dash sur un creep et une rupture, vous pouvez très bien trouver un flash Q et pousser l'adversaire sous la tour."
+  ],
+  "rejected": [
+    { "idea": "Coup de tête sur un monstre de l'autre côté d'un mur pour le franchir", "reason": "Franchissement dit explicitement par une seule source (Red Shirt Plumber) ; gardé seulement comme dash ciblé, sans le mur." },
+    { "idea": "Coup de tête pour casser un bouclier magique puis Atomisation", "reason": "Source unique (Red Shirt Plumber) et astuce trop générique (vraie pour tout sort contre un bouclier magique)." },
+    { "idea": "Contre un champion mobile, retenir Atomisation pendant Coup de tête, puis Flash après son dash", "reason": "Source unique (Red Shirt Plumber)." },
+    { "idea": "Flash puis Coup de tête-Atomisation pour une portée d'engage maximale", "reason": "Source unique (Red Shirt Plumber)." },
+    { "idea": "Charger Piétinement sur un mêlée puis Coup de tête-Atomisation sur la backline pour un stun immédiat", "reason": "Source unique (Red Shirt Plumber)." },
+    { "idea": "« Domino » : bump une cible sur une autre", "reason": "Chapitre EXYT non lu en détail et absent du wiki." },
+    { "idea": "Vidéos lolLycan (Season 16) et Bav Bros", "reason": "Pas de sous-titres disponibles." }
+  ],
+  "toVerifyInGame": [
+    "Atomisation Flash : Red Shirt Plumber dit A puis Flash, EXYT dit « flash Q » ; vérifier le bon ordre et la fenêtre de timing pendant l'incantation d'Atomisation.",
+    "Bump contre un mur : mesurer de combien on peut retarder Atomisation sans laisser la cible retomber.",
+    "Coup de tête à travers un mur : quels murs fins la cible traverse avec 700 unités de recul."
+  ]
+}

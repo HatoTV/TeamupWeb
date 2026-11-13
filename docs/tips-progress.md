@@ -16,18 +16,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ LeeSin (4 combos, 7 astuces)
 - ✅ Ahri (4 combos, 8 astuces)
 
-### Lot 1 — ⏳
+### Lot 1 — ✅
 
-- ⏳ Aatrox
-- ⏳ Akali
-- ⏳ Akshan
-- ⏳ Alistar
-- ⏳ Ambessa
-- ⏳ Amumu
-- ⏳ Anivia
-- ⏳ Annie
-- ⏳ Aphelios
-- ⏳ Ashe
+- ✅ Aatrox (3 combos, 8 astuces)
+- ✅ Akali (3 combos, 8 astuces)
+- ✅ Akshan (2 combos, 8 astuces)
+- ✅ Alistar (3 combos, 8 astuces)
+- ✅ Ambessa (5 combos, 8 astuces)
+- ✅ Amumu (4 combos, 7 astuces)
+- ✅ Anivia (3 combos, 6 astuces)
+- ✅ Annie (4 combos, 7 astuces)
+- ✅ Aphelios (4 combos, 8 astuces)
+- ✅ Ashe (2 combos, 7 astuces)
 
 ### Lot 2 — ⏳
 

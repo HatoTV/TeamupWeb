@@ -1,0 +1,39 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Annie generates a stack of Pyromania whenever she hits an enemy with Disintegrate or casts her other abilities, stacking up to 4 times, at which she gains Energized.",
+    "Annie gains maximum stacks of Pyromania when the game starts and upon respawning. She will lose Energized and all Pyromania stacks upon death.",
+    "Stacks are gained even if the ability is blocked by spell shield.",
+    "Pyromania's current stacks are represented by a counter under Annie's health bar, visible to all players. It lights up when the empowered effect is available.",
+    "If this kills the target, Disintegrate's cooldown is reduced by 50% and its mana cost is refunded.",
+    "Disintegrate will also grant the cooldown reduction and mana cost refund if the target is dead upon the missile's arrival.",
+    "Incinerate can hit targets behind Annie, provided their radius intersects with the cone hitbox.",
+    "Annie grants herself or the target allied champion and Tibbers a shield for 3 seconds and bonus movement speed that decays over 1.5 seconds.",
+    "While Molten Shield is active, enemies that deal damage to it take magic damage. This may only occur once per enemy per cast for each active Molten Shield.",
+    "Molten Shield does not deal damage to turrets when attacked by them.",
+    "Attacks that are dodged or miss against the shielded target will not cause the shield to deal damage, while blocked attacks still deal damage to the attacker.",
+    "Summon: Tibbers' recast can be used while affected by cast-inhibiting crowd control.",
+    "For combos, with stun available, attack into W and Q to proc Electrocute, then attack away. Use E if your opponent throws any damage back towards you.",
+    "And your all in is to flash Tibbers. The trick here is to use Tibbers when you're not in range yet. Then, when you flash, as soon as the flash is complete, you'll summon Tibbers. Follow up with W and Q, then use E on yourself, which also gives it to Tibbers, before attacking away.",
+    "And if Tibbers is out, it always grants the shield to Tibbers, too.",
+    "When laning, you can use Q to last hit minions and also cycle towards your stun.",
+    "le Z d'Annie c'est littéralement instantané. Si tu veux surprendre quelqu'un c'est un flash Z.",
+    "Le flash Z part plus vite mais le flash Z si le mec réagit si le mec pré-shot ton flash bah il passe pas. Flash Q.",
+    "plutôt que de flash Q burst ou flash Z franchement flash Q ça fait parfaitement le taf.",
+    "Flash Tibbers flash ulti avec malz on est sur le même sort même genre de dopamine tu vois.",
+    "la grosse force d'Annie, c'est que dans tous les cas, tu seras toujours utile avec un bon gros flash Tibbers.",
+    "Ah flash in, Z, électrocute, auto-attaque. mort.",
+    "c'est agréable hein quand même ce personnage le le QZ là, ça fait tellement de dégâts."
+  ],
+  "rejected": [
+    { "idea": "With 3 stacks, cast Disintegrate (Q) then Molten Shield (E) during its travel time so the Q stuns anyway (OTP)", "reason": "Single source, and the wiki says Energized empowers the next cast, which suggests the stun is decided on cast; to test before keeping." },
+    { "idea": "Tibbers heals and rushes Annie's killer when she dies (3 Minute League of Legends)", "reason": "Single player source, not in the wiki ability data read." },
+    { "idea": "Tibbers then Zhonya's Hourglass (Blanquette)", "reason": "Single source, more of a build/positioning habit than a precise interaction." },
+    { "idea": "Bav Bros combo guide (S12)", "reason": "Before Annie's Molten Shield update; not opened." }
+  ],
+  "toVerifyInGame": [
+    "Flash Tibbers: Summon: Tibbers (R) ordered out of range, then Flash, exact moment the cast fires.",
+    "OTP trick: Q cast with 3 stacks, then E during the missile travel time: does the Q stun?"
+  ]
+}

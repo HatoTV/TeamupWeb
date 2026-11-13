@@ -1,0 +1,45 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "When Akali exits the ring, for 2 seconds, she regains the bonus movement speed while facing nearby enemy champions and becomes empowered with Swinging Kama for 4 seconds, during which she cannot create another ring.",
+    "Swinging Kama: Akali's next basic attack is empowered to have an uncancellable windup, gain range and deal bonus magic damage.",
+    "Enemies cannot see the ring, but can see the empower effect.",
+    "The ring will be created around the last target hit by Five Point Strike.",
+    "Akali restores 100 energy over 0.4 seconds and gains bonus movement speed that decays over 2 seconds.",
+    "Entering the shroud renders Akali invisible, unless she is dashing.",
+    "Declaring a basic attack or casting an ability will break the invisibility and prevent Akali from entering it again for seconds, refreshing on subsequent attacks and casts.",
+    "It is possible for Akali to detonate the smoke bomb on the far side of terrain from her current location.",
+    "The shroud does not permeate terrain, and will expand toward nearby enemy champions.",
+    "The shuriken marks and reveals the enemy or the last Twilight Shroud smoke section hit for 3 seconds, during which Shuriken Flip can be recast to consume the mark.",
+    "Twilight Shroud and Perfect Execution can be cast during the recast's dash.",
+    "Akali will dash backwards up-to 400 units in a straight line. This dash can cross terrain if the end point is beyond it. If she would end the dash inside terrain, she will instead look for a location in either direction left or right that is outside of terrain and dash there.",
+    "The shuriken missile will fire from wherever Akali is at the end of the cast time (usually mid-dash), but always towards and reaching the location that was 825 units in front of her at the start of cast. The only exception is if she moves via Flash, in which case the range of the missile is decreased relative to the distance she blinked.",
+    "Attempting to cast Five Point Strike during either dash will buffer it to cast as soon as the dash ends.",
+    "Recast: Akali dashes 800 units in the target direction, dealing magic damage to enemies she passes through, increased by % [health].",
+    "so we do E1 E2 empowered Auto attack shroud Q again Q it's as simple as that",
+    "therefore shroud is the tool that gives you that energy",
+    "you go back right the E not on the target but the E back to the Shroud",
+    "we're going to r e and now the combo starts so we e in do the auto attack shroud q q",
+    "if i e flash so e flash that I would be in range it doesn't work like that on aali on aali have to flash e",
+    "when you E look I can cancel my e animation with my ultimate",
+    "i e and now I'm going to ult during the E right before it hits and it's 962 damage now the E the second e damage didn't go off so you have to wait until it hits",
+    "For combos, start with Q in W, then activate the passive and attack. Q, then a boosted attack, back into E. Reactivate E into an attack and Q before moving away.",
+    "If you hit E, activate it in W. Attack with Q three times, each time going outside the circle to get a boosted attack.",
+    "And your kill combo is the ultimate in E. Activate E to attack before using W and Q.",
+    "E flash, you press E, you press flash but you have to have the right timing.",
+    "use the E flash and hit the C behind it to be able to burst it down"
+  ],
+  "rejected": [
+    { "idea": "R1 annulé par Flash pour garder la relance R2 (Kyan)", "reason": "Source unique (Kyan, 2023), jugée niche par l'auteur lui-même." },
+    { "idea": "Flash puis Maîtrise absolue (R) pour une portée d'engage énorme ; R puis Flash coupe le dash", "reason": "Source unique (Kyan) ; le wiki ne parle pas de l'effet d'un Flash sur le dash d'ult." },
+    { "idea": "Combo E puis Flash pour contourner un sbire et rendre le shuriken inesquivable (Yokah)", "reason": "Gardé seulement sous forme d'astuce (origine déplacée, portée réduite, confirmé par le wiki) ; l'usage précis et son timing reposent sur une seule source." },
+    { "idea": "Annuler Lancer acrobatique avec la Ceinture-roquette", "reason": "Repose sur un objet ; source unique (Kyan, 2023)." },
+    { "idea": "Vidéo BIG LEFF « Guide des combos d'Akali »", "reason": "Concerne Akali dans 2XKO, pas League of Legends." }
+  ],
+  "toVerifyInGame": [
+    "Maîtrise absolue pendant la relance de Lancer acrobatique : confirmer que l'ult lancé avant l'impact supprime bien les dégâts du E2 (Kyan, 2023).",
+    "E puis Flash : vérifier vers quel point part le shuriken après le Flash (le wiki dit seulement que sa portée diminue).",
+    "Combo shuriken, relance, Linceul : vérifier l'énergie disponible au niveau 3-4 pour enchaîner deux Vague de kunais."
+  ]
+}

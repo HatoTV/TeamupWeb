@@ -1,0 +1,45 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "During the lockout of Ambessa's abilities, inputting an attack or movement command causes her to dash to or towards the target or location, respectively, after the lockout ends. This dash cannot pass through terrain.",
+    "Medarda Maxim: Ambessa's next basic attack on-attack is empowered to have an uncancellable windup, gain 75 bonus range and 50% bonus attack speed, deal bonus physical damage, which applies life steal, and restore energy.",
+    "If an Attack command has been queued during an ability lockout and both: the player issues a Hold (default J) or Stop (default S) command, and the acquired target is within Ambessa's attack range after the end of the lockout, then Ambessa's dash will cancel.",
+    "The damage is against enemies hit by the outer edge.",
+    "If this hits at least one enemy, Ambessa can cast Sundering Slam within the next 4 seconds.",
+    "Ambessa enters a 0.225-second lockout, at the end of which she slams her twin drakehounds in a line in the target direction, dealing physical damage to enemies hit. The damage is doubled against the first enemy hit.",
+    "Sundering Slam will slam from wherever Ambessa is at the end of the lockout. If her facing direction changes before the lockout completes, the slam will be performed towards the new direction.",
+    "If the shield mitigates any amount of damage taken from champions, large monsters, or turrets before Ambessa smashes the ground, Repudiation's damage is increased by 50%.",
+    "Ambessa enters a 0.225-second lockout and spins her twin drakehounds around her to deal physical damage to nearby enemies and slow them by 99% decaying over 1 second.",
+    "in either case, she will spin a second time at the end of the dash to apply the same effects at no additional cost.",
+    "Ambessa will cast the second spin of Lacerate from wherever she is at the end of the dash. She will spin a second time even if the dash is interrupted.",
+    "Ambessa is displacement immune and unable to act during the cast time and while the target is suppressed.",
+    "If the target resists the suppression by being immune to crowd control, displacement immune, or having a spell shield, Ambessa will not attach them to herself. She will be unable to apply the damage and stun in this case since the suppression was not applied in the first place. She will still blink to the target in this case.",
+    "afterwards dealing physical damage and stunning them for 0.4 seconds.",
+    "R into Q E. You really want to get this down because it is a guaranteed triple hit combo. When you hit an enemy with your R, you are guaranteeing your Q while they are stunned. But, the moment after you hit your Q, you can also launch E.",
+    "So, you can do Q E instantly, and your Q and your E will hit at the same time.",
+    "The very end of Amumu's E can be animation canceled into a Q1 or a Q2.",
+    "instead of going for an auto, where they are no longer as slowed as before, you can instantly go into the end of your E into Q2",
+    "when you are in the middle of using your Q, before it goes off, you can flash in a certain direction, and your Q will then not just land where, you know, you're previously pointing your cursor, but rather your new Q will follow where you flash.",
+    "Anytime you have an unstoppable auto attack coming out, you can instantly launch out another ability, such as your Q, or your W, or your E.",
+    "Effectively, you're ulting somebody and during that time when you're suddenly suppressing them, you want to press your hold button.",
+    "you instantly hit them with an auto attack without inputting any other movement commands. And then as soon as that auto goes out, you hit Q.",
+    "initiate your combos with W to block the majority of damage",
+    "you have to press R, right-click, and press S. There you go. So, your character in the back will just auto-attack.",
+    "See for example RQ at the end the Q is undodiable.",
+    "you can do R, right-click S, auto-attack E.",
+    "Hop, I das and if I flash my jump, the second E will start at the end. See, you can really speed it up.",
+    "You really need to flash, in fact, from the moment the jump started. If you flash beforehand, this is what will happen. You see, you jumped after the flash, that's not what we want."
+  ],
+  "rejected": [
+    { "idea": "Tous les sorts d'Ambessa peuvent être animation-cancel (heywil)", "reason": "Formulation trop large ; seules les annulations précises (auto renforcée, Lacération vers Frappe fracassante) sont retenues." },
+    { "idea": "Interactions avec les plantes (5e tip de Misanthiel)", "reason": "Passage non vérifié en détail, source unique." },
+    { "idea": "Exécution publique (R) te replace hors de portée d'une tour ennemie", "reason": "Vrai selon le wiki mais retiré pour rester à 8 astuces ; moins utile en jeu que les autres." },
+    { "idea": "Un CC pendant le verrouillage d'un sort annule le dash mis en file", "reason": "Vrai selon le wiki mais trop technique pour une astuce courte ; non retenu faute de place." }
+  ],
+  "toVerifyInGame": [
+    "Lacération, dash, Flash : le Flash doit partir après le début du dash (sinon le dash part après le Flash) ; fenêtre très courte.",
+    "Frappe fracassante, Flash : vérifier la fenêtre de 0,225 s de verrouillage pendant laquelle le Flash réoriente le coup.",
+    "Ult, auto sans dash : vérifier si la touche Tenir position ou Stop doit être pressée pendant la suppression ou juste après le clic droit."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Umbral Dash resets Aatrox's basic attack timer and can be cast during his other abilities without cancelling them and vice versa.",
+    "The dash distance can be extended to up-to 500 units when targeting across terrain. It will only extend for the distance needed to cross the wall.",
+    "The Darkin Blade's angle of cast is fixed during the cast time, i.e. it maintains its direction in relation to Aatrox and does not respect any changes in his facing direction.",
+    "The location that the target is dragged to is not at the target's original location, but slightly closer towards Aatrox's position when the zone expires.",
+    "Whenever Aatrox hits at least one enemy champion or large monster with a basic attack on-hit or an ability, Deathbringer Stance's current cooldown is reduced by 2 seconds, doubled to 4 if he hits with the Sweetspot of The Darkin Blade.",
+    "The cooldown reduction applies even if an ability's hit is countered by spell shield.",
+    "Aatrox unleashes his true form for 10 seconds, fearing nearby enemy minions and monsters for 3 seconds.",
+    "World Ender persists through resurrection effects. World Ender's healing amplification applies to the health gained by resurrecting.",
+    "On Aatrox, you can actually extend your Q range by E'ing over terrain.",
+    "if I aim my dash closer to my character, the dash is faster.",
+    "you should do auto E auto very close to your character and on the ground.",
+    "often on Aatrox, your W is going to get blocked by creeps. So, if someone's standing in the wave like this, what you can do is you can ult, make the minions walk away, and then you can hit your full combo on them.",
+    "On Aatrox, your second Q is actually um further if you hit the corners.",
+    "I try to not use my E to go in when I dive because then I can't really E out anymore",
+    "You just walk up like this. You wait for your Q to come up. You just ult, Q, W, Q, and then you auto, and then you do this.",
+    "you might know Aatrox's R doubles his healing uh of course with three points",
+    "For combos, start alt if needed into W, Q, and E. Attack into Q before attacking into Q again and attacking away.",
+    "And you can start with E and Q into W. From here, Q again before attacking into your final Q and attacking away.",
+    "le meilleur combo à faire sur atrox c'est vous mettez votre premier cuspel en avant avec votre e vous lâcheer votre W vous mettez le deuxè",
+    "mettez-le de de côtés parce que en fait si vous si vous le faites tout droit vous avez moins de range",
+    "il faut pas que vous daschez trop loin voilà il faut vraiment dash vraiment absolument pas loin du tout sinon ça mar parce que le temps qu'il fasse son dash sinon vous avez vu c'est super long"
+  ],
+  "rejected": [
+    { "idea": "Flash à mi-distance (pas à portée max) pour toucher l'Épée des Darkin (A) sans Ruée obscure", "reason": "Source unique (Looca) et ordre Q/Flash ambigu dans la transcription." },
+    { "idea": "Ruée obscure par-dessus le mur de la fosse du Baron depuis un point précis", "reason": "Source unique (Looca), spot très précis non décrit ailleurs." },
+    { "idea": "Se servir des déplacements adverses (E de Mordekaiser, Q de K'Sante) pour avancer pendant l'Épée", "reason": "Source unique (Looca), interaction propre à d'autres champions." },
+    { "idea": "Combos avec Hydre profane (Q1 + E + Hydre en même temps)", "reason": "Repose sur un objet ; source unique (Looca)." },
+    { "idea": "Économie de CD en ne relançant pas l'Épée (PeyJeyM, 2023)", "reason": "Vidéo de 2023, valeurs de CD modifiées depuis (14 à 6 s au patch 16.22)." }
+  ],
+  "toVerifyInGame": [
+    "Coin de la 2e Épée des Darkin : mesurer le gain réel de portée en diagonale (trapèze 475 unités devant, 500 de large).",
+    "Ruée obscure courte : confirmer que le dash court réduit nettement le délai du reset d'auto.",
+    "Ruée obscure lancée par-dessus un mur pendant l'Épée : tester quels murs passent à 500 unités."
+  ]
+}

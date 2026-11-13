@@ -1,0 +1,130 @@
+{
+  "champion": "Ambessa",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Ult, Frappe, Lacération", "en": "Ult, Sweep, Lacerate" },
+      "keys": ["R", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Après Exécution publique (R), la cible est étourdie : ta Frappe fourbe (A) est garantie. Enchaîne Lacération (E) aussitôt pour que les deux touchent ensemble et que le slow assure la suite.",
+        "en": "After Public Execution (R), the target is stunned, so your Cunning Sweep (Q) is guaranteed. Chain Lacerate (E) right away so both land together and the slow secures the follow-up."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Ult, auto sans dash, Frappe", "en": "Ult, auto without dash, Sweep" },
+      "keys": ["R", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Pendant Exécution publique (R), clic droit sur la cible puis touche Stop ou Tenir position : tu autos sur place au lieu de dasher. Lance Frappe fourbe (A) dès que l'auto part.",
+        "en": "During Public Execution (R), right-click the target then press Stop or Hold: you auto in place instead of dashing. Cast Cunning Sweep (Q) as soon as the auto fires."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Frappe, Lacération, Frappe fracassante", "en": "Sweep, Lacerate, Sundering Slam" },
+      "keys": ["Q", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Frappe fourbe (A), puis Lacération (E). Lance Frappe fracassante (A) tout de suite au lieu d'une auto : la cible est encore ralentie de presque 99 % et ne peut pas l'esquiver.",
+        "en": "Hit Cunning Sweep (Q), then Lacerate (E). Cast Sundering Slam (Q) right away instead of an auto: the target is still slowed by almost 99% and cannot dodge it."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Frappe fracassante, Flash", "en": "Sundering Slam, Flash" },
+      "keys": ["Q", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Frappe fracassante (A) et Flash avant qu'elle parte : le coup part de ta nouvelle position, vers ta nouvelle direction. Idéal pour finir une cible qui croyait être hors de portée.",
+        "en": "Cast Sundering Slam (Q) and Flash before it fires: the slam comes from your new position, toward your new facing. Ideal to finish a target that thought it was out of range."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Lacération, dash, Flash", "en": "Lacerate, dash, Flash" },
+      "keys": ["E", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Lacération (E), dashe, et Flash dès que le dash commence : la 2e rotation part tout de suite à l'arrivée du Flash. Deux coups presque d'affilée, très dur à lire.",
+        "en": "Cast Lacerate (E), dash, and Flash as soon as the dash starts: the second spin fires right where the Flash lands. Two hits almost back to back, very hard to read."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Après chaque sort, un clic droit te fait dasher vers ta cible ou ton curseur (175 à 350 unités). Ce dash de Ruée des chiens-dragons ne traverse pas les murs.",
+        "en": "After each spell, a right-click makes you dash toward your target or cursor (175 to 350 units). This Drakehound's Step dash cannot cross walls."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tu veux auto sans dasher après un sort ? Clic droit sur la cible, puis Stop ou Tenir position : si elle est à portée, le dash est annulé.",
+        "en": "Want to auto without dashing after a spell? Right-click the target, then Stop or Hold: if it is in range, the dash is cancelled."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort charge une auto renforcée de ton passif, avec plus de portée et une préparation impossible à annuler. Lance ton sort suivant pendant cette auto : elle part quand même.",
+        "en": "Each spell charges an empowered auto from your passive, with extra range and a windup that cannot be cancelled. Cast your next spell during that auto: it still goes off."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si tu dashes avec Lacération (E), tu tournes une 2e fois gratuitement à l'arrivée, même si le dash est interrompu. Dashe vers la cible pour la toucher deux fois.",
+        "en": "If you dash with Lacerate (E), you spin a second time for free on arrival, even if the dash is interrupted. Dash toward the target to hit it twice."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Frappe fourbe (A) fait plus mal avec le bord extérieur du cône. Frappe fracassante (A) double ses dégâts sur le premier ennemi touché : vise la cible avant les sbires.",
+        "en": "Cunning Sweep (Q) hurts more with the outer edge of the cone. Sundering Slam (Q) doubles its damage on the first enemy hit: aim at your target before the minions."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Lance Égide dévastatrice (Z) juste avant un burst adverse : si le bouclier absorbe des dégâts de champion avant l'impact au sol, ton coup inflige 50 % de dégâts en plus.",
+        "en": "Cast Repudiation (W) just before an enemy burst: if the shield absorbs champion damage before the ground smash, your hit deals 50% more damage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Exécution publique (R) échoue contre un bouclier magique ou une immunité aux CC : tu te téléportes quand même, mais sans dégâts ni stun. Retire le bouclier avant d'ult.",
+        "en": "Public Execution (R) fails against a spell shield or CC immunity: you still blink, but with no damage or stun. Pop the shield before you ult."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant l'incantation et la suppression d'Exécution publique (R), tu es immunisée aux déplacements : un knock-up ou un pull adverse ne t'arrête pas.",
+        "en": "During the cast time and suppression of Public Execution (R), you are immune to displacement: an enemy knock-up or pull does not stop you."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Ambessa – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Ambessa", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "ULTIMATE AMBESSA GUIDE FOR 2026", "url": "https://www.youtube.com/watch?v=1b4aDd4lmDs", "type": "video", "date": "2026-03-01", "author": "heywil" },
+    { "title": "5 TIPS AVANCÉS SUR AMBESSA !", "url": "https://www.youtube.com/watch?v=7HmS3--tDL4", "type": "video", "date": "2025-05-24", "author": "Misanthiel - Coach Toplane" }
+  ]
+}

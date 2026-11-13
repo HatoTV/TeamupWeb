@@ -1,0 +1,39 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Whenever Akshan uses a basic attack, he fires an additional shot after a delay that deals 50% AD physical damage, increased to 100% AD against minions.",
+    "If the second shot is cancelled instead, he gains bonus movement speed decaying over 1 second.",
+    "Akshan's basic attacks on-hit and ability hits apply a stack of Dirty Fighting to enemies for 5 seconds, refreshing on subsequent applications and stacking up to 3 times. The third stack against a target consumes them all to deal them bonus magic damage; if the target is a champion, Akshan will also gain a shield for 2 seconds.",
+    "If the first shot has killed its target, Akshan will automatically acquire another enemy within 200 units beyond his range, else he can do so by issuing an attack order to a different target.",
+    "Once the boomerang has passed its original range and has not hit a target in the last 500 units of travelling, it homes back to Akshan and applies the same effects to enemies hit.",
+    "Scoring an enemy champion takedown reduces Heroic Swing's current cooldown to 0.5 seconds.",
+    "Avengerang and Going Rogue can be cast during the third cast's dash. Comeuppance can be cast at all points during Heroic Swing, though Akshan cannot fire during the swing while it is active.",
+    "Akshan prioritizes firing at enemy champions with stacks of Dirty Fighting, then those damaged by his unit-targeted spells in the last 4 seconds, then the nearest enemy. Heroic Swing can be cast during Akshan's other abilities.",
+    "Only Heroic Swing's first cast is disabled while grounded or rooted. The third cast is still usable during those effects.",
+    "Heroic Swing's second and third cast can both be used while silenced.",
+    "Akshan can move while channeling Comeuppance.",
+    "But if you move after the first shot, he cancels the second and gains a burst of movement speed instead.",
+    "If an enemy walks into your range, don't waste that opening. Start with your double auto attack, weave in Q, then attack again for maximum damage.",
+    "Start with Q to mark the enemy. This is extremely important. Mark champions are prioritized by your E, preventing nearby minions from absorbing your damage.",
+    "Wait until the enemy uses any important crowd control that could interrupt your swing. Then use E to aggressively close the gap. If they dash or flash away, continue the swing to follow their escape and keep them within range. Jump off beside them and finish with your double attack. If they escape your range on low health, immediately use your ultimate to finish the kill.",
+    "You can even use E during the channel to change your firing angle, swinging around minions and champions or structures that would otherwise block your shots.",
+    "Look for enemies you can finish during your swing. Then use the takedown to instantly reset your E.",
+    "The redirected shot has additional range. last hit a lowhealth minion near an enemy champion and your second shot can reach them from outside your normal attack range.",
+    "The boomerang always returns to your current position, so repositioning changes its return angle.",
+    "Second, flash while it's returning. This instantly redirects the boomerang, helping you land a last second hit during clutch fights.",
+    "Finally, cast Q before swinging with E. You can't throw it during the swing, but you can swing after casting it to completely reshape its return path",
+    "For combos, attack into your Q and attack again. From here, either E aggressively or defensively following up with ult.",
+    "And if he cancels the second shot, he instead gets a small burst of move speed."
+  ],
+  "rejected": [
+    { "idea": "Flash juste après le saut final d'Envolée héroïque : le dernier tir part quand même", "reason": "Source unique (Zoose)." },
+    { "idea": "Boucles infinies d'Envolée héroïque sur des angles de mur précis", "reason": "Source unique (Zoose), spots trop précis pour une astuce courte." },
+    { "idea": "Le grappin s'accroche un peu au-delà de l'indicateur de portée", "reason": "Source unique (Zoose), absent du wiki." },
+    { "idea": "Déclencher deux fois les dégâts de Fourberie dans un même trade (un seul bouclier)", "reason": "Source unique (Zoose) ; le wiki dit seulement que le bouclier a un délai de récupération." }
+  ],
+  "toVerifyInGame": [
+    "Envolée héroïque pendant la canalisation de Bien mérité ! : vérifier que la canalisation continue pendant le swing (le wiki dit qu'Akshan ne peut pas tirer pendant le swing tant que l'ult est actif).",
+    "Retour de Vengerang après un Flash : vérifier l'angle obtenu selon le moment du Flash."
+  ]
+}

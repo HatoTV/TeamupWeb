@@ -65,3 +65,4 @@ Par champion : nb combos / nb astuces, sources utilisées (titre + URL), points 
 - Pas de conseil sur l'ordre de montée des sorts, même déguisé (« retarde le point de R au niveau 6 »).
 - Une astuce ne se contredit pas : relis chaque phrase FR et EN avant de rendre (ex. « ignore les boucliers » vs « un shield peut la sauver »).
 - Formes alternatives (Elise, Nidalee, Jayce, Gnar…) : `keys` reste Q/W/E/R ; le site affiche l'icône de base et le nom combiné Data Dragon, donc nomme la forme utilisée dans `desc`.
+- Pas de rune (contrôlé : noms de runes refusés), même en passant (« parfait pour proc Électrocution »).

@@ -6,10 +6,10 @@
 //   a combo also needs one player source (video or guide): it must be really played;
 // - D / F keys name their summoner spell; at least 2 combos or tips per file;
 // - short texts (combo: 2 sentences, 45 words; tip: 40 words), FR in AZERTY with glossary gender agreement;
-// - no sentence copied from a recorded source (notes/play/{championId}.notes.json).
+// - no rune advice (glossary rune names); no sentence copied from a recorded source (notes/play/{championId}.notes.json).
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { agreementIssues, parseGenders } from './agreement.ts';
-import { GLOSSARY_MD, PLAY_DIR, PLAY_INDEX_FILE, PLAY_NOTES_DIR, SITES_FILE, STATIC_DIR } from './paths.ts';
+import { GLOSSARY_FILE, GLOSSARY_MD, PLAY_DIR, PLAY_INDEX_FILE, PLAY_NOTES_DIR, SITES_FILE, STATIC_DIR } from './paths.ts';
 import { notesSchema, playIndexSchema, playTipsSchema, type PlayTips } from './schema.ts';
 import { qwertyRe, sharedRun, words } from './text.ts';
 
@@ -29,6 +29,23 @@ const latest = readdirSync(STATIC_DIR)
 const champions = new Set(readdirSync(`${STATIC_DIR}/${latest}/en_US/champions`).map((f) => f.replace(/\.json$/, '')));
 const core = JSON.parse(readFileSync(`${STATIC_DIR}/${latest}/en_US/core.json`, 'utf8')) as { summoners: Record<string, { icon: string }> };
 const summoners = new Set(Object.values(core.summoners).map((s) => s.icon.replace(/\.png$/, '')));
+
+// Runes are out of scope (combos and mechanics only); spell names that look like runes are not runes.
+const glossary = JSON.parse(readFileSync(GLOSSARY_FILE, "utf8")) as { runes: Record<string, string>; items: Record<string, string> };
+const spellNames = new Set<string>();
+for (const lang of ['en_US', 'fr_FR']) {
+  for (const f of readdirSync(`${STATIC_DIR}/${latest}/${lang}/champions`)) {
+    const c = JSON.parse(readFileSync(`${STATIC_DIR}/${latest}/${lang}/champions/${f}`, 'utf8')) as { passive: { name: string }; spells: { name: string }[] };
+    for (const a of [c.passive, ...c.spells]) for (const n of a.name.split(/ \| |\//)) spellNames.add(n.trim());
+  }
+}
+const escapeRe = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const wordsRe = (names: Iterable<string>, flags: string) =>
+  new RegExp(`(?<![\\p{L}])(${[...names].sort((a, b) => b.length - a.length).map(escapeRe).join('|')})(?![\\p{L}])`, flags);
+// Spell and item names are removed first (« Volonté de fer », « Ange gardien »); rune tree names are too generic.
+const notRunesRe = wordsRe([...spellNames, ...Object.entries(glossary.items).flat()].filter((n) => n.length >= 4), 'giu');
+const trees = new Set(['Precision', 'Précision', 'Domination', 'Sorcery', 'Sorcellerie', 'Resolve', 'Volonté', 'Inspiration']);
+const runeRe = wordsRe(new Set(Object.entries(glossary.runes).flat().filter((n) => n.length >= 4 && !trees.has(n))), 'iu');
 
 const hostOf = (url: string) => new URL(url).hostname.replace(/^www\./, '');
 const sentences = (s: string) => s.split(/[.!?](?:\s|$)/).filter((p) => p.trim()).length;
@@ -51,6 +68,8 @@ function checkText(where: string, lang: 'fr' | 'en', text: string, sourceSentenc
   } else if (/\((A|Z)\)/.test(text)) {
     fail(where, `AZERTY key in English: "${text}"`);
   }
+  const rune = text.replace(notRunesRe, "").match(runeRe);
+  if (rune) fail(where, `rune "${rune[1]}" (out of scope)`);
   if (sourceSentences.some((s) => sharedRun(text, s))) fail(where, `copied from a source: "${text}"`);
 }
 

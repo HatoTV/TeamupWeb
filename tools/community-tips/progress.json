@@ -7,10 +7,7 @@
     "Darius__Zaahen",
     "Kayn__LeeSin",
     "Nami__Sona",
-    "Pyke__Rell",
-    "Rell__Seraphine",
     "Rell__Sona",
-    "Rell__Taric",
     "Xayah__Yasuo",
     "Kayn__Kindred",
     "Lux__Rell",
@@ -27,7 +24,6 @@
     "Jhin__Xayah",
     "Jhin__Zeri",
     "Lulu__Rell",
-    "Nautilus__Rell",
     "Aphelios__Jhin",
     "Ashe__Jhin",
     "Braum__Nautilus",
@@ -111,7 +107,6 @@
     "Mel__Syndra",
     "Rell__Senna",
     "Alistar__Poppy",
-    "Ambessa__Yone",
     "Aphelios__Xayah",
     "Corki__Syndra",
     "LeeSin__Zac",
@@ -128,8 +123,7 @@
     "Syndra__Veigar",
     "Ahri__Veigar",
     "Ambessa__KSante",
-    "Alistar__Velkoz",
-    "Lux__Thresh"
+    "Alistar__Velkoz"
   ],
   "inProgress": [],
   "insufficientSources": [
@@ -156,10 +150,13 @@
     "Karma__Seraphine",
     "Braum__Rakan",
     "Alistar__Pantheon",
-    "LeeSin__Talon"
-  ],
-  "queueRule": "Couples des fichiers Matchups, rôle commun avec >= 40 parties Master+ par champion (Builds 16.22) ; ordre : aucun conseil d auteur, puis un seul côté, puis les deux ; à égalité, parties Master+ cumulées. Étendue à 185 couples (2026-11-12, même ordre). La jungle passe en fin de file, sauf les couples Lee Sin couverts par Coach Kirei (Viego, Wukong, Nidalee, Vi, Zac).",
-  "queue": [
+    "LeeSin__Talon",
+    "Ambessa__Yone",
+    "Lux__Thresh",
+    "Nautilus__Rell",
+    "Pyke__Rell",
+    "Rell__Seraphine",
+    "Rell__Taric",
     "Hecarim__LeeSin",
     "JarvanIV__Qiyana",
     "LeeSin__Nunu",
@@ -191,5 +188,7 @@
     "DrMundo__LeeSin",
     "Diana__Khazix",
     "LeeSin__Rammus"
-  ]
+  ],
+  "queueRule": "Couples des fichiers Matchups, rôle commun avec >= 40 parties Master+ par champion (Builds 16.22) ; ordre : aucun conseil d auteur, puis un seul côté, puis les deux ; à égalité, parties Master+ cumulées. Étendue à 185 couples (2026-11-12, même ordre). La jungle passe en fin de file, sauf les couples Lee Sin couverts par Coach Kirei (Viego, Wukong, Nidalee, Vi, Zac).",
+  "queue": []
 }

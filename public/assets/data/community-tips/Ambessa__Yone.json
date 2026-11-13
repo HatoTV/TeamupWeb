@@ -9,37 +9,11 @@
     "Ambessa": "e56df32966ff04a871e7876f41cd856c3388ccd826e7aed579970aa7f7175136",
     "Yone": "18432bcf2af23572a60748ec9bd91b1bd23eef21695145c499d1f95ea6d5bca1"
   },
-  "status": "ok",
+  "status": "insufficientSources",
   "perspectives": {
     "Ambessa": {
-      "fr": [
-        {
-          "text": "Joue agressif pour prendre ton avance en lane : à égalité, Yone te bat en side lane une fois le mid game lancé.",
-          "sources": 2,
-          "verifiedByGameData": false,
-          "category": "macro"
-        },
-        {
-          "text": "Attends qu'il gaspille son Fendoir spirituel (Z) : sans ce bouclier, Yone devient bien plus facile à tuer en trade.",
-          "sources": 1,
-          "verifiedByGameData": true,
-          "category": "mechanics"
-        }
-      ],
-      "en": [
-        {
-          "text": "Play aggressively to get your lead in lane: if things are even, Yone beats you in side lane once mid game starts.",
-          "sources": 2,
-          "verifiedByGameData": false,
-          "category": "macro"
-        },
-        {
-          "text": "Wait for him to waste Spirit Cleave (W): without that shield, Yone is much easier to kill in a trade.",
-          "sources": 1,
-          "verifiedByGameData": true,
-          "category": "mechanics"
-        }
-      ]
+      "fr": [],
+      "en": []
     },
     "Yone": {
       "fr": [],

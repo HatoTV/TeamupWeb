@@ -46,8 +46,7 @@
     {
       "idea": "Rell : ne pas rester au contact de Taric une fois à pied",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources (ColsENG côté Rell, Coach K côté Taric : les all-in qui restent au contact sont bons pour Taric) + DDragon (passif réduit les CD)"
@@ -55,8 +54,7 @@
     {
       "idea": "Taric : rendre les coups quand Rell reste au contact",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "même idée vue du côté Taric, 2 sources + DDragon"
@@ -64,17 +62,14 @@
     {
       "idea": "Taric : ult en réponse à l'engage, pas pour entrer",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources (ColsENG : Rell punit les ults agressifs avec Z-R ; Coach K : l'ult de Taric contre les engages) + DDragon (invulnérabilité après un délai ; R de Rell attire les ennemis)"
     },
     {
       "idea": "Rell : combo Z-R pour punir un ult agressif de Taric",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "1 seule source ; le fait que l'invulnérabilité ne bloque pas l'attraction n'est pas dans Data Dragon"
     },
@@ -83,6 +78,17 @@
       "sourceIdx": [],
       "kept": false,
       "reason": "Coach K (guide Rell 11:37) parle de casser « the W with the Q » mais le champion visé est inaudible dans les sous-titres"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=a9QyG_fjnII (ColsENG), vidéo limitée à 3 couples (Rell__Seraphine, Rell__Sona, Rell__Thresh)",
+        "tip retiré (Rell, 1 source restante, lane, vérifié) : Après ton Descendre en piqué (Z), ne traîne pas au contact de Taric : ses attaques de Plastronneur (passif) réduisent ses CD et son Éblouissement (E) revient vite.",
+        "tip retiré (Taric, 1 source restante, lane, vérifié) : Quand Rell descend de sa monture et reste au contact, rends les coups : chaque sort renforce tes attaques de Plastronneur (passif), qui réduisent tes CD.",
+        "statut ok → insufficientSources (plus aucun tip ou moins de 2 sources)"
+      ]
     }
   ]
 }

@@ -62,9 +62,7 @@
     },
     {
       "idea": "Lulu : bouclier E après le A de Rell",
-      "sourceIdx": [
-        2
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (Rell Q « destroying all Shields » ; Lulu E = bouclier sur un allié)"
     },
@@ -106,9 +104,7 @@
     },
     {
       "idea": "Rell : A détruit le bouclier de Pix",
-      "sourceIdx": [
-        2
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon"
     },
@@ -138,20 +134,27 @@
     },
     {
       "idea": "Fantaisie (Z) n'annulerait pas la Ferromancie ; Croissance prodigieuse (R) pourrait l'annuler",
-      "sourceIdx": [
-        2
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "la source dit elle-même ne pas être sûre ; non vérifiable dans DDragon"
     },
     {
       "idea": "Classement du matchup",
       "sourceIdx": [
-        0,
-        2
+        0
       ],
       "kept": false,
       "reason": "désaccord : Coach K le classe mauvais pour Rell, ColsENG gagnant ; pas un tip"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=a9QyG_fjnII (ColsENG), vidéo limitée à 3 couples (Rell__Seraphine, Rell__Sona, Rell__Thresh)",
+        "tip retiré (Lulu, 0 source restante, mechanics, vérifié) : Sa Frappe dislocatrice (A) détruit les boucliers : garde ton Pix à la rescousse (E) pour après son A, sinon ton bouclier est perdu.",
+        "tip retiré (Rell, 0 source restante, mechanics, vérifié) : Ta Frappe dislocatrice (A) détruit les boucliers : lance-la après son Pix à la rescousse (E) sur son ADC pour annuler la protection."
+      ]
     }
   ]
 }

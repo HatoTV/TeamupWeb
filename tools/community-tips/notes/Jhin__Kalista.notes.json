@@ -51,8 +51,7 @@
     {
       "idea": "Jhin : tout dépend de l'engage du support de Kalista",
       "sourceIdx": [
-        0,
-        3
+        2
       ],
       "kept": true,
       "reason": "2 sources (sans engage elle ne comble pas l'écart ; Jhin peut jouer safe et empêcher son engage)"
@@ -60,7 +59,7 @@
     {
       "idea": "Jhin : éviter la Perforation et le reset de l'Extirpation sur les sbires",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": true,
       "reason": "1 source + DDragon (E : CD réinitialisé si le sort tue)"
@@ -68,24 +67,21 @@
     {
       "idea": "Jhin : root et slow contre sa mobilité",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": true,
       "reason": "1 source + DDragon (E ralentit ; Z root après un piège ; passif : bond lié aux attaques)"
     },
     {
       "idea": "Jhin : perdre le push par moments, céder du terrain",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "lane, 1 seule source"
     },
     {
       "idea": "Kalista : l'all-in repose sur l'engage du support",
       "sourceIdx": [
-        0,
-        3
+        2
       ],
       "kept": true,
       "reason": "2 sources"
@@ -93,7 +89,7 @@
     {
       "idea": "Kalista : punir le rechargement avec Extirpation",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon (Murmure : 4 balles, 4e critique ; E arrache les lances)"
@@ -101,7 +97,7 @@
     {
       "idea": "Kalista : rebond de la Grenade dansante sur les sbires",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon"
@@ -109,10 +105,20 @@
     {
       "idea": "Kalista : finir avec Extirpation / vitesse liée à la vitesse d'attaque",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": false,
       "reason": "conseils généraux de champion, pas propres au matchup"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=sd4t6Hh5V38 (We Teach League Highlights & Clips), vidéo limitée à 3 couples (Jhin__Lucian, Caitlyn__Jhin, Jhin__Xayah)",
+        "tip retiré (Jhin, 1 source restante, lane) : Kalista peine à te coller sans support d'engage, mais devient très menaçante avec un gros engage. Règle ta distance sur son support.",
+        "tip retiré (Kalista, 1 source restante, lane) : Ton all-in repose sur ton support : avec un vrai engage tu le menaces, sinon il joue loin et tu peines à le rattraper."
+      ]
     }
   ]
 }

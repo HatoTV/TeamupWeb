@@ -53,8 +53,7 @@
       "idea": "Jhin : le slow permanent d'Ashe, sans dash pour en sortir",
       "sourceIdx": [
         0,
-        1,
-        2
+        1
       ],
       "kept": true,
       "reason": "3 sources + DDragon (Tir givrant ralentit à chaque attaque ; Jhin sans dash)"
@@ -62,7 +61,7 @@
     {
       "idea": "Jhin : Ashe a plus de portée (600 vs 550)",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon (attackrange 600 / 550)"
@@ -70,16 +69,14 @@
     {
       "idea": "Jhin : se cacher derrière les sbires contre la Salve (Z)",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": false,
       "reason": "blocage par les sbires non vérifiable dans Data Dragon, 1 seule source"
     },
     {
       "idea": "Jhin : elle pousse la lane sauf si ton support la poke tôt",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "1 seule source, lane"
     },
@@ -87,8 +84,7 @@
       "idea": "Ashe : jouer sur ton slow, Jhin sans dash",
       "sourceIdx": [
         0,
-        1,
-        2
+        1
       ],
       "kept": true,
       "reason": "3 sources + DDragon"
@@ -96,7 +92,7 @@
     {
       "idea": "Ashe : avantage de portée",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon"
@@ -104,7 +100,7 @@
     {
       "idea": "Ashe : rebond de la Grenade dansante sur les sbires",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": true,
       "reason": "1 source + DDragon"
@@ -112,7 +108,7 @@
     {
       "idea": "Ashe : respecter la 4e balle",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": true,
       "reason": "1 source + DDragon (critique + exécution)"
@@ -122,6 +118,14 @@
       "sourceIdx": [],
       "kept": false,
       "reason": "conseil général de champion, pas propre à Jhin ; source non comptée"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=sd4t6Hh5V38 (We Teach League Highlights & Clips), vidéo limitée à 3 couples (Jhin__Lucian, Caitlyn__Jhin, Jhin__Xayah)"
+      ]
     }
   ]
 }

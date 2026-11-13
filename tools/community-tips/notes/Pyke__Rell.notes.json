@@ -53,8 +53,7 @@
     {
       "idea": "Pyke : ne pas engager le premier, laisser Rell s'engager puis punir ; l'E de Pyke en ouverture est prévisible",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources (Pyke on a Spike côté Pyke, ColsENG côté Rell)"
@@ -85,9 +84,7 @@
     },
     {
       "idea": "Rell : garder la Ferromancie (Z) pour répondre au Ressac fantôme (E) de Pyke",
-      "sourceIdx": [
-        1
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (W soulève à l'atterrissage, E de Pyke est un dash). Reformulé : l'affirmation « l'E ne fait rien contre Rell » n'est pas vérifiable"
     },
@@ -101,19 +98,26 @@
     },
     {
       "idea": "Rell : l'ult de Pyke exécute à travers le bouclier",
-      "sourceIdx": [
-        1
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "non vérifiable dans DDragon (le tooltip parle de seuil de PV, rien sur les boucliers) et 1 seule source"
     },
     {
       "idea": "Rell : matchup gagnant, Pyke doit être bon pour gagner",
-      "sourceIdx": [
-        1
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "avis de difficulté, pas un conseil de jeu"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=a9QyG_fjnII (ColsENG), vidéo limitée à 3 couples (Rell__Seraphine, Rell__Sona, Rell__Thresh)",
+        "tip retiré (Pyke, 1 source restante, lane) : N'ouvre pas le combat le premier : laisse Rell s'engager, puis punis-la. Ton Ressac fantôme (E) en ouverture est facile à lire pour elle.",
+        "tip retiré (Rell, 0 source restante, mechanics, vérifié) : Son Ressac fantôme (E) est facile à anticiper : garde ta Ferromancie (Z) pour soulever Pyke dès qu'il dash vers toi.",
+        "statut ok → insufficientSources (plus aucun tip ou moins de 2 sources)"
+      ]
     }
   ]
 }

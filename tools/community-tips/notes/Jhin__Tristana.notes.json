@@ -57,8 +57,7 @@
     {
       "idea": "Jhin : aucun dash, garder ses distances, Tristana gagne au contact",
       "sourceIdx": [
-        0,
-        3
+        2
       ],
       "kept": true,
       "reason": "2 sources + DDragon (aucun sort de déplacement chez Jhin)"
@@ -66,26 +65,23 @@
     {
       "idea": "Jhin : Tristana peut lancer son E pendant son W",
       "sourceIdx": [
-        2,
-        3
+        1,
+        2
       ],
       "kept": true,
       "reason": "2 sources (non décrit dans DDragon)"
     },
     {
       "idea": "Jhin : lvl 1 à 3 jouables, dangereux à partir du lvl 6 quand le support a ses sorts",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "lane, 1 seule source"
     },
     {
       "idea": "Tristana : engager W + E quand Jhin recharge après sa 4e balle",
       "sourceIdx": [
-        0,
-        2,
-        3
+        1,
+        2
       ],
       "kept": true,
       "reason": "3 sources + DDragon (passif : 4 balles seulement)"
@@ -93,8 +89,8 @@
     {
       "idea": "Tristana : respecter la 4e balle (crit + exécution)",
       "sourceIdx": [
-        1,
-        2
+        0,
+        1
       ],
       "kept": true,
       "reason": "2 sources + DDragon (passif)"
@@ -102,8 +98,8 @@
     {
       "idea": "Tristana : E utilisable pendant le W",
       "sourceIdx": [
-        2,
-        3
+        1,
+        2
       ],
       "kept": true,
       "reason": "2 sources"
@@ -111,7 +107,7 @@
     {
       "idea": "Tristana : la Grenade dansante rebondit sur les sbires",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon (Q touche jusqu'à 4 cibles)"
@@ -119,7 +115,7 @@
     {
       "idea": "Tristana : esquiver le W de Jhin avec le Saut roquette",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": true,
       "reason": "1 source + DDragon (W de Jhin = tir unique longue portée ; W de Tristana = saut). Phrase de sous-titre déformée (« je d le W dejin »), interprétée comme « je dodge le W de Jhin »"
@@ -127,11 +123,20 @@
     {
       "idea": "Tristana : mettre Barrière sur la 4e balle",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": false,
       "reason": "sort d'invocateur, 1 seule source ; idée reprise dans « respecter la 4e balle »"
     }
   ],
-  "retroFix2026_11_12": "source(s) 1 retirée(s) : chaîne exclue (Jezu VOD) ou vidéo Booshi hors PRO GUIDE ; les tips qui en dépendaient ont été recomptés ou retirés. Index des sourceSentences inchangés."
+  "retroFix2026_11_12": "source(s) 1 retirée(s) : chaîne exclue (Jezu VOD) ou vidéo Booshi hors PRO GUIDE ; les tips qui en dépendaient ont été recomptés ou retirés. Index des sourceSentences inchangés.",
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=sd4t6Hh5V38 (We Teach League Highlights & Clips), vidéo limitée à 3 couples (Jhin__Lucian, Caitlyn__Jhin, Jhin__Xayah)",
+        "tip retiré (Jhin, 1 source restante, lane, vérifié) : Tu n'as aucun dash : garde tes distances, car Tristana gagne le combat dès qu'elle arrive à te coller."
+      ]
+    }
+  ]
 }

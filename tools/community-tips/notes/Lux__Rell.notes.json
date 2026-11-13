@@ -54,8 +54,7 @@
     {
       "idea": "Lux : poke de loin, elle a bien plus de portée que Rell",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources (ColsENG la range avec les supports poke, Coach K : « poke you and outrange you ») + DDragon (portées Lux 1100-1175, Rell A 600 / Z 450)"
@@ -63,41 +62,37 @@
     {
       "idea": "Lux : respecter l'engage Flash + Z de Rell, un engage réussi coûte le Flash et retourne la lane",
       "sourceIdx": [
-        1,
-        2
+        0,
+        1
       ],
       "kept": true,
       "reason": "2 sources + DDragon (Z : bond, knock-up, portée 450)"
     },
     {
       "idea": "Lux : ne pas s'avancer en portée d'AA juste pour déclencher Illumination",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (Illumination : la prochaine attaque déclenche la charge)"
     },
     {
       "idea": "Rell : engage Flash + Ferromancie (Z)",
       "sourceIdx": [
-        1,
-        2
+        0,
+        1
       ],
       "kept": true,
       "reason": "2 sources + DDragon (Z : bond, knock-up)"
     },
     {
       "idea": "Rell : punir Lux quand elle s'avance pour proc son passif en AA",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (Illumination)"
     },
     {
       "idea": "Rell : rester patiente face au poke, un engage réussi fait perdre le Flash et retourne la lane",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": false,
       "reason": "1 seule source, idée de lane non vérifiable dans DDragon"
@@ -105,7 +100,7 @@
     {
       "idea": "Rell : jouer avec son jungler si Lux a un ADC fort",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": false,
       "reason": "1 seule source"
@@ -113,10 +108,21 @@
     {
       "idea": "Lux : ne pas se battre quand Rell se déplace (« why are we fighting when re is moving »)",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": false,
       "reason": "1 seule source, phrase ambiguë"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=a9QyG_fjnII (ColsENG), vidéo limitée à 3 couples (Rell__Seraphine, Rell__Sona, Rell__Thresh)",
+        "tip retiré (Lux, 1 source restante, lane, vérifié) : Tu as bien plus de portée que Rell : poke-la de loin et reste hors de portée de ses sorts, c'est ce qui rend la lane pénible pour elle.",
+        "tip retiré (Lux, 0 source restante, mechanics, vérifié) : Ton passif Illumination ne se déclenche qu'avec une attaque de base : ne t'avance pas à portée de Rell juste pour le faire exploser.",
+        "tip retiré (Rell, 0 source restante, mechanics, vérifié) : Son Illumination ne se déclenche qu'avec une attaque de base : quand elle s'avance pour la faire exploser, c'est ta fenêtre d'engage."
+      ]
     }
   ]
 }

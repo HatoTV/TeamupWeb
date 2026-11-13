@@ -122,7 +122,6 @@
     "Soraka",
     "Quinn",
     "Teemo",
-    "Milio",
     "Kayn",
     "Yuumi",
     "Mel",
@@ -161,7 +160,6 @@
     "Volibear",
     "Morgana",
     "Heimerdinger",
-    "Singed",
     "Azir",
     "Nilah",
     "Rammus",
@@ -171,12 +169,13 @@
     "Malzahar",
     "Locke",
     "Bard",
-    "Naafiri"
+    "Naafiri",
+    "Jhin",
+    "Singed",
+    "Milio"
   ],
   "inProgress": [],
-  "insufficientSources": [
-    "Jhin"
-  ],
+  "insufficientSources": [],
   "queueRule": "Un champion par fiche (Data Dragon 16.22.1, 173 champions). Ordre : parties cumulées tous rôles dans les données Builds 16.22 Maître+ (décroissant), puis les champions sans données Builds (ordre alphabétique), puis les champions sortis depuis moins de 6 mois (absents de Data Dragon 16.12.1 : Locke).",
   "queue": [],
   "videoPending": []

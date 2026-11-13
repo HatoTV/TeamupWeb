@@ -3,10 +3,178 @@
   "researchedAt": "2026-11-13",
   "gameVersion": "16.22",
   "abilityHash": "50dc94bbadc487d669af01570fd6aec1208d2ce3576b4f5d11c2b08d3195ca6d",
-  "status": "insufficientSources",
+  "status": "ok",
   "tips": {
-    "fr": [],
-    "en": []
+    "fr": [
+      {
+        "text": "Touché par Jhin, son Public captif (E) ou un CC allié ? Sa Floraison mortelle (Z) peut te root : décale-toi aussitôt, le tir traverse les minions.",
+        "sources": 4,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Quand Jhin a sa 4e balle chargée, recule hors de sa portée : ce tir crit toujours et exécute selon tes PV manquants. C'est son outil de trade.",
+        "sources": 4,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Ne reste pas près de minions bas en vie quand Jhin peut lancer sa Grenade dansante (A) : chaque kill la renforce avant qu'elle rebondisse sur toi.",
+        "sources": 3,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Jhin cache les pièges de son Public captif (E) dans les brushs, les passages étroits et contre les murs, surtout avant un objectif. Ward ou balaie avant d'y entrer.",
+        "sources": 3,
+        "verifiedByGameData": false,
+        "category": "macro"
+      },
+      {
+        "text": "Chaque tir de son Rappel de rideau (R) qui te touche te ralentit, et chaque tir s'arrête sur le premier champion touché : abrite-toi derrière un allié.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Après sa 4e balle, Jhin doit recharger et ne peut plus auto. C'est ta fenêtre pour trade ou engager, avant qu'il récupère ses balles.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Jhin n'a aucun dash et gagne sa lane au poke. Un all-in court le met en difficulté : force-le avant qu'il t'ait grignoté à mi-vie.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Pendant son Rappel de rideau (R), Jhin canalise et reste immobile. Si tu joues assassin ou diver hors de sa vue, c'est le moment de lui sauter dessus.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      }
+    ],
+    "en": [
+      {
+        "text": "Hit by Jhin, his Captive Audience (E) or an allied CC? His Deadly Flourish (W) can now root you. Sidestep right away; it pierces through minions.",
+        "sources": 4,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "When Jhin has his 4th shot loaded, step out of his range. It always crits and deals execute damage, and it's what he trades with.",
+        "sources": 4,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Don't stand next to low-health minions when Jhin has Dancing Grenade (Q) up: every kill powers it up before it bounces into you.",
+        "sources": 3,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Jhin hides his Captive Audience (E) traps in brushes, chokepoints and along walls, especially before objectives. Ward or sweep before walking through.",
+        "sources": 3,
+        "verifiedByGameData": false,
+        "category": "macro"
+      },
+      {
+        "text": "Every Curtain Call (R) shot that lands slows you, and each shot stops on the first champion it hits: hide behind an allied champion.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "After his 4th shot, Jhin has to reload and can't auto. That's your window to trade or engage before his ammo is back.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Jhin has no dash and wins lane through poke. Short all-ins hurt him, so force one before he chips you down to half HP.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "During Curtain Call (R), Jhin channels and can't move. If you're an assassin or diver out of his sight, that's your moment to jump him.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      }
+    ]
   },
-  "sources": []
+  "sources": [
+    {
+      "title": "Pro Player Explains How to Play Jhin – Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=zsC-3NBUTLI",
+      "consultedAt": "2026-11-13",
+      "channel": "Varry",
+      "publishedAt": "2026-03-02",
+      "timestamps": [
+        "1:16",
+        "5:19"
+      ]
+    },
+    {
+      "title": "How to Climb with Jhin Guide - Challenger Teaches Me ft. Omibro | Jhin Build & Gameplay",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=8Ln7EC-ryxo",
+      "consultedAt": "2026-11-13",
+      "channel": "We Teach League | Broken By Concept",
+      "publishedAt": "2026-10-08",
+      "timestamps": [
+        "25:26",
+        "32:34",
+        "51:45",
+        "56:20",
+        "57:01"
+      ]
+    },
+    {
+      "title": "Le Guide de Poche #7 - Jhin (Stuff, Runes, Gameplay...)",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=13hbaoa582Q",
+      "consultedAt": "2026-11-13",
+      "channel": "Bibou - League of Legends",
+      "publishedAt": "2026-10-14",
+      "timestamps": [
+        "0:39",
+        "4:04",
+        "14:13",
+        "14:57",
+        "15:45"
+      ]
+    },
+    {
+      "title": "How To PLAY Jhin Like a PRO!",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=fYzBW9CemWY",
+      "consultedAt": "2026-11-13",
+      "channel": "Eneino Coach",
+      "publishedAt": "2026-11-02",
+      "timestamps": [
+        "0:54",
+        "7:19"
+      ]
+    },
+    {
+      "title": "The Only Jhin Guide You Will Ever Need",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ZzWCwBIIhrM",
+      "consultedAt": "2026-11-13",
+      "channel": "Kola",
+      "publishedAt": "2026-06-15",
+      "timestamps": [
+        "0:26",
+        "0:39",
+        "1:22",
+        "2:01",
+        "2:29"
+      ]
+    }
+  ]
 }

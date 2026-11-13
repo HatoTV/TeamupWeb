@@ -1,0 +1,46 @@
+{
+  "searches": 1,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "Catching the boomerang while it is returning back refunds 40% of the ability's total cooldown.",
+    "The boomerang return direction is determined at the apex of its flight by Gnar's current position and which direction Gnar is heading at the time.",
+    "Since the cooldown between the two is shared, Mini Gnar may pick up a boulder and/or Mega Gnar may catch a boomerang.",
+    "After 0.3 seconds, Gnar can pick up the boulder by moving within 90 units of it, refunding 70% of the ability's total cooldown.",
+    "The Boulder will still drop to the ground if colliding with Wind Wall or Unbreakable.",
+    "At maximum Rage, Gnar's abilities switch to Mega abilities, for 4 seconds and until transforming back to his Mini Gnar form, with the exception of Hop and Crunch, which switches after the transformation.",
+    "Casting any of them during this time also causes Gnar to transform into Mega Gnar instantly, else he will transform automatically after the 4 seconds have elapsed.",
+    "Afterwards, Gnar returns to Mini Gnar, retaining his current percentage health and becoming too tired to generate Rage for 15 seconds.",
+    "Gnar gains Hyper's bonus movement speed when he leaves Mega Gnar form.",
+    "Boomerang Throw can be cast during the dash.",
+    "If Gnar generates Rage to maximum during Hop, he may cast Boulder Toss, Wallop, or GNAR! during the bounce.",
+    "Gnar will not bounce if he is immobilized during the first leap.",
+    "Hop has no minimum dash range. Hop does not allow Gnar to bounce off wards.",
+    "knocking away nearby enemies up to 590 units in that direction, though not through terrain",
+    "Enemies that collide with terrain take increased damage immediately and are stunned instantly instead of slowed after a delay.",
+    "GNAR! can interact with player-generated terrain.",
+    "For combos, as Minina, attack twice into Q, making sure to catch it.",
+    "And your team fighting combo is to attack and Q away until your rage is full. Then use E to jump in into an attack, Q, W, and ult before attacking away.",
+    "Use your double jump to become mega, easily getting on their backlines before stunning and smashing everyone with tons of AoE damage.",
+    "j'ai mis mon Z pendant le rebond du du saut.",
+    "quand vous faites un E qui rebondit à ce moment-là, vous pouvez du coup lancer votre Z ou votre R au moment du deuxième dash.",
+    "Et vous pouvez mettre votre R au vol d'ailleurs qui va toucher la cible sur laquelle vous avez rebondi.",
+    "Attention, si vous faites un E qui n'est pas un rebond, ça marchera pas. Faut vraiment rebondir sur quelque chose.",
+    "le Q vers l'arrière a une box qui est méga longue, elle peut vraiment aller toucher quelqu'un dont vous connaissez la position mais qui est beaucoup trop loin.",
+    "Donc d'abord vous arrêtez de bouger, vous mettez votre Q et quand il commence à revenir vers vous, là seulement vous pouvez bouger.",
+    "Ce que vous pouvez faire tout simplement avec Gnar pour cacher l'animation du Q spell, c'est le mettre pendant un jump.",
+    "Un truc encore mieux, c'est carrément de faire un jump sur sur une cible. Hop, vous mettez EQ.",
+    "The first combo is the auto Q auto combo. It's important you always auto attack first before you hit your Q for more damage. This combo allows you to proc your W also very easily.",
+    "The third combo is E, auto W, auto Q, auto R. This one is the best alling combo for NAR with maximum damage in mind.",
+    "It's important you always auto attack between each ability for more damage and so you don't stack up the stuns too quickly.",
+    "If you're about to transform with Nar, you can jump towards enemies and hit your ultimate in the middle of the air."
+  ],
+  "rejected": [
+    { "idea": "Mega Wallop (W) at the very end of Mega form (rage at 0 plus about 1 s) to stun then hit as Mini Gnar (Misanthiel)", "reason": "Single source; the remaining Mega time after the bar empties is not on the wiki." },
+    { "idea": "Boulder Toss (Q) has a large hitbox around Gnar himself (Misanthiel)", "reason": "Single source, not described by the wiki." },
+    { "idea": "Auto, Boomerang Throw, Hop off the enemy to reposition (Daveyx3)", "reason": "Single source; overlaps with the hidden boomerang combo kept." }
+  ],
+  "toVerifyInGame": [
+    "Boomerang Throw (Q) return: how far behind Gnar it can reach when he stands still at cast and moves only on the return.",
+    "Hop (E) at 100 rage: window during the second leap to cast Wallop (W) or GNAR! (R)."
+  ]
+}

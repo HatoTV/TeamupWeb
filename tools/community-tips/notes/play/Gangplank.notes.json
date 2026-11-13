@@ -1,0 +1,46 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Every time a Powder Keg explodes, the cooldown for Trial by Fire resets and Gangplank gains its bonus movement speed.",
+    "Trial by Fire cannot be applied with Parrrley nor Powder Keg.",
+    "Reapplying Trial by Fire before a previous application has run out will stack the full damage, instead of refreshing the duration.",
+    "The keg starts with 3 health and loses 1 every 2;1;0.5 [1;7;13] seconds until it is left with 1 health.",
+    "When an enemy destroys it, it is safely defused. When Gangplank destroys it, it explodes and also triggers a chain reaction that explodes other nearby connected kegs.",
+    "Each enemy can only be hit once per chain and the damage dealt ignores armor penetration [40% of the target's armor].",
+    "The triggering attack on the keg can critically strike, causing the explosion to deal the attack's critical damage.",
+    "If the keg was not destroyed, it will consume the effect and the keg will store the damage it would have dealt.",
+    "Kegs prematurely grant sight of their explosion radius (including across terrain and into bushes) if Parrrley or a lit fuse is traveling towards them.",
+    "Each enemy killed by a Powder Keg explosion that was originally set off by Parrrley also counts for the plunder.",
+    "Remove Scurvy can remove the underlying stun from airborne, but a blink or dash ability is required to override the displacement.",
+    "cast time: 0.25",
+    "you got your normal first gang planing combo one barrel down second barrel down Auto attack it pretty easy you can also blow up your barrel with your Q",
+    "you place the first barrel down and it has to be outside of your Q range outside not inside",
+    "you're going to place the second Barrel while the first one's exploding",
+    "if you Auto attack the opponent while two barrels are blowing up you'll actually get two passives on this opponent as well",
+    "passive damage Stacks it's it doesn't refresh it Stacks",
+    "this is the triple barrel combo so you place two barrels down and as you cue the first Barrel you place a third barrel down",
+    "this is a really good combo for extending your Barrel range when opponents aren't looking and for also doing it over walls",
+    "if you flash you can make up the distance of the missing range here",
+    "And your ghost barrel combo is to have two barrels down, Q your first barrel, and then throw out the third barrel on your opponent as it explodes.",
+    "An auto attack into a Q detonating a barrel into another auto attack is two lots of your true damage and the barrel explosion.",
+    "When placed, they start on three health and tick down to one health. You and enemy champions can attack them to remove health faster.",
+    "And every time he detonates a barrel with his Q, he also gains the bonus gold and silver serpents.",
+    "il faut vous mettre vraiment à la portée maximum du baril. Vous voyez, si par exemple je me mets là, plus proche que la portée max du spell de mon Q-spell, je ne pourrai pas faire le truc",
+    "vous pouvez stocker un proc brillance dans un baril. Si vous mettez un E, vous mettez une auto-attaque alors que votre brillance est active, que ça ne tue pas le baril, la brillance, elle est",
+    "ce que vous pouvez faire avec les barils de GP, c'est faire des chaînes de combos pour appliquer un passif et instantanément le récupérer.",
+    "Vous allez par exemple pouvoir mettre double passif sur une cible",
+    "on peut au moment où on sait qu'on va se faire CC, appuyer sur le bouton 0,2 0,3 secondes avant de se prendre le contrôle."
+  ],
+  "rejected": [
+    { "idea": "Q Flash phantom barrel: Flash during Parrrley to make up missing range (Solarbacca)", "reason": "Single source, not described by the wiki." },
+    { "idea": "Triple barrel over walls / from fog of war (Solarbacca)", "reason": "Single source; no explicit terrain note on the wiki." },
+    { "idea": "Remove Scurvy pre-cast against Warwick's ult (Misanthiel)", "reason": "Warwick's ult is a suppression; not confirmed that the cast-time trick works against it." },
+    { "idea": "Cannon Barrage placement on the escape path (Misanthiel)", "reason": "Macro/positioning advice rather than a mechanic; single source." },
+    { "idea": "Barrel to Cannon Barrage to barrel combo (3 Minute League of Legends)", "reason": "Single source; overlaps with the short trade combo kept." }
+  ],
+  "toVerifyInGame": [
+    "Phantom barrel: exact distance where the first keg must sit (just beyond Parrrley range) for the second keg to land in time.",
+    "Remove Scurvy (W) pre-cast window (0.2 to 0.3 s) before Jax's Counter Strike stun."
+  ]
+}

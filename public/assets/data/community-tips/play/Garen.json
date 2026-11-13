@@ -1,0 +1,120 @@
+{
+  "champion": "Garen",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade de base", "en": "Basic trade" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Place une auto, puis Coup décisif (A) qui reset ton auto et silence la cible. Enchaîne avec Jugement (E) pour tourner sur elle pendant qu'elle ne peut pas répondre avec ses sorts.",
+        "en": "Land an auto, then Decisive Strike (Q), which resets your auto and silences the target. Follow with Judgment (E) to spin on them while they cannot answer with spells."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec Embrasement et ult", "en": "All-in with Ignite and ult" },
+      "keys": ["Q", "E", "D", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Coup décisif (A), puis Jugement (E) et Embrasement. Quand la cible est bien entamée, finis-la avec Justice de Demacia (R) : ses dégâts bruts montent avec les PV manquants.",
+        "en": "Decisive Strike (Q), then Judgment (E) and Ignite. Once the target is low enough, finish them with Demacian Justice (R): its true damage grows with missing health."
+      },
+      "summoners": { "D": "SummonerDot" },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Coup décisif Flash", "en": "Decisive Strike Flash" },
+      "keys": ["Q", "F", "E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Coup décisif (A) et Flash sur la cible dès qu'elle est à portée, sans cliquer dessus avant pour cacher l'engage. Le silence l'empêche de répondre pendant Jugement (E) et Justice de Demacia (R).",
+        "en": "Cast Decisive Strike (Q) and Flash onto the target as soon as they are in range, without clicking them first to hide the engage. The silence stops them from answering during Judgment (E) and Demacian Justice (R)."
+      },
+      "summoners": { "F": "SummonerFlash" },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Jugement coupé puis auto", "en": "Cut Judgment into auto" },
+      "keys": ["E", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "En fin de trade, dès qu'un tour vient de frapper, relance Jugement (E) pour l'arrêter. Tu ne peux pas attaquer pendant la rotation : la couper te libère une auto immédiate.",
+        "en": "At the end of a trade, recast Judgment (E) right after a damage tick to stop it. You cannot attack while spinning: cutting it frees an instant auto."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le petit bond de Coup décisif (A) traverse les terrains très fins, comme la cage de Yorick. Contre un mur épais, il ne passe pas, mais le coup touche quand même ta cible.",
+        "en": "The small lunge of Decisive Strike (Q) goes through very thin terrain, like Yorick's cage. It cannot pass thick walls, but the hit still lands on your target."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "L'attaque de Coup décisif (A) ne peut pas être annulée une fois armée, et elle touche même si la cible devient inciblable pendant l'armement.",
+        "en": "The Decisive Strike (Q) attack cannot be cancelled once wound up, and it hits even if the target becomes untargetable during the windup."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Coup décisif (A) retire les slows, mais pas une zone qui ralentit en continu : si tu restes dans la Montagne de glace de Trundle, le slow revient aussitôt.",
+        "en": "Decisive Strike (Q) removes slows, but not a zone that slows continuously: if you stay inside Trundle's Pillar of Ice, the slow comes right back."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Persévérance se coupe 8 s quand un champion, une tourelle ou un monstre épique te touche, ou qu'un sort ennemi t'atteint. Les monstres de jungle normaux ne la coupent pas.",
+        "en": "Perseverance shuts off for 8 s when a champion, a turret or an epic monster hits you, or an enemy spell lands on you. Regular jungle monsters do not shut it off."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Touche un champion 6 fois avec Jugement (E) pour lui retirer 25 % d'armure pendant 6 s. L'ennemi le plus proche prend aussi plus de dégâts par tour.",
+        "en": "Hit a champion 6 times with Judgment (E) to shred 25% of their armor for 6 s. The nearest enemy also takes more damage per spin."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Jugement (E), tu traverses les unités. À la fin de la rotation, ton dernier ordre de déplacement est annulé : reclique tout de suite pour ne pas rester planté.",
+        "en": "During Judgment (E), you pass through units. When the spin ends, your last move order is cancelled: click again right away so you don't stand still."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Courage (Z) donne un bouclier et 60 % de ténacité seulement pendant les 0,75 premières secondes. Lance-le juste avant le CC ou le burst, pas après.",
+        "en": "Courage (W) gives a shield and 60% tenacity only for the first 0.75 seconds. Cast it right before the CC or burst, not after."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Justice de Demacia (R) révèle sa cible pendant 1 s au début de l'incantation, même si elle est camouflée.",
+        "en": "Demacian Justice (R) reveals its target for 1 s at the start of the cast, even if they are camouflaged."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Garen – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Garen", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "50 ASTUCES ET CHOSES À SAVOIR SUR GAREN", "url": "https://www.youtube.com/watch?v=1YS5j2QLy7A", "type": "video", "date": "2024-12-22", "author": "Yshuro13" },
+    { "title": "3 Minute Garen Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=57MxzwwZKWQ", "type": "video", "date": "2026-07-04", "author": "3 Minute League of Legends" }
+  ]
+}

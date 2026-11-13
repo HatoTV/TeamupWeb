@@ -1,0 +1,120 @@
+{
+  "champion": "Fiddlesticks",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Gank sur une cible", "en": "Single-target gank" },
+      "keys": ["R", "Q", "E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ult depuis le brouillard, puis Terreur (A) et Fauchaison (E) pour enchaîner les CC. Marche sur la cible et lance Moisson fructueuse (Z) sur elle : même si elle Flash, elle prend le dernier tick.",
+        "en": "Ult from fog of war, then Terrify (Q) and Reap (E) to chain your CC. Walk onto the target and cast Bountiful Harvest (W) on top of it: even if it Flashes, it takes the last tick."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Ult puis Moisson en teamfight", "en": "Ult into Harvest in teamfights" },
+      "keys": ["R", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Sur plusieurs cibles, lance Moisson fructueuse (Z) dès l'arrivée de Rafale de corbeaux (R) : la peur part encore et tu poses un max de dégâts sur tout le groupe.",
+        "en": "Against several targets, cast Bountiful Harvest (W) as soon as Crowstorm (R) lands: the fear still applies and you spread maximum damage over the whole group."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Ult, Moisson puis Flash", "en": "Ult, Harvest then Flash" },
+      "keys": ["R", "W", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "À la fin de l'ult, lance Moisson fructueuse (Z) puis Flash pendant que les liens partent : la peur est gardée et atteint des cibles hors de ta portée de départ.",
+        "en": "As your ult ends, cast Bountiful Harvest (W), then Flash while the tethers travel: the fear is kept and reaches targets outside your starting range."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Fauchaison bufferisée sur l'ult", "en": "Reap buffered on ult" },
+      "keys": ["R", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Appuie sur Fauchaison (E) environ une demi-seconde avant la fin de la canalisation de l'ult. Le sort part à l'arrivée et fait peur, même sur une cible hors de la zone de l'ult.",
+        "en": "Press Reap (E) about half a second before your ult channel ends: it fires on arrival and fears, even a target outside the ult area."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Effet passif de Terreur (A) : hors combat environ 2 s et invisible pour l'ennemi, ton prochain sort de dégâts fait peur à tout ce qu'il touche.",
+        "en": "Terrify (Q) passive: after about 2 s out of combat and unseen by the enemy, your next damaging spell fears everything it hits."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une cible que tu viens d'effrayer est immunisée à ta peur pendant la durée du CD de Terreur (A). Sur elle, Terreur fait alors double dégâts.",
+        "en": "A target you just feared is immune to your fear for the length of Terrify's (Q) cooldown. Against it, Terrify deals double damage instead."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Reste immobile environ 2 s pour imiter ton effigie : Moisson fructueuse (Z) et Fauchaison (E) font alors peur même si l'ennemi te voit. Bouger, taper ou lancer un sort casse le déguisement.",
+        "en": "Stand still for about 2 s to pose as your effigy: Bountiful Harvest (W) and Reap (E) then fear even if the enemy sees you. Moving, attacking or casting breaks the disguise."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si personne ne coupe ta canalisation de Moisson fructueuse (Z), 60 % de son CD restant te sont rendus. Le lien n'a même pas besoin de voir la cible.",
+        "en": "If nobody interrupts your Bountiful Harvest (W) channel, 60% of its remaining cooldown is refunded. The tether does not even need to see the target."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Vise le centre avec Fauchaison (E) : les ennemis au milieu de la zone sont réduits au silence 1,25 s en plus du slow.",
+        "en": "Aim Reap (E) at the center: enemies in the middle of the area are silenced for 1.25 s on top of the slow."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Rafale de corbeaux (R) se termine par un blink : lance-la par-dessus un mur pour tomber sur une lane depuis un angle sans vision.",
+        "en": "Crowstorm (R) ends with a blink: cast it over a wall to land on a lane from an angle with no vision."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un root n'interrompt pas la canalisation de Rafale de corbeaux (R), et tu arrives toujours au point visé, même si on te déplace sans couper l'ult.",
+        "en": "A root does not interrupt the Crowstorm (R) channel, and you always land on the chosen spot, even if you are moved without the ult being cancelled."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Flash dans la vision ennemie te retire aussitôt la peur passive. Lance d'abord ton sort, puis Flash : un sort déjà parti garde sa peur.",
+        "en": "Flashing into enemy vision removes your passive fear at once. Cast your spell first, then Flash: a spell already cast keeps its fear."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Fiddlesticks – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "FIDDLESTICKS COMBO GUIDE | Maximum Kill Potential", "url": "https://www.youtube.com/watch?v=U_96BhW-YmE", "type": "video", "date": "2023-09-27", "author": "KingFidd" },
+    { "title": "Fiddlesticks Mechanics Guide/Tutorial - 14.18", "url": "https://www.youtube.com/watch?v=osrNAcqynBQ", "type": "video", "date": "2024-09-22", "author": "NunyuhBusiness" },
+    { "title": "3 Minute Fiddlesticks Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=aaz1602ftoU", "type": "video", "date": "2026-03-07", "author": "3 Minute League of Legends" }
+  ]
+}

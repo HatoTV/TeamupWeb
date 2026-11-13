@@ -1,0 +1,119 @@
+{
+  "champion": "Gangplank",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Double baril de base", "en": "Basic double barrel" },
+      "keys": ["E", "E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose un Baril de poudre (E), puis un second relié au premier sur l'ennemi. Fais exploser le premier avec Pourparlers (A) ou une auto quand il est à 1 PV : la chaîne fait sauter le second.",
+        "en": "Place a Powder Keg (E), then a second one linked to it on the enemy. Blow up the first with Parrrley (Q) or an auto once it is at 1 health: the chain detonates the second."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Baril fantôme", "en": "Phantom barrel" },
+      "keys": ["E", "Q", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Pose le premier Baril de poudre (E) à la portée max de Pourparlers (A), tire dessus, puis place le second baril sur l'ennemi pendant le tir. Il explose aussitôt, sans laisser le temps de réagir.",
+        "en": "Place the first Powder Keg (E) at max Parrrley (Q) range, shoot it, then drop the second keg on the enemy while the shot is on its way. It blows up instantly, leaving no time to react."
+      },
+      "refs": [1, 3]
+    },
+    {
+      "name": { "fr": "Triple baril", "en": "Triple barrel" },
+      "keys": ["E", "E", "Q", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Pose deux Barils de poudre (E) reliés, tire sur le premier avec Pourparlers (A), puis lance le troisième sur ta cible pendant l'explosion. La chaîne porte bien plus loin qu'un double baril.",
+        "en": "Place two linked Powder Kegs (E), shoot the first with Parrrley (Q), then throw the third on your target while it explodes. The chain reaches much farther than a double barrel."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Trade court avec double passif", "en": "Short trade with double passive" },
+      "keys": ["E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Auto l'ennemi pour poser Épreuve du feu, fais exploser un Baril de poudre (E) avec Pourparlers (A) sur lui, puis remets une auto. L'explosion recharge ton passif : deux brûlures dans le même trade.",
+        "en": "Auto the enemy to apply Trial by Fire, detonate a Powder Keg (E) on them with Parrrley (Q), then auto again. The explosion resets your passive: two burns in the same trade."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque explosion de baril recharge Épreuve du feu. Avec deux barils en chaîne, place une auto entre les deux explosions : les deux brûlures se cumulent au lieu de se rafraîchir.",
+        "en": "Each keg explosion resets Trial by Fire. With two chained kegs, fit an auto between the two explosions: both burns stack instead of refreshing."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Ni Pourparlers (A) ni l'explosion d'un baril n'appliquent Épreuve du feu : il faut une vraie auto sur l'ennemi pour poser la brûlure.",
+        "en": "Neither Parrrley (Q) nor a keg explosion applies Trial by Fire: you need a real auto on the enemy to apply the burn."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une auto avec Lame enchantée (Brillance) sur un baril qui ne meurt pas y stocke les dégâts. Ils s'ajoutent à l'explosion plus tard, même si tu relances Brillance ailleurs entre-temps.",
+        "en": "An auto with Spellblade (Sheen) on a keg that does not die stores the damage in it. It adds to the explosion later, even if you use Sheen elsewhere in the meantime."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Un Baril de poudre (E) passe de 3 à 1 PV tout seul : un PV toutes les 2 s, puis 1 s au niveau 7 et 0,5 s au niveau 13. Si l'ennemi l'achève, il est désamorcé.",
+        "en": "A Powder Keg (E) drops from 3 to 1 health on its own: one health every 2 s, then 1 s at level 7 and 0.5 s at level 13. If the enemy finishes it, it is defused."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'attaque qui fait sauter le baril peut faire un coup critique : l'explosion inflige alors les dégâts critiques. Elle ignore aussi 40 % de l'armure de la cible.",
+        "en": "The attack that blows up the keg can crit: the explosion then deals the critical damage. It also ignores 40% of the target's armor."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un baril révèle sa zone d'explosion dès que Pourparlers (A) ou la mèche file vers lui, même derrière un mur ou dans un buisson. Pratique pour voir qui se cache avant l'impact.",
+        "en": "A keg reveals its blast area as soon as Parrrley (Q) or the fuse heads toward it, even behind a wall or into a brush. Handy to see who is hiding before impact."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un baril que tu fais sauter avec Pourparlers (A) te donne le bonus d'or et de Serpents d'argent pour chaque sbire qu'il tue. Fais-les sauter au Pourparlers sur les waves.",
+        "en": "A keg you detonate with Parrrley (Q) grants the bonus gold and Silver Serpents for every minion it kills. Detonate them with Parrrley on waves."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Guérison du scorbut (Z) a 0,25 s d'incantation. Contre un CC prévisible comme Contre-attaque de Jax, lance-la juste avant l'impact pour presque l'annuler.",
+        "en": "Remove Scurvy (W) has a 0.25 s cast time. Against a predictable CC like Jax's Counter Strike, cast it just before the hit to almost cancel it."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Gangplank – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Gangplank", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "ULTIMATE Season 15 Gangplank Guide | Combos, Runes, Items, Matchup Guide", "url": "https://www.youtube.com/watch?v=ovxTp25pQnw", "type": "video", "date": "2025-01-17", "author": "Solarbacca" },
+    { "title": "3 Minute Gangplank Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=vGGTFeK1PKY", "type": "video", "date": "2026-06-02", "author": "3 Minute League of Legends" },
+    { "title": "5 TIPS AVANCÉS SUR GANGPLANK !", "url": "https://www.youtube.com/watch?v=AtiQb8qHr2A", "type": "video", "date": "2026-05-30", "author": "Misanthiel - Coach Toplane" }
+  ]
+}

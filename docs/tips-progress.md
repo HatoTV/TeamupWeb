@@ -55,18 +55,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Elise (2 combos, 8 astuces)
 - ✅ Evelynn (3 combos, 8 astuces)
 
-### Lot 4 — ⏳
+### Lot 4 — ✅
 
-- ⏳ Ezreal
-- ⏳ Fiddlesticks
-- ⏳ Fiora
-- ⏳ Fizz
-- ⏳ Galio
-- ⏳ Gangplank
-- ⏳ Garen
-- ⏳ Gnar
-- ⏳ Gragas
-- ⏳ Graves
+- ✅ Ezreal (4 combos, 8 astuces)
+- ✅ Fiddlesticks (4 combos, 8 astuces)
+- ✅ Fiora (3 combos, 8 astuces)
+- ✅ Fizz (4 combos, 8 astuces)
+- ✅ Galio (3 combos, 8 astuces)
+- ✅ Gangplank (4 combos, 8 astuces)
+- ✅ Garen (4 combos, 8 astuces)
+- ✅ Gnar (5 combos, 7 astuces)
+- ✅ Gragas (4 combos, 7 astuces)
+- ✅ Graves (4 combos, 8 astuces)
 
 ### Lot 5 — ⏳
 

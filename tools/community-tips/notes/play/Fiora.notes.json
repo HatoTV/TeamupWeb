@@ -1,0 +1,52 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Fiora identifies the Vitals of nearby enemy champions, marked as an arc around them in North-, East-, South- or Westward direction.",
+    "Vitals take 1.75 seconds to become targetable and linger for 13.25 seconds afterwards while Fiora remains near the target, otherwise the Vital will disappear. After a Vital expires, Fiora identifies a new one on her target.",
+    "Vitals can be triggered by any source of damage Fiora deals, except those with default damage and reactive damage types.",
+    "Vitals spawn directions alternate in a Northeast-Southwest pattern. Other than that, they have a 50% chance to spawn North or East, or South or West, respectively.",
+    "Vitals are identified upon an enemy gaining sight of Fiora, and they are maintained while enemies maintain sight of Fiora.",
+    "If the enemy has no sight of Fiora, Vitals are not identified.",
+    "Fiora dashes in the target direction, then stabs a nearby enemy based on a priority. Stabbing a target reduces Lunge's cooldown by 50%.",
+    "Fiora can cast any of her abilities during the dash.",
+    "Nearest enemy champion with their Vital facing Fiora.",
+    "Fiora enters a defensive stance for 0.75 seconds, during which she is unable to act, prevents all incoming non-turret damage, and gains debuff immunity.",
+    "If Riposte negates at least one hostile immobilizing effect, Fiora stuns the target for the same duration instead.",
+    "The shock missile will be fired from wherever Fiora is after the first 0.5 seconds of Riposte.",
+    "Fiora empowers her next two basic attacks on-attack within 4 seconds to gain range and bonus attack speed.",
+    "Bladework basic attack resets Fiora's basic attack timer.",
+    "Fiora challenges the target enemy champion for 8 seconds, highlighting all four of their Vitals after a 0.5-second delay.",
+    "While near the target, Fiora gains Duelist's Dance bonus movement speed.",
+    "When you hit the vital from max range, they can't hit you back.",
+    "They either spawn top and right or left and bottom and they alternate from that pattern.",
+    "If you just walk away, you can reset the vital and it's guaranteed to spawn on the opposite side of the pattern.",
+    "vitals will only spawn if both champions see each other.",
+    "You can use W while dashing with Q. With this technique, you can purposely get hit by CC and use it against enemies without them even realizing it.",
+    "You can't cast ultimate while you're channeling W, so you're going to need to press QRW to cast everything at the same time.",
+    "You can create a five vital combo by hitting a vital first, then instantly ulting to spawn in all four vitals.",
+    "you can Q and W at the same time and kind of transport your W. This is very good in moments where you're chasing down an enemy.",
+    "But the even better way to do it to QRW, you can't QW WR cuz you can't ult during your W.",
+    "Literally, anything that does damage from Fiora that is not a dot or ignite procs vitals.",
+    "So, there has to be a line between you and the enemy that that crosses the vital.",
+    "Both champions have to have vision of each other. If both champions have vision of each other, vitals spawn.",
+    "An example of this is just doing auto EQ auto. That is an ult combo without using hydra, without using flash, without using W.",
+    "if you're chasing an enemy champion and he's just slightly out of your range, like ever so slightly, your E gives you extra range.",
+    "If you're getting chased, use your ult for move speed.",
+    "For combos, start Q to proc a vital into your ultimate and W. You then need to proc the other three vitals with an attack into your two quick E attacks as you move around them.",
+    "And if it is behind your opponent simply walk out of the range until it resets.",
+    "However, if she blocks a hard crowd control effect, she instead stuns the target."
+  ],
+  "rejected": [
+    { "idea": "Sauts de mur avec Fente (A) (« flower jump » et autres)", "reason": "Une seule source (Potent), le wiki ne dit pas que le dash franchit le terrain." },
+    { "idea": "Auto puis Flash par-dessus un mur pour rediriger l'attaque sur le point faible", "reason": "Une seule source (retrad)." },
+    { "idea": "Spammer l'auto pendant Fente + Riposte pour glisser une auto (bug)", "reason": "Bug décrit par une seule source, non fiable." },
+    { "idea": "Toucher un point faible une frame avant son apparition", "reason": "Une seule source, timing quasi impossible à reproduire." },
+    { "idea": "Garder E et R pour la fin du combat quand Conquérant est chargé", "reason": "Conseil de rune, hors périmètre combos/astuces du champion." },
+    { "idea": "Combo auto-E-Hydre-Flash-A", "reason": "Une seule source, dépend d'un objet." }
+  ],
+  "toVerifyInGame": [
+    "Fente + Défi suprême + Riposte : ordre exact des touches pour que tout parte avant le verrouillage de Riposte.",
+    "Distance à parcourir pour faire disparaître un point faible (le wiki parle seulement de rester « près » de la cible)."
+  ]
+}

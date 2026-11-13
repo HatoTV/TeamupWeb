@@ -1,0 +1,34 @@
+{
+  "searches": 3,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Upon arrival, the cask starts to ferment over the first 2 seconds of its duration to increase its damage and the effectiveness of its slow, up to a maximum of 150% of their initial values.",
+    "The cask ignores unit and terrain collision therefore it will only stop once it reaches the target location.",
+    "Barrel Roll has an internal cooldown while traveling so that Gragas may only make it explode on arrival.",
+    "Upon completing the channel, Gragas empowers his next basic attack within 5 seconds to have an uncancellable windup, gain 50 bonus range and deal bonus magic damage to the target and nearby enemies",
+    "cooldown: 5 [Starts post-effect]",
+    "Gragas charges in the target direction and stops upon colliding with an enemy, dealing magic damage to all nearby enemies, knocking them back, though not through terrain, and stunning them for 1 second.",
+    "Body Slam's current cooldown is reduced by 40% if Gragas hits an enemy.",
+    "Barrel Roll and Explosive Cask can be cast during the dash.",
+    "Flash can be casted during Body Slam, instantly ending it and affecting enemies at the flash location.",
+    "Units hit by Body Slam turn away from Gragas.",
+    "Displacement immunity will not resist the application of the stun.",
+    "exploding on impact to deal magic damage to all enemies within the area and knock them back 900 units, though not through terrain, from the epicenter of the explosion",
+    "For combos, start with W, then use Q and E. Then attack, detonating Q as late as possible.",
+    "Your initiation is W, then Q and E. After that, use your ultimate and just before landing, detonate Q.",
+    "And a fan combo: throw Q, then W and E, adding a flash if necessary. Follow up with an ult, then blast Q when enemies land on it.",
+    "If he hits an enemy with this ability, its cooldown is reduced by 40%.",
+    "Gragas' ultimate ability creates a large circle on the ground, damaging enemies and pushing them away from the center.",
+    "flesh is the best Summoner spell for gagas because of his insane Synergy with the E flesh combo without flesh there is no bomba",
+    "you out trade almost anybody very easily with just W and E it's very unskilled and you literally just walk at them and bunk them on the head"
+  ],
+  "rejected": [
+    { "idea": "STEP BY STEP TUTORIAL ON TANK GRAGAS (Woody Fruity)", "reason": "Opened; gameplay commentary without usable combo or mechanic." },
+    { "idea": "Older combo guides (Woody Fruity 2017, PanunuLoL, LoL Dobby, Hoompty)", "reason": "Older than 2 years, not opened." },
+    { "idea": "Aim Explosive Cask behind the target / Flash behind the target to insec toward your team", "reason": "No source read states it explicitly; only the wiki epicenter mechanic is kept." }
+  ],
+  "toVerifyInGame": [
+    "Explosive Cask (R) then Barrel Roll (Q) detonation: exact moment to pop the cask so it hits as the target lands.",
+    "Body Slam (E) into Flash: latest point in the charge where Flash still moves the impact."
+  ]
+}

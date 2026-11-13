@@ -1,0 +1,43 @@
+{
+  "searches": 1,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "Innate: Ezreal generates a stack of Rising Spell Force for each enemy hit by his abilities, lasting for 6 seconds, refreshing on subsequent hits, and stacking up to 5 times.",
+    "Rising Spell Force will stack even if the abilities hit were blocked by spell shield.",
+    "If Mystic Shot successfully hits an enemy, the current cooldowns of Ezreal's abilities, including Mystic Shot's, are reduced by 1.5 seconds.",
+    "Even if the ability is blocked by spell shield it will still trigger the cooldown reduction.",
+    "Ezreal fires an orb in the target direction that marks the first enemy champion, epic monster, or structure hit for 4 seconds.",
+    "If the mark was detonated with an ability, Ezreal restores mana plus the mana cost of that ability.",
+    "Ezreal blinks from his current location to up to 475 units towards the target location, then fires a homing bolt towards the nearest enemy that deals magic damage and reveals them for 1 second.",
+    "Arcane Shift prioritizes firing at the nearest enemy marked by Essence Flux.",
+    "The target does not have to be visible to be hit by this ability.",
+    "For combos, your basic combo is to attack into W and Q. Attack away using Q as often as possible and use E as needed for safety or to chase an opponent down. And if you can ever catch your opponent out, use ultimate into E, W, and Q before attacking away.",
+    "When attacking your opponents, don't use the Q-AA combo, use the AA-Q combo instead, because it's much faster.",
+    "When you hit a target with 'Q', it will reduce the cooldown of all Ezreal's abilities by 1.5 seconds. That's why when you go to the lane, you can attack the nearby monsters to reduce the cooldown of your abilities.",
+    "Ezreal's 'Q' can be combined with 'Flash', but use 'Q' first and then 'Flash' because the animation is faster.",
+    "When attacking enemy towers, use 'W' on them because your auto attacks will deal more damage that way.",
+    "You can also combine his 'W' with 'Flash', but first use 'W', then 'Flash' because the animation is faster.",
+    "You can use 'E' to attack invisible opponents.",
+    "Ezreal's 'E' has a big range, you can use it to go through some big walls.",
+    "Once you reach level 3 the basic trading combo is W-Q-E-AA. You can combine Ezreal's ultimate with 'Flash' to confuse your opponents.",
+    "Once you reach level 6 the all in combo is W-Q-E-AA-R-AA.",
+    "dès que sur un CC, il met son Z puis plus son Q et une autoattaque pour faire énormément de dégâts",
+    "Il est bien mieux dans cette situation de vouloir mettre ses que entre deux timings de réc normalement une autoattaque",
+    "So what's cool is that it goes through the minions. So typically, if the guy is in a wave, you can completely put a Z on him.",
+    "You gain mana on the combo. You gain mana.",
+    "the E, it's very simple, it's a blink. So, what is a blink? There you go, you saw that I can go through all walls.",
+    "Regarding combos, very simply, we're going to come to the very important point, all the spells are flashable. That is to say, you can flash Q, you can flash Z, you can flash R.",
+    "often what you do is you put your Z and then you come up with the combo that does the most damage. If you can put the R, all the better."
+  ],
+  "rejected": [
+    { "idea": "Q ou W dans un buisson : animation plus courte et son spécifique si un ennemi caché est touché", "reason": "Une seule source (Evvelyx), absent du wiki." },
+    { "idea": "Sablier (Stopwatch) pendant le E pour quand même toucher la cible", "reason": "Une seule source (Evvelyx, 2022), interaction non confirmée au patch 16.22." },
+    { "idea": "Combo Flash-E-Q pour rattraper une cible lointaine", "reason": "Une seule source (Evvelyx)." },
+    { "idea": "Caméra déverrouillée + E : les sorts suivants visent automatiquement la cible", "reason": "Une seule source, affirmation douteuse." },
+    { "idea": "Mur invisible élargi près de la tour bot (EXYT)", "reason": "Info de carte, pas propre à Ezreal, une seule source." }
+  ],
+  "toVerifyInGame": [
+    "Ordre Q/Z/R puis Flash : le Flash doit partir pendant le temps d'incantation (0,25 s) pour que le sort parte de la nouvelle position.",
+    "Épaisseur maximale de mur franchissable avec le blink de 475 unités du E."
+  ]
+}

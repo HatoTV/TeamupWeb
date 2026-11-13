@@ -1,0 +1,109 @@
+{
+  "champion": "Fiora",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Riposte glissée", "en": "Sliding Riposte" },
+      "keys": ["Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Riposte (Z) pendant le dash de Fente (A) : tu pares en avançant et l'estoc part de ton point d'arrivée. Idéal pour chase, ou pour prendre exprès un CC et le renvoyer en stun.",
+        "en": "Cast Riposte (W) during the Lunge (Q) dash: you parry while moving and the thrust fires from where you land. Great to chase, or to take a CC on purpose and turn it into a stun."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage Fente, Défi, Riposte", "en": "Lunge, Challenge, Riposte engage" },
+      "keys": ["Q", "R", "W"],
+      "level": "hard",
+      "desc": {
+        "fr": "Touche un point faible avec Fente (A), active Défi suprême (R) pendant le dash, puis Riposte (Z). Tu ne peux pas ult pendant Riposte : lance tout dans cet ordre, très vite.",
+        "en": "Hit a vital with Lunge (Q), cast Grand Challenge (R) during the dash, then Riposte (W). You cannot ult during Riposte: cast everything in this order, very fast."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Ult rapide auto, E, A", "en": "Fast ult: auto, E, Q" },
+      "keys": ["R", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Après Défi suprême (R) : auto, Botte secrète (E) qui remet ton auto à zéro, Fente (A), auto. Tape les coins des points faibles pour passer au suivant en un pas.",
+        "en": "After Grand Challenge (R): auto, Bladework (E) to reset your auto, Lunge (Q), auto. Hit the corners of the vitals so the next one is a single step away."
+      },
+      "refs": [2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Les points faibles alternent entre deux moitiés : haut ou droite, puis bas ou gauche. Dès que tu en touches un, va déjà vers l'autre moitié.",
+        "en": "Vitals alternate between two halves: top or right, then bottom or left. As soon as you hit one, already move toward the other half."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Un point faible n'apparaît que si l'ennemi te voit. Dans un buisson, si aucun point faible ne s'affiche sur lui, il n'a pas de vision sur toi.",
+        "en": "A vital only appears if the enemy can see you. In a bush, if no vital shows on them, they have no vision of you."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Point faible placé derrière l'ennemi ? Éloigne-toi assez pour qu'il disparaisse : le suivant apparaît sur l'autre moitié, souvent plus facile à toucher.",
+        "en": "Vital stuck behind the enemy? Walk far enough away for it to vanish: the next one appears on the other half, often easier to reach."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Fente (A) frappe dans un rayon autour de ton point d'arrivée et vise en priorité un point faible tourné vers toi. Touche-le à portée max puis repars, le melee adverse ne peut pas répondre.",
+        "en": "Lunge (Q) stabs in a radius around where you land and prioritizes a vital facing you. Hit it from max range, then leave: the enemy melee cannot answer."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Riposte (Z) pare tous les dégâts sauf ceux des tourelles. Si tu pares un effet immobilisant, ton estoc étourdit au lieu de ralentir.",
+        "en": "Riposte (W) parries all damage except from turrets. If you parry an immobilizing effect, your thrust stuns instead of slowing."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Botte secrète (E) donne un peu de portée à tes deux autos. Si la cible est juste hors de portée, active E pour taper sans avancer.",
+        "en": "Bladework (E) gives your next two autos a bit of extra range. If the target is just out of reach, pop E to hit without stepping forward."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tous tes dégâts déclenchent les points faibles, sauf les dégâts sur la durée. Une Hydre active marche aussi, tant que tu es du côté du point faible.",
+        "en": "All your damage triggers vitals, except damage over time. An active Hydra works too, as long as you stand on the vital's side."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Défi suprême (R) te donne de la vitesse tant que tu restes près de la cible. Pris en chase, ult le poursuivant pour fuir plus vite.",
+        "en": "Grand Challenge (R) grants you speed while you stay near the target. When chased, ult your pursuer to run away faster."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Fiora – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Fiora", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "SECRET Pro Level Fiora Mechanics Guide", "url": "https://www.youtube.com/watch?v=T5fnh1h790k", "type": "video", "date": "2024-03-24", "author": "retrad" },
+    { "title": "The 10 MOST USEFUL  TIPS on Fiora | Potent213", "url": "https://www.youtube.com/watch?v=Cf6yGGhg438", "type": "video", "date": "2026-01-16", "author": "Potent" },
+    { "title": "3 Minute Fiora Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=pVNm5nEsOdM", "type": "video", "date": "2026-05-29", "author": "3 Minute League of Legends" }
+  ]
+}

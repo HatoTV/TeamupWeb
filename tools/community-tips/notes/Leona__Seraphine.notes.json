@@ -1,0 +1,83 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] Leona's E roots and then her Q stuns after that. It adds up to a second and a half.",
+    "[0] Engage beat them 61 % of the time because once a tank reaches a mage, there's no dash and no shield to protect them.",
+    "[0] Seraphine slow that turns into a root. Whichever mage spell lands first decides the trade.",
+    "[1] She needs to place safe since her hp bar is so small",
+    "[1] she can take a lot of damage before her level 3, so stay away from her and wait",
+    "[2] Leona is kind of a 50/50 scenario. Just avoid feeding or playing too aggressively into her when she has kill pressure."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 15 2026-11-12",
+  "videosFound": 32,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "cSo_1d4eVtw",
+      "channel": "needyhenry",
+      "result": "lu, inutilisé (Seraphine high elo : Leona jamais citée ; piste « en » traduite)"
+    },
+    {
+      "id": "jAhen3xYur0",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (Leona low vs high elo 3 h : Seraphine jamais citée)"
+    },
+    {
+      "id": "QwqHPjj900s",
+      "channel": "i0ki",
+      "result": "lu, inutilisé (Leona rang 1 : Seraphine jamais citée ; piste « en » traduite)"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "lu en « en-orig », non retenu : conseils de classe (engage contre mages), une seule source"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/seraphine",
+      "result": "ok partiel (auteurs Leona : RASKODILA123 [S11], jackdw31 [10.25] anciens ; lordepurple sans date)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/leona",
+      "result": "ok partiel (auteurs Seraphine : stroderna [25.11], longlastlex et SunnySneezer sans date)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Leona : enchaîner E puis A, Seraphine n'a pas de dash",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "1 vidéo de classe + commentaires anciens non mécaniques"
+    },
+    {
+      "idea": "Leona : esquiver le Battement (E), son slow devient un root",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source ; DDragon ne décrit pas le root (« impairs movement »)"
+    },
+    {
+      "idea": "Leona : attendre son lvl 3, elle fait beaucoup de dégâts avant",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 commentaire sans date, contredit par la vidéo (l'engage gagne les premières minutes)"
+    },
+    {
+      "idea": "Seraphine : ne pas jouer agressif quand Leona a la kill pressure",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "un seul tip possible côté Seraphine : côté non affichable"
+    }
+  ]
+}

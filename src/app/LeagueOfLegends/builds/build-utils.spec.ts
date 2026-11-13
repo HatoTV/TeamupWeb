@@ -1,7 +1,23 @@
-import { BuildData, StaticCore } from '../../core/data/build-data.service';
-import { buildAsText, formatDelta, formatRate, formatTiming, groupItems, isBuildFilter } from './build-utils';
+import { BuildData, BuildMeta, StaticCore } from '../../core/data/build-data.service';
+import { buildAsText, formatDelta, formatRate, formatTiming, groupItems, isBuildFilter, rankFilters } from './build-utils';
 
 describe('build utils', () => {
+  it('only keeps rank filters with games of their own tier', () => {
+    const meta = (games: Record<string, number>): BuildMeta => ({
+      current: '16.22',
+      latest: '16.22',
+      patches: [{ patch: '16.22', ddragonVersion: '16.22.1', games, updatedAt: '' }],
+      filters: ['emerald_plus', 'diamond_plus', 'master_plus', 'grandmaster_plus', 'challenger'],
+      regions: ['all'],
+      minGamesForNewPatch: 200,
+    });
+    const masterOnly = { 'emerald_plus|all': 5399, 'diamond_plus|all': 5399, 'master_plus|all': 5399, 'grandmaster_plus|all': 186, 'challenger|all': 6 };
+    expect(rankFilters(meta(masterOnly))).toEqual(['master_plus', 'grandmaster_plus', 'challenger']);
+    expect(rankFilters(meta({ ...masterOnly, 'emerald_plus|all': 9000 }))).toEqual(['emerald_plus', 'master_plus', 'grandmaster_plus', 'challenger']);
+    expect(rankFilters(meta({ ...masterOnly, 'challenger|all': 0 }))).toEqual(['master_plus', 'grandmaster_plus']);
+    expect(rankFilters(null)).toEqual([]);
+  });
+
   it('formats rates, deltas and timings in both languages', () => {
     expect(formatRate(0.5123, 'fr')).toBe('51,2 %');
     expect(formatRate(0.5123, 'en')).toBe('51.2%');

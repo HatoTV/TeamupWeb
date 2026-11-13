@@ -1,0 +1,137 @@
+{
+  "pair": [
+    "Kaisa",
+    "Twitch"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Kaisa": "fdeba50a5451f71e356bbc6a3b696dbb381780f2f5343cd4f1853e28921d7cb2",
+    "Twitch": "0cb4c2318119b92730e3befad453805c7db7ba4a33ffde9370af4bd640d5b3d6"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Kaisa": {
+      "fr": [
+        {
+          "text": "Ton Rayon du Néant (Z) révèle le premier ennemi touché : vise Twitch quand il passe en Embuscade (A) pour le garder visible.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Quand il s'avance pour auto, réponds par ta Pluie d'Icathia (A) : loin de ses sbires, toutes les roquettes tombent sur lui.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Garde ton Instinct meurtrier (R) : quand il lance Panique (R), bondis près d'un ennemi marqué par ton passif pour sortir de ses tirs.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Void Seeker (W) grants True Sight on the first enemy hit: aim it at Twitch when he goes into Ambush (Q) to keep him visible.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "When he steps up to auto, answer with Icathian Rain (Q): away from his minions, every missile lands on him.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Hold Killer Instinct (R): when he starts Spray and Pray (R), warp next to an enemy marked by your passive to get out of his bolts.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Twitch": {
+      "fr": [
+        {
+          "text": "Ne lance pas de short trade loin de ta wave : sa Pluie d'Icathia (A) te punit, mais près de tes sbires ses roquettes se répartissent.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Son Rayon du Néant (Z) te révèle s'il te touche : pendant ton Embuscade (A), reste derrière tes sbires, hors de sa ligne.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Une fois son Surpresseur (E) évolué, elle peut devenir invisible : ne t'avance pas seul hors de vision, elle peut te pick.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Panique (R) allonge ta portée : frappe Kai'Sa de loin et force-la à avancer dans tes tirs pour t'atteindre.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Don't start short trades away from your wave: her Icathian Rain (Q) punishes you, but near your minions its missiles split up.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Her Void Seeker (W) reveals you if it hits: during Ambush (Q), stay behind your minions and out of its line.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Once her Supercharge (E) is evolved, it makes her invisible: don't walk up alone outside vision, she can pick you off.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Spray and Pray (R) extends your range: hit Kai'Sa from afar and force her to walk into your bolts to reach you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "TWITCH MATCHUP TIERLIST + WINRATES",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=fAbMTDEX1fQ",
+      "consultedAt": "2026-11-12",
+      "channel": "Wackaflcka",
+      "publishedAt": "2025-04-11",
+      "timestamps": [
+        "2:07",
+        "2:19"
+      ]
+    },
+    {
+      "title": "Kaisa Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/kaisa",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Twitch Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/twitch",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

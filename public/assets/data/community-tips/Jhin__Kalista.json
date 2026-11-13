@@ -1,0 +1,131 @@
+{
+  "pair": [
+    "Jhin",
+    "Kalista"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Jhin": "50dc94bbadc487d669af01570fd6aec1208d2ce3576b4f5d11c2b08d3195ca6d",
+    "Kalista": "92f318d4bc2e99b639584c678e5eba3d981a8bc5aba4936a51c249e1148b879f"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Jhin": {
+      "fr": [
+        {
+          "text": "Kalista peine à te coller sans support d'engage, mais devient très menaçante avec un gros engage. Règle ta distance sur son support.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Évite sa Perforation (A) et ne te colle pas aux sbires criblés de lances : si son Extirpation (E) en tue un, le sort revient aussitôt.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ses sauts suivent ses attaques : ton Public captif (E) la ralentit, puis ta Floraison mortelle (Z) l'immobilise, de quoi casser son kite.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Without an engage support she struggles to reach you; with strong engage she becomes very threatening. Set your spacing based on her support.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Dodge her Pierce (Q) and don't hug minions full of spears: if Rend (E) kills one, its cooldown resets instantly.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Her hops follow her attacks: Captive Audience (E) slows her and Deadly Flourish (W) roots her, which shuts down her kiting.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Kalista": {
+      "fr": [
+        {
+          "text": "Ton all-in repose sur ton support : avec un vrai engage tu le menaces, sinon il joue loin et tu peines à le rattraper.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Respecte son 4e tir, un critique garanti. Dès qu'il recharge, enchaîne les autos pour empiler tes lances, puis conclus le trade avec ton Extirpation (E).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ne reste pas près des sbires bas en vie : sa Grenade dansante (A) rebondit sur eux jusqu'à toi.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Your all-in relies on your support: with real engage you threaten him, otherwise he plays far back and you struggle to catch him.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Respect his fourth shot, a guaranteed crit. As soon as he reloads, chain autos to stack your spears, then finish the trade with Rend (E).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Stay away from low-health minions: his Dancing Grenade (Q) bounces off them into you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "The Ultimate Jhin Matchup Tier List",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=sd4t6Hh5V38",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League Highlights & Clips",
+      "publishedAt": "2026-10-31",
+      "timestamps": [
+        "2:15",
+        "2:36"
+      ]
+    },
+    {
+      "title": "Jhin Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=kalista",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Kalista Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/kalista/counters/adc?target_champion=jhin",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Jhin Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/jhin",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

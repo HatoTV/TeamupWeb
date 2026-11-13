@@ -1,0 +1,146 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] I'm going to put that in Jhin favor actually because I think Jhin actually pushes the wave a little bit better than Caitlyn does.",
+    "[0] Jhin just beats Caitlyn in the push. Jhin will beat Caitlyn in the short trades if he's if he does win push because he'll just be sitting behind his wave, right?",
+    "[0] And eventually once Jhin gets ult, he is just stronger than Caitlyn. Um because Jhin Caitlyn ult is pretty worthless compared to Jhin ult.",
+    "[1] En vrai, je suis très très très très fort en early pour prendre le push. Jhin c'est un bon neutraliseur à à Caitlyn.",
+    "[1] quand les champions ont plus beaucoup de PV notamment grâce à la quatrième balle, grâce au Q. Q auto, ça fait très mal avec Jhin, donc si les mecs sont un peu low et que moi je suis un peu low, c'est toujours à mon avantage notamment dans le matchup Jhin Caitlyn.",
+    "[1] Caitlyn n'a pas de flash, ça ça va être très très big pour mon niveau 6 notamment même en 1 V 1 si jamais j'ai envie de faire un play un play tout seul.",
+    "[1] Kévin va avoir son ulti, moi j'ai pas d'ulti actuellement. Je suis pas sur mon timing le plus fort, mais je reste quand même beaucoup plus fort qu'elle.",
+    "[2] Be wary to avoid of Caitlyn’s Piltover Peacemaker (Q), as well as not being caught on the Yordle Snap Trap(W).",
+    "[3] Be careful of Jhin’s Dancing Granade(Q) that bounces off minions as well as his fourth basic attack!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 90,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list Jhin ft. Omibro, passage Caitlyn (3:27-4:18) ; transcription déjà enregistrée au lot 3, ouverture comptée pour chacun des 3 couples)"
+    },
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "écarté : « 2026 Ultimate ADC Episode » (2 h 17, chapitré par champion) ; chapitres Caitlyn et Jhin = conseils généraux du champion, aucun conseil propre au matchup (ouverture comptée pour les 3 couples)"
+    },
+    {
+      "id": "nd1yYxv44yc",
+      "channel": "Dadamx",
+      "result": "écarté : « Metroarcher CAITLYN VS JHIN REVIEW » (FR), commentaire centré sur une rune et des objets, aucun conseil de matchup utilisable"
+    },
+    {
+      "id": "njPAAA_O1us",
+      "channel": "Soldierlol_",
+      "result": "utilisé (FR, Challenger, vidéo éducative Jhin vs Caitlyn, 28 min)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=caitlyn",
+      "result": "ok (1 tip écrit Jhin vs Caitlyn)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/caitlyn/counters/adc?target_champion=jhin",
+      "result": "ok (1 tip écrit Caitlyn vs Jhin)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : prendre le push tôt, Jhin pousse mieux que Caitlyn",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Jhin : trades courts derrière sa wave (A + attaque, 4e balle)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (rebond de A, 4e balle critique)"
+    },
+    {
+      "idea": "Jhin : lvl 6, ton ult surpasse le sien (surtout si elle n'a plus Flash)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Jhin : bas en PV tous les deux = avantage Jhin (4e balle)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (4e balle : critique + dégâts d'exécution)"
+    },
+    {
+      "idea": "Jhin : esquiver le A et les pièges de Caitlyn",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (A canalisé 1 s ; piège immobilise 1,5 s, Tir dans la tête renforcé)"
+    },
+    {
+      "idea": "Jhin : plus fort qu'elle même sans ult",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Caitlyn : le matchup dépend du support (Lux te fait gagner)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Caitlyn : éviter les fights à PV bas (4e balle)",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Caitlyn : ne pas forcer les trades courts quand il est derrière sa wave",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Caitlyn : respecter son lvl 6, garder Flash",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Caitlyn : rebond de la Grenade dansante sur les sbires",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] Varus is easy.",
+    "[0] it's the same as the hyper carries we're talking about earlier, right? He can't gap close onto you.",
+    "[0] No sustain as well. So, you you just get him to half HP, you press R, and he dies, right? Cuz he's also immobile.",
+    "[0] Besides Varus, but Varus is pretty weak level one, so you could kind of punish that.",
+    "[0] Yeah, you just push them in, keep poking them, you farm plates, and you'll just you also kind of outscale them, right?",
+    "[1] Le problème de Jein c'est le clear parce que forcément il a beaucoup de clear. Donc ça peut être chiant pour le Varus.",
+    "[1] Enfin, en terme de duel et cetera, il est plutôt faible, voir très faible comparé à un Varus.",
+    "[1] c'est un matchup que j'aime bien parce qu'on peut juste le courir dessus entre grosse guillemets et c'est free.",
+    "[1] ça a du wave clear et donc c'est chiant parce que en early game, on pourra pas l'abuse.",
+    "[2] J'ai pas respecté. Je dois flash le ment ou le Z de Jean.",
+    "[2] un ulti ou un slow des d'ailleurs parce que derrière je peux l'ulti sur le slow.",
+    "[2] en tout cas dans tous les cas si un CC/ slow il est mort 100 % le jean no clen il se fait one shot",
+    "[3] Be wary to avoid Piercing Arrow(A) and Hail of Arrows(E). Hail of Arrows(E) inflicts grievous Wounds that reduces healing!",
+    "[4] Be careful of the Dancing Granade(Q) that bounces off of minions, as well as the damage on Jhin’s final round attack!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12",
+  "videosFound": 40,
+  "videosRead": 3,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (transcription déjà enregistrée ; Varus classé « easy », 8:24-9:00 ; ouverture comptée aussi pour Jhin__KogMaw)"
+    },
+    {
+      "id": "jI3iwZIdLaI",
+      "channel": "Booshi",
+      "result": "utilisé (chapitre « Les matchups » 23:00 ; Jhin transcrit « Jein / Jean », 26:37)"
+    },
+    {
+      "id": "VKBLMRk93yk",
+      "channel": "Booshi",
+      "result": "utilisé (partie commentée Varus vs Jhin, 41 min ; peu de conseils : Z de Jhin à respecter, ult sur slow)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=varus",
+      "result": "ok (1 tip écrit Jhin vs Varus)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/varus/counters/adc?target_champion=jhin",
+      "result": "ok (1 tip écrit Varus vs Jhin)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : clear vite la wave pour empêcher Varus d'abuser en early, puis poke",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Varus « comme les hyper carries » : push + poke ; Booshi : le clear de Jhin gêne Varus) + DDragon (Q jusqu'à 4 cibles)"
+    },
+    {
+      "idea": "Jhin : Varus immobile, à mi-vie le R le finit",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (aucun dash dans le kit de Varus ; R de Jhin = dégâts d'exécution)"
+    },
+    {
+      "idea": "Jhin : esquiver la Flèche perforante chargée",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q gagne portée et dégâts en chargeant)"
+    },
+    {
+      "idea": "Jhin : sortir de la Pluie de flèches (slow + réduction des soins)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E ralentit et réduit les soins)"
+    },
+    {
+      "idea": "Jhin : punir Varus faible au lvl 1",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, conseil de lane"
+    },
+    {
+      "idea": "Varus : Jhin faible en duel, aller le chercher",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Jhin sans dash)"
+    },
+    {
+      "idea": "Varus : sur un slow/CC, R puis combo",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R immobilise le premier champion touché)"
+    },
+    {
+      "idea": "Varus : rebond de la Grenade dansante sur les sbires",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q jusqu'à 4 cibles, gagne des dégâts à chaque kill)"
+    },
+    {
+      "idea": "Varus : respecter la 4e balle",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (4e tir critique + exécution)"
+    },
+    {
+      "idea": "Varus : esquiver la Floraison mortelle (Flash si besoin)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W immobilise si la cible a été touchée récemment par Jhin ou ses alliés)"
+    }
+  ],
+  "retroFix2026_11_12": "source(s) 2 retirée(s) : chaîne exclue (Jezu VOD) ou vidéo Booshi hors PRO GUIDE ; les tips qui en dépendaient ont été recomptés ou retirés. Index des sourceSentences inchangés."
+}

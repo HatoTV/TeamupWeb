@@ -1,0 +1,92 @@
+{
+  "searches": 1,
+  "sourceSentences": [
+    "[0] if you can fore extended trade against her by punishing her cooldowns or getting behind her forcing a long trade that's going to be really good for you",
+    "[0] baiting out her W and then really looking to punish that spell when it's on cool down it has an 18sec cool down at rank one",
+    "[0] when you verse good players they know when you're going to be using Q2 they're pre- dodging it so make sure you're trying to do that",
+    "[1] Faut que je fasse gaffe à pas eux quand il me Z parce qu'en fait il me cancelle le la deuxième instance du jeu.",
+    "[1] Juste le disengage et reengage dès qu'il a pu le R.",
+    "[2] More broken champ. her q1 deals more at the edges so try to sidestep or dash out and her q2 deals crazy dmg",
+    "[2] Has tools to fight you, but is generally manageable with good trading and spacing. Not as oppressive as the higher tiers."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 15 2026-11-12",
+  "videosFound": 12,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "3Z1KNTh_qA4",
+      "channel": "Aatreus",
+      "result": "lu, inutilisé (piste « fr » traduite automatiquement, jamais une source)"
+    },
+    {
+      "id": "bGadTS-nVMA",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (Strey joue Ambessa : 5:54 le Z de K'Santé coupe son enchaînement, 19:42 se retirer pendant son R)"
+    },
+    {
+      "id": "2CXi04mpPkM",
+      "channel": "Coach Chippys",
+      "result": "lu (transcription en cache), inutilisé : passages K'Santé génériques, Ambessa jamais opposée à lui"
+    },
+    {
+      "id": "Qwjxigtf6os",
+      "channel": "Coach Chippys",
+      "result": "utilisé (chapitre How to counter Ambessa 1:21:42 ; 3e couple pour cette vidéo)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ambessa",
+      "result": "ok (auteurs K'Santé : JB [25.24, récent], Auroline [2026], Wxyyy12 [sans date, résumé seulement] ; lecture partielle)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ksante",
+      "result": "lu partiellement, aucun commentaire d'auteur Ambessa citant K'Santé"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "K'Santé : esquiver la Frappe fracassante, rester derrière les minions",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (touche le premier ennemi de la ligne)"
+    },
+    {
+      "idea": "K'Santé : garder le Z pour couper son engage",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (charge qui repousse et stun)"
+    },
+    {
+      "idea": "K'Santé : bait l'Égide dévastatrice puis trade long",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 18 s au rang 1) ; générique, gardé car moins de 3 tips propres au couple"
+    },
+    {
+      "idea": "K'Santé : spacing et pas d'overextend",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "générique, 1 seule source"
+    },
+    {
+      "idea": "Ambessa : se retirer pendant le R de K'Santé, revenir après",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source : côté Ambessa non affiché"
+    }
+  ]
+}

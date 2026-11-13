@@ -1,0 +1,121 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] So you walk up to Nathan's Rex side, you e him and then you qwe. Is that what you do?",
+    "[0] So the point and click E is just why the j's so good",
+    "[0] Yeah, like low threat like >> Oh yeah, that's why. Yeah, Zillian is the counter to my entire pool. Volibbear Rex",
+    "[1] Play behind or off to the side of your ADC so you can counter cc the enemy ADC when Ali all ins yours",
+    "[1] As much as Alistar's engage and early game strength seem dangerous you can pretty much negate any CC with double bombing and slow",
+    "[1] He's an immobile champion, and an upgraded Zilean's E will force Alistar to keep on fighting whether he wants it or not",
+    "[1] After 6 you are fine, even if they try dive you have ult to ruin their attempt",
+    "[2] If you are hit by Zilean's Q-W-Q combo for an area stun or his E for a slow, use your ultimate (R) to immediately cleanse the CC and increase your combat sustain",
+    "[2] when he ults, time your W to hit the target after they res",
+    "[2] When you find a good engage, don't be tunnel visioned onto them as they will likely get ulted"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 12 2026-11-12",
+  "videosFound": 45,
+  "videosRead": 3,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "bWAlGx9JcuU",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (chapitre Zilean 2:16:23 : E ponctuel contre les mêlées)"
+    },
+    {
+      "id": "WWUrGUNV-Yg",
+      "channel": "Pestify_Lol",
+      "result": "lu, inutilisé (astuces Zilean générales, Alistar jamais cité)"
+    },
+    {
+      "id": "NE8TlFRgcC0",
+      "channel": "Dogbit",
+      "result": "lu, inutilisé (partie commentée sans Alistar)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (auteurs Zilean ; récent : 2232215 ; le reste ancien)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/zilean",
+      "result": "ok (auteurs Alistar ; récents : 2251946, 2246402 patch 25.24 ; le reste ancien)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : Volonté de fer purge le stun de la double bombe ou le slow",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source récente (2246402) + DDragon (purge tous les effets de contrôle)"
+    },
+    {
+      "idea": "Alistar : Retour temporel = stase puis résurrection, garder Coup de tête pour après",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (2251946 récent, appuyé par des commentaires anciens) + DDragon (stase puis réanimation)"
+    },
+    {
+      "idea": "Alistar : couper la pose de Bombe à retardement avec Coup de tête + Atomisation",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "flou (une bombe lancée ne s'interrompt pas), non vérifiable"
+    },
+    {
+      "idea": "Alistar : faire sortir la bombe avant d'engager",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "commentaires anciens seulement, et Retour rapide réduit le CD : idée incomplète"
+    },
+    {
+      "idea": "Alistar : tuer Zilean avant le lvl 6",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "commentaires anciens seulement (tip lane)"
+    },
+    {
+      "idea": "Zilean : ralentir Alistar, sans dash hors Coup de tête",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "mécanique, 2 sources (BBC récent, DynHoyw ancien) + DDragon (Distorsion temporelle ralentit ; seul déplacement d'Alistar = Coup de tête)"
+    },
+    {
+      "idea": "Zilean : rester à côté de l'ADC et stun l'ADC adverse avec la double bombe",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (2232215 récent) + DDragon (2e bombe = stun)"
+    },
+    {
+      "idea": "Zilean : ult sur l'allié plongé après 6",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens Arcurath, LIGHTBULB, Biotic) + DDragon (réanimation)"
+    },
+    {
+      "idea": "Zilean : abuser du lvl 1 grâce à la portée, jouer safe ensuite",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaires anciens seulement (tip lane)"
+    }
+  ]
+}

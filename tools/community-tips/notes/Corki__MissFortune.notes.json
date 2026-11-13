@@ -1,0 +1,52 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] Corki is very easy, try poking him when he goes for his farm",
+    "[0] Corki has solid damage from his hextech munitions (passive), phosphorus bomb and missile barrage, so adequate spacing"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 15 2026-11-12",
+  "videosFound": 32,
+  "videosRead": 2,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu (transcription en cache), inutilisé : Corki et MF cités sans lien entre eux"
+    },
+    {
+      "id": "wynpsYuTYIM",
+      "channel": "Eneino Coach",
+      "result": "lu, inutilisé (Corki ADC low elo : Miss Fortune jamais citée)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/corki",
+      "result": "ok partiel (auteurs MF : GodMulti [10.23] et Demonsedge90 [14.13] anciens, doomfallover sans conseil)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/miss-fortune",
+      "result": "lecture partielle (16 %), aucun commentaire d'auteur Corki vérifié"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "MF : poke Corki quand il farm",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 commentaire ancien (10.23), pas une mécanique"
+    },
+    {
+      "idea": "MF : spacing contre les dégâts de Corki",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 commentaire ancien (14.13)"
+    }
+  ],
+  "note": "Toutes les vidéos trouvées sont des replays sans commentaire (chaînes exclues) ; aucun guide ne traite le couple."
+}

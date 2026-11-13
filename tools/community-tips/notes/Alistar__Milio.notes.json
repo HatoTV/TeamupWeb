@@ -1,0 +1,135 @@
+{
+  "searches": 12,
+  "sourceSentences": [
+    "[0] Can threaten your ADC with engage, but his range is predicatable. Q his engage or disengage after his combo",
+    "[0] You can't cleanse knock-ups, he has high base damage, and he can easily out-roam/out-pressure you.",
+    "[0] Facing a durable engage matchup like Alistar is tough to punish unless he makes a mistake in his combo. Aery poke isn't effective against his passive sustain.",
+    "[1] Countering Milio's Ultimate Milio's ultimate removes all crowd control effects except for knock-ups. Therefore, it's crucial to initiate with Alistar's Q (Pulverize) knock-up.",
+    "[1] Force Milio to use his ultimate with a W-Q combo, or guide your allied damage dealers to attack from outside Milio's ultimate range.",
+    "[1] Countering Milio's Q Skill Milio's Q (Ultra Mega Fire Kick) can interrupt Alistar's W (Headbutt) dash. It's best to engage after confirming Milio has used his Q, or to use Flash to dodge Milio's Q while engaging.",
+    "[1] An experienced Milio will be able to disrupt your engage using his Q and when you finally manage to lock someone down, his R has a cleansing effect which saves enemies that you hit with your E. A pretty annoying matchup!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 146,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "9RxW-OL3eeA",
+      "channel": "i0ki",
+      "result": "lu, inutilisé (guide Milio S16 2026-10-06 : Alistar jamais cité)"
+    },
+    {
+      "id": "JPUX1TfhOQM",
+      "channel": "Daption",
+      "result": "lu, inutilisé (guide Alistar 2026-03-10 : Milio jamais cité ; piste « en » qui semble traduite). Ouverture partagée avec Alistar__Seraphine et Alistar__Sona"
+    },
+    {
+      "id": "PNhorR0p94g",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé (guide Milio agressif : Alistar jamais cité)"
+    },
+    {
+      "id": "vr4h6asfdqc",
+      "channel": "EXYT - League of Legends",
+      "result": "lu, inutilisé (guide Alistar FR 2026-10-30 environ : Milio jamais cité). Ouverture partagée avec Alistar__Seraphine"
+    },
+    {
+      "id": "NTEPyA0FLYA",
+      "channel": "BestSoloQ VOD",
+      "result": "non lu : aucun sous-titre disponible (stream KC Busio Alistar vs Milio)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (commentaires d'auteurs de guides Milio : AlvesTraquina, guide 26.19, data-tip-id 2254741 = récent ; Abarame 2225437, Yoshiking123 13.6, Sh0ppe 2189378 = anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/milio",
+      "result": "ok (commentaires d'auteurs de guides Alistar : Nobreav, guide 25.24, 2246414 = récent ; Aerenax 13.6 = ancien)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Milio",
+      "result": "illisible (page d'attente anti-robot) : vérification faite seulement avec Data Dragon"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : ouvrir avec Atomisation, Flammes vitales ne retire pas le knock-up (mais retire le stun de Piétinement)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "Nobreav (récent) + Aerenax et Yoshiking123 (anciens, acceptés pour une mécanique vérifiée) ; DDragon : Breath of Life retire les effets Disabling et Immobilizing, Pulverize est un Knock Up (Airborne)"
+    },
+    {
+      "idea": "Alistar : attendre que Milio ait utilisé son A avant Coup de tête",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (AlvesTraquina 26.19, Nobreav 25.24) ; DDragon : Ultra Mega Fire Kick repousse le premier ennemi touché"
+    },
+    {
+      "idea": "Alistar : Flammes vitales ne touche que les alliés proches, cibler un ennemi loin de Milio",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente + DDragon (portée 700, alliés proches)"
+    },
+    {
+      "idea": "Alistar : flash pour esquiver le A de Milio en engageant",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, lane, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Milio : garder Ultra méga boule de feu pour Coup de tête",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "Milio : Flammes vitales ne retire pas le knock-up, la garder pour le stun de Piétinement",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "Nobreav (récent) + Yoshiking123/Aerenax (anciens, mécanique vérifiée DDragon)"
+    },
+    {
+      "idea": "Milio : se désengager après son combo",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, lane"
+    },
+    {
+      "idea": "Milio : dodge si l'équipe manque de frontline ; Gardien",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "commentaire ancien (2225437) ; draft et rune hors sujet"
+    },
+    {
+      "idea": "Milio : Alistar roam et met plus de pression que toi",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "commentaire ancien (13.6), macro : ne compte pas"
+    }
+  ]
+}

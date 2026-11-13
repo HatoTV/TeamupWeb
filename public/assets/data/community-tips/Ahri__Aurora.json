@@ -1,0 +1,150 @@
+{
+  "pair": [
+    "Ahri",
+    "Aurora"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Ahri": "23813db730612c753a978ae5f213acb6178504c095f16baaea2c124181a30193",
+    "Aurora": "957f7b2ab85489eab47184eabb768cf30b47b3d1aab184b1597ae65a6edd215d"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Ahri": {
+      "fr": [
+        {
+          "text": "Esquive son Maléfice (A) et son Sortilège (E), surtout quand tu vas chercher un CS : la vitesse de tes Lucioles (Z) et tes zigzags te rendent dure à toucher.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Ne gaspille pas ton Orbe d'illusion (A) ni ton Charme (E) : Aurora attend ces CD pour engager, et sans eux tu fais peu de dégâts avant le lvl 6.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Vos portées sont proches : celle qui touche ses sorts la première gagne le trade.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Ton Charme (E) s'arrête sur le premier ennemi touché : Aurora se cache derrière ses sbires pendant les trades, attends une ligne dégagée.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Dodge her Twofold Hex (Q) and The Weirding (E), especially when you walk up for CS: Fox-Fire (W) speed and zigzagging make you hard to hit.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Don't waste Orb of Deception (Q) or Charm (E): Aurora waits for those cooldowns to go in, and without them you deal little damage before level 6.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Your ranges are close: whoever lands their spells first wins the trade.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Charm (E) stops on the first enemy it touches: Aurora hides behind her minions when trading, so wait for a clear line.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Aurora": {
+      "fr": [
+        {
+          "text": "Joue autour de son Charme (E) : reste derrière tes sbires tant qu'Ahri l'a en main, puis va au contact dès que le sort est parti.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Sois patiente avec ton Maléfice (A) : ses Lucioles (Z) donnent un pic de vitesse et une bonne Ahri zigzague, anticipe ses déplacements.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Son Orbe d'illusion (A) frappe à l'aller puis au retour : avance vers Ahri en zigzaguant pour éviter les deux passages.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Play around her Charm (E): stay behind your minions while Ahri still has it, then go in as soon as it's been used.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Be patient with Twofold Hex (Q): Fox-Fire (W) gives her a burst of speed and good Ahris zigzag, so predict where she's going.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Orb of Deception (Q) hits on the way out and on the way back: walk toward Ahri and zigzag to dodge both passes.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Rank 1 Aurora's COMPLETE Mid Matchup Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=44hkj9hvl_I",
+      "consultedAt": "2026-11-12",
+      "channel": "rebrrt",
+      "publishedAt": "2026-06-16",
+      "timestamps": [
+        "2:21",
+        "2:45",
+        "3:06"
+      ]
+    },
+    {
+      "title": "If I Die ONCE We Lose... | Aurora vs Ahri",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=hQpDx0wSVaQ",
+      "consultedAt": "2026-11-12",
+      "channel": "rebrrt",
+      "publishedAt": "2026-05-29",
+      "timestamps": [
+        "1:58",
+        "5:30"
+      ]
+    },
+    {
+      "title": "Aurora Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/aurora",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Ahri Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/ahri",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "searches": 8,
+  "sourceSentences": [
+    "[0] Nautilus falls off later in the game compared to you, but can still mess you up with his chain CC. Avoid knocking up your allies if he ult's you and as always, dodge Q.",
+    "[0] The only reason he can be problematic is because he is generally paired with strong early game ADCs. You do have strong counter-engage into him, and outscale him hard.",
+    "[1] Maokai is annoying as he gets on top of you easily and he can CC you very long with his W and Q. However he has no way of getting out easily so you can punish that.",
+    "[1] Maokai is really strong currently and he can use his W to dodge your hook and Ult. He will try to roam so try to match him.",
+    "[1] Tree man. watch his saplings. Keep an eye on them. Keep an eye on his ult in team fights, become a wall for that to prevent your team from being rooted and then dying.",
+    "[1] Skill based matchup. Both champions have amazing engage and disengage, while also being the best tanks in the bot lane.",
+    "[2] Be careful not to be grabbed by Nautilus. Keep your distance while you toss saplings, and wait for an opportunity to engage.",
+    "[2] If your lane is difficult, focus on roaming to help other lanes.",
+    "[3] Although Maokai’s (W) has a short range, making it difficult for him to initiate combat, he has a lot of CC skills that can be used to counterplay.",
+    "[3] Maokai’s (P) also restores a lot of health, so engage and retreat wisely. Be careful of AP Maokai’s saplings (E) inside brushes to gain the upper hand in combat."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 8 2026-11-12",
+  "videosFound": 37,
+  "videosRead": 3,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "Pql8JAQK6IE",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (recherche de « Maokai », « Tahm », « Kench », « Morgana » dans les sous-titres : aucun passage ; ouverture partagée avec Morgana__Nautilus et Nautilus__TahmKench)"
+    },
+    {
+      "id": "g0mSH9Sjvj4",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (parties Maokai et Nautilus sans ce matchup ; seulement du draft et un conseil générique sur le Flash)"
+    },
+    {
+      "id": "8pTOWG7iu6Q",
+      "channel": "iReaz VOD",
+      "result": "lu, inutilisé (guide Maokai FR : aucun passage sur Nautilus)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/nautilus",
+      "result": "ok (2 commentaires d'auteurs de guides Maokai contre Nautilus)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/maokai",
+      "result": "ok (commentaires d'auteurs de guides Nautilus contre Maokai)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/maokai/counters/support?target_champion=nautilus",
+      "result": "ok (1 paragraphe propre au matchup + conseils généraux Maokai ; texte non daté, traité comme ancien)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/nautilus/counters/support?target_champion=maokai",
+      "result": "ok (1 paragraphe propre au matchup + conseils généraux Nautilus ; texte non daté, traité comme ancien)"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1J3CRQZvwkef8EECoj_QtoVu-pFyH9F5JsuxGhXs2MRE/export?format=csv&gid=1495176325",
+      "result": "no-advice (feuille « Guide des matchup » de Lelariva : index de guides d'autres champions)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Maokai : ne pas se faire attraper, rester à distance, jeter des arbrisseaux",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "retiré : lane appuyée par un guide S11 et un texte op.gg non daté (anciens) ; pas une mécanique vérifiable"
+    },
+    {
+      "idea": "Maokai : contre-engage avec Coup de ronces (repousse) et Croissance torturée (root)",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "requalifié lane -> mechanics : 1 source récente (guide Maokai 2025) + op.gg non daté ; DDragon (Coup de ronces repousse, Croissance torturée root)"
+    },
+    {
+      "idea": "Maokai : arbrisseaux plus efficaces dans les brush",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "requalifié lane -> mechanics : op.gg non daté (ancien) ; DDragon (dans un brush : durée plus longue, explosion plus grosse)"
+    },
+    {
+      "idea": "Maokai : s'écarter des alliés si l'ult de Nautilus le vise",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (guide S11, ancien, accepté pour une mécanique) + DDragon (l'onde soulève et stun les autres ennemis touchés)"
+    },
+    {
+      "idea": "Maokai : Croissance torturée intargetable esquive Abordage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (non datée, ancienne) + DDragon (intargetable pendant le dash)"
+    },
+    {
+      "idea": "Maokai : esquiver l'ult de Nautilus avec Croissance torturée",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "non vérifiable dans DDragon (l'onde poursuit sa cible) : seul l'Abordage est gardé"
+    },
+    {
+      "idea": "Maokai : Nautilus tombe plus vite en late, tu scales mieux",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source (2 auteurs de la même page), macro"
+    },
+    {
+      "idea": "Maokai : roam si la lane est difficile",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source, générique"
+    },
+    {
+      "idea": "Nautilus : arbrisseaux cachés dans les brush",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "requalifié lane -> mechanics : sources non datées (anciennes) ; DDragon"
+    },
+    {
+      "idea": "Nautilus : Coup de ronces repousse, Croissance torturée root, engager quand les deux sont en CD",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "requalifié lane -> mechanics : commentaire [14.18] et op.gg non daté (anciens) ; DDragon"
+    },
+    {
+      "idea": "Nautilus : Maokai n'a pas d'échappatoire après son Z, le punir",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source ([14.18], ancienne, acceptée pour une mécanique) + DDragon (Croissance torturée est son seul dash)"
+    },
+    {
+      "idea": "Nautilus : Croissance torturée intargetable, Abordage après le Z",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Nautilus : le passif de Maokai le soigne, trades courts",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (l'attaque renforcée de Sève magique le soigne)"
+    },
+    {
+      "idea": "Nautilus : suivre les roams de Maokai",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    },
+    {
+      "idea": "Nautilus : faire un mur contre l'ult de Maokai pour protéger l'équipe",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon (Emprise de la nature root tous les ennemis sur son trajet, pas de blocage)"
+    }
+  ]
+}

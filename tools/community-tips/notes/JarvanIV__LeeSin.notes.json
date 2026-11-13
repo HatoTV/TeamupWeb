@@ -1,0 +1,86 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Je devais pas prendre le le combo de Jarvan.",
+    "[1] Jarvan IV does not pose much of a threat if Lee Sin can dodge Demacian Standard (E) – Dragon Strike (Q) combo with Safeguard [W] on a ward. Play aggressively during early game!",
+    "[2] But then again, I I could invade his top side here because my top lane should have lane purity and I should be stronger than the Jarvon. So, because of that, I'm comfortable just invading here.",
+    "[2] So, now what's probably going to happen is that Java now is like, \"Wait, hold up. Where are my camps?\" So, now he's two options. G my laners or look for an invade.",
+    "[3] Make sure Lee Sin does not dodge Demacian Standard [E] – Dragon Strike [Q] combo by using Safeguard (W). Use your combo only when Safeguard (W) is on cooldown."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 19,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "hT4HTyaW10I",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, non utilisé (podcast 3 h 12, chapitres Lee Sin / Jarvan : avis généraux sur le champion, rien sur ce matchup ; ouverture comptée aussi pour Khazix__LeeSin)"
+    },
+    {
+      "id": "EJQt7oaJKgE",
+      "channel": "hybradge",
+      "result": "échec : aucun sous-titre « en » disponible (compté comme ouverture par prudence)"
+    },
+    {
+      "id": "TAOGcZTwaBo",
+      "channel": "Coach Kirei",
+      "result": "utilisé (chapitre « Master (vs Jarvan IV) » 4:18:56 ; publié le 2025-05-05, un peu plus de 18 mois)"
+    },
+    {
+      "id": "RZQx98jdDNc",
+      "channel": "Splinter VOD - League of Legends",
+      "result": "utilisé (VOD commentée FR, peu de conseils explicites : une remarque sur le combo de Jarvan à 7:43)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/leesin/counters?position=jungle",
+      "result": "ok (adversaire affiché par défaut : Jarvan IV ; 1 tip écrit)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/jarvaniv/counters?position=jungle",
+      "result": "ok (adversaire affiché par défaut : Lee Sin ; 1 tip écrit)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/jarvan-iv/vs-lee-sin/jungle",
+      "result": "stats-only (aucun commentaire, captcha de vote)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lee Sin : esquiver le combo E-A de Jarvan avec Rempart (Z) vers une ward",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Rempart fonce vers un allié ; Frappe du dragon tire Jarvan vers l'Étendard et projette dans les airs)"
+    },
+    {
+      "idea": "Lee Sin : plus fort en early, envahir le topside de Jarvan quand les lanes ont la prio",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (lane)"
+    },
+    {
+      "idea": "Jarvan IV : lancer le combo E-A seulement quand le Rempart (Z) de Lee est en CD",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Rempart : dash vers un allié, 8 s de CD) ; côté Jarvan affiché seulement à partir de 2 tips"
+    },
+    {
+      "idea": "Lee Sin : voler ses camps puis attendre l'invade de Jarvan en réponse",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    }
+  ]
+}

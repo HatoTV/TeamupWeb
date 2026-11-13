@@ -139,6 +139,12 @@
   text-transform: uppercase;
 }
 
+.section__text ::ng-deep a {
+  color: var(--color-gold);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .section__text {
   margin-top: 8px;
   font-size: 17px;

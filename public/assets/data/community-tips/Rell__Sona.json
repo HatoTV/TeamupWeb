@@ -1,0 +1,137 @@
+{
+  "pair": [
+    "Rell",
+    "Sona"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Rell": "533ccb0c262e988bd2521010378ce0e0c45aaf730e7bf9664c4a6345855e9e96",
+    "Sona": "3ad5e0fcd619a2b5a1895891afba18396e60cef0e83808591c316808a35ec746"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Rell": {
+      "fr": [
+        {
+          "text": "Sona doit s'approcher pour poke : chaque pas en avant t'offre une fenêtre d'engage. Elle fait peu de dégâts, alors trade dès que tu peux.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Elle devient dangereuse plus tard : prends l'avance pendant la lane, quand elle est la plus faible.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Ta Frappe dislocatrice (A) détruit les boucliers : lance-la sur la cible protégée par son Aria de persévérance (Z).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Sona has to step forward to poke: every step gives you an engage window. She deals little damage, so trade whenever you can.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "She gets scary later on: get ahead during the laning phase, while she's at her weakest.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Shattering Strike (Q) destroys shields: throw it at the target protected by her Aria of Perseverance (W).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Sona": {
+      "fr": [
+        {
+          "text": "Rell domine le début de lane : refuse les all-in et garde tes PV, ta valeur grimpe avec la partie.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Ton Hymne à la bravoure (A) porte à 825, contre 600 pour sa Frappe dislocatrice (A) : poke depuis ta portée max, sans faire le pas de trop.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Le bouclier de ton Aria de persévérance (Z) ne tient pas face à Rell : sa Frappe dislocatrice (A) détruit tous les boucliers.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Rell rules the early lane: refuse all-ins and keep your health up, your value grows as the game goes on.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Hymn of Valor (Q) reaches 825 range versus 600 for her Shattering Strike (Q): poke from max range without taking the extra step.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "The shield from Aria of Perseverance (W) won't hold against Rell: her Shattering Strike (Q) destroys every shield.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Every Rell matchup ranked! | League of Legends | ColsENG",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=a9QyG_fjnII",
+      "consultedAt": "2026-11-12",
+      "channel": "ColsENG",
+      "publishedAt": "2023-02-27",
+      "timestamps": [
+        "19:35"
+      ]
+    },
+    {
+      "title": "RELL GUIDE - How To Carry With Rell - Detailed Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=dFEJushm5Cc",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2025-01-24",
+      "timestamps": [
+        "02:18",
+        "11:16",
+        "11:41"
+      ]
+    },
+    {
+      "title": "How to Climb with RELL in Season 16 - Full Educational Games",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=2CdZyNoD6aM",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2026-10-04",
+      "timestamps": [
+        "59:43",
+        "1:00:48"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "updatedAt": "2026-11-12",
+  "note": "Pages tentées pendant la recherche. ok = contenu lisible ; stats-only / no-advice = lisible mais pas une source de tip. blacklist = sites interdits comme source (contrôlé par tips:check).",
+  "blacklist": {
+    "matchupcoach.gg": {
+      "since": "2026-11-12",
+      "reason": "Contenu généré automatiquement, erreurs factuelles (ex. conseille à Yone d'attendre la fin du Mur de vent pour poke alors qu'il n'a pas de projectile). Jamais une source, pour aucun matchup."
+    },
+    "agatasmurf.com": {
+      "since": "2026-11-12",
+      "reason": "Contenu SEO générique, sans conseil propre au matchup. Jamais une source."
+    },
+    "turbosmurfs.gg": {
+      "since": "2026-11-12",
+      "reason": "Erreurs factuelles constatées. Jamais une source."
+    }
+  },
+  "sites": {
+    "1v9.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "refused"
+      ]
+    },
+    "agatasmurf.com": {
+      "ok": 0,
+      "failed": 2,
+      "results": [
+        "generic-seo"
+      ]
+    },
+    "champsight.com": {
+      "ok": 0,
+      "failed": 2,
+      "results": [
+        "403"
+      ]
+    },
+    "counterstats.net": {
+      "ok": 12,
+      "failed": 15,
+      "results": [
+        "ok",
+        "stats-only",
+        "bad-slug"
+      ]
+    },
+    "dignitas.gg": {
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "docs.google.com": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "no-advice"
+      ]
+    },
+    "facecheck.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "no-advice"
+      ]
+    },
+    "invenglobal.com": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "404"
+      ]
+    },
+    "leaguefeed.net": {
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "legendstracker.fr": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "no-advice"
+      ]
+    },
+    "lolmeta.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "no-advice"
+      ]
+    },
+    "matchupcoach.gg": {
+      "ok": 2,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "metabot.gg": {
+      "ok": 0,
+      "failed": 2,
+      "results": [
+        "stats-only"
+      ]
+    },
+    "mobachampion.com": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "500"
+      ]
+    },
+    "mobafire.com": {
+      "ok": 0,
+      "failed": 2,
+      "results": [
+        "403"
+      ]
+    },
+    "mobalytics.gg": {
+      "ok": 0,
+      "failed": 2,
+      "results": [
+        "403"
+      ]
+    },
+    "nerfplz.com": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "403"
+      ]
+    },
+    "old.reddit.com": {
+      "ok": 0,
+      "failed": 2,
+      "results": [
+        "refused"
+      ]
+    },
+    "onetricks.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "429"
+      ]
+    },
+    "op.gg": {
+      "ok": 42,
+      "failed": 13,
+      "results": [
+        "ok",
+        "stats-only",
+        "no-tips",
+        "no-advice"
+      ]
+    },
+    "orbispatches.com": {
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    },
+    "rankedboost.com": {
+      "ok": 1,
+      "failed": 2,
+      "results": [
+        "ok",
+        "stats-only"
+      ]
+    },
+    "tacter.com": {
+      "ok": 0,
+      "failed": 3,
+      "results": [
+        "404"
+      ]
+    },
+    "turbosmurfs.gg": {
+      "ok": 0,
+      "failed": 1,
+      "results": [
+        "factual-error"
+      ]
+    },
+    "wiki.leagueoflegends.com": {
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        "ok"
+      ]
+    }
+  }
+}

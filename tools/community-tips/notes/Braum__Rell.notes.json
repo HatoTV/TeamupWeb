@@ -1,0 +1,117 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Dodge Braum's (Q) Winter's Bite as much as you can. Getting hit by this means you can never engage on him or his ADC. The best time to engage is when his Unbreakable is down.",
+    "[0] If he ever misuses his shield he cannot protect his carry anymore and you're free to jump onto them.",
+    "[0] Braum isn't very good into Rell because besides his ultimate stopping her W, he has no real way to stop her from doing anything.",
+    "[0] Before any fight, try to escape his Q, because it hurts and slows you down. Don't focus him and you're ok",
+    "[0] His R is truly your only threat with it knocks you out of your W, and his shield if you engage to set up for example a Miss Fortune R combo yet you still will manage to kill him.",
+    "[1] Rell has a very simple engage in the form of her W, which you can easily if she misses as she loses some movement speed and is easy to catch out.",
+    "[1] Whenever she is dismounted, you should look to play aggressive and poke her down. She is very vulnerable and has nothing to stop you from doing it.",
+    "[1] Once Rell hits level 6, her Ultimate is a very versatile tool that can allow her to turn around exchanges. Under no circumstances should you try to dive her post 6.",
+    "[1] However, Rell can shred your resistances. So be careful in extended fights with her.",
+    "[1] Rell is a really good support with a lot of CC. Bait her W and Q and engage after."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 12 2026-11-12",
+  "videosFound": 76,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "09HY5jwixsY",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé (guide Braum 2026 : piste « en » traduite, partie contre Caitlyn Thresh, Rell jamais citée). Ouverture partagée avec Braum__Karma"
+    },
+    {
+      "id": "zis-3-QLn0o",
+      "channel": "BenTbeyondrepair",
+      "result": "lu, inutilisé (guide Braum S16 2026-05-31 : Rell jamais citée). Ouverture partagée avec Braum__Karma"
+    },
+    {
+      "id": "bmO64jxjiL8",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (2026-01-22, chapitre « Rell vs Braum » 8:50-37:50 : seulement « Ashe Braum, very annoying for us » 9:01 et « Braum is good into me, not the end of the world » 15:51 ; aucun conseil précis, et 1 seule source récente pour cette idée)"
+    },
+    {
+      "id": "fiWVAmW9CT0",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (A to Z challenge 2025-11-14, chapitre Braum 2:04:42 : partie contre Ashe Seraphine, Rell jamais citée). Ouverture partagée avec Braum__Karma"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/braum",
+      "result": "ok (12 commentaires d'auteurs de guides Rell contre Braum ; tous anciens, data-tip-id < 2232000)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/rell",
+      "result": "ok (4 commentaires d'auteurs de guides Braum contre Rell ; tous anciens, data-tip-id < 2232000)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Braum : Rell à pied et ralentie après Descendre en piqué, la punir",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens 2202591 et 2170117) + DDragon (« While dismounted ... is Slowed »)"
+    },
+    {
+      "idea": "Braum : éviter les combats longs, le passif de Rell vole armure et résistance magique",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaire ancien 2152794) + DDragon (Break the Mold : vol d'armure et de résistance magique à chaque coup)"
+    },
+    {
+      "idea": "Braum : ne pas plonger sur Rell après le lvl 6 (Tempête magnétique)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaire ancien 2170117) + DDragon (Magnet Storm attire puis traîne les ennemis proches)"
+    },
+    {
+      "idea": "Braum : laisser Rell gaspiller Z et A puis engager",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "conseil de lane d'un commentaire ancien (2209684) : ne compte pas pour un tip lane"
+    },
+    {
+      "idea": "Rell : engager quand Incassable est en CD",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens 2009513 et 2143838) + DDragon (Unbreakable intercepte les projectiles et réduit les dégâts venant de face, CD 16 s au rang 1)"
+    },
+    {
+      "idea": "Rell : esquiver Morsure de l'hiver (ralentissement + charge du passif)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens 2009513, 2144293) + DDragon (Q ralentit et applique une charge ; les attaques alliées chargent ensuite)"
+    },
+    {
+      "idea": "Rell : la Fissure glaciale de Braum interrompt Descendre en piqué",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "commentaires anciens (2184210, 2143838) ; DDragon confirme le knock-up mais ne décrit pas l'interruption du saut : non vérifiable"
+    },
+    {
+      "idea": "Rell : Braum est un des supports tanks les plus faibles / matchup facile",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "commentaires anciens et contradictoires (2184210, 2143838 contre 2163922, 2162280) ; Coach K (bmO64jxjiL8) dit l'inverse, 1 seule source récente"
+    }
+  ]
+}

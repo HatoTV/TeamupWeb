@@ -44,39 +44,39 @@
   }
 }
 
-.tabbar__badge {
+.tabbar__icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 24px;
-  height: 24px;
-  padding: 0 4px;
-  border-radius: 7px;
-  background: var(--color-line);
-  font: 700 10px var(--font-display);
+  width: 40px;
+  height: 26px;
+  border-radius: 8px;
   color: var(--color-text-muted);
+  transition:
+    color var(--duration-color) ease,
+    background-color var(--duration-color) ease;
 
   .is-active & {
-    color: var(--color-night-bar);
+    background: #15152a;
   }
 
   [data-section='home'].is-active & {
-    background: var(--color-gold);
+    color: var(--color-gold);
   }
 
   [data-section='lol'].is-active & {
-    background: var(--color-lol);
+    color: var(--color-lol);
   }
 
   [data-section='tft'].is-active & {
-    background: var(--color-tft);
+    color: var(--color-tft);
   }
 
   [data-section='rl'].is-active & {
-    background: var(--color-rl);
+    color: var(--color-rl);
   }
 
   [data-section='about'].is-active & {
-    background: var(--color-text-muted);
+    color: var(--color-text);
   }
 }

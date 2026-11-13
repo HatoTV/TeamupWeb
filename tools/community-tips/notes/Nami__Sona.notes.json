@@ -1,0 +1,125 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] And then Sona, Sona is not a threat, but she outscales you very hard and you are not if Sona is decent or pretty good",
+    "[0] then Sona is going to outscale and you are not going to be able to do much about it. She can also match pretty good your Romes because your Romes are not that strong.",
+    "[1] Es muy mala en los dives, tiene rotaciones débiles como cualquier encantador y problemas de maná si spameas habilidades en los primeros minutos.",
+    "[1] Eh , pero ella está tranquila en línea, ¿verdad? Y no quieres que Sona esté tranquila en línea. Ella es muy aterradora al llegar el juego tardío.",
+    "[2] Hymn of Valor (Q) – Power Chord (P) deals a lot of damage early game.",
+    "[2] Sona's Aria of Perseverance (W) does not heal a lot and consumes a lot of mana during early game, so engage aggressively!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 70,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "LbAd-wPP3WY",
+      "channel": "Sonatra ",
+      "result": "aucun sous-titre en / en-US disponible (chapitre matchups non lisible) ; compté comme ouverture"
+    },
+    {
+      "id": "HBda0lRLHz0",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre Support Matchups 11:54, Sona citée explicitement contre Nami) ; publiée le 2025-05-06, un peu plus de 18 mois"
+    },
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "utilisé avec les sous-titres es : la piste en semble traduite depuis l'espagnol (« charmers », « online ») ; conseils génériques par champion (chapitres Sona 10:14, Nami 15:44, Milio 21:46)"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "non utilisé : guide par classes de supports, rien de propre à Nami vs Sona ; sous-titres en qui semblent traduits"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/nami/",
+      "result": "stats-only (aucun conseil écrit sur Sona)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/sona/",
+      "result": "stats-only (aucun conseil écrit sur Nami)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/nami/counters/support?target_champion=sona",
+      "result": "ok (2 tips écrits Nami vs Sona, patch 16.22)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Nami : Sona scale mieux, ne pas lui laisser une lane calme, presser tôt",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources ; relecture lot 3 : Gme87rAvO_8 retirée (sous-titres probablement traduits, voix non confirmée)"
+    },
+    {
+      "idea": "Nami : roams faibles, Sona peut les suivre, jouer d'abord la lane",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "2 sources ; relecture lot 3 : Gme87rAvO_8 retirée (sous-titres probablement traduits, voix non confirmée)"
+    },
+    {
+      "idea": "Nami : l'Aria de Sona coûte cher en mana tôt, trader souvent",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z : 80/85/90/95/100 mana, le plus cher de ses sorts de base). « Soigne peu » non vérifiable dans DDragon (valeurs absentes) : retiré du texte"
+    },
+    {
+      "idea": "Nami : respecter le combo A + Accord de puissance de Sona en début de partie",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (A : dégâts magiques ; passif : attaque renforcée après quelques sorts)"
+    },
+    {
+      "idea": "Sona : tu scales mieux, lane calme, viser mid/late",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; relecture lot 3 : Gme87rAvO_8 retirée (sous-titres probablement traduits, voix non confirmée)"
+    },
+    {
+      "idea": "Sona : économiser l'Aria (Z), coûteuse en mana",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (coût 80+ mana)"
+    },
+    {
+      "idea": "Sona : trader avec A + auto renforcée de l'Accord de puissance",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Sona : suivre les roams de Nami",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source"
+    },
+    {
+      "idea": "Nami : forcer les drakes tôt avant que Sona scale",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "macro, 1 seule source (conseil générique contre Sona, chapitre 12:59) ; relecture lot 3 : Gme87rAvO_8 retirée (sous-titres probablement traduits, voix non confirmée)"
+    }
+  ]
+}

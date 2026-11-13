@@ -1,0 +1,77 @@
+<section class="ct card" aria-labelledby="ct-title" [attr.aria-busy]="file() === undefined">
+  <header class="ct__head">
+    <div class="ct__heading">
+      <h2 id="ct-title" class="ct__title">{{ 'COMMUNITY_TIPS.TITLE' | translate }}</h2>
+      <p class="ct__subtitle">{{ 'COMMUNITY_TIPS.SUBTITLE' | translate }}</p>
+    </div>
+    @if (needsRecheck()) {
+      <span class="ct__recheck">{{ 'COMMUNITY_TIPS.NEEDS_RECHECK' | translate }}</span>
+    }
+  </header>
+
+  @if (file() === undefined) {
+    <p class="ct__state">{{ 'MATCHUPSPAGE.LOADING' | translate }}</p>
+  } @else if (tips().length) {
+    <div class="ct__perspective">
+      <p class="ct__for">{{ 'COMMUNITY_TIPS.FOR' | translate: { me: me().name, vs: vs().name } }}</p>
+      <button type="button" class="btn btn--secondary btn--sm ct__reverse" (click)="reverse.emit()">
+        <app-icon name="swap" [size]="16" />
+        {{ 'LOL.MATCHUPS.REVERSE' | translate }}
+      </button>
+    </div>
+
+    <ol class="ct__list" [attr.lang]="lang()">
+      @for (tip of tips(); track $index) {
+        <li class="ct__tip">
+          <p class="ct__text">{{ tip.text }}</p>
+          <p class="ct__consensus">
+            <span class="ct__dots" aria-hidden="true">
+              @for (d of dots; track d) {
+                <span class="ct__dot" [class.is-on]="d <= filled(tip)"></span>
+              }
+            </span>
+            <span>
+              {{ (tip.sources > 1 ? 'COMMUNITY_TIPS.CITED_MANY' : 'COMMUNITY_TIPS.CITED_ONE') | translate: { n: tip.sources } }}
+              @if (tip.verifiedByGameData) {
+                · {{ 'COMMUNITY_TIPS.VERIFIED' | translate }}
+              }
+            </span>
+          </p>
+        </li>
+      }
+    </ol>
+  } @else if (onlyOtherSide()) {
+    <div class="ct__state ct__state--empty">
+      <p class="ct__empty-title">{{ 'COMMUNITY_TIPS.SIDE_NOT_ENOUGH' | translate: { champion: me().name } }}</p>
+      <button type="button" class="btn btn--secondary btn--sm ct__reverse" (click)="reverse.emit()">
+        <app-icon name="swap" [size]="16" />
+        {{ 'COMMUNITY_TIPS.SEE_OTHER_SIDE' | translate: { champion: vs().name } }}
+      </button>
+    </div>
+  } @else {
+    <div class="ct__state ct__state--empty">
+      <p class="ct__empty-title">
+        {{ (file()?.status === 'insufficientSources' ? 'COMMUNITY_TIPS.INSUFFICIENT_TITLE' : 'COMMUNITY_TIPS.EMPTY_TITLE') | translate }}
+      </p>
+      <p>{{ 'COMMUNITY_TIPS.EMPTY_HINT' | translate }}</p>
+    </div>
+  }
+
+  @if (sources().length) {
+    <details class="ct__sources">
+      <summary class="ct__sources-summary">
+        {{ 'COMMUNITY_TIPS.SOURCES' | translate: { n: sources().length } }}
+        <app-icon class="ct__chevron" name="chevron-down" [size]="16" />
+      </summary>
+      <ul class="ct__sources-list">
+        @for (s of sources(); track s.url) {
+          <li>
+            <a [href]="s.url" target="_blank" rel="nofollow noopener noreferrer">{{ s.title }}</a>
+            <span class="ct__source-meta">{{ s.site }} · {{ 'COMMUNITY_TIPS.CONSULTED' | translate: { date: s.date } }}</span>
+          </li>
+        }
+      </ul>
+      <p class="ct__method">{{ 'COMMUNITY_TIPS.METHOD' | translate: { version: file()!.gameVersion } }}</p>
+    </details>
+  }
+</section>

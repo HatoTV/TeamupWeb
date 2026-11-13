@@ -1,0 +1,77 @@
+{
+  "pair": [
+    "Alistar",
+    "Renata"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Alistar": "6b0b70ea42f167db7b24a19d94d70a5b909bbb73e86502a017cb35e720233bd9",
+    "Renata": "63cc2e4a5a41da4421d449de37792c2aa7d416fdc8001807df841abd593bae4e"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Alistar": {
+      "fr": [
+        {
+          "text": "Garde ta Volonté de fer (R) pour sa Prise de contrôle hostile (R) : elle retire tous les contrôles sur toi, l'effet fou furieux compris.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Pendant ton Coup de tête (Z) + Atomisation (A), anticipe sa Poignée de main (A) : elle immobilise le premier ennemi touché et peut ensuite le projeter.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Save Unbreakable Will (R) for her Hostile Takeover (R): it removes all crowd control on you, berserk included.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "When you go in with Headbutt (W) into Pulverize (Q), watch for her Handshake (Q): it roots the first enemy hit and can then throw them.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Renata": {
+      "fr": [
+        {
+          "text": "Reste près de ton ADC : le Coup de tête (Z) d'Alistar peut te repousser loin de lui et laisser son ADC s'occuper du tien.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Stay close to your ADC: Alistar's Headbutt (W) can knock you away from them and leave his ADC free to take yours down.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Alistar Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Renata Glasc Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/renata-glasc",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Uh Ashe is any favored because you can kind of mitigate the lane phase a a bit with cleanse and swifty boots.",
+    "[0] Swifty boots is is I would buy that against Ashe cuz she's permanently slowing you, right?",
+    "[0] but it's still she will have pushed most of the lane unless you can um play with a support that pokes her out early and stops her from all in it.",
+    "[1] Juste petite petite notification si vous jouez contre des mecs, je si vous jou contre H les Swiftties first base c'est extrêmement OP pour son slow.",
+    "[2] Avoid Ashe’s Volley(W) by staying behind minions! Be aware that Ashe has a longer range than Jhin, not to mention the slow on her basic attacks!",
+    "[3] Be careful of the Dancing Granade(Q) that bounces off of minions, as well as the damage on Jhin’s final round attack!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 85,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list Jhin ft. Omibro, passage Ashe (5:39-6:14) ; transcription déjà enregistrée au lot 3, ouverture comptée pour chacun des 3 couples)"
+    },
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "écarté : « 2026 Ultimate ADC Episode » (2 h 17, chapitré par champion) ; chapitres Ashe et Jhin = conseils généraux du champion, aucun conseil propre au matchup (ouverture comptée pour les 3 couples)"
+    },
+    {
+      "id": "8-ETXSOvrJo",
+      "channel": "Booshi",
+      "result": "écarté : « JHIN VS ASHE » (FR, 36 min), aucune voix de commentaire (sous-titres = répliques de Jhin en jeu)"
+    },
+    {
+      "id": "DzaiPdz9WbY",
+      "channel": "3XA_LOL",
+      "result": "utilisé (FR, guide ADC chapitré, chapitre Jhin 6:52 : le slow d'Ashe est le problème de Jhin ; le conseil d'objet lui-même n'est pas repris) ; ouverture comptée aussi pour Jhin__Lucian"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=ashe",
+      "result": "ok (1 tip écrit Jhin vs Ashe)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/ashe/counters/adc?target_champion=jhin",
+      "result": "ok (1 tip écrit Ashe vs Jhin)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/jhin/vs-ashe/adc/all",
+      "result": "stats-only (aucun commentaire)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : le slow permanent d'Ashe, sans dash pour en sortir",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Tir givrant ralentit à chaque attaque ; Jhin sans dash)"
+    },
+    {
+      "idea": "Jhin : Ashe a plus de portée (600 vs 550)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (attackrange 600 / 550)"
+    },
+    {
+      "idea": "Jhin : se cacher derrière les sbires contre la Salve (Z)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "blocage par les sbires non vérifiable dans Data Dragon, 1 seule source"
+    },
+    {
+      "idea": "Jhin : elle pousse la lane sauf si ton support la poke tôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Ashe : jouer sur ton slow, Jhin sans dash",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon"
+    },
+    {
+      "idea": "Ashe : avantage de portée",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Ashe : rebond de la Grenade dansante sur les sbires",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Ashe : respecter la 4e balle",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (critique + exécution)"
+    },
+    {
+      "idea": "Ashe : W puis R, ult quand l'adversaire last hit (Broken By Concept)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "conseil général de champion, pas propre à Jhin ; source non comptée"
+    }
+  ]
+}

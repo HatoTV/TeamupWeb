@@ -1,0 +1,145 @@
+{
+  "pair": [
+    "Galio",
+    "Lulu"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Galio": "2348e97de96a6accb0796d3399a125756335e8dccf97541789b720c42a6ff9ff",
+    "Lulu": "8e4d3ed7caec3c6be814bcb1ae2ae90398f1d83be7ba3de99577a96a96acb871"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Galio": {
+      "fr": [
+        {
+          "text": "Ton Bouclier de Durand (Z) provoque les ennemis proches : place-toi devant ton backline pour que le carry boosté par Lulu ne puisse pas l'atteindre.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "macro"
+        },
+        {
+          "text": "Garde ton Entrée héroïque (R) pour rejoindre les fights et couvrir les dives ailleurs sur la map : en botlane, ne l'utilise que pour tuer l'ADC.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "macro"
+        },
+        {
+          "text": "Quand tu engages, attends-toi à la Fantaisie (Z) de Lulu : transformé, tu ne peux plus lancer de sort pendant que son carry te frappe.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Si Lulu s'avance trop, enchaîne Horion de la justice (E) puis Bouclier de Durand (Z) sur Lulu : sous tes contrôles, Lulu ne peut plus lancer ses buffs.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Shield of Durand (W) taunts nearby enemies: stand in front of your backline so the carry Lulu is buffing cannot reach it.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "macro"
+        },
+        {
+          "text": "Save Hero's Entrance (R) to join fights and cover dives elsewhere on the map: in bot lane, only use it if it kills the ADC.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "macro"
+        },
+        {
+          "text": "When you engage, expect Lulu's Whimsy (W): polymorphed, you can't cast anything while her carry hits you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If Lulu steps up too far, chain Justice Punch (E) into Shield of Durand (W) on her: while crowd-controlled, she can't cast her buffs.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Lulu": {
+      "fr": [
+        {
+          "text": "Dès son lvl 6, Galio peut tomber sur ta lane depuis l'autre bout de la map avec Entrée héroïque (R) : préviens ton ADC et surveille la mini-map.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "macro"
+        },
+        {
+          "text": "Quand Galio provoque ton ADC, transforme l'ADC adverse avec Fantaisie (Z) : il ne peut plus frapper pendant que ton carry est bloqué.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Dès que Galio engage avec Horion de la justice (E), transforme-le avec Fantaisie (Z) : il ne peut plus lancer de sort et ton ADC le frappe librement.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "From level 6, Galio can land on your lane from across the map with Hero's Entrance (R): warn your ADC and keep an eye on the minimap.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "macro"
+        },
+        {
+          "text": "When Galio taunts your ADC, polymorph the enemy ADC with Whimsy (W): he can't hit anyone while your carry is locked down.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "As soon as Galio engages with Justice Punch (E), polymorph him with Whimsy (W): he can't cast anything and your ADC hits him freely.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Lulu Vs Galio | Support to Masters | Review #8",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=-HtffG85Glw",
+      "consultedAt": "2026-11-12",
+      "channel": "Jade The Snort",
+      "publishedAt": "2026-10-16",
+      "timestamps": [
+        "1:28",
+        "9:02",
+        "10:13",
+        "13:13"
+      ]
+    },
+    {
+      "title": "Lulu Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Galio Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/galio",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Galio Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/galio/counters/support?target_champion=lulu",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

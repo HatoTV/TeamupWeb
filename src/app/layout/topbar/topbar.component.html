@@ -14,7 +14,7 @@
           [class.is-active]="ctx.section() === game.id"
           [attr.aria-current]="tabCurrent(game)"
         >
-          <span class="tab__badge" aria-hidden="true">{{ game.short }}</span>
+          <app-icon class="tab__icon" [name]="game.icon" [size]="20" />
           <span class="tab__label">{{ game.labelKey | translate }}</span>
         </a>
       }

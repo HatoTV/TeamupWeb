@@ -1,0 +1,159 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Ahri's W movement speed makes her very hard to hit, so the Ahri needs to anticipate it and be very patient when throwing her Q's",
+    "[0] you need to hide behind minions when taking trades, so you don't get hit by random charms",
+    "[0] but also walking towards her then zigzag to ensure she doesn't hit both parts of the Ahri Q",
+    "[0] A good Ahri will make it somewhat difficult to find kills, but at the end of the day, Ahri matches her range and overall just has good ways to deal with her",
+    "[0] The truth is, it's very close to being a 50/50 one, but not exactly",
+    "[1] I always make this mistake with R They always dodge like in one direction and I always like try to predict their movement",
+    "[1] Cuz some good Aris dodge zigzag. Bad Aris like dodge in a straight line.",
+    "[1] he used E. If she didn't use E, I wouldn't go for it. Cuz she could E alt away",
+    "[2] Skill matchup 1v1, try your best to dodge her E and Q poke, especially when you go to CS. If you dodge these you should be able to regain some control over the lane.",
+    "[2] Very rough lane. If you dodge her abilites you can out trade her but its hard. Focus on roaming and stopping her from roaming.",
+    "[2] Survive levels 1-5 and punish her positioning mistakes and spell cooldowns.",
+    "[3] Trade Pattern - Can look for W in when her W 10 is down - Once Q 7 sec is down she has no Real dmg spell pre 6 can play up",
+    "[3] Goal - Have control of vision - Play around her Cooldowns",
+    "[3] Pure skill matchup same range (Kinda) whoever hits he's abilities first wins.Not much to say about Ahri"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 9 2026-11-12",
+  "videosFound": 40,
+  "videosRead": 3,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "44hkj9hvl_I",
+      "channel": "rebrrt",
+      "result": "utilisé (chapitre Ahri 2:18 ; sous-titres auto qui écrivent souvent « Ahri » pour « Aurora »)"
+    },
+    {
+      "id": "hQpDx0wSVaQ",
+      "channel": "rebrrt",
+      "result": "utilisé (commentaire de partie : zigzags d'Ahri 1:58, engage après son E 5:30)"
+    },
+    {
+      "id": "eHcJtQKa6PY",
+      "channel": "rebrrt",
+      "result": "lu, inutilisé (commentaire de partie sans conseil propre au matchup)"
+    },
+    {
+      "id": "TFr7PrgFFOE",
+      "channel": "Sjorry",
+      "result": "non lu : pas de sous-titres « en » renvoyés (vidéo de 40 h, chapitre vs Aurora 32:30:30), probablement début du rate-limit YouTube"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/aurora",
+      "result": "ok (commentaires d'auteurs de guides Ahri contre Aurora : Shok 25.S1.1, Soul0fghost 2026, Peng04 25.14 retenus ; Marlonrank1 et Laevateinn sans date, ignorés)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ahri",
+      "result": "ok (commentaires d'auteurs de guides Aurora contre Ahri : Peng04 25.17, AuroraAddict S15.4 retenus ; vexareq sans date, ignoré)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ahri : esquiver A et E d'Aurora, surtout en allant CS ; vitesse des Lucioles + zigzags",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources (commentaires counterstats récents : 25.S1.1, 2026) + DDragon (Lucioles donne un pic de vitesse)"
+    },
+    {
+      "idea": "Ahri : ne pas gaspiller Orbe / Charme, Aurora engage quand ils sont en CD ; peu de dégâts avant 6 sans A",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (Peng04 25.17 récent) ; CD 7 s de l'Orbe confirmé par DDragon"
+    },
+    {
+      "idea": "Portées proches, le premier qui touche gagne",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (AuroraAddict S15.4 récent) ; DDragon : A 970 / E 975 contre A 900 / E 825, proches, non contredit. Gardé côté Ahri seulement (web interdit côté Aurora, qui avait 3 tips après les vidéos)"
+    },
+    {
+      "idea": "Ahri : Charme bloqué par le premier ennemi, Aurora se cache derrière ses sbires",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Charme touche l'ennemi rencontré)"
+    },
+    {
+      "idea": "Ahri : survivre lvl 1-5 et punir positionnement / CD d'Aurora",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source (lane)"
+    },
+    {
+      "idea": "Ahri : roamer et empêcher Aurora de roamer",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source (macro), et conseil assez générique"
+    },
+    {
+      "idea": "Ahri : mobile, difficile à punir sauf si elle se bloque dans une animation (vexareq)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "commentaire sans date ni indice de récence : n'appuie qu'une mécanique vérifiée"
+    },
+    {
+      "idea": "Aurora : jouer autour du Charme (sbires tant qu'il est dispo, engager après)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Charme touche l'ennemi rencontré)"
+    },
+    {
+      "idea": "Aurora : patience avec le Maléfice, anticiper vitesse et zigzags d'Ahri",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Lucioles : pic de vitesse ; Maléfice : missile)"
+    },
+    {
+      "idea": "Aurora : avancer en zigzag pour éviter l'aller et le retour de l'Orbe",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Orbe : dégâts magiques à l'aller, bruts au retour)"
+    },
+    {
+      "idea": "Aurora : engager avec Derrière le voile (Z) quand les Lucioles d'Ahri sont en CD ; jouer haut quand l'Orbe est en CD",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "page web : interdite côté Aurora (3 tips après les vidéos) ; reprise côté Ahri dans le tip « ne gaspille pas tes CD »"
+    },
+    {
+      "idea": "Aurora : vague 1, auto la wave et punir ses last hits",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "page web interdite côté Aurora, et 1 seule source"
+    }
+  ]
+}

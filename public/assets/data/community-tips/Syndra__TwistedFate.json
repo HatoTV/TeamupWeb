@@ -1,0 +1,107 @@
+{
+  "pair": [
+    "Syndra",
+    "TwistedFate"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Syndra": "14bad5621ab2e90121cce2479995a8566292746e2ed97f0e24603361445cd259",
+    "TwistedFate": "b31a2d44e5df7466be6a16b70e70fe843f0242dd415633ec1a7e35d9b2da244c"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Syndra": {
+      "fr": [
+        {
+          "text": "Quand il prend sa carte dorée et marche vers toi, garde ta Dispersion des faibles (E) pour le repousser avant son attaque.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "S'il tient une carte rouge, éloigne-toi de tes sbires : la carte touche et ralentit autour de sa cible.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ses Atouts (A) seuls s'esquivent facilement ; ils deviennent dangereux après le stun de sa carte dorée, à éviter en priorité.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "When he locks a Gold Card and walks at you, keep Scatter the Weak (E) to knock him back before he can hit you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If he holds a Red Card, move away from your minions: the card hits and slows around its target.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "His Wild Cards (Q) alone are easy to dodge; they get dangerous after a Gold Card stun, so avoid that card first.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "TwistedFate": {
+      "fr": [
+        {
+          "text": "Ne te place jamais entre Syndra et une de ses sphères : sa Dispersion des faibles (E) la pousse sur toi et te stun.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Après son lvl 6, reste haut en PV : chaque sphère en jeu ajoute des dégâts à son Déchaînement de puissance (R).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Never stand between Syndra and one of her spheres: Scatter the Weak (E) pushes it into you and stuns you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "After her level 6, stay at high health: every sphere in play adds damage to her Unleashed Power (R).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Every Mid Lane Matchup Explained (All Champions Guide)",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=4Fc56KQbIBI",
+      "consultedAt": "2026-11-12",
+      "channel": "Zoose",
+      "publishedAt": "2026-04-23",
+      "timestamps": [
+        "16:10",
+        "17:51"
+      ]
+    },
+    {
+      "title": "Twisted Fate Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/twisted-fate",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

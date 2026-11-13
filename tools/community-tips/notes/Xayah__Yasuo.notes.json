@@ -1,0 +1,133 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] The Yasu matchup is all about playing like the early levels well where he doesn't have any abilities like wind ball, like dash cuz it's hard for him to get it in on level one.",
+    "[0] we can avoid getting all in by staying away from creep waves. So Yasu can't use the creeps to dash on us.",
+    "[0] Yasu can only really all in if he has a creep wave to play with for his Q stacks and his E to get close to me.",
+    "[0] If his jungler wasn't there, we could just wait out the wind wall and then commit on him.",
+    "[0] I will ride in like an angle where he can't block it with the wind wall.",
+    "[0] I think this game is going to be decided around like the first first dragon second dragon skirmish.",
+    "[1] you fall off at about 20 minutes. Uh ranged and ADCs just outscale you",
+    "[1] you want to wait for level two or level three. Uh level two If you get level two, you could surprise them by just having a dash.",
+    "[1] sometimes you need your Wind Wall to block a spell, otherwise um they would have blocked you from moving.",
+    "[1] So, you want to end games ideally before that."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 42,
+  "videosRead": 3,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "RifztHJonkM",
+      "channel": "Violet Raven",
+      "result": "échec : aucun sous-titre en (Xayah vs Yasuo ADC, 2023-12-24) ; compté dans le plafond"
+    },
+    {
+      "id": "37to_PueCMg",
+      "channel": "Reptile9LoL",
+      "result": "utilisé (joue Kai'Sa contre Yasuo bot : conseils génériques ADC contre Yasuo, appliqués à Xayah)"
+    },
+    {
+      "id": "RwbYhkmFl7g",
+      "channel": "KingBranco",
+      "result": "inutile (sous-titres en qui semblent traduits ; Xayah jamais citée)"
+    },
+    {
+      "id": "sEwXNp9PvsM",
+      "channel": "hmKing",
+      "result": "utilisé (guide Yasuo ADC, chapitre « How to Play the Lane » ; Xayah jamais citée, conseils génériques contre un ADC)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Xayah : trader au lvl 1, Yasuo attend le lvl 2/3",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Xayah : rester loin de la wave (E et charges de A sur les sbires)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E traverse une cible ; A gagne une charge en touchant)"
+    },
+    {
+      "idea": "Xayah : attendre la fin du Mur de vent ou le contourner",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Mur de vent : bloque tous les projectiles ennemis pendant 4 s)"
+    },
+    {
+      "idea": "Xayah : freeze près de sa tour, Yasuo peine à pousser",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Xayah : ne pas s'engager quand son jungler est proche",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "générique, 1 seule source"
+    },
+    {
+      "idea": "Xayah : le Mur de vent bloque ses plumes (Appel des lames)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "non dit dans les sources lues ; DDragon dit « tous les projectiles ennemis » sans préciser les plumes rappelées : non vérifié"
+    },
+    {
+      "idea": "Yasuo : all-in au lvl 2/3 avec un support d'engage",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Yasuo : garder le Mur de vent pour le sort qui l'arrêterait",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (bloque les projectiles)"
+    },
+    {
+      "idea": "Yasuo : décline vers 20 min, jouer les premiers drakes et finir tôt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (hmKing : chute à 20 min ; Reptile : partie décidée aux premiers drakes)"
+    },
+    {
+      "idea": "Yasuo : utiliser la wave pour approcher",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E traverse une cible, A se charge en touchant)"
+    },
+    {
+      "idea": "Yasuo : accepter moins de CS et compenser par les kills",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    }
+  ]
+}

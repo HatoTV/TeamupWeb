@@ -1,0 +1,62 @@
+{
+  "searches": 5,
+  "sourceSentences": [],
+  "method": "youtube-subtitles (hato-clips), lot 7 2026-11-12",
+  "videosFound": 52,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "lu (en-orig, chapitre Yuumi 8:33 : conseils généraux contre Yuumi, Lulu absente des counters), inutilisé : vidéo arrivée à 3 couples (consigne de l'orchestrateur)"
+    },
+    {
+      "id": "hA_rvNo5Az8",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (Yuumi citée seulement comme alliée de Lulu, pas comme adversaire)"
+    },
+    {
+      "id": "HQbLWSjk6pg",
+      "channel": "Duo Diff",
+      "result": "lu, inutilisé (aucune mention de Lulu)"
+    },
+    {
+      "id": "tj9ByJvX94o",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (Lulu contre enchanteur, partie contre Seraphine : rien sur Yuumi)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/lulu/counters/support?target_champion=yuumi",
+      "result": "lu, inutilisé (statistiques seulement, tips généraux)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/yuumi/counters/support?target_champion=lulu",
+      "result": "ok mais seule source (Lulu poke avec Pix à la rescousse ! sur un sbire puis Duo éclatant)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/yuumi",
+      "result": "lu (2 premiers tiers), inutilisé (Lulu citée sans conseil pour ce matchup)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "result": "lu (premier tiers), inutilisé (aucun commentaire sur Yuumi)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Yuumi : se méfier du poke de Lulu avec Pix à la rescousse ! sur un sbire puis Duo éclatant",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 seule source (op.gg) : le couple n'atteint pas 2 sources, statut insufficientSources"
+    },
+    {
+      "idea": "Lulu : contre Yuumi, mettre la pression sur la carte et prendre les objectifs tôt",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seulement dans Gme87rAvO_8, source interdite (3 couples) ; conseil général contre Yuumi"
+    }
+  ]
+}

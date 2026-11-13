@@ -1,0 +1,127 @@
+{
+  "pair": [
+    "Braum",
+    "Lulu"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Braum": "1d0f164daf3790d10ebecbb29822c801b620150e67cc4d14707389f1b5f07b8f",
+    "Lulu": "8e4d3ed7caec3c6be814bcb1ae2ae90398f1d83be7ba3de99577a96a96acb871"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Braum": {
+      "fr": [
+        {
+          "text": "Ta Morsure de l'hiver (A) est ta clé : sans elle, Lulu te poke et te kite librement. Touche-la avant de lancer un trade.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Engage pendant le CD de sa Fantaisie (Z) : Lulu ne peut plus te transformer pour stopper ton all-in.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Winter's Bite (Q) is your key: without it, Lulu pokes and kites you freely. Land it before you start a trade.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Engage while her Whimsy (W) is on cooldown: she can no longer polymorph you to stop your all-in.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Lulu": {
+      "fr": [
+        {
+          "text": "Braum menace peu en début de lane : poke-le avec tes autos et ton Duo éclatant (A) pour prendre le contrôle de la lane.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Sa Morsure de l'hiver (A) est sa vraie menace : joue autour de tes sbires et punis-le dès qu'il la rate.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Touché par sa Morsure de l'hiver (A), recule : les attaques de son ADC ajoutent des stacks de Coups étourdissants, et au 4e tu es stun.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ton Duo éclatant (A) ralentit fortement : utilise-le pour kite Braum quand il marche sur toi.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Braum is not much of a threat early: poke him with autos and Glitterlance (Q) to take control of the lane.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "His Winter's Bite (Q) is the real threat: play around your minions and punish him as soon as he misses it.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "If his Winter's Bite (Q) hits you, back off: his ADC's attacks add Concussive Blows stacks, and the fourth one stuns you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Glitterlance (Q) slows hard: use it to kite Braum when he walks at you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "DID RIOT GO TOO FAR NERFING LULU? - EDUCATIONAL LULU DAY",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=omZBm4vV4B4",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2025-05-17",
+      "timestamps": [
+        "1:15:20",
+        "1:15:30",
+        "1:15:43",
+        "1:16:28"
+      ]
+    },
+    {
+      "title": "Braum Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/braum",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Lulu Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

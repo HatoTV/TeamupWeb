@@ -1,0 +1,111 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] Nilah can block your 4th shot denying you a lot of damage and movement speed.",
+    "[0] just keep your 4th shot until her w runs out and you should be fine.",
+    "[0] you can't fourth aa her because of her W",
+    "[0] recommend to poke with a lot of q, and save your w until she uses her jumps",
+    "[1] Use W on his fourth shot, E away from his root, play to outscale.",
+    "[1] Dodge his 4th shot with your W and and play with your support.",
+    "[1] Block his 4th Shot every engage and you make this champ useless.",
+    "[1] try to scale and outperform him in teamfights"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 6 2026-11-12",
+  "videosFound": 40,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu, inutilisé (archétypes de supports, Nilah et Jhin jamais cités ; ouverture partagée avec Jhin__Samira)"
+    },
+    {
+      "id": "xRLE7TlfWzs",
+      "channel": "enryu",
+      "result": "lu, inutilisé (aucun passage sur Jhin)"
+    },
+    {
+      "id": "WKD_gySt3HI",
+      "channel": "UrNilah",
+      "result": "lu, inutilisé (stream sans conseil de matchup)"
+    },
+    {
+      "id": "p6xK1xcCl7o",
+      "channel": "UrNilah",
+      "result": "lu, inutilisé (aucun passage trouvé sur Jhin, sous-titres vides pour ces mots)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/nilah/counters/adc?target_champion=jhin",
+      "result": "lu, inutilisé (tips généraux, rien de propre au matchup)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=nilah",
+      "result": "lu, inutilisé (tips généraux sur runes et objets)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/nilah",
+      "result": "ok (commentaires d'auteurs de guides Jhin contre Nilah ; l'un date d'un guide 13.10)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/jhin",
+      "result": "ok (commentaires d'auteurs de guides Nilah contre Jhin)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : garder la 4e balle après le Voile de liesse",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Jubilant Veil esquive les attaques)"
+    },
+    {
+      "idea": "Jhin : garder la Floraison mortelle après les dashs de Torrent",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Torrent : 2 charges dans DDragon ; esquive non vérifiable, verifiedByGameData false)"
+    },
+    {
+      "idea": "Jhin : poke avec la Grenade dansante",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Nilah : Voile de liesse sur la 4e balle",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Nilah : Torrent pour sortir de la ligne du root",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Torrent passe par une unité dans DDragon)"
+    },
+    {
+      "idea": "Nilah : jouer le scaling et les teamfights",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    }
+  ]
+}

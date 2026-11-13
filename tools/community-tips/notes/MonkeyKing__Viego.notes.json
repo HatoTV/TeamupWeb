@@ -1,0 +1,90 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] what I'm going do is I'm going to save my w here because the Vio has no top cams if vgo has no top cams and he's not showing balling right now on his blue buff the Vio could consider coming to inv me in the top side",
+    "[0] so I'm being like very thoughtful of like okay if he comes I need all my juice there there we see vgo okay so now we know that I can use my w if I want to",
+    "[0] vgo's up in the top side vgo has completed item I do too we should have better pressure in the B side right now given the position of the map",
+    "[1] il y a des contres à Viego déjà le jeu d'équipe est très fort contre Viego parce que si vous empêchez le reset le perso sert à rien.",
+    "[1] Viego si il achète n'importe quoi 8000 gold et qu'il affronte un Wukong à 8000 gold le Wukong aura plus de value que Viego parce que Wukong il aura l'effet de surprise, il aura ce pump, il aura ce tempo là où Viego il dépend entièrement de sa team."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 2 2026-11-12",
+  "videosFound": 40,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "OmVG6-tnhnc",
+      "channel": "Rank 1 Viego",
+      "result": "inutile (guide Viego 2026-10-23 : ni Wukong, ni Skarner, ni Rammus, ni « matchup » dans les sous-titres ; ouverture comptée pour les 3 couples)"
+    },
+    {
+      "id": "ym2iS2-iKVg",
+      "channel": "perryjg",
+      "result": "inutile (4 parties Viego, 1 h 26 : aucun des 3 adversaires cité ; ouverture comptée pour les 3 couples)"
+    },
+    {
+      "id": "V-dt2Rptf5s",
+      "channel": "perryjg",
+      "result": "utilisé (guide Wukong 2 h 22, 2025-01-02, chapitre Master/GM : partie contre un Viego ; plus de 18 mois, mécanique revérifiée en 16.22.1)"
+    },
+    {
+      "id": "4MdFg3Rl_IU",
+      "channel": "Sixen • League of Legends",
+      "result": "utilisé (review Viego FR, 2026-11-11 ; passage 30:41 sur les contres de Viego et la comparaison avec Wukong)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/wukong/counters/jungle?target_champion=viego",
+      "result": "stats-only (aucun tip du matchup, page lue en entier)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/viego/counters/jungle?target_champion=wukong",
+      "result": "stats-only (2 tips Viego génériques seulement)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/wukong/vs-viego/jungle/all",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Wukong : si Viego n'a plus de camps de son côté et ne se montre pas, garder le Z pour fuir une invade",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z = dash + invisibilité + clone)"
+    },
+    {
+      "idea": "Wukong : ne pas donner de kill à Viego en teamfight ; sans reset il pèse peu",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : possession du corps, soin en % des PV max, sorts de base)"
+    },
+    {
+      "idea": "Wukong : quand Viego se montre d'un côté, mettre la pression de l'autre",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source"
+    },
+    {
+      "idea": "Wukong : à gold égal, Wukong apporte plus (surprise, tempo) ; Viego dépend de son équipe",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source ; plutôt une appréciation de draft"
+    },
+    {
+      "idea": "Viego : aucun conseil propre au matchup contre Wukong trouvé",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "côté Viego vide"
+    }
+  ]
+}

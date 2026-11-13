@@ -1,0 +1,137 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] so it's good for you at level one. Level one and three it's fine, but once it hits the level six, once it's like level five and their support starts getting spells, it's pretty difficult. She will just kill you. Tristana, same thing.",
+    "[0] Tristana's even harder probably.",
+    "[0] They just get her to Tristana just jumps on you and Kai'Sa just presses R on you, right?",
+    "[1] Je commence à charger la bombe pour avoir mon reset jump. Je prends le W dracan. Je le buffer avec mon W. Je d le W dejin. Je prends le reset.",
+    "[1] Ah non, je l'ai mis sur la 4è balle de jean.",
+    "[2] Be careful of Jhin’s Dancing Grenade(Q) that bounces off minions as well as his fourth basic attack!",
+    "[2] Close in with with Rocket Jump[W] - Explosive Charge [E] combo when Jhin is reloading to deal damage!",
+    "[2] Keep in mind that Explosive Charge [E] can be used while traveling with Rocket Jump [W]!",
+    "[3] Explosive Charge(E) can be stacked with Rocket Jump(W).",
+    "[3] Always keep your distance!",
+    "[3] As Jhin does not have any movement related skills, he cannot win if Tristana closes down the distance between them!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 3 2026-11-12",
+  "videosFound": 89,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list des matchups de Jhin, extrait d'un coaching avec Omibro ; ouverture partagée avec Jhin__Xayah et Jhin__Zeri)"
+    },
+    {
+      "id": "8wCyhYreyBs",
+      "channel": "Jezu VOD",
+      "result": "utilisé, peu de matière (VOD de stream FR, surtout de la discussion ; Jhin transcrit « jean » / « dejin »)"
+    },
+    {
+      "id": "OjgOPrTwePE",
+      "channel": "Bwipo VODs",
+      "result": "écarté : sous-titres anglais traduits d'une autre langue (« Caulfield », « copper », « Brother »)"
+    },
+    {
+      "id": "dzg1qtag5Ig",
+      "channel": "Vapora Dark",
+      "result": "rien : aucune partie contre Jhin dans la vidéo (1 h 45)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/tristana/counters/adc?target_champion=jhin",
+      "result": "ok (paragraphe de conseils du matchup)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=tristana",
+      "result": "ok (paragraphe de conseils du matchup)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/tristana/vs-jhin/bottom/all",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : aucun dash, garder ses distances, Tristana gagne au contact",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (aucun sort de déplacement chez Jhin)"
+    },
+    {
+      "idea": "Jhin : Tristana peut lancer son E pendant son W",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (non décrit dans DDragon)"
+    },
+    {
+      "idea": "Jhin : lvl 1 à 3 jouables, dangereux à partir du lvl 6 quand le support a ses sorts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Tristana : engager W + E quand Jhin recharge après sa 4e balle",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (passif : 4 balles seulement)"
+    },
+    {
+      "idea": "Tristana : respecter la 4e balle (crit + exécution)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif)"
+    },
+    {
+      "idea": "Tristana : E utilisable pendant le W",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Tristana : la Grenade dansante rebondit sur les sbires",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q touche jusqu'à 4 cibles)"
+    },
+    {
+      "idea": "Tristana : esquiver le W de Jhin avec le Saut roquette",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W de Jhin = tir unique longue portée ; W de Tristana = saut). Phrase de sous-titre déformée (« je d le W dejin »), interprétée comme « je dodge le W de Jhin »"
+    },
+    {
+      "idea": "Tristana : mettre Barrière sur la 4e balle",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "sort d'invocateur, 1 seule source ; idée reprise dans « respecter la 4e balle »"
+    }
+  ],
+  "retroFix2026_11_12": "source(s) 1 retirée(s) : chaîne exclue (Jezu VOD) ou vidéo Booshi hors PRO GUIDE ; les tips qui en dépendaient ont été recomptés ou retirés. Index des sourceSentences inchangés."
+}

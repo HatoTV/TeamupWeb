@@ -1,0 +1,48 @@
+{
+  "searches": 11,
+  "sourceSentences": [],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 50,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "WKH8wg0wypE",
+      "channel": "Zoose",
+      "result": "inutile (guide Qiyana mid/jungle, Viego jamais cité)"
+    },
+    {
+      "id": "je2JJBAS0yo",
+      "channel": "Rank 1 Viego",
+      "result": "inutile (Qiyana est dans son équipe, pas adverse)"
+    },
+    {
+      "id": "a-hNPxJk1mo",
+      "channel": "Mayzeek",
+      "result": "inutile (liste de matchups Viego sans Qiyana)"
+    },
+    {
+      "id": "bfIOzCboTmc",
+      "channel": "Kireilol",
+      "result": "inutile (Qiyana jungle, Viego jamais cité)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/viego/vs-qiyana/jungle/all",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/viego",
+      "result": "no-advice (un seul commentaire vague citant Qiyana)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Aucune idée de matchup trouvée",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "toutes les vidéos Qiyana jungle vs Viego trouvées sont des replays sans commentaire ; guides ouverts sans mention de l'adversaire ; pages web : stats seulement"
+    }
+  ]
+}

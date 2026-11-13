@@ -1,0 +1,82 @@
+{
+  "searches": 8,
+  "sourceSentences": [],
+  "method": "youtube-subtitles (hato-clips), lot 13 2026-11-12",
+  "videosFound": 70,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "I4SkLZg5MkY",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (stream « only Renata » : Leona citée hors matchup contre Renata, Rell jamais citée)"
+    },
+    {
+      "id": "fij1CosU98I",
+      "channel": "Joeyyylol",
+      "result": "lu, inutilisé (commentaire Renata : Leona jamais citée, Rell citée une fois à propos du Baron)"
+    },
+    {
+      "id": "4CUUrvML2NU",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (A-Z « R day », chapitres Rell 1:31:41 et Renata 1:53:11 : aucune remarque de matchup Leona/Rell vs Renata)"
+    },
+    {
+      "id": "jAhen3xYur0",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (stream Leona 3 h : Renata jamais citée)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/renata-glasc",
+      "result": "ok (3 commentaires d'auteurs de guides Leona : LA COLORADA 14.14 #2226027, LimTheDestructor S12, Demonsedge90 12.5 : tous anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/leona",
+      "result": "ok, no-advice (1 commentaire d'un auteur de guide Renata, #2183530 ancien, sans contenu de jeu)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/leona/counters/support?target_champion=renata",
+      "result": "no-advice (un tip général sur Leona)"
+    },
+    {
+      "url": "WebSearch « Leona vs Renata Glasc support matchup tips » / « Rell vs Renata Glasc support matchup tips reddit »",
+      "result": "no-advice (mobalytics : conseils derrière un paywall ; lolalytics : stats)"
+    },
+    {
+      "url": "https://www.dodge.gg/lol/news/renata-glasc-build-2026",
+      "result": "écartée : contenu généré/SEO (« Dodge.gg Team », patchs incohérents, stats génériques)"
+    },
+    {
+      "url": "https://mobalytics.gg/blog/lol-how-to-counter-renata-glasc/",
+      "result": "403"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Leona : respecter la Poignée de main, elle peut couper l'engage",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 seule source (page counterstats renata-glasc, commentaires anciens) ; mécanique vérifiable (A immobilise le premier ennemi touché puis projette) mais le statut exige 2 sources"
+    },
+    {
+      "idea": "Leona : respecter le Patronage (résurrection) de Renata",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 seule source (même page, ancien) ; DDragon confirme (mort retardée, sauvé sur élimination)"
+    },
+    {
+      "idea": "Leona : la Prise de contrôle hostile retourne Leona contre ses alliés quand elle engage",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 seule source (même page, ancien) ; DDragon confirme (fou furieux, attaque ses alliés en priorité)"
+    },
+    {
+      "idea": "Leona : lane facile, attention au jungler de Renata",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "lane, commentaire ancien (14.14) et générique"
+    }
+  ]
+}

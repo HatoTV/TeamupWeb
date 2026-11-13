@@ -1,0 +1,120 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] So, I walked over here, went for the E start and E with approach velocity allows me to get a nice Q. And if I aim my Q a little bit better, I would have got the knockup as well.",
+    "[0] The general rule, of course, if you get the knockup, you want to get it, but it’s always better to be safe than sorry. It’s better to guarantee that it hits than be greedy and they step out of it.",
+    "[0] So, this is where if you hit the E, you you pop your W because you want to have your W come up cuz me hitting that E makes me know I’m going to hit a Q onto him here because he’s slowed from the EM",
+    "[0] But see the mindset if I miss my E, I won’t use my W. Too much mana to be wasting like that.",
+    "[0] So you can see I just queued back in the bush, chill because you don’t have second wind. You don’t have second wind, so you do lose a lot of sustain. So you mainly want to be playing around your spell.",
+    "[1] Ryze isn’t played too often, however if you have to play vs him it won’t be easy. Only trade with him, once his W (his prison) is down. You can try to all in with E and R to burn his flash. Push waves and roam.",
+    "[1] Will wave clear very fast, and in late game he will deal a lot of damage, but except his passive his mobility is quite low try to punish him later, when phase rush and his passive are down."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 61,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "8xmqRg9pIbA",
+      "channel": "Shok",
+      "result": "lu, inutilisé (piste fr traduite automatiquement de la voix d’origine ; aucun passage sur Sion, « sion » ne trouve que des mots comme « décision »)"
+    },
+    {
+      "id": "KHHfu_qs-z4",
+      "channel": "Trisend",
+      "result": "lu, inutilisé (aucun passage sur Sion)"
+    },
+    {
+      "id": "VOQfZS-t2KM",
+      "channel": "Coach Chippys",
+      "result": "utilisé (chapitre Laning Phase, exemple de lane contre Ryze 29:47-33:10, en toplane)"
+    },
+    {
+      "id": "JPnqI7-8WjI",
+      "channel": "Mysteriaslol",
+      "result": "lu, inutilisé (aucune partie ni passage contre Sion)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ryze",
+      "result": "ok (2 commentaires d’auteurs de guides Sion contre Ryze, ids 2206157 et 2149500 < 2232000 : anciens, mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/sion",
+      "result": "lu, inutilisé (aucun commentaire d’auteur de guide Ryze contre Sion)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Sion : E d’abord, le slow aide à placer le Q chargé (knock-up)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E ralentit ; Q chargé au moins 1 s : knock-up + stun)"
+    },
+    {
+      "idea": "Sion : relâcher le Q tôt plutôt que viser le knock-up",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts selon la charge, stun seulement après 1 s de charge)"
+    },
+    {
+      "idea": "Sion : W seulement après un E touché (mana, suivi)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bouclier 6 s, réactivation après 3 s si le bouclier tient ; coût en mana)"
+    },
+    {
+      "idea": "Sion : trader quand la Prison runique de Ryze est en CD",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2206157) + DDragon (root seulement si Flux, sinon slow)"
+    },
+    {
+      "idea": "Sion : cheese lvl 1 depuis le buisson avec le Q chargé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Sion : punir les erreurs de placement de Ryze quand il s’avance pour un sbire",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Sion : peu de sustain contre un ranged, jouer autour des sorts depuis le buisson",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane, et lié aux runes"
+    },
+    {
+      "idea": "Sion : all-in E + R pour faire sauter le Flash, push et roam",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaire ancien (patch inconnu, id < 2232000) : ne compte pas pour un tip lane/macro"
+    },
+    {
+      "idea": "Ryze : aucun tip",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "aucune source lue côté Ryze contre Sion (vidéos de replays sans commentaire, pas de commentaire counterstats)"
+    }
+  ]
+}

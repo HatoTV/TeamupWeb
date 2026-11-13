@@ -142,6 +142,8 @@
     </aside>
   </div>
 
+  <app-community-tips [me]="me().champion" [vs]="vs().champion" (reverse)="reverse()" />
+
   @if (lists().length) {
     <section class="lists" [attr.aria-label]="'MATCHUPSPAGE.LISTS_LABEL' | translate">
       @for (list of lists(); track list.id) {

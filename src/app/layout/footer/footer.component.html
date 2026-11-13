@@ -37,6 +37,7 @@
       <p class="footer__legal">{{ 'HOME.FOOTERRIGHTS' | translate }}</p>
       <p class="footer__meta">
         {{ 'FOOTER.COPYRIGHT' | translate: { year: year } }} ·
+        <button type="button" class="footer__cookies" (click)="consent.openPreferences()">{{ 'FOOTER.MANAGE_COOKIES' | translate }}</button> ·
         @for (lang of langs; track lang; let last = $last) {
           <a
             class="footer__lang"

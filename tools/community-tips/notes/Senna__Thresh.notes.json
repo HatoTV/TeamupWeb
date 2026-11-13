@@ -1,0 +1,163 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Senna consegue ter uma rota muito segura contra Thresh",
+    "[0] A good Senna can be very hard for thresh, due to the poke and sustain stopping thresh from taking trades.",
+    "[0] ADC Senna: Outranges Thresh easily.",
+    "[1] 序盤は若干セナのほうが有利。 後半になるにつれ、スレッシュも固くなるし、集団戦の影響力も↑。 スキルドッジ頑張ろう。",
+    "[1] Thresh can pull Senna out of position with his Q (Death Sentence) and follow up with his E (Flay) to secure kills.",
+    "[1] He can zone Senna very well and the CC he provides is lethal!",
+    "[1] Hard Engage is very difficult for Senna.",
+    "[2] Avoid Thresh’s Death Sentence (Q) by staying behind friendly minions!",
+    "[2] Even if Death Sentence (Q) is on cooldown, don’t forget Thresh still has his Flay (E)!",
+    "[3] If get struck by Senna’s (W), use [Q] before you are rooted to go in for the kill.",
+    "[3] You can also chase the enemy until you are rooted, using [E] to pull enemies towards you the moment you are rooted.",
+    "[3] However, be careful of being punished by Senna’s (Q) too often as Senna will gain the upper hand if your health is low."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 8 2026-11-12",
+  "videosFound": 70,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "Zc-njyIJ0M8",
+      "channel": "OTP - League of Legends",
+      "result": "lu, inutilisé (guide Thresh FR 1 h : Senna jamais citée)"
+    },
+    {
+      "id": "iSoTC3Echdc",
+      "channel": "Rank 1 Senna",
+      "result": "lu, inutilisé (Thresh jamais cité)"
+    },
+    {
+      "id": "kcpcHP10Xuk",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé (Senna jamais citée)"
+    },
+    {
+      "id": "72o-H1QOAfc",
+      "channel": "Joeyyylol",
+      "result": "lu, inutilisé (Senna citée seulement pour comparer les âmes du passif)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/senna",
+      "result": "ok (commentaires d'auteurs de guides Thresh sur Senna ; GuanaTv sans patch, Meewah 11.11 et Takitsu 11.10 de plus de 2 ans)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/thresh",
+      "result": "ok (commentaires d'auteurs de guides Senna ; yugito sans patch, BigodeOfLegends 14.16, Toddiek24 11.16, Terroronyou 11.22 de plus de 2 ans)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/senna/counters/support?target_champion=thresh",
+      "result": "ok (tip de matchup Senna contre Thresh)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/thresh/counters/support?target_champion=senna",
+      "result": "ok (tip de matchup Thresh contre Senna)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Senna : avantage en début de lane, poke Thresh avec Ombre perforante",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": false,
+      "reason": "retiré (audit lot 8) : GuanaTv et yugito (counterstats) sans date ni indice de récence = anciens ; tip op.gg sans date = ancien ; Meewah 11.11 plus de 2 ans. 0 source récente pour un tip lane, et ce n'est pas une mécanique vérifiable dans DDragon"
+    },
+    {
+      "idea": "Senna : rester derrière les sbires contre Peine capitale",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Death Sentence touche la première unité) ; âge : tip op.gg sans date (ancien), accepté car mécanique vérifiée"
+    },
+    {
+      "idea": "Senna : Fauchage reste disponible quand Peine capitale est en CD",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Flay pousse ou tire, portée 500) ; âge : tip op.gg sans date (ancien), accepté car mécanique vérifiée"
+    },
+    {
+      "idea": "Senna : Dernière étreinte immobilise après un délai, Thresh peut hook avant",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Last Embrace : root après un délai) ; âge : tip op.gg sans date (ancien), accepté car mécanique vérifiée"
+    },
+    {
+      "idea": "Senna : portée d'attaque supérieure à celle de Thresh",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (Takitsu 11.10, plus de 2 ans) + DDragon (attackrange Senna 600, Thresh 450 ; Flay 500)"
+    },
+    {
+      "idea": "Thresh : Senna plus forte tôt, ne pas se faire user par son Ombre perforante",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": false,
+      "reason": "retiré (audit lot 8) : mêmes sources, toutes anciennes ou sans date ; conseil de lane non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Thresh : touché par Dernière étreinte, lancer Peine capitale avant le root",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (root après un délai) ; âge : tip op.gg sans date (ancien), accepté car mécanique vérifiée"
+    },
+    {
+      "idea": "Thresh : Fauchage utilisable en étant rooté pour ramener l'ennemi",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Flay n'est pas un déplacement : tire ou pousse dans le sens du balayage) ; âge : tip op.gg sans date (ancien), accepté car mécanique vérifiée"
+    },
+    {
+      "idea": "Thresh : Peine capitale sort Senna de position puis Fauchage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (14.16, plus de 2 ans) + DDragon (Death Sentence étourdit et tire la cible)"
+    },
+    {
+      "idea": "Thresh : devient plus solide et pèse plus en teamfight avec le temps",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "macro avec 1 seule source ; yugito sans date (ancien)"
+    },
+    {
+      "idea": "Thresh : son engage et son CC sont mortels pour Senna",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaires de plus de 2 ans (11.16, 11.22), conseil de lane"
+    },
+    {
+      "idea": "Thresh : esquive ses sorts",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "générique"
+    }
+  ]
+}

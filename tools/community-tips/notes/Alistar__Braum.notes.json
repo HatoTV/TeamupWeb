@@ -1,0 +1,121 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] Be careful of him using flash to knock you under a turret, but you can still escape with your stand behind me.",
+    "[0] Alistar is a skill based match up for Braum. The better player will win it. Watch out for his Flash>Q>W combo",
+    "[0] Alistar is probably the easiest match up. If you see him going for combo you can just buffer your q",
+    "[0] Alistar can and probably will engage as soon as you get into range. Try to stay at max range at all times to limit his",
+    "[1] While Alistar's abilities are not projectiles, check if Braum has used his E before engaging",
+    "[1] Passive can negate your all in by stunning you first, mostly an even lane but he has more utility than you.",
+    "[1] Braum is a problem due to his passive. This is why you need to pick your engages carefully in this lane.",
+    "[1] Braum is a pick that basically tries to deny you opportunities to combo by threatening to CC you into the stratosphere if you go in.",
+    "[1] Easy Matchup, Just be careful for his Passive and Q"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 9 2026-11-12",
+  "videosFound": 40,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "BiICW-E10ak",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (guide Alistar 2025-02-21, chapitre draft 4:30 : Braum jamais cité ; piste « en » traduite, relu en « en-orig »). Ouverture partagée avec Alistar__Senna et Alistar__Renata"
+    },
+    {
+      "id": "mGV2qHHXG7I",
+      "channel": "Challenger vs. Emerald",
+      "result": "lu, inutilisé (Braum cité une fois à 1:53:12 comme exemple de support réactif, aucun conseil de matchup). Ouverture partagée avec Alistar__Senna et Alistar__Renata"
+    },
+    {
+      "id": "VhNGzeoDsX4",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé (Braum jamais cité). Ouverture partagée avec Alistar__Renata"
+    },
+    {
+      "id": "zis-3-QLn0o",
+      "channel": "BenTbeyondrepair",
+      "result": "lu, inutilisé (guide Braum S16 : Alistar jamais cité)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (commentaires d'auteurs de guides Braum sur Alistar : patchs 9.x à 12.x ou sans date, tous de plus de 2 ans)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/braum",
+      "result": "ok (commentaires d'auteurs de guides Alistar ; un seul récent : Nobreav, guide 25.24)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Braum",
+      "result": "lu pour vérification seulement (Incassable réduit tous les dégâts venant de face ; charges du passif)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : le passif de Braum (ses attaques puis celles de son ADC) l'étourdit à 4 charges, choisir ses engages",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires Hanjaro et Leaguecitizen sans date, Raizins 11.12, 1OLAF3 9.17 : plus de 2 ans) + DDragon (4 charges = stun, les attaques alliées chargent après la première)"
+    },
+    {
+      "idea": "Alistar : Coup de tête n'est pas un projectile, l'Incassable ne le bloque pas mais réduit les dégâts de face",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente (Nobreav, guide 25.24) + DDragon (E intercepte les projectiles, réduit les dégâts de cette direction ; wiki : toutes sources de dégâts de face)"
+    },
+    {
+      "idea": "Braum : frapper Alistar avec l'ADC quand il s'engage pour l'étourdir avec le passif",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (Hanjaro, sans date : plus de 2 ans par défaut) + DDragon"
+    },
+    {
+      "idea": "Braum : Bouclier humain pour fuir quand Alistar le repousse sous sa tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (Hanjaro, sans date) + DDragon (Z bondit vers un allié ou un sbire ; Coup de tête repousse)"
+    },
+    {
+      "idea": "Braum : se méfier du Flash + Atomisation",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (GamingFrog 11.11, plus de 2 ans) + DDragon (Atomisation soulève les ennemis proches, 365)"
+    },
+    {
+      "idea": "Braum : rester à portée max, Alistar engage dès que possible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, source unique de plus de 2 ans (Dixon 12.14)"
+    },
+    {
+      "idea": "Braum : « buffer » la Morsure de l'hiver quand Alistar combo",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source de plus de 2 ans (Season 12), effet non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Matchup d'habileté / égal",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "pas un conseil de jeu ; commentaires de plus de 2 ans"
+    }
+  ]
+}

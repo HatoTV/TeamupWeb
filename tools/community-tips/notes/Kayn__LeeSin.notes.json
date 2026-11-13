@@ -1,0 +1,106 @@
+{
+  "searches": 14,
+  "sourceSentences": [
+    "[0] it's base Kane he has no CC and Garen just used all of his spells so I should be completely okay just walking here",
+    "[0] I'm pretty sure I invade him here.",
+    "[0] And then I invade Kane's top side again.",
+    "[1] you can beat kayn in the early game and also beat a kayn blue form, but red form becomes a little more tricky"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 47,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "7NaSp9nj4Ek",
+      "channel": "3bit",
+      "result": "utilisé (review commentée côté Lee Sin, 36 min ; aucun conseil côté Kayn)"
+    },
+    {
+      "id": "V0uzeO93v6M",
+      "channel": "Sheiden",
+      "result": "inutile (stream monté, aucune remarque sur Kayn)"
+    },
+    {
+      "id": "gWFUC1IRGc4",
+      "channel": "Dark Aura",
+      "result": "inutile (tier list 2024, Lee Sin jamais cité)"
+    },
+    {
+      "id": "xeQJBYM-Vzg",
+      "channel": "Karasmai",
+      "result": "inutile (guide général, Lee Sin jamais cité ; sous-titres en qui semblent traduits)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/kayn/",
+      "result": "stats-only (patch 26.22)"
+    },
+    {
+      "url": "https://www.mobafire.com/league-of-legends/build/25-23-kayn-guide-with-detailed-matchups-636852",
+      "result": "403"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/kayn",
+      "result": "ok (commentaires de joueurs sous des guides Lee Sin S13/S14, non datés)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lee Sin : punir Kayn avant sa transformation (invades, escarmouches tôt)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (3bit : Kayn sans forme, invade de son top side ; counterstats : Kayn battable tôt)"
+    },
+    {
+      "idea": "Lee Sin : Kayn sans forme n'a pas de contrôle dur",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z : ralentissement ; projection seulement avec Tueur darkin)"
+    },
+    {
+      "idea": "Lee Sin : la forme rouge est plus dure à affronter",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Tueur darkin : Z projette, soin sur les dégâts des sorts)"
+    },
+    {
+      "idea": "Lee Sin : repérer la forme visée (bleue/rouge) pour décider invade ou gank",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source (commentaire counterstats)"
+    },
+    {
+      "idea": "Lee Sin : ne pas laisser à Kayn un timer libre sur le drake / jouer en miroir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source"
+    },
+    {
+      "idea": "Lee Sin : warder son chemin d'invade et prendre le côté opposé (split map)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source"
+    },
+    {
+      "idea": "Kayn : aucun conseil trouvé",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "aucune vidéo commentée côté Kayn contre Lee Sin ; pages web : stats seulement ou 403"
+    }
+  ]
+}

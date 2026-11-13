@@ -1,0 +1,151 @@
+{
+  "pair": [
+    "Nautilus",
+    "Seraphine"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Nautilus": "26c5839d056b971e22d2b610386aae53d04ddc41dd99d5e71c08aa914465a1a8",
+    "Seraphine": "ed160ec2bc46908a4c59b64f118f6fc36d8a08e9f145a34ae0b7720bf12b6745"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Nautilus": {
+      "fr": [
+        {
+          "text": "Son Battement (E) porte plus loin que ton Abordage (A). Ne reste pas dans sa portée de poke sans menace : avance seulement pour engager.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Sois agressif dès les premiers niveaux : Séraphine est fragile et prend le dessus si elle scale sans pression.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Cherche l'all-in quand ton jungler arrive bot. Nettoie d'abord la vision de sa rivière pour qu'elle ne le voie pas venir.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ],
+      "en": [
+        {
+          "text": "Her Beat Drop (E) outranges your Dredge Line (Q). Don't idle inside her poke range; only step forward when you're actually going in.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Be aggressive from the very first levels: Seraphine is fragile and takes over if she gets to scale without pressure.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Look for the all-in when your jungler shows up bot. Clear her river vision first so she doesn't see him coming.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ]
+    },
+    "Seraphine": {
+      "fr": [
+        {
+          "text": "Évite les trades longs. Poke avec ton Battement (E), qui porte plus loin que son Abordage (A), puis recule aussitôt.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Sa Grenade ASM (R) te poursuit, impossible de l'esquiver. Une fois qu'il l'a utilisée, profite de son long CD pour trade davantage.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Quand Nautilus disparaît de la lane, ne push pas : garde la wave près de ta tour, surtout après son lvl 6.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "La lane est le moment dangereux du matchup : joue la sécurité, c'est toi qui prends l'avantage en scalant.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ],
+      "en": [
+        {
+          "text": "Avoid extended trades. Poke with Beat Drop (E), which outranges his Dredge Line (Q), then back off right away.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "His Depth Charge (R) chases you down and can't be dodged. Once he has used it, take advantage of its long cooldown to play more aggressively.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "When Nautilus goes missing, don't push: keep the wave near your tower, especially once he's level 6.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Laning is the dangerous part of this matchup: play it safe, since you're the one who gains the edge as the game goes on.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "How to Climb with Seraphine Guide - Challenger Teaches Me ft. Moose | Seraphine Build & Gameplay",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=fBgxtuBgghE",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League | Broken By Concept",
+      "publishedAt": "2026-08-22",
+      "timestamps": [
+        "9:32",
+        "37:34",
+        "1:18:33"
+      ]
+    },
+    {
+      "title": "How to Carry with Enchanter Supports in Emerald (New Patch) - Educational Games",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=pjLAb_PdiP8",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2026-08-26",
+      "timestamps": [
+        "9:20",
+        "9:56",
+        "13:52"
+      ]
+    },
+    {
+      "title": "Seraphine Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/seraphine",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Nautilus Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/nautilus",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

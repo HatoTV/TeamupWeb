@@ -1,0 +1,145 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] Zindra has extremely long cooldowns in the game. Q 7 seconds. Okay, W 12 seconds, E 15 seconds.",
+    "[0] we're going to play the cooldown trading game in which that we are playing this lane with the mindset to bait out her spells",
+    "[0] I'm going to stand away from low health minions so she cannot AoE me plus the minions at the same time. And then I'm going to look to try and run in and out of her range to bait out her spell, especially at times when I'm going to be forced to last it.",
+    "[0] You act as if you click into her, like you're going to trade, and then you click diagonally to the side at the time when you anticipate her to throw her spell.",
+    "[0] Before that, you generally want to attack her because the moment she reaches a cure upgrade, it's extremely hard to attack her.",
+    "[1] You're often playing against mages who have skill shots they have to land. And one of Kayle's biggest advantages is her movement speed. Through her passive, through Swifties, through W heal and movement speed boost, we are going to be just an absolute monster with dodging abilities",
+    "[1] So, this is especially true with the mages with the big long cool-downs. When they cast an ability, we need to make sure to dodge it first. Do not hit them if they have abilities available.",
+    "[1] You can pretend like you're going to hit them, so you can use your mechanics to dodge to the side, and then you can go trade.",
+    "[1] When you have so much um reactive ability to punish through movement speed, through trying to bait out the enemy spells, you can use your mechanics to kind of bait out and and kind of be at the edge",
+    "[2] Level 1-6 just afk farm and don't interact with her. After 6 keep on farming and only look for a trade when you have passive stacked and when you are confident you can dodge her E or if she missed already",
+    "[2] Bait her E's on laning phase by acting like you go for a minion. Use your W to dodge her Q's or E's on laning phase.",
+    "[2] Don't repeat same cycle of movement so she cant predict where you are going to dodge.",
+    "[2] Really annoying and hard matchup at the same time just play safe under tower and farm u can try to contest her for some cs but it rarely works out",
+    "[2] After level 11 u hard beat her R her R and try to be as efficient and dont lose any cs in lane because u need every single one of them."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 14 2026-11-12",
+  "videosFound": 39,
+  "videosRead": 3,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "mJFc-rMz2vg",
+      "channel": "Coach Mysterias",
+      "result": "lu (recherche Kayle), inutilisé : Kayle jamais citée (3e ouverture de cette vidéo, aucun couple publié avec)"
+    },
+    {
+      "id": "9TeDa357ucE",
+      "channel": "JsMethod",
+      "result": "utilisé (guide Kayle mid S16 : conseils contre les mages à skillshots ; piste « en » traduite, lue en « en-orig »)"
+    },
+    {
+      "id": "ofCVbHO2f8o",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (anti-Syndra mid, conseils valables pour Kayle ; transcription déjà lue pour Syndra__Veigar)"
+    },
+    {
+      "id": "yIRjag4z7jg",
+      "channel": "MID-GG Kayle",
+      "result": "non lu : aucun sous-titre « en » (replay sans voix probable), compté dans le plafond par prudence"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "result": "ok (commentaires d'auteurs de guides Kayle ; récents : #2254686, #2232175 ; #2177243 et #2143506 anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/kayle",
+      "result": "lu, inutilisé (aucun commentaire d'auteur de guide Syndra)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kayle : échanger seulement après avoir esquivé un sort, ses CD sont longs",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Sphère noire 7 s, Dispersion des faibles 15 s)"
+    },
+    {
+      "idea": "Kayle : bait la Dispersion des faibles en feignant un last hit",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Kayle : garder la Bénédiction céleste pour esquiver A et E",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (soin et vitesse de déplacement)"
+    },
+    {
+      "idea": "Kayle : varier ses déplacements pour ne pas être lue",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Kayle : avant le lvl 6, farmer sans interagir",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "contradiction à égalité (counterstats : ne pas interagir avant 6 ; vidéo anti-Syndra : l'attaquer avant l'amélioration de sa Sphère noire), retirée"
+    },
+    {
+      "idea": "Kayle : au lvl 11, elle bat Syndra",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source (deux commentaires de la même page), palier non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Kayle : rester au-dessus de 60 % de PV pour lancer le Jugement divin après un stun",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    },
+    {
+      "idea": "Kayle : se placer à côté de la wave, loin des minions bas en vie",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "commentaire counterstats #2177243 ancien : 1 seule source récente"
+    },
+    {
+      "idea": "Kayle : après le lvl 6, ses autos à distance rendent les trades plus faciles",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "générique et 1 seule source"
+    },
+    {
+      "idea": "Syndra : bully Kayle tôt, elle te dépasse plus tard",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source (commentaires Kayle) ; aucune vidéo ni page côté Syndra : côté non affiché"
+    }
+  ]
+}

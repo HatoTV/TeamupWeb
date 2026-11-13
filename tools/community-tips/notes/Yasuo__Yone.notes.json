@@ -1,0 +1,349 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] you don't even want to trade with someone who has a free shield",
+    "[0] If I can get his shield off for free like this, that's pretty good.",
+    "[0] I'll trade my W for his shield. My W comes up first.",
+    "[0] Always want to try to like remove his shield with yours.",
+    "[1] if I hit him with my third Q, he would hit me with his and then ult"
+  ],
+  "method": "youtube-subtitles (hato-clips), test 2026-11-12",
+  "videosFound": 22,
+  "videosRead": 6,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "f3DzVcvaT6Y",
+      "channel": "2deal",
+      "result": "lu, inutilisable (sous-titres traduits, commentaires d'objets, partie contre bots)"
+    },
+    {
+      "id": "KxTXJ7POZrc",
+      "channel": "TheWanderingPro",
+      "result": "lu, 3 passages sans conseil exploitable"
+    },
+    {
+      "id": "e_5O0363MPI",
+      "channel": "PZ ZZANG",
+      "result": "lu, musique + quelques phrases traduites du coréen"
+    },
+    {
+      "id": "MhQrP0uHg98",
+      "channel": "Whirlwind Yasuo",
+      "result": "lu, 1 passage générique"
+    },
+    {
+      "id": "EVVqZwrQ7To",
+      "channel": "Repobah",
+      "result": "utilisé"
+    },
+    {
+      "id": "V4sW-TVjhMs",
+      "channel": "WayOfTheTempest",
+      "result": "utilisé (vidéo de plus de 18 mois, aucun rework détecté depuis ; seulement une mécanique vérifiée)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Yone : faire sauter le bouclier du passif de Yasuo (Z) avant de trader",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bouclier du passif déclenché par dégâts de champion ; W de Yone, cd 14)"
+    },
+    {
+      "idea": "Yone : ne pas lancer A3 quand Yasuo a A3 + R",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R = cible projetée dans les airs)"
+    },
+    {
+      "idea": "Yone : trader quand Yasuo va last-hit le canon",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Yone : ne pas E en avant quand Yasuo a son bouclier, sinon il Mur de vent",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "contredit par DDragon : le Mur de vent ne bloque que des projectiles, aucun sort de Yone n'en est un"
+    },
+    {
+      "idea": "Yone : Flash par-dessus la tornade",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "trop générique"
+    }
+  ],
+  "overCap": "Plafond de 4 vidéos dépassé (6) : les 4 premières, choisies sur le titre, étaient des parties sans commentaire de matchup.",
+  "webPilot": {
+    "searches": 5,
+    "pagesRead": 4,
+    "sourceSentences": [
+      "[0] attacking him when his Spirit Form (E) is on cooldown",
+      "[0] Fight him at level 1-2 before he has his full combo.",
+      "[0] Dodge his Q3 knock-up (reformulé par l'outil)",
+      "[0] Respect his all-in at level 6 (reformulé par l'outil)",
+      "[1] Whoever avoids more skills will win the fight.",
+      "[1] Yasuo has a slight advantage as his (E) and (W) can be used to mitigate Yone's skills.",
+      "[2] Track Soul Unbound: 22s at rank 1 falling to 10s.",
+      "[2] Level 6 is still even because both ultimates are all-ins and his Fate Sealed pull answers your Last Breath.",
+      "[2] spend your dashes before his all-in (liste Don't)",
+      "[3] play for CS and don't force a trade without a bush or jungler.",
+      "[3] Level 3 is skill-based; the trade hinges on Wind Wall timing, not champion power."
+    ],
+    "pagesNote": "6 pages tentées : 4 lues (orbispatches, op.gg, matchupcoach x2), old.reddit refusé, tacter 404. Les deux pages matchupcoach (même site) comptent pour une seule source indépendante dans les comptages ; elles sont surtout statistiques/génériques (texte probablement généré), avec quelques lignes de conseil.",
+    "ideas": [
+      {
+        "idea": "Yasuo : trade quand le E de Yone est en CD / punir après le retour au corps",
+        "sourceIdx": [
+          0,
+          2
+        ],
+        "kept": true,
+        "reason": "≥2 sources + verified DDragon (E CD 22/19/16/13/10, retour forcé au corps)"
+      },
+      {
+        "idea": "Yasuo : garder son E pour esquiver le Q3 de Yone",
+        "sourceIdx": [
+          0,
+          1,
+          2
+        ],
+        "kept": true,
+        "reason": "≥2 sources + verified DDragon (Q3 = ruée + knock-up ; E de Yasuo = ruée ciblée)"
+      },
+      {
+        "idea": "Yasuo : respecter l'all-in de Yone au lvl 6, reculer si low/sans sorts",
+        "sourceIdx": [
+          0,
+          2
+        ],
+        "kept": true,
+        "reason": "≥2 sources (majorité ; voir contradictions) + verified DDragon (R : knock-up le long du chemin)"
+      },
+      {
+        "idea": "Yasuo : fight lvl 1-2 avant que Yone ait son combo",
+        "sourceIdx": [
+          0
+        ],
+        "kept": false,
+        "reason": "removed: 1 seule page, et matchupcoach décrit lvl 1-2 comme égal (contradiction)"
+      },
+      {
+        "idea": "Yasuo : bloquer les sorts de Yone avec le Mur de vent",
+        "sourceIdx": [
+          1,
+          2
+        ],
+        "kept": false,
+        "reason": "removed: contredit/invérifiable DDragon (Mur de vent = projectiles uniquement ; aucun sort de Yone n'est décrit comme projectile)"
+      },
+      {
+        "idea": "Yasuo : ne pas vider ses dégâts sur Yone en forme d'esprit",
+        "sourceIdx": [
+          0
+        ],
+        "kept": false,
+        "reason": "removed: faux (consigne de mission) — en E c'est Yone qui se déplace et prend les dégâts"
+      },
+      {
+        "idea": "Yasuo : poke et contrôle de wave plutôt qu'all-in",
+        "sourceIdx": [
+          0
+        ],
+        "kept": false,
+        "reason": "removed: 1 seule source (lane)"
+      },
+      {
+        "idea": "Yone outscale à 2+ items",
+        "sourceIdx": [
+          2,
+          3
+        ],
+        "kept": false,
+        "reason": "removed: un seul site (matchupcoach, 2 pages non indépendantes) ; les mentions reddit n'étaient que des extraits de recherche"
+      },
+      {
+        "idea": "Yasuo : garder la tornade jusqu'à ce que Yone ait utilisé son E",
+        "sourceIdx": [],
+        "kept": false,
+        "reason": "removed: aucune page lue (mobafire bloqué)"
+      },
+      {
+        "idea": "Lvl 3 : les deux débloquent E, course au premier knock-up",
+        "sourceIdx": [
+          2
+        ],
+        "kept": false,
+        "reason": "removed: 1 seule source (lane)"
+      },
+      {
+        "idea": "Yone : lvl 1-2 combo incomplet, farm, pas de trade forcé sans brush/jungler",
+        "sourceIdx": [
+          0,
+          3
+        ],
+        "kept": true,
+        "reason": "≥2 sources (orbispatches côté adversaire : combo incomplet aux lvl 1-2 ; matchupcoach : jouer le CS, pas de trade forcé)"
+      },
+      {
+        "idea": "Yone : son E est sa sécurité, jouer safe tant qu'il est en CD",
+        "sourceIdx": [
+          0,
+          2
+        ],
+        "kept": true,
+        "reason": "≥2 sources (miroir de « punir le E en CD ») + verified DDragon"
+      },
+      {
+        "idea": "Yone : esquiver la tornade = pas d'ult de Yasuo",
+        "sourceIdx": [
+          1
+        ],
+        "kept": true,
+        "reason": "1 page (op.gg : esquiver les sorts décide du fight) + verified DDragon (R de Yasuo cible un champion projeté dans les airs)"
+      },
+      {
+        "idea": "Yone : engager en E puis recast pour revenir",
+        "sourceIdx": [],
+        "kept": false,
+        "reason": "removed: aucune page lue ne le dit (source pilote = mirror reddit non relu)"
+      },
+      {
+        "idea": "Yone : pression constante / punir l'overextend avec le jungler",
+        "sourceIdx": [],
+        "kept": false,
+        "reason": "removed: extraits de recherche uniquement (champsight bloqué, reddit non lu)"
+      },
+      {
+        "idea": "Yone : ult lvl 6 = all-in",
+        "sourceIdx": [
+          0
+        ],
+        "kept": false,
+        "reason": "removed: matchupcoach page Yone dit l'inverse (ults de teamfight, égal en 1v1) ; gardé seulement côté Yasuo comme menace à respecter"
+      },
+      {
+        "idea": "Conseils objets/runes",
+        "sourceIdx": [],
+        "kept": false,
+        "reason": "removed: objet/rune"
+      }
+    ],
+    "tipSources": [
+      {
+        "perspective": "Yasuo",
+        "category": "lane",
+        "index": 0,
+        "sourceIdx": [
+          0,
+          2
+        ]
+      },
+      {
+        "perspective": "Yasuo",
+        "category": "mechanics",
+        "index": 0,
+        "sourceIdx": [
+          0,
+          2
+        ]
+      },
+      {
+        "perspective": "Yasuo",
+        "category": "mechanics",
+        "index": 1,
+        "sourceIdx": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "perspective": "Yone",
+        "category": "lane",
+        "index": 0,
+        "sourceIdx": [
+          0,
+          3
+        ]
+      },
+      {
+        "perspective": "Yone",
+        "category": "mechanics",
+        "index": 0,
+        "sourceIdx": [
+          0,
+          2
+        ]
+      },
+      {
+        "perspective": "Yone",
+        "category": "mechanics",
+        "index": 1,
+        "sourceIdx": [
+          1
+        ]
+      }
+    ],
+    "sites": [
+      {
+        "site": "orbispatches.com",
+        "url": "https://orbispatches.com/gaming-faq/how-to-punish-yone",
+        "result": "ok"
+      },
+      {
+        "site": "op.gg",
+        "url": "https://op.gg/lol/champions/yone/counters/mid?target_champion=yasuo",
+        "result": "ok"
+      },
+      {
+        "site": "old.reddit.com",
+        "url": "https://old.reddit.com/r/YoneMains/comments/1flwy3x/how_do_you_play_against_grasp_yasuo/",
+        "result": "refused"
+      },
+      {
+        "site": "tacter.com",
+        "url": "https://www.tacter.com/lol/guides/yone-mid-lane-in-depth-guide-1c70b4f0",
+        "result": "404"
+      },
+      {
+        "site": "matchupcoach.gg",
+        "url": "https://matchupcoach.gg/matchup/mid/yasuo-vs-yone/",
+        "result": "ok"
+      },
+      {
+        "site": "matchupcoach.gg",
+        "url": "https://matchupcoach.gg/matchup/mid/yone-vs-yasuo/",
+        "result": "ok"
+      }
+    ],
+    "ddragonChecks": [
+      "Yasuo Q Steel Tempest / Tempête d'acier : à 2 effets, tornade à distance qui projette dans les airs ; en ruée, frappe en cercle — confirmé",
+      "Yasuo W Wind Wall / Mur de vent : bloque tous les projectiles ennemis 4 s — confirmé (ne parle que des projectiles)",
+      "Yasuo E Sweeping Blade / Cercle tranchant : ruée à travers un ennemi ciblé, CD par cible — confirmé",
+      "Yasuo R Last Breath / Dernier soupir : se téléporte sur un champion ennemi projeté dans les airs — confirmé",
+      "Yone Q Mortal Steel / Acier mortel : à 2 effets, Yone se rue en avant et projette dans les airs — confirmé",
+      "Yone E Soul Unbound / Libération spirituelle : forme d'esprit, corps laissé sur place, retour forcé au corps qui répète une partie des dégâts ; recast possible ; CD 22/19/16/13/10 (rangs 1 à 5) — confirmé",
+      "Yone R Fate Sealed / Destin scellé : frappe le long d'un chemin, téléporte derrière le dernier champion touché, projette les victimes dans les airs vers Yone — confirmé (tooltip)"
+    ],
+    "contradictions": [
+      "Mur de vent vs sorts de Yone : op.gg et matchupcoach disent que le Z gêne/bloque Yone ; DDragon ne parle que des projectiles et aucun sort de Yone n'en est un → retiré.",
+      "Lvl 1-2 : orbispatches dit que Yone est faible avant son combo complet ; matchupcoach dit miroir égal → côté Yasuo, « agresse tôt » retiré ; côté Yone, seul « farm, ne force pas » gardé (compatible avec les deux).",
+      "Lvl 6 : orbispatches et matchupcoach (page Yasuo) décrivent un all-in ; matchupcoach (page Yone) parle d'ults de teamfight, égal en 1v1 → gardé côté Yasuo (majorité), pas côté Yone.",
+      "matchupcoach page Yone conseille d'attendre la fin du Mur de vent pour poke alors que Yone n'a pas de projectile selon DDragon → page jugée peu fiable sur ce point.",
+      "Winrates contradictoires selon site/patch → non utilisés."
+    ]
+  }
+}

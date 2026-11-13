@@ -1,0 +1,173 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] The best way to handle that is to focus the enemy ADC once you see Alisar going. If you CC or zone the enemy ADC, they won't be able",
+    "[0] Now, support counters. And the first one is Poppy. Her W can completely block out Alistar dashes which makes it impossible for him to combo.",
+    "[0] the moment he turns level two, he reaches his first power spike. And that's when he will look for allins.",
+    "[0] It's very important to know what exactly the headbutt range is of Alistar. This is his danger zone, and once you step foot in it, he will all in you.",
+    "[1] Reaction speed test, he can never engage if you hold your W for his, go aftershock/HoB and tank build. If he ever does land an engage, counter engage onto his adc immediately",
+    "[1] He'll try to stun you before dashing into you, so try to activate W before he CC's you to avoid his knockback. When he uses his R, try to disengage until its duration wears off.",
+    "[1] In lane, you can also R away the ADC when Ali engages, and kill Alistar 2v1. He will quickly feel pretty useless if you do.",
+    "[1] His W can be blocked, but it's really fast. Careful of his flash Q; if you don't W before the knock-up you will be very out of position.",
+    "[2] Poppy's W (Steadfast Presence) blocks Alistar's W (Headbutt) dash and knocks her up. If Poppy uses W, do not dash; wait or chain into another ability.",
+    "[2] Poppy's E (Heroic Charge) stuns if it hits a wall. When Poppy tries to use E, use Alistar's E (Trample) ghosting effect to avoid the wall slam, or push Poppy away with W.",
+    "[2] To not die lvl1 dont stand close to wall as it can burst you. Dont get baited by Mini Mundo passive.",
+    "[2] Poppy's W will stop you from engaging as it blocks all dashes including your W. Play around this or you will insta-lose your lane, because you can't play the game."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 13 2026-11-12",
+  "videosFound": 42,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "X5t_YKzJyrM",
+      "channel": "Dioud",
+      "result": "lu, inutilisé (piste « en » traduite depuis le portugais, aucune mention d'Alistar)"
+    },
+    {
+      "id": "jec-gvaM37k",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé (guide Poppy support 2026-05-23 : seulement « Poppy bloque les supports à dash » en général, Alistar jamais cité)"
+    },
+    {
+      "id": "DeMnEungNVs",
+      "channel": "Cannon Minion",
+      "result": "utilisé (2025-05-10 ; piste « en » traduite, relue en « en-orig » : 1:11 focus de l'ADC adverse, 2:39 Poppy Z bloque les dashs d'Alistar)"
+    },
+    {
+      "id": "xYXkVKXNSpw",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (stream Poppy support 5 h : Alistar jamais cité)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (6 commentaires d'auteurs de guides Poppy ; récent : Bound04 #2249661, guide 26.05 ; les autres < 2232000 = anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/poppy",
+      "result": "ok (3 commentaires d'auteurs de guides Alistar ; récent : Nobreav #2246387, guide 25.24 ; xpwnz1337 14.14 et Aerenax 13.4 = anciens)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : ne pas lancer Coup de tête dans la Présence immuable, attendre la fin de la zone",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources (vidéo 2025, Bound04 26.05 et Nobreav 25.24 récents) + DDragon (Z de Poppy stoppe les dashs, cloue au sol et ralentit ; Coup de tête = charge sur la cible)"
+    },
+    {
+      "idea": "Alistar : Flash + Atomisation passe malgré la Présence immuable",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (commentaires anciens Kcmichalson, AscorbicAcids, Jageiko : mécanique seulement) + DDragon (la zone stoppe les dashs ; Flash n'est pas un dash, Atomisation projette autour d'Alistar)"
+    },
+    {
+      "idea": "Alistar : rester loin des murs, Charge héroïque étourdit contre un mur",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (Nobreav 25.24 récent, xpwnz1337 ancien) + DDragon (E de Poppy étourdit si la cible est poussée contre un obstacle)"
+    },
+    {
+      "idea": "Alistar : utiliser l'effet fantôme de Piétinement pour éviter le choc contre le mur",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "non confirmé par DDragon : fantôme = ignore la collision des unités, rien sur le terrain ni sur Charge héroïque"
+    },
+    {
+      "idea": "Alistar : E quand Poppy engage, attendre 2 s la fin de la zone puis combo",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "fusionné avec « attendre la fin de la zone » ; durée exacte absente de DDragon, chiffre non repris"
+    },
+    {
+      "idea": "Alistar : Poppy a plus de dégâts, elle gagne le 2v2",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "lane, commentaires anciens seulement (Jageiko 12.12, Vermeio)"
+    },
+    {
+      "idea": "Poppy : garder Présence immuable pour le Coup de tête",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources récentes (vidéo 2025, Bound04, Nobreav) + DDragon"
+    },
+    {
+      "idea": "Poppy : si Alistar réussit l'engage, contre-engager sur son ADC",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (vidéo 1:11 « focus the enemy ADC », Bound04 26.05)"
+    },
+    {
+      "idea": "Poppy : activer la zone avant le Flash + Atomisation",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (Kcmichalson, AscorbicAcids, Jageiko, anciens : mécanique) + DDragon (la zone dure plusieurs secondes et stoppe les dashs ; Flash non bloqué)"
+    },
+    {
+      "idea": "Poppy : Verdict de la gardienne renvoie l'ADC adverse, 2v1 contre Alistar",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (Jageiko 12.12, ancien : mécanique) + DDragon (R repousse les ennemis vers leur Nexus)"
+    },
+    {
+      "idea": "Poppy : reculer pendant Volonté de fer",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (Kcmichalson, ancien : mécanique) + DDragon (R d'Alistar réduit les dégâts subis pendant sa durée)"
+    },
+    {
+      "idea": "Poppy : Alistar a un pic de puissance lvl 2, ne pas se battre à ce moment",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "lane : 1 seule source récente (vidéo) ; Jageiko ancien et lié à l'ordre des sorts"
+    },
+    {
+      "idea": "Poppy : connaître la portée du Coup de tête (zone de danger)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, lane"
+    },
+    {
+      "idea": "Poppy : garder la vague de son côté contre Alistar",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, lane"
+    }
+  ]
+}

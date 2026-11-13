@@ -1,0 +1,119 @@
+{
+  "pair": [
+    "Nami",
+    "Sona"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Nami": "b6a64ef56d0bcd30af7397824c7a68c4275cddd588a878d7a3af89126504aa39",
+    "Sona": "3ad5e0fcd619a2b5a1895891afba18396e60cef0e83808591c316808a35ec746"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Nami": {
+      "fr": [
+        {
+          "text": "Sona scale bien mieux que toi : ne lui laisse pas une lane tranquille, mets-lui la pression dès les premiers niveaux.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Son Aria de persévérance (Z) coûte au moins 80 de mana, plus que ses autres sorts de base : trade souvent tôt pour vider ses réserves.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Méfie-toi de son Hymne à la bravoure (A) suivi d'une auto renforcée : en début de partie, ce combo fait très mal, à toi comme à ton ADC.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Sona outscales you hard: don't give her a quiet lane, put pressure on her from the first levels.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Her Aria of Perseverance (W) costs at least 80 mana, more than her other basic spells: trade often early to drain her reserves.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Watch out for her Hymn of Valor (Q) followed by an empowered auto: early on, that combo hurts you and your ADC alike.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Sona": {
+      "fr": [
+        {
+          "text": "Tu scales bien mieux que Nami : une lane calme t'arrange, évite les trades risqués et vise les teamfights du mid et du late game.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Ton Aria de persévérance (Z) coûte cher (80 de mana ou plus) : ne la lance pas pour un petit soin, garde-la pour quand Nami engage.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "En début de partie, fais suivre ton Hymne à la bravoure (A) d'une auto renforcée pour gagner tes trades : ton ADC profite aussi du bonus.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "You outscale Nami by a lot: a quiet lane suits you, so skip risky trades and aim for mid and late game teamfights.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Your Aria of Perseverance (W) is expensive (80 mana or more): don't cast it for a tiny heal, keep it for when Nami commits.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Early on, follow your Hymn of Valor (Q) with an empowered auto to win trades: your ADC gets the bonus too.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "NAMI GUIDE - How To Carry With Nami - Detailed Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=HBda0lRLHz0",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2025-05-06",
+      "timestamps": [
+        "14:05",
+        "14:40"
+      ]
+    },
+    {
+      "title": "Nami Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/nami/counters/support?target_champion=sona",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "pair": [
+    "Alistar",
+    "Yuumi"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Alistar": "6b0b70ea42f167db7b24a19d94d70a5b909bbb73e86502a017cb35e720233bd9",
+    "Yuumi": "8d3abcd4ced1ea623461e3e759fd72f0e6222f24476854519dbd41d93788a9be"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Alistar": {
+      "fr": [
+        {
+          "text": "Dès que Yuumi se détache, place-lui un CC : immobilisée, elle perd l'accès à Félin pour l'autre ! (Z) pendant quelques secondes.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Engage sur son ADC avec Coup de tête (Z) puis Atomisation (A) : Yuumi n'a que des slows, rien pour couper ton combo.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "As soon as Yuumi detaches, land any CC on her: once immobilized, she's locked out of You and Me! (W) for a few seconds.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Engage her ADC with Headbutt (W) into Pulverize (Q): Yuumi only has slows, nothing that can interrupt your combo.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Yuumi": {
+      "fr": [
+        {
+          "text": "Reste sur ton ADC en lane : attachée, tu es inciblable pour Alistar, alors que chaque sortie lui offre une cible pour son combo.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Dès le lvl 6, il peut forcer un dive : sa Volonté de fer (R) purge les CC et réduit ses dégâts subis, garde ton ADC haut en PV.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Stay on your ADC in lane: while attached, Alistar can't target you, but every time you hop off you give him a combo target.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "From level 6 he can force a dive: Unbreakable Will (R) cleanses CC and cuts the damage he takes, so keep your ADC healthy.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Yuumi's hardest Matchups aren't what you think",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=HQbLWSjk6pg",
+      "consultedAt": "2026-11-12",
+      "channel": "Duo Diff",
+      "publishedAt": "2026-04-25",
+      "timestamps": [
+        "0:27",
+        "0:50"
+      ]
+    },
+    {
+      "title": "Alistar Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Yuumi Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/yuumi",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

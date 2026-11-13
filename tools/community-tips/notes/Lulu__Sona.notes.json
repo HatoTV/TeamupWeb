@@ -1,0 +1,142 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] And Sona can just press Q by the minions and then it prioritizes enemies, which it's nice when you're Sona. It's not when you're against Sona cuz you're just constantly getting poked down by her.",
+    "[0] Once I get like level six, we're pretty much strong enough to fight them as long as we dodge the Sona alt",
+    "[0] Sona has her E that speeds them up. So, they can kind of just run away from Nunu.",
+    "[0] I am ulting the Twitch to knock up both of them. And then I'm also polying the Sona so that she does less damage to me.",
+    "[0] Here comes Tristana, so I'm just going to polymorph her and then when I see the Sona ult nothing, I'm like, \"Oh, we are so fighting.\"",
+    "[1] Sona Yumi Jan Rada Milo and Nami are champions that lose to Lulu because of her early game fighting Power",
+    "[1] so just her bread and butter EQ Auto in the early game can dish out a solid 200 maybe 220 damage it's kind of hard for them to fight back other than a little bit of healing and shielding",
+    "[2] It's basically hard to punish Sona being a weak laner and stop her from scaling into late game as Lulu.",
+    "[2] Play the trades smart and don't go for 1:1 trades as she'll be able to heal back to full",
+    "[3] Do not expect to ever kill whoever she is laning with, or her for that matter.",
+    "[3] Spacing against Lulu is important as she will hit less Q's against you and thus you will win more trades."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 6 2026-11-12",
+  "videosFound": 125,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "LQED62bGY1g",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (live Sona : Lulu citée seulement dans une discussion de counter picks, « nothing counters Lulu », sans conseil de lane)"
+    },
+    {
+      "id": "Ez-Bu2KM-d4",
+      "channel": "Jade The Snort",
+      "result": "utilisé (review commentée Lulu vs Sona, joueuse en route vers Master ; publiée le 2026-10-28)"
+    },
+    {
+      "id": "wloH4zImGEk",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (les mentions de Lulu sont dans le chapitre Nami ; aucun Sona vs Lulu)"
+    },
+    {
+      "id": "9Ryi8IbUamI",
+      "channel": "Daption",
+      "result": "utilisé (guide Lulu rank 1, chapitre « Matchups and laning strategy » 5:41 : Sona parmi les enchanteuses qui perdent contre Lulu tôt) ; ouverture partagée avec Lulu__Seraphine"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/sona",
+      "result": "ok (commentaires d'auteurs de guides Lulu contre Sona ; plusieurs guides anciens 10.x-12.x non retenus, Joxuu [S16] retenu) ; web pour le côté Sona, moins de 3 tips après les vidéos"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "result": "ok (commentaires d'auteurs de guides Sona contre Lulu : Luiscencias, KeleiX13, losolkos [11.10] non retenu)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Sona : Lulu domine les premiers niveaux, ne pas chercher le kill, Sona scale mieux",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources (lane)"
+    },
+    {
+      "idea": "Sona : placement pour esquiver Duo éclatant (A), Lulu perd ses trades",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Glitterlance : projectiles qui touchent les ennemis traversés)"
+    },
+    {
+      "idea": "Sona : Fantaisie (Z) de Lulu empêche d'attaquer et de lancer des sorts, rester hors de portée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Whimsy sur un ennemi : « can't attack or cast spells », portée 650)"
+    },
+    {
+      "idea": "Sona : Aria de persévérance soigne Sona et un allié, les échanges égaux tournent en sa faveur",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Aria : soigne Sona et un allié blessé proche)"
+    },
+    {
+      "idea": "Lulu : Hymne à la bravoure de Sona vise les champions en priorité, poke constant",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Hymn of Valor : « prioritizing champions and monsters », portée 825)"
+    },
+    {
+      "idea": "Lulu : respecter le Crescendo au lvl 6, engager une fois qu'il est utilisé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Crescendo étourdit les champions ennemis)"
+    },
+    {
+      "idea": "Lulu : métamorphoser Sona en fight pour couper ses dégâts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Whimsy)"
+    },
+    {
+      "idea": "Lulu : Mélodie de vélocité permet au duo de fuir les ganks",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Song of Celerity : vitesse de déplacement aux alliés proches)"
+    },
+    {
+      "idea": "Lulu : gagner la lane tôt avec E + A + autos, Sona ne peut répondre qu'avec soins et boucliers",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source vidéo pour un conseil de lane ; côté Lulu à 4 tips après les vidéos, donc pas de complément web (la source 0 décrit même une lane perdue)"
+    },
+    {
+      "idea": "Sona : utiliser Mélodie de vélocité pour fuir les ganks",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "générique (valable contre tout adversaire) et assez de tips propres au couple"
+    },
+    {
+      "idea": "Sona : Lulu ne fait rien d'autre que te métamorphoser (Winter Nicole)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "commentaire d'un guide Seraphine, pas Sona"
+    }
+  ]
+}

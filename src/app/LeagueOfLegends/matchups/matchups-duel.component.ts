@@ -13,6 +13,7 @@ import { DifficultyPipsComponent } from '../../shared/ui/difficulty/difficulty-p
 import { DifficultyVerdictComponent } from '../../shared/ui/difficulty/difficulty-verdict.component';
 import { difficulty } from '../../shared/ui/difficulty/matchup-difficulty';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
+import { CommunityTipsComponent } from './community-tips/community-tips.component';
 import { MatchupReportComponent } from './matchup-report.component';
 import { MatchupEntry, listEntries, optionsWithLevels, rankId, splitTips } from './matchups-data';
 import { injectMatchupNavigation, matchupPath } from './matchups-url';
@@ -34,6 +35,7 @@ interface MatchupList {
     RouterLink,
     NgOptimizedImage,
     ChampionComboboxComponent,
+    CommunityTipsComponent,
     DifficultyBadgeComponent,
     DifficultyDistributionComponent,
     DifficultyIconComponent,

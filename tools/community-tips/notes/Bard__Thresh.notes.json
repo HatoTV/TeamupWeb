@@ -1,0 +1,156 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] I like playing against Bard he feels pretty weak in Lane this depends a lot if the Bard is good",
+    "[0] if it's a very good bar that can look for good cues and uh connect with minions and especially when they can Q you together with your ADC then it's uh a little bit of a danger",
+    "[0] if I hit a hook on The Bard he will take take a lot of damage because he's a squishy Champion so I'm going to put him in thresh favored",
+    "[1] Thresh is a skill matchup, a fun skill matchup. The way we look at this matchup is: if you ult while he has lantern up, he wins. If he lanterns before you, then you win. It's a patience game.",
+    "[1] Obviously, you don't want to get hooked. He doesn't want to get Q'd. Basically, none of those things should ever happen cuz you kind of just face each other.",
+    "[1] So, it just comes down to who uses their W or Q first. Whoever uses it first will lose.",
+    "[2] He is not so strong in lane but he will outroam you so try to get an advantage on botlane when he is missing and punish him for leaving his poor adc alone against Thresh",
+    "[2] If he lands the stun on both you and your ADC, say goodbye to your HP. That being said Bard is very squishy and if you land the hook you can kill him 9 times out of 10.",
+    "[2] Remember to position yourself away from other entities that will get you stunned while trying to land a hook.",
+    "[2] Post 6, make sure that you and your ADC avoid his ultimate as you will be one of the only sources for them to recover with your dark passage.",
+    "[2] Bard is relatively squishy, landing a hook on him will/should force his sums and win the trade massively. Avoid being close to minions, ally champions or walls to avoid stunned.",
+    "[2] Out of lane you can save allies from his ULT with lanturn.",
+    "[2] Look for hooks on him since he is a very squishy champion, but if you miss then play more passive. Try to follow his roams and signal mia when he is not in lane.",
+    "[2] More often than not, Bard will also roam and leave his ADC vulnerable earlier than most supports.",
+    "[3] Because BARD is not a tank and doesn't have that much durability. If caught with a threat hook, bard will not be able to use the E skill to escape from the situation.",
+    "[3] If thresh hooks your ally, you have a lot of options to work with. Usually though, he's looking to make a pick, so don't hesitate to ult him or an enemy. You also generally want to wait if lantern is out before using your ult.",
+    "[3] Hook champions :( play safe and punish important cds",
+    "[4] Euh Bard il est très faible compte parce que Bard scale aussi au niveau des dégâts. Mais Bard free pour moi le champion est broken.",
+    "[4] Euh pour pas dire broken. Euh sinon c'est bard pour le le fait que moi je brome pas bien et empêcher ça."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 6 2026-11-12",
+  "videosFound": 40,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "Y2NwKEW240Y",
+      "channel": "AxL",
+      "result": "utilisé (OTP Thresh, chapitre Bard 2:01 ; ouverture partagée avec Rakan__Thresh ; 3e couple pour cette vidéo, plafond atteint)"
+    },
+    {
+      "id": "Tk6dkm0LZFI",
+      "channel": "Lathyrus",
+      "result": "utilisé (tier list Bard, chapitre Thresh 30:23)"
+    },
+    {
+      "id": "jn1MPdQuhic",
+      "channel": "Lundet",
+      "result": "lu, inutilisé (« How To Win Against Thresh » : commentaire de partie sans conseil propre au matchup)"
+    },
+    {
+      "id": "Zc-njyIJ0M8",
+      "channel": "OTP - League of Legends",
+      "result": "utilisé (guide Thresh avec Shunrim, 57:14 : il bannit Bard car il roame mieux que lui ; sous-titres auto « brome » = roam, interprété ; ouverture partagée avec Rakan__Thresh)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/bard",
+      "result": "ok (commentaires d'auteurs de guides Thresh contre Bard)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/thresh",
+      "result": "ok (commentaires d'auteurs de guides Bard contre Thresh)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Bard : fragile, un hook encaissé coûte très cher",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes : AxL (2025-02), Lathyrus (2026-08) ; [3] (commentaires de guides Bard, tous tip-id < 2232000 : plus de 2 ans) non compté"
+    },
+    {
+      "idea": "Bard : aligner Thresh avec son ADC ou un sbire pour le Lien cosmique",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (AxL 2025-02 ; [2] commentaires anciens, acceptés car mécanique vérifiée) + DDragon (étourdit les deux cibles, ou la cible contre un mur)"
+    },
+    {
+      "idea": "Bard : garder Destin tempéré tant que la lanterne est disponible",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "audit 2 ans : 1 seule source récente (Lathyrus 2026-08) ; [3] (guide Bard sur counterstats, tip-id < 2232000) a plus de 2 ans ; conseil de lane, pas une mécanique vérifiable dans DDragon : retiré"
+    },
+    {
+      "idea": "Bard : Destin tempéré sur Thresh ou sa cible après un hook",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source ([3], commentaire de guide Bard de plus de 2 ans : accepté car mécanique vérifiée) + DDragon (stase sur tous les champions touchés)"
+    },
+    {
+      "idea": "Bard : Fauchage ou hook peut le sortir de la Route magique",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source, interaction non décrite dans DDragon"
+    },
+    {
+      "idea": "Thresh : un hook sur Bard suffit souvent à le tuer",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes : AxL (2025-02), Lathyrus (2026-08) ; [2] (commentaires « Bard is very squishy » : tip-id < 2232000, plus de 2 ans) non compté"
+    },
+    {
+      "idea": "Thresh : garder la lanterne pour sauver après le Destin tempéré",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "audit 2 ans : 1 seule source récente (Lathyrus 2026-08) ; [2] et [3] : commentaires counterstats de plus de 2 ans (tip-id < 2232000) ; « Bard attend que la lanterne soit utilisée » n'est pas vérifiable dans DDragon : retiré"
+    },
+    {
+      "idea": "Thresh : éviter murs, sbires et son ADC contre le Lien cosmique",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (AxL 2025-02 ; [2] commentaires anciens, acceptés car mécanique vérifiée) + DDragon"
+    },
+    {
+      "idea": "Thresh : Bard roame plus, punir l'ADC seul et signaler",
+      "sourceIdx": [
+        2,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources récentes : counterstats [2] BologNezhs (tip-id 2241561, 2025 : « he will outroam you... punish him ») et OTP - League of Legends (2026-02 ; sous-titres auto déformés, sens « roam » déduit)"
+    },
+    {
+      "idea": "Thresh : jouer agressif une fois le Lien cosmique utilisé",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source"
+    },
+    {
+      "idea": "Thresh : Bard scale en dégâts, faible counter",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "1 seule source, flou"
+    }
+  ],
+  "audit2ans": "Règle des 2 ans (audit 2026-11-12). counterstats : âge par commentaire via data-tip-id (ids croissants, calés sur les titres de guides datés : ~2231700 = guides 14.23, novembre 2024) ; tip-id < 2232000 = plus de 2 ans. Page Bard [2] (guides Thresh) : seul BologNezhs (2025) est récent ; page Thresh [3] (guides Bard) : aucun commentaire récent. Recomptes : Bard « fragile, un hook coûte cher » 3 → 2 ; Thresh « un hook sur Bard suffit » 3 → 2. Retirés (sous 2 sources récentes, pas une mécanique DDragon) : Bard « garder Destin tempéré tant que la lanterne est là » ; Thresh « garder la lanterne, Bard attend qu'elle soit utilisée ». Ordre réajusté (vérifiés d'abord à sources égales). Source [3] gardée : elle porte le tip mécanique vérifié « Destin tempéré après un hook »."
+}

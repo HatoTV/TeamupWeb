@@ -1,0 +1,148 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Smolder, c’est Astromp. Smolder actuellement, c’est super nul. Je le mettrai même dans le premier des stompes. C’est gratuit. C’est gratuit. Le perso actuellement est trop faible. Il a pas de stat. Vous pouvez le dashing quand vous voulez.",
+    "[0] C’est un très mauvais du alors en vrai c’est peut-être un léger meilleur dualiste que que Jinx donc on peut-être le reculer mais pour moi la méta actuelle fait que Smolder est encore plus faible que Jinx donc je mettrai Smolder devant.",
+    "[1] Early game. Smolder’s early game is bad, but who’s shocked? Your mango should be to get 25 stacks to unlock your AoE Q, which makes you a lot more annoying to lane versus, and it also makes you stack faster.",
+    "[1] So, you need to be ready to give up pressure if they have strong all-ins. You really one or two long swords and 25 stacks before you start to be a threat. So, don’t throw the game in the first few minutes and you’ll be fine.",
+    "[1] Point is, don’t follow bad plays, and try to communicate to your team that you’re weak early.",
+    "[1] the point is you really just need to get one recall off and some AD components, and two or three points in your Q, and then you can actually start winning trades.",
+    "[2] This is a pure scaling test where both of you want to farm safely and reach your respective power spikes. Ezreal’s poke is annoying, but it’s blocked by minions, whereas your W can go through them to hit him.",
+    "[2] Play lane in a way that there’s always one of your minions between you and him so he can’t Q you for free, if he ever E’s on you, hit him with W Q AA and fly away.",
+    "[2] You outscale this matchup heavily and he doesn’t have the waveclear to match you on mid-wave later on so it’s just free scaling after 25 and 125 stacks, if you are even in this matchup you are winning.",
+    "[2] Skill matchup on both sides, dodge Q and you win.",
+    "[3] Smolder has great scaling into mid/late game, but isn’t that good early. Play around his E’s cooldown as it is his most useful ability against you in trades. Keep in mind his level 4 damage powerspike (his damage is high compared to level 4 Ezreal) and don’t get poked by him.",
+    "[3] When Smolder reaches level 6 he gets some extra sustain which can win him fights if you aren’t aware of it.",
+    "[3] He has a weak early game, be careful with his W poke and try to trade and all in to get any advantage possible, later in the game when he has more stacks try to stay out of his range.",
+    "[3] Don’t let him breathe. Keep him under his turret and don’t let him stack easily. The longer you keep him from reaching his true damage burn, the better. Consider buying early boots to dodge his W."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 83,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "4yC_MM19yU0",
+      "channel": "Booshi",
+      "result": "utilisé (PRO GUIDE, chapitre « Les match ups » : Smolder à 35:53)"
+    },
+    {
+      "id": "GIMC1wM2TwI",
+      "channel": "Bibou - League of Legends",
+      "result": "lu, inutilisé (guide Smolder : Ezreal cité seulement pour les objets)"
+    },
+    {
+      "id": "jW1wgklzWCY",
+      "channel": "Vapora Dark",
+      "result": "lu, inutilisé (parties commentées sans Ezreal adverse)"
+    },
+    {
+      "id": "edodzEn2XZ4",
+      "channel": "bluwunk",
+      "result": "utilisé (chapitres Early game 11:25 et Gameplay Examples 15:31 : early faible, attendre le premier back)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/smolder",
+      "result": "ok (commentaires de guides Smolder contre Ezreal ; récents : ids 2248206, 2243626 [15.20], 2242399 [25.17])"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ezreal",
+      "result": "ok (commentaires de guides Ezreal contre Smolder ; tous anciens, ids 2216488 à 2228504 : mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ezreal : Smolder très faible en early, le punir, Transfert arcanique pour aller sur lui",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (Booshi : stomp, dash quand tu veux ; bluwunk : early faible, inutile lvl 1)"
+    },
+    {
+      "idea": "Ezreal : trader pendant le CD de son E",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2228504) + DDragon (Flap, Flap, Flap : CD 24 s au rang 1, vol + bombardement)"
+    },
+    {
+      "idea": "Ezreal : au lvl 6, son R le soigne",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2228504) + DDragon (la mère soigne Smolder si son souffle le touche)"
+    },
+    {
+      "idea": "Ezreal : esquiver son W, qui ralentit",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "commentaires anciens (ids 2216488, 2217986) + DDragon (Achooo! ralentit)"
+    },
+    {
+      "idea": "Ezreal : le garder sous sa tour, ne pas le laisser stacker",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "commentaires anciens (14.x) : ne comptent pas pour un tip lane"
+    },
+    {
+      "idea": "Ezreal : plus tard, rester hors de sa portée quand il a des stacks",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "commentaire ancien, macro"
+    },
+    {
+      "idea": "Smolder : early faible, éviter les fights avant le premier back, stacker",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources récentes"
+    },
+    {
+      "idea": "Smolder : garder un sbire entre Ezreal et soi",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source récente + DDragon (Tir mystique : premier ennemi touché)"
+    },
+    {
+      "idea": "Smolder : s’il E sur toi, W Q AA puis s’envoler avec E",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source récente + DDragon (Flap, Flap, Flap : vitesse + ignore le terrain)"
+    },
+    {
+      "idea": "Smolder : ton W traverse les sbires",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "DDragon ne le confirme pas (explosion au contact d’un champion seulement décrite)"
+    },
+    {
+      "idea": "Smolder : tu outscale, à égalité tu gagnes",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "pair": [
+    "Ahri",
+    "Vladimir"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Ahri": "23813db730612c753a978ae5f213acb6178504c095f16baaea2c124181a30193",
+    "Vladimir": "150943c6ab6ac32bb63b01d917a49ffce0cd1082cb4f562ba65799636c40b767"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Ahri": {
+      "fr": [
+        {
+          "text": "Vladimir nettoie mal les waves : pousse-le sous sa tourelle, puis back ou roam avant lui.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Ne cherche pas à le battre en duel une fois le lvl 6 passé : il gagne les lanes longues, joue plutôt la map.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Recule quand sa barre de sang est pleine : sa Transfusion (A) renforcée frappe et soigne bien plus fort.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Vladimir clears waves poorly: shove him under his tower, then reset or roam before he can.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Don't try to out-duel him once past level 6: he wins drawn-out lanes, so play the map instead.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Back off when his blood bar is full: his empowered Transfusion (Q) hits and heals far harder.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Vladimir": {
+      "fr": [
+        {
+          "text": "Ne force rien avant le lvl 6 : farme proprement, tu prends le dessus à mesure que les niveaux montent.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Garde ton Bain de sang (Z) pour les ganks : deux secondes intouchable, c'est ta sortie de secours.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Esquive son Charme (E) en te décalant, sinon plonge dans ton Bain de sang (Z) : intouchable, tu ne peux pas être charmé.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Après le lvl 6, ne l'all-in pas tant qu'elle a son Assaut spirituel (R) : trois dashs lui permettent de fuir.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Don't force anything before level 6: farm cleanly, you take over as the levels go up.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Keep Sanguine Pool (W) for ganks: two seconds of being untargetable is your way out.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Sidestep her Charm (E), or sink into Sanguine Pool (W): while untargetable, you can't be charmed.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "After level 6, don't all-in her while her ult (R) is up: three dashes let her escape.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Every Mid Lane Champion Explained in 4 hours! 2026 Ultimate Mid Lane Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=IH4_5pzOB3c",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League | Broken By Concept",
+      "publishedAt": "2026-05-11",
+      "timestamps": [
+        "2:00:05",
+        "2:05:11"
+      ]
+    },
+    {
+      "title": "How You Always Beat Vladimir",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=0V7oU-weTdo",
+      "consultedAt": "2026-11-12",
+      "channel": "Mysteriaslol",
+      "publishedAt": "2026-04-04",
+      "timestamps": [
+        "0:00",
+        "1:44",
+        "2:51",
+        "3:18",
+        "4:08",
+        "4:35"
+      ]
+    },
+    {
+      "title": "Vladimir Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/vladimir",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Ahri Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/ahri",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

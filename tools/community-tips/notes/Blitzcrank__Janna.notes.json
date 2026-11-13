@@ -1,0 +1,313 @@
+{
+  "searches": 5,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "op.gg Janna : Engage Blitzcrank only when his (Q) is on cooldown.",
+    "op.gg Janna : Stay in between minions making it harder to aim (Q), and respond with [Q] when he activates (W) to close in.",
+    "op.gg Janna : Keep in mind that you will most likely be killed if Blitzcrank successfully grabs you with (Q).",
+    "dignitas : Blitzcrank's Q does not go through minions.",
+    "dignitas : play passive (pour les supports de peel comme Lulu ou Janna)",
+    "op.gg Blitz : Janna cannot easily harass Blitzcrank unless Rocket Grab [Q] is on cooldown.",
+    "op.gg Blitz : Grab Janna when she steps out to use her abilities.",
+    "rankedboost : Engage on her cooldowns rather than her health bar.",
+    "wiki Janna : The storm does not interact with enemy units that stand on top of it while it is charging."
+  ],
+  "ideas": [
+    {
+      "idea": "Janna : rester dans/derrière les minions, la wave bloque le hook",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "≥2 sources + verified DDragon (Rocket Grab : first enemy hit)"
+    },
+    {
+      "idea": "Janna : ne trade/engage que quand le hook est en CD",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "≥2 sources (op.gg Janna : engage si Q en CD ; op.gg Blitz : Janna ne peut harass que si Q en CD ; dignitas : punir après un hook raté)"
+    },
+    {
+      "idea": "Janna : jouer safe/passive, un hook réussi est souvent mortel",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "≥2 sources (op.gg Janna : likely killed if grabbed ; dignitas : play passive as Janna/Lulu)"
+    },
+    {
+      "idea": "Janna : répondre au Z (Overdrive) de Blitz avec la tornade",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "mechanics : 1 page + verified DDragon (Overdrive = vitesse de déplacement ; Howling Gale = knock-up)"
+    },
+    {
+      "idea": "Blitz : ne pas gaspiller le hook ; tant qu'il est up Janna ne peut pas harass, raté = punition",
+      "sourceIdx": [
+        2,
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "≥2 sources (op.gg Blitz explicite + miroir op.gg Janna + dignitas)"
+    },
+    {
+      "idea": "Blitz : les minions bloquent le hook, chercher une ligne dégagée",
+      "sourceIdx": [
+        1,
+        0
+      ],
+      "kept": true,
+      "reason": "≥2 sources + verified DDragon (first enemy hit)"
+    },
+    {
+      "idea": "Blitz : engager sur les CD de Janna (R) plutôt que sur sa vie ; R repousse les ennemis proches",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "mechanics : 1 page + verified DDragon (Monsoon : Knocking Back nearby enemies). Source générique contre Janna, pas propre au matchup (douteux léger)"
+    },
+    {
+      "idea": "Blitz : la tornade se charge visiblement, la lire et l'esquiver",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "mechanics : 1 page + verified DDragon (tornade qui grandit puis part dans une direction). Source générique contre Janna"
+    },
+    {
+      "idea": "Blitz : grab Janna quand elle s'avance pour lancer ses sorts",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "removed: lane, 1 seule page"
+    },
+    {
+      "idea": "Janna : poke Blitz quand il vient CS / s'approche des minions",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "removed: lane, 1 seule page lue (invenglobal du pilote non relu, 404 ; mention d'objet support retirée)"
+    },
+    {
+      "idea": "Janna : minions low HP qui meurent = ligne du hook ouverte",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "removed: lane, 1 seule page"
+    },
+    {
+      "idea": "Hook raté = possible bait",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "removed: 1 seule page"
+    },
+    {
+      "idea": "Surveiller le jungler adverse",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "removed: macro, 1 seule page"
+    },
+    {
+      "idea": "All-in au lvl 2 avant Blitz",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "removed: lane, 1 seule page, conseil générique non propre à Janna"
+    },
+    {
+      "idea": "Blitz : bait le bouclier (E) de Janna avec du poke avant d'engager",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "removed: 1 seule page, timing non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Blitz : attention au Z de Janna en bait avant la tornade",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "removed: 1 seule page, combo non décrit dans DDragon"
+    },
+    {
+      "idea": "Blitz : son E (knock-up) interrompt l'ult de Janna",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "removed: wiki lu = Monsoon 'Interrupted' par les disruptions / cast-inhibiting effects sans nommer le knock-up ; DDragon dit seulement que bouger ou lancer une compétence met fin au R. Non vérifié"
+    },
+    {
+      "idea": "La tornade n'affecte pas les ennemis debout dessus pendant la charge",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "removed: wiki seul, non confirmé par DDragon"
+    },
+    {
+      "idea": "Janna : charger la tornade = knock-up plus long",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "removed: confirmé DDragon mais aucune page lue ne le dit (invenglobal 404 au pilote, extrait seulement)"
+    },
+    {
+      "idea": "Janna : R pour repousser Blitz après un hook sur l'ADC",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "removed: confirmé DDragon mais aucune page lue ne le dit pour ce matchup"
+    },
+    {
+      "idea": "Blitz : R détruit le bouclier (E) de Janna",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "removed: confirmé DDragon mais aucune page lue"
+    },
+    {
+      "idea": "Choisir un tank / ordre de compétences E avant Z",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "removed: draft / ordre de montée (exclu)"
+    }
+  ],
+  "ddragonChecks": [
+    "Blitzcrank Q Rocket Grab / Grappin propulsé : attire le premier ennemi touché — confirmé (minions bloquent)",
+    "Blitzcrank W Overdrive / Surcharge : vitesse de déplacement décroissante + vitesse d'attaque, puis slow sur lui — confirmé",
+    "Blitzcrank E Power Fist / Poing d'acier : prochaine attaque knock-up — confirmé",
+    "Blitzcrank R Static Field / Champ de stase : silence + détruit les boucliers — confirmé (non utilisé)",
+    "Janna Q Howling Gale / Vent hurlant : tornade qui grandit puis part dans une direction, knock-up, recast pour l'envoyer tôt — confirmé",
+    "Janna W Zephyr / Alizé : actif dégâts + slow — confirmé (non utilisé)",
+    "Janna E Eye of the Storm / Œil du cyclone : bouclier sur allié ou tourelle — confirmé",
+    "Janna R Monsoon / Mousson : repousse les ennemis proches puis soigne ; bouger ou lancer une compétence y met fin — confirmé ; interruption par CC adverse non mentionnée"
+  ],
+  "contradictions": [
+    "Winrates contradictoires entre sites et patchs (vus dans les extraits) : ignorés, hors gameplay",
+    "Aucune contradiction de gameplay entre les pages lues"
+  ],
+  "tipSources": [
+    {
+      "perspective": "Blitzcrank",
+      "category": "lane",
+      "index": 0,
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "perspective": "Blitzcrank",
+      "category": "mechanics",
+      "index": 0,
+      "sourceIdx": [
+        0,
+        1
+      ]
+    },
+    {
+      "perspective": "Blitzcrank",
+      "category": "mechanics",
+      "index": 1,
+      "sourceIdx": [
+        3
+      ]
+    },
+    {
+      "perspective": "Blitzcrank",
+      "category": "mechanics",
+      "index": 2,
+      "sourceIdx": [
+        3
+      ]
+    },
+    {
+      "perspective": "Janna",
+      "category": "lane",
+      "index": 0,
+      "sourceIdx": [
+        0,
+        1
+      ]
+    },
+    {
+      "perspective": "Janna",
+      "category": "lane",
+      "index": 1,
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "perspective": "Janna",
+      "category": "lane",
+      "index": 2,
+      "sourceIdx": [
+        0,
+        1
+      ]
+    },
+    {
+      "perspective": "Janna",
+      "category": "mechanics",
+      "index": 0,
+      "sourceIdx": [
+        0
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/janna/counters/support?target_champion=blitzcrank",
+      "result": "ok"
+    },
+    {
+      "site": "dignitas.gg",
+      "url": "https://dignitas.gg/articles/how-to-lane-versus-blitzcrank",
+      "result": "ok"
+    },
+    {
+      "site": "nerfplz.com",
+      "url": "https://www.nerfplz.com/2026/08/blitzcrank-counters-best-counter-picks.html",
+      "result": "403"
+    },
+    {
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/blitzcrank/counters/support?target_champion=janna",
+      "result": "ok"
+    },
+    {
+      "site": "wiki.leagueoflegends.com",
+      "url": "https://wiki.leagueoflegends.com/en-us/Janna",
+      "result": "ok"
+    },
+    {
+      "site": "rankedboost.com",
+      "url": "https://rankedboost.com/league-of-legends/classic/counter/janna/",
+      "result": "ok"
+    }
+  ],
+  "notes": [
+    "dignitas.gg date de janvier 2018 : seules les idées encore conformes au kit DDragon 16.22 sont gardées",
+    "rankedboost : conseils génériques contre Janna, pas propres à Blitzcrank",
+    "wiki Janna lu (page tronquée à 100k caractères) : aucune idée gardée, donc absent de 'sources'",
+    "pagesRead = 6 pages tentées (5 avec contenu, 1 en 403)"
+  ]
+}

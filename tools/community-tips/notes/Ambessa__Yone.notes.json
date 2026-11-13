@@ -1,0 +1,96 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] you want to really get a lead because after lane in mid game you actually lose side lane to a lot of champs if you're even like Yona Camille Jax",
+    "[0] So you do have to get a big enough lead in lane to be able to win side lane if you want to push in and roam.",
+    "[1] S'il waste son Z, je peux le tuer. OK, après il a son queue maintenant.",
+    "[1] Je réussisse à faire cramer son Z. Mais OK, c'est big.",
+    "[2] Make his life hell on this lane. Q poke at level 1. Get prio and force trades at level 2 and 3. He can't do anything.",
+    "[2] Ignite + TP. Conqueror. Sudden Impact. Doran's Blade."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 13 2026-11-12",
+  "videosFound": 37,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "2CXi04mpPkM",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (chapitre Ambessa 1:49:34 ; 1:58:34 : à égalité, Yone et les bruisers la battent en side lane au mid game)"
+    },
+    {
+      "id": "d1HFTCjXu2w",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (Strey joue Ambessa ; 7:57 et 10:16 : punir Yone quand son W est utilisé)"
+    },
+    {
+      "id": "GKnOtcDOJtA",
+      "channel": "Minato1514",
+      "result": "lu, inutilisé (commentaire de partie, aucun conseil sur Ambessa trouvé dans les sous-titres)"
+    },
+    {
+      "id": "H_0Cg-7nAWI",
+      "channel": "WayOfTheTempest",
+      "result": "lu, inutilisé (tier list Yone S15 : Ambessa absente des sous-titres)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/yone",
+      "result": "ok (1 tip d'un guide Ambessa [14.24], data-tip-id 2232775 > 2232000 : récent)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ambessa",
+      "result": "lu, inutilisé (1 tip récent d'un guide Yone [25.10], contredit par la source 0, et cite des objets)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ambessa : jouer agressif et prendre l'avance en lane, sinon Yone gagne la side lane au mid game",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (BBC 2026 ; counterstats id 2232775, guide 14.24)"
+    },
+    {
+      "idea": "Ambessa : punir Yone quand il a gaspillé son Fendoir spirituel (bouclier)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (2025-08) + DDragon (Spirit Cleave donne un bouclier, CD 14 s)"
+    },
+    {
+      "idea": "Ambessa : trades courts plutôt que longs, beaucoup de CD en early",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "générique (dit sur Ambessa en général, avant le matchup), 1 source"
+    },
+    {
+      "idea": "Ambessa : forcer les trades aux lvl 2 et 3 pour la prio",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source pour une idée de lane"
+    },
+    {
+      "idea": "Yone : même 3/0, Ambessa peut te détruire au mid/late game",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "counterstats ambessa (id 2238375) contredit par la source 0 (Yone gagne la side lane à égalité) : retiré ; cite aussi des objets"
+    },
+    {
+      "idea": "Ambessa : à partir d'un objet précis, elle domine Yone",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "objet (interdit)"
+    }
+  ]
+}

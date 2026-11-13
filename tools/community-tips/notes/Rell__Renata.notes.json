@@ -1,0 +1,88 @@
+{
+  "searches": 8,
+  "sourceSentences": [],
+  "method": "youtube-subtitles (hato-clips), lot 13 2026-11-12",
+  "videosFound": 62,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "I4SkLZg5MkY",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (stream « only Renata » : Leona citée hors matchup contre Renata, Rell jamais citée)"
+    },
+    {
+      "id": "fij1CosU98I",
+      "channel": "Joeyyylol",
+      "result": "lu, inutilisé (commentaire Renata : Leona jamais citée, Rell citée une fois à propos du Baron)"
+    },
+    {
+      "id": "4CUUrvML2NU",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (A-Z « R day », chapitres Rell 1:31:41 et Renata 1:53:11 : aucune remarque de matchup Leona/Rell vs Renata)"
+    },
+    {
+      "id": "2CdZyNoD6aM",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (stream Rell S16 : Renata citée seulement à propos d'une « Renata day »)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/renata-glasc",
+      "result": "ok (5 commentaires d'auteurs de guides Rell : ZharMeny 13.4, iveye 13.1, Navn, RoseOfInnistrad, Godlike Rell : tous anciens, < 2232000)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/rell",
+      "result": "ok (1 commentaire d'un auteur de guide Renata, Xintero #2209817 ancien : « bait her W and Q », conseil de lane)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/rell/counters/support?target_champion=renata",
+      "result": "no-advice (un tip général sur Rell)"
+    },
+    {
+      "url": "WebSearch « Leona vs Renata Glasc support matchup tips » / « Rell vs Renata Glasc support matchup tips reddit »",
+      "result": "no-advice (mobalytics : conseils derrière un paywall ; lolalytics : stats)"
+    },
+    {
+      "url": "https://www.dodge.gg/lol/news/renata-glasc-build-2026",
+      "result": "écartée : contenu généré/SEO (« Dodge.gg Team », patchs incohérents, stats génériques)"
+    },
+    {
+      "url": "https://mobalytics.gg/blog/lol-how-to-counter-renata-glasc/",
+      "result": "403"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rell : la Poignée de main de Renata peut annuler Descendre en piqué",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 source ancienne ; interaction non vérifiable dans DDragon (l'immobilisation n'arrête pas un saut, seule la relance projette)"
+    },
+    {
+      "idea": "Rell : le Patronage peut retourner un combat gagné",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 seule source (page renata-glasc, ancien) ; DDragon confirme, mais le statut exige 2 sources"
+    },
+    {
+      "idea": "Rell : la Prise de contrôle hostile punit l'engage groupé",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "1 seule source (même page, ancien) ; DDragon confirme le fou furieux"
+    },
+    {
+      "idea": "Rell : Renata scale mieux en milieu de partie",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "macro, commentaire ancien seulement"
+    },
+    {
+      "idea": "Renata : faire lancer Z et A à Rell, puis engager",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "conseil de lane, commentaire ancien (Xintero) : non admissible, et un seul tip pour ce côté"
+    }
+  ]
+}

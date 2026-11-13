@@ -1,0 +1,83 @@
+{
+  "pair": [
+    "Corki",
+    "Syndra"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Corki": "8b6f13490e3182c5225082562f96e8fd6166b0dd1ae2df64df3ff27e2c4d641a",
+    "Syndra": "14bad5621ab2e90121cce2479995a8566292746e2ed97f0e24603361445cd259"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Corki": {
+      "fr": [
+        {
+          "text": "Dès son lvl 6, garde tes PV hauts : son Déchaînement de puissance (R) lance sur toi toutes les sphères qu'elle a posées.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Évite à tout prix sa Dispersion des faibles (E) : une sphère repoussée sur toi t'étourdit.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "From her level 6, keep your HP high: Unleashed Power (R) throws every sphere she has placed at you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Avoid Scatter the Weak (E) at all costs: a sphere knocked into you stuns you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Syndra": {
+      "fr": [
+        {
+          "text": "Corki n'a aucun soin dans son kit : chaque poke reste, grignote-le patiemment avant de chercher le kill.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Corki has no healing in his kit: every poke sticks, so chip him down patiently before looking for the kill.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "SYNDRA Guide - How To Learn and CARRY With SYNDRA Step by Step | Matchups",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=mJFc-rMz2vg",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Mysterias",
+      "publishedAt": "2025-02-28",
+      "timestamps": [
+        "1:17:05",
+        "1:17:29"
+      ]
+    },
+    {
+      "title": "Syndra Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

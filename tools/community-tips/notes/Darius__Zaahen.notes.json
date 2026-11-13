@@ -1,0 +1,81 @@
+{
+  "searches": 2,
+  "sourceSentences": [
+    "[0] j'ai pas perdu beaucoup d'HP que j'ai timé mon flash sur le grab.",
+    "[0] je peux pas prendre ce CS sans sans risquer de me faire grab",
+    "[0] Plus la revive parce qu'il a commencé le fight avec alors j'avais beaucoup de stack.",
+    "[1] En fait j'ai joué comme ça parce que sinon il allait faire proc son passif et ça allait vraiment être chiant.",
+    "[1] Et bien en gros euh dans les grandes lignes ça lui donne un revive et plus d'AD je crois.",
+    "[2] if you instantly queue a W, even if they flash, your W pulls them in",
+    "[2] So I will freeze this wave until it dies."
+  ],
+  "method": "youtube-subtitles (hato-clips), test 2026-11-12",
+  "videosFound": 20,
+  "videosRead": 3,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "oof4RGYhnVo",
+      "channel": "Strey VOD",
+      "result": "utilisé"
+    },
+    {
+      "id": "MbbybN5vduE",
+      "channel": "ozneviik VODs",
+      "result": "utilisé (sous-titres traduits)"
+    },
+    {
+      "id": "WNIHas8BQVg",
+      "channel": "Wao Live",
+      "result": "aucun sous-titre FR disponible, non lu"
+    },
+    {
+      "id": "PTzt2LR2Mgw",
+      "channel": "WoitlanDunk",
+      "result": "utilisé (33 min)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Darius : surveiller les stacks / le revive du passif de Zaahen",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Détermination : AD + revive au max)"
+    },
+    {
+      "idea": "Zaahen : Flash sur le grab de Darius",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E cd 26/23.5/21/18.5/16)"
+    },
+    {
+      "idea": "Zaahen : A relancé (knock-up) puis Z",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon ; « même s'il Flash » retiré (non vérifiable)"
+    },
+    {
+      "idea": "Zaahen : ne pas prendre les CS à portée du grab",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Zaahen : freeze la wave",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source, générique"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "searches": 6,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] You should always avoid trading with Darius before hitting level 6.",
+    "[0] Darius's high damage starts to fall off at around level 11, so make sure to start engaging him once you hit level 11.",
+    "[0] Garen's E ability is not very useful against Darius in the early game, so make sure to always max Q and W.",
+    "[1] Avoid being pulled in by his (E) and fight him when his abilities are on cooldown.",
+    "[1] Bring Ignite when facing Darius to make up for your damage.",
+    "[2] Maintain your passive stacks and hit Garen at the edge of Decimate [Q].",
+    "[2] Use [E] whenever he stands in range to fight him."
+  ],
+  "pagesTried": 6,
+  "ideas": [
+    {
+      "idea": "Darius : E dès que Garen est à portée / hors position",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "≥2 sources (lane) + verified DDragon (E attire)"
+    },
+    {
+      "idea": "Darius : toucher Garen avec la lame du Q (dégâts + heal)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "≥2 sources + verified DDragon (lame > hampe, heal sur la lame)"
+    },
+    {
+      "idea": "Darius : maintenir les stacks du passif, combo AA-W-Q",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "≥2 sources + verified DDragon (5 stacks max, enrage + AD, W renforce la prochaine attaque)"
+    },
+    {
+      "idea": "Garen : ne pas se mettre hors position / éviter le pull du E",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "≥2 sources (lane) + verified DDragon"
+    },
+    {
+      "idea": "Garen : rester hors de la lame du Q, seule source de sustain de Darius",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "mechanics : 1 page + verified DDragon (heal uniquement sur la lame)"
+    },
+    {
+      "idea": "Garen : Q pour purger le slow du W de Darius et fuir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "mechanics : 1 page + verified DDragon (Garen Q retire tous les slows + vitesse ; Darius W slow)"
+    },
+    {
+      "idea": "Garen : trades courts car le saignement stack (5 stacks = gros AD)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "mechanics : 1 page + verified DDragon (passif Darius) ; classé mechanics car repose sur l'interaction du passif"
+    },
+    {
+      "idea": "Garen : trade quand les sorts de Darius sont en CD",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "removed: lane, 1 seule page ; en contradiction avec leaguefeed (pas de trade avant lvl 6)"
+    },
+    {
+      "idea": "Garen : éviter tout trade avant lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "removed: lane, 1 seule page (2022) ; contradiction avec op.gg"
+    },
+    {
+      "idea": "Garen : engager vers lvl 11 quand Darius retombe",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "removed: 1 seule page, invérifiable"
+    },
+    {
+      "idea": "Garen : pas de trade sur le canon de la 3e wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "removed: lane, 1 seule page"
+    },
+    {
+      "idea": "Garen : farm à distance en jouant sur la regen passive",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "removed: lane, 1 seule page"
+    },
+    {
+      "idea": "Garen : bait le Q de Darius pour vider son mana",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "removed: 1 seule page, effet sur le mana non vérifié ; partie heal fusionnée dans le tip lame du Q"
+    },
+    {
+      "idea": "Garen : Z calé sur le W de Darius (Ténacité/réduction)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "removed: DDragon ne dit pas que la Ténacité réduit les slows ; seule la partie Q purge le slow est gardée"
+    },
+    {
+      "idea": "Garen : rester dans le Q donne de la vitesse à Darius",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "removed: absent de Data Dragon 16.22"
+    },
+    {
+      "idea": "Garen : max Q et W, E faible early",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "removed: ordre de montée des sorts (exclu V2)"
+    },
+    {
+      "idea": "Garen : Ignite, Flash/TP, Mercury's, Sterak's, Conqueror, Bone Plating, Overgrowth",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "removed: objet/rune/sort d'invocateur"
+    },
+    {
+      "idea": "Garen : saignement coupe la regen passive ; stacks augmentent l'ult de Darius (pilote)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "removed: absent des pages lues (venait d'extraits de recherche au pilote)"
+    },
+    {
+      "idea": "Darius : pression constante pour empêcher Garen de scaler (Champsight)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "removed: extrait de recherche seulement, site bloqué"
+    }
+  ],
+  "tipSources": [
+    {
+      "perspective": "Darius",
+      "category": "lane",
+      "index": 0,
+      "sourceIdx": [
+        0,
+        2
+      ]
+    },
+    {
+      "perspective": "Darius",
+      "category": "mechanics",
+      "index": 0,
+      "sourceIdx": [
+        0,
+        2
+      ]
+    },
+    {
+      "perspective": "Darius",
+      "category": "mechanics",
+      "index": 1,
+      "sourceIdx": [
+        0,
+        2
+      ]
+    },
+    {
+      "perspective": "Garen",
+      "category": "lane",
+      "index": 0,
+      "sourceIdx": [
+        0,
+        1
+      ]
+    },
+    {
+      "perspective": "Garen",
+      "category": "mechanics",
+      "index": 0,
+      "sourceIdx": [
+        0
+      ]
+    },
+    {
+      "perspective": "Garen",
+      "category": "mechanics",
+      "index": 1,
+      "sourceIdx": [
+        0
+      ]
+    },
+    {
+      "perspective": "Garen",
+      "category": "mechanics",
+      "index": 2,
+      "sourceIdx": [
+        0
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "site": "leaguefeed.net",
+      "url": "https://leaguefeed.net/?p=11609",
+      "result": "ok"
+    },
+    {
+      "site": "op.gg",
+      "url": "https://www.op.gg/champions/garen/counters/top?target_champion=darius",
+      "result": "ok"
+    },
+    {
+      "site": "op.gg",
+      "url": "https://www.op.gg/champions/darius/counters/top?target_champion=garen",
+      "result": "ok"
+    },
+    {
+      "site": "tacter.com",
+      "url": "https://www.tacter.com/lol/guides/garen-guide-from-an-otp-since-2013-bc181bee",
+      "result": "404"
+    },
+    {
+      "site": "old.reddit.com",
+      "url": "https://old.reddit.com/r/Garen/search?q=darius&restrict_sr=on&sort=relevance&t=all",
+      "result": "refused"
+    },
+    {
+      "site": "tacter.com",
+      "url": "https://tacter.com/lol/guides/garen-top-lane-build-guides-runes-items-and-abilities-617df66b",
+      "result": "404"
+    }
+  ],
+  "ddragonChecks": [
+    "Darius passif Hemorrhage / Plaie béante : saignement physique sur 5 s, cumulable 5 fois, enrage + gros bonus AD à 5 stacks — confirmé",
+    "Darius Q Decimate / Décimation : lame > hampe en dégâts, heal par champion touché par la lame, la hampe ne pose pas de stack — confirmé",
+    "Darius W Crippling Strike / Estropiaison : prochaine attaque renforcée + slow — confirmé",
+    "Darius E Apprehend / Crampon : attire, knock-up et slow (tooltip) — confirmé",
+    "Garen Q Decisive Strike / Coup décisif : retire tous les slows, bonus de vitesse, prochaine attaque silence — confirmé",
+    "Garen W Courage : bouclier + Ténacité brève puis réduction des dégâts — confirmé ; rien sur l'effet de la Ténacité contre les slows",
+    "Pas de vitesse de déplacement liée au Q de Darius dans Data Dragon — idée leaguefeed retirée"
+  ],
+  "contradictions": [
+    "Timing des trades pour Garen : leaguefeed (2022) dit d'éviter tout trade avant lvl 6 ; op.gg dit de se battre quand les sorts de Darius sont en CD. 1 page chacune en lane : les deux retirées."
+  ],
+  "doubts": [
+    "Source [0] date de mai 2022 (saison 12) : seules ses idées confirmées par Data Dragon 16.22 ou par une 2e page ont été gardées.",
+    "Tips Garen mechanics à 1 page (leaguefeed) + DDragon ; le tip « trades courts » est classé mechanics car il repose sur le passif de Darius, mais il touche aussi au pattern de trade (lane).",
+    "Le tip Darius sur les stacks combine [2] (maintenir les stacks) et [0] (combo AA-W-Q qui pose les stacks) : même idée de fond, comptée à 2 pages.",
+    "Les idées Darius tirées de [0] sont formulées côté Garen dans la page (ce que fait un bon Darius) : comptées comme la même idée vue de l'autre côté.",
+    "Aucune page reddit lisible (old.reddit refusé) ; aucune source macro : catégorie macro vide."
+  ]
+}

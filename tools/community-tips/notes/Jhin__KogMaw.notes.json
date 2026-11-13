@@ -1,0 +1,105 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] they lack gap close. Um so, they're better than you in the all in, but they lack gap close, right? So, you just keep your range, keep poking them.",
+    "[0] They also lack sustain, super important. Um so, any poke you do against them usually sticks.",
+    "[0] once you get level six against these characters, especially Kog'Maw, Jinx, and Aphelios, they're immobile. So, as soon as you hit your W, you hit your ulti, they're just going to die.",
+    "[0] Yeah, you just push them in, keep poking them, you farm plates, and you'll just you also kind of outscale them, right?",
+    "[1] Step outside of Void Ooze(E) as fast as you can. Wait for Bio-Arcane Barrage(W) to be on cooldown!",
+    "[2] Be careful of Jhin’s Dancing Granade (Q) that bounces off of minions, as well as the damage on his final round attack! Engage with Void Ooze[E] to slow him down and activate Bio-Arcane Barrage [W] to deal damage if Jhin is reloading!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12",
+  "videosFound": 75,
+  "videosRead": 3,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (Kog'Maw cité parmi les hyper carries immobiles, 4:18-5:21 ; ouverture comptée aussi pour Jhin__Varus)"
+    },
+    {
+      "id": "yK-8PBK--7o",
+      "channel": "Armasot",
+      "result": "écarté pour ce couple : guide Kog'Maw, chapitre « Hard Matchups » sans Jhin (ouverture comptée aussi pour Kaisa__Yasuo, où elle sert)"
+    },
+    {
+      "id": "ylcODSaDP7g",
+      "channel": "Eneino Coach",
+      "result": "écarté : partie commentée sans mention de Jhin"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=kogmaw",
+      "result": "ok (1 tip écrit Jhin vs Kog'Maw)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/kogmaw/counters/adc?target_champion=jhin",
+      "result": "ok (1 tip écrit Kog'Maw vs Jhin)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/kog-maw",
+      "result": "bad-slug (renvoie la page d'accueil, aucun tip)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : poke quand le Barrage (Z) est en CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W : portée en plus, CD 17 s)"
+    },
+    {
+      "idea": "Jhin : lvl 6, Z puis R sur Kog'Maw immobile",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Kog'Maw sans dash ; W de Jhin immobilise une cible touchée récemment)"
+    },
+    {
+      "idea": "Jhin : sortir du Limon du Néant",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (traînée qui ralentit)"
+    },
+    {
+      "idea": "Jhin : push la wave, prendre les plaques",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, conseil de lane"
+    },
+    {
+      "idea": "Kog'Maw : rebond de la Grenade dansante",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q jusqu'à 4 cibles, gagne des dégâts à chaque kill)"
+    },
+    {
+      "idea": "Kog'Maw : respecter la 4e balle",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (4e tir critique + exécution)"
+    },
+    {
+      "idea": "Kog'Maw : engager E + Z pendant le rechargement de Jhin",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Jhin n'a que 4 tirs ; E ralentit ; W donne de la portée)"
+    }
+  ]
+}

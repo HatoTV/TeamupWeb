@@ -5,7 +5,7 @@ import { BUILD_FILTERS, BuildDataService, BuildFilter, BuildIndex, BuildMeta, St
 import { ChampionDataService, Role } from '../../core/data/champion-data.service';
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
-import { ROLE_ORDER, formatInt, formatRate } from './build-utils';
+import { ROLE_ORDER, formatInt, formatRate, isBuildFilter, rankFilters } from './build-utils';
 
 type SortKey = 'name' | 'tier' | 'winRate' | 'pickRate' | 'banRate' | 'games';
 
@@ -39,7 +39,6 @@ export class BuildsListComponent {
   private readonly data = inject(BuildDataService);
   private readonly champions = inject(ChampionDataService);
 
-  protected readonly filters = BUILD_FILTERS;
   protected readonly columns: ReadonlyArray<{ key: SortKey; label: string }> = [
     { key: 'name', label: 'BUILDS.COL_CHAMPION' },
     { key: 'tier', label: 'BUILDS.COL_TIER' },
@@ -49,10 +48,18 @@ export class BuildsListComponent {
     { key: 'games', label: 'BUILDS.GAMES' },
   ];
   protected readonly roles = ROLE_ORDER;
-  protected readonly filter = signal<BuildFilter>('emerald_plus');
+  /** Rank picked by the visitor; ignored when that rank has no games of its own. */
+  protected readonly rank = signal<BuildFilter | null>(null);
+  protected readonly meta = signal<BuildMeta | null | undefined>(undefined);
+  /** Rank filters with games of their own tier; the widest one is the default. */
+  protected readonly filters = computed<BuildFilter[]>(() => {
+    const list = rankFilters(this.meta());
+    return list.length ? list : [BUILD_FILTERS[0]];
+  });
+  protected readonly defaultFilter = computed(() => this.filters()[0]!);
+  protected readonly filter = computed<BuildFilter>(() => (isBuildFilter(this.rank(), this.filters()) ? this.rank()! : this.defaultFilter()));
   protected readonly role = signal<Role | null>(null);
   protected readonly sort = signal<{ key: SortKey; dir: 1 | -1 }>({ key: 'tier', dir: 1 });
-  protected readonly meta = signal<BuildMeta | null>(null);
   protected readonly index = signal<BuildIndex | null>(null);
   protected readonly core = signal<StaticCore | null>(null);
   protected readonly loading = signal(true);
@@ -89,9 +96,11 @@ export class BuildsListComponent {
   constructor() {
     injectPageSeo(() => ({ titleKey: 'BUILDS.LIST_SEO_TITLE', descriptionKey: 'BUILDS.LIST_SEO_DESC', params: { patch: this.meta()?.latest ?? '' } }));
     void this.champions.loadIndex().catch(() => undefined);
+    void this.data.meta().then((meta) => this.meta.set(meta));
     effect(() => {
       const filter = this.filter();
       const lang = this.ctx.lang();
+      if (this.meta() === undefined) return;
       untracked(() => void this.load(filter, lang));
     });
   }

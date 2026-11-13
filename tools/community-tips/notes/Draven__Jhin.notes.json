@@ -1,0 +1,121 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] They're very support reliant. I think I'll put it in even in skill just cuz it's still a support reliant",
+    "[0] You kind of will lose push sometimes and you'll have to give over ground, but sometimes you will be able to win push, right?",
+    "[0] and they both are pretty bad in the long trade. They're good in the short trade.",
+    "[1] this matchup, right, even though I have a Yumi, they have Jin Jana, so I know that if I can extend auto attacks, I'm going to win the the all in",
+    "[1] because Jyn's more of like short trades. You want extended trades, especially with lethal tempo. Is that right? Right. Exactly.",
+    "[1] so see so Jana just used tornado and he has four shots. So I want to respect that a little bit.",
+    "[1] essentially I'm just going to hold the wave on my side. And the Jin just feels really uncomfortable to walk up, right?",
+    "[1] he can potentially like short trade and he can play to neutralize more with his Q wave clear and he can play to set up ganks.",
+    "[2] Be careful of Jhin’s Dancing Granade (Q) that bounces off of minions, as well as the damage on his final round attack! Use Stand Aside [E] to engage if you see Jhin reloading!",
+    "[3] It’s important to not stand in range of Stand Aside(E). Jhin is in danger if Draven manages to close down the distance!"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 63,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (tier list Jhin : Draven « even in skill », dépend du support ; Jhin bon en trade court, faible en trade long ; ouverture partagée avec Aphelios__Jhin et Jhin__Jinx)"
+    },
+    {
+      "id": "NwHpnWY032M",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "doublon : « Draven OTP Reveals His Match Up Tier List » est un extrait de 1kSqZVExMXs (même passage Jhin) ; non compté comme source distincte"
+    },
+    {
+      "id": "nKzvqf49QnY",
+      "channel": "Alyon IV",
+      "result": "échec : aucun sous-titre « en » disponible"
+    },
+    {
+      "id": "1kSqZVExMXs",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (guide Draven de Danman ; la VOD de lane commentée 1:05:50-1:16 est contre Jhin, sous-titres « Jin/Jyn » ; tier list 1:49:53)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/draven/counters/adc?target_champion=jhin",
+      "result": "ok (1 tip écrit Draven vs Jhin)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=draven",
+      "result": "ok (1 tip écrit Jhin vs Draven ; le reste = runes/objets)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Draven : Jhin fort en trade court, faible en combat long, forcer les échanges longs",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Draven : engager avec la Division (E) pendant le rechargement de Jhin",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Murmure : 4 balles puis rechargement ; E repousse et ralentit)"
+    },
+    {
+      "idea": "Draven : la Grenade dansante rebondit sur les sbires",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q rebondit vers un ennemi proche)"
+    },
+    {
+      "idea": "Jhin : trades courts autour de la 4e balle, éviter le combat long",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (4e balle critique)"
+    },
+    {
+      "idea": "Jhin : rester hors de portée de la Division (E)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E : repousse, ralentit)"
+    },
+    {
+      "idea": "Draven : garder la wave de son côté, Jhin n'ose plus avancer",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Draven : Jhin nettoie la wave avec sa Grenade et joue pour les ganks, suivre son jungler",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source"
+    },
+    {
+      "idea": "Jhin : Draven dépend de son support ; tu perdras parfois le push, cède du terrain",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source (et la VOD de Danman montre un Draven qui gagne sans support d'engage)"
+    }
+  ],
+  "retroFix2026_11_12": "les vidéos We Teach League (BBC + Highlights & Clips) comptent pour une seule source : tips recomptés ou retirés."
+}

@@ -1,0 +1,173 @@
+{
+  "pair": [
+    "Lulu",
+    "Morgana"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Lulu": "8e4d3ed7caec3c6be814bcb1ae2ae90398f1d83be7ba3de99577a96a96acb871",
+    "Morgana": "645da31a1438d863ee0643f56bb7572f3f7b46d59858213aa62e8cbbe191f9f6"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Lulu": {
+      "fr": [
+        {
+          "text": "Son Entrave sombre (A) est sa seule vraie menace en lane : si tu l'esquives, Morgana n'a presque rien pour te punir.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Le matchup est pour toi : Morgana souffre contre les enchanteurs, alors mets-lui la pression dès les premiers niveaux.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Son Bouclier noir (E) bloque ta Fantaisie (Z) : attends qu'il soit tombé pour trade ou transformer sa cible.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Une lane égale te suffit : tu scales mieux que Morgana sur la durée.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Si ses Chaînes spirituelles (R) accrochent ton ADC, donne-lui ta Fantaisie (Z) : la vitesse l'aide à casser les chaînes avant l'étourdissement.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Dark Binding (Q) is her only real threat in lane: dodge it and Morgana has almost nothing left to punish you with.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "The matchup favors you: Morgana struggles against enchanters, so put pressure on her from the first levels.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Black Shield (E) blocks your Whimsy (W): wait for it to drop before trading or polymorphing its target.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "An even lane is enough for you: you scale better than Morgana over time.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "If Soul Shackles (R) latch onto your ADC, give them Whimsy (W): the speed helps them break the chains before the stun.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Morgana": {
+      "fr": [
+        {
+          "text": "Ton Entrave sombre (A) est ta condition de victoire : touche Lulu et burst-la avec ton ADC avant qu'elle ne se protège.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Mets ton Bouclier noir (E) sur ton ADC : tant qu'il tient, Lulu ne peut pas le transformer avec sa Fantaisie (Z).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Lulu scale mieux que toi : c'est en début de partie que tu dois prendre l'avance.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ],
+      "en": [
+        {
+          "text": "Dark Binding (Q) is your win condition: land it on Lulu and burst her down with your ADC before she can protect herself.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Put Black Shield (E) on your ADC: while it holds, Lulu can't polymorph them with Whimsy (W).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Lulu scales better than you: you need to get your lead early in the game.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "How to Climb with LULU in Season 16 - Full Educational Games",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ucrac-82KSg",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2026-10-08",
+      "timestamps": [
+        "0:56",
+        "3:26",
+        "7:06"
+      ]
+    },
+    {
+      "title": "MORGANA SUPPORT GUIDE - How To Carry With Morgana - Detailed Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=govp5qcA5AU",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2024-12-17",
+      "timestamps": [
+        "18:24",
+        "19:35"
+      ]
+    },
+    {
+      "title": "The Only Rank 1 Challenger Lulu Beginner Support Guide You’ll Ever Need",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=9Ryi8IbUamI",
+      "consultedAt": "2026-11-12",
+      "channel": "Daption",
+      "publishedAt": "2025-02-05",
+      "timestamps": [
+        "8:59"
+      ]
+    },
+    {
+      "title": "Lulu Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Morgana Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/morgana",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

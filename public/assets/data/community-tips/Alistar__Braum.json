@@ -1,0 +1,101 @@
+{
+  "pair": [
+    "Alistar",
+    "Braum"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Alistar": "6b0b70ea42f167db7b24a19d94d70a5b909bbb73e86502a017cb35e720233bd9",
+    "Braum": "1d0f164daf3790d10ebecbb29822c801b620150e67cc4d14707389f1b5f07b8f"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Alistar": {
+      "fr": [
+        {
+          "text": "Choisis bien tes engages : les attaques de Braum, puis celles de son ADC, chargent ses Coups étourdissants (passif) ; à 4 charges, tu es étourdi.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ton Coup de tête (Z) n'est pas un projectile, l'Incassable (E) de Braum ne l'arrête pas ; mais il réduit tes dégâts de face, engage plutôt quand il l'a utilisé.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Pick your engages carefully: Braum's attacks, then his ADC's, stack Concussive Blows (passive), and at 4 stacks you're stunned.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Headbutt (W) isn't a projectile, so Braum's Unbreakable (E) won't stop it; it still cuts your damage from the front, so engage once he's used it.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Braum": {
+      "fr": [
+        {
+          "text": "Quand Alistar s'engage sur toi, frappe-le avec ton ADC : tes Coups étourdissants (passif) montent à 4 charges et l'étourdissent avant qu'il reparte.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Si Alistar te repousse sous sa tour avec son Coup de tête (Z), ton Bouclier humain (Z) te fait bondir vers un allié ou un sbire pour t'en sortir.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Garde de la distance : avec Flash puis Atomisation (A), Alistar peut te soulever sans passer par son Coup de tête (Z).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "When Alistar commits on you, hit him along with your ADC: Concussive Blows (passive) reaches 4 stacks and stuns him before he can leave.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If Alistar knocks you under his tower with Headbutt (W), Stand Behind Me (W) lets you leap to an ally or a minion to get out.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Keep your distance: with Flash into Pulverize (Q), Alistar can knock you up without going through Headbutt (W).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Alistar Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Braum Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/braum",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

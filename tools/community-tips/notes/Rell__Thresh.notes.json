@@ -1,0 +1,154 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] fresh another skill matchup yes fresh has easy Flay to cancel crash down",
+    "[0] if the fresh place is good fresh gets into Lake here with a decent amount of cooldown reduction he can really screw you up",
+    "[0] thresh later on is as we're gonna say fresh is kind of useless the longer the game goes thresh gets really useless",
+    "[0] so it is even in Lane when only looking at the match up but later on if the fresh is not a God you're just gonna be better than him",
+    "[1] for example thresh you need to be a really good thres to keep this match up neutral",
+    "[1] the matchup is going to be a bit 50/50 in laning Phase then outside of laning phase she's going to add so much more right",
+    "[2] to me re is actually pretty annoying to play against",
+    "[2] if she catches you then you will suffer a lot usually because you have no mobility",
+    "[2] but usually uh if you're good enough you can kind of kite her and uh hold her at an orange distance",
+    "[3] Really good engage with cc but you can stop her with your E",
+    "[3] You can easily cancel most of her engages, but make sure to not get caught and try to overpower her in 2v2 using your stats if it does happen",
+    "[3] Really strong engage support, but your flay denies her jump making her an easy target to hook. Be aware of her follow up cc though.",
+    "[3] Rell has a very simple engage in the form of her W, which you can easily if she misses as she loses some movement speed and is easy to catch out.",
+    "[4] Thresh segura bem. Q atrasa engage, E cancela o W da Rell fácil. Se ela entra torta, ele só joga a lanterna pro ADC e pronto. Tem mais controle e range."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12",
+  "videosFound": 39,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "utilisé (chapitre « Thresh & Yuumi Matchups » 22:49 ; ouverture partagée avec Braum__Lulu)"
+    },
+    {
+      "id": "dFEJushm5Cc",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre Support Matchups, 8:53 : Thresh cité en exemple)"
+    },
+    {
+      "id": "Y2NwKEW240Y",
+      "channel": "AxL",
+      "result": "utilisé (OTP Thresh Diamond 2, chapitre Rell 29:01)"
+    },
+    {
+      "id": "lxcF8Lz3_ak",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (chapitre Rell vs Thresh 40:20 : commentaire de partie sans conseil propre au matchup)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/rell",
+      "result": "ok (commentaires d'auteurs de guides Thresh contre Rell)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/thresh",
+      "result": "ok (1 commentaire d'un auteur de guide Rell, en portugais)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/rell/counters/support?target_champion=thresh",
+      "result": "lu, inutilisé (tips généraux sur Rell, rien de propre au matchup)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rell : le Fauchage de Thresh coupe Descendre en piqué, engager pendant son CD",
+      "sourceIdx": [
+        0,
+        3,
+        4
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Fauchage repousse, CD 13 s au rang 1)"
+    },
+    {
+      "idea": "Rell : ne pas forcer, Rell apporte plus que Thresh après la lane",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Rell : Lien des ténèbres sauve l'ADC engagé",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (les alliés cliquent sur la lanterne pour rejoindre Thresh)"
+    },
+    {
+      "idea": "Rell : sa Frappe dislocatrice (A) brise le bouclier de la lanterne",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "vérifié dans DDragon mais aucune source ne le dit pour ce matchup"
+    },
+    {
+      "idea": "Thresh : garder Fauchage pour Descendre en piqué",
+      "sourceIdx": [
+        0,
+        3,
+        4
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Fauchage repousse)"
+    },
+    {
+      "idea": "Thresh : aucune mobilité, ne pas se faire attraper, kite",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Thresh : Rell ralentie à pied, cible facile pour Peine capitale",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Rell ralentie une fois à pied)"
+    },
+    {
+      "idea": "Thresh : lanterne à l'ADC si Rell engage mal",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Thresh : prendre l'avance en lane, Rell scale mieux en teamfight",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Thresh : surpasser Rell en 2v2 si elle attrape quelqu'un",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane, et liée à des runes"
+    },
+    {
+      "idea": "Thresh : son Q retarde l'engage de Rell",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "1 source, flou"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "pair": [
+    "Jhin",
+    "Tristana"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Jhin": "50dc94bbadc487d669af01570fd6aec1208d2ce3576b4f5d11c2b08d3195ca6d",
+    "Tristana": "18f09bce8c55d5bafb21ad0ec220431eddf596286f96b87c1c7d11e0b461d3ac"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Jhin": {
+      "fr": [
+        {
+          "text": "Tu n'as aucun dash : garde tes distances, car Tristana gagne le combat dès qu'elle arrive à te coller.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Quand elle saute avec son Saut roquette (Z), attends-toi aussi à sa Charge explosive (E) : elle peut la lancer en plein saut.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "You have no dash: keep your distance, because Tristana wins the fight as soon as she gets on top of you.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "When she leaps in with Rocket Jump (W), expect Explosive Charge (E) as well: she can cast it mid-jump.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Tristana": {
+      "fr": [
+        {
+          "text": "Jhin n'a aucun dash : dès qu'il recharge après sa 4e balle, saute-lui dessus avec ton Saut roquette (Z) et pose ta Charge explosive (E).",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Tu peux lancer ta Charge explosive (E) pendant ton Saut roquette (Z) : enchaîne les deux pour engager plus vite.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "mechanics"
+        },
+        {
+          "text": "Respecte sa 4e balle : elle fait toujours un coup critique avec des dégâts d'exécution. Ne lance pas de trade quand elle est chargée.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Sa Grenade dansante (A) rebondit sur les sbires : ne reste pas collée à ta wave quand il peut la lancer.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Jhin has no dash: once he's reloading after his fourth shot, jump on him with Rocket Jump (W) and stick Explosive Charge (E) on him.",
+          "sources": 3,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "You can cast Explosive Charge (E) during Rocket Jump (W): chain them to engage faster.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "mechanics"
+        },
+        {
+          "text": "Respect his fourth shot: it always crits and deals bonus execute damage. Don't start a trade while it's loaded.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "His Dancing Grenade (Q) bounces off minions: don't hug your wave when he can throw it.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "The Ultimate Jhin Matchup Tier List",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=sd4t6Hh5V38",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League Highlights & Clips",
+      "publishedAt": "2026-10-31",
+      "timestamps": [
+        "0:56",
+        "1:06",
+        "1:27"
+      ]
+    },
+    {
+      "title": "Tristana Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/tristana/counters/adc?target_champion=jhin",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Jhin Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=tristana",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

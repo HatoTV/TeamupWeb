@@ -1,0 +1,77 @@
+{
+  "pair": [
+    "Alistar",
+    "Senna"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Alistar": "6b0b70ea42f167db7b24a19d94d70a5b909bbb73e86502a017cb35e720233bd9",
+    "Senna": "a530a474d7d812111eaadf54620c8838863440362d736028de22ac9abd611fd3"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Alistar": {
+      "fr": [
+        {
+          "text": "Approche Senna avec Coup de tête (Z) puis Atomisation (A) : ton Coup de tête est ciblé, se cacher derrière ses sbires ne la protège pas.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "L'Absolution (passif) de Senna allonge sa portée d'attaque à chaque Brume récoltée : plus la partie avance, plus son poke te touche de loin.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Close in on Senna with Headbutt (W) into Pulverize (Q): Headbutt is targeted, so hiding behind her minions doesn't protect her.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Senna's Absolution (passive) extends her attack range with every bit of Mist she collects: the longer the game, the farther her poke reaches.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Senna": {
+      "fr": [
+        {
+          "text": "Ne reste pas collée à ton ADC : l'Atomisation (A) d'Alistar soulève tous les ennemis autour de lui, un seul combo peut vous attraper tous les deux.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Don't stand right next to your ADC: Alistar's Pulverize (Q) knocks up every enemy around him, so one combo can catch you both.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Alistar Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Senna Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/senna",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] Et donc forcément un que isolé à ce moment-là fera énormément de dégâts puisque bah il y aura 12 missiles sur une seule personne.",
+    "[0] C'est vraiment un gros gros spike pour pour Kaisa.",
+    "[0] Alors maintenant pour luxe, il reste luxe.",
+    "[0] Je pense que je mettrais dans la même catégorie que que les autres. En vrai, c'est free je pense non ? Ah, je pense que c'est frit en vrai. C'est quand même dur la line.",
+    "[1] Stay away! She will take your HP down from 100-0 in a blink. Seriously be careful around her.",
+    "[1] Her distance closing is pretty nasty and her Q can delete you pretty fast.",
+    "[1] Keep your distance and poke, making sure you dodge her W which has incredible range",
+    "[1] but she cant dash to you if you don't get hit."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 8 2026-11-12",
+  "videosFound": 87,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "3LxH7QOgsU4",
+      "channel": "Booshi",
+      "result": "utilisé (PRO GUIDE ; Q isolé 3:49, Lux dans le chapitre Match Ups 46:10)"
+    },
+    {
+      "id": "NRZZcw2s4x4",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (Kai'Sa alliée de Lux dans la partie commentée, rien sur le matchup)"
+    },
+    {
+      "id": "3seUR88FxhA",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "lu, inutilisé (Lux citée seulement comme support allié de Kai'Sa ; piste en apparemment traduite)"
+    },
+    {
+      "id": "xuTEPNBf0JM",
+      "channel": "KU9 ADC",
+      "result": "lu, inutilisé (aucune mention de Lux)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/kaisa",
+      "result": "ok (commentaires de SilverSummons, auteur de guides « Lux Bot », contre Kai'Sa ; page lue en entier)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lux",
+      "result": "lu, inutilisé (aucun commentaire sur Kai'Sa, page lue en entier)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/kaisa/counters/adc?target_champion=lux",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kai'Sa : attraper Lux isolée, tous les missiles de Pluie d'Icathia la touchent",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (les missiles se répartissent entre les ennemis proches). Conseil en partie générique, gardé car moins de 3 tips propres au couple"
+    },
+    {
+      "idea": "Kai'Sa : Rayon du Néant pose le Plasma, puis Instinct meurtrier sur Lux",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Instinct meurtrier : téléportation près d'un champion affecté par le Plasma ; Rayon du Néant applique des cumuls de Plasma)"
+    },
+    {
+      "idea": "Lux : ne pas s'isoler, la Pluie d'Icathia concentre ses missiles",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Lux : esquiver Rayon du Néant pour empêcher Instinct meurtrier",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (portée 3000 du Rayon du Néant ; R limité aux cibles avec Plasma)"
+    },
+    {
+      "idea": "Lux : garder ses distances et poke, Kai'Sa la détruit au contact",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "conseil de lane : SilverSummons probablement plus de 2 ans (guide Mobafire n° 538853, objet Wit's End cité), ne compte pas ; reste 1 source"
+    },
+    {
+      "idea": "Kai'Sa : lane pénible contre Lux, mais l'écart de DPS en mid game",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source (Booshi hésite sur le classement de Lux)"
+    }
+  ]
+}

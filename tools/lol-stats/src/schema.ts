@@ -92,5 +92,7 @@ export const metaSchema = z.object({
   filters: z.array(z.enum(TIER_FILTERS)),
   regions: z.array(z.string()),
   minGamesForNewPatch: games,
+  /** Sample data collected with a development key. */
+  sample: z.boolean().optional(),
 });
 export type MetaJson = z.infer<typeof metaSchema>;

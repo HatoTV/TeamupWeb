@@ -1,0 +1,182 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] So, what he’s going to do is going to try to time his spells with your last hits when you’re standing still so he can actually land his spells.",
+    "[0] So, the worst thing you can do versus Xerath is play like a and let the wave get pushed to watch you. What you want to do is you want to kind of contest him on the push.",
+    "[0] if you have to push, what happens is that you either drop low and then you can just reset cuz you pushed the wave out",
+    "[0] If you can get close to him, nine out of 10 times as a champion you win because Xerath doesn’t really function that well from close range because his E has way way way way way less effect because the stun duration increases with range.",
+    "[0] And you got to be, of course, quite careful heavy trading the moment he reaches level six because then he’s in a position where he can snipe you with the R after you have heavy traded and you guys are both low.",
+    "[1] xerat il veut te lancer les sorts dans la gueule et que si tu lui bouches la Wave bah il va être coincé entre lancer le sort dans la Wave et te lancer le sort à la gueule",
+    "[1] ce qu’il faut surtout pas faire c’est que tu te positionnes dans la Wave si tu te positionnes dans la Wave pour lui c’est du pain béni il peut à la fois lancer le sort dans la Wave farm S sesbir et en même temps te P",
+    "[1] troisième conseil c’est si tu galères etessie de recol souvent tu peux rol toutes les trois waves sur les WAV canon bah parce qu’en fait quand tu roles ça fait que tu regagnes ta vie tout simplement",
+    "[2] Xerath will punish you hard if you can’t dodge Q’s, but remember that he self slows so any counter engage on him with Q-E is literally so free it’s insane. His ult will destroy you if you don’t have enough movespeed to dodge it. Skill matchup.",
+    "[2] Another skillshot-heavy matchup, so be sure to rush Tier 2 boots and take advantage of the fact that his cooldowns are much longer than yours.",
+    "[3] Syndra is an easy matchup as you have the range advantage. Make sure you don’t allow her to get the early lead because she is strong early and don’t position in a line between her spheres and her as she will stun you.",
+    "[3] Matchup can be super annoying. You can abuse her early game and perma poke, try to stay out of her stun range tho. After 6 be even more careful since she can all in you. Just hold your distance and poke.",
+    "[3] Bring barrier to negate her ult and dodge her stun. Xerath has a ton more range than her."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 49,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "GGcsKR9lYZs",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (guide anti-Xerath, joué avec Ryze ; conseils de wave, de trade et de lvl 6 valables pour Syndra)"
+    },
+    {
+      "id": "qWZAJOKYRB0",
+      "channel": "Gros Galio",
+      "result": "utilisé (guide anti-Xerath joué avec Malzahar : push, placement hors de la wave, recall)"
+    },
+    {
+      "id": "hetk5dgTw2k",
+      "channel": "Zoose",
+      "result": "lu, inutilisé (guide Xerath sans passage sur Syndra ; confirme seulement le stun de l’Orbe qui grandit avec la distance)"
+    },
+    {
+      "id": "3JB-v54_k2o",
+      "channel": "HEXerath",
+      "result": "lu, inutilisé (aucun passage sur Syndra)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/xerath",
+      "result": "ok (commentaires d’auteurs de guides Syndra contre Xerath ; tous anciens, id max 2231636 < 2232000 : mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "result": "ok (commentaires d’auteurs de guides Xerath contre Syndra ; tous anciens, id max 2210280 : mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Syndra : garder la wave poussée, Xerath choisit entre la wave et le poke",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "Syndra : ne pas rester immobile dans la wave au last hit",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "Syndra : back après avoir poussé si le poke a entamé la vie",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "Syndra : Xerath se ralentit en chargeant son Q, punir avec Q-E",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2177930, 12.21) + DDragon (Rayon arcanique : se ralentit jusqu’à 50 % pendant la charge)"
+    },
+    {
+      "idea": "Syndra : coller Xerath, son E étourdit moins de près",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source récente + DDragon (stun selon la distance parcourue)"
+    },
+    {
+      "idea": "Syndra : après son lvl 6, éviter les gros trades, R de très loin",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Rite arcanique : portée 5000, plusieurs tirs)"
+    },
+    {
+      "idea": "Syndra : ses CD sont bien plus longs que les tiens",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "contredit en partie par DDragon (E Syndra 15 s contre Orbe 13 s, Q 7 s contre 9 s) : retiré"
+    },
+    {
+      "idea": "Syndra : en milieu de partie, éviter le poke en groupe et jouer les side lanes",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    },
+    {
+      "idea": "Syndra : Xerath suit mal les ganks",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, lane"
+    },
+    {
+      "idea": "Syndra : prendre des bottes tôt pour esquiver",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": false,
+      "reason": "conseil d’objet (interdit)"
+    },
+    {
+      "idea": "Xerath : plus de portée, rester hors de son E et poke au Q chargé",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "commentaires anciens + DDragon (Dispersion 650, Sphère 800 ; Rayon 750 qui s’allonge avec la charge, Œil 1000, Orbe 1050)"
+    },
+    {
+      "idea": "Xerath : ne pas se placer entre Syndra et ses sphères",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2096863) + DDragon (les sphères poussées étourdissent)"
+    },
+    {
+      "idea": "Xerath : après son lvl 6, garder ses distances (R)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2210280, 13.9) + DDragon (R : 3 sphères + jusqu’à 4 autour, dégâts par sphère)"
+    },
+    {
+      "idea": "Xerath : prendre Barrière contre son ult",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "sort d’invocateur, commentaires anciens, hors gameplay de lane"
+    },
+    {
+      "idea": "Xerath : égaler son waveclear pour ne pas perdre la prio",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "commentaire ancien, tip lane : ne compte pas"
+    }
+  ]
+}

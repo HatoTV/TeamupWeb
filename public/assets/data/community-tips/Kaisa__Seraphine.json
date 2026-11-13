@@ -1,0 +1,153 @@
+{
+  "pair": [
+    "Kaisa",
+    "Seraphine"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Kaisa": "fdeba50a5451f71e356bbc6a3b696dbb381780f2f5343cd4f1853e28921d7cb2",
+    "Seraphine": "ed160ec2bc46908a4c59b64f118f6fc36d8a08e9f145a34ae0b7720bf12b6745"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Kaisa": {
+      "fr": [
+        {
+          "text": "Séraphine n'a aucun dash pour s'échapper : rattrape-la sur un flank ou un gank et tu la tues très vite.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Esquive son Battement (E) : le sort ralentit, mais une cible déjà ralentie se retrouve immobilisée, et son passif le relance parfois deux fois de suite.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Si elle rate son Battement (E), engage tout de suite : c'est son seul CC avant le lvl 6, et il reste 11 s en CD.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Face à son Bis (R), ne reste pas en ligne avec tes alliés : le sort charme et gagne de la portée à chaque champion qu'il traverse.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Seraphine has no dash to escape: catch her on a flank or a gank and she goes down very fast.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Dodge her Beat Drop (E): it slows, but a target that's already slowed gets rooted instead, and her passive sometimes casts it twice in a row.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "If she misses Beat Drop (E), go in right away: it's her only CC before level 6, and it stays on an 11-second cooldown.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Against her Encore (R), don't line up with your allies: the spell charms and gains range with every champion it passes through.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Seraphine": {
+      "fr": [
+        {
+          "text": "Reste au milieu de ta wave : la Pluie d'Icathia (A) de Kai'Sa répartit ses missiles entre les cibles proches, et isolée, tu les prends tous.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Esquive son Rayon du Néant (Z) : sans marque de Plasma sur toi, son Instinct meurtrier (R) ne peut pas te viser.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Son Rayon du Néant (Z) s'arrête sur le premier ennemi touché : garde un sbire entre Kai'Sa et toi pour le bloquer.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Préfère les short trades : chaque auto de Kai'Sa empile du Plasma aux dégâts croissants, donc un échange qui dure joue pour elle.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Stay inside your wave: Kai'Sa's Icathian Rain (Q) splits its missiles between nearby targets, so when you're alone you take all of them.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Dodge her Void Seeker (W): without Plasma on you, her Killer Instinct (R) can't target you.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Her Void Seeker (W) stops on the first enemy it hits: keep a minion between Kai'Sa and you to block it.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Prefer short trades: each Kai'Sa basic attack stacks Plasma for growing damage, so a long exchange plays into her hands.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "PRO GUIDE KAI'SA - Tout pour carry avec Kai'sa | Builds, Runes, Tips & Matchups - League of Legends",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=3LxH7QOgsU4",
+      "consultedAt": "2026-11-12",
+      "channel": "Booshi",
+      "publishedAt": "2026-08-04",
+      "timestamps": [
+        "2:52",
+        "3:59",
+        "4:16",
+        "7:51",
+        "45:21",
+        "45:55"
+      ]
+    },
+    {
+      "title": "Kai'Sa Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/kaisa",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Seraphine Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/seraphine",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

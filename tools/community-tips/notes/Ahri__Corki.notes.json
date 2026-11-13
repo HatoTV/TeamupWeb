@@ -1,0 +1,119 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] the best things against corki are the same things that are good against Aon basically like the best Corky trades are when he can W forward into you and chase you down",
+    "[0] so anything that can kind of stop that from happening so again things like Cinder stun Victor W RH arm Zoe bubble like all these are quite good against corki",
+    "[0] if you did have to commit your Zoe e as opposed to just poking with q and then like Cori Dodges it and can punish that can be quite scary as well",
+    "[1] If u miss charm u can win the duel and with Trinity+Sorcerer u can OS her with your single combo. Only use W for engage (after she miss E) if u know enemy jungler is not nearby.",
+    "[1] Don't let her to cast Q on you and hit minions in same time.",
+    "[1] I think tradeing with her is not good since she has better sustain.",
+    "[1] Note that she has a lot of sustain and could outlast you in lane.",
+    "[1] Another mobile assassin In lane try not to walk on a straight line to AA her, and just overall try not to get charmed If she has her R down you might want to fight her, only her W is reliable so don't get skillshoted",
+    "[1] She has a lot of mobility due to her R, focus on doging her E and Q during laning phase, even a single E you didnt dogde could get you killed.",
+    "[1] Super mobile and can dodge most of your abilities. Also she is cancer to everyone because she can just charm you to death.",
+    "[1] Hard Matchup. If you dodge her E you will win any fight."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 14 2026-11-12",
+  "videosFound": 74,
+  "videosRead": 3,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "1EIYt_jBOYI",
+      "channel": "ACEE1",
+      "result": "lu, inutilisé (piste traduite, point de vue d'un bruiser, pas Ahri contre Corki)"
+    },
+    {
+      "id": "LdwlHhtq_rs",
+      "channel": "Shok",
+      "result": "utilisé (chapitre Corki 12:08 : le CC qui coupe sa Valkyrie, « RH arm » = Ahri charm dans les sous-titres auto)"
+    },
+    {
+      "id": "e4NW7yhiJWE",
+      "channel": "Mysteriaslol",
+      "result": "lu, inutilisé (Corki mid, aucune mention d'Ahri)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ahri",
+      "result": "ok (12 commentaires d'auteurs de guides Corki, tous anciens : tip-id 1994309 à 2224236)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/corki",
+      "result": "lu, inutilisé (aucun commentaire d'auteur de guide Ahri)"
+    },
+    {
+      "url": "https://www.mobafire.com/league-of-legends/build/25-18-pengs-ahri-guide-2-7mil-points-10x-challenger-648700",
+      "result": "403"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ahri : garder le Charme pour la Valkyrie",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Shok 2025 + commentaires anciens) + DDragon (le Charme stoppe les sorts de déplacement)"
+    },
+    {
+      "idea": "Corki : Valkyrie seulement après le Charme raté",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Ahri : meilleur sustain que Corki (passif)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "commentaires anciens + DDragon (Vol essentiel soigne après 9 sbires/monstres)"
+    },
+    {
+      "idea": "Ahri : R pour esquiver ses compétences",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "commentaires anciens + DDragon (jusqu'à 3 dashs)"
+    },
+    {
+      "idea": "Corki : rester hors de l'axe de l'Orbe",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "commentaires anciens + DDragon (dégâts magiques à l'aller, bruts au retour)"
+    },
+    {
+      "idea": "Corki : combattre quand son R est en CD",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (1994360) + DDragon (R = seul dash d'Ahri) ; classé mechanics"
+    },
+    {
+      "idea": "Corki : Ahri roam, ne pas suivre, prendre les waves et plaques",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "macro, commentaire ancien (2224236, guide 14.12)"
+    },
+    {
+      "idea": "Corki : Ahri gérable avant 6, dangereuse après",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "lane, commentaire ancien, et lié à un objet"
+    }
+  ]
+}

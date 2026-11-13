@@ -1,0 +1,137 @@
+{
+  "pair": [
+    "Jhin",
+    "Kaisa"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Jhin": "50dc94bbadc487d669af01570fd6aec1208d2ce3576b4f5d11c2b08d3195ca6d",
+    "Kaisa": "fdeba50a5451f71e356bbc6a3b696dbb381780f2f5343cd4f1853e28921d7cb2"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Jhin": {
+      "fr": [
+        {
+          "text": "Dès le lvl 6, elle peut fondre sur toi avec son Instinct meurtrier (R) si tu portes sa marque de Plasma. Recule, surtout si son support a de l'engage.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Esquive son Rayon du Néant (Z) : il te marque de Plasma de très loin et lui ouvre la voie vers son Instinct meurtrier (R).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ne reste pas seul face à sa Pluie d'Icathia (A) : ses missiles se partagent entre les ennemis proches, donc isolé tu encaisses toute la salve.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "From level 6 she can warp onto you with Killer Instinct (R) once you carry her Plasma mark. Back off, especially if her support has engage.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Dodge her Void Seeker (W): it marks you with Plasma from very far away and opens the way for her Killer Instinct (R).",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Don't stand alone when she casts Icathian Rain (Q): the missiles split among nearby enemies, so an isolated target eats the whole volley.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Kaisa": {
+      "fr": [
+        {
+          "text": "Joue autour du CC de ton support : ses immobilisations chargent ta Plasma, et ton all-in sur Jhin devient bien plus dangereux.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Ton vrai pic, c'est le lvl 6 : marque-le de Plasma puis saute-lui dessus avec ton Instinct meurtrier (R), il n'a aucun dash pour fuir.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Écarte-toi des sbires bas en vie : sa Grenade dansante (A) rebondit d'ennemi en ennemi et gagne en dégâts à chaque kill.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Respecte son 4e tir : critique garanti avec des dégâts d'exécution en bonus, encore plus forts quand ta vie est basse.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Play around your support's CC: their immobilizing effects stack your Plasma and make your all-in on Jhin far more dangerous.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Your real spike is level 6: mark him with Plasma, then warp onto him with Killer Instinct (R); he has no dash to escape.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Stay away from low-health minions: his Dancing Grenade (Q) bounces from enemy to enemy and hits harder after each kill.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Respect his fourth shot: a guaranteed crit with bonus execute damage, which hurts even more when your health is low.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "The Ultimate Jhin Matchup Tier List",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=sd4t6Hh5V38",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League Highlights & Clips",
+      "publishedAt": "2026-10-31",
+      "timestamps": [
+        "0:50",
+        "1:27"
+      ]
+    },
+    {
+      "title": "Jhin Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=kaisa",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Kai'Sa Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/kaisa/counters/adc?target_champion=jhin",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

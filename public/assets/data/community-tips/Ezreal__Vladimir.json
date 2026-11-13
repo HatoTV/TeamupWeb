@@ -1,0 +1,110 @@
+{
+  "pair": [
+    "Ezreal",
+    "Vladimir"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Ezreal": "b210c82bc05c8e07bb2981436afa83baafe6329788acede9286f93dcc356b93d",
+    "Vladimir": "150943c6ab6ac32bb63b01d917a49ffce0cd1082cb4f562ba65799636c40b767"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Ezreal": {
+      "fr": [
+        {
+          "text": "Vladimir a peu de portée : pique-le de loin avec ton Tir mystique (A), qui va presque deux fois plus loin que sa Transfusion (A).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Recule dès que sa Transfusion (A) est renforcée, barre rouge pleine : soin et dégâts grimpent fortement à ce moment-là.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Vladimir is short-ranged: poke him from afar with Mystic Shot (Q), which reaches almost twice as far as his Transfusion (Q).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Back off as soon as his Transfusion (Q) is empowered, with the red bar full: its healing and damage spike at that moment.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Vladimir": {
+      "fr": [
+        {
+          "text": "Face à sa portée, évite l'all-in en début de partie : pique avec ta Transfusion (A), qui te soigne, et joue l'usure.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Ton Bain de sang (Z) te rend inciblable 2 s : garde-le pour annuler un burst ou échapper à un gank.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Against his range, avoid early all-ins: poke with Transfusion (Q), which heals you, and play the war of attrition.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Sanguine Pool (W) makes you untargetable for 2 s: save it to cancel a burst or escape a gank.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "How You Always Beat Vladimir",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=0V7oU-weTdo",
+      "consultedAt": "2026-11-12",
+      "channel": "Mysteriaslol",
+      "publishedAt": "2026-04-04",
+      "timestamps": [
+        "0:11",
+        "0:45",
+        "1:09",
+        "1:44",
+        "4:45"
+      ]
+    },
+    {
+      "title": "How to DOMINATE on Vladimir ADC",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=aQnKaH_DHh8",
+      "consultedAt": "2026-11-12",
+      "channel": "a280c",
+      "publishedAt": "2026-05-17",
+      "timestamps": [
+        "0:24",
+        "5:22"
+      ]
+    },
+    {
+      "title": "Vladimir Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/vladimir",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

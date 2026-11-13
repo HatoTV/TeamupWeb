@@ -61,3 +61,84 @@ Formes francisées courantes : **trade** (verbe invariable : « tu peux trade »
 | You lose out on all trades against Senna, so dont walk up to trade with her. | Vous perdez tous les échanges contre Senna. | Tu perds tous les trades contre Senna, donc ne t'avance pas pour trade. |
 | Need to heavily roam in this match up as Sona has bad 2v1 dive pressure. Rush Chemtech Putrifier. | Il faut beaucoup errer… | Roam beaucoup dans ce matchup : Sona a peu de pression en dive 2v1. Rush le Putrificateur techno-chimique. |
 | Max Q first, then E. Your W is your main trading tool. | Maximisez Q en premier… | Max A en premier, puis E. Ton Z est ton outil principal pour trade. |
+
+## 8. Genre des termes (accords)
+
+Genre d'usage chez les joueurs FR. Il commande l'article, le possessif, l'adjectif, le participe et le pronom de reprise : « son ult (R) projette tout ce qu'**il** traverse », « une fois qu'elle l'a utilis**é** (l'ult) », « ta wave doit crash ». Ce tableau est lu par `npm run tips:check` (colonne Genre : `m` ou `f`).
+
+| Terme | Genre |
+|---|---|
+| ult | m |
+| hook | m |
+| CD | m |
+| cooldown | m |
+| lvl | m |
+| trade | m |
+| short trade | m |
+| poke | m |
+| all-in | m |
+| burst | m |
+| engage | m |
+| gank | m |
+| dive | m |
+| roam | m |
+| freeze | m |
+| slow push | m |
+| fast push | m |
+| back | m |
+| recall | m |
+| farm | m |
+| last hit | m |
+| CS | m |
+| power spike | m |
+| spike | m |
+| snowball | m |
+| combo | m |
+| dash | m |
+| blink | m |
+| skillshot | m |
+| CC | m |
+| root | m |
+| stun | m |
+| slow | m |
+| knock-up | m |
+| shield | m |
+| bouclier | m |
+| heal | m |
+| proc | m |
+| stack | m |
+| setup | m |
+| bait | m |
+| outplay | m |
+| pull | m |
+| passif | m |
+| saignement | m |
+| brush | m |
+| buisson | m |
+| drake | m |
+| Nashor | m |
+| Baron | m |
+| Herald | m |
+| teamfight | m |
+| split push | m |
+| matchup | m |
+| counter | m |
+| tank | m |
+| sustain | m |
+| wave | f |
+| lane | f |
+| botlane | f |
+| toplane | f |
+| jungle | f |
+| tourelle | f |
+| range | f |
+| portée | f |
+| prio | f |
+| ward | f |
+| vision | f |
+| tornade | f |
+| lame | f |
+| hampe | f |
+| zone | f |
+| auto | f |
+| AA | f |

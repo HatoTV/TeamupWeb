@@ -1,0 +1,146 @@
+{
+  "searches": 2,
+  "sourceSentences": [
+    "[0] The Yasu matchup is all about playing like the early levels well where he doesn't have any abilities like wind ball, like dash cuz it's hard for him to get it in on level one.",
+    "[0] I mean we can very much abuse them in early levels. Just got to be careful that we don't get all in and we can avoid getting all in by staying away from creep waves. So Yasu can't use the creeps to dash on us.",
+    "[0] We can just hold the wave here. Make sure they can never all in because as I just mentioned, Yasu can only really all in if he has a creep wave to play with for his Q stacks and his E to get close to me.",
+    "[0] As you can see, they are very much struggling to push the wave out that I'm freezing on them and when they try to do it just die.",
+    "[0] respect his all in windows not play inside creep waves preferably especially when you're Kaiser you hate playing inside creep waves cuz uh yeah you can't hit your W or Q in them.",
+    "[0] he can't really trade us without the creep wave because he can't get close to us.",
+    "[0] If his jungler wasn't there, we could just wait out the wind wall and then commit on him.",
+    "[0] I will ride in like an angle where he can't block it with the wind wall.",
+    "[1] Yaso ADC quite unpopular pick yet he negates all Cogmos strength.",
+    "[1] If you playing versus him, try to keep the wave close to your turret. You can get prior level one.",
+    "[1] Yaso has insane mobility with all of those minions.",
+    "[2] So, the way you want to play lane, you want to wait for level two or level three.",
+    "[2] If you get level two, you could surprise them by just having a dash. You'll If your support doesn't just go in and then engage you, you just follow up really easily.",
+    "[2] sometimes you need your Wind Wall to block a spell, otherwise um they would have blocked you from moving."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12",
+  "videosFound": 22,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "3LxH7QOgsU4",
+      "channel": "Booshi",
+      "result": "écarté : chapitre « Match Ups » 39:13, Yasuo seulement classé (« free » pour Kai'Sa), aucun conseil de jeu hors sorts d'invocateur"
+    },
+    {
+      "id": "37to_PueCMg",
+      "channel": "Reptile9LoL",
+      "result": "utilisé (Reptile joue Kai'Sa contre Yasuo ADC, 14 min, chapitré)"
+    },
+    {
+      "id": "yK-8PBK--7o",
+      "channel": "Armasot",
+      "result": "utilisé (chapitre « Hard Matchups » 12:58 : conseils contre Yasuo ADC, vus du côté Kog'Maw ; ouverture comptée aussi pour Jhin__KogMaw)"
+    },
+    {
+      "id": "sEwXNp9PvsM",
+      "channel": "hmKing",
+      "result": "utilisé (guide Yasuo ADC, chapitre « How to Play the Lane » 10:50 ; conseils généraux, Kai'Sa non citée)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kai'Sa : agressive aux premiers niveaux, priorité lvl 1",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Kai'Sa : garder la wave près de sa tour (freeze)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Kai'Sa : rester loin des sbires (dash de sbire en sbire)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E dash à travers une cible ennemie)"
+    },
+    {
+      "idea": "Kai'Sa : attendre la fin du Mur de vent ou tirer le Z sous un autre angle",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W bloque tous les projectiles 4 s)"
+    },
+    {
+      "idea": "Kai'Sa : Pluie d'Icathia dispersée dans la wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (missiles qui cherchent les cibles proches)"
+    },
+    {
+      "idea": "Kai'Sa : ne pas engager si le jungler de Yasuo est proche",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source, macro"
+    },
+    {
+      "idea": "Kai'Sa : Cleanse contre l'Exhaust (Booshi)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "sort d'invocateur, source non utilisée"
+    },
+    {
+      "idea": "Yasuo : éviter le lvl 1, all-in au lvl 2/3",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (hmKing : conseil général Yasuo ADC)"
+    },
+    {
+      "idea": "Yasuo : garder le Mur de vent pour le sort clé",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W bloque les projectiles)"
+    },
+    {
+      "idea": "Yasuo : jouer autour de la wave pour dash",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E dash à travers une cible)"
+    },
+    {
+      "idea": "Yasuo : charger la Tempête d'acier sur les sbires avant d'engager",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q à 2 charges : tornade qui projette ; R sur cible projetée)"
+    },
+    {
+      "idea": "Yasuo : finir avant 20 min",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source, conseil général"
+    }
+  ]
+}

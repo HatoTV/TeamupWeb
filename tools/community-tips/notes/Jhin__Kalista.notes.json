@@ -1,0 +1,118 @@
+{
+  "searches": 4,
+  "sourceSentences": [
+    "[0] Um same with Kalista. If Kalista has a really strong engage support, she's super threatening, but if she doesn't, she can't really close the gap into you that well.",
+    "[0] You kind of will lose push sometimes and you'll have to give over ground, but sometimes you will be able to win push, right?",
+    "[1] Be careful to not be hit with Pierce(Q). as well as a Rend(E) used with minions!",
+    "[2] Be careful of Jhin’s Dancing Grenade(Q) that bounces off minions as well as his fourth basic attack! If Jhin stands in range while he is reloading, use Rend [E] to punish him.",
+    "[3] Jhin jest dość dużym zagrożeniem przez to jak bezpiecznie można nim grać i uniemożliwiać engage Kaliście. Dysponuje rootem, slowem (co dla kalisty jest zabójstwem) oraz przewyższa ją obrażeniami"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 3 2026-11-12",
+  "videosFound": 41,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "sd4t6Hh5V38",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (16:36, extrait de la tier list « Challenger Teaches Me » ft. Omibro ; couvre Kai'Sa, Ezreal et Kalista : ouverture comptée pour chaque couple)"
+    },
+    {
+      "id": "MxR14foJ1jU",
+      "channel": "DantehADC",
+      "result": "écarté : sous-titres en traduits automatiquement (« Jyn… she », « line player ») ; ouverture comptée pour les 3 couples (recherche Kai'Sa/Ezreal/Kalista)"
+    },
+    {
+      "id": "8BzFw_pPpqo",
+      "channel": "yuzuu",
+      "result": "écarté : « the ONLY KALISTA MATCHUP GUIDE », 2 ans, aucune mention de Jhin"
+    },
+    {
+      "id": "ludF-pkTLi0",
+      "channel": "Jezu VOD",
+      "result": "écarté : VOD de stream FR Jhin vs Kalista, aucun conseil de matchup exploitable"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/jhin/counters/adc?target_champion=kalista",
+      "result": "ok (1 tip écrit Jhin vs Kalista)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/kalista/counters/adc?target_champion=jhin",
+      "result": "ok (1 tip écrit Kalista vs Jhin + conseils généraux)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/jhin",
+      "result": "ok (1 commentaire Kalista, en polonais, non daté)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jhin : tout dépend de l'engage du support de Kalista",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (sans engage elle ne comble pas l'écart ; Jhin peut jouer safe et empêcher son engage)"
+    },
+    {
+      "idea": "Jhin : éviter la Perforation et le reset de l'Extirpation sur les sbires",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E : CD réinitialisé si le sort tue)"
+    },
+    {
+      "idea": "Jhin : root et slow contre sa mobilité",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E ralentit ; Z root après un piège ; passif : bond lié aux attaques)"
+    },
+    {
+      "idea": "Jhin : perdre le push par moments, céder du terrain",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Kalista : l'all-in repose sur l'engage du support",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Kalista : punir le rechargement avec Extirpation",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Murmure : 4 balles, 4e critique ; E arrache les lances)"
+    },
+    {
+      "idea": "Kalista : rebond de la Grenade dansante sur les sbires",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Kalista : finir avec Extirpation / vitesse liée à la vitesse d'attaque",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "conseils généraux de champion, pas propres au matchup"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] Her W is blatantly just kind of overpowered. It's a damaging spell with a massive shield and that shield allows you to not really trade back onto her while she gets a massive amount of damage onto you.",
+    "[0] There is the way number one where she lands her Q first and then she jumps onto you and if she does that, then her jump gets her her cool down refunded, right?",
+    "[0] So, her Q is kind of the key to getting these good quality trades because her E cool down is insanely long",
+    "[0] If she ever uses her W to farm or she doesn't have her E up or she doesn't have her Q up, those are If she uses one of her cool downs, that's when she can't really trade onto you properly.",
+    "[1] you need to either use WQ or use q e um and then keep either the W or the E up so the enemies cannot just jump on top of your face",
+    "[1] when not to use e whenever you're playing up against Champs that are able to G close on top of you get close to you um like the echo for example with his e or with a Kiana with her e you cannot really use your e offensively",
+    "[2] Syndra is a pretty annoying matchup because every time you try to start her she will kick you out with her E, but it is best to trade when she has the cooldown.",
+    "[2] Plus she can just shove you away with E if you get too close, and your W shield isnt strong enough to negate any damage from her Ult.",
+    "[3] She has solid gap-closing once she hits you with moonlight, and you need to be mindful of her positioning and your own in this fight.",
+    "[3] Go for poke and trades when her W is on cooldown, otherwise she will negate a lot of your poke.",
+    "[3] Play safe and try your best to not get hit by her Q as she will most likely dash to you."
+  ],
+  "videosFound": 30,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "4c90SvsFyR0",
+      "channel": "Coach Mysterias",
+      "result": "lu (cache local, recherche Diana), inutilisé : Diana jamais citée"
+    },
+    {
+      "id": "mJFc-rMz2vg",
+      "channel": "Coach Mysterias",
+      "result": "utilisé (chapitre Matchups, 1:02:41 : contre les mêlées qui ont un gap closer, garder le E)"
+    },
+    {
+      "id": "pBZKzVbXj-w",
+      "channel": "Zoose",
+      "result": "lu (cache local, recherche Diana), inutilisé : Diana jamais citée"
+    },
+    {
+      "id": "8n_xnjcV6rk",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (anti-Diana mid, coach Syndra)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "result": "ok (commentaires de guides Diana : 2231713 « S14.23 » et 2244931 récents ; les autres anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/diana",
+      "result": "ok mais tous les commentaires de guides Syndra sont anciens (ids < 2232000) : seulement pour des mécaniques vérifiées"
+    },
+    {
+      "url": "https://www.mobatrainer.gg/lol/champions/diana/matchup-diana-vs-syndra-tips",
+      "result": "non ouvert (vu via recherche web : pages générées pour chaque couple, fiabilité inconnue)"
+    },
+    {
+      "url": "https://lanediff.gg/matchups/diana-vs-syndra-mid",
+      "result": "non ouvert (même site que l’erreur constatée sur Mel vs Syndra)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Diana : attendre que Syndra ait lancé son E pour engager",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes + DDragon (Scatter the Weak repousse, CD 15 s)"
+    },
+    {
+      "idea": "Diana : toucher le Q avant le E (pas de CD sur cible marquée)",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "1 source récente + commentaire ancien, mécanique vérifiée DDragon (Lunar Rush sans CD sur Moonlight)"
+    },
+    {
+      "idea": "Diana : ne pas rester dans la wave pour éviter Q + sbires de Syndra",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "commentaires anciens (Season 12), lane : refusé"
+    },
+    {
+      "idea": "Syndra : garder le E pour le Rush lunaire",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes + DDragon (repousse) ; commentaires anciens de [3] non comptés (lane)"
+    },
+    {
+      "idea": "Syndra : esquiver le Q de Diana, son E retombe sur un long CD",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "mécanique vérifiée DDragon (Lunar Rush 22 s au rang 1, sans CD sur Moonlight) ; [3] ancien accepté car mécanique vérifiée"
+    },
+    {
+      "idea": "Syndra : poke quand le W de Diana est en CD (bouclier)",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "mécanique vérifiée DDragon (Pale Cascade donne un bouclier) ; [3] ancien accepté car mécanique vérifiée"
+    },
+    {
+      "idea": "Syndra : agressive lvl 1-2, prudente dès le lvl 3",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": false,
+      "reason": "1 seule source récente, [3] ancien (2209106) : lane refusé"
+    },
+    {
+      "idea": "Syndra : Diana ne peut qu’engager, demander des ganks",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    },
+    {
+      "idea": "Diana : E sans Q = 26 s de CD (Mysteriaslol)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "chiffre contredit par DDragon (22 s au rang 1) : non repris"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 12 2026-11-12"
+}

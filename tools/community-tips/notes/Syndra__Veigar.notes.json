@@ -1,0 +1,163 @@
+{
+  "searches": 5,
+  "sourceSentences": [
+    "[0] His Q is his main trading tool with a pretty short cool down",
+    "[0] his W is actually very inconsistent, almost impossible to land",
+    "[0] Pre-six, guys, you can make the lane as fast as possible. This guy will never be able to kill you or do anything. Post-six, you got to be a little bit careful, of course, because then he has the execute with his ult.",
+    "[0] your job as a mid laner is to really punish him in the first six levels of the lane before he gets to his break points",
+    "[0] In the mid game, he wants to be first to place, let the enemies run towards him, block off choke points with his E.",
+    "[0] If you're playing a longer range champion like a Syndra that can just hit him across the screen, then it's totally fine to just slow waves into him, just crash waves on the tower and harass him on the tower.",
+    "[1] If the wave's constantly going to be pushed into me, into these type of range champs, what's going to happen is that they're going to be able to then harass me under tower, and that's something I want to prevent.",
+    "[1] I'm a really strong skirmisher if I'm first and the enemies are running towards me because in that case we can use our E to block off choke points",
+    "[1] What we're going to do is we're going to look to take it quite easy in the lane. Stand nice and far back. Make it hard for him to punish me. Try to get as much CS as possible. Dodge out on his spells.",
+    "[1] The main thing that we're going to try to do is just not really interact with the Zindra.",
+    "[1] That kills me. What? No way. That killed me, man. I think she had like six balls, dude.",
+    "[1] The fact that the W has a delay is actually really good because that allows you to hit creeps before you're actually in range",
+    "[2] Zindra is a champion that is not extremely strong until she reaches her Q upgrade.",
+    "[2] Zindra has extremely long cooldowns in the game. Q 7 seconds. Okay, W 12 seconds, E 15 seconds.",
+    "[2] So if she lands her skill shots, you're going to get blasted.",
+    "[2] She wants to create a slow pushing wave state and then start harassing you whenever you're lost hitting minions or whenever you're standing still",
+    "[2] I'm going to contest her onto the wave push. I'm not going to make it easy for her to then push the waves into me.",
+    "[2] really good synindras, what they'll do is they'll start pre-placing the cues in the wave. And then you need to kind of like stand outside of the range of her line and where the queue can fly."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 14 2026-11-12",
+  "videosFound": 52,
+  "videosRead": 4,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "54bjiZPZFjg",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (anti-Veigar mid, 8 min ; Syndra citée en exemple de mage longue portée 7:06)"
+    },
+    {
+      "id": "5oeoTpGpawo",
+      "channel": "Lose to win",
+      "result": "non lu : aucun sous-titre « en » renvoyé (compté dans le plafond par prudence)"
+    },
+    {
+      "id": "LmJWY68HoXk",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (guide Veigar 3 h 54 : chapitre Veigar vs Syndra 3:24:13, et conseil général contre les mages 13:11)"
+    },
+    {
+      "id": "ofCVbHO2f8o",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (anti-Syndra mid, 8 min, conseils valables pour Veigar)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Syndra : la Matière noire (Z) de Veigar a un délai, facile à esquiver",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (la matière tombe du ciel et frappe à l'atterrissage)"
+    },
+    {
+      "idea": "Syndra : ne pas courir sur Veigar posté le premier sur un objectif, sa cage bloque les passages",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Profanation étourdit qui traverse la cage)"
+    },
+    {
+      "idea": "Syndra : Veigar veut farmer jusqu'au lvl 6-7, le punir avant",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (anti-Veigar + Veigar qui joue passif vers le lvl 7 contre Syndra)"
+    },
+    {
+      "idea": "Syndra : plus de portée, écraser la wave sous sa tourelle et le harceler",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Syndra : prudence après le lvl 6, son ult exécute les cibles blessées",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts selon les PV manquants)"
+    },
+    {
+      "idea": "Syndra : bait son Coup malin (A) puis avancer pendant son CD",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, idée de lane"
+    },
+    {
+      "idea": "Veigar : rester loin et esquiver, Syndra tue vite quand elle touche",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Veigar : pousser la wave pour ne pas se faire harceler sous tourelle",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Veigar : son passif améliore la Sphère noire (charge de plus), la presser avant",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Transcendance : Sphère noire avec une charge supplémentaire) ; le seuil de 40 éclats / lvl 7 n'est pas dans DDragon, retiré du texte"
+    },
+    {
+      "idea": "Veigar : longs CD de Syndra, avancer après un sort raté",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (A 7 s, E 15 s ; Z 13-9 s, chiffre de la source arrondi, non repris)"
+    },
+    {
+      "idea": "Veigar : sortir de l'axe des sphères posées (combo A+E)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (les ennemis touchés par les sphères projetées sont étourdis)"
+    },
+    {
+      "idea": "Veigar : arriver le premier aux objectifs et bloquer les accès avec la cage",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "générique (valable contre tout adversaire) et 5 tips propres au couple déjà gardés"
+    },
+    {
+      "idea": "Veigar : si Syndra arrive la première sur un objectif, jouer à l'opposé de la carte",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    }
+  ]
+}

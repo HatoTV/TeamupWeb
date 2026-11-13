@@ -1,0 +1,92 @@
+{
+  "searches": 9,
+  "sourceSentences": [
+    "[0] Can easily push away Renata and let his ADC kill yours, try to stick to your ADC.",
+    "[0] Can cancel his w with q but is not easy, you outrange him. abuse bush vision and poke",
+    "[1] When engaging with Alistar's W-Q combo, it's advisable to predict and dodge Renata's Q,",
+    "[1] Focus on using Alistar's ultimate (R) to cleanse Renata's ultimate's crowd control and protect your allies.",
+    "[1] ADC IQ TEST MATCHUP. Alistar's counter."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 9 2026-11-12",
+  "videosFound": 40,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "BiICW-E10ak",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (Renata citée à 9:23 seulement comme « could be annoying », sans conseil ; piste « en » traduite, relu en « en-orig »). Ouverture partagée avec Alistar__Braum et Alistar__Senna"
+    },
+    {
+      "id": "mGV2qHHXG7I",
+      "channel": "Challenger vs. Emerald",
+      "result": "lu, inutilisé (Renata jamais citée). Ouverture partagée avec Alistar__Braum et Alistar__Senna"
+    },
+    {
+      "id": "VhNGzeoDsX4",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé (Renata jamais citée). Ouverture partagée avec Alistar__Braum"
+    },
+    {
+      "id": "I4SkLZg5MkY",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (stream Renata : Alistar cité à 27:13 dans un quiz sans lien avec Renata)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (commentaires d'auteurs de guides Renata : patchs 12.8 et 14.9, plus de 2 ans)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/renata-glasc",
+      "result": "ok (commentaires d'auteurs de guides Alistar ; récent : Nobreav, guide 25.24)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Berserk",
+      "result": "lu pour vérification seulement (fou furieux = contrôle, retiré par Volonté de fer)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : garder Volonté de fer pour se libérer de l'ult de Renata",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente (Nobreav 25.24) + DDragon (R retire tous les contrôles ; R de Renata = fou furieux, un contrôle selon le wiki)"
+    },
+    {
+      "idea": "Alistar : anticiper la Poignée de main pendant le combo",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente (Nobreav 25.24) + DDragon (A immobilise le premier ennemi touché, relance pour le projeter)"
+    },
+    {
+      "idea": "Renata : rester près de son ADC, Alistar la repousse loin",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (AbyssaLegend 12.8, plus de 2 ans) + DDragon (Coup de tête repousse la cible)"
+    },
+    {
+      "idea": "Renata : sa Poignée de main peut couper le Coup de tête",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 source de plus de 2 ans (14.9), interaction non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Renata : elle a plus de portée, poke depuis les buissons",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source de plus de 2 ans (14.9)"
+    }
+  ]
+}

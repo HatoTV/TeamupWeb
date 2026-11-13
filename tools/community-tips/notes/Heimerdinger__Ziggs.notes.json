@@ -1,0 +1,158 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Trade around his passive. Ziggs' passive empowers his auto attack. Don't try to trade with him when this is up and instead wait for him to waste it on a minion while farming.",
+    "[0] Punish his W cool down. Ziggs' only form of escape is his W. If he uses this aggressively, make sure you punish him for it, especially if his flash is already on cool down.",
+    "[0] Ziggs' passive and W both help him shred down those towers. Be sure to punish him when he overextends to take them down.",
+    "[0] Avoid the epicenter of his ultimate. In the early mid game, needs to hit you in the center for it to really deal damage.",
+    "[0] Be careful not to chase him into his minefield. Ziggs works well on the back foot as he can litter the floor with abilities as you look to chase him.",
+    "[1] his design makes him weak against any Champion that outranges him and his turrets but incredibly obnoxious for any melee Champion as they are forced to play inside of his turrets",
+    "[1] this ability is a projectile so the travel time is long the farther he throws it this makes it easier to dodge from far away",
+    "[1] he hits he fully charging his turrets they throw their laser beams he then lands W and his second wave of laser beams are shot at you",
+    "[2] number two ban if i'm playing bot lane it's probably just going to be a cf caitlyn ban uh a cf caitlyn ban or a lucian band lucian can dash caitlyn hasn't seen range"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 3 2026-11-12",
+  "videosFound": 82,
+  "videosRead": 5,
+  "videosUsed": 3,
+  "videosTried": [
+    {
+      "id": "fGYV627J9DE",
+      "channel": "Kazewalol",
+      "result": "rien (live Heimerdinger de 4 h 49, fr : aucun passage contre Ziggs, seulement « zig » cité dans une compo)"
+    },
+    {
+      "id": "uwZuJy4XU5w",
+      "channel": "Mobalytics",
+      "result": "utilisé (5 min, en, guide de contre-jeu général contre Ziggs, 2021 : idées non propres à Heimerdinger)"
+    },
+    {
+      "id": "Yxe4EbQB0MM",
+      "channel": "LoL Havoc",
+      "result": "utilisé (1 min 40, en, contre-jeu général contre Heimerdinger, 2024)"
+    },
+    {
+      "id": "LM3Md5BM8qk",
+      "channel": "RezoneGAMES",
+      "result": "utilisé faiblement (guide S11, 2021 ; chapitre ADC Bans : ban de Caitlyn pour sa portée ; pas de mention de Ziggs)"
+    },
+    {
+      "id": "8g5g5KZ1aLQ",
+      "channel": "lolzayno",
+      "result": "écarté, 5e ouverture (plafond de 4 dépassé par erreur) : sous-titres anglais traduits d'une autre langue, conseils Ziggs généraux sans Heimerdinger"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/ziggs/counters/adc?target_champion=heimerdinger",
+      "result": "stats-only (aucun tip écrit pour ce couple)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/ziggs/tips/adc?target_champion=heimerdinger",
+      "result": "no-advice (tips chargés côté client, aucun texte lisible)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/heimerdinger",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Heimerdinger : trader quand la Mèche courte est gaspillée sur un sbire",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : attaque renforcée périodique, CD réduit par les sorts)"
+    },
+    {
+      "idea": "Heimerdinger : punir la Charge explosive utilisée en attaque (seule fuite)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z projette aussi Ziggs, CD 20/18/16/14/12 s)"
+    },
+    {
+      "idea": "Heimerdinger : ne pas poursuivre dans les Mines Hexplosives",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (mines au contact, ralentissement)"
+    },
+    {
+      "idea": "Heimerdinger : sortir du centre de la Méga bombe infernale",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (plus de dégâts au centre qu'au bord)"
+    },
+    {
+      "idea": "Heimerdinger : punir Ziggs quand il s'avance pour achever une tour avec la Charge explosive",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z détruit automatiquement une tour sous un seuil de PV)"
+    },
+    {
+      "idea": "Heimerdinger : esquiver la Bombe rebondissante, ne pas rester près des sbires",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane, 1 seule source"
+    },
+    {
+      "idea": "Heimerdinger : ne pas se faire push sous la tour (plates)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane/macro, 1 seule source"
+    },
+    {
+      "idea": "Heimerdinger : ne pas rester groupé contre l'ult",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "macro, 1 seule source"
+    },
+    {
+      "idea": "Ziggs : poke de loin, Heimerdinger est faible contre les portées longues",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "Relecture : RezoneGAMES ne parle pas de Ziggs (ban de Caitlyn), source retirée ; reste 1 source + DDragon (portées 850 / 550)."
+    },
+    {
+      "idea": "Ziggs : esquiver la Grenade électro-tempête de loin (lancée en cloche)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E lancée en cloche, portée 970, étourdit au centre)"
+    },
+    {
+      "idea": "Ziggs : si la Grenade touche, sortir de la portée des tourelles chargées",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E charge à fond les tourelles proches ; tir renforcé à charge max)"
+    },
+    {
+      "idea": "Ziggs : ténacité et QSS contre le combo",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "objets/statistiques, interdit"
+    }
+  ],
+  "review": "Plafond dépassé : 5 vidéos ouvertes (la 5e, lolzayno, écartée et inutilisée)."
+}

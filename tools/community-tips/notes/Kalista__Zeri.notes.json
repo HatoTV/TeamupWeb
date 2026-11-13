@@ -1,0 +1,132 @@
+{
+  "searches": 8,
+  "sourceSentences": [
+    "[0] Um, champions that need to win lane, I think, are very hard to play. Kalista, like Draven, Kalista",
+    "[0] these champions, you need to win lane. You need to squeeze a lot out of lane. These champions are the hardest to play because there’s no like forgiveness",
+    "[0] a lot of AD carries that have strong early games of weak from behind is Kalista the worst AD carry from behind probably.",
+    "[0] Also a champion that you’re picking with like Yumi, right? Really good once you get those three items.",
+    "[1] Make Sure She Doesnt Stack Her Main Damage, Pre Level 6 You Lose Unless Your Support Good",
+    "[1] Kalista is a strong counter because her constant hopping movement makes it very difficult to hit her with Q, reducing Zeri’s trading effectiveness. She can avoid most poke while applying early-game pressure and threatening all-ins.",
+    "[1] Kalista is a lane bully, she moves all the time and makes it almost impossible for you to hit your Q. You get out-trades, and level 6 she will send her support flying your way to CC you forever.",
+    "[1] Try to farm safe and stay healthy in lane , u lose early game hard but in teamfights u are better",
+    "[2] I feel like you can really outplay zeri with your jumps, remember that she has to SKILLSHOT that. If you can really try to predict where she’s gonna use those Q you can get hit way less times. Even tho she scales better so be careful in later stages of the game. Try to make her useless in early and trade often with support.",
+    "[2] Zeri is quite easy to lane against in the early game because she has very weak laning power. The main threat of this champion is her scaling in the mid to late game.",
+    "[2] Nie miałem okazji grać Kalistą w Zeri ale mając obie postacie ograne mogę powiedzieć że Zeri ma gorsze early. Zagrożeniem może być jej R-ka bo dzięki niej może łatwo ci uciec"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 11 2026-11-12",
+  "videosFound": 95,
+  "videosRead": 3,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "bqvgt6eDezs",
+      "channel": "Bibou VOD - League of Legends",
+      "result": "lu, inutilisé (partie Zeri contre Kalista sans conseil propre au matchup)"
+    },
+    {
+      "id": "kfoXtlYDBNM",
+      "channel": "junniseoul",
+      "result": "lu, inutilisé (guide Zeri : Kalista jamais citée)"
+    },
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (Kalista doit gagner sa lane, faible en retard : 6:42, 26:20 ; Zeri forte une fois ses objets finis : 1:49:50) ; 3e couple pour cette vidéo"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/zeri",
+      "result": "ok (commentaires de guides Zeri contre Kalista ; récents : ids 2252229, 2245060 ; les autres anciens)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/kalista",
+      "result": "ok (commentaires de guides Kalista contre Zeri ; tous anciens, ids 2175852 à 2225402 : mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Kalista : jouer l’early à fond avec le support, faible en retard",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (BBC : doit gagner sa lane, pire ADC en retard ; counterstats 2252229 / 2245060 : Zeri perd avant le lvl 6, pression early de Kalista)"
+    },
+    {
+      "idea": "Kalista : hop pour esquiver la Rafale, skillshot",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2184353, 13.1) + DDragon (Rafale : premier ennemi touché ; Maintien martial : saut après l’attaque)"
+    },
+    {
+      "idea": "Kalista : trader avec le support (Sentinelle)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2184353) + DDragon (Sentinelle : % PV max quand Kalista et son Lié frappent la même cible)"
+    },
+    {
+      "idea": "Kalista : ne pas poursuivre Zeri pendant son R",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2225402) + DDragon (Éruption électrique : vitesse cumulée à chaque coup sur un champion)"
+    },
+    {
+      "idea": "Kalista : Zeri scale mieux, attention plus tard",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "fusionné dans le premier tip (seule la vidéo BBC est récente pour la partie macro)"
+    },
+    {
+      "idea": "Zeri : éviter les fights avant le lvl 6, tu scales mieux",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "Zeri : ses hops rendent la Rafale dure à placer, viser l’atterrissage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente (id 2245060) + DDragon"
+    },
+    {
+      "idea": "Zeri : ne pas la laisser empiler ses lances (Extirpation)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source récente (id 2252229) + DDragon (lances 4 s, cumulables)"
+    },
+    {
+      "idea": "Zeri : au lvl 6, Appel du destin projette son support",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "commentaire ancien (id 2161681, 12.11) + DDragon (le Lié se projette et repousse les ennemis proches)"
+    },
+    {
+      "idea": "Zeri : ne pas fight sans CC de son côté, dépendant du support",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "commentaires anciens (12.x), lane"
+    }
+  ]
+}

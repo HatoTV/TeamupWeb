@@ -29,6 +29,7 @@ export class ConsentService {
   private readonly zone = inject(NgZone);
   private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
   private started = false;
+  private cmpLoaded = false;
   private adsLoaded = false;
 
   init(): void {
@@ -47,7 +48,19 @@ export class ConsentService {
     });
   }
 
+  /** Re-opens Google's consent message so the visitor can review or withdraw consent. */
+  openPreferences(): void {
+    if (!this.isBrowser) return;
+    this.started = true;
+    this.loadCmp();
+    const win = window as unknown as { googlefc?: { callbackQueue?: (() => void)[]; showRevocationMessage?: () => void } };
+    const fc = (win.googlefc ??= {});
+    (fc.callbackQueue ??= []).push(() => win.googlefc?.showRevocationMessage?.());
+  }
+
   private loadCmp(): void {
+    if (this.cmpLoaded) return;
+    this.cmpLoaded = true;
     this.injectScript(CMP_URL);
     this.signalGooglefcPresent();
     this.waitForTcf(Date.now());

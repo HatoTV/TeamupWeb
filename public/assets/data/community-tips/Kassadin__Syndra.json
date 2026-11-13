@@ -1,0 +1,138 @@
+{
+  "pair": [
+    "Kassadin",
+    "Syndra"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Kassadin": "5ac556dc56ed6bd39bba0e946ffbf38328b94159c9583e552acd1ff58acc6391",
+    "Syndra": "14bad5621ab2e90121cce2479995a8566292746e2ed97f0e24603361445cd259"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Kassadin": {
+      "fr": [
+        {
+          "text": "Passe le début de lane sans forcer : tu scales mieux qu'elle et tu domines la side lane en mid game.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "Après le lvl 6, fais-lui gaspiller sa Dispersion des faibles (E), puis lance ta Fissure (R) sur elle : tu gagnes le trade pendant son CD.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Ton Orbe du Néant (A) te donne un bouclier magique : lance-le quand elle balance ses sphères pour absorber son burst.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Avant d'engager après son lvl 6, compte les sphères au sol : son Déchaînement de puissance (R) lance sur toi celles qui sont proches.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Get through the early lane without forcing: you scale better than her and own the side lane in mid game.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "macro"
+        },
+        {
+          "text": "After level 6, bait out her Scatter the Weak (E), then Riftwalk (R) onto her: you win the trade while it's on cooldown.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Null Sphere (Q) gives you a magic shield: cast it as she throws her spheres to soak her burst.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Before committing after her level 6, count the spheres on the ground: Unleashed Power (R) throws the nearby ones at you.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Syndra": {
+      "fr": [
+        {
+          "text": "Prive-le de farm dès le début : Kassadin dépend de ses CS pour atteindre ses paliers, chaque sbire refusé retarde son spike.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Ne compte pas sur un one-shot : sa Pierre du Néant réduit tes dégâts magiques et son Orbe du Néant (A) le protège d'un bouclier.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Deny him farm from the start: Kassadin relies on CS to reach his power spikes, and every denied minion delays them.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Don't count on a one-shot: Void Stone reduces your magic damage and his Null Sphere (Q) shields him.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Challenger Syndra but I slaughter a Kassadin",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=y_-vtMknvKw",
+      "consultedAt": "2026-11-12",
+      "channel": "Zianni",
+      "publishedAt": "2025-05-24",
+      "timestamps": [
+        "0:16",
+        "6:49",
+        "10:29"
+      ]
+    },
+    {
+      "title": "Every Mid Lane Champion Explained in 4 hours! 2026 Ultimate Mid Lane Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=IH4_5pzOB3c",
+      "consultedAt": "2026-11-12",
+      "channel": "We Teach League | Broken By Concept",
+      "publishedAt": "2026-05-11",
+      "timestamps": [
+        "3:47:25",
+        "3:48:02"
+      ]
+    },
+    {
+      "title": "Syndra Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Kassadin Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/kassadin",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

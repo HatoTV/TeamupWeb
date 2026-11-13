@@ -1,0 +1,93 @@
+{
+  "pair": [
+    "Ambessa",
+    "KSante"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Ambessa": "e56df32966ff04a871e7876f41cd856c3388ccd826e7aed579970aa7f7175136",
+    "KSante": "4dc5f957bbeecf705f9ea4711c6b65aed37d6339a6a78851363cd1543ad845b3"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Ambessa": {
+      "fr": [],
+      "en": []
+    },
+    "KSante": {
+      "fr": [
+        {
+          "text": "Esquive sa Frappe fracassante (A) en te décalant ou en restant derrière tes minions : elle ne frappe que le premier ennemi sur sa ligne.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Garde ton Pour Nazumah ! (Z) pour couper son engage : ta charge repousse et stun Ambessa en plein combo.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Fais-lui lâcher son Égide dévastatrice (Z), 18 s de CD au rang 1, puis force un trade long tant qu'elle est en CD.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Dodge her Sundering Slam (Q) by sidestepping or standing behind your minions: it only hits the first enemy in its line.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Keep Path Maker (W) to cut her engage: your charge knocks back and stuns Ambessa mid-combo.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Bait out her Repudiation (W), an 18 s cooldown at rank 1, then force a long trade while it is down.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "AMBESSA GUIDE - How to Carry with Ambessa - Detailed Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Qwjxigtf6os",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Chippys",
+      "publishedAt": "2024-12-16",
+      "timestamps": [
+        "1:21:42",
+        "1:22:36",
+        "1:23:48"
+      ]
+    },
+    {
+      "title": "JE TENTE DE JOUER HYPER AGRESSIF - SoloQ Challenger Top - Ambessa vs K'Sante - Patch 25.15",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=bGadTS-nVMA",
+      "consultedAt": "2026-11-12",
+      "channel": "Strey VOD - League of Legends",
+      "timestamps": [
+        "5:54",
+        "19:42"
+      ]
+    },
+    {
+      "title": "Ambessa Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/ambessa",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

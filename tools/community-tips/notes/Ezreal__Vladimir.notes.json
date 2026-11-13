@@ -1,0 +1,107 @@
+{
+  "searches": 6,
+  "sourceSentences": [
+    "[0] He has really good escape from gangs with his W. So, he's very safe, but that's about it, okay?",
+    "[0] He's also short range, right? So, it's really hard for him to to to to get into into distance to get proper damage off. Spacing him is quite easy.",
+    "[0] So, Vladimir is a champion that just wants to isolate you in the lane, win the war of attrition using his regeneration, then pin you down",
+    "[0] whenever his Q three, his big red bar underneath him is is coming up, that's where you just take yourself some distance because you do not win the trades versus him at this point.",
+    "[0] it's pretty hard to beat him in a one V one due to his W being able to deny so much damage and escape",
+    "[1] And just in the lane, it's double ranged. I don't really want to take super long trades against Ash.",
+    "[1] So I'm going to just be looking to queue and E and run away as fast as possible",
+    "[1] The thing with Vlad is like he doesn't really all in early levels, right? I just play slow and poke poke him out with Qs, you know? I don't really all in",
+    "[2] In order for him to somehow get to know you, he needs to approach at a fairly close distance, for this, run away with your E and poke W => Q, aggress from the first minutes with your Q and auto attacks"
+  ],
+  "videosFound": 37,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu (cache local, recherche Vladimir), inutilisé : Vladimir bot absent"
+    },
+    {
+      "id": "0V7oU-weTdo",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (anti-Vladimir mid, conseils de portée et de Q renforcé)"
+    },
+    {
+      "id": "g8vHLuBYQzA",
+      "channel": "Vladlover",
+      "result": "pas de sous-titres en anglais : non lu (non compté)"
+    },
+    {
+      "id": "SGRExUhlrIg",
+      "channel": "Elite500",
+      "result": "lu, inutilisé : Ezreal joué support, aucun conseil de matchup"
+    },
+    {
+      "id": "aQnKaH_DHh8",
+      "channel": "a280c",
+      "result": "utilisé (guide Vladimir ADC, partie contre Ashe : conseils valables contre une lane à double distance)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/vladimir",
+      "result": "ok mais commentaires de guides Ezreal anciens (2183823 « 13.1 », 2112562) : seulement pour une mécanique vérifiée"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/ezreal",
+      "result": "lu, inutilisé (aucun commentaire de guide Vladimir)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ezreal : Vladimir a peu de portée, poke de loin au Q",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "mécanique vérifiée DDragon (Mystic Shot 1150, Transfusion 600, portée d’attaque 550 contre 450) ; [2] ancien accepté car mécanique vérifiée"
+    },
+    {
+      "idea": "Ezreal : reculer quand le Q de Vladimir est renforcé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Transfusion renforcée quand la ressource est pleine)"
+    },
+    {
+      "idea": "Ezreal : pousser Vladimir sous sa tour, trader sur ses last hits",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source récente ([2] ancien), lane"
+    },
+    {
+      "idea": "Ezreal : ne pas chercher le 1v1 après le lvl 6, jouer la carte",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    },
+    {
+      "idea": "Vladimir : pas d’all-in tôt, poke au Q et jouer l’usure",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources ; conseil générique contre un tireur, gardé car moins de 3 tips propres au couple"
+    },
+    {
+      "idea": "Vladimir : Bain de sang pour annuler un burst ou fuir un gank",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (inciblable 2 s) ; générique, gardé car moins de 3 tips propres au couple"
+    }
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 12 2026-11-12"
+}

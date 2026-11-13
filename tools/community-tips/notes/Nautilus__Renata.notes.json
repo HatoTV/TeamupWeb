@@ -1,0 +1,99 @@
+{
+  "searches": 14,
+  "sourceSentences": [
+    "[0] Understood. He has no aftershock now. If he hooks me, he's dead.",
+    "[0] Renata should be good against Nautilus, I think.",
+    "[1] Renata thrives against engage comps and Nautilus doesn't really have any ways of getting out after his engage. Try not to fight in tight jungle corridors."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 4 2026-11-12",
+  "videosFound": 26,
+  "videosRead": 3,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "s469ngd84J8",
+      "channel": "Coach K",
+      "result": "utilisé (live 6 h 24, chapitre « Renata vs Nautilus » 5:23:31 ; peu de conseils de lane, beaucoup de draft)"
+    },
+    {
+      "id": "PO8xBJaipJw",
+      "channel": "Jade The Snort",
+      "result": "lu, non utilisé (review Nautilus vs Renata : seulement « son E poke à travers les sbires », non confirmé par DDragon, et un engage lvl 2 générique)"
+    },
+    {
+      "id": "Pql8JAQK6IE",
+      "channel": "Coach K",
+      "result": "aucune mention de Renata (ouverture perdue)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/nautilus/counters/support?target_champion=renata",
+      "result": "no-tips (conseils généraux Nautilus seulement)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/renata/counters/support?target_champion=nautilus",
+      "result": "no-tips (conseils généraux Renata seulement)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/renata-glasc",
+      "result": "ok (1 commentaire d'un auteur de guide Nautilus sur Renata, patch non indiqué)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Nautilus : bien choisir l'engage, aucune sortie après le hook",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (« if he hooks me, he's dead » ; « no ways of getting out after his engage »). Réserve : Coach K lie en partie la remarque à l'absence d'une rune adverse, non reprise"
+    },
+    {
+      "idea": "Nautilus : éviter les couloirs étroits face à l'ult de Renata",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R = vague qui rend fous furieux tous les ennemis touchés)"
+    },
+    {
+      "idea": "Renata : laisser Nautilus engager puis le punir avec l'ADC",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (même passage, vu du côté Renata)"
+    },
+    {
+      "idea": "Renata : garder la Poignée de main (A) pour quand il arrive",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "phrase « if he dashes, then I can Q » (5:32:53) : le « he » vise probablement Lucian, pas Nautilus"
+    },
+    {
+      "idea": "Nautilus : roam avec son jungler pour mettre la pression",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro (2 requises)"
+    },
+    {
+      "idea": "Nautilus : l'E de Renata poke à travers les sbires",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "vidéo PO8xBJaipJw seule (non utilisée), non confirmé par DDragon"
+    },
+    {
+      "idea": "Nautilus : engager au lvl 2",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "générique, 1 seule vidéo (PO8xBJaipJw)"
+    }
+  ]
+}

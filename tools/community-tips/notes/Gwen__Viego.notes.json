@@ -1,0 +1,52 @@
+{
+  "searches": 8,
+  "sourceSentences": [],
+  "method": "youtube-subtitles (hato-clips), lot 2 2026-11-12",
+  "videosFound": 108,
+  "videosRead": 4,
+  "videosUsed": 0,
+  "videosTried": [
+    {
+      "id": "NGKQquttM6I",
+      "channel": "NinkeyRAW",
+      "result": "écarté : sous-titres en et es traduits (doublage IA : « gain weight », « no one bends the other »), passage Viego (16:09) réduit à « matchup de skill, beaucoup d’options de pathing »"
+    },
+    {
+      "id": "1N6HvOewwRc",
+      "channel": "perryjg",
+      "result": "aucune mention de Viego (coaching Gwen par Ninkey, 1 h 23)"
+    },
+    {
+      "id": "VawFFo3Dv4M",
+      "channel": "perryjg",
+      "result": "live 4 h 28 : aucun conseil de matchup Gwen/Viego (recherche « against Gwen », « vs Gwen », « mist », « Gwen is »)"
+    },
+    {
+      "id": "je2JJBAS0yo",
+      "channel": "Rank 1 Viego",
+      "result": "aucune mention de Gwen"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/gwen/counters/jungle?target_champion=viego",
+      "result": "stats-only (résumé IA générique : Hallowed Mist vs Akali/Gangplank/Jayce, rien sur Viego)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/gwen/tips/jungle?target_champion=viego",
+      "result": "no-advice (« There are currently no tips for this champion »)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/gwen/vs-viego/jungle/all",
+      "result": "stats-only (aucun commentaire, captcha de vote)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Gwen : matchup de skill, Viego a beaucoup d’options de pathing (invade raptors, 3 camps, full clear)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "vidéo aux sous-titres traduits (NinkeyRAW), écartée ; aucune autre source"
+    }
+  ]
+}

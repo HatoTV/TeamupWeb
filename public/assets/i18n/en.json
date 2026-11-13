@@ -337,14 +337,14 @@
     "CGU": {
       "TITLE": "Terms of Use",
       "OBJECT": "Purpose of the document",
-      "INTRO": "This document defines the general terms of use of the website Teamupp accessible at Teamupp.app .",
+      "INTRO": "This document defines the terms of use of the TeamUpp website, available at teamupp.app.",
       "ACCESS": {
         "TITLE": "Website Access",
-        "DESCRIPTION": "The website is freely accessible to any user with an internet connection. The publisher reserves the right to temporarily or permanently suspend access to the site without prior notice."
+        "DESCRIPTION": "The website is freely accessible to any user with an internet connection. The site publisher (pseudonym: Hato) reserves the right to temporarily or permanently suspend access to the site without prior notice."
       },
       "CONTENT": {
         "TITLE": "Content Responsibility",
-        "DESCRIPTION": "The website offers content related to League of Legends, TFT, and Rocket League. The publisher does not guarantee its accuracy, and the use of information is at the user's own risk."
+        "DESCRIPTION": "The website offers content about League of Legends, TFT and Rocket League. The site publisher does not guarantee its accuracy, and the use of information is at the user's own risk."
       },
       "INDEPENDENCE": {
         "TITLE": "Website Independence",
@@ -356,58 +356,66 @@
       },
       "ADS": {
         "TITLE": "Advertisements and External Links",
-        "DESCRIPTION": "The site may contain advertisements or external links. The publisher is not responsible for the content of these external sites or their consequences."
+        "DESCRIPTION": "The site displays advertisements (Google AdSense) and contains external links. The site publisher is not responsible for the content of these sites or the consequences of their use."
       },
       "DATA": {
         "TITLE": "Data Management",
-        "DESCRIPTION": "No personal data is collected by the publisher. Only data entered by the publisher is present."
+        "DESCRIPTION": "Personal data processed on the site (contact form, advertising cookies) is described in the privacy policy."
       },
       "MODIFICATIONS": {
         "TITLE": "Modifications of the Terms",
-        "DESCRIPTION": "The publisher reserves the right to modify these terms at any time. Users should check them regularly."
+        "DESCRIPTION": "The site publisher reserves the right to modify these terms at any time. Users should check them regularly."
       },
       "LAW": {
         "TITLE": "Applicable Law",
-        "DESCRIPTION": "These terms are subject to the law of the France. In case of dispute, the competent courts will be those of the publisher's residence."
+        "DESCRIPTION": "These terms are governed by French law. In case of dispute, the French courts will have jurisdiction."
       },
       "CONTACT": {
         "TITLE": "Contact",
-        "DESCRIPTION": "For any questions, contact the developer / publisher 'Hato'."
+        "DESCRIPTION": "For any questions, contact the site publisher (pseudonym: Hato) at <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
       }
     },
     "PRIVACY": {
       "TITLE": "Privacy Policy",
       "INTRO": {
         "TITLE": "Introduction",
-        "DESCRIPTION": "This Privacy Policy explains how the site Teamupp.app collects, uses, and protects personal data."
+        "DESCRIPTION": "This privacy policy explains how teamupp.app collects, uses and protects personal data, in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act."
+      },
+      "CONTROLLER": {
+        "TITLE": "Data controller",
+        "DESCRIPTION": "The data controller is the site publisher (pseudonym: Hato), who can be reached at <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
       },
       "DATA_COLLECTED": {
         "TITLE": "Data Collected",
-        "DESCRIPTION": "The site does not directly collect any personal data from users. However, third-party services like Google Analytics or advertising networks may collect anonymous browsing statistics."
-      },
-      "DATA_USE": {
-        "TITLE": "Use of Data",
-        "DESCRIPTION": "Data collected by third parties may be used to enhance user experience, provide usage statistics, and display relevant advertisements."
+        "DESCRIPTION": "<strong>Contact form:</strong> when you report missing or incorrect data, the request type, the champions concerned and your optional message are sent by email to the publisher.<br><strong>Advertising:</strong> with your consent, Google AdSense sets cookies and collects browsing data (cookie identifiers, IP address, pages viewed) to display advertisements.<br><strong>Hosting:</strong> the host may record technical logs (IP address, date, requested page) needed to run and secure the site."
       },
       "COOKIES": {
-        "TITLE": "Cookies",
-        "DESCRIPTION": "The site may use cookies to improve navigation. Users can configure their browser to block these cookies."
+        "TITLE": "Cookies and consent",
+        "DESCRIPTION": "Google AdSense advertising cookies are only set after you agree, through Google's GDPR consent message shown during your visit. You can accept, refuse or customise your choices, and change them or withdraw your consent at any time with the \"Manage cookies\" link at the bottom of every page. Learn more: <a href=\"https://policies.google.com/technologies/ads?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">how Google uses advertising data</a>."
+      },
+      "DATA_USE": {
+        "TITLE": "Purposes and legal bases",
+        "DESCRIPTION": "Contact form data is used only to handle your request (the publisher's legitimate interest in correcting and improving the site). Advertising data is used to display and measure ads, based on your consent."
+      },
+      "RETENTION": {
+        "TITLE": "Retention period",
+        "DESCRIPTION": "Contact form data is kept for 12 months, then deleted. Advertising cookies are kept for the period stated in Google's consent message."
       },
       "DATA_SHARING": {
-        "TITLE": "Data Sharing",
-        "DESCRIPTION": "The publisher does not sell or share user data directly. However, third-party partners may collect and process some anonymous information."
+        "TITLE": "Data recipients",
+        "DESCRIPTION": "The publisher does not sell or rent your data. It is only accessible to the publisher and their technical providers: Google (AdSense advertising and email) and Vercel (hosting). As these providers may process data in the United States, such transfers are covered by the safeguards provided for by the GDPR."
       },
       "USER_RIGHTS": {
-        "TITLE": "User Rights",
-        "DESCRIPTION": "According to current regulations, users may request access, correction, or deletion of their data collected by third-party services."
+        "TITLE": "Your rights",
+        "DESCRIPTION": "You have the right to access, rectify and delete your data, as well as the right to object to or restrict its processing. To exercise these rights, write to <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>. You can withdraw your advertising consent at any time via the \"Manage cookies\" link. If you believe your rights are not respected, you can lodge a complaint with the CNIL, the French data protection authority (<a href=\"https://www.cnil.fr/en\" target=\"_blank\" rel=\"noopener noreferrer\">cnil.fr</a>)."
       },
       "MODIFICATIONS": {
         "TITLE": "Policy Modifications",
-        "DESCRIPTION": "This Privacy Policy may be modified at any time. Users are advised to review it regularly."
+        "DESCRIPTION": "This privacy policy may be modified at any time. Users are advised to review it regularly."
       },
       "CONTACT": {
         "TITLE": "Contact",
-        "DESCRIPTION": "For any questions regarding data management, contact the publisher / developer 'Hato' ."
+        "DESCRIPTION": "For any questions about your data, contact the site publisher (pseudonym: Hato) at <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
       }
     },
   "GAMES": {
@@ -460,7 +468,8 @@
     "OTHER_GAMES": "Other games",
     "INFO": "Information",
     "RL_MECHANICS": "Rocket League — Mechanics",
-    "COPYRIGHT": "© {{year}} TeamUpp"
+    "COPYRIGHT": "© {{year}} TeamUpp",
+    "MANAGE_COOKIES": "Manage cookies"
   },
   "UI": {
     "DIFFICULTY": {
@@ -726,22 +735,22 @@
   },
   "MENTIONS": {
     "TITLE": "Legal notice",
-    "INTRO": "In accordance with French law no. 2004-575 of 21 June 2004 on confidence in the digital economy, here is the information about teamupp.app.",
+    "INTRO": "Legal information about teamupp.app.",
     "EDITOR": {
       "TITLE": "Publisher",
-      "DESCRIPTION": "Name or company name: [TO BE COMPLETED]<br>Status (individual, sole trader, company…): [TO BE COMPLETED]<br>Address: [TO BE COMPLETED]<br>SIRET / RCS number, if applicable: [TO BE COMPLETED]"
+      "DESCRIPTION": "This site is published by an individual on a non-professional basis. In accordance with French law no. 2004-575 of 21 June 2004 on confidence in the digital economy (LCEN), the publisher has chosen to remain anonymous; their contact details have been provided to the host.<br>Publisher's pseudonym: Hato."
     },
     "DIRECTOR": {
       "TITLE": "Publication director",
-      "DESCRIPTION": "[TO BE COMPLETED]"
+      "DESCRIPTION": "Hato (the publisher's pseudonym)."
     },
     "CONTACT": {
       "TITLE": "Contact",
-      "DESCRIPTION": "Contact email address: [TO BE COMPLETED]"
+      "DESCRIPTION": "Email address: <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>"
     },
     "HOST": {
       "TITLE": "Host",
-      "DESCRIPTION": "Vercel Inc.<br>Postal address: [TO BE COMPLETED]<br>Website: vercel.com"
+      "DESCRIPTION": "Vercel Inc.<br>440 N Barranca Ave #4133, Covina, CA 91723, United States<br>Website: <a href=\"https://vercel.com\" target=\"_blank\" rel=\"noopener noreferrer\">vercel.com</a>"
     },
     "IP": {
       "TITLE": "Intellectual property",
@@ -810,11 +819,12 @@
     "UPDATED_HOURS": "Updated {{n}} h ago",
     "UPDATED_DAYS": "Updated {{n}} days ago",
     "FALLBACK": "Patch {{patch}} data, update in progress for patch {{latest}}.",
-    "LOW_SAMPLE": "Few games for this filter ({{games}} games): numbers may still change a lot.",
+    "SAMPLE_DATA": "Sample data: provisional statistics computed from a small number of games.",
+    "LOW_SAMPLE": "Small sample: {{games}} games. The numbers may be unreliable.",
     "LOADING": "Loading the build…",
     "INSUFFICIENT_TITLE": "Not enough data",
     "INSUFFICIENT_TEXT": "Not enough games yet for a reliable {{champion}} {{role}} build with this filter. Data is updated every day.",
-    "TRY_EMERALD": "See Emerald +",
+    "TRY_RANK": "See {{rank}}",
     "RECOMMENDED": "Recommended builds",
     "WR_SHORT": "WR",
     "LABELS": {
@@ -895,5 +905,22 @@
     "COL_CHAMPION": "Champion",
     "COL_TIER": "Tier",
     "FEW_GAMES": "few games"
+  },
+  "COMMUNITY_TIPS": {
+    "TITLE": "Community tips",
+    "SUBTITLE": "TeamUpp summary of player guides, videos and discussions, rewritten and checked against the game data.",
+    "FOR": "Playing {{me}} against {{vs}}",
+    "CITED_ONE": "Cited by {{n}} source",
+    "CITED_MANY": "Cited by {{n}} sources",
+    "VERIFIED": "checked in game data",
+    "NEEDS_RECHECK": "To be rechecked since the rework",
+    "EMPTY_TITLE": "No community tips for this matchup yet",
+    "INSUFFICIENT_TITLE": "Not enough reliable sources for this matchup",
+    "SIDE_NOT_ENOUGH": "Not enough sources yet to play {{champion}} in this matchup",
+    "SEE_OTHER_SIDE": "See the tips for {{champion}}",
+    "EMPTY_HINT": "We only publish a tip when several sources give it or the game data confirms it.",
+    "SOURCES": "Sources consulted ({{n}})",
+    "CONSULTED": "consulted on {{date}}",
+    "METHOD": "Every tip is rewritten by TeamUpp, never copied, and sorted by number of sources. Mechanics are checked against the game data (patch {{version}}). A tip is cited by at least 2 sources, or by 1 when the mechanic is confirmed in the game data."
   }
 }

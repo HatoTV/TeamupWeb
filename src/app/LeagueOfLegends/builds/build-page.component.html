@@ -104,7 +104,7 @@
     <label class="select">
       <span class="sr-only">{{ 'BUILDS.RANK' | translate }}</span>
       <select [value]="filter()" (change)="setQuery({ rank: $any($event.target).value, build: null })">
-        @for (f of filters; track f) {
+        @for (f of filters(); track f) {
           <option [value]="f" [selected]="f === filter()">{{ 'BUILDS.FILTERS.' + f | translate }}</option>
         }
       </select>
@@ -131,6 +131,9 @@
     }
   </div>
 
+  @if (meta()?.sample) {
+    <p class="notice" role="note">{{ 'BUILDS.SAMPLE_DATA' | translate }}</p>
+  }
   @if (fallbackFrom(); as latest) {
     <p class="notice" role="status">{{ 'BUILDS.FALLBACK' | translate: { patch: patch(), latest } }}</p>
   }
@@ -152,8 +155,8 @@
       <div class="empty">
         <p class="empty__title">{{ 'BUILDS.INSUFFICIENT_TITLE' | translate }}</p>
         <p>{{ 'BUILDS.INSUFFICIENT_TEXT' | translate: { champion: champ.name, role: roleName() } }}</p>
-        @if (filter() !== 'emerald_plus') {
-          <button type="button" class="btn btn--secondary btn--sm" (click)="setQuery({ rank: null })">{{ 'BUILDS.TRY_EMERALD' | translate }}</button>
+        @if (filter() !== defaultFilter()) {
+          <button type="button" class="btn btn--secondary btn--sm" (click)="setQuery({ rank: null })">{{ 'BUILDS.TRY_RANK' | translate: { rank: ('BUILDS.FILTERS.' + defaultFilter() | translate) } }}</button>
         }
       </div>
     }

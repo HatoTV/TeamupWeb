@@ -1,0 +1,150 @@
+{
+  "pair": [
+    "Nami",
+    "Pantheon"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Nami": "b6a64ef56d0bcd30af7397824c7a68c4275cddd588a878d7a3af89126504aa39",
+    "Pantheon": "3236c2681c91b5c3d475b340aec7bfa895444299c6e376bb6cafa591acfa0627"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Nami": {
+      "fr": [
+        {
+          "text": "Reste hors de portée de son Assaut martial (Z) : une fois qu'il est sur toi, ses dégâts vont plus vite que tes soins.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "S'il bondit sur ton ADC avec son Assaut martial (Z), son point d'arrivée est connu : lance ta Prison aqueuse (A) dessus.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Quand son passif Ardeur mortelle est chargé, son prochain sort est renforcé : recule ou attends qu'il l'ait utilisé avant de trade.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Stay outside Shield Vault (W) range: once he lands on you, his damage outpaces your healing.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "If he vaults onto your ADC with Shield Vault (W), you know exactly where he lands: drop Aqua Prison (Q) there.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "When Mortal Will is charged, his next spell is empowered: back off or wait until he spends it before trading.",
+          "sources": 1,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Pantheon": {
+      "fr": [
+        {
+          "text": "Cherche l'all-in plutôt que le poke à la Lance astrale (A) : une fois collé à Nami, elle ne peut pas soigner assez vite pour suivre.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Fais-lui lancer sa Prison aqueuse (A) avant de bondir avec ton Assaut martial (Z) : tant qu'elle la garde, elle attend ton saut pour te stun.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Après avoir crash la wave, pars roam mid ou top : Nami finit par devoir quitter la lane pour te suivre.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ],
+      "en": [
+        {
+          "text": "Look for the all-in rather than Comet Spear (Q) poke: once you're on top of Nami, her healing can't keep up.",
+          "sources": 3,
+          "verifiedByGameData": false,
+          "category": "lane"
+        },
+        {
+          "text": "Bait out Aqua Prison (Q) before you jump with Shield Vault (W): while she holds it, she's waiting for your leap to stun you.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "After crashing the wave, roam mid or top: Nami eventually has to leave lane to follow you.",
+          "sources": 2,
+          "verifiedByGameData": false,
+          "category": "macro"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "NAMI GUIDE - How To Carry With Nami - Detailed Challenger Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=HBda0lRLHz0",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2025-05-06",
+      "timestamps": [
+        "13:49",
+        "23:13"
+      ]
+    },
+    {
+      "title": "PANTHEON SUPPORT GUIDE - How To Carry With Pantheon - Detailed Guide",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=jB0ChjPIrNs",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2024-08-24",
+      "timestamps": [
+        "30:12",
+        "42:00",
+        "44:59"
+      ]
+    },
+    {
+      "title": "Season 2 PANTHEON Support is BROKEN with this NEW Build - Full Educational Games",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=E_UX3Ru6Y4E",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach K",
+      "publishedAt": "2026-05-08",
+      "timestamps": [
+        "2:00:48",
+        "2:08:01"
+      ]
+    },
+    {
+      "title": "Nami Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/nami/counters/support?target_champion=pantheon",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Pantheon Counters Patch 16.22: Best Counter Picks & Matchups | OP.GG",
+      "site": "op.gg",
+      "url": "https://op.gg/lol/champions/pantheon/counters/support?target_champion=nami",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

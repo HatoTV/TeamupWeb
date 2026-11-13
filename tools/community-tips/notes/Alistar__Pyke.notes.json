@@ -1,0 +1,149 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] Alistar is quite useless at level one so you should abuse that",
+    "[0] it's very important to not stand on your ADC as you can hit Q on the both of you",
+    "[0] because of his W you can never eat in unless he has used it first if you do he will knock you very deep in far away from ad carry and then proceed to Perma CCU",
+    "[0] if you're fast enough you can bait out his W by walking up and then e out before he reaches you giving you a free stun",
+    "[0] but the gist of this matchup is to just not engage first and not stand too much on your a carry",
+    "[1] Alistar's all-in potential and CC removal on his R makes him a big threat to Pyke in both the early and later game.",
+    "[1] Pyke is really bad against people with insane CC combos, like Alistar",
+    "[1] has a large hitbox which is an advantage to Pyke since he easily hook plus stun Alistar",
+    "[2] I usually pick Pyke into Alistar as its overloaded and counters.",
+    "[2] After 6 beware of his R true damage dont decrease through Alistar R."
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 8 2026-11-12",
+  "videosFound": 52,
+  "videosRead": 4,
+  "videosUsed": 1,
+  "videosTried": [
+    {
+      "id": "BiICW-E10ak",
+      "channel": "Coach K",
+      "result": "lu, inutilisé (guide Alistar 2025-02-21 : Pyke jamais cité)"
+    },
+    {
+      "id": "gZMwMQ7cEKk",
+      "channel": "Pyke on a Spike",
+      "result": "utilisé (2024-10-16, plus de 2 ans : seulement pour des mécaniques vérifiées DDragon ; passage Alistar 13:00-13:37)"
+    },
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "lu, inutilisé (Pyke cité une fois en exemple général, Alistar jamais)"
+    },
+    {
+      "id": "VhNGzeoDsX4",
+      "channel": "ShoDesu",
+      "result": "lu, inutilisé (Pyke jamais cité)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/alistar",
+      "result": "ok (commentaires d'auteurs de guides Pyke sur Alistar, sans date ni patch)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/pyke",
+      "result": "ok (commentaire d'un auteur de guide Alistar, patch 14.14 : plus de 2 ans)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Alistar : Volonté de fer purge le stun du Ressac fantôme et le ralentissement du Harponnage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Unbreakable Will : cleanse de tous les effets incapacitants ; Bone Skewer ralentit, Phantom Undertow étourdit). Le pull lui-même n'est pas présenté comme purgé (déplacement)."
+    },
+    {
+      "idea": "Alistar : Volonté de fer ne protège pas de l'exécution d'Exécution abyssale",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (plus de 2 ans) + DDragon (Death From Below exécute sous un seuil de PV ; Unbreakable Will réduit les dégâts reçus). « true damage » de la source non repris (dégâts physiques au-dessus du seuil)."
+    },
+    {
+      "idea": "Alistar : garder Coup de tête pour repousser Pyke qui entre au Ressac fantôme",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (plus de 2 ans) + DDragon (Headbutt repousse la cible)"
+    },
+    {
+      "idea": "Alistar : Atomisation touche Pyke et son ADC s'ils sont collés",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (plus de 2 ans) + DDragon (Pulverize projette en l'air les ennemis proches)"
+    },
+    {
+      "idea": "Pyke : ne pas coller l'ADC (Atomisation)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (plus de 2 ans) + DDragon"
+    },
+    {
+      "idea": "Pyke : ne pas entrer au Ressac fantôme tant qu'Alistar a Coup de tête",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (plus de 2 ans) + DDragon (Headbutt repousse)"
+    },
+    {
+      "idea": "Pyke : bait Coup de tête puis reculer au Ressac fantôme, le fantôme stun au retour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source (plus de 2 ans) + DDragon (le fantôme revient vers Pyke et étourdit les champions sur son trajet)"
+    },
+    {
+      "idea": "Pyke : Volonté de fer purge ton CC après 6",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Pyke : Volonté de fer n'empêche pas l'exécution",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (plus de 2 ans) + DDragon"
+    },
+    {
+      "idea": "Pyke : Alistar inutile lvl 1, en abuser",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "conseil de lane d'une source de plus de 2 ans, aucune seconde source"
+    },
+    {
+      "idea": "Pyke : grande hitbox d'Alistar, hook + stun faciles",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, hitbox non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Alistar : gros all-in et combos de CC, menace pour Pyke",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 source, trop vague pour un tip lane"
+    }
+  ]
+}

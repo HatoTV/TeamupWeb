@@ -1,0 +1,137 @@
+{
+  "searches": 10,
+  "sourceSentences": [
+    "[0] In general, I would say listen against Viego is a good matchup.",
+    "[0] I kind of want to invade him, do the 5-second rule, but there's a ward on top of my face, so I think I'd rather not do that.",
+    "[0] I think the enemy team won't expect the 5-second rule from Alison. Literally no one does this [ __ ] I'm going to level to invade him.",
+    "[0] Or I could invade his boss camps here. I think that's personally better probably",
+    "[1] And when I was playing Viego, I changed my opinion. I thought it's actually not that important because it's just for the R reset.",
+    "[1] The reset is the main one, especially when you're going collector, like by the time you get that first kill and you get a second reset, it's just over",
+    "[1] people just try and force crazy early games with this champion, but this champion is really objectively weak in the early game",
+    "[1] stop trying to kill people full HP with Viego early game because you don't have burst like you do no damage like tickle people.",
+    "[1] Uh so yeah, I always call VGO like once you have your first item, you actually start to become online.",
+    "[1] he just does so much damage early that you should find kills.",
+    "[2] Will take over the Game if you don't win early game. Take advantage when he misses his stun.",
+    "[2] Another skill matchup. Viego snowballs really hard"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 7 2026-11-12",
+  "videosFound": 65,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "TAOGcZTwaBo",
+      "channel": "Coach Kirei",
+      "result": "utilisé (chapitres Master vs Viego 2:55:26, Grandmaster vs Viego 4:47:40 et 5:25:17 ; passages 2:56:23 et 3:08:51 génériques, non retenus)"
+    },
+    {
+      "id": "4B7beaKhoAs",
+      "channel": "Stanpelly VOD",
+      "result": "lu, inutilisé (stream Lee Sin vs Viego sans conseil de matchup)"
+    },
+    {
+      "id": "hT4HTyaW10I",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (chapitres Viego 5:30 et Lee Sin 25:53)"
+    },
+    {
+      "id": "GcUrwNRgRxQ",
+      "channel": "Wao Live",
+      "result": "lu, inutilisé (stream Lee Sin vs Viego, aucun conseil de matchup)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.counterstats.net/league-of-legends/viego",
+      "result": "ok (commentaires d'auteurs de guides Lee Sin S13 et 14.3 sur Viego ; plus de 2 ans : mécanique vérifiée seulement)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lee-sin",
+      "result": "lu, inutilisé (1 commentaire d'un guide Viego 14.8, vague et de plus de 2 ans)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lee Sin : Viego faible tôt, l'envahir lvl 2-3 et prendre l'avance",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Kirei : bon matchup, invade ; BBC : Viego faible en early)"
+    },
+    {
+      "idea": "Lee Sin : ne pas offrir le premier kill, possession = soin + R gratuit",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : soin en % des PV max de la cible, lancer gratuit de son ult)"
+    },
+    {
+      "idea": "Lee Sin : engager quand Viego rate sa Gueule spectrale",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (plus de 2 ans, mécanique) + DDragon (Z : seul stun du kit, 8 s de CD)"
+    },
+    {
+      "idea": "Viego : Lee plus fort tôt et envahit, ward et jouer le scaling",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Kirei : Lee envahit, bon matchup pour Lee ; BBC : Viego faible tôt, en ligne plus tard)"
+    },
+    {
+      "idea": "Viego : viser le premier kill pour posséder, se soigner et relancer R",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon ; propre à Viego mais valable contre tous : gardé car moins de 3 tips propres au couple"
+    },
+    {
+      "idea": "Viego : ne pas gaspiller Gueule spectrale, Lee engage pendant le CD",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (plus de 2 ans, mécanique) + DDragon"
+    },
+    {
+      "idea": "Lee Sin : si le combat est douteux, ne pas répondre au play de Viego, envahir son bleu ou dive à l'opposé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    },
+    {
+      "idea": "Lee Sin : pinger ses lanes au 3e camp, Viego peut gank lvl 3",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "générique"
+    },
+    {
+      "idea": "Lee Sin : convertir l'avance avant de devenir un simple kickbot, Viego scale fort",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source valable (le commentaire counterstats S13 a plus de 2 ans), macro"
+    },
+    {
+      "idea": "Viego : gagne les 1v1 quand on vient sur lui mais ne peut pas chasser",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, générique"
+    }
+  ]
+}

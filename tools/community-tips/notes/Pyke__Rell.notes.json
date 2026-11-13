@@ -1,0 +1,119 @@
+{
+  "searches": 7,
+  "sourceSentences": [
+    "[0] now re is pretty weak level one especially compared to Pike so you should look for picks before level two",
+    "[0] she will almost always start W and when she uses the W while already mounted she is slow as [ __ ] after so she can never engage on you with that if she does you punish the [ __ ] out of her",
+    "[0] my best advice in this matchup is to just never engage first you'll really win if you do the most you can do is to hook to be very annoying but you can't really follow it up unless she engages first",
+    "[0] also make sure not to stand too close to ADC as all of her abilities are AOE and can hit you both",
+    "[1] okay let's get into pike pike is winning Pike is winning for sure the only thing that some might argue is pile can shred through your shield with the with the old",
+    "[1] you can buffer UW into his e because it's really predictable so the E doesn't really do anything against Rel",
+    "[1] he has to either go in and risk absolutely messing up the lane for them or he's just lost nothing"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 1 2026-11-12",
+  "videosFound": 55,
+  "videosRead": 4,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "gZMwMQ7cEKk",
+      "channel": "Pyke on a Spike",
+      "result": "utilisé (33 min, 2024-10-16 : plus de 18 mois ; « Rell » transcrit « re » dans les sous-titres auto, passage 14:53-15:35)"
+    },
+    {
+      "id": "dFEJushm5Cc",
+      "channel": "Coach K",
+      "result": "ouvert, Pyke jamais cité (chapitre Support Matchups 8:28-12:00)"
+    },
+    {
+      "id": "2CdZyNoD6aM",
+      "channel": "Coach K",
+      "result": "ouvert (live éducatif 3 h 45, chapitres par adversaire) : pas de partie contre Pyke"
+    },
+    {
+      "id": "a9QyG_fjnII",
+      "channel": "ColsENG",
+      "result": "utilisé (2023-02-27, ancien ; chapitre « Pike & Poppy » 13:39)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.mobachampion.com/counter/pyke-vs-rell/",
+      "result": "500"
+    },
+    {
+      "url": "https://www.mobachampion.com/counter/rell-vs-pyke/",
+      "result": "500"
+    },
+    {
+      "url": "https://turbosmurfs.gg/article/pyke-counters",
+      "result": "lu mais rejeté : erreur factuelle (« her E stun », or l'E de Rell n'étourdit pas), une seule phrase sur Rell"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Pyke : ne pas engager le premier, laisser Rell s'engager puis punir ; l'E de Pyke en ouverture est prévisible",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Pyke on a Spike côté Pyke, ColsENG côté Rell)"
+    },
+    {
+      "idea": "Pyke : après la Ferromancie (Z) lancée montée, Rell est à pied et ralentie : punir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W : « While dismounted ... is Slowed »)"
+    },
+    {
+      "idea": "Pyke : ne pas coller l'ADC, les sorts de Rell touchent en zone",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q en ligne, W soulève les ennemis, R attire les ennemis proches)"
+    },
+    {
+      "idea": "Pyke : Rell faible lvl 1, chercher des picks avant lvl 2",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "lane avec 1 seule source"
+    },
+    {
+      "idea": "Rell : garder la Ferromancie (Z) pour répondre au Ressac fantôme (E) de Pyke",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W soulève à l'atterrissage, E de Pyke est un dash). Reformulé : l'affirmation « l'E ne fait rien contre Rell » n'est pas vérifiable"
+    },
+    {
+      "idea": "Rell : ne pas gâcher la Ferromancie (Z), à pied elle est ralentie",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (même mécanique vue côté Rell)"
+    },
+    {
+      "idea": "Rell : l'ult de Pyke exécute à travers le bouclier",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "non vérifiable dans DDragon (le tooltip parle de seuil de PV, rien sur les boucliers) et 1 seule source"
+    },
+    {
+      "idea": "Rell : matchup gagnant, Pyke doit être bon pour gagner",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "avis de difficulté, pas un conseil de jeu"
+    }
+  ]
+}

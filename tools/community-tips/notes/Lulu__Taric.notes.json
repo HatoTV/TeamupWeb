@@ -1,0 +1,134 @@
+{
+  "searches": 3,
+  "sourceSentences": [
+    "[0] Okay, so he's bad into enchanters, he's bad into range.",
+    "[0] If you are good with the champ you can look for some opportunities to kill them but in general he's a great as a counter pick against engage champion",
+    "[1] Now she can kite me.",
+    "[1] Still playing bush control. I want to all in level four.",
+    "[1] Lulu heal. That's a bit difficult match up for me. I have to hit that flash.",
+    "[1] I don't want to play around the Lulu. I have to roam. I have to roam. I have to move around the map.",
+    "[2] Taric is an easy opponent as long as his Dazzle(E) doesn't land successfully.",
+    "[2] Contest lane by using basic attacks and Glitterlance[Q].",
+    "[2] If Taric uses Cosmic Radiance (R) on his allies, use Whimsy[W] on them to prevent them from dealing damage while they are invulnerable.",
+    "[3] You only have to be careful of stuns from his E and getting ability cds reduced through extended auto trades.",
+    "[3] Kite him constantly to deny his P. An E cast from afar may indicate a Flash dive.",
+    "[3] You'll want to play with your E + Q poke and auto attack weave from brushes which he shouldn't be able to respond if you just dodge his E with your mobility"
+  ],
+  "method": "youtube-subtitles (hato-clips), lot 7 2026-11-12",
+  "videosFound": 37,
+  "videosRead": 3,
+  "videosUsed": 2,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "lu (en-orig, chapitre Taric 50:40 : Lulu parmi les pires matchups de Taric), inutilisé : vidéo arrivée à 3 couples (consigne de l'orchestrateur), ne peut plus servir de source"
+    },
+    {
+      "id": "hA_rvNo5Az8",
+      "channel": "Coach K",
+      "result": "utilisé (en-orig, chapitre Taric 51:24 : mauvais contre les enchanteurs et la portée)"
+    },
+    {
+      "id": "QJF1Or60RNA",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre Taric vs Lulu 1:35:53 : kite de Lulu, bush control et all-in lvl 4)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/lulu/counters/support?target_champion=taric",
+      "result": "ok (tip propre au matchup)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/taric/counters/support?target_champion=lulu",
+      "result": "lu, retiré des sources à l'audit 2 ans (tip op.gg sans date : ne porte plus aucun tip gardé)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/taric",
+      "result": "ok (tips d'auteurs de guides Lulu contre Taric)"
+    },
+    {
+      "url": "https://www.counterstats.net/league-of-legends/lulu",
+      "result": "lu, inutilisé (un seul commentaire sur Taric, sans conseil exploitable)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Invulnerability",
+      "result": "lu, vérification seulement (l'invulnérabilité annule les dégâts, rien d'explicite sur les CC)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lulu : kite Taric et éviter les trades longs, ses autos de Plastronneur réduisent ses CD",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources récentes : Coach K (2026-10, « Now she can kite me »), counterstats Taric Joxuu (guide S16, tip-id 2248738 : « ability cds reduced through extended auto trades ») + DDragon (Bravado : les attaques renforcées réduisent les CD)"
+    },
+    {
+      "idea": "Lulu : Éblouissement stun après un délai, sortir de la ligne",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (op.gg Lulu sans date et counterstats Joxuu S16 : acceptés, mécanique vérifiée) + DDragon (Dazzle : éclate après un court délai, stun)"
+    },
+    {
+      "idea": "Lulu : Taric faible contre la portée, contester la lane avec autos et Duo éclatant",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources récentes : Coach K (2026-10, « bad into range »), counterstats Joxuu (S16 : poke E + A et autos, il ne peut pas répondre) ; op.gg Lulu (sans date, ancien) non compté"
+    },
+    {
+      "idea": "Lulu : Fantaisie sur l'allié invulnérable pendant la Lumière cosmique",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source ; DDragon vérifie la métamorphose et l'invulnérabilité, mais pas l'interaction entre les deux (wiki muet aussi)"
+    },
+    {
+      "idea": "Lulu : roam, Taric ne peut pas suivre",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seulement dans Gme87rAvO_8, source interdite (3 couples)"
+    },
+    {
+      "idea": "Taric : bush control et all-in tôt (lvl 2 à 4) quand Lulu entre dans la portée d'Éblouissement",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "audit 2 ans : 1 seule source récente (Coach K 2026-10) ; op.gg Taric : tip op.gg sans date ni indice de récence : compté comme ancien (plus de 2 ans) ; conseil de lane, pas une mécanique : retiré"
+    },
+    {
+      "idea": "Taric : Lulu a plus de portée, ne pas forcer la course au lvl 2, XP au lvl 1 sans se faire punir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "audit 2 ans : 1 seule source récente (Coach K 2026-10) ; op.gg Taric : tip op.gg sans date ni indice de récence : compté comme ancien (plus de 2 ans) ; conseil de lane, pas une mécanique : retiré"
+    },
+    {
+      "idea": "Taric : roam plutôt que jouer autour de Lulu",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "1 seule source, macro"
+    },
+    {
+      "idea": "Taric : faire brûler le Flash de Lulu puis punir",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "seulement dans Gme87rAvO_8, source interdite (3 couples)"
+    }
+  ],
+  "audit2ans": "Règle des 2 ans (audit 2026-11-12). Tips op.gg sans date ni auteur : comptés comme anciens. counterstats : âge par commentaire via data-tip-id (ids croissants, calés sur les titres de guides datés : ~2231700 = guides 14.23, novembre 2024) ; tip-id < 2232000 = plus de 2 ans (Joxuu, guide S16, tip-id 2248738 : récent). Côté Taric : « bush control et all-in lvl 2-4 » et « ne pas forcer la course au lvl 2 » tombent à 1 source récente (Coach K), conseils de lane non requalifiables : retirés, côté Taric vide. Côté Lulu : « contester la lane avec autos et Duo éclatant » garde 2 sources en remplaçant op.gg par counterstats Joxuu (S16). Source op.gg Taric retirée (ne porte plus de tip) ; index : ancien [4] → [3]."
+}

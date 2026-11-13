@@ -1,5 +1,5 @@
 import { Role } from '../../core/data/champion-data.service';
-import { BuildData, BuildFilter, StaticCore } from '../../core/data/build-data.service';
+import { BuildData, BuildFilter, BuildMeta, BUILD_FILTERS, StaticCore } from '../../core/data/build-data.service';
 import { abilityKey } from '../../shared/i18n/ability-key';
 import { Lang } from '../../core/site.config';
 
@@ -81,3 +81,15 @@ export function buildAsText(build: BuildData, core: StaticCore, lang: Lang, labe
 
 export const isBuildFilter = (value: string | null | undefined, filters: readonly BuildFilter[]): value is BuildFilter =>
   !!value && (filters as readonly string[]).includes(value);
+
+/**
+ * Rank filters that hold games of their own tier, widest first. Filters are cumulative (Emerald+ contains
+ * Diamond+…), so a filter with no more games than the next narrower one only repeats it and is hidden.
+ */
+export function rankFilters(meta: BuildMeta | null | undefined, patch?: string | null, region = 'all'): BuildFilter[] {
+  if (!meta) return [];
+  const games = (meta.patches.find((p) => p.patch === patch) ?? meta.patches.find((p) => p.patch === meta.latest))?.games ?? {};
+  const count = (f: BuildFilter | undefined) => (f ? games[`${f}|${region}`] ?? 0 : 0);
+  const order = BUILD_FILTERS.filter((f) => meta.filters.includes(f));
+  return order.filter((f, i) => count(f) > count(order[i + 1]));
+}

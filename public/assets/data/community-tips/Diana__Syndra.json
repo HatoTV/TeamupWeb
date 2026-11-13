@@ -1,0 +1,126 @@
+{
+  "pair": [
+    "Diana",
+    "Syndra"
+  ],
+  "researchedAt": "2026-11-12",
+  "gameVersion": "16.22",
+  "abilityHash": {
+    "Diana": "ae97b46525ce66b9ec9229971cb4875bd888e6a91d4b3c930129f521798a7aea",
+    "Syndra": "14bad5621ab2e90121cce2479995a8566292746e2ed97f0e24603361445cd259"
+  },
+  "status": "ok",
+  "perspectives": {
+    "Diana": {
+      "fr": [
+        {
+          "text": "Syndra te repousse avec sa Dispersion des faibles (E) quand tu engages : attends qu'elle l'ait lancée, puis saute-lui dessus pendant son CD.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Touche d'abord ton Croissant lunaire (A) : sur une cible marquée, ton Rush lunaire (E) n'a pas de CD et ton engage devient fiable.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Syndra knocks you back with Scatter the Weak (E) when you engage: wait until she's used it, then jump on her while it's on cooldown.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Land Crescent Strike (Q) first: on a marked target, Lunar Rush (E) has no cooldown and your engage becomes reliable.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    },
+    "Syndra": {
+      "fr": [
+        {
+          "text": "Ne lance pas ta Dispersion des faibles (E) en attaque : garde-la pour repousser Diana quand elle saute sur toi avec son Rush lunaire (E).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Esquive son Croissant lunaire (A) : sans la marque, son Rush lunaire (E) retombe sur un long CD et Diana peine à t'atteindre.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Pique Diana quand ses Corps célestes (Z) sont en CD : sinon, le bouclier absorbe ton poke.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ],
+      "en": [
+        {
+          "text": "Don't use Scatter the Weak (E) offensively: keep it to knock Diana back when she jumps on you with Lunar Rush (E).",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "lane"
+        },
+        {
+          "text": "Dodge her Crescent Strike (Q): without the mark, Lunar Rush (E) goes on a long cooldown and Diana struggles to reach you.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        },
+        {
+          "text": "Poke Diana when her Pale Cascade (W) is on cooldown: otherwise the shield soaks up your poke.",
+          "sources": 2,
+          "verifiedByGameData": true,
+          "category": "mechanics"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "How You Always Beat Diana in Mid Lane",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=8n_xnjcV6rk",
+      "consultedAt": "2026-11-12",
+      "channel": "Mysteriaslol",
+      "publishedAt": "2026-09-08",
+      "timestamps": [
+        "0:38",
+        "1:41",
+        "7:19"
+      ]
+    },
+    {
+      "title": "SYNDRA Guide - How To Learn and CARRY With SYNDRA Step by Step | Matchups",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=mJFc-rMz2vg",
+      "consultedAt": "2026-11-12",
+      "channel": "Coach Mysterias",
+      "publishedAt": "2025-02-28",
+      "timestamps": [
+        "1:02:41",
+        "1:02:56"
+      ]
+    },
+    {
+      "title": "Syndra Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/syndra",
+      "consultedAt": "2026-11-12"
+    },
+    {
+      "title": "Diana Counters - Best Counter Picking Stats and Matchups for LoL Patch 16.22",
+      "site": "counterstats.net",
+      "url": "https://www.counterstats.net/league-of-legends/diana",
+      "consultedAt": "2026-11-12"
+    }
+  ]
+}

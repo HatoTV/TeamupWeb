@@ -1,0 +1,121 @@
+{
+  "champion": "Volibear",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Foudroiement caché dans Coup fulgurant", "en": "Sky Splitter hidden in Thundering Smash" },
+      "keys": ["Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Coup fulgurant (A) et lance Foudroiement (E) pendant la course : l'animation ne se joue pas. Place ensuite le stun vers la fin du délai de la E pour que la cible ne puisse pas Flash l'éclair.",
+        "en": "Activate Thundering Smash (Q) and cast Sky Splitter (E) during the sprint: the animation doesn't play. Then land the stun near the end of the E delay so they can't Flash the bolt."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Foudroiement, Coup fulgurant, Folie mutilatrice", "en": "Sky Splitter, Thundering Smash, Frenzied Maul" },
+      "keys": ["E", "Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose Foudroiement (E), stun la cible dedans avec l'auto de Coup fulgurant (A), puis glisse Folie mutilatrice (Z) juste après une auto. Coup fulgurant relance ton auto, donc tout sort plus vite.",
+        "en": "Place Sky Splitter (E), stun the target inside it with the Thundering Smash (Q) auto, then slip Frenzied Maul (W) right after an auto. Thundering Smash resets your auto, so everything comes out faster."
+      },
+      "refs": [0, 1, 3, 4]
+    },
+    {
+      "name": { "fr": "Foudroiement, Flash, Coup fulgurant", "en": "Sky Splitter, Flash, Thundering Smash" },
+      "keys": ["E", "F", "Q"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Foudroiement (E), puis Flash dès que tu es à portée et frappe aussitôt avec l'auto de Coup fulgurant (A). Le stun tombe avant que la cible puisse réagir, même avec son propre Flash.",
+        "en": "Cast Sky Splitter (E), then Flash as soon as you are in range and hit right away with the Thundering Smash (Q) auto. The stun lands before they can react, even with their own Flash."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Coup fulgurant puis Tempête incarnée", "en": "Thundering Smash into Stormbringer" },
+      "keys": ["Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Stun d'abord avec l'auto de Coup fulgurant (A), puis saute sur la cible avec Tempête incarnée (R). Le saut dure 1 seconde, autant que le stun, donc la cible n'a pas le temps de sortir de l'impact.",
+        "en": "Stun first with the Thundering Smash (Q) auto, then leap onto the target with Stormbringer (R). The leap lasts 1 second, like the stun: they have no time to leave the impact."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si tu es immobilisé ou transformé pendant Coup fulgurant (A), l'effet s'arrête et son CD est réinitialisé. Active-le juste avant un contrôle adverse pour le récupérer aussitôt.",
+        "en": "If you get immobilized or polymorphed during Thundering Smash (Q), the effect ends and its cooldown resets. Activate it right before an enemy crowd control to get it back at once."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "L'auto de Coup fulgurant (A) peut te faire passer un mur fin : vise une cible collée au mur et clique de l'autre côté. Sous Tempête incarnée (R), la portée bonus permet des murs plus épais.",
+        "en": "The Thundering Smash (Q) auto can carry you over a thin wall: target someone hugging the wall and click on the far side. During Stormbringer (R), the bonus range lets you cross thicker walls."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'auto de Coup fulgurant (A) relance ton auto et ne met pas ton auto en CD : c'est un double reset. Enchaîne auto, A, auto sans attendre.",
+        "en": "The Thundering Smash (Q) auto resets your auto and doesn't put your basic attack on cooldown: it's a double reset. Chain auto, Q, auto with no wait."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La morsure de Folie mutilatrice (Z) te soigne même si un bouclier magique bloque le coup. Pour avoir dégâts et heal, la marque doit encore être là à la fin de l'incantation.",
+        "en": "The Frenzied Maul (W) bite heals you even if a spell shield blocks the hit. To get the damage and the heal, the mark must still be up when the cast time ends."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le shield de Foudroiement (E) s'active si tu es dans la zone, même inciblable. Pose-la sur toi en trade ou en fuite pour être sûr de l'avoir.",
+        "en": "The Sky Splitter (E) shield triggers if you stand in the area, even while untargetable. Drop it on yourself in a trade or an escape to be sure to get it."
+      },
+      "refs": [0, 4]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tempête incarnée (R) désactive les tours 2 à 4 secondes, sans effacer leur cible actuelle. Si tu frappes un champion sous la tour, elle te vise toujours à son retour.",
+        "en": "Stormbringer (R) disables turrets for 2 to 4 seconds without clearing their current target. If you hit a champion under the turret, it still aims at you once it's back."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant le saut de Tempête incarnée (R), tu es immunisé aux déplacements, mais tu ne peux ni Flash ni lancer de sort. Choisis bien ton point d'arrivée avant de sauter.",
+        "en": "During the Stormbringer (R) leap, you are immune to displacements, but you can't Flash or cast spells. Pick your landing spot carefully before you jump."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque coup de Tempête impitoyable donne une charge de 6 secondes ; à 5 charges, tes autos rebondissent sur jusqu'à 4 ennemis proches. Monte les charges sur les sbires avant d'engager.",
+        "en": "Each hit gives a The Relentless Storm stack lasting 6 seconds; at 5 stacks, your autos bounce to up to 4 nearby enemies. Build the stacks on minions before you engage."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Volibear - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Volibear", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "11 SECRET VOLIBEAR MECHANICS You Need To Know", "url": "https://www.youtube.com/watch?v=kDY8TJRaFQI", "type": "video", "date": "2025-06-28", "author": "hybradge" },
+    { "title": "GUIDE VOLIBEAR FR - COMBOS, TIPS, GESTION DE LANE", "url": "https://www.youtube.com/watch?v=1urhriR_p0g", "type": "video", "date": "2020-06-13", "author": "Chamallow San" },
+    { "title": "GUIDE VOLIBEAR COMPLET: SORTS, POINTS FORTS, COMBOS & 1 GAME POUR APPRENDRE A SMURF (Ft MAT - CHALL)", "url": "https://www.youtube.com/watch?v=Xo6jtILOLKY", "type": "video", "date": "2026-05-23", "author": "iReaz VOD" },
+    { "title": "3 Minute Volibear Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=AIKt8f8wu5A", "type": "video", "date": "2026-05-31", "author": "3 Minute League of Legends" }
+  ]
+}

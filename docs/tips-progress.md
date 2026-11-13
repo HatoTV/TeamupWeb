@@ -211,18 +211,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Viego (4 combos, 8 astuces)
 - ✅ Viktor (3 combos, 8 astuces)
 
-### Lot 16 — ⏳
+### Lot 16 — ✅
 
-- ⏳ Vladimir
-- ⏳ Volibear
-- ⏳ Warwick
-- ⏳ Xayah
-- ⏳ Xerath
-- ⏳ XinZhao
-- ⏳ Yasuo
-- ⏳ Yorick
-- ⏳ Yunara
-- ⏳ Yuumi
+- ✅ Vladimir (5 combos, 8 astuces)
+- ✅ Volibear (4 combos, 8 astuces)
+- ✅ Warwick (4 combos, 8 astuces)
+- ✅ Xayah (4 combos, 7 astuces)
+- ✅ Xerath (5 combos, 8 astuces)
+- ✅ XinZhao (4 combos, 7 astuces)
+- ✅ Yasuo (4 combos, 6 astuces)
+- ✅ Yorick (3 combos, 6 astuces)
+- ✅ Yunara (3 combos, 7 astuces)
+- ✅ Yuumi (2 combos, 6 astuces)
 
 ### Lot 17 — ⏳
 

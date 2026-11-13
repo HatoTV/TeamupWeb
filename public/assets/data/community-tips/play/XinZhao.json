@@ -1,0 +1,129 @@
+{
+  "champion": "XinZhao",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Combo de base E auto A", "en": "Basic E auto Q combo" },
+      "keys": ["E", "Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Charge audacieuse (E) sur ta cible, une auto, puis Frappe des trois serres (A) pour reset l'auto. Dès que la 3e frappe la soulève, place Vent et foudre (Z) pour tout toucher.",
+        "en": "Audacious Charge (E) onto your target, one auto, then Three Talon Strike (Q) to reset your auto. As soon as the third strike knocks them up, land Wind Becomes Lightning (W) to hit everything."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Duel long, A en dernier", "en": "Long duel, Q last" },
+      "keys": ["E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Charge audacieuse (E), auto, Vent et foudre (Z), auto, puis seulement Frappe des trois serres (A). Chaque frappe renforcée retire 1 seconde au CD de ton E et de ton Z : tu les relances plus tôt dans le duel.",
+        "en": "Audacious Charge (E), auto, Wind Becomes Lightning (W), auto, then only Three Talon Strike (Q). Each empowered strike takes 1 second off your E and W cooldowns, so you recast them sooner in the duel."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Engage longue portée Z puis E", "en": "Long-range W into E engage" },
+      "keys": ["W", "E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche ta cible prioritaire avec l'estoc de Vent et foudre (Z) pour la défier : Charge audacieuse (E) porte alors plus loin. Saute dessus, puis Garde circulaire (R) repousse ses alliés sans la repousser, elle.",
+        "en": "Hit your priority target with the Wind Becomes Lightning (W) thrust to Challenge them, so Audacious Charge (E) reaches further. Jump on them, then Crescent Guard (R) knocks back their allies but not them."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Z puis Flash surprise", "en": "W into Flash surprise" },
+      "keys": ["W", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Ta cible est hors de portée : lance Vent et foudre (Z), puis Flash vers elle pendant l'incantation. L'estoc part de ta nouvelle position et la touche par surprise, parfait pour finir un ennemi bas en PV.",
+        "en": "Target out of range: cast Wind Becomes Lightning (W), then Flash toward them during the cast. The thrust fires from your new position and catches them off guard, great to finish a low-health enemy."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Garde circulaire (R) ne repousse pas la cible défiée. Pour éjecter l'ennemi que tu viens de taper, marque d'abord un autre champion : la marque le quitte et ton ult le repousse.",
+        "en": "Crescent Guard (R) doesn't knock back the Challenged target. To eject the enemy you just hit, mark another champion first: the mark leaves them and your ult knocks them back."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un seul ennemi peut être défié à la fois, et l'estoc de Vent et foudre (Z) marque le champion le plus loin touché. Vise trop loin et tu perds la portée bonus de ton E sur la cible voulue.",
+        "en": "Only one enemy can be Challenged at a time, and the Wind Becomes Lightning (W) thrust marks the farthest champion hit. Aim too far and you lose the bonus E range on the target you wanted."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Frappe des trois serres (A) et Garde circulaire (R) se lancent pendant le dash de Charge audacieuse (E). Enchaîne-les en plein saut pour ne laisser aucun temps de réaction.",
+        "en": "Three Talon Strike (Q) and Crescent Guard (R) can be cast during the Audacious Charge (E) dash. Chain them mid-jump to leave no reaction time."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Après Garde circulaire (R), les zones au sol, DoT et dégâts retardés comme Marque de la mort de Zed ou Peste sanguine de Vladimir ne te blessent pas si leur lanceur est hors du cercle.",
+        "en": "After Crescent Guard (R), ground zones, DoTs and delayed damage like Zed's Death Mark or Vladimir's Hemoplague don't hurt you if their caster is outside the circle."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Contre un ennemi immunisé aux déplacements, Garde circulaire (R) ne le repousse pas et ne l'étourdit pas non plus. Ne compte pas sur l'ult pour l'arrêter.",
+        "en": "Against an enemy immune to displacements, Crescent Guard (R) neither knocks them back nor stuns them. Don't rely on your ult to stop them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Vent et foudre (Z) te révèle pendant l'incantation si un champion ennemi est proche. Depuis un buisson, ouvre plutôt avec Charge audacieuse (E) pour garder la surprise.",
+        "en": "Wind Becomes Lightning (W) reveals you during the cast if an enemy champion is nearby. From a brush, open with Audacious Charge (E) instead to keep the surprise."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant l'armement d'une frappe de Frappe des trois serres (A), tu ne peux rien faire d'autre jusqu'à la fin de l'animation. Ne la lance pas si tu dois esquiver un skillshot.",
+        "en": "During the windup of a Three Talon Strike (Q) attack, you can't do anything else until the animation ends. Don't start it if you need to dodge a skillshot."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Xin Zhao - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Xin_Zhao",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Xin Zhao Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=B5C0PMTP-OU",
+      "type": "video",
+      "date": "2026-08-27",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "GUIDE XIN ZHAO JUNGLE : COMMENT JOUER XIN ZHAO ?!",
+      "url": "https://www.youtube.com/watch?v=zG0Wt9gCCWE",
+      "type": "video",
+      "date": "2026-04-08",
+      "author": "Mayzeek"
+    }
+  ]
+}

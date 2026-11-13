@@ -1,0 +1,113 @@
+{
+  "champion": "Xayah",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Dagues jumelles, auto, Appel des lames", "en": "Double Daggers, auto, Bladecaller" },
+      "keys": ["Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Dagues jumelles (A) plante 2 plumes et ton auto suivante en plante une 3e derrière la cible. Rappelle-les tout de suite avec Appel des lames (E) : 3 plumes touchées, c'est le root.",
+        "en": "Double Daggers (Q) plants 2 feathers and your next auto plants a third behind the target. Call them back right away with Bladecaller (E): 3 feathers hit means a root."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Trade complet avec Plumage mortel", "en": "Full trade with Deadly Plumage" },
+      "keys": ["W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Plumage mortel (Z), auto, Dagues jumelles (A), auto, puis Appel des lames (E). Chaque sort recharge tes autos à plumes, donc la E ramène assez de plumes pour root et burst.",
+        "en": "Deadly Plumage (W), auto, Double Daggers (Q), auto, then Bladecaller (E). Each spell reloads your feather autos, so the E pulls back enough feathers to root and burst."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Rafale de plumes puis Flash", "en": "Featherstorm into Flash" },
+      "keys": ["R", "F", "E"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Rafale de plumes (R) hors de sa vue, puis Flash vers la cible pendant que tu es inciblable. Les 5 plumes reviendront à travers elle avec Appel des lames (E).",
+        "en": "Cast Featherstorm (R) out of their sight, then Flash toward the target while untargetable. The 5 feathers will come back through them with Bladecaller (E)."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Appel des lames, Flash de côté", "en": "Bladecaller, sideways Flash" },
+      "keys": ["E", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Appel des lames (E) puis Flash : les plumes changent de trajectoire pour revenir vers ta nouvelle position. Bien placé, ça root plusieurs ennemis d'un coup.",
+        "en": "Cast Bladecaller (E) then Flash: the feathers change course to come back to your new position. Well placed, it roots several enemies at once."
+      },
+      "refs": [2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort lancé te donne 3 charges de Plumes perçantes, jusqu'à 5. Chaque auto en consomme une et plante une plume au sol, à portée max derrière ta cible.",
+        "en": "Each spell cast gives you 3 Clean Cuts stacks, up to 5. Each auto uses one and plants a feather on the ground, at max range behind your target."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tes plumes restent 6 secondes au sol. Une plume encore en vol n'est rappelée par Appel des lames (E) qu'une fois posée : n'appuie pas trop tôt.",
+        "en": "Your feathers stay on the ground for 6 seconds. A feather still in flight is only recalled by Bladecaller (E) once it has landed: don't press it too early."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Rafale de plumes (R) te rend inciblable 1,5 seconde et tu peux toujours bouger. Garde-la pour esquiver un sort clé, pas seulement pour les dégâts.",
+        "en": "Featherstorm (R) makes you untargetable for 1.5 seconds and you can still move. Keep it to dodge a key spell, not only for damage."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant Rafale de plumes (R), tu ne peux ni attaquer ni lancer de sort, mais tes sorts d'invocateur restent utilisables. Flash change donc l'angle de tes plumes.",
+        "en": "During Featherstorm (R), you can't attack or cast spells, but your summoner spells stay usable. Flash therefore changes the angle of your feathers."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les plumes de Rafale de plumes (R) partent un peu derrière toi et s'écartent en cône. La portée réelle est plus courte que l'indicateur et l'ennemi le plus proche prend le plus de plumes.",
+        "en": "The Featherstorm (R) feathers start slightly behind you and spread in a cone. The real range is shorter than the indicator and the closest enemy takes the most feathers."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque dague de Dagues jumelles (A) blesse déjà autour de toi avant de partir. Seul le premier ennemi touché prend les dégâts pleins, les suivants en prennent moitié moins.",
+        "en": "Each Double Daggers (Q) dagger already deals damage around you before firing. Only the first enemy hit takes full damage, the next ones take half."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lancer Plumage mortel (Z) renforce aussi les autos déjà en vol : elles tirent la petite plume bonus, mais sans te donner la vitesse de déplacement.",
+        "en": "Casting Deadly Plumage (W) also empowers autos already in flight: they fire the small bonus feather, but don't grant you the movement speed."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Xayah - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Xayah", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "This is the only Xayah Guide you will Ever Need!", "url": "https://www.youtube.com/watch?v=gb0ZlpSczXQ", "type": "video", "date": "2026-06-14", "author": "Eneino Coach" },
+    { "title": "Xayah Tips and Tricks That PRO Players Use", "url": "https://www.youtube.com/watch?v=Y2mJrQLORjw", "type": "video", "date": "2022-12-04", "author": "Evvelyx" },
+    { "title": "GUIDE XAYAH COMPLET: SORTS, POINTS FORTS, COMBOS & 1 GAME POUR APPRENDRE A SMURF (Ft GOLDENPENNY)", "url": "https://www.youtube.com/watch?v=4W-bqD6fGRc", "type": "video", "date": "2026-06-10", "author": "iReaz VOD" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "If Steel Tempest is cast during Sweeping Blade, the cast is modified to cause Yasuo to slash around himself at the end of the dash, applying and triggering the same effects against nearby enemies.",
+    "This slash can be empowered by Gathering Storm's bonus, causing it to additionally apply the knock up to enemies hit.",
+    "Steel Tempest's cast time is not incurred when it is cast this way, but Yasuo will become unable to declare basic attacks for 0.5 seconds after the dash ends.",
+    "Casting Sweeping Blade when Steel Tempest's remaining cooldown is less than 0.5 seconds resets this remaining cooldown to allow casting it in combination, but adds the refunded time to Steel Tempest's cooldown.",
+    "If Yasuo blinks during Sweeping Blade after having buffered Steel Tempest during it, he will perform the slash at the blink location, applying Steel Tempest's effects to enemies in the area at the time.",
+    "Steel Tempest maintains its casting angle direction in relation to Yasuo if he moves during the cast time.",
+    "If Steel Tempest has been buffered, Wind Wall may also be cast during the dash.",
+    "Yasuo can use Sweeping Blade's fixed dash distance to cross walls both before and after hitting his target (provided his proximity to the wall and/or target allows it).",
+    "Last Breath can be cast during the dash.",
+    "Yasuo blinks to the opposite side of a visible airborne enemy champion nearest to the cursor, instantly generating maximum Flow while resetting Steel Tempest stacks.",
+    "If Yasuo would blink inside the attack range of an enemy turret (including the Nexus Obelisk), Last Breath will instead attempt to position him outside of it.",
+    "Self-applied or allied-applied airborne displacements do not allow Last Breath to target the champion.",
+    "Terrain displacing abilities (e.g. Weaver's Wall, Pillar of Ice, Volcanic Rupture) that affect enemy champions are considered airborne, and will therefore interact with Last Breath.",
+    "Snycall : ça c'est un Q flash mal exécuté. Donc ? Parce que regardez, là je Q et je flash, mais Yasu il a pas fini l'animation, il est encore en train de lever le bras pendant qu'il flash.",
+    "Snycall : Et ben il faut flash à la toute fin.",
+    "Snycall : Première particularité du R, tout simplement, il redonne le shield.",
+    "Snycall : je lance la tornade sur lui. Tac. Avant d'appuyer sur R, je EQ sur lui, mais avant que les dégâts arrivent sur lui, j'appuie sur R. Du coup, les dégâts que lui était censé se prendre vont être téléportés sur lui.",
+    "Snycall : Quand il va être à 0,5, je vais EQ.",
+    "Snycall : Yasuo fera toujours la même distance quand il appuiera sur E. Donc, ce qui va changer, c'est la position à laquelle vous êtes.",
+    "Abu Donny : So, someone's knocked up, you EQ off the target, and then alt and it transfers the E. It transfers the Q damage to the target.",
+    "Abu Donny : And now you can do the insta EQ flash.",
+    "Abu Donny : EQ flash just in the same spot. Keep your cursor.",
+    "Abu Donny : But if you EQ and W, you can wind wall mid dash and it can catch people off guard.",
+    "Abu Donny : don't flash and then Q. You want to Q flash."
+  ],
+  "rejected": [
+    { "idea": "Keyblade : EA Flash, auto, EA, R", "reason": "Une seule source joueur (Abu Donny), aucune note wiki sur l'enchaînement complet." },
+    { "idea": "Team blade : garder sa charge de tornade grâce au knock-up d'un allié", "reason": "Une seule source joueur (Snycall), mécanique non décrite par le wiki." },
+    { "idea": "Q Flash rapide (moins de portée, impossible à réagir) vs lent (plus de portée)", "reason": "Une seule source (Snycall) pour la différence de portée selon le timing." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte du Flash pendant l'incantation de la tornade pour qu'elle parte de la nouvelle position.",
+    "Airblade : timing du R entre la fin de l'EA et l'impact du cercle.",
+    "Repositionnement de Dernier soupir hors de portée de tour : fiabilité selon l'angle."
+  ]
+}

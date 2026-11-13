@@ -1,0 +1,122 @@
+{
+  "champion": "Yasuo",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "EA circulaire", "en": "EQ circle" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Tempête d'acier (A) pendant Cercle tranchant (E) : au lieu d'une ligne, tu frappes en cercle à la fin du dash, sans temps d'incantation. Avec deux charges, ce cercle soulève tout le monde autour de toi.",
+        "en": "Cast Steel Tempest (Q) during Sweeping Blade (E): instead of a line, you slash in a circle at the end of the dash, with no cast time. With two stacks, the circle knocks up everyone around you."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "EA Flash", "en": "EQ Flash" },
+      "keys": ["E", "Q", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Cercle tranchant (E), Tempête d'acier (A) dans la foulée, puis Flash pendant le dash : le cercle part à l'endroit du Flash. Avec la tornade prête, le knock-up arrive presque sans prévenir.",
+        "en": "Sweeping Blade (E), Steel Tempest (Q) right away, then Flash during the dash: the circle lands where you Flash. With the whirlwind ready, the knock-up comes with almost no warning."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Tornade Flash", "en": "Whirlwind Flash" },
+      "keys": ["Q", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Avec deux charges, lance Tempête d'acier (A) puis Flash avant la fin de l'animation : la tornade part de ta nouvelle position. Flash tard dans l'animation, pas avant le sort, sinon ta cible a le temps de réagir.",
+        "en": "With two stacks, cast Steel Tempest (Q) then Flash before the animation ends: the whirlwind fires from your new position. Flash late in the animation, not before the spell, or your target has time to react."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Airblade", "en": "Airblade" },
+      "keys": ["Q", "E", "Q", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Tornade sur ta cible, Cercle tranchant (E) vers elle, Tempête d'acier (A) pendant le dash, puis Dernier soupir (R) avant la fin du dash. Le cercle frappe à ton arrivée sur la cible : tu ajoutes ses dégâts à ton ult.",
+        "en": "Whirlwind on your target, Sweeping Blade (E) toward them, Steel Tempest (Q) mid-dash, then Last Breath (R) before the dash ends. The circle hits where you land on the target, adding its damage to your ult."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Cercle tranchant (E) parcourt toujours la même distance et peut franchir les murs, avant ou après la cible. Colle-toi au monstre ou au sbire près du mur pour que le dash passe de l'autre côté.",
+        "en": "Sweeping Blade (E) always travels the same distance and can cross walls, before or after the target. Stand close to the monster or minion near the wall so the dash ends on the other side."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Ta Tempête d'acier (A) a moins de 0,5 seconde de CD ? Lance Cercle tranchant (E) : le CD restant saute pour que tu places l'EA, puis il s'ajoute au CD suivant.",
+        "en": "Steel Tempest (Q) has under 0.5 seconds of cooldown left? Cast Sweeping Blade (E): the remaining cooldown is skipped so you can EQ, then it gets added to the next cooldown."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant un dash de Cercle tranchant (E), Mur de vent (Z) ne part que si tu as lancé Tempête d'acier (A) avant. Fais EA puis Z pour bloquer un projectile en plein dash.",
+        "en": "During a Sweeping Blade (E) dash, Wind Wall (W) only comes out if you queued Steel Tempest (Q) first. Go EQ then W to block a projectile mid-dash."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Dernier soupir (R) remplit instantanément ta jauge de Voie du vagabond : ton bouclier est prêt dès la fin de l'ult. Pas besoin de courir pour le recharger.",
+        "en": "Last Breath (R) instantly fills your Way of the Wanderer bar: your shield is ready as soon as the ult ends. No need to run around to recharge it."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Dernier soupir (R) marche sur les knock-up de tes alliés, et même sur les déplacements par le terrain comme Montagne de glace de Trundle. Un ennemi qui se projette lui-même ne compte pas.",
+        "en": "Last Breath (R) works on your allies' knock-ups, and even on terrain displacements like Trundle's Pillar of Ice. An enemy who displaces themselves doesn't count."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si Dernier soupir (R) devait te poser sous une tour ennemie, l'ult essaie de te placer hors de sa portée. Tu peux ult une cible au pied de sa tour sans forcément prendre l'aggro.",
+        "en": "If Last Breath (R) would put you under an enemy turret, the ult tries to place you outside its range. You can ult a target at their turret without necessarily taking aggro."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Yasuo - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yasuo",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "GUIDE YASUO 2026 COMBOS BUILD ET RUNES",
+      "url": "https://www.youtube.com/watch?v=lEMPOFwG7fc",
+      "type": "video",
+      "date": "2026-10-21",
+      "author": "Snycall"
+    },
+    {
+      "title": "ULTIMATE 2026 Yasuo Guide | Combos, Wall Dashes, Builds, Runes",
+      "url": "https://www.youtube.com/watch?v=Z5fzFEvqC74",
+      "type": "video",
+      "date": "2026-10-29",
+      "author": "Abu Donny"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Last Rites basic attack resets Yorick's basic attack timer.",
+    "While there are at least 3 graves nearby and Last Rites is active or on cooldown, Yorick can cast Awakening.",
+    "Yorick can use Awakening and Mourning Mist mark to raise 1 Mist Walker from each grave after a 1-second delay, consuming the graves in the process.",
+    "Yorick summons a ring of spirits around the target location that arises after a 0.75-second delay, knocking aside enemies hit by the walls over 0.25 seconds, though not through terrain.",
+    "Within 210-units, they are pulled inside; otherwise they are pushed away.",
+    "The ring remains for 4 seconds as impassible terrain against enemies, granting sight inside the ring.",
+    "Dark Procession can only be targeted by enemy champion basic attacks and turrets. The wall takes 1 damage per attack from champions and is destroyed instantly from turret attacks.",
+    "Yorick's other pets each have a lower prioritization value, allowing him to delay the turret from targeting the Eulogy of the Isles or a Mist Walker for one attack.",
+    "Enemy champions and monsters hit are slowed by 30% for 1.5 seconds and marked as Cursed for 4 seconds.",
+    "The target is revealed and inflicted with armor reduction, and continually raises a Mist Walker from each nearby grave, up to a maximum of 4.",
+    "Mist Walkers will leap to nearby Cursed enemy champions and large monsters once, attacking them upon arrival.",
+    "The Mist Walkers do not leap if they are immobilized or grounded, or if the marked target is untargetable.",
+    "Eulogy of the Isles can be recast once while the Maiden is alive after 10 seconds of the activation.",
+    "Recast: Yorick sets the Maiden free, allowing her to push the nearest lane until she dies.",
+    "When Yorick dies, The Maiden rapidly loses portions of her maximum health over 3 seconds until she dies.",
+    "3 Minute LoL : Pour les combos, l'idéal est d'avoir la Vierge active avant d'utiliser W puis E. Attaquer pour utiliser Q avant d'attaquer en sens inverse.",
+    "3 Minute LoL : Le A de Yorick est une réinitialisation d'attaque automatique qui permet à sa prochaine attaque d'avoir une portée bonus",
+    "3 Minute LoL : Si cette capacité est en recharge et qu'il y a trois tombes à proximité, elle se transforme en une capacité permettant de ressusciter des serviteurs depuis ces tombes.",
+    "3 Minute LoL : les champions ennemis doivent l'attaquer pour le briser et se libérer.",
+    "3 Minute LoL : Cette capacité peut être réactivée pour envoyer la demoiselle sur la voie afin qu'elle effectue un split push permanent pour lui.",
+    "Daveyx3 : The first combo is the auto Q combo. Make sure you always auto attack first before you Q so you can deal more damage. The second combo is E into auto attack Q combo.",
+    "Daveyx3 : The third combo is E into W. If you have a very difficult time to land your W properly, make sure you always hit the slow first so they cannot dodge it very easily.",
+    "iReaz VOD (Wapoosa) : On the other hand, I can go through it with my allies. We can see that I can go through it.",
+    "iReaz VOD (Wapoosa) : Damn, you put the cage to tank a tower hit.",
+    "iReaz VOD (Wapoosa) : you put him in the cage; there's you, there's the Maiden, there are four ghouls."
+  ],
+  "rejected": [
+    { "idea": "Flash pendant l'armement de Derniers sacrements : l'attaque touche même si la cible Flash", "reason": "Une seule source joueur (Wapoosa via iReaz VOD), sous-titres traduits automatiquement et confus ; pas de note wiki." },
+    { "idea": "E, auto, A puis objet actif pour burst", "reason": "Interaction d'objet non vérifiée au wiki (une seule source, Daveyx3)." },
+    { "idea": "Poser la cage derrière l'ennemi pour lui couper la fuite", "reason": "Une seule source joueur, et déjà couvert par l'astuce centre/bord de la cage." }
+  ],
+  "toVerifyInGame": [
+    "Rayon exact (210 unités) qui sépare l'attraction vers l'intérieur et la poussée vers l'extérieur de Sombre cortège.",
+    "Priorité de tour : la cage absorbe-t-elle un tir quand Yorick pousse avec sa Vierge et ses goules ?"
+  ]
+}

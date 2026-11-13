@@ -1,0 +1,45 @@
+{
+  "searches": 2,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "While Jaws of the Beast is active, Warwick is displacement immune and clamps his jaw on the target, following all of their movement.",
+    "Hold: Warwick performs the bite, and then begins to channel [charge] for 0.5 seconds, extended if the target is under effects of a dash or airborne [displacement]. During the charge, he dash [leaps] behind the target.",
+    "Every interrupt [interrupting] crowd control effect that is not resisted by the displacement immunity will prematurely stop the dash.",
+    "Flash, Teleport, Hexflash, and Recall are disabled during the first 0.4 seconds of the channel. cast = Primal Howl is usable. spells=true,interrupts,...",
+    "If the target dies prior to Warwick reaching them, Jaws of the Beast refunds its cooldown when tapped. The ability can be still held, however, Warwick is no longer eligible for the refund in this case.",
+    "The mana cost is not refunded in either case.",
+    "Starting Infinite Duress [Warwick] channel while Primal Howl is active will initiate the recast without ending the damage reduction buff prematurely.",
+    "Primal Howl [Warwick] can be cast during the dash.",
+    "Recast: Warwick howls, ending Primal Howl's effects and fear [fearing] nearby enemies for 1 second, slow [slowing] them by 90%.",
+    "range: 250% movement speed [Measures the average of this percentage of movement speed in the last 2.5 seconds. Updates every 0.25 seconds.]",
+    "If the target is cc-immune [crowd control immune] or protected by spell shield upon collision, Warwick will not start the channel.",
+    "If Warwick does not collide with a champion, he will slide a fixed distance [estimated 150 units] past the maximum range during which he is no longer crowd control immune",
+    "being able to cast Jaws of the Beast [Warwick] and Blood Hunt [Warwick], with the former also interrupting the slide.",
+    "While below 50% maximum health, Warwick also heal [heals] for 100% of the post-mitigation damage dealt by Eternal Hunger, increased to 250% while below 25% maximum health.",
+    "He sees trails leading toward them and gains ms [bonus movement speed] while following a trail.",
+    "if you just press you're cute it's a bite if you hold it down you'll attach to them and swing around back behind them",
+    "when you're trying to escape from a good Warwick even if you flash he'll stay right on top of you",
+    "any kind of displacement you can negate it if you're using your key on warwick",
+    "the circle that displays how far you altima it goes is very misleading his ultimate goes much farther than the circle actually shows",
+    "maxing their W is also very good because it gives your ultimate a lot more distance whenever you're using your W active",
+    "if you ever worried the enemies are gonna dodge your ultimate just fear them first then ultimate that way they can't dodge it",
+    "try not to use it before you drop below 25% HP if it is a 1v1 to the death",
+    "La seule variante à ce combo en combat d'équipe est d'utiliser votre E avant pour l'activer au moment du R, afin d'effrayer tous les ennemis autour.",
+    "Si on maintient la touche enfoncée pendant une demi-seconde, il verrouille la cible et suit ses mouvements (ruée, éclair, etc.) avant de bondir derrière elle.",
+    "Et lorsque vous avez simplement besoin d'engager le combat, utilisez W pour enchaîner avec votre capacité ultime.",
+    "Attaquez avec la touche E puis maintenez la touche Q enfoncée pour vous déplacer derrière votre adversaire. Utilisez à nouveau votre E pour les effrayer dans la mauvaise direction",
+    "Jaws of the Beast (Q) will follow enemies who run, dash or teleport if you keep the button held down.",
+    "Infinite Duress (R)'s reach increases with any Move Speed gained, including from ally buffs and summoner spells."
+  ],
+  "rejected": [
+    { "idea": "Contrainte infinie (R) passe par-dessus les murs, quelle que soit leur épaisseur", "reason": "Une seule source explicite (KingStix, 2019) ; le wiki ne le dit pas, guides écrits non lisibles (Mobalytics 403, Tacter 404)." },
+    { "idea": "Maintenir Dents de la bête (A) pendant l'animation de Contrainte infinie (R) pour suivre un Flash à la fin de l'ult", "reason": "Une seule source (Feenixd) ; le wiki indique que les sorts sont bloqués pendant la canalisation de R." },
+    { "idea": "Ne pas lancer Hurlement bestial (E) avant l'ult car l'atterrissage met fin à la réduction de dégâts", "reason": "Obsolète (KingStix, 2019) : le wiki actuel précise que la R déclenche la relance sans couper la réduction de dégâts." },
+    { "idea": "Combo citant un effet de rune déclenché par les coups de l'ult", "reason": "Rune : interdit par le brief." }
+  ],
+  "toVerifyInGame": [
+    "Hurlement bestial (E) actif puis Contrainte infinie (R) : peur déclenchée par la suppression et réduction de dégâts conservée.",
+    "Flash pendant la charge de Dents de la bête (A) : bloqué 0,4 s puis interrompt la charge.",
+    "KingStix (déc. 2019) a plus de 18 mois : seuls les points recoupés avec le wiki au patch 16.22 sont retenus."
+  ]
+}

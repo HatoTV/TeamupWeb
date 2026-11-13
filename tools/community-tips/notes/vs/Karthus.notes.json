@@ -1,0 +1,119 @@
+{
+  "searches": 5,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] Uh Kindred is actually a pretty hard match-up. If she gets really fed, it is hard to play into her. Once Once she has a lot of uh stacks or or like marks or whatever, and then like she her ult counters my ult as well.",
+    "[0] Sivir is the ultimate ADC counter to Karthus, and Soraka is a massive counter to Karthus, obviously.",
+    "[0] I also struggle into Akali as well because Akali is one of those champions that once uh she gets her ult, she can kind of one-shot me, and I can't really outplay it.",
+    "[0] My score line obviously doesn't look the greatest because I'm kind of the one that's just running into them and just utilizing my passive.",
+    "[1] I just want to get invaded and then and then I get uh killed in my jungle. Then the game is like really screwed for me.",
+    "[1] I can't press R right now cuz Lulu will just shield the Jinx.",
+    "[1] So, it's kind of a waste of an ultimate because Lulu would have shielded herself and then Jinx doesn't even die.",
+    "[2] I think again the lesson you can take it from my personal game, if you're playing something vulnerable of getting invaded in the early game, plan around it. So, I am playing Karthus, I am vulnerable in the early game",
+    "[3] Donc le meilleur moyen de [ __ ] un mec qui farme trois fois plus vite que toi, c'est de le [ __ ] dans sa jungle. Tu joues pas à la course du farm versus un mec qui farme trois fois plus vite que toi.",
+    "[3] Je pense que son passif il la tue.",
+    "[3] Cartus c'est très fort parce qu'il peut Q Z tu es obligé de prendre le Q et tu es obligé de prendre le deuxième et les isolés font trop de dégâts chez Cartus.",
+    "[3] personne ne cover de des duelistes qui est la seule faible de la faiblesse de Cartus, c'est un énorme du liste te défonce en V1 et souvent c'est un peu des duellis zigzag, tu vois, genre Kalista, Lucian, Riven, Fiora et cetera."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Vpm05YBy0ww",
+      "channel": "Karhus ",
+      "result": "utilisé (passages 0:18-1:00, 11:51) ; même créateur que tbphryg51oQ = 1 source"
+    },
+    {
+      "id": "TPEZ-VTMXKs",
+      "channel": "HuzzyExtra",
+      "result": "utilisé (passage 16:48-17:20) ; voix anglaise, en-orig"
+    },
+    {
+      "id": "tbphryg51oQ",
+      "channel": "Karhus ",
+      "result": "utilisé (passages 1:18, 5:45-6:10)"
+    },
+    {
+      "id": "taTaWy30uPM",
+      "channel": "Kazewalol",
+      "result": "utilisé (passages 4:00, 13:13, 29:19, 36:34) ; voix FR, sous-titres fr auto, transcription bruitée"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/karthus/counters",
+      "result": "no-tips (aucun conseil écrit contre Karthus)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Invade Karthus tôt, ne pas faire la course au farm",
+      "sourceIdx": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources indépendantes (Karhus [1], HuzzyExtra [2], Kazewalol [3])"
+    },
+    {
+      "idea": "Déni de mort : il lance encore ses sorts après sa mort, s'éloigner, R possible",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : continue de lancer des sorts après la mort)"
+    },
+    {
+      "idea": "Pas de dash : duellistes/assassins gagnent le 1v1, le punir seul",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (Karhus Akali one-shot, Kazewalol duellistes) ; DDragon : aucun sort de mobilité"
+    },
+    {
+      "idea": "Requiem canalisé 3 s puis touche tous les champions ennemis : shield/heal prêt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (Karhus, 2 vidéos) + DDragon (canalisation 3 s, sans limite de distance)"
+    },
+    {
+      "idea": "Dévastation plus forte sur cible isolée : rester près des sbires",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts accrus si un seul ennemi touché)"
+    },
+    {
+      "idea": "Lane phase de Karthus mid/bot très faible",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip lane"
+    },
+    {
+      "idea": "Sivir / Soraka / Kindred counters spécifiques",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: dépend du champion joué, 1 source"
+    },
+    {
+      "idea": "Acheter de la MR tôt",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: conseil d'item interdit"
+    }
+  ]
+}

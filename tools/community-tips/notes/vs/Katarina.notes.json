@@ -1,0 +1,163 @@
+{
+  "searches": 5,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] The lane plan from Kata is generally speaking her level one is one of the most dog [ __ ] level ones in the game because of the fact that she doesn't really have ways to proc daggers long cooldowns.",
+    "[0] So level one is where she just has to give full priority of the wave",
+    "[0] Now great, as as we know, Kata has really weak level one B. So, I'm stepping up quite aggressively versus the kata.",
+    "[0] And my goal is just to deny her mean.",
+    "[0] Besides that, we got to understand that the moment Kata tries out her queue, we want to get away from this dagger. We need to get away from these daggers cuz that is her trading opportunity. The moment Katarina jumps onto her dagger, her E cooldown gets refunded",
+    "[0] we just nicely let the wave get pushed towards our side cuz Katarina in the early game is really weak and has no wave clear strength.",
+    "[0] So, what I do right now is I manage the wave where it's kind of stuck on my side, preventing him from taking all in. And I try to stand outside of the wave. So, I'm never in a position where I'm directly in line with the minions.",
+    "[0] But if I stand right here, she needs to make a decision. Am I jumping on the top side and hitting the Ahri, or am I jumping on the bot side and hitting the minions? So standing outside of the wave is an incredibly important fundamental whenever you play against Katarina.",
+    "[0] I'm standing outside of the wave. And because of that reason, the Q also doesn't bounce to me. It bounces to these creeps right here. The dagger is completely useless.",
+    "[0] I now just freeze the wave state again because she can't unfreeze it. She needs to use her entire kit to unfreeze it.",
+    "[0] So, you got to usually use your spells a little bit more reactively versus Katarina because her E is so good at being at being reactive.",
+    "[0] Why can I throw this charm out? Because I know that she's still on cooldown with her E. ... So I knew that I could charm and there wasn't a way for her to dodge it yet.",
+    "[0] they do Q and then they E onto the the Q onto this dagger. they instantly press W. Why do they do that? Because they expect you to throw their spells onto them because at that point, what you're going to do is they get the move speed from the W and they can dodge out on your spells.",
+    "[0] And that's also the reason why we slow push because if we hard push, she's going to be in a spot where she could potentially like nuke the wave and make plays on the side.",
+    "[0] You see, I'm constantly dancing away from these daggers. Really slow trading, and I'm just trying to deny her last hits.",
+    "[1] Obviously, I gained a health advantage level one cuz they ined before the wave even got here. But even if there was no health advantage, I would still do this.",
+    "[1] Because even if the Katarina cues me, I'm not walking in range of my melees. So, it won't bounce to the melees. She will queue me. It will do like 70 damage, give or take, but she'll get no minions, zero minions",
+    "[1] And if she ever walks up, I can just W auto or auto W auto and I win the trade. The goal is to slow push and then crash and then bounce the wave.",
+    "[1] So you can see here I'm only last hitting. My goal is to keep this wave alive as long as possible for this next wave.",
+    "[1] Katarina has to struggle the last hit.",
+    "[1] But the goal is to let the wave bounce back to us, deny as many minions as possible. You can see right now I have 13 CS. She has five",
+    "[1] That's how you beat her is by slow pushing the wave. Every range champion can do this.",
+    "[2] channels for up to 2.5 seconds, rapidly throwing a dagger every 0.166 seconds",
+    "[2] Abilities: Interrupts. (Death Lotus channel table; cast-inhibiting effects listed as interrupts)",
+    "[2] reduce Shunpo's current cooldown by 78% / 84% / 90% / 96% (based on level) of its total cooldown.",
+    "[2] gains bonus movement speed that decays until it lands after 1.25 seconds"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "ifxPsLiUYaE",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 2:44-13:37), publiée 2026-03-16, coach Master+ (chaîne secondaire de Coach Mysterias)"
+    },
+    {
+      "id": "4zU6OAnwoHY",
+      "channel": "Petricite",
+      "result": "écarté : gameplay Sylas presque sans commentaire, aucun passage sur le matchup (aucun mot-clé trouvé)"
+    },
+    {
+      "id": "werghP-npiQ",
+      "channel": "KatEvolved 2",
+      "result": "utilisé (passages 0:00-4:20, phase de lane contre Katarina), publiée 2026-02-27 ; le reste de la vidéo est hors sujet"
+    },
+    {
+      "id": "Z7IVv5bEJmk",
+      "channel": "wundrew",
+      "result": "écarté : aucun sous-titre en-orig ni en disponible (compté dans le plafond de 4)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Katarina",
+      "result": "ok"
+    },
+    {
+      "url": "https://op.gg/lol/champions/katarina/counters/mid",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/katarina/",
+      "result": "no-advice"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rester hors de la ligne de ses sbires pour que la Lame rebondissante (A) ne rebondisse pas sur toi",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (rebond sur ennemis proches vérifié DDragon)"
+    },
+    {
+      "idea": "Lvl 1 très faible : avancer, harass, refuser les last hits",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Slow push / garder la wave de son côté, waveclear early faible",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "S'éloigner des dagues : les ramasser réduit le CD du Shunpo (E)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Shunpo : ramasser une dague réduit son CD), précisé par le wiki"
+    },
+    {
+      "idea": "Lotus mortel (R) canalisé : interrompu par stun / knock-up / silence",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (« while she channels ») ; wiki : les effets qui empêchent de lancer des sorts l'interrompent"
+    },
+    {
+      "idea": "Garder ses skillshots de CC tant que le Shunpo (E) est dispo",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Shunpo = blink, CD 12-8 s). Chiffre « 3 s » de la vidéo non repris (contredit par DDragon)"
+    },
+    {
+      "idea": "Après A-E, elle lance Préparation (Z) pour la vitesse et esquiver tes sorts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Préparation : vitesse de déplacement décroissante)"
+    },
+    {
+      "idea": "Gagner le lvl 3 en premier (3e wave)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: sources contradictoires (KatEvolved dit que son lvl 3 en premier n'importe pas si la wave rebondit)"
+    },
+    {
+      "idea": "Sous 60 % de PV tu es en kill range",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil de lane"
+    },
+    {
+      "idea": "Le jungler peut punir Katarina pendant le slow push vers toi",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, macro"
+    },
+    {
+      "idea": "Attention aux roams après son palier de waveclear",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, macro"
+    }
+  ]
+}

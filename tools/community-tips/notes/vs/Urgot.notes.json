@@ -1,0 +1,111 @@
+{
+  "searches": 3,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] Ah tu tu veux tr tu as plus ton E perdu tes passifs et j'ai tr avec moi en fait.",
+    "[0] je peux esquiver ici j'ai esquivé son queue donc je peux potentiellement aller sur lui.",
+    "[0] Si le mec veut faire un passage en force, du coup il a pas de sort, tu vois, il vient de perdre son E, il vient de perdre son Z, tu esquives son cul, tu mets mid life et après tu peux prendre la tour et le tuer.",
+    "[1] Alors, faut jouer autour de ses pattes.",
+    "[1] Je pense qu'il faut que je flash quand même son spell son R. Mais bon, faut avoir le réflexe, ça va assez vite.",
+    "[2] On a dodge le R de Urgot et le flash. On a pas full flash. On a flash pile à la range de la tourelle pour pas se prendre le coup de tourelle.",
+    "[3] Elle peut facilement dodge le E d'Urgot au moins mais c'est tout. Ouais mais en fait Urgot a pas à claquer son E à part si je le E in et si je le E in, bah il peut toucher son E assez facilement quand même.",
+    "[4] Avoid being pulled in with his (E) while maintaining your distance."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "eT0gtkhFiwQ",
+      "channel": "Kazewalol",
+      "result": "utilisé (passages 1:40-1:45, 2:29-2:34, 16:11-16:18) ; vidéo très centrée Fiora (Parade), seules les idées génériques gardées"
+    },
+    {
+      "id": "vXk14MvESAY",
+      "channel": "WoitlanDunk ",
+      "result": "utilisé (passages 3:04, 8:16-8:23) ; peu de commentaire sur le matchup"
+    },
+    {
+      "id": "6GS7Q_m7ZBU",
+      "channel": "Vallheim • League of Legends",
+      "result": "utilisé (passage 6:13) ; surtout commentaire de stream, peu de conseils"
+    },
+    {
+      "id": "EpjOTMgR1Mw",
+      "channel": "GoBGG",
+      "result": "utilisé (passage 14:30-14:38) ; Kled vs Urgot, peu de conseils"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/urgot/counters/top",
+      "result": "ok (1 tip écrit utile, sans date : traité comme > 2 ans, mécanique seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Esquiver ou Flash le R (skillshot, premier champion touché, exécution sous un seuil de PV)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R : premier champion touché, recast sous le seuil, suppression)"
+    },
+    {
+      "idea": "Garder ses distances / esquiver le E (stun + projection derrière Urgot)",
+      "sourceIdx": [
+        3,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E : stun, lancé derrière Urgot) ; op.gg seulement pour la mécanique"
+    },
+    {
+      "idea": "Ne pas engager tant que le E est dispo, engager et trade dès qu'il l'a utilisé",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Esquiver la Q (zone ciblée, slow) puis punir pendant son CD",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q : charge à l'endroit ciblé, slow, CD 10-8 s)"
+    },
+    {
+      "idea": "Jouer autour des jambes (passif) : trade après une salve",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif déclenché périodiquement par les attaques et la Géhenne) ; détail du CD par jambe non vérifiable, pas écrit"
+    },
+    {
+      "idea": "Warder le bush au lvl 1 contre un cheese",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: tip de lane avec 1 seule source"
+    },
+    {
+      "idea": "Urgot joue comme un range en top : farmer prudemment en mêlée",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: trop vague, pas actionnable"
+    },
+    {
+      "idea": "La Géhenne (Z) ralentit Urgot : kiter pendant qu'il tire",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: vrai en DDragon mais aucune source"
+    }
+  ]
+}

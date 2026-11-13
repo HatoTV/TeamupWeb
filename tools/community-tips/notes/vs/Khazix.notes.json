@@ -1,0 +1,106 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] And whenever I fight Kha'Zix, I need to have the jump on him. If he has the jump on me, I immediately run away or I immediately lose the fight. And so whoever has the bush control, whoever is",
+    "[0] my goal is to just stay from stay away from the Kha'Zix because he'll beat me in the 1 v one and we'll be fine. We want to be on our camps on spawn.",
+    "[1] I mean you can do the same thing. Whoever jumps on whoever first usually wins, depending on bushes, depending on inventory.",
+    "[1] This champ sucks with no R. This champ sucks with no isolation. Play around that, bro.",
+    "[1] Uncoordinated, if they're alone, you're OP. They're always alone cuz no one has comms.",
+    "[1] you jump on this guy, you auto him, you cut back in the bush, you auto again. ... It's really up to your passive minion just like perma reset.",
+    "[1] Like you can use R offensively like you can with E evolve. You don't use also use it defensively.",
+    "[2] Okay, when you're playing against Kha'Zix as Graves, I mean, he has good one v one, but he can't really kill you if you have good stacks."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "6yiu1Q_g1Z8",
+      "channel": "Rank 1 Viego (perryjg)",
+      "result": "utilisé (passages 0:26, 3:50) : Viego contre Kha'Zix, engager en premier, l'éviter en 1v1"
+    },
+    {
+      "id": "9rZtLWlBlHs",
+      "channel": "Kaido Jungle",
+      "result": "utilisé (passage 0:00) : Graves contre Kha'Zix, bon 1v1 de Kha'Zix ; le reste du commentaire est peu exploitable"
+    },
+    {
+      "id": "xqG44sHcsN4",
+      "channel": "mohawk",
+      "result": "utilisé (passages 13:33-15:10, 20:01, 20:59) : OTP Kha'Zix, ce qu'il cherche (isolement, ult, buissons, premier engage)"
+    },
+    {
+      "id": "HXBuXZCAnNg",
+      "channel": "Kaido Jungle",
+      "result": "écarté : gameplay peu commenté, aucun conseil exploitable contre Kha'Zix (et même créateur que 9rZtLWlBlHs)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Le premier qui engage gagne le 1v1 ; contrôler les buissons, reculer s'il engage en premier",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Kha'Zix fort en duel tôt : l'éviter si on ne le bat pas en 1v1",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Rester groupé : la cible isolée prend plus de dégâts du A",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q : dégâts accrus sur les cibles isolées)"
+    },
+    {
+      "idea": "Il recharge son passif hors vision (aller-retour dans les buissons) : ward les buissons",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : hors vision, prochaine attaque = dégâts magiques bonus + ralentissement)"
+    },
+    {
+      "idea": "Sans R il est faible : punir quand l'ult est utilisée",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R : invisibilité + vitesse, CD 100/85/70)"
+    },
+    {
+      "idea": "Support qui warde seul avant le drake / ADC qui avance seul sur les mid waves = cibles",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: macro avec 1 seule source"
+    },
+    {
+      "idea": "Envahir Kha'Zix lvl 1 avec un jungler fort en duel (Graves)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, propre à Graves"
+    },
+    {
+      "idea": "Pinger son ult / quand il peut gank",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, contexte flou"
+    }
+  ]
+}

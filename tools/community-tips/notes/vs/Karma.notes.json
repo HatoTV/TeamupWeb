@@ -1,0 +1,144 @@
+{
+  "searches": 7,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] And then bad matchups. Think Ash for example, Nikico, Leblanc. What they have in common is that they have good damage and also Ash for example level six and Niko with the E Leank with the root they can go get on top of you root you really easy",
+    "[0] you are very squishy and and you can die in those combos so you need to be careful",
+    "[0] Pike and Blitzk. I would recommend you to ban Pike ... you're always going to be in that hook kill threat position.",
+    "[0] So I take their backs and I start very aggressive already level one. I hit my mantra Q on both of them.",
+    "[0] So, enemy Blin is trying to contest us the level two because they are pushing pushing and pressuring and for some reason is not spamming Q's on the wave",
+    "[0] getting contested in the wave or for level two use your abilities on the wave.",
+    "[0] You saw first Q on the wave. No need to mantra first wave hit every single caster minion and also Corki because he's standing on the wave.",
+    "[0] Again looking to try to use my area effect of the Q onto the minions and hit the enemy champions.",
+    "[1] it's critical you land your first ult and Q combo in lane. This is because the damage you deal level one is more than almost any other champion in the game",
+    "[1] you can use your Q on minions for the splash damage to hit the enemy if they're standing behind their minions or just a little further away.",
+    "[1] Your W is great at counter engaging if the enemy support fully commits to an engage.",
+    "[1] sometimes you want to flash early when you W the enemy. That way if they decide to flash, they won't break the tether, and it basically just guarantees a snare in key situations.",
+    "[1] And if I did miss my Q for whatever reason, the rest of my kit was a lot weaker.",
+    "[2] she has the strongest early laning phase and skirmishing power due to her ult being unlocked at level one",
+    "[2] Mantra Q does increased damage and instead leaves a 50% slow field for 1.5 seconds that then explodes to deal even more damage",
+    "[2] her W is a point and click tether that Roots them if it's not broken after 2 seconds",
+    "[2] Karma's level one is extremely strong so you want to utilize this to get control of the first Bush before minion spawn and poke with manra Q as they walk up for the first wave of minions",
+    "[2] threaten with Q when they approach for last hits and auto just enough to guarantee level two first over them pay attention to when they stand near minions as this allows you to land easy cues with the splash damage",
+    "[2] if it's unclear which Mantra to use just use Mantra Cube because hitting it will reduce the cool down of Mantra almost back to zero"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "écarté : guide général des types de supports, Karma cité seulement en win rates, aucun conseil"
+    },
+    {
+      "id": "IH0c6EeE1yY",
+      "channel": "Coach K",
+      "result": "utilisé (passages 21:11-21:58, 22:37-22:51, 25:42-26:49, 29:44, 31:01) ; vidéo de 23 mois"
+    },
+    {
+      "id": "Ra91r9dcRHg",
+      "channel": "EcoreLoL",
+      "result": "utilisé (passages 3:11, 7:00-7:13, 7:57, 8:27, 10:15)"
+    },
+    {
+      "id": "uTJ0xRVRTEg",
+      "channel": "Stunt",
+      "result": "utilisé (passages 0:51-1:00, 1:33-2:04, 2:34) ; vidéo de 20 mois"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/karma/counters/support",
+      "result": "ok (2 tips écrits génériques : fin de partie plus faible, non vérifiable en DDragon ; non retenu)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ne pas rester près des sbires : l'A explose sur le premier sbire et éclabousse",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Q : first target hit and surrounding enemies)"
+    },
+    {
+      "idea": "Karma très forte lvl 1 grâce au Mantra : respecter le poke, ne pas contester le buisson",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources (DDragon : Mantra available at level 1)"
+    },
+    {
+      "idea": "Casser le lien de la Z en sortant de portée pour éviter le root",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (root if the tether remains unbroken)"
+    },
+    {
+      "idea": "Punir un A renforcé raté : Mantra en long CD, réduit seulement par les sorts qui touchent",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Mantra CD 40/38/36/34 ; passif : damaging abilities reduce Mantra CD)"
+    },
+    {
+      "idea": "Karma spam l'A sur la wave pour le lvl 2 : reculer avant son lvl 2",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Karma fragile face aux engages et hooks : engager quand la Z est en CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Coach K : engages/hooks mauvais matchups ; Ecore : Z contre un engage)"
+    },
+    {
+      "idea": "Sortir du cercle de l'A renforcé avant l'explosion retardée",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Mantra Q : circle of flame, damage after a short delay)"
+    },
+    {
+      "idea": "Exaltation (E) donne de la vitesse à Karma pour connecter le lien : reculer tôt",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: trop proche de l'idée du lien de la Z (une idée par tip)"
+    },
+    {
+      "idea": "Karma faible en fin de partie : jouer la scaling",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source (op.gg sans date ne compte que pour une mécanique DDragon)"
+    },
+    {
+      "idea": "Réduction de CD du Mantra de 4 s par champion touché",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: valeur chiffrée non vérifiable dans DDragon"
+    }
+  ]
+}

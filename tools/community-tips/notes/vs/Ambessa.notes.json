@@ -1,0 +1,113 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] There's no dashes to work with. I can zone her off these minions. Wow, her Q came back up.",
+    "[0] I just took so much unnecessary extra damage from her second rotation of her Q. She's pretty low though.",
+    "[1] Je peux peut-être faire des petits trades dans les premiers niveaux s'ils sont bien trouvés, mais c'est tout.",
+    "[1] Et il faut que j'essaie de space du mieux que je peux ces sorts et que je joue beaucoup beaucoup en réponse. C'est elle qui aura l'initiation sur quasiment toutes les actions.",
+    "[2] nice nice I hit that Q2 she took Shield by the way like you have to play like that and just walk away cuz the second you engage",
+    "[2] I have to play like very not technical but like kind of calculated in a distant distant way and she can just go in in like any direction and she's going to get rewarded for it",
+    "[2] you saw what I could do where we could like poke a bit right because her spells were reasonably long cool down remember what I said no dash W she had to flash",
+    "[2] now when she has 15 ability haste that's enough for her to not only have enough damage to one shot you from any distance in the lane but there is no way you can poke her anymore"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "0whNn1ug9bs",
+      "channel": "Aatreus",
+      "result": "utilisé (passages 1:47, 6:58) ; peu commenté, surtout des builds"
+    },
+    {
+      "id": "pPXxTg_4Dh4",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 0:58-1:16)"
+    },
+    {
+      "id": "T14_XzGlqJQ",
+      "channel": "Naayil",
+      "result": "utilisé (passages 4:34, 8:22-8:36, 9:19-9:32) ; 21 mois, 39 min, beaucoup de hors-sujet"
+    },
+    {
+      "id": "OIMHSRJfdTM",
+      "channel": "1King",
+      "result": "écarté : il joue Ambessa / Olaf, aucun conseil contre Ambessa"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Dashs liés au lancement de sorts : sorts en CD = pas de dash, fenêtre pour zoner / trade",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : dash au lancement d'un sort)"
+    },
+    {
+      "idea": "Early : longs CD, petits trades possibles ; plus tard le poke devient risqué",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Elle a l'initiative : garder ses distances, espacer ses sorts, jouer en réponse",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Pendant son Égide dévastatrice (Z), ne pas la frapper et reculer",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W : dégâts accrus si elle a encaissé des dégâts de champion pendant la garde)"
+    },
+    {
+      "idea": "Après Frappe fourbe touchée, sortir de la ligne de Frappe fracassante",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q : toucher arme Frappe fracassante, frappe en ligne)"
+    },
+    {
+      "idea": "Respecter son lvl 6",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip lane"
+    },
+    {
+      "idea": "Si son ult rate, elle reste sur place sans punition",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Anti-heal contre l'omnivamp de son R passif",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: vérifié DDragon mais aucune source vidéo ne le dit"
+    },
+    {
+      "idea": "Elle récupère de l'énergie sur les sbires",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, pas un conseil actionnable"
+    }
+  ]
+}

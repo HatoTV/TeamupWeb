@@ -1,0 +1,135 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Don't you jump on people's heads? Isn't that fun? And you explode them. Like, but like what if you jump and then you lose?",
+    "[0] and then you can't do wave. It's like Draven where you can't do wave management",
+    "[0] So PR is talking about playing Tristana in 1KP challenger where you're going to get pushed in and can't jump on people.",
+    "[1] He wins auto for auto trades, right? And abuses your low range early game and can cancel your jump.",
+    "[1] Abuses your auto attack range, which is a huge difference between early game Caitlyn and early game Tristana.",
+    "[1] So, basically, if you jump in, you most likely die.",
+    "[1] that allows you to get more kills into resets, into clearing the entire enemy team, pretty much.",
+    "[1] my goal and my mindset in lane is first to always secure push. Second, to never go low because once you go low, you lose the ability to all in.",
+    "[1] you can essentially get the entire wave pushed in very fast if you just time Eing the tower on when the minion wave arrives",
+    "[1] you always, pretty much in most cases, want to use your E midair while you're flying with your W, because it just makes your E proc much faster, and therefore you get another jump",
+    "[2] Okay, just got the bomb on me. I'm going to back off.",
+    "[2] if just jumped on me instead of jumping away would have been a clean win for her. I think she would have finished me off if four times could kill her, then she would have still have a dash to get away with.",
+    "[2] If I don't uh stand defend mid, somebody can push this. Like Tristana especially would take that turret really fast.",
+    "[3] in this match-up, we are looking to cheese them because they do outrange us early on",
+    "[3] We ulted and then we make sure we land one auto while he's being pushed away so that we can get the kill.",
+    "[3] And this is E on cannons push faster. Whether you use E on cannon or the tower, it's up to you."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (chapitre Tristana 1:20:00-1:22:55)"
+    },
+    {
+      "id": "wxmxPC0KKeg",
+      "channel": "Neon LOL",
+      "result": "utilisé (passages 2:07-2:36, 4:41, 7:27-9:07, 12:02-12:15)"
+    },
+    {
+      "id": "sxrBz_DoAJI",
+      "channel": "Vaporaphelios",
+      "result": "utilisé (passages 1:17, 11:31, 19:19)"
+    },
+    {
+      "id": "NtGZBGXffIM",
+      "channel": "SaskioCommentary",
+      "result": "utilisé (passages 0:32, 9:24, 13:34)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Saut roquette (Z) = engage et fuite ; punir quand il est utilisé pour rentrer (CD 22-14 s)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (CD W 22/20/18/16/14)"
+    },
+    {
+      "idea": "Charge explosive (E) sur la tour : elle prend les tourelles vite, ne pas la laisser seule en side",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (E se pose sur un ennemi ou une tour)"
+    },
+    {
+      "idea": "Portée courte en early qui grandit avec les niveaux : trade à portée max si tu as plus de range",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : portée augmente avec le niveau)"
+    },
+    {
+      "idea": "Bombe E sur toi : reculer ; 4 charges = explosion immédiate + recharge du Z",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (max 4 charges, explosion immédiate, recharge W)"
+    },
+    {
+      "idea": "Disputer la prio : Tristana poussée sous sa tour ne peut pas sauter",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Kills/assists rechargent le Z : pas de reset gratuit en teamfight",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (takedowns refresh W)"
+    },
+    {
+      "idea": "R = finisher (knockback + stun), rester hors des 550 de portée quand on est bas",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R : knockback + stun, portée 550)"
+    },
+    {
+      "idea": "Elle joue le lvl 2 en premier et saute quand tu es encore lvl 1",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: tip de lane, 1 seule source"
+    },
+    {
+      "idea": "Un CC en plein vol annule son Saut roquette (Z)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, interaction non vérifiable dans DDragon"
+    },
+    {
+      "idea": "La mettre bas en PV : basse, elle ne peut plus all-in",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: tip de lane, 1 seule source"
+    }
+  ]
+}

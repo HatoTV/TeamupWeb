@@ -1,0 +1,142 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] So, we need to manage the waves in such a way that we are always preventing Yasuo from getting these extended trades.",
+    "[0] The worst wave state that you can have is a wave state that's fast pushing into him, so he can either freeze it, or a wave that just ends up frozen right here where you don't crash it all time, and it just ends up frozen.",
+    "[0] So, they're going to start suiciding. They're vulnerable to ganks.",
+    "[0] Because Yasuo plays the war of attrition with second wind and with D shield, and this leads to him being in a position where if we trade equally, he wins cuz he's got regen and I do not. So, you want to prevent trade. You want to play trade avoidant.",
+    "[0] Versus Yasuo, you always want to stand more outside of the wave because that way he struggles E-ing on top of your face.",
+    "[0] I'm constantly trying to proc off his passive as well. That is like my goal. Keep his passive procced. That way it's harder for him to find these engages with his E.",
+    "[0] What you need to do is either wait for your jungle, ask for your jungle to come, or bait out trades, right?",
+    "[1] And as long as, as you can see, look at where the wave state is. We want to thin this out, but as long as the wave is pushing towards us, we could easily go for safe trade.",
+    "[1] I let the wave state push to me and it puts Yasawa in a very awkward spot where he feels like I have to kill Karina quickly before the jungler ganks me.",
+    "[1] Always try to remove his passive.",
+    "[1] Dodging his tornadoes is definitely key. If you allow him to land too many, you would be losing way too much HP and you would put yourself in danger of getting uh alted by him.",
+    "[1] We saw him use his wind wall. Boom.",
+    "[1] Oh, he uses wind wall. Keep that in mind. His wind wall is on like a 20 second cool down.",
+    "[2] On dodge encore la tornade. Parfait. Nice bon dodge du queue.",
+    "[2] Yaso c'est mobile en lane mais en team fight quand il a pas de wave de bear, c'est pas le truc le plus chiant à toucher.",
+    "[2] en vrai seul secret pour exploser un Yasou au top c'est de jouer safe en early d'attendre le scale de ton champ",
+    "[3] So, I'm actually not going to play for lane at all. Like against Yaso, you're actually never going to win your lane.",
+    "[3] So, what you want to do in this lane is try to hold the wave close to your tower. Don't over push it because he wins allins always and he out sustains you.",
+    "[3] So, because my jungler was nearby and he dashed on me, I just insta R him.",
+    "[3] it's just very easy to set up the gank.",
+    "[3] I just want to poke him down, get his shield, and then I can start poking him down when he dashes in."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "tuk5RzzNKq4",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 1:10-2:31, 2:43-4:37, 7:13-7:40) : guide complet contre Yasuo mid, chaîne secondaire de Coach Mysterias"
+    },
+    {
+      "id": "GGWclqP-z54",
+      "channel": "ACEE1",
+      "result": "utilisé (passages 0:20-1:49, 5:24-6:22, 8:08-8:52) : Katarina vs Yasuo commenté"
+    },
+    {
+      "id": "2I1BOaFeu7E",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 0:48, 6:00, 13:00-13:12) : Zaahen vs Yasuo top commenté en FR"
+    },
+    {
+      "id": "mApWMhvLYaw",
+      "channel": "FEBIVEN",
+      "result": "utilisé (passages 0:12-0:58, 2:56-3:19) : Orianna vs Yasuo, ancien pro"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Faire sauter son shield passif avant le vrai trade",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (passif : shield construit en se déplaçant, déclenché par les dégâts d'un champion)"
+    },
+    {
+      "idea": "Garder la wave de son côté, près de sa tour, ne pas fast push chez lui",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Éviter les trades en early, attendre son scaling",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Esquiver la tornade (A à 2 stacks, knock-up)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (2 stacks de Gathering Storm : tornade qui projette)"
+    },
+    {
+      "idea": "Se placer hors de la wave pour qu'il ne puisse pas E de sbire en sbire",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E traverse une cible, CD par cible)"
+    },
+    {
+      "idea": "Il force quand la wave est chez toi : jungler proche, il est gankable",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (1 le mentionne aussi)"
+    },
+    {
+      "idea": "Tout knock-up active son R après le lvl 6",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Dernier soupir : se téléporte sur un champion projeté)"
+    },
+    {
+      "idea": "Mur de vent utilisé : fenêtre pour poke ou engage avec projectiles",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 25/23/21/19/17 s, bloque les projectiles 4 s)"
+    },
+    {
+      "idea": "Après le lvl 6, hard push et roam",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, macro exige 2"
+    },
+    {
+      "idea": "Garder ses spells pour quand il E sur un sbire",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: limite de 8 tips, appui faible de la source 0"
+    }
+  ]
+}

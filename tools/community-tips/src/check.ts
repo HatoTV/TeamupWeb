@@ -13,7 +13,7 @@
 // - vs/ files: same rules, one list of tips; anti-heal may be advised there without naming an item.
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { agreementIssues, parseGenders } from './agreement.ts';
-import { CHANNELS_FILE, DATA_DIR, GLOSSARY_FILE, GLOSSARY_MD, NOTES_DIR, SITES_FILE, VS_DIR, VS_NOTES_DIR, readIndex, readVsIndex } from './paths.ts';
+import { CHANNELS_FILE, DATA_DIR, STATIC_DIR, GLOSSARY_FILE, GLOSSARY_MD, NOTES_DIR, SITES_FILE, VS_DIR, VS_NOTES_DIR, readIndex, readVsIndex } from './paths.ts';
 import { MAX_TIP_WORDS, communityTipsSchema, compareTips, notesSchema, pairKey, vsTipsSchema, type Tip } from './schema.ts';
 
 /** Run of consecutive words shared with a source sentence that counts as copying. */
@@ -48,10 +48,20 @@ const titleRules = new Map(
   Object.entries(channels.guides ?? {}).flatMap(([name, g]) => (g.titleMustInclude ? [[name.trim(), g.titleMustInclude.toLowerCase()] as const] : []))
 );
 
+const byVersion = (a: string, b: string) => a.localeCompare(b, 'en', { numeric: true });
 const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // Names shared with abilities (Janna's passive « Zéphyr ») or gameplay words (recall) are not build advice.
 const notBuild = new Set(['Recall', 'Rappel']);
 for (const c of Object.values(glossary.champions)) for (const a of [c.passive, ...c.abilities]) notBuild.add(a.en).add(a.fr);
+// Champions newer than the glossary (e.g. Yunara's « Célérité des kanmei »): names from the static Data Dragon files.
+for (const lang of ['en_US', 'fr_FR']) {
+  const dir = `${STATIC_DIR}/${readdirSync(STATIC_DIR).sort(byVersion).at(-1)}/${lang}/champions`;
+  if (!existsSync(dir)) continue;
+  for (const f of readdirSync(dir)) {
+    const c = JSON.parse(readFileSync(`${dir}/${f}`, 'utf8')) as { passive: { name: string }; spells: { name: string }[] };
+    for (const a of [c.passive, ...c.spells]) for (const name of a.name.split(' | ')) notBuild.add(name);
+  }
+}
 const buildNames = [...Object.entries(glossary.items), ...Object.entries(glossary.runes)]
   .flat()
   .filter((name) => name.length >= 4 && !notBuild.has(name));

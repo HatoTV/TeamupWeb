@@ -12,6 +12,8 @@ export const GLOSSARY_FILE = root('tools/i18n-matchups/glossary.json');
 export const GLOSSARY_MD = root('tools/i18n-matchups/glossaire-lol-fr.md');
 export const SITES_FILE = root('tools/community-tips/sites.json');
 export const CHANNELS_FILE = root('tools/community-tips/channels.json');
+/** Static Data Dragon data published for the site (one folder per version). */
+export const STATIC_DIR = root('public/data/lol/static');
 /** « How to play against {champion} » files, their notes and their resumable progress. */
 export const VS_DIR = `${DATA_DIR}/vs`;
 export const VS_INDEX_FILE = `${VS_DIR}/index.json`;

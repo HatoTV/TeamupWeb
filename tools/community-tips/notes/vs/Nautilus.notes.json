@@ -1,0 +1,117 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] level one what me and Jinx want to do is we're going to stand behind the minions and just try to poke out the Nautilus and Jinx as much as possible so that they don't get their all in potential level two.",
+    "[0] Just looking very carefully and playing behind minions here.",
+    "[0] I'm going to stand behind this wall so he can't hook me.",
+    "[1] What do I do now? Because I cannot hook them because the tower is we are under tower and the wave is too close.",
+    "[1] You push the wave and then when it crashes it opens up a lot of for you, right? What it opens up is that you can move here to check where the enemy jungler ... You can run towards mid lane.",
+    "[1] So you are faster getting level level two than the enemy support.",
+    "[1] He should never lose the level two here in this lane just because of how I explain you like how he should be playing.",
+    "[2] What's really important to mention though is when you're Nautilus ulting that the people in front of the Nautilus ultimate are also getting knocked up.",
+    "[3] Ici, votre ADC met un peu de temps à B. Donc du coup, ça vous laisse une opportunité d'aller à la midlane, ce qui est très intéressant parce que Nautilus est un excellent gurer.",
+    "[3] Donc là il a pouche, il décale dans la foulée, il essaie de link avec au minimum son midliner"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "5DFoZ6eOdy0",
+      "channel": "needyhenry 2nd channel",
+      "result": "utilisé (passages 1:04-1:25, 2:11, 4:47, 10:53-11:10, 14:40) ; sous-titres fr = traduction automatique (voix anglaise), écartés, relu en en-orig"
+    },
+    {
+      "id": "Pql8JAQK6IE",
+      "channel": "Coach K",
+      "result": "utilisé (passages 21:30-22:35, 2:21:01-2:21:50), recherche par mots-clés dans un live de 3 h 25"
+    },
+    {
+      "id": "AxSIxtIGWYc",
+      "channel": "Varry",
+      "result": "utilisé (passage 4:26-5:03) ; le reste = runes/objets ou mécaniques non vérifiables dans Data Dragon"
+    },
+    {
+      "id": "TNw8dqlSjXI",
+      "channel": "Lelariva",
+      "result": "utilisé (passages 8:25, 15:18), voix FR"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Rester derrière ses sbires : l'Abordage (A) s'arrête sur le premier ennemi touché",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q : « If it hits an enemy… »)"
+    },
+    {
+      "idea": "Nautilus joue le lvl 2 pour all-in : poke au lvl 1, gagner la course au lvl 2",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Nautilus roam au mid quand sa wave crash / quand son ADC est en base",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Se mettre derrière un mur : l'Abordage (A) qui touche le décor tire Nautilus, pas toi",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q : « If the anchor hits terrain, Nautilus will drag himself towards it »)"
+    },
+    {
+      "idea": "Ne pas se placer entre Nautilus et la cible de sa Grenade ASM (R)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R : « Other enemies hit by the shockwave are also Knocked Up and Stunned »)"
+    },
+    {
+      "idea": "Sortir de la portée de sa tour pour ne pas être hook sous sa tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source (Coach K parle de hook sous la tour adverse, idée inverse)"
+    },
+    {
+      "idea": "Abordage (A) dans un mur : moitié du CD remboursée",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, remboursement absent de Data Dragon"
+    },
+    {
+      "idea": "Coup écrasant : root une fois par cible puis CD par cible",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, CD par cible absent de Data Dragon"
+    },
+    {
+      "idea": "Faire gâcher son ult (bait)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable"
+    }
+  ]
+}

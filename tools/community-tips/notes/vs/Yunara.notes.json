@@ -1,0 +1,148 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] But when she hits level six, she becomes a beast.",
+    "[0] you practically need either six or more stacks because if I have six stacks, I can do auto attack, get two more stacks, and insta activate my queue.",
+    "[0] if I use my Q, they can only me when my Q's expired. And because of that, it's better to hold your Q sometimes.",
+    "[0] you get a good value with the extended fight with her queue.",
+    "[0] It's also great to use your W and E before activating your ult because when she does that your E gets a insert refund so you still have a dash and your W gets around 70% cool down.",
+    "[0] I want to use R when the fight is actually committed or if I instantly need my empowered dash to survive or reposition.",
+    "[0] You can either hold your dash to bait a ski shot or just reposition and find better angles during the team fight.",
+    "[0] you can also use your E against skills like Ezreal Q, Caitlyn Q",
+    "[0] And if I just do this, they can just react.",
+    "[1] Le Z qui a avant était débola va être maintenant un laser et le E qui augmenté simplement en vitesse de déplacement maintenant, c'est un dash.",
+    "[1] ça va être d'utiliser son Z et son E juste avant d'ulti. Pourquoi ? Parce que le Z va avoir son délai de récupération réduit de 80 % et le E va être disponible instantanément.",
+    "[1] quand vous voulez pche une wave, vous voulez mettre une auto sur chaque CS pour essayer de charger vos stacks et une fois que vous les avez, vous pouvez auto un seul et la wave va se va se tuer toute seule.",
+    "[1] on veut juste qu'elle ait son queue tout le temps de prête au cas où ça ça se fight.",
+    "[1] Par contre Yunara ça va être plutôt faible contre des champions qui vont essayer de prendre des trades rapides et pas faire des longs fights.",
+    "[1] Lucian sans combo dure pas assez longtemps pour que Yonara et son Q stack et typiquement il a aussi un dash pour dodge le W.",
+    "[2] Yuna are hard pushing the wave, try to get up to six stacks, and then try to turn trade on her own terms",
+    "[2] once we hit six, we're going to have barrier, we're going to have Volti, and I think that's going to be the time for Inara to go in."
+  ],
+  "videosRead": 5,
+  "videosTried": [
+    {
+      "id": "KQ4GpTlj1aY",
+      "channel": "Sididi • GM ADC VOD",
+      "result": "écarté : stream avec discussion du chat, aucun conseil exploitable contre Yunara (recherche par mots-clés seulement)"
+    },
+    {
+      "id": "Lhuu1OKy9iM",
+      "channel": "Gunfire ADC",
+      "result": "utilisé (passages 0:51-1:03, 3:54-5:15, 6:11-6:52, 7:19-8:12, 12:14-12:53)"
+    },
+    {
+      "id": "oMoIVzAp8Jw",
+      "channel": "Bibou - League of Legends",
+      "result": "utilisé (passages 2:08-2:52, 12:37-12:55, 13:29, 14:11, 17:35-17:45)"
+    },
+    {
+      "id": "liumuaqFhkA",
+      "channel": "inFinem",
+      "result": "utilisé (passages 0:33, 4:11-4:26)"
+    },
+    {
+      "id": "QKz1szqCN60",
+      "channel": "Daption",
+      "result": "écarté : 5e vidéo ouverte par erreur, au-delà du plafond de 4 ; non utilisée comme source"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Elle push pour stacker son A ; à 6 stacks une auto sur toi l'active",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Son E devient un dash pendant le R : engage après qu'elle l'a utilisé",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Untouchable Shadow : dash en Transcendent State)"
+    },
+    {
+      "idea": "Esquive son Z (skillshot qui ralentit, CD 10 s) puis trade pendant le CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (portée 1150, slow, CD 10)"
+    },
+    {
+      "idea": "Engage quand son buff de A a expiré, elle doit restacker",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (l'actif consomme les charges Unleash pour une durée limitée)"
+    },
+    {
+      "idea": "Respecte son lvl 6, c'est là qu'elle cherche l'all-in",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Trades courts : elle gagne les fights longs grâce à son A",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Z + E avant le R : E rendu tout de suite, Z presque rechargé",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (refund absent du tooltip DDragon, donc non vérifié)"
+    },
+    {
+      "idea": "Garde ton skillshot clé jusqu'à ce qu'elle ait utilisé son E",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E : vitesse de déplacement + Ghosted)"
+    },
+    {
+      "idea": "Elle n'a que 575 de portée : avec plus de range, poke-la et prends la wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: tip lane, 1 seule source retenue (Daption non utilisée)"
+    },
+    {
+      "idea": "Elle est faible du lvl 3 au lvl 5",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, et contredit par Bibou (faible en early en général)"
+    },
+    {
+      "idea": "Elle gère mal son mana si elle spam ses sorts",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: vidéo écartée, et Gunfire/Bibou disent qu'elle n'a pas de souci de mana"
+    }
+  ]
+}

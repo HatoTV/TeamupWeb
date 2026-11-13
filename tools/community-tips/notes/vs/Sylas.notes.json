@@ -1,0 +1,146 @@
+{
+  "searches": 5,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] And it's pretty hard to beat him whenever he lands his E on to you because he gets the passive auto attacks. He can extend the trade and most champions actually cannot really beat him at that point.",
+    "[0] A basic rule of thumb is if the E lands, you lose like nine out of 10 times.",
+    "[0] And if you have these minions to back you up, it's also way harder for him to get close to you because he's and especially find E angles because then the minions are backing you up",
+    "[0] So, I hard pushed the wave to find myself a good early reset and because he also needs to reset because I heavy traded before, he's basically in a position where he's now [ __ ] because I did a bit of a reset trap onto him.",
+    "[0] Silas really struggles with one-shotting the wave.",
+    "[0] Yes, he can steal any R of the game, but if he steals that, then his R has way longer cooldown than than than yours. It's like 150% as far as I know. So, if yours is 3 minutes, his is is 4 and 1/2 before he can steal yours again.",
+    "[0] it's totally fine for you if you just trade ults because then he cannot really steal your ult again, and your next skirmish can potentially play a whole lot better.",
+    "[0] whenever they need to last hit a minion as a melee champion, they're going to use this Q very efficiently. So, what they do is instead of walking up and auto attacking a minion, they will actually then try to AOE you and that minion at the same time",
+    "[1] Usually what they're going to do with this setup is they're going to start E level one. So you kind of want to play around your minions to block their E damage.",
+    "[1] We're going to punish the last hits here on the silus cuz he has he has Q. Now we have to be mindful of that to dodge his Q damage.",
+    "[1] Give him more incentive to throw his Q out by standing at nearby low HP minions. And now we move out just like that.",
+    "[1] Now we fast push the wave and we are going to deny him a lot of u XP and gold.",
+    "[1] Let's see if we can cancel his reset now. ... But we cancel his base and now he's going to lose. I believe he actually loses almost a full wave here.",
+    "[1] And again, you see because we based on a canon wave, he's really struggling to push this wave in.",
+    "[1] Also, the reason I'm not going for RE combo on the Silus here is because he has his E, right? you can very easily dodge your u re.",
+    "[1] If I have bone plating, I would take that. But um or ignite as well because he's going to heal back up a lot.",
+    "[2] On-Target Cooldown: 200% of target's base ultimate cooldown",
+    "[2] Sylas cannot select the same champion again for a set duration, and can hold the hijacked ultimate for up to 90 seconds, during which he can recast Hijack.",
+    "[2] whips out his chains in the target direction that deal magic damage to the first enemy hit and reveal and stun them for 0.5 seconds.",
+    "[2] If this damages a champion, Sylas is also healed, increased by 0% – 100% (based on his missing health)."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "biBh5tXJs24",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 0:27-0:39, 2:44-3:47, 4:14-4:26, 7:04-7:30, 8:10-8:23)"
+    },
+    {
+      "id": "9g-qFm-ctdw",
+      "channel": "Kunain",
+      "result": "utilisé (passages 0:09, 1:22, 1:41, 3:17-4:22, 8:17, 8:57-9:08)"
+    },
+    {
+      "id": "y0ivGgSn1XY",
+      "channel": "Petricite",
+      "result": "écarté : partie en stream avec discussion, aucun conseil contre Sylas malgré le titre"
+    },
+    {
+      "id": "IFXnnXxSpkA",
+      "channel": "Raiko - League of Legends",
+      "result": "écarté : commentaire FR de macro et d'items, aucun conseil propre à Sylas"
+    },
+    {
+      "id": "-P70W7kW3Qk",
+      "channel": "Peng",
+      "result": "écarté : aucun sous-titre en-orig ni en disponible (non ouvert)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Sylas",
+      "result": "ok"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rester derrière ses sbires : l'E2 s'arrête sur le premier ennemi touché",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (le wiki confirme « first enemy hit »)"
+    },
+    {
+      "idea": "Il utilise son A sur les last hits pour toucher aussi l'adversaire ; sortir puis trade pendant le CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Il clear mal : shove avant son back / reset trap, il perd des sbires",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Une fois ton ult volé, il ne peut plus le reprendre avant longtemps",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; le chiffre de 150 % de la vidéo est contredit par le wiki (200 %), donc aucun chiffre dans le tip"
+    },
+    {
+      "idea": "Si l'E touche, autos boostées du passif, trade perdu : esquiver l'E",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : charge après un sort, dégâts bonus et vitesse d'attaque ; Abduct le tire vers l'ennemi touché)"
+    },
+    {
+      "idea": "Garder son skillshot tant que l'Évasion (dash) est disponible",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Abscond = dash, CD 13-9 s)"
+    },
+    {
+      "idea": "Régicide le soigne sur les champions : Blessures graves",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Kingslayer heals himself against enemy champions)"
+    },
+    {
+      "idea": "Pire wave : tenue côté Sylas, il passe l'E par-dessus la wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Rester hors kill range et le grignoter, il est faible en retard",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Bouger en premier vers les escarmouches, ne pas facecheck",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    }
+  ]
+}

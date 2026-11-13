@@ -1,0 +1,114 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] since they're melee and if you are behind these melee minions, right? You are not only avoiding yourself from being hit by Ezreal Q",
+    "[0] as long as he's hitting abilities, he's getting stacking attack speed as long as he hits abilities up to five stacks. When he has about three to four stacks, this is when the guy becomes really problematic and you can just click Ezreal, right?",
+    "[0] if he has three stacks on the passive, maybe be a bit more cautious with how you want to fight this guy. But, if he has one or two, he just drops his stacks, whatever, you can always just track it",
+    "[0] he has this very wide missile, right? This very wide uh barrage",
+    "[0] However, it's quite easy for you to dodge with like RE and dodge to the side and then look to fight him as well.",
+    "[1] Ezril va gagner l'attaque speed sur chaque sort qu'il va mettre jusqu'à 5 stacks.",
+    "[1] Et si Kaisa joue bien derrière ses CS, si elle joue bien, la clé en fait c'est les CS dans ce matchup. Si la Kaesa se cache bien, si la Kaesa joue bien, ça va vraiment être très compliqué pour leil",
+    "[1] Encore une fois, tout se passe via le passif de Ezril dans ce matchup, je trouve. Euh et vous pouvez potentiellement trouver une fenêtre d'oline une fois que vous avez 5 snack",
+    "[1] Le Z va être une marque qu'on va appliquer à la première cible. Ça va traverser les sbir d'ailleurs. Donc ça ne touche pas les sbir, ça peut toucher uniquement les champions",
+    "[1] Le Z en fait il permet de traverser complètement et d'ignorer complètement les sbir pour venir chercher le le la personne dans sa wave.",
+    "[1] c'est un ulti global donc comme l'ulti de H, l'ulti de Jin et cetera et cetera et c'est un sort qui traverse les champions et les sbirs.",
+    "[1] on a un blink dans le kit du champion mais si en plus on a un que qui réduit les cooldown de de nos sorts mais ça veut dire que notre blink on peut le récupérer très vite."
+  ],
+  "videosRead": 5,
+  "videosTried": [
+    {
+      "id": "clJ7ny_SDTA",
+      "channel": "inFinem",
+      "result": "utilisé (passages 0:25-1:58, 13:16-13:57)"
+    },
+    {
+      "id": "6JepPSX2qV0",
+      "channel": "ArcadeKun",
+      "result": "écarté : clip de gameplay sans aucun conseil contre Ezreal"
+    },
+    {
+      "id": "4yC_MM19yU0",
+      "channel": "Booshi",
+      "result": "utilisé (PRO GUIDE ; passages 0:39-1:04, 1:36-1:55, 3:10-3:26, 4:09, 8:20, 32:11-33:10)"
+    },
+    {
+      "id": "-9QVa6cJ9GI",
+      "channel": "enryu",
+      "result": "écarté : partie commentée côté Ezreal ; seule idée (Ezreal fort au lvl 1) liée à une rune, non retenue"
+    },
+    {
+      "id": "hELVZi4dIn4",
+      "channel": "Neon LOL",
+      "result": "écarté : 5e vidéo ouverte par erreur, au-delà du plafond de 4 ; non utilisée comme source"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "R global, traverse minions et champions, temps de charge : esquive sur le côté",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (range 25000, « winds up », traverse chaque unité)"
+    },
+    {
+      "idea": "Rester derrière ses minions : le A s'arrête sur le premier ennemi touché",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (« first enemy hit »)"
+    },
+    {
+      "idea": "Surveiller ses stacks de passif (3+ = dangereux), engager quand ils retombent",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (5 stacks max sur sorts touchés)"
+    },
+    {
+      "idea": "Le Z traverse les minions, ne colle qu'aux champions / structures / monstres épiques",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : « first champion, structure, or epic jungle monster hit »)"
+    },
+    {
+      "idea": "Chaque A qui touche réduit tous ses CD dont le E ; s'il rate, fenêtre d'engage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : Q « reducing his Ability Cooldowns » ; E CD 26/23/20/17/14)"
+    },
+    {
+      "idea": "Ezreal très fort au lvl 1 grâce au passif",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 2e source (enryu) liée à une rune ; inFinem dit l'inverse pour Yunara"
+    },
+    {
+      "idea": "Il lance son R sur la wave pour obtenir 5 stacks",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, cumul par unité touchée non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Il vise le lvl 2 en premier pour all-in",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: seulement dans Neon (vidéo hors plafond), tip lane = 2 sources requises"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "champion": "Yone",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Trade E puis A3",
+        "en": "Basic E into Q3 trade"
+      },
+      "keys": [
+        "E",
+        "Q",
+        "W"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Prépare ton A3 sur la wave, puis Libération spirituelle (E) pour coller ta cible et enchaîne A3, auto, Fendoir spirituel (Z), auto. Glisse une auto entre chaque sort.",
+        "en": "Stack your Q3 on the wave, then use Soul Unbound (E) to close in and chain Q3, auto, Spirit Cleave (W), auto. Fit an auto between each spell."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Engage A3 puis ult",
+        "en": "Q3 into ult engage"
+      },
+      "keys": [
+        "E",
+        "Q",
+        "R"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Libération spirituelle (E) pour approcher, A3 à portée max, puis Destin scellé (R) tout de suite pendant le knock-up. Aucune auto entre l'A3 et l'ult, sinon ta cible a le temps de Flash.",
+        "en": "Soul Unbound (E) to get close, max-range Q3, then Fate Sealed (R) right away while they are airborne. No auto between Q3 and ult, or your target gets time to Flash."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Ult d'abord en teamfight",
+        "en": "Ult-first teamfight engage"
+      },
+      "keys": [
+        "E",
+        "R",
+        "Q",
+        "W"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Avec ton A3 stacké, Libération spirituelle (E) pour approcher, Destin scellé (R) sur le groupe, puis l'A3 pour un second knock-up. Finis par Fendoir spirituel (Z) : chaque champion touché grossit le bouclier.",
+        "en": "With Q3 stacked, Soul Unbound (E) to get in range, Fate Sealed (R) into the group, then Q3 for a second knock-up. Finish with Spirit Cleave (W): every champion hit makes the shield bigger."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "A3 Flash puis ult",
+        "en": "Q3 Flash cancel into ult"
+      },
+      "keys": [
+        "Q",
+        "F",
+        "R"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "hard",
+      "desc": {
+        "fr": "Au corps à corps, lance ton A3 puis Flash sur place : le dash s'arrête net et tu enchaînes Destin scellé (R) avant la fin du knock-up. Garde-le pour les duels décisifs.",
+        "en": "At melee range, cast Q3 then Flash in place: the dash stops early and you chain Fate Sealed (R) before the knock-up ends. Keep it for decisive duels."
+      },
+      "refs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Double knock-up A3 Flash",
+        "en": "Q3 Flash double knock-up"
+      },
+      "keys": [
+        "Q",
+        "F"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "hard",
+      "desc": {
+        "fr": "Ton A3 a deux hitbox : la tornade et ton dash. Envoie la tornade sur un ennemi, puis Flash vers un autre pendant le dash pour les soulever tous les deux.",
+        "en": "Your Q3 has two hitboxes, the whirlwind and your dash. Aim the whirlwind at one enemy, then Flash onto another mid-dash to knock both up."
+      },
+      "refs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Libération spirituelle (E) traverse les murs, mais ton corps est renvoyé derrière toi sans les franchir. Passe un mur depuis le brouillard, frappe ta cible, puis reviens à l'abri de l'autre côté.",
+        "en": "Soul Unbound (E) dashes through walls, but your body is sent behind you without crossing terrain. Go over a wall from fog of war, hit your target, then snap back to safety on the other side."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Pas d'A3 pour passer un mur ? Libération spirituelle (E) de l'autre côté sur un monstre, deux Acier mortel (A) dessus, retour au corps, puis A3 par-dessus le mur.",
+        "en": "No Q3 to cross a wall? Soul Unbound (E) over it onto a monster, hit it twice with Mortal Steel (Q), snap back, then Q3 over the wall."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Ton A3 lancé dans un mur trop épais pour être franchi s'arrête plus tôt : l'animation est raccourcie et tu agis plus vite. Pratique quand ton Flash est en CD.",
+        "en": "A Q3 aimed into a wall too thick to cross stops early: the animation is shorter and you act sooner. Handy when Flash is on cooldown."
+      },
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lance ton A3 juste avant qu'un root ou un stun te touche : le CC s'applique quand même, mais ton dash part.",
+        "en": "Start your Q3 just before a root or stun lands: the CC still hits you, but the dash goes through anyway."
+      },
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Quand ta Libération spirituelle (E) arrive à sa fin, lance A3, Fendoir spirituel (Z) ou Destin scellé (R) : le retour au corps attend la fin du sort. Après l'A3, tu as même le temps d'une auto.",
+        "en": "When Soul Unbound (E) is about to expire, cast Q3, Spirit Cleave (W) or Fate Sealed (R): the return waits for the spell to finish. After Q3, you even get one more auto."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La marque de Libération spirituelle (E) ne stocke ni les dégâts d'objets, de runes ou de sorts d'invocateur, ni ceux absorbés par un bouclier. Compte surtout sur tes autos et tes sorts.",
+        "en": "Soul Unbound (E) marks don't store damage from items, runes or summoner spells, nor damage absorbed by shields. Count mostly on your autos and spells."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "A3 prêt, lance Fendoir spirituel (Z) collé à ton adversaire : l'animation ressemble à celle de l'A3. Il grille souvent son Flash ou sa fuite, puis tu places ton vrai A3.",
+        "en": "With Q3 ready, cast Spirit Cleave (W) right next to your opponent: the animation looks like Q3. They often burn Flash or their escape, then you land the real Q3."
+      },
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Voie du chasseur alterne tes épées sans limite de temps : tape un sbire avant le trade pour que ta prochaine auto sur le champion soit celle aux dégâts mixtes. Libération spirituelle (E) remet ce cycle à zéro.",
+        "en": "Way of the Hunter alternates your swords with no timeout: hit a minion before trading so your next auto on the champion is the mixed-damage one. Soul Unbound (E) resets this cycle."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Yone - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yone",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "100 Game Changing Yone Tips (Learn EVERYTHING!)",
+      "url": "https://www.youtube.com/watch?v=-oFJw7QsLto",
+      "type": "video",
+      "date": "2025-08-06",
+      "author": "WayOfTheTempest"
+    },
+    {
+      "title": "Everyone Plays Yone — Almost Nobody Plays Him Correctly",
+      "url": "https://www.youtube.com/watch?v=tyszkg1dZo4",
+      "type": "video",
+      "date": "2026-09-26",
+      "author": "Zoose"
+    },
+    {
+      "title": "5 TIPS AVANCÉS SUR YONE",
+      "url": "https://www.youtube.com/watch?v=hOruhHaLONo",
+      "type": "video",
+      "date": "2025-03-24",
+      "author": "Misanthiel - Coach Toplane"
+    }
+  ]
+}

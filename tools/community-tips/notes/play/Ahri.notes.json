@@ -1,0 +1,48 @@
+{
+  "searches": 5,
+  "pagesRead": 8,
+  "sourceSentences": [
+    "Ahri sends her orb in the target direction that deals magic damage to enemies it passes through. Upon reaching maximum range, it returns to her to deal the same amount in true damage to enemies it passes through.",
+    "Orb of Deception will hit additional units around the return point in a small circle when the orb turns around.",
+    "If Ahri dies while the orb is out, the orb will visually disappear but continue to deal damage and return to Ahri.",
+    "Flames prioritize enemy champions hit by Charm, then enemy champions, then minions that would die to Fox-Fire's damage, and then the target of Ahri's last basic attack within 3 seconds.",
+    "Any unused Fox-Fires will fizzle upon death.",
+    "Charm is able to slow targets otherwise immune to slows upon charming them.",
+    "Consuming a champion's essence with Essence Theft while Spirit Rush is active extends the recast duration by and up to 10 seconds, and grants an additional recast, storing up to 3 recasts at a time.",
+    "Additionally, whenever Ahri scores a champion takedown within 3 seconds of damaging them, she consumes their essence to heal herself.",
+    "Spirit Rush's recast duration will persist even after using all recasts. Fox-Fire can be cast during the dash.",
+    "There exists a slight delay before a champion gains vision of the fog of war once inside it. Because of this, if Ahri dashes into it, it is possible that Spirit Rush will not target any enemy in range.",
+    "E Q W auto. Everything depends on charm. If it misses, you back off and save your cooldowns. When it hits, cast Q immediately so it has time to return while they walk towards you.",
+    "E flash. You throw E, then immediately flash. It's one of Ahri's strongest tools for making picks, either by closing distance or guaranteeing charm point blank.",
+    "You can flash after casting Q to reposition its return path. Because the second is the most important part of the damage, this lets you redirect at clutch moments.",
+    "Casting Q and immediately flashing extends its reach and is faster than flashing first for finishing low HP targets from unexpected range.",
+    "Spirit rush isn't just for damage. It helps you land your two most important skill shots by closing distance for charm and repositioning to guarantee Q on the return.",
+    "Each flame has its own targeting radius, so against multiple nearby enemies, the damage can split. charm or auto attack your intended target first to ensure all flames focus them.",
+    "If you're going to die, make it count. Even if dies midcast, Q will",
+    "At maximum range, Q can hit with both the outgoing and return damage almost instantly.",
+    "successful picks can reset her ultimate, giving her even more mobility to continue fighter escape.",
+    "a very normal combo that you go for in fights is you do R and then you do auto attack and then you do W because your W targets the players that you have hit with your out attack.",
+    "R out auto attack W is the standard combo. R out auto attack W. Then what we do from this range is we start with Q because we can re-angle the Q with our second R.",
+    "the second R is going to be able to redirect your Q and land the true damage part consistently.",
+    "we just flash charm him and we get a nice first blood.",
+    "I should have flashed the Q there and I think I would be winning that that fight if I just flash the queue while while she goes.",
+    "we want to charm first in fights and then Q because it guarantees both parts of our Q landing, which means we deal more damage."
+  ],
+  "rejected": [
+    { "idea": "Assaut spirituel (R) traverse les murs (Zoose : « Dash through walls whenever you can »)", "reason": "Une seule source récente le dit explicitement (Zoose) ; le wiki officiel n'a pas de note de franchissement de terrain ; guides écrits consultés (Dexerto 2022, Dodge.gg 2026) muets, Mobalytics bloqué (403/Cloudflare), Fandom en 402." },
+    { "idea": "Charme puis Assaut spirituel (R) aussitôt pour masquer le projectile derrière l'animation", "reason": "Source unique (Zoose) ; Mobalytics le listerait selon un résumé de recherche mais la page n'a pas pu être lue." },
+    { "idea": "R, Charme, Flash pour un pick à très longue portée", "reason": "Source unique (Zoose)." },
+    { "idea": "Flash tard pendant le dash d'Assaut spirituel (R) pour allonger la portée des projectiles", "reason": "Source unique (Zoose) ; le wiki dit seulement que les projectiles partent même si le dash est interrompu, sans préciser l'effet d'un Flash." },
+    { "idea": "Un takedown pendant le dash permet de relancer R instantanément en plein dash", "reason": "Source unique (Zoose) et en tension avec le CD statique de 1 s entre deux lancers indiqué par le wiki." },
+    { "idea": "Le Charme prend fin si Ahri meurt", "reason": "Source unique (Zoose), absent des notes du wiki." },
+    { "idea": "Une cible charmée par-dessus un mur contourne le terrain pour marcher vers Ahri", "reason": "Source unique (Zoose)." },
+    { "idea": "Combo auto, Lucioles, auto (Électrocution)", "reason": "Repose sur une rune (Électrocution), hors périmètre combos/astuces de sorts." },
+    { "idea": "Infos Dodge.gg (Charme amplifiant les dégâts, dégâts bruts bonus après Charme)", "reason": "Faux au patch 16.22 selon le wiki (le Charme n'amplifie plus les dégâts) : source non retenue." }
+  ],
+  "toVerifyInGame": [
+    "Charme Flash : vérifier le timing exact (Flash pendant les 0,25 s d'incantation du Charme ou juste après) et d'où part le projectile.",
+    "Orbe puis Flash : confirmer que le retour de l'Orbe se réoriente bien vers la position après Flash sur toute la durée du trajet.",
+    "Lucioles : vérifier si la cible de la dernière auto prend le pas sur un autre champion proche (Zoose et Coach Mysterias le disent, le wiki la classe après les champions).",
+    "Franchissement de murs avec Assaut spirituel (R) : tester quels murs passent avec 500 de portée de dash."
+  ]
+}

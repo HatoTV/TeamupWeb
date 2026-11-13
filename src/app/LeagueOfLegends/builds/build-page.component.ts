@@ -8,8 +8,8 @@ import { Champion, ChampionDataService, Role } from '../../core/data/champion-da
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
 import { AbilityKeyPipe, abilityKey } from '../../shared/i18n/ability-key';
-import { CommunityTipsComponent } from '../matchups/community-tips/community-tips.component';
 import { BuildMatchupsComponent, MatchupCard } from './build-matchups.component';
+import { PlayTipsComponent } from './play-tips/play-tips.component';
 import { GameIconComponent } from '../../shared/ui/game-icon.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildAsText, formatDelta, formatInt, formatRate, formatTiming, groupItems, isBuildFilter, rankFilters } from './build-utils';
@@ -20,7 +20,7 @@ type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 @Component({
   selector: 'app-build-page',
   standalone: true,
-  imports: [TranslateModule, RouterLink, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, CommunityTipsComponent],
+  imports: [TranslateModule, RouterLink, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent],
   templateUrl: './build-page.component.html',
   styleUrl: './build-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

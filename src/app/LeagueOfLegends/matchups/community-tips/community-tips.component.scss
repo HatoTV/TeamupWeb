@@ -1,27 +1,37 @@
 @import '../matchups-common';
 
+// Fills its grid cell so both matchup columns share the same height.
+:host {
+  display: flex;
+  min-width: 0;
+}
+
 .ct {
-  margin-top: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
   overflow: hidden;
+  border-top: 4px solid var(--color-lol);
 }
 
 .ct__head {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 20px 24px 16px;
+  padding: 18px 22px;
   border-bottom: 1px solid var(--color-separator);
 }
 
 .ct__title {
-  font: 700 26px/1.1 var(--font-display);
+  font: 700 24px/1.1 var(--font-display);
   text-transform: uppercase;
 }
 
 .ct__subtitle {
-  margin-top: 6px;
+  margin-top: 2px;
   max-width: 70ch;
   font-size: 14px;
   color: var(--color-text-muted);
@@ -36,89 +46,80 @@
   font-weight: 700;
 }
 
-.ct__perspective {
+.ct__body {
+  flex: 1;
+  padding: 6px 22px 18px;
+}
+
+.ct__sub {
+  margin: 12px 0 2px;
+  font: 700 15px/1.5 var(--font-display);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #c3b0ff;
+
+  &--general {
+    margin-top: 18px;
+    color: var(--color-text-muted);
+  }
+
+  &:first-child {
+    margin-top: 12px;
+  }
+}
+
+.ct__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ct__tip {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-separator);
+  font-size: 16px;
+  line-height: 1.55;
+  color: #e2e2ee;
+
+  &::before {
+    content: '';
+    flex: none;
+    width: 7px;
+    height: 7px;
+    margin-top: 9px;
+    border-radius: 2px;
+    background: var(--color-lol);
+  }
+}
+
+.ct__list--general .ct__tip {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+
+  &::before {
+    margin-top: 8px;
+    background: #4a4a6a;
+  }
+}
+
+.ct__other {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 16px 24px 0;
-}
-
-.ct__for {
-  font-weight: 700;
-  color: var(--color-text-secondary);
+  gap: 10px 16px;
+  padding-top: 14px;
+  color: var(--color-text-muted);
 }
 
 .ct__reverse {
   gap: 8px;
 }
 
-// One list, most cited first.
-.ct__list {
-  margin: 0;
-  padding: 8px 24px 8px;
-  list-style: none;
-  counter-reset: tip;
-}
-
-.ct__tip {
-  position: relative;
-  padding: 14px 0 14px 44px;
-  border-bottom: 1px solid var(--color-separator);
-  counter-increment: tip;
-
-  &::before {
-    content: counter(tip);
-    position: absolute;
-    top: 14px;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border-radius: var(--radius-control-sm);
-    background: var(--color-surface-active);
-    color: var(--color-gold);
-    font: 700 17px var(--font-display);
-  }
-}
-
-.ct__text {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #e2e2ee;
-}
-
-.ct__consensus {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-  margin-top: 8px;
-  font-size: 13px;
-  color: var(--color-text-muted);
-}
-
-.ct__dots {
-  display: inline-flex;
-  gap: 4px;
-}
-
-.ct__dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  border: 1px solid var(--color-gold);
-
-  &.is-on {
-    background: var(--color-gold);
-  }
-}
-
 .ct__state {
-  padding: 24px;
+  flex: 1;
+  padding: 22px;
   color: var(--color-text-muted);
 }
 
@@ -127,116 +128,4 @@
   font-weight: 700;
   font-size: 18px;
   color: var(--color-text);
-}
-
-.ct__sources {
-  padding: 8px 24px 20px;
-}
-
-.ct__sources-summary {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  min-height: var(--touch-target);
-  font-weight: 700;
-  font-size: 14px;
-  color: var(--color-text-secondary);
-  cursor: pointer;
-  list-style: none;
-
-  &::-webkit-details-marker {
-    display: none;
-  }
-}
-
-.ct__sources[open] .ct__chevron {
-  transform: rotate(180deg);
-}
-
-.ct__sources-list {
-  margin: 4px 0 0;
-  padding: 0 0 0 18px;
-  font-size: 14px;
-
-  li + li {
-    margin-top: 6px;
-  }
-
-  a {
-    color: var(--color-text);
-    text-decoration: underline;
-    text-underline-offset: 2px;
-
-    &:hover {
-      color: var(--color-gold);
-    }
-  }
-}
-
-.ct__source-meta {
-  display: block;
-  font-size: 12px;
-  color: var(--color-text-muted);
-}
-
-.ct__method {
-  margin-top: 10px;
-  max-width: 90ch;
-  font-size: 12px;
-  color: var(--color-text-muted);
-}
-
-@media (max-width: 767px) {
-  .ct__head,
-  .ct__perspective,
-  .ct__sources {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .ct__list {
-    padding: 8px 16px;
-  }
-}
-
-// « How to play against »: general advice, replacing the pair tips or one click away.
-.ct__for--general {
-  margin: 0;
-}
-
-.ct__general {
-  margin: 2px 0 0;
-  font-size: 13px;
-  color: var(--color-text-muted);
-}
-
-.ct__more {
-  margin: 8px 24px 0;
-  border-top: 1px solid var(--color-separator);
-  padding-top: 8px;
-
-  .ct__list,
-  .ct__sources {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-.ct__more-summary {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  min-height: var(--touch-target);
-  cursor: pointer;
-  font-weight: 600;
-  color: var(--color-gold);
-  list-style: none;
-
-  &::-webkit-details-marker {
-    display: none;
-  }
-}
-
-.ct__more[open] > .ct__more-summary .ct__chevron {
-  transform: rotate(180deg);
 }

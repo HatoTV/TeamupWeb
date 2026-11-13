@@ -1,0 +1,225 @@
+{
+  "champion": "Blitzcrank",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Grappin puis knock-up",
+        "en": "Grab into knock-up"
+      },
+      "keys": [
+        "Q",
+        "E"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Dès que ton Grappin propulsé (A) touche, active Poing d'acier (E). Le knock-up prend le relais du stun : la cible ne peut ni répondre ni fuir.",
+        "en": "As soon as Rocket Grab (Q) connects, activate Power Fist (E). The knock-up takes over from the stun, so the target can neither answer nor run."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Grappin, ult, knock-up",
+        "en": "Grab, ult, knock-up"
+      },
+      "keys": [
+        "Q",
+        "R",
+        "E"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Contre une cible qui a Flash ou un dash, lance Champ de stase (R) dès qu'elle arrive sur toi. Le silence lui bloque Flash et ses sorts, puis Poing d'acier (E) la projette.",
+        "en": "Against a target holding Flash or a dash, cast Static Field (R) the moment they reach you. The silence locks Flash and their spells, then Power Fist (E) knocks them up."
+      },
+      "refs": [
+        0,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "name": {
+        "fr": "Engage Surcharge et re-grappin",
+        "en": "Overdrive engage and re-grab"
+      },
+      "keys": [
+        "W",
+        "E",
+        "Q",
+        "R"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Fonce avec Surcharge (Z) et projette la cible avec Poing d'acier (E). Recule pendant le knock-up, ramène-la avec Grappin propulsé (A), frappe-la puis finis avec Champ de stase (R).",
+        "en": "Rush in with Overdrive (W) and knock the target up with Power Fist (E). Back off during the knock-up, pull them in again with Rocket Grab (Q), hit them, then finish with Static Field (R)."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Flash au contact, knock-up",
+        "en": "Flash in, knock-up"
+      },
+      "keys": [
+        "F",
+        "E"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "medium",
+      "desc": {
+        "fr": "Pas d'angle pour le grappin ? Flash sur la cible et place Poing d'acier (E) : le knock-up d'une seconde lance l'engage sans dépendre du skillshot.",
+        "en": "No angle for the grab? Flash onto the target and land Power Fist (E): the one-second knock-up starts the engage without relying on the skillshot."
+      },
+      "refs": [
+        0,
+        3,
+        4
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Poing d'acier (E) réinitialise ton AA. Frappe, active E juste après, puis refrappe : tu glisses une AA de plus dans le même trade.",
+        "en": "Power Fist (E) resets your basic attack. Hit, activate E right after, then hit again: you fit one extra attack into the same trade."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tant que Champ de stase (R) n'est pas en CD, chaque AA pose un éclair sur la cible. En fight long, enchaîne les autos et garde le R pour finir ou couper une fuite.",
+        "en": "While Static Field (R) is off cooldown, each basic attack puts a lightning stack on the target. In long fights, keep auto-attacking and save R to finish or stop an escape."
+      },
+      "refs": [
+        0,
+        3
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Champ de stase (R) détruit les shields ennemis avant de faire ses dégâts, même si un bouclier anti-sort le bloque. Idéal contre Karma, Lulu ou Milio.",
+        "en": "Static Field (R) destroys enemy shields before dealing its damage, even when a spell shield blocks it. Great against Karma, Lulu or Milio."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si tu es déplacé pendant ton grappin (ult de Kalista, projection), la cible est tirée vers ta position de départ, pas vers toi.",
+        "en": "If you get moved while your grab is out (Kalista's ult, a knock-up), the target is pulled to where you started, not to you."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Dos à un mur, la cible du grappin ne peut pas atterrir dans le décor : elle finit de ton côté, parfois pile sur toi. Anticipe ton placement.",
+        "en": "With your back to a wall, the grabbed target can't land inside the terrain: they end up on your side, sometimes right on top of you. Plan your spacing."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant le vol du grappin et un court instant après l'impact, tu ne peux ni bouger ni attaquer. Un grappin raté au contact te laisse sans réponse.",
+        "en": "While the grab is flying and for a brief moment after it hits, you can't move or attack. A missed point-blank grab leaves you unable to react."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le bonus de vitesse de Surcharge (Z) retombe à 10 % en trois secondes, et tu es ralenti à la fin des cinq secondes. Active-le près de ta cible, pas de loin.",
+        "en": "Overdrive's (W) speed bonus drops to 10% over three seconds, and you are slowed once the five seconds end. Use it close to your target, not from far away."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une immunité aux déplacements bloque la traction du grappin, mais pas son stun : la cible reste figée sur place.",
+        "en": "Displacement immunity stops the grab's pull, but not its stun: the target stays locked in place."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Blitzcrank – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Blitzcrank",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "GUIDE BLITZCRANK SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Rune",
+      "url": "https://www.youtube.com/watch?v=Rf8u1WxEMx8",
+      "type": "video",
+      "date": "2025-09-03",
+      "author": "EXYT - League of Legends"
+    },
+    {
+      "title": "3 Minute Blitzcrank Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=G9q_spQoYBo",
+      "type": "video",
+      "date": "2025-06-10",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "11 BLITZCRANK tips that you HAVE to know!",
+      "url": "https://www.youtube.com/watch?v=kS0-yB6n8NM",
+      "type": "video",
+      "date": "2023-01-19",
+      "author": "RaizinsLoL"
+    },
+    {
+      "title": "Why blitzcrank destroys the ranged support meta",
+      "url": "https://www.youtube.com/watch?v=IyRhz9vzU3w",
+      "type": "video",
+      "date": "2026-05-13",
+      "author": "ShoDesu"
+    },
+    {
+      "title": "Types of Crowd Control (Silence) – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Types_of_Crowd_Control",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    }
+  ]
+}

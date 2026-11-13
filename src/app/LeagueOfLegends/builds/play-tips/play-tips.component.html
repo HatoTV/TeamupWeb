@@ -1,0 +1,52 @@
+@if (view(); as v) {
+  <section class="play-tips" aria-labelledby="play-tips-title">
+    <header class="play-tips__head">
+      <img class="play-tips__portrait" [src]="v.portrait" alt="" width="44" height="44" loading="lazy" />
+      <div class="play-tips__titles">
+        <h2 id="play-tips-title" class="play-tips__title">{{ 'PLAY_TIPS.TITLE' | translate: { champion: champion().name } }}</h2>
+        <p class="play-tips__subtitle">{{ 'PLAY_TIPS.SUBTITLE' | translate }}</p>
+      </div>
+      <span class="play-tips__patch">{{ 'BUILDS.PATCH' | translate: { patch: v.patch } }}</span>
+    </header>
+
+    <div class="play-tips__body">
+      @if (v.combos.length) {
+        <div class="play-tips__col">
+          <h3 class="play-tips__col-title">{{ 'PLAY_TIPS.COMBOS' | translate }}</h3>
+          <ul class="play-tips__list">
+            @for (combo of v.combos; track $index) {
+              <li class="combo">
+                <div class="combo__top">
+                  <h4 class="combo__name">{{ combo.name }}</h4>
+                  <span class="level" [class]="'level level--' + combo.level">{{ 'PLAY_TIPS.LEVELS.' + combo.level | translate }}</span>
+                </div>
+                <div class="combo__seq" role="img" [attr.aria-label]="sequenceLabel(combo)">
+                  @for (step of combo.steps; track $index; let last = $last) {
+                    <app-game-icon [src]="step.src" [name]="step.name" [tooltip]="false" [size]="40" [badge]="step.key" [style.--gi-badge]="step.color" />
+                    @if (!last) {
+                      <span class="combo__arrow" aria-hidden="true">›</span>
+                    }
+                  }
+                </div>
+                <p class="combo__desc">{{ combo.desc }}</p>
+              </li>
+            }
+          </ul>
+        </div>
+      }
+      @if (v.tips.length) {
+        <div class="play-tips__col play-tips__col--tips">
+          <h3 class="play-tips__col-title">{{ 'PLAY_TIPS.TIPS' | translate }}</h3>
+          <ul class="play-tips__list">
+            @for (tip of v.tips; track $index) {
+              <li class="tip">
+                <span class="tag" [class]="'tag tag--' + tip.tag">{{ 'PLAY_TIPS.TAGS.' + tip.tag | translate }}</span>
+                <p class="tip__text">{{ tip.text }}</p>
+              </li>
+            }
+          </ul>
+        </div>
+      }
+    </div>
+  </section>
+}

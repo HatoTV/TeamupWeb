@@ -452,9 +452,9 @@
           </div>
         </div>
 
-        <app-build-matchups id="counters" class="mus" [attr.aria-label]="'BUILDS.MATCHUPS_LABEL' | translate" role="region" [groups]="muGroups()" [champion]="champ.name" [matchupsLink]="ctx.link('/lol/matchups/' + champ.slug)" />
+        <app-play-tips [champion]="champ" [core]="core()" [champStatic]="champStatic()" [version]="version()" />
 
-        <app-community-tips class="mus" mode="vs" [vs]="champ" />
+        <app-build-matchups id="counters" class="mus" [attr.aria-label]="'BUILDS.MATCHUPS_LABEL' | translate" role="region" [groups]="muGroups()" [champion]="champ.name" [matchupsLink]="ctx.link('/lol/matchups/' + champ.slug)" />
 
         <div class="sticky-copy">
           <button type="button" class="btn btn--primary" (click)="copyBuild()">{{ (copied() ? 'BUILDS.COPIED' : 'BUILDS.COPY_BUTTON') | translate }}</button>

@@ -19,6 +19,10 @@ export const VS_DIR = `${DATA_DIR}/vs`;
 export const VS_INDEX_FILE = `${VS_DIR}/index.json`;
 export const VS_NOTES_DIR = `${NOTES_DIR}/vs`;
 export const VS_PROGRESS_FILE = root('tools/community-tips/progress-vs.json');
+/** « Tips pour jouer {champion} » files (combos and mechanics tips, build page) and their notes. */
+export const PLAY_DIR = `${DATA_DIR}/play`;
+export const PLAY_INDEX_FILE = `${PLAY_DIR}/index.json`;
+export const PLAY_NOTES_DIR = `${NOTES_DIR}/play`;
 
 export const today = (): string => new Date().toISOString().slice(0, 10);
 

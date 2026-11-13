@@ -53,96 +53,94 @@
 </section>
 
 <div class="content">
-  <div class="board">
-    <section
-      class="tips card"
-      [class.tips--rated]="!!info()"
-      [style.--lvl]="info()?.color"
-      aria-labelledby="matchup-title"
-      aria-live="polite"
-      [attr.aria-busy]="loading()"
-    >
-      <header class="tips__head">
-        <h1 id="matchup-title" class="tips__title">
-          {{ me().champion.name }} <span class="tips__vs">vs</span> {{ vs().champion.name }}
-        </h1>
-        @if (matchup(); as m) {
-          <app-difficulty-badge class="tips__badge" [level]="m.level" [icon]="true" />
-        }
-      </header>
+  <header class="mu-head">
+    <h1 id="matchup-title" class="mu-head__title">
+      {{ me().champion.name }} <span class="mu-head__vs">vs</span> {{ vs().champion.name }}
+    </h1>
+    @if (matchup(); as m) {
+      <app-difficulty-badge class="mu-head__badge" [level]="m.level" [icon]="true" />
+    }
+  </header>
 
-      @if (loading()) {
-        <p class="tips__state">{{ 'MATCHUPSPAGE.LOADING' | translate }}</p>
-      } @else if (tips()) {
-        @if (tips()!.englishFallback) {
-          <p class="tips__lang">
-            <span class="tips__lang-badge" aria-hidden="true">{{ 'MATCHUPSPAGE.EN_BADGE' | translate }}</span>
-            {{ 'MATCHUPSPAGE.EN_BADGE_LABEL' | translate }}
-          </p>
-        }
-        <ol class="tips__list" [attr.lang]="tips()!.lang">
-          @for (line of tips()!.lines; track $index; let i = $index) {
-            <li class="tips__item">
-              <span class="tips__n" aria-hidden="true">{{ i + 1 }}</span>
-              <p class="tips__text">{{ line }}</p>
-            </li>
-          }
-        </ol>
-        @if (tips()!.lang === 'fr') {
-          <p class="tips__credit">{{ 'MATCHUPSPAGE.TRANSLATED_BY' | translate }}</p>
-        }
-      } @else {
-        <div class="tips__state tips__state--empty">
-          <p class="tips__empty-title">{{ 'MATCHUPSPAGE.NO_DATA_TITLE' | translate }}</p>
-          <p>{{ 'MATCHUPSPAGE.NO_DATA_HINT' | translate }}</p>
-        </div>
-      }
-
-      @if (author() || showBuild) {
-        <footer class="tips__foot">
-          @if (author(); as a) {
-            <div class="author">
-              @if (a.rank) {
-                <img class="author__rank" [src]="'assets/img/ranks/' + a.rank + '.webp'" alt="" width="44" height="34" />
-              }
-              <div>
-                <p class="author__name">{{ a.name }}</p>
-                <p class="author__role">
-                  @if (a.rank) {
-                    {{ 'MATCHUPSPAGE.AUTHOR_ROLE' | translate: { rank: ('HOMEPAGE.RANKS.' + a.rank.toUpperCase() | translate) } }}
-                  } @else {
-                    {{ 'MATCHUPSPAGE.AUTHOR_ROLE_UNKNOWN' | translate }}
-                  }
+  <div class="cols" [class.cols--solo]="!showPro()">
+    @if (showPro()) {
+      <section class="pro card" aria-labelledby="pro-title" aria-live="polite" [attr.aria-busy]="loading()">
+        <header class="pro__head">
+          <div>
+            <h2 id="pro-title" class="pro__title">{{ 'MATCHUPSPAGE.PRO_TITLE' | translate }}</h2>
+            @if (tips(); as t) {
+              @if (t.englishFallback) {
+                <p class="pro__sub pro__lang">
+                  <span class="pro__lang-badge" aria-hidden="true">{{ 'MATCHUPSPAGE.EN_BADGE' | translate }}</span>
+                  {{ 'MATCHUPSPAGE.EN_BADGE_LABEL' | translate }}
                 </p>
-              </div>
-            </div>
+              } @else {
+                <p class="pro__sub">{{ (t.lang === 'fr' ? 'MATCHUPSPAGE.TRANSLATED_BY' : 'MATCHUPSPAGE.PRO_ORIGINAL') | translate }}</p>
+              }
+            }
+          </div>
+          @if (author()?.rank; as rank) {
+            <span class="pro__rank">{{ 'HOMEPAGE.RANKS.' + rank.toUpperCase() | translate }}</span>
           }
-          <div class="tips__actions">
+        </header>
+
+        @if (loading()) {
+          <p class="pro__state">{{ 'MATCHUPSPAGE.LOADING' | translate }}</p>
+        } @else if (tips()) {
+          <ol class="pro__list" [attr.lang]="tips()!.lang">
+            @for (line of tips()!.lines; track $index; let i = $index) {
+              <li class="pro__item">
+                <span class="pro__n" aria-hidden="true">{{ i + 1 }}</span>
+                <p class="pro__text">{{ line }}</p>
+              </li>
+            }
+          </ol>
+        }
+
+        @if (author() || showBuild) {
+          <footer class="pro__foot">
+            @if (author(); as a) {
+              <div class="author">
+                @if (a.rank) {
+                  <img class="author__rank" [src]="'assets/img/ranks/' + a.rank + '.webp'" alt="" width="44" height="34" />
+                }
+                <div>
+                  <p class="author__name">{{ a.name }}</p>
+                  <p class="author__role">
+                    @if (a.rank) {
+                      {{ 'MATCHUPSPAGE.AUTHOR_ROLE' | translate: { rank: ('HOMEPAGE.RANKS.' + a.rank.toUpperCase() | translate) } }}
+                    } @else {
+                      {{ 'MATCHUPSPAGE.AUTHOR_ROLE_UNKNOWN' | translate }}
+                    }
+                  </p>
+                </div>
+              </div>
+            }
             @if (showBuild) {
-              <a class="btn btn--primary btn--sm" [routerLink]="ctx.link('/lol/champions/' + me().champion.slug)">
+              <a class="btn btn--primary pro__build" [routerLink]="ctx.link('/lol/champions/' + me().champion.slug)">
                 {{ 'MATCHUPSPAGE.BUILD_OF' | translate: { name: me().champion.name } }}
               </a>
             }
-          </div>
-        </footer>
-      }
-    </section>
+          </footer>
+        }
+      </section>
+    }
 
-    <aside class="side">
-      <details class="card report">
-        <summary class="report__summary">
-          <span class="report__summary-title">{{ 'UPDATEREQUEST' | translate }}</span>
-          <app-icon class="report__chevron" name="chevron-down" [size]="18" />
-        </summary>
-        <div class="report__body">
-          <p class="report__intro">{{ 'REPORTBUTTON' | translate }}</p>
-          <app-matchup-report [bare]="true" [champion1]="me().champion" [champion2]="vs().champion" [hasTips]="!!matchup()" />
-        </div>
-      </details>
-    </aside>
+    <app-community-tips class="cols__commu" [me]="me().champion" [vs]="vs().champion" (reverse)="reverse()" />
   </div>
 
-  <app-community-tips [me]="me().champion" [vs]="vs().champion" (reverse)="reverse()" />
+  <details class="card report">
+    <summary class="report__summary">
+      <span>
+        <span class="report__summary-title">{{ 'UPDATEREQUEST' | translate }}</span>
+        <span class="report__summary-text">{{ 'REPORTBUTTON' | translate }}</span>
+      </span>
+      <app-icon class="report__chevron" name="chevron-down" [size]="20" />
+    </summary>
+    <div class="report__body">
+      <app-matchup-report [bare]="true" [champion1]="me().champion" [champion2]="vs().champion" [hasTips]="!!matchup()" />
+    </div>
+  </details>
 
   @if (lists().length) {
     <section class="lists" [attr.aria-label]="'MATCHUPSPAGE.LISTS_LABEL' | translate">

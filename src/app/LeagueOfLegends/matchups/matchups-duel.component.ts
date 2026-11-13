@@ -26,7 +26,7 @@ interface MatchupList {
   rows: Array<MatchupEntry & { link: string; info: ReturnType<typeof difficulty> }>;
 }
 
-/** Both champions chosen: verdict, tips, update form and the four counter / favourable lists. */
+/** Both champions chosen: verdict, high-elo and community tips side by side, update form, then the four counter / favourable lists. */
 @Component({
   selector: 'app-matchups-duel',
   standalone: true,
@@ -78,6 +78,9 @@ export class MatchupsDuelComponent {
       englishFallback: this.ctx.lang() === 'fr' && !useFrench,
     };
   });
+
+  /** High-elo column: shown while loading and when the matchup has tips; otherwise the community column takes the full width. */
+  protected readonly showPro = computed(() => this.loading() || !!this.tips()?.lines.length);
 
   protected readonly author = computed(() => {
     const data = this.meData();

@@ -84,15 +84,6 @@ export function vsTips(file: VsTipsFile | null | undefined, lang: 'fr' | 'en'): 
   return tips.length >= MIN_TIPS_PER_SIDE ? tips : [];
 }
 
-/** « 12 nov. 2026 » (fr), « Nov 12, 2026 » (en), from an ISO date (YYYY-MM-DD). */
-export function formatSourceDate(iso: string, lang: 'fr' | 'en'): string {
-  const [y, m, d] = iso.split('-').map(Number);
-  if (!y || !m || !d) return iso;
-  return new Intl.DateTimeFormat(lang === 'fr' ? 'fr-FR' : 'en-US', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(
-    new Date(Date.UTC(y, m - 1, d))
-  );
-}
-
 /** Community tips of a champion pair (index loaded once, one file per pair). */
 @Injectable({ providedIn: 'root' })
 export class CommunityTipsService {

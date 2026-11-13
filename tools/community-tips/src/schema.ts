@@ -62,7 +62,7 @@ export type CommunityTips = z.infer<typeof communityTipsSchema>;
 
 /**
  * « How to play against {champion} »: one file per champion, `vs/{championId}.json`, tips valid whatever
- * champion you play (shown on a matchup when the pair has too few tips, and on the Builds counters tab).
+ * champion you play (shown on a matchup page under the pair tips, or alone when the pair has too few).
  */
 export const vsTipsSchema = z.strictObject({
   champion: championId,
@@ -107,3 +107,60 @@ export function compareTips(a: Tip, b: Tip): number {
     CATEGORIES.indexOf(a.category) - CATEGORIES.indexOf(b.category)
   );
 }
+
+// ---------- « Tips pour jouer {champion} » (play/), shown on the build page ----------
+
+export const PLAY_KEYS = ['Q', 'W', 'E', 'R', 'D', 'F'] as const;
+export const PLAY_LEVELS = ['easy', 'medium', 'hard'] as const;
+export const PLAY_TAGS = ['mechanic', 'passive', 'terrain', 'timing', 'interaction'] as const;
+export const PLAY_SOURCE_TYPES = ['wiki', 'patchnote', 'video', 'guide'] as const;
+export const MAX_PLAY_COMBOS = 5;
+export const MAX_PLAY_TIPS = 8;
+
+const bilingual = z.strictObject({ fr: z.string().trim().min(1), en: z.string().trim().min(1) });
+/** Indexes in `sources` of the sources that back a combo or tip (never displayed). */
+const refs = z.array(z.number().int().min(0)).min(1);
+
+export const playComboSchema = z.strictObject({
+  name: bilingual,
+  /** Keys in cast order, stored QWERTY (Q W E R) and D / F for summoner spells; shown A Z E R in French. */
+  keys: z.array(z.enum(PLAY_KEYS)).min(1).max(8),
+  /** Summoner spell bound to D / F in this combo, as its Data Dragon image name without extension (`SummonerFlash`). */
+  summoners: z.partialRecord(z.enum(['D', 'F']), z.string().regex(/^Summoner\w+$/)).optional(),
+  level: z.enum(PLAY_LEVELS),
+  desc: bilingual,
+  refs,
+});
+
+export const playTipSchema = z.strictObject({
+  tag: z.enum(PLAY_TAGS),
+  text: bilingual,
+  refs,
+});
+
+export const playSourceSchema = z.strictObject({
+  title: z.string().min(1),
+  url: z.url(),
+  type: z.enum(PLAY_SOURCE_TYPES),
+  /** Publication date when known, else the consultation date (YYYY-MM-DD). */
+  date: isoDate,
+  /** Channel or author: two sources are independent when their author (or site) differs. */
+  author: z.string().min(1).optional(),
+});
+
+/** Combos and mechanics tips of one champion: `play/{championId}.json`. */
+export const playTipsSchema = z.strictObject({
+  champion: championId,
+  patch: z.string().regex(/^\d+\.\d+$/),
+  lastResearch: isoDate,
+  combos: z.array(playComboSchema).max(MAX_PLAY_COMBOS),
+  tips: z.array(playTipSchema).max(MAX_PLAY_TIPS),
+  sources: z.array(playSourceSchema).min(1),
+});
+export type PlayTips = z.infer<typeof playTipsSchema>;
+
+/** Site index of the play files: champion → patch of the research. */
+export const playIndexSchema = z.strictObject({
+  updatedAt: isoDate,
+  champions: z.record(championId, z.string().regex(/^\d+\.\d+$/)),
+});

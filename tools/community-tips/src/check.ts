@@ -15,9 +15,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { agreementIssues, parseGenders } from './agreement.ts';
 import { CHANNELS_FILE, DATA_DIR, STATIC_DIR, GLOSSARY_FILE, GLOSSARY_MD, NOTES_DIR, SITES_FILE, VS_DIR, VS_NOTES_DIR, readIndex, readVsIndex } from './paths.ts';
 import { MAX_TIP_WORDS, communityTipsSchema, compareTips, notesSchema, pairKey, vsTipsSchema, type Tip } from './schema.ts';
-
-/** Run of consecutive words shared with a source sentence that counts as copying. */
-const COPY_RUN_WORDS = 8;
+import { qwertyRe, sharedRun, words } from './text.ts';
 
 const errors: string[] = [];
 const fail = (where: string, message: string) => errors.push(`${where}: ${message}`);
@@ -69,27 +67,6 @@ const buildNames = [...Object.entries(glossary.items), ...Object.entries(glossar
 const abilityNamesRe = new RegExp(`(?<![\\p{L}])(${[...notBuild].sort((a, b) => b.length - a.length).map(escape).join('|')})(?![\\p{L}])`, 'gu');
 const buildNamesRe = new RegExp(`(?<![\\p{L}])(${[...new Set(buildNames)].map(escape).join('|')})(?![\\p{L}])`, 'u');
 const buildWordsRe = /\b(runes?|items?|objets?|build|stuff|rush|max(er)?\s+(ton|ta|son|sa|your|his|her|the)?\s*[QWERAZ]\b|skill order|ordre des comp[ée]tences)\b/i;
-const qwertyRe = /(?<![\p{L}\d])[QW](?![\p{L}\d])/u;
-
-const words = (s: string) => s.trim().split(/\s+/).filter(Boolean);
-const normalize = (s: string) =>
-  s
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/\p{Diacritic}/gu, '')
-    .replace(/[^\p{L}\p{N}]+/gu, ' ')
-    .trim();
-
-function sharedRun(tip: string, source: string): boolean {
-  if (normalize(tip) === normalize(source)) return true;
-  const t = normalize(tip).split(' ');
-  const s = ` ${normalize(source)} `;
-  for (let i = 0; i + COPY_RUN_WORDS <= t.length; i++) {
-    if (s.includes(` ${t.slice(i, i + COPY_RUN_WORDS).join(' ')} `)) return true;
-  }
-  return false;
-}
-
 const hostOf = (url: string) => new URL(url).hostname.replace(/^www\./, '');
 const isBlacklisted = (url: string, consultedAt: string) =>
   blacklist.some(([site, { since }]) => (hostOf(url) === site || hostOf(url).endsWith(`.${site}`)) && consultedAt >= since);

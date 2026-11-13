@@ -1,0 +1,83 @@
+{
+  "searches": 2,
+  "pagesRead": 5,
+  "videosOpened": [
+    "https://www.youtube.com/watch?v=YyZ_DW2zhQM",
+    "https://www.youtube.com/watch?v=EfWKYwtQEPw",
+    "https://www.youtube.com/watch?v=21ax6Z9NGp0",
+    "https://www.youtube.com/watch?v=NPxojPiTpPU"
+  ],
+  "videosWithoutSubtitles": [
+    "https://www.youtube.com/watch?v=UPNwT8gD7dU (Bav Bros, no en subtitles)",
+    "https://www.youtube.com/watch?v=wX1Ov_0JGFk (GapRift, no en subtitles)"
+  ],
+  "sourceSentences": [
+    "The airborne direction is decided at the moment of impact and not by Lee Sin and his target's relative locations at the start of the cast (the only way for Lee Sin to control where his target is displaced is by using Flash before the cast time of Dragon's Rage ends).",
+    "If no unit is directly targeted, Safeguard will search for wards in a 100 radius to target.",
+    "This aids Lee Sin in performing the dash to a ward he just placed.",
+    "Safeguard can be used on any targetable allied unit excluding structures.",
+    "This includes champions, minions, wards, and champion summoned units (e.g. Noxious Trap, Demacian Standard, Dark Passage).",
+    "Iron Will and Cripple can be cast during the dash.",
+    "If Resonating Strike interrupts another dash, Tempest and Dragon's Rage can be cast during it (both otherwise cannot be cast).",
+    "Upon arrival, he consumes the mark and deals physical damage, increased by 0 to 100% based on target's missing health.",
+    "The damage dealt by Resonating Strike can be negated if the target blinks.",
+    "Enemies that collide with the displaced enemy while it is airborne take the same damage plus bonus physical damage and are knocked up for 1 second.",
+    "Collision Physical Damage 150 to 550 (+ 200% bonus AD) (+ 12 to 18% of primary target's bonus health)",
+    "If Dragon's Rage kills the primary target, it will still knock them back, causing the target's corpse to be displaced and collide with enemies it passes through.",
+    "Dragon's Rage will not knock back killed champions that enter a zombie state upon dying, or a Yone with his E active.",
+    "After casting an ability, Lee Sin's next 2 basic attacks on-hit within 3 seconds gain attack speed and restore energy.",
+    "Sonic Wave: spellshield = True (blocked by spell shields).",
+    "When you use the ability, your next two auto attacks gain attack speed.",
+    "if you use two spells in a row, you will still only gain attack speed for two auto attacks.",
+    "your W has a larger range than your ward, so you can always W to a ward you place.",
+    "Lesson 12. Q2 ward hop Insec R. Now, let's combine our Q with a ward hop when you press Q2. Move your cursor to ward hop, then R the target.",
+    "When you can R on a target, press R and immediately flash in any direction. This will throw the target in the opposite direction.",
+    "The dashing becomes even more deadly when you kick a high health enemy into other enemies, as enemies take damage based on the health of the original target.",
+    "Lesson 15, hold Q2. Once you land your Q1, it is optimal to damage the enemy before pressing Q2, because your Q2 will deal more damage.",
+    "Once you're behind an enemy, cast E on them when they are in E range. It also lets you slow them instantly. This makes auto attacks easier and of course the Q.",
+    "Lesson 19, passive build-up. After using a spell, auto attack twice.",
+    "You ward jump out attack old Q out attack E.",
+    "So you should always jump onto them out attack. First auto attack, first conqueror stack with the foot. Then old. Now he's stunned. So your Q cannot miss.",
+    "You don't throw your Q. Enemies can flash it, they can dash it, they can whatever. You can miss it. You don't like it. You want to always jump out E. Now slow him with the secondary E and attack him.",
+    "Ward jumps and inst hits his second Q and insta old flashes without ward jump.",
+    "Every time he does an attack, the next two out attacks he will have 40% additional attack speed.",
+    "when you do the ward hop, just think of it like this. You're going to place your ward down. You're going to keep your cursor in the same position and then press W.",
+    "there is a small very pretty small hit box for the ward itself that you can dash to.",
+    "your ward range is actually smaller than your your W range. Very slightly.",
+    "you can quickly move your cursor from the uh ward hit box over to whoever you're trying to Insec",
+    "I don't know if he has flash, which why I'm holding my Q a little bit. Now he's dead.",
+    "If this bush is not warded here and I just uh smite his spell shield, I can kick him into my teammates and he has no flash."
+  ],
+  "rejected": [
+    {
+      "idea": "Ward hop au-delà de la portée de pose : touche de ward, puis Flash et Rempart instantanément (ward hop buffer)",
+      "reason": "Une seule source l'explique (Donbeshi) ; Sinerias montre « ward jump into flash » sans décrire l'ordre des touches. Non confirmé par le wiki."
+    },
+    {
+      "idea": "Poser le trinket dans un mur pour qu'il ressorte de l'autre côté, puis Rempart dessus pour franchir le mur",
+      "reason": "Franchissement de terrain dit explicitement par une seule source (Donbeshi), pas par le wiki ni une 2e source."
+    },
+    {
+      "idea": "Coup résonant puis AA immédiate pour 6 stacks de Conquérant",
+      "reason": "Interaction avec une rune (hors périmètre) et une seule source."
+    },
+    {
+      "idea": "Rage du dragon puis AA pendant que la cible est en l'air",
+      "reason": "Une seule source (Donbeshi) ; conseil de dégâts générique, pas une interaction de sort."
+    },
+    {
+      "idea": "Utiliser le dash de Rempart vers une unité pour interrompre un autre dash et pouvoir lancer Trombe ou Rage du dragon pendant la ruée",
+      "reason": "Note wiki très technique, aucun joueur ne l'exploite dans les sources lues."
+    },
+    {
+      "idea": "Bug de la distance du kick (réduite selon les rayons de collision)",
+      "reason": "Bug signalé par le wiki, pas actionnable pour le joueur."
+    }
+  ],
+  "toVerifyInGame": [
+    "Insec pendant la ruée de Coup résonant : ward + Rempart avant l'arrivée (le bouclier tombe immédiatement selon le wiki) puis Rage du dragon, sans infliger les dégâts de Coup résonant (Donbeshi).",
+    "Rempart lancé à côté d'une ward : rayon de recherche de 100 unités autour du curseur.",
+    "Flash pendant les 0,25 s d'incantation de Rage du dragon : la cible part bien à l'opposé du Flash.",
+    "Un Flash de la cible pendant Coup résonant annule les dégâts (Lee Sin finit parfois sur sa dernière position)."
+  ]
+}

@@ -14,7 +14,7 @@
     "serve:ssr:TeamupWeb": "node dist/teamup-web/server/server.mjs",
     "test:ci": "ng test --watch=false --browsers=ChromeHeadless",
     "check": "npm run tips:check && ng build && npm run test:ci",
-    "tips:check": "node tools/community-tips/src/check.ts",
+    "tips:check": "node tools/community-tips/src/check.ts && node tools/community-tips/src/check-play.ts",
     "data:lol": "node tools/split-guides.mjs",
     "images": "node tools/optimize-images.mjs",
     "prebuild": "node tools/split-guides.mjs && node tools/prerender-routes.mjs",

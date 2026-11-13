@@ -1,0 +1,182 @@
+{
+  "searches": 3,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] So, you need to be in such spaced in such a position that you prevent her from getting free QW auto attacks off.",
+    "[0] But, if she procs it with a new spell, that initial damage gets doubled, and that's where she hurts you quite badly with it.",
+    "[0] 15 seconds on her W, 6 seconds on her Q if she uses it on a new. If she uses it on a creep, it gets refunded to 4 seconds.",
+    "[0] That's why it's also quite good to actually walk up and trade with LeBlanc whenever her Q is on cooldown because a big part of her damage is actually gone. And you see in this case, she uses it to CS, which is what a lot of LeBlanc players do.",
+    "[0] If you're playing a mage that is a little bit weaker like Syndra, you need to bait out that W spell first",
+    "[0] If you're playing a champion like Xerath or you're playing a champion like Yone where you just can't get your damage off onto her consistently, don't interact, okay? Don't trade. Stand back out of her range. Do not get hit.",
+    "[0] If you can't win the trades, then don't play the trading game. Play the scaling game or the wave clear game.",
+    "[0] a big mistake that I see a lot of people make is that they think that they are safe for the E in between these caster minions. What LeBlanc likes to do very often is that she likes to walk up, she CS the minions AoE with her W, then also hit you, and then because these minions are then CS'd and gone, she can land an E angle onto you.",
+    "[0] So, I personally like to contest the wave and push into LeBlanc in in the first few waves. That means that you got to have good quality warding and leaning to make sure you don't get ganked. Her ganking threat is of course really really high with her E, so be aware of that. Don't mindlessly push. Make sure that you have vision set up.",
+    "[1] So mainly you want to be playing around her W. It's a 50cond CD and once it's used, you have more room to play and just farm basically.",
+    "[1] And so the first thing is you don't really want to play to trade her. You're mostly playing to survive unless you are giving the good trade angle obviously.",
+    "[1] But as you can see I'm just looking to try to get pry. He's kind of just trolling because what she's supposed to do is actually get the pri",
+    "[1] We get a ward down and here you out just to be a bit annoying to the enemy jungler.",
+    "[1] Like whenever she uses W like this, you should be happy because now it's 15 seconds on cooldown, right? So she just put W and now she cannot dash in very long time.",
+    "[2] Stay behind minions to make Ethereal Chains difficult to land and force her to use Distortion in a suboptimal manner.",
+    "[2] Be wary of LeBlanc's damage potentials when she has you marked.",
+    "[2] Both Ethereal Chains and Mimic Ethereal Chains are strong disengage tools. (page: create distance to avoid being rooted)",
+    "[2] she is at her most vulnerable as her damage and mobility are both dependent upon it. (after Distortion / Mimic Distortion)",
+    "[2] Do not be tricked by her mimics, try to save up abilities like ultimates during this situation"
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "diVk5_WAEVs",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 1:28-1:53, 2:17-3:34, 6:45-7:11, 9:20-9:57) ; 2 premiers essais bloqués par le rate-limit YouTube, lu au 3e essai (même vidéo)"
+    },
+    {
+      "id": "mDcseruRwD0",
+      "channel": "Kunain",
+      "result": "écarté : rate-limit YouTube, 2 essais à 1 min d'intervalle, compté comme perdu"
+    },
+    {
+      "id": "u1GVG_Ox1dY",
+      "channel": "Peng",
+      "result": "utilisé (passages 26:04-27:04, 27:48-28:20) ; review en fin de vidéo ; 1er essai rate-limit, 2e essai ok ; date lue sur la page watch (infos_video bloqué)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/LeBlanc/LoL/Strategy",
+      "result": "refused (404, mauvais chemin)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/LeBlanc/Strategy",
+      "result": "ok (page archivée, dernière modif 2025-06-16, contenu non daté : seulement mécaniques vérifiées Data Dragon)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/leblanc/counters/mid",
+      "result": "no-advice (un seul tip écrit, côté LeBlanc vs Ahri)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-leblanc/",
+      "result": "refused (404, URL devinée)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jouer autour de sa Distorsion (Z) : une fois utilisée, plus de dash pendant 15-10 s, fenêtre pour trade/farm",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (CD 15/13.75/12.5/11.25/10)"
+    },
+    {
+      "idea": "Marqué par le Sceau (A) : reculer 3,5 s, le sort suivant fait exploser la marque",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (marque 3,5 s, détonée par des dégâts de sort)"
+    },
+    {
+      "idea": "Chaînes (E) bloquées par le premier ennemi : rester derrière les minions, attention quand elle les rase avec Z",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (premier ennemi touché)"
+    },
+    {
+      "idea": "Disputer la prio des premières waves mais warder avant de push (gank avec E)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Si ton champion perd les trades : ne pas trade, rester hors portée, jouer le scaling",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Trade quand elle utilise son Sceau (A) pour CS",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 6 s, remboursement partiel si le sort tue)"
+    },
+    {
+      "idea": "Casser les Chaînes (E) en s'éloignant avant 1,5 s",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (root si attaché 1,5 s)"
+    },
+    {
+      "idea": "Passif Image miroir sous 40 % PV : invisible 1 s + clone, ne pas gâcher l'ult",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : < 40 % PV, invisible 1 s, clone jusqu'à 8 s)"
+    },
+    {
+      "idea": "Après 6, l'Imitation (R) permet un double dash",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: limite de 8 tips (1 source + DDragon, moins prioritaire)"
+    },
+    {
+      "idea": "Un stun/silence l'empêche de revenir avec la Distorsion",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: source unique non datée, non vérifiable dans Data Dragon"
+    },
+    {
+      "idea": "Un trade égal est perdant contre elle (kill range)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (lane)"
+    },
+    {
+      "idea": "Tenir la wave côté tourelle pour l'empêcher d'utiliser Z offensivement",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (lane)"
+    },
+    {
+      "idea": "Prévenir l'équipe quand elle quitte la lane (roams)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: source unique non datée (macro)"
+    },
+    {
+      "idea": "Défense magique / items",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: items interdits"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "searches": 3,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] Les clés du match-up, c'est de jamais lui donner les cinq stacks globalement. Il faut toujours être capable de soit le disengage soit de pouvoir se barrer à partir du moment où il a les cinq stacks.",
+    "[0] C'est hyper hyper important de se barrer et de reculer dès que le Darius commence à avoir des stacks. Pour ne surtout pas lui donner les cinq stacks parce que quand tu les donnes, bah en fait il les transfère sur n'importe qui. Et en plus il a un buff de zinzin",
+    "[0] Darius, c'est un perso qui a besoin de faire un long trade et de stack avant de pouvoir ulti.",
+    "[0] C'est que là, je fais un premier trade, je le mets mid life, je disengage et après bah je le re-engage avec mon ult et en fait bah vu qu'il est mid life, il lui faut un Q un E et il est mort.",
+    "[0] Alors que si je fais un full trade en étant full life, bah j'ai pas les dégâts de le tuer. Lui, il stack ses marques et il finit par me one shot.",
+    "[0] Bon en vrai, il flash grab, ça veut dire qu'il a plus rien après pour pour le fight. S'il y a un moment, je peux le tracer sur la move speed, je sais que je le baise quoi.",
+    "[0] Et j'ai essayé de dodge le Q mais je l'ai fait un peu tard, c'est my bad.",
+    "[1] the thing about Darius is he loves extended trades he needs to trade to go for a long time so he can get five stacks and run you down",
+    "[1] Champions Z can lower as at HP BM without being able to get hits and response and can disengage him if he tries to force",
+    "[1] a big mistake I see when people play up against Darius is they probably lost to him in the past and now they play respectful it's really important that you're not afraid to trade into Darius",
+    "[1] you want to be aiming to take 100 to zero trade so Chip his HP bar down stay high yourself so that when you do go for the Allin the fight doesn't last long enough for him to really ramp up and get his passive",
+    "[1] aim for short trades get them lower and lower",
+    "[2] Your position should be in a diagonal line from Darius",
+    "[2] This will help you keep an extra distance so Darius can't pull you with his E or slow you down with his W.",
+    "[2] If you're ranged, then then you must run away from Decimate's range.",
+    "[2] And if you're a melee champion and can't get out in time, it's best to move in and stand next to Darius.",
+    "[2] This will deny him damage and healing, so you always get the upper hand.",
+    "[2] Because Noxian Guillotine does true damage, it can execute tanks as well squishy champions.",
+    "[2] The ability isn't too scary on its own, but as soon as Hemorrhage starts to stack, Darius's R hits like a truck.",
+    "[2] When you approach 4 or 5 stacks, you should immediately run away, especially after level 6."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "8X5gbK400w4",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 0:43-1:10, 4:44-5:00, 6:51-7:03, 9:56-10:08, 10:56)"
+    },
+    {
+      "id": "l8vZCDhT9JE",
+      "channel": "Coach Chippys",
+      "result": "utilisé (chapitre Darius 1:46-3:07 ; déjà utilisé par 2 autres fichiers vs, autorisé)"
+    },
+    {
+      "id": "MovpGL8fDoU",
+      "channel": "Ninkey",
+      "result": "écarté : rate-limit YouTube, réessayé une fois après 1 min, toujours bloqué (compté comme ouvert)"
+    },
+    {
+      "id": "H6525BQnOWc",
+      "channel": "Monster SSS",
+      "result": "non ouvert : infos_video bloqué par le rate-limit, sous-titres non demandés"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://leaguefeed.net/how-to-counter-darius/",
+      "result": "ok (publié 2022-05-05, > 2 ans : seulement mécaniques vérifiées Data Dragon)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rester hors portée du Crampon (E) ; après usage, long CD, kite ou trade",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E portée 535, CD 26/23.5/21/18.5/16 ; seul autre engage = R qui bondit sur la cible)"
+    },
+    {
+      "idea": "Darius veut des trades longs pour 5 stacks ; reculer dès que les stacks montent",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources ; passif vérifié (5 stacks = gros bonus d'AD)"
+    },
+    {
+      "idea": "Short trades puis désengager, all-in quand il est mid life pour un fight court",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Décimation (A) : délai, le manche ne pose pas de stack ni ne soigne ; coller ou sortir",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (wind up ; handle = pas de stack Hemorrhage ; soin seulement par la lame)"
+    },
+    {
+      "idea": "Guillotine noxienne (R) : dégâts bruts + par stack, relance sur kill ; fuir à 4-5 stacks",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (true damage, +% par stack, recast si kill)"
+    },
+    {
+      "idea": "Faire push Darius en le laissant trade dans ta wave, rester près de ta tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip de lane"
+    },
+    {
+      "idea": "Ne plus trade à partir de la 2e-3e wave / éviter les trades early",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: leaguefeed > 2 ans ne compte pas pour la lane, et contredit par Coach Chippys"
+    },
+    {
+      "idea": "Darius n'a aucun moyen de retirer les CC : jouer les ganks",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: source > 2 ans, conseil macro non vérifiable en Data Dragon"
+    }
+  ]
+}

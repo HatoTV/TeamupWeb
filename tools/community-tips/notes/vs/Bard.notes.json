@@ -1,0 +1,90 @@
+{
+  "searches": 7,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] remember that your portal and ultimate can also be used by enemies.",
+    "[1] If the bolt hits terrain or a second enemy, it [stuns both targets]",
+    "[1] If the champion is an enemy, the shrine is destroyed.",
+    "[1] Magical Journey affects: Self, Allies, Enemies. A champion can pass through the corridor by selecting it while within proximity of it.",
+    "[1] putting all champions, minions, monsters, and turrets hit into stasis for a short time."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Tk6dkm0LZFI",
+      "channel": "Lathyrus",
+      "result": "écarté : YouTube rate-limit (sous-titres refusés, réessayé après 1 min, échec)"
+    },
+    {
+      "id": "n_6vF2DClVk",
+      "channel": "Polypuff",
+      "result": "écarté : YouTube rate-limit (réessayé après 1 min, échec)"
+    },
+    {
+      "id": "t8Cn-d0_ejM",
+      "channel": "Polypuff",
+      "result": "écarté : YouTube rate-limit (réessayé après 1 min, échec)"
+    },
+    {
+      "id": "N2adDvcnXC4",
+      "channel": "Lathyrus",
+      "result": "écarté : YouTube rate-limit (réessayé après 1 min, échec)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/bard/",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://op.gg/lol/champions/bard/counters/support",
+      "result": "ok (1 tip joueur Bard, sans date : traité > 2 ans, mécaniques seulement)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Bard/LoL",
+      "result": "ok (notes de compétences)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Les ennemis peuvent emprunter le portail de la Route magique (E) : le suivre si c'est safe",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (BardE : « Any champion can enter the portal »)"
+    },
+    {
+      "idea": "Destin tempéré (R) met tout en stase, tourelles comprises : ne pas gaspiller son burst dessus",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (BardR : stasis sur champions, minions, monstres, tourelles)"
+    },
+    {
+      "idea": "Marcher sur les autels du Don du gardien (Z) pour les détruire",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (BardW : « If an enemy champion enters a shrine, it is destroyed »)"
+    },
+    {
+      "idea": "Lien cosmique (A) ne stun qu'avec un mur ou une 2e cible : éviter murs et alignement",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (BardQ : stun si 2e ennemi ou mur)"
+    },
+    {
+      "idea": "Push vite la lane pour empêcher Bard de roam, chercher le kill lvl 2-3",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: vu seulement dans un résumé de recherche web, pas une source lue ; tip de lane = 2 sources requises"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "searches": 5,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Now, what we want to do whenever we're playing Vladimir, whatever champion, melee, range, whatever we're playing, we want to make sure that if we take a trade onto Vladimir, we win it so that he doesn't allow himself to regenerate it up.",
+    "[0] whenever his Q three, his big red bar underneath him is is coming up, that's where you just take yourself some distance because you do not win the trades versus him at this point. His healing is increased and he deals, of course, a lot of damage.",
+    "[0] there is still ways where you can win the trades versus him if you just play it smart and you just constantly avoid that Q three underneath of Vladimir.",
+    "[0] you can, of course, win in the trades if you time your trades properly when he doesn't really get the ability to interact back with you, either by timing it with last hits or when he doesn't have his Q up.",
+    "[1] Il faut pas que je me prenne son Q3 aussi.",
+    "[1] il va annuler le trade en régénérant tout.",
+    "[2] If he uses his Transfusion (Q) to last hit a minion or heal then, that's a good time to go in on him.",
+    "[2] Sanguine Pool (W) has a long cooldown and is Vladimir's only escape ability.",
+    "[2] It is after the ability is used that he is most vulnerable.",
+    "[2] Try to bait his Sanguine Pool (W) and then use your abilities.",
+    "[2] Try to take advantage of this to gank him but be aware to not waste your CDs on his Sanguine Pool (W).",
+    "[2] Do not stack against Vladimir so that he won't be able to hit multiple people with his ultimate.",
+    "[3] Avoid direct trades when Vladimir's 'Sanguine Pool' is available."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "0V7oU-weTdo",
+      "channel": "Mysteriaslol",
+      "result": "slot 1 : rate limit YouTube, retry après 1 min échoué, compté comme perdu. Rouvert ~20 min plus tard (slot 3, sous-titres 'en', voix anglaise) : utilisé (passages 1:18-2:38, 4:08-5:28, 6:22-6:59)"
+    },
+    {
+      "id": "rePSh0OfikE",
+      "channel": "Vallheim • League of Legends",
+      "result": "slot 2 : rate limit, retry après 1 min échoué, compté comme perdu. Rouvert (slot 4, fr, voix française) : utilisé (1:03, 4:56) ; reste de la transcription peu exploitable (sous-titres auto confus)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://leaguefeed.net/?p=16534",
+      "result": "ok (2022-03-19, plus de 2 ans : mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/vladimir/counters",
+      "result": "ok (tips sans date : traités plus de 2 ans, mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Reculer quand sa A renforcée (barre rouge pleine) est prête",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (A renforcée après deux utilisations)"
+    },
+    {
+      "idea": "Trade quand il a utilisé sa A sur un sbire (A en CD)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD 9/7.9/6.8/5.7/4.6 s)"
+    },
+    {
+      "idea": "Bait le Z puis engage pendant son long CD",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (anciennes) + DDragon (CD 28-16 s, Untargetable 2 s)"
+    },
+    {
+      "idea": "Ne prendre que des trades nettement gagnés, sinon il régénère tout",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (lane)"
+    },
+    {
+      "idea": "Garder skillshots/CC pendant le Z (impossible à cibler 2 s)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Untargetable 2 s)"
+    },
+    {
+      "idea": "Ne pas rester groupé face au R",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (zone, heal supplémentaire par champion au-delà du premier)"
+    },
+    {
+      "idea": "Reset avant lui après avoir crash la wave (il n'a pas de contrôle de wave)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (lane)"
+    },
+    {
+      "idea": "Après lvl 6, ne pas chercher le 1v1 : push et jouer la map",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (macro)"
+    },
+    {
+      "idea": "Vlad faible skirmisher early, le punir tôt",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: op.gg traité plus de 2 ans, ne compte pas pour un tip de lane"
+    },
+    {
+      "idea": "Wards sur les flancs en teamfight",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: source de plus de 2 ans seule (macro)"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "searches": 7,
+  "videosRead": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[Bibou 8K_pOCngwic 31:20] Le seul problème, ça va être niveau 1 ou 2 parce que Zerry est quand même très faible. [...] ces autoattaques ne traversent pas les champions ni les CS.",
+    "[Bibou 8K_pOCngwic 03:31] quand ce Z il va toucher un mur avant de toucher quelqu'un, il va changer de forme et on va avoir tout ce rectangle là qui [...] va exploser et va faire des dégâts à tout ce qui se trouve dedans.",
+    "[Bibou 8K_pOCngwic 15:29] Zerry, elle a peu de range et elle va galérer si c'est contre un Z, contre un Xerat, contre n'importe quoi.",
+    "[Bibou 8K_pOCngwic 31:20] des champions comme Tristana qui qui vont dachine et cetera qui peut potentiellement me suivre, ça va être compliqué."
+  ],
+  "videosTried": [
+    { "id": "kfoXtlYDBNM", "channel": "junniseoul", "result": "écarté : rate-limit YouTube, réessayé après 60 s, toujours bloqué (perdu)" },
+    { "id": "8K_pOCngwic", "channel": "Bibou - League of Legends", "result": "utilisé (passages 03:11-03:45, 15:29-15:50, 31:20-31:50), publié 2025-12-19 ; seule source exploitable" },
+    { "id": "KphIw81O7IY", "channel": "Mobalytics", "result": "écarté : rate-limit YouTube, réessayé après 60 s, toujours bloqué (perdu) ; de toute façon > 2 ans (mécaniques seules)" },
+    { "id": "cueDBL7c2Yc", "channel": "Crownie", "result": "écarté : rate-limit YouTube, réessayé après 60 s, toujours bloqué (perdu)" }
+  ],
+  "pagesTried": [
+    { "url": "https://op.gg/lol/champions/zeri/counters", "result": "no-advice (tips écrits pour jouer Zeri, pas contre elle)" },
+    { "url": "https://rankedboost.com/league-of-legends/counter/zeri/", "result": "stats-only (aucun conseil de gameplay contre Zeri)" },
+    { "url": "https://leaguefeed.net/how-to-counter-zeri/", "result": "404" }
+  ],
+  "ideas": [
+    { "idea": "Zeri très faible lvl 1-2 ; sa Rafale (A) ne traverse pas les sbires : reste derrière tes sbires", "sourceIdx": [], "kept": false, "reason": "dropped: 1 seule source (Bibou) + DDragon OK (Rafale touche le premier ennemi), mais un fichier ok exige 2 sources listées" },
+    { "idea": "Laser électrocuteur (Z) qui touche un mur devient un laser en zone longue portée qui crit", "sourceIdx": [], "kept": false, "reason": "dropped: 1 source + DDragon OK, mais seule source disponible (statut ok impossible)" },
+    { "idea": "Zeri a peu de portée et souffre contre les mages poke bot", "sourceIdx": [], "kept": false, "reason": "dropped: lane, 1 seule source" },
+    { "idea": "Les ADC à dash qui la suivent (Tristana) lui posent problème", "sourceIdx": [], "kept": false, "reason": "dropped: lane, 1 seule source" },
+    { "idea": "Éruption électrique (R) ne donne vitesse d'attaque / déplacement que si la nova touche un champion", "sourceIdx": [], "kept": false, "reason": "dropped: DDragon OK mais aucune source vidéo/web lue ne le dit" }
+  ]
+}

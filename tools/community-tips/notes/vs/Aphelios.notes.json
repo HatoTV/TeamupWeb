@@ -1,0 +1,128 @@
+{
+  "searches": 7,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] A felios kind of struggles very hard into hard engage lockdown. So like champions with heavy CC that are hard to avoid",
+    "[0] he's very low mobility and often times if the enemy has anything to get on top of, you don't want to give them this opportunity.",
+    "[0] press red Q, you then get a free auto attack on them with purple. You root them, you set up your support with the route",
+    "[0] The reason this is good is because the enemy expects you to auto and doesn't dodge after the red Q, but instead you use the green Q and it makes it seem like it's an auto attack.",
+    "[0] you can also then hit the plings, especially with white, you're going to get one or two plings, which is just great.",
+    "[0] if the enemy has a very beefy front line and it's like one champion you're hitting, you're going to be trying to set yourself up with white and green",
+    "[0] And the blue is the best team fighting from all Aelia's ults in the game.",
+    "[1] need to plan your fights in advance to rock up with the correct guns.",
+    "[1] I would just leave a dragon and go hit a tower and I would just kill it cuz you're just red white. You're just slamming the tower so fast."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "vm_zSp1tjmQ",
+      "channel": "Reptile9LoL",
+      "result": "utilisé (passages 12:32-14:01 matchups/faiblesses, 14:01-16:52 lane, 16:56-19:12 teamfights)"
+    },
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (passages 05:52-11:13, segment Aphelios)"
+    },
+    {
+      "id": "6zaDj_rOsk8",
+      "channel": "Hallow",
+      "result": "écarté : YouTube rate-limit, réessayé après 1 min, toujours bloqué (compté comme ouvert)"
+    },
+    {
+      "id": "Z4rfjNhbx5U",
+      "channel": "Zoose",
+      "result": "écarté : YouTube rate-limit, réessayé après 1 min, toujours bloqué (compté comme ouvert)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/aphelios/",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Sa menace dépend de la paire d'armes qu'il tient : la repérer avant d'engager",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : deux armes à la fois, attaque et compétence propres à chacune)"
+    },
+    {
+      "idea": "Avec Crescendum, il détruit plaques et tours très vite : ne pas le laisser seul sur une wave",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Aucun dash, peu de self-peel : engage dur / CC en chaîne le punissent",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (aucun dash dans Q/W/E/R)"
+    },
+    {
+      "idea": "Ralenti par Gravitum = root possible avec A : sortir de portée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Gravitum : immobilise tous les ennemis ralentis par cette arme)"
+    },
+    {
+      "idea": "R explose sur le premier champion touché et blesse autour : ne pas rester groupés",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (explosion en zone au premier champion touché)"
+    },
+    {
+      "idea": "Q Calibrum : tir longue portée qui marque, à esquiver",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Calibrum : tir longue portée, marque, attaque de suivi)"
+    },
+    {
+      "idea": "Les champions à poke longue portée le battent en lane",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Il obtient rarement la prio lvl 1 : contester la wave tôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source, invérifiable en DDragon"
+    },
+    {
+      "idea": "Crescendum = fenêtre d'all-in, surtout autour des fights de drake",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Il utilise son R pour poke",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, fenêtre de punition non dite par la source"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] I got stunned from that. No way I was in that wall.",
+    "[0] back up before I make a move. like before I do any trade again. Just giving massive respect. ... Plus is about to be mega.",
+    "[0] He doesn't have like even though he's Megaar form, he doesn't have his ult up. He gets his ult like every other Megaar transformation. It's a very short cool down and it'll eventually be on every single one",
+    "[1] Gnar's animations and resource bar change as he is closer to transforming.",
+    "[1] Gnar's ultimate stuns if he hits you into a wall. Be careful when fighting him near one.",
+    "[1] Gnar can't gain Rage for 15 seconds after he turns from big to little. Use this chance to engage on his team."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "ivHf6PjLGTM",
+      "channel": "Foggedftw2 Tryndamere",
+      "result": "utilisé (passages 4:52-5:20, 5:37, 11:58-12:20, 13:19-13:32) ; surtout du gameplay, peu de conseils"
+    },
+    {
+      "id": "2CXi04mpPkM",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "écarté : passage Gnar (1:43:08-1:45:50) du point de vue du joueur Gnar (gestion du Méga, bottes), rien d'exploitable contre lui"
+    },
+    {
+      "id": "IKcJfHQcdhk",
+      "channel": "Narkuss_VOD",
+      "result": "écarté : VOD de stream, aucun conseil contre Gnar"
+    },
+    {
+      "id": "2QHmKwRrtFo",
+      "channel": "Gemi",
+      "result": "écarté : commentaire hors sujet (Worlds, Ekko), aucun conseil de matchup exploitable"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Gnar/Strategy",
+      "result": "ok (section Playing Against, non datée, dernière édition 2024-12-16 : traitée comme mécanique seulement)"
+    },
+    {
+      "url": "https://www.op.gg/lol/champions/gnar/counters",
+      "result": "ok mais générique (« careful of his (E) and (R) », kite) ; non retenu"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/gnar/",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "R (GNAR !) stun contre un mur : ne pas se battre dos au mur contre Méga Gnar",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (tooltip GnarR : stun si l'ennemi heurte un mur)"
+    },
+    {
+      "idea": "Surveiller la jauge de rage, reculer avant la transformation en Méga",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : rage pleine, la prochaine compétence transforme ; partype Rage)"
+    },
+    {
+      "idea": "R à 90 s de CD au rang 1 : Méga Gnar parfois sans ult, fenêtre d'engage",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (cooldown GnarR 90/60/30)"
+    },
+    {
+      "idea": "Pas de gain de rage 15 s après le retour en Mini Gnar : engager",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (wiki, non daté) et durée absente de Data Dragon"
+    },
+    {
+      "idea": "Mini Gnar te kite en lane : vitesse de déplacement nécessaire",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane avec 1 seule source récente (op.gg traité comme > 2 ans) et lié à un achat d'objet"
+    },
+    {
+      "idea": "Joueurs Gnar qui gâchent leur Méga sur la wave",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: BBC, point de vue du joueur Gnar, 1 source"
+    }
+  ]
+}

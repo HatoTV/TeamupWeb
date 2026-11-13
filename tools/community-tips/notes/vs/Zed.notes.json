@@ -1,0 +1,136 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] So, levels one, he's incredibly weak. Level two, he is mediocre. And level three, he starts becoming a little bit stronger.",
+    "[0] Level one, you got full control and level one is the time where you got to set up yourself in such a way that you get a strong level two as well.",
+    "[0] We're going to look to play a slow build onto Zed so we can reach level two first and he is going to reach level two later and that can then lead to us getting damage onto him or he needs to drop farm.",
+    "[0] potentially bait out his W cuz the moment his W is down, that's when there is no no threat anymore. This W ability is paramount for Zed to get his trades going.",
+    "[0] The moment he uses his W, um he is going to look to trade onto you. And because this is the best time for him to Q because he gets two Qs.",
+    "[0] So, the moment his W is out, you want to move in such a way that you make it hard for him to land his spell. So, you see in my movement, I I change up my movement.",
+    "[0] If you can play around Zed's W, that's when you're going to be in a great spot because that's where the big part of his trading threat actually comes from.",
+    "[0] the moment Zed has ult, he wants to skirmish around the map and he wants to get lane control to to look for good quality skirmish, right?",
+    "[0] If he ever ults you, make sure that you dodge out on his Q's, okay? His Q's is where the big damage comes from.",
+    "[1] we're going to spam auto attack to make sure we crash on the second wave.",
+    "[1] We're not really scared of his level two.",
+    "[1] the biggest thing that you guys really need to worry about when he is level three is making sure we don't get hit by the second shuriken. Getting hit by the first shuriken with the shadow is perfectly normal and perfectly okay.",
+    "[1] but he uses shadow, which is perfectly fine. It is what it is. We're already up CS. You should have no shadow. Is a long cool down.",
+    "[1] biggest tip I have for Zed is remember he always teleports behind you. So we are never going to be using our stun until he ultis us.",
+    "[1] So, you never throw your stun unless he ulties. I need to emphasize that we are never throwing a stun when he hits level six unless he ulties us.",
+    "[1] You just ulti bot, clear mid, make your mid laner go behind and he can't roam himself.",
+    "[2] level one you're much stronger than him.",
+    "[2] play patient with with your spells against Zed when they have old, right? They're always try going to try to dodge either one of your spells, whether your old or Q, your E."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "lpx3J_fLQLc",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 2:12-3:27, 5:37-7:04, 11:06-12:20)"
+    },
+    {
+      "id": "G77clW0SOhE",
+      "channel": "HEXerath",
+      "result": "utilisé (passages 0:50-1:09, 1:42, 3:10, 4:51-5:36, 12:53-13:04)"
+    },
+    {
+      "id": "yuMYxrTwg7s",
+      "channel": "Yokah VOD",
+      "result": "écarté : bavardage de stream, aucun conseil de matchup contre Zed"
+    },
+    {
+      "id": "FSvTyrOlv3M",
+      "channel": "Kunain",
+      "result": "utilisé (passages 0:16, 12:53-13:04)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Zed faible lvl 1-2 : crash la 2e wave, lvl 2 en premier, il lâche des sbires",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Ombre posée = deux Shuriken-rasoir : varier ses déplacements, ne pas prendre les deux",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Zed et ses ombres lancent chacun un shuriken)"
+    },
+    {
+      "idea": "Garder son CC pour après la Marque de la mort : inciblable pendant le dash, peut revenir sur l'ombre",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Untargetable pendant le dash, ombre laissée par R, recast pour échanger)"
+    },
+    {
+      "idea": "Faire sortir l'Ombre vivante puis trade pendant son CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources ; CD 20/19/18/17/16 s vérifié DDragon"
+    },
+    {
+      "idea": "Après le lvl 6 il cherche les escarmouches : garder la prio de wave pour limiter ses roams",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Sous la Marque de la mort, esquiver les shurikens : la marque rejoue une partie des dégâts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (marque après 3 s, répète une partie des dégâts infligés pendant la marque)"
+    },
+    {
+      "idea": "Trade quand ses sbires meurent pour le forcer à choisir entre CS et trade",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Rester haut en PV, Zed joue sur la kill range",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "S'il ult sans ombre posée, ton CC passe et tu gagnes l'all-in",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, l'ombre de R permet encore de revenir, non vérifiable tel quel"
+    },
+    {
+      "idea": "Se placer près d'un sbire pour qu'il y lance son Q et l'esquiver",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source"
+    }
+  ]
+}

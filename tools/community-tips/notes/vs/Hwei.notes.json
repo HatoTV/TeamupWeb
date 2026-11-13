@@ -1,0 +1,141 @@
+{
+  "searches": 4,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] I'm actually going to walk up now. There's a cool down.",
+    "[0] It's very strong into Hue as he can't really poke you consistently. But, on very long intervals, you're going to get the full value out of D-Shield.",
+    "[0] I can look for E flash to kill him. He's very low on mana as well.",
+    "[0] Nice, you can walk up like that and try to bait out his CC spell.",
+    "[0] We have a Jarvan gank coming. He's without flash. He should be dead here. He just used his CC as well.",
+    "[0] Nice, we bait off his spell. I'm making him think I'm walking up, but actually I'm just going to hit the wave.",
+    "[0] I have to respect my old all in. I have it up now. I just have to flash his CC and he's dead.",
+    "[1] Hi is extremely fragile, meaning poor positioning or a single misstep can get him instantly deleted. With no dashes or blinks, his movement speed tools aren't enough to escape highly mobile assassins or hard commits.",
+    "[1] Nearly all of Hi's impact comes from landing skill shots, so miss spells dramatically lower his threat and control. Hi burns through mana quickly, so careless spell usage can shut down his pressure before fights even start.",
+    "[1] Most players throw this out raw, but the delay is too easy to dodge. Use your snare or pull first to lock targets in place, then finish with QW.",
+    "[1] This is your panic button. EQ is how you stop divers, peel yourself, and instantly kill an enemy's engage.",
+    "[1] Hold EQ for enemies who are running into you. It's easier to land when they're committing to an all-in.",
+    "[1] EW places an eye that grants vision, locks onto the nearest visible enemy champion, and roots the first target in its path.",
+    "[1] Most players throw Haye's ultimate raw or use it first, making it easy to dodge and wasting its fightwinning potential. Look to land CC first, fears, roots, pools, then follow with your ultimate to make it unavoidable.",
+    "[2] Big poke. Want to look for an angle here. This is going to be diabolically hard. Now she knows I have no spells, so she's walking up, right?",
+    "[2] She hurts so much. Like it's so easy for her to get on you. Just take all of your HP."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "xTw6Lu4N_yk",
+      "channel": "Kunain",
+      "result": "utilisé (passages 0:06-0:15, 1:03-1:12, 2:09-2:41, 4:13-4:19, 7:32-7:49) ; voix anglaise, en-orig"
+    },
+    {
+      "id": "_Qe-x-3tMPc",
+      "channel": "Zoose",
+      "result": "utilisé (passages 1:12-2:00, 3:26-3:44, 6:37-7:20, 8:46-9:00) ; guide Hwei, faiblesses et sorts"
+    },
+    {
+      "id": "xEfa_ou7ARw",
+      "channel": "evandabank",
+      "result": "utilisé (passages 1:16-1:30, 2:06-2:19) ; Rank 1 Hwei contre Diana. Note : cette requête a été lancée peut-être un peu avant la fin de la pause de 25 s"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/hwei/counters",
+      "result": "no-tips (seulement des conseils pour jouer Hwei)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Bait son Visage effroyable (E-A) / son CC puis all-in ; set E 12-10 s de CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (HweiE cooldown 12/11.5/11/10.5/10, Grim Visage = fear)"
+    },
+    {
+      "idea": "Avancer/trade quand il a lancé ses sorts, poke à longs intervalles",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Hwei vide sa mana vite : punir quand il est low mana",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (coûts DDragon A 80-120, Z 90-110 cohérents)"
+    },
+    {
+      "idea": "Pas de dash/blink, fragile : champions mobiles / engage le collent",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; kit DDragon sans dash ni blink"
+    },
+    {
+      "idea": "Très gankable sans dash, surtout sans Flash",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Kunain gank Jarvan sur Hwei sans Flash ; Zoose aucun dash pour fuir)"
+    },
+    {
+      "idea": "Éclair enflammé (A-Z) retardé, bonus sur cible isolée/immobilisée",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Severing Bolt delayed, bonus on Isolated or Immobilized)"
+    },
+    {
+      "idea": "Œil des abysses (E-Z) : vision + verrouille le premier champion entrant + root",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Gaze of the Abyss tooltip)"
+    },
+    {
+      "idea": "Vision de désespoir (R) après un CC, colle au premier champion et ralentit autour : s'écarter des alliés",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R: first enemy champion struck, slows and damages nearby enemies)"
+    },
+    {
+      "idea": "Passif : la signature explose après un délai, on peut en sortir",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: limite de 8 tips ; Zoose ne parle que des dashs pour en sortir"
+    },
+    {
+      "idea": "Son ult révèle les champions camouflés (Kunain 5:09)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans DDragon 16.22.1"
+    },
+    {
+      "idea": "Hwei faible en side lane / skirmish solo sans info (Zoose 17:22)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip macro"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] So, in the early game, you want to be attacking a bit on her mana pool because two dabby for 69 damage that's not worth it.",
+    "[0] And realize how I always like try to go the opposite side of her. We don't really stick to her ball. We're trying to be on the opposite side to always have the maximum reaction time to dodge her spells.",
+    "[1] Fais attention à pas trop spam le W rang 1 parce qu'il coûte beaucoup de mana pour peu de dégâts et utilise-le que quand tu es sûr de toucher.",
+    "[1] un champion qui puisse te setup pour ton ulti que ce soit en jungle ou en support. Tu es ravi d'avoir des champions qui peuvent te créer de l'espace et te laisse le temps de trouver un angle de R par exemple Horn, Jarvan ou X.",
+    "[1] être vulnérable à l'ordengage en face puisque tu es immobile. Donc les chambres du genre Malfit, Leona ou Amumu peuvent être problématiques.",
+    "[1] Ton queue fait plus de dégâts à la première cible. Donc en face de laine, essae dans l'idéal de toucher ton adversaire avec ton Q spell sans toucher d'unité au préalable puisque toutes les cibles subséquentes prennent 30 % de dégâts en moins.",
+    "[1] Tu vas à l'inverse profiter du slot du W pour être sûr de toucher l'ulti et ça va te permettre de glisser des autoattaques avec le slow du W et R quand le mec s'éloigne de la boule pour le ramener",
+    "[1] Si vous faites chase, n'appuyez pas sur votre HL si les ennemis n'ont pas encore dépassé votre boule. Ça les ramènerait plus proche de vous et donc vous allez vous faire chase plus facilement. Soyez un petit peu patient de sorte à ce qu'il la dépasse et soit ensuite ramené vers l'arrière",
+    "[2] If he walks up for this cannon, I got my ball in place. QW auto, boom, another auto.",
+    "[2] He should honestly just sit back, uh give up one or two melee creeps if that means not dying because he's walking up for these these creeps when I'm you know, looking for harass",
+    "[2] What you should be doing on Orianna is always look looking with your engage to see if you have good ult angles. So, I'm watching this fight here. I'm like, oh, this guy can go in. So, I ball him. He walks in there, he gets in there, we get a nice Orianna ult",
+    "[3] the one thing you have to be careful of here is that as a mage with no FL you're very vulnerable"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "sMwzqixJldk",
+      "channel": "Peng",
+      "result": "utilisé (passages 22:23-27:00, chapitre review)"
+    },
+    {
+      "id": "LJhZ0tyJmDg",
+      "channel": "Shambless",
+      "result": "utilisé (passages 05:15-05:55, 07:34-08:30, 10:01, 12:47-13:54) ; guide côté Orianna, voix FR"
+    },
+    {
+      "id": "mdxaPIUYyf4",
+      "channel": "young",
+      "result": "utilisé (passages 05:43, 09:48, 20:50-21:19) ; guide côté Orianna"
+    },
+    {
+      "id": "5W9ky9lHOAg",
+      "channel": "Shok",
+      "result": "utilisé (passage 03:59) ; peu de conseils contre Orianna, 20 mois"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "E sur un allié qui engage = R qui part de cet allié, s'écarter",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E attache la sphère à un allié, R autour de la sphère)"
+    },
+    {
+      "idea": "Z rang 1 coûte cher en mana : la faire gaspiller puis trade",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z 60-80 mana, A 35)"
+    },
+    {
+      "idea": "Ne pas monter last hit près de la sphère, rester du côté opposé, lâcher un melee",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z autour de la sphère)"
+    },
+    {
+      "idea": "Aucun dash : vulnérable aux engages durs et aux ganks, surtout sans Flash",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (aucun dash dans le kit)"
+    },
+    {
+      "idea": "A réduit après la première cible : garder des minions devant soi",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : dégâts réduits après le premier hit)"
+    },
+    {
+      "idea": "Champ de Z : slow ennemi + vitesse alliée, en sortir",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : champ qui slow les ennemis et accélère les alliés)"
+    },
+    {
+      "idea": "R projette vers la sphère : en fuite, ne pas dépasser la sphère de près",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : knock vers la sphère)"
+    },
+    {
+      "idea": "Punir quand elle utilise son A pour last hit / sans A+Z",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: tip lane, 1 seule source (Peng)"
+    },
+    {
+      "idea": "Respecter le lvl 6 : gros potentiel de solo kill sous 70 % PV",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: tip lane, 1 seule source"
+    },
+    {
+      "idea": "Sphère cachée dans un brush : ne pas facecheck",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, invisibilité non vérifiable dans DDragon"
+    }
+  ]
+}

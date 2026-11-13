@@ -1,0 +1,125 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] here you may have noticed I'm not hitting the wave. It's because I want the wave to be pushing into me and I by no means want to contest their level two.",
+    "[0] And the only way you can really fight a Draven with his axes is you kind of want to be queuing in his direction as he's walking into you.",
+    "[0] You see how I'm queuing him as he's trying to walk up, right?",
+    "[0] We go in aser jungler is here. Draven has no flash. He has no E. That was just a free kill.",
+    "[0] I killed Draven before he got his kill, so he didn't get stacks for this kill again. That is huge.",
+    "[1] Because you're you don't have a dash, right? You're pretty fast with your W, but you you can't dash things, right? So, if they have a Jarvin, you don't have flash can be really bad",
+    "[1] most of your damage is from your ax, right? So, you can see I'm level three, 54 bonus damage on every auto attack. So, this is why I say it's like so important to abuse the early levels because you have damage coming for your axe.",
+    "[1] you're supposed to be in their face using the bush, zoning them. And if you're zoning them, the minions are going to aggro. The wave is going to push naturally towards them",
+    "[1] typically I want to use it defensively as we talked about",
+    "[1] just really use like my priority and control over the wave to just like slowly increment my lead until I get like a big cash in",
+    "[1] if you drop an axe at the wrong time, you get hit by a skill shot, and then you die at a really bad time of the game",
+    "[2] This is what I mean though. Like just such an unnecessary shutdown going to Draven.",
+    "[2] Three 600 gold handed to them on a silver platter."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "NbUNlMlZdeI",
+      "channel": "Frappii",
+      "result": "écarté : partie Zeri vs Draven centrée sur l'autopilot, presque aucun conseil propre à Draven (prio, lvl 2 sans détail)"
+    },
+    {
+      "id": "h4hx__Q4u3I",
+      "channel": "KU9 ADC",
+      "result": "utilisé (passages 0:15-1:10, 3:20, 7:50, 10:46)"
+    },
+    {
+      "id": "axxTNVHFiv0",
+      "channel": "Vaporaphelios",
+      "result": "utilisé (passage 8:09-8:30) ; le reste est surtout du commentaire de partie"
+    },
+    {
+      "id": "1kSqZVExMXs",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (guide Draven par un OTP Challenger : 11:38, 20:05, 28:43, 32:20-33:20, 53:14, 1:00:27, 1:44:57)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Draven?action=raw",
+      "result": "refused (403, page anti-bot) ; servait seulement à vérifier la perte d'Adoration à la mort"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ne pas donner de kill à Draven : son passif convertit l'Adoration en PO bonus",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (passif : PO bonus selon l'Adoration en tuant un champion)"
+    },
+    {
+      "idea": "Draven sans dash : engager quand Division (E) et Flash sont down",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (aucun sort de dash ; E repousse et ralentit, CD 16-12 s)"
+    },
+    {
+      "idea": "Viser l'endroit où il va rattraper sa hache ; lâcher la hache lui coûte dégâts et reset du Z",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (hache rattrapée = nouvelle Hache tournoyante + CD de Pulsion sanguinaire réinitialisé)"
+    },
+    {
+      "idea": "Draven très fort tôt : ne pas disputer le lvl 2, laisser la wave pousser vers soi",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Tuer Draven lui fait perdre ses stacks d'Adoration",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped : 1 source, perte à la mort absente du texte DDragon et wiki refusé"
+    },
+    {
+      "idea": "Les mages qui wave clear et chaînent les CC avec leur support sont durs pour Draven",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped : 1 source (lane)"
+    },
+    {
+      "idea": "Freeze pour faire perdre des sbires à Draven",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped : 1 source (lane)"
+    },
+    {
+      "idea": "Push vite la wave pour forcer Draven à répondre pendant un objectif",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped : 1 source (macro)"
+    },
+    {
+      "idea": "Volée mortelle (R) exécute selon l'Adoration",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped : aucune source vidéo ne l'aborde"
+    }
+  ]
+}

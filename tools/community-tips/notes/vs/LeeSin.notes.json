@@ -1,0 +1,129 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] a few kills will enable the champion pretty heavily. It's very hard to stop him. Additionally to that, his skirmish is early is really strong.",
+    "[0] That means you want to play with your mid laner or top laner or support and have a lot of 2v2, 3v3 skirmishes.",
+    "[0] His split push is really poor and he needs a secondary win condition. If you have everyone is useless and you have 20 kills on Lein, usually that's not enough to carry.",
+    "[0] We play against Aurelian Zo jungle Zinch jungle something that just full clears and scales. You don't want to give them this opportunity. So you want to invade because you want to make it tricky for them.",
+    "[0] Enemies can flash it, they can dash it, they can whatever. You can miss it. You don't like it. You want to always jump out E. Now slow him with the secondary E and attack him. And now how high is the chance to hit your Q in melee range?",
+    "[0] if you throw your Q though and it misses it right now. The enemy enemy let's say ADC is like okay Linda has no queue now.",
+    "[1] However, he does fall off late game compared to other junglers and he can struggle from behind being damage reliant.",
+    "[1] You are a beast in this early game situation, so you do love fighting.",
+    "[1] For match ups, Lee Sin is great into junglers who don't want to get invaded as he loves invading.",
+    "[1] So, when you walk into enemy vision, instead of using Q which they can avoid, wall hop in instead. This often puts you in range to slow them with your E before landing that guaranteed Q.",
+    "[1] Lee Sin's Q is a straight line skill shot which deals damage to the first enemy hit and marks them.",
+    "[1] Otherwise, look for a lineup to kick one of their tanks onto the enemy backline before jumping on the carries."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "NPxojPiTpPU",
+      "channel": "Sinerias",
+      "result": "utilisé (passages 6:50-11:30, chapitres Strengths & Weaknesses et Tips & Tricks)"
+    },
+    {
+      "id": "EfWKYwtQEPw",
+      "channel": "Kireilol",
+      "result": "écarté : partie commentée côté Lee Sin, rien sur ses faiblesses (recherche fall off / weak / miss / invade / level 3 / level 6)"
+    },
+    {
+      "id": "AViB7BVE0MQ",
+      "channel": "Mobalytics",
+      "result": "écarté : pas de piste en-orig, piste en inexploitable (texte sans rapport), vidéo de 2021"
+    },
+    {
+      "id": "EGQJtmz01zs",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (passages 0:00-0:50, 1:37, 2:05-2:56)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "En gank : saut sur ward (Z), slow Fracture (E), Onde sonore (A) de près",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W dash vers ward, E2 slow, Q premier ennemi)"
+    },
+    {
+      "idea": "Éviter les skirmishes 2v2/3v3 early, force de Lee",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Jungler qui full clear / scale : s'attendre à un invade",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Snowball avec des kills mais tombe en late, carry mal seul : jouer long",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Onde sonore arrêtée par le premier ennemi (sbires)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (first enemy hit)"
+    },
+    {
+      "idea": "Q raté = fenêtre sans engage (CD 10/9/8/7/6)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (cooldown 10-6 s)"
+    },
+    {
+      "idea": "R envoie la cible sur ses alliés et les knock up : ne pas s'aligner derrière son tank",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (collision, knock up)"
+    },
+    {
+      "idea": "Lee lent sur les objectifs, faible DPS et wave clear",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source ([1] le dit au contraire bon pour convertir en objectifs en mid game)"
+    },
+    {
+      "idea": "Ganks très dangereux dès le lvl 3",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    },
+    {
+      "idea": "Après le kick (R), Onde sonore garantie / insec vers son équipe",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: pas de contre-jeu actionnable tiré des sources"
+    }
+  ]
+}

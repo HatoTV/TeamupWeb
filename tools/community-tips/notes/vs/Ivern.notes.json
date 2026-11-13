@@ -1,0 +1,121 @@
+{
+  "searches": 1,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] You see bot lane, his Gromp here is spawning 420. So 420 is usually the timer his camps are respawning. So you can actually just well take it.",
+    "[0] I is a champion where you want to get level six ideally. After level six, your skirmishing becomes three times better.",
+    "[0] the moment I have Daisy, that's when the film begins.",
+    "[0] I mean I could look to the drake, but this champion really needs his ultimate. So don't go for drake. Just base.",
+    "[0] It's camps over anything because on Daisy especially, levels is everything. Without levels, this champ is dog [ __ ]",
+    "[0] Of course, the weakness is that it's squishy, so you should look to be mindful about your position.",
+    "[0] So that's the only weakness of Ivvern. If you're basically fighting alone, if you're not fighting alone, you're super OP.",
+    "[0] I just want to highlight the strengths and weaknesses of this champion, which is that of course alone and if they can get onto you, you're cooked.",
+    "[1] And now we have his chicken's respawn timer, which we can always outsmart",
+    "[1] So we already have way higher CSing than her and we have double smite. So now we can start to invade her like insane.",
+    "[1] Like I said with this champion, only use your Daisy if there's an all-in. If there's no all in, don't fight. That simple.",
+    "[2] However, as a support jungler, he is very reliant on his team, and he can suffer from getting invaded early.",
+    "[2] being able to smite the grove is what makes him such a good counter jungler as he can walk into the enemy's jungle, mark it for two and a half seconds, then instantly claim it.",
+    "[2] Ivan's Q is a straight line skill shot which deals damage to the first enemy hit and route them. Ivan and his allies when they attack that target, then dash to their attack range.",
+    "[2] After 2 seconds, the shield explodes, dealing damage in a circle around them and slowing enemies hit.",
+    "[2] Her basic attacks apply a stack onto enemies hit. And at three stacks, her next attack is empowered where it sends out a shock wave dealing bonus damage and stunning and knocking up enemies hit.",
+    "[2] However, he can struggle into higher damage assassin junglers who can just assassinate him."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "p7ilxC02DV4",
+      "channel": "Coach Kirei",
+      "result": "utilisé (passages 3:58, 5:10, 7:47, 10:44-10:56, 14:44, 32:10-34:47)"
+    },
+    {
+      "id": "EfClevdcLmw",
+      "channel": "SineriasVODs",
+      "result": "utilisé (passages 0:17-2:21, 26:48)"
+    },
+    {
+      "id": "9-f-QkldYyA",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (transcription complète, 3 min)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Ivern contre-jungle : marque/smite tes camps ou passe à leur respawn ; warder et suivre les timers",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Ivern dépend de Marguerite pour se battre ; engager après son R (CD long)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (+ CD R 140/130/120 s vérifié DDragon)"
+    },
+    {
+      "idea": "Ivern faible aux invades tôt et dépend des niveaux",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ivern fragile seul : le punir isolé, assassins forts contre lui",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Q en ligne droite ; alliés dashent sur la cible enracinée",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : tooltip Q)"
+    },
+    {
+      "idea": "E explose après un délai avec slow autour de l'allié",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : tooltip E)"
+    },
+    {
+      "idea": "Marguerite : knock-up à la 3e attaque consécutive",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : Daisy, Slam! 3rd consecutive Attack)"
+    },
+    {
+      "idea": "Tuer Marguerite allonge le CD (60 s contre 30 s si elle expire)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, chiffres absents de DDragon"
+    },
+    {
+      "idea": "Ivern lent sur les objectifs",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable"
+    }
+  ]
+}

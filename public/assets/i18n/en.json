@@ -921,6 +921,9 @@
     "EMPTY_HINT": "We only publish a tip when several sources give it or the game data confirms it.",
     "SOURCES": "Sources consulted ({{n}})",
     "CONSULTED": "consulted on {{date}}",
-    "METHOD": "Every tip is rewritten by TeamUpp, never copied, and sorted by number of sources. Mechanics are checked against the game data (patch {{version}}). A tip is cited by at least 2 sources, or by 1 when the mechanic is confirmed in the game data."
+    "METHOD": "Every tip is rewritten by TeamUpp, never copied, and sorted by number of sources. Mechanics are checked against the game data (patch {{version}}). A tip is cited by at least 2 sources, or by 1 when the mechanic is confirmed in the game data.",
+    "VS_TITLE": "How to play against {{champion}}",
+    "VS_GENERAL": "General advice against this champion",
+    "VS_LINK": "General advice against {{champion}}"
   }
 }

@@ -1,0 +1,128 @@
+{
+  "searches": 7,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] in these kind of match ups you're going to see me a lot of the time spamming my Q's on them. Try to get that extra bit of HP lead until we hit level two.",
+    "[0] I can just keep poking him. It's his number one thing that he probably hates. Try to get that lane prior so I can hit level six before him.",
+    "[0] Now I can't even walk up because I don't see Talon. Talon, if he catches me off in any bush, I'm I'm basically dead, especially if I don't have flash. I I insta-die.",
+    "[0] Oh my god, I almost died. I even dodged his W and I almost died.",
+    "[0] Well, it's like so crystal clear that someone's here and it's obviously going to be Talon.",
+    "[0] Have to be careful of Talon here. Looks like he is always here.",
+    "[0] The Talon can ult out, and then the uh Xayah has the safety button, which is her ult.",
+    "[1] Wait for level six and then look for a kill or push wave and roam because Talon is a roamer, not a solo killer.",
+    "[1] Talon loses the he loses level one against against Orianna. Talon should never fight for prior against Orianna.",
+    "[1] You win by surviving until you reach level six and then you push the wave and roam.",
+    "[1] Beautiful spacing. Beautiful positioning. Choking the Talon. That's how she's supposed to do. She's supposed to choke the Talon.",
+    "[1] And running to the jungle against uh Diana and Talon is this death sentence without Flash. Talon can go over the wall. She's just dead.",
+    "[2] Talon is heavily reliant on Shadow Assault to escape a fight, he is significantly more vulnerable without it.",
+    "[2] Avoiding Rake's return will avoid a lot of his damage.",
+    "[2] It is recommended to play safe at early levels, especially at lvl 2."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Eg0Ot1NJFuQ",
+      "channel": "ACEE1",
+      "result": "utilisé (passages 0:00-0:25, 3:42-3:56, 11:03-11:29, 14:08-14:29, 31:17) ; vidéo du 2026-05-24, voix anglaise en-orig"
+    },
+    {
+      "id": "0_MWwgfGHY8",
+      "channel": "Kunain",
+      "result": "écarté : sous-titres fr manifestement traduits automatiquement (voix non française, texte incohérent)"
+    },
+    {
+      "id": "f29DlDpaeEc",
+      "channel": "Whispering Blade",
+      "result": "utilisé (passages 5:26-6:00, 11:00-11:24, 14:12-14:36, 26:41) ; vidéo du 2026-03-14, analyse côté Talon (OTP), voix anglaise"
+    },
+    {
+      "id": "wthB_9tvgiA",
+      "channel": "Mobalytics",
+      "result": "écarté : sous-titres demandés mais yt-dlp rate-limited par YouTube (vidéo de 2018, mécaniques seulement) ; comptée comme 4e vidéo"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/lol/champions/talon/counters",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-talon/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Talon/Strategy",
+      "result": "ok (dernière édition 2024-12-16, conseils sans date : traité comme > 2 ans, mécaniques seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Voie de l'assassin (E) passe les murs : sans Flash, éviter buissons non wardés et jungle",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E franchit terrain/structures)"
+    },
+    {
+      "idea": "Esquiver le retour du Ratissage (Z), plus de dégâts + slow",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (wiki mécanique seulement) + DDragon (retour : dégâts bonus et slow)"
+    },
+    {
+      "idea": "Assaut ténébreux (R) = invisibilité + vitesse, sa fuite ; engager quand il est en CD",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (wiki mécanique seulement) + DDragon (invisible + vitesse, CD 100/80/60)"
+    },
+    {
+      "idea": "Talon perd le lvl 1 contre les champions à distance : le poke pour prendre la prio",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "Lvl 6 : il push et roam ; ping les alliés quand il quitte la mid",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (wiki aussi, non compté car traité > 2 ans)"
+    },
+    {
+      "idea": "Jouer safe au lvl 2 (il saute avec Diplomatie noxienne (A) si tes sorts sont en CD)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane, 2e source = wiki traité > 2 ans"
+    },
+    {
+      "idea": "Les lames du R reviennent sur la cible s'il annule l'invisibilité par une attaque ou son A",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: DDragon seul, aucune source"
+    },
+    {
+      "idea": "Atteindre le lvl 6 avant lui grâce à la prio",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (conseil de lane)"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "searches": 6,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] globalement tu ne veux jamais le jump comme ça tu vois sinon il te il te gagne",
+    "[0] On keep il spam les queue écoute il se fait plaisir. Il a 22 j'en ai 35 là. Après en plus il spam sa mana. Il a bientôt plus beaucoup de mana.",
+    "[0] OK on va continuer la free. Il a plus de mana. Il va peut-être devoir reset. Donc continue à free tranquillement.",
+    "[0] Elle a plus de mana. Vous savez ce qu'on va faire vu qu'elle a plus de mana ? On va crache la wave.",
+    "[1] Il a plus de mana, il peut plus vraiment là.",
+    "[1] je crois que je vais juste forcer un freeze",
+    "[2] Parce que si tu start au E, il va juste start au E et il va te cancel quand quand tu veux le all-in.",
+    "[2] Je trouve le match-up contre Gragas beaucoup plus compliqué que dans Malphite. Dû au fait qu'il peut me cancel avec son E.",
+    "[3] Gragas can knock any enemy unit (unless the unit has CC immunity) away with his ultimate. Be careful not to get knocked into him or an enemy tower.",
+    "[3] Body Slam is on a very low cooldown, making it difficult to pursue Gragas."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "zWYik2m-Fhk",
+      "channel": "Vallheim • League of Legends",
+      "result": "utilisé (passages 2:30-2:50, 3:48-4:30, 4:51)"
+    },
+    {
+      "id": "1TuW1QGwW_A",
+      "channel": "kaagaroo 2",
+      "result": "écarté : surtout commentaire de partie ; roam de Gragas et timing du lvl 6 avec une seule source"
+    },
+    {
+      "id": "3uPaL-DT6QY",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 7:15-8:05)"
+    },
+    {
+      "id": "d815IqzcG5Q",
+      "channel": "Wao Live",
+      "result": "utilisé (passages 0:12-0:20, 3:42-3:47)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/gragas/counters/top",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Gragas/Strategy",
+      "result": "ok (dernière modif 2024-12-16)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/gragas/",
+      "result": "no-advice"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Son E knock-up et coupe ton dash : pas d'all-in tant qu'il l'a",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E = knock-up, s'arrête sur le premier ennemi)"
+    },
+    {
+      "idea": "Il spam A et vide sa mana : à sec, freeze ou crash la wave",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (A coûte 80 mana, 400 mana de base en DDragon)"
+    },
+    {
+      "idea": "Le R repousse : ne te fais pas envoyer sur lui ou sous sa tour",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R = knock away dans la zone)"
+    },
+    {
+      "idea": "Le E a un CD court (14-12 s, réduit s'il touche) : ne le poursuis pas loin",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 14/13.5/13/12.5/12, réduction si collision)"
+    },
+    {
+      "idea": "Le E s'arrête sur le premier sbire : reste derrière tes minions",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: vrai en DDragon mais aucune source ne le dit"
+    },
+    {
+      "idea": "Gragas roam : ping quand il quitte la lane",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: macro avec une seule source (kaagaroo 2)"
+    },
+    {
+      "idea": "Attention au timing du lvl 6 de Gragas",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: une seule source (kaagaroo 2), lane"
+    }
+  ]
+}

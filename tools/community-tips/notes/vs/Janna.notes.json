@@ -1,0 +1,118 @@
+{
+  "searches": 6,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] I am kind of like going into his range and then stepping back to bait out the W. And so as soon as Alistar pops out, I instantly cue him here and then we are able to cancel him.",
+    "[0] Allistar knows that as soon as I get into W range, he's going to hold his W. So now it becomes a thing of like, okay, now we're just kind of like waiting who throws out what ability first.",
+    "[0] Charging your Q towards the direction the enemy is walking away so you can get a longer knockup",
+    "[1] I just need to hold my Q here for when Riven goes in. I do not poke with Q here. Riven is 100% marking my Q. She's just waiting for me to use it randomly for like poke or something.",
+    "[2] Her tornado stays in place when charging. Enemies can easily see the nado or hear the sound queue and simply just disengage.",
+    "[2] My best tips to avoid a Janna tornado is to simply reposition to the opposite of the lane or try to walk somewhere a bit less predictable.",
+    "[2] Since the tornado moves faster at full charge, it's a lot harder to dodge and also knocks up the enemy for a decent amount of time.",
+    "[2] Number five, expensive mana cost. If the stakes are higher and you know you only have a couple tornadoes before you run out of mana, the importance of hitting those tornadoes skyrockets.",
+    "[2] Wait for abilities to interrupt. Often, when champions are charging up a cast or channeling an ability, they are reducing their own movement speed. it's actually a golden opportunity for you to land your tornado anyway as they are less mobile.",
+    "[2] These enemies are waiting for you to tornado and for it to be on cooldown before they engage."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "qjOvGeAet5M",
+      "channel": "ShoDesu",
+      "result": "utilisé (passages 11:29-12:09, 20:13-20:55) ; perspective Janna, publié 2026-09-04"
+    },
+    {
+      "id": "R3SAVxPxaDU",
+      "channel": "i0ki",
+      "result": "utilisé (passage 19:11-19:24) ; publié 2026-02-01"
+    },
+    {
+      "id": "8FALQWcvt64",
+      "channel": "MattZephy",
+      "result": "utilisé (passages 1:54-2:22, 3:15-3:41, 5:47-6:51) ; publié 2026-03-29"
+    },
+    {
+      "id": "Xzo1Ozilb2Y",
+      "channel": "Mobalytics",
+      "result": "écarté : non ouvert (infos_video refusé, YouTube rate-limit) ; vidéo de 8 ans de toute façon"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/janna/counters/support",
+      "result": "no-tips (seul tip = côté Janna vs Lulu ; tips utilisateurs pour jouer Janna, génériques)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/janna/",
+      "result": "no-advice"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Attendre/baiter son A avant d'engager ; le knock-up coupe les dashs",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (knock-up, CD 14)"
+    },
+    {
+      "idea": "Tornade chargée = plus loin, knock-up plus long ; esquiver de côté, pas en ligne droite",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (distance et knock-up selon la charge)"
+    },
+    {
+      "idea": "A très cher en mana : chaque tornade esquivée la vide",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (coût 90/95/100/105/110)"
+    },
+    {
+      "idea": "Ne pas canaliser/charger un sort à portée de tornade",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (knock-up)"
+    },
+    {
+      "idea": "Support melee : ne pas avancer au lvl 1 contre Janna (poke Z + auto puis retour buisson)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Warder les buissons de lane : elle y charge sa tornade cachée",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: vision/lane, 1 seule source"
+    },
+    {
+      "idea": "Éviter les couloirs étroits de jungle contre Janna",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    },
+    {
+      "idea": "All-in au flash quand Janna agressive est basse en PV",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    }
+  ]
+}

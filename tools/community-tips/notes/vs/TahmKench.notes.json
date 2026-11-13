@@ -1,0 +1,131 @@
+{
+  "searches": 4,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] play around minions so he has a hard time poking you this is completely true very good idea",
+    "[0] pick a champ with a dash you have better time avoiding the knockup you really don't need a dash to avoid Tomkin knockup",
+    "[0] punish him for walking up creats as much as you can true good tips",
+    "[1] regardez ce que je faise ce que je fais Dodge là il a troll je jump auto Z après là bon je peux gagner le trade vu s raté je peux gagner le trade",
+    "[1] on recule on dans la Wave on rest la on reste bien dans la CS ça c'est vraiment la clé numéro 1 reste dans la CS",
+    "[1] la seule chose qui s'ajoute à partir du niveau 6 contrek c'est juste ne ne te prendre pas trois stacks devant sa tourelle c'est tout",
+    "[1] et avec le niveau 3 c'est Parj le Z jeel C c'est plus important et là vous faites un crash 3",
+    "[2] Donc là, il va stacker sa marque. Il va essayer de trouver le stun. Malheureusement, il a pas encore le niveau 3.",
+    "[2] il est là pour punir caler des coups de langue de loin il s'en fout parce qu'il régène une partie des CS quand enfin des HP quand il est plus en faille donc c'est pour ça qu'il veut jouer avec les bush",
+    "[3] When you see Tahm Kench use the shield from Thick Skin, remember that he just opted out of a good deal of healing.",
+    "[3] He will also not accumulate new gray health until Thick Skin comes off cooldown. Use this to your advantage!",
+    "[3] If Tahm Kench harasses you by spitting minions at you, try going in for a trade right after he spits."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "MyyNwaMEyGc",
+      "channel": "No Arm Whatley",
+      "result": "utilisé (passages 0:43-1:10, avis Reddit lus et validés par un main Tahm Kench)"
+    },
+    {
+      "id": "bXvuRk6QEDU",
+      "channel": "Vallheim • League of Legends",
+      "result": "utilisé (passages 1:19-3:51, 5:30-6:20)"
+    },
+    {
+      "id": "IEW1_8V3mNA",
+      "channel": "Monster SSS",
+      "result": "écarté : pas de sous-titres en-orig, piste en vide (aucun passage, vidéo sans commentaire utile)"
+    },
+    {
+      "id": "kjX4mgH4J2k",
+      "channel": "EXYT - League of Legends",
+      "result": "utilisé (passages 3:45, 5:09) ; guide pour jouer Tahm support, lu pour ses habitudes"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Tahm_Kench/Strategy",
+      "result": "ok (dernière édition 2024-12-16 ; 2e conseil obsolète : il ne recrache plus de sbires depuis la refonte)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Peau épaisse (E) soigne hors combat ; activer le bouclier fait perdre ce soin",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (stockage, soin hors combat, conversion en bouclier)"
+    },
+    {
+      "idea": "Rester derrière ses sbires : le A touche la première unité",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (+ DDragon : first unit hit)"
+    },
+    {
+      "idea": "À 3 stacks de Goût acquis, le A étourdit",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (stun si 3 stacks)"
+    },
+    {
+      "idea": "Lvl 6 : 3 stacks = Dévoration possible, ne pas les prendre près de sa tourelle",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R exige 3 stacks)"
+    },
+    {
+      "idea": "Esquiver le A puis trade : pas de soin ni de slow",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (soin et slow seulement au toucher)"
+    },
+    {
+      "idea": "Sortir de la zone du Z sans dash ; pas de remboursement du CD s'il rate",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (remboursement seulement s'il touche un champion)"
+    },
+    {
+      "idea": "Le punir quand il avance pour farm",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (lane)"
+    },
+    {
+      "idea": "Crash la wave au lvl 3",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (lane)"
+    },
+    {
+      "idea": "Tahm support joue dans les buissons pour poke : warder les brush",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (lane)"
+    },
+    {
+      "idea": "Trade après qu'il a recraché un sbire",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: mécanique supprimée (R n'avale plus de sbires dans DDragon 16.22)"
+    }
+  ]
+}

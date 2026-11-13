@@ -1,0 +1,156 @@
+{
+  "searches": 4,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Need to try and make his early game nonvolatile. I'm going to make sure he doesn't get to breathe in the early game.",
+    "[0] What I'm going to do when I'm against him though is I will make this guy's early game living hell.",
+    "[0] No, he has to play out monster and crash his wave, sub barrist it again and continue to abuse him on every bounce scenario.",
+    "[0] Every time I make the wave bounce into me, force him to walk up for lassets, trade into him.",
+    "[0] Force Mundo to walk for last hits. I think he's going to suffer. And this all snowballs from the early game. It's extremely important, guys. Make Mundo's early game super super volatile.",
+    "[0] Oh, get rid of his passive first. That's passive and W. I sidet those. And he's dead.",
+    "[0] If you want to kill Mundo players, you got to learn to play the waves. Waves into kill. Mundo is one of the weakest champions in terms of laning phases in skirmishing. But you got to force a trade onto him.",
+    "[0] Well, that's how you play against Mundo in the early game. You don't allow him to breathe.",
+    "[1] They produce moments where they feel uncounterplayable entirely, which is kind of true for that moment, but you had plenty of chances to punish beforehand.",
+    "[1] because you feel like you have no options, which is partially true because most of his counterplay happens in the draft and during the early stage of the game.",
+    "[2] The thing is you have to get this advantage against him before he gets level six cuz after six it's a lot harder to look for the dives against him.",
+    "[2] But you can see, he just takes one small thread in the early game, and he just dies.",
+    "[2] He's quite weak in the early game, so he's probably just going to farm. We're going to go for a small trade with the Mundo here. I'm just going to push this wave after and we're going to try to look for the dive on him.",
+    "[2] cuz he has his ultimate. And the lower he is, the more HP he gets from his ultimate. We're going to try to dive him instantly here and burst him out before uh he gets his uh a lot of healing from his alt.",
+    "[2] Whenever the Mundo doesn't have ultimate, guys, you just instantly look for that those dives against him.",
+    "[2] What we're going to do is basically slow push this wave and once the next wave arrives, we're going to tread with the Mundo under his tower.",
+    "[2] I need a small thread and I need to bait him to use his ultimate.",
+    "[2] We bait him to use his ultimate here. Guess what? Now I'm not even going to look for the dive or anything. I just looked for this so I can look for the dive in the next situation. Now we press recall.",
+    "[2] Got away from his queue.",
+    "[3] deals magic damage to the first enemy hit and slows them by 40% for 2 seconds.",
+    "[3] Projectile: Blocked.",
+    "[3] On recast, Dr. Mundo heals for 50% of his grey health, increased to 100% if at least one enemy champion or large monster is hit.",
+    "[3] EFFECT RADIUS: 325."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "4TDU6nXu5DQ",
+      "channel": "Azzapp LoL",
+      "result": "utilisé (passages 6:51-6:58, 8:26) : analyse, contre-jeu surtout en early"
+    },
+    {
+      "id": "Y5xK9ambheg",
+      "channel": "AloisNL",
+      "result": "utilisé (passages 0:42, 14:57-18:12, 24:42) : Riven contre Mundo commenté"
+    },
+    {
+      "id": "s7W7p98DNXo",
+      "channel": "Monster SSS Lab",
+      "result": "utilisé (passages 0:15-1:34, 4:02, 6:00-6:34, 10:30-12:52, 14:13)"
+    },
+    {
+      "id": "LUaShxx4yYM",
+      "channel": "legend slayer",
+      "result": "écarté : Illaoi vs Mundo, aucun conseil exploitable dans les sous-titres"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/drmundo/counters?position=top",
+      "result": "no-tips (un seul conseil générique Mundo vs Malphite)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL",
+      "result": "ok"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Punir Mundo dès l'early, il est faible avant de scale",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Scie souillée touche le premier ennemi : rester derrière les sbires / l'esquiver",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (first enemy hit, slow)"
+    },
+    {
+      "idea": "Crash la wave sous sa tourelle puis trade sur le retour quand il doit last hit",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Faire sauter le passif (résiste à la première immobilisation) avec un petit CC",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (le passif résiste au premier effet d'immobilisation)"
+    },
+    {
+      "idea": "Sortir du rayon du Défibrillateur avant l'explosion pour réduire le soin",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (soin plus grand si un champion est touché)"
+    },
+    {
+      "idea": "Le R soigne selon les PV manquants : burst plutôt que grignoter",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (missing Health heal)"
+    },
+    {
+      "idea": "Bait le R (CD 120 s) puis revenir all-in",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 120 s)"
+    },
+    {
+      "idea": "Prendre l'avantage avant son lvl 6",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour une idée de lane"
+    },
+    {
+      "idea": "Zoner Mundo des 3 premiers sbires au lvl 1",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour une idée de lane"
+    },
+    {
+      "idea": "Marcher sur la fiole du passif pour la détruire",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: destruction par les ennemis absente de Data Dragon, 1 seule source"
+    },
+    {
+      "idea": "Blessures graves contre ses soins",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: aucune source ne le recommande (Azzapp dit que les objets règlent peu le problème)"
+    }
+  ]
+}

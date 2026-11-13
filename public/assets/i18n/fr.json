@@ -979,6 +979,9 @@
     "EMPTY_HINT": "On ne publie un tip que s'il est cité par plusieurs sources ou vérifié dans les données du jeu.",
     "SOURCES": "Sources consultées ({{n}})",
     "CONSULTED": "consulté le {{date}}",
-    "METHOD": "Chaque tip est réécrit par TeamUpp, sans copie, et trié par nombre de sources. Les mécaniques sont vérifiées dans les données du jeu (patch {{version}}). Un tip est cité par au moins 2 sources, ou par 1 seule quand la mécanique est vérifiée en jeu."
+    "METHOD": "Chaque tip est réécrit par TeamUpp, sans copie, et trié par nombre de sources. Les mécaniques sont vérifiées dans les données du jeu (patch {{version}}). Un tip est cité par au moins 2 sources, ou par 1 seule quand la mécanique est vérifiée en jeu.",
+    "VS_TITLE": "Comment jouer contre {{champion}}",
+    "VS_GENERAL": "Conseils généraux contre ce champion",
+    "VS_LINK": "Conseils généraux contre {{champion}}"
   }
 }

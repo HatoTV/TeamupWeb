@@ -1,0 +1,130 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] c'est une flèche rectiligne qui au plus traverse des cibles, au plus ça fait moins de dégâts",
+    "[0] Ce qui est important aussi de notifier c'est ce côté où ça se prède. Qu'est-ce que ça veut dire ? Ça veut dire ça va se transférer entre cible.",
+    "[0] En lane, ce sera plus quelque chose comme de trois autoattaques si on le peut faire trois stacks et derrière venir Q tout simplement et globalement one shot la cible.",
+    "[0] Donc on vient E pour la gap close et derrière on peut même mettre un R parce que la personne est slow avec le E.",
+    "[0] parce que notre flash a beaucoup de valeur, on a pas de dash, on a pas de mobilité donc le flash est extrêmement important",
+    "[0] on a pas de dash, on a peu de movement speed et on n'a pas de gap close à part notre ulti",
+    "[0] Faites attention juste au dash parce que sur dash peut dodge votre Q",
+    "[0] Level 1, faites attention parce que votre level 1 est nul [...] vous n'êtes pas Thanos, vous êtes vraiment très faible.",
+    "[1] je vais all-in dès que je passe level 2. Parce qu'il va être proche de ma tour. Il a push un peu trop rapidement.",
+    "[1] Bon, il a pas d'ulti no flash. Ça se dive ? C'est bien ce qu'il me semblait.",
+    "[2] But trading autos is really good for us level one, especially if we just use our E and our PTA procs.",
+    "[2] I play with level two here first. He didn't get XP.",
+    "[2] Three XP is a big deal in this lane.",
+    "[2] I mean, he has no ulti. Maybe I can. If he walks up past me, I can look. If he walks into me here, I can look."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "sxY2OQAUBm0",
+      "channel": "Adam - League of Legends",
+      "result": "utilisé (passages 0:42-1:45, 6:27)"
+    },
+    {
+      "id": "xqAiKwTqEwY",
+      "channel": "Drututt",
+      "result": "écarté : partie commentée sans conseil exploitable contre Varus (recherche Varus/ult/wave/dodge quasi vide)"
+    },
+    {
+      "id": "IQQP8fzlDPg",
+      "channel": "quante",
+      "result": "utilisé (passages 0:00-1:05, 9:31)"
+    },
+    {
+      "id": "jI3iwZIdLaI",
+      "channel": "Booshi",
+      "result": "utilisé, PRO GUIDE (passages 1:57, 4:30-5:45, 7:18-7:50, 11:07, 28:37, 32:51, 33:51)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Pas de dash : engager/dive quand R et Flash sont down",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources (absence de dash vérifiée DDragon)"
+    },
+    {
+      "idea": "Varus très faible lvl 1, trader tôt",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Prendre le lvl 2 en premier et all-in, surtout s'il a push vers ta tour",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "3 autos = 3 marques de Z, les sorts les font exploser : reculer",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W : max 3 stacks, autres sorts détonent)"
+    },
+    {
+      "idea": "Combo E (ralentissement) puis R : sortir de la zone du E",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E ralentit, R root le premier champion touché)"
+    },
+    {
+      "idea": "Q en ligne droite, Varus ralenti pendant la charge : esquiver au dash",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q ralentit Varus pendant la charge)"
+    },
+    {
+      "idea": "Rester derrière les sbires : le Q perd des dégâts par cible traversée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (réduction par ennemi touché, avec minimum)"
+    },
+    {
+      "idea": "Le R se propage aux alliés proches : s'écarter",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (propagation aux champions non infectés)"
+    },
+    {
+      "idea": "Root du R = 2 s et 3 stacks pendant la durée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: durée non lisible dans DDragon (placeholder), redondant avec la tip des marques"
+    },
+    {
+      "idea": "Varus peut charger son Q puis Flash pour surprendre",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 8 tips max, conseil côté Varus"
+    }
+  ]
+}

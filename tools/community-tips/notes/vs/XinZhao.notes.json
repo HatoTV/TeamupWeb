@@ -1,0 +1,132 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Whether you're pre-stacking your Q on another target to instantly knock up a valuable carry",
+    "[0] Yike will prep his Q's knockup on a ward while also reducing his E cool down at the same time.",
+    "[0] the knockup is insanely strong, but the leadup to it is so slow. Sitting there autoattacking someone three times in a row is a tall task for any melee champion in a team fight",
+    "[0] if you cast it at max range with a W mark, your ultimate goes off before you've even landed",
+    "[0] Remember, your alt doesn't knock back the last person you autoed or dashed to.",
+    "[0] When their ultimate is active, do you go into it to try and kill him? Eh, is his Q up? Will he kill me if I go in",
+    "[1] you press your Q, auto attack something two times, so that way when you do eventually jump on the enemy, you get an instant knock-up.",
+    "[1] or when you're chasing the enemy down to give your E more range.",
+    "[1] using your ult early completely disrupts the enemy team by knocking everyone away, and if they instinctively try to hit you back, you're now immune.",
+    "[1] You're incredibly strong early, the enemy fears you when you get ahead",
+    "[1] I'm always arriving to Scuttle Crab a little bit behind the enemy jungler. Sometimes it's fine for Xin Zhao in the early game because he'll just bully and win the one-v-one anyway.",
+    "[2] especially on a champ like Xin Zhao, you want a full clear. Like trust me on that one.",
+    "[2] And as you finish your full clear, then you want to look for some stuff.",
+    "[2] So, let's say if I find him here, I'm really strong and ready to fight.",
+    "[3] First things first on Xin Zhao, you want to make sure you're farming and playing for economy.",
+    "[3] I think a lot of the time people mistakenly play for ganks and they play for pressure."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Y4TJXjJ-e4Q",
+      "channel": "Coach Kirei",
+      "result": "utilisé (passages 0:22-0:45, 3:09-3:13) : full clear puis jeu, fort au crabe ; reste = tempo jungle générique"
+    },
+    {
+      "id": "ObWnmKrik3A",
+      "channel": "perryjg",
+      "result": "utilisé (passage 0:12-0:23) : Xin joue l'économie / le farm plutôt que les ganks"
+    },
+    {
+      "id": "g7hxX9UDySw",
+      "channel": "LoL Esports (guide Skill-Capped)",
+      "result": "utilisé (passages 1:16, 3:08-3:40, 5:09-5:18, 7:44, 8:42-9:21) : pré-stack du A, lenteur du combo A, marque Z, R n'éjecte pas la cible défiée"
+    },
+    {
+      "id": "0w8IlM5Io14",
+      "channel": "EcoreLoL",
+      "result": "utilisé (passages 3:08, 8:00-9:05, 12:12-12:52) : combo A rapide, immunité du R, Z donne de la portée au E, fort en 1v1 early"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Le A peut être pré-stacké sur un sbire/une ward : knock-up instantané sur toi",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q : 3 prochaines attaques, la 3e projette)"
+    },
+    {
+      "idea": "Touché par la poussée du Z = marqué, portée du E augmentée",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W marque Challenged, E portée accrue sur Challenged)"
+    },
+    {
+      "idea": "Xin très fort en 1v1 early : ne pas le duel seul au crabe/dans ta jungle",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Xin full clear souvent avant de jouer : ward à la fin de son clear",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (Ecore le décrit plutôt comme jungler de gank mais admet le full clear : formulé avec « souvent »)"
+    },
+    {
+      "idea": "R : immunité aux dégâts des champions hors du cercle",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (immune to damage from enemies outside the sweep range)"
+    },
+    {
+      "idea": "R n'éjecte pas le dernier champion frappé (Défié)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif du R : Challenged ; knocks back non-Challenged)"
+    },
+    {
+      "idea": "Le knock-up demande 3 autos : reculer après la 2e pour casser le combo",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (3e attaque du Q projette ; enemytips DDragon)"
+    },
+    {
+      "idea": "Jouer autour du CD du R (120/110/100 s)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped : la source parle de garder le R, pas de son CD ; lien trop indirect"
+    },
+    {
+      "idea": "Combo Z + Flash : 2e coup instantané",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped : 1 source, interaction non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Clear lent, Xin perd beaucoup si ses ganks échouent",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped : 1 seule source (macro)"
+    }
+  ]
+}

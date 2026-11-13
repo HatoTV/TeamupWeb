@@ -1,0 +1,153 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] You can win one v1s and fights. If you hit a fully charged Q, but your main priority early game is just to farm, get level six",
+    "[0] You use your ultimate. Now you're going to have a long cooldown. So now you want to sit quiet and chill and not create too much action.",
+    "[0] You can use your ultimate when you see incoming CC. When you see Leona goes to stun you or you see Nautus goes to hook you when you're on the ADC, use your ultimate then so that you can just block off that CC",
+    "[0] your ultimate just is gone forever. Not forever, but it's going to take 2 minutes until you get it back.",
+    "[0] So, early clearing and early game in general, you're just going to farm safely. Rush your level six, just create XP leads.",
+    "[0] I got a rule as well, and that is if you have no R, no flash, it's no gank. No R, no flash, no gank.",
+    "[0] if you walk up close and you know they have flash, just hold on to your Q. You can charge your Q for so long.",
+    "[0] Just walk up close, hold your Q, they're going to flinch ... So just hold your Q, they will flash and then you follow up with the Q",
+    "[0] Basically, you can win quite a lot of one v ones if you hit a fully charged Q, but for the most part, you need to get your items.",
+    "[0] Don't take too many fights and especially don't fight without your ultimate. ... You may maybe going to be able to do 70% of their HP. They're going to run away",
+    "[0] You got to combine your Q with your R or R with your Q. This has to go together.",
+    "[0] They don't have your your ultimate that just like locks on and and drives into the enemy fountain.",
+    "[0] You have to play for flanks. ... Use your queue to get over walls. Uh avoid vision and come in from the sides.",
+    "[1] once we get level six, our ganks are a lot stronger. So, in the early game, we're going to play for the farm first, and then we'll do some plays.",
+    "[1] We'll save the Q to get over the wall",
+    "[1] As we ulti in and save the Q, we can then immediately Q after we land. And that guarantees so much CC.",
+    "[1] And then this is not warded. So, I have a very good flank on this guy.",
+    "[1] we spent so much of that early game farming, farming, farming, farming, and not going out of our way to fight.",
+    "[2] Donc vous voyez que la différence de dégâts est assez grande. Donc si vous pouvez vous permettre de charger votre cuspel, faites-le.",
+    "[2] Alors c'est un dash, donc vous pouvez traverser les murs avec évidemment",
+    "[2] vous allez créer une chaîne entre vous et votre target. Donc, c'est monociible, et vous allez le tracker jusqu'à l'infini.",
+    "[2] même si elle flash out, je vais la suivre jusqu'à l'infini.",
+    "[2] Il faut vraiment que je garde mon queue pour son dash.",
+    "[2] au cas où le Tkench euh cherche à dash out, je peux le cancel parce que c'est la seule option pour lui de d'affuire le gank."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "NWiKFc3uxrw",
+      "channel": "LOCVS",
+      "result": "utilisé (passages 5:12-9:40, 41:21-47:00) ; Rank 1 Vi, voix anglaise, 2025-08-28"
+    },
+    {
+      "id": "XtBarve5uOM",
+      "channel": "Sawyer Jungle",
+      "result": "utilisé (passages 0:52, 2:09, 5:51, 11:30, 26:21) ; voix anglaise, 2026-10-13"
+    },
+    {
+      "id": "7emrOFgOm84",
+      "channel": "Dadou",
+      "result": "utilisé (passages 1:31-1:50, 4:00-4:15, 12:45-14:05) ; voix FR, joueur Master, 2025-08-20"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "R imblocable et suit à travers le flash : ne pas gaspiller CC/flash",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R 'dashing unstoppably', cible un champion)"
+    },
+    {
+      "idea": "A chargé à fond = gros dégâts, son burst early : l'esquiver",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (dégâts selon le temps de charge)"
+    },
+    {
+      "idea": "Vi farm avant lvl 6, ganks bien plus forts avec R : warder dès son lvl 6",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "R puis A = double CC ; si l'un est en CD, fenêtre pour fight",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "En gank elle garde son A chargé pour attendre ton flash/dash",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Flancs hors vision et murs passés avec A : warder les côtés",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Dadou confirme aussi le passage des murs)"
+    },
+    {
+      "idea": "R a 140 s de CD de base au lvl 6 : noter le timer",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (cooldown 140/115/90)"
+    },
+    {
+      "idea": "Level 1 très faible : l'envahir tôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, idée macro"
+    },
+    {
+      "idea": "Les CC interrompent la charge de son A",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, interruption non vérifiable dans Data Dragon"
+    },
+    {
+      "idea": "Boucliers / enchanteurs / intargetabilité contrent son R",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, non vérifiable dans Data Dragon"
+    },
+    {
+      "idea": "Si elle rate son A elle est très exposée (champion très engagé)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    },
+    {
+      "idea": "Ta wave qui push sans vision = free gank pour Vi",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    }
+  ]
+}

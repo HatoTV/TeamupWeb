@@ -1,0 +1,125 @@
+{
+  "searches": 2,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] All right, he has no fear. I can take that or Q.",
+    "[0] Vex has zero sustain in her kit. It's a pretty boring play style really, but you just kind of have to automatically push the waves and before you have Gunblade, it's very hard to find solo kills on the Vex.",
+    "[0] And now again, my game plan is to really push the waves here and try to look for roams.",
+    "[0] You have to win around the map because finding solo kills on that champion is very difficult.",
+    "[1] Obviously, you just want to chill let the wave push to you and then you can start going for a trade and then slowly but surely you will start winning those trades because of your D shield second wind approach",
+    "[1] if you see like the energy under her once that is red you have to be very careful of her and once she wastes it it's an opportunity for you to kill her.",
+    "[1] I'm waiting for her to waste her thing, which she just did right now. She could very possibly die right now. It's all about the energy that she has under her.",
+    "[1] When you're playing against immobile champions like Vex, Veigar, Aurelion Sol, Gunblade easily counters them. This way they will have to flash away from your combo or they're 100% dead.",
+    "[1] We have lane prior. I'm going to get Oracle lens. Of course, if I don't have lane prior, I'm not able to roam",
+    "[1] I'm obviously going to regen more than her so this is an amazing spot that I'm in right now.",
+    "[2] Without her ultimate, Vex is basically immobile. If you miss it or it's on cooldown, you lose most of your threat and have a hard time starting fights.",
+    "[2] Doom periodically charges and empowers her next ability to fear. Hold Doom when you're being pushed up. It's your only escape tool and lets you instantly fear the jungler during a gank.",
+    "[2] Gloom marks enemies whenever they dash or blink near her, and hitting those marked targets deals bonus damage. This is why mobile champs struggle into Vex.",
+    "[2] Each mark consumed refunds a chunk of Doom's cool down.",
+    "[2] W is also a powerful bait tool when you're low on HP. Enemies often think they can finish you off with orders or ignite, but timing your shield with doom sphere can completely flip their allin.",
+    "[2] If the target dies, she instantly refreshes her ultimate, letting her dive deep and chain kills across an entire fight."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "4wNDAGVp4cc",
+      "channel": "TheWanderingPro",
+      "result": "écarté : stream, transcription courte, aucun conseil sur Vex (compte dans les 4)"
+    },
+    {
+      "id": "qqXfEaKS1Wo",
+      "channel": "Kunain",
+      "result": "utilisé (passages 3:06, 6:25-7:58, 10:49)"
+    },
+    {
+      "id": "HLOzkG125TQ",
+      "channel": "ACEE1",
+      "result": "utilisé (passages 0:32-1:13, 2:22, 5:07-6:16)"
+    },
+    {
+      "id": "mVIQiKd_k5w",
+      "channel": "Zoose",
+      "result": "utilisé (passages 2:09-2:23, 4:00-5:00, 5:50, 6:46-7:39)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Jouer autour du passif : fear prêt = prudence, fear utilisé = trade/all-in",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (passif : prochain sort de base fear)"
+    },
+    {
+      "idea": "R en CD : Vex immobile, engage, elle doit flash",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (seul le R a un dash)"
+    },
+    {
+      "idea": "Vex sans sustain : trades courts, tu gagnes la lane sur la durée",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (aucun soin dans le kit)"
+    },
+    {
+      "idea": "Solo kills durs : push et roam / objectifs avec la prio",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Dashs près de Vex = marque consommée par A/Z, dégâts bonus et CD du fear réduit",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked: passive + Q/W consume Gloom)"
+    },
+    {
+      "idea": "Z + passif prêt = shield + fear instantané au contact",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W shield + shockwave, passif fear sur le prochain sort de base)"
+    },
+    {
+      "idea": "Marqué par le R : recule, un kill reset le R",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R reset si la cible meurt)"
+    },
+    {
+      "idea": "Ne pas laisser la wave sous ta tour, Vex poke gratuitement",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip lane, ACEE1 dit l'inverse (laisser la wave venir)"
+    },
+    {
+      "idea": "Vex souffre dans les longues lanes face aux bruisers/tanks",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    }
+  ]
+}

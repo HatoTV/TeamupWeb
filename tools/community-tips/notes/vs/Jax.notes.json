@@ -1,0 +1,134 @@
+{
+  "searches": 5,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] It's fine. Walk out of his E.",
+    "[0] It is lethal tempo jack, so uh we have to be careful of our trades. Um we don't want to take too many extended trades into them. We're going to lose obviously. We take short trades",
+    "[0] Now that we know he doesn't have E, we can walk up trade into him.",
+    "[0] So the counterplay for Jax is he can always kind of like stutter step back when he ees to make it hard for you to walk through him and then taunt out. ... And if he dodges that, he can just queue right afterwards and then hit the stun",
+    "[0] See how you want to just like play the edge of his E and then right as it ends um if he doesn't have anything to jump to, you can just taunt right after.",
+    "[1] Try to engage him in short bursts instead of going toe-to-toe with him.",
+    "[1] Jax can dodge all incoming attacks for a very short amount of time and stuns enemies in melee range when it ends.",
+    "[2] And what happens is if he cues you, you jump to your minions and dodge the damage. And if he cues the minions, you walk up and trade, right?"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Y-vAf_AF4Ik",
+      "channel": "IMainTopLane",
+      "result": "utilisé (passages 0:28-1:40, 2:07-2:39, 5:36-5:49, 8:55-9:12)"
+    },
+    {
+      "id": "GkDF9W7JsS8",
+      "channel": "Ninkey",
+      "result": "écarté : recherche dans les sous-titres sans conseil exploitable (partie Gwen vs Jax commentée, surtout runes et stomp)"
+    },
+    {
+      "id": "JDf2ZocnkTQ",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (passage 12:36-12:47 : Frappe bondissante sur ses sbires pour esquiver) ; le reste porte sur les matchups vus côté Jax"
+    },
+    {
+      "id": "zbOqQwGP-BE",
+      "channel": "Raider",
+      "result": "écarté : aucun sous-titre en-orig disponible (pas un rate limit), compté dans le plafond de 4"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.leaguefeed.net/how-to-counter-jax/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-jax/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/jax/counters",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/jax/",
+      "result": "stats-only (no-advice)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Jax/Strategy",
+      "result": "ok (non daté : traité comme > 2 ans, mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ne pas auto pendant la Contre-attaque (E), attendre la fin de l'esquive",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E esquive les attaques de base)"
+    },
+    {
+      "idea": "Sortir de la portée du E avant le stun (fin ou réactivation)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (stun des ennemis proches à la fin ou à la réactivation, portée 300)"
+    },
+    {
+      "idea": "Trades courts : le passif monte la vitesse d'attaque avec les autos enchaînées",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Acharnement : vitesse d'attaque croissante ; R passif toutes les 3 attaques)"
+    },
+    {
+      "idea": "Trade quand le E est en CD (17 s au rang 1)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 17/15/13/11/9)"
+    },
+    {
+      "idea": "Après être sorti du E, Jax peut A sur toi pour placer le stun",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (A portée 700 > E 300, E réactivable)"
+    },
+    {
+      "idea": "Jax peut A sur ses sbires ou une ward pour esquiver ou fuir",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (A vers une unité alliée, ennemie ou une ward)"
+    },
+    {
+      "idea": "Jax a des soucis de mana : lui faire gâcher son E",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, appréciation non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Jax outscale ta lane",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, contredite par Ninkey (Gwen dit outscale Jax au lvl 6), tip de lane"
+    },
+    {
+      "idea": "Ne pas all-in tôt contre Jax lethal tempo",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: dépend des runes (interdit), source Ninkey non retenue"
+    }
+  ]
+}

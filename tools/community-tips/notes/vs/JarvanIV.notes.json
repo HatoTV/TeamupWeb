@@ -1,0 +1,120 @@
+{
+  "searches": 4,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] Pour le slow du Z, vous pouvez aussi utiliser pour toucher plus facilement votre combo EQ ou tout simplement pour gap close la cible en fait.",
+    "[0] Le fait d'avoir un dash et un CC d' niveau 2 voire 3, c'est extrêmement fort pour les gangs",
+    "[0] On rappelle qu'il peut aussi réduire l'armure pour augmenter les dégâts de ses alliés. Il a pas mal de dégâts en surtout en early game.",
+    "[0] C'est pour ça que quand on veut jouer groupe en early, Jarvan sera extrêmement utile et puissant.",
+    "[0] Bon, faut quand même faire un peu attention aux ennemis qui ont potentiellement un dash ou un flash pour sortir de l'ultime, mais quand vous prenez la peine de réfléchir à votre ultime, être patient, est-ce que le mec a un flash ou pas ? et attendre que son que l'ennemi utilise son dash ou son flash avant d'ultime",
+    "[0] le principal problème de Jarvan, c'est qu'il a vraiment du mal à 1v9 les games. Il a besoin d'allers qui sont forts pour groupe avec",
+    "[0] si vous êtes le seul à engager et que la team en face a beaucoup de mobilité ou de réception pour esquiver le combo, l'in de Jarvan et le défoncer ensuite",
+    "[1] And this time you see he had no flash. He couldn't flash the bubble, he died.",
+    "[1] And now because Lulu has no flash, eight support, okay? What's going to happen to him? He's going to die if I track his wards and wave states",
+    "[1] Okay, that's why I said it's high execution. Um first things first, one, I was tanking. Two, I missed my combo.",
+    "[2] Il a utilisé son Q, est-ce qu'il a un ? Pas de flash.",
+    "[2] Il a pas de flash. Il est mort.",
+    "[3] Like if this if this game gets past 40 minutes, we'll probably lose. So how do we accelerate a game and win in the early game",
+    "[3] the big thing that I'm going to do is I'm going to do my absolute best to stack dragons",
+    "[3] if we can do that and we can force them to fight in the early game, maybe we can win some early game fights."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "zKZgbmbyedg",
+      "channel": "Dadou",
+      "result": "utilisé (passages 0:53-2:50, chapitre Forces & Faiblesses)"
+    },
+    {
+      "id": "Zlw_AjDEF7k",
+      "channel": "Coach Kirei",
+      "result": "utilisé (passages 2:32-2:58, 4:47) ; point de vue du Jarvan, peu de conseils directs contre lui"
+    },
+    {
+      "id": "_yZlI32vS2w",
+      "channel": "Sixen • VOD",
+      "result": "utilisé (4:11, 15:03 : vérifie l'absence de Flash avant d'engager) ; peu de commentaire pédagogique"
+    },
+    {
+      "id": "dYRERG_i3Ic",
+      "channel": "More PerryJG",
+      "result": "utilisé (1:08-1:50 : plan de jeu early / drakes) ; contexte de draft précis (contre Mundo)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/jarvan-iv/",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Il attend que la cible ait utilisé Flash/dash avant le R ; garder Flash ou dash pour sortir de l'arène",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (R crée un terrain infranchissable)"
+    },
+    {
+      "idea": "Combo E+A raté : les deux sorts en CD (A 10-6 s, E 12-10 s), fenêtre pour punir",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD vérifiés)"
+    },
+    {
+      "idea": "Fort en early et autour des drakes, carry mal seul : éviter les fights early, jouer long",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (macro) ; la source 3 est liée à une draft précise, jugée cohérente avec la source 0"
+    },
+    {
+      "idea": "Combo knock-up dès le lvl 2 (A + E) : respecter le gank tôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (A tire Jarvan vers l'Étendard, knock-up 0,75 s sur le trajet)"
+    },
+    {
+      "idea": "Le Z ralentit autour de lui pour placer le combo",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (slow de zone, 2 s)"
+    },
+    {
+      "idea": "Le A réduit l'armure pour ses alliés",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (réduction d'armure 3 s)"
+    },
+    {
+      "idea": "Équipe mobile capable d'esquiver le combo puis de le punir (Briar, Bel'Veth, Poppy, Kai'Sa)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de draft, 1 source ; punir le combo raté est couvert par le tip 2"
+    },
+    {
+      "idea": "E+A permet de traverser les murs pendant le clear",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, interaction mur non décrite dans DDragon, peu utile contre lui"
+    }
+  ]
+}

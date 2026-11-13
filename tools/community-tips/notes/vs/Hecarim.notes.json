@@ -1,0 +1,161 @@
+{
+  "searches": 5,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Hecrim is one of the most feast famine champions in the game, meaning that when he's ahead, you have insane 1v9 potential, but when behind, it becomes much harder to have an impact in games.",
+    "[0] Hecrim has lots of sustain with your W.",
+    "[0] Hecrim's hard countered by heavy CC, especially point-and-click CC.",
+    "[0] He falls off compared to some champs late game, especially solo lane champs like ADCs.",
+    "[0] Hecrim can also be useless without Q stacks and especially when your ghost and R isn't up.",
+    "[0] You always want to be fighting with three Q stacks because that really enables Hecrim to be an insane fighting champion even early game.",
+    "[0] I'm going to be delaying this camp really long so I can extend my Q stacks as long as I can and then go for a gank.",
+    "[0] Your E is only going to be used to make ganks happen early game because you always want to have it up for a gank. Otherwise, your ganks are pretty pointless.",
+    "[0] You E, and then you R to guarantee the fear. This is a CC chain where they're not able to dodge it. If your E connects onto this target dummy and you press R right on top of them, it's going to be a guaranteed fear no matter what.",
+    "[0] although Hecrim is one of the best snowballing champions and he's one of the best like um like carry champions, he falls off later into the game relative to some junglers and mainly to like range champs",
+    "[1] However, he is reliant on his team to follow up his engage and is very all in with few options to get out.",
+    "[1] Each stack makes the next Q deal bonus damage and also reduces the cool down of it by a good chunk.",
+    "[1] While active, Hecarim gains bonus armor and magic resist and is healed for a good chunk of the damage dealt to enemies and a smaller chunk of the damage dealt to allies as long as they're within the circle.",
+    "[1] However, he only travels to the circle and also fears all enemies within that circle.",
+    "[1] Your ganks are very straightforward where you simply want to use E, run behind your enemy, and hit them in the wrong direction while using W and spamming Q's and attacks.",
+    "[1] Your ultimate, however, is an insanely good power spike.",
+    "[2] this match up, like I said, it's pretty hard because Hecrim is such an OP champ being able to AFK power form, but you will be able to outscale him with lethal red cane. So, fortunately, we do have a good answer in the mid to late game. Just early game, you really have to be playing smart.",
+    "[2] So, like I said, if you ever get ahead of Hecrim and you get your form, you could always win the game."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "-y8av1PIt_A",
+      "channel": "Karasmai",
+      "result": "utilisé (passages 1:30-1:51, 9:09-9:40, 17:19-17:29, 19:22) : surtout spécifique à Kayn ; seule l'idée « il domine tôt, on reprend la main en mid/late » est gardée"
+    },
+    {
+      "id": "sl9CoYEnCWU",
+      "channel": "Embrace Agony ♥",
+      "result": "écarté : aucun sous-titre en-orig ni en (probablement pas de commentaire) ; compté dans le plafond par prudence"
+    },
+    {
+      "id": "0uSEJnIqyPY",
+      "channel": "huncho1v9",
+      "result": "utilisé (passages 0:25-1:30 pros & cons, 6:54-9:30 mécaniques, 11:46-12:16 combo E-R, 35:10-35:30) ; publié le 2024-11-19, donc moins de 2 ans"
+    },
+    {
+      "id": "efvhaCtSNx0",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (passages 0:00-1:04 kit, 2:08-2:33 ganks et lvl 6)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/lol/champions/hecarim/counters",
+      "result": "no-tips (conseils écrits pour jouer Hecarim, pas contre)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Hecarim",
+      "result": "no-advice (pas de section « jouer contre » dans la partie lue)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ganks dépendants de Charge dévastatrice (E), qui repousse dans le mauvais sens ; fenêtre pendant son CD de 20 à 16 s",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E knockback, CD 20/19/18/17/16 s)"
+    },
+    {
+      "idea": "Carnage (A) à 3 charges : dégâts augmentés et CD réduit ; le punir quand les charges sont tombées",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (stacks : CD réduit, dégâts augmentés, durée limitée)"
+    },
+    {
+      "idea": "Essence de la peur (Z) soigne via les dégâts subis par les ennemis proches, même ceux de ses alliés : Blessures graves",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (soin sur les dégâts de Hecarim et de ses alliés)"
+    },
+    {
+      "idea": "Peu de sorties une fois engagé ; contré par le CC lourd, surtout ciblé",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Snowballer qui s'essouffle en late face aux carries à distance : ne pas le nourrir tôt, jouer la durée",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (huncho : feast/famine + falls off late ; Karasmai : réponse en mid/late, early difficile)"
+    },
+    {
+      "idea": "Combo E puis R : la fear ne s'esquive pas pendant le knockback",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E repousse, R effraie en fin de charge)"
+    },
+    {
+      "idea": "Légion des ombres (R) n'effraie qu'autour du point d'arrivée, durée selon la distance ; ne pas rester groupé dès le lvl 6",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (onde de choc en fin de charge, fear plus longue selon la distance)"
+    },
+    {
+      "idea": "Il saute les murs fins avec son E chargé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Il garde son R pour te poursuivre après ton Flash : ne pas flash trop tôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, pas une mécanique DDragon"
+    },
+    {
+      "idea": "Envahir sa jungle tôt (lvl 2-3)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: sources contradictoires (huncho : il invite l'invade ; Karasmai : on ne peut jamais l'envahir, il full clear)"
+    },
+    {
+      "idea": "Suivre son départ (raptors ou buff) et prendre le scuttle opposé",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil macro"
+    },
+    {
+      "idea": "Les ralentissements et le kite (Ashe, Vayne) le gênent",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source ; effet des slows sur Galop non vérifiable dans DDragon"
+    }
+  ]
+}

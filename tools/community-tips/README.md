@@ -12,6 +12,17 @@ La production par lots est terminée : 154 couples recherchés, dont 124 publié
 
 Nettoyage du 2026-11-13 (détail par couple dans `notes/*.notes.json`, champ `cleanup`) : règle des 3 couples par vidéo appliquée rétroactivement (sd4t6Hh5V38, a9QyG_fjnII, dFEJushm5Cc, D7DemQewZqM gardées pour leurs 3 couples les plus pertinents), tips repassés sous le consensus retirés, côtés aux conseils uniquement génériques masqués, counterstats en liste noire.
 
+## Fiches « Comment jouer contre {champion} » (`vs/`)
+
+Une fiche par champion, valable quel que soit le champion joué. Sur une page de matchup, elle remplace les tips du couple quand le côté sélectionné en a moins de 2 ; sinon elle est proposée sous le lien « Conseils généraux contre {adversaire} ». La page Builds l'affiche dans l'onglet Counters.
+
+- Données : `public/assets/data/community-tips/vs/{championId}.json` (schéma `vsTipsSchema`, une seule liste FR + EN), index `vs/index.json`, notes `notes/vs/{championId}.notes.json`, reprise `progress-vs.json`.
+- `node src/add.ts <brouillon.json> <brouillon.notes.json>` reconnaît un brouillon de fiche à son champ `champion`. `tips:check` et `detect-reworks` traitent les fiches comme les couples.
+- Sources, dans l'ordre : vidéos via hato-clips, sous-titres seulement (« how to beat {X} », « {X} counter guide », « comment jouer contre {X} »), chaînes de `channels.json` d'abord, 4 vidéos au plus ; puis pages lisibles de `sites.json`, 3 au plus. Aucun contournement des sites bloqués (Reddit, Mobafire…), pas d'API Reddit ; un extrait Reddit vu dans des résultats de recherche oriente la recherche mais ne compte pas comme source. Liste noire respectée.
+- Contenu : gameplay seulement (sorts à esquiver, fenêtres de trade ou d'engage, pics lvl 2 / 3 / 6, sortir de son combo, vision, gestion de la wave, macro). Ni objets, ni runes, ni ordre des sorts, sauf l'anti-heal (Blessures graves) contre les champions qui se soignent beaucoup, sans citer d'objet.
+- Mêmes règles que les couples : 8 tips au plus triés par sources, 2 sources par tip ou 1 si la mécanique est vérifiée dans Data Dragon, aucune copie, FR et EN dans la même passe, jargon LoL, AZERTY, accords. **Une même vidéo sert à 3 fiches au plus** (contrôlé).
+- File : champions les plus présents dans les données Builds d'abord, champions sortis depuis moins de 6 mois en fin de file. Lots de 10 fiches (tips:check, build, commit) ; arrêt si un lot dépasse 40 % de fiches en sources insuffisantes.
+
 ## Commandes
 
 ```sh

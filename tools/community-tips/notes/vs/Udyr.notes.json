@@ -1,0 +1,122 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] The stun itself has a cool down per target. So, it's not like you can just attack one target multiple times and stun it continuously. You have to wait for this cool down to go down, and then you can re-stun.",
+    "[0] Now, when Udyr awakens this ability, he will get even more movement speed and gain crowd control immunity.",
+    "[0] if you are rooted already and you awaken your E, it won't break you out of the root.",
+    "[0] if I awaken my W, you can see the fact that I heal up a bit, and then my next two attacks will heal me even more.",
+    "[0] matchups such as Vayne or Cassiopeia, Gnar, those kinds of matchups, it's better to take Stridebreaker because it will allow you to actually stick to the enemy. Now, there's some ranged matchups that are very annoying to deal with as AD Udyr such as Kennen or Aurora.",
+    "[0] AD Udyr is not actually that weak in the early game.",
+    "[0] what you want to do for the most part is just side lane and not really team fight. And this is because AD Udyr is actually pretty weak in team fights.",
+    "[1] Due to mediocre team fight potentials, AD Udyr we're looking to get picks before fights.",
+    "[1] I'm usually sitting in a bush waiting for an enemy to face check or overextend.",
+    "[1] compared to other bruisers, we lack sustain and mobility. Then again, some comps we can feel completely useless as we just can't walk up.",
+    "[1] Attack speed reduction, blinds, blocks, and dodges. Abilities like Master's attack speed reduction, Teemo's blind, Jax's counter strike, or Shen's dodge zone limit most of our damage source.",
+    "[1] Champions like Taliyah, Jarvan, or Anivia are pretty annoying since we have zero dashes to hop over walls.",
+    "[1] We love when scuttles are contested because it's a good opportunity to get an early kill and there aren't much matches where we lose the 1v1.",
+    "[2] Pantheon has a crazy mechanic, the shield block thing. He will block your tiger lightning bolts if he knows what he's doing. He'll wait for you to press awaken Q and then he'll block all of it."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "BuKjT3eGsZg",
+      "channel": "lolWillieP",
+      "result": "utilisé (13:27) ; surtout des conseils de build côté Udyr"
+    },
+    {
+      "id": "RgmeC8rMJ0s",
+      "channel": "foggedftw2",
+      "result": "écarté : stream sans commentaire utile sur le matchup"
+    },
+    {
+      "id": "bxaRe6aR9bA",
+      "channel": "Federals1",
+      "result": "utilisé (passages 9:02-12:30, 1:03:51-1:06:30)"
+    },
+    {
+      "id": "6DSMFFxKwTU",
+      "channel": "The Kamapua'a",
+      "result": "utilisé (0:41-1:10, 2:17-2:57, 14:05) ; sous-titres fr = traduction auto, seuls les en-orig servent"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Blind / blocage / esquive d'autos coupe ses dégâts, à garder pour son A réveillé",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q = dégâts sur les deux prochaines attaques)"
+    },
+    {
+      "idea": "Aucun dash pour franchir les murs, dépend de la vitesse du E : le kite",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Très fort en duel early : pas de 1v1 seul sans avance",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Faible en teamfight, joue les picks : rester groupé, forcer les 5v5",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "E réveillé = immunité aux CC quelques secondes",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Awaken: immunity to Immobilizing and Disabling effects)"
+    },
+    {
+      "idea": "Stun du E avec CD par cible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (icd per target)"
+    },
+    {
+      "idea": "Z : shield + soins sur deux attaques",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "L'invisibilité fait gâcher son A réveillé",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "La barre du passif est visible : savoir quand il peut réveiller un sort",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable dans DDragon"
+    }
+  ]
+}

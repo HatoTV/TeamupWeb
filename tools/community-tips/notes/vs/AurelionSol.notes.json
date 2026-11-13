@@ -1,0 +1,152 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] The hardest part of playing Aurelion Sol is the early game, especially if you play too passively and don't look for opportunities to get ahead.",
+    "[0] If you don't take advantage of the early game, you may have to wait until level 11 or even later before you can make a real difference in team fights.",
+    "[0] Aurelion Sol has several counters that can make it difficult for him to reach his scaling point. However, some of these champions like Fizz only become a real threat after level six.",
+    "[0] most champions have long cool downs on their abilities early on, while Aurelion Sol's Q has only a 3-second cool down and can be channeled for up to 3.5 seconds.",
+    "[0] When playing against a champion with crowd control, you have to learn to be patient. Try to bait them into using their stun or snare at the wrong time. Once that ability is on cool down, that's your opportunity to all in them.",
+    "[0] Here, even if Lux catches me with her Q, she's going to get punished for using it before I use my W once her Q is on cool down. She has no way to stop my engage.",
+    "[0] Since it doesn't deal much damage in the early game and the stun duration is relatively short, you don't always have to save it for damage.",
+    "[0] Alternatively, you can use it to zone them when they have mobility abilities like dashes",
+    "[1] Aurelion Sol is a very good champion and just killing the wave with his mana and then basing and killing the wave with his mana and basing. Not really does like just help him get through his early game, which is his biggest weakness.",
+    "[1] Once you have very low mana like I do right now, you need to start kind of saving it so you have enough mana for a push out.",
+    "[1] I'm on a bit of a timer and this Swain has still has mana to fight me",
+    "[1] So, at this point, we can start E and then Q in the wave. Uh making sure we get the whole wave from making sure we get passive stacks.",
+    "[1] So, in early game you're you're trying to hit 10 stacks per minute with Aurelion Sol with uh on passive.",
+    "[1] This is this this is champion that will just ult me and one-shot me. I don't have any counterplay.",
+    "[1] But long term, I don't want to lane into Akali.",
+    "[2] This is just one of the issues with Asil, honestly, is uh the mana issues.",
+    "[2] Unfortunately, Asil right now, like his mana problems are just so bad.",
+    "[2] Again, when you're playing Relian Soul, all you want to do is just make those high percentage plays, get that farm, don't miss out on XP and CS"
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "1mJyRHAPuyw",
+      "channel": "Brukner",
+      "result": "utilisé (passages 0:20-0:51, 2:04-3:24, 4:54-6:08, 6:55-7:24)"
+    },
+    {
+      "id": "YVr-gIGHfbY",
+      "channel": "Nemesis",
+      "result": "utilisé (passages 2:09-2:40, 4:57-5:10, 8:34, 9:30-9:45, 11:37-11:55)"
+    },
+    {
+      "id": "EDSRFiurryk",
+      "channel": "Sol",
+      "result": "utilisé (passages 2:42-3:20, 3:46-4:00)"
+    },
+    {
+      "id": "5T9aBJvGWvM",
+      "channel": "Sol",
+      "result": "écarté sans ouvrir les sous-titres : publié 2024-08-14, plus de 2 ans"
+    },
+    {
+      "id": "NRdDACbk6_A",
+      "channel": "Coach Blaker",
+      "result": "écarté sans ouvrir : environ 3 ans, plus de 2 ans"
+    },
+    {
+      "id": "uw_pYDggEqU",
+      "channel": "Midbeast 2",
+      "result": "écarté sans ouvrir : environ 3 ans, plus de 2 ans"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "L'early est sa pire phase, il veut farmer pour scale : pression tôt et deny de CS",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Gros problèmes de mana tôt : le forcer à dépenser, trade quand il est à sec",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Assassins : lvl 6 = fenêtre de one-shot, il manque de contre-jeu",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (Fizz menace après lvl 6 ; Akali ult one-shot)"
+    },
+    {
+      "idea": "Ne pas rester dans le Souffle de lumière (A) : 3 s de CD, burst à chaque seconde pleine",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 3 ; burst à chaque seconde pleine sur la même cible)"
+    },
+    {
+      "idea": "Pendant le Vol astral (Z), A sans CD : garder son CC pour cet engage",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Souffle de lumière sans CD ni durée max pendant le vol)"
+    },
+    {
+      "idea": "Sortir vite du Trou noir (E) : stacks par seconde dedans, exécution au centre",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Poussière d'étoiles par seconde de champion dans le trou noir, exécution au centre sous un % de PV max)"
+    },
+    {
+      "idea": "Étoile finale (R) étourdit à 1250 ; Apocalypse : zone plus large, knock-up puis slow",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (portée 1250, stun ; Apocalypse knock-up + onde de choc qui ralentit)"
+    },
+    {
+      "idea": "Il kite les mêlées en volant le long des murs avec son Vol astral (Z)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: contre-jeu non donné par la source (point de vue d'Aurelion Sol seulement)"
+    },
+    {
+      "idea": "Il punit ton retour de roam quand tes sorts clés sont en CD",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro avec 1 seule source"
+    },
+    {
+      "idea": "Mobilité de map énorme avec le Vol astral, bon split pusher : tracker sa position",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: macro avec 1 seule source"
+    },
+    {
+      "idea": "Ne pas sous-estimer son lvl 1 (A complet = environ 50 % des PV)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: chiffre non vérifiable en DDragon, 1 seule source"
+    }
+  ]
+}

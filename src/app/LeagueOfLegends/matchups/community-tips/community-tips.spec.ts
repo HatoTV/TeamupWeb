@@ -1,4 +1,4 @@
-import { CommunityTip, CommunityTipsFile, MAX_TIPS, MIN_TIPS_PER_SIDE, formatSourceDate, sideTips, sortTips } from './community-tips.service';
+import { CommunityTip, CommunityTipsFile, MAX_TIPS, MIN_TIPS_PER_SIDE, VsTipsFile, formatSourceDate, sideTips, sortTips, vsTips } from './community-tips.service';
 
 const tip = (text: string, sources: number, verifiedByGameData: boolean, category: CommunityTip['category']): CommunityTip => ({
   text,
@@ -38,6 +38,15 @@ describe('community tips', () => {
     expect(sideTips(file, 'Yasuo', 'fr')).toEqual([]);
     expect(sideTips(file, 'Yone', 'en').map((t) => t.text)).toEqual(['a', 'b']);
     expect(sideTips({ ...file, status: 'insufficientSources' }, 'Yone', 'fr')).toEqual([]);
+  });
+
+  it('shows a « how to play against » file only with enough tips and not insufficient', () => {
+    const two = [tip('b', 1, true, 'mechanics'), tip('a', 2, false, 'lane')];
+    const file: VsTipsFile = { champion: 'Zed', researchedAt: '2026-11-13', gameVersion: '16.22', status: 'ok', tips: { fr: two, en: two }, sources: [] };
+    expect(vsTips(file, 'fr').map((t) => t.text)).toEqual(['a', 'b']);
+    expect(vsTips({ ...file, tips: { fr: [two[0]!], en: [two[0]!] } }, 'fr')).toEqual([]);
+    expect(vsTips({ ...file, status: 'insufficientSources' }, 'en')).toEqual([]);
+    expect(vsTips(null, 'fr')).toEqual([]);
   });
 
   it('formats the consultation date in the page language', () => {

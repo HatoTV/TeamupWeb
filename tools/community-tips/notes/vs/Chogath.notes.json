@@ -1,0 +1,131 @@
+{
+  "searches": 4,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] bait him to use his q and then punish him during that 6 seconds when it's on cool down",
+    "[0] when the wave is near your side and he walks up to Q you have the long Lane to run him down his Q is on cool down",
+    "[0] Cho will do a little Stomp and then the queue will show on the floor you see the animation before you see the visuals of his Q so you react to tr doing his little stump on the floor and you're already pre- dodging his queue before you see the circle on the floor",
+    "[0] you avoid standing parallel to him and the minion so you can't hit free ease onto you it may seem like a little bit of damage but it adds up and it allows them to hit his q a lot easier",
+    "[0] you tag his Q in your mind with an ability that can outplay it",
+    "[0] you need to be anticipating and have an ability ready",
+    "[0] if you're hiding in a bush they're walking in to get Vision you cue their support or J or whoever pops their face in your Q",
+    "[0] there's a big grub fight coming up your jungler starts in ever on circling around and you don't have your ulti because you ate a castom minion 20 seconds before",
+    "[1] Q's on cool down, I get to walk up here.",
+    "[1] Now when this next wave comes, I'm going to bring it away from the bushes because I know Cho'Gath is in the bushes.",
+    "[2] he's got really good burst sustained damage two dashes to dodge your Q",
+    "[2] I crash a big wave and alter minion always Al before you base on Cho you need to start stacking as soon as possible",
+    "[3] Rupture: cast time 0.5; knock-up after a 0.627 seconds delay; the delay before the rupture does not include the cast time; the animation is visible in brush and fog of war."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "13Gn-arQ0l8",
+      "channel": "Coach Chippys",
+      "result": "utilisé (chapitre How to Counter Cho'gath 1:54:58-1:58:24, + 1:08:16, 1:59:08) ; guide top ; 2025-02-27, < 2 ans"
+    },
+    {
+      "id": "kg_9HxRUMsQ",
+      "channel": "Vallheim • League of Legends",
+      "result": "écarté : commentaire de game sans conseil exploitable contre Cho'Gath (ganks, chat)"
+    },
+    {
+      "id": "lOHkwYGcePQ",
+      "channel": "Solarbacca Too",
+      "result": "utilisé (4:38, 13:54) ; 2026-09-05"
+    },
+    {
+      "id": "wFyItHPz-_U",
+      "channel": "kerberos",
+      "result": "utilisé (0:46, 3:08) ; point de vue Cho'Gath ; 2024-11-24, < 2 ans (> 18 mois)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/chogath/counters/top",
+      "result": "no-advice (un seul tip écrit, côté Malphite, inutilisable)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL",
+      "result": "ok (données de compétences : délai Rupture, silence, CD Festin)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Faire gâcher la Rupture (A) sur la wave puis punir pendant les 6 s de CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources ; CD 6 s vérifié DDragon"
+    },
+    {
+      "idea": "Ne pas facecheck le bush où il attend avec la Rupture ; farmer loin des bushes",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Esquiver sur l'animation (coup de pied) avant le cercle, délai ~1,1 s",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (guide + wiki : cast 0,5 s + délai 0,627 s)"
+    },
+    {
+      "idea": "Garder un dash/blink pour esquiver la Rupture",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Festin (R) gaspillé sur un sbire pour stacker : CD 80/70/60 s, forcer objectif/fight",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; CD vérifié DDragon"
+    },
+    {
+      "idea": "Ne pas s'aligner derrière le sbire frappé : Piques vorpales (E) touchent et ralentissent devant lui",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (« slowing all enemy units in front of him »)"
+    },
+    {
+      "idea": "Mouvements imprévisibles pour faire rater la Rupture",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil de lane"
+    },
+    {
+      "idea": "Se placer entre Cho et la wave quand elle est de ton côté",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil de lane"
+    },
+    {
+      "idea": "Cho sans mobilité : très gankable",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un conseil macro (kerberos parle de Sylas)"
+    }
+  ]
+}

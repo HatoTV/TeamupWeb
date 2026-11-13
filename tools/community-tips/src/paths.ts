@@ -1,6 +1,6 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { indexSchema } from './schema.ts';
+import { indexSchema, vsIndexSchema } from './schema.ts';
 
 const root = (path: string): string => fileURLToPath(new URL(`../../../${path}`, import.meta.url));
 
@@ -12,11 +12,22 @@ export const GLOSSARY_FILE = root('tools/i18n-matchups/glossary.json');
 export const GLOSSARY_MD = root('tools/i18n-matchups/glossaire-lol-fr.md');
 export const SITES_FILE = root('tools/community-tips/sites.json');
 export const CHANNELS_FILE = root('tools/community-tips/channels.json');
+/** Static Data Dragon data published for the site (one folder per version). */
+export const STATIC_DIR = root('public/data/lol/static');
+/** « How to play against {champion} » files, their notes and their resumable progress. */
+export const VS_DIR = `${DATA_DIR}/vs`;
+export const VS_INDEX_FILE = `${VS_DIR}/index.json`;
+export const VS_NOTES_DIR = `${NOTES_DIR}/vs`;
+export const VS_PROGRESS_FILE = root('tools/community-tips/progress-vs.json');
 
 export const today = (): string => new Date().toISOString().slice(0, 10);
 
 export function readIndex() {
   return existsSync(INDEX_FILE) ? indexSchema.parse(JSON.parse(readFileSync(INDEX_FILE, 'utf8'))) : { updatedAt: today(), pairs: {} };
+}
+
+export function readVsIndex() {
+  return existsSync(VS_INDEX_FILE) ? vsIndexSchema.parse(JSON.parse(readFileSync(VS_INDEX_FILE, 'utf8'))) : { updatedAt: today(), champions: {} };
 }
 
 export interface Progress {
@@ -25,8 +36,6 @@ export interface Progress {
   insufficientSources: string[];
 }
 
-export function readProgress(): Progress {
-  return existsSync(PROGRESS_FILE)
-    ? (JSON.parse(readFileSync(PROGRESS_FILE, 'utf8')) as Progress)
-    : { done: [], inProgress: [], insufficientSources: [] };
+export function readProgress(file = PROGRESS_FILE): Progress {
+  return existsSync(file) ? (JSON.parse(readFileSync(file, 'utf8')) as Progress) : { done: [], inProgress: [], insufficientSources: [] };
 }

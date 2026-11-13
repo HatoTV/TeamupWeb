@@ -1,0 +1,114 @@
+{
+  "searches": 2,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] I feel like, you know, the biggest weakness Kindred has, right? He scales very well, but he's very weak early game.",
+    "[0] I think like the biggest weakness of Kindred is his early game clearing, right? Pathing.",
+    "[0] I'll dash into them, I'll start auto attacking. And the second they turn around, I will ultimate and then they can't finish me off. But now they're put in a bad spot where they can't finish me off and they've taken a bad fight",
+    "[0] So we can use maths to identify where the next mark is going to spawn. So let's say hypothetically crab is gone, raptors is gone. Where can the next mark spawn? It's Gromp for sure, right?",
+    "[0] You can always imagine every like when enemy sees your mark, they're always going to want to sprint towards it.",
+    "[1] Why play Kindred Jungle? Well, they have infinite scaling. They deal tons of consistent damage. They bring an AoE invulnerability, and they have a very fun skill ceiling to learn. However, they are weaker in the early game.",
+    "[1] Wolf, however, periodically marks jungle creatures, and if you kill them, you get a mark.",
+    "[1] However, except Rift Scuttler, all of these will be in your enemy's jungle. After gaining four marks, you gain 75 range, and you gain more range for every three marks after that. In addition, all of her basic abilities scale with marks.",
+    "[1] This ability is an auto attack reset, and if within her W, the cooldown is massively reduced.",
+    "[1] The active places down a large circle on the floor where Wolf will constantly attack enemies within.",
+    "[1] If you attack this marked enemy three times, it consumes all of these marks to deal a large chunk of execute damage. Kindred's ultimate places down a large circle around her and everything within cannot go below 10% health. After 4 seconds, everything within, allies, enemies, everything get healed.",
+    "[1] Kindred is great into junglers who can't pressure her early or deny her marks. and she can struggle into junglers that are happy to fight her every time she does try to get a mark.",
+    "[2] The moment he takes this though, right, the mark's going to spawn here on his raptors."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "zuEzpgDMvs0",
+      "channel": "Coach Kirei",
+      "result": "utilisé (passage 4:44) ; surtout du point de vue Kindred (invades)"
+    },
+    {
+      "id": "Djulxj5CTBc",
+      "channel": "Kaido Jungle",
+      "result": "écarté : gameplay peu commenté, aucun passage utile (compte dans les 4)"
+    },
+    {
+      "id": "SXsgihWqlc4",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (passages 2:19-2:35, 25:53-26:27, 29:42-30:12, 51:03)"
+    },
+    {
+      "id": "F4S6FUMy9aM",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (transcription complète, 3 min)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Les marques de jungle (sauf crabe) apparaissent dans ta jungle : anticipe, ward, embuscade",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "R : personne ne meurt sous 10 %, soin pour tous à la fin : recule, burst après",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (no unit can die, heal à la fin)"
+    },
+    {
+      "idea": "Chaque marque renforce les sorts et la portée par paliers : refuser les marques",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif) ; fréquence exacte des paliers non citée (3 Minute et DDragon divergent)"
+    },
+    {
+      "idea": "Kindred faible en early : force le combat à chaque marque",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Sortir de la zone du Z : morsures + CD du A réduit",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W : Loup mord, CD du Q réduit dans la zone)"
+    },
+    {
+      "idea": "Après le E, sortir de portée avant la 3e attaque (dégâts sur PV manquants)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E : 3e attaque, missing Health damage)"
+    },
+    {
+      "idea": "Kindred ne peut jamais face-check, très squishy : embuscades dans le brouillard",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip macro"
+    },
+    {
+      "idea": "Sans R, Kindred joue beaucoup plus timide : engage quand le R est utilisé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    }
+  ]
+}

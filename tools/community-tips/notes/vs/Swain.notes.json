@@ -1,0 +1,155 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] He's already below half his mana. So, we are out sustaining him even though we're behind in CS.",
+    "[0] He's completely out of mana, but I do have my support here as well.",
+    "[0] Sven is kind of one of the tankier champ ranged champions you're going to face. So, it's kind of hard to 100 to zero him.",
+    "[1] Poor spell usage can cause mana problems early, which is also when Swain is most vulnerable to falling behind.",
+    "[1] Mana can be an issue early if you spam spells without landing them, but this mostly disappears once you complete Lost Chapter.",
+    "[1] His E and W largely decide his lane and pick potential, and missing them limits his pressure.",
+    "[1] He thrives in extended fights, drains entire teams, and turns chaos into guaranteed wins.",
+    "[1] The harder the enemy commits into Swain, the more value he gets out of extended fights.",
+    "[1] As long as fights keep happening, he keeps getting harder to kill.",
+    "[1] Once Swain turns on his ultimate, he becomes extremely difficult to force out of fights.",
+    "[1] Champions that kite well can prevent Swain from sticking to targets and sustaining through fights.",
+    "[1] Swain throws out a projectile that returns and roots enemies hit, and on recast pulls them in while granting a soul fragment.",
+    "[1] Swain places a long-range zone that damages, slows, reveals enemies, and pulls a soul fragment from the champions hit.",
+    "[1] Mid game fights around river, jungle, and epic monster pits are ideal for Swain. There's limited vision, tight terrain, and plenty of angles to catch players off guard.",
+    "[1] Keep vision up and look to assist fights with long range W or catch enemies moving between lanes.",
+    "[1] Most teams will have healing reduction and more defensive options, so positioning and target selection becomes more important than raw damage.",
+    "[2] So I can't really follow her up cuz I don't have enough mana yet with this set up.",
+    "[2] If you look at her movement it's very easy to tell if she wants to trade especially because my E is down.",
+    "[2] I'm just going to go group with my teammates and catch Lillia off guard once again here from fog of war."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "EbAyEHDjVZc",
+      "channel": "Kunain",
+      "result": "utilisé (passages 1:35, 3:45, 4:19) : Akali vs Swain mid, mana et tankiness de Swain ; « very low wave clear » (8:00) contredit par Zoose, écarté"
+    },
+    {
+      "id": "_8OL9KjuVjo",
+      "channel": "Zoose",
+      "result": "utilisé (passages 0:00-5:25, 11:47-17:57) : forces/faiblesses et kit de Swain, point de vue du joueur Swain"
+    },
+    {
+      "id": "M_5aQZ1s0uk",
+      "channel": "HusumLOL",
+      "result": "utilisé (passages 1:23-1:45, 9:19) : mana tôt, adversaire qui trade quand le E de Swain est down, picks depuis le fog"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Swain manque de mana tôt : le faire gâcher ses sorts puis punir",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Trade quand sa Capture (E) est en CD (12-10 s)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD 12/11.5/11/10.5/10 vérifié)"
+    },
+    {
+      "idea": "Swain tanky, gagne les fights longs : short trades",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Picks depuis le fog autour rivière/objectifs : garder la vision",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "R draine les ennemis proches et dure tant qu'il draine des champions : sortir de la zone, kite",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R portée 650, forme indéfinie tant qu'il draine des champions)"
+    },
+    {
+      "idea": "E part puis revient et root au retour",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (description E vérifiée)"
+    },
+    {
+      "idea": "W révèle 1,5 s puis frappe, ralentit et donne un fragment d'âme",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip W vérifié)"
+    },
+    {
+      "idea": "Anti-heal : Swain se soigne via R et fragments d'âme",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (drain R et soin du passif vérifiés)"
+    },
+    {
+      "idea": "Se battre quand son R (120 s) est en CD",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: limite de 8 tips"
+    },
+    {
+      "idea": "Swain a une wave clear faible : back sur la cannon wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: contredit par Zoose (clears waves quickly)"
+    },
+    {
+      "idea": "Swain n'a aucun dash : punir son placement",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Le E de Swain peut tirer à travers les murs fins",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans Data Dragon"
+    },
+    {
+      "idea": "Swain prend souvent le lvl 2 en premier et poke tôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    }
+  ]
+}

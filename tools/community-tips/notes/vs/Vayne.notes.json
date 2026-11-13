@@ -1,0 +1,147 @@
+{
+  "searches": 4,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] En vrai, de toute façon, contre Vin Top, le plan de jeu est assez simple. Tu te soumets en early, tu fais la le bon garçon docile, tu concèdes des CS, tu prends le moins de dégâts possible, tu essayes d'avoir toute l'XP, tu essayes d'avoir un max de farm, tu attends le stride",
+    "[0] très fort de jouer avec les bush aussi contre les renches comme ça.",
+    "[0] Si tu es si tu es patient, que tu attends la moindre erreur qu'elle a plus de condemne, plus de bon plating, suffit de de y aller au bon moment.",
+    "[1] I think the key into Vayne though is to let Vayne push you in. You kind of can't push into Vayne because you can't crash the wave. If you are like over here and you're trying to kill the winions, Vayne can like ghost on you and run you down with lethal tempo and free autos and ghosts. And you also get ganked too easily, too.",
+    "[1] Okay, I can one shot from this HP if she tumbles in. Nice. The second she uh tumbles in I'm instantly flashing on her.",
+    "[1] Nice. No condemn. We can maybe dive now if you want.",
+    "[2] Some Vaynes would like to get in between the tower and your wave and try to zone you from the XP.",
+    "[2] If a Vayne Qs aggressively like this, uh when there's no enemy minions between you two, then you can initiate the trade with landing your E, take it, auto Q, go shroud and back off.",
+    "[2] he's kind of posturing in a way that uh makes me feel like the enemy jungler is here, right? And he wants to stun me into a wall or something, right?",
+    "[2] All we have to do now is keep this wave uh frozen in front of our turret.",
+    "[2] And I'm just letting this wave push into me because the enemy is not contesting anyway, right? So, we are just getting free grabs. We are denying the Vayne again XP.",
+    "[2] And we're going to back off, not give him the third auto attack. Just going in for a small trade like that.",
+    "[2] You just have to not int in the early game",
+    "[2] going to play around the bushes. Always use the bushes to your advantage versus ranged. I remember this This is so bad by me because I should not take a third auto attack.",
+    "[2] I'm kind of going in and out, in and out to make him feel like I'm constantly trying to walk up in his range so he can't walk up to the bush and drop a ward.",
+    "[3] Deny Vayne the opportunity to pin you against walls.",
+    "[3] It's recommended not to fight Vayne in the jungle as there are more walls for her to stun with Condemn.",
+    "[3] This is even more useful if Vayne's Condemn is recently used due to its fairly long cooldown.",
+    "[3] Avoid pushing the lane as Vayne's Tumble makes her an exceptional farmer under turret, and has strong chasing potential."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "yL4ZfCa_o0E",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 0:29-0:45, 1:36, 13:03-13:10)"
+    },
+    {
+      "id": "5OY3y3UtMiU",
+      "channel": "quante",
+      "result": "utilisé (passages 0:16-0:31, 2:29, 3:14)"
+    },
+    {
+      "id": "jMzv8tyMqEM",
+      "channel": "Kunain",
+      "result": "utilisé (passages 0:24, 1:41-1:51, 3:01-3:07, 4:49-5:02, 7:50, 8:22, 9:07, 10:10-10:47)"
+    },
+    {
+      "id": "wFacIqqEESk",
+      "channel": "PleutreLoL BONUS",
+      "result": "écarté : surtout du build, pas de conseil de matchup exploitable"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/vayne/counters",
+      "result": "no-advice (tip pour jouer Vayne contre Kai'Sa)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Vayne/Strategy",
+      "result": "ok (sans date : traité comme > 2 ans, mécaniques seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Engager quand Condamnation (E) est en CD",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (CD 20/18/16/14/12 s)"
+    },
+    {
+      "idea": "Rester loin des murs (stun de E seulement contre un mur), surtout jungle / jungler proche",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (stun si collision avec le terrain)"
+    },
+    {
+      "idea": "Laisser Vayne pousser, freeze devant sa tour ; pousser expose au chase et aux ganks",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (wiki non compté : sans date, tip lane)"
+    },
+    {
+      "idea": "Jouer autour des buissons, allers-retours pour l'empêcher de warder",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Early : concéder des CS mais garder l'XP, ne pas mourir",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Punir une Roulade (A) agressive sans sbires entre vous",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Trades courts, reculer avant le 3e coup des Carreaux d'argent (Z)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (3e attaque ou sort consécutif : dégâts bruts en % PV max)"
+    },
+    {
+      "idea": "Respecter le lvl 6 / invisibilité de Roulade pendant Combat ultime (R)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: seule source le wiki (sans date), phrase non citée mot pour mot par l'outil"
+    },
+    {
+      "idea": "Sous la tour contre un ranged, se placer au milieu de la wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil générique contre les ranged"
+    },
+    {
+      "idea": "Aller sur elle quand elle doit last-hit",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    }
+  ]
+}

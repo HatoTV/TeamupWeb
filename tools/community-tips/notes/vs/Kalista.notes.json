@@ -1,0 +1,159 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] champions that need to win lane, I think, are very hard to play. Kalista, like Draven, Kalista",
+    "[0] these champions, you need to win lane. You need to squeeze a lot out of lane.",
+    "[0] a lot of AD carries that have strong early games of weak from behind is Kalista the worst AD carry from behind probably.",
+    "[1] Your goal here is to survive as long as possible. The more you fight, the more happy little spears inside your enemies.",
+    "[1] And the worst part about it is if you do fall behind, you're pretty much rendered useless.",
+    "[1] Remember, he is very immobile, so you can engage every time your ULT is up.",
+    "[1] We can keep on bullying enemies into submissiveness by shoving the wave and diving or just poking.",
+    "[1] Our last option is to completely ignore them and just roam.",
+    "[1] you can use your downtime to take a drake without junglers, since you can easily secure it with your E.",
+    "[2] the first important things when you play Kalista are mostly the the render reset with the minions so that you can trade both on the enemy and uh and just like get get advantages.",
+    "[2] we want to play for Drake. Playing for Drake says Kalista is kind of important",
+    "[2] Another thing that I love of Kalista is you see you can hard force a big wave right away",
+    "[2] Kalista ultimate should never be kept too much. I am a fan of like just simply using it. You go there force the force the the ultimate.",
+    "[2] I'm not a fan of keeping my ultimate too much. If I have an engager while instead if I have an enchanter, I like to keep it to uh make him safe.",
+    "[3] However, she is squishy with lower range, and other bot laners will outscale her as the game goes on.",
+    "[3] Kalista's Q is a straight-line skill shot, which deals damage to the first enemy hit, and if it kills the target, it continues onward applying all the rend stacks to the new target.",
+    "[3] The active rips out all of these spears dealing damage to the target hit for each spear in them and slows them. And if this kills at least one target, the cooldown is reset and she gains mana.",
+    "[3] Kalista's ultimate pulls a tethered ally inside her, making them invulnerable and untargetable. After 4 seconds or when your ally chooses to, dash out of you knocking up all enemies hit.",
+    "[3] If you get into a situation where you can just attack and dash at your opponent, you'll win most trades as the more attacks you have in them, when you use E to pull out your spears, you'll just chunk them.",
+    "[3] And your level six allows you to force fights even faster throwing your support at them.",
+    "[3] Entering the mid game, take your tower and rotate mid."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "F3oN260aEMo",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (passages 6:42-7:00, 26:20 ; chapitre Kalista 49:03-50:40 sans conseil de gameplay)"
+    },
+    {
+      "id": "8BzFw_pPpqo",
+      "channel": "yuzuu",
+      "result": "utilisé (passages 1:44, 2:23, 13:51, 14:58-15:20) ; vidéo de 22 mois, du point de vue de Kalista"
+    },
+    {
+      "id": "wC1Yy_ItxLU",
+      "channel": "Eneino Coach",
+      "result": "utilisé (passages 2:37, 6:25, 7:08, 7:36-8:00) ; commentaire de partie par un coach"
+    },
+    {
+      "id": "evIZoBLphRY",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (vidéo entière, 3 min, voix anglaise)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Lvl 6 : Appel du destin (R) projette le support depuis 1000 unités, respecter le R up",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (portée R 1000, projection qui repousse)"
+    },
+    {
+      "idea": "Kalista doit gagner la lane, inutile en retard, se fait outscale",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Shove rapide puis dive ou rotate mid",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Lances qui restent 4 s, dégâts croissants par lance : éviter les trades longs",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (4 s, dégâts par lance au-delà de la première)"
+    },
+    {
+      "idea": "Reset d'Extirpation (E) sur un sbire tué pendant qu'elle te touche",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD rechargé si la cible meurt)"
+    },
+    {
+      "idea": "R met le support en stase jusqu'à 4 s : ne pas gaspiller le CC sur lui",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Stasis jusqu'à 4 s)"
+    },
+    {
+      "idea": "Kalista joue pour les drakes early",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": false,
+      "reason": "2 sources (sécurisation du drake au E non reprise : non vérifiable dans DDragon)"
+    },
+    {
+      "idea": "Perforation (A) traverse un sbire tué et transfère les stacks",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fait vérifié dans l'infobulle de Perforation)"
+    },
+    {
+      "idea": "Kalista ne peut pas annuler ses autos",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, absent de DDragon"
+    },
+    {
+      "idea": "Kalista forte contre ceux qui la kitent, faible contre ceux qui foncent (Samira)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (lane)"
+    },
+    {
+      "idea": "Sécuriser le drake au E",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, dégâts aux monstres non vérifiables"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "yuzuu (2024-01-12) a plus de 2 ans : elle ne compte plus que pour les mécaniques vérifiées ; tips lane/macro 3→2 sources, tip drakes early (2→1) retiré"
+      ]
+    }
+  ]
+}

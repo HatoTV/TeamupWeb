@@ -1,0 +1,131 @@
+{
+  "searches": 2,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] The Malphite is level six right now. It's going to be a lot harder to look for the dives against him.",
+    "[0] Usually what I love to do when this happens, when we both get level six, I love to trade my ultimate for his ultimate. So, he basically stays without an alt and when both of us have no alt, I can easily look for the fights against him",
+    "[0] I think he still has no alt by the way. His alt is a bit longer cool down than mine.",
+    "[0] He does have ultimate right now. It's really difficult to dive him when he has alt.",
+    "[1] If he uses his attack speed slow, he's dead, chat. Okay, he's dead. Now we wait.",
+    "[1] He probably doesn't have ultimate. So, I'm going to wait for him to use his slowing ability, attack speed slow ability.",
+    "[2] Pas m une petite pizza frérot pour perdre ton mana là.",
+    "[2] Il a pas de man donc je n'ai pas besoin de freeze.",
+    "[2] Peux m'envoyer sa pizza si tu veux. Fais donc, bros.",
+    "[2] J'ai pas cuspel parce que je savais qu'il allait me qu'il allait me R en mettant son cuspel.",
+    "[2] j'ai mis un Z après parce que sinon il s'en va avec sa avec le la mouvement speed de son cuspel.",
+    "[3] Ground Slam can significantly reduce your damage output.",
+    "[3] you should avoid clumping as a team since this can make it very easy for Malphite to land a spell on multiple members of your team."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "_fsMRfZiH2c",
+      "channel": "WoitlanDunk ",
+      "result": "utilisé (passages 2:15, 3:02, 7:07-7:36, 10:25) : Darius vs Malphite, voix FR, 2025-10-26"
+    },
+    {
+      "id": "eGS8r5cbX7s",
+      "channel": "Gaëthan - VOD ",
+      "result": "écarté : stream sans conseil exploitable sur Malphite (seule idée : ping quand Malphite roam, 1 source, macro)"
+    },
+    {
+      "id": "k0Cpmt1inxg",
+      "channel": "Monster SSS",
+      "result": "utilisé (passages 5:50-6:10, 8:01-8:48) : Master Yi vs Malphite, 2026-10-25"
+    },
+    {
+      "id": "o_roCuYsIyY",
+      "channel": "Geishuu",
+      "result": "utilisé (passages 2:54, 5:11-5:36) : Sett vs Malphite, 2025-04-04"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://leaguefeed.net/how-to-counter-malphite/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://www.op.gg/lol/champions/malphite/counters",
+      "result": "no-advice (conseils écrits côté Malphite)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Malphite/Strategy",
+      "result": "ok (page archivée, dernière édition 2024-12-16 : traitée > 2 ans, mécaniques seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Respecter la Force indomptable (R) dès le lvl 6, trade / dive quand elle est en CD (130/115/100 s)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (CD 130/115/100)"
+    },
+    {
+      "idea": "Attendre le Choc au sol (E, réduction de vitesse d'attaque) avant d'all-in",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E réduit la vitesse d'attaque, CD 7 s)"
+    },
+    {
+      "idea": "Éclat sismique (A) vole la vitesse 3 s : ne pas le chase après l'avoir pris",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (slow volé en vitesse pendant 3 s)"
+    },
+    {
+      "idea": "Éclat sismique (A) coûte 70-90 mana : s'il spam, il est vite à sec",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (coût 70/75/80/85/90)"
+    },
+    {
+      "idea": "Ne pas rester groupé en teamfight à cause du R de zone",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source (> 2 ans, mécanique) + DDragon (R : dégâts et knock-up des ennemis à l'arrivée du dash)"
+    },
+    {
+      "idea": "Être agressif avant le lvl 6 / ses items armure",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (Monster SSS 0:41), tip de lane = 2 sources ; lié aux items"
+    },
+    {
+      "idea": "Après ses items armure : short trades sur tes CD puis recule",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (Geishuu 5:11), lane"
+    },
+    {
+      "idea": "Pas besoin de le tuer quand tu es devant : farm et joue la map",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (Geishuu 6:31), macro"
+    },
+    {
+      "idea": "Ping ta team quand Malphite quitte la lane pour roam avec son R",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 seule source (Gaëthan 13:48, non listée), macro"
+    }
+  ]
+}

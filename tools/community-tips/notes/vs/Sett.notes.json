@@ -1,0 +1,135 @@
+{
+  "searches": 1,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Ignite, flash, conquer. So, that means he beats me level one, right? We look at his setup, he beats me level one.",
+    "[0] I waited out his shield.",
+    "[0] Nice. It's just all about kiting, right? Like I spaced him really well.",
+    "[0] But I know if I go into him, he's just going to E and then auto me twice and W and I'm just going to lose all my health.",
+    "[0] So, it's not worth you just have to kite really well and only go in once it's cool down.",
+    "[0] I mean, we played it really bad, but he wasted all his cool downs. Like, he ED before Wing, which is really big mistake uh from him.",
+    "[0] All right, he wasted his W. Now we just wait for him to walk up.",
+    "[1] However, he does lack mobility, and he does have to play around high cooldowns.",
+    "[1] Sett's W has a passive where he stores damage taken as grit on his resource bar. The active causes him to consume all of his grit to grant himself a shield, which scales with it.",
+    "[1] Then, he fires out a cone skill shot, and the damage of this scales with grit. And enemies hit by the center of this take true damage.",
+    "[1] Sett's E is a rectangular skill shot, which goes in front and behind him. Then, all enemies hit take damage and are slowed. And if he pulls an enemy from both sides, they're stunned instead.",
+    "[1] And this damage scales with the bonus health of the target he grabbed. So, grabbing a massive enemy tank and slamming them into the enemy team will one-shot people.",
+    "[1] For matchups, Sett can struggle against champions who can kite him and zone him.",
+    "[1] Sett's passive gives you a very strong level one and taking E allows you to engage on them to use this.",
+    "[1] When possible if you can walk past the opponent's minions using E to grab a minion and then will slam them together stunning them.",
+    "[1] However, if you do ever miss your E you need to play respectfully until that's back online.",
+    "[1] and if they ever push you under your own tower simply grab them with E and slam dunk them underneath it.",
+    "[2] The first is, of course, E plus W. If you time it well enough mashing W while you press your E, it is guaranteed that the center part of the W with no counterplay even if they have flash.",
+    "[2] Now, the next one is W plus flash. Using this to reposition the true damage on your W",
+    "[2] By bringing somebody under the tower is a really easy way to net solo kills with this combo.",
+    "[2] now it's really important to keep a mindset as one of the strongest level ones in the entire game.",
+    "[2] As you can see, level one I'm taking over this for straight away I'm playing to cheese him and now looking to zone experience from him.",
+    "[2] But, even though Sett is one of the strongest level one champions in the entire game, he does have one weakness, and that is everyone's favorite range top laners."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "zeW_u5iafOY",
+      "channel": "Ninkey",
+      "result": "utilisé (passages 0:13-0:34, 1:49, 1:59, 2:33, 3:07, 6:53 ; Gwen vs Sett)"
+    },
+    {
+      "id": "s_s_XCts4jE",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (passages 0:00-1:39, 2:05-2:42)"
+    },
+    {
+      "id": "3y3lqorZW_8",
+      "channel": "TF Blade",
+      "result": "écarté : recherche dans les sous-titres sans conseil exploitable contre Sett"
+    },
+    {
+      "id": "LtmHPJj_hcQ",
+      "channel": "Coach Chippys",
+      "result": "utilisé (passages 3:16-4:07, 4:19, 6:38-6:46)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Lvl 1 très fort, zone l'XP depuis le brush : pas de trade long au lvl 1",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Peu mobile : le kiter, les ranged le gênent",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "W : dégâts bruts au centre, se décaler vers un bord",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (true damage in the center, physical outside)"
+    },
+    {
+      "idea": "Grit : la jauge se vide vite, attendre la fin du bouclier / quelques secondes",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Grit decays quickly after the damage, shield decaying)"
+    },
+    {
+      "idea": "Punir quand il rate le E ou gaspille le W",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ne pas s'approcher de sa tour : E / R te ramènent dessous",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "E ne stun que des deux côtés : ne pas le laisser entre toi et tes minions",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (stun only if at least one enemy on each side)"
+    },
+    {
+      "idea": "R : dégâts selon les PV bonus de la cible attrapée, s'écarter de l'impact",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bonus Health damage, less damage further from landing)"
+    },
+    {
+      "idea": "Régénération qui augmente avec ses PV manquants",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: limite de 8 tips"
+    }
+  ]
+}

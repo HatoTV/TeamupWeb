@@ -1,0 +1,97 @@
+{
+  "searches": 3,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] While in dragon form, if the recast from W hits an enemy champion, Shyvana will heal and this heal is increased based on her missing health.",
+    "[0] The new R has a much longer range to it as you are able to traverse over even the thickest walls in the game. The old R would knock the enemies airborne but the new one is going to fear enemies in front of Shyvana for 1 second.",
+    "[0] So, Shyvana actually has the ability to look for early ganks now, but hard farming for six will still be your biggest priority.",
+    "[0] When ganking with Shyvana, it's very important to remember that her E no longer goes through minions or champions. So, if you're playing against a Shyvana, then sitting behind your",
+    "[0] Once you've motored through a few clears and reached your level six with Shyvana, your gank potential will be even more insane than before due to the fact that your R can go over every wall in the game.",
+    "[1] As a Shyvana, your job in early game is to full clear.",
+    "[1] Why do you want to full clear your first two clears almost always? Shyvana needs to get level six as soon as possible.",
+    "[2] First things first, what does Shyvana want? Shyvana wants to farm, and she needs to farm. She literally gets bonus armor and MR from killing camps.",
+    "[2] Second thing, Shyvana does not want to fight without ultimate. If you fight without R, you are screwing yourself.",
+    "[2] So, you don't fight early game, and when you have your ultimate and you use it and you get a kill, you don't keep fighting. You stop fighting after uh you use your ultimate.",
+    "[2] Now, your ultimate, whenever you hit anybody, you fear them. And it's a pretty big range. It can go over walls."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "AaxGnsw34P4",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "utilisé (passages 4:29, 6:11, 9:32-10:00, 11:19) ; guide post-rework (2026-03-18)"
+    },
+    {
+      "id": "m01FCNlqQLs",
+      "channel": "Coach Kirei",
+      "result": "utilisé (passages 2:03, 3:57)"
+    },
+    {
+      "id": "NU8dmYdW8wI",
+      "channel": "perryjg",
+      "result": "utilisé (passages 0:12-1:53)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Avant le lvl 6, Shyvana farme et évite les fights : la punir ou voler ses camps",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources ; passif Armure d'écailles (grands monstres) vérifié DDragon"
+    },
+    {
+      "idea": "R passe les murs, inarrêtable, fait fuir : vision sur les flancs dès le lvl 6",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (inarrêtable, Flee, portée 1050)"
+    },
+    {
+      "idea": "E hors forme de dragon explose sur le premier ennemi : rester derrière les sbires",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (explose au contact, transperce seulement en forme de dragon)"
+    },
+    {
+      "idea": "Kite pendant la forme de dragon (fin quand la fureur est vide), Shyvana ne veut pas combattre sans R",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (perte de fureur, fin de transformation)"
+    },
+    {
+      "idea": "Explosion du Z en forme de dragon soigne si elle touche un champion",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "Gank surprise depuis le tri-brush après le lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source (intégré seulement en « ward tes flancs » au tip R)"
+    },
+    {
+      "idea": "Menace de gank précoce plus forte (slow du E, vitesse du Z)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, contredit en partie par la priorité au farm"
+    }
+  ]
+}

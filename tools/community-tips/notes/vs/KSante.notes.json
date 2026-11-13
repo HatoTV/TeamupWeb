@@ -1,0 +1,94 @@
+{
+  "searches": 7,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] I'm just going to play for small CS leads cuz it's kind of hard to go for anything bigger against this champ.",
+    "[0] even though he's behind, if he gets a well-timed gank when I'm playing aggressive and he holds me backwards, he can do like so much damage himself and then his jungler just one shots me after. So, I'm more so just playing for like smart trades, plating and yeah, maybe some CS leads, pressure him on some CS, but like nothing too crazy.",
+    "[1] He wanted to hit a queue so bad, man. I've been sid pipping every Q for like 10 minutes now",
+    "[2] Casante is a useless champion. A useless useless champion outside of lane. He's just a very strong lane champ, man. He's so freaking powerful in laning phase."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "D5aw-z3l3D8",
+      "channel": "Viper",
+      "result": "utilisé (passage 11:57-12:12) : K'Sante très fort en lane, faible hors lane (passe précédente)"
+    },
+    {
+      "id": "3Q9vv07ul9A",
+      "channel": "Geishuu",
+      "result": "utilisé (passage 6:02-6:24) : esquive latérale de ses A (passe précédente)"
+    },
+    {
+      "id": "XyXsmw4eUnw",
+      "channel": "Dzukill",
+      "result": "utilisé (passages 4:15, 5:11-5:37), partie Yone vs K'Sante 0:00-12:56 ; bloqué à la passe précédente, sous-titres en-orig obtenus cette fois"
+    },
+    {
+      "id": "vjciRjWKD8A",
+      "channel": "Vallheim • League of Legends",
+      "result": "écarté : sous-titres fr obtenus mais commentaire de stream sans conseil exploitable (seulement des remarques sur les objets, interdits)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/ksante/counters",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-ksante/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/ksante/",
+      "result": "no-advice"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "K'Sante reste fort en lane même en retard : ne pas forcer, viser de petites avances de CS et de plates",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (Dzukill 4:15/5:11 + Viper 11:57)"
+    },
+    {
+      "idea": "Esquiver latéralement ses Coups de ntofo (A) ; à 2 stacks, le suivant étourdit et attire",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q : ligne courte, slow ; à 2 stacks onde qui stun et pull)"
+    },
+    {
+      "idea": "Avancé en lane, respecter les ganks : son Z et son R repoussent vers le jungler",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W : knockback + stun ; R : knockback)"
+    },
+    {
+      "idea": "K'Sante pèse peu hors lane : jouer le long terme",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source (Viper)"
+    },
+    {
+      "idea": "Sous Grand jeu, il perd ses résistances bonus : le punir",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: aucune source ; Dzukill 11:11 dit au contraire qu'il ne prenait pas de dégâts en forme ult"
+    },
+    {
+      "idea": "Son Z peut te ramener sur un TP / un CS (Vallheim 4:47)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: sous-titres confus, 1 source écartée"
+    }
+  ]
+}

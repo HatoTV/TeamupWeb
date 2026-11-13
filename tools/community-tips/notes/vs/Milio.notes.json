@@ -1,0 +1,94 @@
+{
+  "searches": 4,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Cuz the thing about Milio is that you have to stay close enough to your team that you can cleanse them out of the Amumu ult without getting caught by the Amumu ult yourself, cuz obviously you can't ult when you're stunned.",
+    "[0] I think Milio is a really really good champion to lock in when they don't have any like hardcore all in anything like a uh Blitzcrank Draven anything that's going to like reposition you like a Pyke.",
+    "[1] Remember that if Milio gets CC'd, he won't be able to use his ult, which would most likely result to your win.",
+    "[1] Milio's only defensive skill early game is his Q. This is also his only poke skill. Try to go all in to get a kill if you see that the enemy Milio misses their Q.",
+    "[1] He won't have a skill to counter engage if he misses this. Remember that Milio's Q has a fixed 12-second cooldown.",
+    "[1] These areas will usually force both teams to be grouped up and Milio excels whenever his allies are together. Milio's W is AoE healing plus AoE additional attack range.",
+    "[1] If Milio uses his ult and hits his entire team, it will decrease your chances of winning the fight by a big margin"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "owqZu2bnMc8",
+      "channel": "Olleh",
+      "result": "écarté : recherche dans les sous-titres sans conseil contre Milio"
+    },
+    {
+      "id": "ND838sX8FaU",
+      "channel": "PlayWithBlaire",
+      "result": "utilisé (passages 1:10-2:41), plus de 2 ans (2023-03-30) : mécaniques vérifiées DDragon seulement"
+    },
+    {
+      "id": "oDkdlBKFGMA",
+      "channel": "i0ki",
+      "result": "utilisé (passages 0:42, 16:17)"
+    },
+    {
+      "id": "L7PLnp-952k",
+      "channel": "Joeyyylol",
+      "result": "écarté : recherche dans les sous-titres sans conseil contre Milio"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/milio/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://op.gg/lol/champions/milio/counters/support",
+      "result": "no-tips"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Milio/Strategy",
+      "result": "refused (404)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "CC Milio avant son R : stun, il ne peut pas purifier ses alliés",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R purifie les effets d'immobilisation des alliés proches)"
+    },
+    {
+      "idea": "Q est son seul CC : engage quand il la rate, CD 10 s",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (seul sort à repousser ; CD 10 s à tous les rangs, la vidéo disait 12 s : valeur DDragon retenue)"
+    },
+    {
+      "idea": "Combattre loin de Milio / isoler les carrys : R ne touche que les alliés proches",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R affecte les alliés proches, portée 700)"
+    },
+    {
+      "idea": "Les supports d'engage / all-in (Blitzcrank, Pyke) battent Milio en lane, lvl 2 faible",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane, la seconde source a plus de 2 ans"
+    },
+    {
+      "idea": "Jouer les buissons et retirer ses wards",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source de plus de 2 ans, pas une mécanique"
+    }
+  ]
+}

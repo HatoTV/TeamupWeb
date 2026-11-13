@@ -1,0 +1,111 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] So he doesn't have flash, but one way he can stop me from killing him is is his wall. I need to get his walls on cool down. So I need to get one small trade with him and then I need to look for an all-in.",
+    "[0] His walls are down. I can look here fight him with this Q3 away from maiden eat the tower shot.",
+    "[0] Going to play around our minions here. He wasted his E. Should be okay.",
+    "[0] Basically, whoever has the wave closer to their tower kind of controls the trades a little bit more.",
+    "[1] You can attack Dark Procession to break the wall down. But Champions with dashes and teleports are more easily able to escape.",
+    "[1] Try to thin out Yorick's minions before you engage him, Mist Walkers will die from a basic attack or a single target spell."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Ljhes2INONk",
+      "channel": "Aatreus",
+      "result": "utilisé (passages 4:34, 7:45, 8:12)"
+    },
+    {
+      "id": "WjfYFLXOK1Y",
+      "channel": "Sloppy Walrus",
+      "result": "écarté : seulement « les goules meurent en une auto au lvl 1-2 » (2:33), pas de 2e source récente"
+    },
+    {
+      "id": "qBWnKk9VMQ4",
+      "channel": "Kampsycho",
+      "result": "écarté : point de vue Yorick, rien d'utilisable dans la recherche"
+    },
+    {
+      "id": "r-J-Cj7jfUg",
+      "channel": "foggedftw2",
+      "result": "écarté : conseils centrés sur un objet (interdit)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/yorick/counters",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-yorick/",
+      "result": "404"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/yorick/",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick/Strategy",
+      "result": "ok"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Faire sortir le mur (Z) avec un short trade puis all-in",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 20/18/16/14/12, mur qui bloque les ennemis)"
+    },
+    {
+      "idea": "Trade quand Yorick rate son E (pas de marque, pas de bond des goules ni réduction d'armure)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E marque, réduit l'armure, goules bondissent sur la cible marquée)"
+    },
+    {
+      "idea": "Combattre loin de la Vierge (R)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (la Vierge marque, Yorick inflige des % PV max à sa cible)"
+    },
+    {
+      "idea": "Taper le mur pour le casser",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (le mur a des PV, destructible)"
+    },
+    {
+      "idea": "Tuer les goules avant d'engager (une auto au lvl 1-2)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: wiki non daté (> 2 ans) + Sloppy Walrus (vidéo non listée), PV des goules non vérifiables dans DDragon"
+    },
+    {
+      "idea": "La wave proche de ta tour te donne le contrôle des trades",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: tip lane, 1 seule source"
+    },
+    {
+      "idea": "Champions globaux contre le split push avec la Vierge",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: macro, source > 2 ans"
+    }
+  ]
+}

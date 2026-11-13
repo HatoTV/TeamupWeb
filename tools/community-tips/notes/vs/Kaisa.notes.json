@@ -1,0 +1,130 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Ça veut dire que s'il y a plusieurs targets donc dans la zone qui est ici, bah ça va séparer le queue. Donc forcément, il fera moins de dégâts.",
+    "[0] notre but ça va être de venir isoler nos targets si on peut avec le c Evolve parce que ce que va faire extrêmement de dégâts",
+    "[0] Donc on a dit tout à l'heure que ça faisait six missiles. Là il y en aura le double et donc les dégâts sont très très très puissants.",
+    "[0] Donc c'est un gros changement dans K dès que vous avez le Q évolué. C'est vraiment un gros gros spike pour pour Kaisa.",
+    "[0] Alors ce qui est important de comprendre aussi c'est que ça prend sur les CC, d'accord ? Donc typiquement si vous avez un hook de Noutilus, ça prend une marque",
+    "[0] Et là cette personne est revil pendant 4 secondes, ce qui est vraiment beaucoup",
+    "[0] parce qu'en fait K ça en line c'est vraiment faible vraiment vraiment faible et normalement elle est pas censé avoir d'outil pour pouvoir stomper une line",
+    "[0] juste le seul danger c'est vraiment le very early. Vous êtes très faible mais après c'est tout droit",
+    "[0] Parce que Kaisa a peu de push power un petit peu qu'avec son que mais moins qu'un Jean, moins qu'un, moins qu'une Klin et cetera. Et donc c'est pas un strong liner.",
+    "[0] Maintenant, vous scalez excellemment bien et level 6, vous êtes très très puissant.",
+    "[1] I think the first few levels on Kaiser before six are very weak and you can catch a lot of like players off guard with the elixir of force and go for allins with your ulti.",
+    "[1] However, it is ideal to like make it isolated. So like if you want to position if you want to kill this guy, you want to position it so it isolates onto this guy only",
+    "[1] So, the R activates also whenever they have a plasma on them, you're able to R to them. So, like your teammate CC and stuff like that. Exactly. Yeah. So your teammate CC or your W, that's how you R to someone.",
+    "[1] very weak early game, very weak laning in most matchups. Um, and it's all about really minimizing on this these early few levels.",
+    "[1] Like you're just going to be getting pushed in early and trying to survive? Essentially, yeah",
+    "[1] So when you get Q evolve, you can just like it it's a it's just a major power spike. It makes Kaiser like insanely strong with these like dual isolated duels and stuff like that.",
+    "[1] I didn't know Kaiser's alt. Kais alult is on a very long cool down."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "3LxH7QOgsU4",
+      "channel": "Booshi",
+      "result": "utilisé (PRO GUIDE, passages 3:00-4:48, 10:49, 30:17, 50:27, 54:49)"
+    },
+    {
+      "id": "XnigXEG2xxI",
+      "channel": "Reptile9LoL",
+      "result": "écarté : gameplay support commenté sans conseil exploitable contre Kai'Sa"
+    },
+    {
+      "id": "3seUR88FxhA",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (passages 13:56, 26:22, 29:21, 34:39, 46:59, 1:00:42, 1:01:46)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Son A se répartit entre les cibles proches : reste près des sbires",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q split among nearby enemies)"
+    },
+    {
+      "idea": "Son R exige une marque de Plasma (Z ou CC allié) : esquive le Z, évite les CC",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R: enemy champion affected by Plasma; allies' immobilizing effects stack Plasma)"
+    },
+    {
+      "idea": "A évolué = gros spike, éviter les duels isolés",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Living Weapon: more missiles) ; nombre exact non affiché en DDragon, donc non cité"
+    },
+    {
+      "idea": "Très faible avant le lvl 6 : trade et all-in tôt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Peu de push en early : la pousser sous sa tour",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Respecter le lvl 6 (all-in avec le R)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "R à très long CD : fenêtre pour punir",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 130/100/70, seul dash du kit)"
+    },
+    {
+      "idea": "Z révèle la cible touchée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (True Sight du premier ennemi touché) ; durée de 4 s non vérifiée, donc non citée"
+    },
+    {
+      "idea": "E évolué : arriver invisible avec le R",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, interaction R+E non vérifiable en DDragon"
+    },
+    {
+      "idea": "Elle craint la range et le disengage",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil de draft plus que de jeu"
+    }
+  ]
+}

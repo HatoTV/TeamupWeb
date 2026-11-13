@@ -1,0 +1,152 @@
+{
+  "searches": 10,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] [Mysteriaslol dUaznQF5iRc 03:42] if she can plant her Q onto this, she can even miss it and then by a recast, she can drag it through us",
+    "[0] [Mysteriaslol dUaznQF5iRc 04:36] the moment her Q's down, 7 seconds cool down, it's very easy for us to now pressure and push her away in the lane",
+    "[0] [Mysteriaslol dUaznQF5iRc 01:41] She's going to try to time her spells with your last hits or with your out techs cuz that's when you're standing still",
+    "[0] [Mysteriaslol dUaznQF5iRc 06:18] Aurora's ult is an ability that actually slows and because of that reason it makes it very easy for her to then all in you",
+    "[0] [Mysteriaslol dUaznQF5iRc 07:09] Her E is always the spell that she can use to then trade onto you and then escape afterwards because you can't really ever get close to her because you get slowed and she she dashes away.",
+    "[0] [Mysteriaslol dUaznQF5iRc 00:58] her W, which good Aurora players will use in a very high value way that they use it to dodge a spell and then get close to you",
+    "[1] [Whispering Blade 6PBXAz1fMNo 02:16] She missed her Q, right? I'm going to go get this. Her Q is down, right?",
+    "[1] [Whispering Blade 6PBXAz1fMNo 04:16] she usually auto attack and then throw Q immediately. So the moment you throw attack, either run away or try to dodge it",
+    "[1] [Whispering Blade 6PBXAz1fMNo 04:44] I will trade for electric. I will do more damage cuz she she already used her E, right?",
+    "[1] [Whispering Blade 6PBXAz1fMNo 04:52] Make sure you dodge her Q. Her Q I think is most of damage.",
+    "[1] [Whispering Blade 6PBXAz1fMNo 08:18] doesn't have any stun or any any ability to stop you from pressing Q."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "dUaznQF5iRc",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 0:58-1:41, 3:21-4:47, 6:06-7:32, 8:15-8:36), publié 2026-08-03 (passe précédente)"
+    },
+    {
+      "id": "E0GmR8EAUP4",
+      "channel": "Peng",
+      "result": "écarté : passe de complétion, aucune piste en-orig ni en (pas de sous-titres anglais) ; guide du point de vue d'Aurora ; n'a rien livré, non compté"
+    },
+    {
+      "id": "44hkj9hvl_I",
+      "channel": "rebrrt",
+      "result": "écarté : guide des matchups du point de vue d'Aurora, aucun conseil pour jouer contre elle (passe précédente, compté)"
+    },
+    {
+      "id": "l8vZCDhT9JE",
+      "channel": "Coach Chippys",
+      "result": "écarté : déjà utilisée par 3 fichiers vs, interdite (passe précédente, compté)"
+    },
+    {
+      "id": "6PBXAz1fMNo",
+      "channel": "Whispering Blade",
+      "result": "utilisé (passages 2:16, 4:01-4:52, 8:00-8:18), publié 2026-11-09, Talon vs Aurora mid commenté"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://leaguefeed.net/how-to-counter-aurora/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/aurora/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://op.gg/lol/champions/aurora/counters",
+      "result": "stats-only"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Sortilège (E) : slow + saut arrière, outil de trade/fuite ; engage pendant son CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (slow, hop backwards, CD 15/14/13/12/11)"
+    },
+    {
+      "idea": "Maléfice (A) raté : fenêtre de 7 à 9 s pour trade et la repousser",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (CD 9/8.5/8/7.5/7 vérifié)"
+    },
+    {
+      "idea": "Elle lance le A quand tu es figé (last hit / auto) : bouge juste après",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Le retour du Maléfice (A) traverse tout : pas entre elle et un minion maudit",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (recast tire les malédictions et touche les ennemis traversés)"
+    },
+    {
+      "idea": "Derrière le voile (Z) : saut + invisibilité pour esquiver et se rapprocher",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (hop, invisible, move speed)"
+    },
+    {
+      "idea": "Lvl 6 : R slow à l'atterrissage, zone qui slow en sortie, all-in",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (slow à l'impact, slow en entrée/sortie de zone)"
+    },
+    {
+      "idea": "Pas de CC dur (seulement des slows) : elle ne coupe pas ton combo",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (aucun stun/root/knock-up dans le kit, seulement des slows E et R)"
+    },
+    {
+      "idea": "Ignore-la après l'early, push et roam bot",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 source (et conseil propre à Talon)"
+    },
+    {
+      "idea": "Placé du côté opposé de la wave par rapport à elle",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 source"
+    },
+    {
+      "idea": "Méfie-toi en side lane : mobile, prépare les ganks de son jungler",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 source"
+    },
+    {
+      "idea": "Ne lui donne pas d'avance early : champion de snowball, faible en retard",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 source"
+    }
+  ]
+}

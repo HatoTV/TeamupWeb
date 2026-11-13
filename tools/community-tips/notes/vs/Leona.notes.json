@@ -1,0 +1,112 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] You are never going to hit a E or the the it's super difficult to hit one ability if you are do it when they see you. If you do it from a bush is way easier. So she should use the east from the bush or after for example Ezra dashes.",
+    "[0] you should never level up anything because maybe you can Q flash as well, right? Q Flash is also very strong and it just depends.",
+    "[0] The starting point from Leona while getting level two should be like at least this area, right? This area here or this area here. She should be get level two. And now she should go because the enemy is like far away from level two right now.",
+    "[0] This is one of the most common mistakes like in silver gold is not utilizing the level two correctly because they are missing a lot of windows of opportunity to punish and and snowball and get a lead, right?",
+    "[1] It is a little tough level one cuz she can do all this and I can't really shoot her back. But starting level two, we are just looking for straight up allins",
+    "[1] ornament in lane level one, but we go from being an ornament to being the literal strongest champion in the game at level two.",
+    "[2] first up dodges xena's blade this is by far the most obvious and the most important of the lot especially in the lane phase 36 lunar will need to land this ability to get on you and stun you",
+    "[2] leona's w gives her damage reduction and resistances so attacking her during this period isn't that effective she can also use this to advantage when taking turret hits try to wait for this ability to timeout before focusing here",
+    "[2] abuse her ability downtime if leona has mr e she can't really get you without flashing try to punish her or eddie carrie as much as you can in this window",
+    "[2] spread out in team fights leon is always looking for a big aoe ultimate in fights so don't stack up too closely and try to be prepared for her inevitable engage"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "jCGf0-wUXn0",
+      "channel": "Mobalytics",
+      "result": "utilisé (passages 1:15-2:10) ; vidéo de 2021 (> 2 ans) : ne soutient que des mécaniques vérifiées dans Data Dragon"
+    },
+    {
+      "id": "jAhen3xYur0",
+      "channel": "Coach K",
+      "result": "utilisé (passages 8:19, 11:57-12:16, 16:14), recherche par mots-clés dans un live de 3 h 11 (point de vue Leona)"
+    },
+    {
+      "id": "Pg159Lvfjw0",
+      "channel": "Dogbit",
+      "result": "écarté : gameplay commenté sans conseil exploitable contre Leona"
+    },
+    {
+      "id": "N94k80JgCvM",
+      "channel": "i0ki",
+      "result": "utilisé (passages 1:11, 1:58) ; reste = gameplay sans conseil exploitable"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://leaguefeed.net/how-to-counter-leona/",
+      "result": "refused (404, URL devinée)"
+    },
+    {
+      "url": "https://dignitas.gg/articles/how-to-lane-versus-leona",
+      "result": "refused (500, URL devinée)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Garder son dash pour esquiver la Lame du zénith (E), Leona attend qu'il soit utilisé",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E = skillshot en ligne, root + dash sur le dernier champion touché)"
+    },
+    {
+      "idea": "E = seul gap closer ; E raté -> elle a besoin de Flash + A, punir pendant le CD",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (seul dash = E, A portée 100 au corps à corps, CD E 12-6 s)"
+    },
+    {
+      "idea": "Leona faible lvl 1, gros all-in au lvl 2 : suivre la course au lvl 2",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes (lane)"
+    },
+    {
+      "idea": "Éclipse (Z) : réduction de dégâts + armure/RM, ne pas la focus pendant",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (réduction de dégâts fixe, armure et RM bonus)"
+    },
+    {
+      "idea": "Éruption solaire (R) : stun au centre, slow sur les bords, s'écarter en teamfight",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (stun au centre, slow à l'extérieur)"
+    },
+    {
+      "idea": "Warder les buissons de lane : son E est bien plus facile à placer depuis le brouillard",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: tip lane, 1 seule source récente (Mobalytics > 2 ans, non vérifiable dans DDragon)"
+    },
+    {
+      "idea": "Punir l'ADC quand Leona roam après le lvl 6",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: macro, Mobalytics > 2 ans ne compte pas, 1 seule source récente"
+    }
+  ]
+}

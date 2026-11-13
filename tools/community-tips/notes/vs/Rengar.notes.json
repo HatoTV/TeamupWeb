@@ -1,0 +1,112 @@
+{
+  "searches": 5,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] As he gets four stacks, instantly presses ultimate and see what's popping.",
+    "[0] The moment he has four stacks, instantly pressing al mid lane to see if he's on mid lane and then if he would be showing mid lane, he could just do the empowered bola",
+    "[0] Now his four ferocity stacks and as the enemy team uses other spells literally he now presses WW full HP",
+    "[0] he's very confident walking in because he has empower W and negates all the damage.",
+    "[0] he knows that if enemy team uses the burst, he stacks his conqueror and he can play a bit slow with bushes, trust me, he's going to cook people.",
+    "[0] Ranger here is chilling in a bush.",
+    "[0] look, he was forced to use his ultimate here. There's a fight here. He was seeing if he could cook something up. He sadly could not cook something up.",
+    "[0] So now Renar's like, I cannot do anything.",
+    "[1] Il y a Rengar qui va ulti. Non mais ça c'est trop loin, c'est sous tour frérot.",
+    "[1] Ils ont utilisé ulti Rengar, ulti euh Galio et le Zhonya. Donc, autant vous dire que c'est free win hein parce que mon Twitch il va tuer tout le monde."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "64aTVeoFBV4",
+      "channel": "Mad Scientist",
+      "result": "écarté : partie Shaco, commentaire surtout sur son build et ses invades, rien de propre à jouer contre Rengar (compte dans les 4)"
+    },
+    {
+      "id": "hxoQqKxeoBs",
+      "channel": "Embrace Agony ♥",
+      "result": "écarté : aucun sous-titre en-orig (pas de voix commentée), compte dans les 4"
+    },
+    {
+      "id": "hycw13QMtpI",
+      "channel": "Kalianos",
+      "result": "utilisé (passages 17:24, 23:34) ; idée invade lvl 1 au red non retenue (1 source)"
+    },
+    {
+      "id": "NI2I_jO-NG8",
+      "channel": "Coach Kirei",
+      "result": "utilisé (passages 4:24-4:50, 9:00, 11:13-12:07, 19:07-19:21, 21:26)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/rengar/counters",
+      "result": "no-tips (conseils écrits pour jouer Rengar, pas contre)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/rengar/",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Rengar/LoL/Strategy",
+      "result": "404"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Après un R de Rengar gâché sans kill, forcer le fight / l'objectif",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (CD R 100/90/80 vérifié)"
+    },
+    {
+      "idea": "Rengar lance R dès Férocité max : attendre des Bolas renforcées qui immobilisent",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Férocité max renforce la compétence suivante, E renforcé = root, R camoufle et permet le bond)"
+    },
+    {
+      "idea": "Z renforcé soigne une partie des dégâts récents et retire les CC : ne pas vider burst/CC trop tôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W : soin d'un % des dégâts subis récemment, renforcé = cleanse des CC)"
+    },
+    {
+      "idea": "Hors R, Rengar ne bondit que depuis un buisson : vision sur les brushs",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : bond depuis les hautes herbes ; R : bond quand camouflé)"
+    },
+    {
+      "idea": "Rengar commence souvent au red : invade lvl 1 si ton jungler gagne le 1v1",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, macro"
+    },
+    {
+      "idea": "Rester groupé et peel son carry : Rengar attend qu'un allié s'isole",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, macro"
+    },
+    {
+      "idea": "Sans stacks de Férocité, Rengar est beaucoup plus faible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: reset de la Férocité non vérifiable dans DDragon"
+    }
+  ]
+}

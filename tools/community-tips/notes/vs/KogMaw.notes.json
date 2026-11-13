@@ -1,0 +1,126 @@
+{
+  "searches": 4,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] W timing is everything. Don't use it on cool down. You need to think carefully about when exactly you need to press it. If you use it, let's say when the enemy ADC is already staying out of your range, they will just see your W and wait out their duration.",
+    "[0] You have to not let her go in while your W is on cool down. So, play safe during that down time. If you have your W, you can try to fight her and you will win all.",
+    "[1] If I have no W, I can't walk up.",
+    "[1] I think he's just waited out my W killing G and he's all in me.",
+    "[0] When Corgmo dies, he speeds up and you can run at someone and they deal huge amount of true damage with explosion.",
+    "[0] Even in the early game, if someone dives you under the turret or win so, you almost always trade one for one or get their summoners.",
+    "[0] Your ultimate is a long range poke that doubles in damage against the low HP targets. Every cast costs more mana than the last, so you can't just use R endlessly.",
+    "[0] If enemy is below 40% HP, make sure to use it every time it costs 40.",
+    "[0] Your ultimate range also increases with levels. It is insanely large on level 16.",
+    "[0] The most important one is that you can check any bushes in case enemy tries to ambush you. If you hit them, you reveal them for two seconds",
+    "[0] the special feature of E is that it will not do much if you stand perpendicular to the enemy. they will get through it pretty quickly. But if you stay parallel to them and cast it, they won't be able to reach you at all.",
+    "[0] Q gives you two things, passive bonus attack speed and a shred of enemy armor and MR."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "yK-8PBK--7o",
+      "channel": "Armasot",
+      "result": "utilisé (passages 1:42-7:20, 12:58-15:18), guide Kog'Maw du 2025-09-28"
+    },
+    {
+      "id": "ylcODSaDP7g",
+      "channel": "Eneino Coach",
+      "result": "écarté : recherche dans les sous-titres sans conseil utile contre Kog'Maw (VOD du point de vue de Kog'Maw, build)"
+    },
+    {
+      "id": "n1J9-zV5xls",
+      "channel": "xFSN Saber",
+      "result": "utilisé (passages 5:08-5:22, 16:11-16:23), vidéo du 2025-05-29"
+    },
+    {
+      "id": "bpxXtjAV8yw",
+      "channel": "Ekkosuna VOD",
+      "result": "écarté : pas de commentaire (seulement les répliques du jeu traduites)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/kogmaw/counters/adc",
+      "result": "no-tips (conseils seulement pour jouer Kog'Maw)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/kogmaw/",
+      "result": "404"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Attendre la fin du Z hors de portée, engager quand il est en CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "S'éloigner après l'avoir tué : explosion du passif 4 s après la mort, dégâts bruts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : explose 4 s après la mort, dégâts bruts)"
+    },
+    {
+      "idea": "Sous 40 % PV, rester loin du R (dégâts max, portée 1300/1550/1800)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip R : sous 40 % PV dégâts max ; rangeBurn)"
+    },
+    {
+      "idea": "Le R révèle 2 s : un buisson ne protège pas",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (révèle les ennemis touchés 2 s)"
+    },
+    {
+      "idea": "Traverser la traînée du E perpendiculairement pour limiter le slow",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (slow seulement dans la traînée)"
+    },
+    {
+      "idea": "Q réduit armure/RM et s'arrête sur la première cible : rester derrière les minions",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (shred armure/RM, premier ennemi touché)"
+    },
+    {
+      "idea": "R enchaînés coûtent plus de mana : bait plusieurs tirs",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (coût additionnel des tirs suivants)"
+    },
+    {
+      "idea": "Vitesse de déplacement du passif qui monte de 10 % à 50 %",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped : non vérifiable dans DDragon (description du passif sans vitesse)"
+    },
+    {
+      "idea": "Yasuo garde la wave près de sa tour, Twitch gagne les all-in après le lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped : 1 seule source, propre à un matchup, point de vue de Kog'Maw"
+    }
+  ]
+}

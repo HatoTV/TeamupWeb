@@ -1,0 +1,105 @@
+{
+  "searches": 3,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] You also clear faster than Amumu. Pretty important.",
+    "[0] I got a nice little invade. And after this invade, you could always kind of like eyeball the top wave or the top lane state.",
+    "[0] So if he tries to like walk up and Q, I could hide behind the scuttle, smite it, and then it forces him to queue on me.",
+    "[0] Tank a lot on this guy because I know he's got no ulti. I just can get all my damage off there.",
+    "[1] Amumu is not an is champion you want to necessarily look for anything for in the early game.",
+    "[1] level five with a recall before you start to become like strong enough to be able to win fights and stuff. So that's why I always play like safe early raptor start least likely to be invaded.",
+    "[1] We're going to clear these two botside camps. Wait for the ulti to be back and we are good.",
+    "[1] you see how much damage you're doing like the W the like overall damage output is completely crazy. I nearly just one shot the Scion",
+    "[1] I was holding aggro over the minions right there. So, I just reduce the cool down of my E so I could spam it more. Always when you're like having aggro of a minion wave like that is ideal.",
+    "[1] Can't chase that because of all these minions. I can't hit a Q. Have to wait for the next minion wave",
+    "[2] The E gives us physical damage reduction. Deal damage around us. And then whenever you get auto attacked, then it reduces the cool down of that E.",
+    "[2] the early game here, we're going to clear all of our camps and then we'll look for some plays afterwards. We don't have to do anything actively."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "IxvH0swV_OE",
+      "channel": "Karasmai",
+      "result": "utilisé (passages 3:11, 4:13, 13:08, 16:28)"
+    },
+    {
+      "id": "Dc33TpyGzTg",
+      "channel": "Fz Frost",
+      "result": "utilisé en en-orig (passages 1:40-1:50, 6:53, 16:46, 12:34, 17:06-17:58, 18:14, 23:37) ; piste fr écartée (doublage/traduction automatique, voix anglaise)"
+    },
+    {
+      "id": "jYG4pm-QFf0",
+      "channel": "Kireilol",
+      "result": "écarté : aucun passage utile pour jouer contre Amumu"
+    },
+    {
+      "id": "TrjW0BVDPRA",
+      "channel": "Sawyer Jungle",
+      "result": "utilisé (passages 0:39, 0:51)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Amumu passif en early, fort vers lvl 5-6 : l'invade / prendre les scuttles",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Le A s'arrête sur le premier ennemi : rester derrière les sbires / un monstre",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Bandage Toss: first enemy hit)"
+    },
+    {
+      "idea": "Les autos reçues réduisent le CD du E, qui réduit les dégâts physiques : ne pas le laisser tanker la wave",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Tantrum passive + CD reduction on hit)"
+    },
+    {
+      "idea": "Forcer fights/objectifs quand le R d'Amumu est en CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources ; CD 150/125/100 vérifié DDragon"
+    },
+    {
+      "idea": "Le Z brûle des % PV max par seconde : ne pas rester collé en tank",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Despair: % max Health each second to nearby enemies)"
+    },
+    {
+      "idea": "Amumu garde son A en gank : ne pas gaspiller son dash tant qu'il l'a (2 charges)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil de lane non entièrement vérifiable dans DDragon"
+    },
+    {
+      "idea": "Se disperser en teamfight contre R + Flash",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil non entièrement vérifiable dans DDragon"
+    }
+  ]
+}

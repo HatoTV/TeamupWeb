@@ -1,0 +1,189 @@
+{
+  "searches": 3,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] His blind will completely disable your damage.",
+    "[0] Don’t fight with Teemo if your main source of damage are basic attacks.",
+    "[0] Wait for Teemo to use his Blinding Dart before going all-in on him.",
+    "[0] If you engage while he has his Q, he will just completely negate your combo and will deal massive damage to you.",
+    "[0] If Teemo stands still for 1.5 seconds, he will gain a stealth.",
+    "[0] Teemo’s W (Move Quick) has a long cooldown.",
+    "[0] Stay away from the brushes because Teemo will almost always place mushrooms inside of them.",
+    "[0] When you’re chasing Teemo, don’t follow his exact patch because he’s probably baiting you to his mushroom farm.",
+    "[0] Freeze the minion waves right in front of your turret.",
+    "[0] If you’re forced under your tower, just try to last hit your minions and wait for your jungle.",
+    "[1] Blinding Dart means Teemo wins any pure auto duel, so do not offer one.",
+    "[1] Trade with spells and shove him under tower.",
+    "[1] The blind makes auto duels unwinnable.",
+    "[1] Damage from an enemy champion disables its passive increase for five seconds.",
+    "[1] It cannot end that active burst, so wait through its three seconds.",
+    "[1] Walk where your minions have already walked, and when he goes missing, assume the stealth, never a recall.",
+    "[1] Toxic Shot only travels on swings, and four actions of yours book one of his.",
+    "[2] He can react with blind. Yep. Okay. Well, he doesn't have blind anymore.",
+    "[2] No, I'm going to flash E on him. Not not Q cuz he would blind me.",
+    "[2] I was like, where would I stand if I go invisible here with Temo? Probably the first bush",
+    "[3] I should be able to go invis in the bush. Um and they can't reveal me.",
+    "[3] We use a shroom here on the wave to push it in quickly. And we'll drop a shroom here in the bush as well."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "qsiNQLI90KU",
+      "channel": "Erislash",
+      "result": "utilisé (3:01-3:10, 11:42) ; 2025-07-03"
+    },
+    {
+      "id": "tg7doJvPxQQ",
+      "channel": "Purpletroll56",
+      "result": "écarté : aucun sous-titre en-orig (pas de voix), rien obtenu ; compté comme ouvert"
+    },
+    {
+      "id": "Z86RdWK4P3s",
+      "channel": "RamyAura",
+      "result": "utilisé (6:05, 16:36) ; 2026-09-12 ; point de vue Teemo"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://leaguefeed.net/how-to-counter-teemo/",
+      "result": "ok (2022-05-10, > 2 ans : mécaniques DDragon seulement)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/classic/counter/teemo/",
+      "result": "ok (publié 2026-07-13, mis à jour 2026-08-12)"
+    },
+    {
+      "url": "https://dignitas.gg/articles/blogs/League-of-Legends/2808/How-to-Counter-Teemo-in-Top-Lane",
+      "result": "ok mais 2013 et centré Ryze : aucune idée retenue, non listé"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Le blind de la Fléchette aveuglante (A) annule les autos : trade avec tes sorts",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (A aveugle la cible)"
+    },
+    {
+      "idea": "Teemo invisible immobile, mobile camouflé en brush : suppose qu'il est proche",
+      "sourceIdx": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "4 sources + DDragon (passif Guérilla)"
+    },
+    {
+      "idea": "Attendre que le A soit utilisé avant d'all-in (7 s de CD)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD 7 s à tous les rangs)"
+    },
+    {
+      "idea": "Le bonus de vitesse passif du Z saute quand un champion inflige des dégâts",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip : perdu si dégâts d'un champion ou d'une tour ; durée non chiffrée dans DDragon, non citée)"
+    },
+    {
+      "idea": "Le sprint actif du Z n'est pas stoppé par les dégâts : attendre la fin",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip : not lost when struck ; durée non chiffrée, non citée)"
+    },
+    {
+      "idea": "Z utilisé = 14 s de CD, fenêtre pour engager",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 14 s à tous les rangs)"
+    },
+    {
+      "idea": "Champignons camouflés, slow + révélation, souvent dans les brushes : marcher sur le chemin des sbires",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (pièges camouflés, ralentissent, révèlent)"
+    },
+    {
+      "idea": "Tir toxique (E) uniquement sur les autos",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: vérifié DDragon mais phrase source confuse et peu utile"
+    },
+    {
+      "idea": "Trade avec tes sorts puis push Teemo sous sa tour",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (lane)"
+    },
+    {
+      "idea": "En poursuite, ne suis pas son chemin exact : il t'attire sur ses champignons",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (source > 2 ans, non vérifiable dans DDragon)"
+    },
+    {
+      "idea": "Évite les brushes, Teemo y pose ses champignons",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "fusionné dans le conseil des Pièges nocifs (R) (RamyAura + rankedboost)"
+    },
+    {
+      "idea": "Freeze la wave devant ta tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (lane, source > 2 ans)"
+    },
+    {
+      "idea": "Forcé sous tour : last hit et attends ton jungler",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (macro, source > 2 ans)"
+    },
+    {
+      "idea": "Garde la wave au milieu plutôt que de la push contre Teemo",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (lane ; contredit en partie rankedboost « shove him under tower »)"
+    },
+    {
+      "idea": "Lvl 1, Teemo peut t'attendre caché dans un brush de la lane",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (lane)"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] the main thing you need to learn is how to use the edge of your W. Because if you EWQ, your character will be on the edge of it.",
+    "[0] Even when I'm playing a mele champ like Jax or Renekton, they're going to be on the edge of their W hitting me and like you can't auto them.",
+    "[0] like 100 to zero trades with your all in them at six",
+    "[0] Gwen and Kale play refuse to group until level 16.",
+    "[0] Is Is Gwen an item reliant champion? Yeah, I would say.",
+    "[1] You can't really fight early game as much.",
+    "[1] So like for example, against Jax, you need your Q stacks, you need to hold them at all times, and that just allows you to play the lane without getting all in.",
+    "[1] Level six, you unlock your old, which is pretty strong in 1v1s, especially if you get a level up timer on them where you're level six and they're not. That's going to be your best timer to all-in.",
+    "[1] For your overall plan for top lane, you pretty much just want to play safe in lane.",
+    "[1] And just try to keep your wave frozen close to your tower. That's Gwen's best spot to play in because you can queue them and most melee champs you will outrange with your Q.",
+    "[1] But ideally, you're literally just going to be farming, side laning, never really group until two to three items at the very least.",
+    "[1] You need to get as much gold as possible because Gwen without gold is literally a useless champion.",
+    "[2] L'un des meilleurs combos de Gwen [...] va être le ZQ. Vous allez Z, EQ. L'avantage de ce combo, c'est qu'en fait quand vous dasz, votre dash vous met automatiquement au bord du Z sans vous en faire sortir.",
+    "[2] je peux taper sans être par le mec en face.",
+    "[2] Le R de Gwen slow de 60 %. Sauf que ce slow ne fonctionne que sur la première aiguille qu'une cible se prend.",
+    "[2] Donc celui qui envoie les cinq aigu qui fait plus de dégâts",
+    "[2] Ce que vous pouvez faire ici par exemple, ça va être votre zone et dash à travers le mur et vous retrouvez au bord. [...] je suis dans la zone, mais les ennemis peuvent pas rentrer là. C'est beaucoup trop petit et moi je peux les taper en fait de là.",
+    "[3] Against champions that beat you early game, when you trade on them [...] So what I want to do is I just want to get CS and and make sure I have high HP for when the wave is pushing towards him.",
+    "[3] If he freezes on me, I would be in trouble. I would be forced to walk up for last hits pretty far away from my turret, right? But he keeps shoving my wave into the tower and so I'm able to just catch the entire wave whenever I want, right?"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "2CXi04mpPkM",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (chapitre Gwen 3:21:30-3:25:32)"
+    },
+    {
+      "id": "H8ihZoRul-Q",
+      "channel": "Ninkey",
+      "result": "utilisé (passages 0:45-1:40, 10:00-13:45)"
+    },
+    {
+      "id": "5wUw_dp02tQ",
+      "channel": "Misanthiel - Coach Toplane",
+      "result": "utilisé (vidéo entière, 7 min)"
+    },
+    {
+      "id": "h7ivLolWGjU",
+      "channel": "Looca",
+      "result": "utilisé (passages 1:19-2:00, 6:26-6:46) ; le reste est générique ou propre à d'autres matchups"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Gwen faible en early, dépend du gold/farm : trade tôt, prends la prio, refuse les CS",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Brume sacrée (Z) : ciblable seulement de l'intérieur, Gwen se place au bord avec E",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W : untargetable to enemies outside the zone ; E dash)"
+    },
+    {
+      "idea": "Respecter le lvl 6 de Gwen (all-in avec R), surtout avec un avantage de niveau",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Gwen veut la wave près de sa tour ; freeze de ton côté pour la forcer à avancer",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Gwen split push et groupe tard : forcer objectifs et fights à 5v4",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped at integration: counterplay (force 5v4) is not in the sources"
+    },
+    {
+      "idea": "R relançable 2 fois en 6 s, 3e salve 5 aiguilles, la 1re ralentit",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (recast up to 2 additional times within 6 seconds, five needles on third cast, first cast slows). Valeurs du slow (60/25 % selon [2], 40-50 % selon [1]) non vérifiables : non citées"
+    },
+    {
+      "idea": "A se charge avec les autos (4 max), trade après son utilisation",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q passive : 1 stack par attaque, max 4 ; active consumes stacks ; CD 6.5-3.5 s)"
+    },
+    {
+      "idea": "Brume contre un mur / dans un passage étroit : impossible d'y entrer",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (ciblable seulement depuis la zone)"
+    },
+    {
+      "idea": "Gwen perd le 2v2 avant son premier gros achat",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, tip de lane"
+    },
+    {
+      "idea": "Gwen redirige son R en dashant pendant l'animation",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, mécanique non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Le A de Gwen dépasse la portée des mêlées",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, tip de lane"
+    }
+  ]
+}

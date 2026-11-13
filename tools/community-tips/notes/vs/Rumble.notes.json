@@ -1,0 +1,123 @@
+{
+  "searches": 3,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] Another thing in this matchup is you kind of need to watch out for his W shield, right? Don't really want to be Q-ing through that.",
+    "[0] I got to respect you a little bit. Bait out the harpoon. Nice.",
+    "[0] And the reason I flash my E there is to get my damage off faster and potentially win dodge his harpoon.",
+    "[0] He's going to need to use his ult for the wave here, I think. Eventually.",
+    "[0] Okay, he has to ult the the wave here. Damn.",
+    "[0] All right, he wasted his ult. Pretty good. We can dive this guy if you land your hook.",
+    "[1] Qu'est-ce que je peux ? Ulti la vague, et back. Les creeps meurent, parce que l'ulti de Rumble globalement va tuer les mêlées et les range si vous avez un petit peu d'AP.",
+    "[1] Oh non, je me fais freeze. Qu'est-ce que je peux ? Ulti la vague. Allez, tac. Et à nouveau je back.",
+    "[1] lorsque vous mettez un E peu avant de passer en zone rouge avec Rumble, vous pouvez ensuite remettre un 2e E pendant la zone rouge même si en théorie vous ne pourriez pas mettre de sorts.",
+    "[1] Le problème c'est qu'avec un ulti comme ça du coup, tac, bah là, la cible, elle peut facilement s'en aller sur le côté.",
+    "[1] Le genre d'ulti qu'on veut faire avec Rumble, c'est pas des ultis comme ça en ligne droite, ça va être un ulti pour bloquer le passage.",
+    "[1] Parce que le double slow de Rumble quand il est boosté avec la la vapeur, c'est vraiment insane. En plus j'ai beaucoup moins de résistance magique.",
+    "[2] Watch Rumble's Heat bar carefully. If you see him Overheat, go in for the kill while his skills are disabled.",
+    "[2] When you see the missiles falling, move out of the way as quickly as possible.",
+    "[2] In lane try to wait until Rumble uses Flamespitter and/or Scrap Shield before taking the offensive.",
+    "[2] Avoid tight paths which will make moving away from it impossible along the path.",
+    "[2] Be careful after avoiding his Electro Harpoon, as he can still fire another one even if he overheats."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "fCs9OqQA2Ug",
+      "channel": "Godrekton",
+      "result": "écarté : partie surtout commentée sur les objets et le matchmaking, aucun conseil exploitable contre Rumble"
+    },
+    {
+      "id": "CAf4SDzcLko",
+      "channel": "Vallheim • League of Legends",
+      "result": "écarté : seule mention de la réduction de RM du E (déjà en Data Dragon), pas de conseil de lane"
+    },
+    {
+      "id": "yHOJlTmf8D0",
+      "channel": "Kunain",
+      "result": "utilisé (passages 0:00-1:58, 6:14, 8:41, 10:36) ; sous-titres fr d'abord demandés par erreur (traduction auto, non utilisés), puis en-orig"
+    },
+    {
+      "id": "oYjR2DVPA-E",
+      "channel": "Misanthiel - Coach Toplane",
+      "result": "utilisé (passages 2:52-4:15, 4:31-5:24, 5:45-7:28, 7:50-9:28)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Rumble/Strategy",
+      "result": "ok (non daté : mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Engager quand Rumble surchauffe (silence), attention au 2e E possible",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : la surchauffe empêche les sorts quelques secondes)"
+    },
+    {
+      "idea": "Deux charges de E, le 2e touché ralentit et réduit plus la RM : esquiver le premier",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (2 harpons, slow et réduction de RM accrus sur cible déjà ralentie)"
+    },
+    {
+      "idea": "Ne pas trade dans le Z, attendre qu'il soit utilisé (CD 6 s)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (bouclier, CD 6 s à tous les rangs)"
+    },
+    {
+      "idea": "Sortir vite de la traînée du R, éviter les couloirs étroits",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (traînée qui ralentit et inflige des dégâts par seconde)"
+    },
+    {
+      "idea": "R utilisé sur la wave = fenêtre d'all-in / dive",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "Rester derrière ses sbires contre Rumble",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, blocage du E par les sbires non vérifiable en Data Dragon"
+    },
+    {
+      "idea": "Le Q pousse la lane, faire venir le jungler",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: macro, source non datée seule"
+    },
+    {
+      "idea": "Kiter Rumble quand il all-in en surchauffe",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, en tension avec le conseil d'engager en surchauffe"
+    }
+  ]
+}

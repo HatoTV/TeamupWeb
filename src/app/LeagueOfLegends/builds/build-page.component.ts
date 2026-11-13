@@ -8,6 +8,7 @@ import { Champion, ChampionDataService, Role } from '../../core/data/champion-da
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
 import { AbilityKeyPipe, abilityKey } from '../../shared/i18n/ability-key';
+import { CommunityTipsComponent } from '../matchups/community-tips/community-tips.component';
 import { BuildMatchupsComponent, MatchupCard } from './build-matchups.component';
 import { GameIconComponent } from '../../shared/ui/game-icon.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
@@ -19,7 +20,7 @@ type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 @Component({
   selector: 'app-build-page',
   standalone: true,
-  imports: [TranslateModule, RouterLink, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent],
+  imports: [TranslateModule, RouterLink, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, CommunityTipsComponent],
   templateUrl: './build-page.component.html',
   styleUrl: './build-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

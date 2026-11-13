@@ -1,0 +1,148 @@
+{
+  "searches": 3,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] While burrowed, her Q is a straight line skill shot which explodes upon hitting the first enemy, dealing damage to enemies nearby and revealing them.",
+    "[0] When burrowed, her sight radius is massively reduced, but she can see enemies walking around by tremisense.",
+    "[0] When she becomes unbured, she deals damage in a circle around her and knocks up all enemies.",
+    "[0] Rex size E is a point-and-click ability which deals damage to the target hit. And if she's got maximum fury, this is dealt as true damage instead.",
+    "[0] She can have up to eight of these tunnels at one time, and they last 10 minutes each.",
+    "[0] However, enemy champions can stand on them to destroy them.",
+    "[0] Rexai's ultimate has a passive where she marks enemy champions she's damaged in the last 5 seconds.",
+    "[0] Her ultimate can only be used against these marked enemies where it causes her to vanish for two seconds before pouncing at them",
+    "[0] For matchups, Rexi is great into junglers who want to jump on her as if she's attack moving while burrowed, she jumps up and interrupts the dash for free.",
+    "[0] However, Rexai has strong ganks as soon as she hits level three",
+    "[0] And then if you ever get too low, you can use your ultimate as a pseudo zas to keep yourself safe.",
+    "[1] And you even [ __ ] up your level three, which is your most important game.",
+    "[1] The top lane gang was clean, the level three I I loved your E, right?",
+    "[2] the lane is what I would consider extremely volatile and you being their level three might be the difference between a winning 5-0 top laner and a losing 0 and five top ler",
+    "[2] then just press W and look for Tremors Rex side can see over walls pretty much",
+    "[2] the reason you go for these little cheeky tunnels is because the enemy has vision of the normal area you you'd want to walk through",
+    "[2] I want to go over the vital importance of lending her burrowed Q Rex fast combo relies on her going burrowed Q knock up Auto q auto and then finally Empower E",
+    "[3] Prey Seeker: detonates on the first enemy hit, dealing magic damage to all nearby enemies.",
+    "[3] Tremor Sense reveals obscured vision of non-visible, moving enemies within range at a rate of once every second.",
+    "[3] Enemy champions can destroy a tunnel by standing on either entrance for 1.5 seconds; tunnels last up to 10 minutes.",
+    "[3] Void Rush mark lasting for 5 seconds. After 0.9 seconds, she blinks to a location near the target, becoming targetable again."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "lpxgmShkce4",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (passages 0:38-1:27, 1:36, 2:05, 2:54)"
+    },
+    {
+      "id": "MX4en09sttI",
+      "channel": "Doaenel ",
+      "result": "utilisé (passages 1:09:43, 1:34:03 : importance du lvl 3) ; le reste est du point de vue de Rek'Sai"
+    },
+    {
+      "id": "QFT6aUOC_S0",
+      "channel": "The Rek Guy",
+      "result": "utilisé (passages 2:48, 8:07, 9:06, 11:44)"
+    },
+    {
+      "id": "mieXigSVbjc",
+      "channel": "Fz Frost",
+      "result": "écarté : voix FR qui semble doublée/traduite, rien de neuf contre Rek'Sai (seulement la Fureur pleine = dégâts bruts, déjà couvert)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Rek%27Sai",
+      "result": "ok (mécaniques Q, W, E, R)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Tremor sense : Rek'Sai enfouie voit les ennemis qui bougent ; s'arrêter pour rester caché",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (nearby enemies that move are revealed)"
+    },
+    {
+      "idea": "Détruire les tunnels en restant sur une entrée",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (enemies can destroy it by standing on either entrance)"
+    },
+    {
+      "idea": "Gank très fort au lvl 3 : ward et jouer safe",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Le Q enfoui explose sur le premier ennemi touché : rester derrière les minions",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources (premier ennemi touché : wiki, pas dans DDragon)"
+    },
+    {
+      "idea": "Le R ne cible qu'un ennemi touché dans les 5 dernières secondes : couper le contact à bas PV",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (damaged by her in the last preymarkduration seconds)"
+    },
+    {
+      "idea": "Pendant le R, Rek'Sai est intouchable : ne pas gaspiller ses sorts",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Untargetable) ; durée contradictoire (2 s / 0,9 s) donc pas de chiffre"
+    },
+    {
+      "idea": "E à Fureur pleine = dégâts bruts : surveiller la jauge",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked)"
+    },
+    {
+      "idea": "Ne pas dash sur une Rek'Sai enfouie : Jaillissement projette en l'air",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Unburrow knocks up nearby enemies)"
+    },
+    {
+      "idea": "Kiter Rek'Sai",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Tunnel : buffer les CC pendant le trajet",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, mécanique non vérifiable (wiki muet)"
+    }
+  ]
+}

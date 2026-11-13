@@ -1,0 +1,122 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] You just have to be careful not to get hit by his auto attack AoE. Uh if he is walking up to hit the wave, just space around it.",
+    "[0] So just don't get hit by his auto attack passive and you're chilling at level one.",
+    "[0] the way you can trade in Toalio once he has his dash is you can dodge it with your E. ... if he does land his dash on you, you are absolutely going to get demolished in the trade. So you constantly have to be aware of that and space around his dash and be ready to react to it.",
+    "[0] He dashed in. Let's go. He out of the taunt.",
+    "[0] I I I have to be careful still if he tries to dash on top of me with the taunt.",
+    "[0] Okay, and Bot needs to be careful. Gallio is missing. He could be ulting again.",
+    "[1] Good Gallios will start E up against an Akali. And when when Akali steps up for trade, he will E.",
+    "[1] You got to like you got to like bob and weave in this match up. Like if you notice he's missing a lot of E's, and it's not cuz he's bad, it's cuz I'm bobbing and weaving. Like I'm going in and out.",
+    "[1] Okay, Gallio's six, but I'm going to make sure he doesn't roam. I'm going to ping Baron or or dragon, rather.",
+    "[2] because of Gallo's passive. That knock that he does, the like the like the AoE auto attack he does, it makes it so difficult for him to ever hold waves.",
+    "[2] We know GI has no R. Galli's R is on a very big cool down. Should be waiting for me in this bush."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "d5xz2sO-X2c",
+      "channel": "Lunar Hero",
+      "result": "écarté : aucun sous-titre (ni en-orig ni en), rien obtenu"
+    },
+    {
+      "id": "ql4cAdIrM90",
+      "channel": "Kunain",
+      "result": "utilisé (passages 0:20-1:25, 4:07, 14:42, 20:53)"
+    },
+    {
+      "id": "cJPvySZ8Hxw",
+      "channel": "Doxa Educational ",
+      "result": "utilisé (passages 0:09-0:31, 5:42)"
+    },
+    {
+      "id": "BqrCLjbIO2U",
+      "channel": "ACEE1",
+      "result": "utilisé (passages 0:19-0:45, 9:13)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/lol/champions/galio/counters",
+      "result": "no-advice (seul conseil écrit : Galio contre Akali, pas contre Galio)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/galio/",
+      "result": "stats-only (timeline Hwei et objets, aucun conseil de jeu)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-galio/",
+      "result": "404"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Galio cherche son E quand tu avances pour trade : allers-retours pour le faire rater, punir pendant le CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E : knock-up du premier champion touché, CD 11-7 s)"
+    },
+    {
+      "idea": "Lvl 6 : le R permet de rejoindre les autres lanes, ping quand il disparaît",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R : portée 4000-5500, atterrit sur un allié)"
+    },
+    {
+      "idea": "Éviter l'auto en zone du passif quand il va taper la wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : dégâts magiques bonus en zone toutes les quelques secondes) ; ACEE1 confirme seulement que l'auto est en zone. Repère visuel « mains qui brillent » non vérifiable : retiré"
+    },
+    {
+      "idea": "Combo E puis taunt du W",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E : dash + knock-up ; W relâché : taunt des ennemis proches)"
+    },
+    {
+      "idea": "Le R a un très long CD : fenêtre après son utilisation",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 180/160/140 s)"
+    },
+    {
+      "idea": "Le passif en zone fait push Galio, il ne peut pas tenir la wave : laisser venir la wave et trade quand elle est mal placée pour lui",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane avec 1 seule source"
+    },
+    {
+      "idea": "Prendre la prio au lvl 1 car tu as plus de portée que Galio",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane avec 1 seule source, dépend du champion joué"
+    },
+    {
+      "idea": "Son taunt révèle les champions camouflés",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans Data Dragon"
+    }
+  ]
+}

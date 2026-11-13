@@ -1,0 +1,160 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] So, you got to keep in mind that her bubble cool down is quite long. And you can abuse that to maybe get extra two or three minions.",
+    "[0] And try to force all ins if she's ever uses her E. If she ever uses her E, try to be opportunistic about it.",
+    "[0] Zoe can't really side lane properly and that's where we attack her in the mid game.",
+    "[0] I can now permanently match her in the side. I can perma push side waves.",
+    "[0] So, what I do is the moment she uses her Q, I walk backwards from the minions cuz she can AoE the minions with her Q.",
+    "[0] If there's casters up, what happens is that she's in a position where she struggles letting her skill shots onto you. But when the casters are gone like this, she can have free range for her bubbles.",
+    "[0] Zoe's now going to be forced to either push the wave and that way she is using her cool downs onto the wave and then we can counter push it and we can kind of match her. Or she holds her spells and then we can also attack her on the wave.",
+    "[0] If they're pushed up into the enemy turret, ping them off on their face. Because Zoe is a very strong roamer.",
+    "[1] that's only if you're so confident you can hit it cuz if you miss that bubble diva is going to go and rip your head off.",
+    "[1] later into the game, this match up gets tricky because Ari is a really good side laner and Zoe is not.",
+    "[1] make sure you ask your jungler to help you in side lane because Zoe's not a sideliner.",
+    "[1] later into the game if you alt forwards into Bran, you're going to die.",
+    "[1] if you ever al forwards into her and she is six, she will go to Kakurim and oneot you.",
+    "[2] Zoe is extremely fragile, meaning any misstep, mis cool down, or bad positioning can instantly get her killed",
+    "[2] A common mistake is throwing a bubble randomly, hoping it hits, and when it misses, you lose all pressure.",
+    "[2] Side laning on Zoe is more situational. She doesn't have the best escapes, so you need to be careful when pushing side waves.",
+    "[2] It's easy to treat it like safety mobility, but your return point is predictable and can be punished.",
+    "[2] Most players will stand behind the wave for safety, so using the splash damage lets you slowly chip them down.",
+    "[2] When the wave is pushed, it becomes much easier to land your E and long-range Qs without minions blocking you.",
+    "[2] Enemies will naturally hide behind minions to dodge your E",
+    "[2] When you're pushing consistently, the enemy is forced to use abilities on the wave. That's your window to poke, trade, and look for a bubble.",
+    "[2] Zoe has strong roaming potential. Surprise enemies with long-range Es through walls.",
+    "[2] Use bubble through walls to extend its range. Terrain stretches the cast, making it harder to react to and giving Zoe strong pick potential around walls."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "AY5caEsECME",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (transcription complète, passages 2:21-8:57)"
+    },
+    {
+      "id": "ev1msIBG44c",
+      "channel": "Detention",
+      "result": "utilisé (recherche dans les sous-titres + transcription enregistrée ; passages 5:35, 25:10, 30:52, 47:11, 56:58)"
+    },
+    {
+      "id": "W3NfkJwA_IQ",
+      "channel": "Chaowx",
+      "result": "écarté : stream sans conseils (bavardage, rien d'exploitable sur le matchup)"
+    },
+    {
+      "id": "b5zSq-je8wo",
+      "channel": "Zoose",
+      "result": "utilisé (passages 1:45-2:15, 4:57-6:03, 13:00-13:27, 14:33, 15:25, 18:22)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Punir la Bulle (E) ratée : long CD, remboursé seulement si elle touche",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources ; CD E 18-14 s vs A 8,5-6,5 s et remboursement sur touche vérifiés DDragon"
+    },
+    {
+      "idea": "Zoé fragile, mauvaise en side lane : la battre en side au mid game",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "R : elle ne bouge pas 1 s puis revient au point de départ, punir le point de retour",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (téléport 1 s, ne peut pas bouger, retour au point de départ)"
+    },
+    {
+      "idea": "A fait des dégâts autour de la cible : s'écarter des minions quand elle vise la wave",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (premier ennemi touché et ennemis autour)"
+    },
+    {
+      "idea": "Rester derrière ses minions (bloquent l'E) ; reculer quand les casters meurent",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Push la wave pour qu'elle dépense ses sorts sur les minions",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Zoé roam fort : ping les side lanes quand elle quitte la mid",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "La Bulle (E) gagne de la portée au-dessus des murs",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (range extended when flying over terrain)"
+    },
+    {
+      "idea": "Bulle ratée reste au sol comme piège",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "1 source + DDragon valable, mais limite de 8 tips atteinte"
+    },
+    {
+      "idea": "Après la Bulle, le premier coup fait double dégâts (combo A, R, E puis A)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "contre-jeu proposé = Mercure / Purification (objets et sorts d'invocateur interdits) ; limite de 8 tips"
+    },
+    {
+      "idea": "Viser l'égalité en lane, accepter de perdre des casters",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "1 seule source, conseil de lane"
+    },
+    {
+      "idea": "Prendre Purification / bottes de Mercure",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "sorts d'invocateur / objets interdits"
+    }
+  ]
+}

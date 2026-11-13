@@ -1,0 +1,115 @@
+{
+  "searches": 3,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] once he picks it up you should be trying to utilize creeps to block his Q because",
+    "[0] you see him pick up this rock then you need to be respectful for that brief timer you don't have to sit all the way back but just utilize your creep wave to block that que for you",
+    "[0] if you walk past him he's just going to e you into the tower but also a good scanner player is going to be trying to do the reverse of that he's going to be trying to walk past you so you really need to be maintaining your distance and not letting him shove you into a wall or into your Tower",
+    "[0] you also have to respect him being able to flash you he can just flash past you an e stun you into the wall and then bring you under Tower of his ulti",
+    "[0] fighting around the center of the lane is a sweet spot up against this Champion",
+    "[1] Donc comme vous pouvez le constater, il y a un petit délai pendant lequel la cible elle tombe de flash ou d'achat.",
+    "[1] il peut pas vraiment grab à la à la frame où vous lancez, vous voyez, il y a toujours un petit délai. Ce qui fait que votre cible du coup, elle peut flash out, dash out encore une fois.",
+    "[1] Hop, je vais R into tac. Une touche par exemple E un mec frame one dans le mur, vous voyez il a quasiment pas de counterplay.",
+    "[1] Hop, vous la grabez ici, vous la vous foutez dans le mur là et hop, elle est collée à vous",
+    "[1] une cible s'avance un poil trop, hop, flash E. Et tout par exemple R sur le côté, tac, et vous la ramenez vraiment sous votre tourelle",
+    "[1] une autre possibilité que vous avez, c'est simplement grab une personne au milieu de la lane et la ramener sous tourelle.",
+    "[2] because the thing about is he can queue your E. Like he's he has enough range on your on his queue to cancel your E."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "CH_YhDbI3H8",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (passage 18:54, Volibear peut annuler le E) ; le reste = tier list sans conseil exploitable"
+    },
+    {
+      "id": "oW7WYv0y16I",
+      "channel": "Coach Chippys",
+      "result": "utilisé (1:21-4:25, 10:35) ; publiée le 2024-05-28 (> 2 ans, après le rework) : ne soutient que des mécaniques vérifiées dans Data Dragon"
+    },
+    {
+      "id": "1zbS5WEyz_I",
+      "channel": "Misanthiel - Coach Toplane",
+      "result": "utilisé (fr, 1:01-8:24) ; demande en-orig d'abord refusée (voix française), relancée en fr"
+    },
+    {
+      "id": "GO9VYETgA9w",
+      "channel": "EcoreLoL",
+      "result": "écarté : voix anglaise, piste fr = traduction automatique (demandée par erreur) ; jamais une source"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/skarner/counters",
+      "result": "no-advice (un conseil pour jouer Skarner, un placeholder)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rester loin des murs : le E qui écrase contre un mur stun",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E : collision avec un mur en traînant l'ennemi = dégâts + stun)"
+    },
+    {
+      "idea": "Ne pas laisser Skarner passer derrière : E ou R te traînent sous sa tour",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E et R traînent la cible)"
+    },
+    {
+      "idea": "Tout stun/root/knock-up arrête son E",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (enemytips : Ixtal's Impact can be stopped by any stun, root, or knock-up)"
+    },
+    {
+      "idea": "Petit délai quand il enchaîne E et R : flash/dash pour sortir",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (enemytips : Impale can be dodged with Flash or another ability)"
+    },
+    {
+      "idea": "Rocher du A : 3e attaque slow, sbire entre vous bloque le lancer",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (3 attaques renforcées, la dernière slow ; le lancer ralentit le premier ennemi touché)"
+    },
+    {
+      "idea": "Gérer la wave au centre de la lane pour éviter les insec sous tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane, seule source > 2 ans"
+    },
+    {
+      "idea": "Pendant l'animation du E, Skarner ne peut pas flash",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans Data Dragon, source > 2 ans"
+    },
+    {
+      "idea": "Les sorts unstoppable (Olaf, Shyvana) contrent ses CC ; Skarner lent et gros, facile à toucher",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable dans Data Dragon"
+    }
+  ]
+}

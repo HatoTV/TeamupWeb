@@ -1,0 +1,199 @@
+{
+  "searches": 2,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] You've got an E which is a jump, and you've got an R. That's a wall dash as well, not just a... Yeah, you can use it to dash through walls, right?",
+    "[0] And your E is it's a pretty short dash.",
+    "[0] So, so if you're kind of keeping distance into a Nifurry and you're not allowing her to land both the Q1 and Q2, she doesn't really do a lot.",
+    "[0] The point-and-click again, you got to point-and-click high range >> which follows your flashes, follows dashes.",
+    "[0] So, what they do is they don't think about dodging the first queue, then they're going to get hit by the second queue.",
+    "[0] making sure that you're engaging horizontal movements to avoid the Q1 or Q2.",
+    "[0] And the Q heals as well.",
+    "[0] Number one is like holding key CC abilities for that champion. So, ideally you're waiting out her W as well. If you can go in, wait for a W, and then you CC, very very powerful.",
+    "[0] Shield that resets so you can get another >> And a re- enter reset, yeah. You can get two.",
+    "[0] Cuz once the assassin's on your screen and you're like alone and vulnerable, there's no combination of button presses you can do to stop the Nifiry killing you. The problem is how the [ __ ] did you get here in the first place? And why are you standing on this wave alone?",
+    "[0] And why aren't you like more grouped with your team and just waiting, being a bit more patient?",
+    "[1] Dash will gain bonus range through terrain.",
+    "[1] Naafiri will track the target if they change locations, up to a maximum distance.",
+    "[1] If Naafiri scores a champion takedown within 7 seconds of cast.",
+    "[2] In the highest level, Naafiri is a skirmisher. She wants to eventually get to level six and then start hunting people down with her ult that basically are out of position.",
+    "[2] she wants to be able to then look outside of the lane and look to get ults onto the side lanes or look for jungle skirmishes and stuff like that.",
+    "[2] the only way that she's actually going to be able to like properly sustain up in the lane is if she actually lands the second part of her Q. Cuz then she actually gets healed. So, if you get hit by a Q, that's okay, as long as you don't get hit by the second Q, you're generally quite fine.",
+    "[2] one of the the wave states that you like versus Naafiri is when it's generally quite held on your side.",
+    "[2] The only wave state that you absolutely despise is when it gets stuck on her side.",
+    "[2] when it's actually held on my side, because then she's forced to get the wave in, she's forced to step up quite close, and she usually takes quite a bit of damage doing so.",
+    "[2] the moment you use your E proactively, she will all in you, especially post level six. So make sure that if you have a defensive spell like Syndra E or E, that you use it reactively towards her so you prevent her getting on top of you",
+    "[3] try not to get hit by his double Q. It's fine if you get hit by one, but don't get hit by the double Q.",
+    "[3] I'm going to grab my W here and hold the wave here. Don't want to let it crash fully. This is a really good wave spot for me because now he can't really jump on me.",
+    "[3] as you could see when he jumps on you, you can kind of go into your shroud and he can't really play the game.",
+    "[3] All right, he has no flash. Wait for his jump. Now we use auto Q."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "FkYAiWtCbBA",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (passages 0:13-0:53, 2:36-3:54, 4:54-5:05, 6:33-7:05, 8:06-8:18, 8:33-9:01) ; transcription locale relue en passe de complétion pour le passage 8:43 (aucune nouvelle requête)"
+    },
+    {
+      "id": "zHv5atSSJg0",
+      "channel": "Mysteriaslol",
+      "result": "1re passe : rate-limit. Passe de complétion : utilisé (0:50-1:02, 2:09-3:54, 4:41-5:00, 7:19-7:31, 8:31-8:56). Note : Mysterias est coach WTL (lien wtl.lol) mais chaîne et contenu propres, compté comme source distincte de WTL Highlights & Clips"
+    },
+    {
+      "id": "i27okkk6B9Q",
+      "channel": "Kunain",
+      "result": "1re passe : rate-limit. Passe de complétion : utilisé (0:14, 0:51-1:16, 3:01-3:42) ; Akali GM vs Naafiri top, 2026-03-12 ; parties objets/runes ignorées"
+    },
+    {
+      "id": "Mylt9HWHgDY",
+      "channel": "Rule",
+      "result": "non ouvert : gameplay jungle Lee Sin sans chapitres, cap gardé (3 vidéos lues sur 4)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Naafiri",
+      "result": "ok (mécaniques : portée E à travers les murs, suivi du R, fenêtre de relance R ; W/R échangés au patch V25.06)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/naafiri/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-naafiri/",
+      "result": "refused (404)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Esquiver le premier A latéralement ; la relance fait plus de dégâts sur cible qui saigne et soigne",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (relance : dégâts bonus si saignement, soin sur champion)"
+    },
+    {
+      "idea": "E = dash 450, plus de portée à travers un mur : garder ses distances",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (WTL + wiki) + portée 450 vérifiée DDragon"
+    },
+    {
+      "idea": "Garder la wave de son côté / près de sa tour ; jamais bloquée côté Naafiri",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Sort défensif en réaction à son engage, pas avant (all-in surtout après lvl 6)",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": false,
+      "reason": "dropped at integration: WTL Highlights and Mysterias (WTL coach) counted as one source"
+    },
+    {
+      "idea": "R ciblé, suit Flash et dashes",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (WTL + wiki « will track the target ») ; suivi non décrit dans DDragon donc verifiedByGameData false"
+    },
+    {
+      "idea": "Après le lvl 6 elle chasse les cibles isolées avec le R : ne pas farmer seul, rester groupé",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped at integration: WTL Highlights and Mysterias (WTL coach) counted as one source"
+    },
+    {
+      "idea": "Garder son CC pour après l'inciblabilité du Z",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z : Untargetable)"
+    },
+    {
+      "idea": "Relance du R avec shield après un kill",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (recast once on takedown, second cast grants shield)"
+    },
+    {
+      "idea": "Naafiri en retard : l'ignorer, elle ne sert plus en fight",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "2 sources mais coupé : limite de 8 tips (le moins actionnable)"
+    },
+    {
+      "idea": "Elle lance son A quand tu t'arrêtes pour last hit : anticiper",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: Kunain parle de zone sur les last hits via le CD court du A, pas du même moment ; 1 source nette"
+    },
+    {
+      "idea": "Calquer ses resets / freeze pour l'empêcher de roam",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    },
+    {
+      "idea": "Ne pas checker les buissons au lvl 1",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    },
+    {
+      "idea": "Trader quand son A est en CD / la faire tomber à court de mana",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source ; Mysterias dit au contraire que son A coûte peu de mana"
+    },
+    {
+      "idea": "Punir le long CD du Z pour trade",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane, 1 seule source"
+    },
+    {
+      "idea": "Les membres de meute bloquent les skillshots",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable dans DDragon ni wiki"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] So, really high tempo junglers are difficult for Wukong. AP junglers in general are difficult for Wukong",
+    "[0] If you can fight and kill them, it's like fine. Um especially on your six, but you can get cooked pre-six. Like, Nidalee can ruin your day pre-six.",
+    "[0] Also she has she has one W spell, right? And you have two olds. So it's like very difficult for her to to outplay that.",
+    "[0] Um, so Wukong really leans on this armor to win a lot of his fights.",
+    "[1] Wukong's W lets you dash into a direction, making you go invisible for a short duration and leaving behind a clone that will attack nearby enemies.",
+    "[1] The third combo is W auto Q combo. Wukong's W clone actually deals damage as well, and I highly recommend using it at the perfect time if you want to maximize your damage.",
+    "[1] Trying to use my W4 max damage.",
+    "[1] Go for a small trade. Walk away. If your uh abilities are on cool down, you have to walk away.",
+    "[1] So, basically with Wukong, what you're doing is you're consistently looking for short trades and you're trying to trade while outranging your opponents. So, you're trying to position yourself in such a way that you can hit your Q and not tank anything for it, right?",
+    "[1] So, you kind of want to go back and forth, drop the Q, walk away",
+    "[2] My game plan is the following. Top to bot. And play with mid slash bot lane, okay? The moment I'm getting level six, I'll be so much stronger as well.",
+    "[2] So, at the moment because I don't have my ultimate, okay? I will be doing a full clear top to bot, and I'm going to give the grubs if I have to.",
+    "[3] Okay, now we got to back her. Can still stay cuz I'm hitting level six in a bit.",
+    "[3] I just need my decoy now. She has no shield now. Can all in."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Z8c6D5fFGWs",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (passages 0:13, 1:16-1:30, 5:00, 7:10) ; vidéo jungle, clip de jXQOWXSS65M (BBC), donc la vidéo BBC n'a pas été ouverte (même source)"
+    },
+    {
+      "id": "Sqi4bZLA454",
+      "channel": "Daveyx3",
+      "result": "utilisé (passages 0:31, 2:39, 4:39, 5:23, 6:53-7:30)"
+    },
+    {
+      "id": "qebqW0KtLsM",
+      "channel": "Kireilol",
+      "result": "utilisé (passages 4:24, 7:11) ; surtout du pathing jungle générique"
+    },
+    {
+      "id": "Gf5hbyuBI54",
+      "channel": "KingKongLoL",
+      "result": "utilisé (passages 3:36-3:55) ; peu de commentaire pédagogique"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Gros spike au lvl 6 (R) : le punir avant, jouer safe après",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Il trade/engage avec Z (long CD 22-18 s) ; sans Z il n'a que E pour bouger",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD W 22/21/20/19/18, E seul autre dash)"
+    },
+    {
+      "idea": "A allonge la portée de l'auto et réduit l'armure ; short trades avec A, punir après",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q : bonus attack range, armor shred, CD 8-6 s)"
+    },
+    {
+      "idea": "Clone immobile du Z qui attaque et copie le R ; Wukong invisible",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Invisible, stationary Clone, mimics his ultimate)"
+    },
+    {
+      "idea": "R relançable : deux knock-ups, une seule esquive ne suffit pas",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R can be cast a second time within the recast window)"
+    },
+    {
+      "idea": "Passif armure + régén en combat ; les dégâts magiques / AP le gênent",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Stone Skin : stacking armor and max health regen while fighting)"
+    },
+    {
+      "idea": "Les junglers à gros tempo (clear rapide) gênent Wukong",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    },
+    {
+      "idea": "Son Z peut bloquer l'ult de Malphite",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: interaction non vérifiable dans Data Dragon (Z = Invisible, pas d'untargetable écrit), 1 source"
+    },
+    {
+      "idea": "Gros gap close Z + E contre les champions qui kitent",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: redondant avec le tip Z/E, 1 source"
+    }
+  ]
+}

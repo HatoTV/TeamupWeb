@@ -1,0 +1,92 @@
+{
+  "searches": 7,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] the only really thing we need to know about his passive is that like our fourth shot, right, is always a crit and this big auto attack. That's just important to know. And usually in lane, you really want to trade with that one.",
+    "[0] because our like fourth auto attack, it's doing execute damage, right?",
+    "[0] if we are taking down a minion, then the next one will always do more damage.",
+    "[0] So let's say for example someone is like running into your trap, then what you want to do is you want to precast your W, so the moment something pops on the enemy that can be damaged, CC or whatever, they are just rooted",
+    "[0] you shoot, and you hit, and then the target is slowed, and you shouldn't wait then because you want to use the window where the enemy target is still slowed, right? And then you immediately want to use it."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "mqmqaVboO1I",
+      "channel": "Wakz lol",
+      "result": "écarté : vidéo de 3 ans, gameplay Xayah vs Jhin sans conseil exploitable dans les sous-titres"
+    },
+    {
+      "id": "zsC-3NBUTLI",
+      "channel": "Varry",
+      "result": "lu (passages 1:16-5:19, sous-titres en-orig) ; seule source valide, insuffisante seule"
+    },
+    {
+      "id": "Pu7OgV8-pU0",
+      "channel": "Coach Violet",
+      "result": "écarté : chaîne exclue (channels.json), jamais une source ; ouverte à tort, compte dans le plafond"
+    },
+    {
+      "id": "MxR14foJ1jU",
+      "channel": "DantehADC",
+      "result": "écarté : sous-titres fr = traduction automatique (voix non française), interdit"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/jhin/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://www.op.gg/lol/champions/jhin/counters",
+      "result": "refused (ECONNRESET)"
+    },
+    {
+      "url": "https://www.op.gg/lol/champions/jhin/counters",
+      "result": "no-advice (2e essai : tips utilisateur = runes/items/picks pour jouer Jhin, un seul tip de matchup sur Kai'Sa)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Jouer autour du 4e tir (crit + exécution), punir pendant le rechargement",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: Coach Violet exclue ; 1 seule source valide (Varry) et une seule source listable pour le fichier"
+    },
+    {
+      "idea": "Pièges E invisibles qui ralentissent ; root Z derrière",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 source (Varry) + DDragon vérifié, mais fichier < 2 sources listées"
+    },
+    {
+      "idea": "Chaque tir de R touché ralentit et le suivant arrive vite",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 source (Varry) + DDragon vérifié, mais fichier < 2 sources listées ; idée d'esquive (juke) venait de Coach Violet"
+    },
+    {
+      "idea": "A gagne des dégâts sur chaque cible qui meurt : éviter les sbires bas en vie",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 source (Varry) + DDragon vérifié, mais fichier < 2 sources listées"
+    },
+    {
+      "idea": "Z root si touché récemment par Jhin, son piège ou un allié ; traverse les sbires",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 source (Varry) + DDragon vérifié, mais fichier < 2 sources listées"
+    },
+    {
+      "idea": "Jhin excelle en short trade (auto + A, poke A, 4e tir)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: venait uniquement de Coach Violet (exclue)"
+    },
+    {
+      "idea": "Un allié champion devant bloque les tirs de R / Z (s'arrêtent au premier champion)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: DDragon seul, aucune source"
+    }
+  ]
+}

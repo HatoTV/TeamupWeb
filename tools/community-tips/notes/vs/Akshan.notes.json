@@ -1,0 +1,151 @@
+{
+  "searches": 1,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] A big mistake that I see a lot of people make is they trade auto attacks with Akshan. Akshan just stat checks you, that's when you lose.",
+    "[0] Another way that Akshan can take trades is if he ever lands a passive hit onto you. If he ever lands a Q or one single auto attack onto you, you get marked and the moment you get marked, you are now vulnerable",
+    "[0] So, you want to always prevent standing in the same line as Akshan and the minions.",
+    "[0] I slide and move to the side outside of the line of the minions so he cannot land that Q onto me.",
+    "[1] But this shield has such crazy value into this character",
+    "[1] He kind of wasted his E now. I can definitely look for a trade.",
+    "[1] Used his E, which means if he walks up to me now, I'm just going to 100 to zero him.",
+    "[1] But because we placed this ward, now we know that he's roaming bot.",
+    "[1] And he's losing a lot of XP and losses here if he went for a roam. Look at that, he just lost an entire cannon wave.",
+    "[1] I just basically need to lock him in the lane and not let him do any flip roam plays, you know? And you can lock him in the lane by just fast pushing the wave.",
+    "[2] I put it the ward on the center because he's 24/7 roaming.",
+    "[3] Axan is insanely strong in lane. So do not trade with him. He has one of the strongest traits in the game.",
+    "[3] His trades are so strong that it's even better to sometimes lose XP and CS early if that means that you can avoid early trades.",
+    "[3] If you stand inside your minion wave, Axan will throw his Q through the minions, hitting you and pushing the wave at the same time. If the wave gets pushed, he will try to roam, and we don't want that.",
+    "[3] He stays invisible with his W as long as he is near a wall. But control wards will reveal his location. So make sure to always have a control ward placed near a wall.",
+    "[3] If you position yourself correctly, you can body block his E, which will stop his swing. Now he's forced to fully commit to the fight and really try to kill you before he gets another E.",
+    "[3] Look, he swings in and kills him. Now Axan will swing out again thanks to the reset and he will kill bot lane now."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "8Kdm1mtPhhI",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 2:10-3:13, 4:29-5:10)"
+    },
+    {
+      "id": "GLjjbOQDs4U",
+      "channel": "Kunain",
+      "result": "utilisé (passages 1:07, 1:40, 6:30-7:00, 7:40, 12:51)"
+    },
+    {
+      "id": "NGmH_TDVQhE",
+      "channel": "Coach xblademojo",
+      "result": "utilisé (passage 4:42 : ward au centre contre ses roams) ; reste du commentaire peu exploitable"
+    },
+    {
+      "id": "sDcIA5DCzFw",
+      "channel": "Cannon Minion",
+      "result": "utilisé (passages 0:14-1:32 ; partie build/counters ignorée)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Camouflage du Z tient près des murs/buissons : warder les murs contre ses roams",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (camouflage perdu hors buisson/terrain)"
+    },
+    {
+      "idea": "Ne pas s'aligner avec Akshan derrière les sbires : le Q traverse la wave",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (portée étendue à chaque ennemi touché)"
+    },
+    {
+      "idea": "Ne pas trade en AA, rester hors de portée, accepter de perdre des CS en early",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (double tir vérifié DDragon)"
+    },
+    {
+      "idea": "Pousser la wave pour le bloquer en lane et l'empêcher de roam",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Trade / all-in quand son E vient d'être gaspillé (CD 18-12 s)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 18/16.5/15/13.5/12)"
+    },
+    {
+      "idea": "Body block de l'E : la collision avec un champion stoppe le swing",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (collision avec un champion ennemi termine le swing)"
+    },
+    {
+      "idea": "Les takedowns rechargent l'E : éviter les escarmouches",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (takedowns refresh cooldown)"
+    },
+    {
+      "idea": "Passif au 3e coup (dégâts + bouclier) : reculer s'il a déjà des coups sur toi",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (3 coups -> dégâts bonus + bouclier) ; [1] ne parle que du bouclier, compté 1 source"
+    },
+    {
+      "idea": "Trade pendant ses last hits (il doit rester immobile pour CS)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip lane"
+    },
+    {
+      "idea": "Son R n'est pas un ult de combat facile : avantage post lvl 6",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip lane"
+    },
+    {
+      "idea": "Ne pas chasser Akshan quand il passe invisible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    },
+    {
+      "idea": "Rester loin des murs (mécanique de corde)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: passage trop vague, 1 seule source"
+    }
+  ]
+}

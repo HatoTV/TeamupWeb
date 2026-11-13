@@ -1,0 +1,183 @@
+{
+  "searches": 6,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] If he gets flashed on, he's probably just dead.",
+    "[0] I can't push up anyways because Twitch is still missing.",
+    "[1] You will simply go into camouflage, and you can just run around, and the important part is that you're camouflage, and not invisible.",
+    "[1] The moment I step too far into the enemy, you see they will actually see me now.",
+    "[1] And then the moment the spell runs out, you see here my attack speed will go up. So, after my Q spell, I will have a lot of attack speed.",
+    "[1] Then the E spell is basically us procking our stacks. And the more stacks we have, the more damage our E spell is doing.",
+    "[1] maybe they keep over trading into you and you still have E up and then in the end, you know, you deal like 800 damage",
+    "[1] And then Twitch ultimate is basically just getting more range and AD. And you can you like shoot through the enemy.",
+    "[2] Twitch is fragile.",
+    "[2] Work with teammates to focus on him when you're able to catch him out of invisibility.",
+    "[2] If you suspect Twitch has left the lane, let your teammates know that Twitch is 'MIA.'",
+    "[1] Instead, you just walk into the bush, you start queuing now, and now you go out of the bush. So, basically, the enemies have no info if you're actually staying in the bush or rather running out of the bush.",
+    "[3] The danger of moving out of turret range, not knowing whether Twitch is hiding in a bush or right in front of your face, especially when you can't one v one him, is torture to play against. You can't walk up",
+    "[4] So, once again, you hit level six, you walk into a bush or something, you start stealthing, you walk up, try to get behind them, and you're spamming your support to fight the enemy ADC.",
+    "[4] Essentially, every game where you hit level six, you want to stealth up behind the enemy ADC.",
+    "[4] if you're missing from the from the lane, you're not visible because you're stealth"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "4e5HQpUlMuI",
+      "channel": "lilboss049",
+      "result": "utilisé (passages 2:10, 11:11) ; Jinx vs Twitch commenté, 2025-05-20"
+    },
+    {
+      "id": "rASZKIArytM",
+      "channel": "Varry",
+      "result": "utilisé (passages 3:44-5:09, 7:32) ; guide Twitch POV, mécaniques vérifiées DDragon"
+    },
+    {
+      "id": "R4u5qTBZWfk",
+      "channel": "tsuni",
+      "result": "utilisé (passage 2:34) ; vidéo sur jouer contre Twitch, 2026-10-08, surtout du ressenti"
+    },
+    {
+      "id": "ML44EcJfTMs",
+      "channel": "Neumatic",
+      "result": "utilisé (passages 10:29-11:40) ; guide lane Twitch POV, 2026-05-06"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Twitch/Strategy",
+      "result": "ok (modifié le 2024-12-16)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/twitch/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://op.gg/lol/champions/twitch/counters/adc",
+      "result": "no-tips"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Twitch entre dans un buisson : Embuscade (A) possible pour arriver dans le dos, ne pas avancer sans vision",
+      "sourceIdx": [
+        1,
+        3,
+        4
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Twitch MIA : ping et ne pas pousser",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Twitch fragile : le focus dès qu'il est visible",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Camouflage (A) et non invisibilité : révélé de près",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Ambush = Camouflage)"
+    },
+    {
+      "idea": "Vitesse d'attaque en sortie d'Embuscade (A)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bonus AS après le camouflage)"
+    },
+    {
+      "idea": "Contamination (E) scale avec les stacks : ne pas over-trade",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts par stack)"
+    },
+    {
+      "idea": "Panique (R) : range bonus et tirs perforants, ne pas s'aligner",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bonus range, piercing bolts)"
+    },
+    {
+      "idea": "Twitch gagne l'early auto contre auto, jouer stable et carry mid game",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Ne pas gaspiller le Flash contre Twitch",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, touche aux sorts d'invocateur"
+    },
+    {
+      "idea": "Twitch lance son A dans un buisson pour feinter",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Reset de l'Embuscade (A) quand un champion empoisonné meurt",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: vérifié DDragon mais aucune source ne l'évoque"
+    },
+    {
+      "idea": "Les boucliers anti-sorts ne bloquent pas les dégâts du venin",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Lvl 6 de Twitch : all-in camouflé dans le dos de l ADC",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source (cap de 4 vidéos atteint)"
+    },
+    {
+      "idea": "Twitch cherche un 2v2 lvl 1 avant les sbires depuis le buisson bot",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Twitch est un champion all-in, pas de trades courts",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "searches": 5,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] If your support has a level one knockup and you have a chance to fight early instead of pushing the wave, I recommend you level up E level one for this.",
+    "[0] Try to hold the bush though one. Wait for your support to come and then he will knock up.",
+    "[0] it's the best way to all in the lane that you have a knockup.",
+    "[0] if your support has multiple target stuns or knockups is use a minion that's getting stunned first to use as initial dash and that gets you in range to actually reach with a dash on the champion.",
+    "[0] A lot of Samir players try to use their W to combo for alt or as soon as the enemy shows danger. I think this is a mistake in a lot of cases and a good Samir needs to hold W for the best moment possible.",
+    "[0] But instead, what I'm doing is saving it for the perfect moment to block an important CC like the pike dash so that he can't stun us.",
+    "[0] it's best if you get at least one or two stacks of your alult before going in with a W because you won't use two hits of W to stack the alt. This means that your combo won't give you S tier, so you need to get ready beforehand.",
+    "[0] you can input buffer your reset of the E before you actually get the kill. And when you get the kill, the game will remember that you pressed E, even though it was on cooldown",
+    "[1] So, what I like to do in champ select is ask them, hey, could you play engage?",
+    "[1] We're getting level two advantage. And I promise you, most lanes are one or last level two. If you're not hitting level two first, walk away just like what they're doing right there. If you are hitting level two first, try and engage.",
+    "[1] Like if he gets stunned I might not even be in range to engage.",
+    "[1] We hit a really nice Nami bubble. I go in. Boom.",
+    "[2] And we're playing Pike Samira. like they're just not going to be able to live really once we hit level two and level three."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "-GYCZ3ygYbM",
+      "channel": "Sagittarius",
+      "result": "utilisé (passages 1:24-1:45, 9:10-10:25, 13:32) ; point de vue Samira"
+    },
+    {
+      "id": "cQ1rMTUDAKM",
+      "channel": "V1gorous1",
+      "result": "utilisé (0:24) ; reste du live peu commenté"
+    },
+    {
+      "id": "6R5O9PKlfaM",
+      "channel": "KingBranco",
+      "result": "utilisé (passages 0:30, 2:30-2:49, 4:04, 11:57)"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "non ouvert : vidéo interdite (déjà utilisée par 3 fichiers vs)"
+    },
+    {
+      "id": "jmRFC7tPHro",
+      "channel": "Coach Violet",
+      "result": "non ouvert : chaîne exclue"
+    },
+    {
+      "id": "fGhXS5njx88",
+      "channel": "Helmight",
+      "result": "non ouvert : plus de 2 ans"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Samira/Strategy",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Samira",
+      "result": "ok (pas de section contre-jeu ; seule info : R interrompu par les CC, non vérifiable dans DDragon)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Le CC du support permet au passif de Samira de bondir : esquiver le CC du support",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : dash vers les cibles immobilisées)"
+    },
+    {
+      "idea": "All-in de la botlane Samira dès le lvl 2 : reculer ou punir selon qui l'a en premier",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Samira garde Tourbillon de lame pour bloquer le CC clé : le faire sortir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (détruit les projectiles, CD 30-22 s)"
+    },
+    {
+      "idea": "R exige le rang S et consomme tout le style",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (rang S requis, style consommé)"
+    },
+    {
+      "idea": "Charge sauvage se recharge sur kill : garder les alliés bas hors de portée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (reset si un champion meurt dans les 3 s)"
+    },
+    {
+      "idea": "Un knock-up annule Charge sauvage (E) mais pas Panache (A)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: interaction non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Un CC interrompt Gâchette infernale (R)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: wiki seulement, non vérifiable dans DDragon"
+    }
+  ]
+}

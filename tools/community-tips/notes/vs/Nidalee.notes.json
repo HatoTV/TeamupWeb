@@ -1,0 +1,135 @@
+{
+  "searches": 7,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Any stuns, spear off the stun.",
+    "[0] I'm just waiting for the Allistar to combo and then I'm going to spear off the combo.",
+    "[0] Spear up the knockup.",
+    "[1] Your Ni's kid here, the passive gives us movement speed through the bushes. When you mark the enemy with the spear or the traps, then you're going to increase the W pounce range. And then that's going to allow you to get on top of the targets and hit them with that cougar Q.",
+    "[1] The Q gives the enemy a kiss and then the lower the target is, the more damage that Q deals, it's going to be your main ability really.",
+    "[1] the heal that gives you attack speed. And the lower your HP is, the more you heal with it, you or your allies.",
+    "[1] Now to kill the enemy, you need a flank. If I just walk at her, it's less likely. So, we get behind them. Give it a sec. And now these minions will disperse for us.",
+    "[1] Just just don't, you know, don't fully commit to this one. Throw some spears and we'll bite our time here.",
+    "[1] They'd be throwing spears at Zach. Point blank. That would not work out.",
+    "[1] Being behind the front line, working with CC as it goes down and then choosing how you play,",
+    "[1] Q. Heal the front line. Keep playing backline.",
+    "[1] That heal is OP. W. She moving. Cute. A little forward one. 550 heal. Very normal.",
+    "[2] It's a jungle champion traditionally. So if when I run through bushes, I run faster. So that that will actually help me um be able to roam this game.",
+    "[2] As long as we play with our range and poke them out before we fight, it will be the ideal way to fight.",
+    "[2] Got the spear and I also healed the Garen. Look at him. He's almost full HP after 1v2ing for like 3 seconds.",
+    "[2] Max range spear. I reckon I can just oneshot this.",
+    "[2] Oh my god, these spears, man. They're so close to Oh, the minion spawned."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "XmQCJH-xIi4",
+      "channel": "Kaido Jungle",
+      "result": "écarté : transcription très courte (gameplay sans explication), rien d'utile"
+    },
+    {
+      "id": "FbvNNe08obQ",
+      "channel": "Coach Leo",
+      "result": "utilisé (passages 2:50, 11:00, 18:14 : Javelot sur les CC alliés)"
+    },
+    {
+      "id": "GN0F83auguY",
+      "channel": "Sawyer Jungle",
+      "result": "utilisé (passages 1:21-2:20, 3:58, 18:29, 19:31, 21:46, 23:19)"
+    },
+    {
+      "id": "fdbjByMWm54",
+      "channel": "Doxa Educational ",
+      "result": "utilisé (passages 2:43, 16:38, 18:57, 19:16, 24:26)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Javelot plus fort à longue distance : coller ou sortir de portée",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (dégâts croissants avec la distance)"
+    },
+    {
+      "idea": "Charge primale soigne plus les cibles basses : Blessures graves",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (soin selon PV manquants)"
+    },
+    {
+      "idea": "Se cacher derrière les sbires, le Javelot s'arrête au premier touché ; elle cherche le flanc",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (Sawyer contourne pour disperser les sbires, Doxa Javelot bloqué par un sbire)"
+    },
+    {
+      "idea": "Elle enchaîne le Javelot sur les CC de son équipe",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Poke avant objectif : ne pas attendre sous les Javelots",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Roams rapides grâce aux buissons (passif)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + passif vérifié DDragon"
+    },
+    {
+      "idea": "Marquée par Javelot/piège : vision 4 s + Bond renforcé, reculer",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Hunt : True Sight 4 s, Pounce renforcé)"
+    },
+    {
+      "idea": "Mise à terre fait plus de dégâts aux cibles basses : ne pas rester bas près d'elle",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (plus de dégâts selon PV manquants)"
+    },
+    {
+      "idea": "Elle cherche les flancs en teamfight",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un conseil de placement (2 requises)"
+    },
+    {
+      "idea": "Nidalee difficile à tuer (couguar, heal, bonds)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, pas actionnable"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "searches": 2,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Another thing to note is that we want to keep his passive proc as much as possible so we can actually keep trading onto him.",
+    "[0] Level six and so, Malzahar's ult and his Q actually extends his E duration. So, if he uses his R onto a champion that has a E onto it, it will extend the duration. Q also works if you have the E onto yourself and he then Q's you, it will extend the E duration, and then it will actually deal some legit damage.",
+    "[0] Now, in the early game, okay, pre-level seven, don't be shy of sometimes taking the E to the face, okay? He actually doesn't have that much damage.",
+    "[0] So, what I do from this position is I hit the creeps, I hit the little voidmites, and I stand closer to this minion than this minion stands closer to that minion. So, now the E will spread onto me instead of onto this creep",
+    "[0] So, very intentional positioning close to this minion that if he E's it, it goes onto me, he misses that creep behind there, and it deals zero damage at this point in the game.",
+    "[0] Malzahar is going to try to avoid the lane and get to level seven without any type of interaction.",
+    "[1] And the key to this matchup really is just making sure to always not let him regain his passive.",
+    "[1] That's very important I get a Q there so he doesn't regen his passive.",
+    "[1] Can't really go for another proc because he would ult me under tower.",
+    "[1] He has six. He can set up a gank for his jungler since I don't have flash.",
+    "[2] I'm going to let him E me here. I don't want to miss the minions.",
+    "[2] He can keep hitting me. I don't mind.",
+    "[2] I wanted to try to hit him before his shield came back up.",
+    "[2] Cuz when you get hit by the Malzahar Q, his E resets on you and it just keeps bleeding.",
+    "[2] I have to be careful getting into tower range cuz if he ults me under tower range, I'm just instant dead."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "r0tdxCiGhJY",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (transcription complète, passages 0:25-6:48)"
+    },
+    {
+      "id": "yePeVyiGs0M",
+      "channel": "Kunain",
+      "result": "utilisé (recherche : 0:16, 0:28, 9:39)"
+    },
+    {
+      "id": "FMYJDfyttX4",
+      "channel": "Doxa Educational ",
+      "result": "utilisé (recherche : 1:21, 1:48, 3:58, 6:38, 8:51)"
+    },
+    {
+      "id": "LdwlHhtq_rs",
+      "channel": "Shok",
+      "result": "écarté : aucun passage « Malzahar » dans les sous-titres (compte dans le plafond de 4)"
+    },
+    {
+      "id": "vSMSgx2FWbA",
+      "channel": "Sjorry",
+      "result": "non ouvert : publiée le 2024-04-26, plus de 2 ans"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://leaguefeed.net/how-to-counter-malzahar/",
+      "result": "refused (404)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Casser son passif (Plan du Néant) avant de trade",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (réduction des dégâts)"
+    },
+    {
+      "idea": "A et R relancent les Visions maléfiques sur toi : esquiver le A",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q/R refresh E)"
+    },
+    {
+      "idea": "Lvl 6+ : rester hors de portée de sa tour (R 2,5 s)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; durée 2,5 s vérifiée DDragon"
+    },
+    {
+      "idea": "Avant lvl 7, encaisser le E plutôt que rater des CS",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Se placer au plus près du sbire mourant pour récupérer le E propagé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (les visions passent à l'ennemi le plus proche)"
+    },
+    {
+      "idea": "Mettre la pression avant le lvl 7, Malzahar veut éviter la lane",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, tip de lane"
+    },
+    {
+      "idea": "Lvl 6 : Malzahar prépare les ganks avec son R",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, tip de lane"
+    },
+    {
+      "idea": "Le pousser sous sa tour : il CS mal sous tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, tip de lane"
+    }
+  ],
+  "videoPending": {
+    "blocked": [],
+    "candidates": []
+  }
+}

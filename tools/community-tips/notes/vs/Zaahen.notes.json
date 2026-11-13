@@ -1,0 +1,117 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] One auto then queue out to the minion before he gets his uh knock up on me. Wait a little bit. Nice. I can go in now.",
+    "[0] He uses his knock up. One more. One more then Q auto.",
+    "[0] What you need to do is never fight him with his full passive on.",
+    "[1] Attention à son dash Q2. Euh tu peux alors s'il te met dash Q2, tu peux essayer de de buffer ton Z en fait dans son dans son bump",
+    "[1] Je me suis pris son R. De toute façon, je pouvais pas l'éviter mais je suis trop tanquer même avec son R de dégâts. Et tu peux l'autoattaque pendant qu'il est dans les airs les gars",
+    "[1] C'est une déduction de dégâts son R, il saute, il va dans les airs et sur LOL, il y a pas de notion de hauteur.",
+    "[1] Je sais pas s'il a son passif là qui c'est pas marqué donc je sais pas. Je vais partir du principe qu'il l'a.",
+    "[2] You kind of want to walk into the E if you can't walk out of it, right?",
+    "[2] Misses W there, which is good. He has his E back up soon, so I'm not going to walk up.",
+    "[2] Got my item and actually going for heal reduction."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "mondcRTNabc",
+      "channel": "WoitlanDunk ",
+      "result": "utilisé (passages 1:36-1:51, 7:01-7:46, 16:40)"
+    },
+    {
+      "id": "iMD_Z7vFhOM",
+      "channel": "Monster SSS Lab",
+      "result": "utilisé (passages 0:12-0:22, 2:58, 10:22-10:31)"
+    },
+    {
+      "id": "jol1haVuc0U",
+      "channel": "Vallheim • League of Legends",
+      "result": "écarté : aucun passage sur Zaahen dans la transcription (game commentée contre d'autres champions)"
+    },
+    {
+      "id": "GMoYVn35zA0",
+      "channel": "Zyrenn",
+      "result": "utilisé (passages 1:17-1:31, 14:14 ; passage ward 9:20-9:56 écarté)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Ne pas all-in quand le passif (résurrection) est plein",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif plein : peut revivre)"
+    },
+    {
+      "idea": "Trade court et reculer avant le knock-up de l'A relancé après le dash E",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (recast A : knock-up)"
+    },
+    {
+      "idea": "Trade après knock-up / E utilisés, reculer quand ils sont prêts",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "E plus fort au bord : se rapprocher si on ne peut pas sortir",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bord de la zone : dégâts bonus + % PV max)"
+    },
+    {
+      "idea": "Esquiver le Z (pull), fenêtre de trade s'il le rate",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z : estoc dans une direction puis attire, CD 14-12 s)"
+    },
+    {
+      "idea": "R : réduction de dégâts mais ciblable, continuer à taper",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (réduction de dégâts pendant l'incantation)"
+    },
+    {
+      "idea": "Blessures graves contre les soins de A et R",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (A soigne % PV max, R soigne % des dégâts)"
+    },
+    {
+      "idea": "Warder quand son A1 est down : auto + A1 casse la ward (double frappe)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: double frappe vérifiée mais PV des wards non vérifiables dans DDragon"
+    },
+    {
+      "idea": "Shove et dive Zaahen après un kill",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, lane/macro"
+    }
+  ]
+}

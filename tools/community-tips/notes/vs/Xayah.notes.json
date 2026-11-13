@@ -1,0 +1,144 @@
+{
+  "searches": 5,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Her biggest weakness is definitely her short range.",
+    "[0] if I come top here and then I add a training dummy behind, you know, these guys, like Zia's feathers do a lot of poke damage",
+    "[0] You can also set up your feathers, right, for a route, you need three feathers to root. So if I queue here and then auto attack this minion, I'm not even hitting this guy at all.",
+    "[0] And you should be constantly trying to place your feathers in a way where you can try to get a pullback on your route",
+    "[0] your alt I think believe gives you five feathers and it allows you to be invulnerable right for like one one second and you're able to dodge a spell land a lot of feathers and then pull it back",
+    "[0] You want to be using your alt to dodge something, right? That should be your first mindset",
+    "[0] I try use it at the very end, I think, to just dodge the Thresh hook in this situation, right? so I don't get hooked.",
+    "[0] As I said, Zia is a very immobile, you know, short range carry, you know, without her her alts.",
+    "[0] you definitely have to be very very mindful about not taking fights when you don't have alts",
+    "[0] Your W gives you bonus attack speed and damage on hit. Um, so you obviously want to start off with W and then just output your feathers",
+    "[0] She can function as a poke champion and an all-in champion when she gets her W off.",
+    "[0] the enemy AD carry needs to be mindful of your feathers, right? Because it's going behind the tank.",
+    "[0] she has a lot of mobility, right? So, she can definitely dodge your feathers",
+    "[0] Like if he dashes to minion, he can dodge all your feathers.",
+    "[1] Those feathers will go on the back of the target that you're hitting, and you will also deal damage on the enemies that are back on him.",
+    "[1] every feather that's on the ground can be used to actually recall it towards the champion.",
+    "[1] if there are three or more feathers hitting the enemies, they will be rooted.",
+    "[1] by the time that the third feather comes in, they probably already moved from this position.",
+    "[1] You basically going to go immune, flying high, and then dealing damage to the enemies in front of you, leaving five feathers on the ground.",
+    "[1] Just keep in mind that in the end all the feathers have to come back to you"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "YdlsXYooMjY",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (passages 5:36, 16:19-23:26, 32:21, 43:24, 48:17, 1:06:44, 1:17:50-1:22:16) ; guide Xayah avec Violet (Challenger), faiblesses lues à l'envers"
+    },
+    {
+      "id": "AnHIXyu9utA",
+      "channel": "Violet Raven",
+      "result": "écarté : guide des matchups du point de vue de Xayah, conseils propres à chaque adversaire, rien de généralisable contre Xayah"
+    },
+    {
+      "id": "gb0ZlpSczXQ",
+      "channel": "Eneino Coach",
+      "result": "utilisé (passages 0:00-2:49) ; guide court : passif, E, root à 3 plumes, R"
+    },
+    {
+      "id": "IpWZ-nH7TP8",
+      "channel": "3 Minute League of Legends",
+      "result": "écarté : sous-titres non récupérés (YouTube rate-limit), compté comme 4e vidéo ouverte"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/xayah/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-xayah/",
+      "result": "refused (404)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Après un sort, ses attaques traversent les cibles : ne pas rester aligné derrière un sbire ou son tank",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : touche toutes les cibles sur la trajectoire et laisse une plume)"
+    },
+    {
+      "idea": "R intouchable 1,5 s utilisé pour esquiver hook/CC : garder son sort clé pour la retombée",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Untargetable 1.5 s)"
+    },
+    {
+      "idea": "E ramène toutes les plumes vers elle : ne pas rester entre plumes et Xayah",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (calls all Feathers back to her)"
+    },
+    {
+      "idea": "Root à 3 plumes : sortir de l'axe (marche ou dash) avant le rappel",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources ; seuil non chiffré dans DDragon (placeholder featherthreshold), donc verifiedByGameData false"
+    },
+    {
+      "idea": "Portée d'attaque courte (525) : punir quand elle s'avance pour last hit",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (attackrange 525)"
+    },
+    {
+      "idea": "Aucun dash, R en CD 140/120/100 : fenêtre d'engage",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (aucun dash dans le kit, CD R 140/120/100)"
+    },
+    {
+      "idea": "Z : vitesse d'attaque 4 s + lame secondaire, reculer puis trade après",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (effectBurn durée 4, lame secondaire, CD 18-14)"
+    },
+    {
+      "idea": "Les champions mobiles esquivent ses plumes avec un dash",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "fusionné dans le tip root (dash hors de l'axe)"
+    },
+    {
+      "idea": "Mur de vent de Yasuo bloque les plumes rappelées et le R",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: trop spécifique à Yasuo, interaction non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Les ADC agressifs (Draven, Lucian, Twitch) gagnent les all-in early",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: conseil lane, une seule source (Violet Raven, non listée, conseils propres à chaque matchup)"
+    }
+  ]
+}

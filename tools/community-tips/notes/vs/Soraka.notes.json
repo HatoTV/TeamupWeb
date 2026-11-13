@@ -1,0 +1,120 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] Take advantage of Soraka's long cooldown on Equinox if she uses it to harass.",
+    "[0] Focus on attacking Soraka when she ever ventures to the frontline to heal her allies.",
+    "[0] It's easier to focus Soraka than the ally she is healing.",
+    "[1] On paper, it looks terrible. Low damage, long cool down, and it only snares enemies if they are unlucky enough to stand in it for more than a second.",
+    "[1] When someone is chasing you, do not throw the silence directly under the enemy. They just walk out immediately and nothing happens.",
+    "[1] Learn which champions on the enemy team have these abilities before the game starts and hold your E specifically for them.",
+    "[2] I could have eat, but I kind of want to save my E for his Q. Since I can cancel it like that.",
+    "[3] Good players will wait for your Q before going for a trade or engaging, and if they engage first, your Q becomes way easier to hit.",
+    "[3] Tip number seven, landing Q gives you health region, movement speed, and reduces your W cost."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "SDKUIhwbXV8",
+      "channel": "Banana Mike",
+      "result": "utilisé (0:29-0:42, 1:44-2:00, 4:23-4:53) ; 2026-04-24"
+    },
+    {
+      "id": "mgH8LCDPjmk",
+      "channel": "Mobalytics",
+      "result": "écarté : > 2 ans (2018), seulement focus/gank/sorts d'invocateur, rien de vérifiable dans DDragon"
+    },
+    {
+      "id": "waIZ0_m3Qs4",
+      "channel": "needyhenry 2nd channel",
+      "result": "utilisé (5:48) ; 2026-10-16"
+    },
+    {
+      "id": "TDu9U_UrVvA",
+      "channel": "Banana Mike",
+      "result": "utilisé (1:40, 1:58) ; 2026-03-29 ; même créateur que SDKUIhwbXV8 : jamais compté deux fois pour un même conseil"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/soraka/",
+      "result": "no-advice (stats et objets seulement, champs de conseil vides)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Soraka/Strategy",
+      "result": "ok (3 conseils contre Soraka, page éditée 2026-05-15, date des conseils inconnue)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/soraka/counters",
+      "result": "no-tips (seul conseil écrit du point de vue de Soraka)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-soraka/",
+      "result": "refused (404)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Soraka garde son Équinoxe (E) pour couper ton engage : fais-la lancer puis engage pendant le CD (20-16 s)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (E CD 20/19/18/17/16, silence dans la zone)"
+    },
+    {
+      "idea": "Esquive l'Appel de l'étoile (A) : s'il touche un champion, Soraka se soigne et son Z coûte moins de PV",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Rajeunissement si A touche un champion, coût en PV de Z réduit)"
+    },
+    {
+      "idea": "Trade juste après le A de Soraka (CD 8-4 s, plus de slow)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (A CD 8/7/6/5/4, ralentit)"
+    },
+    {
+      "idea": "Sors de l'Équinoxe (E) avant la fin de la zone pour éviter le root",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (root à la disparition de la zone)"
+    },
+    {
+      "idea": "Focus Soraka plutôt que l'allié qu'elle soigne ; Z portée 550, coûte ses propres PV",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z portée 550, coût en PV) ; Mobalytics dit aussi « focus her » mais > 2 ans, non compté"
+    },
+    {
+      "idea": "Sans Flash, Soraka est vulnérable à un all-in avec dashes",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source récente (Mobalytics > 2 ans), lane, et sort d'invocateur"
+    },
+    {
+      "idea": "Gank Soraka souvent : peu de CC dur et de disengage",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: seule source Mobalytics > 2 ans (macro)"
+    },
+    {
+      "idea": "Blessures graves contre les soins de Soraka",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: aucune source récente ne le conseille (Mobalytics > 2 ans cite seulement un champion qui en applique)"
+    }
+  ]
+}

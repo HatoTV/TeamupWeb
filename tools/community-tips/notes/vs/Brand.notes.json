@@ -1,0 +1,128 @@
+{
+  "searches": 3,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] we were comfortable losing farm. We just want to get basically to level three. So, we have our stun. And then once we have our level three, we can play up a little bit more.",
+    "[0] laner is in the middle of a bunch of minions, sometimes I'll just alt them just like just like I showed there, and it'll give you control of the wave.",
+    "[0] A lot of brands do struggle with their mana.",
+    "[0] I'm going to get my three passive hit off so we can see Brand in the mid lane. Just how much damage I'm going to do right here.",
+    "[0] Of course, with your Q, in order for it to stun, they have to be inflamed",
+    "[1] However, he is reliant on skill shots for his combo, and he does lack any mobility at all.",
+    "[1] He can apply three stacks onto a large monster or enemy champion, and when he does, they get a ring around them. After 2 seconds, this explodes, dealing damage to the champion hit and all other enemies around them.",
+    "[1] Brand's Q is a straight line skill shot, which deals damage to the first enemy hit. However, if the target's ablaze, it stuns them as well.",
+    "[1] Brand's W places down a circle on the floor, and after a short delay, it erupts dealing damage to all enemies within.",
+    "[1] However, if the target's ablaze, the circle this spreads in is massive, and this is a really easy way to poke enemies in lane where a minion's burning and you use E on the minion to spread it to the champions.",
+    "[1] This will then bounce to another nearby enemy and can bounce up to four times. Otherwise, if there are no other enemies nearby, it can bounce back to Brand and then back to the enemy hopefully.",
+    "[1] Your W absolutely chunks enemies and you can throw it out fairly often. However, once you have access to level three, hitting your full combo which also procs your full hit passive is ridiculous damage.",
+    "[2] moi j'économise ma mana. Je me dis que il faut que je vide ma jauge de mana pour mes 1200 gold. Tant que j'ai pas 1200 gold, je veux garder de la mana en réserve parce que je sais que je vais rester en lane",
+    "[2] Quand une cible est brûlée tu la E ça se transmet plus loin. Quand une cible est brûlée si tu la Q ça la stun. Quand une cible est brûlée si tu la Z ça lui fait plus de dégâts."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "0tLPaYclWgo",
+      "channel": "Burst",
+      "result": "utilisé (passages 1:35, 11:03, 13:23, 16:57, 18:30)"
+    },
+    {
+      "id": "I-kuN9LX4rc",
+      "channel": "Gros Galio",
+      "result": "utilisé (passages 4:51, 13:07), voix FR"
+    },
+    {
+      "id": "akyq_TCfbkk",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (transcription complète, 3 min)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Brûlure (A) ne stun que si la cible brûle : sortir de la ligne / minions",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Q stun si Ablaze, premier ennemi touché)"
+    },
+    {
+      "idea": "3 cumuls de passif : explosion de zone après 2 s, s'écarter des alliés",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (détonation 2 s, zone autour de la victime)"
+    },
+    {
+      "idea": "R rebondit entre ennemis proches (minions compris) : ne pas rester dans la wave",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (rebonds jusqu'à 5 fois)"
+    },
+    {
+      "idea": "E sur minion brûlé : propagation doublée",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (spread range doubled if Ablaze)"
+    },
+    {
+      "idea": "Spike lvl 3 (combo complet avec stun)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Brand manque de mana early : bait ses sorts",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Aucune mobilité : engager après son A",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (aucun dash dans le kit, seul le A étourdit)"
+    },
+    {
+      "idea": "Z après un court délai, poke principal",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (after a short delay)"
+    },
+    {
+      "idea": "Gros kill threat au lvl 6",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, lane idea"
+    },
+    {
+      "idea": "Brand en difficulté contre les enchanteurs",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil de pick"
+    }
+  ]
+}

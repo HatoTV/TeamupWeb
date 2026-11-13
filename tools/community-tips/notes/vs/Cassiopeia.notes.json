@@ -1,0 +1,109 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] there's one more thing that many people don't know but or like they don't think about is that she has mana problems. So she can't keep spamming abilities on you.",
+    "[0] She if she spams ease on you, she's going to be losing a lot of mana.",
+    "[0] Dodge her Q. We're going to go back in maybe. Nah. Dodger Q yet again. She has mana problems.",
+    "[0] Always try to be unpredictable. Dodger Q. W forward. Throw my Q. Dodge her Q again.",
+    "[0] She used her W. So that means I can actually go for a play right now.",
+    "[0] Look away so that I don't get aled by her.",
+    "[1] permanently Q'ing her whenever she's going for minions is a really good way.",
+    "[1] I'm going to hit level two soon, so I do want to trade onto her.",
+    "[1] She can't use her E or W when she's grounded in the miasma. So she actually can die very soon.",
+    "[1] I'm going to my asthma like this, so she can't really jump in on me while I shove this wave.",
+    "[2] She's going to look for a Q onto us when she hits this level two. We're not going to give it to her.",
+    "[2] There we go. Dodge that. Get the minions.",
+    "[2] She's healing up a little bit too much. If we could have dodged the second Q, I didn't think her Q would be back up on that short of a cool down.",
+    "[2] But she has like no mana here.",
+    "[2] I think if I just literally ran I think she dies here unless she has her W."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Pznh1i9aPgk",
+      "channel": "ACEE1",
+      "result": "utilisé (passages 0:00-0:40, 2:46-3:02, 4:21-4:51, 6:06-6:25) ; Katarina vs Cassio commenté, 2026-01-28"
+    },
+    {
+      "id": "ZilrjFe62jc",
+      "channel": "Edo Qiyana",
+      "result": "écarté : aucun sous-titre (ni en-orig ni en) ; compté comme ouverte"
+    },
+    {
+      "id": "cHNMI5g0M-4",
+      "channel": "Kyose",
+      "result": "utilisé (passages 1:11, 4:43, 13:06) ; point de vue Cassio rank 1, 2026-08-06"
+    },
+    {
+      "id": "p2HHz0fSKH0",
+      "channel": "Sophizzticated ",
+      "result": "utilisé (passages 2:39-3:03, 9:14) ; Fizz vs Cassio 26.22, 2026-11-11"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Engager quand Miasmes (Z) est en CD ; ancrage = pas de dash dedans",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (W grounds, Grounded enemies cannot use Movement abilities ; CD 24-16 s)"
+    },
+    {
+      "idea": "Bombe nocive (A) a un délai : bouger, surtout en allant CS ; CD très court",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (brief delay, CD 3.5 s)"
+    },
+    {
+      "idea": "Problèmes de mana early : lui faire rater ses sorts puis trade",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Pic du lvl 2 : elle cherche le trade dès qu'elle l'atteint",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Tourner le dos à son R : slow au lieu du stun",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (stun if facing, slow if back turned)"
+    },
+    {
+      "idea": "Morsure fatale (E) ne soigne que sur cible empoisonnée : esquiver A/Z",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (bonus damage and heal only vs Poisoned)"
+    },
+    {
+      "idea": "Matchup facile avant lvl 6, all-in au lvl 2 (Katarina)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, propre à Katarina"
+    }
+  ]
+}

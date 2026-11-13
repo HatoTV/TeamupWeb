@@ -1,0 +1,114 @@
+{
+  "searches": 1,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] more has very big CDs guys like the q's the E the ultimate is very long CD so it's very nice to have the ability haste",
+    "[0] you only want to go into close distances when you have your ultimate",
+    "[0] if he tries to engage use Shield there's no knock up there and you can cage him get good distance",
+    "[0] Karma could be hard M the thing is that the ultimate gets rid of every rout and everything like is really good and lacks brand any poke Mages or any Mages",
+    "[0] in general what you want to do is you want to control the bushes right because we are winning I'm also going to start level one with sweeper so we have Bush control right",
+    "[0] I think I end up missing my que because the minions were in front",
+    "[0] distance is key with Morana right you want to keep your distance all the time",
+    "[0] I'm very squishy Morana is very squishy Champion especially if you go full AP",
+    "[0] it doesn't need to be a ultimate with five players because right now in 2024 everyone can escape right everyone can escape from the ultimate",
+    "[1] However, she has very low mobility while being squishy, and she is very skillshot reliant on a slowmoving ability.",
+    "[1] Morgana's Q is a straight line skill shot, which deals damage to the first enemy hit and roots them.",
+    "[1] Morana's E grants herself or an allied champion a shield for 5 seconds. It only blocks magic damage. However, while the shield holds, it blocks all CC effects.",
+    "[1] The tether lasts for 3 seconds, during which time she gains bonus move speed and enemies hit are slowed. If the tether isn't broken, that dealt damage again and stunned.",
+    "[1] For matchups, Morana is great into engage supports where her black shield just negates all their lockdown. However, she can struggle against lane bullies who will easily push her out of lane.",
+    "[1] Otherwise, look to take early brush control and threaten all-ins with your Q.",
+    "[1] And then once you hit level six, you now have massive kill threat where you can black shield yourself and simply walk up to them with alt to make them stand still and take tons of damage."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "CdMtIFc7wMk",
+      "channel": "Hooky",
+      "result": "écarté : partie Pyke commentée sans conseil exploitable contre Morgana"
+    },
+    {
+      "id": "govp5qcA5AU",
+      "channel": "Coach K",
+      "result": "utilisé (passages 4:01, 6:11, 17:03, 18:54, 20:31, 27:44, 28:21, 37:21, 37:45)"
+    },
+    {
+      "id": "kVgzWRLIoS8",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (transcription complète, 3 min)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "A s'arrête sur la première cible : rester derrière les minions",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Roots the first enemy hit)"
+    },
+    {
+      "idea": "Bouclier noir bloque les CC, n'absorbe que le magique : le faire sauter ou attendre",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Magic Shield, prevents Disabling until it breaks)"
+    },
+    {
+      "idea": "R : stun après délai si chaînes non brisées, s'éloigner",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (enemies unable to break the chains are Stunned)"
+    },
+    {
+      "idea": "Fragile, sans dash, dépend du A : punir le A raté",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (aucun dash, CD A 10 s)"
+    },
+    {
+      "idea": "Lvl 6 : E sur elle-même puis marche avec R",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Souffre contre les lane bullies / le poke",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Contrôle des buissons pour menacer le A",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Durées précises (bouclier 5 s, chaînes 3 s)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: valeurs absentes de Data Dragon 16.22.1 (placeholders), non vérifiables"
+    }
+  ]
+}

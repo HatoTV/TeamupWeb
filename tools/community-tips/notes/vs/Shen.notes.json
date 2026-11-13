@@ -1,0 +1,145 @@
+{
+  "searches": 9,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] So, the way I see Shen is like you need to win lane because if you're under tower as Shen, you're useless. So, one to five, you're strong. Six, you're weak cuz you don't have an ulti in 1 v one, right?",
+    "[0] I do think he's actually snowball reliant to be honest.",
+    "[0] I would see lots of Shen Rs they you know Shenar bot and they don't get anything for they save their teammate but they lose two blades top or like two waves",
+    "[1] les rares matchup où Garen est franchement solidement gagnant. Juste il y a l'arly qui est très difficile. Bon, parce que Shen est un des meilleurs champions en early en top lane.",
+    "[1] le but de chaîne, c'est qu'il fasse passer son épée à travers toi par giga giga boost à spell. On va le trade quand il a plus shield de son passif.",
+    "[1] Contre chaîn gaffe à la fin des trades, la plupart des chaînes, ils vont dash out en essayant de passer à travers toi. [...] il a voulu passer à travers moi avec son E et au final du coup, je le dodge.",
+    "[1] Je vais le faire, je vais lui faire sa zone. En vrai, CD est plus long que mon queue, ça peut m'offrir un free dive. Genre là, s'il vient s'approcher sur ses mêlés, je sais qu'il a pas sa zone et je peux peut-être le one tap.",
+    "[1] En gros, le CD du passif de chaîne est réduit quand il touche un spell.",
+    "[1] dès que chan level 6, ça sert plus à grand-chose de look pour le trade dans des timings où il peut TP bot. Faut juste per ma push et faire en sorte qu'il ait pas de bonne TP bot. Al que si TP botte, tu puisses prendre un max de plaque.",
+    "[2] Cuz something I mentioned before is Shen's W is not an ability if the opponent doesn't auto attack.",
+    "[2] Shen doesn't have any poke and his only form of getting on top of Kennon is E, which Ken can dodge with his E.",
+    "[2] And Shen's only way of getting on top of Vlad is taunt. Vlad can W Shen Taunt and not get hit by Shen Taunt.",
+    "[2] she can actually just auto you and out trade you because your W is such a long cool down. [...] just make sure you don't waste your W because if you waste your W, walk up to the wave and you're not careful, Ireelia can kill you or out trade you.",
+    "[2] This is a really easy matchup because Casante's early game is very weak and Shen's early game is actually quite strong.",
+    "[2] these champions in this category kind of have like 1 v one defining ultimates. [...] You just have to win for level six or it becomes very very difficult."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "2CXi04mpPkM",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (chapitre Shen 1:59:19-2:05:06, Coach Chippys)"
+    },
+    {
+      "id": "ab-Q-Bs7xWU",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 0:11-5:54, voix FR)"
+    },
+    {
+      "id": "10wr98xUzUE",
+      "channel": "IMainTopLane",
+      "result": "utilisé (intro 0:35-1:20, Irelia 8:33-9:20, K'Sante 9:40-10:32, hard after 6 34:53-38:10, ranged 41:05-43:46) ; tier list du point de vue de Shen, voix EN"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Shen très fort lvl 1-5, respecter son early, il dépend d'une avance",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Après le lvl 6, son R ne sert à rien en 1v1 ; les champions à ult de duel prennent le dessus",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Forcer le W (long CD) puis trade pendant son CD",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; CD du W 16-10 s vérifié DDragon"
+    },
+    {
+      "idea": "Le E est son seul moyen de coller : l'esquiver (décalage ou dash)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; E = dash qui provoque les ennemis sur sa trajectoire (DDragon)"
+    },
+    {
+      "idea": "Quand Shen R ailleurs, push et prendre les plaques, il perd des vagues",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Trade quand le bouclier passif est en CD ; CD réduit quand ses sorts touchent",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Barrière de ki : bouclier après un sort, CD réduit en affectant des champions)"
+    },
+    {
+      "idea": "Ne pas rester entre Shen et sa lame : A renforcé et ralentissement",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Assaut crépusculaire renforcé s'il touche un champion, ralentit ceux qui s'éloignent de Shen)"
+    },
+    {
+      "idea": "Le W ne bloque que les attaques de base : poke aux sorts",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Refuge spirituel bloque les attaques)"
+    },
+    {
+      "idea": "Reculer tôt en fin de trade, il finit souvent par un E à travers toi",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: cap de 8 tips, recoupe le tip E"
+    },
+    {
+      "idea": "Ping l'équipe quand Shen passe lvl 6",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    },
+    {
+      "idea": "Garder Shen sous sa tour : peu de poke et de wave clear",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: cap de 8 tips ; recoupement partiel seulement"
+    },
+    {
+      "idea": "Shen faible contre les ranged AP qui ne dépendent pas des autos",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de pick, pas de jeu ; idée du W gardée en mécanique"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "searches": 2,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] Oh, we dodge his E. I wanted to get We get his flash. I bait out the E, boom. Walk back in. W, get his ignite.",
+    "[0] If I get short trade here, he's going to insta place turret when I walk up for this minion. That's okay, no E. I just got to look to one-shot the turret right now.",
+    "[0] Just the the turrets are really like um level one. Like level one, you can just fight him and his turrets and you win.",
+    "[0] Since he has three turrets, you kill all of them in time and he only has auto attacks left. But you need to focus the turrets.",
+    "[1] What I wanted to do is clear all of his turrets before the minions spawn. What Heimerdinger wants to do is drop his turrets and then he is going to have another three turrets that he can drop the moment you clear the first three.",
+    "[1] But if you are able to clear his first three turrets immediately, then he won't have the ability to replenish them when you finally fight the wave.",
+    "[1] You use your Q from max range to kill his turrets, and you try to make him go out of mana.",
+    "[2] It's better to destroy all of Heimerdinger's turrets with the help of creeps than to fight them one at a time.",
+    "[2] Be wary of Heimerdinger's UPGRADE!!!, as he can use it to find an answer to most trouble he gets into.",
+    "[2] Once his ultimate is down, go in for the kill!"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "8zD049GhlZk",
+      "channel": "EUWXYZ",
+      "result": "utilisé (passages 4:53, 6:46, 18:24-18:45)"
+    },
+    {
+      "id": "ki1s_ZPfV58",
+      "channel": "quante",
+      "result": "écarté : surtout propre à Urgot (poke Q, mana), une seule idée de wave (empêcher son reset) sans 2e source"
+    },
+    {
+      "id": "cnHIMSfoXxo",
+      "channel": "Souz2z",
+      "result": "écarté : gameplay en musique, aucun commentaire"
+    },
+    {
+      "id": "JCN8xj_-4sk",
+      "channel": "Federals1",
+      "result": "utilisé (chapitre Heimerdinger 0:42-9:14 ; passages 0:55-1:10, 2:53)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Heimerdinger/Strategy",
+      "result": "ok (archive sans date : traité comme > 2 ans, seulement pour mécaniques vérifiées)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Casser ses tourelles en priorité, depuis la portée max ; sans elles il n'a que ses auto-attaques",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Au lvl 1, détruire ses tourelles avant les sbires pour qu'il ne puisse plus les remplacer dans le combat de wave",
+      "sourceIdx": [
+        1,
+        0
+      ],
+      "kept": true,
+      "reason": "2 sources (charges de la Tourelle vérifiées : 3 charges en DDragon)"
+    },
+    {
+      "idea": "Esquiver / bait sa Grenade (E, stun au centre, slow autour, CD 11 s) puis revenir trade",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 11 s à tous les rangs, stun centre + slow zone)"
+    },
+    {
+      "idea": "Son R (AMÉLIORATION !) le sort de la plupart des situations : all-in quand le R est en CD",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source (> 2 ans) + DDragon (R améliore le prochain sort, CD 100/85/70)"
+    },
+    {
+      "idea": "Le vider de son mana en tuant ses tourelles",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, tip de lane"
+    },
+    {
+      "idea": "Il attend que tu t'engages pour poser ses tourelles",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    },
+    {
+      "idea": "Empêcher son reset en gardant la wave poussée vers lui (quante)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 seule source, très propre à Urgot"
+    }
+  ]
+}

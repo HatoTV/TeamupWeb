@@ -1,0 +1,156 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Think about how annoying Shaco's kit is. He's got a dash jump which is, to be honest, it's not even that long of a cooldown especially mid to late game.",
+    "[0] The E is, you know, a bit of a I guess it's like a slow as well. And it's also I think it's an execute as well.",
+    "[0] I'm overextending hitting a tower, he gets a good queue over a wall with Hail of Blades and just like he hits me from behind.",
+    "[0] If I'm sitting in a bush and Shaker stands on a trap or gets hit by my EQ auto, he's literally one shot, dude.",
+    "[0] Let him take your camps. Your jungle camps are going to respawn quicker than his camps. On that second rotation, as long as you get back to it on spawn",
+    "[0] As long as he does the first three camps, he can he can rush, and that's why it's he can get on the map quick. A level three gank.",
+    "[0] Don't chase him for the Q or chase him into the box. Shaco is a champion, you've got to be happy letting him go on 30% HP.",
+    "[0] He like sets up the boxes in the top lane, sits there on low HP, the enemy Jax or whatever will try and kill you, runs into one box, goes back of it, runs into another box",
+    "[0] Where does the damage come from with AP Shaco? The boxes and the clone explosion.",
+    "[0] You have to play your lane in such a way that if he does gank you and throw his body at you, you can still live. Not flashing aggressively in your lane, trading less. Keeping your waves in conservative locations.",
+    "[1] He takes my top side camps. And now he plays his full botside camps. So, I cannot invade him there as well. And now I have to invade his top side camps and then take my chickens on respawn timer.",
+    "[1] And now Shaker will cheese here in this bush. putting a fox in the bush.",
+    "[2] Essayez de regarder si vous avez des possibilités au niveau des ganks niveau 3.",
+    "[3] Imagine if you got in that brush and he was pushing it like this. You could box the brush and he just face checks you and you probably solo kill him.",
+    "[3] When you backstab once, the enemy champion is going to run away. When they run away, they're going to be facing the other direction, so you'll be following them in the back. Their back is facing you the entire time.",
+    "[3] Vi is actually quite a nice match up for Shaco, because if you have queue, she can never kill you or do anything."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "GtBl5SxC3wE",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (passages 3:14-3:37, 5:08-5:34, 7:28-8:43, 9:20-9:31, 10:08-10:57, 12:48-13:26)"
+    },
+    {
+      "id": "dRy1fM6Cc5Q",
+      "channel": "Sinerias",
+      "result": "utilisé (passages 2:29-2:41, 3:02-3:14) ; peu de commentaire utile ensuite"
+    },
+    {
+      "id": "gvH-gbpoQvY",
+      "channel": "Sixen • League of Legends",
+      "result": "utilisé (passage 0:51, ganks niveau 3) ; le reste porte surtout sur le build"
+    },
+    {
+      "id": "z0oZ6O7VjMc",
+      "channel": "Eagz",
+      "result": "utilisé (passages 10:04, 10:53, 12:33)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Passif et A plus forts de dos ; fuir lui offre le dos, lui faire face",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Backstab : dégâts bonus de dos ; Q crit de dos)"
+    },
+    {
+      "idea": "Ne pas face-check les buissons : boîtes cachées, invisibles, fear",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W se camoufle après armement, fear à l'approche)"
+    },
+    {
+      "idea": "Gank attendu dès le lvl 3 après trois camps",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Invade lvl 1 : ne pas se battre, prendre ses camps opposés puis les siens au respawn",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ne pas chase un Shaco bas en PV : fuite par A et boîtes",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q téléporte et rend invisible ; W fear les ennemis proches)"
+    },
+    {
+      "idea": "A utilisé pour engager = fuite principale en CD 11-13 s",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD Q 13/12.5/12/11.5/11)"
+    },
+    {
+      "idea": "E exécute sous 30 % PV",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts bonus si cible < 30 % PV, portée 625)"
+    },
+    {
+      "idea": "Clone R explose à sa mort + 3 mini-boîtes qui fear aussitôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (explosion + trois mini Jack in the Box déclenchées immédiatement, fear)"
+    },
+    {
+      "idea": "Rester haut en PV, wave conservatrice, pas de Flash agressif",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip lane"
+    },
+    {
+      "idea": "Contre Shaco AD rester groupé, pas seul sur une wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip macro"
+    },
+    {
+      "idea": "Contre Shaco AP agresser tôt et prendre les objectifs neutres en premier",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip macro"
+    },
+    {
+      "idea": "Révéler la zone avant un objectif (boîte déclenchée si révélée)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: impose de nommer un item de vision"
+    },
+    {
+      "idea": "Smite son premier camp contre la cheese lvl 1",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, usage de sort d'invocateur"
+    }
+  ]
+}

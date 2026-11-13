@@ -1,0 +1,121 @@
+{
+  "searches": 6,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] In spider form, her Q is a point-and-click ability which dashes her to the target, dealing damage to them, scaling with their missing health.",
+    "[0] Her human form E is a straightline skill shot which stuns the first target hit. In spider form, it causes her to lift up into the air and become unargetable. After 2 seconds, she will naturally come back down where she left. Or if this ability is recast on an enemy, she'll instead come down on top of them.",
+    "[0] And the main thing to make or break your ganks is landing that cocoon.",
+    "[0] For matchups, Elise is amazing into squishier junglers who she can cocoon and one-shot.",
+    "[0] From here, a zas into your spider E is a great way to keep yourself safe, wait for cool downs, and go for another target.",
+    "[1] Use spider form to finish off enemies with low health, while human form's Neurotoxin is more effective against high-health targets.",
+    "[1] Lee Sin will easily be killed if he is stunned with your cocoon.",
+    "[DDragon enemytips] Rappel will only move Elise straight up and down unless she can descend upon an enemy unit.",
+    "[DDragon enemytips] Rappel has a long cooldown. Elise is vulnerable after she has used it.",
+    "[DDragon EliseHumanE] Human Form: Stuns the first enemy unit hit and reveals them if they are not stealthed."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "tGS3ROD8YW4",
+      "channel": "Makkro",
+      "result": "écarté : partie Ornn top contre Elise jungle, aucun conseil exploitable contre elle (2026-10-22)"
+    },
+    {
+      "id": "XVBsHTzcIWg",
+      "channel": "Coach Kirei",
+      "result": "écarté : guide de jungle générique (waves, objectifs), rien sur comment jouer contre Elise"
+    },
+    {
+      "id": "jdY6Qi1zA_w",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (passages 0:36, 1:02-1:14, 1:37, 2:18, 2:44), 2026-02-13"
+    },
+    {
+      "id": "2Kf4bPfDq58",
+      "channel": "Kireilol",
+      "result": "écarté : même créateur que Coach Kirei ; seulement une astuce de timing lvl 6 de laner, rien contre Elise"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/elise/counters",
+      "result": "ok (tips écrits côté Elise, sans date : mécaniques vérifiées DDragon seulement)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/elise/",
+      "result": "no-advice (phrase générique + items)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-elise/",
+      "result": "404"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Cocon (E) s'arrête sur la 1re unité : rester derrière les minions, surtout en gank",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (stun première unité ennemie touchée)"
+    },
+    {
+      "idea": "Morsure venimeuse (A) araignée scale sur les PV manquants : bas en vie, garder ses distances",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (description + enemytips)"
+    },
+    {
+      "idea": "Après Suspension (E), long CD et Elise vulnérable : all-in",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (enemytips : long cooldown, vulnérable après)"
+    },
+    {
+      "idea": "Suspension (E) la repose au même endroit sauf unité ennemie à portée : reculer puis punir l'atterrissage",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (enemytips : seulement haut/bas sauf unité ennemie)"
+    },
+    {
+      "idea": "Elise se fait outscale en late : jouer sur la durée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    },
+    {
+      "idea": "Elise galère contre les tanks qu'elle ne peut pas burst",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, non vérifiable en DDragon"
+    },
+    {
+      "idea": "Elise solo le drake grâce aux araignées : surveiller le drake",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    },
+    {
+      "idea": "Elise est une bonne tower diver tôt",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane/macro, 1 seule source"
+    }
+  ]
+}

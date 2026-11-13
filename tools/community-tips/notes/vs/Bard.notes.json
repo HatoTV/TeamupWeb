@@ -1,0 +1,148 @@
+{
+  "searches": 9,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] remember that your portal and ultimate can also be used by enemies.",
+    "[1] If the bolt hits terrain or a second enemy, it [stuns both targets]",
+    "[1] If the champion is an enemy, the shrine is destroyed.",
+    "[1] Magical Journey affects: Self, Allies, Enemies. A champion can pass through the corridor by selecting it while within proximity of it.",
+    "[1] putting all champions, minions, monsters, and turrets hit into stasis for a short time.",
+    "[2] One common pattern I do on bard is to get level two advantage on wave two, shove in the wave on wave three, then roll mid as the lane slow pushes back on wave four.",
+    "[2] The ideal time to go for an early roam is when the enemy wave is guaranteed to eventually push back into your turret.",
+    "[2] I try to only go for a level two roam mid when I have a chai nearby to move faster.",
+    "[2] One of my favorite mechanics is to bait my enemies into following me through a portal they probably didn't want to take.",
+    "[2] If I want the enemy to take a portal without me, I'll put down the portal then path towards the start point to try to make the enemy preemptively take it or misclick trying to hit me.",
+    "[2] I'll sometimes intentionally delay putting anything down until they're in melee range before portaling and hoping they accidentally click on the portal while trying to click on me.",
+    "[3] she will eat to the wall, which makes it really easy for you to stun.",
+    "[3] you always position with a wall next to on your back, you can queue backwards once she E's you to stun her before she can queue you.",
+    "[3] he can never E through a wall because Bard will just stun him",
+    "[3] if your Q breaks the spell shield and then hits a champion, minion, wall, then whoever he hits with the Q is still going to get stunned.",
+    "[3] The only way a Bard can beat him is baiting him into a portal he doesn't want to, where he clicks W on you, and then you kidnap him basically.",
+    "[3] She has a stronger laning phase, and she roams better than Bard in the early game.",
+    "[3] he has an easy time to match Bard's roams with his own ult.",
+    "[3] she cannot match your roams, but she scales better into team fights than you do. I'm going to put her in skill match up cuz you can roam and set the entire map on fire without her being able to do",
+    "[3] She cannot match your roams. So, you basically just get to control the map majority of the game. But, if you don't win through those roams, you will have a hard time."
+  ],
+  "videosRead": 2,
+  "videosTried": [
+    {
+      "id": "Tk6dkm0LZFI",
+      "channel": "Lathyrus",
+      "result": "1re passe : rate-limit. Passe de complétion : utilisé (5:24, 7:39, 9:23, 14:21-14:37, 16:40-16:54, 18:42, 19:14, 28:02, 32:43-32:55) ; tier list vue côté Bard, idées anti-Bard déduites des passages cités"
+    },
+    {
+      "id": "t8Cn-d0_ejM",
+      "channel": "Polypuff",
+      "result": "1re passe : rate-limit. Passe de complétion : utilisé (8:02-8:28 roam, 10:06-10:40 portail) ; 2025-08-23, < 2 ans"
+    },
+    {
+      "id": "n_6vF2DClVk",
+      "channel": "Polypuff",
+      "result": "écarté : même créateur que t8Cn-d0_ejM (ne ferait pas une source de plus), non rouvert"
+    },
+    {
+      "id": "N2adDvcnXC4",
+      "channel": "Lathyrus",
+      "result": "écarté : même créateur que Tk6dkm0LZFI (ne ferait pas une source de plus), non rouvert"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/bard/",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://op.gg/lol/champions/bard/counters/support",
+      "result": "ok (1 tip joueur Bard, sans date : traité > 2 ans, mécaniques seulement)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Bard/LoL",
+      "result": "ok (notes de compétences)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Les ennemis peuvent emprunter le portail de la Route magique (E) : le suivre si c'est safe",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (BardE : « Any champion can enter the portal »)"
+    },
+    {
+      "idea": "Destin tempéré (R) met tout en stase, tourelles comprises : ne pas gaspiller son burst dessus",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (BardR : stasis sur toutes les unités et structures touchées)"
+    },
+    {
+      "idea": "Lien cosmique (A) ne stun qu'avec un mur ou une 2e cible : éviter murs et alignement",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (wiki + Lathyrus) + DDragon (BardQ : stun si 2e ennemi ou mur)"
+    },
+    {
+      "idea": "Ne pas cliquer près de l'entrée du portail en chassant Bard : il s'en sert pour kidnapper",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (BardE : « Any champion can enter the portal by moving onto it while near the entrance »)"
+    },
+    {
+      "idea": "Bard roam dès le lvl 2-3 quand la wave repousse ; prévenir le mid, suivre ses roams",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (Polypuff : schéma de roam lvl 2 ; Lathyrus : les supports qui suivent ses roams le contrent)"
+    },
+    {
+      "idea": "Marcher sur les autels du Don du gardien (Z) pour les détruire",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (BardW : « If an enemy champion enters a shrine, it is destroyed »)"
+    },
+    {
+      "idea": "Bard passe lvl 2 un minion plus tôt s'il a ramassé 2 carillons",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil de lane ; non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Bard au lvl 2 marche vers la rivière puis revient par le portail dans ton dos",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil de lane"
+    },
+    {
+      "idea": "Bard tombe en late game, les enchanteurs le surpassent après ~22 min",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, macro = 2 sources requises"
+    },
+    {
+      "idea": "Push vite la lane pour empêcher Bard de roam, chercher le kill lvl 2-3",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: vu seulement dans un résumé de recherche web, pas une source lue ; tip de lane = 2 sources requises"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "searches": 5,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] Faut juste bait sa petite immunité au stun. Ouais, ouais, c'est ça. Tu essaies de Ouais, faut trade intelligemment quoi.",
+    "[0] Si tu l'all-in au milieu de la lane, tu vas pas le fumer hein. C'est lui qui va te fumer parce qu'il va te mettre un Il va te short trade et et tu auras juste l'air con derrière. Il va te faire ça en boucle, il va te faire gank, tu vas crever.",
+    "[1] She can block your brittle with W. Her is unstoppable, which makes your brittle not proc. Like if the enem is unstoppable and you auto attack with brittle, you get no damage. or if you eat them or because the CC doesn't happen so you don't get the damage.",
+    "[1] The same thing with Olaf or Casant any champions with unstoppable you don't get the damage so you all your damage just gets nuked.",
+    "[1] the the shield basically blocks all of your brittle damage. So anything that has a shield that can block brittle can be annoying just because it's most of your damage.",
+    "[1] Like uh Jay's Casant Fiora, like they have a lot of reach and they have a lot of spacing. Like they can trade from pretty far and disengage really well.",
+    "[2] Try to stay away from walls. Ornn is much less strong if he cannot stun you.",
+    "[2] Attack Ornn to keep him from creating items in lane."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "f4ZzuSeIPkY",
+      "channel": "We Teach League Highlights & Clips",
+      "result": "utilisé (passages 0:00-0:40, 6:28-6:58) : Makkro (OTP Ornn) explique que l'imparable et les boucliers privent Ornn des dégâts de Fragilité ; extrait de vaUPKc-EofU (BBC), compté comme 1 source"
+    },
+    {
+      "id": "pC3cx2YfLXQ",
+      "channel": "WoitlanDunk ",
+      "result": "utilisé (passage 0:45-1:35) : bait l'immunité au CC d'Ornn ; conseil all-in/short trade gardé en note mais 1 seule source"
+    },
+    {
+      "id": "Z51L8b6ERoY",
+      "channel": "arthur",
+      "result": "écarté : aucun sous-titre en-orig disponible (requête comptée dans le plafond de 4)"
+    },
+    {
+      "id": "rBxaDQvs_gM",
+      "channel": "TF Blade",
+      "result": "écarté : commentaire de partie Jax sans conseil propre à Ornn (aucun passage sur ses sorts)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/ornn/counters",
+      "result": "no-tips (conseils pour jouer Ornn, pas contre lui)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Ornn/Strategy",
+      "result": "ok (non daté : traité comme > 2 ans, mécaniques seulement)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/ornn/",
+      "result": "no-advice"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ornn est imparable pendant sa Fournaise (Z) : bait-la avant ton CC",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W : « stomps forward Unstoppably », CD 12-10 s)"
+    },
+    {
+      "idea": "Fragile : dégâts bonus sur chaque immobilisation et sur son auto qui repousse ; bouclier ou imparable les évitent",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Brittle : « Immobilizing effects on Brittle targets ... deal an additional max Health magic damage », attaques d'Ornn sur cible fragile = knockback + dégâts bonus)"
+    },
+    {
+      "idea": "Reste loin des murs et de la colonne de lave : E contre un terrain = knock-up",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E : « If Ornn rams into terrain ... Knocks Up » ; Q crée une colonne de roche que la charge détruit)"
+    },
+    {
+      "idea": "Ne l'all-in pas au milieu de la lane : il short trade en boucle et appelle le gank",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane, 1 seule source (snippet Metabot vu en recherche, pas une source)"
+    },
+    {
+      "idea": "Champions à portée/spacing qui trade de loin et disengage gênent Ornn",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane, 1 seule source"
+    },
+    {
+      "idea": "Frappe Ornn pour l'empêcher de forger ses objets en lane",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans DDragon (le passif ne dit pas que les dégâts interrompent la forge) et source non datée"
+    }
+  ]
+}

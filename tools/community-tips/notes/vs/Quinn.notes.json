@@ -1,0 +1,150 @@
+{
+  "searches": 3,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] After being marked, move away from Quinn so she can't take advantage of it.",
+    "[0] Engage when Harrier is not marked upon a champion. This means that Quinn cannot deal the bonus mark damage to a champion and thus missing out on that burst.",
+    "[0] since that means missing on around 300 mark damage together with the attack speed bonus",
+    "[0] Aside from Behind Enemy Lines has another escape/disengage in Vault, which also requires good positioning in order for her to leap into the direction of her choice. Flanking her from behind is a good way to stop her from Vaulting away.",
+    "[0] Keep tabs on Quinn's position. Behind Enemy Lines can enable Valor to cross the map very quickly and attack you by surprise.",
+    "[1] any way that you can deny a passive Auto whether you flash out of range at the very end or you have some kind of damage blocking ability is vital because that's where a lot of their damage comes from",
+    "[1] every time that she uses her e she lands at her max Auto Attack range this means that if you get used to this and you know a lot about Quinn you can predict where you should throw your skill shot",
+    "[1] look to stop her roams and build armor and play defensive when she's missing",
+    "[2] First, Quinn's passive marks enemies, dealing bonus physical damage on her next auto attack.",
+    "[2] Quinn's Q marks enemies and removes their vision.",
+    "[2] Quinn's W passively gains attack speed and movement speed after she attacks an enemy with the mark.",
+    "[2] After the ability, she will also jump near her maximum attack range away from the target.",
+    "[Strey 1j5STLckDP4] C'est un très bon champion early queen. Je peux pas vraiment la la menacer ni rien."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "1j5STLckDP4",
+      "channel": "Strey VOD - League of Legends",
+      "result": "écarté : Kennen vs Quinn, une seule idée (Quinn forte en early, 2:23) sans 2e source récente"
+    },
+    {
+      "id": "WaZ-DS17oeE",
+      "channel": "SoloRenektonOnly",
+      "result": "écarté : aucun passage sur la lane contre Quinn"
+    },
+    {
+      "id": "URN1amfCvwM",
+      "channel": "Mobalytics",
+      "result": "utilisé (0:39-0:52, 1:34-1:46) ; 2018-07-31, > 2 ans : mécaniques DDragon seulement"
+    },
+    {
+      "id": "FrsX9zzCYaE",
+      "channel": "Daveyx3",
+      "result": "utilisé (0:11-0:35) ; 2026-01-25 ; point de vue Quinn (description du kit)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn/Strategy",
+      "result": "ok (page d'archive, éditée 2024-12-16 : traitée comme mécaniques seulement)"
+    },
+    {
+      "url": "https://www.op.gg/champions/quinn/counters",
+      "result": "stats-only (seul conseil écrit : pour jouer Quinn, pas contre elle)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-quinn/",
+      "result": "refused (404)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Marqué par Busard : recule ou bloque la prochaine auto de Quinn (dégâts bonus)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (passif : dégâts bonus sur la 1re auto contre une cible Busard)"
+    },
+    {
+      "idea": "Le Salto (E) la fait rebondir en arrière : vise sa réception ou prends-la de flanc",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (E : dash puis saut en arrière depuis la cible)"
+    },
+    {
+      "idea": "Engage quand Busard n'est pas sur toi : pas de dégâts bonus ni de vitesse du Z",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif + Z passif liés à Busard)"
+    },
+    {
+      "idea": "L'Assaut aveuglant (A) réduit ton champ de vision",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (A : réduit le rayon de vision, désarme les non-champions)"
+    },
+    {
+      "idea": "Surveille Quinn : son R lui permet de roam par surprise",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (macro : wiki d'archive et Mobalytics 2018 tous deux > 2 ans, aucune source récente)"
+    },
+    {
+      "idea": "Quinn est forte en early : ne force pas les premiers niveaux",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "waiting for a 2nd source (lane : Strey 1j5STLckDP4 seul récent ; Mobalytics > 2 ans)"
+    },
+    {
+      "idea": "Infliger des dégâts à Quinn pendant son R met fin à l'effet",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans Data Dragon (le tooltip dit seulement qu'attaquer ou lancer A/E relance le R)"
+    },
+    {
+      "idea": "Le Salto (E) peut être interrompu en plein vol",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans Data Dragon"
+    },
+    {
+      "idea": "Les cibles marquées par Busard sont visibles des deux équipes",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans Data Dragon"
+    },
+    {
+      "idea": "Ténacité / armure contre Quinn",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de build (interdit)"
+    },
+    {
+      "idea": "Picks counter (Malphite, Kled, Yorick)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de pick, pas de gameplay"
+    }
+  ]
+}

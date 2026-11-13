@@ -1,0 +1,143 @@
+{
+  "searches": 7,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] all of her cooldowns are ginormous. They're all super long cooldowns. For example, her Q. Look at it. It doesn't it doesn't reduce the cool down by level. So it's always a really long cooldown no matter what.",
+    "[0] Um her E it's not it's not terrible like late game. Um but in laning phase it is super long.",
+    "[0] This is pretty much her E is pretty much her only trading ability in the entire game. It takes 70 mana.",
+    "[0] You use E three times and you're already below half mana.",
+    "[0] So W and Q, those are 80 mana level one. Her mana usage is just really really high.",
+    "[0] They'll they'll run away with the with W on them and die",
+    "[0] But the biggest pitfall that you will run into playing this character is if they go poke, you are worthless.",
+    "[0] It's telegraphed and it's very slow moving.",
+    "[0] you struggle into poke. That is the thing with Ranatada.",
+    "[0] The only thing that Ranata is actually good into and super viable into is engage.",
+    "[0] you want them to engage on you and then you ult when they're right inside of your",
+    "[0] It is a good disengage. It's a good like re-engage, but it's not a good start the fight tool.",
+    "[1] She has amazing disengage. She's great at keeping her carry alive.",
+    "[1] However, she does lack any mobility at all, and she is very skill shot reliant.",
+    "[1] At any point during this root time, Renata can recast this ability to knock them in a direction. And if you knock them to another enemy champion, both are stunned.",
+    "[1] And if the target it's applied to dies, they start fighting for their life. They're briefly restored to max health and start taking massive damage over the time. And if they get a takedown during this time, instead of dying, they don't.",
+    "[1] Enemies hit become berserk, where they again large amount of bonus attack speed and are increased in size. And while berserk, they start attacking each other",
+    "[1] For matchups, Renata is great into engage supports, being able to easily disengage them. However, she can struggle into lane bullies who can poke her for free most of the game.",
+    "[1] At level two, your E and Q is an amazing trade combo",
+    "[1] it's all about landing your abilities to force enemies to be near each other so you can land a massive ultimate for them to shred themselves."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "I4SkLZg5MkY",
+      "channel": "Coach K",
+      "result": "écarté : stream de 4 h en jouant Renata ; la recherche (dodge, play against, Bailout, Handshake, level 6, all-in, berserk) ne donne aucun conseil contre Renata"
+    },
+    {
+      "id": "LEgv1I2isNQ",
+      "channel": "ShoDesu",
+      "result": "écarté : gameplay en jouant Renata, seul un conseil de draft (bonne contre dive + carries à auto-attaques), rien d'exploitable contre elle"
+    },
+    {
+      "id": "EoVdK7xsMzY",
+      "channel": "Twinsears",
+      "result": "utilisé (passages 0:28-8:25, transcription complète)"
+    },
+    {
+      "id": "KzI_nHNZhiY",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (passages 0:00-2:53, transcription complète)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Cible du Patronage (Z) : full vie puis décroissance 3 s, survit seulement avec un takedown ; reculer et kiter",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (tooltip RenataW : retour à full vie, décroît en 3 s, survit seulement sur takedown)"
+    },
+    {
+      "idea": "Renata sans dash, faible contre le poke : la harceler à distance",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ses trades passent par son E (CD long en early) : l'esquiver puis trade pendant le CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (DDragon E CD 14/13/12/11/10)"
+    },
+    {
+      "idea": "Sans mobilité, dépend de sa Poignée de main (A) à CD long fixe : all-in si elle la rate",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (DDragon Q CD 16 à tous les rangs)"
+    },
+    {
+      "idea": "Ne pas engage tête baissée : son R est un excellent disengage, forcer après son utilisation",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Si A immobilise un allié, s'écarter : la projection sur un autre champion étourdit les deux",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip RenataQ : stun si l'ennemi projeté est un champion)"
+    },
+    {
+      "idea": "S'écarter de ses alliés en fight : le Berserk fait attaquer l'unité la plus proche, alliés en priorité",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip RenataR : attaque l'unité la plus proche en priorisant ses alliés)"
+    },
+    {
+      "idea": "Sorts coûteux en mana (A/Z 80, E 70 au rang 1) : si elle spamme son E elle se vide",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (costBurn Q 80, W 80, E 70/80/90/100/110)"
+    },
+    {
+      "idea": "All-in mortels au lvl 6",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Son R est lent et télégraphié : l'esquiver sur le côté",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, vitesse du projectile absente de DDragon"
+    },
+    {
+      "idea": "Bonne contre les compos dive et les carries à auto-attaques (ShoDesu)",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: conseil de draft, vidéo non retenue comme source"
+    }
+  ]
+}

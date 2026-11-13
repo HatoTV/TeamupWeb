@@ -1,0 +1,148 @@
+{
+  "searches": 3,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] However, she does struggle into heal reduction and kiting, and taunting herself can lead into funny situations.",
+    "[0] Her second passive is she has no base health regen, but gains increased healing from all sources.",
+    "[0] While frenzied, she gains bonus attack and move speed and will constantly attack nearby enemies prioritizing champions.",
+    "[0] While frenzied, she will chase a nearby enemy.",
+    "[0] Briar's E causes her to stand still charging up a large rectangular skill shot, and while doing so, she gains damage reduction and heals herself.",
+    "[0] Enemies hit by this take damage and are slowed, and if fully charged, it knocks back enemies instead. And if they were hit into terrain, they take bonus damage and are stunned.",
+    "[0] Briar's ultimate is a semi-global ability which fires out a long-range skill shot. And if it hits an enemy champion, she then dashes to them across the map.",
+    "[0] For matchups, she's so reliant on auto attacks, she can struggle against champions who can exploit this weakness.",
+    "[1] So, obviously these guys are going to get fear. What do you gain?",
+    "[2] Tristana will always buffer her W rocket jump into your Q, so you she essentially never gets stunned.",
+    "[2] He buffered his ult into my Q. That's actually the only way he lives there, so good for him.",
+    "[3] You see how she walks into me there? That's because of her W. She has to walk up into me if I'm around and we just kill her.",
+    "[3] she will walk up to you no matter what when she's farming camps.",
+    "[3] We kite away from the Brier ultimate as well.",
+    "[3] Brier is one of the champions that is really hard to play when you're behind, especially if someone just keeps invading you over and over.",
+    "[4] Head Rush is a non-following dash.",
+    "[4] Blood Frenzy causes Briar to become unable to receive movement and attack commands.",
+    "[4] Certain Death: Spell shield and Projectile listed as Blocked in the counter table."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "5jXasImtsUg",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (passages 0:00-1:29, 2:44)"
+    },
+    {
+      "id": "YL2a6Saw9Rk",
+      "channel": "Coach Kirei",
+      "result": "utilisé (passage 4:58, fear du R) ; le reste est du point de vue de Briar"
+    },
+    {
+      "id": "XfsudAtmcb8",
+      "channel": "L0ganJG",
+      "result": "utilisé (passages 5:30, 10:57 : dash bufferisé dans le Q)"
+    },
+    {
+      "id": "oNttm58r1Fc",
+      "channel": "Monster SSS",
+      "result": "utilisé (passages 0:11, 3:12, 23:47, 24:26)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/briar/",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://leaguefeed.net/league-of-legends-briar-counter/",
+      "result": "404"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Briar",
+      "result": "ok (mécaniques Q, W, R)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Pendant le W, Briar poursuit l'ennemi le plus proche sans contrôle : l'attirer vers sa tour / ses alliés",
+      "sourceIdx": [
+        0,
+        3,
+        4
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (self-taunt to nearest enemy, prioritizing champions)"
+    },
+    {
+      "idea": "Le R s'arrête sur le premier champion touché : bloquer avec un tank / bloqueur de projectiles",
+      "sourceIdx": [
+        0,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (first champion it hits) + wiki (Projectile: Blocked)"
+    },
+    {
+      "idea": "Kiter Briar, dépendante des auto-attaques au corps à corps",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Le Q est un dash non suiveur : un dash au bon moment évite le stun",
+      "sourceIdx": [
+        2,
+        4
+      ],
+      "kept": true,
+      "reason": "2 sources (L0ganJG + wiki non-following dash)"
+    },
+    {
+      "idea": "E chargé à fond : knockback + stun contre un mur",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked)"
+    },
+    {
+      "idea": "Pendant la charge du E : réduction de dégâts + soin, ne pas burst dedans",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked: damage reduction, heal)"
+    },
+    {
+      "idea": "Fear autour de la proie à l'arrivée du R : s'écarter de l'allié marqué",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (enemies who are not her prey Flee)"
+    },
+    {
+      "idea": "Anti-heal (Blessures graves) contre ses soins",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (soins passif, W2, E) ; exception anti-heal sans nommer d'objet"
+    },
+    {
+      "idea": "Invade Briar tôt (lvl 2), elle est faible quand elle est en retard",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source (snippet Mobalytics non lisible, pas une source)"
+    },
+    {
+      "idea": "Pas de régénération de vie de base",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: limite de 8 tips, tip peu actionnable"
+    }
+  ]
+}

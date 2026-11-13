@@ -1,0 +1,146 @@
+{
+  "searches": 5,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Her W pretty much lets you dash, and then it does damage, and it also has two hitboxes. As you can see, there's a tiny little hit box in the center. So, if you read the tooltip, it does triple damage in the center than on the outside.",
+    "[0] I just want you guys to think about your W. It's kind of a spell that's really like it's really easy to to dodge. It's super slow, right?",
+    "[0] And then you E W. It's very hard for them to actually dodge the W if they don't have flash. If they do have flash, it might be better to just Q or like W Q.",
+    "[0] So, pretty much all three of your basic abilities will apply dream dust, except for your ultimate, right?",
+    "[0] if you have your passive on one or more champions, you're going to be able to use your ultimate to put them to sleep.",
+    "[0] The inner hit box does less damage, and the outer hit box does extra damage, pretty much doubling your damage, but the extra damage is true damage.",
+    "[0] While they're drowsy, you know, they can still hit you.",
+    "[0] there's still a few seconds where they're drowsy, right? And they're but they're not asleep yet. So, in some certain situations, if they have enough CC, enough damage, they might be able to kill you before they actually fall asleep.",
+    "[0] So, when you ultimate people, the best spell to hit is your W. Cuz that's guaranteed triple damage, plus your, you know, sleep damage.",
+    "[0] If you E on a wall um it'll explode straight away and then you know hit hit a cone behind it.",
+    "[1] if you land your E, then usually, well, they're slow. It's much easier to land your W. However, if the enemy has flash, okay, that's an exception.",
+    "[1] Use your W when they basically have to flash or after the flash. Okay? Hold your W till they flash.",
+    "[1] the Q the ranges you see, you always want to hit the outer range. If you're out of range, you basically deal true damage.",
+    "[1] and you want to queue, wait 2 seconds, then use one more Q before they sleep. Wait as long as possible, then W, then you have your Q again.",
+    "[2] The E slows the target, applies that passive. The W, you channel it, and then it deals a lot of damage in the center, but is harder to land.",
+    "[2] That's one of the reasons you want to farm so much on the early game is Lilia. Power up, get more damage tankiness, but also get more movement speed",
+    "[3] c'est pas un perso qui va invade dans les premiers niveaux.",
+    "[3] vu que Rexaï peut m'invade niveau 3 j'ai pas trop envie de risquer."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "ohRuF3YgKNI",
+      "channel": "Icelandic Hero",
+      "result": "utilisé (passages 0:48-1:50, 4:35-5:20, 7:03, 9:01, 10:46, 36:43) : Rank 1 Lillia, chapitres Abilities / Tips & Tricks"
+    },
+    {
+      "id": "DcYE8_kvj_k",
+      "channel": "Coach Kirei",
+      "result": "utilisé (passages 1:16-2:07, 2:51-3:20) : chaîne guide jungle"
+    },
+    {
+      "id": "iLUwkhoVS1Q",
+      "channel": "Sixen • League of Legends",
+      "result": "utilisé (passages 2:17-2:42) : peu de conseils hors invade early"
+    },
+    {
+      "id": "2yaa1pHDY7o",
+      "channel": "Sawyer Jungle",
+      "result": "utilisé (passages 0:46-1:13) : farm early, Z au centre"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/lillia/counters/jungle",
+      "result": "no-tips"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/lillia/",
+      "result": "no-advice"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Z : longue préparation, gros dégâts au centre, sortir du centre",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (W tooltip : dégâts accrus au centre, wind-up)"
+    },
+    {
+      "idea": "E ralentit puis Z ; garder Flash/dash pour le Z, elle le retient tant que tu as Flash",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E ralentit)"
+    },
+    {
+      "idea": "R n'endort que les cibles avec Poussière de rêve (sorts de base)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif, R)"
+    },
+    {
+      "idea": "A : dégâts bruts en bordure ; coller ou rester hors de portée",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Q : true damage outer edge)"
+    },
+    {
+      "idea": "Lillia farme tôt pour scale, craint les invades lvl 3 : voler ses camps",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (macro)"
+    },
+    {
+      "idea": "Phase de somnolence avant le sommeil : burst ou reculer",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R : Drowsy puis Asleep)"
+    },
+    {
+      "idea": "E ratée roule jusqu'à une cible ou un mur",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E description)"
+    },
+    {
+      "idea": "Burst point-and-click / CC punit Lillia (Naafiri, Rek'Sai)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (Sixen), lane/macro"
+    },
+    {
+      "idea": "Sans R, Lillia évite les fights et farme",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, macro"
+    },
+    {
+      "idea": "Chiffres de durée (slow 40 %, somnolence 1,5 s)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: valeurs absentes de Data Dragon (placeholders)"
+    }
+  ]
+}

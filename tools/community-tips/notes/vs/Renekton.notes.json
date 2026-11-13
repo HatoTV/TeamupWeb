@@ -1,0 +1,159 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] He doesn't have stun now. He doesn't have fury for it, so he can never really fight me.",
+    "[0] He's legit so so strong, bro. Especially when he gets level six. So I'm just not going to play.",
+    "[0] Don't ever make the mistake of trying to kill the rekon. You don't want to kill the Renekton. You want to outscale him.",
+    "[0] You only win if actually stomping Reekon is at level two or three if you get it before he does. But once he gets level three, you really don't want to trade against him. You don't want to fight him. You don't want to do [ __ ] You just want to keep the wave in a good state and farm.",
+    "[0] He presses R. He gets like 10,000 HP and he's unkillable.",
+    "[0] like if the Ron uses both his dashes, it's always a free kill.",
+    "[1] React doesn't really scale that well. So, as long as you don't like die early, it should be fine.",
+    "[1] I know he has no cool downs. He tried He's trying to walk back in for the level five, but I knew he had no W up yet. W is like around a like 14 15 second cool down this early.",
+    "[1] I know he didn't have uh W up there so I can walk in and trade.",
+    "[1] So yeah, you kind of never want to fight rectum when he has al up.",
+    "[1] If you're standing in the full channel of it, it does like 800 damage rank one, which is kind of insane.",
+    "[1] But you got to remember Renekton always has like 400 extra health uh in his reserves because of all",
+    "[1] when you taunt it to Renekton, you want to walk backwards. So you can't give him an E out. So if you stay, um, right there, if you stay behind Renekton or in front of Renekton, right after you taunt, he can E, he can double E because he hits you with the first cast. If you walk backwards, it makes it very awkward for him to E twice.",
+    "[1] Um take very short trades. Don't fight in the minion wave.",
+    "[1] it's really just heavily early game focused. And if you can kind of just weather that storm, not fall too far behind.",
+    "[2] Grosso modo, la furie, vous voulez la mettre en 1 V 1, en duel, en lane, très souvent sur le Z.",
+    "[2] Quand on on dans une optique de kill ou de vraiment mettre un trade qui va faire très très mal voir qui va tuer, on va prioriser le Z amélioré",
+    "[2] Votre Q, pour le coup, est plus équilibré, c'est-à-dire que c'est aussi bien agressif que défensif, dans le sens où ça vous soigne plus quand vous mettez un Q qui va euh avoir de la furie. Vous voyez par exemple, je sais pas, vous mettez un Q sur 3 millions plus un champion",
+    "[2] on va généralement prioriser le le Q furie sur les séquences de trade euh classiques, c'est-à-dire par exemple voilà, vous échangez auto-attaque Q avec un ennemi, bah là ça peut être intéressant de mettre la furie pour vous régénérer et avoir un trade plus avantageux."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "tuVl3-jDJ4E",
+      "channel": "Geishuu",
+      "result": "utilisé (2025-11-05, passages 1:36, 2:23-2:53, 4:01-4:16, 5:05, 5:53) ; lu lors de la tentative précédente, transcription en cache relue"
+    },
+    {
+      "id": "l_dbCxuCio8",
+      "channel": "IMainTopLane2",
+      "result": "utilisé (2026-07-20, passages 2:11, 3:49-4:16, 4:42-4:58, 6:24, 18:05-18:19, 23:53-24:16)"
+    },
+    {
+      "id": "DXqhM7KixEo",
+      "channel": "Ninkey",
+      "result": "écarté (2024-11-30) : ouvert, aucun conseil exploitable (commentaire de partie sans explication du matchup)"
+    },
+    {
+      "id": "oHtgbQZAJpc",
+      "channel": "Misanthiel - Coach Toplane",
+      "result": "utilisé (2026-07-08, passages 5:10-5:42, 5:42-6:06, 7:34-7:45) ; vidéo pour jouer Renekton, seuls les passages sur l'usage de la Furie servent de 2e source"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/renekton/counters",
+      "result": "no-tips"
+    },
+    {
+      "url": "https://www.rankedboost.com/league-of-legends/counter/renekton/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-renekton/",
+      "result": "refused (404)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Furie > 50 : Z frappe 3 fois et stun 1,5 s (0,75 s sinon) ; trade quand la Furie est basse",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (description et tooltip RenektonPreExecute)"
+    },
+    {
+      "idea": "Ne pas trade dans la wave : A soigne et donne de la Furie par unité touchée",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (tooltip RenektonCleave : soin et Furie par non-champion et par champion)"
+    },
+    {
+      "idea": "Compter les PV bonus du R dans les calculs de kill",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R : bonus max Health ; valeur chiffrée absente du fichier, non citée)"
+    },
+    {
+      "idea": "Trade quand le Z est en CD (pas de stun)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (lane)"
+    },
+    {
+      "idea": "Éviter les fights longs au lvl 6 tant que le R est up",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (lane) ; dégâts magiques autour de lui vérifiés DDragon"
+    },
+    {
+      "idea": "Fort en early, scale mal : ne pas forcer le kill, farm, garder la wave propre",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (lane)"
+    },
+    {
+      "idea": "Après ses deux dashs E, plus de fuite pendant le CD : all-in",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (recast unique, CD 16-10 s)"
+    },
+    {
+      "idea": "Le recast du E exige que le premier dash touche : reculer après l'avoir CC",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip : Hitting at least one enemy allows Renekton to Recast)"
+    },
+    {
+      "idea": "Blessures graves nécessaires contre lui",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "écarté : 8 tips max, idée moins prioritaire (1 source)"
+    },
+    {
+      "idea": "Le A a plus de portée sous R",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "écarté : non vérifiable dans DDragon, 1 source"
+    },
+    {
+      "idea": "Le stun du Z amélioré n'est pas esquivable (auto-attaque)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "écarté : 8 tips max, redondant avec le tip Furie"
+    }
+  ],
+  "pacingNote": "Pauses de 25 s entre les requêtes de sous-titres ; la requête Misanthiel est partie juste avant la fin de la 2e pause. Aucun rate limit rencontré."
+}

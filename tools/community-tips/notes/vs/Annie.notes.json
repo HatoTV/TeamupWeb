@@ -1,0 +1,118 @@
+{
+  "searches": 3,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Le principe du match-up est assez simple, vous devez jouer autour de son stun.",
+    "[0] Soyez donc patients ou essayez de lui faire claquer son stun dans votre passif, ce qui est assez difficile car elle a une range de auto-attack parmi les plus grandes.",
+    "[0] Au moment où Annie n'a plus de stun, c'est à votre tour de jouer. Elle perd une énorme partie de sa menace et vous pouvez donc plus facilement rentrer dans les trades.",
+    "[0] Je reste assez loin de la wave et m'approche seulement pour last hit au Q ou à Tornade. Et j'évite de me prendre un auto-Q auto-Q procré électrocute.",
+    "[0] Mon plan de jeu consiste à attendre que la wave soit de mon côté, que je sois au minima level 2 pour pouvoir trade et que Annie n'ait plus son stun.",
+    "[1] so so important not to stay too close to the minion wave. As you can see, if I stay outside, it's also easier to avoid enemy's poke.",
+    "[1] And if you have your stun ready, you can zone your enemy away from minions when your minions are low HP to deny last hits.",
+    "[1] It's also worth knowing that Annie has 625 range, so you can poke with your auto attacks as well",
+    "[1] And since your enemy can see your stacks of the stun, you can try this thing where you have three stacks, and then you just press E while going at your enemy. And at first they think you don't have the stun. And next time you do.",
+    "[1] And Tibbers also gets the shield, so this helps in pushing a bit to keep Tibbers alive for longer.",
+    "[2] Also remember guys, the range of Annie, the auto attack range of Annie is insane. It's one of the highest in the game.",
+    "[2] And remember, we want to have those flash ultimate engages with any support as well.",
+    "[2] So every single ability of Annie gives her a stack till four stacks. And once you have four stacks, the next ability is going to stun.",
+    "[2] You can just Q EW and it will stun the target.",
+    "[2] Every time you have ultimate, even if you don't have flash, you can look for ultimate play",
+    "[3] So you'll see that I always fight when I'm strong. When I have my ult, when I have my ignite, that's what I'm going to fight. Otherwise, I'm not going to fight.",
+    "[3] I don't have my ult right now, so I'm not going to play too aggro here."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "iKvV0lzggYA",
+      "channel": "Lapinou",
+      "result": "utilisé (fr, transcription complète 2:20, passages 0:24-1:25)"
+    },
+    {
+      "id": "pDZbSxmuiqU",
+      "channel": "Coach K",
+      "result": "utilisé (passages 1:37, 2:42, 10:03, 11:43, 21:13)"
+    },
+    {
+      "id": "cEv9kXpD0m4",
+      "channel": "Kyan",
+      "result": "utilisé (passages 12:22-12:40) ; le reste = macro générique"
+    },
+    {
+      "id": "vvce6AxUmto",
+      "channel": "Eternal Hero",
+      "result": "utilisé (passages 1:19-6:04)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Grande portée d'auto d'Annie (625) : rester loin de la wave, n'avancer que pour last hit",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (attackrange 625)"
+    },
+    {
+      "idea": "Jouer autour du stun : hors de portée quand il est prêt, trade dès qu'il est utilisé",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Pyromanie : après 4 sorts, le sort offensif suivant stun)"
+    },
+    {
+      "idea": "Annie force avec R (+ flash) ; R en CD = fenêtre pour trade/push",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R CD 130/115/100 s)"
+    },
+    {
+      "idea": "À 3 charges, le E donne la 4e : considérer le stun comme prêt",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (chaque sort compte pour Pyromanie)"
+    },
+    {
+      "idea": "S'éloigner de Tibbers : aura de brûlure + bouclier en fusion qui renvoie des dégâts",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Tibbers brûle les ennemis proches et reçoit toujours le Bouclier en fusion ; enemytips)"
+    },
+    {
+      "idea": "Freeze pour forcer Annie à s'avancer",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane, 1 seule source"
+    },
+    {
+      "idea": "Le Mur de vent bloque son A et l'empêche de stacker",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: propre à Yasuo, 1 source, non vérifiable dans Data Dragon"
+    },
+    {
+      "idea": "Annie attend dans un buisson sans vision avec le stun prêt",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    }
+  ]
+}

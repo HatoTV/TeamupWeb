@@ -1,0 +1,114 @@
+{
+  "searches": 10,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] Your Valkyrie is really really important, okay? So, if I W, it's actually dealing a lot of damage. So, in lane you can often use your W to simply burn the enemies and just do a lot of damage.",
+    "[0] Like especially on CC, let's say you have no disengage or something, then you can just W and then do your full combo.",
+    "[0] Okay, next spell E super important. It's like you know, a Gatling gun. It doesn't really matter, but it actually shreds armor and magic resist.",
+    "[0] it's actually shredding armor and magic resist by 20 on level five, which is really broken. Always use your E when fighting.",
+    "[0] So, you're basically having these rockets and you can always threshold four rockets. So, usually especially when base or when you have like nothing to do, you know, then you usually want to have like two big rockets in the back, you know?",
+    "[0] let's say you get here, okay? Nice, I have my big rocket ready.",
+    "[0] when it comes to combos like usually on CC, as already mentioned before, we are using like our W Q ult combo.",
+    "[1] Use Valkyrie for defense and remember that you can continue attacking while Gatling Gun is active.",
+    "[2] Watch out for Corki's Missile Barrage. They deal splash damage, so you can get hit even when hiding behind minions.",
+    "[2] Corki is vulnerable after he uses his Valkyrie or Special Delivery, so try switching focus to him if he uses them to enter a fight."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "e4NW7yhiJWE",
+      "channel": "Mysteriaslol",
+      "result": "écarté : partie Corki vs Kassadin, conseils génériques (wave, last hits), rien sur comment jouer contre Corki"
+    },
+    {
+      "id": "VGJU8vRiPxU",
+      "channel": "Yozu Lux",
+      "result": "écarté : vidéo de 2024-07 (> 2 ans), commentaire sans conseil exploitable contre Corki"
+    },
+    {
+      "id": "oI4pdlvod44",
+      "channel": "Varry",
+      "result": "utilisé (passages 2:19-4:14) : Valkyrie, Gatling, grosse Bertha"
+    },
+    {
+      "id": "wynpsYuTYIM",
+      "channel": "Eneino Coach",
+      "result": "écarté : aucun passage sur le kit de Corki vu de l'adversaire, sous-titres de mauvaise qualité"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/corki/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://op.gg/lol/champions/corki/counters/mid",
+      "result": "ok (un seul tip écrit, sans date ni auteur)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Corki/Strategy",
+      "result": "ok (page archivée ; conseils officiels Riot, notes sur ses dégâts magiques obsolètes)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Valkyrie (Z) = seul dash, vulnérable s'il l'utilise pour engager",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (enemytips : vulnérable après Valkyrie ; CD 20/18/16/14/12)"
+    },
+    {
+      "idea": "Gatling (E) : cône, réduit armure/RM, il continue d'auto ; sortir du cône, trade quand en CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (cône devant lui, réduction armure/RM, CD 12)"
+    },
+    {
+      "idea": "Traînée de feu de Valkyrie : dégâts tant qu'on reste dedans",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fait vérifié : dégâts aux ennemis qui restent dans la traînée)"
+    },
+    {
+      "idea": "Un missile sur trois = grosse Bertha, plus de dégâts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fait vérifié : every 3rd missile is a Big One)"
+    },
+    {
+      "idea": "Barrage de projectiles : dégâts de zone, les sbires ne protègent pas",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fait vérifié : explose sur le premier ennemi touché, dégâts aux ennemis autour ; enemytips)"
+    },
+    {
+      "idea": "Les dégâts de Corki sont surtout magiques",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: contredit par DDragon 16.22 (R et E physiques, passif bruts)"
+    },
+    {
+      "idea": "Corki tombe en late game face aux hypercarries",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: macro/lane, une seule source ancienne"
+    }
+  ]
+}

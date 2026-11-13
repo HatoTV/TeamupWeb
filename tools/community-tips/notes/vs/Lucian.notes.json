@@ -1,0 +1,146 @@
+{
+  "searches": 7,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Donc il en prend deux par shield ou deux par ou deux par stun ou immobilisation.",
+    "[0] Leona Lucian ça marche trop bien parce qu'elle a énormément de CC pour Lucian sa prion passif en boucle",
+    "[0] quand un allié va taper une des targets ici, d'accord, qui sont marqués pendant 6 secondes, je le répète, ça va proc l'attaque speed, la mo speed pardon de Lucian",
+    "[0] Ensuite comme je dis tout à l'heure dans les sorts c'est que le E a ce côté refresh. D'accord ? Vous avez vu ici voilà donc le E va se refresh. OK notre but c'est de refresh notre E le plus vite possible",
+    "[0] le seul problème c'est qu'au début il a un petit peu pas mal de range. Ça peut faire un ça peut ennuyer un peu Lucian",
+    "[0] Juste ils ont pas mal de clear, pas mal de de range. Donc au début ça peut être un tout petit peu compliqué",
+    "[0] la clé du matchup c'est que leil reste à distance de en permanence",
+    "[0] Lucian Dashine donc il peut plus sortir parce qu'après il va se faire slow et là on arrive sur un problème.",
+    "[0] si Lucian dashine et qui s'est loupé donc tu pas une bonne fenêtre, il va juste mourir littéralement. Il va se faire space et il va se faire unown.",
+    "[0] Parce que Lucian a peu de range et a besoin de Dashine, en tout cas trouver des angles de Dashine pour taper. Le problème c'est que si dashine au Draaven, comment vous dire ? Il se fait statck et il se fait slow",
+    "[0] si vous dachinez et vous ratez un petit peu de fenêtre et vous faites slow et derrière vous space avec vous êtes à la merde.",
+    "[0] Kaa c'est un stomp à 100 %. Trop de stat Lucian trop de short trade.",
+    "[0] Jein il craint le fait de se faire goin et le fait de se faire short trade genre par des stats checkers",
+    "[1] On sait que niveau 1 on a un peu l'avantage de la range, euh mais surtout les courts trades, il les gagne.",
+    "[1] on gagne les les longs trades et les courts trades, ils sont jouables. C'est-à-dire que si j'ai un headshot et que j'arrive à toucher mon E, c'est OK. Par contre, si je vais pas mon E et qu'il peut me dash in, bah là c'est la merde.",
+    "[1] Là l'erreur de Lucian c'est que il a joué trop longtemps. En fait, comme j'ai dit, il gagne les court trades parce qu'il joue attaque speed Nami et tout.",
+    "[1] Et surtout quand il y a plus de sort bah il a plus de sort, il peut plus faire de dégâts.",
+    "[1] il a été trop gourmand après avoir euh pris euh son premier trade, il a plus son E, il a plus son Q. OK, ça revient mais le truc c'est qu'il prend mon E, du coup il dash in quand même. Du coup ben comme j'ai E, il est slow et il a plus la range.",
+    "[1] Ouais, dans les trades contre Caitlyn, si tu prends le E, tu te barres. Parce que tu es slow, le Q est quasiment sûr de de de toucher, il va juste reculer et te space.",
+    "[2] Because you are a lowrange AD carry with zero utility for your team.",
+    "[2] Lucian is just start with Q auto auto E out so you spend less I'm being under tower. So it can be any ability. It can be just Q auto auto. Boom. You're out of tower range. You just chunk him for 300 HP for free.",
+    "[2] The only exception where you wouldn't want to do this is when you have all your other abilities on cooldown. So, you wouldn't be able to keep cycling them afterwards.",
+    "[3] Each shot deals physical damage to the first enemy hit, doubled against minions.",
+    "[3] While channeling, Lucian is ghosted and may still move.",
+    "[3] Enemies hit are marked for 6 seconds.",
+    "[3] Whenever Lucian is healed or shielded by an ally, or an enemy champion within 1000 units is immobilized, his next two shots within 6 seconds are empowered to deal 5 (+ 15% AD) bonus magic damage on-hit."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "OhKXio3TLoc",
+      "channel": "Alderiate VOD",
+      "result": "écarté : VOD vs Lucian top (2026-02-18) presque sans commentaire de matchup (blagues, chat), rien d'exploitable"
+    },
+    {
+      "id": "0mhBisHIlsE",
+      "channel": "Booshi",
+      "result": "utilisé (PRO GUIDE ; sorts 1:12-4:00, combos 8:05, chapitre matchups 23:43-32:46, supports 40:15)"
+    },
+    {
+      "id": "Lb6HBOd-iTo",
+      "channel": "Dadamx",
+      "result": "utilisé (review Caitlyn vs Lucian ; passages 0:35-0:48, 8:03-8:15, 13:00, 14:47-15:02)"
+    },
+    {
+      "id": "wgxm7pLZosY",
+      "channel": "Neon LOL",
+      "result": "utilisé (guide Lucian, voix EN, sous-titres en-orig ; passages 0:41, 2:50, 7:08)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.op.gg/champions/lucian/counters",
+      "result": "no-tips (seulement des tips côté Lucian)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Lucian",
+      "result": "ok"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Lucian gagne les short trades ; trade long quand ses sorts sont en CD",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Portée courte (500) : un ADC longue portée le poke dès le lvl 1 et garde ses distances",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources (portée 500 vérifiée dans Data Dragon, stats.attackrange)"
+    },
+    {
+      "idea": "CC sur un ennemi proche / shield ou heal allié = 2 tirs renforcés du passif",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif Pistolero : immobilized / healed or shielded by an ally)"
+    },
+    {
+      "idea": "Marque du Flamboiement (Z) 6 s : vitesse pour Lucian quand lui ou un allié frappe la cible",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (marking them for 6 seconds, Lucian gains Move Speed)"
+    },
+    {
+      "idea": "Après son E engagé, il ne peut plus sortir : slow / kite et il perd le trade",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Les tirs du passif réduisent le CD du E (davantage sur champion)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (cdrefundchampion sur Poursuite inlassable)"
+    },
+    {
+      "idea": "R tire dans une direction, chaque balle touche le premier ennemi : sortir de l'axe / sbire entre vous",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (damage to the first enemy hit)"
+    },
+    {
+      "idea": "Reculer avant son lvl 2 (il veut all-in au lvl 2)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, tip de lane"
+    },
+    {
+      "idea": "Garder la wave près de sa tour pour que son dash le mette sous tour",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, tip de lane"
+    }
+  ]
+}

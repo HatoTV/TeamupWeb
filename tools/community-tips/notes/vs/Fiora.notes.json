@@ -1,0 +1,105 @@
+{
+  "searches": 5,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] He's going to be like, I need to find the only way to win. I need to bait out his parry, then knock him up under turret.",
+    "[0] Sapin ult me, Ash times her ulti and right after the parry, I can't dodge it. I get st I'm dead.",
+    "[0] whenever you're redside as Fiora, you're going to get a bad vital. Why? Cuz vitals always spawn either let's say this is one half of the vitals. This is the left and the bottom. Titles will spawn alternating between left and bottom or top and right",
+    "[0] after it being in the orange one, it's going to be in the green one for sure cuz it always bounces from side to side.",
+    "[1] If you're redside against Fiora, the first vital is always frontal. Okay? So, you see it's frontal. So, that's why I always want to show myself once to Fiora, then walk away. Now, the next fight is going to be backwards.",
+    "[2] J' déjà dit la parade sur le début du cuspel de Cled, c'est limite mieux.",
+    "[2] Ah oui, puis le full combo raté, ça doit pas aider. le full combo dans dans la parade surtout.",
+    "[3] The stab slows the first enemy champion hit, or stuns them if Fiora parried a hostile immobilizing effect.",
+    "[3] Fiora enters a defensive stance for 0.75 seconds",
+    "[3] Vitals spawn directions alternate in a Northeast-Southwest pattern.",
+    "[3] Vitals take 1.75 seconds to become targetable and linger for 13.25 seconds afterwards",
+    "[3] while Fiora remains near the target, otherwise the Vital will disappear.",
+    "[3] Stabbing a target reduces Lunge's cooldown by 50%.",
+    "[3] If the target stays very close to terrain they can prevent Fiora from hitting all vitals."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "-HOLmcet2j4",
+      "channel": "GoBGG",
+      "result": "utilisé (passages 3:39, 16:58-17:04) : Kled vs Fiora, peu de conseils explicites, seulement le combo dans la parade"
+    },
+    {
+      "id": "HNidAzb3B5Y",
+      "channel": "pricks",
+      "result": "écarté : Irelia vs Fiora, commentaires vagues (« je vais attendre les timings »), rien de propre à Fiora"
+    },
+    {
+      "id": "CSZOupDzKII",
+      "channel": "Potent",
+      "result": "utilisé (passages 3:02-3:34, 14:50-15:02, 19:43-19:49) ; piste fr = doublage automatique, écartée, relu en en-orig (même vidéo)"
+    },
+    {
+      "id": "TfGkoOwV8KY",
+      "channel": "AloisNL",
+      "result": "utilisé (passage 1:00-1:20) ; le reste est surtout du divertissement"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/fiora/counters",
+      "result": "no-tips (un seul conseil propre au couple Aatrox)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiora",
+      "result": "ok"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ne pas lancer son CC dans la Riposte (Z) : la faire sortir puis CC après la parade",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (stun si effet immobilisant paré)"
+    },
+    {
+      "idea": "Les points faibles alternent entre côtés opposés : se montrer, reculer, trade quand le suivant est dans ton dos",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources (alternance non décrite dans DDragon)"
+    },
+    {
+      "idea": "Fente (A) ratée = pas de réduction de CD, fenêtre pour punir",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip : CD réduit si elle touche un ennemi)"
+    },
+    {
+      "idea": "Sous Défi suprême (R), se coller à un mur pour gêner les quatre points faibles",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (soin si quatre points faibles touchés ou si la cible meurt après un point faible)"
+    },
+    {
+      "idea": "Fiora joue la side lane, plus forte seule qu'en teamfight : répondre à son split",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un conseil macro"
+    },
+    {
+      "idea": "Aatrox peut esquiver la Riposte (Z) avec son E",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: propre au couple Aatrox, op.gg sans date"
+    }
+  ]
+}

@@ -48,7 +48,8 @@ const trees = new Set(['Precision', 'Précision', 'Domination', 'Sorcery', 'Sorc
 const runeRe = wordsRe(new Set(Object.entries(glossary.runes).flat().filter((n) => n.length >= 4 && !trees.has(n))), 'iu');
 
 const hostOf = (url: string) => new URL(url).hostname.replace(/^www\./, '');
-const sentences = (s: string) => s.split(/[.!?](?:\s|$)/).filter((p) => p.trim()).length;
+// A « ! » inside a spell name (« Direction le ciel ! (A) », « Dresse-toi ! (Z) ») does not end the sentence.
+const sentences = (s: string) => s.split(/[.?](?:\s|$)|!(?=\s*$|\s+[^(\s])/).filter((p) => p.trim()).length;
 
 function checkRefs(where: string, refs: number[], sources: PlayTips['sources']): void {
   const used = refs.map((i) => sources[i]);

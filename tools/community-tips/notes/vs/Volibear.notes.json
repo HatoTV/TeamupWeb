@@ -1,0 +1,125 @@
+{
+  "searches": 1,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] I should have used my flash to dodge that Q from him, I think.",
+    "[0] I should have zoned him out before he gets to the wave and he gets his passive basically. We can't let the Volibear get his passive.",
+    "[0] Is he going to try to dive me here? Q auto to minions and kite away.",
+    "[0] Yeah, he is trying to proxy here. We have to try to stop him.",
+    "[0] The best thing he can do at this point is try to proxy, which is smart from him. But Graves is top side, so we were able to look for the play.",
+    "[0] I have to perfectly time his Q there or I just die against him by the way.",
+    "[1] My reasoning is simple. Volibear's biggest weakness is lack of mobility.",
+    "[1] Auto to keep my stacks up, making sure I can last as well. And then I take a trade.",
+    "[1] I'm just going to let the minion keep my passive stacks up. You see, I'm just autoing enough to keep my passive stacks. That's my goal.",
+    "[1] And the reason why I'm not afraid to lose HP is because I heal, right? He doesn't heal, I heal. So, I don't mind trading HP here.",
+    "[1] What What you can do is you can run up here, proxy this wave.",
+    "[1] Like what you can do is you can proxy that wave and run mid because then you clear the wave.",
+    "[1] sitting in the bushes trading when you have your passive stacks up trading when you have grasp up mainly right",
+    "[2] However, he does fall off as he sacrifices a lot of tankiness for damage and he can struggle into ranged champions top.",
+    "[2] Volibear's Q is an auto attack which grants him bonus movement speed which is doubled when moving towards an enemy champion. His next attack is empowered to have bonus range, deal bonus damage and stun the target.",
+    "[2] Then, if he uses this ability again on a marked target, it deals even more damage and massively heals him.",
+    "[2] Volibear's E places down a circle on the floor. Then, after 2 seconds, the area within is struck by lightning dealing damage to enemies within and slowing them. And if Volibear's within it, he gains a large shield.",
+    "[2] He also turns off enemy turrets in a nearby area also dealing damage to them which makes him insane at tower diving.",
+    "[2] However, he can struggle into ranged top laners who can kite him all game.",
+    "[2] After using your E and Q, your W has a 5-second cooldown. This means any fight that lasts longer than this 5 seconds, you get to use it twice. And when you use it twice, you get insane amounts of healing and damage out."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "zsHjobYXOeg",
+      "channel": "Monster SSS",
+      "result": "utilisé (passages 0:15, 0:30, 3:46, 6:43, 7:03, 11:07), Fiora contre Volibear"
+    },
+    {
+      "id": "HDmjEfF_XfA",
+      "channel": "hybradge",
+      "result": "utilisé (passages 0:29, 4:26, 6:16, 11:45, 25:17), point de vue Volibear"
+    },
+    {
+      "id": "AIKt8f8wu5A",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (transcription complète, 3 min)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "R désactive les tours : pas de sécurité sous tour après son lvl 6",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Disabling nearby towers)"
+    },
+    {
+      "idea": "2e Z sur cible marquée = gros soin, CD 5 s : trades courts",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (recast heals, CD 5)"
+    },
+    {
+      "idea": "A : vitesse vers toi puis auto qui stun",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Move Speed doubled toward champions, next Attack stuns)"
+    },
+    {
+      "idea": "Il stack son passif sur les minions avant de trade : le zoner",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Manque de mobilité, faible contre les ranged qui kitent",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Il proxy la wave : vision + jungler pour punir",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "E : slow + bouclier s'il est dans la zone, sortir du cercle",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Slowing, Shield if inside the blast zone)"
+    },
+    {
+      "idea": "Le CC pendant son A rafraîchit le CD de son A",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: conseil ambigu (le CC empêche le stun mais rend le sort), pas de 2e source"
+    },
+    {
+      "idea": "Volibear tombe en late game",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, idée de lane/macro"
+    }
+  ]
+}

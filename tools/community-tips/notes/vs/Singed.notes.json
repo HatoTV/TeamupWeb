@@ -1,0 +1,99 @@
+{
+  "searches": 4,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Regardez, il va vouloir me tuer lui. Regardez le temps que je lui fais perdre. Et là lui, il est sous tour, il doit farmer sous tour.",
+    "[0] Il veut me tuer, il perd littéralement la wave.",
+    "[1] Keep your distance to avoid being Flung back into Singed's allies.",
+    "[1] Be careful when chasing Singed. He's very difficult to bring down, and can leave his Poison Trail to damage you in your pursuit.",
+    "[1] Singed needs to run close to your team to be effective. Try to take advantage of this by using crowd control effects on him while attacking his allies.",
+    "[2] Il va sans doute aller en proxy. Je peux rien y faire. Je quand même prendre mon reset. La flaque de piste qui cancelle le bac.",
+    "[2] Ça ça me saoule. Pas dire le contraire. le nombre de fois où je me le suis fait cancel.",
+    "[2] Non, je laisse pas proxy pour le coup. En plus, il a pas de mana. Il a pas de mana, pas de flash.",
+    "[2] Je crois que je suis plus heureux du proxy que toi. Je crois que ça me va totalement cet échange qu'on fait. Je vais être premier à bouger sur la map."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "ZBHaR_Cx1CM",
+      "channel": "Vallheim • League of Legends",
+      "result": "écarté : commentaire hors sujet (discussion avec le chat), aucun conseil sur Singed"
+    },
+    {
+      "id": "DeHZ9xy58tw",
+      "channel": "Naayil",
+      "result": "écarté : surtout du contenu hors jeu ; seule idée = choisir un champion qui scale (draft, hors règles)"
+    },
+    {
+      "id": "OV8R30Ku_Js",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 6:38-7:16, 16:15)"
+    },
+    {
+      "id": "ccA1MEfv5R4",
+      "channel": "Sixen • League of Legends",
+      "result": "utilisé (passages 0:58, 2:36 ; Sixen joue Singed et montre ce que perd l'adversaire qui le chase)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Singed/Strategy",
+      "result": "ok (archive sans date : traité comme > 2 ans, seulement pour mécaniques vérifiées)"
+    },
+    {
+      "url": "https://www.op.gg/champions/singed/counters",
+      "result": "no-advice (un seul conseil, écrit du côté de Singed)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ne pas chase Singed : la Piste empoisonnée te ronge et tu perds ta wave / du temps",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (la Piste empoisonnée inflige des dégâts aux ennemis sur son chemin)"
+    },
+    {
+      "idea": "Garder ses distances : Projection (E) te lance derrière lui, root si tu tombes dans l'Attrape-mouche (Z), qui bloque les dash",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source (> 2 ans) + DDragon (Fling derrière Singed, root dans Mega Adhesive, W = Grounding)"
+    },
+    {
+      "idea": "Sortir de la Piste empoisonnée avant de recall, ses dégâts annulent le back",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped at integration: recall cancel is a general game rule, not in Data Dragon; 1 source only"
+    },
+    {
+      "idea": "Contester le proxy quand Singed n'a plus de mana ni de flash",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, tip de lane"
+    },
+    {
+      "idea": "Quand Singed proxy, accepter l'échange et bouger en premier sur la map",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, macro"
+    },
+    {
+      "idea": "En teamfight, CC Singed pendant que tu frappes ses alliés",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: source > 2 ans, pas une mécanique"
+    }
+  ]
+}

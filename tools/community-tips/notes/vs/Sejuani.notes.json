@@ -1,0 +1,104 @@
+{
+  "searches": 2,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] The Q doesn't apply the passive, but it's going to be a dash that deals damage. The Q is on a super long cool down, 18 seconds. So you better mean it when you use it.",
+    "[0] Your melee allies will also apply that E passive. Very nice.",
+    "[0] With level six, we get our ulti. You throw the bola. The longer you throw it, the more damage it will deal. And then it stuns the first target it hits. going to applies a huge slow like a humongous humongous crazy slow when you throw it from a long range.",
+    "[0] With Suani's passive, you get armor and magic resist initially.",
+    "[0] When the enemy uses their dash like that, the Q auto ulti.",
+    "[0] After the first clear, that's the time to gank top lane.",
+    "[1] These stacks can help or your teammates can help you stack it. If they're melee champs, they will get extra stacks.",
+    "[1] So, I got my ulti. I need to just get my Q back so I can get in range basically.",
+    "[1] he needed to play for a double auto attack hit cuz he's a melee champion. So, it to give me stacks on my E",
+    "[2] Dodging Arctic Assault and Glacial Prison can give you a huge advantage.",
+    "[2] Focus on avoiding the second swing of Winter's Wrath which carries the brunt of the damage.",
+    "[2] Melee enemies can also stack Frost for Sejuani, be very careful around them."
+  ],
+  "videosRead": 2,
+  "videosTried": [
+    {
+      "id": "afjmcnO92jQ",
+      "channel": "Sawyer Jungle",
+      "result": "utilisé (passages 1:18, 3:00, 5:58, 12:18, 27:02) ; guide pour jouer Sejuani"
+    },
+    {
+      "id": "CJWVFDmUzus",
+      "channel": "Fz Frost",
+      "result": "utilisé (passages 0:52, 13:14, 16:31)"
+    },
+    {
+      "id": "86zwOZZm2kQ",
+      "channel": "EcoreLoL",
+      "result": "écarté avant ouverture (infos seulement) : défi d'apprentissage, pas un guide high elo"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Sejuani/Strategy",
+      "result": "ok (dernière édition 2024-12-16 : mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Les alliés mêlée posent des stacks de Permafrost : éviter le contact",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (passif du E)"
+    },
+    {
+      "idea": "A : long CD (18 s), fenêtre quand il est down",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD 18 s au rang 1)"
+    },
+    {
+      "idea": "Garder son dash pour esquiver le A",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (s'arrête sur le 1er champion, knock-up)"
+    },
+    {
+      "idea": "R lancé de loin : stun plus long + zone de slow, s'écarter de l'allié touché",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (25 % de portée : stun prolongé + tempête de glace)"
+    },
+    {
+      "idea": "Passif : armure/RM/immunité aux slows hors combat, s'efface après dégâts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Frost Armor)"
+    },
+    {
+      "idea": "Esquiver le 2e coup du Z (seul à ralentir)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (le 2e coup ralentit) ; « gros des dégâts » non vérifiable, non repris"
+    },
+    {
+      "idea": "Sejuani gank top après son premier clear",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "waiting for a 2nd source (macro)"
+    }
+  ]
+}

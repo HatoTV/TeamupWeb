@@ -1,0 +1,130 @@
+{
+  "champion": "TahmKench",
+  "researchedAt": "2026-11-13",
+  "gameVersion": "16.22",
+  "abilityHash": "21ff47c3899d9b44045aaccb66fef1cce69ff718a20979e8dbc448bc1d643495",
+  "status": "ok",
+  "tips": {
+    "fr": [
+      {
+        "text": "Peau épaisse (E) soigne Tahm Kench des dégâts stockés dès qu'il sort du combat. S'il active le bouclier, il renonce à ce soin : garde la pression.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Reste derrière tes sbires : le Coup de langue (A) s'arrête sur la première unité touchée, donc Tahm Kench peine à te poke en lane.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Chaque coup de Tahm Kench te pose un stack de Goût acquis. À 3 stacks, son Coup de langue (A) t'étourdit : évite de trade avec 3 stacks sur toi.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Dès le lvl 6, 3 stacks de Goût acquis suffisent pour que Tahm Kench t'avale avec Dévoration (R). Ne les prends jamais près de sa tourelle.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Esquive le Coup de langue (A) : sans lui, Tahm Kench ne se soigne pas et ne te ralentit pas. Profite de ce CD pour trade.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Sors de la zone de la Plongée abyssale (Z), même sans dash. Si elle ne touche aucun champion, Tahm Kench ne récupère rien de son CD.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      }
+    ],
+    "en": [
+      {
+        "text": "Thick Skin (E) heals Tahm Kench from stored damage once he leaves combat. If he pops the shield instead, he gives up that heal, so keep pressuring.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Stay behind your minions. Tongue Lash (Q) stops on the first unit it hits, so Tahm Kench struggles to poke you in lane.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Every hit from Tahm Kench gives you a stack of An Acquired Taste. At 3 stacks his Tongue Lash (Q) stuns you, so avoid trading while fully stacked.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "From level 6, three An Acquired Taste stacks are enough for Tahm Kench to swallow you with Devour (R). Never take them near his tower.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Dodge Tongue Lash (Q). Without it, Tahm Kench gets no heal and no slow on you. Trade while that spell is on cooldown.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Walk out of the Abyssal Dive (W) landing zone, no dash needed. If it hits no champion, Tahm Kench gets none of its cooldown back.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "\"How do you deal with Tahm Kench?\"",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=MyyNwaMEyGc",
+      "consultedAt": "2026-11-13",
+      "channel": "No Arm Whatley",
+      "publishedAt": "2025-01-30",
+      "timestamps": [
+        "0:43",
+        "0:57"
+      ]
+    },
+    {
+      "title": "Le GUIDE pour GAGNER contre Tahm Kench avec Jax - 1v1 Pédagogique",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=bXvuRk6QEDU",
+      "consultedAt": "2026-11-13",
+      "channel": "Vallheim • League of Legends",
+      "publishedAt": "2025-01-16",
+      "timestamps": [
+        "2:59",
+        "3:38",
+        "5:30"
+      ]
+    },
+    {
+      "title": "GUIDE TAHM KENCH SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=kjX4mgH4J2k",
+      "consultedAt": "2026-11-13",
+      "channel": "EXYT - League of Legends",
+      "publishedAt": "2026-02-24",
+      "timestamps": [
+        "3:45",
+        "5:09"
+      ]
+    },
+    {
+      "title": "Tahm Kench/Strategy",
+      "site": "wiki.leagueoflegends.com",
+      "url": "https://wiki.leagueoflegends.com/en-us/Tahm_Kench/Strategy",
+      "consultedAt": "2026-11-13"
+    }
+  ]
+}

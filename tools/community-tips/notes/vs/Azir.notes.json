@@ -1,0 +1,122 @@
+{
+  "searches": 5,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] And the key thing that we're going to do is we're going to look to try to get the slow push going because getting the slow push will allow us to create trading opportunities where we have lost Armenian and he needs still needs to last at his minion and that will allow us to then land a Q onto his last hits.",
+    "[0] You want to always time your spells with the enemy last hits.",
+    "[0] We just baited out his W, which is really good.",
+    "[0] Nice QE onto the last hit.",
+    "[1] Yeah, he trolled his soldiers. He d soldier like he has no W for a long time and Q as well.",
+    "[1] Um so the first thing is you want to be ahead of the wave. You want to be auto attacking the wave already which gives you the prior for level two.",
+    "[1] And also just keep continuation of auto attacking the wave because now we're getting level two first.",
+    "[1] he has um a soldier every 12 seconds which mean he put his soldier like six second ago on this one just now which mean he's W is on CD so he cannot jump.",
+    "[2] Uh but high mana cost, so she should have uh prior on wave on lane, especially level one, one, two.",
+    "[2] Azir soldier has 12 second cool down and stay 10 second on the ground. So, there is a if you don't cycle soldier well, he can be uh with a long CD on soldier uh later on.",
+    "[2] Uh this match up revolve a lot on spacing.",
+    "[2] Orianna should be able to be hitting the wave first since she can pressure with Q level one while he won't",
+    "[2] So, after your third soldier, if you drop two, the you will be very vulnerable with Azir. And that's what Orianna want to do and and that's the timing Orianna want to abuse.",
+    "[2] She want to she want Azir to drop a soldier ASAP so she don't he don't he have a higher cooldown on the next one.",
+    "[2] She will auto attack, go around the soldier.",
+    "[2] And now the it will be the loop now of Azir drop soldier, Orianna play a grow, try to to to synchronize her cool down with with Azir last hit.",
+    "[2] And now, she's patient. And she QW when Azir last hit and use Q.",
+    "[3] Azir relies on his soldiers to deal damage and can only move them so often.",
+    "[3] Try to capitalize on windows of time when his soldiers are stationary.",
+    "[3] Try to think of Sand Soldiers as fire. Don't stand in the fire."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "4c90SvsFyR0",
+      "channel": "Coach Mysterias",
+      "result": "utilisé (chapitre Syndra vs Azir 4:14:44-4:46:40 ; passages 4:14:49-4:16:22)"
+    },
+    {
+      "id": "-JCGqvHff3g",
+      "channel": "Peng",
+      "result": "utilisé (14:58, chapitre REVIEW 24:12-28:18)"
+    },
+    {
+      "id": "f_wMHXxnKIo",
+      "channel": "Wadi",
+      "result": "utilisé (analyse côté Orianna : 0:25-3:12, 5:13-6:03, 8:02, 10:14)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Azir/Strategy",
+      "result": "ok (archive sans date : traité comme > 2 ans, seulement pour mécaniques vérifiées)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Le pousser à poser ses soldats tôt ; sans charge de soldat il ne peut pas E : fenêtre de trade",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Z = 2 charges, E = dash vers un soldat)"
+    },
+    {
+      "idea": "Ne pas rester près des soldats, les contourner",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (les soldats frappent les ennemis proches quand Azir attaque)"
+    },
+    {
+      "idea": "Taper la wave dès le lvl 1 pour la prio et le lvl 2 en premier",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Lancer ses sorts quand Azir va last hit",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Les soldats ne bougent qu'avec le A (CD 14/12/10/8/6) : jouer quand ils sont figés",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source (> 2 ans) + DDragon (Q déplace tous les soldats, CD 14 s au rang 1)"
+    },
+    {
+      "idea": "Quand Azir auto-attaque il est immobile : lancer ses skillshots à ce moment",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, non vérifiable en DDragon"
+    },
+    {
+      "idea": "Azir gagne les trades longs, le burst avant qu'il retourne le fight",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: la source wiki (> 2 ans) ne compte pas pour un tip de lane, 1 seule source récente"
+    },
+    {
+      "idea": "Crash la wave puis back : Azir ne peut pas pousser la suivante",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Senna's basic attacks on-hit and abilities mark enemy champions hit for 4 seconds. Subsequent attacks or ability hits against marked targets will consume the mark to grant Senna a stack of Mist and deal bonus physical damage",
+    "Piercing Darkness' current cooldown is reduced by 1 second on-attack.",
+    "The shadow ray deals physical damage to enemies hit and slows them",
+    "The light ray heals Senna and allied champions hit.",
+    "Senna can generally target anything that is not either explicitly untargetable or herself.",
+    "Valid targets include anything that can be targeted by a basic attack from someone.",
+    "After the duration or when the target dies, the Black Mist spreads out of the target, rooting them and surrounding enemies for a few seconds.",
+    "Allied champions who enter the mist gain Wraith Form for a duration equal to the aura's remaining duration.",
+    "If Senna breaks the camouflage, she regains it after 1.75 seconds without performing actions that break stealth.",
+    "Using a basic attack breaks the stealth at the start of the attack windup.",
+    "The broad wave is a singular projectile that can be destroyed. The narrow wave will be destroyed with it in the process.",
+    "Senna reveals herself during the cast time.",
+    "Pour les combos, commencez par E si nécessaire dans une attaque Q W et alt avant d'attaquer. Et si vous réussissez W, attaquez avec Q et alt",
+    "Ensuite, si elle les touche avec une autre attaque ou compétence, elle gagne une charge de brume et inflige des dégâts supplémentaires en fonction de sa santé actuelle.",
+    "On me demande souvent s'il faut faire Q + auto ou auto Q. Ma réponse est Q + auto. C'est logique : vous ralentissez d'abord avant d'attaquer automatiquement, et l'attaque automatique réduit le délai de récupération du Q.",
+    "Si un adversaire vous fonce dessus, sachez que la séquence est W Q auto R auto. Le W est masqué par le Q, ce qui rend la réaction plus difficile.",
+    "Q peut également être utilisé sur les sbires, les balises et les plantes.",
+    "Si vous poursuivez un adversaire mais êtes hors de portée des attaques automatiques, il peut être judicieux de placer une balise. Utilisez le A pour les ralentir à travers la balise.",
+    "il s'agit d'une petite mécanique permettant de dérouter pour éliminer un sbire à faible santé, ce qui le déroute instantanément.",
+    "Puisque le R a un temps d'incantation d'une seconde, assurez-vous de le lancer lorsque vous ne pouvez pas effectuer d'autres actions, par exemple juste avant qu'il n'étourdisse.",
+    "ou entre deux attaques automatiques (A + auto + R + auto) afin de ne pas gaspiller de temps mort.",
+    "cast Piercing Darkness through the enemy for additional damage while healing your ADC",
+    "champions who leave the mist regain camouflage after 1.75 seconds if they re-enter"
+  ],
+  "rejected": [
+    { "idea": "Dernière étreinte (Z) puis Flash pour changer l'angle (Stunt)", "reason": "Combo Flash d'une seule source joueur, interaction non décrite par le wiki." },
+    { "idea": "Ténèbres aveuglantes (R) puis Flash pendant l'incantation pour esquiver (Stunt)", "reason": "Combo Flash d'une seule source joueur." },
+    { "idea": "Flash puis Dernière étreinte (Dodge.gg)", "reason": "Combo Flash d'une seule source, sans détail d'interaction." },
+    { "idea": "Q à travers un sbire pour toucher l'adversaire derrière", "reason": "Trop proche de l'astuce balise/sbire déjà retenue." }
+  ],
+  "toVerifyInGame": [
+    "Root instantané de Dernière étreinte (Z) quand le sbire touché meurt : vérifier le délai réel.",
+    "Mur de vent de Yasuo contre Ténèbres aveuglantes (R) : bouclier allié perdu aussi."
+  ]
+}

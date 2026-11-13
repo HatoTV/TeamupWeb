@@ -1,0 +1,34 @@
+{
+  "searches": 3,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "After completing an ability's effects, Shen grants himself a shield for 2.5 seconds. If Shen affects at least one other champion with an ability, Ki Barrier's cooldown is reduced",
+    "Shen recalls his Spirit Blade to him. Enemy champions hit by the Spirit Blade along its path are slowed for the next 2 seconds while moving away from Shen.",
+    "Once it arrives, Shen empowers his next 3 basic attacks within 8 seconds to gain range and deal bonus magic damage on-hit.",
+    "If the Spirit Blade hits at least one enemy champion during the travel, the attacks are further enhanced",
+    "The Spirit Blade will stop in place upon colliding with projectile-intercepting effects. If this occurs, Shen will not gain the empowered attacks as the Spirit Blade failed to complete its travel to him.",
+    "Twilight Assault will grant the shield if the Spirit Blade reaches Shen. If it is stopped, no shield is granted.",
+    "Spirit's Refuge's protective zone can be moved while active if Shen uses Twilight Assault.",
+    "Spirit's Refuge will also block damage from all abilities that use basic damage (Lunge, Mystic Shot, Steel Tempest).",
+    "Twilight Assault and Spirit's Refuge can be cast during the dash.",
+    "Casting during Shadow Dash will end the dash prematurely, but the end-of-dash collision check will hit enemies at the blink's location still.",
+    "granting the target allied champion a shield for 5 seconds at the time of cast, increased by target's missing health",
+    "Shen will channel so long as his target is alive (even if the granted shield is broken). If his target dies, the channel is canceled and Stand United goes on full cooldown.",
+    "Interrupting Stand United's channel will not remove the shield prematurely.",
+    "Before a trade, place your spirit blade behind your opponent, then cast Twilight Assault (Q)",
+    "Affecting other champions reduces the cooldown of this effect.",
+    "The second combo is the E ability flash combo. This is another super important combo because it allows you to dash and extend the range and reposition the dash to hit the CC on your target.",
+    "Q before the fight starts and go in when your empowered attacks have around half their cooldown left. Attack three times into E, Q and W before attacking three more times. This is a great way to cheat out six empowered attacks.",
+    "Your engage combo is to simply E into Q and W before attacking away.",
+    "Flashing a taunt onto someone is very easy kills."
+  ],
+  "rejected": [
+    { "idea": "Taunting through a stun: being stunned does not cancel the taunt once committed (IMainTopLane)", "reason": "Single source, ambiguous in a live commentary, not confirmed by the wiki." },
+    { "idea": "Auto then Titanic Hydra reset combo (Daveyx3)", "reason": "Item build advice rather than a Shen-specific mechanic." },
+    { "idea": "Flash then E to start the dash from further away (web search summaries of Mobalytics/Tacter)", "reason": "Pages not readable (403/404); not counted as sources." }
+  ],
+  "toVerifyInGame": [
+    "E then Flash: how late in the dash Flash can still be used for the taunt to apply at the arrival point.",
+    "Six empowered autos combo: timing of the second Twilight Assault so the blade is back before the first empowerment expires."
+  ]
+}

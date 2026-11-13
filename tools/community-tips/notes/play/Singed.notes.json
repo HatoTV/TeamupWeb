@@ -1,0 +1,33 @@
+{
+  "searches": 3,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Singed flings the target enemy 550 units over himself, dealing magic damage.",
+    "If the target lands on Mega Adhesive area of effect after the displacement, they are rooted for a duration.",
+    "During Fling cast time (the windup not during the actual fling) the enemy's flash is already locked, making it a non reactable spell.",
+    "Fling can throw enemies over walls (circumstances permitting).",
+    "Slow-immune enemies will not be rooted when flung into Mega Adhesive.",
+    "Singed spills a potent adhesive that lands at the target location after 0.375 seconds, creating a field for 3 seconds that grounds enemies within and slows them.",
+    "The goo missile is a projectile. It has a fixed travel time but is independent from when the zone is established. It is destructible by effects such as Wind Wall",
+    "Mega Adhesive's slow and ground debuffs are each marked as non-dispellable, so they are not removed by most cleanses.",
+    "Singed earns the kill credit of enemy minions that are poisoned and would die to the damage of allied minions within the time before the next damage instance.",
+    "During this time, Poison Trail additionally applies Grievous Wounds for 1 second, which refreshes every 0.25 seconds while the poison persists.",
+    "The ideal teamfight combo is: activate Insanity Potion, Ghost into the enemy backline",
+    "then Fling the carry into your team or into the Mega Adhesive for a guaranteed root.",
+    "slowing enemies by 50/55/60/65/70% and grounding them, preventing all dashes and blinks.",
+    "toggle Q on and run through the minion wave to poison all minions while positioning for CS.",
+    "Poison Trail also grants minion kill credit if poisoned minions die to allied minion damage.",
+    "Flash behind an enemy and immediately E to fling them into your team or into Mega Adhesive for a guaranteed root.",
+    "Cast Mega Adhesive (W) behind you, then Fling (E): a target flung into the glue is rooted there.",
+    "Cast Mega Adhesive (W) under an enemy who has a dash: in the glue, they're slowed and grounded, so they can't dash.",
+    "Your basic combo: activate Q, throw W behind you, approach the enemy and knock them into a puddle while continuing to attack.",
+    "And if you need to initiate a fight, use W together with Q. Run up to your opponent, throw him over your back, and continue attacking.",
+    "during these 25 seconds of the ultimate's duration, his Q also applies the Heavy Wounds effect."
+  ],
+  "rejected": [
+    { "idea": "Flash behind the enemy then Fling (Dodge.gg; Mobalytics page unreadable)", "reason": "Flash combo confirmed by only one readable author and not by the wiki." }
+  ],
+  "toVerifyInGame": [
+    "Fling over a wall: which wall thickness the 550-unit fling can clear."
+  ]
+}

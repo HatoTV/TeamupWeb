@@ -1,0 +1,39 @@
+{
+  "searches": 3,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Ryze's other ability casts reset Overload's cooldown and charge a Rune stack for 4 seconds, refreshing on subsequent casts and stacking up to 2 times.",
+    "Spell Flux Bonus: Overload deals bonus damage and spreads to surrounding Fluxed enemies.",
+    "If Ryze consumed 2 stacks, he gains bonus movement speed for 2 seconds.",
+    "Overload can be buffered 0.5 seconds before it comes off cooldown.",
+    "Overload can be buffered while casting either Spell Flux or Rune Prison to cast immediately after the previous spell's cast time.",
+    "Ryze seizes the target enemy, dealing magic damage and slowing them by 50% for 1.5 seconds.",
+    "Spell Flux Bonus: The target is rooted instead of slowed.",
+    "The target and surrounding enemies are also marked with Flux for 4 seconds.",
+    "Spell Flux's second cast on a target will apply a new Flux debuff as well as triggering the previous one (effectively refreshing the duration).",
+    "Spell Flux Bonus: Spell Flux spreads farther.",
+    "The main missile of Spell Flux is blocked by projectile-intercepting effects, while the spreading bounce missiles are not.",
+    "Ryze channels for 2 seconds to open a portal beneath him, marking the target location as its destination and granting sight of the target area. Ryze is able to act while channeling, but the portal will cancel if he is interrupted.",
+    "Upon completion, Ryze and all allied units within the portal will blink to the location and become rooted, disarmed, silenced and untargetable for 0.75 seconds.",
+    "Blinked units retain the same relative positions to one another upon arrival.",
+    "la chose la plus simple combo pour échange dommages à la ligne — ceci appuyez simplement sur E ramper, puis Q sur tous les objectifs à côté de lui",
+    "bien que le plus puissant combinaison dans cette situation —c'est Q E W Q, nous surtout important il suffit de se procurer CONTRÔLE. C'est aussi très bon combo pour s'échapper.",
+    "si vous appuyez sur Q W Q, il réinitialisera la recharge notre Q, et nous pouvons appliquer encore. Et ceci aussi fonctionne avec E.",
+    "Par exemple, E Q W Q, et puis un autre E Q.",
+    "Maintenant que l'objectif marqué, c'est reçoit des frais supplémentaires dégâts de Q ou est enraciné à partir de W.",
+    "Important pour souligner qu'elle est annulé effets de contrôle (CC). Donc, si Rise devient immobilisé ou en panne, Le portail est fermé.",
+    "The combo pattern in teamfights is: E (mark primary target) → Q (deal bonus damage and spread Flux to nearby enemies)",
+    "Your level 3 E-W-Q combo is your primary trading pattern — Spell Flux marks the target, Rune Prison roots them for 1.5 seconds",
+    "If the target is affected by Flux, Rune Prison's root duration is increased to 1.5 seconds."
+  ],
+  "rejected": [
+    { "idea": "Court-circuit (A) à 2 runes donne un bouclier (Dodge.gg)", "reason": "Absent de la description du wiki au patch 16.22 (vitesse seulement) : info datée." },
+    { "idea": "E sur un sbire puis E à nouveau puis Court-circuit pour rattraper une cible (Shok)", "reason": "Une seule source joueur, passage de la transcription traduite automatiquement peu clair." },
+    { "idea": "Portail transdimensionnel n'emmène pas un allié qui canalise certains ults (Caitlyn, Galio, Jhin, Xerath...)", "reason": "Liste longue et partielle sur le wiki ; trop rare pour une astuce courte." },
+    { "idea": "Combos avec Flash", "reason": "Aucune source joueur ne décrit un combo Flash précis pour Ryze." }
+  ],
+  "toVerifyInGame": [
+    "Buffer de Court-circuit (A) pendant l'incantation de Flux envoûtant (E) / Prison runique (Z) : vérifier que l'enchaînement part sans délai.",
+    "Durée exacte de l'état à l'arrivée du Portail transdimensionnel (wiki : 0,75 s estimée)."
+  ]
+}

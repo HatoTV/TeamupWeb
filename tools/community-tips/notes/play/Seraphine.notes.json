@@ -1,0 +1,39 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Seraphine's basic ability casts each generate a stack of Echo, stacking up to 2 times. At 2 stacks, the next basic ability cast consumes them all to cast an additional time at no cost after a delay. Seraphine gains maximum stacks of Echo when the game starts and upon respawning.",
+    "Seraphine's ability casts grant a Note to herself and nearby allied champions that lasts 6 seconds, refreshes on subsequent Notes and stacks up to 4 times on each unit.",
+    "While any amount of Notes are active, Seraphine's next basic attack is empowered to have an uncancellable windup, gain 25 bonus attack range per Note, and fire all Notes at the target",
+    "If Seraphine already had a shield at the time of cast, Surround Sound will pulse after the duration, healing herself and nearby allied champions.",
+    "Enemies that are already slowed are also rooted for the same duration.",
+    "Enemies that are immobilized or grounded are also stunned for the same duration.",
+    "Beat Drop will only be empowered from slows, immobilizes, and grounding effects applied by herself or her allies.",
+    "Seraphine projects a captivating force in the target direction that deals magic damage to enemies hit, charms them, during which they are revealed, and slows them by 40% for a duration",
+    "Encore's projectile resets its remaining travel distance whenever it hits an allied or enemy champion, excluding Seraphine.",
+    "Encore will not extend on enemy champions that are untargetable, but will do so for allied champions.",
+    "If Encore's projectile is negated via spell shield, this will also prevent it from resetting its travel distance.",
+    "Encore has two cast times. Both last 0.5 seconds. The wave will always project after the first cast time, and the second cast time only serves as a lockout for Seraphine.",
+    "Seraphine cannot buffer casts during the first cast time, but she may do so during the second cast time.",
+    "Avec deux cumuls, sa compétence suivante est lancée deux fois. Son deuxième passif lui octroie, ainsi qu'aux alliés proches, une note à chaque sort lancé.",
+    "Si elle possède déjà un bouclier, elle soigne aussi ses alliés après un court délai. Si elle utilise son passif pour lancer ce sort deux fois, elle applique boucliers et soins.",
+    "Chaque fois qu'il traverse un champion, allié ou ennemi, la distance de trajet est réinitialisée. En combo, engagez avec l'ultime, puis E, A et Z avant de vous replier. Si vous réussissez un double E, enchaînez avec l'ultime, le A et le",
+    "une grande partie de votre talent réside dans le choix de la compétence que vous doublez.",
+    "Si votre ADC dispose d'un ralentissement, attendez toujours qu'il le place avant de lancer votre E.",
+    "makes Surround Sound heal without needing a pre-existing shield.",
+    "guarantees at least a root on every target because the first cast slows.",
+    "Encore's projectile resets its remaining travel distance upon hitting an enemy champion.",
+    "hitting the frontline tank extends the charm through to the backline carries behind them.",
+    "open with Encore (R) on grouped enemies to charm as many as possible.",
+    "immediately follow with Beat Drop (E) to stun the charmed targets."
+  ],
+  "rejected": [
+    { "idea": "Flash puis Bis pour charmer depuis un angle inattendu (Dodge.gg)", "reason": "Combo Flash d'une seule source, sans interaction précise confirmée." },
+    { "idea": "Battement (E) étourdit forcément les cibles charmées par Bis (Dodge.gg)", "reason": "Le guide se contredit et le wiki ne dit pas si le charme compte comme une immobilisation ; formulé seulement comme « enferme mieux » (le ralentissement de Bis donne au moins le root)." },
+    { "idea": "Note aiguë doublée pour le burst", "reason": "Pas d'interaction propre, déjà couverte par l'astuce sur l'écho." }
+  ],
+  "toVerifyInGame": [
+    "Battement (E) sur une cible charmée par Bis (R) : root ou stun.",
+    "Buffer de Battement (E) pendant le second temps d'incantation de Bis (R)."
+  ]
+}

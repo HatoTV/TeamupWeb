@@ -1,0 +1,39 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "If Flair is cast during Wild Rush, Samira deploys explosives in her wake that detonate upon the end of the dash, dealing the same damage to enemies hit.",
+    "Samira's damaging basic attacks and abilities against at least one enemy champion unique from the previous damaging hit made against champions generate a stack of Style for 6 seconds",
+    "Samira cannot basic attack nor cast Flair during Blade Whirl. Casting Inferno Trigger will end Blade Whirl early.",
+    "The effect ending early includes the second slash not being performed, if applicable.",
+    "Samira spins her blade over 0.75 seconds, destroying all hostile non-turret projectiles within the area for the duration.",
+    "Samira can ignore the lockout for Flair and basic attacks if she uses Wild Rush and queues up Flair and/or a basic attack at the start of it.",
+    "Samira dashes a fixed distance in the direction of the target enemy or enemy structure, dealing magic damage to enemies she passes through.",
+    "Scoring a takedown against an enemy champion within 3 seconds of damaging them resets Wild Rush's cooldown.",
+    "Wild Rush prioritizes targeting champions over turrets.",
+    "A nearby visible enemy is required to cast this ability, and targets do not have to be visible to be shot at.",
+    "rapidly shooting at nearby enemies, reducing her movement speed by 30%",
+    "Samira's basic attacks against targets within 200 units of her use her blade, becoming non-projectile.",
+    "However, if you EQ and during the EQ, you spam your W, you can actually get four stacks.",
+    "Then we have the one that we saw earlier, which is using the Q dash combo to get three stacks instantly. And then we're going to cancel our W with our alt.",
+    "You can cast your alt immediately after pressing W and it will cancel the W.",
+    "just click near the wall and then E. And you can do this on raptors or on enemies. The surprising part about this one is that you can go over very thick wall, even the thickest wall here in dragon pit.",
+    "you can input buffer your reset of the E before you actually get the kill. And when you get the kill, the game will remember that you pressed",
+    "Last, you can use this input buffer of the E reset to dash on a tower and go for a dive.",
+    "The optimal combo is: auto-attack (E grade) → Q ranged (D grade) → E dash through target (C grade) → auto-attack melee (B grade) → W Blade Whirl (A grade) → Q melee (S grade) → R Inferno Trigger.",
+    "If cast during Wild Rush, Samira deploys explosives along her dash path that detonate for the same damage.",
+    "Blade Whirl destroys all enemy projectiles that enter the area during the duration."
+  ],
+  "rejected": [
+    { "idea": "Charge sauvage, Panache puis Flash pour reporter les dégâts sur une 2e cible (Sagittarius)", "reason": "Combo Flash confirmé par une seule source joueur ; interaction Flash pendant la ruée non décrite par le wiki." },
+    { "idea": "Flash puis Charge sauvage pour un engage de loin (Dodge.gg)", "reason": "Combo Flash d'une seule source." },
+    { "idea": "Le dash du passif sur une cible immobilisée traverse les petits murs (Sagittarius)", "reason": "Une seule source ; le wiki ne le dit pas." },
+    { "idea": "Attaque renforcée du passif sur un knock-up du support", "reason": "Le wiki indique que l'attaque renforcée ne se déclenche pas sur une cible déplacée : contradiction avec les sources joueurs, écarté." },
+    { "idea": "Attaquer pendant Gâchette infernale (Sagittarius)", "reason": "Contredit le wiki (pas d'attaque de base pendant l'ult)." },
+    { "idea": "Charge sauvage est annulée par un knock-up, pas Panache (Sagittarius)", "reason": "Une seule source." }
+  ],
+  "toVerifyInGame": [
+    "Buffer de la 2e Charge sauvage (E) avant le kill : vérifier que la ruée part bien au reset.",
+    "Passage des murs épais avec Charge sauvage (E) selon la distance de départ."
+  ]
+}

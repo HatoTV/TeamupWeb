@@ -1,0 +1,91 @@
+{
+  "champion": "Senna",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Ombre perforante puis attaque", "en": "Piercing Darkness into auto" },
+      "keys": ["Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Ouvre avec Ombre perforante (A) pour ralentir, puis enchaîne une attaque de base : elle consomme la marque de ton passif et réduit le CD d'Ombre perforante (A) d'une seconde.",
+        "en": "Open with Piercing Darkness (Q) to slow, then follow with a basic attack: it consumes your passive's mark and cuts Piercing Darkness (Q) cooldown by one second."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Burst complet avec l'ult", "en": "Full burst with ult" },
+      "keys": ["W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Dernière étreinte (Z), puis Ombre perforante (A) qui masque le projectile, une attaque, Ténèbres aveuglantes (R) et une dernière attaque. Cachée derrière ce tir, Dernière étreinte (Z) est dure à esquiver.",
+        "en": "Last Embrace (W), then Piercing Darkness (Q) to hide the projectile, an attack, Dawning Shadow (R) and a final attack. Hidden behind that shot, Last Embrace (W) is hard to dodge."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ombre perforante (A) peut viser un sbire, une balise, une plante ou un allié. Cible hors de portée ? Pose une balise devant toi et tire à travers pour la toucher.",
+        "en": "Piercing Darkness (Q) can target a minion, a ward, a plant or an ally. Target out of range? Drop a ward in front of you and fire through it to reach them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le rayon de lumière d'Ombre perforante (A) soigne tous les alliés qu'il traverse, toi comprise. Vise un ennemi derrière ton ADC pour soigner et blesser en un seul tir.",
+        "en": "The light ray of Piercing Darkness (Q) heals every ally it crosses, including you. Aim at an enemy behind your ADC to heal and damage in one shot."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Dernière étreinte (Z) enracine après 1 s, ou tout de suite si la cible meurt. Touche un sbire presque mort à côté de l'adversaire pour un root instantané.",
+        "en": "Last Embrace (W) roots after 1 s, or instantly if the target dies. Hit a nearly dead minion next to your opponent for an instant root."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tes attaques et tes sorts marquent les champions. Le coup suivant consomme la marque : dégâts en pourcentage des PV actuels et une charge de brume. Alterne sorts et attaques pour les cumuler.",
+        "en": "Your attacks and spells mark champions. The next hit consumes the mark: damage based on current health and a Mist stack. Mix spells and attacks to stack them."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Malédiction de la Brume noire (E) camoufle aussi les alliés qui entrent dans la brume. Une attaque casse ton camouflage dès son début, mais tu le récupères après 1,75 s sans action.",
+        "en": "Curse of the Black Mist (E) also camouflages allies who enter the mist. An attack breaks your camouflage as soon as it starts, but you get it back after 1.75 s without acting."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Ténèbres aveuglantes (R) a 1 s d'incantation et te révèle. Lance-la entre deux attaques ou juste avant d'encaisser un contrôle pour ne pas perdre de temps.",
+        "en": "Dawning Shadow (R) has a 1 s cast time and reveals you. Cast it between two attacks or right before taking crowd control so you waste no time."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ténèbres aveuglantes (R) est un seul projectile : le Mur de vent (Z) de Yasuo le détruit en entier, bouclier compris. Vise en dehors.",
+        "en": "Dawning Shadow (R) is a single projectile: Yasuo's Wind Wall (W) destroys all of it, shield included. Aim around it."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Senna - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Senna", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Guide Senna en 3 minutes - Un guide pour League of Legends", "url": "https://www.youtube.com/watch?v=dsJgIA45K6g", "type": "video", "date": "2026-11-13", "author": "3 Minute League of Legends" },
+    { "title": "LE GUIDE ULTIME DU CHALLENGER SENNA", "url": "https://www.youtube.com/watch?v=63iITWlAoAE", "type": "video", "date": "2026-11-13", "author": "Stunt" },
+    { "title": "Best Senna Build & Guide (2026) — League of Legends", "url": "https://www.dodge.gg/news/senna-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" }
+  ]
+}

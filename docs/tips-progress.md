@@ -159,18 +159,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ⏳ Riven
 - ⏳ Rumble
 
-### Lot 12 — ⏳
+### Lot 12 — ✅
 
-- ⏳ Ryze
-- ⏳ Samira
-- ⏳ Sejuani
-- ⏳ Senna
-- ⏳ Seraphine
-- ⏳ Sett
-- ⏳ Shaco
-- ⏳ Shen
-- ⏳ Shyvana
-- ⏳ Singed
+- ✅ Ryze (3 combos, 7 astuces)
+- ✅ Samira (3 combos, 7 astuces)
+- ✅ Sejuani (3 combos, 8 astuces)
+- ✅ Senna (2 combos, 7 astuces)
+- ✅ Seraphine (2 combos, 7 astuces)
+- ✅ Sett (4 combos, 7 astuces)
+- ✅ Shaco (3 combos, 6 astuces)
+- ✅ Shen (4 combos, 6 astuces)
+- ✅ Shyvana (4 combos, 6 astuces)
+- ✅ Singed (2 combos, 6 astuces)
 
 ### Lot 13 — ⏳
 

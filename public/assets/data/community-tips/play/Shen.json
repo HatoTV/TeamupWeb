@@ -1,0 +1,183 @@
+{
+  "champion": "Shen",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Taunt rallongé au Flash",
+        "en": "Flash-extended taunt"
+      },
+      "keys": [
+        "E",
+        "F"
+      ],
+      "level": "hard",
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "desc": {
+        "fr": "Lance Rush des ombres (E), puis Flash pendant la ruée : le dash s'arrête, mais le taunt touche les ennemis à ton point d'arrivée. Tu gagnes de la portée et tu corriges ta visée.",
+        "en": "Cast Shadow Dash (E), then Flash during the dash: it ends early, but the taunt still hits enemies where you land. You gain range and fix your aim."
+      },
+      "refs": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Engage taunt puis sorts",
+        "en": "Taunt engage into spells"
+      },
+      "keys": [
+        "E",
+        "Q",
+        "W"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Rush des ombres (E) sur la cible, puis Assaut crépusculaire (A) et Refuge spirituel (Z) pendant la ruée. Enchaîne ensuite tes autos renforcées.",
+        "en": "Shadow Dash (E) onto the target, then Twilight Assault (Q) and Spirit's Refuge (W) during the dash. Then chain your empowered autos."
+      },
+      "refs": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Six autos renforcées",
+        "en": "Six empowered autos"
+      },
+      "keys": [
+        "Q",
+        "E",
+        "Q",
+        "W"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Assaut crépusculaire (A) avant le combat, trois autos renforcées, puis Rush des ombres (E), de nouveau Assaut crépusculaire et Refuge spirituel (Z) pour trois autos renforcées de plus.",
+        "en": "Twilight Assault (Q) before the fight, three empowered autos, then Shadow Dash (E), Twilight Assault again and Spirit's Refuge (W) for three more empowered autos."
+      },
+      "refs": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Lame derrière, puis rappel",
+        "en": "Blade behind, then recall"
+      },
+      "keys": [
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Place ta lame spirituelle derrière l'adversaire, puis Assaut crépusculaire (A) : la lame le traverse en revenant, le ralentit et renforce davantage tes trois autos.",
+        "en": "Leave your Spirit Blade behind your opponent, then Twilight Assault (Q): the blade passes through them on its way back, slows them and further empowers your three autos."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Barrière de ki te shield après chaque sort. Si ce sort touche un autre champion, le CD du shield baisse : ouvre tes trades avec un sort qui touche.",
+        "en": "Ki Barrier shields you after each spell. If that spell hits another champion, the shield's cooldown drops: open your trades with a spell that lands."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La lame d'Assaut crépusculaire (A) s'arrête sur un effet qui bloque les projectiles, comme Mur de vent de Yasuo. Elle ne t'atteint pas : pas d'autos renforcées ni de shield.",
+        "en": "The Twilight Assault (Q) blade stops on projectile-blocking effects such as Yasuo's Wind Wall. It never reaches you: no empowered autos and no shield."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Refuge spirituel (Z) bloque aussi les sorts qui infligent des dégâts d'attaque de base, comme Tir mystique d'Ezreal, Tempête d'acier de Yasuo ou Fente de Fiora.",
+        "en": "Spirit's Refuge (W) also blocks spells that deal basic attack damage, such as Ezreal's Mystic Shot, Yasuo's Steel Tempest or Fiora's Lunge."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Une fois Refuge spirituel (Z) actif, lance Assaut crépusculaire (A) : la zone suit la lame et se déplace vers toi.",
+        "en": "Once Spirit's Refuge (W) is active, cast Twilight Assault (Q): the zone follows the blade and moves toward you."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si ton allié meurt pendant la canalisation de Soutien indéfectible (R), le TP est annulé et l'ult part en CD complet. Vise un allié qui peut tenir 3 s.",
+        "en": "If your ally dies during the Stand United (R) channel, the teleport is cancelled and the ult goes on full cooldown. Pick an ally who can survive 3 s."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le shield de Soutien indéfectible (R) est posé dès le début de la canalisation et reste même si on t'interrompt. Il est plus gros si ton allié a peu de PV.",
+        "en": "The Stand United (R) shield is applied at the start of the channel and stays even if you get interrupted. It is bigger the lower your ally's health."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Shen - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shen",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Shen Build, Runes & Counters",
+      "url": "https://outdraft.gg/en/champion/Shen",
+      "type": "guide",
+      "date": "2026-11-13",
+      "author": "Outdraft.gg"
+    },
+    {
+      "title": "The ONLY Shen Guide You Need - Shen Guide League of Legends (Shen Top Guide)",
+      "url": "https://www.youtube.com/watch?v=mifFabOCPck",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "Daveyx3"
+    },
+    {
+      "title": "Guide de Shen en 3 minutes - Un guide pour League of Legends",
+      "url": "https://www.youtube.com/watch?v=pnv8_bQeX7k",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "3 Minute League of Legends"
+    }
+  ]
+}

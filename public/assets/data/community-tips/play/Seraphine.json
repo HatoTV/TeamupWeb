@@ -1,0 +1,90 @@
+{
+  "champion": "Seraphine",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Engage à l'ult", "en": "Ult engage" },
+      "keys": ["R", "E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Bis (R) charme et ralentit, donc Battement (E) derrière enferme encore mieux les cibles touchées. Enchaîne Note aiguë (A), puis Son ambiophonique (Z) pour protéger l'équipe en te repliant.",
+        "en": "Encore (R) charms and slows, so a follow-up Beat Drop (E) locks the hit targets down even harder. Chain High Note (Q), then Surround Sound (W) to protect the team as you back off."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Double Battement puis ult", "en": "Double Beat Drop into ult" },
+      "keys": ["E", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Avec 2 charges d'écho, Battement (E) part deux fois : le premier tir ralentit, le second enracine. Si le double touche, enchaîne Bis (R) puis Note aiguë (A).",
+        "en": "With 2 Echo stacks, Beat Drop (E) fires twice: the first shot slows, the second roots. If the double lands, follow with Encore (R), then High Note (Q)."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "À 2 charges d'écho, ton prochain sort de base part une seconde fois gratuitement. Tu commences la partie et réapparais avec les charges pleines : choisis bien quel sort doubler.",
+        "en": "At 2 Echo stacks, your next basic spell casts a second time for free. You start the game and respawn with full stacks: choose carefully which spell to double."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Son ambiophonique (Z) soigne en plus après un court délai si tu avais déjà un bouclier. Doublé par l'écho, il donne donc bouclier et soin d'un coup.",
+        "en": "Surround Sound (W) also heals after a short delay if you already had a shield. Doubled by Echo, it therefore gives both shield and heal at once."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les ralentissements de tes alliés renforcent aussi Battement (E). Attends que ton ADC pose le sien avant de tirer : tu enracines au lieu de juste ralentir.",
+        "en": "Your allies' slows empower Beat Drop (E) too. Wait for your ADC to land theirs before firing: you root instead of just slowing."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bis (R) repart pour toute sa portée à chaque champion touché, allié ou ennemi. Vise à travers ton équipe ou le tank adverse pour atteindre la backline.",
+        "en": "Encore (R) regains its full range each time it hits a champion, ally or enemy. Aim through your team or the enemy tank to reach the backline."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Bis (R) ne se prolonge pas sur un ennemi impossible à cibler, ni sur un bouclier anti-sort qui le bloque. Les alliés, eux, le prolongent toujours.",
+        "en": "Encore (R) does not extend off an untargetable enemy, nor off a spell shield that blocks it. Allies always extend it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Bis (R) a deux temps d'incantation de 0,5 s. Pendant le premier, impossible de préparer un autre sort ; pendant le second, tu peux déjà buffer Battement (E).",
+        "en": "Encore (R) has two 0.5 s cast times. You can't buffer anything during the first one; during the second, you can already buffer Beat Drop (E)."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort te donne une note, à toi et aux alliés proches. Ta prochaine attaque gagne de la portée par note et les tire toutes : place une attaque après chaque sort en trade.",
+        "en": "Each spell grants a Note to you and nearby allies. Your next attack gains range per Note and fires them all: weave an attack after each spell in trades."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Seraphine - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Seraphine", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Guide Seraphine en 3 minutes - Un guide pour League of Legends", "url": "https://www.youtube.com/watch?v=fDmG_Q6d9Yc", "type": "video", "date": "2026-11-13", "author": "3 Minute League of Legends" },
+    { "title": "Best Seraphine Build & Guide (2026)", "url": "https://www.dodge.gg/news/seraphine-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" }
+  ]
+}

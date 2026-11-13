@@ -1,0 +1,112 @@
+{
+  "champion": "Sett",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Casse-tête puis Coup cathartique", "en": "Facebreaker into centered W" },
+      "keys": ["E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Casse-tête (E) étourdit les ennemis s'il en attrape des deux côtés. Enchaîne aussitôt Coup cathartique (Z) : la cible immobile prend le centre du coup, qui inflige des dégâts bruts.",
+        "en": "Facebreaker (E) stuns enemies if it grabs some on both sides. Chain Haymaker (W) right away: the stuck target takes the center of the blast, which deals true damage."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Trade long en lane", "en": "Extended lane trade" },
+      "keys": ["E", "Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Casse-tête (E), deux autos, Rogne (A) pour reset ton auto, encore deux autos, puis Coup cathartique (Z) pour finir. Place Rogne après deux autos plutôt qu'après une seule.",
+        "en": "Facebreaker (E), two autos, Knuckle Down (Q) to reset your auto, two more autos, then Haymaker (W) to finish. Use Knuckle Down after two autos rather than after one."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage avec l'ult", "en": "Ult engage" },
+      "keys": ["R", "E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Le Clou du spectacle (R) t'amène sur la cible, puis Casse-tête (E) sur le groupe autour, autos, Rogne (A) et Coup cathartique (Z) pour conclure.",
+        "en": "The Show Stopper (R) brings you onto the target, then Facebreaker (E) on the group around it, autos, Knuckle Down (Q) and Haymaker (W) to close."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Ramener la cible sous tourelle", "en": "Drag the target under tower" },
+      "keys": ["E", "F", "R", "W"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Casse-tête (E), Flash derrière l'ennemi, puis Le Clou du spectacle (R) : le saut continue dans la même direction et l'écrase vers ta tourelle. Finis avec Coup cathartique (Z).",
+        "en": "Facebreaker (E), Flash behind the enemy, then The Show Stopper (R): the leap keeps going the same way and slams them toward your tower. Finish with Haymaker (W)."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Lance Le Clou du spectacle (R) vers un mur : le saut s'arrête contre le terrain et l'impact tombe tout de suite. Utile pour burst vite au lieu d'attendre la fin du saut.",
+        "en": "Cast The Show Stopper (R) toward a wall: the leap stops on the terrain and the impact lands right away. Useful to burst fast instead of waiting for the full leap."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Casse-tête (E) n'étourdit que s'il touche au moins un ennemi de chaque côté. Un sbire derrière toi suffit : vise le champion devant et le sbire derrière.",
+        "en": "Facebreaker (E) only stuns if it hits at least one enemy on each side. A minion behind you is enough: aim at the champion in front and the minion behind."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si Casse-tête (E) ne touche personne, tu ne peux pas lancer Coup cathartique (Z) pendant 0,25 s après. Rate-le et ton Coup cathartique part en retard.",
+        "en": "If Facebreaker (E) hits no one, you can't cast Haymaker (W) for 0.25 s afterwards. Miss the E and your E then W combo comes out late."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les dégâts du Clou du spectacle (R) montent avec les PV bonus de la cible attrapée. Attrape le tank ennemi et écrase-le sur sa propre équipe.",
+        "en": "The Show Stopper (R) damage scales with the grabbed target's bonus health. Grab the enemy tank and slam it onto its own team."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Coup cathartique (Z) convertit toute ta jauge en shield dès le début de l'incantation. Les dégâts stockés fondent après 4 s, et ceux absorbés par un shield ne remplissent pas la jauge.",
+        "en": "Haymaker (W) turns all your Grit into a shield as soon as you cast it. Stored damage decays after 4 s, and damage absorbed by a shield doesn't fill the bar."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Roi de l'arène alterne gauche puis droite : le coup droit part bien plus vite et frappe plus fort. Sans coup droit pendant 2 s, tu repars du gauche. Rogne (A) force gauche puis droite.",
+        "en": "Pit Grit alternates left then right: the right punch comes out much faster and hits harder. Without a right punch for 2 s, you restart on the left. Knuckle Down (Q) forces left then right."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Contre une cible insensible aux CC ou sous bouclier anti-sort, Le Clou du spectacle (R) ne l'attrape pas, mais tu sautes quand même. Garde ton ult pour après ces protections.",
+        "en": "Against a CC-immune or spell-shielded target, The Show Stopper (R) doesn't grab it, but you still leap. Save your ult for after those protections."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Sett - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Sett", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Sett Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=s_s_XCts4jE", "type": "video", "date": "2026-10-30", "author": "3 Minute League of Legends" },
+    { "title": "SETT GUIDE - How to Carry With Sett - Challenger Guide", "url": "https://www.youtube.com/watch?v=LtmHPJj_hcQ", "type": "video", "date": "2026-11-13", "author": "Coach Chippys" },
+    { "title": "5 TIPS AVANCÉS SUR SETT !", "url": "https://www.youtube.com/watch?v=4LdOxX3neEw", "type": "video", "date": "2025-10-14", "author": "Misanthiel - Coach Toplane" }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] De 1, tu dois pas prendre son E. Le E de Garen, c'est 70 % de ses dégâts. Donc, là je vais space de sorte à ce qu'il puisse pas me E.",
+    "[0] 2, faut vraiment jouer pour essayer de cancel son passif au max. Euh le passif de Garen sur le long terme, ça fait vraiment de de la regen de fou.",
+    "[0] Et 3, faut pas chercher à tout prix à tuer Garen. C'est un perso où tu dois être intelligent dans ta manière de le tuer parce que c'est très tanky, ça survit très très bien.",
+    "[0] Il a son ulti au cas où tu fais le con sous tour. Il a son Z pour tanker, il a son passif pour tenir sur le long terme la lane.",
+    "[0] Garen, faut vraiment partir du principe que tu veux juste l'outfarm. Tu te concentres sur le wave management, tu le poke en boucle.",
+    "[0] Faut surtout pas te brûler les ailes parce que Garen, c'est top 1 des champions qui punissent les erreurs.",
+    "[0] De deux ça te donne des HP donc ça te permet d'éviter de te faire one shot sur un trade avec son ulti.",
+    "[0] Faut juste respecter les timings où tu as pas tes CD et et c'est assez simple. Euh là, je peux potentiellement le tuer sur le timing ulti",
+    "[0] Ah, le Z de Garenne, c'est un autre point très important du champ. Il est extrêmement tanky quand il l'a. On s'en bat un peu les couilles de lui quand il l'a pas.",
+    "[0] Garen c'est un genre de mec qui est très simple à deny mais qui est très dur à tuer.",
+    "[1] You're going to run out of mana very, very fast if you constantly look to trade him. Rather, you can see what I do is when he walks up, I throw a Q at him, but typically I keep the trades pretty short.",
+    "[1] Uh anything too long is not going to benefit you. Since his passive, his D shield, it will keep him alive.",
+    "[1] Because what Garen will often do is he will Q, he'll run at you, and then he'll press E. If you can E before his Q connects onto you, it should soak the damage and it should also disengage you from the his E",
+    "[1] So, you have to be very careful of his E, and that's what I look for.",
+    "[1] important cooldowns, which are his flash, ignite, and his R. If he has all of these cooldowns up, it's very difficult to kill him. But if he has them down, it becomes a lot easier.",
+    "[1] now I I can just pull the wave and I freeze, and it's very difficult for Garen to honestly play the game now",
+    "[1] basically, play safe early, wait till you get a little bit of armor, pull the wave, and wait for his misstep while his important cooldowns are off, like his flash, ignite, and his ultimate",
+    "[2] Les choses à ne pas : tanker son E, trade dans son W et perdre des PV bêtement. Grosso modo, le match-up en : disengage de son Q avec un EZ s'il vous charge, ne pas trade dans son W mais chercher à le bait, ne pas fight si son Z et son E sont disponibles",
+    "[2] Mais voilà, claque son E. Donc je dis engage avec un Q spell pour sortir de la range de E.",
+    "[2] Je sais que je le tuerai pas. Mon objectif ici c'est pas de le tuer. Mon objectif c'est juste ma wave",
+    "[2] Là si son Z était en CD j'aurais go in. Mais il est up, c'est la c'est la raison pour laquelle là je je go pas alors qu'il est sur un seuil de HP où je pourrais le tuer. Son Z le rend beaucoup trop tanky en plus de lui donner un shield de la ténacité.",
+    "[2] Parce que son silence est en cooldown, il est pas up. Donc il pourra pas buffer un silence par-dessus le le le Q3.",
+    "[2] on va juste me contenter de freeze la lane. Et on va continuer à faire ce qu'on a fait tout le long, c'est-à-dire on va essayer de bait son Z, on va essayer de short trade.",
+    "[2] Jamais ne jamais mettre votre Q3 s'il est sous silence et up. Ne voulez pas Q3 parce que sinon il va buffer son silence sur votre Q3 et vous allez vous faire baiser. Ne jamais dash in quand il a son son E."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "CyzzzBE4sJQ",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 0:40-1:35, 3:40-3:57, 7:10, 8:19), guide FR Challenger, 2026-11-07"
+    },
+    {
+      "id": "lnVvJhjCTxY",
+      "channel": "Aatreus",
+      "result": "utilisé (passages 0:30-1:13, 2:54-3:36, 4:11-5:49), Challenger K'Sante, en-orig, 2026-05-13"
+    },
+    {
+      "id": "JDp0YnNHnEk",
+      "channel": "RBC Riven (RivenBadChamp)",
+      "result": "utilisé (passages 0:50-1:03, 2:50, 4:51, 6:37-6:54, 8:29, 9:06, 14:49), guide FR, 2026-10-17"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Ne pas rester dans le E (gros des dégâts, réduit l'armure)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (E : dégâts en rotation, réduction d'armure après plusieurs coups)"
+    },
+    {
+      "idea": "Short trades : les combats longs avantagent Garen (passif, Z)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Ne pas forcer le kill : freeze, poke, outfarm",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Bait le Z, engager quand il est en CD",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z : shield, ténacité, réduction de dégâts)"
+    },
+    {
+      "idea": "Reculer quand il charge au A, ne pas dash tant que le A (silence) est up",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (A : vitesse, retire les ralentissements, prochaine attaque silence)"
+    },
+    {
+      "idea": "All-in quand son R est en CD, surtout près de sa tour",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Poke pour couper la regen du passif",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Persévérance : regen si pas touché récemment)"
+    },
+    {
+      "idea": "R : dégâts bruts selon PV manquants, sortir de portée quand on est bas",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R : dégâts bruts + % PV manquants, portée 400)"
+    },
+    {
+      "idea": "Garen proxy souvent : rester près du brush pour le punir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (lane)"
+    },
+    {
+      "idea": "Garen roam/flank mieux : ne pas lui donner le push",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (macro)"
+    },
+    {
+      "idea": "Garen push très vite, le 3 wave crash + cheater recall ne marche pas",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source et contredit par [1] (cheater recall)"
+    }
+  ]
+}

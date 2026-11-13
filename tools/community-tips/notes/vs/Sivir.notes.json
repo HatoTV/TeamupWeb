@@ -1,0 +1,144 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Ils vont attendre que vous utilisez votre spell shield et ensuite ils vont ils vont le lancer sur vous.",
+    "[0] Les adversaires vont garder un sort important, notamment les sorts d'immobilisation. C'est souvent ce qui va être gardé contre civir.",
+    "[0] ça a une une portée qui est très très faible. Faites super gaffe à ça.",
+    "[0] par contre ça a une portée de de d'autoattaque qui est très faible.",
+    "[0] c'est une sorte d'hypercry low range en français c'est un personnage lorsque vous amassz beaucoup de ressources va vraiment monter en puissance au niveau des dégâts.",
+    "[0] en général, vous avez le push et l'ennemi est un petit peu obligé de s'éloigner parce que sinon il va prendre les ricochets",
+    "[0] Faites attention à ça si vous jouez con des civir par exemple.",
+    "[0] Et recollez contre le mur. Il peut pas dodge le cul.",
+    "[0] même si vous le touchez souvent vous allez toucher que l'allée et pas le retour",
+    "[0] ça va faire beaucoup de dégâts en zone sur des team fight où les gens sont pqués",
+    "[0] avec civir traditionnellement ça va être la prise de push, la prise de prio.",
+    "[1] Civer is a short-ranged AD carry, but her W makes her long range.",
+    "[1] you can use your W to auto attack the tank, which will eventually bounce and hit the carries.",
+    "[1] have a plan on what you want to spell shield before a fight. Basically, if you're against a Morgana, for example, save your E for her Q and don't waste it on a random ability",
+    "[1] If they stand too close to the minions, you'll poke them with your W and Q, which makes it harder for them to farm.",
+    "[1] you still need to be careful in the early game because you're not a bully by any means. You are vulnerable to ganks.",
+    "[1] you need at least two items to be a real threat.",
+    "[1] Civer being able to push waves super fast meant that I would overextend sometimes without even realizing it.",
+    "[1] instead of just crashing the wave, only to get ganked by the enemy jungler, die, and lose my entire advantage.",
+    "[2] it's really important that we usually take waves high as Sivir. So, pretty far into the enemy's face",
+    "[2] If you want to get a double hit on range for example, then you should always match the movement of the enemy and like try to get a double hit",
+    "[2] Now if I'm actually using ult and I start auto attacking, you see that my W cooldown is actually going down with every single hit.",
+    "[2] whenever you're taking a kill or like an assist, you know, from like someone you have damaged, then your ultimate duration is refreshed again.",
+    "[3] Sivir does bad damage to isolated targets.",
+    "[3] Sivir does like multiply damage to people that are standing next to each other, right? Cuz you bounce"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "w_Iy-_zpijM",
+      "channel": "Varry",
+      "result": "utilisé (passages 2:19-2:40, 3:38-3:52, 4:14-4:45, 5:29-5:50)"
+    },
+    {
+      "id": "ym7EH2ebiag",
+      "channel": "Doublelift",
+      "result": "utilisé (passage 0:00-0:30) ; reste de la vidéo = gameplay sans conseil"
+    },
+    {
+      "id": "V0XFMeRardw",
+      "channel": "Sididi",
+      "result": "utilisé (passages 2:27, 3:07-4:11, 7:03, 8:15-8:26)"
+    },
+    {
+      "id": "VGbT7CxGMG8",
+      "channel": "EcoreLoL",
+      "result": "utilisé (passages 5:05-6:40, 7:24, 9:28)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Garder son CC jusqu'à ce que le Bouclier magique (E) soit utilisé, le baiter avec un sort mineur",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E bloque la prochaine compétence, CD 24-18 s)"
+    },
+    {
+      "idea": "Portée d'auto courte (500) : trade au bord de sa portée",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (attackrange 500)"
+    },
+    {
+      "idea": "Ricochet (Z) sur la wave : ne pas rester collé aux sbires, les rebonds touchent",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (rebonds sur les ennemis proches)"
+    },
+    {
+      "idea": "Lame boomerang (A) touche à l'aller et au retour : esquiver le retour, éviter les murs",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (dégâts à l'aller comme au retour)"
+    },
+    {
+      "idea": "Ne pas rester groupé en teamfight contre les rebonds de Ricochet (Z)",
+      "sourceIdx": [
+        3,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (rebonds) ; Sididi le dit aussi"
+    },
+    {
+      "idea": "Sivir scale et n'est pas une lane bully : pression tôt",
+      "sourceIdx": [
+        1,
+        0
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Sivir push et joue haut : vision rivière et gank quand elle s'avance",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "En chasse (R) : les autos réduisent ses CD, les kills relancent l'ult, éviter les fights longs",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip R : réduction des CD de base par auto, takedowns rafraîchissent la durée)"
+    },
+    {
+      "idea": "Ne pas lancer un sort dans son E : soin + vitesse (passif) si bloqué",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: vérifié DDragon mais cap de 8 tips, proche du tip E"
+    },
+    {
+      "idea": "Rester derrière ses sbires contre la Lame boomerang (A), dégâts réduits par cible non-champion",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: vérifié DDragon mais cap de 8 tips"
+    }
+  ]
+}

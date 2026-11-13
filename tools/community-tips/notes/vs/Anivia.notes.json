@@ -1,0 +1,133 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Number one, her abilities have long range and travel fast. They are difficult to dodge, especially with Anevia's low movement speed.",
+    "[0] between levels one and six, it is very difficult for Anivvia to win a trade",
+    "[0] Anivvia's best way to trade before level six is to land her Q and then follow up with E. But if Mel uses her W correctly, we will never be able to hit our Q, and without Q, our E does significantly less damage.",
+    "[0] We already know the lane becomes easier after level six since we no longer need to land Q for our E to deal meaningful damage.",
+    "[0] It also becomes much easier to kill her because she has no dash. We can use our ulti and then wall her in, forcing her to stay inside.",
+    "[0] Ideally, you do not want your enemy to crash the wave into your tower because that gives them much more priority in lane and on roams.",
+    "[0] Now that she has used all of her abilities and I have taken some damage, there is no reason to back off. This is your window to deal some damage back.",
+    "[0] I still have my egg. It is not bad to lose egg in this situation because when I come back up, I return with more health than she has.",
+    "[1] I keep shoving the wave so she's forced to stay.",
+    "[1] And now egg means she's just dead.",
+    "[1] Oh, she had her egg up. My bad. I was like, why didn't why didn't I get the W reset? I I didn't see the egg.",
+    "[1] If she didn't have egg, it would have been perfect, right? I would have killed her and would have W flashed away.",
+    "[2] Elle va sûrement start au queue. Du coup, faut que je dodge à tout prix. Premier queue, c'est le plus important.",
+    "[2] il faut focus la Anivia avant qu'elle qu'elle respawne.",
+    "[3] Oh non, il a récupéré son stun à la à la seconde près. Parce que là, faut savoir qu'il meurt le temps de tuer l'œuf."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "xmZPEv3Zzj0",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 0:47-0:53, 8:53) ; reste de la vidéo spécifique à Nasus"
+    },
+    {
+      "id": "STeIzinT52c",
+      "channel": "Gaëthan - VOD",
+      "result": "utilisé (passage 2:10-2:21) ; surtout du commentaire d'humeur, peu de conseils"
+    },
+    {
+      "id": "m5s4lVEYbMI",
+      "channel": "rebrrt",
+      "result": "utilisé (passages 6:44, 7:49, 9:22-9:40 du chapitre vs Anivia 0:00-12:00)"
+    },
+    {
+      "id": "-10aalnH9MA",
+      "channel": "SanSiroBro",
+      "result": "utilisé (0:39-3:19) : point de vue du joueur Anivia sur ses faiblesses ; passages objets ignorés"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Vérifier l'œuf (Renaissance) avant un all-in, prévoir de quoi le casser",
+      "sourceIdx": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "4 sources ; passif vérifié DDragon (renaît avec tous ses PV)"
+    },
+    {
+      "idea": "Esquiver la Lance de glace (A) : sans gel la Gelure (E) fait moitié moins",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E doublée contre les cibles gelées, A gèle)"
+    },
+    {
+      "idea": "Avant le lvl 6, trade quand son A est en CD ou raté",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Push la wave sous sa tour pour la bloquer en lane et prendre la prio",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Sortir de la Tempête glaciale (R) avant qu'elle soit complète",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R formée gèle ; E doublée contre les cibles gelées ; la tempête grossit sur la durée)"
+    },
+    {
+      "idea": "Garder son dash pour la Cristallisation (Z) utilisée pour enfermer dans le R",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (mur infranchissable de courte durée)"
+    },
+    {
+      "idea": "Anivia lente et sans dash : la poke avec des skillshots longue portée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (325 de vitesse, aucun dash dans le kit)"
+    },
+    {
+      "idea": "Feinter le last hit pour lui faire gâcher son A",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, pas une mécanique DDragon"
+    },
+    {
+      "idea": "Sous sa tour, elle utilise le mur pour te faire prendre l'aggro de la tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, tip lane"
+    },
+    {
+      "idea": "Elle devient forte avec un objet précis",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: conseil d'objet interdit"
+    }
+  ]
+}

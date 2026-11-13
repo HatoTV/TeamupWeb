@@ -19,16 +19,16 @@
         "category": "mechanics"
       },
       {
+        "text": "Il peut lancer sa Ruée obscure (E) pendant la préparation de ses sorts pour réajuster son A. Après un A1 encaissé, ne fuis pas en ligne droite.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
         "text": "Aatrox atteint son pic en mid game. Évite les fights contre lui à ce moment : il décline ensuite quand la partie avance.",
         "sources": 2,
         "verifiedByGameData": false,
         "category": "macro"
-      },
-      {
-        "text": "Il peut lancer sa Ruée obscure (E) pendant la préparation de ses sorts pour réajuster son A. Après un A1 encaissé, ne fuis pas en ligne droite.",
-        "sources": 1,
-        "verifiedByGameData": true,
-        "category": "mechanics"
       },
       {
         "text": "Son Épée des Darkin (A) a un long CD en début de partie. S'il a lancé ses trois frappes et sa Ruée obscure (E), c'est ta fenêtre pour all-in.",
@@ -38,6 +38,12 @@
       },
       {
         "text": "Si ses Chaînes infernales (Z) te touchent, sors de la zone tout de suite : sinon tu es ramené au centre et tu reprends les dégâts.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Reste derrière tes sbires : ses Chaînes infernales (Z) ne touchent que le premier ennemi. S'il lance son Fossoyeur des mondes (R), les sbires fuient : méfie-toi.",
         "sources": 1,
         "verifiedByGameData": true,
         "category": "mechanics"
@@ -63,16 +69,16 @@
         "category": "mechanics"
       },
       {
+        "text": "He can cast Umbral Dash (E) while winding up his other spells to re-aim his Q. After eating a Q1, don't run straight back.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
         "text": "Aatrox peaks in the mid game. Avoid fighting him in that window: he falls off as the game goes on.",
         "sources": 2,
         "verifiedByGameData": false,
         "category": "macro"
-      },
-      {
-        "text": "He can cast Umbral Dash (E) while winding up his other spells to re-aim his Q. After eating a Q1, don't run straight back.",
-        "sources": 1,
-        "verifiedByGameData": true,
-        "category": "mechanics"
       },
       {
         "text": "Darkin Blade (Q) has a long cooldown early on. Once he's thrown all three casts and Umbral Dash (E), that's your window to all-in.",
@@ -82,6 +88,12 @@
       },
       {
         "text": "If Infernal Chains (W) hit you, leave the zone right away, or you get yanked back to the middle and take the damage again.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Stay behind your minions: Infernal Chains (W) only hit the first enemy in the path. When he casts World Ender (R), minions flee, so watch out.",
         "sources": 1,
         "verifiedByGameData": true,
         "category": "mechanics"
@@ -141,6 +153,19 @@
       "site": "wiki.leagueoflegends.com",
       "url": "https://wiki.leagueoflegends.com/en-us/Aatrox/Strategy",
       "consultedAt": "2026-11-13"
+    },
+    {
+      "title": "10 Aatrox Tips from a Challenger Aatrox main",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=DCQFmkv5CRM",
+      "consultedAt": "2026-11-13",
+      "channel": "Looca",
+      "publishedAt": "2026-04-11",
+      "timestamps": [
+        "0:44",
+        "2:42",
+        "2:50"
+      ]
     }
   ]
 }

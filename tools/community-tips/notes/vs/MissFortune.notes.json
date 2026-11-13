@@ -1,0 +1,127 @@
+{
+  "searches": 5,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] Often times, the enemy won't even be able to trade back a single point of damage against you since the Q bounce from minions outranges what most ADCs can do by quite a lot.",
+    "[0] You instantly notice that she is an older champion as she has zero mobility or self-peel. And as a result, she's quite vulnerable to ganks and to hard engages.",
+    "[0] Additionally, her ultimate is quite easy to disrupt. Yes, it is a powerful tool, but channeled abilities always leave the champion casting them wide open to a counterattack.",
+    "[1] Then what you need to know is whenever you're killing a target with the Q, then your Q will actually critical strike and it will do a lot of damage.",
+    "[1] let's say this would be a minion and you Q and someone is behind here, then you can Q last hit it and it does double damage, basically.",
+    "[1] Then Miss Fortune's W is just like after 4 seconds of not taking damage, Miss Fortune gains movement",
+    "[1] usually like our combo is like E ulting because by this they are slowed, right?",
+    "[2] Miss Fortune's speed boost is removed if she is damaged by an enemy.",
+    "[2] Miss Fortune is easy to kill if you can reach her. Target her first in teamfights.",
+    "[2] Save your crowd control during teamfights to interrupt her Bullet Time.",
+    "[2] While you're on lane, don't stand behind closely dying minions.",
+    "[2] so try not to stay behind low health minions in the laning phase to avoid being forced out of lane.",
+    "[2] Any attack against Miss Fortune, even from a minion, will remove Strut's passive speed.",
+    "[2] Stay mobile to avoid the damage from the Make It Rain- Bullet Time combo,"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "y3P2NQOYLJo",
+      "channel": "MissFortuneDaBes",
+      "result": "utilisé (passages 0:39, 2:05-3:09, chapitre Weaknesses)"
+    },
+    {
+      "id": "BbA36dU_BTk",
+      "channel": "Varry",
+      "result": "utilisé (passages 3:33-3:50, 4:48)"
+    },
+    {
+      "id": "IjDnzl5y1O0",
+      "channel": "Lelariva",
+      "result": "écarté : guide pour jouer MF ; seul point contre elle (rebond du A qui trouve une cible dans un buisson sans vision, 21:23) non vérifiable dans Data Dragon et sans 2e source"
+    },
+    {
+      "id": "QlhLgZoytzA",
+      "channel": "Chap",
+      "result": "écarté : pas de conseil exploitable pour jouer contre MF"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.leaguefeed.net/how-to-counter-miss-fortune/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Miss_Fortune/Strategy",
+      "result": "ok (traité comme > 2 ans : mécaniques vérifiées seulement)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/missfortune/counters",
+      "result": "no-advice (tips pour jouer MF seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ne pas rester derrière un sbire bas en PV : le rebond du A crit si le 1er tir tue",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Double Up : always crits if first shot kills)"
+    },
+    {
+      "idea": "Le R est canalisé : garder son CC pour l'interrompre",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Bullet Time channels)"
+    },
+    {
+      "idea": "Après le slow du E, le R suit : sortir de la zone",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E slow, R cone)"
+    },
+    {
+      "idea": "Le bonus de vitesse passif du Z saute quand MF prend des dégâts",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passive MS after N s without taking damage)"
+    },
+    {
+      "idea": "Aucun dash : vulnérable à l'engage / CC, focus en premier",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (aucun dash dans le kit)"
+    },
+    {
+      "idea": "Ses dégâts sont front-loaded : les fights longs te favorisent",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, tip de lane"
+    },
+    {
+      "idea": "Le rebond du A trouve une cible cachée dans un buisson derrière un sbire",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 source (Lelariva), non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Rester loin pour éviter le harass de Cœur volage",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source ancienne, conseil générique"
+    }
+  ]
+}

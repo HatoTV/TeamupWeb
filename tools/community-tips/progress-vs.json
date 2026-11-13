@@ -70,7 +70,6 @@
     "Senna",
     "Gangplank",
     "Chogath",
-    "Aatrox",
     "Seraphine",
     "Cassiopeia",
     "Jinx",
@@ -94,14 +93,8 @@
     "Gwen",
     "Vi",
     "Xerath",
-    "Ashe"
-  ],
-  "inProgress": [],
-  "insufficientSources": [
-    "Jhin"
-  ],
-  "queueRule": "Un champion par fiche (Data Dragon 16.22.1, 173 champions). Ordre : parties cumulées tous rôles dans les données Builds 16.22 Maître+ (décroissant), puis les champions sans données Builds (ordre alphabétique), puis les champions sortis depuis moins de 6 mois (absents de Data Dragon 16.12.1 : Locke).",
-  "queue": [
+    "Ashe",
+    "Aatrox",
     "Rengar",
     "Anivia",
     "Sivir",
@@ -111,7 +104,14 @@
     "Vayne",
     "Garen",
     "Gragas",
-    "Lillia",
+    "Lillia"
+  ],
+  "inProgress": [],
+  "insufficientSources": [
+    "Jhin"
+  ],
+  "queueRule": "Un champion par fiche (Data Dragon 16.22.1, 173 champions). Ordre : parties cumulées tous rôles dans les données Builds 16.22 Maître+ (décroissant), puis les champions sans données Builds (ordre alphabétique), puis les champions sortis depuis moins de 6 mois (absents de Data Dragon 16.12.1 : Locke).",
+  "queue": [
     "Akshan",
     "Kassadin",
     "Sona",
@@ -181,7 +181,5 @@
     "Locke"
   ],
   "retryNote": "Bard, Naafiri : fiches publiées sans vidéo (ou 1 seule) pendant la limitation YouTube du 2026-11-13, à compléter avec des vidéos.",
-  "videoPending": [
-    "Aatrox"
-  ]
+  "videoPending": []
 }

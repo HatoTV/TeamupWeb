@@ -14,9 +14,12 @@
     "[2] also in this spirit of the game, you want to dodge his Q's inward",
     "[3] Aatrox's attacks are very telegraphed, so use the time to dodge the hit zones.",
     "[3] Aatrox's Infernal Chains are easier to exit when running towards the sides or at Aatrox.",
-    "[3] Keep your distance when Aatrox uses his ultimate to prevent him from reviving."
+    "[3] Keep your distance when Aatrox uses his ultimate to prevent him from reviving.",
+    "[4] On Aatrox, you can actually extend your Q range by E'ing over terrain. Now, if you see, I stand here and I EQ forward, I actually don't hit this dummy.",
+    "[4] if I E over terrain and I EQ forward, I actually hit it because this terrain is further than my normal E would be.",
+    "[4] Now, often on Aatrox, your W is going to get blocked by creeps. So, if someone's standing in the wave like this, what you can do is you can ult, make the minions walk away, and then you can hit your full combo on them."
   ],
-  "videosRead": 3,
+  "videosRead": 4,
   "videosTried": [
     {
       "id": "2CXi04mpPkM",
@@ -32,6 +35,11 @@
       "id": "ZMeYosCo3U0",
       "channel": "WD Maverick",
       "result": "utilisé (1:00, 6:06-6:45, 15:20-16:13, 25:45-26:43, 34:55-35:25) : courbe de puissance, esquive du A vers l'intérieur, fenêtre d'all-in, E après A1"
+    },
+    {
+      "id": "DCQFmkv5CRM",
+      "channel": "Looca",
+      "result": "utilisé (passe de complétion, 0:44-1:12 et 2:42-3:08) : E pendant la préparation du A pour étendre sa portée, Z bloqué par les sbires, R qui fait fuir les sbires. wktV1ratsL4 (AloisNLVODs, VOD de 46 min) non ouvert : cap de 4 vidéos atteint"
     }
   ],
   "pagesTried": [
@@ -80,10 +88,11 @@
     {
       "idea": "E utilisable pendant la préparation des sorts : ne pas reculer en ligne droite après un A1",
       "sourceIdx": [
-        2
+        2,
+        4
       ],
       "kept": true,
-      "reason": "1 source + DDragon (tooltip AatroxE : usable while winding up other abilities)"
+      "reason": "2 sources + DDragon (tooltip AatroxE : usable while winding up other abilities)"
     },
     {
       "idea": "Fenêtre d'all-in quand ses trois A et son E sont utilisés (long CD du A tôt)",
@@ -138,14 +147,38 @@
       ],
       "kept": false,
       "reason": "dropped: propre au matchup Sett, 1 source"
+    },
+    {
+      "idea": "Z bloqué par les sbires (premier ennemi touché) ; son R fait fuir les sbires",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip AatroxW : first enemy hit ; AatroxR : fearing nearby minions)"
+    },
+    {
+      "idea": "Portée du E (et donc du A) allongée en passant un mur ou une tourelle",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "dropped: interaction avec le terrain non vérifiable dans DDragon, 1 source"
+    },
+    {
+      "idea": "Le 2e A, large, touche facilement un ennemi collé derrière sa tourelle",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, géométrie non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Il lance ses A juste avant un CC adverse pour qu'ils partent quand même",
+      "sourceIdx": [
+        4
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, interaction non décrite dans DDragon"
     }
-  ],
-  "videoPending": {
-    "blocked": [],
-    "note": "La 5e recherche YouTube a échoué (page de résultats illisible, possible limitation) : 4e vidéo non ouverte, pas de nouvel essai.",
-    "candidates": [
-      "wktV1ratsL4",
-      "DCQFmkv5CRM"
-    ]
-  }
+  ]
 }

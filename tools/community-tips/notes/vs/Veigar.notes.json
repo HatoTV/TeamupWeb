@@ -1,0 +1,115 @@
+{
+  "searches": 2,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] His Q is his main trading tool with a pretty short cool down.",
+    "[0] So it's a one ability champion in the early lane, and that means that we want to be playing around this Q spell to see if we can heavy trade on him.",
+    "[0] Another thing that you can do is you can actually bait him by standing close to low health minions, right? And that you then kind of incentivize him to Q and then you walk up forward the moment his Q is on cool down.",
+    "[0] Punishing his Q cool down and getting up space in the lane is one of the key fundamentals to playing into Veigar.",
+    "[0] Post-six, you got to be a little bit careful, of course, because then he has the execute with his ult.",
+    "[0] So, your job as a mid laner is to really punish him in the first six levels of the lane before he gets to his break points",
+    "[0] That would make him a pretty free kill because he's pretty hard to kill, especially whenever he has no E. His E is like his own self-healing tool. If that spell is down, he's not going to be all that effective at self-healing. (sous-titres auto : « self-healing » = self-peeling, la cage)",
+    "[1] That's kind of smart, actually, cuz now I can't kill him unless he wastes Q and W on the wave and then I can flash on him.",
+    "[2] I don't look for trades versus enemy mid ever if they're in the wave. My Q won't ever hit them.",
+    "[2] If someone is just dancing around in your cage, you just W the middle part.",
+    "[2] So, I'm just kind of playing front-to-back and playing around my cage cool down a lot, and I'm only really stepping up to these champions whenever I have cage up.",
+    "[2] Once cage has been used, I kite back again. Cage is on cool down. I play safe again.",
+    "[2] I believe that Veigar just keeps scaling and you should want to get at least four items."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "54bjiZPZFjg",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 0:39-1:40, 4:09-4:48, 6:01)"
+    },
+    {
+      "id": "LHlzpJUboEY",
+      "channel": "KatEvolved 2",
+      "result": "utilisé (passage 1:45) ; peu de commentaire pédagogique"
+    },
+    {
+      "id": "Vm3jaCtABj0",
+      "channel": "Veigar v2",
+      "result": "utilisé (passages 20:24, 28:11, 31:30-32:44, 35:10)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Faire lancer le A puis punir son CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD 6-4 s)"
+    },
+    {
+      "idea": "E en CD : Veigar sans protection, engage",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (cage stun)"
+    },
+    {
+      "idea": "Punir tôt avant qu'il scale avec les stacks",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : AP par sort touché / kill au A)"
+    },
+    {
+      "idea": "Rester derrière ses sbires : le A ne touche que 2 cibles",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (first two enemies hit)"
+    },
+    {
+      "idea": "Dans la cage, ne pas traverser le bord, esquiver le Z",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (cage 3 s, stun au passage du bord 1,5-2,5 s)"
+    },
+    {
+      "idea": "Après le lvl 6, R exécute selon PV manquants",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts max sous 33 % PV)"
+    },
+    {
+      "idea": "Tenir la wave de ton côté si tu es mêlée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source pour un tip lane"
+    },
+    {
+      "idea": "Mid game : Veigar veut arriver le premier et bloquer les choke points avec sa cage",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    },
+    {
+      "idea": "Si tu roam, Veigar push et prend les plates très vite",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    }
+  ]
+}

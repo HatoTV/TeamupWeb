@@ -1,0 +1,125 @@
+{
+  "searches": 3,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] So, when he steps down and I'm trying to push the wave, I'll step up. So, he can't hit me while I'm pushing the wave and while I'm on cool down.",
+    "[0] He either has to step up and try to punish me when he knows I'm going to use spells on the wave",
+    "[0] He just wasted his spells. That means he has no spells to punish me here again.",
+    "[0] You can't really get through the Sigs minefield very easily as a ranged immobil champion. It's very difficult.",
+    "[0] Usually, what I like doing is pushing mid lane and then roaming into side lanes to break those towers and get plates as well.",
+    "[0] you try to get into your side lanes and oneshot those towers because it's a lot easier for you to kill the towers in the side lane",
+    "[0] Like with no peel, Ziggs really cannot deal with people that get on top of him easily. It's very, very difficult.",
+    "[1] Don't step on Ziggs' mines! They'll slow you and make it much easier for him to hit you with his other abilities.",
+    "[1] Many of Ziggs' abilities have long cooldowns.",
+    "[1] Try catching him just after he's used his abilities.",
+    "[1] All of Ziggs' spells except Bouncing Bomb have a very long cooldown at early levels; engage him after he finishes casting his abilities.",
+    "[1] Stay away from the center of his Mega Inferno Bomb, as the spell will deal less damage if you are outside the center.",
+    "[1] Stay away from his Hexplosive Minefield to avoid the slow.",
+    "[1] Ziggs is not very mobile, is squishy, and is reliant on abilities that are rather easy to dodge.",
+    "[1] Ziggs main champion counterpicks tend to be assassins with strong gap closers."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "d3G8NZOBmm8",
+      "channel": "Sjorry",
+      "result": "utilisé (passages 3:25, 6:39-6:52, 9:20, 10:28-11:29, 22:32) ; point de vue Ziggs"
+    },
+    {
+      "id": "BvPHeDgVA0g",
+      "channel": "Opa LoL",
+      "result": "écarté : aucun sous-titre en-orig (compté comme ouvert)"
+    },
+    {
+      "id": "HA4zeRIe5zA",
+      "channel": "Soldierlol_",
+      "result": "écarté : idées isolées (all-in lvl 1 en ADC, fight avant qu'il clear la wave), sans 2e source"
+    },
+    {
+      "id": "IULBAIMKkOE",
+      "channel": "Wakz lol",
+      "result": "écarté : aucun conseil exploitable dans les passages cherchés"
+    },
+    {
+      "id": "8g5g5KZ1aLQ",
+      "channel": "lolzayno",
+      "result": "non ouvert : chaîne exclue"
+    },
+    {
+      "id": "uwZuJy4XU5w",
+      "channel": "Mobalytics",
+      "result": "non ouvert : plus de 2 ans"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Ziggs/Strategy",
+      "result": "ok"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Engager / trade quand Ziggs a utilisé Z et E (longs CD)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD Z 20-12 s, E 16 s)"
+    },
+    {
+      "idea": "Seule mobilité = Charge explosive ; le coller une fois utilisée",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z projette aussi Ziggs, pas d'autre déplacement)"
+    },
+    {
+      "idea": "Ne pas traverser les mines (ralentissement)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (ralentissement des mines)"
+    },
+    {
+      "idea": "Z détruit les tours basses ; Ziggs roam en side lane pour les tours",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Charge explosive détruit les tours sous un seuil de PV)"
+    },
+    {
+      "idea": "R plus fort au centre : sortir du milieu",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts au centre / au bord)"
+    },
+    {
+      "idea": "Passer sous la Bombe rebondissante entre deux rebonds",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: interaction non vérifiable dans DDragon, 1 source"
+    },
+    {
+      "idea": "En ADC, all-in lvl 1 plus fort que Ziggs, prendre le push",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 seule source (Soldierlol_), conseil de lane"
+    },
+    {
+      "idea": "Se battre avant que Ziggs clear la wave avec son R",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 seule source (Soldierlol_)"
+    }
+  ]
+}

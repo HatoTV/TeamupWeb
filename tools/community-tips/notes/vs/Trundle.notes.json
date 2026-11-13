@@ -1,0 +1,138 @@
+{
+  "searches": 3,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] Il a mis un pilar, je comprends mieux. Après, ça lui a coûté beaucoup de mana. Ça lui a coûté beaucoup de mana.",
+    "[0] Il a toujours pas trop de mana.",
+    "[0] Faut que je fasse très attention contre Trundle a bien gardé mon E si jamais il met un pilard. Parce que si s'il met son pilard et je n'ai pas mon E, je suis basiquement mort.",
+    "[0] Faudra juste que j'achète un antiil.",
+    "[0] OK, il va proxy encore plus deep. C'est sa stratégie. Je peux lui donner la plaque",
+    "[0] je peux pas laisser un trundle push, ça fout trop la merde. S'il a le droit d'accéder à ma tour et qu'il a le droit de la casser surtout c'est dur.",
+    "[1] Yes, these two items heal him as well",
+    "[1] But a walling him doesn't matter if he just flashes and runs it down cuz his pillar placement was good.",
+    "[1] He may take a bad trade, then he heals back to full, and then he pushes on the tower, and then he ignores you and takes plates and gets gold that way.",
+    "[2] want to slow push this cuz he's going to lose the first three minions or it forces him to TP, right? Best thing about it is that I can actually uh stack this wave with the next one. Then I'll be able to go for a placing guaranteed.",
+    "[2] TP back and then I can just slowly chunk away these placings.",
+    "[3] Try to draw him off of his Frozen Domain.",
+    "[3] Make sure to get out of his Trundle's Pillar of Ice as quickly as possible, as it significantly slows you down.",
+    "[3] Pillar of Ice can block your way of escape and slow your movement speed.",
+    "[3] If a minion is killed, King's Tribute will heal him.",
+    "[3] Trundle excels at fighting inside his Frozen Domain AoE. Moving away from the spell's AoE can help you 1v1 him.",
+    "[3] His early-game damage is high, and his Chomp can reduce your own ability to retaliate.",
+    "[3] If Trundle uses his Subjugate on you, it is best to avoid him and wait until the debuff is over"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "9vuqiEVty7I",
+      "channel": "Kampsycho",
+      "result": "utilisé (passages 5:50, 6:35, 7:54) ; surtout spécifique Yorick et objets"
+    },
+    {
+      "id": "d_BCCkHzxpE",
+      "channel": "kaagaroo 2",
+      "result": "utilisé (3:14, côté Trundle : slow push et plaques) ; peu de conseils contre Trundle"
+    },
+    {
+      "id": "71qDrU7y-tY",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 3:08-3:28, 4:33, 5:36, 10:39)"
+    },
+    {
+      "id": "u9-UsQoQl3U",
+      "channel": "GobGG - VOD Multigaming",
+      "result": "écarté : aucun conseil exploitable dans les passages cherchés"
+    },
+    {
+      "id": "aDTV0YMgGtA",
+      "channel": "Dzukill",
+      "result": "non ouvert : publié 2024-02-14, plus de 2 ans"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Trundle/Strategy",
+      "result": "ok"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Garder un dash pour la Montagne de glace (E), le pilier bloque la fuite",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources vidéo + wiki, mécanique vérifiée DDragon (terrain infranchissable, ralentissement)"
+    },
+    {
+      "idea": "Trundle se soigne beaucoup (passif, Royaume gelé) : Blessures graves",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources vidéo + wiki, passif et bonus de soins vérifiés DDragon"
+    },
+    {
+      "idea": "Trundle top proxy / split push pour plaques et tours : défendre la tour",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Montagne de glace coûte beaucoup de mana : trade quand il l'a gaspillée",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (coût 75 mana)"
+    },
+    {
+      "idea": "Ne pas se battre dans le Royaume gelé",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (vitesse, vitesse d'attaque, soins sur la zone)"
+    },
+    {
+      "idea": "Reculer pendant la Soumission (vol d'armure / RM)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (vol d'armure et RM sur la durée)"
+    },
+    {
+      "idea": "Morsure retire de l'AD : ne pas trade juste après",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (vol d'AD)"
+    },
+    {
+      "idea": "Nasus gagne contre Trundle en fin de partie",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: propre à un champion, 1 source"
+    },
+    {
+      "idea": "Éviter le 1v1 après le lvl 3",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de lane, wiki sans date, 1 source"
+    }
+  ]
+}

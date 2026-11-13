@@ -1,0 +1,143 @@
+{
+  "searches": 3,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] And if Warwick is below 50% HP, he also heals for 100% of the damage dealt by the passive. If he's below 25% HP, the healing is increased to 250% of the damage.",
+    "[0] So you get movement speed steroid and an attack speed steroid against enemies who are below 50% HP. And the steroid gets increased further when they're below 25% HP.",
+    "[0] will start hunting them and I will get the bonuses of attack speed and movement speed toward them for 8 seconds. So it treats the target as if it's below 50% HP.",
+    "[0] You gain a portion of damage reduction for 2 and 1/2 seconds, and after it ends, you fear nearby enemies. You can also recast the ability to end it early.",
+    "[0] Warwick leaps a huge distance that scales with his movement speed and suppresses the first target hit.",
+    "[0] This will also make Warwick's ult shorter range if you get significantly slowed.",
+    "[0] So if they try to flash away while you're queuing, it will follow them. If Ezreal tries to leap away with E, it will follow him.",
+    "[0] Just keep in mind that because Warwick has a lot of sustain, enemies usually will buy anti-heal, which means life steal and omnivamp will lose value.",
+    "[1] Unless your champion is a powerful duelist (Fiora, Irelia, Aatrox, Master Yi, Riven, Yasuo, etc.), do not attempt to fight Warwick 1v1 as he will certainly outsustain you and win in a long fight.",
+    "[1] If you are above 50% health and suddenly see the red wolf-face icon above your champion, it means that Warwick has activated Blood Hunt on you and will probably be coming for you",
+    "[1] It is advised to back away or play very defensive for the duration.",
+    "[1] the Active component of Blood Hunt will always mark only the closest enemy.",
+    "[1] Although not practical, try remaining above 50% health so that Warwick cannot detect you.",
+    "[1] Warwick cannot be stopped while mid-air during his ultimate, but can be CC'd out of his suppress.",
+    "[1] Try to save any hard crowd control effects (stuns, silences, knockup, etc.) for this moment to save teammates.",
+    "[1] Grievous Wounds items overall are good against Warwick because they reduce his healing power.",
+    "[1] Warwick is very reliant on sustain to survive."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "OSIG27WVoyQ",
+      "channel": "Sad",
+      "result": "écarté : stream, discussions hors matchup"
+    },
+    {
+      "id": "PYkdlpaO040",
+      "channel": "Ninkey",
+      "result": "écarté : stream sans conseil sur Warwick (seule mention : n'achète pas d'anti-heal contre Warwick seul, 08:27)"
+    },
+    {
+      "id": "-BVE5ESpaNQ",
+      "channel": "Geishu Vods",
+      "result": "écarté : stream sans conseil exploitable"
+    },
+    {
+      "id": "bKJEGKf8Z78",
+      "channel": "Xyllow",
+      "result": "utilisé (7:47-16:50, 24:30, 32:10)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://leaguefeed.net/how-to-counter-warwick/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Warwick/Strategy",
+      "result": "ok (sans date : mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Blessures graves contre ses soins (passif, A, R)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (soins du passif, du A et du R) ; Ninkey (non listé) ne l'achète pas contre un Warwick seul, avis isolé"
+    },
+    {
+      "idea": "Passif : soins sous 50 % / 25 % PV, le finir en burst",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Sous 50 % PV, il te repère et gagne de la vitesse",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "Z activé : bonus 8 s contre le champion le plus proche, même full PV",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "R canalisé : un CC libère l'allié, garder son stun",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (channel)"
+    },
+    {
+      "idea": "E : réduction de dégâts puis fear à la fin ou à la relance",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon"
+    },
+    {
+      "idea": "A maintenu : il suit tous tes déplacements, flash compris",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (follows all movement)"
+    },
+    {
+      "idea": "Portée du R selon sa vitesse : le ralentir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (range scales with Move Speed)"
+    },
+    {
+      "idea": "Warwick se fait kite en combat (pas de vitesse du Z en combat)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: lane tip, wiki sans date ne compte pas, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Ne pas rester bas sous sa tour seul (dive)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source sans date"
+    }
+  ]
+}

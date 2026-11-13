@@ -1,0 +1,145 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] We just have to walk with the minions here so we don't get hooked and then slowly slowly poke down that Pyke behind minions",
+    "[0] as soon as Soraka doesn't have flash, you have to play really safe cuz they can just all-in you with all the dashes they have with Echo and Tyke.",
+    "[1] The people with no flash are the people that I care about going for.",
+    "[1] I want to punish flash timers. That's like a big thing on Pike.",
+    "[1] And then I camp the bush here is what's really important. I don't walk back. I camp this bush. The moment I level two, I'm going to E forward if I see them.",
+    "[1] Throwing the hook from the bush is really really good because it's harder to react to.",
+    "[1] I'm going to play in the bush with my passive healing.",
+    "[1] So, I'll use my passive health and I can go back in.",
+    "[1] The best thing Zin can do is like dash to the minion to dodge my E.",
+    "[1] Q stab would put her in XT range.",
+    "[1] The best thing we can do with this winning bot lane situation is play towers. So, we're going to take mid tier one. Now, we're going to roam to top.",
+    "[1] I might roam top one time, though, cuz I'm going to hit six.",
+    "[2] while Pike is not visible to enemies he quickly restores this health",
+    "[2] after 1 second this Phantom runs back to Pikes stunning all enemies between the two of them and dealing damage",
+    "[2] if they're below a certain health bar they're executed if an enem is executed Pike gets to use this ability again in the next 20 seconds",
+    "[2] starting the game you want to play aggressively and get that level two as fast as possible with your q&e available",
+    "[2] otherwise take brush control and constantly threaten your opponent with hooks and E to engage",
+    "[2] entering the mid game take your Tower as soon as possible and roam mid with your support"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "waIZ0_m3Qs4",
+      "channel": "needyhenry 2nd channel",
+      "result": "utilisé (passages 1:13, 8:51) ; voix anglaise, en-orig"
+    },
+    {
+      "id": "XynaFSdtaJA",
+      "channel": "Davemon",
+      "result": "écarté : peu d'éléments, même créateur que u6Nq0KC8Iyw (= 1 source) ; idées déjà couvertes (lvl 2 et hook depuis le brush)"
+    },
+    {
+      "id": "u6Nq0KC8Iyw",
+      "channel": "Davemon",
+      "result": "utilisé (passages 0:49, 6:08, 10:47, 12:22-13:58, 14:59, 16:20, 17:09, 19:00, 20:51, 21:15)"
+    },
+    {
+      "id": "IH4JfX2jVKM",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (transcription complète, 3 min)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Passif : se soigne des dégâts récents quand il est caché, garder la vision après un trade",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : regenerates recently taken champion damage when hidden)"
+    },
+    {
+      "idea": "E : le spectre revient vers Pyke et stun sur sa trajectoire, esquiver latéralement",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (phantom returns, stuns champions along its path)"
+    },
+    {
+      "idea": "R : exécution sous un seuil, relance si un champion meurt dans le X, quitter la portée quand bas",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (execute below threshold, recast on death in X, range 750)"
+    },
+    {
+      "idea": "Sans Flash, jouer plus loin : Pyke punit les flash timers",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Pyke cherche le lvl 2 rapide avec A + E",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Contrôle des brushs : hook depuis le brush dur à esquiver, warder",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Pyke roam après une tour ou au lvl 6, ping les lanes",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (Davemon : tour puis roam, roam au lvl 6 ; 3 Min : tour puis roam mid)"
+    },
+    {
+      "idea": "Rester derrière les sbires : le hook chargé touche le premier ennemi",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Hold: first enemy hit ; Tap préfère les champions, d'où « chargé »)"
+    },
+    {
+      "idea": "Interrompre le hook chargé avec un CC (needyhenry « cancel his hook »)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: phrase ambiguë sans précision du sort utilisé, et limite de 8 tips"
+    },
+    {
+      "idea": "Pyke se ralentit en chargeant son A",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: absent de l'infobulle DDragon 16.22.1, 1 seule source"
+    },
+    {
+      "idea": "Pyke peine contre les supports tanky",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil de pick plutôt que de jeu"
+    }
+  ]
+}

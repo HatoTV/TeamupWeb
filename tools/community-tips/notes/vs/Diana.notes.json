@@ -1,0 +1,143 @@
+{
+  "searches": 3,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] Her W is blatantly just kind of overpowered. It's a damaging spell with a massive shield and that shield allows you to not really trade back onto her while she gets a massive amount of damage onto you.",
+    "[0] There is the way number one where she lands her Q first and then she jumps onto you and if she does that, then her jump gets her her cool down refunded, right? So, her Q is kind of the key to getting these good quality trades because her E cool down is insanely long",
+    "[0] So, generally game plan into Diana is we're really going to try to abuse her level one and two because that's when her trading is not that strong. Level three is when she explodes, when she get the E and the W.",
+    "[0] So, level one, level two, we try to play offensively, and then starting from level three, we really want to be careful.",
+    "[0] So, if you try to hold the wave on your side, then you could call for jungle gangs.",
+    "[0] Wave on our side is generally a very safe solution. Diana's then only going to be able to poke you with Q. She won't be able to jump in onto you.",
+    "[0] She will just try to ult you, she will try to make you sweat, and then the moment she's going to be able to get lane control, she's going to look try to look for skirmishes onto the map with her R.",
+    "[0] Another key thing you can do is you can try to bait out her Q by giving her the range and acting as if you're going to step up. And then you can bait out Q and then it has a small cool down. You can potentially punish her onto it.",
+    "[0] If she ever uses her W to farm or she doesn't have her E up or she doesn't have her Q up, those are If she uses one of her cool downs, that's when she can't really trade onto you properly.",
+    "[1] It's that you need to be dodging his Q so you kind of walk in and out of his Q range. Try to bait it out and then you can look for a trade.",
+    "[1] We're going to be able to grab the priority here. Get level two first. Again, walking in and out of his Q range. Trying to bait it.",
+    "[1] Diana has no mobility as a champion, so he will be forced now to walk up very far into the lane.",
+    "[1] Drop the ward here so that we know where he will roam because now he will have the first move after he clears this wave.",
+    "[1] As you can see again, I'm going in with my E forward when he is trying to last hit the minion with his Q.",
+    "[2] Bait out her Q so she pushes out the wave. We want to remove her bone plating so that when I hit level two I can potentially go for a trade here.",
+    "[2] All I want to do is bait out her Q potentially. Maybe I can go for a trade right now.",
+    "[2] Bait out that Q. Easily dodge her Q.",
+    "[3] Like look, look at that trade, man. It's so gross. And she has a shield as well, so I can't even out trade her."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "8n_xnjcV6rk",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 0:38-7:32, vidéo entière sur le matchup)"
+    },
+    {
+      "id": "cr0ovRQebxE",
+      "channel": "Chen Chen",
+      "result": "utilisé (passage 1:14-1:26, bouclier) ; reste de la vidéo sans conseil"
+    },
+    {
+      "id": "bTyrUk7uQv4",
+      "channel": "ACEE1",
+      "result": "utilisé (passages 0:29-1:07, bait de l'A et trade lvl 2)"
+    },
+    {
+      "id": "NR0P638migk",
+      "channel": "Kunain",
+      "result": "utilisé (passages 0:14-3:39)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/diana/counters",
+      "result": "no-advice (tips écrits pour jouer Diana, pas contre elle)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Baiter l'A en entrant/sortant de sa portée, trade pendant son CD",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Agressif lvl 1-2, respecter dès le lvl 3 (Z + E)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources (Kunain et ACEE1 cherchent le trade au lvl 2)"
+    },
+    {
+      "idea": "Ne pas trade dans le bouclier de Corps célestes (Z)",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z donne un bouclier)"
+    },
+    {
+      "idea": "Wave de ton côté : elle doit s'avancer sans escape, gank du jungler",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Punir quand A ou Z gâché sur les sbires",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Warder son roam quand elle a la prio, surtout après le lvl 6",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "E sans CD sur cible marquée par l'A ; sinon 22 s au rang 1",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Lunar Rush CD 22/20/18/16/14, refresh si Moonlight ; Mysterias dit 26 s, chiffre DDragon retenu)"
+    },
+    {
+      "idea": "Se tenir loin des sbires bas en PV pour éviter un A qui touche toi + la wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (lane)"
+    },
+    {
+      "idea": "Diana en side lane trop loin : la collapse, elle ne peut pas ressortir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (macro)"
+    },
+    {
+      "idea": "Ne pas la nourrir, champion de snowball qui devient inutile en retard",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, trop générique"
+    }
+  ]
+}

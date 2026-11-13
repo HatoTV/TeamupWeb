@@ -1,0 +1,172 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] Viego est faible. Avant son premier kill, il est extrêmement faible. Il n'a pas tankiness, il n'a aucune escape fiable, il n'a même pas de burst.",
+    "[0] Sans setup, tu contrôles Viego, il meurt, fin du shonen, basta.",
+    "[1] whenever you have flash and ult on cooldown that is the most important source you are not strong even though I'm very very fat I have no disengage tool I have no engage tool I'm actually pretty weak so I will avoid fights",
+    "[0] En early game, Viego, c'est faible, très faible. Avant son niveau 6, il viendra pas vous embêter sans avantage, normalement.",
+    "[1] So I want to ping aggressively because we're level six. They have a good wave, but we I'm level six. And when I'm level six, we just have a big advantage.",
+    "[0] Plus il va charger longtemps son W, plus le stun sera long sur le champion qui l'aura reçu. Donc, si tu le vois charger, recule.",
+    "[0] Ça dash, ça met des énormes dégâts et ça fait plus de dégâts sur les low HP.",
+    "[0] En revanche, on ne combat jamais un Viego si on est low HP, sinon c'est la mort assurée.",
+    "[0] Sachez que lorsque Viego récupère un corps, il récupère également de la vie. Et ça peut parfois même être énormément de vie.",
+    "[0] mais si Viego prend la d'un tank, il devient intouchable. Mais s'il prend le corps d'un ADC, il devient très squishy. Bah là, à ce moment-là, il peut être très vite tué.",
+    "[0] Lorsque Viego est dans cette zone, il devient plus rapide, plus fort, mais surtout invisible. Il peut donc se repositionner comme il le veut sans que tu ne puisses le voir.",
+    "[0] Si vous êtes plusieurs, c'est jackpot.",
+    "[0] Dans la globalité, l'armure et l'anti-heal le font bien chier."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "LoGjWg85uAI",
+      "channel": "Keija_Gaming",
+      "result": "utilisé (passages 1:36-5:06, 6:32-8:00, 10:20-13:45), voix FR, publiée 2026-03-06"
+    },
+    {
+      "id": "icODTChPy7A",
+      "channel": "Coach Kirei",
+      "result": "écarté : gameplay Viego commenté, rien sur comment jouer contre lui"
+    },
+    {
+      "id": "-p2AvbcQOYg",
+      "channel": "Sinerias",
+      "result": "utilisé (passages 4:25-4:57, 11:31-12:02), publiée 2026-08-30"
+    },
+    {
+      "id": "cveH9WweTVM",
+      "channel": "perryjg",
+      "result": "écarté : rien d'exploitable contre Viego (publiée 2024-11-30)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/viego/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Viego/Strategy",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://op.gg/lol/champions/viego/counters",
+      "result": "no-tips (seul tip écrit : comment jouer Viego)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Pas d'escape : R et Flash down = fenêtre pour le CC et le fight",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Faible avant le lvl 6, ganks dangereux dès le lvl 6",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Recule quand il charge son Z : stun plus long selon la charge, premier ennemi touché",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W : stun 'based on charge time', 'first enemy hit')"
+    },
+    {
+      "idea": "R cible le plus bas % PV, dégâts selon PV manquants : pas de fight low HP",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R : 'lowest percent Health', '% missing Health')"
+    },
+    {
+      "idea": "Possession = heal d'un % des PV max de la cible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif)"
+    },
+    {
+      "idea": "Corps possédé : sorts et objets du mort, tank solide / ADC squishy",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : 'basic abilities and items')"
+    },
+    {
+      "idea": "Brume du E : camouflage, vitesse de déplacement et d'attaque, ne pas y aller seul",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E : Camouflage, Move Speed, Attack Speed)"
+    },
+    {
+      "idea": "Anti-heal contre ses heals (Q, possessions), sans objet nommé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q 'restoring % of damage dealt as Health', passif heal)"
+    },
+    {
+      "idea": "Allié qui meurt : fuis, il prend le corps et reset sur toi",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil de teamfight, 1 seule source"
+    },
+    {
+      "idea": "Viego avec Flash deux fois plus dangereux",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, non vérifiable"
+    },
+    {
+      "idea": "Faire de Viego la cible prioritaire en mid/late game",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    },
+    {
+      "idea": "Fenêtre de 3 s entre deux ults en reset pour placer un CC",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Le E de Jax bloque l'ult de Viego",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: propre à Jax, 1 seule source, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "R ralentit la cible et repousse les autres",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: vérifié mais peu actionnable, limite de 8 tips"
+    }
+  ]
+}

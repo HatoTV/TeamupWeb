@@ -1,0 +1,142 @@
+{
+  "searches": 4,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Scion, if you lose your shield, you can't pop the W, of course.",
+    "[0] And then just make sure they can't break the shield before you pop W.",
+    "[0] I'm trying to kite away so I can get my W, but of course she breaks it. She doesn't want to take that damage for free.",
+    "[0] telegraphed, very easy to play around. If they can't see you a lot harder.",
+    "[0] Hit somebody with the E from two screens away. Boost at them with your approach velocity and they get a fully charged Q.",
+    "[0] But the ER just essentially allows your ulti to hit pretty much no matter what. Maybe if they have a dash or something, they can dodge, but if you hit the E, they're slowed.",
+    "[0] If my E hits, I'm alting. If my E misses, I'm not alting.",
+    "[1] En fait ce qui est vraiment le plus chiant excident c'est que quand il meurt ben il meurt pas vraiment.",
+    "[1] c'est son passif son passif le problème.",
+    "[2] Et en gros s'il il charge son truc, j'ai juste à lui mettre un E ou un silence et normalement en théorie il peut jamais charger sa grosse attaque.",
+    "[3] If the charge is interrupted, Decimating Smash is placed on a 2-second cooldown.",
+    "[3] Decimating Smash counters table: Disruption — Interrupted.",
+    "[3] If Decimating Smash was charged for at least 1 second (knock-up and stun applied).",
+    "[3] Soul Furnace can be recast while the shield holds, and does so automatically after the duration.",
+    "[3] Unstoppable Onslaught: crowd control cannot be applied during this time; Disruption does not interrupt it.",
+    "[3] Glory in Death: Sion can only move, basic attack and use item actives while in this state.",
+    "[3] Roar of the Slayer: a thrown minion or monster is not blocked by Wind Wall, unlike the initial projectile."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "3SswxJymoaU",
+      "channel": "Misanthiel - VODs",
+      "result": "écarté : recherche sous-titres (fr) sans conseil exploitable contre Sion (Gwen vs Sion, commentaire de game)"
+    },
+    {
+      "id": "9uTP0A6t-r8",
+      "channel": "Vallheim • League of Legends",
+      "result": "utilisé (passage 10:17, passif) ; le reste est trop vague (cancel de son R non expliqué)"
+    },
+    {
+      "id": "VOQfZS-t2KM",
+      "channel": "Coach Chippys",
+      "result": "utilisé (passages 4:21, 25:42-26:31, 27:49, 35:08-35:23, 37:30-39:15), point de vue du joueur Sion"
+    },
+    {
+      "id": "QJgOqjB5ph4",
+      "channel": "Narkuss_VOD",
+      "result": "utilisé (passage 0:07, interruption du A) ; le reste sans conseil"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Sion/LoL",
+      "result": "ok"
+    },
+    {
+      "url": "https://op.gg/lol/champions/sion/counters/top",
+      "result": "no-advice (tip générique : stacks de Conquérant, achat d'armure)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Casser le bouclier du Z pour empêcher l'explosion",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (recast seulement si le bouclier tient après 3 s)"
+    },
+    {
+      "idea": "A télégraphié : sortir de la zone, stun seulement si chargé au moins 1 s",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (stun si charge >= 1 s)"
+    },
+    {
+      "idea": "Passif : il revient après sa mort, reculer",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (réanimation, attaques rapides qui soignent)"
+    },
+    {
+      "idea": "Interrompre la charge du A avec un stun / silence",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (DDragon ne décrit pas l'interruption : verifiedByGameData false)"
+    },
+    {
+      "idea": "Esquiver le E : son slow prépare le A chargé et le R",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E ralentit ; A chargé et R stun)"
+    },
+    {
+      "idea": "Pas de CC sur le R, s'écarter ou garder un dash",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (charge « Unstoppably »)"
+    },
+    {
+      "idea": "Le E projette un sbire qui touche ceux qu'il traverse",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (sbire projeté, mêmes dégâts et effets)"
+    },
+    {
+      "idea": "Il pré-charge son A sur les sbires bas en PV près de la tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: tip de lane avec 1 seule source"
+    },
+    {
+      "idea": "R puis A chargé pendant le stun (CC enchaîné)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: redondant avec le tip E/A/R"
+    },
+    {
+      "idea": "Ne pas cancel son R (Vallheim)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: passage confus, 1 source, non vérifiable"
+    }
+  ]
+}

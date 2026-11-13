@@ -1,0 +1,140 @@
+{
+  "searches": 5,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] c'est quand la Camille s'avance pour aller last hit ce CS, que lui il balance sa hache",
+    "[0] vous voulez punir l'adversaire, du coup, quand il CS, et euh du coup, vous devez faire attention quand vous allez CS",
+    "[0] Camille, typiquement ici, a gagné parce qu'elle a mieux joué, en fait, son short trade. Qu'Olaf, qui du coup voulait jouer son long trade.",
+    "[0] il se met devant la hache parce que pour que Olaf puisse continuer à all in, il faut qu'il récupère sa hache",
+    "[0] Zeus se positionne là pour empêcher en fait le Olaf de prendre la hache parce que là s'il décide de go sur la Camille sans hache, il ne gagne pas",
+    "[0] OK, donc l'Olaf n'a plus son Q. Là, il peut commencer à Z Q, à short trade.",
+    "[0] si Olaf est là, son spell part de ce côté, du coup il va faire des gauche-droite dans ce sens-là",
+    "[0] Il est pas en train de faire des avant-arrière. Il joue surtout le gauche-droite",
+    "[0] C'est très important de jouer du coup sur le sort clé de l'adversaire. Par exemple, Olaf c'est son Q",
+    "[0] Alors oui l'Olaf peut regen évidemment. Euh l'Olaf peut bien regen les dégâts mais c'est pour ça que là il joue aussi agressivement Zeus parce que du coup il veut pas laisser l'Olaf regen",
+    "[0] le sort clé d'Olaf, qu'est-ce que ? C'est son Q qu'il n'a pas vraiment réussi à mettre dans cette lane",
+    "[1] your goal is to get extended trades. He wants short trades, you want long trades.",
+    "[1] your goal is to get extended trades no matter what. She really wants short trades and you really want long trades.",
+    "[1] You can heal a lot of her poked down cuz when her spells are on",
+    "[1] vamp early to heal his poked down and try to spread your lead around the map",
+    "[1] if you can hit your Q onto her when she walks up to queue your minion and then you run at her",
+    "[1] If you hit your Q, it's just go time.",
+    "[1] We hit our ax before we ghost. We do not ghost and run at him and he e away and dodges our ax and we're fumbling our ax on the floor. You need to hit that axe first and then commit your summoner spells",
+    "[1] you can keep picking up your Q's the whole time that he's in and get multiple rotations of your ax down",
+    "[1] dodge his E, walk back onto your ax, hit it, and then you just beat the [ __ ] out of him",
+    "[1] Her E has to hit you and you're not going to get CCd because of your alult team.",
+    "[1] you want to press your R before his R hits you and you're not going to get knocked up at all"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "yEhyIOMQpZ8",
+      "channel": "Makkro",
+      "result": "écarté : 3 min de gameplay sans conseil exploitable"
+    },
+    {
+      "id": "fMfu3A2fQfQ",
+      "channel": "Vallheim • League of Legends",
+      "result": "utilisé (passages 0:36, 1:38, 4:43-5:15, 10:05, 10:58-11:32, 12:17-12:42, 18:06, 18:33-18:55)"
+    },
+    {
+      "id": "usRGU7493zg",
+      "channel": "Strey VOD - League of Legends",
+      "result": "écarté : discussion hors sujet, pas de conseil sur le matchup"
+    },
+    {
+      "id": "ugQGOCUs55U",
+      "channel": "Coach Chippys",
+      "result": "utilisé (point de vue Olaf ; passages 4:16, 10:35, 14:12, 15:47, 18:34, 24:43, 33:51, 36:08-36:46, 41:55, 46:18-46:38)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.rankedboost.com/league-of-legends/counter/olaf/",
+      "result": "no-advice (une phrase générique, texte contradictoire avec le tableau)"
+    },
+    {
+      "url": "https://www.op.gg/lol/champions/olaf/counters",
+      "result": "no-tips (tips utilisateur pour jouer Olaf, pas contre)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Olaf regen via son passif (vol de vie selon PV manquants) : enchaîner les trades sans lui laisser le temps",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : vitesse d'attaque et vol de vie selon PV manquants)"
+    },
+    {
+      "idea": "Se placer entre Olaf et sa hache pour l'empêcher de la ramasser (reset du CD)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (ramasser la hache réduit ou rembourse le CD de Déchireuse)"
+    },
+    {
+      "idea": "Olaf veut des long trades : jouer des short trades",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Olaf lance sa hache quand tu avances pour last hit",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Son all-in dépend de sa Déchireuse : reculer si elle touche, trade pendant le CD si elle rate",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (DDragon : la Déchireuse ralentit)"
+    },
+    {
+      "idea": "Ragnarok purifie et immunise contre les CC, prolongé par chaque coup sur un champion : kite et garder ses CC",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : cleanse + immunité, durée prolongée par attaque ou Frappe sauvage sur champion)"
+    },
+    {
+      "idea": "Esquiver la Déchireuse en gauche-droite plutôt qu'en reculant dans l'axe",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : hache lancée vers un point, touche les ennemis traversés)"
+    },
+    {
+      "idea": "Olaf très fort lvl 1-3, plus prudent lvl 4-6 sans ult",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (point de vue Olaf, propre à certains matchups), tip de lane"
+    },
+    {
+      "idea": "Olaf all-in quand la wave est proche de sa tourelle",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, tip de lane"
+    }
+  ]
+}

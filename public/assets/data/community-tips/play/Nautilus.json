@@ -1,0 +1,165 @@
+{
+  "champion": "Nautilus",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Ancre, auto, reset au bouclier",
+        "en": "Anchor, auto, shield reset"
+      },
+      "keys": [
+        "Q",
+        "W"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Abordage (A), puis une auto pour l'immobilisation de Coup écrasant. Colère du titan (Z) réinitialise ton auto : enchaîne une deuxième auto tout de suite.",
+        "en": "Dredge Line (Q), then an auto for the Staggering Blow root. Titan's Wrath (W) resets your auto: chain a second auto right away."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": {
+        "fr": "Flash, auto, Grenade ASM",
+        "en": "Flash, auto, Depth Charge"
+      },
+      "keys": [
+        "F",
+        "R"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "medium",
+      "desc": {
+        "fr": "Flash au contact pour une auto qui immobilise grâce à Coup écrasant, puis Grenade ASM (R) : la cible ne peut pas réagir entre les deux.",
+        "en": "Flash into melee range for an auto that roots thanks to Staggering Blow, then Depth Charge (R): the target can't react in between."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Grenade ASM puis ancre garantie",
+        "en": "Depth Charge into guaranteed anchor"
+      },
+      "keys": [
+        "R",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Grenade ASM (R) d'abord, puis Abordage (A) pendant que la cible est en l'air : elle ne peut plus esquiver, et l'ancre n'écrase pas le knock-up.",
+        "en": "Depth Charge (R) first, then Dredge Line (Q) while the target is airborne: they can't dodge anymore, and the anchor doesn't override the knock-up."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Abordage (A) sur un mur te tire jusqu'au mur et rend 50 % du CD et du mana. Utilise-le pour revenir plus vite en lane ou pour fuir.",
+        "en": "Dredge Line (Q) on a wall pulls you to it and refunds 50% of the cooldown and mana. Use it to get back to lane faster or to escape."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Abordage (A) a deux hitbox : la large touche les champions, seule l'ancre bute sur le terrain. Près d'un mur fin, tu peux attraper un ennemi de l'autre côté.",
+        "en": "Dredge Line (Q) has two hitboxes: the wide one hits champions, only the anchor collides with terrain. Near a thin wall, you can catch an enemy on the other side."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant le dash d'Abordage (A), tu peux lancer tous tes autres sorts : sors Répliques (E) avant même d'arriver au contact.",
+        "en": "During the Dredge Line (Q) dash, you can cast all your other spells: fire Riptide (E) before you even reach melee range."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Grenade ASM (R) part du côté où tu regardes. Abordage (A) réussi te tourne vers la cible : enchaîner A puis R change le point de départ de la charge.",
+        "en": "Depth Charge (R) starts from the side you're facing. A landed Dredge Line (Q) turns you toward the target: chaining Q into R changes where the charge starts."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque l'immobilisation de Coup écrasant mais pas ses dégâts bonus. Aveuglé, ton auto ne déclenche pas le passif.",
+        "en": "A spell shield blocks the Staggering Blow root but not its bonus damage. While blinded, your auto doesn't trigger the passive."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si Colère du titan (Z) est actif au début du windup de ton auto, l'auto applique ses dégâts même si le bouclier disparaît pendant l'animation.",
+        "en": "If Titan's Wrath (W) is active when your auto windup starts, the auto applies its damage even if the shield breaks during the animation."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Grenade ASM (R) projette aussi les ennemis sur sa trajectoire, et elle continue sa course même si la cible meurt ou devient intouchable.",
+        "en": "Depth Charge (R) also knocks up enemies along its path, and it keeps going even if the target dies or becomes untargetable."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nautilus - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Nautilus",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Le GUIDE Micro - Nautilus SUP : Les clics que tous les OTP connaissent par coeur !",
+      "url": "https://www.youtube.com/watch?v=AY80viqjGMk",
+      "type": "video",
+      "date": "2026-10-16",
+      "author": "Lelariva"
+    },
+    {
+      "title": "GUIDE NAUTILUS SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes",
+      "url": "https://www.youtube.com/watch?v=twyMoKP7Gxc",
+      "type": "video",
+      "date": "2025-03-22",
+      "author": "EXYT - League of Legends"
+    }
+  ]
+}

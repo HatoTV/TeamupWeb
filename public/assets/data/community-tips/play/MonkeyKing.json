@@ -1,0 +1,100 @@
+{
+  "champion": "MonkeyKing",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Nimbus puis clone en duel", "en": "Nimbus Strike then clone duel" },
+      "keys": ["E", "W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Nimbus (E) sur la cible, puis Guerrier espiègle (Z) : le clone garde la vitesse d'attaque de Nimbus. Auto, puis Écrasement (A) pour reset l'auto pendant que le clone tape aussi.",
+        "en": "Nimbus Strike (E) onto the target, then Warrior Trickster (W): the clone keeps the Nimbus attack speed. Auto, then Crushing Blow (Q) to reset it while the clone hits too."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Poursuite avec double Cyclone", "en": "Chase with double Cyclone" },
+      "keys": ["E", "Q", "R", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Nimbus (E), auto, Écrasement (A) en reset, puis Cyclone (R). Enchaîne Guerrier espiègle (Z), auto, Écrasement (A) et la seconde Cyclone (R) : le clone tourne avec toi.",
+        "en": "Nimbus Strike (E), auto, Crushing Blow (Q) as a reset, then Cyclone (R). Follow with Warrior Trickster (W), auto, Crushing Blow (Q) and the second Cyclone (R): the clone spins with you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Gank surprise depuis l'invisibilité", "en": "Surprise gank from stealth" },
+      "keys": ["W", "E", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Caché au coin, lance Guerrier espiègle (Z) pour devenir invisible, puis Nimbus (E) pendant le dash. Auto, Écrasement (A), puis Cyclone (R) avant qu'ils réagissent.",
+        "en": "Hidden around a corner, cast Warrior Trickster (W) to go invisible, then Nimbus Strike (E) during the dash. Auto, Crushing Blow (Q), then Cyclone (R) before they react."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lance Nimbus (E) avant Guerrier espiègle (Z) : le clone hérite du bonus de vitesse d'attaque. Dans l'autre ordre, toi seul en profites.",
+        "en": "Cast Nimbus Strike (E) before Warrior Trickster (W): the clone inherits the attack speed bonus. In the other order, only you get it."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le clone de Guerrier espiègle (Z) lance Cyclone (R) en même temps que toi. Laisse-le sur un groupe et tourne sur un autre pour soulever plus d'ennemis.",
+        "en": "The Warrior Trickster (W) clone casts Cyclone (R) at the same time as you. Leave it on one group and spin on another to knock up more enemies."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque dégât infligé par toi ou ton clone réduit de 0,5 s le CD d'Écrasement (A). En combat, tu peux le relancer deux ou trois fois.",
+        "en": "Every hit from you or your clone cuts 0.5 s off the Crushing Blow (Q) cooldown. In a fight you can cast it two or three times."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux lancer Écrasement (A) pendant le dash de Nimbus (E), et n'importe quel sort pendant celui de Guerrier espiègle (Z) : ne perds pas de temps entre les deux.",
+        "en": "You can cast Crushing Blow (Q) during the Nimbus Strike (E) dash, and any ability during the Warrior Trickster (W) dash: lose no time between them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lancer Nimbus (E) interrompt le windup des ennemis qui t'attaquent à ce moment : utile contre une grosse auto renforcée.",
+        "en": "Casting Nimbus Strike (E) interrupts the attack windup of enemies targeting you at that moment: handy against a big empowered auto."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Une cible déjà touchée par toi ou ton clone n'est plus soulevée par la même Cyclone (R). Un bouclier anti-sort qui bloque le knock-up protège aussi de la seconde Cyclone.",
+        "en": "A target already hit by you or your clone is not knocked up again by the same Cyclone (R). A spell shield that blocks the knock-up also protects from the second Cyclone."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un tir de tourelle tue instantanément le clone de Guerrier espiègle (Z) : ne compte pas sur lui pour encaisser sous une tour.",
+        "en": "A turret shot instantly kills the Warrior Trickster (W) clone: do not count on it to tank under a tower."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Wukong - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Wukong", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Wukong Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=2k_Afn_F24Q", "type": "video", "date": "2026-02-01", "author": "3 Minute League of Legends" },
+    { "title": "The Ultimate Wukong Jungle Guide – EVERYTHING You Need to Know", "url": "https://www.youtube.com/watch?v=FkGo3Cl7XwM", "type": "video", "date": "2026-07-11", "author": "hybradge" }
+  ]
+}

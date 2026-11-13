@@ -1,0 +1,31 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Nasus empowers his next basic attack within 10 seconds to have an uncancellable windup, gain 50 bonus range, and deal bonus physical damage.",
+    "If Siphoning Strike kills the target, Nasus permanently gains 4 stacks, increased to 10 if the target is a champion, large minion, or large monster.",
+    "Siphoning Strike resets Nasus' basic attack timer.",
+    "Nasus can gain Siphoning Strike stacks by killing any enemy unit, this includes champions, minions, monsters, wards, turrets, and pets.",
+    "Jungle plants and structures that are not turrets (e.g. inhibitors) will not grant stacks.",
+    "Siphoning Strike will not generate stacks from secondary units killed by other effects (e.g. Tiamat).",
+    "Nasus ages the target enemy champion for 5 seconds, slowing them and crippling them, both increasing every second over the duration.",
+    "Wither interrupts the target's attack windup when it is first applied.",
+    "Both slow and cripple from Wither are considered to be a single debuff. Therefore, slow immunity will prevent both, even without technical cripple immunity.",
+    "The fire then remains for 5 seconds, dealing magic damage each second to enemies within and inflicting them with armor reduction, lingering for 1 second.",
+    "While Nasus is empowered, he deals magic damage every 0.5 seconds to nearby enemies, and Siphoning Strike cooldown is halved.",
+    "The first combo is the auto into Q. I always recommend auto attacking first and then pressing Q after so you can deal the maximum damage possible.",
+    "The second combo is E into auto Q. This one is basically the same combo, but now you press your E first.",
+    "The E of Nasus' animation can sometimes lock you out for too long in the late game while chasing your enemies, which prevents you to hit your next Q in the late game.",
+    "For combos, start with E, then W and the ultimate. After that, just spam attacks and Q until the enemy dies.",
+    "keep enemies in range of your E for armor reduction"
+  ],
+  "rejected": [
+    { "idea": "Combo de poursuite A puis E en late game (Daveyx3)", "reason": "Une seule source joueur, et le wiki ne confirme pas que l'animation de E bloque la A suivante." },
+    { "idea": "Les PV bonus de Fureur des sables (R) restent après la fin de l'ult", "reason": "Note wiki ambiguë (retains it), non reprise." },
+    { "idea": "Les dégâts fixes de Buveuse d'âmes (A) profitent des modificateurs de critique", "reason": "Interaction d'objet trop marginale pour une astuce." }
+  ],
+  "toVerifyInGame": [
+    "Flétrissement (Z) lancé pendant le windup d'une auto ennemie : vérifier l'interruption.",
+    "Buveuse d'âmes (A) sur une balise ennemie : vérifier le gain de charges."
+  ]
+}

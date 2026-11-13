@@ -1,0 +1,100 @@
+{
+  "champion": "Mordekaiser",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Emprise puis Oblitération", "en": "Death's Grasp into Obliterate" },
+      "keys": ["E", "Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Attire la cible avec Emprise funeste (E), enchaîne Oblitération (A) et des autos. Active Indestructible (Z) quand la barre est pleine, puis relance-le après le combat pour te soigner.",
+        "en": "Pull the target with Death's Grasp (E), follow with Obliterate (Q) and autos. Pop Indestructible (W) when the bar is full, then recast it after the fight to heal."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec Royaume des morts", "en": "All-in with Realm of Death" },
+      "keys": ["E", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Emprise funeste (E) pour ramener la cible sur toi, Royaume des morts (R) dès qu'elle arrive, puis auto, Oblitération (A), auto pour lancer Vortex de ténèbres.",
+        "en": "Death's Grasp (E) to drag the target onto you, Realm of Death (R) as soon as it lands, then auto, Obliterate (Q), auto to start Darkness Rise."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Trade court auto et Oblitération", "en": "Short trade with Obliterate" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Auto, Oblitération (A), nouvelle auto, puis Emprise funeste (E) et continue de taper. Trois coups sur le champion lancent Vortex de ténèbres.",
+        "en": "Auto, Obliterate (Q), another auto, then Death's Grasp (E) and keep hitting. Three hits on the champion start Darkness Rise."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Oblitération (A) fait plus de dégâts si elle ne touche qu'un ennemi. Vise un angle hors des sbires pour isoler le champion.",
+        "en": "Obliterate (Q) deals more damage if it hits only one enemy. Aim at an angle away from minions to isolate the champion."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Oblitération (A) part vers la position de ton curseur au début du temps de lancer : bouger la souris pendant l'animation ne la redirige pas.",
+        "en": "Obliterate (Q) is aimed at your cursor's spot when the cast begins: moving the mouse mid-animation won't redirect it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Emprise funeste (E) n'apparaît chez l'ennemi qu'une fois à 300 unités dans sa vision. Lancée depuis le brouillard, elle est bien plus dure à esquiver.",
+        "en": "Death's Grasp (E) only shows for the enemy once it is 300 units inside their vision. Cast from fog of war, it is much harder to dodge."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Emprise funeste (E) attire quand même si tu meurs pendant son délai : elle peut encore ramener la cible vers ton équipe.",
+        "en": "Death's Grasp (E) still pulls if you die during its delay: it can still drag the target toward your team."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tes sorts de base donnent un stack de Vortex de ténèbres même s'ils sont bloqués par un bouclier anti-sort ou touchent une cible invulnérable.",
+        "en": "Your basic abilities grant a Darkness Rise stack even when blocked by a spell shield or when they hit an invulnerable target."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Royaume des morts (R) échoue et part en CD si la cible a un bouclier anti-sort ou est immunisée aux CC à la fin du lancer. Retire d'abord le bouclier.",
+        "en": "Realm of Death (R) fails and goes on cooldown if the target has a spell shield or is CC-immune when the cast ends. Pop the shield first."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Entrer dans Royaume des morts (R) te purifie des effets d'action forcée comme une provocation ou un charme, et détruit les projectiles ciblés en vol.",
+        "en": "Entering Realm of Death (R) cleanses you of forced action effects like a taunt or a charm, and destroys targeted projectiles in flight."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Mordekaiser - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Mordekaiser", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Mordekaiser Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=yloV7cPpxCQ", "type": "video", "date": "2026-05-08", "author": "3 Minute League of Legends" },
+    { "title": "How to Play MORDEKAISER in 5 MINUTES! - LEAGUE OF LEGENDS CHAMPION GUIDE", "url": "https://www.youtube.com/watch?v=xjMZ3gS3Oys", "type": "video", "date": "2025-07-01", "author": "Noxro" }
+  ]
+}

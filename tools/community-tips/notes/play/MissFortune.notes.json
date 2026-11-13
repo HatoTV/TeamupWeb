@@ -1,0 +1,30 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Innate: Miss Fortune's basic attacks are empowered to apply a mark that expires upon attacking a new enemy.",
+    "Double Up's bounce can critically strike. If Double Up kills the primary target, the bounce will critically strike.",
+    "The bounce prioritizes units directly behind the primary target. A target does not have to be visible to be hit by the bounce.",
+    "Spell shields can be used by either target. If it is on the primary target, the spell shield will not prevent the shot from bouncing.",
+    "The bounce follows a priority order on targets behind in a certain angle: 500 units in 20º.",
+    "Passive: Miss Fortune gains bonus movement speed after 4 seconds without taking non-persistent damage. This bonus is increased after another 3 seconds, and is granted instantly whenever Strut is cast.",
+    "Marking a new target with Love Tap reduces Strut's current cooldown by 2 seconds.",
+    "Make It Rain's slow cannot be cleansed.",
+    "Miss Fortune reveals a 200-radius area around herself for 2.0 seconds to the enemy team if she fires from an unseen location and there is one of their units within the target cone.",
+    "For combos, a good go-to is use E into an attack. From here, Q before opening up with alt and then use W and attack away. However, you'll often find in team fights that simply using your E into ultimate is enough.",
+    "the cooldown of this ability is reduced every time she love taps an enemy",
+    "simply using Q on a minion and bouncing it into an enemy champion is great damage. However, if you manage to do it where the minion dies and then bounces into an enemy champion for the crit, it's devastating.",
+    "le combo de base de Miss Fortune, c'est d'appuyer sur son E puis son R. Ça va arracher votre barre de mana.",
+    "Vous allez appliquer votre passif sur ce minion, donc réduire votre Z en CD parce qu'à chaque fois que vous appliquez votre passif, vous gagnez 2 secondes de CD sur votre Z",
+    "Quelqu'un est excentré et bah directement qu'est-ce que je fais ? Bah je trouve mon timing pour me décaler là et trouver mon rebond sur la personne."
+  ],
+  "rejected": [
+    { "idea": "Alterner autos sur la tourelle et sur les sbires pour appliquer Cœur volage à la tourelle et réduire le CD de Fanfaronne (Z) (Lelariva, EXYT)", "reason": "Le wiki indique que l'attaque renforcée ne se déclenche pas contre les bâtiments : contradiction, écarté." },
+    { "idea": "Annuler les ~0,1 dernière seconde de Barrage de plomb (R) sans perte", "reason": "Gain négligeable, aucune source joueur." },
+    { "idea": "Flash pendant le temps de lancer de Barrage de plomb (R) pour changer sa direction", "reason": "Note du wiki incomplète (nom du sort manquant), aucune source joueur." }
+  ],
+  "toVerifyInGame": [
+    "Rebond de Doublé (A) sur un champion invisible dans un buisson derrière un sbire.",
+    "Révélation de Miss Fortune quand Barrage de plomb (R) est lancé depuis le brouillard."
+  ]
+}

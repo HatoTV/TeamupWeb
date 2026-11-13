@@ -1,0 +1,160 @@
+{
+  "champion": "Nasus",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Auto puis Buveuse d'âmes",
+        "en": "Auto into Siphoning Strike"
+      },
+      "keys": [
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Place une auto d'abord, puis Buveuse d'âmes (A) : le sort réinitialise ton auto, donc tu enchaînes deux coups très vite pour un trade court au maximum de dégâts.",
+        "en": "Land an auto first, then Siphoning Strike (Q): the spell resets your auto, so you chain two hits very fast for a short trade at maximum damage."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": {
+        "fr": "Trade avec Esprit enflammé",
+        "en": "Spirit Fire trade"
+      },
+      "keys": [
+        "E",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Esprit enflammé (E) sous l'ennemi pour réduire son armure, puis auto et Buveuse d'âmes (A) tant qu'il reste dans la zone.",
+        "en": "Spirit Fire (E) under the enemy to shred their armor, then auto and Siphoning Strike (Q) while they stay in the area."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": {
+        "fr": "All-in E, Z, R puis spam",
+        "en": "All-in E, W, R then spam"
+      },
+      "keys": [
+        "E",
+        "W",
+        "R"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Esprit enflammé (E), Flétrissement (Z), puis Fureur des sables (R). Ensuite, alterne autos et Buveuse d'âmes (A), dont le CD est divisé par deux pendant l'ult.",
+        "en": "Spirit Fire (E), Wither (W), then Fury of the Sands (R). Then alternate autos and Siphoning Strike (Q), whose cooldown is halved during the ult."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'auto de Buveuse d'âmes (A) a 50 de portée en plus et un windup impossible à annuler : une fois lancée, elle part même si l'ennemi tente de t'interrompre.",
+        "en": "The Siphoning Strike (Q) auto gains 50 range and has an uncancellable windup: once started, it goes off even if the enemy tries to interrupt you."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un kill avec Buveuse d'âmes (A) donne 4 charges, ou 10 sur un champion, un gros sbire ou un gros monstre : garde-la pour les canons.",
+        "en": "A Siphoning Strike (Q) kill gives 4 stacks, or 10 on a champion, a large minion or a large monster: save it for cannons."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Buveuse d'âmes (A) donne aussi des charges en achevant une balise, une tourelle ou un familier, mais pas une plante de la jungle ni un inhibiteur.",
+        "en": "Siphoning Strike (Q) also gives stacks for finishing a ward, a turret or a pet, but not a jungle plant or an inhibitor."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les unités tuées en plus par l'effet de zone de Tiamat ne donnent aucune charge : seule la cible frappée par Buveuse d'âmes (A) compte.",
+        "en": "Extra units killed by Tiamat's area effect give no stacks: only the target hit by Siphoning Strike (Q) counts."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Flétrissement (Z) interrompt le windup de l'auto de la cible au moment où il la touche : lance-le quand un ADC ou un duelliste commence à frapper.",
+        "en": "Wither (W) cancels the auto your target is winding up as soon as it hits: cast it when an ADC or a duelist starts swinging."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le ralentissement et la réduction de vitesse d'attaque de Flétrissement (Z) forment un seul effet : une cible immunisée aux ralentissements ignore les deux.",
+        "en": "Wither's (W) slow and attack speed reduction are a single debuff: a target immune to slows ignores both."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le ralentissement et la baisse de vitesse d'attaque de Flétrissement (Z) augmentent chaque seconde : ils atteignent leur maximum à la fin des 5 secondes.",
+        "en": "Wither's (W) slow and attack speed reduction grow every second: they peak at the end of the 5 seconds."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nasus - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Nasus",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "The ONLY Nasus Guide You Need - Nasus Guide League of Legends",
+      "url": "https://www.youtube.com/watch?v=KHb6guizrT4",
+      "type": "video",
+      "date": "2025-12-21",
+      "author": "Daveyx3"
+    },
+    {
+      "title": "3 Minute Nasus Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=WcxB-X1izPQ",
+      "type": "video",
+      "date": "2026-07-10",
+      "author": "3 Minute League of Legends"
+    }
+  ]
+}

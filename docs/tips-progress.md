@@ -120,18 +120,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Mel (2 combos, 7 astuces)
 - ✅ Milio (2 combos, 7 astuces)
 
-### Lot 9 — ⏳
+### Lot 9 — ✅
 
-- ⏳ MissFortune
-- ⏳ MonkeyKing
-- ⏳ Mordekaiser
-- ⏳ Morgana
-- ⏳ Naafiri
-- ⏳ Nami
-- ⏳ Nasus
-- ⏳ Nautilus
-- ⏳ Neeko
-- ⏳ Nidalee
+- ✅ MissFortune (3 combos, 7 astuces)
+- ✅ MonkeyKing (3 combos, 7 astuces)
+- ✅ Mordekaiser (3 combos, 7 astuces)
+- ✅ Morgana (3 combos, 6 astuces)
+- ✅ Naafiri (3 combos, 7 astuces)
+- ✅ Nami (3 combos, 8 astuces)
+- ✅ Nasus (3 combos, 7 astuces)
+- ✅ Nautilus (3 combos, 7 astuces)
+- ✅ Neeko (3 combos, 7 astuces)
+- ✅ Nidalee (3 combos, 7 astuces)
 
 ### Lot 10 — ⏳
 

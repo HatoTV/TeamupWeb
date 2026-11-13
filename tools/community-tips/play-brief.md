@@ -62,3 +62,6 @@ Par champion : nb combos / nb astuces, sources utilisées (titre + URL), points 
 - `tag` juste : `passive` = le passif inné du champion (ou l'effet passif d'un sort s'il est explicitement passif) ; une mécanique d'ult = `mechanic` ou `timing`.
 - Le volume vidéo est limité : 4 vidéos max par champion. Une même vidéo ne sert qu'à son champion.
 - Date d'une vidéo : date de publication si `infos_video` la donne, sinon date de consultation.
+- Pas de conseil sur l'ordre de montée des sorts, même déguisé (« retarde le point de R au niveau 6 »).
+- Une astuce ne se contredit pas : relis chaque phrase FR et EN avant de rendre (ex. « ignore les boucliers » vs « un shield peut la sauver »).
+- Formes alternatives (Elise, Nidalee, Jayce, Gnar…) : `keys` reste Q/W/E/R ; le site affiche l'icône de base et le nom combiné Data Dragon, donc nomme la forme utilisée dans `desc`.

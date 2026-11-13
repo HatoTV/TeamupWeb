@@ -1,0 +1,124 @@
+{
+  "searches": 2,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] If you get a chance to close the gap and fight him, make sure you do it inside of the minion wave so that his Q isn't isolated. It does way more damage if you don't have a minion next to you.",
+    "[0] Just make sure you walk away after your E is on cool down since his auto attacks and passive have no cool down. His passive gives him a little bit of move speed after he activates it. So make sure you're not too far up when he's about to activate it.",
+    "[0] Make sure you track his Q and his E cool down after he uses it so that you know exactly when you can walk in and out.",
+    "[0] You can get these kinds of nice short trades, but he does still have that innate strength where he's really good in long trades.",
+    "[0] Make sure you do not fight through his W shield unless you're confident you can kill him through it.",
+    "[0] Morichiser is a spooky champion, but at level one, he is very much fightable.",
+    "[0] Post level six is where things really start to get scary. Verticiser has an insane all-in tool, which is his R",
+    "[0] His death realm can be used as gank setup as well. He doesn't even need to have his W stacked up. He can just R you and then just kind of stand there and wait for his jungler to be on top of you.",
+    "[0] Another scary part is that all it takes is for him to get one pull and then you're in a situation where you might have to flash or pretty much just die",
+    "[0] So, make sure you are always checking what his range will be if he's nearby.",
+    "[1] We're just going to try to pressure him very hard in the early game before he gets level six.",
+    "[1] You have to play this aggressive guys in the early game against Mika cuz trust me, if he gets level six without you having a lead, it becomes one of the hardest matchups in the game.",
+    "[1] Thing is, he doesn't have alt anymore. I think his alt is one of the longest cooldowns abilities in the game.",
+    "[1] He does have his ultimate here. I have to kite away.",
+    "[1] I got him with the Q. Kite away from his E.",
+    "[1] He uses his E. I'm going to qu to him here and go for the small thread. Auto W auto.",
+    "[2] Okay, he pulls me. I can get the tentacle on the wall there. Dodge that.",
+    "[2] Morichiser down a little bit. I need to watch for his ease though."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "6JPpuWcyCHs",
+      "channel": "DirtyMobs",
+      "result": "utilisé (passages 4:55, 6:15) ; surtout spécifique à Illaoi"
+    },
+    {
+      "id": "5lBLTWqZ0AU",
+      "channel": "Monster SSS",
+      "result": "utilisé (passages 0:20, 3:57, 9:32, 10:07, 11:26, 13:26)"
+    },
+    {
+      "id": "2wV3-IeeRIc",
+      "channel": "Zbuzzer",
+      "result": "écarté : aucune voix commentée (sous-titres = répliques du jeu et musique)"
+    },
+    {
+      "id": "yoFxMN7zU1g",
+      "channel": "Palco",
+      "result": "utilisé (transcription complète, 1:14-4:42)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/mordekaiser/counters",
+      "result": "no-advice (un seul conseil d'objets, un conseil pour jouer Mordekaiser)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Rester hors de portée de l'Emprise funeste (E), un pull = flash ou mort",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (E attire les ennemis d'une zone, portée 700)"
+    },
+    {
+      "idea": "Respecter le R quand il est up (isole, setup de gank), punir quand il est en CD (long)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R CD 120/110/100 s, bannit un champion dans le Royaume des morts)"
+    },
+    {
+      "idea": "Suivre les CD de A et E, short trade quand l'un est down puis reculer",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Jouable avant le lvl 6, prendre un lead ; sans lead la lane devient très dure après 6",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Trade dans la wave : le A fait plus de dégâts sur une cible seule",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts augmentés si un seul ennemi touché)"
+    },
+    {
+      "idea": "Ne pas trade dans le bouclier du Z sauf si on peut le burst",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z : dégâts stockés en bouclier, réactivation = soin)"
+    },
+    {
+      "idea": "Passif après 3 attaques/sorts : halo de dégâts + vitesse, ne pas rester trop avancé",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif Darkness Rise après 3 attaques ou sorts)"
+    },
+    {
+      "idea": "Mordekaiser lent : jouer tempo, push et roam en évitant son R",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    }
+  ]
+}

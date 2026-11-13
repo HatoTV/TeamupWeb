@@ -1,0 +1,115 @@
+{
+  "searches": 3,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Every time you hit a champion or blaster or minion with Q, you gain one stack. The stacks increases Smolder's damage of his basic abilities, while also evolving Q at 25, 125, and 225 stacks.",
+    "[0] 225 is Smolder's most important threshold because at 225, you will start executing enemies below a certain amount of HP, while also applying a percent max health burn to them.",
+    "[0] Smolder's E, flap flap flap, is your main movement ability that gives you bonus movement speed and lets you fly over walls while also shooting the lowest health enemy near you.",
+    "[0] Smolder's R, mom, it's a rectangular ability that goes in a straight line which heals you while also doing critical damage and slowing enemies if you hit enemies in the center.",
+    "[0] Early game. Smolder's early game is bad, but who's shocked? Your mango should be to get 25 stacks to unlock your AoE Q, which makes you a lot more annoying to lane versus",
+    "[0] Some tips for stacking faster are to take guaranteed dubs when they last hit",
+    "[0] If you fight against anyone that goes lethal tempo, you're probably going to lose pretty much any extended fight, especially level one. So, you need to be ready to give up pressure if they have strong all-ins.",
+    "[0] Flying into the wall while you're getting ganked can give you the one extra second of safety you need to survive a game.",
+    "[0] try to communicate to your team that you're weak early.",
+    "[1] Smolder hates two things, hard all-in lanes and hard scaling lanes.",
+    "[1] Smolder's early game is not strong",
+    "[1] You want to however prioritize hitting enemy champions first, always. If you can tag them, you tag them.",
+    "[1] hitting a W early game can give you two stacks.",
+    "[1] on that timer the enemy AD carry will go for that last hit, obviously, right? So, I will time my W on that timer when the enemy goes for last hit.",
+    "[1] For your E, there's not much other than you should always position yourself in a way where you're close to a wall, all right? So, you can just E over it",
+    "[1] I'm going to keep my ulti to cancel them or just in trades simply to poke them and heal myself a little bit."
+  ],
+  "videosRead": 2,
+  "videosTried": [
+    {
+      "id": "edodzEn2XZ4",
+      "channel": "bluwunk",
+      "result": "utilisé (passages 1:11-2:21, 11:25-12:00, 14:41-15:31)"
+    },
+    {
+      "id": "YFUMVlSfe8Y",
+      "channel": "Neon LOL",
+      "result": "utilisé (passages 0:50-1:20, 6:08, 7:07-7:53, 8:59)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Chaque sort qui touche un champion donne un stack : limiter le poke subi",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : hitting champions with Abilities grants a stack)"
+    },
+    {
+      "idea": "Centre du R : plus de dégâts + slow ; le R soigne Smolder",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (tooltip R : sweetspot, slow, momhealcalc)"
+    },
+    {
+      "idea": "Smolder faible lvl 1-2 / avant 25 stacks, perd les all-in et fights longs",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Smolder lance son W quand l'adversaire va sur un last hit",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (bluwunk « dubs » = W's, Neon explicite)"
+    },
+    {
+      "idea": "Smolder se place près des murs pour fuir avec E ; E utilisé = engager",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E ignore le terrain, CD 24-16 s)"
+    },
+    {
+      "idea": "Dernier palier de stacks : brûlure + exécution sous un seuil de PV",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : tier3 burn + execute threshold)"
+    },
+    {
+      "idea": "R utilisé pour annuler les recalls (portée énorme)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : range 4200)"
+    },
+    {
+      "idea": "W + R mid game font un gros burst",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, pas une mécanique vérifiable"
+    },
+    {
+      "idea": "W caché derrière un mur",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source seulement"
+    }
+  ]
+}

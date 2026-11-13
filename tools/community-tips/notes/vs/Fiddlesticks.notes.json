@@ -1,0 +1,79 @@
+{
+  "searches": 3,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] If you get CC, that W gets canceled and then you're not going to be able to deal enough damage to kill the world's tankiest Mordekaiser",
+    "[0] And then if I ulti over, if I'm unseen, we're going to get that immediate fear, and then that sets me up for the W.",
+    "[1] it will silence them for 1.25 seconds. Your Q will be current HP damage. If a target's already feared, the damage will be doubled.",
+    "[1] Still make sure to never interrupt your drain because the cool down refund otherwise will not happen.",
+    "[1] My interrupt my old got cancelled like if you get interrupted out of your channel and your old your old's gone.",
+    "[1] Cuz you get the fear off if you're not seen. Like any of your ability casts will fear them as long as you are not in vision of them. So, your W and your E will also proc it and also obviously your ulti.",
+    "[1] So, if you jump from over the wall, they get insta feared. And then we know insta feared means Q does double damage"
+  ],
+  "videosRead": 2,
+  "videosTried": [
+    {
+      "id": "KNjj1pHVzV0",
+      "channel": "Sawyer Jungle",
+      "result": "utilisé (passages 6:10, 17:49)"
+    },
+    {
+      "id": "BBcFBvdBZSE",
+      "channel": "Fz Frost",
+      "result": "utilisé (passages 1:27, 4:39, 13:15-13:43, 15:47-16:00)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Un CC coupe le W : drain stoppé, pas de réduction de CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W : CD -60 % seulement si canalisation non interrompue)"
+    },
+    {
+      "idea": "Sorts lancés sans être vu = fear instantané ; warder les flancs",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif de Q : unseen and out of combat => Fear)"
+    },
+    {
+      "idea": "R canalisé : un CC pendant la canalisation fait perdre l'ult",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : R channels before teleport)"
+    },
+    {
+      "idea": "Centre du E : slow + silence",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : center Silenced)"
+    },
+    {
+      "idea": "Q fait plus de dégâts sur une cible déjà apeurée",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (fact checked : totalpercenthealthdamagefeared)"
+    },
+    {
+      "idea": "Fiddlesticks faible avant le lvl 6 : l'envahir tôt",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: une seule mention indirecte (Fz Frost 4:39), conseil macro sans 2e source"
+    }
+  ]
+}

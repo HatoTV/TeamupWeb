@@ -1,0 +1,121 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] I'm going to show you guys how to punish them level one so they don't get that all in that they want level two.",
+    "[0] Try to go behind minions. Try not to get hooked level one.",
+    "[0] So this guy has his E start and he missed it, so honestly we can just run them down here.",
+    "[0] I'm just going to continue to keep poking them down so they can't all in us level two. I'm going to stand behind these minions here.",
+    "[1] Thresh, strong in early game, especially with the E. The E auto attack does a lot of damage early on.",
+    "[1] Now, he's really bad in to range and poke uh because he has like again, he has not really engage later later in the game",
+    "[1] And he has no sustain against these uh type of champs.",
+    "[1] You are strong early game as as well as we saw, so you can bully you can get prior level two if you play correctly. Avoid playing bushes, you play top side and then you take bush control.",
+    "[1] Force him to to miss the hook, a bit like Tahm Kench. Punish him when on cool down. Just make sure that you are careful with the E. Don't don't get E. So, don't be too close to him.",
+    "[1] And vision on Thresh makes it easy to play against him in mid to late game.",
+    "[1] But where Thresh becomes dangerous is when you face check a place or you go into a dragon into a natural and then you get hooked blind.",
+    "[1] So, you want to make sure that you have vision control or you don't really face check against Thresh or you let someone tank your face check so you guys can can fight",
+    "[2] he can probably outrange me a lot and he can poke me a lot down in Lane which is something thresh that suffers from quite easily",
+    "[2] the Lulu Lane um usually consists of being poked down a lot and just collecting the",
+    "[2] if he and the ADC are good at playing with the minions and uh denying my hook then zillian is a disgusting disgusting Champion to play against",
+    "[2] I usually play around bushes a lot if you play out of vision either inside a bush or around the corner it makes it",
+    "[2] you want to try to sneak a hook in between minion waves and play a little bit out of vision"
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "-Zyqp_NxBHA",
+      "channel": "needyhenry 2nd channel",
+      "result": "utilisé (passages 0:14-2:10) ; passage 5:05 (reculer en ligne droite pour esquiver le hook) écarté : 1 seule source"
+    },
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre Thresh 1:03:26-1:06:45)"
+    },
+    {
+      "id": "Y2NwKEW240Y",
+      "channel": "AxL",
+      "result": "utilisé (4:08, 9:13, 12:28, 27:07, 31:49) ; point de vue d'un OTP Thresh sur ses faiblesses, vidéo de 21 mois"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Rester derrière ses sbires : le hook s'arrête sur la première unité touchée",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (« the first unit hit »)"
+    },
+    {
+      "idea": "Rester hors de portée du Fauchage (500) et punir s'il le rate",
+      "sourceIdx": [
+        1,
+        0
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (portée 500)"
+    },
+    {
+      "idea": "Thresh souffre contre la portée et le poke, pas de sustain",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Poke au lvl 1 et gagner la course au lvl 2 pour empêcher l'all-in",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Vision : warder les buissons, ne pas face-check",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Hook raté = CD complet (réduction seulement s'il touche), fenêtre pour trade",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 19 s au rang 1, réduit seulement si le sort touche)"
+    },
+    {
+      "idea": "Passif du Fauchage : autos chargées qui font mal en early",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (dégâts selon le temps depuis la dernière attaque)"
+    },
+    {
+      "idea": "Reculer en ligne droite plutôt que de côté pour esquiver le hook",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, technique non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Balise de contrôle pour empêcher le clic sur la lanterne",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, interaction non vérifiable dans DDragon, proche d'un conseil d'objet"
+    }
+  ]
+}

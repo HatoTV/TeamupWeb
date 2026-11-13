@@ -1,0 +1,137 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Level one, as I said, very weak. No threat early versus bully lanes.",
+    "[0] Stop his engages with abilities Janna Q, Poppy W, Morgana E. That's a good way to... and force him to stay in lane, pressure with poke. Or I would say or freeze. Don't dive.",
+    "[1] At level one, he cannot do anything. So, if you chunk him down hard enough, he's forced to use his potions or play super passive for the next few levels.",
+    "[1] But be very careful cuz the moment he turns level two, he reaches his first power spike. And that's when he will look for allins.",
+    "[1] It's very important to know what exactly the headbutt range is of Alistar. This is his danger zone, and once you step foot in it, he will all in you. So if you see him walk up aggressively and you keep walking out of his danger zone, you can play with him.",
+    "[1] If you're close to his turret, he can easily flash, knock you up, and push you towards his tower. So if you keep the minions closer to your side of the map, you will calm him down a lot.",
+    "[1] In team fights, don't stay close to each other. Alistar can easily knock up three people with one dumb combo and win the whole team fight by himself.",
+    "[1] Poppy. Her W can completely block out Alistar dashes which makes it impossible for him to combo. Second one is Janna. Her Q and R are perfect to interrupt Alistar midair, canceling his whole engage.",
+    "[2] Engage supports want to fight the second they can. If you hit level two first, you want to walk right onto the enemy ADC and chain your crowd control together.",
+    "[2] Alistar's headbutt into his pulverize is a second and three quarters. ... They land one full combo at level two or three and that's usually a kill for your team.",
+    "[2] Janna is the disengage that actually does well. She beats Alistar, Leona, and Rakan.",
+    "[2] Black shield blocks magic damage and crowd control, but it doesn't block physical damage and Alistar's ultimate removes any crowd control that's already on him. So the rule is simple. Never spend your disengage just to poke. Hold it for the engage and when it's on cooldown, step back."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Gme87rAvO_8",
+      "channel": "Coach K",
+      "result": "utilisé (chapitre Alistar 37:32-40:56, passages 38:46-39:05 et 40:18-40:40)"
+    },
+    {
+      "id": "DeMnEungNVs",
+      "channel": "Cannon Minion",
+      "result": "utilisé (vidéo entière, 2:58, spécifique contre Alistar ; 18 mois, juste au-delà de la préférence < 18 mois)"
+    },
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "écarté : aucune mention d'Alistar dans la transcription"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "utilisé (passages 3:19-4:00 et 13:43-14:20)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Garder son désengage pour le Coup de tête (Z), pas pour poke ; reculer s'il est en CD",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Poke Alistar fort au lvl 1, il ne menace rien",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Respecter le lvl 2 (combo Z + A)",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; Z et A dans le kit (DDragon)"
+    },
+    {
+      "idea": "Wave près de sa propre tourelle / freeze, flash-engage vers sa tourelle",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Rester hors de portée du Coup de tête (650)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Headbutt range 650 ; seul sort de rapprochement du kit)"
+    },
+    {
+      "idea": "Son R purge les CC déjà sur lui et réduit les dégâts",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Unbreakable Will : cleanses all Disabling effects, reduced damage)"
+    },
+    {
+      "idea": "Ne pas rester groupés en teamfight : Atomisation projette tous les ennemis proches",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Pulverize : knocks up nearby enemies)"
+    },
+    {
+      "idea": "Ne pas dive Alistar",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lane/macro, 1 seule source"
+    },
+    {
+      "idea": "Vision dans les buissons contre le flash-engage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, lié à une rune"
+    },
+    {
+      "idea": "Focus/CC l'ADC adverse quand Alistar engage",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source"
+    },
+    {
+      "idea": "Wards profondes vers le mid, Alistar roam beaucoup",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source (« match roams » de Coach K est un conseil côté Alistar)"
+    }
+  ]
+}

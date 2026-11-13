@@ -1,0 +1,110 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] Jace isn't that hard of a matchup. No, it is. Jace is a hard matchup.",
+    "[0] But I I I'm mainly just laring because I'm in a hard matchup and I got nothing else to do but be be patient.",
+    "[1] Le matchup Jas, alors il est avantage Jas, mais si le Jasse n'est pas absolument pixel perfect, je peux très facilement trouver des angles kill.",
+    "[1] Après, faut faut évidemment que je punisse les erreurs, mais c'est plus simple de punir les erreurs queutre choses.",
+    "[1] [ __ ] la MS du sa mère, j'ai un peu le se du coup, j'ai waste je pour presque le flash mais ça fait flash pour flash.",
+    "[2] Jayce can attack in melee or at range. Pay attention to his stance and weapon color to know how he is going to attack.",
+    "[2] If you see Jayce drop his Acceleration Gate, be careful, he is probably about to cast Shock Blast.",
+    "[2] Jayce is strong in the early game. If he gains the advantage, play defensively."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "UZ2QR2xa6gI",
+      "channel": "Solarbacca Too",
+      "result": "utilisé (passages 0:00-0:14, 2:51-3:04) ; surtout du bavardage de stream"
+    },
+    {
+      "id": "zlyvnSXLnrY",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 0:15-1:41)"
+    },
+    {
+      "id": "g6a5jHE7DDw",
+      "channel": "WoitlanDunk ",
+      "result": "écarté : aucun conseil sur le matchup dans les passages trouvés"
+    },
+    {
+      "id": "l0N5i7Xi0N0",
+      "channel": "Raider",
+      "result": "écarté : aucun sous-titre en-orig ni en disponible"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/jayce/counters/top",
+      "result": "no-tips (un seul conseil, spécifique à Malphite et basé sur les items)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/jayce/",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Jayce/Strategy",
+      "result": "ok (sans date : uniquement pour des mécaniques vérifiées)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Matchup favorable à Jayce en early : jouer patient et punir ses erreurs",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Portail d'accélération posé = Orbe électrique boosté juste après",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E canon : l'orbe tiré à travers le portail gagne vitesse, portée et dégâts)"
+    },
+    {
+      "idea": "Lire sa forme : marteau melee (saut A), canon à distance",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R : le canon donne plus de portée ; A marteau = saut sur la cible)"
+    },
+    {
+      "idea": "Boost de vitesse à chaque changement de forme : ne pas engager juste après",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif Capaciteur Hextech : vitesse de déplacement au changement d'arme)"
+    },
+    {
+      "idea": "Jayce brûle beaucoup de mana : trade quand il est à sec",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: idée lane, 1 seule source"
+    },
+    {
+      "idea": "Garder un slow push contre Jayce",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: idée lane, 1 seule source (contexte Gangplank)"
+    },
+    {
+      "idea": "Jayce tape la tour dès la première wave",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, pas un conseil actionnable"
+    }
+  ]
+}

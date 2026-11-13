@@ -59,7 +59,7 @@ for (const lang of ['en_US', 'fr_FR']) {
   if (!existsSync(dir)) continue;
   for (const f of readdirSync(dir)) {
     const c = JSON.parse(readFileSync(`${dir}/${f}`, 'utf8')) as { passive: { name: string }; spells: { name: string }[] };
-    for (const a of [c.passive, ...c.spells]) for (const name of a.name.split(' | ')) notBuild.add(name);
+    for (const a of [c.passive, ...c.spells]) for (const name of a.name.split(/ \| |\//)) notBuild.add(name.trim());
   }
 }
 const buildNames = [...Object.entries(glossary.items), ...Object.entries(glossary.runes)]

@@ -1,0 +1,99 @@
+{
+  "champion": "Jhin",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade sur la quatrième balle", "en": "Fourth shot trade" },
+      "keys": ["E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Avec deux balles restantes, place une auto : elle marque l'ennemi. Pose Public captif (E) à ses pieds, immobilise-le avec Floraison mortelle (Z), tire ta quatrième balle, ajoute Grenade dansante (A) et recule.",
+        "en": "With two rounds left, land an auto: it marks the enemy. Drop Captive Audience (E) at their feet, root them with Deadly Flourish (W), fire your fourth shot, add Dancing Grenade (Q) and back off."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Piège puis Floraison anticipée", "en": "Trap into precast Flourish" },
+      "keys": ["E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Quand un ennemi marche vers ton Public captif (E), lance Floraison mortelle (Z) avant qu'il n'éclose : le piège le marque juste avant l'impact, il est immobilisé sans pouvoir esquiver.",
+        "en": "When an enemy walks toward your Captive Audience (E), cast Deadly Flourish (W) before it blooms: the trap marks them right before the shot lands, so they get rooted with no time to dodge."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Ta quatrième balle est toujours un coup critique et ajoute des dégâts selon les PV manquants. Ensuite tu recharges 2,5 s sans pouvoir taper : trade court, puis recule.",
+        "en": "Your fourth shot always crits and adds damage based on missing health. Then you reload for 2.5 s and cannot attack: trade short, then back off."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque coup critique te donne un bonus de vitesse pendant 2 s. Après ta quatrième balle, sers-t'en pour reculer pendant le rechargement.",
+        "en": "Every crit gives you bonus movement speed for 2 s. After your fourth shot, use it to walk away during the reload."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Hors combat, tu recharges seul après 10 s s'il te manque des balles. Une auto ou un sort interrompt ce rechargement : laisse-le finir avant ton prochain trade.",
+        "en": "Out of combat, you reload on your own after 10 s if rounds are missing. An auto or a spell interrupts that reload: let it finish before your next trade."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Grenade dansante (A) gagne 35 % de dégâts à chaque cible tuée avant le rebond suivant. Vise un sbire presque mort à côté de l'ennemi pour un rebond renforcé.",
+        "en": "Dancing Grenade (Q) gains 35% damage for each target killed before the next bounce. Aim at a low minion next to the enemy for a stronger bounce."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Floraison mortelle (Z) n'immobilise qu'un champion marqué : touché par toi, un allié ou ton piège dans les 4 s. Tire juste après le grappin ou l'auto de ton support.",
+        "en": "Deadly Flourish (W) only roots a marked champion: hit by you, an ally or your trap in the last 4 s. Fire right after your support's hook or auto."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Floraison mortelle (Z) n'est pas un projectile, mais le Mur de vent de Yasuo et les effets de ce type l'arrêtent quand même.",
+        "en": "Deadly Flourish (W) is not a projectile, yet Yasuo's Wind Wall and similar effects still stop it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Rappel de rideau (R), chaque balle s'arrête sur le premier champion touché et le ralentit de 80 % pendant 0,5 s : enchaîne vite la suivante. La quatrième est critique.",
+        "en": "During Curtain Call (R), each bullet stops on the first champion hit and slows them by 80% for 0.5 s: chain the next one fast. The fourth one crits."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Deux Public captif (E) au même endroit ne cumulent pas : un champion touché par un piège dans la dernière seconde ne prend que 65 % des dégâts du second.",
+        "en": "Two Captive Audience (E) traps in one spot do not stack: a champion hit by a trap in the last second takes only 65% damage from the second one."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Jhin – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Jhin", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Jhin Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=iB7ZpC9ZKTI", "type": "video", "date": "2025-06-27", "author": "3 Minute League of Legends" },
+    { "title": "Pro Player Explains How to Play Jhin – Challenger Guide", "url": "https://www.youtube.com/watch?v=zsC-3NBUTLI", "type": "video", "date": "2026-03-02", "author": "Varry" },
+    { "title": "The Only Jhin Guide You Will Ever Need", "url": "https://www.youtube.com/watch?v=ZzWCwBIIhrM", "type": "video", "date": "2026-06-15", "author": "Kola" }
+  ]
+}

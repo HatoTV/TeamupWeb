@@ -1,0 +1,159 @@
+{
+  "champion": "Jinx",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "All-in Pyromâcheurs et roquette",
+        "en": "Chompers and rocket all-in"
+      },
+      "keys": [
+        "E",
+        "R",
+        "W"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Après une auto, pose Pyromâcheurs ! (E) sur l'ennemi, tire Super roquette de la mort ! (R) pendant qu'il est immobilisé, puis ralentis-le avec Zap ! (Z) et continue de taper.",
+        "en": "After an auto, drop Flame Chompers! (E) on the enemy, fire Super Mega Death Rocket! (R) while they are rooted, then slow them with Zap! (W) and keep attacking."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": {
+        "fr": "Suivi du CC de ton support",
+        "en": "Follow your support's CC"
+      },
+      "keys": [
+        "E",
+        "W"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Dès que ton support immobilise l'ennemi, lance Pyromâcheurs ! (E) sous lui puis Zap ! (Z) : il reste bloqué pendant que tu enchaînes les autos.",
+        "en": "As soon as your support locks the enemy down, throw Flame Chompers! (E) under them, then Zap! (W): they stay stuck while you chain autos."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Charge la mitrailleuse puis passe aux roquettes avec Flip flap ! (A) : seule la première roquette garde la vitesse d'attaque de la mitrailleuse. Les suivantes repartent à la vitesse normale.",
+        "en": "Stack your minigun, then swap to rockets with Switcheroo! (Q): only the first rocket keeps the minigun attack speed. The next ones go back to normal speed."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le temps d'incantation de Zap ! (Z) baisse avec ta vitesse d'attaque bonus. Lance-le avec la mitrailleuse chargée : il part plus vite qu'avec les roquettes.",
+        "en": "Zap! (W) cast time drops with your bonus attack speed. Cast it with a stacked minigun: it fires faster than with rockets."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Zap ! (Z) révèle le premier ennemi touché pendant 2 s. Tire-le dans un buisson suspect au lieu d'y entrer à l'aveugle.",
+        "en": "Zap! (W) reveals the first enemy hit for 2 s. Fire it into a suspicious brush instead of walking in blind."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pyromâcheurs ! (E) explosent au contact d'un champion et l'immobilisent 1,5 s. Face à un plongeur, pose-les sur toi : il doit marcher dedans pour t'atteindre.",
+        "en": "Flame Chompers! (E) explode on contact with a champion and root them for 1.5 s. Against a diver, drop them on yourself: they must walk through them to reach you."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Enthousiasme ! se déclenche si tu participes à l'élimination d'un champion, d'une tourelle, d'un inhibiteur ou d'un monstre épique dans les 3 s après l'avoir touché. Chaque champion ajoute un cumul de vitesse d'attaque, jusqu'à 5.",
+        "en": "Get Excited! triggers on a takedown of a champion, turret, inhibitor or epic monster within 3 s of damaging it. Each champion adds an attack speed stack, up to 5."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Super roquette de la mort ! (R) fait plus de dégâts selon la distance parcourue et les PV manquants. Elle explose sur le premier champion touché et blesse aussi ceux autour.",
+        "en": "Super Mega Death Rocket! (R) deals more damage based on distance traveled and missing health. It explodes on the first champion hit and also damages those around."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pyromâcheurs ! (E) s'arrêtent sur le Mur de vent de Yasuo et sur Incassable de Braum : ne les lance pas à travers.",
+        "en": "Flame Chompers! (E) stop on Yasuo's Wind Wall and Braum's Unbreakable: do not throw them through."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort n'empêche ni l'explosion de Pyromâcheurs ! (E) ni celle de Super roquette de la mort ! (R).",
+        "en": "A spell shield does not stop the Flame Chompers! (E) explosion nor the Super Mega Death Rocket! (R) explosion."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Jinx – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Jinx",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Jinx Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=WEhN1It471w",
+      "type": "video",
+      "date": "2026-02-07",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "How Pro Players ACTUALLY Play Jinx – Ultimate Challenger Guide",
+      "url": "https://www.youtube.com/watch?v=-3AWXiuos_E",
+      "type": "video",
+      "date": "2026-05-17",
+      "author": "Crownie"
+    }
+  ]
+}

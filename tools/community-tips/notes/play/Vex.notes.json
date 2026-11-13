@@ -1,0 +1,43 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Periodically, Vex empowers her next ability [basic ability] to knockdown [knock down] and fear enemies hit",
+    "If Looming Darkness 2 [Vex] triggers Doom, enemies hit will flee from the epicenter instead.",
+    "Nearby enemy champions and monsters that dash or blink will be marked with Gloom for 6 seconds. Vex's next basic attack, which becomes projectile [non-projectile], or basic ability hit against an enemy with Gloom will detonate the mark. Looming Darkness [Vex] will also inflict Gloom, but cannot detonate it.",
+    "Gloom's detonation deals 40 + (150-40)/17*(x-1) for 20 (+ 25% AP) and refunds 25% of Doom's cooldown.",
+    "Gloom will mark enemies even if they are untargetable.",
+    "Nearby enemies that become displaced do not count for being marked by Gloom.",
+    "Doom's flee [fear] will not be removed when Vex dies, unlike any other flee [fear] in the game.",
+    "This ability will cast from wherever the caster is at the end of the cast time.",
+    "Mistral Bolt will fire from wherever Vex is at the end of the cast time, towards the originally targeted location or 1200 units in the originally targeted direction if cast beyond that.",
+    "Vex tosses her Shadow to explode at the target location, dealing magic damage to enemies hit and slow [slowing] them for 2 seconds. The explosion's radius increases based on cast distance.",
+    "Shadow stops upon hitting an enemy champion to mark them for 4 seconds, during which they are true sight [revealed]. Shadow Surge can be recast while the target is marked.",
+    "If Vex scores a takedown against Shadow Surge's marked target within 8 seconds of its application, Vex can cast Shadow Surge again within 12 seconds at no cost after 0.5 seconds, repeating the effects.",
+    "Vex's dash will track the target if they change locations. She will not stop tracking the target until she reaches them, as there is no maximum tracking distance.",
+    "When the tag detonates, the attack becomes one that is not considered a projectile. Therefore, it passes through obstacles such as the \"Wind Wall\".",
+    "Combo: Start with E with fear , then Q and auto attack. Add a W before the indent.",
+    "And if you start with an ultimate, reactivate it and use W for fear. After that, use E and Q for powerful explosive damage before retreating.",
+    "If Vex kills an enemy who was recently hit with an ultimate, she can use it again within 12 seconds.",
+    "You can even auto Yaso through Wind because Gloom's damage isn't a projectile.",
+    "With Doom active, enemies flee from the center of your E. Anticipate this direction so you can reliably land your",
+    "Use the long cast to hit multiple targets, but in clutch situations, you can cast it close, even on yourself, for an almost instant fear.",
+    "For wave clear, cast E from max range so the radius is the largest.",
+    "Ara doesn't trigger the doom fear, which is usually ideal. You want your fear ready for when you arrive on the target.",
+    "If enemies panic flash too early, your reccast will follow them automatically.",
+    "Safe poke E into Q. E slows them and applies Gloom, making it easier to follow up with Q, which detonates Gloom for extra damage.",
+    "All-in combo. R into W into E into Q. This is your full oneshot rotation. R gets you on top of the target. W guarantees the fear.",
+    "Flash fear. Flash then instantly W. Your most reliable instant CC tool. Flash W guarantees fear the moment you land",
+    "You can cast Q first, then instantly flash to extend its effective range."
+  ],
+  "rejected": [
+    { "idea": "Flash pendant le dash de Déferlement d'Ombre (R) pour l'annuler et changer de cible", "reason": "Une seule source (Zoose) ; le wiki indique seulement que les sorts de déplacement sont bloqués pendant les 0,25 premières secondes du dash." },
+    { "idea": "Flash sur la cible puis Ténèbres imminentes (E) pour supprimer son temps de trajet", "reason": "Une seule source (Zoose), interaction non décrite par le wiki." },
+    { "idea": "Trade niveau 1 auto, Ténèbres imminentes (E), auto", "reason": "Une seule source joueur, sous-ensemble du combo E puis A." },
+    { "idea": "Nom « Malheur » pour la partie Doom du passif", "reason": "Pas de nom FR officiel isolé dans Data Dragon (seulement « Malheur et Désespoir ») : décrit comme « la peur de ton passif »." }
+  ],
+  "toVerifyInGame": [
+    "Mistral perdant (A) puis Flash pendant les 0,15 seconde d'incantation : le sort part bien de la position d'arrivée.",
+    "Auto qui fait exploser Désespoir à travers le Mur de vent de Yasuo."
+  ]
+}

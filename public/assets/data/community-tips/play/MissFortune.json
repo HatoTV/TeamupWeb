@@ -1,0 +1,101 @@
+{
+  "champion": "MissFortune",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Pluie de balles puis Barrage", "en": "Make It Rain into Bullet Time" },
+      "keys": ["E", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose Pluie de balles (E) sur une cible coincée, puis lance Barrage de plomb (R) tant qu'elle est ralentie dans la zone. Ça vide ta mana : garde-le pour un vrai kill.",
+        "en": "Drop Make It Rain (E) on a cornered target, then fire Bullet Time (R) while it is slowed in the zone. It drains your mana: keep it for a real kill."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in complet avec Fanfaronne", "en": "Full all-in with Strut" },
+      "keys": ["E", "Q", "R", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pluie de balles (E), une auto, Doublé (A), puis Barrage de plomb (R). Si la cible survit, active Fanfaronne (Z) et enchaîne les autos.",
+        "en": "Make It Rain (E), an auto, Double Up (Q), then Bullet Time (R). If the target survives, pop Strut (W) and keep auto attacking."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Doublé sur sbire vers le champion", "en": "Double Up off a minion" },
+      "keys": ["Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Vise avec Doublé (A) un sbire placé juste devant le champion adverse. Si le premier tir tue le sbire, le rebond sur le champion est un coup critique garanti.",
+        "en": "Aim Double Up (Q) at a minion standing right in front of the enemy champion. If the first shot kills the minion, the bounce onto the champion is a guaranteed crit."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le rebond de Doublé (A) cherche d'abord une cible pile derrière la première, dans un cône étroit de 500 unités. Aligne le sbire et le champion pour ne pas rebondir ailleurs.",
+        "en": "The Double Up (Q) bounce first looks for a target straight behind the first one, in a narrow 500-unit cone. Line up the minion and the champion so it does not bounce elsewhere."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le rebond de Doublé (A) touche même une cible que tu ne vois pas : un ennemi caché dans un buisson derrière un sbire prend quand même le tir.",
+        "en": "The Double Up (Q) bounce hits even a target you cannot see: an enemy hiding in a bush behind a minion still takes the shot."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort sur la première cible de Doublé (A) n'empêche pas le rebond : vise le porteur du bouclier pour toucher quand même le champion derrière.",
+        "en": "A spell shield on the first Double Up (Q) target does not stop the bounce: shoot the shielded unit and still hit the champion behind it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque nouvelle cible marquée par Cœur volage réduit de 2 s le CD de Fanfaronne (Z). Alterne sbires et champion entre tes autos pour la récupérer plus vite.",
+        "en": "Each new target marked by Love Tap cuts 2 s off the Strut (W) cooldown. Alternate minions and the champion between autos to get it back sooner."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lancer Fanfaronne (Z) donne tout de suite la vitesse de déplacement maximale de son passif, sans attendre 7 s sans dégâts : utile pour fuir ou rattraper.",
+        "en": "Casting Strut (W) instantly grants its passive's top movement speed, with no need to wait 7 s without taking damage: handy to escape or chase."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le slow de Pluie de balles (E) ne peut pas être purifié : la cible doit sortir de la zone à pied.",
+        "en": "The Make It Rain (E) slow cannot be cleansed: the target has to walk out of the zone."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Barrage de plomb (R) lancé depuis le brouillard te révèle aux ennemis présents dans le cône. Ne compte pas rester invisible pendant toute la canalisation.",
+        "en": "Bullet Time (R) fired from fog of war reveals you to enemies inside the cone. Do not expect to stay hidden for the whole channel."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Miss Fortune - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Miss_Fortune", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Miss Fortune Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=YDzowDDKQP0", "type": "video", "date": "2025-07-27", "author": "3 Minute League of Legends" },
+    { "title": "Le GUIDE Micro - Miss Fortune ADC : Les clics que tous les OTP connaissent par coeur !", "url": "https://www.youtube.com/watch?v=IjDnzl5y1O0", "type": "video", "date": "2026-09-17", "author": "Lelariva" },
+    { "title": "GUIDE MISS FORTUNE SAISON 16 : TUTO comment MONTER ADC sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=O3YdE2W_coM", "type": "video", "date": "2026-02-05", "author": "EXYT - League of Legends" }
+  ]
+}

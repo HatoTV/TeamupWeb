@@ -1,0 +1,129 @@
+{
+  "champion": "Varus",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trois autos, flèche", "en": "Three autos, arrow" },
+      "keys": ["Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "En lane, place trois autos pour monter Carquois meurtri (Z) à 3 stacks, puis relâche Flèche perforante (A) sur la cible pour tout faire éclater.",
+        "en": "In lane, land three autos to bring Blighted Quiver (W) to 3 stacks, then release Piercing Arrow (Q) on the target to burst them all."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Pluie puis troisième stack", "en": "Hail into third stack" },
+      "keys": ["E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ta cible a 2 stacks : lance Pluie de flèches (E) et place une auto juste après. Le sort refait éclater les stacks environ 0,3 s plus tard, donc ta troisième stack est consommée aussi.",
+        "en": "Your target has 2 stacks: cast Hail of Arrows (E) and land an auto right after. The ability bursts stacks again about 0.3 s later, so your third stack gets consumed too."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Chaîne, attente, flèche", "en": "Chain, wait, arrow" },
+      "keys": ["R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Chaîne corruptrice (R), puis charge Flèche perforante (A) pendant que la cible est enracinée. Elle reçoit ses 3 stacks en environ 1,75 s : relâche la flèche une fois les trois posés.",
+        "en": "Land Chain of Corruption (R), then charge Piercing Arrow (Q) while the target is rooted. They get their 3 stacks over about 1.75 s: release the arrow once all three are on."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Pluie, chaîne, autos, flèche", "en": "Hail, chain, autos, arrow" },
+      "keys": ["E", "R", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ralentis ta cible avec Pluie de flèches (E), enchaîne Chaîne corruptrice (R) tant qu'elle est lente, place tes autos, puis active Carquois meurtri (Z) et finis avec Flèche perforante (A).",
+        "en": "Slow your target with Hail of Arrows (E), follow with Chain of Corruption (R) while they're slowed, land your autos, then activate Blighted Quiver (W) and finish with Piercing Arrow (Q)."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Flèche chargée puis Flash", "en": "Charged arrow into Flash" },
+      "keys": ["Q", "F"],
+      "level": "medium",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Charge Flèche perforante (A), puis Flash avant de la relâcher : la flèche part de ta nouvelle position. Parfait pour surprendre une cible à 3 stacks qui pense être hors de portée.",
+        "en": "Charge Piercing Arrow (Q), then Flash before releasing it: the arrow fires from your new position. Great to surprise a 3-stack target who thinks they're out of range."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque stack de Carquois meurtri (Z) consommé sur un champion réduit le CD de tes sorts de base, encore plus avec Flèche perforante (A). Éclate tes stacks sur plusieurs champions pour relancer tes sorts en teamfight.",
+        "en": "Each Blighted Quiver (W) stack consumed on a champion lowers your basic ability cooldowns, even more with Piercing Arrow (Q). Burst stacks on several champions to cycle your spells in teamfights."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si tu ne relâches jamais Flèche perforante (A), la charge s'annule au bout de 4 s et te rend la moitié du mana. Son CD ne démarre qu'à la fin de la charge, réduit de sa durée.",
+        "en": "If you never release Piercing Arrow (Q), the charge cancels after 4 s and refunds half the mana. Its cooldown only starts when the charge ends, reduced by the charge time."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu peux activer Carquois meurtri (Z) pendant les 0,85 premières secondes de charge de Flèche perforante (A). Attention : une fois la charge finie, la Z part en CD complet même sans flèche lancée.",
+        "en": "You can activate Blighted Quiver (W) during the first 0.85 seconds of the Piercing Arrow (Q) charge. Careful: once the charge ends, W goes on full cooldown even if no arrow was fired."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "L'actif de Carquois meurtri (Z) et sa réactivation restent utilisables même quand un CC t'empêche de lancer des sorts.",
+        "en": "The Blighted Quiver (W) active and its recast stay usable even when crowd control prevents you from casting abilities."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaîne corruptrice (R) se propage aux champions proches qui restent 2 s dans la zone, même invisibles. Si la première cible est protégée par un bouclier de sort ou insensible aux CC, rien ne se propage.",
+        "en": "Chain of Corruption (R) spreads to nearby champions who stay 2 s in the area, even unseen ones. If the first target is protected by a spell shield or immune to crowd control, nothing spreads."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les 3 stacks de Chaîne corruptrice (R) arrivent pendant le root. Si ta cible a de la ténacité ou se purifie tôt, elle en reçoit moins : vérifie les stacks avant de relâcher ta flèche.",
+        "en": "The 3 stacks from Chain of Corruption (R) arrive during the root. If your target has tenacity or cleanses early, they get fewer: check the stacks before releasing your arrow."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pluie de flèches (E) laisse une zone de 4 s qui ralentit et applique des Blessures graves. Le slow persiste 0,25 s après la sortie de la zone.",
+        "en": "Hail of Arrows (E) leaves a 4 s zone that slows and applies Grievous Wounds. The slow lingers for 0.25 s after leaving the zone."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Vengeance incarnée : un takedown sur un champion booste ton bonus de vitesse d'attaque et relève ton plafond à 3,33. Pendant ce boost, seuls d'autres takedowns sur champion le rafraîchissent.",
+        "en": "Living Vengeance: a champion takedown boosts your attack speed bonus and raises your cap to 3.33. During that boost, only further champion takedowns refresh it."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Varus - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Varus", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Everything u need to know about Varus - League of Legends", "url": "https://www.youtube.com/watch?v=TA84DhHms64", "type": "video", "date": "2026-02-06", "author": "Varry" },
+    { "title": "PRO GUIDE VARUS – Rank 1 EUW | Tout pour Carry (Build, Combos & Matchups)", "url": "https://www.youtube.com/watch?v=jI3iwZIdLaI", "type": "video", "date": "2026-07-07", "author": "Booshi" }
+  ]
+}

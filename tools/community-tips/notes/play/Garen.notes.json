@@ -1,0 +1,43 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Garen empowers his next basic attack within 4.5 seconds to have an uncancellable windup, lunge at the target, deal bonus physical damage, and silence them for 1.5 seconds.",
+    "Decisive Strike resets Garen's basic attack timer.",
+    "Garen cleanses himself of all slows and gains 35% bonus movement speed for a duration.",
+    "The enhanced attack will still complete and hit the target even if they become untargetable during the attack windup.",
+    "Decisive Strike will not prevent the reapplication of slows (e.g. the persistent slow from Pillar of Ice will be immediately reapplied after removal if Garen is still within its area of effect).",
+    "Decisive Strike's lunge can pass very thin terrain and will otherwise not be able to. In any case, Garen will still hit his target.",
+    "Perseverance is lost for 8 seconds if Garen takes damage from champions, epic monsters, or turrets, or if he is hit by an enemy ability or affected by an enemy summoner spell.",
+    "For the first 0.75 seconds, Garen additionally grants himself a shield and 60% tenacity.",
+    "becoming unable to declare basic attacks but gaining ghosting and dealing physical damage to nearby enemies periodically",
+    "Judgment can be recast after 1 second while active, and does so automatically after it ends.",
+    "Enemy champions hit 6 times by Judgment are inflicted with 25% armor reduction for 6 seconds",
+    "Judgment deals increased damage against the nearest enemy hit.",
+    "Judgment cancels Garen's last movement command upon ending.",
+    "dealing them true damage as well as revealing them for 1 second at the start of the cast time.",
+    "le que vous offre un reset d'autoattaque c'est-à-dire que dès l'instant où vous activez votre queue vous pourrez autoattaque un ennemi",
+    "astuce numéro 24 une manière de maximiser ses dégâts à la fin d'une action est de canceller le E juste après un tic de dégâts pour mettre une aut attaque instantanément après c'est quelque chose de très utilisé par les OTP Garen",
+    "le E de Garen peut se cancel qu'une seconde après avoir été activé en rappuyant sur la touche mais il est possible de le cancel plutôt en utilisant le r",
+    "c'est aussi ce qui rend le combo Cu flash de Garen si fort la CBE peut se faire one shot sans counterplay pendant le silence",
+    "il ne faut pas cliquer directement sur l'adversaire pour avancer sur lui mais avancer subtilement vers lui et flash queue au même moment dès que l'adversaire est en range",
+    "le passif de Garen n'est pas cancel par les mobs de la jungle sauf le dragon le baron l'érald et les void grubs",
+    "le queue de Garen fait un micro dash vers sa cible ce dash peut faire traverser de très légers murs comme celui de la cage de Yoric",
+    "il faut savoir que le cute Garen ne peut se faire cancel uniquement que par trois choses dans le jeu à savoir si Garen meurt sielle se fait polymorphe ou s'il se prend un e de Queen",
+    "For combos, your basic combo is to attack with Q, then spin and set fire. When the rotation ends, make a daring extra attack with your ultimate.",
+    "And Garen's classic combo is Q, then click on the opponent and flash at them. Use E and set fire before attacking with your ultimate.",
+    "six hit attempts lose a significant portion of their armor, and this ability always deals increased damage to the nearest enemy it spins on."
+  ],
+  "rejected": [
+    { "idea": "Demacian Justice (R) cancels Judgment (E) before the 1 s recast window (Yshuro13)", "reason": "Single source, not on the wiki." },
+    { "idea": "Decisive Strike (Q) and Demacian Justice (R) are flashable: Flash out right after casting (Yshuro13)", "reason": "Single source, not on the wiki." },
+    { "idea": "Decisive Strike (Q) during Judgment (E) for movement speed (Yshuro13)", "reason": "Single source." },
+    { "idea": "Decisive Strike windup only cancelled by death, polymorph or Qiyana's E; silence lands through a Riven Q3 (Yshuro13)", "reason": "Qiyana exception and Riven timing not on the wiki; kept only the wiki-confirmed uncancellable windup." },
+    { "idea": "Demacian Justice cancel conditions (blind from Graves smoke, target out of range) (Yshuro13)", "reason": "Single source." },
+    { "idea": "GUIDE GAREN SAISON 16 (EXYT)", "reason": "Opened; commentary over gameplay, no usable combo or mechanic." }
+  ],
+  "toVerifyInGame": [
+    "Judgment (E) recast right after a damage tick: whether the follow-up auto comes out instantly.",
+    "Which walls other than Yorick's cage the Decisive Strike (Q) lunge can cross."
+  ]
+}

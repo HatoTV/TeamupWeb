@@ -1,0 +1,36 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "If the lance connects with a deployed Demacian Standard, Jarvan IV dashes to its location, knocking up nearby enemies around him and along his path for 0.75 seconds.",
+    "Jarvan IV can cast any of his abilities during the dash.",
+    "Dragon Strike will still pull Jarvan IV to Demacian Standard even if he is immobilized or grounded.",
+    "Casting Flash right before the dash begins will cause Jarvan IV to be pulled to the flag from the new position.",
+    "If Dragon Strike hits multiple Demacian Standard in the range, it will pull Jarvan IV to the one furthest from his position.",
+    "the aura from multiple Demacian Standards does not stack.",
+    "Jarvan IV's basic attacks are empowered to deal bonus physical damage equal to 8% of the target's current health",
+    "This effect cannot occur on the same target more than once every few seconds.",
+    "Martial Cadence's damage is based on the current health of the target before any damage of the attack has been dealt.",
+    "Golden Aegis deals no damage and thus does not trigger turret aggro",
+    "Demacian Standard can be targeted by allied abilities (Safeguard). The target type is the same as a minion.",
+    "Spell shield will block the damage but not the terrain generation.",
+    "Cataclysm can be recast after 0.75 seconds while the terrain is present.",
+    "Cataclysm will not deal damage, generate terrain, nor refund its cooldown if Jarvan IV is killed while leaping.",
+    "Pour les combos, lors d'un gank, si possible, approchez-vous de votre adversaire et utilisez la touche W pour enchaîner avec une attaque. Enchaînez avec votre combo drapeau et glissement",
+    "Et si vous avez besoin de garantir votre prise, utilisez votre ultime suivi d'une attaque et W. Attaquez votre drapeau et effectuez un combo de traînée avant d'attaquer à nouveau.",
+    "Si le Q de J4 touche le drapeau, il se traîne jusqu'à celui-ci, projetant en l'air les ennemis qui se trouvent entre lui et le drapeau.",
+    "La combinaison la plus courante, vous le savez sans doute tous, est la combinaison EQ. En gros, si vous combinez votre drapeau et votre lance, vous obtenez une ruée qui projette en l'air les cibles situées entre elles.",
+    "Maintenant, si je le fais de plus loin et que je fais un flash EQ, il n'a aucune chance de réagir.",
+    "si vous voulez juste le contrôler, c'est utiliser votre ultime puis votre combo EQ"
+  ],
+  "rejected": [
+    { "idea": "EQ-Flash deals no damage, Flash-EQ keeps the damage (hybradge)", "reason": "Single source; the wiki only describes the Flash pull, not a damage loss." },
+    { "idea": "Cancel the EQ animation for max damage without the knock-up (hybradge)", "reason": "Unclear in the transcript, single source." },
+    { "idea": "Drop the flag near a sure kill to get the assist (hybradge)", "reason": "Generic macro advice, not a mechanic." },
+    { "idea": "JOUER JARVAN IV COMME UN PRO (Sixen)", "reason": "Opened; stream commentary, no usable combo or mechanic." }
+  ],
+  "toVerifyInGame": [
+    "Flash timing in E-Q-Flash: the window right before the dash starts is tight.",
+    "Golden Aegis (W) under an enemy turret: confirm no aggro in current patch."
+  ]
+}

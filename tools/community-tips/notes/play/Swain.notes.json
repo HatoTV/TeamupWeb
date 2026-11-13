@@ -1,0 +1,41 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "At maximum range, the wave homes back to Swain and detonates upon the first enemy hit, dealing magic damage to nearby enemies and rooting them for 1.5 seconds, during which they are revealed. Nevermove can be recast while champions hit are rooted.",
+    "Swain pulls the rooted champions over 290 units and collects a Soul Fragment from each of them, revealing himself for 5 seconds. If the targets would be pulled past Swain, they rebound off of him instead, knocking them back the excess distance.",
+    "Nevermove's recast can be used during the cast time of other spells.",
+    "Spell shield will block either the detonation on the first cast or the pull from the recast.",
+    "If the recast is blocked, the target will also prevent a Soul Fragment being collected from them.",
+    "If the root is not applied to, removed or its targets blink or dash, the recast becomes unavailable.",
+    "Swain summons a demonic eye at the target location that grants sight of the area for 2 seconds and explodes after 1.5 seconds",
+    "Enemy champions hit are also revealed for 6 seconds and have a Soul Fragment collected from them.",
+    "Vision of Empire is visible and audible to enemies through the fog of war.",
+    "After 2 seconds, Swain gains the ability to cast Demonflare, up to 100 times, and does so automatically when Demonic Ascension expires if Demonflare is not on cooldown at the time of expiration.",
+    "Swain can move during Demonflare's cast time.",
+    "Demonflare passes through champions. Effects like Wind Wall and Unbreakable will block the portion of the nova they intercept.",
+    "Demonflare will fire from wherever Swain is at the end of the cast time.",
+    "Enemy champions that die will leave behind a Soul Fragment for 16 seconds.",
+    "Dropped Soul Fragments can be collected after a 1-second delay.",
+    "The ravens will only be seen by enemies if they have sight of Swain.",
+    "For combos, start with E into W. Attack into reactivating E and Q before attacking away. And your all-ins should start with E into your ultimate and W.",
+    "enemy champions that die will leave behind one of these soul fragments",
+    "Main trade combo, E into W into E into Q. This is Swain's bread and butter trade and you'll use it all game. Once E lands, drop W in front of the enemy, then recast E to pull them toward the center so they can't escape. Finish with Q for maximum damage.",
+    "Full ultimate combo, E into W into R into E into Q into R. This is Swain's main all-in combo once you hit level six.",
+    "Redirect catch, E into flash into W into E into Q. You can cast E, then flash mid-flight to redirect it and catch enemies who think they've dodged.",
+    "If they're already on top of you when you recast it, it actually pushes them away, which can help create space against melee champs.",
+    "The vision on W makes it great for checking brushes, objectives, and even spotting the enemy jungler across the map.",
+    "Holding demon flare until enemies try to escape lets you slow them and keep them inside your ultimate longer.",
+    "Donc là s'il se met là, malheureusement le sort va revenir ici. Donc il va flash là pour qu'il revienne là et qu'il puisse choper la la Sona."
+  ],
+  "rejected": [
+    { "idea": "La traction de Capture (E) fait traverser les murs fins", "reason": "Une seule source (Zoose), rien dans le wiki : franchissement de mur non confirmé." },
+    { "idea": "Préparer Poigne mortifère (A) puis Flash pour des dégâts instantanés", "reason": "Interaction avec Flash citée par une seule source, non confirmée par le wiki." },
+    { "idea": "Flash puis Éruption démoniaque (R) sur un groupe", "reason": "Une seule source joueur (Zoose) ; combo écarté par prudence." },
+    { "idea": "Le drain d'Incarnation démoniaque (R) continue sous contrôle ou sous Sablier de Zhonya", "reason": "Une seule source, non confirmé par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte pour Flash pendant le retour de Capture (E) et redirection effective de la vague.",
+    "Distance à partir de laquelle la réactivation de Capture (E) repousse au lieu de tirer."
+  ]
+}

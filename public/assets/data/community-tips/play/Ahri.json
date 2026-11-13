@@ -1,0 +1,206 @@
+{
+  "champion": "Ahri",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Charme, Orbe, Lucioles",
+        "en": "Charm, Orb, Fox-Fire"
+      },
+      "keys": [
+        "E",
+        "Q",
+        "W"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche ton Charme (E) d'abord, puis lance l'Orbe d'illusion (A) sans attendre : la cible marche vers toi et prend l'aller comme le retour. Finis avec Lucioles (Z), qui visent en priorité le champion charmé.",
+        "en": "Land Charm (E) first, then cast Orb of Deception (Q) right away: the target walks into you and takes both passes. Finish with Fox-Fire (W), which prioritizes the charmed champion."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Charme Flash",
+        "en": "Charm Flash"
+      },
+      "keys": [
+        "E",
+        "F"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Charme (E) et enchaîne Flash aussitôt pour combler la distance. Idéal pour forcer un pick sur une cible qui se croit hors de portée.",
+        "en": "Cast Charm (E) and Flash right after it to close the gap. Great to force a pick on a target that thinks it is out of range."
+      },
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Dash, auto, Lucioles, Orbe, dash",
+        "en": "Dash, auto, Fox-Fire, Orb, dash"
+      },
+      "keys": [
+        "R",
+        "W",
+        "Q",
+        "R"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Assaut spirituel (R) au contact, une auto, puis Lucioles (Z) et Orbe d'illusion (A). Relance Assaut spirituel (R) pour que l'Orbe, qui revient toujours vers toi, retraverse la cible au retour.",
+        "en": "Spirit Rush (R) into melee range, one auto, then Fox-Fire (W) and Orb of Deception (Q). Recast Spirit Rush (R) so the Orb, which always flies back to you, crosses the target again on its return."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Orbe puis Flash",
+        "en": "Orb then Flash"
+      },
+      "keys": [
+        "Q",
+        "F"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "medium",
+      "desc": {
+        "fr": "Lance l'Orbe d'illusion (A), puis Flash : le retour suit ta nouvelle position. Tu redresses ainsi la trajectoire pour finir une cible basse qui croyait avoir esquivé.",
+        "en": "Cast Orb of Deception (Q), then Flash: the return follows your new position. This bends its path to finish a low target that thought it had dodged."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le retour de l'Orbe d'illusion (A) inflige des dégâts bruts : c'est la moitié à ne pas rater. Place-toi pour que son trajet de retour repasse sur ta cible.",
+        "en": "The return of Orb of Deception (Q) deals true damage: it is the half you must not miss. Position so its way back crosses your target."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Une cible pile au bout de l'Orbe d'illusion (A) peut prendre l'aller et le retour presque d'affilée : le point de demi-tour touche aussi dans un petit cercle.",
+        "en": "A target right at the tip of Orb of Deception (Q) can take both passes almost back to back: the turnaround point also hits in a small circle."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les Lucioles (Z) visent d'abord un champion charmé, puis les autres champions, puis les sbires qu'elles achèvent. Charme ta cible avant de les lancer pour concentrer les flammes.",
+        "en": "Fox-Fire (W) aims first at a charmed champion, then at other champions, then at minions it would kill. Charm your target before casting it to focus the flames."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux lancer Lucioles (Z) pendant le dash d'Assaut spirituel (R) : tu ne perds aucun temps entre les deux sorts.",
+        "en": "You can cast Fox-Fire (W) during the Spirit Rush (R) dash, so you lose no time between both spells."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Charme (E) ralentit même une cible normalement immunisée aux ralentissements.",
+        "en": "Charm (E) slows even a target that is normally immune to slows."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un takedown sur un champion touché dans les 3 dernières secondes, pendant Assaut spirituel (R), te rend une relance (3 max en stock) et prolonge la fenêtre de relance.",
+        "en": "A takedown on a champion you hit in the last 3 seconds, while Spirit Rush (R) is active, gives you a recast (3 stored max) and extends the recast window."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si tu meurs, l'Orbe d'illusion (A) déjà lancé continue et revient infliger ses dégâts. Les Lucioles (Z) pas encore parties, elles, disparaissent.",
+        "en": "If you die, an Orb of Deception (Q) already in flight keeps going and still deals its return damage. Fox-Fire (W) flames not yet launched vanish."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si tu dashes dans le brouillard de guerre, les projectiles d'Assaut spirituel (R) peuvent ne toucher personne : la vision arrive avec un léger retard.",
+        "en": "If you dash into the fog of war, Spirit Rush (R) bolts may hit no one: vision comes with a slight delay."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ahri – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Ahri",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Everyone Plays Ahri — Almost Nobody Plays Her Correctly",
+      "url": "https://www.youtube.com/watch?v=4OP-x3QZnZk",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "Zoose"
+    },
+    {
+      "title": "How to Climb With AHRI Guide - S16 League of Legends",
+      "url": "https://www.youtube.com/watch?v=BnwE5CD1-qA",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "Coach Mysterias"
+    }
+  ]
+}

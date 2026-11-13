@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Master Yi vanish [vanishes] and becomes lockout [unable to act].",
+    "If there are no other un-marked targets before then, Master Yi can mark the same enemies again. During Alpha Strike, Master Yi can select a direction from the primary target.",
+    "Basic attacks on-hit reduce Alpha Strike's current cooldown by 1 second.",
+    "Wuju Style and Highlander can be cast during Alpha Strike. Each time Alpha Strike hits a target, the current durations of Wuju Style and Highlander are refreshed.",
+    "Alpha Strike's cooldown reduction applies on turret [structures].",
+    "The choice of exit direction occurs through an indicator anchored to the target during the time that Master Yi is vanished. You are unable to choose the exit direction after the third mark.",
+    "Multiple commands can be issued, but only the final command before exiting will determine the direction.",
+    "While channeling, Master Yi gains 70% damage reduction for the first 0.5 seconds, which is then modified to a reduced amount for the remaining duration of the channel.",
+    "Meditate basic attack reset [resets] Master Yi's basic attack timer, pauses Wuju Style and Highlander duration, and grants one stack of Double Strike per second during the channel.",
+    "Master Yi empowers his basic attacks within the next 5 seconds to deal bonus true damage on-hit.",
+    "Passive: Scoring a champion takedown reduces the current cooldowns of Master Yi's basic abilities by 70%.",
+    "While active, scoring a champion takedown extends Highlander's duration by 7 seconds.",
+    "for maximum Q damage, you want your target to be isolated to ensure your Q hits the same target four times.",
+    "Firstly, your Q helps to gap close. Most of the time, the trade-off for using Q as gap close is the second thing your Q does, which is to dodge enemy abilities.",
+    "you can use your Q on secondary targets like minions to kite out the enemy. Here I use Q to dodge Lu's polymorph while kiting away from Camille.",
+    "So, if you want to reduce the damage taken, only channel W right before you take damage like this.",
+    "Last tip, your W also stacks your double strike passive. You can channel your W while in a bush to regen HP while stacking your double strike passive to increase your damage.",
+    "Master Yi's first combo is going to be the auto attack W auto attack. And this is just his basic auto attack reset.",
+    "Next, we have the buffered Q into a flash, which you'll want to use when the enemy is out of range and you want to instantly cast your Q after that flash is completed.",
+    "you use it for an auto attack reset after you activate your E ability. Because your E ability grants bonus true damage on your auto attacks, the purpose of using your auto attack reset is to do more basic attacks in a shorter period of time.",
+    "basic attacks will reduce the cooldown remaining.",
+    "For combos, your basic go-to is to use E and attack away. Use W for an auto attack reset or to tank damage and use Q to chase your opponent down.",
+    "And your all-in engage is to ultimate into E and Q. Click in the direction you want to come out and then attack away using W to tank damage or an auto attack reset while attacking even more.",
+    "Yi is amazing into champions that don't bring hard lockdown or have an ability can easily dodge with his Q.",
+    "Focus on getting that first kill to extend your alt and reset your abilities."
+  ],
+  "rejected": [
+    { "idea": "Flash puis Assaut éclair bufferisé pour l'instantané (Retz13)", "reason": "Une seule source et le wiki ne décrit pas ce buffer." },
+    { "idea": "Combo E, Z reset pour déclencher une rune en early (Sinerias)", "reason": "Repose sur une rune : hors périmètre." },
+    { "idea": "Assaut éclair pour scouter un camp ou un champion (facerman)", "reason": "Une seule source ; le wiki confirme la vision mais l'usage reste un conseil de jungle général." }
+  ],
+  "toVerifyInGame": [
+    "Relance de Style Wuju et Highlander à chaque coup d'Assaut éclair : vérifier la durée réellement gagnée sur une cible isolée.",
+    "Couper Méditation tout de suite après le reset : le premier tick de soin n'est pas garanti (note wiki)."
+  ]
+}

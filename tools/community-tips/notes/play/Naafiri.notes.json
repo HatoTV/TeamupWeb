@@ -1,0 +1,34 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Hitting champions or large monsters with abilities reduces the cooldown by 4 seconds. Killing enemies reduces it by 1 second.",
+    "Only the initial hit of Darkin Daggers counts for reducing We Are More's cooldown; the damage over time will not trigger the cooldown reduction.",
+    "Both hits of Eviscerate will trigger the cooldown reduction.",
+    "Darkin Daggers can be recast after 0.5 seconds and within 4 seconds at no additional cost.",
+    "If the dagger hits a target that is already bleeding, they are instead dealt the remaining bleed damage plus additional bonus physical damage, increased by missing health. If that target is also a champion or large monster, Naafiri heals herself.",
+    "Naafiri goes on the hunt for the next 5 seconds, becoming untargetable and ghosted for the first 1 second.",
+    "Casting Hounds' Pursuit extends The Call of the Pack's hunt duration by 1.75 seconds, up to its original duration.",
+    "If Naafiri scores a champion takedown within 7 seconds of cast, she triggers a pulse ... She can also recast Hounds' Pursuit once from triggering this effect within 12 seconds at no cost.",
+    "Recast: Naafiri immediately grants herself a shield for 3 seconds before mimicking the first cast's effects.",
+    "Hound's Pursuit's cast and dash do not break stealth.",
+    "Spell shield will block Naafiri's collision damage but cannot prevent collision damage from Packmates.",
+    "For combos: To initiate, start with W, then Q and E. Attack before the second Q before moving away. And for a full lunge, use W, then Q and the ultimate. Instantly E, then Q, before moving away.",
+    "Use W to avoid an enemy's key abilities while getting close to them. But remember, your W resets the turret's focus on you.",
+    "She can use this ability again within the next 4 seconds, and if it hits a target that is already bleeding, it absorbs all the bleeding and deals additional damage.",
+    "If she scores a kill within 7 seconds, this ability resets and she gains a large shield when used again.",
+    "This is the Q R Q. But, this can change because this is something that I would do if, you know, I could just one shot the enemy right away, right? So, you land the Q here. You can save the E to chase after the enemy.",
+    "if you're just trying to full combo to do maximum DPS, right? It would look something like this. W into Q into E.",
+    "So, most people know that if you W it resets the turret aggro.",
+    "If Neeko Fury scores a takedown within 7 seconds, she reveals enemy champions and can recast this ability once."
+  ],
+  "rejected": [
+    { "idea": "Dagues des Darkin (A) puis Flash pour allonger la portée, Flash puis Éviscération (E) mais pas l'inverse (Raveydemon)", "reason": "Une seule source, non confirmé par le wiki." },
+    { "idea": "Combo avec l'objet qui slow à 99 % sur auto, enchaîné au slow de Hallali (R) (Raveydemon)", "reason": "Dépend d'un objet, une seule source." },
+    { "idea": "Vidéos d'avant le rework (KingKongLoL 2023, etc.)", "reason": "Z et R ont été échangés au rework : non utilisées." }
+  ],
+  "toVerifyInGame": [
+    "Appel de la meute (Z) après un kill sous tour : la tourelle change bien de cible.",
+    "Hallali (R) lancé depuis un camouflage ne te révèle pas."
+  ]
+}

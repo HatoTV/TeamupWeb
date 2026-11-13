@@ -1,0 +1,99 @@
+{
+  "champion": "MasterYi",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, Méditation, auto", "en": "Auto, Meditate, auto" },
+      "keys": ["E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Style Wuju (E), place une auto puis tape Méditation (Z) juste après : elle remet ton auto à zéro. Coupe-la aussitôt pour caser plus d'autos boostées dans les 5 s du E.",
+        "en": "Activate Wuju Style (E), land an auto then tap Meditate (W) right after: it resets your auto. Cancel it at once to fit more empowered autos into the E's 5 s."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Engage Highlander, Style Wuju, Assaut", "en": "Highlander, Wuju Style, Alpha Strike engage" },
+      "keys": ["R", "E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Highlander (R), Style Wuju (E), puis Assaut éclair (A) en cliquant le côté où tu veux réapparaître. Enchaîne les autos et garde Méditation (Z) pour un reset ou pour encaisser.",
+        "en": "Highlander (R), Wuju Style (E), then Alpha Strike (Q) while clicking the side you want to reappear on. Chain autos and keep Meditate (W) for a reset or to soak damage."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant Assaut éclair (A), tu disparais : garde-le pour esquiver un stun, un hook ou un ult plutôt que pour coller la cible. Tu peux même le lancer sur un sbire pour fuir.",
+        "en": "During Alpha Strike (Q) you vanish: save it to dodge a stun, a hook or an ult rather than to close the gap. You can even cast it on a minion to escape."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Assaut éclair (A), clique d'un côté de la cible pour choisir où tu réapparais. Seul le dernier clic compte, et plus rien ne change après la 3e marque.",
+        "en": "During Alpha Strike (Q), click a side of the target to choose where you reappear. Only the last click counts, and nothing changes after the third mark."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Sans autre cible autour, Assaut éclair (A) marque la même cible plusieurs fois. Lance-le sur un ennemi isolé, loin de la wave, pour qu'il prenne tous les coups.",
+        "en": "With no other target around, Alpha Strike (Q) marks the same target several times. Cast it on an isolated enemy, away from the wave, so they take every hit."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Style Wuju (E) et Highlander (R) se lancent pendant Assaut éclair (A), et chaque coup du A relance leur durée. Active-les pendant le A pour ne rien gaspiller.",
+        "en": "Wuju Style (E) and Highlander (R) can be cast during Alpha Strike (Q), and each Q hit refreshes their duration. Activate them during the Q to waste nothing."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque auto qui touche retire 1 s au CD d'Assaut éclair (A), tours comprises. Tape la tour ou un camp pour le récupérer plus vite.",
+        "en": "Each auto that lands cuts 1 s from Alpha Strike's (Q) cooldown, turrets included. Hit the turret or a camp to get it back faster."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Méditation (Z) donne une charge de Coup double par seconde et met en pause Style Wuju (E) et Highlander (R). Médite dans un buisson pour arriver avec ton Coup double prêt.",
+        "en": "Meditate (W) grants one Double Strike stack per second and pauses Wuju Style (E) and Highlander (R). Meditate in a brush to arrive with Double Strike ready."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Méditation (Z) réduit les dégâts de 70 % pendant sa première demi-seconde, puis beaucoup moins. Lance-la juste avant un burst, pas en avance.",
+        "en": "Meditate (W) reduces damage by 70% for its first half second, then much less. Cast it right before a burst, not early."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un kill ou une assistance sur un champion retire 70 % du CD restant de tes sorts de base, et Highlander (R) actif gagne 7 s : enchaîne les fights après le premier kill.",
+        "en": "A champion takedown cuts 70% of your basic spells' remaining cooldowns, and an active Highlander (R) gains 7 s: chain fights after the first kill."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Master Yi – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Master_Yi", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Master Yi Guide: League of Legends Advanced Tips & Tricks", "url": "https://www.youtube.com/watch?v=ASzwrrrDhZo", "type": "video", "date": "2026-02-22", "author": "facerman" },
+    { "title": "MASTER YI - Ability & Combo Guide | League of Legends", "url": "https://www.youtube.com/watch?v=Gk9rU81E9gU", "type": "video", "date": "2025-04-03", "author": "Retz13" },
+    { "title": "3 Minute Master Yi Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=d3miLrI8SdQ", "type": "video", "date": "2025-09-26", "author": "3 Minute League of Legends" }
+  ]
+}

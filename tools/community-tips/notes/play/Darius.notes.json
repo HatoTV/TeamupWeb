@@ -1,0 +1,51 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Crippling Strike basic attack resets Darius' basic attack timer.",
+    "The attack's animation can be cancelled by casting Decimate, but the attack will still land.",
+    "When Darius kills a champion with Noxian Guillotine, or applies 5 stacks on an enemy champion, he becomes empowered with Noxian Might for 5 seconds.",
+    "Noxian Might: Darius gains bonus attack damage and instantly applies 5 Hemorrhage stacks through his usual means.",
+    "Enemies within the inner radius take 35% damage.",
+    "Enemies hit by the inner radius do not refresh the duration of or gain a stack of Hemorrhage.",
+    "Darius becomes ghosted for 1 second and hefts his axe for 0.75 seconds, afterward swinging it around himself",
+    "Darius can move during Decimate, but is unable to declare basic attacks or cast Apprehend or Noxian Guillotine.",
+    "Darius is unable to move or cast Decimate or Noxian Guillotine for 0.4 seconds after Apprehend's cast time.",
+    "This leap can pass very thin terrain and will otherwise not be able to. In any case, Darius will still hit the target.",
+    "He can also recast the ability within 20 seconds at no cost, which refreshes on further successful executions.",
+    "At rank 3, Noxian Guillotine has no mana cost and recast timer.",
+    "If this attack kills the target, half of Crippling Strike's cooldown is reduced and its mana cost is refunded.",
+    "Spell shields will negate all effects of Crippling Strike, including the damage of the basic attack itself.",
+    "Now what you need to understand is that W is an auto- reset attack ability.",
+    "The next module or technique we will look at is the WQ animation cancellation.",
+    "If you use WQ normally without this cancellation, it looks like this. That's it. But if you do it with cancellation, it's much faster.",
+    "You might think you need to flash first and then Q, but the correct way to do it is Q first and then flash. You basically want to do a flash just as Darius is about to hit with his Q.",
+    "If you use a flash, yeah, and then a Q, it's essentially giving him more time to react to your Q.",
+    "So what you do is first press the ult and then flash. Thus, Darius will launch his ultimate as soon as he himself comes within range.",
+    "So EQ, wait, and once Q starts winding up, then you move to aim.",
+    "A player with a higher ELO will always want to be in your inner Q zone.",
+    "Enemies hit by the outer edge are dealt more damage and applied a stack of bleed. Where enemies hit by the inner part take less damage and don't get a stack of his passive.",
+    "While empowered, he gains an insane amount of attack damage and instantly applies five bleed stacks to anyone he attacks.",
+    "For combos, start with an auto attack into W and then your Q. Follow up with an attack into E before attacking into your alt.",
+    "And if you start with E, auto attack into W. Follow up with Q into two attacks into your alt.",
+    "If this kills the target, half the cool down is refunded and the mana cost.",
+    "If this kills the target, Darius fears nearby minions and monsters and also we can recast the ability within the next 20 seconds.",
+    "il faut savoir que ton Z va pouvoir se camoufler en lançant ton A pendant l’animation de l’auto-attaque.",
+    "Le premier sera sur ton A, l’idée étant de commencer la canalisation du sort avant de flash pour avoir un meilleur effet de surprise.",
+    "L’intérêt de R avant de flash te permettra de mettre ton R en mémoire tampon, ce qu’on appelle aussi buffer en anglais, et ton sort se fera dès que tu arrives dans la zone pour le faire.",
+    "même si l’adversaire flash out ou utilise un dash pour s’escape, il prendra quand",
+    "Pour améliorer un peu ça, tu pourras ajouter ton E au début de ce combo pour faire E auto Z A",
+    "le R peut te permettre de traverser des murs avec Darius, mais il faut que ta cible soit pas collé au mur sinon tu passeras pas."
+  ],
+  "rejected": [
+    { "idea": "W then Flash mid-animation to slow and escape (RhokuTV)", "reason": "Single source, not confirmed by the wiki or another author." },
+    { "idea": "Apprehend (E) cancels enemy dashes (Chamallow San)", "reason": "Generic airborne behavior, single Darius source; not stated in the wiki notes." },
+    { "idea": "Crippling Strike's +25 range lets you auto through a thin wall (Chamallow San)", "reason": "Single source, not in the wiki notes." },
+    { "idea": "Fake Q then Flash to the side to catch an enemy flashing into the inner circle (RhokuTV)", "reason": "Mind game from a single source, not a verifiable mechanic." }
+  ],
+  "toVerifyInGame": [
+    "Exact Flash timing at the end of the 0.75 s Decimate (Q) windup.",
+    "Noxian Guillotine (R) buffered before Flash: confirm it fires on arrival in range at 16.22.",
+    "Which walls count as 'very thin terrain' for the Noxian Guillotine (R) leap."
+  ]
+}

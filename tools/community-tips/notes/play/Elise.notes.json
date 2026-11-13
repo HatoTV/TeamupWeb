@@ -1,0 +1,35 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Elise fires a toxin at the target enemy that deals magic damage, with the damage based on the target's health ratio being capped against monsters.",
+    "Magic Damage [40 to 160 (+ 4% (+ 3% per 100 AP) of target's current health)]",
+    "Magic Damage [50 to 170 (+ 8% (+ 3% per 100 AP) of target's missing health)]",
+    "If Elise is allowed to dash, Venomous Bite can be used to cross sufficiently thin terrain.",
+    "Elise will not dash if the target is within basic attack range.",
+    "Spiderlings can cross walls and terrain to reach Venomous Bite's target and will attack provided Elise stays within their leash range.",
+    "Skittering Frenzy resets Elise's basic attack timer.",
+    "Elise and her Spiderlings lift up into the air over 0.6 seconds, immediately becoming untargetable and unable to act, and afterwards vanishing for up to 1.95 seconds and granting sight of the surrounding 900 units for the duration.",
+    "If the recast was used on a target enemy, Elise and her Spiderlings descend behind the target's location.",
+    "Rappel's recast can be used while affected by cast-inhibiting crowd control.",
+    "Rappel can be cast on any targetable enemy unit (champions, minions, monsters, wards, traps, and jungle plants) except structures.",
+    "Cocoon deals no damage and thus does not trigger turret aggro, or effects such as Elixir of Sorcery and activation.",
+    "If Spider Form is cast during a basic attack windup, Elise will perform a Spider Form basic attack that benefits from the bonus damage and healing from Spider Queen, but remain at Human Form basic attack range, despite not using a projectile.",
+    "In human form, her Q is a point-and-click ability which deals damage to the target based on their current health. In spider form, her Q is a point-and-click ability which dashes her to the target, dealing damage to them, scaling with their missing health.",
+    "For combos, start in human form into E, W, and Q. R into a spider into your Q to gap close. From here, attack into your W, auto attack reset, attacking away using E to chase down",
+    "E onto your opponent into an attack, auto attack reset with W and use Q to execute.",
+    "your human form Q does current Max Health damage this just means that you ideally want to use it first before all your other damage so you just stun someone qw them then turn into your spider form now this version of your Q does more damage based on your",
+    "you can also do the opposite and instead wait for powerful Buffs to fade from your opponents before coming down as well",
+    "you don't actually need vision of a Target to jump to them in the air Elise will gain vision of everything she can jump to in her repel this means that in Jungle skirmishes you can often use the camps around you to either Chase your opponents or to kite around as well"
+  ],
+  "rejected": [
+    { "idea": "Suspension (E) juste avant le tir de tourelle pour perdre l'aggro", "reason": "Une seule source (Skill Capped 2023), non précisé par le wiki." },
+    { "idea": "Les araignées bloquent les skillshots", "reason": "Une seule source (Skill Capped), pas de note wiki." },
+    { "idea": "Passer en humaine 4-5 s avant un combat (délai de changement de forme)", "reason": "Le CD de Forme arachnéenne est de 3 s au patch 16.22 ; le « long délai » n'est pas confirmé." },
+    { "idea": "Vidéo Kireilol « How to Play ELISE JUNGLE »", "reason": "Ouverte, mais gameplay commenté sans explication de combo exploitable." }
+  ],
+  "toVerifyInGame": [
+    "Épaisseur de mur franchissable avec Morsure venimeuse (A).",
+    "Forme arachnéenne (R) pendant l'armement d'une auto humaine : l'auto garde la portée humaine avec les bonus araignée."
+  ]
+}

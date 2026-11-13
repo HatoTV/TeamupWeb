@@ -1,0 +1,110 @@
+{
+  "champion": "Jax",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Bond, auto, Élargissement", "en": "Leap, auto, Empower" },
+      "keys": ["Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Frappe bondissante (A), une auto, puis Élargissement (Z) qui reset ton auto. Plus de dégâts et un stack de passif en plus qu'avec Élargissement (Z) pendant le bond.",
+        "en": "Leap Strike (Q), one auto, then Empower (W), which resets your auto. More damage and one more passive stack than using Empower (W) during the leap."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Bond renforcé", "en": "Empowered leap" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Active Élargissement (Z) juste avant ou pendant Frappe bondissante (A) : ses dégâts bonus passent sur le bond. Garde-le pour une cible qui va Flash, car tu touches avant qu'elle parte.",
+        "en": "Activate Empower (W) right before or during Leap Strike (Q): its bonus damage goes onto the leap. Keep it for a target about to Flash, since you hit before they leave."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Engage avec stun", "en": "Stun engage" },
+      "keys": ["E", "Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Active Contre-attaque (E), saute sur la cible avec Frappe bondissante (A), puis relance Contre-attaque (E) pour l'étourdir avant d'enchaîner les autos.",
+        "en": "Activate Counter Strike (E), jump on the target with Leap Strike (Q), then recast Counter Strike (E) to stun them before chaining autos."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Stun puis Maître d'armes", "en": "Stun into Grandmaster-at-Arms" },
+      "keys": ["E", "Q", "E", "R", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Contre-attaque (E), Frappe bondissante (A), relance Contre-attaque (E), puis Maître d'armes (R) sur les cibles étourdies et Élargissement (Z). Le stun et l'ult ont la même zone : personne ne sort avant l'impact.",
+        "en": "Counter Strike (E), Leap Strike (Q), recast Counter Strike (E), then Grandmaster-at-Arms (R) on the stunned targets and Empower (W). The stun and the ult share the same area: nobody escapes before impact."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "L'auto renforcée par Élargissement (Z) a un armement impossible à annuler : un stun ou une projection reçu à ce moment ne l'empêche pas de partir.",
+        "en": "The Empower (W) auto has an uncancellable windup: a stun or knock-up landing at that moment does not stop it."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Contre-attaque (E) esquive aussi les sorts qui appliquent les effets à l'impact, comme le Tir mystique d'Ezreal ou les Pourparlers de Gangplank, et chacun augmente les dégâts du stun. Les tirs de tourelle ne sont pas esquivés.",
+        "en": "Counter Strike (E) also dodges abilities that apply on-hit effects, like Ezreal's Mystic Shot or Gangplank's Parrrley, and each one raises the stun damage. Turret shots are not dodged."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux lancer tes autres sorts pendant le bond de Frappe bondissante (A) : relance Contre-attaque (E) en l'air pour étourdir dès l'atterrissage.",
+        "en": "You can cast your other spells during the Leap Strike (Q) jump: recast Counter Strike (E) mid-air to stun as soon as you land."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Frappe bondissante (A) se lance sur n'importe quelle unité, alliée ou ennemie, sauf les structures : saute sur un sbire allié ou une balise pour fuir.",
+        "en": "Leap Strike (Q) can target any unit, ally or enemy, except structures: jump to an allied minion or a ward to escape."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'attaque bonus de Maître d'armes (R) tombe toutes les 3 autos, et toutes les 2 pendant l'ult active. Tu peux bouger pendant l'incantation de l'ult.",
+        "en": "The Grandmaster-at-Arms (R) bonus attack lands every 3 autos, and every 2 while the ult is active. You can move during the ult's cast time."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque les dégâts de Frappe bondissante (A), même renforcée par Élargissement (Z).",
+        "en": "A spell shield blocks Leap Strike (Q) damage, even when empowered by Empower (W)."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Acharnement monte jusqu'à 8 stacks de vitesse d'attaque. Sans auto pendant 2,5 s, ils tombent un par un toutes les 0,25 s : une auto rapide suffit à les garder.",
+        "en": "Relentless Assault builds up to 8 attack speed stacks. After 2.5 s without an auto, they drop one by one every 0.25 s: a quick auto is enough to keep them."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Jax – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Jax", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "5 TIPS AVANCÉS SUR JAX !", "url": "https://www.youtube.com/watch?v=frrmQhmwaLQ", "type": "video", "date": "2025-12-25", "author": "Misanthiel - Coach Toplane" },
+    { "title": "3 Minute Jax Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=M-8rBiR-yiw", "type": "video", "date": "2025-10-24", "author": "3 Minute League of Legends" }
+  ]
+}

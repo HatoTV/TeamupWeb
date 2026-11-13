@@ -1,0 +1,48 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "ce qu'il faut faire quand vous allez ganker c'est extrêmement important c'est d'appuyer r avant de gank parce que le r dure 4 secondes",
+    "When approaching a fight, press R, then switch to E to close the gap.",
+    "Once you land the stun, instantly switch to Q. The number of attacks you chain together before activating your empowered Q depends entirely on the target.",
+    "Against assassins or other soft moving targets, just do one Q attack before using your empowered Q.",
+    "For strong creatures and tanks, you can weave two Q attacks before powering up the Q, as they are tankier and slower.",
+    "donc là tu as le premier combo c'est e auto doubleq instant autoattaque auto attaque",
+    "sur un T ce que tu vas vouloir faire c'est faire e auto auto douq",
+    "Another combo you use is when you are sitting in the bushes and an enemy comes towards you. But instead of starting with E, you'll start with Q, then an amplified Q",
+    "Once they react, you still have the stun from E to block them back.",
+    "So, if you W, double auto, plus double W after, you heal a huge amount of HP. Exactly. That's the combo",
+    "Recast - Awaken: Udyr increases the shield strength, stacking with the remaining shield from the first cast, and heals every seconds over the next seconds",
+    "Udyr's next two basic attacks on-hit in any Stance within 4 seconds are each empowered to strike with lightning",
+    "If you awaken your Q and then swap to a different stance before you get the two lightning attacks in, it won't matter",
+    "You don't need to stay locked in your Q stance. The lightning bolt from your empowered Q will remain for the next 4 seconds",
+    "switching from the awakened queue to another stance will remove the on-hit damage but not the lightning strike",
+    "chaining to up to 3 nearby visible enemies and being able to hit the same target multiple times",
+    "this lightning does not prioritize your first Target or Champions it will jump to anything else that is in range so isolating the enemy is very important",
+    "if there in a minion wave, you want to clear the minion wave first, ideally, so that the lightning doesn't bounce",
+    "He also gains immunity to crowd control for 1.5 seconds.",
+    "This means that if a Lux hits a binding on you and you're already rooted, you can't awaken E to get out of it.",
+    "This cannot affect the same target more than once every few seconds.",
+    "Udyr cannot dash while grounded or rooted, but he will still declare the empowered attack. The empowered attack will still apply its effects even if the dash is interrupted.",
+    "prioritizes following the last enemy Udyr attacked while it was active, then enemy champions, then non-champions, then Udyr",
+    "causes the empowered attacks to instead deal their damage to enemies within that storm",
+    "when you use your awakened R your storm will travel towards the enemy if you then use Auto attacks on minions while the enemy laners in your storm they will be hit by the shock wave",
+    "The storm will remain active even if Udyr dies.",
+    "The storm grants sight of its surroundings [Does not permeate through terrain or brush]",
+    "The empowered attacks will not trigger nor be consumed if they hit a structure or ward or are parried.",
+    "Awakened Spirit's cooldown is tracked on his health bar by an Awakening resource, visible to all teams.",
+    "The bar has a white color when Awakened Spirit is under 80% charge, a yellow color when at 80% charge or above, and a red color when an Awaken cast is available."
+  ],
+  "rejected": [
+    { "idea": "Flash puis réactivation de Tempête spirituelle (puis Sablier de Zhonya)", "reason": "Une seule source (Federals1), interaction avec Flash non confirmée par le wiki, et repose sur un objet." },
+    { "idea": "La réactivation de Piétinement flamboyant annule l'ult de Mordekaiser ou d'Urgot", "reason": "Une seule source (iReaz) ; le wiki parle seulement d'immunité aux CC, pas d'annulation de ces ults." },
+    { "idea": "Après un stun, traverser la cible en fantôme pour la bloquer avec ton corps", "reason": "Une seule source (A wild Udyr, 2023) ; le wiki confirme l'état fantôme mais pas le body block ni sa durée." },
+    { "idea": "Piétinement réactivé suit la cible qui Flash si tu as la vision ; la version simple non", "reason": "Une seule source (iReaz), non documenté par le wiki." },
+    { "idea": "Le stun de Piétinement laisse une marque sous le vrai Shaco", "reason": "Une seule source (iReaz)." },
+    { "idea": "Changer de posture n'est pas une réinitialisation d'auto (pause à éviter)", "reason": "Une seule source claire (A wild Udyr, 2023) ; iReaz l'évoque de façon confuse." }
+  ],
+  "toVerifyInGame": [
+    "Combien de temps exact le stun de Piétinement flamboyant ne peut pas retoucher la même cible (« quelques secondes » selon le wiki).",
+    "Tempête spirituelle réactivée : les autos sur sbires touchent bien le laner adverse pris dans la tempête, même loin d'Udyr."
+  ]
+}

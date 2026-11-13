@@ -1,0 +1,70 @@
+{
+  "searches": 3,
+  "pagesRead": 8,
+  "sourceSentences": [
+    "Blitzcrank fires their right hand in the target direction that catches the first enemy hit, dealing them magic damage, stunning them for 0.65 seconds, and pulling them towards Blitzcrank, during which they are revealed.",
+    "Blitzcrank is unable to move or attack while Rocket Grab is in flight and for 0.25 seconds after it hits an enemy.",
+    "Displacement immunity will not resist the application of the stun.",
+    "If this location would be inside static terrain, the target's destination will end up on Blitzcrank's side, even if that means pulling them right on top of Blitzcrank.",
+    "If Blitzcrank is being moved (e.g. Airborne, Kinematics or Fate's Call) during the grab, the target will be pulled towards Blitzcranks old location.",
+    "Blitzcrank shifts into overdrive, gaining bonus attack speed for 5 seconds and bonus movement speed that decays to 10% over the first 2.9 seconds.",
+    "When Overdrive ends, Blitzcrank is slowed by 30% for 1.5 seconds.",
+    "Blitzcrank empowers their next basic attack within 5 seconds to have an uncancellable windup, deal 100% AD (+ 25% AP) bonus physical damage and knock up the target for 1 second.",
+    "Power Fist resets Blitzcrank's basic attack timer.",
+    "While Static Field is not on cooldown, Blitzcrank's basic attacks apply a stack to the target on-hit. While the target is afflicted, one stack is consumed every 1 second to strike them with lightning, dealing magic damage each time.",
+    "Blitzcrank detonates a static field that destroys the damage-mitigating shields of all nearby enemies, excluding the shields of monsters, and then deals them magic damage and silences them for 0.5 seconds.",
+    "Even if Static Field is blocked by a spell shield, it will still destroy any existing damage shields on the target.",
+    "A unit that is silenced is unable to cast abilities, activate items or use the summoner spells Flash, Teleport, Hexflash, and Mark / Dash for the duration.",
+    "Ton E va booster ta prochaine autoattaque et va te permettre de bump l'adversaire. particularité, ça peut te servir comme reset autoattaque",
+    "la petite particularité c'est que ça va aussi briser les shields. Donc en fait c'est très intéressant comme des champions comme Karma, Lulu, Miliot, des champions qui ont chaîn, des champions qui ont des très gros shields",
+    "je vais surprendre l'adversaire, lui qui pensait qu'il y avait pas la range pour briller et directement un grap, un e, une ignite et un kiting",
+    "Ton Z est un boost d'attaque speed et de move speed qui va ensuite te ralentir au bout de 5 secondes d'utilisation",
+    "This bonus move speed slowly decays and after 5 seconds, Blitzcrank is slowed.",
+    "For combos, engage with W and use E to knock them up. From here, walk backwards and queue them into you before attacking into alt.",
+    "And if you start with Q to make sure your opponent can't flash away, when they arrive, immediately ultimate into E before attacking away.",
+    "One thing you should never forget about Blitzcrank is that your E is an automatic attack reset.",
+    "So use it as an auto-attack reset. It's that simple.",
+    "So, in the middle of a fight, if you don't need the silence or the immediate burst of your R, you actually do a lot more damage by simply auto-attacking a couple of times with your alt up and, you know, using your R at the end",
+    "You hook up and then you're on the hook. Okay, you're in the middle of the hook. And what it does is silence them so they can't send out their Jack signals, their flashes",
+    "particulièrement important pour Blitzcrank, car il n'a aucun moyen d'atteindre une cible sans utiliser son crochet ou flasher sur la cible",
+    "pour ce combo dont je viens de parler où vous voulez accrocher et Z et les projeter en l'air pendant qu'ils sont accrochés et étourdis par le crochet",
+    "That's the thing about Blitzcrank is that a lot of people he is a hook champ, but you can guarantee a lot of setup by just flashing on the enemy. Um especially if you have Nimbus, which just lets you walk up to hit."
+  ],
+  "rejected": [
+    {
+      "idea": "Le grappin passe par-dessus les murs (RaizinsLoL)",
+      "reason": "Une seule source joueur (vidéo de janvier 2023), aucune note du wiki sur le franchissement de terrain par le missile : règle « mur » non satisfaite."
+    },
+    {
+      "idea": "Après un grappin à portée max, cliquer en arrière (ou en avant) pour gérer la distance avec la cible (RaizinsLoL)",
+      "reason": "Une seule source ; le wiki fixe la destination de la cible au début du cast et bloque Blitzcrank 0,25 s après l'impact, le gain réel est incertain."
+    },
+    {
+      "idea": "Poing d'acier (E) non consommé contre une tourelle : bonus de dégâts répétés (note wiki)",
+      "reason": "Patch history du wiki (V26.08) : changement non documenté, « This may not be intended » ; risque de correctif, écarté."
+    },
+    {
+      "idea": "Viser les pieds de la cible pour le grappin, la hitbox de Karma étant décalée (EXYT)",
+      "reason": "Une seule source, conseil de visée général sans confirmation officielle."
+    },
+    {
+      "idea": "Astuce de ward pour l'invade niveau 1 et duel de hooks contre Thresh/Nautilus (EXYT, RaizinsLoL)",
+      "reason": "Macro / stratégie, hors périmètre combos et astuces mécaniques."
+    },
+    {
+      "idea": "La cible tuée par les dégâts du grappin n'est pas tirée ; 'lollipop' en bout de grappin sans son d'impact (notes wiki)",
+      "reason": "Vérifié mais trop anecdotique face aux 8 astuces retenues."
+    },
+    {
+      "idea": "Q → W → E pour enchaîner le knock-up pendant le stun grâce à la vitesse d'attaque (RaizinsLoL)",
+      "reason": "Vidéo antérieure au mini-rework V13.17 (Surcharge et vitesse d'attaque modifiées) ; gardé seulement sous forme Q → E."
+    }
+  ],
+  "toVerifyInGame": [
+    "Grappin dos à un mur : la cible atterrit de ton côté ou sur toi (le wiki précise que ça peut parfois échouer).",
+    "Grappin pendant un déplacement subi (ult de Kalista) : la cible est tirée vers ta position de départ.",
+    "Timing du Champ de stase (R) pendant la traction du grappin (cast time 0,25 s, stun 0,65 s) pour que le silence tombe avant le Flash adverse.",
+    "Immunité aux déplacements : la cible est stun mais pas tirée.",
+    "Combo Surcharge → Poing d'acier → recul → grappin : distance de recul utile pendant le knock-up d'une seconde."
+  ]
+}

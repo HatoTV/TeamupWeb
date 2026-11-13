@@ -1,0 +1,39 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "I would really recommend to trade with auto QE as it consumes a lot of mana and I'd rather resort to using Auto auto Q or Auto q auto",
+    "we're going to start with her simple trade, which is the auto attack reset, auto attack Q, and then you're going to do your enhanced auto attack that you get from your Q. And you're going to follow it up with your third auto attack to get your third stack of your W",
+    "Tumble resets Vayne's basic attack timer.",
+    "Auto attack Q, the enhanced auto attack will be next, and then you use your E instead of that third auto attack of the previous trait. Because that E still applies a stack of your W",
+    "Vayne's basic attacks on-hit and Condemn apply a stack of Silver Bolts for 3.5 seconds",
+    "Condemn's displacement direction is determined at the end of the cast time. Because of this, Vayne may use Flash during the cast time to create a better angle.",
+    "you can also time this with flash in a direction to manipulate your position so that the direction of that the enemy goes actually changes",
+    "You'll start with R to get all of your passive stat bonuses. Then you're going to Q and use your enhanced auto attack from that Q. E the champion into terrain for the stun and then you're just going to auto attack and use your Q whenever it comes off of cooldown.",
+    "While active, Final Hour empowers Night Hunter to have tripled bonus movement speed and Tumble to have a reduced cooldown.",
+    "The bonus movement speed persists for 2 seconds after Vayne loses sight of an enemy champion.",
+    "Vayne dashes a fixed distance in the target direction, though not through terrain",
+    "Although Tumble will reset the basic attack timer, Vayne cannot attack until the animation is complete.",
+    "Vayne can cast Final Hour during Tumble. She does not become invisible during the dash.",
+    "Tumble cast grants Vayne invisibility for 1 second. Attacking or casting abilities ends the stealth immediately.",
+    "Using a basic attack breaks the stealth at the start of the attack windup.",
+    "it also makes her invisible when she tumbles which is really cool you can use it for juking because when you're tumbling in One Direction but then you're autoing in another",
+    "Stacks are not removed if Vayne switches to attacking a target immune to Silver Bolts (structures, wards).",
+    "expiring upon attacking a new enemy",
+    "The stacks can be consumed even if the target is in stasis.",
+    "Condemn can interact with player-generated terrain.",
+    "Condemn's stun duration starts when Vayne's target collides with a wall (they can be immobilized for up to 2 seconds depending on displacement duration based on distance traveled).",
+    "Cleansing the knock back will also end the displacement early.",
+    "Condemn's missile will fail to fire if Vayne is suppressed during the cast time.",
+    "Scoring an enemy champion takedown within 3 seconds of damaging them will extend Final Hour's duration by 4 seconds, up to its original duration."
+  ],
+  "rejected": [
+    { "idea": "Roulade contre un mur pour raccourcir l'animation et réattaquer plus vite", "reason": "Une seule source (Retz13), le wiki dit seulement que la roulade ne traverse pas le terrain." },
+    { "idea": "Condamnation, auto, Roulade, auto pour stun d'entrée", "reason": "Une seule source (Retz13) ; gardé seulement l'ordre Roulade puis Condamnation, confirmé par deux joueurs." },
+    { "idea": "Retarder un point de sort au niveau 2 pour garder un angle de Condamnation", "reason": "Conseil d'ordre de montée des sorts, interdit." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte pour Flash pendant l'incantation de Condamnation (0,25 s) et l'angle obtenu.",
+    "Lancer Combat ultime pendant Roulade : confirmer que seule cette roulade-là ne donne pas l'invisibilité."
+  ]
+}

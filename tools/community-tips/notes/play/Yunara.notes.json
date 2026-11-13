@@ -1,0 +1,42 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "While this ability is inactive, her basic attacks on-attack generate a stack of Unleash for 6 seconds, increased to 2 stacks against champions. The stacks refresh on subsequent attacks, stack up to 8 times, and expire one by one every 0.5 seconds after the duration.",
+    "Cultivation of Spirit resets Yunara's basic attack timer. Targets do not have to be visible to be hit by the spread attacks.",
+    "Cultivation of Spirit is cast alongside Transcend One's Self. If the former was not already active, this will also grant its attack reset.",
+    "Upgraded into Arc of Ruin, which has no cost and has its remaining cooldown reduced by 80% upon both entering and exiting the state.",
+    "Upgraded into Untouchable Shadow, which has no cost and has its cooldown reset upon both entering and exiting the state.",
+    "Untouchable Shadow resets Yunara's basic attack timer. Arc of Ruin can be cast during the dash.",
+    "target range: 225 - 450 (Minimum and maximum dash distance) / 550 (Maximum extended dash distance across terrain)",
+    "Arc of Judgment cast time: 0.45 to 0.225 (bonus attack speed)",
+    "Yunara becomes ghosted and gains bonus movement speed for 1.5 seconds. The movement speed is 50% more effective while facing a nearby visible enemy champion.",
+    "3 Minute LoL : Pour les combos, ayez toujours vos huit effets passifs prêts avant d'engager votre adversaire. Attaquez, utilisez votre A et votre Z, puis utilisez votre E pour poursuivre votre adversaire si nécessaire.",
+    "3 Minute LoL : Pour votre combo all-in, utilisez Z puis E, attaquez, et activez votre ultime.",
+    "Gunfire ADC : The first combo is auto attack Q reset. It works exactly like Sivir's auto attack W. So if you press Q right after your auto attack, it's gonna cancel your auto attack, and you do 2 auto attacks.",
+    "Gunfire ADC : But if your Q is already active, if you press R, it's not gonna give you an additional reset, so it only works if your Q wasn't already active.",
+    "Gunfire ADC : my W is gonna be in the same direction, but it starts where I Flash.",
+    "Gunfire ADC : I need to predict where I'm gonna land with my Flash, and use my W like that.",
+    "Gunfire ADC : I can also use my W during my E dash like this",
+    "Gunfire ADC : when you use your W, and E, if you press R after that, your E is gonna instantly get refunded, but your W gets a 70% cooldown refund.",
+    "Gunfire ADC : There are some walls that, you know, I can pass through like this one. But sometimes you can fail it.",
+    "Gunfire ADC : if I hit an enemy champion, it gives you two stacks. And you practically need six or more stacks.",
+    "Gunfire ADC : right before it starts expiring, I can just last-hit the minion, and keep my Q stacks alive",
+    "Gunfire ADC : So for the biggest potential damage, you need to do W, auto attack, R, auto attack, dash, auto attack.",
+    "Bibou : Donc le le Z peut être flashé.",
+    "Bibou : le Z a son temps d'incantation maximum qui sera atteint à 100 % d'attaque speed. Ce qui veut dire que ce combo, il va être de plus en plus dur à faire plus vous avez d'attaque speed.",
+    "Bibou : ça va être d'utiliser son Z et son E juste avant d'ulti. Pourquoi ? Parce que le Z va avoir son délai de récupération réduit de 80 % et le E va être disponible instantanément.",
+    "Bibou : il va pouvoir vous faire passer des murs. Il va pouvoir augmenter sa range si vous choisissez bien l'angle du mur.",
+    "Bibou : il y a des murs que vous pouvez faire dans un sens comme celui-ci mais pas dans l'autre."
+  ],
+  "rejected": [
+    { "idea": "Dash d'Ombres ineffables contre un mur pour un reset d'auto instantané (triple auto)", "reason": "Une seule source joueur (Gunfire ADC) pour la partie « contre le mur » ; le reset d'auto du dash est gardé dans le combo all-in." },
+    { "idea": "Réduction de CD de 70 % sur le Z à l'entrée de la Transe", "reason": "Chiffre de Gunfire ADC contredit par le wiki et Bibou (80 %) ; formulation sans chiffre." },
+    { "idea": "Échanger son Flash contre celui de l'ADC adverse", "reason": "Conseil de laning, pas une mécanique du champion." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre du Z Flash avec beaucoup de vitesse d'attaque (incantation raccourcie).",
+    "Murs franchissables avec Ombres ineffables et sens de passage.",
+    "Effet de sortie de Transe : E réinitialisé et CD du Z réduit au moment exact où l'état se termine."
+  ]
+}

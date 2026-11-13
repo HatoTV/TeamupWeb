@@ -1,0 +1,112 @@
+{
+  "champion": "Gragas",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court en lane", "en": "Short lane trade" },
+      "keys": ["W", "Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Bois Rage d'ivrogne (Z), pose Fût roulant (A) puis fonce avec Coup de bidon (E). Place l'auto renforcée et fais exploser le fût le plus tard possible pour qu'il ait fermenté.",
+        "en": "Drink Drunken Rage (W), drop Barrel Roll (Q), then charge in with Body Slam (E). Land the empowered auto and detonate the cask as late as you can so it has fermented."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Coup de bidon Flash", "en": "Body Slam Flash" },
+      "keys": ["E", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Coup de bidon (E) puis Flash pendant la charge. Le dash s'arrête net et le knock-back et le stun s'appliquent autour de ta position après le Flash.",
+        "en": "Cast Body Slam (E), then Flash during the charge. The dash ends instantly and the knockback and stun apply around your post-Flash position."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage complet avec l'ult", "en": "Full engage with ult" },
+      "keys": ["W", "Q", "E", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Rage d'ivrogne (Z), Fût roulant (A), puis Coup de bidon (E) sur la cible. Enchaîne Fût explosif (R) et fais sauter ton fût juste avant qu'elle retombe.",
+        "en": "Drunken Rage (W), Barrel Roll (Q), then Body Slam (E) onto the target. Follow with Explosive Cask (R) and pop your cask right before they come down."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Bomba avec Flash", "en": "Flash bomba" },
+      "keys": ["Q", "W", "E", "F", "R", "Q"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Pose Fût roulant (A), bois Rage d'ivrogne (Z), puis Coup de bidon (E) avec Flash si la cible est trop loin. Fût explosif (R) la projette sur ton fût, que tu fais exploser à l'atterrissage.",
+        "en": "Drop Barrel Roll (Q), drink Drunken Rage (W), then Body Slam (E) with Flash if the target is too far. Explosive Cask (R) throws them onto your cask, which you detonate as they land."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Fût roulant (A) fermente pendant 2 s une fois arrêté : dégâts et slow montent jusqu'à 150 %. Tu ne peux pas le faire exploser pendant qu'il roule.",
+        "en": "Barrel Roll (Q) ferments for 2 s once it stops: damage and slow grow up to 150%. You cannot detonate it while it is still rolling."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le fût de Fût roulant (A) ignore les unités et le terrain : il roule à travers les murs jusqu'au point visé. Utile pour poke ou ralentir derrière un mur.",
+        "en": "The Barrel Roll (Q) cask ignores units and terrain: it rolls through walls to the target spot. Handy to poke or slow behind a wall."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu peux lancer Fût roulant (A) et Fût explosif (R) pendant la charge de Coup de bidon (E), sans casser le dash.",
+        "en": "You can cast Barrel Roll (Q) and Explosive Cask (R) during the Body Slam (E) charge without breaking the dash."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Toucher un ennemi avec Coup de bidon (E) réduit son CD actuel de 40 %. Rater la charge coûte donc très cher.",
+        "en": "Hitting an enemy with Body Slam (E) cuts its current cooldown by 40%. Missing the charge is very costly."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une immunité aux déplacements n'empêche pas le stun de Coup de bidon (E). Les cibles touchées se retrouvent aussi dos à toi.",
+        "en": "Displacement immunity does not stop the Body Slam (E) stun. Targets hit also end up facing away from you."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Fût explosif (R) projette tout le monde depuis le centre de l'explosion, sans traverser les murs. Vise derrière ta cible pour la renvoyer vers ton équipe.",
+        "en": "Explosive Cask (R) knocks everyone back from the center of the blast, never through walls. Aim behind your target to send them toward your team."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'auto renforcée de Rage d'ivrogne (Z) a 50 de portée en plus, frappe en zone et ne peut pas être annulée. Le CD ne démarre qu'après l'effet.",
+        "en": "The Drunken Rage (W) empowered auto gets 50 bonus range, hits an area and cannot be cancelled. The cooldown only starts after the effect."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Gragas – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Gragas", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Gragas Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=1_zCVmR9N3E", "type": "video", "date": "2026-09-24", "author": "3 Minute League of Legends" },
+    { "title": "Gragas Toplane Bombamentals💣| Best Gragas Build In Season 14📚", "url": "https://www.youtube.com/watch?v=g0_L7DpvMKA", "type": "video", "date": "2024-02-14", "author": "Sloppy Walrus" }
+  ]
+}

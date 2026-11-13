@@ -1,0 +1,44 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Recast: Viego hurls a blast of mist in the target direction and dash [dashes] a fixed distance in the same direction, though not through terrain. The mist deals magic damage to the first enemy hit and stuns them for type=channel time seconds.",
+    "Spectral Maw Basic attack reset [resets] Viego's basic attack timer. Viego can cast any of his abilities during the dash.",
+    "If the charge completes without reactivation, Spectral Maw is cancelled and placed on full cooldown.",
+    "Heartbreaker will cast at maximum range from the end of Spectral Maw [Viego] dash if it is cast during the dash.",
+    "Viego sends a spectre in the target direction that creates a trail of Mist in its wake which lasts 8 seconds. If it hits terrain, the Mist will spread further around either side.",
+    "Harrowed Path can be cast during any of Viego's abilities. Viego cannot gain the camouflage for 1 second if he casts it during Spectral Maw [Viego] channel or starts the channel while Harrowed Path is active.",
+    "Spectral Maw [Viego] recast does not incur the 1 second cooldown for regaining the stealth and instead prevents the stealth from being gained until the dash ends",
+    "Viego will enter camouflage even while Recalling.",
+    "Viego can cast Harrowed Path during the cast time of any ability or spell.",
+    "causing him to blink to its location after winding up for 1 second, during which he is untargetable (except to turrets) and lockout [unable to act].",
+    "He also gains a free cast of Heartbreaker [Viego], which is initially placed on a cd [1.5-second] cooldown",
+    "Casting Heartbreaker [Viego] or attacking a Mist Wraith ends Possession immediately.",
+    "The possessed champion's abilities do not cost any mana or energy even if that specific champion normally uses either as a casting resource.",
+    "Upon arrival, he strikes the most wounded [Lowest health percent] enemy champion nearby",
+    "Other nearby enemies are airborne [knocked back] up to 400-units away based on proximity, though not through terrain.",
+    "Viego's next basic attack against a marked target is empowered to consume the mark on-hit to strike a second time",
+    "W auto Q is your main trading and ganking tool.",
+    "W R is your best long range engage, helping you execute low health enemies and securing a reset.",
+    "W auto Q R is your one shot combo, allowing you to burst down enemies with no counter play. It's a true combo assuming you fully charge W and they have no tenacity, meaning they can't flash out of your old if done correctly.",
+    "EW is great to catch your enemies off guard.",
+    "BE is a combo that not many people know about. It fully conceals your recall allowing you to base on vision and save a few seconds.",
+    "You can W into a wall as an auto reset. This is most useful during your clear or when taking towers, but can also be used in combat.",
+    "Q flash extends your Q range without delay.",
+    "W auto attack Q. And now we take dragon.",
+    "For combos, your go-to is the W into E and attack. Q into another attack before ulting and attacking away.",
+    "And your go-to gank is to use E into terrain and charge up your W. After landing it, attack into Q, then attack into alt.",
+    "If this clients with terrain, it then starts creeping around the entire terrain.",
+    "He also gains a free use of his own ultimate which snaps him out of this form."
+  ],
+  "rejected": [
+    { "idea": "Lame du roi déchu (A) puis Flash pour allonger la portée sans délai", "reason": "Une seule source (Maxander), interaction non décrite par le wiki." },
+    { "idea": "Cœur brisé (R) puis Flash pour voler un objectif", "reason": "Une seule source (Maxander), interaction non décrite par le wiki." },
+    { "idea": "Monter le niveau de Cœur brisé (R) pendant la prise de possession d'un spectre", "reason": "Une seule source, et proche d'un conseil d'ordre de montée." },
+    { "idea": "Cœur brisé (R) franchit les murs (blink)", "reason": "Ni le wiki ni deux sources ne le disent explicitement." }
+  ],
+  "toVerifyInGame": [
+    "Gueule spectrale (Z) lancée face à un mur : relance d'auto sans déplacement.",
+    "Durée exacte de la perte de camouflage quand tu charges Gueule spectrale (Z) dans ta brume."
+  ]
+}

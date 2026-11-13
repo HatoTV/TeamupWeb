@@ -1,0 +1,37 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Jax dashes to the target unit's location.",
+    "Jax can cast any of his abilities during the dash.",
+    "Leap Strike cannot be cast on structures.",
+    "Spell shield will block the damage, including when Empower.",
+    "Jax empowers his next basic attack or Leap Strike against an enemy within 10 seconds to deal additional magic damage",
+    "If Empower is used on a basic attack, it will gain range and have an uncancellable windup.",
+    "Empower resets Jax's basic attack timer.",
+    "a defensive stance that causes him to dodge all incoming non-turret basic attacks and take 25% reduced damage from all area of effect abilities sourced from champions.",
+    "Counter Strike will also dodge abilities that can trigger on-hit effects (Parrrley, Mystic Shot) which will count towards Counter Strike's increased damage.",
+    "Counter Strike can be recast after 1 second, and does so automatically after the duration.",
+    "At 2 stacks, his next basic attack on-hit is empowered to have an uncancellable windup and consume all stacks to deal additional magic damage",
+    "While Grandmaster-at-Arms is active, the empowered attack triggers at 1 stack instead.",
+    "Jax can move during Grandmaster-at-Arms' cast time.",
+    "Jax's basic attacks generate a stack of Relentless Assault on-attack for 2.5 seconds, refreshing on subsequent attacks and stacking up to 8 times. Stacks expire one by one every 0.25 seconds when the duration ends.",
+    "Jack's auto-attack, the charged W auto-attack, cannot be canceled once it is launched. That is to say, nothing can prevent this self-attack from starting.",
+    "This is the QZ auto-attack. As you can see, I just dashed at the opponent. I put in my A, I put in my Z during the A. So, the bonus damage from the expansion goes to the cpel and I do an auto-attack at the end.",
+    "See Q auto-attack Z. In fact, the advantage you'll have is therefore more damage, an additional passive stack, and overall, well, it's just a better combo that's always usable.",
+    "The only time you'll prefer Q auto-attack is when you know the enemy is going to flash out.",
+    "So what you can simply do with Jax is go to the enemies with your stun and then use your R. Why? Because in fact, your stun and your R have exactly the",
+    "Pour vos combos d'engagement, utilisez E puis Q et E à nouveau pour l'étourdissement. De là, attaquez en direction de W et poursuivez l'attaque.",
+    "Votre combo ultime consiste à enchaîner E puis Q, E à nouveau pour étourdir puis utiliser votre ultime, puis attaquer avec W avant d'attaquer à distance.",
+    "Il peut également être utilisé sur un allié ou une balise pour s'y précipiter.",
+    "Et pendant cette période, le passif se déclenchera une attaque sur deux au lieu d'une sur trois."
+  ],
+  "rejected": [
+    { "idea": "Counter Strike (E) mind game: step back, then walk forward again when the enemy re-engages (Misanthiel)", "reason": "Laning mind game, single source, not a mechanic." },
+    { "idea": "Auto timed with the turret shot to trade under tower (Misanthiel)", "reason": "Unclear in the transcript, single source." }
+  ],
+  "toVerifyInGame": [
+    "Empower (W) cast during the Leap Strike (Q) jump: confirm the bonus damage goes onto the leap.",
+    "Leap Strike (Q) on a ward: the wiki says any unit except structures, wards not named explicitly."
+  ]
+}

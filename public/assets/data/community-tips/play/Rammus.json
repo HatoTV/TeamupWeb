@@ -1,0 +1,98 @@
+{
+  "champion": "Rammus",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Gank en boule puis provoc", "en": "Ball gank into taunt" },
+      "keys": ["Q", "E", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Roule sur la cible avec Démolisseur (A), puis Provocation frénétique (E) et Boule défensive (Z) : elle te tape et se blesse sur ta carapace.",
+        "en": "Roll into the target with Powerball (Q), then Frenzying Taunt (E) and Defensive Ball Curl (W): they hit you and hurt themselves on your shell."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Démolisseur, ult, knock-up", "en": "Powerball, ult, knock-up" },
+      "keys": ["Q", "R", "E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Frappe ascendante (R) pendant Démolisseur (A) pour projeter en l'air les ennemis au centre de l'impact, puis Provocation frénétique (E) et Boule défensive (Z).",
+        "en": "Cast Soaring Slam (R) during Powerball (Q) to knock up enemies at the center of the impact, then Frenzying Taunt (E) and Defensive Ball Curl (W)."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Frappe ascendante (R) lancée pendant Démolisseur (A) ajoute les dégâts de la boule à l'impact. La boule ne percute personne pendant le saut et s'arrête à l'atterrissage.",
+        "en": "Soaring Slam (R) cast during Powerball (Q) adds the ball's damage to the impact. The ball hits no one during the leap and ends on landing."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La portée de Frappe ascendante (R) dépasse 800 si ta vitesse moyenne de la dernière seconde atteint environ 460 : lance-la en fin de roulade pour sauter plus loin.",
+        "en": "Soaring Slam (R) range goes past 800 if your average speed over the last second reaches about 460: cast it late in a roll to leap farther."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant le saut de Frappe ascendante (R), tu es insensible aux CC : tu peux sauter par-dessus un sort de contrôle pour forcer l'engage.",
+        "en": "During the Soaring Slam (R) leap, you are immune to CC: you can jump over a crowd control spell to force the engage."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lancer Démolisseur (A) coupe aussitôt Boule défensive (Z), et activer Boule défensive (Z) en roulade arrête la boule. Garde la Boule défensive (Z) pour après l'impact.",
+        "en": "Casting Powerball (Q) instantly ends Defensive Ball Curl (W), and activating Defensive Ball Curl (W) mid-roll stops the ball. Keep Defensive Ball Curl (W) for after the impact."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le recul de Démolisseur (A) ne pousse jamais une cible à travers un mur.",
+        "en": "The Powerball (Q) knockback never pushes a target through a wall."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Provocation frénétique (E) sur l'ADC avec Boule défensive (Z) active : chaque auto qu'il te met lui renvoie des dégâts magiques.",
+        "en": "Frenzying Taunt (E) on the ADC with Defensive Ball Curl (W) active: every auto they land on you deals magic damage back to them."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque l'impact de Frappe ascendante (R), même avec la boule, mais pas les répliques qui suivent.",
+        "en": "A spell shield blocks the Soaring Slam (R) impact, even with the ball, but not the aftershocks that follow."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les dégâts de Frappe ascendante (R) touchent les bâtiments et sont doublés contre les tourelles.",
+        "en": "Soaring Slam (R) damage hits structures and is doubled against turrets."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Rammus - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Rammus", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Rammus Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=7YEEYh-frng", "type": "video", "date": "2026-01-01", "author": "3 Minute League of Legends" },
+    { "title": "RAMMUS jungle FOR noobs HOW to GANK in SEASON 16!!", "url": "https://www.youtube.com/watch?v=7dm5GjHvCsc", "type": "video", "date": "2026-07-22", "author": "Sawyer Jungle" }
+  ]
+}

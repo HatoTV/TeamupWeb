@@ -1,0 +1,118 @@
+{
+  "champion": "Aphelios",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Infernum puis racine de Gravitum", "en": "Infernum into Gravitum root" },
+      "keys": ["Q", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Avec Gravitum en arme secondaire, lance la compétence d'arme (A) d'Infernum dans le groupe : la salve de Gravitum ralentit chaque cible. Passe sur Gravitum avec Phase (Z) et sa compétence d'arme (A) les immobilise toutes.",
+        "en": "With Gravitum off-hand, fire Infernum's Duskwave (Q) into the group: the Gravitum volley slows every target. Swap to Gravitum with Phase (W) and its Binding Eclipse (Q) roots them all."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Calibrum puis racine de Gravitum", "en": "Calibrum into Gravitum root" },
+      "keys": ["Q", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Avec Gravitum en arme secondaire, touche le tir longue portée de Calibrum (A), puis passe sur Gravitum avec Phase (Z) et immobilise ta cible avec sa compétence d'arme (A).",
+        "en": "With Gravitum off-hand, land Calibrum's long-range Moonshot (Q), then swap to Gravitum with Phase (W) and root your target with its Binding Eclipse (Q)."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Severum puis chakrams de Crescendum", "en": "Severum into Crescendum chakrams" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Avec Crescendum en arme secondaire, la compétence d'arme (A) de Severum alterne les tirs et te donne des chakrams. Passe ensuite sur Crescendum avec Phase (Z) pour frapper avec ce stock.",
+        "en": "With Crescendum off-hand, Severum's Onslaught (Q) alternates shots and gives you chakrams. Then swap to Crescendum with Phase (W) to hit with that stack."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Ult Gravitum puis racine", "en": "Gravitum ult into root" },
+      "keys": ["R", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Avec Gravitum en main, Veille au clair de lune (R) ralentit à 99 % chaque champion touché. Enchaîne la compétence d'arme (A) de Gravitum pour les immobiliser 1,35 s.",
+        "en": "With Gravitum as main weapon, Moonlight Vigil (R) slows every champion hit by 99%. Follow with Gravitum's Binding Eclipse (Q) to root them for 1.35 s."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les compétences d'arme (A) ne partagent pas leur CD : lance celle de ton arme principale, passe à l'autre avec Phase (Z) et relance aussitôt la sienne.",
+        "en": "Weapon abilities (Q) do not share a cooldown: cast your main weapon's one, swap with Phase (W) and cast the other weapon's one right away."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Quand ton arme principale n'a plus de munitions, la suivante met 1 s à arriver : pas de Phase (Z) pendant ce temps, et sa compétence d'arme (A) démarre en CD.",
+        "en": "When your main weapon runs out of ammo, the next one takes 1 s to arrive: no Phase (W) meanwhile, and its weapon ability (Q) starts on cooldown."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La compétence d'arme (A) de Gravitum marche aussi sur une attaque de Gravitum encore en vol : la cible est immobilisée à l'impact.",
+        "en": "Gravitum's Binding Eclipse (Q) also works on a Gravitum attack still in flight: the target is rooted on impact."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'effet de Veille au clair de lune (R) dépend de l'arme en main au lancement : changer d'arme pendant que le tir vole ne change rien.",
+        "en": "The effect of Moonlight Vigil (R) depends on the weapon in hand when you cast it: swapping while the shot flies changes nothing."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant la compétence d'arme (A) de Severum, tu peux bouger mais pas lancer Phase (Z) ni Veille au clair de lune (R). Le premier tir part de ton arme secondaire.",
+        "en": "During Severum's Onslaught (Q), you can move but cannot cast Phase (W) or Moonlight Vigil (R). The first shot comes from your off-hand weapon."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier de sorts bloque l'explosion de Veille au clair de lune (R), mais les tirs qui suivent visent quand même la cible.",
+        "en": "A spell shield blocks the Moonlight Vigil (R) blast, but the follow-up shots still lock on to the target."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Avec Severum en arme secondaire, la compétence d'arme (A) d'Infernum envoie une salve de Severum sur chaque cible touchée : vise plusieurs ennemis pour un gros soin.",
+        "en": "With Severum off-hand, Infernum's Duskwave (Q) sends a Severum volley at every target hit: aim at several enemies for a big heal."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Ne vide pas Severum jusqu'au bout : garde quelques munitions pour revenir dessus plus tard avec Phase (Z) et relancer sa compétence d'arme (A) une dernière fois.",
+        "en": "Do not empty Severum completely: keep a few rounds so you can swap back later with Phase (W) and cast its Onslaught (Q) one last time."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Aphelios – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Aphelios", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Everyone Plays Aphelios — Almost Nobody Plays Him Correctly", "url": "https://www.youtube.com/watch?v=Z4rfjNhbx5U", "type": "video", "date": "2026-05-01", "author": "Zoose" },
+    { "title": "3 Minute Aphelios Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=ap1bnKh2Qf8", "type": "video", "date": "2025-02-06", "author": "3 Minute League of Legends" }
+  ]
+}

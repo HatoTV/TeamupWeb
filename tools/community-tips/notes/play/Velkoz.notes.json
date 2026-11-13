@@ -1,0 +1,41 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Vel'Koz fires a plasma bolt in the target direction that deals magic damage to the first enemy hit and slow [slows] them by 70% decaying over a duration.",
+    "Plasma Fission can be recast after 0.25 seconds while the bolt is in flight, and does so automatically upon hitting an enemy or reaching maximum range.",
+    "Plasma Fission can reach a maximum 1595 units diagonally (ignoring the split missile's width and enemy hitbox radius), reaching this distance after a total of about ~1.65 seconds.",
+    "Vel'Koz cracks a rift in the target direction that opens after a 0.25-second delay, cascading through the area over 0.65 seconds to deal magic damage to enemies within.",
+    "After 0.75 seconds [Estimated], the rift violently collapses, dealing magic damage to enemies within and granting sight of the surrounding area for 0.25 seconds.",
+    "Unbreakable [Braum] and Wind Wall [Yasuo] will block the ripple and prevent the rift from forming further, but they will not destroy the section that was created already.",
+    "If Tectonic Disruption is cast in close proximity of Vel'Koz, the anomaly will also slightly airborne [knock back] enemies hit in the direction of the cast.",
+    "While the effect is fully prevented by blocking the missile (e.g. with Unbreakable [Braum] and Wind Wall [Yasuo]), the missile may not be destroyed visually.",
+    "Applying 3 Organic Deconstruction [Vel'Koz] stacks to an enemy champion marks them as Researched for 7 seconds, refreshing on basic attacks and ability hits against them.",
+    "Researched [Vel'Koz] enemies take true damage instead.",
+    "Vel'Koz will sight [reveal] himself if the ray is near an enemy champion.",
+    "Being able to detonate your Q early means your opponent's never safe even behind their own minions.",
+    "And because this deals damage twice, both of them can apply one stack of his passive.",
+    "For combos, start with Q into W and E. Attack into your second W before attacking away, following up with alt if you have it.",
+    "And your super longrange combo is to use Q on an angle into your ultimate for massive damage.",
+    "Vous tentez de lancer un que sur l'adversaire, vous le touchez, il est slow à 70 %. Du coup, c'est beaucoup plus simple de toucher le",
+    "La diagonale fait plus est souvent plus longue que le que le cuspel en ligne.",
+    "quand vous le touchez max range, c'est un bump. Quand vous le touchez au corps à corps, vous repoussez la cible.",
+    "c'est un projectile et du coup ça se fait cancelle par un wall de Yazuo",
+    "c'est un spell qui qui applique deux de deux tes de passif.",
+    "quand vous lancez votre cpel dans le décor, les ennemis ne le voient pas.",
+    "la plupart du temps quand vous allez tuer un mec avec Velcose, c'est ça en c'est en faisant votre full combo, c'est-à-dire Q Eq enfin Q E Z R.",
+    "one of my solo q favorites the invisible combo this combo involves the terrain vision playing soul as long as the enemies don't have a war that covers the other side of the wall",
+    "so as soon as you recast the cue you press r and that is the combo",
+    "level three is a favorite of a lot of velka's players and that is the max range qr"
+  ],
+  "rejected": [
+    { "idea": "Combo Fission du plasma (A) + Flash : le projectile part de la position d'arrivée du Flash (idem avec R)", "reason": "Interaction expliquée par une seule source (iReaz VOD) ; Azzapp cite « q flash » sans la décrire, le wiki n'en parle pas." },
+    { "idea": "Désintégrateur de formes de vie (R) traverse le Mur de vent de Yasuo et le mur de Samira", "reason": "Une seule source (iReaz VOD), non confirmé par le wiki." },
+    { "idea": "La 2de partie de Fission du plasma (A) va plus vite que la 1re ; le 2e coup d'Ouverture de faille (Z) a plus de portée", "reason": "Une seule source (iReaz VOD), absent du wiki." },
+    { "idea": "Ouverture de faille (Z) puis Fission du plasma (A) sur une cible stun par un allié", "reason": "Une seule source joueur ; trop proche du combo de base." }
+  ],
+  "toVerifyInGame": [
+    "Fission du plasma (A) lancée à travers un mur : invisible pour l'adversaire tant qu'il n'a pas de vision de ton côté.",
+    "Distance de lancer de Dislocation tectonique (E) en dessous de laquelle elle repousse en plus de projeter."
+  ]
+}

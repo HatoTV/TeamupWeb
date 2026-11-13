@@ -1,0 +1,38 @@
+{
+  "searches": 3,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Sett airborne enemies at his front and back along the target direction, dealing physical damage and slow them by 70% for 0.5 seconds.",
+    "If Facebreaker affects at least one enemy on each side, all enemies are stunned for 1 second upon landing.",
+    "If Facebreaker does not hit an enemy, Haymaker is also unable to be cast for 0.25 seconds after the cast time.",
+    "After the cast time, he unleashes a massive blast in an area in the target direction, dealing physical damage to enemies hit; those hit in a line in the middle are dealt instead.",
+    "Sett stores 100% of post-mitigation damage taken as Grit on his resource bar, up to a cap of 50% of his maximum health. Each instance of stored Grit decays in value by 30% every second after 4 seconds.",
+    "he immediately consumes all of his stored Grit to grant himself a shield at the start of the cast time",
+    "Sett does not store Grit from damage that was mitigated by shields.",
+    "Sett's basic attacks alternate between his Left Punch and a Right Punch on-attack. Sett begins attacking with his Left Punch, and will reset back to it after 2 seconds of not performing a Right Punch.",
+    "The empowered attacks are guaranteed to be a Left Punch followed by a Right Punch",
+    "He leaps another 600 units in the same direction to slam the target into the ground",
+    "The leap will end and create the impact prematurely upon encountering terrain that cannot be dashed through, whether by distance or invalid space.",
+    "If the target resists the suppression by being immune to crowd control, displacement immune, or having a spell shield, Sett will not attach them to himself.",
+    "Sett will still dash to the target and leap forward from them to trigger the shockwave afterwards even if he fails to attach the target to him.",
+    "This damage depends on the additional health of the target he grabbed. So, capturing a massive enemy tank and driving it into the enemy team is guaranteed death for them.",
+    "for a long fight, start with E, two attacks, reset via Q, two more attacks, then ult, two more attacks and W. And for initiation—ult on E, two attacks, Q, more attacks and W.",
+    "use E to grab a minion and push them together, stunning the enemy.",
+    "The first is, of course, E plus W. If you time it well enough mashing W while you press your E, it is guaranteed that the center part of the W with no counterplay",
+    "It's always better to do auto auto Q whenever you can to make it a lot more smooth.",
+    "Using this to reposition the true damage on your W or hit as many people as possible in a team fight.",
+    "So, using the R is a delivery system to bring yourself to the back line into an EW.",
+    "this one's mainly for lane, but the E flash R W. You can do it in a team fight as well by bringing a champion back into your team.",
+    "ult the target against a wall. It is much faster. In fact, the wall stops your jump and the game considers the jump to be over and therefore applies damage.",
+    "You will be bringing back a CIP on your turret with a flash E plus R technically."
+  ],
+  "rejected": [
+    { "idea": "W then Flash to reposition the true-damage center of Haymaker (Coach Chippys)", "reason": "Flash interaction during the Haymaker cast confirmed by only one author and not by the wiki." },
+    { "idea": "E pulls enemies through small walls if cast at maximum range (Misanthiel)", "reason": "Single source, author himself says it is unreliable; wiki does not mention terrain for Facebreaker." },
+    { "idea": "Facebreaker generates an extra Hail of Blades stack (wiki note)", "reason": "Rune interaction (bug) excluded by the brief." }
+  ],
+  "toVerifyInGame": [
+    "E then Flash then R: check that Flash can be used right after the Facebreaker cast (0.25 s lockout) and that the R leap goes toward your tower.",
+    "R into a wall: check how close to the wall the target must be for the impact to land instantly."
+  ]
+}

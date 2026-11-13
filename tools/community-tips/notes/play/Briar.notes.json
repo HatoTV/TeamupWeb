@@ -1,0 +1,47 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Briar leaps to the target unit. If the target is an enemy, she deals physical damage, applies on-hit effects, triggers on-attack effects, stuns them for 0.85 seconds, and reduces their armor and magic resistance for 5 seconds.",
+    "Head Rush resets Briar's basic attack timer.",
+    "Head Rush can be cast on jungle plants, wards, and stealthed traps.",
+    "Briar breaks free from her pillory, causing her to become forced to basic attack the nearest enemy.",
+    "If she casts Head Rush on a minion or monster, she will shift her target priority to large monsters, minions or champions, then any other unit.",
+    "The frenzy ends early if there are no longer any nearby valid targets or Chilling Scream is cast.",
+    "Head Rush and Certain Death can be cast during the dash.",
+    "Blood Frenzy acquires targets regardless of if they are visible or not. This does not apply to stealthed targets.",
+    "Briar empowers her next basic attack within 5 seconds during Blood Frenzy to take a bite out of the target enemy",
+    "Snack Attack can only be used during Blood Frenzy; if the frenzy ends at any point, the empowered attack will be lost immediately.",
+    "Gaining Hematomania while Blood Frenzy is active will override the previous buff.",
+    "Chilling Scream's charge cannot be interrupted by crowd control.",
+    "during which she increases Chilling Scream's damage and range, and gains 35% damage reduction and heals herself every 0.25 seconds.",
+    "If Chilling Scream was charged for its full duration, enemies hit are also knocked back 575 units. If they collide with terrain, they will rebound to take and become knocked up for 0.5 seconds and stunned for 1.5 seconds.",
+    "While the target is marked, they are revealed.",
+    "flee all non-marked targets for 1.5 seconds, during which they are slowed by 35%.",
+    "So, your first combo is WQ. So, you're going to dash forward, and then you're going to dash towards the enemy. You're going to stun them, and then you're going to start wailing on them until it's time to hit W2.",
+    "Your Q is an auto attack reset. So, if I auto attack then Q and then auto attack, it's way faster.",
+    "Briar's W2 is also one. So, once I get an auto attack, I can it's anytime just hit W.",
+    "So, instead of W then Q and then you start auto attacking, you W, get an auto attack, then Q, and that reset it, so then you get your next one even faster. So, it's based on how close you are to the enemy.",
+    "your Q, it reduces their armor and magic resist for 5 seconds. Your W lasts for 5 seconds. So, whichever one you cast first, right? Will get the most value.",
+    "So, if I W and then I Q, now I know that the rest of this W has the armor pen for my W2, right?",
+    "you will be just using this to try and put enemies into the wall.",
+    "if you cast R during your W, you're going to lose the ability to W2.",
+    "you can just do a Q ultimate, right?",
+    "you hit an E and then you shoot ultimate into that. Well, you see they're stunned, you're hit while they were stunned so they can't flash and then you confirm the fear onto two targets.",
+    "if this champion were to go invisible, it gives true sight. So, this is how you deal with invis champs",
+    "You actually can hop to your teammates, too, for a quick getaway if that's what you're trying to do.",
+    "For combos: start with W, attack, then Q. Attack, reactivate W, then use E when you need to stop the chase.",
+    "Hold combo: Start with W, then attack and use W reset. Attack, use Q, then immediately fully charge E to push the enemy into an obstacle.",
+    "When in a rage, she will chase the nearest enemy. However, she can cast E to negate this effect."
+  ],
+  "rejected": [
+    { "idea": "W then Flash buffer to extend the W range (L0ganJG)", "reason": "Single source, and the author himself says it is very rarely useful." },
+    { "idea": "E buffered auto (L0ganJG)", "reason": "Single source, explanation unclear in the transcript." },
+    { "idea": "Delaying the combo for Spellblade/Trinity Force procs (L0ganJG)", "reason": "Item build advice, out of scope." },
+    { "idea": "Head Rush (Q) used to cross a wall (L0ganJG 'slide over this wall')", "reason": "No explicit terrain-crossing statement in the wiki or sources." }
+  ],
+  "toVerifyInGame": [
+    "Head Rush (Q) cast during the Blood Frenzy (W) dash: exact window and resulting range.",
+    "Chilling Scream (E) wall stun: how close to terrain the target must be at full charge (575-unit knockback)."
+  ]
+}

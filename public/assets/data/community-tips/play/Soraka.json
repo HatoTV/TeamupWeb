@@ -1,0 +1,99 @@
+{
+  "champion": "Soraka",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Étoile puis soin rentable", "en": "Star, then cheap heal" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche un champion avec Appel de l'étoile (A), attends que la poussière d'étoile te revienne, puis Infusion astrale (Z) : le soin ne te coûte presque pas de PV et ton allié reçoit aussi la régénération.",
+        "en": "Hit a champion with Starcall (Q), wait for the star dust to return to you, then Astral Infusion (W): the heal costs you almost no health and your ally also gets the regeneration."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Ralentir puis enraciner", "en": "Slow, then root" },
+      "keys": ["Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Appel de l'étoile (A) ralentit la cible, puis pose Équinoxe (E) sur elle : trop lente pour sortir de la zone à temps, elle prend le silence, puis la racine.",
+        "en": "Starcall (Q) slows the target, then drop Equinox (E) on them: too slow to leave the zone in time, they get silenced, then rooted."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Appel de l'étoile (A) tombe plus vite quand tu le lances près de toi. Avance un peu quand c'est sûr plutôt que de viser à portée max : il devient bien plus dur à esquiver.",
+        "en": "Starcall (Q) lands faster when you cast it close to you. Step up when it's safe instead of aiming at max range: it becomes much harder to dodge."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Appel de l'étoile (A) révèle la zone avant même d'atterrir. Envoie-le dans un buisson douteux avant d'y poser une ward, pour éviter de face-check.",
+        "en": "Starcall (Q) reveals the area before it even lands. Throw it into a suspicious bush before you ward it, so you don't face-check."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Même si un bouclier de sort bloque Appel de l'étoile (A), le tir compte comme touché : tu récupères quand même la régénération et ton Infusion astrale (Z) moins chère.",
+        "en": "Even if a spell shield blocks Starcall (Q), it still counts as a hit: you still get the regeneration and a cheaper Astral Infusion (W)."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le silence d'Équinoxe (E) passe à travers les boucliers de sort et la plupart des purges ne le retirent pas. Seuls les effets qui donnent aussi l'immunité, comme Ragnarok d'Olaf, l'enlèvent.",
+        "en": "The silence of Equinox (E) goes through spell shields and most cleanses don't remove it. Only effects that also grant immunity, like Olaf's Ragnarok, get rid of it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le silence d'Équinoxe (E) coupe les sorts canalisés et les retours base. Garde-le pour l'ult d'un Malzahar ou d'un Vel'Koz plutôt que de le lancer en poke.",
+        "en": "The silence of Equinox (E) interrupts channeled spells and recalls. Save it for a Malzahar or Vel'Koz ult instead of using it to poke."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Salut te donne 90 % de vitesse en plus quand tu cours vers un allié sous 40 % de ses PV. Une flèche t'indique la direction à prendre.",
+        "en": "Salvation gives you 90% bonus movement speed while you run toward an ally below 40% health. An arrow shows you which way to go."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Souhait (R) soigne 50 % de plus les alliés sous 40 % de PV, et touche même un allié intouchable. Attends ce seuil pour en tirer le max.",
+        "en": "Wish (R) heals allies below 40% health for 50% more, and even reaches an untargetable ally. Wait for that threshold to get the most out of it."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Ne lance pas Souhait (R) à l'instant où tu réapparais : le CD ignore ta réduction et le soin ne profite pas de ta puissance. Attends une petite seconde.",
+        "en": "Don't cast Wish (R) the instant you respawn: the cooldown ignores your ability haste and the heal gets no ability power. Wait a brief moment."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Soraka - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Soraka", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Stop Missing Soraka Qs | 12 Game-Changing Tips", "url": "https://www.youtube.com/watch?v=TDu9U_UrVvA", "type": "video", "date": "2026-03-29", "author": "Banana Mike" },
+    { "title": "Soraka's Most Misunderstood Ability (Silence Guide)", "url": "https://www.youtube.com/watch?v=SDKUIhwbXV8", "type": "video", "date": "2026-04-24", "author": "Banana Mike" },
+    { "title": "3 Minute Soraka Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=RUO4YuxWJaY", "type": "video", "date": "2025-11-07", "author": "3 Minute League of Legends" }
+  ]
+}

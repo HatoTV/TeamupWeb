@@ -1,0 +1,145 @@
+{
+  "champion": "Singed",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Projection dans la colle",
+        "en": "Fling into the glue"
+      },
+      "keys": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Piste empoisonnée (A), lance Attrape-mouche (Z) derrière toi, puis colle l'ennemi et Projection (E) : il retombe dans la flaque et reste enraciné. Continue d'auto.",
+        "en": "Toggle Poison Trail (Q), throw Mega Adhesive (W) behind you, then get on the enemy and Fling (E): they land in the puddle and stay rooted. Keep auto-attacking."
+      },
+      "refs": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Projection vers ton équipe",
+        "en": "Fling into your team"
+      },
+      "keys": [
+        "R",
+        "E"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Potion de démence (R) pour la vitesse et les résistances, fonce sur le carry ennemi, puis Projection (E) pour l'envoyer par-dessus toi, dans ton équipe ou dans ta colle.",
+        "en": "Insanity Potion (R) for speed and resistances, rush the enemy carry, then Fling (E) to throw them over you, into your team or your glue."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Projection (E) peut envoyer un ennemi de l'autre côté d'un mur si le saut le permet. Plaque-toi contre le mur, cible devant toi, pour l'isoler de son équipe.",
+        "en": "Fling (E) can throw an enemy over a wall when the distance allows it. Put your back to the wall with the target in front of you to cut them off from their team."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Dès l'incantation de Projection (E), le Flash de la cible est bloqué : une fois que tu as lancé le sort au contact, elle ne peut plus s'échapper avec.",
+        "en": "As soon as Fling (E) starts its cast, the target's Flash is locked: once you cast it in melee range, they can't escape with it anymore."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Attrape-mouche (Z) cloue au sol : dans la flaque, l'ennemi ne peut ni dash ni blink. La plupart des purges ne retirent ni ce slow ni cet effet.",
+        "en": "Mega Adhesive (W) grounds: inside the puddle, enemies can't dash or blink. Most cleanses remove neither this slow nor the ground effect."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La fiole d'Attrape-mouche (Z) est un projectile : Mur de vent de Yasuo l'arrête. Un ennemi insensible aux ralentissements n'est pas enraciné par ta Projection (E).",
+        "en": "The Mega Adhesive (W) vial is a projectile: Yasuo's Wind Wall stops it. An enemy immune to slows isn't rooted by your Fling (E)."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un sbire empoisonné par Piste empoisonnée (A) qui meurt sous les coups de tes sbires te rapporte quand même l'or. Traverse la wave poison activé pour farm.",
+        "en": "A minion poisoned by Poison Trail (Q) that dies to your minions still gives you the gold. Walk through the wave with poison on to farm."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Potion de démence (R), ta Piste empoisonnée (A) applique Blessures graves. Utile contre les champions qui se soignent.",
+        "en": "During Insanity Potion (R), your Poison Trail (Q) applies Grievous Wounds. Useful against champions who heal."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Singed - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Singed",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Best Singed Build & Guide (2026) — League of Legends",
+      "url": "https://www.dodge.gg/lol/news/singed-build-2026",
+      "type": "guide",
+      "date": "2026-03-23",
+      "author": "Dodge.gg Team"
+    },
+    {
+      "title": "Guide complet de Singed en 3 minutes - Un guide pour League of Legends",
+      "url": "https://www.youtube.com/watch?v=N0AcQM3cIPo",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "Singed Build, Runes & Counters",
+      "url": "https://outdraft.gg/en/champion/Singed",
+      "type": "guide",
+      "date": "2026-11-13",
+      "author": "Outdraft.gg"
+    }
+  ]
+}

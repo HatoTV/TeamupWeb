@@ -1,0 +1,35 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "While Renekton has at least 50 Fury, his next basic ability, excluding Slice and Dice, consumes 50 Fury to become empowered with an additional effect.",
+    "Renekton generates 50% bonus Fury from all sources while below 50% of his maximum health.",
+    "Reign of Anger Bonus: Dice, the recast, deals bonus physical damage and inflicts armor reduction to enemies hit for 4 seconds.",
+    "Renekton instead strikes 3 times, completely destroying damage-mitigating shields on the target upon the first strike if they are not a monster, as well as increasing the stun duration to 1.5 seconds.",
+    "If the target becomes untargetable or dies during the empowered attack's cast time, it is cancelled but not consumed.",
+    "Renekton cannot basic attack nor cast Slice and Dice or Dominus for 0.25 seconds after Cull the Meek's activation.",
+    "After Ruthless Predator's standard and empowered attack cast time, Renekton cannot move nor cast Cull the Meek or Slice and Dice for. Casting Dominus ends this lockout prematurely.",
+    "Renekton retains Dominus' bonus health (if not over his normal maximum) once the duration ends.",
+    "For combos, your go-to is to E into an attack and W. Attack into Q before attacking into your second E.",
+    "Your all-in combo is to attack into W before attacking into E. Once more, attack into Q before attacking into your second E. And this combo also works well if you alt after using W.",
+    "he generates bonus fury when below half health.",
+    "So, what I like to practice is auto canceling with my Q.",
+    "Next, I like to practice um R canceling. Well, my well, W canceling with my R.",
+    "Right? So, auto W R. Right, cool. And after that, I like to practice auto W R Q cuz you could actually cancel your R animation with your Q.",
+    "So, that looks like flash auto W. So, flash auto W R Q auto E.",
+    "(Misanthiel, auto-translated from French) We're going to start very simply with the animation cancel, perhaps the best known of Renekton, which is the W R.",
+    "(Misanthiel, auto-translated) Here I'm going to put autoattack then E2 which consumes fury.",
+    "(Misanthiel, auto-translated) if you need to stop locking on a target, or possibly break a big shield, you'll use the improved W.",
+    "(Misanthiel, auto-translated) When there's been about a quarter of a second of your autoattack animation, you can start to launch the Q, otherwise you cancel it."
+  ],
+  "rejected": [
+    { "idea": "Flash all-in: Flash, auto, W, R, Q, auto, E (Renektoy)", "reason": "Flash combo given by a single author; not confirmed by the wiki or a second player source." },
+    { "idea": "Panther combo: E, spam Q on arrival, then auto (Renektoy)", "reason": "Single source; the wiki says Q blocks attacks for 0.25 s, the exact timing is not confirmed." },
+    { "idea": "Fast auto then Q (or E2) right as the auto lands so the Fury generated is not consumed (Misanthiel)", "reason": "Single source, timing-dependent, not in the wiki." },
+    { "idea": "W then R cancel loses the 20 Fury granted by Dominus (bug, Misanthiel)", "reason": "Single source, bug that may be fixed; not in the wiki." }
+  ],
+  "toVerifyInGame": [
+    "W then R cancel: exact timing to cast Dominus right after the Ruthless Predator strike.",
+    "Q right after the auto: launching it too early cancels the auto (Misanthiel)."
+  ]
+}

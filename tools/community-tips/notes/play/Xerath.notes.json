@@ -1,0 +1,45 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Enemies in the epicenter take 66.7% increased damage and are slow [slowed] by a greater amount, decaying to 25% over the duration.",
+    "Xerath's location gets sight [revealed] to the enemy (400 radius for 4.5 seconds) if Eye of Destruction's cast location is within 100 units of a valid enemy at the start of the cast time",
+    "Xerath channel [charges] while being slow [slowed] for up to 3 seconds to increase Arcanopulse's range",
+    "If the charge is interrupt [interrupted] or completes without reactivation, Arcanopulse is cancelled and refunds mana [half the mana cost].",
+    "Q charge table: spells=true, true (Flash usable). Recast delay lockout table: spells=true,false (Flash disabled).",
+    "Shocking Orb deals magic damage to the first enemy hit and stuns them for [orb travel distance] seconds. (Effect at cast time end)",
+    "If Rite of the Arcane ends without any of the recasts being used, half of its cooldown is refunded.",
+    "After catapulting the first missile, Xerath will sight [reveal] himself while there are enemy champions within Rite of the Arcane's range.",
+    "Arcane Barrage will not apply its increased damage per stack to the cast that granted the stack.",
+    "R channel table: attack=interrupts, move=Disabled for the first 1.25 seconds, otherwise, interrupts, spells=true, false (Flash disabled)",
+    "Periodically, Xerath empowers his next basic attack on-hit to restore mana, doubled against enemy champions.",
+    "Mana Surge's cooldown is reduced by 3.5 seconds whenever Xerath kills an enemy. Mana Surge does not trigger if Xerath would restore above his maximum mana.",
+    "If you do see a kill opportunity, again, you just do a W into E.",
+    "one of my favorite combos is just W when they're super low into R.",
+    "all you're going to do is you're going to press your stun ability and then flash sideways. And so what that does, it changes where your E",
+    "one of the most iconic ones is just charging your Q, flashing, and then letting go your Q. You cannot let go your Q, then flash. It does not work.",
+    "Use W into Q for reliable poke. Use W into E when you need the stun",
+    "The farther E travels, the longer it stuns, making this most reliable from medium or long range.",
+    "Once it connects, center the W directly on the stun target, then finish with Q before they can escape.",
+    "charge Q, then flash before releasing it to extend its reach",
+    "You can also use flash to change the firing angle.",
+    "Cast E, then flash during its brief cast animation. The projectile launches from Zerath's new position, changing its starting point and angle while unexpectedly extending its reach.",
+    "Charging only increases its range, not its damage.",
+    "Continue holding Q without releasing it. Allow the charge to expire, and half of its mana cost will be refunded.",
+    "Moving or issuing an attack command immediately cancels the channel.",
+    "If you cancel before firing a blast, half of its ultimate cool down is refunded, making the bait far less costly.",
+    "Once Sarah starts firing, enemies within range can see his location",
+    "If E connects from far enough away, immediately activate your ultimate and fire. W can also set this up.",
+    "Every unit Zerat kills reduces the passive's remaining cool down"
+  ],
+  "rejected": [
+    { "idea": "Mur de vent (Yasuo) ne bloque que l'Orbe d'électrocution (E), pas Rayon arcanique (A), Œil de la destruction (Z) ni Rite arcanique (R)", "reason": "Une seule source (Zoose), non confirmé par le wiki." },
+    { "idea": "Orbe d'électrocution (E) puis Rite arcanique (R) : deux tirs gratuits pendant le stun", "reason": "Une seule source (Zoose) ; la variante avec Œil de la destruction (Z), citée par 2 auteurs, est retenue." },
+    { "idea": "Tourner Xerath avec un tir de R pour ne pas être stun par l'ult de Cassiopeia", "reason": "Une seule source, matchup précis." },
+    { "idea": "Fast ult / slow ult selon que la cible est seule ou près de ton équipe", "reason": "Conseil de décision, une seule source, pas une mécanique." }
+  ],
+  "toVerifyInGame": [
+    "Orbe d'électrocution (E) puis Flash pendant les 0,25 s d'incantation : l'orbe part bien de la position d'arrivée (2 sources joueurs, le wiki indique seulement que l'effet part à la fin de l'incantation).",
+    "Œil de la destruction (Z) visé à moins de 100 unités d'un ennemi : révélation de Xerath 4,5 s."
+  ]
+}

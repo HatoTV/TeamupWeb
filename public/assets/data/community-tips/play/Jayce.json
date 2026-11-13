@@ -1,0 +1,93 @@
+{
+  "champion": "Jayce",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Orbe à travers le portail", "en": "Blast through the gate" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "En forme canon, lance Orbe électrique (A) puis pose Portail d'accélération (E) collé à toi. L'orbe devient surchargée : plus de dégâts, de portée, de vitesse et une explosion plus large.",
+        "en": "In cannon form, cast Shock Blast (Q) then place Acceleration Gate (E) right on you. The blast becomes supercharged: more damage, range, speed and a wider explosion."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Trade court en forme canon", "en": "Short trade in cannon form" },
+      "keys": ["Q", "E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "En forme canon, Orbe électrique (A) dans Portail d'accélération (E), une auto, puis Hypercharge (Z) qui reset ton auto. Recule ensuite avec la vitesse du portail.",
+        "en": "In cannon form, Shock Blast (Q) through Acceleration Gate (E), one auto, then Hyper Charge (W), which resets your auto. Then back off with the gate's speed."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Combo complet canon puis marteau", "en": "Full cannon into hammer combo" },
+      "keys": ["Q", "E", "W", "R", "Q", "W", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Orbe électrique (A) dans le portail et Hypercharge (Z) en canon, puis Marteau Mercury (R) et saut avec Direction le ciel ! (A), Champ électrique (Z) en l'air, deux autos et Coup foudroyant (E) pour l'éjecter.",
+        "en": "Shock Blast (Q) through the gate and Hyper Charge (W) in cannon form, then Mercury Hammer (R) and leap with To the Skies! (Q), Lightning Field (W) mid-air, two autos and Thundering Blow (E) to knock them away."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'orbe surchargée va toujours à 1600 de portée, peu importe où elle passe le portail. Pose Portail d'accélération (E) tout près de toi pour qu'elle accélère plus tôt et arrive plus vite.",
+        "en": "The supercharged blast always reaches 1600 range, wherever it crosses the gate. Place Acceleration Gate (E) right next to you so it speeds up earlier and lands faster."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le bonus de vitesse de Portail d'accélération (E) se renouvelle tant que tu restes dedans. Pose-le dans l'axe de ta course, pas en travers, pour en profiter plus longtemps.",
+        "en": "The Acceleration Gate (E) speed bonus refreshes as long as you stay inside it. Place it along your path, not across it, to benefit longer."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Coup foudroyant (E) enracine la cible pendant son incantation avant de l'éjecter de 600 unités. Juste après, tu ne peux pas lancer ton sort (A), dans aucune forme, pendant 0,4 s.",
+        "en": "Thundering Blow (E) roots the target during its cast time before knocking them back 600 units. Right after, you cannot cast your Q spell, in either form, for 0.4 s."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Capaciteur Hextech : chaque changement de forme te donne 0,75 s de fantôme et 30 de vitesse. Change de forme pour passer à travers une wave en fuite.",
+        "en": "Hextech Capacitor: each stance swap gives you 0.75 s of ghosting and 30 movement speed. Swap stance to slip through a wave while escaping."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "L'auto renforcée par ton changement de forme n'est pas perdue si elle est esquivée, bloquée ou aveuglée : elle reste prête jusqu'à ce qu'une auto touche ou que tu changes de forme.",
+        "en": "The empowered auto from a stance swap is not lost if it is dodged, blocked or blinded: it stays ready until an auto lands or you swap again."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux activer Champ électrique (Z) pendant le saut en forme marteau, pour que les dégâts tournent déjà à l'atterrissage.",
+        "en": "You can activate Lightning Field (W) during the hammer form leap, so the damage is already ticking when you land."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Jayce – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Jayce", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Jayce Combo Guide- All the Major Techs you Should Know!", "url": "https://www.youtube.com/watch?v=jbZlqBiNEmg", "type": "video", "date": "2024-12-05", "author": "AkoGarre" },
+    { "title": "3 Minute Jayce Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=118-xouINQs", "type": "video", "date": "2025-12-24", "author": "3 Minute League of Legends" },
+    { "title": "5 TIPS AVANCÉS SUR JAYCE", "url": "https://www.youtube.com/watch?v=7URAULcmMYs", "type": "video", "date": "2025-03-17", "author": "Misanthiel - Coach Toplane" }
+  ]
+}

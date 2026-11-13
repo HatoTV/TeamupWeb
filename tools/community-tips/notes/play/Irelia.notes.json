@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Irelia dashes 100 units through the target enemy's location, and upon collision or dash completion, she deals physical damage, applies on-hit effects, and heals herself.",
+    "Bladesurge's current cooldown is reduced to 0.2 seconds upon collision of targets marked as Unsteady, and is reset if the target dies to or during Bladesurge's dash.",
+    "Flawless Duet can be cast during the dash.",
+    "Bladesurge will be buffered and cast when the cooldown ends or is reset if the player attempts to cast it within 0.5 seconds of the cooldown ending/resetting.",
+    "Bladesurge will only allow Irelia to dash through walls if there is enough space for her on the other side.",
+    "Irelia will automatically be ordered to acquire and attack Bladesurge's target as soon as the dash completes.",
+    "Enemy champions and large monsters hit by Flawless Duet or Vanguard's Edge initial barrage are marked as Unsteady for 5 seconds.",
+    "Enemies that cross the perimeter are not marked Unsteady.",
+    "Flawless Duet can be recast after 0.15 seconds while the blade is active, and does so automatically at the end of its duration.",
+    "Irelia sends a second blade to the target location, or to her current position if Flawless Duet was recast automatically.",
+    "The outgoing blades will stop flight upon touching projectile blocking effects. The converging blades will instead be destroyed upon contact with such effects.",
+    "The blades will not stun nor deal damage if they fail to converge (i.e Wind Wall).",
+    "Defiant Dance's charge cannot be interrupted by crowd control.",
+    "Defiant Dance's recast can be used while affected by cast-inhibiting crowd control. Ionian Fervor duration is paused during the charge",
+    "The blades will still expand if the champion hit by the blades is protected by a spell shield.",
+    "c'est que cela consiste essentiellement à utiliser votre touche Q comme une sorte de réinitialisation automatique",
+    "Mais si j'appuie sur Q juste au moment où mes dégâts automatiques se déclenchent, c'est beaucoup plus rapide.",
+    "il s'agit essentiellement de dissimuler votre E à l'intérieur de l'animation de votre Q afin que les ennemis ne puissent pas réagir. En gros, dès que vous faites une ruée, vous devez poser le E",
+    "s'il me fait un face-check, par exemple, je vais faire E, R, Q, puis le poursuivre, et ensuite essayer de placer mon E.",
+    "You can hide your first E exceptionally well behind other animations. For example, queuing on a minion like this. For this to work, you need to press E on top of the minion and immediately Q on it.",
+    "If you have good vision management and control, you can just hide your first E in a bush or behind the wall.",
+    "After you've placed your first E, you have 3.5 seconds until you have to place your second one. So, you do have time to act normal.",
+    "Pour les combos, commencez par le E puis l'ultime, enchaînez avec le A, qui sera réinitialisé par l'ultime, puis le E. Attaquez, utilisez le A qui sera réinitialisé par le E",
+    "Et utiliser le A sur une cible marquée supprime la marque et réinitialise instantanément le délai de récupération."
+  ],
+  "rejected": [
+    { "idea": "Vanguard's Edge (R) reduces Bladesurge (Q) cooldown by 0.5/1.5/2.5 s (ManaTy, 2023)", "reason": "Not in the current wiki data at 16.22: probably outdated." },
+    { "idea": "Precast Vanguard's Edge (R) then Flash so the ult fires right after the Flash (ManaTy)", "reason": "Single source, not on the wiki." },
+    { "idea": "Fake retreat / re-click to bait ranged laners into free autos (young)", "reason": "General laning advice, not a champion-specific mechanic." },
+    { "idea": "Vanguard's Edge (R) zone makes enemies avoid the blades, easing the Flawless Duet (E) hit (young)", "reason": "Behavioural advice, kept only the E-R-Q-E combo." }
+  ],
+  "toVerifyInGame": [
+    "Auto into Bladesurge (Q) right as the auto's damage lands: how much faster the follow-up auto comes out.",
+    "Placing the first Flawless Duet (E) blade during the Bladesurge (Q) dash: whether the cast animation is actually hidden for the enemy."
+  ]
+}

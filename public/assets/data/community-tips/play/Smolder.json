@@ -1,0 +1,120 @@
+{
+  "champion": "Smolder",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, Boule de feu, auto", "en": "Auto, Scorcher, auto" },
+      "keys": ["Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Glisse Boule de feu draconique (A) juste après une auto pour couper l'animation, puis enchaîne une autre auto. Le trade de base de Smolder en lane.",
+        "en": "Slip Super Scorcher Breath (Q) right after an auto to cut the animation, then chain another auto. Smolder's basic lane trade."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Burst avec maman", "en": "Burst with mom" },
+      "keys": ["Q", "W", "R", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Auto, Boule de feu draconique (A), Atchoum ! (Z) pour ralentir, puis MAMAAAN ! (R) sur la cible ralentie. Recule à l'auto et finis-la avec Flap, flap, flap ! (E).",
+        "en": "Auto, Super Scorcher Breath (Q), Achooo! (W) to slow, then MMOOOMMMM! (R) on the slowed target. Back off with autos and finish them with Flap, Flap, Flap (E)."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "name": { "fr": "Atchoum puis Flash", "en": "Achooo! then Flash" },
+      "keys": ["W", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Atchoum ! (Z) puis Flash pendant l'incantation : le sort part à la fin du Flash. Pratique pour surprendre une cible qui fuit.",
+        "en": "Cast Achooo! (W) then Flash during the cast time: the spell fires at the end of the Flash. Handy to surprise a fleeing target."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Poke par-dessus le mur", "en": "Poke over the wall" },
+      "keys": ["E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Flap, flap, flap ! (E) pour voir derrière le mur, Boule de feu draconique (A) tant que tu as la vision, puis Atchoum ! (Z). Lancer un sort met fin au vol.",
+        "en": "Flap, Flap, Flap (E) to see behind the wall, Super Scorcher Breath (Q) while you have vision, then Achooo! (W). Casting a spell ends the flight."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Pendant Flap, flap, flap ! (E) dans un mur, lance Boule de feu draconique (A) ou Atchoum ! (Z) : le vol s'arrête et tu ressors au point valide le plus proche.",
+        "en": "During Flap, Flap, Flap (E) inside a wall, cast Super Scorcher Breath (Q) or Achooo! (W): the flight stops and you pop out at the nearest valid spot."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Les tirs de Flap, flap, flap ! (E) te révèlent, même dans un mur. Survoler un mur au contact des ennemis ne te cache donc pas.",
+        "en": "Flap, Flap, Flap (E) bolts reveal you, even inside a wall. Flying over a wall within range of enemies doesn't hide you."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier magique ne bloque qu'un seul tir de Flap, flap, flap ! (E). Fais-le sauter avec ton E avant de lancer Boule de feu draconique (A).",
+        "en": "A spell shield blocks only one Flap, Flap, Flap (E) bolt. Pop it with your E before casting Super Scorcher Breath (Q)."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier magique bloque soit la boule d'Atchoum ! (Z), soit son explosion, pas les deux : une partie des dégâts passe quand même.",
+        "en": "A spell shield blocks either the Achooo! (W) glob or its explosion, not both: part of the damage still goes through."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La vague de MAMAAAN ! (R) part de derrière toi. Contre Mur de vent de Yasuo, lance-la dos à lui pour qu'elle démarre de son côté du mur.",
+        "en": "The MMOOOMMMM! (R) wave starts from behind you. Against Yasuo's Wind Wall, cast it facing away from him so it starts on his side of the wall."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "À 225 cumuls, la brûlure de Boule de feu draconique (A) exécute un champion sous 6,5 % de ses PV max. Seuls tes dégâts déclenchent l'exécution, brûlure comprise.",
+        "en": "At 225 stacks, the Super Scorcher Breath (Q) burn executes a champion below 6.5% max HP. Only your damage triggers the execute, burn ticks included."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Dragon en herbe : Atchoum ! (Z) ne cumule qu'au 1er impact sur chaque champion, Flap, flap, flap ! (E) une fois par lancer. Achever un sbire avec Boule de feu draconique (A) cumule aussi.",
+        "en": "Dragon Practice: Achooo! (W) only gives a stack for the first hit on each champion, and Flap, Flap, Flap (E) one per cast. Minion kills with Super Scorcher Breath (Q) also give stacks."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Atchoum ! (Z) n'explose qu'en touchant un champion. Lance-le dans un buisson : une explosion, ou un cumul gagné, trahit un ennemi caché.",
+        "en": "Achooo! (W) only explodes when it hits a champion. Throw it into a bush: an explosion, or a stack gained, gives away a hidden enemy."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Smolder - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Smolder", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "SMOLDER Tips & Tricks", "url": "https://www.youtube.com/watch?v=Di86xPEYh_A", "type": "video", "date": "2024-02-03", "author": "Cannon Minion" },
+    { "title": "The ONLY Smolder Guide You Need in 2026", "url": "https://www.youtube.com/watch?v=edodzEn2XZ4", "type": "video", "date": "2026-05-12", "author": "bluwunk" },
+    { "title": "3 Minute Smolder Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=i9165bkSmxQ", "type": "video", "date": "2025-07-25", "author": "3 Minute League of Legends" }
+  ]
+}

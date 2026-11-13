@@ -1,0 +1,33 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Anivia launches a chunk of ice in the target direction that deals magic damage to enemies hit and slows them for 3 seconds.",
+    "Flash Frost can be recast while the ice is in flight after its cast time, and does so automatically at maximum range.",
+    "Recast: Anivia shatters the ice, dealing magic damage to nearby enemies and stunning them for a duration, as well as refreshing the slow.",
+    "Spell shield can block the effects of either the active or the recast, but not both if the former is blocked.",
+    "Anivia summons a wall of ice at the target location perpendicular to her facing, knocking all units away from it, though not through terrain. The wall lingers as impassable terrain for 5 seconds.",
+    "Player-generated terrain such as Crystallize does not block sight.",
+    "Enemies hit by Flash Frost or a fully formed Glacial Storm become Iced for 3 seconds, refreshing on subsequent hits.",
+    "The damage of Frostbite is calculated once it hits. If the target's mark from being hit by Flash Frost or a fully formed Glacial Storm wears off while the projectile is traveling, the damage is not doubled.",
+    "The blizzard increases in size over 1.5 seconds. At maximum size, Glacial Storm is empowered to deal 300% damage and increase the effectiveness of its slow by 50%.",
+    "Glacial Storm is toggled off automatically if Anivia moves too far away from the blizzard or becomes unable to pay the mana cost, or is affected by any form of cast-inhibiting crowd control.",
+    "Stasis via Zhonya's Hourglass doesn't interrupt Glacial Storm.",
+    "if you use it correctly you can stun Champs that try to block it with spell shield for example with malzahar Shield you can let your Cube pass through him to proc his shield and at the end you click Q again to stun him after his shield disappears",
+    "you need to stay calm and hold your Q2 letting your stun pass through and proc The Shield before activating it to stun them",
+    "a lot of people make the mistake of waiting too long to throw their e after Q they wait for the Q to hit and then they cast e instead if you can and you're in range throw your q and then immediately throw your E before Q even hits your e will always crit if you do this because your Q is faster and will hit first chilling them so your e crits",
+    "the big advantage of doing it this way is that you can throw another E faster which can be a game changer in close fights",
+    "For combos, your go-to is to simply use Q into W and E before attacking. And your all-in combo is use Q into W and alt. Follow up with an attack and E before attacking away.",
+    "put R at max range, it instantly activates Comet and Malignance, and then you try to cancel it via W into Q for a guaranteed stun. It's like a basic combat pattern that you keep repeating.",
+    "Use the wall to either retreat or start a fight. Um, usually if you combine it with an ult, you can start driving people into a trap."
+  ],
+  "rejected": [
+    { "idea": "Place Crystallize (W) against terrain to thicken it and stop dashes, or leave a small gap to stop Flash (SanSiroBro)", "reason": "Only one author (SanSiroBro), not stated by the wiki." },
+    { "idea": "Q is faster than E (SanSiroBro's explanation)", "reason": "Wiki speeds say otherwise (Q 950, E 1600); kept only the effect within E range (Q cast first lands first), not the stated reason." },
+    { "idea": "GameLeap and Bav Bros combo guides", "reason": "4-5 years old, before Anivia's later ability changes; not opened." }
+  ],
+  "toVerifyInGame": [
+    "Q then E right away: Q should land first up to about 580 units (computed from 0.25 s cast times and speeds 950/1600); check at max E range (600).",
+    "Letting Flash Frost (Q) pop a spell shield, then recasting for the stun: timing on Sivir / Nocturne / Malzahar."
+  ]
+}

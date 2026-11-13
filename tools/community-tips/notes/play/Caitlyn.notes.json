@@ -1,0 +1,39 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Caitlyn's basic attacks generate a stack of Count on-attack, doubled if she is within brush. At 5 stacks, or 4 while in brush, her next basic attack consumes all stacks on-attack to become a Headshot.",
+    "Enemies that step over a Yordle Snap Trap or are hit by 90 Caliber Net can grant an additional Headshot against them at range within 1.8 seconds, without consuming stacks. Each method grants only one Headshot at a time.",
+    "If Caitlyn's current target becomes trapped by Yordle Snap Trap or 90 Caliber Net while her attack is on cooldown, this ongoing cooldown will be refunded partially so that her next attack on them can begin earlier.",
+    "Enemies revealed by Yordle Snap Trap always take full damage from Piltover Peacemaker.",
+    "Upon Piltover Peacemaker dealing damage to an enemy, Caitlyn's attack timer is forcibly reset.",
+    "Caitlyn sets a visible trap at the target location that is untargetable and arms after 1 second, lasting for a duration.",
+    "Trapped targets become immune to further Yordle Snap Traps for 3 seconds, preventing them from springing subsequent traps for the duration.",
+    "Multiple armed traps on the same location will spring all at once if an enemy steps on one of them.",
+    "Caitlyn will not recoil after the cast time if she was immobilized or grounded during it. She can cast any of her abilities during the recoil dash.",
+    "The recoil can be used to pass through terrain.",
+    "If Caitlyn buffers Piltover Peacemaker during 90 Caliber Net's cast time, Piltover Peacemaker will start after the cast time.",
+    "Other abilities can be cast while dashing if they are input after the cast time.",
+    "you might want to quickly step into the bush for passive stacks.",
+    "if enemy steps on your trap, you always Q first and then auto for two reasons. First, your Q will be a guaranteed hit. If you Q after auto, they might be able to dodge it.",
+    "second, your head shot auto fires immediately, giving you more DPS.",
+    "The key here is to place the trap pretty much the second your teammates fires the crowd control skill shot and not wait till it hits and then place it simply because one second CCs are way too short for your trap to connect.",
+    "So, we all know the most common Caitlyn E plus Q combo at this point.",
+    "However, I could have used E plus W because the W cast time is super fast and will be executed in the E animation.",
+    "Basically, all you have to do is press E first and then flash immediately.",
+    "Her second passive is enemies that step in her W or hit by her net get a target above their head. Caitlyn can attack them at double her usual range to fire an empowered shot against them.",
+    "For combos, your basic go-to is to attack into W and then Q and E as fast as possible into your two empowered attacks. From here, either attack away or follow up with ult as needed.",
+    "your Q does not deal reduced damage if shot through enemies if someone's recently been revealed by your trap. So, if someone stands in a trap, use your Q immediately followed by the attack and not the other way around."
+  ],
+  "rejected": [
+    { "idea": "E then Flash immediately as a finishing move (Neon LOL)", "reason": "Single source, not confirmed by the wiki or another author." },
+    { "idea": "E plus trap placed where the enemy will step next, then Q (Neon LOL)", "reason": "Kept only the defensive E-W variant; the offensive one overlaps it." },
+    { "idea": "Hide your Q cast by stepping in and out of a brush (Neon LOL)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "Caitlyn Tricks You DIDN'T KNOW About (Hoompty)", "reason": "No English subtitles available, video from 2021." },
+    { "idea": "Trap + Net double Headshot range bug (Night Eyes, 2022)", "reason": "Old bug video, not verifiable at 16.22." }
+  ],
+  "toVerifyInGame": [
+    "Exact window to buffer Piltover Peacemaker (Q) during the 0.15 s cast time of 90 Caliber Net (E).",
+    "Size of the attack cooldown refund when the current target gets trapped or netted."
+  ]
+}

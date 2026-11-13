@@ -1,0 +1,32 @@
+{
+  "searches": 2,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "if you want to maximize your damage in a short trate it's always better to Auto Tech first and then Quee after this lets you deal a lot more damage in a very short amount of time",
+    "the second one is to always use your passive before you fight whenever possible the passive gives you more attack speed and make sure Allin fights a lot better",
+    "Tu veux te mettre invisible pour gagner ton passif qui donne un bonus d'attaque speed.",
+    "tu veux être invisible ici et comme ça quand l'adversaire va prendre un CS, tu vas lui permettre une ou deux autoattaques et te régaler",
+    "Teemo gains invisibility after 1.5 seconds without moving",
+    "While in brush, Teemo gains the stealth even while moving and can move without breaking stealth",
+    "If Teemo is in a brush, however, the stealth is not broken by the above effects so long as his destination location is still inside brush.",
+    "Casting Move Quick does not interrupt Guerrilla Warfare.",
+    "When Teemo breaks the stealth, he gains bonus attack speed for 5 seconds.",
+    "Because Blinding Dart uses center range, it has 45 to 70 more range than his basic attacks, which use edge range, against other champions.",
+    "The duration of the blind is doubled against minions and monsters.",
+    "Blinding Dart will not make abilities that can trigger on-hit effects (Parrrley, Mystic Shot) miss.",
+    "If the mushroom lands on one that has already been placed, it will bounce forward from the placed mushroom for its cast distance, up to a cap, which can happen repeatedly",
+    "The bounce can occur an indefinite amount of times while Teemo is alive. If Teemo dies before Noxious Trap bounces on another, the trap will disappear.",
+    "Noxious Trap's damage is determined when it detonates and not when planted, meaning if Teemo's AP changes, the scaling is also altered to affect the active damage of all Noxious Traps so long as they do not explode.",
+    "Enemies who step on multiple Noxious Traps will only refresh the duration of the damage over time and slow."
+  ],
+  "rejected": [
+    { "idea": "Poser les champignons près des murs et des entrées plutôt qu'au milieu de la lane", "reason": "Conseil de placement d'une seule source (Daveyx3), pas une mécanique vérifiable." },
+    { "idea": "Combo Flash + Ghost pour rattraper une cible", "reason": "Une seule source, et pas une interaction propre à Teemo." },
+    { "idea": "Combo Vélocité (Z) depuis le camouflage pour s'approcher", "reason": "Le wiki confirme que Vélocité ne casse pas le camouflage, mais aucune source joueur ne le présente comme combo ; gardé en astuce." },
+    { "idea": "Guide écrit Mobalytics (combos Teemo)", "reason": "Page refusée (HTTP 403)." }
+  ],
+  "toVerifyInGame": [
+    "Daveyx3 date de décembre 2024 (saison 14) : kit de Teemo identique selon le wiki actuel.",
+    "Écart de portée exact entre Fléchette aveuglante et l'auto selon la taille de la cible."
+  ]
+}

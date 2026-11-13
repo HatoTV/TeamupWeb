@@ -1,0 +1,44 @@
+{
+  "searches": 1,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "Instead of dashing to the enemy, you can Flay at the tip of your range to get a third pull towards yourself after your two Q pulls. This means you don't have to dash into the enemy",
+    "After hitting your Q, you can walk towards them and fle after, which is the default thresh combo.",
+    "Thresh tugs his hook towards him twice, once after a 0.1-second delay and again 0.6 seconds after that.",
+    "The slow of Flay whether away or towards, though often better cast towards yourself from the edge of the range, helps land followup hooks for a good chain of CC",
+    "The knockup and slow from the fle will help you hit your hook, and this usually creates pressure on the enemy to dash or flash.",
+    "You can also use your flash with this combo as a flash E is insanely hard for them to expect or react to.",
+    "If Flash Flay can be a powerful combo, then so can Rocketbelt Flay.",
+    "Q > R > E (ooga booga) > Auto Attack The highest damage Thresh combo, guaranteeing the Box damage along with its 100% AP Ratio on a target hit by your hook.",
+    "With alt up after you hit your hook, you can walk slightly towards them and press alt. Let thresh pull twice and then flay them into the alt. Finish it off with the empowered E auto attack",
+    "Throwing out a lantern only once a hook has landed, or thrown during the travel of a confident hook can bring junglers and other teammates swiftly into fights",
+    "If you have a teammate nearby, you can use Q W and then recast your Q. The lantern won't disappear before you've actually fully reached the target",
+    "The lantern will not expire from Thresh moving too far away if he is dashing with Deathly Leap.",
+    "After 0.5 seconds of hitting an enemy, or instantly after hitting a minion or monster, Thresh can recast the ability while the target is Shackled.",
+    "predicting and hooking a minion is easier, so you can instead dash to one near your target",
+    "Death Sentence will not stun enemies that are displacement immune or immune to crowd control but the target will still be marked and Thresh is still granted the ability to recast for his dash",
+    "you want to wait out the entire stun",
+    "hooked is stunned for 1.5 seconds, which is a very long time. So don't waste your play in the middle of it and use the time while they're stunned to do something else like throwing a lantern to an ally, placing down your alt",
+    "The lantern is considered a unit and can be targeted by an allied Leap Strike, Shunpo, and Safeguard.",
+    "The dashing ally will track Thresh if he changes locations.",
+    "Allies travelling to you via lantern will follow you all the distance you've travelled since their journey begins, so dashing with Flash can not only cover more distance for your companion, but also work simultaneously as a surprise engage on an enemy using Flay.",
+    "The Box always faces the same direction Thresh is facing on cast, placing a corner directly in front of him. The cast indicator displays the opposite of the true behavior.",
+    "The Box cannot be interrupted by any means, including death or resurrection.",
+    "where you face determines the Box shape",
+    "Thresh's basic attacks are empowered to deal bonus magic damage, with the AD ratio increasing over 10 seconds without basic attacking enemies.",
+    "you usually shouldn't spam hit minions with these autos before you engage because you'll miss out on some damage",
+    "He can cast Dark Passage and Flay during the dash.",
+    "Death Sentence's stun will persist even if Thresh dies before the duration ends."
+  ],
+  "rejected": [
+    { "idea": "Flash pendant l'incantation de Peine capitale pour allonger le crochet", "reason": "CryoBeats précise que c'est corrigé depuis longtemps : ne fonctionne plus." },
+    { "idea": "Combos avec objets actifs (Hextech Rocketbelt, Stridebreaker, Shurelya, Hydre titanique)", "reason": "Dépendent d'objets précis, une seule source." },
+    { "idea": "Combo électrocution rapide avec Scout's Slingshot", "reason": "Rune + objet, interaction de bug non garantie." },
+    { "idea": "La cage puis Flash pour la deuxième traction (Q R Flash E)", "reason": "Une seule source, jugé « très difficile » par l'auteur." },
+    { "idea": "Feinter le crochet avec un recall ou une emote", "reason": "Astuce de bluff, une seule source, pas une mécanique." }
+  ],
+  "toVerifyInGame": [
+    "Orientation réelle de La cage par rapport à l'indicateur (le wiki dit qu'il affiche l'inverse).",
+    "Allié qui suit la lanterne quand Thresh Flash : distance max de suivi (~2200 unités selon le wiki)."
+  ]
+}

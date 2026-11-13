@@ -1,0 +1,36 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Casting Help, Pix! on an ally champion transfers Pix's help to them, causing him to fire the bolts dependent on their basic attacks.",
+    "Lulu and Pix, Faerie Companion each fire a magic bolt towards the target point, each one dealing magic damage to enemies hit, reduced to 70% against minions, and slowing them by 80% decaying over 2 seconds.",
+    "Pix fires his bolt from wherever he is when Lulu casts Glitterlance. Lulu's bolt will fire from wherever she is at the end of the cast time.",
+    "Depending on cursor position both bolts can either crossfire, fire in parallel, or in opposite directions.",
+    "Enemy Cast: Lulu launches a spell onto the target enemy champion that polymorphs them into a harmless critter for a duration, during which their movement speed is reduced by 60, and disarms them for the same duration.",
+    "Whimsy's movement speed reduction is not affected by slow resist.",
+    "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but still go on cooldown and pay its cost.",
+    "If the player casts Help, Pix! on a non-champion target, the spell script will first search for a targetable allied or enemy champion within 75 radius around the target.",
+    "This effect does not respect that the champion may not be visible to Lulu and not a valid target for normal selection for this reason. Therefore it can for instance apply the effects to stealthed enemy champions this way.",
+    "Spell shield and Riposte will block the damage but Pix will still follow regardless.",
+    "Pix's Glitterlance bolt can be fired while he is away from Lulu from his location and towards the cursor (effectively extending Glitterlance range).",
+    "Lulu enlarges herself or the target allied champion, knocking up nearby enemies for 1 second.",
+    "Enemies are also knocked back over 275 units during the knock up.",
+    "Lulu's Q is a straight line skill shot fired by her and Pix. It deals damage to all enemies hit and slows them. An enemy takes 50% damage from a second bolt.",
+    "For combos, your go-to is to E into an attack and Q before attacking away. As always, trying to land both hits from that Q.",
+    "Your buff-focused team fight is to E and W your carry before using Q. Follow up with ultimate on them when an enemy gets near before attacking away.",
+    "And your peel-focused team fight is to E your carry into W'ing your enemy. Auto carry into Q before attacking away.",
+    "le projectile part d'une fois de toit et d'une fois aussi de pix",
+    "si vous utilisez votre e ... ça va déplacer votre pix sur la personne que vous ciblez ... et donc votre queue va être déplacé différemment",
+    "punir facilement les adversaires en mettant un queue et une autoattaque parce que tu as les dégâts de ton auto le dégâts de pix et le dégâts de ton Q",
+    "tu vas vouloir chield de ton allié malgré qu'il ne subisse pas de dégâts pour pouvoir lui donner pix"
+  ],
+  "rejected": [
+    { "idea": "Mettre la souris sur l'ADC et lancer Z, E et R d'un coup (EXYT)", "reason": "Réglage de raccourcis (smartcast), pas une mécanique du champion." },
+    { "idea": "Fantaisie (Z) esquivable comme un projectile (ShoDesu)", "reason": "Remarque en passant pendant une partie ; seule l'annulation sur cible intouchable ou hors vision est confirmée par le wiki." },
+    { "idea": "Description des sorts Z et E de 3 Minute League of Legends", "reason": "Z et E inversés dans la vidéo : seuls les combos (séquences) sont repris, confirmés par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Pix à la rescousse ! (E) sur un sbire collé à un ennemi camouflé : vérifier la redirection à 75 unités.",
+    "Portée effective de Duo éclatant (A) quand Pix est sur un ennemi éloigné."
+  ]
+}

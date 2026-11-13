@@ -1,0 +1,185 @@
+{
+  "champion": "Tristana",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Saut, bombe en vol, reset",
+        "en": "Jump, mid-air bomb, reset"
+      },
+      "keys": [
+        "W",
+        "E",
+        "Q",
+        "W"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Saut roquette (Z) puis Charge explosive (E) en plein vol : l'atterrissage ajoute déjà une charge. Tir rapide (A), trois autos, la bombe explose à fond et Saut roquette revient.",
+        "en": "Cast Rocket Jump (W), then Explosive Charge (E) mid-air: the landing already adds a stack. Rapid Fire (Q), three autos, the bomb blows at full stacks and Rocket Jump comes back."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Bombe, autos, ult en dernière charge",
+        "en": "Bomb, autos, ult as last stack"
+      },
+      "keys": [
+        "E",
+        "Q",
+        "R"
+      ],
+      "level": "hard",
+      "desc": {
+        "fr": "Charge explosive (E), Tir rapide (A) et trois autos, puis Tir à impact (R) pour poser la quatrième charge. La bombe explose alors à la fin du recul, avec tous ses dégâts.",
+        "en": "Explosive Charge (E), Rapid Fire (Q) and three autos, then Buster Shot (R) to add the fourth stack. The bomb then blows at the end of the knockback, with full damage."
+      },
+      "refs": [
+        0,
+        4,
+        1
+      ]
+    },
+    {
+      "name": {
+        "fr": "Flash puis saut",
+        "en": "Flash, then jump"
+      },
+      "keys": [
+        "F",
+        "W"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "easy",
+      "desc": {
+        "fr": "Flash pour te mettre à portée, puis Saut roquette (Z) sur la cible : le slow de 40 % pendant 2 secondes te laisse placer tes autos.",
+        "en": "Flash to get in range, then Rocket Jump (W) onto the target: the 40% slow for 2 seconds lets you land your autos."
+      },
+      "refs": [
+        0,
+        3
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Saut roquette (Z) revient sur un kill ou une participation contre un champion, ou quand Charge explosive (E) explose à charges max sur un champion. Garde ce reset pour ressortir après l'all-in.",
+        "en": "Rocket Jump (W) comes back on a champion kill or assist, or when Explosive Charge (E) blows at max stacks on a champion. Keep that reset to get out after the all-in."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Lance Saut roquette (Z) un instant avant qu'un grab te touche, comme Grappin propulsé (A) de Blitzcrank : tu pars quand même et le grab est annulé. Un second contrôle peut encore te faire tomber.",
+        "en": "Cast Rocket Jump (W) a split second before a grab hits you, like Blitzcrank's Rocket Grab (Q): you still take off and the grab is cancelled. A second crowd control can still bring you down."
+      },
+      "refs": [
+        2,
+        3
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le recul de Tir à impact (R) part de ta position à la fin de l'incantation, en ligne droite. Un mur peut écourter la poussée, et un ennemi insensible aux déplacements ignore aussi le stun.",
+        "en": "Buster Shot (R) pushes in a straight line away from where you stand at the end of the cast. A wall can cut the push short, and a displacement-immune enemy also ignores the stun."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Charge explosive (E) blesse sa cible même si elle devient intouchable avant l'explosion. Les dégâts de la bombe arrivent quand même.",
+        "en": "Explosive Charge (E) hurts its target even if they turn untargetable before the blast. The bomb damage still lands."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Charge explosive (E) se pose aussi sur une tourelle, où elle explose dans un plus grand rayon. Avec Tir rapide (A), tu fais tomber les plates très vite quand la lane est libre.",
+        "en": "Explosive Charge (E) also sticks to a turret, where it blows in a larger radius. With Rapid Fire (Q), you take plates down very fast when the lane is open."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "L'effet passif de Charge explosive (E) fait exploser le sbire que ton auto achève et blesse ceux autour. Vise un sbire à la fois pour enchaîner les explosions et pousser la wave.",
+        "en": "The passive of Explosive Charge (E) makes the minion your auto finishes explode and hurt those around it. Focus one minion at a time to chain the blasts and push the wave."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "L'incantation de Charge explosive (E) dure autant que le windup de ton auto : plus tu as de vitesse d'attaque, plus elle part vite. Une réduction de vitesse d'attaque l'allonge d'autant.",
+        "en": "Explosive Charge (E) takes as long to cast as your auto windup: the more attack speed you have, the faster it goes out. An attack speed reduction stretches it just as much."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tristana - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Tristana",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Tristana Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=DUI81co_rXg",
+      "type": "video",
+      "date": "2026-10-21",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "Advanced Tristana Guide by a Rank 1 EUW",
+      "url": "https://www.youtube.com/watch?v=wxmxPC0KKeg",
+      "type": "video",
+      "date": "2026-09-03",
+      "author": "Neon LOL"
+    },
+    {
+      "title": "GUIDE TRISTANA SAISON 16 : TUTO comment MONTER ADC sur LEAGUE OF LEGENDS | Tips & Combos, Runes",
+      "url": "https://www.youtube.com/watch?v=HGffTDTw_A0",
+      "type": "video",
+      "date": "2026-11-05",
+      "author": "L'ADCarry • EXYT LOL"
+    },
+    {
+      "title": "Full Beginners Guide for Tristana | League of Legends",
+      "url": "https://www.youtube.com/watch?v=d9puXtrul1Y",
+      "type": "video",
+      "date": "2026-06-26",
+      "author": "Varry"
+    }
+  ]
+}

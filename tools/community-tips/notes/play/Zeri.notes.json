@@ -1,0 +1,41 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Zeri generates 1 charge for every 40 units she travels by any means and 10 charge every time she casts Burst Fire, up to a maximum of 100 charge.",
+    "At full charge, Zeri's next attack is empowered to consume all charge to deal magic damage (+ of target's maximum health).",
+    "Uncharged attacks do not execute enemies that are shielded or invulnerable while below the health threshold.",
+    "Zeri can cast Burst Fire even while silenced.",
+    "Burst Fire is still locked out while Zeri is affected by any form of other cast-inhibiting crowd control.",
+    "If the pulse hits terrain, it transforms into a laser in a line that grants sight of the area for 1.75 seconds and fires after 0.85 seconds, applying the same effects to enemies hit and critically striking against champions and monsters.",
+    "The pulse missile is blocked by projectile-interception effects but not the laser.",
+    "She will dash farther across terrain if Spark Surge was cast within 50 units of any.",
+    "Spark Surge's extended dash travels based on the thickness of the terrain, up to a maximum distance.",
+    "Spark Surge's current cooldown is reduced by 0.5 seconds whenever Zeri hits at least one enemy with a basic attack or Burst Fire, increased to 1.5 seconds if the latter critically strikes.",
+    "Spark Surge resets Zeri's basic attack timer and Burst Fire cooldown. Ultrashock Laser and Lightning Crash can be cast during the dash.",
+    "If this hits at least one enemy champion, she enters Overcharged for 5 seconds.",
+    "Zeri can move during Lightning Crash's cast time.",
+    "V26.09: Cooldown reduction can now be triggered from hitting any enemy, rather than only enemy champions.",
+    "[Crownie] essentially you need to be like 30° into the wall like this.",
+    "[Crownie] Or you can use it while W-ing on the wall. You can also do it reverse.",
+    "[Crownie] You can Q flash to make it like instant. You can also R flash.",
+    "[Crownie] But the most damage is probably R flash Q auto, essentially. And then you E.",
+    "[Crownie] you turn on auto attack and then you do auto Q E Q. You see? Instant. Essentially, it allows Zeri to short dash because for some reason this setting just cancels her E animation.",
+    "[Varry] basically what we can do is use e and then buffer our W within like our spell",
+    "[Varry] it's way better if you use e and then W from the wall because then it's empowered W.",
+    "[Varry] you can actually cancel your auto attack, but you need to have gameplay auto attack enabled for this. If not, it doesn't work. So the combo is basically you auto attack QE auto",
+    "[Varry] Really important is that you can ult flash.",
+    "[Varry] you always need to hit like one target with the ultimate."
+  ],
+  "rejected": [
+    { "idea": "Rafale (A) puis Flash pour une salve instantanée", "reason": "Une seule source joueur (Crownie), non confirmé par le wiki." },
+    { "idea": "Engage complet E, Z, R puis Flash (Varry)", "reason": "Une seule source ; ses éléments sont déjà couverts par les combos E-Z et R-Flash." },
+    { "idea": "Combo dégâts max Rafale, Rafale, auto, Rafale (Varry)", "reason": "Une seule source, pas d'interaction propre à vérifier." },
+    { "idea": "Sources antérieures au patch 26.09 (Dodge.gg mars 2026, guides Mobalytics/Mobafire)", "reason": "Gros changement de Zeri au 26.09 (Rafale, Charge ionique, Éruption électrique) : non retenues ; Mobalytics illisible (403)." }
+  ],
+  "toVerifyInGame": [
+    "Double Rafale : nom exact de l'option d'attaque automatique dans le client FR et fonctionnement au patch 16.22.",
+    "Éruption électrique puis Flash : la nova part bien de la position après le Flash (le wiki confirme seulement le déplacement pendant l'incantation).",
+    "Angle d'environ 30° vers le mur pour Charge ionique (conseil de Crownie)."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "searches": 2,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "While Fiddlesticks has been out of combat for at least 2.25 seconds and is not visible to the enemy team, or is impersonating an A Harmless Scarecrow, its damaging ability will additionally fear targets hit for a duration.",
+    "Targets feared by Fiddlesticks by any means cannot be affected by it again for a duration equal to Terrify's cooldown. Against these targets, Terrify's and minimum threshold are doubled.",
+    "Fiddlesticks can pretend to be an Effigy by standing still and not acting nor being acted upon for 2 seconds",
+    "impersonating an A Harmless Scarecrow allows Bountiful Harvest and Reap to fear enemies even when seen.",
+    "If the channel was not interrupted, 60% of the current cooldown is refunded.",
+    "The target does not have to be visible to be tethered by this ability.",
+    "Enemies hit in the center of the area are also silenced for 1.25 seconds.",
+    "Fiddlesticks channels for 1.5 seconds, then blinks to the target location upon completion with a murder of crows flying wildly around it for 5 seconds",
+    "Roots do not interrupt the ability despite being a movement channel.",
+    "Fiddlesticks will always blink to its intended location even if its position changes during the channel without being interrupted",
+    "After Fiddlesticks blinks from an unseen location into enemy vision using Crowstorm, an ability immediately cast after arriving will still apply fear before the grace period expires. This allows interactions such as Crowstorm into Reap, as well as the Crowstorm–Bountiful Harvest– interaction.",
+    "Flashing into enemy vision immediately removes Terrify's passive fear-applying eligibility and removes the normal grace period.",
+    "However, if an ability that is already eligible to apply fear is cast during the grace period before using Flash, that cast retains its fear effect after the Flash. This allows for the Crowstorm–Bountiful Harvest–Flash interaction.",
+    "if you are comboing properly you should be able to R q and then chain your fear with e while you're walking at them and then you like try to walk like on top of them until like you're literally um like your centers are on top of each other and you press a w",
+    "then w at the center of them and if they flash away they still take the last tick of your W and like you maximize your kill threat on them",
+    "whenever there are multiple targets like this I think sometimes it is better to just R plus W because uh I feel like your goal on Fiddlesticks is to get off as much damage as possible",
+    "if you want to see like add more advanced field six combos like the r w flash or the re fear I do have a separate video on those",
+    "when you are in fog of war or person imperson an effigy uh and you are out of combat for two and a half seconds any one of any of these abilities will also fear when you connect",
+    "so even though this dummy was outside of the range of my original of the original W that I used when I flash it extends the range to my flash location as long as I flash before the fear attach",
+    "as soon as my old cast I'm using my w and while the W is in the air I'm going to flash of these targets and it still fears them",
+    "your e can also be buffered and still fear these targets you have about a half second window where you can press the E before your R finishes and your e will go off",
+    "you can't really get to Raptor wall or anything and ult over and fear them here",
+    "Fiddlesticks' Q has a very interesting passive, where if he's out of combat and not visible to enemies, his next damaging ability will fear all targets hit.",
+    "if they were recently feared by Fiddlesticks, it instead deals double damage and doesn't fear again.",
+    "And if Fiddlesticks stands still for 2 seconds, he pretends to be one of his own effigies.",
+    "The last tick of damage does bonus execute damage, and if the channel wasn't interrupted, a large amount of the cooldown is refunded.",
+    "And enemies hit by the center also silenced.",
+    "For combos, your basic go-to is to attack into Q, E, and W. And your all-in is to get yourself into fog of war, into your ultimate, Q, E, and W.",
+    "You love ulting over walls into lanes."
+  ],
+  "rejected": [
+    { "idea": "TP sur une balise depuis le brouillard puis Z (et Flash) pour faire peur", "reason": "Une seule source (NunyuhBusiness), non documenté par le wiki." },
+    { "idea": "Combo TP-Z-Flash, R pour couper le drain, E à la fin de la peur (3,5 s de CC)", "reason": "Une seule source, combo de niche." },
+    { "idea": "La zone de dégâts de Z est légèrement plus grande que celle de l'ult", "reason": "Une seule source ; le wiki ne donne pas le rayon de dégâts de l'ult à comparer (600 vs 650 seulement en portée)." },
+    { "idea": "Jouer en quickcast et caméra déverrouillée pour enchaîner plus vite", "reason": "Conseil général de réglages, pas propre au champion." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre d'environ 0,5 s pour bufferiser Fauchaison (E) avant la fin de la canalisation de l'ult.",
+    "Ult-Z-Flash : le Flash doit partir pendant que les liens de Z voyagent, avant qu'ils ne s'attachent.",
+    "Le délai réel pour passer en effigie varie (environ 2,2 s, parfois plus après un sort) selon le wiki."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "champion": "Graves",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Reset d'auto avec Ruée", "en": "Quickdraw auto reset" },
+      "keys": ["E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Auto, puis Ruée vers l'or (E) tout de suite après : le dash reset ton auto et recharge une cartouche. Termine avec deux autos.",
+        "en": "Auto, then Quickdraw (E) right after: the dash resets your auto and reloads a shell. Finish with two autos."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "All-in de début de partie", "en": "Early game all-in" },
+      "keys": ["W", "E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Écran de fumée (Z) puis une auto, Ruée vers l'or (E) et une auto, puis Terminus (A) et une dernière auto. Une auto entre chaque sort pour ne perdre aucune cartouche.",
+        "en": "Smoke Screen (W) then an auto, Quickdraw (E) and an auto, then End of the Line (Q) and a final auto. One auto between each spell so you waste no shell."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "All-in complet avec l'ult", "en": "Full all-in with ult" },
+      "keys": ["W", "Q", "E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Écran de fumée (Z), Terminus (A) et une auto, puis Ruée vers l'or (E) et une auto. Finis avec Dégâts collatéraux (R) et une dernière auto.",
+        "en": "Smoke Screen (W), End of the Line (Q) and an auto, then Quickdraw (E) and an auto. Finish with Collateral Damage (R) and one last auto."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Terminus caché pendant le rechargement", "en": "Hidden Q while reloading" },
+      "keys": ["E", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Vide tes deux cartouches, puis lance Ruée vers l'or (E) et Terminus (A) presque en même temps. En rechargement, tu peux lancer tes sorts pendant le dash : le Terminus part sans animation visible.",
+        "en": "Empty both shells, then cast Quickdraw (E) and End of the Line (Q) almost together. While reloading, you can cast spells during the dash: the Q fires with no visible animation."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Terminus (A) explose dès qu'il touche un mur, au lieu d'attendre 2 s. Tire-le vers un mur derrière ta cible pour que la seconde explosion parte tout de suite.",
+        "en": "End of the Line (Q) detonates as soon as it hits a wall instead of waiting 2 s. Fire it at a wall behind your target so the second blast goes off right away."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Incassable de Braum compte comme un mur pour Terminus (A) et le fait exploser. Le Mur de vent de Yasuo, lui, détruit tout le sort, traînée comprise.",
+        "en": "Braum's Unbreakable counts as a wall for End of the Line (Q) and makes it detonate. Yasuo's Wind Wall destroys the whole spell, trail included."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque plomb qui touche un ennemi réduit le CD de Ruée vers l'or (E) de 0,5 s. Tire à bout portant pour que tous les plombs touchent et récupérer ton dash plus vite.",
+        "en": "Each pellet that hits an enemy cuts Quickdraw's (E) cooldown by 0.5 s. Shoot point-blank so every pellet lands and you get your dash back sooner."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Ruée vers l'or (E) donne 2 effets Nerfs d'acier au lieu d'un si un champion ennemi visible est devant toi pendant le dash. Dash vers lui en duel pour plus de résistances.",
+        "en": "You get 2 True Grit stacks from Quickdraw (E), not 1, when you can see an enemy champion ahead of you while dashing. Dash toward them in duels for more resistances."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Seule Ruée vers l'or (E) reset ton auto : les autres effets de reset d'auto n'agissent pas sur ton fusil à pompe.",
+        "en": "Only Quickdraw (E) resets your auto: other auto reset effects do nothing to your shotgun."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Un monstre ou un sbire touché par plusieurs plombs est repoussé. Profite-en pour kiter les camps de jungle et perdre moins de PV.",
+        "en": "A monster or minion hit by several pellets gets knocked back. Use it to kite jungle camps and lose less health."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un Purge ou une immunité aux CC retire l'effet de myopie d'Écran de fumée (Z), mais la vision de l'ennemi reste quand même réduite tant qu'il est dans la fumée.",
+        "en": "A Cleanse or CC immunity removes the Smoke Screen (W) nearsight debuff, but the enemy's sight is still reduced while they stay in the smoke."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Root, cloué au sol ou projeté en l'air, tu peux toujours tirer Dégâts collatéraux (R), mais tu ne recules pas. Ne compte pas dessus pour fuir sous CC.",
+        "en": "Rooted, grounded or knocked up, you can still fire Collateral Damage (R), but you do not recoil. Don't rely on it to escape under CC."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Graves – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Graves", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Best Graves Combos EVERYONE Should Master", "url": "https://www.youtube.com/watch?v=34R8Dn1OU_A", "type": "video", "date": "2025-09-24", "author": "Forest" },
+    { "title": "3 Minute Graves Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=49GTCE8Y1Ys", "type": "video", "date": "2026-07-06", "author": "3 Minute League of Legends" }
+  ]
+}

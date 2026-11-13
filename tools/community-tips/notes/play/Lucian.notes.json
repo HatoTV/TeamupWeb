@@ -1,0 +1,34 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Innate: After casting an ability, Lucian's next basic attack within 3.5 seconds fires an additional shot on-attack after 0.25 seconds.",
+    "Innate - Vigilance: Whenever Lucian is healed or shielded by an ally, or an enemy champion within 1000 units is immobilized, his next two shots within 6 seconds are empowered to deal bonus magic damage on-hit. He can store up to 4 empowered shots at a time.",
+    "Lucian can buffer W or R during the cast time. E is locked out.",
+    "Piercing Light's cast time ends prematurely if the initial target dies, allowing Lucian to attack and move freely, or to immediately begin casting either W or R.",
+    "Ardent Blaze will cast from wherever Lucian is at the end of the cast time.",
+    "Lucian gains bonus movement speed for 1 second when he or allied champions damage a marked target. Allied champions triggering this effect grant Lucian Lightslinger.",
+    "Passive: Relentless Pursuit's current cooldown is reduced by 1 second for each Lightslinger shot hit, doubled to 2 seconds against enemy champions.",
+    "Relentless Pursuit resets Lucian's basic attack timer. Lucian can cast any of his abilities during the dash. Relentless Pursuit can be cast during W cast time and during R channel.",
+    "Relentless Pursuit's dash can go through terrain, but will not be extended further if the target location is within terrain.",
+    "Casting Relentless Pursuit directly after attacking with Lightslinger will reduce Relentless Pursuit's cooldown when the projectiles hit the target.",
+    "The Culling can be recast after 0.75 seconds during the channel, and does so automatically when the channel ends.",
+    "For level one, the best combo to do, especially when cheesing an enemy or walking up for a short quick trade in lane, is auto attack, Q, and auto attack.",
+    "allows you to use your Q in the downtime of your first auto attack between your second one.",
+    "you can just go with the classic E auto attack Q and potentially auto attack if you have that ability to.",
+    "Essentially what you always want to be doing is using auto cancel it ability auto cancel it ability auto",
+    "Here is an example of me using my E to reset my auto attack.",
+    "For the most DPS, you want to keep your ult for after you've used all your basic abilities whilst they are on cooldown. And as soon as they start coming back up, you cancel your ult and go back to cycling your basic abilities again.",
+    "One of the few exceptions where you want to use two abilities together is the super important E plus W combo. You can basically cast your W while you're dashing.",
+    "what you can do is W flash auto auto Q like this boom you take one tower shot and you did an extreme amount of damage in a very short time"
+  ],
+  "rejected": [
+    { "idea": "Dash de Poursuite inlassable (E) contre un mur pour le reset d'auto le plus rapide", "reason": "Une seule source (Neon LOL), non confirmée par le wiki." },
+    { "idea": "Combo Flamboiement (Z) contre un mur, Lumière perforante (A), auto", "reason": "Une seule source (Neon LOL), séquence incomplète dans les sous-titres." },
+    { "idea": "Combos des niveaux 2-3 avec la vitesse de Nami ou Milio", "reason": "Dépend du support, pas une mécanique propre à Lucian seul." }
+  ],
+  "toVerifyInGame": [
+    "Flamboiement (Z) puis Flash pendant le lancer : le missile part bien du point d'arrivée.",
+    "Poursuite inlassable (E) visée dans un mur épais : vérifier où le dash s'arrête."
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "champion": "Chogath",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Auto, Piques, Rupture",
+        "en": "Auto, Spikes, Rupture"
+      },
+      "keys": [
+        "E",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Place une auto, puis Piques vorpales (E) pour reset ton attaque et frapper aussitôt. Le slow des piques t'aide à toucher Rupture (A) juste derrière.",
+        "en": "Land an auto, then Vorpal Spikes (E) to reset your attack and hit again right away. The spikes' slow helps you land Rupture (Q) right after."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Rupture, piques, silence",
+        "en": "Rupture, spikes, silence"
+      },
+      "keys": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Rupture (A), puis enchaîne auto et Piques vorpales (E) tant que la cible est en l'air. Finis avec Cri sauvage (Z) : le silence l'empêche de répondre pendant que tu tapes.",
+        "en": "Land Rupture (Q), then chain an auto and Vorpal Spikes (E) while the target is airborne. Finish with Feral Scream (W): the silence stops them from answering while you hit."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Engage complet jusqu'au Festin",
+        "en": "Full engage into Feast"
+      },
+      "keys": [
+        "Q",
+        "E",
+        "W",
+        "R"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Ouvre avec Rupture (A), auto et Piques vorpales (E), puis Cri sauvage (Z). Continue les autos jusqu'à ce que la marque d'exécution apparaisse, et finis avec Festin (R).",
+        "en": "Open with Rupture (Q), an auto and Vorpal Spikes (E), then Feral Scream (W). Keep autoing until the execute marker shows up, then finish with Feast (R)."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le délai de Rupture (A) s'ajoute au temps d'incantation : vise où ta cible sera, pas où elle est. La zone explose même si tu meurs pendant le délai.",
+        "en": "Rupture (Q) delay comes on top of its cast time: aim where your target will be, not where it is. The area still erupts even if you die during the delay."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si l'ennemi se purifie du knock-up de Rupture (A), il garde quand même le slow de 60 %. Seul un bouclier anti-sort qui bloque le knock-up évite aussi le slow.",
+        "en": "If the enemy cleanses Rupture (Q)'s knock-up, they still keep the 60% slow. Only a spell shield that blocks the knock-up also prevents the slow."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque cumul de Festin (R) te fait grossir, et la ligne de Piques vorpales (E) s'élargit avec ta taille. Un agrandissement externe, comme l'ult de Lulu, élargit aussi tes piques.",
+        "en": "Each Feast (R) stack makes you bigger, and the Vorpal Spikes (E) line widens with your size. An outside size boost, like Lulu's ult, also widens your spikes."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Festin (R) ne donne que 6 cumuls sur les sbires et monstres non épiques. Sur les champions, aucune limite : prends tes 6 cumuls de wave tôt.",
+        "en": "Feast (R) only grants 6 stacks from minions and non-epic monsters. On champions there is no limit: grab your 6 wave stacks early."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Contre un monstre, Festin (R) inflige 1200 dégâts bruts de base, bien plus que contre un champion. Garde-le pour sécuriser un drake ou le Nashor.",
+        "en": "Against a monster, Feast (R) deals 1200 base true damage, far more than against a champion. Keep it to secure a drake or Baron."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La marque d'exécution de Festin (R) ne tient pas compte des boucliers ni de l'invulnérabilité : une cible marquée mais protégée peut survivre à ton ult.",
+        "en": "Feast (R)'s execute marker doesn't account for shields or invulnerability: a marked target that is protected can survive your ult."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Carnivore te soigne et rend du mana aussi quand tu détruis une tourelle, mais pas avec les autres bâtiments ni les balises.",
+        "en": "Carnivore also heals you and restores mana when you destroy a turret, but not other structures or wards."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cho'Gath – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Cho'Gath",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "The ONLY Chogath Guide You Need - Chogath Guide League of Legends",
+      "url": "https://www.youtube.com/watch?v=l3B73XVQYSs",
+      "type": "video",
+      "date": "2026-01-06",
+      "author": "Daveyx3"
+    },
+    {
+      "title": "3 Minute Cho'Gath Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=u7TbekovaBk",
+      "type": "video",
+      "date": "2026-11-02",
+      "author": "3 Minute League of Legends"
+    }
+  ]
+}

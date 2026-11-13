@@ -1,0 +1,100 @@
+{
+  "champion": "Kalista",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Perforation et Extirpation liées", "en": "Pierce and Rend together" },
+      "keys": ["Q", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Perforation (A) puis Extirpation (E) pendant son incantation, avant le départ de la lance. La lance applique l'effet d'Extirpation dès qu'elle touche, sans temps perdu.",
+        "en": "Cast Pierce (Q), then Rend (E) during its cast time, before the spear leaves. The spear applies Rend's effect as soon as it hits, with no time lost."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Extirpation en plein saut", "en": "Mid-jump Rend" },
+      "keys": ["E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Après une auto, saute puis lance Extirpation (E) au milieu du saut, pas à l'atterrissage : tu reprends tes attaques presque sans temps mort.",
+        "en": "After an auto, jump, then cast Rend (E) in the middle of the jump, not on landing: you resume attacking with almost no downtime."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Transfert de lances", "en": "Spear transfer" },
+      "keys": ["Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Charge un sbire de lances, achève-le avec Perforation (A) : la lance continue et transfère toutes ses lances au prochain ennemi touché. Déclenche ensuite Extirpation (E) pour un gros poke.",
+        "en": "Load a minion with spears, finish it with Pierce (Q): the spear keeps going and transfers all its spears to the next enemy hit. Then trigger Rend (E) for big poke."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Ton saut passe les murs fins, y compris certains murs des fosses du dragon et du Baron. Le saut de Perforation (A) est plus long, donc plus facile pour ça.",
+        "en": "Your jump crosses thin walls, including some dragon and Baron pit walls. The Pierce (Q) jump is longer, so it makes this easier."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Ton saut est court vers ta cible et long sur le côté ou en arrière. Pour poursuivre, saute en biais plutôt que droit sur l'ennemi.",
+        "en": "Your jump is short toward your target and long sideways or backward. To chase, jump at an angle rather than straight at the enemy."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Les ralentissements réduisent la vitesse de tes sauts. Ralenti et sans besoin de bouger, reste immobile pour garder tes dégâts.",
+        "en": "Slows reduce your jump speed. When slowed and you do not need to move, stand still to keep your damage."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Après un saut, Maintien martial garde ta cible en mémoire : un simple clic au sol relance un saut avec attaque, sans recliquer sur l'ennemi.",
+        "en": "After a jump, Martial Poise remembers your target: a simple ground click triggers another attack and jump, without clicking the enemy again."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Extirpation (E) touche plus loin que sa portée de lancement affichée. En poursuite, tant que tu peux la lancer, elle atteint aussi un ennemi un peu au-delà du cercle.",
+        "en": "Rend (E) reaches farther than its displayed cast range. When chasing, as long as you can cast it, it also hits an enemy slightly beyond the circle."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si Extirpation (E) tue au moins une cible, son CD est réinitialisé et tu récupères du mana. Vise un sbire presque mort en même temps que le champion.",
+        "en": "If Rend (E) kills at least one target, its cooldown resets and you restore mana. Time it so a low minion dies along with hitting the champion."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Appel du destin (R), ton allié est purifié et invulnérable. Il choisit où atterrir ; sinon il part à portée max dans la direction où tu regardes.",
+        "en": "During Fate's Call (R), your ally is cleansed and invulnerable. They choose where to land; otherwise they fly at max range in the direction you face."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Kalista – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Kalista", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "KALISTA TIPS AND HIDDEN MECHANICS | S16 GUIDE", "url": "https://www.youtube.com/watch?v=pJiPP9P4BB8", "type": "video", "date": "2026-09-03", "author": "yuzuu" },
+    { "title": "Kalista Tips and Tricks (Beginner to Advanced)", "url": "https://www.youtube.com/watch?v=J7PJRulpGOQ", "type": "video", "date": "2025-05-21", "author": "KaliMon" }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "champion": "DrMundo",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Scie touchée, all-in", "en": "Bonesaw hit, all-in" },
+      "keys": ["Q", "W", "E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Scie souillée (A), active Défibrillateur (Z) au contact, auto, Contusion (E) pour réinitialiser ton attaque, auto, puis relance Z sur le champion pour te soigner au max.",
+        "en": "Land Infected Bonesaw (Q), activate Heart Zapper (W) in melee, auto, Blunt Force Trauma (E) to reset your attack, auto, then recast W on the champion for the full heal."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Auto, Contusion, auto", "en": "Auto, Trauma, auto" },
+      "keys": ["E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Place une auto, puis Contusion (E) juste après : elle réinitialise ton attaque et frappe aussitôt. Un trade court et lourd au corps à corps.",
+        "en": "Land an auto, then Blunt Force Trauma (E) right after: it resets your attack and hits at once. A short, heavy trade in melee range."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Sbire projeté sur le champion", "en": "Minion flung at champion" },
+      "keys": ["E", "W", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Achève un sbire avec Contusion (E) : son corps part en ligne et blesse le champion caché derrière. Enchaîne Défibrillateur (Z), deux autos et relance Z.",
+        "en": "Finish a minion with Blunt Force Trauma (E): its body flies in a line and hurts the champion hiding behind. Follow with Heart Zapper (W), two autos and recast W."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Scie souillée (A) te rend la totalité de son coût en PV si elle touche un champion ou un monstre, seulement la moitié sur un sbire.",
+        "en": "Infected Bonesaw (Q) refunds its full health cost when it hits a champion or a monster, only half on a minion."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Défibrillateur (Z) lancé pendant l'incantation de Scie souillée (A) part tout seul à la fin du lancer. Un clic de déplacement entre-temps annule ce buffer.",
+        "en": "Heart Zapper (W) pressed during Infected Bonesaw (Q) cast time fires on its own at the end of the throw. A move click in between cancels that buffer."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Défibrillateur (Z) stocke bien plus de dégâts en PV gris pendant ses 0,75 premières secondes. Active-le juste avant le burst adverse, pas après.",
+        "en": "Heart Zapper (W) stores far more damage as grey health during its first 0.75 seconds. Activate it right before the enemy burst, not after."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La détonation de Défibrillateur (Z) rend 100 % des PV gris si elle touche un champion ou un gros monstre, sinon seulement 50 %. Relance-la au contact.",
+        "en": "Heart Zapper (W) detonation heals 100% of the grey health if it hits a champion or a large monster, otherwise only 50%. Recast it in melee range."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'auto de Contusion (E) a un armement impossible à annuler et 50 de portée en plus : pratique pour toucher une cible qui recule.",
+        "en": "The Blunt Force Trauma (E) auto has a windup that cannot be cancelled and 50 extra range: handy to reach a target backing off."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Contusion (E) marche sur les tourelles : l'auto renforcée inflige tous ses dégâts à la structure.",
+        "en": "Blunt Force Trauma (E) works on turrets: the empowered auto deals its full damage to the structure."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Quand Il va où il veut bloque un CC, une fiole tombe vers la source du CC. Ramasse-la vite : soin et CD du passif réduit de 15 s. L'ennemi peut l'écraser en marchant dessus.",
+        "en": "When Goes Where He Pleases blocks a CC, a canister drops toward the CC source. Grab it fast: heal and 15 s off the passive cooldown. The enemy can destroy it by walking over it."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Au rang 3, Dosage maximal (R) devient plus fort pour chaque champion ennemi à 1200 unités au moment du lancement. En teamfight, active-le près d'eux.",
+        "en": "At rank 3, Maximum Dosage (R) gets stronger for each enemy champion within 1200 units when you cast it. In teamfights, pop it near them."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Dr. Mundo – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Dr Mundo Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=fgqCyCp-_EE", "type": "video", "date": "2026-10-27", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE MUNDO - POINTS FORTS, SORTS & COMBOS💥(Ft Kyrou )", "url": "https://www.youtube.com/watch?v=sk_Qs3-03f0", "type": "video", "date": "2024-07-18", "author": "iReaz - League of Legends" },
+    { "title": "🇫🇷 [GUIDE FR] Dr MUNDO TOPLANE, COMBOS, ASTUCES, GAMEPLAY.", "url": "https://www.youtube.com/watch?v=ttfBCJ4hZ44", "type": "video", "date": "2022-03-23", "author": "SOS LOL" }
+  ]
+}

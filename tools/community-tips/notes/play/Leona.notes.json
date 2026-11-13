@@ -1,0 +1,32 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Shield of Daybreak resets Leona's basic attack timer.",
+    "Shield of Daybreak's attack does not put Leona's basic attack on cooldown. This effectively performs a second basic attack reset.",
+    "Leona will wait out Shield of Daybreak's wind-down before automatically attacking, anyway. The player must issue the next attack themselves to gain the full benefit of the second reset.",
+    "Neither the cast nor detonation of Eclipse interrupts any of Leona's previous orders or ongoing attack windups.",
+    "Her shield detonates after the duration, dealing magic damage to nearby enemies. If this hits an enemy, Leona's guard is extended for an additional 3 seconds.",
+    "She can cast any of her abilities during the dash.",
+    "Leona will not track the target if they change locations during her dash. She will only dash to their current location at the time the sword fizzled.",
+    "Spell shield will block the damage, and prevent Leona from dashing as the last champion struck by her sword.",
+    "Solar Flare's visual effects are only visible to enemies if they have sight of the area it was cast upon.",
+    "Allied champions' damaging attacks and abilities against a marked target will consume the mark to deal bonus magic damage.",
+    "vous faites auto-attaque, A, auto-attaque",
+    "vous pouvez lancer votre R pendant que vous lancez votre E. Donc E, R, auto Q, auto. Ils seront enchaînés par les contrôles.",
+    "Si vos coéquipiers frappent l'ennemi, il subit tout simplement plus de dégâts. L'idée est donc d'espacer vos compétences si possible.",
+    "Et si vous ne touchez personne avec, votre bonus du Z disparaît.",
+    "Pour les combos, commencez par le E puis le Z pendant le déplacement. Enchaînez avec une attaque, le A, puis continuez à attaquer, avec l'ultime si nécessaire.",
+    "Si vous pouvez simplement vous approcher de votre cible, utilisez le Z, attaquez, faites un A et réattaquez.",
+    "si elle touche au moins un ennemi, elle conserve sa garde pendant 3 secondes de plus"
+  ],
+  "rejected": [
+    { "idea": "Lame du zénith (E) puis Flash très tôt pour rallonger l'engage (RaizinsLoL)", "reason": "Une seule source joueur, timing non confirmé par le wiki." },
+    { "idea": "Lame du zénith (E) pour franchir un mur", "reason": "Aucune source explicite (ni note wiki ni joueur)." },
+    { "idea": "Lancer E juste avant un étourdissement pour continuer le saut (RaizinsLoL)", "reason": "Une seule source, la vidéo dit elle-même que certains contrôles l'interrompent." },
+    { "idea": "Auto, A, auto pour détruire une balise en un instant", "reason": "Une seule source joueur." }
+  ],
+  "toVerifyInGame": [
+    "Éruption solaire (R) lancée pendant le saut de Lame du zénith (E) : la source RaizinsLoL date de 2021, kit inchangé selon le wiki mais à confirmer."
+  ]
+}

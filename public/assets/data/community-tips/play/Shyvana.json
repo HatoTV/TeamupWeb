@@ -1,0 +1,105 @@
+{
+  "champion": "Shyvana",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, Frappe, auto, Frappe", "en": "Auto, Emberstrike, auto, Emberstrike" },
+      "keys": ["Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Auto, Frappe enflammée (A), puis une auto pour débloquer tout de suite la relance de Frappe enflammée. Intercale toujours une auto entre deux relances pour le DPS max.",
+        "en": "Auto, Emberstrike (Q), then an auto to unlock the Emberstrike recast right away. Always weave an auto between two recasts for max DPS."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Trade court en humaine", "en": "Short trade in human form" },
+      "keys": ["W", "Q", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Égide de feu (Z), auto, Frappe enflammée (A) puis Éruption (E) pour ralentir. Auto, relance Frappe enflammée, puis continue d'auto.",
+        "en": "Inferno Aegis (W), auto, Emberstrike (Q) then Molten Burst (E) to slow. Auto, recast Emberstrike, then keep auto-attacking."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in en dragon", "en": "Dragon form all-in" },
+      "keys": ["R", "E", "W", "Q", "Q", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Vol du dragon (R) derrière ta cible pour la faire fuir vers ton équipe, puis Éruption (E) et Égide de feu (Z). Finis avec les trois Frappe enflammée (A), une auto entre chaque.",
+        "en": "Dragon's Descent (R) behind your target to make it flee toward your team, then Molten Burst (E) and Inferno Aegis (W). Finish with all three Emberstrikes (Q), an auto between each."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Morsure et Châtiment", "en": "Bite and Smite" },
+      "keys": ["Q", "D"],
+      "level": "medium",
+      "summoners": { "D": "SummonerSmite" },
+      "desc": {
+        "fr": "En forme de dragon, garde la 3e Frappe enflammée (A), la morsure en dégâts bruts, et enchaîne-la avec Châtiment pour voler un drake ou le Baron.",
+        "en": "In dragon form, save the third Emberstrike (Q), the true damage bite, and chain it with Smite to secure a drake or Baron."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La relance de Frappe enflammée (A) s'ouvre juste après une auto, ou 1,5 s après l'auto renforcée. Tu as ensuite 4 s pour la lancer avant le CD.",
+        "en": "The Emberstrike (Q) recast opens right after an auto, or 1.5 s after the empowered attack. You then have 4 s to use it before the cooldown."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque auto réduit le CD de Frappe enflammée (A) de 0,5 s. Plus tu frappes entre deux sorts, plus vite ta rotation revient.",
+        "en": "Each auto lowers the Emberstrike (Q) cooldown by 0.5 s. The more you hit between spells, the faster your rotation comes back."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort ne bloque pas les coups de Frappe enflammée (A) et n'est pas consommé par eux.",
+        "en": "A spell shield doesn't block Emberstrike (Q) hits and isn't consumed by them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le shield d'Égide de feu (Z) grossit de 30 % par champion ennemi proche. Relance-le après 1 s pour exploser ; en dragon, l'explosion te soigne si elle touche un champion.",
+        "en": "The Inferno Aegis (W) shield grows 30% per nearby enemy champion. Recast it after 1 s to explode; in dragon form, the blast heals you if it hits a champion."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "En dragon, Éruption (E) traverse les ennemis, explose sur les champions et grands monstres touchés et laisse un sol brûlant derrière elle.",
+        "en": "In dragon form, Molten Burst (E) passes through enemies, explodes on champions and large monsters hit, and leaves burning ground behind it."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Vol du dragon (R) te rend insensible aux déplacements dès son incantation : un knock-up ou un pull lancé pendant ta transformation ne t'arrête pas.",
+        "en": "Dragon's Descent (R) makes you immune to displacement from the start of its cast: a knock-up or pull thrown during your transformation won't stop you."
+      },
+      "refs": [0, 4]
+    }
+  ],
+  "sources": [
+    { "title": "Shyvana - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Shyvana", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY SHYVANA REWORK Guide You'll EVER NEED - League of Legends", "url": "https://www.youtube.com/watch?v=AaxGnsw34P4", "type": "video", "date": "2026-11-13", "author": "Skill Capped Challenger LoL Guides" },
+    { "title": "Guide de Shyvana en 3 minutes - Un guide pour League of Legends", "url": "https://www.youtube.com/watch?v=CjXp0cXoZuc", "type": "video", "date": "2026-11-13", "author": "3 Minute League of Legends" },
+    { "title": "Shyvana Build, Runes & Counters", "url": "https://outdraft.gg/en/champion/Shyvana", "type": "guide", "date": "2026-11-13", "author": "Outdraft.gg" },
+    { "title": "League of Legends Patch 26.6 Notes", "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-6-notes/", "type": "patchnote", "date": "2026-03-18", "author": "Riot Games" }
+  ]
+}

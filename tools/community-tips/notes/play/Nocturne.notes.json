@@ -1,0 +1,35 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Enemy champions and large monsters hit will leave a Dusk Trail behind while moving.",
+    "While on the Dusk Trail, Nocturne is ghosted and gains bonus attack damage and bonus total movement speed.",
+    "Duskbringer's Dusk Trail will expose the path of affected units until its duration ends. It is a form of obscured vision; the trail indirectly reveals the location of enemy units even in the fog of war, including those shrouded by stealth.",
+    "The formed Dusk Trail does not disappear if Duskbringer is intercepted by Wind Wall or Unbreakable.",
+    "Active: Nocturne gains a spell shield for 1.5 seconds. Upon successfully blocking a hostile effect, Shroud of Darkness' bonus attack speed is doubled for 5 seconds.",
+    "If Shroud of Darkness is active when Nocturne re-casts Paranoia to dash to a target, its duration is refreshed every 0.25 seconds during the dash.",
+    "Spell shield will block the tether's application but not the damage and aftereffects of one already applied.",
+    "If the tether is not broken by the end of its duration, the target is feared for a duration while being slowed by 90%.",
+    "Nocturne can cast any of his abilities and item actives during the dash.",
+    "Using a dash or blink ability will interrupt the flight.",
+    "Basic attacks reduce Umbra Blades' cooldown by 1 second, increased to 3 against enemy champions and monsters.",
+    "For combos start with Q into E and attack away. Try to get behind them to fear them in the wrong direction while using W to block a key ability.",
+    "When starting ult you should ultimate and you can use W while traveling to extend the length of it. Upon landing use Q into your E and then spam away with more attacks.",
+    "When ganking it's all about landing your Q into your fear.",
+    "Cool thing about it is you can actually use it during your ultimate",
+    "Cool things about it is you can cast it midair.",
+    "The most of the time, you just need to hit the Q right before you're about to hit land.",
+    "You W before you go in, Q, stridebreaker, E, and you're pretty much all abilities down on the target.",
+    "I have him feared, so I'm kind of put him away from the the wall, right? I know he's looking to flash over the wall there.",
+    "Here, you can spell shield, and it actually procs your bonus attack speed from your W passive."
+  ],
+  "rejected": [
+    { "idea": "Flash puis Crépuscule (A), car A puis Flash ne rallonge pas la portée (Inori)", "reason": "Interaction avec Flash confirmée ni par le wiki ni par une 2de source." },
+    { "idea": "Combo Paranoïa (R) avec l'actif de Briseur de foulées pendant le vol (Inori)", "reason": "Combo centré sur un objet ; une seule source joueur." },
+    { "idea": "Horreur indicible (E) peut donner un ghost permanent (note wiki)", "reason": "Comportement de bug, non fiable." }
+  ],
+  "toVerifyInGame": [
+    "Crépuscule (A) lancé juste avant l'atterrissage de Paranoïa (R) : vérifier que le bonus d'AD de la traînée s'applique dès l'arrivée.",
+    "Linceul des ténèbres (Z) activé juste avant la relance de Paranoïa (R) : vérifier qu'il tient jusqu'à l'atterrissage."
+  ]
+}

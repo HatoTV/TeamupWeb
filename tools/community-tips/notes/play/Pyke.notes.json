@@ -1,0 +1,37 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Releasing the ability within 0.4 seconds causes Pyke to instead thrust his blade in the target direction, dealing the same damage to the closest enemy champion, or closest enemy otherwise.",
+    "Only the charged version of Bone Skewer will be intercepted.",
+    "The pull can fling an enemy behind Pyke if the harpoon hits at close range.",
+    "Pyke dashes in the target direction, leaving behind a Phantom. After 1 second, the Phantom homes back to Pyke to stun enemies around it and those it passes through along the way",
+    "The dash distance can be extended to up to 900 units (estimated) when targeting across terrain.",
+    "Enemy champions within 1500 units of Pyke are alerted of his presence and whether he can execute them with Death from Below.",
+    "Attacking or casting abilities ends Ghostwater Dive immediately.",
+    "While Pyke is not visible to enemies, he rapidly consumes his grey health to heal for the same amount.",
+    "increased to 40% while there are two or more visible enemy champions nearby",
+    "If Death from Below hits an enemy champion or at least one is killed inside the X by the execution or an ally, Pyke will blink to the center of the X. For the latter case Pyke can also recast the ability within 20 seconds at no cost.",
+    "Death from Below cannot be interrupted; Pyke will always appear at the target location if enemy champions are caught inside the X even if he is moved during the cast time.",
+    "So, one important thing to note is that Pikes hook will always throw them the same range. So, when you're far away, you want to use this combo forward, but when you're close, you don't always want to use the E forward",
+    "use your E backwards at close range, hook, one auto, E backwards, and then two more.",
+    "if your enem is in the minion wave and you can't look for a hook, you can just go for stab into E",
+    "This is the most consistent way to land Pike's E without the enemy really knowing what's about to happen. You open with your E and then last second flash on top of them with the stun.",
+    "The later that you do the flash, the more unexpected it'll be and the harder it'll be to react",
+    "E, you flash, and then you charge your hook, walk so that you can throw them backwards. So this would be very commonly used to throw them into your team.",
+    "one thing to note is that your ulti will put you in the center. If you land, you will teleport to the center of your R. So, when you want to do this combo, you need to land your ult behind your enemy so that you can stun them.",
+    "For combos, engage with W into Q and E. From here, attack away until your ultimate can execute.",
+    "A fun combo is to W into your E and ultimate. This won't execute, but puts you behind them so you can stun them with your E.",
+    "If this ability hits an enemy champion, Pike will blink to the center of it. And if it executes them, he can recast the ability within the next 20 seconds for no cost.",
+    "Pike's W causes him to enter camouflage and gain a massive amount of bonus movement speed for 5 seconds. Enemy champions nearby are, however, alerted of his presence."
+  ],
+  "rejected": [
+    { "idea": "Harponnage (A) puis Exécution abyssale (R) (Davemon)", "reason": "Une seule source joueur ; Davemon précise lui-même que l'enchaînement peut être évité au Flash." },
+    { "idea": "Ressac fantôme (E) vers l'avant, harpon chargé puis Flash derrière la cible (Davemon)", "reason": "Une seule source, variante très avancée." },
+    { "idea": "Exécution abyssale (R) ne part pas en CD si Pyke meurt pendant l'incantation", "reason": "Cas trop marginal." }
+  ],
+  "toVerifyInGame": [
+    "Ressac fantôme (E) puis Flash : le wiki dit que le fantôme revient vers Pyke (donc vers sa nouvelle position), à vérifier en jeu.",
+    "Dash de Ressac fantôme (E) à travers un mur : distance d'environ 900 unités estimée par le wiki."
+  ]
+}

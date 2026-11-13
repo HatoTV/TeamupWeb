@@ -1,0 +1,93 @@
+{
+  "champion": "Anivia",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Lance de glace, Gelure express", "en": "Flash Frost, instant Frostbite" },
+      "keys": ["Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Envoie Lance de glace (A) et enchaîne Gelure (E) aussitôt, sans attendre l'impact : à portée de Gelure, la Lance touche en premier et gèle la cible, donc les dégâts sont doublés. Ton CD de Gelure repart aussi plus tôt.",
+        "en": "Throw Flash Frost (Q) and chain Frostbite (E) right away, before the impact: within Frostbite range, the Frost lands first and chills the target, so the damage is doubled. Your Frostbite cooldown also starts sooner."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Lance, mur, Gelure", "en": "Frost, wall, Frostbite" },
+      "keys": ["Q", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance de glace (A), puis Cristallisation (Z) pour couper la fuite de ta cible, et Gelure (E) tant qu'elle est gelée.",
+        "en": "Flash Frost (Q), then Crystallize (W) to cut off your target's escape, and Frostbite (E) while it is still chilled."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Tempête, mur, Lance", "en": "Storm, wall, Frost" },
+      "keys": ["R", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Tempête glaciale (R) sur l'adversaire, ferme-lui la sortie avec Cristallisation (Z), puis finis avec Lance de glace (A) : le stun devient presque garanti.",
+        "en": "Drop Glacial Storm (R) on the enemy, block the way out with Crystallize (W), then finish with Flash Frost (Q): the stun becomes almost guaranteed."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Contre un bouclier de sorts, laisse Lance de glace (A) traverser la cible pour faire sauter le bouclier, puis réactive-la : l'explosion stun normalement.",
+        "en": "Against a spell shield, let Flash Frost (Q) pass through the target to pop the shield, then recast it: the explosion stuns as usual."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lance de glace (A) explose toute seule à portée max. Réactive-la toi-même dès que ta cible entre dans le rayon d'explosion, sans attendre la fin du trajet.",
+        "en": "Flash Frost (Q) bursts on its own at max range. Recast it yourself as soon as your target is inside the blast radius, without waiting for the end of its path."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Gelure (E) vérifie le gel à l'impact, pas au lancement : si le gel de la cible expire pendant le trajet, tu perds les dégâts doublés.",
+        "en": "Frostbite (E) checks the chill on impact, not on cast: if the target's chill runs out during the flight, you lose the doubled damage."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tempête glaciale (R) grandit pendant 1,5 s. À pleine taille, elle triple ses dégâts, ralentit plus fort et gèle les ennemis pour Gelure (E).",
+        "en": "Glacial Storm (R) grows for 1.5 s. At full size, it triples its damage, slows harder and chills enemies for Frostbite (E)."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Cristallisation (Z) repousse les ennemis de chaque côté du mur, jamais à travers le terrain. Le mur bloque le passage pendant 5 s mais pas la vision.",
+        "en": "Crystallize (W) pushes enemies to either side of the wall, never through terrain. The wall blocks the path for 5 s but does not block vision."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le Sablier de Zhonya ne coupe pas Tempête glaciale (R) : la zone continue pendant ta stase. Un contrôle qui t'empêche de lancer des sorts, ou trop de distance, la désactive.",
+        "en": "Zhonya's Hourglass does not cancel Glacial Storm (R): the zone keeps going during your stasis. Crowd control that stops casting, or moving too far, turns it off."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Anivia – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Anivia", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 TIPS That Will IMPROVE Your ANIVIA Gameplay - PART 2", "url": "https://www.youtube.com/watch?v=I7Eu_eSyTmU", "type": "video", "date": "2024-08-09", "author": "SanSiroBro" },
+    { "title": "3 Minute Anivia Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=SZwNzKCmXxQ", "type": "video", "date": "2025-10-10", "author": "3 Minute League of Legends" },
+    { "title": "My Anivia Guide: Scale. Control. Carry.", "url": "https://www.youtube.com/watch?v=Ia_EAwRhMt8", "type": "video", "date": "2026-10-14", "author": "ThinkingAboutLeague" }
+  ]
+}

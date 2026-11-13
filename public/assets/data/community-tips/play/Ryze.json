@@ -1,0 +1,100 @@
+{
+  "champion": "Ryze",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Flux puis Court-circuit", "en": "Flux into Overload" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Flux envoûtant (E) sur un sbire collé à l'adversaire, puis Court-circuit (A) sur ce sbire. Les dégâts bonus se propagent à tous les ennemis marqués autour, champion compris : ton trade de base en lane.",
+        "en": "Cast Spell Flux (E) on a minion next to your opponent, then Overload (Q) on that minion. The bonus damage spreads to every marked enemy around, champion included: your basic lane trade."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Enracinement pour un gank", "en": "Root setup for a gank" },
+      "keys": ["Q", "E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Court-circuit (A), Flux envoûtant (E), puis Prison runique (Z) : la cible marquée est enracinée au lieu d'être ralentie. Finis avec Court-circuit (A) pour les dégâts et la vitesse, que tu engages ou que tu fuies.",
+        "en": "Overload (Q), Spell Flux (E), then Rune Prison (W): the marked target is rooted instead of slowed. Finish with Overload (Q) for damage and speed, whether you engage or escape."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Combo long pour le burst", "en": "Long burst combo" },
+      "keys": ["E", "Q", "W", "Q", "E", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Place Court-circuit (A) après chaque autre sort : chacun réinitialise son CD. Bufferise-le pendant l'incantation de Flux envoûtant (E) ou de Prison runique (Z) pour ne perdre aucun temps entre les sorts.",
+        "en": "Fit Overload (Q) after every other spell: each one resets its cooldown. Buffer it during the cast time of Spell Flux (E) or Rune Prison (W) so you lose no time between spells."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Court-circuit (A) se bufferise 0,5 s avant la fin de son CD, et aussi pendant l'incantation de Flux envoûtant (E) ou de Prison runique (Z) : il part dès la fin de l'animation.",
+        "en": "Overload (Q) can be buffered 0.5 s before it comes off cooldown, and also during the cast time of Spell Flux (E) or Rune Prison (W): it fires as soon as the animation ends."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Avec 2 runes chargées, Court-circuit (A) te donne 30 à 50 % de vitesse de déplacement pendant 2 s. Lance deux autres sorts juste avant pour fuir ou rattraper une cible.",
+        "en": "With 2 Runes charged, Overload (Q) grants you 30 to 50% movement speed for 2 s. Cast two other spells right before it to escape or catch a target."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Prison runique (Z) seule ralentit de 50 %. Sur une cible marquée par Flux envoûtant (E), elle enracine à la place : pose toujours la marque avant si tu veux bloquer quelqu'un.",
+        "en": "Rune Prison (W) alone slows by 50%. On a target marked by Spell Flux (E), it roots instead: always apply the mark first if you want to lock someone down."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le Mur de vent (Z) de Yasuo bloque le projectile principal de Flux envoûtant (E), mais pas les rebonds qui partent vers les ennemis proches.",
+        "en": "Yasuo's Wind Wall (W) blocks the main missile of Spell Flux (E), but not the bounces that travel to nearby enemies."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Relancer Flux envoûtant (E) sur une cible déjà marquée déclenche l'ancienne marque, qui se propage plus loin, et en pose une nouvelle : pratique pour marquer tout un groupe.",
+        "en": "Recasting Spell Flux (E) on an already marked target triggers the old mark, which spreads farther, and applies a fresh one: handy to mark a whole group."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Portail transdimensionnel (R) se canalise 2 s et tu peux agir pendant ce temps. Mais si un contrôle t'interrompt, le portail est annulé pour toute l'équipe.",
+        "en": "Realm Warp (R) channels for 2 s and you can act during it. But if crowd control interrupts you, the portal is cancelled for the whole team."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "À l'arrivée de Portail transdimensionnel (R), tes alliés gardent leurs positions les uns par rapport aux autres. Tout le monde est enraciné, réduit au silence et impossible à cibler environ 0,75 s.",
+        "en": "When Realm Warp (R) lands, your allies keep their positions relative to one another. Everyone is rooted, silenced and untargetable for about 0.75 s."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Ryze - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Ryze", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "COMMENT JOUER RYZE - GUIDE COMPLET ET APPROFONDI", "url": "https://www.youtube.com/watch?v=8xmqRg9pIbA", "type": "video", "date": "2026-11-13", "author": "Shok" },
+    { "title": "Best Ryze Build & Guide (2026) — League of Legends", "url": "https://www.dodge.gg/news/ryze-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" }
+  ]
+}

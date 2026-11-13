@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Three Talon Strike basic attack resets Xin Zhao's basic attack timer.",
+    "Xin Zhao empowers his next three basic attacks on-attack within 5 seconds to each have an uncancellable windup, deal bonus physical damage and reduce his other abilities' current cooldowns by 1 second.",
+    "The enhanced attacks present input buffering during their wind-up animation (Xin Zhao cannot be issued any commands until after it ends).",
+    "The farthest champion or large monster hit within the thrust's area is also marked as Challenged and is revealed for 3 seconds.",
+    "Xin Zhao reveals himself during the cast if there is an enemy champion nearby.",
+    "The thrust will occur from wherever Xin Zhao is at the end of the cast time.",
+    "Audacious Charge's range is increased against Challenged targets.",
+    "Three Talon Strike and Crescent Guard can be cast during the dash.",
+    "Only one enemy can be marked as Challenged at a time; applying the mark to a new target removes it from the previous one.",
+    "knocking back all targets hit that are not Challenged up-to 700 units over 0.75 seconds, as well as stunning them for the same duration.",
+    "For the next 4 seconds, Xin Zhao is invulnerable against enemy champions far away from him.",
+    "Pets, stealthed traps, ground-targeted area of effects, damage over time, and delayed-damage abilities (e.g. Death Mark, Explosive Charge, Hemoplague) will not damage Xin Zhao if the enemy champion source is outside the circle when the damage applies.",
+    "Displacement immunity will also resist the application of the stun.",
+    "3 Minute LoL : Pour les combos, commencez par E puis une attaque avant d'utiliser A pour trois attaques. Enchaînez avec Z, une attaque et l'ultime, puis attaquez tout en vous déplaçant.",
+    "3 Minute LoL : Votre combo d'engagement longue portée est Z suivi du E, puis attaquez et utilisez l'ultime.",
+    "3 Minute LoL : La portée du dash est augmentée si l'ennemi est marqué comme défié ; vous appliquez cette marque avec votre Z, puis après le niveau six, vos auto-attaques et votre E l'appliqueront aussi.",
+    "3 Minute LoL : L'ultime de Xin inflige des dégâts dans un large cercle autour de lui, repoussant tous les ennemis touchés qui n'étaient pas défiés.",
+    "3 Minute LoL : Placer votre Z sur une cible prioritaire, sauter dessus et utiliser votre ultime crée un chaos total tout en vous protégeant des autres ennemis.",
+    "Mayzeek : on va e notre cible en premier, on va autoattaque que pour avoir le reset d'autoattaque. Et ensuite dès que la cible va être bump avec notre troisème queue, on va W pour mettre tous les dégâts.",
+    "Mayzeek : On va donc E en premier la cible. Ensuite, on va faire auto W et pas Q cette fois-ci. Auto W auto Q auto",
+    "Mayzeek : on va récupérer notre W un peu plus tôt, 3 secondes plus tôt du coup",
+    "Mayzeek : vous ne pouvez défier qu'un ennemi à la fois. Donc si vous voulez par exemple aller sur ce cet ennemi, il ne faut pas viser trop loin",
+    "Mayzeek : on peut lancer notre W avant de flash. Par exemple là, l'ennemi il est pas en range. Donc si je lance mon W, je touche pas. Par contre, je lance mon W et je flash, il peut surprendre l'adversaire",
+    "Mayzeek : réussir à toucher un Z de loin pour pouvoir se rapprocher R pour isoler le joueur de son équipe"
+  ],
+  "rejected": [
+    { "idea": "« Insec » : défier un ennemi derrière l'ADC, sauter dessus et ult pour renvoyer l'ADC vers ton équipe", "reason": "Une seule source joueur (Mayzeek), explication confuse dans les sous-titres ; mécanique plausible mais direction du knockback non confirmée en ce sens." },
+    { "idea": "Garder Charge audacieuse (E) pour rattraper un Flash ou un dash après le knock-up de la 3e frappe", "reason": "Une seule source joueur (3 Minute LoL), pas de note wiki." },
+    { "idea": "Charge audacieuse a un rayon de tolérance de 200 unités", "reason": "Note wiki trop technique pour une astuce utile sans test en jeu." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte pour Flash pendant l'incantation de Vent et foudre (0,5 s) afin que l'estoc parte de la nouvelle position.",
+    "Ordre E, auto, Z, auto, A : gain réel de CD sur le Z dans un duel long.",
+    "Changer la marque de défi sur un autre champion juste avant l'ult pour repousser la cible frappée."
+  ]
+}

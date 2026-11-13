@@ -1,0 +1,109 @@
+{
+  "champion": "Kaisa",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court en lane", "en": "Short lane trade" },
+      "keys": ["E", "Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Surpresseur (E), place une auto puis Pluie d'Icathia (A). Ajoute une auto et Rayon du Néant (Z), puis recule en tapant.",
+        "en": "Cast Supercharge (E), land an auto, then Icathian Rain (Q). Add an auto and Void Seeker (W), then back off while attacking."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "All-in Rayon puis Instinct", "en": "Void Seeker into Killer Instinct" },
+      "keys": ["W", "R", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche avec Rayon du Néant (Z) pour poser du Plasma, saute dessus avec Instinct meurtrier (R) et lance Pluie d'Icathia (A) en l'air. Termine avec Surpresseur (E) et tes autos.",
+        "en": "Hit Void Seeker (W) to apply Plasma, jump in with Killer Instinct (R) and fire Icathian Rain (Q) mid-air. Finish with Supercharge (E) and your autos."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Rayon pendant le saut", "en": "Void Seeker mid-dash" },
+      "keys": ["R", "W"],
+      "level": "hard",
+      "desc": {
+        "fr": "Pendant le dash d'Instinct meurtrier (R), lance Rayon du Néant (Z) en l'air : tu tires de tout près et il touche presque à coup sûr. De loin, attends un peu avant de le lancer.",
+        "en": "During the Killer Instinct (R) dash, cast Void Seeker (W) mid-air: you fire from point-blank range and it almost always lands. From max range, wait a bit before casting it."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pluie d'Icathia (A) répartit ses missiles entre les ennemis visibles autour de toi, choisis au lancement. Sur une cible isolée, elle prend tout : attends qu'elle sorte de sa wave.",
+        "en": "Icathian Rain (Q) splits its missiles between visible enemies around you, picked on cast. On an isolated target, they take it all: wait until they leave their wave."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lance Pluie d'Icathia (A) puis Surpresseur (E) aussitôt : la charge de Surpresseur n'empêche pas les missiles de partir.",
+        "en": "Cast Icathian Rain (Q), then Supercharge (E) right away: charging Supercharge does not stop the missiles from firing."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant la charge de Surpresseur (E), un clic d'attaque devient un déplacement. Fais un attack-move au sol : tu t'arrêtes à portée et tu tapes dès la fin de la charge.",
+        "en": "While Supercharge (E) charges, an attack click becomes a move order. Use attack-move on the ground: you stop in range and attack as soon as the charge ends."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque auto réduit de 0,5 s le CD de Surpresseur (E). Dans un long combat, continue de taper pour le relancer plus vite.",
+        "en": "Each auto cuts 0.5 s off Supercharge (E) cooldown. In a long fight, keep attacking to get it back sooner."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Quand un allié proche immobilise un champion, il lui pose un Plasma. Ça suffit pour lancer Instinct meurtrier (R) sur lui : suis le CC de ton équipe.",
+        "en": "When a nearby ally immobilizes a champion, it applies one Plasma. That is enough to cast Killer Instinct (R) on them: follow your team's CC."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Instinct meurtrier (R) réinitialise ton auto et te donne un bouclier, rafraîchi à la fin du dash. Place une auto juste avant de sauter, puis une autre en arrivant.",
+        "en": "Killer Instinct (R) resets your auto and gives you a shield, refreshed when the dash ends. Land an auto right before you jump, then another as you land."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pour Instinct meurtrier (R), c'est le champion marqué qui doit être à portée, pas le point visé. Même à portée max, tu peux viser le bord du cercle autour de lui.",
+        "en": "For Killer Instinct (R), the marked champion must be in range, not the target spot. Even at max range, you can aim at the edge of the circle around them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Évolué, Rayon du Néant (Z) rend 75 % de son CD s'il touche un champion. Après un premier tir réussi, attends un peu avant d'entrer pour en tirer un second pendant le combat.",
+        "en": "Once evolved, Void Seeker (W) refunds 75% of its cooldown when it hits a champion. After a first hit, wait a bit before going in so you can fire a second one in the fight."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Kai'Sa – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Kai'Sa", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Kai'sa Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=-guM_2kESCo", "type": "video", "date": "2025-09-06", "author": "3 Minute League of Legends" },
+    { "title": "These Kai’Sa Mechanics Look ILLEGAL (Complete Guide)", "url": "https://www.youtube.com/watch?v=hZtSyWLmPEU", "type": "video", "date": "2025-11-18", "author": "BIZYZE Coaching" },
+    { "title": "Advanced Kaisa Guide by a PRO player", "url": "https://www.youtube.com/watch?v=_WQ0HYxPAk0", "type": "video", "date": "2025-06-22", "author": "Neon LOL" }
+  ]
+}

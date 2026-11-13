@@ -1,0 +1,33 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "The snowball explodes upon hitting an enemy champion, large pet, medium or large monster, or terrain, dealing magic damage to nearby enemies",
+    "If the snowball exploded while it was being steered, Willump becomes stunned",
+    "Nunu and Willump keep all increases in movement speed at time of cast for the duration of the charge.",
+    "After 3 seconds from the first cast, Snowbound enemies near Willump take magic damage and are rooted",
+    "Absolute Zero can be recast after 0.5 seconds during the channel, and does so automatically when the channel ends by any means.",
+    "Nunu and Willump cause the blizzard to explode, dealing magic damage to nearby enemies",
+    "The affected area is hidden if the duo is not visible to the enemy team.",
+    "The heal is increased while he is below 50% maximum health.",
+    "Icon border glows when he is within the maximum healing threshold.",
+    "they and a nearby allied champion gain Call of the Freljord for 4 seconds, prioritizing the ally with highest attack speed.",
+    "However, if Nunu's still holding the snowball when he makes impact, he will also be very briefly stunned.",
+    "Nunu can recast this ability twice more and after 3 seconds, enemies around him take damage and are rooted.",
+    "For combos, start with W and just before it lands, reactivate W into your E, attack into your second E, and then Q before using a final E and attack away using alt if sensible.",
+    "Entering late game team fights, you either want to lure enemies into your ultimate while you're in a brush or play the engage with a snowball.",
+    "vous pouvez tuer n'importe quelle cible fragile en un combo si vous placez votre boule de neige et votre ultime.",
+    "car si vous lancez une boule de neige avec le bonus de vitesse, il persiste toute la durée.",
+    "Si vous lancez votre boule de neige sur un carapateur, elle a plus de chances de toucher",
+    "Cependant, soyez prudent, car tout contrôle de foule de la part du jungler adverse peut interrompre votre ultime."
+  ],
+  "rejected": [
+    { "idea": "Prendre le Châtiment bleu pour accélérer la boule (Pentaless)", "reason": "Conseil de sort d'invocateur / build, hors périmètre combos et astuces." },
+    { "idea": "Tourner en rond avec la boule pour toucher 3 fois le même point (note wiki)", "reason": "Peu joué, aucune source joueur pour le confirmer." },
+    { "idea": "Combo avec Flash", "reason": "Aucune source ne décrit d'interaction avec Flash." }
+  ],
+  "toVerifyInGame": [
+    "Relâcher Boule de neige géante ! (Z) juste avant l'impact : vérifier qu'aucun étourdissement ne s'applique à Willump.",
+    "Bonus de vitesse du carapateur pris juste avant la boule : vérifier qu'il reste toute la charge."
+  ]
+}

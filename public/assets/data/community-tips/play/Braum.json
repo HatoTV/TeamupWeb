@@ -1,0 +1,109 @@
+{
+  "champion": "Braum",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Saut, bouclier, Morsure", "en": "Jump, shield, Bite" },
+      "keys": ["W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Bouclier humain (Z) sur un allié, Incassable (E) pendant le saut, puis Morsure de l'hiver (A) dès l'atterrissage. Lancer le E en plein dash rend ton A beaucoup plus rapide à sortir, puis enchaîne les autos.",
+        "en": "Stand Behind Me (W) on an ally, Unbreakable (E) mid-jump, then Winter's Bite (Q) as you land. Casting E during the dash makes your Q come out much faster, then chain your autos."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage teamfight à l'ult", "en": "Teamfight ult engage" },
+      "keys": ["W", "E", "R", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Saute sur un allié avec Bouclier humain (Z), lève Incassable (E) en vol et lance Fissure glaciale (R) pendant le dash : l'animation est presque instantanée. Finis avec des autos et Morsure de l'hiver (A).",
+        "en": "Jump to an ally with Stand Behind Me (W), raise Unbreakable (E) in the air and cast Glacial Fissure (R) during the dash: the animation is almost instant. Finish with autos and Winter's Bite (Q)."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Saut sur sbire, passif", "en": "Minion jump into passive" },
+      "keys": ["W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Bouclier humain (Z) sur un sbire allié près de l'adversaire, une auto, puis Morsure de l'hiver (A). Tu as 2 cumuls de Coups étourdissants : les autos de ton ADC finissent le stun.",
+        "en": "Stand Behind Me (W) on an allied minion near your opponent, one auto, then Winter's Bite (Q). That is 2 Concussive Blows stacks: your ADC's autos finish the stun."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Après ton premier cumul de Coups étourdissants, chaque auto d'un champion allié ajoute un cumul. Pose la marque, ton équipe finit le stun pour toi.",
+        "en": "Once your first Concussive Blows stack is on, every allied champion auto adds a stack. Apply the mark and your team finishes the stun for you."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bouclier humain (Z) marche sur les sbires alliés. Si un ennemi se trouve derrière ta cible, ton dash s'allonge jusqu'à 800 unités au lieu de 650.",
+        "en": "Stand Behind Me (W) works on allied minions. If an enemy stands behind your target, your dash stretches up to 800 units instead of 650."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si ton dash de Bouclier humain (Z) est interrompu, ni toi ni ton allié ne recevez les résistances. Évite de sauter à travers un CC qui t'attend.",
+        "en": "If your Stand Behind Me (W) dash gets interrupted, neither you nor your ally get the resistances. Avoid jumping through crowd control waiting for you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La réduction totale d'Incassable (E) annule plusieurs instances de dégâts si elles te touchent au même moment, pas seulement la première.",
+        "en": "The full reduction of Unbreakable (E) cancels several damage instances if they hit you at the exact same time, not only the first one."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Incassable (E) réduit aussi les sorts posés au sol, comme Colonne de flammes de Brand, si le centre de la zone est devant ton bouclier.",
+        "en": "Unbreakable (E) also reduces ground-placed spells, like Brand's Pillar of Flame, if the center of the area is in front of your shield."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si Incassable (E) intercepte un projectile à effet de zone, ce projectile explose quand même sur toi et touche tes alliés autour. La réduction de dégâts ne protège que toi.",
+        "en": "An area projectile caught by Unbreakable (E) still explodes on you and hits allies nearby. The damage reduction only protects you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bouclier levé, Incassable (E) te donne de la vitesse et te laisse traverser les unités. Utile pour passer à travers une wave et rattraper ta cible.",
+        "en": "With your shield up, Unbreakable (E) gives you speed and lets you walk through units. Handy to pass through a wave and catch your target."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Fissure glaciale (R) projette la première cible touchée plus longtemps si elle est loin de toi, jusqu'à 2 s. Vise le carry au bout de la fissure.",
+        "en": "Glacial Fissure (R) knocks up the first target hit for longer the farther it is from you, up to 2 s. Aim for the carry at the far end."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Braum – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Braum", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Braum Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=7KSY6Uv-q3A", "type": "video", "date": "2025-09-28", "author": "3 Minute League of Legends" },
+    { "title": "12 Actually Useful Tips for BRAUM", "url": "https://www.youtube.com/watch?v=XOm39P_CHYA", "type": "video", "date": "2023-05-28", "author": "RaizinsLoL" },
+    { "title": "GUIDE BRAUM SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=-Rd740KVY-M", "type": "video", "date": "2025-06-18", "author": "EXYT - League of Legends" }
+  ]
+}

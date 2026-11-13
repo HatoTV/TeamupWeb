@@ -1,0 +1,100 @@
+{
+  "champion": "Naafiri",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Dague, Hallali, seconde dague", "en": "Dagger, Hounds' Pursuit, second dagger" },
+      "keys": ["Q", "R", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Dagues des Darkin (A), fonce sur la cible avec Hallali (R), puis relance la dague à bout portant. Garde Éviscération (E) pour la rattraper si elle fuit.",
+        "en": "Throw Darkin Daggers (Q), rush the target with Hounds' Pursuit (R), then recast the dagger point-blank. Keep Eviscerate (E) to catch it if it runs."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Engage avec Appel de la meute", "en": "Call of the Pack engage" },
+      "keys": ["W", "Q", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Appel de la meute (Z), Dagues des Darkin (A), puis Éviscération (E) sur la cible. Place une auto, puis la seconde dague sur la cible qui saigne.",
+        "en": "The Call of the Pack (W), Darkin Daggers (Q), then Eviscerate (E) onto the target. Weave an auto, then the second dagger on the bleeding target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in complet avec Hallali", "en": "Full all-in with Hounds' Pursuit" },
+      "keys": ["W", "Q", "R", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Appel de la meute (Z), Dagues des Darkin (A), puis Hallali (R). Dès l'arrivée, Éviscération (E) et seconde dague pour finir.",
+        "en": "The Call of the Pack (W), Darkin Daggers (Q), then Hounds' Pursuit (R). On arrival, Eviscerate (E) and the second dagger to finish."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La seconde Dagues des Darkin (A) sur une cible qui saigne inflige d'un coup le reste du saignement, plus des dégâts qui montent avec ses PV manquants, et te soigne sur un champion.",
+        "en": "The second Darkin Daggers (Q) on a bleeding target deals the rest of the bleed at once, plus damage that grows with its missing health, and heals you on a champion."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Appel de la meute (Z) te rend intouchable pendant 1 s : sers-t'en pour esquiver un sort clé, ou après un kill sous tour pour que la tourelle te lâche.",
+        "en": "The Call of the Pack (W) makes you untargetable for 1 s: use it to dodge a key spell, or after a kill under tower so the turret drops you."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un kill dans les 7 s après Hallali (R) te permet de le relancer gratuitement, avec un bouclier en prime : enchaîne sur une deuxième cible.",
+        "en": "A takedown within 7 s of Hounds' Pursuit (R) lets you recast it for free, with a shield on top: chain onto a second target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lancer Hallali (R) prolonge de 1,75 s la chasse d'Appel de la meute (Z), sans dépasser sa durée de départ : lance le R pendant le Z.",
+        "en": "Casting Hounds' Pursuit (R) extends The Call of the Pack (W) hunt by 1.75 s, up to its starting duration: cast R while W is running."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le lancer et le dash de Hallali (R) ne brisent pas le camouflage : tu peux t'en servir sans te dévoiler.",
+        "en": "Casting and dashing with Hounds' Pursuit (R) does not break stealth: you can use it without revealing yourself."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque les dégâts d'arrivée de Naafiri avec Hallali (R), mais pas ceux de ses chiens.",
+        "en": "A spell shield blocks Naafiri's own impact damage from Hounds' Pursuit (R), but not the damage from her packmates."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Pour La meute s'agrandit, les deux coups d'Éviscération (E) réduisent le délai d'apparition d'un chien, mais seul le premier impact de Dagues des Darkin (A) compte, pas le saignement.",
+        "en": "For We Are More, both Eviscerate (E) hits reduce the packmate timer, but only the first Darkin Daggers (Q) impact counts, not the bleed."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Naafiri - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Naafiri", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Naafiri Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=losw4iweu_w", "type": "video", "date": "2026-07-14", "author": "3 Minute League of Legends" },
+    { "title": "THE ONLY NAAFIRI GUIDE YOU NEED (FULL COMBO/MECHANICS GUIDE)", "url": "https://www.youtube.com/watch?v=20-v4PRu6g4", "type": "video", "date": "2026-03-29", "author": "Raveydemon" }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "champion": "Nilah",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court Torrent et Lame fluide", "en": "Slipstream and Formless Blade trade" },
+      "keys": ["E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Torrent (E) sur l'ennemi, puis Lame fluide (A) pendant le dash : une vague repart vers toi. Torrent réinitialise ton auto, place-la tout de suite à l'arrivée.",
+        "en": "Slipstream (E) onto the enemy, then Formless Blade (Q) during the dash: a wave travels back toward you. Slipstream resets your auto, so land it right on arrival."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec Apothéose", "en": "Apotheosis all-in" },
+      "keys": ["E", "Q", "W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Torrent (E) avec Lame fluide (A) pendant le dash, Voile de liesse (Z) pour encaisser, puis Apothéose (R). Une fois l'ult terminé, enchaîne autos et ta 2de charge de Torrent.",
+        "en": "Slipstream (E) with Formless Blade (Q) during the dash, Jubilant Veil (W) to absorb damage, then Apotheosis (R). Once the ult ends, chain autos and your second Slipstream charge."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage par un allié", "en": "Engage through an ally" },
+      "keys": ["W", "E", "Q", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Voile de liesse (Z) puis Torrent (E) sur un allié devant toi : il profite du voile. Lame fluide (A) pendant le dash, puis Apothéose (R) au cœur du fight.",
+        "en": "Jubilant Veil (W) then Slipstream (E) onto an ally in front of you: they get the veil too. Formless Blade (Q) during the dash, then Apotheosis (R) in the middle of the fight."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Apothéose (R) attire les ennemis vers toi même à travers un mur, et peut les faire passer de l'autre côté de toi.",
+        "en": "Apotheosis (R) pulls enemies toward you even through a wall, and can drag them past you to your other side."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Torrent (E) sur une cible derrière un mur fin te fait passer. Si le mur est plus épais que la distance du dash, le dash est annulé.",
+        "en": "Slipstream (E) on a target behind a thin wall takes you through. If the wall is thicker than the dash distance, the dash is cancelled."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Apothéose (R), tu ne peux ni attaquer ni lancer tes autres sorts, mais tu peux bouger : colle ta cible pour garder tout le monde dans la zone.",
+        "en": "During Apotheosis (R) you can't attack or cast your other spells, but you can move: stick to your target to keep everyone in the area."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Voile de liesse (Z) esquive toutes les autos hors tourelle et réduit les dégâts magiques. Un allié que tu touches en profite aussi, au plus une fois toutes les 6 secondes.",
+        "en": "Jubilant Veil (W) dodges every non-turret auto and reduces magic damage. An ally you touch gets it too, at most once every 6 seconds."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier de sort ne bloque pas les autos renforcées par Lame fluide (A). Seuls l'esquive, le blocage ou l'aveuglement les annulent, et uniquement sur la cible principale.",
+        "en": "A spell shield doesn't block the autos empowered by Formless Blade (Q). Only dodge, block or blind negates them, and only on the primary target."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Joie éternelle : quand un allié proche se soigne ou se protège avec un sort, vous recevez tous les deux un bonus. Les objets et sorts d'invocateur ne le déclenchent pas.",
+        "en": "Joy Unending: when a nearby ally heals or shields with an ability, you both get a bonus. Items and summoner spells don't trigger it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lame fluide (A) touche aussi les bâtiments : tu peux taper une tourelle de loin sans entrer dans sa portée.",
+        "en": "Formless Blade (Q) also hits structures: you can poke a turret from range without stepping into its reach."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Nilah - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Nilah", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Nilah Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=9y4u9mlJ1gM", "type": "video", "date": "2026-07-26", "author": "3 Minute League of Legends" },
+    { "title": "All Nilah Tips and Tricks That You Need To Know", "url": "https://www.youtube.com/watch?v=ljxqA3apTs8", "type": "video", "date": "2022-07-18", "author": "Evvelyx" }
+  ]
+}

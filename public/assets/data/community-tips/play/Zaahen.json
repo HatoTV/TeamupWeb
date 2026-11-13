@@ -1,0 +1,211 @@
+{
+  "champion": "Zaahen",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Trade : minion, E puis recast",
+        "en": "Trade: minion, E, then recast"
+      },
+      "keys": [
+        "Q",
+        "Q",
+        "E"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Place Glaive des Darkin (A) sur un minion, puis relance-le dès qu'il est prêt. Fonce avec Incursion dorée (E), frappe pour projeter ta cible en l'air et recule pendant le knock-up.",
+        "en": "Use The Darkin Glaive (Q) on a minion, then recast it as soon as it's ready. Rush in with Aureate Rush (E), hit to knock your target up and back off during the knock-up."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Knock-up puis Retour redoutable",
+        "en": "Knock-up into Dreaded Return"
+      },
+      "keys": [
+        "Q",
+        "W"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Projette ta cible en l'air avec la relance de Glaive des Darkin (A), puis lance aussitôt Retour redoutable (Z). Le knock-up couvre son incantation : le stun et l'attraction ne ratent plus.",
+        "en": "Knock your target up with the recast of The Darkin Glaive (Q), then cast Dreaded Return (W) right away. The knock-up covers its cast time, so the stun and pull can't miss."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "E puis A sans t'arrêter",
+        "en": "E into Q without stopping"
+      },
+      "keys": [
+        "E",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Glaive des Darkin (A) pendant le dash d'Incursion dorée (E) : l'attaque renforcée part presque sans que tu t'arrêtes. Garde Retour redoutable (Z) pour le cas où l'ennemi fuit.",
+        "en": "Cast The Darkin Glaive (Q) during the Aureate Rush (E) dash: the empowered attack goes out with almost no stop. Keep Dreaded Return (W) in case the enemy runs."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Retour redoutable caché par Flash",
+        "en": "Dreaded Return hidden by Flash"
+      },
+      "keys": [
+        "W",
+        "F"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Retour redoutable (Z), puis Flash pendant son incantation. L'ennemi ne voit pas venir l'animation et peut se faire attraper à plusieurs.",
+        "en": "Cast Dreaded Return (W), then Flash during its cast time. The enemy doesn't see the windup coming, and you can catch several of them."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Retour redoutable (Z) donne 2 effets de Détermination par champion touché, un par passe. Incursion dorée (E) et Libération inexorable (R) en donnent un par champion touché : vise plusieurs cibles pour remplir ton passif.",
+        "en": "Dreaded Return (W) grants 2 Determination stacks per champion hit, one per pass. Aureate Rush (E) and Grim Deliverance (R) grant one per champion hit: aim for several targets to fill your passive."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Incursion dorée (E) n'a pas de portée minimale : un dash court, ou lancé contre un mur, donne un coup presque instantané. Le E à portée max est nettement plus lent.",
+        "en": "Aureate Rush (E) has no minimum range: a short dash, or one cast into a wall, gives an almost instant swing. A max-range E is clearly slower."
+      },
+      "refs": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le bord extérieur d'Incursion dorée (E) inflige plus de dégâts physiques et des dégâts magiques bonus selon les PV max. Arrête ton dash à distance de ta cible plutôt que dessus.",
+        "en": "The outer edge of Aureate Rush (E) deals more physical damage plus bonus magic damage based on max health. Stop your dash at a distance from your target rather than on top of it."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Retour redoutable (Z) attire les ennemis vers ta position au moment où il revient, pas au lancement. Déplace-toi après le premier impact pour les ramener vers ton équipe.",
+        "en": "Dreaded Return (W) pulls enemies toward where you stand when it comes back, not where you cast it. Move after the first hit to drag them toward your team."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Après l'attaque de Glaive des Darkin (A), la relance arrive 1,5 seconde plus tard et reste dispo 4 secondes, puis l'attaque renforcée tient encore 4 secondes. Arme-la sur un minion avant d'engager.",
+        "en": "After The Darkin Glaive (Q) attack, the recast unlocks 1.5 seconds later and stays up for 4 seconds, then the empowered attack lasts 4 more seconds. Arm it on a minion before you engage."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Libération inexorable (R) te rend insensible aux CC pendant l'incantation, puis aux déplacements forcés jusqu'à l'impact, avec 50 % de réduction des dégâts. Sers-t'en pour encaisser un engage.",
+        "en": "Grim Deliverance (R) makes you immune to CC during the cast, then to displacements until the slam, with 50% damage reduction. Use it to soak an engage."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ne Flash pas pendant la montée de Libération inexorable (R) : un blink ou un dash interrompu à ce moment annule l'impact, donc ni dégâts ni soin.",
+        "en": "Don't Flash while rising during Grim Deliverance (R): a blink or an interrupted dash at that moment cancels the slam, so no damage and no heal."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Quand Guerrier immortel te ramène à la vie, tes sorts d'invocateur disponibles passent en CD 5 secondes. N'attends pas de Flash immédiat à ta résurrection.",
+        "en": "When Cultivation of War revives you, your available summoner spells go on a 5-second cooldown. Don't count on an instant Flash when you come back."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zaahen - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zaahen",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "How To: Dominate with Zaahen | League of Legends",
+      "url": "https://www.youtube.com/watch?v=qQNuoySpVMc",
+      "type": "video",
+      "date": "2025-11-24",
+      "author": "League of Legends (Skill-Capped)"
+    },
+    {
+      "title": "5 TIPS AVANCÉS SUR ZAAHEN !",
+      "url": "https://www.youtube.com/watch?v=Bok-X4tKY5U",
+      "type": "video",
+      "date": "2025-11-22",
+      "author": "Misanthiel - Coach Toplane"
+    },
+    {
+      "title": "RANK 1 WORLD ZAAHEN TOP GUIDE - Ultimate Guide for Solo Queue",
+      "url": "https://www.youtube.com/watch?v=5dHLHWqJyio",
+      "type": "video",
+      "date": "2025-11-28",
+      "author": "Srtty"
+    }
+  ]
+}

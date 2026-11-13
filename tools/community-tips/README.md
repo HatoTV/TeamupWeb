@@ -14,7 +14,7 @@ Nettoyage du 2026-11-13 (détail par couple dans `notes/*.notes.json`, champ `cl
 
 ## Fiches « Comment jouer contre {champion} » (`vs/`)
 
-Une fiche par champion, valable quel que soit le champion joué. Sur une page de matchup, elle remplace les tips du couple quand le côté sélectionné en a moins de 2 ; sinon elle est proposée sous le lien « Conseils généraux contre {adversaire} ». La page Builds l'affiche dans l'onglet Counters.
+Une fiche par champion, valable quel que soit le champion joué. Sur une page de matchup, elle s'affiche sous les tips du couple (« Conseils généraux contre {adversaire} »), ou seule quand le côté sélectionné en a moins de 2. Elle n'est plus affichée sur la page Builds (2026-11-13). Les sources restent dans les fichiers pour la traçabilité mais ne sont plus affichées sur le site.
 
 - Données : `public/assets/data/community-tips/vs/{championId}.json` (schéma `vsTipsSchema`, une seule liste FR + EN), index `vs/index.json`, notes `notes/vs/{championId}.notes.json`, reprise `progress-vs.json`.
 - `node src/add.ts <brouillon.json> <brouillon.notes.json>` reconnaît un brouillon de fiche à son champ `champion`. `tips:check` et `detect-reworks` traitent les fiches comme les couples.
@@ -23,6 +23,17 @@ Une fiche par champion, valable quel que soit le champion joué. Sur une page de
 - Mêmes règles que les couples : 8 tips au plus triés par sources, 2 sources par tip ou 1 si la mécanique est vérifiée dans Data Dragon, aucune copie, FR et EN dans la même passe, jargon LoL, AZERTY, accords. **Une même vidéo sert à 3 fiches au plus** (contrôlé).
 - File : champions les plus présents dans les données Builds d'abord, champions sortis depuis moins de 6 mois en fin de file. Lots de 10 fiches (tips:check, build, commit) ; arrêt si un lot dépasse 40 % de fiches en sources insuffisantes.
 
+## Fiches « Tips pour jouer {champion} » (`play/`)
+
+Bloc de la page Builds (après « Objets situationnels ») : combos et astuces de mécanique d'un champion. Pas de guide « Comment jouer » : uniquement combos et astuces. Suivi des lots : `docs/tips-progress.md`.
+
+- Données : `public/assets/data/community-tips/play/{championId}.json` (schéma `playTipsSchema`), index `play/index.json` (champion → patch de la recherche), notes `notes/play/{championId}.notes.json` (`sourceSentences` pour le contrôle anti-copie). Contrôle : `node src/check-play.ts` (lancé par `npm run tips:check`).
+- Format : `combos[]` (`name` FR/EN, `keys` en QWERTY `Q W E R` + `D`/`F` pour les sorts d'invocateur avec `summoners: { "F": "SummonerFlash" }`, `level` `easy|medium|hard`, `desc` FR/EN en 1 à 2 phrases, `refs`) ; `tips[]` (`tag` `mechanic|passive|terrain|timing|interaction`, `text` FR/EN, `refs`) ; `sources[]` (`title`, `url`, `type` `wiki|patchnote|video|guide`, `date`, `author` facultatif). `refs` = index dans `sources` ; rien de tout cela n'est affiché. Le site convertit les touches en A Z E R en français.
+- Volume : 2 à 5 combos réellement joués (engage, trade court, burst, animation cancel, combos avec Flash) et 4 à 8 astuces concrètes (franchissement de mur, interactions entre sorts, timings, pièges classiques). Moins si le contenu vérifié manque ; fichier non créé sous 2 entrées.
+- Sources, par priorité : wiki officiel (`node src/wiki-abilities.ts <championId>` lit les sorts, CD, portées et notes via l'API MediaWiki ; les pages HTML sont derrière un anti-bot) et patch notes Riot ; Data Dragon (`public/data/lol/static/{version}/{fr_FR,en_US}`) pour les noms officiels FR/EN ; puis guides et vidéos haut elo / OTP (sous-titres via hato-clips), Mobafire, Mobalytics. Liste noire de `sites.json` respectée.
+- Vérification (contrôlée via `refs`) : un combo cite au moins une source joueur (vidéo ou guide) ; chaque combo ou astuce est confirmé par le wiki officiel ou une patch note, ou par 2 sources d'auteurs différents, et cohérent avec les données du sort au patch courant. Un franchissement de mur n'est retenu que si une source le dit explicitement (sinon `notes` « Dash can cross terrain » du wiki). Tout ce qui précède un rework ou un changement de patch qui l'invalide est écarté. Rien d'inventé.
+- Rédaction : tutoiement, phrases courtes, jargon joueur FR (CD, trade, all-in, wave), noms officiels FR des sorts avec la touche AZERTY entre parenthèses, EN avec la touche QWERTY. Pas de copie (8 mots consécutifs d'une source = refus). Nom de combo : 6 mots max ; combo : 2 phrases et 45 mots max ; astuce : 40 mots max.
+
 ## Commandes
 
 ```sh
@@ -30,7 +41,8 @@ cd tools/community-tips && npm ci
 node src/add.ts <brouillon.json> <brouillon.notes.json>   # intègre un matchup (abilityHash, ordre d'affichage, index, progress)
 node src/detect-reworks.ts [--dry-run]                     # reworks depuis la recherche → needsRecheck + issue GitHub
 npm test                                                   # tests des accords et de la détection de rework
-npm run tips:check                                         # depuis la racine : contrôle de tous les fichiers
+npm run tips:check                                         # depuis la racine : contrôle de tous les fichiers (couples, vs/, play/)
+node src/wiki-abilities.ts <championId>                    # sorts, CD, portées et notes du wiki officiel (recherche play/)
 ```
 
 `detect-reworks` tourne dans le workflow Builds (`.github/workflows/lol-stats.yml`), après la publication des statistiques. Une empreinte différente ne suffit pas : on compare les compétences du patch de la recherche et du patch courant. Un sort ou un passif renommé, ou une description réécrite (moins de 60 % de mots communs, chiffres exclus), compte comme un rework. Un simple changement de chiffres est ignoré. Les fichiers du champion passent en `needsRecheck` (badge « À revérifier depuis le rework ») et une issue « Rework détecté : {champion} » liste les matchups à refaire.

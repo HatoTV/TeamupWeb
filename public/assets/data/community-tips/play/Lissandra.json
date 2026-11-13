@@ -1,0 +1,113 @@
+{
+  "champion": "Lissandra",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Engage Chemin glacial-Flash", "en": "Glacial Path Flash engage" },
+      "keys": ["E", "F", "W", "Q", "R"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Chemin glacial (E) relancé pour te rapprocher, Flash sur la cible, puis Cercle de givre (Z), Éclat de glace (A) et Tombeau polaire (R).",
+        "en": "Glacial Path (E) recast to get closer, Flash onto the target, then Ring of Frost (W), Ice Shard (Q) and Frozen Tomb (R)."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Feinte avec retour en Chemin glacial", "en": "Glacial Path fake-out and return" },
+      "keys": ["E", "F", "W", "Q", "R", "E"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Envoie Chemin glacial (E) à l'opposé de la cible, Flash sur elle, Cercle de givre (Z), Éclat de glace (A), Tombeau polaire (R), puis relance E pour repartir avec la griffe.",
+        "en": "Send Glacial Path (E) away from the target, Flash onto them, Ring of Frost (W), Ice Shard (Q), Frozen Tomb (R), then recast E to leave with the claw."
+      },
+      "refs": [1, 3]
+    },
+    {
+      "name": { "fr": "Flash et Tombeau sur toi", "en": "Flash and self Tomb" },
+      "keys": ["F", "R"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "easy",
+      "desc": {
+        "fr": "Flash au milieu des ennemis et Tombeau polaire (R) sur toi : tu es en stase, tu te soignes et le champ de glace les ralentit pendant que ton équipe arrive.",
+        "en": "Flash into the enemies and Frozen Tomb (R) on yourself: you are in stasis, you heal and the ice field slows them while your team arrives."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Chemin glacial (E) passe tous les murs du jeu tant que la griffe a fait au moins la moitié du mur. Cache-la dans un mur pour surprendre.",
+        "en": "Glacial Path (E) crosses any wall on every map once the claw has passed its middle. Hide it inside a wall to surprise."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les ennemis à moins de 600 unités voient le point d'arrivée de Chemin glacial (E), même à travers un mur, le brouillard ou un buisson.",
+        "en": "Enemies within 600 units see the Glacial Path (E) endpoint, even through a wall, fog of war or brush."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux relancer Chemin glacial (E) encore un court instant après que la griffe s'enfonce dans le sol, mais pas si tu es immobilisé ou cloué au sol.",
+        "en": "You can still recast Glacial Path (E) for a brief moment after the claw sinks into the ground, but not while rooted or grounded."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Éclat de glace (A) se brise sur le premier ennemi touché et continue plus loin et plus large. Vise un sbire pour toucher le champion derrière.",
+        "en": "Ice Shard (Q) shatters on the first enemy hit and keeps going farther and wider. Aim at a minion to hit the champion behind it."
+      },
+      "refs": [0, 2, 4]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque les dégâts et le ralentissement d'Éclat de glace (A), mais l'éclat se brise quand même et touche ceux derrière.",
+        "en": "A spell shield blocks Ice Shard (Q) damage and slow, but the shard still shatters and hits those behind."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si la cible de Tombeau polaire (R) devient intouchable ou sort de portée pendant l'incantation, l'ult est annulé sans CD ni coût.",
+        "en": "If the Frozen Tomb (R) target becomes untargetable or leaves range during the cast, the ult is cancelled with no cooldown or cost."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tombeau polaire (R) sur toi détruit les projectiles ennemis qui te visent au moment où tu deviens intouchable.",
+        "en": "Frozen Tomb (R) on yourself destroys enemy projectiles targeting you the moment you become untargetable."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Emprise de la Sublimée : les esclaves de glace sont intouchables, visibles à travers le brouillard et suivent leur cible jusque dans les buissons.",
+        "en": "Iceborn Subjugation: the Frozen Thralls are untargetable, visible through fog of war and follow their target into brushes."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Lissandra – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Lissandra", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "How Lissanda Became my SECOND Favorite Mid Laner", "url": "https://www.youtube.com/watch?v=caSv2vlq05Y", "type": "video", "date": "2025-01-02", "author": "EcoreLoL" },
+    { "title": "HOW TO PLAY LISSANDRA - FULL INDEPTH GUIDE - RANK 1 CHALLENGER MID", "url": "https://www.youtube.com/watch?v=WuTGXBpQcV8", "type": "video", "date": "2023-10-16", "author": "Shok" },
+    { "title": "How to INSTANTLY One Shot with this Lissandra Combo!", "url": "https://www.youtube.com/watch?v=_A-iuu6dHLg", "type": "video", "date": "2023-05-28", "author": "Kola" },
+    { "title": "HOW TO PLAY LISSANDRA MID & ONE-SHOT GUIDE | Best Build & Runes | Diamond 1 Player League of Legends", "url": "https://www.youtube.com/watch?v=T9bz9Z6QRE0", "type": "video", "date": "2026-09-03", "author": "Eternal Hero" }
+  ]
+}

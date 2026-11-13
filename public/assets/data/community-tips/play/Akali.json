@@ -1,0 +1,109 @@
+{
+  "champion": "Akali",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Kunais, sortie du cercle, auto", "en": "Kunai, leave the ring, auto" },
+      "keys": ["Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche Vague de kunais (A), puis sors du cercle invisible autour de ta cible : ta prochaine auto gagne de la portée et des dégâts. Frappe, puis recule.",
+        "en": "Hit Five Point Strike (Q), then step out of the invisible ring around your target: your next auto gains range and damage. Strike, then back off."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Shuriken, relance, Linceul, kunais", "en": "Shuriken, recast, Shroud, kunai" },
+      "keys": ["E", "E", "W", "Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Lancer acrobatique (E), relance-le pour foncer sur la cible et place l'auto. Linceul nébuleux (Z) te rend de l'énergie : enchaîne deux Vague de kunais (A) avec une auto boostée entre elles.",
+        "en": "Land Shuriken Flip (E), recast it to dash onto the target and fit in the auto. Twilight Shroud (W) refunds energy: chain two Five Point Strikes (Q) with an empowered auto between them."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in : ult, shuriken, relance d'ult", "en": "All-in: ult, shuriken, ult recast" },
+      "keys": ["R", "E", "E", "W", "Q", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Entre avec Maîtrise absolue (R), touche Lancer acrobatique (E) et sa relance, auto, puis Linceul nébuleux (Z) et Vague de kunais (A). Garde la relance de Maîtrise absolue (R) pour la fin : elle frappe plus fort sur une cible basse.",
+        "en": "Go in with Perfect Execution (R), land Shuriken Flip (E) and its recast, auto, then Twilight Shroud (W) and Five Point Strike (Q). Keep the Perfect Execution (R) recast for last: it hits harder on a low target."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le saut arrière de Lancer acrobatique (E) traverse un mur si son point d'arrivée est derrière. S'il tombait dans le mur, tu atterris sur le côté, ou contre le mur.",
+        "en": "The backflip of Shuriken Flip (E) crosses a wall if its end point lies beyond it. If it would end inside the wall, you land to the side, or against the wall."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ton shuriken de Lancer acrobatique (E) peut marquer ton propre Linceul nébuleux (Z) : vise la fumée, puis relance pour y revenir en dash après ton burst.",
+        "en": "Your Shuriken Flip (E) shuriken can mark your own Twilight Shroud (W): aim at the smoke, then recast to dash back into it after your burst."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lancer acrobatique (E) puis Flash : le shuriken part de ta nouvelle position mais sa portée raccourcit d'autant. Pour gagner de la portée, Flash d'abord, puis lance le E.",
+        "en": "Shuriken Flip (E) then Flash: the shuriken leaves from your new spot, but its range shrinks by the same amount. To gain range, Flash first, then cast E."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux lancer Maîtrise absolue (R) ou Linceul nébuleux (Z) pendant le dash de la relance de Lancer acrobatique (E). Attends l'impact du E avant l'ult, sinon tu perds ses dégâts.",
+        "en": "You can cast Perfect Execution (R) or Twilight Shroud (W) during the Shuriken Flip (E) recast dash. Wait for the E to land before ulting, or you lose its damage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Tu peux faire exploser la bombe de Linceul nébuleux (Z) de l'autre côté d'un mur. Pratique pour te cacher après un saut, mais la fumée ne déborde pas à travers le mur.",
+        "en": "You can detonate the Twilight Shroud (W) bomb on the far side of a wall. Handy to hide after a jump, but the smoke does not spread through terrain."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Appuie sur Vague de kunais (A) pendant un dash de Lancer acrobatique (E) : le sort est mis en file et part dès la fin du dash, sans perte de temps.",
+        "en": "Press Five Point Strike (Q) during a Shuriken Flip (E) dash: the spell is buffered and fires as soon as the dash ends, with no time lost."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Le cercle de Marque d'assassin (passif) se forme autour de la dernière cible de Vague de kunais (A). L'ennemi ne le voit pas, mais il voit ton auto boostée une fois prête.",
+        "en": "Five Point Strike (Q) places the Assassin's Mark (passive) ring on the last target it hit. Foes cannot see the ring, only your empowered auto when it is ready."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Dans Linceul nébuleux (Z), une auto ou un sort te révèle, et tu ne peux pas redevenir invisible tout de suite. En dash, tu n'es pas invisible non plus.",
+        "en": "Inside Twilight Shroud (W), an auto or a spell reveals you, and you cannot turn invisible again right away. While dashing, you are not invisible either."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Akali – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Akali", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ULTIMATE AKALI COMBO GUIDE + FULL EXPLANATION I Akali Guide lol season 13", "url": "https://www.youtube.com/watch?v=dSGyzaO--wo", "type": "video", "date": "2023-12-22", "author": "Kyan" },
+    { "title": "3 Minute Akali Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=r6ybOpiw14o", "type": "video", "date": "2026-10-06", "author": "3 Minute League of Legends" },
+    { "title": "TU DOIS ABSOLUMENT MAITRISER CE COMBO SUR AKALI !", "url": "https://www.youtube.com/watch?v=1qzigcdGk_4", "type": "video", "date": "2026-09-12", "author": "Yokah" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "searches": 2,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "The first combo for before level six it is W and then Q. You proc your passive very, very easy",
+    "The second combo is W auto Q auto. Okay, auto Q auto.",
+    "Always get the auto attack plus Q plus auto attack because your Q is an auto attack reset.",
+    "Noxian Diplomacy resets Talon's basic attack timer. Shadow Assault can be cast during the dash.",
+    "It's the flower combo, right? W Q R. This is the fastest way and the most reliable way you can proc your passive",
+    "You want to W cast. And the moment the W casts, you buffer your Q already like this. And then you want to do the old during your dash like that. Very important. You don't want to use your old after the dash like this.",
+    "You do Q cast and then after the Q cast you do W old all attack and go away.",
+    "So, when you got to reach the enemy faster, you want to start with the with the with the Q cast first with the hidden flower combo.",
+    "you can Q W and then R auto. You do it fast.",
+    "So, for people who are who have dashes or trying to run away from you, right? So, this is why you use Q",
+    "Let's imagine I throw W and I hit both my W and then they're outside my Q range. So, what do I do? Flash, Blade. Do flash Q.",
+    "One more important point with all these combos is you can increase the range with your flash like this. You can always W first and then increase the range.",
+    "Both passes of Rake and Shadow Assault apply a stack of Wound.",
+    "Spell shield prevents Wound stacks from being applied.",
+    "If cast within close range, Talon dashes to the target over the cast time instead and Noxian Diplomacy critically strikes for damage, as well as grants him 75 bonus attack range on his next basic attack within 1 second.",
+    "If Noxian Diplomacy kills the target, Talon heals and the ability's cooldown is reduced by 50%.",
+    "When cast in close range, Noxian Diplomacy deals its damage at the completion of the cast time, rather than at the dash's completion. The damage will be dealt even if Talon's dash is interrupted, so long as the cast time is completed.",
+    "While grounded or rooted, Noxian Diplomacy can only be cast within close range.",
+    "Breaking stealth with a basic attack or Noxian Diplomacy will converge the blades to the target instead.",
+    "Talon cannot cast Assassin's Path on the same area of terrain for a set duration.",
+    "Walls eligible for Assassin's Path display a border indicator that fades over the cooldown. The closer the wall is to becoming traversable, the lighter the indicator becomes.",
+    "I can't do it on this wall anymore. Let's just get another wall here.",
+    "When Assassin's Path is cast on terrain that is out of range, Talon will walk to the location where he is able to cast the ability and dash over this area of terrain. If he encounters other terrain along the way, however, he will cast Assassin's Path over the obstructive area of terrain instead.",
+    "Talon will reveal himself for 0.6 seconds upon casting Assassin's Path if he is visible to an enemy champion or there is a nearby enemy champion or minion within 400 units of the landing position.",
+    "Casting Rake when an enemy is within 650 radius and 26° angle in front of Talon will reveal him from the fog of war like a targeted cast."
+  ],
+  "rejected": [
+    { "idea": "Bufferiser Q puis W/Q avant Flash (W Q Flash R) pour un combo « inesquivable »", "reason": "Une seule source (Whispering Blade), qui parle d'un correctif de bug non mentionné dans les patch notes : non vérifiable." },
+    { "idea": "Buffer avec l'actif d'un objet avant Flash", "reason": "Une seule source, et repose sur un objet précis." },
+    { "idea": "Proc du passif sans Ratissage avec un petit délai entre auto et Diplomatie noxienne", "reason": "Explication confuse et divergente entre les deux vidéos ; non confirmée par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte pour lancer Assaut ténébreux pendant le saut de Diplomatie noxienne.",
+    "Rayon exact du cône de Ratissage qui te sort du brouillard (650 unités devant toi selon le wiki)."
+  ]
+}

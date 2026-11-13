@@ -1,0 +1,108 @@
+{
+  "champion": "Nami",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade de base E, Z, A", "en": "Basic trade E, W, Q" },
+      "keys": ["E", "W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Bénédiction de l'Aquamancienne (E) sur toi, une auto, puis Flux et reflux (Z) : la cible est ralentie, et ta Prison aqueuse (A) devient bien plus facile à placer.",
+        "en": "Tidecaller's Blessing (E) on yourself, one auto, then Ebb and Flow (W): the target is slowed, so your Aqua Prison (Q) becomes much easier to land."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Raz-de-marée puis bulle garantie", "en": "Tidal Wave into guaranteed bubble" },
+      "keys": ["E", "R", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Bénédiction de l'Aquamancienne (E) puis Raz-de-marée (R). Lance Prison aqueuse (A) juste avant que la vague touche : la bulle tombe pendant le knock-up, puis auto et Flux et reflux (Z).",
+        "en": "Tidecaller's Blessing (E) then Tidal Wave (R). Cast Aqua Prison (Q) right before the wave hits: the bubble lands during the knock-up, then auto and Ebb and Flow (W)."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in complet niveau 6", "en": "Full level 6 all-in" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Bénédiction de l'Aquamancienne (E), auto, Flux et reflux (Z) et Prison aqueuse (A), une nouvelle auto, puis Raz-de-marée (R) pour garder la cible ralentie après la bulle.",
+        "en": "Tidecaller's Blessing (E), auto, Ebb and Flow (W) and Aqua Prison (Q), another auto, then Tidal Wave (R) to keep the target slowed after the bubble."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Déferlantes accélère les alliés touchés par tes sorts, même par Prison aqueuse (A) : sa zone pour les alliés est un peu plus large que celle qui touche les ennemis.",
+        "en": "Surging Tides speeds up allies hit by your spells, even Aqua Prison (Q): its area for allies is slightly larger than the one that hits enemies."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Entre le début du lancement et l'impact, Prison aqueuse (A) met environ une seconde. Vise là où la cible sera, pas là où elle est.",
+        "en": "Aqua Prison (Q) takes about one second from the start of the cast to impact. Aim where the target will be, not where it is."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Flux et reflux (Z) alterne : lancé sur un ennemi, il rebondit sur un allié puis sur un ennemi ; lancé sur toi ou un allié, il part d'abord sur un ennemi.",
+        "en": "Ebb and Flow (W) alternates: cast on an enemy, it bounces to an ally then an enemy; cast on yourself or an ally, it goes to an enemy first."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "En lane, une auto puis Flux et reflux (Z) sur l'ennemi : le rebond revient te soigner des dégâts que tu prends en retour. C'est ton trade le plus rentable.",
+        "en": "In lane, an auto then Ebb and Flow (W) on the enemy: the bounce comes back to heal the damage you take in return. It's your most efficient trade."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque les dégâts de Flux et reflux (Z), mais le sort rebondit quand même, et le dernier rebond peut retoucher l'ennemi qui l'a bloqué.",
+        "en": "A spell shield blocks Ebb and Flow (W) damage, but the spell still bounces, and the last bounce can hit the enemy who blocked it again."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Bénédiction de l'Aquamancienne (E) renforce les 3 prochaines autos ou les 3 prochains sorts de l'allié : sur un carry qui trade avec ses sorts, chaque sort ajoute dégâts et ralentissement.",
+        "en": "Tidecaller's Blessing (E) empowers the ally's next 3 autos or abilities: on a carry who trades with spells, each spell adds damage and a slow."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les alliés touchés par Raz-de-marée (R) reçoivent une version renforcée de Déferlantes, deux fois plus de vitesse : traverse ton équipe avec la vague pour lancer l'engage.",
+        "en": "Allies hit by Tidal Wave (R) get an empowered Surging Tides, twice the movement speed: send the wave through your team to start the engage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La suspension de Prison aqueuse (A) compte pour Yasuo : s'il est dans ton équipe, ta bulle lui permet de lancer Dernier soupir (R).",
+        "en": "Aqua Prison (Q) suspension counts for Yasuo: if he is on your team, your bubble lets him cast Last Breath (R)."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Nami - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Nami", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Nami Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=HoqwZsKQSMM", "type": "video", "date": "2025-07-01", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE NAMI SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=nlCSNhLv_yI", "type": "video", "date": "2025-01-31", "author": "EXYT - League of Legends" }
+  ]
+}

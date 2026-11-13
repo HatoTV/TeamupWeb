@@ -1,0 +1,109 @@
+{
+  "champion": "Velkoz",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Fission, faille, dislocation", "en": "Fission, rift, disruption" },
+      "keys": ["Q", "W", "E", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche Fission du plasma (A) : son slow de 70 % te laisse placer Ouverture de faille (Z) puis Dislocation tectonique (E). Ajoute une auto et ta 2de charge de faille pour finir le trade.",
+        "en": "Land Plasma Fission (Q): its 70% slow lets you place Void Rift (W), then Tectonic Disruption (E). Add an auto and your second rift charge to finish the trade."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Combo complet en dégâts bruts", "en": "Full combo into true damage" },
+      "keys": ["Q", "E", "W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Enchaîne Fission du plasma (A), Dislocation tectonique (E) et Ouverture de faille (Z) pour atteindre 3 charges de passif. La cible devient sujet d'étude : Désintégrateur de formes de vie (R) lui inflige alors des dégâts bruts.",
+        "en": "Chain Plasma Fission (Q), Tectonic Disruption (E) and Void Rift (W) to reach 3 passive stacks. The target becomes Researched: Life Form Disintegration Ray (R) then deals true damage to it."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Fission en angle, puis rayon", "en": "Angled fission into ray" },
+      "keys": ["Q", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Fission du plasma (A) en angle et scinde-la sur une cible lointaine. Dès que le slow la touche, lance Désintégrateur de formes de vie (R) pour un burst à très longue portée.",
+        "en": "Throw Plasma Fission (Q) at an angle and split it onto a distant target. As soon as the slow hits, cast Life Form Disintegration Ray (R) for very long-range burst."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "En diagonale, Fission du plasma (A) va plus loin qu'en ligne droite : jusqu'à environ 1595 unités après la division. Vise en angle pour toucher hors de portée apparente.",
+        "en": "Diagonally, Plasma Fission (Q) reaches farther than in a straight line: up to about 1595 units after the split. Aim at an angle to hit beyond its apparent range."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux réactiver Fission du plasma (A) 0,25 seconde après le lancer pour la diviser où tu veux. Pratique pour toucher un adversaire caché derrière ses sbires.",
+        "en": "You can recast Plasma Fission (Q) 0.25 seconds after the cast to split it wherever you want. Handy to hit an opponent hiding behind their minions."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Envoie Fission du plasma (A) à travers un mur : sans ward de l'autre côté, l'adversaire ne voit le projectile qu'au dernier moment, souvent trop tard pour l'esquiver.",
+        "en": "Send Plasma Fission (Q) through a wall: without a ward on the other side, the opponent only sees the bolt at the last moment, often too late to dodge."
+      },
+      "refs": [2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lancée près de toi, Dislocation tectonique (E) repousse aussi les ennemis dans la direction du sort. Garde-la pour repousser un assassin qui plonge sur toi.",
+        "en": "Cast close to you, Tectonic Disruption (E) also knocks enemies back in the cast direction. Save it to push away an assassin diving onto you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le Mur de vent de Yasuo et Incassable de Braum bloquent Dislocation tectonique (E) et arrêtent la progression d'Ouverture de faille (Z). La partie de faille déjà ouverte reste active.",
+        "en": "Yasuo's Wind Wall and Braum's Unbreakable block Tectonic Disruption (E) and stop Void Rift (W) from spreading further. The part of the rift already open stays active."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Ouverture de faille (Z) frappe deux fois, à l'ouverture puis à l'explosion : chaque coup pose une charge de Décomposition organique. Un seul sort te rapproche donc vite des dégâts bruts.",
+        "en": "Void Rift (W) hits twice, when it opens and when it collapses: each hit applies an Organic Deconstruction stack. One spell brings you quickly toward the true damage."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Une cible reste sujet d'étude 7 secondes après ses 3 charges de passif, durée relancée par tes autos et tes sorts. Lance Désintégrateur de formes de vie (R) dans ce délai pour des dégâts bruts.",
+        "en": "A target stays Researched for 7 seconds after its 3 passive stacks, refreshed by your autos and spells. Cast Life Form Disintegration Ray (R) within that window for true damage."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Désintégrateur de formes de vie (R), tu es révélé dès que le rayon passe près d'un champion ennemi. Le lancer depuis un buisson ne te cache pas longtemps.",
+        "en": "During Life Form Disintegration Ray (R), you are revealed as soon as the beam comes near an enemy champion. Casting it from a bush won't keep you hidden for long."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Vel'Koz - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Vel'Koz", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Vel'Koz Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=jJgclgdQIyw", "type": "video", "date": "2025-10-04", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE VELKOZ COMPLET - SORTS, POINTS FORTS, COMBO & 1 GAME POUR APPRENDRE A SMURF (Ft Nuxia & Rinky)", "url": "https://www.youtube.com/watch?v=AnN7ZaSX08A", "type": "video", "date": "2026-05-11", "author": "iReaz VOD" },
+    { "title": "10 Levels of Vel'Koz GEOMETRY", "url": "https://www.youtube.com/watch?v=nwJowOIUzkw", "type": "video", "date": "2021-11-30", "author": "Azzapp LoL" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "searches": 2,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "LeBlanc's next damaging champion ability against the marked target will consume the mark to deal the again.",
+    "Sigil of Malice and Mimic: Sigil of Malice can detonate each other's marks.",
+    "Distortion and Mimic: Distortion have independent return pads and LeBlanc can travel to both while they are active.",
+    "If Mirror Image triggers while LeBlanc is tethering to a target with Ethereal Chains (or its Mimic: Ethereal Chains version), her clone will not produce a fake tether, giving away which is the real one.",
+    "Using a basic attack breaks the stealth at the end of the attack windup.",
+    "forms a tether between LeBlanc and the target for 1.5 seconds, during which they are revealed.",
+    "Spell shield will block the tether's application and initial damage but not the aftereffects of one already applied.",
+    "Both the initial and the delayed damage can detonate Sigil of Malice.",
+    "Ethereal Chains and Mimic: Ethereal Chains are separate debuffs, and can both be tethered to the same target without overriding each other.",
+    "Start with Q to mark the enemy, then dash onto them with W to trigger the mark. Finish with an auto attack",
+    "Cast Q, then immediately use mimic Q. Mimic Q activates the first mark and applies",
+    "For a complete rotation, use Q, mimic Q, W, then E. W activates a second mark, while E adds more damage and potential route.",
+    "Begin casting E, then immediately flash forward before the chain fires. This closes the distance during the cast, giving enemies almost no time to react. Follow with Q before the tether activates, allowing its delay damage to trigger the mark.",
+    "Use W flash and then mimic W. Because W was cast before flash, its return point remains far behind you, allowing Leblanc to cross an enormous distance before snapping all the way back to safety.",
+    "Her W and mimic W allow her to cross walls, cover huge distances, and return to safety after aggressive plays.",
+    "E also grants true sight, so enemies remain visible if they enter a brush or flash over a wall, helping you follow their escape.",
+    "Mimik E creates another chain. Time them to extend your crowd control or chain two different enemies during a fight.",
+    "Votre engagement consistera souvent à entrer dans la zone avec le Z puis votre E. Après un court délai, utilisez votre ultime E puis A. Une fois les deux immobilisations actives, attaquez ou revenez en arrière.",
+    "Votre combo à longue portée commence par votre ultime Z, puis votre E.",
+    "Si votre adversaire est à portée d'un combo A suivi d'un Z, c'est généralement une bonne option.",
+    "vous utilisez votre Z pour sauter sur la ligne arrière ennemie, souvent par-dessus les murs, pour éliminer une cible."
+  ],
+  "rejected": [
+    { "idea": "Cacher Chaînes éthérées (E) dans l'animation de Distorsion (Z) (Zoose)", "reason": "Une seule source joueur, rien dans le wiki." },
+    { "idea": "Flash pendant l'invisibilité d'Image miroir sans se révéler, Distorsion révèle (Zoose)", "reason": "Une seule source ; seule la règle wiki sur l'auto est gardée." },
+    { "idea": "Monter niveau 3 en plein trade pour débloquer E (Zoose)", "reason": "Touche à l'ordre de montée des sorts, interdit." },
+    { "idea": "Mentions de runes dans les combos de lane (Zoose, 3 Minute)", "reason": "Runes interdites." }
+  ],
+  "toVerifyInGame": [
+    "Flash pendant l'incantation de Chaînes éthérées (E) : la chaîne part bien de la position après Flash.",
+    "Distorsion (Z), Flash, Imitation (R) : le premier point de retour reste utilisable après la seconde Distorsion."
+  ]
+}

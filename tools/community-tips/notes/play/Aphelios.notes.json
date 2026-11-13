@@ -1,0 +1,37 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "The individual actives do not share a cooldown.",
+    "Once his main weapon's Moonlight is exhausted, it is moved to the end of the reserve queue; Alune then assembles his next available weapon from the reserve over 1 second, placing its Q on a 1.5-second cooldown from the start of the assembly. Aphelios cannot cast Phase during the assembly.",
+    "While at lower than 10 Moonlight, casting his Q will not spend additional Moonlight but instead consume all the remaining points.",
+    "Changing weapons while Moonlight Vigil is in flight does not change the effect it has when it hits.",
+    "Spell shield will block Moonlight Vigil's initial detonation damage but does not prevent the attacks from locking-on.",
+    "Increases the initial slow to 99% and empowers Binding Eclipse to root targets affected by the enhanced slow for 1.35 seconds.",
+    "Aphelios expunges all enemies with Gravitum's slow debuff, dealing magic damage and rooting them for 1 second.",
+    "An enemy affected by Gravitum, or an in-flight Gravitum projectile, is required to cast this ability. In-flight projectiles will be empowered to apply Binding Eclipse's effects to their targets.",
+    "Aphelios unleashes a wave of energy in a cone in the target direction over the cast time, dealing physical damage to all enemies hit and locking onto each of them. After 0.25 seconds, Aphelios then fires a volley of attacks at each locked-on target from his current off-hand weapon, dealing 100% AD physical damage and applying on-hit effects.",
+    "Aphelios cannot cast Phase nor Moonlight Vigil during Onslaught, but he is still able to move.",
+    "Onslaught begins firing with Aphelios' off-hand weapon. This means that, if used with Crescendum, it will generate n/2 Chakrams for even numbers of hits.",
+    "Attacks alternate between Severum and his current off-hand weapon, each dealing AD physical damage, affected by critical strike modifiers, and applying on-hit effects, with on-hit damage reduced to 25% effectiveness.",
+    "You land your long-range Q with Calibrum, then swap into Gravitum and root them immediately after. This is one of your higher single target",
+    "You fire Infernum's Q into a group and with Severum as your off-hand, you convert that damage into a huge heal.",
+    "You hit multiple targets with Infernum Q, then swap into Gravitum and root everyone that was hit.",
+    "So, if you plan ahead, you can Q, swap, Q again, and swap again, chaining multiple abilities in seconds. You can chain up to four weapons if you plan your ammo correctly.",
+    "With Severum, one small trick is saving your last bit of ammo. If you leave it just before it runs out, you can switch back later for one last queue",
+    "With Gravitum, it sets up crowd control across multiple targets. With Infernum, it explodes in massive AoE damage.",
+    "Your ultimate isn't just about pressing R, it's about what weapon you're holding when you use it.",
+    "a Q in red form will get you a ton of mini boomerangs to use while fighting in white green and purple gives you access to very longrange CC blue and purple gives you access to a massive AOE root and red and blue keeps you safe and alive in team fights",
+    "the green gun gives him bonus range and abilities that attack with the green Gun Mark the target to give you a longrange attack with your offhand weapon against them"
+  ],
+  "rejected": [
+    { "idea": "Infernum basic attack on a minion splashes onto enemies behind it (Zoose)", "reason": "Single source; Infernum's passive was not in the ability data read." },
+    { "idea": "Crescendum sentries in a brush / stacking several sentries (Zoose)", "reason": "Placement advice rather than a precise mechanic; single source." },
+    { "idea": "Weapon rotation order from 3 Minute League of Legends", "reason": "Rotation planning, not a combo; video predates the V26.01 changes noted by the wiki." },
+    { "idea": "Rose Alune, Vapora Dark combo guides", "reason": "2 to 4 years old; not opened (video budget)." }
+  ],
+  "toVerifyInGame": [
+    "Calibrum Q then swap to Gravitum: whether the root needs a Gravitum attack to have landed (mark consumed by the off-hand Gravitum shot) before Binding Eclipse can be cast.",
+    "Number of chakrams gained from Severum's Onslaught with Crescendum off-hand at current attack speed."
+  ]
+}

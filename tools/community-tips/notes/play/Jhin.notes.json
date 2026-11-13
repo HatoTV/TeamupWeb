@@ -1,0 +1,34 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Jhin's basic attacks consume ammunition within 4 rounds. He will reload over 2.5 seconds immediately after expending all rounds or withholding leftover rounds after 10 seconds of being out of combat and not being affected by crowd control. The latter reload can be interrupted by declaring an attack or casting an ability.",
+    "Jhin's final round attack has an uncancellable windup, always critically strike, including against turrets, and deals bonus physical damage equal to % of the target's missing health.",
+    "Additionally, critical strikes against enemies grant Jhin 14% bonus movement speed for 2 seconds.",
+    "The grenade's damage is increased by 35% whenever an enemy hit by the grenade is killed by any means before it strikes its next target.",
+    "Enemy champions that trigger a Captive Audience to bloom or are damaged by Jhin or allied champions are marked for 4 seconds.",
+    "Hitting a marked champion roots them for a duration and grants Jhin bonus movement speed.",
+    "Uniquely, Deadly Flourish is special-cased to be intercepted by valid counters because it looks like a blockable missile, even though it functionally is not a missile.",
+    "Lotus Traps deal 65% damage against minions as well as against champions and monsters who have been struck by another Lotus Trap in the last 1 second.",
+    "The bullet stops upon hitting an enemy champion, slowing them by 80% for 0.5 seconds and revealing them for 2 seconds.",
+    "The fourth shot critically strikes for critical damage.",
+    "For combos, your go-to is to attack into E and W. From here, attack into Q before attacking away.",
+    "So, when you just have two bullets left, landing an attack into your E and W and then the fourth attack is a ton of damage. Quickly following up with Q and then using the attack speed to retreat is just a free trade.",
+    "it does more damage when we nuke minions before.",
+    "So let's say for example someone is like running into your trap, then what you want to do is you want to precast your W, so the moment something pops on the enemy that can be damaged, CC or whatever, they are just rooted, right?",
+    "You see if I use my trap and I precast W, bam, it insta pops. Like there's no counterplay for the enemies.",
+    "let's say Nautilus, he's hooking in, doing his auto, and then you should immediately follow up with your W.",
+    "Can I walk up, fourth shot, and back away? Not, Can I stand still and DPS? Because after your fourth shot, you reload.",
+    "Use Q on low health minions so it kills them and bounces with extra damage.",
+    "Kite backwards, use your movement speed after crits, save your fourth shot for low health targets"
+  ],
+  "rejected": [
+    { "idea": "Combo avec Rappel de rideau (R) pour finir un ennemi en fuite", "reason": "Conseil d'usage général sans séquence précise ; gardé seulement en astuce wiki (ralentissement, quatrième balle)." },
+    { "idea": "Placement des pièges autour des entrées d'objectifs et des waves mid", "reason": "Conseil macro, hors périmètre combos/astuces." },
+    { "idea": "Vidéo Bav Bros « JHIN COMBO GUIDE » (Nv6aufQjEiE)", "reason": "Pas de sous-titres anglais disponibles : non lue." }
+  ],
+  "toVerifyInGame": [
+    "Timing de la Floraison mortelle (Z) lancée avant l'éclosion du Public captif (E) : la marque doit arriver avant l'impact (0,75 s d'incantation).",
+    "Le piège posé directement sous un ennemi met 1 s à s'armer : vérifier qu'il marque assez tôt dans le combo de trade."
+  ]
+}

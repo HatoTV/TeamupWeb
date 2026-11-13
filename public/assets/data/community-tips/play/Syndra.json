@@ -1,0 +1,121 @@
+{
+  "champion": "Syndra",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Sphère puis stun", "en": "Sphere into stun" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose Sphère noire (A) entre toi et l'ennemi, puis Dispersion des faibles (E) la projette sur lui : il est étourdi. C'est la base de tous tes combos.",
+        "en": "Drop Dark Sphere (Q) between you and the enemy, then Scatter the Weak (E) launches it into them: they're stunned. This is the base of all your combos."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Ralentir avant le stun", "en": "Slow before the stun" },
+      "keys": ["W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Saisis un sbire ou une sphère avec Force de la volonté (Z) et lance-le sur l'ennemi pour le ralentir, puis enchaîne Sphère noire (A) et Dispersion des faibles (E) pour le stun.",
+        "en": "Grab a minion or sphere with Force of Will (W) and throw it at the enemy to slow them, then chain Dark Sphere (Q) and Scatter the Weak (E) for the stun."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Combo de kill complet", "en": "Full kill combo" },
+      "keys": ["Q", "E", "W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Stun avec Sphère noire (A) et Dispersion des faibles (E), lance Force de la volonté (Z) pendant qu'il est bloqué, puis finis avec Déchaînement de puissance (R). Plus il y a de sphères au sol, plus l'ult fait mal.",
+        "en": "Stun with Dark Sphere (Q) and Scatter the Weak (E), throw Force of Will (W) while they're locked, then finish with Unleashed Power (R). The more spheres on the ground, the harder the ult hits."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Ult puis stun de zone", "en": "Ult, then area stun" },
+      "keys": ["R", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Déchaînement de puissance (R) laisse ses sphères autour de la cible. Projette-les aussitôt avec Dispersion des faibles (E) pour stun plusieurs ennemis, ou une cible mobile qui a dash.",
+        "en": "Unleashed Power (R) leaves its spheres around the target. Launch them right away with Scatter the Weak (E) to stun several enemies, or a mobile target that dashed."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Dispersion des faibles puis Flash", "en": "Scatter the Weak into Flash" },
+      "keys": ["E", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Lance Dispersion des faibles (E) et Flash aussitôt : le cône part de ta nouvelle position, plus vite qu'un Flash puis E. Idéal pour un angle de stun inattendu.",
+        "en": "Cast Scatter the Weak (E) and Flash instantly: the cone fires from your new position, faster than Flash then E. Great for an unexpected stun angle."
+      },
+      "refs": [1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Sphère noire (A) peut apparaître dans un mur. Dispersion des faibles (E) la pousse alors jusqu'à en sortir : ton stun porte bien plus loin que d'habitude.",
+        "en": "Dark Sphere (Q) can spawn inside a wall. Scatter the Weak (E) then pushes it until it gets out: your stun reaches much further than usual."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une fois lancé, Déchaînement de puissance (R) ne peut plus être interrompu, même si tu meurs pendant l'incantation. Un bouclier de sort ne bloque qu'une seule sphère.",
+        "en": "Once cast, Unleashed Power (R) can't be interrupted, even if you die during the cast. A spell shield only blocks a single sphere."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Une Sphère noire (A) posée juste avant Déchaînement de puissance (R) part avec l'ult. Ajoute toujours une sphère avant de l'activer pour plus de dégâts.",
+        "en": "A Dark Sphere (Q) placed right before Unleashed Power (R) gets thrown with the ult. Always add a sphere before casting it for more damage."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Déchaînement de puissance (R) n'emporte ni la sphère tenue par Force de la volonté (Z), ni celles en train d'être poussées par Dispersion des faibles (E).",
+        "en": "Unleashed Power (R) doesn't take the sphere held by Force of Will (W), nor the ones currently pushed by Scatter the Weak (E)."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Force de la volonté (Z) peut saisir les invocations ennemies, comme Boîte surprise de Shaco. Invocation : Tibbers d'Annie continue de brûler autour de lui pendant que tu le tiens.",
+        "en": "Force of Will (W) can grab enemy pets, like Shaco's Jack in the Box. Annie's Summon: Tibbers keeps burning around it while you hold it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Transcendance : deux dégâts de sort sur un champion en 4 secondes te donnent des fragments et du mana. Contre un tank, place juste deux sorts, récupère-les et recule.",
+        "en": "Transcendent: two ability hits on a champion within 4 seconds give you splinters and mana. Against a tank, land just two spells, collect them and back off."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Mur de vent de Yasuo bloque la partie de Dispersion des faibles (E) qui le touche, et les sphères projetées s'arrêtent dessus.",
+        "en": "Yasuo's Wind Wall blocks the part of Scatter the Weak (E) that hits it, and launched spheres stop on it."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Syndra - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Syndra", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Everyone Plays Syndra — Almost Nobody Plays Her Correctly", "url": "https://www.youtube.com/watch?v=pBZKzVbXj-w", "type": "video", "date": "2026-07-11", "author": "Zoose" },
+    { "title": "GUIDE SYNDRA MID FR - Tout Savoir Et Carry En Saison 15 (Matchups, Combos, Tierlist, Tips..)", "url": "https://www.youtube.com/watch?v=yNzAz9nKvEg", "type": "video", "date": "2025-02-26", "author": "Shambless" }
+  ]
+}

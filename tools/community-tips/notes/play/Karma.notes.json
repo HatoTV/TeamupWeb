@@ -1,0 +1,35 @@
+{
+  "searches": 1,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "Mantra current cooldown is reduced by 4 seconds for each enemy champion hit by Karma's damaging abilities.",
+    "Inner Flame deals increased damage, and fires a larger bolt that also explodes at maximum range.",
+    "The explosion creates a field for 1.5 seconds that slows enemies within by 50%, which then ruptures to deal magic damage.",
+    "Spell shield will block the initial impact from either ability but will not block Soulflare's field damage.",
+    "If the tether is not broken by the end of its duration, the target is dealt the same magic damage again and is rooted for a duration",
+    "Focused Resolve's root duration is increased. Karma heals for 17% of her missing health once on-cast, and again once the tether lasts its full duration or the target dies while tethered.",
+    "If the target becomes untargetable, dies, or is no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost. If they move too far away during the cast time, however, the ability will cancel as normal but still go on cooldown and pay its cost.",
+    "Karma grants a shield to herself or the target allied champion for 2.5 seconds as well as 40% bonus movement speed for 2 seconds.",
+    "Inspire spreads to surrounding allied champions, granting them a shield for 2.5 seconds and bonus movement speed for 2 seconds.",
+    "Mantra can be used while affected by cast-inhibiting crowd control.",
+    "For combos, start with E into W and attack away until the W roots. From here, use an ultimate empowered Q into more attacks.",
+    "If you're with an aggressive carry, you want to run forward with E and root the enemy team with W to force fights.",
+    "When empowered, in addition to the original shield, she also grants all allies around her a smaller shield and a smaller amount of bonus move speed.",
+    "Mantra Q does increased damage and instead leaves a 50% slow field for 1.5 seconds that then explodes to deal even more damage",
+    "Karma's primary combo is going to be Mantra Q to slow them into W into E usually you shield yourself to speed up to connect the root and then you auto attack in between your tether and then Q on the root",
+    "just use Mantra Q because hitting it will reduce the cool down of Mantra almost back to zero",
+    "Mantra W I mainly use when I'm below 20 to 30% HP to heal back up",
+    "Mantra E is good for when your team is grouped up or for the big shield whenever they're trying to burst one person",
+    "Et si tu le boostes avec ton Mantra, ça va donc lui permettre de faire une zone AOE avec son Q qui va réproc.",
+    "S'il est boosté avec le Mantra, il va se passer que tu vas regagner des HP énormément",
+    "Tu vois, mantra E qui permet de shield tout le monde et s'enfuir."
+  ],
+  "rejected": [
+    { "idea": "Les auto-attaques réduisent le CD de Mantra (R) de 4 s (EXYT)", "reason": "Contredit par le wiki : seuls les sorts de dégâts qui touchent un champion réduisent le CD." },
+    { "idea": "Choix du Mantra selon la phase de jeu (Q en lane, E en late)", "reason": "Conseil de style de jeu général, pas une mécanique." },
+    { "idea": "Mantra Z sur les camps de jungle pour se soigner", "reason": "Une seule source joueur (Stunt) ; usage marginal." }
+  ],
+  "toVerifyInGame": [
+    "Combo Ralentir puis lier : Flamme intérieure (A) renforcée relancée sur l'immobilisation selon Stunt, dépend du CD de A."
+  ]
+}

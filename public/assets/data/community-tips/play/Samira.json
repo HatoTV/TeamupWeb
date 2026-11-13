@@ -1,0 +1,100 @@
+{
+  "champion": "Samira",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Charge puis Panache", "en": "Wild Rush into Flair" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Panache (A) pendant Charge sauvage (E) : tu poses des explosifs sur tout le trajet, qui sautent à la fin de la ruée. Tu touches tout ce que tu as traversé.",
+        "en": "Cast Flair (Q) during Wild Rush (E): you drop explosives along the whole path, which blow up when the dash ends. You hit everything you went through."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Rang S rapide", "en": "Fast S rank" },
+      "keys": ["E", "Q", "W", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Après une attaque à distance, Charge sauvage (E), Panache (A) pendant la ruée, puis Tourbillon de lame (Z) : chaque coup différent monte ton style. Au rang S, Gâchette infernale (R) coupe le Tourbillon et part tout de suite.",
+        "en": "After a ranged attack, Wild Rush (E), Flair (Q) during the dash, then Blade Whirl (W): each different hit raises your Style. At S rank, Inferno Trigger (R) cuts the Whirl short and fires right away."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Double Charge sauvage sur reset", "en": "Double Wild Rush on reset" },
+      "keys": ["E", "Q", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Un kill moins de 3 s après avoir touché la cible réinitialise Charge sauvage (E). Appuie déjà sur E vers la cible suivante avant le kill : la ruée part dès que le reset tombe.",
+        "en": "A takedown within 3 s of damaging the target resets Wild Rush (E). Press E toward the next target before the kill lands: the dash fires as soon as the reset comes."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Charge sauvage (E) parcourt toujours la même distance. Colle-toi au mur puis vise un ennemi ou un monstre derrière : tu passes même les murs épais, comme celui du Dragon.",
+        "en": "Wild Rush (E) always travels the same distance. Hug the wall, then target an enemy or monster behind it: you can cross even thick walls, like the Dragon pit one."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Gâchette infernale (R) met fin à Tourbillon de lame (Z) tout de suite, sans le second coup. Garde ce cancel pour gagner du temps, pas quand tu dois encore bloquer des projectiles.",
+        "en": "Inferno Trigger (R) ends Blade Whirl (W) at once, without the second slash. Use this cancel to save time, not when you still need to block projectiles."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tourbillon de lame (Z) détruit tous les projectiles ennemis qui entrent dans sa zone, sauf les tirs de tour. Tu peux bouger pendant, mais ni attaquer ni lancer Panache (A).",
+        "en": "Blade Whirl (W) destroys every enemy projectile entering its area, except turret shots. You can move during it, but you can't attack or cast Flair (Q)."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pour contourner ce blocage, lance Charge sauvage (E) et file Panache (A) dès le début de la ruée : il part même si Tourbillon de lame (Z) est actif.",
+        "en": "To get around that lockout, cast Wild Rush (E) and queue Flair (Q) at the start of the dash: it comes out even while Blade Whirl (W) is active."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Charge sauvage (E) peut viser une tour ennemie, mais les champions passent en priorité. Avec un reset, ça te donne une ruée de plus pour plonger sous la tour.",
+        "en": "Wild Rush (E) can target an enemy turret, but champions take priority. With a reset, that gives you one more dash to dive under the turret."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Gâchette infernale (R) demande un ennemi visible proche pour se lancer, mais elle tire ensuite même sur les cibles invisibles. Pendant ce temps, ta vitesse baisse de 30 %.",
+        "en": "Inferno Trigger (R) needs a visible nearby enemy to cast, but it then shoots even invisible targets. Meanwhile, your movement speed drops by 30%."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "À 200 unités ou moins, tes attaques de base passent à la lame : ce ne sont plus des projectiles, et elles infligent des dégâts magiques en plus.",
+        "en": "Within 200 units, your basic attacks switch to the blade: they are no longer projectiles, and they deal bonus magic damage."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Samira - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Samira", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "EVERY Advanced Samira Trick Explained In 19 Minutes", "url": "https://www.youtube.com/watch?v=-GYCZ3ygYbM", "type": "video", "date": "2026-11-13", "author": "Sagittarius" },
+    { "title": "Best Samira Build & Guide (2026) — League of Legends", "url": "https://www.dodge.gg/news/samira-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" }
+  ]
+}

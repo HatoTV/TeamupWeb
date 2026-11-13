@@ -1,0 +1,31 @@
+{
+  "searches": 2,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Rumble's basic ability casts generate Heat, which decays by 10 Heat per second after not using any basic ability within 4 seconds or The Equalizer within 2 seconds.",
+    "Rumble's mech enters the Danger Zone when at or above 50 Heat, and becomes Overheated while at 150 Heat.",
+    "Rumble's mech becomes Overheated, disabling his abilities as his Heat decays back down to 0 over 4 seconds. During this time, he gains bonus attack speed and empowers his basic attacks to deal bonus magic damage on-hit.",
+    "If Rumble casts Electro Harpoon before his mech becomes Overheated, he may still use another charge within 3 seconds of the initial cast.",
+    "These effects stack additively with multiple harpoons, refreshing their duration and stacking up to 2 times.",
+    "If Electro Harpoon is empowered with the Danger Zone bonus and hits a target that is afflicted with the non-enhanced slow and shred applied by previous, non-empowered Electro Harpoon casts, the effectiveness of both debuffs on the target are increased to their enhanced values for all stacks of each debuff.",
+    "Rumble will instantly turn to face the cursor if he is not moving when Flamespitter is cast. He will also instantly turn when issuing an Attack order on an enemy while Flamespitter is active.",
+    "Also, if Rumble casts this ability before he overheat, he can still use it one more time for 3 seconds after he overheats.",
+    "For combos, you want to start around half heat. From here, E into W and Q before Eing again to overheat yourself while attacking away. And of course, if you have ultimate, you can start with this before going in.",
+    "Each ability excluding Rumble's ultimate gives him 20 heat and upon reaching 50 heat each ability again excluding his ultimate becomes empowered.",
+    "with the exception of his E, where if you use it right before overheating, you can cast a second E during overheat.",
+    "A good Rumble will consistently manage his heat to be around 70 to 80 because of this.",
+    "(Misanthiel, FR) Regardez, je mets Q E Z. Et là je remets un E. Et ça en fait c'est possible parce que lorsque vous mettez un E peu avant de passer en zone rouge avec Rumble, vous pouvez ensuite remettre un 2e E pendant la zone rouge",
+    "(Misanthiel, FR) s'il attend une seconde de plus, il passe à 100 de vapeur, il peut donc faire un spell 120, un deuxième spell 140 et le troisième spell le fera passer en zone rouge. Ce qui signifie que là en fait au lieu de mettre deux spells il en mettra quatre"
+  ],
+  "rejected": [
+    { "idea": "Rumble 'E Flash mechanic' (Srtty)", "reason": "Mentioned without detail by a single source; Flash interaction not confirmed by the wiki." },
+    { "idea": "Ult the wave then recall to gain tempo (Misanthiel)", "reason": "Macro advice, not a combo or mechanic tip; single source." },
+    { "idea": "Place the ult across the escape path rather than along the target's axis (Misanthiel)", "reason": "Positioning advice from a single source." },
+    { "idea": "Level 1 heat stacking with E every time 10 Heat drops (Srtty, Misanthiel)", "reason": "Tied to rune shard / item choices (out of scope)." },
+    { "idea": "Bossbam 'Rumble VR' video", "reason": "Different game (Rumble VR), not League of Legends." }
+  ],
+  "toVerifyInGame": [
+    "Double harpoon: exact window to throw the first harpoon before the Overheat so the second stays available (3 s).",
+    "The Equalizer pauses Heat decay for 2 s (wiki) while generating no Heat."
+  ]
+}

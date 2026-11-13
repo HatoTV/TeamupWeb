@@ -1,0 +1,212 @@
+{
+  "champion": "LeeSin",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Insec par ward hop",
+        "en": "Ward hop Insec"
+      },
+      "keys": [
+        "Q",
+        "Q",
+        "W",
+        "R"
+      ],
+      "level": "hard",
+      "desc": {
+        "fr": "Touche Onde sonore (A), puis pendant la ruée de Coup résonant pose ta ward derrière la cible et lance Rempart (Z) dessus. Enchaîne Rage du dragon (R) pour la renvoyer vers ton équipe.",
+        "en": "Land Sonic Wave (Q), then during the Resonating Strike dash drop a ward behind the target and Safeguard (W) to it. Follow with Dragon's Rage (R) to send them back toward your team."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Rage du dragon + Flash",
+        "en": "Dragon's Rage + Flash"
+      },
+      "keys": [
+        "R",
+        "F"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Rage du dragon (R) au contact, puis Flash pendant l'incantation. La direction du kick se décide à l'impact : la cible part du côté opposé à ton Flash.",
+        "en": "Cast Dragon's Rage (R) in melee range, then Flash during the cast time. The kick direction is set on impact, so the target flies away from the side you flashed to."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Ward hop, kick, Onde sonore",
+        "en": "Ward hop, kick, Sonic Wave"
+      },
+      "keys": [
+        "W",
+        "R",
+        "Q",
+        "Q",
+        "E"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Ward hop avec Rempart (Z) au contact, une AA, Rage du dragon (R), puis Onde sonore (A) sur la cible en l'air, qui ne peut pas l'esquiver. Finis par Coup résonant, une AA et Trombe (E).",
+        "en": "Ward hop with Safeguard (W) next to the target, auto, Dragon's Rage (R), then Sonic Wave (Q) while they are airborne and can't dodge it. Finish with Resonating Strike, an auto and Tempest (E)."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Gank sans gâcher l'Onde",
+        "en": "Gank without wasting Sonic Wave"
+      },
+      "keys": [
+        "E",
+        "E",
+        "Q",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Approche sans lancer Onde sonore (A), place Trombe (E) puis Fracture pour ralentir. Ton Onde sonore touche bien plus facilement une cible slow, et Coup résonant te recolle à elle.",
+        "en": "Walk up without throwing Sonic Wave (Q), land Tempest (E) then Cripple to slow. Sonic Wave is much easier to hit on a slowed target, and Resonating Strike brings you back on them."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pour sauter sur ta ward, pose-la et lance Rempart (Z) sans bouger la souris : le sort cherche une ward près du curseur. Ta ward se pose un peu moins loin que la portée du dash.",
+        "en": "To ward hop, place your ward and cast Safeguard (W) without moving the mouse: the spell looks for a ward near the cursor. Your ward range is slightly shorter than the dash range."
+      },
+      "refs": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Rempart (Z) peut cibler presque toute unité alliée ciblable, structures exceptées : sbires, wards, mais aussi la lanterne de Thresh, l'étendard de Jarvan IV ou un champignon de Teemo.",
+        "en": "Safeguard (W) can target almost any targetable allied unit except structures: minions, wards, but also Thresh's lantern, Jarvan IV's standard or a Teemo mushroom."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant la ruée de Coup résonant (A), tu peux lancer Rempart, Force d'âme ou Fracture, mais ni Trombe ni Rage du dragon. Garde ton kick pour l'arrivée.",
+        "en": "During the Resonating Strike (Q) dash you can cast Safeguard, Iron Will or Cripple, but neither Tempest nor Dragon's Rage. Keep your kick for when you land."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Ne lance pas Coup résonant (A) tout de suite : ses dégâts montent avec les PV manquants de la cible. Tape d'abord avec AA et Trombe, et attends son Flash, qui peut annuler les dégâts.",
+        "en": "Don't fire Resonating Strike (Q) right away: its damage grows with the target's missing health. Hit them with autos and Tempest first, and wait for their Flash, which can cancel the damage."
+      },
+      "refs": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les ennemis percutés par la cible de Rage du dragon (R) prennent un bonus selon ses PV bonus. Kick un tank dans leurs carries plutôt qu'un carry fragile.",
+        "en": "Enemies hit by the target of Dragon's Rage (R) take bonus damage based on its bonus health. Kick a tank into their carries rather than a squishy carry."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si Rage du dragon (R) achève sa cible, son corps est quand même projeté et percute les ennemis sur sa route. Exceptions : Yone sous Libération spirituelle (E) et les champions en état zombie.",
+        "en": "If Dragon's Rage (R) kills its target, the corpse is still knocked back and hits enemies on its path. Exceptions: Yone during Spirit Unbound (E) and champions entering a zombie state."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Rafale (passif) : après chaque sort, place deux AA avant le suivant. Elles gagnent de la vitesse d'attaque et rendent de l'énergie, et enchaîner deux sorts ne cumule pas le bonus.",
+        "en": "Flurry (passive): after each spell, weave two autos before the next one. They gain attack speed and restore energy, and casting two spells in a row doesn't stack the bonus."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lee Sin (League of Legends Wiki)",
+      "url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Guide Lee Sin Saison 16 - Tous les combos et mécaniques essentiels",
+      "url": "https://www.youtube.com/watch?v=YyZ_DW2zhQM",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "Donbeshi - Challenger League of Legends Guides"
+    },
+    {
+      "title": "THE BEST LEE SIN GUIDE FOR 2026 - Runes, Builds, Tips, Tricks & Gameplay Explained",
+      "url": "https://www.youtube.com/watch?v=NPxojPiTpPU",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "Sinerias"
+    },
+    {
+      "title": "IN DEPTH LEE SIN WARDHOP PRACTICE GUIDE",
+      "url": "https://www.youtube.com/watch?v=21ax6Z9NGp0",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "strife"
+    },
+    {
+      "title": "Pure LEE SIN FUNDAMENTALS",
+      "url": "https://www.youtube.com/watch?v=EfWKYwtQEPw",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "Kireilol"
+    }
+  ]
+}

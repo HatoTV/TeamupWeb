@@ -1,0 +1,120 @@
+{
+  "champion": "Brand",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Combo complet en 1v1", "en": "Full 1v1 combo" },
+      "keys": ["E", "Q", "W", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Conflagration (E) en ciblé met ta cible en feu, donc Brûlure (A) place un stun garanti. Colonne de flammes (Z) tombe sur une cible immobile avec 25 % de dégâts en plus, puis Pyrolyse (R) finit le travail.",
+        "en": "Point-and-click Conflagration (E) sets your target ablaze, so Sear (Q) is a sure stun. Pillar of Flame (W) lands on a rooted target for 25% extra damage, then Pyroclasm (R) finishes the job."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Ouverture à l'ult en teamfight", "en": "Ult opener in teamfights" },
+      "keys": ["R", "E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ouvre avec Pyrolyse (R) au milieu de l'équipe adverse pour mettre le feu partout. Conflagration (E) se propage alors deux fois plus loin, Colonne de flammes (Z) frappe plus fort, et Brûlure (A) stun celui qui fonce sur toi.",
+        "en": "Open with Pyroclasm (R) into the enemy team to set everyone ablaze. Conflagration (E) then spreads twice as far, Pillar of Flame (W) hits harder, and Sear (Q) stuns whoever runs at you."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Poke par la wave", "en": "Poke through the wave" },
+      "keys": ["W", "E", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Colonne de flammes (Z) sur des sbires proches de l'adversaire, puis Conflagration (E) sur un sbire en feu : la propagation doublée l'atteint. Il est en feu, enchaîne Brûlure (A) pour le stun et Pyrolyse (R) au niveau 6.",
+        "en": "Pillar of Flame (W) on minions near your opponent, then Conflagration (E) on a burning minion: the doubled spread reaches them. They are now ablaze, so follow with Sear (Q) for the stun and Pyroclasm (R) at level 6."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Brûlure Flash surprise", "en": "Surprise Sear Flash" },
+      "keys": ["Q", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Sur une cible déjà en feu, lance Brûlure (A) puis Flash juste après, pas l'inverse. Le sort part de ta nouvelle position, bien plus près, et le stun arrive sans prévenir.",
+        "en": "On a target that is already ablaze, cast Sear (Q) then Flash right after, not the other way round. The fireball leaves from your new spot, much closer, and the stun comes with no warning."
+      },
+      "refs": [1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Brûlure (A) ne stun que si la cible est déjà en feu (Flammes). Touche-la d'abord avec un autre sort, sinon tu ne fais que des dégâts.",
+        "en": "Sear (Q) only stuns if the target is already ablaze (Blaze). Hit them with another ability first, otherwise it only deals damage."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "À 3 cumuls de Flammes sur un champion, un anneau apparaît et explose 2 s plus tard sur toute la zone. Il se forme et explose même si ta cible meurt avant.",
+        "en": "At 3 Blaze stacks on a champion, a ring appears and explodes 2 s later on the whole area. It forms and goes off even if your target dies first."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Conflagration (E) se propage aux ennemis proches au moment du lancer. Ceux qui s'éloignent ensuite sont quand même touchés : les flammes les poursuivent.",
+        "en": "Conflagration (E) spreads to enemies near the target when you cast it. Anyone who walks away afterwards still gets hit: the flames chase them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Sans autre ennemi autour, Pyrolyse (R) rebondit sur toi puis revient sur ta cible. Reste assez proche d'elle en 1v1 pour profiter de tous les rebonds.",
+        "en": "With no other enemy around, Pyroclasm (R) bounces off you and back to your target. Stay close enough in a 1v1 to get every bounce."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pyrolyse (R) vise d'abord les champions en feu. Chaque rebond sur un champion en feu le ralentit, et un même ennemi peut être ralenti plusieurs fois.",
+        "en": "Pyroclasm (R) targets ablaze champions first. Every bounce on an ablaze champion slows them, and the same enemy can be slowed several times."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les rebonds de Pyrolyse (R) atteignent aussi les ennemis invisibles pour toi, par exemple dans un buisson.",
+        "en": "Pyroclasm (R) bounces also reach enemies you cannot see, for example in a brush."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si ta cible initiale bloque Pyrolyse (R) avec un bouclier de sorts, l'ult ne rebondit pas. Un bouclier touché par un rebond annule seulement ce rebond, la suite continue.",
+        "en": "If your first target blocks Pyroclasm (R) with a spell shield, the ult does not bounce. A shield hit by a later bounce only cancels that hit, and the chain goes on."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Les dégâts de Pyrolyse (R) sur un champion n'attirent pas l'aggro des sbires ennemis. Tu peux l'utiliser en lane sans prendre la wave sur toi.",
+        "en": "Pyroclasm (R) damage on a champion does not draw aggro from enemy minions. You can use it in lane without taking the wave on yourself."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Brand – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Brand", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY Brand Guide You'll Ever Need (Beginner to One Trick)", "url": "https://www.youtube.com/watch?v=KFYQrEGEXjM", "type": "video", "date": "2026-06-19", "author": "Burst" },
+    { "title": "3 Minute Brand Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=akyq_TCfbkk", "type": "video", "date": "2025-10-14", "author": "3 Minute League of Legends" },
+    { "title": "Brand Tips and Tricks | Beginner Guide", "url": "https://www.youtube.com/watch?v=ZjQzjp7Up5w", "type": "video", "date": "2022-01-19", "author": "Evvelyx" }
+  ]
+}

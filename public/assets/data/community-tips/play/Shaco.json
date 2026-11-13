@@ -1,0 +1,93 @@
+{
+  "champion": "Shaco",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Tromperie puis Poison double", "en": "Deceive into Two-Shiv Poison" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Tromperie (A) pour coller la cible, puis Poison double (E) pour la ralentir. Garde-le pour une cible sous 30 % de PV : il frappe plus fort et sert d'exécution.",
+        "en": "Deceive (Q) to stick to the target, then Two-Shiv Poison (E) to slow it. Save it for a target under 30% health: it hits harder and works as an execute."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Deux backstabs puis Hallucination", "en": "Two backstabs then Hallucinate" },
+      "keys": ["Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Tromperie (A) dans le dos de la cible, deux autos par-derrière, puis Hallucination (R) sur le côté. Tu disparais une demi-seconde et esquives souvent sa réaction.",
+        "en": "Deceive (Q) behind the target, two autos from behind, then Hallucinate (R) to the side. You vanish for half a second and often dodge their reaction."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Faux Shaco à bas PV", "en": "Low health fake Shaco" },
+      "keys": ["Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "À bas PV, enchaîne Tromperie (A) et Hallucination (R) juste devant l'ennemi : tu restes invisible et seul le clone apparaît. S'il le frappe, le clone explose sur lui.",
+        "en": "At low health, chain Deceive (Q) and Hallucinate (R) right in front of the enemy: you stay invisible and only the clone shows. If they hit it, it explodes on them."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Hallucination (R) peut faire passer un mur fin : toi si tu vises de l'autre côté, ou le clone si tu vises dans l'autre sens. Tu apparais toujours côté curseur.",
+        "en": "Hallucinate (R) can get you past a thin wall: you if you aim across it, or the clone if you aim the other way. You always appear on the cursor side."
+      },
+      "refs": [1, 2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ton auto ralentit seulement tant que Poison double (E) est disponible. Ne l'ouvre pas en premier : tu perds le slow de tes autos pendant tout son CD.",
+        "en": "Your autos only slow while Two-Shiv Poison (E) is available. Don't open with it: you lose the auto slow for its whole cooldown."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Boîte surprise (Z) et Hallucination (R) ne cassent pas l'invisibilité de Tromperie (A). Seuls une auto ou Poison double (E) te révèlent.",
+        "en": "Jack In The Box (W) and Hallucinate (R) don't break Deceive (Q) invisibility. Only an auto or Two-Shiv Poison (E) reveals you."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Lance Hallucination (R) juste après Tromperie (A) : le clone apparaît côté curseur au lieu du côté opposé. Pratique pour le placer devant l'ennemi.",
+        "en": "Cast Hallucinate (R) right after Deceive (Q): the clone appears on the cursor side instead of the opposite one. Handy to place it in front of the enemy."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Quand le clone meurt, il pose trois boîtes qui font fuir les ennemis. Si l'explosion touche un sbire, les champions fuient 2,2 s au lieu d'1 s : fais-le exploser près de la wave.",
+        "en": "When the clone dies, it drops three boxes that fear enemies. If the blast hits a minion, champions are feared for 2.2 s instead of 1 s: blow it up near the wave."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Traîtrise améliore aussi tes sorts : Tromperie (A) suivie d'une auto dans le dos force un coup critique, et Poison double (E) lancé par-derrière fait des dégâts bonus.",
+        "en": "Backstab also boosts your spells: Deceive (Q) followed by an auto from behind forces a critical strike, and Two-Shiv Poison (E) thrown from behind deals bonus damage."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Shaco - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Shaco", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Shaco Guide Season 16 - Every Essential Mechanic Explained", "url": "https://www.youtube.com/watch?v=2KBwDsuqny8", "type": "video", "date": "2026-07-24", "author": "Eagz" },
+    { "title": "Maîtrisez toutes les mécaniques de Shaco en 14 minutes | Guide Shaco 2026", "url": "https://www.youtube.com/watch?v=VGg1MWYhw2E", "type": "video", "date": "2026-11-13", "author": "Shaco Mid Lane" },
+    { "title": "Guide Shaco AP : astuces de Challenger OTP", "url": "https://www.youtube.com/watch?v=Ap7s4izPOnc", "type": "video", "date": "2026-11-13", "author": "Zefath" }
+  ]
+}

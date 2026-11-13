@@ -1,0 +1,36 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Nautilus' basic attacks are empowered to deal bonus physical damage and root the target. This effect cannot occur on the same target more than once every few seconds.",
+    "Spell shield will block the root but not the bonus damage.",
+    "It will fail to trigger while he is blinded.",
+    "If the anchor hits terrain, Nautilus dashes to that location and 50% of Dredge Line's cooldown and mana cost are refunded.",
+    "Nautilus is unable to move or attack while Dredge Line is in flight. He can cast any of his abilities during the dash.",
+    "Dredge Line has two hitboxes. The outer hitbox, shown by a visual effect on the ground, will hit champions edge-to-edge. The inner hitbox, shown by the anchor, can hit terrain. Near thinner walls, this can cause the ability to hit a champion on the other side.",
+    "Dredge Line turns Nautilus' facing direction accordingly upon hitting a valid target.",
+    "Titan's Wrath resets Nautilus' basic attack timer.",
+    "Pain of Wrath will be applied by Nautilus's basic attack if he is affected by Titan's Wrath at the start of the attack windup, even if Titan's Wrath expires during the windup.",
+    "Depth Charge starts in an offset from whichever direction Nautilus is facing at the end of the cast time.",
+    "Since Dredge Line causes Nautilus to change his facing direction upon hitting a valid target, Depth Charge's starting point can be changed with a quick Dredge Line + Depth Charge combo.",
+    "Depth Charge will not stop chasing if the target dies or becomes untargetable.",
+    "Dredge Line will not override Depth Charge's knock up.",
+    "Enemies hit by the eruptions are dealt magic damage, knocked up for 1 second, and stunned for a duration.",
+    "Vous avez juste vu le combo de base. Vous lancez l'encre, vous mettez une auto ensuite et vous partez.",
+    "Il met son auto. D'accord. Il resette avec son Z pour mettre une auto rapide. Il utilise son R juste après parce que comme ça il met deux autos de dégâts.",
+    "Vous voulez être sûr que votre adversaire il meurt. Flash auto R.",
+    "il utilise d'abord son ancre sur les murs pour se rapprocher, se mettre en range de flash ancre",
+    "flash auto attaque slow et maintenant qu'il est slow qu'est-ce qu'on fait on le plaque et on essaie de graper",
+    "utilise tout le temps ton grap pour revenir en line, quand ça va toucher un mur le CD de son grap va être réduit",
+    "il va caler son R pour lock la personne quand elle sera bump il va caler le grap"
+  ],
+  "rejected": [
+    { "idea": "R flashé : lancer Grenade ASM (R) puis Flash juste après (Lelariva)", "reason": "Explication coupée dans les sous-titres, effet exact non confirmé par le wiki." },
+    { "idea": "Se coller au mur pour que l'ennemi ne puisse pas esquiver l'ancre (EXYT)", "reason": "Conseil de placement, pas une mécanique vérifiée." },
+    { "idea": "Trade court auto puis Répliques (E) en reculant (Lelariva)", "reason": "Une seule source joueur, trop générique." }
+  ],
+  "toVerifyInGame": [
+    "Abordage (A) près d'un mur fin : vérifier la prise d'un champion de l'autre côté.",
+    "Grenade ASM (R) puis Abordage (A) : timing pour que l'ancre touche pendant le knock-up."
+  ]
+}

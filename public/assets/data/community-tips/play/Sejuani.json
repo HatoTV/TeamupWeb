@@ -1,0 +1,109 @@
+{
+  "champion": "Sejuani",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Combo de stun de base", "en": "Basic stun combo" },
+      "keys": ["Q", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Assaut arctique (A) : si tu touches un champion, tu l'attaques tout seul. Enchaîne Colère de l'hiver (Z) et une attaque, puis Permafrost (E) dès que la cible a 4 marques de givre pour l'étourdir.",
+        "en": "Arctic Assault (Q): if you hit a champion, you attack them automatically. Chain Winter's Wrath (W) and an attack, then Permafrost (E) as soon as the target has 4 Frost stacks to stun them."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Assaut puis Prison de glace", "en": "Arctic Assault into Glacial Prison" },
+      "keys": ["Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Prison de glace (R) pendant le dash d'Assaut arctique (A) : le dash continue et cache une bonne partie de l'animation. Ton engage à longue portée, difficile à anticiper.",
+        "en": "Cast Glacial Prison (R) during the Arctic Assault (Q) dash: the dash keeps going and hides a good part of the animation. Your long-range engage, hard to see coming."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage à l'ult", "en": "Ult engage" },
+      "keys": ["R", "Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Prison de glace (R) étourdit la cible, puis Assaut arctique (A) pour la rejoindre et Colère de l'hiver (Z). Ta prochaine attaque sur la cible étourdie déclenche les dégâts bonus de ton passif.",
+        "en": "Glacial Prison (R) stuns the target, then Arctic Assault (Q) to reach them and Winter's Wrath (W). Your next attack on the stunned target triggers your passive's bonus damage."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Assaut arctique (A) n'a pas de distance minimale et ne coupe aucun autre sort : tu peux le lancer pendant Colère de l'hiver (Z) ou Prison de glace (R), et inversement.",
+        "en": "Arctic Assault (Q) has no minimum dash range and cancels none of your other spells: you can cast it during Winter's Wrath (W) or Glacial Prison (R), and vice versa."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Assaut arctique (A) ne repousse jamais un ennemi à travers un mur. Contre une cible collée au terrain, ne compte pas sur le dash pour la faire changer de côté.",
+        "en": "Arctic Assault (Q) never knocks an enemy back through a wall. Against a target hugging terrain, don't count on the dash to move them to the other side."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux bouger pendant l'incantation de Colère de l'hiver (Z). Le second coup, celui qui ralentit, part de ta position à la fin de l'incantation, toujours dans la même direction.",
+        "en": "You can move during the Winter's Wrath (W) cast time. The second strike, the one that slows, comes from where you stand at the end of the cast, still in the same direction."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Ta prochaine attaque ou ton prochain sort sur un ennemi que tu as étourdi inflige 10 % de ses PV max en bonus. Frappe-le juste après Permafrost (E) ou Prison de glace (R).",
+        "en": "Your next attack or spell on an enemy you stunned deals 10% of their max health as bonus damage. Hit them right after Permafrost (E) or Glacial Prison (R)."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Ton armure de givre te rend insensible aux ralentissements et dure 3 s après des dégâts de champion, de tour ou de gros monstre. Elle revient après un moment sans en prendre : engage avec.",
+        "en": "Your Frost Armor makes you immune to slows and lasts 3 s after damage from champions, turrets or large monsters. It comes back after a while without taking any: engage with it."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les attaques de base de tes alliés au corps à corps proches posent aussi des marques de givre. Avec un allié de mêlée, Permafrost (E) est prêt bien plus vite.",
+        "en": "Basic attacks from nearby melee allies also apply Frost stacks. With a melee ally, Permafrost (E) is ready much sooner."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Permafrost (E) ne vise qu'un ennemi que tu vois. Une cible marquée cachée dans un buisson sans vision ne peut pas être étourdie.",
+        "en": "Permafrost (E) only targets an enemy you can see. A marked target hiding in a brush without vision can't be stunned."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si la bola de Prison de glace (R) parcourt au moins 425 unités, le stun passe à 1,5 s et crée une tempête qui ralentit autour. Ne la lance pas à bout portant.",
+        "en": "If the Glacial Prison (R) bola travels at least 425 units, the stun becomes 1.5 s and creates a storm that slows around it. Don't throw it point-blank."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Sejuani - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Sejuani", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "How (not) to Play Sejuani", "url": "https://www.youtube.com/watch?v=86zwOZZm2kQ", "type": "video", "date": "2026-11-13", "author": "EcoreLoL" },
+    { "title": "Guide Sejuani en 3 minutes - Un guide pour League of Legends", "url": "https://www.youtube.com/watch?v=wqHW5QJ_bdU", "type": "video", "date": "2026-11-13", "author": "3 Minute League of Legends" },
+    { "title": "Best Sejuani Build & Guide (2026)", "url": "https://www.dodge.gg/news/sejuani-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" }
+  ]
+}

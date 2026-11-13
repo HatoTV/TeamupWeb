@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Innate: Periodically, Maokai empowers his next basic attack to have an uncancellable windup and heal him for maximum health after a 0.25-second delay.",
+    "Each time Maokai casts an ability, hits at least one enemy champion or epic monster with Sapling Toss, or is struck by an enemy's ability, Sap Magic's cooldown is reduced by 4 seconds",
+    "Sap Magic basic attack reset [resets] Maokai's basic attack timer, and will not trigger if he is above 95% maximum health.",
+    "Maokai sends a shockwave in the target direction that deals magic damage to enemies hit and slow [slows] them by 99% for 0.25 seconds.",
+    "Enemies near Maokai are also stun [stunned] for 0.5 seconds and airborne [knocked back] up to 300 units based on their proximity to him.",
+    "Maokai dashes to the target enemy while being untargetable. Upon arrival, he deals magic damage and root [roots] them for a duration.",
+    "Maokai will track the target if they change locations.",
+    "Twisted Advance will fail to deal damage and apply the root if the target is untargetable upon arrival.",
+    "A Sapling placed in a brush becomes empowered.",
+    "Empowered Bonus: Lasts 30 (+ 1.5% bonus health) seconds and causes its explosion to slow enemies hit ... and standard sight [reveal] them for 3 seconds. Against non-minion targets, the explosion deals 66.7% damage but attaches two Saplings to them for 1.5 seconds",
+    "Sapling Toss's cast does not initially fling the actual Sapling unit but instead a Sapling-like projectile that can be destroyed by projectile-interception effects.",
+    "The projectile will stop its flight upon colliding with Unbreakable [Braum], causing the Sapling to land in front of the barrier.",
+    "Each bramble deals magic damage to enemies hit and root [roots] them for type=distance traveled seconds.",
+    "Bah alors quand Maokai euh met une auto ... ça va lui rendre des PV. Alors pour que cette auto elle marche déjà elle a un CD ... faut qu'il perde des PV.",
+    "vous mettez une compétence ou que vous êtes touché par une compétence, et ben ça réduit le délai de ce passif-là de 4 secondes.",
+    "ça ralentit les ennemis qu'il y a dans la zone en cône devant moi et ça repousse tous ceux qu'il y a dans la zone en rond autour de moi.",
+    "quand on la met proche, ça repousse l'ennemi et quand on la met de loin, ça slow.",
+    "Vous pouvez faire pareil pour Insec vous flashez derrière un ennemi.",
+    "Après vous pouvez faire le combo classique du ZQ ... mais si jamais vous pouvez pas sans votre Z, vous pouvez juste Q vous flash derrière la cible.",
+    "Si vous voulez stun l'ennemi d'un coup, faut le mettre à l'envers comme ça la racine ... vous pouvez le faire de côté aussi, c'est pareil.",
+    "For combos, a great go-to is to E into W. Follow up with an attack into your Q before attacking away.",
+    "Your engage combo is to ult into your E and W. From here, attack into Q and attack away.",
+    "And your surprise engage combo is to E into your ultimate sideways for the instant lockdown.",
+    "if you throw a sapling into the brush the opponent is forced to walk out.",
+    "And the root duration is increased the further it's traveled."
+  ],
+  "rejected": [
+    { "idea": "Flash pendant l'incantation de Coup de ronces pour le rendre imprévisible (iReaz VOD)", "reason": "Une seule source et le wiki ne dit pas si le Flash pendant l'incantation déplace le cercle ; gardé seulement en à vérifier en jeu." },
+    { "idea": "Croissance torturée qui franchit un mur", "reason": "Aucune source ne le dit explicitement." },
+    { "idea": "Ult tirée à l'envers (dans le dos) pour un stun instantané (iReaz VOD)", "reason": "Formulation ambiguë ; seule la version de côté, confirmée par deux auteurs, est retenue." }
+  ],
+  "toVerifyInGame": [
+    "Flash pendant l'incantation de Coup de ronces (0,3 s) : vérifier que le cercle de repoussement part bien de la position après le Flash.",
+    "Ult de côté au contact : durée réelle de la root quand le mur parcourt très peu de distance."
+  ]
+}

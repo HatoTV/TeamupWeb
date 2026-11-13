@@ -1,0 +1,99 @@
+{
+  "champion": "Karma",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Lien puis Flamme renforcée", "en": "Tether into empowered Flame" },
+      "keys": ["E", "W", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Accélère avec Exaltation (E), lie l'ennemi avec Volonté concentrée (Z) et tape en attendant l'immobilisation. Quand il est immobilisé, active Mantra (R) puis Flamme intérieure (A).",
+        "en": "Speed up with Inspire (E), tether the enemy with Focused Resolve (W) and attack while you wait for the root. Once they are rooted, activate Mantra (R), then Inner Flame (Q)."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Ralentir puis lier", "en": "Slow, then tether" },
+      "keys": ["R", "Q", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ouvre avec Flamme intérieure (A) renforcée par Mantra (R) pour ralentir, puis lance Volonté concentrée (Z). Mets-toi Exaltation (E) pour garder le lien et tape jusqu'à l'immobilisation.",
+        "en": "Open with Inner Flame (Q) empowered by Mantra (R) to slow, then cast Focused Resolve (W). Put Inspire (E) on yourself to keep the tether and attack until the root."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque champion touché par un sort de dégâts réduit le CD de Mantra (R) de 4 s. Les autos ne comptent pas : vise plusieurs champions avec tes sorts.",
+        "en": "Each champion hit by a damaging ability cuts 4 s off Mantra (R) cooldown. Autos do not count: aim your spells at several champions."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Renforcée par Mantra (R), Flamme intérieure (A) explose aussi en bout de portée sans rien toucher. Elle laisse une zone qui ralentit de 50 % puis explose une seconde fois.",
+        "en": "Empowered by Mantra (R), Inner Flame (Q) also explodes at max range without hitting anything. It leaves a field that slows by 50%, then explodes a second time."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le lien de Volonté concentrée (Z) casse si la cible s'éloigne trop. Mets-toi Exaltation (E) pour suivre avec 40 % de vitesse et tenir le lien jusqu'à l'immobilisation.",
+        "en": "The Focused Resolve (W) tether breaks if the target gets too far. Put Inspire (E) on yourself to follow with 40% speed and hold the tether until the root."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Renforcée par Mantra (R), Volonté concentrée (Z) te soigne au lancement puis à la fin du lien, et immobilise plus longtemps. Garde-la quand tu es bas en PV.",
+        "en": "Empowered by Mantra (R), Focused Resolve (W) heals you on cast and again when the tether ends, and roots longer. Keep it for when you are low on health."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Renforcée par Mantra (R), Exaltation (E) étend un bouclier et de la vitesse aux alliés proches de ta cible. Vise l'allié au milieu de ton équipe.",
+        "en": "Empowered by Mantra (R), Inspire (E) spreads a shield and speed to allies near your target. Aim at the ally in the middle of your team."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si la cible de Volonté concentrée (Z) devient intouchable ou disparaît de ta vue pendant l'incantation, le sort s'annule sans CD. Si elle sort seulement de portée, le CD part quand même.",
+        "en": "If the Focused Resolve (W) target becomes untargetable or leaves your sight during the cast, the spell cancels with no cooldown. If it only moves out of range, the cooldown is still spent."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux activer Mantra (R) même étourdie ou réduite au silence : prépare-le pendant le CC pour lancer un sort renforcé dès que tu es libre.",
+        "en": "You can activate Mantra (R) even while stunned or silenced: ready it during the CC to cast an empowered spell as soon as you are free."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque l'impact de Flamme intérieure (A), mais pas la zone de sa version renforcée par Mantra (R), qui explose quand même.",
+        "en": "A spell shield blocks the Inner Flame (Q) impact, but not the field of its Mantra (R) version, which still explodes."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Karma – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Karma", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Karma Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=1z93d3-C2X4", "type": "video", "date": "2026-06-12", "author": "3 Minute League of Legends" },
+    { "title": "Challenger Karma Support Guide in Under 5 Minutes", "url": "https://www.youtube.com/watch?v=uTJ0xRVRTEg", "type": "video", "date": "2025-03-14", "author": "Stunt" },
+    { "title": "GUIDE KARMA SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=3ehq0W1KJuo", "type": "video", "date": "2025-07-07", "author": "EXYT - League of Legends" }
+  ]
+}

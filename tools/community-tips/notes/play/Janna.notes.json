@@ -1,0 +1,47 @@
+{
+  "searches": 3,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "Active: Janna summons a whirlwind at her current location that charges up over 3 seconds, increasing its range, speed, damage, and airborne duration every second over the duration.",
+    "Howling Gale can be recast at any time within the duration, and does so automatically after the duration.",
+    "The storm does not interact with enemy units that stand on top of it while it is charging.",
+    "Active: Janna sends an air elemental at the target enemy that deals magic damage and slows them for 2 seconds, capped at 99%.",
+    "Passive: Whenever Janna's abilities slow or knock up at least one enemy champion, 20% of Eye of the Storm's cooldown is refunded. This may occur once per spell cast.",
+    "Active: Janna grants the target allied champion or turret, or herself, a shield for 4 seconds.",
+    "Janna receives kill credit on enemy champions that are killed by turrets shielded by Eye of the Storm.",
+    "Allied turrets will benefit from the bonus attack damage when targeted by Eye of the Storm.",
+    "Active: Janna unleashes a blast that knocks back all nearby enemies to up to 875 units over 0.5 seconds based on their proximity, though not through terrain.",
+    "Janna also channels for up to 3 seconds, healing herself and nearby allies every 0.25 seconds.",
+    "channel: attack=interrupts, cast=interrupts, move=interrupts, spells: Barrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite usable, Flash interrupts",
+    "tornadoes out of the enemy's line of sight. I was coaching a player recently and he would charge a tornado out of sight and then just walk out into the open.",
+    "When you're being chased and you're in a tight spot trying to escape, you have to charge the tornado so that it comes back at you",
+    "And one more thing, charge it behind you if you're being chased or something.",
+    "Troisièmement, chargez votre tornade depuis les buissons. Si votre tornade est dissimulée hors de vue, l'ennemi aura beaucoup moins de chances de réagir.",
+    "faites attention si l'ennemi pose une balise dans les buissons. Ils pourront encore voir votre tornade.",
+    "comme des murs derrière lesquels l'ennemi n'a pas de visibilité, ou même vos propres tours. Vous pouvez en fait placer une tornade directement derrière votre tour",
+    "Conservez votre tornade et lancez-la instantanément dès que vous voyez la capacité que vous devez interrompre. Ce n'est pas grave si vous n'arrivez pas à charger complètement votre tornade.",
+    "utilisez votre capacité Zéphyr (W) pour ralentir l'ennemi pendant que vous chargez votre tornade. Votre lenteur les maintiendra plus longtemps à portée de votre tornade",
+    "Une tornade pleinement chargée a une portée, une vitesse, des dégâts et une durée de projection en l'air accrus.",
+    "Janna's level two is not that great and it's you don't really have a reliable engage only if you flash Q. So that's exactly what I did.",
+    "The way you want to cancel, the easiest way to cancel Allistar is you purposely put yourself into his range and then get a queue off.",
+    "Charging your Q towards the direction the enemy is walking away so you can get a longer knockup and it's faster",
+    "I go for an insect where I not an insect but I I ultistar into our tower.",
+    "Monsoon can also be used offensively by Flashing behind an enemy and ulting them into Janna's team.",
+    "Janna's Q knockup can interrupt Alistar's Headbutt mid-dash, preventing the Pulverize follow-up entirely.",
+    "The shield can also be cast on turrets, adding bonus AD to the turret's shots and a shield to protect it from siege damage."
+  ],
+  "rejected": [
+    { "idea": "Mobalytics combos page (ult then W while enemies are airborne, etc.)", "reason": "HTTP 403, content not readable: nothing taken from it." },
+    { "idea": "Press Monsoon then immediately Flash to channel R at the new location (search snippet)", "reason": "Contradicts the wiki channel table (Flash interrupts Monsoon); unknown source." },
+    { "idea": "Zephyr (W) loses its passive movement speed while on cooldown (dodge.gg)", "reason": "Not in the current wiki description of Zephyr; single source." },
+    { "idea": "W then auto-attack for Cheap Shot true damage (ShoDesu)", "reason": "Rune interaction, out of scope (combos and mechanics only)." },
+    { "idea": "Q double tap then Flash behind the target, and Q > Flash > R combo (search snippets)", "reason": "Unknown or old/Wild Rift sources, order not confirmed by two authors." },
+    { "idea": "Monsoon into a wall as a pseudo-stun", "reason": "Only in a search summary of old guides, not confirmed." },
+    { "idea": "tamary video CHALLENGER JANNA TIPS AND TRICKS", "reason": "About 2 years old (more than 18 months), not opened." }
+  ],
+  "toVerifyInGame": [
+    "Flash + Howling Gale cast/recast instantly: check the uncharged whirlwind range is enough to reach a target right after Flash.",
+    "Monsoon channel: confirm Heal, Barrier and Exhaust do not interrupt it, and that Flash does (wiki channel table).",
+    "Kill credit for Janna when a turret shielded by Eye of the Storm finishes an enemy champion."
+  ]
+}

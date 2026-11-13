@@ -1,0 +1,119 @@
+{
+  "champion": "TwistedFate",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Carte dorée puis Atouts", "en": "Gold card, then Wild Cards" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Choisis la carte dorée avec Bonne pioche (Z) et stun la cible, puis lance Atouts (A) pendant qu'elle ne bouge plus. Finis par une auto, idéalement avec Paquet (E) chargé.",
+        "en": "Pick the gold card with Pick a Card (W) and stun the target, then throw Wild Cards (Q) while they can't move. Finish with an auto, ideally with Stacked Deck (E) ready."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Auto, choix de carte, auto", "en": "Auto, card lock, auto" },
+      "keys": ["W", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Bonne pioche (Z), place une auto, puis valide ta carte dès que le coup part : le choix reset ton auto. Ta carte suit presque aussitôt, pour un trade court très rapide.",
+        "en": "Start Pick a Card (W), throw an auto, then lock your card as soon as the hit fires: locking resets your auto. Your card follows almost instantly, for a very fast short trade."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Destinée avec carte prête", "en": "Destiny with a card ready" },
+      "keys": ["R", "W", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Destinée (R) pour révéler, Bonne pioche (Z), puis relance Destinée pour te téléporter et choisis la carte dorée pendant la canalisation. À l'arrivée, stun, Atouts (A), puis une auto.",
+        "en": "Destiny (R) to reveal, Pick a Card (W), then recast Destiny to teleport and lock the gold card during the channel. On arrival, stun, Wild Cards (Q), then an auto."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Carte dorée, Flash, stun", "en": "Gold card, Flash, stun" },
+      "keys": ["W", "F", "Q"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Valide la carte dorée avec Bonne pioche (Z) avant tout, puis Flash à portée d'auto et frappe tout de suite pour le stun. Enchaîne Atouts (A) et une auto.",
+        "en": "Lock the gold card with Pick a Card (W) first, then Flash into auto range and hit right away for the stun. Follow with Wild Cards (Q) and an auto."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bonne pioche (Z) fait toujours tourner les cartes dans le même ordre : bleue, rouge, dorée. Seule la première change, donc quand tu vois la rouge, prépare-toi à valider.",
+        "en": "Pick a Card (W) always cycles in the same order: blue, red, gold. Only the first card changes, so when you see red, get ready to lock."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La carte rouge de Bonne pioche (Z) explose autour de sa cible. Lance-la sur un sbire près de l'adversaire : il prend les dégâts et le slow même hors de ta portée d'auto.",
+        "en": "The red card from Pick a Card (W) explodes around its target. Throw it at a minion near your opponent: they take the damage and slow even outside your auto range."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu peux valider ta carte de Bonne pioche (Z) même sous un contrôle qui bloque tes sorts. Elle sera prête dès que tu te libères.",
+        "en": "You can lock your Pick a Card (W) card even under crowd control that blocks your spells. It's ready as soon as you're free."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "L'attaque renforcée de Bonne pioche (Z) ne se déclenche pas sur les wards ni les plantes. Tu peux frapper une plante sans perdre ta carte.",
+        "en": "The empowered attack from Pick a Card (W) doesn't trigger on wards or plants. You can hit a plant without losing your card."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si ta cible devient intouchable, meurt ou s'éloigne trop pendant l'incantation de ta carte, l'attaque est annulée mais la carte n'est pas consommée.",
+        "en": "If your target turns untargetable, dies or gets too far during your card's cast time, the attack is cancelled but the card isn't spent."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Alliés et ennemis voient le point d'arrivée de Destinée (R). Et tu ne peux pas lancer la téléportation si tu es enraciné ou cloué au sol.",
+        "en": "Allies and enemies see where Destiny (R) will land you. And you can't start the teleport while rooted or grounded."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Au moment où tu te téléportes avec Destinée (R), les projectiles ciblés qui te visent sont détruits. Une auto ou un sort à tête chercheuse en vol ne t'atteint pas.",
+        "en": "As you blink with Destiny (R), targeted projectiles heading for you are destroyed. An auto or homing spell in flight won't reach you."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Paquet (E) est plein quand tu réapparais : ta prochaine auto fait les dégâts bonus. Elle peut être esquivée, mais pas bloquée, et compte à moitié sur les tourelles.",
+        "en": "Stacked Deck (E) is full when you respawn: your next auto deals the bonus damage. It can be dodged but not blocked, and deals half against turrets."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Twisted Fate - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Twisted_Fate", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Twisted Fate Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=q_lYjo5Ua04", "type": "video", "date": "2026-08-17", "author": "3 Minute League of Legends" },
+    { "title": "Everyone Plays Twisted Fate — Almost Nobody Plays Him Correctly", "url": "https://www.youtube.com/watch?v=annbbstgrUA", "type": "video", "date": "2026-10-02", "author": "Zoose" }
+  ]
+}

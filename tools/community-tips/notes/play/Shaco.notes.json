@@ -1,0 +1,38 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Shaco becomes invisible for a duration, and after a 0.125-second delay, he blinks to the target location.",
+    "Deceive's invisibility breaks when Shaco uses a basic attack or casts Two-Shiv Poison, but not from casting Jack in the Box or Hallucinate.",
+    "Backstab Bonus: The attack will critically strike",
+    "Shaco's basic attacks slow enemies for 2 seconds while Two-Shiv Poison is not on cooldown.",
+    "Shaco throws a dagger at the target enemy that deals magic damage, if they are below 30% of their maximum health, and slows them for 3 seconds.",
+    "Shaco vanishes for 0.5 seconds and blinks in the target direction while creating a clone of himself that is summoned in the opposite direction",
+    "The clone will explode upon dying or expiring to deal magic damage to nearby enemies and deploy three Jack in the Box that activate instantly",
+    "If the explosion hits at least one minion, the boxes will fear all enemies regardless of their unit type for 2.2 seconds, causing enemy champions to be feared for the non-champion fear duration.",
+    "If Deceive and Hallucinate are used in quick succession, the clone will spawn in the direction of the cursor instead.",
+    "It's also crucial to remember that your stealth does not break when you cast W or your R. You will remain inside of it.",
+    "the damage also increases when the enemy is less than 30% HP. So, using your E as an execute is often the best tactic.",
+    "technically dashing when you come out of your ultimate. So, if you are close enough to certain terrain, you can actually jump over it.",
+    "Lesson seven, Q and E. Q in and E the enemy. That simple.",
+    "Lesson nine, Q backstab backstab R. Q in, backstab twice and R away from the enemy.",
+    "backstab her once, twice, and then press R to the side so I dodge her reaction.",
+    "You can hover over walls with your ultimate as either a clone or the real you, depending on how you hover. If I point it at a wall, I will fly over the wall. If you hover the other way around, your clone will fly through the wall.",
+    "not a good idea to use E first, because if you then auto-attack the enemy, you won't get the new slow.",
+    "Une bonne façon d'utiliser cela est d'avoir peu de PV, puis d'enchaîner A et R directement sur l'ennemi, en espérant qu'il attaque instinctivement le Shaco affaibli.",
+    "En connaissant cette distance, vous pouvez franchir certains murs avec le R de Shaco. Il faut juste garder à l'esprit que vous apparaissez vers le curseur.",
+    "Si je place mon curseur ici et que j'appuie sur R, je passe le mur mais pas le clone."
+  ],
+  "rejected": [
+    { "idea": "Deceive blinks further when standing next to a wall, letting you jump over it (Shaco Mid Lane)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "Deceive cooldown only starts when stealth ends: Q then recall (Eagz)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "The clone's autos also slow while E is unused (Zefath)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "Clone dive: W behind the enemy, R, let the clone tank tower shots (Zefath)", "reason": "Single source, strategy rather than a mechanical combo." },
+    { "idea": "Placing a box on an enemy trap triggers it safely (Shaco Mid Lane)", "reason": "Single source." },
+    { "idea": "Clone with Hail of Blades keeps the attack speed (Eagz, Shaco Mid Lane)", "reason": "Rune interaction, excluded by the brief." }
+  ],
+  "toVerifyInGame": [
+    "Hallucinate wall crossing: which wall thickness the 150-unit blink can actually clear.",
+    "Deceive then Hallucinate: how quickly R must follow Q for the clone to spawn toward the cursor."
+  ]
+}

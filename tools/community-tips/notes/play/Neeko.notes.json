@@ -1,0 +1,38 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Neeko winds up spiritual essence over 1.25 seconds and highlights an area around herself, which is visible to enemies unless she is disguised. If Neeko is in a disguise, it will break after 0.5 seconds into the duration.",
+    "After winding up, the cast time begins and Neeko leaps upward, knocking up nearby enemies for 0.6 seconds.",
+    "If the spiral hits at least one enemy, it grows in size and its speed and root duration is increased.",
+    "If the burst kills an enemy or hits a champion or large monster, the seed blooms after 0.75 seconds to burst again, dealing magic damage to enemies in the same area. This may occur up to 2 times per cast.",
+    "While disguised as a plant or ward, Neeko can be targeted by minions and affected by most effects that normally don't affect them.",
+    "Disguising as a non-champion interrupts the cast time of Noxian Guillotine if it is targeting Neeko.",
+    "While disguised as a unit not targetable by turrets (e.g. wards, traps), Neeko cannot be targeted by turrets until she damages a champion.",
+    "the clone plays the casting animations for Blooming Burst and Tangle-Barbs as well as Pop Blossom visual effects whenever Neeko casts them.",
+    "The enemy cannot see ulti as long as Neeko has passive up. Now, the passive will break halfway through",
+    "as a rule of thumb, I've gotten in the habit of just always pushing passive before ult",
+    "an Ashe ult won't hit you as a minion, but it will hit you as a ward, so keep that in mind",
+    "her Q bounces if it hits a champion, it'll bounce all three times",
+    "you can e flash and uh that guy was too far but you know e flash",
+    "So of course there's also the R flash. You want to R and then at the very last second flash. This is the bread and butter of Neeko because of the fact that there's the knock up.",
+    "Now there is a combo called the QR. Right here at the very end when you start the jump up animation",
+    "out of your R you always want to be spamming E so that your E can hit before",
+    "if we go to the Q and up animation into the root this guarantees all three bounces will hit",
+    "wards aren't hit by towers. So if we gather this ward over here we can hex flash turn into a ward and come out under tower looking for a big ulti on them",
+    "For combos, your basic go-to is the W into E and Q before attacking away. And your all-in is to start disguised into W and ult, followed with E into Q before attacking away.",
+    "Neeko's ultimate creates a large circle around herself, and if she's disguised, enemies won't see it for the first half a second.",
+    "And if it hits an enemy, it grows in size, increasing its speed and root duration."
+  ],
+  "rejected": [
+    { "idea": "Spirale épineuse (E) + Flash pendant l'animation (Doglightning)", "reason": "Une seule source joueur, animation cancel non décrite par le wiki." },
+    { "idea": "Combos avec Hextech Flash et Ceinture-roquette (Doglightning)", "reason": "Rune interdite et timings d'objet non confirmés." },
+    { "idea": "Clone « supersonique » après un Hextech Flash (Doglightning)", "reason": "Bug annoncé comme tel, lié à une rune." },
+    { "idea": "Racine de rang 5 qui enchaîne sans trou sur l'ult (Doglightning)", "reason": "Une seule source, dépend de la ténacité, non confirmé par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Floraison renversante (R) puis Flash : fenêtre exacte avant le saut pour que l'ennemi ne puisse pas flasher.",
+    "Explosion florale (A) lancée pendant le saut de l'ult : vérifier que le cast passe pendant la Floraison renversante.",
+    "Déguisement en non-champion pendant Guillotine noxienne : vérifier l'interruption au patch 16.22."
+  ]
+}

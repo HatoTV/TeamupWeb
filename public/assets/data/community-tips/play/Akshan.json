@@ -1,0 +1,161 @@
+{
+  "champion": "Akshan",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Auto, Vengerang, auto",
+        "en": "Auto, Avengerang, auto"
+      },
+      "keys": [
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Double tir d'auto, Vengerang (A), puis une autre auto : tu poses vite les 3 cumuls de Fourberie (passif), qui infligent leurs dégâts bonus et te donnent un bouclier.",
+        "en": "Double-shot auto, Avengerang (Q), then another auto: you quickly apply the 3 Dirty Fighting (passive) stacks, which deal their bonus damage and grant you a shield."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Vengerang, Envolée, ult pour finir",
+        "en": "Avengerang, Swing, ult to finish"
+      },
+      "keys": [
+        "Q",
+        "E",
+        "E",
+        "E",
+        "R"
+      ],
+      "level": "hard",
+      "desc": {
+        "fr": "Marque la cible avec Vengerang (A), colle-la avec Envolée héroïque (E) pendant sa fuite et finis au double tir ; si elle s'échappe basse, achève-la avec Bien mérité ! (R)",
+        "en": "Mark the target with Avengerang (Q), then stick to it with Heroic Swing (E) as it runs and finish with a double shot. If it escapes low, execute it with Comeuppance (R)."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Bouge juste après ta 1re balle : la 2e est annulée et tu gagnes un pic de vitesse. Parfait pour kite ou esquiver un skillshot après un trade.",
+        "en": "Move right after your first bullet: the second one is cancelled and you gain a burst of speed. Perfect to kite or dodge a skillshot after a trade."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Si ta 1re balle tue un sbire, la 2e repart vers un ennemi jusqu'à 200 unités au-delà de ta portée. Last hit près d'un champion pour le toucher de loin.",
+        "en": "If your first bullet kills a minion, the second one retargets an enemy up to 200 units beyond your range. Last hit near a champion to tag them from afar."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Touche ta cible avec Vengerang (A) avant Envolée héroïque (E) : pendant le swing, tes tirs visent en priorité les champions qui portent des cumuls de Fourberie, pas les sbires.",
+        "en": "Hit your target with Avengerang (Q) before Heroic Swing (E): during the swing, your shots prioritize champions carrying Dirty Fighting stacks, not minions."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le retour de Vengerang (A) revient vers ta position du moment. Bouge, Flash ou swing avec Envolée héroïque (E) après le lancer pour changer son angle et surprendre ta cible.",
+        "en": "Avengerang (Q) flies back toward wherever you are. Move, Flash or swing with Heroic Swing (E) after the throw to change its return angle and catch your target."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux lancer Envolée héroïque (E) pendant la canalisation de Bien mérité ! (R) : contourne les sbires ou les champions qui bloqueraient tes balles avant de tirer.",
+        "en": "You can cast Heroic Swing (E) while channeling Comeuppance (R): swing around minions or champions that would block your bullets before firing."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un takedown sur un champion ramène le CD d'Envolée héroïque (E) à 0,5 s. Achève une cible basse pendant le swing, puis repars vers la suivante ou sors.",
+        "en": "A champion takedown drops Heroic Swing (E) cooldown to 0.5 s. Finish a low target during the swing, then head to the next one or get out."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Réduit au silence, tu peux encore faire la 2e et la 3e activation d'Envolée héroïque (E). Enraciné, le saut final (3e activation) reste disponible.",
+        "en": "While silenced, you can still use the second and third Heroic Swing (E) casts. While rooted, the final jump (third cast) stays available."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant le saut final d'Envolée héroïque (E), tu peux lancer Vengerang (A) ou Cavalier seul (Z) sans attendre l'atterrissage.",
+        "en": "During the final jump of Heroic Swing (E), you can cast Avengerang (Q) or Going Rogue (W) without waiting to land."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Akshan – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Akshan",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Everyone Plays Akshan — Almost Nobody Plays Him Correctly",
+      "url": "https://www.youtube.com/watch?v=Qiy8lCLu4Y0",
+      "type": "video",
+      "date": "2026-09-18",
+      "author": "Zoose"
+    },
+    {
+      "title": "3 Minute Akshan Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=xvEICNdWA90",
+      "type": "video",
+      "date": "2026-05-27",
+      "author": "3 Minute League of Legends"
+    }
+  ]
+}

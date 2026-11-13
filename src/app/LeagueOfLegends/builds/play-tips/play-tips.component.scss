@@ -1,0 +1,216 @@
+:host {
+  display: block;
+  padding: 16px 36px 0;
+}
+
+.play-tips {
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-top: 4px solid var(--color-rl);
+}
+
+.play-tips__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--color-separator);
+}
+
+.play-tips__portrait {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-line-strong);
+}
+
+.play-tips__titles {
+  flex: 1;
+  min-width: 220px;
+}
+
+.play-tips__title {
+  font: 700 26px/1.1 var(--font-display);
+  text-transform: uppercase;
+}
+
+.play-tips__subtitle {
+  margin-top: 2px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.play-tips__patch {
+  padding: 4px 10px;
+  border-radius: var(--radius-tag);
+  background: var(--diff-3-bg);
+  color: var(--diff-3-text);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+// Combos (3/5) and tips (2/5, darker); stacked under 900 px.
+.play-tips__body {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+}
+
+.play-tips__col {
+  min-width: 0;
+  padding: 16px 22px 20px;
+
+  &:only-child {
+    grid-column: 1 / -1;
+  }
+
+  &--tips {
+    background: #12121f;
+    border-left: 1px solid var(--color-separator);
+  }
+}
+
+.play-tips__col-title {
+  margin-bottom: 4px;
+  font: 700 17px var(--font-display);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.play-tips__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.combo {
+  padding: 14px 0;
+  border-top: 1px solid var(--color-separator);
+}
+
+.combo__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.combo__name {
+  font: 700 19px/1.2 var(--font-display);
+  text-transform: uppercase;
+}
+
+.level,
+.tag {
+  border-radius: var(--radius-tag);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.level {
+  padding: 3px 9px;
+
+  &--easy {
+    background: var(--diff-2-bg);
+    color: var(--diff-2-text);
+  }
+
+  &--medium {
+    background: var(--diff-3-bg);
+    color: var(--diff-3-text);
+  }
+
+  &--hard {
+    background: var(--diff-4-bg);
+    color: var(--diff-4-text);
+  }
+}
+
+.combo__seq {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.combo__arrow {
+  font-size: 18px;
+  color: #4a4a6a;
+}
+
+.combo__desc {
+  max-width: 70ch;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-text-guide);
+}
+
+.tip {
+  padding: 12px 0;
+  border-top: 1px solid var(--color-separator);
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+
+  &--mechanic {
+    background: rgba(54, 163, 255, 0.16);
+    color: #7fc4ff;
+  }
+
+  &--passive {
+    background: rgba(155, 123, 255, 0.18);
+    color: #c3b0ff;
+  }
+
+  &--terrain {
+    background: var(--diff-2-bg);
+    color: var(--diff-2-text);
+  }
+
+  &--timing {
+    background: var(--diff-3-bg);
+    color: var(--diff-3-text);
+  }
+
+  &--interaction {
+    background: rgba(255, 92, 158, 0.16);
+    color: #ff8dba;
+  }
+}
+
+.tip__text {
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #e2e2ee;
+}
+
+@media (max-width: 900px) {
+  .play-tips__body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .play-tips__col--tips {
+    border-left: 0;
+    border-top: 1px solid var(--color-separator);
+  }
+}
+
+@media (max-width: 767px) {
+  :host {
+    padding-left: var(--container-gutter);
+    padding-right: var(--container-gutter);
+  }
+}

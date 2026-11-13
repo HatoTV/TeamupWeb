@@ -1,0 +1,44 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "If cast during Audacity dash towards an enemy champion and the target is within 150 units of Qiyana at the end of the dash, Edge of Ixtal will autonomously aim at the target.",
+    "Gathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.",
+    "Qiyana can cast any of her abilities during the dash.",
+    "Terrashape has no minimum dash range.",
+    "Terrashape does not interact with player-generated terrain.",
+    "The blade creates a grass field around Qiyana that lasts for up to 3 seconds, granting her invisibility and 20% bonus movement speed until she attacks, casts an ability other than Terrashape, or exits the field.",
+    "The blast roots enemies hit for 0.5 seconds, then slows them by 20% for 1 second.",
+    "The blast deals 60% increased damage against enemies below 50% of their maximum health.",
+    "Qiyana dashes a fixed distance in the direction of the target enemy.",
+    "Qiyana sweeps a windblast in the target direction that knocks back enemies hit by 375 units, though not through terrain, and stops upon hitting Terrain.",
+    "Artificial terrain touching map terrain will be treated as a single piece of terrain, even when bridging two pieces of map terrain together; the shockwave will wrap around all connecting terrain.",
+    "Projectile-intercepting effects will block the windblast but not the shockwave.",
+    "The fastest version is E straight into Q. If you press Q during the E dash, your Q will aim towards the target, making it one of your most reliable ways to land damage, start a quick trade",
+    "Q W Q This is the combo you use when EQ is not enough. E onto the target, throw Q during the dash, then use W to pick up a new",
+    "E Q W Q This is your main kill combo when you have ultimate. E onto the target, use R to knock them into terrain, then follow",
+    "E, R, Q, W, Q. These are the four core combos you need.",
+    "Most importantly, W resets your Q, letting Qiyana chain elements together for stronger trades and combos.",
+    "below half health, So, you usually want to save it as your finisher. Use your other abilities first, get them low, then finish the combo with rock Q.",
+    "Cast it close to yourself to grab an element almost in place, letting you reset Q without ruining your positioning.",
+    "Because E always travels a fixed distance, using it too close to an enemy beside a thin wall can send you straight over and let them escape. Use that same interaction defensively by dashing through a nearby target to get away.",
+    "Champion-made terrain, like Anivia's wall or Taliyah's ultimate, can activate your ultimate. And if it connects to the map, the shockwave can spread across the entire connected wall.",
+    "And while R won't knock enemies through walls, someone standing on the other side of a thin wall can sometimes be pushed out of the stun area.",
+    "Start with ice Q to root them and make your ultimate much easier to land.",
+    "Most players flash then E, but using E first, then flashing, is slightly faster.",
+    "So what Bayang does is he uses Q and then in stealth he uses his E flash and that's really hard to react to.",
+    "So, the combo would would be ER and then auto attack.",
+    "So, er profane auto. And then we use QW. Qw in order to kill the Rexai here."
+  ],
+  "rejected": [
+    { "idea": "Terraforce (Z) puis Lame d'Ixtal (A) annulée par Flash (Edo)", "reason": "Interaction avec Flash confirmée par une seule source." },
+    { "idea": "Courroux élémentaire (A) puis Flash pour allonger le sort (Zoose)", "reason": "Interaction avec Flash confirmée par une seule source." },
+    { "idea": "Tour de force suprême (R) puis Flash pour changer l'angle (Zoose)", "reason": "Interaction avec Flash confirmée par une seule source." },
+    { "idea": "Animation cancels auto puis A, auto puis E, Z puis E (Zoose)", "reason": "Une seule source joueur." },
+    { "idea": "Terraforce (Z) réinitialise le CD par cible du passif", "reason": "Note wiki complexe (élément différent requis), difficile à formuler en 40 mots sans ambiguïté." }
+  ],
+  "toVerifyInGame": [
+    "Audace (E) puis Flash : vérifier que le dash et les dégâts suivent bien la cible après le Flash (2 sources joueurs, pas de note wiki).",
+    "Courroux élémentaire (A) version herbe puis Terraforce (Z) : vérifier que l'invisibilité tient tant que tu restes dans la zone."
+  ]
+}

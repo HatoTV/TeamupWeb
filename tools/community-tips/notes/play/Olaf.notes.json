@@ -1,0 +1,35 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Olaf throws an axe to the target location that deals physical damage to enemies it passes through and slows them",
+    "The axe remains in place for a duration equal to Undertow's cooldown, granting sight of its surroundings for 0.5 seconds. Olaf can pick up the axe to reduce Undertow's current cooldown",
+    "The timer for how long an axe stays on the ground does not begin until it has landed, thus it is possible to throw another axe before retrieving the first.",
+    "Projectile-intercepting effects (e.g. Wind Wall, Unbreakable) cannot destroy the axe, they will instead cause it to stop prematurely and remain on the ground upon collision.",
+    "Tough It Out resets Olaf's basic attack timer.",
+    "If Reckless Swing kills the target, Olaf heals himself equal to the health cost.",
+    "As with all abilities with health costs, Reckless Swing will not reduce Olaf's health below 1 hp.",
+    "Ragnarok's duration is increased by and up to 2.5 seconds for each basic attack on-hit or cast of Reckless Swing against an enemy champion.",
+    "Ragnarok removes the underlying stun from airborne effects, but not the forced displacement",
+    "Ragnarok will not expire during Reckless Swing cast time.",
+    "Ragnarok's duration will not be increased if the basic attack is dodged.",
+    "Ragnarok's duration will be increased if the basic attack is blocked.",
+    "Olaf's passive ability gives him attack speed and lifesteal that increase based on lost health.",
+    "Olaf can pick up his axe from the ground to reduce the cooldown of this ability.",
+    "Regarding combos: hit Q, activate your ultimate, approach, attack, reset the auto-attack animation via W, then E and continue attacking.",
+    "Every time he attacks an enemy champion or uses E on them, it refreshes the cooldown of the ability.",
+    "Tu peux mettre un combo euh Q E, il est slow par le c spell, ton E a plus de range qu'une autoattaque à savoir et euh tu peux facilement reculer derrière en mettant un combo en étant safe.",
+    "je le r je fais auto, je fais mon auto reset d'auto enfin autoattaque du coup et je fais un E.",
+    "On me dit que le E resette le le CD de l'ulti aussi. C'est ce que j'ai dit justement, c'est que enfin ton R ne part pas tant que tu autoattaques",
+    "Euh la hache, c'est tout le temps important de la la prendre."
+  ],
+  "rejected": [
+    { "idea": "Flash puis Frappe sauvage (E) : une fois lancée, l'ennemi ne peut plus l'éviter avec Flash (MSK)", "reason": "Interaction avec Flash confirmée ni par le wiki ni par une 2de source." },
+    { "idea": "Déchireuse (A) puis Flash instantané pour ramasser la hache (MSK)", "reason": "Une seule source joueur, interaction non confirmée par le wiki." },
+    { "idea": "Frappe sauvage (E) a plus de portée qu'une auto (MSK)", "reason": "Portée d'auto d'Olaf non vérifiée dans le wiki lu ; non repris." }
+  ],
+  "toVerifyInGame": [
+    "Ragnarok (R) : vérifier qu'une auto bloquée (ex. par un bouclier de blocage) prolonge bien la durée.",
+    "Hache stoppée par Mur de vent : vérifier qu'elle reste ramassable à l'endroit de l'impact."
+  ]
+}

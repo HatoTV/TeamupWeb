@@ -1,0 +1,170 @@
+{
+  "champion": "Neeko",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Racine puis Explosion florale",
+        "en": "Root into Blooming Burst"
+      },
+      "keys": [
+        "E",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Spirale épineuse (E) d'abord, puis Explosion florale (A) sur la cible immobilisée : elle ne peut pas sortir de la zone, donc les rebonds de la graine touchent tous.",
+        "en": "Tangle-Barbs (E) first, then Blooming Burst (Q) on the rooted target: they can't leave the area, so every bloom of the seed lands."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "All-in en déguisement",
+        "en": "Disguised all-in"
+      },
+      "keys": [
+        "W",
+        "R",
+        "E",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Approche déguisée, Métaclonage (Z) puis Floraison renversante (R). Dès la retombée, Spirale épineuse (E) puis Explosion florale (A) et des autos.",
+        "en": "Walk in disguised, Shapesplitter (W) then Pop Blossom (R). As soon as you land, Tangle-Barbs (E) then Blooming Burst (Q) and autos."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Explosion florale pendant le saut",
+        "en": "Blooming Burst during the jump"
+      },
+      "keys": [
+        "R",
+        "Q"
+      ],
+      "level": "hard",
+      "desc": {
+        "fr": "Pendant Floraison renversante (R), lance Explosion florale (A) au moment où tu décolles : la graine tombe sur des ennemis bloqués, et son CD démarre plus tôt.",
+        "en": "During Pop Blossom (R), cast Blooming Burst (Q) as you take off: the seed lands on locked-down enemies, and its cooldown starts earlier."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Déguisée avec Mirage inné, la zone de Floraison renversante (R) est invisible pour l'ennemi. Le déguisement ne tombe qu'après 0,5 seconde : active-le toujours avant l'ult.",
+        "en": "Disguised with Inherent Glamour, the Pop Blossom (R) area is invisible to enemies. The disguise only breaks after 0.5 seconds: always activate it before your ult."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Spirale épineuse (E) grossit, accélère et immobilise plus longtemps après avoir touché un premier ennemi : fais-la passer par un sbire pour toucher le champion derrière.",
+        "en": "Tangle-Barbs (E) grows, speeds up and roots longer after hitting a first enemy: send it through a minion to hit the champion behind."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Explosion florale (A) éclate jusqu'à deux fois de plus si elle touche un champion, un gros monstre ou tue une unité : vise les sbires presque morts pour relancer la graine.",
+        "en": "Blooming Burst (Q) bursts up to two more times if it hits a champion, a large monster or kills a unit: aim at low minions to trigger extra blooms."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Déguisée en sbire, certains sorts réservés aux champions ne te touchent plus. Déguisée en balise, en revanche, tu restes touchable par ces sorts.",
+        "en": "Disguised as a minion, some champion-only spells can't hit you anymore. Disguised as a ward, though, those spells can still hit you."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Te déguiser en non-champion pendant l'incantation de Guillotine noxienne de Darius sur toi l'interrompt.",
+        "en": "Disguising as a non-champion while Darius is casting Noxian Guillotine on you interrupts it."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Déguisée en balise, les tourelles ne peuvent pas te viser tant que tu n'as pas frappé un champion : pratique pour entrer sous la tour avant ton ult.",
+        "en": "Disguised as a ward, turrets can't target you until you damage a champion: handy to slip under the tower before your ult."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ton clone de Métaclonage (Z) imite l'animation d'Explosion florale (A) et de Spirale épineuse (E), et affiche même l'effet de Floraison renversante (R) pour l'ennemi.",
+        "en": "Your Shapesplitter (W) clone mimics the Blooming Burst (Q) and Tangle-Barbs (E) animations, and even shows the Pop Blossom (R) effect to enemies."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Neeko - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Neeko",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "The Neeko Bible 2.0 -- Tricks Combos and BUGS",
+      "url": "https://www.youtube.com/watch?v=pqu3PdQmXn0",
+      "type": "video",
+      "date": "2026-04-14",
+      "author": "Doglightning"
+    },
+    {
+      "title": "3 Minute Neeko Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=JBlHpWdI-BA",
+      "type": "video",
+      "date": "2026-03-24",
+      "author": "3 Minute League of Legends"
+    }
+  ]
+}

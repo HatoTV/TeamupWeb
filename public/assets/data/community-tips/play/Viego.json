@@ -1,0 +1,119 @@
+{
+  "champion": "Viego",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Gueule, auto, Lame", "en": "Maw, auto, Blade" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Gueule spectrale (Z) stun et relance ton auto : frappe aussitôt pour consommer la marque, puis Lame du roi déchu (A) en remet une pour l'auto suivante. Ton trade et ton gank de base.",
+        "en": "Spectral Maw (W) stuns and resets your auto: hit right away to consume the mark, then Blade of the Ruined King (Q) applies another for your next auto. Your basic trade and gank."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Gueule puis Cœur brisé", "en": "Maw into Heartbreaker" },
+      "keys": ["W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Cœur brisé (R) pendant le dash de Gueule spectrale (Z) : il part à portée max depuis la fin du dash. Ton engage le plus long pour exécuter une cible basse.",
+        "en": "Cast Heartbreaker (R) during the Spectral Maw (W) dash: it goes off at max range from the end of the dash. Your longest engage to execute a low target."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "One-shot complet", "en": "Full one-shot" },
+      "keys": ["W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Charge Gueule spectrale (Z) à fond, auto, Lame du roi déchu (A), auto, puis Cœur brisé (R). Avec le stun complet, la cible n'a pas le temps de Flash avant ton ult.",
+        "en": "Fully charge Spectral Maw (W), auto, Blade of the Ruined King (Q), auto, then Heartbreaker (R). With the full stun, the target has no time to Flash before your ult."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Gank depuis la brume", "en": "Gank from the Mist" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Chemin tourmenté (E) contre un mur pour étendre la brume, puis charge Gueule spectrale (Z) en t'approchant. Relâche-la sur la cible et finis avec auto, Lame du roi déchu (A), auto, Cœur brisé (R).",
+        "en": "Throw Harrowed Path (E) against a wall to spread the Mist, then charge Spectral Maw (W) as you close in. Release it on the target and finish with auto, Blade of the Ruined King (Q), auto, Heartbreaker (R)."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le dash de Gueule spectrale (Z) ne traverse pas le terrain. Vise un mur pour profiter de la relance d'auto sans bouger, utile en clear ou sur une tourelle.",
+        "en": "The Spectral Maw (W) dash doesn't go through terrain. Aim at a wall to get the auto reset without moving, useful while clearing or on a turret."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Si Chemin tourmenté (E) touche un mur, la brume s'étend des deux côtés du mur. Vise le terrain pour couvrir bien plus de zone qu'en terrain ouvert.",
+        "en": "If Harrowed Path (E) hits a wall, the Mist spreads along both sides of it. Aim at terrain to cover far more ground than in the open."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu restes camouflé dans ta brume même pendant un rappel. Lance Chemin tourmenté (E) puis rappelle-toi dedans pour rentrer à la base sans être vu.",
+        "en": "You stay camouflaged in your Mist even while recalling. Cast Harrowed Path (E), then recall inside it to go back to base unseen."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Charger Gueule spectrale (Z) dans ta brume coupe le camouflage 1 seconde, et le dash l'empêche jusqu'à sa fin. Commence la charge juste avant d'être à portée.",
+        "en": "Charging Spectral Maw (W) in your Mist breaks camouflage for 1 second, and the dash blocks it until it ends. Start charging just before you are in range."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Chemin tourmenté (E) se lance pendant l'incantation de n'importe quel sort. Pose ta brume en plein combo sans retarder Gueule spectrale (Z) ni Cœur brisé (R).",
+        "en": "Harrowed Path (E) can be cast during any ability's cast time. Drop your Mist mid-combo without delaying Spectral Maw (W) or Heartbreaker (R)."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Pendant la seconde où tu prends possession d'un spectre, tu es intouchable sauf par les tourelles. Utilise-la pour éviter un sort ennemi au milieu d'un teamfight.",
+        "en": "During the one second you spend taking over a wraith, you are untargetable except by turrets. Use it to dodge an enemy spell in the middle of a teamfight."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "En possession, les sorts de base du champion volé ne coûtent ni mana ni énergie, et tu gagnes un Cœur brisé (R) gratuit. Le lancer met fin à la possession.",
+        "en": "While possessing, the stolen champion's basic abilities cost no mana or energy, and you gain a free Heartbreaker (R). Casting it ends the possession."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Cœur brisé (R) frappe le champion au plus faible pourcentage de PV dans la zone, et repousse les autres. Place-le pour que ta cible basse soit la plus blessée du groupe.",
+        "en": "Heartbreaker (R) strikes the champion with the lowest health percentage in the area and knocks the others back. Place it so your low target is the most wounded in the group."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Viego - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Viego", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The Ultimate Viego Guide - What I Learned from Over 4,000 Games as Rank 1 OTP | League of Legends", "url": "https://www.youtube.com/watch?v=6Kf5DiBh1QQ", "type": "video", "date": "2026-06-12", "author": "Maxander" },
+    { "title": "HOW TO MASTER VIEGO JUNGLE | Full Guide + Tips & Tricks", "url": "https://www.youtube.com/watch?v=-p2AvbcQOYg", "type": "video", "date": "2026-08-30", "author": "Sinerias" },
+    { "title": "3 Minute Viego Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=yXR1Pa2-Wwg", "type": "video", "date": "2025-04-19", "author": "3 Minute League of Legends" }
+  ]
+}

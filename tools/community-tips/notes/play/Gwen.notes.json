@@ -1,0 +1,48 @@
+{
+  "searches": 2,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "The center of each snip converts 50% of the damage to true damage, then applies A Thousand Cuts.",
+    "Gwen's basic attacks generate a stack of Snippy on-hit for 6 seconds, stacking up to 4 times and refreshing on subsequent attacks.",
+    "If Gwen has any Snippy stacks, she consumes them to snip an additional time for each.",
+    "Spell shield blocks only one snip.",
+    "Spell shield blocks only one needle.",
+    "While inside the mist, Gwen becomes ghosted, gains bonus armor and bonus magic resistance and is untargetable to all enemies (except turrets and monsters) outside of the mist.",
+    "All projectiles targeted at Gwen by enemy champions outside the mist are destroyed upon attempting to pass through the mist or being inside the mist.",
+    "If Gwen dashes out of the area, the mist will automatically move to the dash's destination instead of Gwen's location.",
+    "Recast: Gwen commands the mist to move to her current location.",
+    "Skip 'n Slash basic attack resets Gwen's basic attack timer, and can be cast during any of her abilities, and vice versa.",
+    "Gwen's first basic attack within the duration refunds a percentage of Skip 'n Slash's cooldown.",
+    "Skip 'n Slash has no minimum dash range.",
+    "Gwen can move during Needlework's cast times.",
+    "The needles of each cast will fire based on Gwen's location at into each cast time (in case of the first cast, this is at the end of the cast time).",
+    "For combos, your trades are to start W into an attack. E for the reset into three attacks before using Q and attacking away.",
+    "your trades are all about landing a fully stacked Q on a sweet spot.",
+    "Enemies hit by the center of each snip are also dealt a large chunk of true damage.",
+    "One of Gwen's best combos, if not the best combo in lane and in many Skirmish situations, is going to be the ZQ. You go Z, EQ.",
+    "your dash automatically puts you at the edge of the Z without taking you out of it.",
+    "What you can do here, for example, is to be in your zone and dash through the wall and find yourself at the edge.",
+    "R does have a slight delay, which means that I can actually use R and dash to reposition my R.",
+    "It starts from where you are when the animation sends the needle.",
+    "Your E is a jerk. She overcomes walls. You can do a short dash to reset your auto attack or a long dash.",
+    "the first is the Q-E combo, where you use Q and then E to jump to the enemy with a second scissor click.",
+    "Oh no, he flew through E with Q right into me, and I lost half my health.",
+    "The second is the E-Q combo. This is your base for each exchange of blows.",
+    "the EWQ combo is performed when you're almost at the edge of your W: they can't hit you, and you can hit them—this is the best combo on Gwen.",
+    "The same can be done with R, just replace Q with R. But make sure the flash happens while the blue bar above the skill bar is filling up, otherwise R will fly from the point you were at before the flash.",
+    "against Jax, you need your Q stacks, you need to hold them at all times",
+    "Two points Q. I'll E over the wall."
+  ],
+  "rejected": [
+    { "idea": "Les bords latéraux de Tchac, tchac ! portent plus loin que le centre (Misanthiel).", "reason": "Une seule source ; les notes du wiki (trapèze ∩ cercle) ne le confirment pas clairement." },
+    { "idea": "Lancer R1 dans le vide pour garder le gros slow sur R2/R3 (Misanthiel).", "reason": "Une seule source et lecture ambiguë du wiki sur le slow des aiguilles suivantes." },
+    { "idea": "Q + Flash : la coupe suit le Flash (Ninkey).", "reason": "Une seule source, rien dans le wiki sur un Flash pendant Tchac, tchac !." },
+    { "idea": "Coller la Brume contre un mur pour que les ennemis ne puissent pas y entrer (Misanthiel).", "reason": "Une seule source." },
+    { "idea": "All-in R, E, W, autos, R2, autos, R3, Q (3 Minute League of Legends).", "reason": "Une seule source, séquence générique ; non retenu." }
+  ],
+  "toVerifyInGame": [
+    "Flash pendant l'incantation de Piqûre : les aiguilles partent bien de la position d'arrivée du Flash (fenêtre de la barre d'incantation).",
+    "Élan incisif lancé pendant Tchac, tchac ! : la dernière coupe part bien du point d'arrivée du dash.",
+    "Épaisseur maximale de mur franchissable par Élan incisif."
+  ]
+}

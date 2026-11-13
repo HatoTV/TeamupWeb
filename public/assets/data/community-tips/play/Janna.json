@@ -1,0 +1,204 @@
+{
+  "champion": "Janna",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Flash + Mousson vers ton équipe",
+        "en": "Flash + Monsoon into your team"
+      },
+      "keys": [
+        "F",
+        "R"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "medium",
+      "desc": {
+        "fr": "Flash derrière un ennemi isolé, puis lance Mousson (R) : la poussée l'envoie vers ton équipe ou sous ta tourelle.",
+        "en": "Flash behind an isolated enemy, then cast Monsoon (R): the knockback sends them toward your team or under your turret."
+      },
+      "refs": [
+        0,
+        5
+      ]
+    },
+    {
+      "name": {
+        "fr": "Flash + tornade instantanée",
+        "en": "Flash + instant whirlwind"
+      },
+      "keys": [
+        "F",
+        "Q",
+        "Q"
+      ],
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "level": "medium",
+      "desc": {
+        "fr": "Ton seul engage fiable : Flash au contact, puis lance et relance aussitôt Vent hurlant (A). La tornade part de ta nouvelle position et projette la cible avant qu'elle réagisse.",
+        "en": "Your only reliable engage: Flash into range, then cast and instantly recast Howling Gale (Q). The whirlwind starts from your new spot and knocks the target up before they react."
+      },
+      "refs": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": {
+        "fr": "Alizé pendant la charge",
+        "en": "Zephyr during the charge"
+      },
+      "keys": [
+        "Q",
+        "W",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Vent hurlant (A), ralentis la cible avec Alizé (Z) pendant la charge, puis relance. Chargée plus longtemps, la tornade va plus loin, plus vite et projette plus longtemps.",
+        "en": "Cast Howling Gale (Q), slow the target with Zephyr (W) while it charges, then recast. Charged longer, the whirlwind travels farther, faster and knocks up for longer."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant Mousson (R), tu peux lancer Soins, Barrière ou Fatigue sans couper le soin. Bouger, attaquer, lancer un sort ou Flash interrompt la canalisation.",
+        "en": "During Monsoon (R), you can cast Heal, Barrier or Exhaust without stopping the heal. Moving, attacking, casting a spell or Flashing interrupts the channel."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un ennemi posé sur la tornade pendant sa charge ne subit rien : Vent hurlant (A) ne touche qu'une fois relancé. Ne la charge pas sous ses pieds en espérant un knock-up.",
+        "en": "An enemy standing on the whirlwind while it charges takes nothing: Howling Gale (Q) only hits once recast. Don't charge it under their feet hoping for a knock-up."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort qui ralentit ou projette un champion ennemi rend 20 % du CD d'Œil du cyclone (E), une fois par lancer. Touche avec Alizé (Z) puis Vent hurlant (A) : ton bouclier revient bien plus vite.",
+        "en": "Each spell that slows or knocks up an enemy champion refunds 20% of Eye of the Storm's (E) cooldown, once per cast. Land Zephyr (W) then Howling Gale (Q): your shield comes back much sooner."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Œil du cyclone (E) marche sur une tourelle alliée : bouclier et AD bonus sur ses tirs. Si elle achève un champion ennemi, le kill est pour toi.",
+        "en": "Eye of the Storm (E) works on an allied turret: shield and bonus AD on its shots. If it finishes an enemy champion, you get the kill."
+      },
+      "refs": [
+        0,
+        5
+      ]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "La poussée de Mousson (R) ne traverse pas les murs : un ennemi dos au mur recule à peine. Place-toi de façon à le pousser vers ton équipe.",
+        "en": "Monsoon's (R) knockback doesn't go through walls: an enemy with their back to a wall barely moves. Position yourself so you push them toward your team."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Garde Vent hurlant (A) contre les engages : relancé tout de suite, il coupe un dash comme celui d'Alistar. Une tornade peu chargée qui interrompt vaut mieux qu'une pleine qui rate.",
+        "en": "Hold Howling Gale (Q) against engages: recast instantly, it stops a dash like Alistar's. A barely charged whirlwind that interrupts beats a full one that misses."
+      },
+      "refs": [
+        0,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Charge Vent hurlant (A) dans un buisson, derrière un mur ou derrière ta tourelle : hors de vue, l'ennemi ne peut pas anticiper. Attention, une balise dans le buisson la révèle.",
+        "en": "Charge Howling Gale (Q) in a brush, behind a wall or behind your turret: out of sight, the enemy can't react early. Careful, a ward in the brush reveals it."
+      },
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Vise là où la cible va marcher : si on te poursuit, charge la tornade derrière toi, sur leur chemin ; si elle fuit, charge-la dans le sens de sa fuite.",
+        "en": "Aim where the target will walk: when chased, charge the whirlwind behind you, on their path; when they flee, charge it in the direction they're running."
+      },
+      "refs": [
+        1,
+        4
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Janna - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Janna",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Vous utilisez mal le A de Janna (Meilleur guide avancé Janna NA)",
+      "url": "https://www.youtube.com/watch?v=UDYJnfQsoqk",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "hektic"
+    },
+    {
+      "title": "Comment réussir plus de tornades avec Janna ! - Guide de Janna",
+      "url": "https://www.youtube.com/watch?v=8FALQWcvt64",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "MattZephy"
+    },
+    {
+      "title": "The Aggressive Janna Playstyle You NEED to Learn",
+      "url": "https://www.youtube.com/watch?v=7U12N0bGCdg",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "ShoDesu"
+    },
+    {
+      "title": "Every Decision Explained: How to Win Lane and Carry on Janna",
+      "url": "https://www.youtube.com/watch?v=qjOvGeAet5M",
+      "type": "video",
+      "date": "2026-11-13",
+      "author": "ShoDesu"
+    },
+    {
+      "title": "Best Janna Build & Guide (2026) — League of Legends",
+      "url": "https://www.dodge.gg/en-US/lol/news/janna-build-2026",
+      "type": "guide",
+      "date": "2026-03-22",
+      "author": "Dodge.gg"
+    }
+  ]
+}

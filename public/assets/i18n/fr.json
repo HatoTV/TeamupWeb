@@ -680,7 +680,9 @@
     "REPORT_PICK_ALLY": "Champion concerné",
     "REPORT_PICK_ENEMY": "Adversaire concerné",
     "NO_DATA_TITLE": "Aucune donnée trouvée.",
-    "TRANSLATED_BY": "Conseils traduits et adaptés par TeamUpp"
+    "TRANSLATED_BY": "Traduits et adaptés par TeamUpp",
+    "PRO_TITLE": "Conseils d'un joueur haut elo",
+    "PRO_ORIGINAL": "Rédigés par l'auteur du guide"
   },
   "PICKERPAGE": {
     "KICKER": "Outil champions",
@@ -968,20 +970,32 @@
     "TITLE": "Tips de la communauté",
     "SUBTITLE": "Synthèse TeamUpp de guides, vidéos et discussions de joueurs, réécrite et vérifiée avec les données du jeu.",
     "FOR": "Pour jouer {{me}} contre {{vs}}",
-    "CITED_ONE": "Cité par {{n}} source",
-    "CITED_MANY": "Cité par {{n}} sources",
-    "VERIFIED": "vérifié en jeu",
     "NEEDS_RECHECK": "À revérifier depuis le rework",
     "EMPTY_TITLE": "Pas encore de tips de la communauté pour ce matchup",
     "INSUFFICIENT_TITLE": "Pas assez de sources fiables pour ce matchup",
     "SIDE_NOT_ENOUGH": "Pas encore assez de sources pour jouer {{champion}} dans ce matchup",
     "SEE_OTHER_SIDE": "Voir les tips pour {{champion}}",
     "EMPTY_HINT": "On ne publie un tip que s'il est cité par plusieurs sources ou vérifié dans les données du jeu.",
-    "SOURCES": "Sources consultées ({{n}})",
-    "CONSULTED": "consulté le {{date}}",
-    "METHOD": "Chaque tip est réécrit par TeamUpp, sans copie, et trié par nombre de sources. Les mécaniques sont vérifiées dans les données du jeu (patch {{version}}). Un tip est cité par au moins 2 sources, ou par 1 seule quand la mécanique est vérifiée en jeu.",
-    "VS_TITLE": "Comment jouer contre {{champion}}",
-    "VS_GENERAL": "Conseils généraux contre ce champion",
     "VS_LINK": "Conseils généraux contre {{champion}}"
+  },
+  "PLAY_TIPS": {
+    "TITLE": "Tips pour jouer {{champion}}",
+    "SUBTITLE": "Combos et astuces de mécanique, recherchés et vérifiés par TeamUpp",
+    "COMBOS": "Combos",
+    "TIPS": "Astuces",
+    "SEQUENCE": "Combo : {{steps}}",
+    "THEN": "puis",
+    "LEVELS": {
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile"
+    },
+    "TAGS": {
+      "mechanic": "Mécanique",
+      "passive": "Passif",
+      "terrain": "Terrain",
+      "timing": "Timing",
+      "interaction": "Interaction"
+    }
   }
 }

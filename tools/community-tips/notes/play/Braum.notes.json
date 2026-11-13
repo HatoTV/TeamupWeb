@@ -1,0 +1,43 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Braum's basic attacks and Winter's Bite each apply a stack of Concussive Blows to their target for 4 seconds, refreshing on subsequent applications and stacking up to 4 times.",
+    "Once the first stack has been applied, any allied champion's basic attack applies an additional stack to the target on-hit.",
+    "Unbreakable can be cast during the dash.",
+    "If Unbreakable is cast during the dash, Winter's Bite and Glacial Fissure may also be cast.",
+    "Stand Behind Me can be used on allied minions but not on wards nor stealthed traps.",
+    "The maximum dash range without enemy champions present is ~650. An enemy champion on the far side of the ally will allow Braum to dash a total of up-to 800 units.",
+    "If the dash is interrupted, neither Braum nor his ally receive the bonus resistances.",
+    "While his shield is raised, Braum also gains 10% bonus movement speed and ghosting.",
+    "Unbreakable's full damage reduction can block multiple instances of damage if they're dealt at the same time.",
+    "Instantaneously-placed ground-targeted abilities (e.g. Lay Waste, Pillar of Flame, Rupture) relative to the ability's center and not the caster's.",
+    "Projectiles that create an area of effect upon their collision will still affect other units and not only Braum.",
+    "The damage reduction only benefits Braum.",
+    "The first target hit is knocked up for at least 0.6 seconds, increased if they are further away from Braum.",
+    "For combos, your go-to is to W into E and Q before attacking away. And your team fight combo is to engage with W into E and alt. From here, attack and Q to",
+    "When the fourth stack's applied, all are consumed to deal damage and stun the target.",
+    "W can be used on minions and pets and it'll place you in between the Ally that you click on and the closest enemy",
+    "this can be used to actually extend the distance of his Dash if there's an enemy on the other side of your Ally and you max range cast",
+    "if you get interrupted in the middle of the dash you will not actually get the bonus resistances from your w",
+    "it also allows you to move through units so you can use it to avoid creeping",
+    "the way professional Brahms play is that they use his w-e the little combo to cancel the cast time so if you're in the middle of jumping to someone and you cast your e while you're flying if you cast your alt or your Q you'll actually cancel the cast time completely and it's a much faster animation",
+    "your e actually works on tons of abilities you might not think about such as lux's final spark and on abilities like Bran's pillar of flame and karthus Cube but only if the center of those abilities is in front of your Shield",
+    "if you get hit by multiple abilities in the exact same moment and your e damage reduction is up you can actually get 100 damage reduction on multiple abilities at the same time",
+    "you block the damage reduction for yourself but you will not block the AOE explosion",
+    "C'est à chaque fois qu'il va mettre une autoattaque ou un sort, il va appliquer une marque qui au bout de quatre autoattaques allié ou de lui-même va pouvoir assommer l'adversaire.",
+    "il jump sur le crep et il met l'autoattaque et après normalement, il essaie de mettre le que et ça prend que le stun si ton pote follow."
+  ],
+  "rejected": [
+    { "idea": "Q Flash engage: start casting Q then Flash to redirect it (RaizinsLoL)", "reason": "Single source, not confirmed by the wiki or another author." },
+    { "idea": "Cast R then Q to shorten the Q cast time (RaizinsLoL)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "Glacial Fissure (R) interrupts dashes such as Jarvan E-Q, Jax jump, Camille E (RaizinsLoL)", "reason": "Single source; the wiki only says it knocks up, nothing Braum-specific about dashes." },
+    { "idea": "Unbreakable (E) blocks projectiles even while in Zhonya's/Stopwatch stasis (RaizinsLoL)", "reason": "Single source, garbled transcript, not in the wiki notes." },
+    { "idea": "Guardian procs on post-mitigation damage since 10.12 (RaizinsLoL)", "reason": "Rune interaction, out of scope and old." },
+    { "idea": "2XKO Braum combo videos (Ray C, Chato, Sajam)", "reason": "Different game (2XKO), not League of Legends." }
+  ],
+  "toVerifyInGame": [
+    "Exact timing to cast Winter's Bite (Q) or Glacial Fissure (R) during the Stand Behind Me (W) dash after Unbreakable (E), and how much faster the cast is.",
+    "Simultaneous damage instances all fully blocked by Unbreakable (E): how tight 'same time' must be."
+  ]
+}

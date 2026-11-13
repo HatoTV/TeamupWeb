@@ -1,4 +1,4 @@
-import { CommunityTip, CommunityTipsFile, MAX_TIPS, MIN_TIPS_PER_SIDE, VsTipsFile, formatSourceDate, sideTips, sortTips, vsTips } from './community-tips.service';
+import { CommunityTip, CommunityTipsFile, MAX_TIPS, MIN_TIPS_PER_SIDE, VsTipsFile, sideTips, sortTips, vsTips } from './community-tips.service';
 
 const tip = (text: string, sources: number, verifiedByGameData: boolean, category: CommunityTip['category']): CommunityTip => ({
   text,
@@ -47,10 +47,5 @@ describe('community tips', () => {
     expect(vsTips({ ...file, tips: { fr: [two[0]!], en: [two[0]!] } }, 'fr')).toEqual([]);
     expect(vsTips({ ...file, status: 'insufficientSources' }, 'en')).toEqual([]);
     expect(vsTips(null, 'fr')).toEqual([]);
-  });
-
-  it('formats the consultation date in the page language', () => {
-    expect(formatSourceDate('2026-11-12', 'fr')).toBe('12 nov. 2026');
-    expect(formatSourceDate('2026-11-12', 'en')).toBe('Nov 12, 2026');
   });
 });

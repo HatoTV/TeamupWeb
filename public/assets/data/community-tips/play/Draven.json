@@ -1,0 +1,121 @@
+{
+  "champion": "Draven",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade niveau 3", "en": "Level 3 trade" },
+      "keys": ["Q", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Prépare Hache tournoyante (A) et Pulsion sanguinaire (Z) avant de taper, place une auto, glisse Division (E) entre deux autos, puis relance une auto.",
+        "en": "Ready Spinning Axe (Q) and Blood Rush (W) before you attack, land an auto, slot Stand Aside (E) between two autos, then auto again."
+      },
+      "refs": [0, 1, 3, 4]
+    },
+    {
+      "name": { "fr": "All-in niveau 6", "en": "Level 6 all-in" },
+      "keys": ["Q", "W", "E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Même début : A et Z, auto, Division (E), auto. Finis avec Volée mortelle (R) lancée juste après une auto, pour ne perdre aucun temps d'attaque.",
+        "en": "Same opener: Q and W, auto, Stand Aside (E), auto. Finish with Whirling Death (R) cast right after an auto, so you lose no attack time."
+      },
+      "refs": [0, 3, 4]
+    },
+    {
+      "name": { "fr": "Division puis Flash", "en": "Stand Aside into Flash" },
+      "keys": ["E", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Lance Division (E) et Flash pendant la fin de son temps d'incantation : la ligne de haches part de ta nouvelle position et touche plus loin. Marche aussi pour fuir.",
+        "en": "Cast Stand Aside (E) and Flash during the end of its cast time: the axe line starts from your new spot and reaches farther. Also works to escape."
+      },
+      "refs": [2, 3]
+    },
+    {
+      "name": { "fr": "Chase en chaîne", "en": "Chain chase" },
+      "keys": ["Q", "W", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Pulsion sanguinaire (Z), tape avec ta hache et rattrape-la vers l'avant : le CD de Z est remis à zéro, relance-la pour garder la vitesse.",
+        "en": "Pop Blood Rush (W), hit with your axe and catch it forward: the W cooldown resets, so cast it again to keep the speed."
+      },
+      "refs": [0, 1, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Ta hache retombe selon ton mouvement au moment de l'impact : si tu bouges, elle tombe sur ton chemin ; si tu es immobile, elle revient vers toi ou sur tes côtés.",
+        "en": "Your axe lands based on your movement at the moment of impact: if you are moving, it drops on your path; if you stand still, it comes back to you or to your sides."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant 1,5 s, Pulsion sanguinaire (Z) te rend fantomatique : tu traverses sbires, monstres et champions sans être bloqué.",
+        "en": "For 1.5 s, Blood Rush (W) ghosts you: you walk through minions, monsters and champions without being blocked."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Hache tournoyante (A) ne se déclenche pas sur les tourelles, mais chaque auto sur une structure prolonge la durée de ta hache en main.",
+        "en": "Spinning Axe (Q) does not trigger on turrets, but every auto on a structure refreshes how long your axe stays ready."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Division (E) projette sur le côté et coupe les dash adverses. Attends de voir l'animation du dash pour lancer la ligne sur sa trajectoire.",
+        "en": "Stand Aside (E) knocks aside and stops enemy dashes. Wait to see the dash animation, then throw the line on its path."
+      },
+      "refs": [2, 3, 4]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Volée mortelle (R) exécute un champion qui tombe sous un seuil de PV égal à ton nombre de charges d'Adoration. Plus tu as de charges, plus elle achève tôt.",
+        "en": "Whirling Death (R) executes a champion who drops below a health threshold equal to your Adoration stacks. The more stacks you have, the earlier it finishes them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Volée mortelle (R) fait demi-tour seule dès qu'elle touche un champion, ou relance-la après 1 s. Chaque passage peut toucher une fois : vise un aller et un retour.",
+        "en": "Whirling Death (R) turns back on its own as soon as it hits a champion, or recast it after 1 s. Each pass can hit once: aim for both the throw and the return."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le Mur de vent de Yasuo et la Tourbillon de lame de Samira détruisent tes haches, même si elles semblent passer : ta hache ne revient pas.",
+        "en": "Yasuo's Wind Wall and Samira's Blade Whirl destroy your axes, even if they seem to go through: your axe does not come back."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si tu actives Hache tournoyante (A) pendant l'armement d'une auto, cette auto part déjà avec la hache. Pas besoin de l'activer avant de taper.",
+        "en": "If you activate Spinning Axe (Q) during an auto's wind-up, that very auto already throws the axe. No need to activate it before you attack."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Draven – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Draven", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Draven Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=yGrX94FBGtE", "type": "video", "date": "2025-09-02", "author": "3 Minute League of Legends" },
+    { "title": "THE ONLY DRAVEN GUIDE YOU NEED - HOW TO PLAY DRAVEN ADC S+ | Best Build & Runes | League of Legends", "url": "https://www.youtube.com/watch?v=F4_pRttmJik", "type": "video", "date": "2026-04-10", "author": "Eternal Hero" },
+    { "title": "Draven Tips and Tricks | Improve Your Gameplay in 3 Minutes", "url": "https://www.youtube.com/watch?v=c1bbwyGU7Io", "type": "video", "date": "2021-08-22", "author": "Evvelyx" },
+    { "title": "GUIDE DRAVEN SAISON 16 : TUTO comment MONTER ADC sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=-sXVRslO40w", "type": "video", "date": "2026-10-17", "author": "L'ADCarry • EXYT LOL" }
+  ]
+}

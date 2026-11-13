@@ -1,0 +1,37 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Mel's ability casts each generate 3 stacks of Searing Brilliance for 5 seconds, refreshing on subsequent casts and stacking up to 9 times. Her next basic attack consumes all stacks of Searing Brilliance to additionally fire an equal number of blazing projectiles at the target.",
+    "Mel's basic attacks and abilities apply a stack of Overwhelm for each instance of damage they deal to enemies for 5 seconds, refreshing on subsequent applications and stacking infinitely.",
+    "If the total post-mitigation damage stored exceeds the target's current health and shields, the next stack applied against them will consume them all to deal the stored damage.",
+    "A threshold indicator for the currently stored damage is placed on a target's health bar, as well as a mark above their head, while any Overwhelm stacks are active.",
+    "Whenever Golden Eclipse damage would put them below Overwhelm's threshold, the mark will darken and glow more prominently.",
+    "The nova destroys all hostile non-turret projectiles that collide with it. Mel and allies that come into contact with it are granted a shield and bonus movement speed, both lasting 2 seconds.",
+    "The nova additionally harnesses each hostile projectile that collides with it as a bolt, up to a maximum of 7 times per source. After the nova's expiration, the number of bolts respective to each enemy homes to them",
+    "Enemies hit by the orb are dealt magic damage and root [rooted] for a duration. The root duration is increased based on distance the orb travelled.",
+    "Mel unleashes a radiant blast on all enemies affected by Searing Brilliance, dealing magic damage to each of them. Enemies are also revealed for 1 second from the start of the cast time.",
+    "target range: Global",
+    "Mel frappe tous les ennemis marqués par Accablement sans tenir compte de la distance qui les sépare d'elle.",
+    "after using an ability she generates three stacks. She can have up to nine stacks at one time and when she attacks, all stacks consumed to fire additional projectiles which deal additional damage.",
+    "every time she deals an instance of damage against an enemy, they're stored as an overwhelmed stack. These stacks store damage on that target for 5 seconds.",
+    "Mel's W creates a barrier which gives her a shield, a burst of movement speed, and all hostile projectiles hitting the shield are destroyed. During this time, all projectiles that specifically target Mel are reflected back towards their attacker.",
+    "For combos, land Q into an attack. Follow up with E into an attack and W as needed while attacking away until you can use your alt to execute.",
+    "This also works well if you land E into Q before attacking away.",
+    "In addition, your Q and your E doesn't care about minions.",
+    "And when you have tons of passive stacks out there, use your ultimate to execute them.",
+    "avec Mel, ton autoattaque, ton Q, ton E traverse les CS donc profites-en un maximum.",
+    "il peut retourner un des spells adverses du Graves, soit son autoattaque, triple autoattaque, soit un Q, soit une smoke et donc de gagner le trade.",
+    "M c'est un champion qui va jouer quasiment auto. Q auto",
+    "Mon but, c'est de caler le root, l'autoattaque, de retourner quand je me fais burst et après juste de jouer de loin, de tirer mes Q"
+  ],
+  "rejected": [
+    { "idea": "Les autos de Mel traversent aussi les sbires (EXYT)", "reason": "Une seule source pour les autos ; seuls Barrage lumineux et Piège solaire sont confirmés par deux auteurs." },
+    { "idea": "Renvoyer la fumée de Graves avec Réfutation (EXYT)", "reason": "Interaction vue en jeu par une seule source, non décrite par le wiki." },
+    { "idea": "Combo avec Flash", "reason": "Aucune source récente ne décrit de combo Flash propre à Mel." }
+  ],
+  "toVerifyInGame": [
+    "Réfutation : nombre de salves renvoyées quand plusieurs ennemis tirent en même temps (7 max par source selon le wiki).",
+    "Durée réelle du root de Piège solaire tiré à bout portant contre portée max."
+  ]
+}

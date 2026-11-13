@@ -1,0 +1,102 @@
+{
+  "champion": "Diana",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Croissant puis double Rush", "en": "Crescent into double Rush" },
+      "keys": ["Q", "W", "E", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche Croissant lunaire (A), active Corps célestes (Z), puis Rush lunaire (E) sur la cible marquée : le CD du E est réinitialisé. Place tes autos et garde le second E pour la chase.",
+        "en": "Land Crescent Strike (Q), turn on Pale Cascade (W), then Lunar Rush (E) onto the marked target: the E cooldown resets. Weave your autos and keep the second E to chase."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Ult en plein Rush", "en": "Ult mid-Rush" },
+      "keys": ["Q", "E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Croissant lunaire (A), puis Rush lunaire (E) et Attraction lunaire (R) pendant le dash. L'ult sort bien plus vite qu'à l'arrêt, et ta cible n'a pas le temps de réagir.",
+        "en": "Crescent Strike (Q), then Lunar Rush (E) and Moonfall (R) during the dash. The ult comes out much faster than from a standstill, and your target has no time to react."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Croissant flashé, Rush, ult", "en": "Flash Crescent, Rush, ult" },
+      "keys": ["Q", "F", "E", "R"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Lance Croissant lunaire (A), puis Flash pendant l'animation : ta cible a moins de temps pour l'esquiver. Enchaîne Rush lunaire (E) et Attraction lunaire (R) pendant le dash.",
+        "en": "Cast Crescent Strike (Q), then Flash during the animation: your target has less time to dodge it. Follow with Lunar Rush (E) and Moonfall (R) during the dash."
+      },
+      "refs": [1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pas besoin d'attendre l'impact de Croissant lunaire (A) : lance Rush lunaire (E) pendant que le projectile vole. Le Clair de lune n'est consommé qu'à la fin du dash.",
+        "en": "No need to wait for Crescent Strike (Q) to land: cast Lunar Rush (E) while the bolt is flying. Moonlight is only consumed at the end of the dash."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Rush lunaire (E) consomme le Clair de lune de tous les ennemis, pas seulement de ta cible. Si tu marques deux cibles, un seul reset est possible.",
+        "en": "Lunar Rush (E) consumes Moonlight from every enemy, not only your target. If you mark two targets, only one reset is possible."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si Rush lunaire (E) est bloqué par un bouclier anti-sort, le Clair de lune est consommé quand même mais ton E n'est pas réinitialisé.",
+        "en": "If Lunar Rush (E) is blocked by a spell shield, Moonlight is still consumed but your E does not reset."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si les trois sphères de Corps célestes (Z) explosent, ton bouclier est réappliqué et s'ajoute au premier. Fais-les toutes toucher pendant le fight.",
+        "en": "If all three Pale Cascade (W) orbs detonate, your shield is reapplied on top of the first one. Make them all connect during the fight."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Après chaque sort, le bonus de vitesse d'attaque de Lame sélène est triplé pendant 5 s. Glisse des autos entre tes sorts pour déclencher vite le coup en zone.",
+        "en": "After each spell, Moonsilver Blade's attack speed bonus is tripled for 5 s. Weave autos between spells to trigger the cleave hit quickly."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un ennemi immunisé aux CC ou aux déplacements compte quand même comme attiré par Attraction lunaire (R) : le rayon tombe et le bonus de dégâts s'applique.",
+        "en": "An enemy immune to CC or displacement still counts as pulled by Moonfall (R): the beam falls and the bonus damage applies."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un champion protégé par un bouclier anti-sort ne compte pas dans le bonus de dégâts d'Attraction lunaire (R). Le bonus n'est pas plafonné à 4 champions.",
+        "en": "A champion protected by a spell shield doesn't count toward Moonfall (R)'s bonus damage. The bonus isn't capped at 4 champions."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Diana – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Diana", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The COMPLETE DIANA Combos GUIDE You NEED", "url": "https://www.youtube.com/watch?v=kJI25JyxTeE", "type": "video", "date": "2026-10-13", "author": "Lunar Hero" },
+    { "title": "3 Minute Diana Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=eRcb_Z0uzV4", "type": "video", "date": "2026-09-14", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE DIANA FR 💥 COMBOS, TIPS, GESTION DE LANE/JUNGLE", "url": "https://www.youtube.com/watch?v=dpCSXqxlVIE", "type": "video", "date": "2019-12-21", "author": "Chamallow San • League of Legends" }
+  ]
+}

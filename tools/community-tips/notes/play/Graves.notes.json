@@ -1,0 +1,38 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Quickdraw resets Graves' basic attack timer.",
+    "Graves dashes to the target location, reloading one shell while generating a stack of True Grit for 4 seconds, stacking up to 8 times. Dashing towards an enemy champion generates 2 stacks of True Grit.",
+    "Quickdraw's current cooldown is reduced by 0.5 seconds for every pellet impacting an enemy.",
+    "If Graves dashes while reloading, he can cast any of his abilities during the dash.",
+    "Graves gains the one additional stack of True Grit from Quickdraw if at any point during the dash a visible enemy champion is in front of Graves within 1300 distance.",
+    "Basic attack resets other than Quickdraw do not affect Graves' basic attack timer.",
+    "Non-champion units hit by more than one pellet are knocked back, though not through terrain.",
+    "After 2 seconds, or upon colliding with terrain, the round detonates to deal physical damage to enemies within a wide perpendicular area and in a reverse wave along the powder trail.",
+    "Wind Wall will destroy the projectile entirely and mitigate all effects, including the trail on the ground.",
+    "Unbreakable is considered to be terrain for the purposes of the projectile, triggering its second effect.",
+    "Crowd control immunity and cleanses have no effect on the user's sight radius reduction despite the nearsight being resisted / removed.",
+    "Collateral Damage is not disabled while grounded or rooted, but Graves will not dash after the cast time while affected by them.",
+    "Graves will not dash after the cast time if he is airborne.",
+    "Start with an out attack and press C immediately after and finish this combo with two more out attacks.",
+    "if you use both of your bullets and you E and Q at the same time, you can actually hide your Q animation.",
+    "But if you're in reload animation, you can actually extend your Q range with this and actually hide your Q animation on top of that.",
+    "let's make his queue hit this wall. You see it's much faster.",
+    "press W out attack. E out attack. U attack. This is your ball combo. So once again, W out attack, E out attack, Q out attack.",
+    "So your combo is WQ auto attack, E out attack with auto out attack.",
+    "For combos, start with W to attack. From here E to attack and Q to Alt and attack away.",
+    "And your explosive combo is simply attacking with W, Q, and Alt before E returns to them and attacks away.",
+    "Additionally, non- champions hit by this are knocked back, allowing him to easily launch kites at jungle monsters."
+  ],
+  "rejected": [
+    { "idea": "W then Flash / Q then Flash is faster than Flash then spell (Forest)", "reason": "Single source; generic Flash buffer not specific to Graves." },
+    { "idea": "Q Flash one-shot combo on squishies (Forest)", "reason": "Single source." },
+    { "idea": "Collateral Damage (R) recoil crosses a wall when standing right next to it (Forest)", "reason": "Single source; wall crossing not stated by the wiki." },
+    { "idea": "GRAVES COMBO GUIDE Season 14 (Bav Bros)", "reason": "No English subtitles available; not read." }
+  ],
+  "toVerifyInGame": [
+    "Quickdraw (E) + End of the Line (Q) while reloading: exact input order (Q then E or E then Q) that hides the Q animation.",
+    "End of the Line (Q) fired at a wall behind the target: distance where the instant detonation still hits."
+  ]
+}

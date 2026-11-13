@@ -1,0 +1,119 @@
+{
+  "champion": "Zoe",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "A, auto, A, auto", "en": "Q, auto, Q, auto" },
+      "keys": ["Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Astro-pong ! (A), place une auto renforcée, renvoie l'étoile puis remets une auto. Chaque lancer du sort renforce ta prochaine auto : c'est un trade très lourd dès le début de partie.",
+        "en": "Cast Paddle Star! (Q), land an empowered auto, redirect the star, then auto again. Each cast of the spell empowers your next auto: it is a very heavy trade from the start of the game."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Bulle puis étoile", "en": "Bubble into star" },
+      "keys": ["E", "Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche avec Bulle soporifique (E), lance Astro-pong ! (A) derrière toi puis renvoie-le sur la cible endormie. N'attaque pas avant l'impact : le coup qui la réveille inflige des dégâts bonus.",
+        "en": "Hit Sleepy Trouble Bubble (E), cast Paddle Star! (Q) behind you, then redirect it onto the sleeping target. Do not attack before it lands: the first hit that wakes them deals bonus damage."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Étoile arrière et bond", "en": "Backward star and jump" },
+      "keys": ["Q", "R", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Astro-pong ! (A) derrière toi, Bond dimensionnel (R) vers la cible, puis renvoie l'étoile depuis ton point d'arrivée. Plus l'étoile voyage après le renvoi, plus elle fait mal.",
+        "en": "Cast Paddle Star! (Q) behind you, Portal Jump (R) toward the target, then redirect the star from where you land. The farther the star travels after the redirect, the more damage it deals."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Bond puis bulle", "en": "Jump into bubble" },
+      "keys": ["R", "E", "Q", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Bond dimensionnel (R) vers l'ennemi pour lancer Bulle soporifique (E) de près, plus dure à esquiver, puis Astro-pong ! (A) renvoyé sur la cible endormie. Pendant le bond, tu peux lancer tes sorts mais pas marcher.",
+        "en": "Portal Jump (R) toward the enemy to cast Sleepy Trouble Bubble (E) up close, where it is harder to dodge, then Paddle Star! (Q) redirected onto the sleeping target. During the jump, you can cast but not walk."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Bulle soporifique (E) traverse un seul mur et parcourt toute la distance du mur en portée bonus. Si elle doit entrer dans un 2e mur, elle retombe avant.",
+        "en": "Sleepy Trouble Bubble (E) crosses a single wall and travels the whole wall distance as bonus range. If it would enter a second wall, it falls short."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Flash d'abord, puis Bulle soporifique (E). Le point d'arrivée de la bulle est fixé au début de l'incantation : lancer E puis Flash ne te donne aucune portée en plus.",
+        "en": "Flash first, then Sleepy Trouble Bubble (E). The bubble's end point is locked at the start of the cast: casting E then Flash gives you no extra range."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Lance Bulle soporifique (E) juste avant le retour de Bond dimensionnel (R) : la bulle garde le point visé depuis le bond, donc sa portée s'allonge depuis ta position de départ.",
+        "en": "Cast Sleepy Trouble Bubble (E) right before Portal Jump (R) sends you back: the bubble keeps the spot aimed from the jump, so its range stretches from your starting position."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si tu ramasses un Flash avec Voleuse de sorts (Z), ta touche de Flash lance celui volé, même si le tien est en CD. Tu gardes ton vrai Flash pour plus tard.",
+        "en": "If you pick up a Flash with Spell Thief (W), your Flash key casts the stolen one, even if yours is on cooldown. You keep your real Flash for later."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les dégâts sur la durée, comme Embrasement, ne réveillent pas une cible endormie par Bulle soporifique (E). C'est le prochain coup direct qui la réveille et inflige le bonus.",
+        "en": "Damage over time, like Ignite, does not wake a target put to sleep by Sleepy Trouble Bubble (E). The next direct hit wakes them and deals the bonus."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux renvoyer Astro-pong ! (A) même sous un effet qui t'empêche de lancer des sorts. Un CC pendant le vol de l'étoile ne gâche pas ton tir.",
+        "en": "You can redirect Paddle Star! (Q) even while affected by something that stops you from casting. Getting CC'd while the star flies does not waste your shot."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort d'invocateur lancé, même volé, déclenche le passif de Voleuse de sorts (Z) : vitesse de déplacement bonus et trois projectiles qui tirent sur les ennemis proches.",
+        "en": "Every summoner spell you cast, even a stolen one, triggers Spell Thief's (W) passive: bonus movement speed and three bolts that fire at nearby enemies."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bond dimensionnel (R) réinitialise ton auto. Au point d'arrivée, tu peux attaquer et lancer tes sorts, mais tu reviens toujours à ton point de départ.",
+        "en": "Portal Jump (R) resets your auto. At the landing spot, you can attack and cast spells, but you always snap back to where you started."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Zoe - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Zoe", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Best Zoe Build & Guide (2026) — League of Legends", "url": "https://www.dodge.gg/lol/news/zoe-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" },
+    { "title": "Everyone Plays Zoe — Almost Nobody Plays Her Correctly", "url": "https://www.youtube.com/watch?v=b5zSq-je8wo", "type": "video", "date": "2026-04-06", "author": "Zoose" },
+    { "title": "3 Minute Zoe Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=7so974YufpA", "type": "video", "date": "2024-11-27", "author": "3 Minute League of Legends" }
+  ]
+}

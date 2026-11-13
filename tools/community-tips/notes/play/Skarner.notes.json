@@ -1,0 +1,46 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "If Skarner's attached target collides with terrain, the charge ends, detaching them from him, dealing physical damage, stunning them for 1.1 seconds, and reducing Ixtal's Impact's cooldown by 35%.",
+    "during which he gains slow immunity, becomes ghosted, ignores terrain collision, and has unobstructed vision of the surrounding 650 units.",
+    "Enemies cannot see Skarner while he is inside terrain, unless they grant sight into the area of terrain he is inside (such as with Hawkshot or Heightened Senses) or have unobstructed vision.",
+    "However, enemies will be notified when Skarner is inside nearby terrain while within a certain distance of him.",
+    "If the target resists the suppression through total crowd control immunity, displacement immunity, or a spell shield. Skarner will not attach them to himself, causing the charge to end instantly.",
+    "If the target removes the suppression by any means, including with an applicable cleanse effect or dispel, they will detach themselves from Skarner immediately which forces the charge to end instantly and not apply any damage.",
+    "Shattered Earth's duration is paused during Ixtal's Impact.",
+    "If Impale is cast during Shattered Earth, Skarner automatically casts Upheaval in the direction of Impale's cast.",
+    "Without incurring Upheaval's cast time",
+    "Skarner is unable to basic attack, cast Shattered Earth or Ixtal's Impact, or use during Impale.",
+    "While the targets are impaled, they are attached to Skarner 300 units in front of him.",
+    "If a target would be on the other side of a wall, they are moved to the same side as Skarner.",
+    "Skarner ends Shattered Earth by throwing his boulder in the target direction. It explodes upon colliding with the first enemy hit, applying the same damage and slow to the target and surrounding enemies as Shattered Earth's final empowered attack would.",
+    "Basic attacks that are dodged by the target or missed while Skarner is blinded do not apply stacks of Quake. Blocked attacks will still apply stacks.",
+    "Spell shield prevents Quaking's application from Upheaval and Impale only.",
+    "Note that if the main target is not blocking or dodging, then the area of effect can still deal damage to those who do.",
+    "you can prolong your queue duration while using e",
+    "for gangs you can literally pick up a boulder while walking towards the lane you want to gank",
+    "enemies cannot see scarner while he's inside terrain unless they Grant into the area of terrain he is inside",
+    "spell Shields will just cancel your e making an end to the travel as well",
+    "for J if he uses his e just attack a Target close to Jacks and The AOE damage of the que will apply all the passive Stacks to Jacks as well",
+    "holding a Q Rock while using your arm makes you smash it into the enemy making an end to your Que",
+    "after stunning an enemy with your e you can land one more Auto take before using your ultimate and it will still guarantee to hit the enemy",
+    "use Q charge into the enemy auto attack Instant Auto attack reset with Titanic Hydra and R making sure you throw the rock in the process and then w at the very end",
+    "Alors qu'en fait, avec Skarner, souvent on va mettre le E into par exemple le R, vous ? Ça c'est vraiment le combo habituel. Mais en fait, avec Skarner, on peut aussi mettre le R puis le E.",
+    "quand vous allez R une cible, elle va se retrouver vraiment devant vous. Du coup derrière, vous êtes immédiatement range de E",
+    "Actuellement Skarner en saison 16, c'est du coup pour optimiser le combo c'est Q auto auto Q à nouveau pour le jeter.",
+    "Alors que si je R, hop, le lancer est instantané.",
+    "quand vous grabez un mec avec le R de Skarner près d'un mur, la cible va toujours être de votre côté du mur"
+  ],
+  "rejected": [
+    { "idea": "Flash puis Impact d'Ixtal (E) pour ramener une cible sous ta tourelle", "reason": "Une seule source joueur (Misanthiel), aucune interaction Flash décrite par le wiki : écarté selon la règle des combos avec Flash." },
+    { "idea": "Lancer Terre brisée (A) puis Flash : le sort part à la fin de l'animation du Flash (buffer), idem Bastion sismique (Z)", "reason": "Une seule source (Cannon Minion, vidéo tournée sur le PBE avant la sortie du rework), non confirmé par le wiki." },
+    { "idea": "Ramasser le rocher entre deux camps car le CD de Terre brisée (A) tourne dès le ramassage", "reason": "Contredit par Misanthiel (saison 16 : le CD ne se cumule plus) ; la vidéo Cannon Minion date du PBE 14.3 : changement probable depuis." },
+    { "idea": "Bug de hitbox de Bastion sismique (Z) d'un côté du champion", "reason": "Bug observé sur le PBE en 2024, non confirmé au patch 16.22." },
+    { "idea": "Attaquer une plante ou une balise pour relancer le timer de Terre brisée (A)", "reason": "Le wiki indique qu'attaquer une unité non valide donne des autos normales ; affirmation de Cannon Minion (PBE) non confirmée." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte pour placer une auto entre le stun d'Impact d'Ixtal (E) (1,1 s) et l'incantation d'Empalement (R) (0,75 s) sans que la cible s'échappe.",
+    "Délai entre la fin d'Empalement (R) et le grab d'Impact d'Ixtal (E) : Misanthiel note un court instant où la cible peut Flash."
+  ]
+}

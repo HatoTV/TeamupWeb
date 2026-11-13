@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "En lane, ce sera plus quelque chose comme de trois autoattaques si on le peut faire trois stacks et derrière venir que tout simplement et globalement one shot la cible.",
+    "Varus' basic attacks on-hit deal bonus magic damage and apply a stack of Blight for 6 seconds, refreshing on subsequent applications and stacking up to 3 times. Varus' abilities detonate all Blight stacks on affected enemies hit.",
+    "There's still a trick with like having two stacks on the enemies. Now you can E, now you can auto. Bam. And now you have all three stacks procked.",
+    "Hail of Arrows consumes Blighted Quiver stacks for bonus damage a second time after ~0.3 seconds of hitting, allowing stacks applied during this time to be triggered.",
+    "So when you're ulting, for example, there will be three blight stacks coming over time",
+    "Voilà comment il joue Varus la plupart du temps c'est qu'on vient R on vient AR on attend les trois stacks.",
+    "Over the first 1.75 seconds of the root, they are also inflicted with maximum stacks of Blighted Quiver.",
+    "So we have two stacks. We use E, auto, then ult, auto, W, Q. Bam.",
+    "on vient E pour la gap close et derrière on peut même mettre un R parce que la personne est slow avec le E",
+    "vous pouvez flasher pendant le charge de votre queue. À quoi ça sert ? À surprendre l'ennemi.",
+    "Piercing Arrow will cast from wherever Varus is at the end of the channel.",
+    "each stack consumed against a champion or epic monster reduces the remaining cooldowns of Varus' basic abilities by % of each of their total cooldowns",
+    "procking these stacks and like using various abilities on many enemies will refresh our spells",
+    "si je joue bien avec les marques, on peut vraiment refresh les sorts à foison à foison dans un team fight",
+    "If the charge completes without reactivation, Piercing Arrow is cancelled and refunds 50% of the mana cost.",
+    "Starts post-effect, after charge ends the cooldown is reduced equal to the charge duration",
+    "Blighted Quiver can be cast during the first 0.85 seconds of Piercing Arrow charge, and will be placed on full cooldown after the charge ends even if Piercing Arrow is not recast.",
+    "Blighted Quiver's active and recast can both be used while affected by cast-inhibiting crowd control.",
+    "If a target does not leave the area within 2 seconds, they subsequently become infected as well",
+    "The target does not have to be visible to be caught by the tendril.",
+    "If the root is not applied, such as by the target negating its application with crowd control immunity or a spell shield, the target will not be inflicted with Blighted Quiver stacks and the tendril will not root into the ground at their location",
+    "If the root's duration is reduced by the target's tenacity, the stacks are applied depending upon if their time application interval is met.",
+    "The area then becomes desecrated for 4 seconds, slowing enemies within and inflicting them with Grievous Wounds.",
+    "Slow lingers for 0.25 seconds after leaving the marked area.",
+    "Varus also gains Living Vengeance's bonuses upon scoring a champion takedown, which empowers it for the same duration to grant him 30% bonus attack speed",
+    "and an increased attack speed cap of 3.33. Living Vengeance's empowerment may only be refreshed by subsequent champion takedowns."
+  ],
+  "rejected": [
+    { "idea": "Flash pendant l'incantation de Pluie de flèches ou de Chaîne corruptrice", "reason": "Une seule source (Booshi), qui juge lui-même l'usage peu utile ; interaction non documentée par le wiki." },
+    { "idea": "Chaque stack réduit de 13 % les CD de Varus", "reason": "Chiffre lu dans des sous-titres automatiques flous, non retrouvé tel quel sur le wiki (valeur variable)." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte (environ 0,3 s) pour placer l'auto après Pluie de flèches et faire consommer la troisième stack.",
+    "Portée réelle d'un Flash pendant la charge de Flèche perforante : la flèche part bien de la position d'arrivée."
+  ]
+}

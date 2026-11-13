@@ -1,0 +1,109 @@
+{
+  "champion": "Aatrox",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Épée et Ruée, Chaînes, Épées", "en": "Blade and Dash, Chains, Blades" },
+      "keys": ["Q", "E", "W", "Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance la 1re Épée des Darkin (A) avec Ruée obscure (E) pendant le coup pour gagner de la portée, puis Chaînes infernales (Z). Enchaîne les deux Épées suivantes avec une auto entre chaque.",
+        "en": "Cast the first Darkin Blade (Q) with Umbral Dash (E) during the swing to gain range, then Infernal Chains (W). Chain the next two Blades with an auto between each."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Ult, Chaînes, puis trois Épées", "en": "Ult, Chains, then three Blades" },
+      "keys": ["R", "W", "Q", "E", "Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ult si besoin, puis Chaînes infernales (Z) et 1re Épée des Darkin (A) avec Ruée obscure (E) pour ajuster. Glisse une auto avant chacune des deux Épées suivantes.",
+        "en": "Ult if needed, then Infernal Chains (W) and the first Darkin Blade (Q) with Umbral Dash (E) to adjust. Weave an auto before each of the next two Blades."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Dive : ult, Épées, Ruée dehors", "en": "Dive: ult, Blades, Dash out" },
+      "keys": ["R", "Q", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Sous la tour, ult pour faire fuir les sbires, puis Épée des Darkin (A), Chaînes infernales (Z) et 2e Épée, une auto. Garde Ruée obscure (E) pour ressortir plutôt que pour entrer.",
+        "en": "Under tower, ult to make minions flee, then Darkin Blade (Q), Infernal Chains (W) and the second Blade, one auto. Keep Umbral Dash (E) to get out rather than to go in."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Vise par-dessus un mur avec Ruée obscure (E) : le dash s'allonge jusqu'à 500 unités pour le franchir. Lancé pendant l'Épée des Darkin (A), il étend aussi sa portée.",
+        "en": "Aim Umbral Dash (E) over a wall: the dash extends up to 500 units to cross it. Cast during The Darkin Blade (Q), it extends that spell's reach too."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ruée obscure (E) ne coupe pas l'Épée des Darkin (A) : l'angle du coup reste fixe, mais la zone suit ton déplacement. Dashe pour amener le bout de l'Épée sur ta cible.",
+        "en": "Umbral Dash (E) does not cancel The Darkin Blade (Q): the swing angle stays fixed, but the area follows your movement. Dash to bring the Blade's tip onto your target."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pour le reset d'auto avec Ruée obscure (E), dashe tout près de toi : un dash court est bien plus rapide qu'un dash long, ton auto suivante part plus vite.",
+        "en": "For the auto reset with Umbral Dash (E), dash very close to yourself: a short dash is much faster than a long one, so your next auto comes out sooner."
+      },
+      "refs": [1, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Vise en diagonale avec l'Épée des Darkin (A), surtout la 2e : le coin de la zone porte plus loin que son centre. Entraîne-toi à toucher avec ces coins.",
+        "en": "Aim The Darkin Blade (Q) diagonally, especially the second cast: the corner of the area reaches further than its center. Practice hitting with those corners."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ta cible se cache dans la wave ? Fossoyeur des mondes (R) fait fuir les sbires proches : tes Chaînes infernales (Z) ne sont plus bloquées par eux.",
+        "en": "Target hiding in the wave? World Ender (R) makes nearby minions flee, so your Infernal Chains (W) are no longer blocked by them."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaînes infernales (Z) ne ramènent pas la cible pile au centre : le point d'arrivée est un peu décalé vers ta position quand la zone expire. Place-toi en conséquence.",
+        "en": "Infernal Chains (W) do not drag the target exactly to the center: the landing point shifts slightly toward your position when the zone expires. Position accordingly."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque auto ou sort qui touche un champion réduit le CD de Posture du massacreur (passif) de 2 s, et de 4 s avec le bout de l'Épée des Darkin (A), même contre un bouclier magique.",
+        "en": "Each auto or spell that hits a champion cuts the Deathbringer Stance (passive) cooldown by 2 s, and by 4 s with the tip of The Darkin Blade (Q), even into a spell shield."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Fossoyeur des mondes (R) reste actif après une résurrection, et son bonus de soins s'applique aux PV rendus. Avec l'Ange gardien, ressusciter sous ult te remet bien plus haut.",
+        "en": "World Ender (R) stays active through a resurrection, and its healing bonus applies to the health restored. With Guardian Angel, reviving during your ult puts you much higher."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Aatrox – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Aatrox", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "10 Aatrox Tips from a Challenger Aatrox main", "url": "https://www.youtube.com/watch?v=DCQFmkv5CRM", "type": "video", "date": "2026-04-11", "author": "Looca" },
+    { "title": "3 Minute Aatrox Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=l2wFOJ8if8I", "type": "video", "date": "2026-01-28", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE EXPRESS sur AATROX : APPRENDRE a jouer le CHAMPION en 20 minutes !", "url": "https://www.youtube.com/watch?v=DICxJA4vV0I", "type": "video", "date": "2023-11-01", "author": "PeyJeyM LoL" }
+  ]
+}

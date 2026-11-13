@@ -1,0 +1,32 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Innate: Kha'Zix gains Unseen Threat whenever the enemy loses sight of him or he activates Void Assault. Unseen Threat: Kha'Zix empowers his next basic attack against an enemy champion to deal bonus magic damage and slow them by 25% for 2 seconds.",
+    "Void Assault grants Unseen Threat even if Kha'Zix never becomes unseen (e.g. affected by true sight).",
+    "For Taste Their Fear, the end of cast. This means that if the target is no longer Isolated when the ability hits them, Taste Their Fear will not apply the respective bonuses.",
+    "A team's allies are champions, pets, minions and outer turrets. Monsters are considered allies for other monsters. Wards do not prevent Isolation.",
+    "A number of targetable champion summoned units are specifically tagged to not be a valid ally of a potentially Isolated target.",
+    "Kha'Zix heals himself if he is within the explosion.",
+    "Taste Their Fear can be cast during the dash.",
+    "Kha'Zix can use his summoner spells and item actives while leaping.",
+    "Void Spike & Void Assault can be buffered to cast after the dash ends.",
+    "Evolved Bonus: Leap gains 300 bonus range, and the cooldown resets upon scoring a champion takedown.",
+    "Regarding combos: if you can get close to an enemy, attack, then Q and W. Next, attack and use E to catch up to them if necessary.",
+    "If you start with a jump, use E and then Q while still in the air. Attack with W before pursuing further.",
+    "And your all or nothing is to start with the ultimate, attack, Q and W. Attack, turn on the ultimate again, ult again, and then catch up with attacks.",
+    "After destroying a target, use the remaining ult charges or the reset E to jump to the next target.",
+    "When they run away from waves, like and go under the tower, the last caster minion's like right there. You can E smite it and then get like an isolated Q off.",
+    "But say you're ganking and like you you jump on this guy, you auto him, you cut back in the bush, you auto again.",
+    "Obviously, if you're like autoing from the bush, they still see you."
+  ],
+  "rejected": [
+    { "idea": "Les camps de la jungle sont toujours isolés (mohawk)", "reason": "Contredit le wiki : les monstres comptent comme alliés entre eux ; non retenu." },
+    { "idea": "Bond (E) puis Assaut du Néant (R), Bond revenu avant la fin du R (mohawk)", "reason": "Cité puis jugé peu utile par l'auteur lui-même, sans seconde source." },
+    { "idea": "Choix des évolutions et sort d'invocateur Fantôme", "reason": "Conseil de build, hors périmètre combos/astuces." }
+  ],
+  "toVerifyInGame": [
+    "Châtiment sur le dernier sbire pendant Bond (E) : vérifier que la cible devient isolée à temps pour Goût de la peur (A).",
+    "Ressortir de la vision par un buisson : délai avant que Menace invisible revienne."
+  ]
+}

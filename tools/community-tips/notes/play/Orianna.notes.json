@@ -1,0 +1,33 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Orianna cannot use Command: Protect while The Ball is in transit with Command: Attack but she may buffer Command: Dissonance and Command: Shockwave to cast once it has reached the location.",
+    "The Ball will drop to the ground upon colliding with W [Yasuo] but not with E [Braum].",
+    "The Ball snaps back to Orianna upon being intercepted by projectile-blocking effects.",
+    "The Ball will join Command: Protect's target ally in stealth if they are affected by it when Orianna targets them.",
+    "Orianna gains Command: Protect's bonus resistances whenever The Ball is attached to her (even if she didn't self-cast).",
+    "Additionally, The Ball attaches to Orianna if she is near it, and snaps back to her if she moves too far away from it, which incurs a 0.75-second cooldown on Command: Shockwave.",
+    "Command: Shockwave will cast from wherever the unit the The Ball is attached to is at the end of the cast time, even if the unit exceeds max tether range.",
+    "Orianna's basic attacks generate a stack of Clockwork Winding for 4 seconds, refreshing on subsequent attacks and stacking up to 2 times. All stacks are lost when attacking a new enemy.",
+    "The Ball does not grant sight while in flight, but the sound effect of striking an enemy is audible through the Fog of War.",
+    "Your basic combo: attack, Q behind the enemy's back, then W. After that, you can return the bullet through the enemy with E and continue the attack.",
+    "In a teamfight, use Q, W, and your ultimate for massive damage, then return the orb to yourself or an ally via E. To initiate, throw E at a charging ally.",
+    "When he is in the center of the enemy team, press ult, then Q and continue attacking.",
+    "So you do a classic combo and then you bring the ball back to you, trying to make it pass through as many enemies as possible.",
+    "Then you have QRW from level 6. It's the classic ultimate combo. You start with your R to group the targets and then you put the W on everyone.",
+    "And finally, you have the R flasher with W. This will allow you to surprise your opponent. It's very useful if the guy has a dash. So it's very simple, the ball is on you, you R and you flash",
+    "when the orb is on you or one of your allies, it will give you bonus armor and MR even if the active shield has disappeared.",
+    "You can make it invisible if your orb is hidden, and therefore the ultimate will also be hidden.",
+    "Continue auto-attacking as you exit the indicator to instantly have the ball on you before comboing",
+    "as long as the R animation starts when the ball is considered in the indicator, your shock wave will be launched and it will end where the ball is at the end of the animation"
+  ],
+  "rejected": [
+    { "idea": "Ordre : Onde de choc (R) envoie les ennemis à travers les murs (note wiki)", "reason": "Contradiction dans le wiki : la description dit « though not through terrain »." },
+    { "idea": "Combo avec Nocturne qui emporte la boule pendant l'incantation de l'ult (Shambless)", "reason": "Combo de duo, une seule source joueur." }
+  ],
+  "toVerifyInGame": [
+    "Ordre : Onde de choc (R) puis Flash : vérifier la fenêtre exacte pendant les 0,5 s d'incantation.",
+    "Ordre : Protection (E) sur un allié camouflé : vérifier que la zone de l'ult reste invisible pour l'ennemi."
+  ]
+}

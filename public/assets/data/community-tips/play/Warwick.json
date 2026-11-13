@@ -1,0 +1,120 @@
+{
+  "champion": "Warwick",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Traque sanguinaire puis Contrainte infinie", "en": "Blood Hunt into Infinite Duress" },
+      "keys": ["W", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Traque sanguinaire (Z) : la vitesse bonus vers la cible allonge Contrainte infinie (R), dont la portée dépend de ta vitesse. Tu sautes de bien plus loin que prévu.",
+        "en": "Cast Blood Hunt (W): the bonus speed toward the target extends Infinite Duress (R), whose range depends on your speed. You leap from much farther than expected."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Peur d'abord, ult ensuite", "en": "Fear first, ult second" },
+      "keys": ["E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "En 1v1, relance Hurlement bestial (E) collé à la cible pour la fear, puis lance Contrainte infinie (R) pendant la peur. Elle ne peut plus esquiver ton saut.",
+        "en": "In a 1v1, recast Primal Howl (E) next to the target to fear them, then cast Infinite Duress (R) during the fear. They can no longer dodge your leap."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Hurlement bestial gardé pour l'ult", "en": "Primal Howl saved for the ult" },
+      "keys": ["E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "En teamfight, active Hurlement bestial (E) sans le relancer, puis Contrainte infinie (R). La suppression déclenche la peur autour de toi sans couper ta réduction de dégâts.",
+        "en": "In a teamfight, activate Primal Howl (E) without recasting it, then Infinite Duress (R). The suppression triggers the fear around you without ending your damage reduction."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Hurlement, Dents maintenues, peur", "en": "Howl, held Jaws, fear from behind" },
+      "keys": ["E", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Hurlement bestial (E), maintiens Dents de la bête (A) pour bondir derrière la cible, puis relance la E. La peur la pousse à fuir dans le mauvais sens.",
+        "en": "Activate Primal Howl (E), hold Jaws of the Beast (Q) to leap behind the target, then recast the E. The fear makes them run the wrong way."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Maintiens Dents de la bête (A) : tu restes accroché à la cible et tu suis tous ses déplacements, dash ou Flash compris, avant de bondir derrière elle.",
+        "en": "Hold Jaws of the Beast (Q): you stay latched onto the target and follow all of their movement, dashes or Flash included, before leaping behind them."
+      },
+      "refs": [0, 1, 3, 4]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant Dents de la bête (A), tu es immunisé aux déplacements : maintiens-la au moment d'un knock-up pour l'ignorer. Un stun ou un silence coupe quand même la charge.",
+        "en": "During Jaws of the Beast (Q), you are immune to displacements: hold it as a knock-up comes to ignore it. A stun or a silence still cuts the charge."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant la charge de Dents de la bête (A), Hurlement bestial (E) reste utilisable. Flash, lui, est bloqué au début puis coupe la charge.",
+        "en": "During the Jaws of the Beast (Q) charge, Primal Howl (E) stays usable. Flash is locked at first, then cuts the charge."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si la cible meurt avant que ton appui court de Dents de la bête (A) l'atteigne, le CD est remboursé, pas le mana. En maintenant la touche, tu perds ce remboursement.",
+        "en": "If the target dies before your tapped Jaws of the Beast (Q) reaches them, the cooldown is refunded, not the mana. If you hold the key, you lose that refund."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La portée de Contrainte infinie (R) vaut 2,5 fois ta vitesse moyenne des 2,5 dernières secondes. Le cercle affiché trompe : tout bonus de vitesse allonge vraiment le saut.",
+        "en": "The Infinite Duress (R) range equals 2.5 times your average speed over the last 2.5 seconds. The circle shown is misleading: any speed bonus truly extends the leap."
+      },
+      "refs": [0, 1, 4]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier magique ou une immunité aux contrôles au moment de l'impact empêche la suppression de Contrainte infinie (R). Fais tomber le bouclier avant de sauter.",
+        "en": "A spell shield or crowd control immunity at the moment of impact stops the Infinite Duress (R) suppression. Pop the shield before you leap."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si Contrainte infinie (R) ne touche personne, tu glisses un peu plus loin sans immunité aux contrôles. Lance Dents de la bête (A) pour couper cette glissade.",
+        "en": "If Infinite Duress (R) hits no one, you slide a bit farther without crowd control immunity. Cast Jaws of the Beast (Q) to cut that slide short."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Soif inextinguible ne te soigne que sous 50 % de PV, et 2,5 fois plus sous 25 %. En duel à mort, garde tes sorts pour cette zone de PV.",
+        "en": "Eternal Hunger only heals you below 50% health, and 2.5 times more below 25%. In a fight to the death, save your spells for that health range."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Warwick - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Warwick", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "5 Core Warwick Mechanics to get you playing like a PRO/SMURF - League of Legends", "url": "https://www.youtube.com/watch?v=a2dXd6WKTiI", "type": "video", "date": "2019-12-26", "author": "KingStix" },
+    { "title": "The ONLY Warwick combo you need to know", "url": "https://www.youtube.com/watch?v=BpcmsB-NfYE", "type": "video", "date": "2025-03-22", "author": "Feenixd" },
+    { "title": "3 Minute Warwick Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=Bm4tqP9Pqwo", "type": "video", "date": "2026-05-11", "author": "3 Minute League of Legends" },
+    { "title": "Warwick Tips - MetaBot", "url": "https://metabot.gg/en/league/champion/Warwick/tips", "type": "guide", "date": "2026-11-13", "author": "Dakota Chinnick" }
+  ]
+}

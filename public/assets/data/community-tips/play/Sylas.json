@@ -1,0 +1,99 @@
+{
+  "champion": "Sylas",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade classique avec autos", "en": "Classic trade with autos" },
+      "keys": ["E", "E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Évasion (E) puis Enlèvement (E) : le knock-up te garantit l'explosion de Croix du forçat (A). Glisse une auto renforcée entre chaque sort et garde Régicide (Z) pour la fin.",
+        "en": "Abscond (E) then Abduct (E): the knock-up guarantees the Chain Lash (Q) detonation. Weave an empowered auto between each spell and keep Kingslayer (W) for the end."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Régicide pour rapprocher la chaîne", "en": "Kingslayer to land the chain" },
+      "keys": ["E", "W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Avance avec Évasion (E), comble la distance avec Régicide (Z) et une auto, puis lance Enlèvement (E) de près et finis avec Croix du forçat (A). Utile contre une cible cachée derrière ses sbires.",
+        "en": "Move in with Abscond (E), close the gap with Kingslayer (W) and an auto, then throw Abduct (E) up close and finish with Chain Lash (Q). Useful against a target hiding behind minions."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort lancé te donne une charge de Volée de pétricite, jusqu'à 3. Les deux parties d'Évasion / Enlèvement (E) comptent chacune : deux autos renforcées d'un coup.",
+        "en": "Every spell you cast gives you a Petricite Burst stack, up to 3. Both parts of Abscond / Abduct (E) count separately: two empowered autos at once."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu peux lancer Régicide (Z) pendant le dash d'Évasion (E). Les deux enchaînés couvrent une grosse distance pour finir une cible qui fuit.",
+        "en": "You can cast Kingslayer (W) during the Abscond (E) dash. Chained together, they cover a lot of distance to finish a fleeing target."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Régicide (Z) soigne davantage selon tes PV manquants. Lance-le à la fin du trade, quand tu es bas, plutôt qu'en ouverture.",
+        "en": "Kingslayer (W) heals more based on your missing health. Cast it at the end of the trade, when you're low, rather than as an opener."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Régicide (Z) te soigne même si la cible meurt avant la fin du dash. Seule exception : si elle devient intouchable, le sort ne fait rien.",
+        "en": "Kingslayer (W) still heals you even if the target dies before the dash ends. Only exception: if they become untargetable, the spell does nothing."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si un bouclier de sort bloque la chaîne d'Enlèvement (E), tu ne dashes pas vers la cible. Retire-le avant avec Croix du forçat (A) ou une auto.",
+        "en": "If a spell shield blocks the Abduct (E) chain, you don't dash to the target. Pop it first with Chain Lash (Q) or an auto."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'explosion de Croix du forçat (A) se fait au croisement des chaînes. Lancée à portée max, elle touche plus loin que les chaînes elles-mêmes.",
+        "en": "The Chain Lash (Q) detonation happens where the chains cross. Cast at max range, it reaches further than the chains themselves."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Détournement (R) sur un clone ne vole rien et part en CD complet. Si Incassable de Braum l'intercepte, tu voles Fissure glaciale à sa place.",
+        "en": "Hijack (R) on a clone steals nothing and goes on full cooldown. If Braum's Unbreakable intercepts it, you steal Glacial Fissure instead."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Un ult volé qui se relance plusieurs fois, comme celui d'Ahri, donne une charge de Volée de pétricite à chaque utilisation. Place une auto entre chaque relance.",
+        "en": "A stolen ult with several casts, like Ahri's, gives a Petricite Burst stack on every use. Fit an auto in between each recast."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Sylas - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Sylas", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Sylas Guide – You’re Playing Him Wrong (Stop Coinflipping Fights)", "url": "https://www.youtube.com/watch?v=3TSh5nUbuPE", "type": "video", "date": "2026-03-26", "author": "Zoose" },
+    { "title": "3 Minute Sylas Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=Cbp2cCiCREU", "type": "video", "date": "2026-02-05", "author": "3 Minute League of Legends" },
+    { "title": "PRO SYLAS GUIDE - Professeur Nisqy #7", "url": "https://www.youtube.com/watch?v=WYGokg6OSNI", "type": "video", "date": "2024-04-26", "author": "Nisqy" }
+  ]
+}

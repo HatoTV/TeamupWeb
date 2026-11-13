@@ -1,0 +1,32 @@
+{
+  "searches": 2,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Crushing Blow's cooldown is reduced by 0.5 seconds whenever Wukong or his Warrior Trickster damage an enemy.",
+    "Crushing Blow basic attack resets Wukong's and his Warrior Trickster basic attack timer. Other abilities can be used during the attack's animation.",
+    "Wukong enters invisibility for 1 second and dashes in the target direction, leaving behind a clone of himself at his casting position for 4 seconds.",
+    "It can also gain the effects of Crushing Blow and Nimbus Strike bonus attack speed, and casts Cyclone whenever Wukong does.",
+    "Wukong can cast any of his abilities during the dash.",
+    "Turret shots instantly kill the clone.",
+    "Crushing Blow can be cast during the dash.",
+    "Casting Nimbus Strike interrupts the attack windup of enemies targeting Wukong.",
+    "Cyclone will not knock up enemies who were already hit by either Wukong or his Warrior Trickster within the same cast.",
+    "Blocking the knock up will still grant immunity to it from either of Cyclone's casts.",
+    "For combos, your go-to is to E into W then attack into Q so both you and your clone are attacking.",
+    "every time he or his clone attacks an enemy, it's reduced by 0.5 seconds",
+    "if you press E and then W, your clone will gain attack speed",
+    "you always want E before W because that way both you and your clone will get a bonus to attack speed",
+    "when you're chasing them, you want to go to E auto auto Q alto. Then you want to switch to W auto Q al.",
+    "you can hide around the corner and go W, E, auto, auto, Q, alt, and then you go auto, Q, alt.",
+    "one way is to leave a clone on one target, and then use the ultimate to apply them all there"
+  ],
+  "rejected": [
+    { "idea": "Guerrier espiègle (Z) traverse certains murs épais (hybradge)", "reason": "Une seule source, le wiki ne mentionne pas de franchissement de terrain." },
+    { "idea": "Feinte : s'arrêter contre un mur comme si on lançait Guerrier espiègle (Z) pour pousser l'adversaire à Flash", "reason": "Une seule source, conseil de bluff peu vérifiable." },
+    { "idea": "Lancer Guerrier espiègle (Z) pendant les effets d'un sort pour les transférer au clone", "reason": "Note du wiki trop vague (Cyclone est interrompue par un sort de base), aucune source joueur." }
+  ],
+  "toVerifyInGame": [
+    "Nimbus (E) lancé avant Guerrier espiègle (Z) : le clone garde bien le bonus de vitesse d'attaque, et pas dans l'ordre inverse.",
+    "Nimbus (E) interrompt le windup d'une auto adverse qui te cible."
+  ]
+}

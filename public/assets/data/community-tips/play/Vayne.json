@@ -1,0 +1,120 @@
+{
+  "champion": "Vayne",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, roulade, auto, auto", "en": "Auto, tumble, auto, auto" },
+      "keys": ["Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Trade de base : une auto, Roulade (A) pour réinitialiser ton attaque, l'auto renforcée, puis une troisième auto pour le stack de Carreaux d'argent (Z) qui inflige les dégâts bruts.",
+        "en": "Basic trade: one auto, Tumble (Q) to reset your attack, the empowered auto, then a third auto for the Silver Bolts (W) stack that deals the true damage."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Roulade puis Condamnation en finition", "en": "Tumble then Condemn finisher" },
+      "keys": ["Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Auto, Roulade (A), auto renforcée, puis Condamnation (E) à la place de la troisième auto. Condamnation (E) pose aussi un stack de Carreaux d'argent (Z) : les dégâts bruts partent quand même.",
+        "en": "Auto, Tumble (Q), empowered auto, then Condemn (E) instead of the third auto. Condemn (E) also applies a Silver Bolts (W) stack, so the true damage still procs."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Condamnation puis Flash", "en": "Condemn into Flash" },
+      "keys": ["E", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "La direction du recul de Condamnation (E) se fixe à la fin de l'incantation. Lance-la, puis Flash pendant l'incantation pour créer un angle qui envoie ta cible dans un mur.",
+        "en": "The Condemn (E) knockback direction locks at the end of the cast time. Cast it, then Flash during the cast time to create an angle that sends your target into a wall."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "All-in sous ult", "en": "Ult all-in" },
+      "keys": ["R", "Q", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Combat ultime (R), Roulade (A) et auto renforcée, puis Condamnation (E) dans un mur pour le stun. Continue en autos et relance Roulade (A) dès qu'elle revient, son CD étant réduit sous ult.",
+        "en": "Activate Final Hour (R), Tumble (Q) and empowered auto, then Condemn (E) into a wall for the stun. Keep auto attacking and recast Tumble (Q) as soon as it's up, since its cooldown is reduced during ult."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chasseresse nocturne : le bonus de vitesse quand tu fais face à un champion ennemi visible dure encore 2 s après l'avoir perdu de vue, et il est triplé sous Combat ultime (R).",
+        "en": "Night Hunter: the movement speed bonus while facing a visible enemy champion lasts 2 more seconds after losing sight of them, and it is tripled during Final Hour (R)."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Roulade (A) ne traverse pas les murs. Elle réinitialise ton attaque, mais tu ne peux pas attaquer avant la fin de son animation.",
+        "en": "Tumble (Q) doesn't go through walls. It resets your attack, but you can't attack until its animation is over."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu peux lancer Combat ultime (R) pendant Roulade (A), mais cette roulade-là ne te rend pas invisible. Active ton R avant de rouler si tu veux le camouflage.",
+        "en": "You can cast Final Hour (R) during Tumble (Q), but that tumble won't make you invisible. Activate R before tumbling if you want the stealth."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Sous Combat ultime (R), Roulade (A) te rend invisible 1 s. Roule d'un côté et attaque de l'autre pour feinter, mais l'invisibilité casse dès le début de ton auto ou d'un sort.",
+        "en": "During Final Hour (R), Tumble (Q) makes you invisible for 1 s. Tumble one way and attack the other to juke, but stealth breaks at the start of your auto or any cast."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les stacks de Carreaux d'argent (Z) disparaissent si tu attaques un autre ennemi, mais pas si tu frappes un bâtiment ou une balise. Ils éclatent même sur une cible en stase.",
+        "en": "Silver Bolts (W) stacks vanish if you attack another enemy, but not if you hit a structure or a ward. They even pop on a target in stasis."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Condamnation (E) marche aussi contre un terrain créé par un joueur. Le stun démarre au contact du mur : ta cible peut rester immobilisée jusqu'à 2 s selon la distance parcourue.",
+        "en": "Condemn (E) also works against player-made terrain. The stun starts on wall contact: your target can stay immobilized for up to 2 s depending on the distance travelled."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une purification arrête tout de suite le recul de Condamnation (E). Et si tu es supprimé pendant l'incantation, le carreau ne part pas.",
+        "en": "A cleanse ends the Condemn (E) knockback right away. And if you're suppressed during the cast time, the bolt doesn't fire."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Un takedown sur un champion touché dans les 3 dernières secondes prolonge Combat ultime (R) de 4 s, sans dépasser sa durée de départ.",
+        "en": "A takedown on a champion you damaged in the last 3 seconds extends Final Hour (R) by 4 s, without going past its original duration."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Vayne - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Vayne", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Challenger Rank1 Vayne - How to play Vayne in 2 minutes guide | Reptile", "url": "https://www.youtube.com/watch?v=yn4xFjLBOio", "type": "video", "date": "2023-12-13", "author": "Reptile9LoL" },
+    { "title": "The Last Vayne Guide You'll Ever Need", "url": "https://www.youtube.com/watch?v=OwoXew8OlSk", "type": "video", "date": "2024-01-26", "author": "quach" },
+    { "title": "VAYNE - Ability & Combo Guide | League of Legends", "url": "https://www.youtube.com/watch?v=NkpKkDTMia0", "type": "video", "date": "2025-04-05", "author": "Retz13" }
+  ]
+}

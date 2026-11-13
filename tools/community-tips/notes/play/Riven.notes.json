@@ -1,0 +1,41 @@
+{
+  "searches": 2,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "Riven can activate Broken Wings three times before the ability goes on cooldown, with a 0.3125-second static cooldown between casts. If Riven does not recast the ability within 4 seconds of the previous cast, it goes on cooldown.",
+    "This cast cannot cross terrain.",
+    "Third Cast: Riven mimics the first cast's effects in a larger area while also knocking back enemies hit 75 units over 0.5 seconds. This cast can cross terrain.",
+    "Moving after using Broken Wings allows Riven to do other actions faster.",
+    "cooldown: 13 [Starts after first cast]",
+    "Riven's ability casts generate a stack of Charge for 6 seconds, refreshing on subsequent casts and stacking up to 3 times. Riven's basic attacks are empowered to each consume a stack on-hit to deal bonus physical damage",
+    "Riven dashes in the target direction, though not through terrain, while granting herself a shield for 1.5 seconds. Riven can cast any of her abilities during the dash.",
+    "Q may be cast during W or R cast times if they're used at the end or briefly after the dash.",
+    "If Riven has a basic attack buffered before the end of Blade of the Exile's cast time, the buffered basic attack will start 0.33 seconds after the end of the cast time.",
+    "The ability will cast to wherever the caster's cursor was at the start of cast time.",
+    "deals physical damage to enemies hit, increased by 0 to 200% based on target's missing health. This is capped at 200% bonus damage at 75% missing health.",
+    "some good starter ones are to start with E into an attack before using W and Q. From here, attack into Q before attacking into Q again.",
+    "And an easy all in is to E into ultimate and attack. W into an attack before using Q into an attack, Q into attack again, and then use your ultimate into Q and attack away.",
+    "Using either of your first two Q's into a wall will make Riven wedge yourself into the wall.",
+    "Q delaying is waiting for this timer to be delayed as much as possible until you engage with your third Q. By that time, your Q cool down will almost be back up",
+    "you can auto attack Q move and the Q animation, and repeat that three times.",
+    "If you flash after E, you can still double cast. When using wind slash, Riven will always use it in the direction of her cursor.",
+    "Another trick is to use E flash W into whatever you want because E flash W makes it very hard to react to your flash.",
+    "since wind slash is an execute, usually it's better to use your Q or W before it.",
+    "(Woodon, auto-translated to French) La plupart des combos de Riven reposent sur l'annulation de ses attaques automatiques, comme par exemple un combo rapide avec son A.",
+    "(Woodon, auto-translated) utiliser son E juste avant d'utiliser R1 afin que son personnage ne reste pas immobile pendant l'activation de son ultime. Cela vaut aussi bien pour votre W que pour votre R2",
+    "(Woodon, auto-translated) sa principale source de dégâts provient en réalité de son passif, qui vous oblige à intercaler vos attaques automatiques entre vos combos.",
+    "Level 6 all-in: E-R1-Flash-W-AA-Q1-AA-Q2-AA-Q3-AA-R2",
+    "Flash into Ki Burst stun is her most reliable engage pattern at close range"
+  ],
+  "rejected": [
+    { "idea": "Q then Flash, or W then Flash, cancels the spell (FLAGGED Riven)", "reason": "Single source; not confirmed by the wiki." },
+    { "idea": "Targeted Q1/Q2 on an enemy over a wall makes Riven path around it; use untargeted Q for wall hops (FLAGGED Riven)", "reason": "Single source." },
+    { "idea": "E then R2 then Q extends Wind Slash range from where the Q lands (FLAGGED Riven)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "Flash during Broken Wings to redirect dashes (Dodge.gg)", "reason": "Single source and contradicted by FLAGGED Riven (Q-Flash does not work)." },
+    { "idea": "Shy combo (E, R1, Flash, W, ...) with item active", "reason": "Not detailed in the sources read; item active interaction not verified." }
+  ],
+  "toVerifyInGame": [
+    "Fast Q: exact timing of the move click after each Broken Wings.",
+    "Valor, Flash, Ki Burst: Ki Burst must come right after Flash; FLAGGED Riven source dates from January 2024, Q was adjusted since (patch 25.14 / 25.22 per Dodge.gg)."
+  ]
+}

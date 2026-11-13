@@ -1,0 +1,98 @@
+{
+  "champion": "Trundle",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Royaume, montagne, soumission, morsure", "en": "Domain, pillar, subjugate, chomp" },
+      "keys": ["W", "E", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Royaume gelé (Z), puis Montagne de glace (E) et Soumission (R) pour voler ses résistances. Enchaîne une auto, Morsure (A) pour reset ton auto, et frappe sans t'arrêter.",
+        "en": "Drop Frozen Domain (W), then Pillar of Ice (E) and Subjugate (R) to steal their resistances. Chain an auto, Chomp (Q) to reset your auto, and keep swinging."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Montagne derrière, puis morsure", "en": "Pillar behind, then chomp" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose Montagne de glace (E) juste derrière la cible : le recul l'éloigne du pilier, donc vers toi, et le mur lui coupe la retraite. Place une auto puis Morsure (A) dans le slow.",
+        "en": "Place Pillar of Ice (E) just behind the target: the knockback sends them away from the pillar, toward you, and the wall cuts off their escape. Land an auto, then Chomp (Q) in the slow."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Morsure (A) réinitialise ton auto et son windup ne peut pas être annulé. Frappe une fois, lance-la tout de suite après : deux coups très rapprochés pour un trade court.",
+        "en": "Chomp (Q) resets your auto and its windup can't be cancelled. Hit once, cast it right after: two hits back to back for a short trade."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Morsure (A) te donne son bonus de dégâts d'attaque même si l'auto est esquivée, bloquée ou ratée sous aveuglement. Un bouclier de sort n'arrête que la baisse de dégâts adverse et le slow.",
+        "en": "Chomp (Q) still grants its bonus attack damage if the auto is dodged, blocked or missed while blinded. A spell shield only stops the enemy damage reduction and the slow."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Montagne de glace (E) agit comme un mur pendant 6 secondes et ralentit autour d'elle. Pose-la sur le chemin de fuite : l'ennemi doit la contourner dans le slow.",
+        "en": "Pillar of Ice (E) acts as a wall for 6 seconds and slows around it. Put it on the escape path: the enemy has to walk around it through the slow."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Montagne de glace (E) ne peut pas apparaître dans un mur. Si tu la vises dedans, elle se pose au point accessible le plus proche.",
+        "en": "Pillar of Ice (E) can't spawn inside a wall. If you aim it there, it appears at the nearest reachable spot."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Montagne de glace (E) écarte aussi tes alliés, sans les projeter, et coupe leurs canalisations. Ne la pose pas sur un allié en train de canaliser son ult.",
+        "en": "Pillar of Ice (E) also pushes your allies aside, without knocking them up, and interrupts their channels. Don't drop it on an ally channeling their ult."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Soumission (R) applique la moitié de ses effets tout de suite, le reste sur 4 secondes, et les résistances volées durent encore 4 secondes après. Lance-la sur le tank dès le début du fight.",
+        "en": "Subjugate (R) applies half its effects at once, the rest over 4 seconds, and the stolen resistances last 4 more seconds after. Cast it on the tank as the fight starts."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tribut du roi te soigne quand un ennemi meurt près de toi, sbires compris. Un trade égal à côté de la wave tourne en ta faveur quand ses sbires tombent.",
+        "en": "King's Tribute heals you when an enemy dies near you, minions included. An even trade next to the wave turns in your favor as their minions die."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si la cible de Soumission (R) ressuscite, elle perd l'effet et tu perds aussitôt les résistances volées. Garde ton ult pour une autre cible quand une résurrection est prête.",
+        "en": "If the Subjugate (R) target resurrects, the effect is removed and you instantly lose the stolen resistances. Save your ult for another target when a resurrection is ready."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Trundle - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Trundle", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Trundle Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=yfJGaWvWbXc", "type": "video", "date": "2026-05-13", "author": "3 Minute League of Legends" },
+    { "title": "Best Trundle Build & Guide (2026) — League of Legends", "url": "https://www.dodge.gg/en-US/lol/news/trundle-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" }
+  ]
+}

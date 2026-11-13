@@ -1,0 +1,27 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Rammus stops rolling upon colliding with an enemy, dealing magic damage to all nearby enemies and knocking them back 125 units, though not through terrain.",
+    "Powerball can be recast after 1 second within the duration, and does so automatically afterwards or upon casting Defensive Ball Curl.",
+    "Defensive Ball Curl ends immediately if Powerball is cast.",
+    "While active, enemies that use a basic attack against Rammus are dealt magic damage.",
+    "If Soaring Slam was cast during Powerball, enemies within the epicenter of the impact are also knocked up for 0.75 seconds and are dealt Powerball damage. Powerball will not collide with enemies during the dash, and its channel will be maintained for the dash and end afterwards.",
+    "Rammus leaps to the target location with immunity to crowd control.",
+    "Rammus is required to have at least 461.5 total movement speed average over the last second to be able to cast Soaring Slam further than its base maximum dash range (>800 units).",
+    "Spell shield will block the impact (including with Powerball) but not each aftershock.",
+    "Soaring Slam's damage affects structures and is doubled against turrets.",
+    "For combos, engage with Q before attacking into W and E and attack away. And if engaging with ultimate, use Q into your ultimate before attacking into W and E and attacking away.",
+    "If you're able to taunt the enemy ADC, they'll essentially just destroy themselves on your shell.",
+    "So our basic combo is going to be Q into the bad guy and then we E W them.",
+    "Our ulti also makes us unstoppable",
+    "If you Q into the ulti, you get a knock up. If you just ulti, it only slows them."
+  ],
+  "rejected": [
+    { "idea": "Combo avec Flash (Démolisseur puis Flash, ou Flash puis Provocation)", "reason": "Aucune source joueur ni note du wiki trouvée : rien retenu." },
+    { "idea": "Conseils de build de la vidéo Renkhin (S15)", "reason": "Objets et build, hors périmètre ; vidéo sans combo exploitable." }
+  ],
+  "toVerifyInGame": [
+    "Seuil de vitesse moyenne (environ 461) pour allonger Frappe ascendante (R) au-delà de 800 : à tester en fin de roulade."
+  ]
+}

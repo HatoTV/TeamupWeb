@@ -1,0 +1,161 @@
+{
+  "champion": "Lucian",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Auto, Lumière perforante, auto",
+        "en": "Auto, Piercing Light, auto"
+      },
+      "keys": [
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Short trade du niveau 1 : une auto, Lumière perforante (A) dans le temps mort entre deux autos, puis l'auto renforcée par Pistolero avant de reculer.",
+        "en": "Level 1 short trade: one auto, Piercing Light (Q) in the downtime between two autos, then the Lightslinger-empowered auto before backing off."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Poursuite, auto puis Lumière",
+        "en": "Pursuit, auto, then Light"
+      },
+      "keys": [
+        "E",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Ferme l'écart avec Poursuite inlassable (E), qui reset ton auto, place la double auto de Pistolero, puis Lumière perforante (A) et une dernière auto si tu peux.",
+        "en": "Close the gap with Relentless Pursuit (E), which resets your auto, land the Lightslinger double shot, then Piercing Light (Q) and one more auto if you can."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Flamboiement pendant Poursuite",
+        "en": "Ardent Blaze during Pursuit"
+      },
+      "keys": [
+        "E",
+        "W"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Pour engager, lance Flamboiement (Z) pendant le dash de Poursuite inlassable (E) : la cible est marquée pour ta vitesse de déplacement et tu gagnes du temps avant tes autos.",
+        "en": "To engage, cast Ardent Blaze (W) during the Relentless Pursuit (E) dash: the target is marked for your movement speed and you save time before your autos."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Poursuite inlassable (E) traverse les murs, mais ne s'allonge pas si tu vises l'intérieur d'un mur : vise de l'autre côté, sinon tu t'arrêtes avant.",
+        "en": "Relentless Pursuit (E) goes through walls, but it is not extended if you aim inside a wall: aim past it, or you stop short."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque tir de Pistolero qui touche réduit le CD de Poursuite inlassable (E) de 1 s, 2 s sur un champion. Lance le dash juste après ta double auto : la réduction s'applique quand les balles touchent.",
+        "en": "Each Lightslinger shot that hits cuts Relentless Pursuit (E) cooldown by 1 s, 2 s on a champion. Dash right after your double shot: the reduction applies when the bullets land."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant le lancer de Lumière perforante (A), tu peux buffer Flamboiement (Z) ou Déluge de balles (R), pas Poursuite inlassable (E). Si la cible meurt, le lancer s'arrête aussitôt.",
+        "en": "During the Piercing Light (Q) cast, you can buffer Ardent Blaze (W) or The Culling (R), but not Relentless Pursuit (E). If the target dies, the cast ends at once."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Poursuite inlassable (E) peut se lancer pendant le lancer de Flamboiement (Z) et pendant Déluge de balles (R) : tu repositionnes ton ult sans l'arrêter.",
+        "en": "Relentless Pursuit (E) can be cast during the Ardent Blaze (W) cast and during The Culling (R): you reposition your ult without ending it."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Déluge de balles (R) peut être arrêté par une relance après 0,75 s. Tire-le pendant que tes sorts sont en CD, puis coupe-le dès qu'ils reviennent pour reprendre tes autos renforcées.",
+        "en": "The Culling (R) can be ended with a recast after 0.75 s. Fire it while your abilities are on cooldown, then cut it as soon as they come back to resume your empowered autos."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Vigilance : un soin ou un bouclier allié, ou un champion ennemi immobilisé à 1000 unités, renforce tes deux prochains tirs de dégâts magiques. Tu en stockes jusqu'à 4.",
+        "en": "Vigilance: an ally heal or shield, or an enemy champion immobilized within 1000 units, empowers your next two shots with magic damage. You can store up to 4."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Quand un allié touche une cible marquée par Flamboiement (Z), tu gagnes la vitesse de déplacement et une charge de Pistolero, même sans avoir lancé de sort.",
+        "en": "When an ally hits a target marked by Ardent Blaze (W), you gain the movement speed and a Lightslinger charge, even without casting an ability."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lucian - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Lucian",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Beginner Lucian Combo Guide - Challenger",
+      "url": "https://www.youtube.com/watch?v=E4sSQaHraqs",
+      "type": "video",
+      "date": "2026-01-15",
+      "author": "LLTrigger"
+    },
+    {
+      "title": "Advanced Lucian Guide by a 3x Rank 1",
+      "url": "https://www.youtube.com/watch?v=wgxm7pLZosY",
+      "type": "video",
+      "date": "2025-07-08",
+      "author": "Neon LOL"
+    }
+  ]
+}

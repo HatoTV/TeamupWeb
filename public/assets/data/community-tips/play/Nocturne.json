@@ -1,0 +1,90 @@
+{
+  "champion": "Nocturne",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Gank Crépuscule puis Horreur indicible", "en": "Duskbringer into Unspeakable Horror gank" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche Crépuscule (A) pour gagner vitesse et AD sur la traînée, colle ta cible puis lance Horreur indicible (E). Enchaîne les autos pendant le lien jusqu'à la peur.",
+        "en": "Land Duskbringer (Q) to gain speed and AD on the trail, catch your target, then cast Unspeakable Horror (E). Keep autoing during the tether until the fear."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Plongeon Paranoïa complet", "en": "Full Paranoia dive" },
+      "keys": ["R", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Relance Paranoïa (R) sur ta cible, active Linceul des ténèbres (Z) en vol, puis Crépuscule (A) juste avant d'atterrir. À l'arrivée, Horreur indicible (E) et autos.",
+        "en": "Recast Paranoia (R) on your target, activate Shroud of Darkness (W) mid-flight, then Duskbringer (Q) right before landing. On arrival, Unspeakable Horror (E) and autos."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si Linceul des ténèbres (Z) est actif quand tu relances Paranoïa (R), sa durée se rafraîchit pendant tout le vol : tu atterris encore protégé.",
+        "en": "If Shroud of Darkness (W) is active when you recast Paranoia (R), its duration refreshes for the whole flight: you land still protected."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant le vol de Paranoïa (R), tu peux lancer tous tes sorts. En revanche, un dash ou un blink interrompt le vol.",
+        "en": "During the Paranoia (R) flight you can cast all your abilities. A dash or blink, however, interrupts the flight."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier de sort bloque la pose du lien d'Horreur indicible (E), mais pas un lien déjà posé : ses dégâts et la peur passent quand même.",
+        "en": "A spell shield blocks Unspeakable Horror (E) from attaching, but not a tether already in place: its damage and fear still go through."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Place-toi derrière ta cible avant la fin du lien d'Horreur indicible (E) : la peur la fait fuir dans la mauvaise direction, loin de son mur ou de son équipe.",
+        "en": "Get behind your target before the Unspeakable Horror (E) tether ends: the fear sends them running the wrong way, away from their wall or team."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La traînée de Crépuscule (A) révèle le trajet de la cible jusque dans le brouillard, même camouflée. Elle reste même si le sort est bloqué par Mur de vent ou Incassable.",
+        "en": "The Duskbringer (Q) trail reveals the target's path even in fog of war, even when stealthed. It stays even if the spell is blocked by Wind Wall or Unbreakable."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Bloquer un sort avec Linceul des ténèbres (Z) double sa vitesse d'attaque bonus pendant 5 secondes : garde-le pour un CC clé plutôt que de l'activer à vide.",
+        "en": "Blocking a spell with Shroud of Darkness (W) doubles its bonus attack speed for 5 seconds: save it for a key CC instead of using it for nothing."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Lames d'ombre : chaque auto réduit le CD du passif d'1 seconde, et de 3 secondes contre un champion ou un monstre. En duel, il revient très vite.",
+        "en": "Umbra Blades: each auto lowers the passive's cooldown by 1 second, and by 3 seconds against a champion or monster. In a duel, it comes back very fast."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Nocturne - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Nocturne", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Nocturne Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=qkIgFwyV4Uw", "type": "video", "date": "2026-04-01", "author": "3 Minute League of Legends" },
+    { "title": "How To DOMINATE Jungle With Nocturne - Complete In-depth Guide (Season 2026)", "url": "https://www.youtube.com/watch?v=S6_nGbS64WQ", "type": "video", "date": "2026-03-08", "author": "Inori" }
+  ]
+}

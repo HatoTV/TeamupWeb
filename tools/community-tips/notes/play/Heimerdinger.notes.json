@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "Heimerdinger gains bonus movement speed while near an allied turret or a H-28G Evolution Turret or H-28Q Apex Turret deployed by him.",
+    "Up to 3 H-28G Evolution Turrets can be deployed at a time, with those deployed beyond the maximum destroying the oldest one.",
+    "Every rocket hitting an enemy champion grants 20% beam charge to all H-28G Evolution Turret H-28Q Apex Turret within 1000 range, up to a maximum of 100% beam charge when hitting 5 rockets on an enemy champion.",
+    "Hextech Micro-Rockets' direction-targeting allows for custom spread.",
+    "Total range is 1350, starting from 200 units behind Heimerdinger",
+    "If the grenade hits an enemy champion, all H-28G Evolution Turret H-28Q Apex Turret within 1000 range of the impact gain 100% beam charge.",
+    "Enemies hit at the center of the grenade's impact are also stunned for 1.5 seconds.",
+    "UPGRADE!!! can be used while affected by cast-inhibiting crowd control.",
+    "Heimerdinger hurls a massive grenade at the target location that bounces a fixed distance 3 times in the cast direction.",
+    "Heimerdinger deploys a H-28Q Apex Turret at the target location, which lasts for 8 seconds.",
+    "For combos, if anyone walks into your towers, attack into E followed by an attack into W for tons of damage.",
+    "And if you're not set up, use your ultimate Q into Q and E. Place another turret down with Q into your W before placing your final turret down and spamming away with attacks.",
+    "So, if he lands all five on an enemy champion, the turrets automatically shoot their beam attack.",
+    "Enemies hit by the center are stunned instead and when this hits an enemy champion, it automatically charges all nearby turrets and they shoot their beam attack.",
+    "Heimer's passive is he gains bonus move speed when near an allied turret or one of his own turrets.",
+    "Replace any turrets that go down and focus on landing W and E to charge the beams.",
+    "The rockets converge on the cursor so if we aim directly at the target, the rockets can be easily dodged.",
+    "If we want to hit all 5 rockets, we want to put our cursor in front of the enemy champion model.",
+    "We can consider bringing our cursor closer to us so that we can create a larger fan shape when necessary.",
+    "If the enemy is just on top of us then we can just throw the grenade exactly where they are.",
+    "This is because Heimerdinger shoots his rockets from the back of his head so we have to keep this in mind. Try not to W with minions behind us.",
+    "Enemies will often avoid going near our turrets. If we don't put down all our turrets, they will let their guard down and then we can throw them the E-Q combo.",
+    "If we want to, we can also take this further by doing E-Q-W-Q or E-Q-R-W-Q.",
+    "R-E is the best combo to use if we want to secure a kill because the upgraded grenade is hard to dodge. We can take this combo further by doing R-E-Q-W."
+  ],
+  "rejected": [
+    { "idea": "Combos E-Flash, W-Flash, R-W-Flash, R-E-Flash (Menaki).", "reason": "Ordre exact de lancement ambigu (Flash avant ou après le sort) et une seule source ; non retenu." },
+    { "idea": "R-W-Flash-Ceinture-roquette Hextech (Menaki).", "reason": "Dépend d'un objet et d'un ordre non vérifié." },
+    { "idea": "Placement des tourelles en triangle (3 Minute League of Legends).", "reason": "Conseil de placement général plutôt qu'une mécanique ; source unique." },
+    { "idea": "Solo Baron avec les tourelles (Menaki).", "reason": "Hors périmètre combos/astuces, non vérifié au patch 16.22." }
+  ],
+  "toVerifyInGame": [
+    "Tourelle posée juste après une grenade qui touche : vérifier qu'elle n'a pas le rayon chargé (la charge ne vise que les tourelles présentes à l'impact).",
+    "Source Menaki datée d'avril 2024 : combos E-Q et R-E toujours valides selon les données du wiki 16.22, à confirmer en jeu."
+  ]
+}

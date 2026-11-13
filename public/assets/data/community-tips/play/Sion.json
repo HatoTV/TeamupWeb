@@ -1,0 +1,119 @@
+{
+  "champion": "Sion",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Ralentir puis fracasser", "en": "Slow then smash" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche avec Cri du tueur (E) pour ralentir la cible, puis charge Fracas meurtrier (A) au moins 1 s : ralentie, elle a du mal à sortir du cône.",
+        "en": "Land Roar of the Slayer (E) to slow the target, then charge Decimating Smash (Q) for at least 1 s: slowed, they struggle to leave the cone."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Ult puis Fracas chargé", "en": "Ult into charged Smash" },
+      "keys": ["E", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Cri du tueur (E) ralentit pour que Assaut inarrêtable (R) touche. Pendant que la cible est attirée puis étourdie, charge Fracas meurtrier (A) et relâche-le juste avant la fin du stun.",
+        "en": "Roar of the Slayer (E) slows so Unstoppable Onslaught (R) connects. While the target is pulled then stunned, charge Decimating Smash (Q) and release it just before the stun ends."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Trade avec le bouclier", "en": "Shield trade" },
+      "keys": ["W", "E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Feu intérieur (Z), place une auto, Cri du tueur (E) puis une autre auto. Après 3 s, si le bouclier tient encore, relance Feu intérieur (Z) pour l'explosion.",
+        "en": "Cast Soul Furnace (W), auto, Roar of the Slayer (E), then another auto. After 3 s, if the shield still holds, recast Soul Furnace (W) for the explosion."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Engage à l'ult", "en": "Ult engage" },
+      "keys": ["R", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Fonce avec Assaut inarrêtable (R), active Feu intérieur (Z) à l'impact, place une auto et charge Fracas meurtrier (A). Finis par une auto et Cri du tueur (E).",
+        "en": "Charge in with Unstoppable Onslaught (R), cast Soul Furnace (W) on impact, auto and charge Decimating Smash (Q). Finish with an auto and Roar of the Slayer (E)."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'indicateur de Fracas meurtrier (A) n'est visible que si l'ennemi te voit. Commence la charge dans un buisson ou dans le brouillard : la cible ne sait pas où viser son esquive.",
+        "en": "The Decimating Smash (Q) indicator only shows if the enemy can see you. Start charging in a bush or in fog of war: the target can't tell where to dodge."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Fracas meurtrier (A) ne projette et n'étourdit qu'après 1 s de charge, signalée par un éclat de la hache. Relâché avant, il ne fait que des dégâts et un court ralentissement.",
+        "en": "Decimating Smash (Q) only knocks up and stuns after 1 s of charge, marked by a flash of the axe. Released earlier, it only deals damage and a short slow."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les dégâts de la relance de Feu intérieur (Z) ne dépendent pas du bouclier restant. Encaisse des coups avec, mais garde-le en vie 3 s pour pouvoir le faire exploser.",
+        "en": "The damage of the Soul Furnace (W) recast doesn't depend on the shield left. Absorb hits with it, but keep it alive for 3 s so you can detonate it."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Cri du tueur (E) sur un sbire ou un petit monstre le projette en ligne et touche les ennemis derrière. Ce sbire projeté n'est pas arrêté par Mur de vent de Yasuo.",
+        "en": "Roar of the Slayer (E) on a minion or small monster throws it in a line and hits enemies behind. The thrown minion isn't stopped by Yasuo's Wind Wall."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Sur le point de mourir, lance Cri du tueur (E) : la cible reste ralentie avec moins d'armure quand tu reviens sous Gloire posthume. Plus facile de la rattraper à l'auto.",
+        "en": "About to die? Cast Roar of the Slayer (E): the target stays slowed with reduced armor when you come back in Glory in Death. Much easier to catch them with autos."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Si Assaut inarrêtable (R) percute un mur, tu es étourdi 0,5 s et l'impact ne projette ni n'étourdit les ennemis. Relance le sort pour bondir avant le mur.",
+        "en": "If Unstoppable Onslaught (R) crashes into a wall, you're stunned for 0.5 s and the slam neither knocks up nor stuns enemies. Recast it to leap before the wall."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Assaut inarrêtable (R) ne traverse pas un mur créé par un champion, mais le bond final passe par-dessus. Relance le sort devant le mur pour sauter de l'autre côté.",
+        "en": "Unstoppable Onslaught (R) can't charge through a wall made by a champion, but the final leap goes over it. Recast it in front of the wall to jump to the other side."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Sous Gloire posthume, tes sorts d'invocateur sont bloqués : tu n'as que tes autos, les actifs d'objets et une seule accélération. Utilise ton Flash avant de mourir.",
+        "en": "During Glory in Death, your summoner spells are locked: you only have autos, item actives and a single speed burst. Use your Flash before dying."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Sion - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Sion", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "ULTIMATE SION GUIDE - The Strongest Solo Queue Tank", "url": "https://www.youtube.com/watch?v=VOQfZS-t2KM", "type": "video", "date": "2025-11-17", "author": "Coach Chippys" },
+    { "title": "5 TIPS AVANCÉS SUR SION !", "url": "https://www.youtube.com/watch?v=7yIB06fi-gc", "type": "video", "date": "2026-02-24", "author": "Misanthiel - Coach Toplane" },
+    { "title": "3 Minute Sion Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=PZltiOtg0P4", "type": "video", "date": "2024-06-19", "author": "3 Minute League of Legends" }
+  ]
+}

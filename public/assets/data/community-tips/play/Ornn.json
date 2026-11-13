@@ -1,0 +1,108 @@
+{
+  "champion": "Ornn",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Colonne puis Ruée ardente", "en": "Pillar into Searing Charge" },
+      "keys": ["Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Fracture magmatique (A) fait sortir une colonne derrière l'ennemi, puis Ruée ardente (E) dedans : le choc détruit la colonne, projette et étourdit tout autour. Glisse une auto entre les sorts.",
+        "en": "Volcanic Rupture (Q) raises a pillar behind the enemy, then Searing Charge (E) into it: the impact breaks the pillar, knocks up and stuns everyone nearby. Weave an auto between spells."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Trade Fournaise, auto, Fracture", "en": "Bellows Breath, auto, Rupture trade" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Fournaise (Z) rend l'ennemi fragile, ton auto suivante le repousse avec des dégâts bonus, puis Fracture magmatique (A) pour le ralentir. Tu peux aussi lancer la Fracture en premier.",
+        "en": "Bellows Breath (W) makes the enemy Brittle, your next auto knocks them back for bonus damage, then Volcanic Rupture (Q) to slow them. You can also open with the Rupture."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage ult, double Fragilité", "en": "Ult engage, double Brittle" },
+      "keys": ["Q", "R", "W", "R", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Fracture magmatique (A), Appel du dieu de la forge (R), Fournaise (Z) et auto pour consommer la Fragilité. Relance l'ult pour la réappliquer, auto, puis finis avec Ruée ardente (E).",
+        "en": "Volcanic Rupture (Q), Call of the Forge God (R), Bellows Breath (W) and an auto to consume Brittle. Recast the ult to reapply it, auto, then finish with Searing Charge (E)."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Fracture magmatique (A) lancée dans un mur : la colonne tente de sortir de l'autre côté, et disparaît si elle n'a pas la place.",
+        "en": "Volcanic Rupture (Q) cast into a wall: the pillar tries to rise on the other side, and vanishes if there is no room."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La colonne ne peut pas expirer pendant ta Ruée ardente (E) : lance la ruée de loin même si la colonne arrive en fin de durée.",
+        "en": "The pillar cannot expire during your Searing Charge (E): start the charge from afar even if the pillar is about to time out."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ruée ardente (E) percute aussi le terrain créé par un champion ennemi, comme Cataclysme (R) de Jarvan IV : tu étourdis autour de toi et tu casses une partie du mur.",
+        "en": "Searing Charge (E) also collides with terrain made by an enemy champion, like Jarvan IV's Cataclysm (R): you stun around you and break part of the wall."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "L'avancée de Fournaise (Z) passe par-dessus un terrain fin créé par un champion, comme Cataclysme (R) de Jarvan IV, mais jamais à travers un vrai mur.",
+        "en": "The Bellows Breath (W) march passes over thin champion-made terrain, like Jarvan IV's Cataclysm (R), but never through a real wall."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Fournaise (Z), tu es immunisé aux déplacements forcés : lance-la au moment d'un knock-up ou d'une attraction pour l'ignorer.",
+        "en": "During Bellows Breath (W), you are immune to displacements: cast it as a knock-up or a pull comes in to ignore it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Un étourdissement ou un silence allié sur une cible fragile consomme l'effet : dégâts bonus en % des PV max et contrôle 30 % plus long.",
+        "en": "An allied stun or silence on a Brittle target consumes it: bonus max health damage and 30% longer crowd control."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu ne peux pas relancer Appel du dieu de la forge (R) en étant enraciné ou cloué au sol : garde-toi des contrôles avant de rediriger l'élémentaire.",
+        "en": "You cannot recast Call of the Forge God (R) while rooted or grounded: avoid crowd control before redirecting the elemental."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Forger un objet hors de la base demande 4 secondes de canalisation, coupées par les dégâts d'un champion ou d'une tourelle : fais-le à l'abri.",
+        "en": "Forging an item outside base takes a 4-second channel, broken by damage from a champion or a turret: do it somewhere safe."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Ornn - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Ornn", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY Ornn Guide You Need - Ornn Guide League of Legends", "url": "https://www.youtube.com/watch?v=NoA_TGplfiI", "type": "video", "date": "2026-01-16", "author": "Daveyx3" },
+    { "title": "3 Minute Ornn Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=YQZtcHGdWyA", "type": "video", "date": "2026-05-17", "author": "3 Minute League of Legends" }
+  ]
+}

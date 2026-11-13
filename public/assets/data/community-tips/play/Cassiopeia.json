@@ -1,0 +1,113 @@
+{
+  "champion": "Cassiopeia",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Poison puis rafale de Morsures", "en": "Poison into Fang barrage" },
+      "keys": ["Q", "E", "E", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Bombe nocive (A) et enchaîne tout de suite Morsure fatale (E). Glisse une auto tous les deux E : tu places jusqu'à 4 E renforcés pendant la durée du poison.",
+        "en": "Cast Noxious Blast (Q) and follow up right away with Twin Fang (E). Weave one auto every two E casts: you fit up to 4 empowered E casts while the poison lasts."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Burst complet à l'ult", "en": "Full burst with ult" },
+      "keys": ["R", "W", "Q", "E", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ouvre avec Regard de la Méduse (R), pose Miasmes (Z) sur ta cible, puis Bombe nocive (A) et Morsure fatale (E) avec une auto entre chaque E. Le maximum de dégâts en un minimum de temps.",
+        "en": "Open with Petrifying Gaze (R), drop Miasma (W) on your target, then Noxious Blast (Q) and Twin Fang (E) with an auto between each E. The most damage in the least time."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Ult flashé", "en": "Flash ult" },
+      "keys": ["R", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Lance Regard de la Méduse (R), puis Flash pendant l'animation : ta cible n'a pas le temps de Flash ou de fuir. Variante chase : vise juste derrière toi et Flash vers l'ennemi qui te poursuit.",
+        "en": "Cast Petrifying Gaze (R), then Flash during the animation: your target has no time to Flash or escape. Chase variant: aim right behind you and Flash toward the enemy chasing you."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Miasmes flashés", "en": "Flash Miasma" },
+      "keys": ["W", "F"],
+      "level": "medium",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Lance Miasmes (Z) et Flash pendant l'animation, plus rapide que Flash puis Z. Clouée au sol, ta cible ne peut plus dash ni Flash : ton ult derrière est quasi garanti.",
+        "en": "Cast Miasma (W) and Flash during the animation, faster than Flash then W. Grounded, your target can no longer dash or Flash: your follow-up ult is almost guaranteed."
+      },
+      "refs": [0, 1, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "N'attends pas l'explosion de Bombe nocive (A) pour lancer Morsure fatale (E) : les crocs attendent que la bombe explose avant de frapper, donc ils comptent bien le poison (bonus et soin).",
+        "en": "Don't wait for Noxious Blast (Q) to explode before casting Twin Fang (E): the fangs wait for the blast before hitting, so they still count the poison (bonus damage and heal)."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Regard de la Méduse (R) étourdit tout ennemi globalement tourné vers toi, pas seulement pile en face. Un ennemi qui te tourne le dos est seulement ralenti.",
+        "en": "Petrifying Gaze (R) stuns any enemy roughly facing you, not only those dead in front of you. An enemy turning their back to you is only slowed."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Miasmes (Z) cloue au sol : pas de dash ni de Flash dans la zone. Le slow et l'effet cloué au sol ne sont pas retirés par la plupart des cleanses.",
+        "en": "Miasma (W) grounds: no dash or Flash inside the area. The slow and the ground effect are not removed by most cleanses."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'indicateur de Morsure fatale (E) affiche environ 765 de portée, mais la vraie portée est de 700. Au bord du cercle, ton E te fait avancer vers la cible.",
+        "en": "The Twin Fang (E) indicator shows about 765 range, but the real range is 700. At the edge of the circle, your E walks you toward the target."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si Morsure fatale (E) tue sa cible, son coût en mana est remboursé. Finis tes sbires au E pour farmer sans vider ta barre de mana.",
+        "en": "If Twin Fang (E) kills its target, its mana cost is refunded. Last hit minions with E to farm without draining your mana bar."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Bombe nocive (A) sur un champion te donne un bonus de vitesse qui décroît en 3 s, et Grâce serpentine renforce tous tes bonus de vitesse. Touche ton A pour chase ou kiter.",
+        "en": "Noxious Blast (Q) on a champion grants bonus speed decaying over 3 s, and Serpentine Grace boosts all your speed bonuses. Land your Q to chase or kite."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le Mur de vent de Yasuo ne bloque que la partie de Miasmes (Z) qu'il touche : le reste des nuages tombe quand même.",
+        "en": "Yasuo's Wind Wall only blocks the part of Miasma (W) it touches: the rest of the clouds still lands."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Cassiopeia – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Cassiopeia", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Cassiopeia Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=pGMSEl6PTks", "type": "video", "date": "2026-08-29", "author": "3 Minute League of Legends" },
+    { "title": "Cassiopeia Tips & Tricks [Pro Analysis]", "url": "https://www.youtube.com/watch?v=Hp4_VV-gZ4Y", "type": "video", "date": "2020-08-30", "author": "LoL Analyst" },
+    { "title": "GUIDE CASSIOPEIA FR 💥 COMBOS, TIPS, GESTION DE LANE", "url": "https://www.youtube.com/watch?v=4Gc6XAV2Mwo", "type": "video", "date": "2021-02-19", "author": "Chamallow San • League of Legends" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Innate: Periodically, Malzahar gains Void Shift until he takes non-minion damage or negates a crowd control effect, to which it then lingers for 0.25 seconds before expiring. Void Shift: Malzahar gains Cc-immune [crowd control immunity] and reduces incoming damage from non-minions by 90%.",
+    "Void Shift's cooldown refreshes whenever Malzahar takes non-minion damage or is affected by a crowd control effect, and resets upon respawning.",
+    "Passive: Malzahar generates a stack of Zz'Rot Swarm when he casts another ability, up to a maximum of 2.",
+    "Malzahar consumes all Zz'Rot Swarm stacks and, after a 0.5-second delay, summons a at the target location. Additional Voidlings are then summoned for each Zz'Rot Swarm stack consumed",
+    "Voidlings deal magic damage with their attacks, reduced by 50% against epic monsters and increased by 200% to enemy minions infected by Malefic Visions",
+    "Malzahar infects the target enemy's mind, dealing magic damage every 0.25 seconds over 4 seconds, which refreshes upon damaging them with Call of the Void or Nether Grasp.",
+    "If the target dies while infected, they spread Malefic Visions onto the closest nearby enemy and Malzahar restores mana",
+    "Additionally, a Null Zone is opened beneath the target's location at the time of cast that lasts 5 seconds",
+    "Null Zone will persist even if the channel is interrupted.",
+    "Spell shield prevents both the tether and the Null Zone from appearing, however Malzahar will continue to channel.",
+    "As long as the target is within the tether radius, they will take the full tether damage over 2.5 seconds even if they are not tethered due to the tether being broken early into the channel.",
+    "A simple trade combo level three. E Q W. Tag them with E, immediately follow with Q for silence and extending E, then drop voidlings to pressure them off the wave.",
+    "All-in combo post-6. E Q W R. Use E to start the burn, Q to silence, then summon voidlings right before ulting. They'll chomp away while the enemy is locked down.",
+    "Flash catch combo. W flash E R. You want to start with W to spawn the voidlings early, then flash forward, tag them with E, and immediately R.",
+    "Timing Q and R on E targets. We've mentioned extending E by landing Q or ult, but if you time it just right as E is about to run out, it will do another four seconds of damage.",
+    "Stack voidlings before a fight or wave clear. Spam Q and E a few seconds before committing to a full combo. This lets you spawn multiple voidlings early for extra burst. You can spawn a maximum of three.",
+    "Aim your E on low health minions and follow with Q to instantly kill minions and let it bounce to enemy champions.",
+    "Stand near minions so they absorb poke and preserve your passive.",
+    "Taking damage while it's down will reset the cool down duration.",
+    "For combos, your go-to is to attack into E and W before attacking into Q and attacking into your alt.",
+    "a good combo to catch your opponent out when you're in Q range, but not in alt range is to Q into W before flashing into your alt. And when this ends, you can follow up with E and attacks.",
+    "As long as the minion dies with E on it, you get a chunk of mana back and also it resets to the next minion.",
+    "this damage is massively increased against minions affected by your E"
+  ],
+  "rejected": [
+    { "idea": "Combo Flash de Zoose : Z, Flash, E, R", "reason": "Variante redondante avec le combo Flash de 3 Minute League of Legends ; un seul combo Flash retenu." },
+    { "idea": "Une simple auto peut interrompre l'ult si le passif est tombé (Zoose)", "reason": "Contredit le wiki : seuls les CC qui empêchent de lancer un sort coupent la canalisation." },
+    { "idea": "Poser l'ult après Visions maléfiques donne 2 cumuls pour certains effets (wiki)", "reason": "Repose sur une rune : hors périmètre." },
+    { "idea": "Bloquer un skillshot pour un allié avec le passif (Zoose)", "reason": "Une seule source joueur, non confirmé par le wiki." },
+    { "idea": "Néantins pour tanker la tour ou un hook (Zoose)", "reason": "Une seule source, non confirmé par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Relancer Visions maléfiques avec Appel du Néant juste avant sa fin : vérifier que la durée repart bien sur 4 s complètes.",
+    "Ult sur une cible sous bouclier anti-sort : confirmer que Malzahar reste bloqué en canalisation sans lien."
+  ]
+}

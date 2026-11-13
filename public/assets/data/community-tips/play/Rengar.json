@@ -1,0 +1,92 @@
+{
+  "champion": "Rengar",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Bond avec Bolas en l'air", "en": "Leap with mid-air Bola" },
+      "keys": ["Q", "E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Esprit sauvage (A) avant de bondir depuis un buisson, lance Bolas (E) pendant le saut, puis Rugissement (Z) à l'atterrissage.",
+        "en": "Activate Savagery (Q) before leaping from a brush, throw Bola Strike (E) during the jump, then Battle Roar (W) on landing."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage avec root renforcé", "en": "Engage with empowered root" },
+      "keys": ["E", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Bondis sur la cible, puis Bolas (E), Rugissement (Z) et Esprit sauvage (A) pour monter à 4 de Férocité. Relance des Bolas renforcées pour root la cible pendant que tu recules.",
+        "en": "Leap on the target, then Bola Strike (E), Battle Roar (W) and Savagery (Q) to reach 4 Ferocity. Throw an empowered Bola Strike again to root them while you back off."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Triple Esprit sauvage", "en": "Triple Savagery" },
+      "keys": ["Q", "Q", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Avec 4 de Férocité, enchaîne Esprit sauvage (A) avec les autos : la version renforcée t'offre une relance gratuite, soit trois coups d'Esprit sauvage d'affilée.",
+        "en": "With 4 Ferocity, chain Savagery (Q) with autos: the empowered version grants a free extra cast, for three Savagery hits in a row."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Flash ou un autre dash pendant ton bond interrompt le saut, et l'attaque du bond ne part pas. Les autres sorts et objets actifs restent utilisables en l'air.",
+        "en": "Flash or another dash during your leap interrupts it, and the leap attack does not go off. Other abilities and item actives stay usable mid-air."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Une fois lancé, le bond de Prédateur invisible (passif) frappe même si la cible Flash au loin, sort de ta vision ou si un mur bloque ta trajectoire.",
+        "en": "Once launched, the Unseen Predator (passive) leap hits even if the target Flashes away, leaves your vision or a wall blocks your path."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Root ou cloué au sol, tu perds la portée de bond de Prédateur invisible (passif) : depuis un buisson, tu ne peux plus sauter sur la cible.",
+        "en": "When rooted or grounded, you lose the Unseen Predator (passive) leap range: from a brush, you can no longer jump on the target."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant Chasseur-né (R), Esprit sauvage (A) ne casse pas le camouflage. Tout autre sort ou une auto met fin à l'ult : prépare ton A avant le bond.",
+        "en": "During Thrill of the Hunt (R), Savagery (Q) does not break camouflage. Any other ability or an auto ends the ult: prepare your Q before the leap."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si tu lances Esprit sauvage (A) ou Rugissement (Z) pendant l'incantation de Bolas (E), ils partent juste après le lancer.",
+        "en": "If you cast Savagery (Q) or Battle Roar (W) during the Bola Strike (E) cast time, they go off right after the bola is thrown."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Rugissement (Z) te soigne des PV gris, soit 50 % des dégâts subis sur les 1,5 dernières secondes, et 100 % contre les monstres. Renforcé, il te purge aussi de tous les contrôles.",
+        "en": "Battle Roar (W) heals your grey health, 50% of the damage taken over the last 1.5 seconds, and 100% against monsters. Empowered, it also cleanses all crowd control."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Rengar - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Rengar", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Guide de Rengar en 3 minutes - Un guide pour League of Legends", "url": "https://www.youtube.com/watch?v=3KvfFtBuz3U", "type": "video", "date": "2026-11-13", "author": "3 Minute League of Legends" },
+    { "title": "RENGAR COMBO THAT MAKES YOU WIN", "url": "https://www.youtube.com/watch?v=TWJDMkLNxos", "type": "video", "date": "2024-02-02", "author": "ScrubNoob" }
+  ]
+}

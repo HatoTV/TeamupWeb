@@ -1,0 +1,112 @@
+{
+  "champion": "Karthus",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Burst au corps à corps", "en": "Close-range burst" },
+      "keys": ["E", "W", "Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ennemi dans ta zone de Souillure (E) : active-la, pose Mur de douleur (Z) sur lui pour réduire sa RM, puis enchaîne Dévastation (A) et une auto en boucle.",
+        "en": "Enemy inside your Defile (E) zone: turn it on, put Wall of Pain (W) on them to cut their MR, then loop Lay Waste (Q) and an auto."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage à distance", "en": "Long-range engage" },
+      "keys": ["W", "Q", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Cible hors de portée de Souillure (E) : ouvre avec Mur de douleur (Z) puis Dévastation (A). Active Souillure (E) une fois qu'elle est dedans et continue Dévastation (A) avec des autos.",
+        "en": "Target out of Defile (E) range: open with Wall of Pain (W) then Lay Waste (Q). Turn on Defile (E) once they are inside and keep up Lay Waste (Q) with autos."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Requiem depuis la tombe", "en": "Requiem from the grave" },
+      "keys": ["Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Mort, tu passes en Déni de mort : spamme Dévastation (A) gratuitement, puis lance Requiem (R) avant 4 s, sinon il se bloque. Personne ne peut plus couper ta canalisation.",
+        "en": "Once dead, Death Defied kicks in: spam Lay Waste (Q) for free, then cast Requiem (R) within 4 s or it gets locked. Nobody can interrupt your channel anymore."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Vol d'objectif avec Flash", "en": "Q Flash Smite steal" },
+      "keys": ["Q", "F", "D"],
+      "summoners": { "F": "SummonerFlash", "D": "SummonerSmite" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Dévastation (A) sur le Baron seul pour les dégâts doublés, puis Flash et Châtiment dans la foulée. L'ennemi n'attend pas autant de dégâts d'un coup.",
+        "en": "Cast Lay Waste (Q) on the lone Baron for doubled damage, then Flash and Smite right after. The enemy won't expect that much damage at once."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Dévastation (A) fait double dégâts si elle ne touche qu'une cible. Vise un ennemi isolé, loin de ses sbires, pour maximiser ton burst.",
+        "en": "Lay Waste (Q) deals double damage when it hits a single target. Aim at an enemy standing alone, away from their minions, to max your burst."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Pendant Déni de mort, tes sorts sont gratuits et Souillure (E) reste active, mais Requiem (R) se bloque après 4 s. Lance l'ult tout de suite si tu en as besoin.",
+        "en": "During Death Defied your spells are free and Defile (E) stays on, but Requiem (R) gets locked after 4 s. Cast your ult right away if you need it."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "En Déni de mort, tu ne peux plus bouger, ni utiliser tes sorts d'invocateur ou tes objets. Meurs au cœur du combat pour que Souillure (E) continue de toucher.",
+        "en": "In Death Defied you can no longer move, use summoner spells or items. Die in the middle of the fight so Defile (E) keeps hitting."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un rayon de lumière prévient chaque cible de Requiem (R). Un ennemi intouchable à la fin des 3 s, avec Zhonya par exemple, ne prend aucun dégât.",
+        "en": "A beam of light warns every Requiem (R) target. An enemy who is untargetable when the 3 s end, with Zhonya for example, takes no damage."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Désactiver Souillure (E) inflige un dernier tick de dégâts. Coupe-la quand l'ennemi va sortir de ta zone pour placer ce tick et garder ton mana.",
+        "en": "Turning Defile (E) off deals one final damage tick. Toggle it off as the enemy is about to leave your zone to land that tick and save mana."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "En gank, garde Mur de douleur (Z) jusqu'au Flash de l'ennemi. Le ralentissement jusqu'à 80 % l'empêche ensuite de s'échapper.",
+        "en": "When ganking, hold Wall of Pain (W) until the enemy uses Flash. The slow, up to 80%, then stops them from getting away."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant Déni de mort, tu ne peux pas être exécuté. Les ults d'exécution ne t'enlèvent pas tes 7 s de sorts gratuits.",
+        "en": "During Death Defied you cannot be executed. Execute ults won't take away your 7 s of free spells."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Karthus – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Karthus", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Karthus Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=qf4zo_Vs4Dk", "type": "video", "date": "2026-11-08", "author": "3 Minute League of Legends" },
+    { "title": "KARTHUS - Ability & Combo Guide | League of Legends", "url": "https://www.youtube.com/watch?v=dfwmxpOx0WY", "type": "video", "date": "2025-04-06", "author": "Retz13" },
+    { "title": "SEASON 2025 COMPLETE KARTHUS JUNGLE GUIDE", "url": "https://www.youtube.com/watch?v=hiPyhBUY8LQ", "type": "video", "date": "2025-06-24", "author": "Karhus" }
+  ]
+}

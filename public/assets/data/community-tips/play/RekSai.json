@@ -1,0 +1,110 @@
+{
+  "champion": "RekSai",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Combo rapide depuis le sol", "en": "Fast combo from underground" },
+      "keys": ["Q", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Enfouie, touche Sondeur explosif (A), sors avec Jaillissement (Z) pour le knock-up, auto, Courroux de la reine (A), auto, puis Morsure féroce (E) à Fureur max pour des dégâts bruts.",
+        "en": "Burrowed, land Prey Seeker (Q), pop out with Unburrow (W) for the knock-up, auto, Queen's Wrath (Q), auto, then Furious Bite (E) at max Fury for true damage."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Sondeur, Flash, Jaillissement", "en": "Prey Seeker, Flash, Unburrow" },
+      "keys": ["Q", "F", "W", "Q", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Enfouie, touche Sondeur explosif (A), puis Flash sur la cible et Jaillissement (Z) pour la projeter en l'air. Enchaîne Courroux de la reine (A) et Morsure féroce (E).",
+        "en": "Burrowed, land Prey Seeker (Q), then Flash onto the target and Unburrow (W) to knock them up. Follow with Queen's Wrath (Q) and Furious Bite (E)."
+      },
+      "summoners": { "F": "SummonerFlash" },
+      "refs": [2, 3]
+    },
+    {
+      "name": { "fr": "Tunnel puis knock-up", "en": "Tunnel into knock-up" },
+      "keys": ["E", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Arrive par un Tunnel (E) sur la cible, sors avec Jaillissement (Z), puis Courroux de la reine (A) entre tes autos et Morsure féroce (E) pour finir.",
+        "en": "Come out of a Tunnel (E) onto the target, pop up with Unburrow (W), then Queen's Wrath (Q) between autos and Furious Bite (E) to finish."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Tunnel (E) traverse un mur si tu dashes tout contre lui et qu'il est assez fin pour que la sortie apparaisse de l'autre côté.",
+        "en": "Tunnel (E) crosses a wall if you dash right next to it and it's thin enough for the exit to appear on the other side."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant le dash de Tunnel (E), donne un ordre d'attaque sur un ennemi que tu croises : il est projeté en l'air, et tu termines quand même ton trajet.",
+        "en": "During the Tunnel (E) dash, give an attack order on an enemy you pass: they get knocked up, and you still finish your path."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Hors du sol, entrer dans un Tunnel t'enfouit puis te fait ressortir automatiquement, et remet à zéro le CD d'Enfouissement (Z). Mais l'entrée prend plus de temps qu'enfouie.",
+        "en": "Unburrowed, entering a Tunnel burrows you and pops you back out automatically, and resets Burrow (W) cooldown. But entering takes longer than when burrowed."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une ward posée pile sur l'entrée d'un Tunnel prend la priorité au clic : tu ne peux plus le sélectionner. Pense-y avant de compter dessus pour fuir.",
+        "en": "A ward placed right on a Tunnel entrance takes click priority: you can no longer select it. Keep that in mind before relying on it to escape."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un ennemi ne voit l'entrée d'un Tunnel qu'après l'avoir eue en vision, et l'autre bout reste caché : creuse tes tunnels de gank hors de sa vision.",
+        "en": "An enemy only sees a Tunnel entrance after having vision of it, and the other end stays hidden: dig your gank tunnels out of their sight."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Enfouie, une simple auto sur un ennemi déclenche Jaillissement (Z) une fois à portée. Une même cible ne peut plus être projetée par lui pendant 10 à 6 s.",
+        "en": "Burrowed, a simple auto on an enemy triggers Unburrow (W) once in range. The same target can't be knocked up by it again for 10 to 6 s."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Rush du Néant (R) donne 25 de Fureur en touchant : place-le juste avant Morsure féroce (E) pour la passer à Fureur max. La cible doit avoir subi tes dégâts dans les 5 s.",
+        "en": "Void Rush (R) grants 25 Fury on hit: use it right before Furious Bite (E) to reach max Fury. The target must have taken your damage within 5 s."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Fureur des Xer'Sai : quand tu t'enfouis, ta Fureur se vide en 3 s pour te soigner. Après un combat, enfouis-toi pour récupérer des PV.",
+        "en": "Fury of the Xer'Sai: when you burrow, your Fury drains over 3 s to heal you. After a fight, burrow to recover health."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Rek'Sai - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Rek'Sai", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "How to Gank - Rek'Sai Jungle Guide", "url": "https://www.youtube.com/watch?v=QFT6aUOC_S0", "type": "video", "date": "2025-02-20", "author": "The Rek Guy" },
+    { "title": "HOW TO COMBO LIKE A PRO ON REK'SAI", "url": "https://www.youtube.com/watch?v=V51eW4mHxVI", "type": "video", "date": "2025-12-02", "author": "Queen Xersai" },
+    { "title": "Best Rek'Sai Build & Guide (2026) — League of Legends", "url": "https://www.dodge.gg/en-US/lol/news/reksai-build-2026", "type": "guide", "date": "2026-03-22", "author": "Dodge.gg" }
+  ]
+}

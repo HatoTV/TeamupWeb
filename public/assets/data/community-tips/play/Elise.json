@@ -1,0 +1,98 @@
+{
+  "champion": "Elise",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Burst humain puis araignée", "en": "Human burst into spider" },
+      "keys": ["E", "W", "Q", "R", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "En humaine : Cocon (E), Araignée explosive (Z), Neurotoxine (A). Passe en Forme arachnéenne (R), colle-toi avec Morsure venimeuse (A), auto puis Frénésie symbiotique (Z) pour réinitialiser l'attaque.",
+        "en": "In human form: Cocoon (E), Volatile Spiderling (W), Neurotoxin (Q). Switch to Spider Form (R), close in with Venomous Bite (Q), auto, then Skittering Frenzy (W) to reset your attack."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Suspension sur la cible", "en": "Rappel onto the target" },
+      "keys": ["E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "En araignée, relance Suspension (E) sur l'ennemi pour retomber derrière lui. Auto, Frénésie symbiotique (Z) pour réinitialiser l'attaque, puis Morsure venimeuse (A) pour achever.",
+        "en": "In spider form, recast Rappel (E) on the enemy to land behind them. Auto, Skittering Frenzy (W) to reset your attack, then Venomous Bite (Q) to finish."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Neurotoxine (A) frappe selon les PV actuels, Morsure venimeuse (A) selon les PV manquants. Ouvre toujours en humaine, finis en araignée.",
+        "en": "Neurotoxin (Q) scales with current health, Venomous Bite (Q) with missing health. Always open in human form, finish in spider form."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Morsure venimeuse (A) peut traverser un mur assez fin si ta cible est hors de portée d'auto, car tu bondis sur elle.",
+        "en": "Venomous Bite (Q) can cross a thin enough wall when your target is out of attack range, since you pounce on them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tes araignées franchissent murs et terrain pour suivre la cible de Morsure venimeuse (A), tant que tu restes à portée d'elles.",
+        "en": "Your Spiderlings cross walls and terrain to follow your Venomous Bite (Q) target, as long as you stay within their leash range."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Pendant Suspension (E), tu vois tout ce sur quoi tu peux redescendre : sbires, monstres, wards, plantes. Vise un camp derrière un mur pour fuir ou chasser.",
+        "en": "During Rappel (E), you see everything you can descend on: minions, monsters, wards, plants. Target a camp behind a wall to escape or chase."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Suspension (E) te rend intouchable près de 2 s. Reste en l'air le temps que les buffs et sorts adverses retombent, puis redescends.",
+        "en": "Rappel (E) makes you untargetable for almost 2 s. Stay up while enemy buffs and spells run out, then come back down."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu peux relancer Suspension (E) même réduite au silence : la redescente marche sous les CC qui bloquent les sorts.",
+        "en": "You can recast Rappel (E) even while silenced: the descent works under crowd control that blocks spells."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Cocon (E) n'inflige aucun dégât : stun un champion sous sa tourelle ne te donne pas l'aggro de la tour.",
+        "en": "Cocoon (E) deals no damage: stunning a champion under their turret does not draw turret aggro on you."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Passe en Forme arachnéenne (R) pendant l'armement d'une auto humaine : elle part à distance avec les dégâts et le soin de l'araignée.",
+        "en": "Switch to Spider Form (R) during a human auto's windup: it fires at range with the spider damage and healing."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Elise – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Elise", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Elise Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=jdY6Qi1zA_w", "type": "video", "date": "2026-02-13", "author": "3 Minute League of Legends" },
+    { "title": "How to Play Like an ELISE MAIN! - ULTIMATE ELISE GUIDE for SEASON 13", "url": "https://www.youtube.com/watch?v=sD5pOFoRp2E", "type": "video", "date": "2023-03-23", "author": "Skill Capped Challenger LoL Guides" }
+  ]
+}

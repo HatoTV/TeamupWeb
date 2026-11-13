@@ -1,0 +1,169 @@
+{
+  "champion": "Kayn",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Auto puis Moisson cruelle",
+        "en": "Auto into Reaping Slash"
+      },
+      "keys": [
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Moisson cruelle (A) dès que ton auto part : le dash coupe la fin de l'animation et ta souris est déjà sur la cible pour toucher les deux coups.",
+        "en": "Cast Reaping Slash (Q) as soon as your auto goes off: the dash cuts the end of the animation and your cursor is already on the target to land both hits."
+      },
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Entaille, auto, Moisson, ult",
+        "en": "W, auto, Q, ult"
+      },
+      "keys": [
+        "W",
+        "Q",
+        "R"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Entaille sombre (Z), une auto, Moisson cruelle (A), puis Intrusion obscure (R) pour finir ou sortir du combat. En Assassin de l'ombre, l'ombre lance Entaille sombre (Z) à ta place, sans temps d'incantation.",
+        "en": "Land Blade's Reach (W), an auto, Reaping Slash (Q), then Umbral Trespass (R) to finish or leave the fight. As Shadow Assassin, a shadow casts Blade's Reach (W) for you, with no cast time."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Châtiment puis Intrusion obscure",
+        "en": "Smite into Umbral Trespass"
+      },
+      "keys": [
+        "D",
+        "R"
+      ],
+      "summoners": {
+        "D": "SummonerSmite"
+      },
+      "level": "medium",
+      "desc": {
+        "fr": "Intrusion obscure (R) ne vise qu'un champion touché dans les 3 dernières secondes. Châtiment sur un champion ennemi suffit : ult-le aussitôt pour disparaître du combat.",
+        "en": "Umbral Trespass (R) only targets a champion you damaged in the last 3 seconds. Smiting an enemy champion is enough: ult them right away to vanish from the fight."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Si le dash de Moisson cruelle (A) bute contre un mur, le coup de faux part plus vite. En jungle, colle les camps aux murs et dash dedans.",
+        "en": "If the Reaping Slash (Q) dash runs into a wall, the scythe swing comes out faster. In the jungle, pull camps against walls and dash into them."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Dans un mur avec Passe-muraille (E), tes sorts ne coupent pas l'effet, mais une auto l'annule tout de suite. Lance Entaille sombre (Z) depuis le mur sans en sortir.",
+        "en": "Inside a wall with Shadow Step (E), your spells don't end the effect, but an auto cancels it instantly. Cast Blade's Reach (W) from the wall without leaving it."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "En Assassin de l'ombre, Passe-muraille (E) rend insensible aux ralentissements, même hors d'un mur. Active-le en terrain ouvert pour te débarrasser d'un slow.",
+        "en": "As Shadow Assassin, Shadow Step (E) makes you immune to slows, even outside a wall. Use it in the open to shake off a slow."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Caché dans un mur, un indicateur te trahit si tu es à moins de 1000 unités d'un ennemi. Il te prévient aussi : un ennemi est tout près.",
+        "en": "Hiding in a wall, an indicator gives you away if you are within 1000 units of an enemy. It warns you too: an enemy is close by."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Intrusion obscure (R) lancée sur un bouclier anti-sort ou une Riposte de Fiora échoue et part en CD complet. Fais-les tomber avant d'ult.",
+        "en": "Umbral Trespass (R) cast into a spell shield or Fiora's Riposte fails and goes on full cooldown. Pop them before you ult."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Un ordre de déplacement pendant Intrusion obscure (R) te fait ressortir tout de suite. Ne clique pas au sol si tu veux rester caché.",
+        "en": "A move command during Umbral Trespass (R) makes you come out right away. Don't click the ground if you want to stay hidden."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant Intrusion obscure (R), un root ne t'interrompt pas, mais tout CC qui empêche de lancer des sorts coupe la canalisation et te fait sortir.",
+        "en": "During Umbral Trespass (R), a root does not interrupt you, but any CC that stops spellcasting breaks the channel and pushes you out."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kayn – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kayn",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "THE ULTIMATE 2025 KAYN GUIDE - Items, Runes, Fighting, Combos🔥| Perry's Jungle Kingdom",
+      "url": "https://www.youtube.com/watch?v=fCtgytR5MT4",
+      "type": "video",
+      "date": "2025-07-23",
+      "author": "perryjg"
+    },
+    {
+      "title": "GUIDE KAYN COMPLET - SORTS, POINTS FORTS, COMBOS & 1 GAME POUR SMURF (Ft Patch - RANK 1 FR KAYN)",
+      "url": "https://www.youtube.com/watch?v=wSGzKfDMW3Y",
+      "type": "video",
+      "date": "2026-03-29",
+      "author": "iReaz VOD"
+    }
+  ]
+}

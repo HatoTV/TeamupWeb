@@ -1,0 +1,100 @@
+{
+  "champion": "Leona",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade au contact", "en": "Melee range trade" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Une fois au contact : Éclipse (Z), une auto, Bouclier de l'aube (A) pour reset l'auto et étourdir, puis une autre auto.",
+        "en": "Once in melee range: Eclipse (W), an auto, Shield of Daybreak (Q) to reset the auto and stun, then another auto."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage complet Lame du zénith", "en": "Full Zenith Blade engage" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lame du zénith (E), Éclipse (Z) pendant le saut, puis une auto et Bouclier de l'aube (A). Garde Éruption solaire (R) pour enchaîner après l'étourdissement.",
+        "en": "Zenith Blade (E), Eclipse (W) during the dash, then an auto and Shield of Daybreak (Q). Keep Solar Flare (R) to chain after the stun."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Ult pendant le saut", "en": "Ult during the dash" },
+      "keys": ["E", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Contre une cible avec de la ténacité, lance Éruption solaire (R) pendant le saut de Lame du zénith (E), puis auto, Bouclier de l'aube (A), auto : les contrôles s'enchaînent sans trou.",
+        "en": "Against a target with tenacity, cast Solar Flare (R) during the Zenith Blade (E) dash, then auto, Shield of Daybreak (Q), auto: the crowd control chains with no gap."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'attaque de Bouclier de l'aube (A) ne met pas ton auto en CD : c'est un second reset. Relance toi-même l'auto juste après pour en profiter.",
+        "en": "The Shield of Daybreak (Q) attack does not put your auto on cooldown: it is a second reset. Issue the next auto yourself right after to use it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Éclipse (Z) ne coupe ni tes ordres ni une auto en cours : lance-la à tout moment, même en pleine attaque.",
+        "en": "Eclipse (W) does not cancel your orders or an auto windup: cast it anytime, even mid-attack."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les résistances d'Éclipse (Z) ne durent 3 s de plus que si son explosion touche un ennemi. Reste au contact quand elle éclate.",
+        "en": "Eclipse (W) only keeps its resistances 3 more seconds if its detonation hits an enemy. Stay in contact when it bursts."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lame du zénith (E) te projette là où était la cible à la fin du vol de l'épée. Si elle bouge pendant ton saut, tu ne la suis pas.",
+        "en": "Zenith Blade (E) sends you where the target was when the sword fizzled. If they move during your dash, you don't follow them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque Lame du zénith (E) : pas de dégâts et pas de saut vers ce champion.",
+        "en": "A spell shield blocks Zenith Blade (E): no damage and no dash to that champion."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'ennemi ne voit l'effet d'Éruption solaire (R) que s'il a la vision de la zone visée. Lancée dans le brouillard, elle tombe sans prévenir.",
+        "en": "Enemies only see the Solar Flare (R) visual if they have vision of the target area. Cast into fog of war, it lands with no warning."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Rayon de soleil : ce sont tes alliés qui consomment la marque, pas toi. Espace tes sorts pour que chaque marque soit déclenchée.",
+        "en": "Sunlight: your allies consume the mark, not you. Space out your spells so every mark gets triggered."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Leona – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Leona", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "11 Actually useful tips on Leona", "url": "https://www.youtube.com/watch?v=KTfFg1EnY4w", "type": "video", "date": "2021-11-14", "author": "RaizinsLoL" },
+    { "title": "3 Minute Leona Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=7AYfMFLdBxU", "type": "video", "date": "2026-07-31", "author": "3 Minute League of Legends" }
+  ]
+}

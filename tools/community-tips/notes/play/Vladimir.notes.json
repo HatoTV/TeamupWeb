@@ -1,0 +1,47 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Vladimir can cast Sanguine Pool [Vladimir] and Hemoplague [Vladimir] during Transfusion's cast time.",
+    "Even though the healing effect is visualized as a projectile, the healing itself triggers as soon as the cast time completes.",
+    "Transfusion's cast is special cased to not be cancelled if the target becomes untargetable, death [dies], or is too far away or no longer in sight during the cast time.",
+    "If the target is untargetable by the time the cast completes, however, Tranfusion will not deal them damage but still grant Vladimir the healing.",
+    "Fury [Crimson Rush] depletes 75% slower during Sanguine Pool [Vladimir], Tides of Blood [Vladimir], or stasis (buff) [stasis].",
+    "Vladimir cannot use basic attacks nor abilities during Sanguine Pool, but he can still move. If Tides of Blood [Vladimir] is charging at the time of Sanguine Pool's activation, that ability may still be recast.",
+    "There is an extra damage tick for 0 damage when Vladimir becomes targetable again, triggering the same spell effects as the normal ticks",
+    "This will trigger turret aggro onto Vladimir if an enemy champion is still within the effect radius when Sanguine Pool ends.",
+    "Vladimir can still use summoner spells and item actives during Sanguine Pool.",
+    "Recast: Vladimir unleashes a nova of 15 blood bolts around himself that each deal magic damage to the first enemy hit",
+    "The spell indicator shows 11 equally spaced missile indicators when hovering the ability in the HUD, however the spell actually casts 15 equally spaced missiles.",
+    "Sanguine Pool is usable. Transfusion and Hemoplague both interrupt after 0.25 seconds. (charge table: Flash usable)",
+    "Vladimir spreads a virulent plague at the target location that infects enemies hit for 4 seconds, increasing the damage they take from all sources by 10%.",
+    "True damage will however not be amplified.",
+    "Hemoplague amplifies itself",
+    "Spell shield does not negate the detonation.",
+    "if I do q and I go and pool look the cool on is already getting lower",
+    "that's why it's super important that if you do this combo especially in a one V one situation that you do Q before ew right",
+    "it's basically to cancel the que animation so look if I queue you see this entire animation right",
+    "Now if you do qw you don't see the Q animation right so you cancel your own animation which means you can basically instantly like get onto your opponent you can pull your un targetable",
+    "so look also with my pool I can slow this bar down right so both with my pool and both with my E I can slow down the Q trage",
+    "when you charge your e and you queue while charging it your e will automatically cancel but it feels really bad right it feels super clunky",
+    "what you should do is charge e release it manually and then do Que it's a lot smoother",
+    "you flash you R ew right you can also do it fast",
+    "this is the most important combo on Vladimir in my opinion the um flash Rew combo it's the most important one it's for team fights",
+    "the main gist of it is we e we Flash release R and then release e and then Q right that's the main combo",
+    "it's very simply going to be R into Q that's all it is",
+    "it's typically an execute",
+    "Pour les combos, commencez par votre E suivi d'une attaque et de votre Q. Attaquez ensuite avec W avant d'attaquer à distance.",
+    "Votre stratégie ultime consiste à charger votre E avant de le déclencher. Ensuite, enchaînez avec Q et W, puis attaquez à distance."
+  ],
+  "rejected": [
+    { "idea": "Ghost + Flash par-dessus un mur puis R, E, Z", "reason": "Repose sur Fantôme et un Flash par-dessus un mur générique ; pas une info propre à Vladimir au-delà du combo Flash R E Z déjà retenu." },
+    { "idea": "Feinter l'avancée en chargeant Vagues de sang (E) pour faire sortir le Flash adverse", "reason": "Conseil de lane général (une seule source), pas une mécanique." },
+    { "idea": "R1 combiné à une rune de vitesse", "reason": "Rune : interdit par le brief." },
+    { "idea": "Pool sous une vague ou un camp pour compenser le coût en PV", "reason": "Conseil de gestion générale, une seule source." }
+  ],
+  "toVerifyInGame": [
+    "Transfusion (A) coupée par Bain de sang (Z) : vérifier que les dégâts et le heal de Transfusion passent bien quand l'animation est annulée.",
+    "Relâcher Vagues de sang (E) depuis l'intérieur de Bain de sang (Z) après l'avoir chargée avant le pool.",
+    "Kyan (sept. 2024) a plus de 18 mois : pas de rework de Vladimir depuis, combos recoupés avec les données du wiki au patch 16.22."
+  ]
+}

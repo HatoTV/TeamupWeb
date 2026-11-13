@@ -1,0 +1,111 @@
+{
+  "champion": "Taric",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Stun et doubles autos", "en": "Stun and double autos" },
+      "keys": ["E", "W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Ouvre avec Éblouissement (E) et place deux autos, puis Bastion (Z) et deux autos, puis Bénédiction stellaire (A) et deux autos. Chaque paire réduit tes CD.",
+        "en": "Open with Dazzle (E) and land two autos, then Bastion (W) and two autos, then Starlight's Touch (Q) and two autos. Each pair lowers your cooldowns."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Éblouissement puis Flash", "en": "Dazzle into Flash" },
+      "keys": ["E", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Lance Éblouissement (E) et Flash vers la cible juste avant la fin de la charge : le rayon part de ta nouvelle position. Tu arrives collé à elle pour enchaîner tes autos.",
+        "en": "Cast Dazzle (E) and Flash toward the target right before the wind-up ends: the beam fires from your new position. You land on top of them to chain your autos."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Stun depuis ton allié", "en": "Stun from your ally" },
+      "keys": ["W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lie un allié avec Bastion (Z), puis lance Éblouissement (E) : il part aussi de ton allié, dans la même direction. Idéal quand ton allié dash sur l'ennemi pendant la charge.",
+        "en": "Link an ally with Bastion (W), then cast Dazzle (E): it also fires from your ally, in the same direction. Ideal when your ally dashes onto the enemy during the wind-up."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Lien puis ult sur deux groupes", "en": "Link, then ult two groups" },
+      "keys": ["W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lie ton carry avec Bastion (Z) avant de lancer Lumière cosmique (R) : l'ult protège aussi les alliés autour de lui. Garde le lien pendant les 2,5 secondes d'attente.",
+        "en": "Link your carry with Bastion (W) before casting Cosmic Radiance (R): the ult also protects the allies around them. Keep the link during the 2.5-second delay."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Plastronneur : après chaque sort, tes deux autos suivantes sont rapides, font des dégâts magiques en plus et réduisent les CD de tes sorts de base. Ne lance pas deux sorts d'affilée sans taper.",
+        "en": "Bravado: after each spell, your next two autos are fast, deal bonus magic damage and lower your basic spell cooldowns. Don't cast two spells in a row without attacking."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque auto renforcée par Plastronneur te rend une charge de Bénédiction stellaire (A). Attends d'avoir plusieurs charges avant de soigner pour ne rien gaspiller.",
+        "en": "Each Bravado-empowered auto gives back a charge of Starlight's Touch (Q). Wait for several charges before healing so you don't waste any."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux marcher pendant la seconde de charge d'Éblouissement (E), et tu traverses les unités proches. La direction, elle, est fixée dès le lancement, pour toi comme pour ton allié lié.",
+        "en": "You can walk during Dazzle's (E) 1 s wind-up, and you ghost through nearby units. The direction, though, is locked on cast, for you and your linked ally."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les sorts copiés par Bastion (Z) partent même si tu meurs ou si ton allié s'éloigne. Ils sont annulés s'il disparaît avec Assaut éclair de Master Yi ou Hallucination de Shaco.",
+        "en": "Spells copied through Bastion (W) still go off even if you die or your ally moves away. They're cancelled if the ally vanishes with Master Yi's Alpha Strike or Shaco's Hallucinate."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Royaume des morts de Mordekaiser coupe les effets de Bastion (Z) tant que ton allié et toi n'êtes pas dans le même royaume. Le lien, lui, ne casse pas.",
+        "en": "Mordekaiser's Realm of Death disables Bastion's (W) effects while you and your ally aren't in the same realm. The tether itself doesn't break."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Lumière cosmique (R) met 2,5 secondes à tomber. Lance-la avant le burst ennemi, pas quand ton carry est déjà presque mort.",
+        "en": "Cosmic Radiance (R) takes 2.5 seconds to land. Cast it before the enemy burst, not when your carry is already nearly dead."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lancé sur toi sans lien actif, Bastion (Z) se lie tout seul à l'allié le plus proche. Déjà lié, il protège ton allié et toi d'un coup.",
+        "en": "Self-cast without an active link, Bastion (W) automatically links the nearest ally. Already linked, it shields both you and your ally at once."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Taric - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Taric", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "TARIC GUIDE - How To Carry With Taric - Detailed Challenger Guide", "url": "https://www.youtube.com/watch?v=JhvMrfXQOko", "type": "video", "date": "2024-11-08", "author": "Coach K" },
+    { "title": "GUIDE TARIC SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=9rWUBfwG_Ak", "type": "video", "date": "2025-12-11", "author": "EXYT - League of Legends" }
+  ]
+}

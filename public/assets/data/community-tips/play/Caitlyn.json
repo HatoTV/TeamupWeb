@@ -1,0 +1,118 @@
+{
+  "champion": "Caitlyn",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Piège, Pacificateur, auto", "en": "Trap, Peacemaker, auto" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Dès qu'un ennemi marche dans Piège-yordle (Z), lance Pacificateur de Piltover (A) puis ton auto. Le tir touche à coup sûr sans perte de dégâts, et il relance ton auto pour un Tir dans la tête immédiat.",
+        "en": "As soon as an enemy steps on Yordle Snap Trap (W), fire Piltover Peacemaker (Q) then your auto. The shot is a sure hit with no damage loss, and it resets your auto for an instant Headshot."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Double Tir dans la tête", "en": "Double Headshot" },
+      "keys": ["W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Une auto, Piège-yordle (Z) sous ta cible, puis Pacificateur de Piltover (A) et Filet de calibre 90 (E) au plus vite. Le piège et le filet t'offrent chacun un Tir dans la tête de plus.",
+        "en": "One auto, Yordle Snap Trap (W) under your target, then Piltover Peacemaker (Q) and 90 Caliber Net (E) as fast as you can. The trap and the net each grant you one extra Headshot."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Filet puis Pacificateur", "en": "Net into Peacemaker" },
+      "keys": ["E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Filet de calibre 90 (E) pour ralentir et reculer, puis Pacificateur de Piltover (A). Lancé pendant l'incantation du filet, le tir part juste après, avant même la fin du recul.",
+        "en": "90 Caliber Net (E) to slow and hop back, then Piltover Peacemaker (Q). If you press Q during the net's cast time, the shot starts right after it, before the recoil even ends."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Filet puis piège en fuite", "en": "Net into trap to escape" },
+      "keys": ["E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Quand on plonge sur toi, Filet de calibre 90 (E) puis Piège-yordle (Z) là où l'ennemi va marcher. Le piège sort pendant le recul, bien plus vite que Pacificateur de Piltover (A).",
+        "en": "When someone dives you, 90 Caliber Net (E) then Yordle Snap Trap (W) where the enemy will step. The trap comes out during the recoil, much faster than Piltover Peacemaker (Q)."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le recul de Filet de calibre 90 (E) peut traverser un mur. Vise à l'opposé du mur pour t'échapper par-dessus.",
+        "en": "The 90 Caliber Net (E) recoil can pass through terrain. Aim away from the wall to escape over it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si tu es immobilisée ou clouée au sol pendant l'incantation de Filet de calibre 90 (E), tu ne recules pas. N'attends pas d'être prise dans un CC pour l'utiliser.",
+        "en": "If you are immobilized or grounded during the 90 Caliber Net (E) cast, you do not recoil. Do not wait to be caught in crowd control to use it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un ennemi révélé par Piège-yordle (Z) prend toujours les dégâts complets de Pacificateur de Piltover (A), même si le tir a d'abord traversé d'autres cibles.",
+        "en": "An enemy revealed by Yordle Snap Trap (W) always takes the full Piltover Peacemaker (Q) damage, even if the shot went through other targets first."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Une cible prise dans ton piège ou ton filet peut recevoir un Tir dans la tête à 1300 de portée pendant 1,8 s, sans consommer tes cumuls.",
+        "en": "A target caught by your trap or net can take a Headshot from 1300 range for 1.8 s, without using up your stacks."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Dans un buisson, chaque auto compte double pour Tir dans la tête : il te suffit de 4 cumuls. Passe par le buisson en lane avant un trade.",
+        "en": "In a brush, each auto counts double toward Headshot: 4 stacks are enough. Step into the brush in lane before a trade."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si ta cible se fait piéger ou toucher par ton filet pendant le CD de ton auto, une partie de ce CD est remboursée : tu tires plus tôt.",
+        "en": "If your target gets trapped or netted while your auto is on cooldown, part of that cooldown is refunded: you shoot sooner."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Piège-yordle (Z) met 1 s à s'armer. Pose-le dès que ton support lance son CC, pas quand il touche : un CC d'une seconde est trop court sinon.",
+        "en": "Yordle Snap Trap (W) takes 1 s to arm. Drop it as soon as your support throws their crowd control, not when it lands: a one-second CC is too short otherwise."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Plusieurs pièges posés au même endroit se déclenchent tous ensemble, et la cible ne peut plus être piégée pendant 3 s. Étale-les plutôt que de les empiler.",
+        "en": "Several traps placed on the same spot all spring at once, and the target cannot be trapped again for 3 s. Spread them out instead of stacking them."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Caitlyn – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Caitlyn", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Advanced Caitlyn Guide by a Rank 1 EUW", "url": "https://www.youtube.com/watch?v=__Gz4SkYZl0", "type": "video", "date": "2025-11-08", "author": "Neon LOL" },
+    { "title": "3 Minute Caitlyn Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=LvSZoA_eQuE", "type": "video", "date": "2026-02-03", "author": "3 Minute League of Legends" }
+  ]
+}

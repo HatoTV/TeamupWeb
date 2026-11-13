@@ -1,0 +1,130 @@
+{
+  "champion": "Vladimir",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade Transfusion, Vagues, Bain", "en": "Transfusion, Tides, Pool trade" },
+      "keys": ["Q", "E", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Ton trade de base : Transfusion (A) d'abord pour lancer son CD, puis Vagues de sang (E). Finis par Bain de sang (Z) pour encaisser la riposte sans être ciblable.",
+        "en": "Your basic trade: Transfusion (Q) first so its cooldown starts, then Tides of Blood (E). Finish with Sanguine Pool (W) to take the answer while untargetable."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Transfusion coupée par Bain de sang", "en": "Transfusion cancelled by Sanguine Pool" },
+      "keys": ["Q", "W"],
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Bain de sang (Z) pendant l'incantation de Transfusion (A) : l'animation est coupée et tu passes inciblable tout de suite. À garder pour un dive ou quand tu es très bas.",
+        "en": "Cast Sanguine Pool (W) during the Transfusion (Q) cast time: the animation is cut and you turn untargetable right away. Keep it for a dive or when you are very low."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Vagues chargées, Flash, Peste sanguine", "en": "Charged Tides, Flash, Hemoplague" },
+      "keys": ["E", "F", "R", "Q"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Charge Vagues de sang (E) hors de portée, Flash sur la cible, puis Peste sanguine (R) et Transfusion (A). Le Flash ne coupe pas la charge, donc le burst tombe d'un coup.",
+        "en": "Charge Tides of Blood (E) out of range, Flash onto the target, then Hemoplague (R) and Transfusion (Q). Flash doesn't cancel the charge, so the burst lands all at once."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Flash, Peste sanguine, Vagues, Bain", "en": "Flash, Hemoplague, Tides, Pool" },
+      "keys": ["F", "R", "E", "W"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "En teamfight, Flash dans le groupe, Peste sanguine (R) sur un max d'ennemis, Vagues de sang (E) puis Bain de sang (Z). Tout s'enchaîne très vite et tu es inciblable avant leur riposte.",
+        "en": "In a teamfight, Flash into the group, Hemoplague (R) on as many enemies as possible, Tides of Blood (E), then Sanguine Pool (W). It all chains fast and you are untargetable before they answer."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Peste sanguine puis Transfusion", "en": "Hemoplague into Transfusion" },
+      "keys": ["R", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Sans Vagues de sang (E) dispo, pose Peste sanguine (R) puis Transfusion (A) pour achever une cible basse. La R augmente de 10 % les dégâts de ta Transfusion, puis explose au bout de 4 secondes.",
+        "en": "With Tides of Blood (E) down, place Hemoplague (R) then Transfusion (Q) to finish a low target. The R adds 10% to your Transfusion damage, then bursts after 4 seconds."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Quand ta jauge est pleine (Transfusion renforcée), Bain de sang (Z) et Vagues de sang (E) la font baisser 75 % moins vite. Garde ta Transfusion renforcée pour la sortie du pool.",
+        "en": "When your bar is full (empowered Transfusion), Sanguine Pool (W) and Tides of Blood (E) make it drain 75% slower. Save your empowered Transfusion for when you leave the pool."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Lance Bain de sang (Z) pendant la charge de Vagues de sang (E) : tu peux encore relâcher la charge depuis le pool, sans être ciblable.",
+        "en": "Cast Sanguine Pool (W) while charging Tides of Blood (E): you can still release the charge from inside the pool, while untargetable."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Dans Bain de sang (Z), tu ne peux ni attaquer ni lancer de sort, mais Flash et les actifs d'objets restent utilisables. Flash depuis le pool pour sortir d'un dive.",
+        "en": "In Sanguine Pool (W), you can't attack or cast spells, but Flash and item actives stay usable. Flash from the pool to escape a dive."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "À la fin de Bain de sang (Z), un dernier tick à 0 dégât part. Si un champion ennemi est encore dans la zone sous sa tour, elle te prend pour cible.",
+        "en": "When Sanguine Pool (W) ends, a last tick dealing 0 damage goes off. If an enemy champion is still in the area under their turret, it targets you."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le heal de Transfusion (A) arrive dès la fin de l'incantation, pas à l'arrivée du projectile. Si la cible meurt ou devient inciblable pendant l'incantation, tu gardes le heal.",
+        "en": "The Transfusion (Q) heal lands as soon as the cast time ends, not when the projectile arrives. If the target dies or turns untargetable during the cast, you keep the heal."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Peste sanguine (R) augmente de 10 % presque tous les dégâts subis, sauf les dégâts bruts, y compris sa propre explosion. Un bouclier magique ne bloque pas cette explosion.",
+        "en": "Hemoplague (R) raises almost all damage taken by 10%, except true damage, and that includes its own burst. A spell shield doesn't block that burst."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Transfusion (A) ou Peste sanguine (R) pendant la charge de Vagues de sang (E) la relâche 0,25 seconde plus tard. Relâche plutôt la E toi-même juste avant : c'est plus fluide.",
+        "en": "Transfusion (Q) or Hemoplague (R) during the Tides of Blood (E) charge releases it 0.25 seconds later. Release the E yourself just before instead: it feels smoother."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Vagues de sang (E) tire 15 projectiles, pas les 11 de l'indicateur, et chacun s'arrête sur le premier ennemi touché. Un sbire placé devant ta cible peut donc absorber le tir.",
+        "en": "Tides of Blood (E) fires 15 bolts, not the 11 shown by the indicator, and each one stops on the first enemy hit. A minion standing in front of your target can absorb the shot."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Vladimir - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Vladimir", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "VLADIMIR COMBO GUIDE | How to Play Vladimir Season 14 | Vladimir Guide S14", "url": "https://www.youtube.com/watch?v=_y0JsxXmv6I", "type": "video", "date": "2024-09-09", "author": "Kyan" },
+    { "title": "3 Minute Vladimir Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=tH0m-4PYvWk", "type": "video", "date": "2026-06-28", "author": "3 Minute League of Legends" }
+  ]
+}

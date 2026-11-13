@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Rend can be used during the dash of Martial Poise, and during the cast time of Pierce. If Rend is used during the cast time of Pierce, before the projectile spawns, doing so will repeat the first-spear damage to a target already damaged by Rend, in addition to empowering the projectile with Rend's effects.",
+    "If Pierce kills the target, the spear continues onward to transfer all of the target's Rend stacks to the next enemy it hits.",
+    "Dash range of Pierce is 300 units when dashing anywhere in the direction of the point of cast.",
+    "At a 0° angle towards the target, the minimum dash range is 140;153;166;175 units. At a 90° angle, the maximum dash range is 240;263;280;300 units.",
+    "Dash speed is increased based on the tier of Kalista's Boots, and is affected by her bonus attack speed as well as movement speed modifiers she is under the effect of (including slows).",
+    "Martial Poise also remembers your auto attack target after dashing, letting you dash repeatedly by only clicking the ground.",
+    "Rend has a lower cast range than effect range.",
+    "If Rend kills at least one target, its cooldown is reset and Kalista restores mana.",
+    "Kalista cleanses the Oathsworn from all crowd control and renders them invulnerable and untargetable for the duration, and pulls them to her over 1 second.",
+    "If the invocation ends without the Oathsworn selecting a target location, they will automatically do so at maximum range from Kalista's facing direction.",
+    "Most of the time you will use it with your E because you can combo them together.",
+    "All you have to do is to turn anything into a hedgehog and then kill it with your Q to transfer all spears and explode enemies. It can be used as poke on the lane",
+    "And you can jump over a bunch of walls this way. You can jump over them both ways on both sides of the map",
+    "There is also dragon and baron pit jump. Each one has only one specific spot where you can jump and to jump over you have to hug the wall",
+    "if Kalista gets slowed, her jump speed is slower, too. So, when you want to maximize your damage, when you get slowed, you just stand",
+    "Her E range indicator is wrong. So, normally you have this much range to use your E. But as long as you can use your E, it will actually proc on enemies a bit beyond that range.",
+    "you can use it during jump and it resets on kill.",
+    "So, if you don't know, Colossus jumps can jump over walls. It doesn't have to be with a Q as well, but Q is easier because Q jump is a little bit bigger.",
+    "The most important ones I want to mention are the ones at um Drake and Baron.",
+    "And that is using Ren in the middle of your jump. So if I'm just jumping normally and I use red after my jump ends, it takes a while to get back into attack animation. If you do it in the middle of my jump, there's almost no down time.",
+    "So slows also affect your jump speed. In these cases, if you just sit still, you attack at the same speed as you would if you weren't jumping.",
+    "So generally speaking, jumping towards an enemy is a very short jump while jumping backwards or sideways is generally better."
+  ],
+  "rejected": [
+    { "idea": "La réinitialisation d'Extirpation (E) marche même si ce n'est pas toi qui tues", "reason": "Une seule source (yuzuu), le wiki dit « si Extirpation tue »." },
+    { "idea": "Appel du destin (R) pendant le grappin de Blitzcrank pour enlever la cible", "reason": "Une seule source (yuzuu)." },
+    { "idea": "Annuler l'animation d'Extirpation (E) avec le rappel", "reason": "Une seule source (KaliMon)." },
+    { "idea": "Animation cancel de Perforation (A) pendant le saut (double clic droit) et double saut", "reason": "Décrit par les deux vidéos de façon différente et très technique ; non retenu faute de méthode concordante." },
+    { "idea": "Sentinelle (Z) lancée pendant une auto pour gagner du temps", "reason": "Une seule source (yuzuu)." },
+    { "idea": "Lancer Perforation (A) et Extirpation (E) ensemble sans assez de mana", "reason": "Une seule source (yuzuu), interaction fragile." }
+  ],
+  "toVerifyInGame": [
+    "Sauts de mur précis des fosses du dragon et du Baron (un seul spot selon yuzuu ; dépend de la forme du Baron selon KaliMon).",
+    "Timing d'Extirpation (E) pendant l'incantation de Perforation (A), avant le départ de la lance."
+  ]
+}

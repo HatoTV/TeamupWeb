@@ -1,0 +1,109 @@
+{
+  "champion": "Galio",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Gank Horion, taunt, Vents", "en": "Punch, taunt, Winds gank" },
+      "keys": ["E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Horion de la justice (E) sur la cible, puis Bouclier de Durand (Z) relâché juste avant qu'elle retombe. Enchaîne Vents de guerre (A) pendant le taunt et finis par une auto.",
+        "en": "Justice Punch (E) onto the target, then release Shield of Durand (W) right before it lands. Follow with Winds of War (Q) during the taunt and finish with an auto."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Cycle du passif", "en": "Passive cycling" },
+      "keys": ["W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Auto avec Frappe colossale, taunt avec Z, puis E et A entre deux autos. Chaque sort qui touche un champion réduit de 3 s le CD du passif : tu peux en placer trois dans le combo.",
+        "en": "Auto with Colossal Smash, taunt with W, then E and Q between autos. Each spell that hits a champion cuts the passive cooldown by 3 s: you can fit three in the combo."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Ult puis chaîne de CC", "en": "Ult into CC chain" },
+      "keys": ["R", "W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Entrée héroïque (R) sur l'allié attaqué, puis Bouclier de Durand (Z), Horion de la justice (E) et Vents de guerre (A) : la cible reste sous CC très longtemps.",
+        "en": "Hero's Entrance (R) on the ally under attack, then Shield of Durand (W), Justice Punch (E) and Winds of War (Q): the target stays crowd controlled for a long time."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Lance Horion de la justice (E) dos à un mur : ton pas en arrière est coupé, mais la charge garde toute sa distance et part plus vite.",
+        "en": "Cast Justice Punch (E) with your back to a wall: your step back is cut short, but the dash keeps its full distance and comes out faster."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Horion de la justice (E) traverse les sbires et s'arrête sur le premier champion ou sur un mur. Tu peux charger à travers la wave pour atteindre ta cible.",
+        "en": "Justice Punch (E) goes through minions and stops on the first champion or wall. You can dash through the wave to reach your target."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Frappe colossale perd 3 s de CD dès qu'un sort touche un champion ou un monstre épique, une fois par sort et même sur un bouclier de sort. Recharge-la en combat.",
+        "en": "Colossal Smash loses 3 s of cooldown whenever a spell hits a champion or epic monster, once per spell and even on a spell shield. Recharge it mid-fight."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bouclier de Durand (Z) te donne un bouclier anti-magie qui revient après quelques secondes sans subir de dégâts. Très fort contre les mages qui poke.",
+        "en": "Shield of Durand (W) gives you an anti-magic shield that comes back after a few seconds without taking damage. Very strong against poking mages."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Charger Bouclier de Durand (Z) agrandit la zone et allonge le taunt pendant 1,25 s. Le relâcher renouvelle ta réduction de dégâts pour 2 s.",
+        "en": "Charging Shield of Durand (W) grows the area and lengthens the taunt for 1.25 s. Releasing it refreshes your damage reduction for 2 s."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Entrée héroïque (R) ne peut être interrompue par un CC que pendant ses 1,25 premières secondes. Ensuite, tu es insensible aux CC jusqu'à l'atterrissage.",
+        "en": "Hero's Entrance (R) can only be interrupted by CC during its first 1.25 seconds. After that, you are immune to CC until you land."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Au moment du saut d'Entrée héroïque (R), tu deviens inciblable et les projectiles qui te visent sont détruits. Le bouclier anti-magie est aussi donné aux alliés dans la zone.",
+        "en": "When you leap with Hero's Entrance (R), you become untargetable and projectiles aimed at you are destroyed. The anti-magic shield is also given to allies in the area."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le Mur de vent de Yasuo et le bouclier de Braum bloquent chaque rafale de Vents de guerre (A). Si une seule rafale arrive au bout, la tornade ne se forme pas.",
+        "en": "Yasuo's Wind Wall and Braum's shield block each Winds of War (Q) gust. If only one gust reaches the end, the tornado does not form."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Galio – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Galio", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "How You Can Climb with Galio in Season 15 - Galio Guide & 1000LP Game Analysis", "url": "https://www.youtube.com/watch?v=0Di214mYtaU", "type": "video", "date": "2025-01-06", "author": "Pobelter" },
+    { "title": "Comprehensive Guide to Galio Mechanics and Combos", "url": "https://www.youtube.com/watch?v=XGQddo8EanM", "type": "video", "date": "2020-05-08", "author": "ThaKinetic" },
+    { "title": "3 Minute Galio Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=JlHlUeORlUk", "type": "video", "date": "2025-09-10", "author": "3 Minute League of Legends" }
+  ]
+}

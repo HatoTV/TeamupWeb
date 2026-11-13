@@ -1,0 +1,35 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Renata fires a hook in the target direction that deals magic damage to the first enemy hit and roots them for 1 second",
+    "Renata forms a tether between her and the target for the same duration, causing Renata to become unable to declare attacks and have her movement speed reduced by 30%.",
+    "Recast: Renata breaks the tether to knock the target in the target direction, though not through terrain, dealing the same damage to enemies they pass through. If the thrown target is a champion, all secondary targets hit are stunned for 0.5 seconds.",
+    "Renata's basic attacks are empowered to apply a mark that lasts 6 seconds, refreshes on subsequent hits and expires when attacking a new enemy.",
+    "Allied champions damaging attacks and abilities against a marked target will consume the mark to deal additional bonus magic damage",
+    "If the target takes fatal damage while Bailout is active, they are restored to 100% of their maximum health but suffer a true damage burn",
+    "The burn will stop once the target scores a takedown against an enemy champion within 6 seconds of damaging them, setting their current health to 20% of their maximum health immediately afterwards.",
+    "If Bailout is cast on a target that is already burning from a previous Bailout cast, they can trigger a subsequent health restore as well as be inflicted with another burn.",
+    "Within their targeting radius, they prioritize attacking the closest unit by the following categories in descending order: Their allied champions, Allied non-champions, Allied wards, Enemy units",
+    "At level two, your E and Q is an amazing trade combo being able to shield your team while damaging and slowing the enemy team",
+    "Follow up with ult into E, and then attack away using W on whoever needs it. And your engage combo is the ultimate into flash and Q before following up with E and more attacks.",
+    "if there were no other enemies nearby, they can go for you.",
+    "E Q: First, you use your E to slow the enemy, then",
+    "Q E Q. During the second and a half, you throw your E and then pull them towards it so they get hit.",
+    "When you cast your Q at something that isn't a champion and try to throw it, you don't stun the enemy champion.",
+    "But unfortunately you can't push them through the wall. You can combine Flash with her 'Q' to close the gap.",
+    "When you're up against only one enemy, don't use your ultimate if there are no enemy minions or wards nearby because you'll die faster.",
+    "Once you reach level 6, the basic combo to engage is R-E-Q-AA-W-AA"
+  ],
+  "rejected": [
+    { "idea": "Ult backwards: Q forward then immediately R in the opposite direction to hide the ult (Twinsears)", "reason": "Single source, inconsistent result described by the author himself, not confirmed by the wiki." },
+    { "idea": "Q then Flash: the hook still starts from the original position (Tyrant Brendorf)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "Flash during the R cast changes its direction like Senna (Tyrant Brendorf)", "reason": "Single source, ambiguous wording; Flash interaction not confirmed by the wiki or a second author." },
+    { "idea": "Zhonya's Hourglass extends Bailout duration (Twinsears)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "E hitbox is smaller than its indicator (Evvelyx)", "reason": "Single source from 2022, not confirmed by the wiki." }
+  ],
+  "toVerifyInGame": [
+    "Q E Q: timing to recast Handshake so the target lands in the Loyalty Program missile before the root ends (1 s).",
+    "R then Flash: check that Flash right after the 0.75 s ult cast keeps the intended cloud direction."
+  ]
+}

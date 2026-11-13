@@ -8,8 +8,8 @@ import { Champion, ChampionDataService, Role } from '../../core/data/champion-da
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
 import { AbilityKeyPipe, abilityKey } from '../../shared/i18n/ability-key';
-import { CommunityTipsComponent } from '../matchups/community-tips/community-tips.component';
 import { BuildMatchupsComponent, MatchupCard } from './build-matchups.component';
+import { PlayTipsComponent } from './play-tips/play-tips.component';
 import { GameIconComponent } from '../../shared/ui/game-icon.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildAsText, formatDelta, formatInt, formatRate, formatTiming, groupItems, isBuildFilter, rankFilters } from './build-utils';
@@ -20,7 +20,7 @@ type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 @Component({
   selector: 'app-build-page',
   standalone: true,
-  imports: [TranslateModule, RouterLink, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, CommunityTipsComponent],
+  imports: [TranslateModule, RouterLink, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent],
   templateUrl: './build-page.component.html',
   styleUrl: './build-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -82,6 +82,8 @@ export class BuildPageComponent {
 
   protected readonly patch = computed(() => this.file()?.patch ?? null);
   protected readonly version = computed(() => this.meta()?.patches.find((p) => p.patch === this.patch())?.ddragonVersion ?? null);
+  /** Data Dragon version of the loaded static data, also when the page has no build (not enough games). */
+  protected readonly staticVersion = computed(() => this.version() ?? this.meta()?.patches[0]?.ddragonVersion ?? null);
   protected readonly build = computed(() => this.file()?.builds[this.buildIndex()] ?? this.file()?.builds[0] ?? null);
 
   protected readonly ddragonId = computed(() => this.champion()?.ddragonId ?? null);
@@ -302,15 +304,12 @@ export class BuildPageComponent {
     this.availableRoles.set(index?.champions.find((c) => String(c.champion) === key)?.roles.map((r) => r.role) ?? []);
     this.file.set(file);
     this.fallbackFrom.set(fallbackFrom);
-    if (!file || !file.builds.length) {
-      this.state.set('insufficient');
-      return;
-    }
-    const version = meta.patches.find((p) => p.patch === file!.patch)?.ddragonVersion ?? meta.patches[0]!.ddragonVersion;
+    // Static data is loaded even without enough games: the « Tips pour jouer » block does not depend on the stats.
+    const version = meta.patches.find((p) => p.patch === file?.patch)?.ddragonVersion ?? meta.patches[0]!.ddragonVersion;
     const [core, champ] = await Promise.all([this.data.core(version, this.ctx.lang()), this.data.champion(version, this.ctx.lang(), champion.ddragonId)]);
     if (seq !== this.loadSeq) return;
     this.core.set(core);
     this.champStatic.set(champ);
-    this.state.set('ready');
+    this.state.set(!file || !file.builds.length ? 'insufficient' : 'ready');
   }
 }

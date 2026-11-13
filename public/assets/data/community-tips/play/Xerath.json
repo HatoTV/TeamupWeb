@@ -1,0 +1,130 @@
+{
+  "champion": "Xerath",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Œil, puis Rayon arcanique", "en": "Eye of Destruction into Arcanopulse" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose Œil de la destruction (Z) sur la cible : le slow te laisse le temps de charger et d'aligner Rayon arcanique (A). Le centre de la zone fait plus de dégâts et ralentit plus fort.",
+        "en": "Drop Eye of Destruction (W) on the target: the slow gives you time to charge and line up Arcanopulse (Q). The center of the area deals more damage and slows harder."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Full combo Orbe, Œil, Rayon", "en": "Orb, Eye, Pulse: the full combo" },
+      "keys": ["E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Orbe d'électrocution (E) de loin pour un stun plus long. Centre Œil de la destruction (Z) sur la cible, puis finis avec Rayon arcanique (A) avant la fin du stun.",
+        "en": "Land Shocking Orb (E) from far away for a longer stun. Center Eye of Destruction (W) on the target, then finish with Arcanopulse (Q) before the stun ends."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Rayon arcanique chargé, Flash, relâche", "en": "Charged Arcanopulse, Flash, release" },
+      "keys": ["Q", "F", "Q"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Charge Rayon arcanique (A), Flash, puis relâche : le tir part de ta nouvelle position, plus loin ou sous un autre angle. Relâcher puis Flash ne marche pas, tu es bloqué pendant le tir.",
+        "en": "Charge Arcanopulse (Q), Flash, then release: the beam fires from your new spot, farther or from another angle. Releasing then Flashing doesn't work, you're locked during the shot."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Orbe d'électrocution, Flash de côté", "en": "Shocking Orb, sideways Flash" },
+      "keys": ["E", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Orbe d'électrocution (E) puis Flash pendant sa courte incantation : l'orbe part de ta nouvelle position, avec un angle et une portée que la cible n'attend pas.",
+        "en": "Cast Shocking Orb (E) then Flash during its short cast time: the orb fires from your new position, with an angle and a range the target doesn't expect."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Œil, puis Rite arcanique", "en": "Eye into Rite of the Arcane" },
+      "keys": ["W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Sur une cible basse, ralentis-la avec Œil de la destruction (Z) puis lance Rite arcanique (R). Tes premiers tirs tombent pendant le slow, quand elle esquive mal.",
+        "en": "On a low target, slow them with Eye of Destruction (W), then cast Rite of the Arcane (R). Your first shots land during the slow, when they dodge poorly."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Charger Rayon arcanique (A) augmente sa portée, pas ses dégâts. Si la cible sort de portée, ne relâche pas : laisse la charge expirer pour récupérer la moitié du mana.",
+        "en": "Charging Arcanopulse (Q) increases its range, not its damage. If the target leaves range, don't release: let the charge expire to get half the mana back."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le stun d'Orbe d'électrocution (E) dure plus longtemps selon la distance parcourue par l'orbe. Collé à la cible, il est très court : lance-la plutôt de moyenne ou longue portée.",
+        "en": "The Shocking Orb (E) stun lasts longer the farther the orb travels. Point-blank, it's very short: throw it from medium or long range instead."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si tu vises Œil de la destruction (Z) à moins de 100 unités d'un ennemi, ta position lui est révélée 4,5 secondes. Depuis le brouillard, pense-y avant de le centrer.",
+        "en": "If you aim Eye of Destruction (W) within 100 units of an enemy, your position is revealed to them for 4.5 seconds. From the fog, keep it in mind before centering it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant Rite arcanique (R), Flash est bloqué, et une auto ou un déplacement coupe la canalisation. Une fois lancée, clique avec prudence.",
+        "en": "During Rite of the Arcane (R), Flash is locked, and an attack or a move order cuts the channel. Once it's up, click carefully."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si tu coupes Rite arcanique (R) avant le premier tir, la moitié de son CD est remboursée. Tu peux t'en servir pour bait un ennemi qui fonce sur toi.",
+        "en": "If you cancel Rite of the Arcane (R) before the first shot, half its cooldown is refunded. You can use it to bait an enemy rushing at you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Après ton premier tir de Rite arcanique (R), tu es révélé tant qu'un champion ennemi est à portée de l'ult. Lance-la d'un endroit où personne ne peut t'atteindre vite.",
+        "en": "After your first Rite of the Arcane (R) shot, you're revealed as long as an enemy champion is within ult range. Cast it from a spot nobody can reach quickly."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque tir de Rite arcanique (R) qui touche un champion donne une charge qui renforce les tirs suivants, pas celui qui l'a donnée. Les derniers tirs font donc le plus mal.",
+        "en": "Each Rite of the Arcane (R) shot that hits a champion gives a stack that empowers the next shots, not the one that granted it. Your last shots hit the hardest."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Afflux de mana rend deux fois plus de mana sur un champion, et chaque kill réduit son CD de 3,5 secondes. Il ne se déclenche pas si ta mana déborderait.",
+        "en": "Mana Surge restores twice as much mana on a champion, and each kill cuts its cooldown by 3.5 seconds. It doesn't trigger if your mana would overflow."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Xerath - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Xerath", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Rank 1 Xerath Guide for Season 16 – Runes, Combos & Builds", "url": "https://www.youtube.com/watch?v=3JB-v54_k2o", "type": "video", "date": "2026-03-16", "author": "HEXerath" },
+    { "title": "Xerath Isn’t About Perfect Aim (ULTIMATE GUIDE)", "url": "https://www.youtube.com/watch?v=hetk5dgTw2k", "type": "video", "date": "2026-08-22", "author": "Zoose" }
+  ]
+}

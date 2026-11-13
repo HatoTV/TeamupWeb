@@ -1,0 +1,35 @@
+{
+  "searches": 2,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Nidalee hurls a javelin in the target direction that deals magic damage to the first enemy hit, increased by distance traveled.",
+    "Hitting enemy champions or monsters with Javelin Toss or Bushwhack applies a Hunted mark to the target for 4 seconds.",
+    "Additionally, the first cast of both Takedown and Pounce against a Hunted target is enhanced.",
+    "While in this form, applying a Prowl mark will reset Aspect of the Cougar's cooldown.",
+    "Traps have 6 maximum health and can only be damaged by champion basic attacks (2 hit points from ranged and 3 hit points from melee).",
+    "The bonus attack speed will persist through Aspect of the Cougar if Nidalee uses Primal Surge on herself.",
+    "Nidalee empowers her next basic attack within 10 seconds to have an uncancellable windup, gain 75 bonus range and deal modified magic damage that is increased by an amount for every 1% of the target's missing health.",
+    "Hitting a Hunted target increases Takedown's damage by 30%.",
+    "Takedown resets Nidalee's basic attack timer. Nidalee loses Takedown's empowered attack immediately when she switches to Human Form.",
+    "Killing an enemy while in Cougar Form or using Pounce's Hunt bonus reduces Pounce's current cooldown to a minimum value.",
+    "Nidalee can perform Pounce from an increased range on a Hunted enemy closest to the cursor. She will leap to the front of the target.",
+    "Takedown and Aspect of the Cougar can be cast during the dash.",
+    "And if you land a spear, use E on yourself, then change into cat form and go in with W into E and Q before attacking away.",
+    "when she marks an enemy with a Q or W, the cooldown of this ability is reset",
+    "si vous touchez votre lance, le délai de récupération de la transformation en couguar est totalement réinitialisé",
+    "Lancez la lance à distance, posez un piège. De cette façon, vous pouvez faire deux sauts avec votre Z, car sauter vers le piège réinitialise pratiquement le délai de votre Z, ou tuer une cible fonctionne aussi",
+    "Lancez la lance, posez le piège, changez de forme, utilisez le Z pour la réduction de délai initiale, puis le Z sur le piège pour la réduction suivante.",
+    "Tu peux obtenir les dégâts max de la lance, car les dégâts augmentent avec la distance.",
+    "Lance à distance, je me soigne avec la vitesse d'attaque, je pose le piège, je saute. Auto-attaque, E, A.",
+    "Tu touches, tu fonces, auto-attaque, A pour finir."
+  ],
+  "rejected": [
+    { "idea": "Bond (Z) par-dessus les murs (Fz Frost)", "reason": "Aucune note wiki sur le franchissement de terrain, et le joueur dit que son bond n'est pas passé : écarté." },
+    { "idea": "Combo complet départ couguar, Z, R, A, Z, E, R, Z, E, A (3 Minute League of Legends)", "reason": "Séquence trop longue et une seule source." },
+    { "idea": "Animation cancels de Nidken (vidéo de 2018)", "reason": "Trop ancienne, avant plusieurs mises à jour du kit." }
+  ],
+  "toVerifyInGame": [
+    "Mise à terre (A) lancée pendant le saut de Bond (Z) : vérifier que l'auto part dès l'atterrissage.",
+    "Double Bond sur le piège en jungle : vérifier la réduction de CD quand le piège marque le monstre."
+  ]
+}

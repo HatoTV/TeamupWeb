@@ -1,0 +1,38 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Reaping Slash's swing can be performed quicker if the dash stops prematurely upon colliding with terrain.",
+    "Shadow Assassin Bonus: Blade's Reach's radius is extended by 200 units. Kayn conjures an untargetable shadow at the casting position to perform Blade's Reach's sweep over 0.55 seconds in his stead, removing the ability's cast time.",
+    "Kayn gains 40% bonus total movement speed, ghosting and the ability to ignore terrain collision for a duration.",
+    "This effect also cannot remain active out of terrain for longer than 1.5 seconds and will cancel immediately if Kayn performs a basic attack or becomes immobilized or polymorphed.",
+    "Shadow Assassin Bonus: Shadow Step's cooldown is reduced to 10 seconds at all ranks. Kayn gains 100% slow resist while active",
+    "enemies and allies (including Kayn) will be notified when nearby terrain is infested if Kayn is within 1000 units of an enemy champion",
+    "Kayn marks enemy champions he damaged in the last 3.15 seconds.",
+    "The ability will recast if Kayn is ordered a movement command.",
+    "If Umbral Trespass is targeted on an enemy with a spell shield or a Fiora with her Riposte active, the ability will fail to cast entirely, being placed on full cooldown without triggering the active's effects",
+    "All forms of cast-inhibiting crowd control will interrupt the channel. Despite being a movement channel, Umbral Trespass is not interrupted by root.",
+    "So, for cane combos and tips and tricks, I want to start off with auto attack Q.",
+    "auto and Q into walls, look at how fast that is. Your Q2 animation doesn't do the whole spin.",
+    "the combo really comes down to landing your W and then flash queuing or even just like this, land W, auto Q, ulti, get out of there.",
+    "The big reason why cosmic insight is so broken is because you can smite ulti people. Smite ulti is so strong",
+    "un petit trick c'est de mettre une auto-attaque juste avant donc auto-attaque Q et comme ça vous avez déjà votre souris sur l'adversaire",
+    "les sorts de Kayn n'annulent pas le E. C'est-à-dire que là, je peux Q dans le vide et je reste dans le mur, ça l'annule pas. Je peux mettre des Z et tout, ça va pas l'annuler. Par contre, l'auto-attaque l'annule.",
+    "il y a une boule qui va spawn quand Kayn est dans le mur. Du coup, ça prévient les adversaires que vous êtes là. Mais ça peut être retourné à l'avantage de Kayn.",
+    "lorsqu'il est lancé contre un mur, l'animation du dash se fait instantanément.",
+    "sur la Blue Form, le fameux combo ZQ en même temps, se faire aussi avec l'auto-attaque Z auto-attaque Q.",
+    "le fameux Smite R, extrêmement important à maîtriser sur Kayn. Si on est au milieu d'un fight et qu'on veut disparaître, on smite R n'importe qui juste pour disparaître",
+    "Faut savoir que c'est immunisé au ralentissement même si vous êtes pas dans un mur. Là par exemple je suis slow par une hache, je peux E dans le vide comme ça pour cancel le ralentissement"
+  ],
+  "rejected": [
+    { "idea": "Flash puis Entaille sombre (Z), Moisson cruelle (A), auto et ult en Assassin de l'ombre (perryjg)", "reason": "Une seule source joueur, pas de confirmation wiki." },
+    { "idea": "Entrer dans un mur quand il reste 4 s ou moins de Passe-muraille (E) pour garder toute la durée (Patch)", "reason": "Une seule source, chiffres flous face à la règle wiki (1,5 s si combat dans les 3 dernières secondes)." },
+    { "idea": "Châtiment au milieu de l'ult Rhaast pour garder Conquérant actif (Patch)", "reason": "Repose sur une rune : hors périmètre." },
+    { "idea": "Moisson cruelle (A) par-dessus un mur (Karasmai, Patch)", "reason": "Le wiki dit que le dash s'arrête contre le terrain ; passages flous, non retenu." },
+    { "idea": "Vidéo Karasmai", "reason": "Ouverte, rien d'exploitable dans les passages ciblés." }
+  ],
+  "toVerifyInGame": [
+    "Châtiment puis Intrusion obscure (R) : délai pour que la marque soit posée avant l'ult.",
+    "Moisson cruelle (A) contre un mur : gain de vitesse du coup de faux."
+  ]
+}

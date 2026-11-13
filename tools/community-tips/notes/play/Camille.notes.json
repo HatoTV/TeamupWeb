@@ -1,0 +1,38 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Camille empowers her next basic attack within 4 seconds to have an uncancellable windup, gain 50 bonus range, deal bonus physical damage and grant her bonus movement speed for 1 second.",
+    "If Precision Protocol is recast after 1.5 seconds of the first attack, then the bonus damage is doubled, and key=% of the attack's total damage will be dealt as true damage.",
+    "Camille is able to cast Tactical Sweep, Hookshot, or The Hextech Ultimatum during the windup of Precision Protocol's empowered attack without cancelling it.",
+    "Enemies hit by the outer half of the cone take bonus physical damage, capped at 300 against monsters, and are slowed by 80% decaying over 2 seconds.",
+    "Camille is healed for 100% of this bonus damage post-mitigation against enemy champions in the outer half.",
+    "Camille can move during the delay, but the hitbox and Camille's visuals are fixed to the initial target direction.",
+    "If the grapple collides with terrain, Camille will dash to the collision point and upon arrival attach to the terrain for 1 second, during which she gains the ability to cast Wall Dive.",
+    "Camille will be knocked down by any immobilizing or polymorphing crowd control during the dash.",
+    "Hookshot can be cast while rooted but not while grounded.",
+    "Wall Dive's range is doubled towards enemy champions within 1400 units.",
+    "Casting Flash during Wall Dive's dash will interrupt it but Camille will affect enemies around the new location.",
+    "Other abilities besides The Hextech Ultimatum can be cast while grappled or during the dash.",
+    "Camille becomes untargetable and leaps with displacement immunity towards the target enemy champion over 0.5 seconds, revealing them for the duration and disrupting their ongoing channels.",
+    "The type of shield that will be granted to Camille when she attacks any one enemy champion is shown as an icon beneath their health bar: orange for physical shield and blue for magic shield.",
+    "You Q a minion first to gain movement speed and then you use that to close the gap. You W to slow them and hit that outer edge then Q again for your true damage.",
+    "The next is EWE. This gives you much more flexibility not committing to abilities one after another. The W timing within this combo can vary a lot depending on your distance from the target.",
+    "Next, you have the E flash which is simply used to catch someone just outside of your normal E range.",
+    "Camille's R cancels channels on cast, making it invaluable against champions like Katarina and Fiddlesticks.",
+    "And finally, Camille can traverse some surprisingly thick walls even without the bonus distance from targeting an enemy champion.",
+    "It allows you to dash to a wall and then jump off from it in a direction with increased distance towards enemy champions.",
+    "For combos, start with your E into a wall and as you recast it to dash at an enemy, use your W to hit as you land. Auto attack into Q before using your ultimate into another auto",
+    "Wait for the fight to start and with your insane mobility, E over wall onto their back line and ult.",
+    "if you don't use the reactivation for 1 and 1/2 seconds, it's empowered to deal bonus damage and it becomes true damage."
+  ],
+  "rejected": [
+    { "idea": "E Flash E: reposition where the second E comes from (Torqen)", "reason": "Single source, mechanics unclear and not described by the wiki." },
+    { "idea": "5 ADVANCED CAMILLE TIPS (Misanthiel)", "reason": "Subtitles not downloadable (HTTP 429), not read." },
+    { "idea": "SECRET Camille Tips & Tricks (LoL Dobby, 2022)", "reason": "Not opened, older than 18 months; video budget kept for recent sources." }
+  ],
+  "toVerifyInGame": [
+    "Hookshot (E) recast into Flash: exact window during the dash so the stun lands around the Flash position.",
+    "Which thick walls the Hookshot (E) recast can cross without an enemy champion to double its range."
+  ]
+}

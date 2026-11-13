@@ -1,0 +1,98 @@
+{
+  "champion": "Olaf",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "All-in hache et Ragnarok", "en": "Axe and Ragnarok all-in" },
+      "keys": ["Q", "R", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Déchireuse (A), active Ragnarok (R) et colle ta cible. Auto, Force décuplée (Z) pour réinitialiser l'auto, puis Frappe sauvage (E) et continue de taper.",
+        "en": "Land Undertow (Q), activate Ragnarok (R) and stick to your target. Auto, Tough It Out (W) to reset your auto, then Reckless Swing (E) and keep hitting."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Trade court hache puis Frappe", "en": "Axe into Swing short trade" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Déchireuse (A) ralentit ta cible, puis Frappe sauvage (E) de près pour des dégâts bruts. Recule tout de suite, le ralentissement couvre ta sortie.",
+        "en": "Undertow (Q) slows your target, then Reckless Swing (E) up close for true damage. Back off right away; the slow covers your exit."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Ramasse ta hache au sol pour réduire fortement le CD de Déchireuse (A). En duel, place-la là où tu peux la reprendre en poursuivant.",
+        "en": "Pick up your axe from the ground to sharply cut the cooldown of Undertow (Q). In a duel, throw it where you can grab it while chasing."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le chrono de la hache au sol ne démarre qu'à l'atterrissage : tu peux relancer Déchireuse (A) avant d'avoir ramassé la première.",
+        "en": "The grounded axe timer only starts on landing: you can throw Undertow (Q) again before picking up the first one."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Mur de vent ou Incassable ne détruisent pas ta hache : elle s'arrête plus tôt et reste au sol, prête à être ramassée.",
+        "en": "Wind Wall or Unbreakable don't destroy your axe: it stops early and stays on the ground, ready to be picked up."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque auto ou Frappe sauvage (E) sur un champion prolonge Ragnarok (R). Tant que tu tapes, l'immunité aux CC ne retombe pas.",
+        "en": "Each auto or Reckless Swing (E) on a champion extends Ragnarok (R). As long as you keep hitting, the CC immunity doesn't drop."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Ragnarok (R) n'expire pas pendant l'incantation de Frappe sauvage (E). Une auto esquivée ne le prolonge pas, une auto bloquée si.",
+        "en": "Ragnarok (R) doesn't expire during the Reckless Swing (E) cast. A dodged auto doesn't extend it, a blocked one does."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ragnarok (R) retire l'étourdissement d'une projection, mais pas le déplacement : tu es quand même poussé ou tiré.",
+        "en": "Ragnarok (R) removes the stun from an airborne effect, but not the displacement: you still get knocked or pulled."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Frappe sauvage (E) coûte des PV mais ne peut pas te tuer : elle s'arrête à 1 PV. Si elle tue sa cible, tu récupères ce coût.",
+        "en": "Reckless Swing (E) costs health but can't kill you: it stops at 1 HP. If it kills its target, you get that cost back."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Rage du berzerker : plus tu perds de PV, plus tu gagnes vitesse d'attaque et vol de vie. Bas en PV, tu tapes et te soignes bien plus.",
+        "en": "Berserker Rage: the more health you lose, the more attack speed and life steal you gain. At low health, you hit and heal far more."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Olaf - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Olaf", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Olaf Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=6lJsbZ9qSp0", "type": "video", "date": "2026-08-23", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE OLAF COMPLET - SORTS, POINTS FORTS, COMBOS & 1 GAME POUR APPRENDRE A SMURF (Ft MSK - OTP)", "url": "https://www.youtube.com/watch?v=-Ps3UtQHECk", "type": "video", "date": "2026-05-23", "author": "iReaz VOD" }
+  ]
+}

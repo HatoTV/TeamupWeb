@@ -1,0 +1,37 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Twitch's basic attacks on-hit apply a stack of Deadly Venom for 6 seconds, refreshing on subsequent applications and stacking up to 6 times.",
+    "Deadly Venom does not affect structures.",
+    "After a 1-second delay, Twitch becomes camouflage [camouflaged] for a duration. Attacking or casting Venom Cask [Twitch] or Contaminate [Twitch] ends Ambush immediately.",
+    "When an enemy champion dies while afflicted with Deadly Venom [Twitch], Ambush's cooldown is reset.",
+    "Activating Recall during the 1-second delay allows him to channel it while stealthed.",
+    "Twitch hurls a cask of corrosive mixture at the target location that breaks upon landing, applying Deadly Venom [Twitch] to enemies in the area and granting sight of it.",
+    "Venom Cask can apply a maximum of 4 Deadly Venom [Twitch] stacks per enemy per cast.",
+    "A nearby enemy with Deadly Venom [Twitch] is required to cast this ability. The target does not have to be sight [visible] to be targeted by this ability.",
+    "Contaminate will deal the additional damage to targets based on the number of Deadly Venom [Twitch] stacks they had at the start of the cast time.",
+    "Contaminate will not deal damage to enemies that are not within range of the ability before the cast time completes.",
+    "If the target moves out of range after the cast time, they are still dealt the damage.",
+    "Spray and Pray allows Twitch to outrange turret [turrets] by 50 units, allowing him to hit them without them returning fire.",
+    "Twitch targets his line attack at his target's location at the start of his attack windup.",
+    "The bolts reach targets at a delay, composed of Twitch's windup time and distance the bolt has to travel at finite speed. Even the primary target can dodge the attack if they are moving quickly enough.",
+    "The bolt projectiles will naturally pass through terrain and enemy structures (the latter will be damaged by bolts even if they are not directly targeted).",
+    "For combos, use Q to get yourself into stealth before using W into your ultimate and spamming out attacks. And when you've applied your passive to as many targets as possible, use E to deal massive damage.",
+    "And when an enemy champion dies who's been poisoned by his passive, the cool down of this is reset.",
+    "This combined with your W to slow them means you can often get a lot of damage in and retreat quite easily. And because your E has massive range, you can use it while you're already safe on the way out.",
+    "Use Q to reset or reposition each kill.",
+    "our W is basically doing four stacks onto the enemy. Now, if you obviously combine it with our auto attacks or something like this, I auto I auto again, you see like how fast I'm having six stacks here already.",
+    "It's really good if you can trade in another auto because then it's actually refreshing again.",
+    "you can simply press Q and B immediately afterwards and now you can actually recall in base basically or like recall while being in invisible, right?",
+    "then you can simply start with ultimate or like even using your W here"
+  ],
+  "rejected": [
+    { "idea": "Après un rappel camouflé, relancer le rappel à la base pour accélérer le CD d'Embuscade (A)", "reason": "Passage de Varry peu clair (sous-titres automatiques), non confirmé par le wiki." },
+    { "idea": "Flash le premier sort d'engage adverse pour ouvrir le fight", "reason": "Conseil générique valable pour tout ADC, sans interaction propre à Twitch." }
+  ],
+  "toVerifyInGame": [
+    "Rappel lancé pendant la seconde de délai d'Embuscade (A) : le rappel continue bien une fois camouflé.",
+    "Contamination (E) sur un ennemi empoisonné hors de vision (brouillard, buisson)."
+  ]
+}

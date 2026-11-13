@@ -1,0 +1,38 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Azir orders all Sand Soldiers to dash toward the target location, dealing magic damage to all enemies they pass through as well as those in front of them upon arrival, and slowing them by 25% for 1 second.",
+    "If there are multiple active Sand Soldiers, rather than all soldiers arriving at the target location they make a formation around it instead. If the number of soldiers is 2, then neither will arrive at the location.",
+    "Sand Soldiers will stop their movement upon colliding with Wind Wall or Rebuttal, but not Unbreakable.",
+    "If an enemy has sight of a Sand Soldier, they will also gain vision of Azir even if he is out of sight.",
+    "Azir grants himself a shield for 1.5 seconds and dashes to the Sand Soldier closest to the cursor, dealing magic damage to enemies within his path.",
+    "If Azir dashes into an enemy champion, he stops and gains a charge of Arise!",
+    "Azir can cast any of his abilities during the dash. Azir will track the Sand Soldier if they change locations, such as by Conquering Sands.",
+    "Upon finishing their charge, the soldiers stand as a wall for 5 seconds, acting as impassible terrain against enemies and granting sight of their surroundings. Azir and his allies can move through these soldiers.",
+    "All of the soldiers and their missiles will end the charge prematurely when one encounters Wind Wall / Unbreakable / Blade Whirl / Rebuttal or upon colliding with terrain that they cannot charge through.",
+    "While the soldiers are charging forward, the wall is not impassable terrain. This means enemies that are immune to airborne effects can pass through the wall while its moving.",
+    "The wall will count as terrain for the purposes of 'into terrain' effects (e.g. Condemn, Dredge Line, Heroic Charge).",
+    "the first simple combo is w q auto you summon a soldier at max range then instantly q and auto while they're slowed this is your bread and butter combo",
+    "this combo revolves around the fact that while azir is traveling to a soldier using his e he can input Q to",
+    "this is how far you go when you delay your Q until right before you meet your soldier",
+    "the wqr combo also known as the Sha Shuffle key to this combo is pressing r as soon as you crash into a champion with your e",
+    "the WQ flash R combo if you know that your opponent has flash using this combo will 100% guarantee that you knock them back towards your team you can also use this combo if you need some extra range to secure your r on a flashless Target",
+    "after alting azir's wall of soldiers will remain and allies can go through it while enemies can't this interaction is extremely useful for kiting",
+    "For combo: W, attack, W again and attack again. When the enemy moves, direct the soldiers with Q while continuing to attack",
+    "Your \" Shurim Shuffle\" is W , then E , and before reaching the soldier, use Q to get behind the enemy and use an ultimate that knocks the entire team in the other direction.",
+    "An interesting combo for entering battle: W, then E to the soldier, and then Q.",
+    "during the one where Azir takes longer to get to the Sand Soldier (W), you're able to time it (Q >BEFORE< Azir reaches the Sand Soldier!!!!) when you actually Q out",
+    "Keep in mind that if you dash into an enemy with E, you can't Q back out."
+  ],
+  "rejected": [
+    { "idea": "Poser un soldat au-delà de la moitié d'un grand mur puis Sables mouvants (E) + Sables conquérants (A) pour le franchir (Skill Capped)", "reason": "Franchissement de mur affirmé par une seule source ; le wiki ne le mentionne pas." },
+    { "idea": "Partition impériale (R) renvoie l'ennemi de l'autre côté d'un mur si tu le colles (Skill Capped)", "reason": "Une seule source, non confirmé par le wiki." },
+    { "idea": "Empiler les soldats dans le brouillard pour un burst d'assassin (Skill Capped)", "reason": "Une seule source ; seule la règle de vision du wiki est reprise." },
+    { "idea": "Vidéo Kura « A 1 Minute Guide to Azir Shurima Shuffle »", "reason": "Pas de commentaire (musique seule), inexploitable." }
+  ],
+  "toVerifyInGame": [
+    "Shuffle avec Flash : Flash juste avant Partition impériale (R) pendant que les soldats viennent de s'arrêter.",
+    "Timing de Sables conquérants (A) pendant Sables mouvants (E) : distance maximale si lancé juste avant d'atteindre le soldat."
+  ]
+}

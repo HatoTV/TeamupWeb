@@ -1,0 +1,104 @@
+{
+  "champion": "Zilean",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Double bombe", "en": "Double bomb" },
+      "keys": ["Q", "W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose Bombe à retardement (A) sur l'ennemi, utilise Retour rapide (Z) pour récupérer le sort, puis relance une bombe sur la même cible. La 1re explose aussitôt et stun tout le monde autour.",
+        "en": "Land Time Bomb (Q) on the enemy, use Rewind (W) to get the spell back, then throw another bomb on the same target. The first one explodes instantly and stuns everyone around."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Ralentir puis double bombe", "en": "Slow into double bomb" },
+      "keys": ["E", "Q", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ralentis ta cible avec Distorsion temporelle (E), pose tes deux bombes avec Retour rapide (Z) entre les deux, puis recule. Retour rapide a aussi réduit le CD de ton E : relance-le pour la ralentir à la fin du stun.",
+        "en": "Slow your target with Time Warp (E), land both bombs with Rewind (W) in between, then back off. Rewind also lowered your E cooldown: cast it again to slow them when the stun ends."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Buffer A-A-Z", "en": "QQW buffer" },
+      "keys": ["Q", "Q", "W"],
+      "level": "hard",
+      "desc": {
+        "fr": "Appuie une 2e fois sur Bombe à retardement (A) pendant l'incantation de la 1re, puis sur Retour rapide (Z) : la 2e bombe part sans délai. Plus rapide, mais la visée reste fixée là où tu as appuyé.",
+        "en": "Press Time Bomb (Q) a second time during the first one's cast, then Rewind (W): the second bomb fires with no delay. It is faster, but the aim stays locked where you pressed."
+      },
+      "refs": [1, 4]
+    },
+    {
+      "name": { "fr": "Vitesse puis ralentissement", "en": "Speed up then slow" },
+      "keys": ["E", "W", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Accélère un allié avec Distorsion temporelle (E), utilise Retour rapide (Z), puis ralentis l'ennemi avec un 2e E. Ton allié rattrape sa cible ou s'enfuit bien plus facilement.",
+        "en": "Speed up an ally with Time Warp (E), use Rewind (W), then slow the enemy with a second E. Your ally catches their target or escapes much more easily."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une bombe va d'abord sur une unité qui en porte déjà une, même devant un champion ennemi. Pose la 1re sur un sbire collé à l'adversaire, puis vise ce sbire : le stun touche les ennemis autour.",
+        "en": "A bomb goes first to a unit that already carries one, even over an enemy champion. Put the first on a minion next to your opponent, then aim at that minion: the stun hits enemies around it."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bombe à retardement (A) s'accroche aussi à tes alliés. Pose-la sur l'allié qui engage, puis une 2e sur lui une fois au contact : l'explosion stun les ennemis autour de lui.",
+        "en": "Time Bomb (Q) also sticks to your allies. Put it on the ally who engages, then a second one on them once they reach the enemy: the explosion stuns enemies around them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une fois accrochée à un ennemi, Bombe à retardement (A) lui inflige ses dégâts même s'il devient intouchable. Un bouclier anti-sorts, lui, bloque la pose de la bombe et le stun.",
+        "en": "Once stuck to an enemy, Time Bomb (Q) still deals its damage even if they become untargetable. A spell shield, though, blocks the bomb from attaching and blocks the stun."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Poser Bombe à retardement (A) sur un champion ennemi compte comme une attaque : si tu es sous sa tour, elle te prend pour cible.",
+        "en": "Sticking Time Bomb (Q) on an enemy champion counts as an attack: if you are under their turret, it starts targeting you."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Temps dans une bouteille ne se lance que hors combat : une bombe sur un champion t'y fait entrer, une bombe sur un sbire non. Une fois le canal lancé, ton allié peut s'éloigner, il reçoit quand même l'XP.",
+        "en": "Time in a Bottle only works out of combat: a bomb on a champion puts you in combat, a bomb on a minion does not. Once the channel starts, your ally can walk away and still gets the XP."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Retour temporel (R) protège 5 s : lance-le quand l'ennemi engage sur ton carry, avant le coup fatal. La cible revient 3 s après sa mort avec un gros soin.",
+        "en": "Chronoshift (R) protects for 5 s: cast it when the enemy dives your carry, before the killing blow. The target comes back 3 s after dying with a big heal."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Zilean - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Zilean", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Top 60 Tips Zilean Mains Don't Want You To Know!", "url": "https://www.youtube.com/watch?v=WWUrGUNV-Yg", "type": "video", "date": "2026-07-06", "author": "Pestify_Lol" },
+    { "title": "3 Minute Zilean Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=9ZJ4mJ-CiHY", "type": "video", "date": "2025-04-01", "author": "3 Minute League of Legends" },
+    { "title": "Best Zilean Build & Guide (2026) — League of Legends", "url": "https://www.dodge.gg/lol/news/zilean-build-2026", "type": "guide", "date": "2026-03-23", "author": "Dodge.gg Team" },
+    { "title": "Zilean Support Build - Skill Capped", "url": "https://www.skill-capped.com/lol/guides/builds/zilean/support", "type": "guide", "date": "2026-11-13", "author": "Skill Capped" }
+  ]
+}

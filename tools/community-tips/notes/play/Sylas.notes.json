@@ -1,0 +1,37 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Whenever Sylas casts an ability, he generates a stack of Unshackled for 4 seconds, refreshing on subsequent casts and stacking up to 3 times.",
+    "Kingslayer can be cast during the dash.",
+    "If this damages a champion, Sylas is also healed, increased by his missing health.",
+    "Sylas will heal even if the target champion dies before the dash is completed.",
+    "The only exception is if the target becomes untargetable, in which case Kingslayer will have no effect.",
+    "Sylas whips out his chains in the target direction that deal magic damage to the first enemy hit and reveal and stun them for 0.5 seconds. Upon hitting the target, Sylas dashes to their location and knocks them up for 0.5 seconds upon arrival.",
+    "Sylas will not dash to his target if the chains are blocked by spell shield.",
+    "The detonation's effect radius center is placed at the intersection between the chains from the initial cast, meaning a max range cast can create a detonation that reaches further than the chains do.",
+    "If Sylas casts Hijack on a clone, no ultimate is stolen and the ability will be placed on full cooldown.",
+    "If Hijack is intercepted by Unbreakable, Sylas will gain a copy of R instead and an on-target cooldown will be applied to him.",
+    "Spirit Rush - Gains a charge upon scoring a champion takedown within 3 seconds of damaging them.",
+    "Both parts of E trigger your passive, giving you two empowered autos",
+    "W heals significantly more the lower your health is, so using it towards the end of a trade not only maximizes sustain",
+    "Start by dashing forward with E and landing the chain. The knock-up guarantees the second part of Q, so you can get the full damage while they're crowd controlled. From there, weave in your passive autos while they're trying to escape and save W for the very end of the trade.",
+    "This combo helps you reach enemies who are hiding behind minions or constantly dodging your chain. Start by dashing forward with E, then use W to close the remaining distance",
+    "If you try to steal from a fake target like LeBlanc, Shaco, Neeko, Wukong, your ultimate will be wasted.",
+    "Whenever you cast an ability, Sylas gains a passive auto attack. But, this also works with ultimates that can be activated multiple times. For example, Ahri has three dashes.",
+    "For combos, a good go-to is to use E into W, then attack. Follow up with your second E into an attack into a Q and then spam out the rest of your attacks.",
+    "Your E giving you two dashes along with two procs of your passive is just great damage.",
+    "the classic combo is E auto, Q auto, Z auto.",
+    "the combo is: E in the mouth, Q, auto, W, auto, auto."
+  ],
+  "rejected": [
+    { "idea": "Évasion (E) et Régicide (Z) traversent les murs fins", "reason": "Une seule source (Zoose), rien dans le wiki : franchissement non confirmé." },
+    { "idea": "Évasion (E), Flash, puis Enlèvement (E) pour allonger l'engage", "reason": "Combo avec Flash cité par une seule source." },
+    { "idea": "Régicide (Z) juste après Détournement (R) pour annuler l'animation", "reason": "Animation cancel cité par une seule source, non confirmé par le wiki." },
+    { "idea": "Flash puis Croix du forçat (A) pour finir hors de portée", "reason": "Une seule source, et pas d'interaction propre au champion." }
+  ],
+  "toVerifyInGame": [
+    "Délai exact pour placer une auto renforcée entre Évasion (E) et Enlèvement (E) sans perdre la fenêtre de 3,5 s.",
+    "Nombre de charges de Volée de pétricite gagnées avec une ult volée à relances multiples (Ahri)."
+  ]
+}

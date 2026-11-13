@@ -1,0 +1,114 @@
+{
+  "champion": "Annie",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Flash Tibbers", "en": "Flash Tibbers" },
+      "keys": ["R", "F", "W", "Q"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Avec le stun prêt, lance Invocation : Tibbers (R) hors de portée, puis Flash : Tibbers tombe dès la fin du Flash. Enchaîne Incinération (Z) et Désintégration (A).",
+        "en": "With stun ready, cast Summon: Tibbers (R) out of range, then Flash: Tibbers lands as soon as the Flash ends. Follow up with Incinerate (W) and Disintegrate (Q)."
+      },
+      "refs": [1, 2, 3]
+    },
+    {
+      "name": { "fr": "Flash, Incinération", "en": "Flash, Incinerate" },
+      "keys": ["F", "W"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Avec le stun prêt, Flash au contact et lance Incinération (Z) dans la foulée : un stun en zone qui ne laisse pas le temps de réagir.",
+        "en": "With stun ready, Flash in and cast Incinerate (W) right away: an area stun that leaves no time to react."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Flash, Désintégration", "en": "Flash, Disintegrate" },
+      "keys": ["F", "Q"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "easy",
+      "desc": {
+        "fr": "Face à une cible qui réagit vite, Flash puis Désintégration (A) avec le stun prêt. Le sort est ciblé et suit ta cible : aucun mauvais angle ne te le fait rater.",
+        "en": "Against a target that reacts fast, Flash then Disintegrate (Q) with stun ready. The spell is targeted and follows your target: no bad angle makes you miss."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Trade Incinération, Désintégration", "en": "Incinerate, Disintegrate trade" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Avec le stun prêt, une auto, Incinération (Z) puis Désintégration (A) sur ta cible immobilisée, et recule en attaquant. Garde Bouclier en fusion (E) pour sa riposte.",
+        "en": "With stun ready, one auto, Incinerate (W) then Disintegrate (Q) on your locked target, and back off while attacking. Keep Molten Shield (E) for their answer."
+      },
+      "refs": [1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tu commences la partie et tu réapparais après chaque mort avec Pyromanie chargée : ton premier sort offensif stun.",
+        "en": "You start the game and respawn after every death with Pyromania fully charged: your first damaging spell stuns."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Le compteur de Pyromanie, sous ta barre de vie, est visible par tous : l'adversaire voit quand ton stun est prêt. Un sort bloqué par un bouclier de sorts compte quand même.",
+        "en": "The Pyromania counter under your health bar is visible to everyone: the enemy sees when your stun is ready. A spell blocked by a spell shield still counts."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si Désintégration (A) tue sa cible, tu récupères le mana et la moitié du CD, même si la cible meurt avant l'impact. Idéal pour farmer tout en chargeant ton stun.",
+        "en": "If Disintegrate (Q) kills its target, you get the mana back and half the cooldown, even if the target dies before impact. Perfect to farm while charging your stun."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Incinération (Z) peut toucher une cible légèrement derrière toi, tant que son corps touche le cône.",
+        "en": "Incinerate (W) can hit a target slightly behind you, as long as its body touches the cone."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Quand Tibbers est en jeu, Bouclier en fusion (E) le protège aussi, que tu te cibles toi-même ou un allié.",
+        "en": "When Tibbers is out, Molten Shield (E) shields him too, whether you target yourself or an ally."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Bouclier en fusion (E) brûle une fois chaque ennemi qui le frappe. Une attaque bloquée le déclenche aussi, mais pas une attaque esquivée, ni une tourelle.",
+        "en": "Molten Shield (E) burns each enemy that hits it, once per cast. A blocked attack triggers it too, but a dodged attack does not, nor does a turret."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux diriger Tibbers avec Invocation : Tibbers (R) même sous un contrôle qui t'empêche de lancer des sorts : il continue le combat pour toi.",
+        "en": "You can still direct Tibbers with Summon: Tibbers (R) while under crowd control that stops casting: he keeps fighting for you."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Annie – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Annie", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Annie Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=QbdDfKcHNVA", "type": "video", "date": "2026-03-26", "author": "3 Minute League of Legends" },
+    { "title": "TOUT SAVOIR SUR ANNIE AVEC LE RANK 1 (ft. Annie IRL)", "url": "https://www.youtube.com/watch?v=AdswmU6Ix70", "type": "video", "date": "2026-05-10", "author": "OTP - League of Legends" },
+    { "title": "La Annie la plus Terrifiante de League Of Legends (Rank 4)", "url": "https://www.youtube.com/watch?v=kiLV-PAShOQ", "type": "video", "date": "2026-07-03", "author": "Blanquette - League of Legends" }
+  ]
+}

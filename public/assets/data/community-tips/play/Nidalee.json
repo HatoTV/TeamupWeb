@@ -1,0 +1,175 @@
+{
+  "champion": "Nidalee",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Javelot touché, Bond long",
+        "en": "Spear hit, long Pounce"
+      },
+      "keys": [
+        "Q",
+        "E",
+        "R",
+        "W",
+        "E",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Javelot (A) touché en humaine, Charge primale (E) sur toi, puis Aspect du Couguar (R) : Bond (Z) longue portée sur la cible marquée, puis Taillade (E) et Mise à terre (A).",
+        "en": "Land Javelin Toss (Q) in human form, Primal Surge (E) on yourself, then Aspect of the Cougar (R): long-range Pounce (W) on the marked target, then Swipe (E) and Takedown (Q)."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Burst complet en couguar",
+        "en": "Full cougar burst"
+      },
+      "keys": [
+        "W",
+        "E",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "En couguar, Bond (Z) sur la cible, une auto, Taillade (E), puis Mise à terre (A) : elle réinitialise ton auto et frappe plus fort sur une cible blessée.",
+        "en": "In cougar form, Pounce (W) onto the target, one auto, Swipe (E), then Takedown (Q): it resets your auto and hits harder on a wounded target."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Javelot, piège, double Bond",
+        "en": "Spear, trap, double Pounce"
+      },
+      "keys": [
+        "Q",
+        "W",
+        "R",
+        "W",
+        "W"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "En jungle, Javelot (A) sur un monstre et Guérilla (Z) sous le camp suivant, puis Aspect du Couguar (R) : Bond (Z) sur la cible marquée revient vite, donc tu enchaînes un second Bond vers le piège.",
+        "en": "In the jungle, Javelin Toss (Q) a monster and drop Bushwhack (W) on the next camp, then Aspect of the Cougar (R): Pounce (W) on the marked target comes back fast, so you chain a second Pounce to the trap."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les dégâts de Javelot (A) augmentent avec la distance parcourue : vise à portée max pour le plus gros coup.",
+        "en": "Javelin Toss (Q) damage grows with the distance traveled: throw it at max range for the biggest hit."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "En humaine, marquer une cible avec Javelot (A) ou Guérilla (Z) remet à zéro le CD d'Aspect du Couguar (R) : tu peux te transformer tout de suite.",
+        "en": "In human form, marking a target with Javelin Toss (Q) or Bushwhack (W) resets Aspect of the Cougar (R) cooldown: you can transform right away."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Sur une cible marquée, Bond (Z) passe de 375 à 750 de portée et t'amène devant elle. La marque augmente aussi de 30 % les dégâts de Mise à terre (A).",
+        "en": "On a marked target, Pounce (W) goes from 375 to 750 range and lands you in front of them. The mark also boosts Takedown (Q) damage by 30%."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un kill en couguar réduit le CD de Bond (Z) au minimum : en teamfight ou en jungle, enchaîne les bonds d'une cible achevée à la suivante.",
+        "en": "A kill in cougar form drops Pounce (W) cooldown to its minimum: in teamfights or in the jungle, chain pounces from one finished target to the next."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Charge primale (E) lancée sur toi garde son bonus de vitesse d'attaque quand tu passes en couguar : lance-la juste avant de te transformer.",
+        "en": "Primal Surge (E) cast on yourself keeps its attack speed bonus when you switch to cougar form: cast it right before transforming."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Mise à terre (A) et Aspect du Couguar (R) peuvent se lancer pendant le saut de Bond (Z). Mais repasser en humaine fait perdre l'auto renforcée de Mise à terre (A) pas encore utilisée.",
+        "en": "Takedown (Q) and Aspect of the Cougar (R) can be cast during the Pounce (W) leap. But switching back to human form drops an unused Takedown (Q) empowered auto."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les pièges de Guérilla (Z) ne se détruisent qu'avec des autos de champion : il faut 3 coups à distance ou 2 au corps à corps.",
+        "en": "Bushwhack (W) traps can only be destroyed by champion autos: it takes 3 ranged hits or 2 melee hits."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nidalee - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Nidalee",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Nidalee Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=EeIODDvggmQ",
+      "type": "video",
+      "date": "2025-11-09",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "HOW TO ACTUALLY CLIMB FAST WITH NIDALEE JUNGLE",
+      "url": "https://www.youtube.com/watch?v=ugaWGMcvPyk",
+      "type": "video",
+      "date": "2026-09-01",
+      "author": "Fz Frost"
+    }
+  ]
+}

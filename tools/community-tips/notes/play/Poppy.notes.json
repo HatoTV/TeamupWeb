@@ -1,0 +1,35 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Poppy dashes to the target enemy's location. If they are in range upon arrival, she deals physical damage and carries them along with her for up to 400 units.",
+    "If the target hits terrain, she stops to deal the same physical damage again and stuns them for a duration.",
+    "Poppy will be ordered to basic attack the target.",
+    "Heroic Charge can interact with player-generated terrain.",
+    "The dash does not follow targets. The target's position at the time of Heroic Charge's cast is the direction Poppy will dash towards.",
+    "Steadfast Presence does not stop dashes if the unit is crowd control immune, displacement immune, untargetable, or protected by spell shield in the process",
+    "Steadfast Presence does not trigger against lunges.",
+    "Poppy increases her total armor and total magic resistance by 16%, doubled to 32% while she is below 40% maximum health.",
+    "Poppy can move over the buckler to retrieve it, gaining a shield for 3 seconds. Enemy champions can move over the buckler to destroy it.",
+    "If Keeper's Verdict was charged for at least 0.5 seconds, it deals 100% increased damage and enemies hit are knocked back toward the enemy team's fountain",
+    "If the charge is interrupted or completes without reactivation, Keeper's Verdict is cancelled and the ability is put on a 30-second cooldown.",
+    "Additionally, if no enemies are hit in front of Poppy, she sends a shockwave that travels in the target direction until it collides with an enemy champion, which causes a hammer to erupt.",
+    "Keeper's Verdict's airborne debuff is non-dispellable and thus cannot be removed by cleansing effects.",
+    "The impact creates a field for 1 second that slows enemies within, which then ruptures to deal the same physical damage.",
+    "For combos, your go-to is to W if needed, then E them into terrain. From here, attack into Q before attacking away.",
+    "and a good go-to if you can't stand them into terrain is a W if needed into your E. From here, attack into Q and tap your ultimate to keep them in the second part of the queue before attacking away.",
+    "Poppy's W has a passive where she gains bonus armor and magic resist, and when below 40% health, she gains double the amount.",
+    "If tapped, it deals damage to enemies in front of her and briefly knocks them up. However, it can also be charged, slowing herself.",
+    "Par exemple là, tu vois avec Popy, quel classico, je dasche et là tu es stun.",
+    "si elle essaie de la chase, ça sera avec son dash et en fait elle va counter le dash avec son Z"
+  ],
+  "rejected": [
+    { "idea": "Combo Flash + Charge héroïque (E) contre un mur (EXYT, sous-titres confus)", "reason": "Interaction avec Flash confirmée ni par le wiki ni par une 2de source indépendante." },
+    { "idea": "Prédire où retombe le bouclier du passif (Gemi)", "reason": "Vidéo de plus de 18 mois, non ouverte (limite de vidéos)." },
+    { "idea": "Vidéo « Poppy - Combos for Beginners » (Only Challengers)", "reason": "Sous-titres sans contenu exploitable." }
+  ],
+  "toVerifyInGame": [
+    "Verdict de la gardienne (R) en tap pendant Commotion (A) : vérifier que l'ennemi retombe dans la zone avant la seconde explosion.",
+    "Charge héroïque (E) contre Cristallisation (Z) d'Anivia : vérifier l'étourdissement."
+  ]
+}

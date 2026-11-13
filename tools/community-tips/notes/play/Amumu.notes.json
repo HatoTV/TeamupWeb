@@ -1,0 +1,35 @@
+{
+  "searches": 3,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Amumu throws a bandage in the target direction that deals magic damage to the first enemy hit, stunning them for 1 second and pulling him to them, during which they are revealed.",
+    "Amumu periodically stocks a Bandage Toss charge, up to a maximum of 2.",
+    "Despair can be cast during the dash.",
+    "Amumu will track the target if they change locations. He will dash to the target's previous location if the target is 2000 or more units away or moves beyond 2000 units.",
+    "Bandage Toss does not fizzle on Amumu's death, and can still stun and damage enemies.",
+    "Amumu is still able to dash even if Bandage Toss is blocked by spell shield.",
+    "The Curse application from Curse of the Sad Mummy happens after the magic damage is dealt by it, therefore amplifying the damage only if the target was also already marked before the hit.",
+    "Tantrum's current cooldown is reduced by 0.75 seconds whenever Amumu is hit by a basic attack on-hit.",
+    "A basic attack's basic damage and each on-hit effect are all separate damage instances, and may be reduced each if they deal physical damage.",
+    "For Amumu's combo, we'll start by locking CC until level 6, which is Q, and then turn on W in midair, auto attack, E, and Q. This applies our passive to the auto attack before we apply E and a second Q.",
+    "Again, Q, we'll turn on W in the air, then we'll go to ult, E, auto attack, and Q. Our ult will apply the mark of our passive so we can immediately roll to auto Q on E with that extra true damage.",
+    "Now we have our lightning hook, which is a simple R and lightning hook. This will be faster than a lightning hook and then using your ultimate, which gives the enemy team less time to react.",
+    "we will use Q on a nearby enemy champion or minion. Again, we activate our W in mid-air, and then we shine into the backline when the AD carrier least expects it.",
+    "Pour les combos, l'enchaînement de base est A, Z, attaque, E, puis s'éloigner en attaquant. Pour un all-in, faites A, Z, attaque, puis ultime. Attaquez, faites E, puis utilisez votre second A pour un contrôle total.",
+    "Pour un engage garanti, activez Z, lancez votre ultime, puis utilisez immédiatement Saut éclair sur votre adversaire.",
+    "le temps de recharge de cette compétence est réduit à chaque fois qu'il est touché par une attaque. Ces attaques incluent celles des monstres et des sbires. Donc, s'il est au milieu d'une vague, il peut spammer cette capacité.",
+    "si vous pouvez marcher jusqu'à votre adversaire et utiliser le A pour poursuivre ses dashs ou Saut éclair, vos chances de le tuer sont excellentes.",
+    "Je vais utiliser mon A sur un sbire pour la portée, puis ulti flash. Ne faites jamais flash ulti, toujours ulti flash.",
+    "il y a une animation ou un temps d'incantation sur les sorts d'Amumu. Cette barre permet de décaler vos sorts avec le flash, peu importe lequel. Vous pouvez le faire avec votre ulti pour le lancer instantanément et réduire ses chances de l'esquiver au flash."
+  ],
+  "rejected": [
+    { "idea": "Combos page of Mobalytics (Q-Flash mid animation, then W R, AA E AA)", "reason": "Page returned 403; only seen as a search snippet, not read." },
+    { "idea": "Support Amumu: R + E then Flash into the team (aramonly)", "reason": "Not read, single minor source, ARAM-oriented." },
+    { "idea": "Wild Rift tips (Flash just after Bandage Toss extends it)", "reason": "Wild Rift, different game; not confirmed for PC." },
+    { "idea": "Despair applies Curse on every tick", "reason": "Wiki says Despair ticks only refresh an existing Curse; kept only the auto attack before the ult." }
+  ],
+  "toVerifyInGame": [
+    "Exact window to Flash during the 0.25 s cast time of Curse of the Sad Mummy (R).",
+    "Bandage Toss (Q) tracking a target that Flashes during the pull (2000-unit limit)."
+  ]
+}

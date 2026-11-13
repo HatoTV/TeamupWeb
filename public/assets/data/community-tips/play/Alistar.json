@@ -1,0 +1,110 @@
+{
+  "champion": "Alistar",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Coup de tête, Atomisation", "en": "Headbutt, Pulverize" },
+      "keys": ["W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Coup de tête (Z) et appuie sur Atomisation (A) pendant le dash : le sort part dès l'arrivée, avec un temps d'incantation réduit. La cible n'est alors repoussée que de 200 unités et reste dans ta zone.",
+        "en": "Cast Headbutt (W) and press Pulverize (Q) during the dash: it fires on arrival with a shorter cast time. The target is then only knocked back 200 units and stays in your area."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Atomisation Flash", "en": "Pulverize Flash" },
+      "keys": ["Q", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Atomisation (A) et Flash aussitôt : le knock-up part de ta nouvelle position. Plus rapide et moins lisible que Coup de tête puis Atomisation.",
+        "en": "Cast Pulverize (Q) and Flash right away: the knock-up lands at your new position. Faster and harder to read than Headbutt into Pulverize."
+      },
+      "refs": [1, 3]
+    },
+    {
+      "name": { "fr": "Piétinement, bump contre le mur", "en": "Trample, bump into the wall" },
+      "keys": ["E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Active Piétinement (E), puis Coup de tête (Z) pour envoyer la cible contre un mur où elle reste bloquée. Enchaîne Atomisation (A), puis l'auto qui étourdit une fois les 5 cumuls atteints.",
+        "en": "Activate Trample (E), then Headbutt (W) to send the target into a wall where it stays stuck. Follow with Pulverize (Q), then the stunning auto once you reach 5 stacks."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Coup de tête (Z) peut projeter ta cible à travers un mur. Contre un mur trop épais, elle s'arrête dessus, mais la durée du CC ne change pas.",
+        "en": "Headbutt (W) can knock your target through a wall. Against a wall too thick to pass, it stops on it, but the CC duration stays the same."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Cible bumpée contre un mur ? Elle reste en l'air collée au mur : retarde Atomisation (A) jusqu'à la fin du bump pour allonger ta chaîne de CC.",
+        "en": "Target bumped into a wall? It stays airborne pinned to it: delay Pulverize (Q) until the bump ends to stretch your CC chain."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le dash de Coup de tête (Z) va plus vite quand la cible est proche. À portée max, il reste assez lent pour qu'un ennemi réactif dashe avant ton arrivée.",
+        "en": "The Headbutt (W) dash is faster when the target is close. At max range it stays slow enough for an alert enemy to dash before you arrive."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Coup de tête (Z) se lance aussi sur un sbire ou un monstre. Utilise-le comme dash ciblé pour te rapprocher d'un engage ou pour t'enfuir.",
+        "en": "Headbutt (W) also works on a minion or a monster. Use it as a targeted dash to get closer to an engage or to escape."
+      },
+      "refs": [1, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Face à une immunité aux déplacements, Coup de tête (Z) étourdit quand même, mais Atomisation (A) n'a aucun effet : ni projection, ni stun.",
+        "en": "Against displacement immunity, Headbutt (W) still stuns, but Pulverize (Q) does nothing at all: no knock-up, no stun."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier magique bloque l'effet de l'auto chargée de Piétinement (E), même si l'auto touche. Retire le bouclier avec un autre sort avant de frapper.",
+        "en": "A spell shield blocks the empowered Trample (E) auto's effect, even if the auto lands. Pop the shield with another spell before you hit."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque champion étourdi ou projeté par tes sorts donne un cumul de Cri triomphant (passif), et une mort de champion proche en donne 7. À 7, tu soignes ton équipe et toi.",
+        "en": "Each champion stunned or displaced by your spells gives a Triumphant Roar (passive) stack, and a nearby champion death gives 7. At 7, you heal yourself and your team."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Volonté de fer (R) te libère de tous les CC, même en plein stun : garde-la pour sortir d'un lock. Les dégâts bruts, eux, ne sont pas réduits.",
+        "en": "Unbreakable Will (R) cleanses every CC, even mid-stun: keep it to break out of a lockdown. True damage, however, is not reduced."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Alistar – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Alistar", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "10 Alistar Tips And Tricks To Level up Your Gameplay", "url": "https://www.youtube.com/watch?v=04IF_KB7dFY", "type": "video", "date": "2023-11-08", "author": "Red Shirt Plumber" },
+    { "title": "3 Minute Alistar Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=6tHx6vlqWNs", "type": "video", "date": "2026-03-13", "author": "3 Minute League of Legends" },
+    { "title": "Tu vas SAVOIR JOUER comme un CHALLENGER SUPPORT après cette GAME | Guide ALISTAR Tips & Combos, Rune", "url": "https://www.youtube.com/watch?v=vr4h6asfdqc", "type": "video", "date": "2026-10-29", "author": "EXYT - League of Legends" }
+  ]
+}

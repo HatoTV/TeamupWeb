@@ -1,0 +1,144 @@
+{
+  "champion": "Zac",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Écrasement entre deux cibles", "en": "Slam two targets together" },
+      "keys": ["Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche une première cible avec Étirements (A), puis frappe une autre cible avec ton attaque renforcée. À moins de 700 unités l'une de l'autre, elles se percutent : knock-up, stun et dégâts autour de l'impact.",
+        "en": "Hit a first target with Stretching Strikes (Q), then strike another one with your empowered attack. Within 700 units of each other, they collide: knock-up, stun and damage around the impact."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "A sur la wave, E, auto", "en": "Q the wave, E, auto" },
+      "keys": ["Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Étirements (A) sur un minion, saute sur l'ennemi avec Fronde (E), puis frappe-le avec l'attaque renforcée tant que le lien tient. Il se fait écraser contre le minion.",
+        "en": "Cast Stretching Strikes (Q) on a minion, leap onto the enemy with Elastic Slingshot (E), then hit them with the empowered attack while the tether holds. They get slammed into the minion."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Fronde puis Boing ! à l'atterrissage", "en": "Slingshot into Let's Bounce! on landing" },
+      "keys": ["E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pendant la charge de Fronde (E), appuie sur R : le saut part et ton ult se lance tout seul à l'atterrissage. Atterris derrière ta cible pour la repousser vers ton équipe.",
+        "en": "While charging Elastic Slingshot (E), press R: the leap goes off and your ult casts itself on landing. Land behind your target to knock them back toward your team."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Boing ! puis Flash", "en": "Let's Bounce! into Flash" },
+      "keys": ["R", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Boing ! (R) puis Flash aussitôt sur ta cible : ton premier rebond tombe sur elle sans lui laisser le temps de réagir.",
+        "en": "Cast Let's Bounce! (R), then Flash onto your target right away: your first bounce lands on them before they can react."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Fronde (E) saute par-dessus les murs, jusqu'à 1 800 unités chargée au max. Charge-la depuis le brouillard derrière un mur pour gank sous un angle que l'ennemi ne surveille pas.",
+        "en": "Elastic Slingshot (E) leaps over walls, up to 1,800 units at full charge. Charge it from fog of war behind a wall to gank from an angle the enemy isn't watching."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Charge Fronde (E) plus d'une seconde : le knock-up et le stun à l'atterrissage passent de 0,5 à 1 seconde.",
+        "en": "Charge Elastic Slingshot (E) for more than one second: the knock-up and stun on landing go from 0.5 to 1 second."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si tu annules toi-même la charge de Fronde (E), ou si elle se termine sans relance, tu récupères la moitié de son coût en PV et de son CD.",
+        "en": "If you cancel the Elastic Slingshot (E) charge yourself, or it ends without a recast, you get back half of its health cost and cooldown."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant la charge de Fronde (E), Flash est bloqué, et un root, un silence ou un ground l'interrompt. Prépare ton saut hors de portée de leurs CC.",
+        "en": "While charging Elastic Slingshot (E), Flash is locked, and a root, silence or ground interrupts it. Set up your leap out of range of their CC."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant Boing ! (R), tu ne peux ni attaquer, ni lancer Étirements (A) ou Fronde (E), mais Matière instable (Z) reste dispo. Les rebonds ramassent tes morceaux de gelée, et chacun réduit son CD d'une seconde : spamme-la.",
+        "en": "During Let's Bounce! (R), you can't attack or cast Stretching Strikes (Q) or Elastic Slingshot (E), but Unstable Matter (W) stays available. Bounces pick up your goo chunks, each cutting its cooldown by one second: spam it."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tes morceaux de gelée tombent entre toi et le champion ennemi visible le plus proche. Pour farmer, éloigne-toi de l'adversaire : ils tombent de ton côté et il ne peut pas les écraser.",
+        "en": "Your goo chunks land between you and the nearest visible enemy champion. When farming, stay away from your opponent: they land on your side and he can't step on them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un monstre attiré par Étirements (A) ne prend aucun dégât avant l'impact. Un Smite lancé pendant l'attraction ne fait rien : attends que les cibles se percutent.",
+        "en": "A monster pulled by Stretching Strikes (Q) takes no damage until the impact. A Smite cast during the pull does nothing: wait for the targets to collide."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Quand Division cellulaire se déclenche, tu te sépares en 4 petites gelées et chaque dégât qu'elles prennent te touche aussi. Tu reviens avec 10 à 50 % de tes PV max selon ce qu'il leur reste.",
+        "en": "When Cell Division triggers, you split into 4 bloblets and any damage they take also hits you. You revive with 10 to 50% of your max health depending on what they have left."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zac - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zac",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Zac Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=fxOEsqONIS8",
+      "type": "video",
+      "date": "2026-04-25",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "GUIDE ZAC COMPLET - SORTS, POINTS FORTS, COMBOS & 1 GAME POUR APPRENDRE A SMURF (Ft RAMS RANK 1 EUW)",
+      "url": "https://www.youtube.com/watch?v=w-kXas0BA1Y",
+      "type": "video",
+      "date": "2026-05-06",
+      "author": "iReaz VOD"
+    },
+    {
+      "title": "Best Zac Build & Guide (2026) — League of Legends",
+      "url": "https://www.dodge.gg/lol/news/zac-build-2026",
+      "type": "guide",
+      "date": "2026-03-23",
+      "author": "Dodge.gg"
+    }
+  ]
+}

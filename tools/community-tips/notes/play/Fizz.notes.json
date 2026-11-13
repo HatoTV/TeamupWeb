@@ -1,0 +1,51 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Fizz is permanently ghosted and reduces every instance of pre-mitigation damage taken by 4 (+ 1% AP), up to a maximum of 50% reduction.",
+    "Seastone Trident and Chum the Waters can be cast during the dash.",
+    "Urchin Strike can only go through walls if the target is on the other side.",
+    "Urchin Strike only damages targets if within 200 units of their original location upon completion of the dash.",
+    "Fizz will be automatically ordered to basic attack the target after Urchin Strike.",
+    "If Seastone Trident kills its target, the cooldown is reduced to 1 second and the mana cost is refunded.",
+    "Seastone Trident basic attack resets Fizz's basic attack timer.",
+    "Fizz dashes to the target location while becoming untargetable, balancing on his trident for 0.75 seconds, during which he can cast Trickster after 0.15 seconds into the duration.",
+    "can be used while hopping off the trident, but not while balanced on it.",
+    "Flash cannot be used during the dash.",
+    "Fizz can receive aggro while hopping off the trident, but not while balanced on it",
+    "The further the lure travels in its initial flight, the larger the shark that is attracted; increasing Chum the Waters' damage, slow, eruption radius and knock back distance.",
+    "The lure's holder is slowed and revealed for the duration and afterwards is impacted by the eruption but is knocked up for 1 second instead of knocked back.",
+    "You can cross walls when your target is visible and already on the other side.",
+    "Q can also cross walls, including thicker ones, as long as the target is visible within range and already on the other side.",
+    "Becoming untargetable with E also drops minion aggro, preventing the wave from continuing to attack you.",
+    "As the shark is about to erupt, use E and time your landing with the knock-up. From here, attack once, reset with W, and finish with Q.",
+    "Q through a nearby minion, then cast R during the dash",
+    "Use E once and allow Fizz to begin descending, then flash toward the target immediately before it lands. This repositions the damage while preserving the larger area and slow from the first E. Flash cannot be used while Fizz is still balanced on his trident",
+    "Fizz can trigger it easily with a simple Q auto W combo.",
+    "use W to secure difficult last hits",
+    "use E to dodge an incoming turret shot and reset its aggro after dealing your damage",
+    "E makes Fizz untargetable, not invulnerable. Burns and delayed damage",
+    "Use the first jump to cross a wall and check the other side. If it's dangerous or enemies follow, use the second cast to jump back across the same wall.",
+    "Once the fish attaches, it follows the target through flashes and dashes.",
+    "If the target enters stealth after the fish attaches, Fizz can continue tracking them until the shark",
+    "Q only deals damage once Fizz reaches the target. If they flash or dash away before it connects, Q misses and deals no damage.",
+    "against minion aggro, auto attacks, burns, and multi-hit abilities, that reduction activates repeatedly and quickly adds up.",
+    "Fizz's passive ability allows him to pass through units and grants a fixed reduction to any incoming damage.",
+    "If this kills the target, the cooldown is reduced and the mana spent is returned.",
+    "Your basic combo: start with an ult if possible, then attack, reset animation via W and Q. Then attack until you use E to catch up or add damage.",
+    "After Q, autoattack with W animation reset to activate Electric Discharge, then use E to chase or retreat.",
+    "Depending on the distance, the fish will be small, medium or large.",
+    "Usually you should jump over the obstacle and then use a full combo on one of their carries."
+  ],
+  "rejected": [
+    { "idea": "Q bufferisé sur une cible hors de portée puis Flash pour lancer le dash aussitôt", "reason": "Une seule source (Zoose), non documenté par le wiki." },
+    { "idea": "Flash pendant le dash de Frappe de l'oursin (A) pour choisir où finir", "reason": "Une seule source ; le wiki ne le décrit pas." },
+    { "idea": "Le premier saut de E est plus court que le second", "reason": "Contredit les portées du wiki (Joueur 400, Filou 300) : écarté." },
+    { "idea": "Pêche au gros (R) lancée puis Flash pour changer l'origine du poisson", "reason": "Une seule source." },
+    { "idea": "Zhonya pendant E retarde l'atterrissage", "reason": "Interaction d'objet confirmée par le wiki mais hors périmètre (conseil d'objet), gardée de côté." }
+  ],
+  "toVerifyInGame": [
+    "Joueur puis Flash : fenêtre exacte entre la fin de la phase perchée (0,75 s) et l'impact.",
+    "Retomber avec E pile au moment du knock-up du requin (2 s après l'accroche)."
+  ]
+}

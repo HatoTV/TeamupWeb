@@ -1,0 +1,109 @@
+{
+  "champion": "Tryndamere",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Moquerie puis Balafre", "en": "Mocking Shout, then Spinning Slash" },
+      "keys": ["W", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Moquerie (Z) pour baisser ses dégâts d'attaque, puis Balafre (E) sur lui et enchaîne les autos. S'il te tourne le dos, il est en plus ralenti.",
+        "en": "Cast Mocking Shout (W) to lower their attack damage, then Spinning Slash (E) onto them and chain autos. If they turn their back, they're slowed too."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Deux autos, Balafre en sortie", "en": "Two autos, Spinning Slash out" },
+      "keys": ["E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Place deux autos, puis Balafre (E) vers l'arrière pour sortir du trade en touchant la cible. Reste assez près au départ, sinon la Balafre ne la touche pas.",
+        "en": "Land two autos, then Spinning Slash (E) backward to leave the trade while hitting the target. Start close enough, or the slash won't reach them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "All-in, rage, puis soin", "en": "All-in, rage, then heal" },
+      "keys": ["W", "E", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Moquerie (Z), Balafre (E) et autos. Active Rage inépuisable (R) juste avant de mourir, puis Soif de sang (A) une fois le danger passé : toute ta Fureur part dans le soin.",
+        "en": "Mocking Shout (W), Spinning Slash (E) and autos. Pop Undying Rage (R) right before dying, then Bloodlust (Q) once the danger is over: all your Fury goes into the heal."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le slow de Moquerie (Z) ne touche que les ennemis qui te tournent le dos pendant 3,25 secondes. Lance-la quand ils fuient, pas quand ils te font face.",
+        "en": "The Mocking Shout (W) slow only hits enemies with their back to you, for 3.25 seconds. Cast it when they flee, not when they face you."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Moquerie (Z) ne se lance que si un champion ennemi est proche, même invisible. Si elle s'active, quelqu'un se cache dans le buisson. Attention : la lancer dans le brouillard te révèle un court instant.",
+        "en": "Mocking Shout (W) only casts if an enemy champion is nearby, even unseen. If it goes off, someone is hiding in the bush. Careful: casting it in fog briefly reveals you."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant les 0,3 seconde d'incantation de Moquerie (Z), tu ne peux pas lancer Rage inépuisable (R). Ne la lance pas quand tu es à deux doigts de mourir.",
+        "en": "During the 0.3-second cast of Mocking Shout (W), you can't cast Undying Rage (R). Don't use it when you're about to die."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Rage inépuisable (R) se lance même sous un contrôle qui bloque tes sorts, comme un stun. Être enfermé ne t'empêche pas de survivre.",
+        "en": "Undying Rage (R) can be cast even under crowd control that blocks your spells, like a stun. Being locked down doesn't stop you from surviving."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Soif de sang (A) et Rage inépuisable (R) se lancent pendant Balafre (E). Tu peux te soigner ou activer l'ult sans attendre la fin du dash.",
+        "en": "Bloodlust (Q) and Undying Rage (R) can be cast during Spinning Slash (E). You can heal or pop your ult without waiting for the dash to end."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un Flash pendant Balafre (E) coupe le dash, mais les dégâts tombent aussitôt autour de ton point d'arrivée. Une cible déjà touchée ne prend pas les dégâts une seconde fois.",
+        "en": "Flashing during Spinning Slash (E) cuts the dash, but the damage lands instantly around where you arrive. A target already hit doesn't take it a second time."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Soif de sang (A) peut partir pendant le windup de ton auto. Le coup garde le taux de critique d'avant le soin, et sa Fureur arrive à la fin du windup.",
+        "en": "Bloodlust (Q) can go off during your auto windup. The hit keeps the crit chance from before the heal, and its Fury comes in when the windup ends."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque coup critique réduit le CD de Balafre (E) de 0,75 seconde, 1,5 seconde sur un champion. Ça marche aussi sur les wards et les plantes, mais pas sous aveuglement.",
+        "en": "Each critical strike lowers the Spinning Slash (E) cooldown by 0.75 seconds, 1.5 seconds on a champion. It also works on wards and plants, but not while blinded."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Tryndamere - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Tryndamere", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Tryndamere Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=VVpYj5ct-tQ", "type": "video", "date": "2025-03-17", "author": "3 Minute League of Legends" },
+    { "title": "The ONLY Tryndamere guide you need to start carrying every game", "url": "https://www.youtube.com/watch?v=mJ-A1GB0gT8", "type": "video", "date": "2026-04-01", "author": "foggedftw2" },
+    { "title": "How to Play TRYNDAMERE TOP for Beginners | TRYNDAMERE  Guide Season 15 | League of Legends", "url": "https://www.youtube.com/watch?v=Tn5QCY8dcyM", "type": "video", "date": "2025-11-06", "author": "MipZ" }
+  ]
+}

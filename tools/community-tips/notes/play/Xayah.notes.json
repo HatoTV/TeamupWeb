@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Feathers shot by Xayah will linger and be planted in the ground at maximum range for 6 seconds.",
+    "Xayah's ability casts generate 3 stacks of Clean Cuts, lasting for 8 seconds, refreshing on subsequent casts, and stacking up to 5 times.",
+    "Xayah's basic attacks are empowered to each consume a stack on-attack to instead shoot a Feather",
+    "A target hit by at least three Feathers is root [rooted] for 1.25 seconds.",
+    "Feathers that are 'in flight' will be called to Xayah too, but only once they've landed normally first.",
+    "Xayah leaps into the air, becoming ghosted and untargetable for 1.5 seconds. After 1 second, she shoots 5 Feathers in a cone in the target direction",
+    "Xayah is unable to basic attack or cast abilities during Featherstorm, but can still move. (table: spells=true)",
+    "The individual missiles have 1100 range but start slightly behind Xayah, reducing their total range.",
+    "As the feathers are forming, they will deal damage in a small area around Xayah's before firing.",
+    "Targets hit after the first take 50% reduced damage.",
+    "Upon casting, missiles that are already in flight will also be empowered to apply the additional feather, but Xayah will not be granted the bonus movement speed from their hit.",
+    "After you use any type of spell, so in this case I'm going to use the Q, you're going to store up to three feathers per spell that you can easily use by outing the enemies.",
+    "there's at least one combo that you absolutely have to learn if you want to play this champion, and it's the fast Q E.",
+    "if there are three or more feathers hitting the enemies, they will be rooted.",
+    "the enemies that are the nearest to you will get more damage because those feathers, they aren't placed all near together",
+    "There's a tiny mechanic which is called the ult flash where you can basically flash back to an enemy while you have all these feathers down to make sure that you will land on all the feathers.",
+    "You can use the AA-Q trick to stun your opponents faster with 'E'.",
+    "You can use Flash to change the return direction of the feathers so you can stun multiple opponents.",
+    "Once you reach level 3 the basic trading combo is W-AA-Q-AA-E. Xayah's 'R' hitbox is smaller than the spell indicator.",
+    "When you activate her ultimate, you will only be able to use your summoner spells. When you want to combine Flash with 'R', you can use 'R' out of your opponents' vision and then Flash to surprise them.",
+    "You can use Xayah's ultimate to dodge enemy abilities.",
+    "we've placed two feathers with the Q. I'm placing one feather with the passive. And like that, when I E, rooted.",
+    "there's another very important mechanic that's used often, it's the E flash. If we place a lot of feathers, we can uh redirect the feathers.",
+    "she Z combos, we ult, we use the Z, we move speed"
+  ],
+  "rejected": [
+    { "idea": "Dagues jumelles (A) puis Flash : animation plus rapide que Flash puis A", "reason": "Une seule source (Evvelyx), interaction non décrite par le wiki." },
+    { "idea": "Dagues jumelles (A) a plus de portée lancée contre un mur / à travers un mur", "reason": "Sources divergentes (Evvelyx, Eneino) et non confirmé par le wiki." },
+    { "idea": "Rafale de plumes (R) à travers les murs", "reason": "Une seule source (Evvelyx)." },
+    { "idea": "Objet actif de dash pour réorienter les plumes, Chronomètre qui bloque la relance de la E", "reason": "Une seule source, interactions d'objets non vérifiées par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Appel des lames (E) puis Flash : les plumes en retour suivent bien ta nouvelle position (2 sources joueurs, pas de note wiki).",
+    "Evvelyx (déc. 2022) a plus de 18 mois : points retenus recoupés avec le wiki au patch 16.22 ou avec une source récente."
+  ]
+}

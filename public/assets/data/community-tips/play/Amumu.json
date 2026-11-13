@@ -1,0 +1,113 @@
+{
+  "champion": "Amumu",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Bandelette, Désespoir, auto, Colère", "en": "Bandage, Despair, auto, Tantrum" },
+      "keys": ["Q", "W", "E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche Jet de bandelette (A) et active Désespoir (Z) pendant que tu voles vers ta cible. Une auto pour la maudire, Colère (E), puis ta seconde charge de Jet de bandelette (A) pour un second stun.",
+        "en": "Land Bandage Toss (Q) and toggle Despair (W) while you fly to your target. One auto to curse it, Tantrum (E), then your second Bandage Toss (Q) charge to stun it again."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec l'ult", "en": "All-in with ult" },
+      "keys": ["Q", "W", "R", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Jet de bandelette (A), Désespoir (Z) en vol, puis Malédiction d'Amumu (R) à l'arrivée. Place une auto et Colère (E), et garde ta seconde charge de Jet de bandelette (A) pour un nouveau stun quand celui de l'ult se termine.",
+        "en": "Bandage Toss (Q), Despair (W) mid-air, then Curse of the Sad Mummy (R) as you land. Weave an auto and Tantrum (E), and keep your second Bandage Toss (Q) charge for a fresh stun when the ult stun ends."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Ult puis Flash", "en": "Ult then Flash" },
+      "keys": ["R", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Malédiction d'Amumu (R) et Flash pendant son temps d'incantation : l'ult part de ta nouvelle position, sans laisser le temps de réagir. Toujours ult puis Flash, jamais l'inverse.",
+        "en": "Cast Curse of the Sad Mummy (R) and Flash during its cast time: the ult goes off at your new spot, leaving no time to react. Always ult then Flash, never the reverse."
+      },
+      "refs": [1, 2, 3]
+    },
+    {
+      "name": { "fr": "Bandelette sur sbire, ult Flash", "en": "Minion Bandage into ult Flash" },
+      "keys": ["Q", "W", "R", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Vise un sbire proche avec Jet de bandelette (A) pour gagner de la portée, active Désespoir (Z) en vol, puis ult et Flash sur la backline. Tu engages de très loin, là où personne ne t'attend.",
+        "en": "Aim Bandage Toss (Q) at a nearby minion to gain range, toggle Despair (W) mid-air, then ult and Flash onto the backline. You engage from very far, where nobody expects you."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Jet de bandelette (A) stocke 2 charges. Si la première rate, relance aussitôt ; si elle touche, garde la seconde pour prolonger ton contrôle ou suivre un dash.",
+        "en": "Bandage Toss (Q) stores 2 charges. If the first one misses, throw again right away; if it lands, keep the second one to extend your lockdown or follow a dash."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si ta cible Flash ou dash pendant que Jet de bandelette (A) te tire vers elle, tu la suis à sa nouvelle position, tant qu'elle reste à moins de 2000 unités.",
+        "en": "If your target Flashes or dashes while Bandage Toss (Q) pulls you in, you follow it to its new position, as long as it stays within 2000 units."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier de sorts bloque l'effet de Jet de bandelette (A), mais tu fonces quand même sur la cible. Prévois la suite avant de lancer sur un champion protégé.",
+        "en": "A spell shield blocks the effect of Bandage Toss (Q), but you still dash to the target. Plan your follow-up before throwing it at a shielded champion."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Malédiction d'Amumu (R) maudit après avoir infligé ses dégâts. Maudis ta cible avec une auto avant l'ult pour qu'elle subisse aussi les 10 % de dégâts bruts du passif.",
+        "en": "Curse of the Sad Mummy (R) applies its Curse after dealing its damage. Curse your target with an auto before the ult so it also takes the passive's 10% true damage."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Chaque attaque de base que tu encaisses réduit le CD de Colère (E) de 0,75 s, même venant d'un sbire ou d'un monstre. Au milieu d'une wave, tu la relances presque en boucle.",
+        "en": "Every basic attack you take cuts the Tantrum (E) cooldown by 0.75 s, even from a minion or a monster. In the middle of a wave, you can recast it almost nonstop."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le passif de Colère (E) réduit chaque instance de dégâts physiques à part : l'auto et chaque effet à l'impact. Il est donc très fort contre ceux qui frappent en plusieurs petits coups.",
+        "en": "The Tantrum (E) passive reduces each physical damage instance separately: the auto and every on-hit effect. It is very strong against champions that hit in many small instances."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si tu meurs pendant que Jet de bandelette (A) est en vol, il continue : il peut encore stun et blesser la cible pour ton équipe.",
+        "en": "If you die while Bandage Toss (Q) is in flight, it keeps going: it can still stun and damage the target for your team."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Amumu – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Amumu", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "AMUMU- Ability & Combo Guide | League of Legends", "url": "https://www.youtube.com/watch?v=QgM1fXwOq5M", "type": "video", "date": "2025-04-07", "author": "Retz13" },
+    { "title": "3 Minute Amumu Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=pEbDd4DY3H4", "type": "video", "date": "2026-10-04", "author": "3 Minute League of Legends" },
+    { "title": "HOW TO ACTUALLY PLAY AMUMU JUNGLE CORRECTLY... STOP TROLLING!", "url": "https://www.youtube.com/watch?v=Dc33TpyGzTg", "type": "video", "date": "2026-09-07", "author": "Fz Frost" }
+  ]
+}

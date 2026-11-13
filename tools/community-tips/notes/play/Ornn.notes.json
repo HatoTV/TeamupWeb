@@ -1,0 +1,36 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "The fissure stops at maximum range or 200 units behind the first enemy champion struck. After a 1.125-second delay, a magma pillar then erupts at the location to knock aside enemies, though not through terrain, and linger as impassible terrain for 4 seconds.",
+    "The pillar will not expire during Searing Charge dash.",
+    "If launched in a wall, pillar will try to appear on the other side of the wall, if it cannot the pillar will be destroyed.",
+    "Ornn marches forward in the target direction over 0.75 seconds, gaining displacement immunity and becoming unable to act for the duration.",
+    "The final gout of flame can reach slightly farther and will apply Brittle for 3 seconds.",
+    "Bellows Breath's lunge can pass over thin, player-generated terrain (i.e R) but will otherwise not be able to.",
+    "If Ornn collides with terrain during the charge, he creates a shockwave that knocks up and stuns nearby enemies for 1.25 seconds and deals the same damage if they were not already hit by the charge.",
+    "The shockwave destroys the pillar formed by Volcanic Rupture and partially destroys terrain created by enemy champions.",
+    "Searing Charge can interact with player-generated terrain.",
+    "Ornn's and allies' immobilizing effects or silences against Brittle enemies will consume the debuff to deal bonus magic damage equal to % of the target's maximum health, and cause the crowd control to last 30% longer (if applicable).",
+    "His basic attacks on-hit against enemies afflicted with Brittle are empowered to knock them back a short distance over 0.4 seconds.",
+    "Call of the Forge God cannot be recast while grounded or rooted.",
+    "Once Ornn attempts to purchase an item, he starts forging it, causing him to channel for 4 seconds. The channel is interrupted if Ornn takes damage from enemy champions or turrets.",
+    "The second combo is W auto Q combo. This is a very basic way to trade in lane. You can Q first if you want to or you can use the Q ability after.",
+    "The third combo is QE auto combo. It's important you auto attack between some of the abilities so it can deal more damage.",
+    "The fourth combo is the QR into ERW auto combo. This is a very advanced combo which lets you again maximize your damage but this time with your alt and it's a great way to start a fight.",
+    "For combos, you'll go into his W into Q before attacking into E and attacking into W.",
+    "And a funnel in is to Q into your ultimate and W. From here, attack into ulting again to proc brittle twice, and then attack into E before attacking away.",
+    "if you put your Q in a good position you can also use that with E to engage"
+  ],
+  "rejected": [
+    { "idea": "Combo auto puis Fracture magmatique (A) pour un trade court (Daveyx3)", "reason": "Une seule source joueur et le wiki ne montre pas de reset d'auto : trop générique." },
+    { "idea": "Fournaise (Z) ne fait pas avancer Ornn sous ~190 de vitesse", "reason": "Valeur estimée par le wiki, cas trop marginal." },
+    { "idea": "Une auto sur une cible fragile met fin à l'effet sans dégâts bonus si le repoussement est bloqué", "reason": "Note wiki subtile et difficile à formuler sans contradiction." },
+    { "idea": "Combo avec Flash", "reason": "Aucun combo Flash confirmé par le wiki ni par 2 sources indépendantes." }
+  ],
+  "toVerifyInGame": [
+    "Fracture magmatique (A) lancée contre un mur fin : vérifier que la colonne apparaît de l'autre côté.",
+    "Fournaise (Z) au-dessus de Cataclysme (R) de Jarvan IV : vérifier le passage.",
+    "Relance d'Appel du dieu de la forge (R) : vérifier que la Fragilité est bien réappliquée après une auto."
+  ]
+}

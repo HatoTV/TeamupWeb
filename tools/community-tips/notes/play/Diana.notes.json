@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "If Moonlight is consumed from the target, Lunar Rush's current cooldown is reduced to 0.25 seconds.",
+    "Diana dashes to the target enemy's location, and upon completion, she deals them magic damage and consumes Crescent Strike from all enemies.",
+    "Diana can cast any of her abilities during the dash.",
+    "Lunar Rush consumes Moonlight upon ending the dash (even if interrupted).",
+    "If Lunar Rush is blocked by spell shield the Moonlight debuff is still consumed but Lunar Rush's cooldown is not reset.",
+    "If all three spheres detonate, Pale Cascade's shield is reapplied, stacking with its original shield and refreshing the duration.",
+    "Diana gains bonus attack speed. After casting an ability, this bonus is tripled to for 5 seconds.",
+    "At 2 stacks, Diana empowers her next basic attack to consume the stacks on-hit to additionally cleave nearby enemies",
+    "Crowd control immunity and displacement immunity still count as being pulled in by the ability.",
+    "Moonfall's additional damage is not capped at 4 champions.",
+    "Enemy champions protected by spell shield do not count towards the damage increase.",
+    "If you use E after Q hits, you can get a second reset of E. You can cast E while Q is traveling. You don't need to wait for Q to hit first to reset the ability.",
+    "You can also activate W while Diana is in the air",
+    "The main and basic thing is to launch the R combo, launch the R while Diana is moving in the air. This is the fastest way to cast your ultimate",
+    "The first one we're going to look at is Q plus flash plus E R.",
+    "Always launch the Q before the flash to do it as quickly as possible.",
+    "Basic combo: Q, then W and E. Then just attack, using E to chase.",
+    "And for team combat: Q, E and ult. Use W during attacks and E again if needed.",
+    "Jumping onto a target with a Q tag resets E's cooldown.",
+    "And if all three explode, she gets the shield again.",
+    "After using the skill, this bonus is tripled for 5 seconds, which is very significant.",
+    "l'idée c'est de faire ton air pendant l'animation du jeu ce qui est intéressant avec ce combo c'est normalement ton air à une animation de sort aussi sauf que si tu fais ton air pendant ton veux tu va annuler l'animation du 1er",
+    "l'idée ça sera de commencer l'animation de fonds à et de faire ton flash pendant l'animation et pas avant l'idée c'est qu'en faisant un à flasher l'ennemi aura beaucoup moins de temps de réaction",
+    "faut vraiment pas négliger les autos attaque avec diana"
+  ],
+  "rejected": [
+    { "idea": "R then Flash during the cast to pull a grouped team (Chamallow San)", "reason": "Single clear source; Lunar Hero's E+R+F order is ambiguous in the transcript." },
+    { "idea": "E + Flash + R and E + R + Flash team engage (Lunar Hero)", "reason": "Single source for the exact sequence." },
+    { "idea": "Triple E tech and E+Q second reset (Lunar Hero)", "reason": "Single source, the author says himself it is rare and has no clean clip." },
+    { "idea": "Delay your second E so the enemy wastes Flash first (Chamallow San)", "reason": "Single source, general advice rather than a mechanic." }
+  ],
+  "toVerifyInGame": [
+    "Lunar Rush (E) cast while Crescent Strike (Q) is still flying: the reset depends on Q landing before the dash ends.",
+    "Moonfall (R) during the Lunar Rush (E) dash: how much animation time it really saves."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "champion": "Poppy",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Charge contre le mur", "en": "Charge into the wall" },
+      "keys": ["W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Présence immuable (Z) si l'ennemi peut dash, puis Charge héroïque (E) pour l'écraser contre un mur et l'étourdir. Ensuite auto, Commotion (A), auto.",
+        "en": "Steadfast Presence (W) if the enemy can dash, then Heroic Charge (E) to slam them into a wall and stun them. Then auto, Hammer Shock (Q), auto."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Sans mur : ult en tap", "en": "No wall: tapped ult" },
+      "keys": ["E", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Charge héroïque (E), auto puis Commotion (A). Tape Verdict de la gardienne (R) sans charger : le knock-up garde l'ennemi dans la zone de Commotion jusqu'à sa seconde explosion.",
+        "en": "Heroic Charge (E), auto then Hammer Shock (Q). Tap Keeper's Verdict (R) without charging: the knock-up keeps the enemy in the Hammer Shock zone until it erupts again."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Charge héroïque (E) étourdit aussi contre un terrain créé par un champion, comme Cristallisation (Z) d'Anivia ou Cataclysme (R) de Jarvan IV.",
+        "en": "Heroic Charge (E) also stuns against champion-made terrain, like Anivia's Crystallize (W) or Jarvan IV's Cataclysm (R)."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Charge héroïque (E) ne suit pas la cible : la direction est fixée au lancement. Une cible qui bouge au même instant peut sortir de la trajectoire.",
+        "en": "Heroic Charge (E) does not follow the target: its direction is set on cast. A target moving at that moment can slip out of the path."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Présence immuable (Z) n'arrête pas un dash imparable ou insensible aux contrôles, comme Force indomptable (R) de Malphite, ni les simples bonds en avant.",
+        "en": "Steadfast Presence (W) does not stop an unstoppable or crowd-control-immune dash, like Malphite's Unstoppable Force (R), nor simple lunges."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Le passif de Présence immuable (Z) augmente ton armure et ta RM de 16 %, puis de 32 % sous 40 % de PV : tu tiens mieux quand tu es low.",
+        "en": "Steadfast Presence's (W) passive raises your armor and MR by 16%, then by 32% below 40% health: you hold better when you are low."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Après le lancer de ton bouclier (passif), marche dessus pour gagner un shield. Un champion ennemi peut aussi passer dessus pour le détruire.",
+        "en": "After your buckler throw (passive), walk over it to gain a shield. An enemy champion can also step on it to destroy it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Charge Verdict de la gardienne (R) au moins 0,5 s pour envoyer les ennemis vers leur fontaine. Si tu ne relâches pas à temps, l'ult part 30 s en CD.",
+        "en": "Charge Keeper's Verdict (R) for at least 0.5 s to send enemies toward their fountain. If you don't release in time, the ult goes on a 30 s cooldown."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Verdict de la gardienne (R) chargé et sans ennemi juste devant toi envoie une onde qui avance jusqu'au premier champion touché, puis explose sur lui.",
+        "en": "A charged Keeper's Verdict (R) with no enemy right in front of you sends a shockwave that travels to the first champion hit, then erupts on them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La projection de Verdict de la gardienne (R) ne peut pas être purifiée : un ennemi touché ne peut pas s'en libérer avec un effet de purge.",
+        "en": "Keeper's Verdict (R) knock-back cannot be cleansed: a hit enemy cannot free themselves with a cleanse effect."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Poppy - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Poppy", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Poppy Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=90S_p7k4whs", "type": "video", "date": "2025-12-18", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE POPPY SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=e8wo-Qwokes", "type": "video", "date": "2026-02-10", "author": "EXYT - League of Legends" }
+  ]
+}

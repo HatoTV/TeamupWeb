@@ -1,123 +1,57 @@
-@if (mode() === 'pair' || showGeneral()) {
-  <section class="ct card" [attr.aria-labelledby]="mode() === 'vs' ? 'ct-vs-title' : 'ct-title'" [attr.aria-busy]="loading()">
-    <header class="ct__head">
-      <div class="ct__heading">
-        @if (mode() === 'vs') {
-          <h2 id="ct-vs-title" class="ct__title">{{ 'COMMUNITY_TIPS.VS_TITLE' | translate: { champion: vs().name } }}</h2>
-          <p class="ct__subtitle">{{ 'COMMUNITY_TIPS.VS_GENERAL' | translate }}</p>
-        } @else {
-          <h2 id="ct-title" class="ct__title">{{ 'COMMUNITY_TIPS.TITLE' | translate }}</h2>
-          <p class="ct__subtitle">{{ 'COMMUNITY_TIPS.SUBTITLE' | translate }}</p>
-        }
-      </div>
-      @if (needsRecheck()) {
-        <span class="ct__recheck">{{ 'COMMUNITY_TIPS.NEEDS_RECHECK' | translate }}</span>
-      }
-    </header>
+<section class="ct card" aria-labelledby="ct-title" [attr.aria-busy]="loading()">
+  <header class="ct__head">
+    <div>
+      <h2 id="ct-title" class="ct__title">{{ 'COMMUNITY_TIPS.TITLE' | translate }}</h2>
+      <p class="ct__subtitle">{{ 'COMMUNITY_TIPS.SUBTITLE' | translate }}</p>
+    </div>
+    @if (needsRecheck()) {
+      <span class="ct__recheck">{{ 'COMMUNITY_TIPS.NEEDS_RECHECK' | translate }}</span>
+    }
+  </header>
 
-    @if (loading()) {
-      <p class="ct__state">{{ 'MATCHUPSPAGE.LOADING' | translate }}</p>
-    } @else if (mode() === 'vs') {
-      <ng-container *ngTemplateOutlet="tipList; context: { $implicit: general() }" />
-    } @else if (tips().length) {
-      <div class="ct__perspective">
-        <p class="ct__for">{{ 'COMMUNITY_TIPS.FOR' | translate: { me: me()!.name, vs: vs().name } }}</p>
-        <button type="button" class="btn btn--secondary btn--sm ct__reverse" (click)="reverse.emit()">
-          <app-icon name="swap" [size]="16" />
-          {{ 'LOL.MATCHUPS.REVERSE' | translate }}
-        </button>
-      </div>
-      <ng-container *ngTemplateOutlet="tipList; context: { $implicit: tips() }" />
-      @if (general().length) {
-        <details class="ct__more">
-          <summary class="ct__more-summary">
-            {{ 'COMMUNITY_TIPS.VS_LINK' | translate: { champion: vs().name } }}
-            <app-icon class="ct__chevron" name="chevron-down" [size]="16" />
-          </summary>
-          <ng-container *ngTemplateOutlet="tipList; context: { $implicit: general() }" />
-          <ng-container *ngTemplateOutlet="sourceList; context: { $implicit: generalSources(), version: vsFile()!.gameVersion }" />
-        </details>
-      }
-    } @else if (showGeneral()) {
-      <div class="ct__perspective">
-        <div>
-          <h3 class="ct__for ct__for--general">{{ 'COMMUNITY_TIPS.VS_TITLE' | translate: { champion: vs().name } }}</h3>
-          <p class="ct__general">{{ 'COMMUNITY_TIPS.VS_GENERAL' | translate }}</p>
-        </div>
-        @if (onlyOtherSide()) {
+  @if (loading()) {
+    <p class="ct__state">{{ 'MATCHUPSPAGE.LOADING' | translate }}</p>
+  } @else if (tips().length || general().length) {
+    <div class="ct__body">
+      @if (tips().length) {
+        <h3 class="ct__sub">{{ 'COMMUNITY_TIPS.FOR' | translate: { me: me()!.name, vs: vs().name } }}</h3>
+        <ul class="ct__list" [attr.lang]="lang()">
+          @for (tip of tips(); track $index) {
+            <li class="ct__tip">{{ tip.text }}</li>
+          }
+        </ul>
+      } @else if (onlyOtherSide()) {
+        <div class="ct__other">
+          <p>{{ 'COMMUNITY_TIPS.SIDE_NOT_ENOUGH' | translate: { champion: me()!.name } }}</p>
           <button type="button" class="btn btn--secondary btn--sm ct__reverse" (click)="reverse.emit()">
             <app-icon name="swap" [size]="16" />
             {{ 'COMMUNITY_TIPS.SEE_OTHER_SIDE' | translate: { champion: vs().name } }}
           </button>
-        }
-      </div>
-      <ng-container *ngTemplateOutlet="tipList; context: { $implicit: general() }" />
-    } @else if (onlyOtherSide()) {
-      <div class="ct__state ct__state--empty">
-        <p class="ct__empty-title">{{ 'COMMUNITY_TIPS.SIDE_NOT_ENOUGH' | translate: { champion: me()!.name } }}</p>
-        <button type="button" class="btn btn--secondary btn--sm ct__reverse" (click)="reverse.emit()">
-          <app-icon name="swap" [size]="16" />
-          {{ 'COMMUNITY_TIPS.SEE_OTHER_SIDE' | translate: { champion: vs().name } }}
-        </button>
-      </div>
-    } @else {
-      <div class="ct__state ct__state--empty">
-        <p class="ct__empty-title">
-          {{ (file()?.status === 'insufficientSources' ? 'COMMUNITY_TIPS.INSUFFICIENT_TITLE' : 'COMMUNITY_TIPS.EMPTY_TITLE') | translate }}
-        </p>
-        <p>{{ 'COMMUNITY_TIPS.EMPTY_HINT' | translate }}</p>
-      </div>
-    }
-
-    @if (!loading()) {
-      @if (showGeneral()) {
-        <ng-container *ngTemplateOutlet="sourceList; context: { $implicit: generalSources(), version: vsFile()!.gameVersion }" />
-      } @else if (sources().length) {
-        <ng-container *ngTemplateOutlet="sourceList; context: { $implicit: sources(), version: file()!.gameVersion }" />
+        </div>
       }
-    }
-  </section>
-}
-
-<ng-template #tipList let-list>
-  <ol class="ct__list" [attr.lang]="lang()">
-    @for (tip of list; track $index) {
-      <li class="ct__tip">
-        <p class="ct__text">{{ tip.text }}</p>
-        <p class="ct__consensus">
-          <span class="ct__dots" aria-hidden="true">
-            @for (d of dots; track d) {
-              <span class="ct__dot" [class.is-on]="d <= filled(tip)"></span>
-            }
-          </span>
-          <span>
-            {{ (tip.sources > 1 ? 'COMMUNITY_TIPS.CITED_MANY' : 'COMMUNITY_TIPS.CITED_ONE') | translate: { n: tip.sources } }}
-            @if (tip.verifiedByGameData) {
-              · {{ 'COMMUNITY_TIPS.VERIFIED' | translate }}
-            }
-          </span>
-        </p>
-      </li>
-    }
-  </ol>
-</ng-template>
-
-<ng-template #sourceList let-list let-version="version">
-  @if (list.length) {
-    <details class="ct__sources">
-      <summary class="ct__sources-summary">
-        {{ 'COMMUNITY_TIPS.SOURCES' | translate: { n: list.length } }}
-        <app-icon class="ct__chevron" name="chevron-down" [size]="16" />
-      </summary>
-      <ul class="ct__sources-list">
-        @for (s of list; track s.url) {
-          <li>
-            <a [href]="s.url" target="_blank" rel="nofollow noopener noreferrer">{{ s.title }}</a>
-            <span class="ct__source-meta">{{ s.site }} · {{ 'COMMUNITY_TIPS.CONSULTED' | translate: { date: s.date } }}</span>
-          </li>
-        }
-      </ul>
-      <p class="ct__method">{{ 'COMMUNITY_TIPS.METHOD' | translate: { version } }}</p>
-    </details>
+      @if (general().length) {
+        <h3 class="ct__sub ct__sub--general">{{ 'COMMUNITY_TIPS.VS_LINK' | translate: { champion: vs().name } }}</h3>
+        <ul class="ct__list ct__list--general" [attr.lang]="lang()">
+          @for (tip of general(); track $index) {
+            <li class="ct__tip">{{ tip.text }}</li>
+          }
+        </ul>
+      }
+    </div>
+  } @else if (onlyOtherSide()) {
+    <div class="ct__state ct__state--empty">
+      <p class="ct__empty-title">{{ 'COMMUNITY_TIPS.SIDE_NOT_ENOUGH' | translate: { champion: me()!.name } }}</p>
+      <button type="button" class="btn btn--secondary btn--sm ct__reverse" (click)="reverse.emit()">
+        <app-icon name="swap" [size]="16" />
+        {{ 'COMMUNITY_TIPS.SEE_OTHER_SIDE' | translate: { champion: vs().name } }}
+      </button>
+    </div>
+  } @else {
+    <div class="ct__state ct__state--empty">
+      <p class="ct__empty-title">
+        {{ (file()?.status === 'insufficientSources' ? 'COMMUNITY_TIPS.INSUFFICIENT_TITLE' : 'COMMUNITY_TIPS.EMPTY_TITLE') | translate }}
+      </p>
+      <p>{{ 'COMMUNITY_TIPS.EMPTY_HINT' | translate }}</p>
+    </div>
   }
-</ng-template>
+</section>

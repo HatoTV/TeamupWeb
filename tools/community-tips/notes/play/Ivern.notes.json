@@ -1,0 +1,39 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Daisy! dashes to rooted monsters, and enemy champions if within 1200 units when Rootcaller hits.",
+    "Ivern and allied champions can issue an attack order against the target rooted by Rootcaller to dash to their location, stopping at their attack range.",
+    "Rootcaller's dash is disabled while the user is grounded or rooted when targeting via either means (applies to Ivern and his allies).",
+    "Rootcaller's dash does not follow targets, their position at the time of starting the dash is the relative range Ivern and his allies will stop at.",
+    "Against a target with 2 stacks, Daisy's next basic attack gains 325 bonus attack range and is empowered to charge up for 0.625 seconds to send a shockwave in a line",
+    "stuns and knocks them up for 1 second. Daisy Smash! cannot occur again for 3 seconds.",
+    "Daisy's basic attacks on-attack apply stacks of Daisy Smash!, resetting whenever she attacks a new target.",
+    "Daisy gains 40% bonus movement speed for the first 5 seconds after spawning.",
+    "The damage of Triggerseed is attributed to the champion the shield was cast on.",
+    "grants them credit for all kills on enemy units that it causes. triggers turret aggro on them if it deals damage to an enemy champion.",
+    "If the seed does not damage an enemy champion and the shield persists by the end of the duration, the shield is reapplied for the same strength and duration without the explosion effect.",
+    "Brushes despawn instantly after allied vision within them is lost.",
+    "A brush is immediately exposed if grown within an enemy turret's sight radius of 1350.",
+    "Interrupting Ivern's channel is the only way to contest jungle camps, short of killing the camp during the channel time.",
+    "Using Smite on a monster within the grove will instantly free the camp regardless of maturity.",
+    "The recast of Daisy! can be used while affected by cast-inhibiting crowd control.",
+    "Pour les combos, la technique de prédilection d'Ivan est W suivi de son ultime. Utilisez E sur Daisy avant d'enchaîner avec Q et d'attaquer.",
+    "Si cette explosion ne touche pas d'ennemi, le bouclier dure deux secondes supplémentaires.",
+    "So you'll see here like when I spawn in Daisy, she'll be like way quicker. And this is where I let her get to the end. I pop the shield on her while she's running someone down. Slows them and then she like can hit hit",
+    "she does one, two autos and then her third auto is a ranged attack.",
+    "you can count in your head real simple like bang bang and then the third one's knockup.",
+    "you can use this Q to the Q roots the enemy and then you can recast it or reauto attack to then travel along the queue.",
+    "You literally summon a pet and then after three autos, it knocks up. So, it deals damage for us. You can shield Daisy.",
+    "Ulti. Q. Get him. Daisy."
+  ],
+  "rejected": [
+    { "idea": "Shield (E) on Ivern during the grove channel prevents damage from breaking the channel (Soltex)", "reason": "Single source, author himself unsure, not on the wiki." },
+    { "idea": "Dunk Master skin hides the Daisy Smash! visual (Soltex)", "reason": "Skin visual bug, single source." },
+    { "idea": "Hold Rootcaller (Q) until right on top of the target (Sawyer Jungle)", "reason": "Single offhand remark, no detail." }
+  ],
+  "toVerifyInGame": [
+    "Daisy dashing onto a Rootcaller (Q) target: the 1200-unit range is an estimate on the wiki.",
+    "Triggerseed (E) on Daisy right after she spawns: whether the slow reliably gives her the two autos before the shockwave."
+  ]
+}

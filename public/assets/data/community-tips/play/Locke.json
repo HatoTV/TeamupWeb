@@ -1,0 +1,111 @@
+{
+  "champion": "Locke",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trois Clous puis Traque", "en": "Three Nails, then Pursuit" },
+      "keys": ["Q", "Q", "Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Place les trois Clous rituels (A) à distance, puis blink sur la cible avec Traque cendrée (E) et enchaîne le dash ou une auto pour consommer les trois marques d'un coup.",
+        "en": "Land all three Ritual Nails (Q) from range, then blink onto the target with Ashen Pursuit (E) and follow with the dash or an auto to consume all three marks at once."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage Traque puis Clous", "en": "Pursuit engage into Nails" },
+      "keys": ["E", "Q", "Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Blink avec Traque cendrée (E) pour entrer à portée, lance tes Clous rituels (A) de près, puis termine par le dash renforcé de Traque pour faire exploser les marques.",
+        "en": "Blink with Ashen Pursuit (E) to get in range, throw your Ritual Nails (Q) up close, then finish with the empowered Pursuit dash to detonate the marks."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Clous et Traque entrelacés", "en": "Nails woven with Pursuit" },
+      "keys": ["Q", "E", "Q", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Un Clou, puis le blink de Traque cendrée (E) consomme la marque ; un deuxième Clou avant le dash, que le dash consomme ; dernier Clou et auto. Burst rapide sans attendre trois marques.",
+        "en": "One Nail, then the Ashen Pursuit (E) blink consumes the mark; a second Nail before the dash, which consumes it; last Nail and an auto. Fast burst without waiting for three marks."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Clous rituels avec Flash", "en": "Ritual Nails with Flash" },
+      "keys": ["Q", "F"],
+      "level": "hard",
+      "desc": {
+        "fr": "Flash pendant le lancer de Clous rituels (A) pour surprendre une cible hors de portée, idéal quand elle porte déjà deux marques : une auto déclenche ensuite la troisième.",
+        "en": "Flash during the Ritual Nails (Q) cast to catch a target out of range, best when they already carry two marks: an auto then triggers the third."
+      },
+      "summoners": { "F": "SummonerFlash" },
+      "refs": [1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Le dash renforcé de Traque cendrée (E) traverse un mur si ta cible est de l'autre côté. Sa distance est fixe : un sbire collé à toi suffit à passer un mur fin.",
+        "en": "The empowered Ashen Pursuit (E) dash crosses a wall if your target is on the other side. Its distance is fixed: a minion right next to you is enough to pass a thin wall."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un kill ou une assist sur un champion remet Traque cendrée (E) à zéro, même pendant que l'effet est actif : tu peux enchaîner sur la cible suivante ou repartir en sécurité.",
+        "en": "A champion kill or assist resets Ashen Pursuit (E), even while its effect is active: you can chain onto the next target or get back to safety."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "À partir de deux Clous rituels (A) sur une cible, le slow passe de 25 % pendant 1 s à 60 % pendant 2 s : le troisième Clou devient bien plus facile à placer.",
+        "en": "Once a target has two Ritual Nails (Q) on it, the slow goes from 25% for 1 s to 60% for 2 s: the third Nail becomes much easier to land."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Chaque relance de Clous rituels (A) non utilisée te rend une partie du CD et du mana. Si tu rates le premier Clou, garde les autres plutôt que de les gaspiller.",
+        "en": "Each unused Ritual Nails (Q) recast refunds part of the cooldown and mana. If you miss the first Nail, keep the others instead of wasting them."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Brûlure d'âme (Z) est le seul sort que tu peux lancer pendant le dash de Traque cendrée (E) ; les autres sorts attendent la fin du dash.",
+        "en": "Soul Ignition (W) is the only ability you can cast during the Ashen Pursuit (E) dash; your other abilities are queued until it ends."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La relance de Brûlure d'âme (Z), qui convertit ta vie grise en soin, marche même sous un CC qui bloque tes sorts : ne la perds pas sur un stun.",
+        "en": "The Soul Ignition (W) recast, which turns your grey health into healing, works even under crowd control that blocks your spells: don't lose it to a stun."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le totem de Purgatoire (R) est un projectile : un mur de vent peut le détruire en vol. Les clous qu'il tire une fois posé, eux, ne peuvent pas être bloqués ainsi.",
+        "en": "The Purgatory (R) totem is a projectile: a wind wall can destroy it in flight. The nails it fires once it lands cannot be blocked that way."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Locke - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Locke", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "An Actual Locke Guide", "url": "https://www.youtube.com/watch?v=DvKcdOE9b1E", "type": "video", "date": "2026-09-04", "author": "tothericefields" },
+    { "title": "Everyone Plays Locke — Almost Nobody Plays Him Correctly", "url": "https://www.youtube.com/watch?v=DK4ckiVBbpI", "type": "video", "date": "2026-11-05", "author": "Zoose" }
+  ]
+}

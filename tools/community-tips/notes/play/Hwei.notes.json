@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Hwei's damaging abilities mark enemies hit for 4 seconds. Subsequent damaging abilities against marked targets consume the mark to create an explosion beneath them",
+    "The ability that consumes the mark cannot apply it on the same cast instance.",
+    "The explosion occurs around the marked target from where they were when the ability damaged them to consume the mark.",
+    "The target who had their mark consumed is able to escape the area of the explosion within the delay period.",
+    "Hwei exits his current mood without incurring its ability cost or cooldown, toggling it off.",
+    "Wash Brush can only be cast if Hwei has entered a mood, and can be used while affected by cast-inhibiting crowd control.",
+    "Spiraling Despair can only be cast if Hwei has not entered a mood.",
+    "Hwei calls upon a lightning bolt to strike at the target location after 1 second, dealing magic damage to enemies within the area.",
+    "If Severing Bolt hits only one enemy or immobilize enemies, it deals increased damage based on the target's missing health.",
+    "Hwei forms a current of water in the target direction, creating a path for a duration that grants him and allied champions bonus movement speed and ghosting",
+    "Hwei surrounds himself in swirling flares that empower his next 3 basic attacks or ability hits within 9 seconds to each deal bonus magic damage and restore mana.",
+    "After 0.7 seconds of being placed, the eye locks onto the nearest visible enemy champion or otherwise remains there until an enemy champion is in range.",
+    "Enemies that are not standing at the center when the jaw snaps are pulled there.",
+    "For combos, in lane use QE into EE to drag your opponent into the shockwave while you farm.",
+    "Your go-to is to WE into EQ into QQ then attack and ultimate to fear your opponent away and great damage.",
+    "And if escaping, start WQ into EW. And if your opponent gets caught out, use QW.",
+    "Hwei's passive is when he damages an enemy with two separate abilities, after a short delay, he creates an explosion underneath them dealing damage to all enemies hit.",
+    "Start with QE to force movement, then cast E to pull enemies back into the zone.",
+    "Start with EW to set a trap in force paths like jungle entrances, choke",
+    "QW is then placed on the snared enemy, layering guaranteed damage while they're locked down.",
+    "Place it into fog or brushes before you walk up.",
+    "EQ is your emergency button to fear the target chasing you. Once they're feared, R is guaranteed, locking them in place.",
+    "Enemies with dashes or blinks can escape the explosion.",
+    "Activate WE before trading. The empowered autos help you proc your passive faster and win short exchanges."
+  ],
+  "rejected": [
+    { "idea": "EQ + Flash immédiat pour un fear surprise (Zoose).", "reason": "Une seule source, rien dans le wiki ; non retenu." },
+    { "idea": "Seules les autos sous WE comptent pour le passif (Zoose).", "reason": "Absent du wiki (le passif se déclenche par des sorts) ; écarté." },
+    { "idea": "Passif déclenché deux fois par rotation (Zoose).", "reason": "Une seule source, formulation floue." },
+    { "idea": "QE sur Baron/Dragon pour la DPS d'objectif (Zoose).", "reason": "Conseil général, pas une mécanique propre." }
+  ],
+  "toVerifyInGame": [
+    "Mâchoires chatoyantes lancées pendant que Champ de lave est actif : la cible tirée au centre reste bien dans la lave (dépend de l'alignement).",
+    "Annulation d'humeur avec R (Wash Brush) : comportement selon les réglages de lancement rapide."
+  ]
+}

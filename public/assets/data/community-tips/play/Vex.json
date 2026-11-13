@@ -1,0 +1,120 @@
+{
+  "champion": "Vex",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Ténèbres, mistral, cri", "en": "Darkness, bolt, scream" },
+      "keys": ["E", "Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Ténèbres imminentes (E) ralentit et marque la cible de Désespoir. Mistral perdant (A) fait exploser la marque, puis avance pour finir avec Lâchez-moi ! (Z) et une auto.",
+        "en": "Looming Darkness (E) slows and marks the target with Gloom. Mistral Bolt (Q) detonates the mark, then step in to finish with Personal Space (W) and an auto."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec l'ult", "en": "All-in with ult" },
+      "keys": ["R", "R", "W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Déferlement d'Ombre (R) et réactive-le pour foncer sur la cible. À l'arrivée, Lâchez-moi ! (Z) déclenche la peur, puis Ténèbres imminentes (E) et Mistral perdant (A) finissent le burst.",
+        "en": "Land Shadow Surge (R) and recast it to dash onto the target. On arrival, Personal Space (W) triggers the fear, then Looming Darkness (E) and Mistral Bolt (Q) finish the burst."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Flash, Lâchez-moi !", "en": "Flash, Personal Space" },
+      "keys": ["F", "W"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "easy",
+      "desc": {
+        "fr": "Avec la peur de ton passif prête, Flash sur un carry puis lance tout de suite Lâchez-moi ! (Z). La peur part dès que tu atterris, sans skillshot à viser.",
+        "en": "With Doom ready, Flash onto a carry and immediately cast Personal Space (W). The fear fires as soon as you land, with no skillshot to aim."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Mistral avec Flash", "en": "Mistral Bolt with Flash" },
+      "keys": ["Q", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Mistral perdant (A) et Flash pendant son court temps d'incantation : le sort part de ta position d'arrivée. Tu surprends une cible qui se croyait hors de portée.",
+        "en": "Cast Mistral Bolt (Q) and Flash during its short cast time: the spell fires from where you land. You catch a target that thought it was out of range."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "L'auto qui fait exploser Désespoir n'est plus un projectile. Elle traverse le Mur de vent de Yasuo : il ne peut pas la bloquer après un dash.",
+        "en": "The auto that detonates Gloom is no longer a projectile. It goes through Yasuo's Wind Wall: he can't block it after a dash."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "La peur de ton passif renforce seulement ton prochain sort de base : Déferlement d'Ombre (R) ne le consomme pas. Garde ta peur pour l'arrivée de ton dash sur la cible.",
+        "en": "Doom only empowers your next basic ability: Shadow Surge (R) doesn't consume it. Keep your fear for when your dash lands on the target."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Si Ténèbres imminentes (E) déclenche la peur de ton passif, les ennemis fuient le centre de la zone. Anticipe cette direction pour placer Mistral perdant (A) derrière.",
+        "en": "If Looming Darkness (E) triggers Doom, enemies flee from the center of the area. Anticipate that direction to land Mistral Bolt (Q) behind."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Désespoir marque tout ennemi qui dash ou se téléporte près de toi, même intouchable, mais pas un ennemi projeté. Chaque marque consommée réduit le CD de la peur de ton passif.",
+        "en": "Gloom marks any enemy who dashes or blinks near you, even untargetable, but not a displaced enemy. Each mark you consume lowers Doom's cooldown."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La zone de Ténèbres imminentes (E) grandit avec la distance de lancer. Vise loin pour nettoyer la wave, tout près de toi pour une peur presque immédiate.",
+        "en": "Looming Darkness (E) grows with cast distance. Aim far to clear the wave, right next to you for an almost instant fear."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La réactivation de Déferlement d'Ombre (R) suit la cible sans limite de distance. Si elle Flash pour fuir, ton dash la rattrape quand même.",
+        "en": "Recasting Shadow Surge (R) follows the target with no distance limit. If they Flash away, your dash still catches them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Participe à la mort de la cible marquée dans les 8 secondes : tu peux relancer Déferlement d'Ombre (R) gratuitement pendant 12 secondes. Enchaîne sur la cible suivante.",
+        "en": "Take part in the marked target's death within 8 seconds: you can cast Shadow Surge (R) again for free for 12 seconds. Chain onto the next target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "La peur de ton passif reste active même si tu meurs. Lancée juste avant ta mort, elle laisse tes alliés profiter du contrôle.",
+        "en": "Doom's fear stays active even if you die. Cast right before you die, it still lets your allies use the crowd control."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Vex - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Vex", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Vex Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=C_ZKLcqZKK0", "type": "video", "date": "2026-09-08", "author": "3 Minute League of Legends" },
+    { "title": "Nobody Plays Vex — Secretly One of the Strongest Solo Queue Mids", "url": "https://www.youtube.com/watch?v=mVIQiKd_k5w", "type": "video", "date": "2025-12-15", "author": "Zoose" }
+  ]
+}

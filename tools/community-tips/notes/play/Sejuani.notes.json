@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Arctic Assault can be cast during her other abilities without cancelling them and vice versa.",
+    "Arctic Assault has no minimum dash range.",
+    "Champions will be slightly knocked back, while minions and monsters will instead be slightly pulled for a fixed distance. Neither can displace through terrain.",
+    "If the dash collides with an enemy champion, Sejuani will be ordered to basic attack them.",
+    "Sejuani can move during Winter's Wrath's cast time.",
+    "Both swings will strike in the cast direction, but the second swing will do so from Sejuani's location at the end of the cast time.",
+    "After the cast time, Sejuani lashes out with her flail in a line in the same direction, dealing physical damage to enemies hit and slowing them by 75% for 0.25 seconds.",
+    "Enemies stunned by Sejuani are marked Frozen for the disable's duration. Sejuani's next basic attack or ability against a Frozen enemy will consume the mark to deal bonus magic damage equal to 10% of their maximum health",
+    "Sejuani gains Frost Armor, which lingers for 3 seconds after taking damage from enemy champions, turrets, or large monsters.",
+    "Frost Armor: Sejuani gains slow immunity, cripple immunity, bonus armor, and bonus magic resistance.",
+    "Winter's Wrath and both Sejuani's and nearby allied melee champions' basic attacks on-hit apply stacks of Frost to enemy champions",
+    "Sejuani hurls a trap at the visible enemy with 4 stacks of Frost closest to the cursor, which deals magic damage, displaces them slightly, and stuns them for 1 second.",
+    "If the bola travels at least 425 units, it becomes empowered to detonate upon reaching maximum range or hitting an enemy champion, dealing increased magic damage and stun for 1.5 seconds instead.",
+    "I also didn't know that you can't use your E if you don't see the enemy, like in a bush or something.",
+    "Apparently, if you put someone who's near the wall in line , you don't jump over the wall?",
+    "Tip three: Sejuani's main combo is automatically canceling the Q animation with her W auto-attack, followed by her E. If you do everything correctly, it will all blend together and result in a very smooth stun combo.",
+    "Tip four, your long-range attack is Q plus ultimate. It covers a good portion of the animation during Q and may surprise",
+    "Pour les combos, enchaînez avec Q pour une attaque, W pour une autre attaque, puis E avant d'attaquer à distance.",
+    "Votre combo d'engagement consiste à utiliser votre ultime, puis Q et W avant d'attaquer. Et votre combo d'engagement à longue portée consiste à utiliser Q puis votre ultime.",
+    "ennemis étourdis par elle sont marqués comme gelés et sa prochaine attaque ou capacité contre eux infligera des dégâts bonus de santé maximale.",
+    "Son deuxième passif est son armure de givre qu'elle acquiert périodiquement et qui persiste pendant 3 secondes après avoir subi des dégâts.",
+    "Winter's Wrath, Sejuani's basic attacks, and nearby allied melee champions' basic attacks apply Frost stacks",
+    "If the bola travels at least 425 units before hitting, it becomes empowered",
+    "The gank combo is: approach from fog of war → Arctic Assault (Q) dash-knockup → auto-attack"
+  ],
+  "rejected": [
+    { "idea": "Assaut arctique puis Flash pour changer la direction du dash (EcoreLoL)", "reason": "Combo Flash d'une seule source joueur (Dodge.gg parle de Flash puis Assaut, autre ordre) ; interaction non décrite explicitement par le wiki." },
+    { "idea": "Flash pendant la seconde partie de Colère de l'hiver (EcoreLoL)", "reason": "Combo Flash d'une seule source." },
+    { "idea": "Immunité de 8 s aux marques de givre après Permafrost (Dodge.gg)", "reason": "Note du wiki tronquée dans l'outil, non vérifiable ici." },
+    { "idea": "Combo long avec Hydre titanesque pour réinitialiser l'attaque (EcoreLoL)", "reason": "Dépend d'un objet, une seule source." }
+  ],
+  "toVerifyInGame": [
+    "Délai exact de retour de l'armure de givre (12 à 6 s selon le niveau d'après le wiki).",
+    "Prison de glace (R) lancée pendant Assaut arctique (A) : vérifier la position de départ de la bola."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "champion": "Renekton",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade complet avec double dash", "en": "Full trade with double dash" },
+      "keys": ["E", "W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Tranche et coupe (E) sur l'ennemi, auto puis Prédateur impitoyable (Z) pour le stun. Auto, Destruction des faibles (A), auto, puis la relance de Tranche et coupe pour sortir.",
+        "en": "Slice and Dice (E) onto the enemy, auto then Ruthless Predator (W) for the stun. Auto, Cull the Meek (Q), auto, then recast Slice and Dice to get out."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Stun annulé par l'ult", "en": "Stun cancelled by ult" },
+      "keys": ["W", "R", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Auto, Prédateur impitoyable (Z), puis Dominus (R) tout de suite : l'ult coupe le temps mort qui suit le stun. Enchaîne Destruction des faibles (A) et auto.",
+        "en": "Auto, Ruthless Predator (W), then Dominus (R) right away: the ult cuts the lockout that follows the stun. Chain Cull the Meek (Q) and auto."
+      },
+      "refs": [0, 1, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "À 50 pts de Fureur ou plus, ton prochain sort consomme 50 pts pour être renforcé : Destruction des faibles (A), Prédateur impitoyable (Z) ou la relance de Tranche et coupe (E). Le premier dash n'en consomme pas.",
+        "en": "At 50 Fury or more, your next empowered ability spends 50 Fury: Cull the Meek (Q), Ruthless Predator (W) or the Slice and Dice (E) recast. The first dash does not spend it."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Sous 50 % de PV, Règne de la colère (passif) te fait gagner 50 % de Fureur en plus : ton prochain sort renforcé revient bien plus vite quand tu es low.",
+        "en": "Below 50% health, Reign of Anger (passive) gives you 50% more Fury: your next empowered ability comes much faster when you are low."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Prédateur impitoyable (Z) renforcé brise le shield de la cible au tout début de l'attaque et étourdit 1,5 s. Garde ta Fureur pour lui contre un ennemi qui shield.",
+        "en": "Empowered Ruthless Predator (W) breaks the target's shield at the very start of the attack and stuns for 1.5 s. Save your Fury for it against a shielding enemy."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si la cible devient inciblable ou meurt pendant l'attaque de Prédateur impitoyable (Z), l'attaque est annulée mais le sort reste disponible.",
+        "en": "Ruthless Predator (W) is not spent if its target dies or turns untargetable mid-attack: the hit is cancelled and you keep the ability."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Après Destruction des faibles (A), tu ne peux ni auto, ni lancer Tranche et coupe (E) ou Dominus (R) pendant 0,25 s. Lance-le plutôt juste après ton auto.",
+        "en": "After Cull the Meek (Q), you cannot auto or cast Slice and Dice (E) or Dominus (R) for 0.25 s. Cast it right after your auto instead."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les PV bonus de Dominus (R) restent à la fin de l'ult tant qu'ils ne dépassent pas ton max normal : un soin pendant l'ult n'est pas perdu.",
+        "en": "Dominus (R) bonus health stays when the ult ends as long as it does not exceed your normal max: healing during the ult is not lost."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Renekton - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Renekton", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Renekton Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=oOrmPXoXkiU", "type": "video", "date": "2025-08-22", "author": "3 Minute League of Legends" },
+    { "title": "The 5-Minute Renekton Guide That Got Me to Masters", "url": "https://www.youtube.com/watch?v=HeBKLQ9ukNM", "type": "video", "date": "2026-07-19", "author": "Renektoy" },
+    { "title": "5 tips avancés sur RENEKTON", "url": "https://www.youtube.com/watch?v=oHtgbQZAJpc", "type": "video", "date": "2026-07-08", "author": "Misanthiel - Coach Toplane" }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "champion": "Nunu",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Gank boule puis rafale", "en": "Snowball into barrage gank" },
+      "keys": ["W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Roule Boule de neige géante ! (Z) et relâche-la juste avant l'impact. Enchaîne Rafale de boules de neige (E), auto, 2e salve, Voracité (A), puis la 3e salve.",
+        "en": "Roll Biggest Snowball Ever! (W) and release it just before impact. Chain Snowball Barrage (E), auto, second volley, Consume (Q), then the third volley."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Boule de neige puis Zéro absolu", "en": "Snowball into Absolute Zero" },
+      "keys": ["W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche ta cible avec Boule de neige géante ! (Z) pour la projeter et l'étourdir, puis lance Zéro absolu (R) à côté d'elle. Plus tu canalises longtemps, plus l'explosion fait mal.",
+        "en": "Hit your target with Biggest Snowball Ever! (W) to knock them up and stun them, then start Absolute Zero (R) next to them. The longer you channel, the harder the explosion hits."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si la boule explose alors que tu la diriges encore, tu es étourdi un court instant. Relâche Boule de neige géante ! (Z) juste avant l'impact pour enchaîner sans délai.",
+        "en": "If the snowball explodes while you're still steering it, you get stunned for a brief moment. Release Biggest Snowball Ever! (W) just before impact to follow up instantly."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Boule de neige géante ! (Z) explose aussi au contact d'un mur. Évite de frôler le terrain pendant ton gank, sinon tu gâches ta boule.",
+        "en": "Biggest Snowball Ever! (W) also explodes on contact with a wall. Avoid brushing terrain during your gank, or you waste your snowball."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tous les bonus de vitesse actifs au lancement de Boule de neige géante ! (Z) restent pendant toute la charge : lance-la juste après avoir pris un bonus, comme celui du carapateur.",
+        "en": "Every movement speed bonus active when you cast Biggest Snowball Ever! (W) lasts for the whole charge: cast it right after picking up a buff, like the Scuttle Crab's."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Rafale de boules de neige (E) : 3 secondes après la 1re salve, les ennemis marqués proches de Willump sont immobilisés. Reste collé à ta cible jusque-là.",
+        "en": "Snowball Barrage (E): 3 seconds after the first volley, marked enemies near Willump are rooted. Stay glued to your target until then."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Zéro absolu (R) explose dès que la canalisation s'arrête, quelle qu'en soit la cause : un CC ennemi le déclenche tôt, avec bien moins de dégâts.",
+        "en": "Absolute Zero (R) explodes as soon as the channel stops, whatever the cause: an enemy CC triggers it early, for far less damage."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La zone de Zéro absolu (R) reste cachée si l'ennemi ne te voit pas : lancé depuis un buisson, il est bien plus dur à esquiver.",
+        "en": "The Absolute Zero (R) area stays hidden if the enemy can't see you: cast from a brush, it's much harder to dodge."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Voracité (A) soigne davantage sous 50 % de PV, et son icône brille à ce moment-là. Garde-la pour quand tu es bas.",
+        "en": "Consume (Q) heals more below 50% health, and its icon glows at that point. Save it for when you're low."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Appel de Freljord donne aussi son bonus à un allié proche, en priorité celui qui a le plus de vitesse d'attaque. Reste près de ton ADC en fight.",
+        "en": "Call of the Freljord also grants its bonus to a nearby ally, prioritizing the one with the highest attack speed. Stay near your ADC in fights."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Nunu & Willump - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Nunu_&_Willump", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Nunu Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=CNlzJWoKKZI", "type": "video", "date": "2025-12-04", "author": "3 Minute League of Legends" },
+    { "title": "Rank 1 NUNU Guide | League of Legends Season 15 Nunu Guide", "url": "https://www.youtube.com/watch?v=Ev0du_85QOE", "type": "video", "date": "2025-01-13", "author": "Pentaless" }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "champion": "Talon",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Lames, saut, auto", "en": "Daggers, leap, auto" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Avant le niveau 6 : lance Ratissage (Z), puis Diplomatie noxienne (A) sur la cible. Ajoute une auto avant et après le saut, car Diplomatie noxienne (A) réinitialise ton attaque.",
+        "en": "Before level 6: throw Rake (W), then Noxian Diplomacy (Q) on the target. Add an auto before and after the leap, since Noxian Diplomacy (Q) resets your attack."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Combo fleur", "en": "Flower combo" },
+      "keys": ["W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Ratissage (Z), enchaîne Diplomatie noxienne (A), puis Assaut ténébreux (R) pendant le saut, pas après. Ton passif part presque instantanément.",
+        "en": "Throw Rake (W), chain Noxian Diplomacy (Q), then Shadow Assault (R) during the leap, not after it. Your passive procs almost instantly."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Fleur cachée", "en": "Hidden flower" },
+      "keys": ["Q", "W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Contre une cible qui kite ou qui a un dash, ouvre avec Diplomatie noxienne (A) pour coller, puis Ratissage (Z), Assaut ténébreux (R) et une auto tout de suite.",
+        "en": "Against a target that kites or has a dash, open with Noxian Diplomacy (Q) to stick, then Rake (W), Shadow Assault (R) and an auto right away."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Lames puis Flash", "en": "Daggers into Flash" },
+      "keys": ["W", "F", "Q", "R"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Ta cible est touchée par Ratissage (Z) mais hors de portée ? Flash vers elle, puis Diplomatie noxienne (A) et Assaut ténébreux (R) pour finir le combo.",
+        "en": "Your target is hit by Rake (W) but out of range? Flash toward them, then Noxian Diplomacy (Q) and Shadow Assault (R) to finish the combo."
+      },
+      "refs": [1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Saignée fatale : l'aller et le retour de Ratissage (Z) posent chacun une charge, tout comme les deux passages d'Assaut ténébreux (R). Un bouclier de sort empêche la charge.",
+        "en": "Blade's End: the outward and return passes of Rake (W) each apply a stack, as do both passes of Shadow Assault (R). A spell shield prevents the stack."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Diplomatie noxienne (A) lancée au corps à corps fait un coup critique et allonge ta prochaine auto. Si elle tue, tu te soignes et son CD baisse de moitié.",
+        "en": "Noxian Diplomacy (Q) cast in close range crits and extends your next auto's range. If it kills, you heal and its cooldown is halved."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Au corps à corps, les dégâts de Diplomatie noxienne (A) tombent à la fin de l'incantation, même si ton saut est interrompu. Enraciné ou cloué au sol, tu ne peux la lancer qu'à courte portée.",
+        "en": "In close range, Noxian Diplomacy (Q) deals its damage at the end of the cast time, even if your leap is interrupted. Rooted or grounded, you can only cast it in close range."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Sors du camouflage d'Assaut ténébreux (R) avec une auto ou Diplomatie noxienne (A) : les lames reviennent sur ta cible au lieu de revenir sur toi.",
+        "en": "Break Shadow Assault (R) stealth with an auto or Noxian Diplomacy (Q): the blades converge on your target instead of on you."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Voie de l'assassin (E) ne peut pas resservir sur le même mur pendant un moment. Un contour s'affiche sur le mur et s'éclaircit à mesure qu'il redevient franchissable.",
+        "en": "Assassin's Path (E) can't be reused on the same wall for a while. A border shows on the wall and gets lighter as it becomes crossable again."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Si tu vises un mur hors de portée avec Voie de l'assassin (E), Talon marche vers lui. S'il croise un autre mur en chemin, c'est celui-là qu'il saute.",
+        "en": "If you target an out-of-range wall with Assassin's Path (E), Talon walks toward it. If he meets another wall on the way, he jumps that one instead."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Voie de l'assassin (E) te révèle brièvement si un ennemi te voit déjà, ou si un champion ou un sbire ennemi est près de ton point d'arrivée.",
+        "en": "Assassin's Path (E) briefly reveals you if an enemy already sees you, or if an enemy champion or minion is near your landing spot."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ratissage (Z) lancé avec un ennemi juste devant toi te sort du brouillard de guerre, comme un sort ciblé. Pense-y avant d'ouvrir depuis un buisson.",
+        "en": "Rake (W) cast with an enemy right in front of you pulls you out of the fog of war, like a targeted spell. Keep it in mind before opening from a brush."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Talon - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Talon", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Talon Combos That Should Be Illegal | Educational", "url": "https://www.youtube.com/watch?v=rH6DqZjgJhg", "type": "video", "date": "2026-04-18", "author": "Whispering Blade" },
+    { "title": "The Only TALON Guide YOU need to Climb to Challenger | League of Legends", "url": "https://www.youtube.com/watch?v=TO82_z4CZ9A", "type": "video", "date": "2026-09-20", "author": "Sinerias" }
+  ]
+}

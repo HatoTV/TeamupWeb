@@ -1,0 +1,82 @@
+{
+  "champion": "KogMaw",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Limon, Bave puis Artillerie", "en": "Ooze, Spittle, then Artillery" },
+      "keys": ["E", "Q", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Ralentis avec Limon du Néant (E), puis enchaîne Bave caustique (A) et Artillerie vivante (R) sur la cible ralentie : les deux touchent bien plus facilement.",
+        "en": "Slow with Void Ooze (E), then follow with Caustic Spittle (Q) and Living Artillery (R) on the slowed target: both land much more easily."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in Barrage", "en": "Barrage all-in" },
+      "keys": ["W", "E", "Q", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Active Barrage bio-arcanique (Z) et tape. Ajoute Limon du Néant (E), Bave caustique (A) et Artillerie vivante (R), puis continue les autos tant que le Z dure.",
+        "en": "Turn on Bio-Arcane Barrage (W) and attack. Add Void Ooze (E), Caustic Spittle (Q) and Living Artillery (R), then keep attacking while W lasts."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "À ta mort, Surprise d'Icathia te laisse 4 s fantôme et intouchable, avec une vitesse qui monte de 10 à 50 %. Fonce sur les ennemis : tu exploses en dégâts bruts.",
+        "en": "On death, Icathian Surprise leaves you ghosted and untouchable for 4 s, with speed ramping from 10 to 50%. Run at enemies: you explode for true damage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le temps de lancement de Bave caustique (A) suit ton timer d'auto : plus tu as de vitesse d'attaque, plus il est court. Glisse-le entre deux autos.",
+        "en": "Caustic Spittle (Q) cast time follows your attack timer: the more attack speed you have, the shorter it is. Slip it between two autos."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Bave caustique (A) réduit l'armure et la résistance magique de la cible pendant 4 s : toute ton équipe en profite, lance-la sur la cible du focus.",
+        "en": "Caustic Spittle (Q) lowers the target's armor and magic resist for 4 s: your whole team benefits, so throw it on the focus target."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pour bloquer un ennemi qui te fonce dessus, lance Limon du Néant (E) dans l'axe de sa course : en travers, il en sort trop vite.",
+        "en": "To stop an enemy running at you, cast Void Ooze (E) along their path: thrown across it, they get out too fast."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque Artillerie vivante (R) coûte 40 de mana de plus pendant 8 s. Ses dégâts montent avec les PV manquants : garde-la pour une cible sous 40 % de PV.",
+        "en": "Each Living Artillery (R) costs 40 more mana for 8 s. Its damage grows with missing health: save it for a target below 40% health."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Artillerie vivante (R) révèle les ennemis touchés pendant 2 s, mais pas les champions camouflés.",
+        "en": "Living Artillery (R) reveals enemies hit for 2 s, but not stealthed champions."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Kog'Maw - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Kog'Maw", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Everything You Need to Know About Kog'Maw - The Ultimate Guide", "url": "https://www.youtube.com/watch?v=yK-8PBK--7o", "type": "video", "date": "2025-09-28", "author": "Armasot" },
+    { "title": "3 Minute Kog'Maw Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=1k0oahxNZmU", "type": "video", "date": "2025-09-16", "author": "3 Minute League of Legends" }
+  ]
+}

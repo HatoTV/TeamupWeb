@@ -1,0 +1,206 @@
+{
+  "champion": "Fizz",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Trade court A, auto, Z",
+        "en": "Short trade Q, auto, W"
+      },
+      "keys": [
+        "Q",
+        "W"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Frappe de l'oursin (A) enchaîne seule sur une auto, puis Trident marin (Z) remet l'auto à zéro et tape plus fort. Trois coups très rapides.",
+        "en": "Urchin Strike (Q) chains straight into an auto, then Seastone Trident (W) resets your auto and hits harder. Three very fast hits."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "All-in sur le requin",
+        "en": "All-in on the shark"
+      },
+      "keys": [
+        "R",
+        "E",
+        "W",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Accroche Pêche au gros (R), puis lance Joueur (E) pour retomber pile au moment où le requin projette la cible. Auto, Trident marin (Z), et finis avec Frappe de l'oursin (A).",
+        "en": "Land Chum the Waters (R), then cast Playful (E) so you land right as the shark launches the target. Auto, Seastone Trident (W), and finish with Urchin Strike (Q)."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Ult caché dans le dash",
+        "en": "Ult hidden in the dash"
+      },
+      "keys": [
+        "Q",
+        "R"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Frappe de l'oursin (A) sur un sbire proche, puis lance Pêche au gros (R) pendant le dash. L'animation de l'ult est masquée et le poisson part d'un angle inattendu.",
+        "en": "Urchin Strike (Q) onto a nearby minion, then cast Chum the Waters (R) during the dash. The ult animation is hidden and the fish comes from an unexpected angle."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": {
+        "fr": "Joueur puis Flash",
+        "en": "Playful into Flash"
+      },
+      "keys": [
+        "E",
+        "F"
+      ],
+      "level": "hard",
+      "summoners": {
+        "F": "SummonerFlash"
+      },
+      "desc": {
+        "fr": "Lance Joueur (E), attends que Fizz commence à redescendre, puis Flash sur la cible juste avant l'impact. Tu gardes la grande zone et le slow, mais impossible tant que tu es perché sur le trident.",
+        "en": "Cast Playful (E), wait for Fizz to start coming down, then Flash onto the target right before impact. You keep the large area and the slow, but it is not possible while you are still perched on the trident."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Frappe de l'oursin (A) traverse un mur, même épais, uniquement si la cible est déjà de l'autre côté. Un sbire ou un monstre visible sert aussi de cible pour fuir.",
+        "en": "Urchin Strike (Q) goes through a wall, even a thick one, only if the target is already on the other side. A visible minion or monster also works as a target to escape."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Joueur/Filou (E) passe les murs. Saute par-dessus pour voir l'autre côté, et si c'est dangereux, la seconde activation te ramène du côté de départ.",
+        "en": "Playful / Trickster (E) crosses walls. Hop over to check the other side, and if it is dangerous, the second cast brings you back where you came from."
+      },
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Perché sur ton trident, tu es intouchable et l'aggro des sbires ou de la tour se perd. Pratique pour esquiver un tir de tour en dive. Les brûlures déjà posées continuent par contre.",
+        "en": "While perched on your trident, you are untargetable and minion or turret aggro drops. Handy to dodge a tower shot when diving. Burns already applied still tick, though."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Combattant agile te rend fantomatique en permanence et retire une valeur fixe à chaque coup reçu. Très fort contre les petits coups répétés : sbires, autos, sorts multi-hits.",
+        "en": "Nimble Fighter makes you permanently ghosted and removes a flat amount from every hit you take. Very strong against small repeated hits: minions, autos, multi-hit spells."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si l'auto renforcée de Trident marin (Z) tue sa cible, le CD tombe à 1 s et le mana t'est rendu. Sers-t'en pour les last hits difficiles en début de partie.",
+        "en": "If the empowered Seastone Trident (W) auto kills its target, the cooldown drops to 1 s and the mana is refunded. Use it for hard last hits early on."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Plus le poisson de Pêche au gros (R) vole loin, plus le requin est gros : plus de dégâts, de slow, de zone et de recul. Un ult de loin vaut plus qu'un ult au contact.",
+        "en": "The farther the Chum the Waters (R) fish flies, the bigger the shark: more damage, slow, area and knockback. A long-range ult is worth more than one at melee range."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une fois accroché, le poisson suit la cible même si elle Flash ou dash, et la révèle jusqu'à l'arrivée du requin, même si elle passe en camouflage.",
+        "en": "Once attached, the fish follows the target even if it Flashes or dashes, and reveals it until the shark arrives, even through stealth."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Frappe de l'oursin (A) ne fait des dégâts que si la cible est encore près de sa position de départ à ton arrivée. Un Flash ou un dash adverse au bon moment l'esquive.",
+        "en": "Urchin Strike (Q) only deals damage if the target is still near its starting spot when you arrive. A well-timed enemy Flash or dash dodges it."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fizz – League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fizz",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Everyone Plays Fizz — Almost Nobody Plays Him Correctly",
+      "url": "https://www.youtube.com/watch?v=_F_Wq1ZS2hM",
+      "type": "video",
+      "date": "2026-08-31",
+      "author": "Zoose"
+    },
+    {
+      "title": "3 Minute Fizz Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=iV38oWrEOLU",
+      "type": "video",
+      "date": "2026-08-25",
+      "author": "3 Minute League of Legends"
+    }
+  ]
+}

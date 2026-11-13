@@ -1,0 +1,121 @@
+{
+  "champion": "Gnar",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto, boomerang, auto", "en": "Auto, boomerang, auto" },
+      "keys": ["Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "En Mini Gnar, auto avant ton Jet de boomerang (A), puis une auto derrière : le troisième coup déclenche Agitation (Z). Rattrape le boomerang pour réduire son CD.",
+        "en": "As Mini Gnar, auto before your Boomerang Throw (Q), then auto again: the third hit triggers Hyper (W). Catch the boomerang to cut its cooldown."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Boomerang caché dans le saut", "en": "Boomerang hidden in the hop" },
+      "keys": ["E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Jet de boomerang (A) pendant le saut de Rebond (E), idéalement en rebondissant sur ta cible. L'animation du lancer ne se voit pas, l'ennemi doit deviner pour esquiver.",
+        "en": "Cast Boomerang Throw (Q) during the Hop (E) leap, ideally while bouncing off your target. The throw animation is hidden, so the enemy has to guess to dodge it."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Rebond puis GNAR ! en l'air", "en": "Hop into mid-air GNAR!" },
+      "keys": ["E", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Barre de rage pleine mais encore en Mini Gnar : Rebond (E) sur un ennemi et lance GNAR ! (R) pendant le second saut pour te transformer en l'air et projeter la cible sur laquelle tu as rebondi.",
+        "en": "Full rage bar but still Mini Gnar: Hop (E) off an enemy and cast GNAR! (R) during the second leap to transform mid-air and throw the target you bounced off."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Rebond puis Beigne en l'air", "en": "Hop into mid-air Wallop" },
+      "keys": ["E", "W"],
+      "level": "hard",
+      "desc": {
+        "fr": "Même timing que le Rebond (E) suivi de GNAR !, mais lance Beigne (Z) pendant le second saut. Tu stun la cible sans engager ton ult, que tu gardes pour un meilleur angle.",
+        "en": "Same timing as the Hop (E) into GNAR!, but cast Wallop (W) during the second leap. You stun the target without committing your ult, which you keep for a better angle."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "All-in en Méga Gnar", "en": "Mega Gnar all-in" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Aplatissement (E) sur la cible, puis Beigne (Z), Jet de rocher (A) et GNAR ! (R), avec une auto entre chaque sort pour ne pas enchaîner les CC trop vite.",
+        "en": "Crunch (E) onto the target, then Wallop (W), Boulder Toss (Q) and GNAR! (R), with an auto between each spell so the CC does not stack too quickly."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les deux formes partagent leurs CD. Rattraper le boomerang rend 40 % du CD, ramasser le rocher en rend 70 %, et ça marche même si tu as changé de forme entre-temps.",
+        "en": "Both forms share their cooldowns. Catching the boomerang refunds 40% of the cooldown, picking up the boulder refunds 70%, and it works even if you changed form in between."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le retour du boomerang suit ta position et ton déplacement quand il atteint sa portée max. Reste immobile au lancer et bouge seulement au retour pour toucher une cible très loin derrière toi.",
+        "en": "The boomerang's return follows your position and movement when it reaches max range. Stand still when you throw and only move on the way back to hit a target far behind you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "À 100 de rage, tes sorts passent en version Méga pendant 4 s : en lancer un te transforme aussitôt, sinon la transformation se fait seule. Rebond (E) ne change qu'après la transformation.",
+        "en": "At 100 rage, your spells switch to their Mega versions for 4 s: casting one transforms you instantly, otherwise you transform on your own. Hop (E) only switches after the transformation."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Après Méga Gnar, tu reviens en Mini avec le même pourcentage de PV, le bonus de vitesse d'Agitation (Z), mais tu ne génères plus de rage pendant 15 s.",
+        "en": "After Mega Gnar, you go back to Mini with the same health percentage and Hyper's (W) speed boost, but you cannot build rage for 15 s."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "GNAR ! (R) ne projette pas à travers les murs : un ennemi qui heurte le terrain est stun tout de suite et prend 50 % de dégâts en plus. Ça marche aussi contre un terrain créé par un champion.",
+        "en": "GNAR! (R) does not throw through walls: an enemy who hits terrain is stunned instantly and takes 50% more damage. It also works against champion-made terrain."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Rebond (E) ne rebondit pas si tu es immobilisé pendant le premier saut, ni sur une balise. Il n'a pas de portée minimale : tu peux sauter sur place.",
+        "en": "Hop (E) does not bounce if you get immobilized during the first leap, nor off a ward. There is no minimum range: you can hop in place."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Jet de rocher (A) bloqué par Mur de vent ou Incassable tombe quand même au sol : va le ramasser pour récupérer 70 % du CD.",
+        "en": "A Boulder Toss (Q) blocked by Wind Wall or Unbreakable still drops to the ground: go pick it up to get 70% of the cooldown back."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Gnar – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Gnar", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Gnar Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=BxGCOMMKKkY", "type": "video", "date": "2025-11-24", "author": "3 Minute League of Legends" },
+    { "title": "5 TIPS AVANCÉS SUR GNAR !", "url": "https://www.youtube.com/watch?v=pE5csaYPUqg", "type": "video", "date": "2026-05-11", "author": "Misanthiel - Coach Toplane" },
+    { "title": "The ONLY GNAR Guide You Need - Gnar Guide League of Legends", "url": "https://www.youtube.com/watch?v=4urcal-SckY", "type": "video", "date": "2025-12-23", "author": "Daveyx3" }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "champion": "Yuumi",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Bouclier, tir puis ult", "en": "Shield, missile, then ult" },
+      "keys": ["E", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Attachée à ton carry, donne-lui Zouuu ! (E) puis guide Tête chat-sseuse (A) vers l'ennemi. Lance Chat-pitre final (R) juste avant l'impact : les vagues cumulent leur slow sur la cible déjà ralentie.",
+        "en": "Attached to your carry, give them Zoomies (E) then steer Prowling Projectile (Q) into the enemy. Cast Final Chapter (R) just before it lands: the waves stack their slow on the already slowed target."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Auto puis retour sur l'allié", "en": "Auto then reattach" },
+      "keys": ["W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Détachée, place ton auto renforcée de Chat-maraderie sur un champion ennemi, puis rattache-toi avec Félin pour l'autre ! (Z) dans les 4 secondes. Ton allié reçoit le même soin que toi.",
+        "en": "While detached, land your Feline Friendship empowered auto on an enemy champion, then reattach with You and Me! (W) within 4 seconds. Your ally gets the same heal as you."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Attachée, laisse Tête chat-sseuse (A) voler sa durée maximale : le missile accélère ensuite en ligne droite et touche plus fort, avec un slow bien plus puissant.",
+        "en": "While attached, let Prowling Projectile (Q) fly its full duration: the missile then speeds up in a straight line and hits harder, with a much stronger slow."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Attachée, tu restes intouchable sauf pour les tours : quand ton allié plonge sous une tour ennemie, c'est toi qui prends les tirs, même s'ils semblent viser ton allié.",
+        "en": "While attached you stay untargetable except by turrets: when your ally dives an enemy turret, you take the shots, even if they look like they hit your ally."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu te détaches automatiquement quand ton allié lance une canalisation, comme un recall. Rattache-toi ou recule aussitôt pour ne pas rester seule exposée.",
+        "en": "You detach automatically when your ally starts a channel, like a recall. Reattach or back off right away so you don't stay exposed alone."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Ton allié meurt ? Pendant un court instant, Félin pour l'autre ! (Z) te transfère sur un autre allié sans canalisation ni trajet. Choisis vite ta cible.",
+        "en": "Your ally dies? For a brief moment, You and Me! (W) moves you to another ally with no channel or travel time. Pick your target fast."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chat-pitre final (R) ne se dirige que si tu le lances attachée. Si tu changes d'allié pendant la canalisation, tu perds ce contrôle jusqu'à la fin.",
+        "en": "Final Chapter (R) can only be steered if you cast it while attached. If you switch allies during the channel, you lose that control until it ends."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Attachée, Zouuu ! (E) donne bouclier, vitesse d'attaque et vitesse de déplacement à ton allié, et lui rend aussi du mana. Garde-le pour son trade ou son all-in.",
+        "en": "While attached, Zoomies (E) gives your ally a shield, attack speed and move speed, and also restores their mana. Save it for their trade or all-in."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Yuumi - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yuumi",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Yuumi Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=Ww10Dbrmq0o",
+      "type": "video",
+      "date": "2026-02-17",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "GUIDE YUUMI SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes",
+      "url": "https://www.youtube.com/watch?v=kAA95HatDCs",
+      "type": "video",
+      "date": "2025-07-15",
+      "author": "EXYT - League of Legends"
+    }
+  ]
+}

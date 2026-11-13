@@ -1,0 +1,38 @@
+{
+  "searches": 2,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "Whenever a nearby enemy dies, Trundle heal [heals] himself for key=% [1.8 + (5.5-1.8)/17*(x-1) for 20] of their maximum health.",
+    "Trundle empowers his next basic attack within 7 seconds to have an uncancellable windup, gain 25 bonus range, deal bonus physical damage and slow the target by 75% for 0.1 seconds.",
+    "Chomp basic attack reset [resets] Trundle's basic attack timer.",
+    "Chomp will still incur the attack damage increase for Trundle even if the attack is dodged, blocked, missed while he is blind [blinded], or it is blocked by spell shield.",
+    "Spell shield will only block the attack damage reduction and slow.",
+    "Trundle erects a pillar of ice at the target location for 6 seconds, which airborne [knocks back] units hit up to 225 units from its center. The pillar acts as terrain and slows nearby enemies.",
+    "Pillar of Ice displaces allied units away from the area but does not render them airborne.",
+    "Allied channel [channels] (e.g. , ) will be interrupt [interrupted] however.",
+    "Pillar of Ice cannot be placed inside impassable terrain. Attempting to do so will cause the pillar to spawn in the nearest available spot of accessible terrain.",
+    "Half of the drain's total damage, healing, and resistances reduction is applied on-cast, while the other half is applied every second over the next 4 seconds.",
+    "The resistances reduction on the target will linger for 4 seconds after the drain has ended.",
+    "Trundle will lose the buff if the target loses the debuff, for example if it enters resurrection.",
+    "Trundle's passive is whenever an enemy dies nearby him, he heals himself. This includes minions so he's just constantly healing.",
+    "It then stays for 6 seconds acting as terrain and slowing nearby enemies.",
+    "For combos, your go-to is to use W into your pillar and ult. From here, attack into Q before spamming away with more attacks.",
+    "And even if the fight's an even trade, you absolutely love this as you'll just start healing up when their minions start dying.",
+    "Ideally, use your ultimate on a tank to make yourself very tanky and it's just funny watching an Ornn get deleted like an ADC.",
+    "lead with Pillar of Ice placed slightly behind and to the side of the enemy to force them to walk through the slow",
+    "the pillar physically blocks paths forcing enemies to walk around it through the slow field",
+    "Chomp's auto-reset lets Trundle proc it in under 2 seconds",
+    "use it at the start of the fight when the enemy tank has their full resistances to steal the maximum possible stats",
+    "Flash is essential on Trundle for Flash-Pillar combos that create impassable terrain directly on top of fleeing enemies"
+  ],
+  "rejected": [
+    { "idea": "Combo Flash puis Montagne de glace (E) sur un ennemi en fuite", "reason": "Une seule source joueur (Dodge.gg), non confirmé par le wiki ni par une 2de source : écarté (règle Flash)." },
+    { "idea": "Le recul de Montagne de glace (E) interrompt les dashs adverses", "reason": "Dodge.gg seul ; le wiki ne le dit pas explicitement." },
+    { "idea": "Combo Mobalytics « Royaume gelé, Montagne derrière la cible, autos, Morsure »", "reason": "Vu seulement dans un résumé de recherche, page Mobalytics bloquée (403), non lue." },
+    { "idea": "Vidéos « 8 useful Trundle combos » (Purpletroll56), kaagaroo 2 et Daveyx3 Off Meta", "reason": "Sous-titres sans contenu (musique seule) ou commentaire de partie sans combo ni astuce exploitable." }
+  ],
+  "toVerifyInGame": [
+    "Montagne de glace (E) posée juste derrière la cible : vérifier qu'elle est bien repoussée vers Trundle (le wiki dit seulement que les unités touchées sont projetées jusqu'à 225 unités du centre).",
+    "Soumission (R) sur une cible qui ressuscite : perte immédiate des résistances volées."
+  ]
+}

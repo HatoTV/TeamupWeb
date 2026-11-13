@@ -1,0 +1,126 @@
+{
+  "champion": "Yunara",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade auto, A, auto", "en": "Auto, Q, auto trade" },
+      "keys": ["Q", "W", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Charges pleines, place une auto puis Déchaînement spirituel (A) tout de suite pour reset ton attaque. Ajoute Arc du jugement (Z) pour ralentir, et Célérité des kanmei (E) pour suivre ou te replier.",
+        "en": "With full stacks, land an auto then Cultivation of Spirit (Q) right away to reset your attack. Add Arc of Judgment (W) to slow, and Kanmei's Steps (E) to chase or back off."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "All-in Z, E puis Transe", "en": "W, E, then ult all-in" },
+      "keys": ["W", "E", "R", "E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Arc du jugement (Z) et Célérité des kanmei (E), auto, puis Transe (R) pour un nouveau reset. Tu récupères aussitôt Ombres ineffables (E) pour dash et auto encore, et Arc de la ruine (Z) revient vite.",
+        "en": "Cast Arc of Judgment (W) and Kanmei's Steps (E), auto, then Transcend One's Self (R) for another reset. You instantly get Untouchable Shadow (E) to dash and auto again, and Arc of Ruin (W) comes back fast."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Z Flash", "en": "W Flash" },
+      "keys": ["W", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Arc du jugement (Z) puis Flash pendant l'incantation : le tir garde sa direction mais part de ton point d'arrivée. Vise depuis là où tu vas atterrir, et sache que la fenêtre raccourcit avec ta vitesse d'attaque.",
+        "en": "Cast Arc of Judgment (W) then Flash during the cast: the shot keeps its direction but starts from where you land. Aim from your landing spot, and note the window shrinks as your attack speed grows."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Pendant Transe, Ombres ineffables (E) peut franchir les murs et porte plus loin quand elle les traverse. Certains murs ne passent que dans un sens : entraîne-toi dessus avant la partie.",
+        "en": "During your ult, Untouchable Shadow (E) can cross walls and goes further when it does. Some walls only work in one direction: practice them before your games."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux lancer Arc de la ruine (Z) pendant le dash d'Ombres ineffables (E). Le tir part de là où tu es à la fin de l'incantation : vise depuis ton point d'arrivée.",
+        "en": "You can cast Arc of Ruin (W) during the Untouchable Shadow (E) dash. The beam fires from where you are when the cast ends: aim from your landing spot."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Quand Transe se termine, ton E est de nouveau prêt et le CD de ton Z fond encore une fois. Utilise-les juste avant la fin pour les avoir en double.",
+        "en": "When your ult ends, your E is ready again and your W cooldown drops once more. Use them just before it ends to get them twice."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Une auto sur un champion donne 2 charges de Déchaînement spirituel (A) au lieu d'une. À 6 charges, tu peux déjà engager : auto, puis active le sort dans la foulée.",
+        "en": "An auto on a champion gives 2 Cultivation of Spirit (Q) stacks instead of one. At 6 stacks you can already engage: auto, then activate the spell right after."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tes charges de Déchaînement spirituel (A) tiennent 6 secondes puis tombent une par une. Juste avant, tape un sbire pour toutes les rafraîchir.",
+        "en": "Your Cultivation of Spirit (Q) stacks last 6 seconds, then drop one by one. Right before that, hit a minion to refresh all of them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Transe (R) active Déchaînement spirituel (A) et te donne son reset d'auto, mais seulement si ton A n'était pas déjà actif. Garde ce reset en ne lançant pas l'A juste avant l'ult.",
+        "en": "Transcend One's Self (R) activates Cultivation of Spirit (Q) and grants its auto reset, but only if Q wasn't already active. Keep that reset by not casting Q right before your ult."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les rebonds de Déchaînement spirituel (A) actif touchent même les ennemis que tu ne vois pas, par exemple cachés dans un buisson près de ta cible.",
+        "en": "Active Cultivation of Spirit (Q) spread attacks hit even enemies you can't see, for example hiding in a brush next to your target."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Yunara - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yunara",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Yunara Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=E9QaEt5zsAs",
+      "type": "video",
+      "date": "2026-09-10",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "Yunara Guide: Combos, Laning & Teamfighting | Challenger Main",
+      "url": "https://www.youtube.com/watch?v=Lhuu1OKy9iM",
+      "type": "video",
+      "date": "2026-09-13",
+      "author": "Gunfire ADC"
+    },
+    {
+      "title": "Le Guide de Poche #3 - Yunara (Spells, Stuff, Combos, Trade Pattern...)",
+      "url": "https://www.youtube.com/watch?v=oMoIVzAp8Jw",
+      "type": "video",
+      "date": "2025-11-19",
+      "author": "Bibou - League of Legends"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Morgana throws a sphere of dark magic in the target direction that deals magic damage to the first enemy hit and roots them for a duration.",
+    "Tormented Shadow's current cooldown is reduced by 5% of its total cooldown whenever Soul Siphon triggers. Simultaneous triggers from multiple targets will stack the cooldown reduction.",
+    "Enemies within take magic damage on-cast and every 0.5 seconds thereafter, increased by target's missing health.",
+    "Damage from multiple Tormented Shadows does not stack.",
+    "Black Shield will not resist self nor allied crowd control (including e.g. an allied Tempered Fate). Black Shield will not resist nearsight.",
+    "Black Shield negates crowd control effects before any magic damage is absorbed; even if the shield is broken by an enemy dealing enough damage, its associated disables will not apply. Shield-destroying effects bypass this however.",
+    "Black Shield is special-cased to block spirit pull, but does not prevent Camille R tether, Sylas R, Tryndamere W, Twisted Fate R.",
+    "An enemy champion within 575 units is required to cast this ability. The target does not have to be visible to be tethered by this ability.",
+    "Spell shield will block the tether's application and initial damage but not the aftereffects of one already applied.",
+    "Soul Shackles checks for nearby valid targets around a location that is Morgana's exact location at the start of the cast time.",
+    "For combos, your basic go-to is land Q into W and attack away.",
+    "and your all in if you land Q is to E yourself into alt then W and attack away.",
+    "If playing the engage, you can either land a valuable Q or black shield yourself and flash in with a massive AOE ultimate.",
+    "maybe you hold your flash and then you flash ultimate zonas and then you can disrupt the fight",
+    "Once you activate your ultimate, stay on top of the target and keep following them with your black shield until the second part of your ultimate stuns them. As soon as they're stunned, drop your W underneath them and then follow up with your Q once your ultimate stun expires.",
+    "Your goal is to hit the QW combo on a squishy target, and burst them before the fight even properly starts."
+  ],
+  "rejected": [
+    { "idea": "Entrave sombre (A) sous tourelle : la cible reste longtemps prise sous les tirs (Coach K)", "reason": "Une seule source, conseil de situation plus que mécanique." },
+    { "idea": "En fin de partie, utiliser Chaînes spirituelles (R) pour les dégâts plutôt que le stun (Ves1c)", "reason": "Conseil de jeu général, une seule source." }
+  ],
+  "toVerifyInGame": [
+    "Flash pendant le temps de lancer de Chaînes spirituelles (R) : les cibles restent celles autour de la position de départ."
+  ]
+}

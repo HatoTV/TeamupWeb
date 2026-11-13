@@ -1,0 +1,165 @@
+{
+  "champion": "Zyra",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Graine puis épines",
+        "en": "Seed into spines"
+      },
+      "keys": [
+        "W",
+        "Q"
+      ],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose une graine avec Croissance incontrôlée (Z) vers l'ennemi, puis touche-la avec Épines funestes (A). Elle devient une plante qui tire à distance pendant 8 s : du poke gratuit, même hors de ta portée.",
+        "en": "Plant a seed with Rampant Growth (W) toward the enemy, then hit it with Deadly Spines (Q). It turns into a plant that shoots from range for 8 s: free poke, even beyond your own range."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Double plante",
+        "en": "Double plant"
+      },
+      "keys": [
+        "W",
+        "E",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose une graine près de l'ennemi, lance Racines fixatrices (E) à travers elle pour l'immobiliser et faire pousser une plante de mêlée, puis Épines funestes (A) sur la cible immobile et une autre graine.",
+        "en": "Plant a seed near the enemy, cast Grasping Roots (E) through it to root them and grow a melee plant, then Deadly Spines (Q) on the rooted target and another seed."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": {
+        "fr": "Racines puis ult",
+        "en": "Roots into ult"
+      },
+      "keys": [
+        "E",
+        "R"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Immobilise avec Racines fixatrices (E), puis lance Ronces étrangleuses (R) sur la cible. Le knock-up arrive 2 s après et le root dure de 1 à 2 s selon le rang du E : il ne couvre tout le délai qu'au rang max.",
+        "en": "Root with Grasping Roots (E), then cast Stranglethorns (R) on the target. The knock-up lands 2 s later and the root lasts 1 to 2 s depending on E rank: it only covers the full delay at max rank."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Ult et plantes enragées",
+        "en": "Ult with enraged plants"
+      },
+      "keys": [
+        "R",
+        "E",
+        "Q"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Ronces étrangleuses (R) sur le groupe, puis fais éclore tes graines dans la zone avec Racines fixatrices (E) et Épines funestes (A) avant le knock-up. Ces plantes sont enragées elles aussi.",
+        "en": "Cast Stranglethorns (R) on the group, then hatch your seeds inside the area with Grasping Roots (E) and Deadly Spines (Q) before the knock-up. Those plants get enraged too."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Jardin de ronces ne pose aucune graine tant que tu es cachée dans un buisson, sauf si une balise ennemie s'y trouve. Reste hors des buissons pour garder des graines autour de toi.",
+        "en": "Garden of Thorns plants no seeds while you are hidden in a brush, unless an enemy ward is inside it. Stay out of brushes to keep seeds around you."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un champion ennemi détruit une graine en marchant dessus après un court délai. Écraser une graine de Croissance incontrôlée (Z) le révèle 2 s : fais vite éclore tes graines exposées.",
+        "en": "An enemy champion destroys a seed by walking over it after a short delay. Crushing a Rampant Growth (W) seed reveals them for 2 s: hatch your exposed seeds quickly."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ronces étrangleuses (R) enrage les plantes dans sa zone : plus de PV, deux tirs par attaque et durée relancée. Même celles qui poussent pendant les 2 s avant le knock-up en profitent.",
+        "en": "Stranglethorns (R) enrages the plants in its area: more health, two shots per attack and a refreshed duration. Even plants grown during the 2 s before the knock-up benefit."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Une graine de Croissance incontrôlée (Z) donne de la vision là où tu la poses et dure 60 s. Sers-t'en pour vérifier un buisson ou préparer une zone avant un objectif.",
+        "en": "A Rampant Growth (W) seed grants vision where you place it and lasts 60 s. Use it to check a brush or set up an area before an objective."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Une élimination de champion te rend une charge complète de Croissance incontrôlée (Z). Après un kill dans un fight, replace tout de suite une graine pour la plante suivante.",
+        "en": "A champion takedown gives you a full Rampant Growth (W) charge. After a kill in a fight, plant a new seed right away for your next plant."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zyra - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zyra",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Best Zyra Build & Guide (2026) — League of Legends",
+      "url": "https://www.dodge.gg/lol/news/zyra-build-2026",
+      "type": "guide",
+      "date": "2026-03-23",
+      "author": "Dodge.gg Team"
+    },
+    {
+      "title": "GUIDE ZYRA SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes",
+      "url": "https://www.youtube.com/watch?v=OtX2K72n6-w",
+      "type": "video",
+      "date": "2025-04-16",
+      "author": "EXYT - League of Legends"
+    }
+  ]
+}

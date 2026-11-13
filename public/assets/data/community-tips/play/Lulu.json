@@ -1,0 +1,108 @@
+{
+  "champion": "Lulu",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Pix sur l'ennemi, auto, Duo", "en": "Pix on enemy, auto, Glitterlance" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Envoie Pix sur l'ennemi avec Pix à la rescousse ! (E), place une auto, puis Duo éclatant (A) : vise pour que les deux projectiles touchent, et termine par une auto en reculant.",
+        "en": "Send Pix onto the enemy with Help, Pix! (E), land an auto, then Glitterlance (Q): aim so both bolts hit, and finish with an auto while backing off."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Buff complet du carry", "en": "Full carry buff" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "En teamfight, Pix à la rescousse ! (E) puis Fantaisie (Z) sur ton carry, Duo éclatant (A) sur l'ennemi, et Croissance prodigieuse (R) sur ton carry quand un ennemi arrive au contact.",
+        "en": "In teamfights, Help, Pix! (E) then Whimsy (W) on your carry, Glitterlance (Q) on the enemy, and Wild Growth (R) on your carry when an enemy reaches them."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Peel : Pix allié, Fantaisie ennemie", "en": "Peel: Pix ally, Whimsy enemy" },
+      "keys": ["E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pour protéger, Pix à la rescousse ! (E) sur ton carry, puis Fantaisie (Z) sur l'ennemi qui plonge, et Duo éclatant (A) pour le ralentir pendant que ton carry recule.",
+        "en": "To protect, Help, Pix! (E) on your carry, then Whimsy (W) on the diving enemy, and Glitterlance (Q) to slow them while your carry backs off."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pix tire son Duo éclatant (A) depuis sa position. Pose-le sur un ennemi ou un allié avancé avec Pix à la rescousse ! (E) : ta portée effective s'allonge d'autant.",
+        "en": "Pix fires his Glitterlance (Q) bolt from where he is. Put him on a forward enemy or ally with Help, Pix! (E): your effective range grows accordingly."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Selon ton curseur, les deux projectiles de Duo éclatant (A) se croisent, partent en parallèle ou en sens opposés. Un ennemi touché deux fois ne prend que 50 % du second.",
+        "en": "Depending on your cursor, the two Glitterlance (Q) bolts cross, fly in parallel or go opposite ways. An enemy hit twice only takes 50% from the second one."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pix à la rescousse ! (E) lancé sur un sbire ou une cible non champion part sur le champion le plus proche à 75 unités, même invisible : pratique contre un ennemi camouflé collé à un sbire.",
+        "en": "Help, Pix! (E) cast on a minion or non-champion target goes to the closest champion within 75 units, even an unseen one: handy against a stealthed enemy hugging a minion."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Fantaisie (Z) sur un ennemi voyage jusqu'à lui : s'il devient intouchable, meurt ou sort de ta vision avant l'impact, le sort est annulé mais part quand même en CD.",
+        "en": "Whimsy (W) on an enemy travels to them: if they become untargetable, die or leave your vision before impact, the spell is cancelled but still goes on cooldown."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La transformation de Fantaisie (Z) désarme la cible, et sa réduction de vitesse ignore la résistance aux ralentissements : elle colle même aux champions qui en ont.",
+        "en": "The Whimsy (W) polymorph disarms the target, and its movement speed reduction ignores slow resist: it sticks even on champions that have some."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque les dégâts de Pix à la rescousse ! (E) sur un ennemi, mais Pix le suit quand même et le révèle pour tes autos.",
+        "en": "A spell shield blocks the damage of Help, Pix! (E) on an enemy, but Pix still follows them and reveals them for your autos."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Croissance prodigieuse (R) projette en l'air les ennemis proches de la cible et les repousse de 275 unités : lance-la sur l'allié qui se fait plonger pour casser l'engage.",
+        "en": "Wild Growth (R) knocks up enemies near the target and pushes them back 275 units: cast it on the ally being dived to break the engage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Pix posé sur un allié tire ses projectiles à chaque auto de cet allié : un bouclier de Pix à la rescousse ! (E) sert aussi à augmenter ses dégâts, pas seulement à le protéger.",
+        "en": "Pix on an ally fires his bolts on each of that ally's autos: a Help, Pix! (E) shield also boosts their damage, not just their safety."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Lulu - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Lulu", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Lulu Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=igM-pbr_LAc", "type": "video", "date": "2026-04-15", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE LULU SAISON 16 : TUTO comment MONTER SUPPORT sur LEAGUE OF LEGENDS | Tips & Combos, Runes", "url": "https://www.youtube.com/watch?v=jBOA6jE6Yyc", "type": "video", "date": "2025-02-18", "author": "EXYT - League of Legends" }
+  ]
+}

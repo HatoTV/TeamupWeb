@@ -1,0 +1,36 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Innate: Nami's abilities grant bonus movement speed to allied champions hit, decaying over 1.5 seconds.",
+    "Allied champions are granted Surging Tides in a slightly larger area.",
+    "The combined time from the start of the cast time to the bubble landing is 0.99 seconds.",
+    "Aqua Prison provides the status effect that allows Last Breath to be cast.",
+    "Nami unleashes a stream of water onto the target champion or herself, which then bounces to nearby unaffected champions up to twice, alternating between enemies and allies and Nami.",
+    "If cast on an enemy with a spell shield they will not take damage but Ebb and Flow will still continue to bounce, and the target who blocked the ability may be targeted again by the final bounce.",
+    "Nami blesses herself or an allied champion for 6 seconds, empowering their next 3 basic attacks or abilities to each deal bonus magic damage and slow enemies for 1 second.",
+    "Tidal Wave uses a separate empowered buff that has priority over the normal buff.",
+    "this even works with abilities that aren't meant to hit allies like your Q",
+    "If it was used on an enemy, it will then try to jump to an ally and then an enemy again. And if used on an ally, it will try to jump to an enemy and then back to an ally.",
+    "For combos, your go-to is use E into an attack. Follow up with W and Q into more attacks. Your full combo is use E into an attack, W and Q. Attack once more before following up with alt.",
+    "And if starting with ultimate, use E into alt. From here, Q just before ult lands into an attack, W and attack away.",
+    "allies hit by this ability get double the normal movement speed increase from her passive",
+    "When looking to poke, an attack into W is brilliant, dealing damage and healing yourself any return damage you'll take.",
+    "giving E to your carry is incredibly strong as their attacks will not only deal them more damage and slow",
+    "once the slow has been applied, landing your Q becomes much easier to go for the all-in",
+    "infliger 80 dégâts l'adversaire avec une autoattaque et un Z et de pas prendre de dégâts à son tour",
+    "tu dois d'abord caler un r là elle aurait utilisé son r elle aurait bump à 100 % la personne dur durant 0,5 secondes et donc elle aurait pu mettre sa bulle",
+    "on utilise son e et son Z pour slow la personne après on cale une bulle sur le CC",
+    "ton e va être un boost sur les trois prochaines actions de ton allié qui vont toucher donc soit des autoattaques soit des sorts"
+  ],
+  "rejected": [
+    { "idea": "Raz-de-marée (R) traverse les murs (EXYT, 'aurait traversé le mur')", "reason": "Phrase ambiguë dans les sous-titres et note wiki sur le terrain absente : pas de franchissement de mur retenu." },
+    { "idea": "Mettre la E à la frame où l'allié lance son sort (EXYT)", "reason": "Conseil de timing général d'enchanteur, pas une mécanique propre vérifiée." },
+    { "idea": "Raz-de-marée (R) à 80 s de CD (EXYT)", "reason": "Contredit par le wiki au patch 16.22 (CD bien plus long selon les données de l'outil)." },
+    { "idea": "Vidéos ShoDesu et Only Challengers", "reason": "Gameplay commenté sans combo exploitable / pas de sous-titres trouvés." }
+  ],
+  "toVerifyInGame": [
+    "Raz-de-marée (R) puis Prison aqueuse (A) : la bulle (environ 1 s) doit être lancée avant l'impact de la vague pour tomber pendant le knock-up de 0,5 s.",
+    "Zone alliée de Prison aqueuse (A) légèrement plus grande : vérifier l'accélération d'un allié au bord de la bulle."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "champion": "Morgana",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Entrave puis Tourment", "en": "Binding into Tormented Shadow" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Touche Entrave sombre (A), puis pose Tourment ténébreux (Z) sous la cible rootée : elle encaisse toute la zone sans pouvoir en sortir.",
+        "en": "Land Dark Binding (Q), then drop Tormented Shadow (W) under the rooted target: it takes the whole zone without being able to leave."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Chaînes au contact, CC enchaînés", "en": "Melee Shackles, chained CC" },
+      "keys": ["R", "E", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Au contact, lance Chaînes spirituelles (R) et Bouclier noir (E) sur toi, puis colle la cible jusqu'au stun. Pose Tourment ténébreux (Z) dessous et garde Entrave sombre (A) pour la fin du stun.",
+        "en": "In melee range, cast Soul Shackles (R) and Black Shield (E) on yourself, then stick to the target until the stun. Drop Tormented Shadow (W) under it and save Dark Binding (Q) for when the stun ends."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Bouclier noir, Flash, Chaînes", "en": "Black Shield, Flash, Shackles" },
+      "keys": ["E", "F", "R"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Bouclier noir (E) sur toi, Flash au milieu de l'équipe adverse, puis Chaînes spirituelles (R). Flash avant le R : les cibles sont choisies là où tu te tiens au début du lancer.",
+        "en": "Black Shield (E) on yourself, Flash into the enemy team, then Soul Shackles (R). Flash before the R: targets are picked from where you stand when the cast starts."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Bouclier noir (E) annule le CC avant d'absorber les dégâts : même si le sort casse le bouclier, son CC ne passe pas. Seuls les effets qui détruisent les boucliers le contournent.",
+        "en": "Black Shield (E) negates the CC before soaking damage: even if the spell breaks the shield, its CC does not land. Only shield-destroying effects get around it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Bouclier noir (E) ne bloque pas le CC allié (comme le R de Bard), ni la vision réduite, ni les R de Camille, Sylas et Twisted Fate.",
+        "en": "Black Shield (E) does not block allied CC (like Bard's R), nearsight, or the R of Camille, Sylas and Twisted Fate."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque soin de Siphon d'âme réduit le CD de Tourment ténébreux (Z) de 5 %, et ça se cumule par cible : posé sur une wave ou un groupe, il revient très vite.",
+        "en": "Each Soul Siphon heal cuts 5% off the Tormented Shadow (W) cooldown, stacking per target: dropped on a wave or a group, it comes back very fast."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaînes spirituelles (R) peut attacher un ennemi que tu ne vois pas, tant qu'un champion ennemi est à moins de 575 unités pour lancer le sort.",
+        "en": "Soul Shackles (R) can tether an enemy you cannot see, as long as an enemy champion is within 575 units to cast it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque l'attache et les premiers dégâts de Chaînes spirituelles (R). Il ne sert à rien s'il arrive après : le stun tombe quand même.",
+        "en": "A spell shield blocks the Soul Shackles (R) tether and first hit. It is useless once the tether is on: the stun still lands."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Plusieurs Tourment ténébreux (Z) au même endroit ne cumulent pas leurs dégâts, mais ils montent quand la cible a peu de PV : garde-le pour finir.",
+        "en": "Several Tormented Shadows (W) in the same spot do not stack damage, but it grows as the target loses health: keep it to finish."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Morgana - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Morgana", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Morgana Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=kVgzWRLIoS8", "type": "video", "date": "2025-08-18", "author": "3 Minute League of Legends" },
+    { "title": "MORGANA SUPPORT GUIDE - How To Carry With Morgana - Detailed Challenger Guide", "url": "https://www.youtube.com/watch?v=govp5qcA5AU", "type": "video", "date": "2024-12-17", "author": "Coach K" },
+    { "title": "Rank 1 Jungle Morgana GUIDE - Explained EVERYTHING", "url": "https://www.youtube.com/watch?v=6nwNx_8M8Ic", "type": "video", "date": "2026-08-10", "author": "Ves1c" }
+  ]
+}

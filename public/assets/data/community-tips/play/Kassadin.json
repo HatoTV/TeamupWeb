@@ -1,0 +1,112 @@
+{
+  "champion": "Kassadin",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court en lane", "en": "Short lane trade" },
+      "keys": ["Q", "E", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Orbe du Néant (A), Pulsation (E), une auto, puis Lame éthérée (Z) pour reset ton auto et en placer une seconde renforcée.",
+        "en": "Null Sphere (Q), Force Pulse (E), an auto, then Nether Blade (W) to reset your auto and land a second, empowered one."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec Fissure", "en": "Riftwalk all-in" },
+      "keys": ["R", "W", "E", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Fissure (R) sur la cible, une auto reset par Lame éthérée (Z), puis Pulsation (E) et Orbe du Néant (A). Relance Fissure (R) dès qu'elle revient pour finir ou recoller.",
+        "en": "Riftwalk (R) onto the target, an auto reset by Nether Blade (W), then Force Pulse (E) and Null Sphere (Q). Recast Riftwalk (R) as soon as it is back to finish or stick."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Trade puis sortie en Fissure", "en": "Trade then Riftwalk out" },
+      "keys": ["E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ralentis avec Pulsation (E), avance pour une auto et Lame éthérée (Z), puis Orbe du Néant (A). Repars avec Fissure (R) face à un adversaire qui gagne l'all-in.",
+        "en": "Slow with Force Pulse (E), step in for an auto and Nether Blade (W), then Null Sphere (Q). Leave with Riftwalk (R) against an opponent who wins the all-in."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Fissure-Flash surprise", "en": "Surprise Riftwalk Flash" },
+      "keys": ["R", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Fissure (R) puis Flash pendant son temps d'incantation : tu blink plus loin et l'ennemi n'a pas le temps de réagir. Préfère-le à Flash puis Fissure.",
+        "en": "Cast Riftwalk (R) then Flash during its cast time: you blink further and the enemy has no time to react. Prefer it over Flash then Riftwalk."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Fissure (R) te fait traverser les murs. En side lane, reste près d'un mur pour pouvoir t'échapper de l'autre côté, ou passe par-dessus pour tomber sur la backline.",
+        "en": "Riftwalk (R) takes you through walls. In a side lane, stay near a wall so you can escape to the other side, or jump over it onto the backline."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Orbe du Néant (A) interrompt les canalisations. Garde-le pour couper une Téléportation devant toi ou un ult canalisé.",
+        "en": "Null Sphere (Q) interrupts channels. Keep it to cancel a Teleport in front of you or a channeled ult."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le bouclier anti-magie d'Orbe du Néant (A) arrive dès le début de l'incantation et dure 1,5 s. Lance-le juste avant qu'un sort magique ne te touche.",
+        "en": "Null Sphere's (Q) magic shield comes at the very start of the cast and lasts 1.5 s. Cast it right before a magic spell hits you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque sort lancé par un champion proche, allié ou ennemi, réduit le CD de Pulsation (E) de 0,75 s. En teamfight, ton sort revient très vite.",
+        "en": "Every spell cast by a nearby champion, ally or enemy, cuts Force Pulse's (E) cooldown by 0.75 s. In teamfights it comes back very fast."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Lame éthérée (Z) rend cinq fois plus de mana sur un champion. Mais si l'auto est esquivée ou ratée sous aveuglement, tu ne récupères rien.",
+        "en": "Nether Blade (W) restores five times more mana on a champion. But if the auto is dodged or misses while blinded, you get nothing back."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque Fissure (R) ajoute une charge pendant 15 s, jusqu'à 4 : plus de dégâts mais plus de mana. Ping le sort pour voir le temps restant des charges.",
+        "en": "Each Riftwalk (R) adds a stack for 15 s, up to 4: more damage but more mana. Ping the spell to see how long the stacks last."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Pierre du Néant te rend fantôme en permanence et réduit les dégâts magiques subis de 10 %. Tu traverses les sbires sans être bloqué.",
+        "en": "Void Stone keeps you ghosted at all times and cuts magic damage taken by 10%. You walk through minions without being body-blocked."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Kassadin – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Kassadin", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Kassadin Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=CedXMWfNWM4", "type": "video", "date": "2025-09-30", "author": "3 Minute League of Legends" },
+    { "title": "KASSADIN SEASON 16 CARRY GUIDE | ANYTHING YOU MUST KNOW TO CLIMB!", "url": "https://www.youtube.com/watch?v=eIBLGBtzSkk", "type": "video", "date": "2026-01-28", "author": "Coach xblademojo" },
+    { "title": "GUIDE KASSADIN COMPLET: SORTS, POINTS FORTS, COMBOS & 1 GAME POUR POUVOIR SMURF (Narckez RANK 1 FR)", "url": "https://www.youtube.com/watch?v=u_XP6u2Niww", "type": "video", "date": "2026-07-02", "author": "iReaz VOD" }
+  ]
+}

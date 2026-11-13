@@ -1,0 +1,149 @@
+{
+  "searches": 3,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] So, the worst thing you can do versus Xerath is play like a and let the wave get pushed to watch you. What you want to do is you want to kind of contest him on the push. This is of course if you're a ranged champion.",
+    "[0] If you're a melee champion and you're really good at all inning, you can of course let the wave come towards you and then force an extended trade.",
+    "[0] it's a win-win situation if you have to push because if you have to push, what happens is that you either drop low and then you can just reset cuz you pushed the wave out",
+    "[0] Xerath doesn't really function that well from close range because his E has way way way way way less effect because the stun duration increases with range.",
+    "[0] Xerath has a lot of CC in his W and his E, and he usually uses those to set up his Q because those are CC spells",
+    "[0] you got to be, of course, quite careful heavy trading the moment he reaches level six because then he's in a position where he can snipe you with the R after you have heavy traded and you guys are both low.",
+    "[0] I'm really good at baiting out Xerath's spells. So, in this specific position, I act as if I'm going to trade onto him",
+    "[0] He's got pretty high mana cost so it's vital for him that he lands his spells in the early game",
+    "[1] si tu lui bouches la Wave bah il va être coincé entre lancer le sort dans la Wave et te lancer le sort à la gueule et si tu lances le sort à la gueule et bah il pourra pas push sa wave c'est pour ça que contre xerat je te conseille de push très fort dès le début",
+    "[1] quand tu as ton r avec ton item mana et que l'autre n'a pas son item mana empêche de B",
+    "[1] il a pas de mana il a pas de stuff moi j'ai de la mana et du stuff donc là je suis meilleur que lui et je vais essayer de maintenir cette situation",
+    "[1] troisième conseil c'est si tu galères essaie de recol souvent tu peux rol toutes les trois waves sur les WAV canon bah parce qu'en fait quand tu roles ça fait que tu regagnes ta vie tout simplement donc ça fait que son po bah il sert pas à grand-chose",
+    "[2] You want to be hitting the wave as much as possible. ... just uh not don't get pushed in into these poke matchups.",
+    "[2] these immobile mages are very bad into into you if the wave state is at your end of the lane.",
+    "[2] A very good tip for dodging Xerath, you can kind of weave in and out of his max ability range just to bait out his cooldowns. And then you can look for angles to go in.",
+    "[2] He's out of mana. He has no sustain. He has to take a bad recall now uh or use his TP.",
+    "[2] Only Xerath could potentially be here and I can easily dive him. Okay, I need to wait for his E cool down though.",
+    "[2] Basically, his goal is to always push you in and then look to poke you under the turret. But as you can see, if you just push your aggressively and grab the priority"
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "GGcsKR9lYZs",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 0:53-5:17, transcription complète en-orig)"
+    },
+    {
+      "id": "qWZAJOKYRB0",
+      "channel": "Gros Galio",
+      "result": "utilisé (passages 0:26-6:18, transcription complète fr ; conseil bottes écarté : item)"
+    },
+    {
+      "id": "VXmmrmO6hQM",
+      "channel": "Kunain",
+      "result": "utilisé (recherche en-orig, passages 0:10-2:14, 9:31, 16:29 ; « stun 13 s flat » contredit par DDragon 13/12.5/12/11.5/11, écarté)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Push la wave en ranged : il doit choisir entre farm et poke",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Z et E préparent le A : engager quand l'E est en CD (11-13 s)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD E 13/12.5/12/11.5/11, W slow, E stun)"
+    },
+    {
+      "idea": "Entrer/sortir de sa portée max pour bait les sorts, puis trade",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Mêlée all-in : laisser la wave de son côté, Xerath immobile",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (absence de dash vérifiée dans DDragon)"
+    },
+    {
+      "idea": "Back après le poke grâce au push, son poke est perdu",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Mana chère : quand il est OOM, push pour l'empêcher de back",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (coûts 80-120 / 60-80 vérifiés DDragon)"
+    },
+    {
+      "idea": "Stun de l'E plus long selon la distance : rester proche",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (stun based on distance travelled)"
+    },
+    {
+      "idea": "Lvl 6 : R longue portée, ne pas rester low après un trade",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R range 5000)"
+    },
+    {
+      "idea": "Ne pas se placer dans la wave (il touche wave et toi)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, lane"
+    },
+    {
+      "idea": "Éviter l'ARAM mid game, jouer les side lanes, il est lent",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, macro"
+    },
+    {
+      "idea": "Mauvais follow-up de gank",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source"
+    },
+    {
+      "idea": "Bottes tôt pour esquiver",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: item"
+    }
+  ]
+}

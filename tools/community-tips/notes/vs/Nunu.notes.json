@@ -1,0 +1,154 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] the most obvious glaring weakness of Nunu is that before you hit level six, uh, the enemy jungler can basically almost every single time win one v one trade or win one v one duel against you",
+    "[0] So Nunu's alt, if you full channel it, it's really really good for a one v one scenario. It does like 70% of a squishy's health bar in the early to mid game",
+    "[0] But if the enemy can can have an ability to interrupt you, like for example example random one Syndra E, it makes your one v one potential a lot weaker because they can cut off like the majority of your damage",
+    "[0] this my opening that that I'm basically known for which is red, raptors, gromp into either bot lane gank or mid lane gank",
+    "[0] if you have prio uh you can the laners can deep ward into enemy jungle, right? Um if you if you have deep wards in enemy jungle, you can see where when Nunu is getting off camps, and then you can use it to respect the gank timings",
+    "[0] Nunu, as I said before, is pretty weak dueling on early. So if you are a really good invade champion, like Bel'Veth for example is one of them that's pretty good, then you can look to kind of bully Nunu out of their own jungle",
+    "[0] Jungle tracking can be helpful, but uh you kind of need like a raptors ward in order to track track Nunu effectively",
+    "[0] then you can like snowball into bot lane. So, how do I snowball? How do I snowball here? Uh just snowball like a tri bush, yeah. Or like anywhere. Like your snowball is pretty far range",
+    "[1] He has a stun to cancel your alt.",
+    "[1] At level six, he gets his arc and then it's hard CC. So, you just he cancels your alt. So, you're noticing a pattern here. Noo-Noo's main weaknesses in matchups are high burst, high mobility, uh high CC, terrain generation like Onive or Trundle, and then Ignite.",
+    "[1] once you're level six, if you survive at level six and you don't get solo killed until level six, you can kill him with your alt",
+    "[1] Aurora is tough cuz she can like kill you at any point uh pre six. So you want to just survive until level six.",
+    "[1] you have to hit them with snowball first, which means you have to find an angle where they let you hit them with snowball cuz it's such a telegraphed ability. You have to use fog of war to your advantage. You have to track their abilities that can cancel your snowball. You have to track their mobility that can dodge out of your snowball.",
+    "[1] The problem is he can flash out of it. So track flash, track summoner spells, track mobility.",
+    "[2] A special hidden talent Noo-Noo has is that he is a champion that heavily punishes laners who either don't respect him or don't track him. His gank potential is absurdly easy and good. A gank is almost always guaranteed to work unless the laners know where he is.",
+    "[2] This also is an extremely early gank that I doubt the bot laners were going to see happen. They are literally level two. The reason it worked was the lack of respect.",
+    "[2] The first thing I changed was getting a ward down in his jungle to see how he was pathing. This can allow me to track where he is and warn my team about what side of the map he is on.",
+    "[2] In a 1v one against me, he will always lose.",
+    "[2] So, if you are up against a Noo-Noo, try to get a ward in his jungle so you know where he's pathing so you can match him. Another helpful tip is to try to invade more as his 1v one capabilities are incredibly low compared to a lot of other junglers."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "m4Ww5Itl0CI",
+      "channel": "perryjg",
+      "result": "utilisé (passages 6:17-7:40, 9:15, 15:04-17:10, 28:29) : guide avec le rank 1 Nunu, 2025-11-02"
+    },
+    {
+      "id": "-n0s0N8VdKw",
+      "channel": "Snowball",
+      "result": "utilisé (passages 20:55-24:47, 33:18, 36:57-37:50) : tier list des matchups Nunu mid, Challenger, 2026-08-31"
+    },
+    {
+      "id": "X3eMrrusi0s",
+      "channel": "Sawyer Jungle",
+      "result": "écarté : gameplay commenté côté Nunu, aucun conseil de counterplay exploitable"
+    },
+    {
+      "id": "sFxYZvySvdc",
+      "channel": "ADumbBye",
+      "result": "utilisé (passages 3:30-5:10, 6:45, 8:09-8:55) : récap d'un joueur en route vers Master sur comment contrer Nunu, 2026-01-23"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "CC dur pour interrompre le R (canalisation, dégâts selon la durée)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R canalisé, dégâts selon le temps canalisé)"
+    },
+    {
+      "idea": "Nunu faible en 1v1 avant le lvl 6, le R fait l'essentiel de ses dégâts ensuite",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Gank très tôt (lvl 2-3) bot ou mid après 2-3 camps : ne pas overpush sans info",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Invade Nunu avec un jungler fort en duel",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ward profonde dans sa jungle (raptors) pour suivre son pathing",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "La boule de neige (Z) arrive de loin depuis le fog : warder rivière et tri brush",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (portée 7500 confirmée DDragon)"
+    },
+    {
+      "idea": "La boule de neige (Z) tourne lentement : garder un dash pour l'esquiver",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (« They turn slower while rolling it »)"
+    },
+    {
+      "idea": "Sortir de la zone du R avant l'explosion finale (slow croissant)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (explosion à la fin, slow croissant)"
+    },
+    {
+      "idea": "Ignite contre Nunu mid",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: sort d'invocateur, interdit"
+    },
+    {
+      "idea": "Ne pas suivre ses ganks et full clear (perryjg) vs suivre son pathing pour counter-gank (ADumbBye)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: sources contradictoires"
+    },
+    {
+      "idea": "Nunu faible entre 12 et 15 min et en late sauf s'il est très en avance",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil macro"
+    },
+    {
+      "idea": "Les murs (Anivia, Trundle) bloquent la boule de neige",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: trop spécifique à quelques champions"
+    }
+  ]
+}

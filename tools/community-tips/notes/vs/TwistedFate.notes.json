@@ -1,0 +1,134 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Without a basic dash, he relies on positioning and card timing to reach enemies or escape approaching threats. Enemies who get on top of him can burst him down before he can stun them or create enough distance.",
+    "[0] Visible card preparation can give away his intentions while gates arrival marker lets enemies prepare a response. Spending W leaves him vulnerable. Without ultimate, he loses his crossmap threat, giving enemies more freedom to make their own plays.",
+    "[0] Gold cards pointand-click stun turns one exposed enemy into an opening for his entire team.",
+    "[0] and just holding it can make opponents back off, letting you deny farm through the threat alone.",
+    "[0] But that also means missing waves cost you more. Roaming is a huge part of Twisted Fate identity, but those roams need to be worth what you're giving up. Collect your waves and look to push before leaving",
+    "[0] Red card lets him push and poke together, creating pressure and room to roam.",
+    "[0] As level six gets closer, start checking nearby lanes instead of waiting until your ultimate is available to look for a play. Once you reach level six, clear your wave and move out of vision towards a lane you could influence.",
+    "[0] Destiny gives you vision, so you can appear across thin terrain and throw gold card while they struggle to reach you.",
+    "[0] Brush can also give you cover, but it doesn't hide gates landing marker.",
+    "[1] If you can push the wave, they can't play aggro, right?",
+    "[1] Look, my lane is fine. This guy has to focus on CS. Like, he can't. Now, he has to use his wave to push back.",
+    "[1] these guys are so good at laning phase and TF has such a weak laning phase.",
+    "[1] in higher elo people know that they should perma gank TF because if a good TF doesn't get ganked, he will do what I'm doing. Like he's just going to perma roam and take over the map.",
+    "[2] All you have to do is not die in the first few levels and get Merks.",
+    "[2] Now, if you know Doper, we're looking for the level six power spike. We're making sure we're full mana, full offensive before a level six gank."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "annbbstgrUA",
+      "channel": "Zoose",
+      "result": "utilisé (passages 1:01-2:05, 2:45-3:00, 4:46, 15:36-16:10, 22:40-22:55)"
+    },
+    {
+      "id": "03YnYoPX7Ac",
+      "channel": "Gaaloul LoL",
+      "result": "utilisé (passages 2:17-2:50, 10:30-10:46)"
+    },
+    {
+      "id": "ZWeRu0XFxw4",
+      "channel": "Midbeast",
+      "result": "utilisé (passages 3:21-3:37, 6:20-6:25)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Pas de dash, lane faible avant le lvl 6 : jouer agressif et le coller",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Garder la prio de wave : TF doit push avant de roam et perd plus en ratant des waves",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Au lvl 6, TF clear et part gank : ping son absence",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Z utilisé = plus de stun, CD 6 s",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (PickACard cooldown 6)"
+    },
+    {
+      "idea": "Le stun part sur l'auto : rester hors de portée d'attaque quand il prépare sa carte",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (W améliore l'attaque suivante, Gold Card étourdit ; attackrange 525)"
+    },
+    {
+      "idea": "R révèle tous les champions ennemis, brushs compris",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (True Sight de tous les champions ennemis 6/8/10 s)"
+    },
+    {
+      "idea": "Portail : 1,5 s avant téléport, point d'arrivée visible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (téléport en 1.5 s) ; marqueur visible : source 0 (1:52, 22:50)"
+    },
+    {
+      "idea": "R long CD : après l'ult, plus de menace globale",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD 170/140/110)"
+    },
+    {
+      "idea": "Le jungler doit gank TF souvent pour l'empêcher de roam",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source explicite, limite de 8 tips"
+    },
+    {
+      "idea": "Atouts (A) lents, faciles à esquiver",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, vitesse non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Galio peut suivre l'ult de TF avec la sienne",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: propre à Galio, 1 source"
+    }
+  ]
+}

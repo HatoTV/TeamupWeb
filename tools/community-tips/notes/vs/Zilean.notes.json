@@ -1,0 +1,145 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Anything already with a bomb will take priority and then it'll go down the list of enemy champions, ally champions, enemy minions, ally minions.",
+    "[0] We can use bomb priority knowledge to our advantage by aiming for minions and then aiming for the minion that already has the bomb to stun nearby champions.",
+    "[0] This is some absolutely disgusting anti-zlant tech that I never see, but you can just flash at AAS and dodge the stun.",
+    "[0] Your movement is most predictable, so use yourself for aiming in hard to hit situations. Bombs that would otherwise be impossible turn into just timing exercises.",
+    "[0] you can use the timing and bombing yourself to make it so they cannot flash after and continue the CC chain.",
+    "[0] To get the three bomb combo to work, you need to have your W on a less than 6 second cool down. And you need to wait a considerable amount of time between your first and your second bomb so there's enough time for your W to come off cool down to press Q again.",
+    "[0] getting your W on a less than 3 second cool down allows you to do the infinabomb combo where you can repeatedly stun your opponent until either you run out of mana or they dodge a stun. It should be noted it requires a lot of ability haste and levels and W to make this work.",
+    "[0] Practically every time I get flamed for not pressing R on an ally, being stunned is the reason why.",
+    "[0] it is also a strategy point where if you see the alt runes on an enemy, you know that that is the real one.",
+    "[1] I'm not going to use my W to immediately double bomb. I'll wait until I get her a little bit more chunked.",
+    "[1] The more CDR we get, the easier it becomes to chain our bombs together. ... your W cooldown gets so short if you max it.",
+    "[1] You can double bomb yourself. You can bomb yourself and run at people if you really want to.",
+    "[1] Also, if you kill something with a double bomb, it immediately detonates both of them and in some cases you can literally burst people that are standing next to minion waves like casters",
+    "[1] It's a lot harder to land the double bomb than you think cuz there's a travel time no matter the distance.",
+    "[1] I double bomb the Jinx. I slowed the Jinx. I double bomb the Jinx again maybe. I slowed her again just to make it so she can't be part of this fight at all.",
+    "[1] this match-up sucks, so but we're just trying to scale to the point where Zilean becomes a really annoying character to face.",
+    "[2] I thought he would flash the bomb, but he doesn't. Okay, notice how I didn't see he didn't have flash.",
+    "[2] Oh, you're slowed, bro. Bro, it's it's What can you do against this? What can you do against this with no flash?"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "WWUrGUNV-Yg",
+      "channel": "Pestify_Lol",
+      "result": "utilisé (passages 3:23-3:44, 4:35, 6:14-6:32, 11:18-11:48, 14:56, 23:27) ; Master Zilean main, 2026-07-06, kit expliqué aussi pour l'adversaire"
+    },
+    {
+      "id": "1yEDTTGXm2M",
+      "channel": "Minato1514",
+      "result": "écarté : FR, face à un Zilean top mais aucun conseil exploitable (musique, peu de commentaire)"
+    },
+    {
+      "id": "oOZ_evSIuIg",
+      "channel": "SigwilKat",
+      "result": "utilisé (passages 4:16-4:22, 7:19-7:30) ; ex-rank 1 Zilean, 2026-08-09"
+    },
+    {
+      "id": "1gnbrl2hiMY",
+      "channel": "PekinWoof",
+      "result": "utilisé (passages 5:52-6:04, 9:41, 12:11-12:29, 16:24-16:28, 16:51-16:58, 35:01) ; parties SR uniquement, Arena ignorée ; 2026-09-29"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Dash/Flash pour sortir de la zone pendant le trajet de la 2e bombe = pas de stun",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (stun seulement si la 2e bombe fait exploser la 1re)"
+    },
+    {
+      "idea": "Après A-Z-A, plus de stun : fenêtre de trade",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Retour rapide réduit les CD des autres sorts ; A 10-8 s)"
+    },
+    {
+      "idea": "S'éloigner d'une unité qui porte déjà une bombe (priorité, stun de zone)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (se colle aux unités proches, stun des ennemis dans l'explosion)"
+    },
+    {
+      "idea": "Zilean qui se bombe lui-même va foncer sur toi",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon"
+    },
+    {
+      "idea": "E ralentit, 15 s de CD : attendre son usage avant l'all-in en mêlée",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Time Warp CD 15, ralentit un ennemi)"
+    },
+    {
+      "idea": "Zilean chaîne les stuns surtout plus tard (Z à faible CD) : pression tôt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Marqueur du R visible sur la cible : changer de cible ou burst après la résurrection",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (rune protectrice, stase puis résurrection sur dégâts mortels)"
+    },
+    {
+      "idea": "Stun Zilean / hors portée 900 du R avant de burst sa cible",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Chronoshift portée 900)"
+    },
+    {
+      "idea": "Punir quand Zilean rate sa bombe",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil de lane"
+    },
+    {
+      "idea": "Le R ne compte pas comme une mort pour les resets",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: trop niche, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Le E n'est pas un projectile (murs de vent inefficaces)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: non vérifiable dans DDragon, niche"
+    }
+  ]
+}

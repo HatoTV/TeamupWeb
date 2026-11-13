@@ -1,0 +1,126 @@
+{
+  "searches": 5,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] So when he goes for this type of minions like here like he now she needs to spend W and now she will walk up. Maybe for that we can throw a good E out Q out attack.",
+    "[0] I don't have a lot of mana, so I don't know how to do it here. Maybe I can drop a plant to help me.",
+    "[1] Aphelios is on mana for it. I'm going to use my plants for vision.",
+    "[1] I think arm guard is so good against their team cuz they can just dive me really really easily.",
+    "[1] Just using my plants here to just give me vision.",
+    "[2] OK, on casse la plante.",
+    "[2] On va Z ça. Casser les plantes. Faut juste pas laisser la la Z trop prendre la domination de la LAN et après c'est assez simple en vrai.",
+    "[2] Velle a plus trop de mana. Elle a plus trop de mana. Elle a beaucoup envoyé.",
+    "[2] Bon, elle a vraiment plus du tout de mana. Elle est vraiment un point de mana là.",
+    "[2] Il a pas de mana. Il peut rien faire là.",
+    "[3] plants can also give vision in bushes if you guys are unaware. So make sure to spawn them where you can where you're unsure of your next approach and just drop them.",
+    "[3] One of the best counters we're going to be able to pull off is when Machi does dive into us and he doesn't instant kill us. We'll have to time our ultimate perfectly so that he has to either flash out or he just gets caught by it",
+    "[3] We're just here for zoning, for some poke damage. We don't need to all in. That's not our kit."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "fm9epzQ9ThU",
+      "channel": "Coach K",
+      "result": "utilisé (passages 2:08, 4:58) ; joueur de Zyra, peu de conseils contre elle"
+    },
+    {
+      "id": "pekIiM0oPsM",
+      "channel": "ShoDesu",
+      "result": "utilisé (passages 4:14, 27:33-27:38, 28:04)"
+    },
+    {
+      "id": "XiiqUdV2lVE",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 1:21-3:22), Garen contre Zyra top, commentaire FR"
+    },
+    {
+      "id": "J00POf0hWMs",
+      "channel": "EmpathZan",
+      "result": "utilisé (passages 31:13, 47:19, 52:58) ; joueur de Zyra"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://www.leaguefeed.net/how-to-counter-zyra/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://www.rankedboost.com/league-of-legends/counter/zyra/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://www.op.gg/lol/champions/zyra/counters",
+      "result": "ok (un seul tip utilisateur, pour jouer Zyra : les graines donnent la vision ; non retenu comme source, sans date)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Les graines dans les buissons donnent la vision ; marcher dessus les détruit mais révèle",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W : True Sight des champions qui marchent sur une graine, graine détruite)"
+    },
+    {
+      "idea": "Zyra manque vite de mana : avancer et trade quand elle est à sec",
+      "sourceIdx": [
+        2,
+        0
+      ],
+      "kept": false,
+      "reason": "dropped at integration: 2nd source is a passing remark by a Zyra player, not counterplay advice"
+    },
+    {
+      "idea": "Zyra est un kit de poke/zone sans dash, facile à dive",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources ; aucun sort de mobilité dans DDragon"
+    },
+    {
+      "idea": "Son E ouvre le combo avant le A ; 11 s de CD, esquiver puis engager",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E root, portée 1100 contre 800 pour A, CD 11)"
+    },
+    {
+      "idea": "Casser les plantes, ne pas rester à côté",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (plantes avec PV via le R, durée limitée)"
+    },
+    {
+      "idea": "Le R sert d'anti-dive : tuer vite, sortir de la zone avant 2 s",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (knock-up après 2 s)"
+    },
+    {
+      "idea": "Les plantes bloquent les hooks",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Se placer pour ne pas prendre l'ult en groupe",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: les passages parlent d'autres ults (Viego, Jarvan), pas du R de Zyra"
+    }
+  ]
+}

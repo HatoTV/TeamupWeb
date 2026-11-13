@@ -1,0 +1,148 @@
+{
+  "searches": 7,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Que tu es littéralement perma slow. Tu En fait, je ne peux pas faire des pas de côté ou quoi, c'est ça ne marche pas dans ce perso.",
+    "[0] Bah c'est injouable frère, elle te slow tout le temps.",
+    "[0] En fait, c'est un personnage avec qui tu ne peux pas trade tes summoners, parce que si tu les trades, ben derrière, tu peux plus, en fait, tu peux plus all-in.",
+    "[1] Q, after four auto attacks, you can slow more.",
+    "[1] Be sure when pushing with W, you go on an angle to hit all of the minions and not just W to hit only one guy in front.",
+    "[1] When using your E, you want to see at least four camps of the enemy jungle.",
+    "[1] Oh, one more thing. Shoot it from fog of war. It is so much harder for the enemies to dodge it.",
+    "[1] She has no dashes, she is very vulnerable, she has less damage than most hyper carries.",
+    "[1] It is key to sync your ult usage with when an objective is up.",
+    "[2] Essentially, when you have your Q up, you are one of the strongest dueling AD carries in the game.",
+    "[2] And you should always E on the opposite diagonal on the map.",
+    "[2] So, it's best to look for ultimates in a straight line.",
+    "[2] I hit an arrow from base.",
+    "[2] She has the second highest range in the game after Caitlyn and that that coupled with Approach Velocity and Ghost in some games or in a chapter just makes it so that nobody can run away from you.",
+    "[3] Throwing it like this will make it so that the minions in front will actually tank for your W.",
+    "[3] In this case, we are watching all the camps just by pushing the lane and then doing a full checkup of where the enemy jungler is 100%.",
+    "[3] So, I highly advise to always use the ultimate as straight as possible instead of sideways.",
+    "[3] Every time you see an enemy hugging a wall, ult slightly higher up to him and you're always going to land the shot unless the guy flashes, which is eventually what we want.",
+    "[3] Ashe passive applies a slow on your autos."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "YZO9VM8KNck",
+      "channel": "WoitlanDunk ",
+      "result": "utilisé (passages 0:51-1:10, 9:37) : perma slow, impossible d'espacer"
+    },
+    {
+      "id": "gg0-X0jHKhE",
+      "channel": "BIZYZE Coaching | League of Legends",
+      "result": "utilisé (passages 1:08-1:40, 2:26-2:53, 3:59-4:13)"
+    },
+    {
+      "id": "eRTLiXvC0_o",
+      "channel": "Crownie",
+      "result": "utilisé (passages 1:44-1:57, 3:15-4:21, 5:11-5:24)"
+    },
+    {
+      "id": "NbqnVoCec9I",
+      "channel": "Eneino Coach",
+      "result": "utilisé (passages 0:00-0:12, 1:04-2:24, 2:38-3:31)"
+    },
+    {
+      "id": "g_M9r9TE6SM",
+      "channel": "LoL Havoc",
+      "result": "écarté sans ouvrir : vidéo sur les objets (hors règles)"
+    },
+    {
+      "id": "NrG264_zTz0",
+      "channel": "Coach Violet",
+      "result": "écarté sans ouvrir : chaîne exclue"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Rapace (E) d'Ashe scoute la jungle adverse tôt (plusieurs camps) : jungler, ton chemin est connu",
+      "sourceIdx": [
+        1,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Concentration du ranger (A) chargée = Ashe très forte en duel ; trade après qu'elle l'a utilisée",
+      "sourceIdx": [
+        2,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (charges via attaques, bonus de vitesse d'attaque)"
+    },
+    {
+      "idea": "Chaque auto ralentit : impossible de combler l'écart ou de fuir sans mobilité",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif Tir givrant)"
+    },
+    {
+      "idea": "R tiré depuis le brouillard ou la base ; stun plus long de loin",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (portée globale, stun selon la distance)"
+    },
+    {
+      "idea": "R facile en ligne droite ou contre un mur : sortir de l'axe",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Rester derrière ses sbires : ils bloquent la Salve (Z), Ashe doit la lancer en diagonale",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ashe n'a aucun dash : vulnérable aux engages et CC",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (aucune mobilité dans le kit)"
+    },
+    {
+      "idea": "Ne pas échanger ses sorts d'invocateur tôt : sans eux Ashe gagne grâce au perma slow",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (conseil de lane)"
+    },
+    {
+      "idea": "Ashe garde son R pour les objectifs",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (macro)"
+    },
+    {
+      "idea": "Ashe forte au lvl 1 et veut la prio des brush",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (lane)"
+    }
+  ]
+}

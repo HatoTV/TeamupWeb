@@ -1,0 +1,38 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Twisted Fate cycles through three cards for 6 seconds, hovering each for 0.5 seconds at a time. Pick a Card can be recast within the duration, which selects the current card hovered.",
+    "Red Card Bonus: Deals magic damage to the target and surrounding enemies, increased by key=% [critical chance]. All targets hit are slow [slowed] for 2.5 seconds.",
+    "Gold Card Bonus: Deals magic damage, increased by key=% [critical chance], and stun [stuns] the target for a duration.",
+    "Pick a Card's recast basic attack reset [resets] Twisted Fate's basic attack timer. The recast can be used while affected by cast-inhibiting crowd control.",
+    "The first card shown is random but the order always remains the same (Blue Card [Twisted Fate], Red Card [Twisted Fate], Gold Card [Twisted Fate], repeat).",
+    "If the target becomes untargetable, death [dies], or is too far away during the empowered attack's cast time, it is cancelled but not consumed.",
+    "The empowered attack will trigger against structures and buildings but not wards and plants.",
+    "At 3 stacks, his next basic attack is empowered to consume them all to deal bonus magic damage, reduced to 50% against structures. Twisted Fate gains maximum stacks of Stacked Deck upon respawning.",
+    "Stacked Deck can be dodged and/or missed if Twisted Fate is blind [blinded] (the on-hit effect is not consumed in either case) but cannot be blocked (the enhanced attack is consumed and the bonus damage is still applied).",
+    "Recast - Gate: Twisted Fate channels for 1.5 seconds before blink [blinking] to the target location, homing projectile destruction [destroying] enemy projectiles targeting him in the process.",
+    "Twisted Fate cannot recast Destiny while ground [grounded] or root [rooted].",
+    "Both allies and enemies can see an indicator at the targeted location of where Twisted Fate will appear.",
+    "Pick a Card is usable. Wild Cards is disabled.",
+    "For combos, it's best to have a fully charged E before choosing a card, then attack with Q. And your plan for full engagement is to use your ultimate, choose a gold card, and then teleport. Attack to stun the target before using Q before moving away.",
+    "Start cycling your cards, then auto attack. As soon as the attack fires, lock in a card and auto attack again. Selecting the card resets your attack timer, letting you throw the second attack without the usual weight.",
+    "Land gold card, follow with Q while they're stunned, then auto attack for extra damage. If possible, prepare your E stacks so either gold card or the follow-up auto triggers stack deck.",
+    "Activate R to reveal the enemy, then start cycling W. Recast R to begin gate and lock in gold card before you arrive. You can select it before the teleport or during the channel. Just don't wait until you land to start cycling. On arrival, auto attack your target to stun them, then follow with Q and another auto.",
+    "Start cycling W and lock in gold card. Then flash into auto attack range and immediately attack your target to stun them. Follow with Q and another auto if you can. The order matters. Prepare your card first so you can catch them as soon as you flash.",
+    "Throw red card at a nearby minion and the splash can reach an opponent outside your auto attack range.",
+    "W always cycles blue, red, gold, then repeats. The starting card can change, but the order doesn't. So, when you see red, you're already preparing to lock gold.",
+    "And if you're caught by crowd control while W is already cycling, you can still lock your card ready to attack as soon as you're free.",
+    "And don't be afraid to auto attack a plant while a card is locked in. The plant won't consume it.",
+    "card preparation can give away his intentions while gates arrival marker lets enemies prepare a response."
+  ],
+  "rejected": [
+    { "idea": "Lancer Atouts (A) puis Flash pendant l'incantation pour surprendre une cible", "reason": "Une seule source joueur (Zoose) ; interaction avec Flash non confirmée par le wiki : écartée." },
+    { "idea": "Destinée (R) passe le bouclier de sort avant la carte dorée", "reason": "Zoose seul ; le wiki ne le décrit pas." },
+    { "idea": "Feinter une auto pendant que les cartes tournent pour faire gâcher un bouclier de sort ou une parade", "reason": "Une seule source (Zoose), non confirmé par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Choisir la carte dorée pendant la canalisation de Destinée (R) : le wiki dit Bonne pioche (Z) utilisable pendant la canalisation, Zoose confirme ; vérifier le timing pour ne pas laisser expirer les 6 secondes.",
+    "Reset d'auto en validant la carte juste après le départ d'une auto normale."
+  ]
+}

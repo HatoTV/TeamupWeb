@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Tryndamere reduces the bonus attack damage of nearby enemy champions for 4 seconds.",
+    "Tryndamere also applies a curse to all nearby enemy champions for 3.25 seconds. While accursed, they become slow [slowed] while facing away from Tryndamere.",
+    "A nearby enemy champion is required to cast this ability. The target does not have to be sight [visible] to be targeted by this ability.",
+    "Mocking Shout very briefly sight [reveals] Tryndamere if he uses it while in the Fog of War to enemies.",
+    "Mocking Shout prevents Tryndamere from using Undying Rage during its cast time.",
+    "Tryndamere dashes to the target location, dealing physical damage to enemies hit and generating fury [2 Fury] per enemy hit, increased to 5 Fury against champions.",
+    "Critical strikes on-hit reduce Spinning Slash's current cooldown by 0.75 seconds, doubled to 1.5 seconds against champions.",
+    "Bloodlust [Tryndamere] and Undying Rage [Tryndamere] can be cast during the dash.",
+    "Flash will interrupt the dash but Spinning Slash will deal damage to enemies at the new location instantly.",
+    "Enemies already hit by Spinning Slash cannot be damaged more than once.",
+    "To ensure Spinning Slash deals damage when dashing away from an enemy champion, Tryndamere needs to move r-35 units towards the enemy beyond the distance he can basic attack at",
+    "The cooldown reduction upon critical strike [critically striking] triggers on wards and jungle plants and even if the attack is blocked, but not if it misses due to blind.",
+    "Tryndamere consumes all of his fury [Fury] to heal himself, increased for every point of Fury consumed.",
+    "Bloodlust can be activated at any point of Tryndamere's basic attack.",
+    "This means that if Bloodlust [Tryndamere] is cast during Tryndamere's attack windup, the attack will use the critical strike chance given by the Fury before the Bloodlust [Tryndamere] cast.",
+    "Furthermore, the Fury for that basic attack will be given once the windup completes. This lets Tryndamere start building Fury immediately.",
+    "Tryndamere becomes enraged, instantly gaining fury [Fury] and a minimum health threshold for 5 seconds.",
+    "Undying Rage can be used while affected by cast-inhibiting crowd control.",
+    "for combos walk up and attack your enemy until they turn their backs where you can slow them with W from here attack away using e to chase them down as needed when engaging use W into your E before attacking away of course with all these combos use ultimate if you're about to die and after the fight you can use Q to heal",
+    "critical strikes reduce the cool down of this ability and it's reduced even further when used against Champs",
+    "this ability can always be used regardless on if he's locked down",
+    "use e to flank onto the fight over terrain to get onto their backline",
+    "So, I W, I spin in, and look at my mouse cursor.",
+    "So here I auto attack and I auto attack and I spin out and look at that damage. So we're getting two autos and spin and we're just getting out of there.",
+    "you can find out if someone is in the bushes without going there. Your \"Taunting Shout\" ability is always highlighted, meaning you can...the thing is, if there are no enemies in range, you can't click on it."
+  ],
+  "rejected": [
+    { "idea": "Balafre (E) traverse les murs pour flanquer", "reason": "Une seule source (3 Minute, « over terrain ») ; le wiki ne le dit pas. Franchissement non confirmé : écarté." },
+    { "idea": "Combo Balafre (E) puis Flash", "reason": "Interaction confirmée par le wiki mais aucune source joueur lue ne le joue : gardée en astuce, pas en combo." },
+    { "idea": "Vidéo Foggedftw2 Tryndamere « Le SEUL guide de jeu Tryndamere » (-g7uKHjdLrI)", "reason": "Ouverte, aucun passage exploitable (commentaire de macro)." }
+  ],
+  "toVerifyInGame": [
+    "Balafre (E) vers l'arrière après deux autos : distance de départ nécessaire pour que le dash touche encore la cible (note wiki r-35 unités au-delà de la portée d'auto).",
+    "Flash pendant Balafre (E) : dégâts appliqués immédiatement au point d'arrivée."
+  ]
+}

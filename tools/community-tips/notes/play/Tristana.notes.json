@@ -1,0 +1,44 @@
+{
+  "searches": 2,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Tristana dash [jumps] to the target location. Upon landing, she deals magic damage to nearby enemies and slows them by 40% for 2 seconds.",
+    "Scoring an enemy champion takedown or detonating Explosive Charge [Tristana] at maximum stacks on a champion will reset Rocket Jump's cooldown.",
+    "Tristana can cast any of her abilities during the dash.",
+    "Tristana can still use her abilities, summoner spells, and item actives during Rocket Jump.",
+    "Tristana's basic attacks are empowered to trigger an explosion when they kill the target, dealing magic damage to nearby enemies.",
+    "Explosive Charge can target and damage turrets, and explodes in a larger radius on a turret.",
+    "Tristana's basic attacks on-hit and abilities against the target increase Explosive Charge's damage by *100%, stack [stacking] up to 4 times for a maximum *400% increase, upon which the charge also detonates instantly.",
+    "If Buster Shot [Tristana] is used to apply the last stack, the detonation will instead be delayed until the end of the airborne [knock back] or the 4 seconds expire.",
+    "Explosive Charge's cast time is always 100% of the caster's attack windup time.",
+    "Reducing Tristana's attack speed via cripple [attack speed reductions] also increases Explosive Charge's cast time by the same fraction.",
+    "Explosive Charge's detonation will deal damage to the primary target even if they have become untargetable.",
+    "Buster Shot's airborne [displacement] direction is based on Tristana's location at the end of the cast time.",
+    "The primary target is pushed in a straight line away from that location, but the knockback distance and speed may be impeded by terrain.",
+    "Displacement immunity will also resist the application of the stun.",
+    "For combos, use W and E, switch to Q, and then attack. Next, just attack until the bomb explodes, then use W again to catch up to them.",
+    "Your explosive combo is W, then E, then Q, and before the ultimate, a series of auto attacks.",
+    "Once you are near the tower, your E and Q will allow you to quickly destroy it.",
+    "you always, almost most of the time, want to use your E in the air while flying with W, because it just speeds up the activation of your E a lot, and so you get another jump, right? Otherwise you would have to auto- switch four times, now you will have to auto- switch three times to reset the jump.",
+    "the most important mechanic you need to master if you want to play Tristan well is the W buffer.",
+    "press W a millisecond before that controller hits me , right?",
+    "he'll just cancel your mid- air jump through a second controller or something",
+    "always try to use those huge walls when you want to engage an enemy, because they can't really see you, right? So, there is a surprise factor that you can always use.",
+    "always try to kill one minion at a time. So always focus on one minion and don't shoot any other minions, okay? Because if you kill one minion, the",
+    "Et il faut savoir que ton W est un buffer. C'est comme le dash de Ezreal. C'est-à-dire qu'imagine qu'il y a un Blitzcrank qui te grappe. D'accord ? S'il touche le grappe pendant que tu canalises ton jump, d'accord ? Et bien, le grappe Blitzcrank est annulé.",
+    "c'est que tu peux traverser les murs pour surprendre la personne si on n'a pas la vision sur toi et directement t'apparaît là c'est dangereux pour eux",
+    "Donc là, flash jump directement, elle s'est pris slow, elle est obligée de mourir, auto-attaque, auto-attaque, ultime pour pouvoir cancel.",
+    "Jump, flash mettre les auto-attaques pour pas que le Alistar proque le stun. Et rapidement avoir le reset.",
+    "So let's say I would put down my E right now and then I Q auto auto auto ult auto and you see the moment basically I'm shooting my ulti, my last auto attack is coming with it."
+  ],
+  "rejected": [
+    { "idea": "Flash pendant Saut roquette (Z) pour rediriger l'atterrissage", "reason": "Le wiki dit seulement que les sorts d'invocateur sont utilisables pendant le saut, sans décrire l'effet sur la trajectoire ; EXYT montre « jump, flash » sans l'expliquer. Interaction non confirmée : écartée, seul « Flash puis saut » est gardé." },
+    { "idea": "Taper le Baron par-dessus le mur du fond au niveau 15 grâce à Tir de précision", "reason": "Section Trivia du wiki, aucune source joueur, portée non revérifiée au patch 16.22." },
+    { "idea": "Insec avec Saut roquette (Z) puis Tir à impact (R) pour renvoyer la cible vers ton équipe", "reason": "Déduit de la note wiki sur la direction du recul, mais aucune source joueur lue ne le montre." },
+    { "idea": "Placer deux autos pendant le vol de Tir à impact (R) avec beaucoup de vitesse d'attaque", "reason": "Une seule source (Neon LOL), non confirmé par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Timing exact du buffer de Saut roquette (Z) contre Grappin propulsé (A) de Blitzcrank : lancer pendant l'incantation de 0,25 s, et quels contrôles peuvent encore stopper le saut (Neon cite Nautilus).",
+    "Charge explosive (E) lancée en vol pendant Saut roquette (Z) : vérifier que les dégâts d'atterrissage ajoutent bien une charge (3 autos suffisent ensuite pour l'explosion)."
+  ]
+}

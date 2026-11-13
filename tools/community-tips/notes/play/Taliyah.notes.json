@@ -1,0 +1,43 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Start with W to flip your target, then immediately cast E so they're thrown through the rocks, taking damage and getting stunned. Follow with Q while they're locked down.",
+    "The combo is usually done through WE.",
+    "Taliyah can move and cast other abilities while launching Stone Shards, and is unable to basic attack until she launches the third Stone Shard.",
+    "tu te lances ton cpel E Z. Voilà. Facile, commun",
+    "For just 10 mana, Taliyah can set up an entire all-in without gambling her W or E. Start with your big Q from worked ground. The slow makes your flip much easier to land.",
+    "Slowing can easily be added to the WE combo, as the slowing effect from working ground is very appropriate.",
+    "Stand inside it, press Q, then immediately flash towards your target before the boulder launches. The big rock fires from your new position, even if you flashed outside the worked ground. Use this to finish low health enemies.",
+    "tu peux flasher le cuspel, que ce soit en mitraillette ou aussi le gros rocher",
+    "est-ce que si tu cuspell flash avec une zone sous toi tu envoies le gros caillou oui",
+    "Use R to cut off their escape. Ride the wall, then jump off and drop E across their path. Against immobile targets, follow with W then Q while they're stunned.",
+    "Unraveled Earth will not detonate if the target dashes over the stones while being untargetable.",
+    "Unraveled Earth will not detonate against enemies that blink onto the stones.",
+    "Against those champions, make them use their blink first, then drop E and flip them.",
+    "Taliyah summons a torrent of spiraling rocks that cascades in the target direction, knocking aside champions hit and erecting a wall of terrain in its wake.",
+    "Enemies that dash or are knocked over a stone will detonate it, taking magic damage and becoming stunned for 0.75 seconds",
+    "Place E, then aim your wall through the enemy so its displacement pushes them into the rocks.",
+    "Weaver's Wall is placed on a 3-second static cooldown upon taking champion or turret damage.",
+    "Just remember taking champion or tower damage locks R out for 3 seconds, so you need to get the wall started before they hit you.",
+    "Taliyah can recast to destroy the wall even if she did not surf it or it is in the process of disintegrating.",
+    "Or knock an enemy onto the safe side of your wall, and you've just helped them escape. Oh, and if your wall is causing a problem, just press R again to break",
+    "Wind Wall and Blade Whirl will prevent Weaver's Wall from summoning any further but does not destroy any initial terrain it spawned. If Taliyah is surfing during the collision, she immediately becomes stunned for 0.25 seconds, interrupting the surf.",
+    "Yasuo's Wind Wall and Braum's Shield can cut your wall short.",
+    "Threaded Volley will continue casting while in stasis.",
+    "Q before Zhonya's to keep doing damage from the safety of stasis.",
+    "If Taliyah is casting an ability or enters champion combat, Rock Surfing cannot occur again for a few seconds.",
+    "But casting abilities interrupts your passive, so throwing a random Q on the way can slow you down."
+  ],
+  "rejected": [
+    { "idea": "Poussée sismique (W) peut projeter un ennemi par-dessus un mur fin", "reason": "Une seule source joueur (Zoose) ; le wiki ne parle pas de franchissement de terrain pour W." },
+    { "idea": "W n'attire pas l'aggro de la tour et ne réveille pas une cible endormie", "reason": "Une seule source (Zoose), non confirmé par le wiki." },
+    { "idea": "Le saut de fin de surf peut franchir des murs épais hors de portée normale", "reason": "Une seule source (Zoose)." },
+    { "idea": "Bouclier de Braum (Inébranlable) coupe Mur de la tisseuse", "reason": "Zoose seul ; la note wiki ne cite que Mur de vent et Tourbillon de lame." },
+    { "idea": "Flash pendant la rafale normale après les deux premières pierres", "reason": "Une seule source précise ce timing (Zoose) ; gardé hors fiche." }
+  ],
+  "toVerifyInGame": [
+    "Fenêtre exacte pour Flash entre le lancement de Rafale filée sur sol ouvragé et le départ du rocher.",
+    "Projection par Mur de la tisseuse sur Défilage tellurique : le stun se déclenche-t-il à chaque fois selon l'angle ?"
+  ]
+}

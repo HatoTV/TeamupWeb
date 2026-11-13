@@ -185,18 +185,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Syndra (5 combos, 7 astuces)
 - ✅ TahmKench (3 combos, 8 astuces)
 
-### Lot 14 — ⏳
+### Lot 14 — ✅
 
-- ⏳ Taliyah
-- ⏳ Talon
-- ⏳ Taric
-- ⏳ Teemo
-- ⏳ Thresh
-- ⏳ Tristana
-- ⏳ Trundle
-- ⏳ Tryndamere
-- ⏳ TwistedFate
-- ⏳ Twitch
+- ✅ Taliyah (5 combos, 7 astuces)
+- ✅ Talon (4 combos, 8 astuces)
+- ✅ Taric (4 combos, 7 astuces)
+- ⚠️ Teemo (1 combos, 7 astuces)
+- ✅ Thresh (5 combos, 8 astuces)
+- ✅ Tristana (3 combos, 7 astuces)
+- ✅ Trundle (2 combos, 8 astuces)
+- ✅ Tryndamere (3 combos, 8 astuces)
+- ✅ TwistedFate (4 combos, 8 astuces)
+- ✅ Twitch (2 combos, 8 astuces)
 
 ### Lot 15 — ⏳
 

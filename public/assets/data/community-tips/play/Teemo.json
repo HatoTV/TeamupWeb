@@ -1,0 +1,80 @@
+{
+  "champion": "Teemo",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Sortie de camouflage", "en": "Out of stealth" },
+      "keys": ["Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Attends camouflé que l'ennemi vienne prendre un sbire. Ouvre avec une auto pour gagner la vitesse d'attaque de l'Effet de surprise, puis lance Fléchette aveuglante (A) pour gagner le trade.",
+        "en": "Wait in stealth for the enemy to walk up for a minion. Open with an auto to gain Element of Surprise's attack speed, then cast Blinding Dart (Q) to win the trade."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Guérilla : immobile 1,5 seconde, tu te camoufles. Dans un buisson, tu restes camouflé en bougeant tant que tu ne sors pas de l'herbe, et Vélocité (Z) ne casse pas le camouflage.",
+        "en": "Guerrilla Warfare: stand still for 1.5 seconds to go stealthed. In a brush, you stay stealthed while moving as long as you don't leave it, and Move Quick (W) doesn't break stealth."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Sortir du camouflage te donne l'Effet de surprise : beaucoup de vitesse d'attaque pendant 5 secondes. Recamoufle-toi avant un combat pour l'avoir dès la première auto.",
+        "en": "Breaking stealth gives you Element of Surprise: a lot of attack speed for 5 seconds. Get stealthed again before a fight to have it from the first auto."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Fléchette aveuglante (A) porte un peu plus loin que ton auto contre un champion. Elle aveugle aussi deux fois plus longtemps les sbires et les monstres.",
+        "en": "Blinding Dart (Q) reaches a bit further than your auto against a champion. It also blinds minions and monsters twice as long."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "L'aveuglement de Fléchette aveuglante (A) n'empêche pas les sorts qui appliquent les effets à l'impact : Pourparlers de Gangplank et Tir mystique d'Ezreal touchent quand même.",
+        "en": "Blinding Dart's (Q) blind doesn't stop spells that apply on-hit effects: Gangplank's Parrrley and Ezreal's Mystic Shot still hit."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un Piège nocif (R) lancé sur un champignon déjà posé rebondit plus loin, et peut enchaîner plusieurs rebonds. Si tu meurs avant le rebond, le champignon disparaît.",
+        "en": "A Noxious Trap (R) thrown onto an already placed mushroom bounces further, and can chain several bounces. If you die before the bounce, the mushroom disappears."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Les dégâts de Piège nocif (R) sont calculés à l'explosion, pas à la pose : chaque objet de puissance achetée renforce aussi les champignons déjà au sol.",
+        "en": "Noxious Trap (R) damage is calculated when it explodes, not when placed: each ability power item you buy also boosts the mushrooms already on the ground."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Marcher sur plusieurs Pièges nocifs (R) ne cumule pas les dégâts : ça ne fait que relancer le poison et le ralentissement. Étale tes champignons au lieu de les grouper.",
+        "en": "Stepping on several Noxious Traps (R) doesn't stack the damage: it only refreshes the poison and slow. Spread your mushrooms instead of grouping them."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Teemo - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Teemo", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY Teemo Guide You Need - Teemo Guide League of Legends", "url": "https://www.youtube.com/watch?v=tVfWENklMI8", "type": "video", "date": "2024-12-12", "author": "Daveyx3" },
+    { "title": "GUIDE TEEMO SAISON 16 : TUTO comment MONTER TOP sur LEAGUE OF LEGENDS | Tips & Combos, Runes et Item", "url": "https://www.youtube.com/watch?v=SFgtgvX3KFs", "type": "video", "date": "2026-07-05", "author": "La Toplane • EXYT LOL" }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "champion": "Thresh",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Crochet puis Fauchage", "en": "Hook into Flay" },
+      "keys": ["Q", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Après Peine capitale (A), laisse les deux tractions faire leur travail, puis lance Fauchage (E) vers toi : c'est une troisième traction, sans avoir à dash sur la cible.",
+        "en": "After Death Sentence (Q), let both tugs do their work, then cast Flay (E) toward yourself: it's a third pull, without dashing onto the target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Fauchage pour placer le crochet", "en": "Flay to set up the hook" },
+      "keys": ["E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Au contact, Fauchage (E) projette et ralentit la cible : enchaîne aussitôt Peine capitale (A), bien plus dure à esquiver. L'ennemi doit souvent brûler un dash ou Flash.",
+        "en": "Up close, Flay (E) knocks back and slows the target: chain Death Sentence (Q) right away, much harder to dodge. The enemy often has to burn a dash or Flash."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Flash, Fauchage, crochet", "en": "Flash, Flay, hook" },
+      "keys": ["F", "E", "Q"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Flash au contact et lance Fauchage (E) aussitôt : l'ennemi a très peu de temps pour réagir. Finis avec Peine capitale (A) sur la cible ralentie.",
+        "en": "Flash into melee range and cast Flay (E) right away: the enemy has very little time to react. Finish with Death Sentence (Q) on the slowed target."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "name": { "fr": "Crochet dans la cage", "en": "Hook into the Box" },
+      "keys": ["Q", "R", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Crochet touché, avance un peu et lance La cage (R). Après les deux tractions, Fauchage (E) pousse la cible dans un mur, et ton auto chargée finit le travail.",
+        "en": "Once the hook lands, step forward a bit and cast The Box (R). After both tugs, Flay (E) pushes the target into a wall, and your charged auto finishes the job."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Crochet, lanterne, saut", "en": "Hook, lantern, leap" },
+      "keys": ["Q", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Crochet touché, lance Lien des ténèbres (Z) vers un allié, puis réactive Peine capitale (A). La lanterne ne disparaît pas pendant ton saut : ton allié te rejoint sur la cible.",
+        "en": "Once the hook lands, throw Dark Passage (W) to an ally, then recast Death Sentence (Q). The lantern doesn't expire during your leap: your ally joins you on the target."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Sur un sbire ou un monstre, tu peux réactiver Peine capitale (A) tout de suite, contre 0,5 seconde sur un champion. Accroche un sbire près de ta cible pour la rejoindre.",
+        "en": "On a minion or monster, you can recast Death Sentence (Q) instantly, versus 0.5 seconds on a champion. Hook a minion near your target to reach them."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Une cible immunisée aux contrôles n'est pas étourdie par Peine capitale (A), mais elle reste marquée : tu peux quand même sauter sur elle.",
+        "en": "A crowd-control-immune target isn't stunned by Death Sentence (Q), but stays marked: you can still leap onto them."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le stun de Peine capitale (A) dure 1,5 seconde. Ne gâche pas Fauchage (E) au milieu : place ta lanterne ou ton ult pendant le stun, puis enchaîne.",
+        "en": "Death Sentence's (Q) stun lasts 1.5 seconds. Don't waste Flay (E) in the middle of it: place your lantern or ult during the stun, then follow up."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La lanterne de Lien des ténèbres (Z) compte comme une unité alliée : Frappe bondissante de Jax, Shunpo de Katarina et Rempart de Lee Sin peuvent la cibler.",
+        "en": "Dark Passage's (W) lantern counts as an allied unit: Jax's Leap Strike, Katarina's Shunpo and Lee Sin's Safeguard can target it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'allié qui prend ta lanterne te suit si tu bouges. Lance Lien des ténèbres (Z), puis Flash et Fauchage (E) : ton allié arrive avec toi pour un engage surprise.",
+        "en": "The ally who takes your lantern follows you if you move. Cast Dark Passage (W), then Flash and Flay (E): your ally arrives with you for a surprise engage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La cage (R) s'oriente selon la direction où tu regardes, avec un coin devant toi, et l'indicateur montre l'inverse. Une fois lancée, rien ne l'interrompt, même ta mort.",
+        "en": "The Box (R) is oriented by the direction you face, with a corner in front of you, and the indicator shows the opposite. Once cast, nothing interrupts it, not even your death."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le passif de Fauchage (E) charge ton auto pendant 10 secondes sans taper d'ennemi. Évite de frapper les sbires juste avant un engage pour garder l'auto pleine.",
+        "en": "Flay's (E) passive charges your auto over 10 seconds without hitting enemies. Avoid hitting minions right before an engage to keep the auto fully charged."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux lancer Lien des ténèbres (Z) et Fauchage (E) pendant le saut de Peine capitale (A). Le stun reste même si tu meurs avant la fin.",
+        "en": "You can cast Dark Passage (W) and Flay (E) during Death Sentence's (Q) leap. The stun stays even if you die before it ends."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Thresh - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Thresh", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Overexplaining Thresh's Combos", "url": "https://www.youtube.com/watch?v=Xfpe1WrBi1c", "type": "video", "date": "2025-09-19", "author": "CryoBeats" },
+    { "title": "How to ACTUALLY play Thresh - A Beginner Guide", "url": "https://www.youtube.com/watch?v=UhOqRexYGFw", "type": "video", "date": "2025-07-19", "author": "AxL" }
+  ]
+}

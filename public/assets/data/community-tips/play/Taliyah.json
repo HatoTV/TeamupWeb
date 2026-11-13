@@ -1,0 +1,122 @@
+{
+  "champion": "Taliyah",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Projection dans les pierres", "en": "Flip into the stones" },
+      "keys": ["W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Poussée sismique (Z), puis Défilage tellurique (E) aussitôt : la cible est projetée sur les pierres et se fait stun. Finis avec Rafale filée (A) pendant qu'elle est bloquée.",
+        "en": "Cast Seismic Shove (W), then Unraveled Earth (E) right away: the target is knocked over the stones and gets stunned. Finish with Threaded Volley (Q) while they're locked."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Tout lancer pendant la rafale", "en": "Cast everything during the volley" },
+      "keys": ["Q", "E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Rafale filée (A) continue de tirer pendant que tu lances tes autres sorts. Ouvre avec elle, puis place Défilage tellurique (E) et Poussée sismique (Z) sans attendre la fin.",
+        "en": "Threaded Volley (Q) keeps firing while you cast your other spells. Open with it, then place Unraveled Earth (E) and Seismic Shove (W) without waiting for it to end."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "name": { "fr": "Rocher ralentissant puis projection", "en": "Slowing boulder, then flip" },
+      "keys": ["Q", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Depuis ton sol ouvragé, Rafale filée (A) lance un gros rocher qui ralentit pour 10 de mana. Ralentie, la cible esquive mal ton Poussée sismique (Z) et ton Défilage tellurique (E).",
+        "en": "From your Worked Ground, Threaded Volley (Q) throws a big boulder that slows for 10 mana. Once slowed, the target struggles to dodge your Seismic Shove (W) and Unraveled Earth (E)."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Rocher puis Flash", "en": "Boulder into Flash" },
+      "keys": ["Q", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Debout sur ton sol ouvragé, lance Rafale filée (A) et Flash vers la cible avant le départ du rocher : il part de ta nouvelle position. Parfait pour finir un ennemi bas en PV.",
+        "en": "Standing on your Worked Ground, cast Threaded Volley (Q) and Flash toward the target before the boulder leaves: it fires from your new position. Great to finish a low-health enemy."
+      },
+      "refs": [1, 3]
+    },
+    {
+      "name": { "fr": "Surf, saut et pierres", "en": "Surf, jump and stones" },
+      "keys": ["R", "E", "W", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Coupe la fuite d'une cible avec Mur de la tisseuse (R), surfe dessus et saute. Pose Défilage tellurique (E) sur son chemin, puis Poussée sismique (Z) et Rafale filée (A) si elle n'a pas de dash.",
+        "en": "Cut off a target's escape with Weaver's Wall (R), surf it and jump off. Drop Unraveled Earth (E) on their path, then Seismic Shove (W) and Threaded Volley (Q) if they have no dash."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Défilage tellurique (E) ne s'active pas sur un blink, ni sur un dash insaisissable. Contre un champion à blink, attends qu'il l'utilise avant de poser tes pierres.",
+        "en": "Unraveled Earth (E) doesn't trigger on a blink, nor on an untargetable dash. Against a champion with a blink, wait for them to use it before placing your stones."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Mur de la tisseuse (R) projette les champions qu'il touche. Pose Défilage tellurique (E), puis fais passer ton mur à travers l'ennemi : il est poussé sur les pierres et stun, même sans Poussée sismique (Z).",
+        "en": "Weaver's Wall (R) knocks aside the champions it hits. Place Unraveled Earth (E), then send your wall through the enemy: they're pushed onto the stones and stunned, even without Seismic Shove (W)."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Subir des dégâts de champion ou de tour bloque Mur de la tisseuse (R) pendant 3 secondes. Lance ton mur avant d'être touché, pas une fois engagé.",
+        "en": "Taking champion or turret damage locks Weaver's Wall (R) for 3 seconds. Cast your wall before you get hit, not once you're already engaged."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Réactive Mur de la tisseuse (R) une fois le mur formé pour le détruire aussitôt, même sans surfer dessus. Utile si tu bloques ton équipe ou si tu protèges un ennemi.",
+        "en": "Recast Weaver's Wall (R) once the wall is formed to destroy it instantly, even if you didn't surf it. Useful if you're blocking your team or protecting an enemy."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Mur de vent de Yasuo et Tourbillon de lame de Samira arrêtent la pousse de Mur de la tisseuse (R). Si tu surfes à ce moment, tu es stun un court instant.",
+        "en": "Yasuo's Wind Wall and Samira's Blade Whirl stop Weaver's Wall (R) from growing. If you're surfing at that moment, you're briefly stunned."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Rafale filée (A) continue de tirer pendant une stase. Lance-la juste avant d'entrer en stase pour garder des dégâts pendant que tu es intouchable.",
+        "en": "Threaded Volley (Q) keeps firing during stasis. Cast it right before entering stasis to keep dealing damage while you're untouchable."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Surf tellurique se coupe quelques secondes dès que tu lances un sort ou que tu entres en combat. Évite de jeter une Rafale filée (A) au hasard pendant une rotation.",
+        "en": "Rock Surfing shuts off for a few seconds as soon as you cast a spell or enter combat. Avoid throwing a random Threaded Volley (Q) during a rotation."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Taliyah - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Taliyah", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "Everyone Plays Taliyah — Almost Nobody Plays Her Correctly", "url": "https://www.youtube.com/watch?v=RMwSguQvib4", "type": "video", "date": "2026-10-22", "author": "Zoose" },
+    { "title": "HOW TO PLAY TALIYAH - FULL INDEPTH GUIDE", "url": "https://www.youtube.com/watch?v=pKCn5SUxAOk", "type": "video", "date": "2026-10-08", "author": "Shok" },
+    { "title": "GUIDE COMPLET TALIYAH - OTP LE PLUS CHAUD DE TA RÉGION (Feat Odysseus)", "url": "https://www.youtube.com/watch?v=D56PD5FsAh0", "type": "video", "date": "2026-04-04", "author": "OTP - League of Legends" }
+  ]
+}

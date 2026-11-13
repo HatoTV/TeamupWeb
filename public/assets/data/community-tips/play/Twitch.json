@@ -1,0 +1,98 @@
+{
+  "champion": "Twitch",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Embuscade, dose, panique, contamination", "en": "Ambush, cask, spray, contaminate" },
+      "keys": ["Q", "W", "R", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Approche camouflé avec Embuscade (A), ouvre avec Dose de venin (Z) puis Panique (R) et tire sans t'arrêter. Finis par Contamination (E) quand un maximum d'ennemis portent ton venin.",
+        "en": "Sneak in with Ambush (Q), open with Venom Cask (W), then Spray and Pray (R) and keep shooting. Finish with Contaminate (E) once as many enemies as possible carry your venom."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Dose, autos, contamination", "en": "Cask, autos, contaminate" },
+      "keys": ["W", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Dose de venin (Z) ralentit et pose jusqu'à 4 charges : deux autos suffisent ensuite pour atteindre 6. Lance Contamination (E) à charges pleines, même en reculant.",
+        "en": "Venom Cask (W) slows and applies up to 4 stacks: two autos then get you to 6. Cast Contaminate (E) at full stacks, even while backing off."
+      },
+      "refs": [0, 2, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Lance Rappel pendant la seconde de délai d'Embuscade (A) : tu continues ton rappel une fois camouflé. Pratique pour rentrer à la base sans être vu après un push.",
+        "en": "Start Recall during the one-second Ambush (Q) delay: you keep channeling it once camouflaged. Handy to get back to base unseen after a push."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque auto relance la durée de Venin mortel, jusqu'à 6 charges. En trade, glisse une auto juste avant que le poison expire pour garder les charges, mais il n'a aucun effet sur les tourelles.",
+        "en": "Each auto refreshes Deadly Venom, up to 6 stacks. In a trade, slip in an auto right before the poison expires to keep the stacks, but it does nothing to turrets."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Embuscade (A) revient quand un champion ennemi meurt avec ton venin sur lui. En teamfight, chaque kill te permet de te repositionner camouflé.",
+        "en": "Ambush (Q) comes back when an enemy champion dies with your venom on them. In teamfights, every kill lets you reposition in camouflage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Contamination (E) compte les charges présentes au début de l'incantation. La cible doit être à portée avant la fin des 0,25 seconde, mais elle prend les dégâts même si elle sort ensuite.",
+        "en": "Contaminate (E) counts the stacks present when the cast starts. The target must be in range before the 0.25 seconds end, but takes the damage even if it leaves afterward."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Contamination (E) se lance sur un ennemi empoisonné proche même si tu ne le vois pas. Un adversaire qui fuit dans le brouillard ou un buisson reste à ta portée.",
+        "en": "Contaminate (E) can hit a nearby poisoned enemy even if you can't see them. An opponent fleeing into fog or a bush is still within reach."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Les tirs de Panique (R) traversent le terrain et les bâtiments ennemis. Tu peux toucher une cible derrière un mur fin tant qu'elle est dans l'axe.",
+        "en": "Spray and Pray (R) bolts go through terrain and enemy structures. You can hit a target behind a thin wall as long as it's in line."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Avec Panique (R), ta portée dépasse celle d'une tourelle de 50 unités : tu la frappes sans qu'elle riposte.",
+        "en": "With Spray and Pray (R), your range beats a turret's by 50 units: you hit it without it firing back."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant Panique (R), le tir vise la position de la cible au début du windup. Une cible rapide peut l'esquiver, même celle que tu as cliquée.",
+        "en": "During Spray and Pray (R), the bolt aims where the target stood at the start of the windup. A fast target can dodge it, even the one you clicked."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Twitch - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Twitch", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Twitch Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=0iKNMn0ME3I", "type": "video", "date": "2025-07-06", "author": "3 Minute League of Legends" },
+    { "title": "Pro Player Explains How to Play Twitch – Challenger Guide", "url": "https://www.youtube.com/watch?v=rASZKIArytM", "type": "video", "date": "2026-09-29", "author": "Varry" }
+  ]
+}

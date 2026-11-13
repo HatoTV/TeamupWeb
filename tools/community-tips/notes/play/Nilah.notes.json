@@ -1,0 +1,36 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "If Formless Blade is cast during Slipstream, Nilah leaves behind a wave that is sent towards her location at the end of the dash, dealing the same damage to enemies hit.",
+    "Slipstream resets Nilah's basic attack timer. Formless Blade and Apotheosis can be cast during the dash.",
+    "Dashing to target through a wall within casting range will cancel the dash if wall is longer than dash range.",
+    "Apotheosis can pull enemies through walls and can knock them across Nilah's location.",
+    "Nilah is unable to basic attack and cast her other abilities during Apotheosis, but she is able to move.",
+    "Nilah envelops herself in mist for 2.25 seconds, during which she becomes ghosted, gains bonus movement speed, reduces all incoming magic damage taken by 25%, and dodges all non-turret basic attacks.",
+    "Allied champions she touches will also be enveloped for 1.5 seconds, gaining the same effects.",
+    "Allies may only be affected by Jubilant Veil once every 6 seconds.",
+    "Spell shield will not block Formless Blade's empowered basic attacks.",
+    "Parrying effects (dodge, block, blind) will negate Formless Blade's empowered attacks only as the primary target.",
+    "Whenever a nearby allied champion uses an ability to heal or shield either Nilah or themselves, both they and Nilah receive a bonus amount",
+    "Heal and shields granted by items, runes, and summoner spells will not trigger the increased amount.",
+    "Formless Blade can hit structures and applies life steal at 100% effectiveness to one target.",
+    "For combos, she uses Q, auto attack, and E. Then continue attacking, using a second charge of E to catch up with the enemy, and W to block damage.",
+    "To fully engage in combat, cast E on an ally, using W to give them a buff. This allows her to break into a teamfight, use Q while dashing, and then instantly switch to an ultimate while continuing to attack and spam Q.",
+    "Once you reach level 3 the basic trading combo is E-W-Q-AA-E",
+    "Once you reach level 6 the all in combo is E-Q-W-R-AA-E.",
+    "You can use 'E' on an enemy champion to go through walls. Or you can use 'E' on a teammate who is near a wall to go through it.",
+    "When you use Nilah's ultimate, you can't use any abilities other than your summoner spells.",
+    "You can use Nilah's 'Q' to attack enemy towers from a safe distance."
+  ],
+  "rejected": [
+    { "idea": "Lame fluide (A) puis Flash pour allonger la portée (Evvelyx)", "reason": "Interaction avec Flash confirmée ni par le wiki ni par une 2de source." },
+    { "idea": "Torrent (E) puis Flash, et Flash puis Apothéose (R) (Evvelyx)", "reason": "Une seule source joueur (2022), interaction Flash non confirmée par le wiki." },
+    { "idea": "Voile de liesse (Z) donne un bouclier aux alliés (Evvelyx, 2022)", "reason": "Obsolète : au patch 16.22 le sort donne esquive des autos et réduction magique, pas un bouclier." },
+    { "idea": "Apothéose (R) et Sablier de Zhonya en même temps (Evvelyx)", "reason": "Interaction d'objet non confirmée par le wiki, une seule source." }
+  ],
+  "toVerifyInGame": [
+    "Lame fluide (A) pendant Torrent (E) : le wiki signale un bug où le sort passe en CD sans être lancé.",
+    "Torrent (E) à travers un mur : vérifier la limite d'épaisseur selon la cible choisie."
+  ]
+}

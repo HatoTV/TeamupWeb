@@ -1,0 +1,121 @@
+{
+  "champion": "Orianna",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade Attaque puis Dissonance", "en": "Attack into Dissonance trade" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Envoie la boule sur l'ennemi avec Ordre : Attaque (A), puis Ordre : Dissonance (Z) dès qu'elle arrive. Le ralentissement te laisse placer des autos.",
+        "en": "Send the ball onto the enemy with Command: Attack (Q), then Command: Dissonance (W) as soon as it lands. The slow lets you fit in autos."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Attaque, Dissonance, retour Protection", "en": "Attack, Dissonance, Protect return" },
+      "keys": ["Q", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ordre : Attaque (A) puis Ordre : Dissonance (Z), puis rappelle la boule avec Ordre : Protection (E) en la faisant traverser l'ennemi : dégâts en plus et bouclier pour toi.",
+        "en": "Command: Attack (Q) then Command: Dissonance (W), then recall the ball with Command: Protect (E) through the enemy: extra damage and a shield for you."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Attaque, Onde de choc, Dissonance", "en": "Attack, Shockwave, Dissonance" },
+      "keys": ["Q", "R", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Contre plusieurs cibles, Ordre : Onde de choc (R) les regroupe autour de la boule, puis Ordre : Dissonance (Z) les touche toutes. Seul contre un, Dissonance avant l'ult ralentit pour la garantir.",
+        "en": "Against several targets, Command: Shockwave (R) groups them around the ball, then Command: Dissonance (W) hits them all. One on one, Dissonance before the ult slows to guarantee it."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Boule sur un allié qui engage", "en": "Ball on an engaging ally" },
+      "keys": ["E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ordre : Protection (E) sur un allié qui fonce dans l'équipe ennemie, puis Ordre : Onde de choc (R) quand il est au centre. L'onde part de sa position à la fin de l'incantation.",
+        "en": "Command: Protect (E) on an ally diving into the enemy team, then Command: Shockwave (R) once they're in the middle. The shockwave fires from their position when the cast ends."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Onde de choc puis Flash", "en": "Shockwave into Flash" },
+      "keys": ["R", "F", "W"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Boule sur toi, lance Ordre : Onde de choc (R) puis Flash pendant l'incantation : l'onde part de ta nouvelle position. Finis avec Ordre : Dissonance (Z).",
+        "en": "Ball on you, cast Command: Shockwave (R) then Flash during the cast: the shockwave fires from your new position. Finish with Command: Dissonance (W)."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant le vol d'Ordre : Attaque (A), tu peux déjà appuyer sur Dissonance (Z) ou Onde de choc (R) : le sort part à l'arrivée de la boule. Protection (E) est bloquée.",
+        "en": "While Command: Attack (Q) is in flight, you can already press Dissonance (W) or Shockwave (R): the spell fires when the ball arrives. Protect (E) is locked."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La boule donne armure et résistance magique à celui qui la porte, même après la fin du bouclier d'Ordre : Protection (E). Garde-la sur toi en trade.",
+        "en": "The ball grants armor and magic resist to whoever carries it, even after the Command: Protect (E) shield ends. Keep it on you when trading."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Éloigne-toi trop de la boule et elle revient sur toi, mais Ordre : Onde de choc (R) prend un court CD. Sors volontairement de sa portée pour la récupérer avant un combo.",
+        "en": "Move too far from the ball and it snaps back to you, but Command: Shockwave (R) gets a short cooldown. Leave its range on purpose to retrieve it before a combo."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ordre : Attaque (A) s'arrête et tombe au sol contre Mur de vent, mais traverse Incassable. Ordre : Protection (E) bloqué par un projectile ramène la boule sur toi.",
+        "en": "Command: Attack (Q) stops and drops to the ground on Wind Wall, but passes through Unbreakable. Command: Protect (E) intercepted by a projectile sends the ball back to you."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ordre : Protection (E) sur un allié camouflé : la boule devient invisible avec lui, et ton Ordre : Onde de choc (R) aussi.",
+        "en": "Command: Protect (E) on a stealthed ally: the ball turns invisible with them, and so does your Command: Shockwave (R)."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Remontoir : tes autos sur la même cible cumulent jusqu'à 2 charges de dégâts. Changer de cible les remet à zéro, alors reste sur un seul ennemi.",
+        "en": "Clockwork Windup: your autos on the same target stack up to 2 damage charges. Switching targets resets them, so stay on one enemy."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La boule ne donne pas de vision en vol, mais le son de l'impact s'entend dans le brouillard : tu sais si ton Ordre : Attaque (A) a touché.",
+        "en": "The ball gives no vision in flight, but the impact sound is heard through fog of war: you know if your Command: Attack (Q) connected."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Orianna - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Orianna", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Orianna Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=QXaf8FP2E6w", "type": "video", "date": "2026-08-06", "author": "3 Minute League of Legends" },
+    { "title": "ORIANNA MID S15 GUIDE – The Ultimate Carry Guide (Matchups, Combos, Tips)", "url": "https://www.youtube.com/watch?v=LJhZ0tyJmDg", "type": "video", "date": "2026-11-13", "author": "Shambless" }
+  ]
+}

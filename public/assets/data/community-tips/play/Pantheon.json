@@ -1,0 +1,100 @@
+{
+  "champion": "Pantheon",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Assaut, auto, Lance astrale", "en": "Shield Vault, auto, Comet Spear" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Assaut martial (Z) étourdit la cible et lance une auto dès l'atterrissage. Place-la tout de suite, puis Lance astrale (A) en tap pour finir le trade.",
+        "en": "Shield Vault (W) stuns the target and queues an auto as you land. Let it hit right away, then tap Comet Spear (Q) to end the trade."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Assaut renforcé, passif rechargé", "en": "Empowered Vault, passive refilled" },
+      "keys": ["W", "Q", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Assaut martial (Z) renforcé donne trois coups rapides, puis Lance astrale (A) en tap et une auto : ton passif est de nouveau plein, garde Égide impénétrable (E) renforcée pour la fin.",
+        "en": "Empowered Shield Vault (W) gives three quick strikes, then tap Comet Spear (Q) and auto: your passive is full again, so keep an empowered Aegis Assault (E) for the end."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Lance lancée puis Assaut", "en": "Thrown spear into Vault" },
+      "keys": ["Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Charge et lance Lance astrale (A) à distance, puis Assaut martial (Z) et une auto avant de reculer tout de suite.",
+        "en": "Charge and throw Comet Spear (Q) from range, then Shield Vault (W) and one auto before backing off at once."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Relâche Lance astrale (A) en moins de 0,35 s pour un coup d'estoc : il rembourse 60 % du CD et ne perd pas de dégâts sur les cibles derrière la première.",
+        "en": "Release Comet Spear (Q) within 0.35 s for a thrust: it refunds 60% of the cooldown and keeps full damage on targets behind the first."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Seule la Lance astrale (A) lancée est un projectile : Mur de vent (Z) de Yasuo bloque le lancer, pas le coup d'estoc au corps à corps.",
+        "en": "Only the thrown Comet Spear (Q) is a projectile: Yasuo's Wind Wall (W) blocks the throw, not the close-range thrust."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Égide impénétrable (E) te rend invulnérable aux dégâts venant de face, sauf ceux des tourelles, et aucun contrôle ne coupe la canalisation.",
+        "en": "Aegis Assault (E) makes you invulnerable to damage from the front, except turret damage, and no crowd control breaks the channel."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Les trois coups d'Assaut martial (Z) renforcé donnent chacun une charge d'Ardeur mortelle, même s'ils sont esquivés ou bloqués.",
+        "en": "Each of the three strikes from empowered Shield Vault (W) gives a Mortal Will stack, even if they are dodged or blocked."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tu atterris de Météore (R) avec Ardeur mortelle au maximum : ton prochain sort de base est déjà renforcé, enchaîne direct avec Assaut martial (Z).",
+        "en": "You land from Grand Starfall (R) with full Mortal Will: your next basic ability is already empowered, so follow up straight away with Shield Vault (W)."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La première canalisation de Météore (R) peut être interrompue par un contrôle, et l'ult part alors 30 s en CD. Une fois en l'air, plus rien ne t'arrête.",
+        "en": "Grand Starfall's (R) first channel can be interrupted by crowd control, which puts the ult on a 30 s cooldown. Once airborne, nothing can stop you."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant la seconde phase de Météore (R), tes PV ne peuvent pas descendre sous 1 : sauter avec l'ult peut te sortir d'un fight perdu.",
+        "en": "During Grand Starfall's (R) second phase, your health cannot drop below 1: leaping with the ult can get you out of a lost fight."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Pantheon - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Pantheon", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY Pantheon Guide You Need - Pantheon Guide League of Legends (Toplane Edition)", "url": "https://www.youtube.com/watch?v=RA0o99vWwEM", "type": "video", "date": "2026-01-18", "author": "Daveyx3" },
+    { "title": "3 Minute Pantheon Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=FShvQclQ4gI", "type": "video", "date": "2026-05-19", "author": "3 Minute League of Legends" }
+  ]
+}

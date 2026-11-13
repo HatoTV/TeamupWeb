@@ -133,18 +133,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Neeko (3 combos, 7 astuces)
 - ✅ Nidalee (3 combos, 7 astuces)
 
-### Lot 10 — ⏳
+### Lot 10 — ✅
 
-- ⏳ Nilah
-- ⏳ Nocturne
-- ⏳ Nunu
-- ⏳ Olaf
-- ⏳ Orianna
-- ⏳ Ornn
-- ⏳ Pantheon
-- ⏳ Poppy
-- ⏳ Pyke
-- ⏳ Qiyana
+- ✅ Nilah (3 combos, 7 astuces)
+- ✅ Nocturne (2 combos, 7 astuces)
+- ✅ Nunu (2 combos, 8 astuces)
+- ✅ Olaf (2 combos, 8 astuces)
+- ✅ Orianna (5 combos, 7 astuces)
+- ✅ Ornn (3 combos, 8 astuces)
+- ✅ Pantheon (3 combos, 7 astuces)
+- ✅ Poppy (2 combos, 8 astuces)
+- ✅ Pyke (2 combos, 8 astuces)
+- ✅ Qiyana (4 combos, 8 astuces)
 
 ### Lot 11 — ⏳
 

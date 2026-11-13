@@ -1,0 +1,157 @@
+{
+  "champion": "Pyke",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": {
+        "fr": "Harponnage puis Ressac fantôme",
+        "en": "Bone Skewer into Phantom Undertow"
+      },
+      "keys": [
+        "Q",
+        "E"
+      ],
+      "level": "medium",
+      "desc": {
+        "fr": "Harponnage (A) chargé attire toujours la cible à la même distance. Loin, lance Ressac fantôme (E) vers l'avant ; collé à elle, vers l'arrière, pour que le fantôme la traverse.",
+        "en": "Charged Bone Skewer (Q) always pulls the target the same distance. From far, cast Phantom Undertow (E) forward; when close, cast it backward so the phantom passes through them."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": {
+        "fr": "Ult derrière pour l'étourdissement",
+        "en": "Ult behind for the stun"
+      },
+      "keys": [
+        "E",
+        "R"
+      ],
+      "level": "hard",
+      "desc": {
+        "fr": "Ressac fantôme (E), puis Exécution abyssale (R) placée derrière l'ennemi : si elle touche, tu te téléportes au centre du X et le fantôme revient sur toi à travers lui.",
+        "en": "Phantom Undertow (E), then Death From Below (R) placed behind the enemy: if it hits, you blink to the center of the X and the phantom returns to you through them."
+      },
+      "refs": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Relâche Harponnage (A) en moins de 0,4 s pour un coup d'estoc : il frappe le champion ennemi le plus proche, même caché derrière les sbires.",
+        "en": "Release Bone Skewer (Q) within 0.4 s for a thrust: it hits the closest enemy champion, even one hiding behind minions."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Seul Harponnage (A) chargé est un projectile : Mur de vent (Z) de Yasuo bloque le harpon, pas le coup d'estoc.",
+        "en": "Only the charged Bone Skewer (Q) is a projectile: Yasuo's Wind Wall (W) blocks the hook, not the thrust."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un harpon qui touche à courte portée peut projeter l'ennemi derrière toi : place-toi entre lui et ton équipe avant de relâcher.",
+        "en": "A hook that lands at close range can fling the enemy behind you: stand between them and your team before releasing."
+      },
+      "refs": [
+        0,
+        1
+      ]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Ciblé à travers un mur, le dash de Ressac fantôme (E) s'allonge jusqu'à environ 900 unités au lieu de 550.",
+        "en": "Aimed across a wall, the Phantom Undertow (E) dash extends to about 900 units instead of 550."
+      },
+      "refs": [
+        0
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Plongée spectrale (Z), les champions ennemis à 1 500 unités sont prévenus de ta présence et savent si ton ult peut les exécuter.",
+        "en": "During Ghostwater Dive (W), enemy champions within 1,500 units are warned you are near and learn whether your ult can execute them."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Hors de vue des ennemis, tu convertis vite tes PV grisés en soin. Tu en stockes bien plus quand au moins deux champions ennemis visibles sont proches.",
+        "en": "Out of enemy sight, you quickly turn your grey health into healing. You store much more of it when two or more visible enemy champions are nearby."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Si un champion meurt dans le X d'Exécution abyssale (R), même tué par un allié, tu peux relancer l'ult gratuitement pendant 20 s.",
+        "en": "If a champion dies inside the Death From Below (R) X, even killed by an ally, you can recast the ult for free within 20 s."
+      },
+      "refs": [
+        0,
+        2
+      ]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Exécution abyssale (R) ne peut pas être interrompue : même déplacé pendant l'incantation, tu réapparais au centre du X si un champion ennemi y est pris.",
+        "en": "Death From Below (R) cannot be interrupted: even if displaced during the cast, you reappear at the center of the X if an enemy champion is caught in it."
+      },
+      "refs": [
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pyke - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Pyke",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "Davemon's Pyke Combo Guide - The Only Pyke Combos You Need!",
+      "url": "https://www.youtube.com/watch?v=01Uc0NAPKuk",
+      "type": "video",
+      "date": "2025-12-01",
+      "author": "Davemon"
+    },
+    {
+      "title": "3 Minute Pyke Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=Mg4UoAXrEUE",
+      "type": "video",
+      "date": "2026-06-10",
+      "author": "3 Minute League of Legends"
+    }
+  ]
+}

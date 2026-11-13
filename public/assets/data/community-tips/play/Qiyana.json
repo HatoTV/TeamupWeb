@@ -1,0 +1,119 @@
+{
+  "champion": "Qiyana",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Audace puis Lame d'Ixtal", "en": "Audacity into Edge of Ixtal" },
+      "keys": ["E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Audace (E) sur un champion, puis Lame d'Ixtal (A) pendant le dash : s'il est assez proche à l'arrivée, le sort vise tout seul la cible. Ton trade le plus fiable.",
+        "en": "Cast Audacity (E) on a champion, then Edge of Ixtal (Q) during the dash: if they are close enough on arrival, the spell aims at the target on its own. Your most reliable trade."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Double Courroux avec Terraforce", "en": "Double Wrath with Terrashape" },
+      "keys": ["E", "Q", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Audace (E) puis Courroux élémentaire (A) pendant le dash. Terraforce (Z) prend un nouvel élément et réinitialise le CD : relance Courroux élémentaire (A) tout de suite, en roche pour finir une cible sous 50 % de PV.",
+        "en": "Audacity (E) then Elemental Wrath (Q) during the dash. Terrashape (W) grabs a new element and resets the cooldown: cast Elemental Wrath (Q) again right away, Terrain to finish a target below 50% health."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec l'ult", "en": "Ult all-in" },
+      "keys": ["E", "R", "Q", "W", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Audace (E), puis Tour de force suprême (R) pour projeter la cible contre un mur et l'étourdir. Enchaîne Courroux élémentaire (A), Terraforce (Z) et un second Courroux élémentaire (A).",
+        "en": "Audacity (E), then Supreme Display of Talent (R) to knock the target into a wall and stun them. Follow with Elemental Wrath (Q), Terrashape (W) and a second Elemental Wrath (Q)."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Audace puis Flash", "en": "Audacity into Flash" },
+      "keys": ["E", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Lance Audace (E) d'abord, puis Flash pendant le dash : c'est un peu plus rapide que Flash puis Audace, et très dur à anticiper, surtout depuis l'invisibilité.",
+        "en": "Cast Audacity (E) first, then Flash during the dash: it's slightly faster than Flash then Audacity, and very hard to read, especially out of invisibility."
+      },
+      "refs": [1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Terraforce (Z) n'a pas de distance minimale : vise juste à côté de toi pour prendre un élément presque sur place et réinitialiser ton Courroux élémentaire (A) sans perdre ta position.",
+        "en": "Terrashape (W) has no minimum dash range: aim right next to you to grab an element almost in place and reset your Elemental Wrath (Q) without losing your position."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Terraforce (Z) ignore le terrain créé par un champion : tu ne peux pas prendre d'élément sur Cristallisation (Z) d'Anivia par exemple.",
+        "en": "Terrashape (W) ignores champion-made terrain: you cannot grab an element from Anivia's Crystallize (W), for example."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Courroux élémentaire (A) version herbe te rend invisible tant que tu restes dans sa zone. Seule Terraforce (Z) ne casse pas cette invisibilité : attaquer ou lancer un autre sort te révèle.",
+        "en": "Brush Elemental Wrath (Q) makes you invisible while you stay in its field. Only Terrashape (W) does not break it: attacking or casting another spell reveals you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Courroux élémentaire (A) version roche inflige 60 % de dégâts en plus sous 50 % de PV : garde-le pour finir la cible.",
+        "en": "Terrain Elemental Wrath (Q) deals 60% more damage below 50% health: save it to finish the target."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Courroux élémentaire (A) version rivière enracine 0,5 s puis ralentit : ouvre avec lui pour rendre ton ult plus facile à placer.",
+        "en": "River Elemental Wrath (Q) roots for 0.5 s then slows: open with it to make your ult easier to land."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Tour de force suprême (R) ne projette jamais à travers un mur. Le terrain d'un champion collé à un mur de la carte forme un seul bloc pour l'onde de choc.",
+        "en": "Supreme Display of Talent (R) never knocks back through a wall. Champion-made terrain touching a map wall counts as one block for the shockwave."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Mur de vent (Z) de Yasuo bloque le souffle de Tour de force suprême (R), mais pas l'onde de choc qui court le long du terrain.",
+        "en": "Yasuo's Wind Wall (W) blocks the Supreme Display of Talent (R) windblast, but not the shockwave running along the terrain."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Audace (E) parcourt toujours la même distance : trop près d'un ennemi collé à un mur fin, tu passes de l'autre côté. Sers-t'en aussi pour fuir.",
+        "en": "Audacity (E) always travels the same distance: too close to an enemy next to a thin wall, you end up on the other side. Use it to escape too."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Qiyana - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Qiyana", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "QIYANA Combo and Mechanics Guide - Play Like Beifeng", "url": "https://www.youtube.com/watch?v=J8lut6Vlmc0", "type": "video", "date": "2026-02-05", "author": "Edo Qiyana" },
+    { "title": "Unfortunately, Qiyana Isn’t That Hard (Ultimate Guide)", "url": "https://www.youtube.com/watch?v=WKH8wg0wypE", "type": "video", "date": "2026-07-26", "author": "Zoose" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Releasing the ability within 0.35 seconds causes Pantheon to instead thrust his spear in the target direction, dealing physical damage to enemies hit, against enemies below 20% of their maximum health, and refunding 60% of Comet Spear's cooldown. The thrust's damage is not reduced against enemies beyond the first.",
+    "Only the ranged version of Comet Spear can be intercepted.",
+    "Pantheon will be ordered to basic attack the target at the end of the leap.",
+    "Pantheon empowers his next basic attack within 4 seconds to have a 0.375-second cast time and strike the target 3 times over a brief period",
+    "The 3 strikes that occur after Empowered Shield Vault each apply a stack of Mortal Will, even if the attacks are dodged, blocked, or missed while Pantheon is blinded.",
+    "Pantheon braces his shield in the target direction and channels for 1.5 seconds, during which he becomes invulnerable to non-turret damage dealt by enemies from the target direction.",
+    "Aegis Assault's channel cannot be interrupted by crowd control.",
+    "Upon completion of the channel, Pantheon will lose the crowd control immunity and reappear at the target location, as well as gain maximum stacks of Mortal Will.",
+    "Grand Starfall is placed on a 30-second cooldown if the first channel is canceled.",
+    "Grand Starfall's first channel can be interrupted by cast-inhibiting crowd control, but its second channel cannot because Pantheon gains crowd control immunity during it.",
+    "During the second channel, Pantheon gains a minimum health threshold of 1.",
+    "the first combo is the W auto Q combo. Pantheon's W actually works really well with an auto attack after you cast his W. Make sure you always auto attack immediately and then use Q after to deal more damage.",
+    "The second combo is QW auto. This combo lets you throw your Q first, so you can use W auto attack and immediately run back to safety after.",
+    "The fourth combo is the empower W auto Q auto combo. This is one of the best ways to one v one your opponent as it allows you to use your passive and instantly get your next passive available again after you use this combo.",
+    "For combo start empowered Q into your three quick attacks. From here tap Q into an attack before using your empowered E.",
+    "This ability works as an auto attack reset and when empowered Pantheon then empowers his next three basic attacks to come out very quickly. This is usually the best way to use his empowered ability as those three attacks count as three of the five attacks to get towards your next empowered ability."
+  ],
+  "rejected": [
+    { "idea": "Combo Lance astrale (A) + Flash pour toucher la lance instantanément (Daveyx3, en partie)", "reason": "Interaction avec Flash confirmée ni par le wiki ni par une 2de source indépendante." },
+    { "idea": "Combo E, Z, auto, A (Daveyx3)", "reason": "Une seule source joueur, peu d'intérêt mécanique." },
+    { "idea": "Lance astrale (A) inflige plus de dégâts sous 20 % des PV", "reason": "Valeur du bonus absente de la sortie de l'outil wiki : non chiffrable." }
+  ],
+  "toVerifyInGame": [
+    "Combo Assaut martial (Z) renforcé + Lance astrale (A) + auto : vérifier que le passif est bien de nouveau plein (3 + 1 + 1 charges).",
+    "Sous-titres 3 Minute LoL : « empowered Q into your three quick attacks » lu comme une erreur pour le Z renforcé (les trois coups viennent d'Assaut martial selon le wiki)."
+  ]
+}

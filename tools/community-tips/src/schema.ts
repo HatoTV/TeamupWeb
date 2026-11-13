@@ -59,6 +59,29 @@ export const communityTipsSchema = z
   });
 
 export type CommunityTips = z.infer<typeof communityTipsSchema>;
+
+/**
+ * « How to play against {champion} »: one file per champion, `vs/{championId}.json`, tips valid whatever
+ * champion you play (shown on a matchup when the pair has too few tips, and on the Builds counters tab).
+ */
+export const vsTipsSchema = z.strictObject({
+  champion: championId,
+  researchedAt: isoDate,
+  gameVersion: z.string().regex(/^\d+\.\d+$/),
+  /** Fingerprint of the champion's passive and 4 spells when researched. */
+  abilityHash: z.string().regex(/^[0-9a-f]{64}$/),
+  status: statusSchema,
+  tips: perspectiveSchema,
+  sources: z.array(sourceSchema),
+});
+
+export type VsTips = z.infer<typeof vsTipsSchema>;
+
+/** Site index of the « how to play against » files. */
+export const vsIndexSchema = z.strictObject({
+  updatedAt: isoDate,
+  champions: z.record(championId, statusSchema),
+});
 export type Tip = z.infer<typeof tipSchema>;
 
 /** Site index: which pairs have a file, and their status. */

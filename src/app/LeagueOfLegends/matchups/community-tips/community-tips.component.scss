@@ -198,3 +198,45 @@
     padding: 8px 16px;
   }
 }
+
+// « How to play against »: general advice, replacing the pair tips or one click away.
+.ct__for--general {
+  margin: 0;
+}
+
+.ct__general {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.ct__more {
+  margin: 8px 24px 0;
+  border-top: 1px solid var(--color-separator);
+  padding-top: 8px;
+
+  .ct__list,
+  .ct__sources {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.ct__more-summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: var(--touch-target);
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-gold);
+  list-style: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+}
+
+.ct__more[open] > .ct__more-summary .ct__chevron {
+  transform: rotate(180deg);
+}

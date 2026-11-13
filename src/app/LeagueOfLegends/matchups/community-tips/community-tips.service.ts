@@ -33,8 +33,22 @@ export interface CommunityTipsFile {
   }>;
 }
 
+/** « How to play against {champion} »: tips valid whatever champion you play (`vs/{championId}.json`). */
+export interface VsTipsFile {
+  champion: string;
+  researchedAt: string;
+  gameVersion: string;
+  status: TipsStatus;
+  tips: { fr: CommunityTip[]; en: CommunityTip[] };
+  sources: CommunityTipsFile['sources'];
+}
+
 interface TipsIndex {
   pairs: Record<string, TipsStatus>;
+}
+
+interface VsIndex {
+  champions: Record<string, TipsStatus>;
 }
 
 const BASE = 'assets/data/community-tips';
@@ -63,6 +77,13 @@ export function sideTips(file: CommunityTipsFile | null | undefined, id: string 
   return tips.length >= MIN_TIPS_PER_SIDE ? tips : [];
 }
 
+/** Tips of a « how to play against » file in display order, or [] when it has too few. */
+export function vsTips(file: VsTipsFile | null | undefined, lang: 'fr' | 'en'): CommunityTip[] {
+  if (!file || file.status === 'insufficientSources') return [];
+  const tips = sortTips(file.tips[lang] ?? []);
+  return tips.length >= MIN_TIPS_PER_SIDE ? tips : [];
+}
+
 /** « 12 nov. 2026 » (fr), « Nov 12, 2026 » (en), from an ISO date (YYYY-MM-DD). */
 export function formatSourceDate(iso: string, lang: 'fr' | 'en'): string {
   const [y, m, d] = iso.split('-').map(Number);
@@ -77,7 +98,9 @@ export function formatSourceDate(iso: string, lang: 'fr' | 'en'): string {
 export class CommunityTipsService {
   private readonly http = inject(HttpClient);
   private index: Promise<TipsIndex | null> | null = null;
+  private vsIndex: Promise<VsIndex | null> | null = null;
   private readonly cache = new Map<string, Promise<CommunityTipsFile | null>>();
+  private readonly vsCache = new Map<string, Promise<VsTipsFile | null>>();
 
   /** Tips of the pair, or null when it has not been researched (or on a network error). */
   async load(a: string, b: string): Promise<CommunityTipsFile | null> {
@@ -94,6 +117,24 @@ export class CommunityTipsService {
         return null;
       });
       this.cache.set(key, request);
+    }
+    return request;
+  }
+
+  /** « How to play against » file of a champion, or null when it has not been researched (or on a network error). */
+  async loadVs(id: string): Promise<VsTipsFile | null> {
+    this.vsIndex ??= firstValueFrom(this.http.get<VsIndex>(`${BASE}/vs/index.json`)).catch(() => {
+      this.vsIndex = null;
+      return null;
+    });
+    if (!(await this.vsIndex)?.champions[id]) return null;
+    let request = this.vsCache.get(id);
+    if (!request) {
+      request = firstValueFrom(this.http.get<VsTipsFile>(`${BASE}/vs/${id}.json`)).catch(() => {
+        this.vsCache.delete(id);
+        return null;
+      });
+      this.vsCache.set(id, request);
     }
     return request;
   }

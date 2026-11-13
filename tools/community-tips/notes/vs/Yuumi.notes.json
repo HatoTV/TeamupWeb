@@ -1,0 +1,91 @@
+{
+  "searches": 2,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Well, she's very easy to pick up and play. She's untargetable in lane. She makes her carry into an absolute god, and she scales well loving team fights.",
+    "[0] Yuumi's Q is a straight line skill shot, which deals damage to the first enemy hit, reveals them, and slows them.",
+    "[0] Yuumi's W allows her to attach or detach from an ally. While attached to her best friend, she gains heal and shield power, and her best friend gains healing on hit. And if she's CC'd while not attached, this goes on a 5-second cooldown.",
+    "[0] Your health is still a resource to use, so if you jump off, attack the enemy carry a few times, and jump back on, it's great.",
+    "[0] Enemies hit by this take damage and are slowed, and the slow can stack with each wave.",
+    "[0] Yuumi's ultimate causes her to start channeling a massive rectangular skill shot, which fires out five waves.",
+    "[0] For matchups, Yuumi is great into bully supports, easily shielding their damage and out scaling them. And she can struggle into hard engage and get two for the price of one lockdowns.",
+    "[1] Yuumi isn't going to be dying to hooks and grabs the same way other supports are in the lane phase. She's attached to you. So, most of the aggression just misses.",
+    "[1] They'll rush in without their ADC early and you just isolate the 2v1."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "HQbLWSjk6pg",
+      "channel": "Duo Diff",
+      "result": "utilisé (passage 0:29-1:06) ; le reste porte sur les choix de champions"
+    },
+    {
+      "id": "TP0msPg5f6M",
+      "channel": "RaizinsLoL",
+      "result": "écarté : aucun sous-titre disponible (en-orig et en), vidéo de 2021 d'avant la refonte"
+    },
+    {
+      "id": "6IAT-KtofFM",
+      "channel": "Dogbit",
+      "result": "écarté : recherche dans les sous-titres sans résultat"
+    },
+    {
+      "id": "Ww10Dbrmq0o",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (passages 0:00-1:28, 2:16)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Accrochée, Yuumi est intouchable sauf par les tours : viser son porteur",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z : intouchable sauf par les tours)"
+    },
+    {
+      "idea": "Immobiliser Yuumi quand elle se décroche : Z bloqué quelques secondes",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (les immobilisations mettent Z en CD ; durée non lisible dans DDragon, donc pas de chiffre dans le tip)"
+    },
+    {
+      "idea": "Rester derrière ses sbires : A s'arrête sur le premier ennemi",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (premier ennemi touché)"
+    },
+    {
+      "idea": "Sortir vite du R : le slow augmente à chaque vague",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (slow augmenté par vague touchée)"
+    },
+    {
+      "idea": "Le hard engage marche contre Yuumi (deux cibles bloquées d'un coup)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: contredit par [1] (les supports d'engage ne sont pas un problème pour Yuumi)"
+    },
+    {
+      "idea": "Un support d'engage ne doit pas engager sans son ADC (2v1)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil de lane"
+    }
+  ]
+}

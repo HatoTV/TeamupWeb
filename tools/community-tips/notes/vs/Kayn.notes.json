@@ -1,0 +1,126 @@
+{
+  "searches": 2,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] So, you have to be creative on a champion like Kayn where you can like go through walls, you can go around places, you can dodge vision. So, unless this is pinked, I have an angle on the Syndra here where I can go through this wall and absolutely jump this guy.",
+    "[0] On Kayn, I always look for invades like this because your level one is probably one of the strongest in the game if you can land your autos and Qs",
+    "[1] Kayn's E, Shadow Step, grants you move speed and the ability to go over walls. You also get healed upon entering terrain for the first time. Important thing to note is that this ability will only last for a short amount of time if you are not inside the terrain or you are in combat.",
+    "[1] In the majority of your games, you will get your passive around minute 10. So you can safely farm your jungle and not worry about it too much. At around minute 10, you should be able to get your form with your first item.",
+    "[1] When it comes to ganking, you want to use your E through a wall to get behind the enemy in order to cut off their escape path.",
+    "[1] As we've established already, your ult can only be used on targets that you have damaged.",
+    "[1] Your ult is also the only defensive tool that you have in your kit. So make sure to play around its cool down.",
+    "[1] Rhaast's passive makes you heal for a percentage of damage dealt to enemy champions with your abilities.",
+    "[2] specifically for what gives me my form the quickest because the number one most important thing to play for really is your form.",
+    "[2] Just think about it whenever I get my form, it's pretty much impossible to lose a team fight.",
+    "[3] next is to get deep boards kane exploits unorthodox gang paths that surprise enemies and increase his likelihood of success",
+    "[3] avoid walls for kane walls act both as a flank opportunity as well as an escape path fighting in more open spaces will increase the distance he has to close when joining a fight or trying to escape",
+    "[3] grievous wounds will stifle kane's healing and allow you to bears them down sooner is better than later",
+    "[3] unless your team is significantly behind you should be able to focus kane down if you land some hard cc this prevents him from getting the heel or buying time for his teammates",
+    "[3] if kane has altered you be sure to move away from those walls we can't instantly go into a shadow step afterwards",
+    "[3] if you're able to pull him away from wars against your teammates while he's an on-board trespass you're almost guaranteed to at least trade a kill back"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "xeQJBYM-Vzg",
+      "channel": "Karasmai",
+      "result": "utilisé (passages 25:29, 31:32)"
+    },
+    {
+      "id": "Iea19cvsJmA",
+      "channel": "More PerryJG",
+      "result": "utilisé (passage 9:01)"
+    },
+    {
+      "id": "9wkLqpisOtg",
+      "channel": "Mobalytics",
+      "result": "utilisé (passages 2:03-6:33), plus de 2 ans (2021-05-18) : mécaniques vérifiées DDragon seulement"
+    },
+    {
+      "id": "yIur-yRyzIU",
+      "channel": "Veasher",
+      "result": "utilisé (passages 0:53, 8:27, 9:02-9:56)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "E traverse les murs : gank par derrière un mur",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (E traverse le terrain)"
+    },
+    {
+      "idea": "Combattre loin des murs : E s'arrête vite hors du terrain, annulé par une immobilisation",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (fin anticipée hors terrain ou si immobilisé)"
+    },
+    {
+      "idea": "Burst Kayn avant son R, seul outil défensif ; R seulement sur un champion touché récemment",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (marque 3,15 s, intouchable dans l'hôte)"
+    },
+    {
+      "idea": "Forme vers 10 min = gros spike : jouer ses avances et objectifs avant",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources récentes"
+    },
+    {
+      "idea": "Blessures graves contre Kayn rouge",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif Darkin : soin d'un % des dégâts des sorts)"
+    },
+    {
+      "idea": "Infesté par le R : marcher vers son équipe, loin des murs",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (sortie après la durée, E a besoin du terrain)"
+    },
+    {
+      "idea": "Invade Kayn tôt, il est faible avant sa forme",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: contredit par [0] (lvl 1 de Kayn très fort) et [3] a plus de 2 ans"
+    },
+    {
+      "idea": "Cercle au sol visible quand Kayn est dans un mur",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Profiter des animations de A/Z pour placer ses skillshots",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source de plus de 2 ans, non vérifiable dans DDragon"
+    }
+  ]
+}

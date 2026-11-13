@@ -1,0 +1,133 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] à chaque fois que vous mettez une compétence ou que vous êtes touché par une compétence, etth ben ça réduit le délai de ce passif-là de 4 secondes.",
+    "[0] Bah alors quand Maokai euh met une auto ça va lui rendre des PV.",
+    "[0] placer dans une autre herbe, ça dure un peu plus longtemps.",
+    "[0] le timing ouais du de l'arbreu avant qu'il disparaisse et ben il scale avec vos HP max dans les buissons. Je savais pas. Ça ça explose plus large, ça fait une plus grosse explosion et ça fait bah du coup plus de dégâts, le double",
+    "[0] Plus plus il est tapé de loin par l'ulti, plus il est stun longtemps.",
+    "[0] quand vous jouez contre quelqu'un et que vous mettez votre ult en avant, il met pas mal de temps pour toucher l'ennemi.",
+    "[0] Un truc à savoir, c'est que quand il touche un touche quelqu'un, la ron s'enlève de l'ulti. Donc en vrai, le mec derrière va pas être stun.",
+    "[0] Le leurly euh leur après le niveau 3 est un peu un peu faiblard. Euh surtout dans les ben surtout dans les ranges, j'ai les champions à grand poqu",
+    "[0] le seul point faible c'est le le wave clear après mid game",
+    "[1] And it even makes Mongai unargetable, making it one of the few dash abilities in the game to completely bypass anti-dash measures like PoppyW, Vaggar Cage, or any kind of disruption like body slam or vault breaker.",
+    "[1] Not to mention the whole brush thing, doubling the potential damage to make it even stronger.",
+    "[1] It covers a massive area bold in width and especially length, and each bramble can root for potentially up to two and a/4 seconds if it hits a target.",
+    "[1] They also just made his ultimate a bit faster in advancing.",
+    "[1] So now he actually does comparatively little damage. Factor them together and there are very few matchups in top lane that Maokai convincingly wins."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "8pTOWG7iu6Q",
+      "channel": "iReaz VOD",
+      "result": "utilisé (passages 2:19, 5:48-6:20, 7:08-7:50, 9:32, 14:40-14:53, 24:39, 31:30)"
+    },
+    {
+      "id": "i2Yqk_HENDw",
+      "channel": "Vars",
+      "result": "utilisé (passages 2:07, 5:11-5:22, 5:49, 9:55, 12:05) ; date vérifiée (infos_video) : 2026-01-14"
+    },
+    {
+      "id": "FfMkbnIbiPc",
+      "channel": "Chap",
+      "result": "écarté : passe de complétion, aucun passage utile (range, poke, wave clear, ulti)"
+    },
+    {
+      "id": "L1j1xujdauU",
+      "channel": "i0ki",
+      "result": "écarté : passe de complétion, seule idée (arbrisseau comme alerte de vision, 6:02) à 1 source et non vérifiable dans DDragon"
+    },
+    {
+      "id": "nedVk49po6I",
+      "channel": "3 Minute League of Legends",
+      "result": "non ouvert : guide de 3 min pour jouer Maokai jungle"
+    },
+    {
+      "id": "2kNlJFcIu6w",
+      "channel": "Daveyx3 Off Meta",
+      "result": "non ouvert : cap de 4 vidéos atteint"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/maokai/",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://op.gg/lol/champions/maokai/counters",
+      "result": "no-tips (conseils pour jouer Maokai)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-maokai/",
+      "result": "refused (404)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "R lent, root plus long de loin : sortir de la trajectoire tôt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (MaokaiR : root increasing with distance, slowly advances)"
+    },
+    {
+      "idea": "E dans un buisson : dure plus et explose plus fort",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (MaokaiE brush)"
+    },
+    {
+      "idea": "Chaque sort qui le touche réduit le CD de son passif",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Sap Magic)"
+    },
+    {
+      "idea": "Z inciblable puis root : reculer avant sa portée",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (MaokaiW untargetable, root)"
+    },
+    {
+      "idea": "Early faible après le lvl 3 contre les ranged qui poke : poke-le",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: no 2nd source after the completion pass (lane ; Vars non daté et trop général)"
+    },
+    {
+      "idea": "Se placer derrière la 1re cible touchée par son R",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: no 2nd source after the completion pass (non vérifiable dans DDragon)"
+    },
+    {
+      "idea": "Wave clear faible en mid game",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: no 2nd source after the completion pass (macro)"
+    },
+    {
+      "idea": "Ses arbrisseaux (E) servent d'alerte de vision",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: 1 source (i0ki L1j1xujdauU, non listée), vision non indiquée dans DDragon"
+    }
+  ]
+}

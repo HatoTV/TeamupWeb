@@ -1,0 +1,120 @@
+{
+  "searches": 3,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] quand tu meurs, tu respawn avec quatre petits blobs que les ennemis doivent taper.",
+    "[0] quatre petits blobs qui les ennemis peuvent les tuer, s'ils les tuent, vous êtes morts, sinon vous pourrez apparaître.",
+    "[0] il y a un cooldown et à chaque fois que je ramasse un petit blob, j'ai une seconde de cooldown en moins.",
+    "[0] Point fort de Zac, faire des bons ganks avec le E au max comme on a beaucoup de portée pour sauter par exemple. mur",
+    "[0] Le clear c'est une de ses faiblesses en ? C'est un très très très mauvais clear. Euh mauvais first clear alors que c'est son son son rôle de base quand même.",
+    "[0] tu es E dépendant et tu as beaucoup de champions qui peuvent annuler ce E",
+    "[0] Même une Bel'Veth peut peut cancel le temps E avec un bump.",
+    "[0] C'est-à-dire déjà faire de l'anti-E. Euh bah, cancel le E. Se douter de du positionnement.",
+    "[0] est par terre, si l'ennemi marche dessus, bah, il n'existe plus ce blob. C'est fini. Et c'est les ennemis qui vont commencer à prendre les blobs",
+    "[0] beaucoup de regen. Ça force de l'anti heal sur les ennemis",
+    "[0] Alors tu crains l'anti-heal. Tu crains la move speed. Tu crains les persos qui peuvent te cancel",
+    "[1] a bit of blob flies out and when we pick it up, we heal, right? And enemies can like step on it and get rid of it.",
+    "[1] when we pick up blobs, it comes back sooner.",
+    "[1] typically you want to be jumping in from out of fog, landing like typically behind the target.",
+    "[1] the champion identity early game is to avoid the enemy jungler or at best counter gank him. >> So, you're weak early game? >> Absolutely piss weak.",
+    "[1] if you put pressure on Zac early, it's like, you know, that's no matter what Zac can be weak to every single champion on this list.",
+    "[1] he can counter engage, he can attack you and your lanes pretty well. Um and he can kill your passive quite",
+    "[1] He can fear us out of our jump.",
+    "[1] He can interrupt our jump with his little instant snowball.",
+    "[1] Just be careful to run like from getting invaded. You're going to get invaded.",
+    "[2] a good Graves is going to consistently invade you in the jungle early and if he does get the that insta pick, your passive is gone by, you know, one auto attack, one Q.",
+    "[2] he's got splash damage, which basically takes your passive uh from 100 to zero immediately."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "ALGAC2-ZoQQ",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (passages 28:08-48:36, 1:37:37-1:58:25), Sybol Challenger Zac"
+    },
+    {
+      "id": "WkN9WJaF7JY",
+      "channel": "DOUGvsALL",
+      "result": "utilisé (passages 6:36-6:47, 35:40) ; niveau annoncé « Emerald and below », sert seulement de source d'appoint"
+    },
+    {
+      "id": "w-kXas0BA1Y",
+      "channel": "iReaz VOD",
+      "result": "utilisé (passages 1:56-20:03), voix FR, sous-titres fr, invité Rams rank 1 EUW Zac"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Passif : tuer tous les blobs à la mort de Zac, sorts de zone",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Division cellulaire : revient s'il reste des blobs)"
+    },
+    {
+      "idea": "Zac faible early, first clear lent : l'invade",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Marcher sur ses blobs pour les détruire (soin + CD du Z)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (blobs = PV ; Matière instable -1 s de CD par blob absorbé)"
+    },
+    {
+      "idea": "Annuler la Fronde (E) pendant la charge avec un CC / un bump",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (interruption non décrite dans DDragon)"
+    },
+    {
+      "idea": "Fronde (E) longue portée, passe les murs, sauts depuis le fog : ward les flancs",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Blessures graves contre ses soins de blobs (exception anti-heal)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source explicite (Rams : « tu crains l'anti-heal ») + DDragon (soin par les blobs du passif) ; Sybol confirme le gros soin mais ne parle pas d'anti-heal"
+    },
+    {
+      "idea": "Zac craint la vitesse de déplacement (kite)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source"
+    },
+    {
+      "idea": "S'il rate E et A, Zac n'a plus rien : retourne le fight",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "searches": 2,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] She has very annoying spells because of her W blocking the damage, reflecting projectiles, and also giving her shield. Her Q is insanely long range. Her out attacks, her passive out attacks deal an insane amount of damage onto you and she of course has the execute.",
+    "[0] Mel's Q level one is 10 seconds CD. Her W is 35 seconds CD, which means once per wave, not even once per wave, extremely long cool down. And her E is 11 second cool down.",
+    "[0] The way you beat Mel is not by playing the trading game. The way you beat Mel is by playing on the wave state",
+    "[0] he's consistently going to be pushing the Mel in and because of that he's going to be in a position where Mel's forced to respond to minions and while Mel's then responding to minions, we can then harass Mel, trade with her",
+    "[0] You can bait out her Q. ... The way you do that is by acting as if you walk forward and then walking towards the side. ... you can also just fake last hits. You got to keep in mind that Mel wants to use her Q onto your last hit ... because the spell has a pretty big delay.",
+    "[0] as a ranged champion, definitely stay outside of her out of the range.",
+    "[0] Baiting out her W can be a very effective tool for you to get control of the lane because the cool down is so incredibly long.",
+    "[1] the important is W is 38, that is very important. You know, so if they use W for whatever reason on your Q, for example, then you have a big big window to punish that. But, overall in lane, you also want to be tracking Q, which is 10 seconds.",
+    "[1] ideally I actually have an angle to just W forward and dodge her Q.",
+    "[1] Because we have the prio. We have the tempo to kill the wave uh ASAP",
+    "[1] after like level five ... I just pretty much just queue the wave here. I just avoid laying the lane, basically. I avoid giving her the angles to punish me while I'm playing in lane. I just try to move around, get vision",
+    "[1] play around the W and play with your jungler ... you can cheat the wave by like I said, level five plus, kill the wave, move around the map.",
+    "[2] he dodged a Mel Q without using W. He just straight up walked and then dodged it.",
+    "[2] Pretty impossible to deny Mel last hits here. So, we will just push the wave.",
+    "[2] She wanted to W my Q there. That's why I didn't fire it.",
+    "[2] She doesn't have W here. But I just want to crash the wave and leave cuz I'm scared of Nocturne gank.",
+    "[2] If she wastes W here, she dies.",
+    "[2] we'll probably just non-interactively both push out the wave here, and I will roam, and she will just stay mid lane and do nothing."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "Hj-HfZ7MWJw",
+      "channel": "Mysteriaslol",
+      "result": "utilisé (passages 0:26-6:20, vidéo entière)"
+    },
+    {
+      "id": "W_uxtZE5f4o",
+      "channel": "Peng",
+      "result": "utilisé (passages 27:13-33:27, chapitre REVIEW)"
+    },
+    {
+      "id": "oWq_268_7Mw",
+      "channel": "Sjorry",
+      "result": "utilisé (passages 0:43-11:01)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Ne pas lancer son projectile dans la Réfutation (Z), la faire gâcher d'abord",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources ; DDragon 16.22.1 : la Réfutation détruit les projectiles et riposte (formulation du kit actuel, pas de renvoi)"
+    },
+    {
+      "idea": "Réfutation (Z) en CD long : fenêtre de trade / all-in",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources ; DDragon CD 30-24 s (chiffre non cité car les sources donnent 35/38 s)"
+    },
+    {
+      "idea": "Jouer la wave avant les trades, push Mel",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Barrage lumineux (A) visé sur les last hits, délai : feinter puis se décaler",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "A touché = CD réduit ; A raté = CD complet, punir",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (suivre le CD de l'A) + DDragon (réduction de CD si un champion est touché)"
+    },
+    {
+      "idea": "Crash la wave puis roam / vision / jungler",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Passif : projectiles bonus sur l'auto après chaque sort, sortir de sa portée d'auto",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif Luminescence incandescente, fact checked)"
+    },
+    {
+      "idea": "Accablement exécute : reculer bas en PV",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : exécution par Accablement, fact checked)"
+    },
+    {
+      "idea": "Prudence au lvl 7 quand Mel finit son objet de mana",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: lié à un objet, interdit"
+    },
+    {
+      "idea": "Mel manque de mana avant son premier objet",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, lié à un objet"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "searches": 4,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] They have more poke. So in general, this is a bad matchup for tic, right? This is a bad matchup for tic.",
+    "[1] Tark is the anti-engage champion. So, he's not counter or he's more of a counter-engage.",
+    "[1] You let them go in, you put your shields and heals on your ADC, and then then you uh run the stun after their spells are down, and you just run them down.",
+    "[1] You will win long fights as Tar as long as there's nothing keeping you from being able to auto attack. That's really the only thing you're gated by, which is why you don't really want to be playing Tar into range champions.",
+    "[1] please do not play him in like double range bot lane. You're going to have a terrible time.",
+    "[1] Brier tried to like disengage me away, but you just use the bastion and like stun off your teammate.",
+    "[2] You just always need to be autoing to refresh your heal. Four, always pay attention to who you're linked to because they can also stun with your E.",
+    "[2] Much like Braum, you are great at peeling and keeping people alive, but you do struggle against ranged supports",
+    "[2] whenever a team tries to engage on a Taric, they're going to lose.",
+    "[2] the enemy walked too close to Kai'Sa, so I used her to get a stun with my E.",
+    "[2] You can also tower dive pretty much whenever you want when you have your ult. The tower can't protect the enemy if it doesn't deal any damage.",
+    "[2] they just couldn't kill me for 2 and 1/2 seconds, which gave my team enough time to group up and win the fight.",
+    "[2] I was also getting good at the E flash combo, giving the enemy no time to react and just getting free kills."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "QJF1Or60RNA",
+      "channel": "Coach K",
+      "result": "utilisé (passage 12:07 : poke = mauvais matchup pour Taric)"
+    },
+    {
+      "id": "pDNho27h7mw",
+      "channel": "i0ki",
+      "result": "utilisé (passages 1:00-1:30, 5:10, 9:17, 25:47)"
+    },
+    {
+      "id": "zvJQRC1VoPc",
+      "channel": "Lightrocket",
+      "result": "écarté : replay sans conseil exploitable"
+    },
+    {
+      "id": "TROC1DTLHHg",
+      "channel": "EcoreLoL",
+      "result": "utilisé (passages 5:30, 7:33-8:31, 9:13)"
+    },
+    {
+      "id": "JhvMrfXQOko",
+      "channel": "Coach K",
+      "result": "non ouvert : publié le 2024-11-08 (> 2 ans)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Taric melee, souffre contre le poke / supports à distance",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Le stun peut partir de l'allié lié par Bastion",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Bastion : Taric casts all his Abilities from both himself and his linked ally)"
+    },
+    {
+      "idea": "Éviter les fights longs : ses autos réduisent ses CD et rechargent ses soins",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (+ DDragon Bravado / Starlight's Touch)"
+    },
+    {
+      "idea": "Counter-engage : il attend ton engage pour stun, engage après son E",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "E stun après un délai, l'esquiver par le côté",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Dazzle : bursting after a delay, stun)"
+    },
+    {
+      "idea": "R invulnérable après un délai, reculer et garder ses sorts, même sous tour",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Cosmic Radiance : after a delay, nearby ally champions become invulnerable)"
+    },
+    {
+      "idea": "Taric galère avec le mana",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, lane tip"
+    },
+    {
+      "idea": "Taric déteste les lanes à forte wave clear qu'il ne peut pas all-in, il veut roam",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, macro (passage 1:30:39 hors source listée)"
+    }
+  ]
+}

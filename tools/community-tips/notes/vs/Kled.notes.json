@@ -1,0 +1,97 @@
+{
+  "searches": 2,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] I'm missing literally every minion, but as long as I can dodge the Q.",
+    "[0] Never dismount him unless you plan to kill him straight away. And backload your burst. Save your most important and largest burst spells for his dismount cuz that's when you have to kill him.",
+    "[0] I was like, \"Oh, he can't He can't auto me to remount.\" But turns out turrets give vision, I suppose.",
+    "[1] With Kled, you also want to pay attention to his W cool down. That's whenever he does this stab right there. Then he gets four attacks",
+    "[1] he cannot actually choose when to activate it. It activates automatically based on when the cool down comes off and his next auto attack occurs after the cool down is off. So if you see him use that on a wave to farm it, you can then proceed to go for the wave a bit more safely.",
+    "[1] Try to kite his dismount.",
+    "[2] I want him to get dismounted by the minions, not by my punch there. I'd be too close to him.",
+    "[2] If he got his Q off while I'm E-ing him, then I get pulled back in and it's very difficult.",
+    "[2] Like he wouldn't be able to count that pull as adding to his um remount.",
+    "[3] vraiment shogat il va vous bouffer quand vous êtes en petit cl il a des dégâts en pourcentage de PV max",
+    "[3] dès qu'il a son 6 il va juste attendre que vous êtes en petit cl et il va vous 6 et après il va vous manger tout cru",
+    "[3] le number one yazuo qui Dodge votre queue juste avec les dash ou le yet qui va garder votre son vous savez le Shadow pour juste esquiver votre cul"
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "Dkd2_z_RNGo",
+      "channel": "Autolykus",
+      "result": "utilisé (passages 1:13, 2:57, 8:38)"
+    },
+    {
+      "id": "-8EjOrx00Yo",
+      "channel": "No Arm Whatley",
+      "result": "utilisé (passages 2:38, 5:16-5:46, 14:45)"
+    },
+    {
+      "id": "2IhotkScQ1g",
+      "channel": "Minishcap1",
+      "result": "utilisé (passages 1:35-2:14, 11:47)"
+    },
+    {
+      "id": "9ajViSYZSgw",
+      "channel": "Tavaa - League of Legends",
+      "result": "utilisé (voix FR, passages 3:49, 12:54, 14:00)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Esquiver le A ; s'il accroche, s'éloigner avant le pull",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Bear Trap on a Rope : if Kled stays near a hooked enemy, he yanks, pulls and slows)"
+    },
+    {
+      "idea": "Kiter Kled à pied : il regagne du courage en se battant",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (passive : restore Skaarl's courage by fighting enemies)"
+    },
+    {
+      "idea": "Garder le burst pour le démontage ; ne le démonter que pour le tuer",
+      "sourceIdx": [
+        0,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Z se déclenche tout seul ; s'il le gaspille sur la wave, trade",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Violent Tendencies passive : next Attack grants attack speed for four Attacks)"
+    },
+    {
+      "idea": "Kled fort en early, il faut le laisser passer puis outscale",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source (lane)"
+    },
+    {
+      "idea": "Autolykus garde E et Z pour la remonte",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: ambigu et contraire à la source 0"
+    }
+  ]
+}

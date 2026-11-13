@@ -1,0 +1,113 @@
+{
+  "searches": 5,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] il faut savoir que que Kale gagne contre Garen level 1. Donc faut faire très gaffe si elle te trade dans ta wave",
+    "[0] Oh le dive est pixel perfect. ... Elle elle a pas eu le temps de passer level 6",
+    "[0] Garen Kale, il faut que je time son ulti. Pourquoi ? Parce que l'ulti de Kane au niveau 1, c'est 160 secondes de cooldown alors que mon ulti c'est 120. Donc quand je vais récupérer mon ulti, j'aurai un timing d'environ 40 secondes où je peux trouver un kill.",
+    "[0] Façon à partir du level 6, c'est plus très amusant du level 6. À moins qu'elle fasse des grosses erreurs de spacing.",
+    "[0] Encore une erreur comme ça, elle doit claquer l'ulti. Deux erreurs comme ça, elle meurt.",
+    "[0] Elle perd l'ulti, c'est très bien. Je m'en doutais. Je savais qu'elle allait probablement ulti direct. ... Maintenant, je sais qu'elle a pas d'ulti.",
+    "[0] La bonne nouvelle c'est qu'elle a toujours pas son R. Je pense que j'ai un timing de genre 20 secondes où je peux la buter où j'aurai l'ulti et elle elle l'aura pas.",
+    "[1] Now I'm just going to zone. Zone. Zone. Zone. ... I'm not going for any minions, bro. I'm zoning from experience the entire game.",
+    "[1] I'm level three to one. I think we should dive her on this.",
+    "[1] Level five, no flash either. He's going to get six now. GG's. Now the lane's just GG. I guess she's going to free scale.",
+    "[1] Now Kale is going to start to free scale. That's my issue with it.",
+    "[1] Doesn't have flash though. I I kind of think we should send it. Maybe bay her ultimate.",
+    "[2] kill is a champion similar to Mundo that doesn't play to win lane. You're playing to not lose lane kind of.",
+    "[2] And then once I have the gold and level six, right? What do you get? You get mega free scaling.",
+    "[2] You just want to get level 16 ASAP.",
+    "[2] Orn and Viego, you can walk away from them with your W movement speed",
+    "[3] Kayle has a lot of movement speed with her W, her passive, and also people tend to go swifty.",
+    "[3] Her side step, yeah, she's really fast with her W movement speed."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "bdYCHvwKFuo",
+      "channel": "Aatreus",
+      "result": "utilisé (passages 0:09, 6:09) : peu de conseils de lane, surtout objets et skins"
+    },
+    {
+      "id": "uC7hGeIuOlU",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (passages 0:21-10:22), voix FR, sous-titres fr"
+    },
+    {
+      "id": "-CsMcyHMl7U",
+      "channel": "kaagaroo 2",
+      "result": "utilisé (passages 2:58-8:38, 17:17, 30:53)"
+    },
+    {
+      "id": "XT0EHOtjHOQ",
+      "channel": "AloisNL",
+      "result": "utilisé (passages 0:43, 23:23, 29:34, 33:04) : point de vue Kayle, sert de 2e source sur le scaling et la vitesse du Z"
+    },
+    {
+      "id": "ebv8lKw7Hzk",
+      "channel": "GP Gameplay",
+      "result": "écarté avant ouverture : réupload de stream Solarbacca, pas la chaîne d'origine"
+    },
+    {
+      "id": "0IM_SBL6Mnw",
+      "channel": "Sinsirellia",
+      "result": "non ouvert (cap de 4 vidéos atteint)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Avant le lvl 6, Kayle est mêlée et faible : trade et dive avant qu'elle passe 6",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources ; DDragon : le passif lui donne de la portée en montant de niveau"
+    },
+    {
+      "idea": "Forcer le Jugement divin (R) avant l'all-in, punir pendant son long CD",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (R : allié invulnérable, CD 140/110/80 s ; le chiffre de 160 s de la source n'est pas repris)"
+    },
+    {
+      "idea": "Bénédiction céleste (Z) : soin + vitesse, ne pas chase avant qu'elle soit tombée",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Z : soin et vitesse de déplacement, CD 15 s)"
+    },
+    {
+      "idea": "Zoner Kayle de l'XP pour retarder son scaling",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Crash la wave avant le back pour qu'elle perde des sbires",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source (lane)"
+    },
+    {
+      "idea": "Ne pas lui laisser restack sa rune avec son E",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: rune, interdit"
+    }
+  ]
+}

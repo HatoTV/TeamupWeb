@@ -1,0 +1,140 @@
+{
+  "champion": "Riven",
+  "researchedAt": "2026-11-13",
+  "gameVersion": "16.22",
+  "abilityHash": "c483fdc88e5f6f57ef1de7390a32edbfa3e6c6ca6402fbd02f78371191f71db6",
+  "status": "ok",
+  "tips": {
+    "fr": [
+      {
+        "text": "Si Riven active sa Bravoure (E), ne lâche pas ton burst dans le bouclier : attends qu'il expire (1,5 s), puis frappe.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Ses Ailes brisées (A) se relancent deux fois et le dernier saut te projette 0,75 s. Garde ton dash ou ton CC pour esquiver ou couper ce troisième coup.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Quand Riven utilise ses Ailes brisées (A) sur les sbires, lance le trade : le sort a 13 s de CD et elle perd son principal outil d'engage.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "N'ouvre pas le trade avec ton sort clé : Riven te rattrape et gagne l'échange. Laisse-la engager, puis riposte à la fin de son combo.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Riven est melee et doit s'approcher pour last hit. Punis chaque approche, puis garde la wave près de ta tour pour priver Riven de CS.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Si tu la prives de farm, Riven part roam. Ping ton équipe dès qu'elle quitte la lane et prends plates et XP pour punir.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "macro"
+      },
+      {
+        "text": "Au lvl 6, sa Lame de l'exilée (R) lui donne AD et portée. Sa réactivation tape plus fort sur une cible basse : ne reste pas à mi-PV près d'elle.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      }
+    ],
+    "en": [
+      {
+        "text": "If Riven pops Valor (E), don't dump your burst into the shield: wait the 1.5 s for it to expire, then hit her.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Broken Wings (Q) can be recast twice, and the last leap knocks you up for 0.75 s. Save your dash or CC to dodge or stop that third hit.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "When Riven spends Broken Wings (Q) on minions, go for the trade: it's on a 13 s cooldown and she loses her main gap closer.",
+        "sources": 2,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      },
+      {
+        "text": "Don't open the trade with your key spell: Riven will jump on you and win it. Let her commit first, then hit back as her combo ends.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Riven is melee and has to walk up to last hit. Punish every step toward the minions, then hold the wave near your tower to starve her of CS.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "lane"
+      },
+      {
+        "text": "Once you deny her farm, Riven starts roaming. Ping your team the moment she leaves lane, and punish by taking plates and XP.",
+        "sources": 2,
+        "verifiedByGameData": false,
+        "category": "macro"
+      },
+      {
+        "text": "At level 6, Blade of the Exile (R) grants her AD and range, and its Wind Slash hits harder the lower you are. Don't linger near Riven at half HP.",
+        "sources": 1,
+        "verifiedByGameData": true,
+        "category": "mechanics"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "How You Always Beat Riven in Mid Lane",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ewxxTRoZT2k",
+      "consultedAt": "2026-11-13",
+      "channel": "Mysteriaslol",
+      "publishedAt": "2026-06-30",
+      "timestamps": [
+        "2:33",
+        "2:52",
+        "3:01",
+        "3:19",
+        "4:19",
+        "5:47",
+        "6:14",
+        "7:00",
+        "7:17"
+      ]
+    },
+    {
+      "title": "NEVER pick Riven Into Renekton... | Renekton vs Riven Match Up",
+      "site": "YouTube",
+      "url": "https://www.youtube.com/watch?v=3TAdE_dst08",
+      "consultedAt": "2026-11-13",
+      "channel": "Godrekton",
+      "publishedAt": "2025-11-24",
+      "timestamps": [
+        "0:45",
+        "1:06",
+        "4:22",
+        "5:27",
+        "7:16"
+      ]
+    },
+    {
+      "title": "How to Counter Riven",
+      "site": "leaguefeed.net",
+      "url": "https://leaguefeed.net/how-to-counter-riven/",
+      "consultedAt": "2026-11-13",
+      "publishedAt": "2021-12-06"
+    }
+  ]
+}

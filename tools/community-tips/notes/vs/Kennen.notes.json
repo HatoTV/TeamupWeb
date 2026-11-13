@@ -1,0 +1,148 @@
+{
+  "searches": 5,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] Consider playing a bit more cautiously around Kennen when you have a Mark of the Storm debuff.",
+    "[0] If he hits you with 3 Marks of the Storm, you will get stunned.",
+    "[0] Kennen is flimsy by nature - turn and attack him if he gets careless with Lightning Rush.",
+    "[0] Always stay on hot foot and behind minions to avoid his basic attack and Thundering Shuriken.",
+    "[0] Do not push far to the enemy tower as Kennen can Lightning Rush through waves and towards you, therefore creating a trap.",
+    "[0] Always wait from safety if you are marked by Mark of the Storm.",
+    "[0] When in teamfights, remain swift and scattered to avoid his Slicing Maelstrom.",
+    "[1] Keep your distance from his (E). Keep in mind that he can close in using Ghost when (E) is on cooldown.",
+    "[2] Si Kenen fait une erreur spacing, je peux l'attaquer maintenant puis qu'il a pas de E.",
+    "[2] Je me mets bien derrière les CS pour pas prendre de",
+    "[2] Et il y a un monde où il envoie un E dans la wave et du coup je peux le choper en sortie de E.",
+    "[2] Tu donnes aucune opportunité de te mettre un Q ou quoi."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "eDU8zbEAckU",
+      "channel": "WoitlanDunk ",
+      "result": "écarté : Darius vs Kennen 2025-12-03, sous-titres lus mais surtout bavardage, aucun conseil de counterplay exploitable"
+    },
+    {
+      "id": "fTUvJ0NJKwM",
+      "channel": "Vallheim • League of Legends",
+      "result": "écarté : Jax vs Kennen 2026-07-21, sous-titres lus, discussion chat, pas de conseil précis contre Kennen"
+    },
+    {
+      "id": "xmDjN8Kdi_U",
+      "channel": "Gaëthan - VOD ",
+      "result": "écarté : Sylas vs Kennen 2026-09-24, sous-titres lus, rien sur le counterplay de Kennen"
+    },
+    {
+      "id": "JhFKECTQO4w",
+      "channel": "Strey VOD - League of Legends",
+      "result": "utilisé (langue fr, 2026-10-29, passages 2:13, 6:47, 8:41) : punir sans E, rester derrière les sbires"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Kennen/Strategy",
+      "result": "ok (page d'archive, éditée 2024-12-16 : traitée comme mécaniques seulement)"
+    },
+    {
+      "url": "https://www.op.gg/champions/kennen/counters",
+      "result": "ok (1 conseil écrit contre Kennen, sans date : mécaniques seulement)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-kennen/",
+      "result": "refused (404)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Ne pas surpousser : E traverse la wave avec vitesse et pose une marque, garder la distance",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E : traverse les unités, vitesse de déplacement, applique Marque de tempête)"
+    },
+    {
+      "idea": "3 marques = stun ; marqué, jouer safe",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif : stun après 3 marques)"
+    },
+    {
+      "idea": "Rester derrière les sbires contre le A",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (A : dégâts au premier ennemi touché)"
+    },
+    {
+      "idea": "E seule mobilité, punir pendant le CD",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E CD 10/9/8/7/6, aucun autre sort de déplacement dans le kit)"
+    },
+    {
+      "idea": "Teamfight : s'écarter du R, dégâts croissants",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R : frappe les champions proches, +dégâts par coup déjà subi)"
+    },
+    {
+      "idea": "Jouer avec du CC dur / l'aide des alliés",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: vague, non vérifiable"
+    },
+    {
+      "idea": "Ne pas rester près de sa tour face à un Kennen fort",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil lane, 1 seule source ancienne"
+    },
+    {
+      "idea": "Portée d'attaque 550 médiocre pour réduire l'écart",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 550 n'est pas une faible portée pour un toplaner, conseil trompeur"
+    },
+    {
+      "idea": "Kennen se rapproche au Fantôme quand le E est en CD",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: sort d'invocateur, non vérifiable en DDragon"
+    },
+    {
+      "idea": "Concéder les CS risqués en restant dans la range d'XP, loin de Kennen",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: conseil lane, 1 seule source"
+    },
+    {
+      "idea": "Si Kennen auto au milieu de ta wave, il prend les dégâts des sbires",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: conseil lane, 1 seule source (point de vue mêlée)"
+    }
+  ]
+}

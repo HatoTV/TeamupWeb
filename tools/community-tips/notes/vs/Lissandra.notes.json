@@ -1,0 +1,142 @@
+{
+  "searches": 3,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] We're going to go kill level one try to bait out his Q.",
+    "[0] anytime you can get a Q off on Lissandra without taking damage back is ideal.",
+    "[0] And you basically never just want to get hit by his W because if you do you're going to lose the trade.",
+    "[0] Okay, he used his W for last hit. This is uh an angle now for me.",
+    "[0] But as you can see he's getting very low on the mana so far. Beautiful way to bait out his Q and dodge it to get the last hit with E.",
+    "[0] And just force this guy to stay in the lane because now he's very weak without mana. Just looking to bait out his Q there ideally with my E1 just to waste even more of his mana.",
+    "[1] Lissandra's Ring of Frost has a long cooldown at early ranks; engage her while it's on cooldown.",
+    "[1] The best way to stop Lissandra from moving using her Glacial Path is to immobilize her before she reactivates it.",
+    "[1] She can mostly outpoke them with Ice Shard & Negate their burst combo with Frozen Tomb.",
+    "[1] Lissandra's Ice Shard only slows the first unit it hits.",
+    "[1] Approach Lissandra from behind your team's minions to avoid being slowed.",
+    "[0] With no ult, I'm going to go on the Lissandra here.",
+    "[0] this Lissandra didn't have ult, right? So, I knew that this was just a sitting duck for me.",
+    "[2] Lissandra match up specifically very important to know like the exact cool down of her R.",
+    "[2] Yeah, our ultis will probably be up the same time. If I could burst her before then that'd be great."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "iN5cCdnmNlk",
+      "channel": "Kunain",
+      "result": "utilisé (passages 0:03-2:10, 7:02) : Akali GM vs Lissandra, voix anglaise (en-orig), 2026-07-23"
+    },
+    {
+      "id": "ebbO-FbkqbA",
+      "channel": "Davemon",
+      "result": "utilisé (passages 4:37-5:36) ; Qiyana vs Lissandra, 2026-09-20"
+    },
+    {
+      "id": "vFrfbYYLYj0",
+      "channel": "ACEE1",
+      "result": "écarté : surtout du stream sans conseil exploitable contre Lissandra"
+    },
+    {
+      "id": "kk_ap1x8AiE",
+      "channel": "JEAFlashSword",
+      "result": "écarté : aucun sous-titre en-orig (compté dans le cap de 4)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Lissandra/LoL/Strategy",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://leaguefeed.net/how-to-counter-lissandra/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Lissandra/Strategy",
+      "result": "ok (Tips, dernière modif 2024-12-16, conseils non datés : traités comme > 2 ans, mécaniques vérifiées seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Trade quand le Cercle de givre (Z) est en CD (10 s au rang 1)",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (CD 10/9.5/9/8.5/8)"
+    },
+    {
+      "idea": "Suivre le CD du R de Lissandra et engager quand il est down",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Ne pas se faire root par le Z, rester hors de sa zone autour d'elle",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (root autour d'elle, portée 450)"
+    },
+    {
+      "idea": "Faire partir son A et l'esquiver pour vider son mana",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (coût 55/60/65/70/75 mana)"
+    },
+    {
+      "idea": "Ne pas gaspiller burst/CC pendant son R sur elle-même",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (stase + soin en auto-cast)"
+    },
+    {
+      "idea": "CC Lissandra avant la réactivation du Chemin glacial (E)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (réactivation = téléportation à la griffe pendant son trajet)"
+    },
+    {
+      "idea": "Son A ne ralentit que la première cible, s'approcher derrière ses sbires",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: contredit par DDragon 16.22 (les éclats touchent et ralentissent aussi les ennemis derrière)"
+    },
+    {
+      "idea": "Punir ses roams en prenant les plates mid",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: conseil lane/macro, 1 seule source"
+    },
+    {
+      "idea": "Engager quand Lissandra a utilisé son E (plus de fuite)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Plonger Lissandra avant son lvl 6",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    }
+  ]
+}

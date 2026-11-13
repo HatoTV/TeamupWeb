@@ -1,0 +1,119 @@
+{
+  "searches": 4,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] Ryze is especially dangerous to opponents that are marked with Flux.",
+    "[0] Use Realm Warp's windup time to figure out how to deal with what may be coming out of the portal.",
+    "[0] Crowd controlling Ryze during Realm Warp's windup will cancel the portal.",
+    "[0] Ryze has a relatively short range for a mage so long range champions like Varus or Lux can harass him with less risk.",
+    "[0] However, these champions still need to be wary of Overload when used on a Spell Fluxed minion wave.",
+    "[1] Now, when a target is marked, they take extra damage from Q or they get rooted by W.",
+    "[1] if you E them, and I'm going to get the E in a sec, they will be rooted.",
+    "[1] you can actually mark all these targets and then your Q will bounce to everything along the line, which makes it really useful for harassing.",
+    "[1] The big thing is range. like playing against um a lot of the longer range mages, especially ones with CC",
+    "[1] So first off, the lack of range can make team fighting very hard.",
+    "[1] Is important to note that it is cancelled by CC. So, if Rise becomes immobilizer or disabled, the portal is canceled."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "_oCCbxBtDvM",
+      "channel": "ACEE1",
+      "result": "écarté : sous-titres en-orig lus (recherche), Ryze jamais nommé, aucun conseil contre Ryze (titre trompeur)"
+    },
+    {
+      "id": "JnS-Sd44vkY",
+      "channel": "Raiko - League of Legends",
+      "result": "écarté : sous-titres fr lus, presque pas de commentaire, aucun conseil contre Ryze"
+    },
+    {
+      "id": "8xmqRg9pIbA",
+      "channel": "Shok",
+      "result": "utilisé (passages 2:15, 18:36-19:22, 20:23, 42:27) ; guide Ryze complet, voix EN, 2026-10-06"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Ryze/Strategy",
+      "result": "ok"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/ryze/",
+      "result": "no-advice"
+    },
+    {
+      "url": "https://op.gg/lol/champions/ryze/counters",
+      "result": "no-tips (conseils pour jouer Ryze seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Flux envoûtant (E) : la Prison runique (Z) root au lieu de ralentir",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W root si Flux)"
+    },
+    {
+      "idea": "Le Flux se propage sur la wave et le Court-circuit (A) rebondit : ne pas coller une wave marquée",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E propage le Flux, Q rebondit sur les cibles avec Flux)"
+    },
+    {
+      "idea": "Portée courte de Ryze (Z et E à 615) : le poke à longue portée",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (portée 615 de W/E), formulé en mechanics"
+    },
+    {
+      "idea": "Délai de chargement du Portail transdimensionnel (R) pour réagir",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (téléportation après quelques secondes)"
+    },
+    {
+      "idea": "CC Ryze pendant le chargement du R annule le portail",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 2 sources mais annulation par CC non vérifiable dans Data Dragon"
+    },
+    {
+      "idea": "Ryze doit rester immobile pour lancer ses sorts : plus facile à CC",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Ryze est un champion d early qui cherche à snowball, gestion de mana en lane",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    },
+    {
+      "idea": "Les cannon waves sont une grosse fenêtre de trade pour Ryze (rebonds)",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: lane, 1 seule source"
+    }
+  ]
+}

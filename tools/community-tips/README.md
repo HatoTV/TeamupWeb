@@ -2,6 +2,16 @@
 
 Synthèse TeamUpp, par couple de champions, de ce que disent les joueurs (guides, vidéos, discussions), réécrite sans copie et vérifiée avec Data Dragon. Méthode complète : `docs/refonte/PROMPT_TIPS_COMMUNAUTE.md`.
 
+## Statut : production close (2026-11-13)
+
+La production par lots est terminée : 154 couples recherchés, dont 124 publiés et 30 en sources insuffisantes après le nettoyage du 2026-11-13 ; les 31 couples restants de la file sont classés `insufficientSources` sans recherche (61 au total dans `progress.json`). On ne relance une recherche que dans trois cas :
+
+- **rework** d'un champion (fichier en `needsRecheck`, issue « Rework détecté ») ;
+- **nouveau champion** ;
+- **nouvelles chaînes** à ajouter dans `channels.json`, qui justifient de reprendre les couples qu'elles couvrent.
+
+Nettoyage du 2026-11-13 (détail par couple dans `notes/*.notes.json`, champ `cleanup`) : règle des 3 couples par vidéo appliquée rétroactivement (sd4t6Hh5V38, a9QyG_fjnII, dFEJushm5Cc, D7DemQewZqM gardées pour leurs 3 couples les plus pertinents), tips repassés sous le consensus retirés, côtés aux conseils uniquement génériques masqués, counterstats en liste noire.
+
 ## Commandes
 
 ```sh
@@ -21,7 +31,7 @@ npm run tips:check                                         # depuis la racine : 
 - `notes/{A}__{B}.notes.json` (non publié) : recherches, pages tentées, idées gardées / retirées, phrases des sources pour le contrôle anti-copie.
 - `progress.json` : couples faits, en cours, sources insuffisantes.
 - `channels.json` : chaînes YouTube de guides commentés (consultées en premier) et chaînes exclues (replays, vidéos traduites ; contrôlé).
-- `sites.json` : sites qui s'ouvrent bien ou bloquent la lecture, et `blacklist` : sites jamais acceptés comme source (contrôlé).
+- `sites.json` : sites qui s'ouvrent bien ou bloquent la lecture, et `blacklist` : sites refusés comme source à partir de leur date `since` (contrôlé : une source consultée à cette date ou après fait échouer `tips:check`). counterstats y est depuis le 2026-11-13 ; ses sources plus anciennes restent dans les couples publiés.
 
 ## Méthode des lots (validée le 2026-11-12)
 
@@ -34,9 +44,9 @@ npm run tips:check                                         # depuis la racine : 
 3. Cherche d'abord dans les sous-titres (noms de sorts, « level 6 », « trade », « all-in », « gank »), sans lettre seule comme mot-clé, puis lis seulement les passages utiles.
 4. **Web en complément**, seulement pour un point de vue qui a moins de 3 tips après les vidéos.
 5. Une vidéo = une source. Dans `sources`, ajoute `channel`, `publishedAt` et les `timestamps` des passages utilisés. Les noms de sorts entendus dans les sous-titres sont vérifiés dans Data Dragon avant usage.
-6. **Une même vidéo sert de source à 3 couples au maximum** (usages déjà publiés compris). Les vidéos We Teach League (Broken By Concept et ses extraits « Highlights & Clips ») comptent pour une seule source par couple.
+6. **Une même vidéo sert de source à 3 couples au maximum** (usages déjà publiés compris ; appliqué rétroactivement le 2026-11-13 : la vidéo reste sur les 3 couples où elle est la plus pertinente, ailleurs elle est retirée et un tip n'est gardé que s'il respecte encore le consensus). Les vidéos We Teach League (Broken By Concept et ses extraits « Highlights & Clips ») comptent pour une seule source par couple.
 7. **Une source de plus de 2 ans** n'est acceptée que pour une mécanique vérifiée dans Data Dragon. Sur les pages à commentaires, l'âge se juge par commentaire : counterstats n'affiche pas de date, mais son `data-tip-id` croît avec le temps (≈ 2231700 au patch 14.23, donc < 2232000 = ancien) ; les tips op.gg, sans date ni auteur, comptent comme anciens.
-8. **Un conseil générique** (valable contre n'importe quel adversaire) n'est gardé que s'il reste moins de 3 tips propres au couple.
+8. **Un conseil générique** (valable contre n'importe quel adversaire) n'est gardé que s'il reste moins de 3 tips propres au couple. Un côté qui n'a que des conseils génériques n'est pas affiché (ses tips sont retirés).
 9. **File** : la jungle passe en fin de file, sauf les couples Lee Sin couverts par Coach Kirei.
 10. Un point de vue avec moins de 2 tips n'est pas affiché : le site indique « Pas encore assez de sources pour jouer {champion} dans ce matchup » et propose l'autre côté.
 

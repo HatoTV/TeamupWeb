@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12",
-  "note": "Pages tentées pendant la recherche. ok = contenu lisible ; stats-only / no-advice = lisible mais pas une source de tip. blacklist = sites interdits comme source (contrôlé par tips:check).",
+  "updatedAt": "2026-11-13",
+  "note": "Pages tentées pendant la recherche. ok = contenu lisible ; stats-only / no-advice = lisible mais pas une source de tip. blacklist = sites interdits comme source à partir de « since » (contrôlé par tips:check : une source de ces sites consultée à cette date ou après est refusée).",
   "blacklist": {
     "matchupcoach.gg": {
       "since": "2026-11-12",
@@ -13,6 +13,10 @@
     "turbosmurfs.gg": {
       "since": "2026-11-12",
       "reason": "Erreurs factuelles constatées. Jamais une source."
+    },
+    "counterstats.net": {
+      "since": "2026-11-13",
+      "reason": "Commentaires sans date ni auteur (âge déduit du data-tip-id), souvent anciens ou génériques, et lecture très coûteuse. Plus jamais une source à partir de cette date ; les sources consultées avant restent dans les couples déjà publiés."
     }
   },
   "sites": {

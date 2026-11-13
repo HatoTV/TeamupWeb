@@ -78,9 +78,7 @@
     },
     {
       "idea": "Rell : la Frappe dislocatrice (A) détruit le bouclier du Son ambiophonique (Z)",
-      "sourceIdx": [
-        1
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source (générale, enchanteurs) + DDragon (Q détruit tous les boucliers, W de Seraphine donne un bouclier)"
     },
@@ -108,9 +106,7 @@
     },
     {
       "idea": "Seraphine : ne pas compter sur le bouclier du Z, la Frappe dislocatrice (A) le détruit",
-      "sourceIdx": [
-        1
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon"
     },
@@ -135,6 +131,17 @@
       ],
       "kept": false,
       "reason": "avis de difficulté, pas un conseil"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=dFEJushm5Cc (Coach K), vidéo limitée à 3 couples (Lulu__Rell, Rell__Sona, Lux__Rell)",
+        "tip retiré (Rell, 0 source restante, mechanics, vérifié) : Ta Frappe dislocatrice (A) détruit les boucliers : sers-t'en pour effacer celui que son Son ambiophonique (Z) donne à son ADC.",
+        "tip retiré (Seraphine, 0 source restante, mechanics, vérifié) : Ne compte pas sur ton Son ambiophonique (Z) pour encaisser son engage : sa Frappe dislocatrice (A) détruit tous les boucliers.",
+        "statut ok → insufficientSources (plus aucun tip ou moins de 2 sources)"
+      ]
     }
   ]
 }

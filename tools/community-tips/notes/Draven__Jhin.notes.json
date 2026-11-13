@@ -52,8 +52,7 @@
     {
       "idea": "Draven : Jhin fort en trade court, faible en combat long, forcer les échanges longs",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources"
@@ -61,8 +60,8 @@
     {
       "idea": "Draven : engager avec la Division (E) pendant le rechargement de Jhin",
       "sourceIdx": [
-        1,
-        2
+        0,
+        1
       ],
       "kept": true,
       "reason": "2 sources + DDragon (Murmure : 4 balles puis rechargement ; E repousse et ralentit)"
@@ -70,7 +69,7 @@
     {
       "idea": "Draven : la Grenade dansante rebondit sur les sbires",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon (Q rebondit vers un ennemi proche)"
@@ -78,8 +77,7 @@
     {
       "idea": "Jhin : trades courts autour de la 4e balle, éviter le combat long",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources + DDragon (4e balle critique)"
@@ -87,7 +85,7 @@
     {
       "idea": "Jhin : rester hors de portée de la Division (E)",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": true,
       "reason": "1 source + DDragon (E : repousse, ralentit)"
@@ -95,7 +93,7 @@
     {
       "idea": "Draven : garder la wave de son côté, Jhin n'ose plus avancer",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": false,
       "reason": "lane, 1 seule source"
@@ -103,19 +101,25 @@
     {
       "idea": "Draven : Jhin nettoie la wave avec sa Grenade et joue pour les ganks, suivre son jungler",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": false,
       "reason": "macro, 1 seule source"
     },
     {
       "idea": "Jhin : Draven dépend de son support ; tu perdras parfois le push, cède du terrain",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "lane, 1 seule source (et la VOD de Danman montre un Draven qui gagne sans support d'engage)"
     }
   ],
-  "retroFix2026_11_12": "les vidéos We Teach League (BBC + Highlights & Clips) comptent pour une seule source : tips recomptés ou retirés."
+  "retroFix2026_11_12": "les vidéos We Teach League (BBC + Highlights & Clips) comptent pour une seule source : tips recomptés ou retirés.",
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=sd4t6Hh5V38 (We Teach League Highlights & Clips), vidéo limitée à 3 couples (Jhin__Lucian, Caitlyn__Jhin, Jhin__Xayah)"
+      ]
+    }
+  ]
 }

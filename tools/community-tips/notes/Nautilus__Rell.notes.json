@@ -50,8 +50,7 @@
     {
       "idea": "Nautilus : garder le hook pour le saut de Rell (contre-engage)",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources (Coach Global côté Nautilus ; ColsENG : si Nautilus engage, Rell ré-engage et gagne) + DDragon (Z de Rell = saut, A de Nautilus = attraction)"
@@ -59,24 +58,21 @@
     {
       "idea": "Rell : laisser Nautilus engager puis répondre",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources + DDragon"
     },
     {
       "idea": "A de Rell détruit le bouclier de la Colère du titan (deux côtés)",
-      "sourceIdx": [
-        2
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source (Coach K : le A brise les boucliers) + DDragon (« destroying all Shields » ; Z de Nautilus = bouclier)"
     },
     {
       "idea": "Nautilus : jouer près de sa tour pour gêner l'engage de Rell et ouvrir des angles de gank",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": false,
       "reason": "1 seule source (lane)"
@@ -84,18 +80,30 @@
     {
       "idea": "Nautilus : patience quand Rell n'a plus de Flash",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": false,
       "reason": "1 seule source, passage confus"
     },
     {
       "idea": "Rell gagne la plupart des trades contre Nautilus",
-      "sourceIdx": [
-        2
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "lié à une rune (Aftershock), interdit"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=dFEJushm5Cc (Coach K), vidéo limitée à 3 couples (Lulu__Rell, Rell__Sona, Lux__Rell)",
+        "source retirée : https://www.youtube.com/watch?v=a9QyG_fjnII (ColsENG), vidéo limitée à 3 couples (Rell__Seraphine, Rell__Sona, Rell__Thresh)",
+        "tip retiré (Nautilus, 1 source restante, lane, vérifié) : Garde ton Abordage (A) pour le moment où Rell saute avec sa Ferromancie (Z) : contre-engage sur elle au lieu d'ouvrir le combat le premier.",
+        "tip retiré (Nautilus, 0 source restante, mechanics, vérifié) : Sa Frappe dislocatrice (A) détruit les boucliers : contre elle, n'active ta Colère du titan (Z) qu'après avoir vu partir son A.",
+        "tip retiré (Rell, 1 source restante, lane, vérifié) : Laisse Nautilus engager le premier : dès que son Abordage (A) touche toi ou ton ADC, réponds avec ta Ferromancie (Z) et retourne le combat.",
+        "tip retiré (Rell, 0 source restante, mechanics, vérifié) : Ta Frappe dislocatrice (A) détruit les boucliers : lance-la après qu'il a activé sa Colère du titan (Z) pour lui retirer sa protection.",
+        "statut ok → insufficientSources (plus aucun tip ou moins de 2 sources)"
+      ]
     }
   ]
 }

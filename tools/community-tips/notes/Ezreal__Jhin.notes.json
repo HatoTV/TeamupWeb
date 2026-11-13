@@ -56,8 +56,8 @@
     {
       "idea": "Ezreal : distance avec les sbires (rebond de la Grenade dansante)",
       "sourceIdx": [
-        2,
-        4
+        1,
+        3
       ],
       "kept": true,
       "reason": "2 sources + DDragon (rebond vers un ennemi proche non touché)"
@@ -65,8 +65,8 @@
     {
       "idea": "Ezreal : respecter le 4e tir",
       "sourceIdx": [
-        2,
-        4
+        1,
+        3
       ],
       "kept": true,
       "reason": "2 sources + DDragon (4e balle critique + exécution)"
@@ -74,8 +74,7 @@
     {
       "idea": "Ezreal : ne pas disputer le push, farm et scale",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources (perd le push ; lane calme, farm/scale)"
@@ -83,8 +82,7 @@
     {
       "idea": "Ezreal : l'all-in sur un bon angle est la vraie fenêtre de kill",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources (seul moyen de gagner = all-in ; « s'il y a des angles, vous pouvez tuer »)"
@@ -92,7 +90,7 @@
     {
       "idea": "Ezreal : piège + Floraison mortelle = root, garder le E",
       "sourceIdx": [
-        4
+        3
       ],
       "kept": true,
       "reason": "1 source + DDragon (Z root si la cible a déclenché un piège ; E = blink)"
@@ -100,7 +98,7 @@
     {
       "idea": "Ezreal : poke A puis R ou dive E si sûr",
       "sourceIdx": [
-        4
+        3
       ],
       "kept": false,
       "reason": "trop vague, 1 seule source"
@@ -108,8 +106,7 @@
     {
       "idea": "Jhin : son seul plan est l'all-in, root-le quand il plonge",
       "sourceIdx": [
-        0,
-        4
+        3
       ],
       "kept": true,
       "reason": "2 sources + DDragon (Z root si Jhin lui a infligé des dégâts récemment)"
@@ -117,8 +114,7 @@
     {
       "idea": "Jhin : garder la priorité, push sous tour, il vide sa mana",
       "sourceIdx": [
-        0,
-        4
+        3
       ],
       "kept": true,
       "reason": "2 sources (Ezreal perd le push ; « he has really good push »)"
@@ -126,10 +122,21 @@
     {
       "idea": "Jhin : se cacher derrière les sbires contre le Tir mystique",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": true,
       "reason": "1 source + DDragon (A touche le premier ennemi)"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=sd4t6Hh5V38 (We Teach League Highlights & Clips), vidéo limitée à 3 couples (Jhin__Lucian, Caitlyn__Jhin, Jhin__Xayah)",
+        "tip retiré (Ezreal, 1 source restante, lane) : Il gagne facilement la bataille de push : ne la dispute pas, farm proprement et joue ton scaling, la lane reste souvent calme.",
+        "tip retiré (Ezreal, 1 source restante, lane) : Ta vraie chance de kill, c'est l'all-in : guette un bon angle plutôt que d'échanger des sorts sans fin sous sa pression.",
+        "tip retiré (Jhin, 1 source restante, lane) : Garde la priorité et push-le sous sa tour : il doit dépenser sa mana sur la wave et finit par ne plus pouvoir tenir la lane."
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
 // - zod schema (8 tips max per perspective), index.json in sync with the files;
 // - display order: sources read (desc), verified in game data first, then lane / mechanics / macro;
 // - consensus: lane / macro tips need 2 sources read, mechanics 2, or 1 when verified in Data Dragon;
-//   an `ok` matchup lists at least 2 sources, none from a blacklisted site (sites.json)
+//   an `ok` matchup lists at least 2 sources, none from a site blacklisted on its consultation date (sites.json)
 //   or an excluded YouTube channel (channels.json);
 // - FR / EN parity (same ideas, same order, same source counts and categories);
 // - at most 30 words per tip, no QWERTY key in French, gender agreement of the glossary terms;
@@ -31,7 +31,8 @@ const glossary = JSON.parse(readFileSync(GLOSSARY_FILE, 'utf8')) as {
 };
 const genders = parseGenders(readFileSync(GLOSSARY_MD, 'utf8'));
 if (genders.size === 0) fail('glossaire-lol-fr.md', 'gender table (section 8) not found');
-const blacklist = Object.keys((JSON.parse(readFileSync(SITES_FILE, 'utf8')) as { blacklist?: Record<string, unknown> }).blacklist ?? {});
+// Blacklisted sites: refused as a source when consulted on or after their `since` date.
+const blacklist = Object.entries((JSON.parse(readFileSync(SITES_FILE, 'utf8')) as { blacklist?: Record<string, { since: string }> }).blacklist ?? {});
 const channels = JSON.parse(readFileSync(CHANNELS_FILE, 'utf8')) as {
   guides?: Record<string, { titleMustInclude?: string }>;
   excluded?: Record<string, unknown>;
@@ -78,7 +79,8 @@ function sharedRun(tip: string, source: string): boolean {
 }
 
 const hostOf = (url: string) => new URL(url).hostname.replace(/^www\./, '');
-const isBlacklisted = (url: string) => blacklist.some((site) => hostOf(url) === site || hostOf(url).endsWith(`.${site}`));
+const isBlacklisted = (url: string, consultedAt: string) =>
+  blacklist.some(([site, { since }]) => (hostOf(url) === site || hostOf(url).endsWith(`.${site}`)) && consultedAt >= since);
 
 const index = readIndex();
 const files = existsSync(DATA_DIR) ? readdirSync(DATA_DIR).filter((f) => f.endsWith('.json') && f !== 'index.json') : [];
@@ -103,7 +105,7 @@ for (const name of files) {
 
   const urls = file.sources.map((s) => s.url);
   if (new Set(urls).size !== urls.length) fail(name, 'duplicate source URL');
-  for (const url of urls) if (isBlacklisted(url)) fail(name, `blacklisted source ${hostOf(url)} (sites.json)`);
+  for (const { url, consultedAt } of file.sources) if (isBlacklisted(url, consultedAt)) fail(name, `blacklisted source ${hostOf(url)} (sites.json)`);
   for (const { channel, title } of file.sources) {
     if (!channel) continue;
     if (isExcludedChannel(channel)) fail(name, `excluded channel "${channel}" (channels.json)`);

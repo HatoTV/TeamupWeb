@@ -61,8 +61,8 @@
       "idea": "Rell : le Fauchage de Thresh coupe Descendre en piqué, engager pendant son CD",
       "sourceIdx": [
         0,
-        3,
-        4
+        2,
+        3
       ],
       "kept": true,
       "reason": "3 sources + DDragon (Fauchage repousse, CD 13 s au rang 1)"
@@ -70,8 +70,7 @@
     {
       "idea": "Rell : ne pas forcer, Rell apporte plus que Thresh après la lane",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources"
@@ -79,7 +78,7 @@
     {
       "idea": "Rell : Lien des ténèbres sauve l'ADC engagé",
       "sourceIdx": [
-        4
+        3
       ],
       "kept": true,
       "reason": "1 source + DDragon (les alliés cliquent sur la lanterne pour rejoindre Thresh)"
@@ -94,8 +93,8 @@
       "idea": "Thresh : garder Fauchage pour Descendre en piqué",
       "sourceIdx": [
         0,
-        3,
-        4
+        2,
+        3
       ],
       "kept": true,
       "reason": "3 sources + DDragon (Fauchage repousse)"
@@ -103,8 +102,8 @@
     {
       "idea": "Thresh : aucune mobilité, ne pas se faire attraper, kite",
       "sourceIdx": [
-        2,
-        3
+        1,
+        2
       ],
       "kept": true,
       "reason": "2 sources"
@@ -112,7 +111,7 @@
     {
       "idea": "Thresh : Rell ralentie à pied, cible facile pour Peine capitale",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": true,
       "reason": "1 source + DDragon (Rell ralentie une fois à pied)"
@@ -120,7 +119,7 @@
     {
       "idea": "Thresh : lanterne à l'ADC si Rell engage mal",
       "sourceIdx": [
-        4
+        3
       ],
       "kept": true,
       "reason": "1 source + DDragon"
@@ -128,8 +127,7 @@
     {
       "idea": "Thresh : prendre l'avance en lane, Rell scale mieux en teamfight",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources"
@@ -137,7 +135,7 @@
     {
       "idea": "Thresh : surpasser Rell en 2v2 si elle attrape quelqu'un",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": false,
       "reason": "1 seule source, lane, et liée à des runes"
@@ -145,10 +143,20 @@
     {
       "idea": "Thresh : son Q retarde l'engage de Rell",
       "sourceIdx": [
-        4
+        3
       ],
       "kept": false,
       "reason": "1 source, flou"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=dFEJushm5Cc (Coach K), vidéo limitée à 3 couples (Lulu__Rell, Rell__Sona, Lux__Rell)",
+        "tip retiré (Rell, 1 source restante, macro) : Ne force pas une lane neutre : passé la phase de lane, tu pèses bien plus que Thresh dans les teamfights.",
+        "tip retiré (Thresh, 1 source restante, macro) : Prends ton avance pendant la lane : ensuite, Rell apporte plus que toi en teamfight."
+      ]
     }
   ]
 }

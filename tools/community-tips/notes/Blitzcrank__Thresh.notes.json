@@ -164,5 +164,13 @@
       "reason": "1 seule source, macro"
     }
   ],
-  "audit2ans": "Règle des 2 ans (audit 2026-11-12). counterstats : âge par commentaire via data-tip-id (ids croissants, calés sur les titres de guides datés : ~2231700 = guides 14.23, novembre 2024) ; tip-id < 2232000 = plus de 2 ans. Page Blitzcrank [3] (guides Thresh) : seul BologNezhs (2025) est récent et ne dit pas « Thresh fragile, un grab le tue ». Recompte : Thresh « fragile, sans fuite » 4 → 3. Tips mécaniques de [3] gardés (vérifiés DDragon)."
+  "audit2ans": "Règle des 2 ans (audit 2026-11-12). counterstats : âge par commentaire via data-tip-id (ids croissants, calés sur les titres de guides datés : ~2231700 = guides 14.23, novembre 2024) ; tip-id < 2232000 = plus de 2 ans. Page Blitzcrank [3] (guides Thresh) : seul BologNezhs (2025) est récent et ne dit pas « Thresh fragile, un grab le tue ». Recompte : Thresh « fragile, sans fuite » 4 → 3. Tips mécaniques de [3] gardés (vérifiés DDragon).",
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "côté Blitzcrank masqué, conseils génériques retirés : Thresh est fragile et n'a aucun moyen de fuir seul : un Grappin propulsé (A) suivi de ton combo et du burst de ton ADC suffit souvent à le tuer. | Quand Thresh rate sa Peine capitale (A), avance et punis-le : son CD est long en début de partie. | Ne te place pas trop près de Thresh sans raison : son Fauchage (E) te repousse dans la direction de son coup."
+      ]
+    }
+  ]
 }

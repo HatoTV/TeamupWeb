@@ -50,16 +50,14 @@
   "ideas": [
     {
       "idea": "Jhin : à partir du lvl 5-6 (support avec ses sorts), l'all-in R de Kai'Sa te tue",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (R : se téléporte près d'un champion affecté par la Plasma)"
     },
     {
       "idea": "Jhin : esquiver le Rayon du Néant (Z)",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": true,
       "reason": "1 source + DDragon (Z marque de Plasma, portée 3000 ; le R exige la Plasma)"
@@ -67,40 +65,35 @@
     {
       "idea": "Jhin : ne pas prendre la Pluie d'Icathia seul",
       "sourceIdx": [
-        1
+        0
       ],
       "kept": true,
       "reason": "1 source + DDragon (missiles répartis entre les ennemis proches)"
     },
     {
       "idea": "Jhin : lvl 1 à 3 jouables pour toi",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "lane, 1 seule source (les autres vidéos Kai'Sa étaient inutilisables)"
     },
     {
       "idea": "Kai'Sa : jouer autour du CC du support",
       "sourceIdx": [
-        0,
-        2
+        1
       ],
       "kept": true,
       "reason": "2 sources + DDragon (les immobilisations alliées chargent la Plasma)"
     },
     {
       "idea": "Kai'Sa : all-in R au lvl 6",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (R sur cible marquée de Plasma ; Jhin sans dash)"
     },
     {
       "idea": "Kai'Sa : attention au rebond de la Grenade dansante sur les sbires",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon (rebondit vers un ennemi proche, bonus de dégâts par kill)"
@@ -108,10 +101,20 @@
     {
       "idea": "Kai'Sa : respecter le 4e tir",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon (4e balle : critique + dégâts d'exécution)"
+    }
+  ],
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=sd4t6Hh5V38 (We Teach League Highlights & Clips), vidéo limitée à 3 couples (Jhin__Lucian, Caitlyn__Jhin, Jhin__Xayah)",
+        "tip retiré (Jhin, 0 source restante, mechanics, vérifié) : Dès le lvl 6, elle peut fondre sur toi avec son Instinct meurtrier (R) si tu portes sa marque de Plasma. Recule, surtout si son support a de l'engage.",
+        "tip retiré (Kaisa, 0 source restante, mechanics, vérifié) : Ton vrai pic, c'est le lvl 6 : marque-le de Plasma puis saute-lui dessus avec ton Instinct meurtrier (R), il n'a aucun dash pour fuir."
+      ]
     }
   ]
 }

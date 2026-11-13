@@ -54,9 +54,8 @@
     {
       "idea": "Jhin et MF : la lane se joue sur les rebonds de A",
       "sourceIdx": [
-        0,
-        3,
-        4
+        2,
+        3
       ],
       "kept": true,
       "reason": "2 sources par côté + DDragon (Doublé touche la cible derrière, Grenade rebondit)"
@@ -64,7 +63,7 @@
     {
       "idea": "Jhin : sortir de la Pluie de balles (ralentissement, pas de dash)",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": true,
       "reason": "1 source + DDragon (E ralentit)"
@@ -72,7 +71,7 @@
     {
       "idea": "Jhin : ne pas foncer dans le cône de l'ult de MF",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon (R canalisé en cône)"
@@ -80,8 +79,8 @@
     {
       "idea": "MF : reculer quand Jhin passe lvl 6 et qu'on est basse",
       "sourceIdx": [
-        1,
-        2
+        0,
+        1
       ],
       "kept": true,
       "reason": "2 sources + DDragon (dégâts du R selon PV manquants)"
@@ -89,8 +88,8 @@
     {
       "idea": "MF : se méfier de la 4e balle",
       "sourceIdx": [
-        2,
-        4
+        1,
+        3
       ],
       "kept": true,
       "reason": "2 sources + DDragon (4e balle critique + dégâts d’exécution)"
@@ -98,27 +97,33 @@
     {
       "idea": "MF : avancer pendant le rechargement de Jhin",
       "sourceIdx": [
-        4
+        3
       ],
       "kept": true,
       "reason": "1 source + DDragon (4 balles seulement) ; sort de Twitch cité par op.gg retiré"
     },
     {
       "idea": "Les deux : bons en trade court, mauvais en trade long",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "1 seule source pour ce couple (le chapitre MF de [2] parle de MF en général)"
     },
     {
       "idea": "MF plus facile à jouer que Jhin",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "pas un conseil de jeu"
     }
   ],
-  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12"
+  "method": "youtube-subtitles (hato-clips), lot 5 2026-11-12",
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=sd4t6Hh5V38 (We Teach League Highlights & Clips), vidéo limitée à 3 couples (Jhin__Lucian, Caitlyn__Jhin, Jhin__Xayah)",
+        "tip retiré (Jhin, 1 source restante, lane, vérifié) : La lane se joue sur les A : ne reste pas derrière un sbire bas, son Doublé (A) rebondirait sur toi, et poke-la avec ta Grenade dansante (A).",
+        "tip retiré (MissFortune, 1 source restante, lane, vérifié) : La lane se joue sur les A : fais rebondir ton Doublé (A) sur lui via un sbire et reste hors des rebonds de sa Grenade dansante (A)."
+      ]
+    }
+  ]
 }

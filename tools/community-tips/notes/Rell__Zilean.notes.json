@@ -48,25 +48,19 @@
   "ideas": [
     {
       "idea": "Zilean : double bombe sur le point de chute du Z de Rell ou sur Rell à pied",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (Q : 2e bombe = stun ; Rell à pied ralentie)"
     },
     {
       "idea": "Zilean : ralentir Rell montée avec E",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (E ralentit un ennemi)"
     },
     {
       "idea": "Zilean : R sur l'allié attrapé, Rell reste sans sorts",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (R ressuscite l'allié qui subirait des dégâts mortels)"
     },
@@ -83,5 +77,13 @@
       "reason": "seulement sur agatasmurf.com (contenu générique), non retenu comme source"
     }
   ],
-  "review": "Relecture : 3 tips Zilean (1 source ColsENG 2023 + DDragon) retirés, un matchup ok demande 2 sources. Plafond de 4 vidéos atteint."
+  "review": "Relecture : 3 tips Zilean (1 source ColsENG 2023 + DDragon) retirés, un matchup ok demande 2 sources. Plafond de 4 vidéos atteint.",
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=a9QyG_fjnII (ColsENG), vidéo limitée à 3 couples (Rell__Seraphine, Rell__Sona, Rell__Thresh)"
+      ]
+    }
+  ]
 }

@@ -51,24 +51,21 @@
     {
       "idea": "Jhin : clear vite la wave pour empêcher Varus d'abuser en early, puis poke",
       "sourceIdx": [
-        0,
-        1
+        0
       ],
       "kept": true,
       "reason": "2 sources (Varus « comme les hyper carries » : push + poke ; Booshi : le clear de Jhin gêne Varus) + DDragon (Q jusqu'à 4 cibles)"
     },
     {
       "idea": "Jhin : Varus immobile, à mi-vie le R le finit",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": true,
       "reason": "1 source + DDragon (aucun dash dans le kit de Varus ; R de Jhin = dégâts d'exécution)"
     },
     {
       "idea": "Jhin : esquiver la Flèche perforante chargée",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": true,
       "reason": "1 source + DDragon (Q gagne portée et dégâts en chargeant)"
@@ -76,24 +73,22 @@
     {
       "idea": "Jhin : sortir de la Pluie de flèches (slow + réduction des soins)",
       "sourceIdx": [
-        3
+        2
       ],
       "kept": true,
       "reason": "1 source + DDragon (E ralentit et réduit les soins)"
     },
     {
       "idea": "Jhin : punir Varus faible au lvl 1",
-      "sourceIdx": [
-        0
-      ],
+      "sourceIdx": [],
       "kept": false,
       "reason": "1 source, conseil de lane"
     },
     {
       "idea": "Varus : Jhin faible en duel, aller le chercher",
       "sourceIdx": [
-        1,
-        2
+        0,
+        1
       ],
       "kept": true,
       "reason": "2 sources + DDragon (Jhin sans dash)"
@@ -101,7 +96,7 @@
     {
       "idea": "Varus : sur un slow/CC, R puis combo",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon (R immobilise le premier champion touché)"
@@ -109,7 +104,7 @@
     {
       "idea": "Varus : rebond de la Grenade dansante sur les sbires",
       "sourceIdx": [
-        4
+        3
       ],
       "kept": true,
       "reason": "1 source + DDragon (Q jusqu'à 4 cibles, gagne des dégâts à chaque kill)"
@@ -117,7 +112,7 @@
     {
       "idea": "Varus : respecter la 4e balle",
       "sourceIdx": [
-        4
+        3
       ],
       "kept": true,
       "reason": "1 source + DDragon (4e tir critique + exécution)"
@@ -125,11 +120,21 @@
     {
       "idea": "Varus : esquiver la Floraison mortelle (Flash si besoin)",
       "sourceIdx": [
-        2
+        1
       ],
       "kept": true,
       "reason": "1 source + DDragon (W immobilise si la cible a été touchée récemment par Jhin ou ses alliés)"
     }
   ],
-  "retroFix2026_11_12": "source(s) 2 retirée(s) : chaîne exclue (Jezu VOD) ou vidéo Booshi hors PRO GUIDE ; les tips qui en dépendaient ont été recomptés ou retirés. Index des sourceSentences inchangés."
+  "retroFix2026_11_12": "source(s) 2 retirée(s) : chaîne exclue (Jezu VOD) ou vidéo Booshi hors PRO GUIDE ; les tips qui en dépendaient ont été recomptés ou retirés. Index des sourceSentences inchangés.",
+  "cleanup": [
+    {
+      "date": "2026-11-13",
+      "changes": [
+        "source retirée : https://www.youtube.com/watch?v=sd4t6Hh5V38 (We Teach League Highlights & Clips), vidéo limitée à 3 couples (Jhin__Lucian, Caitlyn__Jhin, Jhin__Xayah)",
+        "tip retiré (Jhin, 1 source restante, lane, vérifié) : Clear vite la wave avec ta Grenade dansante (A), qui touche jusqu'à 4 cibles : Varus ne peut pas t'abuser en early et tu gardes la main pour poke.",
+        "tip retiré (Jhin, 0 source restante, mechanics, vérifié) : Varus n'a aucun dash : une fois qu'il est à mi-vie, ton Rappel de rideau (R) et ses dégâts d'exécution suffisent souvent à le finir."
+      ]
+    }
+  ]
 }

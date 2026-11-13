@@ -1,0 +1,101 @@
+{
+  "champion": "Maokai",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Croissance torturée puis Coup de ronces", "en": "Twisted Advance into Bramble Smash" },
+      "keys": ["E", "W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Jet d'arbrisseau (E) sur la cible, Croissance torturée (Z) pour l'immobiliser, une auto puis Coup de ronces (A) collé à elle : elle est étourdie et repoussée.",
+        "en": "Sapling Toss (E) on the target, Twisted Advance (W) to root them, an auto then Bramble Smash (Q) point blank: they get stunned and knocked back."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Flash derrière puis Coup de ronces", "en": "Flash behind into Bramble Smash" },
+      "keys": ["F", "Q"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Sans Croissance torturée (Z), Flash derrière la cible et lance Coup de ronces (A) : le cercle autour de toi la repousse vers ton équipe.",
+        "en": "Without Twisted Advance (W), Flash behind the target and cast Bramble Smash (Q): the circle around you knocks them toward your team."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Engage ult, Jet, Croissance", "en": "Ult, Sapling, Advance engage" },
+      "keys": ["R", "E", "W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Ouvre avec Emprise de la nature (R), puis Jet d'arbrisseau (E) et Croissance torturée (Z) sur une cible rootée. Finis avec auto et Coup de ronces (A).",
+        "en": "Open with Nature's Grasp (R), then Sapling Toss (E) and Twisted Advance (W) on a rooted target. Finish with an auto and Bramble Smash (Q)."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort lancé, chaque Jet d'arbrisseau (E) qui touche un champion et chaque sort ennemi encaissé retirent 4 s au CD de Sève magique. Spamme tes sorts pour te soigner plus souvent.",
+        "en": "Each spell you cast, each Sapling Toss (E) hitting a champion and each enemy spell you take cut 4 s from Sap Magic's cooldown. Spam spells to heal more often."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "L'auto de Sève magique ne part pas si tu as plus de 95 % de tes PV : garde-la pour après un coup de tour ou un trade.",
+        "en": "Sap Magic's auto doesn't trigger above 95% health: save it for after a turret shot or a trade."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Coup de ronces (A) a deux effets : au loin il ralentit, mais collé à toi il étourdit et repousse. Plus l'ennemi est proche, plus il vole loin.",
+        "en": "Bramble Smash (Q) has two effects: at range it slows, but point blank it stuns and knocks back. The closer the enemy, the farther they fly."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu es inciblable pendant le dash de Croissance torturée (Z) et tu suis la cible si elle bouge. Si elle devient inciblable à ton arrivée, pas de dégâts ni de root.",
+        "en": "You're untargetable during Twisted Advance's (W) dash and you follow the target if it moves. If it turns untargetable as you arrive, no damage and no root."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un arbrisseau lancé dans un buisson est renforcé : il dure plus, révèle et s'accroche à la cible. En lane, un Jet d'arbrisseau (E) dans le buisson force l'ennemi à en sortir.",
+        "en": "A Sapling thrown into a brush is empowered: it lasts longer, reveals and latches onto the target. In lane, a Sapling Toss (E) into the brush forces the enemy out."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Pendant son vol, Jet d'arbrisseau (E) est un projectile : un mur de vent ou le bouclier de Braum l'arrête et l'arbrisseau tombe devant.",
+        "en": "In flight, Sapling Toss (E) is a projectile: a wind wall or Braum's shield stops it and the Sapling lands in front."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Lance Emprise de la nature (R) de côté, au contact de la cible : le mur la touche tout de suite, sans lui laisser le temps de Flash. Le root est court, sa durée dépend de la distance parcourue.",
+        "en": "Cast Nature's Grasp (R) sideways, right next to the target: the wall hits instantly, leaving no time to Flash. The root is short since it scales with distance traveled."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "sources": [
+    { "title": "Maokai – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Maokai", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "GUIDE MAOKAI COMPLET: SORTS, POINTS FORTS, COMBOS & 1 GAME POUR APPRENDRE A SMURF (Ft MAT, GM)", "url": "https://www.youtube.com/watch?v=8pTOWG7iu6Q", "type": "video", "date": "2026-09-25", "author": "iReaz VOD" },
+    { "title": "3 Minute Maokai Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=KRoj6Z8mqlk", "type": "video", "date": "2026-03-11", "author": "3 Minute League of Legends" }
+  ]
+}

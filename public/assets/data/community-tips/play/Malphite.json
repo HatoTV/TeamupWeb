@@ -1,0 +1,103 @@
+{
+  "champion": "Malphite",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Auto puis Coup de tonnerre", "en": "Auto into Thunderclap" },
+      "keys": ["W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Coup de tonnerre (Z) reset ton auto : place une auto, active-le aussitôt et enchaîne une deuxième auto renforcée, avec plus de portée.",
+        "en": "Thunderclap (W) resets your auto: land an auto, activate it right away and follow with a second empowered auto, with extra range."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Trade Éclat, Choc, auto, Tonnerre", "en": "Shard, Slam, auto, Thunderclap trade" },
+      "keys": ["Q", "E", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Éclat sismique (A) pour ralentir et voler de la vitesse, Choc au sol (E) au contact, une auto puis Coup de tonnerre (Z) pour la deuxième. Trade court et rapide en lane.",
+        "en": "Seismic Shard (Q) to slow and steal speed, Ground Slam (E) on contact, an auto then Thunderclap (W) for a second one. A fast short trade in lane."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in Force indomptable", "en": "Unstoppable Force all-in" },
+      "keys": ["R", "W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Force indomptable (R), auto, Coup de tonnerre (Z), Choc au sol (E), puis Éclat sismique (A) le plus tard possible : son slow prend le relais à la fin du knock-up.",
+        "en": "Unstoppable Force (R), auto, Thunderclap (W), Ground Slam (E), then Seismic Shard (Q) as late as possible: its slow takes over when the knock-up ends."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Flash puis Force indomptable", "en": "Flash into Unstoppable Force" },
+      "keys": ["F", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Flash d'abord, puis Force indomptable (R) depuis ta nouvelle position pour surprendre une cible hors de portée. Enchaîne auto, Coup de tonnerre (Z), Choc au sol (E) et Éclat sismique (A).",
+        "en": "Flash first, then Unstoppable Force (R) from your new position to catch a target out of range. Follow with an auto, Thunderclap (W), Ground Slam (E) and Seismic Shard (Q)."
+      },
+      "summoners": { "F": "SummonerFlash" },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Vise Force indomptable (R) au milieu d'un mur : tu arrives de l'autre côté et le dash peut aller jusqu'à deux fois plus vite.",
+        "en": "Aim Unstoppable Force (R) at the middle of a wall: you land on the other side and the dash can go up to twice as fast."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Force indomptable (R) n'a pas de portée minimale : lance-la sur toi pour projeter en l'air les ennemis qui te collent. Pendant le dash, tu es immunisé aux déplacements.",
+        "en": "Unstoppable Force (R) has no minimum range: cast it on yourself to knock up enemies hugging you. During the dash, you are immune to displacement."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Éclat sismique (A) te donne la vitesse que la cible perd. Si elle est déjà ralentie ou résiste aux ralentissements, tu gagnes moins : lance-le avant les autres slows.",
+        "en": "Seismic Shard (Q) gives you the speed the target loses. If they are already slowed or slow-resistant, you gain less: cast it before other slows."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tant que Bouclier de granit est actif, l'armure bonus passive de Coup de tonnerre (Z) est triplée : évite de prendre des dégâts gratuits pour qu'il se recharge.",
+        "en": "While Granite Shield is up, the passive bonus armor from Thunderclap (W) is tripled: avoid free damage so it can come back."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "L'auto renforcée de Coup de tonnerre (Z) ne peut pas être annulée par un déplacement ni par Force indomptable (R), et bloque Éclat sismique (A) et Choc au sol (E) pendant son armement.",
+        "en": "The Thunderclap (W) empowered auto cannot be cancelled by moving or by Unstoppable Force (R), and it blocks Seismic Shard (Q) and Ground Slam (E) during its windup."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Choc au sol (E) réduit la vitesse d'attaque des ennemis touchés pendant 3 s : pose-le dès qu'un champion qui vit de ses autos lance son trade.",
+        "en": "Ground Slam (E) reduces the attack speed of enemies hit for 3 s: drop it as soon as an auto-attack-reliant champion starts their trade."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Malphite - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Malphite", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY Malphite Guide You Need - Malphite Guide League of Legends (Malphite Top Guide)", "url": "https://www.youtube.com/watch?v=4obprUsSjgI", "type": "video", "date": "2026-03-01", "author": "Daveyx3" },
+    { "title": "3 Minute Malphite Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=rA3uXv8idUo", "type": "video", "date": "2026-04-09", "author": "3 Minute League of Legends" }
+  ]
+}

@@ -66,3 +66,4 @@ Par champion : nb combos / nb astuces, sources utilisées (titre + URL), points 
 - Une astuce ne se contredit pas : relis chaque phrase FR et EN avant de rendre (ex. « ignore les boucliers » vs « un shield peut la sauver »).
 - Formes alternatives (Elise, Nidalee, Jayce, Gnar…) : `keys` reste Q/W/E/R ; le site affiche l'icône de base et le nom combiné Data Dragon, donc nomme la forme utilisée dans `desc`.
 - Pas de rune (contrôlé : noms de runes refusés), même en passant (« parfait pour proc Électrocution »).
+- Sorts d'autres champions cités (Mur de vent, etc.) : nom FR officiel lu dans `public/data/lol/static/16.22.1/fr_FR/champions/<Autre>.json`, jamais traduit à l'oreille.

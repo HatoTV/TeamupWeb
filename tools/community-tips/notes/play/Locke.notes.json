@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Active: Locke hurls a nail in the target direction that deals magic damage to enemies hit, slows them by 25% for 1 second, and applies a stack of Soul Nails for 4 seconds, refreshing on subsequent applications and stacking up to 3 times.",
+    "Against targets with at least 2 stacks, the slow is increased to 60% and lasts for 2 seconds.",
+    "For each recast not used when Ritual Nails ends, 10 to 40 of the ability's cooldown and mana cost is refunded, up to a 10*2 to 40*2 refund for two remaining recasts.",
+    "Locke's next damaging basic attack or Ashen Pursuit against an enemy with Soul Nails stacks consumes them all to deal bonus magic damage based on the amount of stacks.",
+    "Soul Ignition's recast can be used while affected by cast-inhibiting crowd control.",
+    "Scoring a takedown against an enemy champion resets the cooldown.",
+    "Can dash through terrain, provided the primary target is on the other side.",
+    "If a champion takedown is scored while Ashen Pursuit is active, the ability's cooldown will be reset in addition to allowing Locke to cast Ashen Pursuit even while it is already active.",
+    "Soul Ignition can be cast during Ashen Pursuit's dash. Any other ability is queued instead.",
+    "The totem missile can be destroyed by projectile-interception effects. The homing nails that the totem fires upon targets cannot be however.",
+    "Be sure to note that Locks R is a projectile, so it can be destroyed by wind walls, but the laser that comes out after cannot be.",
+    "The two most important parts about this ability are that both parts of the E can proc the nails and it resets on takedowns.",
+    "It is fixed distance. This means depending on how close you are to the target, you'll either just reach them or go through them and the walls if they are short enough.",
+    "You can weave your E after your Q for a quick burst.",
+    "As for flash interactions, you can Q flash to extend the nails, but you can't R flash to extend the ults. E flash doesn't extend the distance of the blink, and flashing during the dash will simply cancel it.",
+    "For longer trades, you can start with E. your Q's and use the dash to proc them.",
+    "You can also wait out your Q cool down for the refund.",
+    "Start by landing all three Qs from range, then E directly onto the enemy and follow up with an auto.",
+    "For the first combo, start with E to blink into Q range, then land up to three Qs before following up with your E2 auto attack.",
+    "Your first Q marks the enemy and E1 immediately detonates it. Throw another Q before E2 to detonate a second mark, then finish with your final Q and auto.",
+    "You can Q flash to extend your reach and surprise enemies, especially after landing two Qs, allowing you to follow up with an auto to detonate your third mark.",
+    "And because E2 travels a fixed distance, you can dash over walls using a target next to you.",
+    "Your E isn't blocked by wind wall"
+  ],
+  "rejected": [
+    { "idea": "Annuler l'animation de Clous rituels (A) avec Purgatoire (R)", "reason": "Une seule source (tothericefields), non confirmée par le wiki." },
+    { "idea": "Traque cendrée (E) juste avant Purgatoire (R) pour masquer l'animation du lancer", "reason": "Une seule source (Zoose), non confirmée par le wiki." },
+    { "idea": "Blink de Traque cendrée (E), Flash, puis dash renforcé", "reason": "Une seule source (Zoose) ; tothericefields précise seulement que Flash pendant le dash l'annule." },
+    { "idea": "Blink de Traque cendrée (E) au-dessus d'un mur qui paraît trop épais", "reason": "Une seule source (Zoose), le wiki ne le confirme pas pour le blink." },
+    { "idea": "Short trade : 3 Clous, blink, puis auto sur un sbire derrière toi", "reason": "Une seule source (tothericefields) et séquence ambiguë." }
+  ],
+  "toVerifyInGame": [
+    "Flash pendant le lancer de Clous rituels (A) : vérifier que le Clou part bien depuis la position d'arrivée.",
+    "Dash de Traque cendrée (E) au-dessus d'un mur fin en ciblant un sbire collé à soi."
+  ]
+}

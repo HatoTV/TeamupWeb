@@ -1,0 +1,100 @@
+{
+  "champion": "Lux",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Entrave, Anomalie et deux autos", "en": "Binding, Singularity and two autos" },
+      "keys": ["Q", "E", "E"],
+      "level": "easy",
+      "desc": {
+        "fr": "Après une Entrave de lumière (A), pose Anomalie radieuse (E) sur la cible et consomme la marque d'Illumination avec une auto. Fais exploser l'Anomalie pour une nouvelle marque, puis une autre auto.",
+        "en": "After a Light Binding (Q), drop Lucent Singularity (E) on the target and consume the Illumination mark with an auto. Detonate the Singularity for a new mark, then auto again."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Burst à distance avec Éclat final", "en": "Long-range burst with Final Spark" },
+      "keys": ["Q", "E", "R", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Entrave de lumière (A), Anomalie radieuse (E) sur la cible, puis Éclat final (R). Fais exploser l'Anomalie pendant le temps de lancer du laser : il consomme la nouvelle marque.",
+        "en": "Light Binding (Q), Lucent Singularity (E) on the target, then Final Spark (R). Detonate the Singularity during the laser's cast time: the beam consumes the fresh mark."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in avec autos et laser", "en": "All-in with autos and laser" },
+      "keys": ["Q", "E", "E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Entrave de lumière (A), auto pour la première marque, Anomalie radieuse (E) posée puis explosée, Éclat final (R), et une dernière auto. À garder pour quand avancer est sans danger.",
+        "en": "Light Binding (Q), an auto for the first mark, Lucent Singularity (E) placed then detonated, Final Spark (R), and one last auto. Keep it for when stepping up is safe."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Lancer Éclat final (R) prolonge à 1,25 s les marques d'Illumination qui allaient expirer : le laser peut encore les consommer malgré son temps de lancer d'1 s.",
+        "en": "Casting Final Spark (R) extends Illumination marks that were about to expire to 1.25 s: the laser can still consume them despite its 1 s cast time."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Entrave de lumière (A) root les deux premiers ennemis touchés, mais une cible immunisée au root compte quand même dans ces deux : elle peut protéger celui derrière elle.",
+        "en": "Light Binding (Q) roots the first two enemies hit, but a target immune to the root still counts toward those two: it can protect whoever is behind it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Barrière prismatique (Z) protège à l'aller et au retour. Vise pour que la baguette traverse ton allié dans les deux sens : les deux boucliers se cumulent, deux au maximum.",
+        "en": "Prismatic Barrier (W) shields on the way out and on the way back. Aim so the wand passes through your ally both ways: the two shields stack, two at most."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La baguette de Barrière prismatique (Z) est détruite par le Mur de vent de Yasuo, la Tourbillon de lame de Samira et la Réfutation de Mel, mais passe le bouclier de Braum.",
+        "en": "The Prismatic Barrier (W) wand is destroyed by Yasuo's Wind Wall, Samira's Blade Whirl and Mel's Rebuttal, but goes through Braum's Unbreakable."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Anomalie radieuse (E) donne la vision en vol et sur sa zone pendant 5 s : lance-la par-dessus un mur ou dans un buisson pour vérifier avant d'avancer.",
+        "en": "Lucent Singularity (E) grants vision in flight and over its area for 5 s: throw it over a wall or into a bush to check before stepping in."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu peux relancer Anomalie radieuse (E) pendant qu'elle vole : elle explose dès qu'elle arrive, sans laisser à la cible le temps de sortir de la zone.",
+        "en": "You can recast Lucent Singularity (E) while it is still flying: it detonates as soon as it lands, leaving the target no time to walk out."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort empêche Éclat final (R) de consommer la marque d'Illumination, mais pas ton auto : place une auto pour récupérer ces dégâts.",
+        "en": "A spell shield stops Final Spark (R) from consuming the Illumination mark, but not your auto: land an auto to get that damage back."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Lux - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Lux", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "How Lux Wins Games by Playing Safe", "url": "https://www.youtube.com/watch?v=T8QcqY8X56o", "type": "video", "date": "2025-12-29", "author": "Zoose" },
+    { "title": "3 Minute Lux Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=nl0xuXZDT7g", "type": "video", "date": "2026-01-26", "author": "3 Minute League of Legends" }
+  ]
+}

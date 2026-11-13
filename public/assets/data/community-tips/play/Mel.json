@@ -1,0 +1,90 @@
+{
+  "champion": "Mel",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Sort, auto, sort, auto", "en": "Spell, auto, spell, auto" },
+      "keys": ["Q", "E", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Touche Barrage lumineux (A) puis place une auto, enchaîne Piège solaire (E) et une autre auto. Quand la marque d'Accablement brille, Éclipse dorée (R) achève la cible.",
+        "en": "Land Radiant Barrage (Q) then weave an auto, follow with Solar Snare (E) and another auto. Once the Overwhelm mark glows, Golden Eclipse (R) finishes the target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Piège solaire puis Barrage lumineux", "en": "Solar Snare into Radiant Barrage" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Root la cible avec Piège solaire (E), puis pose Barrage lumineux (A) sur elle : immobile, elle prend toutes les explosions. Termine avec tes autos.",
+        "en": "Root the target with Solar Snare (E), then drop Radiant Barrage (Q) on them: standing still, they eat every explosion. Finish with autos."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort lancé charge 3 projectiles de Luminescence incandescente (9 max) pour ta prochaine auto. Alterne sort et auto plutôt que d'enchaîner tous tes sorts.",
+        "en": "Each spell you cast loads 3 Searing Brilliance projectiles (9 max) for your next auto. Alternate spell and auto instead of chaining every spell."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Accablement stocke des dégâts sur la cible pendant 5 s. Dès que le total dépasse ses PV et ses boucliers, ton prochain coup l'exécute : surveille la marque au-dessus de sa tête.",
+        "en": "Overwhelm stores damage on the target for 5 s. As soon as the total exceeds their health and shields, your next hit executes them: watch the mark above their head."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Réfutation (Z) détruit les projectiles ennemis, hors tours, et les renvoie en salves vers leur lanceur. Garde-la pour une grosse attaque à distance ou un skillshot clé.",
+        "en": "Rebuttal (W) destroys enemy projectiles, turrets excluded, and fires them back as bolts at their caster. Save it for a big ranged attack or a key skillshot."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Réfutation (Z) donne aussi bouclier et vitesse aux alliés que touche l'onde. Lance-la près de ton carry quand il se fait poke ou engage.",
+        "en": "Rebuttal (W) also gives a shield and speed to allies the nova touches. Cast it near your carry when they get poked or engaged."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Le root de Piège solaire (E) dure plus longtemps quand l'orbe a parcouru plus de distance. Tire-le de loin pour un root plus long.",
+        "en": "Solar Snare's (E) root lasts longer the farther the orb has traveled. Throw it from range for a longer root."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Barrage lumineux (A) et Piège solaire (E) ne sont pas bloqués par les sbires : tu peux poke l'adversaire même caché derrière sa wave.",
+        "en": "Radiant Barrage (Q) and Solar Snare (E) aren't blocked by minions: you can poke your opponent even behind their wave."
+      },
+      "refs": [1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Éclipse dorée (R) est globale : elle frappe tous les champions marqués par Accablement, où qu'ils soient, et les révèle 1 s. Parfait pour achever un ennemi qui fuit.",
+        "en": "Golden Eclipse (R) is global: it hits every champion marked by Overwhelm, wherever they are, and reveals them for 1 s. Great to finish a fleeing enemy."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Mel – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Mel", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Mel Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=QKyEhKMyQgg", "type": "video", "date": "2026-02-23", "author": "3 Minute League of Legends" },
+    { "title": "GUIDE MEL SAISON 16 : TUTO comment MONTER MID sur LEAGUE OF LEGENDS | Tips & Combos, Runes et Items", "url": "https://www.youtube.com/watch?v=d6W-F4FvDks", "type": "video", "date": "2025-12-09", "author": "EXYT - League of Legends" }
+  ]
+}

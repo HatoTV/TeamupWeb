@@ -1,0 +1,91 @@
+{
+  "champion": "Milio",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Double bouclier puis Feu de camp", "en": "Double shield into Cozy Campfire" },
+      "keys": ["E", "E", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance tes deux charges de Chaud devant ! (E) sur ton carry : bouclier et vitesse se cumulent. Ajoute Feu de camp (Z) pour le soigner et allonger sa portée.",
+        "en": "Use both Warm Hugs (E) charges on your carry: shield and speed stack. Add Cozy Campfire (W) to heal them and extend their range."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Bouclier sur toi puis boule", "en": "Self shield into Fire Kick" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Chaud devant ! (E) sur toi active Tout feu tout flamme. L'Ultra méga boule de feu (A) qui suit applique ces dégâts bonus et la brûlure en plus de son stun.",
+        "en": "Warm Hugs (E) on yourself activates Fired Up!. The Ultra Mega Fire Kick (Q) that follows applies that bonus damage and burn on top of its stun."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si Ultra méga boule de feu (A) touche d'abord un sbire, il est projeté plus loin et l'explosion est plus large : envoie-le sur le champion derrière. Toucher un champion rend la moitié du mana.",
+        "en": "If Ultra Mega Fire Kick (Q) hits a minion first, it flies farther and the explosion is bigger: send it into the champion behind. Hitting a champion refunds half the mana."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Ultra méga boule de feu (A) repousse et étourdit : garde-la pour couper le dash de Leona, Nautilus ou Riven sur ton ADC plutôt que pour poke.",
+        "en": "Ultra Mega Fire Kick (Q) knocks back and stuns: save it to cut Leona's, Nautilus's or Riven's dash onto your ADC rather than to poke."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant le délai de 0,25 s d'Ultra méga boule de feu (A), tu ne peux lancer aucun autre sort. Donne ton bouclier avant, pas pendant.",
+        "en": "During Ultra Mega Fire Kick's (Q) 0.25 s delay, you can't cast any other spell. Give your shield before, not during."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La portée bonus de Feu de camp (Z) reste sur l'allié toute la durée, même s'il quitte la zone. Relance le Z pour envoyer le feu sur un autre allié.",
+        "en": "Cozy Campfire's (W) bonus range stays on the ally for the whole duration, even if they leave the area. Recast W to send the fire to another ally."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaud devant ! (E) a deux charges dont les effets se cumulent. Lance les deux sur toi pour revenir en lane ou traverser la map plus vite.",
+        "en": "Warm Hugs (E) has two charges whose effects stack. Cast both on yourself to get back to lane or cross the map faster."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Flammes vitales (R) purge les CC des alliés autour, neutralisation comprise, mais pas les projections dans les airs. Inutile de l'ult pendant un knock-up.",
+        "en": "Breath of Life (R) cleanses nearby allies' CC, suppression included, but not airborne effects. No point ulting during a knock-up."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tu ne peux pas lancer Flammes vitales (R) si tu es toi-même stun ou silence. Reste en retrait et garde-le pour sauver ton carry.",
+        "en": "You can't cast Breath of Life (R) while you're stunned or silenced yourself. Stay back and keep it to save your carry."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "sources": [
+    { "title": "Milio – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Milio", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "MILIO ONE TRICK SECRETS (tips and tricks you probably don't know)", "url": "https://www.youtube.com/watch?v=grTnU9NPYGM", "type": "video", "date": "2025-06-21", "author": "Adaptoh" },
+    { "title": "3 Minute Milio Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=RWv_oLyyGNU", "type": "video", "date": "2026-03-15", "author": "3 Minute League of Legends" },
+    { "title": "Guide Milio Support S16 : le secret des onetricks (OTP)", "url": "https://www.youtube.com/watch?v=5u3pOgHK1Sg", "type": "video", "date": "2026-09-14", "author": "sansafao" }
+  ]
+}

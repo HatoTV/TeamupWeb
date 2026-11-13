@@ -1,0 +1,42 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Milio's ability hits on himself and allied champions grant an enchantment for 4 seconds, which causes the next basic attack or ability hit against enemies to deal of enchanted target's AD and apply a burn",
+    "After a 0.25-second delay, Milio kicks a fireball in the target direction that grants sight of its path and knocks back and stuns the first enemy it hits over 1 second.",
+    "If the primary target is a non-champion, the ball knocks back further and creates a larger explosion. Ultra Mega Fire Kick refunds 50% of its mana cost if it hits at least one champion with the fireball or explosion.",
+    "Milio cannot cast other abilities during Ultra Mega Fire Kick's delay.",
+    "Allied champions near the fuemigo gain bonus attack range equal to a percentage of their base attack range and heal every over the duration.",
+    "Recast: Milio commands the fuemigo to follow the target allied champion",
+    "The attack range increase lingers on allies for the entire duration of Cozy Campfire, even if they leave the zone.",
+    "Milio envelops himself or the target allied champion in protective flames, granting the target a shield and bonus movement speed for 2.5 seconds.",
+    "Milio periodically stocks a Warm Hugs charge, up to a maximum of 2.",
+    "Warm Hugs' effects can stack up to 2 times.",
+    "Milio explodes in soothing flames, healing and cleansing himself and nearby allied champions of non-airborne crowd control, and granting them 65% tenacity for 3 seconds.",
+    "Milio cannot cast his other abilities for 0.75 seconds after Breath of Life's activation. Breath of Life cannot be used while affected by cast-inhibiting crowd control.",
+    "Every Millio ability actually applies his passive. Yes, even his Q.",
+    "His Q can stop a lot of important engage such as Rell, Zac, Nautilus, Leona, and many others.",
+    "You can also redirect his W between allies. You can stack the movement speed on his E. This is great for getting back to lane or traversing the map.",
+    "His R can save teammates from Tahm Kench and obviously other suppressions.",
+    "Its range is slightly larger than his E range, so you can use this as a guide for his alt.",
+    "And if this hits a minion or monster, the knockback is further and it creates a larger explosion. And if the explosion hits at least one enemy champion, half the mana cost is refunded.",
+    "he can activate W again to make it follow someone else. Allies within gain bonus attack range and are constantly healed.",
+    "And where it does remove all CC effects from yourself, you can't actually cast it if you're hard lockdown or silenced.",
+    "For combos, there's not much more to it than using your E's and W on your carry while landing Q's on something important. Redirect W as needed and use your ultimate to remove some key lockdown.",
+    "Milio is great into dash reliant engage champions, easily interrupting their dashes and knocking them away.",
+    "Your kit is designed around being able to launch minions towards enemy champions.",
+    "Le A est ton seul outil de disengage. Utilise-le uniquement quand un ennemi te fonce dessus ou sur ton ADC, tu peux annuler le bump de Leona, et cetera, le dash de Riven ou la charge de Nautilus.",
+    "Il donne du bonus de portée d'attaque ... Utilise-le pour permettre à ton ADC de gratter du poke sous la tour ennemie",
+    "si tu es toi-même sous un CC lourd qui t'empêche de lancer tes sorts, comme une neutralisation, Malzahar ou un bump, tu ne peux pas appuyer sur ton R. Ton placement doit toujours être en retrait"
+  ],
+  "rejected": [
+    { "idea": "La portée de Flammes vitales est un peu plus grande que celle de Chaud devant ! (Adaptoh)", "reason": "Une seule source ; le wiki marque le rayon de l'ult comme à tester." },
+    { "idea": "Interactions de Feu de camp et Chaud devant ! avec des objets de soin ou l'objet de support (Adaptoh)", "reason": "Conseils d'objets, hors périmètre et une seule source." },
+    { "idea": "Feu de camp pour permettre à l'ADC de poke sous la tour ennemie (sansafao)", "reason": "Conseil de lane peu précis ; l'effet de portée est déjà couvert par l'astuce sur Feu de camp." },
+    { "idea": "Combo avec Flash", "reason": "Aucune source ne décrit de combo Flash propre à Milio." }
+  ],
+  "toVerifyInGame": [
+    "Combo Chaud devant ! sur soi puis Ultra méga boule de feu : vérifier que l'enchantement est bien consommé par le coup de la boule et non par l'explosion seule.",
+    "Ultra méga boule de feu sur un sbire : angle réel de projection vers le champion derrière."
+  ]
+}

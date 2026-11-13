@@ -1,0 +1,109 @@
+{
+  "champion": "Malzahar",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court Visions, Appel, Nuée", "en": "E, Q, W short trade" },
+      "keys": ["E", "Q", "W"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose Visions maléfiques (E), enchaîne Appel du Néant (A) pour silence et relancer la durée du E, puis invoque Nuée du Néant (Z) : tes êtres du Néant foncent sur la cible infectée.",
+        "en": "Apply Malefic Visions (E), follow with Call of the Void (Q) to silence and refresh the E, then cast Void Swarm (W): your Voidlings rush the infected target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in complet avec Poigne du Néant", "en": "Full all-in with Nether Grasp" },
+      "keys": ["E", "Q", "W", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Visions maléfiques (E), Appel du Néant (A), Nuée du Néant (Z) juste avant Poigne du Néant (R) : la cible est bloquée pendant que les êtres du Néant et le DoT tournent.",
+        "en": "Malefic Visions (E), Call of the Void (Q), Void Swarm (W) right before Nether Grasp (R): the target is locked while Voidlings and the DoT tick."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Appel, Nuée, Flash puis ult", "en": "Q, W, Flash into ult" },
+      "keys": ["Q", "W", "F", "R"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Ta cible est à portée d'Appel du Néant (A) mais trop loin pour l'ult : lance A, puis Nuée du Néant (Z), Flash et Poigne du Néant (R). Finis avec Visions maléfiques (E) et tes autos.",
+        "en": "Your target is in Call of the Void (Q) range but too far for the ult: cast Q, then Void Swarm (W), Flash and Nether Grasp (R). Finish with Malefic Visions (E) and autos."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Plan du Néant te rend insensible aux CC et coupe 90 % des dégâts, mais les sbires ne le consomment pas : reste dans ta wave, seuls un champion, un monstre ou une tour le font tomber.",
+        "en": "Void Shift makes you CC immune and cuts 90% of damage, but minions don't consume it: stay in your wave, only a champion, monster or turret pops it."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Le CD de Plan du Néant repart à zéro dès que tu prends des dégâts hors sbires ou un CC. Évite le poke gratuit si tu veux le récupérer avant le prochain all-in.",
+        "en": "Void Shift's cooldown restarts whenever you take non-minion damage or get CC'd. Avoid free poke if you want it back before the next all-in."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque autre sort lancé donne une charge à Nuée du Néant (Z), 2 max. Place A et E avant le Z pour sortir 3 êtres du Néant d'un coup.",
+        "en": "Each other spell you cast gives Void Swarm (W) a stack, 2 max. Use Q and E before the W to summon 3 Voidlings at once."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Appel du Néant (A) et Poigne du Néant (R) relancent la durée de Visions maléfiques (E). Touche-les quand le E arrive à sa fin pour presque doubler ses dégâts.",
+        "en": "Call of the Void (Q) and Nether Grasp (R) refresh Malefic Visions (E). Land them as the E is about to end to nearly double its damage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Mets Visions maléfiques (E) sur un sbire presque mort : s'il meurt infecté, le E saute sur l'ennemi le plus proche, champion compris, et te rend du mana.",
+        "en": "Put Malefic Visions (E) on a nearly dead minion: if it dies infected, the E jumps to the closest enemy, champions included, and refunds mana."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tes êtres du Néant font +200 % de dégâts aux sbires sous Visions maléfiques (E). Sur une wave, lance le E avant Nuée du Néant (Z) pour la raser.",
+        "en": "Your Voidlings deal 200% more damage to minions under Malefic Visions (E). On a wave, cast E before Void Swarm (W) to wipe it."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "La zone au sol de Poigne du Néant (R) reste 5 s même si on coupe ton ult. Et si le lien casse tôt, la cible restée à portée subit quand même tous les dégâts.",
+        "en": "Nether Grasp's (R) ground zone stays 5 s even if your ult is interrupted. If the tether breaks early, a target still in range takes the full damage anyway."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un bouclier anti-sort bloque le lien et la zone de Poigne du Néant (R), mais tu continues de canaliser sur place. Fais-le tomber avec un autre sort avant d'ult.",
+        "en": "A spell shield blocks Nether Grasp's (R) tether and zone, yet you keep channeling in place. Pop it with another spell before you ult."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Malzahar – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Malzahar", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "I Hit a 90% Win Rate to Diamond with ONE Button (Malzahar Guide)", "url": "https://www.youtube.com/watch?v=EAIjPCuGFo4", "type": "video", "date": "2025-12-05", "author": "Zoose" },
+    { "title": "3 Minute Malzahar Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=Ngk59CDuxc4", "type": "video", "date": "2025-12-16", "author": "3 Minute League of Legends" }
+  ]
+}

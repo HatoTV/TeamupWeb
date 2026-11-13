@@ -1,0 +1,34 @@
+{
+  "searches": 1,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Innate: Lux's abilities apply a mark to enemies hit for 6 seconds, refreshing on subsequent hits. Lux's basic attacks on-hit and Final Spark consume the mark to deal bonus magic damage.",
+    "Casting Final Spark refreshes the marks of all marked enemies to 1.25 seconds if they are within 5000 units of the ability's casting position and have a mark with a remaining duration of less than 1 second.",
+    "Spell shield prevents Final Spark from consuming the mark. The on-hit damage from Illumination via basic attack cannot be blocked by spell shield.",
+    "Lux shoots a sphere of light in the target direction that deals magic damage to the first two enemies hit and roots them for 2 seconds.",
+    "Targets immune to the root still count towards Light Binding's two-target limit.",
+    "Allied champions hit by the wand gain a shield for 2.5 seconds, which can stack up to 2 times, stacking with the previous shield and refreshing its duration.",
+    "Lux gains the shield upon throwing and upon retrieving the wand.",
+    "Prismatic Barrier is destroyed by Wind Wall, Blade Whirl, and Rebuttal but not Unbreakable.",
+    "Lux sends a lucent singularity to the target location, remaining there for 5 seconds to grant sight of the area and slow nearby enemies.",
+    "Lucent Singularity can be recast at any time while it is in flight or within the duration, and does so automatically after the duration.",
+    "If Lucent Singularity was recast while in flight, it will detonate upon arrival.",
+    "Lucent Singularity grants sight while also in flight.",
+    "Final Spark cast time: 1",
+    "Main trade combo. Q into E into auto attack into E into auto attack. If you land Q, place E on top of them and auto once to consume the first passive mark. Then detonate E to apply a second mark and auto again.",
+    "Long range combo. Q into E into ult into E. This is your safest damage combo.",
+    "All in combo. Q into auto into E into E into R into auto. This is Lux's maximum damage combo. You walk up for autos to fully use your passive, then finish with your ultimate. Only use this when it's safe to step forward.",
+    "Use E for vision. Throw it over walls or in brushes to scout enemies or check objectives.",
+    "Casting Q before flashing makes it faster and harder to react than flash into Q.",
+    "For combos, a good go-to is to Q and E and use W on your allies. From here, attack and then detonate your E into more attacks.",
+    "Your all-in is to Q and E and W your allies. From here, attack and fire your ultimate. Detonate your E just before the alt goes off so you can pop the passive from your E with your ultimate before following up with more attacks."
+  ],
+  "rejected": [
+    { "idea": "Entrave de lumière (A) lancée puis Flash (plus rapide que Flash puis A)", "reason": "Une seule source (Zoose), le wiki ne précise pas d'où part le projectile." },
+    { "idea": "Vidéo EvanA7 « Arrêtez de rater vos combos avec Lux ! »", "reason": "Porte sur Lux dans 2XKO, pas League of Legends : non utilisée." },
+    { "idea": "Lancer Entrave de lumière (A) depuis le brouillard derrière le mur de la rivière", "reason": "Conseil de placement général, une seule source." }
+  ],
+  "toVerifyInGame": [
+    "Exploser Anomalie radieuse (E) pendant le temps de lancer d'Éclat final (R) : la marque posée est bien consommée par le laser."
+  ]
+}

@@ -107,18 +107,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Lillia (3 combos, 7 astuces)
 - ✅ Lissandra (3 combos, 8 astuces)
 
-### Lot 8 — ⏳
+### Lot 8 — ✅
 
-- ⏳ Locke
-- ⏳ Lucian
-- ⏳ Lulu
-- ⏳ Lux
-- ⏳ Malphite
-- ⏳ Malzahar
-- ⏳ Maokai
-- ⏳ MasterYi
-- ⏳ Mel
-- ⏳ Milio
+- ✅ Locke (4 combos, 7 astuces)
+- ✅ Lucian (3 combos, 7 astuces)
+- ✅ Lulu (3 combos, 8 astuces)
+- ✅ Lux (3 combos, 7 astuces)
+- ✅ Malphite (4 combos, 6 astuces)
+- ✅ Malzahar (3 combos, 8 astuces)
+- ✅ Maokai (3 combos, 7 astuces)
+- ✅ MasterYi (2 combos, 8 astuces)
+- ✅ Mel (2 combos, 7 astuces)
+- ✅ Milio (2 combos, 7 astuces)
 
 ### Lot 9 — ⏳
 

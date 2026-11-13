@@ -44,14 +44,7 @@
     "Naafiri",
     "Aphelios",
     "Leblanc",
-    "Darius"
-  ],
-  "inProgress": [],
-  "insufficientSources": [
-    "Jhin"
-  ],
-  "queueRule": "Un champion par fiche (Data Dragon 16.22.1, 173 champions). Ordre : parties cumulées tous rôles dans les données Builds 16.22 Maître+ (décroissant), puis les champions sans données Builds (ordre alphabétique), puis les champions sortis depuis moins de 6 mois (absents de Data Dragon 16.12.1 : Locke).",
-  "queue": [
+    "Darius",
     "Zeri",
     "Aurora",
     "Renekton",
@@ -61,7 +54,14 @@
     "Galio",
     "Malphite",
     "Draven",
-    "Hwei",
+    "Hwei"
+  ],
+  "inProgress": [],
+  "insufficientSources": [
+    "Jhin"
+  ],
+  "queueRule": "Un champion par fiche (Data Dragon 16.22.1, 173 champions). Ordre : parties cumulées tous rôles dans les données Builds 16.22 Maître+ (décroissant), puis les champions sans données Builds (ordre alphabétique), puis les champions sortis depuis moins de 6 mois (absents de Data Dragon 16.12.1 : Locke).",
+  "queue": [
     "Sion",
     "Diana",
     "Viego",
@@ -180,5 +180,6 @@
     "Illaoi",
     "Locke"
   ],
-  "retryNote": "Zeri, Aurora, Renekton, KSante : recherche interrompue par la limitation de requêtes YouTube (2026-11-13), pas un manque de sources. À relancer en tête de file ; notes partielles dans notes/vs/retry/. Bard, Naafiri : fiches publiées sans vidéo (ou 1 seule), à compléter."
+  "retryNote": "Bard, Naafiri : fiches publiées sans vidéo (ou 1 seule) pendant la limitation YouTube du 2026-11-13, à compléter avec des vidéos.",
+  "videoPending": []
 }

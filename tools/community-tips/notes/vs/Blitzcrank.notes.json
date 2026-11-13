@@ -1,0 +1,135 @@
+{
+  "searches": 8,
+  "pagesRead": 1,
+  "sourceSentences": [
+    "[0] You stand behind your minions or in the bush and you wait for a clean line to their ADC.",
+    "[0] And when it misses, you have a long cooldown to wait for and you need to survive.",
+    "[0] Blitzcrank's hook reaches around 1,100 units.",
+    "[0] every single one of them stops on the first unit that it hits. So if you're playing against a hook support, you should stand behind your minions and be safe from the hook.",
+    "[1] I find that hooking level one as Blitzcrank, you tend to lose out",
+    "[1] Don't really want to take an engage when there's a big wave bouncing back like this, so we're just going to chill.",
+    "[1] I already have a lot of good forward wards, so we're just going to play around the vision there. Jinx help Jinx push mid. And then look for picks as they try to rotate.",
+    "[2] You you want to play bush control for the hook, right?",
+    "[2] With hook champions, you never hit objectives. You want to do plays like that, especially with blitz tank. Just play on your hook and kill.",
+    "[3] Your goal is to secure the push, so it's harder for them to engage, as they're going to take too much minion damage when doing so.",
+    "[3] you don't want to just mindlessly hit the wave and over push. You want to maintain the minion advantage while using your double range advantage to punish every last hit possible",
+    "[3] He heads to the bush and is instantly looking for a hook on Ash",
+    "[3] although he landed the hook and got that initial chunk of damage, they actually lose this all in."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "IyRhz9vzU3w",
+      "channel": "ShoDesu",
+      "result": "utilisé (1:33, 3:46, 18:51) ; flash + hook (2:48-3:06) écarté : 1 seule source"
+    },
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "utilisé (chapitre Hook supports 7:19-8:56)"
+    },
+    {
+      "id": "4HdVHO3svTw",
+      "channel": "Coach K",
+      "result": "utilisé (1:41:05, 2:48:57) ; stream de 5 h, recherche par mots-clés dans la transcription ; « hold the hook » au pied de la tour (1:33:57) écarté : 1 seule source"
+    },
+    {
+      "id": "yXjtkXpkGPA",
+      "channel": "Skill Capped Challenger LoL Guides",
+      "result": "utilisé (chapitre Range vs Melee 10:59-15:40, exemple Blitz 23:17-23:41)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/blitzcrank/counters/support",
+      "result": "no-advice (seul conseil écrit : Blitz contre Thresh, côté Blitz)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Blitz hook depuis les buissons de la lane : garder la vision, reculer derrière les sbires",
+      "sourceIdx": [
+        0,
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Garder l'avantage de sbires : Blitz n'engage pas dans une grosse wave",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Un hook au lvl 1 fait souvent perdre l'all-in à Blitz : riposter",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Mid game : Blitz cherche des picks dans le brouillard plutôt que les objectifs ; ward les rotations",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Le Grappin propulsé (A) s'arrête sur le premier ennemi, portée ~1 080 : rester derrière les sbires",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (« Pulling the first enemy hit », range 1079)"
+    },
+    {
+      "idea": "A raté = CD long (20/19/18/17/16 s) : fenêtre de trade",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (cooldown 20/19/18/17/16)"
+    },
+    {
+      "idea": "Blitz flash pour garantir le hook : respecter son flash",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, pas une mécanique du kit"
+    },
+    {
+      "idea": "Tant que Blitz garde son hook, taper la tour est dangereux",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source (lane)"
+    },
+    {
+      "idea": "Barrière de mana (passif) : bouclier à bas PV, garder du burst",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: la phrase de Coach K (49:53, « shield bigger than Braum ») ne parle pas clairement du passif"
+    },
+    {
+      "idea": "Melee, Blitz a du mal à prendre le lvl 2 : gagner la course au lvl 2",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source spécifique à Blitz ; Coach K (2:30:02) cherche au contraire l'all-in lvl 2"
+    }
+  ]
+}

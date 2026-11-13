@@ -1,0 +1,150 @@
+{
+  "searches": 5,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] Off the top of my head, I would say they're probably weak to like a hard engage.",
+    "[0] Can you think of a bigger weakness than their immobility?",
+    "[0] if Ash uses W and Saraphene has used Q but Saraphene also does not have access to her double spell then I can take a pretty aggressive trade.",
+    "[0] Like, if Ash hits W, Saraphene can follow up. And if it's a double W, it's going to stun. If it's not, it's just going to rude, right?",
+    "[0] Saraphene's double spell plus the E tag and Ash's slow plus the combination of the non-double E are probably the two biggest things you need to be mindful of.",
+    "[1] Champs like Nautilus, Pyke, Blitzcrank even. Anything that can basically inject volatility into the game I'm very scared of, right?",
+    "[1] it's really just trying to attack me before I get online, basically.",
+    "[1] I can just continue to spam spells, whereas, you know, uh we often run out of spells like I talked about. We're not sort of healthy, uh have a lot of mana for these fights, and, you know, uh we just don't really we have to keep basing.",
+    "[1] Seraphine is actually deceptively strong level one due to the fact that she has kind of two spells in a way, right?",
+    "[1] people do make the mistake of actually uh using their E before they throw out their ult, right? Um because when we ult, we can obviously get the increased uh or the upgraded CC from uh E",
+    "[1] In terms of wind walls and spell shields. Mel the fact that she can reflect my alt is just so frustrating to deal with.",
+    "[2] Even though hook champs counter most enchanters, it's really hard for Thresh to play the game because I'm so ranged.",
+    "[2] if he checks the bush, I just die, right? Because they just hook me and Kai'Sa is very far.",
+    "[2] I don't have enough mana for this.",
+    "[2] Learn my Q out so I can cycle out my passive.",
+    "[3] Encore's range extends upon hitting allied or enemy champions.",
+    "[3] If Encore's projectile is negated via spell shield, this will also prevent it from resetting its travel distance.",
+    "[3] Enemies that are already slowed are also rooted for the same duration.",
+    "[3] Enemies that are immobilized or grounded are also stunned for the same duration."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "IgfloV5toyM",
+      "channel": "Coach Jinjo",
+      "result": "utilisé (passages 0:00-1:40, 2:21-3:15, 8:11-9:21)"
+    },
+    {
+      "id": "fBgxtuBgghE",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (passages 41:13-44:30, 1:18:20-1:25:00)"
+    },
+    {
+      "id": "cSo_1d4eVtw",
+      "channel": "needyhenry 2nd channel",
+      "result": "écarté : recherche mana/engage/hook/all in/gank sans conseil de contre-jeu"
+    },
+    {
+      "id": "mGNGmr_b17c",
+      "channel": "ShoDesu",
+      "result": "utilisé (passages 1:18, 2:51, 10:10)"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/seraphine/counters/support",
+      "result": "no-tips"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/seraphine/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Seraphine",
+      "result": "ok"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Immobile : engage dur (hook, Leona, jungler à dash) la punit, surtout seule en brush",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Compter ses sorts : fenêtre de trade quand elle a lancé A sans double cast prêt",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (passif : chaque 3e sort lancé deux fois)"
+    },
+    {
+      "idea": "E : slow, root si déjà ralenti, stun si déjà immobilisé ; esquiver après un CC allié",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources vidéo + DDragon (tooltip E) ; wiki [3] confirme"
+    },
+    {
+      "idea": "Mana vite vidée : elle doit back ou arrêter de trade, punir",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (coûts DDragon : A 60-100, Z 70-90, E 60, R 100)"
+    },
+    {
+      "idea": "R bloqué par spell shield / blocage ou renvoi de projectile, ne s'allonge plus",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources (non vérifiable dans DDragon)"
+    },
+    {
+      "idea": "R s'allonge sur chaque champion touché, alliés compris : s'écarter",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip R : champions touchés, alliés compris, allongent la portée)"
+    },
+    {
+      "idea": "Se placer dans la wave pour que son A sur toi pousse la wave vers toi",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: tip de lane, 1 seule source"
+    },
+    {
+      "idea": "Creux entre lvl 6 et 2 objets : la presser avant son spike",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: tip de lane, 1 seule source"
+    },
+    {
+      "idea": "Forte au lvl 1 grâce au double sort",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: tip de lane, 1 seule source"
+    },
+    {
+      "idea": "Dasher vers elle sur son double A pour esquiver les dégâts",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, mécanique non vérifiable dans DDragon"
+    }
+  ]
+}

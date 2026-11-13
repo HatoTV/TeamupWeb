@@ -1,0 +1,127 @@
+{
+  "searches": 5,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "[0] I really like getting Gluttonous Greaves early against any match-up that has multiple short trades into the all in.",
+    "[0] Uh just cuz Gangplank does have some decent stats, and he's got his W for some healing, and you got to make sure that you survive his poke to be able to threaten.",
+    "[1] Once you hit level seven, your barrel decay timer goes down, and then you're able to actually fight him if he ults you.",
+    "[1] The main thing that I recommend you do when you're laning against Aatrox is to always play at range, try and bait out at least one of the first two parts of his Q or his dash, and then you can full commit fight him.",
+    "[1] But, the only difference between Riven and Aatrox is that Riven is able to jump on top of you, stay on top of you, and negate any type of damage return that you have.",
+    "[1] Certain key aspects that you need to know when laning against Riven is to always try and keep a safe distance to where she has to expend most of her abilities in order to be able to reach you",
+    "[2] And the point of that barrel is because once you're level seven, your barrel decay timer um it it increases. It goes faster, right?",
+    "[2] And because I'm level seven, I'm actually able to trade damage back.",
+    "[2] Level seven allows my barrel decay rate to tick down faster.",
+    "[3] Le Z de GP, qu'est-ce qu'on ? On sait que c'est un spell qui a un casting time.",
+    "[3] Donc ce qu'on peut faire en fait avec le l'orange de GP, c'est qu'on peut au moment où on sait qu'on va se faire CC, appuyer sur le bouton 0,2 0,3 secondes avant de se prendre le contrôle.",
+    "[3] En fait, avec GP, vous ne voulez pas mettre un ultime sur les champions, vous voulez mettre un ultime qui va bloquer la route par laquelle vont passer les champions.",
+    "[3] Le l'ulti GP, c'est un outil pour gagner du terrain et pour forcer les ennemis dans des positions qui les emmerdent.",
+    "[4] Each keg takes 1 damage per hit, and it is not a valid target for minions or most enemy abilities.",
+    "[4] Loses 1 maximum health every 2 / 1 / 0.5 seconds, depending on level, down to a minimum of 1 current health.",
+    "[4] If an enemy destroys a Powder Keg, it is safely dismantled."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "HEWJljoC700",
+      "channel": "Foggedftw2 Tryndamere",
+      "result": "utilisé (passages 4:56-5:15) ; idées barils/mana trop vagues ou 1 seule source"
+    },
+    {
+      "id": "uG0XbCUuwfc",
+      "channel": "JahKrisPea",
+      "result": "utilisé (passages 8:31-8:45, 13:13-13:28, 20:28-20:56) ; reste = runes/items, écarté"
+    },
+    {
+      "id": "nnHSxjYMEOo",
+      "channel": "Solarbacca",
+      "result": "utilisé (passages 7:41, 8:51, 1:20:48) ; recherche dans les sous-titres seulement (1h39)"
+    },
+    {
+      "id": "AtiQb8qHr2A",
+      "channel": "Misanthiel - Coach Toplane",
+      "result": "utilisé (passages 2:50-3:39, 3:51-4:37) ; tips 1-3 = combos de GP, pas exploitables contre lui"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://leaguefeed.net/how-to-counter-gangplank/",
+      "result": "refused (404)"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Gangplank",
+      "result": "ok"
+    },
+    {
+      "url": "https://op.gg/lol/champions/gangplank/counters/top",
+      "result": "no-advice (1 phrase générique, sans date)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Spike lvl 7 : la dégradation des barils accélère, trade avant",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (palier de niveau absent de DDragon ; le wiki confirme 2/1/0,5 s selon le niveau)"
+    },
+    {
+      "idea": "GP veut poke à distance : garder son engage pour se coller à lui, short trades puis all-in",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Détruire ses barils avec les autos (1 dégât par coup, désamorcé), les vieux barils ont moins de PV",
+      "sourceIdx": [
+        4
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (« can be attacked by Gangplank and enemy champions », « When an enemy destroys it, the keg is defused », decay)"
+    },
+    {
+      "idea": "Son Z retire les CC, il le pré-cast avant un CC prévisible : placer son CC après",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (removing all Disabling effects, CD 22/20/18/16/14)"
+    },
+    {
+      "idea": "Son R global bloque le chemin de fuite : contourner la zone",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (range 30000, vagues qui ralentissent)"
+    },
+    {
+      "idea": "GP sans mana en début de lane : ne pas le respecter",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil de lane"
+    },
+    {
+      "idea": "Baril pré-placé au milieu de lane vers 1:20-1:26 au lvl 1",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil de lane"
+    },
+    {
+      "idea": "Fog of war / bush au lvl 1 pour piéger GP",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, passage peu explicite"
+    }
+  ]
+}

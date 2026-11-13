@@ -64,7 +64,17 @@
     "Elise",
     "Jax",
     "Ornn",
-    "KogMaw"
+    "KogMaw",
+    "Braum",
+    "Fiora",
+    "Senna",
+    "Gangplank",
+    "Chogath",
+    "Aatrox",
+    "Seraphine",
+    "Cassiopeia",
+    "Jinx",
+    "Varus"
   ],
   "inProgress": [],
   "insufficientSources": [
@@ -72,16 +82,6 @@
   ],
   "queueRule": "Un champion par fiche (Data Dragon 16.22.1, 173 champions). Ordre : parties cumulées tous rôles dans les données Builds 16.22 Maître+ (décroissant), puis les champions sans données Builds (ordre alphabétique), puis les champions sortis depuis moins de 6 mois (absents de Data Dragon 16.12.1 : Locke).",
   "queue": [
-    "Braum",
-    "Fiora",
-    "Senna",
-    "Chogath",
-    "Gangplank",
-    "Aatrox",
-    "Seraphine",
-    "Cassiopeia",
-    "Jinx",
-    "Varus",
     "Shen",
     "MonkeyKing",
     "Gnar",
@@ -181,5 +181,7 @@
     "Locke"
   ],
   "retryNote": "Bard, Naafiri : fiches publiées sans vidéo (ou 1 seule) pendant la limitation YouTube du 2026-11-13, à compléter avec des vidéos.",
-  "videoPending": []
+  "videoPending": [
+    "Aatrox"
+  ]
 }

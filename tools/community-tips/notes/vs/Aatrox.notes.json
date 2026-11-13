@@ -1,0 +1,151 @@
+{
+  "searches": 7,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "[0] in lane level five is good. Probably in game level 9 one items his best spike then two items is like okay and then he just sort of falls off.",
+    "[0] you want to do as much as possible during that level 11 one to two item spike while everyone else is weak and if you don't you're going to lose.",
+    "[1] Once you get level five, you can play more aggressive because your Q has lower cooldown and deals more damage.",
+    "[1] any other atrox that plays aggressive, he would ult right now, run towards me, auto attack, and he's just he has way more movement speed.",
+    "[1] You right now you go back to full HP and then you just chase me and kill me",
+    "[2] Atrox is really strong one to two items. Y is really strong at three items.",
+    "[2] because from five to nine his Q's hit a lot harder and YA is not really a strong laner at this point.",
+    "[2] there should be a switch in your mind when he throws every Q and the E. Like even if you're behind like you're going to win the allin.",
+    "[2] once he hits Q1, you can't run backwards, right? He he has his E to catch up to you.",
+    "[2] also in this spirit of the game, you want to dodge his Q's inward",
+    "[3] Aatrox's attacks are very telegraphed, so use the time to dodge the hit zones.",
+    "[3] Aatrox's Infernal Chains are easier to exit when running towards the sides or at Aatrox.",
+    "[3] Keep your distance when Aatrox uses his ultimate to prevent him from reviving."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "2CXi04mpPkM",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (chapitre Aatrox 45:34-49:38) : spikes lvl 5 et 1-2 objets, déclin ensuite"
+    },
+    {
+      "id": "9BcoDuKuXOA",
+      "channel": "Geishuu",
+      "result": "utilisé (30:22-35:42, explication du matchup, point de vue Sett) : lvl 5, ult (vitesse, chase, soin)"
+    },
+    {
+      "id": "ZMeYosCo3U0",
+      "channel": "WD Maverick",
+      "result": "utilisé (1:00, 6:06-6:45, 15:20-16:13, 25:45-26:43, 34:55-35:25) : courbe de puissance, esquive du A vers l'intérieur, fenêtre d'all-in, E après A1"
+    }
+  ],
+  "pagesTried": [
+    {
+      "url": "https://op.gg/lol/champions/aatrox/counters",
+      "result": "stats-only (tips écrits côté Aatrox uniquement)"
+    },
+    {
+      "url": "https://rankedboost.com/league-of-legends/counter/aatrox/",
+      "result": "stats-only"
+    },
+    {
+      "url": "https://wiki.leagueoflegends.com/en-us/Aatrox/Strategy",
+      "result": "ok (section Playing Against, non datée, dernière édition 2026-07-31 : traitée comme mécanique seulement)"
+    }
+  ],
+  "ideas": [
+    {
+      "idea": "Spike au lvl 5 : son A frappe plus fort, trade avant",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Bord du A = knock-up + dégâts bonus : esquiver vers l'intérieur",
+      "sourceIdx": [
+        2,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (tooltip AatroxQ : edge knock-up, edge damage)"
+    },
+    {
+      "idea": "Pic à 1-2 objets en mid game, décline ensuite",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "E utilisable pendant la préparation des sorts : ne pas reculer en ligne droite après un A1",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip AatroxE : usable while winding up other abilities)"
+    },
+    {
+      "idea": "Fenêtre d'all-in quand ses trois A et son E sont utilisés (long CD du A tôt)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (CD A 14/12/10/8/6 s, E 9/8/7/6/5 s)"
+    },
+    {
+      "idea": "Z : sortir de la zone avant le pull",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip AatroxW : leave the impact area or be pulled back and damaged again)"
+    },
+    {
+      "idea": "Direction pour sortir du Z (côtés ou vers Aatrox)",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: géométrie de la zone non vérifiable dans DDragon"
+    },
+    {
+      "idea": "R : vitesse, AD, soins accrus, prolongé par les takedowns ; reculer",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip AatroxR) ; le wiki dit aussi de garder ses distances mais pour une résurrection absente du kit actuel, non compté"
+    },
+    {
+      "idea": "Résurrection pendant le R",
+      "sourceIdx": [
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: contredit par DDragon 16.22.1 (plus de résurrection)"
+    },
+    {
+      "idea": "Anti-heal (Blessures graves) contre ses soins",
+      "sourceIdx": [],
+      "kept": false,
+      "reason": "dropped: passage Geishuu lié à un objet ; BBC dit qu'il soigne moins qu'avant : pas de consensus"
+    },
+    {
+      "idea": "Faible lvl 1-2 face à Sett, fort au lvl 3",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: propre au matchup Sett, 1 source"
+    }
+  ],
+  "videoPending": {
+    "blocked": [],
+    "note": "La 5e recherche YouTube a échoué (page de résultats illisible, possible limitation) : 4e vidéo non ouverte, pas de nouvel essai.",
+    "candidates": [
+      "wktV1ratsL4",
+      "DCQFmkv5CRM"
+    ]
+  }
+}

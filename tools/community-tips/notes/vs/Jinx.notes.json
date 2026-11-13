@@ -1,0 +1,150 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] if you throw them instantly and somebody dashes on you, it's kind of too late. They can get on top of you. So, you want to predict what's going to happen when it comes to chompers",
+    "[0] I'm going to throw chompers in front and then I'm going to hit them. Why? Because now we have a physical barrier",
+    "[0] You throw chompers at the start and suddenly you just block stuff. You block enemies from going on you.",
+    "[0] Instead, do a W, throw an ultimate in multiple people, and then hopefully get your passive, then you can start out attacking and pop off",
+    "[0] They make them like weak in lane phase in the early game. Would you say that Jinx is weak in the early stages of the game?",
+    "[0] this is what makes Jinx actually not that weak early game is the fact that you have AoE out attacks level one",
+    "[0] if you can just push every wave and don't interact with the enemy that's great you're scaling right. So pushing generally I want to do it.",
+    "[0] You want to hit the minions and the wave. [...] I see Dra is right next to the wave. So I hit the minion before he even gets up close to auto attack. And this way I push the wave and I also hit the D.",
+    "[0] you don't have defensive tools besides your flash and maybe chompers, which are unreliable",
+    "[0] you play against Tristana, you throw chompers in there, she instantly jumps and goes through them",
+    "[1] jinx is a hyper carry meaning she has a weak early game but spikes hard in the mid to late game",
+    "[1] for an immobile ADC you would expect her to be a lot more reliant on her team to peel her than she really is",
+    "[1] the traps from her e can quite literally be a big obstacle for the enemy diver to get past and her W scaling all the way up to an 80% slow on a 4sec cool down I think makes it an extremely underrated form of self peel",
+    "[1] this favors the Draven on average because he's a stronger early game champion and will deal more damage than my Jinx and will therefore have more impact in early ganks if we Skirmish over Drake or Scuttle Crab in the river",
+    "[1] adcs who have too easy a Time forcing engages on her such as twitch and Tristana are also tough for her to deal with as well as Miss Fortune who punishes immobile ads such as Jinx for lacking an immediate tool to escape her ultimate",
+    "[1] this would be very easy to achieve on Jinx who has by far the best level one wave clear of any adc so that you have to intentionally hold back from pushing too fast since pushing for level two is so easy for you",
+    "[1] while trying to get the damage to Splash onto the enemy if they're trying too hard to walk forwards and trade with you",
+    "[1] tip number 16 is to use your passive movement speed from destroying a turret to try and catch out nearby enemies who aren't respecting your incoming burst of movement speed",
+    "[2] Essentially, upon getting a kill, she gets a a ton of decaying movement speed",
+    "[2] it stacks per each kill and refreshes, so you can just mow down whole teams.",
+    "[2] Jinx's weakness is sort of laning phase as she doesn't have a lot of fighting potential, but she can play her a lot around the wave with her cannon.",
+    "[2] She just sends a slowing projectile in a line. [...] it reveals, it gives vision",
+    "[2] When you're playing against divers, it's better to put Chompers on top of yourself to cut off like their dive on you",
+    "[2] The damage scales with distance and missing HP"
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "i__BMNhAwus",
+      "channel": "We Teach League | Broken By Concept",
+      "result": "utilisé (passages 21:11-21:42, 23:43, 26:24-27:01, 31:37, 32:38-34:01, 47:19, 1:12:59) ; invité Tonirel, Challenger, 2026-08-19"
+    },
+    {
+      "id": "g_eMNs26Oyw",
+      "channel": "Vapora Dark",
+      "result": "utilisé (passages 0:13, 4:21-4:31, 5:52, 8:26, 14:29, 15:16, 47:48) ; 2025-02-09, moins de 2 ans"
+    },
+    {
+      "id": "-3AWXiuos_E",
+      "channel": "Crownie",
+      "result": "utilisé (passages 3:59-4:13, 4:37-5:11, 5:42-6:04) ; 2026-05-17"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Jinx n'a aucun dash : engage/gank quand son Flash est en CD",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (aucun déplacement dans le kit, E = pièges, W = slow)"
+    },
+    {
+      "idea": "Passif Enthousiasme : MS/AS à chaque takedown ou structure, la tuer avant qu'elle participe à un kill",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (passif : takedown champion, monstre épique, structure)"
+    },
+    {
+      "idea": "Pyromâcheurs (E) posés devant/sur elle contre les dives : contourner ou attendre l'expiration",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (durée limitée, explosent au contact d'un champion, root)"
+    },
+    {
+      "idea": "Zap (W) slow + révèle le premier ennemi touché : rester derrière les sbires",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (slow, révélation) + DDragon (premier ennemi touché, donc bloqué par les sbires)"
+    },
+    {
+      "idea": "Roquettes du Flip flap (A) en zone : ne pas coller aux sbires qu'elle frappe",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (dégâts à la cible et aux ennemis proches)"
+    },
+    {
+      "idea": "Meilleure wave clear lvl 1 : elle prend souvent le lvl 2 en premier, reculer à ce moment",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources (lane)"
+    },
+    {
+      "idea": "Faible en combat en début de partie : jouer ganks, escarmouches, premiers drakes avant qu'elle scale",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources (macro) ; Tonirel [0] nuance (pas si faible en lane grâce au splash lvl 1), d'où une formulation sur la puissance en combat"
+    },
+    {
+      "idea": "Super roquette (R) globale, dégâts sur PV manquants, bloquée seulement par un champion",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (explose sur le premier champion ennemi touché, % PV manquants)"
+    },
+    {
+      "idea": "Champions qui outrange et poussent vite : la bloquer sous sa tour",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 seule source, conseil de lane"
+    },
+    {
+      "idea": "Chaque roquette coûte du mana : punir une Jinx qui spam",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, et la punition est une déduction non sourcée"
+    },
+    {
+      "idea": "W et E servent à checker les buissons (vision)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: la vision du E n'est pas dans Data Dragon, et 8 tips max"
+    }
+  ]
+}

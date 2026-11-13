@@ -1,0 +1,149 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] essentially senna's bad matchups are going to be anything that's like a hook champ or Mages where if I do get caught once I like die",
+    "[0] her best matchups are going to be into enchanters that can't really trade back as well like Senna has really good trade patterns because her Q does damage and it also heals so you went out on most trades",
+    "[0] it definitely does feel bad going into the mid L game with like no souls cuz yeah your ranges are super short but sometimes in a really aggressive Lane like this you sometimes just have to sit back",
+    "[1] She's a very unique champion because she doesn't actually get AD per level. She gets AD when collecting souls from the target. Soul I collect is essentially one AD, 0.75, but it obviously rounds up. And every 20 stacks I get 20 range and 10% critical strike chance.",
+    "[1] She is I think the squishiest AD carry in the game, or maybe after Caitlyn",
+    "[1] Otherwise, just take flat HP if it's a hard lane like into a Draven or a Samira or something like that. Kalista, the one to all-in you. Tristana.",
+    "[1] Senna W. The way it works, it's a line skill shot that whatever it hits, it will root after a single second",
+    "[1] Her E camouflages herself and her allies. For example, you can use her E in a bush. You cannot see your ally walking out of it, so it's very good to combo that for ganks.",
+    "[1] As I said, her weakest part in lane is damage early and wave clear.",
+    "[1] You can set up ganks with your camouflage, you can heal people, you can root enemies, and you can ult globally",
+    "[1] Mid game, when you go to mid wave, follow your jungler around. It's the most important thing you should do on Senna.",
+    "[1] I'm taking two souls from wraiths. I walk to blue, I take another soul, I walk to golem, I take another soul.",
+    "[2] To reliably hit ult in lane, try to queue the enemies to slow them, making it very hard to dodge. If you hit W, wait until a route applies before casting ult or the enemies can flash out of it.",
+    "[2] Another cool trick you can go for is transferring a teammate from one bush to the other using the E mechanic I showed at the start of the video. You can also act like you over step, then use E and help your channel get into a bush for a lane gank.",
+    "[2] Your attack speed is very low and your Q barely deals damage on minions in early levels. Then is also not very good at all ining just because of her low DPS in early game. But what she's very excellent at is slowly choking out the enemy, taking a small trade, and then healing back up",
+    "[2] The push is really uncontestable as you can see and and that is also the weakest point of center and what will make it hard for your team to play in a lot of cases is enemy pushing and then roaming with their support.",
+    "[2] You can roam around the map more because of that. And um yeah, you're able to get more jungle camp souls or just souls on other lanes.",
+    "[2] We can generally see low range is pretty bad into Senna because she just outranges and farms souls easily on them. While high range is really hard to deal with because if they outrange you, you can't farm souls on them",
+    "[2] on AD carry center, the easiest way to get souls is from trading a lot versus enemies, right? Uh rather than farming minions since the soul drop rate is lower when you last hit them."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "HnhSwubsB1k",
+      "channel": "ShoDesu",
+      "result": "utilisé (passages 0:16-0:40, 2:46-3:30) ; publié 2024-12-17, moins de 2 ans"
+    },
+    {
+      "id": "208QdCtlnf8",
+      "channel": "Crownie",
+      "result": "utilisé (passages 0:12-0:40, 3:12, 4:14-4:53, 5:45, 9:31-10:45)"
+    },
+    {
+      "id": "9CDnbRftunc",
+      "channel": "Bibou - League of Legends",
+      "result": "écarté : aucun conseil sur Senna dans les sous-titres (gameplay commenté sans matchup)"
+    },
+    {
+      "id": "5sCAkdITiLU",
+      "channel": "Reptile9LoL",
+      "result": "utilisé (passages 2:16-3:36, 4:00-5:40, 8:19-8:48, 11:00-11:43)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Éviter les petits trades (soin du A), chercher l'all-in : DPS early faible",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources"
+    },
+    {
+      "idea": "Pas d'AD par niveau, les âmes donnent AD/portée/crit ; ne pas lui offrir d'autos gratuites",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources (+ DDragon : attackdamageperlevel 0, passif Absolution)"
+    },
+    {
+      "idea": "Root de la Z après un délai, touche aussi les ennemis proches : s'écarter des alliés",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (W : délai puis root de la cible et des ennemis proches)"
+    },
+    {
+      "idea": "E près d'un bush : alliés camouflés, gank possible",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (E : alliés camouflés, identités masquées)"
+    },
+    {
+      "idea": "Très squishy, un hook ou un catch la tue",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Waveclear early faible : push puis roam/ward avec le support",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Mid game elle suit son jungler pour les âmes des camps : vision dans sa jungle pour la catch",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Slow du A ou root de la Z annonce son R",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Q slow, W root, R rayon qui blesse les ennemis touchés)"
+    },
+    {
+      "idea": "Si la Z tue la cible, le root est instantané",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Les ADC à longue portée lui refusent les âmes",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil de pick (fusionné dans l'idée âmes/autos gratuites)"
+    },
+    {
+      "idea": "Elle ne peut pas contester les bushes en lane agressive",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: dit du point de vue de Senna, trop situationnel"
+    }
+  ]
+}

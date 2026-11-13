@@ -1,0 +1,122 @@
+{
+  "searches": 6,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] His hook stops on the first enemy hit. Braum's shield just blocks it, and the rest of them close the distance before his hook comes back up.",
+    "[0] That's why Braum beats Nautilus 56% of the time. Nautilus's hook is a projectile and Braum's shield will eat it. But Rell, Leona, and Alistar don't throw anything. They just run at you and Braum loses to all three because of that.",
+    "[0] And here's where disengage fails. Braum's shield doesn't stop a dash, so Rell is still strong against him.",
+    "[1] He's best drafted as a counter into melee or hook heavy supports which is why this is a good pick here. In general, you want to avoid blind picking him. While his counter engage is strong, he lacks reliable engage tools, so into range supports, he can end up having very little impact.",
+    "[1] This is why Braum is like so good against hook champs. If you get hooked, you just throw out E and then you're just chilling.",
+    "[2] Basically, when you play Braum, you want to auto or queue every enemy at least once. Then, don't stop hitting so you can get as many stuns as possible.",
+    "[2] And even though I have a shield that blocks projectiles, this matchup was a lot harder than I thought it was going to be. You see, Braum is more of a counter-pick than a blind pick. He's great for shutting down engage supports with all of his CC and peel, but ranged supports can be kind of difficult.",
+    "[2] One, against ranged supports, you need to play aggressive and look for an engage. You will always lose the poke battle, even if you block some stuff with your shield.",
+    "[2] But, defensively, if the enemy team has a lot of engage, wait until they jump on you and use it to disengage and peel for your carries.",
+    "[2] Basically, you W to an allied minion that's close to the enemy and Q them for a pretty long range engage. And five, your poke is surprisingly strong, especially for a tanky support, but you have to shoot your Q from the bushes so the enemy doesn't see it coming. If you just use it randomly, it's pretty easy to dodge."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "D7DemQewZqM",
+      "channel": "TheRealRaven",
+      "result": "utilisé (passages 4:26, 6:51, 13:53) ; en-orig"
+    },
+    {
+      "id": "09HY5jwixsY",
+      "channel": "ShoDesu",
+      "result": "utilisé (passages 0:03, 4:08) ; d'abord demandé en fr par erreur (piste traduite automatiquement, non utilisée), puis en-orig"
+    },
+    {
+      "id": "PpRAub0yVfM",
+      "channel": "EcoreLoL",
+      "result": "utilisé (passages 1:26-5:13, chapitres Counters and difficulties / Advanced gameplay tips) ; en-orig"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Ne pas lancer hook/skillshots dans son E, attendre le CD",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (E intercepte les projectiles, CD 16/14/12/10/8)"
+    },
+    {
+      "idea": "Support ranged : poke Braum, il manque d'engage fiable et perd le poke",
+      "sourceIdx": [
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Passif : les autos alliées empilent après le premier stack, 4 stacks = stun",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (passif Coups étourdissants)"
+    },
+    {
+      "idea": "A touche le premier ennemi, lancée depuis les bushes",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (tooltip : first enemy hit, portée 1000)"
+    },
+    {
+      "idea": "Z sur un sbire proche puis A pour engage long",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Z cible champion ou sbire allié, portée 650)"
+    },
+    {
+      "idea": "E ne bloque pas les dashs, seulement les projectiles",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (E intercepte les missiles)"
+    },
+    {
+      "idea": "R gardé en défense contre ceux qui plongent sur son carry",
+      "sourceIdx": [
+        2
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (R knock-up autour de Braum et en ligne)"
+    },
+    {
+      "idea": "Braum perd contre les engages sans projectile (Rell, Leona, Alistar)",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: contredit par [1] et [2] (bon contre les supports mêlée/engage) ; seule la mécanique du dash est gardée"
+    },
+    {
+      "idea": "Compo poke (Zyra, Xerath, Vel'Koz) écrase Braum en teamfight",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: macro, 1 seule source"
+    },
+    {
+      "idea": "Les Wardens perdent la lane et gagnent les longues parties",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: générique à la classe, 1 seule source"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "champion": "Ziggs",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Mines puis bombe", "en": "Mines then bomb" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Mines Hexplosives (E) sur ta cible pour la ralentir, puis Bombe rebondissante (A) là où elle se déplace. Ralentie, elle a bien plus de mal à esquiver ta bombe.",
+        "en": "Throw Hexplosive Minefield (E) on your target to slow them, then Bouncing Bomb (Q) where they are moving. Once slowed, they have a much harder time dodging your bomb."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "All-in complet", "en": "Full all-in" },
+      "keys": ["Q", "E", "W", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Ouvre avec une auto, puis Bombe rebondissante (A), Mines Hexplosives (E), Charge explosive (Z) et finis avec Méga bombe infernale (R). Chaque sort réduit le CD de Mèche courte : glisse des autos entre tes sorts.",
+        "en": "Open with an auto, then Bouncing Bomb (Q), Hexplosive Minefield (E), Satchel Charge (W) and finish with Mega Inferno Bomb (R). Each spell lowers Short Fuse's cooldown: weave autos between your spells."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Charge de retour", "en": "Satchel pull-in" },
+      "keys": ["W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Charge explosive (Z) derrière l'ennemi et fais-la exploser : il est projeté vers toi ou vers ta tour. Enchaîne Mines Hexplosives (E) et Bombe rebondissante (A) pendant qu'il revient.",
+        "en": "Place Satchel Charge (W) behind the enemy and detonate it: they get knocked toward you or your turret. Follow up with Hexplosive Minefield (E) and Bouncing Bomb (Q) while they come back."
+      },
+      "refs": [0, 2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Fais exploser Charge explosive (Z) sur toi pour sauter par-dessus un mur, en fuite comme en poursuite. Plus tu es près du centre, plus tu vas loin. Certains murs restent trop épais : teste-les en partie perso.",
+        "en": "Detonate Satchel Charge (W) on yourself to jump over a wall, to escape or to chase. The closer you are to the center, the farther you go. Some walls stay too thick: test them in a custom game."
+      },
+      "refs": [0, 3, 4]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Réactive Charge explosive (Z) pendant qu'elle vole : elle explose dès qu'elle touche le sol. Tu n'attends pas de la réactiver au sol, pour sauter ou repousser tout de suite.",
+        "en": "Recast Satchel Charge (W) while it is still flying: it blows up as soon as it lands. You do not wait to recast it on the ground, so you jump or knock back right away."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant le saut de Charge explosive (Z), tu peux lancer tous tes sorts. Balance Mines Hexplosives (E) ou Bombe rebondissante (A) en l'air : tu fuis sans perdre de dégâts.",
+        "en": "During the Satchel Charge (W) jump, you can cast all your spells. Throw Hexplosive Minefield (E) or Bouncing Bomb (Q) mid-air: you escape without losing damage."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Si un ennemi te colle, fais exploser Charge explosive (Z) entre vous deux : il part d'un côté, toi de l'autre. Mal placée, elle ne pousse que toi. Immobilisé ou cloué au sol, tu ne sautes pas.",
+        "en": "If an enemy is on top of you, detonate Satchel Charge (W) between you: they fly one way, you the other. Badly placed, it only pushes you. While immobilized or grounded, you do not jump."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "L'explosion de Charge explosive (Z) détruit d'un coup une tour ennemie sous 25 à 35 % de ses PV max. Garde ton sort pour la poser sous la tour dès qu'elle passe ce seuil.",
+        "en": "The Satchel Charge (W) explosion destroys an enemy turret below 25 to 35% of its max health in one go. Keep the spell to place it under the turret once it drops past that threshold."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort lancé réduit le CD de Mèche courte de 4 à 6 secondes. Alterne sort et auto pour placer ton attaque renforcée plus souvent. Elle ne se déclenche pas sur une balise.",
+        "en": "Each spell you cast lowers Short Fuse's cooldown by 4 to 6 seconds. Alternate spell and auto to land your empowered attack more often. It does not trigger on a ward."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Bombe rebondissante (A) passe par-dessus les murs et les unités, et explose sur place si elle retombe dans un mur. Tu peux viser derrière un mur ou une wave sans qu'elle bloque.",
+        "en": "Bouncing Bomb (Q) flies over walls and units, and explodes on the spot if it lands inside a wall. You can aim behind a wall or a wave without it getting blocked."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Méga bombe infernale (R) met environ 1,6 s à tomber jusqu'à 2700 unités, et jusqu'à 2,6 s à portée max. De très loin, vise où ta cible sera, pas où elle est.",
+        "en": "Mega Inferno Bomb (R) takes about 1.6 s to land up to 2700 units away, and up to 2.6 s at max range. From very far, aim where your target will be, not where they are."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Ziggs - League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Ziggs", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Ziggs Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=39ixYYkBGi8", "type": "video", "date": "2024-09-12", "author": "3 Minute League of Legends" },
+    { "title": "Challenger Midlaner Teaches you how to carry with Ziggs mid", "url": "https://www.youtube.com/watch?v=d3G8NZOBmm8", "type": "video", "date": "2025-08-04", "author": "Sjorry" },
+    { "title": "GUIDE ZIGGS - BUILD, RUNES & COMBOS (Ft DDMonkey)", "url": "https://www.youtube.com/watch?v=Vl80SLF60CU", "type": "video", "date": "2023-12-01", "author": "iReaz - League of Legends" },
+    { "title": "Ziggs Tips - Metabot", "url": "https://metabot.gg/en/league/champion/Ziggs/tips", "type": "guide", "date": "2026-11-13", "author": "Dakota Chinnick" }
+  ]
+}

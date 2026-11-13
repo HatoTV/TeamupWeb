@@ -1,0 +1,126 @@
+{
+  "champion": "Zed",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade court Z, E, A", "en": "Short trade W, E, Q" },
+      "keys": ["W", "E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Ombre vivante (Z) juste à côté de l'ennemi, puis Taillade des ombres (E) et Shuriken-rasoir (A). L'ombre décalée rend le double shuriken bien plus dur à esquiver.",
+        "en": "Cast Living Shadow (W) just beside the enemy, then Shadow Slash (E) and Razor Shuriken (Q). The offset shadow makes the double shuriken much harder to dodge."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in en triangle d'ombres", "en": "Shadow triangle all-in" },
+      "keys": ["W", "R", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose Ombre vivante (Z) près de ta cible, puis Marque de la mort (R) : une seconde ombre reste à ton point de départ. Enchaîne Taillade des ombres (E) et Shuriken-rasoir (A) depuis les trois positions.",
+        "en": "Drop Living Shadow (W) near your target, then Death Mark (R): a second shadow stays where you started. Chain Shadow Slash (E) and Razor Shuriken (Q) from all three positions."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Taillade à l'arrivée de l'ombre", "en": "Slash as the shadow lands" },
+      "keys": ["W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Taillade des ombres (E) pendant que ton Ombre vivante (Z) file vers sa position : elle tranche dès qu'elle se pose. L'ennemi n'a pas le temps de sortir de la zone.",
+        "en": "Cast Shadow Slash (E) while your Living Shadow (W) is still traveling: it slashes as soon as it lands. The enemy has no time to leave the area."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Quand toi et ton ombre touchez la même cible avec le même sort, Ombre vivante (Z) te rend de l'énergie, une fois par lancer. Rien si un bouclier de sort bloque la copie.",
+        "en": "When you and your shadow hit the same target with the same ability, Living Shadow (W) restores energy, once per cast. Nothing if a spell shield blocks the copy."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Relance Ombre vivante (Z) pendant l'incantation de Shuriken-rasoir (A) : un shuriken part de ta position de départ, et tu lances celui de l'ombre depuis ta nouvelle position. Tu ne perds aucun shuriken.",
+        "en": "Recast Living Shadow (W) during the Razor Shuriken (Q) cast: one shuriken leaves from your starting spot, and you throw the shadow's one from your new spot. You lose no shuriken."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque champion touché par ta propre Taillade des ombres (E), pas celle de l'ombre, réduit le CD d'Ombre vivante (Z) de 3 secondes.",
+        "en": "Each champion hit by your own Shadow Slash (E), not the shadow's, cuts Living Shadow (W) cooldown by 3 seconds."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Seule la Taillade des ombres (E) de tes ombres ralentit. Touche ta cible avec deux taillades à la fois pour renforcer le slow de 50 %, une troisième n'ajoute rien.",
+        "en": "Only your shadows' Shadow Slash (E) slows. Hit your target with two slashes at once to boost the slow by 50%; a third adds nothing."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Marque de la mort (R) te rend intouchable pendant 0,6 seconde avant le dash : idéal pour esquiver un sort. En revanche, Flash est bloqué pendant ce temps.",
+        "en": "Death Mark (R) makes you untargetable for 0.6 seconds before the dash: great to dodge a spell. However, Flash is locked during that time."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "L'ombre de Marque de la mort (R) s'échange à n'importe quelle distance, 0,5 seconde après ta réapparition, mais pas dans ses 1,25 dernières secondes. Ne garde pas ton retour pour la toute fin.",
+        "en": "The Death Mark (R) shadow can be swapped at any range, 0.5 seconds after you reappear, but not in its last 1.25 seconds. Don't save your swap for the very end."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Root ou ground, tu ne peux plus relancer Ombre vivante (Z) pour t'échanger. Ton ombre ne te sauve pas d'un root : garde-la pour après.",
+        "en": "While rooted or grounded, you can't recast Living Shadow (W) to swap. Your shadow won't save you from a root: keep it for afterward."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Mépris des faibles se déclenche sur une cible sous 50 % de PV, vérifiée à l'impact de ton attaque, et une seule fois toutes les quelques secondes par champion.",
+        "en": "Contempt for the Weak triggers on a target below 50% health, checked when your attack lands, and only once every few seconds per champion."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zed - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zed",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "3 Minute Zed Guide - A Guide for League of Legends",
+      "url": "https://www.youtube.com/watch?v=hUnOvpyL1us",
+      "type": "video",
+      "date": "2026-04-07",
+      "author": "3 Minute League of Legends"
+    },
+    {
+      "title": "Best Zed Build & Guide (2026) — League of Legends",
+      "url": "https://www.dodge.gg/lol/news/zed-build-2026",
+      "type": "guide",
+      "date": "2026-03-23",
+      "author": "Dodge.gg"
+    }
+  ]
+}

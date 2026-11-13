@@ -1,0 +1,47 @@
+{
+  "searches": 1,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "After casting an ability, Zoe empowers her next basic attack or Spell Thief bolt within 5 seconds to become non-projectile and deal bonus magic damage.",
+    "Both casts count as ability activations for the purposes of on-cast effects such as More Sparkles!, Spellblade and triggering Force Pulse passive.",
+    "The star lingers at maximum range for 1 second, during which Paddle Star! can be recast after 0.25 seconds in the duration.",
+    "Zoe redirects the star in the target path, empowering it with increased speed and radius. The redirected star can travel until it reaches 800-units outbound from Zoe and its total damage is increased by distance traveled, excluding the distance traveled by the initial cast.",
+    "Paddle Star!'s recast can be used while affected by cast-inhibiting crowd control.",
+    "Whenever Zoe casts Spell Thief or a summoner spell, she gains bonus movement speed for a duration, and summons three bolts that orbit her for the next 10 seconds.",
+    "Zoe will cast Spell Thief in place of her own summoner spells if she has either of them as a collected Spell Shard, even if she tries to cast the summoner spell while it is on cooldown.",
+    "The bubble can move through terrain only once, but travels the entire distance as bonus range, and will fall short if it would enter terrain again.",
+    "The next instance of non-persistent damage from champions, large monsters or turrets against the target, within 3.25 seconds of the sleep being applied, ends the sleep prematurely if it is active and deals bonus true damage equal to the post-mitigation damage dealt, capped at Sleepy Trouble Bubble's damage.",
+    "The missile's maximum range location, or end position, is determined at the start of the cast and as such will always be fired to the same spot regardless of where Zoe is at the end of the cast time.",
+    "If Sleepy Trouble Bubble is cast right before she blinks back to Portal Jump's original cast position, the range of the missile will be extended for it to fire to the same end position as if she had not blinked back.",
+    "Zoe blinks in the target direction and remains there for 0.95 seconds to 1.25 seconds, during which she sets her movement speed to a static 0 and has unobstructed vision. Afterwards, she blinks back to her casting position.",
+    "Portal Jump resets Zoe's basic attack timer.",
+    "Zoe is able to perform any action while at the blink destination, except practically being unable to move through normal movement due to having 0 movement speed.",
+    "Portal Jump will always cause Zoe to blink back to her casting position regardless of where she is moved to while at the destination.",
+    "the key mechanic is casting Q backwards, then using Portal Jump to blink forward and recasting Q toward the target",
+    "Pre-level 6, Zoe's trading pattern is: throw E at the enemy laner, and if it connects, immediately cast Q backwards, walk forward, and redirect Q",
+    "Portal Jump forward to cast E at close range where it's harder to dodge",
+    "Whenever Zoe casts a summoner spell (including stolen ones), she gains 30/40/50/60/70% bonus movement speed",
+    "The bubble can travel through terrain, extending its range significantly.",
+    "win an early trade with Zoe. Q auto Q auto. This is one of the highest damage trade combos in all of League, and when executed properly, very few champions can match it.",
+    "After E lands, throw Q behind you or around minions, then recast it onto the sleeping target. Let the Q connect first, then instantly follow with an auto attack. Do not auto attack before Q lands, you'll lose a large portion of your damage",
+    "Once you've landed E, whether from long range or when an enemy walks into the puddle, throw Q backwards, use R towards the target, then recast Q, and finish with an auto if you're in range. This is Zoe's highest damage combo.",
+    "Use R to extend your Q for maximum damage. Throw Q backwards, then R forward and redirect Q for a much longer travel distance.",
+    "R E Q Q auto. These are your core combos.",
+    "Use bubble through walls to extend its range. Terrain stretches the cast, making it harder to react to and giving Zoe strong pick potential around walls.",
+    "If you have flash on W, pressing your normal D or F key will use the W flash, not your summoner spell. Most players don't realize this. It saves your real flash cool down, and lets you use your normal muscle memory in combos.",
+    "Even though damage normally wakes up enemies from sleep, ignite doesn't. You can use it early without breaking your E.",
+    "You can't pre-buffer E like other champions. If you throw E first then flash, it won't extend the range. Instead, flash first then instantly cast E to catch enemies off guard from unexpected range.",
+    "for combos your massive burst combo is to land your e and then throw Q backwards reactivate q and use ultimate to extend the range for massive damage",
+    "Zoe's W has a passive where when she uses this ability or her own Summoner spell she gains a burst of movement speed and summons three bolts that fire in nearby enemies"
+  ],
+  "rejected": [
+    { "idea": "A, A puis Flash au dernier moment pour allonger la portée de l'étoile (Zoose)", "reason": "Une seule source joueur ; le wiki ne décrit pas l'interaction avec Flash (déduite seulement de la limite de 800 unités autour de Zoé)." },
+    { "idea": "Bond dimensionnel puis Flash pendant l'incantation puis Bulle soporifique (Zoose)", "reason": "Une seule source joueur, interaction non confirmée par le wiki." },
+    { "idea": "Plusieurs Flash volés enchaînés pendant le vol de l'étoile (Zoose)", "reason": "Une seule source." },
+    { "idea": "Bulle sur un ennemi en stase (Sablier de Zhonya, résurrection) : il se réveille déjà endormi (Zoose)", "reason": "Une seule source, non décrit par le wiki." }
+  ],
+  "toVerifyInGame": [
+    "Bulle soporifique lancée juste avant le retour de Bond dimensionnel : fenêtre de timing très courte (wiki).",
+    "Murs « trompeurs » que la bulle ne traverse pas (Zoose) : tester les murs fins et épais en partie perso."
+  ]
+}

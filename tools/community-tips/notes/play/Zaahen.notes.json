@@ -1,0 +1,53 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Zaahen empowers his next basic attack within 4 seconds to have an uncancellable windup and gain 25 bonus range. On-attack, he strikes the target twice.",
+    "After 1.5 seconds of using the empowered attack, The Darkin Glaive can be recast within the next 4 seconds at no additional cost, modifying it with a new effect.",
+    "Recast: Zaahen empowers his next basic attack within 4 seconds to have an uncancellable windup, gain 25 bonus range, deal bonus physical damage and knock up the target for 0.75 seconds.",
+    "Upon reaching maximum range, all enemies hit are dealt physical damage, stunned for 0.25 seconds, and pulled 225 units toward Zaahen.",
+    "Both passes of W can generate a stack. Both E swing and R shockwave generate a stack for every champion hit.",
+    "Aureate Rush has no minimum dash range.",
+    "Aureate Rush's flourish can be performed quicker if the dash stops shortly.",
+    "Enemies hit by the outer edge are dealt increased physical damage and bonus magic damage.",
+    "The Darkin Glaive and its recast are usable. Dreaded Return and Grim Deliverance are disabled.",
+    "If the dash is interrupted, Zaahen will fail to deal damage. Zaahen will, however, deal damage if the dash is interrupted at the very end of its movement, shortly before the damage would occur.",
+    "This means he can redirect the damage location if he interrupts the dash by using a blink (such as with Flash) at the correct timing.",
+    "Zaahen gains crowd control immunity over the cast time, then launches with displacement immunity into the air to the target location.",
+    "Zaahen is unable to act and gains 50% damage reduction from the start of the cast time.",
+    "If Zaahen blinks or has his dash otherwise interrupted while ascending into the air, Grim Deliverance's effects are canceled; he will not slam the ground.",
+    "Upon the resurrection being triggered, all summoner spells that are not already on cooldown are placed on a 5-second cooldown.",
+    "[Skill-Capped] The first is Q2, then W. The guaranteed knockdown of Q ensures the throwing of power W for a long series of control blocking.",
+    "[Skill-Capped] executing Q on a follower, then approaching with the ability E or a lightning move, and executing Q2 then W for one of the best track support setups in the game.",
+    "[Skill-Capped] By pressing W before the lightning move, you hide the long motion effects, which helps you catch enemies suddenly.",
+    "[Skill-Capped] if you try to use the Blitz while executing an E, you will cancel the rip strike instead, and you will not do any damage, unless you know the perfect timing.",
+    "[Skill-Capped] Be sure to hit your enemies with the outer edge of the weapon strike, as you will inflict damage proportional to your opponent's maximum health as bonus damage.",
+    "[Skill-Capped] hitting the target with the W ability will immediately grant you two latent stacks for each hero drawn",
+    "[Misanthiel] si jamais vous mettez votre flash au moment où la light box sur le point d'arrivée, les dégâts vont partir.",
+    "[Misanthiel] la position à laquelle les ennemis vont être repoussés ou attirés vers vous selon le spell va en fait varier non pas selon le moment où vous êtes quand vous lancez le spell mais selon le moment où vous êtes au moment où le spell connecte.",
+    "[Misanthiel] Il peut tout simplement faire un E sur place. Et comme le constater, un sur place permet de sortir plus rapidement.",
+    "[Misanthiel] vous pouvez aussi E contre un mur.",
+    "[Misanthiel] votre personnage va quasiment pas s'arrêter tout simplement. Vous allez pouvoir bouger immédiatement comme si vous n'aviez que E.",
+    "[Misanthiel, traduction auto] the Z2, if it catches several targets, will not generate four stacks but 8 stacks.",
+    "[Srtty] use a Q1 on a minion, then E towards the enemy with your knockup charged, hitting them both with your E and then the Q2 auto.",
+    "[Srtty] auto Q1, E, auto, Q2, W, ult.",
+    "[Srtty] A mechanic for his W is that you're able to W flash. This is a similar role to Q2 flash, but is AOE and can hit multiple enemies.",
+    "[Srtty] You can E flash, but I would not recommend it as the window is extremely small and nearly impossible to pull off.",
+    "[Srtty] short E to speed up the cast time or using a wall to cancel it entirely."
+  ],
+  "rejected": [
+    { "idea": "Incursion dorée (E) traverse les petits murs", "reason": "Une seule source (Skill-Capped), rien dans les notes du wiki : franchissement non retenu." },
+    { "idea": "Retour redoutable (Z) attire un ennemi collé à un mur de l'autre côté", "reason": "Une seule source (Skill-Capped), non confirmé par le wiki." },
+    { "idea": "Libération inexorable (R) franchit un mur comme un Flash", "reason": "Une seule source (Misanthiel) ; la note wiki sur la distance au-dessus du terrain est masquée (commentaire), donc pas explicite." },
+    { "idea": "Lancer Retour redoutable (Z) ou Libération inexorable (R) au moment de mourir pour qu'il parte pendant la résurrection", "reason": "Une seule source (Misanthiel) ; le wiki précise que l'attraction de Z n'a pas lieu si Zaahen est mort quand le sort atteint sa portée max." },
+    { "idea": "E puis Z bufferisé pendant le dash", "reason": "Une seule source ; le wiki indique que Z est désactivé pendant le dash." },
+    { "idea": "Flash pour rediriger l'attraction de Retour redoutable (Z)", "reason": "Interaction Flash montrée par une seule source (Misanthiel) : l'astuce ne garde que le déplacement (attraction vers Zaahen, confirmée par le wiki)." },
+    { "idea": "Relance chargée de Glaive des Darkin (A) puis Flash sur un carry", "reason": "Confirmé par Skill-Capped et Srtty, mais non gardé faute de place (5 combos max)." },
+    { "idea": "Fenêtres de 5 + 5 secondes pour la relance de A (Skill-Capped)", "reason": "Valeurs différentes du wiki au patch 16.22 (1,5 s de délai puis 4 s + 4 s) : chiffres du wiki retenus." }
+  ],
+  "toVerifyInGame": [
+    "E-Flash : le wiki classe cette interaction comme un bug (origine V25.23) ; vérifier qu'elle marche encore au patch 16.22.",
+    "Z-Flash : le Flash pendant l'incantation de Retour redoutable garde bien l'angle de visée par rapport à Zaahen.",
+    "Déplacement après le premier impact de Retour redoutable (Z) : l'attraction suit bien la nouvelle position de Zaahen."
+  ]
+}

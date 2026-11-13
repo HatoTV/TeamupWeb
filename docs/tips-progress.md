@@ -224,16 +224,16 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Yunara (3 combos, 7 astuces)
 - ✅ Yuumi (2 combos, 6 astuces)
 
-### Lot 17 — ⏳
+### Lot 17 — ✅
 
-- ⏳ Zaahen
-- ⏳ Zac
-- ⏳ Zed
-- ⏳ Zeri
-- ⏳ Ziggs
-- ⏳ Zilean
-- ⏳ Zoe
-- ⏳ Zyra
+- ✅ Zaahen (4 combos, 8 astuces)
+- ✅ Zac (4 combos, 8 astuces)
+- ✅ Zed (3 combos, 8 astuces)
+- ✅ Zeri (3 combos, 8 astuces)
+- ✅ Ziggs (3 combos, 8 astuces)
+- ✅ Zilean (4 combos, 6 astuces)
+- ✅ Zoe (4 combos, 8 astuces)
+- ✅ Zyra (4 combos, 5 astuces)
 
 ## Problèmes
 

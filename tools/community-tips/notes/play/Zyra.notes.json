@@ -1,0 +1,41 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Periodically, Zyra spawns one or two Seeds nearby that last for 30 seconds, granting sight over the surrounding area for 1 second.",
+    "After 1 second, enemy champions can destroy Seeds by moving on top of them.",
+    "Zyra does not plant any Seeds if she is concealed within a brush (unless there is an enemy ward in it, in which case it takes her a little longer to plant the Seed) or when there is no room for additional ones.",
+    "Zyra sprouts thorny spines at the target location that appear after a 0.625-seconds delay, dealing magic damage to enemies hit.",
+    "If Deadly Spine hits a Seed, it sprouts into a Thorn Spitter that lasts for 8 seconds.",
+    "Zyra plants a Seed at the target location that remains for 60 seconds and grants sight over the surrounding area, though decreasing in radius after 1 second. After 1.5 seconds, enemy champions can destroy the Seed by stepping on it, which reveals them for 2 seconds.",
+    "Zyra periodically stocks a Seed charge, up to a maximum of 2. Killing an enemy generates 35% charge toward a Seed, increased to 100% for large enemies and whenever scoring an enemy champion takedown.",
+    "Zyra shoots a surge of vines in the target direction that deals magic damage to enemies hit and roots them for a duration.",
+    "If Grasping Roots hits a Seed, it sprouts into a Vine Lasher that lasts for 8 seconds.",
+    "Zyra summons a monstrous thicket at the target location that deals magic damage to enemies hit as it expands.",
+    "After 2 seconds, the thicket snaps upward to knock up enemies within for 1 second.",
+    "Garden of Thorns hit by the thicket become enraged, restoring health, increasing their maximum health by 50%, gaining 25% increased size and refreshing their duration while the thicket expands. Additionally they attack in a flurry, launching two shots per attack",
+    "Garden of Thorns grown during the 2 seconds prior to the displacement will also be enraged.",
+    "casting Q on a seed spawns a Thorn Spitter that continues attacking the enemy for 8 seconds",
+    "place a W seed between yourself and the enemy, then cast Q on the seed to spawn a Thorn Spitter",
+    "punish with E through a seed to root them and spawn a Vine Lasher that slows their retreat",
+    "This W-E-Q double plant combo is Zyra's bread-and-butter engage in bot lane",
+    "placing seeds inside the ultimate zone before or during the cast so that Q and E create enraged plants",
+    "cast R on as many enemies as possible, immediately follow with E and Q through seeds inside the ultimate zone",
+    "use seed placement and plant spawns to check brush and control vision around objectives",
+    "Enemy champions can destroy seeds by stepping on them.",
+    "Zira quand tu es dans un bush ton passif ne fonctionne pas. Ce passif qui lui permettait de poser toutes ces plantes qui sont juste là, d'accord, ne va ne va pas fonctionner si elle est dans un buisson.",
+    "Parce que quand les plantes ne sont pas éclos, les adversaires peuvent marcher dessus pour casser la plante.",
+    "Du coup, Zira en étant positionné ici peut poser une plante là, l'activer et frapper jusque",
+    "Le queue va permettre de faire éclore des plantes qui vont permettre de frapper à distance.",
+    "tu vas jouer tranquillement à travers les murs pour pouvoir quel tes combos. Un e un R quand les gens sont pqués"
+  ],
+  "rejected": [
+    { "idea": "Flash puis Ronces étrangleuses sur un groupe (Dodge.gg)", "reason": "Une seule source, pas d'interaction propre." },
+    { "idea": "Graines derrière un mur, activées pour bloquer un passage ou protéger une balise (EXYT)", "reason": "Une seule source ; portée exacte d'activation des graines non confirmée par le wiki." },
+    { "idea": "Le passif plante ses graines de l'autre côté du mur ou contre les murs des fosses d'objectifs", "reason": "Notes du wiki marquées comme incertaines (comportement de l'IA de plantation)." }
+  ],
+  "toVerifyInGame": [
+    "Délai avant qu'un ennemi puisse écraser une graine : 1 s (passif) et 1,5 s (Croissance incontrôlée) selon le wiki.",
+    "Racines puis ult : la durée du root (1 à 2 s selon le rang) ne couvre pas toujours les 2 s avant le knock-up."
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "champion": "Zeri",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Laser depuis le mur", "en": "Laser from the wall" },
+      "keys": ["E", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Charge ionique (E) le long d'un mur, puis Laser électrocuteur (Z) pendant le dash. Tiré contre le mur, il devient un laser longue portée sous un angle inattendu.",
+        "en": "Cast Spark Surge (E) along a wall, then Ultrashock Laser (W) during the dash. Fired into the wall, it turns into a long-range laser from an unexpected angle."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Double Rafale par Charge ionique", "en": "Double Burst Fire via Spark Surge" },
+      "keys": ["Q", "E", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Auto, Rafale (A), Charge ionique (E), puis Rafale (A) : le dash réinitialise le CD de Rafale, deux salves partent presque d'un coup. Les deux joueurs précisent qu'il faut l'option d'attaque automatique activée.",
+        "en": "Auto, Burst Fire (Q), Spark Surge (E), then Burst Fire (Q): the dash resets Burst Fire's cooldown, so two volleys go out almost at once. Both players say the automatic attack option must be on."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Éruption électrique puis Flash", "en": "Lightning Crash into Flash" },
+      "keys": ["R", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Éruption électrique (R) et Flash aussitôt vers l'ennemi : la nova est bien plus dure à éviter, et la toucher te surcharge.",
+        "en": "Cast Lightning Crash (R) and Flash toward the enemy right away: the nova is much harder to dodge, and landing it overcharges you."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Lancée à moins de 50 unités d'un mur, Charge ionique (E) le traverse et va bien plus loin, selon l'épaisseur du mur. Vise 30° vers le mur pour réussir le saut.",
+        "en": "Cast within 50 units of a wall, Spark Surge (E) crosses it and goes much farther, depending on the wall's thickness. Aim about 30° into the wall to make the jump."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Si l'impulsion de Laser électrocuteur (Z) touche un mur, elle devient un laser qui part après 0,85 seconde, révèle la zone et fait des coups critiques sur les champions.",
+        "en": "If the Ultrashock Laser (W) pulse hits a wall, it turns into a laser that fires after 0.85 seconds, reveals the area and crits champions."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Mur de vent de Yasuo bloque l'impulsion de Laser électrocuteur (Z), pas le laser. Face à lui, vise un mur pour que le laser passe quand même.",
+        "en": "Yasuo's Wind Wall blocks the Ultrashock Laser (W) pulse, not the laser. Against him, aim at a wall so the laser still goes through."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chaque Rafale (A) qui touche un ennemi, même un minion, réduit le CD de Charge ionique (E) de 0,5 seconde, et de 1,5 seconde en cas de coup critique.",
+        "en": "Each Burst Fire (Q) that hits an enemy, even a minion, cuts Spark Surge (E) cooldown by 0.5 seconds, and by 1.5 seconds on a critical strike."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Batterie vivante se charge quand tu te déplaces et à chaque Rafale (A). À 100 de charge, ta prochaine auto consomme tout pour de gros dégâts selon les PV max : marche et kite pour la recharger.",
+        "en": "Living Battery charges as you move and with each Burst Fire (Q). At 100 charge, your next auto spends it all for big max-health damage: walk and kite to recharge it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Tes autos non chargées exécutent une cible sous un seuil de PV, sauf si elle a un bouclier ou est invulnérable.",
+        "en": "Your uncharged autos execute a target below a health threshold, unless it is shielded or invulnerable."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux lancer Rafale (A) même sous silence. Les autres CC qui bloquent les sorts l'empêchent toujours.",
+        "en": "You can cast Burst Fire (Q) even while silenced. Other CC that blocks spells still stops it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Éruption électrique (R) ne te surcharge que si la nova touche un champion. Tu peux bouger pendant l'incantation : entre bien à portée avant de la lancer.",
+        "en": "Lightning Crash (R) only overcharges you if the nova hits a champion. You can move during the cast time: get well within range before casting it."
+      },
+      "refs": [0, 2]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zeri - League of Legends Wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zeri",
+      "type": "wiki",
+      "date": "2026-11-13",
+      "author": "League of Legends Wiki"
+    },
+    {
+      "title": "The Only Zeri Guide You'll Ever Need!",
+      "url": "https://www.youtube.com/watch?v=cueDBL7c2Yc",
+      "type": "video",
+      "date": "2026-06-11",
+      "author": "Crownie"
+    },
+    {
+      "title": "Pro Player Explains How to Play Zeri – Challenger Guide",
+      "url": "https://www.youtube.com/watch?v=bpEyGbEL4Us",
+      "type": "video",
+      "date": "2026-05-16",
+      "author": "Varry"
+    }
+  ]
+}

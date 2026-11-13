@@ -1,0 +1,38 @@
+{
+  "searches": 2,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Zed restores energy whenever he and his Shadows or multiple Shadows hit an ability on the same target. This may only occur once per cast ability.",
+    "The energy refund is not granted if the mimicked ability is blocked by a spell shield.",
+    "If an ability is cast while the Shadow is dashing, it will cast that ability once it has been placed.",
+    "If Living Shadow is recast during Q cast, Zed will instantly release the shuriken from the cast location of Q while still remaining in cast time. Once he has swapped places, he will then throw the shuriken that the Shadow would have thrown instead.",
+    "Living Shadow cannot be recast while grounded or rooted.",
+    "Enemies hit by a Shadow's slash are slowed for 1.5 seconds, with multiple slashes dealing no additional damage but the slow's effectiveness being increased by 50%.",
+    "Living Shadow current cooldown is reduced by 3 seconds for each enemy champion hit by Zed's slash.",
+    "a third slash against an enemy does not deal damage nor increase the slow's strength",
+    "Zed becomes untargetable and, after a 0.6-second delay, he dashes to 125 units beyond the target enemy champion.",
+    "Zed also spawns a Shadow at his casting position for 9 seconds. Death Mark can be recast after 0.5 seconds of his reappearance while the Shadow is active, though not in the last 1.25 seconds of its duration.",
+    "Death Mark's Shadow is functionally the same as a regular one, but it lasts longer and can be swapped to regardless of range.",
+    "Death Mark interaction table: summoner spells except the first group disabled (Flash disabled).",
+    "Zed's basic attacks on-hit against targets below 50% maximum health are empowered to deal bonus magic damage. Contempt for the Weak cannot occur on the same champion more than once every few seconds.",
+    "Contempt for the Weak considers the target's health upon landing the attack, not when it's declared.",
+    "[3 Minute] Zed's W has a passive where he restores energy when he and his shadows hit a target with the same ability.",
+    "[3 Minute] while the shadow is still coming out, you can cast an ability to buffer it to use it immediately when it lands.",
+    "[3 Minute] your quick trade is a W just to the side of the enemy champion into E then try to double land your Q. We throw W just to the side because it makes that follow-up Q much easier to land.",
+    "[3 Minute] Your all in is the W near the target into your ultimate. Follow up with E into your triple Q for massive damage before attacking away.",
+    "[Dodge.gg] cast W toward the enemy, then immediately Q and E through the shadow",
+    "[Dodge.gg] then W behind the target to create a triangle of shadows",
+    "[Dodge.gg] E for AoE damage and slow, then Q through all three positions.",
+    "[Dodge.gg] If both Zed and his shadow hit the same target with an ability, Zed restores energy.",
+    "[Dodge.gg] Zed can dodge Syndra's Scatter the Weak stun with Death Mark's untargetable frames."
+  ],
+  "rejected": [
+    { "idea": "Ombre vivante (Z) pour franchir un mur", "reason": "Rien d'explicite dans le wiki ; une seule mention vue en extrait de recherche (page non lue) : non retenu." },
+    { "idea": "Flash pour allonger la portée de Marque de la mort (R) (Dodge.gg)", "reason": "Une seule source, ordre exact non précisé ; le wiki indique que Flash est bloqué pendant l'intouchabilité de R." },
+    { "idea": "All-in safe : Z en lieu sûr, R, E, A puis retour sur l'ombre de Z (3 Minute)", "reason": "Une seule source joueur ; la relance de Z exige d'être à portée de l'ombre (distance non chiffrée par le wiki)." }
+  ],
+  "toVerifyInGame": [
+    "Relance de Z pendant l'incantation de A : les deux shurikens partent bien (note wiki).",
+    "Taillade des ombres lancée pendant le trajet de l'ombre : elle part bien à l'atterrissage, même à portée max."
+  ]
+}

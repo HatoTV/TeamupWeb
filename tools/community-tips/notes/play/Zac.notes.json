@@ -1,0 +1,44 @@
+{
+  "searches": 3,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "Zac stretches his left arm in the target direction that catches the first enemy hit, dealing magic damage, slowing them by 40% for 0.5 seconds, and forming a tether between Zac and the target for 2 seconds.",
+    "While the tether persists, Zac's next basic attack is replaced by a second Stretching Strike.",
+    "If the two targets are within 700 units of each other, they are instead slammed together through the displacement. Upon impact of each other, both targets are knocked up and stunned for 0.25 seconds.",
+    "Non-champion units that are affected by Stretching Strikes displacement are prevented from taking any damage until they are slammed together.",
+    "this often confuses players who are trying to secure monsters via Smite while Zac is slamming the wanted target, resulting in Smite dealing no damage to it.",
+    "Unstable Matter's current cooldown is reduced by 1 second whenever Zac collects a Cell Division chunk.",
+    "If Zac cancels the channel himself, or the charge completes without reactivation, 50% of Elastic Slingshot's health cost and cooldown are refunded.",
+    "knocks them up and stuns them for 0.5 seconds, increased to 1 second if Elastic Slingshot was charged for more than 1 second.",
+    "target range: 1200 to 1800 [Maximum dash distance]",
+    "Let's Bounce! initiates the recast and is buffered to cast itself at the end of the dash.",
+    "Elastic Slingshot channel table: Flash disabled; interrupts = silence, death, root, ground.",
+    "Zac can move while Let's Bounce! is active, gaining ghosting and movement speed, but becomes unable to declare basic attacks, Stretching Strikes, and Elastic Slingshot. He also automatically consumes all Cell Division within the bounce radius.",
+    "Let's Bounce! interaction table: Q and E are disabled. W is usable. Summoner spells (Flash included) usable.",
+    "Contestable: They will fall to the ground at a point which is roughly equidistant from Zac and the nearest visible enemy champion within 1000 range of him.",
+    "Any damage the bloblets receive is also echoed to Zac as true damage. After the duration, Zac is revived with 10 – 50% maximum health based on his bloblets' total remaining health.",
+    "[3 Minute] Use your empowered attack to slam two targets together before following up with another attack into your ult while spamming W.",
+    "[3 Minute] if you find an isolated target, E behind them so you can follow up with ult to launch them in the wrong direction.",
+    "[3 Minute] Zac can move while using this ability and can also cast W.",
+    "[Rams] Le plus classique, c'est de Q spell quelqu'un, Q spell un autre et instant E R, mettre des Z en permanence.",
+    "[Rams] vous pouvez Q spell la wave. E, le Q spell reste, l'auto-attaque et après vous pouvez mettre votre combo.",
+    "[Rams] c'est air flash. D'abord on air puis on flash, c'est instant. en fait tu as tu tu peux pas dodge",
+    "[Rams] Alors quand on R, on peut pas mettre de sorts à part le W. Donc généralement quand vous allez R, vous allez spam W.",
+    "[Rams] quand tu veux prendre une wave, tu essaies de te mettre plus loin de l'adversaire du coup.",
+    "[Rams] Si vous êtes dans le pit ici, vous mettez là. Vous directement allez au Nashor.",
+    "[Dodge.gg] the 1800-range leap over terrain enables ganks from positions no other jungler can reach",
+    "[Dodge.gg] charge Elastic Slingshot from fog of war (bush or over terrain) for maximum range and knockup duration",
+    "[Dodge.gg] land Elastic Slingshot on the enemy carry, immediately R to bounce through the backline"
+  ],
+  "rejected": [
+    { "idea": "Combo Étirements (A) sur un minion, Flash, attaque renforcée sur l'ennemi", "reason": "Une seule source joueur lue (Rams) ; la page combos Mobalytics (403) n'a pas pu être lue et le wiki ne confirme pas le Flash pendant le lien." },
+    { "idea": "Flash pour allonger Fronde (E) (Dodge.gg)", "reason": "Le wiki indique que Flash est désactivé pendant la charge de E : ordre exact non établi, écarté." },
+    { "idea": "Écraser un ennemi contre une balise avec Étirements (A) (DOUGvsALL)", "reason": "Une seule source, non confirmé par le wiki." },
+    { "idea": "Mobalytics combos (insec E, R, Flash derrière la cible)", "reason": "Vu seulement en extrait de recherche, page non lue (403) : pas une source." }
+  ],
+  "toVerifyInGame": [
+    "Combo A sur la wave puis E : le lien d'Étirements dure 2 secondes, vérifier que la charge minimale de Fronde laisse le temps de placer l'attaque.",
+    "Boing ! puis Flash : vérifier que le premier rebond suit bien la position après le Flash (Flash utilisable pendant R selon le wiki).",
+    "Direction de la projection de Boing ! quand Zac atterrit derrière la cible."
+  ]
+}

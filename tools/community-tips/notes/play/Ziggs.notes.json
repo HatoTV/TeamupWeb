@@ -1,0 +1,41 @@
+{
+  "searches": 3,
+  "pagesRead": 6,
+  "sourceSentences": [
+    "Short Fuse's cooldown is reduced by 4 to 6 for 3 seconds whenever Ziggs casts an ability.",
+    "The empowered attack will not trigger against wards.",
+    "Ziggs throws a bomb to the target location that bounces forward up to two times, with the distance traveled each time being based on how far it was originally thrown and each bounce occurring over 0.495 seconds regardless of distance.",
+    "The bomb explodes upon landing near an enemy, within terrain, or the final bounce, dealing magic damage to nearby enemies.",
+    "Bouncing Bomb can be thrown or bounce over units/terrain.",
+    "Satchel Charge can be recast within the duration, and does so automatically afterwards. If recast while in flight, the charge will explode immediately upon landing.",
+    "Ziggs detonates the charge, causing it to explode to deal magic damage to nearby enemies and knock them back over 0.5 seconds up to 500 units away from the center of the explosion, though not through terrain. If this hits Ziggs, he will dash up to 825 units away from the center.",
+    "The explosion also executes enemy turrets within that are below a maximum health threshold.",
+    "Ziggs will not dash from the explosion if he is immobilized or grounded. He can cast any of his abilities during the dash.",
+    "Satchel Charge's distance increases with proximity to the charge, resulting in being knocked straight up when aligned directly on top of it.",
+    "Each mine within the area explodes upon contact with terrain or an enemy, dealing magic damage and slowing them for 1.5 seconds",
+    "Mega Inferno Bomb takes 2.64 seconds from the start of the cast time to land when cast at maximum range (reduced to 1.617 seconds from the start of the cast time when casting within 2700 units).",
+    "Allies cannot see Mega Inferno Bomb's area indicator until shortly before the blast.",
+    "for combos your go-to is to attack into q e and w before detonating W and attacking away and your all- in combo is to attack into q e w and ult once ult explodes",
+    "also if a turret is on low Health this can be thrown underneath it to destroy it instantly",
+    "save your W and E to protect yourself from any ganks",
+    "I can W the Twisted Fate into me because he's tanking minions, right?",
+    "if I throw an E on him and just run away, the Q is probably going to hit",
+    "Just throw spells. E and then Q.",
+    "Generally speaking, if possible, when someone gets on top of you, use your W to knock them back and to knock yourself away from them. There, I just misangled it. So, I ended up just only knocking me back and not knocking the",
+    "un combo typique que j'aime bien faire c'est quelqu'un qui se rapproche un peu trop de la tour et qui fait trop le malin je lui mets W je le ramène sur la tour et je l'enchaîne",
+    "tu peux jump un mur avec le W",
+    "tous les murs quasiment tu peux les jump non mais ici il faut faire attention parce que il y a des endroits où tu peux pas jump",
+    "je flash je lance mon W je le ramène",
+    "Knocking yourself over walls with Satchel Charge can be great when chasing after or escaping from enemies."
+  ],
+  "rejected": [
+    { "idea": "Flash puis Charge explosive derrière la cible pour la ramener (iReaz/DDMonkey)", "reason": "Une seule source joueur pour la version avec Flash ; gardé sans Flash (combo « Charge de retour »)." },
+    { "idea": "Mines Hexplosives puis Charge explosive pour repousser l'ennemi à travers plus de mines", "reason": "Seule source : version française traduite automatiquement (3 Minute League, gThjcTzRP3M) ; non confirmé ailleurs." },
+    { "idea": "Un knock-up ou knock-back ennemi annule le saut de Charge explosive en l'air", "reason": "Vu seulement dans des guides Mobafire non mis à jour ; non confirmé par le wiki." },
+    { "idea": "Flash par-dessus un mur sur sa Charge explosive", "reason": "Guide ancien non mis à jour, interaction non confirmée." }
+  ],
+  "toVerifyInGame": [
+    "Quels murs Charge explosive (Z) permet de franchir (iReaz : presque tous, pas tous).",
+    "Temps de chute de Méga bombe infernale (R) : ~1,6 s jusqu'à 2700 unités, 2,64 s à portée max (wiki)."
+  ]
+}

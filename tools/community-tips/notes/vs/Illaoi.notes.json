@@ -1,0 +1,110 @@
+{
+  "searches": 1,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] Keeping Illaoi's passive tentacles that she spawns frequently off of terrain is one of the more important things to keep her power in lane as low as possible. Think of her passive tentacles as zones of power or control. You ideally don't want to fight her in these areas unless you're comfortable spacing and sidest stepping their slams.",
+    "[0] Minimizing their uptime decreases her pressure, so staying on top of killing them at all times is incredibly important. If you have mobility, it also provides a strong opportunity to bait her ECD out.",
+    "[0] So try to use these windows to make her burn the cool down, which is lengthy at lower levels.",
+    "[0] The main thing with her Q, however, that you want to avoid, and we'll touch on this more when we get to the test of spirit section of this video is letting her Q land on the spirit and you in one cast.",
+    "[0] Slams hitting significantly increase her trading power and heal her based on her missing HP.",
+    "[0] the main thing that perhaps I could have put at the top of this section by itself is to not let you and your spirit be hit by the same slam ever.",
+    "[1] When she's level six, it's literally be patient and dodge her E or don't try to",
+    "[1] If you dodge the E, then it's uh home free from there.",
+    "[1] That was my fault for fighting her when she hit E.",
+    "[2] Just going to kill you tentacles.",
+    "[2] It's all about movements. You dodge your E and dodge your E and the lane is free."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "O25vOBa8OoI",
+      "channel": "Jamada",
+      "result": "utilisé (passages 1:30-1:58, 2:16-2:53, 3:11-3:27, 4:20, 6:26, 7:19-7:46)"
+    },
+    {
+      "id": "x84_bCl4ojQ",
+      "channel": "Sad",
+      "result": "écarté : gameplay commenté sans conseil exploitable contre Illaoi"
+    },
+    {
+      "id": "ElwE1cADfEU",
+      "channel": "Paul Vickers",
+      "result": "utilisé (passages 6:13, 10:26, 14:09)"
+    },
+    {
+      "id": "-aWv1Kgkvns",
+      "channel": "Geishuu",
+      "result": "utilisé (passages 0:27, 4:15)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Tout passe par le E : l'esquiver / le faire rater puis trader pendant son CD",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources ; CD 16/15/14/13/12 vérifié DDragon"
+    },
+    {
+      "idea": "Tuer les tentacules, ne pas trader à côté (ils la soignent)",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources ; soin des tentacules vérifié DDragon"
+    },
+    {
+      "idea": "Ne jamais laisser un même coup toucher toi et ton esprit (écho des dégâts)",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Test of Spirit: damage to spirit echoes to owner)"
+    },
+    {
+      "idea": "Blessures graves : les tentacules soignent Illaoi",
+      "sourceIdx": [
+        0
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Tentacles heal Illaoi when they damage a champion)"
+    },
+    {
+      "idea": "Utiliser les sbires pour bloquer le E",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, blocage par les sbires non décrit dans DDragon"
+    },
+    {
+      "idea": "Sans R (2 min au rang 1), Illaoi est beaucoup moins dangereuse : jouer le gank",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Rompre le lien du E si 3 tentacules ou plus près de l'esprit ; sinon trader",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, conseil de lane"
+    },
+    {
+      "idea": "Faire activer le Z (portée 125 + 225) sans le prendre",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, portée non vérifiable dans DDragon"
+    }
+  ]
+}

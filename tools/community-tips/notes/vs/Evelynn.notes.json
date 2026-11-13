@@ -1,0 +1,114 @@
+{
+  "searches": 2,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] I skip a few camps to gank Darius after I got level six because he had absolutely no idea I",
+    "[0] use our Q E on the Swain, and then put our W on someone, and while our spells are on cool down, we can have the charm ticking. And then when our next Q comes back up, we can use that to proc the charm.",
+    "[1] on Eve, just hitting level six is a very important thing to look out for because, obviously, your invisibility is gained at level six and that invisibility is going to make everything gank-wise",
+    "[1] Clear the rest of our camps. No worries. Farm out our level six, return for potential bot lane gank.",
+    "[1] you can click W and then S so you don't hit the camp at all cuz all the attacks will also proc the W and you want to get the full charm off for damage at that point.",
+    "[1] As soon as that X appears, this threshold goes from 205 to 500 damage, which is essentially an execute cuz it most of the time kills.",
+    "[1] without your ulti you're significantly weaker, significantly more vulnerable.",
+    "[2] Wait for our passive. Wait for charm as well. That's fine. Don't ever greed for plays.",
+    "[3] In the early game here, we're going to clear quite a bit. Evelyn's very, very, very, very, very, very basic champion. And until we get level six, we don't have the stealth passive. So, even more reason to farm.",
+    "[3] There you go. Level six. We get the stealth.",
+    "[3] The ulti deals damage in front of us, makes us dash backwards, and then we execute the enemies when they're low."
+  ],
+  "videosRead": 4,
+  "videosTried": [
+    {
+      "id": "zcgmUmSYjyM",
+      "channel": "EcoreLoL",
+      "result": "utilisé (passages 6:02, 16:29)"
+    },
+    {
+      "id": "_tfyeXNDnMs",
+      "channel": "Fz Frost",
+      "result": "utilisé en en-orig (passages 0:52, 4:33, 6:47, 8:21-8:34, 11:47)"
+    },
+    {
+      "id": "1Zi65S7K5xY",
+      "channel": "hope",
+      "result": "utilisé (passage 10:44)"
+    },
+    {
+      "id": "z2-L1bq7yiY",
+      "channel": "Sawyer Jungle",
+      "result": "utilisé (passages 1:16, 5:10, 5:35)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Lvl 6 : camouflage hors combat, ganks bien plus dangereux, respecter le pic",
+      "sourceIdx": [
+        0,
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "3 sources ; camouflage après lvl 6 vérifié DDragon (Demon Shade)"
+    },
+    {
+      "idea": "Le charme du Z n'arrive qu'après 2,5 s de marque : prendre de la distance une fois marqué",
+      "sourceIdx": [
+        0,
+        1,
+        2
+      ],
+      "kept": true,
+      "reason": "3 sources + DDragon (Allure: mark must last 2.5 s to charm)"
+    },
+    {
+      "idea": "Le R fait beaucoup plus de dégâts sous 30 % PV : reculer sous ce seuil",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (Last Caress: increased damage below 30% Health)"
+    },
+    {
+      "idea": "Avant lvl 6, pas de camouflage, Evelynn farme : fenêtre pour jouer agressif en lane",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Pendant le R, Evelynn est inciblable et se téléporte en arrière",
+      "sourceIdx": [
+        3
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (Last Caress: Untargetable, teleporting backwards)"
+    },
+    {
+      "idea": "Sans R, Evelynn est beaucoup plus faible : la punir quand son R est en CD",
+      "sourceIdx": [
+        1
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source (Fz Frost 11:47), conseil non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Pas d'alerte de proximité si Evelynn est dans un buisson",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, règle de jeu non vérifiable dans DDragon"
+    },
+    {
+      "idea": "Les balises de contrôle la gênent",
+      "sourceIdx": [
+        1,
+        3
+      ],
+      "kept": false,
+      "reason": "dropped: conseil lié à un objet (interdit)"
+    }
+  ]
+}

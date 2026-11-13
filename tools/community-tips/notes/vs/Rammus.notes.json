@@ -1,0 +1,117 @@
+{
+  "searches": 1,
+  "pagesRead": 0,
+  "sourceSentences": [
+    "[0] However, he can get kited by slows and CC. And while he's great into physical damage, he can struggle into magic.",
+    "[0] Ramis' W causes him to enter a defensive stance for 7 seconds where he gains bonus armor and magic resist. In addition, all enemies that hit him take damage back to them.",
+    "[0] Ramis' E is a point-and-click ability which taunts an enemy champion into attacking him.",
+    "[0] The ultimate can also be used while Ramis is in his Q where enemies at the center of his ultimate are now also knocked up and dealt the damage from his Q.",
+    "[0] Upon colliding with an enemy, he deals damage to them and nearby enemies and knocks them back a small amount.",
+    "[0] Ramis is great into auto attack reliant champions as they just kill themselves on his shell.",
+    "[0] You do have an amazing level two gank if you want to go for the cheese.",
+    "[0] In similar fashion, your level three is also very strong to gank on.",
+    "[0] So when ganking, consider the three main points of what CC does your team bring? What escapes does the enemy have and where is the lane push to?",
+    "[0] You almost always want to start in your ball, then ultimate into the middle of the enemy team, and then taunt something important. If you're able to taunt the enemy ADC, they'll essentially just destroy themselves on your shell.",
+    "[1] Makes it where we get bonus armor and MR. And then when the enemies hit us, then they take damage themselves.",
+    "[1] So by starting the raptors can give you a fast level two and eventually that's going to give us a fast level three. So we can start yanking if it's available.",
+    "[1] But yeah, when you get that level three as Ramis, especially when the enemy mid laners pushed up like that and they've already traded, that's a good time to gank.",
+    "[1] And then if you're in the power ball, the Q as you're using that ulti, it's going to knock up in the center.",
+    "[1] It lets you get over minions and things like that as you're using the Q cuz the Q will stop at the first target you collide with.",
+    "[2] He's very vulnerable to AP damage.",
+    "[2] Yeah, the Rasmus is very vulnerable to getting invaded, you know, because he's always going to use his W on the camps, you know.",
+    "[2] Focus the trash cuz Ramos is a bit tankier."
+  ],
+  "videosRead": 3,
+  "videosTried": [
+    {
+      "id": "7YEEYh-frng",
+      "channel": "3 Minute League of Legends",
+      "result": "utilisé (transcription complète, 3 min)"
+    },
+    {
+      "id": "qJIxkV6hNqw",
+      "channel": "zoroL9",
+      "result": "utilisé (transcription complète ; seul le passage 2:45 sur les dégâts magiques)"
+    },
+    {
+      "id": "W_hQYN-k9xw",
+      "channel": "Sawyer Jungle",
+      "result": "utilisé (recherche : 0:29, 2:01, 9:05)"
+    }
+  ],
+  "pagesTried": [],
+  "ideas": [
+    {
+      "idea": "Boule défensive renvoie des dégâts aux autos ; Provocation force à taper",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (renvoi de dégâts, taunt)"
+    },
+    {
+      "idea": "R lancée en boule : knock-up au centre, ne pas rester groupé",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources + DDragon (knock-up au centre si lancée pendant Powerball)"
+    },
+    {
+      "idea": "Ganks très tôt (lvl 2-3) : ne pas push sans ward",
+      "sourceIdx": [
+        0,
+        1
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Faible contre les dégâts magiques",
+      "sourceIdx": [
+        0,
+        2
+      ],
+      "kept": true,
+      "reason": "2 sources"
+    },
+    {
+      "idea": "Démolisseur s'arrête sur le premier ennemi : rester derrière ses sbires",
+      "sourceIdx": [
+        1
+      ],
+      "kept": true,
+      "reason": "1 source + DDragon (stops after colliding with an enemy)"
+    },
+    {
+      "idea": "Rammus vulnérable aux invades",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, tip macro"
+    },
+    {
+      "idea": "Se fait kite par les slows et CC, sortable de son A par CC",
+      "sourceIdx": [
+        0
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source, interruption par CC absente de DDragon"
+    },
+    {
+      "idea": "En fight, focus une autre cible que Rammus (trop tanky)",
+      "sourceIdx": [
+        2
+      ],
+      "kept": false,
+      "reason": "dropped: 1 source"
+    }
+  ],
+  "videoPending": {
+    "blocked": [],
+    "candidates": []
+  }
+}

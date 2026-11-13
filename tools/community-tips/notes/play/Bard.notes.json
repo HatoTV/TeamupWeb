@@ -1,0 +1,38 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "After Cosmic Binding hits an enemy, the bolt continues behind them for 300 units. If the bolt hits terrain or a second enemy, it stuns both targets for the same duration, dealing the same damage to the secondary target.",
+    "If the first target has a spell shield, they will block the damage but the bolt will still pass through them. If the bolt hits a second target, only they will be stunned. If the bolt hits terrain, the first target will be stunned.",
+    "Bard opens a one-way magical corridor through a piece of terrain in the target direction for 10 seconds. A champion can pass through the corridor by selecting it while within proximity of it, becoming revealed during the travel.",
+    "Magical Journey cannot be taken while immobilized or grounded. Bard can cast Magical Journey while grounded or rooted. There is no limit to how many times a given instance of Magical Journey may be used.",
+    "Taking Magical Journey is considered a dash, and so will interact with effects such as Sudden Impact and knockdown.",
+    "Upon impact, it puts all units within into stasis for 2.5 seconds, as well as stunning all enemy champions, minions, and turrets struck for the same duration.",
+    "All champions (including allies) during the stasis are prohibited from activating cleansing effects for its duration.",
+    "Tempered Fate deals 0 true damage, which triggers in-combat effects such as drawing turret and monster aggression.",
+    "Tempered Fate's travel time varies between ~0.65 at point blank and ~1.8 at max range, resulting in an overall delay of ~1.15-2.3 seconds including the cast time depending on distance covered.",
+    "After holding a target, if you time your Q perfectly so that your queue is directly on top of the enemy as they're coming out of stasis, the stun slash damage will still go through even if they flash since the first part of your Q ability made contact.",
+    "immediately start walking upwards towards the river right as you hit level two and level portal before using it to get behind the enemy to potentially stun them",
+    "One of my favorite mechanics is to bait my enemies into following me through a portal they probably didn't want to take.",
+    "If I want the enemy to take a portal without me, I'll put down the portal then path towards the start point to try to make the enemy preemptively take it or misclick trying to hit me.",
+    "if the second part hits an enemy then only the second enemy gets stunned but if it hits a wall then sivir will get stuck",
+    "Brad R will draw aggro as it counts as a zero damage hit this means it'll draw Tower aggro minion aggro",
+    "once hit by stasis the targets will not be able to cleanse or qss it",
+    "you can't take Brad's tunnel if you're grounded however you can cast it while grounded or rooted",
+    "it counts as a dash that means there are only two ways to knock a champion out of the tunnel while they are traveling displacement or stasis so you can face tank stuns",
+    "you predict an enemy is going to click near a wall and you place the portal right where they click to yank them out of your life",
+    "For combos, it's best to start with an ult and then use E to initiate. When enemies come out of stasis, use Q to stun, then attack or heal allies with W.",
+    "And if it hits an object on the map, it stuns the first target.",
+    "You can easily deliver a team to enemies through a portal in the wall and then stun them with Q."
+  ],
+  "rejected": [
+    { "idea": "Q puis Flash pendant l'incantation de Lien cosmique (A) (RaizinsLoL)", "reason": "Une seule source, non confirmé par le wiki." },
+    { "idea": "Flash dans le tunnel de Route magique (E) pour annuler l'animation d'entrée (RaizinsLoL)", "reason": "Une seule source." },
+    { "idea": "Bufferiser Lien cosmique (A) juste avant de prendre un CC (Polypuff)", "reason": "Une seule source ; timing fin non confirmé par le wiki." },
+    { "idea": "Se mettre en stase soi-même en entrant dans un portail (Polypuff)", "reason": "Une seule source." }
+  ],
+  "toVerifyInGame": [
+    "Lien cosmique (A) qui touche la cible à la sortie de stase : le stun passe même si elle Flash juste après le contact.",
+    "Destin tempéré (R) sur un ennemi sous sa tour : la tour te prend bien pour cible."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "searches": 2,
+  "pagesRead": 5,
+  "sourceSentences": [
+    "Brand's abilities apply a stack of Ablaze to enemies hit for 4 seconds, stacking up to 3 times and refreshing the duration of all stacks with each application.",
+    "Upon applying 3 stacks of Ablaze to a large monster or enemy champion, the fire becomes unstable, causing it to form a fiery ring around the target that grants sight within its radius and, after 2 seconds, consumes their stacks to explode.",
+    "The ring will form even if the target dies to the ability applying the third stack, and will still trigger the explosion if the target dies before it.",
+    "Blaze Bonus: The target is stunned for 1.75 seconds.",
+    "Blaze Bonus: The target takes 25% increased damage.",
+    "Blaze Bonus: Conflagration's spread range is doubled.",
+    "The flame spreads to enemies near the primary target at the time of cast.",
+    "Enemies that move out of range after the fact will still be hit, as the flame is spread as homing missiles to each of its targets.",
+    "Brand launches a fireball at the target enemy that bounces between nearby enemies and Brand up to four times, dealing magic damage to enemies each time and having a 0.15-second delay between bounces.",
+    "Pyroclasm prioritizes Blaze enemy champions, then other enemy champions, then any valid bounce target, then Brand.",
+    "Blaze Bonus: The target is slowed for 0.25 seconds. This can affect the same enemy more than once.",
+    "The target does not have to be visible for the fireball to bounce to them.",
+    "If the initial cast target uses spell shield, Pyroclasm will not bounce. If the bounce is blocked by an enemy's spell shield it will not deal any damage, but it will keep on bouncing.",
+    "Pyroclasm's damage against enemy champions will not aggro nearby enemy minions.",
+    "For 1 V 1s, the best combo is E Q W R. This combo is great for hitting all of your abilities and doing as much damage as possible.",
+    "The E is a point and click which applies your passive and realizes Q to stun the target, W for increased damage, and finally R.",
+    "For a team fight, use R E W Q.",
+    "Your E will spread your blaze. Your W will now deal increased damage and finally your Q will stun anyone trying to escape or chase you.",
+    "For efficient poking in lane, use W E on a minion. W a minion close to the enemy and once the W hits, press E on the minion to spread your damage to the enemy.",
+    "For a surprise stun, use the Q flash combo. If the target already has your blaze on them, you can do what is called a Q buffer.",
+    "So, instead of flashing and then queuing, which is easily dodgeable, you Q, then instantly press flash, and the Q will come out much closer to the target and surprise them.",
+    "Brand's basic combo is just to E into Q and W before attacking away. This also works well if starting with W, but is a little bit less damage.",
+    "And with either combo, you can follow up with ultimate for massive damage, especially if it bounces between multiple enemies.",
+    "And a fun combo in lane is to W the minion wave, then use E to spread your passive onto the enemy. From here, follow up with Q into ult.",
+    "Otherwise, if there are no other enemies nearby, it can bounce back to Brand and then back to the enemy hopefully. And it will always prioritize enemies with the most stacks of ablaze.",
+    "His 'Q' can be combined with 'Flash', but first use 'Q', then 'Flash' because the animation is faster.",
+    "When using your ultimate on an enemy and if there are no enemies or enemy minions nearby, it will only hit your enemy once and deal less damage.",
+    "That's why you can stay close to your target, so your ultimate can bounce on you and do more damage."
+  ],
+  "rejected": [
+    { "idea": "At max Q range, throw Q first then E so that E lands before Q and stuns (Burst)", "reason": "Single source; E range (675) is far shorter than Q range, the geometry is unclear. Not confirmed by the wiki." },
+    { "idea": "E then Flash, and E-Flash-Q surprise stun (Evvelyx)", "reason": "Single source from 2022, not confirmed elsewhere." },
+    { "idea": "W then Flash to close the gap (Evvelyx)", "reason": "Single source, vague." },
+    { "idea": "Brand's ult deals damage to only 2 targets (Evvelyx 2022)", "reason": "Contradicts the 16.22 wiki (up to four bounces between enemies and Brand)." },
+    { "idea": "Use Q to check brushes, specific sound on hidden hit (Evvelyx)", "reason": "Single source, not confirmed by the wiki." },
+    { "idea": "Brand combos guide (Bav Bros, 2026)", "reason": "Transcript is only music, no usable content." }
+  ],
+  "toVerifyInGame": [
+    "Exact window to Flash after Sear (Q) cast (0.25 s cast time) so the fireball leaves from the Flash position.",
+    "Pyroclasm (R) bounce back through Brand in a 1v1: how close you must stay (600-unit bounce range)."
+  ]
+}

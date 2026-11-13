@@ -1,0 +1,109 @@
+{
+  "champion": "Bard",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Ult puis Lien cosmique", "en": "Ult into Cosmic Binding" },
+      "keys": ["R", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Mets la cible en stase avec Destin tempéré (R), puis lance Lien cosmique (A) pour qu'il la touche pile à la sortie. Le coup est déjà pris : même un Flash ne la sauve pas du stun.",
+        "en": "Put the target in stasis with Tempered Fate (R), then throw Cosmic Binding (Q) so it hits right as they come out. The hit already connects: even a Flash won't save them from the stun."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Portail dans le dos, stun", "en": "Portal behind, stun" },
+      "keys": ["E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Passe derrière l'ennemi avec Route magique (E), puis lance Lien cosmique (A) pour le plaquer contre le mur ou un allié à lui. Idéal pour une embuscade au niveau 2.",
+        "en": "Get behind the enemy with Magical Journey (E), then throw Cosmic Binding (Q) to pin them against the wall or one of their allies. Ideal for a level 2 ambush."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Ult, portail, Lien cosmique", "en": "Ult, portal, Cosmic Binding" },
+      "keys": ["R", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Engage à distance avec Destin tempéré (R), amène ton équipe par Route magique (E) pendant la stase, puis stun la cible à la sortie avec Lien cosmique (A).",
+        "en": "Engage from afar with Tempered Fate (R), bring your team through Magical Journey (E) during the stasis, then stun the target as it comes out with Cosmic Binding (Q)."
+      },
+      "refs": [0, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Après la 1re cible, Lien cosmique (A) continue environ 300 unités. S'il touche un mur ou un 2e ennemi, les deux sont stun : vise les cibles collées à un mur ou alignées.",
+        "en": "After the first target, Cosmic Binding (Q) keeps going for about 300 units. If it hits a wall or a second enemy, both are stunned: aim at targets hugging a wall or lined up."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si la 1re cible a un bouclier de sort, Lien cosmique (A) la traverse sans dégâts. Avec un mur juste derrière, elle est quand même stun ; sinon, seul le 2e ennemi l'est.",
+        "en": "Against a spell-shielded first target, Cosmic Binding (Q) goes through it without damage. A wall right behind still stuns that target; otherwise only the second enemy is stunned."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Les ennemis peuvent aussi prendre Route magique (E), sans limite d'usage. Pose le portail là où un poursuivant va cliquer près du mur pour l'envoyer loin du combat.",
+        "en": "Enemies can take Magical Journey (E) too, with no usage limit. Place the portal where a chaser will click near the wall to send them far from the fight."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Le trajet dans Route magique (E) compte comme un dash : un stun ne t'arrête pas, seule une projection ou une stase te fait sortir du tunnel.",
+        "en": "Traveling through Magical Journey (E) counts as a dash: a stun won't stop you, only a displacement or a stasis knocks you out of the tunnel."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Enraciné ou cloué au sol, tu peux poser Route magique (E), mais pas l'emprunter. Pose-le quand même pour tes alliés ou pour l'utiliser dès la fin du CC.",
+        "en": "When rooted or grounded, you can cast Magical Journey (E) but not take it. Place it anyway for your allies, or to use it as soon as the CC ends."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Destin tempéré (R) compte comme un coup à 0 dégât : lancé sur un ennemi sous sa tour, il t'attire son aggro et celle des sbires.",
+        "en": "Tempered Fate (R) counts as a 0-damage hit: cast on an enemy under their tower, it draws tower and minion aggro onto you."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant la stase de Destin tempéré (R), aucun champion ne peut utiliser Purge ni un effet de nettoyage. Garde ton ult pour le carry qui en dépend.",
+        "en": "During the Tempered Fate (R) stasis, no champion can use Cleanse or any cleansing effect. Save your ult for the carry who relies on one."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Destin tempéré (R) met de 1,15 s à 2,3 s à tomber selon la distance. À longue portée, vise là où la cible sera, pas là où elle est.",
+        "en": "Tempered Fate (R) takes 1.15 to 2.3 s to land depending on distance. At long range, aim where the target will be, not where it is."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Bard – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Bard", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "EVERY Bard trick explained in 16 minutes", "url": "https://www.youtube.com/watch?v=t8Cn-d0_ejM", "type": "video", "date": "2025-08-23", "author": "Polypuff" },
+    { "title": "14 Actually Useful Tips for BARD", "url": "https://www.youtube.com/watch?v=W1lwe8kASps", "type": "video", "date": "2023-02-19", "author": "RaizinsLoL" },
+    { "title": "3 Minute Bard Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=JSLMsdQ3Ow0", "type": "video", "date": "2026-07-28", "author": "3 Minute League of Legends" }
+  ]
+}

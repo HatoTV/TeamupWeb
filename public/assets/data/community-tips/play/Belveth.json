@@ -1,0 +1,98 @@
+{
+  "champion": "Belveth",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Charge, autos, Charge", "en": "Surge, autos, Surge" },
+      "keys": ["Q", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Charge du Néant (A) réinitialise ton auto : dash, deux autos, puis dash dans une autre direction et recommence. Tu colles la cible en gardant tes autos au rythme max.",
+        "en": "Void Surge (Q) resets your auto: dash, two autos, then dash in another direction and repeat. You stick to the target while keeping your autos at full pace."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Charge, Projection, Charge, Maelström", "en": "Surge, Above, Surge, Maelstrom" },
+      "keys": ["Q", "W", "Q", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Dash avec Charge du Néant (A), puis touche la cible avec Projection cinglante (Z) dans la même direction : elle recharge ce dash. Recharge à travers elle, autos, puis finis avec Maelström impérial (E).",
+        "en": "Dash with Void Surge (Q), then hit the target with Above and Below (W) in the same direction: it refreshes that dash. Surge through them, autos, then finish with Royal Maelstrom (E)."
+      },
+      "refs": [0, 1, 2]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Charge du Néant (A) ne traverse pas les murs : dash contre un mur pour un dash court. L'animation finit plus tôt et tu places tes autos plus vite, en duel comme en clear.",
+        "en": "Void Surge (Q) doesn't go through walls: dash into a wall for a short dash. The animation ends sooner and you land your autos faster, in duels and on clear."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Sous ta véritable forme, après Banquet infini (R), Charge du Néant (A) traverse les murs. Profites-en pour couper par la jungle et rattraper une cible qui fuit.",
+        "en": "In True Form, after Endless Banquet (R), Void Surge (Q) goes through walls. Use it to cut through the jungle and catch a fleeing target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Chacune des 4 directions de Charge du Néant (A) a son propre CD. Garde des dashes en réserve : un pour esquiver un sort, un pour revenir sur la cible.",
+        "en": "Each of the 4 Void Surge (Q) directions has its own cooldown. Keep dashes in reserve: one to dodge a spell, one to get back on the target."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Projection cinglante (Z) recharge le dash de chaque direction où elle touche un champion, selon ta position à la fin de l'incantation. Plusieurs champions touchés de côtés différents : plusieurs dashes rechargés.",
+        "en": "Above and Below (W) refreshes the dash of each direction where it hits a champion, based on your position at the end of the cast. Several champions hit on different sides: several dashes refreshed."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant Maelström impérial (E), tu restes sur place. Réactive-le après 0,75 s pour bouger, ou lance un autre sort : il s'arrête tout seul.",
+        "en": "During Royal Maelstrom (E), you're rooted in place. Recast it after 0.75 s to move, or cast another spell: it ends on its own."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Maelström impérial (E) frappe l'ennemi proche le plus bas en pourcentage de PV, sans priorité aux champions. Au milieu d'une wave, tes coups peuvent partir sur des sbires.",
+        "en": "Royal Maelstrom (E) hits the nearby enemy with the lowest health percentage, with no priority on champions. In the middle of a wave, it may hit minions."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "Chaque sort lancé te donne le fantôme et 20 % de vitesse d'attaque pendant 3 s. Enchaîne Charge du Néant (A) et tes autres sorts pour garder ce bonus en combat.",
+        "en": "Every spell you cast grants ghosting and 20% attack speed for 3 s. Chain Void Surge (Q) and your other spells to keep this bonus up in a fight."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "En consommant un corail du Néant, Banquet infini (R) ralentit de plus en plus les ennemis proches, puis explose en dégâts bruts selon leurs PV manquants. Prends-le au milieu de l'équipe adverse.",
+        "en": "While consuming a coral, Endless Banquet (R) slows nearby enemies more and more, then explodes for true damage based on their missing health. Take it in the middle of the enemy team."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Bel'Veth – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Bel'Veth", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The NEW COMPLETE Bel'Veth Guide: Everything You Need to Know", "url": "https://www.youtube.com/watch?v=otHktQ5xN98", "type": "video", "date": "2026-07-31", "author": "hybradge" },
+    { "title": "3 Minute Bel'Veth Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=OXK6flh0sSY", "type": "video", "date": "2026-09-26", "author": "3 Minute League of Legends" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "searches": 2,
+  "pagesRead": 4,
+  "sourceSentences": [
+    "Enemies in the black hole are dragged inward until they reach the center, and minions and monsters also have their movement speed reduced to a static 0.",
+    "Aurelion Sol calls down a star that strikes the target location after 1.25 seconds, dealing magic damage to enemies hit and stunning them for 1 second.",
+    "Aurelion Sol dashes in the target direction and resets Breath of Light cooldown. During flight, he has unobstructed vision and Breath of Light has no cooldown and maximum channel duration and its non-burst flat damage is increased.",
+    "Aurelion Sol will be knocked down by any immobilizing crowd control during the dash.",
+    "Astral Flight can be recast after 0.5 seconds during the dash, and does so automatically upon arrival.",
+    "Scoring a champion takedown within 3 seconds of damaging them reduces Astral Flight's current cooldown by 90% of its total cooldown.",
+    "Breath of Light channel will be interrupted if Astral Flight ends or Singularity or Falling Star / The Skies Descend is cast during the flight, but the ability will automatically be cast afterwards.",
+    "If the channel is cancelled within the first 0.25 seconds, Breath of Light is placed on a 1-second lockout but does not go on cooldown.",
+    "Against the primary target, the beam will deal a burst of bonus magic damage for each full second that it burns them, and additionally generates 2 Stardust if they are a champion.",
+    "After Singularity ends, it generates 1 Stardust for each full second that enemy champions were inside it, as well as varying amounts for enemy units that were killed while being within the area.",
+    "Aurelion Sol's W causes him to dash in a direction where he can then fly over terrain. He can use other abilities while flying, and if he uses Q, it slows him down. And if you get a champion takedown, it all but resets this ability.",
+    "For combos, your basic go-to is to E into your ultimate before using Q while drifting. And your all-in is use W into Q until you can E and ult and then Q again.",
+    "Use E to last hit minions as often as possible for additional stardust",
+    "If you are using W and the enemy moves to the side to get out of range, you can use Flash to close the distance and keep Q active without interrupting it. If you use Q without W and try to use Flash to increase the range, it won't work.",
+    "Once their crowd control is used, you can safely use your W and continue dealing damage without worrying about being interrupted.",
+    "Whenever you're fighting near a wall or in the jungle, try using your W along the wall. This can prevent melee champions from reaching you and stop them from landing basic attacks.",
+    "je vous propose ce petit combo le EQ qui permettra de prendre un bon trade sans vous rendre vulnérable à la contre-attaque",
+    "il est plus intéressant de faire le combo vue précédemment en vol car en vol vous avez plus de dégâts ce qui revient à ze puis maintenant essay le r au combo initial ce qui revient à er Pichu on le fait dans ce sens car ça assure à votre ulti de toucher",
+    "quand le sort arrive à sa fin vous allez Z quand celle de Z et à ce moment là vous aurez à nouveau un coup et du coup vous pouvez mettre deux cue d'affilée en restant au sol",
+    "si aurélion cue puis flash le flash viendra quand celle le cul par contre si aurélion sol est en vol et qu'il cue à ce moment-là il a le droit de flash et ça ne va pas quand celle l'animation de son Q",
+    "si vous comptez les le vol dans un mur ça vous déplacera à l'endroit où vous pouvez vous déplacer au sol le plus proche possible"
+  ],
+  "rejected": [
+    { "idea": "Après un kill, le CD de Vol astral (Z) passe à 3 s (Sumwo, février 2023)", "reason": "Chiffre de la sortie du rework ; le wiki 16.22 donne une réduction de 90 % du CD total : on garde la formulation du wiki." },
+    { "idea": "Écart de 14 à 20 % de dégâts du souffle en vol (Sumwo)", "reason": "Le wiki 16.22 donne 108 à 112 % sur les dégâts fixes : chiffre ancien, non repris." },
+    { "idea": "Écarter les sbires avec Trou noir (E) pour toucher le champion caché derrière (Sumwo)", "reason": "Le E ralentit les sbires à 0 et les attire, il ne les écarte pas ; transcription ambiguë, écarté." },
+    { "idea": "Vidéo Nemesis « How to play Aurelion Sol - Fundamentals »", "reason": "Commentaire de partie sans combo ni astuce exploitable dans les passages cherchés." }
+  ],
+  "toVerifyInGame": [
+    "Flash pendant Souffle de lumière (A) en vol : le souffle continue (Brukner, Sumwo), au sol il est coupé.",
+    "Fin du vol dans un mur : placement au point praticable le plus proche (Sumwo, vidéo de 2023).",
+    "Double souffle au sol : relancer Vol astral (Z) puis le stopper dès 0,5 s pour récupérer le souffle."
+  ]
+}

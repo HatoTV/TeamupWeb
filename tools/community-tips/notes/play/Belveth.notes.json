@@ -1,0 +1,40 @@
+{
+  "searches": 1,
+  "pagesRead": 2,
+  "sourceSentences": [
+    "Bel'Veth dashes in the designated direction, though not through terrain, dealing physical damage to enemies she passes through.",
+    "Void Surge can be cast only within a cardinal direction that is off cooldown, and incurs a cooldown between casts. Each cardinal direction has a unique cooldown.",
+    "Void Surge resets Bel'Veth's basic attack timer.",
+    "If this hits an enemy champion, it resets Void Surge dash cooldown of the target direction.",
+    "More than one cooldown can be reset if enemy champions were hit within multiple directions. The cooldowns that get reset are based on the relative direction to Bel'Veth at the end of the cast",
+    "Bel'Veth enters a frenzy for 1.5 seconds, during which she is unable to move, but gains damage reduction and life steal.",
+    "While active, she rapidly slashes at the nearest enemy with the lowest current health percentage",
+    "Royal Maelstrom does not prioritize champions over other units.",
+    "Royal Maelstrom can be recast after 0.75 seconds within the duration, and does so automatically after the duration or when Bel'Veth casts an ability.",
+    "Bel'Veth's ability casts grant her ghosting and 20% bonus attack speed for 3 seconds, refreshing on subsequent casts.",
+    "Bel'Veth dashes to the target Void Coral to consume it over the cast time, slowing nearby enemies by seconds elapsed for the duration. She then creates an explosion at the location to deal true damage to enemies within",
+    "True Form: Bel'Veth evolves into a monster, gaining bonus health, bonus attack range, increased size, as well as increased total attack speed. Void Surge can dash through terrain.",
+    "there's a thing called short dashing. So, effectively, if you're near a wall, and let's say I dash down and auto, you can see my DPS is 504 compared to 324.",
+    "short dashing ends your queue animation early and pretty much allows you to do the same amount of damage in a short",
+    "Q there. Boom. Right? W to reset the Q. Q through and then Q behind. Auto auto, she's low enough, let's hit the E and we get the kill.",
+    "when you throw your W, you reset your Q uh in that direction. So for example, if I Q here and W there, my Q is reset in that circle",
+    "when you use Void Rush, you are pretty much forced to stand still unless you cancel it, then you can move.",
+    "This old form allows me to dash through walls with my Q. So, for example, here I can dash through this wall, right? And again, now no form I can't dash through walls.",
+    "When you ultimate, right? There's a slow. That slow ramps up to 99% slow, which obviously means it's very hard to escape.",
+    "Use my Q to dodge her combo, right? And then, I use my next Q to get close to Malzahar.",
+    "However, each of the four main directions has its own separate cooldown time. And the cooldown of this skill is actually very short. And this skill also works as an auto attack reset.",
+    "Regarding the combo: Q, two attacks, and so on four times. Then W, attacks and your E. Your combo for the west: Q, then W to drop the Q and dash in the same direction again.",
+    "every time she uses an ability, she gains a bonus to attack speed for 3 seconds.",
+    "Q can pass through obstacles."
+  ],
+  "rejected": [
+    { "idea": "Lancer Banquet infini (R) pendant un CC pour en « annuler » l'effet (hybradge)", "reason": "Une seule source, interaction non confirmée par le wiki." },
+    { "idea": "Garder Projection cinglante (Z) tant que la cible peut l'esquiver ou Flash (hybradge)", "reason": "Conseil de jeu général, une seule source." },
+    { "idea": "Charger tout Tempo mortel en un seul Maelström impérial (E) (hybradge)", "reason": "Interaction de rune, une seule source." },
+    { "idea": "Vidéos Bel'Veth suivantes non lues (Cannon Minion 2022, KingKongLoL 2022)", "reason": "Antérieures aux changements de Bel'Veth et limite YouTube (HTTP 429) pendant la recherche." }
+  ],
+  "toVerifyInGame": [
+    "Combo A, Z, A : selon hybradge, l'enchaînement immédiat n'est vraiment fluide qu'avec Charge du Néant (A) au rang 5 (CD entre deux dashes en début de partie).",
+    "Dash court contre un mur : gain de DPS réel en duel."
+  ]
+}

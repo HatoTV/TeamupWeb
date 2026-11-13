@@ -1,0 +1,120 @@
+{
+  "champion": "AurelionSol",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trou noir puis Souffle", "en": "Singularity into Breath" },
+      "keys": ["E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose Trou noir (E) sur ta cible, puis canalise Souffle de lumière (A) : l'attraction vers le centre la garde dans ton rayon assez longtemps pour les bursts. Bon trade sans t'exposer.",
+        "en": "Drop Singularity (E) on your target, then channel Breath of Light (Q): the pull toward the center keeps them in your beam long enough for the bursts. A good trade without exposing yourself."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Trou noir, ult, Souffle", "en": "Singularity, ult, Breath" },
+      "keys": ["E", "R", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Lance Trou noir (E) en premier : l'attraction aide Étoile finale (R) à toucher malgré son délai de 1,25 s. Termine avec Souffle de lumière (A) pendant le stun.",
+        "en": "Cast Singularity (E) first: the pull helps Falling Star (R) land despite its 1.25 s delay. Finish with Breath of Light (Q) during the stun."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "All-in en vol", "en": "Airborne all-in" },
+      "keys": ["W", "Q", "E", "R", "Q"],
+      "level": "hard",
+      "desc": {
+        "fr": "Engage avec Vol astral (Z) et canalise Souffle de lumière (A) en vol : plus de dégâts et aucun CD. Place Trou noir (E) et ton ult (R) dès que possible, puis relance le souffle.",
+        "en": "Engage with Astral Flight (W) and channel Breath of Light (Q) mid-flight: more damage and no cooldown. Place Singularity (E) and your ult (R) as soon as you can, then breathe again."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "name": { "fr": "Vol, Souffle, Flash", "en": "Flight, Breath, Flash" },
+      "keys": ["W", "Q", "F"],
+      "level": "medium",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "En vol, canalise Souffle de lumière (A) et Flash vers la cible qui sort de ta portée : le souffle continue. Au sol, le Flash coupe la canalisation.",
+        "en": "Mid-flight, channel Breath of Light (Q) and Flash toward a target leaving your range: the beam keeps going. On the ground, Flash breaks the channel."
+      },
+      "refs": [2, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Vol astral (Z) remet à zéro le CD de Souffle de lumière (A). À la fin d'un souffle, lance le vol et stoppe-le après 0,5 s : tu enchaînes un 2e souffle presque sans attendre.",
+        "en": "Astral Flight (W) resets the cooldown of Breath of Light (Q). At the end of a breath, start the flight and stop it after 0.5 s: you chain a second breath almost instantly."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Vol astral (Z) passe au-dessus des murs. S'il se termine dans un mur, tu es posé au point praticable le plus proche : idéal pour fuir ou laisser un mêlée de l'autre côté.",
+        "en": "Astral Flight (W) goes over walls. If it ends inside a wall, you land on the nearest walkable spot: ideal to escape or leave a melee champion on the other side."
+      },
+      "refs": [1, 2, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Un CC qui t'immobilise pendant Vol astral (Z) te fait tomber au sol. Attends que l'adversaire ait gâché son stun ou son root avant de voler vers lui.",
+        "en": "Any immobilizing CC during Astral Flight (W) knocks you down. Wait until the enemy has wasted their stun or root before flying at them."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un takedown dans les 3 s après avoir blessé un champion réduit le CD de Vol astral (Z) de 90 %. En teamfight, enchaîne vers la cible suivante après chaque kill.",
+        "en": "A takedown within 3 s of damaging a champion cuts Astral Flight (W) cooldown by 90%. In a teamfight, chain to the next target after each kill."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Annule Souffle de lumière (A) dans ses 0,25 premières secondes : il ne part pas en CD, tu subis juste 1 s de blocage. Utile si tu l'as lancé dans la mauvaise direction.",
+        "en": "Cancel Breath of Light (Q) within its first 0.25 seconds: it doesn't go on cooldown, you only get a 1 s lockout. Handy if you aimed it the wrong way."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Garde le rayon de Souffle de lumière (A) sur la même cible : chaque seconde pleine déclenche un burst de dégâts bonus et, sur un champion, 2 poussières d'étoile.",
+        "en": "Keep the Breath of Light (Q) beam on the same target: each full second triggers a bonus damage burst and, on a champion, 2 Stardust."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Achève les sbires dans Trou noir (E) : chaque unité tuée dans la zone rapporte de la poussière d'étoile, et chaque seconde d'un champion dedans aussi.",
+        "en": "Finish minions inside Singularity (E): every unit killed in the area grants Stardust, and so does every second a champion spends inside it."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "En vol, lancer Trou noir (E) ou ton ult (R) coupe Souffle de lumière (A), mais il se relance tout seul juste après. Pas besoin de le réactiver.",
+        "en": "Mid-flight, casting Singularity (E) or your ult (R) interrupts Breath of Light (Q), but it recasts by itself right after. No need to reactivate it."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Aurelion Sol – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Aurelion_Sol", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "3 Minute Aurelion Sol Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=gLFaYFTUB7A", "type": "video", "date": "2026-06-20", "author": "3 Minute League of Legends" },
+    { "title": "Aurelion Sol Isn’t Weak Early — You’re Playing Him Wrong", "url": "https://www.youtube.com/watch?v=1mJyRHAPuyw", "type": "video", "date": "2026-08-19", "author": "Brukner" },
+    { "title": "TUTO AURELION SOL REWORK FR S13 - TIPS ET COMBOS sur League of Legends", "url": "https://www.youtube.com/watch?v=stApo7MmxHU", "type": "video", "date": "2023-02-17", "author": "Sumwo" }
+  ]
+}

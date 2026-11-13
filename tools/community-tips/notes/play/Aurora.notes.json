@@ -1,0 +1,39 @@
+{
+  "searches": 1,
+  "pagesRead": 3,
+  "sourceSentences": [
+    "Aurora's damaging basic attacks and abilities apply a stack of Spirit Abjuration to enemies for 4 seconds, refreshing on subsequent applications and stacking up to 3 times. The third stack against a target consumes them all to deal bonus magic damage.",
+    "Twofold Hex can be recast after 0.1 seconds while at least one target is marked, and does so automatically at the end of the mark's duration.",
+    "The marked targets do not need to be visible in order for Aurora to recast Twofold Hex. They do however need to be targetable; if all marked targets are untargetable, Twofold Hex's recast is disabled.",
+    "Scoring a takedown against an enemy champion within 3 seconds of damaging them will reset Across the Veil's cooldown.",
+    "Aurora is locked out of using all abilities, summoner spells, and item actives during the dash. She cannot buffer these spells to cast after the lockout.",
+    "Using a basic attack breaks the stealth at the end of the attack windup.",
+    "Aurora blasts energy in a line in the target direction and recoils 250 units in the opposite direction.",
+    "While grounded or rooted, The Weirding can be cast but Aurora will not dash.",
+    "If Aurora collides with the border, she dashes to the diametrically opposite side of the rift over 0.4 seconds, becoming untargetable and unable to act during the travel.",
+    "Collision with the border is essentially moving within range of it while being targetable, including via normal movement, dash, or displacement.",
+    "your e has a cast time and during that cast time you can Flash all you got to do for this is to press e and Flash immediately after with this you can increase the hit box of your e or simply reposition it during the cast time",
+    "start with an auto attack followed by your queue and recast your queue before the time is over",
+    "it is important that you go for Q into e into Q instead of e into Q into recur Q so you want to always start with your Q not with the E ability because your e will knock you back",
+    "press R and walk back after immediately it will teleport report you then on the opposite side once you got there you can press e and this will do damage to the enemy but knock you back at the same time to the edge",
+    "your bread andb butter trading and kill pattern is going to be Q EQ this procs your three hit passive and electrocute",
+    "you can input buffer Q before flash for a faster combo",
+    "you should 100% combine these combos together and do QE and then flash buffering both spells for a fast kill combo that's hard to react to",
+    "you can angle your ultimate to give yourself an instant wall to teleport to safely",
+    "while you're traveling by bouncing through your RS walls you aren't something the tower can aggro so in between shots you can send yourself back and forth through the wall",
+    "you can W towards him remember your hop gives you both stealth and movement speed this lets you reach your opponent and set up a QE trade that that they probably won't be able to dodge since you're casting your spells from stealth",
+    "Your \"all-in\" is an ultimate that you use to rush your opponent. Q and E, then attack, reactivate Q, and use W to catch up with the enemy.",
+    "So if you hit Q and add an auto attack, reactivating Q will activate both the passive and Electroshock, dealing significant damage."
+  ],
+  "rejected": [
+    { "idea": "Lancer Derrière le voile (Z) pendant l'incantation de Maléfice (A) pour devenir invisible (KingKongLoL)", "reason": "Une seule source ; le wiki ne précise pas l'interaction." },
+    { "idea": "Derrière le voile (Z) franchit les murs fins à moyens ; Sortilège (E) seulement collé à un mur très fin (Skill Capped)", "reason": "Une seule source explicite, le wiki ne mentionne pas de franchissement de terrain." },
+    { "idea": "Réactivation bufferisée de Maléfice (A) dans les 0,66 s (note wiki)", "reason": "Trop fin pour une astuce courte ; non reprise." },
+    { "idea": "Transcription anglaise de la vidéo 3 Minute Aurora", "reason": "Piste traduite (termes déformés : « copper », « Death Hat ») : seule la séquence de combo, claire, a été reprise." }
+  ],
+  "toVerifyInGame": [
+    "Flash pendant l'incantation de Sortilège (E) : le sort part bien de la position après Flash.",
+    "Rebond sous tour avec Entre les mondes (R) : la tour perd bien son aggro pendant les traversées.",
+    "Le saut de Derrière le voile (Z) déclenche bien la traversée en touchant le bord d'Entre les mondes (R)."
+  ]
+}

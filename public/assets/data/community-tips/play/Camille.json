@@ -1,0 +1,119 @@
+{
+  "champion": "Camille",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Trade de base en lane", "en": "Basic lane trade" },
+      "keys": ["Q", "W", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Protocole de précision (A) sur un sbire pour gagner de la vitesse, puis colle ta cible. Balayage tactique (Z) avec le bord du cône pour ralentir, puis relance Protocole de précision (A) après 1,5 s pour les dégâts bruts.",
+        "en": "Precision Protocol (Q) on a minion for the speed boost, then close the gap. Tactical Sweep (W) with the cone's outer edge to slow, then recast Precision Protocol (Q) after 1.5 s for true damage."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Grappin, Balayage, saut", "en": "Hookshot, Sweep, dive" },
+      "keys": ["E", "W", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Accroche-toi au mur avec Grappin (E), lance Balayage tactique (Z) pendant que tu y es accrochée, puis relance Grappin (E) sur ta cible. Ajuste le moment du Balayage selon la distance pour qu'il frappe à l'atterrissage.",
+        "en": "Latch onto the wall with Hookshot (E), cast Tactical Sweep (W) while attached, then recast Hookshot (E) at your target. Adjust the Sweep timing to the distance so it hits as you land."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "All-in complet avec l'ult", "en": "Full all-in with ult" },
+      "keys": ["E", "E", "W", "Q", "R"],
+      "level": "medium",
+      "desc": {
+        "fr": "Grappin (E) dans un mur, relance-le sur l'ennemi et lance Balayage tactique (Z) pour qu'il touche à l'arrivée. Une auto, Protocole de précision (A), puis Ultimatum Hextech (R) et une nouvelle auto.",
+        "en": "Hookshot (E) into a wall, recast it at the enemy and cast Tactical Sweep (W) so it hits on landing. One auto, Precision Protocol (Q), then The Hextech Ultimatum (R) and another auto."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Grappin Flash", "en": "Hookshot Flash" },
+      "keys": ["E", "E", "F"],
+      "summoners": { "F": "SummonerFlash" },
+      "level": "hard",
+      "desc": {
+        "fr": "Ta cible est juste hors de portée du saut : relance Grappin (E) vers elle puis Flash pendant le dash. Le saut s'arrête, mais l'impact et le stun s'appliquent autour de ta nouvelle position.",
+        "en": "Your target is just out of dive range: recast Hookshot (E) toward it, then Flash during the dash. The dive stops, but the impact and stun apply around your new position."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Attends 1,5 s après la première attaque de Protocole de précision (A) avant de le relancer : le bonus double et une partie devient des dégâts bruts.",
+        "en": "Wait 1.5 s after the first Precision Protocol (Q) attack before recasting it: the bonus doubles and part of it becomes true damage."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Tu peux lancer Balayage tactique (Z), Grappin (E) ou Ultimatum Hextech (R) pendant l'armement de l'attaque de Protocole de précision (A) sans l'annuler.",
+        "en": "You can cast Tactical Sweep (W), Hookshot (E) or The Hextech Ultimatum (R) during the Precision Protocol (Q) attack windup without cancelling it."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Seule la moitié extérieure du cône de Balayage tactique (Z) ralentit de 80 % et te soigne. Garde ta cible au bout du cône, pas collée à toi.",
+        "en": "Only the outer half of the Tactical Sweep (W) cone slows by 80% and heals you. Keep your target at the tip of the cone, not right next to you."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tu peux bouger pendant le délai de Balayage tactique (Z), mais la zone reste dans la direction choisie au lancer.",
+        "en": "You can move during the Tactical Sweep (W) delay, but the hit area stays in the direction you picked at cast."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "La relance de Grappin (E) porte deux fois plus loin vers un champion ennemi. Elle permet même de franchir des murs épais pour tomber sur la backline.",
+        "en": "The Hookshot (E) recast goes twice as far toward an enemy champion. It even lets you cross thick walls to land on the backline."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Un CC immobilisant pendant ton dash de Grappin (E) te fait tomber. Tu peux lancer le grappin en étant root, mais pas clouée au sol.",
+        "en": "An immobilizing CC during your Hookshot (E) dash knocks you down. You can fire the grapple while rooted, but not while grounded."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Ultimatum Hextech (R) interrompt les canalisations de ta cible et te rend inciblable pendant le saut. Garde-le contre une Katarina ou un Fiddlesticks.",
+        "en": "The Hextech Ultimatum (R) interrupts your target's channels and makes you untargetable during the leap. Save it for a Katarina or a Fiddlesticks."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "passive",
+      "text": {
+        "fr": "L'icône sous la barre de vie ennemie montre le bouclier de Protection modulable : orange contre les dégâts physiques, bleu contre les dégâts magiques.",
+        "en": "The icon under an enemy health bar shows your Adaptive Defenses shield: orange against physical damage, blue against magic damage."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Camille – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Camille", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY Camille Guide You Need for Season 16", "url": "https://www.youtube.com/watch?v=wtw3AIJbUok", "type": "video", "date": "2026-05-19", "author": "Torqen" },
+    { "title": "3 Minute Camille Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=YD348cJRnGc", "type": "video", "date": "2026-05-25", "author": "3 Minute League of Legends" }
+  ]
+}

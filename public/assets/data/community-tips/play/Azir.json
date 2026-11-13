@@ -1,0 +1,120 @@
+{
+  "champion": "Azir",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Soldat, Sables conquérants, auto", "en": "Soldier, Conquering Sands, auto" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Pose un soldat avec Dresse-toi ! (Z) à portée max, envoie-le sur la cible avec Sables conquérants (A), puis auto pendant le slow : ton poke de base en lane.",
+        "en": "Place a soldier with Arise! (W) at max range, send it onto the target with Conquering Sands (Q), then auto during the slow: your bread-and-butter lane poke."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Dash allongé : Z, E, A", "en": "Extended dash: W, E, Q" },
+      "keys": ["W", "E", "Q"],
+      "level": "medium",
+      "desc": {
+        "fr": "Pose un soldat, fonce dessus avec Sables mouvants (E) et lance Sables conquérants (A) pendant le dash : tu suis le soldat et vas bien plus loin. Pour engager ou fuir.",
+        "en": "Place a soldier, dash to it with Shifting Sands (E) and cast Conquering Sands (Q) mid-dash: you follow the soldier and travel much farther. Use it to engage or escape."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Shurima Shuffle", "en": "Shurima Shuffle" },
+      "keys": ["W", "E", "Q", "R"],
+      "level": "hard",
+      "desc": {
+        "fr": "Soldat, Sables mouvants (E), puis Sables conquérants (A) avant d'atteindre le soldat pour passer derrière la cible. Lance Partition impériale (R) dès l'arrivée pour la renvoyer vers ton équipe.",
+        "en": "Soldier, Shifting Sands (E), then Conquering Sands (Q) before reaching the soldier to get behind the target. Cast Emperor's Divide (R) as soon as you land to send them toward your team."
+      },
+      "refs": [0, 1, 2, 3]
+    },
+    {
+      "name": { "fr": "Shuffle avec Flash", "en": "Shuffle with Flash" },
+      "keys": ["W", "E", "Q", "F", "R"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Fais le shuffle, puis Flash derrière la cible juste avant Partition impériale (R). Elle ne peut plus esquiver au Flash, et tu gagnes de la portée pour placer l'ult.",
+        "en": "Do the shuffle, then Flash behind the target right before Emperor's Divide (R). They can no longer dodge it with Flash, and you gain extra range to land the ult."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Si Sables mouvants (E) percute un champion, tu t'arrêtes net et récupères une charge de Dresse-toi ! (Z). Sables conquérants (A) ne te fera alors plus avancer.",
+        "en": "If Shifting Sands (E) runs into a champion, you stop dead and gain an Arise! (W) charge. Conquering Sands (Q) will no longer carry you forward."
+      },
+      "refs": [0, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant Sables mouvants (E), tu suis ton soldat s'il se déplace. Plus tu lances Sables conquérants (A) tard dans le dash, plus tu vas loin.",
+        "en": "During Shifting Sands (E), you follow your soldier if it moves. The later you cast Conquering Sands (Q) in the dash, the farther you go."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Tes alliés traversent le mur de Partition impériale (R), pas les ennemis. Pose-le entre toi et un assassin pour le couper de ta backline.",
+        "en": "Your allies walk through the Emperor's Divide (R) wall, enemies don't. Place it between you and an assassin to cut them off from your backline."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le mur de Partition impériale (R) compte comme du terrain pour les ennemis : un allié avec un effet « contre un mur » (Vayne, Poppy) peut s'en servir pour son stun.",
+        "en": "The Emperor's Divide (R) wall counts as terrain for enemies: an ally with an 'into a wall' effect (Vayne, Poppy) can use it for their stun."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Tant que les soldats de Partition impériale (R) chargent, le mur ne bloque pas encore : un ennemi insensible aux projections peut passer. Il ne bloque qu'une fois arrêté.",
+        "en": "While the Emperor's Divide (R) soldiers are charging, the wall doesn't block yet: an enemy immune to knockbacks can pass through. It only blocks once it stops."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un ennemi qui voit un de tes soldats te voit aussi, même dans le brouillard. Pour un engage surprise, garde tes soldats hors de sa vision.",
+        "en": "An enemy who sees one of your soldiers sees you too, even in the fog. For a surprise engage, keep your soldiers out of their vision."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Avec 2 soldats, Sables conquérants (A) les place en formation autour du point visé, sans qu'aucun n'y arrive. Pense-y quand ta cible est à portée max.",
+        "en": "With 2 soldiers, Conquering Sands (Q) places them in formation around the target point, and neither reaches it. Keep it in mind when your target is at max range."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Le Mur de vent de Yasuo stoppe tes soldats lancés par Sables conquérants (A) et coupe la charge de Partition impériale (R). Attends qu'il soit tombé.",
+        "en": "Yasuo's Wind Wall stops soldiers sent by Conquering Sands (Q) and cuts the Emperor's Divide (R) charge short. Wait until it's down."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Azir – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Azir", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "How to Play Like an AZIR MAIN! - ULTIMATE AZIR GUIDE", "url": "https://www.youtube.com/watch?v=V9v1HcwRwKo", "type": "video", "date": "2023-11-30", "author": "Skill Capped Challenger LoL Guides" },
+    { "title": "3 Minute Azir Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=7Ux7ejbP0gU", "type": "video", "date": "2026-10-16", "author": "3 Minute League of Legends" },
+    { "title": "Azir - The Revenant Shuffle Explained in 60 Seconds", "url": "https://www.youtube.com/watch?v=8QGW0bzfWLQ", "type": "video", "date": "2022-02-08", "author": "Niad" }
+  ]
+}

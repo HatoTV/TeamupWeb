@@ -1,0 +1,120 @@
+{
+  "champion": "Aurora",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Maléfice, Sortilège, réactivation", "en": "Hex, Weirding, recast" },
+      "keys": ["Q", "E", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Maléfice (A), puis Sortilège (E), puis réactive Maléfice : 3 cumuls du passif en un trade. Commence toujours par Maléfice, sinon le recul de Sortilège te sort de portée.",
+        "en": "Cast Twofold Hex (Q), then The Weirding (E), then recast Twofold Hex: 3 passive stacks in one trade. Always start with Twofold Hex, or The Weirding's recoil takes you out of range."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Auto, Maléfice, réactivation", "en": "Auto, Hex, recast" },
+      "keys": ["Q", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Une auto, Maléfice (A), puis sa réactivation : l'auto et les deux touches du sort posent les 3 cumuls d'Abjuration spirituelle. Le trade court parfait en lane.",
+        "en": "One auto, Twofold Hex (Q), then its recast: the auto and both hits of the spell apply the 3 Spirit Abjuration stacks. The perfect short trade in lane."
+      },
+      "refs": [0, 2, 3]
+    },
+    {
+      "name": { "fr": "Maléfice, Sortilège, Flash", "en": "Hex, Weirding, Flash" },
+      "keys": ["Q", "E", "F"],
+      "level": "hard",
+      "summoners": { "F": "SummonerFlash" },
+      "desc": {
+        "fr": "Enchaîne Maléfice (A) et Sortilège (E), puis Flash pendant l'incantation du Sortilège : il part de ta nouvelle position. Burst très rapide, presque impossible à anticiper.",
+        "en": "Chain Twofold Hex (Q) and The Weirding (E), then Flash during The Weirding's cast time: it fires from your new position. A very fast burst that is almost impossible to read."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage à l'ult, puis burst", "en": "Ult engage, then burst" },
+      "keys": ["R", "Q", "E", "Q", "W"],
+      "level": "medium",
+      "desc": {
+        "fr": "Saute sur la cible avec Entre les mondes (R), enchaîne Maléfice (A), Sortilège (E) et la réactivation, puis rattrape-la avec Derrière le voile (Z).",
+        "en": "Leap onto the target with Between Worlds (R), chain Twofold Hex (Q), The Weirding (E) and the recast, then catch them with Across the Veil (W)."
+      },
+      "refs": [0, 1, 3]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Toucher le bord d'Entre les mondes (R) te fait traverser la zone. Le recul de Sortilège (E) et le saut de Derrière le voile (Z) comptent : renvoie-toi contre le bord pour enchaîner les traversées.",
+        "en": "Touching the edge of Between Worlds (R) sends you across the zone. The Weirding (E) recoil and the Across the Veil (W) hop count: bounce yourself into the edge to chain crossings."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant une traversée d'Entre les mondes (R), tu es inciblable. Sous une tour, rebondis d'un bord à l'autre entre deux tirs pour faire sauter son aggro.",
+        "en": "While crossing Between Worlds (R), you're untargetable. Under a tower, bounce from edge to edge between shots to shake off its aggro."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Prise en gank ? Pose Entre les mondes (R) avec le bord tout près de toi et le côté opposé loin des ennemis : touche le bord et tu te retrouves à l'abri en un instant.",
+        "en": "Caught in a gank? Place Between Worlds (R) with its edge right next to you and the far side away from enemies: touch the edge and you're safe in an instant."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Un takedown dans les 3 s après avoir blessé un champion remet Derrière le voile (Z) à zéro. En teamfight, enchaîne les sauts invisibles d'une cible à l'autre.",
+        "en": "A takedown within 3 s of damaging a champion resets Across the Veil (W). In a teamfight, chain invisible hops from one target to the next."
+      },
+      "refs": [0, 1, 3]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Derrière le voile (Z) te rend invisible et rapide : sers-t'en pour approcher et placer Maléfice (A) puis Sortilège (E) avant qu'on te voie. Une auto casse l'invisibilité.",
+        "en": "Across the Veil (W) makes you invisible and fast: use it to close in and land Twofold Hex (Q) then The Weirding (E) before you're seen. A basic attack breaks the stealth."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pas besoin de voir les cibles marquées par Maléfice (A) pour le réactiver : les éclairs reviennent même depuis le brouillard. Seules des cibles inciblables bloquent la réactivation.",
+        "en": "You don't need vision of targets marked by Twofold Hex (Q) to recast it: the bolts come back even from the fog. Only untargetable targets block the recast."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "Enracinée ou clouée au sol, Sortilège (E) part quand même, mais tu ne recules pas. Si tu comptes sur le recul pour fuir, attends la fin du CC.",
+        "en": "When rooted or grounded, The Weirding (E) still fires, but you don't recoil. If you rely on the recoil to escape, wait for the CC to end."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Pendant le saut de Derrière le voile (Z), tous tes sorts et ton Flash sont bloqués, sans possibilité de les mettre en mémoire. Lance tes sorts avant ou après le saut.",
+        "en": "During the Across the Veil (W) hop, all your spells and Flash are locked, and you can't buffer them. Cast your spells before or after the hop."
+      },
+      "refs": [0]
+    }
+  ],
+  "sources": [
+    { "title": "Aurora – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Aurora", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY AURORA Guide You'll EVER NEED - League of Legends", "url": "https://www.youtube.com/watch?v=5a31OquNz3k", "type": "video", "date": "2024-07-17", "author": "Skill Capped Challenger LoL Guides" },
+    { "title": "New 8 Basic Aurora COMBOS That You Can Easy Learn & Master | League of Legends Aurora Combo Guide", "url": "https://www.youtube.com/watch?v=YRqpMLzRZlk", "type": "video", "date": "2024-07-17", "author": "KingKongLoL" },
+    { "title": "3 Minute Aurora Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=Xa1K3Bjb5mU", "type": "video", "date": "2026-07-12", "author": "3 Minute League of Legends" }
+  ]
+}

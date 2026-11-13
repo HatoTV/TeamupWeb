@@ -29,18 +29,18 @@ Légende : ✅ fait · ⚠️ fait avec peu de contenu vérifié · ⏳ à faire
 - ✅ Aphelios (4 combos, 8 astuces)
 - ✅ Ashe (2 combos, 7 astuces)
 
-### Lot 2 — ⏳
+### Lot 2 — ✅
 
-- ⏳ AurelionSol
-- ⏳ Aurora
-- ⏳ Azir
-- ⏳ Bard
-- ⏳ Belveth
-- ⏳ Brand
-- ⏳ Braum
-- ⏳ Briar
-- ⏳ Caitlyn
-- ⏳ Camille
+- ✅ AurelionSol (4 combos, 8 astuces)
+- ✅ Aurora (4 combos, 8 astuces)
+- ✅ Azir (4 combos, 8 astuces)
+- ✅ Bard (3 combos, 8 astuces)
+- ✅ Belveth (2 combos, 8 astuces)
+- ✅ Brand (4 combos, 8 astuces)
+- ✅ Braum (3 combos, 8 astuces)
+- ✅ Briar (4 combos, 8 astuces)
+- ✅ Caitlyn (4 combos, 8 astuces)
+- ✅ Camille (4 combos, 8 astuces)
 
 ### Lot 3 — ⏳
 

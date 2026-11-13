@@ -1,0 +1,118 @@
+{
+  "champion": "Briar",
+  "patch": "16.22",
+  "lastResearch": "2026-11-13",
+  "combos": [
+    {
+      "name": { "fr": "Folie, auto, À table !", "en": "Frenzy, auto, Head Rush" },
+      "keys": ["W", "Q", "W", "E"],
+      "level": "medium",
+      "desc": {
+        "fr": "Folie sanguinaire (Z), une auto, puis À table ! (A) qui stun et relance ton auto ; place Juste un croc (Z) juste après une auto et garde Cri sanglant (E) pour stopper la poursuite.",
+        "en": "Blood Frenzy (W), one auto, then Head Rush (Q) to stun and reset your auto. Fire Snack Attack (W) right after an auto, and keep Chilling Scream (E) to stop the chase."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "name": { "fr": "Engage de loin", "en": "Long-range engage" },
+      "keys": ["W", "Q"],
+      "level": "easy",
+      "desc": {
+        "fr": "Quand l'ennemi est loin, lance À table ! (A) pendant le dash de Folie sanguinaire (Z) pour couvrir un maximum de distance et stun tout de suite ; de près, place plutôt une auto entre les deux.",
+        "en": "When the enemy is far, cast Head Rush (Q) during the Blood Frenzy (W) dash: you cover the most distance and the stun lands at once. Up close, weave an auto in between instead."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "name": { "fr": "Cri chargé contre le mur", "en": "Charged Scream into a wall" },
+      "keys": ["W", "W", "Q", "E"],
+      "level": "hard",
+      "desc": {
+        "fr": "Folie sanguinaire (Z), auto, Juste un croc (Z), auto, À table ! (A), puis charge Cri sanglant (E) à fond pendant le stun : si la cible repoussée heurte un mur, elle reste stun 1,5 s.",
+        "en": "Blood Frenzy (W), auto, Snack Attack (W), auto, Head Rush (Q), then fully charge Chilling Scream (E) during the stun. The target is knocked back and, if it hits a wall, stunned for 1.5 s."
+      },
+      "refs": [0, 2]
+    },
+    {
+      "name": { "fr": "Stun puis ult garanti", "en": "Stun into guaranteed ult" },
+      "keys": ["Q", "R"],
+      "level": "easy",
+      "desc": {
+        "fr": "Lance Vol mortel (R) sur une cible stun par À table ! (A) ou par un Cri sanglant (E) chargé contre un mur : elle ne peut ni esquiver ni Flash, et ses alliés proches sont fear à ton arrivée.",
+        "en": "Fire Certain Death (R) at a target stunned by Head Rush (Q) or by a charged Chilling Scream (E) into a wall. It can neither dodge nor Flash, and its nearby allies are feared when you land."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "tips": [
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Pendant Folie sanguinaire (Z), tu attaques seule l'ennemi le plus proche, sans contrôle. Cri sanglant (E) met fin à la frénésie : c'est ta seule porte de sortie.",
+        "en": "During Blood Frenzy (W), you automatically attack the nearest enemy, with no control. Chilling Scream (E) ends the frenzy: it is your only way out."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "Lancer Vol mortel (R) pendant Folie sanguinaire (Z) remplace la frénésie et te fait perdre Juste un croc (Z). Place ta morsure avant l'ult.",
+        "en": "Casting Certain Death (R) during Blood Frenzy (W) replaces the frenzy and makes you lose Snack Attack (W). Land your bite before the ult."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "À table ! (A) sur un sbire ou un monstre fait passer ta frénésie en priorité sur les monstres et sbires. Pratique pour farmer sans foncer sur un champion.",
+        "en": "Head Rush (Q) on a minion or monster switches your frenzy priority to monsters and minions. Handy to farm without charging a champion."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "À table ! (A) peut cibler tes alliés, les plantes, les balises et les pièges invisibles. Utilise-le comme dash de fuite, pas seulement pour stun.",
+        "en": "Head Rush (Q) can target allies, jungle plants, wards and stealthed traps. Use it as an escape dash, not just for the stun."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "timing",
+      "text": {
+        "fr": "La réduction de résistances d'À table ! (A) et Folie sanguinaire (Z) durent 5 s. Lance Folie sanguinaire (Z) d'abord pour que Juste un croc (Z) profite encore de la réduction.",
+        "en": "The Head Rush (Q) resistance shred and Blood Frenzy (W) both last 5 s. Cast Blood Frenzy (W) first so Snack Attack (W) still benefits from the shred."
+      },
+      "refs": [0, 1]
+    },
+    {
+      "tag": "terrain",
+      "text": {
+        "fr": "Chargé à fond, Cri sanglant (E) repousse de 575 unités. Une cible qui heurte un mur est projetée puis stun 1,5 s ; sinon, le cri ralentit seulement.",
+        "en": "Fully charged, Chilling Scream (E) knocks back 575 units. A target that hits a wall is knocked up then stunned for 1.5 s; otherwise the scream only slows."
+      },
+      "refs": [0, 1, 2]
+    },
+    {
+      "tag": "mechanic",
+      "text": {
+        "fr": "Les CC n'interrompent pas la charge de Cri sanglant (E), et tu te soignes avec 35 % de réduction de dégâts pendant la charge.",
+        "en": "Crowd control cannot interrupt the Chilling Scream (E) charge, and you heal with 35% damage reduction while charging."
+      },
+      "refs": [0]
+    },
+    {
+      "tag": "interaction",
+      "text": {
+        "fr": "La cible marquée par Vol mortel (R) est révélée, même invisible. Ta frénésie ignore les cibles camouflées : l'ult est ta réponse aux champions invisibles.",
+        "en": "The target marked by Certain Death (R) is revealed, even when invisible. Your frenzy ignores stealthed targets: the ult is your answer to invisible champions."
+      },
+      "refs": [0, 1]
+    }
+  ],
+  "sources": [
+    { "title": "Briar – League of Legends Wiki", "url": "https://wiki.leagueoflegends.com/en-us/Briar", "type": "wiki", "date": "2026-11-13", "author": "League of Legends Wiki" },
+    { "title": "The ONLY Briar Combo Guide You Need in Season 16!", "url": "https://www.youtube.com/watch?v=env3Ip35Wwk", "type": "video", "date": "2026-06-02", "author": "L0ganJG" },
+    { "title": "3 Minute Briar Guide - A Guide for League of Legends", "url": "https://www.youtube.com/watch?v=5jXasImtsUg", "type": "video", "date": "2026-09-06", "author": "3 Minute League of Legends" }
+  ]
+}

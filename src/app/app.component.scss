@@ -6,6 +6,8 @@
   display: block;
   min-width: 0;
   min-height: calc(100vh - 64px);
+  // Hidden tooltips positioned near the viewport edge must not create horizontal scroll.
+  overflow-x: clip;
 
   &:focus {
     outline: none;

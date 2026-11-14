@@ -55,5 +55,5 @@ export const routes: Routes = [
     data: { doc: 'mentions' },
     loadComponent: () => import('./legal/legal.component').then((m) => m.LegalComponent),
   },
-  { path: '**', redirectTo: 'fr/home' },
+  { path: '**', loadComponent: () => import('./not-found/not-found.component').then((m) => m.NotFoundComponent) },
 ];

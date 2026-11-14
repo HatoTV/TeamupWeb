@@ -13,6 +13,25 @@ const MAX_MESSAGE_LENGTH = 1000;
 const CHAMPION_PATTERN = /^[\p{L}][\p{L} .'&-]*$/u;
 const GENERIC_ERROR = { error: 'Request could not be processed' };
 
+/** Best-effort per-instance rate limit (serverless instances do not share memory). */
+const RATE_WINDOW_MS = 10 * 60_000;
+const RATE_MAX = 5;
+const hits = new Map();
+
+function isRateLimited(ip) {
+  const now = Date.now();
+  const recent = (hits.get(ip) || []).filter((t) => now - t < RATE_WINDOW_MS);
+  recent.push(now);
+  hits.set(ip, recent);
+  if (hits.size > 5000) hits.clear();
+  return recent.length > RATE_MAX;
+}
+
+function clientIp(req) {
+  const forwarded = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim();
+  return forwarded || req.socket?.remoteAddress || 'unknown';
+}
+
 function allowedOrigins() {
   const origins = new Set(['https://teamupp.app', 'https://www.teamupp.app']);
   // Vercel system environment variables (deployment, branch and production URLs, without protocol).
@@ -82,6 +101,10 @@ export default async function handler(req, res) {
   const payload = parseBody(req.body);
   if (!payload) {
     return res.status(400).json(GENERIC_ERROR);
+  }
+  if (isRateLimited(clientIp(req))) {
+    res.setHeader('Retry-After', String(RATE_WINDOW_MS / 1000));
+    return res.status(429).json(GENERIC_ERROR);
   }
 
   const user = process.env.EMAIL_USER;

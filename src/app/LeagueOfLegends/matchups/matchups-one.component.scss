@@ -8,9 +8,16 @@
   --other-text: var(--diff-5-text);
   --other-soft: rgba(255, 79, 109, 0.08);
   position: relative;
+  z-index: 1;
   min-height: 400px;
-  overflow: hidden;
   border-bottom: 1px solid var(--color-separator);
+}
+
+// Decorative layers are clipped here so the hero itself can let the combobox list overflow.
+.hero__deco {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
 }
 
 .hero--reverse {
@@ -153,6 +160,12 @@
   font-size: 13px;
   font-weight: 600;
 
+  // Same tint as the « passive » chips of the build page, over the dark base so it stays legible on the splash art.
+  &--role {
+    background: linear-gradient(rgba(155, 123, 255, 0.18), rgba(155, 123, 255, 0.18)), rgba(13, 13, 24, 0.8);
+    color: #c3b0ff;
+  }
+
   &--gold {
     background: var(--color-gold);
     color: #141420;
@@ -165,9 +178,10 @@
     font: 700 13px var(--font-body);
     cursor: pointer;
 
-    &:hover {
-      background: rgba(255, 200, 60, 0.12);
-      color: #ffd76b;
+    &:hover,
+    &:focus-visible {
+      background: var(--color-gold);
+      color: #141420;
     }
   }
 }

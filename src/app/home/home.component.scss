@@ -79,49 +79,6 @@
   margin-top: 32px;
 }
 
-.quick {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: var(--space-2);
-  margin-top: 16px;
-}
-
-.quick__label {
-  font-size: 14px;
-  color: #9d9db5;
-}
-
-.quick__list {
-  display: contents;
-  list-style: none;
-}
-
-.quick__link {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  min-height: var(--touch-target);
-  padding: 0 12px;
-  border-radius: var(--radius-control-sm);
-  background: rgba(30, 30, 50, 0.85);
-  border: 1px solid #2e2e48;
-  font-size: 14px;
-  font-weight: 600;
-  transition: border-color var(--duration-color) ease;
-
-  &:hover {
-    border-color: var(--game-accent);
-  }
-}
-
-.quick__dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 2px;
-  background: var(--game-accent);
-}
-
 // Game cards
 .games {
   flex: 1 1 520px;

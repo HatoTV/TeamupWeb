@@ -103,19 +103,6 @@
   }
 }
 
-.ct__other {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 10px 16px;
-  padding-top: 14px;
-  color: var(--color-text-muted);
-}
-
-.ct__reverse {
-  gap: 8px;
-}
-
 .ct__state {
   flex: 1;
   padding: 22px;

@@ -21,7 +21,6 @@
     (blur)="close()"
   />
   @if (shortcut()) {
-    <kbd class="search__kbd" aria-hidden="true">/</kbd>
     <span class="sr-only" [id]="uid + '-shortcut'">{{ 'SEARCH.SHORTCUT' | translate }}</span>
   }
   @if (withSubmit()) {

@@ -21,19 +21,6 @@
       <p class="hero__subtitle">{{ 'HOME.SUBBIENVENUE' | translate }}</p>
 
       <app-global-search class="hero__search" variant="hero" [withSubmit]="true" role="search" />
-
-      <div class="quick">
-        <span class="quick__label" id="quick-label">{{ 'HOMEPAGE.QUICK' | translate }}</span>
-        <ul class="quick__list" aria-labelledby="quick-label">
-          @for (link of quickLinks; track link.labelKey) {
-            <li>
-              <a class="quick__link" [attr.data-game]="link.game" [routerLink]="ctx.link(link.path)">
-                <span class="quick__dot" aria-hidden="true"></span>{{ link.labelKey | translate }}
-              </a>
-            </li>
-          }
-        </ul>
-      </div>
     </div>
 
     <ul class="games">

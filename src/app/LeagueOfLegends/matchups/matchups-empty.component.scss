@@ -3,7 +3,8 @@
 // ---------- Hero ----------
 .hero {
   position: relative;
-  overflow: hidden;
+  // No overflow clipping: the champion search list must be able to spill over the next section.
+  z-index: 1;
   border-bottom: 1px solid var(--color-separator);
 }
 

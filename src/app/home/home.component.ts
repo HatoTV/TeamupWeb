@@ -17,13 +17,6 @@ import { SafeHtmlPipe } from '../safe-html.pipe';
 import { DifficultyBadgeComponent } from '../shared/ui/difficulty-badge.component';
 import { IconComponent } from '../shared/ui/icon/icon.component';
 
-interface QuickLink {
-  labelKey: string;
-  path: string;
-  fragment?: string;
-  game: GameId;
-}
-
 interface GameCard {
   game: GameId;
   nameKey: string;
@@ -79,13 +72,6 @@ export class HomeComponent {
     low: i < 7,
   }));
   protected readonly lolGuideCount = LOL_GUIDE_GROUPS.reduce((total, group) => total + group.items.length, 0);
-
-  protected readonly quickLinks: QuickLink[] = [
-    { labelKey: 'NAV.MATCHUPS', path: '/lol/matchups', game: 'lol' },
-    { labelKey: 'NAV.LOL_WAVEMANAGEMENT', path: '/lol/wavemanagement', game: 'lol' },
-    { labelKey: 'HOMEPAGE.QUICK_TFT', path: '/tft', game: 'tft' },
-    { labelKey: 'HOMEPAGE.QUICK_RL', path: '/rocket/mecanics/fast-aerial', game: 'rl' },
-  ];
 
   protected readonly games: GameCard[] = [
     { game: 'lol', nameKey: 'GAMES.LOL', path: '/lol/matchups', image: 'assets/img/site/gameLoL.webp' },

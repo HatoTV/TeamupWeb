@@ -1,8 +1,7 @@
-import { ChangeDetectionStrategy, Component, computed, effect, inject, input, output, signal, untracked } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, effect, inject, input, signal, untracked } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { Champion } from '../../../core/data/champion-data.service';
 import { RouteContextService } from '../../../core/route-context.service';
-import { IconComponent } from '../../../shared/ui/icon/icon.component';
 import { CommunityTip, CommunityTipsFile, CommunityTipsService, VsTipsFile, sideTips, vsTips } from './community-tips.service';
 
 /**
@@ -13,7 +12,7 @@ import { CommunityTip, CommunityTipsFile, CommunityTipsService, VsTipsFile, side
 @Component({
   selector: 'app-community-tips',
   standalone: true,
-  imports: [TranslateModule, IconComponent],
+  imports: [TranslateModule],
   templateUrl: './community-tips.component.html',
   styleUrl: './community-tips.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -24,7 +23,6 @@ export class CommunityTipsComponent {
 
   readonly me = input.required<Champion>();
   readonly vs = input.required<Champion>();
-  readonly reverse = output<void>();
 
   /** undefined while loading, null when the pair has no file. */
   protected readonly file = signal<CommunityTipsFile | null | undefined>(undefined);
@@ -37,10 +35,6 @@ export class CommunityTipsComponent {
   protected readonly tips = computed<CommunityTip[]>(() => sideTips(this.file(), this.me().ddragonId, this.lang()));
   /** Tips against the opponent whatever the champion played. */
   protected readonly general = computed<CommunityTip[]>(() => vsTips(this.vsFile(), this.lang()));
-  /** Only the other side is filled: say so and offer to reverse the selection. */
-  protected readonly onlyOtherSide = computed(
-    () => !this.tips().length && sideTips(this.file(), this.vs().ddragonId, this.lang()).length > 0
-  );
   protected readonly loading = computed(() => this.file() === undefined || this.vsFile() === undefined);
   protected readonly needsRecheck = computed(
     () =>

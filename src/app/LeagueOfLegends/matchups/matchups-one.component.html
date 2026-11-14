@@ -1,9 +1,11 @@
 <section class="hero" [class.hero--reverse]="side() === 'vs'">
-  <div class="hero__art" aria-hidden="true">
-    <img [src]="splash()" alt="" fetchpriority="high" />
+  <div class="hero__deco" aria-hidden="true">
+    <div class="hero__art">
+      <img [src]="splash()" alt="" fetchpriority="high" />
+    </div>
+    <div class="hero__shade"></div>
+    <div class="hero__glow"></div>
   </div>
-  <div class="hero__shade" aria-hidden="true"></div>
-  <div class="hero__glow" aria-hidden="true"></div>
 
   <div class="hero__body">
     <div class="owner" [class.owner--enemy]="side() === 'vs'">
@@ -15,7 +17,7 @@
       </h1>
       <div class="owner__tags">
         @for (r of owner().champion.roles; track r) {
-          <span class="tag">{{ 'PICKERPAGE.ROLES.' + r | translate }}</span>
+          <span class="tag tag--role">{{ 'PICKERPAGE.ROLES.' + r | translate }}</span>
         }
         @if (showBuild && side() === 'vs') {
           <a class="tag tag--gold" [routerLink]="ctx.link('/lol/champions/' + owner().champion.slug)">{{ 'MATCHUPSPAGE.SEE_BUILD' | translate }}</a>

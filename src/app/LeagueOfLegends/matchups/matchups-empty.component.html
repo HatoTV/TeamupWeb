@@ -14,7 +14,7 @@
 
     <div class="slots">
       <div class="slot slot--ally">
-        <button type="button" class="slot__circle" [attr.aria-label]="'MATCHUPSPAGE.CHOOSE_YOURS' | translate" (click)="focusSearch()">
+        <button type="button" class="slot__circle" [attr.aria-label]="('MATCHUPSPAGE.STEP' | translate: { n: 1 }) + ' : ' + ('MATCHUPSPAGE.CHOOSE_YOURS' | translate)" (click)="focusSearch()">
           <app-icon name="plus" [size]="40" />
           <span class="slot__step">{{ 'MATCHUPSPAGE.STEP' | translate: { n: 1 } }}</span>
         </button>

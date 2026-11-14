@@ -129,6 +129,13 @@
   text-transform: uppercase;
 }
 
+.owner__build {
+  min-height: 56px;
+  padding: 0 var(--space-6);
+  font-size: 19px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+}
+
 .owner__tags {
   display: flex;
   flex-wrap: wrap;
@@ -153,14 +160,14 @@
   }
 
   &--button {
-    border: 1px solid var(--color-line-strong);
-    color: var(--color-text-secondary);
-    font: 600 13px var(--font-body);
+    border: 1px solid var(--color-gold);
+    color: var(--color-gold);
+    font: 700 13px var(--font-body);
     cursor: pointer;
 
     &:hover {
-      border-color: var(--color-gold);
-      color: var(--color-text);
+      background: rgba(255, 200, 60, 0.12);
+      color: #ffd76b;
     }
   }
 }

@@ -55,7 +55,7 @@ export class PickerComponent {
   private readonly cards = computed<PickerCard[]>(() =>
     (this.data.index()?.champions ?? []).map((champion) => ({
       champion,
-      icon: this.data.iconUrl(champion),
+      icon: this.data.tileUrl(champion),
       bucket: bucketOf(champion.difficulty),
     }))
   );

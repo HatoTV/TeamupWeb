@@ -7,6 +7,7 @@ import { FEATURES } from '../../core/site.config';
 import { ChampionComboboxComponent, ChampionOption } from '../../shared/ui/champion-combobox/champion-combobox.component';
 import { DifficultyIconComponent } from '../../shared/ui/difficulty/difficulty-icon.component';
 import { DifficultyLevel, MATCHUP_DIFFICULTY } from '../../shared/ui/difficulty/matchup-difficulty';
+import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { MatchupReportComponent } from './matchup-report.component';
 import { boardColumns, injectIsMobile, optionsWithLevels } from './matchups-data';
 import { MatchupSelection, injectMatchupNavigation, matchupPath } from './matchups-url';
@@ -18,7 +19,7 @@ import { MatchupSelection, injectMatchupNavigation, matchupPath } from './matchu
 @Component({
   selector: 'app-matchups-one',
   standalone: true,
-  imports: [TranslateModule, RouterLink, ChampionComboboxComponent, DifficultyIconComponent, MatchupReportComponent],
+  imports: [TranslateModule, RouterLink, ChampionComboboxComponent, DifficultyIconComponent, MatchupReportComponent, IconComponent],
   templateUrl: './matchups-one.component.html',
   styleUrl: './matchups-one.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

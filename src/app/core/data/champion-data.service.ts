@@ -90,6 +90,14 @@ export class ChampionDataService {
     return champion.ddragonId && version ? `${DDRAGON}/${version}/img/champion/${champion.ddragonId}.png` : '';
   }
 
+  /** 380 px square crop of the splash art: sharp where the 128 px icon would be upscaled. */
+  tileUrl(champion: Pick<Champion, 'ddragonId'>, skin = 0): string {
+    if (!champion.ddragonId) return '';
+    // Data Dragon keeps a legacy casing for this champion's tiles only.
+    const id = champion.ddragonId === 'Fiddlesticks' ? 'FiddleSticks' : champion.ddragonId;
+    return `${DDRAGON}/img/champion/tiles/${id}_${skin}.jpg`;
+  }
+
   splashUrl(champion: Pick<Champion, 'ddragonId'>, skin = 0): string {
     return champion.ddragonId ? `${DDRAGON}/img/champion/splash/${champion.ddragonId}_${skin}.jpg` : '';
   }

@@ -54,7 +54,7 @@
         <img class="draw__art" [src]="data.splashUrl(d.champion)" alt="" />
         <div class="draw__shade" aria-hidden="true"></div>
         <div class="draw__body">
-          <img class="draw__icon" [ngSrc]="d.icon" alt="" width="96" height="96" />
+          <img class="draw__icon" [ngSrc]="d.icon" alt="" width="380" height="380" />
           <div class="draw__text">
             <p class="draw__kicker" id="draw-title">
               {{ 'PICKERPAGE.DRAW_KICKER' | translate }}
@@ -68,13 +68,16 @@
             <p class="draw__name">{{ d.champion.name }}</p>
             @if (!rolling()) {
               <div class="draw__actions">
+                @if (showBuild) {
+                  <a class="btn btn--primary btn--sm" [routerLink]="ctx.link('/lol/champions/' + d.champion.slug)">
+                    {{ 'MATCHUPSPAGE.BUILD_OF' | translate: { name: d.champion.name } }}
+                    <app-icon name="arrow-right" [size]="18" />
+                  </a>
+                }
                 @if (d.champion.hasMatchups) {
                   <a class="draw__matchups" [routerLink]="ctx.link('/lol/matchups/' + d.champion.slug)">
                     {{ 'SEARCH.CHAMPION_HINT' | translate }}
                   </a>
-                }
-                @if (showBuild) {
-                  <a class="draw__reroll" [routerLink]="ctx.link('/lol/champions/' + d.champion.slug)">{{ 'SEARCH.BUILD_HINT' | translate }}</a>
                 }
                 <button type="button" class="draw__reroll" (click)="roll()">{{ 'PICKERPAGE.REROLL' | translate }}</button>
               </div>
@@ -97,7 +100,7 @@
         <li>
           <a class="champ" [routerLink]="ctx.link('/lol/matchups/' + card.champion.slug)">
             <span class="champ__media">
-              <img [ngSrc]="card.icon" alt="" width="120" height="120" />
+              <img [ngSrc]="card.icon" alt="" width="380" height="380" />
               <span class="champ__roles">
                 @for (r of card.champion.roles; track r) {
                   <span class="champ__role"><img [src]="'assets/img/site/' + r + '.webp'" alt="" width="14" height="14" /></span>

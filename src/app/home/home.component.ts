@@ -14,7 +14,6 @@ import { RouteContextService } from '../core/route-context.service';
 import { DISCORD_URL, GameId, TWITCH_URL } from '../core/site.config';
 import { GlobalSearchComponent } from '../layout/global-search/global-search.component';
 import { SafeHtmlPipe } from '../safe-html.pipe';
-import { DifficultyBadgeComponent } from '../shared/ui/difficulty-badge.component';
 import { IconComponent } from '../shared/ui/icon/icon.component';
 
 interface GameCard {
@@ -51,7 +50,7 @@ const PICKER_PREVIEW = 7;
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [SrcsetPipe, ImgFallbackPipe, NgOptimizedImage, TranslateModule, RouterLink, SafeHtmlPipe, GlobalSearchComponent, IconComponent, DifficultyBadgeComponent],
+  imports: [SrcsetPipe, ImgFallbackPipe, NgOptimizedImage, TranslateModule, RouterLink, SafeHtmlPipe, GlobalSearchComponent, IconComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -149,8 +148,8 @@ export class HomeComponent {
   protected readonly pickerMore = computed(() => Math.max(0, (this.champions.index()?.champions.length ?? 0) - PICKER_PREVIEW));
   protected readonly matchupDemo = computed(() => {
     this.champions.index();
-    const ally = this.champions.findByName('Janna');
-    const enemy = this.champions.findByName('Blitzcrank');
+    const ally = this.champions.findByName('Yone');
+    const enemy = this.champions.findByName('Yasuo');
     return ally && enemy ? { ally: this.champions.iconUrl(ally), enemy: this.champions.iconUrl(enemy) } : null;
   });
 

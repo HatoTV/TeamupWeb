@@ -450,3 +450,9 @@ button.col__head {
     padding: 16px;
   }
 }
+
+/* Enemy page without author matchups: the « how to play against » card replaces the board. */
+.board__vs-tips {
+  display: block;
+  max-width: 820px;
+}

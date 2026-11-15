@@ -90,9 +90,12 @@ export function optionsWithLevels(options: readonly ChampionOption[], data: Cham
     .sort((a, b) => (b.level ?? 0) - (a.level ?? 0) || a.champion.name.localeCompare(b.champion.name));
 }
 
-/** Champions that have matchup data, optionally for one role. */
+/**
+ * Champions that can be selected, optionally for one role. Every champion is selectable: without author
+ * matchups, its pages show the « how to play against » advice and the build data.
+ */
 export function pickableChampions(champions: readonly Champion[], role: Role | null): Champion[] {
-  return champions.filter((c) => c.hasMatchups && (!role || c.roles.includes(role)));
+  return champions.filter((c) => !role || c.roles.includes(role));
 }
 
 /**

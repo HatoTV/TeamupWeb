@@ -76,6 +76,10 @@
     @if (!classifiedCount()) {
       <p class="board__state" role="status">{{ 'MATCHUPSPAGE.BOARD_NO_DATA' | translate: { name: owner().champion.name } }}</p>
     }
+    @if (!classifiedCount() && side() === 'vs') {
+      <!-- No author matchups: the « how to play against » advice replaces the empty board. -->
+      <app-community-tips class="board__vs-tips" [vs]="owner().champion" />
+    } @else {
     <div class="board">
       @for (col of columns(); track col.level) {
         <section
@@ -123,6 +127,7 @@
         </section>
       }
     </div>
+    }
   }
 </section>
 

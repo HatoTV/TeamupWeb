@@ -77,7 +77,8 @@ export class SearchIndexService {
       detail: t('SEARCH.CHAMPION_HINT'),
       aliases: champion.aliases,
       icon: this.championData.iconUrl(champion),
-      path: `/lol/matchups/${champion.slug}`,
+      // Without author matchups, the enemy page shows the « how to play against » advice.
+      path: champion.hasMatchups ? `/lol/matchups/${champion.slug}` : `/lol/matchups/vs/${champion.slug}`,
     }));
     // Second entry per champion: its build page ("Yone · See build").
     if (FEATURES.buildPages) {

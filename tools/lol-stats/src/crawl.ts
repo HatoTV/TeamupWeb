@@ -74,24 +74,30 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
   const list: PlayerList = await loadPlayers(client, store, platform, config.pagesPerDivision, now());
   const tierOf = new Map(list.players.map((p) => [p.puuid, p.tier]));
   const seen = decodeIds(await store.get(seenKey(meta.patch, platform)));
-  const games: GameRecord[] = [];
+  /** New games not saved yet (saved games are dropped from memory). */
+  let pending: GameRecord[] = [];
+  let newGames = 0;
   const skipped: CrawlReport['skipped'] = {};
   const inFlight = new Set<string>();
   let playersCrawled = 0;
-  let saved = 0;
   let part = 0;
+  let lastFlush = now();
   const stamp = new Date(started).toISOString().replace(/[:.]/g, '-');
-  /** Saves the new games, the seen ids and the rotation (every 100 games and at the end). */
-  const flush = async () => {
-    if (games.length > saved) {
-      await store.put(`${gamesPrefix(meta.patch)}${platform}-${stamp}-${++part}.jsonl.gz`, encodeJsonl(games.slice(saved)));
-      saved = games.length;
-    }
-    await store.put(seenKey(meta.patch, platform), encodeIds(seen));
-    await putJson(store, playersKey(platform), list);
-  };
+  let flushing: Promise<void> = Promise.resolve();
+  /** Saves the new games, the seen ids and the rotation (serialised: players are crawled concurrently). */
+  const flush = () =>
+    (flushing = flushing.then(async () => {
+      lastFlush = now();
+      if (pending.length) {
+        const batch = pending;
+        pending = [];
+        await store.put(`${gamesPrefix(meta.patch)}${platform}-${stamp}-${++part}.jsonl.gz`, encodeJsonl(batch));
+      }
+      await store.put(seenKey(meta.patch, platform), encodeIds(seen));
+      await putJson(store, playersKey(platform), list);
+    }));
 
-  const stop = () => now() >= deadline || (config.maxGames > 0 && games.length >= config.maxGames);
+  const stop = () => now() >= deadline || (config.maxGames > 0 && newGames >= config.maxGames);
 
   const fetchGame = async (id: string, fallbackTier: SampledTier) => {
     if (seen.has(id) || inFlight.has(id) || stop()) return;
@@ -123,25 +129,36 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
       }
       const game = extractGame(m, t, { patch: meta.patch, platform, tier, catalog, minDurationS: config.minGameSeconds });
       if (typeof game === 'string') skipped[game] = (skipped[game] ?? 0) + 1;
-      else games.push(game);
+      else {
+        pending.push(game);
+        newGames++;
+      }
       seen.add(id);
     } finally {
       inFlight.delete(id);
     }
   };
 
-  // Round-robin over players, starting at the saved cursor.
-  const order = [...list.players.slice(list.cursor), ...list.players.slice(0, list.cursor)];
-  for (const player of order) {
-    if (stop()) break;
-    const since = Math.max(meta.startTime, player.lastCrawled ?? 0);
-    const ids = (await matchIds(client, platform, player.puuid, since)) ?? [];
-    player.lastCrawled = Math.floor(now() / 1000);
-    playersCrawled++;
-    list.cursor = (list.cursor + 1) % Math.max(1, list.players.length);
-    await pool(ids, 4, (id) => fetchGame(id, player.tier), stop);
-    if (games.length - saved >= 100) await flush();
-  }
+  // Round-robin over players, starting at the saved cursor; several players at a time so that the
+  // production limits are used (the limiter keeps the pace).
+  const size = Math.max(1, list.players.length);
+  const start = list.cursor;
+  const order = [...list.players.slice(start), ...list.players.slice(0, start)];
+  let begun = 0;
+  await pool(
+    order,
+    config.playerConcurrency,
+    async (player) => {
+      list.cursor = (start + ++begun) % size;
+      const since = Math.max(meta.startTime, player.lastCrawled ?? 0);
+      const ids = (await matchIds(client, platform, player.puuid, since)) ?? [];
+      player.lastCrawled = Math.floor(now() / 1000);
+      playersCrawled++;
+      await pool(ids, config.matchConcurrency, (id) => fetchGame(id, player.tier), stop);
+      if (pending.length >= config.flushGames || now() - lastFlush >= config.flushMinutes * 60_000) await flush();
+    },
+    stop
+  );
 
   await flush();
 
@@ -150,7 +167,7 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
     platform,
     players: countByTier(list),
     playersCrawled,
-    newGames: games.length,
+    newGames,
     skipped,
     requests: client.stats.requests - requestsBefore,
     rateLimited: client.stats.rateLimited - rateLimitedBefore,

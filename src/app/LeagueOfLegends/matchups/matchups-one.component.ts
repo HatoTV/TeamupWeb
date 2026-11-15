@@ -9,7 +9,6 @@ import { DifficultyIconComponent } from '../../shared/ui/difficulty/difficulty-i
 import { DifficultyLevel, MATCHUP_DIFFICULTY } from '../../shared/ui/difficulty/matchup-difficulty';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { CommunityTipsComponent } from './community-tips/community-tips.component';
-import { MatchupReportComponent } from './matchup-report.component';
 import { boardColumns, injectIsMobile, optionsWithLevels } from './matchups-data';
 import { MatchupSelection, injectMatchupNavigation, matchupPath } from './matchups-url';
 
@@ -20,7 +19,7 @@ import { MatchupSelection, injectMatchupNavigation, matchupPath } from './matchu
 @Component({
   selector: 'app-matchups-one',
   standalone: true,
-  imports: [TranslateModule, RouterLink, ChampionComboboxComponent, DifficultyIconComponent, MatchupReportComponent, IconComponent, CommunityTipsComponent],
+  imports: [TranslateModule, RouterLink, ChampionComboboxComponent, DifficultyIconComponent, IconComponent, CommunityTipsComponent],
   templateUrl: './matchups-one.component.html',
   styleUrl: './matchups-one.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -38,7 +37,6 @@ export class MatchupsOneComponent {
   readonly options = input.required<ChampionOption[]>();
 
   protected readonly showBuild = FEATURES.buildPages;
-  protected readonly reportOpen = signal(false);
   /** Mobile only: which level sections are expanded. */
   protected readonly expanded = signal<ReadonlySet<DifficultyLevel>>(new Set());
 
@@ -48,18 +46,12 @@ export class MatchupsOneComponent {
   );
   protected readonly classifiedCount = computed(() => this.columns().reduce((n, c) => n + c.entries.length, 0));
   protected readonly suggestions = computed(() => optionsWithLevels(this.options(), this.ownerData(), this.owner().champion.slug));
-  protected readonly reportChampion1 = computed(() => (this.side() === 'me' ? this.owner().champion : null));
-  protected readonly reportChampion2 = computed(() => (this.side() === 'vs' ? this.owner().champion : null));
 
   constructor() {
     // Mobile: the hardest non-empty level is open by default.
     effect(() => {
       const first = this.columns().find((c) => c.entries.length)?.level;
       untracked(() => this.expanded.set(new Set(first ? [first] : [])));
-    });
-    effect(() => {
-      this.owner();
-      untracked(() => this.reportOpen.set(false));
     });
   }
 

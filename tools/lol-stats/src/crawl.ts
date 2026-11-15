@@ -74,6 +74,8 @@ export async function resolvePatch(store: StateStore, ddragon: DataDragon, now =
 
 export interface CrawlDeps {
   client: RiotClient;
+  /** One client per platform (own limiter and request counts); `client` otherwise. */
+  clientFor?: (platform: Platform) => RiotClient;
   store: StateStore;
   ddragon?: DataDragon;
   catalog?: ItemCatalog;
@@ -288,5 +290,7 @@ export async function crawl(config: Config, deps: CrawlDeps): Promise<CrawlRepor
   const patches = await resolvePatches(deps.store, ddragon, (deps.now ?? Date.now)());
   const catalog = deps.catalog ?? buildItemCatalog((await ddragon.items(patches.current.version)).data);
   const deadline = (deps.now ?? Date.now)() + config.budgetMinutes * 60_000;
-  return Promise.all(config.platforms.map((platform) => crawlPlatform(platform, patches, config, { ...deps, ddragon, catalog }, deadline)));
+  return Promise.all(
+    config.platforms.map((platform) => crawlPlatform(platform, patches, config, { ...deps, client: deps.clientFor?.(platform) ?? deps.client, ddragon, catalog }, deadline))
+  );
 }

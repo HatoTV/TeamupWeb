@@ -13,8 +13,9 @@ const command = process.argv[2];
 
 async function runCrawl(config: Config): Promise<void> {
   const store = openStore(config);
-  const client = new RiotClient({ apiKey: config.apiKey });
-  for (const report of await crawl(config, { client, store })) {
+  const clients = new Map(config.platforms.map((p) => [p, new RiotClient({ apiKey: config.apiKey })]));
+  const client = clients.get(config.platforms[0]!)!;
+  for (const report of await crawl(config, { client, clientFor: (p) => clients.get(p)!, store })) {
     console.log(
       `[crawl] ${report.platform} patch ${report.patch}: ${report.newGames} new games ${JSON.stringify(report.newGamesByPatch)} in ${report.minutes} min ` +
         `(rotation: pass ${report.passes + 1}, player ${report.cursor}; ${report.playersCrawled} players crawled, ${report.requests} requests, ${report.rateLimited} × 429) ` +

@@ -88,7 +88,7 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     /** Look-back of the very first pass (current and previous patch), refined by the patch boundary seen in the data. */
     firstPassDays: num(env.LOL_STATS_FIRST_PASS_DAYS, 35),
     budgetMinutes: num(env.LOL_STATS_BUDGET_MINUTES, 50),
-    playerConcurrency: num(env.LOL_STATS_PLAYER_CONCURRENCY, 8),
+    playerConcurrency: num(env.LOL_STATS_PLAYER_CONCURRENCY, 16),
     matchConcurrency: 4,
     flushGames: num(env.LOL_STATS_FLUSH_GAMES, 1000),
     flushMinutes: num(env.LOL_STATS_FLUSH_MINUTES, 5),

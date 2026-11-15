@@ -14,7 +14,7 @@ on:
       mode:
         description: 'full = crawl + publish; crawl = collection only; publish = aggregation and publication only; smoke = key and limits check'
         type: choice
-        options: [full, crawl, publish, smoke]
+        options: [full, crawl, publish, smoke, count]
         default: full
       budget_minutes:
         description: Crawl time budget (minutes, 330 at most)
@@ -65,8 +65,13 @@ jobs:
         working-directory: tools/lol-stats
         run: node src/smoke.ts
 
+      - name: Count players per tier (sizing of a complete collection)
+        if: env.MODE == 'count'
+        working-directory: tools/lol-stats
+        run: node src/count-players.ts
+
       - name: Tests
-        if: env.MODE != 'smoke'
+        if: env.MODE != 'smoke' && env.MODE != 'count'
         working-directory: tools/lol-stats
         run: npm test
 

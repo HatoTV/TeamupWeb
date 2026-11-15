@@ -2,12 +2,12 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync
 import { dirname, join } from 'node:path';
 import { aggregate, type AggregateOutput } from './aggregate/aggregate.ts';
 import type { Names } from './aggregate/summary.ts';
-import { TIER_FILTERS, type Config, type SampledTier } from './config.ts';
+import { TIER_FILTERS, type Config } from './config.ts';
 import { gamesPrefix, patchMetaKey, type PatchMeta } from './crawl.ts';
 import { COMMUNITY_DRAGON_PERKS, DataDragon, type Lang } from './ddragon.ts';
 import type { GameRecord } from './extract/game.ts';
+import { exclusiveGroups } from './extract/items.ts';
 import { previousPatch } from './patch.ts';
-import type { PlayerList } from './players.ts';
 import { championBuildSchema, indexSchema, metaSchema, type IndexJson, type MetaJson } from './schema.ts';
 import { decodeJsonl, getJson, type StateStore } from './state/store.ts';
 
@@ -59,10 +59,6 @@ export async function aggregateAndWrite(config: Config, store: StateStore, ddrag
   const meta = patchMetas.sort((a, b) => b.firstSeenAt - a.firstSeenAt)[0];
   if (!meta) throw new Error('No crawled patch in the state: run `crawl` first');
 
-  const playerTier = new Map<string, SampledTier>();
-  for (const platform of config.platforms) {
-    for (const p of (await getJson<PlayerList>(store, `players/${platform}.json`))?.players ?? []) playerTier.set(p.puuid, p.tier);
-  }
   const previous = new Map<string, IndexJson>();
   const prevPatch = previousPatch(versions, meta.patch);
   if (prevPatch) {
@@ -77,9 +73,9 @@ export async function aggregateAndWrite(config: Config, store: StateStore, ddrag
     patch: meta.patch,
     platforms: config.platforms,
     games: () => storedGames(store, meta.patch),
-    playerTier,
     previous,
     names,
+    exclusive: exclusiveGroups((await ddragon.items(meta.version, 'en_US')).data),
     config,
   });
 

@@ -70,3 +70,46 @@ export function buildItemCatalog(data: ItemData): ItemCatalog {
     has: (id) => String(id) in data,
   };
 }
+
+/** Exclusive groups of an item (an item may belong to several). Items without a group are absent. */
+export type ExclusiveGroups = ReadonlyMap<number, readonly string[]>;
+
+const TEAR = '3070';
+/** Passive names shared by items that can be bought together (an effect, not a unique group). */
+const SHARED_EFFECTS = new Set(['Grievous Wounds']);
+
+/**
+ * Exclusive groups derived from Data Dragon `item.json` (it has no explicit group field):
+ * - every pair of boots belongs to "boots";
+ * - every item built from Tear of the Goddess belongs to "tear";
+ * - completed items sharing a named unique passive (`<passive>Lifeline</passive>`, Spellblade, Cleave…) share a group.
+ * Two items of the same group are never shown together in a build.
+ */
+export function exclusiveGroups(data: Record<string, Pick<DDragonItem, 'from' | 'into' | 'tags' | 'maps'> & { description?: string }>): ExclusiveGroups {
+  const groups = new Map<number, string[]>();
+  const add = (id: string, group: string) => {
+    const list = groups.get(Number(id)) ?? [];
+    if (!list.includes(group)) list.push(group);
+    groups.set(Number(id), list);
+  };
+  const fromTear = (id: string, seen = new Set<string>()): boolean => {
+    if (seen.has(id)) return false;
+    seen.add(id);
+    return (data[id]?.from ?? []).some((f) => f === TEAR || fromTear(f, seen));
+  };
+  const passives = new Map<string, string[]>();
+  for (const [id, item] of Object.entries(data)) {
+    if (!item.maps?.['11']) continue;
+    if (id === '1001' || (item.tags ?? []).includes('Boots')) add(id, 'boots');
+    if (fromTear(id)) add(id, 'tear');
+    if ((item.into ?? []).length) continue;
+    for (const [, name] of (item.description ?? '').matchAll(/<passive>([^<]+)<\/passive>/g)) {
+      if (SHARED_EFFECTS.has(name!)) continue;
+      const ids = passives.get(name!) ?? [];
+      if (!ids.includes(id)) ids.push(id);
+      passives.set(name!, ids);
+    }
+  }
+  for (const [name, ids] of passives) if (ids.length > 1) for (const id of ids) add(id, name);
+  return groups;
+}

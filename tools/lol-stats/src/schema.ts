@@ -2,6 +2,7 @@ import { z } from 'zod';
 import { TIER_FILTERS } from './config.ts';
 import type { Role } from './extract/game.ts';
 import { TIERS } from './aggregate/stats.ts';
+import { BUILD_LABELS } from './aggregate/builds.ts';
 
 /** Site roles (URLs, files) ↔ Riot `teamPosition`. */
 export const SITE_ROLES = { TOP: 'top', JUNGLE: 'jungle', MIDDLE: 'mid', BOTTOM: 'adc', UTILITY: 'support' } as const satisfies Record<Role, string>;
@@ -16,10 +17,15 @@ const siteRoleSchema = z.enum(['top', 'jungle', 'mid', 'adc', 'support']);
 
 const statLine = z.object({ games, wins: games, winRate: rate });
 
+const slotItem = z.object({ item: id, games, wins: games, winRate: rate, share: rate });
+
 export const buildSchema = z.object({
-  label: z.enum(['most_played', 'best_winrate', 'alternative']),
-  /** Three core items in their most frequent purchase order. */
+  label: z.enum(BUILD_LABELS),
+  /** First three main items (boots included) in their most frequent purchase order. */
   core: z.array(id).length(3),
+  /** Keystone and secondary tree: part of the build key. */
+  keystone: id,
+  subStyle: id,
   games,
   wins: games,
   winRate: rate,
@@ -28,17 +34,21 @@ export const buildSchema = z.object({
   /** [primaryStyle, keystone, p1, p2, p3, subStyle, s1, s2, offense, flex, defense] */
   runes: statLine.extend({ page: z.array(id).length(11) }).nullable(),
   spells: statLine.extend({ ids: z.tuple([id, id]) }).nullable(),
+  /** Multisets (quantities = repeated ids). */
   start: z.object({ items: z.array(id), games }).nullable(),
   firstBuy: z.object({ items: z.array(id), games, medianMs: ms }).nullable(),
-  coreMedianMs: ms,
-  boots: z.object({ id, games }).nullable(),
-  /** Core + boots + most frequent 4th and 5th items (six items, boots included). */
-  full: z.array(id).max(6),
-  /** Alternatives for the 4th, 5th and 6th item. */
-  situational: z.array(z.object({ slot: z.union([z.literal(4), z.literal(5), z.literal(6)]), item: id, replaces: id.nullable(), games, wins: games, winRate: rate })),
+  /** Median purchase time of each core item, same order as `core`. */
+  coreTimes: z.array(ms).length(3),
+  /** Items 4, 5 and 6 with at most two alternatives each; no item appears twice in a build. */
+  next: z.array(slotItem.extend({ slot: z.union([z.literal(4), z.literal(5), z.literal(6)]), alternatives: z.array(slotItem).max(2) })).max(3),
   skills: z.object({ order: z.string().regex(/^[1-4]{1,18}$/), max: z.string().regex(/^[1-3]{3}$/), games, wins: games, winRate: rate }).nullable(),
 });
 export type BuildJson = z.infer<typeof buildSchema>;
+
+/** Item ids shown in a build (core, items 4-6 and their alternatives): each one must appear once. */
+export function shownItems(build: BuildJson): number[] {
+  return [...build.core, ...build.next.flatMap((s) => [s.item, ...s.alternatives.map((a) => a.item)])];
+}
 
 const opponent = z.object({ champion: id, games, winRate: rate });
 
@@ -58,13 +68,10 @@ export const championBuildSchema = z.object({
   delta: z.object({ winRate: z.number(), pickRate: z.number(), banRate: z.number() }).nullable(),
   /** Few games for this filter: the page shows a warning. */
   lowSample: z.boolean(),
-  builds: z.array(buildSchema).max(3),
+  builds: z.array(buildSchema).max(4),
   weakAgainst: z.array(opponent).max(6),
   strongAgainst: z.array(opponent).max(6),
   synergy: z.array(opponent.extend({ role: siteRoleSchema })).max(6),
-  /** Win rate and most played core against each lane opponent (searchable). */
-  vsOpponent: z.array(opponent.extend({ core: z.array(id).length(3).nullable() })),
-  players: z.array(z.object({ riotId: z.string(), platform: z.string(), tier: z.string(), games, wins: games, winRate: rate })).max(10),
   summary: z.object({ fr: z.string(), en: z.string() }),
 });
 export type ChampionBuildJson = z.infer<typeof championBuildSchema>;

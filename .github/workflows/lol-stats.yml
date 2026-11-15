@@ -80,6 +80,11 @@ jobs:
         working-directory: tools/lol-stats
         run: node src/cli.ts publish
 
+      - name: Check the published data (schema, no item shown twice in a build)
+        if: env.MODE == 'full' || env.MODE == 'publish'
+        working-directory: tools/lol-stats
+        run: npm run test:published
+
       - name: Sync new champions (data, index, sitemap, « Nouveau champion » issue)
         id: sync
         if: env.MODE == 'full' || env.MODE == 'publish'

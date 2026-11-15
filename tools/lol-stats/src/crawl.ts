@@ -5,7 +5,7 @@ import { buildItemCatalog, type ItemCatalog } from './extract/items.ts';
 import { currentPatch } from './patch.ts';
 import { countByTier, loadPlayers, lowerTier, playersKey, type PlayerList } from './players.ts';
 import { match as fetchMatch, matchIds, timeline as fetchTimeline } from './riot/api.ts';
-import type { RiotClient } from './riot/client.ts';
+import { RiotApiError, type RiotClient } from './riot/client.ts';
 import type { Platform } from './riot/routing.ts';
 import { decodeIds, encodeIds, encodeJsonl, getJson, putJson, type StateStore } from './state/store.ts';
 
@@ -23,7 +23,7 @@ export interface CrawlReport {
   players: Record<SampledTier, number>;
   playersCrawled: number;
   newGames: number;
-  skipped: Partial<Record<SkipReason | 'missing', number>>;
+  skipped: Partial<Record<SkipReason | 'missing' | 'error', number>>;
   requests: number;
   rateLimited: number;
   minutes: number;
@@ -95,9 +95,18 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
       }
       await store.put(seenKey(meta.patch, platform), encodeIds(seen));
       await putJson(store, playersKey(platform), list);
+      const minutes = Math.round((now() - started) / 60000);
+      console.log(`[crawl] ${platform} ${minutes} min: ${newGames} new games, ${playersCrawled}/${list.players.length} players, ${client.stats.requests - requestsBefore} requests, ${client.stats.rateLimited - rateLimitedBefore} × 429`);
     }));
 
   const stop = () => now() >= deadline || (config.maxGames > 0 && newGames >= config.maxGames);
+
+  /** Transient failures (5xx or 429 after the retries, network) skip the item; 401 / 403 stop the crawl. */
+  const tolerate = (error: unknown) => {
+    if (error instanceof RiotApiError && (error.status === 401 || error.status === 403)) throw error;
+    skipped.error = (skipped.error ?? 0) + 1;
+    if (skipped.error <= 5) console.warn(`[crawl] ${platform}: ${error instanceof Error ? error.message : String(error)}`);
+  };
 
   const fetchGame = async (id: string, fallbackTier: SampledTier) => {
     if (seen.has(id) || inFlight.has(id) || stop()) return;
@@ -134,6 +143,8 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
         newGames++;
       }
       seen.add(id);
+    } catch (error) {
+      tolerate(error); // not marked as seen: retried on a later run
     } finally {
       inFlight.delete(id);
     }
@@ -151,7 +162,13 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
     async (player) => {
       list.cursor = (start + ++begun) % size;
       const since = Math.max(meta.startTime, player.lastCrawled ?? 0);
-      const ids = (await matchIds(client, platform, player.puuid, since)) ?? [];
+      let ids: string[];
+      try {
+        ids = (await matchIds(client, platform, player.puuid, since)) ?? [];
+      } catch (error) {
+        tolerate(error);
+        return;
+      }
       player.lastCrawled = Math.floor(now() / 1000);
       playersCrawled++;
       await pool(ids, config.matchConcurrency, (id) => fetchGame(id, player.tier), stop);

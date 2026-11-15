@@ -130,25 +130,3 @@
     }
   }
 </section>
-
-<section class="section request" aria-labelledby="request-title">
-  <div class="request__box">
-    <p class="request__text" id="request-title">
-      <strong>{{ (side() === 'me' ? 'MATCHUPSPAGE.MISSING_ENEMY' : 'MATCHUPSPAGE.MISSING_ALLY') | translate }}</strong>
-      {{ 'REPORTBUTTON' | translate }}
-    </p>
-    <button type="button" class="request__toggle" [attr.aria-expanded]="reportOpen()" aria-controls="request-form" (click)="reportOpen.set(!reportOpen())">
-      {{ 'UPDATEREQUEST' | translate }}
-    </button>
-    <div id="request-form" class="request__form" [hidden]="!reportOpen()">
-      @if (reportOpen()) {
-        <app-matchup-report
-          [bare]="true"
-          [champion1]="reportChampion1()"
-          [champion2]="reportChampion2()"
-          [options]="suggestions()"
-        />
-      }
-    </div>
-  </div>
-</section>

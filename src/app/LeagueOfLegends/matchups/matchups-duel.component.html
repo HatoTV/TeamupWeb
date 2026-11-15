@@ -129,19 +129,6 @@
     <app-community-tips class="cols__commu" [me]="me().champion" [vs]="vs().champion" />
   </div>
 
-  <details class="card report">
-    <summary class="report__summary">
-      <span>
-        <span class="report__summary-title">{{ 'UPDATEREQUEST' | translate }}</span>
-        <span class="report__summary-text">{{ 'REPORTBUTTON' | translate }}</span>
-      </span>
-      <app-icon class="report__chevron" name="chevron-down" [size]="20" />
-    </summary>
-    <div class="report__body">
-      <app-matchup-report [bare]="true" [champion1]="me().champion" [champion2]="vs().champion" [hasTips]="!!matchup()" />
-    </div>
-  </details>
-
   @if (lists().length) {
     <section class="lists" [attr.aria-label]="'MATCHUPSPAGE.LISTS_LABEL' | translate">
       @for (list of lists(); track list.id) {

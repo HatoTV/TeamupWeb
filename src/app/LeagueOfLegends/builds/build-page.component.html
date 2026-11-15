@@ -163,222 +163,116 @@
     }
     @case ('ready') {
       @if (build(); as b) {
-        <div class="layout">
-          <aside class="side">
-            <section class="card builds" aria-labelledby="builds-title">
-              <div class="card__head">
-                <h2 id="builds-title" class="card__title">{{ 'BUILDS.RECOMMENDED' | translate }}</h2>
-                <span class="card__hint" aria-hidden="true">{{ 'BUILDS.WR_SHORT' | translate }}</span>
-              </div>
-              <div class="builds__list" role="tablist" [attr.aria-label]="'BUILDS.RECOMMENDED' | translate">
-                @for (opt of file()!.builds; track opt.label; let i = $index) {
-                  <button type="button" role="tab" class="builds__item" [class.is-on]="i === buildIndex()" [attr.aria-selected]="i === buildIndex()" (click)="setQuery({ build: i || null })">
-                    <span class="builds__top">
-                      <span class="builds__label">{{ 'BUILDS.LABELS.' + opt.label | translate }}</span>
-                      <span class="builds__wr">{{ fmtRate(opt.winRate) }}</span>
-                    </span>
-                    <span class="builds__icons">
-                      @if (opt.runes && runeTrees()) {
-                        <img class="builds__key" [src]="keystoneIcon(opt.runes.page)" alt="" width="28" height="28" />
-                        <span class="builds__sep" aria-hidden="true"></span>
-                      }
-                      @for (id of opt.core; track id) {
-                        <img [src]="item(id).src" [alt]="item(id).name" width="30" height="30" />
-                      }
-                      <span class="builds__games">{{ 'BUILDS.N_GAMES' | translate: { n: fmtInt(opt.games) } }}</span>
-                    </span>
-                  </button>
-                }
-              </div>
-              <p class="card__foot">{{ 'BUILDS.RULE' | translate }}</p>
-            </section>
-
-            @if (file()!.players.length) {
-              <section class="card players" aria-labelledby="players-title">
-                <div class="card__head"><h2 id="players-title" class="card__title">{{ 'BUILDS.BEST_PLAYERS' | translate }}</h2></div>
-                <ul class="rows">
-                  @for (p of file()!.players.slice(0, 5); track p.riotId) {
-                    <li class="row">
-                      <img [src]="rankIcon(p.tier)" [alt]="'BUILDS.TIERS.' + p.tier | translate" width="32" height="25" />
-                      <span class="row__main">
-                        <span class="row__name">{{ p.riotId }}</span>
-                        <span class="row__sub">{{ 'BUILDS.N_GAMES' | translate: { n: p.games } }} · {{ p.platform }}</span>
-                      </span>
-                      <span class="row__wr">{{ fmtRate(p.winRate) }}</span>
-                    </li>
-                  }
-                </ul>
-              </section>
-            }
-
-            <section class="card vs" aria-labelledby="vs-title">
-              <div class="card__head"><h2 id="vs-title" class="card__title">{{ 'BUILDS.VS_TITLE' | translate }}</h2></div>
-              <ul class="rows" aria-live="polite">
-                @for (o of opponents(); track o.champion) {
-                  <li class="row">
-                    <img class="row__champ" [src]="championIcon(o.champion)" alt="" width="32" height="32" />
-                    <span class="row__main">
-                      <span class="row__name">{{ 'BUILDS.VS' | translate: { name: o.name } }}</span>
-                      <span class="row__sub">{{ 'BUILDS.N_GAMES' | translate: { n: o.games } }}</span>
-                    </span>
-                    @if (o.core) {
-                      <span class="row__core">
-                        @for (id of o.core; track id) {
-                          <img [src]="item(id).src" [alt]="item(id).name" width="22" height="22" />
+        <div class="board">
+          <section class="card col col--builds" aria-labelledby="builds-title">
+            <div class="card__head">
+              <h2 id="builds-title" class="card__title">{{ 'BUILDS.COL_BUILDS' | translate }}</h2>
+              <span class="card__hint" aria-hidden="true">{{ 'BUILDS.WR_SHORT' | translate }}</span>
+            </div>
+            <div class="picks" role="listbox" aria-labelledby="builds-title" (keydown)="onBuildKey($event)">
+              @for (opt of file()!.builds; track opt.label; let i = $index) {
+                <div
+                  role="option"
+                  class="pick"
+                  [id]="'build-' + i"
+                  [class.is-on]="i === buildIndex()"
+                  [attr.aria-selected]="i === buildIndex()"
+                  [attr.tabindex]="i === buildIndex() ? 0 : -1"
+                  (click)="selectBuild(i)"
+                >
+                  <span class="pick__top">
+                    <span class="pick__label" [class.pick__label--off]="opt.label === 'off_meta'">{{ 'BUILDS.LABELS.' + opt.label | translate }}</span>
+                    <span class="pick__wr"><span class="sr-only">{{ 'BUILDS.WIN_RATE' | translate }} </span>{{ fmtRate(opt.winRate) }}</span>
+                  </span>
+                  <span class="pick__icons">
+                    @if (rune(opt.keystone); as k) {
+                      <span class="pick__key">
+                        <img [src]="data.runeIcon(k.icon)" [alt]="k.name" width="34" height="34" />
+                        @if (tree(opt.subStyle); as t) {
+                          <img class="pick__tree" [src]="data.runeIcon(t.icon)" [alt]="t.name" width="16" height="16" />
                         }
                       </span>
+                      <span class="pick__sep" aria-hidden="true"></span>
                     }
-                    <span class="row__wr" [class.is-good]="o.winRate >= 0.5">{{ fmtRate(o.winRate) }}</span>
-                  </li>
-                } @empty {
-                  <li class="row row--empty">{{ 'BUILDS.VS_EMPTY' | translate }}</li>
-                }
-              </ul>
-              <label class="search">
-                <app-icon name="search" [size]="15" />
-                <span class="sr-only">{{ 'BUILDS.VS_SEARCH' | translate }}</span>
-                <input type="search" [placeholder]="'BUILDS.VS_SEARCH' | translate" [value]="opponentQuery()" (input)="opponentQuery.set($any($event.target).value)" />
-              </label>
-            </section>
-          </aside>
-
-          <div class="main">
-            <div class="banner">
-              <div class="banner__info">
-                <img [src]="data.championIcon(version()!, champ.ddragonId!)" alt="" width="44" height="44" />
-                <div>
-                  <p class="banner__title">{{ 'BUILDS.LABELS.' + b.label | translate }} · {{ roleName() }}</p>
-                  <p class="banner__sub" [innerHTML]="'BUILDS.BANNER_SUB' | translate: { wr: fmtRate(b.winRate), games: fmtInt(b.games) }"></p>
-                </div>
-              </div>
-              <button type="button" class="btn btn--primary copy" (click)="copyBuild()">
-                <app-icon name="book" [size]="16" /> {{ (copied() ? 'BUILDS.COPIED' : 'BUILDS.COPY_BUTTON') | translate }}
-              </button>
-              <span class="sr-only" role="status">{{ copied() ? ('BUILDS.COPIED' | translate) : '' }}</span>
-            </div>
-
-            <section class="card items items--core-first" aria-labelledby="items-title">
-              <div class="card__head">
-                <h2 id="items-title" class="card__title">{{ 'BUILDS.ITEMS' | translate }}</h2>
-                <span class="card__hint">{{ 'BUILDS.MEDIAN_TIMING' | translate }}</span>
-              </div>
-              @if (b.start) {
-                <div class="items__group">
-                  <p class="items__label">{{ 'BUILDS.START' | translate }}</p>
-                  <div class="items__row">
-                    @for (g of group(b.start.items); track g[0]; let last = $last) {
-                      <app-game-icon [src]="item(g[0]).src" [name]="item(g[0]).name" [desc]="item(g[0]).desc" [cost]="item(g[0]).cost" [badge]="g[1] > 1 ? g[1] + '' : null" />
-                      @if (!last) {<span class="arrow" aria-hidden="true">›</span>}
-                    }
-                  </div>
-                </div>
-              }
-              @if (b.firstBuy) {
-                <div class="items__group">
-                  <p class="items__label">{{ 'BUILDS.FIRST_BUY' | translate }}</p>
-                  <div class="items__row">
-                    @for (g of group(b.firstBuy.items); track g[0]; let last = $last) {
-                      <app-game-icon [src]="item(g[0]).src" [name]="item(g[0]).name" [desc]="item(g[0]).desc" [cost]="item(g[0]).cost" [badge]="g[1] > 1 ? g[1] + '' : null" />
-                      @if (!last) {<span class="arrow" aria-hidden="true">›</span>}
-                    }
-                    <span class="items__time">{{ fmtTime(b.firstBuy.medianMs) }}</span>
-                  </div>
-                </div>
-              }
-              <div class="items__group items__group--core">
-                <p class="items__label">{{ 'BUILDS.CORE' | translate }}</p>
-                <div class="items__row">
-                  @for (id of b.core; track id; let last = $last) {
-                    <app-game-icon [src]="item(id).src" [name]="item(id).name" [desc]="item(id).desc" [cost]="item(id).cost" [size]="46" />
-                    @if (!last) {<span class="arrow" aria-hidden="true">›</span>}
-                  }
-                  <span class="items__time">{{ fmtTime(b.coreMedianMs) }}</span>
-                </div>
-              </div>
-              @if (b.full.length > 3) {
-                <div class="items__group">
-                  <p class="items__label">{{ 'BUILDS.FULL' | translate }}</p>
-                  <div class="items__row">
-                    @for (id of b.full; track id; let i = $index; let last = $last) {
-                      <app-game-icon [src]="item(id).src" [name]="item(id).name" [desc]="item(id).desc" [cost]="item(id).cost" [dim]="i < 3" />
-                      @if (!last) {<span class="arrow" aria-hidden="true">›</span>}
-                    }
-                  </div>
-                </div>
-              }
-            </section>
-
-            <div class="split">
-              <section class="card runes" aria-labelledby="runes-title">
-                <h2 id="runes-title" class="card__title">{{ 'BUILDS.RUNES' | translate }}</h2>
-                @if (runeTrees(); as rt) {
-                  <div class="runes__trees">
-                    @if (rt.primary; as tree) {
-                      <div class="runes__tree">
-                        <p class="runes__name"><img [src]="data.runeIcon(tree.icon)" alt="" width="24" height="24" />{{ tree.name }}</p>
-                        @for (row of tree.rows; track $index; let first = $first) {
-                          <div class="runes__row">
-                            @for (r of row; track r.id) {
-                              <app-game-icon [src]="data.runeIcon(r.icon)" [name]="r.name" [desc]="r.desc" shape="round" [size]="first ? 50 : 38" [dim]="!r.on" [ring]="r.on ? '#E8C46E' : null" />
-                            }
-                          </div>
-                        }
-                      </div>
-                    }
-                    @if (rt.secondary; as tree) {
-                      <div class="runes__tree">
-                        <p class="runes__name runes__name--sub"><img [src]="data.runeIcon(tree.icon)" alt="" width="24" height="24" />{{ tree.name }}</p>
-                        @for (row of tree.rows; track $index) {
-                          <div class="runes__row">
-                            @for (r of row; track r.id) {
-                              <app-game-icon [src]="data.runeIcon(r.icon)" [name]="r.name" [desc]="r.desc" shape="round" [size]="38" [dim]="!r.on" [ring]="r.on ? '#7FD6A0' : null" />
-                            }
-                          </div>
-                        }
-                        <div class="runes__shards">
-                          @for (row of rt.shards; track $index) {
-                            <div class="runes__row">
-                              @for (s of row; track $index) {
-                                <app-game-icon [src]="s.info ? data.shardIcon(s.info.icon) : ''" [name]="'BUILDS.SHARDS.' + s.id | translate" shape="round" [size]="26" [dim]="!s.on" [ring]="s.on ? '#FFC93C' : null" />
-                              }
-                            </div>
-                          }
-                        </div>
-                      </div>
-                    }
-                  </div>
-                  @if (b.runes; as r) {
-                    <p class="card__foot card__foot--flat">{{ 'BUILDS.RUNES_STATS' | translate: { wr: fmtRate(r.winRate), games: fmtInt(r.games) } }}</p>
-                  }
-                }
-              </section>
-
-              <section class="card spells" aria-labelledby="spells-title">
-                <h2 id="spells-title" class="card__title">{{ 'BUILDS.SPELLS' | translate }}</h2>
-                @if (b.spells; as s) {
-                  <div class="spells__row">
-                    @for (key of s.ids; track key; let i = $index) {
-                      <app-game-icon [src]="spell(key).src" [name]="spell(key).name" [desc]="spell(key).desc" [size]="44" [badge]="i === 0 ? 'D' : 'F'" />
-                    }
-                  </div>
-                  <p class="card__foot card__foot--flat">{{ 'BUILDS.RUNES_STATS' | translate: { wr: fmtRate(s.winRate), games: fmtInt(s.games) } }}</p>
-                }
-              </section>
-            </div>
-
-            @if (b.skills; as sk) {
-              <section class="card skills" aria-labelledby="skills-title">
-                <div class="skills__head">
-                  <h2 id="skills-title" class="card__title">{{ 'BUILDS.SKILLS' | translate }}</h2>
-                  <span class="skills__max">
-                    {{ 'BUILDS.MAX' | translate }} :
-                    @for (k of maxKeys(); track $index; let last = $last) {
-                      <strong [style.color]="skillColors[sk.max[$index]!]">{{ k }}</strong>
-                      @if (!last) {<span aria-hidden="true"> → </span>}
+                    @for (id of opt.core; track id) {
+                      <img class="pick__item" [src]="item(id).src" [alt]="item(id).name" width="32" height="32" />
                     }
                   </span>
+                  <span class="pick__meta">{{ 'BUILDS.PICK_META' | translate: { games: ('BUILDS.N_GAMES' | translate: { n: fmtInt(opt.games) }), share: fmtRate(opt.share) } }}</span>
                 </div>
-                <div class="skills__scroll">
+              }
+            </div>
+          </section>
+
+          <section class="card col col--runes" aria-labelledby="runes-title">
+            <div class="col__head">
+              <h2 id="runes-title" class="card__title">{{ 'BUILDS.COL_RUNES' | translate }}</h2>
+              <span class="card__hint">{{ 'BUILDS.FOR_BUILD' | translate }}</span>
+            </div>
+
+            @if (b.spells; as s) {
+              <div class="spells">
+                @for (key of s.ids; track key; let i = $index) {
+                  <app-game-icon [src]="spell(key).src" [name]="spell(key).name" [desc]="spell(key).desc" [size]="36" [badge]="i === 0 ? 'D' : 'F'" />
+                }
+                <span class="spells__names">{{ spell(s.ids[0]).name }} + {{ spell(s.ids[1]).name }}</span>
+                <span class="spells__share">{{ 'BUILDS.SHARE_OF_GAMES' | translate: { share: fmtRate(s.games / b.games, 0) } }}</span>
+              </div>
+            }
+
+            @if (runeTrees(); as rt) {
+              <div class="runes">
+                @if (rt.primary; as t) {
+                  <div class="tree" [style.--tree]="t.color">
+                    <p class="tree__name"><img [src]="data.runeIcon(t.icon)" alt="" width="20" height="20" />{{ t.name }}</p>
+                    @for (row of t.rows; track $index; let first = $first) {
+                      <div class="tree__row">
+                        @for (r of row; track r.id) {
+                          <app-game-icon [src]="data.runeIcon(r.icon)" [name]="r.name" [desc]="r.desc" shape="round" [size]="first ? 40 : 30" [dim]="!r.on" [ring]="r.on ? t.color : null" />
+                        }
+                      </div>
+                    }
+                    @if (rt.keystone) {
+                      <p class="tree__keystone">{{ rt.keystone }}</p>
+                    }
+                  </div>
+                }
+                @if (rt.secondary; as t) {
+                  <div class="tree" [style.--tree]="t.color">
+                    <p class="tree__name"><img [src]="data.runeIcon(t.icon)" alt="" width="20" height="20" />{{ t.name }}</p>
+                    @for (row of t.rows; track $index) {
+                      <div class="tree__row">
+                        @for (r of row; track r.id) {
+                          <app-game-icon [src]="data.runeIcon(r.icon)" [name]="r.name" [desc]="r.desc" shape="round" [size]="30" [dim]="!r.on" [ring]="r.on ? t.color : null" />
+                        }
+                      </div>
+                    }
+                    <div class="tree__shards">
+                      @for (row of rt.shards; track $index) {
+                        <div class="tree__row">
+                          @for (s of row; track $index) {
+                            <app-game-icon [src]="s.info ? data.shardIcon(s.info.icon) : ''" [name]="'BUILDS.SHARDS.' + s.id | translate" shape="round" [size]="22" [dim]="!s.on" [ring]="s.on ? '#FFC93C' : null" />
+                          }
+                        </div>
+                      }
+                    </div>
+                  </div>
+                }
+              </div>
+            }
+
+            @if (b.skills; as sk) {
+              <div class="skills">
+                <div class="skills__head">
+                  <h3 class="skills__title">{{ 'BUILDS.SKILLS' | translate }}</h3>
+                  <span class="skills__max-label" id="max-label">{{ 'BUILDS.MAX' | translate }}</span>
+                  <ol class="skills__max" aria-labelledby="max-label">
+                    @for (k of maxKeys(); track $index) {
+                      <li [style.--sk]="skillColors[sk.max[$index]!]">{{ k }}</li>
+                    }
+                  </ol>
+                </div>
+                <div class="skills__scroll" tabindex="0" role="region" [attr.aria-label]="'BUILDS.SKILLS_CAPTION' | translate">
                   <table class="skills__grid">
                     <caption class="sr-only">{{ 'BUILDS.SKILLS_CAPTION' | translate }}</caption>
                     <thead>
@@ -391,15 +285,16 @@
                     </thead>
                     <tbody>
                       @for (row of skillRows(); track row.slot) {
-                        <tr>
+                        <tr [style.--sk]="skillColors[row.slot]">
                           <th scope="row">
                             @if (abilities()[row.slot]; as a) {
-                              <img [src]="a.src" [alt]="a.name" width="32" height="32" />
+                              <img [src]="a.src" [alt]="a.name + ' (' + (row.slot | abilityKey: ctx.lang()) + ')'" width="26" height="26" />
+                            } @else {
+                              {{ row.slot | abilityKey: ctx.lang() }}
                             }
-                            <span class="skills__key" [style.color]="skillColors[row.slot]">{{ row.slot | abilityKey: ctx.lang() }}</span>
                           </th>
                           @for (on of row.cells; track $index) {
-                            <td [class.is-on]="on" [style.--sk]="skillColors[row.slot]">
+                            <td [class.is-on]="on">
                               @if (on) {{{ row.slot | abilityKey: ctx.lang() }}}
                             </td>
                           }
@@ -408,58 +303,95 @@
                     </tbody>
                   </table>
                 </div>
-                <ol class="skills__strip" [attr.aria-label]="'BUILDS.SKILLS_CAPTION' | translate">
-                  @for (s of sk.order.split(''); track $index) {
-                    <li [style.background]="skillColors[s]">{{ slot(s) | abilityKey: ctx.lang() }}</li>
-                  }
-                </ol>
-              </section>
+              </div>
             }
+          </section>
 
-            @if (situational().length) {
-              <section class="card situ" aria-labelledby="situ-title">
-                <h2 id="situ-title" class="card__title">{{ 'BUILDS.SITUATIONAL' | translate }}</h2>
-                <div class="situ__tabs" role="tablist" [attr.aria-label]="'BUILDS.SITUATIONAL' | translate">
-                  @for (s of situational(); track $index; let i = $index) {
-                    <button
-                      type="button"
-                      role="tab"
-                      class="situ__tab"
-                      [class.is-on]="i === situationalIndex()"
-                      [attr.aria-selected]="i === situationalIndex()"
-                      [attr.aria-controls]="'situ-panel'"
-                      [title]="item(s.item).name"
-                      (click)="situationalIndex.set(i)"
-                    >
-                      <img [src]="item(s.item).src" [alt]="item(s.item).name" width="44" height="44" />
-                    </button>
-                  }
-                </div>
-                @if (situational()[situationalIndex()]; as s) {
-                  <div class="situ__panel" id="situ-panel" role="tabpanel">
-                    <p class="situ__name">{{ item(s.item).name }}</p>
-                    <p class="situ__meta">
-                      {{ 'BUILDS.ALTERNATIVE_TO' | translate: { slot: s.slot } }}
-                      @if (s.replaces) {<strong>{{ item(s.replaces).name }}</strong>}
-                      · {{ 'BUILDS.RUNES_STATS' | translate: { wr: fmtRate(s.winRate), games: fmtInt(s.games) } }}
-                    </p>
-                    @if (situationalTip(); as tip) {
-                      <p class="situ__tip">{{ tip }} <span class="situ__note">{{ 'BUILDS.TIP_NOTE' | translate }}</span></p>
-                    }
+          <section class="card col col--items" aria-labelledby="items-title">
+            <div class="col__head">
+              <h2 id="items-title" class="card__title">{{ 'BUILDS.COL_ITEMS' | translate }}</h2>
+              <span class="card__hint">{{ 'BUILDS.MEDIAN_TIMING' | translate }}</span>
+            </div>
+
+            @if (b.start || b.firstBuy) {
+              <div class="early">
+                @if (b.start) {
+                  <div>
+                    <p class="early__label">{{ 'BUILDS.START' | translate }}</p>
+                    <div class="early__row">
+                      @for (g of group(b.start.items); track g[0]) {
+                        <app-game-icon [src]="item(g[0]).src" [name]="item(g[0]).name" [desc]="item(g[0]).desc" [cost]="item(g[0]).cost" [size]="34" [badge]="g[1] > 1 ? g[1] + '' : null" />
+                      }
+                    </div>
                   </div>
                 }
-              </section>
+                @if (b.firstBuy) {
+                  <div>
+                    <p class="early__label">
+                      {{ 'BUILDS.FIRST_BUY' | translate }}
+                      @if (b.firstBuy.medianMs !== null) {· {{ fmtTime(b.firstBuy.medianMs) }}}
+                    </p>
+                    <div class="early__row">
+                      @for (g of group(b.firstBuy.items); track g[0]) {
+                        <app-game-icon [src]="item(g[0]).src" [name]="item(g[0]).name" [desc]="item(g[0]).desc" [cost]="item(g[0]).cost" [size]="34" [badge]="g[1] > 1 ? g[1] + '' : null" />
+                      }
+                    </div>
+                  </div>
+                }
+              </div>
             }
-          </div>
+
+            <h3 class="items__label items__label--gold">{{ 'BUILDS.CORE' | translate }}</h3>
+            <ol class="core">
+              @for (id of b.core; track id; let i = $index) {
+                <li class="core__item">
+                  @if (i) {
+                    <span class="core__arrow" aria-hidden="true">›</span>
+                  }
+                  <span class="core__cell">
+                    <span class="core__icon">
+                      <app-game-icon [src]="item(id).src" [name]="item(id).name" [desc]="item(id).desc" [cost]="item(id).cost" [size]="54" ring="#FFC93C" />
+                      <span class="core__n" aria-hidden="true">{{ i + 1 }}</span>
+                    </span>
+                    <span class="core__name">{{ item(id).name }}</span>
+                    @if (b.coreTimes[i] !== null) {
+                      <span class="core__time">{{ fmtTime(b.coreTimes[i]!) }}</span>
+                    }
+                  </span>
+                </li>
+              }
+            </ol>
+
+            @if (b.next.length) {
+              <h3 class="items__label">{{ 'BUILDS.NEXT' | translate }}</h3>
+              <ol class="next">
+                @for (s of b.next; track s.slot) {
+                  <li class="next__row">
+                    <span class="next__n">{{ 'BUILDS.SLOT.' + s.slot | translate }}</span>
+                    <app-game-icon [src]="item(s.item).src" [name]="item(s.item).name" [desc]="item(s.item).desc" [cost]="item(s.item).cost" [size]="40" />
+                    <span class="next__main">
+                      <span class="next__name">{{ item(s.item).name }}</span>
+                      <span class="next__stats">{{ fmtRate(s.share, 0) }} · {{ 'BUILDS.WR_SHORT' | translate }} <span class="next__wr">{{ fmtRate(s.winRate) }}</span></span>
+                    </span>
+                    @if (s.alternatives.length) {
+                      <span class="next__or">{{ 'BUILDS.OR' | translate }}</span>
+                      <span class="next__alts">
+                        @for (a of s.alternatives; track a.item) {
+                          <app-game-icon [src]="item(a.item).src" [name]="item(a.item).name" [desc]="altDesc(a)" [cost]="item(a.item).cost" [size]="30" />
+                        }
+                      </span>
+                    }
+                  </li>
+                }
+              </ol>
+            }
+            <p class="items__note">{{ 'BUILDS.UNIQUE_NOTE' | translate }}</p>
+          </section>
         </div>
 
         <app-play-tips [champion]="champ" [core]="core()" [champStatic]="champStatic()" [version]="staticVersion()" />
 
         <app-build-matchups id="counters" class="mus" [attr.aria-label]="'BUILDS.MATCHUPS_LABEL' | translate" role="region" [groups]="muGroups()" [champion]="champ.name" [matchupsLink]="ctx.link('/lol/matchups/' + champ.slug)" />
-
-        <div class="sticky-copy">
-          <button type="button" class="btn btn--primary" (click)="copyBuild()">{{ (copied() ? 'BUILDS.COPIED' : 'BUILDS.COPY_BUTTON') | translate }}</button>
-        </div>
       }
     }
   }

@@ -8,7 +8,7 @@ import { Role } from './champion-data.service';
 export const BUILD_FILTERS = ['emerald_plus', 'diamond_plus', 'master_plus', 'grandmaster_plus', 'challenger'] as const;
 export type BuildFilter = (typeof BUILD_FILTERS)[number];
 export type TierRank = 'S+' | 'S' | 'A' | 'B' | 'C' | 'D';
-export type BuildLabel = 'most_played' | 'best_winrate' | 'alternative';
+export type BuildLabel = 'most_played' | 'second_most_played' | 'third_most_played' | 'off_meta';
 
 export interface StatLine {
   games: number;
@@ -16,18 +16,27 @@ export interface StatLine {
   winRate: number;
 }
 
+/** Item bought at a slot (4th to 6th) and its share of the build games at that slot. */
+export interface SlotItem extends StatLine {
+  item: number;
+  share: number;
+}
+
 export interface BuildData extends StatLine {
   label: BuildLabel;
+  /** First three main items (boots included) in purchase order. */
   core: number[];
+  keystone: number;
+  subStyle: number;
   share: number;
   runes: (StatLine & { page: number[] }) | null;
   spells: (StatLine & { ids: [number, number] }) | null;
   start: { items: number[]; games: number } | null;
   firstBuy: { items: number[]; games: number; medianMs: number | null } | null;
-  coreMedianMs: number | null;
-  boots: { id: number; games: number } | null;
-  full: number[];
-  situational: Array<StatLine & { slot: 4 | 5 | 6; item: number; replaces: number | null }>;
+  /** Median purchase time of each core item. */
+  coreTimes: Array<number | null>;
+  /** Items 4 to 6, at most two alternatives each; no item appears twice. */
+  next: Array<SlotItem & { slot: 4 | 5 | 6; alternatives: SlotItem[] }>;
   skills: (StatLine & { order: string; max: string }) | null;
 }
 
@@ -52,8 +61,6 @@ export interface ChampionBuild extends StatLine {
   weakAgainst: OpponentStat[];
   strongAgainst: OpponentStat[];
   synergy: Array<OpponentStat & { role: Role }>;
-  vsOpponent: Array<OpponentStat & { core: number[] | null }>;
-  players: Array<StatLine & { riotId: string; platform: string; tier: string }>;
   summary: { fr: string; en: string };
 }
 

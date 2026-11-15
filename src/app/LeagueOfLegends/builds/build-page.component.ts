@@ -1,9 +1,8 @@
-import { isPlatformBrowser } from '@angular/common';
-import { ChangeDetectionStrategy, Component, PLATFORM_ID, afterNextRender, computed, effect, inject, signal, untracked } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ElementRef, afterNextRender, computed, effect, inject, signal, untracked } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { BuildDataService, BuildFilter, BuildMeta, BUILD_FILTERS, ChampionBuild, ChampionStatic, StaticCore } from '../../core/data/build-data.service';
+import { BuildDataService, BuildFilter, BuildMeta, BUILD_FILTERS, ChampionBuild, ChampionStatic, SlotItem, StaticCore, StaticRune } from '../../core/data/build-data.service';
 import { Champion, ChampionDataService, Role } from '../../core/data/champion-data.service';
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
@@ -12,7 +11,7 @@ import { BuildMatchupsComponent, MatchupCard } from './build-matchups.component'
 import { PlayTipsComponent } from './play-tips/play-tips.component';
 import { GameIconComponent } from '../../shared/ui/game-icon.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
-import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildAsText, formatDelta, formatInt, formatRate, formatTiming, groupItems, isBuildFilter, rankFilters } from './build-utils';
+import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildIndexFrom, formatDelta, formatInt, formatRate, formatTiming, groupItems, isBuildFilter, rankFilters, treeColor } from './build-utils';
 
 type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 
@@ -32,13 +31,13 @@ export class BuildPageComponent {
   private readonly route = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly translate = inject(TranslateService);
-  private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
+  private readonly host = inject<ElementRef<HTMLElement>>(ElementRef);
 
   protected readonly roleOrder = ROLE_ORDER;
   protected readonly shardRows = SHARD_ROWS;
   protected readonly skillColors = SKILL_COLORS;
   protected readonly levels = Array.from({ length: 18 }, (_, i) => i + 1);
-  protected readonly fmtRate = (v: number) => formatRate(v, this.ctx.lang());
+  protected readonly fmtRate = (v: number, digits = 1) => formatRate(v, this.ctx.lang(), digits);
   protected readonly fmtInt = (v: number) => formatInt(v, this.ctx.lang());
   protected readonly fmtDelta = (v: number) => formatDelta(v, this.ctx.lang());
   protected readonly fmtTime = formatTiming;
@@ -63,7 +62,8 @@ export class BuildPageComponent {
     return isBuildFilter(rank, this.filters()) ? rank : this.defaultFilter();
   });
   protected readonly region = computed(() => this.query()?.get('region') ?? 'all');
-  protected readonly buildIndex = computed(() => Math.min(2, Math.max(0, Number(this.query()?.get('build') ?? 0) || 0)));
+  /** `?build=0..3`; an unknown value (old links included) selects build 0. */
+  protected readonly buildIndex = computed(() => buildIndexFrom(this.query()?.get('build'), this.file()?.builds.length ?? 0));
 
   /** `undefined` until meta.json is loaded (the rank filters depend on it). */
   protected readonly meta = signal<BuildMeta | null | undefined>(undefined);
@@ -74,9 +74,6 @@ export class BuildPageComponent {
   protected readonly core = signal<StaticCore | null>(null);
   protected readonly champStatic = signal<ChampionStatic | null>(null);
   protected readonly state = signal<State>('loading');
-  protected readonly copied = signal(false);
-  protected readonly situationalIndex = signal(0);
-  protected readonly opponentQuery = signal('');
   /** Browser clock for "updated … ago" (null during prerendering). */
   protected readonly now = signal<number | null>(null);
 
@@ -84,7 +81,7 @@ export class BuildPageComponent {
   protected readonly version = computed(() => this.meta()?.patches.find((p) => p.patch === this.patch())?.ddragonVersion ?? null);
   /** Data Dragon version of the loaded static data, also when the page has no build (not enough games). */
   protected readonly staticVersion = computed(() => this.version() ?? this.meta()?.patches[0]?.ddragonVersion ?? null);
-  protected readonly build = computed(() => this.file()?.builds[this.buildIndex()] ?? this.file()?.builds[0] ?? null);
+  protected readonly build = computed(() => this.file()?.builds[this.buildIndex()] ?? null);
 
   protected readonly ddragonId = computed(() => this.champion()?.ddragonId ?? null);
   protected readonly championName = computed(() => this.champion()?.name ?? '');
@@ -111,10 +108,12 @@ export class BuildPageComponent {
     const tree = (id: number) => core.runeTrees.find((t) => t.id === id);
     const primary = tree(page[0]!);
     const secondary = tree(page[5]!);
+    // Every rune of both trees in the client layout; the chosen ones are in colour.
     return {
-      primary: primary && { ...primary, rows: primary.slots.map((row) => row.map((r) => ({ ...r, on: selected.has(r.id) }))) },
+      primary: primary && { ...primary, color: treeColor(primary.id), rows: primary.slots.map((row) => row.map((r) => ({ ...r, on: selected.has(r.id) }))) },
       // The secondary tree has no keystone row.
-      secondary: secondary && { ...secondary, rows: secondary.slots.slice(1).map((row) => row.map((r) => ({ ...r, on: selected.has(r.id) }))) },
+      secondary: secondary && { ...secondary, color: treeColor(secondary.id), rows: secondary.slots.slice(1).map((row) => row.map((r) => ({ ...r, on: selected.has(r.id) }))) },
+      keystone: primary?.slots[0]?.find((r) => r.id === page[1])?.name ?? null,
       shards: this.shardRows.map((row, i) => row.map((id) => ({ id, on: page[8 + i] === id, info: core.shards[id] }))),
     };
   });
@@ -140,22 +139,6 @@ export class BuildPageComponent {
       { title: 'BUILDS.STRONG_AGAINST', tone: 'good', items: f.strongAgainst.map((o) => card(o, role)) },
       { title: 'BUILDS.SYNERGY', tone: 'duo', items: f.synergy.map((o) => card(o, o.role)) },
     ];
-  });
-
-  protected readonly situational = computed(() => this.build()?.situational ?? []);
-  protected readonly situationalTip = computed(() => {
-    const s = this.situational()[this.situationalIndex()];
-    if (!s) return null;
-    const key = `LOL.ITEM_TIPS.${s.item}`;
-    const tip = this.translate.instant(key) as string;
-    return tip && tip !== key ? tip : null;
-  });
-
-  protected readonly opponents = computed(() => {
-    const list = this.file()?.vsOpponent ?? [];
-    const q = this.opponentQuery().trim().toLowerCase();
-    const named = list.map((o) => ({ ...o, name: this.championNameByKey(o.champion) }));
-    return q ? named.filter((o) => o.name.toLowerCase().includes(q)) : named.slice(0, 4);
   });
 
   protected readonly updatedAgo = computed(() => {
@@ -190,13 +173,6 @@ export class BuildPageComponent {
       this.ctx.lang(); // localised static data
       untracked(() => void this.load(champion, role, filter, region, patch, indexLoaded));
     });
-    effect(() => {
-      this.build();
-      untracked(() => {
-        this.situationalIndex.set(0);
-        this.copied.set(false);
-      });
-    });
   }
 
   private championNameByKey(key: number): string {
@@ -225,22 +201,47 @@ export class BuildPageComponent {
     return { name: info?.name ?? String(key), desc: info?.desc ?? '', src: info ? this.data.spellIcon(this.version() ?? '', info.icon) : '' };
   }
 
-  protected keystoneIcon(page: readonly number[]): string {
-    const tree = this.core()?.runeTrees.find((t) => t.id === page[0]);
-    const keystone = tree?.slots[0]?.find((r) => r.id === page[1]);
-    return keystone ? this.data.runeIcon(keystone.icon) : '';
+  /** Rune (keystone…) by id, from the localised Data Dragon trees. */
+  protected rune(id: number): StaticRune | null {
+    for (const t of this.core()?.runeTrees ?? []) for (const row of t.slots) for (const r of row) if (r.id === id) return r;
+    return null;
   }
 
-  protected slot(s: string): 1 | 2 | 3 | 4 {
-    return Number(s) as 1 | 2 | 3 | 4;
+  protected tree(id: number): { name: string; icon: string } | null {
+    return this.core()?.runeTrees.find((t) => t.id === id) ?? null;
   }
 
-  protected rankIcon(tier: string): string {
-    return `assets/img/ranks/${tier.toLowerCase()}.webp`;
+  /** Tooltip of an alternative item: share at its slot and win rate. */
+  protected altDesc(a: SlotItem): string {
+    return `${this.fmtRate(a.share, 0)} · ${this.translate.instant('BUILDS.WR_SHORT')} ${this.fmtRate(a.winRate)}`;
   }
 
   protected maxKeys(): string[] {
     return [...(this.build()?.skills?.max ?? '')].map((s) => abilityKey(Number(s) as 1 | 2 | 3, this.ctx.lang()));
+  }
+
+  protected selectBuild(index: number): void {
+    if (index !== this.buildIndex()) this.setQuery({ build: index || null });
+  }
+
+  /** Listbox keyboard: arrows (both axes, the list is a carousel on mobile), Home and End move the selection. */
+  protected onBuildKey(event: KeyboardEvent): void {
+    const count = this.file()?.builds.length ?? 0;
+    const current = this.buildIndex();
+    const next =
+      event.key === 'ArrowDown' || event.key === 'ArrowRight'
+        ? Math.min(count - 1, current + 1)
+        : event.key === 'ArrowUp' || event.key === 'ArrowLeft'
+          ? Math.max(0, current - 1)
+          : event.key === 'Home'
+            ? 0
+            : event.key === 'End'
+              ? count - 1
+              : null;
+    if (next === null || count === 0) return;
+    event.preventDefault();
+    this.selectBuild(next);
+    this.host.nativeElement.querySelector<HTMLElement>(`#build-${next}`)?.focus();
   }
 
   protected setQuery(params: Record<string, string | number | null>): void {
@@ -250,21 +251,6 @@ export class BuildPageComponent {
   protected selectRole(role: Role): void {
     const slug = this.champion()?.slug;
     if (slug && role !== this.role()) void this.router.navigate([this.ctx.link(`/lol/champions/${slug}/build/${role}`)], { queryParamsHandling: 'preserve' });
-  }
-
-  protected async copyBuild(): Promise<void> {
-    const build = this.build();
-    const core = this.core();
-    if (!build || !core || !this.isBrowser) return;
-    const t = (k: string) => this.translate.instant(`BUILDS.COPY.${k}`) as string;
-    const title = `${this.championName()} ${this.roleName()} — ${this.translate.instant('BUILDS.PATCH', { patch: this.patch() })} (${this.translate.instant(`BUILDS.FILTERS.${this.filter()}`)})`;
-    const text = buildAsText(build, core, this.ctx.lang(), { title, core: t('CORE'), full: t('FULL'), start: t('START'), runes: t('RUNES'), spells: t('SPELLS'), skills: t('SKILLS'), max: t('MAX') });
-    try {
-      await navigator.clipboard.writeText(text);
-      this.copied.set(true);
-    } catch {
-      this.copied.set(false);
-    }
   }
 
   /** Incremented on each load: only the latest one may update the page. */

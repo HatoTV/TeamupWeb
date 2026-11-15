@@ -68,7 +68,9 @@ jobs:
       - name: Count players per tier (sizing of a complete collection)
         if: env.MODE == 'count'
         working-directory: tools/lol-stats
-        run: node src/count-players.ts
+        run: |
+          node src/r2-setup.ts
+          node src/count-players.ts
 
       - name: Tests
         if: env.MODE != 'smoke' && env.MODE != 'count'

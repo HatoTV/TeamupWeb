@@ -10,7 +10,7 @@ const config = loadConfig();
 const client = new RiotClient({ apiKey: config.apiKey });
 const DIVISIONS = ['I', 'II', 'III', 'IV'] as const;
 
-async function countDivision(platform: Platform, tier: 'DIAMOND' | 'EMERALD', division: (typeof DIVISIONS)[number]): Promise<number> {
+async function countDivision(platform: Platform, tier: 'MASTER' | 'DIAMOND' | 'EMERALD', division: (typeof DIVISIONS)[number]): Promise<number> {
   const size = async (page: number) => (await leagueEntries(client, platform, tier, division, page))?.length ?? 0;
   let lo = 1;
   let hi = 2;
@@ -28,11 +28,12 @@ await Promise.all(
   config.platforms.map(async (platform) => {
     const counts: Record<string, number> = {};
     for (const tier of ['CHALLENGER', 'GRANDMASTER', 'MASTER'] as const) counts[tier] = (await apexLeague(client, platform, tier))?.entries.length ?? 0;
+    counts['MASTER_PAGED'] = await countDivision(platform, 'MASTER', 'I');
     for (const tier of ['DIAMOND', 'EMERALD'] as const) {
       counts[tier] = 0;
       for (const d of DIVISIONS) counts[tier] += await countDivision(platform, tier, d);
     }
-    const total = Object.values(counts).reduce((a, b) => a + b, 0);
+    const total = Object.entries(counts).filter(([k]) => k !== 'MASTER_PAGED').map(([, v]) => v).reduce((a, b) => a + b, 0);
     console.log(`${platform}: ${JSON.stringify(counts)} total ${total} (${client.stats.requests} requests so far)`);
   })
 );

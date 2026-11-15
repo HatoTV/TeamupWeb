@@ -4,6 +4,8 @@ name: LoL build stats
 #   00:17 UTC  crawl (5 h 30)
 #   12:17 UTC  crawl (4 h) + aggregation of both patches, upload to the public R2 bucket, new champions sync,
 #              community tips rework detection, commit of the prerendered subset and Vercel redeploy.
+#   06:17 and 18:17 UTC  backfill crawl (5 h 30), only until the first pass over every player of every region is
+#              complete; these runs then stop by themselves (about 22 h of runner time a day during the backfill).
 # Secrets: RIOT_API_KEY, R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET, VERCEL_DEPLOY_HOOK.
 # Variable: R2_PUBLIC_BUCKET (public statistics bucket; publication is skipped until it is set).
 # About 10 h of runner time a day: scheduled runs only start once the repository is public (free minutes).
@@ -12,12 +14,14 @@ on:
   schedule:
     - cron: '17 0 * * *'
     - cron: '17 12 * * *'
+    - cron: '17 6 * * *' # backfill
+    - cron: '17 18 * * *' # backfill
   workflow_dispatch:
     inputs:
       mode:
-        description: 'full = crawl + publish; crawl = collection only; publish = aggregation and publication only; smoke = key and limits check'
+        description: 'full = crawl + publish; crawl = collection only; backfill = crawl until the first pass is complete; publish = aggregation and publication only; smoke = key and limits check'
         type: choice
-        options: [full, crawl, publish, smoke, count]
+        options: [full, crawl, backfill, publish, smoke, count]
         default: full
       budget_minutes:
         description: Crawl time budget (minutes, 330 at most)
@@ -48,7 +52,7 @@ jobs:
       R2_BUCKET: ${{ secrets.R2_BUCKET }}
       VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
       R2_PUBLIC_BUCKET: ${{ vars.R2_PUBLIC_BUCKET }}
-      MODE: ${{ inputs.mode || (github.event.schedule == '17 12 * * *' && 'full' || 'crawl') }}
+      MODE: ${{ inputs.mode || (github.event.schedule == '17 12 * * *' && 'full') || ((github.event.schedule == '17 6 * * *' || github.event.schedule == '17 18 * * *') && 'backfill') || 'crawl' }}
       LOL_STATS_BUDGET_MINUTES: ${{ inputs.budget_minutes || (github.event.schedule == '17 12 * * *' && '240' || '330') }}
       LOL_STATS_PLATFORMS: ${{ inputs.platforms || '' }}
       LOL_STATS_LOW_SAMPLE_GAMES: '200' # below this many games a champion/role page shows the small-sample warning
@@ -83,7 +87,7 @@ jobs:
         run: npm test
 
       - name: Crawl (current and previous patch, within the time budget, state saved to R2 every 5 min)
-        if: env.MODE == 'full' || env.MODE == 'crawl'
+        if: env.MODE == 'full' || env.MODE == 'crawl' || env.MODE == 'backfill'
         working-directory: tools/lol-stats
         run: node src/cli.ts crawl
 

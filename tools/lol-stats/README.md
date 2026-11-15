@@ -93,6 +93,6 @@ Avec plusieurs plateformes, des fichiers par plateforme sont ajoutés sous `{fil
 
 ## Workflow GitHub (`.github/workflows/lol-stats.yml`)
 
-- 00:17 UTC : collecte de 5 h 30. 12:17 UTC : collecte de 4 h, puis publication des deux patchs, `tools/sync-champions.mjs`, `detect-reworks` au premier passage d'un nouveau patch, commit (sous l'identité du propriétaire, pour que Vercel déploie) et Deploy Hook Vercel. Environ 10 h de runner par jour : les runs planifiés ne démarrent que si le dépôt est public (minutes gratuites).
+- 00:17 UTC : collecte de 5 h 30. 12:17 UTC : collecte de 4 h, puis publication des deux patchs, `tools/sync-champions.mjs`, `detect-reworks` au premier passage d'un nouveau patch, commit (sous l'identité du propriétaire, pour que Vercel déploie) et Deploy Hook Vercel. 06:17 et 18:17 UTC : collecte de rattrapage de 5 h 30, qui s'arrête d'elle-même dès que le premier passage sur tous les joueurs de chaque région est terminé (environ 22 h de runner par jour pendant le rattrapage). Environ 10 h de runner par jour ensuite : les runs planifiés ne démarrent que si le dépôt est public (minutes gratuites).
 - Manuel (`workflow_dispatch`) : `mode` = `full`, `crawl`, `publish`, `smoke` (clé et limites) ou `count` (joueurs par palier et par région), `budget_minutes` (330 au plus), `platforms`.
 - Une erreur Riot passagère (5xx ou 429 après les nouvelles tentatives) saute la partie ou le joueur ; 401 / 403 arrêtent la collecte.

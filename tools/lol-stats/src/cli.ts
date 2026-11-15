@@ -4,6 +4,7 @@
 //   node src/cli.ts dev         small sample with a development key: crawl (500 games) + publish
 import { loadConfig, type Config } from './config.ts';
 import { crawl } from './crawl.ts';
+import { loadRotation } from './players.ts';
 import { publish } from './publish.ts';
 import { RiotClient } from './riot/client.ts';
 import { openStore } from './state/open.ts';
@@ -13,6 +14,14 @@ const command = process.argv[2];
 
 async function runCrawl(config: Config): Promise<void> {
   const store = openStore(config);
+  // Extra backfill runs stop once the first pass over every player of every region is complete.
+  if (process.env.MODE === 'backfill') {
+    const rotations = await Promise.all(config.platforms.map((p) => loadRotation(store, p, Date.now())));
+    if (rotations.every((r) => r.passes >= 1)) {
+      console.log('[crawl] backfill complete on every platform: nothing to do');
+      return;
+    }
+  }
   const clients = new Map(config.platforms.map((p) => [p, new RiotClient({ apiKey: config.apiKey })]));
   const client = clients.get(config.platforms[0]!)!;
   for (const report of await crawl(config, { client, clientFor: (p) => clients.get(p)!, store })) {

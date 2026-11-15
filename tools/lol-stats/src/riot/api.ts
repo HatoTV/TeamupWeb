@@ -81,7 +81,7 @@ export function apexLeague(client: RiotClient, platform: Platform, tier: 'CHALLE
   return client.get<LeagueListDto>(platform, `league-v4.${path}`, `/lol/league/v4/${path}/by-queue/${RANKED_SOLO}`);
 }
 
-export function leagueEntries(client: RiotClient, platform: Platform, tier: 'CHALLENGER' | 'GRANDMASTER' | 'MASTER' | 'DIAMOND' | 'EMERALD', division: 'I' | 'II' | 'III' | 'IV', page: number) {
+export function leagueEntries(client: RiotClient, platform: Platform, tier: 'DIAMOND' | 'EMERALD', division: 'I' | 'II' | 'III' | 'IV', page: number) {
   return client.get<LeagueEntryDto[]>(platform, 'league-v4.entries', `/lol/league/v4/entries/${RANKED_SOLO}/${tier}/${division}`, { page });
 }
 
@@ -108,4 +108,9 @@ export function timeline(client: RiotClient, platform: Platform, matchId: string
 /** Platform of a match id (`EUW1_7212345678` → `EUW1`). */
 export function platformOfMatch(matchId: string): string {
   return matchId.split('_')[0] ?? '';
+}
+
+/** league-exp-v4: paginated entries, also for Master, Grandmaster and Challenger (205 per page). */
+export function leagueExpEntries(client: RiotClient, platform: Platform, tier: 'CHALLENGER' | 'GRANDMASTER' | 'MASTER', page: number) {
+  return client.get<LeagueEntryDto[]>(platform, 'league-exp-v4.entries', `/lol/league-exp/v4/entries/${RANKED_SOLO}/${tier}/I`, { page });
 }

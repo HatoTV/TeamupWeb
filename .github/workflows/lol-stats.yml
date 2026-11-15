@@ -69,7 +69,7 @@ jobs:
         if: env.MODE == 'count'
         working-directory: tools/lol-stats
         run: |
-          node src/r2-setup.ts
+          node src/r2-setup.ts || true
           node src/count-players.ts
 
       - name: Tests

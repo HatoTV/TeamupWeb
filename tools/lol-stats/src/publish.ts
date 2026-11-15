@@ -7,6 +7,7 @@ import { TIER_FILTERS, type Config } from './config.ts';
 import { gamesPrefix, resolvePatches, type PatchMeta } from './crawl.ts';
 import { COMMUNITY_DRAGON_PERKS, DataDragon, type Lang } from './ddragon.ts';
 import type { GameRecord } from './extract/game.ts';
+import { exclusiveGroups } from './extract/items.ts';
 import { championBuildSchema, indexSchema, metaSchema, type IndexJson, type MetaJson } from './schema.ts';
 import { decodeJsonl, getJson, putJson, type StateStore } from './state/store.ts';
 
@@ -58,11 +59,15 @@ export interface AggregateReport {
   aggregated: boolean;
 }
 
-/** Last publication of a patch (state store): parts aggregated and games per scope. */
+/** Version of the published JSON format: a new version re-aggregates every patch, even without new games. */
+const FORMAT = 2;
+
+/** Last publication of a patch (state store): parts aggregated, games per scope, JSON format. */
 interface Published {
   parts: number;
   totals: Record<string, number>;
   files: number;
+  format?: number;
 }
 const publishedKey = (patch: string) => `published/${patch}.json`;
 const manifestKey = (patch: string) => `published/${patch}.manifest.json`;
@@ -81,7 +86,7 @@ async function readIndex(config: Config, publicStore: StateStore | null, patch: 
 
 /**
  * Aggregates the stored games of one patch and writes `{outputDir}/{patch}/{filter}[/{platform}]/…`.
- * A patch without new games since its last publication is skipped (`force` to aggregate anyway).
+ * A patch without new games since its last publication in the same format is skipped (`force` to aggregate anyway).
  */
 export async function aggregatePatch(
   config: Config,
@@ -95,7 +100,7 @@ export async function aggregatePatch(
   const keys = await store.list(gamesPrefix(meta.patch));
   const last = await getJson<Published>(store, publishedKey(meta.patch));
   const hasOutput = existsSync(join(config.outputDir, meta.patch));
-  if (!force && last && last.parts === keys.length && hasOutput) {
+  if (!force && last && last.format === FORMAT && last.parts === keys.length && hasOutput) {
     return { patch: meta.patch, files: last.files, largestBytes: 0, oversized: [], totals: last.totals, aggregated: false };
   }
 
@@ -117,6 +122,7 @@ export async function aggregatePatch(
     games: () => storedGames(store, keys),
     previous,
     names,
+    exclusive: exclusiveGroups((await ddragon.items(meta.version, 'en_US')).data),
     config,
   });
 
@@ -134,7 +140,7 @@ export async function aggregatePatch(
   for (const index of out.indexes) writeJson(join(scopeDir(config.outputDir, index.patch, index.filter, index.region), 'index.json'), indexSchema.parse(index));
 
   const totals = Object.fromEntries(out.totals);
-  await putJson(store, publishedKey(meta.patch), { parts: keys.length, totals, files: out.files.length } satisfies Published);
+  await putJson(store, publishedKey(meta.patch), { parts: keys.length, totals, files: out.files.length, format: FORMAT } satisfies Published);
   return { patch: meta.patch, files: out.files.length, largestBytes: largest, oversized, totals, aggregated: true };
 }
 

@@ -40,9 +40,10 @@ export function summaryTexts(file: ChampionBuildJson, names: Names): { fr: strin
         `Sur le patch ${file.patch}, ${champ} ${role} affiche ${pct(file.winRate, lang)} de victoires sur ${int(file.games, lang)} parties classées (${filter})` +
           (file.tier ? `, tier ${file.tier}.` : '.')
       );
-      const [first, second] = file.builds;
+      const first = file.builds.find((b) => b.label === 'most_played');
+      const offMeta = file.builds.find((b) => b.label === 'off_meta');
       if (first) parts.push(`Le build le plus joué passe par ${list(first.core.map(item), lang)} (${pct(first.winRate, lang)} de victoires).`);
-      if (second?.label === 'best_winrate') parts.push(`Le plus efficace mise sur ${list(second.core.map(item), lang)} (${pct(second.winRate, lang)}).`);
+      if (offMeta) parts.push(`Moins courant, le build OFF-META ${list(offMeta.core.map(item), lang)} atteint ${pct(offMeta.winRate, lang)} sur ${int(offMeta.games, lang)} parties.`);
       if (file.strongAgainst.length) parts.push(`Il s'en sort le mieux contre ${list(file.strongAgainst.slice(0, 3).map((o) => names.champions.fr.get(o.champion) ?? '?'), lang)}.`);
       if (file.weakAgainst.length) parts.push(`Il souffre surtout contre ${list(file.weakAgainst.slice(0, 3).map((o) => names.champions.fr.get(o.champion) ?? '?'), lang)}.`);
     } else {
@@ -50,9 +51,10 @@ export function summaryTexts(file: ChampionBuildJson, names: Names): { fr: strin
         `On patch ${file.patch}, ${champ} ${role} has a ${pct(file.winRate, lang)} win rate over ${int(file.games, lang)} ranked games (${filter})` +
           (file.tier ? `, ${file.tier} tier.` : '.')
       );
-      const [first, second] = file.builds;
+      const first = file.builds.find((b) => b.label === 'most_played');
+      const offMeta = file.builds.find((b) => b.label === 'off_meta');
       if (first) parts.push(`The most played build goes ${list(first.core.map(item), lang)} (${pct(first.winRate, lang)} win rate).`);
-      if (second?.label === 'best_winrate') parts.push(`The most efficient one relies on ${list(second.core.map(item), lang)} (${pct(second.winRate, lang)}).`);
+      if (offMeta) parts.push(`Less common, the OFF-META build ${list(offMeta.core.map(item), lang)} reaches ${pct(offMeta.winRate, lang)} over ${int(offMeta.games, lang)} games.`);
       if (file.strongAgainst.length) parts.push(`It does best against ${list(file.strongAgainst.slice(0, 3).map((o) => names.champions.en.get(o.champion) ?? '?'), lang)}.`);
       if (file.weakAgainst.length) parts.push(`It struggles most against ${list(file.weakAgainst.slice(0, 3).map((o) => names.champions.en.get(o.champion) ?? '?'), lang)}.`);
     }

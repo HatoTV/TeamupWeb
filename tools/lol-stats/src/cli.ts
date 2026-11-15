@@ -60,8 +60,8 @@ switch (command) {
       pagesPerDivision: 1,
       // Small sample: lower thresholds so that pages have something to show.
       minBuildGames: Number(process.env.LOL_STATS_MIN_BUILD_GAMES ?? 3),
+      offMetaMinGames: Number(process.env.LOL_STATS_OFF_META_MIN_GAMES ?? 3),
       minMatchupGames: Number(process.env.LOL_STATS_MIN_MATCHUP_GAMES ?? 2),
-      minPlayerGames: 2,
       sample: true,
     });
     if (!process.argv.includes('--no-crawl')) await runCrawl(config);

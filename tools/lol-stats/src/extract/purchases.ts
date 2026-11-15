@@ -113,13 +113,3 @@ export function itemPhases(purchases: readonly Purchase[], catalog: ItemCatalog)
 
   return { start, firstBuy, firstBuyT, majors, boots, fullBuild };
 }
-
-/** Build key: the first three major items (boots excluded), order-independent. */
-export function buildKey(majors: ReadonlyArray<readonly [number, number]>): string | null {
-  if (majors.length < 3) return null;
-  return majors
-    .slice(0, 3)
-    .map(([id]) => id)
-    .sort((a, b) => a - b)
-    .join('-');
-}

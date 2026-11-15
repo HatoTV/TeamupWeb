@@ -58,13 +58,19 @@ export interface Config {
   maxGames: number;
   /** Games shorter than this are ignored (remakes, early surrenders). */
   minGameSeconds: number;
-  /** Build candidates need max(minBuildGames, minBuildShare × games of the champion in the role). */
+  /** The three most played builds need max(minBuildGames, minBuildShare × games of the champion in the role). */
   minBuildGames: number;
   minBuildShare: number;
+  /** OFF-META build: share of the champion games between these bounds, at least offMetaMinGames games. */
+  offMetaMinShare: number;
+  offMetaMaxShare: number;
+  offMetaMinGames: number;
+  /** Alternatives of items 4-6 need this share of the build games at their slot. */
+  altMinShare: number;
+  /** An item bought 6th in more than this share of its 4th-6th purchases is not proposed 4th. */
+  lateShare: number;
   /** Lane opponents / duo partners need at least this many games. */
   minMatchupGames: number;
-  /** Best players need at least this many games on the champion and role. */
-  minPlayerGames: number;
   /** A new patch is shown once a champion / role reaches this many games. */
   minGamesForNewPatch: number;
   /** A filter below this many games shows the "few games" warning. */
@@ -94,10 +100,14 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     flushMinutes: num(env.LOL_STATS_FLUSH_MINUTES, 5),
     maxGames: num(env.LOL_STATS_MAX_GAMES, 0),
     minGameSeconds: 15 * 60,
-    minBuildGames: num(env.LOL_STATS_MIN_BUILD_GAMES, 100),
-    minBuildShare: 0.03,
+    minBuildGames: num(env.LOL_STATS_MIN_BUILD_GAMES, 50),
+    minBuildShare: num(env.LOL_STATS_MIN_BUILD_SHARE, 0.03),
+    offMetaMinShare: num(env.LOL_STATS_OFF_META_MIN_SHARE, 0.005),
+    offMetaMaxShare: num(env.LOL_STATS_OFF_META_MAX_SHARE, 0.03),
+    offMetaMinGames: num(env.LOL_STATS_OFF_META_MIN_GAMES, 30),
+    altMinShare: num(env.LOL_STATS_ALT_MIN_SHARE, 0.08),
+    lateShare: num(env.LOL_STATS_LATE_SHARE, 0.7),
     minMatchupGames: num(env.LOL_STATS_MIN_MATCHUP_GAMES, 50),
-    minPlayerGames: 15,
     minGamesForNewPatch: num(env.LOL_STATS_MIN_GAMES_NEW_PATCH, 200),
     lowSampleGames: num(env.LOL_STATS_LOW_SAMPLE_GAMES, 200),
     sample: env.LOL_STATS_SAMPLE === '1',

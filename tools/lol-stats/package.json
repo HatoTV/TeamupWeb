@@ -12,6 +12,7 @@
     "publish": "node src/cli.ts publish",
     "dev": "node src/cli.ts dev",
     "test": "node --test \"test/**/*.test.ts\"",
+    "test:published": "node --test test/published.check.ts",
     "typecheck": "node ../../node_modules/typescript/bin/tsc -p tsconfig.json"
   },
   "dependencies": {

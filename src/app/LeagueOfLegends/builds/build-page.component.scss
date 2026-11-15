@@ -316,449 +316,517 @@
   }
 }
 
-// ---------- Layout ----------
-.layout {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+$inset: #12121f;
+
+// ---------- Three linked columns: builds · spells, runes & skills · items ----------
+.board {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1.3fr) minmax(0, 1fr);
+  grid-template-areas: 'builds runes items';
+  align-items: stretch;
   gap: 16px;
   padding: 20px 36px 0;
 }
 
-.side {
-  flex: 1 1 280px;
-  max-width: 340px;
+.col {
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
-.main {
-  flex: 999 1 620px;
-  min-width: 0;
+.col--builds {
+  grid-area: builds;
+  overflow: hidden;
+}
+
+.col--runes {
+  grid-area: runes;
+  padding: 16px 18px;
+}
+
+.col--items {
+  grid-area: items;
+  padding: 16px 18px;
+}
+
+.col__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+// ---------- 1 · Builds ----------
+.picks {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
-.builds__item {
-  display: block;
-  width: 100%;
-  padding: 12px 16px;
-  border: 0;
+.pick {
+  // Containing block of the visually hidden text: it must stay inside the carousel.
+  position: relative;
+  padding: 14px 16px;
   border-top: 1px solid var(--color-separator);
-  background: transparent;
-  text-align: left;
   cursor: pointer;
+  transition: background-color var(--duration-color) ease;
 
   &:hover {
     background: var(--color-surface-plus);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: -2px;
   }
 
   &.is-on {
     background: var(--color-surface-plus);
     box-shadow: inset 3px 0 0 var(--color-gold);
 
-    .builds__label {
+    .pick__label {
       color: var(--color-gold);
     }
   }
 }
 
-.builds__top {
+.pick__top {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  gap: 8px;
 }
 
-.builds__label {
+.pick__label {
   font-weight: 700;
   font-size: 14px;
+
+  &--off {
+    letter-spacing: 0.04em;
+  }
 }
 
-.builds__wr,
-.row__wr {
-  font: 700 18px var(--font-display);
+.pick__wr {
+  font: 700 19px var(--font-display);
   color: var(--diff-2-text);
 }
 
-.builds__icons {
+.pick__icons {
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-top: 8px;
+  margin-top: 10px;
+}
+
+.pick__key {
+  position: relative;
+  flex: none;
+  width: 34px;
+  height: 34px;
 
   img {
-    border-radius: 6px;
-    border: 1px solid var(--color-line-strong);
-  }
-
-  .builds__key {
+    display: block;
     border-radius: 50%;
-    border: 0;
     background: var(--color-night);
   }
 }
 
-.builds__sep {
+.pick__tree {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  padding: 1px;
+}
+
+.pick__sep {
   width: 1px;
-  height: 22px;
-  margin: 0 4px;
+  height: 24px;
+  margin: 0 5px;
   background: var(--color-line);
 }
 
-.builds__games {
+.pick__item {
+  border-radius: 6px;
+  border: 1px solid var(--color-line-strong);
+}
+
+.pick__meta {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--color-text-subtle);
+}
+
+// ---------- 2 · Spells, runes & skills ----------
+.spells {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: $inset;
+  border: 1px solid var(--color-separator);
+}
+
+.spells__names {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.spells__share {
   margin-left: auto;
   font-size: 12px;
+  color: var(--color-text-subtle);
+}
+
+.runes {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.tree {
+  min-width: 0;
+  padding: 12px;
+  border-radius: 12px;
+  background: $inset;
+  border: 1px solid var(--color-separator);
+}
+
+.tree__name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--tree);
+}
+
+.tree__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.tree__keystone {
+  margin-top: 2px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tree);
+}
+
+.tree__shards {
+  margin-top: 4px;
+  padding-top: 10px;
+  border-top: 1px solid var(--color-separator);
+
+  .tree__row {
+    margin-bottom: 8px;
+  }
+}
+
+.skills {
+  // Stays at the bottom of the column whatever the height of the runes.
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+.skills__head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--color-separator);
+}
+
+.skills__title {
+  font: 700 14px var(--font-display);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.skills__max-label {
+  font-size: 12px;
+  color: var(--color-text-subtle);
+}
+
+.skills__max {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 2px 8px;
+    border-radius: 5px;
+    background: var(--sk);
+    color: var(--color-night);
+    font: 700 13px var(--font-display);
+  }
+
+  li + li {
+    position: relative;
+    margin-left: 12px;
+  }
+
+  li + li::before {
+    content: '›';
+    position: absolute;
+    left: -14px;
+    color: #6a6a8a;
+  }
+}
+
+.skills__scroll {
+  overflow-x: auto;
+  border-radius: 6px;
+
+  &:focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 2px;
+  }
+}
+
+.skills__grid {
+  width: 100%;
+  min-width: 380px;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 3px;
+
+  th:first-child {
+    width: 30px;
+  }
+
+  thead th {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-text-subtle);
+  }
+
+  tbody th {
+    padding: 0;
+
+    img {
+      display: block;
+      width: 26px;
+      height: 26px;
+      border-radius: 6px;
+      border: 2px solid var(--sk);
+    }
+  }
+
+  td {
+    height: 24px;
+    padding: 0;
+    border-radius: 4px;
+    background: var(--color-surface-active);
+    text-align: center;
+    font: 700 12px var(--font-display);
+
+    &.is-on {
+      background: var(--sk);
+      color: var(--color-night);
+    }
+  }
+}
+
+// ---------- 3 · Items ----------
+.early {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-separator);
+}
+
+.early__label {
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 600;
   color: var(--color-text-muted);
 }
 
-.rows {
+.early__row {
+  display: flex;
+  gap: 4px;
+}
+
+.items__label {
+  margin: 16px 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+
+  &--gold {
+    margin-top: 14px;
+    color: var(--color-gold);
+  }
+}
+
+.core {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.row {
+.core__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.core__arrow {
+  margin-top: 16px;
+  color: #6a6a8a;
+}
+
+.core__cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 72px;
+  text-align: center;
+}
+
+.core__icon {
+  position: relative;
+}
+
+.core__n {
+  position: absolute;
+  left: -6px;
+  top: -6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-gold);
+  color: var(--color-on-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 12px var(--font-display);
+}
+
+.core__name {
+  font-size: 11px;
+  line-height: 1.2;
+  color: var(--color-text-secondary);
+}
+
+.core__time {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-text-subtle);
+}
+
+.next {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.next__row {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 16px;
-  border-top: 1px solid var(--color-separator);
-
-  &--empty {
-    font-size: 13px;
-    color: var(--color-text-subtle);
-  }
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: $inset;
+  border: 1px solid var(--color-separator);
 }
 
-.row__champ {
-  border-radius: 50%;
+.next__n {
+  flex: none;
+  width: 22px;
+  font: 700 13px var(--font-display);
+  color: var(--color-text-muted);
 }
 
-.row__main {
+.next__main {
   flex: 1;
   min-width: 0;
 }
 
-.row__name,
-.row__sub {
+.next__name,
+.next__stats {
   display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
-.row__name {
+.next__name {
+  font-size: 13px;
   font-weight: 600;
+  line-height: 1.2;
 }
 
-.row__sub {
+.next__stats {
+  font-size: 11px;
+  color: var(--color-text-subtle);
+}
+
+.next__wr {
+  color: var(--diff-2-text);
+}
+
+.next__or {
+  flex: none;
+  font-size: 11px;
+  color: var(--color-text-subtle);
+}
+
+.next__alts {
+  flex: none;
+  display: flex;
+  gap: 4px;
+}
+
+.items__note {
+  margin-top: 10px;
   font-size: 12px;
   color: var(--color-text-subtle);
 }
 
-.row__core {
-  display: flex;
-  gap: 2px;
-
-  img {
-    border-radius: 4px;
-  }
-}
-
-.row__wr {
-  font-size: 17px;
-  color: var(--color-text-secondary);
-
-  &.is-good {
-    color: var(--diff-2-text);
-  }
-}
-
-.search {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  height: 40px;
-  margin: 10px 16px 16px;
-  padding: 0 10px;
-  border-radius: var(--radius-control-sm);
-  background: var(--color-night);
-  border: 1px solid var(--color-line);
-  color: var(--color-text-muted);
-
-  input {
-    flex: 1;
-    min-width: 0;
-    border: 0;
-    background: transparent;
-    font: 500 14px var(--font-body);
-  }
-}
-
-.banner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 16px 20px;
-  border-radius: var(--radius-card);
-  background: var(--color-surface);
-  border: 1px solid var(--color-gold);
-}
-
-.banner__info {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
-  img {
-    border-radius: 50%;
-  }
-}
-
-.banner__title {
-  font: 700 19px var(--font-display);
-  text-transform: uppercase;
-}
-
-.banner__sub {
-  font-size: 14px;
-  color: var(--color-text-muted);
-}
-
-.split {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.runes {
-  flex: 3 1 440px;
-  min-width: 0;
-  padding: 18px 20px;
-}
-
-.spells {
-  flex: 1 1 200px;
-  padding: 18px 20px;
-}
-
-.runes__trees {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  margin-top: 14px;
-}
-
-.runes__tree {
-  flex: 1 1 200px;
-}
-
-.runes__name {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 12px;
-  font-weight: 700;
-  color: #e8c46e;
-
-  &--sub {
-    color: #7fd6a0;
-  }
-}
-
-.runes__row {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 12px;
-}
-
-.runes__shards {
-  margin-top: 6px;
-  padding-top: 12px;
-  border-top: 1px solid var(--color-separator);
-
-  .runes__row {
-    margin-bottom: 8px;
-  }
-}
-
-.spells__row {
-  display: flex;
-  gap: 8px;
-  margin-top: 12px;
-}
-
-.items {
-  padding: 18px 20px;
-
-  .card__head {
-    padding: 0 0 6px;
-  }
-}
-
-.items__group {
-  padding: 10px 0;
-  border-top: 1px solid var(--color-surface-plus);
-}
-
-.items__label {
-  margin-bottom: 8px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--color-text-muted);
-}
-
-.items__row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-}
-
-.arrow {
-  color: #4a4a6a;
-}
-
-.items__time {
-  margin-left: auto;
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--color-text-secondary);
-}
-
-.skills {
-  padding: 18px 20px;
-}
-
-.skills__head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 12px;
-}
-
-.skills__max {
-  font-size: 14px;
-  color: var(--color-text-muted);
-}
-
-.skills__scroll {
-  overflow-x: auto;
-}
-
-.skills__grid {
-  width: 100%;
-  min-width: 760px;
-  border-collapse: separate;
-  border-spacing: 4px;
-
-  th {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--color-text-subtle);
+// ---------- Tablet: builds on top, runes and items side by side ----------
+@media (max-width: 1199px) {
+  .board {
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+    grid-template-areas:
+      'builds builds'
+      'runes items';
   }
 
-  th[scope='row'] {
-    position: relative;
-    width: 44px;
-
-    img {
-      display: block;
-      border-radius: 6px;
-    }
+  .picks {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  td {
-    height: 30px;
-    border-radius: 5px;
-    background: #1a1a2c;
-    text-align: center;
-    font: 700 14px var(--font-display);
-    color: var(--color-night);
-
-    &.is-on {
-      background: var(--sk);
-    }
+  .pick {
+    border-left: 1px solid var(--color-separator);
+    margin-left: -1px;
   }
-}
-
-.skills__key {
-  position: absolute;
-  right: -2px;
-  bottom: 0;
-  font: 700 12px var(--font-display);
-  text-shadow: 0 0 3px #000;
-}
-
-.skills__strip {
-  display: none;
-}
-
-.situ {
-  padding: 18px 20px;
-}
-
-.situ__tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 12px;
-}
-
-.situ__tab {
-  padding: 0;
-  border: 2px solid transparent;
-  border-radius: 9px;
-  background: transparent;
-  opacity: 0.6;
-  cursor: pointer;
-
-  img {
-    display: block;
-    border-radius: 7px;
-  }
-
-  &.is-on {
-    border-color: var(--color-gold);
-    opacity: 1;
-  }
-}
-
-.situ__panel {
-  margin-top: 14px;
-  padding-top: 14px;
-  border-top: 1px solid var(--color-separator);
-}
-
-.situ__name {
-  font: 700 22px var(--font-display);
-  text-transform: uppercase;
-}
-
-.situ__meta {
-  margin-top: 2px;
-  font-size: 14px;
-  color: var(--color-text-muted);
-
-  strong {
-    color: var(--color-gold);
-  }
-}
-
-.situ__tip {
-  max-width: 70ch;
-  margin-top: 8px;
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-.situ__note {
-  color: var(--color-text-subtle);
 }
 
 // ---------- Matchups ----------
@@ -823,10 +891,6 @@
   50% {
     opacity: 0.5;
   }
-}
-
-.sticky-copy {
-  display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -915,7 +979,7 @@
   }
 
   .filters,
-  .layout,
+  .board,
   .mus {
     padding-left: var(--container-gutter);
     padding-right: var(--container-gutter);
@@ -930,35 +994,41 @@
     margin-left: 0;
   }
 
-  .side {
-    display: contents;
+  // Builds as a horizontal carousel, then items, then runes and skills.
+  .board {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'builds'
+      'items'
+      'runes';
   }
 
-  .builds {
-    order: 1;
-    flex-basis: 100%;
-    min-width: 0;
+  .col--builds {
+    overflow: visible;
     border: 0;
     background: none;
 
-    .card__head,
-    .card__foot {
-      display: none;
+    .card__head {
+      padding: 0 0 10px;
     }
   }
 
-  .builds__list {
+  .picks {
     display: flex;
-    gap: 6px;
+    flex-direction: row;
+    gap: 8px;
     overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 4px;
   }
 
-  .builds__item {
+  .pick {
     flex: none;
-    width: auto;
-    min-width: 200px;
+    width: 230px;
+    margin: 0;
+    scroll-snap-align: start;
     border: 1px solid var(--color-line);
-    border-radius: 10px;
+    border-radius: 12px;
     background: var(--color-surface);
 
     &.is-on {
@@ -967,59 +1037,16 @@
     }
   }
 
-  .main {
-    order: 2;
-    flex-basis: 100%;
+  .col--runes,
+  .col--items {
+    padding: 14px;
   }
 
-  .players,
-  .vs {
-    order: 3;
-    flex-basis: 100%;
+  .runes {
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .banner .copy {
-    display: none;
-  }
-
-  .runes__trees {
-    gap: 12px;
-  }
-
-  .skills__scroll {
-    display: none;
-  }
-
-  .skills__strip {
-    display: flex;
-    gap: 3px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-    li {
-      flex: 1;
-      height: 22px;
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font: 700 11px var(--font-display);
-      color: var(--color-night);
-    }
-  }
-
-  .sticky-copy {
-    position: fixed;
-    z-index: 20;
-    left: 12px;
-    right: 12px;
-    bottom: calc(76px + env(safe-area-inset-bottom));
-    display: block;
-
-    .btn {
-      width: 100%;
-      min-height: 50px;
-    }
+  .next__row {
+    flex-wrap: wrap;
   }
 }

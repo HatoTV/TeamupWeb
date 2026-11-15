@@ -1,14 +1,17 @@
 name: LoL build stats
 
-# Daily collection of ranked games (Riot API, production key), aggregation, new champions sync, community tips
-# rework detection, JSON commit and Vercel redeploy.
+# Complete collection of ranked games (Riot API, production key) on EUW1, KR and NA1, current and previous patch:
+#   00:17 UTC  crawl (5 h 30)
+#   12:17 UTC  crawl (4 h) + aggregation of both patches, upload to the public R2 bucket, new champions sync,
+#              community tips rework detection, commit of the prerendered subset and Vercel redeploy.
 # Secrets: RIOT_API_KEY, R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET, VERCEL_DEPLOY_HOOK.
-# Private repository: each daily run uses about budget + 8 minutes of the GitHub Actions allowance
-# (50 + 8 = 58 min/day ≈ 1 750 min/month, within the 2 000 free minutes).
+# Variable: R2_PUBLIC_BUCKET (public statistics bucket; publication is skipped until it is set).
+# About 10 h of runner time a day: scheduled runs only start once the repository is public (free minutes).
 
 on:
   schedule:
-    - cron: '17 5 * * *' # every day at 05:17 UTC
+    - cron: '17 0 * * *'
+    - cron: '17 12 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -18,7 +21,7 @@ on:
         default: full
       budget_minutes:
         description: Crawl time budget (minutes, 330 at most)
-        default: '50'
+        default: '240'
       platforms:
         description: Platforms (comma separated, empty = enabled ones in tools/lol-stats/src/config.ts)
         default: ''
@@ -34,8 +37,9 @@ permissions:
 jobs:
   stats:
     runs-on: ubuntu-latest
-    # Long manual crawls get the GitHub-hosted maximum; daily runs stop well before the budget is exceeded.
-    timeout-minutes: ${{ fromJSON(inputs.budget_minutes || '50') > 60 && 355 || 75 }}
+    # Scheduled runs need the free minutes of a public repository.
+    if: github.event_name != 'schedule' || !github.event.repository.private
+    timeout-minutes: 355
     env:
       RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
       R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
@@ -43,8 +47,9 @@ jobs:
       R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       R2_BUCKET: ${{ secrets.R2_BUCKET }}
       VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-      MODE: ${{ inputs.mode || 'full' }}
-      LOL_STATS_BUDGET_MINUTES: ${{ inputs.budget_minutes || '50' }}
+      R2_PUBLIC_BUCKET: ${{ vars.R2_PUBLIC_BUCKET }}
+      MODE: ${{ inputs.mode || (github.event.schedule == '17 12 * * *' && 'full' || 'crawl') }}
+      LOL_STATS_BUDGET_MINUTES: ${{ inputs.budget_minutes || (github.event.schedule == '17 12 * * *' && '240' || '330') }}
       LOL_STATS_PLATFORMS: ${{ inputs.platforms || '' }}
       LOL_STATS_LOW_SAMPLE_GAMES: '200' # below this many games a champion/role page shows the small-sample warning
     steps:
@@ -77,14 +82,16 @@ jobs:
         working-directory: tools/lol-stats
         run: npm test
 
-      - name: Crawl (patch detection + collection within the time budget, state saved to R2 every 5 min)
+      - name: Crawl (current and previous patch, within the time budget, state saved to R2 every 5 min)
         if: env.MODE == 'full' || env.MODE == 'crawl'
         working-directory: tools/lol-stats
         run: node src/cli.ts crawl
 
-      - name: Aggregate and publish JSON
-        if: env.MODE == 'full' || env.MODE == 'publish'
+      - name: Aggregate both patches and publish (public R2 bucket + prerendered subset in Git)
+        if: (env.MODE == 'full' || env.MODE == 'publish') && env.R2_PUBLIC_BUCKET != ''
         working-directory: tools/lol-stats
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
         run: node src/cli.ts publish
 
       - name: Sync new champions (data, index, sitemap, « Nouveau champion » issue)

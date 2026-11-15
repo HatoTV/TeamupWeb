@@ -5,7 +5,10 @@ import { Lang } from '../site.config';
 import { Role } from './champion-data.service';
 
 /** JSON produced by tools/lol-stats (see tools/lol-stats/src/schema.ts). */
-export const BUILD_FILTERS = ['emerald_plus', 'diamond_plus', 'master_plus', 'grandmaster_plus', 'challenger'] as const;
+/** `*_plus` filters include every tier above (widest first); then single tiers (`challenger` is both). */
+export const BUILD_FILTERS = ['emerald_plus', 'diamond_plus', 'master_plus', 'grandmaster_plus', 'challenger', 'emerald', 'diamond', 'master', 'grandmaster'] as const;
+/** Single-tier filters, shown in their own group. */
+export const EXACT_FILTERS: readonly string[] = ['emerald', 'diamond', 'master', 'grandmaster'];
 export type BuildFilter = (typeof BUILD_FILTERS)[number];
 export type TierRank = 'S+' | 'S' | 'A' | 'B' | 'C' | 'D';
 export type BuildLabel = 'most_played' | 'best_winrate' | 'alternative';

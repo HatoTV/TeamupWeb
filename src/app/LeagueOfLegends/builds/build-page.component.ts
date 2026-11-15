@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, PLATFORM_ID, afterNextRender, compu
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { BuildDataService, BuildFilter, BuildMeta, BUILD_FILTERS, ChampionBuild, ChampionStatic, StaticCore } from '../../core/data/build-data.service';
+import { BuildDataService, BuildFilter, BuildMeta, BUILD_FILTERS, EXACT_FILTERS, ChampionBuild, ChampionStatic, StaticCore } from '../../core/data/build-data.service';
 import { Champion, ChampionDataService, Role } from '../../core/data/champion-data.service';
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
@@ -58,6 +58,8 @@ export class BuildPageComponent {
     return list.length ? list : [BUILD_FILTERS[0]];
   });
   protected readonly defaultFilter = computed(() => this.filters()[0]!);
+  protected readonly isExact = (f: string) => EXACT_FILTERS.includes(f);
+  protected readonly hasExact = computed(() => this.filters().some((f) => EXACT_FILTERS.includes(f)));
   protected readonly filter = computed<BuildFilter>(() => {
     const rank = this.query()?.get('rank');
     return isBuildFilter(rank, this.filters()) ? rank : this.defaultFilter();

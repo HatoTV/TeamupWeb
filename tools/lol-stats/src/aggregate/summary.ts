@@ -12,8 +12,8 @@ const ROLE_NAMES = {
 } as const;
 
 const FILTER_NAMES = {
-  fr: { emerald_plus: 'Émeraude+', diamond_plus: 'Diamant+', master_plus: 'Maître+', grandmaster_plus: 'Grand Maître+', challenger: 'Challenger' },
-  en: { emerald_plus: 'Emerald+', diamond_plus: 'Diamond+', master_plus: 'Master+', grandmaster_plus: 'Grandmaster+', challenger: 'Challenger' },
+  fr: { emerald_plus: 'Émeraude+', diamond_plus: 'Diamant+', master_plus: 'Maître+', grandmaster_plus: 'Grand Maître+', challenger: 'Challenger', emerald: 'Émeraude', diamond: 'Diamant', master: 'Maître', grandmaster: 'Grand Maître' },
+  en: { emerald_plus: 'Emerald+', diamond_plus: 'Diamond+', master_plus: 'Master+', grandmaster_plus: 'Grandmaster+', challenger: 'Challenger', emerald: 'Emerald', diamond: 'Diamond', master: 'Master', grandmaster: 'Grandmaster' },
 } as const;
 
 const pct = (value: number, lang: 'fr' | 'en') =>

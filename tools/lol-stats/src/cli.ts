@@ -1,13 +1,13 @@
 // TeamUpp LoL stats collector.
-//   node src/cli.ts crawl       collect new ranked games (time budget: LOL_STATS_BUDGET_MINUTES)
-//   node src/cli.ts aggregate   compute the statistics of the current patch and write the build JSON files
-//   node src/cli.ts publish     meta.json, static Data Dragon data, keep only the current and previous patch
-//   node src/cli.ts dev         small sample with a development key: crawl (500 games) + aggregate + publish
+//   node src/cli.ts crawl       collect new ranked games of the current and previous patch (time budget: LOL_STATS_BUDGET_MINUTES)
+//   node src/cli.ts publish     aggregate both patches, meta.json, static Data Dragon data, upload to the public bucket
+//   node src/cli.ts dev         small sample with a development key: crawl (500 games) + publish
 import { loadConfig, type Config } from './config.ts';
 import { crawl } from './crawl.ts';
-import { aggregateAndWrite, writeMeta, type AggregateReport } from './publish.ts';
+import { publish } from './publish.ts';
 import { RiotClient } from './riot/client.ts';
 import { openStore } from './state/open.ts';
+import { r2PublicFromEnv } from './state/r2.ts';
 
 const command = process.argv[2];
 
@@ -16,26 +16,23 @@ async function runCrawl(config: Config): Promise<void> {
   const client = new RiotClient({ apiKey: config.apiKey });
   for (const report of await crawl(config, { client, store })) {
     console.log(
-      `[crawl] ${report.platform} patch ${report.patch}: ${report.newGames} new games in ${report.minutes} min ` +
-        `(${report.playersCrawled} players crawled, ${report.requests} requests, ${report.rateLimited} × 429) ` +
+      `[crawl] ${report.platform} patch ${report.patch}: ${report.newGames} new games ${JSON.stringify(report.newGamesByPatch)} in ${report.minutes} min ` +
+        `(rotation: pass ${report.passes + 1}, player ${report.cursor}; ${report.playersCrawled} players crawled, ${report.requests} requests, ${report.rateLimited} × 429) ` +
         `players ${JSON.stringify(report.players)} skipped ${JSON.stringify(report.skipped)}`
     );
   }
 }
 
-async function runAggregate(config: Config): Promise<AggregateReport> {
-  const report = await aggregateAndWrite(config, openStore(config));
-  console.log(
-    `[aggregate] patch ${report.patch}: ${report.files} files, largest ${Math.round(report.largestBytes / 1024)} kB, games ${JSON.stringify(report.totals)}`
-  );
-  if (report.oversized.length) console.warn(`[aggregate] over 30 kB: ${report.oversized.join(', ')}`);
-  return report;
-}
-
-async function runPublish(config: Config, report?: AggregateReport): Promise<void> {
-  const r = report ?? (await runAggregate(config));
-  const meta = await writeMeta(config, openStore(config), r);
-  console.log(`[publish] meta.json: latest ${meta.latest}, patches ${meta.patches.map((p) => p.patch).join(', ')}`);
+async function runPublish(config: Config): Promise<void> {
+  const started = Date.now();
+  const { reports, meta, uploads } = await publish(config, openStore(config), r2PublicFromEnv());
+  for (const r of reports) {
+    if (!r.aggregated) console.log(`[publish] patch ${r.patch}: no new games, files kept`);
+    else console.log(`[publish] patch ${r.patch}: ${r.files} files, largest ${Math.round(r.largestBytes / 1024)} kB, games ${JSON.stringify(r.totals)}`);
+    if (r.oversized.length) console.warn(`[publish] over 30 kB: ${r.oversized.slice(0, 20).join(', ')}`);
+  }
+  if (Object.keys(uploads).length) console.log(`[publish] public bucket: ${JSON.stringify(uploads)}`);
+  console.log(`[publish] meta.json: latest ${meta.latest}, patches ${meta.patches.map((p) => p.patch).join(', ')} (${Math.round((Date.now() - started) / 60000)} min)`);
 }
 
 switch (command) {
@@ -43,8 +40,6 @@ switch (command) {
     await runCrawl(loadConfig());
     break;
   case 'aggregate':
-    await runAggregate(loadConfig());
-    break;
   case 'publish':
     await runPublish(loadConfig());
     break;
@@ -64,6 +59,6 @@ switch (command) {
     break;
   }
   default:
-    console.error('Usage: node src/cli.ts <crawl|aggregate|publish|dev>');
+    console.error('Usage: node src/cli.ts <crawl|publish|dev>');
     process.exitCode = 1;
 }

@@ -55,8 +55,8 @@ export class R2StateStore implements StateStore {
     return Buffer.from(await res.arrayBuffer());
   }
 
-  async put(key: string, body: Buffer): Promise<void> {
-    const res = await this.send(this.url(key), { method: 'PUT', body: new Uint8Array(body) });
+  async put(key: string, body: Buffer, headers?: Record<string, string>): Promise<void> {
+    const res = await this.send(this.url(key), { method: 'PUT', body: new Uint8Array(body), ...(headers ? { headers } : {}) });
     if (!res.ok) throw new Error(`R2 PUT ${key}: ${res.status}`);
   }
 
@@ -79,6 +79,17 @@ export class R2StateStore implements StateStore {
     } while (token);
     return keys.sort();
   }
+}
+
+/**
+ * Public statistics bucket (`R2_PUBLIC_BUCKET`, same credentials), served by the site through a Vercel rewrite.
+ * Never the state bucket: that one keeps player ids.
+ */
+export function r2PublicFromEnv(env: NodeJS.ProcessEnv = process.env): R2StateStore | null {
+  const { R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_PUBLIC_BUCKET, R2_BUCKET } = env;
+  if (!R2_ACCOUNT_ID || !R2_ACCESS_KEY_ID || !R2_SECRET_ACCESS_KEY || !R2_PUBLIC_BUCKET) return null;
+  if (R2_PUBLIC_BUCKET === R2_BUCKET) throw new Error('R2_PUBLIC_BUCKET must not be the state bucket');
+  return new R2StateStore({ accountId: R2_ACCOUNT_ID, accessKeyId: R2_ACCESS_KEY_ID, secretAccessKey: R2_SECRET_ACCESS_KEY, bucket: R2_PUBLIC_BUCKET });
 }
 
 /** R2 store when the four R2 variables are set, otherwise null. */

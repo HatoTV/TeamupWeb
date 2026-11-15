@@ -1,17 +1,19 @@
-import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
-import { dirname, join } from 'node:path';
-import { aggregate, type AggregateOutput } from './aggregate/aggregate.ts';
+import { createHash } from 'node:crypto';
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { dirname, join, relative, sep } from 'node:path';
+import { aggregate } from './aggregate/aggregate.ts';
 import type { Names } from './aggregate/summary.ts';
-import { TIER_FILTERS, type Config, type SampledTier } from './config.ts';
-import { gamesPrefix, patchMetaKey, type PatchMeta } from './crawl.ts';
+import { TIER_FILTERS, type Config } from './config.ts';
+import { gamesPrefix, resolvePatches, type PatchMeta } from './crawl.ts';
 import { COMMUNITY_DRAGON_PERKS, DataDragon, type Lang } from './ddragon.ts';
 import type { GameRecord } from './extract/game.ts';
-import { previousPatch } from './patch.ts';
-import type { PlayerList } from './players.ts';
 import { championBuildSchema, indexSchema, metaSchema, type IndexJson, type MetaJson } from './schema.ts';
-import { decodeJsonl, getJson, type StateStore } from './state/store.ts';
+import { decodeJsonl, getJson, putJson, type StateStore } from './state/store.ts';
 
 const MAX_FILE_BYTES = 30 * 1024;
+/** Files kept in Git (prerendered pages): the default filter, all regions. The rest is served from R2. */
+const GIT_FILTER = 'emerald_plus';
+const JSON_HEADERS = { 'Content-Type': 'application/json', 'Cache-Control': 'public, max-age=900, s-maxage=3600' };
 
 function writeJson(file: string, value: unknown): number {
   mkdirSync(dirname(file), { recursive: true });
@@ -20,9 +22,12 @@ function writeJson(file: string, value: unknown): number {
   return Buffer.byteLength(body);
 }
 
-async function* storedGames(store: StateStore, patch: string): AsyncGenerator<GameRecord> {
-  for (const key of await store.list(gamesPrefix(patch))) {
-    const body = await store.get(key);
+async function* storedGames(store: StateStore, keys: readonly string[]): AsyncGenerator<GameRecord> {
+  // Downloads one part ahead while the previous one is parsed.
+  let next = keys.length ? store.get(keys[0]!) : null;
+  for (let i = 0; i < keys.length; i++) {
+    const body = await next;
+    next = i + 1 < keys.length ? store.get(keys[i + 1]!) : null;
     if (body) yield* decodeJsonl<GameRecord>(body);
   }
 }
@@ -49,35 +54,67 @@ export interface AggregateReport {
   largestBytes: number;
   oversized: string[];
   totals: Record<string, number>;
+  /** False when the patch had no new games since the last publication (files kept as they are). */
+  aggregated: boolean;
 }
 
-/** Aggregates the stored games of the patch and writes `{outputDir}/{patch}/{filter}[/{platform}]/…`. */
-export async function aggregateAndWrite(config: Config, store: StateStore, ddragon = new DataDragon()): Promise<AggregateReport> {
-  const versions = await ddragon.versions();
-  const metas = (await store.list('')).filter((k) => /^\d+\.\d+\/meta\.json$/.test(k));
-  const patchMetas = (await Promise.all(metas.map((k) => getJson<PatchMeta>(store, k)))).filter((m): m is PatchMeta => !!m);
-  const meta = patchMetas.sort((a, b) => b.firstSeenAt - a.firstSeenAt)[0];
-  if (!meta) throw new Error('No crawled patch in the state: run `crawl` first');
+/** Last publication of a patch (state store): parts aggregated and games per scope. */
+interface Published {
+  parts: number;
+  totals: Record<string, number>;
+  files: number;
+}
+const publishedKey = (patch: string) => `published/${patch}.json`;
+const manifestKey = (patch: string) => `published/${patch}.manifest.json`;
 
-  const playerTier = new Map<string, SampledTier>();
-  for (const platform of config.platforms) {
-    for (const p of (await getJson<PlayerList>(store, `players/${platform}.json`))?.players ?? []) playerTier.set(p.puuid, p.tier);
+const scopeDir = (outputDir: string, patch: string, filter: string, region: string) =>
+  region === 'all' ? join(outputDir, patch, filter) : join(outputDir, patch, filter, region);
+
+/** Index of a scope: local file, else the public bucket. */
+async function readIndex(config: Config, publicStore: StateStore | null, patch: string, filter: string, region: string): Promise<IndexJson | null> {
+  const file = join(scopeDir(config.outputDir, patch, filter, region), 'index.json');
+  if (existsSync(file)) return JSON.parse(readFileSync(file, 'utf8'));
+  const key = `builds/${patch}/${filter}/${region === 'all' ? '' : `${region}/`}index.json`;
+  const body = await publicStore?.get(key);
+  return body ? JSON.parse(body.toString('utf8')) : null;
+}
+
+/**
+ * Aggregates the stored games of one patch and writes `{outputDir}/{patch}/{filter}[/{platform}]/…`.
+ * A patch without new games since its last publication is skipped (`force` to aggregate anyway).
+ */
+export async function aggregatePatch(
+  config: Config,
+  store: StateStore,
+  publicStore: StateStore | null,
+  meta: PatchMeta,
+  previousPatch: string | null,
+  ddragon = new DataDragon(),
+  force = false
+): Promise<AggregateReport> {
+  const keys = await store.list(gamesPrefix(meta.patch));
+  const last = await getJson<Published>(store, publishedKey(meta.patch));
+  const hasOutput = existsSync(join(config.outputDir, meta.patch));
+  if (!force && last && last.parts === keys.length && hasOutput) {
+    return { patch: meta.patch, files: last.files, largestBytes: 0, oversized: [], totals: last.totals, aggregated: false };
   }
+
+  const regions = config.platforms.length > 1 ? ['all', ...config.platforms] : ['all'];
   const previous = new Map<string, IndexJson>();
-  const prevPatch = previousPatch(versions, meta.patch);
-  if (prevPatch) {
+  if (previousPatch) {
     for (const filter of TIER_FILTERS) {
-      const file = join(config.outputDir, prevPatch, filter, 'index.json');
-      if (existsSync(file)) previous.set(`${filter}|all`, JSON.parse(readFileSync(file, 'utf8')));
+      for (const region of regions) {
+        const index = await readIndex(config, publicStore, previousPatch, filter, region);
+        if (index) previous.set(`${filter}|${region}`, index);
+      }
     }
   }
 
   const names = await namesFor(ddragon, meta.version);
-  const out: AggregateOutput = await aggregate({
+  const out = await aggregate({
     patch: meta.patch,
     platforms: config.platforms,
-    games: () => storedGames(store, meta.patch),
-    playerTier,
+    games: () => storedGames(store, keys),
     previous,
     names,
     config,
@@ -90,17 +127,130 @@ export async function aggregateAndWrite(config: Config, store: StateStore, ddrag
   for (const file of out.files) {
     const parsed = championBuildSchema.parse(file);
     const id = names.ddragonIds.get(file.champion) ?? String(file.champion);
-    const dir = file.region === 'all' ? join(config.outputDir, file.patch, file.filter) : join(config.outputDir, file.patch, file.filter, file.region);
-    const path = join(dir, `${id}_${file.role}.json`);
-    const bytes = writeJson(path, parsed);
+    const bytes = writeJson(join(scopeDir(config.outputDir, file.patch, file.filter, file.region), `${id}_${file.role}.json`), parsed);
     largest = Math.max(largest, bytes);
-    if (bytes > MAX_FILE_BYTES) oversized.push(`${file.filter}/${id}_${file.role} (${Math.round(bytes / 1024)} kB)`);
+    if (bytes > MAX_FILE_BYTES) oversized.push(`${file.filter}/${file.region}/${id}_${file.role} (${Math.round(bytes / 1024)} kB)`);
   }
-  for (const index of out.indexes) {
-    const dir = index.region === 'all' ? join(config.outputDir, index.patch, index.filter) : join(config.outputDir, index.patch, index.filter, index.region);
-    writeJson(join(dir, 'index.json'), indexSchema.parse(index));
+  for (const index of out.indexes) writeJson(join(scopeDir(config.outputDir, index.patch, index.filter, index.region), 'index.json'), indexSchema.parse(index));
+
+  const totals = Object.fromEntries(out.totals);
+  await putJson(store, publishedKey(meta.patch), { parts: keys.length, totals, files: out.files.length } satisfies Published);
+  return { patch: meta.patch, files: out.files.length, largestBytes: largest, oversized, totals, aggregated: true };
+}
+
+/** Uploads the changed files of a patch to the public bucket (content hashes in a manifest) and removes stale ones. */
+async function uploadPatch(store: StateStore, publicStore: StateStore, outputDir: string, patch: string): Promise<{ uploaded: number; deleted: number }> {
+  const root = join(outputDir, patch);
+  const files: string[] = [];
+  const walk = (dir: string) => {
+    for (const name of readdirSync(dir)) {
+      const path = join(dir, name);
+      if (statSync(path).isDirectory()) walk(path);
+      else if (name.endsWith('.json')) files.push(path);
+    }
+  };
+  if (existsSync(root)) walk(root);
+  const manifest = (await getJson<Record<string, string>>(store, manifestKey(patch))) ?? {};
+  const next: Record<string, string> = {};
+  const changed: Array<{ key: string; body: Buffer }> = [];
+  for (const file of files) {
+    const key = `builds/${relative(outputDir, file).split(sep).join('/')}`;
+    const body = readFileSync(file);
+    const hash = createHash('sha1').update(body).digest('hex');
+    next[key] = hash;
+    if (manifest[key] !== hash) changed.push({ key, body });
   }
-  return { patch: meta.patch, files: out.files.length, largestBytes: largest, oversized, totals: Object.fromEntries(out.totals) };
+  let i = 0;
+  await Promise.all(
+    Array.from({ length: 32 }, async () => {
+      while (i < changed.length) {
+        const { key, body } = changed[i++]!;
+        await publicStore.put(key, body, JSON_HEADERS);
+      }
+    })
+  );
+  const stale = Object.keys(manifest).filter((key) => !(key in next));
+  for (const key of stale) await publicStore.delete(key);
+  await putJson(store, manifestKey(patch), next);
+  return { uploaded: changed.length, deleted: stale.length };
+}
+
+/** Git keeps `{patch}/emerald_plus/*.json` (all regions) for the prerendered pages; the public bucket serves the rest. */
+function pruneForGit(outputDir: string, patch: string): void {
+  for (const filter of existsSync(join(outputDir, patch)) ? readdirSync(join(outputDir, patch)) : []) {
+    const dir = join(outputDir, patch, filter);
+    if (filter !== GIT_FILTER) {
+      rmSync(dir, { recursive: true, force: true });
+      continue;
+    }
+    for (const name of readdirSync(dir)) if (statSync(join(dir, name)).isDirectory()) rmSync(join(dir, name), { recursive: true, force: true });
+  }
+}
+
+export interface PublishReport {
+  reports: AggregateReport[];
+  meta: MetaJson;
+  uploads: Record<string, { uploaded: number; deleted: number }>;
+}
+
+/**
+ * Publishes the current and the previous patch: aggregation (skipped for a patch without new games), meta.json,
+ * static Data Dragon data, older patches removed. With a public bucket, every file goes to R2 and Git keeps the
+ * default filter only.
+ */
+export async function publish(config: Config, store: StateStore, publicStore: StateStore | null, ddragon = new DataDragon()): Promise<PublishReport> {
+  const { current, previous } = await resolvePatches(store, ddragon);
+  const metas = [previous, current].filter((m): m is PatchMeta => !!m);
+  const reports: AggregateReport[] = [];
+  // Previous patch first: the current one reads its indexes for the deltas.
+  for (const meta of metas) {
+    const prevOfThis = meta === current ? (previous?.patch ?? null) : null;
+    const forceCurrent = meta === current && reports[0]?.aggregated === true;
+    reports.push(await aggregatePatch(config, store, publicStore, meta, prevOfThis, ddragon, forceCurrent));
+  }
+
+  const keep = new Set(metas.map((m) => m.patch));
+  for (const dir of existsSync(config.outputDir) ? readdirSync(config.outputDir) : []) {
+    if (/^\d+\.\d+$/.test(dir) && !keep.has(dir)) rmSync(join(config.outputDir, dir), { recursive: true, force: true });
+  }
+  const staticDir = join(config.outputDir, '..', 'static');
+  const keepVersions = new Set(metas.map((m) => m.version));
+  for (const dir of existsSync(staticDir) ? readdirSync(staticDir) : []) {
+    if (!keepVersions.has(dir)) rmSync(join(staticDir, dir), { recursive: true, force: true });
+  }
+  for (const m of metas) if (!existsSync(join(staticDir, m.version))) await writeStatic(staticDir, m.version, ddragon);
+
+  const now = new Date().toISOString();
+  const metaFile = join(config.outputDir, 'meta.json');
+  const old: MetaJson | null = existsSync(metaFile) ? JSON.parse(readFileSync(metaFile, 'utf8')) : null;
+  const json: MetaJson = metaSchema.parse({
+    current: current.patch,
+    latest: current.patch,
+    // Newest first; a patch without data yet is still listed so that the site can fall back to the previous one.
+    patches: [current, ...(previous ? [previous] : [])].map((m) => {
+      const report = reports.find((r) => r.patch === m.patch)!;
+      const updatedAt = report.aggregated ? now : (old?.patches.find((p) => p.patch === m.patch)?.updatedAt ?? now);
+      return { patch: m.patch, ddragonVersion: m.version, games: report.totals, updatedAt };
+    }),
+    filters: [...TIER_FILTERS],
+    regions: config.platforms.length > 1 ? ['all', ...config.platforms] : ['all'],
+    minGamesForNewPatch: config.minGamesForNewPatch,
+    ...(config.sample ? { sample: true } : {}),
+  });
+  writeJson(metaFile, json);
+
+  const uploads: PublishReport['uploads'] = {};
+  if (publicStore) {
+    for (const report of reports) if (report.aggregated) uploads[report.patch] = await uploadPatch(store, publicStore, config.outputDir, report.patch);
+    await publicStore.put('builds/meta.json', readFileSync(metaFile), JSON_HEADERS);
+    // Patches no longer published.
+    for (const key of await publicStore.list('builds/')) {
+      const patch = key.split('/')[1] ?? '';
+      if (/^\d+\.\d+$/.test(patch) && !keep.has(patch)) await publicStore.delete(key);
+    }
+    for (const m of metas) pruneForGit(config.outputDir, m.patch);
+  }
+  return { reports, meta: json, uploads };
 }
 
 // ---------- Static data for the page (localised names, descriptions, icons) ----------
@@ -158,41 +308,6 @@ export async function writeStatic(staticDir: string, version: string, ddragon = 
       });
     }
   }
-}
-
-/** meta.json + keeps only the current and previous patches (data and static files). */
-export async function writeMeta(config: Config, store: StateStore, report: AggregateReport, ddragon = new DataDragon()): Promise<MetaJson> {
-  const versions = await ddragon.versions();
-  const meta = (await getJson<PatchMeta>(store, patchMetaKey(report.patch)))!;
-  const prev = previousPatch(versions, report.patch);
-  const metaFile = join(config.outputDir, 'meta.json');
-  const old: MetaJson | null = existsSync(metaFile) ? JSON.parse(readFileSync(metaFile, 'utf8')) : null;
-  const patches = [
-    { patch: report.patch, ddragonVersion: meta.version, games: report.totals, updatedAt: new Date().toISOString() },
-    ...(old?.patches ?? []).filter((p) => p.patch === prev),
-  ];
-  const keep = new Set(patches.map((p) => p.patch));
-  for (const dir of existsSync(config.outputDir) ? readdirSync(config.outputDir) : []) {
-    if (/^\d+\.\d+$/.test(dir) && !keep.has(dir)) rmSync(join(config.outputDir, dir), { recursive: true, force: true });
-  }
-  const staticDir = join(config.outputDir, '..', 'static');
-  const keepVersions = new Set(patches.map((p) => p.ddragonVersion));
-  for (const dir of existsSync(staticDir) ? readdirSync(staticDir) : []) {
-    if (!keepVersions.has(dir)) rmSync(join(staticDir, dir), { recursive: true, force: true });
-  }
-  if (!existsSync(join(staticDir, meta.version))) await writeStatic(staticDir, meta.version, ddragon);
-
-  const json: MetaJson = metaSchema.parse({
-    current: report.patch,
-    latest: report.patch,
-    patches,
-    filters: [...TIER_FILTERS],
-    regions: config.platforms.length > 1 ? ['all', ...config.platforms] : ['all'],
-    minGamesForNewPatch: config.minGamesForNewPatch,
-    ...(config.sample ? { sample: true } : {}),
-  });
-  writeJson(metaFile, json);
-  return json;
 }
 
 export { COMMUNITY_DRAGON_PERKS };

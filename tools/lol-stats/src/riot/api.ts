@@ -89,11 +89,12 @@ export function summonerById(client: RiotClient, platform: Platform, summonerId:
   return client.get<SummonerDto>(platform, 'summoner-v4.by-id', `/lol/summoner/v4/summoners/${encodeURIComponent(summonerId)}`);
 }
 
-export function matchIds(client: RiotClient, platform: Platform, puuid: string, startTime: number, count = 100) {
+export function matchIds(client: RiotClient, platform: Platform, puuid: string, startTime: number, count = 100, start = 0) {
   return client.get<string[]>(regionOf(platform), 'match-v5.by-puuid', `/lol/match/v5/matches/by-puuid/${encodeURIComponent(puuid)}/ids`, {
     queue: RANKED_SOLO_QUEUE_ID,
     startTime,
     count,
+    ...(start ? { start } : {}),
   });
 }
 

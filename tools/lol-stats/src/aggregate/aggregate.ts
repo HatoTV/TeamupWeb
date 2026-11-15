@@ -1,4 +1,4 @@
-import { filtersForTier, type Config, type SampledTier, type TierFilter } from '../config.ts';
+import { filtersForTier, SAMPLED_TIERS, type Config, type SampledTier, type TierFilter } from '../config.ts';
 import type { GameRecord, ParticipantRecord, Role } from '../extract/game.ts';
 import { buildKey } from '../extract/purchases.ts';
 import { maxOrder } from '../extract/skills.ts';
@@ -21,8 +21,10 @@ interface ChampionRoleCounters extends WinCount {
   keys: Map<string, BuildCandidate>;
   opponents: Map<number, WinCount & { keys: Map<string, number> }>;
   mates: Map<number, WinCount>;
-  players: Map<string, WinCount & { riotId: string; platform: string; tier: SampledTier }>;
 }
+
+/** Best players are counted once per champion and role (not per scope): `games * 65536 + wins` by puuid. */
+const PACK = 65536;
 
 interface BuildDetails {
   runes: Map<string, WinCount>;
@@ -73,8 +75,6 @@ export interface AggregateInput {
   platforms: string[];
   /** Iterates every stored game of the patch (called twice). */
   games: () => AsyncIterable<GameRecord> | Iterable<GameRecord>;
-  /** Sampled tier of known players (best players' rank). */
-  playerTier: Map<string, SampledTier>;
   /** Previous patch index per scope key, for deltas. */
   previous: Map<string, IndexJson>;
   names: Names;
@@ -91,28 +91,55 @@ export interface AggregateOutput {
 export async function aggregate(input: AggregateInput): Promise<AggregateOutput> {
   const { config } = input;
   const regions = input.platforms.length > 1 ? ['all', ...input.platforms] : ['all'];
-  const scopesOf = (game: GameRecord): string[] =>
-    filtersForTier(game.tier).flatMap((filter) =>
-      regions.filter((r) => r === 'all' || r === game.platform).map((region) => scopeKey({ filter, region }))
-    );
+  const scopeCache = new Map<string, string[]>();
+  /** Scopes of a player of `tier` on `platform`: the filters of his tier, all regions and his own. */
+  const scopesOf = (tier: SampledTier, platform: string): string[] => {
+    const cacheKey = `${tier}|${platform}`;
+    let scopes = scopeCache.get(cacheKey);
+    if (!scopes) {
+      scopes = filtersForTier(tier).flatMap((filter) => regions.filter((r) => r === 'all' || r === platform).map((region) => scopeKey({ filter, region })));
+      scopeCache.set(cacheKey, scopes);
+    }
+    return scopes;
+  };
+  /**
+   * Tier of a participant: his own when he is in the collected player list (games count in the filters of each
+   * player's tier); records collected before 2026-11-15 only have the game tier.
+   */
+  const tierOfParticipant = (game: GameRecord, legacy: boolean, p: ParticipantRecord): SampledTier | undefined => p.tier ?? (legacy ? game.tier : undefined);
+  const isLegacy = (game: GameRecord) => !game.participants.some((p) => p.tier);
 
   // ---------- Pass 1: totals, bans, build candidates, opponents, duos, players ----------
+  /** Games per scope, weighted: each player of the scope counts for 1/10 of the game. */
   const totals = new Map<string, number>();
   const bans = new Map<string, Map<number, number>>();
   const counters = new Map<string, ChampionRoleCounters>();
+  /** Players of the scope in each role (`scope|ROLE`): the pick rate is a share of the role, two players per game. */
+  const roleTotals = new Map<string, number>();
+  const players = new Map<string, Map<string, number>>();
+  const playerInfo = new Map<string, { riotId: string; platform: string; tier: SampledTier }>();
 
   for await (const game of input.games()) {
-    for (const scope of scopesOf(game)) {
-      totals.set(scope, (totals.get(scope) ?? 0) + 1);
-      const banMap = bans.get(scope) ?? new Map<number, number>();
-      for (const champion of game.bans) count(banMap, champion);
-      bans.set(scope, banMap);
-
-      for (const p of game.participants) {
+    const legacy = isLegacy(game);
+    const inScope = new Map<string, number>();
+    for (const p of game.participants) {
+      const tier = tierOfParticipant(game, legacy, p);
+      if (!tier) continue;
+      if (p.puuid) {
+        const crPlayers = players.get(`${p.champion}|${p.role}`) ?? new Map<string, number>();
+        players.set(`${p.champion}|${p.role}`, crPlayers);
+        crPlayers.set(p.puuid, (crPlayers.get(p.puuid) ?? 0) + PACK + (p.win ? 1 : 0));
+        const info = playerInfo.get(p.puuid);
+        if (!info) playerInfo.set(p.puuid, { riotId: p.riotId, platform: game.platform, tier });
+        else if (p.riotId) info.riotId = p.riotId;
+      }
+      for (const scope of scopesOf(tier, game.platform)) {
+        inScope.set(scope, (inScope.get(scope) ?? 0) + 1);
+        roleTotals.set(`${scope}|${p.role}`, (roleTotals.get(`${scope}|${p.role}`) ?? 0) + 1);
         const key = crKey(scope, p.champion, p.role);
         let cr = counters.get(key);
         if (!cr) {
-          cr = { champion: p.champion, role: p.role, games: 0, wins: 0, keys: new Map(), opponents: new Map(), mates: new Map(), players: new Map() };
+          cr = { champion: p.champion, role: p.role, games: 0, wins: 0, keys: new Map(), opponents: new Map(), mates: new Map() };
           counters.set(key, cr);
         }
         cr.games++;
@@ -135,16 +162,29 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
         }
         const mate = p.mates[SYNERGY_ROLE[p.role]];
         if (mate) bump(cr.mates, mate, p.win);
-        if (p.puuid) {
-          const pl = cr.players.get(p.puuid) ?? { games: 0, wins: 0, riotId: p.riotId, platform: game.platform, tier: input.playerTier.get(p.puuid) ?? game.tier };
-          pl.games++;
-          if (p.win) pl.wins++;
-          if (p.riotId) pl.riotId = p.riotId;
-          cr.players.set(p.puuid, pl);
-        }
       }
     }
+    for (const [scope, n] of inScope) {
+      const weight = n / 10;
+      totals.set(scope, (totals.get(scope) ?? 0) + weight);
+      const banMap = bans.get(scope) ?? new Map<number, number>();
+      for (const champion of game.bans) banMap.set(champion, (banMap.get(champion) ?? 0) + weight);
+      bans.set(scope, banMap);
+    }
   }
+
+  // Best player candidates per champion and role (enough games), filtered per scope below.
+  const candidates = new Map<string, Array<{ puuid: string; games: number; wins: number }>>();
+  for (const [key, crPlayers] of players) {
+    const list: Array<{ puuid: string; games: number; wins: number }> = [];
+    for (const [puuid, packed] of crPlayers) {
+      const games = Math.floor(packed / PACK);
+      if (games >= config.minPlayerGames) list.push({ puuid, games, wins: packed % PACK });
+    }
+    if (list.length) candidates.set(key, list);
+  }
+  players.clear();
+  const tiersOfFilter = (filter: TierFilter) => new Set(SAMPLED_TIERS.filter((t) => filtersForTier(t).includes(filter)));
 
   // ---------- Build selection ----------
   const selected = new Map<string, ReturnType<typeof selectBuilds>>();
@@ -165,8 +205,11 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
   });
 
   for await (const game of input.games()) {
-    for (const scope of scopesOf(game)) {
-      for (const p of game.participants) {
+    const legacy = isLegacy(game);
+    for (const p of game.participants) {
+      const tier = tierOfParticipant(game, legacy, p);
+      if (!tier) continue;
+      for (const scope of scopesOf(tier, game.platform)) {
         const key = crKey(scope, p.champion, p.role);
         const builds = selected.get(key);
         const bk = buildKey(p.majors);
@@ -186,24 +229,26 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
   for (const [scope, total] of totals) {
     const [filter, region] = scope.split('|') as [TierFilter, string];
     const banMap = bans.get(scope)!;
+    const filterTiers = tiersOfFilter(filter);
+    const pickOf = (cr: ChampionRoleCounters) => Math.min(1, (2 * cr.games) / Math.max(1, roleTotals.get(`${scope}|${cr.role}`) ?? 0));
     const entries = [...counters.entries()].filter(([key]) => key.startsWith(`${scope}|`)).map(([key, cr]) => ({ key, cr }));
 
     // Tier per role, among champions with a meaningful sample in the role.
     const tierOf = new Map<string, TierRank>();
     for (const role of ['TOP', 'JUNGLE', 'MIDDLE', 'BOTTOM', 'UTILITY'] as const) {
       const pool = entries.filter((e) => e.cr.role === role && e.cr.games >= config.minMatchupGames);
-      const scores = tierScores(pool.map((e) => ({ wins: e.cr.wins, games: e.cr.games, pickRate: rate(e.cr.games, total), banRate: rate(banMap.get(e.cr.champion) ?? 0, total) })));
+      const scores = tierScores(pool.map((e) => ({ wins: e.cr.wins, games: e.cr.games, pickRate: pickOf(e.cr), banRate: rate(banMap.get(e.cr.champion) ?? 0, total) })));
       tierRanks(scores).forEach((rank, i) => tierOf.set(pool[i]!.key, rank));
     }
 
     const previous = input.previous.get(scope);
-    const index: IndexJson = { patch: input.patch, filter, region, totalGames: total, champions: [] };
+    const index: IndexJson = { patch: input.patch, filter, region, totalGames: Math.round(total), champions: [] };
     const byChampion = new Map<number, IndexJson['champions'][number]>();
 
     for (const { key, cr } of entries) {
       const role = siteRole(cr.role);
       const winRate = rate(cr.wins, cr.games);
-      const pickRate = rate(cr.games, total);
+      const pickRate = pickOf(cr);
       const banRate = rate(banMap.get(cr.champion) ?? 0, total);
       const tier = tierOf.get(key) ?? null;
       const lowSample = cr.games < config.lowSampleGames;
@@ -236,11 +281,12 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
           const core = best && best[1] >= 10 ? best[0].split('-').map(Number) : null;
           return { champion, games: o.games, winRate: round(rate(o.wins, o.games)), core };
         });
-      const players = [...cr.players.values()]
-        .filter((pl) => pl.games >= config.minPlayerGames && pl.riotId)
+      const best = (candidates.get(`${cr.champion}|${cr.role}`) ?? [])
+        .map((c) => ({ ...c, info: playerInfo.get(c.puuid)! }))
+        .filter((c) => c.info.riotId && filterTiers.has(c.info.tier) && (region === 'all' || c.info.platform === region))
         .sort((a, b) => wilsonLower(b.wins, b.games) - wilsonLower(a.wins, a.games))
         .slice(0, 10)
-        .map((pl) => ({ riotId: pl.riotId, platform: pl.platform, tier: pl.tier, games: pl.games, wins: pl.wins, winRate: round(rate(pl.wins, pl.games)) }));
+        .map((c) => ({ riotId: c.info.riotId, platform: c.info.platform, tier: c.info.tier, games: c.games, wins: c.wins, winRate: round(rate(c.wins, c.games)) }));
 
       const file: ChampionBuildJson = {
         patch: input.patch,
@@ -261,7 +307,7 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
         strongAgainst,
         synergy,
         vsOpponent,
-        players,
+        players: best,
         summary: { fr: '', en: '' },
       };
       file.summary = summaryTexts(file, input.names);
@@ -270,7 +316,7 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
     index.champions = [...byChampion.values()].sort((a, b) => a.champion - b.champion);
     indexes.push(index);
   }
-  return { files, indexes, totals };
+  return { files, indexes, totals: new Map([...totals].map(([scope, n]) => [scope, Math.round(n)])) };
 }
 
 function collectDetails(d: BuildDetails, p: ParticipantRecord): void {

@@ -11,7 +11,12 @@ const slugify = (s) =>
   s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 // Matchup pages of a single champion, both directions (`/:me` and `/vs/:vs`).
-const champions = JSON.parse(readFileSync(join(ROOT, 'public/assets/data/champions.json'), 'utf8')).champions.filter((c) => c.hasMatchups);
+const allChampions = JSON.parse(readFileSync(join(ROOT, 'public/assets/data/champions.json'), 'utf8')).champions;
+const champions = allChampions.filter((c) => c.hasMatchups);
+// « How to play against » advice (community tips `vs/`): the enemy page of a champion without author matchups shows it.
+const vsIndex = JSON.parse(readFileSync(join(ROOT, 'public/assets/data/community-tips/vs/index.json'), 'utf8'));
+const vsStatus = vsIndex.champions ?? vsIndex;
+const vsOnly = allChampions.filter((c) => !c.hasMatchups && vsStatus[c.ddragonId] === 'ok');
 // Champion build pages (tools/lol-stats output): every champion × role of the latest patch.
 function buildPaths() {
   const dir = join(ROOT, 'public/data/lol/builds');
@@ -21,7 +26,6 @@ function buildPaths() {
     const index = JSON.parse(readFileSync(join(dir, latest.patch, 'emerald_plus', 'index.json'), 'utf8'));
     const core = JSON.parse(readFileSync(join(ROOT, 'public/data/lol/static', latest.ddragonVersion, 'en_US', 'core.json'), 'utf8'));
     const slugByDdragon = new Map(champions.map((c) => [c.ddragonId, c.slug]));
-    const allChampions = JSON.parse(readFileSync(join(ROOT, 'public/assets/data/champions.json'), 'utf8')).champions;
     for (const c of allChampions) slugByDdragon.set(c.ddragonId, c.slug);
     return index.champions.flatMap((c) => {
       const slug = slugByDdragon.get(core.champions[c.champion]?.id);
@@ -37,6 +41,7 @@ const paths = [
   '/home',
   '/lol/matchups',
   ...champions.flatMap((c) => [`/lol/matchups/${c.slug}`, `/lol/matchups/vs/${c.slug}`]),
+  ...vsOnly.map((c) => `/lol/matchups/vs/${c.slug}`),
   '/lol/builds',
   ...buildPaths(),
   '/lol/picker',

@@ -9,9 +9,10 @@ Paquet Node 22 en TypeScript (exécuté directement par Node), indépendant d'An
 ```bash
 cd tools/lol-stats
 npm ci
-node src/cli.ts crawl       # collecte (budget de temps : LOL_STATS_BUDGET_MINUTES, 35 par défaut)
+node src/cli.ts crawl       # collecte (budget de temps : LOL_STATS_BUDGET_MINUTES, 50 par défaut)
 node src/cli.ts aggregate   # calcule les stats du patch courant et écrit public/data/lol/builds/{patch}/…
 node src/cli.ts publish     # aggregate + meta.json + données statiques, garde le patch courant et le précédent
+node src/smoke.ts           # quelques appels league-v4 et limites annoncées (échoue si ce ne sont pas celles de production)
 node src/cli.ts dev         # petit échantillon avec une clé de développement (500 parties) puis publish
 npm test                    # tests unitaires (node:test)
 npm run typecheck
@@ -23,8 +24,10 @@ La clé Riot est lue dans `tools/lol-stats/.env` (`RIOT_API_KEY=RGAPI-…`, igno
 
 | Variable | Défaut | Rôle |
 |---|---|---|
-| `LOL_STATS_PLATFORMS` | `EUW1` | Plateformes collectées, séparées par des virgules (`EUW1,KR,NA1`). Chaque région a ses propres limites et est collectée en parallèle. |
-| `LOL_STATS_BUDGET_MINUTES` | `35` | Durée maximale d'une collecte. |
+| `LOL_STATS_PLATFORMS` | plateformes activées dans `PLATFORMS` (`src/config.ts`) : `EUW1` | Plateformes collectées, séparées par des virgules (`EUW1,KR,NA1`). KR et NA1 sont prêtes mais désactivées. Chaque région a ses propres limites et est collectée en parallèle. |
+| `LOL_STATS_BUDGET_MINUTES` | `50` | Durée maximale d'une collecte. |
+| `LOL_STATS_PLAYER_CONCURRENCY` | `8` | Joueurs parcourus en même temps (4 parties en parallèle par joueur) ; le limiteur garde le rythme. |
+| `LOL_STATS_FLUSH_GAMES`, `LOL_STATS_FLUSH_MINUTES` | `1000`, `5` | Sauvegarde de l'état (R2) toutes les 1 000 nouvelles parties ou toutes les 5 min. |
 | `LOL_STATS_MAX_GAMES` | `0` | Plafond de nouvelles parties par collecte (0 = budget seul). |
 | `LOL_STATS_PAGES_PER_DIVISION` | `5` | Pages de 205 joueurs échantillonnées par division Diamant / Émeraude. |
 | `LOL_STATS_MIN_BUILD_GAMES` | `100` | Seuil minimal d'un build candidat (avec 3 % des parties du champion dans le rôle). |
@@ -83,3 +86,9 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
 - `public/data/lol/static/{version}/{fr_FR|en_US}/core.json` et `champions/{Id}.json` : noms, descriptions et icônes Data Dragon dans la langue de la page.
 
 Avec plusieurs plateformes, des fichiers par plateforme sont ajoutés sous `{palier}/{PLATEFORME}/`. Seuls le patch courant et le précédent sont conservés.
+
+## Workflow GitHub (`.github/workflows/lol-stats.yml`)
+
+- Quotidien à 05:17 UTC, budget de 50 min : collecte, publication, `tools/sync-champions.mjs`, `detect-reworks` (au premier passage d'un nouveau patch), commit et Deploy Hook Vercel.
+- Manuel (`workflow_dispatch`) : `mode` = `full`, `crawl` (collecte seule), `publish` (agrégation et publication seules) ou `smoke` (clé et limites), `budget_minutes` (330 au plus : un job GitHub dure 6 h maximum), `platforms`.
+- Une erreur Riot passagère (5xx ou 429 après les nouvelles tentatives) saute la partie ou le joueur ; 401 / 403 arrêtent la collecte.

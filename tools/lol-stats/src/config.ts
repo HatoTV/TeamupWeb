@@ -24,6 +24,18 @@ export function filtersForTier(tier: SampledTier): TierFilter[] {
   return filters;
 }
 
+/**
+ * Platforms the collector knows. Only the enabled ones are crawled by default (`LOL_STATS_PLATFORMS`
+ * overrides the list). Each platform has its own Riot limits (500 requests / 10 s, 30 000 / 10 min with the
+ * production key); KR and NA1 are ready but disabled until the GitHub Actions budget allows them.
+ */
+export const PLATFORMS: Readonly<Record<'EUW1' | 'KR' | 'NA1', { enabled: boolean }>> = {
+  EUW1: { enabled: true },
+  KR: { enabled: false },
+  NA1: { enabled: false },
+};
+export const DEFAULT_PLATFORMS = (Object.keys(PLATFORMS) as Platform[]).filter((p) => PLATFORMS[p as keyof typeof PLATFORMS].enabled);
+
 export interface Config {
   apiKey: string;
   platforms: Platform[];
@@ -31,6 +43,12 @@ export interface Config {
   pagesPerDivision: number;
   /** Wall-clock budget of one crawl, in minutes. */
   budgetMinutes: number;
+  /** Players crawled at the same time, and games fetched at the same time per player. */
+  playerConcurrency: number;
+  matchConcurrency: number;
+  /** The state is saved to R2 every `flushGames` new games or every `flushMinutes`, whichever comes first. */
+  flushGames: number;
+  flushMinutes: number;
   /** Maximum number of new games fetched by one crawl (0 = unlimited, budget only). */
   maxGames: number;
   /** Games shorter than this are ignored (remakes, early surrenders). */
@@ -60,9 +78,13 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
   const env = process.env;
   return {
     apiKey: env.RIOT_API_KEY ?? '',
-    platforms: (env.LOL_STATS_PLATFORMS ?? 'EUW1').split(',').map((p) => p.trim().toUpperCase()) as Platform[],
+    platforms: (env.LOL_STATS_PLATFORMS || DEFAULT_PLATFORMS.join(',')).split(',').map((p) => p.trim().toUpperCase()).filter(Boolean) as Platform[],
     pagesPerDivision: num(env.LOL_STATS_PAGES_PER_DIVISION, 5),
-    budgetMinutes: num(env.LOL_STATS_BUDGET_MINUTES, 35),
+    budgetMinutes: num(env.LOL_STATS_BUDGET_MINUTES, 50),
+    playerConcurrency: num(env.LOL_STATS_PLAYER_CONCURRENCY, 8),
+    matchConcurrency: 4,
+    flushGames: num(env.LOL_STATS_FLUSH_GAMES, 1000),
+    flushMinutes: num(env.LOL_STATS_FLUSH_MINUTES, 5),
     maxGames: num(env.LOL_STATS_MAX_GAMES, 0),
     minGameSeconds: 15 * 60,
     minBuildGames: num(env.LOL_STATS_MIN_BUILD_GAMES, 100),

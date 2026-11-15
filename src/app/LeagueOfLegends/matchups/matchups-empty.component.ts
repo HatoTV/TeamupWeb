@@ -38,7 +38,7 @@ export class MatchupsEmptyComponent {
   private readonly combo = viewChild.required(ChampionComboboxComponent);
   private readonly grid = viewChild<ElementRef<HTMLElement>>('grid');
 
-  protected readonly pickable = computed(() => this.options().filter((o) => o.champion.hasMatchups));
+  protected readonly pickable = this.options;
   protected readonly champions = computed(() => {
     const allowed = new Set(pickableChampions(this.pickable().map((o) => o.champion), this.role()).map((c) => c.slug));
     return this.pickable().filter((o) => allowed.has(o.champion.slug));

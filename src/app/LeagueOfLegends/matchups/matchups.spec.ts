@@ -95,8 +95,8 @@ describe('matchup data', () => {
     ]);
   });
 
-  it('keeps champions with matchups, optionally for one role', () => {
-    expect(pickableChampions(all, null).length).toBe(5);
-    expect(pickableChampions(all, 'top').map((c) => c.name)).toEqual(['Yasuo']);
+  it('keeps every champion, also without matchups, optionally for one role', () => {
+    expect(pickableChampions(all, null).length).toBe(6);
+    expect(pickableChampions(all, 'top').map((c) => c.name)).toEqual(['Yasuo', 'Teemo']);
   });
 });

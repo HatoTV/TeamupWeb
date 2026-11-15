@@ -21,7 +21,8 @@ export class CommunityTipsComponent {
   private readonly ctx = inject(RouteContextService);
   private readonly service = inject(CommunityTipsService);
 
-  readonly me = input.required<Champion>();
+  /** Champion played; null on an enemy page: only the « how to play against {vs} » advice is shown. */
+  readonly me = input<Champion | null>(null);
   readonly vs = input.required<Champion>();
 
   /** undefined while loading, null when the pair has no file. */
@@ -32,7 +33,7 @@ export class CommunityTipsComponent {
   protected readonly lang = computed<'fr' | 'en'>(() => (this.ctx.lang() === 'fr' ? 'fr' : 'en'));
 
   /** Tips of the selected champion's perspective, in display order ([] when that side has too few). */
-  protected readonly tips = computed<CommunityTip[]>(() => sideTips(this.file(), this.me().ddragonId, this.lang()));
+  protected readonly tips = computed<CommunityTip[]>(() => sideTips(this.file(), this.me()?.ddragonId ?? null, this.lang()));
   /** Tips against the opponent whatever the champion played. */
   protected readonly general = computed<CommunityTip[]>(() => vsTips(this.vsFile(), this.lang()));
   protected readonly loading = computed(() => this.file() === undefined || this.vsFile() === undefined);
@@ -44,13 +45,13 @@ export class CommunityTipsComponent {
 
   constructor() {
     effect(() => {
-      const a = this.me().ddragonId;
+      const a = this.me()?.ddragonId;
       const b = this.vs().ddragonId;
       untracked(() => {
         this.file.set(undefined);
         this.vsFile.set(undefined);
         // Ignore late answers for a previous selection.
-        const current = () => this.me().ddragonId === a && this.vs().ddragonId === b;
+        const current = () => this.me()?.ddragonId === a && this.vs().ddragonId === b;
         if (!a || !b) this.file.set(null);
         else void this.service.load(a, b).then((file) => current() && this.file.set(file));
         if (!b) this.vsFile.set(null);

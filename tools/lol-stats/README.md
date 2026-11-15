@@ -25,12 +25,12 @@ La clé Riot est lue dans `tools/lol-stats/.env` (`RIOT_API_KEY=RGAPI-…`, igno
 
 | Variable | Défaut | Rôle |
 |---|---|---|
-| `LOL_STATS_PLATFORMS` | plateformes activées dans `PLATFORMS` (`src/config.ts`) : `EUW1` | Plateformes collectées, séparées par des virgules (`EUW1,KR,NA1`). KR et NA1 sont prêtes mais désactivées. Chaque région a ses propres limites et est collectée en parallèle. |
-| `LOL_STATS_BUDGET_MINUTES` | `50` | Durée maximale d'une collecte. |
-| `LOL_STATS_PLAYER_CONCURRENCY` | `8` | Joueurs parcourus en même temps (4 parties en parallèle par joueur) ; le limiteur garde le rythme. |
+| `LOL_STATS_PLATFORMS` | plateformes activées dans `PLATFORMS` (`src/config.ts`) : `EUW1,KR,NA1` | Plateformes collectées, séparées par des virgules. Chaque région a ses propres limites et est collectée en parallèle. |
+| `LOL_STATS_BUDGET_MINUTES` | `50` (workflow : 330 ou 240) | Durée maximale d'une collecte. |
+| `LOL_STATS_PLAYER_CONCURRENCY` | `16` | Joueurs parcourus en même temps (4 parties en parallèle par joueur) ; le limiteur garde le rythme (45 appels/s par région). |
 | `LOL_STATS_FLUSH_GAMES`, `LOL_STATS_FLUSH_MINUTES` | `1000`, `5` | Sauvegarde de l'état (R2) toutes les 1 000 nouvelles parties ou toutes les 5 min. |
 | `LOL_STATS_MAX_GAMES` | `0` | Plafond de nouvelles parties par collecte (0 = budget seul). |
-| `LOL_STATS_PAGES_PER_DIVISION` | `5` | Pages de 205 joueurs échantillonnées par division Diamant / Émeraude. |
+| `LOL_STATS_PAGES_PER_DIVISION` | `0` | Pages de 205 joueurs par division Diamant / Émeraude (0 = toutes : collecte complète). |
 | `LOL_STATS_MIN_BUILD_GAMES`, `LOL_STATS_MIN_BUILD_SHARE` | `50`, `0.03` | Seuil des 3 builds les plus joués : `max(50 parties, 3 % des parties du champion dans le rôle)`. |
 | `LOL_STATS_OFF_META_MIN_SHARE`, `LOL_STATS_OFF_META_MAX_SHARE`, `LOL_STATS_OFF_META_MIN_GAMES` | `0.005`, `0.03`, `30` | Build OFF-META : entre 0,5 % et 3 % des parties, au moins 30 parties. |
 | `LOL_STATS_ALT_MIN_SHARE` | `0.08` | Part minimale d'une alternative à son emplacement (4ᵉ à 6ᵉ objet). |
@@ -47,16 +47,18 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
 
 ## Données
 
-1. **Joueurs** : tous les Challenger, Grand Maître et Maître, plus un échantillon de Diamant I-IV et Émeraude I-IV. La liste est rafraîchie une fois par jour et parcourue en rotation.
-2. **Parties** : classées solo (`queue=420`) depuis le début du patch. Elles sont dédoublonnées, et seules sont gardées les parties du patch d'au moins 15 minutes, sans reddition anticipée. Le palier d'une partie est le plus bas des joueurs échantillonnés qui y figurent.
+1. **Joueurs** : collecte complète, sur EUW1, KR et NA1 : tous les Challenger, Grand Maître et Maître, et toutes les pages Diamant I-IV et Émeraude I-IV (environ 690 000 joueurs sur EUW1, 620 000 sur KR, 290 000 sur NA1 en novembre 2026). La liste est rafraîchie une fois par jour (`players/{PLATEFORME}.tsv.gz`) et parcourue en rotation : chaque joueur est consulté une fois par passe, en demandant les parties depuis le début de la passe précédente (`rotation/{PLATEFORME}.json`) ; la première passe remonte au début du patch précédent.
+2. **Parties** : classées solo (`queue=420`) du patch courant et du patch précédent, chacune rangée sous son propre patch. Elles sont dédoublonnées, et seules sont gardées les parties d'au moins 15 minutes, sans reddition anticipée. Chaque joueur de la liste garde son palier dans l'enregistrement : ses parties comptent dans les filtres de son palier (les enregistrements antérieurs au 2026-11-15 n'ont que le palier de la partie, le plus bas des joueurs connus).
 3. **Extraction compacte par participant** (le JSON brut n'est jamais stocké) :
    - champion, rôle, victoire, adversaire de lane, coéquipiers ;
    - runes complètes, paire de sorts ;
    - ordre d'achat reconstruit depuis la timeline (annulations, reventes et composants gérés), puis phases d'objets : départ (< 1:30), premiers achats, objets majeurs, bottes de niveau 2 ;
    - ordre des compétences.
-4. **État** (hors Git) : enregistrements de parties en JSONL compressé et IDs déjà traités, par patch. Un nouveau patch ouvre un nouvel état sans effacer l'ancien.
+4. **État** (bucket R2 privé `R2_BUCKET`, hors Git : il contient les identifiants des joueurs et n'est jamais public) : enregistrements de parties en JSONL compressé et IDs déjà traités, par patch, liste des joueurs, rotation, manifestes de publication.
 
 ## Calculs
+
+- **Pondération par joueur** : une partie compte pour 1/10 dans un filtre par joueur de ce filtre. Le taux de pick est la part du champion parmi les joueurs du rôle dans le filtre, × 2 (deux joueurs par rôle et par partie), plafonnée à 1.
 
 - **Taux** :
   - victoire = victoires / parties ;
@@ -83,15 +85,17 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
 
 ## Sorties
 
-- `public/data/lol/builds/{patch}/{palier}/{ChampionId}_{rôle}.json` : un fichier par champion et rôle (identifiants seulement, < 30 Ko, validé par `zod`). Paliers : `emerald_plus`, `diamond_plus`, `master_plus`, `grandmaster_plus`, `challenger`.
+- `builds/{patch}/{filtre}[/{PLATEFORME}]/{ChampionId}_{rôle}.json` : un fichier par champion et rôle (identifiants seulement, < 30 Ko, validé par `zod`). Filtres « et au-dessus » : `emerald_plus`, `diamond_plus`, `master_plus`, `grandmaster_plus`, `challenger` ; rang exact : `emerald`, `diamond`, `master`, `grandmaster`.
 - `public/data/lol/builds/{patch}/{palier}/index.json` : champions, rôles, tier, taux.
 - `public/data/lol/builds/meta.json` : patchs disponibles, date de mise à jour, parties par palier.
 - `public/data/lol/static/{version}/{fr_FR|en_US}/core.json` et `champions/{Id}.json` : noms, descriptions et icônes Data Dragon dans la langue de la page.
 
-Avec plusieurs plateformes, des fichiers par plateforme sont ajoutés sous `{palier}/{PLATEFORME}/`. Seuls le patch courant et le précédent sont conservés.
+Avec plusieurs plateformes, des fichiers par plateforme sont ajoutés sous `{filtre}/{PLATEFORME}/`. Le patch courant et le précédent sont publiés ; un patch sans nouvelle partie depuis la dernière publication n'est pas réagrégé, sauf si le format des fichiers a changé (`FORMAT` dans `src/publish.ts`).
+
+**Hébergement** : tous les fichiers `builds/` vont dans le bucket R2 public `R2_PUBLIC_BUCKET` (variable du dépôt ; seuls les fichiers modifiés sont envoyés, d'après un manifeste de hachages). Git ne garde que `{patch}/emerald_plus/*.json` (toutes régions), `meta.json` et les données statiques, nécessaires au prérendu. Vercel sert le reste via la réécriture `/data/lol/builds/:path*` vers l'URL publique du bucket (`vercel.json`) : un fichier présent dans le déploiement est servi en priorité.
 
 ## Workflow GitHub (`.github/workflows/lol-stats.yml`)
 
-- Quotidien à 05:17 UTC, budget de 50 min : collecte, publication, `tools/sync-champions.mjs`, `detect-reworks` (au premier passage d'un nouveau patch), commit et Deploy Hook Vercel.
-- Manuel (`workflow_dispatch`) : `mode` = `full`, `crawl` (collecte seule), `publish` (agrégation et publication seules) ou `smoke` (clé et limites), `budget_minutes` (330 au plus : un job GitHub dure 6 h maximum), `platforms`.
+- 00:17 UTC : collecte de 5 h 30. 12:17 UTC : collecte de 4 h, puis publication des deux patchs, `tools/sync-champions.mjs`, `detect-reworks` au premier passage d'un nouveau patch, commit (sous l'identité du propriétaire, pour que Vercel déploie) et Deploy Hook Vercel. Environ 10 h de runner par jour : les runs planifiés ne démarrent que si le dépôt est public (minutes gratuites).
+- Manuel (`workflow_dispatch`) : `mode` = `full`, `crawl`, `publish`, `smoke` (clé et limites) ou `count` (joueurs par palier et par région), `budget_minutes` (330 au plus), `platforms`.
 - Une erreur Riot passagère (5xx ou 429 après les nouvelles tentatives) saute la partie ou le joueur ; 401 / 403 arrêtent la collecte.

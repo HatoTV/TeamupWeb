@@ -33,6 +33,8 @@ export interface ParticipantRecord {
   fullBuild: number[];
   /** Slots 1–4 for levels 1 to 18, e.g. "131213…". */
   skills: string;
+  /** Ranked tier of the player when he is in the collected player list (absent in records before 2026-11-15). */
+  tier?: SampledTier;
 }
 
 export interface GameRecord {
@@ -48,11 +50,14 @@ export interface GameRecord {
 }
 
 export interface ExtractOptions {
-  patch: string;
+  /** Patches kept (current and previous); the record gets the game's own patch. */
+  patches: readonly string[];
   platform: string;
   tier: SampledTier;
   catalog: ItemCatalog;
   minDurationS: number;
+  /** Tier of a collected player. */
+  tierOf?: (puuid: string) => SampledTier | undefined;
 }
 
 export type SkipReason = 'queue' | 'patch' | 'short' | 'positions';
@@ -76,7 +81,8 @@ function runesOf(p: ParticipantDto): number[] {
 export function extractGame(match: MatchDto, timeline: TimelineDto, options: ExtractOptions): GameRecord | SkipReason {
   const { info } = match;
   if (info.queueId !== RANKED_SOLO_QUEUE_ID) return 'queue';
-  if (!isGameInPatch(info.gameVersion, options.patch)) return 'patch';
+  const patch = options.patches.find((p) => isGameInPatch(info.gameVersion, p));
+  if (!patch) return 'patch';
   if (info.gameDuration < options.minDurationS || info.participants.some((p) => p.gameEndedInEarlySurrender)) return 'short';
   const positioned = info.participants.filter((p) => (ROLES as readonly string[]).includes(p.teamPosition));
   if (positioned.length !== 10) return 'positions';
@@ -107,6 +113,7 @@ export function extractGame(match: MatchDto, timeline: TimelineDto, options: Ext
       boots: phases.boots,
       fullBuild: phases.fullBuild,
       skills: skillOrder(events, p.participantId),
+      ...(tierOfPlayer(options, p.puuid) ? { tier: tierOfPlayer(options, p.puuid) } : {}),
     };
   });
 
@@ -115,10 +122,12 @@ export function extractGame(match: MatchDto, timeline: TimelineDto, options: Ext
   return {
     id: match.metadata.matchId,
     platform: options.platform,
-    patch: options.patch,
+    patch,
     tier: options.tier,
     durationS: info.gameDuration,
     bans,
     participants,
   };
 }
+
+const tierOfPlayer = (options: ExtractOptions, puuid: string) => (puuid ? options.tierOf?.(puuid) : undefined);

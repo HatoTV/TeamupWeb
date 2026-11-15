@@ -104,8 +104,21 @@
     <label class="select">
       <span class="sr-only">{{ 'BUILDS.RANK' | translate }}</span>
       <select [value]="filter()" (change)="setQuery({ rank: $any($event.target).value, build: null })">
-        @for (f of filters(); track f) {
-          <option [value]="f" [selected]="f === filter()">{{ 'BUILDS.FILTERS.' + f | translate }}</option>
+        <optgroup [label]="'BUILDS.FILTER_GROUP_PLUS' | translate">
+          @for (f of filters(); track f) {
+            @if (!isExact(f)) {
+              <option [value]="f" [selected]="f === filter()">{{ 'BUILDS.FILTERS.' + f | translate }}</option>
+            }
+          }
+        </optgroup>
+        @if (hasExact()) {
+          <optgroup [label]="'BUILDS.FILTER_GROUP_EXACT' | translate">
+            @for (f of filters(); track f) {
+              @if (isExact(f)) {
+                <option [value]="f" [selected]="f === filter()">{{ 'BUILDS.FILTERS.' + f | translate }}</option>
+              }
+            }
+          </optgroup>
         }
       </select>
     </label>

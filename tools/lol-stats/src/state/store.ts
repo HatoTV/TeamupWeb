@@ -8,7 +8,8 @@ import { gunzipSync, gzipSync } from 'node:zlib';
  */
 export interface StateStore {
   get(key: string): Promise<Buffer | null>;
-  put(key: string, body: Buffer): Promise<void>;
+  /** `headers` (Content-Type, Cache-Control) are kept by R2 and served with the object. */
+  put(key: string, body: Buffer, headers?: Record<string, string>): Promise<void>;
   /** Keys under a prefix, sorted. */
   list(prefix: string): Promise<string[]>;
   delete(key: string): Promise<void>;

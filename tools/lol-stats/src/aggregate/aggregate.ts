@@ -1,4 +1,4 @@
-import { filtersForTier, type Config, type TierFilter } from '../config.ts';
+import { filtersForTier, type Config, type SampledTier, type TierFilter } from '../config.ts';
 import type { GameRecord, ParticipantRecord, Role } from '../extract/game.ts';
 import type { ExclusiveGroups } from '../extract/items.ts';
 import { maxOrder } from '../extract/skills.ts';
@@ -94,24 +94,41 @@ export interface AggregateOutput {
 export async function aggregate(input: AggregateInput): Promise<AggregateOutput> {
   const { config } = input;
   const regions = input.platforms.length > 1 ? ['all', ...input.platforms] : ['all'];
-  const scopesOf = (game: GameRecord): string[] =>
-    filtersForTier(game.tier).flatMap((filter) =>
-      regions.filter((r) => r === 'all' || r === game.platform).map((region) => scopeKey({ filter, region }))
-    );
+  const scopeCache = new Map<string, string[]>();
+  /** Scopes of a player of `tier` on `platform`: the filters of his tier, all regions and his own. */
+  const scopesOf = (tier: SampledTier, platform: string): string[] => {
+    const cacheKey = `${tier}|${platform}`;
+    let scopes = scopeCache.get(cacheKey);
+    if (!scopes) {
+      scopes = filtersForTier(tier).flatMap((filter) => regions.filter((r) => r === 'all' || r === platform).map((region) => scopeKey({ filter, region })));
+      scopeCache.set(cacheKey, scopes);
+    }
+    return scopes;
+  };
+  /**
+   * Tier of a participant: his own when he is in the collected player list (games count in the filters of each
+   * player's tier); records collected before 2026-11-15 only have the game tier.
+   */
+  const tierOfParticipant = (game: GameRecord, legacy: boolean, p: ParticipantRecord): SampledTier | undefined => p.tier ?? (legacy ? game.tier : undefined);
+  const isLegacy = (game: GameRecord) => !game.participants.some((p) => p.tier);
 
   // ---------- Pass 1: totals, bans, build candidates, opponents, duos ----------
+  /** Games per scope, weighted: each player of the scope counts for 1/10 of the game. */
   const totals = new Map<string, number>();
   const bans = new Map<string, Map<number, number>>();
   const counters = new Map<string, ChampionRoleCounters>();
+  /** Players of the scope in each role (`scope|ROLE`): the pick rate is a share of the role, two players per game. */
+  const roleTotals = new Map<string, number>();
 
   for await (const game of input.games()) {
-    for (const scope of scopesOf(game)) {
-      totals.set(scope, (totals.get(scope) ?? 0) + 1);
-      const banMap = bans.get(scope) ?? new Map<number, number>();
-      for (const champion of game.bans) count(banMap, champion);
-      bans.set(scope, banMap);
-
-      for (const p of game.participants) {
+    const legacy = isLegacy(game);
+    const inScope = new Map<string, number>();
+    for (const p of game.participants) {
+      const tier = tierOfParticipant(game, legacy, p);
+      if (!tier) continue;
+      for (const scope of scopesOf(tier, game.platform)) {
+        inScope.set(scope, (inScope.get(scope) ?? 0) + 1);
+        roleTotals.set(`${scope}|${p.role}`, (roleTotals.get(`${scope}|${p.role}`) ?? 0) + 1);
         const key = crKey(scope, p.champion, p.role);
         let cr = counters.get(key);
         if (!cr) {
@@ -135,6 +152,13 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
         if (mate) bump(cr.mates, mate, p.win);
       }
     }
+    for (const [scope, n] of inScope) {
+      const weight = n / 10;
+      totals.set(scope, (totals.get(scope) ?? 0) + weight);
+      const banMap = bans.get(scope) ?? new Map<number, number>();
+      for (const champion of game.bans) banMap.set(champion, (banMap.get(champion) ?? 0) + weight);
+      bans.set(scope, banMap);
+    }
   }
 
   // ---------- Build selection ----------
@@ -155,8 +179,11 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
   });
 
   for await (const game of input.games()) {
-    for (const scope of scopesOf(game)) {
-      for (const p of game.participants) {
+    const legacy = isLegacy(game);
+    for (const p of game.participants) {
+      const tier = tierOfParticipant(game, legacy, p);
+      if (!tier) continue;
+      for (const scope of scopesOf(tier, game.platform)) {
         const key = crKey(scope, p.champion, p.role);
         const builds = selected.get(key);
         const bk = buildKey(p);
@@ -176,24 +203,25 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
   for (const [scope, total] of totals) {
     const [filter, region] = scope.split('|') as [TierFilter, string];
     const banMap = bans.get(scope)!;
+    const pickOf = (cr: ChampionRoleCounters) => Math.min(1, (2 * cr.games) / Math.max(1, roleTotals.get(`${scope}|${cr.role}`) ?? 0));
     const entries = [...counters.entries()].filter(([key]) => key.startsWith(`${scope}|`)).map(([key, cr]) => ({ key, cr }));
 
     // Tier per role, among champions with a meaningful sample in the role.
     const tierOf = new Map<string, TierRank>();
     for (const role of ['TOP', 'JUNGLE', 'MIDDLE', 'BOTTOM', 'UTILITY'] as const) {
       const pool = entries.filter((e) => e.cr.role === role && e.cr.games >= config.minMatchupGames);
-      const scores = tierScores(pool.map((e) => ({ wins: e.cr.wins, games: e.cr.games, pickRate: rate(e.cr.games, total), banRate: rate(banMap.get(e.cr.champion) ?? 0, total) })));
+      const scores = tierScores(pool.map((e) => ({ wins: e.cr.wins, games: e.cr.games, pickRate: pickOf(e.cr), banRate: rate(banMap.get(e.cr.champion) ?? 0, total) })));
       tierRanks(scores).forEach((rank, i) => tierOf.set(pool[i]!.key, rank));
     }
 
     const previous = input.previous.get(scope);
-    const index: IndexJson = { patch: input.patch, filter, region, totalGames: total, champions: [] };
+    const index: IndexJson = { patch: input.patch, filter, region, totalGames: Math.round(total), champions: [] };
     const byChampion = new Map<number, IndexJson['champions'][number]>();
 
     for (const { key, cr } of entries) {
       const role = siteRole(cr.role);
       const winRate = rate(cr.wins, cr.games);
-      const pickRate = rate(cr.games, total);
+      const pickRate = pickOf(cr);
       const banRate = rate(banMap.get(cr.champion) ?? 0, total);
       const tier = tierOf.get(key) ?? null;
       const lowSample = cr.games < config.lowSampleGames;
@@ -245,7 +273,7 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
     index.champions = [...byChampion.values()].sort((a, b) => a.champion - b.champion);
     indexes.push(index);
   }
-  return { files, indexes, totals };
+  return { files, indexes, totals: new Map([...totals].map(([scope, n]) => [scope, Math.round(n)])) };
 }
 
 function collectDetails(d: BuildDetails, p: ParticipantRecord): void {

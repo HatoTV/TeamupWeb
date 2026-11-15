@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, effect, inject, signal, untracked } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
-import { BUILD_FILTERS, BuildDataService, BuildFilter, BuildIndex, BuildMeta, StaticCore, TierRank } from '../../core/data/build-data.service';
+import { BUILD_FILTERS, EXACT_FILTERS, BuildDataService, BuildFilter, BuildIndex, BuildMeta, StaticCore, TierRank } from '../../core/data/build-data.service';
 import { ChampionDataService, Role } from '../../core/data/champion-data.service';
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
@@ -57,6 +57,8 @@ export class BuildsListComponent {
     return list.length ? list : [BUILD_FILTERS[0]];
   });
   protected readonly defaultFilter = computed(() => this.filters()[0]!);
+  protected readonly isExact = (f: string) => EXACT_FILTERS.includes(f);
+  protected readonly hasExact = computed(() => this.filters().some((f) => EXACT_FILTERS.includes(f)));
   protected readonly filter = computed<BuildFilter>(() => (isBuildFilter(this.rank(), this.filters()) ? this.rank()! : this.defaultFilter()));
   protected readonly role = signal<Role | null>(null);
   protected readonly sort = signal<{ key: SortKey; dir: 1 | -1 }>({ key: 'tier', dir: 1 });

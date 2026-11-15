@@ -16,6 +16,9 @@ describe('build utils', () => {
     expect(rankFilters(meta({ ...masterOnly, 'emerald_plus|all': 9000 }))).toEqual(['emerald_plus', 'master_plus', 'grandmaster_plus', 'challenger']);
     expect(rankFilters(meta({ ...masterOnly, 'challenger|all': 0 }))).toEqual(['master_plus', 'grandmaster_plus']);
     expect(rankFilters(null)).toEqual([]);
+    const withExact = meta({ ...masterOnly, 'emerald_plus|all': 9000, 'emerald|all': 3601, 'master|all': 5213, 'diamond|all': 0 });
+    withExact.filters = ['emerald_plus', 'diamond_plus', 'master_plus', 'grandmaster_plus', 'challenger', 'emerald', 'diamond', 'master', 'grandmaster'];
+    expect(rankFilters(withExact)).toEqual(['emerald_plus', 'master_plus', 'grandmaster_plus', 'challenger', 'emerald', 'master']);
   });
 
   it('formats rates, deltas and timings in both languages', () => {

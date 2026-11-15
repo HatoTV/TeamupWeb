@@ -2,8 +2,8 @@ import type { Config, SampledTier } from './config.ts';
 import { DataDragon } from './ddragon.ts';
 import { extractGame, type GameRecord, type SkipReason } from './extract/game.ts';
 import { buildItemCatalog, type ItemCatalog } from './extract/items.ts';
-import { currentPatch } from './patch.ts';
-import { countByTier, loadPlayers, lowerTier, playersKey, type PlayerList } from './players.ts';
+import { currentPatch, patchOf, previousPatch } from './patch.ts';
+import { countByTier, loadPlayers, loadRotation, lowerTier, rotationKey } from './players.ts';
 import { match as fetchMatch, matchIds, timeline as fetchTimeline } from './riot/api.ts';
 import { RiotApiError, type RiotClient } from './riot/client.ts';
 import type { Platform } from './riot/routing.ts';
@@ -18,65 +18,108 @@ export interface PatchMeta {
 }
 
 export interface CrawlReport {
+  /** Current patch. */
   patch: string;
   platform: Platform;
   players: Record<SampledTier, number>;
   playersCrawled: number;
   newGames: number;
-  skipped: Partial<Record<SkipReason | 'missing' | 'error', number>>;
+  /** New games per patch (current and previous). */
+  newGamesByPatch: Record<string, number>;
+  skipped: Partial<Record<SkipReason | 'missing' | 'error' | 'newer', number>>;
   requests: number;
   rateLimited: number;
   minutes: number;
+  /** Rotation state at the end of the run. */
+  passes: number;
+  cursor: number;
 }
 
 export const patchMetaKey = (patch: string) => `${patch}/meta.json`;
 export const seenKey = (patch: string, platform: Platform) => `${patch}/seen-${platform}.txt.gz`;
 export const gamesPrefix = (patch: string) => `${patch}/games/`;
 
-/** Current patch from Data Dragon; a new patch opens a new state without touching the previous one. */
-export async function resolvePatch(store: StateStore, ddragon: DataDragon, now = Date.now()): Promise<PatchMeta> {
-  const { patch, version } = currentPatch(await ddragon.versions());
+/** `16.9` < `16.22`. */
+export const comparePatches = (a: string, b: string) => {
+  const [am, an] = a.split('.').map(Number);
+  const [bm, bn] = b.split('.').map(Number);
+  return am! - bm! || an! - bn!;
+};
+
+/** Meta of a patch, created on first sight; a new patch opens a new state without touching the others. */
+async function patchMeta(store: StateStore, patch: string, version: string, now: number): Promise<PatchMeta> {
   const existing = await getJson<PatchMeta>(store, patchMetaKey(patch));
   if (existing) return existing;
-  // Games of the new patch can only be a few days old when we first see it.
   const meta: PatchMeta = { patch, version, startTime: Math.floor(now / 1000) - 3 * 86400, firstSeenAt: now };
   await putJson(store, patchMetaKey(patch), meta);
   return meta;
 }
 
-/** Runs `worker` over `items` with at most `concurrency` in flight; stops early when `shouldStop()`. */
-async function pool<T>(items: readonly T[], concurrency: number, worker: (item: T) => Promise<void>, shouldStop: () => boolean): Promise<void> {
-  let next = 0;
-  const run = async () => {
-    while (next < items.length && !shouldStop()) await worker(items[next++]!);
-  };
-  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, run));
+/** Current patch (Data Dragon) and the previous one: both are collected and published. */
+export async function resolvePatches(store: StateStore, ddragon: DataDragon, now = Date.now()): Promise<{ current: PatchMeta; previous: PatchMeta | null }> {
+  const versions = await ddragon.versions();
+  const { patch, version } = currentPatch(versions);
+  const current = await patchMeta(store, patch, version, now);
+  const prev = previousPatch(versions, patch);
+  const prevVersion = prev ? versions.find((v) => /^\d+\.\d+\./.test(v) && patchOf(v) === prev) : undefined;
+  // The previous patch is older than the current one: never newer in `firstSeenAt`.
+  const previous = prev && prevVersion ? await patchMeta(store, prev, prevVersion, Math.min(now, current.firstSeenAt - 1)) : null;
+  return { current, previous };
+}
+
+/** Current patch only. */
+export async function resolvePatch(store: StateStore, ddragon: DataDragon, now = Date.now()): Promise<PatchMeta> {
+  return (await resolvePatches(store, ddragon, now)).current;
 }
 
 export interface CrawlDeps {
   client: RiotClient;
+  /** One client per platform (own limiter and request counts); `client` otherwise. */
+  clientFor?: (platform: Platform) => RiotClient;
   store: StateStore;
   ddragon?: DataDragon;
   catalog?: ItemCatalog;
   now?: () => number;
 }
 
-/** Crawls one platform until the time budget or the game cap is reached, then saves the new games. */
-export async function crawlPlatform(platform: Platform, meta: PatchMeta, config: Config, deps: CrawlDeps, deadline: number): Promise<CrawlReport> {
+const MAX_ID_PAGES = 10;
+
+/**
+ * Crawls one platform until the time budget is reached or every player has been looked up once in this run.
+ * Players are looked up in rotation; each lookup asks for the games since the start of the previous pass
+ * (first pass: current and previous patch). Games of both patches are kept, each under its own patch.
+ */
+export async function crawlPlatform(
+  platform: Platform,
+  patches: { current: PatchMeta; previous: PatchMeta | null },
+  config: Config,
+  deps: CrawlDeps,
+  deadline: number
+): Promise<CrawlReport> {
   const now = deps.now ?? Date.now;
   const started = now();
   const { client, store } = deps;
+  const { current, previous } = patches;
+  const kept = [current.patch, ...(previous ? [previous.patch] : [])];
   const ddragon = deps.ddragon ?? new DataDragon();
-  const catalog = deps.catalog ?? buildItemCatalog((await ddragon.items(meta.version)).data);
+  const catalog = deps.catalog ?? buildItemCatalog((await ddragon.items(current.version)).data);
   const requestsBefore = client.stats.requests;
   const rateLimitedBefore = client.stats.rateLimited;
 
-  const list: PlayerList = await loadPlayers(client, store, platform, config.pagesPerDivision, now());
+  const list = await loadPlayers(client, store, platform, config.pagesPerDivision, now());
+  const rotation = await loadRotation(store, platform, now());
+  if (rotation.cursor >= list.players.length) rotation.cursor = 0;
   const tierOf = new Map(list.players.map((p) => [p.puuid, p.tier]));
-  const seen = decodeIds(await store.get(seenKey(meta.patch, platform)));
-  /** New games not saved yet (saved games are dropped from memory). */
-  let pending: GameRecord[] = [];
+  const seen = new Map<string, Set<string>>();
+  for (const patch of kept) seen.set(patch, decodeIds(await store.get(seenKey(patch, platform))));
+  const isSeen = (id: string) => kept.some((patch) => seen.get(patch)!.has(id));
+  const markSeen = (id: string, patch = current.patch) => seen.get(patch)!.add(id);
+
+  /** New games not saved yet, per patch (saved games are dropped from memory). */
+  let pending = new Map<string, GameRecord[]>();
+  const newGamesByPatch: Record<string, number> = Object.fromEntries(kept.map((p) => [p, 0]));
   let newGames = 0;
+  let pendingCount = 0;
   const skipped: CrawlReport['skipped'] = {};
   const inFlight = new Set<string>();
   let playersCrawled = 0;
@@ -88,15 +131,21 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
   const flush = () =>
     (flushing = flushing.then(async () => {
       lastFlush = now();
-      if (pending.length) {
-        const batch = pending;
-        pending = [];
-        await store.put(`${gamesPrefix(meta.patch)}${platform}-${stamp}-${++part}.jsonl.gz`, encodeJsonl(batch));
+      const batches = pending;
+      pending = new Map();
+      pendingCount = 0;
+      part++;
+      for (const [patch, batch] of batches) {
+        if (batch.length) await store.put(`${gamesPrefix(patch)}${platform}-${stamp}-${part}.jsonl.gz`, encodeJsonl(batch));
       }
-      await store.put(seenKey(meta.patch, platform), encodeIds(seen));
-      await putJson(store, playersKey(platform), list);
+      for (const patch of kept) await store.put(seenKey(patch, platform), encodeIds(seen.get(patch)!));
+      await putJson(store, rotationKey(platform), rotation);
       const minutes = Math.round((now() - started) / 60000);
-      console.log(`[crawl] ${platform} ${minutes} min: ${newGames} new games, ${playersCrawled}/${list.players.length} players, ${client.stats.requests - requestsBefore} requests, ${client.stats.rateLimited - rateLimitedBefore} × 429`);
+      console.log(
+        `[crawl] ${platform} ${minutes} min: ${newGames} new games ${JSON.stringify(newGamesByPatch)}, ${playersCrawled} players ` +
+          `(pass ${rotation.passes + 1}, ${rotation.cursor}/${list.players.length}), ${client.stats.requests - requestsBefore} requests, ` +
+          `${client.stats.rateLimited - rateLimitedBefore} × 429`
+      );
     }));
 
   const stop = () => now() >= deadline || (config.maxGames > 0 && newGames >= config.maxGames);
@@ -108,21 +157,38 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
     if (skipped.error <= 5) console.warn(`[crawl] ${platform}: ${error instanceof Error ? error.message : String(error)}`);
   };
 
+  const options = { patches: kept, platform, catalog, minDurationS: config.minGameSeconds, tierOf: (puuid: string) => tierOf.get(puuid) };
+
   const fetchGame = async (id: string, fallbackTier: SampledTier) => {
-    if (seen.has(id) || inFlight.has(id) || stop()) return;
+    if (isSeen(id) || inFlight.has(id) || stop()) return;
     inFlight.add(id);
     try {
       const m = await fetchMatch(client, platform, id);
       if (!m) {
         skipped.missing = (skipped.missing ?? 0) + 1;
-        seen.add(id);
+        markSeen(id);
         return;
       }
       // Cheap checks before downloading the (large) timeline.
-      const quick = extractGame(m, { metadata: m.metadata, info: { frames: [] } }, { patch: meta.patch, platform, tier: fallbackTier, catalog, minDurationS: config.minGameSeconds });
+      const quick = extractGame(m, { metadata: m.metadata, info: { frames: [] } }, { ...options, tier: fallbackTier });
+      if (quick === 'patch') {
+        let gamePatch: string | null = null;
+        try {
+          gamePatch = patchOf(m.info.gameVersion);
+        } catch {
+          // unknown version: treated as old
+        }
+        if (gamePatch && comparePatches(gamePatch, current.patch) > 0) {
+          // Live patch ahead of Data Dragon: kept for a later run, once Data Dragon knows it.
+          skipped.newer = (skipped.newer ?? 0) + 1;
+          return;
+        }
+        // Older than the previous patch: later lookups of the first pass start after it.
+        rotation.olderUntil = Math.max(rotation.olderUntil, Math.floor(m.info.gameCreation / 1000));
+      }
       if (typeof quick === 'string') {
         skipped[quick] = (skipped[quick] ?? 0) + 1;
-        seen.add(id);
+        markSeen(id);
         return;
       }
       const t = await fetchTimeline(client, platform, id);
@@ -130,19 +196,25 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
         skipped.missing = (skipped.missing ?? 0) + 1;
         return; // retry on a later run
       }
-      // Game tier = lowest tier among the sampled players of the game.
+      // Game tier = lowest tier among the collected players of the game (records also keep each player's tier).
       let tier = fallbackTier;
       for (const p of m.info.participants) {
         const known = tierOf.get(p.puuid);
         if (known) tier = lowerTier(tier, known);
       }
-      const game = extractGame(m, t, { patch: meta.patch, platform, tier, catalog, minDurationS: config.minGameSeconds });
-      if (typeof game === 'string') skipped[game] = (skipped[game] ?? 0) + 1;
-      else {
-        pending.push(game);
+      const game = extractGame(m, t, { ...options, tier });
+      if (typeof game === 'string') {
+        skipped[game] = (skipped[game] ?? 0) + 1;
+        markSeen(id);
+      } else {
+        let batch = pending.get(game.patch);
+        if (!batch) pending.set(game.patch, (batch = []));
+        batch.push(game);
+        pendingCount++;
         newGames++;
+        newGamesByPatch[game.patch] = (newGamesByPatch[game.patch] ?? 0) + 1;
+        markSeen(id, game.patch);
       }
-      seen.add(id);
     } catch (error) {
       tolerate(error); // not marked as seen: retried on a later run
     } finally {
@@ -150,53 +222,75 @@ export async function crawlPlatform(platform: Platform, meta: PatchMeta, config:
     }
   };
 
-  // Round-robin over players, starting at the saved cursor; several players at a time so that the
-  // production limits are used (the limiter keeps the pace).
-  const size = Math.max(1, list.players.length);
-  const start = list.cursor;
-  const order = [...list.players.slice(start), ...list.players.slice(0, start)];
-  let begun = 0;
-  await pool(
-    order,
-    config.playerConcurrency,
-    async (player) => {
-      list.cursor = (start + ++begun) % size;
-      const since = Math.max(meta.startTime, player.lastCrawled ?? 0);
-      let ids: string[];
-      try {
-        ids = (await matchIds(client, platform, player.puuid, since)) ?? [];
-      } catch (error) {
-        tolerate(error);
-        return;
+  const lookUp = async (puuid: string, tier: SampledTier, since: number) => {
+    const ids: string[] = [];
+    try {
+      for (let page = 0; page < MAX_ID_PAGES; page++) {
+        const batch = (await matchIds(client, platform, puuid, since, 100, page * 100)) ?? [];
+        ids.push(...batch);
+        if (batch.length < 100) break;
       }
-      player.lastCrawled = Math.floor(now() / 1000);
-      playersCrawled++;
-      await pool(ids, config.matchConcurrency, (id) => fetchGame(id, player.tier), stop);
-      if (pending.length >= config.flushGames || now() - lastFlush >= config.flushMinutes * 60_000) await flush();
-    },
-    stop
-  );
+    } catch (error) {
+      tolerate(error);
+      if (!ids.length) return;
+    }
+    playersCrawled++;
+    let next = 0;
+    const worker = async () => {
+      while (next < ids.length && !stop()) await fetchGame(ids[next++]!, tier);
+    };
+    await Promise.all(Array.from({ length: Math.min(config.matchConcurrency, ids.length) }, worker));
+    if (pendingCount >= config.flushGames || now() - lastFlush >= config.flushMinutes * 60_000) await flush();
+  };
+
+  // Each player at most once per run; several players at a time (the limiter keeps the pace).
+  const size = list.players.length;
+  let begun = 0;
+  const firstPassFrom = Math.floor(started / 1000) - config.firstPassDays * 86400;
+  const playerWorker = async () => {
+    while (begun < size && !stop()) {
+      begun++;
+      if (rotation.cursor >= size) {
+        // Pass complete: the next lookups ask for the games since the start of the pass that just ended.
+        rotation.prevPassStart = rotation.passStart;
+        rotation.passStart = Math.floor(now() / 1000);
+        rotation.passes++;
+        rotation.cursor = 0;
+      }
+      const player = list.players[rotation.cursor++]!;
+      // Two hours of overlap: games still in progress at the previous lookup are not missed.
+      const since = rotation.prevPassStart !== null ? rotation.prevPassStart - 7200 : Math.max(firstPassFrom, rotation.olderUntil);
+      await lookUp(player.puuid, player.tier, since);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.max(1, Math.min(config.playerConcurrency, size)) }, playerWorker));
 
   await flush();
+  await flushing;
 
   return {
-    patch: meta.patch,
+    patch: current.patch,
     platform,
     players: countByTier(list),
     playersCrawled,
     newGames,
+    newGamesByPatch,
     skipped,
     requests: client.stats.requests - requestsBefore,
     rateLimited: client.stats.rateLimited - rateLimitedBefore,
     minutes: Math.round(((now() - started) / 60000) * 10) / 10,
+    passes: rotation.passes,
+    cursor: rotation.cursor,
   };
 }
 
 /** Crawls every configured platform in parallel (rate limits are per region). */
 export async function crawl(config: Config, deps: CrawlDeps): Promise<CrawlReport[]> {
   const ddragon = deps.ddragon ?? new DataDragon();
-  const meta = await resolvePatch(deps.store, ddragon);
-  const catalog = deps.catalog ?? buildItemCatalog((await ddragon.items(meta.version)).data);
+  const patches = await resolvePatches(deps.store, ddragon, (deps.now ?? Date.now)());
+  const catalog = deps.catalog ?? buildItemCatalog((await ddragon.items(patches.current.version)).data);
   const deadline = (deps.now ?? Date.now)() + config.budgetMinutes * 60_000;
-  return Promise.all(config.platforms.map((platform) => crawlPlatform(platform, meta, config, { ...deps, ddragon, catalog }, deadline)));
+  return Promise.all(
+    config.platforms.map((platform) => crawlPlatform(platform, patches, config, { ...deps, client: deps.clientFor?.(platform) ?? deps.client, ddragon, catalog }, deadline))
+  );
 }

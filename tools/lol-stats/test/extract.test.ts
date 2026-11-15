@@ -131,7 +131,7 @@ describe('real games (fixtures)', () => {
   it('extracts 10 coherent participants per game', () => {
     assert.equal(games.length, 5);
     for (const { match, timeline } of games) {
-      const game = extractGame(match, timeline, { patch: '16.22', platform: 'EUW1', tier: 'CHALLENGER', catalog, minDurationS: 900 }) as GameRecord;
+      const game = extractGame(match, timeline, { patches: ['16.22'], platform: 'EUW1', tier: 'CHALLENGER', catalog, minDurationS: 900 }) as GameRecord;
       assert.equal(typeof game, 'object', `${match.metadata.matchId} kept`);
       assert.equal(game.participants.length, 10);
       const roles = game.participants.map((p) => p.role).sort();
@@ -154,9 +154,9 @@ describe('real games (fixtures)', () => {
 
   it('skips other queues, other patches and short games', () => {
     const { match, timeline } = games[0]!;
-    const opts = { patch: '16.22', platform: 'EUW1', tier: 'MASTER' as const, catalog, minDurationS: 900 };
+    const opts = { patches: ['16.22'], platform: 'EUW1', tier: 'MASTER' as const, catalog, minDurationS: 900 };
     assert.equal(extractGame({ ...match, info: { ...match.info, queueId: 440 } }, timeline, opts), 'queue');
-    assert.equal(extractGame(match, timeline, { ...opts, patch: '16.21' }), 'patch');
+    assert.equal(extractGame(match, timeline, { ...opts, patches: ['16.21', '16.20'] }), 'patch');
     assert.equal(extractGame({ ...match, info: { ...match.info, gameDuration: 600 } }, timeline, opts), 'short');
   });
 });

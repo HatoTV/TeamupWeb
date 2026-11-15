@@ -89,11 +89,12 @@ export function summonerById(client: RiotClient, platform: Platform, summonerId:
   return client.get<SummonerDto>(platform, 'summoner-v4.by-id', `/lol/summoner/v4/summoners/${encodeURIComponent(summonerId)}`);
 }
 
-export function matchIds(client: RiotClient, platform: Platform, puuid: string, startTime: number, count = 100) {
+export function matchIds(client: RiotClient, platform: Platform, puuid: string, startTime: number, count = 100, start = 0) {
   return client.get<string[]>(regionOf(platform), 'match-v5.by-puuid', `/lol/match/v5/matches/by-puuid/${encodeURIComponent(puuid)}/ids`, {
     queue: RANKED_SOLO_QUEUE_ID,
     startTime,
     count,
+    ...(start ? { start } : {}),
   });
 }
 
@@ -108,4 +109,9 @@ export function timeline(client: RiotClient, platform: Platform, matchId: string
 /** Platform of a match id (`EUW1_7212345678` → `EUW1`). */
 export function platformOfMatch(matchId: string): string {
   return matchId.split('_')[0] ?? '';
+}
+
+/** league-exp-v4: paginated entries, also for Master, Grandmaster and Challenger (205 per page). */
+export function leagueExpEntries(client: RiotClient, platform: Platform, tier: 'CHALLENGER' | 'GRANDMASTER' | 'MASTER', page: number) {
+  return client.get<LeagueEntryDto[]>(platform, 'league-exp-v4.entries', `/lol/league-exp/v4/entries/${RANKED_SOLO}/${tier}/I`, { page });
 }

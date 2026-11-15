@@ -10,6 +10,10 @@
       "destination": "/public/assets/i18n/$1"
     },
     {
+      "source": "/data/lol/builds/:path*",
+      "destination": "https://pub-1221a71099064450b272a22b9892a16d.r2.dev/builds/:path*"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.csr.html"
     }

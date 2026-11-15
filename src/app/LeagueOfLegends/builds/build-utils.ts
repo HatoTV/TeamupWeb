@@ -1,5 +1,5 @@
 import { Role } from '../../core/data/champion-data.service';
-import { BuildData, BuildFilter, BuildMeta, BUILD_FILTERS, StaticCore } from '../../core/data/build-data.service';
+import { BuildData, BuildFilter, BuildMeta, BUILD_FILTERS, EXACT_FILTERS, StaticCore } from '../../core/data/build-data.service';
 import { abilityKey } from '../../shared/i18n/ability-key';
 import { Lang } from '../../core/site.config';
 
@@ -90,6 +90,9 @@ export function rankFilters(meta: BuildMeta | null | undefined, patch?: string |
   if (!meta) return [];
   const games = (meta.patches.find((p) => p.patch === patch) ?? meta.patches.find((p) => p.patch === meta.latest))?.games ?? {};
   const count = (f: BuildFilter | undefined) => (f ? games[`${f}|${region}`] ?? 0 : 0);
-  const order = BUILD_FILTERS.filter((f) => meta.filters.includes(f));
-  return order.filter((f, i) => count(f) > count(order[i + 1]));
+  const available = BUILD_FILTERS.filter((f) => meta.filters.includes(f));
+  // Nested filters: shown when they add games of their own tier to the next, narrower one.
+  const nested = available.filter((f) => !EXACT_FILTERS.includes(f));
+  const exact = available.filter((f) => EXACT_FILTERS.includes(f) && count(f) > 0);
+  return [...nested.filter((f, i) => count(f) > count(nested[i + 1])), ...exact];
 }

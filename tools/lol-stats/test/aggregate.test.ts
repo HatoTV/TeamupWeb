@@ -43,9 +43,9 @@ describe('statistics', () => {
     assert.equal(new Histogram(10).median(), null);
   });
 
-  it('tier filters are nested', () => {
-    assert.deepEqual(filtersForTier('EMERALD'), ['emerald_plus']);
-    assert.deepEqual(filtersForTier('MASTER'), ['emerald_plus', 'diamond_plus', 'master_plus']);
+  it('tier filters are nested, plus the exact tier', () => {
+    assert.deepEqual(filtersForTier('EMERALD'), ['emerald_plus', 'emerald']);
+    assert.deepEqual(filtersForTier('MASTER'), ['emerald_plus', 'diamond_plus', 'master_plus', 'master']);
     assert.deepEqual(filtersForTier('CHALLENGER'), ['emerald_plus', 'diamond_plus', 'master_plus', 'grandmaster_plus', 'challenger']);
   });
 });
@@ -97,7 +97,7 @@ describe('aggregate on real games', () => {
     .filter((f) => f.startsWith('TEST_'))
     .map((f) => {
       const { match, timeline } = JSON.parse(readFileSync(new URL(f, FIXTURES), 'utf8'));
-      return extractGame(match, timeline, { patch: '16.22', platform: 'EUW1', tier: 'MASTER', catalog, minDurationS: 900 }) as GameRecord;
+      return extractGame(match, timeline, { patches: ['16.22'], platform: 'EUW1', tier: 'MASTER', catalog, minDurationS: 900 }) as GameRecord;
     });
   const names = { champions: { fr: new Map(), en: new Map() }, items: { fr: new Map(), en: new Map() } };
 
@@ -106,15 +106,14 @@ describe('aggregate on real games', () => {
       patch: '16.22',
       platforms: ['EUW1'],
       games: () => games,
-      playerTier: new Map(),
       previous: new Map(),
       names,
       config: { minBuildGames: 1, minBuildShare: 0, minMatchupGames: 1, minPlayerGames: 1, lowSampleGames: 500 },
     });
-    assert.deepEqual([...out.totals.keys()].sort(), ['diamond_plus|all', 'emerald_plus|all', 'master_plus|all']);
+    assert.deepEqual([...out.totals.keys()].sort(), ['diamond_plus|all', 'emerald_plus|all', 'master_plus|all', 'master|all']);
     assert.equal(out.totals.get('master_plus|all'), 5);
     const championRoles = new Set(games.flatMap((g) => g.participants.map((p) => `${p.champion}|${p.role}`))).size;
-    assert.equal(out.files.length, 3 * championRoles, 'one file per champion-role and per filter');
+    assert.equal(out.files.length, 4 * championRoles, 'one file per champion-role and per filter');
     for (const f of out.files) {
       championBuildSchema.parse(f);
       assert.ok(f.lowSample);
@@ -126,5 +125,42 @@ describe('aggregate on real games', () => {
     // Each game has 5 winners and 5 losers.
     const one = out.files.filter((f) => f.filter === 'master_plus');
     assert.equal(one.reduce((n, f) => n + f.wins, 0), 25);
+  });
+});
+
+describe('aggregate with the tier of each player', () => {
+  const FIXTURES = new URL('../fixtures/', import.meta.url);
+  const catalog = buildItemCatalog(JSON.parse(readFileSync(new URL('item-16.22.json', FIXTURES), 'utf8')).data);
+  const names = { champions: { fr: new Map(), en: new Map() }, items: { fr: new Map(), en: new Map() } };
+  const file = readdirSync(FIXTURES).find((f) => f.startsWith('TEST_'))!;
+  const { match, timeline } = JSON.parse(readFileSync(new URL(file, FIXTURES), 'utf8'));
+  // Fixtures share anonymised puuids: give each player his own. One Challenger and one Emerald player; the 8 others
+  // are not in the collected list.
+  match.info.participants.forEach((p: { puuid: string }, i: number) => (p.puuid = `player-${i}`));
+  const puuids: string[] = match.info.participants.map((p: { puuid: string }) => p.puuid);
+  const challenger = puuids[0]!;
+  const emerald = puuids[1]!;
+  const tierOf = (puuid: string) => (puuid === challenger ? 'CHALLENGER' : puuid === emerald ? 'EMERALD' : undefined);
+
+  it('counts each player in the filters of his own tier, games weighted per player', async () => {
+    const game = extractGame(match, timeline, { patches: ['16.22'], platform: 'EUW1', tier: 'EMERALD', catalog, minDurationS: 900, tierOf }) as GameRecord;
+    assert.equal(game.participants.filter((p) => p.tier).length, 2);
+    const out = await aggregate({
+      patch: '16.22',
+      platforms: ['EUW1'],
+      games: () => [game],
+      previous: new Map(),
+      names,
+      config: { minBuildGames: 1, minBuildShare: 0, minMatchupGames: 1, minPlayerGames: 1, lowSampleGames: 500 },
+    });
+    const challengerFiles = out.files.filter((f) => f.filter === 'challenger');
+    assert.equal(challengerFiles.length, 1, 'only the Challenger player counts in Challenger');
+    assert.equal(out.files.filter((f) => f.filter === 'emerald').length, 1);
+    assert.equal(out.files.filter((f) => f.filter === 'emerald_plus').length, 2);
+    assert.equal(out.files.filter((f) => f.filter === 'diamond_plus').length, 1);
+    // A single player of the role in the scope: picked in « his » game.
+    assert.equal(challengerFiles[0]!.pickRate, 1);
+    assert.ok(out.files.every((f) => f.pickRate <= 1 && f.banRate <= 1));
+    assert.equal(challengerFiles[0]!.players[0]?.tier, 'CHALLENGER');
   });
 });

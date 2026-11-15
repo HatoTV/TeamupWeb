@@ -8,10 +8,11 @@ name: LoL build stats
 # Variable: R2_PUBLIC_BUCKET (public statistics bucket; publication is skipped until it is set).
 # About 10 h of runner time a day: scheduled runs only start once the repository is public (free minutes).
 
+# Automatic updates are paused for now: manual runs only. To resume, restore:
+#   schedule:
+#     - cron: '17 0 * * *'
+#     - cron: '17 12 * * *'
 on:
-  schedule:
-    - cron: '17 0 * * *'
-    - cron: '17 12 * * *'
   workflow_dispatch:
     inputs:
       mode:

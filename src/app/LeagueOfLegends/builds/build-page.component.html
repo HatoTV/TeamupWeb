@@ -221,7 +221,7 @@
                     @for (row of t.rows; track $index; let first = $first) {
                       <div class="tree__row">
                         @for (r of row; track r.id) {
-                          <app-game-icon [src]="data.runeIcon(r.icon)" [name]="r.name" [desc]="r.desc" shape="round" [size]="first ? 40 : 30" [dim]="!r.on" [ring]="r.on ? t.color : null" />
+                          <app-game-icon [src]="data.runeIcon(r.icon)" [name]="r.name" [desc]="r.desc" shape="round" [size]="first ? 52 : 40" [dim]="!r.on" [ring]="r.on ? t.color : null" />
                         }
                       </div>
                     }
@@ -236,7 +236,7 @@
                     @for (row of t.rows; track $index) {
                       <div class="tree__row">
                         @for (r of row; track r.id) {
-                          <app-game-icon [src]="data.runeIcon(r.icon)" [name]="r.name" [desc]="r.desc" shape="round" [size]="30" [dim]="!r.on" [ring]="r.on ? t.color : null" />
+                          <app-game-icon [src]="data.runeIcon(r.icon)" [name]="r.name" [desc]="r.desc" shape="round" [size]="40" [dim]="!r.on" [ring]="r.on ? t.color : null" />
                         }
                       </div>
                     }
@@ -244,7 +244,7 @@
                       @for (row of rt.shards; track $index) {
                         <div class="tree__row">
                           @for (s of row; track $index) {
-                            <app-game-icon [src]="s.info ? data.shardIcon(s.info.icon) : ''" [name]="'BUILDS.SHARDS.' + s.id | translate" shape="round" [size]="22" [dim]="!s.on" [ring]="s.on ? '#FFC93C' : null" />
+                            <app-game-icon [src]="s.info ? data.shardIcon(s.info.icon) : ''" [name]="'BUILDS.SHARDS.' + s.id | translate" shape="round" [size]="28" [dim]="!s.on" [ring]="s.on ? '#FFC93C' : null" />
                           }
                         </div>
                       }

@@ -164,6 +164,11 @@
 }
 
 @media (max-width: 767px) {
+  // Mobile: same number of lines as before the switch to Archivo.
+  .legal__title {
+    font-size: 34px;
+  }
+
   .legal {
     padding-top: 32px;
     padding-bottom: 48px;

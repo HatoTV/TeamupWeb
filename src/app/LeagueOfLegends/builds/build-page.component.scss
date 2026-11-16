@@ -333,7 +333,7 @@ $inset: #12121f;
 // ---------- Three linked columns: builds · spells, runes & skills · items ----------
 .board {
   display: grid;
-  grid-template-columns: 248px minmax(0, 1fr) minmax(0, 1.1fr);
+  grid-template-columns: 268px minmax(0, 1fr) minmax(0, 1.1fr);
   grid-template-areas: 'builds runes items';
   align-items: stretch;
   gap: 16px;
@@ -349,10 +349,15 @@ $inset: #12121f;
 .col--builds {
   grid-area: builds;
   overflow: hidden;
+
+  .card__head {
+    padding: 16px 24px 12px 18px;
+  }
 }
 
 .col--runes {
   grid-area: runes;
+  container: runes / inline-size;
   padding: 16px 18px;
 }
 
@@ -377,7 +382,7 @@ $inset: #12121f;
 .pick {
   // Containing block of the visually hidden text: it must stay inside the carousel.
   position: relative;
-  padding: 14px 16px;
+  padding: 16px 24px 16px 18px;
   border-top: 1px solid var(--color-separator);
   cursor: pointer;
   transition: background-color var(--duration-color) ease;
@@ -501,9 +506,16 @@ $inset: #12121f;
   margin-top: 16px;
 }
 
+// Too narrow for four 52px keystones next to the secondary tree: stack the trees.
+@container runes (max-width: 500px) {
+  .runes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 .tree {
   min-width: 0;
-  padding: 12px;
+  padding: 14px 14px 10px;
   border-radius: 12px;
   background: $inset;
   border: 1px solid var(--color-separator);
@@ -513,7 +525,7 @@ $inset: #12121f;
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -526,12 +538,13 @@ $inset: #12121f;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 4px;
-  margin-bottom: 12px;
+  gap: 6px;
+  margin-bottom: 16px;
 }
 
 .tree__keystone {
-  margin-top: 2px;
+  margin-top: -4px;
+  margin-bottom: 4px;
   text-align: center;
   font-size: 12px;
   font-weight: 600;
@@ -539,12 +552,12 @@ $inset: #12121f;
 }
 
 .tree__shards {
-  margin-top: 4px;
-  padding-top: 10px;
+  margin-top: 2px;
+  padding-top: 14px;
   border-top: 1px solid var(--color-separator);
 
   .tree__row {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 }
 
@@ -915,7 +928,7 @@ $inset: #12121f;
 // ---------- Small desktop: tighter builds column ----------
 @media (max-width: 1439px) {
   .board {
-    grid-template-columns: 224px minmax(0, 1.15fr) minmax(0, 1fr);
+    grid-template-columns: 244px minmax(0, 1.15fr) minmax(0, 1fr);
   }
 }
 
@@ -1012,6 +1025,11 @@ $inset: #12121f;
 
 // ---------- Mobile (MobileBuild.dc.html) ----------
 @media (max-width: 767px) {
+  // Mobile: same number of lines as before the switch to Archivo.
+  .card__title {
+    font-size: 16px;
+  }
+
   :host {
     padding-bottom: 96px;
   }
@@ -1172,6 +1190,7 @@ $inset: #12121f;
     flex: none;
     width: 230px;
     margin: 0;
+    padding: 14px 16px;
     scroll-snap-align: start;
     border: 1px solid var(--color-line);
     border-radius: 12px;

@@ -132,6 +132,11 @@ export interface MatchupCard {
         font-stretch: var(--stretch-heading);
         text-transform: uppercase;
       }
+      @media (max-width: 767px) {
+        .cta__title {
+          font-size: 21px;
+        }
+      }
       .cta__text {
         font-size: 14px;
         color: var(--color-text-secondary);

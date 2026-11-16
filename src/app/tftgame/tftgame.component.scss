@@ -412,6 +412,11 @@
 }
 
 @media (max-width: 767px) {
+  // Mobile: same number of lines as before the switch to Archivo.
+  .hero__title {
+    font-size: 38px;
+  }
+
   .hero__inner {
     padding-top: 32px;
     padding-bottom: 32px;

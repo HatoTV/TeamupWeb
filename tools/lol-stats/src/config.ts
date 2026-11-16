@@ -13,12 +13,16 @@ export const TIER_FILTERS = ['emerald_plus', 'diamond_plus', 'master_plus', 'gra
 export type TierFilter = (typeof TIER_FILTERS)[number];
 
 /** Riot tiers we sample, highest first. */
-export const SAMPLED_TIERS = ['CHALLENGER', 'GRANDMASTER', 'MASTER', 'DIAMOND', 'EMERALD'] as const;
+export const SAMPLED_TIERS = ['CHALLENGER', 'GRANDMASTER', 'MASTER', 'DIAMOND', 'EMERALD', 'PLATINUM', 'GOLD', 'SILVER', 'BRONZE', 'IRON'] as const;
 export type SampledTier = (typeof SAMPLED_TIERS)[number];
 
-/** Filters a player of a given tier belongs to. */
+/** Tiers collected completely (every player), the only ones in the build filters. */
+export const BUILD_TIERS: readonly SampledTier[] = ['CHALLENGER', 'GRANDMASTER', 'MASTER', 'DIAMOND', 'EMERALD'];
+
+/** Filters a player of a given tier belongs to (none below Emerald: builds are Emerald and above). */
 export function filtersForTier(tier: SampledTier): TierFilter[] {
   const rank = SAMPLED_TIERS.indexOf(tier); // 0 = challenger … 4 = emerald
+  if (rank > 4) return [];
   const filters: TierFilter[] = ['emerald_plus'];
   if (rank <= 3) filters.push('diamond_plus');
   if (rank <= 2) filters.push('master_plus');
@@ -26,6 +30,37 @@ export function filtersForTier(tier: SampledTier): TierFilter[] {
   if (rank === 0) filters.push('challenger');
   else filters.push(tier.toLowerCase() as TierFilter);
   return filters;
+}
+
+/** Rank bands of the tier list. */
+export const RANK_BANDS = {
+  low: ['IRON', 'BRONZE', 'SILVER', 'GOLD'],
+  mid: ['PLATINUM', 'EMERALD', 'DIAMOND'],
+  elite: ['MASTER', 'GRANDMASTER', 'CHALLENGER'],
+} as const satisfies Record<string, readonly SampledTier[]>;
+export type RankBand = keyof typeof RANK_BANDS;
+export const RANK_BAND_KEYS = Object.keys(RANK_BANDS) as RankBand[];
+
+export const bandOf = (tier: SampledTier): RankBand => RANK_BAND_KEYS.find((band) => (RANK_BANDS[band] as readonly string[]).includes(tier))!;
+
+/**
+ * Tiers that are sampled (a few league pages per division) rather than collected completely, by tier-list band:
+ * `low` = Iron to Gold, `mid` = Platinum (Emerald and Diamond are in the complete collection).
+ */
+export const SAMPLE_POOLS = {
+  low: ['GOLD', 'SILVER', 'BRONZE', 'IRON'],
+  mid: ['PLATINUM'],
+} as const satisfies Record<string, readonly SampledTier[]>;
+export type SamplePool = keyof typeof SAMPLE_POOLS;
+
+/** Budget of a sampled band, per platform and per crawl. */
+export interface PoolBudget {
+  /** League pages listed per tier / division (205 players per page). */
+  pages: number;
+  /** New games per crawl (0 = band not collected). */
+  games: number;
+  /** Most recent games looked at per player, so that the sample spreads over many players. */
+  gamesPerPlayer: number;
 }
 
 /**
@@ -74,12 +109,21 @@ export interface Config {
   minMatchupGames: number;
   /** A new patch is shown once a champion / role reaches this many games. */
   minGamesForNewPatch: number;
-  /** A filter below this many games shows the "few games" warning. */
+  /** A filter below this many games shows the "few games" warning; a tier-list champion below it is not ranked. */
   lowSampleGames: number;
+  /** Sampled bands (tiers below Emerald): pages, games per crawl and per player. */
+  pools: Record<SamplePool, PoolBudget>;
+  /** Tier list: score = 100 × Wilson lower bound + pickWeight × min(pick rate in %, pickCap). */
+  tierPickWeight: number;
+  tierPickCap: number;
+  /** Tier list: percentile cuts of S+, S, A, B and C (the rest is D). */
+  tierCuts: number[];
   /** Published data is a small sample (development key): the site shows a "sample data" notice. */
   sample: boolean;
   stateDir: string;
   outputDir: string;
+  /** Tier list files: `{tierListDir}/{patch}/{band}.json`. */
+  tierListDir: string;
 }
 
 const num = (value: string | undefined, fallback: number) => (value && Number.isFinite(Number(value)) ? Number(value) : fallback);
@@ -112,9 +156,17 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     minMatchupGames: num(env.LOL_STATS_MIN_MATCHUP_GAMES, 50),
     minGamesForNewPatch: num(env.LOL_STATS_MIN_GAMES_NEW_PATCH, 200),
     lowSampleGames: num(env.LOL_STATS_LOW_SAMPLE_GAMES, 200),
+    pools: {
+      low: { pages: num(env.LOL_STATS_BAND_PAGES_LOW, 2), games: num(env.LOL_STATS_BAND_GAMES_LOW, 4000), gamesPerPlayer: num(env.LOL_STATS_BAND_GAMES_PER_PLAYER, 20) },
+      mid: { pages: num(env.LOL_STATS_BAND_PAGES_MID, 2), games: num(env.LOL_STATS_BAND_GAMES_MID, 2500), gamesPerPlayer: num(env.LOL_STATS_BAND_GAMES_PER_PLAYER, 20) },
+    },
+    tierPickWeight: num(env.LOL_STATS_TIER_PICK_WEIGHT, 0.06),
+    tierPickCap: num(env.LOL_STATS_TIER_PICK_CAP, 10),
+    tierCuts: env.LOL_STATS_TIER_CUTS ? env.LOL_STATS_TIER_CUTS.split(',').map(Number) : [0.08, 0.22, 0.45, 0.7, 0.88],
     sample: env.LOL_STATS_SAMPLE === '1',
     stateDir: env.LOL_STATS_STATE_DIR ?? `${PACKAGE_DIR}.state`,
     outputDir: env.LOL_STATS_OUTPUT_DIR ?? `${REPO_DIR}public/data/lol/builds`,
+    tierListDir: env.LOL_STATS_TIERLIST_DIR ?? `${REPO_DIR}public/data/lol/tierlist`,
     ...overrides,
   };
 }

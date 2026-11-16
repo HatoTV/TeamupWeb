@@ -81,7 +81,7 @@ export function apexLeague(client: RiotClient, platform: Platform, tier: 'CHALLE
   return client.get<LeagueListDto>(platform, `league-v4.${path}`, `/lol/league/v4/${path}/by-queue/${RANKED_SOLO}`);
 }
 
-export function leagueEntries(client: RiotClient, platform: Platform, tier: 'DIAMOND' | 'EMERALD', division: 'I' | 'II' | 'III' | 'IV', page: number) {
+export function leagueEntries(client: RiotClient, platform: Platform, tier: 'DIAMOND' | 'EMERALD' | 'PLATINUM' | 'GOLD' | 'SILVER' | 'BRONZE' | 'IRON', division: 'I' | 'II' | 'III' | 'IV', page: number) {
   return client.get<LeagueEntryDto[]>(platform, 'league-v4.entries', `/lol/league/v4/entries/${RANKED_SOLO}/${tier}/${division}`, { page });
 }
 

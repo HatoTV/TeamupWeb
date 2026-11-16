@@ -1,0 +1,173 @@
+<header class="hero">
+  <img class="hero__splash" [src]="data.splash('Jinx')" alt="" fetchpriority="high" />
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__body">
+    <p class="hero__kicker">{{ 'TIERLIST.KICKER' | translate: { patch: patch() ?? '…' } }}</p>
+    <h1 class="hero__title">{{ 'TIERLIST.TITLE' | translate }}</h1>
+    <p class="hero__lead">{{ 'TIERLIST.LEAD' | translate }}</p>
+    @if (meta()?.sample) {
+      <p class="hero__sample" role="note">{{ 'BUILDS.SAMPLE_DATA' | translate }}</p>
+    }
+  </div>
+</header>
+
+<div class="bar">
+  <div class="rank">
+    <button
+      #rankButton
+      type="button"
+      class="rank__button"
+      [class.is-open]="open()"
+      aria-haspopup="listbox"
+      aria-controls="tier-rank-list"
+      [attr.aria-expanded]="open()"
+      [attr.aria-label]="'TIERLIST.RANK_BUTTON' | translate: { label: ('TIERLIST.BANDS.' + band() | translate) }"
+      (click)="toggle()"
+      (keydown)="onButtonKey($event)"
+    >
+      <span class="emblems" aria-hidden="true">
+        @for (e of emblems[band()]; track e) {
+          <img [src]="'assets/img/ranks/' + e + '.webp'" alt="" width="38" height="38" />
+        }
+      </span>
+      <span class="rank__text">
+        <span class="rank__label">{{ 'TIERLIST.RANK' | translate }}</span>
+        {{ 'TIERLIST.BANDS.' + band() | translate }}
+      </span>
+      <svg class="rank__chevron" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+    </button>
+    <ul
+      #rankList
+      id="tier-rank-list"
+      class="rank__list"
+      role="listbox"
+      [attr.aria-label]="'TIERLIST.RANK_LABEL' | translate"
+      [hidden]="!open()"
+      (keydown)="onListKey($event)"
+    >
+      @for (b of bands; track b) {
+        <li
+          class="option"
+          role="option"
+          tabindex="-1"
+          [class.is-on]="b === band()"
+          [attr.aria-selected]="b === band()"
+          (click)="selectBand(b)"
+        >
+          <span class="emblems emblems--list" aria-hidden="true">
+            @for (e of emblems[b]; track e) {
+              <img [src]="'assets/img/ranks/' + e + '.webp'" alt="" width="40" height="40" loading="lazy" />
+            }
+          </span>
+          <span class="option__text">
+            <span class="option__label">{{ 'TIERLIST.BANDS.' + b | translate }}</span>
+            <span class="option__detail">{{ 'TIERLIST.BANDS_DETAIL.' + b | translate }}</span>
+          </span>
+          <svg class="option__check" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+        </li>
+      }
+    </ul>
+  </div>
+
+  <div class="roles" role="group" [attr.aria-label]="'TIERLIST.ROLE' | translate">
+    @for (r of roles; track r) {
+      <button type="button" class="role" [class.is-on]="r === role()" [attr.aria-pressed]="r === role()" (click)="selectRole(r)">
+        <img [src]="'assets/img/site/' + r + '.webp'" alt="" width="20" height="20" />{{ 'PICKERPAGE.ROLES.' + r | translate }}
+      </button>
+    }
+  </div>
+
+  <div class="legend">
+    <span>{{ 'TIERLIST.WIN_RATE' | translate }}</span>
+    <span class="badge badge--good">{{ 'TIERLIST.LEGEND_GOOD' | translate }}</span>
+    <span class="badge badge--neutral">{{ 'TIERLIST.LEGEND_NEUTRAL' | translate }}</span>
+    <span class="badge badge--bad">{{ 'TIERLIST.LEGEND_BAD' | translate }}</span>
+  </div>
+</div>
+
+<div class="wrap" [attr.aria-busy]="loading()">
+  @if (!loading() && !enough()) {
+    <p class="empty" role="status">{{ 'TIERLIST.NOT_ENOUGH' | translate }}</p>
+  } @else if (enough()) {
+    <div class="cards">
+      <div class="card">
+        <p class="card__label">{{ 'TIERLIST.SELECTION' | translate }}</p>
+        <p class="card__value">
+          <img [src]="'assets/img/site/' + role() + '.webp'" alt="" width="22" height="22" />
+          <span>{{ 'PICKERPAGE.ROLES.' + role() | translate }} · {{ 'TIERLIST.BANDS.' + band() | translate }}</span>
+        </p>
+      </div>
+      <div class="card">
+        <p class="card__label">{{ 'TIERLIST.GAMES' | translate }}</p>
+        <p class="card__value">{{ fmtInt(file()?.totalGames ?? 0) }}</p>
+      </div>
+      <div class="card">
+        <p class="card__label">{{ 'TIERLIST.RANKED' | translate }}</p>
+        <p class="card__value">{{ ranked().length }}</p>
+      </div>
+      @if (best(); as b) {
+        <div class="card card--best">
+          <img class="card__icon" [src]="b.icon" alt="" width="44" height="44" />
+          <span>
+            <span class="card__label">{{ 'TIERLIST.BEST' | translate }}</span>
+            <span class="card__value">{{ b.name }} <span [class]="'tone tone--' + b.tone">{{ fmtRate(b.winRate) }}</span></span>
+          </span>
+        </div>
+      }
+    </div>
+
+    <div class="tiers">
+      @for (t of tiers(); track t.tier) {
+        <section class="tier" [attr.aria-label]="'TIERLIST.TIER_LABEL' | translate: { tier: t.tier }" [style.--tier]="t.color" [style.--tier-bg]="t.bg" [style.--tier-ring]="t.ring">
+          <div class="tier__letter" aria-hidden="true">{{ t.tier }}</div>
+          <ul class="tier__champions">
+            @for (c of t.champions; track c.key) {
+              <li class="champ">
+                <a class="champ__link" [routerLink]="c.link" [queryParams]="buildQuery()" [attr.aria-describedby]="'tip-' + c.key">
+                  <span class="champ__frame">
+                    <img [src]="c.icon" alt="" width="64" height="64" loading="lazy" />
+                    <span [class]="'badge badge--' + c.tone" aria-hidden="true">{{ fmtRate(c.winRate) }}</span>
+                  </span>
+                  <span class="champ__name">{{ c.name }}</span>
+                </a>
+                <span class="tip" role="tooltip" [id]="'tip-' + c.key">
+                  <strong>{{ c.name }}</strong>
+                  <span>{{ 'TIERLIST.TIP_WIN' | translate: { v: fmtRate(c.winRate) } }}</span>
+                  <span>{{ 'TIERLIST.TIP_PICK' | translate: { v: fmtRate(c.pickRate) } }}</span>
+                  <span>{{ 'TIERLIST.N_GAMES' | translate: { n: fmtInt(c.games) } }}</span>
+                </span>
+              </li>
+            } @empty {
+              <li class="tier__empty">{{ 'TIERLIST.EMPTY_TIER' | translate }}</li>
+            }
+          </ul>
+        </section>
+      }
+
+      @if (unranked().length) {
+        <section class="tier tier--unranked" [attr.aria-label]="'TIERLIST.UNRANKED' | translate">
+          <div class="tier__letter tier__letter--unranked" aria-hidden="true">{{ 'TIERLIST.UNRANKED' | translate }}</div>
+          <div class="unranked">
+            <ul class="unranked__list">
+              @for (c of unranked(); track c.key) {
+                <li>
+                  <img
+                    [src]="c.icon"
+                    [alt]="c.name + ' · ' + ('TIERLIST.N_GAMES' | translate: { n: fmtInt(c.games) })"
+                    [title]="c.name + ' · ' + ('TIERLIST.N_GAMES' | translate: { n: fmtInt(c.games) })"
+                    width="44"
+                    height="44"
+                    loading="lazy"
+                  />
+                </li>
+              }
+            </ul>
+            <p class="unranked__note">{{ 'TIERLIST.UNRANKED_NOTE' | translate: { n: fmtInt(file()?.minGames ?? 200) } }}</p>
+          </div>
+        </section>
+      }
+    </div>
+
+    <p class="method"><strong>{{ 'TIERLIST.METHOD_TITLE' | translate }}</strong> {{ 'TIERLIST.METHOD' | translate }}</p>
+  }
+</div>

@@ -42,6 +42,7 @@ const paths = [
   '/lol/matchups',
   ...champions.flatMap((c) => [`/lol/matchups/${c.slug}`, `/lol/matchups/vs/${c.slug}`]),
   ...vsOnly.map((c) => `/lol/matchups/vs/${c.slug}`),
+  '/lol/tier-list',
   '/lol/builds',
   ...buildPaths(),
   '/lol/picker',

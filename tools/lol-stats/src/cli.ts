@@ -1,11 +1,12 @@
 // TeamUpp LoL stats collector.
 //   node src/cli.ts crawl       collect new ranked games of the current and previous patch (time budget: LOL_STATS_BUDGET_MINUTES)
 //   node src/cli.ts publish     aggregate both patches, meta.json, static Data Dragon data, upload to the public bucket
+//   node src/cli.ts tierlist    tier lists only, from the stored games (no collection, the state is only read)
 //   node src/cli.ts dev         small sample with a development key: crawl (500 games) + publish
 import { loadConfig, type Config } from './config.ts';
 import { crawl } from './crawl.ts';
 import { loadRotation } from './players.ts';
-import { publish } from './publish.ts';
+import { publish, publishTierLists } from './publish.ts';
 import { RiotClient } from './riot/client.ts';
 import { openStore } from './state/open.ts';
 import { r2PublicFromEnv } from './state/r2.ts';
@@ -28,7 +29,7 @@ async function runCrawl(config: Config): Promise<void> {
     console.log(
       `[crawl] ${report.platform} patch ${report.patch}: ${report.newGames} new games ${JSON.stringify(report.newGamesByPatch)} in ${report.minutes} min ` +
         `(rotation: pass ${report.passes + 1}, player ${report.cursor}; ${report.playersCrawled} players crawled, ${report.requests} requests, ${report.rateLimited} × 429) ` +
-        `players ${JSON.stringify(report.players)} skipped ${JSON.stringify(report.skipped)}`
+        `players ${JSON.stringify(report.players)} bands ${JSON.stringify(report.bands)} skipped ${JSON.stringify(report.skipped)}`
     );
   }
 }
@@ -53,6 +54,11 @@ switch (command) {
   case 'publish':
     await runPublish(loadConfig());
     break;
+  case 'tierlist': {
+    const config = loadConfig();
+    for (const r of await publishTierLists(config, openStore(config))) console.log(`[tierlist] patch ${r.patch}: games per band ${JSON.stringify(r.totals)}`);
+    break;
+  }
   case 'dev': {
     const config = loadConfig({
       maxGames: Number(process.env.LOL_STATS_MAX_GAMES ?? 500),
@@ -69,6 +75,6 @@ switch (command) {
     break;
   }
   default:
-    console.error('Usage: node src/cli.ts <crawl|publish|dev>');
+    console.error('Usage: node src/cli.ts <crawl|publish|tierlist|dev>');
     process.exitCode = 1;
 }

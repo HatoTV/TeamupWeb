@@ -6,6 +6,8 @@ name: LoL build stats
 #              community tips rework detection, commit of the prerendered subset and Vercel redeploy.
 #   06:17 and 18:17 UTC  backfill crawl (5 h 30), only until the first pass over every player of every region is
 #              complete; these runs then stop by themselves (about 22 h of runner time a day during the backfill).
+# Each crawl first samples the tier-list bands below Emerald (Iron → Gold, Platinum) within their own game budget
+# (LOL_STATS_BAND_GAMES_LOW / _MID, see tools/lol-stats/README.md); publication also writes public/data/lol/tierlist.
 # Secrets: RIOT_API_KEY, R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET, VERCEL_DEPLOY_HOOK.
 # Variable: R2_PUBLIC_BUCKET (public statistics bucket; publication is skipped until it is set).
 # About 10 h of runner time a day: scheduled runs only start once the repository is public (free minutes).

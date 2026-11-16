@@ -446,6 +446,7 @@
     "LIVE": "Live",
     "OPEN_SEARCH": "Open search",
     "CLOSE_SEARCH": "Close search",
+    "TIER_LIST": "Tier list",
     "LOL_TOOLS": "Champion tools",
     "LOL_GUIDES": "Gameplay guides",
     "LOL_MENU": "League of Legends menu",
@@ -895,8 +896,7 @@
       "5": "5th",
       "6": "6th"
     },
-    "OR": "or",
-    "UNIQUE_NOTE": "No duplicate item in the main line; alternatives are the other items most bought at that slot. Percentages are the share of this build’s games where the item is bought at that slot."
+    "OR": "or"
   },
   "COMMUNITY_TIPS": {
     "TITLE": "Community tips",
@@ -927,5 +927,44 @@
       "timing": "Timing",
       "interaction": "Interaction"
     }
+  },
+  "TIERLIST": {
+    "SEO_TITLE": "LoL tier list patch {{patch}} by rank and role",
+    "SEO_DESC": "The strongest League of Legends champions on patch {{patch}}, role by role, for Iron → Gold, Platinum → Diamond and Master → Challenger. Updated every day from ranked games.",
+    "KICKER": "Champion tools · Patch {{patch}}",
+    "TITLE": "Tier list",
+    "LEAD": "The strongest champions of the patch, for your rank and your role. Click a champion to see its build.",
+    "RANK": "Rank",
+    "RANK_LABEL": "Rank range",
+    "RANK_BUTTON": "Rank range: {{label}}",
+    "ROLE": "Role",
+    "BANDS": {
+      "low": "Iron → Gold",
+      "mid": "Platinum → Diamond",
+      "elite": "Master → Challenger"
+    },
+    "BANDS_DETAIL": {
+      "low": "Iron · Bronze · Silver · Gold",
+      "mid": "Platinum · Emerald · Diamond",
+      "elite": "Master · Grandmaster · Challenger"
+    },
+    "WIN_RATE": "Win rate",
+    "LEGEND_GOOD": "≥ 52%",
+    "LEGEND_NEUTRAL": "50–52%",
+    "LEGEND_BAD": "< 50%",
+    "SELECTION": "Selection",
+    "GAMES": "Games analysed",
+    "RANKED": "Ranked champions",
+    "BEST": "Best win rate",
+    "TIER_LABEL": "Tier {{tier}}",
+    "EMPTY_TIER": "No champion in this tier for this selection.",
+    "TIP_WIN": "Win rate: {{v}}",
+    "TIP_PICK": "Pick rate: {{v}}",
+    "N_GAMES": "{{n}} games",
+    "UNRANKED": "Unranked",
+    "UNRANKED_NOTE": "Fewer than {{n}} games in this rank range: not reliable enough to be ranked.",
+    "METHOD_TITLE": "How the tier is computed.",
+    "METHOD": "Win rate adjusted for the number of games, then pick rate, over the ranked games of the patch, for this rank range and this role. The badge shows the raw win rate. Hover over a champion to see its pick rate and number of games.",
+    "NOT_ENOUGH": "Not enough games in this rank range yet, check back soon."
   }
 }

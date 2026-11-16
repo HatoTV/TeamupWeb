@@ -14,6 +14,10 @@ export const routes: Routes = [
     loadComponent: () => import('./LeagueOfLegends/matchups/matchups.component').then((m) => m.MatchupsComponent),
   },
   {
+    path: ':lang/lol/tier-list',
+    loadComponent: () => import('./LeagueOfLegends/tier-list/tier-list.component').then((m) => m.TierListComponent),
+  },
+  {
     path: ':lang/lol/builds',
     loadComponent: () => import('./LeagueOfLegends/builds/builds-list.component').then((m) => m.BuildsListComponent),
   },

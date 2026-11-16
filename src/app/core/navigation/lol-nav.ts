@@ -23,6 +23,7 @@ export interface LolGuideGroup {
 export const LOL_TOOLS: readonly LolTool[] = [
   { id: 'matchups', labelKey: 'NAV.MATCHUPS', path: '/lol/matchups', icon: 'swords' },
   { id: 'builds', labelKey: 'NAV.BUILDS', path: '/lol/builds', icon: 'bag' },
+  { id: 'tier-list', labelKey: 'NAV.TIER_LIST', path: '/lol/tier-list', icon: 'tier-bars' },
   { id: 'picker', labelKey: 'NAV.PICKER', path: '/lol/picker', icon: 'star-line' },
 ];
 

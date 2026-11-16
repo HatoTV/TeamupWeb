@@ -1,6 +1,7 @@
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import type { Platform } from './riot/routing.ts';
+import { DEFAULT_MAIN_ROLE_SHARE } from './aggregate/roles.ts';
 
 export const PACKAGE_DIR = fileURLToPath(new URL('..', import.meta.url));
 export const REPO_DIR = fileURLToPath(new URL('../../..', import.meta.url));
@@ -111,6 +112,8 @@ export interface Config {
   minGamesForNewPatch: number;
   /** A filter below this many games shows the "few games" warning; a tier-list champion below it is not ranked. */
   lowSampleGames: number;
+  /** A role is one of a champion's main roles from this share of his games (patch, all ranks); the others are ignored. */
+  mainRoleShare: number;
   /** Sampled bands (tiers below Emerald): pages, games per crawl and per player. */
   pools: Record<SamplePool, PoolBudget>;
   /** Tier list: score = 100 × Wilson lower bound + pickWeight × min(pick rate in %, pickCap). */
@@ -156,6 +159,7 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     minMatchupGames: num(env.LOL_STATS_MIN_MATCHUP_GAMES, 50),
     minGamesForNewPatch: num(env.LOL_STATS_MIN_GAMES_NEW_PATCH, 200),
     lowSampleGames: num(env.LOL_STATS_LOW_SAMPLE_GAMES, 200),
+    mainRoleShare: num(env.LOL_STATS_MAIN_ROLE_SHARE, DEFAULT_MAIN_ROLE_SHARE),
     pools: {
       low: { pages: num(env.LOL_STATS_BAND_PAGES_LOW, 2), games: num(env.LOL_STATS_BAND_GAMES_LOW, 4000), gamesPerPlayer: num(env.LOL_STATS_BAND_GAMES_PER_PLAYER, 20) },
       mid: { pages: num(env.LOL_STATS_BAND_PAGES_MID, 2), games: num(env.LOL_STATS_BAND_GAMES_MID, 2500), gamesPerPlayer: num(env.LOL_STATS_BAND_GAMES_PER_PLAYER, 20) },

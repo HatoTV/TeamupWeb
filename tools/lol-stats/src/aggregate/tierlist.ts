@@ -1,9 +1,10 @@
 import { RANK_BAND_KEYS, bandOf, type Config, type RankBand } from '../config.ts';
 import { ROLES, type GameRecord, type Role } from '../extract/game.ts';
 import { siteRole, type TierListJson } from '../schema.ts';
+import { MainRoles } from './roles.ts';
 import { TIERS, rate, round, wilsonLower, type TierRank } from './stats.ts';
 
-export type TierListConfig = Pick<Config, 'lowSampleGames' | 'tierPickWeight' | 'tierPickCap' | 'tierCuts'>;
+export type TierListConfig = Pick<Config, 'lowSampleGames' | 'tierPickWeight' | 'tierPickCap' | 'tierCuts'> & Partial<Pick<Config, 'mainRoleShare'>>;
 
 interface Count {
   games: number;
@@ -34,8 +35,11 @@ export class TierListCounter {
   /** Games per band, weighted: each participant of the band counts for 1/10 of the game. */
   readonly totals = new Map<RankBand, number>();
   readonly counts = new Map<string, Count>();
+  /** Main roles of each champion over every band: off-role picks are neither ranked nor listed. */
+  readonly roles = new MainRoles();
 
   add(game: GameRecord): void {
+    this.roles.add(game);
     for (const p of game.participants) {
       const band = bandOf(p.tier ?? game.tier);
       this.totals.set(band, (this.totals.get(band) ?? 0) + 0.1);
@@ -55,7 +59,8 @@ export class TierListCounter {
       for (const role of ROLES) {
         const entries = [...this.counts]
           .filter(([key]) => key.startsWith(`${band}|${role}|`))
-          .map(([key, c]) => ({ championId: Number(key.split('|')[2]), role: role as Role, ...c, pickRate: rate(c.games, total) }));
+          .map(([key, c]) => ({ championId: Number(key.split('|')[2]), role: role as Role, ...c, pickRate: rate(c.games, total) }))
+          .filter((e) => this.roles.isMain(e.championId, e.role, config.mainRoleShare));
         const ranked = entries
           .filter((e) => e.games >= config.lowSampleGames)
           .map((e) => ({ ...e, score: tierListScore(e.wins, e.games, e.pickRate, config) }))

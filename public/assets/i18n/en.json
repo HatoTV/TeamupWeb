@@ -964,7 +964,7 @@
     "UNRANKED": "Unranked",
     "UNRANKED_NOTE": "Fewer than {{n}} games in this rank range: not reliable enough to be ranked.",
     "METHOD_TITLE": "How the tier is computed.",
-    "METHOD": "Win rate adjusted for the number of games, then pick rate, over the ranked games of the patch, for this rank range and this role. The badge shows the raw win rate. Hover over a champion to see its pick rate and number of games.",
+    "METHOD": "Win rate adjusted for the number of games, then pick rate, over the ranked games of the patch, for this rank range and this role. Only each champion's main roles are ranked (at least 10% of their games this patch): an Evelynn ADC played a few times does not appear. The badge shows the raw win rate. Hover over a champion to see its pick rate and number of games.",
     "NOT_ENOUGH": "Not enough games in this rank range yet, check back soon."
   }
 }

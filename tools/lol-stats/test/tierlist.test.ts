@@ -4,6 +4,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { describe, it } from 'node:test';
 import { wilsonLower } from '../src/aggregate/stats.ts';
+import { MainRoles } from '../src/aggregate/roles.ts';
 import { TierListCounter, tierAt, tierListScore } from '../src/aggregate/tierlist.ts';
 import { bandOf, filtersForTier, loadConfig, type SampledTier } from '../src/config.ts';
 import { crawl, gamesPrefix } from '../src/crawl.ts';
@@ -85,6 +86,36 @@ describe('tier list', () => {
     // Pick rate = games of the champion in the role / games of the band (550 games here).
     assert.equal(mid!.totalGames, 550);
     assert.equal(entries[0]!.pickRate, Math.round((300 / 550) * 1e4) / 1e4);
+  });
+
+  it('main roles: at least 10 % of the champion games, the most played role always', () => {
+    const roles = new MainRoles();
+    // Yasuo-like: mid 61 %, top 21 %, adc 17 %, support 1 %.
+    for (const [role, n] of [['MIDDLE', 610], ['TOP', 210], ['BOTTOM', 170], ['UTILITY', 10]] as const) roles.count(157, role, n);
+    // A one-trick role, and a champion spread thinly over five roles.
+    roles.count(28, 'JUNGLE', 970);
+    roles.count(28, 'BOTTOM', 3);
+    for (const role of ROLES) roles.count(1, role, 20);
+    const main = roles.resolve();
+    assert.deepEqual([...main.get(157)!], ['MIDDLE', 'TOP', 'BOTTOM']);
+    assert.deepEqual([...main.get(28)!], ['JUNGLE']);
+    assert.equal(main.get(1)!.size, 5);
+    assert.ok(!roles.isMain(157, 'UTILITY'));
+    assert.ok(roles.isMain(157, 'UTILITY', 0.01), 'threshold is configurable');
+  });
+
+  it('off-role picks (under 10 % of the champion games) are neither ranked nor listed as unranked', () => {
+    // Champion 8: 2 000 jungle games, 210 ADC games (9.5 %) and 150 mid games (6.4 %), all in the Diamond band.
+    const [, mid] = filesOf([...games('DIAMOND', 8, 'JUNGLE', 2000, 1000), ...games('DIAMOND', 8, 'BOTTOM', 210, 150), ...games('DIAMOND', 8, 'MIDDLE', 150, 90)]);
+    tierListSchema.parse(mid);
+    assert.deepEqual(mid!.champions.filter((c) => c.championId === 8).map((c) => c.role), ['jungle']);
+    assert.ok(!mid!.unranked.some((c) => c.championId === 8));
+  });
+
+  it('main roles are shared by every band: a role played only in one band still counts as main elsewhere', () => {
+    const [low, mid] = filesOf([...games('GOLD', 9, 'TOP', 300, 150), ...games('EMERALD', 9, 'MIDDLE', 250, 130)]);
+    assert.deepEqual(low!.champions.filter((c) => c.championId === 9).map((c) => c.role), ['top']);
+    assert.deepEqual(mid!.champions.filter((c) => c.championId === 9).map((c) => c.role), ['mid']);
   });
 
   it('games of a band never count in another band', () => {

@@ -1022,7 +1022,7 @@
     "UNRANKED": "Non classés",
     "UNRANKED_NOTE": "Moins de {{n}} parties dans cette tranche : pas assez fiable pour un classement.",
     "METHOD_TITLE": "Comment le tier est calculé.",
-    "METHOD": "Taux de victoire corrigé selon le nombre de parties, puis taux de pick, sur les parties classées du patch, pour cette tranche de rang et ce rôle. La pastille affiche le taux de victoire brut. Survole un champion pour voir son taux de pick et son nombre de parties.",
+    "METHOD": "Taux de victoire corrigé selon le nombre de parties, puis taux de pick, sur les parties classées du patch, pour cette tranche de rang et ce rôle. Seuls les rôles principaux de chaque champion sont classés (au moins 10 % de ses parties du patch) : une Evelynn ADC jouée quelques fois n'apparaît pas. La pastille affiche le taux de victoire brut. Survole un champion pour voir son taux de pick et son nombre de parties.",
     "NOT_ENOUGH": "Pas encore assez de parties dans cette tranche, reviens bientôt."
   }
 }

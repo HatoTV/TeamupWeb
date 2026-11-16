@@ -4,6 +4,7 @@ import type { ExclusiveGroups } from '../extract/items.ts';
 import { maxOrder } from '../extract/skills.ts';
 import { siteRole, type BuildJson, type ChampionBuildJson, type IndexJson, type SiteRole } from '../schema.ts';
 import { buildKey, mainItems, mainTimes, nextSlots, selectBuilds, type BuildCandidate, type SelectedBuild } from './builds.ts';
+import { MainRoles } from './roles.ts';
 import { Histogram, rate, round, tierRanks, tierScores, wilsonLower, type TierRank } from './stats.ts';
 import { summaryTexts, type Names } from './summary.ts';
 
@@ -83,7 +84,8 @@ export interface AggregateInput {
   config: Pick<
     Config,
     'minBuildGames' | 'minBuildShare' | 'offMetaMinShare' | 'offMetaMaxShare' | 'offMetaMinGames' | 'altMinShare' | 'altMinGames' | 'lateShare' | 'minMatchupGames' | 'lowSampleGames'
-  >;
+  > &
+    Partial<Pick<Config, 'mainRoleShare'>>;
 }
 
 export interface AggregateOutput {
@@ -121,9 +123,12 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
   const counters = new Map<string, ChampionRoleCounters>();
   /** Players of the scope in each role (`scope|ROLE`): the pick rate is a share of the role, two players per game. */
   const roleTotals = new Map<string, number>();
+  /** Main roles of each champion, over every participant of the patch (all ranks, even outside the build filters). */
+  const mainRoles = new MainRoles();
 
   for await (const game of input.games()) {
     input.onGame?.(game);
+    mainRoles.add(game);
     const legacy = isLegacy(game);
     const inScope = new Map<string, number>();
     for (const p of game.participants) {
@@ -163,6 +168,11 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
       bans.set(scope, banMap);
     }
   }
+
+  // Off-role picks (champion / role outside his main roles) are dropped: no file, no index entry, no tier, and they
+  // are never shown as an opponent or a duo partner.
+  const isMain = (champion: number, role: Role) => mainRoles.isMain(champion, role, config.mainRoleShare);
+  for (const [key, cr] of counters) if (!isMain(cr.champion, cr.role)) counters.delete(key);
 
   // ---------- Build selection ----------
   const selected = new Map<string, SelectedBuild[]>();
@@ -235,7 +245,7 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
       byChampion.set(cr.champion, entry);
 
       const builds = (selected.get(key) ?? []).map((b) => buildJson(b, cr, details.get(key)?.get(b.key), input.exclusive, config));
-      const opponents = [...cr.opponents.entries()].filter(([, o]) => o.games >= config.minMatchupGames);
+      const opponents = [...cr.opponents.entries()].filter(([champion, o]) => o.games >= config.minMatchupGames && isMain(champion, cr.role));
       const byWin = [...opponents].sort((a, b) => rate(a[1].wins, a[1].games) - rate(b[1].wins, b[1].games));
       const weakAgainst = byWin.slice(0, 6).map(([champion, o]) => ({ champion, games: o.games, winRate: round(rate(o.wins, o.games)) }));
       const strongAgainst = byWin
@@ -245,7 +255,7 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
         .map(([champion, o]) => ({ champion, games: o.games, winRate: round(rate(o.wins, o.games)) }));
       const synergyRole = siteRole(SYNERGY_ROLE[cr.role]);
       const synergy = [...cr.mates.entries()]
-        .filter(([, m]) => m.games >= config.minMatchupGames)
+        .filter(([champion, m]) => m.games >= config.minMatchupGames && isMain(champion, SYNERGY_ROLE[cr.role]))
         .sort((a, b) => wilsonLower(b[1].wins, b[1].games) - wilsonLower(a[1].wins, a[1].games))
         .slice(0, 6)
         .map(([champion, m]) => ({ champion, role: synergyRole, games: m.games, winRate: round(rate(m.wins, m.games)) }));

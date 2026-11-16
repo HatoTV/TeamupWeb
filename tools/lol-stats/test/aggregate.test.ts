@@ -275,6 +275,50 @@ describe('aggregate on real games', () => {
   });
 });
 
+describe('aggregate: main roles only', () => {
+  const FIXTURES = new URL('../fixtures/', import.meta.url);
+  const catalog = buildItemCatalog(JSON.parse(readFileSync(new URL('item-16.22.json', FIXTURES), 'utf8')).data);
+  const names = { champions: { fr: new Map(), en: new Map() }, items: { fr: new Map(), en: new Map() } };
+  const file = readdirSync(FIXTURES).find((f) => f.startsWith('TEST_'))!;
+  const { match, timeline } = JSON.parse(readFileSync(new URL(file, FIXTURES), 'utf8'));
+  const base = extractGame(match, timeline, { patches: ['16.22'], platform: 'EUW1', tier: 'MASTER', catalog, minDurationS: 900 }) as GameRecord;
+
+  it('drops the champion / role pairs under 10 % of the champion games: no file, no index entry, never an opponent', async () => {
+    // 10 copies of the game, then one where the top laner and the jungler of the first team swap roles:
+    // each of them plays 1 game of 11 (9 %) outside his role.
+    const top = base.participants.find((p) => p.role === 'TOP')!;
+    const jungle = base.participants.find((p) => p.role === 'JUNGLE' && p.win === top.win)!;
+    const copies: GameRecord[] = Array.from({ length: 10 }, (_, i) => ({ ...base, id: `${base.id}_${i}` }));
+    const swapped: GameRecord = {
+      ...base,
+      id: `${base.id}_swap`,
+      participants: base.participants.map((p) => (p === top ? { ...p, role: 'JUNGLE' } : p === jungle ? { ...p, role: 'TOP' } : p)),
+    };
+    const out = await aggregate({
+      patch: '16.22',
+      platforms: ['EUW1'],
+      games: () => [...copies, swapped],
+      previous: new Map(),
+      names,
+      exclusive: new Map(),
+      config: { ...RULES, ...SLOT_RULES, minBuildGames: 1, minBuildShare: 0, minMatchupGames: 1, lowSampleGames: 500 },
+    });
+    const pairs = (filter: string) => out.files.filter((f) => f.filter === filter).map((f) => `${f.champion}|${f.role}`);
+    assert.equal(pairs('master_plus').length, 10, 'only the ten main champion / role pairs');
+    assert.ok(!pairs('master_plus').includes(`${top.champion}|jungle`));
+    assert.ok(!pairs('master_plus').includes(`${jungle.champion}|top`));
+    const index = out.indexes.find((i) => i.filter === 'master_plus')!;
+    indexSchema.parse(index);
+    assert.deepEqual(index.champions.find((c) => c.champion === top.champion)!.roles.map((r) => r.role), ['top']);
+    // The off-role top laner (the jungler) is not an opponent of the enemy top laner.
+    const enemyTop = out.files.find((f) => f.filter === 'master_plus' && f.role === 'top' && f.champion !== top.champion)!;
+    assert.ok(![...enemyTop.weakAgainst, ...enemyTop.strongAgainst].some((o) => o.champion === jungle.champion));
+    assert.ok(enemyTop.weakAgainst.some((o) => o.champion === top.champion) || enemyTop.strongAgainst.some((o) => o.champion === top.champion));
+    // Win counts of the kept pairs ignore the off-role game: 10 games each.
+    assert.equal(out.files.find((f) => f.filter === 'master_plus' && f.champion === top.champion)!.games, 10);
+  });
+});
+
 describe('aggregate with the tier of each player', () => {
   const FIXTURES = new URL('../fixtures/', import.meta.url);
   const catalog = buildItemCatalog(JSON.parse(readFileSync(new URL('item-16.22.json', FIXTURES), 'utf8')).data);

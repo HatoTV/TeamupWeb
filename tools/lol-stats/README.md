@@ -42,6 +42,7 @@ La clé Riot est lue dans `tools/lol-stats/.env` (`RIOT_API_KEY=RGAPI-…`, igno
 | `LOL_STATS_BAND_PAGES_LOW`, `LOL_STATS_BAND_GAMES_LOW` | `2`, `4000` | Tranche Fer → Or (échantillon) : pages de 205 joueurs par division d'Or, Argent, Bronze et Fer, et nouvelles parties par collecte et par région (0 = tranche non collectée). |
 | `LOL_STATS_BAND_PAGES_MID`, `LOL_STATS_BAND_GAMES_MID` | `2`, `2500` | Platine (échantillon, complète Émeraude et Diamant dans la tranche Platine → Diamant) : idem. |
 | `LOL_STATS_BAND_GAMES_PER_PLAYER` | `20` | Parties les plus récentes regardées par joueur échantillonné (l'échantillon couvre plus de joueurs). |
+| `LOL_STATS_MAIN_ROLE_SHARE` | `0.1` | Rôles principaux : un rôle compte s'il représente au moins 10 % des parties du champion sur le patch (le plus joué compte toujours). |
 | `LOL_STATS_TIER_PICK_WEIGHT`, `LOL_STATS_TIER_PICK_CAP` | `0.06`, `10` | Tier list : bonus de pick (coefficient, plafond en %). |
 | `LOL_STATS_TIER_CUTS` | `0.08,0.22,0.45,0.7,0.88` | Tier list : seuils de percentile de S+, S, A, B et C (le reste est D). |
 | `LOL_STATS_STATE_DIR` | `tools/lol-stats/.state` | État local (développement). |
@@ -65,6 +66,8 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
 
 ## Calculs
 
+- **Rôles principaux** : pour chaque champion, part de ses parties dans chaque rôle, sur toutes les parties du patch (tous rangs, toutes régions). Un rôle est principal s'il atteint `LOL_STATS_MAIN_ROLE_SHARE` (10 %) ; le rôle le plus joué l'est toujours. Les autres couples champion / rôle (Evelynn ADC, Yasuo support…) sont ignorés partout : pas de fichier de build, pas d'entrée dans `index.json` ni dans la tier list (même en `unranked`), pas de tier, et jamais proposés comme adversaire ou duo. Les rôles sont recalculés à chaque publication : ils suivent la méta.
+
 - **Pondération par joueur** : une partie compte pour 1/10 dans un filtre par joueur de ce filtre. Le taux de pick est la part du champion parmi les joueurs du rôle dans le filtre, × 2 (deux joueurs par rôle et par partie), plafonnée à 1.
 
 - **Taux** :
@@ -72,7 +75,7 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
   - pick = parties du champion dans le rôle / parties du palier ;
   - ban = parties où il est banni / parties du palier ;
   - delta = écart avec le patch précédent (même palier).
-- **Tier** (par rôle, parmi les champions avec au moins `LOL_STATS_MIN_MATCHUP_GAMES` parties dans le rôle) :
+- **Tier** (par rôle, parmi les champions dont c'est un rôle principal, avec au moins `LOL_STATS_MIN_MATCHUP_GAMES` parties dans le rôle) :
 
   ```
   score = z(borne basse de Wilson 95 % du taux de victoire) + 0,5 × z(ln taux de pick) + 0,25 × z(taux de ban)
@@ -90,7 +93,7 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
 - **Objets exclusifs** (déduits de Data Dragon, qui n'a pas de champ « groupe ») : une seule paire de bottes, un seul objet construit à partir de la Larme de la déesse, un seul objet par passif unique partagé (Ligne de vie, Lame enchantée, Fendoir…).
 - **Matchups** : Faible contre / Fort contre (6 adversaires de lane, au moins 50 parties), meilleure synergie (jungle pour top et mid, support pour ADC et inversement, mid pour jungle).
 
-- **Tier list** (par patch × tranche × rôle × champion) : tranches `low` (Fer → Or), `mid` (Platine → Diamant), `elite` (Maître → Challenger). Un participant compte dans la tranche de son propre palier quand il est dans une liste de joueurs collectés, sinon dans celle de la partie (palier le plus bas des joueurs collectés de la partie). Pondération : chaque participant compte pour 1/10 de partie dans sa tranche.
+- **Tier list** (par patch × tranche × rôle × champion) : tranches `low` (Fer → Or), `mid` (Platine → Diamant), `elite` (Maître → Challenger). Un participant compte dans la tranche de son propre palier quand il est dans une liste de joueurs collectés, sinon dans celle de la partie (palier le plus bas des joueurs collectés de la partie). Pondération : chaque participant compte pour 1/10 de partie dans sa tranche. Seuls les rôles principaux du champion (calculés sur toutes les tranches) sont classés ou listés.
   - victoire = victoires / parties ; pick = parties du champion dans le rôle / parties de la tranche ;
   - moins de `LOL_STATS_LOW_SAMPLE_GAMES` (200) parties : pas de tier, liste `unranked` ;
   - sinon `score = 100 × borne basse de Wilson 95 % + 0,06 × min(pick en %, 10)`, tri décroissant, puis percentile `p = (rang + 0,5) / n` : `p < 0,08` S+, `< 0,22` S, `< 0,45` A, `< 0,70` B, `< 0,88` C, sinon D (un tier peut être vide).

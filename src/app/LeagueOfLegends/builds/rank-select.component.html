@@ -1,0 +1,33 @@
+<button
+  #button
+  type="button"
+  class="trigger"
+  [class.is-open]="open()"
+  aria-haspopup="listbox"
+  [attr.aria-controls]="id"
+  [attr.aria-expanded]="open()"
+  [attr.aria-label]="('BUILDS.RANK' | translate) + ' : ' + ('BUILDS.FILTERS.' + value() | translate)"
+  (click)="toggle()"
+  (keydown)="onButtonKey($event)"
+>
+  <img [src]="emblem(value())" alt="" width="28" height="28" />
+  <span class="trigger__label">{{ 'BUILDS.FILTERS.' + value() | translate }}</span>
+  <svg class="trigger__chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+</button>
+
+<div #list [id]="id" class="list" role="listbox" [attr.aria-label]="'BUILDS.RANK' | translate" [hidden]="!open()" (keydown)="onListKey($event)">
+  @for (group of [{ key: 'PLUS', items: plus() }, { key: 'EXACT', items: exact() }]; track group.key) {
+    @if (group.items.length) {
+      <div class="group" role="group" [attr.aria-labelledby]="id + '-' + group.key">
+        <div class="group__label" [id]="id + '-' + group.key" role="presentation">{{ 'BUILDS.FILTER_GROUP_' + group.key | translate }}</div>
+        @for (f of group.items; track f) {
+          <div class="option" role="option" tabindex="-1" [class.is-on]="f === value()" [attr.aria-selected]="f === value()" (click)="select(f)">
+            <img [src]="emblem(f)" alt="" width="30" height="30" loading="lazy" />
+            <span class="option__label">{{ 'BUILDS.FILTERS.' + f | translate }}</span>
+            <svg class="option__check" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+          </div>
+        }
+      </div>
+    }
+  }
+</div>

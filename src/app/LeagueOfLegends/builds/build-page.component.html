@@ -101,27 +101,7 @@
         </button>
       }
     </div>
-    <label class="select">
-      <span class="sr-only">{{ 'BUILDS.RANK' | translate }}</span>
-      <select [value]="filter()" (change)="setQuery({ rank: $any($event.target).value, build: null })">
-        <optgroup [label]="'BUILDS.FILTER_GROUP_PLUS' | translate">
-          @for (f of filters(); track f) {
-            @if (!isExact(f)) {
-              <option [value]="f" [selected]="f === filter()">{{ 'BUILDS.FILTERS.' + f | translate }}</option>
-            }
-          }
-        </optgroup>
-        @if (hasExact()) {
-          <optgroup [label]="'BUILDS.FILTER_GROUP_EXACT' | translate">
-            @for (f of filters(); track f) {
-              @if (isExact(f)) {
-                <option [value]="f" [selected]="f === filter()">{{ 'BUILDS.FILTERS.' + f | translate }}</option>
-              }
-            }
-          </optgroup>
-        }
-      </select>
-    </label>
+    <app-rank-select [filters]="filters()" [value]="filter()" (valueChange)="setQuery({ rank: $event, build: null })" />
     <label class="select">
       <span class="sr-only">{{ 'BUILDS.REGION' | translate }}</span>
       <select [value]="region()" [disabled]="(meta()?.regions?.length ?? 1) < 2" (change)="setQuery({ region: $any($event.target).value })">

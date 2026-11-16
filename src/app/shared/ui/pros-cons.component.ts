@@ -53,6 +53,7 @@ import { SafeHtmlPipe } from '../../safe-html.pipe';
       .pc__title {
         margin-bottom: 8px;
         font-family: var(--font-display);
+        font-stretch: var(--stretch-heading);
         font-weight: 700;
         font-size: 20px;
         text-transform: uppercase;

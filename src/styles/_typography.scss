@@ -2,7 +2,8 @@
 
 .t-page-title {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-stretch: var(--stretch-hero);
+  font-weight: 800;
   font-style: italic;
   text-transform: uppercase;
   line-height: 0.92;
@@ -11,6 +12,7 @@
 
 .t-section-title {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -18,6 +20,7 @@
 
 .t-eyebrow {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.14em;
@@ -29,6 +32,14 @@
   font-size: var(--text-guide-size);
   line-height: var(--text-guide-line);
   color: var(--color-text-guide);
+}
+
+// Highlighted figures (rates, counts, step numbers): never narrow, always aligned.
+.num {
+  font-family: var(--font-numeric);
+  font-stretch: 100%;
+  font-variant-numeric: tabular-nums;
+  font-style: normal;
 }
 
 .t-accent {
@@ -47,6 +58,7 @@
   border-radius: var(--radius-control);
   background: transparent;
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 0.06em;

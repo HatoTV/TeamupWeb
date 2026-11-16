@@ -85,7 +85,9 @@ let nextId = 0;
         padding: 0 3px;
         border-radius: 4px;
         background: rgba(13, 13, 24, 0.85);
-        font: 700 12px var(--font-display);
+        font: 700 12px var(--font-numeric);
+        font-stretch: 100%;
+        font-variant-numeric: tabular-nums;
         color: var(--gi-badge, var(--color-text));
       }
       .gi__tip {

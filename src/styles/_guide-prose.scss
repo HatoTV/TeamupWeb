@@ -17,11 +17,13 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: color-mix(in srgb, var(--game-accent) 60%, #fff);
+    font-variant-numeric: tabular-nums;
   }
 
   h2 {
     margin-top: 4px;
     font-family: var(--font-display);
+    font-stretch: var(--stretch-heading);
     font-weight: 700;
     font-size: clamp(28px, 3.4vw, 34px);
     line-height: 1.05;
@@ -147,6 +149,7 @@
 
   .info-card__title {
     font-family: var(--font-display);
+    font-stretch: var(--stretch-heading);
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 0.01em;

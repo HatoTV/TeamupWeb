@@ -28,7 +28,8 @@ export const ROLE_ORDER: readonly Role[] = ['top', 'jungle', 'mid', 'adc', 'supp
 /** 0.5123 → "51,2 %" (fr) / "51.2%" (en). */
 export function formatRate(value: number, lang: Lang, digits = 1): string {
   const n = (value * 100).toFixed(digits);
-  return lang === 'fr' ? `${n.replace('.', ',')} %` : `${n}%`;
+  // Narrow no-break space (U+202F) before % in French, so the sign never wraps alone.
+  return lang === 'fr' ? `${n.replace('.', ',')}\u202f%` : `${n}%`;
 }
 
 /** Delta in rate points: 0.004 → "▲ 0,4" ; null when |delta| < 0.05 point. */

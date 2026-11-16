@@ -48,7 +48,9 @@ import { SafeHtmlPipe } from '../../safe-html.pipe';
         border-radius: 7px;
         background: var(--color-surface-active);
         color: var(--color-gold);
-        font: 700 16px var(--font-display);
+        font: 700 16px var(--font-numeric);
+        font-stretch: 100%;
+        font-variant-numeric: tabular-nums;
       }
       .steps__text {
         min-width: 0;

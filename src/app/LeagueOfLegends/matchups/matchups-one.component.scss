@@ -112,6 +112,7 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
   color: var(--diff-2-text);
 }
 
@@ -132,7 +133,8 @@
 }
 
 .owner__name {
-  font: italic 700 44px/1 var(--font-display);
+  font: italic 800 44px/1 var(--font-display);
+  font-stretch: var(--stretch-hero);
   text-transform: uppercase;
 }
 
@@ -259,11 +261,14 @@ button.col__head {
   flex: 1;
   min-width: 0;
   font: 700 20px var(--font-display);
+  font-stretch: var(--stretch-heading);
   text-transform: uppercase;
 }
 
 .col__count {
-  font: 700 20px var(--font-display);
+  font: 700 20px var(--font-numeric);
+  font-stretch: 100%;
+  font-variant-numeric: tabular-nums;
 }
 
 .col__chevron {
@@ -339,6 +344,7 @@ button.col__head {
   border-radius: var(--radius-control);
   background: transparent;
   font: 700 15px var(--font-display);
+  font-stretch: var(--stretch-heading);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   cursor: pointer;

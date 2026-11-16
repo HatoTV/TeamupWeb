@@ -47,6 +47,7 @@
   align-items: center;
   gap: var(--space-2);
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 0.14em;
@@ -140,9 +141,11 @@
 
 .game-card__name {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-hero); // narrow cards: game names on one line
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.05;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
 }
 
@@ -270,6 +273,7 @@
 
 .tool__kicker {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.12em;
@@ -280,6 +284,7 @@
 .tool__title {
   margin-top: 6px;
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 34px;
   line-height: 1;
@@ -339,6 +344,7 @@
 
 .versus__vs {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-style: italic;
   font-weight: 700;
   font-size: 28px;
@@ -404,6 +410,7 @@
 
 .platform__quote {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-style: italic;
   font-weight: 700;
   font-size: 24px;
@@ -428,9 +435,10 @@
 }
 
 .ranks__value {
-  font-family: var(--font-display);
+  font-family: var(--font-numeric);
+  font-stretch: 100%;
+  font-variant-numeric: tabular-nums;
   font-weight: 700;
-  font-style: italic;
   font-size: 88px;
   line-height: 0.9;
   color: var(--color-gold);
@@ -557,8 +565,9 @@
   z-index: 1;
   left: 24px;
   bottom: 12px;
-  font-family: var(--font-display);
-  font-style: italic;
+  font-family: var(--font-numeric);
+  font-stretch: 100%;
+  font-variant-numeric: tabular-nums;
   font-weight: 700;
   font-size: 44px;
   line-height: 1;
@@ -570,7 +579,8 @@
 }
 
 .pillar__title {
-  font-size: 26px;
+  font-size: 24px;
+  font-stretch: var(--stretch-hero); // three columns: titles on one line
 }
 
 .pillar__text {
@@ -633,6 +643,7 @@
 .cta__motto {
   margin-top: 14px;
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 22px;
   letter-spacing: 0.04em;

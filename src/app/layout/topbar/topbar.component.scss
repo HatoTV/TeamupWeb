@@ -32,7 +32,8 @@
 
 .brand__word {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-stretch: var(--stretch-heading);
+  font-weight: 800;
   font-size: 22px;
   letter-spacing: 0.04em;
 }

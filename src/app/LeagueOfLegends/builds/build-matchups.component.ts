@@ -66,7 +66,8 @@ export interface MatchupCard {
         border-bottom: 1px solid var(--color-separator);
         box-shadow: inset 0 3px 0 var(--mu);
         font: 700 17px var(--font-display);
-        letter-spacing: 0.06em;
+        font-stretch: var(--stretch-heading);
+        letter-spacing: 0.02em;
         text-transform: uppercase;
       }
       .mu__grid {
@@ -98,7 +99,9 @@ export interface MatchupCard {
         text-align: center;
       }
       .mu__wr {
-        font: 700 16px var(--font-display);
+        font: 700 16px var(--font-numeric);
+        font-stretch: 100%;
+        font-variant-numeric: tabular-nums;
         color: var(--mu);
       }
       .mu__empty {
@@ -121,10 +124,12 @@ export interface MatchupCard {
         font-weight: 700;
         letter-spacing: 0.12em;
         text-transform: uppercase;
+        font-stretch: var(--stretch-heading);
         color: #c3b0ff;
       }
       .cta__title {
         font: 700 24px/1.05 var(--font-display);
+        font-stretch: var(--stretch-heading);
         text-transform: uppercase;
       }
       .cta__text {

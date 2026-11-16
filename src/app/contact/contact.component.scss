@@ -66,6 +66,7 @@
 
 .identity__role {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 0.16em;
@@ -149,6 +150,7 @@
 
 .story__lead {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 30px;
   line-height: 1.2;
@@ -171,6 +173,7 @@
 
 .socials__title {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.14em;

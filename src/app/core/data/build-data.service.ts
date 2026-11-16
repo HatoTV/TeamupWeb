@@ -89,6 +89,18 @@ export interface BuildMeta {
   sample?: boolean;
 }
 
+/** Tier list of one patch and one rank band (`data/lol/tierlist/{patch}/{band}.json`), the five roles. */
+export interface TierList {
+  patch: string;
+  band: 'low' | 'mid' | 'elite';
+  generatedAt: string;
+  totalGames: number;
+  /** Reliability threshold: champions of a role under this many games are not ranked. */
+  minGames: number;
+  champions: Array<{ championId: number; role: Role; tier: TierRank; games: number; wins: number; winRate: number; pickRate: number }>;
+  unranked: Array<{ championId: number; role: Role; games: number }>;
+}
+
 export interface StaticRune {
   id: number;
   name: string;
@@ -141,6 +153,10 @@ export class BuildDataService {
 
   build(patch: string, filter: BuildFilter, ddragonId: string, role: Role, region = 'all'): Promise<ChampionBuild | null> {
     return this.get<ChampionBuild>(`data/lol/builds/${patch}/${filter}/${region === 'all' ? '' : `${region}/`}${ddragonId}_${role}.json`);
+  }
+
+  tierList(patch: string, band: TierList['band']): Promise<TierList | null> {
+    return this.get<TierList>(`data/lol/tierlist/${patch}/${band}.json`);
   }
 
   core(version: string, lang: Lang): Promise<StaticCore | null> {

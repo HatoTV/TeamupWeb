@@ -504,6 +504,7 @@
     "LIVE": "En live",
     "OPEN_SEARCH": "Ouvrir la recherche",
     "CLOSE_SEARCH": "Fermer la recherche",
+    "TIER_LIST": "Tier list",
     "LOL_TOOLS": "Outils champions",
     "LOL_GUIDES": "Gameplay guides",
     "LOL_MENU": "Menu League of Legends",
@@ -985,5 +986,44 @@
       "timing": "Timing",
       "interaction": "Interaction"
     }
+  },
+  "TIERLIST": {
+    "SEO_TITLE": "Tier list LoL patch {{patch}} par rang et par rôle",
+    "SEO_DESC": "Les champions les plus forts de League of Legends au patch {{patch}}, rôle par rôle, pour Fer → Or, Platine → Diamant et Maître → Challenger. Mise à jour chaque jour à partir des parties classées.",
+    "KICKER": "Outil champions · Patch {{patch}}",
+    "TITLE": "Tier list",
+    "LEAD": "Les champions les plus forts du patch, selon ton rang et ton rôle. Clique sur un champion pour voir son build.",
+    "RANK": "Rang",
+    "RANK_LABEL": "Tranche de rang",
+    "RANK_BUTTON": "Tranche de rang : {{label}}",
+    "ROLE": "Rôle",
+    "BANDS": {
+      "low": "Fer → Or",
+      "mid": "Platine → Diamant",
+      "elite": "Maître → Challenger"
+    },
+    "BANDS_DETAIL": {
+      "low": "Fer · Bronze · Argent · Or",
+      "mid": "Platine · Émeraude · Diamant",
+      "elite": "Maître · Grand Maître · Challenger"
+    },
+    "WIN_RATE": "Taux de victoire",
+    "LEGEND_GOOD": "≥ 52 %",
+    "LEGEND_NEUTRAL": "50 – 52 %",
+    "LEGEND_BAD": "< 50 %",
+    "SELECTION": "Sélection",
+    "GAMES": "Parties analysées",
+    "RANKED": "Champions classés",
+    "BEST": "Meilleur taux de victoire",
+    "TIER_LABEL": "Tier {{tier}}",
+    "EMPTY_TIER": "Aucun champion dans ce tier pour cette sélection.",
+    "TIP_WIN": "Taux de victoire : {{v}}",
+    "TIP_PICK": "Taux de pick : {{v}}",
+    "N_GAMES": "{{n}} parties",
+    "UNRANKED": "Non classés",
+    "UNRANKED_NOTE": "Moins de {{n}} parties dans cette tranche : pas assez fiable pour un classement.",
+    "METHOD_TITLE": "Comment le tier est calculé.",
+    "METHOD": "Taux de victoire corrigé selon le nombre de parties, puis taux de pick, sur les parties classées du patch, pour cette tranche de rang et ce rôle. La pastille affiche le taux de victoire brut. Survole un champion pour voir son taux de pick et son nombre de parties.",
+    "NOT_ENOUGH": "Pas encore assez de parties dans cette tranche, reviens bientôt."
   }
 }

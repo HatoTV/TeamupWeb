@@ -69,6 +69,7 @@ export const ICONS = {
       { tag: 'path', d: 'M14.5 6.5L18 3h3v3l-3.5 3.5M5 14l4 4M7 17l-3 3M3 19l2 2' },
     ],
   },
+  'tier-bars': { mode: 'stroke', shapes: [{ tag: 'path', d: 'M4 6h16M4 12h11M4 18h6' }] },
   bag: {
     mode: 'stroke',
     shapes: [

@@ -200,7 +200,7 @@
                   <span class="pick__icons">
                     @if (rune(opt.keystone); as k) {
                       <span class="pick__key">
-                        <img [src]="data.runeIcon(k.icon)" [alt]="k.name" width="34" height="34" />
+                        <img [src]="data.runeIcon(k.icon)" [alt]="k.name" width="40" height="40" />
                         @if (tree(opt.subStyle); as t) {
                           <img class="pick__tree" [src]="data.runeIcon(t.icon)" [alt]="t.name" width="16" height="16" />
                         }
@@ -208,7 +208,7 @@
                       <span class="pick__sep" aria-hidden="true"></span>
                     }
                     @for (id of opt.core; track id) {
-                      <img class="pick__item" [src]="item(id).src" [alt]="item(id).name" width="32" height="32" />
+                      <img class="pick__item" [src]="item(id).src" [alt]="item(id).name" width="38" height="38" />
                     }
                   </span>
                   <span class="pick__meta">{{ 'BUILDS.PICK_META' | translate: { games: ('BUILDS.N_GAMES' | translate: { n: fmtInt(opt.games) }), share: fmtRate(opt.share) } }}</span>
@@ -333,7 +333,7 @@
                     <p class="early__label">{{ 'BUILDS.START' | translate }}</p>
                     <div class="early__row">
                       @for (g of group(b.start.items); track g[0]) {
-                        <app-game-icon [src]="item(g[0]).src" [name]="item(g[0]).name" [desc]="item(g[0]).desc" [cost]="item(g[0]).cost" [size]="34" [badge]="g[1] > 1 ? g[1] + '' : null" />
+                        <app-game-icon [src]="item(g[0]).src" [name]="item(g[0]).name" [desc]="item(g[0]).desc" [cost]="item(g[0]).cost" [size]="42" [badge]="g[1] > 1 ? g[1] + '' : null" />
                       }
                     </div>
                   </div>
@@ -346,7 +346,7 @@
                     </p>
                     <div class="early__row">
                       @for (g of group(b.firstBuy.items); track g[0]) {
-                        <app-game-icon [src]="item(g[0]).src" [name]="item(g[0]).name" [desc]="item(g[0]).desc" [cost]="item(g[0]).cost" [size]="34" [badge]="g[1] > 1 ? g[1] + '' : null" />
+                        <app-game-icon [src]="item(g[0]).src" [name]="item(g[0]).name" [desc]="item(g[0]).desc" [cost]="item(g[0]).cost" [size]="42" [badge]="g[1] > 1 ? g[1] + '' : null" />
                       }
                     </div>
                   </div>

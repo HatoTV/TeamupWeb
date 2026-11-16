@@ -321,7 +321,7 @@ $inset: #12121f;
 // ---------- Three linked columns: builds · spells, runes & skills · items ----------
 .board {
   display: grid;
-  grid-template-columns: 280px minmax(0, 1.3fr) minmax(0, 1fr);
+  grid-template-columns: 320px minmax(0, 1.3fr) minmax(0, 0.85fr);
   grid-template-areas: 'builds runes items';
   align-items: stretch;
   gap: 16px;
@@ -420,8 +420,8 @@ $inset: #12121f;
 .pick__key {
   position: relative;
   flex: none;
-  width: 34px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
 
   img {
     display: block;
@@ -571,8 +571,8 @@ $inset: #12121f;
   li {
     padding: 2px 8px;
     border-radius: 5px;
-    background: var(--sk);
-    color: var(--color-night);
+    background: color-mix(in srgb, var(--sk) 16%, transparent);
+    color: var(--sk);
     font: 700 13px var(--font-display);
   }
 
@@ -638,8 +638,8 @@ $inset: #12121f;
     font: 700 12px var(--font-display);
 
     &.is-on {
-      background: var(--sk);
-      color: var(--color-night);
+      background: color-mix(in srgb, var(--sk) 16%, transparent);
+      color: var(--sk);
     }
   }
 }

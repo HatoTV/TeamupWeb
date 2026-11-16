@@ -111,8 +111,10 @@ export interface WinCount {
 }
 
 export interface SlotRules {
-  /** An alternative needs at least this share of the build's games at its slot. */
+  /** An alternative needs at least this share of the purchases made at its slot... */
   altMinShare: number;
+  /** ...and at least this many games. */
+  altMinGames: number;
   /** An item bought 6th in more than this share of its slot 4-6 purchases is not proposed 4th. */
   lateShare: number;
 }
@@ -137,12 +139,14 @@ const conflicts = (a: number, b: number, groups: ExclusiveGroups): boolean => {
 };
 
 /**
- * Items 4, 5 and 6 of a build, without any duplicate:
+ * Items 4, 5 and 6 of a build:
  * - slot N takes the item most bought at purchase position N, excluding every item already retained
- *   (core and earlier slots) and any item exclusive with them (one pair of boots, one Tear item…);
+ *   (core and earlier slots) and any item exclusive with them (one pair of boots, one Tear item…):
+ *   the main line has no duplicate;
  * - an item bought 6th in more than `lateShare` of its 4th-6th purchases is not proposed 4th;
- * - each slot gets at most 2 alternatives (the next most bought at that slot, at least `altMinShare` of the
- *   build's games), never already shown anywhere and never exclusive with the rest of the build.
+ * - each slot gets at most 2 alternatives: the next most bought at that slot, at least `altMinShare` of the
+ *   purchases made at that slot (fewer games reach the 6th item than the 4th) and `altMinGames` games, never
+ *   a core item nor an item exclusive with the core. An alternative may be shown at another slot too.
  */
 export function nextSlots(core: readonly number[], slots: readonly Map<number, WinCount>[], buildGames: number, groups: ExclusiveGroups, rules: SlotRules): NextSlot[] {
   const late = new Set<number>();
@@ -162,22 +166,24 @@ export function nextSlots(core: readonly number[], slots: readonly Map<number, W
     if (pick) shown.push(pick[0]);
   }
 
+  // Alternatives: the other items most bought at that slot. They may repeat an item shown at another slot
+  // (Rabadon often bought 4th or 5th), never the core nor an item exclusive with it.
   const result: NextSlot[] = [];
-  const altsOf: number[][] = [[], [], []];
-  for (let s = 0; s < 3; s++) {
-    const main = mains[s];
-    if (!main) continue;
-    // Items an alternative must not repeat or clash with: everything shown except this slot's own main item.
-    const others = () => [...core, ...mains.flatMap((m, i) => (m && i !== s ? [m.item] : [])), ...altsOf.flatMap((a, i) => (i !== s ? a : []))];
-    const alternatives: SlotItem[] = [];
-    for (const [item, c] of ranked(s)) {
-      if (alternatives.length === 2) break;
-      if (item === main.item || rate(c.games, buildGames) < rules.altMinShare || (s === 0 && late.has(item))) continue;
-      if (altsOf.some((a) => a.includes(item)) || others().some((x) => conflicts(x, item, groups))) continue;
-      alternatives.push(line(item, c));
-      altsOf[s]!.push(item);
-    }
+  mains.forEach((main, s) => {
+    if (!main) return;
+    const total = [...slots[s]!.values()].reduce((sum, c) => sum + c.games, 0);
+    const alternatives = ranked(s)
+      .filter(
+        ([item, c]) =>
+          item !== main.item &&
+          c.games >= rules.altMinGames &&
+          rate(c.games, total) >= rules.altMinShare &&
+          !(s === 0 && late.has(item)) &&
+          !core.some((x) => conflicts(x, item, groups))
+      )
+      .slice(0, 2)
+      .map(([item, c]) => line(item, c));
     result.push({ slot: (s + 4) as 4 | 5 | 6, ...main, alternatives });
-  }
+  });
   return result;
 }

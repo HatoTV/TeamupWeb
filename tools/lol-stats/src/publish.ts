@@ -169,6 +169,16 @@ export async function publishTierLists(config: Config, store: StateStore, ddrago
 }
 
 /** Uploads the changed files of a patch to the public bucket (content hashes in a manifest) and removes stale ones. */
+/** Runs `task` on every item, `workers` at a time. */
+async function inParallel<T>(items: readonly T[], task: (item: T) => Promise<void>, workers = 32): Promise<void> {
+  let i = 0;
+  await Promise.all(
+    Array.from({ length: workers }, async () => {
+      while (i < items.length) await task(items[i++]!);
+    })
+  );
+}
+
 async function uploadPatch(store: StateStore, publicStore: StateStore, outputDir: string, patch: string): Promise<{ uploaded: number; deleted: number }> {
   const root = join(outputDir, patch);
   const files: string[] = [];
@@ -190,17 +200,9 @@ async function uploadPatch(store: StateStore, publicStore: StateStore, outputDir
     next[key] = hash;
     if (manifest[key] !== hash) changed.push({ key, body });
   }
-  let i = 0;
-  await Promise.all(
-    Array.from({ length: 32 }, async () => {
-      while (i < changed.length) {
-        const { key, body } = changed[i++]!;
-        await publicStore.put(key, body, JSON_HEADERS);
-      }
-    })
-  );
+  await inParallel(changed, ({ key, body }) => publicStore.put(key, body, JSON_HEADERS));
   const stale = Object.keys(manifest).filter((key) => !(key in next));
-  for (const key of stale) await publicStore.delete(key);
+  await inParallel(stale, (key) => publicStore.delete(key));
   await putJson(store, manifestKey(patch), next);
   return { uploaded: changed.length, deleted: stale.length };
 }

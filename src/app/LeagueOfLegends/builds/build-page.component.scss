@@ -321,7 +321,7 @@ $inset: #12121f;
 // ---------- Three linked columns: builds · spells, runes & skills · items ----------
 .board {
   display: grid;
-  grid-template-columns: minmax(300px, 0.85fr) minmax(0, 1.1fr) minmax(0, 1fr);
+  grid-template-columns: 248px minmax(0, 1fr) minmax(0, 1.1fr);
   grid-template-areas: 'builds runes items';
   align-items: stretch;
   gap: 16px;
@@ -680,141 +680,214 @@ $inset: #12121f;
   }
 }
 
-.core {
+// Six-item line: core (gold) then the next items, their alternatives right under them. ADC: boots apart.
+.line-head {
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 20px 0 14px;
+
+  .items__label {
+    margin: 0;
+  }
+}
+
+.line-legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--color-text-subtle);
+}
+
+.line-legend__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 2px var(--color-gold);
+}
+
+.line {
+  container-type: inline-size;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+
+  &--boots {
+    grid-template-columns: minmax(0, 6fr) minmax(0, 1.1fr);
+  }
+}
+
+.line__items {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 16px 8px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.core__item {
-  flex: 0 1 auto;
+.slot {
   min-width: 0;
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-.core__arrow {
-  margin-top: 20px;
-  color: #6a6a8a;
-}
-
-.core__cell {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
-  flex: 0 1 84px;
-  min-width: 60px;
+  gap: 5px;
   text-align: center;
 }
 
-.core__icon {
-  position: relative;
+.slot--boots {
+  padding-left: 12px;
+  border-left: 1px dashed var(--color-line-strong);
 }
 
-.core__n {
+.slot__icon {
+  position: relative;
+  padding-top: 6px;
+}
+
+.slot__n {
   position: absolute;
-  left: -6px;
-  top: -6px;
+  left: -7px;
+  top: 0;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--color-gold);
-  color: var(--color-on-gold);
+  background: var(--color-surface-plus);
+  border: 1px solid var(--color-line-strong);
+  color: var(--color-text-secondary);
   display: flex;
   align-items: center;
   justify-content: center;
   font: 700 12px var(--font-display);
+
+  .slot--core & {
+    background: var(--color-gold);
+    border-color: var(--color-gold);
+    color: var(--color-on-gold);
+  }
 }
 
-.core__name {
+.slot__tag {
+  // Below the item on desktop: the boots icon stays aligned with the line.
+  order: 1;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--color-line-strong);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+
+  .slot--core & {
+    border-color: var(--color-gold);
+    color: var(--color-gold);
+  }
+}
+
+.slot__name {
+  // Two lines at most and always two lines high: the alternatives start at the same height.
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.4em;
   font-size: 12px;
   line-height: 1.2;
   color: var(--color-text-secondary);
 }
 
-.core__time {
+.slot__time,
+.slot__stats {
   font-size: 11px;
   font-weight: 700;
   color: var(--color-text-subtle);
 }
 
-.next {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.slot__stats {
+  font-weight: 600;
 }
 
-.next__row {
+.slot__wr {
+  color: var(--diff-2-text);
+}
+
+.slot__nw {
+  white-space: nowrap;
+}
+
+.alts {
+  align-self: stretch;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 12px;
-  padding: 10px 14px;
+  gap: 10px;
+  margin-top: 6px;
+  padding: 8px 4px 10px;
   border-radius: 10px;
   background: $inset;
   border: 1px solid var(--color-separator);
 }
 
-.next__n {
-  flex: none;
-  width: 22px;
-  font: 700 13px var(--font-display);
-  color: var(--color-text-muted);
-}
-
-.next__main {
-  flex: 1;
-  min-width: 0;
-}
-
-.next__name,
-.next__stats {
-  display: block;
-}
-
-.next__name {
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-.next__stats {
-  font-size: 11px;
+.alts__or {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--color-text-subtle);
 }
 
-.next__wr {
-  color: var(--diff-2-text);
-}
-
-.next__or {
-  flex: none;
-  font-size: 11px;
-  color: var(--color-text-subtle);
-}
-
-.next__alts {
-  flex: none;
+.alt {
   display: flex;
-  gap: 4px;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
 }
 
-// ---------- Small desktop: tighter builds column and core row ----------
-@media (max-width: 1439px) {
-  .board {
-    grid-template-columns: 280px minmax(0, 1.2fr) minmax(0, 1fr);
+.alt__stats {
+  font-size: 11px;
+  line-height: 1.15;
+  font-weight: 600;
+  color: var(--color-text-subtle);
+}
+
+// Narrow column (tablet, phone): two rows of three, the boots below.
+@container (max-width: 520px) {
+  .line__items {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1199px) {
+  .line--boots {
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .core,
-  .core__item {
-    gap: 6px;
+  .slot--boots {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 12px 0 0;
+    border-left: 0;
+    border-top: 1px dashed var(--color-line-strong);
+
+    .slot__tag {
+      order: 0;
+    }
+
+    .slot__name {
+      min-height: 0;
+    }
+  }
+}
+
+// ---------- Small desktop: tighter builds column ----------
+@media (max-width: 1439px) {
+  .board {
+    grid-template-columns: 224px minmax(0, 1.15fr) minmax(0, 1fr);
   }
 }
 
@@ -1088,9 +1161,5 @@ $inset: #12121f;
 
   .runes {
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  .next__row {
-    flex-wrap: wrap;
   }
 }

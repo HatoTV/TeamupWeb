@@ -127,7 +127,8 @@ export interface SlotItem extends WinCount {
 }
 
 export interface NextSlot extends SlotItem {
-  slot: 4 | 5 | 6;
+  /** Position in the six-item line (3 only for an ADC whose core holds the boots). */
+  slot: 3 | 4 | 5 | 6;
   alternatives: SlotItem[];
 }
 
@@ -139,28 +140,30 @@ const conflicts = (a: number, b: number, groups: ExclusiveGroups): boolean => {
 };
 
 /**
- * Items 4, 5 and 6 of a build:
+ * Items 4, 5 and 6 of a build (`count` slots, the last one being item 6: an ADC whose core holds the boots
+ * gets 4 slots, items 3 to 6 of a line without boots):
  * - slot N takes the item most bought at purchase position N, excluding every item already retained
  *   (core and earlier slots) and any item exclusive with them (one pair of boots, one Tear item…):
  *   the main line has no duplicate;
- * - an item bought 6th in more than `lateShare` of its 4th-6th purchases is not proposed 4th;
+ * - an item bought 6th in more than `lateShare` of its slot purchases is not proposed at the first slot;
  * - each slot gets at most 2 alternatives: the next most bought at that slot, at least `altMinShare` of the
  *   purchases made at that slot (fewer games reach the 6th item than the 4th) and `altMinGames` games, never
  *   a core item nor an item exclusive with the core. An alternative may be shown at another slot too.
  */
-export function nextSlots(core: readonly number[], slots: readonly Map<number, WinCount>[], buildGames: number, groups: ExclusiveGroups, rules: SlotRules): NextSlot[] {
+export function nextSlots(core: readonly number[], allSlots: readonly Map<number, WinCount>[], buildGames: number, groups: ExclusiveGroups, rules: SlotRules, count = 3): NextSlot[] {
+  const slots = allSlots.slice(0, count);
   const late = new Set<number>();
   const at = (s: number, item: number) => slots[s]?.get(item)?.games ?? 0;
   for (const item of new Set(slots.flatMap((s) => [...s.keys()]))) {
-    const total = at(0, item) + at(1, item) + at(2, item);
-    if (total > 0 && at(2, item) / total > rules.lateShare) late.add(item);
+    const total = slots.reduce((sum, _, s) => sum + at(s, item), 0);
+    if (total > 0 && at(count - 1, item) / total > rules.lateShare) late.add(item);
   }
   const ranked = (s: number) => [...(slots[s] ?? new Map<number, WinCount>()).entries()].sort((a, b) => b[1].games - a[1].games || a[0] - b[0]);
   const line = (item: number, c: WinCount): SlotItem => ({ item, games: c.games, wins: c.wins, winRate: round(rate(c.wins, c.games)), share: round(rate(c.games, buildGames)) });
 
   const shown: number[] = [...core];
   const mains: Array<SlotItem | null> = [];
-  for (let s = 0; s < 3; s++) {
+  for (let s = 0; s < count; s++) {
     const pick = ranked(s).find(([item]) => !(s === 0 && late.has(item)) && !shown.some((x) => conflicts(x, item, groups)));
     mains.push(pick ? line(pick[0], pick[1]) : null);
     if (pick) shown.push(pick[0]);
@@ -183,7 +186,7 @@ export function nextSlots(core: readonly number[], slots: readonly Map<number, W
       )
       .slice(0, 2)
       .map(([item, c]) => line(item, c));
-    result.push({ slot: (s + 4) as 4 | 5 | 6, ...main, alternatives });
+    result.push({ slot: (7 - count + s) as NextSlot['slot'], ...main, alternatives });
   });
   return result;
 }

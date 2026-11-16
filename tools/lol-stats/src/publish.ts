@@ -61,7 +61,7 @@ export interface AggregateReport {
 }
 
 /** Version of the published JSON format: a new version re-aggregates every patch, even without new games. */
-const FORMAT = 5;
+const FORMAT = 6;
 
 /** Last publication of a patch (state store): parts aggregated, games per scope, JSON format. */
 interface Published {

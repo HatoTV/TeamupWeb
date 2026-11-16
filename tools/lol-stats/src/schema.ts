@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { TIER_FILTERS } from './config.ts';
+import { RANK_BAND_KEYS, TIER_FILTERS, type RankBand } from './config.ts';
 import type { Role } from './extract/game.ts';
 import { TIERS } from './aggregate/stats.ts';
 import { BUILD_LABELS } from './aggregate/builds.ts';
@@ -103,3 +103,17 @@ export const metaSchema = z.object({
   sample: z.boolean().optional(),
 });
 export type MetaJson = z.infer<typeof metaSchema>;
+
+/** Tier list of one patch and one rank band (`tierlist/{patch}/{band}.json`), the five roles. */
+export const tierListSchema = z.object({
+  patch: z.string(),
+  band: z.enum(RANK_BAND_KEYS as [RankBand, ...RankBand[]]),
+  generatedAt: z.string(),
+  /** Games of the band (weighted: each participant of the band counts for 1/10 of a game). */
+  totalGames: games,
+  /** Reliability threshold: champions of a role under this many games have no tier. */
+  minGames: games,
+  champions: z.array(z.object({ championId: id, role: siteRoleSchema, tier: z.enum(TIERS), games, wins: games, winRate: rate, pickRate: rate })),
+  unranked: z.array(z.object({ championId: id, role: siteRoleSchema, games })),
+});
+export type TierListJson = z.infer<typeof tierListSchema>;

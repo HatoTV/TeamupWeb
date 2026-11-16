@@ -2,13 +2,14 @@ import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join, relative, sep } from 'node:path';
 import { aggregate } from './aggregate/aggregate.ts';
+import { TierListCounter } from './aggregate/tierlist.ts';
 import type { Names } from './aggregate/summary.ts';
 import { TIER_FILTERS, type Config } from './config.ts';
 import { gamesPrefix, resolvePatches, type PatchMeta } from './crawl.ts';
 import { COMMUNITY_DRAGON_PERKS, DataDragon, type Lang } from './ddragon.ts';
 import type { GameRecord } from './extract/game.ts';
 import { exclusiveGroups } from './extract/items.ts';
-import { championBuildSchema, indexSchema, metaSchema, type IndexJson, type MetaJson } from './schema.ts';
+import { championBuildSchema, indexSchema, metaSchema, tierListSchema, type IndexJson, type MetaJson, type TierListJson } from './schema.ts';
 import { decodeJsonl, getJson, putJson, type StateStore } from './state/store.ts';
 
 const MAX_FILE_BYTES = 30 * 1024;
@@ -60,7 +61,7 @@ export interface AggregateReport {
 }
 
 /** Version of the published JSON format: a new version re-aggregates every patch, even without new games. */
-const FORMAT = 2;
+const FORMAT = 3;
 
 /** Last publication of a patch (state store): parts aggregated, games per scope, JSON format. */
 interface Published {
@@ -99,7 +100,7 @@ export async function aggregatePatch(
 ): Promise<AggregateReport> {
   const keys = await store.list(gamesPrefix(meta.patch));
   const last = await getJson<Published>(store, publishedKey(meta.patch));
-  const hasOutput = existsSync(join(config.outputDir, meta.patch));
+  const hasOutput = existsSync(join(config.outputDir, meta.patch)) && existsSync(join(config.tierListDir, meta.patch));
   if (!force && last && last.format === FORMAT && last.parts === keys.length && hasOutput) {
     return { patch: meta.patch, files: last.files, largestBytes: 0, oversized: [], totals: last.totals, aggregated: false };
   }
@@ -116,10 +117,12 @@ export async function aggregatePatch(
   }
 
   const names = await namesFor(ddragon, meta.version);
+  const tierList = new TierListCounter();
   const out = await aggregate({
     patch: meta.patch,
     platforms: config.platforms,
     games: () => storedGames(store, keys),
+    onGame: (game) => tierList.add(game),
     previous,
     names,
     exclusive: exclusiveGroups((await ddragon.items(meta.version, 'en_US')).data),
@@ -138,10 +141,31 @@ export async function aggregatePatch(
     if (bytes > MAX_FILE_BYTES) oversized.push(`${file.filter}/${file.region}/${id}_${file.role} (${Math.round(bytes / 1024)} kB)`);
   }
   for (const index of out.indexes) writeJson(join(scopeDir(config.outputDir, index.patch, index.filter, index.region), 'index.json'), indexSchema.parse(index));
+  writeTierLists(config, meta.patch, tierList.files(meta.patch, config));
 
   const totals = Object.fromEntries(out.totals);
   await putJson(store, publishedKey(meta.patch), { parts: keys.length, totals, files: out.files.length, format: FORMAT } satisfies Published);
   return { patch: meta.patch, files: out.files.length, largestBytes: largest, oversized, totals, aggregated: true };
+}
+
+/** Writes `{tierListDir}/{patch}/{band}.json` (kept in Git: a few small files, prerendered page). */
+export function writeTierLists(config: Config, patch: string, files: TierListJson[]): void {
+  rmSync(join(config.tierListDir, patch), { recursive: true, force: true });
+  for (const file of files) writeJson(join(config.tierListDir, patch, `${file.band}.json`), tierListSchema.parse(file));
+}
+
+/** Tier lists only (one pass over the stored games, the state is only read): `node src/cli.ts tierlist`. */
+export async function publishTierLists(config: Config, store: StateStore, ddragon = new DataDragon()): Promise<Array<{ patch: string; totals: Record<string, number> }>> {
+  const { current, previous } = await resolvePatches(store, ddragon);
+  const reports = [];
+  for (const meta of [current, previous].filter((m): m is PatchMeta => !!m)) {
+    const counter = new TierListCounter();
+    for await (const game of storedGames(store, await store.list(gamesPrefix(meta.patch)))) counter.add(game);
+    const files = counter.files(meta.patch, config);
+    writeTierLists(config, meta.patch, files);
+    reports.push({ patch: meta.patch, totals: Object.fromEntries(files.map((f) => [f.band, f.totalGames])) });
+  }
+  return reports;
 }
 
 /** Uploads the changed files of a patch to the public bucket (content hashes in a manifest) and removes stale ones. */
@@ -216,8 +240,10 @@ export async function publish(config: Config, store: StateStore, publicStore: St
   }
 
   const keep = new Set(metas.map((m) => m.patch));
-  for (const dir of existsSync(config.outputDir) ? readdirSync(config.outputDir) : []) {
-    if (/^\d+\.\d+$/.test(dir) && !keep.has(dir)) rmSync(join(config.outputDir, dir), { recursive: true, force: true });
+  for (const root of [config.outputDir, config.tierListDir]) {
+    for (const dir of existsSync(root) ? readdirSync(root) : []) {
+      if (/^\d+\.\d+$/.test(dir) && !keep.has(dir)) rmSync(join(root, dir), { recursive: true, force: true });
+    }
   }
   const staticDir = join(config.outputDir, '..', 'static');
   const keepVersions = new Set(metas.map((m) => m.version));

@@ -73,6 +73,8 @@ export interface AggregateInput {
   platforms: string[];
   /** Iterates every stored game of the patch (called twice). */
   games: () => AsyncIterable<GameRecord> | Iterable<GameRecord>;
+  /** Called once per game during the first pass (e.g. tier list counts), so that the games are read only twice. */
+  onGame?: (game: GameRecord) => void;
   /** Previous patch index per scope key, for deltas. */
   previous: Map<string, IndexJson>;
   names: Names;
@@ -121,6 +123,7 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
   const roleTotals = new Map<string, number>();
 
   for await (const game of input.games()) {
+    input.onGame?.(game);
     const legacy = isLegacy(game);
     const inScope = new Map<string, number>();
     for (const p of game.participants) {

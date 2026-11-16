@@ -1,5 +1,5 @@
 import { gunzipSync, gzipSync } from 'node:zlib';
-import { SAMPLED_TIERS, type SampledTier } from './config.ts';
+import { SAMPLE_POOLS, SAMPLED_TIERS, type SamplePool, type SampledTier } from './config.ts';
 import { apexLeague, leagueEntries, summonerById, type LeagueItemDto } from './riot/api.ts';
 import type { RiotClient } from './riot/client.ts';
 import type { Platform } from './riot/routing.ts';
@@ -35,11 +35,13 @@ export interface Rotation {
 const DIVISIONS = ['I', 'II', 'III', 'IV'] as const;
 const REFRESH_AFTER_MS = 20 * 3600 * 1000;
 
-export const playersKey = (platform: Platform) => `players/${platform}.tsv.gz`;
-export const playersMetaKey = (platform: Platform) => `players/${platform}.meta.json`;
-export const rotationKey = (platform: Platform) => `rotation/${platform}.json`;
+/** Complete collection (Emerald → Challenger) without a pool; sampled bands (tiers below Emerald) with one. */
+const suffix = (pool?: SamplePool) => (pool ? `-${pool}` : '');
+export const playersKey = (platform: Platform, pool?: SamplePool) => `players/${platform}${suffix(pool)}.tsv.gz`;
+export const playersMetaKey = (platform: Platform, pool?: SamplePool) => `players/${platform}${suffix(pool)}.meta.json`;
+export const rotationKey = (platform: Platform, pool?: SamplePool) => `rotation/${platform}${suffix(pool)}.json`;
 
-/** Lowest sampled tier (EMERALD) is the "worst"; used to label a game by its weakest known player. */
+/** Lowest tier (IRON) is the "worst"; used to label a game by its weakest known player. */
 export function lowerTier(a: SampledTier, b: SampledTier): SampledTier {
   return SAMPLED_TIERS.indexOf(a) >= SAMPLED_TIERS.indexOf(b) ? a : b;
 }
@@ -106,8 +108,37 @@ export async function loadPlayers(
   return list;
 }
 
-export async function loadRotation(store: StateStore, platform: Platform, now: number): Promise<Rotation> {
-  return (await getJson<Rotation>(store, rotationKey(platform))) ?? { cursor: 0, passStart: Math.floor(now / 1000), prevPassStart: null, olderUntil: 0, passes: 0 };
+/**
+ * Players of a sampled band (tiers below Emerald): the first `pages` league pages of each tier and division.
+ * Kept apart from the complete collection (own list and rotation), refreshed once a day.
+ */
+export async function loadPoolPlayers(client: RiotClient, store: StateStore, platform: Platform, pool: SamplePool, pages: number, now = Date.now()): Promise<PlayerList> {
+  const meta = await getJson<{ refreshedAt: number; pages?: number }>(store, playersMetaKey(platform, pool));
+  if (meta && meta.pages === pages && now - meta.refreshedAt < REFRESH_AFTER_MS) {
+    const players = decodePlayers(await store.get(playersKey(platform, pool)));
+    if (players.length) return { platform, refreshedAt: meta.refreshedAt, players };
+  }
+  const players = new Map<string, SampledPlayer>();
+  for (const tier of SAMPLE_POOLS[pool]) {
+    for (const division of DIVISIONS) {
+      for (let page = 1; page <= pages; page++) {
+        const entries = (await leagueEntries(client, platform, tier, division, page)) ?? [];
+        for (const entry of entries) {
+          const puuid = await puuidOf(client, platform, entry);
+          if (puuid && !players.has(puuid)) players.set(puuid, { puuid, tier });
+        }
+        if (entries.length === 0) break;
+      }
+    }
+  }
+  const list: PlayerList = { platform, refreshedAt: now, players: [...players.values()].sort((a, b) => (a.puuid < b.puuid ? -1 : 1)) };
+  await store.put(playersKey(platform, pool), encodePlayers(list.players));
+  await putJson(store, playersMetaKey(platform, pool), { refreshedAt: now, pages, counts: countByTier(list) });
+  return list;
+}
+
+export async function loadRotation(store: StateStore, platform: Platform, now: number, pool?: SamplePool): Promise<Rotation> {
+  return (await getJson<Rotation>(store, rotationKey(platform, pool))) ?? { cursor: 0, passStart: Math.floor(now / 1000), prevPassStart: null, olderUntil: 0, passes: 0 };
 }
 
 export function countByTier(list: PlayerList): Record<SampledTier, number> {

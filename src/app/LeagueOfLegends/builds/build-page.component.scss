@@ -18,6 +18,7 @@
 
 .card__title {
   font: 700 17px var(--font-display);
+  font-stretch: var(--stretch-hero); // three columns: keeps "Sorts, runes & compétences" on one line
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -46,6 +47,7 @@
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
 
   &--gold {
     background: var(--diff-3-bg);
@@ -116,6 +118,7 @@
   span {
     transform: rotate(-45deg);
     font: italic 700 20px var(--font-display);
+    font-stretch: var(--stretch-heading);
     color: #141420;
   }
 }
@@ -133,12 +136,14 @@
 }
 
 .hero__name {
-  font: italic 700 56px/0.95 var(--font-display);
+  font: italic 800 56px/0.95 var(--font-display);
+  font-stretch: var(--stretch-hero);
   text-transform: uppercase;
 }
 
 .hero__role {
   font: 700 26px var(--font-display);
+  font-stretch: var(--stretch-heading);
   color: var(--color-text-muted);
   text-transform: uppercase;
 }
@@ -184,7 +189,9 @@
     align-items: baseline;
     gap: 6px;
     margin: 2px 0 0;
-    font: 700 26px var(--font-display);
+    font: 700 26px var(--font-numeric);
+    font-stretch: 100%;
+    font-variant-numeric: tabular-nums;
   }
 }
 
@@ -209,6 +216,7 @@
   padding: 14px 16px;
   border-bottom: 3px solid transparent;
   font: 700 17px var(--font-display);
+  font-stretch: var(--stretch-heading);
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--color-text-muted);
@@ -410,7 +418,9 @@ $inset: #12121f;
 }
 
 .pick__wr {
-  font: 700 19px var(--font-display);
+  font: 700 19px var(--font-numeric);
+  font-stretch: 100%;
+  font-variant-numeric: tabular-nums;
   color: var(--diff-2-text);
 }
 
@@ -508,6 +518,7 @@ $inset: #12121f;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
   color: var(--tree);
 }
 
@@ -555,6 +566,7 @@ $inset: #12121f;
 
 .skills__title {
   font: 700 14px var(--font-display);
+  font-stretch: var(--stretch-heading);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -578,6 +590,7 @@ $inset: #12121f;
     background: color-mix(in srgb, var(--sk) 16%, transparent);
     color: var(--sk);
     font: 700 13px var(--font-display);
+    font-stretch: var(--stretch-heading);
   }
 
   li + li {
@@ -639,7 +652,9 @@ $inset: #12121f;
     border-radius: 4px;
     background: var(--color-surface-active);
     text-align: center;
-    font: 700 12px var(--font-display);
+    font: 700 12px var(--font-numeric);
+    font-stretch: 100%;
+    font-variant-numeric: tabular-nums;
 
     &.is-on {
       background: color-mix(in srgb, var(--sk) 16%, transparent);
@@ -676,6 +691,7 @@ $inset: #12121f;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
   color: var(--color-text-muted);
 
   &--gold {
@@ -766,7 +782,9 @@ $inset: #12121f;
   display: flex;
   align-items: center;
   justify-content: center;
-  font: 700 12px var(--font-display);
+  font: 700 12px var(--font-numeric);
+  font-stretch: 100%;
+  font-variant-numeric: tabular-nums;
 
   .slot--core & {
     background: var(--color-gold);
@@ -785,6 +803,7 @@ $inset: #12121f;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
   color: var(--color-text-muted);
 
   .slot--core & {
@@ -818,6 +837,7 @@ $inset: #12121f;
 
 .slot__wr {
   color: var(--diff-2-text);
+  font-variant-numeric: tabular-nums;
 }
 
 .slot__nw {
@@ -842,6 +862,7 @@ $inset: #12121f;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
   color: var(--color-text-subtle);
 }
 
@@ -857,6 +878,7 @@ $inset: #12121f;
   line-height: 1.15;
   font-weight: 600;
   color: var(--color-text-subtle);
+  font-variant-numeric: tabular-nums;
 }
 
 // Narrow column (tablet, phone): two rows of three, the boots below.
@@ -943,6 +965,7 @@ $inset: #12121f;
 .empty__title {
   margin-bottom: 8px;
   font: 700 24px var(--font-display);
+  font-stretch: var(--stretch-heading);
   text-transform: uppercase;
   color: var(--color-text);
 }

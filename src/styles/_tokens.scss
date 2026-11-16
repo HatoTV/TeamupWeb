@@ -60,8 +60,11 @@
   --game-accent: var(--color-gold);
 
   // Typography
-  --font-body: 'Barlow', 'Barlow Fallback', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-display: 'Barlow Condensed', 'Barlow Condensed Fallback', 'Barlow', sans-serif;
+  --font-body: 'Archivo', 'Archivo Fallback', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: var(--font-body);
+  --font-numeric: var(--font-body);
+  --stretch-hero: 72%; // page titles
+  --stretch-heading: 85%; // section titles, eyebrows, capitalised labels
   --text-guide-size: 17px;
   --text-guide-line: 1.7;
 

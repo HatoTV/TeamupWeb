@@ -124,6 +124,7 @@
     border-color var(--duration-color) ease,
     background-color var(--duration-color) ease;
 
+  font-variant-numeric: tabular-nums;
   &--utility {
     --level: var(--color-rl);
   }
@@ -243,6 +244,7 @@
 .card__name {
   margin-bottom: 4px;
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 24px;
   line-height: 1.1;

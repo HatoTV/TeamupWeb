@@ -27,6 +27,7 @@
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
   color: var(--color-gold);
 
   &--ally {
@@ -41,6 +42,7 @@
 .section__title {
   margin-top: 2px;
   font: 700 32px/1.1 var(--font-display);
+  font-stretch: var(--stretch-heading);
   text-transform: uppercase;
 }
 
@@ -51,7 +53,8 @@
 }
 
 .vs-text {
-  font: italic 700 72px/1 var(--font-display);
+  font: italic 800 72px/1 var(--font-display);
+  font-stretch: var(--stretch-hero);
   color: var(--color-gold);
 }
 

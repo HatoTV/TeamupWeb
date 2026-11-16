@@ -32,6 +32,7 @@
 
 .hero__kicker {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 0.16em;
@@ -217,13 +218,15 @@
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
   color: var(--color-gold);
 }
 
 .draw__name {
   margin-top: 2px;
   font-family: var(--font-display);
-  font-weight: 700;
+  font-stretch: var(--stretch-hero);
+  font-weight: 800;
   font-style: italic;
   font-size: 54px;
   line-height: 1;
@@ -245,6 +248,7 @@
   padding: 0 16px;
   border-radius: var(--radius-control-sm);
   font: 700 15px var(--font-display);
+  font-stretch: var(--stretch-heading);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -284,6 +288,7 @@
 
 .grid-section__title {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
@@ -396,6 +401,7 @@
   font-size: 14px;
   line-height: 1.25;
   transition: color var(--duration-color) ease;
+  font-stretch: var(--stretch-heading); // name under a portrait: compact label
 }
 
 .champ__diff {

@@ -156,7 +156,7 @@ describe('TierListComponent', () => {
     expect(badge('Annie').className).toContain('badge--neutral');
     expect(badge('Akali').className).toContain('badge--neutral');
     expect(badge('Ahri').className).toContain('badge--good');
-    expect(badge('Ahri').textContent!.trim()).toBe('52,0 %');
+    expect(badge('Ahri').textContent!.trim()).toBe('52,0\u202f%');
   });
 
   it('a role change updates the URL and the list', async () => {

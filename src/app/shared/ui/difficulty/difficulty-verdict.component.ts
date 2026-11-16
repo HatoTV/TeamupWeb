@@ -75,10 +75,12 @@ import { DifficultyPipsComponent } from './difficulty-pips.component';
         font-weight: 700;
         letter-spacing: 0.14em;
         text-transform: uppercase;
+        font-stretch: var(--stretch-heading);
         opacity: 0.75;
       }
       .verdict__level {
         font: italic 700 38px/0.95 var(--font-display);
+        font-stretch: var(--stretch-heading);
         text-transform: uppercase;
       }
       .verdict__pips {

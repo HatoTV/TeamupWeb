@@ -22,7 +22,7 @@ describe('build utils', () => {
   });
 
   it('formats rates, deltas and timings in both languages', () => {
-    expect(formatRate(0.5123, 'fr')).toBe('51,2 %');
+    expect(formatRate(0.5123, 'fr')).toBe('51,2\u202f%');
     expect(formatRate(0.5123, 'en')).toBe('51.2%');
     expect(formatDelta(0.004, 'fr')).toEqual({ text: '▲ 0,4', up: true });
     expect(formatDelta(-0.011, 'en')).toEqual({ text: '▼ 1.1', up: false });

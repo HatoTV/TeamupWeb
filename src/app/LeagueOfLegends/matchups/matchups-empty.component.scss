@@ -33,7 +33,8 @@
 }
 
 .hero__title {
-  font: italic 700 64px/0.92 var(--font-display);
+  font: italic 800 64px/0.92 var(--font-display);
+  font-stretch: var(--stretch-hero);
   text-transform: uppercase;
 
   span {
@@ -97,12 +98,14 @@
 
 .slot__step {
   font: 700 15px var(--font-display);
+  font-stretch: var(--stretch-heading);
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .slot__name {
   font: 700 22px var(--font-display);
+  font-stretch: var(--stretch-heading);
   text-transform: uppercase;
   color: var(--diff-2-text);
 
@@ -210,7 +213,9 @@
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  font: italic 700 24px var(--font-display);
+  font: 700 24px var(--font-numeric);
+  font-stretch: 100%;
+  font-variant-numeric: tabular-nums;
 
   &--ally {
     background: var(--diff-2-bg);
@@ -230,6 +235,7 @@
 
 .how__title {
   font: 700 19px var(--font-display);
+  font-stretch: var(--stretch-heading);
   text-transform: uppercase;
 }
 
@@ -255,6 +261,7 @@
 .legend__title {
   margin-bottom: 14px;
   font: 700 19px var(--font-display);
+  font-stretch: var(--stretch-heading);
   text-transform: uppercase;
 }
 
@@ -288,6 +295,7 @@
 .legend__label {
   margin-top: 8px;
   font: 700 19px var(--font-display);
+  font-stretch: var(--stretch-heading);
   text-transform: uppercase;
   color: var(--l-text);
 }

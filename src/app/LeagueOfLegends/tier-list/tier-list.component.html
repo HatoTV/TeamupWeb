@@ -92,18 +92,18 @@
     <div class="cards">
       <div class="card">
         <p class="card__label">{{ 'TIERLIST.SELECTION' | translate }}</p>
-        <p class="card__value">
+        <p class="card__value card__value--tight">
           <img [src]="'assets/img/site/' + role() + '.webp'" alt="" width="22" height="22" />
           <span>{{ 'PICKERPAGE.ROLES.' + role() | translate }} · {{ 'TIERLIST.BANDS.' + band() | translate }}</span>
         </p>
       </div>
       <div class="card">
         <p class="card__label">{{ 'TIERLIST.GAMES' | translate }}</p>
-        <p class="card__value">{{ fmtInt(file()?.totalGames ?? 0) }}</p>
+        <p class="card__value card__value--num">{{ fmtInt(file()?.totalGames ?? 0) }}</p>
       </div>
       <div class="card">
         <p class="card__label">{{ 'TIERLIST.RANKED' | translate }}</p>
-        <p class="card__value">{{ ranked().length }}</p>
+        <p class="card__value card__value--num">{{ ranked().length }}</p>
       </div>
       @if (best(); as b) {
         <div class="card card--best">

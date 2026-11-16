@@ -37,7 +37,8 @@
 
 .brand__word {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-stretch: var(--stretch-heading);
+  font-weight: 800;
   font-size: 22px;
   letter-spacing: 0.04em;
 }
@@ -90,6 +91,7 @@
 .footer__col-title {
   margin-bottom: 12px;
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.12em;

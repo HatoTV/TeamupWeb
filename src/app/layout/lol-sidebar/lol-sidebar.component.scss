@@ -29,6 +29,7 @@
 .sidebar__heading {
   margin: 0 8px 8px;
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 0.14em;
@@ -110,6 +111,7 @@
   font-size: 12px;
   font-weight: 600;
   color: var(--color-text-subtle);
+  font-variant-numeric: tabular-nums;
 }
 
 .group__items {
@@ -171,6 +173,7 @@
     border: 0;
     background: transparent;
     font-family: var(--font-display);
+    font-stretch: var(--stretch-heading);
     font-weight: 700;
     font-size: 17px;
     letter-spacing: 0.06em;

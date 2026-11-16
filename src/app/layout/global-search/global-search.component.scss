@@ -43,6 +43,7 @@
   background: var(--color-gold);
   color: var(--color-on-gold);
   font: 700 16px var(--font-display);
+  font-stretch: var(--stretch-heading);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   transition: background-color var(--duration-color) ease;
@@ -114,6 +115,7 @@
 .search__group-label {
   padding: var(--space-1) var(--space-2);
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 0.12em;

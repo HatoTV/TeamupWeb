@@ -10,6 +10,7 @@
 
 .legal__eyebrow {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 0.16em;
@@ -93,6 +94,7 @@
   width: 22px;
   font-weight: 700;
   color: var(--color-gold);
+  font-variant-numeric: tabular-nums;
 }
 
 .body {
@@ -124,9 +126,10 @@
 
 .section__n {
   flex: none;
-  font-family: var(--font-display);
+  font-family: var(--font-numeric);
+  font-stretch: 100%;
+  font-variant-numeric: tabular-nums;
   font-weight: 700;
-  font-style: italic;
   font-size: 30px;
   line-height: 1;
   color: var(--color-gold);
@@ -134,6 +137,7 @@
 
 .section__title {
   font-family: var(--font-display);
+  font-stretch: var(--stretch-heading);
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;

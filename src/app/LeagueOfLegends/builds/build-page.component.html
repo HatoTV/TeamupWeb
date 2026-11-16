@@ -363,7 +363,7 @@
                   }
                   <span class="core__cell">
                     <span class="core__icon">
-                      <app-game-icon [src]="item(id).src" [name]="item(id).name" [desc]="item(id).desc" [cost]="item(id).cost" [size]="54" ring="#FFC93C" />
+                      <app-game-icon [src]="item(id).src" [name]="item(id).name" [desc]="item(id).desc" [cost]="item(id).cost" [size]="60" ring="#FFC93C" />
                       <span class="core__n" aria-hidden="true">{{ i + 1 }}</span>
                     </span>
                     <span class="core__name">{{ item(id).name }}</span>
@@ -381,7 +381,7 @@
                 @for (s of b.next; track s.slot) {
                   <li class="next__row">
                     <span class="next__n">{{ 'BUILDS.SLOT.' + s.slot | translate }}</span>
-                    <app-game-icon [src]="item(s.item).src" [name]="item(s.item).name" [desc]="item(s.item).desc" [cost]="item(s.item).cost" [size]="40" />
+                    <app-game-icon [src]="item(s.item).src" [name]="item(s.item).name" [desc]="item(s.item).desc" [cost]="item(s.item).cost" [size]="44" />
                     <span class="next__main">
                       <span class="next__name">{{ item(s.item).name }}</span>
                       <span class="next__stats">{{ fmtRate(s.share, 0) }} · {{ 'BUILDS.WR_SHORT' | translate }} <span class="next__wr">{{ fmtRate(s.winRate) }}</span></span>
@@ -398,7 +398,6 @@
                 }
               </ol>
             }
-            <p class="items__note">{{ 'BUILDS.UNIQUE_NOTE' | translate }}</p>
           </section>
         </div>
 

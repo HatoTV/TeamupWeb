@@ -321,7 +321,7 @@ $inset: #12121f;
 // ---------- Three linked columns: builds · spells, runes & skills · items ----------
 .board {
   display: grid;
-  grid-template-columns: 320px minmax(0, 1.3fr) minmax(0, 0.85fr);
+  grid-template-columns: minmax(300px, 0.85fr) minmax(0, 1.1fr) minmax(0, 1fr);
   grid-template-areas: 'builds runes items';
   align-items: stretch;
   gap: 16px;
@@ -346,7 +346,7 @@ $inset: #12121f;
 
 .col--items {
   grid-area: items;
-  padding: 16px 18px;
+  padding: 16px 22px 20px;
 }
 
 .col__head {
@@ -647,15 +647,15 @@ $inset: #12121f;
 // ---------- 3 · Items ----------
 .early {
   display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-  margin-top: 12px;
-  padding-bottom: 12px;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+  padding-bottom: 18px;
   border-bottom: 1px solid var(--color-separator);
 }
 
 .early__label {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   font-size: 12px;
   font-weight: 600;
   color: var(--color-text-muted);
@@ -663,11 +663,11 @@ $inset: #12121f;
 
 .early__row {
   display: flex;
-  gap: 4px;
+  gap: 6px;
 }
 
 .items__label {
-  margin: 16px 0 8px;
+  margin: 24px 0 12px;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -675,7 +675,7 @@ $inset: #12121f;
   color: var(--color-text-muted);
 
   &--gold {
-    margin-top: 14px;
+    margin-top: 20px;
     color: var(--color-gold);
   }
 }
@@ -683,20 +683,22 @@ $inset: #12121f;
 .core {
   display: flex;
   align-items: flex-start;
-  gap: 6px;
+  gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .core__item {
+  flex: 0 1 auto;
+  min-width: 0;
   display: flex;
   align-items: flex-start;
-  gap: 6px;
+  gap: 10px;
 }
 
 .core__arrow {
-  margin-top: 16px;
+  margin-top: 20px;
   color: #6a6a8a;
 }
 
@@ -704,8 +706,9 @@ $inset: #12121f;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  width: 72px;
+  gap: 6px;
+  flex: 0 1 84px;
+  min-width: 60px;
   text-align: center;
 }
 
@@ -729,7 +732,7 @@ $inset: #12121f;
 }
 
 .core__name {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.2;
   color: var(--color-text-secondary);
 }
@@ -743,7 +746,7 @@ $inset: #12121f;
 .next {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -752,8 +755,8 @@ $inset: #12121f;
 .next__row {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 8px 10px;
+  gap: 12px;
+  padding: 10px 14px;
   border-radius: 10px;
   background: $inset;
   border: 1px solid var(--color-separator);
@@ -803,10 +806,16 @@ $inset: #12121f;
   gap: 4px;
 }
 
-.items__note {
-  margin-top: 10px;
-  font-size: 12px;
-  color: var(--color-text-subtle);
+// ---------- Small desktop: tighter builds column and core row ----------
+@media (max-width: 1439px) {
+  .board {
+    grid-template-columns: 280px minmax(0, 1.2fr) minmax(0, 1fr);
+  }
+
+  .core,
+  .core__item {
+    gap: 6px;
+  }
 }
 
 // ---------- Tablet: builds on top, runes and items side by side ----------

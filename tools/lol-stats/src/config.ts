@@ -65,8 +65,9 @@ export interface Config {
   offMetaMinShare: number;
   offMetaMaxShare: number;
   offMetaMinGames: number;
-  /** Alternatives of items 4-6 need this share of the build games at their slot. */
+  /** Alternatives of items 4-6 need this share of the purchases made at their slot, and this many games. */
   altMinShare: number;
+  altMinGames: number;
   /** An item bought 6th in more than this share of its 4th-6th purchases is not proposed 4th. */
   lateShare: number;
   /** Lane opponents / duo partners need at least this many games. */
@@ -106,6 +107,7 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     offMetaMaxShare: num(env.LOL_STATS_OFF_META_MAX_SHARE, 0.03),
     offMetaMinGames: num(env.LOL_STATS_OFF_META_MIN_GAMES, 30),
     altMinShare: num(env.LOL_STATS_ALT_MIN_SHARE, 0.08),
+    altMinGames: num(env.LOL_STATS_ALT_MIN_GAMES, 3),
     lateShare: num(env.LOL_STATS_LATE_SHARE, 0.7),
     minMatchupGames: num(env.LOL_STATS_MIN_MATCHUP_GAMES, 50),
     minGamesForNewPatch: num(env.LOL_STATS_MIN_GAMES_NEW_PATCH, 200),

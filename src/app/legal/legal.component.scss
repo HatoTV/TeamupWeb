@@ -158,3 +158,54 @@
     max-width: none;
   }
 }
+
+@media (max-width: 767px) {
+  .legal {
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+
+  // Document tabs on one scrollable row instead of three stacked links.
+  .tabs {
+    flex-wrap: nowrap;
+    gap: 2px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .tabs__link {
+    flex: none;
+    padding: 0 10px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .layout {
+    gap: 24px;
+  }
+
+  // Number beside the title, text on the full width below.
+  .section {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: baseline;
+    column-gap: 10px;
+
+    > div {
+      display: contents;
+    }
+  }
+
+  .section__n {
+    font-size: 24px;
+  }
+
+  .section__title {
+    font-size: 21px;
+  }
+
+  .section__text {
+    grid-column: 1 / -1;
+    font-size: 16px;
+  }
+}

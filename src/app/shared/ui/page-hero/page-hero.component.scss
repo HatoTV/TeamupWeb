@@ -104,4 +104,18 @@
   .hero__subtitle {
     font-size: 17px;
   }
+
+  // One line: a wrapped trail started its second line with a lone separator.
+  .crumbs ol {
+    flex-wrap: nowrap;
+    gap: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .crumbs li + li::before {
+    margin-right: 6px;
+  }
 }

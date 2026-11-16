@@ -943,8 +943,38 @@ $inset: #12121f;
     }
   }
 
+  // Portrait beside the name and spells; the summary and stats take the full width below.
+  .hero__body {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    column-gap: 14px;
+    row-gap: 10px;
+    align-items: start;
+  }
+
+  .portrait {
+    grid-row: span 2;
+  }
+
   .hero__main {
-    flex-basis: calc(100% - 96px);
+    display: contents;
+  }
+
+  .hero__titles {
+    gap: 4px 8px;
+  }
+
+  .abilities {
+    margin-top: 0;
+  }
+
+  .hero__summary,
+  .stats {
+    grid-column: 1 / -1;
+  }
+
+  .hero__summary {
+    margin-top: 2px;
   }
 
   .hero__name {
@@ -967,6 +997,11 @@ $inset: #12121f;
 
   .stat {
     padding: 8px;
+
+    dt {
+      font-size: 11px;
+      line-height: 1.2;
+    }
 
     dd {
       flex-direction: column;

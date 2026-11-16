@@ -410,4 +410,9 @@
   .fact__value {
     font-size: 28px;
   }
+
+  // The guide layout already applies the side gutter: avoid doubling it on narrow screens.
+  .guide-wrap {
+    padding-inline: 0;
+  }
 }

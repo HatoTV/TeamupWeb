@@ -486,6 +486,63 @@
   .report__body {
     padding: 4px 16px 16px;
   }
+
+  // Counter lists on two columns: icon, then name over the difficulty label (the pips repeat it).
+  .list__head {
+    padding: 12px 14px 10px;
+  }
+
+  .list__title {
+    font-size: 17px;
+  }
+
+  .list__rows {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    li:nth-child(odd) .row {
+      border-right: 1px solid var(--color-surface-plus);
+    }
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 32px minmax(0, 1fr);
+    column-gap: 8px;
+    row-gap: 2px;
+    align-content: center;
+    min-height: 52px;
+    padding: 6px 8px 6px 12px;
+    background: linear-gradient(90deg, var(--r-bg), rgba(22, 22, 38, 0) 90%);
+    box-shadow: inset 3px 0 0 var(--r-color);
+
+    img {
+      grid-row: 1 / span 2;
+      width: 32px;
+      height: 32px;
+      margin-left: 0;
+    }
+  }
+
+  .row__name {
+    font-size: 14px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .row__level {
+    align-items: flex-start;
+
+    app-difficulty-pips {
+      display: none;
+    }
+  }
+
+  .row__label {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 1023px) {

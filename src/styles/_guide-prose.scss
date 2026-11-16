@@ -290,3 +290,16 @@
     }
   }
 }
+
+// Mobile: guide headings keep the same number of lines as before the switch to Archivo.
+@media (max-width: 767px) {
+  .guide-prose {
+    h2 {
+      font-size: 26px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+}

@@ -712,6 +712,15 @@
 }
 
 @media (max-width: 767px) {
+  // Mobile: same number of lines as before the switch to Archivo.
+  .cta__title {
+    font-size: 34px;
+  }
+
+  .cta__motto {
+    font-size: 18px;
+  }
+
   .hero__art {
     width: 100%;
     opacity: 0.55;
@@ -755,7 +764,7 @@
   }
 
   .game-card__name {
-    font-size: 18px;
+    font-size: 17px; // one line at 390 px
   }
 
   .game-card__meta {
@@ -785,7 +794,7 @@
   }
 
   .section__title {
-    font-size: 30px;
+    font-size: 24px; // one line at 390 px
   }
 
   .tool,
@@ -797,7 +806,7 @@
   }
 
   .tool__title {
-    font-size: 28px;
+    font-size: 23px; // one line at 390 px
   }
 
   .platform {

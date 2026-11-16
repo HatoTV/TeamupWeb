@@ -214,6 +214,11 @@
 }
 
 @media (max-width: 767px) {
+  // Mobile: same number of lines as before the switch to Archivo.
+  .play-tips__title {
+    font-size: 21px;
+  }
+
   :host {
     padding-left: var(--container-gutter);
     padding-right: var(--container-gutter);

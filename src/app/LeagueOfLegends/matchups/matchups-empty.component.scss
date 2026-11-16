@@ -339,6 +339,12 @@
     max-width: 320px;
   }
 
+  // Smaller step circle: the champion grid starts higher on the screen.
+  .slot__circle {
+    width: 116px;
+    height: 116px;
+  }
+
   .slot--enemy {
     flex-direction: row;
     flex-wrap: wrap;
@@ -365,18 +371,28 @@
     }
   }
 
+  // Five per row: the 170+ champion grid is about 20 % shorter to scroll.
   .grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 6px;
   }
 
   .grid__item {
-    padding: 8px 2px;
-    font-size: 12px;
+    gap: 4px;
+    padding: 6px 1px;
+    font-size: 11px;
+    letter-spacing: -0.02em;
+    overflow-wrap: anywhere;
 
     img {
-      width: 52px;
-      height: 52px;
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+    }
+
+    // Small phones: long names (Heimerdinger, Fiddlesticks) stay on one line.
+    @media (max-width: 379px) {
+      font-size: 10px;
     }
   }
 

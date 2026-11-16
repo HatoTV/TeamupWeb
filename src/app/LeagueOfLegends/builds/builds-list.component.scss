@@ -215,4 +215,67 @@
   .wrap {
     padding: 16px var(--container-gutter) 0;
   }
+
+  // Tighter table: tier, win and pick rates fit on screen; the champion column stays
+  // pinned while the remaining stats scroll horizontally.
+  .table {
+    min-width: 520px;
+    font-size: 14px;
+
+    thead th {
+      padding: 0 6px 8px;
+    }
+
+    tbody th,
+    td {
+      padding: 6px;
+    }
+
+    thead th:first-child,
+    tbody th {
+      position: sticky;
+      left: 0;
+      z-index: 1;
+      background: var(--color-night);
+    }
+
+    thead th:first-child {
+      padding-left: 0;
+    }
+
+    tbody th {
+      padding-left: 0;
+      box-shadow: 1px 0 0 var(--color-separator);
+    }
+  }
+
+  .sort {
+    font-size: 12px;
+    letter-spacing: 0.02em;
+  }
+
+  .champ {
+    gap: 8px;
+    width: 128px;
+
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .champ__name {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .champ__role {
+    font-size: 11px;
+  }
+
+  .champ > span {
+    min-width: 0;
+  }
 }

@@ -160,7 +160,37 @@
 }
 
 @media (max-width: 767px) {
-  .footer__col {
-    flex: 1 1 140px;
+  .footer__inner {
+    padding-top: 32px;
+  }
+
+  // Brand on its own row, LoL links on two columns, then the two short columns side by side.
+  .footer__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 16px;
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer__brand + .footer__col {
+    grid-column: 1 / -1;
+
+    ul {
+      columns: 2;
+      column-gap: 16px;
+    }
+  }
+
+  .footer__link {
+    min-height: 36px;
+    padding: 4px 0;
+    line-height: 1.25;
+  }
+
+  .footer__bottom {
+    margin-top: 24px;
   }
 }

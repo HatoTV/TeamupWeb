@@ -16,7 +16,7 @@ node src/cli.ts tierlist    # tier lists seules, depuis les parties stockées (a
 node src/smoke.ts           # quelques appels league-v4 et limites annoncées (échoue si ce ne sont pas celles de production)
 node src/cli.ts dev         # petit échantillon avec une clé de développement (500 parties) puis publish
 npm test                    # tests unitaires (node:test)
-npm run test:published      # contrôle des JSON publiés (schéma, aucun objet en double dans un build)
+npm run test:published      # contrôle des JSON publiés (schéma, aucun doublon dans la ligne principale ni dans un emplacement)
 npm run typecheck
 ```
 
@@ -34,7 +34,7 @@ La clé Riot est lue dans `tools/lol-stats/.env` (`RIOT_API_KEY=RGAPI-…`, igno
 | `LOL_STATS_PAGES_PER_DIVISION` | `0` | Pages de 205 joueurs par division Diamant / Émeraude (0 = toutes : collecte complète). |
 | `LOL_STATS_MIN_BUILD_GAMES`, `LOL_STATS_MIN_BUILD_SHARE` | `50`, `0.03` | Seuil des 3 builds les plus joués : `max(50 parties, 3 % des parties du champion dans le rôle)`. |
 | `LOL_STATS_OFF_META_MIN_SHARE`, `LOL_STATS_OFF_META_MAX_SHARE`, `LOL_STATS_OFF_META_MIN_GAMES` | `0.005`, `0.03`, `30` | Build OFF-META : entre 0,5 % et 3 % des parties, au moins 30 parties. |
-| `LOL_STATS_ALT_MIN_SHARE` | `0.08` | Part minimale d'une alternative à son emplacement (4ᵉ à 6ᵉ objet). |
+| `LOL_STATS_ALT_MIN_SHARE`, `LOL_STATS_ALT_MIN_GAMES` | `0.08`, `3` | Part minimale des achats faits à son emplacement et nombre minimal de parties d'une alternative (4ᵉ à 6ᵉ objet). |
 | `LOL_STATS_LATE_SHARE` | `0.7` | Un objet acheté 6ᵉ dans plus de 70 % des cas n'est pas proposé 4ᵉ. |
 | `LOL_STATS_MIN_MATCHUP_GAMES` | `50` | Seuil des adversaires et duos. |
 | `LOL_STATS_MIN_GAMES_NEW_PATCH` | `200` | Parties d'un champion/rôle avant de basculer sur le nouveau patch. |
@@ -86,7 +86,7 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
     1. à 3. les 3 clés les plus jouées au-dessus de `max(50 parties, 3 % des parties du champion dans le rôle)` ;
     4. **OFF-META** : parmi les autres clés, entre 0,5 % et 3 % des parties, au moins 30 parties et un taux de victoire supérieur à celui du champion, la meilleure borne basse de Wilson. Absent si aucune ne remplit ces conditions.
 - **Par build** (sur ses seules parties) : page de runes complète la plus fréquente (même rune clé et arbre secondaire), paire de sorts, départ et premier retour (multiensembles avec quantités), timing médian de chacun des 3 objets principaux, ordre des compétences et ordre de max.
-- **Objets 4 à 6** : l'emplacement N prend l'objet le plus acheté en position N, hors objets déjà retenus et hors objets exclusifs avec eux ; au plus 2 alternatives par emplacement (au moins 8 % des parties du build, jamais affichées ailleurs). Aucun objet n'apparaît deux fois. Un objet acheté 6ᵉ dans plus de 70 % des cas n'est pas proposé 4ᵉ.
+- **Objets 4 à 6** : l'emplacement N prend l'objet le plus acheté en position N, hors objets déjà retenus et hors objets exclusifs avec eux : la ligne principale n'a aucun doublon. Chaque emplacement reçoit au plus 2 alternatives, les autres objets les plus achetés à cette position (au moins 8 % des achats faits à cet emplacement et 3 parties, jamais un objet du core ni un objet exclusif avec lui) ; une alternative peut apparaître à un autre emplacement (Rabadon souvent acheté 4ᵉ ou 5ᵉ). Un objet acheté 6ᵉ dans plus de 70 % des cas n'est pas proposé 4ᵉ.
 - **Objets exclusifs** (déduits de Data Dragon, qui n'a pas de champ « groupe ») : une seule paire de bottes, un seul objet construit à partir de la Larme de la déesse, un seul objet par passif unique partagé (Ligne de vie, Lame enchantée, Fendoir…).
 - **Matchups** : Faible contre / Fort contre (6 adversaires de lane, au moins 50 parties), meilleure synergie (jungle pour top et mid, support pour ADC et inversement, mid pour jungle).
 

@@ -82,7 +82,7 @@ export interface AggregateInput {
   exclusive: ExclusiveGroups;
   config: Pick<
     Config,
-    'minBuildGames' | 'minBuildShare' | 'offMetaMinShare' | 'offMetaMaxShare' | 'offMetaMinGames' | 'altMinShare' | 'lateShare' | 'minMatchupGames' | 'lowSampleGames'
+    'minBuildGames' | 'minBuildShare' | 'offMetaMinShare' | 'offMetaMaxShare' | 'offMetaMinGames' | 'altMinShare' | 'altMinGames' | 'lateShare' | 'minMatchupGames' | 'lowSampleGames'
   >;
 }
 

@@ -7,7 +7,7 @@ import { Histogram, tierRanks, tierScores, wilsonLower, zScores } from '../src/a
 import { filtersForTier } from '../src/config.ts';
 import { extractGame, type GameRecord } from '../src/extract/game.ts';
 import { buildItemCatalog, exclusiveGroups, type ExclusiveGroups } from '../src/extract/items.ts';
-import { championBuildSchema, indexSchema, shownItems } from '../src/schema.ts';
+import { championBuildSchema, indexSchema, repeatedItems } from '../src/schema.ts';
 
 describe('statistics', () => {
   it('Wilson lower bound', () => {
@@ -56,7 +56,7 @@ const RUNES_B = [8100, 8112, 8143, 8138, 8135, 8200, 8226, 8237, 5008, 5008, 501
 const player = (items: number[], runes = RUNES_A, boots: [number, number] | null = null) => ({ majors: items.map((id, i) => [id, (i + 10) * 60_000] as [number, number]), boots, runes });
 const candidate = (key: string, games: number, wins: number, order = key.split('|')[0]!): BuildCandidate => ({ key, games, wins, orders: new Map([[order, games]]) });
 const RULES = { minBuildGames: 50, minBuildShare: 0.03, offMetaMinShare: 0.005, offMetaMaxShare: 0.03, offMetaMinGames: 30 };
-const SLOT_RULES = { altMinShare: 0.08, lateShare: 0.7 };
+const SLOT_RULES = { altMinShare: 0.08, altMinGames: 3, lateShare: 0.7 };
 const slotMap = (entries: Array<[number, number, number?]>) => new Map(entries.map(([item, games, wins]) => [item, { games, wins: wins ?? Math.round(games / 2) }]));
 
 describe('build keys', () => {
@@ -131,24 +131,23 @@ describe('four builds', () => {
 describe('items 4 to 6', () => {
   const none: ExclusiveGroups = new Map();
 
-  it('never repeats an item: core, slots and alternatives', () => {
-    // Real Akali case of the previous algorithm: Rabadon (3089) shown 5th and 6th.
+  it('main line without duplicate; alternatives = other items most bought at each slot', () => {
+    // Real Akali case of the previous algorithm: Rabadon (3089) shown 5th and 6th as main item.
     const slots = [slotMap([[3089, 120], [3157, 80], [3135, 60], [3146, 40]]), slotMap([[3089, 90], [3135, 70], [3157, 50]]), slotMap([[3089, 50], [3135, 40], [3102, 30]])];
     const next = nextSlots([3146, 4645, 3020], slots, 400, none, SLOT_RULES);
     assert.deepEqual(
-      next.map((s) => [s.slot, s.item]),
+      next.map((s) => [s.slot, s.item, s.alternatives.map((a) => a.item)]),
       [
-        [4, 3089],
-        [5, 3135],
-        [6, 3102],
-      ]
+        [4, 3089, [3157, 3135]],
+        [5, 3135, [3089, 3157]],
+        [6, 3102, [3089, 3135]],
+      ],
+      '3146 is in the core: never an alternative'
     );
-    assert.deepEqual(next[0]!.alternatives.map((a) => a.item), [3157], '3135 is the 5th item, 3146 is in the core');
-    const all = [3146, 4645, 3020, ...next.flatMap((s) => [s.item, ...s.alternatives.map((a) => a.item)])];
-    assert.equal(new Set(all).size, all.length);
+    assert.deepEqual(repeatedItems({ core: [3146, 4645, 3020], next } as never), []);
   });
 
-  it('alternatives: at most 2, at least 8 % of the build games, with share and win rate', () => {
+  it('alternatives: at most 2, at least 8 % of the slot purchases, with share and win rate', () => {
     const slots = [slotMap([[10, 50, 30], [11, 30, 20], [12, 20], [13, 15], [14, 7]]), new Map(), new Map()];
     const [four] = nextSlots([1, 2, 3], slots, 100, none, SLOT_RULES);
     assert.equal(four!.share, 0.5);
@@ -157,8 +156,15 @@ describe('items 4 to 6', () => {
       [11, 0.3],
       [12, 0.2],
     ]);
-    const [low] = nextSlots([1, 2, 3], [slotMap([[10, 50], [14, 7]]), new Map(), new Map()], 100, none, SLOT_RULES);
-    assert.deepEqual(low!.alternatives, [], '7 % < 8 %');
+    const [low] = nextSlots([1, 2, 3], [slotMap([[10, 50], [14, 4]]), new Map(), new Map()], 100, none, SLOT_RULES);
+    assert.deepEqual(low!.alternatives, [], '4 / 54 purchases < 8 %');
+  });
+
+  it('late slots get alternatives too: share of the slot purchases and minimum games', () => {
+    // 400 games in the build, only 24 reach a 6th item: 10 games is 2.5 % of the build but 42 % of the 6th items.
+    const slots = [slotMap([[10, 120], [20, 60]]), slotMap([[20, 70], [30, 60]]), slotMap([[40, 12], [30, 10], [70, 2]])];
+    const next = nextSlots([1, 2, 3], slots, 400, none, SLOT_RULES);
+    assert.deepEqual(next[2]!.alternatives.map((a) => [a.item, a.share]), [[30, 0.025]], 'item 70: 2 games < 3');
   });
 
   it('respects exclusive groups: one pair of boots, one Tear item, one Lifeline item', () => {
@@ -225,8 +231,7 @@ describe('real case: Akali top (patch 16.22 sample)', () => {
     championBuildSchema.parse(file);
     assert.ok(file.builds.length >= 3);
     for (const b of file.builds) {
-      const shown = shownItems(b);
-      assert.equal(new Set(shown).size, shown.length, `${b.label}: ${shown.join(', ')}`);
+      assert.deepEqual(repeatedItems(b), [], b.label);
     }
   });
 });

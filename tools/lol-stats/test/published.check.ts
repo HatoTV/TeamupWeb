@@ -1,12 +1,13 @@
-// Checks every published build file (public/data/lol/builds/**) and tier list (public/data/lol/tierlist/**): valid schema and no item shown twice in a build
-// (core, items 4-6 and their alternatives). Run after `publish` (npm run test:published), not with the unit tests:
+// Checks every published build file (public/data/lol/builds/**) and tier list (public/data/lol/tierlist/**): valid schema,
+// no repeated item in a build's main line (core, items 4-6) nor within a slot (core, slot item, alternatives), each
+// champion once per role in a tier list. Run after `publish` (npm run test:published), not with the unit tests:
 // the unit tests run before the data is regenerated.
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { it } from 'node:test';
 import { REPO_DIR } from '../src/config.ts';
-import { championBuildSchema, shownItems, tierListSchema } from '../src/schema.ts';
+import { championBuildSchema, repeatedItems, tierListSchema } from '../src/schema.ts';
 
 const ROOT = process.env.LOL_STATS_OUTPUT_DIR ?? join(REPO_DIR, 'public/data/lol/builds');
 
@@ -26,8 +27,8 @@ it('published build files: valid schema, no duplicate item in a build', () => {
     files++;
     const file = championBuildSchema.parse(JSON.parse(readFileSync(path, 'utf8')));
     for (const build of file.builds) {
-      const shown = shownItems(build);
-      if (new Set(shown).size !== shown.length) duplicates.push(`${path.slice(ROOT.length + 1)} ${build.label}: ${shown.join(',')}`);
+      const repeated = repeatedItems(build);
+      if (repeated.length) duplicates.push(`${path.slice(ROOT.length + 1)} ${build.label}: ${repeated.join(',')}`);
     }
   }
   assert.ok(files > 0, 'no build file');

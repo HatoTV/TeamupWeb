@@ -39,15 +39,19 @@ export const buildSchema = z.object({
   firstBuy: z.object({ items: z.array(id), games, medianMs: ms }).nullable(),
   /** Median purchase time of each core item, same order as `core`. */
   coreTimes: z.array(ms).length(3),
-  /** Items 4, 5 and 6 with at most two alternatives each; no item appears twice in a build. */
+  /** Items 4, 5 and 6 (no duplicate with the core or between them), each with at most two alternatives. */
   next: z.array(slotItem.extend({ slot: z.union([z.literal(4), z.literal(5), z.literal(6)]), alternatives: z.array(slotItem).max(2) })).max(3),
   skills: z.object({ order: z.string().regex(/^[1-4]{1,18}$/), max: z.string().regex(/^[1-3]{3}$/), games, wins: games, winRate: rate }).nullable(),
 });
 export type BuildJson = z.infer<typeof buildSchema>;
 
-/** Item ids shown in a build (core, items 4-6 and their alternatives): each one must appear once. */
-export function shownItems(build: BuildJson): number[] {
-  return [...build.core, ...build.next.flatMap((s) => [s.item, ...s.alternatives.map((a) => a.item)])];
+/**
+ * Items repeated where they must not be: in the main line (core, then items 4-6) or within one slot
+ * (core, slot item and its alternatives). An alternative may repeat an item of another slot.
+ */
+export function repeatedItems(build: BuildJson): number[] {
+  const lists = [[...build.core, ...build.next.map((s) => s.item)], ...build.next.map((s) => [...build.core, s.item, ...s.alternatives.map((a) => a.item)])];
+  return [...new Set(lists.flatMap((l) => l.filter((x, i) => l.indexOf(x) !== i)))];
 }
 
 const opponent = z.object({ champion: id, games, winRate: rate });

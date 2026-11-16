@@ -38,7 +38,7 @@ export interface BuildData extends StatLine {
   firstBuy: { items: number[]; games: number; medianMs: number | null } | null;
   /** Median purchase time of each core item. */
   coreTimes: Array<number | null>;
-  /** Items 4 to 6, at most two alternatives each; no item appears twice. */
+  /** Items 4 to 6 (no duplicate between them nor with the core), at most two alternatives each: the other items most bought at that slot. */
   next: Array<SlotItem & { slot: 4 | 5 | 6; alternatives: SlotItem[] }>;
   skills: (StatLine & { order: string; max: string }) | null;
 }

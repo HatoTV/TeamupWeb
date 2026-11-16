@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, ElementRef, afterNextRender, comput
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { BuildDataService, BuildFilter, BuildMeta, BUILD_FILTERS, EXACT_FILTERS, ChampionBuild, ChampionStatic, SlotItem, StaticCore, StaticRune } from '../../core/data/build-data.service';
+import { BuildDataService, BuildFilter, BuildMeta, BUILD_FILTERS, ChampionBuild, ChampionStatic, SlotItem, StaticCore, StaticRune } from '../../core/data/build-data.service';
 import { Champion, ChampionDataService, Role } from '../../core/data/champion-data.service';
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
@@ -12,6 +12,7 @@ import { PlayTipsComponent } from './play-tips/play-tips.component';
 import { GameIconComponent } from '../../shared/ui/game-icon.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildIndexFrom, formatDelta, formatInt, formatRate, formatTiming, groupItems, isBuildFilter, rankFilters, treeColor } from './build-utils';
+import { RankSelectComponent } from './rank-select.component';
 
 type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 
@@ -28,7 +29,7 @@ interface LineItem {
 @Component({
   selector: 'app-build-page',
   standalone: true,
-  imports: [TranslateModule, RouterLink, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent],
+  imports: [TranslateModule, RouterLink, RankSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent],
   templateUrl: './build-page.component.html',
   styleUrl: './build-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -66,8 +67,6 @@ export class BuildPageComponent {
     return list.length ? list : [BUILD_FILTERS[0]];
   });
   protected readonly defaultFilter = computed(() => this.filters()[0]!);
-  protected readonly isExact = (f: string) => EXACT_FILTERS.includes(f);
-  protected readonly hasExact = computed(() => this.filters().some((f) => EXACT_FILTERS.includes(f)));
   protected readonly filter = computed<BuildFilter>(() => {
     const rank = this.query()?.get('rank');
     return isBuildFilter(rank, this.filters()) ? rank : this.defaultFilter();

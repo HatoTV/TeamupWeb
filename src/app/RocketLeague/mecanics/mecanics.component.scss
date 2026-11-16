@@ -148,9 +148,9 @@
 
   select {
     height: var(--touch-target);
-    padding: 0 12px;
+    padding: 0 40px 0 14px;
     border-radius: var(--radius-control-sm);
-    background: var(--color-night);
+    background-color: var(--color-night);
     border: 1px solid var(--color-line);
     font-weight: 600;
     font-size: 15px;

@@ -278,11 +278,15 @@
 .select select,
 .queue {
   height: 44px;
-  padding: 0 12px;
+  padding: 0 14px;
   border-radius: 10px;
-  background: var(--color-surface);
+  background-color: var(--color-surface);
   border: 1px solid var(--color-line);
   font: 600 15px var(--font-body);
+}
+
+.select select {
+  padding-right: 40px;
 }
 
 .queue {
@@ -715,14 +719,16 @@ $inset: #12121f;
   gap: 12px;
 
   &--boots {
-    grid-template-columns: minmax(0, 6fr) minmax(0, 1.1fr);
+    grid-template-columns: auto auto;
+    justify-content: start;
   }
 }
 
+// Fixed-width columns from the left: the first icon lines up with the early items above.
 .line__items {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 16px 8px;
+  grid-template-columns: repeat(6, minmax(0, 100px));
+  gap: 16px 10px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -732,9 +738,9 @@ $inset: #12121f;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 5px;
-  text-align: center;
+  text-align: left;
 }
 
 .slot--boots {

@@ -38,8 +38,11 @@ export interface BuildData extends StatLine {
   firstBuy: { items: number[]; games: number; medianMs: number | null } | null;
   /** Median purchase time of each core item. */
   coreTimes: Array<number | null>;
-  /** Items 4 to 6 (no duplicate between them nor with the core), at most two alternatives each: the other items most bought at that slot. */
-  next: Array<SlotItem & { slot: 4 | 5 | 6; alternatives: SlotItem[] }>;
+  /** Items 4 to 6 (no duplicate between them nor with the core), at most two alternatives each: the other items most bought at that slot.
+   * ADC: positions in the line without boots (3 to 6 when the core holds the boots). */
+  next: Array<SlotItem & { slot: 3 | 4 | 5 | 6; alternatives: SlotItem[] }>;
+  /** ADC only: boots shown apart from the six items (may be a core item). Absent from files published before it. */
+  boots?: SlotItem | null;
   skills: (StatLine & { order: string; max: string }) | null;
 }
 

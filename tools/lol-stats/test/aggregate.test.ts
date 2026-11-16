@@ -191,6 +191,13 @@ describe('items 4 to 6', () => {
     assert.ok(!next[0]!.alternatives.some((a) => a.item === 3026));
     assert.equal(next.find((s) => s.slot === 6)?.item, 3026);
   });
+
+  it('ADC with boots in the core: four slots, items 3 to 6 of the line without boots', () => {
+    const slots = [slotMap([[10, 50], [15, 30]]), slotMap([[20, 40]]), slotMap([[30, 30]]), slotMap([[10, 200], [40, 20]])];
+    const next = nextSlots([1, 3006, 2], slots, 100, none, SLOT_RULES, 4);
+    assert.deepEqual(next.map((s) => [s.slot, s.item]), [[3, 15], [4, 20], [5, 30], [6, 10]], 'item 10, bought last in most games, is not proposed first');
+    assert.equal(nextSlots([1, 2, 3], slots, 100, none, SLOT_RULES).at(-1)?.slot, 6, 'three slots by default');
+  });
 });
 
 describe('exclusive groups from Data Dragon', () => {

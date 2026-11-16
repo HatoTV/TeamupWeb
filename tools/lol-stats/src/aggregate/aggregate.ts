@@ -32,8 +32,10 @@ interface BuildDetails {
   firstBuyT: Histogram;
   /** Purchase time of each main item (for the core timings). */
   itemT: Map<number, Histogram>;
-  /** Items bought at purchase positions 4, 5 and 6. */
-  slots: [Map<number, WinCount>, Map<number, WinCount>, Map<number, WinCount>];
+  /** Items bought at purchase positions 4, 5, 6 (and 7): after the core, boots skipped for an ADC. */
+  slots: Array<Map<number, WinCount>>;
+  /** ADC: tier-2 boots, shown apart from the six items (the role quest frees a slot for them). */
+  boots: Map<number, WinCount>;
   skills: Map<string, WinCount>;
 }
 
@@ -187,7 +189,8 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
     firstBuy: new Map(),
     firstBuyT: new Histogram(10_000),
     itemT: new Map(),
-    slots: [new Map(), new Map(), new Map()],
+    slots: [new Map(), new Map(), new Map(), new Map()],
+    boots: new Map(),
     skills: new Map(),
   });
 
@@ -302,7 +305,11 @@ function collectDetails(d: BuildDetails, p: ParticipantRecord): void {
     if (!h) d.itemT.set(id, (h = new Histogram(10_000)));
     h.add(times.get(id)!);
   }
-  items.slice(3, 6).forEach((item, i) => bump(d.slots[i]!, item, p.win));
+  // ADC: the boots do not take an item slot, the line holds six other items (up to 4 after the core).
+  const adc = p.role === 'BOTTOM';
+  const after = adc ? items.slice(3).filter((id) => id !== p.boots?.[0]) : items.slice(3, 6);
+  after.slice(0, 4).forEach((item, i) => bump(d.slots[i]!, item, p.win));
+  if (adc && p.boots) bump(d.boots, p.boots[0], p.win);
   if (p.skills.length >= 15) bump(d.skills, p.skills, p.win);
 }
 
@@ -312,6 +319,10 @@ function buildJson(build: SelectedBuild, cr: ChampionRoleCounters, d: BuildDetai
   const start = d && top(d.start);
   const firstBuy = d && top(d.firstBuy);
   const skills = d && topWin(d.skills);
+  const boots = d && cr.role === 'BOTTOM' ? topWin(d.boots) : null;
+  const isBoots = (id: number) => exclusive.get(id)?.includes('boots') ?? false;
+  // ADC: six items besides the boots, so one more slot when the core holds them.
+  const slotCount = cr.role === 'BOTTOM' && build.core.some(isBoots) ? 4 : 3;
 
   return {
     label: build.label,
@@ -329,7 +340,10 @@ function buildJson(build: SelectedBuild, cr: ChampionRoleCounters, d: BuildDetai
     start: start ? { items: start[0].split(',').map(Number), games: start[1] } : null,
     firstBuy: firstBuy ? { items: firstBuy[0].split(',').map(Number), games: firstBuy[1], medianMs: d!.firstBuyT.median() } : null,
     coreTimes: build.core.map((id) => d?.itemT.get(id)?.median() ?? null),
-    next: d ? nextSlots(build.core, d.slots, build.games, exclusive, config) : [],
+    next: d ? nextSlots(build.core, d.slots, build.games, exclusive, config, slotCount) : [],
+    boots: boots
+      ? { item: boots[0], games: boots[1].games, wins: boots[1].wins, winRate: round(rate(boots[1].wins, boots[1].games)), share: round(rate(boots[1].games, build.games)) }
+      : null,
     skills: skills ? { order: skills[0].slice(0, 18), max: maxOrder(skills[0]), games: skills[1].games, wins: skills[1].wins, winRate: round(rate(skills[1].wins, skills[1].games)) } : null,
   };
 }

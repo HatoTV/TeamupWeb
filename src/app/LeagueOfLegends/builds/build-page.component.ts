@@ -15,6 +15,15 @@ import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildIndexFrom, formatDelta, form
 
 type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 
+/** Item of the build line: a core item (median timing) or a next item (share, win rate, alternatives). */
+interface LineItem {
+  item: number;
+  core: boolean;
+  time: number | null;
+  stat: SlotItem | null;
+  alternatives: SlotItem[];
+}
+
 /** Champion build page: `/:lang/lol/champions/:championId/build/:role?rank&region&patch&build`. */
 @Component({
   selector: 'app-build-page',
@@ -84,6 +93,21 @@ export class BuildPageComponent {
   /** Data Dragon version of the loaded static data, also when the page has no build (not enough games). */
   protected readonly staticVersion = computed(() => this.version() ?? this.meta()?.patches[0]?.ddragonVersion ?? null);
   protected readonly build = computed(() => this.file()?.builds[this.buildIndex()] ?? null);
+
+  /**
+   * Six-item line: the core (purchase order) then the most played next items, each with its alternatives.
+   * ADC: the boots leave the line (the role quest frees a slot for them) and are shown apart.
+   */
+  protected readonly itemLine = computed<{ items: LineItem[]; boots: LineItem | null } | null>(() => {
+    const b = this.build();
+    if (!b) return null;
+    const bootsId = b.boots?.item ?? null;
+    const core: LineItem[] = b.core.map((id, i) => ({ item: id, core: true, time: b.coreTimes[i] ?? null, stat: null, alternatives: [] }));
+    const next: LineItem[] = b.next.map((s) => ({ item: s.item, core: false, time: null, stat: s, alternatives: s.alternatives }));
+    const items = [...core.filter((c) => c.item !== bootsId), ...next].slice(0, 6);
+    const boots = bootsId === null ? null : (core.find((c) => c.item === bootsId) ?? { item: bootsId, core: false, time: null, stat: b.boots!, alternatives: [] });
+    return { items, boots };
+  });
 
   protected readonly ddragonId = computed(() => this.champion()?.ddragonId ?? null);
   protected readonly championName = computed(() => this.champion()?.name ?? '');
@@ -211,11 +235,6 @@ export class BuildPageComponent {
 
   protected tree(id: number): { name: string; icon: string } | null {
     return this.core()?.runeTrees.find((t) => t.id === id) ?? null;
-  }
-
-  /** Tooltip of an alternative item: share at its slot and win rate. */
-  protected altDesc(a: SlotItem): string {
-    return `${this.fmtRate(a.share, 0)} · ${this.translate.instant('BUILDS.WR_SHORT')} ${this.fmtRate(a.winRate)}`;
   }
 
   protected maxKeys(): string[] {

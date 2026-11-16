@@ -39,8 +39,11 @@ export const buildSchema = z.object({
   firstBuy: z.object({ items: z.array(id), games, medianMs: ms }).nullable(),
   /** Median purchase time of each core item, same order as `core`. */
   coreTimes: z.array(ms).length(3),
-  /** Items 4, 5 and 6 (no duplicate with the core or between them), each with at most two alternatives. */
-  next: z.array(slotItem.extend({ slot: z.union([z.literal(4), z.literal(5), z.literal(6)]), alternatives: z.array(slotItem).max(2) })).max(3),
+  /** Items 4, 5 and 6 (no duplicate with the core or between them), each with at most two alternatives. ADC: the line
+   * holds six items besides the boots, so items 3 to 6 when the core holds the boots. */
+  next: z.array(slotItem.extend({ slot: z.union([z.literal(3), z.literal(4), z.literal(5), z.literal(6)]), alternatives: z.array(slotItem).max(2) })).max(4),
+  /** ADC only: most bought tier-2 boots, shown apart from the six items (may be a core item). Null for other roles. */
+  boots: slotItem.nullable(),
   skills: z.object({ order: z.string().regex(/^[1-4]{1,18}$/), max: z.string().regex(/^[1-3]{3}$/), games, wins: games, winRate: rate }).nullable(),
 });
 export type BuildJson = z.infer<typeof buildSchema>;

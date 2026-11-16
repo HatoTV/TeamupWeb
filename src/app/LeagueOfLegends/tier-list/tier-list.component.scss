@@ -396,9 +396,14 @@
   font: 700 22px/1.1 var(--font-display);
 
   img {
+    flex: none;
     width: 22px;
     height: 22px;
   }
+}
+
+.card:first-child .card__value {
+  flex-wrap: nowrap;
 }
 
 // Tooltips may overflow a row near the screen edge: clipped, never a horizontal page scroll.
@@ -670,6 +675,11 @@
 
   .tier__letter {
     font-size: 36px;
+  }
+
+  .tier__letter--unranked {
+    padding: 12px 4px;
+    font-size: 11px;
   }
 
   .tier__champions {

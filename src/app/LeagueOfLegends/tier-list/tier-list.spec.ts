@@ -79,7 +79,7 @@ const FILES: Record<string, TierList> = {
       entry('Jhin', 'adc', 'C', 0.49),
       entry('Vayne', 'adc', 'D', 0.47),
     ],
-    unranked: [{ championId: key('Mel'), role: 'mid', games: 120 }],
+    unranked: [{ championId: key('Mel'), role: 'mid', games: 120 }, { championId: key('Garen'), role: 'mid', games: 4 }],
   },
   low: {
     patch: '16.22',
@@ -203,7 +203,9 @@ describe('TierListComponent', () => {
   });
 
   it('unranked champions are listed apart, with the threshold of the data', () => {
-    expect(root().querySelector('.unranked__list img')!.getAttribute('alt')).toContain('Mel');
+    const imgs = root().querySelectorAll('.unranked__list img');
+    expect(imgs.length).withContext('occasional pick (4 games) left out').toBe(1);
+    expect(imgs[0]!.getAttribute('alt')).toContain('Mel');
     expect(root().querySelector('.unranked__note')!.textContent).toContain('TIERLIST.UNRANKED_NOTE');
   });
 });

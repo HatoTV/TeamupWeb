@@ -14,6 +14,7 @@ import {
   RANK_BANDS,
   RankBand,
   TIER_COLORS,
+  UNRANKED_SHOWN_SHARE,
   WinTone,
   groupByTier,
   parseBand,
@@ -88,7 +89,9 @@ export class TierListComponent {
   protected readonly unranked = computed(() => {
     const file = this.file();
     if (!file || !this.core()) return [];
-    return file.unranked.filter((c) => c.role === this.role()).map((c) => ({ ...this.identity(c.championId), games: c.games }));
+    // Occasional off-role picks (fewer than a tenth of the threshold) are left out: the file keeps them all.
+    const min = file.minGames * UNRANKED_SHOWN_SHARE;
+    return file.unranked.filter((c) => c.role === this.role() && c.games >= min).map((c) => ({ ...this.identity(c.championId), games: c.games }));
   });
   protected readonly best = computed(() => [...this.ranked()].sort((a, b) => b.winRate - a.winRate)[0] ?? null);
   protected readonly enough = computed(() => this.ranked().length >= MIN_RANKED);

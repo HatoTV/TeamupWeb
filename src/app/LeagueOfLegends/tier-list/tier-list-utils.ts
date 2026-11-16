@@ -26,6 +26,9 @@ export const TIER_COLORS: Record<TierRank, string> = { 'S+': '#14E0B4', S: '#3DD
 /** Fewer ranked champions than this in a role: "not enough games yet" instead of the tiers. */
 export const MIN_RANKED = 5;
 
+/** Unranked champions shown on the page: at least this share of the reliability threshold (20 of 200 games). */
+export const UNRANKED_SHOWN_SHARE = 0.1;
+
 /** Unknown or missing value → default band. */
 export const parseBand = (value: string | null | undefined): RankBand => ((RANK_BANDS as readonly string[]).includes(value ?? '') ? (value as RankBand) : DEFAULT_BAND);
 

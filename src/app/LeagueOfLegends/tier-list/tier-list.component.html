@@ -94,7 +94,7 @@
         <p class="card__label">{{ 'TIERLIST.SELECTION' | translate }}</p>
         <p class="card__value">
           <img [src]="'assets/img/site/' + role() + '.webp'" alt="" width="22" height="22" />
-          {{ 'PICKERPAGE.ROLES.' + role() | translate }} · {{ 'TIERLIST.BANDS.' + band() | translate }}
+          <span>{{ 'PICKERPAGE.ROLES.' + role() | translate }} · {{ 'TIERLIST.BANDS.' + band() | translate }}</span>
         </p>
       </div>
       <div class="card">

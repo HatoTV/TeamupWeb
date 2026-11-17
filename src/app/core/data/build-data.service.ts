@@ -42,8 +42,9 @@ export interface BuildData extends StatLine {
   /** Items 3 to 5 without boots (3 to 6 for an ADC or a build without boots), no duplicate between them nor with the core, at most
    * two alternatives each: the other items most bought at that slot. */
   next: Array<SlotItem & { slot: 3 | 4 | 5 | 6; alternatives: SlotItem[] }>;
-  /** Boots shown apart from the other items, with at most two alternatives. Older files: ADC only, without alternatives. */
-  boots?: (SlotItem & { alternatives?: SlotItem[] }) | null;
+  /** Boots with at most two alternatives; `slot`: their position in the line of items (1-based). Older files: ADC only,
+   * without alternatives nor slot. */
+  boots?: (SlotItem & { slot?: number; alternatives?: SlotItem[] }) | null;
   skills: (StatLine & { order: string; max: string }) | null;
 }
 

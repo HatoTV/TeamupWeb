@@ -792,7 +792,6 @@
   "BUILDS": {
     "COST": "{{cost}} gold",
     "TIER": "Tier {{tier}}",
-    "BUILD_ROLE": "{{role}} build",
     "PATCH": "Patch {{patch}}",
     "ABILITIES": "Abilities",
     "PASSIVE": "passive",
@@ -891,7 +890,6 @@
     "PICK_META": "{{games}} · {{share}} of games",
     "SHARE_OF_GAMES": "{{share}} of games",
     "FULL_BUILD": "Full build",
-    "BOOTS": "Boots",
     "OR": "or"
   },
   "COMMUNITY_TIPS": {
@@ -967,7 +965,6 @@
     "NOT_ENOUGH": "Not enough games in this rank range yet, check back soon."
   },
   "COUNTERS": {
-    "ROLE": "{{role}} counters",
     "SEO_TITLE": "{{champion}} {{role}} counters: best and worst matchups",
     "SEO_DESC": "The lane opponents {{champion}} {{role}} beats the most and its worst counters on patch {{patch}}: win rate per matchup, matchup tips and community tips.",
     "ADVANTAGE": "Advantage",

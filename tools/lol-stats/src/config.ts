@@ -159,7 +159,7 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     altMinGames: num(env.LOL_STATS_ALT_MIN_GAMES, 3),
     lateShare: num(env.LOL_STATS_LATE_SHARE, 0.7),
     minMatchupGames: num(env.LOL_STATS_MIN_MATCHUP_GAMES, 50),
-    minCounterGames: num(env.LOL_STATS_MIN_COUNTER_GAMES, 200),
+    minCounterGames: num(env.LOL_STATS_MIN_COUNTER_GAMES, 20),
     minGamesForNewPatch: num(env.LOL_STATS_MIN_GAMES_NEW_PATCH, 200),
     lowSampleGames: num(env.LOL_STATS_LOW_SAMPLE_GAMES, 200),
     mainRoleShare: num(env.LOL_STATS_MAIN_ROLE_SHARE, DEFAULT_MAIN_ROLE_SHARE),

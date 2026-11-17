@@ -2,7 +2,7 @@ import type { ChampionBuild, CounterStat } from '../../../core/data/build-data.s
 import type { DifficultyLevel } from '../../../shared/ui/difficulty/matchup-difficulty';
 
 /** Same threshold as `LOL_STATS_MIN_COUNTER_GAMES` (tools/lol-stats): fewer games, the opponent is not listed. */
-export const MIN_COUNTER_GAMES = 200;
+export const MIN_COUNTER_GAMES = 20;
 
 /**
  * Difficulty deduced from the win rate when the matchup has no TeamUpp rating: ≥ 56 % very easy, ≥ 52.5 % easy,

@@ -17,31 +17,36 @@
           "text": "Reste près de ton ADC et oriente ton Incassable (E) vers Nautilus : ton bouclier intercepte son Abordage (A) et son engage tombe à l'eau.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Quand ton Incassable (E) a bloqué son engage, contre-attaque aussitôt avec ton ADC : Nautilus est au contact et tu as largement de quoi le verrouiller.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Si ton ADC est la cible, bondis sur lui avec ton Bouclier humain (Z) pour te placer sur la trajectoire du hook.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "S'il engage au lvl 2, pose toi-même un premier effet de ton passif : les attaques de ton ADC en ajoutent ensuite, et à 4, Nautilus est étourdi.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Son Abordage (A) a une longue portée (1150) : être loin de lui ne te met pas à l'abri.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Stay close to your ADC and point Unbreakable (E) at Nautilus: your shield eats his Dredge Line (Q) and his engage falls flat.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Once Unbreakable (E) has stopped his engage, hit back right away with your ADC: Nautilus is in melee range and you have plenty of lockdown.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "If your ADC is the target, leap to them with Stand Behind Me (W) to put yourself in the hook's path.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "If he engages at level 2, land the first passive stack yourself: your ADC's attacks then add more, and at four Nautilus gets stunned.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "His Dredge Line (Q) has long range (1150): being far from him doesn't make you safe.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -83,25 +93,29 @@
           "text": "Joue autour du CD de son Incassable (E) : lance ton Abordage (A) une fois le bouclier utilisé, sinon ton hook est intercepté.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Vise l'ADC plutôt que Braum : soit tu le touches, soit Braum bondit devant lui avec son Bouclier humain (Z) et prend le hook à sa place.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "N'engage pas au lvl 2 si tu portes déjà des effets de son passif : à 4, tu es étourdi, et son ADC en ajoute.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Quand Braum arrive au contact, ta première attaque sur lui l'immobilise grâce à ton passif : profites-en pour reculer ou enchaîner avec ton Abordage (A).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -109,25 +123,29 @@
           "text": "Play around his Unbreakable (E) cooldown: throw Dredge Line (Q) once the shield has been used, otherwise your hook just gets blocked.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Aim at the ADC rather than Braum: either it lands, or Braum leaps in front with Stand Behind Me (W) and takes the hook instead.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Don't start your level 2 engage while carrying his passive stacks: at four you're stunned, and his ADC's attacks add stacks too.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "When Braum gets into melee range, your first attack on him roots him thanks to your passive: use it to back off or follow up with Dredge Line (Q).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

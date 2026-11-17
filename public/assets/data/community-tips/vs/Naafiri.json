@@ -10,43 +10,50 @@
         "text": "Ses Dagues des Darkin (A) se lancent en deux fois. Esquive la première en bougeant sur le côté : si tu saignes, la relance tape plus fort et la soigne.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Éviscération (E) est un dash de 450 unités, avec plus de portée à travers un mur. Garde tes distances et méfie-toi quand un mur vous sépare.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Garde la wave près de ta tour : Naafiri doit alors s'avancer pour farmer et peine à te sauter dessus. Évite surtout que la wave reste bloquée de son côté.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Utilise ton sort défensif en réaction à son engage, jamais avant. Si tu le grilles le premier, Naafiri t'all-in, surtout après le lvl 6.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Son Hallali (R) est un dash ciblé qui te suit même si tu Flash ou dash pendant son approche. Ne gaspille pas ta Flash pour l'esquiver.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Son Appel de la meute (Z) la rend inciblable un court instant. Garde ton CC pour la fin de cet effet, pas pour le moment où elle l'active.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Si elle obtient un kill peu après son Hallali (R), elle peut le relancer une fois avec un shield. Attends-toi à un second dash juste après la mort d'un allié.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Her Q comes in two casts. Sidestep the first dagger: if you're bleeding, the recast hits harder and heals her.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Her E is a 450-unit dash that gains extra range through walls. Keep your spacing, and be careful when terrain sits between you.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Keep the wave near your tower: Naafiri has to walk up to farm and struggles to jump on you. Above all, don't let it sit on her side.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Use your defensive spell in response to her engage, never first. Burn it early and Naafiri all-ins you, especially after level 6.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Her R is a targeted dash that keeps tracking you through Flash and dashes. Don't burn Flash trying to escape it.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Her W makes her untargetable for a moment. Hold your CC until that window ends instead of throwing it the instant she casts it.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "If she scores a takedown shortly after her R, she can recast it once and gain a shield. Expect a second dash right after an ally dies.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -17,25 +17,29 @@
           "text": "Séraphine te surpasse en portée : ne reste pas à sa distance de poke, trade seulement quand tu peux refermer l'écart sur elle.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Grâce à ses soins, Séraphine scale mieux que toi : prends ton avantage tôt, ton impact baisse à mesure que la partie avance.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Réponds à chaque Note aiguë (A) de Séraphine par Pix à la rescousse (E) sur ton ADC : le bouclier absorbe son poke.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ne colle pas ton ADC : la Note aiguë (A) de Séraphine frappe une zone et vous toucherait tous les deux.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Seraphine outranges you: don't stand in her poke range, only trade when you can close the gap on her.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Her healing lets Seraphine outscale you: take your lead early, your impact drops as the game goes on.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Answer each Seraphine High Note (Q) with Help, Pix! (E) on your ADC: the shield soaks up her poke.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Don't stand on top of your ADC: Seraphine's High Note (Q) hits an area and would catch you both.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -71,25 +79,29 @@
           "text": "Tu as plus de portée que Lulu : poke-la de loin et garde tes distances, elle ne devient dangereuse que si elle arrive à se rapprocher.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Avec tes soins, tu scales mieux que Lulu : ne force rien en début de partie, elle perd de la puissance au fil des minutes.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "avoid"
         },
         {
           "text": "Lulu répond à ta Note aiguë (A) par un bouclier de Pix à la rescousse (E) : relance ton poke quand son E est en CD.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Ta Note aiguë (A) frappe une zone : quand Lulu se colle à son ADC, vise-les tous les deux d'un seul sort.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -97,25 +109,29 @@
           "text": "You outrange Lulu: poke her from afar and keep your distance, she only becomes dangerous if she manages to close the gap.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Your healing lets you outscale Lulu: don't force anything early, she loses power as the game goes on.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "avoid"
         },
         {
           "text": "Lulu answers your High Note (Q) with a Help, Pix! (E) shield: throw your next poke while her E is on cooldown.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "High Note (Q) hits an area: when Lulu stands next to her ADC, catch both of them with one cast.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

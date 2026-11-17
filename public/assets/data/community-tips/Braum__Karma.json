@@ -17,25 +17,29 @@
           "text": "Reste derrière ta wave sans t'y coller : sa Flamme intérieure (A) explose sur le premier ennemi touché.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Garde ton Incassable (E) pour sa Flamme intérieure (A) renforcée par le Mantra (R) : ton bouclier intercepte le projectile.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Son Exaltation (E) donne un bouclier et de la vitesse : Karma ou son ADC peuvent esquiver ta Morsure de l'hiver (A) et ta Fissure glaciale (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Karma a son Mantra (R) dès le lvl 1 : attends-toi à une Flamme intérieure (A) renforcée dès le premier échange.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Stay behind your wave without hugging it: Inner Flame (Q) explodes on the first enemy it hits.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Save Unbreakable (E) for her Mantra-empowered Inner Flame (Q): your shield intercepts the projectile.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Inspire (E) grants a shield and speed: Karma or her ADC can use it to dodge Winter's Bite (Q) and Glacial Fissure (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Karma has Mantra (R) from level 1: expect an empowered Inner Flame (Q) from the very first trade.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     },
@@ -71,19 +79,22 @@
           "text": "Ne lance pas ta Flamme intérieure (A) dans son Incassable (E) : le projectile est intercepté. Attends son CD pour reprendre ton poke.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Ne reste pas près de ses sbires : son Bouclier humain (Z) peut sauter sur l'un d'eux pour lancer l'all-in.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Esquive sa Morsure de l'hiver (A) : elle pose une charge de Coups étourdissants (passif), et les autos de son ADC peuvent ensuite compléter le stun.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -91,19 +102,22 @@
           "text": "Don't throw Inner Flame (Q) into his Unbreakable (E): the projectile gets intercepted. Wait for the cooldown before poking again.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Stay away from his minions: Stand Behind Me (W) can leap onto one of them to start the all-in.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Dodge Winter's Bite (Q): it applies a Concussive Blows (passive) stack, and his ADC's autos can then finish the stun.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

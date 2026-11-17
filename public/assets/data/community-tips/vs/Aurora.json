@@ -10,43 +10,50 @@
         "text": "Son Sortilège (E) te slow puis la fait reculer : c'est son outil pour trade puis fuir. Engage quand il est en CD (15 à 11 s).",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Quand son Maléfice (A) part dans le vide, tu as 7 à 9 s de fenêtre : avance, trade et repousse-la vers sa tour.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Elle lance son Maléfice (A) quand tu es figé sur un last hit ou une auto. Juste après ton coup, bouge pour l'esquiver.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Le retour de son Maléfice (A) traverse tout sur son trajet. Ne reste pas entre elle et un minion maudit, même si le premier tir t'a raté.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Son Derrière le voile (Z) est un saut suivi d'une invisibilité. Elle s'en sert pour esquiver ton skillshot et se rapprocher : garde ton sort clé pour après.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Dès le lvl 6, son Entre les mondes (R) te slow à l'atterrissage, et sa zone te slow fort si tu tentes d'en sortir. Respecte son all-in.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Aurora n'a ni stun ni root, seulement des slows (E, R). Une fois que tu es sur elle, elle ne peut pas couper ton combo.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Her Weirding (E) slows you, then hops her backward: it's how she trades and escapes. Engage while it's on cooldown (15 to 11 s).",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "When her Twofold Hex (Q) misses, you have a 7 to 9 s window: walk up, trade and shove her back toward her tower.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "She fires Twofold Hex (Q) while you're locked into a last hit or an auto. Move right after your attack to sidestep it.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Twofold Hex (Q) recast drags curses back through everything in its path. Don't stand between her and a cursed minion, even if the first shot missed you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Across the Veil (W) is a hop into invisibility. She uses it to dodge your skillshot and close in, so save your key spell for afterward.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "From level 6, Between Worlds (R) slows you on landing, and its zone slows you hard if you try to walk out. Respect her all-in.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Aurora has no stun or root, only slows (E, R). Once you're on top of her, she can't interrupt your combo.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

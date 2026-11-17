@@ -17,13 +17,15 @@
           "text": "Tant que Rell n'a pas engagé, harcèle-la avec ton Duo éclatant (A) et tes autos, surtout quand elle doit rester sous sa tour.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Garde ton Flash pour son saut : si un engage te le prend, la lane bascule et elle peut te tuer au suivant.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "As long as Rell hasn't engaged, harass her with Glitterlance (Q) and autos, especially when she has to stay under her tower.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Keep Flash for her jump: if one engage burns it, the lane flips and she can kill you on the next one.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ]
     },
@@ -47,31 +51,36 @@
           "text": "Cherche ton engage au passage lvl 2, avant Lulu : saute avec ta Ferromancie (Z) dès que le sbire qui te fait monter meurt, puis enchaîne ta Frappe dislocatrice (A).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Lulu gagne le poke : ne force pas, attends qu'elle ou son ADC se place mal pour sauter dessus.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Un seul bon engage lui coûte souvent son Flash. Sans lui, elle ne peut plus fuir ton saut : joue alors bien plus agressif.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Contrôle le buisson de la lane : retire la ward que Lulu y pose et reste caché dedans pour menacer ton saut.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         },
         {
           "text": "Reste à cheval tant que tu menaces un engage : monté, ta Ferromancie (Z) est un saut qui fait décoller les ennemis à l'atterrissage.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -79,31 +88,36 @@
           "text": "Look for your engage the moment you hit level 2, before Lulu: leap with Ferromancy (W) as the minion that levels you dies, then follow with Shattering Strike (Q).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Lulu wins the poke war: don't force it, wait for her or her ADC to misposition before you jump in.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "One good engage often costs her Flash. Without it she can't escape your jump anymore, so play far more aggressively.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Own the lane brush: clear the ward Lulu places there and stay hidden inside it to threaten your jump.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         },
         {
           "text": "Stay mounted while you threaten an engage: mounted, Ferromancy (W) is a leap that knocks enemies up where you land.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

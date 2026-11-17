@@ -17,31 +17,36 @@
           "text": "Ne lance ton combo complet que lorsque sa Profanation (E) est en CD : sa cage te stun en lane et retourne n'importe quel trade.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Mets la pression avant le lvl 6 : Veigar est faible tôt, chaque point dans son Coup malin (A) et son ult le rendent plus dangereux.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Fais-lui lâcher son Coup malin (A), son seul vrai outil de trade tôt, puis avance et échange pendant son CD.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Son Coup malin (A) porte plus loin que ton Orbe d'illusion (A) : ne reste pas à sa portée sans raison, il te poke gratuitement.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Après son lvl 6, ne reste pas bas en PV en lane : son Explosion primordiale (R) fait plus de dégâts quand ta vie est basse.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Only throw your full combo while his Event Horizon (E) is on cooldown: the cage stuns you in lane and flips any trade.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Pressure him before level 6: Veigar is weak early, and every point in Baleful Strike (Q) plus his ult makes him more dangerous.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Bait out Baleful Strike (Q), his only real early trading tool, then walk up and trade while it is on cooldown.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Baleful Strike (Q) outranges your Orb of Deception (Q): don't idle in its range, or he pokes you for free.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "After his level 6, don't stay low in lane: Primordial Burst (R) deals more damage the lower your health is.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },

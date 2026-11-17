@@ -17,13 +17,15 @@
           "text": "Ne relance pas Coup résonant (A) vers Vi si son Brise-coffre (A) est dispo : son coup chargé te repousse et coupe ton dash.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Pendant sa Mise en demeure (R), Vi est inarrêtable : attends la fin de sa charge pour l'éjecter de ton carry avec Rage du dragon (R).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "Don't recast Resonating Strike (Q) onto Vi while her Vault Breaker (Q) is up: the charged punch knocks you back and stops your dash.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "During Cease and Desist (R), Vi is unstoppable: wait until her dash ends, then kick her off your carry with Dragon's Rage (R).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -47,19 +51,22 @@
           "text": "Garde Brise-coffre (A) pour son Coup résonant (A) : ton coup le repousse en plein dash, même quand il fonce sur un de tes alliés.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ta Mise en demeure (R) te rend inarrêtable pendant la charge : lance-la quand il prépare Rage du dragon (R) pour ignorer le repoussement.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Lee Sin peut être agressif très tôt : warde ta jungle pour suivre ses déplacements avant de te montrer.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ],
       "en": [
@@ -67,19 +74,22 @@
           "text": "Hold Vault Breaker (Q) for his Resonating Strike (Q): your punch knocks him back mid-dash, even when he's diving onto one of your allies.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Cease and Desist (R) makes you unstoppable while you dash: cast it as he winds up Dragon's Rage (R) to ignore the knockback.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Lee Sin can be aggressive very early: ward your jungle to track his movements before you show yourself.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ]
     }

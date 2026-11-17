@@ -10,31 +10,36 @@
         "text": "Jusqu'au lvl 7, son Baril de poudre (E) met longtemps à être prêt : c'est ta fenêtre pour trade. Au lvl 7, ses barils sont prêts bien plus vite.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "GP veut te poke de loin avec ses barils. Ne gaspille pas ton dash ou ton engage : garde-le pour te coller à lui, puis enchaîne short trades et all-in.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Tes autos peuvent détruire ses barils : 1 dégât par coup, et le baril est désamorcé sans exploser. Un vieux baril a perdu des PV, casse-le avant qu'il s'en serve.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sa Guérison du scorbut (Z) retire tous les CC et le soigne. Un bon GP la lance juste avant ton CC : attends qu'il l'ait utilisée, son CD est long.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Tir de barrage (R) est global et ralentit. Il le place souvent sur ton chemin de fuite : contourne la zone au lieu de la traverser.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -42,31 +47,36 @@
         "text": "Until level 7, his Powder Keg (E) takes a while to be ready to pop: that's your window to trade. At 7 the kegs tick down much faster.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "GP wants to poke you from range with kegs. Don't burn your dash or engage for nothing: save it to stick to him, then chain short trades into an all-in.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Your autos can destroy his kegs: each hit removes 1 HP and the keg gets defused, no blast. Older kegs have less HP: break them before he uses them.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Remove Scurvy (W) cleanses every CC and heals him. Good GPs press it right before your CC lands: wait until it's used, it has a long cooldown.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Cannon Barrage (R) is global and slows. He often drops it on your escape route: walk around the zone instead of running through it.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

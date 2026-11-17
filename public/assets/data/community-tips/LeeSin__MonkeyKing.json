@@ -17,19 +17,22 @@
           "text": "Wukong dépend énormément de son Cyclone (R) et son CD est long (130 s au rang 1) : force les combats pendant ce temps-là.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Wukong est faible en early et se fait vite étouffer quand on l'envahit : va dans sa jungle et prends l'avance avant son lvl 6.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Sur un objectif disputé, renvoie Wukong loin du pit avec ta Rage du dragon (R) et finis l'objectif sans lui.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Wukong relies heavily on Cyclone (R), and its cooldown is long (130 s at rank 1): force fights while it's down.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Wukong is weak early and gets choked out when invaded: go into his jungle and get ahead before he hits level 6.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "On a contested objective, kick Wukong far from the pit with Dragon's Rage (R) and finish the objective without him.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,19 +65,22 @@
           "text": "Tout ton impact passe par ton Cyclone (R), au CD long (130 s au rang 1) : sans ton ult, évite les combats contre Lee Sin.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "avoid"
         },
         {
           "text": "Ton early est faible et te faire envahir ruine ta partie : protège ton full clear et ne cherche pas de combat avant le lvl 6.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Près d'un objectif, ne reste pas seul devant Lee Sin : sa Rage du dragon (R) peut t'envoyer loin du pit.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -79,19 +88,22 @@
           "text": "Your impact runs through Cyclone (R), which has a long cooldown (130 s at rank 1): without your ult, avoid fights with Lee Sin.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "avoid"
         },
         {
           "text": "Your early game is weak and getting invaded ruins your game: protect your full clear and don't look for fights before level 6.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Near an objective, don't stand alone in front of Lee Sin: Dragon's Rage (R) can kick you far from the pit.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

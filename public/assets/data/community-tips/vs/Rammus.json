@@ -10,31 +10,36 @@
         "text": "Sa Boule défensive (Z) renvoie des dégâts à chaque auto reçue. Coupe tes autos pendant ce sort, et méfie-toi de sa Provocation frénétique (E) qui te force à frapper Rammus.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Lancée pendant son Démolisseur (A), sa Frappe ascendante (R) projette en l'air les ennemis au centre. Quand Rammus roule vers ton équipe, évite de rester groupé avec tes alliés.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Rammus gank très tôt, souvent dès le lvl 2 ou 3. Évite de push sans ward en rivière pendant les premières minutes.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "Rammus encaisse bien les dégâts physiques mais mal les dégâts magiques. En fight, laisse tes sources de dégâts magiques s'occuper de Rammus.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Son Démolisseur (A) s'arrête sur le premier ennemi touché. Reste derrière tes sbires : Rammus les percute avant de t'atteindre.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ],
     "en": [
@@ -42,31 +47,36 @@
         "text": "His Defensive Ball Curl (W) deals damage back to anyone who autos him. Stop autoing while it's up, and beware Frenzying Taunt (E), which forces you to hit him.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Cast during Powerball (Q), his Soaring Slam (R) knocks up enemies in the center. When Rammus rolls toward your team, don't stay bunched up.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Rammus ganks very early, often at level 2 or 3. Don't shove your wave without a river ward in the first minutes.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "Rammus shrugs off physical damage but struggles against magic damage. In fights, let your magic damage dealers handle him.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "His Powerball (Q) stops on the first enemy it hits. Stay behind your minions so Rammus bumps into them before reaching you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ]
   },

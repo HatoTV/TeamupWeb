@@ -10,49 +10,57 @@
         "text": "Varus n'a aucun dash : quand sa Chaîne corruptrice (R) et son Flash sont down, engage ou dive-le, il ne peut plus te garder à distance.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Varus est très faible lvl 1 : trade dès le début de lane, car Varus perd la plupart des échanges à ce niveau.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Prends le lvl 2 avant lui et all-in sur ton spike, surtout s'il a push vite et se retrouve près de ta tour.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Chaque auto de Varus pose une marque de Carquois meurtri (Z), jusqu'à 3. Après deux ou trois autos, recule : ses sorts font exploser les marques.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ralenti par sa Pluie de flèches (E), tu deviens une cible facile pour sa Chaîne corruptrice (R) : sors vite de la zone.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sa Flèche perforante (A) part en ligne droite et le ralentit pendant la charge : garde ton dash ou un pas de côté pour l'esquiver.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Reste derrière tes sbires : sa Flèche perforante (A) perd des dégâts pour chaque ennemi traversé avant de te toucher.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Écarte-toi d'un allié pris par sa Chaîne corruptrice (R) : elle se propage aux champions proches et les root aussi.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Varus has no dash. Once his Chain of Corruption (R) and Flash are down, engage or dive him: he can no longer keep you off him.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Varus is very weak at level 1. Trade early in lane, he loses most exchanges at that point.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Hit level 2 before him and all-in on your spike, especially if he pushed fast and ended up close to your tower.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Every Varus auto applies a Blighted Quiver (W) stack, up to 3. After two or three autos, back off: his abilities detonate the stacks.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "When his Hail of Arrows (E) slows you, his Chain of Corruption (R) becomes easy to land. Walk out of the zone fast.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Piercing Arrow (Q) flies in a straight line and slows him while charging. Save your dash or sidestep to dodge it.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Stand behind your minions: his Piercing Arrow (Q) loses damage for each enemy it passes through before reaching you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Spread out from an ally caught by his Chain of Corruption (R): it jumps to nearby champions and roots them too.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

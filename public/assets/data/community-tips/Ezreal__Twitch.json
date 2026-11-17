@@ -17,25 +17,29 @@
           "text": "Quand Twitch disparaît avec Embuscade (A), recule : il sort du camouflage avec un bonus de vitesse d'attaque.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Tu gagnes le début de lane : prends ton avance avant son lvl 6, car Twitch devient ensuite bien plus dangereux.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "En mid game, évite les duels prolongés : Twitch finit par te battre dans les combats longs.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "En teamfight, ne reste pas aligné avec tes alliés : sa Panique (R) traverse tous les ennemis sur sa trajectoire.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "When Twitch vanishes with Ambush (Q), back off: he comes out of camouflage with an Attack Speed boost.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "You win the early lane: get your lead before his lvl 6, because Twitch gets much more dangerous afterwards.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "In the mid game, avoid drawn-out duels: Twitch ends up beating you in long fights.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "In teamfights, don't line up with your allies: his Spray and Pray (R) pierces every enemy in its path.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -71,25 +79,29 @@
           "text": "Utilise Embuscade (A) pour entrer dans sa portée sans être vu : tu ressors avec un bonus de vitesse d'attaque.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ezreal domine le début de lane : évite les combats tôt, farme et attends ton lvl 6 pour le punir.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Esquive son Tir mystique (A) : chaque touche réduit ses CD et augmente sa vitesse d'attaque.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Attends qu'il ait utilisé Transfert arcanique (E) avant d'engager : sans ce sort, Ezreal a du mal à fuir.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -97,25 +109,29 @@
           "text": "Use Ambush (Q) to get into his range unseen: you come out of it with an Attack Speed boost.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ezreal wins the early lane: avoid early fights, farm, and wait for your lvl 6 to punish him.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Dodge his Mystic Shot (Q): every hit lowers his cooldowns and stacks his Attack Speed.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Wait for him to use Arcane Shift (E) before you engage: without it, Ezreal struggles to escape.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

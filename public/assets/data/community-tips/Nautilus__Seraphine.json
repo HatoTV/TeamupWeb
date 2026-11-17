@@ -21,25 +21,29 @@
           "text": "Évite les trades longs. Poke avec ton Battement (E), qui porte plus loin que son Abordage (A), puis recule aussitôt.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Sa Grenade ASM (R) te poursuit, impossible de l'esquiver. Une fois qu'il l'a utilisée, profite de son long CD pour trade davantage.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Quand Nautilus disparaît de la lane, ne push pas : garde la wave près de ta tour, surtout après son lvl 6.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "La lane est le moment dangereux du matchup : joue la sécurité, c'est toi qui prends l'avantage en scalant.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ],
       "en": [
@@ -47,25 +51,29 @@
           "text": "Avoid extended trades. Poke with Beat Drop (E), which outranges his Dredge Line (Q), then back off right away.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "His Depth Charge (R) chases you down and can't be dodged. Once he has used it, take advantage of its long cooldown to play more aggressively.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "When Nautilus goes missing, don't push: keep the wave near your tower, especially once he's level 6.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Laning is the dangerous part of this matchup: play it safe, since you're the one who gains the edge as the game goes on.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ]
     }

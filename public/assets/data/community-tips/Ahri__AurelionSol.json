@@ -17,19 +17,22 @@
           "text": "Garde ton Charme (E) pour son Vol astral (Z) : s'il fonce sur toi, le Charme coupe net son vol et le laisse à ta merci.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Quand Aurelion Sol canalise son Souffle de lumière (A) sur la wave, avance et place ton Charme (E) : c'est ta meilleure fenêtre d'échange.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Son Étoile finale (R) tombe après un court délai : garde un dash de ton Assaut spirituel (R) pour sortir de la zone d'impact.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Hold Charm (E) for his Astral Flight (W): if he flies at you, Charm stops the flight cold and leaves him at your mercy.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "When Aurelion Sol channels Breath of Light (Q) on the wave, step up and land Charm (E): that's your best trading window.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "His Falling Star (R) lands after a short delay: keep one Spirit Rush (R) dash to leave the impact zone.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,13 +65,15 @@
           "text": "Ne lance pas ton Vol astral (Z) tant qu'Ahri a son Charme (E) : il stoppe net ton vol. Attends qu'elle le rate, puis engage.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Ne lance pas ton Étoile finale (R) après son premier dash : son Assaut spirituel (R) lui en laisse encore deux pour sortir de la zone.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -73,13 +81,15 @@
           "text": "Don't start Astral Flight (W) while Ahri has Charm (E): it stops your flight cold. Wait for her to miss it, then engage.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Don't cast Falling Star (R) after her first dash: Spirit Rush (R) still gives her two more to leave the zone.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

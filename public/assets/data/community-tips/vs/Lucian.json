@@ -10,43 +10,50 @@
         "text": "Lucian gagne les short trades grâce à ses doubles tirs. Reste hors de portée quand ses sorts sont up, puis trade long une fois qu'ils sont en CD.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Lucian n'a que 500 de portée. Avec un ADC longue portée, poke-le dès le lvl 1 et garde ta distance en permanence pour l'empêcher de trade.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Chaque CC sur toi près de Lucian, ou shield de son support sur lui, charge ses deux prochains tirs de dégâts magiques bonus. Ne te fais pas immobiliser à portée.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Son Flamboiement (Z) te marque 6 s : chaque coup de Lucian ou de ses alliés sur toi lui donne un boost de vitesse. Esquive-le pour pouvoir le distancer.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Quand il a utilisé sa Poursuite inlassable (E) pour venir sur toi, il n'a plus d'échappatoire. Slow-le ou recule en le kitant : il perd le trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Chaque double tir qui te touche réduit le CD de sa Poursuite inlassable (E). Ne le laisse pas enchaîner les autos sur toi, sinon son dash revient très vite.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Son Déluge de balles (R) tire dans une direction et chaque balle s'arrête sur le premier ennemi touché : sors de l'axe ou garde un sbire entre vous.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Lucian wins short trades with his double shots. Stay out of range while his spells are up, then take extended trades once they're on cooldown.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Lucian only has 500 range. On a longer-range ADC, poke him from level 1 and keep your distance at all times so he can't trade.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Any CC on you near Lucian, or a shield from his support on him, empowers his next two shots with bonus magic damage. Don't get immobilized in his range.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "His Ardent Blaze (W) marks you for 6 s: every hit from Lucian or his allies gives him a speed burst. Dodge it so you can actually get away.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Once he has used Relentless Pursuit (E) to jump on you, he has no way out. Slow him or kite backwards: he loses the trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Every double shot that lands on you lowers the cooldown of his Relentless Pursuit (E). Don't let him chain autos on you or his dash comes back fast.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "The Culling (R) fires in one direction and each bullet stops on the first enemy hit: step out of the line or keep a minion between you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

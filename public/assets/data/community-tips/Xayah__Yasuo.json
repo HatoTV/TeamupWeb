@@ -17,19 +17,22 @@
           "text": "Au lvl 1, Yasuo a du mal à t'atteindre : trade fort avant le lvl 2, le moment où il commence à chercher l'all-in.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Reste loin de la wave : son Cercle tranchant (E) dash de sbire en sbire jusqu'à toi, et sa Tempête d'acier (A) se charge en les touchant.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Son Mur de vent (Z) bloque tes projectiles pendant 4 s : attends qu'il disparaisse, ou prends un angle qui le contourne, avant d'engager.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "At level 1, Yasuo struggles to reach you: trade hard before level 2, which is when he starts looking for all-ins.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Stay away from the minion wave: his Sweeping Blade (E) hops from minion to minion to reach you, and hitting them charges his Steel Tempest (Q).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "His Wind Wall (W) blocks your projectiles for 4 seconds: wait for it to fade, or take an angle around it, before you commit.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,25 +65,29 @@
           "text": "Garde ton Mur de vent (Z) pour le sort qui t'arrêterait : une fois qu'il est gâché, Xayah et son support peuvent trader sans risque.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ne force rien au lvl 1 : attends le lvl 2 ou 3 pour l'all-in, idéalement quand ton support engage en même temps.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Tu perds en puissance vers 20 min : joue les escarmouches des premiers drakes et cherche à finir tôt, avant que Xayah te dépasse.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Sers-toi de la wave pour approcher : dash de sbire en sbire avec ton Cercle tranchant (E) et charge ta Tempête d'acier (A) sur eux avant d'atteindre Xayah.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -85,25 +95,29 @@
           "text": "Save your Wind Wall (W) for the spell that would stop you: once it's wasted, Xayah and her support can trade into you freely.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Don't force anything at level 1: wait for level 2 or 3 to all-in, ideally when your support engages with you.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "You fall off around 20 minutes: play for the first dragon skirmishes and try to close the game early, before Xayah outscales you.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Use the minion wave to close in: hop from minion to minion with Sweeping Blade (E) and charge Steel Tempest (Q) on them before you reach Xayah.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

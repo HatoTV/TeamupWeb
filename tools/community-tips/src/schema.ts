@@ -7,6 +7,12 @@ export const MAX_TIP_WORDS = 30;
 export const CATEGORIES = ['lane', 'mechanics', 'macro'] as const;
 export type Category = (typeof CATEGORIES)[number];
 export const categorySchema = z.enum(CATEGORIES);
+/**
+ * Displayed sub-heading of a tip (matchups page, counters tab), in this order: general advice against the opponent,
+ * laning phase (last hits, trades, waves, levels 1-6), what to avoid. Absent = general.
+ */
+export const SECTIONS = ['general', 'lane', 'avoid'] as const;
+export type Section = (typeof SECTIONS)[number];
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const championId = z.string().regex(/^[A-Za-z]+$/);
@@ -19,6 +25,8 @@ export const tipSchema = z.strictObject({
   verifiedByGameData: z.boolean(),
   /** Not displayed: sets the consensus threshold and breaks ties (lane, then mechanics, then macro). */
   category: categorySchema,
+  /** Displayed sub-heading (absent = general); the FR tip and its EN translation have the same one. */
+  section: z.enum(SECTIONS).optional(),
 });
 
 const tipListSchema = z.array(tipSchema).max(MAX_TIPS_PER_PERSPECTIVE);

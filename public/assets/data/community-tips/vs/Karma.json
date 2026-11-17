@@ -10,43 +10,50 @@
         "text": "Ne reste pas collé à tes sbires : sa Flamme intérieure (A) explose sur le premier sbire touché et l'effet de zone te blesse aussi.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Son Mantra (R) est dispo dès le lvl 1 : respecte son poke renforcé, ne conteste pas le buisson et ne reste pas collé à ton allié.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Quand elle te lie avec sa Volonté concentrée (Z), sors tout de suite de sa portée : si le lien casse avant la fin, tu évites le root.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Si elle rate sa Flamme intérieure (A) renforcée, trade : son Mantra (R) reste longtemps en CD, car seuls ses sorts qui touchent le réduisent.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Elle spam sa Flamme intérieure (A) sur la wave pour prendre le lvl 2 en premier : surveille la wave et recule juste avant son lvl 2.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Karma est fragile face aux engages et aux hooks. Lance ton all-in quand sa Volonté concentrée (Z) est en CD, sinon elle te root en plein engage.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Sa Flamme intérieure (A) renforcée laisse un cercle qui ralentit puis explose après un court délai : sors-en immédiatement.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Don't hug your minions: her Inner Flame (Q) detonates on the first minion it touches and the splash still hits you.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Her Mantra (R) is up from level 1: respect her empowered poke, don't fight for the bush and don't stand stacked with your lane partner.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "When she tethers you with Focused Resolve (W), walk out of range right away: breaking the link before it ends cancels the root.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "If she misses her empowered Inner Flame (Q), trade right away: her Mantra (R) stays on a long cooldown since only spells that land shorten it.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "She spams Inner Flame (Q) on the wave to hit level 2 first: watch the minion count and step back just before she gets there.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Karma is squishy against hard engage and hooks. Commit when her Focused Resolve (W) is on cooldown, otherwise she roots you mid-engage.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Her empowered Inner Flame (Q) leaves a slowing circle that detonates after a short delay: get out of it immediately.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

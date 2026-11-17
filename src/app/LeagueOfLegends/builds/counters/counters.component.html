@@ -1,0 +1,163 @@
+<div class="seg" role="group" [attr.aria-label]="'COUNTERS.COLUMNS' | translate">
+  @for (col of columns(); track col.side) {
+    <button type="button" class="seg__btn" [class]="'seg__btn seg__btn--' + col.side" [attr.aria-pressed]="mobileSide() === col.side" (click)="mobileSide.set(col.side)">
+      {{ col.titleKey | translate }}
+    </button>
+  }
+</div>
+
+<div class="grid" [class.has-selection]="!!selected()">
+  @for (col of columns(); track col.side) {
+    <section class="col" [class]="'col col--' + col.side" [class.is-hidden-mobile]="mobileSide() !== col.side" [attr.aria-labelledby]="'counters-' + col.side">
+      <div class="col__head">
+        <div class="col__title-row">
+          <span class="col__chip" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+              <path [attr.d]="col.side === 'good' ? 'M6 15l6-6 6 6' : 'M6 9l6 6 6-6'" />
+            </svg>
+          </span>
+          <h2 class="col__title" [id]="'counters-' + col.side">{{ col.titleKey | translate }}</h2>
+        </div>
+        <div class="col__labels" aria-hidden="true">
+          <span></span>
+          <span class="col__label">{{ 'COUNTERS.OPPONENT' | translate }}</span>
+          <span class="col__label col__label--end">{{ 'COUNTERS.WIN_RATE' | translate }}</span>
+        </div>
+      </div>
+
+      @if (col.rows.length) {
+        <div class="col__list scroll" role="listbox" [attr.aria-labelledby]="'counters-' + col.side" (keydown)="onListKey($event, col)">
+          @for (row of col.rows; track row.id; let i = $index) {
+            <div
+              role="option"
+              class="row"
+              [class.is-selected]="selected()?.id === row.id"
+              [attr.aria-selected]="selected()?.id === row.id"
+              [attr.aria-label]="'COUNTERS.OPTION_LABEL' | translate: { opponent: row.name, winRate: fmtRate(row.winRate), games: fmtInt(row.games) }"
+              [attr.data-id]="row.id"
+              [tabindex]="tabStop(col, row, i)"
+              (click)="select(row)"
+            >
+              <img class="row__icon" [src]="row.icon" alt="" width="42" height="42" loading="lazy" />
+              <span class="row__main">
+                <span class="row__name">{{ row.name }}</span>
+                <span class="row__track" aria-hidden="true"><span class="row__bar" [style.width.%]="row.width"></span></span>
+              </span>
+              <span class="row__stats">
+                <span class="row__wr">{{ fmtRate(row.winRate) }}</span>
+                <span class="row__games">{{ 'COUNTERS.GAMES' | translate: { n: fmtInt(row.games) } }}</span>
+              </span>
+            </div>
+          }
+        </div>
+      } @else {
+        <p class="col__empty">{{ 'COUNTERS.EMPTY_LIST' | translate: { min: fmtInt(minGames) } }}</p>
+      }
+      <p class="col__foot">{{ 'COUNTERS.FOOTER' | translate: { n: fmtInt(col.rows.length) } }}</p>
+    </section>
+  }
+
+  <aside #panel class="panel scroll" [class.is-open]="!!selected()" [attr.aria-label]="'COUNTERS.DETAIL' | translate">
+    @if (selected(); as s) {
+      @if (isMobile()) {
+        <button type="button" class="back" (click)="back()">← {{ 'COUNTERS.BACK' | translate }}</button>
+      }
+      <section class="mu" [class]="'mu mu--' + s.side" aria-labelledby="mu-title">
+        <div class="mu__head">
+          <div class="mu__vs-row">
+            <img class="mu__icon mu__icon--me" [src]="championIcon()" alt="" width="52" height="52" />
+            <span class="mu__vs" aria-hidden="true">VS</span>
+            <img class="mu__icon mu__icon--vs" [src]="s.icon" alt="" width="52" height="52" />
+            <div class="mu__titles">
+              <h2 id="mu-title" class="mu__title">{{ 'COUNTERS.VS_TITLE' | translate: { champion: champion().name, opponent: s.name } }}</h2>
+              @if (levelInfo(); as d) {
+                <span class="mu__badge" [style.--d-text]="d.text" [style.--d-bg]="d.bg">
+                  <app-difficulty-icon [level]="d.level" [size]="13" />{{ d.labelKey | translate }}
+                </span>
+              }
+            </div>
+          </div>
+          <dl class="mu__stats" [class.mu__stats--two]="s.goldDiff15 === undefined">
+            <div class="mu__stat">
+              <dt>{{ 'COUNTERS.WIN_OF' | translate: { champion: champion().name } }}</dt>
+              <dd class="mu__num mu__num--side">{{ fmtRate(s.winRate) }}</dd>
+            </div>
+            <div class="mu__stat">
+              <dt>{{ 'COUNTERS.GAMES_ANALYZED' | translate }}</dt>
+              <dd class="mu__num">{{ fmtInt(s.games) }}</dd>
+            </div>
+            @if (s.goldDiff15 !== undefined) {
+              <div class="mu__stat">
+                <dt>{{ 'COUNTERS.GOLD_15' | translate }}</dt>
+                <dd class="mu__num" [class.is-up]="s.goldDiff15 > 0" [class.is-down]="s.goldDiff15 < 0">{{ gold(s.goldDiff15) }}</dd>
+              </div>
+            }
+          </dl>
+        </div>
+
+        <div class="tips">
+          <h3 class="tips__title"><span class="tips__dot" aria-hidden="true"></span>{{ 'COUNTERS.MATCHUP_TIPS' | translate }}</h3>
+          @if (tips(); as t) {
+            @if (t.englishFallback) {
+              <p class="tips__lang"><span class="tips__lang-badge" aria-hidden="true">{{ 'MATCHUPSPAGE.EN_BADGE' | translate }}</span>{{ 'MATCHUPSPAGE.EN_BADGE_LABEL' | translate }}</p>
+            }
+            <ol class="tips__list" [attr.lang]="t.lang">
+              @for (line of t.lines; track $index; let i = $index) {
+                <li class="tips__item">
+                  <span class="tips__n" aria-hidden="true">{{ i + 1 }}</span>
+                  <p class="tips__text">{{ line }}</p>
+                </li>
+              }
+            </ol>
+            @if (author(); as a) {
+              <div class="author">
+                @if (a.rank) {
+                  <img class="author__rank" [src]="'assets/img/ranks/' + a.rank + '.webp'" alt="" width="34" height="26" />
+                }
+                <p class="author__text">
+                  <strong>{{ a.name }}</strong> ·
+                  @if (a.rank) {
+                    {{ 'MATCHUPSPAGE.AUTHOR_ROLE' | translate: { rank: ('HOMEPAGE.RANKS.' + a.rank.toUpperCase() | translate) } }}
+                  } @else {
+                    {{ 'MATCHUPSPAGE.AUTHOR_ROLE_UNKNOWN' | translate }}
+                  }
+                </p>
+              </div>
+            }
+          } @else {
+            <p class="tips__empty">{{ 'COUNTERS.NO_TIPS' | translate }}</p>
+          }
+        </div>
+
+        <div class="sep" role="separator"></div>
+
+        @if (s.champion) {
+          <app-community-tips [me]="champion()" [vs]="s.champion" [embedded]="true" />
+        } @else {
+          <p class="tips__empty tips__empty--commu">{{ 'COUNTERS.NO_COMMUNITY' | translate: { champion: s.name } }}</p>
+        }
+      </section>
+    } @else {
+      <div class="pick">
+        <span class="pick__vs" aria-hidden="true">
+          <img class="pick__me" [src]="championIcon()" alt="" width="56" height="56" />
+          <span class="pick__vs-text">VS</span>
+          <span class="pick__unknown">?</span>
+        </span>
+        <h2 class="pick__title">{{ 'COUNTERS.PICK_TITLE' | translate }}</h2>
+        <p class="pick__text">{{ 'COUNTERS.PICK_TEXT' | translate }}</p>
+        @if (quick().length) {
+          <p class="pick__label">{{ 'COUNTERS.MOST_PLAYED' | translate }}</p>
+          <div class="pick__list">
+            @for (q of quick(); track q.id) {
+              <button type="button" class="pick__btn" [class]="'pick__btn pick__btn--' + q.side" [title]="q.name" (click)="select(q)">
+                <img [src]="q.icon" [alt]="q.name" width="46" height="46" />
+              </button>
+            }
+          </div>
+        }
+      </div>
+    }
+  </aside>
+</div>
+<p class="note">{{ 'COUNTERS.THRESHOLD' | translate: { min: fmtInt(minGames) } }}</p>

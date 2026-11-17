@@ -10,49 +10,57 @@
         "text": "Après un trade, garde Pyke dans ta vision : caché dans un brush ou hors de vue, son passif lui rend les dégâts récents que tu lui as infligés.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Ressac fantôme (E) laisse un spectre qui revient vers lui et stun tout ce qui est sur la ligne. Sors de cet axe sur le côté, pas en reculant.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Bas en PV, quitte sa portée : son Exécution abyssale (R) achève sous un seuil de PV et se relance si un champion meurt dans le X.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sans Flash, joue un cran plus loin : Pyke traque les flash timers et engage dès qu'une cible ne peut plus fuir son hook ni son stun.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Pyke cherche vite le lvl 2 pour avoir Harponnage (A) et Ressac fantôme (E). Dès qu'il le prend, recule hors de portée au lieu de rester devant la wave.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Pyke vit dans les brushs de la lane, d'où son hook est dur à lire. Warde-les ; s'il y disparaît, garde tes distances.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Pyke roam dès qu'il a pris une tour ou atteint le lvl 6. S'il quitte la botlane, ping tout de suite tes lanes voisines.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Reste derrière tes sbires : chargé, son Harponnage (A) s'arrête sur le premier ennemi touché, donc un sbire suffit à bloquer le pull.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "After a trade, keep Pyke in vision: once he's hidden in a brush or out of sight, his passive restores the damage you just dealt him.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Phantom Undertow (E) leaves a phantom that snaps back to him and stuns everything on its path. Sidestep that line instead of backing straight away.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Low on HP, get out of his range: Death From Below (R) executes below a health threshold and he can recast it if a champion dies in the X.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "No Flash? Play a step further back: Pyke hunts flash timers and engages as soon as a target can't escape his hook or stun.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Pyke rushes level 2 to get both Bone Skewer (Q) and Phantom Undertow (E). When he hits it, step out of range instead of standing in front of the wave.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Pyke lives in the lane brushes, where his hook is hard to read. Ward them; if he vanishes inside, keep your distance.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Pyke roams as soon as he takes a tower or reaches level 6. When he leaves bot lane, ping your nearby lanes right away.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Stay behind your minions: a charged Bone Skewer (Q) stops on the first enemy hit, so a single minion blocks the pull.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

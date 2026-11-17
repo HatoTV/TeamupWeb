@@ -10,43 +10,50 @@
         "text": "Mundo est faible en lane avant de stack ses PV. Trade dès le lvl 1 et punis chaque erreur : plus la game avance, plus il est dur à tuer.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sa Scie souillée (A) touche le premier ennemi sur sa trajectoire et te ralentit. Reste derrière tes sbires pour la bloquer, ou esquive-la sur le côté.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Crash la wave sous sa tourelle, puis joue le retour de wave : Mundo doit avancer pour last hit, et chaque CS qu'il prend t'offre un trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Son passif Il va où il veut ignore la première immobilisation. Fais-le sauter avec un petit CC avant de lancer ton gros CC ou ton all-in.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Défibrillateur (Z) soigne Mundo bien plus si l'explosion touche un champion. Sors de son rayon avant la réactivation ou la fin pour réduire le heal.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Dès le lvl 6, son Dosage maximal (R) soigne Mundo selon ses PV manquants. Garde ton burst pour le finir d'un coup plutôt que de le grignoter.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Dosage maximal (R) a 120 s de CD. Force-le avec un petit trade, recule pendant son effet, puis reviens all-in une fois le R en CD.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Mundo is weak in lane until he stacks health. Trade from level 1 and punish every mistake: the longer the game goes, the harder he is to kill.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Infected Bonesaw (Q) hits the first enemy in its path and slows you. Stay behind your minions to block it, or sidestep it.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Crash the wave into his tower, then play the bounce: Mundo has to walk up to last hit, and every CS he goes for gives you a trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "His passive, Goes Where He Pleases, ignores the first immobilizing effect. Pop it with a minor CC before you commit your big CC or all-in.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Heart Zapper (W) heals Mundo far more if its burst hits a champion. Step out of its radius before he recasts it or it ends to cut the heal.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "From level 6, Maximum Dosage (R) heals Mundo based on his missing health. Save your burst to finish him in one go instead of chipping him down.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Maximum Dosage (R) has a 120 s cooldown. Bait it with a short trade, back off while it lasts, then come back for the all-in once it's down.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

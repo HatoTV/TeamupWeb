@@ -17,19 +17,22 @@
           "text": "Viego est faible en début de partie : envahis sa jungle dès le lvl 2 ou 3 et prends l'avance avant qu'il scale.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "En escarmouche, ne lui laisse pas le premier kill : en possédant le corps, Viego se soigne et gagne un lancer gratuit de Cœur brisé (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Sa Gueule spectrale (Z) est son seul stun : s'il la rate, profite de son CD pour engager.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Viego is weak early on: invade his jungle at level 2 or 3 and get ahead before he scales.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "In skirmishes, don't hand him the first kill: by possessing the body, Viego heals and gets a free Heartbreaker (R) cast.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Spectral Maw (W) is his only stun: if he misses it, engage while it's on cooldown.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,19 +65,22 @@
           "text": "Lee Sin est plus fort que toi tôt et cherche à t'envahir : ward ta jungle, évite les duels précoces et joue pour scaler.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "En escarmouche, vise le premier kill : posséder le corps te soigne et te rend un lancer gratuit de Cœur brisé (R) pour enchaîner.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ne gaspille pas ta Gueule spectrale (Z) : rater ton seul stun laisse à Lee Sin tout son CD pour t'engager.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -79,19 +88,22 @@
           "text": "Lee Sin is stronger than you early and looks to invade: ward your jungle, avoid early duels and play to scale.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "In skirmishes, go for the first kill: possessing the body heals you and gives a free Heartbreaker (R) cast to chain into.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Don't waste Spectral Maw (W): missing your only stun gives Lee Sin its whole cooldown to engage you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

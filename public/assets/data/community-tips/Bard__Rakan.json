@@ -17,13 +17,15 @@
           "text": "Garde ton Lien cosmique (A) pour sa Valse guerrière (E) : quand Rakan rejoint son allié, aligne-les et étourdis les deux d'un coup.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Attends que Rakan colle son allié avec sa Valse guerrière (E) pour lancer ton Destin tempéré (R) : tu figes les deux.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "Hold Cosmic Binding (Q) for his Battle Dance (E): once Rakan lands on his ally, line them up and stun both at once.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Wait for Rakan to reach his ally with Battle Dance (E) before casting Tempered Fate (R): you freeze both of them.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -47,19 +51,22 @@
           "text": "Évite ta Valse guerrière (E) vers ton ADC quand Bard a son Lien cosmique (A) : collés l'un à l'autre, vous prenez le stun à deux.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Ne lance pas ton Entrée triomphale (Z) tant que Bard a son Lien cosmique (A) : son stun peut couper ton engage. Attends qu'il le gaspille.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Ne reste pas collé à un mur ni aligné derrière un sbire : son Lien cosmique (A) t'étourdit s'il touche un mur ou une 2e cible.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -67,19 +74,22 @@
           "text": "Avoid using Battle Dance (E) onto your ADC while Bard has Cosmic Binding (Q): stacked together, you both eat the stun.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Don't cast Grand Entrance (W) while Bard holds Cosmic Binding (Q): his stun can cut your engage short. Wait until he wastes it.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Don't stand against a wall or lined up behind a minion: his Cosmic Binding (Q) stuns you if it hits terrain or a second target.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

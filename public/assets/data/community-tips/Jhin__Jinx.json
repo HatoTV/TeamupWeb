@@ -17,19 +17,22 @@
           "text": "Cherche à prendre le push et garde Jinx sous sa tour : ta Grenade dansante (A) nettoie la wave plus vite qu'elle, et elle a besoin de farmer.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Reste derrière un sbire : son Zap ! (Z) s'arrête sur le premier ennemi touché.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Ne marche pas sur ses Pyromâcheurs ! (E) : ils t'immobilisent sur place, et elle enchaîne derrière.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Look to take the push and keep Jinx under her tower: your Dancing Grenade (Q) clears the wave faster than she can, and she needs to farm.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Stay behind a minion: her Zap! (W) stops on the first enemy it hits.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Don't walk over her Flame Chompers! (E): they root you in place, and she follows up right away.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -59,25 +65,29 @@
           "text": "En début de partie, passe sur Poiscaille avec ton Flip flap ! (A) : les roquettes allongent ta portée pour le poke quand il s'approche pour farmer.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Ne reste pas collée à ta wave : sa Grenade dansante (A) rebondit de sbire en sbire jusqu'à toi.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Sa Floraison mortelle (Z) porte très loin et traverse les sbires : après avoir pris des dégâts, ne reste pas à découvert dans sa ligne.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Respecte sa 4e balle : elle est toujours critique et fait mal, recule quand elle est prête.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -85,25 +95,29 @@
           "text": "Early on, use Switcheroo! (Q) to swap to Fishbones: the rockets give you extra range to poke him when he walks up to farm.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Don't hug your wave: his Dancing Grenade (Q) bounces from minion to minion onto you.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "His Deadly Flourish (W) has huge range and goes through minions: once you've taken damage, don't stand exposed in its line.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Respect his fourth bullet: it always crits and hurts, so back off when it's loaded.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

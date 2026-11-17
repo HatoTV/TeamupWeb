@@ -10,49 +10,57 @@
         "text": "Enfouie, Rek'Sai voit les ennemis qui bougent dans le brouillard autour d'elle. Si tu la sais proche et invisible, arrête de bouger pour rester caché.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Les tunnels de Rek'Sai (E) durent 10 min. Reste 1,5 s sur une entrée pour détruire le tunnel et lui retirer ses angles de gank.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Rek'Sai gank très fort dès son lvl 3. Ward ta lane à ce moment-là et ne t'avance pas sans vision.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Enfouie, Rek'Sai ouvre son combo avec Sondeur explosif (A), qui explose sur le premier ennemi touché. Reste derrière tes minions pour bloquer le projectile.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Rush du Néant (R) ne cible qu'un ennemi que Rek'Sai a touché dans les 5 dernières secondes. À bas PV, coupe vite le contact pour perdre la marque.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Pendant Rush du Néant (R), Rek'Sai plonge sous terre et devient intouchable. Ne gaspille pas tes sorts : attends que Rek'Sai réapparaisse sur sa cible.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "À Fureur pleine, Morsure féroce (E) inflige des dégâts bruts. Surveille sa jauge de Fureur et évite le trade quand la jauge est pleine.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ne dash pas sur une Rek'Sai enfouie : son Jaillissement (Z) projette en l'air les ennemis proches et coupe ton engage.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "While burrowed, Rek'Sai sees enemies that move in the fog around her. If you know she's close and unseen, stop moving to stay hidden.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Rek'Sai's tunnels (E) last 10 minutes. Stand on an entrance for 1.5 seconds to destroy the tunnel and take away her gank angles.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Rek'Sai ganks hard as soon as she hits level 3. Ward your lane around that timing and don't step up without vision.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Burrowed, Rek'Sai opens her combo with Prey Seeker (Q), which detonates on the first enemy hit. Stay behind your minions to block it.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Void Rush (R) can only target an enemy Rek'Sai damaged in the last 5 seconds. When low, break contact fast so the mark runs out.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "During Void Rush (R), Rek'Sai dives underground and becomes untargetable. Don't waste your spells: wait for her to pop back up on her target.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "At max Fury, Furious Bite (E) deals true damage. Watch her Fury bar and avoid trading when it's full.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Don't dash onto a burrowed Rek'Sai: Un-burrow (W) knocks up nearby enemies and shuts down your engage.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

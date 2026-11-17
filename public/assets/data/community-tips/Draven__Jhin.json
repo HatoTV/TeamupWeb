@@ -17,13 +17,15 @@
           "text": "Après sa 4e balle, Jhin doit recharger : c'est le moment de l'engager avec ta Division (E).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Sa Grenade dansante (A) saute de sbire en sbire jusqu'à toi : ne va pas chercher tes haches au milieu de sa wave.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "After his fourth bullet, Jhin has to reload: that's your window to go in with Stand Aside (E).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "His Dancing Grenade (Q) jumps from minion to minion onto you: don't chase your axes into the middle of his wave.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -47,7 +51,8 @@
           "text": "Reste hors de portée de sa Division (E) : elle te repousse et te ralentit, et Draven te tue dès qu'il réduit la distance.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -55,7 +60,8 @@
           "text": "Stay out of Stand Aside (E) range: it knocks you aside and slows you, and Draven kills you once he closes the gap.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

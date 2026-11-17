@@ -17,25 +17,29 @@
           "text": "Séraphine n'a aucun dash pour s'échapper : rattrape-la sur un flank ou un gank et tu la tues très vite.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Esquive son Battement (E) : le sort ralentit, mais une cible déjà ralentie se retrouve immobilisée, et son passif le relance parfois deux fois de suite.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Si elle rate son Battement (E), engage tout de suite : c'est son seul CC avant le lvl 6, et il reste 11 s en CD.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Face à son Bis (R), ne reste pas en ligne avec tes alliés : le sort charme et gagne de la portée à chaque champion qu'il traverse.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Seraphine has no dash to escape: catch her on a flank or a gank and she goes down very fast.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Dodge her Beat Drop (E): it slows, but a target that's already slowed gets rooted instead, and her passive sometimes casts it twice in a row.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "If she misses Beat Drop (E), go in right away: it's her only CC before level 6, and it stays on an 11-second cooldown.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Against her Encore (R), don't line up with your allies: the spell charms and gains range with every champion it passes through.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -71,25 +79,29 @@
           "text": "Reste au milieu de ta wave : la Pluie d'Icathia (A) de Kai'Sa répartit ses missiles entre les cibles proches, et isolée, tu les prends tous.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Esquive son Rayon du Néant (Z) : sans marque de Plasma sur toi, son Instinct meurtrier (R) ne peut pas te viser.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Son Rayon du Néant (Z) s'arrête sur le premier ennemi touché : garde un sbire entre Kai'Sa et toi pour le bloquer.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Préfère les short trades : chaque auto de Kai'Sa empile du Plasma aux dégâts croissants, donc un échange qui dure joue pour elle.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -97,25 +109,29 @@
           "text": "Stay inside your wave: Kai'Sa's Icathian Rain (Q) splits its missiles between nearby targets, so when you're alone you take all of them.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Dodge her Void Seeker (W): without Plasma on you, her Killer Instinct (R) can't target you.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Her Void Seeker (W) stops on the first enemy it hits: keep a minion between Kai'Sa and you to block it.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Prefer short trades: each Kai'Sa basic attack stacks Plasma for growing damage, so a long exchange plays into her hands.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     }

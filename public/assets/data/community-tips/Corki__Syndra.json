@@ -17,13 +17,15 @@
           "text": "Dès son lvl 6, garde tes PV hauts : son Déchaînement de puissance (R) lance sur toi toutes les sphères qu'elle a posées.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Évite à tout prix sa Dispersion des faibles (E) : une sphère repoussée sur toi t'étourdit.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "From her level 6, keep your HP high: Unleashed Power (R) throws every sphere she has placed at you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Avoid Scatter the Weak (E) at all costs: a sphere knocked into you stuns you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -47,7 +51,8 @@
           "text": "Corki n'a aucun soin dans son kit : chaque poke reste, grignote-le patiemment avant de chercher le kill.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -55,7 +60,8 @@
           "text": "Corki has no healing in his kit: every poke sticks, so chip him down patiently before looking for the kill.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     }

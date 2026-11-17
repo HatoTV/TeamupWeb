@@ -17,25 +17,29 @@
           "text": "Ta mobilité te protège : entre avec Entrée triomphale (Z) puis ressors vers ton ADC avec Valse guerrière (E), Thresh a du mal à te punir.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "N'engage pas le premier : son Fauchage (E) ou sa Peine capitale (A) peut couper ton Entrée triomphale (Z). Attends qu'il rate un sort.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "La lane reste souvent bloquée : concentre-toi sur la protection de ton ADC plutôt que de forcer des engages.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Si ton Entrée triomphale (Z) touche son ADC, prévois le Lien des ténèbres (Z) : un clic sur la lanterne le ramène vers Thresh.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Your mobility keeps you safe: go in with Grand Entrance (W), then fly back to your ADC with Battle Dance (E); Thresh struggles to punish it.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Don't go in first: his Flay (E) or Death Sentence (Q) can cancel your Grand Entrance (W). Wait for him to miss a spell.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "The lane often stalls: focus on protecting your ADC instead of forcing engages.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "If your Grand Entrance (W) lands on his ADC, expect Dark Passage (W): one click on the lantern pulls them back to Thresh.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -71,25 +79,29 @@
           "text": "Garde ton Fauchage (E) pour son Entrée triomphale (Z) : bien placé avant qu'il atterrisse, il annule son engage.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Rakan esquive bien avec ses dashs : vise plutôt son ADC avec ta Peine capitale (A), il est plus facile à attraper.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Si son Entrée triomphale (Z) touche ton ADC, lance-lui le Lien des ténèbres (Z) : un clic sur la lanterne le ramène vers toi.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "La cage (R) répond à sa Danse ultime (R) : chaque mur qu'il brise le ralentit et lui inflige des dégâts.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -97,25 +109,29 @@
           "text": "Save Flay (E) for his Grand Entrance (W): timed before he lands, it cancels his engage.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Rakan dodges well with his dashes: aim Death Sentence (Q) at his ADC instead, they're easier to catch.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "If his Grand Entrance (W) lands on your ADC, throw them Dark Passage (W): one click on the lantern brings them back to you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "The Box (R) answers The Quickness (R): every wall he breaks through slows and damages him.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

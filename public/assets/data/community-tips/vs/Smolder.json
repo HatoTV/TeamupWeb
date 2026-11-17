@@ -10,43 +10,50 @@
         "text": "Chaque sort de Smolder qui te touche lui donne un stack de Dragon en herbe. Limite le poke subi : chaque hit accélère sa montée en puissance.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Sors du centre de MAMAAAN ! (R) : cette zone fait plus de dégâts et ralentit. Le souffle soigne aussi Smolder s'il passe sur lui.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Smolder est faible au lvl 1-2 et avant ses 25 stacks. Joue agressif tôt et force les fights longs : Smolder perd presque tous les all-in.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Smolder garde son Atchoum ! (Z) pour le moment où tu vas sur un last hit. Quand un sbire est bas, anticipe le skillshot et décale-toi.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Smolder se colle aux murs pour fuir avec Flap, flap, flap ! (E). Une fois ce sort utilisé, son CD est long : c'est le moment d'engager.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Au dernier palier de stacks, sa Boule de feu draconique (A) brûle et exécute sous un seuil de PV. Bas en PV et en feu, recule tout de suite.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "MAMAAAN ! (R) a une portée énorme et Smolder s'en sert pour annuler tes recalls. Recall hors de sa vision, derrière un mur ou dans le brouillard.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Every Smolder ability that hits you gives him a Dragon Practice stack. Take as little poke as you can: each hit speeds up his scaling.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Get out of the middle of MMOOOMMMM! (R): the center deals extra damage and slows. The fire also heals Smolder if it passes over him.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Smolder is weak at levels 1-2 and before 25 stacks. Play aggressive early and force extended fights: he loses almost every all-in.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Smolder saves Achooo! (W) for the moment you walk up to last hit. When a minion gets low, expect the skillshot and sidestep.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Smolder hugs walls so he can escape with Flap, Flap, Flap (E). Once he burns it, the cooldown is long: that's your window to engage.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "At his last stack tier, Super Scorcher Breath (Q) burns you and executes below a health threshold. Low and burning? Back off immediately.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "MMOOOMMMM! (R) has huge range and Smolder uses it to cancel recalls. Base out of his vision, behind a wall or in the fog.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

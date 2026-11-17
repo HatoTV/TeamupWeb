@@ -10,43 +10,50 @@
         "text": "Ne force rien pendant son Barrage bio-arcanique (Z), recule hors de sa range et attends la fin. Sans Z, il ne peut plus avancer : trade ou all-in.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Quand tu le tues, éloigne-toi tout de suite : 4 s plus tard, sa Surprise d'Icathia explose et inflige des dégâts bruts autour de lui.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sous 40 % de PV, garde tes distances : son Artillerie vivante (R) t'inflige alors ses dégâts max et porte jusqu'à 1800 unités au rang 3.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Un brush ne te cache pas de son Artillerie vivante (R) : si elle te touche, tu es révélé 2 s. Ne compte pas sur un buisson pour le surprendre.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Ne le chasse pas dans l'axe de son Limon du Néant (E) : coupe la traînée en travers pour en sortir vite, le slow ne s'applique que dedans.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Sa Bave caustique (A) réduit ton armure et ta résistance magique quelques secondes et s'arrête sur la première cible touchée : reste derrière tes minions.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Chaque R enchaîné en peu de temps lui coûte plus de mana. Bait plusieurs tirs : il en aura moins pour son Z et son E.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Don't force anything while his Bio-Arcane Barrage (W) is up: step out of range and let it expire. Without W he can't walk up, so trade or all-in then.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "When you kill him, back off right away: 4 seconds later his Icathian Surprise explodes, hitting everyone around him with true damage.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Below 40% HP, keep your distance: his Living Artillery (R) then deals max damage to you and reaches up to 1800 units at rank 3.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "A brush won't hide you from his Living Artillery (R): a hit reveals you for 2 seconds. Don't rely on a bush to catch him off guard.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Don't chase him straight down his Void Ooze (E): cut across the trail to get out fast. The slow only applies while you're inside it.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "His Caustic Spittle (Q) shreds your armor and MR for a few seconds and stops on the first unit hit. Stay behind your minions.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Each R he chains in a short window costs him extra mana. Bait a few shots and he'll have less left for W and E.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -17,19 +17,22 @@
           "text": "Vladimir nettoie mal les waves : pousse-le sous sa tourelle, puis back ou roam avant lui.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         },
         {
           "text": "Ne cherche pas à le battre en duel une fois le lvl 6 passé : il gagne les lanes longues, joue plutôt la map.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "avoid"
         },
         {
           "text": "Recule quand sa barre de sang est pleine : sa Transfusion (A) renforcée frappe et soigne bien plus fort.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Vladimir clears waves poorly: shove him under his tower, then reset or roam before he can.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         },
         {
           "text": "Don't try to out-duel him once past level 6: he wins drawn-out lanes, so play the map instead.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "avoid"
         },
         {
           "text": "Back off when his blood bar is full: his empowered Transfusion (Q) hits and heals far harder.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,25 +65,29 @@
           "text": "Ne force rien avant le lvl 6 : farme proprement, tu prends le dessus à mesure que les niveaux montent.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Garde ton Bain de sang (Z) pour les ganks : deux secondes intouchable, c'est ta sortie de secours.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Esquive son Charme (E) en te décalant, sinon plonge dans ton Bain de sang (Z) : intouchable, tu ne peux pas être charmé.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Après le lvl 6, ne l'all-in pas tant qu'elle a son Assaut spirituel (R) : trois dashs lui permettent de fuir.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -85,25 +95,29 @@
           "text": "Don't force anything before level 6: farm cleanly, you take over as the levels go up.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Keep Sanguine Pool (W) for ganks: two seconds of being untargetable is your way out.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Sidestep her Charm (E), or sink into Sanguine Pool (W): while untargetable, you can't be charmed.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "After level 6, don't all-in her while her ult (R) is up: three dashes let her escape.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

@@ -17,19 +17,22 @@
           "text": "Garde ton Charme (E) pour le moment où Corki lance sa Valkyrie (Z) : le Charme coupe net les déplacements et son engage tombe à l'eau.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ton Vol essentiel (passif) te soigne tous les 9 sbires ou monstres tués : sur une lane longue, tu tiens mieux que Corki.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Dès le lvl 6, ton Assaut spirituel (R) te donne jusqu'à trois dashs : utilise-les pour esquiver sa Bombe au phosphore (A) et son Barrage de projectiles (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Hold Charm (E) for the moment Corki uses Valkyrie (W): Charm stops movement abilities dead and his engage falls apart.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Essence Theft (passive) heals you every 9 minion or monster kills: over a long lane you outlast Corki.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "From level 6, Spirit Rush (R) gives you up to three dashes: use them to dodge his Phosphorus Bomb (Q) and Missile Barrage (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,19 +65,22 @@
           "text": "Ne lance ta Valkyrie (Z) qu'une fois son Charme (E) parti : le Charme coupe ton vol en plein air et l'engage échoue.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Ne reste pas dans l'axe de son Orbe d'illusion (A) : l'orbe frappe à l'aller, puis revient en dégâts bruts.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Quand son Assaut spirituel (R) est en CD, Ahri n'a plus aucun dash : force le trade à ce moment-là.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -79,19 +88,22 @@
           "text": "Only use Valkyrie (W) once her Charm (E) is down: Charm cancels your flight mid-air and the engage fails.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Don't stay in line with her Orb of Deception (Q): it hits on the way out, then again on the way back as true damage.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "When her Spirit Rush (R) is on cooldown, Ahri has no dash left: that's the time to force the trade.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     }

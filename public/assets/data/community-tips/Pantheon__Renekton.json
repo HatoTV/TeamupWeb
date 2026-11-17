@@ -17,31 +17,36 @@
           "text": "Garde ton Égide impénétrable (E) pour son Prédateur impitoyable (Z) : ses dégâts sont bloqués de face et le trade tourne à ton avantage.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ménage ton mana : ton Égide (E) coûte 80 et ton Assaut martial (Z) 55. À sec sous ta tour, tu n'as plus rien pour repousser son dive.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Tu domines du lvl 1 à 5 : poke avec ta Lance astrale (A) et force des trades pour qu'il arrive au lvl 6 déjà en retard.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Si tu sens venir son Prédateur impitoyable (Z), lance ton Assaut martial (Z) juste avant : ton stun part quand même et vous êtes étourdis tous les deux.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Push ta wave puis roam avec ton Météore (R) vers mid ou bot : tu gagnes en partageant ton avance, pas en side lane contre lui.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Save Aegis Assault (E) for his Ruthless Predator (W): its damage is blocked from the front and the trade swings your way.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Manage your mana: Aegis Assault (E) costs 80 and Shield Vault (W) 55. Dry under your tower, you have nothing left to stop his dive.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "You rule levels 1 to 5: poke with Comet Spear (Q) and force trades so he reaches level 6 already behind.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "If you see his Ruthless Predator (W) coming, cast Shield Vault (W) just before it: your stun still lands and you both end up stunned.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Shove your wave, then roam mid or bot with Grand Starfall (R): you win by spreading your lead, not by side-laning against him.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         }
       ]
     },
@@ -83,37 +93,43 @@
           "text": "Ne lance jamais ton Prédateur impitoyable (Z) sur son Égide impénétrable (E) : elle bloque les dégâts de face. Attends qu'il l'ait utilisée, ou passe derrière lui.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Joue safe jusqu'au lvl 6. Ensuite, dès qu'il gâche le sort renforcé par son Ardeur mortelle (passif), lance ton Dominus (R) et all-in : son ult l'aide peu en duel.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Surveille son mana : son Égide (E) coûte 80 et son Assaut martial (Z) 55. Après quelques trades il est à sec, et tu peux le dive.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Déplace-toi de haut en bas plutôt qu'en ligne droite : sa Lance astrale (A) lancée devient bien plus dure à placer.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Lance ton Prédateur impitoyable (Z) quand il saute avec son Assaut martial (Z) : vous êtes étourdis tous les deux et il ne place ni A ni auto.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ping dès qu'il quitte la lane et push ta wave : chaque roam avec son Météore (R) lui coûte alors des sbires.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         }
       ],
       "en": [
@@ -121,37 +137,43 @@
           "text": "Never throw Ruthless Predator (W) into his Aegis Assault (E): it blocks damage from the front. Wait until he has used it, or get behind him.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Play safe until level 6. Then, once he wastes the spell empowered by Mortal Will (passive), pop Dominus (R) and all-in: his ult does little for him in a duel.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Track his mana: Aegis Assault (E) costs 80 and Shield Vault (W) 55. After a few trades he runs dry, and you can dive him.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Strafe up and down instead of walking in a straight line: his thrown Comet Spear (Q) gets much harder to land.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Fire Ruthless Predator (W) right as he leaps with Shield Vault (W): you both get stunned, and he can't follow up with Q or autos.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ping as soon as he leaves lane and shove your wave: every Grand Starfall (R) roam then costs him minions.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         }
       ]
     }

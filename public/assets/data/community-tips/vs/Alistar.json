@@ -10,43 +10,50 @@
         "text": "Réserve ton désengage (stop-dash, knock-up) à son Coup de tête (Z), pas au poke. S'il est en CD, recule : c'est la fenêtre d'engage d'Alistar.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Au lvl 1, Alistar ne menace rien. Poke-le fort : il devra boire ses potions ou jouer en retrait pendant plusieurs niveaux.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Respecte son lvl 2 : avec Coup de tête (Z) et Atomisation (A), il a déjà tout son combo d'engage. Recule s'il passe lvl 2 avant toi.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Garde la wave près de ta tourelle, en freeze si tu peux. Près de sa tourelle, Alistar peut flash-engage et te renvoyer droit sous ses tirs.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Son Coup de tête (Z) a 650 de portée. Quand Alistar s'avance, reste juste hors de cette portée : sans flash, il n'a aucun engage.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Avant de CC Alistar, regarde s'il a son ult : sa Volonté de fer (R) purge tous les contrôles déjà sur lui et réduit les dégâts qu'il subit.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "En teamfight, ne reste pas collé à tes alliés : son Atomisation (A) projette en l'air tous les ennemis autour de lui.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Save your disengage (dash-stopper, knock-up) for his Headbutt (W), not for poke. If it's down, back off: that's Alistar's engage window.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "At level 1 Alistar threatens nothing. Poke him hard so he burns potions or plays scared for several levels.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Respect his level 2: Headbutt (W) plus Pulverize (Q) is already his full engage combo. Back off if he reaches level 2 before you.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Keep the wave near your tower, freeze it if you can. Close to his turret, he can flash in and knock you straight under it.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Headbutt (W) has 650 range. When Alistar walks up, stay just outside it: without Flash, he has no way in.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Check his ult before you CC Alistar: Unbreakable Will (R) cleanses every disable already on him and cuts the damage he takes.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "In teamfights, don't bunch up with your team: Pulverize (Q) knocks up every enemy around him.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

@@ -17,31 +17,36 @@
           "text": "Ne gaspille pas ton Coup foudroyant (E) pendant la charge de son Pour Nazumah ! (Z), où il est imparable : repousse-le une fois au corps à corps.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Reste en forme Canon à la limite de ta portée et poke-le ; ne passe en Marteau que pour finir un K'Santé déjà bas.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Ton Portail d'accélération (E) sert aussi à le tenir à distance : la vitesse en plus te permet de reculer dès qu'il cherche à engager.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Près de ta tour, méfie-toi de son Grand jeu (R) : il te projette en arrière, à travers les murs, hors de la protection de ta tour.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Esquive ses Coups de ntofo (A) chargés : à 2 cumuls, l'onde de choc t'attire vers lui.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Don't waste Thundering Blow (E) while he charges Path Maker (W), since he's Unstoppable then: knock him back once he reaches melee range.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Stay in Cannon form at the edge of your range and poke him; only swap to Hammer to finish a K'Sante who's already low.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Acceleration Gate (E) also keeps him off you: the bonus speed lets you back off as soon as he looks to engage.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Near your turret, watch for All Out (R): it knocks you back, through walls, and out of your turret's protection.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Dodge his empowered Ntofo Strikes (Q): at 2 stacks the shockwave pulls you in toward him.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -83,25 +93,29 @@
           "text": "Attends que Jayce ait utilisé son Coup foudroyant (E) ou son Portail d'accélération (E) avant d'engager : sans eux, il ne peut plus te repousser ni fuir.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Garde ton Pour Nazumah ! (Z) pour son combo en forme Marteau : la réduction de dégâts absorbe son burst.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Reste derrière tes sbires : son Orbe électrique (A) explose sur le premier ennemi touché, ta wave bloque donc son poke.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Même sans E ni Flash, Jayce peut encore bondir sur toi avec Direction le ciel ! (A) en forme Marteau : prévois-le avant de plonger.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -109,25 +123,29 @@
           "text": "Wait until Jayce has used Thundering Blow (E) or Acceleration Gate (E) before engaging: without them he can't knock you back or run.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Hold Path Maker (W) for his Hammer form combo: the damage reduction soaks his burst.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Stay behind your minions: his Shock Blast (Q) detonates on the first enemy hit, so your wave blocks his poke.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Even without E or Flash, Jayce can still leap onto you with To the Skies! (Q) in Hammer form: account for it before you dive.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

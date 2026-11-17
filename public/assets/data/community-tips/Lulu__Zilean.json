@@ -17,31 +17,36 @@
           "text": "Méfie-toi de son combo Bombe à retardement (A), Retour rapide (Z), Bombe à retardement (A) : la deuxième bombe posée sur toi te stun. Esquive-la.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Son Retour temporel (R) ressuscite l'allié qui devait mourir : attends la fin de sa protection avant de lancer ton burst sur la cible.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Zilean a une lane très faible et aucun sustain : joue agressif et poke-le sans arrêt avant son lvl 6 pour prendre l'avance.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Si une Bombe à retardement (A) colle sur toi, écarte-toi de ton ADC : l'explosion touche toute la zone autour de toi.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Évite le ralentissement de sa Distorsion temporelle (E) : reste hors de ses 550 de portée et poke-le avec ton Duo éclatant (A), qui porte à 925.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Watch his combo: Time Bomb (Q), then Rewind (W) for a second Time Bomb (Q). That second bomb on you stuns you, so dodge it.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "His Chronoshift (R) revives the ally who would have died: wait for the protection to expire before bursting the target.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Zilean has a very weak lane and no sustain: play aggressive and poke him nonstop before his level 6 to get ahead.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "If a Time Bomb (Q) sticks to you, move away from your ADC: the blast hits everything around you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Avoid the slow from his Time Warp (E): stay outside its 550 range and poke him with Glitterlance (Q), which reaches 925.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     },

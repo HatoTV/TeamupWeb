@@ -10,49 +10,57 @@
         "text": "Fais sauter le shield de son passif (Voie du vagabond) avec une auto ou un petit spell avant ton vrai trade, sinon il absorbe tes dégâts.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Garde la wave de ton côté, près de ta tour. Ne la push jamais vite chez lui : il gagne les trades longs et les all-ins.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Évite les trades en early : à dégâts égaux, il gagne grâce à sa regen. Farme safe, accepte de perdre quelques CS et attends ton scaling.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Quand sa Tempête d'acier (A) a touché deux fois, la suivante devient une tornade qui te knock-up : décale-toi sur le côté pour l'esquiver.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Place-toi sur le côté de ta wave, pas derrière tes sbires : sans cible entre vous, il ne peut pas enchaîner son Cercle tranchant (E) jusqu'à toi.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Avec la wave de ton côté, il force souvent des all-ins risqués. Garde ton jungler près de ta lane, car Yasuo est très exposé aux ganks.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Après le lvl 6, chaque knock-up sur toi, sa tornade ou celui d'un allié à lui, ouvre son Dernier soupir (R). Évite d'être projeté quand il a son ult.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Il vient de lancer son Mur de vent (Z) ? Il reste 17 à 25 s en CD : c'est ta fenêtre pour poke ou engage avec tes projectiles.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Pop his passive shield (Way of the Wanderer) with an auto or a cheap spell before your real trade, or it soaks your damage for free.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Keep the wave on your side, near your tower. Never fast push into him: he wins extended trades and all-ins.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Avoid trades early: on even trades he wins thanks to his sustain. Farm safely, give up a few CS and wait for your scaling.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Once his Steel Tempest (Q) has hit twice, the next one is a knock-up tornado: sidestep it instead of walking straight back.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Stand to the side of your wave, not behind your minions: with no target between you, he can't chain Sweeping Blade (E) onto you.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "With the wave on your side, he often forces risky all-ins. Keep your jungler near your lane: he's very exposed to ganks.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "After his level 6, any knock-up on you, his tornado or one from his teammates, unlocks Last Breath (R). Don't get airborne while his ult is up.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "He just used Wind Wall (W)? It stays on a 17 to 25 s cooldown: that's your window to poke or engage with projectiles.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

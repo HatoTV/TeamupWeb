@@ -17,19 +17,22 @@
           "text": "Poke Xayah avec Calibrum, ton fusil : sa portée énorme te permet de la toucher bien avant qu'elle puisse répondre.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Tu n'as aucun dash : ne reste pas entre Xayah et ses plumes au sol, son Appel des lames (E) peut te root au retour.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Lance l'all-in quand tu as Severum, Infernum ou Crescendum en main : ce sont tes armes de combat les plus fortes.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Poke Xayah with Calibrum, your rifle: its huge range lets you hit her long before she can answer.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "You have no dash: don't stand between Xayah and her feathers on the ground, since her Bladecaller (E) can root you as they fly back.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Go for the all-in when you hold Severum, Infernum or Crescendum: they are your strongest fighting weapons.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         }
       ]
     },
@@ -59,19 +65,22 @@
           "text": "Aphelios te poke de très loin avec Calibrum, son fusil : ne reste pas à découvert en lane.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Aphelios n'a aucun dash : il est facile à immobiliser, vise-le avec ton Appel des lames (E) dès qu'il s'avance.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Évite l'all-in quand il tient Severum, Infernum ou Crescendum : ce sont ses armes de combat les plus dangereuses.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -79,19 +88,22 @@
           "text": "Aphelios pokes you from very far with Calibrum, his rifle: don't stay exposed in lane.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Aphelios has no dash: he's easy to lock down, so hit him with Bladecaller (E) as soon as he steps up.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Avoid the all-in when he holds Severum, Infernum or Crescendum: those are his most dangerous fighting weapons.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         }
       ]
     }

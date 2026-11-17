@@ -17,25 +17,29 @@
           "text": "Kindred nettoie sa jungle plus lentement que toi : farme, gagne du temps et laisse ta puissance de fin de partie faire la différence, surtout en Assassin de l'ombre.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Un invade au lvl 1 sur ses raptors, en passant par le mur grâce à ton Passe-muraille (E), peut lui coûter ces camps et ralentir tout son début de partie.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Ne force pas le duel tant que tu n'as ni ta forme ni une avance : sans ça, Kindred gagne le combat.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Garde ton Intrusion obscure (R) pour après son Repos d'Agneau (R) : tant que la zone est active, ta cible ne peut pas mourir. Pousse-la à l'utiliser en premier.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Kindred clears slower than you: farm, buy time and let your late-game power decide it, especially as Shadow Assassin.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "A level 1 invade on her raptors, coming through the wall with Shadow Step (E), can cost her those camps and slow down her whole early game.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Don't force a duel until you have your form or a lead: without one, Kindred wins the fight.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Save Umbral Trespass (R) for after her Lamb's Respite (R): while the zone is up, your target can't die. Push her into using it first.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -71,31 +79,36 @@
           "text": "Protège tes raptors au lvl 1 : son Passe-muraille (E) lui permet d'arriver par le mur. Une ward dans le buisson voisin couvre les deux accès.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Avant sa transformation, Kayn perd ses duels contre toi : cherche le combat tôt, sur ses camps ou au crabe, pour lui refuser le farm.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Le Kayn bleu devient très dangereux quand la partie s'allonge : ne le laisse pas prendre d'avance et joue tes avantages tôt.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Contre le Kayn rouge (Darkin), esquive son Entaille sombre (Z) : sous cette forme, elle projette en l'air en plus de ralentir.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Garde ton Repos d'Agneau (R) pour le moment où Kayn lance son Intrusion obscure (R) : dans la zone, personne ne peut mourir, sa sortie ne t'achève donc pas.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -103,31 +116,36 @@
           "text": "Guard your raptors at level 1: Shadow Step (E) lets him come in through the wall. A ward in the nearby bush covers both entrances.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Before his transformation, Kayn loses duels to you: look for early fights on his camps or at the scuttle to deny him farm.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Blue Kayn gets very dangerous as the game drags on: don't let him get ahead, and use your advantages early.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Against red (Darkin) Kayn, dodge Blade's Reach (W): in that form it knocks you up on top of the slow.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Hold Lamb's Respite (R) until Kayn uses Umbral Trespass (R): nothing can die inside the zone, so his exit burst won't finish you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

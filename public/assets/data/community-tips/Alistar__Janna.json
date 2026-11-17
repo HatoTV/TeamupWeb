@@ -17,19 +17,22 @@
           "text": "Attends que Janna utilise son Vent hurlant (A) avant ton Coup de tête (Z) + Atomisation (A) : sinon elle te projette en pleine charge et annule ton combo.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Tant que Janna a sa Mousson (R), ton engage sur son ADC peut être annulé : elle te repousse loin de ses alliés.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ton Cri triomphant (passif) te soigne, toi et ton ADC : il t'aide à encaisser son poke sans lâcher la lane.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Wait for Janna to use Howling Gale (Q) before your Headbutt (W) into Pulverize (Q): otherwise she launches you mid-dash and cancels the combo.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "As long as Janna has Monsoon (R), your engage on her ADC can be undone: she throws you away from her allies.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Triumphant Roar (passive) heals you and your ADC: it helps you soak up her poke without giving up the lane.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     },
@@ -59,31 +65,36 @@
           "text": "Garde ton Vent hurlant (A) pour son Coup de tête (Z) suivi d'Atomisation (A) : projeté pendant sa charge, Alistar rate tout son combo.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Si Alistar saute sur un de tes carries, lance ta Mousson (R) : elle le repousse et son engage ne mène à rien.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Mets la pression en lane et poke Alistar : le matchup penche de ton côté, c'est à lui de subir.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Ne cherche pas à plonger sur Alistar : sa Volonté de fer (R) retire tes CC et réduit fortement les dégâts qu'il subit.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Ne vise pas le kill sur Alistar au poke : son Cri triomphant (passif) le soigne, lui et ses alliés proches, dès qu'il est chargé.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -91,31 +102,36 @@
           "text": "Save Howling Gale (Q) for his Headbutt (W) into Pulverize (Q): launch him mid-dash and Alistar's whole combo falls apart.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "If Alistar dives one of your carries, cast Monsoon (R): it throws him back and his engage goes nowhere.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Pressure the lane and poke Alistar: the matchup leans your way, so he's the one who has to suffer.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Don't try to dive Alistar: Unbreakable Will (R) removes your crowd control and cuts the damage he takes.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Don't poke Alistar looking for the kill: Triumphant Roar (passive) heals him and nearby allies whenever it's charged.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

@@ -17,25 +17,29 @@
           "text": "Ton Tir givrant (passif) ralentit à chaque attaque et Jhin n'a aucun dash : une fois touché, il peine à sortir de ta portée.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Tu as plus de portée que lui (600 contre 550) : trade en auto depuis ta portée max, hors de portée de ses attaques.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Écarte-toi des sbires presque morts : sa Grenade dansante (A) rebondit sur eux et frappe plus fort à chaque kill.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Recule quand sa 4e balle est prête : elle est toujours critique et inflige des dégâts d'exécution.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Your Frost Shot (passive) slows with every attack and Jhin has no dash: once you hit him, he struggles to get out of your range.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "You outrange him (600 vs 550): auto-trade from your max range, outside the reach of his basic attacks.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Step away from low-health minions: his Dancing Grenade (Q) bounces off them and hits harder after each kill.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Back off when his fourth shot is loaded: it always crits and deals execute damage.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -71,13 +79,15 @@
           "text": "Chaque attaque d'Ashe te ralentit (Tir givrant) et tu n'as pas de dash : ne t'avance pas à sa portée sans raison, tu ne pourras plus en sortir.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Elle a plus de portée que toi (600 contre 550) : ne traîne pas au bord de sa portée en farmant, tes autos ne l'atteignent pas.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -85,13 +95,15 @@
           "text": "Every Ashe attack slows you (Frost Shot) and you have no dash: don't walk into her range for nothing, you won't be able to get back out.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "She outranges you (600 vs 550): don't hover at the edge of her range while farming, your autos can't reach her.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

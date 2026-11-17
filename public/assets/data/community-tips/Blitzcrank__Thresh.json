@@ -21,25 +21,29 @@
           "text": "Tu es fragile et tu ne peux pas fuir seul : un Grappin propulsé (A) de Blitzcrank et son combo suffisent souvent à te tuer. Ne t'expose pas.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Force-le à lancer son Grappin propulsé (A), puis trade pendant son long CD.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Si un allié se fait attraper, lance-lui ton Lien des ténèbres (Z) : un clic sur la lanterne le ramène vers toi.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Reste derrière tes sbires pour bloquer son Grappin propulsé (A), mais recule quand ils sont bas : son Champ de stase (R) peut les achever et ouvrir la ligne.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -47,25 +51,29 @@
           "text": "You're fragile and can't escape on your own: one Rocket Grab (Q) from Blitzcrank plus his combo often kills you. Don't expose yourself.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Bait out his Rocket Grab (Q), then trade during its long cooldown.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "If an ally gets grabbed, throw them Dark Passage (W): one click on the lantern brings them back to you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Stay behind your minions to block his Rocket Grab (Q), but back off when they're low: Static Field (R) can finish them and open the line.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     }

@@ -17,13 +17,15 @@
           "text": "Son Fauchage (E) repousse et coupe ton Descendre en piqué (Z) : attends qu'il le lance, puis engage pendant son CD.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Si tu sautes sur son ADC, prévois son Lien des ténèbres (Z) : l'ADC clique sur la lanterne et rejoint Thresh à distance.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "His Flay (E) knocks you back and stops your Crash Down (W): wait for him to use it, then engage while it's on cooldown.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "If you jump on his ADC, expect Dark Passage (W): the ADC clicks the lantern and gets pulled back to Thresh.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -47,25 +51,29 @@
           "text": "Garde ton Fauchage (E) pour son Descendre en piqué (Z) : le repoussement coupe son saut et son engage tombe à l'eau.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Tu n'as presque aucune mobilité : ne te laisse pas attraper par Rell, garde tes distances et kite-la.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Une fois à pied, Rell est ralentie : c'est le bon moment pour placer ta Peine capitale (A).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Si elle engage ton ADC, lance-lui ton Lien des ténèbres (Z) : il clique sur la lanterne et revient vers toi.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -73,25 +81,29 @@
           "text": "Hold Flay (E) for her Crash Down (W): the knockback cuts her leap short and the engage fizzles.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "You have almost no mobility: don't let Rell catch you, keep your distance and kite her.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Once she's dismounted, Rell is slowed: that's the moment to land Death Sentence (Q).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "If she engages your ADC, throw them Dark Passage (W): one click on the lantern brings them back to you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

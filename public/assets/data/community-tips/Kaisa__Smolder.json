@@ -17,7 +17,8 @@
           "text": "Ne le laisse pas stacker tranquille : il gagne des stacks en te touchant avec ses sorts et en achevant des sbires avec sa Boule de feu draconique (A).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -25,7 +26,8 @@
           "text": "Don't let him stack for free: he gains stacks by hitting you with abilities and by finishing minions with Super Scorcher Breath (Q).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -35,13 +37,15 @@
           "text": "Reste près de tes sbires : les missiles de sa Pluie d'Icathia (A) se répartissent entre les cibles proches, seul tu prends tout.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Esquive son Rayon du Néant (Z) : il te marque de Plasma et lui permet de foncer sur toi avec son Instinct meurtrier (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -49,13 +53,15 @@
           "text": "Stay near your minions: the missiles of her Icathian Rain (Q) split between nearby targets, so alone you take them all.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Dodge her Void Seeker (W): it marks you with Plasma, which lets her dash onto you with Killer Instinct (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

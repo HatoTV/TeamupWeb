@@ -10,49 +10,57 @@
         "text": "Swain manque de mana en début de partie. Pousse-le à gâcher ses sorts, puis trade ou push la wave quand il est à sec.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sa Capture (E) décide de ses trades. Quand Swain la rate, profite des 10 à 12 s de CD pour trade sans craindre le root.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Swain encaisse bien et gagne les fights longs. Privilégie les short trades et recule avant qu'il ne retourne le combat.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Swain cherche des picks depuis le fog, autour de la rivière et des objectifs. Garde la vision et évite de facecheck les buissons.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Son Incarnation démoniaque (R) draine tout ce qui est proche et dure tant que Swain touche des champions. Sors de sa zone et kite-le.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sa Capture (E) part loin puis revient vers Swain et root au retour. Surveille ce retour, pas seulement le lancer.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Œil de l'empire (Z) révèle la zone 1,5 s avant d'exploser. Sors-en vite : l'œil ralentit et donne un fragment d'âme à Swain.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Swain se soigne beaucoup avec son Incarnation démoniaque (R) et ses fragments d'âme. Applique des Blessures graves tôt pour réduire son sustain.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Swain is mana hungry early. Bait out his spells, then trade or shove the wave once he's running on empty.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Nevermove (E) decides his trades. When Swain misses it, use the 10 to 12 s cooldown to trade without fearing the root.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Swain is tanky and wins long fights. Stick to short trades and back off before he turns the fight around.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Swain hunts picks from fog around river and objectives. Keep vision up and don't facecheck brushes.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Demonic Ascension (R) drains everything nearby and lasts as long as Swain keeps hitting champions. Step out of range and kite him.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Nevermove (E) flies out, then comes back to Swain and roots on the way back. Watch the return, not just the cast.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Vision of Empire (W) reveals the area for 1.5 s before it hits. Walk out fast: it slows you and gives Swain a Soul Fragment.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Swain heals a lot through Demonic Ascension (R) and Soul Fragments. Apply Grievous Wounds early to cut his sustain.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

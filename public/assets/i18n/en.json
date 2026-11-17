@@ -456,7 +456,6 @@
     "LOL_WAVEMANAGEMENT": "Wave management",
     "LOL_JUNGLE": "Jungle",
     "BREADCRUMB": "Breadcrumb",
-    "SECTION_COUNT": "{{count}} sections",
     "BUILDS": "Builds & runes"
   },
   "SEARCH": {
@@ -805,7 +804,6 @@
     "SECTIONS": "Champion sections",
     "TAB_BUILD": "Build",
     "TAB_COUNTERS": "Counters",
-    "TAB_GUIDE": "TeamUpp guide",
     "TAB_MATCHUPS": "Matchups (tips)",
     "FILTERS_LABEL": "Filters",
     "ROLE": "Role",
@@ -904,7 +902,10 @@
     "EMPTY_TITLE": "No community tips for this matchup yet",
     "INSUFFICIENT_TITLE": "Not enough reliable sources for this matchup",
     "EMPTY_HINT": "We only publish a tip when several sources give it or the game data confirms it.",
-    "VS_LINK": "General advice against {{champion}}"
+    "VS_LINK": "General advice against {{champion}}",
+    "SECTION_GENERAL": "General tips against {{champion}}",
+    "SECTION_LANE": "Laning phase",
+    "SECTION_AVOID": "Avoid"
   },
   "PLAY_TIPS": {
     "TITLE": "Tips for playing {{champion}}",
@@ -964,5 +965,33 @@
     "METHOD_TITLE": "How the tier is computed.",
     "METHOD": "Win rate adjusted for the number of games, then pick rate, over the ranked games of the patch, for this rank range and this role. Only each champion's main roles are ranked (at least 10% of their games this patch): an Evelynn ADC played a few times does not appear. The badge shows the raw win rate. Hover over a champion to see its pick rate and number of games.",
     "NOT_ENOUGH": "Not enough games in this rank range yet, check back soon."
+  },
+  "COUNTERS": {
+    "ROLE": "{{role}} counters",
+    "SEO_TITLE": "{{champion}} {{role}} counters: best and worst matchups",
+    "SEO_DESC": "The lane opponents {{champion}} {{role}} beats the most and its worst counters on patch {{patch}}: win rate per matchup, matchup tips and community tips.",
+    "ADVANTAGE": "Advantage",
+    "COUNTER": "Counter",
+    "OPPONENT": "Opponent",
+    "WIN_RATE": "Win rate",
+    "FOOTER": "{{n}} opponents · scroll the list",
+    "GAMES": "{{n}} games",
+    "OPTION_LABEL": "{{opponent}}: {{winRate}} win rate, {{games}} games",
+    "EMPTY_LIST": "No opponent with at least {{min}} games.",
+    "COLUMNS": "Column shown",
+    "DETAIL": "Matchup details",
+    "PICK_TITLE": "Pick an opponent",
+    "PICK_TEXT": "Click a champion in either column: you will see the matchup tips here, then the community tips.",
+    "MOST_PLAYED": "Most faced",
+    "VS_TITLE": "{{champion}} vs {{opponent}}",
+    "WIN_OF": "{{champion}} win rate",
+    "GAMES_ANALYZED": "Games analysed",
+    "GOLD_15": "Gold at 15 min",
+    "MATCHUP_TIPS": "Matchup tips",
+    "NO_TIPS": "No TeamUpp tips for this matchup yet.",
+    "NO_COMMUNITY": "No community tips against {{champion}} yet.",
+    "BACK": "Back",
+    "THRESHOLD": "Matchups with at least {{min}} games in the selection.",
+    "NO_DATA": "Not enough games yet to show the matchups of {{champion}} {{role}}."
   }
 }

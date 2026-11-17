@@ -17,13 +17,15 @@
           "text": "Esquive son Rayon du Néant (Z) : il te marque de Plasma de très loin et lui ouvre la voie vers son Instinct meurtrier (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ne reste pas seul face à sa Pluie d'Icathia (A) : ses missiles se partagent entre les ennemis proches, donc isolé tu encaisses toute la salve.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "Dodge her Void Seeker (W): it marks you with Plasma from very far away and opens the way for her Killer Instinct (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Don't stand alone when she casts Icathian Rain (Q): the missiles split among nearby enemies, so an isolated target eats the whole volley.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -47,19 +51,22 @@
           "text": "Joue autour du CC de ton support : ses immobilisations chargent ta Plasma, et ton all-in sur Jhin devient bien plus dangereux.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Écarte-toi des sbires bas en vie : sa Grenade dansante (A) rebondit d'ennemi en ennemi et gagne en dégâts à chaque kill.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Respecte son 4e tir : critique garanti avec des dégâts d'exécution en bonus, encore plus forts quand ta vie est basse.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -67,19 +74,22 @@
           "text": "Play around your support's CC: their immobilizing effects stack your Plasma and make your all-in on Jhin far more dangerous.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Stay away from low-health minions: his Dancing Grenade (Q) bounces from enemy to enemy and hits harder after each kill.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Respect his fourth shot: a guaranteed crit with bonus execute damage, which hurts even more when your health is low.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

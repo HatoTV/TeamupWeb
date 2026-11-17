@@ -17,31 +17,36 @@
           "text": "Sa Matière noire (Z) tombe avec un délai : continue de bouger en lane et elle ne te touchera presque jamais.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "En mid game, ne fonce pas sur un Veigar arrivé avant toi près d'un objectif : sa Profanation (E) ferme les passages et t'étourdit.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "avoid"
         },
         {
           "text": "Veigar veut juste farmer tranquillement jusqu'au lvl 6-7 : mets-lui la pression dès les premiers niveaux, avant ses spikes.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Ta portée dépasse la sienne : écrase la wave sous sa tourelle et harcèle-le pendant qu'il récupère ses CS.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Après le lvl 6, son Explosion primordiale (R) frappe plus fort une cible blessée : ne traîne pas à mi-vie à sa portée.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "His Dark Matter (W) lands after a delay: keep moving in lane and it will almost never hit you.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "In the mid game, don't run at a Veigar who reached an objective first: Event Horizon (E) closes the paths and stuns you.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "macro"
+          "category": "macro",
+          "section": "avoid"
         },
         {
           "text": "Veigar only wants to farm quietly to levels 6-7: pressure him from the first levels, before his spikes arrive.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "You outrange him: crash the wave under his tower and harass him while he picks up his CS.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "After level 6, his Primordial Burst (R) hits harder on a wounded target: don't hang around at half health in his range.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -83,31 +93,36 @@
           "text": "Syndra fait très mal quand son combo touche : reste loin d'elle et esquive ses skillshots plutôt que d'échanger.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Pousse ta wave : si elle s'écrase sous ta tourelle, Syndra te harcèle à volonté pendant que tu ramasses tes CS.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Son passif finit par donner une charge de plus à sa Sphère noire (A) : mets-la sous pression avant cette amélioration.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Dès qu'elle rate un sort, avance : sa Sphère noire (A) a 7 s de CD et sa Dispersion des faibles (E) 15 s.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Sors de l'axe d'une sphère posée : sa Dispersion des faibles (E) la projette et étourdit chaque ennemi touché.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -115,31 +130,36 @@
           "text": "Syndra hits very hard when her combo lands: stay far from her and dodge her skillshots instead of trading.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Push your wave: if it crashes under your tower, Syndra harasses you freely while you collect your CS.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Her passive eventually gives Dark Sphere (Q) an extra charge: pressure her before that upgrade.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "As soon as she misses a spell, step up: Dark Sphere (Q) has a 7 s cooldown and Scatter the Weak (E) 15 s.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Get out of the line of a placed sphere: Scatter the Weak (E) launches it and stuns every enemy it hits.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

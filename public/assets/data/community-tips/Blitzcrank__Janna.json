@@ -17,25 +17,29 @@
           "text": "Ne lance pas ton hook (A) au hasard : tant qu'il est up, Janna doit le respecter et ne peut pas te harass. Si tu le rates, elle te punit.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Les minions bloquent ton hook (A) : décale-toi pour trouver une ligne dégagée avant de le lancer.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Son ult (R) repousse les ennemis proches : engage une fois qu'elle l'a utilisé, pas juste parce que sa barre de vie est basse.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Sa tornade (A) se charge avant de partir : lis sa direction et sors de sa trajectoire avant qu'elle t'atteigne.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Don't throw your hook (Q) carelessly: while it's up, Janna has to respect it and can't harass you. Miss it and she punishes you.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Minions block your hook (Q): shift your position to find a clean line before you throw it.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Her ult (R) knocks back nearby enemies: commit once she's used it, not just because her health bar is low.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Her tornado (Q) charges up before it travels: read its direction and step out of its path before it reaches you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -71,25 +79,29 @@
           "text": "Ne trade que quand son hook (A) est en CD : tant qu'il l'a, Blitz te punit dès que tu t'avances.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Reste derrière ou au milieu de tes minions : le hook de Blitz (A) attrape le premier ennemi touché, donc la wave te protège.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Joue safe : un hook réussi sur toi est souvent mortel, alors ne prends aucun risque de placement tant que son hook est up.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Quand Blitz lance sa Surcharge (Z) pour te coller, réponds avec ta tornade (A) sur sa route pour le knock-up.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -97,25 +109,29 @@
           "text": "Only trade when his hook (Q) is on cooldown; while he has it, Blitz punishes you for walking forward.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Stand in or behind your minions: Blitz's hook (Q) grabs the first enemy it hits, so the wave protects you.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Play safe: getting hooked usually means dying, so take no positioning risks while his hook is up.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "When Blitz pops Overdrive (W) to run at you, answer with your tornado (Q) in his path to knock him up.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

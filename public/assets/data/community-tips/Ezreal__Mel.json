@@ -17,13 +17,15 @@
           "text": "Fais sortir sa Réfutation (Z) avec ton Flux essentiel (Z) en faisant mine d'engager, puis attaque pendant son long CD.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Son Barrage lumineux (A) part avec un délai : change de direction ou feinte un last hit pour l'esquiver, puis punis Mel pendant son CD.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "Bait out her Rebuttal (W) with your Essence Flux (W) by faking an engage, then go in while it sits on its long cooldown.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Her Radiant Barrage (Q) comes out with a delay: change direction or fake a last hit to dodge it, then punish Mel while it's on cooldown.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ]
     },
@@ -47,13 +51,15 @@
           "text": "Ezreal lance son Flux essentiel (Z) pour te faire gâcher ta Réfutation (Z) : ne mords pas à l'appât, ton CD est long.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Son Tir mystique (A) et son Flux essentiel (Z) sont des projectiles : ta Réfutation (Z) les détruit et riposte avec des missiles.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -61,13 +67,15 @@
           "text": "Ezreal throws Essence Flux (W) to make you waste Rebuttal (W): don't take the bait, your cooldown is long.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "His Mystic Shot (Q) and Essence Flux (W) are projectiles: your Rebuttal (W) destroys them and fires missiles back.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

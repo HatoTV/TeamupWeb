@@ -10,43 +10,50 @@
         "text": "Casse vite le bouclier de son Feu intérieur (Z) : s'il tient 3 s, il peut le faire exploser pour de gros dégâts. Brisé, il n'explose plus.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Fracas meurtrier (A) se voit de loin : sors de la zone pendant la charge. Il ne stun que s'il l'a chargé au moins 1 s.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "À sa mort, sa Gloire posthume (passif) le relève brièvement : il ne peut qu'attaquer, vite et en se soignant. Recule hors de portée jusqu'à ce qu'il retombe.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Pendant qu'il charge son Fracas meurtrier (A), place-lui un stun ou un silence : la charge s'arrête et le sort passe en CD 2 s.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Esquive son Cri du tueur (E) : le slow qu'il applique lui sert à placer un Fracas meurtrier (A) chargé ou son Assaut inarrêtable (R).",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ne gaspille pas ton CC sur son Assaut inarrêtable (R) : il y est insensible pendant la charge. Écarte-toi de sa trajectoire ou garde un dash.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Ne reste pas derrière un sbire aligné avec lui : son Cri du tueur (E) projette ce sbire, qui inflige les mêmes dégâts et le slow à ceux qu'il traverse.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Burst his Soul Furnace (W) shield fast. If it survives 3 s, he can detonate it for big damage; once it breaks, there's no explosion.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Decimating Smash (Q) is easy to read. Walk out of the area while he charges; it only stuns if he held it for 1 s or more.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "When he dies, Glory in Death (passive) brings him back briefly. He can only auto, fast and with healing, so back off until he drops.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "While he charges Decimating Smash (Q), hit him with a stun or silence. The charge breaks and the spell goes on a 2 s cooldown.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sidestep his Roar of the Slayer (E). Its slow is what lets him land a full Decimating Smash (Q) or line up Unstoppable Onslaught (R).",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Don't waste CC on his Unstoppable Onslaught (R): he ignores it while charging. Step off his path or save a dash to dodge.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Don't stand behind a minion lined up with him. Roar of the Slayer (E) launches that minion, and anything it flies through takes the same damage and slow.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

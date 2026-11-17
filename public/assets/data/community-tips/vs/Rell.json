@@ -10,37 +10,43 @@
         "text": "Sans ton Flash, un seul engage de Rell suffit à te tuer. Joue loin d'elle, accepte de te faire push et attends que ton Flash revienne.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Rell déteste le poke et la portée. Harcèle-la de loin pour prendre la prio, mais ne rentre jamais dans sa zone d'engage.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Rell se cache dans les buissons de la lane pour bondir sur toi. Garde la vision dessus et ne farm pas collé à un buisson sans ward.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sa Frappe dislocatrice (A) détruit tous les boucliers et étourdit. Ne compte pas sur un bouclier pour encaisser son engage.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Après sa Ferromancie : Descendre en piqué (Z), Rell peut remonter à cheval : elle accélère et projette en l'air le prochain ennemi qu'elle frappe. Garde tes distances.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ne reste pas groupé en teamfight : sa Tempête magnétique (R) attire tous les ennemis proches, souvent juste après son saut (Z).",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -48,37 +54,43 @@
         "text": "Without Flash, a single Rell engage is enough to kill you. Play far from her, accept being shoved in and wait for Flash to come back.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Rell hates poke and range. Harass her from afar to take priority, but never walk inside her engage zone.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Rell lurks in the lane brushes to jump on you. Keep vision on them and don't farm right next to an unwarded brush.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Shattering Strike (Q) destroys every shield and stuns. Don't count on a shield to tank her engage.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "After Crash Down (W), Rell can Mount Up: she gets a speed burst and knocks up the next enemy she attacks. Keep your distance.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Don't clump up in teamfights: Magnet Storm (R) pulls in every nearby enemy, often right after her Crash Down (W) jump.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

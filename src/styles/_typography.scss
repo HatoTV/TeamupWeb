@@ -104,3 +104,17 @@
 .italic-text {
   font-style: italic;
 }
+
+// Coloured dot before a block title (replaces the old coloured top border of cards).
+// Colour: --dot-color on the element or an ancestor (gold by default).
+.title-dot::before {
+  content: '';
+  display: inline-block;
+  flex: none;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.45em;
+  border-radius: 50%;
+  background: var(--dot-color, var(--color-gold));
+  vertical-align: 0.1em;
+}

@@ -10,43 +10,50 @@
         "text": "Reste derrière tes sbires : sa Peine capitale (A) s'arrête sur la première unité touchée. Sans ligne libre jusqu'à toi, il n'a aucun hook possible.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Garde plus de 500 unités entre vous : son Fauchage (E) a une courte portée. S'il le rate ou le gaspille, avance et trade pendant le CD.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Thresh n'a ni sustain ni vraie range hors de son hook. Poke-le chaque fois qu'il avance : chaque PV perdu rend son engage plus risqué.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Thresh cherche l'all-in au lvl 2. Poke-le dès le lvl 1 et gagne la course au lvl 2 : affaibli, il ne pourra plus engager.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Thresh est dangereux quand tu ne le vois pas. Ward les buissons de la lane et, plus tard, ne face-check jamais : laisse un allié solide entrer en premier.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Sa Peine capitale (A) ne regagne du CD que si elle touche. Ratée, elle met longtemps à revenir (19 s au rang 1) : c'est ta fenêtre pour trade.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Son Fauchage (E) charge ses autos en passif : plus il attend entre deux attaques, plus la suivante fait mal. Ne le laisse pas s'approcher gratuitement en early.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Stay behind your minions: his Death Sentence (Q) stops on the first unit it hits. No clear line to you means no hook.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Keep more than 500 units away from him: his Flay (E) is short range. If he misses or wastes it, step up and trade while it's on cooldown.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Thresh has no sustain and little range outside his hook. Poke him every time he steps up; each bit of HP he loses makes his engage riskier.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Thresh looks for a level 2 all-in. Poke him from level 1 and win the race to level 2; once he's low, he can't engage anymore.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Thresh is scary when you can't see him. Ward the lane bushes, and later on never face-check: let a tanky teammate walk in first.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Death Sentence (Q) only gets cooldown back when it lands. A missed hook stays down a long time (19 s at rank 1): that's your window to trade.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Flay (E) passively charges his autos: the longer he waits between attacks, the harder the next one hits. Don't let him walk up for free early.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

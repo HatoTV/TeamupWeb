@@ -10,43 +10,50 @@
         "text": "Joueur/Filou (E) est à la fois l'escape et le clear de Fizz. Dès que Fizz le gaspille sur la wave ou en trade, punis-le tout de suite.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Fizz est melee : il doit avancer pour chaque CS. Poke-le à ce moment-là, et le reste du temps, reste hors de sa portée d'auto.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Fizz garde son Joueur/Filou (E) pour esquiver ton sort clé, puis te saute dessus. Lance ton CC ou ton burst après son E, pas avant.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Fizz peut lancer Pêche au gros (R) pendant le dash de sa Frappe de l'oursin (A) sur un minion. Quand Fizz dash vers ta wave, attends-toi au poisson.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Dès le lvl 6, Fizz push puis roam avec son R. Quand Fizz disparaît de la mid, ping tes side lanes tout de suite.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Pêche au gros (R) ralentit et frappe plus fort plus le poisson voyage loin avant de s'accrocher. Esquive-le sur le côté plutôt que de fuir en ligne droite.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Joueur/Filou (E) rend Fizz inciblable 0,75 s, puis Fizz retombe avec un slow autour de lui. Sors de la zone d'atterrissage avant l'impact.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Playful / Trickster (E) is both Fizz's escape and his wave clear. The moment he burns it on minions or in a trade, jump on him.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Fizz is melee and has to walk up for every last hit. Poke him right then, and stay outside his auto range the rest of the time.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Fizz holds Playful / Trickster (E) to dodge your key spell, then lands on you. Throw your CC or burst after his E, not before.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Fizz can throw Chum the Waters (R) mid-dash during Urchin Strike (Q) through a minion. When he dashes into your wave, expect the fish.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "From level 6, Fizz shoves and roams with his R. When he disappears from mid, ping your side lanes right away.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Chum the Waters (R) slows harder and deals more damage the farther the fish flies before it sticks. Sidestep it instead of running in a straight line.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Playful / Trickster (E) makes Fizz untargetable for 0.75 s, then he lands and slows everyone nearby. Walk out of the landing zone before it hits.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -107,8 +107,8 @@ function checkTips(where: string, fr: Tip[], en: Tip[], sourceCount: number, sou
   if (fr.length !== en.length) fail(where, `FR has ${fr.length} tips, EN ${en.length}`);
   fr.forEach((tip, i) => {
     const twin = en[i];
-    if (twin && (twin.sources !== tip.sources || twin.verifiedByGameData !== tip.verifiedByGameData || twin.category !== tip.category)) {
-      fail(`${where}[${i}]`, 'FR and EN differ in sources / verifiedByGameData / category');
+    if (twin && (twin.sources !== tip.sources || twin.verifiedByGameData !== tip.verifiedByGameData || twin.category !== tip.category || (twin.section ?? 'general') !== (tip.section ?? 'general'))) {
+      fail(`${where}[${i}]`, 'FR and EN differ in sources / verifiedByGameData / category / section');
     }
   });
   for (const [lang, tips] of [['fr', fr], ['en', en]] as const) {

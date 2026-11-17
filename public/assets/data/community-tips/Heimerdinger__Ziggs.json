@@ -17,31 +17,36 @@
           "text": "Trade quand sa Mèche courte (passif) n'est pas prête : attends qu'il gaspille cette attaque renforcée sur un sbire avant de t'avancer.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Sa Charge explosive (Z) est sa seule fuite. S'il la lance pour attaquer, engage tout de suite : son CD est long en début de partie.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ne le poursuis pas dans ses Mines Hexplosives (E) : elles ralentissent et explosent au contact, et il les sème souvent en reculant.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Sa Méga bombe infernale (R) fait bien plus de dégâts au centre de l'explosion : quand tu la vois arriver, sors d'abord du cœur de la zone.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Sa Charge explosive (Z) achève d'un coup une tour basse en PV : quand il s'avance pour finir la tienne, punis-le.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Trade while his Short Fuse passive is down: let him spend that empowered auto on a minion before you step forward.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Satchel Charge (W) is his only escape. If he throws it aggressively, go in right away: its cooldown is long early on.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Don't chase him through Hexplosive Minefield (E): the mines slow and blow up on contact, and he often drops them while backing off.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Mega Inferno Bomb (R) hits much harder at the center of the blast: when you see it coming, get out of the middle first.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Satchel Charge (W) instantly finishes a low-health tower: when he steps up to take yours, punish him.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -83,19 +93,22 @@
           "text": "Ta Bombe rebondissante (A) porte à 850, bien plus loin que ses attaques (550) : poke-le depuis ta portée max, sans t'avancer vers ses tourelles.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Sa Grenade électro-tempête CH-2 (E) est lancée en cloche et met du temps à arriver de loin : garde tes distances et esquive-la dès l'animation.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Si sa Grenade électro-tempête CH-2 (E) te touche, ses tourelles proches se chargent à fond : sors vite de leur portée avant leur tir renforcé.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -103,19 +116,22 @@
           "text": "Bouncing Bomb (Q) reaches 850 range, far beyond his 550 autos: poke him from max range without walking up to his turrets.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "His CH-2 Electron Storm Grenade (E) is lobbed and slow to land from far away: keep your distance and dodge it as soon as you see the throw.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "If CH-2 Electron Storm Grenade (E) lands on you, his nearby turrets become fully charged: get out of their range before the empowered shot.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

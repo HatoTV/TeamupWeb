@@ -10,25 +10,29 @@
         "text": "Son Coup de bidon (E) te knock-up et coupe ton dash. Ne lance pas ton all-in tant qu'il l'a : attends qu'il le gaspille, puis engage.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Gragas spamme son Fût roulant (A) et vide vite sa mana. Une fois à sec, freeze ou crash la wave : Gragas ne peut plus contester.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Son Fût explosif (R) repousse tous les ennemis touchés. Place-toi pour que Gragas ne puisse pas t'envoyer sur lui ou sous sa tourelle.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Le CD du Coup de bidon (E) est court et baisse quand Gragas percute un ennemi. Ne poursuis pas Gragas trop loin : il s'échappe facilement.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -36,25 +40,29 @@
         "text": "His Body Slam (E) knocks you up and cancels your dash. Don't go all-in while it's up: bait it out first, then engage.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Gragas spams Barrel Roll (Q) and burns his mana fast. Once he's dry, freeze or crash the wave: he can't contest it.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "His Explosive Cask (R) knocks away everyone it hits. Position so he can't blast you into himself or under his tower.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Body Slam (E) has a short cooldown, lowered when it collides with an enemy. Don't chase Gragas too far: he escapes easily.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

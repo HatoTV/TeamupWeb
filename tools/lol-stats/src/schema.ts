@@ -58,6 +58,7 @@ export function repeatedItems(build: BuildJson): number[] {
 }
 
 const opponent = z.object({ champion: id, games, winRate: rate });
+const counterEntry = z.object({ championId: id, games, wins: games, winRate: rate, goldDiff15: z.number().int().optional() });
 
 export const championBuildSchema = z.object({
   patch: z.string(),
@@ -78,6 +79,10 @@ export const championBuildSchema = z.object({
   builds: z.array(buildSchema).max(4),
   weakAgainst: z.array(opponent).max(6),
   strongAgainst: z.array(opponent).max(6),
+  /** Counters tab: every lane opponent with enough games, win rate ≥ 50 % (best first) / < 50 % (worst first). */
+  counters: z
+    .object({ advantage: z.array(counterEntry), counter: z.array(counterEntry) })
+    .refine((c) => c.advantage.every((e) => e.winRate >= 0.5) && c.counter.every((e) => e.winRate < 0.5), 'counters split at 50 %'),
   synergy: z.array(opponent.extend({ role: siteRoleSchema })).max(6),
   summary: z.object({ fr: z.string(), en: z.string() }),
 });

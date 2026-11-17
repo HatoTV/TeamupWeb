@@ -9,6 +9,7 @@ import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
 import { AbilityKeyPipe, abilityKey } from '../../shared/i18n/ability-key';
 import { BuildMatchupsComponent, MatchupCard } from './build-matchups.component';
+import { CountersComponent } from './counters/counters.component';
 import { PlayTipsComponent } from './play-tips/play-tips.component';
 import { GameIconComponent } from '../../shared/ui/game-icon.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
@@ -25,11 +26,14 @@ interface LineItem {
   alternatives: SlotItem[];
 }
 
-/** Champion build page: `/:lang/lol/champions/:championId/build/:role?rank&region&patch&build`. */
+/**
+ * Champion page: `/:lang/lol/champions/:championId/build/:role?rank&region&patch&build` (« Build » tab) and
+ * `/:lang/lol/champions/:championId/counters/:role?vs` (« Counters » tab, same filters as the build tab, no filter bar).
+ */
 @Component({
   selector: 'app-build-page',
   standalone: true,
-  imports: [TranslateModule, RouterLink, NgTemplateOutlet, RankSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent],
+  imports: [TranslateModule, RouterLink, NgTemplateOutlet, RankSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent, CountersComponent],
   templateUrl: './build-page.component.html',
   styleUrl: './build-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -55,6 +59,10 @@ export class BuildPageComponent {
 
   private readonly params = toSignal(this.route.paramMap);
   private readonly query = toSignal(this.route.queryParamMap);
+  private readonly routeData = toSignal(this.route.data);
+  protected readonly tab = computed<'build' | 'counters'>(() => (this.routeData()?.['tab'] === 'counters' ? 'counters' : 'build'));
+  /** `?patch=`, as its own signal: other query parameters (`?vs=`, `?build=`) do not reload the data. */
+  private readonly patchParam = computed(() => this.query()?.get('patch') ?? null);
 
   protected readonly champion = computed<Champion | null>(() => {
     const slug = this.params()?.get('championId');
@@ -178,9 +186,10 @@ export class BuildPageComponent {
     injectPageSeo(() => {
       const champion = this.championName();
       if (!champion) return null;
+      const counters = this.tab() === 'counters';
       return {
-        titleKey: 'BUILDS.SEO_TITLE',
-        descriptionKey: 'BUILDS.SEO_DESC',
+        titleKey: counters ? 'COUNTERS.SEO_TITLE' : 'BUILDS.SEO_TITLE',
+        descriptionKey: counters ? 'COUNTERS.SEO_DESC' : 'BUILDS.SEO_DESC',
         params: { champion, role: this.roleName(), patch: this.patch() ?? this.meta()?.latest ?? '' },
       };
     });
@@ -193,7 +202,7 @@ export class BuildPageComponent {
       const role = this.role();
       const filter = this.filter();
       const region = this.region();
-      const patch = this.query()?.get('patch') ?? null;
+      const patch = this.patchParam();
       const indexLoaded = !!this.champions.index() && this.meta() !== undefined;
       this.ctx.lang(); // localised static data
       untracked(() => void this.load(champion, role, filter, region, patch, indexLoaded));
@@ -271,6 +280,11 @@ export class BuildPageComponent {
   protected selectRole(role: Role): void {
     const slug = this.champion()?.slug;
     if (slug && role !== this.role()) void this.router.navigate([this.ctx.link(`/lol/champions/${slug}/build/${role}`)], { queryParamsHandling: 'preserve' });
+  }
+
+  /** Link of a tab of the champion page, same role and filters. */
+  protected tabLink(tab: 'build' | 'counters'): string {
+    return this.ctx.link(`/lol/champions/${this.champion()?.slug ?? ''}/${tab}/${this.role()}`);
   }
 
   /** Incremented on each load: only the latest one may update the page. */

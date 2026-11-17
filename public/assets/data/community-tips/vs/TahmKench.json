@@ -10,37 +10,43 @@
         "text": "Peau épaisse (E) soigne Tahm Kench des dégâts stockés dès qu'il sort du combat. S'il active le bouclier, il renonce à ce soin : garde la pression.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Reste derrière tes sbires : le Coup de langue (A) s'arrête sur la première unité touchée, donc Tahm Kench peine à te poke en lane.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Chaque coup de Tahm Kench te pose un stack de Goût acquis. À 3 stacks, son Coup de langue (A) t'étourdit : évite de trade avec 3 stacks sur toi.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Dès le lvl 6, 3 stacks de Goût acquis suffisent pour que Tahm Kench t'avale avec Dévoration (R). Ne les prends jamais près de sa tourelle.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Esquive le Coup de langue (A) : sans lui, Tahm Kench ne se soigne pas et ne te ralentit pas. Profite de ce CD pour trade.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sors de la zone de la Plongée abyssale (Z), même sans dash. Si elle ne touche aucun champion, Tahm Kench ne récupère rien de son CD.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -48,37 +54,43 @@
         "text": "Thick Skin (E) heals Tahm Kench from stored damage once he leaves combat. If he pops the shield instead, he gives up that heal, so keep pressuring.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Stay behind your minions. Tongue Lash (Q) stops on the first unit it hits, so Tahm Kench struggles to poke you in lane.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Every hit from Tahm Kench gives you a stack of An Acquired Taste. At 3 stacks his Tongue Lash (Q) stuns you, so avoid trading while fully stacked.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "From level 6, three An Acquired Taste stacks are enough for Tahm Kench to swallow you with Devour (R). Never take them near his tower.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Dodge Tongue Lash (Q). Without it, Tahm Kench gets no heal and no slow on you. Trade while that spell is on cooldown.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Walk out of the Abyssal Dive (W) landing zone, no dash needed. If it hits no champion, Tahm Kench gets none of its cooldown back.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -17,25 +17,29 @@
           "text": "Évite les fights quand vous êtes bas tous les deux : sa 4e balle est toujours critique et ajoute des dégâts d'exécution.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Jhin pousse la wave mieux que toi en early : ne force pas les trades courts quand il est posté derrière ses sbires, tu les perds.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Respecte son lvl 6 : son Rappel de rideau (R) l'emporte sur ton ult. Garde ton Flash pour survivre à ses tirs.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Écarte-toi des sbires presque morts : sa Grenade dansante (A) rebondit sur eux et frappe plus fort à chaque kill.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Avoid fights when you're both low: his fourth shot always crits and adds execute damage.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Jhin shoves the wave better than you early on: don't force short trades while he sits behind his minions, you'll lose them.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Respect his level 6: his Curtain Call (R) beats your ult. Keep Flash up so you can survive his shots.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Step away from low-health minions: his Dancing Grenade (Q) bounces off them and hits harder after each kill.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     },
@@ -71,31 +79,36 @@
           "text": "Une fois le push gagné, trade court depuis l'arrière de ta wave : Grenade dansante (A) puis attaque, idéalement avec ta 4e balle.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Prends le push dès les premiers niveaux : tu pousses la wave mieux que Caitlyn, et c'est ce qui te donne la main sur la lane.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Au lvl 6, ton Rappel de rideau (R) pèse bien plus que son ult : cherche le kill, surtout si elle n'a plus Flash.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Quand vous êtes bas tous les deux, l'avantage est pour toi : ta 4e balle est toujours critique et inflige des dégâts d'exécution.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Esquive son Pacificateur de Piltover (A), chargé 1 s avant le tir, et évite ses Pièges-yordle (Z) : immobilisé, tu subis un Tir dans la tête (passif) renforcé.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -103,31 +116,36 @@
           "text": "Once you've won the push, short trade from behind your wave: Dancing Grenade (Q) into an auto, ideally with your fourth shot.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Take the push from the first levels: you shove the wave better than Caitlyn, and that's what puts you in control of the lane.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "At level 6, your Curtain Call (R) is far stronger than her ult: look for the kill, especially when her Flash is down.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "When you're both low, you have the edge: your fourth shot always crits and deals execute damage.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Dodge her Piltover Peacemaker (Q), which takes a second to fire, and avoid her Yordle Snap Traps (W): once trapped, you eat an empowered Headshot (passive).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

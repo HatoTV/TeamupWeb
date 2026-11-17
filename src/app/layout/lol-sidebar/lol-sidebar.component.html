@@ -42,9 +42,6 @@
             [attr.aria-current]="isGroupActive(group) && !ctx.fragment() ? 'page' : null"
           >
             <span>{{ group.labelKey | translate }}</span>
-            <span class="group__count" [attr.aria-label]="'NAV.SECTION_COUNT' | translate: { count: group.items.length }">{{
-              group.items.length
-            }}</span>
           </a>
           <ul class="group__items">
             @for (item of group.items; track item.fragment) {

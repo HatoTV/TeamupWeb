@@ -10,25 +10,29 @@
         "text": "Tout le danger d'Illaoi passe par son Épreuve de l'esprit (E). Esquive-la ou fais-la rater, puis trade pendant son CD, long en début de partie.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Les tentacules d'Illaoi naissent sur les murs et la soignent quand ils touchent un champion. Détruis-les dès que possible et ne trade pas à côté.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Quand Illaoi t'arrache l'esprit (E), tout dégât sur ton esprit t'est en partie renvoyé. Ne laisse jamais un même coup de tentacule toucher ton esprit et toi.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Chaque coup de tentacule qui touche un champion soigne Illaoi. En fight long contre Illaoi, applique des Blessures graves dès que possible.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -36,25 +40,29 @@
         "text": "Most of Illaoi's threat comes from Test of Spirit (E). Dodge it or bait it out, then trade while it's on cooldown, which is long early on.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Illaoi's tentacles spawn on walls and heal her when they hit a champion. Destroy them as soon as you can and don't trade next to them.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "When Test of Spirit (E) pulls your spirit out, part of any damage it takes echoes to you. Never let one tentacle slam hit both you and your spirit.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Every tentacle slam that hits a champion heals Illaoi. In extended fights against her, apply Grievous Wounds as soon as you can.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -10,31 +10,36 @@
         "text": "Ne grille pas ton dash pour un trade : Leona attend souvent que tu l'utilises pour lancer sa Lame du zénith (E). Garde-le pour esquiver ce skillshot.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Sa Lame du zénith (E) est son seul gap closer. Si elle la rate, elle doit Flash pour placer son Bouclier de l'aube (A) : punis-la pendant le CD.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Leona menace peu au lvl 1, mais au lvl 2 elle a son all-in E puis A. Surveille qui prend le lvl 2 d'abord et recule si c'est elle.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Pendant son Éclipse (Z), elle encaisse moins de dégâts et gagne armure et RM. Ne gaspille pas tes sorts sur elle : vise son ADC ou attends la fin.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Son Éruption solaire (R) étourdit au centre de la zone et ralentit sur les bords. En teamfight, écarte-toi de tes alliés pour qu'elle ne stun pas tout le monde.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -42,31 +47,36 @@
         "text": "Don't burn your dash on a trade: Leona often waits for it before throwing Zenith Blade (E). Save it to sidestep that skillshot.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Zenith Blade (E) is her only gap closer. If she misses it, she needs Flash to land Shield of Daybreak (Q), so punish her while it's on cooldown.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Leona does little at level 1. At level 2 she gets her E into Q all-in: track who hits level 2 first and back off if she does.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "During Eclipse (W) she takes reduced damage and gains armor and MR. Don't waste spells on her: hit her ADC or wait it out.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Solar Flare (R) stuns in the center and slows at the edges. In teamfights, spread from your allies so she can't stun everyone at once.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

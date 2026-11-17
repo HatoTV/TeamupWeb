@@ -12,7 +12,7 @@
   flex-direction: column;
   min-width: 0;
   overflow: hidden;
-  border-top: 4px solid var(--color-lol);
+  --dot-color: var(--color-lol);
 }
 
 .ct__head {
@@ -53,19 +53,26 @@
 }
 
 .ct__sub {
-  margin: 12px 0 2px;
-  font: 700 15px/1.5 var(--font-display);
+  margin: 16px 0 2px;
+  font: 700 14px/1.5 var(--font-display);
   font-stretch: var(--stretch-heading);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #c3b0ff;
-
-  &--general {
-    margin-top: 18px;
-  }
 
   &:first-child {
     margin-top: 12px;
+  }
+
+  &--general {
+    color: #b69cff;
+  }
+
+  &--lane {
+    color: #ffc93c;
+  }
+
+  &--avoid {
+    color: #ff7a92;
   }
 }
 
@@ -78,30 +85,49 @@
 .ct__tip {
   display: flex;
   gap: 12px;
-  padding: 12px 0;
+  padding: 11px 0;
   border-bottom: 1px solid var(--color-separator);
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.55;
   color: #e2e2ee;
 
   &::before {
     content: '';
     flex: none;
-    width: 7px;
-    height: 7px;
+    width: 6px;
+    height: 6px;
     margin-top: 9px;
-    border-radius: 2px;
-    background: var(--color-lol);
+    border-radius: 1px;
+    background: #4a4a6a;
   }
 }
 
-.ct__list--general .ct__tip {
-  font-size: 15px;
-  color: var(--color-text-secondary);
+// Inside the counters panel: no card, the panel gives the frame.
+.ct--embedded {
+  overflow: visible;
 
-  &::before {
-    margin-top: 8px;
-    background: #4a4a6a;
+  .ct__head {
+    padding: 18px 20px 2px;
+    border-bottom: 0;
+  }
+
+  .ct__title {
+    font-size: 21px;
+    line-height: 1.15;
+  }
+
+  .ct__subtitle {
+    margin-top: 4px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .ct__body {
+    padding: 0 20px 14px;
+  }
+
+  .ct__state {
+    padding: 14px 20px 18px;
   }
 }
 

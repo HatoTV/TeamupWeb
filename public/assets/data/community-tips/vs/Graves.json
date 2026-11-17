@@ -10,43 +10,50 @@
         "text": "Quand Graves lance son Écran de fumée (Z), tu es ralenti et aveuglé. Sors-en en changeant de direction : il enchaîne souvent avec Terminus (A) sur ta trajectoire.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Chaque auto de Graves réduit le CD de sa Ruée vers l'or (E), qui recharge aussi une cartouche. Ne le laisse pas taper gratuitement, tu lui retires mobilité et dégâts.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Graves est très fort dès le lvl 1 et aime envahir. Si ton champion est faible early, refuse le 1v1 dans ta jungle pendant les premières minutes.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Graves adore les champions qui foncent sur lui. Ne lui cours pas dessus en ligne droite ; avec un champion à distance, garde ton espacement et harcèle-le de loin.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Graves dépend énormément de son farm et de son gold. Vole ses camps et fais rater ses ganks : en retard, il clear lentement et perd beaucoup de menace.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Terminus (A) explose dès qu'il touche un mur : près du terrain, la détonation arrive presque tout de suite. Reste loin des murs tant que son A est dispo.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Dégâts collatéraux (R) frappe le premier ennemi touché puis explose en cône derrière lui, et repousse Graves en arrière. Ne te place pas juste derrière l'allié qu'il vise.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Graves's Smoke Screen (W) slows you and cuts your vision. Leave it by changing direction: he often follows up with End of the Line (Q) on your path.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Every Graves auto lowers the cooldown of Quickdraw (E), which also reloads a shell. Don't give him free autos: you take away both his mobility and his damage.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Graves is very strong from level 1 and loves to invade. If your champ is weak early, don't take the 1v1 in your jungle during the first minutes.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Graves loves champions that run straight at him. Don't charge him head-on; on a ranged champ, keep your spacing and poke him from range.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Graves relies heavily on farm and gold. Steal his camps and make his ganks fail: once behind, he clears slowly and loses much of his threat.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "End of the Line (Q) detonates as soon as it hits a wall, so near terrain the blast comes almost instantly. Stay away from walls while his Q is up.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Collateral Damage (R) hits the first enemy, then explodes in a cone behind them, and knocks Graves backwards. Don't stand right behind the ally he's aiming at.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

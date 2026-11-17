@@ -17,19 +17,22 @@
           "text": "Cherche à aligner Thresh avec son ADC ou un sbire : ton Lien cosmique (A) les étourdit tous les deux.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Tu es fragile : une seule Peine capitale (A) encaissée peut suffire à te tuer, joue ta lane en esquivant chaque chaîne.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Si Thresh attrape un allié, lance ton Destin tempéré (R) sur lui ou sur sa cible pour figer l'action.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Line Thresh up with his ADC or a minion: Cosmic Binding (Q) stuns both of them.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "You're squishy: a single Death Sentence (Q) can be enough to kill you, so play the lane around dodging every hook.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "If Thresh hooks an ally, cast Tempered Fate (R) on him or on the target to freeze the play.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,19 +65,22 @@
           "text": "Éloigne-toi des murs, des sbires et de ton ADC : son Lien cosmique (A) t'étourdit s'il continue sa course jusqu'à l'un d'eux.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Bard est très fragile : une Peine capitale (A) qui le touche suffit souvent à le tuer ou à lui prendre ses sorts d'invocateur.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Bard roame plus que toi : quand il part chercher ses carillons, signale-le et punis son ADC resté seul en lane.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ],
       "en": [
@@ -79,19 +88,22 @@
           "text": "Stay away from walls, minions and your ADC: his Cosmic Binding (Q) stuns you if it carries on into any of them.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Bard is very squishy: one Death Sentence (Q) that lands is often enough to kill him or burn his summoner spells.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Bard roams more than you: when he leaves to collect chimes, ping it and punish his ADC left alone in lane.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ]
     }

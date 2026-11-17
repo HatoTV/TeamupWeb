@@ -10,49 +10,57 @@
         "text": "Ne lance pas ton skillshot clé dans la Réfutation (Z) de Mel : elle détruit tes projectiles et riposte. Feinte d'abord pour que Mel la gâche, puis tire.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Sa Réfutation (Z) a un très long CD. Dès que Mel l'a utilisée, c'est ta fenêtre : trade fort ou all-in avant qu'elle revienne.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Joue la wave avant les trades : push Mel sous sa tour. Mel doit dépenser ses sorts sur les sbires, et tes trades deviennent plus sûrs ensuite.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Mel garde son Barrage lumineux (A) pour tes last hits, et le sort a un délai. Fais mine d'aller sur le sbire, puis décale-toi sur le côté.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Esquiver son Barrage lumineux (A) compte double : s'il touche un champion, son CD baisse. S'il rate, Mel attend tout le CD, alors punis-la.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Après avoir crash la wave, quitte la lane : roam, pose de la vision ou joue avec ton jungler pendant que Mel reste mid.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Chaque sort de Mel charge des projectiles bonus sur sa prochaine auto. Juste après un de ses sorts, sors de sa portée d'auto plutôt que de rester proche.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Les stacks d'Accablement de Mel peuvent t'exécuter. Bas en PV, ne reste pas à portée de ses sorts en espérant survivre : recule tout de suite.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Don't throw your key skillshot into Mel's Rebuttal (W): it destroys projectiles and strikes back. Fake a cast first so she wastes it, then fire.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Rebuttal (W) has a very long cooldown. Once Mel burns it, that's your window: trade hard or go all-in before it comes back.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Play the wave before the trades: shove Mel under her tower. She has to spend spells on minions, and your trades get much safer after that.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Mel saves Radiant Barrage (Q) for your last hits, and it lands with a delay. Step toward the minion, then sidestep at the last moment.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Dodging Radiant Barrage (Q) pays twice: hitting a champion lowers its cooldown. When it whiffs, Mel waits the full cooldown, so punish her.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Once the wave is crashed, leave lane: roam, place vision or play with your jungler while Mel stays stuck mid.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Every spell Mel casts loads bonus projectiles on her next auto. Right after she casts, step out of her auto range instead of staying close.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Mel's Overwhelm stacks can execute you. When you're low, don't linger in her spell range hoping to live: back off right away.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

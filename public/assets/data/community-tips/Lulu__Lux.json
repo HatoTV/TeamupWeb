@@ -17,31 +17,36 @@
           "text": "L'Entrave de lumière (A) de Lux porte plus loin que ton Duo éclatant (A) : reste hors de sa portée tant que son root est disponible.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Lux veut prendre l'avance dès les premiers niveaux : respecte son lvl 2 et ne lui offre pas de trades gratuits.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Si l'Entrave de lumière (A) de Lux touche ton ADC, l'Anomalie radieuse (E) suit : garde Pix à la rescousse (E) pour le shield aussitôt.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Une fois son Entrave de lumière (A) lancée, Lux n'a plus de root pendant 10 s : avance et trade avec ton Duo éclatant (A).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Fantaisie (Z) sur ton ADC lui donne de la vitesse : sers-t'en pour l'aider à esquiver le poke de Lux.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Lux's Light Binding (Q) outranges your Glitterlance (Q): stay out of her range while her root is up.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Lux wants an early lead in lane: respect her level 2 and don't give her free trades.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "If Lux's Light Binding (Q) lands on your ADC, Lucent Singularity (E) follows: keep Help, Pix! (E) to shield them right away.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Once Lux has used Light Binding (Q), she has no root for 10 seconds: step up and trade with Glitterlance (Q).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Whimsy (W) on your ADC gives them move speed: use it to help them dodge Lux's poke.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     },
@@ -83,19 +93,22 @@
           "text": "Ton Entrave de lumière (A) porte plus loin que son Duo éclatant (A) : poke Lulu depuis la limite de ta portée.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Joue agressif dès les premiers niveaux, lvl 2 compris : c'est là que tu prends l'avance sur Lulu.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Si Lulu agrandit un allié qui engage avec Croissance prodigieuse (R), garde Entrave de lumière (A) et Anomalie radieuse (E) pour stopper cet allié.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -103,19 +116,22 @@
           "text": "Your Light Binding (Q) outranges her Glitterlance (Q): poke Lulu from the edge of your range.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Play aggressive from the first levels, level 2 included: that's where you get your lead over Lulu.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "If Lulu enlarges an engaging ally with Wild Growth (R), save Light Binding (Q) and Lucent Singularity (E) to stop that ally.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

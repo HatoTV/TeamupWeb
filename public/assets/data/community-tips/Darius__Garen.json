@@ -21,25 +21,29 @@
           "text": "Ne te place jamais mal en lane : un bon Darius attend juste ça pour te ramener avec son pull (E) et lancer le trade.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Reste hors de la lame de sa Décimation (A) : c'est elle qui fait le plus de dégâts et qui le heal. Esquive-la et il ne se soigne pas.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Quand son Estropiaison (Z) te slow, lance ton Coup décisif (A) : il purge le slow et te donne de la vitesse pour sortir du trade.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Fais des trades courts : ses attaques et ses sorts empilent le saignement, et à 5 stacks Darius enrage avec un gros bonus d'AD.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -47,25 +51,29 @@
           "text": "Never get caught out of position in lane: a good Darius is just waiting to drag you in with his pull (E) and start the trade.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Stay out of the blade of his Decimate (Q): that's where the damage and his healing come from. Dodge it and he gets no heal.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "When his W slows you, pop Decisive Strike (Q): it cleanses the slow and gives you the move speed to walk out of the trade.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Keep trades short: his autos and spells stack the bleed, and at 5 stacks Darius enrages and gains a huge amount of AD.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     }

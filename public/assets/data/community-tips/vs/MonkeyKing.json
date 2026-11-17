@@ -10,37 +10,43 @@
         "text": "Wukong prend un gros spike au lvl 6 avec son Cyclone (R). Avant, c'est ta fenêtre pour le punir ; dès qu'il l'a, joue plus safe et respecte son all-in.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Il engage et trade avec son Guerrier espiègle (Z), au long CD (22 à 18 s). Sans lui, il n'a que son Nimbus (E) pour bouger : trade alors.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Écrasement (A) allonge sa prochaine auto et réduit ton armure. Il s'en sert pour des short trades : recule quand il l'a, contre-attaque juste après qu'il l'a lancé.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Après son Z, Wukong devient invisible et laisse un clone immobile qui attaque et copie son ult. Éloigne-toi du clone et cherche le vrai dans l'axe du dash.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Cyclone (R) se relance une fois : ça fait deux knock-ups. Ne grille pas ta seule esquive sur le premier, il lui reste le second.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Sa Peau de pierre (passif) lui donne de l'armure et de la régén qui montent pendant le fight. Les dégâts magiques contournent cette armure, les champions AP le gênent beaucoup.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -48,37 +54,43 @@
         "text": "Wukong spikes hard at level 6 with Cyclone (R). Before that, he's yours to punish; once he has it, play safer and respect his all-in.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "He engages and trades with Warrior Trickster (W), which has a long cooldown (22 to 18 s). Without it, Nimbus Strike (E) is his only mobility: that's your trade window.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Crushing Blow (Q) gives his next auto extra range and shreds your armor. He short trades with it: back off while it's up, hit back right after he uses it.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "After W, Wukong turns invisible and leaves a stationary clone that attacks and copies his ult. Step away from the clone and look for the real one along his dash.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Cyclone (R) can be recast once, so it's two knock-ups. Don't burn your only dodge on the first spin: he still has another one.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Stone Skin (passive) stacks armor and regen the longer he fights. Magic damage ignores that armor, so AP champions give him a hard time.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -17,25 +17,29 @@
           "text": "Passe le début de lane sans forcer : tu scales mieux qu'elle et tu domines la side lane en mid game.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         },
         {
           "text": "Après le lvl 6, fais-lui gaspiller sa Dispersion des faibles (E), puis lance ta Fissure (R) sur elle : tu gagnes le trade pendant son CD.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Ton Orbe du Néant (A) te donne un bouclier magique : lance-le quand elle balance ses sphères pour absorber son burst.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Avant d'engager après son lvl 6, compte les sphères au sol : son Déchaînement de puissance (R) lance sur toi celles qui sont proches.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Get through the early lane without forcing: you scale better than her and own the side lane in mid game.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         },
         {
           "text": "After level 6, bait out her Scatter the Weak (E), then Riftwalk (R) onto her: you win the trade while it's on cooldown.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Null Sphere (Q) gives you a magic shield: cast it as she throws her spheres to soak her burst.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Before committing after her level 6, count the spheres on the ground: Unleashed Power (R) throws the nearby ones at you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -71,13 +79,15 @@
           "text": "Prive-le de farm dès le début : Kassadin dépend de ses CS pour atteindre ses paliers, chaque sbire refusé retarde son spike.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Ne compte pas sur un one-shot : sa Pierre du Néant réduit tes dégâts magiques et son Orbe du Néant (A) le protège d'un bouclier.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -85,13 +95,15 @@
           "text": "Deny him farm from the start: Kassadin relies on CS to reach his power spikes, and every denied minion delays them.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Don't count on a one-shot: Void Stone reduces your magic damage and his Null Sphere (Q) shields him.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

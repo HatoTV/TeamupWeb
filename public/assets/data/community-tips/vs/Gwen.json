@@ -10,43 +10,50 @@
         "text": "Gwen est faible en early et vit de son farm. Trade tôt, prends la prio et refuse-lui des CS avant qu'elle ne scale.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Gwen pose sa Brume sacrée (Z) puis se place au bord avec son Élan incisif (E). Tu ne peux la cibler qu'en entrant dans la brume : entre ou recule.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Respecte le lvl 6 de Gwen, surtout si elle l'atteint avant toi : sa Piqûre (R) lui donne un all-in très fort. Évite les trades longs à ce moment.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Gwen veut farmer avec la wave près de sa tour. Ne pousse pas chez elle : freeze de ton côté pour la forcer à s'avancer loin de sa tour.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sa Piqûre (R) se relance deux fois en 6 s et la 3e salve tire 5 aiguilles. Esquive la 1re, qui ralentit, puis décale-toi sur le côté.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Chaque auto de Gwen charge son Tchac, tchac ! (A), jusqu'à 4 stacks. Trade juste après qu'elle l'a lancé : il est en CD et ses stacks sont vidés.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Évite de fight Gwen près d'un mur ou dans un passage étroit : sa Brume sacrée (Z) posée contre le mur laisse trop peu de place pour entrer la taper.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Gwen is weak early and lives off her farm. Trade early, grab prio and deny her CS before she scales.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Gwen drops Hallowed Mist (W), then Skip 'n Slash (E) puts her on its edge. You can only target her from inside the mist: step in or back off.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Respect Gwen's level 6, especially if she hits it before you: Needlework (R) gives her a brutal all-in. Avoid extended trades at that point.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Gwen wants the wave near her tower. Don't shove it into her: freeze on your side so she has to walk up far from her tower to last hit.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Needlework (R) can be recast twice within 6 s, and the third cast fires five needles. Dodge the first, slowing one, then sidestep the rest.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Every Gwen auto charges Snip Snip! (Q), up to 4 stacks. Trade right after she casts it: it's on cooldown and her stacks are spent.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Avoid fighting Gwen near walls or in tight spots: Hallowed Mist (W) placed against a wall leaves too little room to step in and hit her.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

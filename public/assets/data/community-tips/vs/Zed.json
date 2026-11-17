@@ -10,37 +10,43 @@
         "text": "Zed est faible aux lvl 1 et 2 : prends le contrôle tôt, crash la deuxième wave pour passer lvl 2 avant lui et force-le à lâcher des sbires.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Quand son ombre est posée, il lance deux Shuriken-rasoir (A) : casse le rythme de tes déplacements pour ne pas prendre les deux. Un seul shuriken reste supportable.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Garde ton CC pour après sa Marque de la mort (R) : il est inciblable pendant le dash et peut revenir sur son ombre. Lance-le quand il réapparaît.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Ombre vivante (Z) porte tout son trade. Fais-la sortir avec une feinte ; en CD (20 s au rang 1), avance sur la wave et trade sans crainte.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Après son lvl 6, Zed veut escarmoucher partout : garde la prio de wave pour qu'il ne puisse pas roam sans perdre de farm.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Sous sa Marque de la mort (R), esquive en priorité ses Shuriken-rasoir (A) : la marque explose 3 s plus tard et rejoue une partie des dégâts qu'il t'a infligés.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -48,37 +54,43 @@
         "text": "Zed is weak at levels 1 and 2: take control early, crash the second wave to hit level 2 first and make him give up farm.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "With his shadow out, he throws two Razor Shurikens (Q): break your movement rhythm so you don't eat both. One shuriken alone is manageable.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Save your CC for after his Death Mark (R): he's untargetable during the dash and can swap back to his shadow. Throw it once he lands next to you.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Living Shadow (W) is his whole trade pattern. Bait it out with a fake step; once it's on cooldown (20 s at rank 1), walk up and trade freely.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "After level 6, Zed wants to skirmish everywhere: keep wave priority so he can't roam without losing farm.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "While Death Marked (R), dodge his Razor Shurikens (Q) first: the mark pops 3 s later and repeats part of the damage he dealt you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

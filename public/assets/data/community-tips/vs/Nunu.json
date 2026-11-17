@@ -10,49 +10,57 @@
         "text": "Garde ton CC dur pour son Zéro absolu (R). C'est une canalisation et l'explosion grandit avec la durée : l'interrompre tôt coupe l'essentiel de ses dégâts.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Avant le lvl 6, Nunu perd presque tous ses 1v1 : trade fort et punis-le tôt. Dès son lvl 6, respecte son Zéro absolu (R), le gros de ses dégâts.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Nunu gank souvent dès le lvl 2 ou 3, bot ou mid, après deux ou trois camps seulement. Tant que tu ne sais pas où il est, évite d'overpush.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Nunu est faible en duel en early. Si tu joues un jungler qui invade bien, va prendre ses camps et chasse-le de sa propre jungle.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Pose une ward profonde dans sa jungle, vers ses raptors, pour suivre son pathing et ping tes lanes. Un gank de Nunu vu à l'avance rate presque toujours.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Sa Boule de neige géante ! (Z) arrive de très loin, souvent depuis le fog. Garde la rivière et le tri brush wardés pour la voir arriver.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Sa Boule de neige géante ! (Z) tourne lentement. Garde ton dash, ou fais un pas de côté au dernier moment : c'est son outil d'engage principal.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Zéro absolu (R) n'explose qu'à la fin et son slow augmente avec le temps. Sors de la zone tout de suite avec un dash ou un blink.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Save your hard CC for his Absolute Zero (R). It's a channel and the blast scales with channel time, so an early interrupt cancels most of his damage.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Pre-6, Nunu loses almost every 1v1, so trade hard and punish him early. Once he hits 6, respect his Absolute Zero (R): it's most of his damage.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Nunu often ganks at lvl 2 or 3, bot or mid, after only two or three camps. Until you know where he is, don't overpush.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Nunu is a weak early duelist. If you play a jungler who invades well, take his camps and push him off his own jungle.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Drop a deep ward in his jungle, near raptors, to track his pathing and ping your lanes. A Nunu gank spotted early almost always fails.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "His Biggest Snowball Ever! (W) comes from very far, often out of fog. Keep river and tribush warded so you see it rolling in.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "His Biggest Snowball Ever! (W) turns slowly. Hold your dash, or sidestep at the last moment: it's his main engage tool.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Absolute Zero (R) only detonates at the end, and its slow ramps up over time. Leave the zone right away with a dash or blink.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

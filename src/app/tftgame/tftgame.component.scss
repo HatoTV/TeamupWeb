@@ -140,7 +140,7 @@
   border-radius: 12px;
   background: var(--color-surface);
   border: 1px solid var(--color-line);
-  border-top: 3px solid var(--tone);
+  --dot-color: var(--tone);
 
   &[data-tone='gold'] {
     --tone: var(--color-gold);

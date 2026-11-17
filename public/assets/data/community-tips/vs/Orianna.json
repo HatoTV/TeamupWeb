@@ -10,43 +10,50 @@
         "text": "En early, son Ordre : Dissonance (Z) coûte cher en mana. Pousse-la à le gaspiller, puis trade quand sa barre de mana est basse.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Ne monte pas last hit à côté de la sphère : son combo A+Z t'attend. Reste du côté opposé, quitte à lâcher un melee.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Si elle colle sa sphère sur un allié qui engage avec son Ordre : Protection (E), son Ordre : Onde de choc (R) partira de lui. Écarte-toi vite.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Orianna n'a aucun dash. Les engages durs et les ganks la punissent fort, surtout quand son Flash est en CD.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Son Ordre : Attaque (A) fait moins de dégâts après la première cible touchée. Garde des minions entre toi et sa sphère.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Le champ laissé par son Ordre : Dissonance (Z) te slow et accélère ses alliés. Sors-en tout de suite pour éviter ses autos et son ult.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Ordre : Onde de choc (R) projette vers la sphère. Quand tu fuis, ne la frôle pas : l'ult te ramènerait en arrière.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Early on, Command: Dissonance (W) is mana-hungry. Bait her into wasting it, then trade once her mana bar runs low.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Don't walk up to last hit next to the ball: her Q+W is waiting. Stay on the far side, even if it costs you a melee minion.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "If she sends her ball onto an engaging ally with Command: Protect (E), Command: Shockwave (R) will come from that ally. Spread away fast.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Orianna has no dash. Hard engage and ganks punish her badly, especially while her Flash is on cooldown.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Command: Attack (Q) deals reduced damage after the first target it hits. Keep minions between you and her ball.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "The field left by Command: Dissonance (W) slows you and speeds up her allies. Leave it right away or she lands autos and her ult.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Command: Shockwave (R) knocks you toward the ball. When fleeing, don't brush past it, or the ult drags you back.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

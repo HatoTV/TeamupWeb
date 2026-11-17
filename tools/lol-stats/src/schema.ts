@@ -42,8 +42,9 @@ export const buildSchema = z.object({
   /** Items 3 to 5 without boots (no duplicate with the core or between them), each with at most two alternatives.
    * Items 3 to 6 for an ADC (the role quest frees a slot for the boots) or a build without boots. */
   next: z.array(slotItem.extend({ slot: z.union([z.literal(3), z.literal(4), z.literal(5), z.literal(6)]), alternatives: z.array(slotItem).max(2) })).max(4),
-  /** Most bought tier-2 boots and at most two alternatives, shown apart from the other items. Null without boots. */
-  boots: slotItem.extend({ alternatives: z.array(slotItem).max(2) }).nullable(),
+  /** Most bought tier-2 boots and at most two alternatives. `slot`: their position in the line of items (1 = bought before
+   * any major item), from the number of major items most often bought before them. Null without boots. */
+  boots: slotItem.extend({ slot: z.number().int().min(1).max(7), alternatives: z.array(slotItem).max(2) }).nullable(),
   skills: z.object({ order: z.string().regex(/^[1-4]{1,18}$/), max: z.string().regex(/^[1-3]{3}$/), games, wins: games, winRate: rate }).nullable(),
 });
 export type BuildJson = z.infer<typeof buildSchema>;

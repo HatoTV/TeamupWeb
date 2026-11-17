@@ -11,13 +11,7 @@
       </div>
 
       <div class="hero__main">
-        <div class="hero__titles">
-          <h1 class="hero__name">{{ champ.name }}</h1>
-          <span class="hero__role">· {{ (tab() === 'counters' ? 'COUNTERS.ROLE' : 'BUILDS.BUILD_ROLE') | translate: { role: roleName() } }}</span>
-          @if (patch()) {
-            <span class="tag tag--gold">{{ 'BUILDS.PATCH' | translate: { patch: patch() } }}</span>
-          }
-        </div>
+        <h1 class="hero__name">{{ champ.name }}</h1>
         @if (abilities().length) {
           <ul class="abilities" [attr.aria-label]="'BUILDS.ABILITIES' | translate">
             @for (a of abilities(); track a.name) {
@@ -34,46 +28,49 @@
             }
           </ul>
         }
-        @if (file(); as f) {
-          <p class="hero__summary">{{ ctx.lang() === 'fr' ? f.summary.fr : f.summary.en }}</p>
+        @if (patch() || file()) {
+          <div class="hero__meta">
+            @if (patch()) {
+              <span class="tag tag--gold">{{ 'BUILDS.PATCH' | translate: { patch: patch() } }}</span>
+            }
+            @if (file(); as f) {
+              <dl class="stats">
+                <div class="stat">
+                  <dt>{{ 'BUILDS.WIN_RATE' | translate }}</dt>
+                  <dd>
+                    {{ fmtRate(f.winRate) }}
+                    @if (f.delta && fmtDelta(f.delta.winRate); as d) {
+                      <span class="delta" [class.delta--up]="d.up" [attr.aria-label]="'BUILDS.DELTA' | translate: { delta: d.text }">{{ d.text }}</span>
+                    }
+                  </dd>
+                </div>
+                <div class="stat">
+                  <dt>{{ 'BUILDS.PICK_RATE' | translate }}</dt>
+                  <dd>
+                    {{ fmtRate(f.pickRate) }}
+                    @if (f.delta && fmtDelta(f.delta.pickRate); as d) {
+                      <span class="delta" [class.delta--up]="d.up" [attr.aria-label]="'BUILDS.DELTA' | translate: { delta: d.text }">{{ d.text }}</span>
+                    }
+                  </dd>
+                </div>
+                <div class="stat">
+                  <dt>{{ 'BUILDS.BAN_RATE' | translate }}</dt>
+                  <dd>
+                    {{ fmtRate(f.banRate) }}
+                    @if (f.delta && fmtDelta(f.delta.banRate); as d) {
+                      <span class="delta" [class.delta--up]="d.up" [attr.aria-label]="'BUILDS.DELTA' | translate: { delta: d.text }">{{ d.text }}</span>
+                    }
+                  </dd>
+                </div>
+                <div class="stat">
+                  <dt>{{ 'BUILDS.GAMES' | translate }}</dt>
+                  <dd>{{ fmtInt(f.games) }}</dd>
+                </div>
+              </dl>
+            }
+          </div>
         }
       </div>
-
-      @if (file(); as f) {
-        <dl class="stats">
-          <div class="stat">
-            <dt>{{ 'BUILDS.WIN_RATE' | translate }}</dt>
-            <dd>
-              {{ fmtRate(f.winRate) }}
-              @if (f.delta && fmtDelta(f.delta.winRate); as d) {
-                <span class="delta" [class.delta--up]="d.up" [attr.aria-label]="'BUILDS.DELTA' | translate: { delta: d.text }">{{ d.text }}</span>
-              }
-            </dd>
-          </div>
-          <div class="stat">
-            <dt>{{ 'BUILDS.PICK_RATE' | translate }}</dt>
-            <dd>
-              {{ fmtRate(f.pickRate) }}
-              @if (f.delta && fmtDelta(f.delta.pickRate); as d) {
-                <span class="delta" [class.delta--up]="d.up" [attr.aria-label]="'BUILDS.DELTA' | translate: { delta: d.text }">{{ d.text }}</span>
-              }
-            </dd>
-          </div>
-          <div class="stat">
-            <dt>{{ 'BUILDS.BAN_RATE' | translate }}</dt>
-            <dd>
-              {{ fmtRate(f.banRate) }}
-              @if (f.delta && fmtDelta(f.delta.banRate); as d) {
-                <span class="delta" [class.delta--up]="d.up" [attr.aria-label]="'BUILDS.DELTA' | translate: { delta: d.text }">{{ d.text }}</span>
-              }
-            </dd>
-          </div>
-          <div class="stat">
-            <dt>{{ 'BUILDS.GAMES' | translate }}</dt>
-            <dd>{{ fmtInt(f.games) }}</dd>
-          </div>
-        </dl>
-      }
     </div>
 
     <nav class="tabs" [attr.aria-label]="'BUILDS.SECTIONS' | translate">
@@ -363,8 +360,8 @@
             </ng-template>
             @if (itemLine(); as line) {
               <div class="line">
-                <ol class="line__items" [style.--cols]="line.items.length">
-                  @for (it of line.items; track it.item; let i = $index) {
+                <ol class="line__items" [style.--cols]="line.length">
+                  @for (it of line; track it.item; let i = $index) {
                     <li class="slot">
                       <span class="slot__icon">
                         <app-game-icon [src]="item(it.item).src" [name]="item(it.item).name" [desc]="item(it.item).desc" [cost]="item(it.item).cost" [size]="52" />
@@ -383,24 +380,6 @@
                     </li>
                   }
                 </ol>
-                @if (line.boots; as bt) {
-                  <div class="slot slot--boots">
-                    <span class="slot__tag">{{ 'BUILDS.BOOTS' | translate }}</span>
-                    <span class="slot__icon">
-                      <app-game-icon [src]="item(bt.item).src" [name]="item(bt.item).name" [desc]="item(bt.item).desc" [cost]="item(bt.item).cost" [size]="52" />
-                    </span>
-                    <span class="slot__name">{{ item(bt.item).name }}</span>
-                    @if (bt.time !== null) {
-                      <span class="slot__time">{{ fmtTime(bt.time) }}</span>
-                    }
-                    @if (bt.stat) {
-                      <span class="slot__stats">{{ fmtRate(bt.stat.share, 0) }} · <span class="slot__nw">{{ 'BUILDS.WR_SHORT' | translate }} <span class="slot__wr">{{ fmtRate(bt.stat.winRate) }}</span></span></span>
-                    }
-                    @if (bt.alternatives.length) {
-                      <ng-container *ngTemplateOutlet="alts; context: { $implicit: bt.alternatives }" />
-                    }
-                  </div>
-                }
               </div>
             }
           </section>

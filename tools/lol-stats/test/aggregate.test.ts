@@ -263,6 +263,26 @@ describe('real case: Akali top (patch 16.22 sample)', () => {
       assert.deepEqual(repeatedItems(b), [], b.label);
     }
   });
+
+  it('places the boots in the line of items, after the major items most often bought before them', async () => {
+    const participants = [
+      // Boots after the first major item twice, after the second once.
+      { majors: [[3078, 600_000], [3053, 900_000], [3071, 1_200_000]], boots: [3047, 700_000] },
+      { majors: [[3078, 650_000], [3053, 950_000], [3071, 1_250_000]], boots: [3047, 800_000] },
+      { majors: [[3078, 620_000], [3053, 920_000], [3071, 1_220_000]], boots: [3047, 1_000_000] },
+    ].map((p, i) => game({ ...fixture.participants[0], ...p }, i));
+    const out = await aggregate({
+      patch: '16.22',
+      platforms: ['EUW1'],
+      games: () => participants,
+      previous: new Map(),
+      names: { champions: { fr: new Map(), en: new Map() }, items: { fr: new Map(), en: new Map() } },
+      exclusive: new Map(),
+      config: { ...RULES, ...SLOT_RULES, minBuildGames: 1, offMetaMinGames: 1, minMatchupGames: 1, lowSampleGames: 200 },
+    });
+    const build = out.files.find((f) => f.filter === 'master_plus')!.builds[0]!;
+    assert.equal(build.boots?.slot, 2);
+  });
 });
 
 describe('aggregate on real games', () => {

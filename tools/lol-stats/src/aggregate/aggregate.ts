@@ -37,6 +37,8 @@ interface BuildDetails {
   slots: Array<Map<number, WinCount>>;
   /** Tier-2 boots, shown apart from the other items with their alternatives. */
   boots: Map<number, WinCount>;
+  /** Number of completed major items bought before the boots (capped at 6). */
+  bootsAt: Map<number, number>;
   skills: Map<string, WinCount>;
 }
 
@@ -201,6 +203,7 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
     itemT: new Map(),
     slots: [new Map(), new Map(), new Map(), new Map()],
     boots: new Map(),
+    bootsAt: new Map(),
     skills: new Map(),
   });
 
@@ -321,7 +324,11 @@ function collectDetails(d: BuildDetails, p: ParticipantRecord): void {
   }
   // Items 3 to 6 without boots: the boots have their own slot.
   p.majors.slice(2, 6).forEach(([item], i) => bump(d.slots[i]!, item, p.win));
-  if (p.boots) bump(d.boots, p.boots[0], p.win);
+  if (p.boots) {
+    bump(d.boots, p.boots[0], p.win);
+    const bootsT = p.boots[1];
+    count(d.bootsAt, Math.min(p.majors.filter(([, t]) => t < bootsT).length, 6));
+  }
   if (p.skills.length >= 15) bump(d.skills, p.skills, p.win);
 }
 
@@ -331,9 +338,12 @@ function buildJson(build: SelectedBuild, cr: ChampionRoleCounters, d: BuildDetai
   const start = d && top(d.start);
   const firstBuy = d && top(d.firstBuy);
   const skills = d && topWin(d.skills);
-  const boots = d ? bootsSlot(d.boots, build.games, config) : null;
+  const bootsItems = d ? bootsSlot(d.boots, build.games, config) : null;
   // Five items and the boots; six items for an ADC (the role quest frees a slot for the boots) or without boots.
-  const slotCount = cr.role === 'BOTTOM' || !boots ? 4 : 3;
+  const slotCount = cr.role === 'BOTTOM' || !bootsItems ? 4 : 3;
+  const next = d ? nextSlots(build.core, d.slots, build.games, exclusive, config, slotCount) : [];
+  // Position of the boots in the line of items: after the major items most often bought before them.
+  const boots = bootsItems && { ...bootsItems, slot: Math.min(top(d!.bootsAt)?.[0] ?? 2, build.core.length + next.length) + 1 };
 
   return {
     label: build.label,
@@ -351,7 +361,7 @@ function buildJson(build: SelectedBuild, cr: ChampionRoleCounters, d: BuildDetai
     start: start ? { items: start[0].split(',').map(Number), games: start[1] } : null,
     firstBuy: firstBuy ? { items: firstBuy[0].split(',').map(Number), games: firstBuy[1], medianMs: d!.firstBuyT.median() } : null,
     coreTimes: build.core.map((id) => d?.itemT.get(id)?.median() ?? null),
-    next: d ? nextSlots(build.core, d.slots, build.games, exclusive, config, slotCount) : [],
+    next,
     boots,
     skills: skills ? { order: skills[0].slice(0, 18), max: maxOrder(skills[0]), games: skills[1].games, wins: skills[1].wins, winRate: round(rate(skills[1].wins, skills[1].games)) } : null,
   };

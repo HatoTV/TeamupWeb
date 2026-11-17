@@ -850,7 +850,6 @@
   "BUILDS": {
     "COST": "{{cost}} or",
     "TIER": "Tier {{tier}}",
-    "BUILD_ROLE": "Build {{role}}",
     "PATCH": "Patch {{patch}}",
     "ABILITIES": "Compétences",
     "PASSIVE": "passif",
@@ -949,7 +948,6 @@
     "PICK_META": "{{games}} · {{share}} des parties",
     "SHARE_OF_GAMES": "{{share}} des parties",
     "FULL_BUILD": "Build complet",
-    "BOOTS": "Bottes",
     "OR": "ou"
   },
   "COMMUNITY_TIPS": {
@@ -1025,7 +1023,6 @@
     "NOT_ENOUGH": "Pas encore assez de parties dans cette tranche, reviens bientôt."
   },
   "COUNTERS": {
-    "ROLE": "Counters {{role}}",
     "SEO_TITLE": "Counters de {{champion}} {{role}} : ses meilleurs et ses pires matchups",
     "SEO_DESC": "Les adversaires de lane contre lesquels {{champion}} {{role}} gagne le plus et ses pires counters au patch {{patch}} : taux de victoire par matchup, conseils et tips de la communauté.",
     "ADVANTAGE": "Avantage",

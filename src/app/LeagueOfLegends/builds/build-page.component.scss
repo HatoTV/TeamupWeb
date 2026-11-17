@@ -86,7 +86,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 28px;
-  padding: 32px 36px 24px;
+  padding: 32px 36px 44px;
 }
 
 .portrait {
@@ -128,23 +128,9 @@
   min-width: 0;
 }
 
-.hero__titles {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 12px;
-}
-
 .hero__name {
   font: italic 800 56px/0.95 var(--font-display);
   font-stretch: var(--stretch-hero);
-  text-transform: uppercase;
-}
-
-.hero__role {
-  font: 700 26px var(--font-display);
-  font-stretch: var(--stretch-heading);
-  color: var(--color-text-muted);
   text-transform: uppercase;
 }
 
@@ -156,24 +142,24 @@
   list-style: none;
 }
 
-.hero__summary {
-  max-width: 72ch;
-  margin-top: 16px;
-  font-size: 15px;
-  line-height: 1.65;
-  color: var(--color-text-secondary);
+.hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
 }
 
 .stats {
-  flex: 0 1 260px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin: 0;
 }
 
 .stat {
-  padding: 12px 14px;
+  min-width: 128px;
+  padding: 10px 14px;
   border-radius: 10px;
   background: rgba(22, 22, 38, 0.9);
   border: 1px solid var(--color-line);
@@ -753,29 +739,6 @@ $inset: #12121f;
   text-align: left;
 }
 
-// Boots below the items, their alternatives on the same row: beside the items they would squeeze them.
-.slot--boots {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  column-gap: 10px;
-  padding-top: 12px;
-  border-top: 1px dashed var(--color-line-strong);
-
-  .slot__name {
-    min-height: 0;
-  }
-
-  .alts {
-    flex-basis: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 16px;
-  }
-}
-
 .slot__icon {
   position: relative;
   padding-top: 6px;
@@ -799,17 +762,6 @@ $inset: #12121f;
   font-variant-numeric: tabular-nums;
 }
 
-.slot__tag {
-  padding: 2px 8px;
-  border-radius: 999px;
-  border: 1px solid var(--color-line-strong);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-stretch: var(--stretch-heading);
-  color: var(--color-text-muted);
-}
 
 .slot__name {
   // Two lines at most and always two lines high: the alternatives start at the same height.
@@ -880,7 +832,7 @@ $inset: #12121f;
   font-variant-numeric: tabular-nums;
 }
 
-// Narrow column (tablet, phone): two rows of three, the boots below.
+// Narrow column (tablet, phone): rows of three.
 @container (max-width: 520px) {
   .line__items {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1007,7 +959,7 @@ $inset: #12121f;
 
   .hero__body {
     gap: 12px;
-    padding: 96px var(--container-gutter) 12px;
+    padding: 96px var(--container-gutter) 24px;
   }
 
   .portrait img {
@@ -1025,7 +977,7 @@ $inset: #12121f;
     }
   }
 
-  // Portrait beside the name and spells; the summary and stats take the full width below.
+  // Portrait beside the name and spells; the patch and stats take the full width below.
   .hero__body {
     display: grid;
     grid-template-columns: 72px minmax(0, 1fr);
@@ -1042,20 +994,13 @@ $inset: #12121f;
     display: contents;
   }
 
-  .hero__titles {
-    gap: 4px 8px;
-  }
-
   .abilities {
     margin-top: 0;
   }
 
-  .hero__summary,
-  .stats {
+  .hero__meta {
     grid-column: 1 / -1;
-  }
-
-  .hero__summary {
+    gap: 8px;
     margin-top: 2px;
   }
 
@@ -1063,21 +1008,15 @@ $inset: #12121f;
     font-size: 36px;
   }
 
-  .hero__role {
-    font-size: 18px;
-  }
-
-  .hero__summary {
-    font-size: 14px;
-  }
-
   .stats {
     flex-basis: 100%;
+    display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 6px;
   }
 
   .stat {
+    min-width: 0;
     padding: 8px;
 
     dt {

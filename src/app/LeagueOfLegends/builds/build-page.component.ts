@@ -102,18 +102,23 @@ export class BuildPageComponent {
   protected readonly build = computed(() => this.file()?.builds[this.buildIndex()] ?? null);
 
   /**
-   * Item line: the two core items (purchase order) then the most played next items, each with its alternatives.
-   * The boots and their alternatives are shown apart.
+   * Item line: the two core items (purchase order) then the most played next items, each with its alternatives,
+   * the boots at their purchase position (`boots.slot`; after the core items in files without it).
    */
-  protected readonly itemLine = computed<{ items: LineItem[]; boots: LineItem | null } | null>(() => {
+  protected readonly itemLine = computed<LineItem[] | null>(() => {
     const b = this.build();
     if (!b) return null;
-    const bootsId = b.boots?.item ?? null;
     const core: LineItem[] = b.core.map((id, i) => ({ item: id, time: b.coreTimes[i] ?? null, stat: null, alternatives: [] }));
     const next: LineItem[] = b.next.map((s) => ({ item: s.item, time: null, stat: s, alternatives: s.alternatives }));
-    const items = [...core.filter((c) => c.item !== bootsId), ...next].slice(0, 6);
-    const boots = b.boots ? { item: b.boots.item, time: null, stat: b.boots, alternatives: b.boots.alternatives ?? [] } : null;
-    return { items, boots };
+    const items = [...core, ...next];
+    if (b.boots) {
+      const boots: LineItem = { item: b.boots.item, time: null, stat: b.boots, alternatives: b.boots.alternatives ?? [] };
+      // Older files: the boots may be one of the core items, with their timing.
+      const inCore = items.findIndex((it) => it.item === boots.item);
+      if (inCore >= 0) items[inCore] = { ...boots, time: items[inCore]!.time };
+      else items.splice(Math.min((b.boots.slot ?? core.length + 1) - 1, items.length), 0, boots);
+    }
+    return items.slice(0, 7);
   });
 
   protected readonly ddragonId = computed(() => this.champion()?.ddragonId ?? null);

@@ -42,10 +42,11 @@ export interface BuildRules {
   /** Most played builds need max(minBuildGames, minBuildShare × games of the champion in the role). */
   minBuildGames: number;
   minBuildShare: number;
-  /** OFF-META: share of the champion's games in [offMetaMinShare, offMetaMaxShare] and at least offMetaMinGames. */
+  /** OFF-META: at least offMetaMinShare of the champion's games and offMetaMinGames games. */
   offMetaMinShare: number;
-  offMetaMaxShare: number;
   offMetaMinGames: number;
+  /** OFF-META: win rate at least the champion's minus this gap. */
+  offMetaWinRateGap: number;
 }
 
 function mostFrequentOrder(candidate: BuildCandidate): number[] {
@@ -65,18 +66,22 @@ function select(candidate: BuildCandidate, label: BuildLabel): SelectedBuild {
   return { ...candidate, label, core: mostFrequentOrder(candidate), keystone, subStyle };
 }
 
-const coreOf = (c: BuildCandidate) => c.key.split('|')[0]!.split('-').map(Number);
-const keystoneOf = (c: BuildCandidate) => Number(c.key.split('|')[1]!.split('-')[0]);
+/**
+ * A build is distinct from others when its keystone is used by none of them, or when its first item (first of the
+ * displayed core) is in none of their cores: it brings another keystone, another first item, or both.
+ */
+export function isDistinct(build: Pick<SelectedBuild, 'keystone' | 'core'>, others: readonly Pick<SelectedBuild, 'keystone' | 'core'>[]): boolean {
+  return others.every((o) => o.keystone !== build.keystone) || others.every((o) => !o.core.includes(build.core[0]!));
+}
 
 /**
  * Up to four builds, each with its own key. "Reliable" = at least max(minBuildGames, minBuildShare × champion games).
  *  1. most played: the reliable key with the most games;
  *  2. best win rate: among the other reliable keys, the highest win rate;
- *  3. alternative: among the other reliable keys whose core differs from the most played one by one or two items,
- *     the most played;
- *  4. OFF-META: among the other keys with a share in [offMetaMinShare, offMetaMaxShare] and at least offMetaMinGames,
- *     whose win rate beats the champion's, without any core item nor the keystone of the most played build, the
- *     highest 95 % Wilson lower bound.
+ *  3. alternative: among the other reliable keys distinct from builds 1 and 2 (`isDistinct`), the most played;
+ *  4. OFF-META: among the other keys with at least offMetaMinShare of the games and offMetaMinGames games, a win rate
+ *     at least the champion's minus offMetaWinRateGap, distinct from every other build (the alternative staying
+ *     distinct too), the highest 95 % Wilson lower bound.
  * A slot without a qualifying key is left out; nothing without a most played build.
  */
 export function selectBuilds(candidates: readonly BuildCandidate[], championRole: { games: number; wins: number }, rules: BuildRules): SelectedBuild[] {
@@ -97,18 +102,19 @@ export function selectBuilds(candidates: readonly BuildCandidate[], championRole
     reliable.filter((c) => !taken.has(c)).sort((a, b) => rate(b.wins, b.games) - rate(a.wins, a.games) || b.games - a.games)[0],
     'best_win_rate'
   );
-  const firstCore = coreOf(first);
   take(
-    reliable.find((c) => !taken.has(c) && coreOf(c).some((id) => !firstCore.includes(id))),
+    reliable.find((c) => !taken.has(c) && isDistinct(select(c, 'alternative'), selected)),
     'alternative'
   );
   const average = rate(championRole.wins, championRole.games);
+  const alternative = selected.find((b) => b.label === 'alternative');
   take(
     byGames
-      .filter((c) => !taken.has(c) && keystoneOf(c) !== keystoneOf(first) && !coreOf(c).some((id) => firstCore.includes(id)))
       .filter((c) => {
-        const share = rate(c.games, championRole.games);
-        return c.games >= rules.offMetaMinGames && share >= rules.offMetaMinShare && share <= rules.offMetaMaxShare && rate(c.wins, c.games) > average;
+        if (taken.has(c) || c.games < rules.offMetaMinGames || rate(c.games, championRole.games) < rules.offMetaMinShare) return false;
+        if (rate(c.wins, c.games) < average - rules.offMetaWinRateGap) return false;
+        const build = select(c, 'off_meta');
+        return isDistinct(build, selected) && (!alternative || isDistinct(alternative, [...selected.filter((b) => b !== alternative), build]));
       })
       .sort((a, b) => wilsonLower(b.wins, b.games) - wilsonLower(a.wins, a.games) || b.games - a.games)[0],
     'off_meta'

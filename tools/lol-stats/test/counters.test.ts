@@ -167,7 +167,7 @@ describe('counters: aggregate', () => {
         minBuildGames: 50,
         minBuildShare: 0.03,
         offMetaMinShare: 0.005,
-        offMetaMaxShare: 0.03,
+        offMetaWinRateGap: 0.01,
         offMetaMinGames: 30,
         altMinShare: 0.08,
         altMinGames: 3,

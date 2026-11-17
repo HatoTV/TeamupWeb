@@ -97,10 +97,11 @@ export interface Config {
   /** The three most played builds need max(minBuildGames, minBuildShare × games of the champion in the role). */
   minBuildGames: number;
   minBuildShare: number;
-  /** OFF-META build: share of the champion games between these bounds, at least offMetaMinGames games. */
+  /** OFF-META build: at least this share of the champion games and offMetaMinGames games, a win rate at least the
+   *  champion's minus offMetaWinRateGap. */
   offMetaMinShare: number;
-  offMetaMaxShare: number;
   offMetaMinGames: number;
+  offMetaWinRateGap: number;
   /** Alternatives of items 4-6 need this share of the purchases made at their slot, and this many games. */
   altMinShare: number;
   altMinGames: number;
@@ -153,8 +154,8 @@ export function loadConfig(overrides: Partial<Config> = {}): Config {
     minBuildGames: num(env.LOL_STATS_MIN_BUILD_GAMES, 50),
     minBuildShare: num(env.LOL_STATS_MIN_BUILD_SHARE, 0.03),
     offMetaMinShare: num(env.LOL_STATS_OFF_META_MIN_SHARE, 0.005),
-    offMetaMaxShare: num(env.LOL_STATS_OFF_META_MAX_SHARE, 0.03),
     offMetaMinGames: num(env.LOL_STATS_OFF_META_MIN_GAMES, 30),
+    offMetaWinRateGap: num(env.LOL_STATS_OFF_META_WIN_RATE_GAP, 0.01),
     altMinShare: num(env.LOL_STATS_ALT_MIN_SHARE, 0.08),
     altMinGames: num(env.LOL_STATS_ALT_MIN_GAMES, 3),
     lateShare: num(env.LOL_STATS_LATE_SHARE, 0.7),

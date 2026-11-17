@@ -44,13 +44,6 @@ export function formatInt(value: number, lang: Lang): string {
   return value.toLocaleString(lang === 'fr' ? 'fr-FR' : 'en-US');
 }
 
-/** 1 234 567 ms → "20:34". */
-export function formatTiming(ms: number | null): string {
-  if (ms === null) return '';
-  const total = Math.round(ms / 1000);
-  return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, '0')}`;
-}
-
 /** Multiset → [[id, count]] keeping the first-seen order. */
 export function groupItems(items: readonly number[]): Array<[number, number]> {
   const counts = new Map<number, number>();

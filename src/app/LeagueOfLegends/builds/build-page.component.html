@@ -87,7 +87,7 @@
           [attr.aria-pressed]="r === role()"
           [disabled]="r !== role() && !availableRoles().includes(r)"
           [attr.aria-label]="'PICKERPAGE.ROLES.' + r | translate"
-          [title]="'PICKERPAGE.ROLES.' + r | translate"
+          [title]="r === role() || availableRoles().includes(r) ? ('PICKERPAGE.ROLES.' + r | translate) : ('BUILDS.ROLE_UNAVAILABLE' | translate: { role: ('PICKERPAGE.ROLES.' + r | translate) })"
           (click)="selectRole(r)"
         >
           <img [src]="'assets/img/site/' + r + '.webp'" alt="" width="20" height="20" />
@@ -95,14 +95,7 @@
       }
     </div>
     <app-rank-select [filters]="filters()" [value]="filter()" (valueChange)="setQuery({ rank: $event, build: null })" />
-    <label class="select">
-      <span class="sr-only">{{ 'BUILDS.REGION' | translate }}</span>
-      <select [value]="region()" [disabled]="(meta()?.regions?.length ?? 1) < 2" (change)="setQuery({ region: $any($event.target).value })">
-        @for (r of meta()?.regions ?? ['all']; track r) {
-          <option [value]="r" [selected]="r === region()">{{ r === 'all' ? ('BUILDS.ALL_REGIONS' | translate) : r }}</option>
-        }
-      </select>
-    </label>
+    <app-region-select [regions]="meta()?.regions ?? ['all']" [value]="region()" (valueChange)="setQuery({ region: $event })" />
     <span class="queue">{{ 'BUILDS.QUEUE' | translate }}</span>
     <label class="select">
       <span class="sr-only">{{ 'BUILDS.PATCH_LABEL' | translate }}</span>
@@ -309,7 +302,6 @@
           <section class="card col col--items" aria-labelledby="items-title">
             <div class="col__head">
               <h2 id="items-title" class="card__title">{{ 'BUILDS.COL_ITEMS' | translate }}</h2>
-              <span class="card__hint">{{ 'BUILDS.MEDIAN_TIMING' | translate }}</span>
             </div>
 
             @if (b.start || b.firstBuy) {
@@ -326,10 +318,7 @@
                 }
                 @if (b.firstBuy) {
                   <div>
-                    <p class="early__label">
-                      {{ 'BUILDS.FIRST_BUY' | translate }}
-                      @if (b.firstBuy.medianMs !== null) {· {{ fmtTime(b.firstBuy.medianMs) }}}
-                    </p>
+                    <p class="early__label">{{ 'BUILDS.FIRST_BUY' | translate }}</p>
                     <div class="early__row">
                       @for (g of group(b.firstBuy.items); track g[0]) {
                         <app-game-icon [src]="item(g[0]).src" [name]="item(g[0]).name" [desc]="item(g[0]).desc" [cost]="item(g[0]).cost" [size]="42" [badge]="g[1] > 1 ? g[1] + '' : null" />
@@ -365,9 +354,6 @@
                         <span class="slot__n" aria-hidden="true">{{ i + 1 }}</span>
                       </span>
                       <span class="slot__name">{{ item(it.item).name }}</span>
-                      @if (it.time !== null) {
-                        <span class="slot__time">{{ fmtTime(it.time) }}</span>
-                      }
                       @if (it.stat) {
                         <span class="slot__stats">{{ fmtRate(it.stat.share, 0) }} · <span class="slot__nw">{{ 'BUILDS.WR_SHORT' | translate }} <span class="slot__wr">{{ fmtRate(it.stat.winRate) }}</span></span></span>
                       }

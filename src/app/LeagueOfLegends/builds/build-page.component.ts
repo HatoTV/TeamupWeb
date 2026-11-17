@@ -13,15 +13,15 @@ import { CountersComponent } from './counters/counters.component';
 import { PlayTipsComponent } from './play-tips/play-tips.component';
 import { GameIconComponent } from '../../shared/ui/game-icon.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
-import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildIndexFrom, formatDelta, formatInt, formatRate, formatTiming, groupItems, isBuildFilter, rankFilters, treeColor } from './build-utils';
+import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildIndexFrom, formatDelta, formatInt, formatRate, groupItems, isBuildFilter, rankFilters, treeColor } from './build-utils';
 import { RankSelectComponent } from './rank-select.component';
+import { RegionSelectComponent } from './region-select.component';
 
 type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 
-/** Item of the build line: a core item (median timing), a next item or the boots (share, win rate, alternatives). */
+/** Item of the build line: a core item, a next item or the boots (share, win rate, alternatives). */
 interface LineItem {
   item: number;
-  time: number | null;
   stat: SlotItem | null;
   alternatives: SlotItem[];
 }
@@ -33,7 +33,7 @@ interface LineItem {
 @Component({
   selector: 'app-build-page',
   standalone: true,
-  imports: [TranslateModule, RouterLink, NgTemplateOutlet, RankSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent, CountersComponent],
+  imports: [TranslateModule, RouterLink, NgTemplateOutlet, RankSelectComponent, RegionSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent, CountersComponent],
   templateUrl: './build-page.component.html',
   styleUrl: './build-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -54,7 +54,6 @@ export class BuildPageComponent {
   protected readonly fmtRate = (v: number, digits = 1) => formatRate(v, this.ctx.lang(), digits);
   protected readonly fmtInt = (v: number) => formatInt(v, this.ctx.lang());
   protected readonly fmtDelta = (v: number) => formatDelta(v, this.ctx.lang());
-  protected readonly fmtTime = formatTiming;
   protected readonly group = groupItems;
 
   private readonly params = toSignal(this.route.paramMap);
@@ -108,14 +107,14 @@ export class BuildPageComponent {
   protected readonly itemLine = computed<LineItem[] | null>(() => {
     const b = this.build();
     if (!b) return null;
-    const core: LineItem[] = b.core.map((id, i) => ({ item: id, time: b.coreTimes[i] ?? null, stat: null, alternatives: [] }));
-    const next: LineItem[] = b.next.map((s) => ({ item: s.item, time: null, stat: s, alternatives: s.alternatives }));
+    const core: LineItem[] = b.core.map((id) => ({ item: id, stat: null, alternatives: [] }));
+    const next: LineItem[] = b.next.map((s) => ({ item: s.item, stat: s, alternatives: s.alternatives }));
     const items = [...core, ...next];
     if (b.boots) {
-      const boots: LineItem = { item: b.boots.item, time: null, stat: b.boots, alternatives: b.boots.alternatives ?? [] };
-      // Older files: the boots may be one of the core items, with their timing.
+      const boots: LineItem = { item: b.boots.item, stat: b.boots, alternatives: b.boots.alternatives ?? [] };
+      // Older files: the boots may be one of the core items.
       const inCore = items.findIndex((it) => it.item === boots.item);
-      if (inCore >= 0) items[inCore] = { ...boots, time: items[inCore]!.time };
+      if (inCore >= 0) items[inCore] = boots;
       else items.splice(Math.min((b.boots.slot ?? core.length + 1) - 1, items.length), 0, boots);
     }
     return items.slice(0, 7);

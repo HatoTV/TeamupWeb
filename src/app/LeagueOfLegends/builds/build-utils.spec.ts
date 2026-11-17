@@ -1,5 +1,5 @@
 import { BuildMeta } from '../../core/data/build-data.service';
-import { buildIndexFrom, formatDelta, formatRate, formatTiming, groupItems, isBuildFilter, rankFilters } from './build-utils';
+import { buildIndexFrom, formatDelta, formatRate, groupItems, isBuildFilter, rankFilters } from './build-utils';
 
 describe('build utils', () => {
   it('only keeps rank filters with games of their own tier', () => {
@@ -21,14 +21,12 @@ describe('build utils', () => {
     expect(rankFilters(withExact)).toEqual(['emerald_plus', 'master_plus', 'grandmaster_plus', 'challenger', 'emerald', 'master']);
   });
 
-  it('formats rates, deltas and timings in both languages', () => {
+  it('formats rates and deltas in both languages', () => {
     expect(formatRate(0.5123, 'fr')).toBe('51,2\u202f%');
     expect(formatRate(0.5123, 'en')).toBe('51.2%');
     expect(formatDelta(0.004, 'fr')).toEqual({ text: '▲ 0,4', up: true });
     expect(formatDelta(-0.011, 'en')).toEqual({ text: '▼ 1.1', up: false });
     expect(formatDelta(0.0001, 'fr')).toBeNull();
-    expect(formatTiming(1_234_000)).toBe('20:34');
-    expect(formatTiming(null)).toBe('');
   });
 
   it('groups a multiset of items in purchase order', () => {

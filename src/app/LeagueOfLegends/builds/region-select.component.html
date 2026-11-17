@@ -1,0 +1,27 @@
+<button
+  #button
+  type="button"
+  class="trigger"
+  [class.is-open]="open()"
+  aria-haspopup="listbox"
+  [attr.aria-controls]="id"
+  [attr.aria-expanded]="open()"
+  [attr.aria-label]="('BUILDS.REGION' | translate) + ' : ' + (label(value()) ?? ('BUILDS.ALL_REGIONS' | translate))"
+  [disabled]="regions().length < 2"
+  (click)="toggle()"
+  (keydown)="onButtonKey($event)"
+>
+  <img class="flag" [src]="icon(value())" alt="" width="28" height="28" />
+  <span class="trigger__label">{{ label(value()) ?? ('BUILDS.ALL_REGIONS' | translate) }}</span>
+  <svg class="trigger__chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+</button>
+
+<div #list [id]="id" class="list" role="listbox" [attr.aria-label]="'BUILDS.REGION' | translate" [hidden]="!open()" (keydown)="onListKey($event)">
+  @for (r of regions(); track r) {
+    <div class="option" role="option" tabindex="-1" [class.is-on]="r === value()" [attr.aria-selected]="r === value()" (click)="select(r)">
+      <img class="flag" [src]="icon(r)" alt="" width="30" height="30" loading="lazy" />
+      <span class="option__label">{{ label(r) ?? ('BUILDS.ALL_REGIONS' | translate) }}</span>
+      <svg class="option__check" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+    </div>
+  }
+</div>

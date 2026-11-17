@@ -27,6 +27,14 @@
   &.is-open {
     border-color: var(--color-gold);
   }
+
+  &:disabled {
+    cursor: default;
+
+    .trigger__chevron {
+      opacity: 0.35;
+    }
+  }
 }
 
 .trigger__label {

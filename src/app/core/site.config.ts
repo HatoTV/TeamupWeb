@@ -41,7 +41,7 @@ export interface SocialLink {
 export const SOCIALS: readonly SocialLink[] = [
   { brand: 'instagram', name: 'Instagram', handle: '@callmehato', href: 'https://www.instagram.com/callmehato/' },
   { brand: 'twitch', name: 'Twitch', handle: 'Hato_TV', href: TWITCH_URL },
-  { brand: 'youtube', name: 'YouTube', handle: '@Hato_YT', href: 'https://www.youtube.com/@Hato_YT' },
+  { brand: 'youtube', name: 'YouTube', handle: '@LaVeilléedeHato', href: 'https://www.youtube.com/@LaVeill%C3%A9edeHato' },
   { brand: 'tiktok', name: 'TikTok', handle: '@hato.tv', href: 'https://www.tiktok.com/@hato.tv' },
   { brand: 'discord', name: 'Discord', handle: 'TeamUpp', href: DISCORD_URL },
 ];

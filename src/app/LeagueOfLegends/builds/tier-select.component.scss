@@ -1,0 +1,20 @@
+.trigger {
+  padding-left: 14px;
+}
+
+.trigger__tiers {
+  display: flex;
+  flex: 1;
+  gap: 4px;
+}
+
+.mini {
+  --tier-tile-width: 30px;
+  --tier-tile-height: 26px;
+  --tier-tile-radius: 6px;
+  --tier-tile-font: 15px;
+}
+
+.option {
+  min-height: 40px;
+}

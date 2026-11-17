@@ -28,18 +28,6 @@
   color: var(--color-text-subtle);
 }
 
-.card__foot {
-  padding: 10px 16px 14px;
-  border-top: 1px solid var(--color-separator);
-  font-size: 12px;
-  color: var(--color-text-subtle);
-
-  &--flat {
-    padding: 10px 0 0;
-    border: 0;
-  }
-}
-
 // ---------- Header ----------
 .hero {
   position: relative;
@@ -75,7 +63,6 @@
 }
 
 .portrait {
-  position: relative;
   flex: none;
 
   img {
@@ -86,26 +73,18 @@
   }
 }
 
-.portrait__tier {
-  position: absolute;
-  right: -4px;
-  bottom: -2px;
+.hero__title {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 10px;
-  background: var(--color-gold);
-  box-shadow: 0 0 0 3px var(--color-night);
-  transform: rotate(45deg);
+  gap: 16px;
+  min-width: 0;
+}
 
-  span {
-    transform: rotate(-45deg);
-    font: italic 700 20px var(--font-display);
-    font-stretch: var(--stretch-heading);
-    color: #141420;
-  }
+.hero__tier {
+  flex: none;
+  --tier-tile-width: 64px;
+  --tier-tile-height: 52px;
+  --tier-tile-font: 32px;
 }
 
 .hero__main {
@@ -547,121 +526,6 @@ $inset: #12121f;
   }
 }
 
-.skills {
-  // Stays at the bottom of the column whatever the height of the runes.
-  margin-top: auto;
-  padding-top: 24px;
-}
-
-.skills__head {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 10px;
-  padding-top: 14px;
-  border-top: 1px solid var(--color-separator);
-}
-
-.skills__title {
-  font: 700 14px var(--font-display);
-  font-stretch: var(--stretch-heading);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.skills__max-label {
-  font-size: 12px;
-  color: var(--color-text-subtle);
-}
-
-.skills__max {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  li {
-    padding: 2px 8px;
-    border-radius: 5px;
-    background: color-mix(in srgb, var(--sk) 16%, transparent);
-    color: var(--sk);
-    font: 700 13px var(--font-display);
-    font-stretch: var(--stretch-heading);
-  }
-
-  li + li {
-    position: relative;
-    margin-left: 12px;
-  }
-
-  li + li::before {
-    content: '›';
-    position: absolute;
-    left: -14px;
-    color: #6a6a8a;
-  }
-}
-
-.skills__scroll {
-  overflow-x: auto;
-  border-radius: 6px;
-
-  &:focus-visible {
-    outline: 2px solid var(--color-gold);
-    outline-offset: 2px;
-  }
-}
-
-.skills__grid {
-  width: 100%;
-  min-width: 380px;
-  table-layout: fixed;
-  border-collapse: separate;
-  border-spacing: 3px;
-
-  th:first-child {
-    width: 30px;
-  }
-
-  thead th {
-    font-size: 10px;
-    font-weight: 400;
-    text-align: center;
-    color: var(--color-text-subtle);
-  }
-
-  tbody th {
-    padding: 0;
-
-    img {
-      display: block;
-      width: 26px;
-      height: 26px;
-      border-radius: 6px;
-      border: 2px solid var(--sk);
-    }
-  }
-
-  td {
-    height: 24px;
-    padding: 0;
-    border-radius: 4px;
-    background: var(--color-surface-active);
-    text-align: center;
-    font: 700 12px var(--font-numeric);
-    font-stretch: 100%;
-    font-variant-numeric: tabular-nums;
-
-    &.is-on {
-      background: color-mix(in srgb, var(--sk) 16%, transparent);
-      color: var(--sk);
-    }
-  }
-}
-
 // ---------- 3 · Items ----------
 .early {
   display: flex;
@@ -761,7 +625,6 @@ $inset: #12121f;
   font-variant-numeric: tabular-nums;
 }
 
-
 .slot__name {
   // Two lines at most and always two lines high: the alternatives start at the same height.
   display: -webkit-box;
@@ -776,12 +639,8 @@ $inset: #12121f;
 
 .slot__stats {
   font-size: 11px;
-  font-weight: 700;
-  color: var(--color-text-subtle);
-}
-
-.slot__stats {
   font-weight: 600;
+  color: var(--color-text-subtle);
 }
 
 .slot__wr {
@@ -969,14 +828,15 @@ $inset: #12121f;
     height: 72px;
   }
 
-  .portrait__tier {
-    width: 26px;
-    height: 26px;
-    border-radius: 7px;
+  .hero__title {
+    gap: 10px;
+  }
 
-    span {
-      font-size: 15px;
-    }
+  .hero__tier {
+    --tier-tile-width: 44px;
+    --tier-tile-height: 36px;
+    --tier-tile-radius: 8px;
+    --tier-tile-font: 22px;
   }
 
   // Portrait beside the name and spells; the patch and stats take the full width below.
@@ -1108,9 +968,5 @@ $inset: #12121f;
   .col--runes,
   .col--items {
     padding: 14px;
-  }
-
-  .runes {
-    grid-template-columns: minmax(0, 1fr);
   }
 }

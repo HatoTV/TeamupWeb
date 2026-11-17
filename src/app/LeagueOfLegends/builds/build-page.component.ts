@@ -7,7 +7,7 @@ import { BuildDataService, BuildFilter, BuildMeta, BUILD_FILTERS, ChampionBuild,
 import { Champion, ChampionDataService, Role } from '../../core/data/champion-data.service';
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
-import { AbilityKeyPipe, abilityKey } from '../../shared/i18n/ability-key';
+import { AbilityKeyPipe } from '../../shared/i18n/ability-key';
 import { BuildMatchupsComponent, MatchupCard } from './build-matchups.component';
 import { CountersComponent } from './counters/counters.component';
 import { PlayTipsComponent } from './play-tips/play-tips.component';
@@ -16,6 +16,8 @@ import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildIndexFrom, formatDelta, formatInt, formatRate, groupItems, isBuildFilter, rankFilters, treeColor } from './build-utils';
 import { RankSelectComponent } from './rank-select.component';
 import { RegionSelectComponent } from './region-select.component';
+import { TierTileComponent } from '../tier-list/tier-tile.component';
+import { SkillOrderComponent } from './skill-order/skill-order.component';
 
 type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 
@@ -33,7 +35,7 @@ interface LineItem {
 @Component({
   selector: 'app-build-page',
   standalone: true,
-  imports: [TranslateModule, RouterLink, NgTemplateOutlet, RankSelectComponent, RegionSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent, CountersComponent],
+  imports: [TierTileComponent, SkillOrderComponent, TranslateModule, RouterLink, NgTemplateOutlet, RankSelectComponent, RegionSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent, CountersComponent],
   templateUrl: './build-page.component.html',
   styleUrl: './build-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -50,7 +52,6 @@ export class BuildPageComponent {
   protected readonly roleOrder = ROLE_ORDER;
   protected readonly shardRows = SHARD_ROWS;
   protected readonly skillColors = SKILL_COLORS;
-  protected readonly levels = Array.from({ length: 18 }, (_, i) => i + 1);
   protected readonly fmtRate = (v: number, digits = 1) => formatRate(v, this.ctx.lang(), digits);
   protected readonly fmtInt = (v: number) => formatInt(v, this.ctx.lang());
   protected readonly fmtDelta = (v: number) => formatDelta(v, this.ctx.lang());
@@ -155,11 +156,6 @@ export class BuildPageComponent {
     };
   });
 
-  protected readonly skillRows = computed(() => {
-    const order = this.build()?.skills?.order ?? '';
-    return ['1', '2', '3', '4'].map((slot) => ({ slot: Number(slot) as 1 | 2 | 3 | 4, cells: this.levels.map((_, i) => order[i] === slot) }));
-  });
-
   protected readonly muGroups = computed<MatchupCard[]>(() => {
     const f = this.file();
     if (!f || !this.core()) return [];
@@ -247,10 +243,6 @@ export class BuildPageComponent {
 
   protected tree(id: number): { name: string; icon: string } | null {
     return this.core()?.runeTrees.find((t) => t.id === id) ?? null;
-  }
-
-  protected maxKeys(): string[] {
-    return [...(this.build()?.skills?.max ?? '')].map((s) => abilityKey(Number(s) as 1 | 2 | 3, this.ctx.lang()));
   }
 
   protected selectBuild(index: number): void {

@@ -107,7 +107,7 @@
       </div>
       @if (best(); as b) {
         <div class="card card--best">
-          <img class="card__icon" [src]="b.icon" alt="" width="44" height="44" />
+          <img class="card__icon" [src]="b.icon" alt="" width="44" height="44" [style.border-color]="bestRing()" />
           <span>
             <span class="card__label">{{ 'TIERLIST.BEST' | translate }}</span>
             <span class="card__value">{{ b.name }} <span [class]="'tone tone--' + b.tone">{{ fmtRate(b.winRate) }}</span></span>

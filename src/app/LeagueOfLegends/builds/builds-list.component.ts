@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, computed, effect, inject, signal, untracked } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ElementRef, computed, effect, inject, signal, untracked, viewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { BUILD_FILTERS, BuildDataService, BuildFilter, BuildIndex, BuildMeta, StaticCore, TierRank } from '../../core/data/build-data.service';
@@ -9,6 +9,8 @@ import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { injectPageSeo } from '../../core/seo.service';
 import { ROLE_ORDER, formatInt, formatRate, isBuildFilter, rankFilters } from './build-utils';
 import { RankSelectComponent } from './rank-select.component';
+import { TierSelectComponent } from './tier-select.component';
+import { TierTileComponent } from '../tier-list/tier-tile.component';
 
 type SortKey = 'name' | 'tier' | 'winRate' | 'pickRate' | 'banRate' | 'games';
 
@@ -27,12 +29,26 @@ interface ListRow {
 }
 
 const TIER_ORDER: Record<string, number> = { 'S+': 0, S: 1, A: 2, B: 3, C: 4, D: 5 };
+/** Rows per page of the list. */
+export const PAGE_SIZE = 25;
+
+/** Page numbers to show: first, last and the current one with its neighbours; `null` marks a gap. */
+export function pageItems(current: number, total: number): Array<number | null> {
+  const wanted = new Set([1, total, current - 1, current, current + 1].filter((p) => p >= 1 && p <= total));
+  const pages = [...wanted].sort((a, b) => a - b);
+  const items: Array<number | null> = [];
+  pages.forEach((p, i) => {
+    if (i && p - pages[i - 1]! > 1) items.push(p - pages[i - 1]! === 2 ? p - 1 : null);
+    items.push(p);
+  });
+  return items;
+}
 
 /** `/:lang/lol/builds`: every champion × role of the patch, sortable. */
 @Component({
   selector: 'app-builds-list',
   standalone: true,
-  imports: [TranslateModule, RouterLink, RankSelectComponent, IconComponent],
+  imports: [TranslateModule, RouterLink, RankSelectComponent, IconComponent, TierTileComponent, TierSelectComponent],
   templateUrl: './builds-list.component.html',
   styleUrl: './builds-list.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -63,6 +79,10 @@ export class BuildsListComponent {
   protected readonly filter = computed<BuildFilter>(() => (isBuildFilter(this.rank(), this.filters()) ? this.rank()! : this.defaultFilter()));
   protected readonly role = signal<Role | null>(null);
   protected readonly search = signal('');
+  /** Tiers kept in the list; empty = every tier. */
+  protected readonly tiers = signal<TierRank[]>([]);
+  protected readonly page = signal(1);
+  private readonly list = viewChild<ElementRef<HTMLElement>>('list');
   protected readonly sort = signal<{ key: SortKey; dir: 1 | -1 }>({ key: 'tier', dir: 1 });
   protected readonly index = signal<BuildIndex | null>(null);
   protected readonly core = signal<StaticCore | null>(null);
@@ -87,6 +107,7 @@ export class BuildsListComponent {
       if (query && !searchKey(info.name).includes(query)) continue;
       for (const r of c.roles) {
         if (this.role() && r.role !== this.role()) continue;
+        if (this.tiers().length && !(r.tier && this.tiers().includes(r.tier))) continue;
         rows.push({ key: c.champion, name: info.name, slug: site.slug, icon: this.data.championIcon(version, info.id), ...r });
       }
     }
@@ -101,7 +122,26 @@ export class BuildsListComponent {
     });
   });
 
+  protected readonly pageCount = computed(() => Math.max(1, Math.ceil(this.rows().length / PAGE_SIZE)));
+  protected readonly currentPage = computed(() => Math.min(this.page(), this.pageCount()));
+  protected readonly pageRows = computed(() => this.rows().slice((this.currentPage() - 1) * PAGE_SIZE, this.currentPage() * PAGE_SIZE));
+  protected readonly pages = computed(() => pageItems(this.currentPage(), this.pageCount()));
+  protected readonly range = computed(() => {
+    const total = this.rows().length;
+    const from = (this.currentPage() - 1) * PAGE_SIZE + 1;
+    return { from: this.fmtInt(from), to: this.fmtInt(Math.min(total, from + PAGE_SIZE - 1)), total: this.fmtInt(total) };
+  });
+
   constructor() {
+    // Any new filter or sort starts again from the first page.
+    effect(() => {
+      this.search();
+      this.role();
+      this.tiers();
+      this.filter();
+      this.sort();
+      untracked(() => this.page.set(1));
+    });
     injectPageSeo(() => ({ titleKey: 'BUILDS.LIST_SEO_TITLE', descriptionKey: 'BUILDS.LIST_SEO_DESC', params: { patch: this.meta()?.latest ?? '' } }));
     void this.champions.loadIndex().catch(() => undefined);
     void this.data.meta().then((meta) => this.meta.set(meta));
@@ -124,6 +164,14 @@ export class BuildsListComponent {
       this.core.set(core);
     }
     this.loading.set(false);
+  }
+
+  protected goTo(page: number): void {
+    this.page.set(Math.min(Math.max(1, page), this.pageCount()));
+    // Back to the top of the list when the pager (below it) moved it out of view.
+    // The wrapper, not the table: the table scrolls sideways inside it on mobile.
+    const list = this.list()?.nativeElement;
+    if (list && list.getBoundingClientRect().top < 0) list.scrollIntoView({ block: 'start' });
   }
 
   protected sortBy(key: SortKey): void {

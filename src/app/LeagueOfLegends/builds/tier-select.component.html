@@ -1,0 +1,37 @@
+<button
+  #button
+  type="button"
+  class="trigger"
+  [class.is-open]="open()"
+  aria-haspopup="listbox"
+  [attr.aria-controls]="id"
+  [attr.aria-expanded]="open()"
+  [attr.aria-label]="('BUILDS.COL_TIER' | translate) + ' : ' + (selected().length ? selected().join(', ') : ('BUILDS.ALL_TIERS' | translate))"
+  (click)="toggle()"
+  (keydown)="onButtonKey($event)"
+>
+  @if (selected().length) {
+    <span class="trigger__tiers">
+      @for (t of selected(); track t) {
+        <app-tier-tile class="mini" [tier]="t" />
+      }
+    </span>
+  } @else {
+    <span class="trigger__label">{{ 'BUILDS.ALL_TIERS' | translate }}</span>
+  }
+  <svg class="trigger__chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+</button>
+
+<div #list [id]="id" class="list" role="listbox" aria-multiselectable="true" [attr.aria-label]="'BUILDS.TIER_FILTER' | translate" [hidden]="!open()" (keydown)="onListKey($event)">
+  @for (t of ordered(); track t) {
+    <div class="option" role="option" tabindex="-1" [class.is-on]="isOn(t)" [attr.aria-selected]="isOn(t)" (click)="select(t)">
+      @if (t) {
+        <app-tier-tile class="mini" [tier]="t" />
+        <span class="option__label">{{ 'BUILDS.TIER' | translate: { tier: t } }}</span>
+      } @else {
+        <span class="option__label">{{ 'BUILDS.ALL_TIERS' | translate }}</span>
+      }
+      <svg class="option__check" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+    </div>
+  }
+</div>

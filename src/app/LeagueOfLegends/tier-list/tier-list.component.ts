@@ -14,6 +14,7 @@ import {
   RANK_BANDS,
   RankBand,
   TIER_COLORS,
+  bestWinRate,
   UNRANKED_SHOWN_SHARE,
   WinTone,
   groupByTier,
@@ -93,7 +94,9 @@ export class TierListComponent {
     const min = file.minGames * UNRANKED_SHOWN_SHARE;
     return file.unranked.filter((c) => c.role === this.role() && c.games >= min).map((c) => ({ ...this.identity(c.championId), games: c.games }));
   });
-  protected readonly best = computed(() => [...this.ranked()].sort((a, b) => b.winRate - a.winRate)[0] ?? null);
+  protected readonly best = computed(() => bestWinRate(this.ranked()));
+  /** Same ring as the champion's icon in its tier row. */
+  protected readonly bestRing = computed(() => { const b = this.best(); return b ? withAlpha(TIER_COLORS[b.tier], 0.6) : null; });
   protected readonly enough = computed(() => this.ranked().length >= MIN_RANKED);
   /** Rank filter of the build page links (Master → Challenger only: builds start at Emerald). */
   protected readonly buildQuery = computed(() => {

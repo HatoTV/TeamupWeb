@@ -54,6 +54,15 @@ export const withAlpha = (hex: string, alpha: number): string =>
     .padStart(2, '0')
     .toUpperCase();
 
+/**
+ * Best win rate of the role. A tie on the shown rate (0.1 %) goes to the highest tier, then to
+ * the champion with the most games.
+ */
+export function bestWinRate<T extends { tier: TierRank; winRate: number; games: number }>(champions: readonly T[]): T | null {
+  const shown = (c: T) => Math.round(c.winRate * 1000);
+  return [...champions].sort((a, b) => shown(b) - shown(a) || TIER_ORDER.indexOf(a.tier) - TIER_ORDER.indexOf(b.tier) || b.games - a.games)[0] ?? null;
+}
+
 /** Champions of each tier (S+ to D, empty tiers kept), sorted by win rate, highest first. */
 export function groupByTier<T extends { tier: TierRank; winRate: number; name: string }>(champions: readonly T[]): Array<{ tier: TierRank; champions: T[] }> {
   return TIER_ORDER.map((tier) => ({

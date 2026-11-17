@@ -104,13 +104,15 @@
   }
 }
 
-app-rank-select {
+app-rank-select,
+app-tier-select {
   --rank-select-height: 40px;
 }
 
 .wrap {
   padding: 20px 36px 0;
   overflow-x: auto;
+  scroll-margin-top: 88px;
 }
 
 .empty {
@@ -121,9 +123,30 @@ app-rank-select {
   color: var(--color-text-secondary);
 }
 
+// Fixed column widths: the layout no longer moves with the content (rank filter, page).
+// The tier column (no width) takes the free space, which pushes the stats to the right edge;
+// the table is capped and centred so that space stays small.
+.wrap {
+  --list-max: 980px;
+  --col-champ: 220px;
+  --col-tier: 64px;
+  --col-stat: 136px;
+}
+
+.col-champ {
+  width: var(--col-champ);
+}
+
+.col-stat {
+  width: var(--col-stat);
+}
+
 .table {
   width: 100%;
-  min-width: 640px;
+  max-width: var(--list-max);
+  margin: 0 auto;
+  min-width: calc(var(--col-champ) + var(--col-tier) + 4 * var(--col-stat));
+  table-layout: fixed;
   border-collapse: collapse;
 
   thead th {
@@ -145,6 +168,11 @@ app-rank-select {
     padding: 8px;
     text-align: left;
   }
+
+  thead th:nth-child(n + 3),
+  td.num {
+    text-align: right;
+  }
 }
 
 .sort {
@@ -152,6 +180,7 @@ app-rank-select {
   border: 0;
   background: none;
   font: 700 13px var(--font-body);
+  text-align: inherit; // two-line labels follow their column (stats on the right)
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-stretch: var(--stretch-heading);
@@ -184,6 +213,17 @@ app-rank-select {
   }
 }
 
+.champ > span {
+  min-width: 0;
+}
+
+.champ__name,
+.champ__role {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .champ__name {
   display: block;
   font-weight: 700;
@@ -203,37 +243,66 @@ app-rank-select {
 }
 
 .tier {
-  display: inline-flex;
+  --tier-tile-width: 40px;
+  --tier-tile-height: 32px;
+  --tier-tile-radius: 8px;
+  --tier-tile-font: 19px;
+}
+
+.pager {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  min-width: 34px;
-  padding: 2px 8px;
-  border-radius: 6px;
-  font: italic 700 16px var(--font-display);
-  font-stretch: var(--stretch-heading);
-  color: #141420;
-  background: var(--color-line-strong);
+  justify-content: space-between;
+  gap: 12px;
+  max-width: var(--list-max);
+  margin: 16px auto 0;
+}
 
-  &--splus,
-  &--s {
-    background: var(--color-gold);
+.pager__range {
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-secondary);
+}
+
+.pager__pages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.pager__btn {
+  min-width: 40px;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: var(--radius-control-sm);
+  border: 1px solid var(--color-line);
+  background: var(--color-surface);
+  font: 600 14px var(--font-body);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+  cursor: pointer;
+
+  &:hover:not(:disabled) {
+    border-color: var(--color-line-strong);
   }
 
-  &--a {
-    background: var(--diff-2);
+  &.is-on {
+    border-color: var(--color-gold);
+    background: var(--diff-3-bg);
   }
 
-  &--b {
-    background: var(--diff-1);
+  &:disabled {
+    opacity: 0.4;
+    cursor: default;
   }
+}
 
-  &--c {
-    background: var(--diff-4);
-  }
-
-  &--d {
-    background: var(--diff-5);
-  }
+.pager__gap {
+  min-width: 20px;
+  text-align: center;
+  color: var(--color-text-muted);
 }
 
 @media (max-width: 767px) {
@@ -256,9 +325,15 @@ app-rank-select {
 
   // Tighter table: tier, win and pick rates fit on screen; the champion column stays
   // pinned while the remaining stats scroll horizontally.
+  .wrap {
+    --col-champ: 156px;
+    --col-tier: 52px;
+    --col-stat: 92px;
+  }
+
   .table {
-    min-width: 520px;
     font-size: 14px;
+
 
     thead th {
       padding: 0 6px 8px;
@@ -294,7 +369,6 @@ app-rank-select {
 
   .champ {
     gap: 8px;
-    width: 148px;
 
     img {
       width: 52px;
@@ -304,16 +378,17 @@ app-rank-select {
 
   .champ__name {
     font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .champ__role {
     font-size: 11px;
   }
 
-  .champ > span {
-    min-width: 0;
+  .tier {
+    --tier-tile-width: 34px;
+    --tier-tile-height: 28px;
+    --tier-tile-radius: 7px;
+    --tier-tile-font: 16px;
   }
+
 }

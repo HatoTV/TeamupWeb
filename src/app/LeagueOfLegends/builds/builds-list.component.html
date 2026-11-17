@@ -21,16 +21,25 @@
         </button>
       }
     </div>
+    <app-tier-select [selected]="tiers()" (selectedChange)="tiers.set($event)" />
     <app-rank-select [filters]="filters()" [value]="filter()" (valueChange)="rank.set($event)" />
   </div>
 </section>
 
-<div class="wrap" [attr.aria-busy]="loading()">
+<div class="wrap" #list [attr.aria-busy]="loading()">
   @if (!loading() && !rows().length) {
     <p class="empty" role="status">{{ (search().trim() ? 'BUILDS.LIST_NO_MATCH' : 'BUILDS.LIST_EMPTY') | translate }}</p>
   } @else {
     <table class="table">
       <caption class="sr-only">{{ 'BUILDS.LIST_CAPTION' | translate }}</caption>
+      <colgroup>
+        <col class="col-champ" />
+        <col class="col-tier" />
+        <col class="col-stat" />
+        <col class="col-stat" />
+        <col class="col-stat" />
+        <col class="col-stat" />
+      </colgroup>
       <thead>
         <tr>
           @for (col of columns; track col.key) {
@@ -41,7 +50,7 @@
         </tr>
       </thead>
       <tbody>
-        @for (row of rows(); track row.key + row.role) {
+        @for (row of pageRows(); track row.key + row.role) {
           <tr>
             <th scope="row">
               <a class="champ" [routerLink]="ctx.link('/lol/champions/' + row.slug + '/build/' + row.role)" [queryParams]="filter() === defaultFilter() ? {} : { rank: filter() }">
@@ -54,7 +63,7 @@
             </th>
             <td>
               @if (row.tier) {
-                <span class="tier" [class]="'tier tier--' + (row.tier === 'S+' ? 'splus' : row.tier.toLowerCase())">{{ row.tier }}</span>
+                <app-tier-tile class="tier" [tier]="row.tier" />
               }
             </td>
             <td class="num">{{ fmtRate(row.winRate) }}</td>
@@ -65,5 +74,25 @@
         }
       </tbody>
     </table>
+    @if (pageCount() > 1) {
+      <nav class="pager" [attr.aria-label]="'BUILDS.PAGINATION' | translate">
+        <p class="pager__range">{{ 'BUILDS.PAGE_RANGE' | translate: range() }}</p>
+        <div class="pager__pages">
+          <button type="button" class="pager__btn" [disabled]="currentPage() === 1" [attr.aria-label]="'BUILDS.PAGE_PREV' | translate" (click)="goTo(currentPage() - 1)">
+            <span aria-hidden="true">‹</span>
+          </button>
+          @for (p of pages(); track $index) {
+            @if (p === null) {
+              <span class="pager__gap" aria-hidden="true">…</span>
+            } @else {
+              <button type="button" class="pager__btn" [class.is-on]="p === currentPage()" [attr.aria-current]="p === currentPage() ? 'page' : null" [attr.aria-label]="'BUILDS.PAGE_N' | translate: { page: p }" (click)="goTo(p)">{{ p }}</button>
+            }
+          }
+          <button type="button" class="pager__btn" [disabled]="currentPage() === pageCount()" [attr.aria-label]="'BUILDS.PAGE_NEXT' | translate" (click)="goTo(currentPage() + 1)">
+            <span aria-hidden="true">›</span>
+          </button>
+        </div>
+      </nav>
+    }
   }
 </div>

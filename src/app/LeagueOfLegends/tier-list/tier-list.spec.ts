@@ -8,9 +8,17 @@ import { TranslateModule } from '@ngx-translate/core';
 import { BuildDataService, TierList } from '../../core/data/build-data.service';
 import { ChampionDataService } from '../../core/data/champion-data.service';
 import { TierListComponent } from './tier-list.component';
-import { groupByTier, parseBand, parseRole, winTone, withAlpha } from './tier-list-utils';
+import { bestWinRate, groupByTier, parseBand, parseRole, winTone, withAlpha } from './tier-list-utils';
 
 describe('tier list utils', () => {
+  it('best win rate: a tie on the shown rate goes to the highest tier', () => {
+    const c = (name: string, tier: 'S+' | 'S' | 'A', winRate: number, games = 100) => ({ name, tier, winRate, games });
+    expect(bestWinRate([c('A', 'A', 0.5361), c('S', 'S', 0.5358), c('Low', 'S+', 0.52)])?.name).toBe('S');
+    expect(bestWinRate([c('A', 'A', 0.537), c('S', 'S', 0.536)])?.name).toBe('A');
+    expect(bestWinRate([c('Few', 'S', 0.536, 50), c('Many', 'S', 0.536, 900)])?.name).toBe('Many');
+    expect(bestWinRate([])).toBeNull();
+  });
+
   it('badge colour at the bounds: 49.9 / 50.0 / 51.9 / 52.0 %', () => {
     expect(winTone(0.499)).toBe('bad');
     expect(winTone(0.5)).toBe('neutral');

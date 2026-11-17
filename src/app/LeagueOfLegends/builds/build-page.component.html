@@ -5,13 +5,15 @@
     <div class="hero__body">
       <div class="portrait">
         <img [src]="data.championIcon(version() ?? meta()?.patches?.[0]?.ddragonVersion ?? '16.22.1', champ.ddragonId!)" [alt]="champ.name" width="112" height="112" />
-        @if (file()?.tier; as tier) {
-          <span class="portrait__tier" role="img" [attr.aria-label]="'BUILDS.TIER' | translate: { tier }"><span>{{ tier }}</span></span>
-        }
       </div>
 
       <div class="hero__main">
-        <h1 class="hero__name">{{ champ.name }}</h1>
+        <div class="hero__title">
+          <h1 class="hero__name">{{ champ.name }}</h1>
+          @if (file()?.tier; as tier) {
+            <app-tier-tile class="hero__tier" [tier]="tier" role="img" [attr.aria-label]="'BUILDS.TIER' | translate: { tier }" />
+          }
+        </div>
         @if (abilities().length) {
           <ul class="abilities" [attr.aria-label]="'BUILDS.ABILITIES' | translate">
             @for (a of abilities(); track a.name) {
@@ -254,48 +256,7 @@
             }
 
             @if (b.skills; as sk) {
-              <div class="skills">
-                <div class="skills__head">
-                  <h3 class="skills__title">{{ 'BUILDS.SKILLS' | translate }}</h3>
-                  <span class="skills__max-label" id="max-label">{{ 'BUILDS.MAX' | translate }}</span>
-                  <ol class="skills__max" aria-labelledby="max-label">
-                    @for (k of maxKeys(); track $index) {
-                      <li [style.--sk]="skillColors[sk.max[$index]!]">{{ k }}</li>
-                    }
-                  </ol>
-                </div>
-                <div class="skills__scroll" tabindex="0" role="region" [attr.aria-label]="'BUILDS.SKILLS_CAPTION' | translate">
-                  <table class="skills__grid">
-                    <caption class="sr-only">{{ 'BUILDS.SKILLS_CAPTION' | translate }}</caption>
-                    <thead>
-                      <tr>
-                        <th scope="col"><span class="sr-only">{{ 'BUILDS.ABILITY' | translate }}</span></th>
-                        @for (l of levels; track l) {
-                          <th scope="col">{{ l }}</th>
-                        }
-                      </tr>
-                    </thead>
-                    <tbody>
-                      @for (row of skillRows(); track row.slot) {
-                        <tr [style.--sk]="skillColors[row.slot]">
-                          <th scope="row">
-                            @if (abilities()[row.slot]; as a) {
-                              <img [src]="a.src" [alt]="a.name + ' (' + (row.slot | abilityKey: ctx.lang()) + ')'" width="26" height="26" />
-                            } @else {
-                              {{ row.slot | abilityKey: ctx.lang() }}
-                            }
-                          </th>
-                          @for (on of row.cells; track $index) {
-                            <td [class.is-on]="on">
-                              @if (on) {{{ row.slot | abilityKey: ctx.lang() }}}
-                            </td>
-                          }
-                        </tr>
-                      }
-                    </tbody>
-                  </table>
-                </div>
-              </div>
+              <app-skill-order [skills]="sk" [abilities]="abilities()" />
             }
           </section>
 

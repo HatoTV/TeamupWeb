@@ -269,7 +269,7 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
       // Counters tab: every main-role lane opponent above the threshold.
       const counters = splitCounters(
         [...cr.opponents.entries()].filter(([champion]) => isMain(champion, cr.role)),
-        config.minCounterGames ?? 200
+        config.minCounterGames ?? 20
       );
       const synergyRole = siteRole(SYNERGY_ROLE[cr.role]);
       const synergy = [...cr.mates.entries()]

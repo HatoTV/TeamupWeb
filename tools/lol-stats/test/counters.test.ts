@@ -11,14 +11,14 @@ import { championBuildSchema } from '../src/schema.ts';
 const count = (games: number, wins: number, gold: number[] = []): OpponentCount => ({ games, wins, goldSum: gold.reduce((a, b) => a + b, 0), goldGames: gold.length });
 
 describe('counters: split and threshold', () => {
-  it('drops the opponents under the threshold (200 games)', () => {
+  it('drops the opponents under the threshold (20 games)', () => {
     const c = splitCounters(
       [
-        [1, count(199, 150)],
-        [2, count(200, 120)],
-        [3, count(200, 60)],
+        [1, count(19, 15)],
+        [2, count(20, 12)],
+        [3, count(20, 6)],
       ],
-      200
+      20
     );
     assert.deepEqual([...c.advantage, ...c.counter].map((e) => e.championId).sort(), [2, 3]);
   });

@@ -37,7 +37,7 @@ La clé Riot est lue dans `tools/lol-stats/.env` (`RIOT_API_KEY=RGAPI-…`, igno
 | `LOL_STATS_ALT_MIN_SHARE`, `LOL_STATS_ALT_MIN_GAMES` | `0.08`, `3` | Part minimale des achats faits à son emplacement et nombre minimal de parties d'une alternative (objets 3 à 6 et bottes). |
 | `LOL_STATS_LATE_SHARE` | `0.7` | Un objet acheté en dernière position dans plus de 70 % des cas n'est pas proposé 3ᵉ. |
 | `LOL_STATS_MIN_MATCHUP_GAMES` | `50` | Seuil des adversaires et duos. |
-| `LOL_STATS_MIN_COUNTER_GAMES` | `200` | Seuil d'un adversaire dans l'onglet Counters (et de son écart d'or à 15 min). |
+| `LOL_STATS_MIN_COUNTER_GAMES` | `20` | Seuil d'un adversaire dans l'onglet Counters (et de son écart d'or à 15 min). |
 | `LOL_STATS_MIN_GAMES_NEW_PATCH` | `200` | Parties d'un champion/rôle avant de basculer sur le nouveau patch. |
 | `LOL_STATS_LOW_SAMPLE_GAMES` | `200` | En dessous, la page affiche un avertissement « peu de données » ; dans la tier list, le champion est « non classé ». |
 | `LOL_STATS_BAND_PAGES_LOW`, `LOL_STATS_BAND_GAMES_LOW` | `2`, `4000` | Tranche Fer → Or (échantillon) : pages de 205 joueurs par division d'Or, Argent, Bronze et Fer, et nouvelles parties par collecte et par région (0 = tranche non collectée). |

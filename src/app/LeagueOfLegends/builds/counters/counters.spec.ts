@@ -6,7 +6,7 @@ const stat = (championId: number, winRate: number, games = 1000): CounterStat =>
 
 describe('counters tab', () => {
   it('splits at 50 % (exactly 50 % is an advantage), sorts both columns and drops small samples', () => {
-    const { advantage, counter } = splitColumns([stat(1, 0.52), stat(2, 0.5), stat(3, 0.58), stat(4, 0.47), stat(5, 0.41), stat(6, 0.6, 199), stat(7, 0.4999)]);
+    const { advantage, counter } = splitColumns([stat(1, 0.52), stat(2, 0.5), stat(3, 0.58), stat(4, 0.47), stat(5, 0.41), stat(6, 0.6, 19), stat(7, 0.4999)]);
     expect(advantage.map((o) => o.championId)).toEqual([3, 1, 2]);
     expect(counter.map((o) => o.championId)).toEqual([5, 4, 7]);
     const ids = [...advantage, ...counter].map((o) => o.championId);
@@ -17,7 +17,7 @@ describe('counters tab', () => {
     const full = counterColumns({ counters: { advantage: [stat(1, 0.55)], counter: [stat(2, 0.45)] }, weakAgainst: [], strongAgainst: [] });
     expect(full.advantage.map((o) => o.championId)).toEqual([1]);
     const old = counterColumns({
-      weakAgainst: [{ champion: 2, games: 400, winRate: 0.44 }, { champion: 9, games: 120, winRate: 0.4 }],
+      weakAgainst: [{ champion: 2, games: 400, winRate: 0.44 }, { champion: 9, games: 12, winRate: 0.4 }],
       strongAgainst: [{ champion: 3, games: 500, winRate: 0.56 }],
     });
     expect(old.advantage.map((o) => o.championId)).toEqual([3]);

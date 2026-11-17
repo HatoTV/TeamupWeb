@@ -514,7 +514,6 @@
     "LOL_WAVEMANAGEMENT": "Wave management",
     "LOL_JUNGLE": "Jungle",
     "BREADCRUMB": "Fil d'Ariane",
-    "SECTION_COUNT": "{{count}} sections",
     "BUILDS": "Builds & runes"
   },
   "SEARCH": {
@@ -863,7 +862,6 @@
     "SECTIONS": "Sections du champion",
     "TAB_BUILD": "Build",
     "TAB_COUNTERS": "Counters",
-    "TAB_GUIDE": "Guide TeamUpp",
     "TAB_MATCHUPS": "Matchups (conseils)",
     "FILTERS_LABEL": "Filtres",
     "ROLE": "Rôle",
@@ -962,7 +960,10 @@
     "EMPTY_TITLE": "Pas encore de tips de la communauté pour ce matchup",
     "INSUFFICIENT_TITLE": "Pas assez de sources fiables pour ce matchup",
     "EMPTY_HINT": "On ne publie un tip que s'il est cité par plusieurs sources ou vérifié dans les données du jeu.",
-    "VS_LINK": "Conseils généraux contre {{champion}}"
+    "VS_LINK": "Conseils généraux contre {{champion}}",
+    "SECTION_GENERAL": "Conseils généraux contre {{champion}}",
+    "SECTION_LANE": "Phase de lane",
+    "SECTION_AVOID": "À éviter"
   },
   "PLAY_TIPS": {
     "TITLE": "Tips pour jouer {{champion}}",
@@ -1022,5 +1023,33 @@
     "METHOD_TITLE": "Comment le tier est calculé.",
     "METHOD": "Taux de victoire corrigé selon le nombre de parties, puis taux de pick, sur les parties classées du patch, pour cette tranche de rang et ce rôle. Seuls les rôles principaux de chaque champion sont classés (au moins 10 % de ses parties du patch) : une Evelynn ADC jouée quelques fois n'apparaît pas. La pastille affiche le taux de victoire brut. Survole un champion pour voir son taux de pick et son nombre de parties.",
     "NOT_ENOUGH": "Pas encore assez de parties dans cette tranche, reviens bientôt."
+  },
+  "COUNTERS": {
+    "ROLE": "Counters {{role}}",
+    "SEO_TITLE": "Counters de {{champion}} {{role}} : ses meilleurs et ses pires matchups",
+    "SEO_DESC": "Les adversaires de lane contre lesquels {{champion}} {{role}} gagne le plus et ses pires counters au patch {{patch}} : taux de victoire par matchup, conseils et tips de la communauté.",
+    "ADVANTAGE": "Avantage",
+    "COUNTER": "Counter",
+    "OPPONENT": "Adversaire",
+    "WIN_RATE": "Victoire",
+    "FOOTER": "{{n}} adversaires · fais défiler la liste",
+    "GAMES": "{{n}} parties",
+    "OPTION_LABEL": "{{opponent}} : {{winRate}} de victoire, {{games}} parties",
+    "EMPTY_LIST": "Aucun adversaire avec au moins {{min}} parties.",
+    "COLUMNS": "Colonne affichée",
+    "DETAIL": "Détail du matchup",
+    "PICK_TITLE": "Choisis un adversaire",
+    "PICK_TEXT": "Clique sur un champion dans l'une des deux colonnes : tu verras ici les conseils du matchup, puis les tips de la communauté.",
+    "MOST_PLAYED": "Les plus affrontés",
+    "VS_TITLE": "{{champion}} vs {{opponent}}",
+    "WIN_OF": "Victoire de {{champion}}",
+    "GAMES_ANALYZED": "Parties analysées",
+    "GOLD_15": "Or à 15 min",
+    "MATCHUP_TIPS": "Conseils du matchup",
+    "NO_TIPS": "Pas encore de conseils TeamUpp pour ce matchup.",
+    "NO_COMMUNITY": "Pas encore de tips de la communauté contre {{champion}}.",
+    "BACK": "Retour",
+    "THRESHOLD": "Matchups avec au moins {{min}} parties sur la sélection.",
+    "NO_DATA": "Pas encore assez de parties pour afficher les matchups de {{champion}} {{role}}."
   }
 }

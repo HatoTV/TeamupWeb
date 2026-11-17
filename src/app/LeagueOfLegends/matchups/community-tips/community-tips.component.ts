@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, computed, effect, inject, input, si
 import { TranslateModule } from '@ngx-translate/core';
 import { Champion } from '../../../core/data/champion-data.service';
 import { RouteContextService } from '../../../core/route-context.service';
-import { CommunityTip, CommunityTipsFile, CommunityTipsService, VsTipsFile, sideTips, vsTips } from './community-tips.service';
+import { CommunityTip, CommunityTipsFile, CommunityTipsService, TipGroup, VsTipsFile, groupTips, sideTips, vsTips } from './community-tips.service';
 
 /**
  * "Community tips": TeamUpp synthesis of player guides and videos, as a plain list (sources stay in the
@@ -24,6 +24,8 @@ export class CommunityTipsComponent {
   /** Champion played; null on an enemy page: only the « how to play against {vs} » advice is shown. */
   readonly me = input<Champion | null>(null);
   readonly vs = input.required<Champion>();
+  /** Inside another card (counters tab): no card of its own, smaller headings, its own empty message. */
+  readonly embedded = input(false);
 
   /** undefined while loading, null when the pair has no file. */
   protected readonly file = signal<CommunityTipsFile | null | undefined>(undefined);
@@ -36,6 +38,8 @@ export class CommunityTipsComponent {
   protected readonly tips = computed<CommunityTip[]>(() => sideTips(this.file(), this.me()?.ddragonId ?? null, this.lang()));
   /** Tips against the opponent whatever the champion played. */
   protected readonly general = computed<CommunityTip[]>(() => vsTips(this.vsFile(), this.lang()));
+  /** Sub-headings in display order: general, laning phase, avoid. */
+  protected readonly groups = computed<TipGroup[]>(() => groupTips(this.tips(), this.general()));
   protected readonly loading = computed(() => this.file() === undefined || this.vsFile() === undefined);
   protected readonly needsRecheck = computed(
     () =>

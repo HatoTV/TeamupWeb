@@ -13,7 +13,7 @@
       <div class="hero__main">
         <div class="hero__titles">
           <h1 class="hero__name">{{ champ.name }}</h1>
-          <span class="hero__role">· {{ 'BUILDS.BUILD_ROLE' | translate: { role: roleName() } }}</span>
+          <span class="hero__role">· {{ (tab() === 'counters' ? 'COUNTERS.ROLE' : 'BUILDS.BUILD_ROLE') | translate: { role: roleName() } }}</span>
           @if (patch()) {
             <span class="tag tag--gold">{{ 'BUILDS.PATCH' | translate: { patch: patch() } }}</span>
           }
@@ -77,13 +77,12 @@
     </div>
 
     <nav class="tabs" [attr.aria-label]="'BUILDS.SECTIONS' | translate">
-      <a class="tabs__tab is-active" aria-current="page" [routerLink]="[]" queryParamsHandling="preserve">{{ 'BUILDS.TAB_BUILD' | translate }}</a>
-      <a class="tabs__tab" [routerLink]="[]" queryParamsHandling="preserve" fragment="counters">{{ 'BUILDS.TAB_COUNTERS' | translate }}</a>
-      <a class="tabs__tab" [routerLink]="ctx.link('/lol/guides')">{{ 'BUILDS.TAB_GUIDE' | translate }}</a>
-      <a class="tabs__tab" [routerLink]="ctx.link('/lol/matchups/' + champ.slug)">{{ 'BUILDS.TAB_MATCHUPS' | translate }}</a>
+      <a class="tabs__tab" [class.is-active]="tab() === 'build'" [attr.aria-current]="tab() === 'build' ? 'page' : null" [routerLink]="tabLink('build')" [queryParams]="{ vs: null }" queryParamsHandling="merge">{{ 'BUILDS.TAB_BUILD' | translate }}</a>
+      <a class="tabs__tab" [class.is-active]="tab() === 'counters'" [attr.aria-current]="tab() === 'counters' ? 'page' : null" [routerLink]="tabLink('counters')" [queryParams]="{ build: null }" queryParamsHandling="merge">{{ 'BUILDS.TAB_COUNTERS' | translate }}</a>      <a class="tabs__tab" [routerLink]="ctx.link('/lol/matchups/' + champ.slug)">{{ 'BUILDS.TAB_MATCHUPS' | translate }}</a>
     </nav>
   </header>
 
+  @if (tab() === 'build') {
   <div class="filters" role="group" [attr.aria-label]="'BUILDS.FILTERS_LABEL' | translate">
     <div class="roles" role="group" [attr.aria-label]="'BUILDS.ROLE' | translate">
       @for (r of roleOrder; track r) {
@@ -123,6 +122,7 @@
       <span class="filters__updated">{{ ago }}</span>
     }
   </div>
+  }
 
   @if (meta()?.sample) {
     <p class="notice" role="note">{{ 'BUILDS.SAMPLE_DATA' | translate }}</p>
@@ -136,6 +136,18 @@
     </p>
   }
 
+  @if (tab() === 'counters') {
+    @if (state() === 'loading') {
+      <div class="skeleton" aria-busy="true"><span class="sr-only">{{ 'BUILDS.LOADING' | translate }}</span></div>
+    } @else if (file()) {
+      <app-counters [champion]="champ" [file]="file()!" [core]="core()" [version]="version()" />
+    } @else {
+      <div class="empty">
+        <p class="empty__title">{{ 'BUILDS.INSUFFICIENT_TITLE' | translate }}</p>
+        <p>{{ 'COUNTERS.NO_DATA' | translate: { champion: champ.name, role: roleName() } }}</p>
+      </div>
+    }
+  } @else {
   @switch (state()) {
     @case ('loading') {
       <div class="skeleton" aria-busy="true">
@@ -399,6 +411,7 @@
         <app-build-matchups id="counters" class="mus" [attr.aria-label]="'BUILDS.MATCHUPS_LABEL' | translate" role="region" [groups]="muGroups()" [champion]="champ.name" [matchupsLink]="ctx.link('/lol/matchups/' + champ.slug)" />
       }
     }
+  }
   }
 } @else if (state() === 'not-found') {
   <div class="empty empty--page">

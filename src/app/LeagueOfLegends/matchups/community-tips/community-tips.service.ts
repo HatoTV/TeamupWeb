@@ -5,6 +5,9 @@ import { firstValueFrom } from 'rxjs';
 /** Mirrors `tools/community-tips/src/schema.ts` (validated there with zod). */
 export const TIP_CATEGORIES = ['lane', 'mechanics', 'macro'] as const;
 export type TipCategory = (typeof TIP_CATEGORIES)[number];
+/** Displayed sub-headings, in display order (absent = general). */
+export const TIP_SECTIONS = ['general', 'lane', 'avoid'] as const;
+export type TipSection = (typeof TIP_SECTIONS)[number];
 export type TipsStatus = 'ok' | 'insufficientSources' | 'needsRecheck';
 
 export interface CommunityTip {
@@ -13,6 +16,22 @@ export interface CommunityTip {
   verifiedByGameData: boolean;
   /** Not displayed: tie-break of the display order. */
   category: TipCategory;
+  /** Displayed sub-heading; absent = general. */
+  section?: TipSection;
+}
+
+export interface TipGroup {
+  section: TipSection;
+  tips: CommunityTip[];
+}
+
+/**
+ * Tips grouped by sub-heading (general, laning phase, avoid), empty groups dropped. In each group, the tips of the
+ * pair (`pair`, specific to the champion played) come first, then the « how to play against » ones (`vs`).
+ */
+export function groupTips(pair: readonly CommunityTip[], vs: readonly CommunityTip[]): TipGroup[] {
+  const all = [...pair, ...vs];
+  return TIP_SECTIONS.map((section) => ({ section, tips: all.filter((t) => (t.section ?? 'general') === section) })).filter((g) => g.tips.length);
 }
 
 export interface CommunityTipsFile {

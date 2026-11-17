@@ -53,6 +53,15 @@ export interface OpponentStat {
   winRate: number;
 }
 
+/** Lane opponent of the counters tab (win rate of the page champion, gold lead at 15:00 when known). */
+export interface CounterStat {
+  championId: number;
+  games: number;
+  wins: number;
+  winRate: number;
+  goldDiff15?: number;
+}
+
 export interface ChampionBuild extends StatLine {
   patch: string;
   filter: BuildFilter;
@@ -67,6 +76,8 @@ export interface ChampionBuild extends StatLine {
   builds: BuildData[];
   weakAgainst: OpponentStat[];
   strongAgainst: OpponentStat[];
+  /** Every lane opponent above the threshold (absent in files published before the counters tab). */
+  counters?: { advantage: CounterStat[]; counter: CounterStat[] };
   synergy: Array<OpponentStat & { role: Role }>;
   summary: { fr: string; en: string };
 }

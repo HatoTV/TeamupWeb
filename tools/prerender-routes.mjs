@@ -29,7 +29,7 @@ function buildPaths() {
     for (const c of allChampions) slugByDdragon.set(c.ddragonId, c.slug);
     return index.champions.flatMap((c) => {
       const slug = slugByDdragon.get(core.champions[c.champion]?.id);
-      return slug ? c.roles.map((r) => `/lol/champions/${slug}/build/${r.role}`) : [];
+      return slug ? c.roles.flatMap((r) => [`/lol/champions/${slug}/build/${r.role}`, `/lol/champions/${slug}/counters/${r.role}`]) : [];
     });
   } catch {
     return []; // no build data yet

@@ -30,6 +30,12 @@ export const routes: Routes = [
     loadComponent: () => import('./LeagueOfLegends/builds/build-page.component').then((m) => m.BuildPageComponent),
   },
   {
+    // Same page component (header and tabs), « Counters » tab: `?vs={opponent}`.
+    path: ':lang/lol/champions/:championId/counters/:role',
+    data: { tab: 'counters' },
+    loadComponent: () => import('./LeagueOfLegends/builds/build-page.component').then((m) => m.BuildPageComponent),
+  },
+  {
     path: ':lang/lol/picker',
     loadComponent: () => import('./LeagueOfLegends/picker/picker.component').then((m) => m.PickerComponent),
   },

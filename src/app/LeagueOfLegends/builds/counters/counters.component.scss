@@ -1,0 +1,736 @@
+// Counters tab (maquette LolCounters): two opponent lists and the matchup panel, each scrolling on its own.
+:host {
+  display: block;
+  padding: 24px 36px 0;
+  // Sticky top bar (64 px) + the top and bottom margins of the grid.
+  --counters-height: max(560px, calc(100dvh - 64px - 48px));
+}
+
+.num {
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+}
+
+.scroll {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #3a3a58 transparent;
+  overscroll-behavior: contain;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: 18px;
+  height: var(--counters-height);
+}
+
+// ---------- Columns ----------
+.col {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background: #161626;
+  border: 1px solid var(--color-line);
+  overflow: hidden;
+
+  &--good {
+    --c: #4fd18b;
+    --c-text: #6fe0a2;
+    --c-rgb: 79, 209, 139;
+    --c-bar: linear-gradient(90deg, #2f9e6a, #6fe0a2);
+  }
+
+  &--bad {
+    --c: #ff4f6d;
+    --c-text: #ff7a92;
+    --c-rgb: 255, 79, 109;
+    --c-bar: linear-gradient(90deg, #b8324c, #ff7a92);
+  }
+}
+
+.col__head {
+  flex: none;
+  padding: 18px 18px 16px;
+  border-top: 3px solid var(--c);
+  background: linear-gradient(135deg, rgba(var(--c-rgb), 0.22), rgba(var(--c-rgb), 0) 100%);
+}
+
+.col__title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.col__chip {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(var(--c-rgb), 0.18);
+  color: var(--c);
+}
+
+.col__title {
+  margin: 0;
+  font: 700 21px/1.1 var(--font-display);
+  font-stretch: var(--stretch-heading);
+  text-transform: uppercase;
+}
+
+.col__labels {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  gap: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-subtle, #7f7f99);
+}
+
+.col__label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &--end {
+    text-align: right;
+  }
+}
+
+.col__list {
+  flex: 1;
+  min-height: 0;
+}
+
+.col__empty {
+  flex: 1;
+  margin: 0;
+  padding: 18px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.col__foot {
+  flex: none;
+  margin: 0;
+  padding: 10px 18px;
+  border-top: 1px solid var(--color-separator);
+  background: #12121f;
+  font-size: 12px;
+  color: var(--color-text-subtle, #7f7f99);
+}
+
+// ---------- Rows ----------
+.row {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 18px;
+  border-top: 1px solid #1e1e32;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: #1c1c30;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: -2px;
+  }
+
+  &.is-selected {
+    background-color: rgba(var(--c-rgb), 0.1);
+    box-shadow: inset 3px 0 0 var(--c);
+
+    .row__icon {
+      border-color: var(--c);
+    }
+  }
+}
+
+.row__icon {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  border: 2px solid var(--color-line);
+  box-sizing: border-box;
+}
+
+.row__main {
+  min-width: 0;
+}
+
+.row__name {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row__track {
+  display: block;
+  margin-top: 7px;
+  height: 5px;
+  border-radius: 3px;
+  background: #22223a;
+  overflow: hidden;
+}
+
+.row__bar {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  background: var(--c-bar);
+}
+
+.row__stats {
+  text-align: right;
+  line-height: 1.15;
+}
+
+.row__wr,
+.row__games {
+  display: block;
+  @extend .num;
+}
+
+.row__wr {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--c-text);
+}
+
+.row__games {
+  font-size: 11px;
+  color: var(--color-text-subtle, #7f7f99);
+}
+
+// ---------- Panel ----------
+.panel {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2px;
+}
+
+.pick {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 44px 28px;
+  border-radius: 16px;
+  border: 1px dashed #3a3a58;
+  background: radial-gradient(120% 80% at 50% 0%, rgba(155, 123, 255, 0.1), rgba(13, 13, 24, 0) 60%), #12121f;
+  text-align: center;
+}
+
+.pick__vs {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pick__me {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  border: 2px solid var(--color-gold);
+}
+
+.pick__vs-text,
+.mu__vs {
+  font-family: var(--font-display);
+  font-stretch: var(--stretch-hero);
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+.pick__vs-text {
+  font-size: 28px;
+}
+
+.pick__unknown {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  border: 2px dashed #4a4a6a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-subtle, #7f7f99);
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.pick__title {
+  margin: 18px 0 0;
+  font: 700 24px/1.2 var(--font-display);
+  font-stretch: var(--stretch-heading);
+  text-transform: uppercase;
+}
+
+.pick__text {
+  margin: 6px auto 0;
+  max-width: 42ch;
+  font-size: 15px;
+  color: var(--color-text-muted);
+}
+
+.pick__label {
+  margin: 24px 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-subtle, #7f7f99);
+}
+
+.pick__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pick__btn {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 11px;
+  transition: transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  img {
+    display: block;
+    width: 46px;
+    height: 46px;
+    border-radius: 11px;
+    border: 2px solid rgba(79, 209, 139, 0.55);
+    box-sizing: border-box;
+  }
+
+  &--bad img {
+    border-color: rgba(255, 79, 109, 0.55);
+  }
+}
+
+// One block: matchup header, TeamUpp tips, separator, community tips.
+.mu {
+  flex: none;
+  border-radius: 16px;
+  background: #161626;
+  border: 1px solid var(--color-line);
+  overflow: hidden;
+
+  &--good {
+    --c: #4fd18b;
+    --c-text: #6fe0a2;
+    --c-rgb: 79, 209, 139;
+  }
+
+  &--bad {
+    --c: #ff4f6d;
+    --c-text: #ff7a92;
+    --c-rgb: 255, 79, 109;
+  }
+}
+
+.mu__head {
+  padding: 18px 20px;
+  border-top: 3px solid var(--c);
+  background: linear-gradient(135deg, rgba(var(--c-rgb), 0.22), rgba(var(--c-rgb), 0.05) 55%, rgba(22, 22, 38, 0));
+}
+
+.mu__vs-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mu__icon {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  border: 2px solid var(--color-gold);
+
+  &--vs {
+    border-color: var(--c);
+  }
+}
+
+.mu__vs {
+  font-size: 24px;
+}
+
+.mu__titles {
+  min-width: 0;
+  margin-left: 4px;
+}
+
+.mu__title {
+  margin: 0;
+  font: 700 22px/1.1 var(--font-display);
+  font-stretch: var(--stretch-heading);
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+.mu__badge {
+  margin-top: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 9px;
+  border-radius: 6px;
+  background: var(--d-bg);
+  color: var(--d-text);
+  font: 700 12px/1.4 var(--font-display);
+  font-stretch: var(--stretch-heading);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.mu__stats {
+  margin: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+
+  &--two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.mu__stat {
+  min-width: 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgba(13, 13, 24, 0.45);
+  border: 1px solid var(--color-line);
+
+  dt {
+    font-size: 11px;
+    color: var(--color-text-muted);
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+.mu__num {
+  @extend .num;
+  font-size: 22px;
+  font-weight: 700;
+
+  &--side {
+    color: var(--c-text);
+  }
+
+  &.is-up {
+    color: #6fe0a2;
+  }
+
+  &.is-down {
+    color: #ff7a92;
+  }
+}
+
+.tips {
+  padding: 16px 20px 6px;
+  border-top: 1px solid var(--color-separator);
+}
+
+.tips__title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: 700 17px/1.3 var(--font-display);
+  font-stretch: var(--stretch-heading);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.tips__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--color-gold);
+}
+
+.tips__lang {
+  margin: 6px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.tips__lang-badge {
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: #22223a;
+  color: var(--color-gold);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.tips__list {
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tips__item {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #1e1e32;
+}
+
+.tips__n {
+  @extend .num;
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  background: #22223a;
+  color: var(--color-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.tips__text {
+  margin: 2px 0 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #e2e2ee;
+}
+
+.tips__empty {
+  margin: 10px 0 14px;
+  font-size: 15px;
+  color: var(--color-text-muted);
+
+  &--commu {
+    margin: 0;
+    padding: 18px 20px;
+  }
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0 14px;
+}
+
+.author__rank {
+  width: 34px;
+  height: auto;
+}
+
+.author__text {
+  margin: 0;
+  font-size: 13px;
+  color: var(--color-text-muted);
+
+  strong {
+    color: var(--color-text);
+  }
+}
+
+.sep {
+  margin: 2px 20px 0;
+  height: 1px;
+  background: #3a3a58;
+}
+
+.back {
+  flex: none;
+  align-self: flex-start;
+  margin: 0 0 12px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border-radius: var(--radius-control);
+  border: 1px solid var(--color-line);
+  background: #161626;
+  color: var(--color-text);
+  font: 700 15px var(--font-display);
+  font-stretch: var(--stretch-heading);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.note {
+  margin: 12px 0 0;
+  font-size: 12px;
+  color: var(--color-text-subtle, #7f7f99);
+}
+
+// ---------- Segmented control (mobile only) ----------
+.seg {
+  display: none;
+}
+
+.seg__btn {
+  flex: 1;
+  min-height: 44px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--color-text-muted);
+  font: 700 15px var(--font-display);
+  font-stretch: var(--stretch-heading);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &[aria-pressed='true'] {
+    background: #2e2e48;
+    color: #fff;
+    box-shadow: inset 0 -3px 0 var(--c);
+  }
+
+  &--good {
+    --c: #4fd18b;
+  }
+
+  &--bad {
+    --c: #ff4f6d;
+  }
+}
+
+// ---------- Responsive ----------
+@media (max-width: 1199px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    height: auto;
+  }
+
+  .col {
+    height: 520px;
+  }
+
+  .panel {
+    grid-column: 1 / -1;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 767px) {
+  :host {
+    padding: 16px var(--container-gutter) 0;
+  }
+
+  .seg {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 12px;
+    padding: 4px;
+    border-radius: 12px;
+    background: #161626;
+    border: 1px solid var(--color-line);
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .col {
+    height: auto;
+    max-height: 70dvh;
+
+    &.is-hidden-mobile {
+      display: none;
+    }
+  }
+
+  .row {
+    padding: 10px 14px;
+  }
+
+  .panel {
+    grid-column: auto;
+  }
+
+  // A selected opponent opens the panel full screen, with its own « Back » button.
+  .panel.is-open {
+    position: fixed;
+    inset: 0;
+    // Above the sticky top bar and the mobile tab bar (z-index 1000).
+    z-index: 1100;
+    padding: 16px var(--container-gutter) calc(32px + env(safe-area-inset-bottom));
+    background: var(--color-night);
+    overflow-y: auto;
+  }
+
+  .mu__head,
+  .tips {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mu__icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .mu__vs-row {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .mu__titles {
+    flex: 1 1 100%;
+    margin-left: 0;
+  }
+
+  .mu__stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pick {
+    padding: 28px 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .row,
+  .pick__btn {
+    transition: none;
+  }
+
+  .pick__btn:hover {
+    transform: none;
+  }
+}

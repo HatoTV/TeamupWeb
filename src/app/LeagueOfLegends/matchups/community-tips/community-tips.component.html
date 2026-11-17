@@ -1,7 +1,7 @@
-<section class="ct card" aria-labelledby="ct-title" [attr.aria-busy]="loading()">
+<section class="ct" [class.card]="!embedded()" [class.ct--embedded]="embedded()" aria-labelledby="ct-title" [attr.aria-busy]="loading()">
   <header class="ct__head">
     <div>
-      <h2 id="ct-title" class="ct__title">{{ 'COMMUNITY_TIPS.TITLE' | translate }}</h2>
+      <p id="ct-title" class="ct__title" [class.title-dot]="!embedded()" role="heading" [attr.aria-level]="embedded() ? 3 : 2">{{ 'COMMUNITY_TIPS.TITLE' | translate }}</p>
       <p class="ct__subtitle">{{ 'COMMUNITY_TIPS.SUBTITLE' | translate }}</p>
     </div>
     @if (needsRecheck()) {
@@ -11,25 +11,21 @@
 
   @if (loading()) {
     <p class="ct__state">{{ 'MATCHUPSPAGE.LOADING' | translate }}</p>
-  } @else if (tips().length || general().length) {
+  } @else if (groups().length) {
     <div class="ct__body">
-      @if (tips().length) {
-        <h3 class="ct__sub">{{ 'COMMUNITY_TIPS.FOR' | translate: { me: me()!.name, vs: vs().name } }}</h3>
+      @for (group of groups(); track group.section) {
+        <p [class]="'ct__sub ct__sub--' + group.section" role="heading" [attr.aria-level]="embedded() ? 4 : 3">
+          {{ 'COMMUNITY_TIPS.SECTION_' + group.section.toUpperCase() | translate: { champion: vs().name } }}
+        </p>
         <ul class="ct__list" [attr.lang]="lang()">
-          @for (tip of tips(); track $index) {
-            <li class="ct__tip">{{ tip.text }}</li>
-          }
-        </ul>
-      }
-      @if (general().length) {
-        <h3 class="ct__sub ct__sub--general">{{ 'COMMUNITY_TIPS.VS_LINK' | translate: { champion: vs().name } }}</h3>
-        <ul class="ct__list ct__list--general" [attr.lang]="lang()">
-          @for (tip of general(); track $index) {
+          @for (tip of group.tips; track $index) {
             <li class="ct__tip">{{ tip.text }}</li>
           }
         </ul>
       }
     </div>
+  } @else if (embedded()) {
+    <p class="ct__state">{{ 'COUNTERS.NO_COMMUNITY' | translate: { champion: vs().name } }}</p>
   } @else {
     <div class="ct__state ct__state--empty">
       <p class="ct__empty-title">

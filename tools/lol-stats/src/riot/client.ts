@@ -3,9 +3,12 @@ import { hostOf, type Platform, type Region } from './routing.ts';
 
 export class RiotApiError extends Error {
   readonly status: number;
-  constructor(status: number, message: string) {
+  /** Refused by the Cloudflare firewall in front of the API (HTML page): some encrypted ids look like an attack to it. */
+  readonly firewall: boolean;
+  constructor(status: number, message: string, firewall = false) {
     super(message);
     this.status = status;
+    this.firewall = firewall;
   }
 }
 
@@ -82,8 +85,10 @@ export class RiotClient {
         continue;
       }
       this.stats.errors++;
-      // 401 / 403: key missing, expired (development keys last 24 h) or not allowed.
-      throw new RiotApiError(res.status, `${res.status} on ${method} ${url.pathname}`);
+      // 401 / 403 in JSON: key missing, expired (development keys last 24 h) or not allowed.
+      // 403 in HTML: the Cloudflare firewall blocked this URL (the key is not involved).
+      const firewall = res.status === 403 && !(res.headers.get('content-type') ?? '').includes('json');
+      throw new RiotApiError(res.status, `${res.status}${firewall ? ' (Cloudflare firewall)' : ''} on ${method} ${url.pathname}`, firewall);
     }
   }
 }

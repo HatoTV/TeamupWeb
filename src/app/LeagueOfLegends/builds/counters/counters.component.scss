@@ -1,9 +1,11 @@
-// Counters tab (maquette LolCounters): two opponent lists and the matchup panel, each scrolling on its own.
+// Counters tab (maquette LolCounters): the opponent lists scroll with the page, the matchup panel stays in view
+// beside them (sticky) and only scrolls on its own when it is taller than the screen.
 :host {
   display: block;
   padding: 24px 36px 0;
-  // Sticky top bar (64 px) + the top and bottom margins of the grid.
-  --counters-height: max(560px, calc(100dvh - 64px - 48px));
+  // Sticky top bar (64 px) + the gap kept above and below the panel.
+  --panel-top: calc(64px + 24px);
+  --panel-max-height: calc(100dvh - 64px - 48px);
 }
 
 .num {
@@ -12,23 +14,15 @@
   font-variant-numeric: tabular-nums;
 }
 
-.scroll {
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #3a3a58 transparent;
-  overscroll-behavior: contain;
-}
-
 .grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.4fr);
+  align-items: start;
   gap: 18px;
-  height: var(--counters-height);
 }
 
 // ---------- Columns ----------
 .col {
-  min-height: 0;
   display: flex;
   flex-direction: column;
   border-radius: 16px;
@@ -104,11 +98,6 @@
   &--end {
     text-align: right;
   }
-}
-
-.col__list {
-  flex: 1;
-  min-height: 0;
 }
 
 .col__empty {
@@ -221,8 +210,14 @@
 }
 
 // ---------- Panel ----------
+// No overscroll containment: once the panel reaches its end, the wheel goes back to the page.
 .panel {
-  min-height: 0;
+  position: sticky;
+  top: var(--panel-top);
+  max-height: var(--panel-max-height);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #3a3a58 transparent;
   display: flex;
   flex-direction: column;
   padding-right: 2px;
@@ -597,7 +592,7 @@
   color: var(--color-text-subtle, #7f7f99);
 }
 
-// ---------- Segmented control (mobile only) ----------
+// ---------- Segmented control (tablet and mobile) ----------
 .seg {
   display: none;
 }
@@ -631,27 +626,8 @@
 }
 
 // ---------- Responsive ----------
+// Tablet: one list at a time (segmented control) beside the sticky panel.
 @media (max-width: 1199px) {
-  .grid {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    height: auto;
-  }
-
-  .col {
-    height: 520px;
-  }
-
-  .panel {
-    grid-column: 1 / -1;
-    overflow: visible;
-  }
-}
-
-@media (max-width: 767px) {
-  :host {
-    padding: 16px var(--container-gutter) 0;
-  }
-
   .seg {
     display: flex;
     gap: 4px;
@@ -663,16 +639,21 @@
   }
 
   .grid {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
   }
 
-  .col {
-    height: auto;
-    max-height: 70dvh;
+  .col.is-hidden-mobile {
+    display: none;
+  }
+}
 
-    &.is-hidden-mobile {
-      display: none;
-    }
+@media (max-width: 767px) {
+  :host {
+    padding: 16px var(--container-gutter) 0;
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .row {
@@ -680,7 +661,9 @@
   }
 
   .panel {
-    grid-column: auto;
+    position: static;
+    max-height: none;
+    overflow: visible;
   }
 
   // A selected opponent opens the panel full screen, with its own « Back » button.
@@ -692,6 +675,8 @@
     padding: 16px var(--container-gutter) calc(32px + env(safe-area-inset-bottom));
     background: var(--color-night);
     overflow-y: auto;
+    // The only contained scroll: the page behind the full-screen panel must not move.
+    overscroll-behavior: contain;
   }
 
   .mu__head,

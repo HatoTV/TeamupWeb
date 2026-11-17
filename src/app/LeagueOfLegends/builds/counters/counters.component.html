@@ -26,7 +26,7 @@
       </div>
 
       @if (col.rows.length) {
-        <div class="col__list scroll" role="listbox" [attr.aria-labelledby]="'counters-' + col.side" (keydown)="onListKey($event, col)">
+        <div class="col__list" role="listbox" [attr.aria-labelledby]="'counters-' + col.side" (keydown)="onListKey($event, col)">
           @for (row of col.rows; track row.id; let i = $index) {
             <div
               role="option"
@@ -57,7 +57,7 @@
     </section>
   }
 
-  <aside #panel class="panel scroll" [class.is-open]="!!selected()" [attr.aria-label]="'COUNTERS.DETAIL' | translate">
+  <aside #panel class="panel" [class.is-open]="!!selected()" [attr.aria-label]="'COUNTERS.DETAIL' | translate">
     @if (selected(); as s) {
       @if (isMobile()) {
         <button type="button" class="back" (click)="back()">← {{ 'COUNTERS.BACK' | translate }}</button>

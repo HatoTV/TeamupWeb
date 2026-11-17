@@ -1,6 +1,8 @@
-import { ChangeDetectionStrategy, Component, ElementRef, computed, effect, inject, input, signal, untracked, viewChild } from '@angular/core';
-import { toSignal } from '@angular/core/rxjs-interop';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ViewportScroller } from '@angular/common';
+import { ChangeDetectionStrategy, Component, DestroyRef, ElementRef, computed, effect, inject, input, signal, untracked, viewChild } from '@angular/core';
+import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
+import { ActivatedRoute, Router, Scroll } from '@angular/router';
+import { filter, take } from 'rxjs';
 import { TranslateModule } from '@ngx-translate/core';
 import { BuildDataService, ChampionBuild, CounterStat, StaticCore } from '../../../core/data/build-data.service';
 import { Champion, ChampionDataService, ChampionMatchups } from '../../../core/data/champion-data.service';
@@ -33,7 +35,7 @@ interface Column {
 
 /**
  * « Counters » tab of the champion page: lane opponents the champion beats (« Advantage ») and those that beat him
- * (« Counter »), each list scrolling on its own, and the selected matchup on the right (`?vs={slug}`): stats,
+ * (« Counter »), scrolling with the page, and the selected matchup in a sticky panel on the right (`?vs={slug}`): stats,
  * TeamUpp matchup tips, then the community tips.
  */
 @Component({
@@ -50,6 +52,8 @@ export class CountersComponent {
   private readonly champions = inject(ChampionDataService);
   private readonly route = inject(ActivatedRoute);
   private readonly router = inject(Router);
+  private readonly scroller = inject(ViewportScroller);
+  private readonly destroyRef = inject(DestroyRef);
   private readonly host = inject<ElementRef<HTMLElement>>(ElementRef);
 
   readonly champion = input.required<Champion>();
@@ -159,7 +163,19 @@ export class CountersComponent {
   }
 
   protected select(row: CounterRow | null): void {
-    void this.router.navigate([], { relativeTo: this.route, queryParams: { vs: row?.id ?? null }, queryParamsHandling: 'merge', replaceUrl: true });
+    // The router scroll restoration sends the page back to the top on each navigation: picking an opponent keeps the
+    // page where it was instead (restored in a microtask, after the router scroll and before the next paint).
+    const position = this.scroller.getScrollPosition();
+    void this.router.navigate([], { relativeTo: this.route, queryParams: { vs: row?.id ?? null }, queryParamsHandling: 'merge', replaceUrl: true }).then((done) => {
+      if (!done) return;
+      this.router.events
+        .pipe(
+          filter((e) => e instanceof Scroll),
+          take(1),
+          takeUntilDestroyed(this.destroyRef),
+        )
+        .subscribe(() => queueMicrotask(() => this.scroller.scrollToPosition(position)));
+    });
   }
 
   /** Roving focus: the selected option (else the first one) is the tab stop of its list. */

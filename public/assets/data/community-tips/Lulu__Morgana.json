@@ -17,31 +17,36 @@
           "text": "Son Entrave sombre (A) est sa seule vraie menace en lane : si tu l'esquives, Morgana n'a presque rien pour te punir.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Le matchup est pour toi : Morgana souffre contre les enchanteurs, alors mets-lui la pression dès les premiers niveaux.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Son Bouclier noir (E) bloque ta Fantaisie (Z) : attends qu'il soit tombé pour trade ou transformer sa cible.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Une lane égale te suffit : tu scales mieux que Morgana sur la durée.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         },
         {
           "text": "Si ses Chaînes spirituelles (R) accrochent ton ADC, donne-lui ta Fantaisie (Z) : la vitesse l'aide à casser les chaînes avant l'étourdissement.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Dark Binding (Q) is her only real threat in lane: dodge it and Morgana has almost nothing left to punish you with.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "The matchup favors you: Morgana struggles against enchanters, so put pressure on her from the first levels.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Black Shield (E) blocks your Whimsy (W): wait for it to drop before trading or polymorphing its target.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "An even lane is enough for you: you scale better than Morgana over time.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "lane"
         },
         {
           "text": "If Soul Shackles (R) latch onto your ADC, give them Whimsy (W): the speed helps them break the chains before the stun.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -83,19 +93,22 @@
           "text": "Ton Entrave sombre (A) est ta condition de victoire : touche Lulu et burst-la avec ton ADC avant qu'elle ne se protège.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Mets ton Bouclier noir (E) sur ton ADC : tant qu'il tient, Lulu ne peut pas le transformer avec sa Fantaisie (Z).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Lulu scale mieux que toi : c'est en début de partie que tu dois prendre l'avance.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ],
       "en": [
@@ -103,19 +116,22 @@
           "text": "Dark Binding (Q) is your win condition: land it on Lulu and burst her down with your ADC before she can protect herself.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Put Black Shield (E) on your ADC: while it holds, Lulu can't polymorph them with Whimsy (W).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Lulu scales better than you: you need to get your lead early in the game.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ]
     }

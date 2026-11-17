@@ -17,19 +17,22 @@
           "text": "Lee fait beaucoup de dégâts tôt et cherche des kills : ward son camp de départ et préviens tes lanes du côté où il commence.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Tu gagnes les duels contre lui si tes charges de Ruée vers l'or (E) sont actives : garde-les en tapant les camps avant de l'affronter.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Anticipe son Onde sonore (A), surtout dès le lvl 6 : s'il te touche, il revient avec le Coup résonant, fort sur les PV manquants, puis l'ult.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Lee deals a lot of early damage and hunts for kills: ward his starting camp and warn the lanes on the side he starts.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "You win duels against him while your Quickdraw (E) stacks are up: keep them going by hitting camps before you fight him.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Watch for his Sonic Wave (Q), especially from level 6: if it lands, he follows up with Resonating Strike, strong on missing health, then his ult.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,25 +65,29 @@
           "text": "En 1v1, Graves te bat tôt, surtout avec ses charges de Ruée vers l'or (E) : évite le duel long et joue plutôt les ganks.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Graves cherche à voler tes camps dès le début, surtout quand tu pars au crabe : ward ton jungle et ne laisse pas un côté sans vision.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Dès le lvl 6, une Onde sonore (A) qui touche peut le tuer : ton Coup résonant frappe plus fort s'il est blessé, puis ta Rage du dragon (R) l'achève.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Son Écran de fumée (Z) ralentit et coupe ta vision : ne lui saute pas dessus quand il l'a posé à ses pieds.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -85,25 +95,29 @@
           "text": "In a 1v1 Graves beats you early, especially with his Quickdraw (E) stacks: avoid long duels and play for ganks instead.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Graves looks to steal your camps from the start, especially when you go for scuttle: ward your jungle and don't leave a side blind.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "From level 6, one Sonic Wave (Q) hit can kill him: Resonating Strike deals more damage the lower he is, then finish with Dragon's Rage (R).",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "His Smoke Screen (W) slows you and cuts your vision: don't jump on him while it's dropped at his feet.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

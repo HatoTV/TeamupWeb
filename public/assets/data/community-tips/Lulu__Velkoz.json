@@ -17,25 +17,29 @@
           "text": "Sa Fission du plasma (A) porte plus loin que ton Duo éclatant (A) : tu ne gagneras pas un duel de poke à distance.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Avec ton ADC, tu es plus forte lvl 1 et 2 : va chercher les trades tôt plutôt que de subir son poke.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Son poke longue portée punit les enchanteurs : ne traîne pas dans sa portée quand tu n'as aucun trade à prendre.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Garde ta Fantaisie (Z) pour son Désintégrateur de formes de vie (R) : ta métamorphose coupe sa canalisation.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "His Plasma Fission (Q) outranges your Glitterlance (Q): you won't win a long-range poke war.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "With your ADC you're stronger at levels 1 and 2: go for trades early instead of soaking his poke.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "His long-range poke punishes enchanters: don't linger in his range when you have no trade to take.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Save Whimsy (W) for his Life Form Disintegration Ray (R): your polymorph cuts his channel.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -71,25 +79,29 @@
           "text": "Ta Fission du plasma (A) porte plus loin que son Duo éclatant (A) : poke-la depuis la limite de ta portée.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Lulu et son ADC sont forts lvl 1 et 2 : évite les trades tôt et laisse ta portée faire le travail.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Les enchanteurs comme Lulu supportent mal ta portée : punis-la au poke dès qu'elle avance.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Sa Fantaisie (Z) te métamorphose et coupe ton Désintégrateur de formes de vie (R) : lance-le hors de sa portée ou après qu'elle l'a utilisée.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -97,25 +109,29 @@
           "text": "Plasma Fission (Q) outranges her Glitterlance (Q): poke her from the edge of your range.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Lulu and her ADC are strong at levels 1 and 2: avoid early trades and let your range do the work.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Enchanters like Lulu hate facing your range: punish her with poke whenever she steps up.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Her Whimsy (W) polymorphs you and cuts your Life Form Disintegration Ray (R): cast it outside her range or once she has used it.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

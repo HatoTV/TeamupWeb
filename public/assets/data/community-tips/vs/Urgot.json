@@ -10,31 +10,36 @@
         "text": "Son Règne de la terreur (R) est un skillshot qui empale le premier champion touché. Esquive-le ou Flash-le : touché trop bas en PV, tu te fais exécuter.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Mépris (E) te stun et te projette derrière lui. Garde tes distances et décale-toi sur le côté quand il charge vers toi.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "N'engage pas tant que son Mépris (E) est dispo, il te stun facilement. Dès qu'il l'a utilisé, rentre dedans et prends le trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Sa Torpille corrosive (A) explose sur une zone ciblée et te slow. Bouge latéralement pour l'esquiver, puis profite de son CD pour le punir.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ses Flammes purificatrices (passif) partent de ses jambes, pas à chaque coup. Joue autour : trade juste après une salve, pas avant.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ],
     "en": [
@@ -42,31 +47,36 @@
         "text": "His Fear Beyond Death (R) is a skillshot that impales the first champion hit. Sidestep or Flash it: if you're low enough, he recasts and executes you.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Disdain (E) stuns you and throws you behind him. Keep your distance and sidestep when he charges at you.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Don't go in while his Disdain (E) is up, he lands it easily. Once he's burned it, commit and take the trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "His Corrosive Charge (Q) explodes on a targeted area and slows you. Strafe sideways to dodge it, then punish him while it's on cooldown.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Echoing Flames (passive) fire from his legs, not on every hit. Play around them: trade right after a blast goes off, not before.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ]
   },

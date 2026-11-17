@@ -10,37 +10,43 @@
         "text": "Cercle de givre (Z) a 10 s de CD au rang 1. Si Lissandra le lâche sur la wave, c'est ta fenêtre : engage le trade avant son retour.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Suis le CD du Tombeau polaire (R) de Lissandra. Sans son R, Lissandra ne peut plus stopper ton all-in : c'est le moment d'engager.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Son Cercle de givre (Z) root autour d'elle, à courte portée. En trade, reste hors de ce rayon : te faire root, c'est perdre l'échange.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Son Éclat de glace (A) coûte 55 à 75 mana. Feinte l'approche pour le faire partir, puis esquive : à sec de mana, Lissandra n'a plus de trade.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Si Lissandra lance son Tombeau polaire (R) sur elle-même, elle est en stase et se soigne. Garde ton burst et tes CC pour la fin de la stase.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Tant que la griffe de son Chemin glacial (E) voyage, Lissandra peut s'y téléporter. CC-la avant la réactivation pour bloquer son engage ou sa fuite.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -48,37 +54,43 @@
         "text": "Ring of Frost (W) has a 10 s cooldown at rank 1. If Lissandra burns it on the wave, that's your window: go for the trade before it's back.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Track the cooldown of Lissandra's Frozen Tomb (R). Without it she can't stop your all-in, so that's your moment to dive her.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Ring of Frost (W) roots everyone in a small radius around her. Stay outside that range when trading: eat the root and you lose the exchange.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Ice Shard (Q) costs 55 to 75 mana. Fake an approach to bait it out, then sidestep: once she's out of mana, Lissandra can't trade with you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "When Lissandra casts Frozen Tomb (R) on herself, she's in stasis and healing. Hold your burst and CC until the stasis ends.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "While the Glacial Path (E) claw is travelling, Lissandra can recast to blink to it. Lock her down before the recast to deny her engage or escape.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

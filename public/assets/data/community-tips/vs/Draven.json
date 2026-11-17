@@ -10,25 +10,29 @@
         "text": "Chaque kill de Draven lui rapporte des PO bonus selon son Adoration cumulée. Ne lui donne aucun kill facile : joue safe dès que tu es low.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Draven n'a aucun dash. Sans sa Division (E) ni son Flash, il ne peut ni te repousser ni fuir loin : c'est ta fenêtre pour engager.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Draven doit aller où retombe sa Hache tournoyante (A). Vise ce point avec tes skillshots : la lâcher lui coûte des dégâts et le reset de sa Pulsion sanguinaire (Z).",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Draven frappe très fort aux premiers lvl grâce à ses haches. Ne dispute pas le lvl 2, laisse la wave pousser vers toi au lieu de trade dans sa zone.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -36,25 +40,29 @@
         "text": "Every champion kill pays Draven bonus gold based on his Adoration stacks. Don't hand him easy kills: play safe whenever you're low.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Draven has no dash. Without Stand Aside (E) or Flash, he can't knock you away or escape far: that's your window to go in.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Draven has to walk to where his Spinning Axe (Q) lands. Aim your skillshots at that spot: if he drops it, he loses damage and his Blood Rush (W) reset.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Draven hits extremely hard in the first levels thanks to his axes. Don't fight for level 2: let the wave push to you instead of trading in his range.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       }
     ]
   },

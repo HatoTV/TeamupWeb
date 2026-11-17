@@ -10,43 +10,50 @@
         "text": "Sona est très faible en early mais devient monstrueuse en late. Mets-lui la pression dès le lvl 1 et snowball la lane avant qu'elle scale.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sona spam ses sorts et son Aria de persévérance (Z) coûte cher en mana. Une fois à sec, elle ne sert plus à rien : c'est ta fenêtre pour trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Avec un support engage ou hook, menace-la en permanence. Sona est squishy et sans dash : une seule erreur de placement suffit pour la tuer.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Son Hymne à la bravoure (A) frappe tout seul les deux ennemis les plus proches à 825 de portée, champions en priorité : les sbires ne te protègent pas.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Surveille son dernier sort : après son Aria de persévérance (Z), l'Accord de puissance réduit tes dégâts ; après sa Mélodie de vélocité (E), l'Accord te ralentit.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "En late, chaque sort réussi de Sona réduit le CD de son Crescendo (R). Sona peut ult deux fois dans un même teamfight : ne la crois jamais sans ult.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sa Mélodie de vélocité (E) dure plus longtemps si Sona ne prend aucun dégât. Touche-la, même d'une auto, pour raccourcir sa fuite ou son roam.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Sona is very weak early but scales into a monster. Pressure her from level 1 and snowball the lane before she comes online.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sona spams her spells, and Aria of Perseverance (W) is mana hungry. Once she runs dry she does nothing in lane, so that's your window to trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "On an engage or hook support, threaten her nonstop. Sona is squishy and has no dash, so a single positioning mistake is enough to kill her.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Hymn of Valor (Q) auto-targets the two closest enemies within 825 range, champions first. Minions won't cover you, so respect that range.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Track her last spell. After Aria of Perseverance (W), Power Chord cuts your damage. After Song of Celerity (E), it slows you instead.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Late game, every successful spell Sona casts lowers Crescendo's (R) cooldown. She can ult twice in one teamfight, so never assume her ult is gone.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Song of Celerity (E) lasts longer if Sona takes no damage. Tag her with anything, even one auto, to cut her escape or roam short.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

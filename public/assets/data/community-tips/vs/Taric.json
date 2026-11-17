@@ -10,37 +10,43 @@
         "text": "Taric est melee et galère contre le poke. Harcèle-le à distance et refuse les all-in au contact, surtout si ton support a de la range.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Surveille l'allié lié par son Bastion (Z) : Taric lance aussi ses sorts depuis cet allié. Le stun peut donc partir de son ADC.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Évite les fights longs au contact : chaque auto renforcée de Taric réduit ses CD et charge ses soins. Fais un trade court puis recule.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Taric joue le counter-engage : il attend que tu plonges pour placer son stun. Engage seulement après son Éblouissement (E) raté ou utilisé.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Son Éblouissement (E) stun après un court délai. Dès que le rayon apparaît, sors de sa ligne par le côté.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sa Lumière cosmique (R) rend ses alliés proches invulnérables après un délai. Recule pendant l'effet et garde tes sorts pour la fin, même sous ta tour.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -48,37 +54,43 @@
         "text": "Taric is melee and struggles against poke. Harass him from range and refuse close-range all-ins, especially with a ranged support.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Watch the ally tethered by his W: Taric also casts his spells from them. The stun can come from his ADC.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Avoid long fights in melee range: each empowered auto from Taric lowers his cooldowns and stores heal charges. Trade short, then step back.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Taric thrives on counter-engage: he waits for you to dive, then lands his stun. Only commit once his E is missed or used.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "His E stuns after a short delay. As soon as the beam shows up, sidestep out of its line.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His R makes nearby allies invulnerable after a delay. Back off while it lasts and save your spells for when it ends, even under your tower.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

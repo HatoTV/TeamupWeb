@@ -10,25 +10,29 @@
         "text": "Esquive son Piège à ours en laisse (A). S'il t'accroche, éloigne-toi tout de suite : si Kled reste près de toi, il te tire vers lui et te ralentit.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Quand Kled est à pied, recule et kite-le : se battre contre toi lui rend du courage. Ne lui offre pas de trades gratuits pour remonter sur Skaarl.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Garde ton burst pour la chute de Skaarl : le petit Kled est fragile. Ne le démonte que si tu peux le tuer juste après.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Son Penchant pour la violence (Z) part tout seul sur sa prochaine auto. S'il le gaspille sur la wave, profite de son CD pour trade.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ],
     "en": [
@@ -36,25 +40,29 @@
         "text": "Dodge his Q. If it hooks you, move away right away: if Kled stays close for a moment, he yanks you in and slows you.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "When Kled is on foot, back off and kite him: fighting you refills his courage. Don't give him free trades to get back on Skaarl.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Save your burst for when Skaarl goes down: dismounted Kled is fragile. Only dismount him if you can kill him right after.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "His W triggers on its own with his next auto. If he wastes it on the wave, use that cooldown window to trade.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ]
   },

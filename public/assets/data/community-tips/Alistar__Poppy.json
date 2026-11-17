@@ -17,19 +17,22 @@
           "text": "N'envoie pas ton Coup de tête (Z) dans sa Présence immuable (Z) : attends la fin de la zone, sinon ton dash est stoppé et tu restes cloué au sol.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Sa Présence immuable (Z) bloque les dashs, pas le Flash : un Flash + Atomisation (A) passe même quand la zone est active.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Reste loin des murs : sa Charge héroïque (E) t'étourdit si Poppy te plaque contre un obstacle.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Don't Headbutt (W) into her Steadfast Presence (W): wait for the field to end, or your dash gets stopped and you're left grounded.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Steadfast Presence (W) blocks dashes, not Flash: a Flash + Pulverize (Q) still lands while her field is up.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Stay away from walls: Heroic Charge (E) stuns you if Poppy carries you into terrain.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,31 +65,36 @@
           "text": "Garde ta Présence immuable (Z) pour son Coup de tête (Z) : la zone stoppe le dash, puis Alistar reste cloué au sol et ralenti.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Si Alistar réussit quand même son engage sur ton ADC, ne recule pas : fonce sur son ADC pour l'empêcher de suivre.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Ta Présence immuable (Z) bloque les dashs, pas le Flash : active la zone avant son Flash + Atomisation (A) pour stopper le Coup de tête (Z) qui suit.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Quand Alistar engage, ton Verdict de la gardienne (R) peut renvoyer son ADC vers sa base : Alistar reste seul face à vous deux.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Pendant sa Volonté de fer (R), recule jusqu'à la fin de l'effet : Alistar subit beaucoup moins de dégâts.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -91,31 +102,36 @@
           "text": "Save Steadfast Presence (W) for his Headbutt (W): the field stops the dash, leaving Alistar grounded and slowed.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "If Alistar still lands his engage on your ADC, don't back off: jump on his ADC right away so they can't follow up.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Steadfast Presence (W) stops dashes, not Flash: have the field up before his Flash + Pulverize (Q) so the Headbutt (W) that follows gets stopped.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "When Alistar engages, Keeper's Verdict (R) can send his ADC flying back toward their base, leaving Alistar alone against you two.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "During Unbreakable Will (R), back off until it ends: Alistar takes far less damage.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

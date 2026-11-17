@@ -10,43 +10,50 @@
         "text": "Garde ton CC et tes skillshots pour après son Assaut éclair (A) : pendant ce sort, Maître Yi est inciblable et esquive tes sorts.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Maître Yi est faible en early : punis-le en 1v1 et en skirmish avant son lvl 6, son premier vrai spike.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Maître Yi craint les CC : garde un stun ou un root pour le moment où il plonge. Une fois bloqué, Maître Yi ne fait plus rien.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Pendant son Highlander (R), Maître Yi ignore les slows : n'essaie pas de le kite avec, utilise un vrai CC comme un stun ou un root.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Reste près de tes minions : son Assaut éclair (A) répartit ses coups sur les cibles proches et te fait bien moins mal qu'isolé.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ne lâche pas ton burst dès qu'il lance sa Méditation (Z) : la réduction de dégâts est maximale au début, puis baisse.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Sa Méditation (Z) est une canalisation : un stun ou un silence la coupe net et stoppe son heal.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Hold your CC and skillshots until his Alpha Strike (Q) is used: Master Yi is untargetable during it and dodges your spells.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Master Yi is weak early: punish him in 1v1s and skirmishes before he hits level 6, his first real spike.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Master Yi hates crowd control: save a stun or root for when he dives in. Once locked down, he can't do anything.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "During Highlander (R), Master Yi is immune to slows: don't try to kite him with them, use hard CC like a stun or root.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Stay near your minions: his Alpha Strike (Q) spreads its hits across nearby units, so it hurts far less than when you're isolated.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Don't dump your burst the moment he starts Meditate (W): his damage reduction is strongest at the start, then drops.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Meditate (W) is a channel: a stun or silence cancels it instantly and stops his healing.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -17,19 +17,22 @@
           "text": "Sona n'a aucune mobilité : dès qu'elle avance, place ton Coup de tête (Z) + Atomisation (A) et all-in avec ton ADC.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Après ton combo Z-A, active Piétinement (E) : une fois les stacks remplis, ta prochaine attaque étourdit Sona et l'empêche de fuir.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Garde ta Volonté de fer (R) pour son Crescendo (R) : ton ult efface le stun et tu restes sur Sona.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Sona has no mobility: as soon as she steps up, land Headbutt (W) + Pulverize (Q) and all-in with your ADC.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "After your W-Q combo, use Trample (E): once the stacks are full, your next attack stuns Sona and stops her escape.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Hold Unbreakable Will (R) for her Crescendo (R): your ult cleanses the stun and you stay on Sona.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,25 +65,29 @@
           "text": "Poke à portée max de ton Hymne à la bravoure (A), plus longue que celle de son Coup de tête (Z) ; t'approcher pour auto t'expose à son combo.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Ne lance pas Crescendo (R) sur Alistar quand sa Volonté de fer (R) est prête : elle efface le stun. Attends qu'il l'ait utilisée.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Pendant sa Volonté de fer (R), Alistar subit beaucoup moins de dégâts : ne tape pas dessus, focus son ADC.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Quand il lance Piétinement (E), ralentis-le avec un Accord de puissance chargé par ta Mélodie de vélocité (E) et recule avant son attaque qui stun.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -85,25 +95,29 @@
           "text": "Poke from max Hymn of Valor (Q) range, which beats his Headbutt (W) range; walking up to auto exposes you to his combo.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Don't Crescendo (R) Alistar while Unbreakable Will (R) is up: it cleanses the stun. Wait until he has used it.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "During Unbreakable Will (R), Alistar takes much less damage: don't hit him, focus his ADC.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "When he starts Trample (E), slow him with a Power Chord charged by Song of Celerity (E) and back off before his stunning attack.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

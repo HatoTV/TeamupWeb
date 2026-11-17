@@ -10,31 +10,36 @@
         "text": "Pousse Azir à poser ses soldats tôt : son Dresse-toi ! (Z) n'a que 2 charges, et sans soldat, Azir ne peut pas E. Trade à ce moment.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Ses soldats de sable frappent tout ce qui est près d'eux. Contourne-les et ne reste jamais dans leur zone pour trade.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Tape la wave dès le lvl 1 pour avoir la prio : tu prends le lvl 2 avant Azir et tu peux trade en premier.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Lance tes sorts quand Azir s'avance pour last hit : Azir doit choisir entre le CS et l'esquive.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Ses soldats ne bougent qu'avec ses Sables conquérants (A), 14 s de CD au rang 1. Juste après un A, ils restent figés : joue hors de leur portée.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -42,31 +47,36 @@
         "text": "Bait Azir into dropping soldiers early. Arise! (W) only holds 2 charges, and with no soldier out he can't E. That's when you trade.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "His Sand Soldiers stab anything standing near them. Walk around them and never trade inside their zone.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Start hitting the wave right away at level 1 to get prio. You hit level 2 before Azir and get to trade first.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Throw your spells when Azir steps up to last-hit. He has to pick between the CS and dodging.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Soldiers only move when he casts Conquering Sands (Q), on a 14 s cooldown at rank 1. Right after a Q they're stuck in place: play outside their reach.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

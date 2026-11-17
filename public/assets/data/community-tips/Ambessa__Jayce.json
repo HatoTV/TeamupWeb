@@ -17,13 +17,15 @@
           "text": "Son Coup foudroyant (E) a un long CD : s'il s'en sert pour te repousser, reviens sur lui juste après, tant que le sort est indisponible.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Lance ton Égide dévastatrice (Z) sur son combo en forme marteau : le bouclier encaisse ses dégâts et ta frappe au sol fait plus mal.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "His Thundering Blow (E) has a long cooldown: if he uses it to push you away, go straight back in while it's down.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Use Repudiation (W) into his hammer combo: the shield soaks his damage and your slam hits harder after blocking him.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -47,19 +51,22 @@
           "text": "Touche ton Orbe électrique (A) avant de trader : Ambessa doit sortir son Égide dévastatrice (Z), puis passe en marteau pendant son long CD.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Garde ton Coup foudroyant (E) pour la repousser quand elle saute sur toi, plutôt que pour ouvrir : tant qu'il est dispo, elle hésite à engager.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Quand sa Frappe fourbe (A) touche, la Frappe fracassante suit en ligne droite : anticipe-la et décale-toi sur le côté.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         }
       ],
       "en": [
@@ -67,19 +74,22 @@
           "text": "Land Shock Blast (Q) before trading: it forces out her Repudiation (W), then switch to hammer while that long cooldown runs.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Keep Thundering Blow (E) to knock her back when she dives you, not to open: while it's up, she can't engage safely.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "When her Cunning Sweep (Q) connects, Sundering Slam follows in a straight line: anticipate it and step to the side.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         }
       ]
     }

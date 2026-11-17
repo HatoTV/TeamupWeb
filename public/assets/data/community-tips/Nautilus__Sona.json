@@ -17,25 +17,29 @@
           "text": "Si ton Abordage (A) rate, recule tout de suite : Sona te punit fort pendant les 10 à 14 s de son CD.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Au lvl 1, ne grille pas ta Colère du titan (Z) dans un petit trade : Sona gagne cet échange. Garde le bouclier pour ton engage.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Surveille son Flash : sans lui, un seul Abordage (A) réussi suffit souvent à la tuer.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Pense à roam mid : Sona est loin de suivre tes roams aussi bien que toi.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "If your Dredge Line (Q) misses, back off immediately: Sona punishes you hard during its 10 to 14 second cooldown.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "At level 1, don't waste Titan's Wrath (W) on a small trade: Sona wins that exchange. Save the shield for your engage.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Track her Flash: without it, a single Dredge Line (Q) that lands is often enough to kill her.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Look for roams mid: Sona can't match your roaming anywhere near as well.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ]
     },
@@ -71,31 +79,36 @@
           "text": "Dès que son Abordage (A) est parti ou raté, avance et trade : il lui faut 10 à 14 s pour revenir.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Reste derrière tes sbires, ils bloquent son Abordage (A). Sans Flash, recule encore plus : un seul hook peut te tuer.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Au lvl 1, trade sans hésiter, surtout s'il a déjà grillé le bouclier de sa Colère du titan (Z).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Sa Grenade ASM (R) te poursuit jusqu'à l'impact : tu ne peux pas l'esquiver. En teamfight, reste derrière tes alliés.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ping ton mid dès que Nautilus quitte la lane : ses roams sont bien plus forts que les tiens.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ],
       "en": [
@@ -103,31 +116,36 @@
           "text": "As soon as his Dredge Line (Q) is used or missed, step up and trade: it takes 10 to 14 seconds to come back.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Stay behind your minions, they block his Dredge Line (Q). Without Flash, play even further back: one hook can be enough to kill you.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "At level 1, trade freely, especially if he has already burned the shield from Titan's Wrath (W).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "His Depth Charge (R) follows you until it lands, so you can't dodge it. In teamfights, stay behind your teammates.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ping your mid laner as soon as Nautilus leaves lane: he roams far better than you do.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         }
       ]
     }

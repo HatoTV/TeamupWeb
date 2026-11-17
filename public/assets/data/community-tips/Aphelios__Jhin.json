@@ -17,13 +17,15 @@
           "text": "Sa Grenade dansante (A) rebondit d'une cible à l'autre : ne te place pas à côté d'un sbire proche de lui, sinon elle finit sur toi.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Recule quand Jhin a sa 4e balle prête : elle est toujours critique et inflige des dégâts en plus.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "His Dancing Grenade (Q) bounces from target to target: don't stand next to a minion close to him, or it ends up on you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Back off when Jhin has his fourth bullet ready: it always crits and deals extra damage.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -47,7 +51,8 @@
           "text": "Quand il tient Gravitum (canon), ses attaques et son ult te ralentissent, puis son sort peut t'immobiliser : reste hors de sa portée.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -55,7 +60,8 @@
           "text": "When he holds Gravitum (cannon), his attacks and his ult slow you, then his ability can root you: stay out of his range.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

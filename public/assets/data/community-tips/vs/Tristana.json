@@ -10,43 +10,50 @@
         "text": "Suis son Saut roquette (Z) : c'est son engage et sa seule fuite. Si elle l'utilise pour rentrer, retourne-toi sur elle pendant ses 22 à 14 s de CD.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ne la laisse pas seule en side lane : sa Charge explosive (E) se pose aussi sur les tours. Avec une wave, elle rase une tourelle très vite.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "Sa portée d'auto est courte en early et grandit avec ses niveaux. Si ta range est plus longue, trade à portée max tant qu'elle ne t'a pas rattrapé.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Quand elle te colle sa Charge explosive (E), recule. Chaque auto ou sort ajoute une charge : à 4, la bombe explose aussitôt et lui rend son Saut roquette (Z).",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Dispute-lui la prio de wave. Tristana a besoin du push pour all-in avec son Saut roquette (Z) ; coincée sous sa tour, elle ne peut plus te sauter dessus.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "En teamfight, chaque kill ou assist recharge son Saut roquette (Z). Ne lui offre pas de reset facile : focus-la avant qu'elle n'enchaîne les sauts.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Tir à impact (R) lui sert souvent à finir : il te repousse et t'étourdit. Bas en PV, reste hors de ses 550 de portée tant qu'il est up.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Track her Rocket Jump (W): it's both her engage and her only escape. If she uses it to go in, turn on her during its 22-14s cooldown.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Don't leave her alone in a side lane: Explosive Charge (E) also sticks to turrets. With a wave behind her, she melts towers fast.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "Her attack range is short early and grows as she levels. If you outrange her, trade from max range before her range catches up.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "When she sticks Explosive Charge (E) on you, back off. Each auto or spell adds a stack; at 4 the bomb pops instantly and refreshes her Rocket Jump (W).",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Contest wave priority. Tristana needs push to all-in with Rocket Jump (W); stuck under her own tower, she can't jump on you.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "In teamfights, every takedown resets her Rocket Jump (W). Don't hand her easy resets: focus her before she chains jumps through your team.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Her Buster Shot (R) is often her finisher: it knocks you back and stuns you. When low, stay outside its 550 range while it's up.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

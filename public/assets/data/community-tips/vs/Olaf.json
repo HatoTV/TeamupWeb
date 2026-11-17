@@ -10,43 +10,50 @@
         "text": "Son passif lui donne plus de vol de vie quand il est low. Enchaîne les trades sans pause : si tu le laisses tranquille, il regen vite tes dégâts.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "S'il ramasse sa Déchireuse (A), son CD est réduit ou remis à zéro. Place-toi entre Olaf et sa hache au sol pour qu'il ne puisse pas la reprendre.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Olaf veut des fights longs. Joue des short trades : tape, puis recule avant qu'il te colle. Ne reste jamais dans un échange prolongé avec lui.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Méfie-toi quand tu avances pour last hit : c'est là qu'il lance sa Déchireuse (A). Garde une marge pour l'esquiver avant de prendre le CS.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Son all-in démarre presque toujours par sa Déchireuse (A). Si elle te touche, recule. Si elle rate, trade pendant son CD : sans elle, il peine à te coller.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Son Ragnarok (R) le purifie et le rend insensible aux CC. Chaque coup sur un champion le prolonge : kite-le et garde tes CC pour la fin de l'effet.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sa Déchireuse (A) part en ligne droite vers un point. Esquive-la en bougeant de gauche à droite par rapport à lui, pas en reculant dans l'axe.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "His passive grants more life steal the lower he gets. Keep trading back to back: give him breathing room and he heals your damage right back.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Picking up his Undertow (Q) axe cuts or resets its cooldown. Stand between Olaf and the axe on the ground so he can't grab it again.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Olaf wants long, drawn-out fights. Take short trades: hit him, then step away before he sticks to you. Never stay in an extended brawl.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Be careful when you step up to last-hit: that's when he throws Undertow (Q). Keep room to dodge it before you go for the CS.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "His all-in nearly always opens with Undertow (Q). If it lands, back off. If it misses, trade during the cooldown: without the axe's slow he struggles to stick.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Ragnarok (R) cleanses him and makes him immune to CC. Each hit on a champion extends it, so kite him and save your CC for when it ends.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Undertow (Q) flies in a straight line to a target point. Dodge it by strafing side to side relative to him, not by backing up along its path.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -17,19 +17,22 @@
           "text": "Lucian se rapproche avec sa Poursuite inlassable (E) et tu n'as aucun dash pour fuir : garde ta distance et recule dès qu'il avance.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Il gagne les trades courts, surtout pendant ton rechargement après la 4e balle : ne reste jamais à sa portée sans munitions.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Avec un enchanteur, chaque bouclier ou soin allié renforce ses 2 attaques suivantes (Pistolero) : au lvl 6, refuse l'all-in, il te tue avant que tu le descendes.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "Lucian closes the gap with Relentless Pursuit (E) and you have no dash to escape: keep your distance and back off as soon as he steps up.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "He wins short trades, especially while you reload after your fourth shot: never stay in his range with an empty gun.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "With an enchanter, every ally shield or heal empowers his next two attacks (Lightslinger): at level 6, refuse the all-in, he kills you before you can bring him down.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -59,25 +65,29 @@
           "text": "Attends que Jhin recharge après sa 4e balle, puis engage avec ta Poursuite inlassable (E), burst-le et ressors avant qu'il retrouve ses munitions.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Jhin n'a aucun dash : une fois sur lui, il ne peut pas t'échapper. Cherche les trades courts, c'est là que tu le domines.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Avec un enchanteur, chaque bouclier ou soin reçu renforce tes 2 attaques suivantes (Pistolero) : ton all-in au lvl 6 devient très dur à tenir pour lui.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ne reste pas près de sbires presque morts : sa Grenade dansante (A) rebondit sur eux et gagne des dégâts à chaque kill avant de te toucher.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -85,25 +95,29 @@
           "text": "Wait for Jhin to reload after his fourth shot, then dash in with Relentless Pursuit (E), burst him and get out before his gun is ready again.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Jhin has no dash: once you're on him, he can't get away. Look for short trades, that's where you dominate him.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "With an enchanter, every shield or heal you receive empowers your next two attacks (Lightslinger): your level 6 all-in becomes very hard for him to survive.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Don't stand next to low-health minions: his Dancing Grenade (Q) bounces off them and gains damage with every kill before reaching you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     }

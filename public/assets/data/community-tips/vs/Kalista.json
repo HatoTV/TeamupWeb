@@ -10,43 +10,50 @@
         "text": "Dès le lvl 6, son Appel du destin (R) peut projeter son support sur toi depuis 1000 unités. Tant que son R est up, garde tes distances et ton dash.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Chaque auto de Kalista laisse une lance en toi pendant 4 s, et son Extirpation (E) frappe plus fort par lance. Évite les trades longs, recule pour perdre les stacks.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Son Extirpation (E) se recharge si elle tue une cible. Avec des lances en toi près d'un sbire bas, elle te frappe gratuitement en le last hit : recule.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Son Appel du destin (R) met son support en stase jusqu'à 4 s. Ne gaspille pas ton CC sur un support qu'elle peut sauver : garde-le pour après son R.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Kalista doit gagner sa lane : en retard, elle ne sert presque plus à rien et se fait outscale. Joue safe, refuse les trades perdants et laisse la partie avancer.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Kalista shove vite la wave pour te dive ou rotate mid. Quand la wave crash sous ta tour, garde tes PV hauts et ping ton mid si elle disparaît.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Ne reste pas aligné derrière un sbire bas : si sa Perforation (A) le tue, elle continue sa course et te transfère ses stacks d'Extirpation (E).",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "From level 6, her Fate's Call (R) can fling her support at you from 1000 range. While her R is up, keep your distance and hold your dash.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Every Kalista auto leaves a spear in you for 4 s, and her Rend (E) hits harder per spear. Skip long trades: back off and let the stacks drop.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Her Rend (E) resets when it kills a target. With spears in you next to a low minion, she gets free damage on you while last-hitting: step back.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Her Fate's Call (R) puts her support in stasis for up to 4 s. Don't burn CC on a support she can save: keep it for after her R.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Kalista has to win lane: once behind, she barely matters and gets outscaled. Play safe, refuse losing trades and let the game drag on.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Kalista shoves waves fast to dive you or rotate mid. When the wave crashes under your tower, keep your HP high and ping mid if she goes missing.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Don't line up behind a low minion: if her Pierce (Q) kills it, the spear keeps going and hands its Rend (E) stacks over to you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

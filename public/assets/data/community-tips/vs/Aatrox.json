@@ -10,49 +10,57 @@
         "text": "Au lvl 5, son Épée des Darkin (A) frappe bien plus fort et revient plus vite. Poke-le et prends tes trades avant, puis joue plus prudemment.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Le bord de chaque frappe de son Épée des Darkin (A) te projette et fait plus mal. Esquive vers l'intérieur, vers lui, plutôt que de reculer.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Il peut lancer sa Ruée obscure (E) pendant la préparation de ses sorts pour réajuster son A. Après un A1 encaissé, ne fuis pas en ligne droite.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Aatrox atteint son pic en mid game. Évite les fights contre lui à ce moment : il décline ensuite quand la partie avance.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "Son Épée des Darkin (A) a un long CD en début de partie. S'il a lancé ses trois frappes et sa Ruée obscure (E), c'est ta fenêtre pour all-in.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Si ses Chaînes infernales (Z) te touchent, sors de la zone tout de suite : sinon tu es ramené au centre et tu reprends les dégâts.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Reste derrière tes sbires : ses Chaînes infernales (Z) ne touchent que le premier ennemi. S'il lance son Fossoyeur des mondes (R), les sbires fuient : méfie-toi.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Fossoyeur des mondes (R) lui donne de la vitesse, de l'AD et plus de soins, prolongés à chaque kill. Recule et attends la fin de son ult.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "At level 5 his Darkin Blade (Q) hits much harder and comes back faster. Poke him and take your trades before that, then play safer.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "The edge of each Darkin Blade (Q) cast knocks you up and deals extra damage. Dodge inward, toward him, instead of backing off.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "He can cast Umbral Dash (E) while winding up his other spells to re-aim his Q. After eating a Q1, don't run straight back.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Aatrox peaks in the mid game. Avoid fighting him in that window: he falls off as the game goes on.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "Darkin Blade (Q) has a long cooldown early on. Once he's thrown all three casts and Umbral Dash (E), that's your window to all-in.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "If Infernal Chains (W) hit you, leave the zone right away, or you get yanked back to the middle and take the damage again.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Stay behind your minions: Infernal Chains (W) only hit the first enemy in the path. When he casts World Ender (R), minions flee, so watch out.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "World Ender (R) gives him move speed, AD and stronger healing, extended by every takedown. Back off and wait until his ult ends.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

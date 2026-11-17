@@ -17,31 +17,36 @@
           "text": "Fais-lui sortir sa Dispersion des faibles (E) avant d'entrer avec ton Derrière le voile (Z) : sinon, Syndra te repousse hors de portée de ton Sortilège (E).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Syndra a plus de portée que toi et ce matchup est dur : ne cherche pas à gagner les échanges à distance.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Esquive sa Sphère noire (A) en priorité : sans ce sort, Syndra n'a presque plus de quoi te punir.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Syndra n'a aucun dash : joue avec ton jungler, Syndra reste une cible facile pour un gank.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Dans la zone de ton Entre les mondes (R), touche un bord pour te téléporter de l'autre côté et revenir à portée de Syndra.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Bait out her Scatter the Weak (E) before hopping in with Across the Veil (W): otherwise Syndra knocks you back out of The Weirding (E) range.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Syndra outranges you and this matchup is rough: don't try to win long-range trades against her.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Make dodging her Dark Sphere (Q) your priority: without it, Syndra has very little left to punish you with.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Syndra has no dash: play around your jungler, she's an easy target for a gank.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Inside the zone of Between Worlds (R), walk into one edge to teleport across and get back in range of Syndra.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -83,31 +93,36 @@
           "text": "Tu as plus de portée qu'Aurora : garde tes distances et harcèle-la, Aurora doit s'approcher pour placer ses sorts.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Garde ta Dispersion des faibles (E) pour son Derrière le voile (Z) : quand Aurora saute vers toi, repousse-la hors de portée.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Respecte son lvl 6 : Aurora profite du ralentissement d’Entre les mondes (R) pour t’all-in, et ce combo peut te tuer en lane.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Ne te place pas entre Aurora et les sbires : si son Maléfice (A) touche un sbire, la relance ramène la malédiction et te frappe au passage.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Son Derrière le voile (Z) la rend invisible : quand tu perds Aurora de vue, recule, ses angles depuis le brouillard font mal.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -115,31 +130,36 @@
           "text": "You outrange Aurora: keep your distance and poke her, since she has to walk up to land her spells.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Save Scatter the Weak (E) for her Across the Veil (W): when Aurora hops toward you, knock her back out of range.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Respect her level 6: Aurora uses the slow from Between Worlds (R) to all-in you and can kill you in lane.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Don't stand between Aurora and the minions: if Twofold Hex (Q) hits a minion, the recast pulls the curse back through you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Across the Veil (W) turns her invisible: when you lose sight of Aurora, back off, her angles from fog hurt.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

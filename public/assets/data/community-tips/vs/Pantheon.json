@@ -10,43 +10,50 @@
         "text": "Du lvl 1 au lvl 5, Pantheon spamme sa Lance astrale (A) à petit CD. Ne force pas les trades, prends l'XP en sécurité quitte à lâcher des minions.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Pantheon n'a presque aucun sustain. Un bon trade qui le laisse low suffit : il ne peut plus toucher la wave sans risque et perd du tempo pour revenir.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Rester à égalité est déjà une victoire : il scale mal et, dès le lvl 6, son Météore (R) pèse peu en 1v1. C'est là que tu peux trader.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Dès son lvl 6, ping chaque disparition de Pantheon : il cherche un Météore (R) sur une autre lane. Push ta wave pour qu'il perde des minions.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Sa Lance astrale (A) lancée part en ligne droite et traverse les minions. Ne marche pas tout droit : feinte une entrée, puis décale-toi ou sors de sa portée.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Surveille son Ardeur mortelle : juste après une compétence renforcée, il repart de zéro. C'est ta fenêtre pour trade, sa Lance astrale (A) fait alors moins mal.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Son Assaut martial (Z) coûte 55 mana et son Égide impénétrable (E) 80. Pousse-le à les utiliser en trade, à sec il ne peut plus se défendre sous sa tour.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "From level 1 to 5, Pantheon spams Comet Spear (Q) thanks to its short cooldown. Don't force trades: soak XP safely, even if you give up some CS.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Pantheon has almost no sustain. One good trade that leaves him low is enough: he can't touch the wave safely and loses tempo getting back.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Going even is already a win: he scales poorly and, from level 6, his Grand Starfall (R) adds little in a 1v1. That's when you start looking for trades.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Once he hits level 6, ping every time Pantheon leaves lane: he's looking for a Grand Starfall (R) elsewhere. Shove your wave so he loses CS.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "His thrown Comet Spear (Q) flies in a straight line and goes through minions. Don't walk in a straight line: fake an approach, then sidestep or back out of range.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Track his Mortal Will: right after an empowered spell, he starts over from zero. That's your window to trade, since his Comet Spear (Q) hits softer.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Shield Vault (W) costs 55 mana and Aegis Assault (E) costs 80. Bait them out in trades: once he's dry, he can't defend himself under tower.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ]
   },

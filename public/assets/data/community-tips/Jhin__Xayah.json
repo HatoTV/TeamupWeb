@@ -17,31 +17,36 @@
           "text": "N'hésite pas à lancer ton Rappel de rideau (R) : même si elle l'esquive, elle brûle sa Rafale de plumes (R) et l'échange reste rentable.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ne reste pas entre elle et ses plumes au sol : son Appel des lames (E) les rappelle et te root si assez te touchent.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "À part son ult, Xayah n'a aucun dash : garde ta portée et poke-la, elle ne peut pas lancer le combat tant que tu restes à distance.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Méfie-toi d'une Xayah avec un support d'engage (Nautilus, Leona) : elle compte sur lui pour te rattraper, et la lane devient bien plus dure.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Fais des trades courts autour de ta 4e balle : elle fait toujours un coup critique avec des dégâts d'exécution, puis recule.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "Don't hold back Curtain Call (R): even if she dodges it, she burns Featherstorm (R) and the trade is still worth it.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Don't stand between her and her feathers on the ground: Bladecaller (E) pulls them back and roots you if enough of them hit.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Outside her ult, Xayah has no dash: keep your range and poke her, she can't start a fight as long as you stay at a distance.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Be wary of Xayah with an engage support (Nautilus, Leona): she relies on them to reach you, and the lane gets much harder.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Take short trades around your fourth shot: it always crits and deals bonus execute damage, then back off.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     },
@@ -83,31 +93,36 @@
           "text": "Quand il recharge après sa 4e balle, enchaîne Dagues jumelles (A), une auto puis Appel des lames (E) : assez de plumes le touchent pour le root.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Méfie-toi de ses trades courts autour de sa 4e balle : elle fait toujours un coup critique avec des dégâts d'exécution.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Garde ta Rafale de plumes (R) pour son Rappel de rideau (R) : tu deviens intouchable pendant le saut et tu esquives ses tirs.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Tu es plus forte que lui en all-in, mais hors de ton ult tu n'as pas de dash : joue autour de l'engage de ton support pour arriver à portée.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Poke-le régulièrement avec tes Dagues jumelles (A) : c'est ton meilleur moyen de lui prendre des PV en lane.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ],
       "en": [
@@ -115,31 +130,36 @@
           "text": "While he reloads after his fourth shot, chain Double Daggers (Q), an auto, then Bladecaller (E): enough feathers hit him to root him.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Watch out for his short trades around his fourth shot: it always crits and deals bonus execute damage.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Save Featherstorm (R) for his Curtain Call (R): you become untargetable during the leap and dodge his shots.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "You beat him in an all-in, but outside your ult you have no dash: play around your support's engage to get in range.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Poke him regularly with Double Daggers (Q): it's your best way to chip his HP in lane.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ]
     }

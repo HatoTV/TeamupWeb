@@ -10,43 +10,50 @@
         "text": "Avant un all-in, vérifie si son passif Renaissance est dispo. Si oui, garde assez de dégâts et de temps pour casser l'œuf, sinon elle renaît full PV.",
         "sources": 4,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Esquive en priorité sa Lance de glace (A) : sans le gel, sa Gelure (E) fait moitié moins de dégâts et Anivia perd ses trades avant le lvl 6.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Avant le lvl 6, Anivia gagne peu de trades. Dès que sa Lance de glace (A) est partie ou ratée, avance et trade pendant son CD.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Push la wave sous sa tour : Anivia veut la garder près de chez elle. Une wave crashée la bloque en lane et te donne la prio pour roam.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Après le lvl 6, sors de sa Tempête glaciale (R) avant qu'elle soit complète : une fois formée, elle te gèle et double les dégâts de sa Gelure (E).",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Garde ton dash pour sa Cristallisation (Z) : Anivia s'en sert pour t'enfermer dans sa Tempête glaciale (R). Le mur fond vite, ne panique pas.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Anivia est lente et n'a aucun dash : tes skillshots longue portée la touchent facilement. Poke-la de loin dès que tu peux.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Before you all-in, check whether her Rebirth passive is up. If it is, keep enough damage and time to crack the egg, or she comes back at full HP.",
         "sources": 4,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Dodging Flash Frost (Q) is your top priority: without the chill, her Frostbite (E) deals half damage and Anivia loses her trades before level 6.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Before level 6, Anivia rarely wins trades. As soon as Flash Frost (Q) is used or missed, step up and trade while it's on cooldown.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Shove the wave into her tower: Anivia wants it near her side. A crashed wave pins her in lane and hands you priority to roam.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "After level 6, get out of Glacial Storm (R) before it fully forms: once it does, it chills you and doubles her Frostbite (E) damage.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Save your dash for Crystallize (W): Anivia uses it to trap you inside Glacial Storm (R). The wall melts quickly, so don't panic.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Anivia is slow and has no dash: long-range skillshots land on her easily. Poke her from range whenever you can.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

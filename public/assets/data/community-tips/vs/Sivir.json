@@ -10,49 +10,57 @@
         "text": "Garde ton CC tant que Sivir a son Bouclier magique (E). Fais-lui bloquer un sort mineur, puis enchaîne ton CC pendant le CD.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Sivir n'a que 500 de portée d'auto, moins que la plupart des ADC. Trade au bord de sa portée et recule dès qu'elle avance.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Quand Sivir active Ricochet (Z) sur la wave, les rebonds te touchent si tu restes collé à tes sbires. Écarte-toi pendant son push.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sa Lame boomerang (A) frappe à l'aller et au retour. Bouge après le premier passage pour esquiver le retour, et évite de rester contre un mur.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "En teamfight, ne reste pas groupé avec tes alliés : Ricochet (Z) rebondit de cible en cible et Sivir touche ta backline en tapant ton frontline.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Sivir scale et n'est pas une lane bully. Mets-lui la pression tôt pour qu'elle prenne du retard avant son power spike.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sivir push vite et joue haut dans la lane. Garde la vision de ta rivière et appelle ton jungler pour un gank quand elle s'avance trop.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Pendant En chasse (R), ses autos réduisent ses CD et chaque kill relance l'ult. Ne prends pas de fight long tant qu'il dure.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Hold your CC while Sivir has Spell Shield (E). Bait it with a minor spell, then land your CC during the cooldown.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Sivir only has 500 auto range, shorter than most ADCs. Trade at the edge of her range and step back when she walks up.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "When Sivir uses Ricochet (W) on the wave, bounces hit you if you hug your minions. Space out while she shoves.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Boomerang Blade (Q) hits on the way out and on the way back. Move after the first pass to dodge the return, and avoid standing against walls.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "In teamfights, don't clump with your allies: Ricochet (W) chains between targets, so Sivir hits your backline by attacking your frontline.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Sivir is a scaler, not a lane bully. Pressure her early so she falls behind before her power spike.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sivir shoves fast and plays high in lane. Keep river vision and ping your jungler for a gank when she overextends.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "During On The Hunt (R), her autos lower her cooldowns and takedowns refresh the ult. Avoid long fights while it's up.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

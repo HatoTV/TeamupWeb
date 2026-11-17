@@ -10,49 +10,57 @@
         "text": "Shen est un des tops les plus forts du lvl 1 au lvl 5. Respecte son early et ne lui offre pas l'avance dont il a besoin pour peser.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Après le lvl 6, son Soutien indéfectible (R) ne l'aide pas en 1v1. Si ton ult gagne les duels, c'est le moment de le chercher.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Force son Refuge spirituel (Z), puis trade pendant son CD : sans lui, il ne bloque plus tes attaques et perd la plupart des trades.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Son Rush des ombres (E) est son seul moyen de te coller. Esquive-le en te décalant ou avec un dash, et il n'a plus de quoi trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Quand Shen part en R sur une autre lane, push ta wave et prends des plaques : il perd des sbires et tu rentabilises son play.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Trade quand sa Barrière de ki est en CD. Elle revient plus vite quand ses sorts te touchent, donc esquive-les pour garder ta fenêtre.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Ne reste pas entre Shen et sa lame : son Assaut crépusculaire (A) est renforcé s'il la ramène à travers toi, et il te ralentit quand tu fuis.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Son Refuge spirituel (Z) bloque seulement les attaques de base. Poke-le avec tes sorts : contre eux, sa zone ne sert à rien.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Shen is one of the strongest top laners from lvl 1 to 5. Respect his early game and deny him the lead he relies on.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "After lvl 6, his Stand United (R) does nothing in a 1v1. If your ult wins duels, that's when you look to fight him.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Bait out his Spirit's Refuge (W), then trade while it's on cooldown: without it he can't block your autos and loses most trades.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Shadow Dash (E) is his only way to stick to you. Sidestep it or dodge it with a dash and he has no way to trade.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "When Shen ults to another lane, shove your wave and take plates: he loses minions and you cash in on his play.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Trade when his Ki Barrier is on cooldown. It comes back faster when his spells hit you, so dodge them to keep your window open.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Don't stand between Shen and his blade: his Twilight Assault (Q) is empowered if he pulls it through you, and slows you as you run.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "His Spirit's Refuge (W) only blocks basic attacks. Poke him with your spells instead: against them his zone does nothing.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -10,49 +10,57 @@
         "text": "Ne dash jamais dans son Défilage tellurique (E) : les pierres explosent et te stun. Contourne la zone à pied, ou passe par-dessus avec un blink.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Sur son sol travaillé, sa Rafale filée (A) devient un gros rocher qui slow. Esquive-le : ce slow lui sert à placer sa Poussée sismique (Z).",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Les assassins et le burst la font souffrir. Dès qu'elle rate sa Poussée sismique (Z) ou gâche son Défilage tellurique (E), engage sur elle.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Avec un mage longue portée, poke-la au bout de ta range. Elle doit avancer pour trade et encaisse tes sorts avant de pouvoir répondre.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Garde ton dash ou ton Flash tant qu'elle a son Mur de la tisseuse (R) : elle le pose sur ta fuite, et il faut sauter pour le franchir.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Quand elle shove la wave et disparaît, ping tes lanes, surtout côté de son jungler. Dès le lvl 6, elle roam par la rivière et coupe ta fuite au R.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Touche-la quand elle s'apprête à ult : après des dégâts de champion, son Mur de la tisseuse (R) est bloqué quelques secondes.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Les minions ne te protègent pas de sa Rafale filée (A) : chaque pierre éclabousse autour de la première cible touchée. Ne reste pas collé à ta wave.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Never dash through her Unraveled Earth (E): the stones detonate and stun you. Walk around the field, or hop over it with a blink.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "On her Worked Ground, Threaded Volley (Q) becomes one big slowing boulder. Sidestep it: that slow is how she lands Seismic Shove (W).",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Assassins and burst champs are her nightmare. The moment she misses Seismic Shove (W) or burns Unraveled Earth (E), jump on her.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "On a long-range mage, poke her from max range. She has to walk up to trade back and eats your spells on the way in.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Hold your dash or Flash while she has Weaver's Wall (R) up: she drops it on your escape path, and you need a jump to cross it.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "When she shoves and vanishes, ping your side lanes, mostly on her jungler's side. From level 6 she roams through river and walls off your escape with R.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Tag her when she's about to ult: taking champion damage locks Weaver's Wall (R) for a few seconds.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Minions won't shield you from Threaded Volley (Q): each rock splashes around the first target it hits. Don't hug your wave.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

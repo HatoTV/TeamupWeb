@@ -10,31 +10,36 @@
         "text": "Reste derrière tes sbires : son Abordage (A) s'arrête sur le premier ennemi touché, sbire compris. Avec la wave entre vous, il n'a aucun angle de hook.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Nautilus veut le lvl 2 en premier pour all-in. Poke-le au lvl 1 et gagne la course au lvl 2 ; recule s'il l'atteint avant toi.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Quand sa wave crash et qu'il disparaît de la lane, préviens ton mid et ta jungle : Nautilus roam beaucoup, surtout pendant que son ADC est en base.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Mets un mur entre lui et toi : si son Abordage (A) touche le décor, c'est Nautilus qui est tiré vers le mur, pas toi.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ne reste pas entre Nautilus et la cible de sa Grenade ASM (R) : l'onde projette et étourdit chaque ennemi qu'elle traverse en chemin.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -42,31 +47,36 @@
         "text": "Stay behind your minions: Dredge Line (Q) stops on the first enemy it hits, minions included. With the wave between you, he has no hook angle.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Nautilus wants the first level 2 to all-in. Poke him at level 1 and win the race to level 2; back off if he hits it first.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "When his wave crashes and he vanishes from lane, ping your mid and jungler: Nautilus roams a lot, especially while his ADC is backing.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Keep terrain between you and him: if Dredge Line (Q) hits a wall, it only pulls Nautilus toward it, not you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Don't stand between Nautilus and his Depth Charge (R) target: the shockwave knocks up and stuns every enemy along its path.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

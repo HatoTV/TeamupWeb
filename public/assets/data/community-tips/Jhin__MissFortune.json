@@ -17,13 +17,15 @@
           "text": "Sa Pluie de balles (E) te ralentit et tu n'as aucun dash : sors de la zone tout de suite au lieu de continuer le trade dedans.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Son Barrage de plomb (R) tire en cône pendant quelques secondes : ne fonce pas dedans, sors par le côté.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "Her Make It Rain (E) slows you and you have no dash: leave the zone right away instead of trading inside it.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Her Bullet Time (R) fires waves into a cone for a few seconds: don't run into it, step out to the side.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -47,19 +51,22 @@
           "text": "Dès son lvl 6, recule quand tu es basse en PV : son Rappel de rideau (R) touche de très loin et fait plus de dégâts selon tes PV manquants.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Compte ses balles : la 4e est toujours un coup critique et frappe plus fort les cibles blessées. Ne reste pas à sa portée quand elle est prête.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Après sa 4e balle, il doit recharger : c'est ta fenêtre pour avancer et trade.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -67,19 +74,22 @@
           "text": "Once he hits level 6, back off when you're low: his Curtain Call (R) reaches extremely far and deals more damage the lower your health.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Count his shots: the fourth one always crits and hits wounded targets harder. Don't stay in his range when it's loaded.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "After his fourth shot he has to reload: that's your window to step up and trade.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     }

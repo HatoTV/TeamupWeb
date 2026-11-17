@@ -10,49 +10,57 @@
         "text": "Ralenti par son Raz-de-marée (R), sa Bénédiction de l'Aquamancienne (E) ou le CC de son ADC ? Attends-toi à sa Prison aqueuse (A) juste derrière : 1,5 s de stun.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Avant son premier back, Nami manque vite de mana. Si elle spamme ses sorts, encaisse et patiente : à sec, elle ne peut plus heal ni trade.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Son Flux et reflux (Z) rebondit en alternant ennemis et alliés. En trade, écarte-toi de ton duo pour qu'un même Z ne vous touche pas tous les deux.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Nami est très fragile et n'a aucun dash. Quand elle s'avance pour poke ou buff son ADC, engage sur elle : elle meurt vite une fois au contact.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Ne gâche pas ton engage. Dès qu'il est en CD, Nami avance et poke sans risque. Garde-le pour le moment où elle s'expose.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Sa Prison aqueuse (A) vise une zone au sol. Bouge sans cesse et garde ton dash pour l'esquiver : sur une cible mobile, Nami la rate souvent.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Quand Nami lance sa Bénédiction de l'Aquamancienne (E) sur son ADC, recule : ses 3 prochaines attaques ou sorts te ralentissent. Attends que le buff tombe.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Flux et reflux (Z) soigne beaucoup ses alliés, en trade comme en teamfight. Pense aux Blessures graves pour couper ses heals.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Slowed by her Tidal Wave (R), Tidecaller's Blessing (E) or her ADC's CC? Expect Aqua Prison (Q) right after: it's a 1.5s stun.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Before her first back, Nami is starved for mana. If she spams spells, soak it and wait: once she's dry, she can't heal or trade anymore.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Her Ebb and Flow (W) bounces back and forth between enemies and allies. Spread out from your lane partner in trades so one W can't hit you both.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Nami is very squishy and has no dash. When she walks up to poke or buff her ADC, jump on her: she melts once you reach her.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Don't waste your engage. The moment it's on cooldown, Nami steps up and pokes for free. Hold it until she overextends.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Aqua Prison (Q) is aimed at a spot on the ground. Keep moving and save your dash to dodge it: Nami misses it a lot on mobile targets.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "When Nami casts Tidecaller's Blessing (E) on her ADC, back off: their next 3 attacks or spells slow you. Let the buff run out first.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Her Ebb and Flow (W) heals her allies a lot, in trades and teamfights alike. Grievous Wounds cuts her healing down hard.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

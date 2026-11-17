@@ -10,37 +10,43 @@
         "text": "Après deux Transfusion (A), sa prochaine A est renforcée. Quand la barre rouge sous lui est pleine, recule : il gagne ce trade et se heal beaucoup plus.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "S'il utilise sa Transfusion (A) pour last hit un sbire, elle est en CD (9 s au rang 1) : c'est ta fenêtre pour trade.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Fais-lui sortir son Bain de sang (Z) d'abord : c'est son outil pour fuir et son CD est long. Engage juste après.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ne prends que les trades que tu gagnes nettement. Un échange à moitié ne sert à rien : il récupère tout grâce à son sustain.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Pendant son Bain de sang (Z), il est impossible à cibler 2 s. Garde tes skillshots et tes CC pour sa sortie au lieu de les gâcher.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ne reste pas groupé face à sa Peste sanguine (R) : elle touche une zone, et il se heal davantage pour chaque champion touché en plus.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -48,37 +54,43 @@
         "text": "After two Transfusions (Q), his next Q is empowered. When the red bar under him fills up, step back: he wins that trade and heals far more.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "If he spends Transfusion (Q) to last hit a minion, it's on cooldown (9s at rank 1): that's your window to trade.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Bait out his Sanguine Pool (W) first: it's his escape tool and has a long cooldown. Engage right after he uses it.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Only take trades you clearly win. A half-trade is wasted: his sustain lets him heal it all back.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "During Sanguine Pool (W) he's untargetable for 2s. Hold your skillshots and CC for when he pops out instead of wasting them.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Don't stack up against his Hemoplague (R): it hits an area and he heals more for every extra champion caught.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

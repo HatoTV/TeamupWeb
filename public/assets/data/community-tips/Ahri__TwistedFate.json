@@ -17,31 +17,36 @@
           "text": "Dès que Twisted Fate a utilisé sa Bonne pioche (Z), tu as environ 6 s sans menace : avance et trade à ce moment-là.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Méfie-toi de sa carte dorée : le stun lui garantit ses Atouts (A), qui s'esquivent facilement quand il les lance seuls.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Dès son lvl 6, ping sa Destinée (R) quand il disparaît et pousse ta wave au lieu de le suivre.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Cherche les combats à égalité (2v2, 3v3) : Twisted Fate vit des surnombres et reste faible à nombre égal.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Quand il prépare une carte rouge, écarte-toi de tes sbires : la carte touche et ralentit tout ce qui entoure sa cible.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "As soon as Twisted Fate spends Pick a Card (W), you get roughly six seconds without threat: step up and trade right then.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Respect his Gold Card: the stun guarantees his Wild Cards (Q), which are easy to dodge when he throws them on their own.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "From his level 6, ping Destiny (R) whenever he goes missing and shove your wave instead of following him.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "Look for even fights (2v2, 3v3): Twisted Fate thrives on numbers advantages and is weak when the numbers are equal.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "macro"
+          "category": "macro",
+          "section": "general"
         },
         {
           "text": "When he readies a Red Card, step away from your minions: the card hits and slows everything around its target.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         }
       ]
     },
@@ -83,25 +93,29 @@
           "text": "Joue autour de son Charme (E) : 12 s de CD en début de partie, donc dès qu'Ahri le rate, avance et trade.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Sans son Assaut spirituel (R), Ahri n'a plus de mobilité : attends qu'il soit utilisé pour sortir ta carte dorée.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Reste derrière tes sbires : son Charme (E) s'arrête sur le premier ennemi touché.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Son Orbe d'illusion (A) inflige des dégâts bruts au retour : après le premier passage, décale-toi pour éviter le retour.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -109,25 +123,29 @@
           "text": "Play around her Charm (E): it has a 12-second cooldown early on, so step up and trade as soon as Ahri misses it.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Without her ult (R), Ahri has no mobility left: wait until it's spent before going in with your Gold Card.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Stay behind your minions: her Charm (E) stops on the first enemy it hits.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Her Orb of Deception (Q) deals true damage on the way back: after the first pass, sidestep so the return misses you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

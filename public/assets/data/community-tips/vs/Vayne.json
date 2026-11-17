@@ -10,43 +10,50 @@
         "text": "Sa Condamnation (E) a un long CD (20 à 12 s). Attends que Vayne l'ait utilisée pour engager : sans ce sort, elle ne peut plus te repousser.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Reste loin des murs : sa Condamnation (E) ne t'étourdit que si tu percutes un mur. Méfie-toi surtout dans la jungle ou quand son jungler rôde.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Laisse Vayne pousser la wave vers ta tour et garde le freeze devant. Si tu pousses chez elle, elle te court après et tu t'exposes aux ganks.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Joue autour des buissons : hors de sa vision, Vayne ne peut pas te cibler. Fais des allers-retours pour l'empêcher de venir les warder.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "En early, respecte sa portée : concède des CS si besoin, mais reste à portée d'XP et ne meurs pas. Ton but est d'arriver à tes spikes sans retard.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Si Vayne fait sa Roulade (A) vers toi sans sbires entre vous, lance le trade aussitôt : elle vient de se mettre à ta portée.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Ses Carreaux d'argent (Z) infligent des dégâts bruts en % de tes PV max au 3e coup d'affilée. Fais des trades courts et recule avant le troisième.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Her Condemn (E) has a long cooldown (20 to 12 s). Wait for Vayne to burn it before you engage: without it, she can't push you away.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Stay away from walls: her Condemn (E) only stuns you if you slam into terrain. Be extra careful in the jungle or when her jungler is nearby.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Let Vayne push the wave into your tower and hold a freeze there. Pushing into her lets her chase you down and leaves you open to ganks.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Play around the bushes: out of her vision, Vayne can't target you. Step in and out to stop her from walking up to ward them.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Early on, respect her range: give up some CS if needed, but stay in XP range and don't die. Your goal is to hit your power spikes on time.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "If Vayne Tumbles (Q) toward you with no minions between you, start the trade right away: she just stepped into your range.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Her Silver Bolts (W) deal true damage based on your max HP on every third hit in a row. Keep trades short and back off before the third one.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

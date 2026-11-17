@@ -10,43 +10,50 @@
         "text": "Reste hors de la ligne de tes sbires : sa Lame rebondissante (A) rebondit d'eux vers toi. Écarté de la wave, tu l'obliges à choisir entre toi et le farm.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Au lvl 1, elle est très faible : ses CD sont longs et elle n'a pas encore de combo de dagues. Avance, harass-la et refuse-lui ses last hits.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Elle clear mal la wave en early : fais un slow push et garde la wave de ton côté. Elle rate des CS et doit vider son kit pour farmer.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Dès qu'une dague tombe près de toi, éloigne-toi : la ramasser réduit le CD de son Shunpo (E), et elle peut te sauter dessus une deuxième fois.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Lotus mortel (R) est canalisé : un stun, un knock-up ou un silence l'interrompt. Garde ton CC pour le couper au lieu de seulement fuir.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Garde tes skillshots de CC tant que son Shunpo (E) est dispo : elle s'en sert pour esquiver. Lance-les quand il est en CD.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Après un combo A-E, elle lance souvent sa Préparation (Z) pour gagner de la vitesse et esquiver tes sorts : attends que le boost retombe avant de les lancer.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Stay off the line of your minions: her Bouncing Blade (Q) bounces from them onto you. Standing apart from the wave forces her to pick between you and farming.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "At level 1 she's very weak: long cooldowns and no dagger combo yet. Step up, harass her and deny her last hits.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Her early waveclear is poor: slow push and keep the wave on your side. She misses CS and has to burn her whole kit to farm.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "When a dagger lands near you, walk away from it: picking it up cuts her Shunpo (E) cooldown, so she can jump on you a second time.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Death Lotus (R) is a channel: a stun, knock-up or silence cancels it. Save your CC to cut it instead of only running away.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Hold your CC skillshots while her Shunpo (E) is up: she uses it to dodge. Throw them once it's on cooldown.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "After a Q-E combo she often pops Preparation (W) for a speed burst to dodge your spells: wait for the speed to fade before throwing them.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

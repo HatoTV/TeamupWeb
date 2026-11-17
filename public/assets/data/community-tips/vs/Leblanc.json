@@ -10,49 +10,57 @@
         "text": "Joue autour de sa Distorsion (Z). Dès qu'elle l'utilise, elle n'a plus de dash pendant 15 à 10 s de CD : c'est ta fenêtre pour trade ou farm tranquille.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Si son Sceau de malveillance (A) te marque, recule pendant 3,5 s. Le prochain sort qui te touche fait exploser la marque et ajoute un gros burst.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ses Chaînes éthérées (E) s'arrêtent sur le premier ennemi touché : reste derrière tes minions. Méfie-toi quand elle les rase avec sa Distorsion (Z) pour s'ouvrir l'angle.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Dispute la prio sur les premières waves, mais pose une ward avant de push : avec ses Chaînes éthérées (E), chaque gank de son jungler devient très dangereux.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Si ton champion perd les trades contre elle, ne les prends pas : reste hors de sa portée, farm et joue le scaling.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Quand elle gâche son Sceau de malveillance (A) pour last hit, avance et trade : sans lui, elle perd l'essentiel de son burst pendant quelques secondes.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Ses Chaînes éthérées (E) ne t'enracinent qu'après 1,5 s d'attache. Dès qu'elles te touchent, éloigne-toi d'elle pour casser le lien avant le root.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sous 40 % de PV, son passif Image miroir la rend invisible 1 s et crée un clone. Ne gâche pas ton ult ou ton CC sur la copie.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Play around her Distortion (W). Once it's used she has no dash for its 15 to 10s cooldown, so that's your window to trade or farm freely.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "If her Sigil of Malice (Q) marks you, back off for 3.5s. The next ability that hits you pops the mark for a big chunk of extra damage.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ethereal Chains (E) stops on the first enemy hit, so stay behind your minions. Watch out when she clears them with Distortion (W) to open the angle.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Contest prio in the first waves, but ward before you shove. Her Ethereal Chains (E) makes every gank from her jungler a real kill threat.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "If your champ loses trades to her, don't take them. Stay out of her range, farm up and play for scaling.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "When she burns Sigil of Malice (Q) to last hit, step up and trade. Without it, most of her burst is gone for a few seconds.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Ethereal Chains (E) only roots you after 1.5s tethered. The moment it lands, walk away from her to snap the chain before the root.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Below 40% health, her Mirror Image passive makes her invisible for 1s and spawns a clone. Don't waste your ult or CC on the copy.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

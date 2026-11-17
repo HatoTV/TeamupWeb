@@ -10,49 +10,57 @@
         "text": "Son Orbe du Néant (A) lui donne 1,5 s de shield contre les dégâts magiques. Lance tes sorts juste après que Kassadin l'a utilisé : l'Orbe est alors en CD.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Avant le lvl 6, Kassadin n'a presque aucune kill pressure. Trade fort à chaque occasion pour le forcer à back tôt.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Kassadin dépend de son farm en early. Harass-le à chaque last hit, surtout sur les casters, pour lui faire perdre un max de CS.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Chaque sort lancé près de Kassadin réduit le CD de sa Pulsation (E). Évite de spammer tes sorts à son contact, sinon Kassadin te slow bien plus souvent.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Ses vrais spikes sont le lvl 11 et le lvl 16 : chaque rang de Fissure (R) réduit fortement son CD, et Kassadin enchaîne alors les blinks.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Après le lvl 6, garde tes PV hauts. Kassadin engage dès que tu es plus bas que lui, et chaque Fissure (R) enchaînée fait plus mal.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "En early, Kassadin n'a jamais la prio. Bouge en premier vers chaque skirmish et objectif : sans prio, Kassadin arrive toujours en retard.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "En mid game, Kassadin gagne souvent le 1v1 en side lane, surtout contre un mage. Évite ce duel : groupe et force les fights sur les objectifs.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "His Null Sphere (Q) gives him a 1.5 s shield against magic damage. Throw your spells right after Kassadin uses it, while Q is on cooldown.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Before level 6, Kassadin has almost no kill pressure. Trade hard whenever you can and force him to recall early.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Kassadin lives off his farm early. Harass him on every last hit, casters first, and make him bleed as much CS as possible.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Every ability cast near Kassadin lowers his Force Pulse (E) cooldown. Don't spam spells right next to him, or he slows you far more often.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "His real spikes are level 11 and 16: each Riftwalk (R) rank cuts its cooldown hard, letting Kassadin chain blinks.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "After level 6, keep your HP high. Kassadin goes in once you're lower than him, and each chained Riftwalk (R) hits harder.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Early on, Kassadin never has prio. Move first to every skirmish and objective; without prio, he always shows up late.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "In mid game, Kassadin often wins side lane 1v1s, especially against mages. Skip that duel: group up and force fights around objectives.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       }
     ]
   },

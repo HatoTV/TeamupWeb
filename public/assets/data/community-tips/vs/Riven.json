@@ -10,43 +10,50 @@
         "text": "Si Riven active sa Bravoure (E), ne lâche pas ton burst dans le bouclier : attends qu'il expire (1,5 s), puis frappe.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Ses Ailes brisées (A) se relancent deux fois et le dernier saut te projette 0,75 s. Garde ton dash ou ton CC pour esquiver ou couper ce troisième coup.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Quand Riven utilise ses Ailes brisées (A) sur les sbires, lance le trade : le sort a 13 s de CD et elle perd son principal outil d'engage.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "N'ouvre pas le trade avec ton sort clé : Riven te rattrape et gagne l'échange. Laisse-la engager, puis riposte à la fin de son combo.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Riven est melee et doit s'approcher pour last hit. Punis chaque approche, puis garde la wave près de ta tour pour priver Riven de CS.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Si tu la prives de farm, Riven part roam. Ping ton équipe dès qu'elle quitte la lane et prends plates et XP pour punir.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Au lvl 6, sa Lame de l'exilée (R) lui donne AD et portée. Sa réactivation tape plus fort sur une cible basse : ne reste pas à mi-PV près d'elle.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "If Riven pops Valor (E), don't dump your burst into the shield: wait the 1.5 s for it to expire, then hit her.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Broken Wings (Q) can be recast twice, and the last leap knocks you up for 0.75 s. Save your dash or CC to dodge or stop that third hit.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "When Riven spends Broken Wings (Q) on minions, go for the trade: it's on a 13 s cooldown and she loses her main gap closer.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Don't open the trade with your key spell: Riven will jump on you and win it. Let her commit first, then hit back as her combo ends.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Riven is melee and has to walk up to last hit. Punish every step toward the minions, then hold the wave near your tower to starve her of CS.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Once you deny her farm, Riven starts roaming. Ping your team the moment she leaves lane, and punish by taking plates and XP.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "At level 6, Blade of the Exile (R) grants her AD and range, and its Wind Slash hits harder the lower you are. Don't linger near Riven at half HP.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

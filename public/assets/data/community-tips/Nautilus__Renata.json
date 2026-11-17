@@ -17,13 +17,15 @@
           "text": "Choisis bien ton engage : après ton Abordage (A), tu n'as aucun moyen de repartir, et Renata est faite pour punir ce genre d'engage.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Évite les fights dans les couloirs étroits de la jungle : sa Prise de contrôle hostile (R) rend fous furieux tous les ennemis qu'elle touche.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "Pick your engage carefully: after Dredge Line (Q) you have no way out, and Renata is built to punish exactly that kind of commit.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Avoid fighting in narrow jungle corridors: her Hostile Takeover (R) sends every enemy it hits berserk.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -47,7 +51,8 @@
           "text": "Laisse Nautilus venir à toi : une fois collé à toi après son hook, il n'a plus de porte de sortie et ton ADC peut le punir.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         }
       ],
       "en": [
@@ -55,7 +60,8 @@
           "text": "Let Nautilus come to you: once he's on top of you after the hook, he has no exit and your ADC can punish him.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         }
       ]
     }

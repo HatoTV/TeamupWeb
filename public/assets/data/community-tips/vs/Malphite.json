@@ -10,31 +10,36 @@
         "text": "Dès le lvl 6, respecte sa Force indomptable (R). Son CD est long (130 à 100 s) : trade ou dive une fois qu'il l'a déjà utilisée.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Choc au sol (E) réduit ta vitesse d'attaque. Si tu dépends de tes autos, attends qu'il l'ait lancé avant d'all-in : il a 7 s de CD.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Éclat sismique (A) te slow et lui vole cette vitesse pendant 3 s. Touché par son A, évite de le chase : il repart plus vite que toi.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Éclat sismique (A) coûte 70 à 90 de mana. S'il le spam, il se retrouve vite à sec : profite de ce moment pour trade.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "En teamfight, ne reste pas collé à tes alliés : sa Force indomptable (R) projette en l'air tous les ennemis autour de son point d'arrivée.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ],
     "en": [
@@ -42,31 +47,36 @@
         "text": "From lvl 6, respect his Unstoppable Force (R). Its cooldown is long (130 to 100 s), so trade or dive once he has burned it.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Ground Slam (E) cuts your attack speed. If you rely on autos, wait for him to use it before you all-in. It's on a 7 s cooldown.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Seismic Shard (Q) slows you and steals that speed for 3 s. If it hits you, don't chase him: he'll simply outrun you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "His Seismic Shard (Q) costs 70 to 90 mana. If he spams it, he runs dry fast. Punish him with a trade once he's out of mana.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "In teamfights, spread out from your allies. His Unstoppable Force (R) knocks up every enemy around the spot where he lands.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       }
     ]
   },

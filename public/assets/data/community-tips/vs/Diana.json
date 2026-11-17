@@ -10,43 +10,50 @@
         "text": "Avance puis recule à la limite de portée de son Croissant lunaire (A) pour le baiter. Dès qu'elle le rate, trade pendant son CD.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Joue agressif aux lvl 1 et 2, son kit est incomplet. Dès le lvl 3, avec Corps célestes (Z) et Rush lunaire (E), respecte ses all-in.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Ne trade pas dans son Corps célestes (Z) : le bouclier absorbe tes dégâts pendant qu'elle te frappe. Attends qu'il expire ou qu'elle l'ait gâché.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Garde la wave de ton côté. Sans vrai escape, Diana doit s'avancer loin pour farmer, et ton jungler la punit facilement sur un gank.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Si elle gâche son Croissant lunaire (A) ou son Corps célestes (Z) sur les sbires, engage tout de suite : sans eux, son trade ne tient pas.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Quand elle push la wave la première, elle a le first move. Surtout après le lvl 6, warde son chemin de roam et ping dès qu'elle disparaît.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Son Rush lunaire (E) n'a pas de CD sur une cible marquée par son Croissant lunaire (A). Esquive-le : sans reset, son E reste 22 s en CD (rang 1).",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Step in and back out at the edge of her Crescent Strike (Q) range to bait it. Once she misses, trade while it's on cooldown.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Play aggressive at levels 1 and 2 while her kit is incomplete. From level 3, with Pale Cascade (W) and Lunar Rush (E), respect her all-ins.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Don't trade into her Pale Cascade (W): the shield soaks your damage while she hits you. Wait for it to fade or get wasted first.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Keep the wave on your side. With no real escape, Diana must walk deep to farm, which sets up easy ganks for your jungler.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "If she burns Crescent Strike (Q) or Pale Cascade (W) on minions, go in right away: without them, her trades fall apart.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "When she shoves first, she gets the first move. Especially after level 6, ward her roam path and ping your team the moment she vanishes.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Lunar Rush (E) has no cooldown on a target marked by Crescent Strike (Q). Dodge the Q: without the reset, her dash sits on 22 s at rank 1.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

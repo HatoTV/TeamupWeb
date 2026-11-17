@@ -10,49 +10,57 @@
         "text": "Sett a l'un des lvl 1 les plus forts du jeu. Ne prends pas de trade long au lvl 1 et méfie-toi du brush d'où Sett te zone de l'XP.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Sett manque de mobilité. Kite-le et garde tes distances : les champions ranged ou capables de le zoner lui posent de gros problèmes.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Coup cathartique (Z) inflige des dégâts bruts au centre du cône et moins sur les côtés. Quand Sett le lance, décale-toi vers un bord.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Les dégâts que Sett subit remplissent la jauge de Coup cathartique (Z), mais la jauge se vide vite. Laisse passer son bouclier ou quelques secondes avant de retrade.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sett joue autour de gros CD. Quand Sett rate Casse-tête (E) ou gaspille Coup cathartique (Z), engage le trade avant leur retour.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Ne t'avance pas trop près de la tour de Sett : son Casse-tête (E) ou son ult (R) peut te ramener dessous pour un kill facile.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Ne laisse pas Sett se placer entre toi et tes minions : Casse-tête (E) ne stun que si Sett attrape des ennemis des deux côtés.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Le Clou du spectacle (R) frappe autour du point d'impact selon les PV bonus de la cible. Quand Sett attrape ton tank, écarte-toi de la zone d'atterrissage.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Sett's level 1 ranks among the best in the game. Avoid long trades at level 1, and watch the brush he uses to zone you off XP.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Sett lacks mobility. Kite him and keep your distance: ranged champs or anyone who can zone him give him a hard time.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Haymaker (W) deals true damage in the center of the cone and less on the edges. When Sett throws it, sidestep toward an edge.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Damage Sett takes fills his Haymaker (W) gauge, but it drains fast. Let his shield or a few seconds pass before you trade again.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sett plays around big cooldowns. When he misses Facebreaker (E) or wastes Haymaker (W), go for the trade before they're back.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Don't step too close to Sett's tower: Facebreaker (E) or his ult (R) can drag you under it for an easy kill.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Don't let Sett get between you and your minions: Facebreaker (E) only stuns if he grabs enemies on both sides.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "The Show Stopper (R) hits around the landing spot based on the grabbed target's bonus health. When Sett grabs your tank, get away from the impact zone.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -17,25 +17,29 @@
           "text": "Profite de ta portée en début de lane pour prendre la prio et pousser : Zeri a du mal à contester la wave.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Respecte son lvl 6 : c'est son gros pic de puissance, surtout si elle a un niveau d'avance sur toi.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Ne lance pas tous tes sorts sur la wave quand elle est proche : ta Floraison mortelle (Z) a 12 s de CD, et Zeri en profitera pour engager.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Sur un gank, pense aux murs : sa Charge ionique (E) passe par-dessus le terrain et lui sert de fuite.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Use your range early in lane to take priority and shove: Zeri struggles to contest the wave.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Respect her level 6: it's her big power spike, especially if she's a level ahead of you.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Don't dump all your spells on the wave when she's close: Deadly Flourish (W) has a 12-second cooldown and she'll use that window to go in.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "When ganking her, mind the walls: Spark Surge (E) vaults over terrain and is her escape.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -71,25 +79,29 @@
           "text": "En début de lane, Jhin a plus de portée et pousse mieux : ne force pas la prio, joue safe et garde tes PV.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Ton lvl 6 est ton gros pic de puissance : si tu y arrives avant lui, mets-lui la pression et cherche le fight.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Quand il vient de lancer ses sorts sur la wave, engage : sa Floraison mortelle (Z) a 12 s de CD.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Ta Charge ionique (E) passe par-dessus les murs : sers-t'en pour fuir un gank.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -97,25 +109,29 @@
           "text": "Early in lane, Jhin outranges you and shoves faster: don't force priority, play safe and keep your HP.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Level 6 is your big power spike: if you reach it before him, pressure him and look for a fight.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Right after he uses his spells on the wave, go in: Deadly Flourish (W) has a 12-second cooldown.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Spark Surge (E) vaults over walls: use it to escape a gank.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

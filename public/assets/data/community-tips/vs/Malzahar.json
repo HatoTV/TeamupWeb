@@ -10,31 +10,36 @@
         "text": "Son Plan du Néant (passif) réduit fortement les dégâts qu'il subit. Casse ce passif avec un poke, puis trade vite, avant que le passif revienne.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Si tu portes ses Visions maléfiques (E), son Appel du Néant (A) ou sa Poigne du Néant (R) les relance. Esquive l'Appel pour couper ces dégâts sur la durée.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Dès le lvl 6, reste hors de portée de sa tour. Sa Poigne du Néant (R) te neutralise 2,5 s sous la tour : souvent un kill gratuit.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Avant le lvl 7, ses Visions maléfiques (E) font peu de dégâts. Encaisse-les sans hésiter plutôt que de rater tes last hits.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Si une cible meurt sous ses Visions maléfiques (E), l'effet saute sur l'ennemi le plus proche. Colle-toi au sbire mourant : tu prends le E à sa place.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -42,31 +47,36 @@
         "text": "His Void Shift (passive) massively cuts the damage he takes. Pop it with a poke first, then trade fast before it comes back.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "While his Malefic Visions (E) is on you, Call of the Void (Q) or Nether Grasp (R) refreshes it. Dodge the Q to cut that damage over time short.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "From level 6, stay out of his tower range. Nether Grasp (R) suppresses you for 2.5 s under it, which is often a free kill.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Before level 7, his Malefic Visions (E) barely hurts. Eat it without worry rather than missing your last hits.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "When a target dies with Malefic Visions (E) on it, the effect jumps to the nearest enemy. Hug the dying minion so it lands on you, not the next minion.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

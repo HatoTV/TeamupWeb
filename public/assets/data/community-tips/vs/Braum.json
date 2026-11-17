@@ -10,43 +10,50 @@
         "text": "Ne gaspille pas ton hook ou tes skillshots dans son Incassable (E). Attends qu'il le baisse : il reste ensuite en CD 8 à 16 s.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "En support ranged, poke Braum en continu : il manque d'engage fiable et perd la guerre du poke, même en bloquant quelques sorts.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Si Braum te pose un stack de Coups étourdissants (auto ou A), recule : les autos de son ADC empilent aussi, et 4 stacks te stun.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Sa Morsure de l'hiver (A) s'arrête sur le premier ennemi touché : reste derrière tes sbires et surveille les bushes, d'où Braum aime la lancer.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Méfie-toi de ses sbires proches de toi : Braum peut y sauter avec son Bouclier humain (Z), puis te slow avec sa Morsure de l'hiver (A).",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Pour engage à travers Braum, utilise un dash ou un saut : son Incassable (E) n'intercepte que les projectiles.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Avec sa Fissure glaciale (R) up, réfléchis avant de plonger sur son carry : Braum la garde pour te knock-up dès que tu arrives au contact.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Don't throw your hook or skillshots into his Unbreakable (E). Wait for him to drop it: it then sits on an 8 to 16 s cooldown.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "As a ranged support, keep poking Braum: he has no reliable engage and can't win the poke war, even if his shield eats a few spells.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Once Braum marks you with Concussive Blows (auto or Q), back off: his ADC's autos add stacks too, and 4 stacks stun you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Winter's Bite (Q) stops on the first enemy hit: stay behind your minions and watch the bushes, where Braum likes to fire it unseen.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Watch his minions near you: Braum can hop onto one with Stand Behind Me (W), then slow you with Winter's Bite (Q) from much closer.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "To engage through Braum, use a dash or a leap: Unbreakable (E) only intercepts projectiles.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "If Glacial Fissure (R) is up, think twice before diving his carry: Braum holds it to knock you up the moment you jump in.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

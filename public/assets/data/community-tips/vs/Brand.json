@@ -10,49 +10,57 @@
         "text": "Sa Brûlure (A) n'étourdit que si tu brûles déjà. Dès qu'un sort de Brand te touche, sors de la ligne du A ou cache-toi derrière tes minions.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "À 3 cumuls de Flammes, un cercle apparaît sous toi et explose 2 s plus tard. Écarte-toi aussitôt de tes alliés pour ne pas les brûler aussi.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sa Pyrolyse (R) rebondit entre les cibles proches, minions compris. Quand Brand a son R, ne reste pas au milieu de ta wave ni collé à tes alliés.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sa Conflagration (E) lancée sur un minion en feu se propage bien plus loin. Éloigne-toi des minions touchés par son Z pour éviter le poke gratuit.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Brand attend le lvl 3 pour avoir son combo complet avec stun. Joue agressif avant, puis respecte ses trades dès que Brand a ses trois sorts.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Brand manque souvent de mana en early. Bait ses sorts, puis trade quand sa jauge est basse : Brand ne peut alors plus te punir.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Brand n'a aucun dash. Juste après sa Brûlure (A), engage ou colle-le : sans ce sort, Brand ne peut ni t'étourdir ni s'enfuir.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Sa Colonne de flammes (Z) frappe après un court délai. Dès que tu vois le cercle au sol, sors-en : c'est son principal poke en lane.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Sear (Q) only stuns you if you're already ablaze. Once any Brand spell lands on you, step out of the Q line or hide behind your minions.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "At three Blaze stacks a ring shows up under you and blows up two seconds later. Move away from your allies right away so they don't burn too.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Pyroclasm (R) bounces between nearby targets, minions included. When Brand has R up, don't stand inside your wave or stack on your allies.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Conflagration (E) cast on a burning minion spreads much wider. Stay away from minions his W just hit to avoid free poke.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Brand waits for level 3 to get his full stun combo. Play aggressive before that, then respect his trades once he has all three spells.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Brand often runs dry on mana early. Bait out his spells, then trade when his bar is low, since he can no longer punish you.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Brand has no dash. Right after he throws Sear (Q), jump on him: without it he can neither stun you nor escape.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Pillar of Flame (W) lands after a short delay. The moment you see the circle on the ground, walk out: it's his main lane poke.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ]
   },

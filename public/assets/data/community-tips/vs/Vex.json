@@ -10,43 +10,50 @@
         "text": "Surveille Malheur et Désespoir (passif) : prêt, il fait fear avec le prochain sort de Vex. Une fois le fear utilisé, c'est ta fenêtre pour trade ou all-in.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Hors de son Déferlement d'Ombre (R), Vex n'a aucune mobilité. Quand son R est en CD, engage : Vex doit flash pour survivre à ton combo.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Vex ne peut pas se soigner. Prends des trades courts et reste haut en PV : sur la durée de la lane, tu gagnes la guerre du sustain.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Les solo kills sur Vex sont durs à trouver. Push la wave, prends la prio et sers-t'en pour roam ou aider ton jungler sur les objectifs.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Chaque dash près de Vex te marque : son Mistral perdant (A) ou son Lâchez-moi ! (Z) consomme la marque, fait des dégâts bonus et recharge son fear.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Avant un all-in au contact, vérifie son Lâchez-moi ! (Z) : avec le passif prêt, Vex prend un shield et te fear instantanément autour d'elle.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Si le Déferlement d'Ombre (R) de Vex te marque, recule ou fais-toi peel : si tu meurs, son R se recharge et Vex enchaîne sur ton équipe.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "Track Doom 'n Gloom (passive). When it's charged, Vex's next spell fears. Once she has spent the fear, that's your window to trade or all-in.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Outside Shadow Surge (R), Vex has no mobility at all. With her R on cooldown, go in: she has to flash or die to your combo.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Vex can't heal herself at all. Take short trades, keep your HP high, and over the whole lane you'll win the sustain battle.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Solo killing Vex is hard. Shove the wave, grab prio and use it to roam or join your jungler on objectives.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Every dash near Vex marks you. Her Mistral Bolt (Q) or Personal Space (W) then pops the mark for bonus damage and lowers her fear's cooldown.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Before you all-in at close range, check her Personal Space (W). With her passive charged, Vex shields herself and fears you instantly around her.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "If Vex's Shadow Surge (R) marks you, back off or ask for peel. If you die, her R resets and she chains onto your team.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

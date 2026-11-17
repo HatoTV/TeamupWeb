@@ -17,31 +17,36 @@
           "text": "Dès son lvl 6, évite les trades longs tant que son Éruption électrique (R) est disponible : Zeri y gagne vitesse d'attaque, vitesse de déplacement et burst.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Attends qu'elle grille sa Charge ionique (E) avant de rappeler tes plumes : sans ce dash, Zeri ne peut plus esquiver ton Appel des lames (E).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Avant le lvl 6, Zeri a peu d'outils pour te punir : concentre-toi sur ton farm, vous scalez bien tous les deux.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Son Éruption électrique (R) a un CD bien plus court que ta Rafale de plumes (R) : après un échange d'ults, Zeri retrouve le sien bien avant toi.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Un gank sur Zeri est difficile : sa Charge ionique (E) passe par-dessus les murs et allonge beaucoup sa fuite.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -49,31 +54,36 @@
           "text": "From level 6, avoid long trades while her Lightning Crash (R) is up: it gives Zeri attack speed, move speed and burst.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Wait for her to burn Spark Surge (E) before recalling your feathers: without that dash, Zeri can no longer dodge your Bladecaller (E).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Before level 6, Zeri has few tools to punish you: focus on your farm, since you both scale well.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Her Lightning Crash (R) has a much shorter cooldown than your Featherstorm (R): after trading ults, Zeri gets hers back long before you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ganking Zeri is hard: her Spark Surge (E) vaults over walls and greatly extends her escape.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -83,31 +93,36 @@
           "text": "Après le lvl 6, cherche les trades avec ton Éruption électrique (R) : le bonus de vitesse et le burst te font gagner les échanges.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Garde ta Charge ionique (E) pour esquiver ses plumes : quand Xayah les rappelle avec son Appel des lames (E), elles peuvent te root.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ton Éruption électrique (R) revient bien plus vite que sa Rafale de plumes (R) : profite des moments où Xayah n'a plus son ult.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ta Rafale (A) porte plus loin que les autos de Xayah : touche-la à distance sans entrer dans ses lignes de plumes.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "En cas de gank, passe par-dessus un mur avec ta Charge ionique (E) : franchir le terrain allonge beaucoup ton dash.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -115,31 +130,36 @@
           "text": "After level 6, look for trades with Lightning Crash (R): the speed boost and burst let you win the exchanges.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Save Spark Surge (E) to dodge her feathers: when Xayah calls them back with Bladecaller (E), they can root you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Your Lightning Crash (R) comes back much faster than her Featherstorm (R): punish the windows when Xayah has no ult.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Your Burst Fire (Q) reaches further than Xayah's autos: hit her from range without stepping into her feather lines.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "If they gank, vault over a wall with Spark Surge (E): going over terrain greatly extends your dash.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

@@ -10,49 +10,57 @@
         "text": "Son Filet de calibre 90 (E) est sa seule fuite. Bait-le en avançant puis recule. Dès qu'il est en CD, all-in, Caitlyn ne peut plus te kite.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Son Pacificateur de Piltover (A) a un temps de charge visible : décale-toi dès qu'elle vise. Depuis un buisson, Caitlyn cache l'animation, donc bouge sans arrêt.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Sur les deux premières waves, elle push en touchant la wave et toi avec son A. Ne lutte pas pour la prio, farme sous ta tour et garde tes PV.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Au lvl 1, elle gagne les fights dans les buissons de lane. Ne facecheck pas et ne la suis pas dedans : contrôle-les avec ton support.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Son Piège-yordle (Z) te root 1,5 s : son A puis un Tir dans la tête à double portée suivent. Contourne ses pièges au clic, surtout près de ta tour.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Elle push beaucoup et n'a que son E pour fuir. Quand elle s'avance vers ta tour, préviens ton jungler : c'est le moment du gank.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Reste derrière tes minions : son A fait moins de dégâts après la première cible touchée. Seule une cible révélée par un Piège-yordle (Z) prend tout.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Elle lance souvent son Tir chirurgical (R) pour poke avant un fight. Un allié peut se placer sur la trajectoire pour prendre le tir à ta place.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Her 90 Caliber Net (E) is her only escape. Bait it by stepping forward, then back off. Once it's on cooldown, all-in: she can't kite you anymore.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Her Piltover Peacemaker (Q) has a clear wind-up: sidestep as soon as she aims. From a bush she hides the animation, so keep moving.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "On the first two waves she shoves by hitting both the wave and you with Q. Don't fight for priority: farm under your tower and save your HP.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "At level 1 she wins fights in the lane bushes. Don't facecheck or chase her in there: control them with your support.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "avoid"
       },
       {
         "text": "Her Yordle Snap Trap (W) roots you for 1.5 s, then her Q and a double-range Headshot follow. Path around her traps manually, especially near your tower.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "She pushes a lot and only has E to escape. When she overextends toward your tower, ping your jungler: that's your gank window.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Stand behind your minions: her Q deals less damage after the first target hit. Only a target revealed by her Yordle Snap Trap (W) takes full damage.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "She often fires Ace in the Hole (R) as poke before fights. An ally can step into its path and take the shot for you.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

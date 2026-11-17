@@ -17,19 +17,22 @@
           "text": "Après son Descendre en piqué (Z), Rell est à pied et ralentie : c'est ta fenêtre pour la punir.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Évite les combats longs : grâce à sa Mise en pièces (passif), chaque coup de Rell te vole de l'armure et de la résistance magique.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Après le lvl 6, ne plonge pas sur Rell : sa Tempête magnétique (R) attire puis retient tous les ennemis proches.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ],
       "en": [
@@ -37,19 +40,22 @@
           "text": "After Crash Down (W), Rell is dismounted and slowed: that's your window to punish her.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Avoid long fights: Break the Mold (passive) lets every Rell hit steal some of your Armor and Magic Resist.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "After level 6, don't dive Rell: Magnet Storm (R) pulls in nearby enemies and keeps dragging them toward her.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         }
       ]
     },
@@ -59,13 +65,15 @@
           "text": "Engage pendant le CD de son Incassable (E) : sans lui, Braum ne peut plus bloquer les attaques de ton ADC pendant ton all-in.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Esquive sa Morsure de l'hiver (A) : elle te ralentit et pose une charge de Coups étourdissants (passif) que son ADC peut transformer en stun.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -73,13 +81,15 @@
           "text": "Engage while Unbreakable (E) is on cooldown: without it, Braum can't block your ADC's attacks during your all-in.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Dodge Winter's Bite (Q): it slows you and applies a Concussive Blows (passive) stack that his ADC can turn into a stun.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

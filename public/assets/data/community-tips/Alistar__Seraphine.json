@@ -17,37 +17,43 @@
           "text": "Séraphine veut scaler : mets-lui la pression tôt avec tes engages pour l'empêcher d'arriver tranquille en milieu de partie.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Séraphine manque de mobilité : si elle se place mal, Coup de tête (Z) + Atomisation (A) et ton ADC finit le travail.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Garde ta Volonté de fer (R) pour son Bis (R) : ton ult efface le charme et te laisse contre-engager aussitôt.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Son Son ambiophonique (Z) a un long CD (22 s) : engage dès que Séraphine l'a lancé, son bouclier ne revient pas de sitôt.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ne prends pas son Bis (R) devant tes alliés : chaque champion touché prolonge sa portée vers ceux qui sont derrière toi.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Surveille sa Présence sur scène : son troisième sort part deux fois, évite d'engager quand Séraphine l'a en réserve.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -55,37 +61,43 @@
           "text": "Seraphine wants to scale: pressure her early with your engages so she can't reach midgame comfortably.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Seraphine lacks mobility: if she's out of position, Headbutt (W) + Pulverize (Q) and your ADC finishes the job.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Hold Unbreakable Will (R) for her Encore (R): your ult cleanses the charm and lets you counter-engage right away.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Surround Sound (W) has a long cooldown (22 s): engage as soon as Seraphine uses it, her shield won't be back soon.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Don't take her Encore (R) in front of your allies: each champion hit extends its range to those behind you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Watch Stage Presence: her third spell casts twice, so avoid engaging while Seraphine has it ready.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -95,25 +107,29 @@
           "text": "Alistar veut te punir avant que tu scales : reste hors de portée de son Coup de tête (Z), une seule prise et son ADC te tue.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "Ta Note aiguë (A) porte plus loin que son Coup de tête (Z) : poke-le de loin sans entrer dans sa zone d'engage.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Ne gaspille pas Bis (R) sur Alistar quand sa Volonté de fer (R) est prête : il se libère du charme et contre-engage.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "S'il t'engage, ton Battement (E) le ralentit pour que tu recules, et l'immobilise s'il est déjà ralenti.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -121,25 +137,29 @@
           "text": "Alistar wants to punish you before you scale: stay out of Headbutt (W) range, one catch and his ADC kills you.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "general"
         },
         {
           "text": "High Note (Q) outranges his Headbutt (W): poke him from afar without stepping into his engage zone.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Don't waste Encore (R) on Alistar while Unbreakable Will (R) is up: he breaks free of the charm and counter-engages.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "If he engages you, Beat Drop (E) slows him so you can back off, and roots him if he's already slowed.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

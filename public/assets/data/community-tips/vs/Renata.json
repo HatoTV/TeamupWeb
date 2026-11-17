@@ -10,49 +10,57 @@
         "text": "Quand la cible de son Patronage (Z) devrait mourir, elle revient full vie puis se vide en 3 s. Recule et kite : sans kill ni assist, elle meurt.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Renata n'a aucun dash et subit le poke. Harcèle-la à distance toute la lane, elle peine à répondre.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Ses trades reposent sur son Programme de fidélité (E), au CD long en early. Esquive-le, puis trade tant qu'il est en CD.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Sans mobilité, Renata dépend de sa Poignée de main (A), dont le CD reste long à tous les rangs. Si elle la rate, va all-in.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "N'engage pas tête baissée sur elle : sa Prise de contrôle hostile (R) est un excellent disengage. Force les fights une fois qu'elle l'a utilisée.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "Si sa Poignée de main (A) immobilise ton allié, écarte-toi de lui : elle peut te le projeter dessus et vous étourdir tous les deux.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Écarte-toi de tes alliés en fight : sa Prise de contrôle hostile (R) pousse les ennemis touchés à frapper d'abord leur allié le plus proche.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Ses sorts coûtent cher : A et Z valent 80 mana, E 70 au rang 1. Si elle spamme son E en lane, elle sera vite à sec.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "When her Bailout (W) target should die, they reset to full HP, then drain over 3s. Back off and kite: without a takedown, they die.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Renata has no dash and hates poke. Harass her from range all lane long; she has a hard time answering.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Her trades revolve around Loyalty Program (E), which has a long early cooldown. Dodge it, then trade while it's down.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "With no mobility, Renata leans on Handshake (Q), whose cooldown stays long at every rank. If she misses it, go for the all-in.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Don't blindly engage into her: Hostile Takeover (R) is a top-tier disengage. Force fights once she has burned it.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "If Handshake (Q) roots your ally, step away from them: she can throw them into you and stun you both.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Spread out in fights: Hostile Takeover (R) makes the enemies it hits attack their nearest ally first.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Her spells are mana-hungry: Q and W cost 80, E costs 70 at rank 1. If she spams E in lane, she runs dry fast.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ]
   },

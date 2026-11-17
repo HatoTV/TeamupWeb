@@ -10,49 +10,57 @@
         "text": "Au lvl 1 et 2, Qiyana est très faible. Trade fort et entame ses PV avant qu'elle ait ses trois sorts.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Dès son lvl 6, ne reste pas près des murs, de la rivière ou des buissons : son Tour de force suprême (R) étourdit tout le long du terrain touché.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Arme bleue = élément rivière. Son Courroux élémentaire (A) t'immobilise puis te ralentit : esquive-le, surtout si son jungler est proche.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Slow push les premières waves, puis crash-les sous sa tour. Elle perd des CS et tu la harcèles pendant qu'elle farm.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Le lvl 3 est son pic d'all-in. Arrive-y avant elle ou en même temps, avec tes PV au max, sinon recule.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Ne reste pas collé aux sbires presque morts : elle y lance ses sorts de zone et utilise son Audace (E) sur eux pour te rejoindre.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Ne facecheck pas les buissons. Qiyana s'y cache dès le lvl 1 et plus tard pour sauter sur toi : pose une ward avant.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "Quand elle lance son Courroux élémentaire (A) avec l'élément buisson, Qiyana devient invisible dans la traînée d'herbe. Garde tes skillshots jusqu'à ce qu'elle réapparaisse.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Qiyana is really weak at levels 1 and 2. Trade hard and chunk her HP before she unlocks all three basic abilities.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "From her level 6, stay off walls, river and brushes: her Supreme Display of Talent (R) stuns along the whole edge of the terrain it hits.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Blue weapon means river element. Her Elemental Wrath (Q) roots then slows you, so sidestep it, especially when her jungler is nearby.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Slow push the first waves, then crash them under her tower. She loses CS and you get free harass while she farms.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Level 3 is her all-in spike. Hit it before or with her and at full HP, otherwise back off.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Don't stand next to low-health minions: she aims her AoE spells there and uses Audacity (E) on them to reach you.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Don't facecheck brushes. Qiyana hides in them from level 1 and later on to jump you, so ward first.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "avoid"
       },
       {
         "text": "When she casts Elemental Wrath (Q) with brush element, she goes invisible in the grass trail. Hold your skillshots until she shows up again.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

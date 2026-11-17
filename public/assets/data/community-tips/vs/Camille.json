@@ -10,49 +10,57 @@
         "text": "Son bouclier de Protection modulable s'active sur sa première auto contre toi. Fais-le sortir avec un short trade, recule, puis engage pendant son CD.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Camille est faible tôt et a besoin de temps pour scale. Joue agressif du lvl 1 au lvl 5 pour prendre l'avance avant qu'elle monte en puissance.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Son Grappin (E) est sa seule vraie fuite. Si elle le grille pour engager, punis-la par un all-in ou un gank, car Camille ne peut plus repartir.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Elle cherche à baiter ton sort clé avant de sauter. Garde ton CC pour son Grappin (E) plutôt que de le gaspiller sur ses trades.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Après son premier Protocole de précision (A), recule : le second coup fait bien plus mal et passe en dégâts bruts si elle attend avant de le placer.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Balayage tactique (Z) part après un délai. Le bord extérieur du cône te ralentit et la soigne : colle-toi à elle ou sors complètement de la zone.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Son Ultimatum Hextech (R) t'enferme dans une zone dont rien ne te fait sortir. Ne gaspille pas tes dashs pour fuir : riposte ou temporise.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Son Grappin (E) doit s'accrocher à un mur. Loin des murs, elle a bien moins d'angles d'engage : prends tes trades au milieu de la lane.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ],
     "en": [
@@ -60,49 +68,57 @@
         "text": "Her Adaptive Defenses shield pops on her first auto against you. Bait it out with a short trade, step back, then go in while it's on cooldown.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Camille is weak early and needs time to scale. Play aggressive from level 1 to 5 and get ahead before she comes online.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Hookshot (E) is her only real escape. If she burns it to engage, punish with an all-in or a gank: she can't get out anymore.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "She wants to bait your key spell before jumping in. Hold your CC for her Hookshot (E) instead of wasting it on her trades.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "After her first Precision Protocol (Q), back off: the recast hits much harder and turns into true damage if she delays it.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Tactical Sweep (W) fires after a wind-up. Its outer edge slows you and heals her: hug her or walk fully out of the cone.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "The Hextech Ultimatum (R) traps you in a zone nothing can break you out of. Don't waste your dashes trying to flee: fight back or stall.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Hookshot (E) needs a wall to latch onto. Away from walls she has far fewer engage angles, so take your trades in the middle of the lane.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       }
     ]
   },

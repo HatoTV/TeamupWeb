@@ -10,31 +10,36 @@
         "text": "Ne poursuis pas Singed : sa Piste empoisonnée (A) te ronge pendant toute la chasse, et pendant ce temps tu perds ta wave et ton temps.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Évite les fights longs pendant la Potion de démence (R) de Singed : la potion lui donne de grosses stats. Engage plutôt quand son ult est en CD.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Surveille la mana de Singed. À sec, Singed ne peut plus pousser ni proxy longtemps : barre-lui la route au lieu de le laisser farmer.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Quand Singed proxy derrière ta tour, ne le chase pas seul : punis-le avec ton jungler. Sinon, farm ta wave et bouge en premier sur la map.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Garde tes distances : sa Projection (E) te lance derrière Singed, vers ses alliés, et te root si tu atterris dans son Attrape-mouche (Z), qui bloque aussi tes dash.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -42,31 +47,36 @@
         "text": "Don't chase Singed. His Poison Trail (Q) keeps eating your HP the whole way, and meanwhile you're losing your wave and wasting time.",
         "sources": 3,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Avoid long fights while Singed's Insanity Potion (R) is active; it gives him huge stats. Pick your fights when his ult is on cooldown.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "avoid"
       },
       {
         "text": "Track Singed's mana. Once he's dry, he can't keep shoving or proxying for long, so block his path instead of letting him farm.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "When Singed proxies behind your tower, don't chase him alone; punish him with your jungler. Otherwise, farm your wave and move first on the map.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "lane"
       },
       {
         "text": "Keep your distance. Fling (E) tosses you behind Singed, toward his team, and roots you if you land in Mega Adhesive (W), which also stops your dashes.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -17,25 +17,29 @@
           "text": "Reste derrière tes sbires : son Coup de langue (A) s'arrête sur la première unité touchée.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Ne prends pas trois coups de suite : à 3 cumuls de Goût acquis, son Coup de langue (A) t'étourdit et Tahm peut te dévorer.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Quand Tahm active Peau épaisse (E), recule : attends la fin du bouclier avant de revenir trade.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Si Tahm s'approche pour te dévorer, toi ou ton ADC, transforme-le avec Fantaisie (Z) : plus aucun sort ne peut partir.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Stay behind your minions: Tongue Lash (Q) stops on the first unit it hits.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Don't take three hits in a row: at 3 stacks of An Acquired Taste, Tongue Lash (Q) stuns you and he can Devour you.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "When he pops Thick Skin (E), back off: wait for the shield to expire before trading again.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "If he moves in to Devour you or your ADC, polymorph him with Whimsy (W): he can't cast anything.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -71,25 +79,29 @@
           "text": "Avant de lancer Dévoration (R), attends que Lulu ait utilisé sa Fantaisie (Z) : transformé, tu ne peux plus lancer de sort.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Ton Coup de langue (A) s'arrête sur le premier sbire touché : cherche un angle dégagé quand Lulu se cache derrière sa wave.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "Si Lulu se tient trop près, ralentis-la avec Coup de langue (A) puis enchaîne tes autos.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Touche Lulu trois fois pour cumuler Goût acquis : ton Coup de langue (A) l'étourdit alors et Dévoration (R) devient possible.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -97,25 +109,29 @@
           "text": "Before going for Devour (R), wait for Lulu to use Whimsy (W): polymorphed, you can't cast anything.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Tongue Lash (Q) stops on the first minion it hits: look for a clear angle when Lulu hides behind her wave.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "lane"
         },
         {
           "text": "If Lulu stands too close, slow her with Tongue Lash (Q), then keep auto-attacking.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Hit Lulu three times to stack An Acquired Taste: Tongue Lash (Q) then stuns her and Devour (R) becomes available.",
           "sources": 1,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

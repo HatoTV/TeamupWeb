@@ -17,13 +17,15 @@
           "text": "Ne gaspille pas ta 4e balle pendant son Voile de liesse (Z) : elle esquive les autos. Attends que la brume se dissipe.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Garde ta Floraison mortelle (Z) jusqu'à ce qu'elle ait utilisé ses charges de Torrent (E) : une fois à court, Nilah ne peut plus esquiver le root.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -31,13 +33,15 @@
           "text": "Don't waste your fourth shot during her Jubilant Veil (W): she dodges attacks. Wait for the mist to fade.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "avoid"
         },
         {
           "text": "Hold Deadly Flourish (W) until she has spent her Slipstream (E) charges: once she's out of them, Nilah can't sidestep the root.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     },
@@ -47,13 +51,15 @@
           "text": "Lance ton Voile de liesse (Z) quand sa 4e balle arrive : tu esquives l'auto et il perd son plus gros coup.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Garde un Torrent (E) pour dasher sur un sbire hors de la ligne de sa Floraison mortelle (Z) et éviter le root.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ],
       "en": [
@@ -61,13 +67,15 @@
           "text": "Cast Jubilant Veil (W) as his fourth shot comes in: you dodge the attack and he loses his biggest hit.",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Keep a Slipstream (E) charge to dash onto a minion out of his Deadly Flourish (W) line and avoid the root.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         }
       ]
     }

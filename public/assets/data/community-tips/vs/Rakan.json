@@ -10,43 +10,50 @@
         "text": "Dès son lvl 6, Rakan lance sa Danse ultime (R) pour la vitesse puis son Entrée triomphale (Z), parfois avec Flash. Garde de la distance et ton sort de fuite.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "Après son Z, Rakan repart sur un allié avec sa Valse guerrière (E). Si elle est en CD (20 à 12 s), il reste bloqué au contact : punis-le.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "Au lvl 2, Rakan combine Entrée triomphale (Z) et Valse guerrière (E) pour engage puis revenir. Ne reste pas à portée s'il atteint le lvl 2 avant toi.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Rakan aime attendre dans les buissons de la lane pour engage hors vision. Garde une ward dedans et recule quand il disparaît de ton écran.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Rakan roam souvent vers le mid et la rivière. Dès qu'il quitte la bot lane, ping ton mid et garde une ward en rivière.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Le soin de sa Rémige rayonnante (A) ne se déclenche que si elle touche un champion. Reste derrière tes sbires pour lui couper son sustain.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Son Entrée triomphale (Z) ne projette en l'air qu'à l'arrivée du saut. S'il la lance de loin, décale-toi sur le côté pour l'esquiver.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ],
     "en": [
@@ -54,43 +61,50 @@
         "text": "From level 6, Rakan opens with The Quickness (R) for speed, then Grand Entrance (W), sometimes with Flash. Keep your distance and hold your escape.",
         "sources": 3,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "general"
       },
       {
         "text": "After W, Rakan hops back to an ally with Battle Dance (E). If E is on cooldown (20 to 12 s), he's stuck in melee range: punish him.",
         "sources": 2,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       },
       {
         "text": "At level 2 Rakan has Grand Entrance (W) and Battle Dance (E), so he can engage and dash back. Stay out of range if he hits level 2 first.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Rakan likes to lurk in lane brushes to engage from fog. Keep a ward in them and back off when he drops off your screen.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "lane"
+        "category": "lane",
+        "section": "lane"
       },
       {
         "text": "Rakan roams to mid and river a lot. The moment he leaves bot lane, ping your mid laner and keep river warded.",
         "sources": 2,
         "verifiedByGameData": false,
-        "category": "macro"
+        "category": "macro",
+        "section": "general"
       },
       {
         "text": "Gleaming Quill (Q) only heals if it hits a champion. Stand behind your minions to cut off his sustain.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "lane"
       },
       {
         "text": "Grand Entrance (W) only knocks up once the dash lands. If he casts it from far away, sidestep to dodge it.",
         "sources": 1,
         "verifiedByGameData": true,
-        "category": "mechanics"
+        "category": "mechanics",
+        "section": "general"
       }
     ]
   },

@@ -17,25 +17,29 @@
           "text": "N'échange qu'après avoir esquivé un de ses sorts : ses CD sont longs, punis Syndra par petits trades pendant qu'ils rechargent.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Fais mine d'avancer sur un CS pour lui faire lâcher sa Dispersion des faibles (E), puis décale-toi sur le côté.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Ta Bénédiction céleste (Z) te soigne et t'accélère : garde-la pour esquiver sa Sphère noire (A) ou sa Dispersion des faibles (E).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Varie tes déplacements en lane : si tu répètes le même pas de côté, Syndra anticipe et touche son combo.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ],
       "en": [
@@ -43,25 +47,29 @@
           "text": "Only trade after dodging one of her spells: her cooldowns are long, so punish Syndra with small trades while they recharge.",
           "sources": 3,
           "verifiedByGameData": true,
-          "category": "lane"
+          "category": "lane",
+          "section": "avoid"
         },
         {
           "text": "Pretend to walk up for a CS to make her throw Scatter the Weak (E), then sidestep.",
           "sources": 3,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         },
         {
           "text": "Celestial Blessing (W) heals you and speeds you up: keep it to dodge her Dark Sphere (Q) or Scatter the Weak (E).",
           "sources": 2,
           "verifiedByGameData": true,
-          "category": "mechanics"
+          "category": "mechanics",
+          "section": "general"
         },
         {
           "text": "Mix up your movement in lane: if you repeat the same sidestep, Syndra reads it and lands her combo.",
           "sources": 2,
           "verifiedByGameData": false,
-          "category": "lane"
+          "category": "lane",
+          "section": "lane"
         }
       ]
     },

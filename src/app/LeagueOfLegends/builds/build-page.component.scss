@@ -333,7 +333,7 @@ $inset: #12121f;
 // ---------- Three linked columns: builds · spells, runes & skills · items ----------
 .board {
   display: grid;
-  grid-template-columns: 268px minmax(0, 1fr) minmax(0, 1.1fr);
+  grid-template-columns: clamp(268px, 17vw, 340px) minmax(0, 1.1fr) minmax(0, 0.85fr);
   grid-template-areas: 'builds runes items';
   align-items: stretch;
   gap: 16px;

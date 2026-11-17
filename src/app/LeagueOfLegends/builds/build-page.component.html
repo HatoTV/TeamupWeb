@@ -28,11 +28,8 @@
             }
           </ul>
         }
-        @if (patch() || file()) {
+        @if (file()) {
           <div class="hero__meta">
-            @if (patch()) {
-              <span class="tag tag--gold">{{ 'BUILDS.PATCH' | translate: { patch: patch() } }}</span>
-            }
             @if (file(); as f) {
               <dl class="stats">
                 <div class="stat">

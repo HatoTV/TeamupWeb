@@ -107,24 +107,6 @@
   }
 }
 
-.video {
-  margin-top: 20px;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  border-radius: 12px;
-  border: 1px solid var(--color-line);
-  background: var(--color-surface);
-
-  ::ng-deep youtube-player,
-  ::ng-deep youtube-player > div,
-  ::ng-deep iframe,
-  ::ng-deep .youtube-player-placeholder {
-    width: 100% !important;
-    height: 100% !important;
-    border: 0;
-  }
-}
-
 .phases {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

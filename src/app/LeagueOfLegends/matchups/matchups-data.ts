@@ -6,16 +6,7 @@ import { DifficultyLevel, DIFFICULTY_LEVELS_DESC, toLevel } from '../../shared/u
 const RANK_IDS = ['challenger', 'grandmaster', 'master', 'diamond', 'emerald', 'platinum', 'gold', 'silver', 'bronze', 'iron'];
 const RANK_ALIASES: Record<string, string> = { diamant: 'diamond' };
 
-/** Splits a raw tip into sentences (same rules as the previous page, without the dashes). */
-export function splitTips(raw: string): string[] {
-  return raw
-    .replace(/\|\s?/g, '')
-    .replace(/(?<!\d)\.\s+/g, '.\n')
-    .split('\n')
-    .map((line) => line.replace(/^[^\p{L}\p{N}]+/u, '').trim())
-    .filter((line) => line.length > 0)
-    .map((line) => line.charAt(0).toUpperCase() + line.slice(1));
-}
+export { splitTips } from './split-tips';
 
 export function rankId(rank: string | null): string | null {
   if (!rank) return null;

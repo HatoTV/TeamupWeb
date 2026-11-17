@@ -15,6 +15,41 @@ describe('Matchups helpers', () => {
     ]);
   });
 
+  it('separates tips glued by pipes, parentheses, numbers or punctuation', () => {
+    expect(splitTips('Dodge his Q | - Trade when E is down | - Play safe')).toEqual([
+      'Dodge his Q',
+      'Trade when E is down',
+      'Play safe',
+    ]);
+    expect(splitTips('(Recommended Items: Thornmail) (Sustained 1v1 Trades: Even)')).toEqual([
+      'Recommended Items: Thornmail',
+      'Sustained 1v1 Trades: Even',
+    ]);
+    expect(splitTips('He spikes at level 2. Second Wind is fine! 1. Dodge Q 2. Hit E')).toEqual([
+      'He spikes at level 2.',
+      'Second Wind is fine!',
+      'Dodge Q',
+      'Hit E',
+    ]);
+    expect(splitTips('Dr. Mundo heals a lot, e.g. with his R... so bring anti-heal.Then fight.')).toEqual([
+      'Dr. Mundo heals a lot, e.g. with his R... so bring anti-heal.',
+      'Then fight.',
+    ]);
+    expect(splitTips('Conqueror/Grasp] [Ignite + TP] Start W. Take W [mostly] early. Do it :) Then win.')).toEqual([
+      'Conqueror/Grasp',
+      'Ignite + TP',
+      'Start W.',
+      'Take W [mostly] early.',
+      'Do it :)',
+      'Then win.',
+    ]);
+    expect(splitTips('Be careful at level 2. Then trade at level 3. Done')).toEqual([
+      'Be careful at level 2.',
+      'Then trade at level 3.',
+      'Done',
+    ]);
+  });
+
   it('maps free-form ranks to emblem ids', () => {
     expect(rankId('challenger')).toBe('challenger');
     expect(rankId('master & grandmaster')).toBe('master');

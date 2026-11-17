@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { describe, it } from 'node:test';
 import { aggregate } from '../src/aggregate/aggregate.ts';
-import { bootsSlot, buildKey, nextSlots, selectBuilds, type BuildCandidate } from '../src/aggregate/builds.ts';
+import { bootsSlot, buildKey, isDistinct, nextSlots, selectBuilds, type BuildCandidate } from '../src/aggregate/builds.ts';
 import { Histogram, tierRanks, tierScores, wilsonLower, zScores } from '../src/aggregate/stats.ts';
 import { filtersForTier } from '../src/config.ts';
 import { extractGame, type GameRecord } from '../src/extract/game.ts';
@@ -55,7 +55,7 @@ const RUNES_B = [8100, 8112, 8143, 8138, 8135, 8200, 8226, 8237, 5008, 5008, 501
 /** Participant with main items bought one minute apart (boots as the tier-2 pair when given). */
 const player = (items: number[], runes = RUNES_A, boots: [number, number] | null = null) => ({ majors: items.map((id, i) => [id, (i + 10) * 60_000] as [number, number]), boots, runes });
 const candidate = (key: string, games: number, wins: number, order = key.split('|')[0]!): BuildCandidate => ({ key, games, wins, orders: new Map([[order, games]]) });
-const RULES = { minBuildGames: 50, minBuildShare: 0.03, offMetaMinShare: 0.005, offMetaMaxShare: 0.03, offMetaMinGames: 30 };
+const RULES = { minBuildGames: 50, minBuildShare: 0.03, offMetaMinShare: 0.005, offMetaMinGames: 30, offMetaWinRateGap: 0.01 };
 const SLOT_RULES = { altMinShare: 0.08, altMinGames: 3, lateShare: 0.7 };
 const slotMap = (entries: Array<[number, number, number?]>) => new Map(entries.map(([item, games, wins]) => [item, { games, wins: wins ?? Math.round(games / 2) }]));
 
@@ -83,18 +83,20 @@ describe('build keys', () => {
 });
 
 describe('four builds', () => {
-  it('most played, best win rate, alternative (other core), then OFF-META (other core and keystone)', () => {
+  it('most played, best win rate, then an alternative and an OFF-META that are distinct from the other builds', () => {
     const builds = selectBuilds(
       [
         candidate('1-2|8010-8400', 1000, 500, '2-1'),
         candidate('1-2|8008-8400', 400, 220), // same core, other keystone: 55 %, best win rate
-        candidate('1-2|8010-8200', 350, 180), // same core, other secondary tree: not an alternative
-        candidate('1-5|8010-8400', 300, 150), // one core item changed: alternative
-        candidate('3-4|8010-8400', 290, 150), // reliable but fewer games than the alternative
+        candidate('1-2|8010-8200', 350, 180), // same keystone and first item as the most played: not distinct
+        candidate('1-5|8010-8400', 320, 150), // first item 1 in the other cores, keystone used: not distinct
+        candidate('1-5|8010-8300', 310, 150, '5-1'), // first item 5 bought by no other build: alternative
+        candidate('3-4|8010-8400', 290, 150), // distinct but fewer games than the alternative
         candidate('7-8|8021-8400', 60, 40), // 1.5 %, 66.7 % on 60 games
         candidate('6-8|8021-8400', 90, 54), // 2.25 %, 60 % on 90 games: lower Wilson bound (0.497 < 0.541)
-        candidate('1-9|8021-8400', 60, 50), // shares a core item with the most played: not OFF-META
-        candidate('5-8-9|8010-8400', 25, 22), // under 30 games
+        candidate('1-9|8010-8400', 60, 50), // first item in the most played core, keystone used: not distinct
+        candidate('5-9|8010-8400', 60, 50, '9-5'), // would put the alternative's first item in a core: not OFF-META
+        candidate('5-8-9|8021-8400', 25, 22), // under 30 games
       ],
       { games: 4000, wins: 2000 },
       RULES
@@ -104,32 +106,48 @@ describe('four builds', () => {
       [
         ['most_played', '1-2|8010-8400'],
         ['best_win_rate', '1-2|8008-8400'],
-        ['alternative', '1-5|8010-8400'],
+        ['alternative', '1-5|8010-8300'],
         ['off_meta', '7-8|8021-8400'],
       ]
     );
     assert.deepEqual(builds[0]!.core, [2, 1], 'most frequent purchase order');
+    assert.deepEqual(builds[2]!.core, [5, 1]);
     assert.equal(builds[1]!.keystone, 8008);
     assert.equal(builds[1]!.subStyle, 8400);
   });
 
-  it('best win rate and alternative are reliable builds; a slot without a qualifying key is left out', () => {
+  it('distinct = a keystone used by no other build, or a first item in no other core', () => {
+    const b = (keystone: number, core: number[]) => ({ keystone, core });
+    const others = [b(1, [10, 11]), b(2, [10, 12])];
+    assert.equal(isDistinct(b(3, [10, 11]), others), true, 'other keystone, same items');
+    assert.equal(isDistinct(b(1, [13, 10]), others), true, 'same keystone, new first item');
+    assert.equal(isDistinct(b(1, [12, 13]), others), false, 'first item in the second core');
+    assert.equal(isDistinct(b(2, [11, 13]), others), false, 'first item in the first core');
+  });
+
+  it('the alternative is a reliable build; a slot without a qualifying key is left out', () => {
     const champ = { games: 4000, wins: 2000 };
     const labels = (cs: BuildCandidate[]) => selectBuilds(cs, champ, RULES).map((b) => `${b.label}:${b.key}`);
-    assert.deepEqual(labels([candidate('1-2|1-2', 1000, 500), candidate('3-4|1-2', 100, 90), candidate('1-2|3-2', 200, 90)]), ['most_played:1-2|1-2', 'best_win_rate:1-2|3-2'], '3-4 under 3 % (120 games); 1-2|3-2 same core: no alternative');
+    assert.deepEqual(
+      labels([candidate('1-2|1-2', 1000, 500), candidate('3-4|1-2', 100, 90), candidate('1-2|3-2', 200, 90)]),
+      ['most_played:1-2|1-2', 'best_win_rate:1-2|3-2', 'off_meta:3-4|1-2'],
+      '3-4 under 3 % (120 games): OFF-META, not alternative; 1-2|3-2 same items, other keystone'
+    );
     assert.deepEqual(labels([candidate('1-2|1-2', 1000, 500), candidate('1-3|1-2', 300, 160)]), ['most_played:1-2|1-2', 'best_win_rate:1-3|1-2'], 'the only other build is the best win rate one');
   });
 
-  it('OFF-META needs 0.5 %-3 % of the games, 30 games, a win rate above the champion average and another keystone', () => {
+  it('OFF-META needs 0.5 % of the games, 30 games, at most 1 point under the champion win rate, and to be distinct', () => {
     const top = [candidate('1-2|1-2', 3000, 1500), candidate('1-3|1-2', 2000, 1000), candidate('1-4|1-2', 1000, 500)];
     const champ = { games: 10_000, wins: 5200 }; // 52 % on average
-    const off = (c: BuildCandidate) => selectBuilds([...top, c], champ, RULES).find((b) => b.label === 'off_meta')?.key ?? null;
-    assert.equal(off(candidate('7-8|5-2', 40, 30)), null, '0.4 %: below 0.5 %');
-    assert.equal(off(candidate('7-8|5-2', 400, 300)), null, '4 %: above 3 %');
-    assert.equal(off(candidate('7-8|5-2', 120, 62)), null, '51.7 %: not above the 52 % average');
-    assert.equal(off(candidate('7-8|1-6', 120, 70)), null, 'same keystone as the most played build');
-    assert.equal(off(candidate('7-8|5-2', 120, 70)), '7-8|5-2');
-    assert.equal(selectBuilds(top, champ, RULES).length, 3, 'absent when no key qualifies');
+    const pick = (c: BuildCandidate, label = 'off_meta') => selectBuilds([...top, c], champ, RULES).find((b) => b.label === label)?.key ?? null;
+    assert.equal(pick(candidate('7-8|5-2', 40, 30)), null, '0.4 %: below 0.5 %');
+    assert.equal(pick(candidate('7-8|5-2', 400, 200), 'alternative'), '7-8|5-2', '4 %: reliable, so the alternative');
+    assert.equal(pick(candidate('7-8|5-2', 120, 60)), null, '50 %: more than 1 point under the 52 % average');
+    assert.equal(pick(candidate('7-8|5-2', 120, 62)), '7-8|5-2', '51.7 %: within 1 point');
+    assert.equal(pick(candidate('1-8|1-6', 120, 70)), null, 'keystone and first item of the most played build');
+    assert.equal(pick(candidate('1-8|5-2', 120, 70)), '1-8|5-2', 'other keystone only');
+    assert.equal(pick(candidate('1-8|1-6', 120, 70, '8-1')), '1-8|1-6', 'other first item only');
+    assert.equal(selectBuilds(top, champ, RULES).length, 2, 'absent when no key qualifies');
   });
 
   it('builds need max(50 games, 3 % of the champion games); never filled with small builds', () => {

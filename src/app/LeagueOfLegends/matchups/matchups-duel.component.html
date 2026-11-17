@@ -79,9 +79,6 @@
               }
             }
           </div>
-          @if (author()?.rank; as rank) {
-            <span class="pro__rank">{{ 'HOMEPAGE.RANKS.' + rank.toUpperCase() | translate }}</span>
-          }
         </header>
 
         @if (loading()) {
@@ -102,7 +99,7 @@
             @if (author(); as a) {
               <div class="author">
                 @if (a.rank) {
-                  <img class="author__rank" [src]="'assets/img/ranks/' + a.rank + '.webp'" alt="" width="44" height="34" />
+                  <img class="author__rank" [src]="'assets/img/ranks/' + a.rank + '.webp'" alt="" width="60" height="46" />
                 }
                 <div>
                   <p class="author__name">{{ a.name }}</p>
@@ -154,7 +151,7 @@
                   [style.--r-bg]="row.info.bg"
                   [attr.aria-label]="'MATCHUPSPAGE.LOAD_MATCHUP' | translate: { a: list.owner.champion.name, b: row.name }"
                 >
-                  <img [ngSrc]="row.icon" alt="" width="36" height="36" />
+                  <img [ngSrc]="row.icon" alt="" width="48" height="48" />
                   <span class="row__name">{{ row.name }}</span>
                   <span class="row__level">
                     <span class="row__label"><app-difficulty-icon [level]="row.level" [size]="12" [strokeWidth]="3" />{{ row.info.labelKey | translate }}</span>

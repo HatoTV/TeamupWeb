@@ -182,7 +182,6 @@
   padding: 18px 22px;
   border-bottom: 1px solid var(--color-separator);
 
-  // The title wraps before the rank badge leaves its row.
   > div {
     flex: 1 1 220px;
     min-width: 0;
@@ -216,18 +215,6 @@
   font-size: 11px;
   letter-spacing: 0.08em;
   color: var(--color-text);
-}
-
-.pro__rank {
-  padding: 4px 10px;
-  border-radius: var(--radius-tag);
-  background: var(--diff-3-bg);
-  color: var(--diff-3-text);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  font-stretch: var(--stretch-heading);
 }
 
 .pro__list {
@@ -288,20 +275,21 @@
 .author {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .author__rank {
-  width: 44px;
+  width: 60px;
   height: auto;
 }
 
 .author__name {
+  font-size: 18px;
   font-weight: 700;
 }
 
 .author__role {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--color-text-muted);
 }
 
@@ -395,17 +383,25 @@
   margin-top: 10px;
 }
 
+// Seven rows visible, the rest scrolls inside the card. No overscroll containment (same as the Counters tab panel):
+// once the list reaches its end, the wheel goes back to the page.
 .list__rows {
+  --row-h: 64px;
+  --rows-visible: 7;
+  max-height: calc(var(--rows-visible) * var(--row-h));
   margin: 0;
   padding: 0;
   list-style: none;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #3a3a58 transparent;
 }
 
 .row {
   display: flex;
   align-items: center;
-  gap: 12px;
-  min-height: 54px;
+  gap: 14px;
+  height: var(--row-h);
   padding-right: 14px;
   border-bottom: 1px solid var(--color-surface-plus);
   background: linear-gradient(90deg, var(--r-bg), rgba(22, 22, 38, 0) 70%);
@@ -417,8 +413,9 @@
   }
 
   img {
-    width: 36px;
-    height: 36px;
+    flex: none;
+    width: 48px;
+    height: 48px;
     margin-left: 16px;
     border-radius: var(--radius-control-sm);
   }
@@ -428,7 +425,7 @@
   flex: 1;
   min-width: 0;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .row__level {
@@ -517,7 +514,10 @@
     font-size: 17px;
   }
 
+  // Two champions per line: four lines and a half visible, the cut line shows the list scrolls (no visible scrollbar on touch).
   .list__rows {
+    --row-h: 56px;
+    --rows-visible: 4.5;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 
@@ -528,19 +528,18 @@
 
   .row {
     display: grid;
-    grid-template-columns: 32px minmax(0, 1fr);
+    grid-template-columns: 38px minmax(0, 1fr);
     column-gap: 8px;
     row-gap: 2px;
     align-content: center;
-    min-height: 52px;
     padding: 6px 8px 6px 12px;
     background: linear-gradient(90deg, var(--r-bg), rgba(22, 22, 38, 0) 90%);
     box-shadow: inset 3px 0 0 var(--r-color);
 
     img {
       grid-row: 1 / span 2;
-      width: 32px;
-      height: 32px;
+      width: 38px;
+      height: 38px;
       margin-left: 0;
     }
   }

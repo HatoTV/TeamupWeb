@@ -53,17 +53,19 @@
     linear-gradient(0deg, var(--color-night), rgba(13, 13, 24, 0) 45%);
 }
 
+// Portrait over the tier on the left; name, spells and stats on the right (.hero__main is display: contents).
 .hero__body {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 28px;
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  column-gap: 28px;
+  align-items: start;
   padding: 32px 36px 44px;
 }
 
 .portrait {
-  flex: none;
+  grid-column: 1;
+  grid-row: 1 / span 2;
 
   img {
     width: 112px;
@@ -74,22 +76,28 @@
 }
 
 .hero__title {
+  grid-column: 2;
+  grid-row: 1;
   display: flex;
   align-items: center;
   gap: 16px;
   min-width: 0;
 }
 
+// Centred on the first line of stats, even when they wrap: .hero__meta top margin + (stat card height 70px - tile 52px) / 2.
 .hero__tier {
-  flex: none;
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: center;
+  margin-top: 27px;
+  border: 2px solid var(--tier);
   --tier-tile-width: 64px;
   --tier-tile-height: 52px;
   --tier-tile-font: 32px;
 }
 
 .hero__main {
-  flex: 1 1 420px;
-  min-width: 0;
+  display: contents;
 }
 
 .hero__name {
@@ -99,6 +107,8 @@
 }
 
 .abilities {
+  grid-column: 2;
+  grid-row: 2;
   display: flex;
   gap: 8px;
   margin: 14px 0 0;
@@ -107,6 +117,8 @@
 }
 
 .hero__meta {
+  grid-column: 2;
+  grid-row: 3;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -832,7 +844,11 @@ $inset: #12121f;
     gap: 10px;
   }
 
+  // Mobile: the stats take the full width, so the tier sits under the portrait, level with the spells.
   .hero__tier {
+    grid-row: 2;
+    align-self: center;
+    margin-top: 0;
     --tier-tile-width: 44px;
     --tier-tile-height: 36px;
     --tier-tile-radius: 8px;
@@ -849,11 +865,11 @@ $inset: #12121f;
   }
 
   .portrait {
-    grid-row: span 2;
+    grid-row: 1;
   }
 
-  .hero__main {
-    display: contents;
+  .hero__title {
+    align-self: center;
   }
 
   .abilities {
@@ -862,6 +878,7 @@ $inset: #12121f;
 
   .hero__meta {
     grid-column: 1 / -1;
+    grid-row: 3;
     gap: 8px;
     margin-top: 2px;
   }

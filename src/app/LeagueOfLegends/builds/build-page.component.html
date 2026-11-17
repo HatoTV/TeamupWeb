@@ -10,9 +10,6 @@
       <div class="hero__main">
         <div class="hero__title">
           <h1 class="hero__name">{{ champ.name }}</h1>
-          @if (file()?.tier; as tier) {
-            <app-tier-tile class="hero__tier" [tier]="tier" role="img" [attr.aria-label]="'BUILDS.TIER' | translate: { tier }" />
-          }
         </div>
         @if (abilities().length) {
           <ul class="abilities" [attr.aria-label]="'BUILDS.ABILITIES' | translate">
@@ -29,6 +26,10 @@
               </li>
             }
           </ul>
+        }
+        <!-- Grid item of .hero__body (.hero__main is display: contents): under the portrait, level with the stats. -->
+        @if (file()?.tier; as tier) {
+          <app-tier-tile class="hero__tier" [tier]="tier" role="img" [attr.aria-label]="'BUILDS.TIER' | translate: { tier }" />
         }
         @if (file()) {
           <div class="hero__meta">

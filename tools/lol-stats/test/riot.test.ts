@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { RiotClient } from '../src/riot/client.ts';
+import { RiotApiError, RiotClient } from '../src/riot/client.ts';
 import { Bucket, RateLimiter, parseCountHeader, parseLimitHeader } from '../src/riot/rate-limiter.ts';
 import { hostOf, regionOf } from '../src/riot/routing.ts';
 import { currentPatch, isGameInPatch, patchOf, previousPatch } from '../src/patch.ts';
@@ -118,6 +118,16 @@ describe('RiotClient', () => {
     ]);
 
     assert.equal(await client.get('europe', 'm', '/missing'), null);
+  });
+
+  it('tells a Cloudflare firewall block (HTML 403) from a refused key (JSON 403)', async () => {
+    const fakeFetch = (async (input: URL | RequestInfo) =>
+      String(input).includes('/blocked')
+        ? new Response('<!DOCTYPE html>', { status: 403, headers: { 'content-type': 'text/html; charset=UTF-8' } })
+        : jsonResponse({ status: { message: 'Forbidden', status_code: 403 } }, 403)) as typeof fetch;
+    const client = new RiotClient({ apiKey: 'RGAPI-test', clock: fakeClock(), fetch: fakeFetch });
+    await assert.rejects(client.get('europe', 'm', '/blocked'), (e: unknown) => e instanceof RiotApiError && e.firewall);
+    await assert.rejects(client.get('europe', 'm', '/key'), (e: unknown) => e instanceof RiotApiError && e.status === 403 && !e.firewall);
   });
 
   it('refuses to start without a key', () => {

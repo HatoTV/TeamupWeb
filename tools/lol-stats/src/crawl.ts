@@ -164,7 +164,7 @@ export async function crawlPlatform(
 
   /** Transient failures (5xx or 429 after the retries, network) skip the item; 401 / 403 stop the crawl. */
   const tolerate = (error: unknown) => {
-    if (error instanceof RiotApiError && (error.status === 401 || error.status === 403)) throw error;
+    if (error instanceof RiotApiError && (error.status === 401 || error.status === 403) && !error.firewall) throw error;
     skipped.error = (skipped.error ?? 0) + 1;
     if (skipped.error <= 5) console.warn(`[crawl] ${platform}: ${error instanceof Error ? error.message : String(error)}`);
   };

@@ -3,7 +3,7 @@
     <header class="play-tips__head">
       <img class="play-tips__portrait" [src]="v.portrait" alt="" width="44" height="44" loading="lazy" />
       <div class="play-tips__titles">
-        <h2 id="play-tips-title" class="play-tips__title">{{ 'PLAY_TIPS.TITLE' | translate: { champion: champion().name } }}</h2>
+        <h2 id="play-tips-title" class="play-tips__title title-dot">{{ 'PLAY_TIPS.TITLE' | translate: { champion: champion().name } }}</h2>
         <p class="play-tips__subtitle">{{ 'PLAY_TIPS.SUBTITLE' | translate }}</p>
       </div>
       <span class="play-tips__patch">{{ 'BUILDS.PATCH' | translate: { patch: v.patch } }}</span>

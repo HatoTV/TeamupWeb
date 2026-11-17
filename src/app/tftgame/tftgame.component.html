@@ -55,7 +55,7 @@
           @for (phase of phases; track phase.key; let i = $index) {
             @let item = phase.key | translate | lead;
             <li class="phase" [attr.data-tone]="phase.tone">
-              <p class="phase__step">{{ 'TFTPAGE.STEP' | translate: { n: i + 1 } }}</p>
+              <p class="phase__step title-dot">{{ 'TFTPAGE.STEP' | translate: { n: i + 1 } }}</p>
               <p class="phase__title">{{ item.label }}</p>
               <p class="phase__text" [innerHTML]="item.body | safeHtml"></p>
             </li>

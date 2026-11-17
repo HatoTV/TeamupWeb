@@ -29,7 +29,7 @@
           <a class="game-card card-hover" [attr.data-game]="card.game" [routerLink]="ctx.link(card.path)">
             <picture><source type="image/avif" [attr.srcset]="card.image | srcset: 'avif'" sizes="(min-width: 768px) 15vw, 150px" /><source type="image/webp" [attr.srcset]="card.image | srcset: 'webp'" sizes="(min-width: 768px) 15vw, 150px" /><img class="game-card__art" [src]="card.image | imgFallback" alt="" loading="lazy" decoding="async" /></picture>
             <span class="game-card__shade" aria-hidden="true"></span>
-            <span class="game-card__name">{{ card.nameKey | translate }}</span>
+            <span class="game-card__name title-dot">{{ card.nameKey | translate }}</span>
             <span class="game-card__meta">
               @switch (card.game) {
                 @case ('lol') {

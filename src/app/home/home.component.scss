@@ -5,7 +5,8 @@
 // ---------- Hero ----------
 .hero {
   position: relative;
-  overflow: hidden;
+  // Clip horizontally only: the search popup must be able to overflow below the hero.
+  overflow-x: clip;
   border-bottom: 1px solid var(--color-separator);
 }
 

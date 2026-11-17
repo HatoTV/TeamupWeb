@@ -2,7 +2,6 @@ import { injectPageSeo } from '../core/seo.service';
 import { ImgFallbackPipe, SrcsetPipe } from '../core/images/image-utils';
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { YouTubePlayer } from '@angular/youtube-player';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { startWith, switchMap } from 'rxjs';
 import { GuideBulletsComponent, keys } from '../LeagueOfLegends/guide-shared/guide-blocks';
@@ -28,7 +27,6 @@ const SECTIONS: { id: string; key: string; level: 1 | 2; marker?: string }[] = [
   imports: [SrcsetPipe, ImgFallbackPipe, 
     TranslateModule,
     SafeHtmlPipe,
-    YouTubePlayer,
     GuideLayoutComponent,
     GuideBulletsComponent,
     CalloutComponent,

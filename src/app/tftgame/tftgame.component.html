@@ -29,18 +29,6 @@
             <p class="spaced" [innerHTML]="p | safeHtml"></p>
           }
         }
-        @defer (on viewport) {
-          <div class="video">
-            <youtube-player
-              videoId="tkjkMKQ6NnA"
-              [disableCookies]="true"
-              [placeholderButtonLabel]="'TFTPAGE.VIDEO_LABEL' | translate"
-              placeholderImageQuality="high"
-            />
-          </div>
-        } @placeholder {
-          <div class="video video--placeholder" aria-hidden="true"></div>
-        }
       </section>
 
       <section class="chapter-block" aria-labelledby="Structure">
@@ -65,12 +53,7 @@
           <picture><source type="image/avif" [attr.srcset]="'assets/img/tftDuration.jpg' | srcset: 'avif'" sizes="(min-width: 1100px) 760px, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/tftDuration.jpg' | srcset: 'webp'" sizes="(min-width: 1100px) 760px, 100vw" /><img [src]="'assets/img/tftDuration.jpg' | imgFallback" [alt]="'TFTPAGE.ALT.DURATION' | translate" loading="lazy" /></picture>
         </figure>
         <p class="spaced" [innerHTML]="'TFT.LIST1.OUTRO' | translate | safeHtml"></p>
-        <div class="media-text">
-          <app-callout variant="tip"><span [innerHTML]="'TFT.LIST1.OUTRO1' | translate | safeHtml"></span></app-callout>
-          <figure>
-            <picture><source type="image/avif" [attr.srcset]="'assets/img/tft_nextfigh.png' | srcset: 'avif'" sizes="(min-width: 1100px) 380px, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/tft_nextfigh.png' | srcset: 'webp'" sizes="(min-width: 1100px) 380px, 100vw" /><img [src]="'assets/img/tft_nextfigh.png' | imgFallback" [alt]="'TFTPAGE.ALT.NEXT_FIGHT' | translate" loading="lazy" /></picture>
-          </figure>
-        </div>
+        <app-callout variant="tip"><span [innerHTML]="'TFT.LIST1.OUTRO1' | translate | safeHtml"></span></app-callout>
       </section>
 
       <section class="chapter-block" aria-labelledby="Concepts">

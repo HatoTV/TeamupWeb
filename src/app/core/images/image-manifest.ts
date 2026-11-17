@@ -1485,14 +1485,6 @@ export const IMAGE_MANIFEST: Record<string, ImageEntry> = {
     ],
     "opt": "assets/img/opt/tft_logo"
   },
-  "assets/img/tft_nextfigh.png": {
-    "w": 137,
-    "h": 99,
-    "widths": [
-      96
-    ],
-    "opt": "assets/img/opt/tft_nextfigh"
-  },
   "assets/img/translationIcon.png": {
     "w": 512,
     "h": 512,

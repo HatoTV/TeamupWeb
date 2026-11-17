@@ -3,7 +3,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { describe, it } from 'node:test';
 import { extractGame, type GameRecord } from '../src/extract/game.ts';
 import { buildItemCatalog } from '../src/extract/items.ts';
-import { buildKey, mainItems } from '../src/aggregate/builds.ts';
+import { buildKey, coreItems } from '../src/aggregate/builds.ts';
 import { itemPhases, purchaseOrder } from '../src/extract/purchases.ts';
 import { maxOrder, skillOrder } from '../src/extract/skills.ts';
 import type { MatchDto, TimelineDto, TimelineEventDto } from '../src/riot/api.ts';
@@ -84,15 +84,15 @@ describe('purchase order', () => {
     ]);
     assert.deepEqual(phases.boots, [SORCERER, 700_000]);
     assert.deepEqual(phases.fullBuild, [LUDENS, SORCERER, RABADON, ZHONYA]);
-    assert.deepEqual(mainItems(phases), [LUDENS, SORCERER, RABADON, ZHONYA], 'boots merged by purchase time');
+    assert.deepEqual(coreItems(phases), [LUDENS, RABADON], 'boots never in the core');
     const runes = [8200, 8229, 8226, 8210, 8237, 8300, 8345, 8347, 5008, 5008, 5011];
-    assert.equal(buildKey({ ...phases, runes }), `${[LUDENS, SORCERER, RABADON].sort((a, b) => a - b).join('-')}|8229-8300`, 'boots count in the trio');
+    assert.equal(buildKey({ ...phases, runes }), `${[LUDENS, RABADON].sort((a, b) => a - b).join('-')}|8229-8300`);
   });
 
-  it('counts tier-3 boots as their tier-2 boots and needs three majors for a build key', () => {
+  it('counts tier-3 boots as their tier-2 boots and needs two majors for a build key', () => {
     const phases = itemPhases(purchaseOrder([buy(3175, 500_000), buy(LUDENS, 600_000)], 1), catalog);
     assert.deepEqual(phases.boots, [SORCERER, 500_000]);
-    assert.equal(buildKey({ ...phases, runes: [] }), null, 'boots + one major = two main items');
+    assert.equal(buildKey({ ...phases, runes: [] }), null, 'boots + one major: no core');
   });
 
 });

@@ -399,10 +399,6 @@ $inset: #12121f;
   &.is-on {
     background: var(--color-surface-plus);
     box-shadow: inset 3px 0 0 var(--color-gold);
-
-    .pick__label {
-      color: var(--color-gold);
-    }
   }
 }
 
@@ -413,13 +409,18 @@ $inset: #12121f;
   gap: 8px;
 }
 
+// Purple pill, same tint as the « passive » tags of the play tips.
 .pick__label {
+  padding: 3px 9px;
+  border-radius: 6px;
+  background: rgba(155, 123, 255, 0.18);
+  color: #c3b0ff;
+  font-size: 11px;
   font-weight: 700;
-  font-size: 14px;
-
-  &--off {
-    letter-spacing: 0.04em;
-  }
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-stretch: var(--stretch-heading);
 }
 
 .pick__wr {
@@ -713,7 +714,7 @@ $inset: #12121f;
   }
 }
 
-// Six-item line: core (gold) then the next items, their alternatives right under them. ADC: boots apart.
+// Item line: core then the next items, their alternatives right under them; the boots apart.
 .line-head {
   display: flex;
   align-items: baseline;
@@ -724,21 +725,6 @@ $inset: #12121f;
   .items__label {
     margin: 0;
   }
-}
-
-.line-legend {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 11px;
-  color: var(--color-text-subtle);
-}
-
-.line-legend__dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 3px;
-  box-shadow: inset 0 0 0 2px var(--color-gold);
 }
 
 .line {
@@ -756,7 +742,7 @@ $inset: #12121f;
 // Fixed-width columns from the left: the first icon lines up with the early items above.
 .line__items {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 100px));
+  grid-template-columns: repeat(var(--cols, 6), minmax(0, 100px));
   gap: 16px 10px;
   margin: 0;
   padding: 0;
@@ -798,12 +784,6 @@ $inset: #12121f;
   font: 700 12px var(--font-numeric);
   font-stretch: 100%;
   font-variant-numeric: tabular-nums;
-
-  .slot--core & {
-    background: var(--color-gold);
-    border-color: var(--color-gold);
-    color: var(--color-on-gold);
-  }
 }
 
 .slot__tag {
@@ -818,11 +798,6 @@ $inset: #12121f;
   text-transform: uppercase;
   font-stretch: var(--stretch-heading);
   color: var(--color-text-muted);
-
-  .slot--core & {
-    border-color: var(--color-gold);
-    color: var(--color-gold);
-  }
 }
 
 .slot__name {
@@ -921,6 +896,14 @@ $inset: #12121f;
 
     .slot__name {
       min-height: 0;
+    }
+
+    .alts {
+      flex-basis: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 16px;
     }
   }
 }

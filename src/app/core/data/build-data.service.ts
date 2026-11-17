@@ -11,7 +11,8 @@ export const BUILD_FILTERS = ['emerald_plus', 'diamond_plus', 'master_plus', 'gr
 export const EXACT_FILTERS: readonly string[] = ['emerald', 'diamond', 'master', 'grandmaster'];
 export type BuildFilter = (typeof BUILD_FILTERS)[number];
 export type TierRank = 'S+' | 'S' | 'A' | 'B' | 'C' | 'D';
-export type BuildLabel = 'most_played' | 'second_most_played' | 'third_most_played' | 'off_meta';
+/** `second_most_played` and `third_most_played`: files published before 2026-11-18. */
+export type BuildLabel = 'most_played' | 'best_win_rate' | 'alternative' | 'off_meta' | 'second_most_played' | 'third_most_played';
 
 export interface StatLine {
   games: number;
@@ -19,7 +20,7 @@ export interface StatLine {
   winRate: number;
 }
 
-/** Item bought at a slot (4th to 6th) and its share of the build games at that slot. */
+/** Item bought at a slot (3rd to 6th item, or boots) and its share of the build games at that slot. */
 export interface SlotItem extends StatLine {
   item: number;
   share: number;
@@ -27,7 +28,7 @@ export interface SlotItem extends StatLine {
 
 export interface BuildData extends StatLine {
   label: BuildLabel;
-  /** First three main items (boots included) in purchase order. */
+  /** First two completed items (boots excluded) in purchase order. Files published before 2026-11-18: three main items, boots included. */
   core: number[];
   keystone: number;
   subStyle: number;
@@ -38,11 +39,11 @@ export interface BuildData extends StatLine {
   firstBuy: { items: number[]; games: number; medianMs: number | null } | null;
   /** Median purchase time of each core item. */
   coreTimes: Array<number | null>;
-  /** Items 4 to 6 (no duplicate between them nor with the core), at most two alternatives each: the other items most bought at that slot.
-   * ADC: positions in the line without boots (3 to 6 when the core holds the boots). */
+  /** Items 3 to 5 without boots (3 to 6 for an ADC or a build without boots), no duplicate between them nor with the core, at most
+   * two alternatives each: the other items most bought at that slot. */
   next: Array<SlotItem & { slot: 3 | 4 | 5 | 6; alternatives: SlotItem[] }>;
-  /** ADC only: boots shown apart from the six items (may be a core item). Absent from files published before it. */
-  boots?: SlotItem | null;
+  /** Boots shown apart from the other items, with at most two alternatives. Older files: ADC only, without alternatives. */
+  boots?: (SlotItem & { alternatives?: SlotItem[] }) | null;
   skills: (StatLine & { order: string; max: string }) | null;
 }
 

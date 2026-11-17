@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, ElementRef, afterNextRender, computed, effect, inject, signal, untracked } from '@angular/core';
+import { NgTemplateOutlet } from '@angular/common';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
@@ -16,10 +17,9 @@ import { RankSelectComponent } from './rank-select.component';
 
 type State = 'loading' | 'not-found' | 'insufficient' | 'ready';
 
-/** Item of the build line: a core item (median timing) or a next item (share, win rate, alternatives). */
+/** Item of the build line: a core item (median timing), a next item or the boots (share, win rate, alternatives). */
 interface LineItem {
   item: number;
-  core: boolean;
   time: number | null;
   stat: SlotItem | null;
   alternatives: SlotItem[];
@@ -29,7 +29,7 @@ interface LineItem {
 @Component({
   selector: 'app-build-page',
   standalone: true,
-  imports: [TranslateModule, RouterLink, RankSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent],
+  imports: [TranslateModule, RouterLink, NgTemplateOutlet, RankSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent],
   templateUrl: './build-page.component.html',
   styleUrl: './build-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -94,17 +94,17 @@ export class BuildPageComponent {
   protected readonly build = computed(() => this.file()?.builds[this.buildIndex()] ?? null);
 
   /**
-   * Six-item line: the core (purchase order) then the most played next items, each with its alternatives.
-   * ADC: the boots leave the line (the role quest frees a slot for them) and are shown apart.
+   * Item line: the two core items (purchase order) then the most played next items, each with its alternatives.
+   * The boots and their alternatives are shown apart.
    */
   protected readonly itemLine = computed<{ items: LineItem[]; boots: LineItem | null } | null>(() => {
     const b = this.build();
     if (!b) return null;
     const bootsId = b.boots?.item ?? null;
-    const core: LineItem[] = b.core.map((id, i) => ({ item: id, core: true, time: b.coreTimes[i] ?? null, stat: null, alternatives: [] }));
-    const next: LineItem[] = b.next.map((s) => ({ item: s.item, core: false, time: null, stat: s, alternatives: s.alternatives }));
+    const core: LineItem[] = b.core.map((id, i) => ({ item: id, time: b.coreTimes[i] ?? null, stat: null, alternatives: [] }));
+    const next: LineItem[] = b.next.map((s) => ({ item: s.item, time: null, stat: s, alternatives: s.alternatives }));
     const items = [...core.filter((c) => c.item !== bootsId), ...next].slice(0, 6);
-    const boots = bootsId === null ? null : (core.find((c) => c.item === bootsId) ?? { item: bootsId, core: false, time: null, stat: b.boots!, alternatives: [] });
+    const boots = b.boots ? { item: b.boots.item, time: null, stat: b.boots, alternatives: b.boots.alternatives ?? [] } : null;
     return { items, boots };
   });
 

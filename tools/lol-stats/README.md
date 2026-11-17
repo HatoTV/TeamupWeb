@@ -32,11 +32,10 @@ La clé Riot est lue dans `tools/lol-stats/.env` (`RIOT_API_KEY=RGAPI-…`, igno
 | `LOL_STATS_FLUSH_GAMES`, `LOL_STATS_FLUSH_MINUTES` | `1000`, `5` | Sauvegarde de l'état (R2) toutes les 1 000 nouvelles parties ou toutes les 5 min. |
 | `LOL_STATS_MAX_GAMES` | `0` | Plafond de nouvelles parties par collecte (0 = budget seul). |
 | `LOL_STATS_PAGES_PER_DIVISION` | `0` | Pages de 205 joueurs par division Diamant / Émeraude (0 = toutes : collecte complète). |
-| `LOL_STATS_MIN_BUILD_GAMES`, `LOL_STATS_MIN_BUILD_SHARE` | `50`, `0.03` | Seuil des 3 builds les plus joués : `max(50 parties, 3 % des parties du champion dans le rôle)`. |
+| `LOL_STATS_MIN_BUILD_GAMES`, `LOL_STATS_MIN_BUILD_SHARE` | `50`, `0.03` | Seuil des builds fiables (plus joué, meilleur winrate, alternatif) : `max(50 parties, 3 % des parties du champion dans le rôle)`. |
 | `LOL_STATS_OFF_META_MIN_SHARE`, `LOL_STATS_OFF_META_MAX_SHARE`, `LOL_STATS_OFF_META_MIN_GAMES` | `0.005`, `0.03`, `30` | Build OFF-META : entre 0,5 % et 3 % des parties, au moins 30 parties. |
-| `LOL_STATS_ALT_MIN_SHARE`, `LOL_STATS_ALT_MIN_GAMES` | `0.08`, `3` | Part minimale des achats faits à son emplacement et nombre minimal de parties d'une alternative (4ᵉ à 6ᵉ objet). |
-| `LOL_STATS_LATE_SHARE` | `0.7` | Un objet acheté 6ᵉ dans plus de 70 % des cas n'est pas proposé 4ᵉ.
-- **ADC** (quête de rôle : les bottes ne prennent pas d'emplacement) : la ligne compte 6 objets hors bottes. Les emplacements sont comptés sans les bottes (objets 3 à 6 quand le core contient les bottes) et le build publie à part ses bottes (`boots`, les bottes de niveau 2 les plus achetées ; `null` pour les autres rôles). |
+| `LOL_STATS_ALT_MIN_SHARE`, `LOL_STATS_ALT_MIN_GAMES` | `0.08`, `3` | Part minimale des achats faits à son emplacement et nombre minimal de parties d'une alternative (objets 3 à 6 et bottes). |
+| `LOL_STATS_LATE_SHARE` | `0.7` | Un objet acheté en dernière position dans plus de 70 % des cas n'est pas proposé 3ᵉ. |
 | `LOL_STATS_MIN_MATCHUP_GAMES` | `50` | Seuil des adversaires et duos. |
 | `LOL_STATS_MIN_GAMES_NEW_PATCH` | `200` | Parties d'un champion/rôle avant de basculer sur le nouveau patch. |
 | `LOL_STATS_LOW_SAMPLE_GAMES` | `200` | En dessous, la page affiche un avertissement « peu de données » ; dans la tier list, le champion est « non classé ». |
@@ -84,14 +83,18 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
 
   Découpage en percentiles : S+ 5 %, S 15 %, A 25 %, B 25 %, C 20 %, D 10 %. La borne de Wilson pénalise les petits échantillons ; le pick et le ban départagent les champions qui gagnent autant.
 - **Builds** :
-  - Objets principaux = objets terminés (même classification) **et bottes de niveau 2**, dans l'ordre réel d'achat. Ni composants, ni consommables, ni balises.
-  - Clé d'un build = ses 3 premiers objets principaux (sans tenir compte de l'ordre ; on affiche l'ordre le plus fréquent) + rune clé + arbre secondaire. Mêmes objets avec une autre page = autre build. Les parties sous 3 objets principaux ne comptent que dans les statistiques générales.
-  - Quatre builds au maximum :
-    1. à 3. les 3 clés les plus jouées au-dessus de `max(50 parties, 3 % des parties du champion dans le rôle)` ;
-    4. **OFF-META** : parmi les autres clés, entre 0,5 % et 3 % des parties, au moins 30 parties et un taux de victoire supérieur à celui du champion, la meilleure borne basse de Wilson. Absent si aucune ne remplit ces conditions.
-- **Par build** (sur ses seules parties) : page de runes complète la plus fréquente (même rune clé et arbre secondaire), paire de sorts, départ et premier retour (multiensembles avec quantités), timing médian de chacun des 3 objets principaux, ordre des compétences et ordre de max.
-- **Objets 4 à 6** : l'emplacement N prend l'objet le plus acheté en position N, hors objets déjà retenus et hors objets exclusifs avec eux : la ligne principale n'a aucun doublon. Chaque emplacement reçoit au plus 2 alternatives, les autres objets les plus achetés à cette position (au moins 8 % des achats faits à cet emplacement et 3 parties, jamais un objet du core ni un objet exclusif avec lui) ; une alternative peut apparaître à un autre emplacement (Rabadon souvent acheté 4ᵉ ou 5ᵉ). Un objet acheté 6ᵉ dans plus de 70 % des cas n'est pas proposé 4ᵉ.
-- **ADC** (quête de rôle : les bottes ne prennent pas d'emplacement) : la ligne compte 6 objets hors bottes. Les emplacements sont comptés sans les bottes (objets 3 à 6 quand le core contient les bottes) et le build publie à part ses bottes (`boots`, les bottes de niveau 2 les plus achetées ; `null` pour les autres rôles).
+  - Objets principaux = objets terminés (même classification), **bottes exclues**, dans l'ordre réel d'achat. Ni composants, ni consommables, ni balises.
+  - Clé d'un build = ses 2 premiers objets principaux, le core (sans tenir compte de l'ordre ; on affiche l'ordre le plus fréquent) + rune clé + arbre secondaire. Un autre objet du core, une autre rune clé ou un autre arbre secondaire = autre build ; d'autres bottes ou d'autres runes mineures = même build. Les parties sous 2 objets principaux ne comptent que dans les statistiques générales.
+  - Quatre builds au maximum, chacun avec sa propre clé ; « fiable » = au moins `max(50 parties, 3 % des parties du champion dans le rôle)` :
+    1. **Le plus joué** : la clé fiable la plus jouée ;
+    2. **Meilleur winrate** : parmi les autres clés fiables, le meilleur taux de victoire ;
+    3. **Alternatif** : parmi les autres clés fiables dont le core diffère d'un ou deux objets de celui du plus joué, la plus jouée ;
+    4. **OFF-META** : parmi les autres clés, entre 0,5 % et 3 % des parties, au moins 30 parties, un taux de victoire supérieur à celui du champion, aucun objet du core ni la rune clé du plus joué : la meilleure borne basse de Wilson.
+    Un build sans clé qui remplit ses conditions est absent ; aucun build sans « plus joué ».
+- **Par build** (sur ses seules parties) : page de runes complète la plus fréquente (même rune clé et arbre secondaire), paire de sorts, départ et premier retour (multiensembles avec quantités), timing médian des 2 objets du core, ordre des compétences et ordre de max.
+- **Objets 3 à 5** (hors bottes) : l'emplacement N prend l'objet principal le plus acheté en position N, hors objets déjà retenus et hors objets exclusifs avec eux : la ligne principale n'a aucun doublon. Chaque emplacement reçoit au plus 2 alternatives, les autres objets les plus achetés à cette position (au moins 8 % des achats faits à cet emplacement et 3 parties, jamais un objet du core ni un objet exclusif avec lui) ; une alternative peut apparaître à un autre emplacement (Rabadon souvent acheté 4ᵉ ou 5ᵉ). Un objet acheté en dernière position dans plus de 70 % des cas n'est pas proposé 3ᵉ.
+- **Bottes** : chaque build publie à part ses bottes (`boots`) : les bottes de niveau 2 les plus achetées avec ce build et au plus 2 alternatives (au moins 8 % des achats de bottes du build et 3 parties) ; `null` si le build n'en achète pas.
+- **ADC** (quête de rôle : les bottes ne prennent pas d'emplacement) et builds sans bottes : la ligne compte 6 objets hors bottes (objets 3 à 6).
 - **Objets exclusifs** (déduits de Data Dragon, qui n'a pas de champ « groupe ») : une seule paire de bottes, un seul objet construit à partir de la Larme de la déesse, un seul objet par passif unique partagé (Ligne de vie, Lame enchantée, Fendoir…).
 - **Matchups** : Faible contre / Fort contre (6 adversaires de lane, au moins 50 parties), meilleure synergie (jungle pour top et mid, support pour ADC et inversement, mid pour jungle).
 

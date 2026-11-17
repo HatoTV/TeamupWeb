@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { describe, it } from 'node:test';
 import { aggregate } from '../src/aggregate/aggregate.ts';
-import { buildKey, mainItems, nextSlots, selectBuilds, type BuildCandidate } from '../src/aggregate/builds.ts';
+import { bootsSlot, buildKey, nextSlots, selectBuilds, type BuildCandidate } from '../src/aggregate/builds.ts';
 import { Histogram, tierRanks, tierScores, wilsonLower, zScores } from '../src/aggregate/stats.ts';
 import { filtersForTier } from '../src/config.ts';
 import { extractGame, type GameRecord } from '../src/extract/game.ts';
@@ -60,37 +60,40 @@ const SLOT_RULES = { altMinShare: 0.08, altMinGames: 3, lateShare: 0.7 };
 const slotMap = (entries: Array<[number, number, number?]>) => new Map(entries.map(([item, games, wins]) => [item, { games, wins: wins ?? Math.round(games / 2) }]));
 
 describe('build keys', () => {
-  it('same trio in another order = same key; another rune page = another key', () => {
+  it('same two core items in another order = same key; another keystone or secondary tree = another key', () => {
     const a = buildKey(player([3146, 4645, 3157]));
-    assert.equal(a, buildKey(player([3157, 3146, 4645])));
-    assert.equal(a, '3146-3157-4645|8010-8400');
+    assert.equal(a, buildKey(player([4645, 3146, 3089])), 'third item not in the key');
+    assert.equal(a, '3146-4645|8010-8400');
     assert.notEqual(a, buildKey(player([3146, 4645, 3157], RUNES_B)));
     assert.notEqual(a, buildKey(player([3146, 4645, 3157], [8000, 8010, 9111, 9104, 8299, 8200, 8226, 8237, 5008, 5008, 5011])), 'other secondary tree');
+    assert.equal(a, buildKey(player([3146, 4645], [8000, 8010, 9101, 9105, 8014, 8400, 8473, 8242, 5005, 5008, 5001])), 'other minor runes: same build');
   });
 
-  it('counts tier-2 boots in the trio, in real purchase order', () => {
+  it('boots are never in the key', () => {
     // Boots bought at 10:30, between the first (10:00) and the second (11:00) item.
     const p = player([3146, 4645, 3157], RUNES_A, [3020, 630_000]);
-    assert.deepEqual(mainItems(p), [3146, 3020, 4645, 3157]);
-    assert.equal(buildKey(p), '3020-3146-4645|8010-8400');
+    assert.equal(buildKey(p), '3146-4645|8010-8400');
+    assert.equal(buildKey(p), buildKey(player([3146, 4645], RUNES_A, [3111, 1])), 'other boots: same build');
   });
 
-  it('games under three main items have no key', () => {
+  it('games under two completed major items have no key', () => {
     assert.equal(buildKey(player([3146], RUNES_A, [3020, 1])), null);
-    assert.equal(buildKey(player([3146, 4645])), null);
+    assert.equal(buildKey(player([])), null);
   });
 });
 
 describe('four builds', () => {
-  it('three most played above max(50, 3 %), then the OFF-META with the best Wilson lower bound', () => {
+  it('most played, best win rate, alternative (other core), then OFF-META (other core and keystone)', () => {
     const builds = selectBuilds(
       [
-        candidate('1-2-3|8010-8400', 1000, 500, '3-1-2'),
-        candidate('1-2-3|8008-8400', 400, 210), // same trio, other keystone: another build
-        candidate('1-2-5|8010-8400', 300, 150),
-        candidate('1-3-4|8010-8400', 290, 150), // fourth most played: not shown as a most played build
-        candidate('7-8-9|8010-8400', 60, 40), // 1.5 %, 66.7 % on 60 games
-        candidate('6-8-9|8010-8400', 90, 54), // 2.25 %, 60 % on 90 games: lower Wilson bound (0.497 < 0.541)
+        candidate('1-2|8010-8400', 1000, 500, '2-1'),
+        candidate('1-2|8008-8400', 400, 220), // same core, other keystone: 55 %, best win rate
+        candidate('1-2|8010-8200', 350, 180), // same core, other secondary tree: not an alternative
+        candidate('1-5|8010-8400', 300, 150), // one core item changed: alternative
+        candidate('3-4|8010-8400', 290, 150), // reliable but fewer games than the alternative
+        candidate('7-8|8021-8400', 60, 40), // 1.5 %, 66.7 % on 60 games
+        candidate('6-8|8021-8400', 90, 54), // 2.25 %, 60 % on 90 games: lower Wilson bound (0.497 < 0.541)
+        candidate('1-9|8021-8400', 60, 50), // shares a core item with the most played: not OFF-META
         candidate('5-8-9|8010-8400', 25, 22), // under 30 games
       ],
       { games: 4000, wins: 2000 },
@@ -99,31 +102,39 @@ describe('four builds', () => {
     assert.deepEqual(
       builds.map((b) => [b.label, b.key]),
       [
-        ['most_played', '1-2-3|8010-8400'],
-        ['second_most_played', '1-2-3|8008-8400'],
-        ['third_most_played', '1-2-5|8010-8400'],
-        ['off_meta', '7-8-9|8010-8400'],
+        ['most_played', '1-2|8010-8400'],
+        ['best_win_rate', '1-2|8008-8400'],
+        ['alternative', '1-5|8010-8400'],
+        ['off_meta', '7-8|8021-8400'],
       ]
     );
-    assert.deepEqual(builds[0]!.core, [3, 1, 2], 'most frequent purchase order');
+    assert.deepEqual(builds[0]!.core, [2, 1], 'most frequent purchase order');
     assert.equal(builds[1]!.keystone, 8008);
     assert.equal(builds[1]!.subStyle, 8400);
   });
 
-  it('OFF-META needs 0.5 %-3 % of the games, 30 games and a win rate above the champion average', () => {
-    const top = [candidate('1-2-3|1-2', 3000, 1500), candidate('1-2-4|1-2', 2000, 1000), candidate('1-2-5|1-2', 1000, 500)];
+  it('best win rate and alternative are reliable builds; a slot without a qualifying key is left out', () => {
+    const champ = { games: 4000, wins: 2000 };
+    const labels = (cs: BuildCandidate[]) => selectBuilds(cs, champ, RULES).map((b) => `${b.label}:${b.key}`);
+    assert.deepEqual(labels([candidate('1-2|1-2', 1000, 500), candidate('3-4|1-2', 100, 90), candidate('1-2|3-2', 200, 90)]), ['most_played:1-2|1-2', 'best_win_rate:1-2|3-2'], '3-4 under 3 % (120 games); 1-2|3-2 same core: no alternative');
+    assert.deepEqual(labels([candidate('1-2|1-2', 1000, 500), candidate('1-3|1-2', 300, 160)]), ['most_played:1-2|1-2', 'best_win_rate:1-3|1-2'], 'the only other build is the best win rate one');
+  });
+
+  it('OFF-META needs 0.5 %-3 % of the games, 30 games, a win rate above the champion average and another keystone', () => {
+    const top = [candidate('1-2|1-2', 3000, 1500), candidate('1-3|1-2', 2000, 1000), candidate('1-4|1-2', 1000, 500)];
     const champ = { games: 10_000, wins: 5200 }; // 52 % on average
     const off = (c: BuildCandidate) => selectBuilds([...top, c], champ, RULES).find((b) => b.label === 'off_meta')?.key ?? null;
-    assert.equal(off(candidate('7-8-9|1-2', 40, 30)), null, '0.4 %: below 0.5 %');
-    assert.equal(off(candidate('7-8-9|1-2', 400, 300)), null, '4 %: above 3 %');
-    assert.equal(off(candidate('7-8-9|1-2', 120, 62)), null, '51.7 %: not above the 52 % average');
-    assert.equal(off(candidate('7-8-9|1-2', 120, 70)), '7-8-9|1-2');
+    assert.equal(off(candidate('7-8|5-2', 40, 30)), null, '0.4 %: below 0.5 %');
+    assert.equal(off(candidate('7-8|5-2', 400, 300)), null, '4 %: above 3 %');
+    assert.equal(off(candidate('7-8|5-2', 120, 62)), null, '51.7 %: not above the 52 % average');
+    assert.equal(off(candidate('7-8|1-6', 120, 70)), null, 'same keystone as the most played build');
+    assert.equal(off(candidate('7-8|5-2', 120, 70)), '7-8|5-2');
     assert.equal(selectBuilds(top, champ, RULES).length, 3, 'absent when no key qualifies');
   });
 
-  it('most played builds need max(50 games, 3 % of the champion games); never filled with small builds', () => {
-    assert.equal(selectBuilds([candidate('1-2-3|1-2', 250, 130)], { games: 10_000, wins: 5000 }, RULES).length, 0, '3 % of 10 000 = 300, and no OFF-META without a most played build');
-    assert.equal(selectBuilds([candidate('1-2-3|1-2', 49, 30)], { games: 500, wins: 250 }, RULES).length, 0, 'under 50 games');
+  it('builds need max(50 games, 3 % of the champion games); never filled with small builds', () => {
+    assert.equal(selectBuilds([candidate('1-2|1-2', 250, 130)], { games: 10_000, wins: 5000 }, RULES).length, 0, '3 % of 10 000 = 300, and no OFF-META without a most played build');
+    assert.equal(selectBuilds([candidate('1-2|1-2', 49, 30)], { games: 500, wins: 250 }, RULES).length, 0, 'under 50 games');
     assert.deepEqual(selectBuilds([], { games: 1000, wins: 500 }, RULES), []);
   });
 });
@@ -134,40 +145,40 @@ describe('items 4 to 6', () => {
   it('main line without duplicate; alternatives = other items most bought at each slot', () => {
     // Real Akali case of the previous algorithm: Rabadon (3089) shown 5th and 6th as main item.
     const slots = [slotMap([[3089, 120], [3157, 80], [3135, 60], [3146, 40]]), slotMap([[3089, 90], [3135, 70], [3157, 50]]), slotMap([[3089, 50], [3135, 40], [3102, 30]])];
-    const next = nextSlots([3146, 4645, 3020], slots, 400, none, SLOT_RULES);
+    const next = nextSlots([3146, 4645], slots, 400, none, SLOT_RULES);
     assert.deepEqual(
       next.map((s) => [s.slot, s.item, s.alternatives.map((a) => a.item)]),
       [
-        [4, 3089, [3157, 3135]],
-        [5, 3135, [3089, 3157]],
-        [6, 3102, [3089, 3135]],
+        [3, 3089, [3157, 3135]],
+        [4, 3135, [3089, 3157]],
+        [5, 3102, [3089, 3135]],
       ],
       '3146 is in the core: never an alternative'
     );
-    assert.deepEqual(repeatedItems({ core: [3146, 4645, 3020], next } as never), []);
+    assert.deepEqual(repeatedItems({ core: [3146, 4645], next } as never), []);
   });
 
   it('alternatives: at most 2, at least 8 % of the slot purchases, with share and win rate', () => {
     const slots = [slotMap([[10, 50, 30], [11, 30, 20], [12, 20], [13, 15], [14, 7]]), new Map(), new Map()];
-    const [four] = nextSlots([1, 2, 3], slots, 100, none, SLOT_RULES);
+    const [four] = nextSlots([1, 2], slots, 100, none, SLOT_RULES);
     assert.equal(four!.share, 0.5);
     assert.equal(four!.winRate, 0.6);
     assert.deepEqual(four!.alternatives.map((a) => [a.item, a.share]), [
       [11, 0.3],
       [12, 0.2],
     ]);
-    const [low] = nextSlots([1, 2, 3], [slotMap([[10, 50], [14, 4]]), new Map(), new Map()], 100, none, SLOT_RULES);
+    const [low] = nextSlots([1, 2], [slotMap([[10, 50], [14, 4]]), new Map(), new Map()], 100, none, SLOT_RULES);
     assert.deepEqual(low!.alternatives, [], '4 / 54 purchases < 8 %');
   });
 
   it('late slots get alternatives too: share of the slot purchases and minimum games', () => {
     // 400 games in the build, only 24 reach a 6th item: 10 games is 2.5 % of the build but 42 % of the 6th items.
     const slots = [slotMap([[10, 120], [20, 60]]), slotMap([[20, 70], [30, 60]]), slotMap([[40, 12], [30, 10], [70, 2]])];
-    const next = nextSlots([1, 2, 3], slots, 400, none, SLOT_RULES);
+    const next = nextSlots([1, 2], slots, 400, none, SLOT_RULES);
     assert.deepEqual(next[2]!.alternatives.map((a) => [a.item, a.share]), [[30, 0.025]], 'item 70: 2 games < 3');
   });
 
-  it('respects exclusive groups: one pair of boots, one Tear item, one Lifeline item', () => {
+  it('respects exclusive groups: one Tear item, one Lifeline item', () => {
     const groups: ExclusiveGroups = new Map([
       [3020, ['boots']],
       [3111, ['boots']],
@@ -176,27 +187,38 @@ describe('items 4 to 6', () => {
       [3053, ['Lifeline']],
       [3156, ['Lifeline']],
     ]);
-    const slots = [slotMap([[3111, 90], [3053, 60], [3156, 40]]), slotMap([[3003, 70], [3156, 60], [3071, 30]]), slotMap([[3071, 50]])];
-    const next = nextSlots([3020, 3004, 6692], slots, 300, groups, SLOT_RULES);
-    assert.equal(next[0]!.item, 3053, 'second boots skipped');
+    const slots = [slotMap([[3003, 90], [3053, 60], [3156, 40]]), slotMap([[3156, 70], [3071, 30]]), slotMap([[3071, 50]])];
+    const next = nextSlots([3004, 6692], slots, 300, groups, SLOT_RULES);
+    assert.equal(next[0]!.item, 3053, 'second Tear item skipped');
     assert.deepEqual(next[0]!.alternatives.map((a) => a.item), [3156], 'an alternative may replace its own slot item');
-    assert.equal(next[1]!.item, 3071, 'second Tear item skipped, Lifeline taken by slot 4');
-    assert.equal(next.length, 2, 'nothing left for slot 6');
+    assert.equal(next[1]!.item, 3071, 'second Lifeline item skipped');
+    assert.equal(next.length, 2, 'nothing left for slot 5');
   });
 
-  it('an item bought 6th in more than 70 % of the cases is not proposed 4th', () => {
+  it('an item bought last in more than 70 % of the cases is not proposed 3rd', () => {
     const slots = [slotMap([[3026, 50], [3036, 40]]), slotMap([[3036, 20]]), slotMap([[3026, 200]])];
-    const next = nextSlots([1, 2, 3], slots, 400, none, SLOT_RULES);
+    const next = nextSlots([1, 2], slots, 400, none, SLOT_RULES);
     assert.equal(next[0]!.item, 3036);
     assert.ok(!next[0]!.alternatives.some((a) => a.item === 3026));
-    assert.equal(next.find((s) => s.slot === 6)?.item, 3026);
+    assert.equal(next.find((s) => s.slot === 5)?.item, 3026);
   });
 
-  it('ADC with boots in the core: four slots, items 3 to 6 of the line without boots', () => {
+  it('ADC or no boots: four slots, items 3 to 6', () => {
     const slots = [slotMap([[10, 50], [15, 30]]), slotMap([[20, 40]]), slotMap([[30, 30]]), slotMap([[10, 200], [40, 20]])];
-    const next = nextSlots([1, 3006, 2], slots, 100, none, SLOT_RULES, 4);
+    const next = nextSlots([1, 2], slots, 100, none, SLOT_RULES, 4);
     assert.deepEqual(next.map((s) => [s.slot, s.item]), [[3, 15], [4, 20], [5, 30], [6, 10]], 'item 10, bought last in most games, is not proposed first');
-    assert.equal(nextSlots([1, 2, 3], slots, 100, none, SLOT_RULES).at(-1)?.slot, 6, 'three slots by default');
+    assert.equal(nextSlots([1, 2], slots, 100, none, SLOT_RULES).at(-1)?.slot, 5, 'three slots by default: items 3 to 5');
+  });
+
+  it('boots: most bought, at most 2 alternatives with 8 % of the boots purchases and 3 games', () => {
+    const boots = bootsSlot(slotMap([[3020, 60, 33], [3158, 25], [3111, 8], [3047, 4], [3009, 2]]), 100, SLOT_RULES)!;
+    assert.deepEqual([boots.item, boots.share, boots.winRate], [3020, 0.6, 0.55]);
+    assert.deepEqual(boots.alternatives.map((a) => [a.item, a.share]), [
+      [3158, 0.25],
+      [3111, 0.08],
+    ]);
+    assert.deepEqual(bootsSlot(slotMap([[3020, 90], [3047, 5]]), 100, SLOT_RULES)!.alternatives, [], '5 / 95 purchases < 8 %');
+    assert.equal(bootsSlot(new Map(), 100, SLOT_RULES), null);
   });
 });
 
@@ -236,7 +258,7 @@ describe('real case: Akali top (patch 16.22 sample)', () => {
     });
     const file = out.files.find((f) => f.filter === 'master_plus')!;
     championBuildSchema.parse(file);
-    assert.ok(file.builds.length >= 3);
+    assert.ok(file.builds.length >= 2);
     for (const b of file.builds) {
       assert.deepEqual(repeatedItems(b), [], b.label);
     }

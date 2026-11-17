@@ -2,33 +2,21 @@ import type { ParticipantRecord } from '../extract/game.ts';
 import type { ExclusiveGroups } from '../extract/items.ts';
 import { rate, round, wilsonLower } from './stats.ts';
 
-/** Main items of a participant in real purchase order: completed majors and tier-2 boots, merged by purchase time. */
-export function mainItems(p: Pick<ParticipantRecord, 'majors' | 'boots'>): number[] {
-  const timed: Array<readonly [number, number]> = [...p.majors];
-  if (p.boots) timed.push(p.boots);
-  return timed
-    .map((entry, i) => ({ id: entry[0], t: entry[1], i }))
-    .sort((a, b) => a.t - b.t || a.i - b.i)
-    .map((e) => e.id);
-}
-
-/** Purchase times of the main items (same order as `mainItems`). */
-export function mainTimes(p: Pick<ParticipantRecord, 'majors' | 'boots'>): Map<number, number> {
-  const times = new Map<number, number>(p.majors.map(([id, t]) => [id, t]));
-  if (p.boots && !times.has(p.boots[0])) times.set(p.boots[0], p.boots[1]);
-  return times;
+/** Core of a participant: his first two completed major items (boots excluded), in purchase order. */
+export function coreItems(p: Pick<ParticipantRecord, 'majors'>): number[] {
+  return p.majors.slice(0, 2).map(([id]) => id);
 }
 
 /**
- * Build key: the first three main items (boots included), order-independent, plus the keystone and the
- * secondary tree. Same three items with another rune page = another build. Null under three main items.
+ * Build key: the first two completed major items (boots excluded), order-independent, plus the keystone and the
+ * secondary tree. Other boots or other minor runes = same build; another core item, keystone or secondary tree =
+ * another build. Null under two major items.
  * Runes: [primaryStyle, keystone, p1, p2, p3, subStyle, …].
  */
-export function buildKey(p: Pick<ParticipantRecord, 'majors' | 'boots' | 'runes'>): string | null {
-  const items = mainItems(p);
-  if (items.length < 3) return null;
-  const trio = items.slice(0, 3).sort((a, b) => a - b).join('-');
-  return `${trio}|${p.runes[1] ?? 0}-${p.runes[5] ?? 0}`;
+export function buildKey(p: Pick<ParticipantRecord, 'majors' | 'runes'>): string | null {
+  const core = coreItems(p);
+  if (core.length < 2) return null;
+  return `${[...core].sort((a, b) => a - b).join('-')}|${p.runes[1] ?? 0}-${p.runes[5] ?? 0}`;
 }
 
 export interface BuildCandidate {
@@ -39,12 +27,12 @@ export interface BuildCandidate {
   orders: Map<string, number>;
 }
 
-export const BUILD_LABELS = ['most_played', 'second_most_played', 'third_most_played', 'off_meta'] as const;
+export const BUILD_LABELS = ['most_played', 'best_win_rate', 'alternative', 'off_meta'] as const;
 export type BuildLabel = (typeof BUILD_LABELS)[number];
 
 export interface SelectedBuild extends BuildCandidate {
   label: BuildLabel;
-  /** Most frequent purchase order of the three items. */
+  /** Most frequent purchase order of the two core items. */
   core: number[];
   keystone: number;
   subStyle: number;
@@ -77,29 +65,54 @@ function select(candidate: BuildCandidate, label: BuildLabel): SelectedBuild {
   return { ...candidate, label, core: mostFrequentOrder(candidate), keystone, subStyle };
 }
 
+const coreOf = (c: BuildCandidate) => c.key.split('|')[0]!.split('-').map(Number);
+const keystoneOf = (c: BuildCandidate) => Number(c.key.split('|')[1]!.split('-')[0]);
+
 /**
- * Up to four builds:
- *  1-3. the three keys with the most games above max(minBuildGames, minBuildShare × champion games);
- *  4.   OFF-META: among the other keys with a share in [offMetaMinShare, offMetaMaxShare] and at least
- *       offMetaMinGames, whose win rate beats the champion's, the highest 95 % Wilson lower bound. None otherwise,
- *       and never without a most played build.
+ * Up to four builds, each with its own key. "Reliable" = at least max(minBuildGames, minBuildShare × champion games).
+ *  1. most played: the reliable key with the most games;
+ *  2. best win rate: among the other reliable keys, the highest win rate;
+ *  3. alternative: among the other reliable keys whose core differs from the most played one by one or two items,
+ *     the most played;
+ *  4. OFF-META: among the other keys with a share in [offMetaMinShare, offMetaMaxShare] and at least offMetaMinGames,
+ *     whose win rate beats the champion's, without any core item nor the keystone of the most played build, the
+ *     highest 95 % Wilson lower bound.
+ * A slot without a qualifying key is left out; nothing without a most played build.
  */
 export function selectBuilds(candidates: readonly BuildCandidate[], championRole: { games: number; wins: number }, rules: BuildRules): SelectedBuild[] {
   const threshold = Math.max(rules.minBuildGames, rules.minBuildShare * championRole.games);
   const byGames = [...candidates].sort((a, b) => b.games - a.games || a.key.localeCompare(b.key));
-  const top = byGames.filter((c) => c.games >= threshold).slice(0, 3);
-  const selected = top.map((c, i) => select(c, BUILD_LABELS[i]!));
+  const reliable = byGames.filter((c) => c.games >= threshold);
+  const first = reliable[0];
+  if (!first) return [];
+  const taken = new Set<BuildCandidate>([first]);
+  const selected = [select(first, 'most_played')];
+  const take = (c: BuildCandidate | undefined, label: BuildLabel) => {
+    if (!c) return;
+    taken.add(c);
+    selected.push(select(c, label));
+  };
 
-  if (!top.length) return [];
+  take(
+    reliable.filter((c) => !taken.has(c)).sort((a, b) => rate(b.wins, b.games) - rate(a.wins, a.games) || b.games - a.games)[0],
+    'best_win_rate'
+  );
+  const firstCore = coreOf(first);
+  take(
+    reliable.find((c) => !taken.has(c) && coreOf(c).some((id) => !firstCore.includes(id))),
+    'alternative'
+  );
   const average = rate(championRole.wins, championRole.games);
-  const offMeta = byGames
-    .filter((c) => !top.includes(c))
-    .filter((c) => {
-      const share = rate(c.games, championRole.games);
-      return c.games >= rules.offMetaMinGames && share >= rules.offMetaMinShare && share <= rules.offMetaMaxShare && rate(c.wins, c.games) > average;
-    })
-    .sort((a, b) => wilsonLower(b.wins, b.games) - wilsonLower(a.wins, a.games) || b.games - a.games)[0];
-  if (offMeta) selected.push(select(offMeta, 'off_meta'));
+  take(
+    byGames
+      .filter((c) => !taken.has(c) && keystoneOf(c) !== keystoneOf(first) && !coreOf(c).some((id) => firstCore.includes(id)))
+      .filter((c) => {
+        const share = rate(c.games, championRole.games);
+        return c.games >= rules.offMetaMinGames && share >= rules.offMetaMinShare && share <= rules.offMetaMaxShare && rate(c.wins, c.games) > average;
+      })
+      .sort((a, b) => wilsonLower(b.wins, b.games) - wilsonLower(a.wins, a.games) || b.games - a.games)[0],
+    'off_meta'
+  );
   return selected;
 }
 
@@ -126,10 +139,13 @@ export interface SlotItem extends WinCount {
   share: number;
 }
 
-export interface NextSlot extends SlotItem {
-  /** Position in the six-item line (3 only for an ADC whose core holds the boots). */
-  slot: 3 | 4 | 5 | 6;
+export interface SlotWithAlternatives extends SlotItem {
   alternatives: SlotItem[];
+}
+
+export interface NextSlot extends SlotWithAlternatives {
+  /** Position in the line of items without boots: 3 to 5, or 3 to 6 when the boots do not take an item slot. */
+  slot: 3 | 4 | 5 | 6;
 }
 
 const conflicts = (a: number, b: number, groups: ExclusiveGroups): boolean => {
@@ -140,8 +156,8 @@ const conflicts = (a: number, b: number, groups: ExclusiveGroups): boolean => {
 };
 
 /**
- * Items 4, 5 and 6 of a build (`count` slots, the last one being item 6: an ADC whose core holds the boots
- * gets 4 slots, items 3 to 6 of a line without boots):
+ * Items after the two core items, boots excluded (`count` slots: 3 for items 3 to 5 when the boots take the sixth
+ * slot, 4 for items 3 to 6 for an ADC, whose role quest frees a slot for the boots, or a build without boots):
  * - slot N takes the item most bought at purchase position N, excluding every item already retained
  *   (core and earlier slots) and any item exclusive with them (one pair of boots, one Tear item…):
  *   the main line has no duplicate;
@@ -186,7 +202,24 @@ export function nextSlots(core: readonly number[], allSlots: readonly Map<number
       )
       .slice(0, 2)
       .map(([item, c]) => line(item, c));
-    result.push({ slot: (7 - count + s) as NextSlot['slot'], ...main, alternatives });
+    result.push({ slot: (3 + s) as NextSlot['slot'], ...main, alternatives });
   });
   return result;
+}
+
+/**
+ * Boots of a build: the tier-2 boots most bought with it and at most 2 alternatives, each at least `altMinShare` of
+ * the boots purchases and `altMinGames` games. Shares are shares of the build's games. Null when no boots are bought.
+ */
+export function bootsSlot(boots: ReadonlyMap<number, WinCount>, buildGames: number, rules: Pick<SlotRules, 'altMinShare' | 'altMinGames'>): SlotWithAlternatives | null {
+  const ranked = [...boots.entries()].sort((a, b) => b[1].games - a[1].games || a[0] - b[0]);
+  if (!ranked.length) return null;
+  const total = ranked.reduce((sum, [, c]) => sum + c.games, 0);
+  const line = ([item, c]: [number, WinCount]): SlotItem => ({ item, games: c.games, wins: c.wins, winRate: round(rate(c.wins, c.games)), share: round(rate(c.games, buildGames)) });
+  const alternatives = ranked
+    .slice(1)
+    .filter(([, c]) => c.games >= rules.altMinGames && rate(c.games, total) >= rules.altMinShare)
+    .slice(0, 2)
+    .map(line);
+  return { ...line(ranked[0]!), alternatives };
 }

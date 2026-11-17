@@ -898,9 +898,11 @@
     "WR_SHORT": "TV",
     "LABELS": {
       "most_played": "Le plus joué",
+      "best_win_rate": "Meilleur winrate",
+      "alternative": "Alternatif",
+      "off_meta": "Off-méta",
       "second_most_played": "2e plus joué",
-      "third_most_played": "3e plus joué",
-      "off_meta": "OFF-META"
+      "third_most_played": "3e plus joué"
     },
     "N_GAMES": "{{n}} parties",
     "MEDIAN_TIMING": "timing médian",
@@ -948,7 +950,6 @@
     "PICK_META": "{{games}} · {{share}} des parties",
     "SHARE_OF_GAMES": "{{share}} des parties",
     "FULL_BUILD": "Build complet",
-    "CORE_LEGEND": "Core du build",
     "BOOTS": "Bottes",
     "OR": "ou"
   },

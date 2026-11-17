@@ -21,9 +21,9 @@ const slotItem = z.object({ item: id, games, wins: games, winRate: rate, share: 
 
 export const buildSchema = z.object({
   label: z.enum(BUILD_LABELS),
-  /** First three main items (boots included) in their most frequent purchase order. */
-  core: z.array(id).length(3),
-  /** Keystone and secondary tree: part of the build key. */
+  /** First two completed major items (boots excluded) in their most frequent purchase order. */
+  core: z.array(id).length(2),
+  /** Keystone and secondary tree: part of the build key (with the core). */
   keystone: id,
   subStyle: id,
   games,
@@ -38,18 +38,18 @@ export const buildSchema = z.object({
   start: z.object({ items: z.array(id), games }).nullable(),
   firstBuy: z.object({ items: z.array(id), games, medianMs: ms }).nullable(),
   /** Median purchase time of each core item, same order as `core`. */
-  coreTimes: z.array(ms).length(3),
-  /** Items 4, 5 and 6 (no duplicate with the core or between them), each with at most two alternatives. ADC: the line
-   * holds six items besides the boots, so items 3 to 6 when the core holds the boots. */
+  coreTimes: z.array(ms).length(2),
+  /** Items 3 to 5 without boots (no duplicate with the core or between them), each with at most two alternatives.
+   * Items 3 to 6 for an ADC (the role quest frees a slot for the boots) or a build without boots. */
   next: z.array(slotItem.extend({ slot: z.union([z.literal(3), z.literal(4), z.literal(5), z.literal(6)]), alternatives: z.array(slotItem).max(2) })).max(4),
-  /** ADC only: most bought tier-2 boots, shown apart from the six items (may be a core item). Null for other roles. */
-  boots: slotItem.nullable(),
+  /** Most bought tier-2 boots and at most two alternatives, shown apart from the other items. Null without boots. */
+  boots: slotItem.extend({ alternatives: z.array(slotItem).max(2) }).nullable(),
   skills: z.object({ order: z.string().regex(/^[1-4]{1,18}$/), max: z.string().regex(/^[1-3]{3}$/), games, wins: games, winRate: rate }).nullable(),
 });
 export type BuildJson = z.infer<typeof buildSchema>;
 
 /**
- * Items repeated where they must not be: in the main line (core, then items 4-6) or within one slot
+ * Items repeated where they must not be: in the main line (core, then items 3-6) or within one slot
  * (core, slot item and its alternatives). An alternative may repeat an item of another slot.
  */
 export function repeatedItems(build: BuildJson): number[] {

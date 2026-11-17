@@ -840,6 +840,8 @@
     "WR_SHORT": "WR",
     "LABELS": {
       "most_played": "Most played",
+      "best_win_rate": "Best win rate",
+      "alternative": "Alternative",
       "second_most_played": "2nd most played",
       "third_most_played": "3rd most played",
       "off_meta": "OFF-META"
@@ -880,6 +882,7 @@
     "LIST_LEAD": "Patch {{patch}} · {{games}} ranked games analysed. Click a champion to see its builds, runes and skill order.",
     "LIST_EMPTY": "Patch statistics are not available yet.",
     "LIST_CAPTION": "Champions by role with tier, win, pick and ban rates",
+    "LIST_NO_MATCH": "No champion matches this search.",
     "COL_CHAMPION": "Champion",
     "COL_TIER": "Tier",
     "FEW_GAMES": "few games",
@@ -890,7 +893,6 @@
     "PICK_META": "{{games}} · {{share}} of games",
     "SHARE_OF_GAMES": "{{share}} of games",
     "FULL_BUILD": "Full build",
-    "CORE_LEGEND": "Build core",
     "BOOTS": "Boots",
     "OR": "or"
   },

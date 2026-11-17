@@ -3,7 +3,7 @@ import type { GameRecord, ParticipantRecord, Role } from '../extract/game.ts';
 import type { ExclusiveGroups } from '../extract/items.ts';
 import { maxOrder } from '../extract/skills.ts';
 import { siteRole, type BuildJson, type ChampionBuildJson, type IndexJson, type SiteRole } from '../schema.ts';
-import { buildKey, mainItems, mainTimes, nextSlots, selectBuilds, type BuildCandidate, type SelectedBuild } from './builds.ts';
+import { bootsSlot, buildKey, coreItems, nextSlots, selectBuilds, type BuildCandidate, type SelectedBuild } from './builds.ts';
 import { MainRoles } from './roles.ts';
 import { Histogram, rate, round, tierRanks, tierScores, wilsonLower, type TierRank } from './stats.ts';
 import { summaryTexts, type Names } from './summary.ts';
@@ -30,11 +30,11 @@ interface BuildDetails {
   start: Map<string, number>;
   firstBuy: Map<string, number>;
   firstBuyT: Histogram;
-  /** Purchase time of each main item (for the core timings). */
+  /** Purchase time of each core item (for the core timings). */
   itemT: Map<number, Histogram>;
-  /** Items bought at purchase positions 4, 5, 6 (and 7): after the core, boots skipped for an ADC. */
+  /** Completed major items bought 3rd to 6th (boots excluded). */
   slots: Array<Map<number, WinCount>>;
-  /** ADC: tier-2 boots, shown apart from the six items (the role quest frees a slot for them). */
+  /** Tier-2 boots, shown apart from the other items with their alternatives. */
   boots: Map<number, WinCount>;
   skills: Map<string, WinCount>;
 }
@@ -148,13 +148,13 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
         cr.games++;
         if (p.win) cr.wins++;
 
-        // Games under three main items have no build key: they only count in the general statistics.
+        // Games under two completed major items have no build key: they only count in the general statistics.
         const bk = buildKey(p);
         if (bk) {
           const candidate = cr.keys.get(bk) ?? { key: bk, games: 0, wins: 0, orders: new Map() };
           candidate.games++;
           if (p.win) candidate.wins++;
-          count(candidate.orders, mainItems(p).slice(0, 3).join('-'));
+          count(candidate.orders, coreItems(p).join('-'));
           cr.keys.set(bk, candidate);
         }
         if (p.opponent) bump(cr.opponents, p.opponent, p.win);
@@ -298,18 +298,14 @@ function collectDetails(d: BuildDetails, p: ParticipantRecord): void {
   if (p.start.length) count(d.start, [...p.start].sort((a, b) => a - b).join(','));
   if (p.firstBuy.length) count(d.firstBuy, [...p.firstBuy].sort((a, b) => a - b).join(','));
   if (p.firstBuyT !== null) d.firstBuyT.add(p.firstBuyT);
-  const items = mainItems(p);
-  const times = mainTimes(p);
-  for (const id of items.slice(0, 3)) {
+  for (const [id, t] of p.majors.slice(0, 2)) {
     let h = d.itemT.get(id);
     if (!h) d.itemT.set(id, (h = new Histogram(10_000)));
-    h.add(times.get(id)!);
+    h.add(t);
   }
-  // ADC: the boots do not take an item slot, the line holds six other items (up to 4 after the core).
-  const adc = p.role === 'BOTTOM';
-  const after = adc ? items.slice(3).filter((id) => id !== p.boots?.[0]) : items.slice(3, 6);
-  after.slice(0, 4).forEach((item, i) => bump(d.slots[i]!, item, p.win));
-  if (adc && p.boots) bump(d.boots, p.boots[0], p.win);
+  // Items 3 to 6 without boots: the boots have their own slot.
+  p.majors.slice(2, 6).forEach(([item], i) => bump(d.slots[i]!, item, p.win));
+  if (p.boots) bump(d.boots, p.boots[0], p.win);
   if (p.skills.length >= 15) bump(d.skills, p.skills, p.win);
 }
 
@@ -319,10 +315,9 @@ function buildJson(build: SelectedBuild, cr: ChampionRoleCounters, d: BuildDetai
   const start = d && top(d.start);
   const firstBuy = d && top(d.firstBuy);
   const skills = d && topWin(d.skills);
-  const boots = d && cr.role === 'BOTTOM' ? topWin(d.boots) : null;
-  const isBoots = (id: number) => exclusive.get(id)?.includes('boots') ?? false;
-  // ADC: six items besides the boots, so one more slot when the core holds them.
-  const slotCount = cr.role === 'BOTTOM' && build.core.some(isBoots) ? 4 : 3;
+  const boots = d ? bootsSlot(d.boots, build.games, config) : null;
+  // Five items and the boots; six items for an ADC (the role quest frees a slot for the boots) or without boots.
+  const slotCount = cr.role === 'BOTTOM' || !boots ? 4 : 3;
 
   return {
     label: build.label,
@@ -341,9 +336,7 @@ function buildJson(build: SelectedBuild, cr: ChampionRoleCounters, d: BuildDetai
     firstBuy: firstBuy ? { items: firstBuy[0].split(',').map(Number), games: firstBuy[1], medianMs: d!.firstBuyT.median() } : null,
     coreTimes: build.core.map((id) => d?.itemT.get(id)?.median() ?? null),
     next: d ? nextSlots(build.core, d.slots, build.games, exclusive, config, slotCount) : [],
-    boots: boots
-      ? { item: boots[0], games: boots[1].games, wins: boots[1].wins, winRate: round(rate(boots[1].wins, boots[1].games)), share: round(rate(boots[1].games, build.games)) }
-      : null,
+    boots,
     skills: skills ? { order: skills[0].slice(0, 18), max: maxOrder(skills[0]), games: skills[1].games, wins: skills[1].wins, winRate: round(rate(skills[1].wins, skills[1].games)) } : null,
   };
 }

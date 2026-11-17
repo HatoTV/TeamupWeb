@@ -174,7 +174,7 @@
                   (click)="selectBuild(i)"
                 >
                   <span class="pick__top">
-                    <span class="pick__label" [class.pick__label--off]="opt.label === 'off_meta'">{{ 'BUILDS.LABELS.' + opt.label | translate }}</span>
+                    <span class="pick__label">{{ 'BUILDS.LABELS.' + opt.label | translate }}</span>
                     <span class="pick__wr"><span class="sr-only">{{ 'BUILDS.WIN_RATE' | translate }} </span>{{ fmtRate(opt.winRate) }}</span>
                   </span>
                   <span class="pick__icons">
@@ -336,15 +336,26 @@
 
             <div class="line-head">
               <h3 class="items__label items__label--gold">{{ 'BUILDS.FULL_BUILD' | translate }}</h3>
-              <span class="line-legend"><span class="line-legend__dot" aria-hidden="true"></span>{{ 'BUILDS.CORE_LEGEND' | translate }}</span>
             </div>
+            <ng-template #alts let-list>
+              <span class="alts">
+                <span class="alts__or">{{ 'BUILDS.OR' | translate }}</span>
+                @for (a of list; track a.item) {
+                  <span class="alt">
+                    <app-game-icon [src]="item(a.item).src" [name]="item(a.item).name" [desc]="item(a.item).desc" [cost]="item(a.item).cost" [size]="40" />
+                    <span class="alt__stats">{{ fmtRate(a.share, 0) }}</span>
+                    <span class="alt__stats">{{ 'BUILDS.WR_SHORT' | translate }} <span class="slot__wr">{{ fmtRate(a.winRate) }}</span></span>
+                  </span>
+                }
+              </span>
+            </ng-template>
             @if (itemLine(); as line) {
               <div class="line" [class.line--boots]="line.boots">
-                <ol class="line__items">
+                <ol class="line__items" [style.--cols]="line.items.length">
                   @for (it of line.items; track it.item; let i = $index) {
-                    <li class="slot" [class.slot--core]="it.core">
+                    <li class="slot">
                       <span class="slot__icon">
-                        <app-game-icon [src]="item(it.item).src" [name]="item(it.item).name" [desc]="item(it.item).desc" [cost]="item(it.item).cost" [size]="52" [ring]="it.core ? '#FFC93C' : null" />
+                        <app-game-icon [src]="item(it.item).src" [name]="item(it.item).name" [desc]="item(it.item).desc" [cost]="item(it.item).cost" [size]="52" />
                         <span class="slot__n" aria-hidden="true">{{ i + 1 }}</span>
                       </span>
                       <span class="slot__name">{{ item(it.item).name }}</span>
@@ -355,25 +366,16 @@
                         <span class="slot__stats">{{ fmtRate(it.stat.share, 0) }} · <span class="slot__nw">{{ 'BUILDS.WR_SHORT' | translate }} <span class="slot__wr">{{ fmtRate(it.stat.winRate) }}</span></span></span>
                       }
                       @if (it.alternatives.length) {
-                        <span class="alts">
-                          <span class="alts__or">{{ 'BUILDS.OR' | translate }}</span>
-                          @for (a of it.alternatives; track a.item) {
-                            <span class="alt">
-                              <app-game-icon [src]="item(a.item).src" [name]="item(a.item).name" [desc]="item(a.item).desc" [cost]="item(a.item).cost" [size]="40" />
-                              <span class="alt__stats">{{ fmtRate(a.share, 0) }}</span>
-                              <span class="alt__stats">{{ 'BUILDS.WR_SHORT' | translate }} <span class="slot__wr">{{ fmtRate(a.winRate) }}</span></span>
-                            </span>
-                          }
-                        </span>
+                        <ng-container *ngTemplateOutlet="alts; context: { $implicit: it.alternatives }" />
                       }
                     </li>
                   }
                 </ol>
                 @if (line.boots; as bt) {
-                  <div class="slot slot--boots" [class.slot--core]="bt.core">
+                  <div class="slot slot--boots">
                     <span class="slot__tag">{{ 'BUILDS.BOOTS' | translate }}</span>
                     <span class="slot__icon">
-                      <app-game-icon [src]="item(bt.item).src" [name]="item(bt.item).name" [desc]="item(bt.item).desc" [cost]="item(bt.item).cost" [size]="52" [ring]="bt.core ? '#FFC93C' : null" />
+                      <app-game-icon [src]="item(bt.item).src" [name]="item(bt.item).name" [desc]="item(bt.item).desc" [cost]="item(bt.item).cost" [size]="52" />
                     </span>
                     <span class="slot__name">{{ item(bt.item).name }}</span>
                     @if (bt.time !== null) {
@@ -381,6 +383,9 @@
                     }
                     @if (bt.stat) {
                       <span class="slot__stats">{{ fmtRate(bt.stat.share, 0) }} · <span class="slot__nw">{{ 'BUILDS.WR_SHORT' | translate }} <span class="slot__wr">{{ fmtRate(bt.stat.winRate) }}</span></span></span>
+                    }
+                    @if (bt.alternatives.length) {
+                      <ng-container *ngTemplateOutlet="alts; context: { $implicit: bt.alternatives }" />
                     }
                   </div>
                 }

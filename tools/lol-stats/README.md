@@ -37,6 +37,7 @@ La clé Riot est lue dans `tools/lol-stats/.env` (`RIOT_API_KEY=RGAPI-…`, igno
 | `LOL_STATS_ALT_MIN_SHARE`, `LOL_STATS_ALT_MIN_GAMES` | `0.08`, `3` | Part minimale des achats faits à son emplacement et nombre minimal de parties d'une alternative (objets 3 à 6 et bottes). |
 | `LOL_STATS_LATE_SHARE` | `0.7` | Un objet acheté en dernière position dans plus de 70 % des cas n'est pas proposé 3ᵉ. |
 | `LOL_STATS_MIN_MATCHUP_GAMES` | `50` | Seuil des adversaires et duos. |
+| `LOL_STATS_MIN_COUNTER_GAMES` | `200` | Seuil d'un adversaire dans l'onglet Counters (et de son écart d'or à 15 min). |
 | `LOL_STATS_MIN_GAMES_NEW_PATCH` | `200` | Parties d'un champion/rôle avant de basculer sur le nouveau patch. |
 | `LOL_STATS_LOW_SAMPLE_GAMES` | `200` | En dessous, la page affiche un avertissement « peu de données » ; dans la tier list, le champion est « non classé ». |
 | `LOL_STATS_BAND_PAGES_LOW`, `LOL_STATS_BAND_GAMES_LOW` | `2`, `4000` | Tranche Fer → Or (échantillon) : pages de 205 joueurs par division d'Or, Argent, Bronze et Fer, et nouvelles parties par collecte et par région (0 = tranche non collectée). |
@@ -61,7 +62,8 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
    - champion, rôle, victoire, adversaire de lane, coéquipiers ;
    - runes complètes, paire de sorts ;
    - ordre d'achat reconstruit depuis la timeline (annulations, reventes et composants gérés), puis phases d'objets : départ (< 1:30), premiers achats, objets majeurs, bottes de niveau 2 ;
-   - ordre des compétences.
+   - ordre des compétences ;
+   - écart d'or avec l'adversaire de lane à 15:00 (`goldDiff15`, `totalGold` des `participantFrames` de la minute 15), seulement quand la timeline est téléchargée (enregistrements à partir du 2026-11-17).
 4. **État** (bucket R2 privé `R2_BUCKET`, hors Git : il contient les identifiants des joueurs et n'est jamais public) : enregistrements de parties en JSONL compressé et IDs déjà traités, par patch, liste des joueurs, rotation, manifestes de publication.
 
 ## Calculs
@@ -97,6 +99,7 @@ Le client lit les limites dans les en-têtes de chaque réponse (`X-App-Rate-Lim
 - **ADC** (quête de rôle : les bottes ne prennent pas d'emplacement) et builds sans bottes : la ligne compte 6 objets hors bottes (objets 3 à 6).
 - **Objets exclusifs** (déduits de Data Dragon, qui n'a pas de champ « groupe ») : une seule paire de bottes, un seul objet construit à partir de la Larme de la déesse, un seul objet par passif unique partagé (Ligne de vie, Lame enchantée, Fendoir…).
 - **Matchups** : Faible contre / Fort contre (6 adversaires de lane, au moins 50 parties), meilleure synergie (jungle pour top et mid, support pour ADC et inversement, mid pour jungle).
+- **Counters** (`counters`) : tous les adversaires de lane (même rôle, équipe adverse, rôle principal) avec au moins `LOL_STATS_MIN_COUNTER_GAMES` parties : `championId`, `games`, `wins`, `winRate` (victoire du champion de la page). `advantage` = taux de victoire publié ≥ 50 %, du plus haut au plus bas ; `counter` = < 50 %, du plus bas au plus haut ; égalités départagées par le nombre de parties. `goldDiff15` (moyenne arrondie à l'unité, positive quand le champion de la page a plus d'or) n'est publié que si au moins `LOL_STATS_MIN_COUNTER_GAMES` parties du matchup ont l'or à 15 min.
 
 - **Tier list** (par patch × tranche × rôle × champion) : tranches `low` (Fer → Or), `mid` (Platine → Diamant), `elite` (Maître → Challenger). Un participant compte dans la tranche de son propre palier quand il est dans une liste de joueurs collectés, sinon dans celle de la partie (palier le plus bas des joueurs collectés de la partie). Pondération : chaque participant compte pour 1/10 de partie dans sa tranche. Seuls les rôles principaux du champion (calculés sur toutes les tranches) sont classés ou listés.
   - victoire = victoires / parties ; pick = parties du champion dans le rôle / parties de la tranche ;

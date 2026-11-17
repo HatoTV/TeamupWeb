@@ -33,6 +33,11 @@ export interface ParticipantRecord {
   fullBuild: number[];
   /** Slots 1–4 for levels 1 to 18, e.g. "131213…". */
   skills: string;
+  /**
+   * Gold lead over the lane opponent at 15:00 (own totalGold − opponent's, negative when behind). Absent without
+   * timeline frames (sampled bands, records before 2026-11-17).
+   */
+  goldDiff15?: number;
   /** Ranked tier of the player when he is in the collected player list (absent in records before 2026-11-15). */
   tier?: SampledTier;
 }
@@ -87,6 +92,7 @@ export function extractGame(match: MatchDto, timeline: TimelineDto, options: Ext
   const positioned = info.participants.filter((p) => (ROLES as readonly string[]).includes(p.teamPosition));
   if (positioned.length !== 10) return 'positions';
 
+  const gold15 = goldAt15(timeline);
   const events: TimelineEventDto[] = timeline.info.frames.flatMap((f) => f.events).sort((a, b) => a.timestamp - b.timestamp);
 
   const participants = info.participants.map((p): ParticipantRecord => {
@@ -113,6 +119,7 @@ export function extractGame(match: MatchDto, timeline: TimelineDto, options: Ext
       boots: phases.boots,
       fullBuild: phases.fullBuild,
       skills: skillOrder(events, p.participantId),
+      ...goldDiffOf(gold15, p.participantId, opponent?.participantId),
       ...(tierOfPlayer(options, p.puuid) ? { tier: tierOfPlayer(options, p.puuid) } : {}),
     };
   });
@@ -128,6 +135,22 @@ export function extractGame(match: MatchDto, timeline: TimelineDto, options: Ext
     bans,
     participants,
   };
+}
+
+/** Snapshot of the minute 15 (within 30 s), as participantId → totalGold; null without such a frame. */
+export function goldAt15(timeline: TimelineDto): Map<number, number> | null {
+  const frame = timeline.info.frames.find((f) => Math.abs(f.timestamp - GOLD_DIFF_AT_MS) <= 30_000 && f.participantFrames);
+  if (!frame?.participantFrames) return null;
+  return new Map(Object.values(frame.participantFrames).map((pf) => [pf.participantId, pf.totalGold]));
+}
+
+const GOLD_DIFF_AT_MS = 15 * 60_000;
+
+/** `{ goldDiff15 }`: gold of the participant minus his lane opponent's at 15:00, or {} when unknown. */
+function goldDiffOf(gold: Map<number, number> | null, self: number, opponent: number | undefined): { goldDiff15?: number } {
+  const own = gold?.get(self);
+  const other = opponent === undefined ? undefined : gold?.get(opponent);
+  return own === undefined || other === undefined ? {} : { goldDiff15: own - other };
 }
 
 const tierOfPlayer = (options: ExtractOptions, puuid: string) => (puuid ? options.tierOf?.(puuid) : undefined);

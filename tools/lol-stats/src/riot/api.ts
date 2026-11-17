@@ -71,7 +71,14 @@ export type TimelineEventDto =
 
 export interface TimelineDto {
   metadata: { matchId: string };
-  info: { frames: { timestamp: number; events: TimelineEventDto[] }[] };
+  info: {
+    frames: {
+      timestamp: number;
+      events: TimelineEventDto[];
+      /** Per participant (key = participantId), one snapshot per minute. */
+      participantFrames?: Record<string, { participantId: number; totalGold: number }>;
+    }[];
+  };
 }
 
 // ---------- Endpoints ----------

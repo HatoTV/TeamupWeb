@@ -4,6 +4,7 @@ import type { ExclusiveGroups } from '../extract/items.ts';
 import { maxOrder } from '../extract/skills.ts';
 import { siteRole, type BuildJson, type ChampionBuildJson, type IndexJson, type SiteRole } from '../schema.ts';
 import { bootsSlot, buildKey, coreItems, nextSlots, selectBuilds, type BuildCandidate, type SelectedBuild } from './builds.ts';
+import { splitCounters, type OpponentCount } from './counters.ts';
 import { MainRoles } from './roles.ts';
 import { Histogram, rate, round, tierRanks, tierScores, wilsonLower, type TierRank } from './stats.ts';
 import { summaryTexts, type Names } from './summary.ts';
@@ -20,7 +21,7 @@ interface ChampionRoleCounters extends WinCount {
   champion: number;
   role: Role;
   keys: Map<string, BuildCandidate>;
-  opponents: Map<number, WinCount>;
+  opponents: Map<number, OpponentCount>;
   mates: Map<number, WinCount>;
 }
 
@@ -87,7 +88,7 @@ export interface AggregateInput {
     Config,
     'minBuildGames' | 'minBuildShare' | 'offMetaMinShare' | 'offMetaMaxShare' | 'offMetaMinGames' | 'altMinShare' | 'altMinGames' | 'lateShare' | 'minMatchupGames' | 'lowSampleGames'
   > &
-    Partial<Pick<Config, 'mainRoleShare'>>;
+    Partial<Pick<Config, 'mainRoleShare' | 'minCounterGames'>>;
 }
 
 export interface AggregateOutput {
@@ -157,7 +158,16 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
           count(candidate.orders, coreItems(p).join('-'));
           cr.keys.set(bk, candidate);
         }
-        if (p.opponent) bump(cr.opponents, p.opponent, p.win);
+        if (p.opponent) {
+          const o = cr.opponents.get(p.opponent) ?? { games: 0, wins: 0, goldSum: 0, goldGames: 0 };
+          o.games++;
+          if (p.win) o.wins++;
+          if (p.goldDiff15 !== undefined) {
+            o.goldSum += p.goldDiff15;
+            o.goldGames++;
+          }
+          cr.opponents.set(p.opponent, o);
+        }
         const mate = p.mates[SYNERGY_ROLE[p.role]];
         if (mate) bump(cr.mates, mate, p.win);
       }
@@ -256,6 +266,11 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
         .reverse()
         .filter(([champion]) => !weakAgainst.some((w) => w.champion === champion))
         .map(([champion, o]) => ({ champion, games: o.games, winRate: round(rate(o.wins, o.games)) }));
+      // Counters tab: every main-role lane opponent above the threshold.
+      const counters = splitCounters(
+        [...cr.opponents.entries()].filter(([champion]) => isMain(champion, cr.role)),
+        config.minCounterGames ?? 200
+      );
       const synergyRole = siteRole(SYNERGY_ROLE[cr.role]);
       const synergy = [...cr.mates.entries()]
         .filter(([champion, m]) => m.games >= config.minMatchupGames && isMain(champion, SYNERGY_ROLE[cr.role]))
@@ -280,6 +295,7 @@ export async function aggregate(input: AggregateInput): Promise<AggregateOutput>
         builds,
         weakAgainst,
         strongAgainst,
+        counters,
         synergy,
         summary: { fr: '', en: '' },
       };

@@ -72,6 +72,38 @@
   }
 }
 
+.search {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex: 1 1 220px;
+  max-width: 300px;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: var(--radius-control-sm);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  color: var(--color-text-muted);
+
+  &:focus-within {
+    border-color: var(--color-gold);
+  }
+
+  input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    background: transparent;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--color-text);
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}
+
 app-rank-select {
   --rank-select-height: 40px;
 }
@@ -211,6 +243,11 @@ app-rank-select {
 
   .head__title {
     font-size: 36px;
+  }
+
+  .search {
+    flex-basis: 100%;
+    max-width: none;
   }
 
   .wrap {

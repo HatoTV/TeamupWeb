@@ -4,6 +4,8 @@ import { TranslateModule } from '@ngx-translate/core';
 import { BUILD_FILTERS, BuildDataService, BuildFilter, BuildIndex, BuildMeta, StaticCore, TierRank } from '../../core/data/build-data.service';
 import { ChampionDataService, Role } from '../../core/data/champion-data.service';
 import { RouteContextService } from '../../core/route-context.service';
+import { normalizeForSearch } from '../../core/slug';
+import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { injectPageSeo } from '../../core/seo.service';
 import { ROLE_ORDER, formatInt, formatRate, isBuildFilter, rankFilters } from './build-utils';
 import { RankSelectComponent } from './rank-select.component';
@@ -30,7 +32,7 @@ const TIER_ORDER: Record<string, number> = { 'S+': 0, S: 1, A: 2, B: 3, C: 4, D:
 @Component({
   selector: 'app-builds-list',
   standalone: true,
-  imports: [TranslateModule, RouterLink, RankSelectComponent],
+  imports: [TranslateModule, RouterLink, RankSelectComponent, IconComponent],
   templateUrl: './builds-list.component.html',
   styleUrl: './builds-list.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -60,6 +62,7 @@ export class BuildsListComponent {
   protected readonly defaultFilter = computed(() => this.filters()[0]!);
   protected readonly filter = computed<BuildFilter>(() => (isBuildFilter(this.rank(), this.filters()) ? this.rank()! : this.defaultFilter()));
   protected readonly role = signal<Role | null>(null);
+  protected readonly search = signal('');
   protected readonly sort = signal<{ key: SortKey; dir: 1 | -1 }>({ key: 'tier', dir: 1 });
   protected readonly index = signal<BuildIndex | null>(null);
   protected readonly core = signal<StaticCore | null>(null);
@@ -73,11 +76,15 @@ export class BuildsListComponent {
     const champs = this.champions.index()?.champions ?? [];
     if (!index || !core) return [];
     const version = core.version;
+    // Punctuation-free so "kaisa" finds Kai'Sa and "dr mundo" finds Dr. Mundo.
+    const searchKey = (v: string) => normalizeForSearch(v).replace(/[^a-z0-9]/g, '');
+    const query = searchKey(this.search());
     const rows: ListRow[] = [];
     for (const c of index.champions) {
       const info = core.champions[c.champion];
       const site = champs.find((x) => x.ddragonId === info?.id);
       if (!info || !site) continue;
+      if (query && !searchKey(info.name).includes(query)) continue;
       for (const r of c.roles) {
         if (this.role() && r.role !== this.role()) continue;
         rows.push({ key: c.champion, name: info.name, slug: site.slug, icon: this.data.championIcon(version, info.id), ...r });

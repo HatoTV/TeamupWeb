@@ -350,7 +350,7 @@
               </span>
             </ng-template>
             @if (itemLine(); as line) {
-              <div class="line" [class.line--boots]="line.boots">
+              <div class="line">
                 <ol class="line__items" [style.--cols]="line.items.length">
                   @for (it of line.items; track it.item; let i = $index) {
                     <li class="slot">

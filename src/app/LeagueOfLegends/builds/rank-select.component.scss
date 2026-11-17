@@ -70,6 +70,8 @@
   background: var(--color-surface);
   border: 1px solid var(--color-line);
   box-shadow: 0 20px 48px rgba(0, 0, 0, 0.55);
+  // Keeps the opened list clear of the fixed mobile tab bar when scrolled into view.
+  scroll-margin-bottom: calc(78px + env(safe-area-inset-bottom));
 
   &[hidden] {
     display: none;

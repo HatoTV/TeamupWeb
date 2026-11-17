@@ -34,6 +34,8 @@ export abstract class ListboxSelect<T> {
     // Render the list now, then focus the selected option.
     this.cdr.detectChanges();
     this.focusOption(Math.max(0, this.ordered().indexOf(this.value())));
+    // Reveal the whole list (it may open below the fold or under the mobile tab bar).
+    this.list()?.nativeElement.scrollIntoView({ block: 'nearest' });
   }
 
   private close(focusButton: boolean): void {

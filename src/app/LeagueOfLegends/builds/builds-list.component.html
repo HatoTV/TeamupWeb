@@ -2,8 +2,11 @@
   <p class="head__kicker">{{ 'BUILDS.LIST_KICKER' | translate }}</p>
   <h1 class="head__title">{{ 'BUILDS.LIST_TITLE' | translate }}</h1>
   <p class="head__lead">
-    {{ 'BUILDS.LIST_LEAD' | translate: { patch: meta()?.latest ?? '…', games: fmtInt(index()?.totalGames ?? 0) } }}
+    {{ 'BUILDS.LIST_LEAD' | translate: { patch: patch() ?? '…', games: fmtInt(index()?.totalGames ?? 0) } }}
   </p>
+  @if (newPatch(); as latest) {
+    <p class="head__notice" role="status">{{ 'BUILDS.NEW_PATCH_NOTICE' | translate: { latest, patch: patch() } }}</p>
+  }
   @if (meta()?.sample) {
     <p class="head__sample" role="note">{{ 'BUILDS.SAMPLE_DATA' | translate }}</p>
   }
@@ -23,6 +26,9 @@
     </div>
     <app-tier-select [selected]="tiers()" (selectedChange)="tiers.set($event)" />
     <app-rank-select [filters]="filters()" [value]="filter()" (valueChange)="rank.set($event)" />
+    @if (patch(); as p) {
+      <app-patch-select [patches]="patchOptions()" [value]="p" [lang]="ctx.lang()" (valueChange)="selectPatch($event)" />
+    }
   </div>
 </section>
 
@@ -53,7 +59,7 @@
         @for (row of pageRows(); track row.key + row.role) {
           <tr>
             <th scope="row">
-              <a class="champ" [routerLink]="ctx.link('/lol/champions/' + row.slug + '/build/' + row.role)" [queryParams]="filter() === defaultFilter() ? {} : { rank: filter() }">
+              <a class="champ" [routerLink]="ctx.link('/lol/champions/' + row.slug + '/build/' + row.role)" [queryParams]="linkQuery()">
                 <img [src]="row.icon" alt="" width="64" height="64" loading="lazy" />
                 <span>
                   <span class="champ__name">{{ row.name }}</span>

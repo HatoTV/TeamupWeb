@@ -1,0 +1,36 @@
+<button
+  #button
+  type="button"
+  class="trigger trigger--text"
+  [class.is-open]="open()"
+  aria-haspopup="listbox"
+  [attr.aria-controls]="id"
+  [attr.aria-expanded]="open()"
+  [attr.aria-label]="('BUILDS.PATCH_LABEL' | translate) + ' : ' + value()"
+  [disabled]="patches().length < 2"
+  (click)="toggle()"
+  (keydown)="onButtonKey($event)"
+>
+  <span class="trigger__label">{{ 'BUILDS.PATCH' | translate: { patch: value() } }}</span>
+  <svg class="trigger__chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+</button>
+
+<div #list [id]="id" class="list" role="listbox" [attr.aria-label]="'BUILDS.PATCH_LABEL' | translate" [hidden]="!open()" (keydown)="onListKey($event)">
+  @for (o of patches(); track o.patch) {
+    <div class="option" role="option" tabindex="-1" [class.is-on]="o.patch === value()" [attr.aria-selected]="o.patch === value()" (click)="select(o.patch)">
+      <span class="option__label">
+        <span class="option__patch">{{ 'BUILDS.PATCH' | translate: { patch: o.patch } }}</span>
+        <span class="option__meta">
+          {{ (o.kind === 'current' ? 'BUILDS.PATCH_CURRENT' : 'BUILDS.PATCH_PREVIOUS') | translate }}
+          @if (o.fewData) {
+            · <span class="option__few">{{ 'BUILDS.PATCH_FEW_DATA' | translate }}</span>
+          }
+          @if (o.games !== null) {
+            · {{ 'BUILDS.PATCH_GAMES' | translate: { games: games(o.games) } }}
+          }
+        </span>
+      </span>
+      <svg class="option__check" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+    </div>
+  }
+</div>

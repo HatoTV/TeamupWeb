@@ -1,5 +1,5 @@
 import { BuildMeta } from '../../core/data/build-data.service';
-import { buildIndexFrom, formatDelta, formatRate, groupItems, isBuildFilter, rankFilters } from './build-utils';
+import { NEW_PATCH_GRACE_MS, buildIndexFrom, defaultPatch, formatDelta, formatRate, groupItems, isBuildFilter, patchOptions, rankFilters, resolvePatch } from './build-utils';
 
 describe('build utils', () => {
   it('only keeps rank filters with games of their own tier', () => {
@@ -50,5 +50,45 @@ describe('build utils', () => {
     expect(buildIndexFrom('abc', 4)).toBe(0);
     expect(buildIndexFrom('-1', 4)).toBe(0);
     expect(buildIndexFrom(null, 4)).toBe(0);
+  });
+  describe('default patch', () => {
+    const now = Date.parse('2026-11-18T12:00:00Z');
+    const meta = (releasedAt: string | undefined, newGames = 300): BuildMeta => ({
+      current: '16.23',
+      latest: '16.23',
+      patches: [
+        { patch: '16.23', ddragonVersion: '16.23.1', games: { 'emerald_plus|all': newGames }, updatedAt: '', ...(releasedAt ? { releasedAt } : {}) },
+        { patch: '16.22', ddragonVersion: '16.22.1', games: { 'emerald_plus|all': 1_000_000 }, updatedAt: '' },
+      ],
+      filters: ['emerald_plus'],
+      regions: ['all'],
+      minGamesForNewPatch: 200,
+    });
+
+    it('keeps the previous patch during the first two days of a new one', () => {
+      expect(defaultPatch(meta(new Date(now - 3_600_000).toISOString()), now)).toBe('16.22');
+      expect(defaultPatch(meta(new Date(now - NEW_PATCH_GRACE_MS + 60_000).toISOString()), now)).toBe('16.22');
+      expect(defaultPatch(meta(new Date(now - NEW_PATCH_GRACE_MS).toISOString()), now)).toBe('16.23');
+    });
+
+    it('falls back to the share of games without a release date', () => {
+      expect(defaultPatch(meta(undefined, 300), now)).toBe('16.22');
+      expect(defaultPatch(meta(undefined, 200_000), now)).toBe('16.23');
+    });
+
+    it('honours a valid ?patch= only', () => {
+      const m = meta(new Date(now).toISOString());
+      expect(resolvePatch(m, '16.23', now)).toBe('16.23');
+      expect(resolvePatch(m, '16.10', now)).toBe('16.22');
+      expect(resolvePatch(null, '16.23', now)).toBeNull();
+    });
+
+    it('offers the current and previous patch, the new one flagged while thin', () => {
+      const options = patchOptions(meta(new Date(now).toISOString()), 'emerald_plus', 'all', now);
+      expect(options.map((o) => [o.patch, o.kind, o.games, o.fewData])).toEqual([
+        ['16.23', 'current', 300, true],
+        ['16.22', 'previous', 1_000_000, false],
+      ]);
+    });
   });
 });

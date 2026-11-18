@@ -33,9 +33,21 @@ export abstract class ListboxSelect<T> {
     this.open.set(true);
     // Render the list now, then focus the selected option.
     this.cdr.detectChanges();
+    this.keepOnScreen();
     this.focusOption(Math.max(0, this.ordered().indexOf(this.value())));
     // Reveal the whole list (it may open below the fold or under the mobile tab bar).
     this.list()?.nativeElement.scrollIntoView({ block: 'nearest' });
+  }
+
+  /** A dropdown near the right edge (filters that wrap on mobile) opens shifted left so the whole list stays visible. */
+  private keepOnScreen(): void {
+    const list = this.list()?.nativeElement;
+    if (!list) return;
+    list.style.removeProperty('left');
+    const margin = 16;
+    const box = list.getBoundingClientRect();
+    const shift = Math.min(0, window.innerWidth - margin - box.right);
+    if (shift) list.style.left = `${Math.round(Math.max(shift, margin - box.left))}px`;
   }
 
   private close(focusButton: boolean): void {

@@ -100,14 +100,9 @@
     <app-rank-select [filters]="filters()" [value]="filter()" (valueChange)="setQuery({ rank: $event, build: null })" />
     <app-region-select [regions]="meta()?.regions ?? ['all']" [value]="region()" (valueChange)="setQuery({ region: $event })" />
     <span class="queue">{{ 'BUILDS.QUEUE' | translate }}</span>
-    <label class="select">
-      <span class="sr-only">{{ 'BUILDS.PATCH_LABEL' | translate }}</span>
-      <select [value]="patch() ?? ''" (change)="setQuery({ patch: $any($event.target).value, build: null })">
-        @for (p of meta()?.patches ?? []; track p.patch) {
-          <option [value]="p.patch" [selected]="p.patch === patch()">{{ 'BUILDS.PATCH' | translate: { patch: p.patch } }}</option>
-        }
-      </select>
-    </label>
+    @if (patch(); as p) {
+      <app-patch-select [patches]="patchOptions()" [value]="p" [lang]="ctx.lang()" (valueChange)="selectPatch($event)" />
+    }
     @if (updatedAgo(); as ago) {
       <span class="filters__updated">{{ ago }}</span>
     }
@@ -116,6 +111,9 @@
 
   @if (meta()?.sample) {
     <p class="notice" role="note">{{ 'BUILDS.SAMPLE_DATA' | translate }}</p>
+  }
+  @if (newPatch(); as latest) {
+    <p class="notice" role="status">{{ 'BUILDS.NEW_PATCH_NOTICE' | translate: { latest, patch: patch() } }}</p>
   }
   @if (fallbackFrom(); as latest) {
     <p class="notice" role="status">{{ 'BUILDS.FALLBACK' | translate: { patch: patch(), latest } }}</p>

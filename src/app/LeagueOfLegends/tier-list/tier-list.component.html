@@ -8,6 +8,9 @@
     @if (meta()?.sample) {
       <p class="hero__sample" role="note">{{ 'BUILDS.SAMPLE_DATA' | translate }}</p>
     }
+    @if (newPatch(); as latest) {
+      <p class="hero__sample" role="status">{{ 'BUILDS.NEW_PATCH_NOTICE' | translate: { latest, patch: patch() } }}</p>
+    }
   </div>
 </header>
 
@@ -68,6 +71,10 @@
       }
     </ul>
   </div>
+
+  @if (patch(); as p) {
+    <app-patch-select class="patch" [patches]="patchOptions()" [value]="p" [lang]="ctx.lang()" (valueChange)="selectPatch($event)" />
+  }
 
   <div class="roles" role="group" [attr.aria-label]="'TIERLIST.ROLE' | translate">
     @for (r of roles; track r) {

@@ -108,7 +108,8 @@ export const metaSchema = z.object({
   current: z.string(),
   /** Newest patch being collected. */
   latest: z.string(),
-  patches: z.array(z.object({ patch: z.string(), ddragonVersion: z.string(), games: z.record(z.string(), games), updatedAt: z.string() })),
+  /** `releasedAt`: when the collection first saw the patch (start of its two-day grace period). */
+  patches: z.array(z.object({ patch: z.string(), ddragonVersion: z.string(), games: z.record(z.string(), games), updatedAt: z.string(), releasedAt: z.string().optional() })),
   filters: z.array(z.enum(TIER_FILTERS)),
   regions: z.array(z.string()),
   minGamesForNewPatch: games,

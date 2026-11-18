@@ -13,7 +13,8 @@ import { CountersComponent } from './counters/counters.component';
 import { PlayTipsComponent } from './play-tips/play-tips.component';
 import { GameIconComponent } from '../../shared/ui/game-icon.component';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
-import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildIndexFrom, formatDelta, formatInt, formatRate, groupItems, isBuildFilter, rankFilters, treeColor } from './build-utils';
+import { SHARD_ROWS, SKILL_COLORS, ROLE_ORDER, buildIndexFrom, defaultPatch, formatDelta, formatInt, formatRate, groupItems, isBuildFilter, patchOptions, rankFilters, resolvePatch, treeColor } from './build-utils';
+import { PatchSelectComponent } from './patch-select.component';
 import { RankSelectComponent } from './rank-select.component';
 import { RegionSelectComponent } from './region-select.component';
 import { TierTileComponent } from '../tier-list/tier-tile.component';
@@ -35,7 +36,7 @@ interface LineItem {
 @Component({
   selector: 'app-build-page',
   standalone: true,
-  imports: [TierTileComponent, SkillOrderComponent, TranslateModule, RouterLink, NgTemplateOutlet, RankSelectComponent, RegionSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent, CountersComponent],
+  imports: [TierTileComponent, SkillOrderComponent, TranslateModule, RouterLink, NgTemplateOutlet, RankSelectComponent, RegionSelectComponent, PatchSelectComponent, GameIconComponent, IconComponent, AbilityKeyPipe, BuildMatchupsComponent, PlayTipsComponent, CountersComponent],
   templateUrl: './build-page.component.html',
   styleUrl: './build-page.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -71,7 +72,7 @@ export class BuildPageComponent {
   protected readonly role = computed(() => (this.params()?.get('role') ?? '') as Role);
   /** Rank filters with games of their own tier; the widest one is the default. */
   protected readonly filters = computed<BuildFilter[]>(() => {
-    const list = rankFilters(this.meta(), this.query()?.get('patch'), this.region());
+    const list = rankFilters(this.meta(), resolvePatch(this.meta(), this.patchParam()), this.region());
     return list.length ? list : [BUILD_FILTERS[0]];
   });
   protected readonly defaultFilter = computed(() => this.filters()[0]!);
@@ -96,6 +97,14 @@ export class BuildPageComponent {
   protected readonly now = signal<number | null>(null);
 
   protected readonly patch = computed(() => this.file()?.patch ?? null);
+  /** Default patch: the previous one during the first two days of a new patch. */
+  protected readonly defaultPatch = computed(() => defaultPatch(this.meta()));
+  protected readonly patchOptions = computed(() => patchOptions(this.meta(), this.filter(), this.region()));
+  /** Newest patch while the default still shows the previous one (no `?patch=`). */
+  protected readonly newPatch = computed(() => {
+    const meta = this.meta();
+    return meta && !this.patchParam() && this.patch() && this.patch() !== meta.latest && this.defaultPatch() !== meta.latest ? meta.latest : null;
+  });
   protected readonly version = computed(() => this.meta()?.patches.find((p) => p.patch === this.patch())?.ddragonVersion ?? null);
   /** Data Dragon version of the loaded static data, also when the page has no build (not enough games). */
   protected readonly staticVersion = computed(() => this.version() ?? this.meta()?.patches[0]?.ddragonVersion ?? null);
@@ -269,6 +278,10 @@ export class BuildPageComponent {
     this.host.nativeElement.querySelector<HTMLElement>(`#build-${next}`)?.focus();
   }
 
+  protected selectPatch(patch: string): void {
+    this.setQuery({ patch: patch === this.defaultPatch() ? null : patch, build: null });
+  }
+
   protected setQuery(params: Record<string, string | number | null>): void {
     void this.router.navigate([], { relativeTo: this.route, queryParams: params, queryParamsHandling: 'merge', replaceUrl: true });
   }
@@ -301,11 +314,12 @@ export class BuildPageComponent {
       return;
     }
     const patches = meta.patches.map((p) => p.patch);
-    const wanted = patch && patches.includes(patch) ? patch : meta.latest;
+    const wanted = patch && patches.includes(patch) ? patch : (defaultPatch(meta) ?? meta.latest);
     let file = await this.data.build(wanted, filter, champion.ddragonId, role, region);
     let fallbackFrom: string | null = null;
     const previous = patches.find((p) => p !== wanted);
-    if (!patch && previous && (!file || file.games < meta.minGamesForNewPatch)) {
+    // Newest patch shown by default but still thin for this champion and role: the previous one has more games.
+    if (!patch && wanted === meta.latest && previous && (!file || file.games < meta.minGamesForNewPatch)) {
       const older = await this.data.build(previous, filter, champion.ddragonId, role, region);
       if (older && (!file || older.games > file.games)) {
         file = older;

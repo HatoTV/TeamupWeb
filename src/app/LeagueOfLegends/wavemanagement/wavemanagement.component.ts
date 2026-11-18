@@ -6,6 +6,7 @@ import { CalloutComponent } from '../../shared/ui/callout.component';
 import { ProsConsComponent } from '../../shared/ui/pros-cons.component';
 import { StepListComponent } from '../../shared/ui/step-list.component';
 import { GuideConfig, GuidePageComponent } from '../guide-shared/guide-page.component';
+import { GuideCardsComponent } from '../guide-shared/guide-blocks';
 import { LeadPipe, LinesPipe, ParagraphsPipe, SequencePipe } from '../guide-shared/guide-text';
 
 const K = 'LOL.WAVEMANAGEMENT';
@@ -13,7 +14,7 @@ const K = 'LOL.WAVEMANAGEMENT';
 @Component({
   selector: 'app-wavemanagement',
   standalone: true,
-  imports: [PictureComponent, 
+  imports: [PictureComponent, GuideCardsComponent, 
     TranslateModule,
     SafeHtmlPipe,
     GuidePageComponent,
@@ -38,6 +39,7 @@ export class WavemanagementComponent {
     sections: [
       { id: 'Fondamentals', titleKey: 'LOL.LEFTBAR.FONDAMENTALS', level: 1 },
       { id: 'wm-definition', titleKey: `${K}.TITLE1`, level: 2 },
+      { id: 'wm-push', titleKey: `${K}.TITLE1B`, level: 2 },
       { id: 'wm-spawn', titleKey: `${K}.TITLE2`, level: 2 },
       { id: 'wm-back', titleKey: `${K}.TITLE4`, level: 2 },
       { id: 'Freeze', titleKey: `${K}.TITLE5`, level: 1 },
@@ -58,11 +60,12 @@ export class WavemanagementComponent {
 
   protected readonly waveTypes = [1, 2, 3].map((i) => `${K}.CONTENT2.LIST${i}`);
   protected readonly cycle = [5, 6, 7, 8].map((i) => `${K}.CONTENT2.LIST${i}`);
-  protected readonly backTips = [1, 2, 3, 4, 5].map((i) => `${K}.CONTENT4.LIST${i}`);
+  protected readonly pushRules = [1, 2, 3, 4].map((i) => `${K}.CONTENT1B.LIST${i}`);
+  protected readonly backTips = [1, 2, 3, 4, 5, 6].map((i) => `${K}.CONTENT4.LIST${i}`);
   protected readonly freezeSteps = [1, 2, 3, 4].map((i) => `${K}.CONTENT6.LIST${i}`);
-  protected readonly freezeWhen = [1, 2, 3].map((i) => `${K}.CONTENT7.LIST${i}`);
+  protected readonly freezeWhen = [1, 2, 3, 4].map((i) => `${K}.CONTENT7.LIST${i}`);
   protected readonly slowPushWhen = [1, 2, 3].map((i) => `${K}.CONTENT11.LIST${i}`);
-  protected readonly fastPushSteps = [1, 2, 3, 4].map((i) => `${K}.CONTENT13.LIST${i}`);
+  protected readonly fastPushSteps = [1, 2, 3].map((i) => `${K}.CONTENT13.LIST${i}`);
   protected readonly fastPushWhen = [1, 2, 3, 4].map((i) => `${K}.CONTENT14.LIST${i}`);
 
   /** Chip style of a wave name in the spawn timeline. */

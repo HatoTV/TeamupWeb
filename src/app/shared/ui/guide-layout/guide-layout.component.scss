@@ -81,21 +81,30 @@
   margin-top: 44px;
 }
 
+// Both links share the same resting state; only the hovered / focused one lights up.
 .pager__link {
   padding: 18px;
   border-radius: 12px;
   background: var(--color-surface);
   border: 1px solid var(--color-line);
-  transition: border-color var(--duration-color) ease;
+  transition:
+    border-color var(--duration-color) ease,
+    background-color var(--duration-color) ease;
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     border-color: var(--game-accent);
+    background: var(--color-surface-active);
+  }
+
+  &:hover .pager__dir,
+  &:focus-visible .pager__dir {
+    color: color-mix(in srgb, var(--game-accent) 55%, #fff);
   }
 }
 
 .pager__link--next {
   text-align: right;
-  border-color: var(--game-accent);
 }
 
 .pager__dir {
@@ -104,6 +113,7 @@
   gap: 4px;
   font-size: 13px;
   color: var(--color-text-muted);
+  transition: color var(--duration-color) ease;
 }
 
 .pager__label {

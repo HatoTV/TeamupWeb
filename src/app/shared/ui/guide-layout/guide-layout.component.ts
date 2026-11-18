@@ -52,6 +52,7 @@ export interface GuideNavLink {
   templateUrl: './guide-layout.component.html',
   styleUrl: './guide-layout.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  host: { '(mouseover)': 'placeTermTip($event)', '(focusin)': 'placeTermTip($event)' },
 })
 export class GuideLayoutComponent {
   readonly chapters = input<GuideChapter[]>([]);
@@ -66,6 +67,29 @@ export class GuideLayoutComponent {
   protected readonly discordUrl = DISCORD_URL;
   protected readonly activeId = signal<string | null>(null);
   protected readonly progress = signal(0);
+
+  /**
+   * Keeps a glossary tooltip (.term__tip, see SafeHtmlPipe) inside the reading column: shifted sideways when the
+   * word sits near an edge, flipped above the word when it would go past the bottom of the screen.
+   * Small screens pin the tooltip above the tab bar in CSS, so nothing to do there.
+   */
+  protected placeTermTip(event: Event): void {
+    const term = (event.target as Element | null)?.closest?.('.term');
+    const tip = term?.querySelector<HTMLElement>('.term__tip');
+    if (!term || !tip || window.matchMedia('(max-width: 767px)').matches) return;
+    tip.style.removeProperty('--tip-shift');
+    tip.classList.remove('term__tip--above');
+    requestAnimationFrame(() => {
+      const box = tip.getBoundingClientRect();
+      if (!box.width) return;
+      const column = (term.closest('.guide__article') ?? document.body).getBoundingClientRect();
+      const left = Math.max(column.left, 8);
+      const right = Math.min(column.right, window.innerWidth - 8);
+      const shift = box.left < left ? left - box.left : box.right > right ? right - box.right : 0;
+      if (shift) tip.style.setProperty('--tip-shift', `${Math.round(shift)}px`);
+      if (box.bottom > window.innerHeight - 8) tip.classList.add('term__tip--above');
+    });
+  }
 
   protected readonly activeChapter = computed(() => {
     const order = this.toc().map((e) => e.id);

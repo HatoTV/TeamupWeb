@@ -1,10 +1,10 @@
 {
-  "BANEER" : "This site is currently under construction. Updates and new content are added daily.",
-  "BANEER_MOBILE" : "This site is currently under construction.",
-  "SENDMESSAGE" : "Send",
+  "BANEER": "This site is currently under construction. Updates and new content are added daily.",
+  "BANEER_MOBILE": "This site is currently under construction.",
+  "SENDMESSAGE": "Send",
   "REPORTBUTTON": "Missing data? Let me know so I can update it!",
-  "UPDATEREQUEST" : "Update request",
-  "MESSAGEOK" : "Message sent!",
+  "UPDATEREQUEST": "Update request",
+  "MESSAGEOK": "Message sent!",
   "MESSAGEERROR": "Something went wrong. Please try again later.",
   "HONEYPOT_LABEL": "Leave this field empty",
   "LOL": {
@@ -45,121 +45,130 @@
     },
     "WAVEMANAGEMENT": {
       "TITLE0": "Wave Management",
-      "SUBTITLE0": "Techniques and tips for perfect lane control!",
+      "SUBTITLE0": "Control your minion wave to take over your lane!",
       "TITLE1": "What is wave management?",
-      "CONTENT1": "It is the art of strategically controlling the minion wave to gain a significant advantage in terms of map pressure, safety, as well as gold and experience gain.<br>Wave management is one of the most important aspects to master in the game, as it is essential on all lanes, even for a jungler.",
-      "TITLE2": "Minion spawn",
+      "CONTENT1": "Wave management means controlling <bold>where</bold> and <bold>when</bold> your <term k=\"WAVE\">minion wave</term> meets the enemy one. Depending on where the minions fight, you gain safety, gold, experience, or time to act elsewhere on the map.<br>It is one of the most important skills in the game: it matters in every lane, and even for the jungler, who picks their <term k=\"GANK\">ganks</term> based on where the waves are.",
+      "TITLE2": "Minion spawns",
       "CONTENT2": {
         "INTRO1": "There are 3 types of minion waves:",
-        "LIST1": "<bold>Standard wave:</bold> consists of 3 melee minions and 3 ranged minions.",
-        "LIST2": "<bold>Cannon wave (siege):</bold> a standard wave + a cannon minion.",
-        "LIST3": "<bold>Super wave:</bold> a standard wave + a super minion.",
-        "INTRO2": "Minions spawn for the first time at 1:05, then every 30 seconds until the end of the game.\nThe minion wave spawn cycle is as follows:",
-        "LIST5": "<bold>During the first 20 minutes:</bold> Standard wave -> Standard wave -> Cannon wave.",
-        "LIST6": "<bold>After 20 minutes:</bold> Standard wave -> Cannon wave.",
-        "LIST7": "<bold>After 35 minutes:</bold> All waves become cannon waves.",
-        "LIST8": "<bold>If inhibitor is destroyed:</bold> All waves are super waves for 5 minutes (the respawn time of the inhibitor).",
-        "INTRO3": "<italic>Bonus info:</italic> If your team has a level and turret lead, your minions will deal more damage and take less damage from enemy minions. These bonuses increase based on the difference in levels and turrets."
+        "LIST1": "<bold>Standard wave:</bold> 3 melee minions and 3 caster minions.",
+        "LIST2": "<bold>Cannon wave:</bold> a standard wave + a cannon minion (also called siege minion), which is tougher and worth more gold.",
+        "LIST3": "<bold>Super wave:</bold> a standard wave + a very tough super minion. It only spawns in a lane whose inhibitor is destroyed.",
+        "INTRO2": "The first wave spawns at <bold>0:30</bold>, then a new wave leaves each base every 30 seconds. The pace then speeds up: one wave every 25 seconds from 14:00, then every 20 seconds from 30:00.<br>Cannon waves follow this cycle:",
+        "LIST5": "<bold>Before 14:00:</bold> Standard wave -> Standard wave -> Cannon wave.",
+        "LIST6": "<bold>From 14:00 to 25:00:</bold> Standard wave -> Cannon wave.",
+        "LIST7": "<bold>After 25:00:</bold> every wave has a cannon minion.",
+        "LIST8": "<bold>Inhibitor destroyed:</bold> in that lane, the cannon minion is replaced by a super minion every wave, until the inhibitor respawns (5 minutes). If all 3 inhibitors of a team are destroyed, every lane gets 2 super minions per wave.",
+        "INTRO3": "<italic>Bonus info:</italic> from 3:30, the team with the higher average level gives its minions an edge: they deal more damage to enemy minions and take less from them. The bonus grows with the level gap and with the number of towers destroyed in that lane. It only applies to minion-versus-minion fights, not to champions."
       },
-      "TITLE4": "Timing your back",
+      "TITLE4": "When to go back to base",
       "CONTENT4": {
-        "INTRO": "The best back timings are those where you have a good window to return with <bold>key items<bold>/, <bold>minimize farm losses</bold>, and optimize your return without risking losing an advantage in lane.",
-        "LIST1": "The ideal time to go back depends largely on your gold. The goal is to back when you have enough gold to buy an essential component or ideally a key item that will strengthen your champion in lane. Don't wait too long to back just for \"small purchases\", as it can slow your progress.",
-        "LIST2": "If you manage to kill your opponent or force them to go back, take advantage of this window to back quickly. This allows you to return with an item advantage, increasing your chances of dominating upon your return. If the enemy leaves the lane, don't wait too long, go back as soon as possible to maximize your advantage.",
-        "LIST3": "Cannon waves are ideal for backing because they give you more time to return without losing too much farm. After clearing the wave of minions, this is the perfect time to back. However, make sure not to lose too many minions, even if the window is larger, and return with enough items to be competitive.",
-        "LIST4": "Before backing, if you have killed the enemy or if they have left, it’s crucial to shove the wave under their tower. This prevents the enemy from catching a large wave of minions and potentially freezing it in your absence. If the wave is ready to be frozen, set up a freeze under your tower, which will force the enemy to play cautiously upon your return. If you don't have enough mana or if the push takes too long, a quick back is preferable to avoid being vulnerable to a gank or falling behind in items.",
-        "LIST5": "If you can’t back immediately, set up a <bold>slow push</bold>. A large wave of minions crashing into the enemy tower creates a significant delay before they can react. This allows you to return to lane safely, and if the enemy is under pressure, they will have to choose between taking the wave under their tower or letting it go. You can also use this wave to set up a gank from your jungler if needed."
+        "INTRO": "A good <term k=\"BACK\">back</term> (recall to base) makes you lose as few minions as possible and brings you back to lane with a real power gain.",
+        "LIST1": "<bold>Based on your gold:</bold> go back when you can buy an important component or a full item. Going back for a small purchase costs you one or two waves for almost nothing.",
+        "LIST2": "<bold>After a kill, or when your opponent goes back:</bold> push your wave into their tower first, then recall. You come back with your items while they lose minions under their tower.",
+        "LIST3": "<bold>On a cannon wave:</bold> this wave has more minions and the cannon minion is worth more gold. Pushed into the enemy tower, it takes longer to be destroyed, which gives you time to go back and return while losing little.",
+        "LIST4": "<bold>Avoid recalling in front of a big enemy wave:</bold> if a big enemy wave reaches your tower while you are away, the tower kills part of it (gold and experience lost for you), and your opponent can then hold the wave in front of your tower when you return.",
+        "LIST5": "<bold>No time to push?</bold> Prepare your recall a few waves ahead with a <term k=\"SLOW_PUSH\">slow push</term>: the big wave crashes into the enemy tower as you go back, and your opponent has to stay and farm it.",
+        "LIST6": "<bold>Think about objectives:</bold> go back early enough to be back, with your items, before a dragon or another objective spawns. Recalling right before it spawns leaves your team outnumbered."
       },
       "TITLE5": "Strategy 1: Freezing",
       "SUBTITLE5": "What is a Freeze?",
-      "CONTENT5": "Freezing is the act of stopping the minion wave from moving, forcing the enemy to step forward to collect resources. <br><br>To maintain a freeze, you need to balance the damage your minions take with the damage dealt to enemy minions, while managing their position relative to your turret.",
+      "CONTENT5": "Freezing means keeping the wave still <bold>close to your tower, but outside its range</bold>. You only kill minions with the <term k=\"LAST_HIT\">last hit</term>: your opponent then has to walk far from their tower to farm, and becomes exposed to your jungler.<br><br>For a freeze to hold, the enemy wave must have slightly more minions than yours. It pushes a little toward you, but since your reinforcements arrive sooner (your base is closer), both sides balance out and the wave stays in place.",
       "SUBTITLE6": "How to freeze a lane?",
       "CONTENT6": {
-        "LIST1": "When the enemy deals damage to their minions (outside of last-hitting), you should adjust your damage so that all minions die around the same time, preventing the wave from pushing.",
-        "LIST2": "The closer the freeze is to your tower, the more enemy minions you need to leave alive to counteract the rapid arrival of your own (2-3 extra enemy minions near your tower).",
-        "LIST3": "If the enemy wave is too big and starts hitting your tower, you can tank it (take minion hits) to keep it in place, if you have enough health.",
-        "LIST4": "If the wave is too large to be tanked, reduce the number of enemy minions to maintain control of the freeze.",
-        "LIST5": "The closer the wave gets to your tower, the faster your next wave will arrive. That’s why you need to leave a specific number of minions alive to freeze the lane.<br><br>This image shows how many extra minions you need to maintain a freeze."
+        "LIST1": "Only last-hit enemy minions: every extra bit of damage moves your wave forward and breaks the freeze.",
+        "LIST2": "Always keep a few more enemy minions than yours. The closer the wave is to your tower, the more you need (see the picture below).",
+        "LIST3": "If your minions are dead and the enemy wave walks toward your tower, stand in front of it: with no other target, the minions attack you and stop instead of entering the tower’s range. This is called “tanking the wave”.",
+        "LIST4": "If the enemy wave gets too big to tank safely, kill just enough minions to get back to the right gap, without pushing it.",
+        "LIST5": "The closer the wave is to your tower, the sooner your next minions arrive: you therefore need to leave more enemy minions alive to keep the freeze.<br>The picture shows how many extra enemy minions you need depending on where the wave is."
       },
       "SUBTITLE7": "When to freeze a lane?",
       "CONTENT7": {
-        "LIST1": "If the enemy jungler is putting a lot of pressure on you, it's advised to freeze near your tower to farm safely and avoid ganks.",
-        "LIST2": "After being killed, freezing allows you to catch up on farm without overexposing yourself.",
-        "LIST3": "When the enemy backs without properly pushing the wave into your tower, hold the wave outside your tower to force them to overextend when they return."
+        "LIST1": "<bold>The enemy jungler is a threat:</bold> freeze near your tower to farm safely; your opponent is the one who has to walk up.",
+        "LIST2": "<bold>You are behind:</bold> after a death or a tough lane, freezing lets you get gold and experience back without taking risks.",
+        "LIST3": "<bold>Your opponent recalls without pushing:</bold> keep the wave in front of your tower; when they come back, they will have to walk up to farm.",
+        "LIST4": "<bold>You are ahead:</bold> stand between your opponent and their wave. If they cannot walk up without risking death, they lose minions, and therefore gold and experience, every wave."
       },
       "SUBTITLE8": "Pros & Cons of freezing",
-      "CONTENT8": "The pros of freezing include denying the enemy minions, allowing you to gain a gold lead and forcing the enemy to overextend for farm, creating gank opportunities.<br>It also helps you catch up in gold and experience if you're behind.<br><br>However, a poorly executed freeze can allow the enemy to roam and create an advantage elsewhere on the map.\nAdditionally, freezing becomes harder to maintain if the enemy has good wave clear.",
+      "CONTENT8": "Denies minions to your opponent if they cannot walk up.<br>Exposes them to your jungler if they walk up to farm.<br>You farm near your tower, safe from ganks.<br>Great to catch up on gold and experience.<br><br>You are stuck in your lane: your opponent can use that time to help elsewhere (<term k=\"ROAM\">roam</term>).<br>Hard to hold against a champion who clears waves very fast.<br>The wave keeps growing: sooner or later you will have to kill it or let it move.",
       "TITLE9": "Strategy 2: Slow Push",
       "SUBTITLE9": "What is a Slow Push?",
-      "CONTENT9": "Slow pushing is the act of slowly pushing the minion wave toward the enemy tower while freeing yourself to take other actions on the map.",
+      "CONTENT9": "Slow pushing means moving the wave forward <bold>slowly</bold>, killing only part of the enemy minions. Your surviving minions join the next wave: your wave grows over the minutes, then crashes all at once into the enemy tower.<br><br>Your opponent then has to choose: stay under their tower to collect this huge wave (and stay put), or leave it to their tower and lose a lot of gold and experience.",
       "SUBTITLE10": "How to slow push a lane?",
-      "CONTENT10": "Simply reduce the number of enemy minions just enough so that your wave gradually pushes forward (kill ranged minions or leave a slight minion advantage).",
+      "CONTENT10": "Kill the enemy caster minions first (the most fragile ones) and only last-hit the others. Your wave keeps a numbers advantage and moves forward slowly, over two or three waves. If you kill everything too fast, you are fast pushing instead.",
       "SUBTITLE11": "When to slow push a lane?",
       "CONTENT11": {
-        "LIST1": "Before leaving your lane to assist elsewhere, ensure your wave is in a slow push so the enemy can't easily destroy your tower while you're gone.",
-        "LIST2": "A slow push can build into a massive wave, forcing the enemy to defend and freeing up opportunities for your team elsewhere on the map."
+        "LIST1": "<bold>Before leaving your lane:</bold> for an objective or a roam, the big wave hits the enemy tower while you are away. Your opponent has to stay and farm it and cannot follow you.",
+        "LIST2": "<bold>Before going back to base:</bold> the wave crashes into the enemy tower while you are gone, so you lose almost nothing.",
+        "LIST3": "<bold>To set up a <term k=\"DIVE\">dive</term>:</bold> a big wave absorbs the tower shots, which lets you and your jungler attack your opponent under their tower with less risk."
       },
       "TITLE12": "Strategy 3: Fast Push",
       "SUBTITLE12": "What is a Fast Push?",
-      "CONTENT12": "Fast pushing is the technique of quickly pushing the minion wave to force the enemy to return to lane.",
+      "CONTENT12": "Fast pushing means killing the enemy wave <bold>as fast as possible</bold>, so that your minions quickly reach the enemy tower and crash into it.<br><br>Your opponent then has two options: <bold>stay</bold> under their tower to collect their minions, which ties them to their lane, or give them up and lose gold and experience. And under their tower, farming is harder: the tower also hits the minions, so they have to adjust their attacks to land the last hit.<br><br>Meanwhile, you are free: go back to base without missing minions, help your jungler or an ally, or place vision.",
       "SUBTITLE13": "How to fast push a lane?",
       "CONTENT13": {
-        "LIST1": "The goal is to clear the enemy minion wave quickly so that your minions can rapidly push towards the enemy tower.",
-        "LIST2": "Take out melee minions first and then focus on cannon minions to prevent your wave from slowing down.",
-        "LIST3": "Attack minions constantly, don't just last-hit.",
-        "LIST4": "Use your AoE abilities to quickly clear the wave as a whole."
+        "LIST1": "Attack enemy minions nonstop, not only for the last hit.",
+        "LIST2": "Use your area abilities to hit the whole wave at once, then finish the remaining minions with your attacks.",
+        "LIST3": "The cannon minion is the toughest: if it is left alone, your minions stop to hit it. Finish it yourself so your wave keeps moving."
       },
       "SUBTITLE14": "When to fast push a lane?",
       "CONTENT14": {
-        "LIST1": "If the enemy is off the lane or dead, quickly push the wave under the enemy tower to make them lose resources.",
-        "LIST2": "Before moving around the map, fast pushing allows you to secure your resources and free up time to assist with actions elsewhere.",
-        "LIST3": "Against certain champions who struggle to farm under tower, fast pushing can pressure them or force them to make mistakes.",
-        "LIST4": "Use your AoE abilities to quickly clear the wave as a whole."
+        "LIST1": "<bold>Your opponent is dead or in base:</bold> quickly send the wave into their tower. It will destroy part of the minions before they return: gold and experience lost for them.",
+        "LIST2": "<bold>Before going back to base:</bold> the wave crashes into the enemy tower, your opponent has to stay and farm it, and you recall without missing a wave.",
+        "LIST3": "<bold>Before leaving your lane:</bold> to join a fight, an objective or help an ally, push first. Busy farming under their tower, your opponent cannot follow you right away. This is called having <term k=\"PRIO\">priority</term>.",
+        "LIST4": "<bold>Against a champion who farms poorly under tower:</bold> some champions struggle to land last hits under their tower. Forcing them to do it costs them minions."
       },
-      "CONTENT15": "<bold>Important:</bold> Before Fast/Slow Pushing, make sure you have enough time and map vision to avoid getting ganked."
+      "CONTENT15": "<bold>Important:</bold> pushing your wave takes you away from your tower. Before a slow push or a fast push, check where the enemy jungler is (vision, last seen on the map) so you do not get caught.",
+      "TITLE1B": "Why does a wave move?",
+      "CONTENT1B": {
+        "LIST1": "<bold>Numbers win:</bold> the wave with more minions (or more health) wins the fight against the other one, then moves toward the opposing tower.",
+        "LIST2": "<bold>Survivors stack up:</bold> if a few of your minions survive, they join the next wave. Your wave grows from one wave to the next.",
+        "LIST3": "<bold>After a crash, the wave comes back:</bold> once your wave is destroyed by the enemy tower (it <term k=\"CRASH\">crashes</term>), the next clash happens closer to that tower, and the wave naturally drifts back toward you.",
+        "LIST4": "<bold>You set the balance:</bold> by killing more or fewer enemy minions, you choose which way the wave moves. This is the basis of the three strategies in this guide: freezing, slow pushing and fast pushing."
+      }
     },
     "LANING": {
       "TITLE0": "Laning",
       "SUBTITLE0": "Dominate your opponent from the very first minutes!",
       "CONTENT1": {
-        "INTRO1": "Each lane role requires mastery of combat mechanics, positioning, and resource management to surpass your direct opponent.",
-        "LIST1": "In top lane, it's often about prolonged duels and managing teleportation.",
-        "LIST2": "In mid lane, the priority is to control the map and perform efficient rotations.",
-        "LIST3": "In bot lane, coordination with your support and managing trades are essential.",
-        "INTRO2": "Mastering these aspects will allow you not only to dominate your lane but also to influence the overall course of the game."
+        "INTRO1": "The laning phase is the first minutes of the game, when each player faces their direct opponent in their lane. The goal: collect more gold and experience than them, without dying. Each lane has its own specifics:",
+        "LIST1": "<bold>Top:</bold> the most isolated lane. Often long duels, and the Teleport summoner spell to get back to lane quickly or join a fight elsewhere.",
+        "LIST2": "<bold>Mid:</bold> the shortest lane, in the middle of the map. Pushing your wave quickly lets you go help your jungler or the other lanes.",
+        "LIST3": "<bold>Bot:</bold> a marksman (<term k=\"ADC\">ADC</term>) and a support play two versus two. Trades are decided by four players, and dragons spawn right next to the lane.",
+        "INTRO2": "Playing your lane well is not only about winning your duel: the gold and experience you earn here make you stronger for the rest of the game."
       },
       "TITLE2": "Last Hit",
-      "CONTENT2": "Last hitting is essential for accumulating gold and gaining an advantage over your opponent in lane.<br><br>It consists of delivering the final blow to enemy minions to collect the gold they generate. Mastering this technique requires good timing and a precise understanding of your damage, as missing a last hit results in a loss of gold and may slow your progression.<br><br>Moreover, last hitting is crucial for effective wave management (see the chapter on Wave Management).<br>Use the training tool to perfect your farming and adjust your damage according to your level and equipment. The better you master last hitting, the more resources you accumulate, which gives you a clear advantage in the game – often more significant than securing kills.",
+      "CONTENT2": "The <term k=\"LAST_HIT\">last hit</term> is landing the killing blow on minions: only the champion who lands it gets the minion’s gold. Experience, however, is shared between nearby champions when the minion dies, even if they did not kill it.<br><br>It is the main source of gold early in the game. Missing minions adds up fast: a few badly farmed waves are worth the gold of a kill. To improve, watch the minions’ health bars, learn how much damage your basic attack deals, and practice in the Practice Tool.<br><br>Last hitting is also the basis of wave management: by choosing which minions to kill and when, you control where the wave is (see the Wave Management guide).",
       "TITLE3": "Trading",
-      "CONTENT3": "Trading consists of dealing damage to your opponent, either with auto-attacks or abilities.",
+      "CONTENT3": "A <term k=\"TRADE\">trade</term> is an exchange of damage between you and your opponent, with basic attacks or abilities. A good trade is one where you deal more damage than you take.",
       "SUBTITLE4": "How to trade effectively?",
       "CONTENT4": {
-        "LIST1": "<bold>Take advantage of enemy last-hit moments:</bold> Your opponent must kill minions to farm, becoming immobile and vulnerable at that moment. Anticipate their actions by monitoring the health of your minions and punish them with your abilities when they are about to last-hit.",
-        "LIST2": "<bold>Exploit enemy cooldowns:</bold> If your opponent uses abilities to farm or harass you, take advantage of the delay before they can use their spells again to engage in a trade. Baiting spells (tricking them into using them without effect) is a key tactic, which we will discuss further in the next chapter.",
-        "LIST3": "<bold>Pay attention to minions:</bold> Attacking a champion will provoke the enemy minions' aggro, causing them to attack you instead of your minions. Avoid prolonged fights in a large enemy minion wave, as it can quickly turn against you.",
-        "LIST4": "<bold>Poke the opponent:</bold> Poking consists of harassing the enemy with ranged attacks or abilities, gradually reducing their health without engaging in direct combat. This often forces the opponent to play defensively, miss minions, or consume their resources (potions, healing spells). Some champions are more effective at poking depending on their kit (for example, Ziggs or Xerath are far more effective than a Garen). Once the enemy is weakened, engage in a more aggressive fight when their situation is unfavorable.",
-        "LIST5": "<bold>Manage your spacing:</bold> Spacing refers to controlling the distance between you and your opponent to maximize your actions while minimizing risks. Ensure you are at the optimal range to use your abilities while staying out of range of theirs. If you're a ranged champion against a melee champion, abuse your range to harass them with auto-attacks without allowing them to farm easily."
+        "LIST1": "<bold>Hit them while they farm:</bold> to kill a minion, your opponent has to walk up and attack; they become predictable and vulnerable. Watch the health of your minions and punish them as they come for their last hit.",
+        "LIST2": "<bold>Use their cooldowns:</bold> if your opponent uses an important ability to farm or attack you, engage while it is on <term k=\"COOLDOWN\">cooldown</term>. Making your opponent waste a spell (<term k=\"BAIT\">baiting</term>) is covered in the next chapter.",
+        "LIST3": "<bold>Watch the minions:</bold> when you attack an enemy champion near their minions, those minions target you. Early in the game their damage is significant: avoid long trades in the middle of a big enemy wave.",
+        "LIST4": "<bold>Harass from range:</bold> <term k=\"POKE\">poking</term> means hitting your opponent with long-range attacks or abilities without committing. They then have to play carefully, miss minions or use their potions. Some champions are built for it (Ziggs or Xerath, for example, far more than Garen). Once your opponent is weakened, you can engage.",
+        "LIST5": "<bold>Manage the distance:</bold> <term k=\"SPACING\">spacing</term> is staying at the right distance from your opponent: close enough to use your abilities, far enough to avoid theirs. If you outrange them (a ranged champion against a melee one, for example), hit them every time they walk up to a minion."
       },
-      "CONTENT51": "<italic>Tip:</italic> Use bushes to break your opponent's vision during a fight. This can prevent them from targeting you with abilities or auto-attacks, while you can continue to harass them.<br><br>Any type of enemy will stop their aggression if they lose sight of you.",
-      "CONTENT5": "Trades are even more advantageous if you have a higher level than your opponent or have just gained a powerspike (power increase through a spell or item). Additionally, good wave management can help you optimize trades while minimizing resource loss.<br>However, be careful when engaging in a trade. An opponent near their tower with full health will be difficult to threaten. Moreover, if you start a trade and get ganked immediately after, your chances of survival will be reduced, as your abilities will be on cooldown.<br><br>Some matchups make trading more or less complicated, requiring a specific approach (specific spells on cooldown, short or long trades).<br>Consult the 'Matchups' section to better understand your champion's strengths and weaknesses against others.",
+      "CONTENT51": "<italic>Tip:</italic> during a trade, step into a bush to break your opponent’s vision. As long as they cannot see you, they cannot target you with basic attacks or targeted spells: their abilities have to be cast blind.<br><br>This does not work if they already have vision in that bush (a ward placed in it, or an ally standing inside).",
+      "CONTENT5": "Trades are even better when you are a level ahead of your opponent, or right after a <term k=\"POWERSPIKE\">power spike</term> (your ultimate at level 6, a finished item…). Good wave management also helps you trade without losing minions.<br><br>Pick your moment: an opponent near their tower at full health is hard to threaten. And if you start a trade right before an enemy gank, your spells will be on cooldown at the worst time.<br><br>Every matchup calls for its own approach (short or long trades, a key spell to wait for…). Check the Matchups section to learn your champion’s strengths and weaknesses against each opponent.",
       "TITLE6": "Baiting enemy spells",
-      "CONTENT6": "Baiting spells in lane is a strategic tactic in League of Legends. Bait means 'to lure,' and here it involves enticing your opponent to use an ability ineffectively, creating an opportunity for you.",
+      "CONTENT6": "Baiting means getting your opponent to use an ability for nothing, so you can take advantage of the time it is on cooldown.",
       "SUBTITLE7": "How to bait effectively?",
       "CONTENT7": {
-        "LIST1": "<bold>Feign an attack:</bold> Position yourself aggressively as if you're about to engage in a fight, then back off quickly. The opponent may use a defensive or offensive spell to deter you, allowing you to re-engage while they are low on resources.",
-        "LIST2": "<bold>Risky positioning:</bold> Place yourself within range of a poke or control spell, but be ready to dodge or retreat quickly. If your opponent misses their spell, they become vulnerable, and you can counter-attack.",
-        "LIST3": "<bold>Use minions:</bold> Lure your opponent by appearing vulnerable while attempting to last-hit a low-health minion. This may entice them to waste a spell, which you can then dodge.",
-        "LIST4": "<bold>Simulate a lack of resources:</bold> Make your opponent believe that you are low on mana or too weak to engage in a fight. This could encourage them to play overly aggressively, giving you the opportunity to counter-attack or call your jungler for a gank."
+        "LIST1": "<bold>Fake an attack:</bold> step forward as if you were about to engage, then back off. If your opponent uses a spell to push you away or punish you, you can come back while it is on cooldown.",
+        "LIST2": "<bold>Stand at the edge:</bold> stay just within range of a poke or crowd-control spell, ready to dodge it. If they miss, they become vulnerable and you can counter-attack.",
+        "LIST3": "<bold>Use the minions:</bold> act like you are going for a low-health minion. Your opponent may be tempted to use a spell to punish you, which you can dodge.",
+        "LIST4": "<bold>Look weak:</bold> make it look like you are out of mana or health. Your opponent may then overextend, which lets you counter-attack or bring in your jungler."
       },
-      "CONTENT8": "When you successfully bait a spell, it's time to exploit this window of vulnerability. If it was a key spell with a long cooldown, immediately engage in a fight or call your jungler for a kill opportunity.",
+      "CONTENT8": "When an important enemy spell is on cooldown (an escape ability or a summoner spell like Flash, for example), that is the moment to engage or call your jungler.",
       "TITLE9": "Roaming",
-      "CONTENT9": "Sometimes you have nothing left to do on your lane. In this case, what should you do?<br>If your minion wave crashes under the enemy tower and you don't have enough gold for a significant purchase at the base, it's the perfect time to go help elsewhere: this is called <bold>Roaming</bold>.<br><br>When your minion wave is under the enemy tower, your opponent is busy farming or is absent, allowing you to create a numerical advantage elsewhere on the map.<br><br>The midlane is particularly suited for roaming, as it provides quick access to other objectives and lanes. However, the support and toplaner can also roam to assist their allies or set up objectives.",
+      "CONTENT9": "Sometimes there is nothing left to do in your lane: your wave is crashing into the enemy tower and you do not have enough gold for a useful purchase. That is the time to go help elsewhere: <term k=\"ROAM\">roaming</term>.<br><br>While your opponent farms under their tower, you can create a numbers advantage in another lane or around an objective.<br><br>Mid is the best lane for roaming, as it sits in the middle of the map, close to everything. Supports and top laners can also roam to help their allies or set up an objective.<br><br>A failed roam is costly: while you are away, you lose minions and experience. Only leave when your wave is pushed and the play has a good chance of working.",
       "SUBTITLE10": "How to roam effectively?",
       "CONTENT10": {
-        "LIST1": "<bold>Gank another lane:</bold> If your champion has good control or mobility spells, helping your allies on another lane can give them a decisive advantage.",
-        "LIST2": "<bold>Place vision:</bold> Place wards in the enemy jungle or around your lane to anticipate a gank.",
-        "LIST3": "<bold>Invade the enemy jungle:</bold> With good positioning, surprise the enemy jungler in their jungle to prevent them from collecting resources. Be careful, as their allies may come to assist; it's a safer strategy with your jungler or support.",
-        "LIST4": "<bold>Prepare/take an objective:</bold> Group with your allies to prepare for an important objective like a dragon or herald, placing vision around or starting the objective."
+        "LIST1": "<bold>Help another lane:</bold> if your champion has good crowd control or mobility, a <term k=\"GANK\">gank</term> on another lane can give your allies a decisive advantage.",
+        "LIST2": "<bold>Place vision:</bold> put down vision <term k=\"WARD\">wards</term> in the enemy jungle or around your lane to see ganks coming.",
+        "LIST3": "<bold>Invade the enemy jungle:</bold> catch the enemy jungler in their jungle to deny their camps. Careful, their allies can come help: it is safer with your jungler or support.",
+        "LIST4": "<bold>Set up an objective:</bold> join your allies to take a dragon or another objective, placing vision around it before it spawns."
       }
     },
     "JUNGLE": {
@@ -171,45 +180,45 @@
         "LIST2": "Control objectives on the map.",
         "LIST3": "Accumulate 'free' resources by killing jungle monsters.",
         "LIST4": "Anticipate ganks and movements of the enemy jungler.",
-        "INTRO2": "One of the main challenges of the jungler role, for both beginners and experienced players, is that success relies less on mechanical skills and more on the ability to read the game and establish an effective strategic plan."
+        "INTRO2": "The main difficulty of the role, for beginners and experienced players alike: success depends less on your mechanical skill than on your ability to read the game and make the right calls at the right time."
       },
-      "TITLE2": "Jungle Paths",
+      "TITLE2": "Jungle paths",
       "CONTENT2": {
-        "INTRO1": "There are several possible jungle routes, and this decision should be made right from the loading screen:",
-        "LIST1": "<bold>Full Clear:</bold> 6 Camps -> Scuttle -> Gank or Back.<br>This is the most common strategy in Season 14, as farming is prioritized in the current meta. However, this could change in future seasons.",
-        "LIST2": "<bold>3 Camps</bold> -> Gank:<br>This path is useful if you want to apply early pressure and give an advantage to one of your lanes, or if your champion clears the jungle slowly. Be cautious though, as failing the gank can waste valuable time.",
-        "LIST3": "<bold>1 Camp + Invade:</bold><br>Start with Red or Blue, then directly invade the enemy jungle on the same side.<br>This should only be attempted if you're confident the enemy jungler started on the opposite side (e.g., start Red and invade Blue if the enemy starts at Red).<br>Be wary of potential rotations from enemy laners."
+        "INTRO1": "There are several possible paths (the order in which you <term k=\"CLEAR\">clear</term> your camps). Pick yours from the loading screen, based on both teams’ champions:",
+        "LIST1": "<bold>Full clear:</bold> all 6 camps of your jungle → Scuttle Crab → gank or back to base.<br>It is the most common path: it gives you the most gold and experience before your first gank, but you do not help your lanes during the first minutes.",
+        "LIST2": "<bold>3 camps → gank:</bold><br>Useful to apply early pressure and help a lane, or if your champion clears camps slowly. Careful: if the gank fails, you lose a lot of time and resources.",
+        "LIST3": "<bold>1 camp + invade:</bold><br>Do your red or blue buff, then go straight into the enemy jungle on the same side of the map to steal their camp (that is what an <term k=\"INVADE\">invade</term> is).<br>Only try it if you are sure the enemy jungler started on the other side (e.g. you start red and steal their blue while they start at their red). Also watch out for enemy laners coming to help."
       },
       "SUBTITLE3": "Bot or Top?",
       "CONTENT3": {
-        "INTRO1": "If you opt for a full clear, the next question is: should you head bot or top? This decision depends on several factors:",
-        "LIST1": "<bold>Analyze the lanes:</bold> Some lanes are more likely to push naturally than others.<br>For example, a Tristana will push more easily against an Ezreal due to her AoE damage. Based on this analysis, you should plan where you finish your clear: if you plan to gank bot, start your clear top, and vice versa.",
-        "LIST2": "<bold>Analyze summoner spells:</bold> If your top laner has Ignite and their opponent has Teleport, starting bot and ending with a gank top can be a good idea. A top laner without Teleport will have a harder time recovering from an early gank.",
-        "LIST3": "<bold>Analyze champions:</bold> Some champions are strong early game (like Pantheon), while others shine late game (like Veigar). Helping your late-game champions hold their lane can guarantee a long-term win. In any case, it's important to play around your team's 'carry' champions."
+        "INTRO1": "If you go for a full clear, the question is: finish on the bot side or the top side? It depends on several factors:",
+        "LIST1": "<bold>Read the lanes:</bold> some lanes naturally push more than others. For example, Tristana will push more easily against Ezreal, thanks to her area damage. Plan where you will finish your clear: if you want to gank bot, start top, and vice versa.",
+        "LIST2": "<bold>Read the summoner spells:</bold> if your top laner has Ignite and their opponent has Teleport, starting bot to finish with a top gank can be a good idea. Early on, a top laner without Teleport has a much harder time getting back to lane after dying.",
+        "LIST3": "<bold>Read the champions:</bold> some champions are strong early (like Pantheon), others shine late (like Veigar). Helping a late-game champion through their laning phase can win you the game in the long run. Either way, play around your team’s <term k=\"CARRY\">carries</term>."
       },
       "TITLE4": "Objectives & Priority",
       "CONTENT4": {
-        "INTRO1": "There are several objectives on the map:",
-        "LIST1": "<bold>Top side:</bold> Gromp, Rift Herald, Baron Nashor.",
-        "LIST2": "<bold>Bot side:</bold> Drakes."
+        "INTRO1": "Neutral objectives sit in two pits, on either side of the river:",
+        "LIST1": "<bold>Top side:</bold> Voidgrubs (8:00), then Rift Herald (15:00), then Baron Nashor (20:00).",
+        "LIST2": "<bold>Bot side:</bold> elemental drakes (from 5:00), then the Elder Dragon."
       },
-      "CONTENT5": "Securing an objective often depends on having a numerical advantage over the enemy team, which is why lane priority <bold>(PRIO)</bold> is so important. PRIO refers to your laners' ability to pressure their opponents, forcing them under their tower so they can't farm freely. This frees up your allies to move toward the river, secure objectives, or contest the enemy's objectives.<br><br>Don't hesitate to communicate the importance of PRIO to your laners before engaging in an objective. Ganking just before a key objective spawns can help secure that priority.<br><br>Avoid recalling to base right before an objective spawns. If the enemy team positions themselves before you do, it will be harder to coordinate a teamfight around that objective.<br><br>With PRIO, you can also punish the enemy jungler by invading their jungle. Whether to steal resources or kill them, this can completely disrupt the game for the enemy team, especially mentally.",
+      "CONTENT5": "Taking an objective usually requires outnumbering the enemy around it, which is why your laners’ <term k=\"PRIO\">priority</term> matters. A lane has priority when its laner has pushed their wave: the opponent has to stay and farm under their tower, and your laner can reach the river first to help you.<br><br>Before starting an objective, tell your laners so they push their waves. A successful gank right before an objective spawns is also a good way to get that priority.<br><br>Avoid going back to base right before an objective spawns: if the enemy team sets up around it first, contesting it becomes much harder.<br><br>With priority, you can also punish the enemy jungler by invading their jungle, to steal camps or take them down.",
       "TITLE6": "Ganks",
-      "CONTENT6": "A 'Gank' is a maneuver where a player, often the jungler, moves to another lane to surprise an enemy and initiate a team attack.<br><br>Only Gank <span style='text-transform:uppercase'><bold>if</bold></span> you estimate there's at least an 80% chance of success; otherwise, prioritize farming. A summoner spell used by the enemy or a kill/assist is a sign of a successful gank.<br>Wasting time on a failed gank means falling behind in resources, which is one of the biggest struggles for a jungler.<br><br>A gank is more likely to succeed if your ally's wave is pushed or if the enemy is overextended. In this case, the enemy will have to move forward to farm, making them vulnerable to an attack. A successful gank is one where you secure a kill or force the enemy to burn summoner spells like Flash.<br><br>Frequently use your sweeper trinket to clear vision and maximize your chances of a successful gank. If you're spotted, the gank will likely fail.",
+      "CONTENT6": "A <term k=\"GANK\">gank</term> is when a player, usually the jungler, shows up by surprise in a lane to attack the opponent with a numbers advantage.<br><br>Only gank when you have a good chance of success; otherwise, keep farming. A gank is successful if you get a kill or an assist, or force the opponent to use an important summoner spell like Flash. A failed gank wastes your time, and therefore gold and experience, and it is one of the biggest traps of the role.<br><br>The best targets: an opponent pushed up in their lane, far from their tower, often because your ally’s wave is pushed toward them.<br><br>Stay unseen: if the opponent sees you coming, the gank almost always fails. Avoid enemy wards, or disable them with the Oracle Lens.",
       "CONTENT7": {
         "INTRO1": "Different types of ganks:",
-        "LIST1": "<bold>River Gank:</bold> Simple but effective.",
-        "LIST2": "<bold>Lane / Counter Gank:</bold> Wait in the lane bushes to surprise the enemy or anticipate an enemy gank.",
-        "LIST3": "<bold>Dives:</bold> If the enemy is under their tower with low health, and your wave is crashing under the tower, consider a dive with your laner."
+        "LIST1": "<bold>Through the river:</bold> the most direct route, simple but effective. It is also the most watched: think about enemy vision.",
+        "LIST2": "<bold>Lane bush / counter-gank:</bold> wait hidden in a lane bush, either to surprise the opponent or to trap the enemy jungler as they come to gank your ally.",
+        "LIST3": "<bold>Dive:</bold> if the opponent is under their tower with low health and your ally’s wave is on the tower (to absorb its shots), you can attack them under their tower with your laner. Whoever goes in first takes the tower shots: plan who tanks them."
       },
       "TITLE8": "Additional Tips",
       "CONTENT8": {
-        "LIST1": "Replace your trinket with a sweeper on your first back.",
-        "LIST2": "If you're playing power-farming/late-game champions (e.g., Shyvana, Lillia), focus more on farming than ganking.",
-        "LIST3": "Be mindful of your jungle timings to avoid disorganizing the monster respawns.",
-        "LIST4": "Focus on winning lanes. Don't waste time on losing lanes to avoid jeopardizing the whole game.",
-        "LIST5": "While farming, keep an eye on the map and analyze the waves. Use this time to call out the enemy jungler's positions if possible.",
-        "LIST6": "Communicate with your teammates via pings and chat. This improves coordination for objectives or ganks."
+        "LIST1": "On your first back, swap your <term k=\"TRINKET\">trinket</term> for the Oracle Lens: it disables enemy wards around you, which makes your ganks much harder to see coming.",
+        "LIST2": "With a champion who needs a lot of gold to be strong (Shyvana or Lillia, for example), gank less and focus on your farm.",
+        "LIST3": "Keep track of when you kill your camps: they respawn after a set delay. A well-timed path lets you find them ready when you come back.",
+        "LIST4": "Play around winning lanes. Spending too much time on a lane that is already lost can put the whole game at risk.",
+        "LIST5": "While you farm, keep an eye on the map and on where the waves are. Ping your team every time you spot the enemy jungler.",
+        "LIST6": "Talk to your allies with pings and chat: your objectives and ganks will be much better coordinated."
       }
     },
     "GAME": {
@@ -220,52 +229,96 @@
       "TITLE3": "Wards",
       "TITLE4": "Concepts & Glossary",
       "CONTENT1": {
-        "INTRO0": "Understanding champion stats is crucial for effective itemization.<br>Each stat influences how a champion performs in combat, and knowing how they interact with items can make a significant difference in your strategic decisions.<br><br>In this section, we will examine each stat in detail, explaining how they impact your gameplay and how to use them to select the best items for each situation.",
-        "LIST1": "<bold>Attack Damage (AD):</bold> Primarily used by ADCs, assassins, and bruisers, AD increases the physical damage of basic attacks and certain abilities.",
-        "LIST2": "<bold>Ability Power (AP):</bold> Used by mages, supports, and some assassins, AP enhances magic damage and utility effects (healing, shields).",
-        "LIST3": "<bold>Attack Speed (AS):</bold> Refers to how quickly your champion attacks per second. An attack speed of 1.5 means you auto-attack 1.5 times each second.",
-        "LIST4": "<bold>Cooldown Reduction (CDR):</bold> Reduces ability cooldowns and determines how quickly your spells become available again. CDR is not calculated linearly with CDR, becoming less effective in terms of gold as you buy more.",
-        "LIST5": "<bold>Critical Strike Chance:</bold> Refers to the probability of landing a critical hit, which deals 75% extra damage (not counting modifiers like Infinity Edge).",
-        "LIST6": "<bold>Movement Speed:</bold> Indicates how quickly your champion moves.",
-        "LIST7": "<bold>Tenacity:</bold> While not as straightforward as other stats, it reduces the duration of all crowd control (CC) except for knock-ups, sleep, vision reduction, stasis (Bard's ultimate), and suppression.",
-        "LIST8": "<bold>Health / Resource Regeneration:</bold> Health regeneration is the amount of health a champion restores per second, while resource regeneration is the amount of mana or energy a champion restores per second.",
-        "LIST9": "<bold>Life Steal / Omnivamp:</bold> Life steal is the percentage of health restored based on your basic attacks and impact effects. Omnivamp is similar but includes all types of damage, including abilities.",
-        "LIST10": "<bold>Armor / Magic Resistance:</bold> Armor and magic resistance reduce physical and magic damage, respectively. However, many overlook that these defensive stats have diminishing returns. In other words, the more you stack these stats, the less effective they become.<br>Therefore, it is often unwise to stack only armor or MR, even against a full AD or AP team. Sometimes it is better to invest in items that offer other benefits, like health points, or even offensive or utility options.",
-        "LIST11": "<bold>Armor Penetration / Lethality:</bold> Armor penetration reduces a percentage of enemy armor, while lethality ignores a fixed value. The armor reduction value from lethality increases with lethality items but also through the champion's level. Generally, ADCs opt for armor penetration to better handle tanks, while assassins favor lethality for targeting more fragile enemies. If an assassin aims for a target with low armor, the fixed lethality proves more effective. Conversely, other champions prefer armor penetration against enemies with high defense.",
-        "LIST12": "<bold>Magic Penetration:</bold> Magic penetration works similarly to armor penetration and lethality. It divides into two types: flat reduction and percentage reduction."
+        "INTRO0": "Understanding stats is essential to pick your items.<br>Each stat changes how your champion behaves in a fight, and knowing how they work helps you buy the right items for the situation.<br><br>Here are the main stats in the game, what they do and who they are for.",
+        "LIST1": "<bold>Attack Damage (AD):</bold> increases the physical damage of your basic attacks and some abilities. Mostly used by marksmen, assassins and fighters.",
+        "LIST2": "<bold>Ability Power (AP):</bold> increases magic damage and the strength of many effects (heals, shields). Used by mages, many supports and some assassins.",
+        "LIST3": "<bold>Attack Speed (AS):</bold> the number of basic attacks per second. With 1.5 attack speed, your champion attacks 1.5 times per second.",
+        "LIST4": "<bold>Ability Haste (AH):</bold> reduces your abilities’ cooldowns. Each point lets you cast your spells about 1% more often: with 100 points, you cast them twice as often (cooldowns halved). The displayed cooldown reduction percentage grows more and more slowly, but every point keeps the same value.",
+        "LIST5": "<bold>Critical Strike Chance:</bold> the chance for a basic attack to be a critical strike. Since the 2026 season, a critical strike deals 200% of the attack’s damage for most champions, not counting items that increase critical damage (like Infinity Edge).",
+        "LIST6": "<bold>Movement Speed:</bold> how fast your champion moves.",
+        "LIST7": "<bold>Tenacity:</bold> reduces the duration of most <term k=\"CC\">crowd control</term> (stuns, slows, roots…). It has no effect on airborne, suppression, stasis, nearsight and drowsy.",
+        "LIST8": "<bold>Health / Resource Regeneration:</bold> the health (or mana, energy) your champion recovers automatically over time.",
+        "LIST9": "<bold>Life Steal / Omnivamp:</bold> life steal heals you for a percentage of your basic attack damage; omnivamp for a percentage of all your damage, abilities included.",
+        "LIST10": "<bold>Armor / Magic Resist:</bold> reduce physical and magic damage taken, respectively. 100 armor halves physical damage, 200 divides it by three. The displayed reduction percentage grows more and more slowly, but every point keeps making you just as much tougher: about 1% more effective health. What matters is the balance with your health: resistances are worth more when you have a lot of health, and health is worth more when you have a lot of resistances.",
+        "LIST11": "<bold>Armor Penetration / Lethality:</bold> armor penetration ignores a percentage of the target’s armor, lethality ignores a flat amount (1 lethality = 1 armor ignored). Lethality is best against squishy targets with little armor: assassins favor it. The percentage is better against very tanky targets, like tanks: it is the usual choice for marksmen.",
+        "LIST12": "<bold>Magic Penetration:</bold> same principle as for armor, against magic resist: some flat, some percentage."
       },
       "SUBTITLE2": "Red Buff",
       "CONTENT2": {
-        "LIST1": "Slows automatic attacks.",
-        "LIST2": "Raw damage applied over time after each attack.",
-        "LIST3": "Increased health regeneration."
+        "LIST1": "Your basic attacks slow the target.",
+        "LIST2": "They also burn the target: true damage over a few seconds.",
+        "LIST3": "Health regeneration out of combat.",
+        "LIST4": "The buff lasts 2 minutes. If you die with it, it goes to the champion who killed you."
       },
       "SUBTITLE3": "Blue Buff",
       "CONTENT3": {
-        "LIST1": "Percentage mana regeneration (also works for champions using energy).",
-        "LIST2": "Cooldown reduction."
+        "LIST1": "Increased mana (or energy) regeneration.",
+        "LIST2": "Ability haste: your spells come back faster.",
+        "LIST3": "The buff lasts 2 minutes. If you die with it, it goes to the champion who killed you."
       },
       "SUBTITLE4": "Scuttle Crab",
       "CONTENT4": {
-        "LIST1": "Vision in the area (but not true vision).",
-        "LIST2": "Movement speed bonus for allies entering the shrine."
+        "LIST1": "Spawns at 2:55 in each half of the river.",
+        "LIST2": "Killing it spawns a shrine that grants vision around it (without revealing camouflaged units) and speeds up allies who walk through it."
       },
       "SUBTITLE5": "Dragons",
       "CONTENT5": {
-        "LIST1": "<bold>Chemtech Dragon:</bold> Gain tenacity and healing/shielding effectiveness.",
-        "LIST2": "<bold>Cloud Dragon:</bold> Gain slow resistance and out-of-combat movement speed.",
-        "LIST3": "<bold>Hextech Dragon:</bold> Gain haste and attack speed.",
-        "LIST4": "<bold>Mountain Dragon:</bold> Gain armor and magic resistance.",
-        "LIST5": "<bold>Infernal Dragon:</bold> Gain attack damage and ability power.",
-        "LIST6": "<bold>Ocean Dragon:</bold> Restores missing health every 5 seconds.",
-        "LIST7": "<bold>Elder Dragon:</bold> Bonus raw damage on all abilities, increases Dragon bonuses by 50%, and the buff expires after 2:30 minutes or upon death."
+        "TEXT": "The first drake spawns at 5:00, then a new one 5 minutes after the previous one dies. Each drake has an element drawn at random from those that have not appeared yet, and gives a permanent, stacking bonus to the whole team that kills it.<br><br>Once the 2nd drake is killed, the map transforms based on the 3rd one’s element: this is the <bold>Elemental Rift</bold>, and every following drake will be of that element.<br><br>The first team to kill 4 drakes gets the <bold>Dragon Soul</bold> of that element, a very strong bonus. The closer a team gets to soul, the more drakes resist it (Dragon Vengeance: up to 45% less damage taken from a team that already has 3). After the soul, only the Elder Dragon spawns."
       },
       "SUBTITLE6": "Baron Nashor",
-      "CONTENT6": "Killing Baron Nashor grants all living teammates a buff for 180 seconds.<br><br>This buff provides bonus attack damage, ability power, improved recall, and an aura that significantly enhances nearby minion power. Minions gain overall movement speed, range, damage, and projectile speed. With this buff, cannon minions can hit an enemy tower without being in its range.",
+      "CONTENT6": "Baron Nashor spawns at 20:00 in the top pit, and respawns 6 minutes after it dies.<br><br>Killing it gives every living member of the team the Hand of Baron for 3 minutes: bonus attack damage and ability power, a recall twice as fast, and an aura that empowers nearby minions. Those minions take much less damage and gain range: cannon minions can even hit a tower from outside its range.",
       "SUBTITLE7": "Rift Herald",
-      "CONTENT7": "Killing the Rift Herald drops the Herald's Eye at the entrance of the pit for 20 seconds. It can be picked up by a team member and is used to re-summon it. Once summoned, it can be used to push down a lane. Near a tower, it charges and dashes into the tower, dealing massive damage. It is also possible to ride the Herald to charge directly in a direction.<br><br>The Herald only appears once per game and disappears at 19:45, or at 19:55 if it is in combat. Baron Nashor appears in its place at 20:00.",
+      "CONTENT7": "The Rift Herald spawns only once per game, at 15:00, in the top pit. It despawns at 19:45 (19:55 if in combat) to make way for Baron Nashor at 20:00.<br><br>Killing it drops the Eye of the Herald, which must be picked up within 20 seconds. Using it summons the Herald and you ride it: you steer its charge, which builds up speed. If it slams into a tower, it deals massive damage to it, and it knocks up the enemy champions it hits.",
       "SUBTITLE8": "Void Rifts",
-      "CONTENT8": "Killing a Void Rift grants gold and experience to all team members, as well as the 'Void Touch' buff. 'Void Touch' inflicts additional damage over time on structures, and for each stack beyond the fourth, team members also receive the 'Void Hunger' buff, which will summon allied Voidlings to help destroy enemy turrets.<br><br>The Void Rift camp consists of a group of 3 Void Rifts. There can be a maximum of two spawn groups in a given game. The camp disappears at 13:45 or at 13:55 if it is in combat. A second group of Void Rifts will only spawn if the first has been eliminated before 9:45. The Rift Herald appears in the same location at 14:00."
+      "CONTENT8": "Voidgrubs spawn <bold>only once</bold>, at 8:00: a group of 3 grubs in the top pit. They do not respawn, and despawn at 14:45 (14:55 if in combat), before the Herald arrives at 15:00.<br><br>Each grub killed gives the team a stack of “Touch of the Void”: your attacks and abilities deal extra damage over time to structures. With all 3 stacks, the team gets “Hunger of the Void”: when you attack a structure, allied Voidmites regularly spawn to attack it with you.",
+      "DRAKES": {
+        "LABEL_STACK": "Each drake killed",
+        "LABEL_SOUL": "Its soul",
+        "LABEL_TERRAIN": "The map",
+        "LABEL_SPAWN": "Spawn",
+        "LABEL_BUFF": "Its buff",
+        "INFERNAL": {
+          "NAME": "Infernal Drake",
+          "STACK": "+3% attack damage and ability power.",
+          "SOUL": "Your attacks and abilities trigger an explosion that deals bonus damage (at most once every 3 seconds).",
+          "TERRAIN": "Burnt walls open up near the pit, blast cones appear, and embers you can pick up give a short speed boost and a little ability haste."
+        },
+        "MOUNTAIN": {
+          "NAME": "Mountain Drake",
+          "STACK": "+5% armor and magic resist.",
+          "SOUL": "After 5 seconds without taking damage, you gain a shield.",
+          "TERRAIN": "Rocks rise from the ground near the buffs, the raptors and the pit, and block some paths."
+        },
+        "OCEAN": {
+          "NAME": "Ocean Drake",
+          "STACK": "Restores 2% of your missing health every 5 seconds.",
+          "SOUL": "Your damage heals you and restores mana over a few seconds (reduced against minions and monsters).",
+          "TERRAIN": "Bushes grow larger, puddles appear and more healing fruits grow in the jungle."
+        },
+        "CLOUD": {
+          "NAME": "Cloud Drake",
+          "STACK": "+5% slow resistance and out-of-combat movement speed.",
+          "SOUL": "+15% movement speed, greatly increased for a few seconds after using your ultimate.",
+          "TERRAIN": "Air currents near the buffs, the raptors and the pit speed up anyone who walks through them."
+        },
+        "HEXTECH": {
+          "NAME": "Hextech Drake",
+          "STACK": "+5 ability haste and +5% attack speed.",
+          "SOUL": "Your attacks and abilities trigger an electric arc that deals true damage, slows and bounces to nearby enemies (at most once every 8 seconds).",
+          "TERRAIN": "Hextech gates link some areas of the jungle, and the base, so you can travel between them instantly."
+        },
+        "CHEMTECH": {
+          "NAME": "Chemtech Drake",
+          "STACK": "+6% tenacity and heal and shield power.",
+          "SOUL": "Below 50% health, you deal 13% more damage and take 13% less.",
+          "TERRAIN": "Jungle plants mutate: healing fruits also grant a shield, and blast cones knock you twice as far."
+        },
+        "ELDER": {
+          "NAME": "Elder Dragon",
+          "SPAWN": "6 minutes after a team gets the Dragon Soul, then 6 minutes after each of its deaths. Since 2026, it is tougher than before.",
+          "BUFF": "For 150 seconds (lost on death), your attacks and abilities burn enemies (true damage), and any champion hit below 20% health is executed half a second later. This buff does not increase the other drakes’ bonuses."
+        }
+      }
     },
     "PICKER": {
       "TITLE0": "Champion Picker",
@@ -317,107 +370,107 @@
     "WHYMECANIC": "Why use this mechanic?"
   },
   "HOME": {
-      "BIENVENUE": "Welcome to TeamUpp",
-      "SUBBIENVENUE": "The ultimate hub for competitive gamers who want to improve",
-      "TITLE1": "A Platform Designed for You",
-      "CONTENT1": "In the gaming world, the ascent to the top can often seem like an obstacle-filled journey, especially for beginner players. Generally, 85% of players are ranked Diamond or below, which is why I came up with the idea of creating a platform dedicated to those who aspire to improve their skills and progress in their game.<br><br>My goal with <strong>TeamUpp</strong> is simple: to gather, in one place, all the information you need to progress in your favorite games. No more struggling to find answers to your questions or navigating through different sources. Here, you will find structured guides, clear tips, and strategies directly accessible for several competitive games.<br><br>I want to make learning simple, effective, and above all accessible to everyone.",
-      "TITLE2": "Centralization of Resources",
-      "CONTENT2": "Instead of spending hours digging through forums or browsing scattered videos on YouTube, TeamUpp gathers everything a beginner player needs in one place. Whether you are new or just want to refine your skills, we provide you with practical guides, tips, and strategies, carefully organized for smooth and intuitive navigation.",
-      "TITLE3": "Accessible Learning",
-      "CONTENT3": "We believe that every player deserves a chance to shine. That’s why we are committed to making learning accessible and engaging. Our content is designed to be easily understandable, even for those who have never touched a competitive game before.",
-      "TITLE4": "Join the Community",
-      "CONTENT4": "In addition to our resources, TeamUpp aims to be a true community. We encourage interaction among players, allowing everyone to share experiences, exchange tips, and support each other in their quest for progress. Together, we build an environment where everyone can thrive and feel supported.",
-      "TITLE5": "Ready to Elevate Your Game Level?",
-      "CONTENT5": "Join us today and discover how TeamUpp can transform your gaming experience. Together, let’s make your gaming journey a rewarding and successful adventure.<br><br>Your ascent begins here!",
-      "FOOTERRIGHTS": "This site is not endorsed by the publishers or developers of the mentioned games and does not reflect the opinions or views of the companies or individuals officially involved in the production or management of these games. All game names, logos, and trademarks belong to their respective owners.",
-      "SOCIALNETWORKS": "Social Networks"
+    "BIENVENUE": "Welcome to TeamUpp",
+    "SUBBIENVENUE": "The ultimate hub for competitive gamers who want to improve",
+    "TITLE1": "A Platform Designed for You",
+    "CONTENT1": "In the gaming world, the ascent to the top can often seem like an obstacle-filled journey, especially for beginner players. Generally, 85% of players are ranked Diamond or below, which is why I came up with the idea of creating a platform dedicated to those who aspire to improve their skills and progress in their game.<br><br>My goal with <strong>TeamUpp</strong> is simple: to gather, in one place, all the information you need to progress in your favorite games. No more struggling to find answers to your questions or navigating through different sources. Here, you will find structured guides, clear tips, and strategies directly accessible for several competitive games.<br><br>I want to make learning simple, effective, and above all accessible to everyone.",
+    "TITLE2": "Centralization of Resources",
+    "CONTENT2": "Instead of spending hours digging through forums or browsing scattered videos on YouTube, TeamUpp gathers everything a beginner player needs in one place. Whether you are new or just want to refine your skills, we provide you with practical guides, tips, and strategies, carefully organized for smooth and intuitive navigation.",
+    "TITLE3": "Accessible Learning",
+    "CONTENT3": "We believe that every player deserves a chance to shine. That’s why we are committed to making learning accessible and engaging. Our content is designed to be easily understandable, even for those who have never touched a competitive game before.",
+    "TITLE4": "Join the Community",
+    "CONTENT4": "In addition to our resources, TeamUpp aims to be a true community. We encourage interaction among players, allowing everyone to share experiences, exchange tips, and support each other in their quest for progress. Together, we build an environment where everyone can thrive and feel supported.",
+    "TITLE5": "Ready to Elevate Your Game Level?",
+    "CONTENT5": "Join us today and discover how TeamUpp can transform your gaming experience. Together, let’s make your gaming journey a rewarding and successful adventure.<br><br>Your ascent begins here!",
+    "FOOTERRIGHTS": "This site is not endorsed by the publishers or developers of the mentioned games and does not reflect the opinions or views of the companies or individuals officially involved in the production or management of these games. All game names, logos, and trademarks belong to their respective owners.",
+    "SOCIALNETWORKS": "Social Networks"
+  },
+  "CONTACT": "Hi there! 👋<br><br>I’m <strong>Hato</strong>, the sole person behind the TeamUpp project.<br>Convinced that we can create something impactful for the world of competitive gaming, and help every player by giving them the tools to improve, I’m pouring all my energy and efforts into this project (even though it’s really tough going solo).<br><br>You’ll often find me live on Twitch 🔴, where the main content is gaming with viewers 🎮, chatting 💬, and interacting with them 🤙 (of course, everyone is welcome to join).<br>I’ve also set up a Discord server, so we can create a real community, exchange ideas, and support each other as passionate gamers 🫶.<br><br>Your feedback is crucial to help me succeed. So if you have any questions, ideas, or just want to share your thoughts, feel free to reach out to me on the social platforms below (especially Instagram).<br>I’d be really happy to chat with you! 🤗",
+  "ABOUTME": "About me",
+  "CGU": {
+    "TITLE": "Terms of Use",
+    "OBJECT": "Purpose of the document",
+    "INTRO": "This document defines the terms of use of the TeamUpp website, available at teamupp.app.",
+    "ACCESS": {
+      "TITLE": "Website Access",
+      "DESCRIPTION": "The website is freely accessible to any user with an internet connection. The site publisher (pseudonym: Hato) reserves the right to temporarily or permanently suspend access to the site without prior notice."
     },
-  "CONTACT":"Hi there! 👋<br><br>I’m <strong>Hato</strong>, the sole person behind the TeamUpp project.<br>Convinced that we can create something impactful for the world of competitive gaming, and help every player by giving them the tools to improve, I’m pouring all my energy and efforts into this project (even though it’s really tough going solo).<br><br>You’ll often find me live on Twitch 🔴, where the main content is gaming with viewers 🎮, chatting 💬, and interacting with them 🤙 (of course, everyone is welcome to join).<br>I’ve also set up a Discord server, so we can create a real community, exchange ideas, and support each other as passionate gamers 🫶.<br><br>Your feedback is crucial to help me succeed. So if you have any questions, ideas, or just want to share your thoughts, feel free to reach out to me on the social platforms below (especially Instagram).<br>I’d be really happy to chat with you! 🤗",
-  "ABOUTME":"About me",
-    "CGU": {
-      "TITLE": "Terms of Use",
-      "OBJECT": "Purpose of the document",
-      "INTRO": "This document defines the terms of use of the TeamUpp website, available at teamupp.app.",
-      "ACCESS": {
-        "TITLE": "Website Access",
-        "DESCRIPTION": "The website is freely accessible to any user with an internet connection. The site publisher (pseudonym: Hato) reserves the right to temporarily or permanently suspend access to the site without prior notice."
-      },
-      "CONTENT": {
-        "TITLE": "Content Responsibility",
-        "DESCRIPTION": "The website offers content about League of Legends, TFT and Rocket League. The site publisher does not guarantee its accuracy, and the use of information is at the user's own risk."
-      },
-      "INDEPENDENCE": {
-        "TITLE": "Website Independence",
-        "DESCRIPTION": "This site is neither approved, affiliated, nor sponsored by Riot Games, Psyonix, or any other game developer."
-      },
-      "IP": {
-        "TITLE": "Intellectual Property",
-        "DESCRIPTION": "All content on the site is protected by intellectual property rights and belongs to their respective authors. Unauthorized reproduction or use is prohibited."
-      },
-      "ADS": {
-        "TITLE": "Advertisements and External Links",
-        "DESCRIPTION": "The site displays advertisements (Google AdSense) and contains external links. The site publisher is not responsible for the content of these sites or the consequences of their use."
-      },
-      "DATA": {
-        "TITLE": "Data Management",
-        "DESCRIPTION": "Personal data processed on the site (contact form, advertising cookies) is described in the privacy policy."
-      },
-      "MODIFICATIONS": {
-        "TITLE": "Modifications of the Terms",
-        "DESCRIPTION": "The site publisher reserves the right to modify these terms at any time. Users should check them regularly."
-      },
-      "LAW": {
-        "TITLE": "Applicable Law",
-        "DESCRIPTION": "These terms are governed by French law. In case of dispute, the French courts will have jurisdiction."
-      },
-      "CONTACT": {
-        "TITLE": "Contact",
-        "DESCRIPTION": "For any questions, contact the site publisher (pseudonym: Hato) at <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
-      }
+    "CONTENT": {
+      "TITLE": "Content Responsibility",
+      "DESCRIPTION": "The website offers content about League of Legends, TFT and Rocket League. The site publisher does not guarantee its accuracy, and the use of information is at the user's own risk."
     },
-    "PRIVACY": {
-      "TITLE": "Privacy Policy",
-      "INTRO": {
-        "TITLE": "Introduction",
-        "DESCRIPTION": "This privacy policy explains how teamupp.app collects, uses and protects personal data, in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act."
-      },
-      "CONTROLLER": {
-        "TITLE": "Data controller",
-        "DESCRIPTION": "The data controller is the site publisher (pseudonym: Hato), who can be reached at <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
-      },
-      "DATA_COLLECTED": {
-        "TITLE": "Data Collected",
-        "DESCRIPTION": "<strong>Contact form:</strong> when you report missing or incorrect data, the request type, the champions concerned and your optional message are sent by email to the publisher.<br><strong>Advertising:</strong> with your consent, Google AdSense sets cookies and collects browsing data (cookie identifiers, IP address, pages viewed) to display advertisements.<br><strong>Hosting:</strong> the host may record technical logs (IP address, date, requested page) needed to run and secure the site."
-      },
-      "COOKIES": {
-        "TITLE": "Cookies and consent",
-        "DESCRIPTION": "Google AdSense advertising cookies are only set after you agree, through Google's GDPR consent message shown during your visit. You can accept, refuse or customise your choices, and change them or withdraw your consent at any time with the \"Manage cookies\" link at the bottom of every page. Learn more: <a href=\"https://policies.google.com/technologies/ads?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">how Google uses advertising data</a>."
-      },
-      "DATA_USE": {
-        "TITLE": "Purposes and legal bases",
-        "DESCRIPTION": "Contact form data is used only to handle your request (the publisher's legitimate interest in correcting and improving the site). Advertising data is used to display and measure ads, based on your consent."
-      },
-      "RETENTION": {
-        "TITLE": "Retention period",
-        "DESCRIPTION": "Contact form data is kept for 12 months, then deleted. Advertising cookies are kept for the period stated in Google's consent message."
-      },
-      "DATA_SHARING": {
-        "TITLE": "Data recipients",
-        "DESCRIPTION": "The publisher does not sell or rent your data. It is only accessible to the publisher and their technical providers: Google (AdSense advertising and email) and Vercel (hosting). As these providers may process data in the United States, such transfers are covered by the safeguards provided for by the GDPR."
-      },
-      "USER_RIGHTS": {
-        "TITLE": "Your rights",
-        "DESCRIPTION": "You have the right to access, rectify and delete your data, as well as the right to object to or restrict its processing. To exercise these rights, write to <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>. You can withdraw your advertising consent at any time via the \"Manage cookies\" link. If you believe your rights are not respected, you can lodge a complaint with the CNIL, the French data protection authority (<a href=\"https://www.cnil.fr/en\" target=\"_blank\" rel=\"noopener noreferrer\">cnil.fr</a>)."
-      },
-      "MODIFICATIONS": {
-        "TITLE": "Policy Modifications",
-        "DESCRIPTION": "This privacy policy may be modified at any time. Users are advised to review it regularly."
-      },
-      "CONTACT": {
-        "TITLE": "Contact",
-        "DESCRIPTION": "For any questions about your data, contact the site publisher (pseudonym: Hato) at <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
-      }
+    "INDEPENDENCE": {
+      "TITLE": "Website Independence",
+      "DESCRIPTION": "This site is neither approved, affiliated, nor sponsored by Riot Games, Psyonix, or any other game developer."
     },
+    "IP": {
+      "TITLE": "Intellectual Property",
+      "DESCRIPTION": "All content on the site is protected by intellectual property rights and belongs to their respective authors. Unauthorized reproduction or use is prohibited."
+    },
+    "ADS": {
+      "TITLE": "Advertisements and External Links",
+      "DESCRIPTION": "The site displays advertisements (Google AdSense) and contains external links. The site publisher is not responsible for the content of these sites or the consequences of their use."
+    },
+    "DATA": {
+      "TITLE": "Data Management",
+      "DESCRIPTION": "Personal data processed on the site (contact form, advertising cookies) is described in the privacy policy."
+    },
+    "MODIFICATIONS": {
+      "TITLE": "Modifications of the Terms",
+      "DESCRIPTION": "The site publisher reserves the right to modify these terms at any time. Users should check them regularly."
+    },
+    "LAW": {
+      "TITLE": "Applicable Law",
+      "DESCRIPTION": "These terms are governed by French law. In case of dispute, the French courts will have jurisdiction."
+    },
+    "CONTACT": {
+      "TITLE": "Contact",
+      "DESCRIPTION": "For any questions, contact the site publisher (pseudonym: Hato) at <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
+    }
+  },
+  "PRIVACY": {
+    "TITLE": "Privacy Policy",
+    "INTRO": {
+      "TITLE": "Introduction",
+      "DESCRIPTION": "This privacy policy explains how teamupp.app collects, uses and protects personal data, in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act."
+    },
+    "CONTROLLER": {
+      "TITLE": "Data controller",
+      "DESCRIPTION": "The data controller is the site publisher (pseudonym: Hato), who can be reached at <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
+    },
+    "DATA_COLLECTED": {
+      "TITLE": "Data Collected",
+      "DESCRIPTION": "<strong>Contact form:</strong> when you report missing or incorrect data, the request type, the champions concerned and your optional message are sent by email to the publisher.<br><strong>Advertising:</strong> with your consent, Google AdSense sets cookies and collects browsing data (cookie identifiers, IP address, pages viewed) to display advertisements.<br><strong>Hosting:</strong> the host may record technical logs (IP address, date, requested page) needed to run and secure the site."
+    },
+    "COOKIES": {
+      "TITLE": "Cookies and consent",
+      "DESCRIPTION": "Google AdSense advertising cookies are only set after you agree, through Google's GDPR consent message shown during your visit. You can accept, refuse or customise your choices, and change them or withdraw your consent at any time with the \"Manage cookies\" link at the bottom of every page. Learn more: <a href=\"https://policies.google.com/technologies/ads?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">how Google uses advertising data</a>."
+    },
+    "DATA_USE": {
+      "TITLE": "Purposes and legal bases",
+      "DESCRIPTION": "Contact form data is used only to handle your request (the publisher's legitimate interest in correcting and improving the site). Advertising data is used to display and measure ads, based on your consent."
+    },
+    "RETENTION": {
+      "TITLE": "Retention period",
+      "DESCRIPTION": "Contact form data is kept for 12 months, then deleted. Advertising cookies are kept for the period stated in Google's consent message."
+    },
+    "DATA_SHARING": {
+      "TITLE": "Data recipients",
+      "DESCRIPTION": "The publisher does not sell or rent your data. It is only accessible to the publisher and their technical providers: Google (AdSense advertising and email) and Vercel (hosting). As these providers may process data in the United States, such transfers are covered by the safeguards provided for by the GDPR."
+    },
+    "USER_RIGHTS": {
+      "TITLE": "Your rights",
+      "DESCRIPTION": "You have the right to access, rectify and delete your data, as well as the right to object to or restrict its processing. To exercise these rights, write to <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>. You can withdraw your advertising consent at any time via the \"Manage cookies\" link. If you believe your rights are not respected, you can lodge a complaint with the CNIL, the French data protection authority (<a href=\"https://www.cnil.fr/en\" target=\"_blank\" rel=\"noopener noreferrer\">cnil.fr</a>)."
+    },
+    "MODIFICATIONS": {
+      "TITLE": "Policy Modifications",
+      "DESCRIPTION": "This privacy policy may be modified at any time. Users are advised to review it regularly."
+    },
+    "CONTACT": {
+      "TITLE": "Contact",
+      "DESCRIPTION": "For any questions about your data, contact the site publisher (pseudonym: Hato) at <a href=\"mailto:teamupp.app@outlook.fr\">teamupp.app@outlook.fr</a>."
+    }
+  },
   "GAMES": {
     "LOL": "League of Legends",
     "TFT": "Teamfight Tactics",
@@ -995,5 +1048,70 @@
     "BACK": "Back",
     "THRESHOLD": "Matchups with at least {{min}} games in the selection.",
     "NO_DATA": "Not enough games yet to show the matchups of {{champion}} {{role}}."
+  },
+  "TFT": {
+    "CONTENT1": "TFT is an “auto-battler” strategy game: you recruit a team of champions from the League of Legends universe, place them on a board, and they automatically fight the other players’ teams.<br><br>Each game brings together eight players, who start with 100 health. When you lose a fight, you lose health: a fixed amount that grows with each stage, plus 1 per enemy unit still alive.<br>At 0 health, you are eliminated. Your placement depends on the order of elimination: the last player standing finishes 1st, and finishing in the top 4 counts as a win.<br><br>The game is split into stages, themselves split into rounds (2-1, 2-2…). After a first stage against monsters, every stage follows the same pattern:",
+    "LIST1": {
+      "CONTENT0": "<bold>3 PvP fights:</bold> three fights against other players, drawn at random while avoiding those you just faced.",
+      "CONTENT1": "<bold>Carousel:</bold> each player in turn picks a champion holding an item component. Players with the least health pick first.",
+      "CONTENT2": "<bold>2 PvP fights:</bold> two more fights against other players.",
+      "CONTENT3": "<bold>PvE round:</bold> the stage ends against monsters, which drop gold, components or champions.",
+      "OUTRO": "The goal: build the best team you can to beat the other players and survive as long as possible.<br><br>At rounds 2-1, 3-2 and 4-2, you also pick an <term k=\"AUGMENT\">augment</term> out of three options: a permanent bonus that can shape your whole game.",
+      "OUTRO1": "In the player list, an icon appears next to the opponents you have not faced yet during the current stage: they are your possible next opponents. Check their boards to adapt your positioning."
+    },
+    "CONTENT2": "TFT is built on four core concepts:",
+    "CONTENT3": "In the current set, there are five champion rarities.<br>The rarer a champion, the more expensive and powerful it is, and the fewer copies there are in the shared pool:",
+    "LIST3": {
+      "CONTENT4": "<bold>Tier 5:</bold> 5-gold champion.",
+      "OUTRO0": "Upgrading your champions is key to getting the most out of them.<br><br>Every champion is <bold>1 star</bold> when you buy it. With <bold>three copies of the same 1-star champion</bold>, they automatically combine into a <bold>2-star</bold> champion, much stronger: more <bold>health</bold>, more <bold>damage</bold>, and often a <bold>stronger spell</bold>. Same principle afterwards: <bold>three 2-star copies</bold> make a <bold>3-star</bold> champion, its most powerful version.<br><bold>Rarity</bold> matters a lot: the rarer a champion, the higher its <bold>base stats</bold>, so upgrading a rare champion (Tier 4, for example) has far more impact than upgrading a common one (Tier 1).",
+      "OUTRO1": "Understanding upgrades is not enough: you also need to watch <bold>your opponents’ teams</bold>. All eight players draw from the same <bold>champion pool</bold>, which holds a <bold>limited number of copies</bold> of each champion. Every copy an opponent buys is one less for you: if several players want the same champion, upgrading it becomes very hard.",
+      "OUTRO2": "The key: <bold>watch your opponents’ compositions</bold> to aim for less contested champions, which you will have a better chance of upgrading. Good <bold>economy management</bold> and <bold>careful scouting of the other players</bold> will keep your progress from stalling."
+    },
+    "CONTENT4": "<bold>Components</bold> are mini-items. Combining two components on a champion creates a full <bold>item</bold>. Each champion can hold up to three items. Depending on the set, there are also special items: radiant items (upgraded versions), artifacts, or emblems, crafted with a Spatula, which give an extra trait to the champion holding them.<br><br>Each champion has a role (tank, physical damage, magic damage…), shown in game to help you equip it. Items fall into broad families, such as <bold>damage</bold> items and <bold>defensive</bold> items.<br>Put your items on the most important champions of your team, your <term k=\"CARRY\">carries</term>, while respecting their role: a defensive item on a tank, a damage item on an attacker. This logic is the foundation of an effective team.<br><br>Also look at your opponents’ items: it helps you anticipate their strategies and pick items that counter them.",
+    "CONTENT6": "Managing your gold well lets you control your game. Every round, you receive a base income of 5 gold (a bit less during the very first rounds). On top of that come <bold>interest</bold>: bonus gold based on the gold you keep in reserve.",
+    "LIST6": {
+      "CONTENT0": "1 gold of interest per 10 gold, up to 5 gold from 50 gold. Beyond 50 gold, saving more does not earn anything extra.",
+      "CONTENT1": "Winning a fight against a player earns 1 extra gold, which often helps reach the next threshold."
+    },
+    "CONTENT7": "Win or loss streaks also earn bonus gold (a 2-round streak earns nothing):",
+    "LIST7": {
+      "CONTENT0": "<bold>3 or 4 wins or losses in a row:</bold> +1 gold.",
+      "CONTENT1": "<bold>5 wins or losses in a row:</bold> +2 gold.",
+      "CONTENT2": "<bold>6 or more wins or losses in a row:</bold> +3 gold."
+    },
+    "CONTENT8": "Your level matters just as much. You gain 2 XP for free every round, and you can buy experience: 4 gold for 4 XP. Your level (10 at most) sets how many champions you can field on the board: at level 5, you can field 5. It also changes the odds of each rarity in the shop: the higher your level, the more rare champions you see.<br><br>There are different economy strategies. Some players prefer to save and accept a few losses to come back with a lot of gold, others, like me, choose an aggressive approach to keep as much health as possible. Keep in mind that 80 gold in your pocket is useless if you are eliminated.<br><br>Beginners are often afraid to spend their gold. My advice: watch your health bar first, it is what matters most. If your team is too weak, do not hesitate to spend.<br><br>Make thoughtful decisions. When to buy XP? When to refresh the shop (called “rolling”)? There is no perfect moment: it all depends on your game and your health.<br>Ask yourself <bold>every round</bold>: is buying XP worth it? Yes or no? Why? Is refreshing the shop worth it with my level and my health? With experience, the answers will come naturally.",
+    "LIST9": {
+      "CONTENT0": "<bold>Do not blame luck:</bold> the shop has some randomness, but over several games your decisions make the difference. After a bad game, look for what you could have done differently.",
+      "CONTENT1": "<bold>Step back every round:</bold> analyze the situation to make the most logical choice.<br>Why buy XP? Why refresh the shop? Why do nothing?",
+      "CONTENT2": "<bold>Watch and learn:</bold> in TFT, watching good players (on YouTube or on stream) teaches a lot, sometimes more than playing yourself. Build up knowledge, then apply it in your games.",
+      "CONTENT3": "<bold>Top 4 = win:</bold> do not aim for 1st place every game. Finishing top 4 is a win: consistency is the key.",
+      "CONTENT4": "<bold>Be flexible:</bold> do not lock yourself into a single composition or champion. If you are above an interest threshold, buy champions even if they do not fit your composition: a 1-star champion sells back for its full price, so it costs you nothing, and it can let you switch compositions much more easily. A very good player sees transitions a beginner does not: that is how you improve your team efficiently.",
+      "CONTENT5": "<bold>Influence the shop:</bold> since all players draw from the same pool, buying other champions of the same cost as the one you are looking for very slightly increases your chances of finding it."
+    }
+  },
+  "GLOSSARY": {
+    "WAVE": "Wave: the group of minions that leaves each base at regular intervals and walks down each lane.",
+    "GANK": "Gank: a surprise attack by a player coming from elsewhere (usually the jungler) on a lane, to outnumber the opponent.",
+    "CRASH": "Crash: when your minion wave reaches the enemy tower and gets destroyed by it.",
+    "BACK": "Back: going back to base (Recall, B key) to buy items and restore health and mana.",
+    "SLOW_PUSH": "Slow push: moving the wave forward slowly so it grows before reaching the enemy tower.",
+    "LAST_HIT": "Last hit: the killing blow on a minion or monster. It is what earns the gold.",
+    "ROAM": "Roam: leaving your lane for a moment to help elsewhere on the map.",
+    "DIVE": "Dive: attacking an opponent under their own tower, accepting to take the tower’s shots.",
+    "PRIO": "Priority (prio): your laner has pushed their wave, so the opponent has to stay and farm it under their tower. Your laner can therefore leave the lane first.",
+    "ADC": "ADC (Attack Damage Carry): the team’s marksman, a ranged champion who deals most of their damage with basic attacks.",
+    "TRADE": "Trade: an exchange of damage between two opponents. The goal: deal more than you take.",
+    "COOLDOWN": "Cooldown: a spell’s recharge time, during which it cannot be used.",
+    "BAIT": "Bait: luring the opponent into wasting a spell.",
+    "POKE": "Poke: harassing the opponent from range with attacks or abilities, without committing to a real fight.",
+    "SPACING": "Spacing: managing the distance between you and your opponent, so you can hit them without being hit.",
+    "POWERSPIKE": "Power spike: a moment when a champion suddenly gets much stronger (level 6 and their ultimate, a finished item…).",
+    "WARD": "Ward: an object placed on the ground that grants vision of the area around it, to see enemies coming.",
+    "TRINKET": "Trinket: the free utility item slot (key 4). It holds your choice of Stealth Ward (yellow, places an invisible ward), Oracle Lens (red, disables nearby enemy wards) or, from level 9, Farsight Alteration (blue, reveals an area from afar).",
+    "CC": "Crowd control (CC): any effect that hinders a champion: stun, slow, root, knock-up…",
+    "CLEAR": "Clear: killing every monster in a camp, or every camp on a path.",
+    "INVADE": "Invade: entering the enemy jungle to steal their camps or catch the enemy jungler.",
+    "CARRY": "Carry: the champion who “carries” the team, dealing most of the damage and deciding the fights.",
+    "AUGMENT": "Augment: a permanent bonus picked from three options at set rounds. It can boost your economy, your items or your traits."
   }
 }

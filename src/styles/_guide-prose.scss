@@ -114,7 +114,8 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 20px;
-    align-items: start;
+    // Centred so a short image beside a taller block (callout, text) does not float at the top.
+    align-items: center;
     margin-top: 16px;
 
     figure {
@@ -130,8 +131,8 @@
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 10px;
-    margin-top: 12px;
+    gap: 16px 20px;
+    margin-top: 14px;
     padding: 0;
     list-style: none;
   }
@@ -140,11 +141,11 @@
     grid-template-columns: 1fr;
   }
 
+  // Read-only content: an accent rule instead of a bordered box, so it never looks like a button
+  // (bordered boxes with a hover state are reserved for links: pager, chapter tabs…).
   .info-card {
-    padding: 14px;
-    border-radius: var(--radius-control);
-    background: var(--color-surface);
-    border: 1px solid var(--color-line);
+    padding: 4px 0 4px 16px;
+    border-left: 3px solid color-mix(in srgb, var(--game-accent) 70%, transparent);
   }
 
   .info-card__title {
@@ -156,6 +157,12 @@
     line-height: 1.1;
     text-transform: uppercase;
     color: var(--color-text);
+  }
+
+  // The body follows a title extracted from "<bold>Title :</bold> text": start it with a capital.
+  .info-card__text::first-letter,
+  .timeline__note::first-letter {
+    text-transform: uppercase;
   }
 
   .info-card__text {
@@ -266,22 +273,58 @@
     }
   }
 
-  // Dragon list items embed their own icon.
-  .drakes .bullets {
-    list-style: none;
-    padding-left: 0;
+  // Dragon cards (game guide): per-drake bonus, soul and terrain.
+  .drake-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px 24px;
+    margin-top: 24px;
+  }
+
+  .drake-card--elder {
+    grid-column: 1 / -1;
+    border-left-color: var(--color-gold);
+  }
+
+  .drake-card__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
     img {
-      display: inline-block;
-      width: 24px;
-      height: 24px;
-      vertical-align: middle;
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  .drake-card__facts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px 0 0;
+
+    dt {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: color-mix(in srgb, var(--game-accent) 55%, #fff);
+    }
+
+    dd {
+      margin: 2px 0 0;
+      font-size: 15px;
+      line-height: 1.55;
+      color: #b8b8cc;
     }
   }
 
   app-step-list,
   app-pros-cons {
     margin-top: 12px;
+  }
+
+  app-guide-bullets + p {
+    margin-top: 18px;
   }
 
   @media (max-width: 600px) {
@@ -301,5 +344,70 @@
     h3 {
       font-size: 20px;
     }
+  }
+}
+
+// Glossary term (<term k="…"> in translations, see SafeHtmlPipe): dotted underline, definition on hover / focus / tap.
+.term {
+  position: relative;
+  font-style: normal;
+  text-decoration: underline dotted color-mix(in srgb, var(--game-accent, var(--color-gold)) 80%, #fff);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  cursor: help;
+  border-radius: 3px;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--color-text);
+  }
+}
+
+.term__tip {
+  display: none;
+  position: absolute;
+  z-index: 30;
+  // Below the word: above it, the tip would slide under the sticky top bar.
+  top: calc(100% + 8px);
+  left: 50%;
+  // --tip-shift is set by GuideLayoutComponent to keep the tooltip inside the reading column.
+  transform: translateX(calc(-50% + var(--tip-shift, 0px)));
+  width: max-content;
+  max-width: 300px;
+  padding: 10px 12px;
+  border-radius: var(--radius-control-sm);
+  background: var(--color-surface-active);
+  border: 1px solid var(--color-line-strong);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--color-text-secondary);
+  pointer-events: none;
+
+  .term:hover &,
+  .term:focus & {
+    display: block;
+  }
+
+  &.term__tip--above {
+    top: auto;
+    bottom: calc(100% + 8px);
+  }
+
+  // Small screens: pinned above the mobile tab bar so it never overflows the viewport.
+  @media (max-width: 767px) {
+    position: fixed;
+    z-index: 1001;
+    top: auto;
+    bottom: calc(76px + env(safe-area-inset-bottom));
+    left: 16px;
+    right: 16px;
+    transform: none;
+    width: auto;
+    max-width: none;
   }
 }

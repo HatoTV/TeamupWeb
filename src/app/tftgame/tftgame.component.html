@@ -52,7 +52,9 @@
         <figure>
           <picture><source type="image/avif" [attr.srcset]="'assets/img/tftDuration.jpg' | srcset: 'avif'" sizes="(min-width: 1100px) 760px, 100vw" /><source type="image/webp" [attr.srcset]="'assets/img/tftDuration.jpg' | srcset: 'webp'" sizes="(min-width: 1100px) 760px, 100vw" /><img [src]="'assets/img/tftDuration.jpg' | imgFallback" [alt]="'TFTPAGE.ALT.DURATION' | translate" loading="lazy" /></picture>
         </figure>
-        <p class="spaced" [innerHTML]="'TFT.LIST1.OUTRO' | translate | safeHtml"></p>
+        @for (p of 'TFT.LIST1.OUTRO' | translate | paragraphs; track $index) {
+          <p class="spaced" [innerHTML]="p | safeHtml"></p>
+        }
         <app-callout variant="tip"><span [innerHTML]="'TFT.LIST1.OUTRO1' | translate | safeHtml"></span></app-callout>
       </section>
 

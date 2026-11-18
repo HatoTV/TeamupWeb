@@ -5,14 +5,14 @@ import { SafeHtmlPipe } from '../../safe-html.pipe';
 import { CalloutComponent } from '../../shared/ui/callout.component';
 import { GuideBulletsComponent, GuideCardsComponent, keys } from '../guide-shared/guide-blocks';
 import { GuideConfig, GuidePageComponent } from '../guide-shared/guide-page.component';
-import { LeadPipe } from '../guide-shared/guide-text';
+import { LeadPipe, ParagraphsPipe } from '../guide-shared/guide-text';
 
 const K = 'LOL.JUNGLE';
 
 @Component({
   selector: 'app-jungle',
   standalone: true,
-  imports: [PictureComponent, TranslateModule, SafeHtmlPipe, GuidePageComponent, GuideCardsComponent, GuideBulletsComponent, CalloutComponent, LeadPipe],
+  imports: [PictureComponent, TranslateModule, SafeHtmlPipe, GuidePageComponent, GuideCardsComponent, GuideBulletsComponent, CalloutComponent, LeadPipe, ParagraphsPipe],
   templateUrl: './jungle.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

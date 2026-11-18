@@ -10,7 +10,7 @@
   <section class="chapter-block" aria-labelledby="Pathing">
     <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 2 } }}</p>
     <h2 id="Pathing">{{ 'LOL.JUNGLE.TITLE2' | translate }}</h2>
-    <p class="spaced">{{ 'LOL.JUNGLE.CONTENT2.INTRO1' | translate }}</p>
+    <p class="spaced" [innerHTML]="'LOL.JUNGLE.CONTENT2.INTRO1' | translate | safeHtml"></p>
     <ul class="cards cards--list">
       @for (path of paths; track path.key) {
         @let item = path.key | translate | lead;
@@ -39,13 +39,17 @@
     <p class="spaced">{{ 'LOL.JUNGLE.CONTENT4.INTRO1' | translate }}</p>
     <figure><app-picture src="assets/img/Objectives.jpg" [alt]="'GUIDES.ALT.OBJECTIVES' | translate" /></figure>
     <app-guide-cards layout="grid" [keys]="objectives" />
-    <p class="spaced" [innerHTML]="'LOL.JUNGLE.CONTENT5' | translate | safeHtml"></p>
+    @for (p of 'LOL.JUNGLE.CONTENT5' | translate | paragraphs; track $index) {
+      <p class="spaced" [innerHTML]="p | safeHtml"></p>
+    }
   </section>
 
   <section class="chapter-block" aria-labelledby="Ganks">
     <p class="chapter-kicker">{{ 'UI.CHAPTER' | translate: { n: 4 } }}</p>
     <h2 id="Ganks">{{ 'LOL.JUNGLE.TITLE6' | translate }}</h2>
-    <p class="spaced" [innerHTML]="'LOL.JUNGLE.CONTENT6' | translate | safeHtml"></p>
+    @for (p of 'LOL.JUNGLE.CONTENT6' | translate | paragraphs; track $index) {
+      <p class="spaced" [innerHTML]="p | safeHtml"></p>
+    }
 
     <h3 id="gank-types">{{ 'LOL.JUNGLE.CONTENT7.INTRO1' | translate }}</h3>
     <figure><app-picture src="assets/img/ganksExample.png" [alt]="'GUIDES.ALT.GANKS' | translate" /></figure>

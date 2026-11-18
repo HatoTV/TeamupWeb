@@ -237,6 +237,15 @@
   background: var(--color-surface-plus);
 }
 
+// Star levels use the in-game colours: 1★ bronze, 2★ silver, 3★ gold.
+.stars__star--bronze {
+  color: #d08a4c;
+}
+
+.stars__star--silver {
+  color: #cdd5e4;
+}
+
 .stars__chip--gold {
   background: var(--diff-3-bg);
   color: var(--color-gold);

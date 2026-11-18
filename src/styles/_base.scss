@@ -60,6 +60,11 @@ picture {
   display: contents;
 }
 
+// …so its <source> children must not become grid / flex items either.
+picture > source {
+  display: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;

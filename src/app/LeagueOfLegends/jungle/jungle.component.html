@@ -19,7 +19,9 @@
             <p class="info-card__title">{{ item.label }}</p>
             <p class="info-card__text" [innerHTML]="item.body | safeHtml"></p>
           </div>
-          <app-picture [src]="path.image" [alt]="item.label" sizes="(min-width: 1100px) 380px, 100vw" />
+          <figure class="path-card__map">
+            <app-picture [src]="path.image" [alt]="item.label" sizes="(min-width: 700px) 260px, 100vw" />
+          </figure>
         </li>
       }
     </ul>

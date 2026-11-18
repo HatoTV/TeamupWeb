@@ -30,8 +30,11 @@
   color: var(--color-text-secondary);
 }
 
-.head__sample {
-  display: inline-block;
+.head__sample,
+.head__notice {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
   margin-top: 12px;
   padding: 6px 12px;
   border-radius: var(--radius-control);

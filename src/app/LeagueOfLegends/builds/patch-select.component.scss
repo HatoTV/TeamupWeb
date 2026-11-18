@@ -1,0 +1,30 @@
+// Text-only trigger (no emblem): same height and look as the rank and region dropdowns.
+.trigger--text {
+  padding-left: 14px;
+}
+
+.option {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.option__label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.option__meta {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.option__few {
+  color: var(--diff-3-text, var(--color-gold));
+}
+
+.list {
+  width: min(330px, calc(100vw - 32px));
+}
+

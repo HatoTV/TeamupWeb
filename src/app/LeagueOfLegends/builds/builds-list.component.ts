@@ -7,7 +7,8 @@ import { RouteContextService } from '../../core/route-context.service';
 import { normalizeForSearch } from '../../core/slug';
 import { IconComponent } from '../../shared/ui/icon/icon.component';
 import { injectPageSeo } from '../../core/seo.service';
-import { ROLE_ORDER, formatInt, formatRate, isBuildFilter, rankFilters } from './build-utils';
+import { ROLE_ORDER, defaultPatch, formatInt, formatRate, isBuildFilter, patchOptions, rankFilters, resolvePatch } from './build-utils';
+import { PatchSelectComponent } from './patch-select.component';
 import { RankSelectComponent } from './rank-select.component';
 import { TierSelectComponent } from './tier-select.component';
 import { TierTileComponent } from '../tier-list/tier-tile.component';
@@ -48,7 +49,7 @@ export function pageItems(current: number, total: number): Array<number | null> 
 @Component({
   selector: 'app-builds-list',
   standalone: true,
-  imports: [TranslateModule, RouterLink, RankSelectComponent, IconComponent, TierTileComponent, TierSelectComponent],
+  imports: [TranslateModule, RouterLink, RankSelectComponent, PatchSelectComponent, IconComponent, TierTileComponent, TierSelectComponent],
   templateUrl: './builds-list.component.html',
   styleUrl: './builds-list.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -70,9 +71,19 @@ export class BuildsListComponent {
   /** Rank picked by the visitor; ignored when that rank has no games of its own. */
   protected readonly rank = signal<BuildFilter | null>(null);
   protected readonly meta = signal<BuildMeta | null | undefined>(undefined);
+  /** Patch picked by the visitor; null = default (the previous patch during the first two days of a new one). */
+  protected readonly patchChoice = signal<string | null>(null);
+  protected readonly defaultPatch = computed(() => defaultPatch(this.meta()));
+  protected readonly patch = computed(() => resolvePatch(this.meta(), this.patchChoice()));
+  protected readonly patchOptions = computed(() => patchOptions(this.meta(), this.filter()));
+  /** Newest patch while the default still shows the previous one. */
+  protected readonly newPatch = computed(() => {
+    const meta = this.meta();
+    return meta && this.patch() !== meta.latest && this.defaultPatch() !== meta.latest ? meta.latest : null;
+  });
   /** Rank filters with games of their own tier; the widest one is the default. */
   protected readonly filters = computed<BuildFilter[]>(() => {
-    const list = rankFilters(this.meta());
+    const list = rankFilters(this.meta(), this.patch());
     return list.length ? list : [BUILD_FILTERS[0]];
   });
   protected readonly defaultFilter = computed(() => this.filters()[0]!);
@@ -139,31 +150,44 @@ export class BuildsListComponent {
       this.role();
       this.tiers();
       this.filter();
+      this.patch();
       this.sort();
       untracked(() => this.page.set(1));
     });
-    injectPageSeo(() => ({ titleKey: 'BUILDS.LIST_SEO_TITLE', descriptionKey: 'BUILDS.LIST_SEO_DESC', params: { patch: this.meta()?.latest ?? '' } }));
+    injectPageSeo(() => ({ titleKey: 'BUILDS.LIST_SEO_TITLE', descriptionKey: 'BUILDS.LIST_SEO_DESC', params: { patch: this.patch() ?? '' } }));
     void this.champions.loadIndex().catch(() => undefined);
     void this.data.meta().then((meta) => this.meta.set(meta));
     effect(() => {
       const filter = this.filter();
+      const patch = this.patch();
       const lang = this.ctx.lang();
       if (this.meta() === undefined) return;
-      untracked(() => void this.load(filter, lang));
+      untracked(() => void this.load(filter, patch, lang));
     });
   }
 
-  private async load(filter: BuildFilter, lang: 'fr' | 'en'): Promise<void> {
+  private loadSeq = 0;
+
+  private async load(filter: BuildFilter, patch: string | null, lang: 'fr' | 'en'): Promise<void> {
+    const seq = ++this.loadSeq;
     this.loading.set(true);
     const meta = await this.data.meta();
-    this.meta.set(meta);
-    if (meta) {
-      const latest = meta.patches.find((p) => p.patch === meta.latest) ?? meta.patches[0]!;
-      const [index, core] = await Promise.all([this.data.index(latest.patch, filter), this.data.core(latest.ddragonVersion, lang)]);
-      this.index.set(index);
-      this.core.set(core);
-    }
+    const shown = meta?.patches.find((p) => p.patch === patch) ?? meta?.patches[0];
+    const [index, core] = shown ? await Promise.all([this.data.index(shown.patch, filter), this.data.core(shown.ddragonVersion, lang)]) : [null, null];
+    if (seq !== this.loadSeq) return; // a newer filter or patch change won
+    this.index.set(index);
+    this.core.set(core);
     this.loading.set(false);
+  }
+
+  /** Query of the champion links: only what differs from the defaults. */
+  protected readonly linkQuery = computed(() => ({
+    ...(this.filter() === this.defaultFilter() ? {} : { rank: this.filter() }),
+    ...(this.patch() === this.defaultPatch() ? {} : { patch: this.patch() }),
+  }));
+
+  protected selectPatch(patch: string): void {
+    this.patchChoice.set(patch === this.defaultPatch() ? null : patch);
   }
 
   protected goTo(page: number): void {

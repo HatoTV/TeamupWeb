@@ -12,6 +12,9 @@ import { exclusiveGroups } from './extract/items.ts';
 import { championBuildSchema, indexSchema, metaSchema, tierListSchema, type IndexJson, type MetaJson, type TierListJson } from './schema.ts';
 import { decodeJsonl, getJson, putJson, type StateStore } from './state/store.ts';
 
+/** Keep in sync with NEW_PATCH_GRACE_MS in src/app/LeagueOfLegends/builds/build-utils.ts. */
+export const NEW_PATCH_GRACE_MS = 48 * 3_600_000;
+
 const MAX_FILE_BYTES = 30 * 1024;
 /** Files kept in Git (prerendered pages): the default filter, all regions. The rest is served from R2. */
 const GIT_FILTER = 'emerald_plus';
@@ -257,14 +260,16 @@ export async function publish(config: Config, store: StateStore, publicStore: St
   const now = new Date().toISOString();
   const metaFile = join(config.outputDir, 'meta.json');
   const old: MetaJson | null = existsSync(metaFile) ? JSON.parse(readFileSync(metaFile, 'utf8')) : null;
+  // The site shows the previous patch by default during the first two days of a new one (few games yet).
+  const inGrace = !!previous && Date.now() - current.firstSeenAt < NEW_PATCH_GRACE_MS;
   const json: MetaJson = metaSchema.parse({
-    current: current.patch,
+    current: inGrace ? previous!.patch : current.patch,
     latest: current.patch,
     // Newest first; a patch without data yet is still listed so that the site can fall back to the previous one.
     patches: [current, ...(previous ? [previous] : [])].map((m) => {
       const report = reports.find((r) => r.patch === m.patch)!;
       const updatedAt = report.aggregated ? now : (old?.patches.find((p) => p.patch === m.patch)?.updatedAt ?? now);
-      return { patch: m.patch, ddragonVersion: m.version, games: report.totals, updatedAt };
+      return { patch: m.patch, ddragonVersion: m.version, games: report.totals, updatedAt, releasedAt: new Date(m.firstSeenAt).toISOString() };
     }),
     filters: [...TIER_FILTERS],
     regions: config.platforms.length > 1 ? ['all', ...config.platforms] : ['all'],

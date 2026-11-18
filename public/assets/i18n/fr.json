@@ -1004,7 +1004,12 @@
     "PICK_META": "{{games}} · {{share}} des parties",
     "SHARE_OF_GAMES": "{{share}} des parties",
     "FULL_BUILD": "Build complet",
-    "OR": "ou"
+    "OR": "ou",
+    "PATCH_CURRENT": "Patch actuel",
+    "PATCH_PREVIOUS": "Patch précédent",
+    "PATCH_FEW_DATA": "peu de données pour l’instant",
+    "PATCH_GAMES": "{{games}} parties",
+    "NEW_PATCH_NOTICE": "Le patch {{latest}} vient de sortir et a encore peu de parties : le patch {{patch}}, plus fiable, reste affiché par défaut pendant 2 jours. Tu peux changer de patch avec le sélecteur."
   },
   "COMMUNITY_TIPS": {
     "TITLE": "Tips de la communauté",

@@ -85,6 +85,11 @@
   position: relative;
 }
 
+// Same height as the rank button next to it.
+.patch {
+  --rank-select-height: 52px;
+}
+
 .rank__button {
   display: flex;
   align-items: center;

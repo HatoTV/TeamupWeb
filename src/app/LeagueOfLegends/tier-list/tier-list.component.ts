@@ -6,7 +6,8 @@ import { BuildDataService, BuildMeta, StaticCore, TierList, TierRank } from '../
 import { ChampionDataService, Role } from '../../core/data/champion-data.service';
 import { RouteContextService } from '../../core/route-context.service';
 import { injectPageSeo } from '../../core/seo.service';
-import { ROLE_ORDER, formatInt, formatRate } from '../builds/build-utils';
+import { ROLE_ORDER, defaultPatch, formatInt, formatRate, patchOptions } from '../builds/build-utils';
+import { PatchSelectComponent } from '../builds/patch-select.component';
 import {
   BAND_BUILD_FILTER,
   BAND_EMBLEMS,
@@ -40,7 +41,7 @@ interface ChampionCell {
 @Component({
   selector: 'app-tier-list',
   standalone: true,
-  imports: [TranslateModule, RouterLink],
+  imports: [TranslateModule, RouterLink, PatchSelectComponent],
   templateUrl: './tier-list.component.html',
   styleUrl: './tier-list.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -63,6 +64,8 @@ export class TierListComponent {
   private readonly query = toSignal(this.route.queryParamMap);
   protected readonly band = computed(() => parseBand(this.query()?.get('rank')));
   protected readonly role = computed(() => parseRole(this.query()?.get('role')));
+  /** `?patch=`: one of the two published patches; absent = default (the previous one during the first two days of a new patch). */
+  private readonly patchParam = computed(() => this.query()?.get('patch') ?? null);
 
   protected readonly open = signal(false);
   private readonly rankButton = viewChild<ElementRef<HTMLButtonElement>>('rankButton');
@@ -74,7 +77,15 @@ export class TierListComponent {
   protected readonly core = signal<StaticCore | null>(null);
   protected readonly loading = signal(true);
 
-  protected readonly patch = computed(() => this.file()?.patch ?? this.meta()?.latest ?? null);
+  protected readonly patch = computed(() => this.file()?.patch ?? defaultPatch(this.meta()) ?? null);
+  protected readonly defaultPatch = computed(() => defaultPatch(this.meta()));
+  /** Rank bands are not build filters: the options show no game count. */
+  protected readonly patchOptions = computed(() => patchOptions(this.meta(), null));
+  /** Newest patch while the default still shows the previous one (no `?patch=`). */
+  protected readonly newPatch = computed(() => {
+    const meta = this.meta();
+    return meta && !this.patchParam() && this.file() && this.patch() !== meta.latest && this.defaultPatch() !== meta.latest ? meta.latest : null;
+  });
   private readonly version = computed(() => this.meta()?.patches.find((p) => p.patch === this.patch())?.ddragonVersion ?? this.meta()?.patches[0]?.ddragonVersion ?? null);
 
   protected readonly ranked = computed<ChampionCell[]>(() => {
@@ -101,7 +112,8 @@ export class TierListComponent {
   /** Rank filter of the build page links (Master → Challenger only: builds start at Emerald). */
   protected readonly buildQuery = computed(() => {
     const filter = BAND_BUILD_FILTER[this.band()];
-    return filter ? { rank: filter } : {};
+    const patch = this.patch();
+    return { ...(filter ? { rank: filter } : {}), ...(patch && patch !== this.defaultPatch() ? { patch } : {}) };
   });
 
   constructor() {
@@ -110,21 +122,27 @@ export class TierListComponent {
     effect(() => {
       const band = this.band();
       const role = this.role();
+      const patch = this.patchParam();
       const lang = this.ctx.lang();
-      untracked(() => void this.load(band, role, lang));
+      untracked(() => void this.load(band, role, patch, lang));
     });
   }
 
   private loadSeq = 0;
 
-  private async load(band: RankBand, role: Role, lang: 'fr' | 'en'): Promise<void> {
+  private async load(band: RankBand, role: Role, requested: string | null, lang: 'fr' | 'en'): Promise<void> {
     const seq = ++this.loadSeq;
     this.loading.set(true);
     const meta = await this.data.meta();
     let file: TierList | null = null;
-    // Newest patch first; the previous one while the newest has too few ranked champions in this role.
-    for (const p of meta?.patches ?? []) {
-      const candidate = await this.data.tierList(p.patch, band);
+    const patches = (meta?.patches ?? []).map((p) => p.patch);
+    const start = requested && patches.includes(requested) ? requested : defaultPatch(meta);
+    // The patch asked for (or the default); when the default is the newest patch and it still has too few ranked
+    // champions in this role, the previous one.
+    const candidates = start === requested || start !== meta?.latest ? [start] : patches;
+    for (const p of candidates) {
+      if (!p) continue;
+      const candidate = await this.data.tierList(p, band);
       if (!candidate) continue;
       file ??= candidate;
       if (candidate.champions.filter((c) => c.role === role).length >= MIN_RANKED) {
@@ -155,12 +173,17 @@ export class TierListComponent {
 
   // ---------- selection (URL query) ----------
 
-  private setQuery(params: { rank?: RankBand; role?: Role }): void {
+  private setQuery(params: { rank?: RankBand; role?: Role; patch?: string | null }): void {
+    const patch = params.patch !== undefined ? params.patch : this.patchParam();
     void this.router.navigate([], {
       relativeTo: this.route,
-      queryParams: { rank: params.rank ?? this.band(), role: params.role ?? this.role() },
+      queryParams: { rank: params.rank ?? this.band(), role: params.role ?? this.role(), ...(patch ? { patch } : {}) },
       replaceUrl: true,
     });
+  }
+
+  protected selectPatch(patch: string): void {
+    this.setQuery({ patch: patch === this.defaultPatch() ? null : patch });
   }
 
   protected selectRole(role: Role): void {

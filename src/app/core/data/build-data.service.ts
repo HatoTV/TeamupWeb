@@ -97,7 +97,8 @@ export interface BuildIndex {
 export interface BuildMeta {
   current: string;
   latest: string;
-  patches: Array<{ patch: string; ddragonVersion: string; games: Record<string, number>; updatedAt: string }>;
+  /** Newest first. `releasedAt`: when the collection first saw the patch (files published before 2026-11-18: absent). */
+  patches: Array<{ patch: string; ddragonVersion: string; games: Record<string, number>; updatedAt: string; releasedAt?: string }>;
   filters: BuildFilter[];
   regions: string[];
   minGamesForNewPatch: number;

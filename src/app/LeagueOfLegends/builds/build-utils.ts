@@ -51,6 +51,53 @@ export function groupItems(items: readonly number[]): Array<[number, number]> {
   return [...counts.entries()];
 }
 
+/** A new patch is shown by default only this long after its release: before that it has too few games. */
+export const NEW_PATCH_GRACE_MS = 48 * 3_600_000;
+/** Without a release date (older meta.json): the new patch is the default once it has this share of the previous one's games. */
+export const NEW_PATCH_MIN_SHARE = 0.1;
+
+/**
+ * Patch shown by default: the previous one during the first two days of a new patch (few games yet), then the newest.
+ * Shared by the builds list, the champion build page and the tier list.
+ */
+export function defaultPatch(meta: BuildMeta | null | undefined, now = Date.now()): string | null {
+  if (!meta?.patches.length) return null;
+  const latest = meta.patches.find((p) => p.patch === meta.latest) ?? meta.patches[0]!;
+  const previous = meta.patches.find((p) => p.patch !== latest.patch);
+  if (!previous) return latest.patch;
+  const released = latest.releasedAt ? Date.parse(latest.releasedAt) : NaN;
+  if (Number.isFinite(released)) return now - released < NEW_PATCH_GRACE_MS ? previous.patch : latest.patch;
+  const total = (p: typeof latest) => p.games[`${BUILD_FILTERS[0]}|all`] ?? 0;
+  return total(latest) < total(previous) * NEW_PATCH_MIN_SHARE ? previous.patch : latest.patch;
+}
+
+/** `?patch=` when it is one of the published patches, the default patch otherwise. */
+export function resolvePatch(meta: BuildMeta | null | undefined, requested: string | null | undefined, now = Date.now()): string | null {
+  return requested && meta?.patches.some((p) => p.patch === requested) ? requested : defaultPatch(meta, now);
+}
+
+export interface PatchOption {
+  patch: string;
+  /** Newest patch (`current`) or the one before. */
+  kind: 'current' | 'previous';
+  /** Games of the shown rank filter and region; null when unknown (tier list bands below Emerald). */
+  games: number | null;
+  /** The newest patch is still in its first days: not the default yet. */
+  fewData: boolean;
+}
+
+/** Options of the patch dropdown (newest first): only the current patch and the previous one are published. */
+export function patchOptions(meta: BuildMeta | null | undefined, filter: BuildFilter | null, region = 'all', now = Date.now()): PatchOption[] {
+  if (!meta) return [];
+  const fallback = defaultPatch(meta, now);
+  return meta.patches.slice(0, 2).map((p) => ({
+    patch: p.patch,
+    kind: p.patch === meta.latest ? 'current' : 'previous',
+    games: filter ? (p.games[`${filter}|${region}`] ?? 0) : null,
+    fewData: p.patch === meta.latest && fallback !== meta.latest,
+  }));
+}
+
 export const isBuildFilter = (value: string | null | undefined, filters: readonly BuildFilter[]): value is BuildFilter =>
   !!value && (filters as readonly string[]).includes(value);
 

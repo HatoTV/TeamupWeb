@@ -1,0 +1,71 @@
+name: Deploy production
+
+# Production deployments happen once a night, at 05:00 Europe/Paris, when nobody uses the site.
+# vercel.json sets git.deploymentEnabled.master = false: a push to master no longer deploys production by itself
+# (pull request branches keep their preview deployments). This workflow calls the Vercel Deploy Hook of master.
+#
+# Nightly: two crons (03:03 and 04:03 UTC); only the one that falls at 05:xx Paris time for the current UTC offset
+# deploys (summer +02:00 → 03:03 UTC, winter +01:00 → 04:03 UTC). Skipped when production already runs master's HEAD.
+# Immediate (urgent fix):
+#   - Actions → Deploy production → Run workflow (or `gh workflow run deploy-production.yml`), or
+#   - put [deploy-now] in a commit message or pull request title pushed / merged to master.
+# Secret: VERCEL_DEPLOY_HOOK (Vercel → Settings → Git → Deploy Hooks, branch master).
+
+on:
+  schedule:
+    - cron: '3 3 * * *'
+    - cron: '3 4 * * *'
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  deployments: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event_name != 'push' ||
+      contains(toJSON(github.event.commits.*.message), '[deploy-now]')
+    steps:
+      - name: Decide
+        id: decide
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          REPO: ${{ github.repository }}
+        run: |
+          if [ "$EVENT" != "schedule" ]; then
+            echo "deploy=true" >> "$GITHUB_OUTPUT"; echo "Immediate deployment ($EVENT)."; exit 0
+          fi
+          offset=$(TZ=Europe/Paris date +%z)
+          if { [ "$SCHEDULE" = '3 3 * * *' ] && [ "$offset" = '+0200' ]; } || \
+             { [ "$SCHEDULE" = '3 4 * * *' ] && [ "$offset" = '+0100' ]; }; then :; else
+            echo "deploy=false" >> "$GITHUB_OUTPUT"; echo "Not 05:00 in Paris for this cron (offset $offset)."; exit 0
+          fi
+          head=$(gh api "repos/$REPO/commits/master" --jq .sha)
+          live=""
+          for id in $(gh api "repos/$REPO/deployments?environment=Production&per_page=20" --jq '.[].id'); do
+            state=$(gh api "repos/$REPO/deployments/$id/statuses?per_page=1" --jq '.[0].state // ""')
+            if [ "$state" = "success" ]; then live=$(gh api "repos/$REPO/deployments/$id" --jq .sha); break; fi
+          done
+          if [ "$live" = "$head" ]; then
+            echo "deploy=false" >> "$GITHUB_OUTPUT"; echo "Production already runs $head."
+          else
+            echo "deploy=true" >> "$GITHUB_OUTPUT"; echo "Deploying $head (production: ${live:-unknown})."
+          fi
+
+      - name: Trigger the Vercel Deploy Hook
+        if: steps.decide.outputs.deploy == 'true'
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          test -n "$VERCEL_DEPLOY_HOOK" || { echo "::error::VERCEL_DEPLOY_HOOK secret missing"; exit 1; }
+          curl -fsS -X POST "$VERCEL_DEPLOY_HOOK"

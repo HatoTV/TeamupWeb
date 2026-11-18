@@ -3,12 +3,12 @@ name: LoL build stats
 # Complete collection of ranked games (Riot API, production key) on EUW1, KR and NA1, current and previous patch:
 #   00:17 UTC  crawl (5 h 30)
 #   12:17 UTC  crawl (4 h) + aggregation of both patches, upload to the public R2 bucket, new champions sync,
-#              community tips rework detection, commit of the prerendered subset and Vercel redeploy.
+#              community tips rework detection, commit of the prerendered subset (deployed by deploy-production.yml at 05:00 Paris).
 #   06:17 and 18:17 UTC  backfill crawl (5 h 30), only until the first pass over every player of every region is
 #              complete; these runs then stop by themselves (about 22 h of runner time a day during the backfill).
 # Each crawl first samples the tier-list bands below Emerald (Iron → Gold, Platinum) within their own game budget
 # (LOL_STATS_BAND_GAMES_LOW / _MID, see tools/lol-stats/README.md); publication also writes public/data/lol/tierlist.
-# Secrets: RIOT_API_KEY, R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET, VERCEL_DEPLOY_HOOK.
+# Secrets: RIOT_API_KEY, R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET.
 # Variable: R2_PUBLIC_BUCKET (public statistics bucket; publication is skipped until it is set).
 # About 10 h of runner time a day: scheduled runs only start once the repository is public (free minutes).
 
@@ -52,7 +52,6 @@ jobs:
       R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
       R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       R2_BUCKET: ${{ secrets.R2_BUCKET }}
-      VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
       R2_PUBLIC_BUCKET: ${{ vars.R2_PUBLIC_BUCKET }}
       MODE: ${{ inputs.mode || (github.event.schedule == '17 12 * * *' && 'full') || ((github.event.schedule == '17 6 * * *' || github.event.schedule == '17 18 * * *') && 'backfill') || 'crawl' }}
       LOL_STATS_BUDGET_MINUTES: ${{ inputs.budget_minutes || (github.event.schedule == '17 12 * * *' && '240' || '330') }}
@@ -138,7 +137,3 @@ jobs:
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
-      - name: Redeploy the prerendered site (Vercel Deploy Hook)
-        if: steps.commit.outputs.changed == 'true' && env.VERCEL_DEPLOY_HOOK != ''
-        run: curl -fsS -X POST "$VERCEL_DEPLOY_HOOK" > /dev/null

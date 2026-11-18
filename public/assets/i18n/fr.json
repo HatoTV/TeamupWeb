@@ -45,123 +45,130 @@
     },
     "WAVEMANAGEMENT": {
       "TITLE0": "Le Wave Management",
-      "SUBTITLE0": "Techniques et astuces pour un contrôle parfait de la lane !",
+      "SUBTITLE0": "Contrôlez votre vague de sbires pour prendre l’avantage sur votre lane !",
       "TITLE1": "Qu'est-ce que le wave management ?",
-      "CONTENT1": "C'est l'art de gérer stratégiquement la wave de sbires afin d'obtenir un avantage significatif en termes de pression sur la carte, de sécurité, ainsi que de gain de gold et d'expérience.<br>Le wave management est l'un des aspects les plus importants à maîtriser dans le jeu, car il est essentiel sur toutes les lanes, même pour un jungler.",
-      "TITLE2": "Le spawn des sbires",
+      "CONTENT1": "Le wave management (gestion des vagues) consiste à contrôler <bold>où</bold> et <bold>quand</bold> votre <term k=\"WAVE\">vague de sbires</term> rencontre celle de l’adversaire. Selon l’endroit où les sbires se battent, vous gagnez de la sécurité, de l’or, de l’expérience, ou du temps pour agir ailleurs sur la carte.<br>C’est l’une des compétences les plus importantes du jeu : elle concerne toutes les lanes, et même le jungler, qui choisit ses <term k=\"GANK\">ganks</term> en fonction de la position des vagues.",
+      "TITLE2": "L’apparition des sbires",
       "CONTENT2": {
-        "INTRO1": "Il existe 3 types de waves de sbires :",
-        "LIST1": "<bold>Wave standard :</bold> composée de 3 sbires de mêlée et 3 sbires à distance.",
-        "LIST2": "<bold>Wave canon (siege) :</bold> une wave standard + un sbire canon.",
-        "LIST3": "<bold>Super wave :</bold> une wave standard + un super sbire.",
-        "INTRO2": "Les sbires apparaissent pour la première fois à 1:05, puis toutes les 30 secondes jusqu'à la fin de la partie.\nLe cycle d'apparition des waves est le suivant :",
-        "LIST5": "<bold>Durant les 20 premières minutes :</bold> Wave standard -> Wave standard -> Wave canon.",
-        "LIST6": "<bold>Après 20 minutes :</bold> Wave standard -> Wave canon.",
-        "LIST7": "<bold>Après 35 minutes :</bold> Toutes les waves deviennent des waves canon",
-        "LIST8": "<bold>Si inhibiteur détruit :</bold> Toutes les waves sont des super waves pendant 5 minutes (temps de réapparition de l'inhibiteur).",
-        "INTRO3": "<italic>Info bonus :</italic> Si votre équipe a un avantage en niveaux et en tours détruites, vos sbires infligeront plus de dégâts et en recevront moins des sbires ennemis. Ces bonus augmentent en fonction de la différence de niveaux et de tours."
+        "INTRO1": "Il existe 3 types de vagues de sbires :",
+        "LIST1": "<bold>Vague standard :</bold> 3 sbires de mêlée et 3 sbires à distance.",
+        "LIST2": "<bold>Vague canon :</bold> une vague standard + un sbire canon (aussi appelé sbire de siège), plus résistant et qui rapporte plus d’or.",
+        "LIST3": "<bold>Super vague :</bold> une vague standard + un super sbire, très résistant. Elle n’apparaît que dans une lane dont l’inhibiteur est détruit.",
+        "INTRO2": "La première vague apparaît à <bold>0:30</bold>, puis une nouvelle vague part de chaque base toutes les 30 secondes. Le rythme accélère ensuite : une vague toutes les 25 secondes à partir de 14:00, puis toutes les 20 secondes à partir de 30:00.<br>Les vagues canon suivent ce cycle :",
+        "LIST5": "<bold>Avant 14:00 :</bold> Vague standard -> Vague standard -> Vague canon.",
+        "LIST6": "<bold>De 14:00 à 25:00 :</bold> Vague standard -> Vague canon.",
+        "LIST7": "<bold>Après 25:00 :</bold> chaque vague a son sbire canon.",
+        "LIST8": "<bold>Inhibiteur détruit :</bold> dans cette lane, le sbire canon est remplacé par un super sbire à chaque vague, jusqu’à la réapparition de l’inhibiteur (5 minutes). Si les 3 inhibiteurs d’une équipe sont détruits, chaque lane reçoit 2 super sbires par vague.",
+        "INTRO3": "<italic>Info bonus :</italic> à partir de 3:30, l’équipe dont le niveau moyen est le plus élevé donne un avantage à ses sbires : ils infligent plus de dégâts aux sbires adverses et en subissent moins. Ce bonus grandit avec l’écart de niveau et avec le nombre de tours détruites dans la lane. Il ne s’applique qu’aux combats entre sbires, pas aux champions."
       },
-      "TITLE4": "Le timing pour back",
+      "TITLE4": "Le bon moment pour rentrer à la base",
       "CONTENT4": {
-        "INTRO" : "Les meilleurs timings de back sont ceux où vous avez un bon timing pour revenir avec des <bold>objets clés</bold>, où vous <bold>minimisez les pertes de farm</bold> et où vous pouvez optimiser votre retour sans risquer de perdre un avantage sur la lane.",
-        "LIST1": "Le moment idéal pour retourner à la base dépend en grande partie de votre or. L'objectif est de back lorsque vous avez suffisamment d'or pour acheter un composant essentiel, ou idéalement un objet clé qui renforcera votre champion dans la lane. N'attendez pas trop longtemps avant de back sous prétexte de \"petits achats\", car cela peut ralentir votre progression.",
-        "LIST2": "Si vous parvenez à kill votre adversaire ou à le forcer à retourner à la base, profitez de cette fenêtre pour back rapidement. Cela vous permet de revenir avec un avantage d'items, augmentant ainsi vos chances de dominer à votre retour. Si l'ennemi quitte la lane, n'attendez pas trop longtemps, retournez à la base dès que possible pour maximiser votre avantage.",
-        "LIST3": "Les vagues de canons sont idéales pour back, car elles vous laissent plus de temps pour revenir sans perdre trop de farm. Après avoir éliminé la vague de minions, c'est le moment parfait pour back. Cependant, veillez à ne pas perdre de minions en excès, même si la fenêtre est plus large, et à revenir avec suffisamment d'items pour être compétitif.",
-        "LIST4": "Avant de back, si vous avez tué l'ennemi ou s'il est parti, il est crucial de pousser la vague sous sa tour. Cela empêche l'ennemi de récupérer une grosse vague de minions et de potentiellement établir une freeze en votre absence. Si la vague est prête à être freezée, installez une freeze sous votre tour, ce qui forcerait l'ennemi à la jouer prudemment à votre retour. Si vous n’avez pas assez de mana ou si le push est trop long, un back rapide est préférable pour ne pas risquer de vous retrouver vulnérable à un gank ou à un désavantage de items.",
-        "LIST5": "Si vous ne pouvez pas back immédiatement, établissez une <bold>slow push</bold>. Une grosse vague de minions qui arrive sous la tour ennemie crée un délai important avant qu’ils puissent réagir. Cela vous permet de revenir à la lane en toute sécurité, et si l'ennemi est sous pression, il devra choisir entre subir ou laisser filer des minions sous sa tour. Vous pouvez aussi utiliser cette vague pour configurer un gank de votre jungler si nécessaire."
+        "INTRO": "Un bon <term k=\"BACK\">back</term> (retour à la base) vous fait perdre le moins de sbires possible et vous fait revenir en lane avec un vrai gain de puissance.",
+        "LIST1": "<bold>Selon votre or :</bold> rentrez quand vous pouvez acheter un composant important ou un objet complet. Rentrer pour un petit achat vous coûte une ou deux vagues pour presque rien.",
+        "LIST2": "<bold>Après un kill, ou quand l’adversaire rentre :</bold> poussez d’abord votre vague vers sa tour, puis rentrez. Vous revenez avec vos objets pendant qu’il perd des sbires sous sa tour.",
+        "LIST3": "<bold>Sur une vague canon :</bold> cette vague contient plus de sbires et le sbire canon rapporte plus d’or. Poussée sous la tour adverse, elle met plus de temps à être détruite, ce qui vous laisse le temps de rentrer et de revenir en perdant peu.",
+        "LIST4": "<bold>Évitez de rentrer devant une grosse vague adverse :</bold> si une grosse vague ennemie avance vers votre tour pendant votre absence, votre tour en tue une partie (or et expérience perdus pour vous), et l’adversaire peut ensuite bloquer la vague devant votre tour à votre retour.",
+        "LIST5": "<bold>Pas le temps de pousser ?</bold> Préparez votre retour quelques vagues à l’avance avec un <term k=\"SLOW_PUSH\">slow push</term> : la grosse vague s’écrase sur la tour adverse au moment où vous rentrez, et l’adversaire doit rester la farmer.",
+        "LIST6": "<bold>Pensez aux objectifs :</bold> rentrez assez tôt pour être de retour, avec vos objets, avant l’apparition d’un dragon ou d’un autre objectif. Rentrer juste avant qu’il apparaisse laisse votre équipe en infériorité numérique."
       },
       "TITLE5": "Stratégie 1 : Le Freeze",
       "SUBTITLE5": "Qu'est-ce qu'un Freeze ?",
-      "CONTENT5": "Le freezing consiste à empêcher la wave de sbires de bouger, obligeant l'adversaire à s'avancer pour récupérer des ressources. <br><br>Pour maintenir un freeze, vous devez équilibrer les dégâts subis par vos sbires et ceux infligés aux sbires ennemis, en gérant leur position par rapport à votre tourelle.",
-      "SUBTITLE6": "Comment freeze une lane ?",
+      "CONTENT5": "Le freeze consiste à garder la vague immobile <bold>près de votre tour, mais hors de sa portée</bold>. Vous ne tuez les sbires qu’au <term k=\"LAST_HIT\">dernier coup</term> : l’adversaire doit alors s’avancer loin de sa tour pour farmer, et s’expose à votre jungler.<br><br>Pour qu’un freeze tienne, la vague adverse doit compter un peu plus de sbires que la vôtre. Elle pousse donc légèrement vers vous, mais comme vos renforts arrivent plus vite (votre base est plus proche), les deux s’équilibrent et la vague reste sur place.",
+      "SUBTITLE6": "Comment mettre en place un freeze ?",
       "CONTENT6": {
-        "LIST1": "Lorsque l'ennemi inflige des dégâts à ses sbires (hors du last-hit), vous devez ajuster vos dégâts pour que tous les sbires meurent à peu près au même moment, empêchant ainsi la wave de pousser.",
-        "LIST2": "Plus le freeze est proche de votre tour, plus vous devez laisser de sbires ennemis en vie pour contrer l'arrivée rapide des vôtres (2-3 sbires ennemis supplémentaires près de votre tour).",
-        "LIST3": "Si la wave ennemie est trop grande et commence à toucher votre tour, vous pouvez la tanker (prendre les coups des sbires) pour la maintenir en place, si vous avez assez de points de vie.",
-        "LIST4": "Si la wave est trop importante pour être tankée, réduisez le nombre de sbires ennemis pour garder le contrôle du freeze.",
-        "LIST5": "Plus la wave se rapproche de votre tour, plus votre prochaine wave arrivera rapidement, c'est pour cela qu'il faut laisser un nombre de minions spécifiques en vie afin de freeze la lane.<br><br>Cette image montre le nombres de sbires à avoir en plus afin d'obtenir un freeze."
+        "LIST1": "Ne tuez les sbires adverses qu’au dernier coup : chaque dégât en trop fait avancer votre vague et casse le freeze.",
+        "LIST2": "Gardez toujours quelques sbires adverses en plus des vôtres. Plus la vague est proche de votre tour, plus il en faut (voir l’image ci-dessous).",
+        "LIST3": "Si vos sbires sont morts et que la vague adverse avance vers votre tour, placez-vous devant elle : sans autre cible, les sbires vous attaquent et s’arrêtent au lieu d’entrer dans la portée de la tour. C’est ce qu’on appelle « tanker la vague ».",
+        "LIST4": "Si la vague adverse devient trop grosse pour être tankée sans danger, tuez juste assez de sbires pour revenir au bon écart, sans la pousser.",
+        "LIST5": "Plus la vague est proche de votre tour, plus vos prochains sbires arrivent vite : il faut donc laisser plus de sbires adverses en vie pour garder le freeze.<br>L’image montre combien de sbires adverses en plus il faut selon la position de la vague."
       },
-      "SUBTITLE7": "Quand freeze une lane ?",
+      "SUBTITLE7": "Quand faire un freeze ?",
       "CONTENT7": {
-        "LIST1": "Si le jungler ennemi vous met beaucoup de pression, il est conseillé de freeze près de votre tour pour farmer en sécurité et éviter les ganks.",
-        "LIST2": "Après avoir été tué, le freeze vous permet de rattraper votre retard en farm sans trop vous exposer.",
-        "LIST3": "Lorsque l'ennemi back sans avoir poussé correctement la wave dans votre tour, maintenez la wave hors de votre tour pour le forcer à s'exposer à son retour."
+        "LIST1": "<bold>Le jungler adverse vous menace :</bold> freezez près de votre tour pour farmer en sécurité ; c’est l’adversaire qui doit s’avancer.",
+        "LIST2": "<bold>Vous êtes en retard :</bold> après une mort ou une lane difficile, le freeze vous permet de récupérer de l’or et de l’expérience sans prendre de risques.",
+        "LIST3": "<bold>L’adversaire rentre sans avoir poussé :</bold> gardez la vague devant votre tour ; à son retour, il devra s’avancer pour farmer.",
+        "LIST4": "<bold>Vous êtes en avance :</bold> placez-vous entre l’adversaire et sa vague. S’il ne peut pas s’approcher sans risquer de mourir, il perd des sbires, donc de l’or et de l’expérience, à chaque vague."
       },
       "SUBTITLE8": "Avantages & Inconvénients du freeze",
-      "CONTENT8": "Les avantages du freezing incluent le fait de priver l'ennemi de sbires, ce qui vous permet de prendre un avantage en or et de forcer l'ennemi à s'exposer pour farmer, créant des opportunités de gank.<br>Cela permet aussi de rattraper votre retard en or et en expérience si vous êtes en difficulté.<br><br>Cependant, un freeze mal exécuté peut permettre à l'ennemi de roam et ainsi de prendre de créer un avantage ailleurs sur la carte.\nDe plus, le freeze est plus difficile à maintenir si l'ennemi a un bon wave clear.",
+      "CONTENT8": "Prive l’adversaire de sbires s’il ne peut pas s’avancer.<br>L’expose à votre jungler s’il s’avance pour farmer.<br>Vous farmez près de votre tour, à l’abri des ganks.<br>Idéal pour rattraper un retard d’or et d’expérience.<br><br>Vous restez bloqué sur votre lane : l’adversaire peut en profiter pour aller aider ailleurs (<term k=\"ROAM\">roam</term>).<br>Difficile à tenir contre un champion qui tue les vagues très vite.<br>La vague finit par grossir : tôt ou tard, il faudra la tuer ou la laisser avancer.",
       "TITLE9": "Stratégie 2 : Le Slow Push",
       "SUBTITLE9": "Qu'est-ce qu'un Slow Push ?",
-      "CONTENT9": "Le slow pushing consiste à faire avancer la wave de sbires lentement vers la tour ennemie, tout en vous laissant libre de faire d'autres actions sur la carte.",
-      "SUBTITLE10": "Comment slow push une lane ?",
-      "CONTENT10": "Il suffit de réduire le nombre de sbires ennemis juste assez pour que votre wave avance progressivement (tuer les sbires à distance ou laisser un léger avantage en nombre de sbires).",
-      "SUBTITLE11": "Quand slow push une lane ?",
+      "CONTENT9": "Le slow push consiste à faire avancer la vague <bold>lentement</bold>, en ne tuant qu’une partie des sbires adverses. Vos sbires survivants rejoignent la vague suivante : votre vague grossit au fil des minutes, puis s’écrase d’un coup sur la tour adverse.<br><br>L’adversaire doit alors choisir : rester sous sa tour pour récupérer cette énorme vague (et ne plus bouger), ou la laisser à sa tour et perdre beaucoup d’or et d’expérience.",
+      "SUBTITLE10": "Comment faire un slow push ?",
+      "CONTENT10": "Tuez en priorité les sbires à distance adverses (les plus fragiles) et ne prenez les autres qu’au dernier coup. Votre vague garde ainsi un avantage en nombre et avance doucement, sur deux ou trois vagues. Si vous tuez tout trop vite, vous passez en fast push.",
+      "SUBTITLE11": "Quand faire un slow push ?",
       "CONTENT11": {
-        "LIST1": "Avant de quitter votre lane en mid/late game pour aider ailleurs, assurez-vous que votre wave est en slow push afin que l'ennemi ne puisse pas facilement détruire votre tour pendant votre absence.",
-        "LIST2": "Un slow push peut aboutir à une wave massive qui forcerait l'ennemi à défendre, libérant des opportunités pour votre équipe ailleurs sur la carte.",
-        "LIST3": "Il est possible de slowpush une vague de sbires pour la faire crash sous la tour ennemie sans être trop contesté. Cette stratégie permet de préparer un dive ou de setup un back en toute sécurité, offrant ainsi un meilleur contrôle du rythme de la lane."
-
+        "LIST1": "<bold>Avant de quitter votre lane :</bold> pour un objectif ou un roam, la grosse vague arrive sur la tour adverse pendant votre absence. L’adversaire doit rester la farmer et ne peut pas vous suivre.",
+        "LIST2": "<bold>Avant de rentrer à la base :</bold> la vague s’écrase sur la tour adverse pendant votre retour, vous ne perdez presque rien.",
+        "LIST3": "<bold>Pour préparer un <term k=\"DIVE\">dive</term> :</bold> une grosse vague encaisse les tirs de la tour, ce qui vous permet, avec votre jungler, d’attaquer l’adversaire sous sa tour avec moins de risques."
       },
       "TITLE12": "Stratégie 3 : Le Fast Push",
       "SUBTITLE12": "Qu'est-ce qu'un Fast Push ?",
-      "CONTENT12": "Le Fast Push est une technique qui consiste à pousser rapidement la wave de sbires pour forcer l'adversaire à revenir en lane.",
-      "SUBTITLE13": "Comment Fast push une lane ?",
+      "CONTENT12": "Le fast push consiste à tuer la vague adverse <bold>le plus vite possible</bold>, pour que vos sbires atteignent rapidement la tour ennemie et s’y écrasent.<br><br>L’adversaire a alors deux options : <bold>rester</bold> sous sa tour pour récupérer ses sbires, ce qui le bloque sur sa lane, ou les abandonner et perdre de l’or et de l’expérience. Et sous sa tour, farmer est plus difficile : la tour frappe aussi les sbires, il faut donc adapter ses coups pour placer le dernier.<br><br>Pendant ce temps, vous êtes libre : rentrer à la base sans rater de sbires, aider votre jungler ou un allié, ou poser de la vision.",
+      "SUBTITLE13": "Comment faire un fast push ?",
       "CONTENT13": {
-        "LIST1": "L’objectif est de clear rapidement la wave de sbires ennemis afin que vos sbires puissent avancer rapidement vers la tour ennemie.",
-        "LIST2": "Éliminez les sbires mêlée en premier puis les sbires canon en priorité pour éviter le ralentissement de votre wave.",
-        "LIST3": "Attaquez les sbires sans arrêt, ne vous contentez pas de last-hit.",
-        "LIST4": "Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble."
+        "LIST1": "Attaquez les sbires adverses en continu, pas seulement au dernier coup.",
+        "LIST2": "Utilisez vos compétences de zone pour toucher toute la vague en même temps, puis achevez les sbires restants avec vos attaques.",
+        "LIST3": "Le sbire canon est le plus résistant : s’il reste seul, vos sbires s’arrêtent pour le frapper. Achevez-le vous-même pour que votre vague continue d’avancer."
       },
-      "SUBTITLE14": "Quand fast push une lane ?",
+      "SUBTITLE14": "Quand faire un fast push ?",
       "CONTENT14": {
-        "LIST1": "Si l'ennemi n'est pas sur la lane ou est mort, envoyez rapidement la wave sous la tour ennemie pour lui faire perdre des ressources.",
-        "LIST2": "Avant de bouger sur la carte, un fast push permet de gagner du temps et de sécuriser vos ressources avant de rejoindre une action ailleurs.",
-        "LIST3": "Contre certains champions qui peinent à farmer sous tour, le fast push peut les mettre sous pression ou les forcer à faire des erreurs.",
-        "LIST4": "Utilisez vos compétences de zones pour détruire la wave rapidement dans son ensemble."
+        "LIST1": "<bold>L’adversaire est mort ou à la base :</bold> envoyez vite la vague sur sa tour. Elle détruira une partie des sbires avant son retour : de l’or et de l’expérience perdus pour lui.",
+        "LIST2": "<bold>Avant de rentrer à la base :</bold> la vague s’écrase sur la tour adverse, l’adversaire doit rester la farmer, et vous rentrez sans rater de vague.",
+        "LIST3": "<bold>Avant de quitter votre lane :</bold> pour rejoindre un combat, un objectif ou aider un allié, poussez d’abord. Occupé à farmer sous sa tour, l’adversaire ne peut pas vous suivre tout de suite. C’est ce qu’on appelle avoir la <term k=\"PRIO\">priorité</term>.",
+        "LIST4": "<bold>Contre un champion qui farme mal sous sa tour :</bold> certains champions ont du mal à placer le dernier coup sous la tour. Les y forcer leur coûte des sbires."
       },
-      "CONTENT15": "<bold>Important :</bold> Avant de Fast/Slow Push, assurez-vous que vous avez assez de temps et de vision sur la carte pour éviter un gank."
+      "CONTENT15": "<bold>Important :</bold> pousser votre vague vous éloigne de votre tour. Avant un slow push ou un fast push, vérifiez où se trouve le jungler adverse (vision, dernière apparition sur la carte) pour ne pas vous faire surprendre.",
+      "TITLE1B": "Pourquoi une vague avance-t-elle ?",
+      "CONTENT1B": {
+        "LIST1": "<bold>Le nombre fait la loi :</bold> la vague qui a le plus de sbires (ou le plus de points de vie) gagne le combat contre l’autre, puis avance vers la tour d’en face.",
+        "LIST2": "<bold>Les sbires survivants s’additionnent :</bold> si quelques sbires de votre vague survivent, ils rejoignent la vague suivante. Votre vague grossit d’une vague à l’autre.",
+        "LIST3": "<bold>Après un crash, la vague revient :</bold> quand votre vague est détruite par la tour adverse (on dit qu’elle <term k=\"CRASH\">crash</term>), la rencontre suivante se fait plus près de cette tour, et la vague repart naturellement vers vous.",
+        "LIST4": "<bold>Vous décidez de l’équilibre :</bold> en tuant plus ou moins de sbires adverses, vous choisissez dans quel sens la vague va bouger. C’est la base des trois stratégies de ce guide : le freeze, le slow push et le fast push."
+      }
     },
     "LANING": {
       "TITLE0": "Le Laning",
       "SUBTITLE0": "Dominez votre adversaire dès les premières minutes !",
       "CONTENT1": {
-        "INTRO1": "Chaque rôle en lane requiert une maîtrise des mécaniques de combat, du positionnement et de la gestion des ressources pour surpasser votre adversaire direct.",
-        "LIST1": "En top lane, il s’agit souvent de duels prolongés et de gestion de la téléportation.",
-        "LIST2": "En mid lane, la priorité est de contrôler la carte et d'effectuer des rotations efficaces.",
-        "LIST3": "En bot lane, la coordination avec votre support et la gestion des échanges sont essentielles.",
-        "INTRO2": "Maîtriser ces aspects vous permettra non seulement de dominer votre propre lane, mais aussi d’influencer le cours global de la partie."
+        "INTRO1": "La phase de lane, ce sont les premières minutes de la partie, pendant lesquelles chaque joueur affronte son adversaire direct sur sa lane. L’objectif : récupérer plus d’or et d’expérience que lui, sans mourir. Chaque lane a ses particularités :",
+        "LIST1": "<bold>Top :</bold> la lane la plus isolée. Des duels souvent longs, et le sort d’invocateur Téléportation pour revenir vite en lane ou rejoindre un combat ailleurs.",
+        "LIST2": "<bold>Mid :</bold> la lane la plus courte, au centre de la carte. Pousser vite sa vague permet d’aller aider le jungler ou les autres lanes.",
+        "LIST3": "<bold>Bot :</bold> un tireur (<term k=\"ADC\">ADC</term>) et un support jouent à deux contre deux. Les échanges se décident à quatre, et les dragons apparaissent juste à côté.",
+        "INTRO2": "Bien jouer sa lane ne sert pas qu’à gagner son duel : l’or et l’expérience gagnés ici vous rendent plus fort pour tout le reste de la partie."
       },
       "TITLE2": "Last Hit",
-      "CONTENT2": "Le last hit est fondamental pour accumuler de l’or et prendre l’avantage sur votre adversaire en lane.<br><br>Il consiste à porter le coup fatal aux sbires ennemis afin de collecter l’or qu’ils génèrent. Maîtriser cette technique nécessite un bon timing et une connaissance précise des dégâts que vous infligez, car manquer un last hit entraîne une perte d’or et peut ralentir votre progression.<br><br>De plus, le last hit est crucial pour un bon wave management (voir chapitre sur le Wave Management).<br>Utilisez l’outil d'entraînement pour perfectionner votre farm et ajuster vos dégâts en fonction de votre niveau et équipement. Mieux vous maîtrisez le last hit, plus vous accumulez de ressources, ce qui vous donne un net avantage dans la partie – souvent plus important que de sécuriser des kills.",
-      "TITLE3": "Trading",
-      "CONTENT3": "Le trading consiste à infliger des dégâts à son adversaire, soit avec des auto-attaques, soit avec des compétences.",
-      "SUBTITLE4": "Comment trade efficacement ?",
+      "CONTENT2": "Le <term k=\"LAST_HIT\">last hit</term> consiste à porter le coup fatal aux sbires : seul le champion qui donne le dernier coup gagne l’or du sbire. L’expérience, elle, est partagée entre les champions proches quand le sbire meurt, même sans le tuer.<br><br>C’est la principale source d’or en début de partie. Rater des sbires coûte vite cher : quelques vagues mal farmées valent l’or d’un kill. Pour progresser, observez la barre de vie des sbires, apprenez combien de dégâts fait votre attaque de base, et entraînez-vous dans l’outil d’entraînement.<br><br>Le last hit est aussi la base du wave management : en choisissant quels sbires tuer et quand, vous contrôlez la position de la vague (voir le guide Wave Management).",
+      "TITLE3": "Les échanges (trades)",
+      "CONTENT3": "Un <term k=\"TRADE\">trade</term> est un échange de dégâts entre vous et votre adversaire, avec des attaques de base ou des compétences. Un bon trade, c’est un échange où vous infligez plus de dégâts que vous n’en recevez.",
+      "SUBTITLE4": "Comment bien échanger ?",
       "CONTENT4": {
-        "LIST1": "<bold>Profitez des moments de last hit adverses :</bold> Votre adversaire doit tuer des sbires pour farmer, devenant immobile et donc vulnérable à ce moment-là. Anticipez ses actions en surveillant la vie de vos sbires et punissez-le avec vos compétences lorsqu'il se prépare à effectuer un last hit.",
-        "LIST2": "<bold>Exploitez les cooldowns ennemis :</bold> Si votre adversaire utilise des compétences pour farmer ou vous agresser, tirez parti du délai avant qu’il ne récupère ses sorts pour engager un trade. Le bait de sorts (l'inciter à les utiliser sans effet) est une tactique clé dont nous parlerons plus en détail dans le prochain chapitre.",
-        "LIST3": "<bold>Faites attention aux sbires :</bold> Infliger des dégâts à un champion provoque l’aggro des sbires ennemis qui vous attaqueront à la place des vôtres. Evitez les combats prolongés dans une grande wave de sbires adverses, car cela peut vite tourner à votre désavantage.",
-        "LIST4": "<bold>Poke l’adversaire :</bold> Le poke consiste à harceler l’ennemi avec des attaques à distance ou des compétences, réduisant progressivement sa santé sans s'engager dans un combat direct. Cela force souvent l’adversaire à jouer défensivement, à manquer des sbires ou à consommer ses ressources (potions, sorts de soin). Certains champions sont plus efficaces pour poke en fonction de leur kit (par exemple, Ziggs ou Xerath sont bien plus efficaces qu’un Garen). Une fois l’ennemi affaibli, engagez un combat plus agressif lorsque sa situation est défavorable.",
-        "LIST5": "<bold>Gérez votre spacing :</bold> Le spacing fait référence à la gestion de la distance entre vous et votre adversaire pour maximiser vos actions tout en minimisant les risques. Assurez-vous d'être à la distance optimale pour utiliser vos compétences tout en restant hors de portée des siennes. Si vous êtes un champion à distance face à un champion de mêlée, abusez de votre portée pour le harceler avec des auto-attaques sans lui permettre de farmer facilement."
+        "LIST1": "<bold>Frappez quand il farme :</bold> pour tuer un sbire, votre adversaire doit s’approcher et attaquer ; il est alors prévisible et vulnérable. Surveillez la vie des sbires de votre vague et punissez-le au moment où il vient prendre son dernier coup.",
+        "LIST2": "<bold>Profitez de ses temps de recharge :</bold> si votre adversaire utilise une compétence importante pour farmer ou vous attaquer, engagez pendant qu’elle est en <term k=\"COOLDOWN\">cooldown</term>. Pousser l’adversaire à gaspiller un sort (le <term k=\"BAIT\">bait</term>) est expliqué au chapitre suivant.",
+        "LIST3": "<bold>Attention aux sbires :</bold> quand vous attaquez un champion ennemi près de ses sbires, ceux-ci vous prennent pour cible. En début de partie, leurs dégâts sont importants : évitez les longs échanges au milieu d’une grosse vague adverse.",
+        "LIST4": "<bold>Harcelez à distance :</bold> le <term k=\"POKE\">poke</term> consiste à toucher l’adversaire avec des attaques ou des compétences à longue portée, sans s’engager. Il doit alors jouer prudemment, rater des sbires ou utiliser ses potions. Certains champions sont faits pour ça (Ziggs ou Xerath, par exemple, bien plus qu’un Garen). Une fois l’adversaire affaibli, vous pouvez engager.",
+        "LIST5": "<bold>Gérez la distance :</bold> le <term k=\"SPACING\">spacing</term>, c’est rester à la bonne distance de l’adversaire : assez près pour utiliser vos compétences, assez loin pour éviter les siennes. Si vous avez plus de portée que lui (un champion à distance face à un champion de mêlée, par exemple), touchez-le à chaque fois qu’il s’approche d’un sbire."
       },
-      "CONTENT51": "<italic>Astuce :</italic> Utilisez les buissons pour casser la vision de votre adversaire pendant un combat. Cela peut l'empêcher de vous cibler avec des compétences ou des auto-attaques, tandis que vous pouvez continuer à l’agresser.<br><br>N'importe quel type d'ennemi stoppe son aggression s'il perd la vision.",
-      "CONTENT5": "Les trades sont encore plus avantageux si vous avez un niveau supérieur à votre adversaire ou venez d'obtenir un powerspike (gain de puissance via un sort ou un objet). De plus, une bonne gestion des waves (wave management) peut vous aider à optimiser vos trades tout en minimisant la perte de ressources.<br>Attention toutefois au moment où vous engagez un trade. Un adversaire près de sa tour avec sa barre de vie pleine sera difficile à menacer. De plus, si vous commencez un trade et vous faites gank immédiatement après, vos chances de survie seront réduites, car vous aurez vos sorts en cooldown.<br><br>Certains matchups rendent les trades plus ou moins compliqués, nécessitant une approche spécifique (sorts précis en cooldown, trades courts ou longs). <br>Consultez la section 'Matchups' pour mieux comprendre les forces et faiblesses de votre champion contre d’autres.",
-      "TITLE6": "Bait les sorts ennemis",
-      "CONTENT6": "Le bait de sorts en lane est une tactique stratégique dans League of Legends. Bait signifie 'appâter', et ici, cela consiste à inciter votre adversaire à utiliser une capacité de manière inefficace, créant ainsi une opportunité pour vous.",
-      "SUBTITLE7": "Comment bait efficacement ?",
+      "CONTENT51": "<italic>Astuce :</italic> pendant un échange, entrez dans un buisson pour casser la vision de votre adversaire. Tant qu’il ne vous voit pas, il ne peut plus vous viser avec ses attaques de base ni avec ses sorts ciblés : ses compétences devront être lancées à l’aveugle.<br><br>Cela ne marche pas s’il a déjà de la vision dans ce buisson (une balise posée dedans, ou un allié à l’intérieur).",
+      "CONTENT5": "Les trades sont encore plus avantageux quand vous avez un niveau de plus que votre adversaire, ou juste après un <term k=\"POWERSPIKE\">pic de puissance</term> (votre ultime au niveau 6, un objet terminé…). Une bonne gestion de la vague vous aide aussi à échanger sans perdre de sbires.<br><br>Choisissez bien votre moment : un adversaire près de sa tour avec toute sa vie est difficile à menacer. Et si vous lancez un échange juste avant un gank adverse, vos sorts seront en recharge au pire moment.<br><br>Chaque matchup demande sa propre approche (échanges courts ou longs, sort clé à attendre…). Consultez la section Matchups pour connaître les forces et faiblesses de votre champion face à chaque adversaire.",
+      "TITLE6": "Appâter les sorts ennemis",
+      "CONTENT6": "Le bait (« appât » en anglais) consiste à pousser votre adversaire à utiliser une compétence pour rien, afin de profiter du temps où elle est en recharge.",
+      "SUBTITLE7": "Comment appâter efficacement ?",
       "CONTENT7": {
-        "LIST1": "<bold>Feindre une attaque :</bold> Positionnez-vous de manière agressive, comme si vous alliez engager un combat, puis reculez rapidement. L'adversaire pourrait utiliser un sort défensif ou offensif pour vous dissuader, ce qui vous permettrait de réengager alors qu'il est à court de ressources.",
-        "LIST2": "<bold>Positionnement risqué :</bold> Placez-vous à portée d'un sort de poke ou de contrôle, mais soyez prêt à esquiver ou à reculer rapidement. Si votre adversaire rate son sort, il devient vulnérable et vous pouvez contre-attaquer.",
-        "LIST3": "<bold>Utilisation des sbires :</bold> Appâtez votre adversaire en vous montrant vulnérable en tentant de last-hit un sbire à faible vie. Cela pourrait l'inciter à gaspiller un sort, que vous pouvez ensuite esquiver.",
-        "LIST4": "<bold>Simuler un manque de ressources :</bold> Faites croire à votre adversaire que vous n'avez plus beaucoup de mana ou que vous êtes trop faible pour engager un combat. Cela pourrait le pousser à jouer trop agressivement, vous donnant l’opportunité de contre-attaquer ou d'appeler votre jungler pour un gank."
+        "LIST1": "<bold>Feindre une attaque :</bold> avancez comme si vous alliez engager, puis reculez. Si l’adversaire utilise un sort pour vous repousser ou vous punir, vous pouvez revenir pendant qu’il est en recharge.",
+        "LIST2": "<bold>Se placer à la limite :</bold> restez juste à la portée d’un sort de harcèlement ou de contrôle, prêt à l’esquiver. S’il le rate, il devient vulnérable et vous pouvez contre-attaquer.",
+        "LIST3": "<bold>Se servir des sbires :</bold> faites mine d’aller prendre un sbire presque mort. L’adversaire peut être tenté d’utiliser un sort pour vous punir, que vous pouvez esquiver.",
+        "LIST4": "<bold>Paraître faible :</bold> faites croire que vous n’avez plus de mana ou de vie. L’adversaire peut alors s’avancer trop, ce qui vous permet de contre-attaquer ou d’attirer votre jungler."
       },
-      "CONTENT8": "Lorsque vous réussissez à bait un sort, c'est le moment d'exploiter cette fenêtre de vulnérabilité. Si c'était un sort clé avec un long cooldown, engagez immédiatement un combat ou appelez votre jungler pour une opportunité de kill.",
-      "TITLE9": "Roaming",
-      "CONTENT9": "Il arrive que vous n’ayez plus rien à faire sur votre lane. Dans ce cas là, que faire ?<br> Si votre wave de sbires s’écrase sous la tour ennemie et que vous n’avez pas assez d’or pour un achat pertinent à la base, c’est le moment idéal pour aller aider ailleurs : c’est ce qu’on appelle le <bold>Roaming</bold>.<br><br>Lorsque votre wave de sbires est sous la tour ennemie, votre adversaire est occupé à farmer ou est absent, ce qui vous permet de créer une situation de surnombre ailleurs sur la carte.<br><br>La midlane est particulièrement adaptée au roaming, car elle offre un accès rapide aux autres objectifs et lanes. Cependant, le support et le toplaner peuvent également roam pour aider leurs alliés ou préparer des objectifs.",
-      "SUBTITLE10": "Comment roam efficacement ?",
+      "CONTENT8": "Quand un sort important de l’adversaire est en recharge (une compétence de fuite ou un sort d’invocateur comme Flash, par exemple), c’est le moment d’engager ou d’appeler votre jungler.",
+      "TITLE9": "Le roaming",
+      "CONTENT9": "Il arrive que vous n’ayez plus rien à faire sur votre lane : votre vague s’écrase sur la tour adverse et vous n’avez pas assez d’or pour un achat utile. C’est le moment d’aller aider ailleurs : c’est le <term k=\"ROAM\">roaming</term>.<br><br>Pendant que votre adversaire farme sous sa tour, vous pouvez créer un surnombre sur une autre lane ou autour d’un objectif.<br><br>Le mid est la lane la plus adaptée au roaming, car il est au centre de la carte et près de tout. Le support et le top peuvent aussi roam pour aider leurs alliés ou préparer un objectif.<br><br>Un roam raté coûte cher : pendant votre absence, vous perdez des sbires et de l’expérience. Ne partez que si la vague est poussée et que l’action a de bonnes chances de réussir.",
+      "SUBTITLE10": "Comment réussir un roaming ?",
       "CONTENT10": {
-        "LIST1": "<bold>Gank une autre lane :</bold> Si votre champion possède un bon sort de contrôle ou de déplacement, aider vos alliés sur une autre lane peut leur donner un avantage décisif.",
-        "LIST2": "<bold>Poser de la vision :</bold> Placer des balises de vision (wards) dans la jungle ennemie ou autour de votre lane pour anticiper un gank.",
-        "LIST3": "<bold>Invade la jungle ennemie :</bold> Avec un bon positionnement, surprenez le jungler ennemi dans sa jungle pour l’empêcher de collecter ses ressources. Faites attention, car ses alliés pourraient venir l’aider ; c’est une stratégie plus sûre avec votre jungler ou support.",
-        "LIST4": "<bold>Préparer/Faire un objectif :</bold> Regroupez-vous avec vos alliés pour préparer un objectif important comme un dragon ou un héraut, en posant de la vision autour ou en commençant l’objectif."
+        "LIST1": "<bold>Aider une autre lane :</bold> si votre champion a un bon sort de contrôle ou de déplacement, un <term k=\"GANK\">gank</term> sur une autre lane peut donner un avantage décisif à vos alliés.",
+        "LIST2": "<bold>Poser de la vision :</bold> placez des balises de vision (<term k=\"WARD\">wards</term>) dans la jungle adverse ou autour de votre lane pour voir venir les ganks.",
+        "LIST3": "<bold>Envahir la jungle adverse :</bold> surprenez le jungler ennemi dans sa jungle pour le priver de ses monstres. Attention, ses alliés peuvent venir l’aider : c’est plus sûr avec votre jungler ou votre support.",
+        "LIST4": "<bold>Préparer un objectif :</bold> rejoignez vos alliés pour prendre un dragon ou un autre objectif, en posant de la vision autour avant qu’il apparaisse."
       }
     },
     "JUNGLE": {
@@ -173,45 +180,45 @@
         "LIST2": "Gérer les objectifs sur la carte.",
         "LIST3": "Accumuler des ressources « gratuites » en tuant les monstres de la jungle.",
         "LIST4": "Anticiper les ganks et les mouvements du jungler adverse.",
-        "INTRO2": "Une des principales difficultés du rôle de jungler, pour les débutants comme pour les joueurs plus expérimentés, est que la réussite dépend moins des compétences mécaniques que de la capacité à lire le jeu et à établir un plan stratégique efficace."
+        "INTRO2": "La principale difficulté du rôle, pour les débutants comme pour les joueurs confirmés : la réussite dépend moins de la maîtrise technique de votre champion que de votre capacité à lire la partie et à faire les bons choix au bon moment."
       },
-      "TITLE2": "Chemins de Jungle",
+      "TITLE2": "Parcours de jungle",
       "CONTENT2": {
-        "INTRO1": "Il existe plusieurs routes de jungle possibles, et cette décision doit être prise dès l'écran de chargement :",
-        "LIST1": "<bold>Full Clear :</bold> 6 Camps -> Carapateur -> Gank ou back.<br>C’est la stratégie la plus courante en Saison 14, car le farm est priorisé dans la méta actuelle. Cela peut toutefois évoluer dans les prochaines saisons.",
-        "LIST2": "<bold>3 Camps</bold> -> Gank :<br>Ce chemin est utile si vous souhaitez mettre de la pression rapidement en début de partie pour donner un avantage à une de vos lanes, ou si votre champion a une faible vitesse de clear la jungle. Attention cependant, si le gank échoue, vous risquez de perdre beaucoup de temps.",
-        "LIST3": "<bold>1 Camp + Invade :</bold><br>Faire son Red ou Blue, puis invade directement la jungle adverse sur le même côté.<br>Cela ne doit être tenté que si vous êtes sûr que le jungler adverse a commencé de l'autre côté (ex. : commencer Red et invade Blue si l'ennemi commence au Red).<br>Attention aussi aux possibles rotations des laners adverses."
+        "INTRO1": "Il existe plusieurs parcours possibles (votre ordre de <term k=\"CLEAR\">clear</term> des camps). Choisissez le vôtre dès l’écran de chargement, en fonction des champions des deux équipes :",
+        "LIST1": "<bold>Full clear :</bold> les 6 camps de votre jungle → Carapateur → gank ou retour à la base.<br>C’est le parcours le plus courant : il vous donne le maximum d’or et d’expérience avant votre premier gank, mais vous n’aidez pas vos lanes pendant les premières minutes.",
+        "LIST2": "<bold>3 camps → gank :</bold><br>Utile pour mettre la pression tôt et aider une lane, ou si votre champion tue lentement les camps. Attention : si le gank échoue, vous perdez beaucoup de temps et de ressources.",
+        "LIST3": "<bold>1 camp + invasion :</bold><br>Faites votre buff rouge ou bleu, puis entrez directement dans la jungle adverse, du même côté de la carte, pour voler son camp (le principe de l’<term k=\"INVADE\">invade</term>).<br>À ne tenter que si vous êtes sûr que le jungler adverse a commencé de l’autre côté (ex. : vous commencez au rouge et volez le bleu adverse pendant qu’il commence à son rouge). Attention aussi aux laners adverses qui peuvent venir l’aider."
       },
       "SUBTITLE3": "Bot ou Top ?",
       "CONTENT3": {
-        "INTRO1": "Si vous choisissez de partir sur un full clear, la question est la suivante : faut-il aller bot ou top ? Ce choix dépend de plusieurs facteurs :",
-        "LIST1": "<bold>Analyser les lanes :</bold> Certaines lanes sont plus susceptibles de pousser naturellement que d'autres.<br>Par exemple, une Tristana poussera plus facilement face à un Ezreal à cause de ses dégâts de zone. En fonction de cette analyse, vous devez planifier où vous finirez votre clear : si vous prévoyez de gank bot, commencez votre clear top, et inversement.",
-        "LIST2": "<bold>Analyser les sorts d'invocateur :</bold> Si votre toplaner joue avec Ignite et son adversaire avec Téléportation, commencer bot pour finir par un gank top peut être une bonne idée. Un toplaner sans téléportation aura beaucoup plus de mal à revenir dans la partie s'il perd un early gank.",
-        "LIST3": "<bold>Analyser les champions :</bold> Certains champions sont forts en début de partie (comme Pantheon), tandis que d'autres brillent en fin de partie (comme Veigar). Aider vos champions forts en fin de partie à tenir leur lane peut vous garantir une victoire à long terme. Dans tous les cas, il est important de jouer autour des champions 'carry' de votre équipe."
+        "INTRO1": "Si vous partez sur un full clear, une question se pose : finir côté bot ou côté top ? Cela dépend de plusieurs facteurs :",
+        "LIST1": "<bold>Analyser les lanes :</bold> certaines lanes poussent naturellement plus que d’autres. Par exemple, Tristana poussera plus facilement face à Ezreal, grâce à ses dégâts de zone. Planifiez où vous finirez votre clear : si vous voulez ganker bot, commencez top, et inversement.",
+        "LIST2": "<bold>Analyser les sorts d’invocateur :</bold> si votre toplaner a Embrasement et son adversaire Téléportation, commencer bot pour finir par un gank top peut être une bonne idée. En début de partie, un toplaner sans Téléportation a beaucoup plus de mal à revenir en lane s’il meurt.",
+        "LIST3": "<bold>Analyser les champions :</bold> certains champions sont forts en début de partie (comme Pantheon), d’autres brillent en fin de partie (comme Veigar). Aider un champion de fin de partie à passer sa phase de lane peut vous faire gagner la partie sur la durée. Dans tous les cas, jouez autour des <term k=\"CARRY\">carrys</term> de votre équipe."
       },
       "TITLE4": "Objectifs & Priorité",
       "CONTENT4": {
-        "INTRO1": "Il existe plusieurs objectifs sur la carte :",
-        "LIST1": "<bold>Top side :</bold> Grump, Héraut de la Faille, Baron Nashor.",
-        "LIST2": "<bold>Bot side :</bold> Drakes."
+        "INTRO1": "Les objectifs neutres se trouvent dans deux fosses, de part et d’autre de la rivière :",
+        "LIST1": "<bold>Côté haut :</bold> Larves du Néant (8:00), puis Héraut de la Faille (15:00), puis Baron Nashor (20:00).",
+        "LIST2": "<bold>Côté bas :</bold> les dragons élémentaires (dès 5:00), puis le Dragon ancestral."
       },
-      "CONTENT5": "La réussite d’un objectif dépend souvent de la supériorité numérique de votre équipe par rapport à l’adversaire, d’où l’importance de la priorité des lanes <bold>(PRIO)</bold>. La PRIO se réfère à la capacité de vos laners à exercer une pression sur leurs adversaires, les forçant à rester sous leur tour pour ne pas perdre de ressources. Cela libère vos alliés pour qu'ils se déplacent vers la rivière, sécurisent des objectifs, ou contestent ceux de l'ennemi.<br><br>N'hésitez pas à communiquer à vos laners l'importance de la PRIO avant de vous engager sur un objectif. Gank juste avant l'apparition d’un objectif clé peut permettre de garantir cette priorité.<br><br>Évitez également de retourner à la base juste avant l'apparition d'un objectif. Si l'équipe ennemie prend position avant vous, il sera plus difficile de coordonner un teamfight autour de cet objectif.<br><br>Avec la PRIO, vous pouvez aussi punir le jungler adverse en invade sa jungle. Que ce soit pour lui voler des ressources ou l’éliminer, cela peut complètement bouleverser le déroulement de la partie, surtout mentalement pour l'adversaire.",
+      "CONTENT5": "Pour prendre un objectif, il faut le plus souvent être en surnombre autour de lui, d’où l’importance de la <term k=\"PRIO\">priorité</term> de vos laners. Une lane a la priorité quand son laner a poussé sa vague : l’adversaire doit rester farmer sous sa tour, et votre laner peut rejoindre la rivière en premier pour vous aider.<br><br>Avant de lancer un objectif, prévenez vos laners pour qu’ils poussent leur vague. Un gank réussi juste avant l’apparition d’un objectif est aussi un bon moyen d’obtenir cette priorité.<br><br>Évitez de rentrer à la base juste avant l’apparition d’un objectif : si l’équipe adverse s’installe autour avant vous, il sera beaucoup plus difficile de le contester.<br><br>Avec la priorité, vous pouvez aussi punir le jungler adverse en envahissant sa jungle, pour lui voler des camps ou l’éliminer.",
       "TITLE6": "Ganks",
-      "CONTENT6": "Un 'Gank' est une manœuvre où un joueur, souvent le jungler, se déplace vers une autre lane pour surprendre un adversaire et l'attaquer en équipe.<br><br>Ne Gankez <span style='text-transform:uppercase'><bold>uniquement</bold></span> que si vous estimez avoir au moins 80 % de chances de réussir, sinon priorisez toujours le farm. Un summoner utilisé par l'adversaire ou un kill/assist pris lors de votre venue est synonyme de gank réussi.<br>Perdre du temps sur un gank infructueux signifie accumuler un retard en ressources, ce qui est l’un des plus gros fléaux pour un jungler.<br><br>Un gank est plus probable si la wave de votre allié est poussée ou si l'ennemi est avancé sur sa lane. Dans ce cas, il devra s'avancer pour farmer, le rendant vulnérable à une attaque. Un gank est réussi si vous prenez un kill ou forcez l'adversaire à utiliser des sorts d'invocateur comme Flash.<br><br>Utilisez fréquemment votre brouilleur oculaire pour enlever la vision et optimiser vos chances de réussite. Si vous êtes repéré, il est probable que votre gank échoue.",
+      "CONTENT6": "Un <term k=\"GANK\">gank</term>, c’est quand un joueur, souvent le jungler, arrive par surprise sur une lane pour attaquer l’adversaire en surnombre.<br><br>Ne lancez un gank que si vous avez de bonnes chances de réussir ; sinon, continuez à farmer. Un gank est réussi si vous obtenez un kill ou une assistance, ou si vous forcez l’adversaire à utiliser un sort d’invocateur important, comme Saut éclair (Flash). Un gank raté vous fait perdre du temps, donc de l’or et de l’expérience, et c’est l’un des plus gros pièges du rôle.<br><br>Les meilleures cibles : un adversaire avancé sur sa lane, loin de sa tour, souvent parce que la vague de votre allié est poussée vers lui.<br><br>Restez invisible : si l’adversaire vous voit arriver, le gank échoue presque toujours. Évitez les balises adverses, ou désactivez-les avec le Brouilleur oraculaire.",
       "CONTENT7": {
         "INTRO1": "Les différents types de gank",
-        "LIST1": "<bold>Par la rivière :</bold> Simple mais efficace.",
-        "LIST2": "<bold>Lane / Counter Gank :</bold> Attendre dans les buissons d'une lane push pour surprendre l'adversaire ou anticiper un gank ennemi.",
-        "LIST3": "<bold>Dives :</bold> Si l'ennemi est sous sa tour avec peu de points de vie, et que votre wave crash sous la tour, vous pouvez envisager un dive avec votre laner."
+        "LIST1": "<bold>Par la rivière :</bold> le chemin le plus direct, simple mais efficace. C’est aussi le plus surveillé : pensez à la vision adverse.",
+        "LIST2": "<bold>Buisson de lane / contre-gank :</bold> attendez caché dans un buisson d’une lane, soit pour surprendre l’adversaire, soit pour piéger le jungler ennemi au moment où il vient ganker votre allié.",
+        "LIST3": "<bold>Dive :</bold> si l’adversaire est sous sa tour avec peu de vie et que la vague de votre allié est sur la tour (pour encaisser ses tirs), vous pouvez l’attaquer sous sa tour avec votre laner. Le premier à entrer prend les tirs de la tour : prévoyez qui les encaisse."
       },
       "TITLE8": "Conseils supplémentaires",
       "CONTENT8": {
-        "LIST1": "Remplacez votre trinket par un brouilleur oculaire dès votre premier back.",
-        "LIST2": "Si vous jouez des champions de powerfarm/late game (ex. : Shyvana, Lillia), mettez moins d'accent sur les ganks et concentrez-vous sur votre farm.",
-        "LIST3": "Faites attention à la synchronisation de votre jungle pour ne pas désorganiser le respawn des monstres.",
-        "LIST4": "Concentrez-vous sur les lanes gagnantes. Ne perdez pas de temps sur les lanes perdantes pour éviter de mettre toute la partie en danger.",
-        "LIST5": "Pendant que vous farmez, surveillez la carte et analysez les waves. Profitez-en pour signaler les positions du jungler adverse si possible.",
-        "LIST6": "Communiquez avec vos alliés via les pings et le chat. Cela améliore la coordination lors des objectifs ou des ganks."
+        "LIST1": "Dès votre premier retour à la base, remplacez votre <term k=\"TRINKET\">trinket</term> par le Brouilleur oraculaire : il désactive les balises adverses autour de vous, ce qui rend vos ganks bien plus difficiles à voir venir.",
+        "LIST2": "Avec un champion qui a besoin de beaucoup d’or pour être fort (Shyvana ou Lillia, par exemple), gankez moins et concentrez-vous sur votre farm.",
+        "LIST3": "Retenez quand vous tuez vos camps : ils réapparaissent après un délai fixe. Un parcours bien synchronisé vous permet de les retrouver prêts quand vous repassez.",
+        "LIST4": "Jouez autour des lanes qui gagnent. Passer trop de temps sur une lane déjà perdue peut mettre toute la partie en danger.",
+        "LIST5": "Pendant que vous farmez, surveillez la carte et la position des vagues. Signalez à votre équipe chaque fois que vous voyez le jungler adverse.",
+        "LIST6": "Communiquez avec vos alliés grâce aux signaux (pings) et au chat : vos objectifs et vos ganks seront bien mieux coordonnés."
       }
     },
     "GAME": {
@@ -222,63 +229,107 @@
       "TITLE3": "Wards",
       "TITLE4": "Concepts & Lexique",
       "CONTENT1": {
-        "INTRO0": "Comprendre les statistiques des champions est crucial pour une bonne itemisation.<br>Chaque statistique influe sur la manière dont un champion se comporte en combat, et savoir comment elles interagissent avec les objets peut faire une grande différence dans vos décisions stratégiques. <br><br>Dans cette section, nous allons examiner en détail chaque statistique, en expliquant comment elles impactent votre jeu et comment les utiliser pour choisir les meilleurs objets pour chaque situation.",
-        "LIST1": "<bold>Dégâts d'Attaque (AD) :</bold> Principalement utilisé par les ADC, assassins et bruisers, l'AD augmente les dégâts physiques des attaques de base et certaines compétences.",
-        "LIST2": "<bold>Puissance (AP) :</bold> Utilisé par les mages, supports et certains assassins, l'AP améliore les dégâts magiques et les effets utilitaires (soins, boucliers).",
-        "LIST3": "<bold>Vitesse d'Attaque (AS) :</bold> Elle fait référence à la rapidité avec laquelle votre champion attaque par seconde. Avoir une vitesse d'attaque de 1,5 signifie que vous attaquez automatiquement 1,5 fois chaque seconde",
-        "LIST4": "<bold>Hâte (CDR):</bold> Elle réduit le temps de recharge (CDR) et détermine la rapidité avec laquelle vos sorts reviennent. La hâte ne se calcule pas de manière linéaire avec le CDR, donc elle devient de moins en moins efficace en termes de gold au fur et à mesure que vous en achetez.",
-        "LIST5": "<bold>Chance de Coup Critique :</bold> Elle correspond à la probabilité d'obtenir un coup critique, qui inflige 75 % de dégâts supplémentaires (sans compter les modificateurs comme la Lame d'Infini).",
-        "LIST6": "<bold>Vitesse de Déplacement :</bold> C'est à la rapidité avec laquelle votre champion se déplace.",
-        "LIST7": "<bold>Tenacité :</bold> Elle n'est pas aussi directe que les autres statistiques, mais elle réduit la durée de tous les contrôles de foule (CC) sauf les soulèvements, l’endormissement, la vue réduite, la stase (ultime de Bard) et la suppression. ",
-        "LIST8": "<bold>Régénération de Santé / Ressource</bold> La régénération de santé est la quantité de vie qu’un champion restaure par seconde, tandis que la régénération des ressources est la quantité de mana ou d'énergie qu’un champion restaure par seconde.",
-        "LIST9": "<bold>Vol de Vie / Omnivampirisme :</bold> Le vol de vie est le pourcentage de vie restauré en fonction de vos attaques de base et de vos effets à l'impact. L'omnivamp est similaire, mais inclut tout type de dégâts, y compris les capacités.",
-        "LIST10": "<bold>Armure / Résistance Magique :</bold> L'armure et la résistance magique ont pour rôle de réduire les dégâts physiques et magiques respectivement. Cependant, beaucoup ignorent que ces statistiques défensives sont soumises à des rendements décroissants. En d'autres termes, plus vous accumulez ces statistiques, moins elles sont efficaces.<br>Cela signifie qu'il n'est souvent pas judicieux d'accumuler uniquement de l'armure ou de la MR, même face à une équipe entièrement AD ou AP. Mieux vaut parfois se tourner vers des objets offrant d'autres avantages, comme des objets de points de vie, ou même des options offensives ou utilitaires.",
-        "LIST11": "<bold>Pénétration d'Armure / Létalité :</bold> La pénétration d'armure réduit un pourcentage de l'armure ennemie, tandis que la létalité en ignore une valeur fixe. La valeur de réduction d'armure de la létalité augmente avec les objets de létalité, mais aussi via le level du champion qui les porte. En général, les ADCs optent pour la pénétration d'armure afin de mieux gérer les tanks, tandis que les assassins privilégient la létalité pour cibler des ennemis plus fragiles. Si un assassin vise une cible avec peu d'armure, la létalité fixe s'avère plus efficace. À l'inverse, les autres champions préfèrent la pénétration d'armure contre les ennemis avec beaucoup de défense. ",
-        "LIST12": "<bold>Pénétration Magique :</bold> La pénétration magique fonctionne de manière similaire à la pénétration d'armure et à la létalité. Elle se divise en deux types : la réduction fixe et la réduction en pourcentage. "
+        "INTRO0": "Comprendre les statistiques est indispensable pour choisir ses objets.<br>Chaque statistique change la façon dont votre champion se comporte en combat, et savoir comment elles fonctionnent vous aide à acheter les bons objets selon la situation.<br><br>Voici les principales statistiques du jeu, ce qu’elles font et à qui elles servent.",
+        "LIST1": "<bold>Dégâts d’attaque (AD) :</bold> augmentent les dégâts physiques de vos attaques de base et de certaines compétences. Surtout utilisés par les tireurs, les assassins et les combattants.",
+        "LIST2": "<bold>Puissance (AP) :</bold> augmente les dégâts magiques et l’efficacité de nombreux effets (soins, boucliers). Utilisée par les mages, de nombreux supports et certains assassins.",
+        "LIST3": "<bold>Vitesse d’attaque (AS) :</bold> le nombre d’attaques de base par seconde. Avec 1,5 de vitesse d’attaque, votre champion attaque 1,5 fois par seconde.",
+        "LIST4": "<bold>Accélération de compétence (AH) :</bold> réduit le temps de recharge de vos compétences. Chaque point vous permet de lancer vos sorts environ 1 % plus souvent : avec 100 points, vous les lancez deux fois plus souvent (recharge divisée par deux). Le pourcentage de réduction affiché augmente de moins en moins vite, mais chaque point garde la même valeur.",
+        "LIST5": "<bold>Chances de coup critique :</bold> la probabilité qu’une attaque de base soit un coup critique. Depuis la saison 2026, un coup critique inflige 200 % des dégâts de l’attaque pour la plupart des champions, sans compter les objets qui augmentent les dégâts critiques (comme la Lame d’infini).",
+        "LIST6": "<bold>Vitesse de déplacement :</bold> la vitesse à laquelle votre champion se déplace.",
+        "LIST7": "<bold>Ténacité :</bold> réduit la durée de la plupart des <term k=\"CC\">contrôles de foule</term> (étourdissements, ralentissements, immobilisations…). Elle est sans effet sur les projections dans les airs, la suppression, la stase, la myopie et la somnolence.",
+        "LIST8": "<bold>Régénération de santé / de ressource :</bold> la vie (ou le mana, l’énergie) que votre champion récupère automatiquement au fil du temps.",
+        "LIST9": "<bold>Vol de vie / Omnivampirisme :</bold> le vol de vie vous soigne d’un pourcentage des dégâts de vos attaques de base ; l’omnivampirisme d’un pourcentage de tous vos dégâts, compétences comprises.",
+        "LIST10": "<bold>Armure / Résistance magique :</bold> réduisent respectivement les dégâts physiques et magiques subis. 100 d’armure divisent les dégâts physiques par deux, 200 par trois. Le pourcentage de réduction affiché augmente de moins en moins vite, mais chaque point vous rend toujours aussi résistant : environ 1 % de vie effective en plus. Ce qui compte, c’est l’équilibre avec vos points de vie : les résistances rapportent plus quand vous avez beaucoup de PV, et les PV rapportent plus quand vous avez beaucoup de résistances.",
+        "LIST11": "<bold>Pénétration d’armure / Létalité :</bold> la pénétration d’armure ignore un pourcentage de l’armure de la cible, la létalité en ignore une valeur fixe (1 point de létalité = 1 point d’armure ignoré). La létalité est surtout efficace contre les cibles fragiles, qui ont peu d’armure : les assassins la privilégient. Le pourcentage est plus efficace contre les cibles très résistantes, comme les tanks : c’est le choix habituel des tireurs.",
+        "LIST12": "<bold>Pénétration magique :</bold> même principe que pour l’armure, contre la résistance magique : une partie en valeur fixe, une partie en pourcentage."
       },
       "SUBTITLE2": "Red Buff",
       "CONTENT2": {
-        "LIST1": "Ralentissement avec les auto-attaques",
-        "LIST2": "Dégâts bruts appliqués sur la durée après chaque attaque.",
-        "LIST3": "Régénération de santé augmentée."
+        "LIST1": "Vos attaques de base ralentissent la cible.",
+        "LIST2": "Elles brûlent aussi la cible : dégâts bruts sur quelques secondes.",
+        "LIST3": "Régénération de santé hors combat.",
+        "LIST4": "Le buff dure 2 minutes. Si vous mourez avec, il passe au champion qui vous a tué."
       },
       "SUBTITLE3": "Blue Buff",
       "CONTENT3": {
-        "LIST1": "Régénération de mana en pourcentage (fonctionne également pour les champions utilisant l'énergie).",
-        "LIST2": "Réduction des temps de recharge."
+        "LIST1": "Régénération de mana (ou d’énergie) accrue.",
+        "LIST2": "Accélération de compétence : vos sorts reviennent plus vite.",
+        "LIST3": "Le buff dure 2 minutes. Si vous mourez avec, il passe au champion qui vous a tué."
       },
       "SUBTITLE4": "Carapateur",
       "CONTENT4": {
-        "LIST1": "Vision dans la zone (mais pas la vision véritable).",
-        "LIST2": "Bonus de vitesse de déplacement pour les alliés entrant dans le sanctuaire."
+        "LIST1": "Apparaît à 2:55 dans chaque moitié de la rivière.",
+        "LIST2": "Le tuer fait apparaître un sanctuaire qui donne de la vision autour de lui (sans révéler les unités camouflées) et accélère les alliés qui le traversent."
       },
       "SUBTITLE5": "Dragons",
       "CONTENT5": {
-        "LIST1": "<img style='margin-right:10px;' src='assets/img/icons/drakeChemtech.webp'/>Le <bold>Dragon Chimique :</bold> Gain de ténacité et d'efficacité des soins et des boucliers.",
-        "LIST2": "<img style='margin-right:10px;' src='assets/img/icons/drakeCloud.webp'/>Le <bold>Dragon des Nuages :</bold> Gain de résistance aux ralentissements et de vitesse de déplacement hors combat. ",
-        "LIST3": "<img style='margin-right:10px;' src='assets/img/icons/drakeHextech.webp'/>Le <bold>Dragon Hextech :</bold> Gain de hâte et de vitesse d'attaque. ",
-        "LIST4": "<img style='margin-right:10px;' src='assets/img/icons/drakeMountain.webp'/>Le <bold>Dragon des Montagnes :</bold> Gain d'armure et de résistance magique. ",
-        "LIST5": "<img style='margin-right:10px;' src='assets/img/icons/drakeInfernal.webp'/>Le <bold>Dragon Infernal :</bold> Gain de dégâts d'attaque et de puissance. ",
-        "LIST6": "<img style='margin-right:10px;' src='assets/img/icons/drakeOcean.webp'/>Le <bold>Dragon des Océans :</bold> Restaure de la santé manquante toutes les 5 secondes. ",
-        "LIST7": "<img style='margin-right:10px;' src='assets/img/icons/drakeElder.webp'/>Le <bold>Dragon Elder :</bold> Dégâts bruts bonus sur toutes les capacités, augmente les bonus des Drakes de 50% et le buff expire au bout de 2:30 minutes, ou en cas de mort. "
+        "TEXT": "Le premier dragon apparaît à 5:00, puis un nouveau 5 minutes après la mort du précédent. Chaque dragon a un élément tiré au sort parmi ceux qui ne sont pas encore apparus, et donne un bonus permanent, cumulable, à toute l’équipe qui le tue.<br><br>Une fois le 2e dragon tué, la carte se transforme selon l’élément du 3e : c’est la <bold>Faille élémentaire</bold>, et tous les dragons suivants seront de cet élément.<br><br>La première équipe à tuer 4 dragons obtient l’<bold>Âme de dragon</bold> de cet élément, un bonus très puissant. Plus une équipe approche de l’âme, plus les dragons lui résistent (Vengeance de dragon : jusqu’à 45 % de dégâts en moins contre une équipe qui en a déjà 3). Après l’âme, seul le Dragon ancestral apparaît."
       },
       "SUBTITLE6": "Baron Nashor",
-      "CONTENT6": "Tuer le Baron Nashor accorde à tous les coéquipiers vivants un buff pendant 180 secondes.<br><br>Ce buff octroie un bonus de dégâts d'attaque, de puissance, un rappel amélioré, ainsi qu'une aura qui augmente considérablement la puissance des sbires à proximité. Les sbires gagnent globalement en vitesse de déplacement, en portée, en dégâts et en vitesse de projectiles. Les sbires canon peuvent, avec ce buff, taper une tour ennemie sans être dans la portée de celle-ci",
-      "SUBTITLE7": "Hérault de la faille",
-      "CONTENT7": "Tuer l'Hérault fait tomber l’Œil du Héraut à l’entrée du puits pendant 20 secondes. Il peut être ramassé par un membre de l'équipe et est utilisé pour le ré-invoquer. Une fois invoqué, il peut être utiliser pour avancer sur la lane. Proche d'une tour il se met à charger puis à dasher contre la tour pour lui infliger énormément de dégâts. Il est aussi possible de chauvaucher l'Hérault pour charger directement vers une direction.<br><br>L'Heralt n'apparaît qu'une seule fois par partie et disparaît définitivement à 19:45, ou à 19:55 s'il est en combat. Le Baron Nashor apparaît à sa place à 20:00.",
+      "CONTENT6": "Le Baron Nashor apparaît à 20:00 dans la fosse du haut, et réapparaît 6 minutes après sa mort.<br><br>Le tuer donne à tous les membres vivants de l’équipe la Main du Baron pendant 3 minutes : un bonus de dégâts d’attaque et de puissance, un rappel (retour à la base) deux fois plus rapide, et une aura qui renforce les sbires proches. Ces sbires encaissent beaucoup moins de dégâts et gagnent en portée : les sbires canon peuvent même frapper une tour depuis l’extérieur de sa portée.",
+      "SUBTITLE7": "Héraut de la Faille",
+      "CONTENT7": "Le Héraut de la Faille apparaît une seule fois par partie, à 15:00, dans la fosse du haut. Il disparaît à 19:45 (19:55 s’il est en combat) pour laisser la place au Baron Nashor à 20:00.<br><br>Le tuer fait tomber l’Œil du Héraut, à ramasser dans les 20 secondes. En l’utilisant, vous invoquez le Héraut et vous le chevauchez : vous dirigez sa charge, qui prend de la vitesse. S’il percute une tour, il lui inflige d’énormes dégâts, et il projette les champions ennemis qu’il touche.",
       "SUBTITLE8": "Larves du Néant",
-      "CONTENT8": "Tuer une Larve du Néant accorde de l’or et de l’expérience à l’ensemble des membres de l’équipe, ainsi que le buff 'Toucher du Néant'. 'Toucher du Néant' inflige des dégâts supplémentaires sur la durée aux structures, et pour chaque pile au-delà de la quatrième, les membres de l’équipe reçoivent également le buff Faim du Néant, qui invoquera des Vermines du Néant alliées pour aider à détruire les tourelles ennemies.<br><br>Le camp de Larves du Néant se compose d’un groupe de 3 Larves du Néant. Il peut y avoir au maximum deux groupes de spawn dans une partie donnée. Le camp disparaît définitivement à 13:45, ou à 13:55 s’il est en combat. Un deuxième groupe de Larves du Néant n’apparaîtra que si le premier a été éliminé avant 9:45. Le Rift Herald apparaît à la même position à 14:00."
-    },    
-    "PICKER":{
-      "TITLE0" : "Sélecteur de Champions",
-      "SUBTITLE0" : "Explorez la liste et sélectionnez votre champion idéal !",
+      "CONTENT8": "Les Larves du Néant apparaissent <bold>une seule fois</bold>, à 8:00 : un groupe de 3 larves dans la fosse du haut. Elles ne réapparaissent pas, et disparaissent à 14:45 (14:55 si elles sont en combat), avant l’arrivée du Héraut à 15:00.<br><br>Chaque larve tuée donne à l’équipe un cumul de « Toucher du Néant » : vos attaques et compétences infligent des dégâts supplémentaires sur la durée aux structures. Avec les 3 cumuls, l’équipe obtient « Faim du Néant » : quand vous attaquez une structure, des Vermines du Néant alliées apparaissent régulièrement pour l’attaquer avec vous.",
+      "DRAKES": {
+        "LABEL_STACK": "Chaque dragon tué",
+        "LABEL_SOUL": "Son âme",
+        "LABEL_TERRAIN": "La carte",
+        "LABEL_SPAWN": "Apparition",
+        "LABEL_BUFF": "Son buff",
+        "INFERNAL": {
+          "NAME": "Dragon infernal",
+          "STACK": "+3 % de dégâts d’attaque et de puissance.",
+          "SOUL": "Vos attaques et compétences déclenchent une explosion qui inflige des dégâts supplémentaires (au plus une fois toutes les 3 secondes).",
+          "TERRAIN": "Des murs brûlés s’ouvrent près de la fosse, des fleurs explosives apparaissent, et des braises à ramasser donnent un court bonus de vitesse et un peu d’accélération de compétence."
+        },
+        "MOUNTAIN": {
+          "NAME": "Dragon des montagnes",
+          "STACK": "+5 % d’armure et de résistance magique.",
+          "SOUL": "Après 5 secondes sans subir de dégâts, vous gagnez un bouclier.",
+          "TERRAIN": "Des rochers sortent du sol près des buffs, des raptors et de la fosse, et bloquent certains passages."
+        },
+        "OCEAN": {
+          "NAME": "Dragon des océans",
+          "STACK": "Rend 2 % de vos points de vie manquants toutes les 5 secondes.",
+          "SOUL": "Vos dégâts vous soignent et vous rendent du mana sur quelques secondes (effet réduit sur les sbires et les monstres).",
+          "TERRAIN": "Les buissons s’agrandissent, des flaques apparaissent et davantage de fruits de soin poussent dans la jungle."
+        },
+        "CLOUD": {
+          "NAME": "Dragon des nuages",
+          "STACK": "+5 % de résistance aux ralentissements et de vitesse de déplacement hors combat.",
+          "SOUL": "+15 % de vitesse de déplacement, fortement augmentée pendant quelques secondes après avoir utilisé votre ultime.",
+          "TERRAIN": "Des courants d’air près des buffs, des raptors et de la fosse accélèrent ceux qui les traversent."
+        },
+        "HEXTECH": {
+          "NAME": "Dragon Hextech",
+          "STACK": "+5 d’accélération de compétence et +5 % de vitesse d’attaque.",
+          "SOUL": "Vos attaques et compétences déclenchent un arc électrique qui inflige des dégâts bruts, ralentit et rebondit sur les ennemis proches (au plus une fois toutes les 8 secondes).",
+          "TERRAIN": "Des portails Hextech relient certaines zones de la jungle, et la base, pour s’y déplacer instantanément."
+        },
+        "CHEMTECH": {
+          "NAME": "Dragon techno-chimique",
+          "STACK": "+6 % de ténacité et de puissance des soins et boucliers.",
+          "SOUL": "Sous 50 % de vos points de vie, vous infligez 13 % de dégâts en plus et en subissez 13 % de moins.",
+          "TERRAIN": "Les plantes de la jungle mutent : les fruits de soin donnent aussi un bouclier, et les fleurs explosives projettent deux fois plus loin."
+        },
+        "ELDER": {
+          "NAME": "Dragon ancestral",
+          "SPAWN": "6 minutes après qu’une équipe a obtenu l’Âme de dragon, puis 6 minutes après chacune de ses morts. Depuis 2026, il est plus résistant qu’avant.",
+          "BUFF": "Pendant 150 secondes (perdu en cas de mort), vos attaques et compétences brûlent les ennemis (dégâts bruts), et tout champion touché sous 20 % de ses points de vie est exécuté une demi-seconde plus tard. Ce buff n’augmente pas les bonus des autres dragons."
+        }
+      }
+    },
+    "PICKER": {
+      "TITLE0": "Sélecteur de Champions",
+      "SUBTITLE0": "Explorez la liste et sélectionnez votre champion idéal !",
       "PICKCHAMPION": "Choisir un Champion aléatoire (avec filtres)",
       "DIFFICULTIES": {
         "easy": "Facile",
         "average": "Intermédiaire",
         "hard": "Difficile",
         "*": "Extrême",
-        "nofilterdifficulty" : "⌀"
+        "nofilterdifficulty": "⌀"
       }
     }
   },
@@ -342,56 +393,56 @@
     "TITLE0": "Qu'est-ce que Teamfight Tactics ?",
     "CONTENT0": "Bienvenue sur notre guide complet de Teamfight Tactics (TFT), cette page est conçue pour vous aider à comprendre les bases de ce jeu et à améliorer votre expérience de jeu. Que vous soyez un novice cherchant à débuter ou un joueur souhaitant approfondir ses connaissances, vous êtes au bon endroit !",
     "TITLE1": "Structure du Jeu",
-    "CONTENT1": "TFT est un jeu de type 'Auto-Battler', ce qui signifie que vous devez composer une équipe de champions, issus de l'univers de League of Legends, qui combattra automatiquement contre les équipes des autres joueurs.<br><br>Dans chaque partie, huit joueurs sont présents ayant chacun 100 points de vie (HP). Au cours des différents rounds, les joueurs s'affronteront et les vaincus perdront des points de vie dont le montant sera relatif à l'avancement de la partie.<br>Lorsque votre barre d'HP atteint 0, la partie se termine pour vous, mais cela ne signifie pas nécessairement que vous avez perdu : vous êtes juste éliminé. Votre placement lors de votre mort détermine le résultat de votre partie (victoire ou défaite).<br><br>La partie se déroule en plusieurs phases :",
+    "CONTENT1": "TFT est un jeu de stratégie de type « auto-battler » : vous recrutez une équipe de champions de l’univers de League of Legends, vous les placez sur un plateau, et ils combattent automatiquement les équipes des autres joueurs.<br><br>Chaque partie réunit huit joueurs, qui commencent avec 100 points de vie (PV). Quand vous perdez un combat, vous perdez des PV : un nombre fixe qui augmente au fil des étapes, plus 1 PV par unité adverse encore en vie.<br>À 0 PV, vous êtes éliminé. Votre classement dépend de l’ordre d’élimination : le dernier joueur en vie finit 1er, et finir dans les 4 premiers est considéré comme une victoire.<br><br>La partie se découpe en étapes, elles-mêmes découpées en rounds (2-1, 2-2…). Après une première étape contre des monstres, chaque étape suit le même déroulé :",
     "LIST1": {
-      "CONTENT0": "<bold>3 Combats PvP :</bold> Vous commencez par affronter trois fois un même joueur.",
-      "CONTENT1": "<bold>Phase de carrousel :</bold> C'est le moment de choisir un composant parmi ceux qui sont disponibles.",
-      "CONTENT2": "<bold>2 Combats PvP :</bold> Vous reprenez ensuite avec deux autres combats.",
-      "CONTENT3": "<bold>Manche PvE :</bold> Ces combats vous permettent d'obtenir des récompenses, comme de l'or ou des composants. Des surprises peuvent également survenir.",
-      "OUTRO": "L'objectif principal est de composer la meilleure équipe pour affronter les autres joueurs et survivre le plus longtemps possible.",
-      "OUTRO1" : "Concernant les combats PvP, tu as une indication à droite de l'écran pour savoir quel adversaire tu vas affronter potentiellement : si tu vois deux épées sous le portrait d'un autre joueur, cela signifie que tu peux rencontrer cet adversaire au tour suivant."
+      "CONTENT0": "<bold>3 combats PvP :</bold> trois combats contre d’autres joueurs, tirés au sort en évitant ceux que vous venez d’affronter.",
+      "CONTENT1": "<bold>Carrousel :</bold> chaque joueur choisit à son tour un champion équipé d’un composant. Les joueurs qui ont le moins de PV choisissent en premier.",
+      "CONTENT2": "<bold>2 combats PvP :</bold> deux nouveaux combats contre d’autres joueurs.",
+      "CONTENT3": "<bold>Round PvE :</bold> l’étape se termine contre des monstres, qui rapportent de l’or, des composants ou des champions.",
+      "OUTRO": "L’objectif : composer la meilleure équipe possible pour battre les autres joueurs et survivre le plus longtemps.<br><br>Aux rounds 2-1, 3-2 et 4-2, vous choisissez aussi un <term k=\"AUGMENT\">augment</term> parmi trois propositions : un bonus permanent qui peut orienter toute votre partie.",
+      "OUTRO1": "Dans la liste des joueurs, une icône apparaît à côté des adversaires que vous n’avez pas encore affrontés pendant l’étape en cours : ce sont vos prochains adversaires possibles. Regardez leurs plateaux pour adapter votre placement."
     },
     "TITLE2": "Concepts Clés de TFT",
-    "CONTENT2": "TFT repose sur trois notions fondamentales :",
+    "CONTENT2": "TFT repose sur quatre notions fondamentales :",
     "SUBTITLE3": "Les Champions",
-    "CONTENT3": "Dans TFT, il existe cinq raretés de champions.<br>Plus un champion est rare, plus il est cher, et moins il y a d'exemplaires dans la boutique :",
+    "CONTENT3": "Dans le set actuel, il existe cinq raretés de champions.<br>Plus un champion est rare, plus il est cher et puissant, et moins il y en a d’exemplaires dans la réserve commune :",
     "LIST3": {
       "CONTENT0": "<bold>Tier 1 :</bold> Champion à 1 PO.",
       "CONTENT1": "<bold>Tier 2 :</bold> Champion à 2 PO.",
       "CONTENT2": "<bold>Tier 3 :</bold> Champion à 3 PO.",
       "CONTENT3": "<bold>Tier 4 :</bold> Champion à 4 PO.",
-      "CONTENT4": "<bold>Tier 5 :</bold> Légendaire | Champion à 5 PO.",
-      "OUTRO0": "Il est crucial de bien comprendre comment faire évoluer vos champions pour maximiser leur efficacité sur le terrain.<br><br>Chaque champion commence à <bold>1 étoile</bold> lorsque vous l'achetez. Si vous parvenez à réunir <bold>trois copies du même champion à 1 étoile</bold>, ces unités se combinent automatiquement pour former un champion <bold>2 étoiles</bold>, ce qui améliore significativement ses statistiques. Cela inclut une augmentation de ses <bold>points de vie</bold>, de ses <bold>dégâts</bold> et, parfois, des <bold>effets spéciaux de ses sorts</bold>. Ce principe reste identique pour atteindre le stade final : lorsque vous réunissez <bold>trois copies d’un champion à 2 étoiles</bold>, ils se combinent pour former un champion <bold>3 étoiles</bold>, qui représente la version la plus puissante du champion avec des statistiques maximisées.<br>La <bold>rareté</bold> influe grandement sur la croissance de puissance donnée par le niveau d'étoiles. Plus un champion est rare, plus il a de grandes <bold>statistiques de base</bold>, donc l'évolution d'un champion rare (par exemple : Tier 4) sera beaucoup plus impactante que celle d'un champion commun (par exemple : Tier 1).",
-      "OUTRO1": "Cela dit, comprendre le mécanisme d’évolution ne suffit pas. Il faut aussi être attentif à la <bold>composition des équipes de vos adversaires</bold>. Si plusieurs joueurs convoitent les mêmes champions, vous pourriez vous retrouver à lutter pour les obtenir, car le <bold>nombre total de chaque champion disponible</bold> est limité (ce qu’on appelle la <bold>réserve de champions</bold>). Si vous ne faites pas attention à ce que vos adversaires recrutent, vous risquez d’être dans une situation où vous investissez dans des champions qui sont déjà massivement achetés par d'autres joueurs. Cela réduit vos chances de les améliorer, et c’est un piège à éviter.",
-      "OUTRO2": "La clé ici est donc de <bold>surveiller les compositions de vos adversaires</bold> pour choisir des champions moins disputés, ce qui vous permet de maximiser vos chances de les monter en étoiles. Une bonne <bold>gestion de votre économie</bold> et une <bold>observation attentive des autres joueurs</bold> sont cruciales pour ne pas bloquer la progression de vos unités et garder une longueur d’avance."
+      "CONTENT4": "<bold>Tier 5 :</bold> Champion à 5 PO.",
+      "OUTRO0": "Faire évoluer vos champions est essentiel pour maximiser leur efficacité.<br><br>Chaque champion arrive à <bold>1 étoile</bold> quand vous l’achetez. Avec <bold>trois exemplaires du même champion à 1 étoile</bold>, ils fusionnent automatiquement en un champion <bold>2 étoiles</bold>, nettement plus fort : plus de <bold>points de vie</bold>, plus de <bold>dégâts</bold>, et souvent un <bold>sort plus puissant</bold>. Même principe pour la suite : <bold>trois exemplaires à 2 étoiles</bold> forment un champion <bold>3 étoiles</bold>, sa version la plus puissante.<br>La <bold>rareté</bold> compte beaucoup : plus un champion est rare, plus ses <bold>statistiques de base</bold> sont élevées, donc faire évoluer un champion rare (Tier 4, par exemple) a bien plus d’impact que faire évoluer un champion commun (Tier 1).",
+      "OUTRO1": "Comprendre l’évolution ne suffit pas : il faut aussi regarder les <bold>équipes de vos adversaires</bold>. Les huit joueurs piochent dans la même <bold>réserve de champions</bold>, qui contient un <bold>nombre limité d’exemplaires</bold> de chacun. Chaque exemplaire acheté par un adversaire est un exemplaire de moins pour vous : si plusieurs joueurs cherchent le même champion, il devient très difficile de le faire évoluer.",
+      "OUTRO2": "La clé : <bold>surveillez les compositions de vos adversaires</bold> pour viser des champions moins disputés, que vous aurez plus de chances de monter en étoiles. Une bonne <bold>gestion de votre économie</bold> et une <bold>observation attentive des autres joueurs</bold> vous éviteront de bloquer votre progression."
     },
     "SUBTITLE4": "Les Objets",
-    "CONTENT4": "Dans le jeu, il existe également des <bold>composants</bold> qui sont des sortes de mini-objets. Lorsque vous combinez deux composants sur un champion, cela crée un <bold>objet</bold>. Chaque champion peut porter jusqu'à trois objets, sauf si des restrictions liées à un set ou à d'autres spécificités sont en place. Il existe plus d'une quarantaine d'objets différents (en plus de leur version radiante), en tenant compte des spatules, des artefacts et leur disponibilité change avec les différents sets et patches.<br><br>Il est essentiel de comprendre que chaque champion a une certaine spécificité (ex: tank, dégâts physiques ou magiques, etc...). Cette information est indiquée dans le jeu pour vous aider à bien équiper vos champions.<br>Les objets se divisent généralement en plusieurs catégories, comme les objets de <bold>dégâts</bold>, qui augmentent la capacité offensive de vos champions, et les objets de <bold>défense</bold>, qui renforcent leur résistance.<br>L'idée est d'optimiser l'équipement en plaçant les objets sur les personnages les plus importants de votre équipe, vos <bold>carrys</bold>, tout en respectant leur rôle. Par exemple, un objet de tankiness doit être placé sur un tank, tandis qu'un objet de dégâts doit être attribué à un champion orienté vers l'attaque. Cette logique s'applique à tous les types d'objets et est fondamentale pour maximiser l'efficacité de votre équipe.<br><br>Il peut être également intéressant de garder un œil sur les objets que vos adversaires utilisent. Cela peut vous aider à anticiper leurs stratégies et à choisir des objets qui contrent leurs compositions. En optimisant non seulement les champions, mais aussi les objets que vous leur attribuez, vous aurez un avantage significatif dans vos combats.",
+    "CONTENT4": "Les <bold>composants</bold> sont des mini-objets. En combinant deux composants sur un champion, vous créez un <bold>objet</bold> complet. Chaque champion peut porter jusqu’à trois objets. Selon le set, il existe aussi des objets spéciaux : les objets radiants (versions améliorées), les artefacts, ou les emblèmes, créés avec une Spatule, qui donnent une synergie supplémentaire au champion qui les porte.<br><br>Chaque champion a un rôle (tank, dégâts physiques, dégâts magiques…), indiqué en jeu pour vous aider à l’équiper. Les objets se rangent en grandes familles, comme les objets de <bold>dégâts</bold> et les objets de <bold>défense</bold>.<br>Placez vos objets sur les champions les plus importants de votre équipe, vos <term k=\"CARRY\">carrys</term>, en respectant leur rôle : un objet défensif sur un tank, un objet de dégâts sur un champion qui attaque. Cette logique est la base d’une équipe efficace.<br><br>Regardez aussi les objets de vos adversaires : cela vous aide à anticiper leurs stratégies et à choisir des objets qui les contrent.",
     "SUBTITLE5": "Les Synergies",
     "CONTENT5": "Chaque champion a généralement deux ou trois synergies. Cette partie est un peu plus délicate à aborder, car tout dépend de la méta et des différents sets. Ce n'est pas parce que vous avez tous vos champions avec la même synergie que votre équipe sera nécessairement forte. L'idée est d'optimiser votre équipe selon les synergies en fonction de votre carry principal.<br><br>Personnellement, je choisis mes synergies en fonction de mon carry principal. En raisonnant de cette manière, votre équipe variera chaque fois que votre carry changera, ce qui apportera une flexibilité essentielle pour améliorer votre niveau de jeu. Cette compétence viendra avec le temps, et n’hésitez pas à demander plus d’informations à ce sujet si vous avez des questions.",
     "SUBTITLE6": "L'Économie",
-    "CONTENT6": "La gestion de votre or est un aspect fondamental qui vous permettra de contrôler votre partie. À la fin de chaque round, tous les joueurs reçoivent 5 or. En fonction du nombre d'or que vous avez, vous recevrez un bonus en or d'intérêt à la fin de chaque round, et ce bonus s'accumule à partir de chaque palier de 10 or. Par exemple :",
+    "CONTENT6": "Bien gérer votre or vous permet de contrôler votre partie. À chaque round, vous recevez un revenu de base de 5 PO (un peu moins pendant les tout premiers rounds). S’y ajoutent les <bold>intérêts</bold> : de l’or bonus selon l’or que vous gardez en réserve.",
     "LIST6": {
-      "CONTENT0": "Vous recevez 1 or supplémentaire pour chaque palier de 10 or, jusqu'à un maximum de 5 or. Les paliers après 50 or ne sont pas importants.",
-      "CONTENT1": "Chaque victoire remportée contre un joueur rapporte également un or supplémentaire, ce qui est souvent utilisé pour optimiser vos paliers."
+      "CONTENT0": "1 PO d’intérêt par tranche de 10 PO, jusqu’à 5 PO à partir de 50 PO. Au-delà de 50 PO, garder plus d’or ne rapporte rien de plus.",
+      "CONTENT1": "Gagner un combat contre un joueur rapporte 1 PO de plus, ce qui aide souvent à atteindre le palier suivant."
     },
-    "CONTENT7": "Il existe aussi des séries de victoires ou de défaites qui rapportent des or supplémentaires. Voici comment cela fonctionne :",
+    "CONTENT7": "Enchaîner les victoires ou les défaites rapporte aussi de l’or bonus (une série de 2 ne rapporte rien) :",
     "LIST7": {
-      "CONTENT0": "<bold>3-4 victoires ou défaites consécutives :</bold> +1 PO.",
-      "CONTENT1": "<bold>5 victoires ou défaites consécutives :</bold> +2 PO.",
-      "CONTENT2": "<bold>6 victoires ou défaites consécutives :</bold> +3 PO."
+      "CONTENT0": "<bold>3 ou 4 victoires ou défaites d’affilée :</bold> +1 PO.",
+      "CONTENT1": "<bold>5 victoires ou défaites d’affilée :</bold> +2 PO.",
+      "CONTENT2": "<bold>6 victoires ou défaites d’affilée ou plus :</bold> +3 PO."
     },
-    "CONTENT8": "Le système de niveau est également très important dans le jeu. Chaque niveau que vous atteignez vous coûte de l'or (4 or = 4 XP). Les niveaux sont répartis en paliers d’XP. Vous pouvez placer dans votre équipe autant de champions que vous avez de niveaux. Par exemple, au niveau 5, vous pouvez placer 5 champions. Le shop dépend aussi énormément de votre niveau, et plus votre niveau est élevé, plus vous avez de chances d'obtenir des champions rares.<br><br>Il existe différentes stratégies d'économie. Certains joueurs préfèrent attendre et se laisser taper pour revenir avec un maximum d'or, tandis que d'autres, comme moi, choisissent une approche agressive pour préserver un maximum de HP. Gardez à l'esprit que si vous avez 80 or en poche, mais que vous êtes éliminé, cela ne sert à rien.<br><br>Les débutants ont souvent peur d'utiliser leur or. Mon conseil est de bien surveiller votre barre de HP, car c'est cela qui compte le plus. Si vous perdez, c'est la fin du jeu. N'hésitez pas à utiliser vos or si votre composition est trop faible.<br><br>Un autre conseil important est de prendre des décisions éclairées. Quand acheter de l'XP ? Quand actualiser le shop ? Il n'y a pas de moment précis, car tout dépend de votre partie et de votre niveau de HP.<br>Posez-vous la question à <bold>chaque round</bold> : est-ce que c'est rentable d'acheter de l'XP ? Oui ou non ? Pourquoi ? Est-ce que c'est rentable d'actualiser le shop avec le niveau que j'ai et avec mes HP ? Avec l'expérience, vous verrez que les réponses viendront naturellement.",
+    "CONTENT8": "Le niveau est tout aussi important. Vous gagnez 2 XP gratuitement à chaque round, et vous pouvez acheter de l’expérience : 4 PO pour 4 XP. Votre niveau (10 au maximum) fixe le nombre de champions que vous pouvez placer sur le plateau : au niveau 5, vous pouvez en placer 5. Il change aussi les chances d’obtenir chaque rareté dans la boutique : plus votre niveau est élevé, plus vous voyez de champions rares.<br><br>Il existe différentes stratégies d’économie. Certains joueurs préfèrent économiser et accepter quelques défaites pour revenir avec beaucoup d’or, d’autres, comme moi, choisissent une approche agressive pour garder un maximum de PV. Gardez en tête qu’avoir 80 PO en poche ne sert à rien si vous êtes éliminé.<br><br>Les débutants ont souvent peur de dépenser leur or. Mon conseil : surveillez avant tout votre barre de PV, c’est elle qui compte le plus. Si votre équipe est trop faible, n’hésitez pas à dépenser.<br><br>Prenez des décisions réfléchies. Quand acheter de l’XP ? Quand actualiser la boutique (on dit « roll ») ? Il n’y a pas de moment parfait : tout dépend de votre partie et de vos PV.<br>Posez-vous la question à <bold>chaque round</bold> : est-ce rentable d’acheter de l’XP ? Oui ou non ? Pourquoi ? Est-ce rentable d’actualiser la boutique avec mon niveau et mes PV ? Avec l’expérience, les réponses viendront naturellement.",
     "TITLE9": "Conseils pour Progresser",
     "LIST9": {
-      "CONTENT0": "<bold>Ne jamais blâmer la chance :</bold> TFT n'est pas un jeu de chance. La part de chance est seulement présente pour les top 4 à top 1. Si vous perdez, regardez pourquoi et cherchez à vous améliorer.",
-      "CONTENT1": "<bold>Prendre du recul à chaque round :</bold> Analyser chaque round pour prendre la situation la plus 'logique' selon votre situation.<br>Pourquoi acheter de l'XP ? Pourquoi roll la boutique ? Pourquoi ne rien faire ?",
-      "CONTENT2": "<bold>Observez et apprenez :</bold> TFT est l'un des seuls jeux où regarder du gameplay donne plus d'informations que de jouer. Analysez le gameplay d'autres bons joueurs sur Youtube ou en Streaming, accumulez des connaissances puis détruisez tout le monde dans vos parties .",
-      "CONTENT3": "<bold>Top 4 = Victoire :</bold> Ne vous attendez pas à faire top 1 à chaque partie, et considérez le top 4 comme une victoire, la clé est la constance.",
-      "CONTENT4": "<bold>Soyez flexible:</bold> Ne bloquez pas votre esprit sur une seule composition ou un seul champion précis. Si vous êtes au dessus-d'un palier d'intérêts, n'hésitez pas à acheter des champions même s'ils ne sont pas utiles dans votre composition. Cela ne vous coûtera aucun gold et peut vous permettre de transitionner vers une autre composition avec beaucoup plus de facilité. Un très bon joueur verra des transitions qu'un joueur plus débutant ne verra pas, c'est comme ça que l'on améliore efficacement son équipe.",
-      "CONTENT5": "<bold>Régulez les taux :</bold> Pour influer très légèrement sur les taux d'apparition d'un champion précis, vous pouvez acheter les autres champions de même rareté lorsque vous cherchez un champion en particulier."
+      "CONTENT0": "<bold>Ne blâmez pas la chance :</bold> la boutique a une part d’aléatoire, mais sur plusieurs parties ce sont vos décisions qui font la différence. Après une mauvaise partie, cherchez ce que vous auriez pu faire autrement.",
+      "CONTENT1": "<bold>Prenez du recul à chaque round :</bold> analysez la situation pour faire le choix le plus logique.<br>Pourquoi acheter de l’XP ? Pourquoi actualiser la boutique ? Pourquoi ne rien faire ?",
+      "CONTENT2": "<bold>Observez et apprenez :</bold> dans TFT, regarder de bons joueurs (sur YouTube ou en stream) apprend énormément, parfois plus que jouer soi-même. Accumulez des connaissances, puis appliquez-les dans vos parties.",
+      "CONTENT3": "<bold>Top 4 = victoire :</bold> ne visez pas la 1re place à chaque partie. Finir dans le top 4 est une victoire : la clé, c’est la régularité.",
+      "CONTENT4": "<bold>Soyez flexible :</bold> ne vous bloquez pas sur une seule composition ou un seul champion. Si vous êtes au-dessus d’un palier d’intérêts, achetez des champions même s’ils ne servent pas à votre composition : un champion 1 étoile se revend au prix d’achat, donc cela ne vous coûte rien, et cela peut vous permettre de changer de composition bien plus facilement. Un très bon joueur voit des transitions qu’un débutant ne voit pas : c’est comme ça qu’on améliore efficacement son équipe.",
+      "CONTENT5": "<bold>Influencez la boutique :</bold> comme tous les joueurs piochent dans la même réserve, acheter d’autres champions du même coût que celui que vous cherchez augmente très légèrement vos chances de tomber dessus."
     }
-  },    
+  },
   "CGU": {
     "TITLE": "Conditions Générales d'Utilisation",
     "OBJECT": "Objet du document",
@@ -1053,5 +1104,30 @@
     "BACK": "Retour",
     "THRESHOLD": "Matchups avec au moins {{min}} parties sur la sélection.",
     "NO_DATA": "Pas encore assez de parties pour afficher les matchups de {{champion}} {{role}}."
+  },
+  "GLOSSARY": {
+    "WAVE": "Vague (wave) : le groupe de sbires qui part de chaque base à intervalle régulier et avance sur chaque lane.",
+    "GANK": "Gank : attaque surprise d’un joueur venu d’ailleurs (souvent le jungler) sur une lane, pour mettre l’adversaire en infériorité numérique.",
+    "CRASH": "Crash : quand votre vague de sbires atteint la tour adverse et se fait détruire par elle.",
+    "BACK": "Back : retour à la base (le Rappel, touche B) pour acheter des objets et récupérer vie et mana.",
+    "SLOW_PUSH": "Slow push : faire avancer la vague lentement pour qu’elle grossisse avant d’atteindre la tour adverse.",
+    "LAST_HIT": "Last hit : le dernier coup porté à un sbire ou à un monstre. C’est lui qui rapporte l’or.",
+    "ROAM": "Roam : quitter sa lane quelques instants pour aider ailleurs sur la carte.",
+    "DIVE": "Dive : attaquer un adversaire sous sa propre tour, en acceptant d’encaisser les tirs de la tour.",
+    "PRIO": "Priorité (prio) : votre laner a poussé sa vague, l’adversaire doit rester la farmer sous sa tour. Votre laner peut donc quitter sa lane le premier.",
+    "ADC": "ADC (Attack Damage Carry) : le tireur de l’équipe, un champion à distance qui inflige l’essentiel de ses dégâts avec ses attaques de base.",
+    "TRADE": "Trade : échange de dégâts entre deux adversaires. Le but : en infliger plus qu’on n’en reçoit.",
+    "COOLDOWN": "Cooldown : temps de recharge d’un sort, pendant lequel il est inutilisable.",
+    "BAIT": "Bait : appâter l’adversaire pour lui faire gaspiller un sort.",
+    "POKE": "Poke : harceler l’adversaire à distance avec des attaques ou des compétences, sans s’engager dans un vrai combat.",
+    "SPACING": "Spacing : gérer la distance entre vous et l’adversaire, pour pouvoir le toucher sans être touché.",
+    "POWERSPIKE": "Pic de puissance (powerspike) : moment où un champion devient nettement plus fort d’un coup (niveau 6 et son ultime, objet terminé…).",
+    "WARD": "Ward (balise) : objet posé au sol qui donne de la vision sur la zone autour, pour voir venir l’ennemi.",
+    "TRINKET": "Trinket : l’emplacement d’objet utilitaire gratuit (touche 4). Il contient au choix la Balise camouflée (jaune, pose une balise invisible), le Brouilleur oraculaire (rouge, désactive les balises adverses proches) ou, à partir du niveau 9, l’Altération divinatoire (bleue, révèle une zone de loin).",
+    "CC": "Contrôle de foule (CC) : tout effet qui gêne un champion : étourdissement, ralentissement, immobilisation, projection…",
+    "CLEAR": "Clear : tuer tous les monstres d’un camp, ou tous les camps d’un parcours.",
+    "INVADE": "Invade : entrer dans la jungle adverse pour voler ses camps ou surprendre le jungler ennemi.",
+    "CARRY": "Carry : le champion qui « porte » l’équipe, celui qui inflige l’essentiel des dégâts et sur qui reposent les combats.",
+    "AUGMENT": "Augment : un bonus permanent choisi parmi trois propositions à certains rounds. Il peut renforcer votre économie, vos objets ou vos synergies."
   }
 }

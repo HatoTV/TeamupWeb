@@ -25,18 +25,19 @@ import { SafeHtmlPipe } from '../../safe-html.pipe';
       .steps {
         display: flex;
         flex-direction: column;
-        gap: 10px;
         margin: 0;
         padding: 0;
         list-style: none;
       }
+      /* Read-only list: separators instead of bordered boxes (boxes are reserved for links). */
       .steps__item {
         display: flex;
         gap: 14px;
-        padding: 14px 16px;
-        border-radius: var(--radius-control);
-        background: var(--color-surface);
-        border: 1px solid var(--color-line);
+        padding: 12px 0;
+        border-bottom: 1px solid var(--color-separator);
+      }
+      .steps__item:last-child {
+        border-bottom: 0;
       }
       .steps__n {
         flex: none;

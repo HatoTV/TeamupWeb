@@ -13,6 +13,9 @@
       }
     }
 
+    <h3 id="wm-push">{{ 'LOL.WAVEMANAGEMENT.TITLE1B' | translate }}</h3>
+    <app-guide-cards [keys]="pushRules" />
+
     <h3 id="wm-spawn">{{ 'LOL.WAVEMANAGEMENT.TITLE2' | translate }}</h3>
     <p>{{ 'LOL.WAVEMANAGEMENT.CONTENT2.INTRO1' | translate }}</p>
     <figure>
@@ -47,9 +50,6 @@
         </li>
       }
     </ol>
-    <figure>
-      <app-picture src="assets/img/wavemanagement_MinionsSpawn.webp" [alt]="'GUIDES.ALT.MINION_SPAWN' | translate" />
-    </figure>
     @let bonus = 'LOL.WAVEMANAGEMENT.CONTENT2.INTRO3' | translate | lead;
     <app-callout variant="bonus"><span [innerHTML]="bonus.body | safeHtml"></span></app-callout>
 
@@ -156,19 +156,14 @@
         </video>
       </figure>
       <div>
-        <p [innerHTML]="'LOL.WAVEMANAGEMENT.CONTENT12' | translate | safeHtml"></p>
+        @for (p of 'LOL.WAVEMANAGEMENT.CONTENT12' | translate | paragraphs; track $index) {
+          <p [innerHTML]="p | safeHtml"></p>
+        }
       </div>
     </div>
 
     <h3 id="fastpush-how">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE13' | translate }}</h3>
-    <app-step-list
-      [steps]="[
-        fastPushSteps[0] | translate,
-        fastPushSteps[1] | translate,
-        fastPushSteps[2] | translate,
-        fastPushSteps[3] | translate
-      ]"
-    />
+    <app-step-list [steps]="[fastPushSteps[0] | translate, fastPushSteps[1] | translate, fastPushSteps[2] | translate]" />
 
     <h3 id="fastpush-when">{{ 'LOL.WAVEMANAGEMENT.SUBTITLE14' | translate }}</h3>
     <ul class="bullets">

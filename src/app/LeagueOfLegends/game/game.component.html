@@ -35,14 +35,34 @@
         </figure>
         <div>
           @if (block.bullets) {
-            <app-guide-bullets [class.drakes]="block.id === 'dragons'" [keys]="block.bullets" />
-          } @else if (block.textKey) {
+            <app-guide-bullets [keys]="block.bullets" />
+          }
+          @if (block.textKey) {
             @for (p of block.textKey | translate | paragraphs; track $index) {
               <p [innerHTML]="p | safeHtml"></p>
             }
           }
         </div>
       </div>
+      @if (block.id === 'dragons') {
+        <ul class="cards drake-grid">
+          @for (drake of drakes; track drake.key) {
+            <li class="info-card drake-card" [class.drake-card--elder]="drake.elder">
+              <p class="info-card__title drake-card__title">
+                <img [src]="drake.icon" alt="" width="28" height="28" loading="lazy" />{{ drake.key + '.NAME' | translate }}
+              </p>
+              <dl class="drake-card__facts">
+                @for (fact of drake.facts; track fact) {
+                  <div>
+                    <dt>{{ 'LOL.GAME.DRAKES.LABEL_' + fact | translate }}</dt>
+                    <dd [innerHTML]="drake.key + '.' + fact | translate | safeHtml"></dd>
+                  </div>
+                }
+              </dl>
+            </li>
+          }
+        </ul>
+      }
     }
   </section>
 </app-guide-page>

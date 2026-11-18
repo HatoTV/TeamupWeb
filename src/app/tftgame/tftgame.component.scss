@@ -110,18 +110,17 @@
 .phases {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
+  gap: 16px 20px;
   margin: 16px 0 0;
   padding: 0;
   list-style: none;
 }
 
+// Read-only blocks use an accent rule, not a bordered box (boxes are reserved for links).
 .phase {
   --tone: var(--color-tft);
-  padding: 16px;
-  border-radius: 12px;
-  background: var(--color-surface);
-  border: 1px solid var(--color-line);
+  padding: 4px 0 4px 14px;
+  border-left: 3px solid var(--tone);
   --dot-color: var(--tone);
 
   &[data-tone='gold'] {
@@ -153,6 +152,11 @@
   color: var(--color-text);
 }
 
+.phase__text::first-letter,
+.tip__text::first-letter {
+  text-transform: uppercase;
+}
+
 .phase__text {
   margin-top: 6px;
   font-size: 14px;
@@ -172,10 +176,8 @@
 // Rarity colours (grey, green, blue, purple, gold).
 .tier {
   --rarity: #9a9ab0;
-  padding: 12px;
-  border-radius: var(--radius-control);
-  background: var(--color-surface);
-  border: 2px solid var(--rarity);
+  padding: 10px 4px 0;
+  border-top: 3px solid var(--rarity);
   text-align: center;
 
   &[data-tier='2'] {
@@ -330,17 +332,15 @@
 .tips {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+  gap: 20px 24px;
   margin: 18px 0 0;
   padding: 0;
   list-style: none;
 }
 
 .tip {
-  padding: 18px;
-  border-radius: 12px;
-  background: var(--color-surface);
-  border: 1px solid var(--color-line);
+  padding: 4px 0 4px 16px;
+  border-left: 3px solid color-mix(in srgb, var(--color-tft) 70%, transparent);
 }
 
 .tip__title {

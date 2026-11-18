@@ -1,20 +1,19 @@
 name: Deploy production
 
-# Production deployments happen once a night, at 05:00 Europe/Paris, when nobody uses the site.
+# Production is deployed at the end of each LoL stats collection run (lol-stats.yml: 00:17, 06:17, 12:17 and
+# 18:17 UTC), whatever its outcome, so new data and the code merged since go live together.
 # vercel.json sets git.deploymentEnabled.master = false: a push to master no longer deploys production by itself
 # (pull request branches keep their preview deployments). This workflow calls the Vercel Deploy Hook of master.
-#
-# Nightly: two crons (03:03 and 04:03 UTC); only the one that falls at 05:xx Paris time for the current UTC offset
-# deploys (summer +02:00 → 03:03 UTC, winter +01:00 → 04:03 UTC). Skipped when production already runs master's HEAD.
+# After a collection run, the deployment is skipped when production already runs master's HEAD.
 # Immediate (urgent fix):
 #   - Actions → Deploy production → Run workflow (or `gh workflow run deploy-production.yml`), or
 #   - put [deploy-now] in a commit message or pull request title pushed / merged to master.
 # Secret: VERCEL_DEPLOY_HOOK (Vercel → Settings → Git → Deploy Hooks, branch master).
 
 on:
-  schedule:
-    - cron: '3 3 * * *'
-    - cron: '3 4 * * *'
+  workflow_run:
+    workflows: ['LoL build stats']
+    types: [completed]
   push:
     branches: [master]
   workflow_dispatch:
@@ -39,16 +38,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           EVENT: ${{ github.event_name }}
-          SCHEDULE: ${{ github.event.schedule }}
           REPO: ${{ github.repository }}
         run: |
-          if [ "$EVENT" != "schedule" ]; then
+          if [ "$EVENT" != "workflow_run" ]; then
             echo "deploy=true" >> "$GITHUB_OUTPUT"; echo "Immediate deployment ($EVENT)."; exit 0
-          fi
-          offset=$(TZ=Europe/Paris date +%z)
-          if { [ "$SCHEDULE" = '3 3 * * *' ] && [ "$offset" = '+0200' ]; } || \
-             { [ "$SCHEDULE" = '3 4 * * *' ] && [ "$offset" = '+0100' ]; }; then :; else
-            echo "deploy=false" >> "$GITHUB_OUTPUT"; echo "Not 05:00 in Paris for this cron (offset $offset)."; exit 0
           fi
           head=$(gh api "repos/$REPO/commits/master" --jq .sha)
           live=""

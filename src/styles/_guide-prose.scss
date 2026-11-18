@@ -237,19 +237,35 @@
     color: var(--color-text-muted);
   }
 
+  // Jungle path: text and its map side by side, map framed like the other guide figures.
+  .cards--list:has(.path-card) {
+    gap: 28px;
+  }
+
   .path-card {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 220px;
-    gap: 16px;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 24px;
     align-items: center;
+  }
+
+  .path-card__map {
+    margin: 0;
 
     img {
+      display: block;
       width: 100%;
-      border-radius: var(--radius-control-sm);
+    }
+  }
+
+  @media (max-width: 700px) {
+    .path-card {
+      grid-template-columns: 1fr;
+      gap: 12px;
     }
 
-    @media (max-width: 600px) {
-      grid-template-columns: 1fr;
+    .path-card__map {
+      max-width: 360px;
     }
   }
 

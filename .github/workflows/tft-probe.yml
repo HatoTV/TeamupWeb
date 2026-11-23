@@ -1,0 +1,46 @@
+name: TFT API probe
+
+# Temporary: checks that the production Riot key can call the TFT APIs (status codes and limits only, never the key).
+on:
+  push:
+    branches: [feature/tft-data]
+    paths: ['.github/workflows/tft-probe.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    env:
+      RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+    steps:
+      - name: Probe tft-league-v1, tft-summoner-v1 and tft-match-v1
+        run: |
+          call() {
+            code=$(curl -s -o body.json -D headers.txt -w '%{http_code}' -H "X-Riot-Token: $RIOT_API_KEY" "$1")
+            echo "== $2: HTTP $code"
+            grep -iE '^x-(app|method)-rate-limit:' headers.txt || true
+            [ "$code" = 200 ] || head -c 300 body.json; echo
+          }
+          call "https://euw1.api.riotgames.com/lol/status/v4/platform-data" "lol-status (reference)"
+          call "https://euw1.api.riotgames.com/tft/league/v1/challenger?queue=RANKED_TFT" "tft-league-v1 challenger"
+          puuid=$(jq -r '.entries[0].puuid // empty' body.json 2>/dev/null || true)
+          call "https://euw1.api.riotgames.com/tft/league/v1/entries/DIAMOND/I?queue=RANKED_TFT&page=1" "tft-league-v1 entries"
+          [ -n "$puuid" ] || puuid=$(jq -r '.[0].puuid // empty' body.json 2>/dev/null || true)
+          if [ -n "$puuid" ]; then
+            call "https://euw1.api.riotgames.com/tft/summoner/v1/summoners/by-puuid/$puuid" "tft-summoner-v1"
+            call "https://europe.api.riotgames.com/tft/match/v1/matches/by-puuid/$puuid/ids?count=5" "tft-match-v1 ids"
+            mid=$(jq -r '.[0] // empty' body.json 2>/dev/null || true)
+            if [ -n "$mid" ]; then
+              call "https://europe.api.riotgames.com/tft/match/v1/matches/$mid" "tft-match-v1 match"
+              jq -c '{v: .info.game_version, q: .info.queue_id, set: .info.tft_set_number, p0: (.info.participants[0] | {placement, level, traits: (.traits[:2]), units: (.units[:2]), augments: (.augments // null)})}' body.json || true
+            fi
+          else
+            echo "No puuid available: the league calls failed."
+          fi
+          # Size of the TFT ladders (EUW1), for the sizing of a collection.
+          for t in grandmaster master; do
+            call "https://euw1.api.riotgames.com/tft/league/v1/$t?queue=RANKED_TFT" "tft-league-v1 $t"
+            jq -r '"players: \(.entries | length)"' body.json 2>/dev/null || true
+          done

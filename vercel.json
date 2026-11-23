@@ -19,6 +19,10 @@
       "destination": "https://pub-1221a71099064450b272a22b9892a16d.r2.dev/builds/:path*"
     },
     {
+      "source": "/data/tft/stats/:path*",
+      "destination": "https://pub-1221a71099064450b272a22b9892a16d.r2.dev/tft/stats/:path*"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.csr.html"
     }

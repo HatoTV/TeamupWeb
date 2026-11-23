@@ -58,3 +58,8 @@ tools/lol-stats/.state/
 # Community tips tools (tools/community-tips)
 tools/community-tips/node_modules/
 tools/tft-static/.cache/
+
+# TFT stats: Git keeps only the prerendered subset (Platinum+ of each patch and queue, meta.json); the rest is in R2.
+public/data/tft/stats/**/*.json
+!public/data/tft/stats/meta.json
+!public/data/tft/stats/*/*/platinum_plus.json

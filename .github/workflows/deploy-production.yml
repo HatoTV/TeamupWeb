@@ -1,7 +1,7 @@
 name: Deploy production
 
 # Production is deployed at the end of each LoL stats collection run (lol-stats.yml: 00:17, 06:17, 12:17 and
-# 18:17 UTC), whatever its outcome, so new data and the code merged since go live together.
+# 18:17 UTC) and each TFT stats run (tft-stats.yml: 03:47 and 15:47 UTC), whatever its outcome, so new data and the code merged since go live together.
 # vercel.json sets git.deploymentEnabled.master = false: a push to master no longer deploys production by itself
 # (pull request branches keep their preview deployments). This workflow calls the Vercel Deploy Hook of master.
 # After a collection run, the deployment is skipped when production already runs master's HEAD.
@@ -12,7 +12,7 @@ name: Deploy production
 
 on:
   workflow_run:
-    workflows: ['LoL build stats']
+    workflows: ['LoL build stats', 'TFT stats']
     types: [completed]
   push:
     branches: [master]

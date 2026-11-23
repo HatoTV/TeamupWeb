@@ -1,0 +1,23 @@
+{
+  "name": "teamupp-tft-stats",
+  "private": true,
+  "type": "module",
+  "description": "Collects TFT ranked and Double Up games from the Riot API and publishes comps, champion and item statistics for TeamUpp.",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "crawl": "node src/cli.ts crawl",
+    "publish": "node src/cli.ts publish",
+    "sample": "node src/cli.ts sample",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "node ../../node_modules/typescript/bin/tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "aws4fetch": "^1.0.20",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5"
+  }
+}

@@ -1,0 +1,45 @@
+{
+ "set": 18,
+ "latest": "16.23",
+ "patches": [
+  {
+   "patch": "16.23",
+   "updatedAt": "2026-11-23T11:15:32.748Z",
+   "matches": {
+    "ranked|platinum_plus": 24013,
+    "ranked|emerald_plus": 15615,
+    "ranked|diamond_plus": 8447,
+    "ranked|master_plus": 3554,
+    "double_up|platinum_plus": 5987,
+    "double_up|emerald_plus": 3838,
+    "double_up|diamond_plus": 2090,
+    "double_up|master_plus": 855
+   }
+  },
+  {
+   "patch": "16.22",
+   "updatedAt": "2026-11-23T11:15:32.748Z",
+   "matches": {
+    "ranked|platinum_plus": 11986,
+    "ranked|emerald_plus": 7782,
+    "ranked|diamond_plus": 4134,
+    "ranked|master_plus": 1822,
+    "double_up|platinum_plus": 3014,
+    "double_up|emerald_plus": 1950,
+    "double_up|diamond_plus": 1040,
+    "double_up|master_plus": 435
+   }
+  }
+ ],
+ "queues": [
+  "ranked",
+  "double_up"
+ ],
+ "filters": [
+  "platinum_plus",
+  "emerald_plus",
+  "diamond_plus",
+  "master_plus"
+ ],
+ "sample": true
+}

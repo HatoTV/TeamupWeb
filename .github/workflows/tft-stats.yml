@@ -1,0 +1,106 @@
+name: TFT stats
+
+# Collection of TFT ranked (1100) and Double Up (1160) games (Riot API) on EUW1, KR and NA1, current and previous patch,
+# then comps, champion and item statistics (tools/tft-stats/README.md):
+#   03:47 and 15:47 UTC  crawl (45 min) + aggregation, upload to the public R2 bucket (prefix tft/stats/),
+#                        commit of the prerendered subset (Platinum+ files and meta.json).
+# Scheduled runs only start when the repository variable TFT_STATS_ENABLED is 'true' (set it once the TFT product key is
+# approved) and the repository is public (free minutes). About 1 h 40 of runner time a day.
+# Secrets: RIOT_TFT_API_KEY (TFT product key; RIOT_API_KEY is used when it is absent), R2_ACCOUNT_ID, R2_ACCESS_KEY_ID,
+# R2_SECRET_ACCESS_KEY, R2_BUCKET (private state, prefix tft-stats/). Variable: R2_PUBLIC_BUCKET.
+# Each run then triggers deploy-production.yml (skipped if production already runs master's HEAD).
+
+on:
+  schedule:
+    - cron: '47 3 * * *'
+    - cron: '47 15 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'full = crawl + publish; crawl; publish; smoke = key and limits check; count = players per tier'
+        type: choice
+        options: [full, crawl, publish, smoke, count]
+        default: full
+      budget_minutes:
+        description: Crawl time budget (minutes, 330 at most)
+        default: '45'
+      platforms:
+        description: Platforms (comma separated, empty = EUW1,KR,NA1)
+        default: ''
+
+concurrency:
+  group: tft-stats
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'schedule' || (vars.TFT_STATS_ENABLED == 'true' && !github.event.repository.private)
+    timeout-minutes: 355
+    env:
+      RIOT_TFT_API_KEY: ${{ secrets.RIOT_TFT_API_KEY }}
+      RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      R2_PUBLIC_BUCKET: ${{ vars.R2_PUBLIC_BUCKET }}
+      MODE: ${{ inputs.mode || 'full' }}
+      TFT_STATS_BUDGET_MINUTES: ${{ inputs.budget_minutes || '45' }}
+      TFT_STATS_PLATFORMS: ${{ inputs.platforms || '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+
+      - name: Install (tft-stats and the shared Riot client of lol-stats)
+        run: |
+          npm ci --prefix tools/lol-stats
+          npm ci --prefix tools/tft-stats
+
+      - name: Riot key and limits check
+        if: env.MODE == 'smoke'
+        working-directory: tools/tft-stats
+        run: node src/cli.ts smoke
+
+      - name: Count players per tier
+        if: env.MODE == 'count'
+        working-directory: tools/tft-stats
+        run: node src/cli.ts count
+
+      - name: Tests
+        if: env.MODE != 'smoke' && env.MODE != 'count'
+        working-directory: tools/tft-stats
+        run: npm test
+
+      - name: Crawl (current and previous patch, state saved to R2 every 5 min)
+        if: env.MODE == 'full' || env.MODE == 'crawl'
+        working-directory: tools/tft-stats
+        run: node src/cli.ts crawl
+
+      - name: Aggregate and publish (public R2 bucket + prerendered subset in Git)
+        if: (env.MODE == 'full' || env.MODE == 'publish') && env.R2_PUBLIC_BUCKET != ''
+        working-directory: tools/tft-stats
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
+        run: node src/cli.ts publish
+
+      - name: Commit the data if it changed
+        if: env.MODE == 'full' || env.MODE == 'publish'
+        run: |
+          git add public/data/tft/stats
+          if git diff --cached --quiet; then
+            echo "No data change."
+          else
+            # Vercel (Hobby) only deploys commits authored by the project owner.
+            git config user.name "HatoTV"
+            git config user.email "171453592+HatoTV@users.noreply.github.com"
+            git commit -m "Data: TFT stats $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          fi

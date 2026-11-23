@@ -130,6 +130,11 @@ export const ICONS = {
       },
     ],
   },
+  list: { mode: 'stroke', shapes: [{ tag: 'path', d: 'M4 6h16M4 12h12M4 18h8' }] },
+  hexagon: { mode: 'stroke', shapes: [{ tag: 'path', d: 'M12 3l7.8 4.5v9L12 21l-7.8-4.5v-9z' }] },
+  sword: { mode: 'stroke', shapes: [{ tag: 'path', d: 'M14.5 4H20v5.5L10 19.5 4.5 14zM7 13l4 4M5 17l2 2M3.5 20.5l2-2' }] },
+  trash: { mode: 'stroke', shapes: [{ tag: 'path', d: 'M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3' }] },
+  link: { mode: 'stroke', shapes: [{ tag: 'path', d: 'M10 14a4.5 4.5 0 006.4 0l3-3a4.5 4.5 0 00-6.4-6.4l-1.2 1.2M14 10a4.5 4.5 0 00-6.4 0l-3 3a4.5 4.5 0 006.4 6.4l1.2-1.2' }] },
   repeat: { mode: 'stroke', shapes: [{ tag: 'path', d: 'M17 2l4 4-4 4M3 11V9a3 3 0 013-3h15M7 22l-4-4 4-4M21 13v2a3 3 0 01-3 3H3' }] },
 } satisfies Record<string, IconDefinition>;
 

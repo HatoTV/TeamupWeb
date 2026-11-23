@@ -4,7 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { RouteContextService } from './core/route-context.service';
 import { FooterComponent } from './layout/footer/footer.component';
-import { LolSidebarComponent } from './layout/lol-sidebar/lol-sidebar.component';
+import { HubSidebarComponent } from './layout/hub-sidebar/hub-sidebar.component';
 import { MobileTabbarComponent } from './layout/mobile-tabbar/mobile-tabbar.component';
 import { TopbarComponent } from './layout/topbar/topbar.component';
 import { LanguageService } from './services/language.service';
@@ -13,7 +13,7 @@ import { ConsentService } from './core/ads/consent.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, TranslateModule, TopbarComponent, LolSidebarComponent, FooterComponent, MobileTabbarComponent],
+  imports: [RouterOutlet, TranslateModule, TopbarComponent, HubSidebarComponent, FooterComponent, MobileTabbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

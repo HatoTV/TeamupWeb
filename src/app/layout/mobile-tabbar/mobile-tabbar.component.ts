@@ -41,7 +41,7 @@ export class MobileTabbarComponent {
   protected readonly tabs: TabItem[] = [
     { section: 'home', labelKey: 'NAV.HOME', icon: 'home', path: '/home' },
     { section: 'lol', labelKey: 'GAMES.LOL_SHORT', icon: 'game-lol', path: '/lol/matchups' },
-    { section: 'tft', labelKey: 'GAMES.TFT_SHORT', icon: 'game-tft', path: '/tft' },
+    { section: 'tft', labelKey: 'GAMES.TFT_SHORT', icon: 'game-tft', path: '/tft/compositions' },
     { section: 'rl', labelKey: 'GAMES.RL_SHORT', icon: 'game-rl', path: '/rocket/mecanics' },
     { section: 'about', labelKey: 'ABOUTME', icon: 'user', path: '/contact' },
   ];

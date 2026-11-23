@@ -8,6 +8,8 @@
   --color-surface: #161626;
   --color-surface-plus: #1e1e32;
   --color-surface-active: #22223a;
+  --color-surface-sunken: #12121f; // empty states, insets
+  --color-surface-raised: #2e2e48; // selected segment
 
   // Lines
   --color-line: #2a2a42;
@@ -29,6 +31,25 @@
   --color-lol: #9b7bff;
   --color-tft: #ff5c9e;
   --color-rl: #36a3ff;
+
+  // TFT game conventions: champion cost (1 to 5) and trait tiers (background, text on it)
+  --tft-cost-1: #9aa3b5;
+  --tft-cost-2: #2fb86b;
+  --tft-cost-3: #2c8be0;
+  --tft-cost-4: #b657e8;
+  --tft-cost-5: #f2b33d;
+  --tft-trait-bronze: #8c5a33;
+  --tft-trait-bronze-text: #f3d2b5;
+  --tft-trait-silver: #7d8ba0;
+  --tft-trait-silver-text: #eef2f8;
+  --tft-trait-gold: #e0a82e;
+  --tft-trait-gold-text: #fff4d6;
+  --tft-trait-unique: #c9922e;
+  --tft-trait-unique-text: #fff1cc;
+  --tft-trait-prismatic: linear-gradient(135deg, #ff7ac6, #7ad7ff 50%, #c9a6ff);
+  --tft-trait-prismatic-text: #ffffff;
+  --tft-trait-inactive: #2a2a42;
+  --tft-trait-inactive-text: #a8a8bf;
 
   // Matchup sides (champion chips)
   --color-ally: #4fd18b;

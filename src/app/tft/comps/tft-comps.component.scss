@@ -1,0 +1,438 @@
+// Comps list (maquette TftComps): one card per comp, unfolded detail in three panels.
+
+.head,
+.comp__row {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) 84px 76px 76px 64px 24px;
+  align-items: center;
+  gap: 12px;
+}
+
+.head {
+  padding: 0 18px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
+  color: var(--color-text-subtle);
+}
+
+.head__num {
+  text-align: right;
+}
+
+.comps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.comp {
+  border-radius: 16px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  scroll-margin-top: calc(64px + 80px);
+  transition: border-color var(--duration-color) ease;
+
+  &:hover {
+    border-color: var(--color-line-strong);
+  }
+
+  &.is-open {
+    border-color: color-mix(in srgb, var(--game-accent) 60%, transparent);
+  }
+}
+
+.comp__row {
+  width: 100%;
+  padding: 14px 18px;
+  border: 0;
+  border-radius: 16px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+}
+
+app-tier-tile.comp__tier {
+  --tier-tile-width: 48px;
+  --tier-tile-height: 44px;
+  --tier-tile-radius: 10px;
+  --tier-tile-font: 26px;
+}
+
+.comp__main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.comp__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+}
+
+.comp__name {
+  font: 700 18px/1.2 var(--font-display);
+  font-stretch: var(--stretch-heading);
+  text-transform: uppercase;
+}
+
+app-difficulty-badge.comp__badge {
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+.comp__level {
+  padding: 2px 8px;
+  border-radius: var(--radius-tag);
+  background: var(--color-surface-plus);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.comp__traits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+}
+
+.comp__units {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 8px;
+  padding-top: 4px;
+}
+
+.comp__stat {
+  font: 700 17px var(--font-numeric);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+
+  &--avg {
+    font-size: 20px;
+  }
+
+  &--muted {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+  }
+}
+
+.comp__stat-label {
+  display: none;
+}
+
+.comp__chevron {
+  color: var(--color-text-muted);
+}
+
+// ---------- unfolded ----------
+
+.detail {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.1fr) minmax(0, 0.85fr);
+  gap: 14px;
+  padding: 4px 14px 14px;
+}
+
+.detail__box {
+  min-width: 0;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--color-surface-sunken);
+  border: 1px solid var(--color-line);
+}
+
+.detail__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 10px;
+}
+
+.detail__title {
+  margin-bottom: 10px;
+  font: 700 15px var(--font-display);
+  font-stretch: var(--stretch-heading);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.detail__hint {
+  font-size: 12px;
+  color: var(--color-text-subtle);
+}
+
+.carries {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carry {
+  display: flex;
+  gap: 12px;
+
+  & + & {
+    padding-top: 14px;
+    border-top: 1px solid var(--color-separator);
+  }
+}
+
+.carry__body {
+  min-width: 0;
+  flex: 1;
+}
+
+.carry__name {
+  font-weight: 700;
+}
+
+.carry__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pick {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px 4px 4px;
+  border-radius: 10px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+}
+
+.pick__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.pick__share {
+  font-size: 13px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.pick__avg {
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.carry__alt {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--color-text-subtle);
+}
+
+.plan__label {
+  margin: 14px 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-stretch: var(--stretch-heading);
+  color: var(--color-text-subtle);
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.plan__level {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.plan__steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 4px 8px;
+    border-radius: var(--radius-tag);
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    font-size: 13px;
+    font-weight: 700;
+  }
+}
+
+.plan__stage {
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.plan__early {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.plan__note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.plan__variants {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    position: relative;
+    padding-left: 14px;
+    font-size: 14px;
+    color: var(--color-text-secondary);
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0.55em;
+      left: 0;
+      border: 4px solid transparent;
+      border-left: 6px solid var(--game-accent);
+    }
+
+    & + li {
+      margin-top: 6px;
+    }
+  }
+}
+
+.plan__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--touch-target);
+  margin-top: 16px;
+  padding: 0 16px;
+  border-radius: var(--radius-control);
+  background: var(--game-accent);
+  color: var(--color-on-gold);
+  font-weight: 700;
+  text-align: center;
+
+  &:hover {
+    filter: brightness(1.08);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+}
+
+// ---------- responsive ----------
+
+@media (max-width: 1199px) {
+  .detail {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .detail__box:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 767px) {
+  .head {
+    display: none;
+  }
+
+  // Row 1: tier, comp, chevron. Row 2: the four figures under the comp, with their labels.
+  .comp__row {
+    grid-template-columns: 40px repeat(4, minmax(0, 1fr)) 20px;
+    gap: 10px 8px;
+    padding: 12px;
+  }
+
+  app-tier-tile.comp__tier {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: start;
+    --tier-tile-width: 40px;
+    --tier-tile-height: 36px;
+    --tier-tile-font: 22px;
+  }
+
+  .comp__main {
+    grid-column: 2 / 6;
+    grid-row: 1;
+  }
+
+  .comp__chevron {
+    grid-column: 6;
+    grid-row: 1;
+    align-self: start;
+  }
+
+  .comp__stat {
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .comp__stat--avg {
+    grid-column: 2;
+  }
+
+  .comp__stat-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-text-subtle);
+  }
+
+  .comp__name {
+    font-size: 16px;
+  }
+
+  .comp__units {
+    gap: 8px 6px;
+  }
+
+  .detail {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 0 10px 10px;
+  }
+}

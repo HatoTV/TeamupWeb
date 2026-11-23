@@ -49,6 +49,7 @@ export const routes: Routes = [
   },
   { path: ':lang/lol/jungle', loadComponent: () => import('./LeagueOfLegends/jungle/jungle.component').then((m) => m.JungleComponent) },
   { path: ':lang/tft', loadComponent: () => import('./tftgame/tftgame.component').then((m) => m.TFTGameComponent) },
+  { path: ':lang/tft/compositions', loadComponent: () => import('./tft/comps/tft-comps.component').then((m) => m.TftCompsComponent) },
   {
     path: ':lang/rocket/mecanics',
     loadComponent: () => import('./RocketLeague/mecanics/mecanics.component').then((m) => m.MecanicsComponent),

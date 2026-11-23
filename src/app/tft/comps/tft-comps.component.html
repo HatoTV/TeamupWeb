@@ -1,0 +1,198 @@
+<header class="hero">
+  <img class="hero__art" src="assets/img/site/bkgContent_Tft.webp" alt="" fetchpriority="high" />
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__body">
+    <div class="hero__text">
+      <p class="hero__kicker">{{ 'TFTDATA.KICKER' | translate: { set: set() ?? '…', patch: patch() ?? '…' } }}</p>
+      <h1 class="hero__title">{{ 'TFTDATA.COMPS.TITLE' | translate }}</h1>
+      <p class="hero__lead">{{ 'TFTDATA.COMPS.LEAD' | translate }}</p>
+      @if (sample()) {
+        <p class="hero__sample" role="note">{{ 'TFTDATA.SAMPLE' | translate }}</p>
+      }
+    </div>
+    @if (stats(); as s) {
+      <div class="hero__cards">
+        <div class="card">
+          <span class="card__label">{{ 'TFTDATA.GAMES_ANALYZED' | translate }}</span>
+          <span class="card__value">{{ fmtInt(s.matches) }}</span>
+        </div>
+        @if (updated(); as u) {
+          <div class="card">
+            <span class="card__label">{{ 'TFTDATA.UPDATED' | translate }}</span>
+            <span class="card__value">{{ u }}</span>
+          </div>
+        }
+      </div>
+    }
+  </div>
+</header>
+
+<div class="bar" role="search" [attr.aria-label]="'TFTDATA.FILTERS' | translate">
+  <app-rank-select [filters]="ranks" [value]="rank()" labelPrefix="TFTDATA.RANKS." [exactFilters]="[]" (valueChange)="setQuery({ rank: $event })" />
+  <div class="seg" role="group" [attr.aria-label]="'TFTDATA.QUEUE' | translate">
+    @for (q of ['ranked', 'double_up']; track q) {
+      <button type="button" class="seg__btn" [class.is-on]="queue() === q" [attr.aria-pressed]="queue() === q" (click)="setQuery({ queue: q })">
+        {{ 'TFTDATA.QUEUES.' + q | translate }}
+      </button>
+    }
+  </div>
+  @if (patch(); as p) {
+    <app-patch-select [patches]="patchOptions()" [value]="p" [lang]="ctx.lang()" (valueChange)="setQuery({ patch: $event })" />
+  }
+  <label class="search">
+    <app-icon name="search" [size]="16" />
+    <span class="sr-only">{{ 'TFTDATA.COMPS.SEARCH' | translate }}</span>
+    <input type="search" [placeholder]="'TFTDATA.COMPS.SEARCH' | translate" [value]="search()" (input)="setSearch($any($event.target).value)" />
+  </label>
+  <span class="bar__label" id="comps-sort">{{ 'TFTDATA.SORT' | translate }}</span>
+  <div class="seg" role="group" aria-labelledby="comps-sort">
+    @for (s of sorts; track s) {
+      <button type="button" class="seg__btn" [class.is-on]="sort() === s" [attr.aria-pressed]="sort() === s" (click)="setSort(s)">
+        {{ 'TFTDATA.SORTS.' + s | translate }}
+      </button>
+    }
+  </div>
+</div>
+
+<div class="wrap" [attr.aria-busy]="loading()">
+  @if (loading() && !stats()) {
+    <p class="empty" role="status">{{ 'TFTDATA.LOADING' | translate }}</p>
+  } @else if (!stats() || !stats()!.comps.length) {
+    <p class="empty" role="status">{{ 'TFTDATA.COMPS.NOT_ENOUGH' | translate: { min: fmtInt(stats()?.minCompGames ?? 2000) } }}</p>
+  } @else if (!rows().length) {
+    <p class="empty" role="status">{{ 'TFTDATA.NO_MATCH' | translate }}</p>
+  } @else {
+    <div class="head" aria-hidden="true">
+      <span>{{ 'TFTDATA.TIER' | translate }}</span>
+      <span>{{ 'TFTDATA.COMPS.COLUMN' | translate }}</span>
+      <span class="head__num">{{ 'TFTDATA.AVG' | translate }}</span>
+      <span class="head__num">{{ 'TFTDATA.TOP4' | translate }}</span>
+      <span class="head__num">{{ 'TFTDATA.WIN' | translate }}</span>
+      <span class="head__num">{{ 'TFTDATA.PLAYED' | translate }}</span>
+      <span></span>
+    </div>
+    <ol class="comps">
+      @for (r of rows(); track r.comp.id) {
+        @let c = r.comp;
+        @let isOpen = open() === c.id;
+        <li class="comp" [id]="'comp-' + c.id" [class.is-open]="isOpen">
+          <button type="button" class="comp__row" [attr.aria-expanded]="isOpen" [attr.aria-controls]="'comp-detail-' + c.id" (click)="toggle(c.id)">
+            <app-tier-tile class="comp__tier" [tier]="c.tier" />
+            <span class="comp__main">
+              <span class="comp__title">
+                <span class="comp__name">{{ r.name }}</span>
+                <app-difficulty-badge class="comp__badge" [level]="c.difficulty + 1" />
+                @let lv = levelLabel(c);
+                <span class="comp__level">{{ lv.key | translate: { level: lv.level } }}</span>
+              </span>
+              <span class="comp__traits">
+                @for (s of r.synergies; track s.trait) {
+                  <app-tft-trait [trait]="s.info" [count]="s.count" [style]="s.style" />
+                }
+              </span>
+              <span class="comp__units">
+                @for (u of r.units; track u.id) {
+                  <app-tft-champ [champion]="u.champion" [size]="44" [carry]="u.carry" [items]="u.items" [decorative]="true" />
+                }
+              </span>
+              <span class="sr-only">{{ 'TFTDATA.COMPS.UNITS' | translate: { units: r.unitNames } }}</span>
+            </span>
+            <span class="comp__stat comp__stat--avg" [class]="'comp__stat comp__stat--avg tone--' + tone(c.avg)">
+              <span class="comp__stat-label">{{ 'TFTDATA.AVG' | translate }}</span>{{ fmtPlace(c.avg) }}
+            </span>
+            <span class="comp__stat"><span class="comp__stat-label">{{ 'TFTDATA.TOP4' | translate }}</span>{{ fmtRate(c.top4) }}</span>
+            <span class="comp__stat"><span class="comp__stat-label">{{ 'TFTDATA.WIN' | translate }}</span>{{ fmtRate(c.win) }}</span>
+            <span class="comp__stat comp__stat--muted"><span class="comp__stat-label">{{ 'TFTDATA.PLAYED' | translate }}</span>{{ fmtRate(c.playRate) }}</span>
+            <app-icon class="comp__chevron" [name]="isOpen ? 'chevron-up' : 'chevron-down'" [size]="18" />
+          </button>
+
+          @if (isOpen) {
+            @let o = override(c.id);
+            <div class="detail" [id]="'comp-detail-' + c.id">
+              <section class="detail__box" [attr.aria-labelledby]="'place-' + c.id">
+                <div class="detail__head">
+                  <h2 class="detail__title" [id]="'place-' + c.id">{{ 'TFTDATA.COMPS.PLACEMENT' | translate }}</h2>
+                  <span class="detail__hint">{{ (o?.placement ? 'TFTDATA.COMPS.PLACEMENT_EDITED' : 'TFTDATA.COMPS.PLACEMENT_RULE') | translate }}</span>
+                </div>
+                <app-tft-board [units]="placement(c)" />
+              </section>
+
+              <section class="detail__box" [attr.aria-labelledby]="'carries-' + c.id">
+                <h2 class="detail__title" [id]="'carries-' + c.id">{{ 'TFTDATA.COMPS.CARRIES' | translate }}</h2>
+                <ul class="carries">
+                  @for (k of c.carries; track k.unit) {
+                    <li class="carry">
+                      <app-tft-champ [champion]="catalog()?.champion(k.unit)" [size]="48" />
+                      <div class="carry__body">
+                        <p class="carry__name">{{ champName(k.unit) }}</p>
+                        <ul class="carry__items">
+                          @for (i of k.items; track i.item) {
+                            <li class="pick">
+                              <app-tft-item [item]="catalog()?.item(i.item)" [size]="28" />
+                              <span class="pick__text">
+                                <span class="pick__share">{{ fmtRate(i.share) }}</span>
+                                <span class="pick__avg" [class]="'pick__avg tone--' + tone(i.avg)">{{ 'TFTDATA.AVG_SHORT' | translate: { v: fmtPlace(i.avg) } }}</span>
+                              </span>
+                            </li>
+                          }
+                        </ul>
+                        @if (k.alternatives.length) {
+                          <p class="carry__alt">
+                            {{ 'TFTDATA.COMPS.OR' | translate }}
+                            @for (i of k.alternatives; track i.item) {
+                              <app-tft-item [item]="catalog()?.item(i.item)" [size]="20" />
+                            }
+                          </p>
+                        }
+                      </div>
+                    </li>
+                  } @empty {
+                    <li class="detail__hint">{{ 'TFTDATA.COMPS.NO_CARRY' | translate }}</li>
+                  }
+                </ul>
+                <p class="note">{{ 'TFTDATA.COMPS.CARRIES_NOTE' | translate }}</p>
+              </section>
+
+              <section class="detail__box" [attr.aria-labelledby]="'plan-' + c.id">
+                <h2 class="detail__title" [id]="'plan-' + c.id">{{ 'TFTDATA.COMPS.PLAN' | translate }}</h2>
+                <p class="plan__label">{{ 'TFTDATA.COMPS.FINAL_LEVEL' | translate }}</p>
+                <p class="plan__level">{{ 'TFTDATA.COMPS.AVG_LEVEL' | translate: { level: fmtPlace(c.avgLevel) } }}</p>
+                @if (o?.levelling?.length) {
+                  <p class="plan__label">{{ 'TFTDATA.COMPS.LEVELLING' | translate }}</p>
+                  <ul class="plan__steps">
+                    @for (s of o!.levelling!; track $index) {
+                      <li>{{ 'TFTDATA.COMPS.LEVEL_AT' | translate: { level: s.level } }} <span class="plan__stage">{{ s.stage }}</span></li>
+                    }
+                  </ul>
+                }
+                @if (o?.early?.length) {
+                  <p class="plan__label">{{ 'TFTDATA.COMPS.EARLY' | translate }}</p>
+                  <div class="plan__early">
+                    @for (id of o!.early!; track id) {
+                      <app-tft-champ [champion]="catalog()?.champion(id)" [size]="36" />
+                    }
+                  </div>
+                }
+                @if (noteOf(o); as note) {
+                  <p class="plan__note">{{ note }}</p>
+                }
+                @if (c.variants.length) {
+                  <p class="plan__label">{{ 'TFTDATA.COMPS.VARIANTS' | translate }}</p>
+                  <ul class="plan__variants">
+                    @for (v of c.variants; track v.in) {
+                      <li>{{ 'TFTDATA.COMPS.VARIANT' | translate: { out: champName(v.out), in: champName(v.in), level: v.level } }}</li>
+                    }
+                  </ul>
+                }
+                @if (builderLink(c); as q) {
+                  <a class="plan__cta" [routerLink]="ctx.link('/tft/team-builder')" [queryParams]="q">{{ 'TFTDATA.COMPS.OPEN_BUILDER' | translate }}</a>
+                }
+              </section>
+            </div>
+          }
+        </li>
+      }
+    </ol>
+    <p class="note">{{ 'TFTDATA.COMPS.THRESHOLD' | translate: { min: fmtInt(stats()!.minCompGames) } }}</p>
+  }
+</div>

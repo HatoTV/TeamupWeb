@@ -2,9 +2,9 @@
 
 <app-topbar />
 
-<div class="shell" [class.shell--lol]="ctx.section() === 'lol'" [attr.data-game]="ctx.game()">
-  @if (ctx.section() === 'lol') {
-    <app-lol-sidebar class="shell__sidebar" />
+<div class="shell" [class.shell--hub]="ctx.section() === 'lol' || ctx.section() === 'tft'" [attr.data-game]="ctx.game()">
+  @if (ctx.section() === 'lol' || ctx.section() === 'tft') {
+    <app-hub-sidebar class="shell__sidebar" />
   }
   <main id="main" class="shell__main" tabindex="-1">
     <router-outlet />

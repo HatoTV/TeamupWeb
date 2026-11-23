@@ -1,23 +1,23 @@
-<nav class="sidebar" [attr.aria-label]="'GAMES.LOL' | translate">
+<nav class="sidebar" [attr.aria-label]="nav().nameKey | translate">
   <button
     type="button"
     class="sidebar__toggle"
-    aria-controls="lol-sidebar-content"
+    aria-controls="hub-sidebar-content"
     [attr.aria-expanded]="expanded()"
     (click)="expanded.set(!expanded())"
   >
-    <span>{{ 'NAV.LOL_MENU' | translate }}</span>
+    <span>{{ nav().menuKey | translate }}</span>
     <app-icon [name]="expanded() ? 'chevron-up' : 'chevron-down'" [size]="18" />
   </button>
 
-  <div id="lol-sidebar-content" class="sidebar__content" [class.is-open]="expanded()">
-    <a class="sidebar__logo" [routerLink]="ctx.link('/lol/matchups')">
-      <img src="assets/img/brand/lol-logo.webp" [alt]="'GAMES.LOL' | translate" width="132" height="51" />
+  <div id="hub-sidebar-content" class="sidebar__content" [class.is-open]="expanded()">
+    <a class="sidebar__logo" [routerLink]="ctx.link(nav().home)">
+      <img [src]="nav().logo.src" [alt]="nav().nameKey | translate" [width]="nav().logo.width" [height]="nav().logo.height" />
     </a>
 
-    <p class="sidebar__heading" id="lol-tools-heading">{{ 'NAV.LOL_TOOLS' | translate }}</p>
-    <ul class="sidebar__list" aria-labelledby="lol-tools-heading">
-      @for (tool of tools; track tool.id) {
+    <p class="sidebar__heading" id="hub-tools-heading">{{ nav().toolsKey | translate }}</p>
+    <ul class="sidebar__list" aria-labelledby="hub-tools-heading">
+      @for (tool of nav().tools; track tool.id) {
         <li>
           <a
             class="tool"
@@ -32,9 +32,9 @@
       }
     </ul>
 
-    <p class="sidebar__heading sidebar__heading--spaced" id="lol-guides-heading">{{ 'NAV.LOL_GUIDES' | translate }}</p>
-    <ul class="sidebar__list" aria-labelledby="lol-guides-heading">
-      @for (group of groups; track group.id) {
+    <p class="sidebar__heading sidebar__heading--spaced" id="hub-guides-heading">{{ nav().guidesKey | translate }}</p>
+    <ul class="sidebar__list" aria-labelledby="hub-guides-heading">
+      @for (group of nav().groups; track group.id) {
         <li class="group" [class.is-active]="isGroupActive(group)">
           <a
             class="group__title"

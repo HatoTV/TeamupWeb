@@ -39,7 +39,7 @@ export class FooterComponent {
     {
       titleKey: 'FOOTER.OTHER_GAMES',
       links: [
-        { labelKey: 'GAMES.TFT', path: '/tft' },
+        { labelKey: 'GAMES.TFT', path: '/tft/compositions' },
         { labelKey: 'FOOTER.RL_MECHANICS', path: '/rocket/mecanics' },
       ],
     },

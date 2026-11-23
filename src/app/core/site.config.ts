@@ -17,7 +17,7 @@ export interface GameLink {
 
 export const GAMES: readonly GameLink[] = [
   { id: 'lol', labelKey: 'GAMES.LOL', icon: 'game-lol', path: '/lol/matchups' },
-  { id: 'tft', labelKey: 'GAMES.TFT', icon: 'game-tft', path: '/tft' },
+  { id: 'tft', labelKey: 'GAMES.TFT', icon: 'game-tft', path: '/tft/compositions' },
   { id: 'rl', labelKey: 'GAMES.RL', icon: 'game-rl', path: '/rocket/mecanics' },
 ];
 

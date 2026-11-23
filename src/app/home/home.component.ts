@@ -74,7 +74,7 @@ export class HomeComponent {
 
   protected readonly games: GameCard[] = [
     { game: 'lol', nameKey: 'GAMES.LOL', path: '/lol/matchups', image: 'assets/img/site/gameLoL.webp' },
-    { game: 'tft', nameKey: 'GAMES.TFT', path: '/tft', image: 'assets/img/site/gameTFT.webp' },
+    { game: 'tft', nameKey: 'GAMES.TFT', path: '/tft/compositions', image: 'assets/img/site/gameTFT.webp' },
     { game: 'rl', nameKey: 'GAMES.RL', path: '/rocket/mecanics', image: 'assets/img/site/gameRL.webp' },
   ];
 

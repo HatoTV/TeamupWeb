@@ -366,10 +366,68 @@ app-tier-tile {
   }
 }
 
+// Data table (builds list).
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+  thead th {
+    padding: 12px 8px 10px;
+    border-bottom: 1px solid var(--color-line);
+    font: 700 12px var(--font-body);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-stretch: var(--stretch-heading);
+    color: var(--color-text-muted);
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--color-separator);
+    transition: background-color var(--duration-color) ease;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    &:hover {
+      background: var(--color-surface-plus);
+    }
+
+    &.is-on {
+      background: var(--color-surface-active);
+      box-shadow: inset 3px 0 0 var(--game-accent);
+    }
+  }
+
+  tbody th,
+  td {
+    padding: 8px;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .c-num {
+    text-align: right;
+  }
+
+  .c-tier {
+    width: 52px;
+    text-align: center;
+  }
+
+  abbr {
+    text-decoration: none;
+    cursor: help;
+  }
+}
+
 // List + sticky detail (counters tab).
 .split {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  // Pages set --split for their column ratio; one column under 1200 px.
+  grid-template-columns: var(--split, minmax(0, 1fr) minmax(0, 1fr));
   align-items: start;
   gap: 18px;
 }

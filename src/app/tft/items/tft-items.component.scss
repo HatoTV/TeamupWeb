@@ -1,0 +1,214 @@
+// Items (maquette TftItems): list on the left, detail of the selected item on the right (sticky).
+
+.search--end {
+  margin-left: auto;
+}
+
+:host {
+  --split: minmax(0, 1.15fr) minmax(0, 1fr);
+}
+
+.list {
+  overflow: hidden;
+}
+
+.table:not(.table--holders) {
+  table-layout: fixed;
+
+  .c-tier {
+    width: 52px;
+  }
+
+  .c-num {
+    width: 76px;
+  }
+}
+
+.table {
+  thead th:first-child,
+  tbody th {
+    padding-left: 16px;
+  }
+
+  thead th:last-child,
+  tbody td:last-child {
+    padding-right: 16px;
+  }
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  color: inherit;
+
+  &:hover .item__name {
+    color: var(--game-accent);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+    border-radius: 6px;
+  }
+}
+
+.item__text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.item__name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  font-stretch: var(--stretch-heading);
+  transition: color var(--duration-color) ease;
+}
+
+.item__recipe {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.item__games {
+  font-size: 12px;
+  color: var(--color-text-subtle);
+}
+
+.c-holders {
+  width: 112px;
+}
+
+.holders {
+  display: flex;
+  gap: 3px;
+  --champ-radius: 6px;
+}
+
+.c-none {
+  font-size: 13px;
+  color: var(--color-text-subtle);
+}
+
+// ---------- detail ----------
+
+.detail__id {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+  --item-radius: 10px;
+}
+
+.detail__titles {
+  min-width: 0;
+}
+
+.detail__name {
+  font: 700 24px/1.1 var(--font-display);
+  font-stretch: var(--stretch-heading);
+  text-transform: uppercase;
+}
+
+.detail__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+app-tier-tile.tier-badge {
+  --tier-tile-width: 34px;
+  --tier-tile-height: 28px;
+  --tier-tile-radius: 7px;
+  --tier-tile-font: 17px;
+}
+
+.detail__trait {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.table--holders {
+  margin-top: 10px;
+
+  thead th {
+    padding-top: 0;
+  }
+
+  thead th:first-child,
+  tbody th {
+    padding-left: 0;
+  }
+
+  thead th:last-child,
+  tbody td:last-child {
+    padding-right: 0;
+  }
+}
+
+.panel__empty {
+  margin: 18px;
+}
+
+.back {
+  display: none;
+  margin-top: 14px;
+  min-height: var(--touch-target);
+  padding: 0 14px;
+  border-radius: var(--radius-control);
+  border: 1px solid var(--color-line);
+  background: var(--color-surface-plus);
+  color: var(--color-text);
+  font: 600 14px var(--font-body);
+  cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .back {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .panel {
+    scroll-margin-top: calc(64px + 16px);
+  }
+}
+
+@media (max-width: 767px) {
+  .search--end {
+    margin-left: 0;
+  }
+
+  .c-hide-sm,
+  .c-holders {
+    display: none;
+  }
+
+  .table {
+    font-size: 14px;
+
+    tbody th,
+    td {
+      padding: 6px 4px;
+    }
+
+    thead th {
+      padding: 10px 4px 8px;
+    }
+  }
+
+  .seg {
+    flex-wrap: wrap;
+  }
+
+  .stats4 .stat dd {
+    font-size: 19px;
+  }
+}

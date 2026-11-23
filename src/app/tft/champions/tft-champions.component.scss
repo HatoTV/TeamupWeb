@@ -1,0 +1,382 @@
+// Champions (maquette TftChampions): champions by cost on the left, the selected one on the right (sticky).
+
+:host {
+  --split: minmax(0, 1.1fr) minmax(0, 1fr);
+}
+
+.list {
+  padding: 16px 18px 18px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.search--wide {
+  flex-basis: 100%;
+  max-width: none;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  color: var(--color-text-muted);
+
+  select {
+    height: 100%;
+    padding: 0 34px 0 12px;
+    border-radius: var(--radius-control-sm);
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    color: var(--color-text);
+    font: 600 14px var(--font-body);
+    appearance: none;
+    cursor: pointer;
+
+    &:focus-visible {
+      outline: none;
+      border-color: var(--color-gold);
+    }
+  }
+
+  app-icon {
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+  }
+}
+
+.group__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0 10px;
+  font: 700 14px var(--font-display);
+  font-stretch: var(--stretch-heading);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 10px 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.champ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 2px;
+  border-radius: 10px;
+  color: inherit;
+  transition: background-color var(--duration-color) ease;
+
+  &:hover {
+    background: var(--color-surface-plus);
+  }
+
+  &.is-on {
+    background: var(--color-surface-active);
+    box-shadow: inset 0 0 0 1px var(--game-accent);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+}
+
+.champ__frame {
+  position: relative;
+}
+
+app-tier-tile.champ__tier {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  --tier-tile-width: 20px;
+  --tier-tile-height: 18px;
+  --tier-tile-radius: 5px;
+  --tier-tile-font: 12px;
+  box-shadow: 0 0 0 2px var(--color-surface);
+}
+
+.champ__name {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.champ__avg {
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-subtle);
+}
+
+// ---------- detail ----------
+
+.id {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.id__text {
+  min-width: 0;
+}
+
+.id__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+}
+
+.id__name {
+  font: italic 800 38px/1 var(--font-display);
+  font-stretch: var(--stretch-hero);
+  text-transform: uppercase;
+}
+
+app-tier-tile.tier-badge {
+  --tier-tile-width: 34px;
+  --tier-tile-height: 28px;
+  --tier-tile-radius: 7px;
+  --tier-tile-font: 17px;
+}
+
+.id__cost {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  font-weight: 700;
+}
+
+.traits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trait {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px 3px 6px;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface-plus);
+  border: 1px solid var(--color-line);
+  font-size: 13px;
+}
+
+.trait__name {
+  font-weight: 700;
+}
+
+.trait__bps {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-subtle);
+}
+
+.ability__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 10px;
+}
+
+.ability__text {
+  margin-top: 8px;
+  font-size: 15px;
+  color: var(--color-text-guide);
+
+  p + p {
+    margin-top: 8px;
+  }
+}
+
+.mana {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.mana__track {
+  flex: 1;
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface-plus);
+  overflow: hidden;
+}
+
+.mana__fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--color-rl);
+}
+
+.mana__value {
+  font-weight: 700;
+}
+
+.base {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
+  margin: 12px 0 0;
+}
+
+.base__cell {
+  min-width: 0;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--color-night) 45%, transparent);
+  border: 1px solid var(--color-line);
+
+  dt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 11px;
+    color: var(--color-text-muted);
+  }
+
+  dd {
+    margin: 0;
+    font-weight: 700;
+  }
+}
+
+.trios {
+  margin-top: 8px;
+
+  thead th:first-child,
+  tbody th {
+    padding-left: 0;
+  }
+
+  thead th:last-child,
+  td:last-child {
+    padding-right: 0;
+  }
+}
+
+.trio {
+  display: flex;
+  gap: 3px;
+}
+
+.singles__title {
+  margin: 16px 0 8px;
+}
+
+.singles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.single {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 10px;
+  background: var(--color-surface-plus);
+  border: 1px solid var(--color-line);
+}
+
+.single__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.single__share {
+  font-size: 11px;
+  color: var(--color-text-subtle);
+}
+
+.panel__empty {
+  margin: 18px;
+}
+
+.back {
+  display: none;
+  margin-top: 14px;
+  min-height: var(--touch-target);
+  padding: 0 14px;
+  border-radius: var(--radius-control);
+  border: 1px solid var(--color-line);
+  background: var(--color-surface-plus);
+  color: var(--color-text);
+  font: 600 14px var(--font-body);
+  cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .back {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .panel {
+    scroll-margin-top: calc(64px + 16px);
+  }
+}
+
+@media (max-width: 767px) {
+  .list {
+    padding: 12px;
+  }
+
+  .seg {
+    flex-wrap: wrap;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  }
+
+  .id__name {
+    font-size: 30px;
+  }
+
+  .base {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .singles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .c-hide-sm {
+    display: none;
+  }
+}

@@ -132,7 +132,7 @@ export class TftItemComponent {
       line-height: 1;
       letter-spacing: -1px;
       color: var(--star-color, var(--color-gold));
-      text-shadow: 0 1px 2px #000;
+      text-shadow: 0 1px 2px var(--color-night);
       white-space: nowrap;
     }
     .items {

@@ -1,0 +1,272 @@
+<header class="hero">
+  <img class="hero__art" src="assets/img/site/bkgContent_Tft.webp" alt="" fetchpriority="high" />
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__body">
+    <div class="hero__text">
+      <p class="hero__kicker">{{ 'TFTDATA.KICKER_SET' | translate: { set: catalog()?.data?.set ?? '…' } }}</p>
+      <h1 class="hero__title">{{ 'TFTDATA.BUILDER.TITLE' | translate }}</h1>
+      <p class="hero__lead">{{ 'TFTDATA.BUILDER.LEAD' | translate }}</p>
+    </div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <dl class="toolbar__cards">
+    <div class="card">
+      <dt class="card__label">{{ 'TFTDATA.BUILDER.LEVEL' | translate }}</dt>
+      <dd class="card__value">{{ units().length }}</dd>
+    </div>
+    <div class="card">
+      <dt class="card__label">{{ 'TFTDATA.BUILDER.UNITS' | translate }}</dt>
+      <dd class="card__value">{{ units().length }}</dd>
+    </div>
+    <div class="card">
+      <dt class="card__label">{{ 'TFTDATA.BUILDER.COST' | translate }}</dt>
+      <dd class="card__value card__value--gold">{{ 'TFTDATA.BUILDER.GOLD' | translate: { n: cost() } }}</dd>
+    </div>
+  </dl>
+  <div class="toolbar__actions">
+    <button type="button" class="btn" (click)="clear()" [disabled]="!units().length"><app-icon name="trash" [size]="16" />{{ 'TFTDATA.BUILDER.CLEAR' | translate }}</button>
+    <button type="button" class="btn" (click)="copyLink()" [disabled]="!units().length"><app-icon name="link" [size]="16" />{{ 'TFTDATA.BUILDER.COPY' | translate }}</button>
+    <button type="button" class="btn btn--accent" (click)="save()" [disabled]="!units().length">{{ 'TFTDATA.BUILDER.SAVE' | translate }}</button>
+  </div>
+</div>
+
+<p class="sr-only" role="status" aria-live="polite">{{ announce() }}</p>
+
+<div class="wrap">
+  @if (saved().length) {
+    <section class="box saved" aria-labelledby="saved-title">
+      <h2 class="label" id="saved-title">{{ 'TFTDATA.BUILDER.SAVED_LIST' | translate }}</h2>
+      <ul class="saved__list">
+        @for (s of saved(); track s.code) {
+          <li class="saved__item">
+            <span class="saved__icons" aria-hidden="true">
+              @for (c of savedPreview(s); track $index) {
+                @if (c.icon) {
+                  <img [src]="c.icon" alt="" width="24" height="24" [style.border-color]="costColor(c.cost)" />
+                }
+              }
+            </span>
+            <span class="saved__date">{{ savedDate(s) }}</span>
+            <button type="button" class="link" (click)="loadSaved(s)">{{ 'TFTDATA.BUILDER.LOAD' | translate }}</button>
+            <button type="button" class="link link--muted" (click)="deleteSaved(s)">{{ 'TFTDATA.BUILDER.DELETE' | translate }}</button>
+          </li>
+        }
+      </ul>
+    </section>
+  }
+
+  <div class="top">
+    <section class="box synergies" aria-labelledby="syn-title">
+      <div class="synergies__head">
+        <h2 class="box__title" id="syn-title">{{ 'TFTDATA.BUILDER.SYNERGIES' | translate }}</h2>
+        <span class="synergies__count">{{ 'TFTDATA.BUILDER.ACTIVE' | translate: { n: activeSynergies().length } }}</span>
+      </div>
+      @if (!synergies().length) {
+        <p class="synergies__hint">{{ 'TFTDATA.BUILDER.NO_SYNERGY' | translate }}</p>
+      }
+      <ul class="syn-list">
+        @for (s of activeSynergies(); track s.trait) {
+          <li>
+            <button type="button" class="syn" [class.is-on]="traitFilter() === s.trait" [attr.aria-pressed]="traitFilter() === s.trait" (click)="toggleTrait(s.trait)">
+              <app-tft-trait [trait]="s.info" [count]="s.count" [style]="s.style" [showCount]="false" />
+              <span class="syn__text">
+                <span class="syn__name">{{ s.info?.name }}</span>
+                <span class="syn__bps">
+                  @for (b of s.breakpoints; track $index; let last = $last) {
+                    <span [class.is-reached]="$index === s.level">{{ b.min }}</span>@if (!last) {<span class="syn__sep"> / </span>}
+                  }
+                </span>
+              </span>
+              <span class="syn__count">{{ s.count }}</span>
+            </button>
+          </li>
+        }
+      </ul>
+      @if (inactiveSynergies().length) {
+        <p class="label syn-label">{{ 'TFTDATA.BUILDER.INACTIVE' | translate }}</p>
+        <ul class="syn-list">
+          @for (s of inactiveSynergies(); track s.trait) {
+            <li>
+              <button type="button" class="syn syn--off" [class.is-on]="traitFilter() === s.trait" [attr.aria-pressed]="traitFilter() === s.trait" (click)="toggleTrait(s.trait)">
+                <app-tft-trait [trait]="s.info" [count]="s.count" [showCount]="false" />
+                <span class="syn__text"><span class="syn__name">{{ s.info?.name }}</span></span>
+                <span class="syn__count">{{ s.count }}<span class="syn__sep"> / {{ s.breakpoints[0].min }}</span></span>
+              </button>
+            </li>
+          }
+        </ul>
+      }
+      <p class="synergies__hint">{{ 'TFTDATA.BUILDER.FILTER_HINT' | translate }}</p>
+    </section>
+
+    <section class="box board-box" [attr.aria-label]="'TFTDATA.BOARD.LABEL' | translate">
+      @if (pendingItem(); as p) {
+        <p class="banner" role="status">
+          <app-tft-item [item]="item(p)" [size]="22" />
+          {{ 'TFTDATA.BUILDER.ITEM_PICKED' | translate: { item: item(p)?.name } }}
+          <button type="button" class="link" (click)="pendingItem.set(null)">{{ 'TFTDATA.BUILDER.ITEM_CANCEL' | translate }}</button>
+        </p>
+      } @else if (moving() !== null) {
+        <p class="banner" role="status">
+          {{ 'TFTDATA.BUILDER.MOVE_HINT' | translate: { name: champion(byCell().get(moving()!)?.champion ?? '')?.name } }}
+          <button type="button" class="link" (click)="moving.set(null)">{{ 'TFTDATA.BUILDER.ITEM_CANCEL' | translate }}</button>
+        </p>
+      }
+      <div class="board">
+        <p class="board__label">{{ 'TFTDATA.BOARD.FRONT' | translate }}</p>
+        <div class="board__rows" role="grid" [attr.aria-label]="'TFTDATA.BOARD.LABEL' | translate" [attr.aria-describedby]="'builder-keys'">
+          @for (row of rows; track row) {
+            <div class="board__row" role="row">
+              @for (col of cols; track col) {
+                @let cell = cellOf(row, col);
+                @let u = byCell().get(cell);
+                @let c = u ? champion(u.champion) : undefined;
+                <div class="hexcell" role="gridcell" [class.is-drop]="dropCell() === cell" [class.is-moving]="moving() === cell" [style.--hex-border]="c ? costColor(c.cost) : null">
+                  <button
+                    type="button"
+                    class="hexcell__btn"
+                    [attr.data-cell]="cell"
+                    [attr.aria-label]="cellLabel(cell)"
+                    [attr.aria-haspopup]="u ? 'menu' : null"
+                    [tabindex]="focusCell() === cell ? 0 : -1"
+                    (focus)="focusCell.set(cell)"
+                    (pointerdown)="onPointerDown($event, { kind: 'cell', cell })"
+                    (pointermove)="onPointerMove($event)"
+                    (pointerup)="onPointerUp($event)"
+                    (pointercancel)="onPointerCancel()"
+                    (contextmenu)="onContextMenu($event, cell)"
+                    (click)="onKeyClick($event, { kind: 'cell', cell })"
+                    (keydown)="onCellKey($event, cell)"
+                  >
+                    <span class="hexcell__shape"></span>
+                    <span class="hexcell__inner">
+                      @if (c?.icon; as icon) {
+                        <img [src]="icon" alt="" draggable="false" />
+                      }
+                    </span>
+                  </button>
+                  @if (u) {
+                    @if (u.stars > 1) {
+                      <span class="hexcell__stars" aria-hidden="true">{{ u.stars === 3 ? '★★★' : '★★' }}</span>
+                    }
+                    @if (u.items.length) {
+                      <span class="hexcell__items hexcell__items--live">
+                        @for (i of u.items; track $index; let idx = $index) {
+                          <button type="button" class="equipped" [attr.aria-label]="'TFTDATA.BUILDER.REMOVE_ITEM' | translate: { item: item(i)?.name }" (click)="unequip(cell, idx)">
+                            <app-tft-item [item]="item(i)" [size]="16" [decorative]="true" />
+                          </button>
+                        }
+                      </span>
+                    }
+                    @if (menu() === cell) {
+                      <div class="menu" role="menu" [attr.aria-label]="c?.name">
+                        <button type="button" role="menuitem" (click)="menuStar(cell)">{{ 'TFTDATA.BUILDER.MENU.STAR' | translate }}</button>
+                        <button type="button" role="menuitem" (click)="startMove(cell)">{{ 'TFTDATA.BUILDER.MENU.MOVE' | translate }}</button>
+                        <button type="button" role="menuitem" (click)="menuItems(cell)">{{ 'TFTDATA.BUILDER.MENU.ITEMS' | translate }}</button>
+                        <button type="button" role="menuitem" class="menu__danger" (click)="remove(cell)">{{ 'TFTDATA.BUILDER.MENU.REMOVE' | translate }}</button>
+                        <button type="button" role="menuitem" class="menu__close" (click)="menu.set(null)">{{ 'TFTDATA.BUILDER.MENU.CLOSE' | translate }}</button>
+                      </div>
+                    }
+                  }
+                </div>
+              }
+            </div>
+          }
+        </div>
+        <p class="board__label">{{ 'TFTDATA.BOARD.BACK' | translate }}</p>
+      </div>
+      @if (!units().length) {
+        <p class="board__empty">{{ 'TFTDATA.BUILDER.EMPTY_BOARD' | translate }}</p>
+      }
+      <p class="help">{{ (coarse() ? 'TFTDATA.BUILDER.HELP_TOUCH' : 'TFTDATA.BUILDER.HELP') | translate }}</p>
+      <p class="help" id="builder-keys">{{ 'TFTDATA.BUILDER.KEYS' | translate }}</p>
+    </section>
+  </div>
+
+  <div class="bottom">
+    <section class="box pool" aria-labelledby="pool-title">
+      <div class="pool__head">
+        <h2 class="box__title" id="pool-title">{{ 'TFTDATA.BUILDER.CHAMPIONS' | translate }}</h2>
+        @if (traitFilter(); as t) {
+          <button type="button" class="chip" (click)="traitFilter.set(null)" [attr.aria-label]="'TFTDATA.BUILDER.FILTER_CHIP' | translate: { trait: catalog()?.trait(t)?.name }">
+            {{ catalog()?.trait(t)?.name }} <span aria-hidden="true">×</span>
+          </button>
+        }
+        <label class="search">
+          <app-icon name="search" [size]="16" />
+          <span class="sr-only">{{ 'TFTDATA.BUILDER.SEARCH' | translate }}</span>
+          <input type="search" [placeholder]="'TFTDATA.BUILDER.SEARCH' | translate" [value]="search()" (input)="search.set($any($event.target).value)" />
+        </label>
+      </div>
+      @for (g of championGroups(); track g.cost) {
+        <div class="pool__row">
+          <span class="pool__cost" [style.--cost]="costColor(g.cost)">{{ g.cost }}</span>
+          <ul class="pool__list">
+            @for (c of g.champions; track c.id) {
+              <li>
+                <button
+                  type="button"
+                  class="unit"
+                  [class.is-used]="isOnBoard(c.id)"
+                  [style.--cost]="costColor(c.cost)"
+                  [attr.aria-label]="'TFTDATA.BUILDER.ADD' | translate: { name: c.name }"
+                  (pointerdown)="onPointerDown($event, { kind: 'champion', id: c.id })"
+                  (pointermove)="onPointerMove($event)"
+                  (pointerup)="onPointerUp($event)"
+                  (pointercancel)="onPointerCancel()"
+                  (click)="onKeyClick($event, { kind: 'champion', id: c.id })"
+                >
+                  @if (c.icon) {
+                    <img [src]="c.icon" alt="" width="44" height="44" loading="lazy" draggable="false" />
+                  }
+                  <span class="unit__name">{{ c.name }}</span>
+                </button>
+              </li>
+            }
+          </ul>
+        </div>
+      } @empty {
+        <p class="empty">{{ (catalog() ? 'TFTDATA.CHAMPIONS.EMPTY' : 'TFTDATA.LOADING') | translate }}</p>
+      }
+    </section>
+
+    <section class="box palette" id="builder-items" aria-labelledby="items-title">
+      <h2 class="box__title" id="items-title">{{ 'TFTDATA.BUILDER.ITEMS' | translate }}</h2>
+      <p class="box__sub">{{ 'TFTDATA.BUILDER.ITEMS_HINT' | translate }}</p>
+      @for (g of itemGroups(); track g.key) {
+        <p class="label palette__label">{{ 'TFTDATA.BUILDER.' + g.key | translate }}</p>
+        <ul class="palette__list">
+          @for (i of g.items; track i.id) {
+            <li>
+              <button
+                type="button"
+                class="pal"
+                [class.is-on]="pendingItem() === i.id"
+                [attr.aria-pressed]="pendingItem() === i.id"
+                [attr.aria-label]="i.name"
+                [title]="i.name"
+                (pointerdown)="onPointerDown($event, { kind: 'item', id: i.id })"
+                (pointermove)="onPointerMove($event)"
+                (pointerup)="onPointerUp($event)"
+                (pointercancel)="onPointerCancel()"
+                (click)="onKeyClick($event, { kind: 'item', id: i.id })"
+              >
+                <app-tft-item [item]="i" [size]="32" [decorative]="true" />
+              </button>
+            </li>
+          }
+        </ul>
+      }
+    </section>
+  </div>
+</div>
+
+@if (ghost(); as g) {
+  <div class="ghost" aria-hidden="true" [style.left.px]="g.x" [style.top.px]="g.y">
+    @if (g.icon) {
+      <img [src]="g.icon" alt="" width="48" height="48" />
+    }
+  </div>
+}

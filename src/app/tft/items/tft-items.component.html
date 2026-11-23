@@ -1,0 +1,177 @@
+<header class="hero">
+  <img class="hero__art" src="assets/img/site/bkgContent_Tft.webp" alt="" fetchpriority="high" />
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__body">
+    <div class="hero__text">
+      <p class="hero__kicker">{{ 'TFTDATA.KICKER' | translate: { set: set() ?? '…', patch: patch() ?? '…' } }}</p>
+      <h1 class="hero__title">{{ 'TFTDATA.ITEMS.TITLE' | translate }}</h1>
+      <p class="hero__lead">{{ 'TFTDATA.ITEMS.LEAD' | translate }}</p>
+      @if (sample()) {
+        <p class="hero__sample" role="note">{{ 'TFTDATA.SAMPLE' | translate }}</p>
+      }
+    </div>
+  </div>
+</header>
+
+<div class="bar" role="search" [attr.aria-label]="'TFTDATA.FILTERS' | translate">
+  <div class="seg" role="group" [attr.aria-label]="'TFTDATA.ITEMS.LIST' | translate">
+    @for (t of tabs; track t) {
+      <button type="button" class="seg__btn" [class.is-on]="tab() === t" [attr.aria-pressed]="tab() === t" (click)="setTab(t)">
+        {{ 'TFTDATA.ITEMS.TABS.' + t | translate }} <span class="seg__count">{{ counts()[t] }}</span>
+      </button>
+    }
+  </div>
+  <app-rank-select [filters]="ranks" [value]="rank()" labelPrefix="TFTDATA.RANKS." [exactFilters]="[]" (valueChange)="setQuery({ rank: $event })" />
+  @if (patch(); as p) {
+    <app-patch-select [patches]="patchOptions()" [value]="p" [lang]="ctx.lang()" (valueChange)="setQuery({ patch: $event })" />
+  }
+  <label class="search search--end">
+    <app-icon name="search" [size]="16" />
+    <span class="sr-only">{{ 'TFTDATA.ITEMS.SEARCH' | translate }}</span>
+    <input type="search" [placeholder]="'TFTDATA.ITEMS.SEARCH' | translate" [value]="search()" (input)="setSearch($any($event.target).value)" />
+  </label>
+</div>
+
+<div class="wrap" [attr.aria-busy]="loading()">
+  <div class="split">
+    <section class="box list" id="items-list" [attr.aria-label]="'TFTDATA.ITEMS.LIST' | translate">
+      @if (!rows().length) {
+        <p class="empty">{{ (catalog() ? 'TFTDATA.NO_MATCH' : 'TFTDATA.LOADING') | translate }}</p>
+      } @else {
+        <table class="table">
+          <caption class="sr-only">{{ 'TFTDATA.ITEMS.LIST' | translate }}</caption>
+          <thead>
+            <tr>
+              <th scope="col">{{ 'TFTDATA.ITEMS.COLUMN' | translate }}</th>
+              <th scope="col" class="c-tier">{{ 'TFTDATA.TIER' | translate }}</th>
+              <th scope="col" class="c-num">{{ 'TFTDATA.AVG' | translate }}</th>
+              <th scope="col" class="c-num c-hide-sm">{{ 'TFTDATA.TOP4' | translate }}</th>
+              <th scope="col" class="c-num">{{ 'TFTDATA.WIN' | translate }}</th>
+              <th scope="col" class="c-holders">{{ 'TFTDATA.ITEMS.HOLDERS' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (r of rows(); track r.item.id) {
+              @let on = selected()?.item?.id === r.item.id;
+              <tr [class.is-on]="on">
+                <th scope="row">
+                  <a class="item" [routerLink]="itemLink(r.item)" queryParamsHandling="preserve" [attr.aria-current]="on ? 'true' : null" (click)="reveal()">
+                    <app-tft-item [item]="r.item" [size]="38" [decorative]="true" />
+                    <span class="item__text">
+                      <span class="item__name">{{ r.item.name }}</span>
+                      @if (r.item.recipe?.length) {
+                        <span class="item__recipe" [attr.aria-label]="'TFTDATA.ITEMS.RECIPE' | translate">
+                          @for (c of r.item.recipe; track $index) {
+                            <app-tft-item [item]="catalog()?.item(c)" [size]="16" />
+                          }
+                        </span>
+                      }
+                    </span>
+                  </a>
+                </th>
+                @if (r.stats; as s) {
+                  <td class="c-tier"><app-tier-tile [tier]="s.tier" /></td>
+                  <td class="c-num num" [class]="'c-num num tone--' + tone(s.avg)">{{ fmtPlace(s.avg) }}</td>
+                  <td class="c-num num c-hide-sm">{{ fmtRate(s.top4) }}</td>
+                  <td class="c-num num">{{ fmtRate(s.win) }}</td>
+                  <td class="c-holders">
+                    <span class="holders">
+                      @for (h of holders(s); track h.champion) {
+                        <app-tft-champ [champion]="catalog()?.champion(h.champion)" [size]="26" />
+                      }
+                    </span>
+                  </td>
+                } @else {
+                  <td class="c-none" colspan="5">{{ 'TFTDATA.ITEMS.NOT_ENOUGH' | translate }}</td>
+                }
+              </tr>
+            }
+          </tbody>
+        </table>
+      }
+    </section>
+
+    <aside #panel class="panel" [attr.aria-label]="'TFTDATA.ITEMS.DETAIL' | translate" aria-live="polite">
+      @if (selected(); as sel) {
+        <div class="panel__head">
+          <div class="detail__id">
+            <app-tft-item [item]="sel.item" [size]="64" />
+            <div class="detail__titles">
+              <h2 class="detail__name">{{ sel.item.name }}</h2>
+              <p class="detail__meta">
+                @if (sel.stats; as s) {
+                  <app-tier-tile class="tier-badge" [tier]="s.tier" [attr.aria-label]="'TFTDATA.TIER_LABEL' | translate: { tier: s.tier }" role="img" />
+                }
+                @if (sel.item.recipe?.length) {
+                  <span class="item__recipe" [attr.aria-label]="'TFTDATA.ITEMS.RECIPE' | translate">
+                    @for (c of sel.item.recipe; track $index) {
+                      <app-tft-item [item]="catalog()?.item(c)" [size]="22" />
+                    }
+                  </span>
+                }
+                @if (sel.item.trait) {
+                  <span class="detail__trait">{{ 'TFTDATA.ITEMS.EMBLEM_OF' | translate: { trait: traitName(sel.item.trait) } }}</span>
+                }
+              </p>
+            </div>
+          </div>
+          @if (sel.stats; as s) {
+            <dl class="stats4">
+              <div class="stat"><dt>{{ 'TFTDATA.AVG' | translate }}</dt><dd [class]="'tone--' + tone(s.avg)">{{ fmtPlace(s.avg) }}</dd></div>
+              <div class="stat"><dt>{{ 'TFTDATA.TOP4' | translate }}</dt><dd>{{ fmtRate(s.top4) }}</dd></div>
+              <div class="stat"><dt>{{ 'TFTDATA.WIN' | translate }}</dt><dd>{{ fmtRate(s.win) }}</dd></div>
+              <div class="stat"><dt>{{ 'TFTDATA.PLAYED' | translate }}</dt><dd>{{ fmtRate(s.playRate) }}</dd></div>
+            </dl>
+          }
+        </div>
+
+        <section class="panel__section" aria-labelledby="holders-title">
+          <h3 class="box__title" id="holders-title">{{ 'TFTDATA.ITEMS.BEST_HOLDERS' | translate }}</h3>
+          @if (sel.stats?.holders?.length) {
+            <p class="box__sub">{{ 'TFTDATA.ITEMS.BEST_HOLDERS_SUB' | translate: { min: fmtInt(minHolderGames()) } }}</p>
+            <table class="table table--holders">
+              <caption class="sr-only">{{ 'TFTDATA.ITEMS.BEST_HOLDERS' | translate }}</caption>
+              <thead>
+                <tr>
+                  <th scope="col">{{ 'TFTDATA.ITEMS.CHAMPION' | translate }}</th>
+                  <th scope="col" class="c-tier">{{ 'TFTDATA.ITEMS.COMPAT' | translate }}</th>
+                  <th scope="col" class="c-num">{{ 'TFTDATA.ITEMS.PLACE' | translate }}</th>
+                  <th scope="col" class="c-num">
+                    <abbr [title]="'TFTDATA.ITEMS.GAP_HELP' | translate">{{ 'TFTDATA.ITEMS.GAP' | translate }}</abbr>
+                  </th>
+                  <th scope="col" class="c-num">{{ 'TFTDATA.WIN' | translate }}</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (h of sel.stats!.holders; track h.champion) {
+                  @let c = catalog()?.champion(h.champion);
+                  <tr>
+                    <th scope="row">
+                      <a class="item" [routerLink]="c ? [ctx.link('/tft/champions/' + c.slug)] : null" queryParamsHandling="preserve">
+                        <app-tft-champ [champion]="c" [size]="34" [decorative]="true" />
+                        <span class="item__text">
+                          <span class="item__name">{{ c?.name ?? h.champion }}</span>
+                          <span class="item__games">{{ 'TFTDATA.N_GAMES' | translate: { n: fmtInt(h.games) } }}</span>
+                        </span>
+                      </a>
+                    </th>
+                    <td class="c-tier"><app-tier-tile [tier]="h.tier" /></td>
+                    <td class="c-num num" [class]="'c-num num tone--' + tone(h.avg)">{{ fmtPlace(h.avg) }}</td>
+                    <td class="c-num num" [class.tone--good]="h.delta < 0" [class.tone--bad]="h.delta > 0">{{ fmtGap(h.delta) }}</td>
+                    <td class="c-num num">{{ fmtRate(h.win) }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+            <p class="note">{{ 'TFTDATA.ITEMS.GAP_HELP' | translate }}</p>
+          } @else {
+            <p class="empty">{{ (sel.stats ? 'TFTDATA.ITEMS.NO_HOLDER' : 'TFTDATA.ITEMS.NOT_ENOUGH') | translate }}</p>
+          }
+          <button type="button" class="back" (click)="scrollToList()">↑ {{ 'TFTDATA.ITEMS.BACK' | translate }}</button>
+        </section>
+      } @else {
+        <p class="empty panel__empty">{{ 'TFTDATA.ITEMS.PICK' | translate }}</p>
+      }
+    </aside>
+  </div>
+</div>

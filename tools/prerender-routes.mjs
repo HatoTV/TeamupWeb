@@ -36,6 +36,24 @@ function buildPaths() {
   }
 }
 
+// TFT tools: champion and item pages of the current set (tools/tft-static output).
+function tftPaths() {
+  try {
+    const { set } = JSON.parse(readFileSync(join(ROOT, 'public/data/tft/static/current.json'), 'utf8'));
+    const data = JSON.parse(readFileSync(join(ROOT, `public/data/tft/static/set${set}/en.json`), 'utf8'));
+    return [
+      '/tft/compositions',
+      '/tft/champions',
+      ...data.champions.filter((c) => !c.variantOf).map((c) => `/tft/champions/${c.slug}`),
+      '/tft/objets',
+      ...data.items.filter((i) => ['complete', 'emblem', 'component'].includes(i.kind)).map((i) => `/tft/objets/${i.slug}`),
+      '/tft/team-builder',
+    ];
+  } catch {
+    return []; // no TFT static data yet
+  }
+}
+
 const mechanics = JSON.parse(readFileSync(join(ROOT, 'public/assets/rlmecanics.json'), 'utf8'));
 const paths = [
   '/home',
@@ -51,6 +69,7 @@ const paths = [
   '/lol/wavemanagement',
   '/lol/jungle',
   '/tft',
+  ...tftPaths(),
   '/rocket/mecanics',
   ...mechanics.map((m) => `/rocket/mecanics/${slugify(m.name)}`),
   '/contact',

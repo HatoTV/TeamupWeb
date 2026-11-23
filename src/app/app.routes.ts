@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { matchupsMatcher } from './LeagueOfLegends/matchups/matchups-url';
+import { tftPageMatcher } from './tft/tft-routes';
 
 /** All pages are lazy-loaded; the URL always starts with the language (fr | en). */
 export const routes: Routes = [
@@ -50,6 +51,10 @@ export const routes: Routes = [
   { path: ':lang/lol/jungle', loadComponent: () => import('./LeagueOfLegends/jungle/jungle.component').then((m) => m.JungleComponent) },
   { path: ':lang/tft', loadComponent: () => import('./tftgame/tftgame.component').then((m) => m.TFTGameComponent) },
   { path: ':lang/tft/compositions', loadComponent: () => import('./tft/comps/tft-comps.component').then((m) => m.TftCompsComponent) },
+  // `/:lang/tft/objets[/:slug]` and `/:lang/tft/champions[/:slug]`: one route each, the page is reused between selections.
+  { matcher: tftPageMatcher('objets'), loadComponent: () => import('./tft/items/tft-items.component').then((m) => m.TftItemsComponent) },
+  { matcher: tftPageMatcher('champions'), loadComponent: () => import('./tft/champions/tft-champions.component').then((m) => m.TftChampionsComponent) },
+  { path: ':lang/tft/team-builder', loadComponent: () => import('./tft/builder/tft-builder.component').then((m) => m.TftBuilderComponent) },
   {
     path: ':lang/rocket/mecanics',
     loadComponent: () => import('./RocketLeague/mecanics/mecanics.component').then((m) => m.MecanicsComponent),

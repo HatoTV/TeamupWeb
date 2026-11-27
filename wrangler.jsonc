@@ -1,0 +1,25 @@
+// Cloudflare Worker + static assets (replaces Vercel). Deployed by .github/workflows/deploy-production.yml
+// after `npm run build:cloudflare`. Secrets: `wrangler secret put TWITCH_CLIENT_ID` / `TWITCH_CLIENT_SECRET`.
+{
+  "name": "teamupp",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-11-26",
+  "assets": {
+    "directory": "dist/teamup-web/browser",
+    "binding": "ASSETS",
+    // A request matching no file runs the Worker (stats from R2, client-side shell for pages): the SPA mode would
+    // answer every miss with index.html, even the stats JSON.
+    "not_found_handling": "none",
+    // /fr/home serves fr/home/index.html without redirect; /fr/home/ redirects to /fr/home.
+    "html_handling": "drop-trailing-slash",
+    // Videos go through the Worker for byte ranges (worker/range.js).
+    "run_worker_first": ["/api/*", "/assets/lolVideos/*", "/assets/rlVideos/*"]
+  },
+  "routes": [
+    { "pattern": "www.teamupp.app", "custom_domain": true },
+    { "pattern": "teamupp.app", "custom_domain": true }
+  ],
+  "r2_buckets": [{ "binding": "STATS", "bucket_name": "teamupp-stats" }],
+  "send_email": [{ "name": "EMAIL" }],
+  "vars": { "MAIL_FROM": "noreply@teamupp.app" }
+}

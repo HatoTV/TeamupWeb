@@ -512,7 +512,7 @@
     },
     "DATA_SHARING": {
       "TITLE": "Destinataires des données",
-      "DESCRIPTION": "L'éditeur ne vend ni ne loue vos données. Elles sont accessibles uniquement à l'éditeur et à ses prestataires techniques : Google (publicité AdSense et messagerie électronique) et Vercel (hébergement). Ces prestataires pouvant traiter des données aux États-Unis, ces transferts sont encadrés par les garanties prévues par le RGPD."
+      "DESCRIPTION": "L'éditeur ne vend ni ne loue vos données. Elles sont accessibles uniquement à l'éditeur et à ses prestataires techniques : Google (publicité AdSense et messagerie électronique) et Cloudflare (hébergement). Ces prestataires pouvant traiter des données aux États-Unis, ces transferts sont encadrés par les garanties prévues par le RGPD."
     },
     "USER_RIGHTS": {
       "TITLE": "Vos droits",
@@ -862,7 +862,7 @@
     },
     "HOST": {
       "TITLE": "Hébergeur",
-      "DESCRIPTION": "Vercel Inc.<br>440 N Barranca Ave #4133, Covina, CA 91723, États-Unis<br>Site : <a href=\"https://vercel.com\" target=\"_blank\" rel=\"noopener noreferrer\">vercel.com</a>"
+      "DESCRIPTION": "Cloudflare, Inc.<br>101 Townsend Street, San Francisco, CA 94107, États-Unis<br>Site : <a href=\"https://www.cloudflare.com\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a>"
     },
     "IP": {
       "TITLE": "Propriété intellectuelle",

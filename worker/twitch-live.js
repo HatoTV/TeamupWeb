@@ -1,12 +1,14 @@
 // Public, read-only Twitch live status for the Hato_TV channel.
-// Secrets stay server-side: the browser only ever receives { live, title?, viewers? }.
+// Secrets (wrangler secret put TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET) stay server-side: the browser only ever
+// receives { live, title?, viewers? }.
 
 const CHANNEL = 'Hato_TV';
 const TOKEN_URL = 'https://id.twitch.tv/oauth2/token';
 const STREAMS_URL = `https://api.twitch.tv/helix/streams?user_login=${CHANNEL}`;
 const EXPIRY_MARGIN_MS = 60_000;
+const CACHE_SECONDS = 60;
 
-/** In-memory app access token cache (lives as long as the function instance). */
+/** App access token cache (lives as long as the Worker isolate). */
 let cachedToken = { value: '', expiresAt: 0 };
 
 async function getAppAccessToken(clientId, clientSecret) {
@@ -49,18 +51,29 @@ async function fetchStream(clientId, clientSecret, retry = true) {
   return Array.isArray(data) && data.length > 0 ? data[0] : null;
 }
 
-export default async function handler(req, res) {
-  if (req.method !== 'GET' && req.method !== 'HEAD') {
-    res.setHeader('Allow', 'GET, HEAD');
-    return res.status(405).json({ error: 'Method not allowed' });
+function json(body, status, cacheControl) {
+  return Response.json(body, {
+    status,
+    headers: { 'Cache-Control': cacheControl, 'X-Content-Type-Options': 'nosniff' },
+  });
+}
+
+export async function handleTwitchLive(request, env, ctx) {
+  if (request.method !== 'GET' && request.method !== 'HEAD') {
+    return Response.json({ error: 'Method not allowed' }, { status: 405, headers: { Allow: 'GET, HEAD' } });
   }
 
-  const clientId = process.env.TWITCH_CLIENT_ID;
-  const clientSecret = process.env.TWITCH_CLIENT_SECRET;
+  // One Twitch call per minute and per data centre at most (the Cache API only works on a custom domain).
+  const cache = caches.default;
+  const cacheKey = new Request(new URL('/api/twitch-live', request.url), { method: 'GET' });
+  const cached = await cache.match(cacheKey);
+  if (cached) return cached;
+
+  const clientId = env.TWITCH_CLIENT_ID;
+  const clientSecret = env.TWITCH_CLIENT_SECRET;
   if (!clientId || !clientSecret) {
     console.error('twitch-live: missing Twitch credentials');
-    res.setHeader('Cache-Control', 'no-store');
-    return res.status(503).json({ error: 'Service unavailable' });
+    return json({ error: 'Service unavailable' }, 503, 'no-store');
   }
 
   try {
@@ -68,11 +81,11 @@ export default async function handler(req, res) {
     const body = stream
       ? { live: true, title: String(stream.title || ''), viewers: Number(stream.viewer_count || 0) }
       : { live: false };
-    res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate=120');
-    return res.status(200).json(body);
+    const response = json(body, 200, `public, max-age=${CACHE_SECONDS}`);
+    ctx.waitUntil(cache.put(cacheKey, response.clone()));
+    return response;
   } catch (error) {
     console.error('twitch-live:', error instanceof Error ? error.message : error);
-    res.setHeader('Cache-Control', 'no-store');
-    return res.status(502).json({ error: 'Service unavailable' });
+    return json({ error: 'Service unavailable' }, 502, 'no-store');
   }
 }

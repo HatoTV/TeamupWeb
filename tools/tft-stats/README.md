@@ -61,7 +61,7 @@ Par identifiant de compo (`?comp=`) : `placement` (case 0-27 de chaque unité, l
 ## Sorties
 
 - `public/data/tft/stats/{patch}/{ranked|double_up}/{filtre}.json` (validé par `zod`, `src/schema.ts`) et `meta.json`.
-- Tous les fichiers vont dans le bucket R2 public (`R2_PUBLIC_BUCKET`, préfixe `tft/stats/`), servi par la réécriture `/data/tft/stats/:path*` de `vercel.json`. Git ne garde que `platinum_plus` et `meta.json` (prérendu) ; un fichier présent dans le déploiement est servi en priorité.
+- Tous les fichiers vont dans le bucket R2 public (`R2_PUBLIC_BUCKET`, préfixe `tft/stats/`), servi sous `/data/tft/stats/` par le Worker Cloudflare du site (`worker/index.js`, binding R2 `STATS`). Git ne garde que `platinum_plus` et `meta.json` (prérendu) ; un fichier présent dans le déploiement est servi en priorité.
 
 ## Workflow (`.github/workflows/tft-stats.yml`)
 

@@ -97,7 +97,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data change."
           else
-            # Vercel (Hobby) only deploys commits authored by the project owner.
+            # Data commits are authored as the project owner (authorised by HatoTV).
             git config user.name "HatoTV"
             git config user.email "171453592+HatoTV@users.noreply.github.com"
             git commit -m "Data: TFT stats $(date -u +%Y-%m-%d)"

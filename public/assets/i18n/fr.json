@@ -446,7 +446,7 @@
   "CGU": {
     "TITLE": "Conditions Générales d'Utilisation",
     "OBJECT": "Objet du document",
-    "INTRO": "Ce document définit les conditions générales d'utilisation du site TeamUpp, accessible à l'adresse teamupp.app.",
+    "INTRO": "Ce document définit les conditions générales d'utilisation du site TeamUpp, accessible à l'adresse teamupp.eu.",
     "ACCESS": {
       "TITLE": "Accès au site",
       "DESCRIPTION": "Le site est accessible gratuitement à tout utilisateur disposant d'une connexion Internet. L'éditeur du site (pseudonyme : Hato) se réserve le droit d'interrompre temporairement ou définitivement l'accès au site sans préavis."
@@ -488,7 +488,7 @@
     "TITLE": "Politique de Confidentialité",
     "INTRO": {
       "TITLE": "Introduction",
-      "DESCRIPTION": "Cette politique de confidentialité explique comment le site teamupp.app collecte, utilise et protège les données personnelles, conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés."
+      "DESCRIPTION": "Cette politique de confidentialité explique comment le site teamupp.eu collecte, utilise et protège les données personnelles, conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés."
     },
     "CONTROLLER": {
       "TITLE": "Responsable du traitement",
@@ -512,7 +512,7 @@
     },
     "DATA_SHARING": {
       "TITLE": "Destinataires des données",
-      "DESCRIPTION": "L'éditeur ne vend ni ne loue vos données. Elles sont accessibles uniquement à l'éditeur et à ses prestataires techniques : Google (publicité AdSense et messagerie électronique) et Vercel (hébergement). Ces prestataires pouvant traiter des données aux États-Unis, ces transferts sont encadrés par les garanties prévues par le RGPD."
+      "DESCRIPTION": "L'éditeur ne vend ni ne loue vos données. Elles sont accessibles uniquement à l'éditeur et à ses prestataires techniques : Google (publicité AdSense et messagerie électronique) et Cloudflare (hébergement). Ces prestataires pouvant traiter des données aux États-Unis, ces transferts sont encadrés par les garanties prévues par le RGPD."
     },
     "USER_RIGHTS": {
       "TITLE": "Vos droits",
@@ -780,6 +780,10 @@
     }
   },
   "TFTPAGE": {
+    "SOON": {
+      "LABEL": "Bientôt :",
+      "TEXT": "toutes les données TFT (meilleures compositions, objets, champions, profils de joueurs…) arrivent très bientôt sur TeamUpp !"
+    },
     "FACTS_LABEL": "Chiffres clés",
     "FACT_PLAYERS_VALUE": "8",
     "FACT_PLAYERS": "joueurs par partie",
@@ -847,7 +851,7 @@
   },
   "MENTIONS": {
     "TITLE": "Mentions légales",
-    "INTRO": "Informations légales relatives au site teamupp.app.",
+    "INTRO": "Informations légales relatives au site teamupp.eu.",
     "EDITOR": {
       "TITLE": "Éditeur du site",
       "DESCRIPTION": "Ce site est édité par un particulier à titre non professionnel. Conformément à la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), l'éditeur a choisi de rester anonyme ; ses coordonnées ont été communiquées à l'hébergeur.<br>Pseudonyme de l'éditeur : Hato."
@@ -862,7 +866,7 @@
     },
     "HOST": {
       "TITLE": "Hébergeur",
-      "DESCRIPTION": "Vercel Inc.<br>440 N Barranca Ave #4133, Covina, CA 91723, États-Unis<br>Site : <a href=\"https://vercel.com\" target=\"_blank\" rel=\"noopener noreferrer\">vercel.com</a>"
+      "DESCRIPTION": "Cloudflare, Inc.<br>101 Townsend Street, San Francisco, CA 94107, États-Unis<br>Site : <a href=\"https://www.cloudflare.com\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a>"
     },
     "IP": {
       "TITLE": "Propriété intellectuelle",

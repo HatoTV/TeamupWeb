@@ -82,7 +82,7 @@ export class R2StateStore implements StateStore {
 }
 
 /**
- * Public statistics bucket (`R2_PUBLIC_BUCKET`, same credentials), served by the site through a Vercel rewrite.
+ * Public statistics bucket (`R2_PUBLIC_BUCKET`, same credentials), served by the site's Cloudflare Worker (R2 binding).
  * Never the state bucket: that one keeps player ids.
  */
 export function r2PublicFromEnv(env: NodeJS.ProcessEnv = process.env): R2StateStore | null {

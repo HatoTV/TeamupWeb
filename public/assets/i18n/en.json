@@ -390,7 +390,7 @@
   "CGU": {
     "TITLE": "Terms of Use",
     "OBJECT": "Purpose of the document",
-    "INTRO": "This document defines the terms of use of the TeamUpp website, available at teamupp.app.",
+    "INTRO": "This document defines the terms of use of the TeamUpp website, available at teamupp.eu.",
     "ACCESS": {
       "TITLE": "Website Access",
       "DESCRIPTION": "The website is freely accessible to any user with an internet connection. The site publisher (pseudonym: Hato) reserves the right to temporarily or permanently suspend access to the site without prior notice."
@@ -432,7 +432,7 @@
     "TITLE": "Privacy Policy",
     "INTRO": {
       "TITLE": "Introduction",
-      "DESCRIPTION": "This privacy policy explains how teamupp.app collects, uses and protects personal data, in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act."
+      "DESCRIPTION": "This privacy policy explains how teamupp.eu collects, uses and protects personal data, in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act."
     },
     "CONTROLLER": {
       "TITLE": "Data controller",
@@ -456,7 +456,7 @@
     },
     "DATA_SHARING": {
       "TITLE": "Data recipients",
-      "DESCRIPTION": "The publisher does not sell or rent your data. It is only accessible to the publisher and their technical providers: Google (AdSense advertising and email) and Vercel (hosting). As these providers may process data in the United States, such transfers are covered by the safeguards provided for by the GDPR."
+      "DESCRIPTION": "The publisher does not sell or rent your data. It is only accessible to the publisher and their technical providers: Google (AdSense advertising and email) and Cloudflare (hosting). As these providers may process data in the United States, such transfers are covered by the safeguards provided for by the GDPR."
     },
     "USER_RIGHTS": {
       "TITLE": "Your rights",
@@ -724,6 +724,10 @@
     }
   },
   "TFTPAGE": {
+    "SOON": {
+      "LABEL": "Coming soon:",
+      "TEXT": "all the TFT data (best comps, items, champions, player profiles…) is landing on TeamUpp very soon!"
+    },
     "FACTS_LABEL": "Key figures",
     "FACT_PLAYERS_VALUE": "8",
     "FACT_PLAYERS": "players per game",
@@ -791,7 +795,7 @@
   },
   "MENTIONS": {
     "TITLE": "Legal notice",
-    "INTRO": "Legal information about teamupp.app.",
+    "INTRO": "Legal information about teamupp.eu.",
     "EDITOR": {
       "TITLE": "Publisher",
       "DESCRIPTION": "This site is published by an individual on a non-professional basis. In accordance with French law no. 2004-575 of 21 June 2004 on confidence in the digital economy (LCEN), the publisher has chosen to remain anonymous; their contact details have been provided to the host.<br>Publisher's pseudonym: Hato."
@@ -806,7 +810,7 @@
     },
     "HOST": {
       "TITLE": "Host",
-      "DESCRIPTION": "Vercel Inc.<br>440 N Barranca Ave #4133, Covina, CA 91723, United States<br>Website: <a href=\"https://vercel.com\" target=\"_blank\" rel=\"noopener noreferrer\">vercel.com</a>"
+      "DESCRIPTION": "Cloudflare, Inc.<br>101 Townsend Street, San Francisco, CA 94107, United States<br>Website: <a href=\"https://www.cloudflare.com\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a>"
     },
     "IP": {
       "TITLE": "Intellectual property",

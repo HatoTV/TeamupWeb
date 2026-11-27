@@ -5,7 +5,7 @@ import { Meta, Title } from '@angular/platform-browser';
 import { RouteContextService } from './route-context.service';
 import { SUPPORTED_LANGS } from './site.config';
 
-export const SITE_URL = 'https://www.teamupp.app';
+export const SITE_URL = 'https://www.teamupp.eu';
 const SITE_NAME = 'TeamUpp';
 const DEFAULT_IMAGE = '/assets/img/og-default.jpg';
 

@@ -18,6 +18,10 @@
   </div>
 </header>
 
+<div class="container soon">
+  <app-callout variant="bonus" [label]="'TFTPAGE.SOON.LABEL' | translate">{{ 'TFTPAGE.SOON.TEXT' | translate }}</app-callout>
+</div>
+
 <div class="container guide-wrap">
   <app-guide-layout [toc]="toc()" tocPosition="start" [showAsk]="false">
     <div class="guide-prose tft">

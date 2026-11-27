@@ -52,7 +52,7 @@ export class TwitchService {
         live
           ? {
               isLive: true,
-              streamUrl: `https://player.twitch.tv/?channel=${CHANNEL}&parent=teamupp.app&parent=www.teamupp.app`,
+              streamUrl: `https://player.twitch.tv/?channel=${CHANNEL}&parent=teamupp.eu&parent=www.teamupp.eu`,
               streamTitle: title ?? '',
               viewers,
             }

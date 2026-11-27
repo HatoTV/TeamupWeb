@@ -45,9 +45,9 @@ describe('SeoService', () => {
     const doc = TestBed.inject(DOCUMENT);
     expect(TestBed.inject(Title).getTitle()).toBe('Picker · TeamUpp');
     expect(doc.querySelector('meta[name="description"]')?.getAttribute('content')).toBe('Desc');
-    expect(doc.querySelector('link[rel="canonical"]')?.getAttribute('href')).toBe('https://www.teamupp.app/fr/lol/picker');
-    expect(doc.querySelector('link[hreflang="en"]')?.getAttribute('href')).toBe('https://www.teamupp.app/en/lol/picker');
-    expect(doc.querySelector('link[hreflang="x-default"]')?.getAttribute('href')).toBe('https://www.teamupp.app/fr/lol/picker');
+    expect(doc.querySelector('link[rel="canonical"]')?.getAttribute('href')).toBe('https://www.teamupp.eu/fr/lol/picker');
+    expect(doc.querySelector('link[hreflang="en"]')?.getAttribute('href')).toBe('https://www.teamupp.eu/en/lol/picker');
+    expect(doc.querySelector('link[hreflang="x-default"]')?.getAttribute('href')).toBe('https://www.teamupp.eu/fr/lol/picker');
   });
 });
 

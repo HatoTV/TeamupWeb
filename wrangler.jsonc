@@ -15,11 +15,16 @@
     // Videos go through the Worker for byte ranges (worker/range.js).
     "run_worker_first": ["/api/*", "/assets/lolVideos/*", "/assets/rlVideos/*"]
   },
+  // www.teamupp.eu is the site. The other hosts are attached so Cloudflare creates their DNS records and
+  // certificates; Redirect Rules (dashboard, zones teamupp.eu and teamupp.app) send them to https://www.teamupp.eu
+  // with a 301 before the Worker runs. teamupp.app (GoDaddy) is paid until 2027-09-15.
   "routes": [
+    { "pattern": "www.teamupp.eu", "custom_domain": true },
+    { "pattern": "teamupp.eu", "custom_domain": true },
     { "pattern": "www.teamupp.app", "custom_domain": true },
     { "pattern": "teamupp.app", "custom_domain": true }
   ],
   "r2_buckets": [{ "binding": "STATS", "bucket_name": "teamupp-stats" }],
   "send_email": [{ "name": "EMAIL" }],
-  "vars": { "MAIL_FROM": "noreply@teamupp.app" }
+  "vars": { "MAIL_FROM": "noreply@teamupp.eu" }
 }

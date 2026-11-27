@@ -34,7 +34,7 @@ function isRateLimited(ip) {
 function isAllowedOrigin(origin, requestUrl) {
   if (typeof origin !== 'string') return false;
   return (
-    origin === 'https://teamupp.app' || origin === 'https://www.teamupp.app' || origin === new URL(requestUrl).origin
+    origin === 'https://teamupp.eu' || origin === 'https://www.teamupp.eu' || origin === new URL(requestUrl).origin
   );
 }
 

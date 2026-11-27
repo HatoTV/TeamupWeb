@@ -1,4 +1,4 @@
-// Cloudflare Worker of teamupp.app. Existing static files are served by Workers static assets (free, unlimited,
+// Cloudflare Worker of teamupp.eu. Existing static files are served by Workers static assets (free, unlimited,
 // the Worker does not run). This script only runs for (free plan: 100,000 invocations per day):
 //   - /api/*: Twitch live status and the matchup update e-mail (wrangler.jsonc run_worker_first);
 //   - videos: static assets ignore Range headers, which Safari needs to play a video (run_worker_first);
